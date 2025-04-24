@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Verwalten einer Zeitleisten-Ansicht {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >* <span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird, und sie ist nicht in der Kalenderansicht verfügbar.</span>
    >
-   >* <span class="preview">Wenn Sie die Zeitleisten -Ansicht aufschlüsseln, um verbundene Objekte in der Zeitleiste anzuzeigen, gilt die Einstellung Balkendetails abschneiden nur für den Hauptdatensatztyp. Dies gilt nicht für die verbundenen Datensatzleisten.</span>
+   >* <span class="preview">Wenn Sie die Zeitleisten -Ansicht aufschlüsseln, um verbundene Objekte anzuzeigen, gilt die Einstellung Balkendetails abschneiden nur für den Hauptdatensatztyp. Dies gilt nicht für die verbundenen Datensatzleisten.</span>
 
 
 1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.

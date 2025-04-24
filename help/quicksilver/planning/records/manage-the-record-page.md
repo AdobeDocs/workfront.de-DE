@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ Folgendes geschieht:
 
    Alle Änderungen am Layout der Datensatzvorschau oder -seite werden automatisch gespeichert.
 
-## Hinzufügen einer Verbindungsansichtsseite zur Seite eines Datensatzes
+## Hinzufügen einer Registerkarte „Verbindungsansicht“ zur Seite eines Datensatzes
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+Sie können Informationen aus verbundenen Datensätzen oder Objekten anzeigen, indem Sie einem Datensatz eine Registerkarte für den Seitentyp „Verbindungsansicht“ hinzufügen. Die Informationen aus den verbundenen Datensätzen werden in einer schreibgeschützten Tabellenansicht angezeigt.
+
+&lt;!-Ersetzen Sie den letzten Satz oben durch diesen bei der Freigabe:
+
+In der Produktionsumgebung werden die Informationen aus den verbundenen Datensätzen oder Objekten in einer schreibgeschützten Tabellenansicht angezeigt.
+
+<Span class="preview">In der Vorschau-Umgebung können die Informationen aus den verbundenen Datensätzen in der Tabellenansicht bearbeitet werden. Die Informationen von Objekten, die mit einer anderen Anwendung verbunden sind, können in der Tabellenansicht nicht bearbeitet werden.</span> —>
 
 Beachten Sie Folgendes, wenn Sie eine Verbindungsansicht zur Seite eines Datensatzes hinzufügen:
 
-* Sie können der Seite eines Datensatzes eine Seite mit einer Verbindungsansicht hinzufügen.
+* Sie können der Seite eines Datensatzes eine Seite für die Verbindungsansicht hinzufügen, nachdem Sie Datensätze oder Objekttypen mit dem Datensatztyp verbunden haben.
 
 * Sie können keine Seite mit einer Verbindungsansicht zum Vorschaubereich eines Datensatzes hinzufügen.
 
-* Seiten der Verbindungsansicht zeigen in der Tabellenansicht eine verbundene Seite des Datensatztyps an.
+* Verbindungsansichtsseiten zeigen in einer Tabellenansicht eine verbundene Datensatztypseite oder einen verbundenen Objekttyp aus einer anderen Anwendung an.
 
 * Nachdem Sie der Seite eines Datensatzes eine Seite mit einer Verbindungsansicht hinzugefügt haben, wird die Registerkarte Seite im Vorschaubereich des Datensatzes angezeigt. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. <!--this might have changed? check and take disclaimer out-->
 
 So fügen Sie eine Seite mit einer Verbindungsansicht hinzu:
 
 1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol **In neuer Registerkarte öffnen** ![Details in einer neuen ](assets/open-details-in-a-new-tab-icon.png) öffnen.
-1. Klicken Sie **Seite hinzufügen** > **Verbindungsansicht**.
+1. Klicken Sie **Seite hinzufügen**.
 
    ![Modal „Verbindungsansicht-Seite hinzufügen“](assets/add-connection-view-page-modal.png)
 1. Fügen Sie den **Seitennamen** hinzu, klicken Sie auf **Verbindungsansicht** und klicken Sie dann auf **Erstellen**.
 
    Der Datensatzseite wird eine neue Registerkarte hinzugefügt.
-1. Suchen oder klicken Sie auf den Namen eines verbundenen Datensatzes oder Objekttyps in der Liste.
-Die Tabellenansicht des ausgewählten Datensatztyps und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
+1. Suchen Sie nach dem Namen eines verbundenen Datensatzes oder Objekttyps in der Liste oder klicken Sie darauf.
+Die Tabellenansicht des ausgewählten Datensatztyps wird auf der neuen Seite angezeigt, und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
 Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Registerkarte des verbundenen Datensatzes angezeigt.
 
    Die ersten fünf Felder der verbundenen Datensatztabelle werden standardmäßig angezeigt. Standardmäßig werden keine Suchfelder angezeigt.
-
-   Die Tabellenansicht ist schreibgeschützt.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Tabellenansicht mit Audience-Verbindung unter Kampagnendetails](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte
+1. (Optional) Führen Sie in der Tabellenansicht der verbundenen Datensätze einen der folgenden Schritte aus:
+
+   * Klicken Sie auf den Namen eines Datensatzes. Dadurch wird die Seite des Datensatzes in einer neuen Registerkarte geöffnet. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Klicken Sie auf **Verbinden**, um weitere Datensätze zu verbinden, und klicken Sie dann zum Schließen auf eine Stelle außerhalb des Verbindungsfelds. Die neuen Datensätze werden der Tabelle automatisch hinzugefügt.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte Verbindungsansicht .
 
    Oder
 
@@ -323,7 +355,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    >
 
 1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbindungsansicht“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die neue Registerkarte „Verbundene Ansicht“ zu entfernen.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbindungsansicht“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
 
 
