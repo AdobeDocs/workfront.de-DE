@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Die [!DNL Workfront for AEM Assets connector] ermöglicht Ihrem Unternehmen Folg
 
 Stellen Sie vor der Installation des [!DNL Workfront]-Connectors für [!UICONTROL AEM Assets] sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-* [!UICONTROL AEM Assets] ist installiert und konfiguriert, Version 6.5 oder höher. Informationen zur Installation von [!UICONTROL AEM Assets] finden Sie unter [[!DNL Adobe Experience Manager] Dokumentation](https://experienceleague.adobe.com/docs/experience-manager.html).
+* [!UICONTROL AEM Assets] ist installiert und konfiguriert, Version 6.5 oder höher. Informationen zur Installation von [!UICONTROL AEM Assets] finden Sie unter [[!DNL Adobe Experience Manager] Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Bedingt) Wenn Ihre Firewall-Regeln Traffic nicht wie erwartet zulassen, fügen Sie die IP-Adresse und/oder Domain Ihres Clusters zu Ihrer Zulassungsliste hinzu. Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installieren des [!DNL Workfront for AEM Assets] Connector-Pakets {#install-the-workfront-for-aem-assets-connector-package}
