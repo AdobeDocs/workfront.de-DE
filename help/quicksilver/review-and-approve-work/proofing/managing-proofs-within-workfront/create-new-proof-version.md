@@ -6,9 +6,9 @@ description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ Wenn Sie einen Standardbetreff und eine Standardnachricht in Ihren persönlichen
 Wenn Sie in Ihren persönlichen Einstellungen keinen Standardbetreff und keine Standardnachricht gespeichert haben, wird Folgendes auf der Seite Neue Version angezeigt:
 
 * Wenn Sie Ihre Prüfer mithilfe der Standard-E-Mail über die vorherige Korrekturabzugsversion benachrichtigt haben (z. B. ohne benutzerdefinierten Betreff/Nachricht), wird die Option Personen per E-Mail benachrichtigen auf der Seite Neue Version standardmäßig ausgewählt. Um eine benutzerdefinierte Nachricht hinzuzufügen, klicken Sie auf den Link.
-* Wenn Sie Ihre Prüfer nicht per E-Mail über die vorherige Korrekturabzugsversion benachrichtigt haben (z. B. keine Standard- oder benutzerdefinierte E-Mail), enthält die Seite Neue Version standardmäßig keine Nachricht. Um Ihre Validierungsverantwortlichen über die neue Version zu informieren, klicken Sie auf den Link Nachricht senden . Sie können dann einen benutzerdefinierten Betreff und eine benutzerdefinierte Nachricht hinzufügen, indem Sie auf den Link Benutzerdefinierte Nachricht hinzufügen klicken.
+* Wenn Sie Ihre Prüfer nicht über die vorherige Korrekturabzugsversion benachrichtigt haben (z. B. keine Standard- oder benutzerdefinierte E-Mail), enthält die Seite Neue Version standardmäßig keine Nachricht. Um Ihre Validierungsverantwortlichen über die neue Version zu informieren, klicken Sie auf den Link Nachricht senden . Sie können dann einen benutzerdefinierten Betreff und eine benutzerdefinierte Nachricht hinzufügen, indem Sie auf den Link Benutzerdefinierte Nachricht hinzufügen klicken.
