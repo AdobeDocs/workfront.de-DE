@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ Folgendes geschieht:
 
 Sie können Informationen aus verbundenen Datensätzen oder Objekten anzeigen, indem Sie einem Datensatz eine Registerkarte für den Seitentyp „Verbindungsansicht“ hinzufügen. Die Informationen aus den verbundenen Datensätzen werden in einer schreibgeschützten Tabellenansicht angezeigt.
 
-&lt;!-Ersetzen Sie den letzten Satz oben durch diesen bei der Freigabe:
+<!--replace the last sentence above with this at release:
 
-In der Produktionsumgebung werden die Informationen aus den verbundenen Datensätzen oder Objekten in einer schreibgeschützten Tabellenansicht angezeigt.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">In der Vorschau-Umgebung können die Informationen aus den verbundenen Datensätzen in der Tabellenansicht bearbeitet werden. Die Informationen von Objekten, die mit einer anderen Anwendung verbunden sind, können in der Tabellenansicht nicht bearbeitet werden.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 Beachten Sie Folgendes, wenn Sie eine Verbindungsansicht zur Seite eines Datensatzes hinzufügen:
 
