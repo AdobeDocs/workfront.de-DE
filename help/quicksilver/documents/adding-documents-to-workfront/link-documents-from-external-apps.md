@@ -6,7 +6,7 @@ description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Wor
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-Korrekturabzug </td> 
-   <td>Sie können Korrekturabzüge, die ursprünglich in Workfront Proof erstellt wurden, in Workfront verfügbar machen. Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Bei den neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</td> 
+   <td>Sie können Korrekturabzüge, die ursprünglich in Workfront Proof erstellt wurden, in Workfront verfügbar machen. Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Bei den neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-Pläne</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
   </tr> 
   <tr> 
    <td role="rowheader">Andere Dokumentenanbieter (über benutzerdefinierte Dokumentenintegrationen)</td> 
-   <td> <p class="workfront_plans">Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Bei den neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://www.workfront.com/plans">Workfront-Pläne</a>.</p> </td>
+   <td> <p class="workfront_plans">Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Bei den neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-Pläne</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -343,11 +343,11 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Verknüpfen von Dokumenten aus Dropbox Business</a> </p> <p>Wir haben Dropbox Business als verfügbare Dokumentenintegration hinzugefügt. Jetzt können Sie direkt von Workfront aus auf Dokumente zugreifen, die Sie in Dropbox Business gespeichert haben.</p> <p>Mit Dropbox Business können Sie freigegebene Dokumente verknüpfen und Dokumente in freigegebene Ordner hochladen. Beim Dropbox (nicht beim Dropbox-Business) kann nur der Eigentümer der Dokumente das Dokument in Workfront anzeigen.</p> <p>Ihr Workfront-Administrator kann diese Integration für Ihr Unternehmen aktivieren.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Verknüpfen von Dokumenten aus Dropbox Business</a> </p> <p>Wir haben Dropbox Business als verfügbare Dokumentenintegration hinzugefügt. Jetzt können Sie direkt von Workfront aus auf Dokumente zugreifen, die Sie in Dropbox Business gespeichert haben.</p> <p>Mit Dropbox Business können Sie freigegebene Dokumente verknüpfen und Dokumente in freigegebene Ordner hochladen. Dropbox (nicht Dropbox Business) ermöglicht es nur dem Eigentümer der Dokumente, das Dokument in Workfront anzuzeigen.</p> <p>Ihr Workfront-Administrator kann diese Integration für Ihr Unternehmen aktivieren.</p> </td> 
    <td> <p><b>Verfügbar zu diesen Daten:</b> </p> <p>Vorschau-Version: Nicht zutreffend<br></p> <p>Produktionsversion: Mit der Version 21.4</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Updates für Workfront zum Slack</a> </p> <p>Die folgenden Aktualisierungen sind jetzt in der Workfront für Slack-Integration sichtbar:</p> <p>Die Workfront für Slack-Integration hat jetzt ein neues Erscheinungsbild. Außerdem erhalten Sie jetzt Ihre Workfront für Slack-Benachrichtigungen in Echtzeit. </p> <p>Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, erhalten Sie diese Benachrichtigung, sobald Sie zugewiesen sind. </p> <p>Zuvor konnte es zu einer Verzögerung kommen, bevor die Benachrichtigung auf Slack erschien.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Updates für Workfront für Slack</a> </p> <p>Die folgenden Aktualisierungen sind jetzt in der Integration von Workfront für Slack sichtbar:</p> <p>Die Integration von Workfront für Slack hat jetzt ein neues Erscheinungsbild. Außerdem erhalten Sie jetzt Ihre Workfront für Slack-Benachrichtigungen in Echtzeit. </p> <p>Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, erhalten Sie diese Benachrichtigung, sobald Sie zugewiesen sind. </p> <p>Zuvor konnte es zu Verzögerungen kommen, bevor die Benachrichtigung in Slack erschien.</p> </td> 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Vorschau der Version: 29. Juli 2021<br></p> <p>Produktionsversion: 29. Juli 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. 
 
 ## Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://one.workfront.com/s/training-release-updates).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktion wird nicht mehr unterstützt
 

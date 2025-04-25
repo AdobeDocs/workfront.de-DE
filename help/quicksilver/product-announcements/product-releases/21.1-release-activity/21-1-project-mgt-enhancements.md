@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Um den Status und Fortschritt eines Projekts leichter freizugeben, können Sie j
 
 Weitere Informationen finden Sie unter [Übersicht über Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 3: Verwalten eines Projekts](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) Lernpfad in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 3: Verwalten eines Projekts](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
 
 ## Update des Anfrageprozentsatzes abgeschlossen, wenn das Projekt oder die Aufgabe aus der Anfrageaktualisierung konvertiert wurde
 
@@ -41,9 +41,9 @@ Damit Sie Ihre gesendeten Anfragen einfacher und konsistenter verwalten können,
 
 Informationen zum Auffinden gesendeter Anfragen finden Sie unter [Suchen gesendeter Anfragen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
 
-Diese Funktion ist jetzt im Lernpfad [Anfragen für das neue Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Anfragen für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) in Workfront One enthalten.
 
 ## Aus der Seite „Neue Anfrage“ entfernte Felder
 

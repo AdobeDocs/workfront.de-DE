@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -288,7 +288,7 @@ Einige Funktionen wurden vor der Version 2020.1 veröffentlicht. Informationen z
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Der Flash Portfolio Optimizer wurde entfernt</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>Die Möglichkeit, zwischen dem neuen und dem veralteten (auf FlashFlash-basierten) Portfolio Optimizer zu wechseln, wurde aus der Workfront Classic-Umgebung für alle Kunden entfernt. Der Legacy Portfolio Optimizer ist eine veraltete Funktion, und die neuen Tools bieten heute dieselben Funktionen.</p> </td> 
+     --> </p> <p>Die Möglichkeit, zwischen dem neuen und dem veralteten (auf FlashFlash-basierten) Portfolio Optimizer zu wechseln, wurde aus der Workfront Classic-Umgebung für alle Kunden entfernt. Der alte Portfolio Optimizer ist eine veraltete Funktion, und die neuen Tools bieten heute dieselben Funktionen.</p> </td> 
    <td> <p>Beta-Vorschau-Version: 27. Februar 2020</p> <p>Produktionsversion: Mit der Version 2020.1</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenomm
 * [Produkt-Roadmap-Webinar im 1. Quartal](#q1-product-roadmap-webinar)
 * [Verschiedene Single Sign-On-Optionen müssen entfernt werden](#various-single-sign-on-options-to-be-removed)
 * [Die Unterstützung für TLS 1.0 und 1.1 endet](#tls-1-0-and-1-1-support-is-ending)
-* [Entfernen einer Flash-Anwendung](#flash-application-removal)
+* [Entfernung der Flash-Anwendung](#flash-application-removal)
 
 ### Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen Zulassungsliste {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar zur Version 2020.1 {#2020-1-release-webinar}
 
@@ -435,9 +435,9 @@ Um optimale Sicherheit zu bieten, verlangt Workfront, dass alle Integrationen un
 
 Weitere Informationen finden Sie unter [TLS 1.2 muss in Adobe Workfront vorhanden sein](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Entfernen einer Flash-Anwendung {#flash-application-removal}
+### Entfernung der Flash-Anwendung {#flash-application-removal}
 
-Alle Funktionen, die auf Flash-Technologie angewiesen sind, wurden seit der Version 2018.3 von Workfront entfernt und durch eine neue Lösung ersetzt.
+Sämtliche Funktionen, die auf der Flash-Technologie basieren, wurden seit der Version 2018.3 von Workfront entfernt und durch eine neue Lösung ersetzt.
 
 Detaillierte Informationen zu den alten Flash-Tools und deren Ersetzungen finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 

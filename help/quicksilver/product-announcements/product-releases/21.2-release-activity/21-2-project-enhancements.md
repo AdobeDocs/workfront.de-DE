@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Im Rahmen der Neugestaltung der Felder Neu und Aufgabe bearbeiten haben wir die 
 
 Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
+Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
 
 ## Neue Schaltflächen in der Kopfzeile Projekte verfügbar
 
@@ -39,7 +39,7 @@ Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://one.wor
 
 Damit Sie die Liste der Projekte auf der Seite „Projekte“ schnell filtern können, gibt es zwei neue Schaltflächen in der Kopfzeile, mit denen Sie die Filter „Projekte, an denen ich mitarbeite“ oder „Projekte, an denen ich mitarbeite“ schnell anwenden können.
 
-Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 1: Erstellen eines Projekts](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) Lernpfad in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 1: Erstellen eines Projekts](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
 
 ## Verschieben oder Löschen einer Story oder eines Problems aus dem Scrum-Board
 
@@ -133,9 +133,9 @@ Benutzer können jetzt Textformatierungen wie fett, Aufzählungslisten und Hyper
 
 Zuvor war die Textformatierung in Workfront Classic nur in den Listen „Projekt“, „Aufgabe“ und „Stunde“ sichtbar.
 
-Informationen zum Formatieren von Text in einem benutzerdefinierten Feld finden Sie unter [Erstellen eines benutzerdefinierten Formulars](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Informationen zum Formatieren von Text in einem benutzerdefinierten Feld finden Sie unter [Erstellen eines benutzerdefinierten Formulars](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Informationen zum Anzeigen von Informationen in Listen finden Sie unter [Erste Schritte mit Listen](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Informationen zum Anzeigen von Informationen in Listen finden Sie unter [Erste Schritte mit Listen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Neues Feld „Aufgabe bearbeiten“
 

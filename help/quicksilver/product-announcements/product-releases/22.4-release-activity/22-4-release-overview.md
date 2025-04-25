@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migration zu Adobe Unified Experience</a> </p>
-                        <p>Wenn Ihr Unternehmen Adobe Admin Console verwendet hat, wird Ihre Workfront-Instanz auf das einheitliche Adobe-Erlebnis mit Version 22.4 migriert.</p>
+                        <p>Wenn Ihr Unternehmen Adobe Admin Console verwendet hat, wird Ihre Workfront-Instanz mit Version 22.4 zum einheitlichen Adobe-Erlebnis migriert.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                      <p>
@@ -605,7 +605,7 @@ Hinweis: Diese Funktion ist derzeit nicht im Workload Balancer im Bereich Teams 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront für InDesign</a> <span style="color: #ff0000;"> Neu in der Produktion!</span> </p>
-                        <p>Dieses Plug-in ist jetzt auf InDesign zu installieren. Dadurch können Sie auf Arbeitselementdetails zugreifen, mit Kollegen im Bereich Aktualisierungen zusammenarbeiten und Testsendungen zur Überprüfung senden, ohne die XD verlassen zu müssen. Gehen Sie zum Adobe Creative Cloud-Marktplatz, um das Plug-in noch heute herunterzuladen. </p>
+                        <p>Dieses Plug-in kann jetzt in InDesign installiert werden. Dadurch können Sie auf Arbeitselementdetails zugreifen, mit Kollegen im Bereich „Updates“ zusammenarbeiten und Testsendungen zur Überprüfung senden, ohne XD verlassen zu müssen. Gehen Sie zum Adobe Creative Cloud-Marktplatz, um das Plug-in noch heute herunterzuladen. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
@@ -640,7 +640,7 @@ Hinweis: Diese Funktion ist derzeit nicht im Workload Balancer im Bereich Teams 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Metadaten-Push für übergeordnete Programm- und Portfolioobjekte</a></p>
-                        <p>Wenn ein Asset zum ersten Mal an Experience Manager Assets oder Assets Essentials gesendet wird, werden auch alle Metadaten gesendet, die für die Zuordnung von übergeordneten Programmobjekten und Portfolioobjekten konfiguriert sind.</p>
+                        <p>Wenn ein Asset zum ersten Mal an Experience Manager Assets oder Assets Essentials gesendet wird, werden auch alle Metadaten gesendet, die für die Zuordnung von übergeordneten Programmobjekten und Portfolioobjekten konfiguriert wurden.</p>
                         <p>Zuvor wurden nur Daten des übergeordneten Projekts gesendet.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -734,7 +734,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinar zur Version 22.4
 
@@ -742,7 +742,7 @@ Das Webinar zur Version 22.4 von findet am Donnerstag, 22. September 2022 um 9:0
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://one.workfront.com/s/training-release-updates).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktion wird mit Version 22.4 entfernt
 

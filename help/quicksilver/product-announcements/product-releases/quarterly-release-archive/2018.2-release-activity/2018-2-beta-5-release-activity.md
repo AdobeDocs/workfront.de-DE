@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Vor dieser Verbesserung würde die Größe der benachbarten Spalte rechts neben 
 
 Informationen zur Größenanpassung der Spalten in Listen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Um an unserem Beta-Testprogramm für die aktuellen Listennutzungsverbesserungen teilzunehmen, siehe [Neue Listenstudie.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Anmeldung erforderlich)
+Um an unserem Beta-Testprogramm für die aktuellen Listennutzungsverbesserungen teilzunehmen, siehe [Neue Listenstudie.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Anmeldung erforderlich)
 
 ## Symbolunterstützung für die neuen Projektlisten {#icon-support-for-the-new-project-lists}
 
@@ -424,7 +424,7 @@ Weitere Informationen finden Sie unter  [Glossar der Terminologie von Adobe Wor
 
 Sie können jetzt beim Proofing in Workfront Proof direkt über die neue Proofing-Anzeige und die Desktop-Proofing-Anzeige eine neue Version eines Korrekturabzugs erstellen.
 
-Zuvor war diese Option nur in der Legacy-Flash-Ansicht verfügbar.
+Zuvor war diese Option nur in Legacy Flash Viewer verfügbar.
 
 Weitere Informationen finden Sie unter [ von Testsendungen in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) Artikel  [Testsendungen in Workfront Proof kopieren](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 

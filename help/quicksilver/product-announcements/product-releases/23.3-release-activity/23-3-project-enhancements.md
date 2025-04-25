@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -29,10 +29,10 @@ In dieser ersten Version wurde der Genehmigungsprozess neben neuen Funktionen op
 * Genehmigungsentscheidungen direkt über Meine Aktualisierungen und Startseite treffen
 * Erstellen von Genehmigungen für bestimmte Dokumentversionen
 
-Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Schaltfläche „Neue Freigabe“
 
 Die Option Freigeben wurde aus dem Menü Mehr für Projekte, Aufgaben und Probleme entfernt, um die Freigabe intuitiver zu gestalten. Die neue Freigabeschaltfläche wird jetzt neben dem Namen eines Objekts direkt vor dem Menü Mehr angezeigt. Die Freigabe von Dokumenten, Portfolios und Programmen bleibt unverändert.
 
-Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

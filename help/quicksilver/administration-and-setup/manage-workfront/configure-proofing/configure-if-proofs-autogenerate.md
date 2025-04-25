@@ -6,7 +6,7 @@ navigation-topic: configure-proofing-functionality
 title: Konfigurieren, ob Korrekturabzüge automatisch generiert werden
 description: Sie können konfigurieren, ob das System automatisch Korrekturabzüge generiert, wenn Sie Benutzer bzw. Benutzerinnen angeben, die Dokumente zu Workfront hinzufügen. Diese Einstellung ist standardmäßig deaktiviert.
 author: Courtney
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-Plan</a> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ae95f1e-5241-465d-8cf1-2d4353077b6a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Eine Liste aller mit Version 2020.1 verfügbaren Änderungen finden Sie unter [�
 
 Um die Konsistenz Ihres Erlebnisses bei der Verwendung von Workfront sowohl in der Mobile App als auch im Web zu verbessern, wird jede Anpassung der sekundären Navigation des linken Bedienfelds in den neuen oder vorhandenen Layout-Vorlagen automatisch in der Mobile App übernommen.
 
-Weitere Informationen zum Anpassen des linken Bereichs finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage in der neuen Workfront-Version](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+Weitere Informationen zum Anpassen des linken Bereichs finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage in der neuen Workfront-Version](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Wie Updates in der Mobile App
 

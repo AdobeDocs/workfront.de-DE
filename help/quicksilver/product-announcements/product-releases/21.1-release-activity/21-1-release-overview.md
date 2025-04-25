@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 0%
@@ -238,7 +238,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Adobe Workfront-Benachrichtigungsverbesserungen in Microsoft Teams </a> </p> <p>Um die Verwendung von Workfront über Microsoft Teams zu vereinfachen, haben wir verschiedene Verbesserungen zu Microsoft Teams-Benachrichtigungen hinzugefügt, die von Workfront gesendet werden.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Adobe Workfront-Benachrichtigungsverbesserungen in Microsoft Teams</a> </p> <p>Um die Verwendung von Workfront über Microsoft Teams zu vereinfachen, haben wir verschiedene Verbesserungen zu den Microsoft Teams-Benachrichtigungen hinzugefügt, die von Workfront gesendet werden.</p> </td> 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschauversion: Nicht zutreffend</p> <p>Produktionsversion: 12. Januar 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -356,7 +356,7 @@ Informationen zu den Wartungs-Updates, die während der Version 21.1 vorgenommen
 * [Neue IP-Adressen für Workfront-E-Mails mit Version 21.1](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
 * [Zulassungsliste der zusätzlichen IP-Adressen für Ereignisabonnements](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
 * [Zulassungsliste der zusätzlichen Domains, die für den Zugriff auf Workfront erforderlich sind](#allowlist-of-additional-domains-required-for-accessing-workfront)
-* Einstellung von [Flash](#flash-deprecation)
+* [Flash-Einstellung](#flash-deprecation)
 * Webinar zur Version [21.1](#21-1-release-webinar)
 * [Änderung des Veröffentlichungsintervalls für die Vorschau](#change-in-preview-release-cadence)
 * [Workfront One](#workfront-one)
@@ -384,7 +384,7 @@ Wenn Ihr Unternehmen eine Firewall verwendet, müssen Sie die folgenden zusätzl
 
 Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-### Einstellung von Flash {#flash-deprecation}
+### Flash-Einstellung {#flash-deprecation}
 
 Alle Flash-basierten Tools wurden am 19. November 2020 aus allen Produkten entfernt.
 
@@ -398,10 +398,10 @@ Das Workfront-Webinar Version 21.1 wird am 3. Februar um 11:00 Uhr EDT/16:00 Uhr
 
 Seit dem 20. Mai 2020 stellt Workfront wöchentlich Funktionen in der Vorschau-Umgebung bereit. Vor dieser Änderung wurden die Funktionen normalerweise alle zwei Wochen in der Vorschau-Umgebung veröffentlicht.
 
-Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).

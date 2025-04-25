@@ -6,7 +6,7 @@ description: Mit Version 20.3 (geplant für August 2020) wird Adobe Workfront au
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Die in diesem Screenshot hervorgehobene Einstellung wird automatisch auf die Ver
 
 Wenn Sie einen benutzerdefinierten SMTP-Mail-Server konfiguriert haben, **wir empfehlen Ihnen dringend, sich an Ihr IT-Team zu wenden** um sicherzustellen, dass E-Mails von notifications@my.workfront.com nicht für eingehende E-Mails auf Ihrem System blockiert werden. Unter Konfigurieren Ihrer Firewall finden Sie auch Informationen darüber, von welchen IP-Adressen unser Traffic und unsere E-Mails stammen.
 
-Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://one.workfront.com/s/support?language=en_US).
+Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/?support-tab=home#support).

@@ -7,7 +7,7 @@ description: Sie können im Textmodus beim Erstellen berechneter benutzerdefinie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Workfront verwenden:
  </thead> 
  <tbody> 
   <tr> 
-   <td>Gleich (ignoriert Groß- und Kleinschreibung)</td> 
+   <td>Equal</td> 
    <td>= </td> 
    <td> <p>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn das erste Feld Ihrer Anweisung dem zweiten Feld entspricht.</p> <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 

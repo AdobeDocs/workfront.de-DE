@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Weitere Informationen zum Filtern im Workload Balancer finden Sie unter [Filter 
 
 Um Ihnen bei korrekten Zuweisungsentscheidungen zu helfen, können Sie jetzt mit einer neuen Einstellung den Stundenunterschied zwischen den Stunden anzeigen, die ein(e) Benutzende(r) gemäß seinem/ihrem Zeitplan arbeiten kann, und den Stunden, die ihm/ihr bereits zugewiesen wurden (die verbleibenden Stunden). Die neue Einstellung ist jetzt im Workload Balancer verfügbar.
 
-Weitere Informationen zum Anzeigen von Informationen im Workload-Balancer finden Sie unter [Navigieren im Workload-Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload-Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Anzeigen von Informationen im Workload-Balancer finden Sie unter [Navigieren im Workload-Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload-Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -76,7 +76,7 @@ Damit Sie besser verstehen können, wie sich Aufgaben auf den Arbeitsaufwand Ihr
 
 Vor dieser Änderung wurden mit dieser Einstellung nur Informationen im Bereich Zugewiesene Arbeit des Balancers aktualisiert.
 
-Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload-Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload-Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload-Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload-Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -90,7 +90,7 @@ Um Ihr Erlebnis zu optimieren, ist jetzt ein Feld Einstellungen verfügbar, in d
 * Gruppe nach Projekt
 * Zeigt entweder die zugewiesenen Stunden oder die verbleibenden Stunden für Ihre Aufgaben und Projekte an.
 
-Weitere Informationen zum Anzeigen von Informationen im Workload-Balancer finden Sie unter [Navigieren im Workload-Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload-Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Anzeigen von Informationen im Workload-Balancer finden Sie unter [Navigieren im Workload-Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload-Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -101,7 +101,7 @@ Weitere Informationen zum Anzeigen von Informationen im Workload-Balancer finden
 
 Jetzt können Sie den Arbeitsaufwand Ihrer Mitarbeiter für Führungskräfte aufteilen, damit diese über Kontext zu Ihrem Personalbedarf verfügen. Dazu können Sie jetzt den Workload-Balancer freigeben, indem Sie eine eindeutige URL für den Workload-Balancer für andere freigeben.
 
-Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -114,7 +114,7 @@ Damit Sie die Zeitleistendauer für den Workload Balancer besser an Ihre Anforde
 
 Vor dieser Verbesserung hat der Workload Balancer immer Informationen angezeigt, die mit der aktuellen Woche beginnen.
 
-Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Navigieren im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -129,11 +129,11 @@ Wenn Sie z. B. einen Vorgang mit der Einschränkung Muss beginnen am in ein ande
 
 Vor dieser Änderung wird die Aufgabenbeschränkung immer auf „So bald wie möglich“ geändert.
 
-Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder bei Verwendung von Adobe Workfront Classic unter [Verschieben von Aufgaben](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder bei Verwendung von Adobe Workfront Classic unter [Verschieben von Aufgaben](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Aufgaben kopieren und duplizieren](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Aufgaben kopieren und duplizieren](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Eine Übersicht über alle Aufgabeneinschränkungen finden Sie unter [Übersicht über Aufgabeneinschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Übersicht über Aufgabeneinschränkungen](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Eine Übersicht über alle Aufgabeneinschränkungen finden Sie unter [Übersicht über Aufgabeneinschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Übersicht über Aufgabeneinschränkungen](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -161,9 +161,9 @@ Benutzerdefinierte Status können jetzt sowohl in einmaligen als auch systemweit
 * Erstellen Sie einen einmaligen Genehmigungsprozess für ein Objekt (Projekt, Aufgabe oder Problem) und basieren Sie ihn auf Status, die mit der Gruppe verknüpft sind, die an diesem Objekt arbeitet. Dazu gehören alle benutzerdefinierten Status, die mit der Gruppe verknüpft sind.
 * Erstellen Sie einen globalen Genehmigungsprozess und stellen Sie ihn nur für die Gruppe oder für alle Personen im System zur Verfügung.
 
-Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse sind Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe [Erstellen von Genehmigungsprozessen](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse sind Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe [Erstellen von Genehmigungsprozessen](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Für Benutzende sind Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe &quot;[ eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Für Benutzende sind Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe &quot;[ eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 

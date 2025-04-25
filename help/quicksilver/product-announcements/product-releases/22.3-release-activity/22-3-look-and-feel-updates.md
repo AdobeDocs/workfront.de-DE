@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 14%
@@ -25,7 +25,7 @@ Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übe
 >
 >Vorschau-Version: 21. April 2022; Produktionsversion: 5. Mai 2022
 
-Um Adobe-Produkte besser abzustimmen und die Konsistenz im gesamten Workfront-Programm zu verbessern, veröffentlichen wir kleinere Änderungen am kosmetischen Stil in der gesamten Workfront-Benutzeroberfläche.
+Um Adobe-Produkte besser abzustimmen und die Konsistenz im gesamten Workfront-Programm zu verbessern, veröffentlichen wir kleinere Änderungen an der Formatierung in der Benutzeroberfläche von Workfront.
 
 Schaltflächen, Farben und Schriftarten werden jetzt im gesamten Workfront-Programm aktualisiert.
 
@@ -43,6 +43,6 @@ Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestal
 
 >[!NOTE]
 >
->Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [ „Wartungs-Update vom 26. Mai 2022](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [ „Wartungs-Update vom 26. Mai 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Wir haben die Breadcrumb-Trennzeichen in allen Bereichen aktualisiert, in denen Breadcrumbs verfügbar sind. Jetzt werden die Objekte in den Breadcrumbs durch senkrechte Striche (|) getrennt. Vor dieser Aktualisierung wurden sie durch Schrägstriche (/) getrennt.

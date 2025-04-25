@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Auf der Grundlage des Feedbacks, das wir von Ihnen erhalten, verbessern wir Ihre
 >
 >**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
 
 ## Zugriffssteuerungen für Workfront-Ziele
 
@@ -61,7 +61,7 @@ Informationen zum Gewähren des Zugriffs auf Workfront-Ziele finden Sie unter [G
 >
 >**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
 
 ## Verbesserungen der Benutzerfreundlichkeit von Workfront Goals
 
@@ -82,4 +82,4 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Benutzerdefinierte Status können jetzt sowohl in einmaligen als auch systemweit
 * Erstellen Sie einen einmaligen Genehmigungsprozess für ein Objekt (Projekt, Aufgabe oder Problem) und basieren Sie ihn auf Status, die mit der Gruppe verknüpft sind, die an diesem Objekt arbeitet. Dazu gehören alle benutzerdefinierten Status, die mit der Gruppe verknüpft sind.
 * Erstellen Sie einen globalen Genehmigungsprozess und stellen Sie ihn nur für die Gruppe oder für alle Personen im System zur Verfügung.
 
-Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse sind Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe [Erstellen von Genehmigungsprozessen](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse sind Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe [Erstellen von Genehmigungsprozessen](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Für Benutzende sind Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe &quot;[ eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Für Benutzende sind Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe &quot;[ eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Eine Liste aller Änderungen, die mit Version 22.2 verfügbar sind, finden Sie u
 
 ## Adobe Workfront mit Anaplan-Integration jetzt verfügbar
 
-Um Ihnen mehr Flexibilität und Einblicke in die finanziellen Aspekte Ihrer Workfront-Projekte zu bieten, kann Workfront jetzt in Ihr Anaplan-Konto integriert werden. Durch die Verknüpfung von Workfront-Objekten mit Anaplan-Objekten können Sie die Informationen zwischen den beiden Konten automatisch aktualisieren, um sicherzustellen, dass die Informationen in beiden auf dem neuesten Stand und identisch sind. Sie können auch automatisierte Prozesse in Anaplan basierend auf Aktionen in Workfront (oder umgekehrt) in Trigger nehmen.
+Um Ihnen mehr Flexibilität und insight bei den finanziellen Aspekten Ihrer Workfront-Projekte zu bieten, kann Workfront jetzt in Ihr Anaplan-Konto integriert werden. Durch die Verknüpfung von Workfront-Objekten mit Anaplan-Objekten können Sie die Informationen zwischen den beiden Konten automatisch aktualisieren, um sicherzustellen, dass die Informationen in beiden auf dem neuesten Stand und identisch sind. Sie können auch automatisierte Prozesse in Anaplan basierend auf Aktionen in Workfront (oder umgekehrt) in Trigger nehmen.
 
 Sie können beispielsweise eine Kampagne in Anaplan erstellen und dann ein Workfront-Projekt oder -Programm erstellen, das mit der Kampagne verknüpft ist. Alle in Workfront nachverfolgten Kosten können dann wieder in Anaplan hochgeladen werden, um die Kampagnenleistung zu überprüfen.
 
@@ -41,21 +41,21 @@ Andere Workflows, für die Sie die Integration von Workfront in Anaplan in Betra
 
 Weitere Informationen finden Sie unter [Adobe Workfront mit Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
-## Aktualisierungen des erweiterten Connectors von Workfront für Experience Manager
+## Updates für den erweiterten Connector von Workfront für Experience Manager
 
-Der erweiterte Workfront for Experience Manager-Connector enthält jetzt die folgenden Aktualisierungen:
+Der erweiterte Connector von Workfront für Experience Manager enthält jetzt die folgenden Aktualisierungen:
 
-* Sie können jetzt zwischen Adobe Workfront und Adobe Experience Manager Assets as a Cloud Service verknüpfte Ordner erstellen, auch wenn mehrere Konfigurationen für verknüpfte Projektordner vorhanden sind.
+* Sie können jetzt zwischen Adobe Workfront und Adobe Experience Manager Assets as a Cloud Service verknüpfte Ordner erstellen, auch wenn es mehrere Konfigurationen für verknüpfte Projektordner gibt.
 * Unterstützung für die Paginierung von Ereignisabonnements hinzugefügt
-* Hinzugefügte Unterstützung für AEM 6.4.x
+* Unterstützung für AEM 6.4.x hinzugefügt
 * Unterstützung für Proxy-Umgebungen hinzugefügt
 * Mehrere Fehlerbehebungen auf der Grundlage von Partner- und Kunden-Feedback
 
-Weitere Informationen finden Sie unter Übersicht über den erweiterten Connector für [Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Weitere Informationen finden Sie unter Übersicht über den erweiterten Connector von [Workfront für Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->Für die Bereitstellung und Konfiguration dieses Connectors ist ein zertifizierter Partner erforderlich. Weitere Informationen finden [ unter „Installieren des erweiterten Connectors ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) Workfront for Experience Manager&quot;.
+>Für die Bereitstellung und Konfiguration dieses Connectors ist ein zertifizierter Partner erforderlich. Weitere Informationen finden [ unter „Installieren des erweiterten Connectors ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) Workfront für Experience Manager&quot;.
 
 ## Adobe Creative Cloud-Integrationen verwenden jetzt OAuth2
 

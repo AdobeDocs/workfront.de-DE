@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Tipps zur Vorbereitung auf die bevorstehende Version finden Sie unter [Vorbereit
 
 ## Webinar zur Version
 
-Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Summit zu registrieren, um die folgenden Workfront-Sitzungen zu sehen:
+Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Summit zu registrieren, um die folgenden Workfront-Sitzungen anzusehen:
 
 [Wirksame Erlebnisse: Von der Inhaltserstellung bis zur Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) am 21. März 2023, um neue Möglichkeiten zur Erstellung, Verwaltung und Personalisierung von Inhalten zu erlernen und wirkungsvolle Erlebnisse effizienter bereitzustellen. Diese Sitzung wird für virtuelle Zielgruppen live gestreamt.
 
@@ -516,8 +516,8 @@ Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Su
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neu bei Workfront für Creative Cloud-Plug-ins</a>
-                        <p>Wir haben die folgenden Änderungen an der Workfront für Creative Cloud-Plug-ins hinzugefügt:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neu bei den Workfront für Creative Cloud-Plug-ins</a>
+                        <p>Wir haben die folgenden Änderungen an den Plug-ins für Workfront for Creative Cloud hinzugefügt:
                         <ul>
                         <li>Das Plug-in benachrichtigt Sie jetzt, wenn eine Aufgabe einen Vorgänger hat</li>
                         <li>Koreanisch wird jetzt unterstützt</li>
@@ -553,10 +553,10 @@ Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Su
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Kunden werden zum Adobe Unified Experience hinzugefügt</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Kunden werden in das einheitliche Adobe-Erlebnis integriert</a></p>
                         <p>Das einheitliche Adobe-Erlebnis umfasst:
                         <ul>
-                        <li>Eine einzige Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud</li>
+                        <li>Eine einzige Anmeldung für alle Adobe-Programme über Adobe Experience Cloud</li>
                         <li>Ein „Organisationswechsel“, um zwischen Workfront-Organisationen und -Umgebungen zu wechseln</li>
                         <li>Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil</li>
                         </ul>
@@ -592,8 +592,8 @@ Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Su
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportieren Sie Zeichenflächen als einzelne PDF oder mehrere PDF-Dateien in Adobe Workfront for XD</span></a>
-                        <p>Im Plug-in Adobe Workfront for XD können Sie jetzt Ihre Zeichenflächen als eine einzelne PDF-Datei oder mehrere PDF-Dateien exportieren.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportieren Sie Zeichenflächen als einzelne PDF- oder mehrere PDF-Dateien in Adobe Workfront for XD</span></a>
+                        <p>Im Plug-in Adobe Workfront für XD können Sie jetzt Ihre Zeichenflächen als eine PDF-Datei oder mehrere PDF-Dateien exportieren.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
@@ -653,11 +653,11 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die während der Version 23.2 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die während der Version 23.2 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktion wird bald aus Workfront entfernt
 

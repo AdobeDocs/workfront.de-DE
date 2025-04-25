@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Im Bereich Audit-Protokolle können Sie jetzt Änderungen in weiteren Bereichen 
 
 Weitere Informationen finden Sie [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Diese Funktion ist jetzt in den [Admin-Grundlagen für die neue Workfront-Version - Teil 2: Projekteinrichtung - Lernpfad ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Admin-Grundlagen für die neue Workfront-Version - Teil 2: Projekteinrichtung - Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Für Gruppenadministratoren: Verbesserte Steuerelemente zum Verschieben von Untergruppen und eine aktualisierte Symbolleiste
 
@@ -137,7 +137,7 @@ Zuvor konnten diese Standardwerte nicht angepasst werden, daher wurden sie immer
 
 Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Diese Funktion ist jetzt in den Administratorgrundlagen [ neuen Workfront-Erlebnisses, Teil 3: Lernpfad „Kontrolle und Benutzeroberfläche“ ](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) Workfront One enthalten.
+Diese Funktion ist jetzt in den Administratorgrundlagen [ neuen Workfront-Erlebnisses, Teil 3: Lernpfad „Kontrolle und Benutzeroberfläche“ ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Neu für Admins: Einfaches Auflisten der Berichte, die derzeit ein benutzerdefiniertes Feld verwenden
 

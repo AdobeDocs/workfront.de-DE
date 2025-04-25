@@ -4,7 +4,7 @@ title: Zugriff auf die Adobe Workfront-Hilfe
 description: Workfront bietet eine Vielzahl von Inhalten, die Ihnen helfen, Antworten auf Fragen zu den Funktionen der verschiedenen von Workfront angebotenen Produkte zu finden.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -40,11 +40,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Zugriff auf die [!DNL Adobe Workfront] auf Experience League
 
-1. Navigieren Sie zur [[!DNL Adobe Workfront] Dokumentationsseite auf [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Navigieren Sie zur [[!DNL Adobe Workfront] Dokumentationsseite auf [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Neben der Suche nach der Hilfedokumentation können Sie auch auf die folgenden [!DNL Workfront] Ressourcen von Experience League zugreifen:
+Neben der Suche nach der Hilfedokumentation können Sie auch auf die folgenden [!DNL Workfront] Ressourcen in Experience League zugreifen:
 
-* Workfront Tutorials: Weitere Informationen finden Sie unter [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* Workfront-Tutorials: Weitere Informationen finden Sie unter [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: Weitere Informationen finden Sie unter [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * [!UICONTROL [!DNL Workfront]-Community]: Weitere Informationen finden [ unter [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

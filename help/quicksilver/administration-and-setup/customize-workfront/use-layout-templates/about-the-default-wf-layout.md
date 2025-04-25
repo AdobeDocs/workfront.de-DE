@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 9%
@@ -48,7 +48,7 @@ In der folgenden Tabelle werden die Standardmenüoptionen und die im linken Bedi
     <th class="tg-0lax"><span style="font-weight:bold">Bereich</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">Elemente des linken Bedienfelds</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">Systemadministrator</span></th>
-    <th class="tg-0lax"><span style="font-weight:bold">Planer</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Planerin oder Planer</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">Arbeitskraft</span></th>
     <th class="tg-1wig">Prüfende Person</th>
     <th class="tg-1wig">Anfragender</th>
@@ -156,7 +156,7 @@ In der folgenden Tabelle werden die Standardmenüoptionen und die im linken Bedi
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Anforde- rungen</td>
+    <td class="tg-0lax">Anforderungen</td>
     <td class="tg-0lax">eingereicht<br>Entwürfe</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -166,7 +166,7 @@ In der folgenden Tabelle werden die Standardmenüoptionen und die im linken Bedi
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Arbeitszeit- tabellen</td>
+    <td class="tg-0lax">Arbeitszeittabellen</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -376,7 +376,7 @@ In der folgenden Tabelle werden die Standardmenüoptionen und die im linken Bedi
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Anforde- rungen</td>
+    <td class="tg-0pky">Anforderungen</td>
     <td class="tg-0pky">eingereicht<br>Entwürfe</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
@@ -385,7 +385,7 @@ In der folgenden Tabelle werden die Standardmenüoptionen und die im linken Bedi
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Arbeitszeit- tabellen</td>
+    <td class="tg-0pky">Arbeitszeittabellen</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>

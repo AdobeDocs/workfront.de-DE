@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -511,9 +511,9 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe-KI-Assistent in Workfront verfügbar</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI-Assistent in Workfront verfügbar</a></p>
                     [!BADGE In Production ]{type=Informative}
-                    <p>Um Ihnen die Durchführung Ihrer Arbeit zu erleichtern, haben wir den KI-Assistenten für die Adobe zu Workfront hinzugefügt. Der KI-Assistent kann Ihnen helfen, indem er:</p>
+                    <p>Um Ihnen die Durchführung Ihrer Arbeit zu erleichtern, haben wir den KI-Assistenten von Adobe zu Workfront hinzugefügt. Der KI-Assistent kann Ihnen helfen, indem er:</p>
                     <ul>
                         <li>Zusammenfassen von Arbeitselementen und Dokumenten, sodass Sie schnell ein allgemeines Verständnis über Aufgaben, Projekte und Assets erhalten.</li>
                         <li>Bereitstellen von Informationen aus der Experience League-Dokumentation, Einbringen von Anweisungen und Referenzmaterial in Workfront und Links zu ausführlicheren Dokumentationen.</li>
@@ -591,8 +591,8 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im vierten Quartal 2024 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die im vierten Quartal 2024 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Mit dieser neuen Funktion sind jetzt die folgenden Verbesserungen verfügbar:
 
 Weitere Informationen über den Arbeitsaufwand finden Sie [Arbeitsaufwand - Übersicht](../../../manage-work/tasks/task-information/work-effort.md).
 
-Diese Funktion ist jetzt in den [Planergrundlagen, Teil 2 des Lernpfads) ](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen, Teil 2 des Lernpfads) ](https://experienceleague.adobe.com/en/docs/workfront/using/home) Workfront One enthalten.
 
 ## Projektstatusbasierte Farben für Arbeitselemente im Workload Balancer
 

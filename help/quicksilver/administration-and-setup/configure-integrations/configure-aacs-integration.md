@@ -6,7 +6,7 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Bevor Sie mit der Zuordnung von Metadatenfeldern beginnen, müssen Sie Metadaten
 
 So konfigurieren Sie Metadatenfelder:
 
-1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe  [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe  [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurieren von benutzerdefinierten Formularfeldern in Workfront. [!DNL Workfront] verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen, wie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
@@ -151,7 +151,7 @@ Sie können jedes von Workfront unterstützte Feld einem Tag in Experience Manag
 
 Nachdem Sie die Tags in Experience Manager Assets erstellt haben, werden sie unter der Dropdown-Liste „Tags“ im Abschnitt „Metadaten“ angezeigt. Um ein Feld mit einem Tag zu verknüpfen, wählen Sie `xcm:keywords` in der Dropdown-Liste Experience Manager Assets-Feld im Bereich für die Metadatenzuordnung aus.
 
-Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Benutzerdefinierte Experience Manager Assets-Metadatenschemafelder**
 
@@ -251,7 +251,7 @@ Workflows sind für die Adobe Experience Manager als Ganzes aktiviert und konfig
 Die folgenden Workflows sind in der Adobe Experience Manager-Integration verfügbar:
 
 * [Erstellen von mit Adobe Experience Manager verknüpften Ordnern](#create-adobe-experience-manager-linked-folders)
-* [Publish-Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Erstellen von mit Adobe Experience Manager verknüpften Ordnern
 
@@ -282,7 +282,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
    1. (Optional) Um einen Ordner zu löschen, wählen Sie den Ordner aus und klicken Sie auf das Symbol **Ordner löschen** ![Ordner löschen](assets/delete-folder.png).
 1. (Bedingt) Um eine weitere Ordnerstruktur hinzuzufügen, klicken Sie auf **+ Ordnerstruktur hinzufügen** führen Sie die Schritte in Schritt 5 aus.
 
-1. Klicken Sie **[!UICONTROL Speichern]** oder gehen Sie zum Abschnitt [Publish-Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel.
+1. Klicken Sie **[!UICONTROL Speichern]** oder gehen Sie zum Abschnitt [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel.
 
 >[!NOTE]
 >
@@ -291,9 +291,9 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 >* Wenn keine Ordnerstruktur bereitgestellt wird, wird der Stammordner zum verknüpften Ordner.
 
 
-### Publish-Assets, die an Adobe Experience Manager Assets gesendet werden
+### Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden
 
-1. Schalten Sie **[!UICONTROL Publish-Assets automatisch ein]**.
+1. Schalten Sie **[!UICONTROL Assets automatisch veröffentlichen]** ein.
 1. Aktivieren Sie das Kontrollkästchen neben dem Speicherort, an dem Sie an Adobe Experience Manager Assets gesendete Assets veröffentlichen möchten. Sie können eine oder beide Optionen aktivieren.
 1. (Bedingt) Wenn Sie die Option &quot;Brand Portal&quot; aktiviert haben, wählen Sie die Brand Portal aus, in der Sie Assets veröffentlichen möchten.
 1. Klicken Sie **[!UICONTROL Speichern]** oder gehen Sie zum Abschnitt [Einrichten verknüpfter Ordner (Optional](#set-up-linked-folders-optional) in diesem Artikel.

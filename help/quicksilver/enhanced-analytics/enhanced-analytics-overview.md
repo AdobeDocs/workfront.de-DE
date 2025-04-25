@@ -3,11 +3,11 @@ title: Erweiterte Analyse - Übersicht
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit denen Sie Projektdaten betrachten und Trends bei der Planung und beim Abschluss identifizieren können. Dieser Einblick in Ihre Projekte hilft Ihnen, Ihre aktuelle Arbeit zu verwalten und Ihre zukünftigen Arbeiten genauer zu planen.
+description: Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit denen Sie Projektdaten betrachten und Trends bei der Planung und beim Abschluss identifizieren können. Diese insight in Ihren Projekten hilft Ihnen bei der Verwaltung Ihrer aktuellen Arbeit und ermöglicht es Ihnen, die zukünftige Arbeit genauer zu planen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
 
 
-Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit denen Sie Projektdaten betrachten und Trends bei der Planung und beim Abschluss identifizieren können. Dieser Einblick in Ihre Projekte hilft Ihnen, Ihre aktuelle Arbeit zu verwalten und Ihre zukünftigen Arbeiten genauer zu planen.
+Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit denen Sie Projektdaten betrachten und Trends bei der Planung und beim Abschluss identifizieren können. Diese insight in Ihren Projekten hilft Ihnen bei der Verwaltung Ihrer aktuellen Arbeit und ermöglicht es Ihnen, die zukünftige Arbeit genauer zu planen.
 
 Die erweiterte Analyse kann Ihnen dabei helfen, Folgendes zu identifizieren:
 
@@ -34,7 +34,7 @@ Die erweiterte Analyse kann Ihnen dabei helfen, Folgendes zu identifizieren:
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://one.workfront.com/s/enhanced-analytics-program).
+Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Voraussetzungen
 
@@ -42,11 +42,11 @@ Um auf den erweiterten Analysebereich zuzugreifen, müssen Sie:
 
 * Einen Business- oder Enterprise-Plan haben.
 
-  Weitere Informationen finden Sie unter [Workfront-Pläne](https://www.workfront.com/plans).
+  Weitere Informationen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 * Bitten Sie Ihren Workfront-Administrator, Ihrer Layoutvorlage erweiterte Analysen hinzuzufügen.
 
-  Weitere Informationen finden Sie unter [Erweiterte Analyse: Hinzufügen von Analysen zu Layout-Vorlagen](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Weitere Informationen finden Sie unter [Erweiterte Analyse: Hinzufügen von Analysen zu Layout-Vorlagen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Um Informationen zu Projekten und Aufgaben anzuzeigen, gehen Sie folgendermaßen vor:
 
@@ -139,7 +139,7 @@ Wenn Sie eine Bildschirmlesehilfe oder ein Plug-in verwenden, liest die Bildschi
 
 ## Erweiterte Analyseansichten und -funktionen
 
-Weitere Informationen zu den Details einer bestimmten Funktion in Enhanced Analytics, zu den Aktionen, die Sie durchführen können, um weitere Einblicke zu erhalten, und dazu, was Sie aus diesen Daten lernen können, finden Sie in den folgenden Artikeln:
+Weitere Informationen zu den Details einer bestimmten Funktion in Enhanced Analytics, zu den Aktionen, die Sie durchführen können, um weitere insight zu erhalten, und zu dem, was Sie aus diesen Daten lernen können, finden Sie in den folgenden Artikeln:
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,7 +6,7 @@ description: Ohne entsprechende Zugriffsrechte können Sie Ihre Arbeitszuweisung
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan Ihres Unte
  </tbody> 
 </table>
 
-Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://www.workfront.com/plans).
+Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Informationen dazu, wo Sie den Workload-Balancer in Workfront finden können, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -104,7 +104,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um den Workload-Balanc
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Contribute oder höhere Berechtigungen für das Projekt, dessen Zuweisungen Sie verwalten möchten, einschließlich der Berechtigungen zum Zuweisen von Zuweisungen. </p> <p>Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p></td>
+   <td> <p> Tragen Sie Berechtigungen oder höhere Berechtigungen für das Projekt bei, dessen Zuweisungen Sie verwalten möchten, einschließlich Berechtigungen zum Ausführen von Zuweisungen. </p> <p>Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>

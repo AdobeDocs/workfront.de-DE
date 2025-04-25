@@ -7,7 +7,7 @@ description: Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-Plan</a>*</td> 
    <td> <p>Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. Um weitere Projektinformationen anzuzeigen, klicken Sie in der Visualisierung auf ein Projekt, um den Burndown und die Aufgaben in Flugvisualisierungen zu öffnen.
 
-   Diese Visualisierungen können Ihnen dabei helfen, tiefere Einblicke zu erhalten, was dazu geführt hat, dass das Projekt aus dem Gleis geraten ist. Außerdem können Sie damit problemlos in ein laufendes Projekt einchecken.\
+   Diese Visualisierungen können Ihnen dabei helfen, tiefer in insight zu erfahren, was dazu geführt hat, dass das Projekt aus dem Gleis geraten ist. Außerdem können Sie damit problemlos in ein laufendes Projekt einchecken.\
    Weitere Informationen zur Burndown-Visualisierung finden Sie unter [Anzeigen der Burndown-Visualisierung in Enhanced Analytics](../enhanced-analytics/burndown-overview.md). Weitere Informationen zu den Aufgaben in der Flugvisualisierung finden Sie unter [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md).
 

@@ -8,7 +8,7 @@ description: Datensicherheit ist für [!DNL Workfront Proof] von größter Bedeu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Datensicherheit ist für [!DNL Workfront Proof] von größter Bedeutung. Wir inv
 
 Dadurch bieten wir unseren Kunden ein unübertroffenes Maß an Sicherheit und Datenschutz.
 
-Weitere Einzelheiten finden Sie auf [ Seite ](https://www.workfront.com/workfront-security)Sicherheitsübersicht“.
+Weitere Einzelheiten finden Sie auf [ Seite ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)Sicherheitsübersicht“.
 
 ## Elektronische Signaturen erforderlich
 

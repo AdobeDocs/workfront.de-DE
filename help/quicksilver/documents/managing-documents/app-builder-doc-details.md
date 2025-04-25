@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Sie müssen über Folgendes verfügen:
 Unternehmen müssen mit ihren Account Managern zusammenarbeiten, um AppBuilder zu erwerben. Der genaue Prozess dafür ist nicht verstanden, da wir dies für den POC nicht tun mussten.
 
 Wenn Sie die AppBuilder-Integration testen möchten, können Sie hier eine kostenlose Testversion für Ihre IMS-Organisation anfordern:
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 Ich habe den Eindruck, dass sie die Testversion, auch wenn es eine kostenlose 30-Tage-Testversion ist, danach nicht mehr deaktivieren werden.
 

@@ -8,7 +8,7 @@ description: Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhand
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für [!UICONTROL  Verwendung ] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://www.workfront.com/plans).
+Für [!UICONTROL  Verwendung ] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhandenen Benutzernamen und Kennwort Ihres Unternehmens bei [!DNL Workfront Proof] anmelden.
 

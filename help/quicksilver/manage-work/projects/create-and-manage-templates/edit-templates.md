@@ -6,7 +6,7 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4877'
 ht-degree: 2%
@@ -680,7 +680,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Inhaber der Vorlage</strong></td> 
+         <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
          <td><p>Der Benutzer, der als Vorlagenbesitzer festgelegt ist, muss ein aktiver Workfront-Benutzer sein. </p><p>Beachten Sie Folgendes über den Benutzer, der als Vorlagenbesitzer festgelegt ist: </p> 
          <ul> 
          <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
@@ -690,7 +690,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul></td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Vorlagen-Sponsor</strong></td> 
+         <td role="rowheader"><strong>Vorlagensponsor</strong></td> 
          <td><p>Der in diesem Feld angegebene Benutzer wird zum Projektsponsor, wenn die Vorlage zum Projekt hinzugefügt wird. Dieser Benutzer wird dem Projekt-Team hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Vorlagensponsor angegeben ist, muss ein aktiver Workfront-Benutzer sein. </p></td> 
        </tr> 
        <tr> 

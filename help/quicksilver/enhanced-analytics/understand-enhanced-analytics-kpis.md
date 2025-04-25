@@ -7,7 +7,7 @@ description: Im erweiterten Analysebereich werden oben im Bildschirm vier wichti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 
 Für die Verwendung dieser Funktion ist ein Geschäftsplan oder höher erforderlich.\
-Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Adobe Workfront-Pläne](https://www.workfront.com/plans).
+Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Adobe Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Im erweiterten Analysebereich werden oben im Bildschirm vier wichtige Leistungsindikatoren (KPIs) angezeigt. Mit diesen Metriken können Sie schnell ermitteln, wie lange Projekte dauern, wie groß die Projekte sind und wie viele Projekte in einem bestimmten Zeitrahmen abgeschlossen werden. Diese Zahlen sind nicht auf die maximal 50 Projekte beschränkt, die für die Visualisierungen auf dieser Seite angezeigt werden. Stattdessen basieren diese Daten auf allen Projekten, die für beliebige Filtersätze gelten. Diese Zahlen werden angepasst, wenn Sie den ausgewählten Datumsbereich oder einen der Filter ändern.
 

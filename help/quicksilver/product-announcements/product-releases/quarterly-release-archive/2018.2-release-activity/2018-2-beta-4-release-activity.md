@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Der Export der Daten aus dem Ressourcenplaner wurde vorübergehend deaktiviert, 
 
 Weitere Informationen zum Exportieren der Ressourcenplaner-Daten nach Excel finden Sie im Abschnitt „Exportoption“ in [Übersicht über die Ressourcenplaner-](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Systemeinstellung: Sitzungsinformationen auf externen Seiten {#system-setting-session-information-in-external-pages}
 
@@ -169,7 +169,7 @@ Im Gantt-Diagramm können Sie jetzt bis zu 500 Aufgaben exportieren.
 
 Zuvor konnten Sie nur bis zu 250 Aufgaben exportieren.
 
-Weitere Informationen finden Sie unter [Gantt-Diagramm nach PDF exportieren](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Weitere Informationen finden Sie unter [Exportieren des Gantt-Diagramms nach PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
 ## Die Option Aus Zwischenablage einfügen wird jetzt bei Verwendung von Internet Explorer oder Safari als abgeblendet angezeigt {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 

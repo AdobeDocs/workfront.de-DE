@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Um Ihre tägliche Arbeit mit Kalendern besser visualisieren und verwalten zu kö
 
 Zuvor konnten Sie Ihren Kalender nur mit projizierten, geplanten Terminen verwalten, wenn keine tatsächlichen Termine verfügbar waren.
 
-Weitere Informationen finden Sie unter [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (oder wenn Sie Workfront Classic verwenden, finden Sie [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Weitere Informationen finden Sie unter [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (oder wenn Sie Workfront Classic verwenden, finden Sie [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## E-Mail-Änderungen
 
@@ -82,7 +82,7 @@ Zuvor konnten Systemadministratoren im Bereich „E-Mail-Setup“ eine benutzerd
 
 **POP-Antwortänderungen für eingehende E-Mails:** Systemadministratoren können jetzt keinen benutzerdefinierten POP-E-Mail-Server mehr für eingehende E-Mail-Antworten auf Benachrichtigungen konfigurieren.
 
-Weitere Informationen finden Sie unter [E-Mail-Spoofing und POP-Antwort-E-Mail-Änderungen](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Weitere Informationen finden Sie unter [E-Mail-Spoofing und POP-Antwort-E-Mail-Änderungen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) ist jetzt in ausgehenden Workfront-E-Mails enthalten
 

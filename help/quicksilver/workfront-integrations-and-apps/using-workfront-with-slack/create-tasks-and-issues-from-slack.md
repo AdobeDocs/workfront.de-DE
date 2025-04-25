@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Erstellen von Aufgaben und Problemen vom Slack aus
-description: Nach der Installation und Konfiguration  [!DNL Adobe Workfront]  Slack können Sie Aufgaben und Probleme von Slack erstellen und mit Projekten in Workfront verknüpfen.
+title: Erstellen von Aufgaben und Problemen aus Slack
+description: Nach der Installation und Konfiguration  [!DNL Adobe Workfront]  Slack können Sie Aufgaben und Probleme aus Slack erstellen und sie mit Projekten in Workfront verknüpfen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Nachdem Sie [!DNL Adobe Workfront for Slack] installiert und konfiguriert haben,
 
 Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit [!DNL Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Sie müssen Zugriff haben, um Aufgaben und Probleme in Ihrer Zugriffsebene zu erstellen, und Sie müssen [!UICONTROL Contribute]-Berechtigungen für das Projekt haben, mit dem Sie sie verknüpfen.
+Sie müssen Zugriff haben, um Aufgaben und Probleme in Ihrer Zugriffsebene zu erstellen, und Sie müssen [!UICONTROL Beitragen] für das Projekt haben, mit dem Sie sie verknüpfen.
 
 Weitere Informationen zu Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). Weitere Informationen zu Berechtigungen für Objekte finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -34,7 +34,7 @@ Sie müssen über Folgendes verfügen:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
  </tbody> 

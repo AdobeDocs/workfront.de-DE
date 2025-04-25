@@ -7,7 +7,7 @@ description: Für die Verwendung dieser Funktion ist ein Select- oder Premium-Pl
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für die Verwendung dieser Funktion ist ein Select- oder Premium-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne](https://www.workfront.com/plans).
+Für die Verwendung dieser Funktion ist ein Select- oder Premium-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Sie können Benutzergruppen erstellen, die Sie als Prüfer für mehrere Korrekturabzüge hinzufügen können. Dies ist nützlich, wenn Sie regelmäßig Inhalte an dieselben Benutzer senden.
 

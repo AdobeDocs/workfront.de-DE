@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Zuvor mussten Sie zum Workflow Dokumentdetails und Korrekturabzug gehen, um die 
 
 Weitere Informationen zu Korrekturabzugsentscheidungen finden Sie [Bereich Dokumente](../../../documents/managing-documents/documents-area.md).
 
-Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) auf Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
 
 ## Neue Felder im Bericht zu Korrekturabzugsgenehmigungen
 
@@ -45,7 +45,7 @@ Um nützliche Proofing-Informationen aufdecken zu können, haben wir die folgend
 
 Diese Felder sind nicht Teil des Standardberichts. Sie müssen sie hinzufügen, wenn Sie sie sehen möchten.
 
-Diese Funktion ist jetzt in den [Testsystem-Setups, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Lernpfad in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Testsystem-Setups, Teil 2: Workflow-Management](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
 
 ## Übernehmen des vorhandenen Korrekturabzugs-Workflows beim Generieren einer neuen Version
 

@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -17,13 +17,13 @@ ht-degree: 0%
 Diese Seite enthält Informationen zur Funktionalität, die in der Version vom zweiten Quartal 2024 enthalten ist. Diese Verbesserungen wurden mit der Version 24.4 vom 10. und 11. April 2024 in der Produktionsumgebung für alle Kunden verfügbar gemacht.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für [Adobe Summit registrieren](https://summit.adobe.com/na/) um die folgenden Workfront-Sitzungen anzusehen:
+Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für [ Adobe Summit zu registrieren](https://summit.adobe.com/na/) um die folgenden Workfront-Sitzungen anzusehen:
 
 [Die Zukunft von Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) am 26. März 2024, um eine Vorschau auf die Zukunft der strategischen Planung und des Workflows zu erhalten. Erfahren Sie, wie das Workfront-Team Geschäftsfunktionen über den gesamten Marketing-Lebenszyklus hinweg mit einem KI-First-Ansatz zur Automatisierung der Arbeit, zur Vereinfachung von Anwendererlebnissen und zur Steigerung der Produktivität ansprechen möchte.
 
 [Vorstellung von Marketing-Kalendern und Tools für die End-to-End](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304)Kampagnenplanung am 28. März 2024, um mehr über neue Produktfunktionen zu erfahren, mit denen Ihr Unternehmen End-to-End-Betriebszyklen verwalten und visualisieren kann.
 
-Sie können auch [eine PDF-Datei anzeigen](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} mit Highlights der Version 24.4.
+Sie können auch [eine PDF-Datei anzeigen](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} mit den Highlights der Version 24.4.
 
 <span class="preview">Off-Cycle-Funktionen (die vor dem Veröffentlichungsdatum des zweiten Quartals 2024 in der Produktion veröffentlicht wurden) sind gelb hervorgehoben.</span>
 
@@ -662,9 +662,9 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im zweiten Quartal 2024 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die im zweiten Quartal 2024 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 

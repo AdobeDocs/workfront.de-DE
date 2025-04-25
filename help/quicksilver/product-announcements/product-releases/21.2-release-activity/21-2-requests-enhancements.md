@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Während wir Ihr Feedback zur Erstellung von Anfragen in die neue Workfront-Vers
 
 Informationen zum Erstellen neuer Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
 
 ## Verbesserungen am Anforderungs-Workflow
 
@@ -64,7 +64,7 @@ Während wir Ihr Feedback weiterhin anhören und integrieren, haben wir einige V
 * Die Sortierung der Liste Gesendete Anfragen nach einer der Spalten bleibt jetzt erhalten, wenn Sie die Seite verlassen. Weitere Informationen finden Sie unter [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Beim Erstellen einer neuen Anfrage befinden sich die Schaltflächen Senden und Abbrechen jetzt unten im Formular Neue Anfrage . Weitere Informationen finden Sie unter [Erstellen und Senden von Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
 
 ## Öffnen Sie das Bedienfeld Zusammenfassung im Abschnitt Gesendet im Bereich Anfragen .
 
@@ -76,7 +76,7 @@ Um die Konsistenz Ihres Erlebnisses in allen Bereichen von Adobe Workfront zu ge
 
 Informationen zu den gesendeten Anfragen finden Sie unter [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
 
 ## Gelöschte neue Problemfelder in ein neues Anfrageformular zurückbringen
 
@@ -104,7 +104,7 @@ Möglichkeit zum Freigeben eines Links zur Anfrage-Warteschlange, Themengruppe o
 
 Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
 
 ## Freigeben eines Links zu einer Anfrage-Warteschlange beim Senden einer Anfrage
 
@@ -118,4 +118,4 @@ Bevor Sie eine neue Anfrage senden, können Sie einen Link in die Anfrage-Wartes
 
 Weitere Informationen zur Freigabe eines Links zu einer Anfrage-Warteschlange beim Senden einer Anfrage finden Sie unter [Freigeben eines Links zu einer Anfrage-Warteschlange](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Ereignisabonnementnachrichten sind Benachrichtigungen, die eingerichtet werden k
 
 Service-Endpunkte, die Nachrichten zu Adobe Workfront-Ereignisabonnements verwenden, müssen die folgenden grundlegenden Anforderungen erfüllen, um sicherzustellen, dass Nachrichten ordnungsgemäß gesendet und empfangen werden:
 
-* Der Service-Endpunkt muss HTTP-POST-Anfragen akzeptieren. Die HTTP-POST ist die Anfragemethode, die bei allen Sendungen von Ereignisabonnementnachrichten verwendet wird, einschließlich Validierungsnachrichten.
+* Der Service-Endpunkt muss HTTP-POST-Anfragen akzeptieren. HTTP-POST ist die Anfragemethode, die bei allen Sendungen von Ereignisabonnementnachrichten verwendet wird, einschließlich Validierungsnachrichten.
 
 * Damit das Versandsystem des Ereignisabonnements den erfolgreichen Empfang der Nachricht bestätigen kann, muss der Endpunkt für alle eingehenden Nachrichten einen HTTP-Status von 200 Ebenen zurückgeben (z. B. 200 OK oder 202).
 

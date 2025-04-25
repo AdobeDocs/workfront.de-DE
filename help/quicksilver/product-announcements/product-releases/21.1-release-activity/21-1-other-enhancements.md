@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail 
 
 Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) auf Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
 
 ## Stundenbearbeitung auf Arbeitszeittabellen beschränken
 

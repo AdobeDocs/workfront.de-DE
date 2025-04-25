@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestal
 
 >[!NOTE]
 >
->Die Symbolleiste für dieselben Berichte in Dashboards wurde am 3. März 2022 in der Produktionsumgebung mit dem wöchentlichen [Wartungs](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)Update) aktualisiert.
+>Die Symbolleiste für dieselben Berichte in Dashboards wurde am 3. März 2022 in der Produktionsumgebung mit dem wöchentlichen [Wartungs](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)Update) aktualisiert.
 
 * Projektberichte
 * Aufgabenberichte
@@ -63,7 +63,7 @@ Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestal
 * Stundenberichte
 * Benutzerberichte
 * Programmberichte
-* Portfolio Reports
+* Portfolio-Berichte
 * Zuweisungsberichte
 * Notiz-Berichte
 * Dokumentengenehmigungsberichte

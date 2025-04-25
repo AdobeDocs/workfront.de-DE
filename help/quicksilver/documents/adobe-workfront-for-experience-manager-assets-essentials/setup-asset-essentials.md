@@ -6,7 +6,7 @@ description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <strong>Experience Manager Assets-Repository</strong>
       </td>
       <td>
-      Das System füllt automatisch das Experience Manager-Repository, das mit Ihrer Organisations-ID verknüpft ist.
+      Das System füllt automatisch das mit Ihrer Organisations-ID verknüpfte Experience Manager-Repository.
       </td>
    </tr>
    </table>
@@ -111,7 +111,7 @@ Ordnen Sie Workfront-Objektdaten Asset-Medienfeldern in Experience Manager Asset
 
 Bevor Sie beginnen, müssen Sie
 
-* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) beschrieben.
+* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) beschrieben.
 * (Optional) Konfigurieren von benutzerdefinierten Formularfeldern in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Unterstützte Workfront- und Experience Manager Assets-Felder

@@ -7,7 +7,7 @@ description: Die Projekt-Treemap-Visualisierung ist eine Ansicht von Stunden - o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-Plan</a></td> 
    <td> <p>Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**
 
-1. Klicken Sie auf ein Projekt, um Burndown und Aufgaben in Flugvisualisierungen zu öffnen und einen tieferen Einblick darin zu erhalten, wie Aufgaben und Stunden - oder Tage - zur Größe eines Projekts beigetragen haben.
+1. Klicken Sie auf ein Projekt, um Burndown und Aufgaben in Flugvisualisierungen zu öffnen und einen tieferen insight darüber zu erhalten, wie Aufgaben und Stunden - oder Tage - zur Größe eines Projekts beigetragen haben.
 
 Weitere Informationen zur Burndown-Visualisierung finden Sie unter [Anzeigen der Burndown-Visualisierung in Enhanced Analytics](../enhanced-analytics/burndown-overview.md). Weitere Informationen zu den Aufgaben in der Flugvisualisierung finden Sie unter [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md).
 

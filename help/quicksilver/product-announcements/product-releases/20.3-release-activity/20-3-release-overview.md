@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >
 >Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Ein Pro- oder höher [Adobe Workfront-Plan](https://www.workfront.com/plans).
+>* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/products/workfront/pricing.html).
 >* Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
 >  Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
@@ -154,7 +154,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront-Plan</a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
 &gt;   <td>Unternehmen oder höher</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -435,7 +435,7 @@ Informationen zu den Wartungs-Updates, die während der Version 20.3 vorgenommen
 
 Seit dem 20. Mai 2020 stellt Workfront wöchentlich Funktionen in der Vorschau-Umgebung bereit. Vor dieser Änderung wurden die Funktionen normalerweise alle zwei Wochen in der Vorschau-Umgebung veröffentlicht.
 
-Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Zulassungsliste der zusätzlichen Domains, die für den Zugriff auf Workfront erforderlich sind {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar zur Version 20.3 {#20-3-release-webinar}
 
-Sehen Sie sich das Webinar zur Produktversion 20.3 an [hier](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
+Sehen Sie sich das Webinar zur Produktversion 20.3 an [hier](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -6,7 +6,7 @@ description: Es gibt zwar keine Einschränkungen hinsichtlich der Typen und Grö
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-Plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
@@ -53,4 +53,4 @@ Das Speicherkontingent wird täglich aktualisiert, um die aktuellste Anzahl anzu
 
 >[!NOTE]
 >
->Diese Beschränkung gilt nicht für Dokumente, die Sie von einem anderen Drittanbieter (SharePoint, Google Drive, Webdam, Box, Dropbox, einem anderen Document Asset Management-Anbieter) mit Workfront verknüpfen.
+>Diese Beschränkung gilt nicht für Dokumente, die Sie von einem anderen Drittanbieter (SharePoint, Google Drive, Webdam, Box, Dropbox oder einem anderen Document Asset Management-Anbieter) mit Workfront verknüpfen.

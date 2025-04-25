@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -27,7 +27,7 @@ In der neuen Workfront-Version wird die Option Zu Classic wechseln im Hauptmenü
 
 In Workfront Classic wird die Option Zum neuen Erlebnis wechseln im Menü angezeigt, das beim Klicken auf das Profilbild oben rechts in der globalen Navigationsleiste angezeigt wird.
 
-Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
 
 ## Verbesserte Verschlüsselung für Workfront Proof
 
@@ -62,7 +62,7 @@ Beachten Sie außerdem, dass unser moderner Stil die Konfiguration von Ereignisb
 
 Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden [ unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ ](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Neue API-Objekte, die Trigger-Ereignisabonnement-Aktualisierungen aufweisen
 

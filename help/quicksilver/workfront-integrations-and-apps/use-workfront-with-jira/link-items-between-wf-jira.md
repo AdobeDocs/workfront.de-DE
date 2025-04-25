@@ -6,7 +6,7 @@ description: Sie können Probleme  [!DNL Jira]  Aufgaben oder  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -144,9 +144,9 @@ So verknüpfen Sie [!DNL Jira] Probleme manuell mit [!DNL Workfront]:
 
    >[!IMPORTANT]
    >
-   >Wenn Ihr Unternehmen in das einheitliche Adobe-Erlebnis integriert wurde, müssen Sie die **Referenznummer** zum Verknüpfen von Workfront-Elementen mit Jira verwenden. (Die URL-Option ist verfügbar, gibt aber einen Fehler zurück, wenn Sie sie verwenden.) Weitere Informationen zum einheitlichen Erlebnis finden Sie unter [Einheitliches Erlebnis für Workfront Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >Wenn Ihr Unternehmen in das einheitliche Adobe-Erlebnis integriert wurde, müssen Sie die **Referenznummer** zum Verknüpfen von Workfront-Elementen mit Jira verwenden. (Die URL-Option ist verfügbar, gibt aber einen Fehler zurück, wenn Sie sie verwenden.) Informationen zum einheitlichen Erlebnis finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
-   >Für Organisationen, die nicht auf dem Adobe Unified Experience Platform basieren, wird die Verwendung der URL-Option nicht empfohlen, da sich die URLs ändern können.
+   >Für Unternehmen, die nicht am einheitlichen Adobe-Erlebnis teilnehmen, wird die Verwendung der URL-Option nicht empfohlen, da sich die URLs ändern können.
 
    >[!NOTE]
    >

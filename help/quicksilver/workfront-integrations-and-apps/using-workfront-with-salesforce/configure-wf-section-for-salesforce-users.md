@@ -6,7 +6,7 @@ description: Nach der Installation  [!DNL Adobe Workfront]  Salesforce als  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Konfigurieren des [!DNL Adobe Workfront] für [!DNL Salesforce] Benutzer
 
-Um diese Funktion verwenden zu können[!UICONTROL  ist ein [!DNL Workfront]-Plan ]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://www.workfront.com/plans)
+Um diese Funktion verwenden zu können[!UICONTROL  ist ein [!DNL Workfront]-Plan ]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
 
 Nachdem Sie [!DNL Adobe Workfront] für [!DNL Salesforce] als [!DNL Workfront]-Admin installiert haben, können Sie es für Ihre Benutzerinnen und Benutzer verfügbar machen, indem Sie es in einem neuen Abschnitt zu deren [!UICONTROL Opportunity] und [!UICONTROL Account]
 Seiten-Layouts in [!UICONTROL Salesforce].

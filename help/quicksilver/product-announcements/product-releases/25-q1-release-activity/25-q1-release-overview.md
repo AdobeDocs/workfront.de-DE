@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -583,7 +583,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Schaltfläche zur Erstellung des erstmaligen Leserkontos für Data Connect</a></p>
             [!BADGE In Production ]{type=Informative}
-            <p>Admins, die zum ersten Mal auf Data Connect zugreifen, haben jetzt die Möglichkeit, durch Anklicken einer einzigen Schaltfläche ein neues Snowflake-Leserkonto zu erstellen. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.</p>
+            <p>Admins, die zum ersten Mal auf Data Connect zugreifen, haben jetzt die Möglichkeit, durch Klicken auf eine einzige Schaltfläche ein neues Snowflake-Leserkonto zu erstellen. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.</p>
         </td>
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
@@ -638,9 +638,9 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aktualisierung zur Verwaltung von verschobenen oder gelöschten Assets in verknüpften Ordnern</a></p>
             [!BADGE In Production ]{type=Informative}
-            <p>Wir haben die Art und Weise geändert, wie verschobene und gelöschte Assets bei Verwendung der Adobe Workfront-Integration mit Experience Manager Assets und Assets Essentials gehandhabt werden:</p>
+            <p>Wir haben die Art und Weise geändert, wie verschobene und gelöschte Assets bei Verwendung der Adobe Workfront-Integration mit Experience Manager Assets und Assets Essentials verarbeitet werden:</p>
             <ul>
-                <li>Gelöschte Assets: Wenn ein Asset in einem verknüpften Ordner in Assets oder Assets Essentials gelöscht wird, bleibt das gelöschte Asset im Bereich der Projektdokumente erhalten.</li>
+                <li>Gelöschte Assets: Wenn ein Asset in einem verknüpften Ordner in Assets oder Assets Essentials gelöscht wird, bleibt das gelöschte Asset im Bereich „Projektdokumente“ erhalten.</li>
                 <li>Verschobene Assets: Wenn ein Asset aus einem verknüpften Ordner in Assets oder Assets Essentials verschoben wird, bleibt das verschobene Asset im Bereich Projektdokumente erhalten.</li>
             </ul>
         </td>
@@ -747,8 +747,8 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

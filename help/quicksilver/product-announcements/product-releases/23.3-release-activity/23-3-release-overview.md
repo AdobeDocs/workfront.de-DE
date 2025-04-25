@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Das Webinar zur Version 23.3 von fand am 29. Juni 2023 statt. Sie können [sich 
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen und Verwalten von Workfront-Benachrichtigungen über die Workfront für Creative Cloud-Plug-ins</a></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Anzeigen und Verwalten von Workfront-Benachrichtigungen über die Plug-ins von Workfront für Creative Cloud</a></p> 
                         <p>Um den Empfang der benötigten Benachrichtigungen zu vereinfachen, haben wir die Anzeige und Verwaltung von Workfront-Benachrichtigungen ermöglicht, ohne die Adobe Creative Cloud verlassen zu müssen. Jetzt können Sie Benachrichtigungen sowie die mit diesen Benachrichtigungen verbundenen Arbeitselemente und Kommentare direkt über das Workfront-Plug-in-Fenster in der Creative Cloud-Anwendung anzeigen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -502,7 +502,7 @@ Das Webinar zur Version 23.3 von fand am 29. Juni 2023 statt. Sie können [sich 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassen der Einstellungen für automatisierte Korrekturabzugs-Workflow-Vorlagen mithilfe von Adobe Workfront für Creative Cloud</a></p>
-                        <p>Sie können jetzt bestehende automatisierte Workflow-Vorlageneinstellungen direkt auf der Creative Cloud anpassen.</p>
+                        <p>Sie können jetzt bestehende Einstellungen für automatisierte Workflow-Vorlagen direkt in der Creative Cloud anpassen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
@@ -768,11 +768,11 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktion wird bald aus Workfront entfernt
 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
@@ -23,4 +23,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Integrierte Statussymbole in Ansichten](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [Verwenden von integrierten Adobe Workfront-Berichten](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Überblick über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://one.workfront.com/s/basic-report-creation-program)
+* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)

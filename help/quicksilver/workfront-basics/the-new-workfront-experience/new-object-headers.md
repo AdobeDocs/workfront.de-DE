@@ -6,7 +6,7 @@ description: Sie können Informationen zu Objekten auf einen Blick in anzeigen [
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 0%
@@ -254,8 +254,8 @@ Die Kopfzeile des Programms enthält folgende Informationen:
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Breadcrumb mit dem Namen des Portfolios</td> 
-   <td> <p>Sie können auf das [!UICONTROL-Portfolio] über den Header des [!UICONTROL-Programms] zugreifen. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td role="rowheader">Breadcrumb mit dem Namen der Portfolio</td> 
+   <td> <p>Sie können über den Header des [!UICONTROL-Programms] auf [!UICONTROL Portfolio] zugreifen. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -326,7 +326,7 @@ Die Portfolio-Kopfzeile enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Aktivierungsstatus</td> 
-   <td> <p>Wenn das Portfolio deaktiviert ist, wird in der Kopfzeile über dem Portfolionamen der Text "[!UICONTROL PORTFOLIO DEACTIVATED]" angezeigt.</p> </td> 
+   <td> <p>Wenn das Portfolio deaktiviert ist, wird der Text "[!UICONTROL PORTFOLIO DEACTIVATED]" oberhalb des Portfolionamens in der Kopfzeile angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Portfolios</td> 
@@ -334,7 +334,7 @@ Die Portfolio-Kopfzeile enthält die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-   <td>Sie können den [!UICONTROL Portfolios Manager] in der Kopfzeile bearbeiten. Dies ist dasselbe wie der [!UICONTROL Portfolio Owner].</td> 
+   <td>Sie können den [!UICONTROL Portfolio Manager] in der Kopfzeile bearbeiten. Dies ist dasselbe wie der [!UICONTROL Portfolio-Besitzer].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL on time]</td> 
@@ -850,8 +850,8 @@ Die Plankopfzeile zeigt die folgenden Informationen an:
    <td>Die Benutzer, die Zugriff zum Anzeigen oder Verwalten des Plans haben, werden in der oberen rechten Ecke der Kopfzeile angezeigt. Wenn Sie den Mauszeiger über die Profilbilder bewegen, werden deren Namen angezeigt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zu Publish wechseln]</td> 
-   <td>Wenn Sie auf [!UICONTROL Wechseln zu Publish] klicken, können Sie ein Projekt erstellen oder aktualisieren, das mit einer Initiative in dem angezeigten Szenario verknüpft ist.</td> 
+   <td role="rowheader">[!UICONTROL Zum Veröffentlichen wechseln]</td> 
+   <td>Wenn Sie auf [!UICONTROL Zum Veröffentlichen wechseln] klicken, können Sie im angezeigten Szenario ein mit einer Initiative verknüpftes Projekt erstellen oder aktualisieren.</td> 
   </tr> 
  </tbody> 
 </table>
