@@ -6,10 +6,10 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '963'
+ht-degree: 12%
 
 ---
 
@@ -238,6 +238,44 @@ Im Widget Meine Probleme können Sie die folgenden Filter verwenden:
     <td>Zeigt alle Probleme an, denen kein primärer Benutzer zugewiesen ist, denen aber eine Rolle zugewiesen ist </td>
   </tr>
 </table>
+
+## Meine Anfragen
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Alle</td> 
+      <td>Zeigt alle gesendeten Anfragen an, unabhängig vom Status oder davon, wer sie gesendet hat.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Öffnen</td> 
+      <td> <p>Zeigt alle gesendeten Anfragen an 
+      <ul>
+      <li>die derzeit offen sind, unabhängig davon, wer sie eingereicht hat. Nur -Anfragen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen, werden hier angezeigt, wenn Sie sie nicht selbst gesendet haben.</li>
+      <li>Ohne tatsächliches Abschlussdatum oder ohne Lösungsobjekt, das kein tatsächliches Abschlussdatum hat, sind auf der Unterregisterkarte Öffnen aufgeführt.</li> 
+      </ul>
+      <p><b>HINWEIS</b> 
+      Anfragen mit einem Status, der nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Meine Anfragen</td> 
+      <td>Zeigt von Ihnen gesendete Anfragen unabhängig vom Status an. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Meine offenen Anfragen</td> 
+      <td> <p>Zeigt Anforderungen an 
+      <ul>
+      <li>Die Sie eingereicht haben und noch offen sind. </li> 
+      <li>Ohne tatsächliches Abschlussdatum oder ohne Lösungsobjekt, das kein tatsächliches Abschlussdatum hat, sind auf der Unterregisterkarte Meine offenen Anfragen aufgeführt. </li> 
+      </ul>
+      <p><b>HINWEIS</b> 
+      Anfragen, deren Status nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Meine Arbeit
 
