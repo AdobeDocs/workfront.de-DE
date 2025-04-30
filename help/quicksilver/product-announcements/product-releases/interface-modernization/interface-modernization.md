@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Um diese Seite anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Benachrichtigunge
 **Vorschau-Version: 16. Januar 2025; Beginn der Woche vom 30. Januar 2025**
 
 Das Dialogfeld SharePoint hinzufügen unter Einrichtung > Dokumente > SharePoint-Integration wurde durch ein moderneres Design ergänzt, das mit anderen Bereichen von Workfront konsistent ist.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+### Dialogfeld „Aktualisierung der Benutzeroberfläche für benutzerdefinierte Integration hinzufügen“
+
+**Vorschau-Version: 16. Januar 2025; Beginn der Woche vom 30. Januar 2025**
+
+Das Dialogfeld Benutzerdefinierte Integration hinzufügen in Setup > Dokumente > Benutzerdefinierte Integration wurde mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
