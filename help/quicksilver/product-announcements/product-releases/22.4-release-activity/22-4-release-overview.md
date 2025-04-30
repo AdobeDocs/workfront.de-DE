@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ Hinweis: Diese Funktion ist derzeit nicht im Workload Balancer im Bereich Teams 
                         <p>Mit Workfront Campaign können Sie Projekte aus verschiedenen Portfolios und Programmen in einem neuen Arbeitscontainer organisieren.
 Campaign wurde im Juli 2022 mit der Version 22.3 zur Beta-Vorschau veröffentlicht.</p>
 <p>Dieser neue Container wird in zukünftigen Versionen weiterentwickelt, um Arbeitsobjekte zu verbinden, die derzeit in separaten Silos verwaltet werden.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>Verfügbar an diesen Daten:&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>Vorschauversion:&amp;#GenStudio for Performance Marketers&amp;Im gesamten Veröffentlichungszeitraum von 22.4&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>Produktionsversion:&amp;#GenStudio for Performance Marketers&amp;TBD&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=„MCX“ xrefformat=&quot;{para}&quot;>Erweiterte Team-Beschreibung&lt;/a>&lt;/p>
-    &lt;p>Im Bereich Teams können Sie jetzt die vollständige Team-Beschreibung anzeigen, indem Sie auf die Beschreibung klicken, um sie in einem Popup anzuzeigen. Auf alle URLs in der Beschreibung kann im Popup geklickt werden, und Sie können auf den Beschreibungstext klicken, um ihn zu bearbeiten (wenn Sie Zugriff zum Bearbeiten der Team-Einstellungen haben).&lt;/p>
-    &lt;p>Zuvor war das Scrollen durch die Beschreibung in einem engen Bereich die einzige Möglichkeit, den gesamten Inhalt zu sehen.&lt;/p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Daten:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau der Version: Im gesamten Zeitrahmen der Version 22.4<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsversion: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Erweiterte Team-Beschreibung</a></p>
+                        <p>Im Bereich Teams können Sie jetzt die vollständige Team-Beschreibung anzeigen, indem Sie auf die Beschreibung klicken, um sie in einem Popup anzuzeigen. Auf alle URLs in der Beschreibung kann im Popup geklickt werden, und Sie können auf den Beschreibungstext klicken, um ihn zu bearbeiten (wenn Sie Zugriff zum Bearbeiten der Team-Einstellungen haben).</p>
+                        <p>Zuvor war es die einzige Möglichkeit, den gesamten Inhalt zu sehen, wenn Sie durch die Beschreibung in einem engen Bereich scrollen.</p>
 <p>Diese Verbesserung der Beschreibung gilt sowohl für agile als auch für nicht agile Teams.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
