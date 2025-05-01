@@ -6,7 +6,7 @@ description: Sie können zu allen Zielen, die Sie in Adobe Workfront Goals anzei
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -101,7 +101,7 @@ Dadurch wird die Liste der Ziele geöffnet.
 1. Suchen Sie das Ziel, dem Sie Kommentare hinzufügen möchten, und klicken Sie dann auf seinen Namen, um die Zielseite zu öffnen.
 1. Klicken Sie **linken** auf „Updates“.
 
-   Weitere Informationen zum Verwalten von Kommentaren zu Workfront-Objekten finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen zum Verwalten von Kommentaren für Workfront-Objekte finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

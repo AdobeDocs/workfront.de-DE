@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ In den folgenden Bereichen können Sie Datensätze mit anderen Datensätzen oder
    * Die verbundenen Datensatzfelder in der Tabellenansicht eines Datensatztyps in Planning.
    * Die Vorschau oder Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
    * Die Vorschau oder Seite des Datensatzes auf der Registerkarte Verbindungen .
-   * Die Seite des Datensatzes in einer Verbindungsansicht-Registerkarte eines verbundenen Datensatzes.
+   * Die Seite des Datensatzes auf der Registerkarte <span class="preview">Verbundene Datensatzseite</span> eines verbundenen Datensatzes.
 
 * Sie können Workfront-Objekte in den folgenden Bereichen von Workfront mit Workfront-Planungsdatensätzen verbinden:
 

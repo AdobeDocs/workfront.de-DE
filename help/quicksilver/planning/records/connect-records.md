@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält </p> </td> 
+   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die die Planungsbereiche enthält.</p>
+<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren standardmäßig der Bereich Planung aktiviert.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Überlegungen zum Verbinden von Datensätzen
 
@@ -165,7 +158,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
 * Die verbundenen Datensatzfelder in der Tabellenansicht.
 * Das Vorschaufeld oder die Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
 * Das Vorschaufeld oder die Seite des Datensatzes auf der Registerkarte Verbindungen .
-* Die Seite des Datensatzes auf der Registerkarte Verbindungsansicht . <!--this needs title edit when they rename the "Connection view" page type-->
+* Die Seite des Datensatzes auf einer Registerkarte <span class="preview">Verbundene Datensatzseite</span>.
 
 ### Verbinden von Workfront-Planungsdatensätzen über die Tabellenansicht oder den Detailbereich eines Datensatzes
 
@@ -463,9 +456,8 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 
    Der Datensatz wird sofort von allen Bereichen von Workfront Planning oder von anderen Anwendungen getrennt, in denen er möglicherweise als verbunden angezeigt wird. Alle Werte der Suchfelder werden ebenfalls entfernt.
 
-### Verbinden von Datensätzen über die Registerkarte „Verbindungsansicht“ auf der Detailseite eines Datensatzes
+### Verbinden von Datensätzen über die <span class="preview">Seite „Verbundene Datensätze</span> eines Datensatzes
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. Navigieren Sie zu einer beliebigen Ansicht eines Datensatztyps, der mit anderen Planungs-Datensatztypen oder Objekttypen aus anderen Anwendungen verbunden ist.
 1. Führen Sie die in den vorherigen Unterabschnitten beschriebenen Schritte aus, um einen Datensatz in der Ansicht zu finden, die Sie mit anderen Datensätzen oder Objekten verbinden möchten.
@@ -473,9 +465,11 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 
    Die Vorschauseite wird geöffnet.
 1. Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
-1. Klicken Sie auf eine vorhandene Registerkarte für die Verbindungsansicht in der Vorschau oder Seite des Datensatzes. Sie müssen zunächst eine Verbindungsansichtsseite erstellen. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Klicken Sie auf <span class="preview"> vorhandene Registerkarte „Verbundene </span>&quot; auf der Seite des Datensatzes. Sie müssen zunächst eine Seite <span class="preview">Verbundene Datensätze“ </span>. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.
+
+   In der Tabelle werden alle verbundenen Datensätze eines Typs angezeigt.
 1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen.
 
    ![Schaltfläche „Verbinden“ auf der Registerkarte „Details verbundener Datensätze“ hervorgehoben](assets/connect-button-highlighted-in-connected-record-details-tab.png)

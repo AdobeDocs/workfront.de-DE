@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '798'
 ht-degree: 2%
 
 ---
@@ -116,12 +116,16 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um auf Workfront Plann
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die die Option Planung in den folgenden Bereichen enthält:</p>
+   <td> <div class="preview">
+<p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p>
+<p> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layoutvorlage zugewiesen werden, die die Planungsoption in den folgenden Bereichen enthält:</p>
    <ul><li>Hauptmenü</li>
    <li>Linkes Bedienfeld mit Projekten, Portfolios und Programmen</li>
-   <li>Landingpage</li>
-   <li>Nadeln</li></ul>
-   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Erstellen und Verwalten von Layout-Vorlagen</a>.</p> 
+   </ul>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Erstellen und Verwalten von Layout-Vorlagen</a>.</p>
+   </div>
+   <p><b>NOTIZ</b></p>
+   <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die die Planungsbereiche enthält.</p>
 </td>
   </tr>
  </tbody>
@@ -130,20 +134,9 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um auf Workfront Plann
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
--->
+
 
 ## Freigeben des Planungsbereichs mithilfe einer Layout-Vorlage
 
@@ -156,7 +149,16 @@ Nachdem Ihr Unternehmen eine zusätzliche Workfront Planning-Lizenz erworben hat
 * Linkes Bedienfeld für Projekte, Portfolios und Programme
 * Nadeln
 
-So fügen Sie Ihrer Workfront-Instanz Workfront Planning Areas hinzu:
+<div class="preview">
+
+Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche in den folgenden Bereichen standardmäßig aktiviert:
+
+* Hauptmenü
+* Linker Bereich mit Projekten, Portfolios oder Programmen
+
+</div>
+
+So fügen Sie Benutzenden Ihrer Workfront-Instanz </span> Workfront Planning-Bereiche hinzu <span class="preview"> oder entfernen sie:
 
 1. Melden Sie sich bei **Workfront** als Workfront-Administrator an.
 

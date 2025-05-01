@@ -6,9 +6,9 @@ description: Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen Benutzer senden oder selbst an ihn senden oder hinzufügen.
 
-Adobe Workfront speichert Ad-hoc-Arbeitsanfragen und erledigt Elemente als persönliche Aufgaben.
+Adobe Workfront speichert Ad-hoc-Arbeitsanfragen und erledigt Elemente als persönliche Aufgaben für das persönliche Projekt eines Benutzers, das Workfront automatisch für jeden Benutzer erstellt.
 
-Standardmäßig verfügen alle Workfront-Benutzer über ein persönliches Projekt mit dem Namen „Aufgaben von &quot;&lt; Vollständiger Name des Benutzers>&quot;. Beispiel: „Aufgaben von John Smith“.
+Im Folgenden finden Sie Merkmale des persönlichen Projekts eines Benutzers:
 
-Das persönliche Projekt jedes Benutzers wird nicht in Suchvorgängen angezeigt und es ist ausgeblendet. Alle persönlichen Aufgaben werden in diesem Projekt gespeichert.
-
-Bei Bedarf können Sie persönliche Aufgaben in ein Projekt verschieben.
+* Alle Benutzer von Workfront verfügen über ein persönliches Projekt mit dem Namen „Aufgaben des &lt; vollständigen Namens des Benutzers>&quot;. Beispiel: „Aufgaben von John Smith“.
+* Das persönliche Projekt jedes Benutzers wird nicht in Suchvorgängen angezeigt und es ist ausgeblendet.
+* Ein persönliches Projekt kann nicht gelöscht werden, auch wenn Benutzer deaktiviert wurden.
+* Der Status eines persönlichen Projekts ist immer Aktuell. Persönliche Projekte können nicht abgeschlossen oder abgebrochen werden.
+* Alle persönlichen Aufgaben werden im persönlichen Projekt eines Benutzers gespeichert.
+* Bei Bedarf können Sie persönliche Aufgaben in ein anderes Projekt verschieben.
 
 Sie können persönliche Aufgaben wie folgt erstellen:
 
