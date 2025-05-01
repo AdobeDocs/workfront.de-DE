@@ -7,7 +7,7 @@ description: Die folgenden Artikel enthalten Informationen zu Projekten, zum Pro
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Projekt planen: Artikelindex
+
+<!-- Audited: 4/2025 -->
 
 Informationen zu Projektinformationen, zum Projektteam und zur Planung eines Projekts finden Sie in den folgenden Artikeln:
 

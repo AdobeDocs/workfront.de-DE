@@ -5,16 +5,18 @@ description: Beim Erstellen eines Business Case können Sie eine Reihe von Ziele
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
 
 # Business Case-Ziele erstellen
 
-Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Business Case-Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor zu kommunizieren, wann ein Projekt abgeschlossen werden soll.
+<!-- Audited: 4/2025 -->
+
+Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Diese Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor den Zweck des Abschlusses eines Projekts mitzuteilen.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -26,18 +28,20 @@ Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, 
 
 Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgendes:
 
-* Business Case-Ziele sind projektspezifisch. Sie können keine Ziele von einem Projekt in ein anderes kopieren und auch keine Ziele auf Systemebene festlegen. Sie müssen auf der Ebene jedes Projekts definiert werden.
-* Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss den Zielabschnitt für Ihre Projekte aktivieren, bevor er im Business Case Ihrer Projekte angezeigt wird. Informationen zur Aktivierung von Business-Case-Feldern für Projekte finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Business Case-Ziele sind projektspezifisch. Sie können Ziele nicht von einem Projekt in ein anderes kopieren oder auf Systemebene festlegen; sie müssen auf der Ebene jedes Projekts definiert werden.
+* Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss den Abschnitt „Ziele“ des Projekts aktivieren, bevor er im Business Case angezeigt wird. Informationen zur Aktivierung von Business-Case-Feldern für Projekte finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Ziele sind kein obligatorischer Abschnitt im Business Case eines Projekts.
+* Ziele sind kein obligatorischer Abschnitt im Business Case des Projekts.
 
-  Ein Projekt kann eine Punktzahl erhalten, die in Portfolio Optimizer priorisiert werden soll, auch wenn der Abschnitt „Ziele“ des Business-Case nicht definiert ist.
+  Ein Projekt kann eine Punktzahl erhalten, die in Portfolio Optimizer priorisiert werden soll, auch wenn der Abschnitt „Ziele“ nicht definiert ist.
 
   Weitere Informationen zum Portfolio Optimizer-Score finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungsscores](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Sie können keine Berichte zu Business Case-Zielen erstellen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,15 +52,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td>
+   <td> 
+   <p>Neu: Standard</p> 
+   <p>Oder</p>
+   <p>Aktuell: Plan </p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -66,21 +74,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hinzufügen eines Ziels zum Business Case eines Projekts
 
-1. Gehen Sie zu einem Projekt, für das Sie Business Case-Ziele definieren möchten.
-1. Klicken Sie **linken Bedienfeld auf „Business Case“**
+{{step1-to-projects}}
 
-   Der Business Case wird angezeigt.
+1. Wählen Sie in der Projektliste das Projekt aus, für das Sie Business-Case-Ziele definieren möchten.
+1. Klicken Sie im linken Bedienfeld auf **Business Case**. Der Abschnitt **Business-Case** wird angezeigt.
 
    ![Informationen zum Business-Case](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Klicken **Abschnitt „Ziele** auf **Ziele bearbeiten**.
 
-1. Geben Sie Ihre Ziele an.
-Wählen Sie **Dropdown** Menü Wichtigkeit die Wichtigkeitsstufe aus:
+1. Geben Sie im ersten Feld die Zielbeschreibung ein.
+
+1. Wählen Sie **Dropdown** Menü Wichtigkeit die Wichtigkeitsstufe (oder Priorität) für dieses Ziel aus:
 
    * Maximal
    * Hoch
@@ -88,9 +99,12 @@ Wählen Sie **Dropdown** Menü Wichtigkeit die Wichtigkeitsstufe aus:
    * Niedrig
    * Minimal
 
-     Importance(assets/g1-350x76.png)
+     ![Wichtigkeit](assets/g1-350x76.png)
 
-     Die Wichtigkeitsstufen von Zielen können nicht angepasst werden.
+     >[!NOTE]
+     >
+     >Die Wichtigkeitsstufen von Zielen können nicht angepasst werden.
 
-1. (Optional) Um ein weiteres Ziel hinzuzufügen, klicken Sie auf **Weitere Ziele hinzufügen** und wiederholen Sie Schritt 5 und Schritt 6.
-1. Klicken Sie **Speichern**.
+1. (Optional) Um ein weiteres Ziel hinzuzufügen, klicken Sie auf **Weitere Ziele hinzufügen** und wiederholen Sie die Schritte 5 bis 6.
+
+1. Klicken Sie auf **Speichern**.

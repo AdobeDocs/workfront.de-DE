@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick über die Bereiche des Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [Übersicht über Business Case-Bereiche](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
 * [Überblick über Business Case-Finanzfelder](../../../manage-work/projects/define-a-business-case/business-case-finances.md)
