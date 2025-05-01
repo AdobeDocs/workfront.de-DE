@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ Wir haben die folgenden Aktualisierungen eingeführt:
 * Sie können die geerbten Berechtigungen für den Datensatztyp deaktivieren, damit er für alle Personen im Arbeitsbereich schreibgeschützt ist. Anschließend können Sie einzelne Personen, Teams, Gruppen, Unternehmen oder Rollen hinzufügen und ihnen die Berechtigung Beitragen für den Datensatztyp gewähren.
 
 Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
+
+
