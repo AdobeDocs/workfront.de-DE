@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 2%
+source-wordcount: '593'
+ht-degree: 3%
 
 ---
 
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-Verbesserungen
 
 * [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
+* [Verbesserungen bei Aktualisierungen und Benachrichtigungen]
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Verbesserungen beim Dokumentenmanagement
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>Freitag, 10. April 2025</td>
         <td>Freitag, 17. April 2025</td>
         <td>Freitag, 17. April 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Verbesserungen beim Reporting
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Benutzer-Platzhalter geben beim Filtern von </a> keine Ergebnisse mehr mit einem Nullwert zurück<p></p>
+            <p>Das Verhalten der Benutzer-Platzhalter wurde aktualisiert, um beim Filtern eines Berichts einen Nullwert auszuschließen. Diese Änderung hilft dem Filter, genauere Ergebnisse zu erzielen, anstatt Ergebnisse zurückzugeben, bei denen ein Benutzer nicht richtig konfiguriert ist (ein Nullergebnis). </p>
+        </td>
+        <td>Donnerstag, 30. April 2025</td>
+        <td>Freitag, 15. Mai 2025</td>
+        <td>Freitag, 17. Juli 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Verbesserungen bei Aktualisierungen und Benachrichtigungen
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">Geändertes Erlebnis beim Hinzufügen von Personen zu Kommentaren</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Um eine verbesserte Leistung zu erzielen, haben wir ein geändertes Erlebnis eingeführt, wenn Personen zu Kommentaren hinzugefügt werden. Jetzt bleibt der Link „Personen oder Teams taggen“ im Kommentarfeld bestehen, nachdem Sie Benutzer oder Teams zum Kommentar hinzugefügt haben. </p>
+        </td>
+        <td>Donnerstag, 30. April 2025</td>
+        <td>(Schrittweiser Rollout): 8. Mai bis 15. Mai 2025</td>
+        <td>(Schrittweiser Rollout): 8. Mai bis 15. Mai 2025</td>
     </tr>     
   </tbody>
 </table>

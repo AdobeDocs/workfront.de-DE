@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
+source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,54 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Inline-Bearbeitung auf der Seite „Verbundene Datensätze“ eines Datensatzes
+
+>[!NOTE]
+>
+>* Vorschau: 30. April 2025
+>* Produktions-Schnellveröffentlichung: 15. Mai 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Sie können jetzt Datensätze auf der Seite „Verbundene Datensätze“ eines Datensatzes bearbeiten. Mit diesem Update haben wir Folgendes eingeführt:
+
+* Der Name der Seite wurde von „Verbindungsansicht“ in „Seite mit verbundenen Datensätzen“ geändert.
+* Verbundene Datensätze, die auf dieser Seite angezeigt werden, können in der Tabellenansicht inline bearbeitet werden. Verbundene Workfront-Objekte werden weiterhin in einer schreibgeschützten Tabelle angezeigt.
+
+Vor dieser Verbesserung war die Tabelle der Seite „Verbindungsansicht“ für Datensatzverbindungen schreibgeschützt.
+
+Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Standardmäßig sichtbarer Planungsbereich im Hauptmenü für Benutzer von Standardlizenzen
+
+>[!NOTE]
+>
+>* Vorschau: 30. April 2025
+>* Produktions-Schnellveröffentlichung: 15. Mai 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Benutzer von Standard- und Systemadministratoren finden den Bereich Planung jetzt standardmäßig im Hauptmenü, ohne einer Layoutvorlage zugewiesen zu werden, die ihn enthält. Alle anderen Benutzer müssen über eine Layoutvorlage verfügen, die den zugewiesenen Planungsbereich enthält, um darauf zugreifen zu können.
+
+Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänderten Layoutvorlage zugewiesen werden, um den Bereich Planung in das Hauptmenü aufzunehmen, damit sie auf diesen Bereich zugreifen können.
+
+>[!NOTE]
+>
+>Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
+>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+
+Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
+## Farbformatierung auf Zeilenebene in der Tabellenansicht
+
+>[!NOTE]
+>
+>* Vorschau: 30. April 2025
+>* Produktions-Schnellveröffentlichung: 15. Mai 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Für eine bessere Sichtbarkeit der wichtigen Informationen Ihrer Datensätze haben wir eine Farbformatierung auf Zeilenebene für die Tabellenansicht eingeführt. Sie können jetzt für jede Zeile eine Farbe auswählen, nachdem Sie die Bedingungen für jede Auswahl definiert haben.  Dies ist eine neue Funktion, die vor diesem Update nicht vorhanden war.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Neue Einstellung zum Abschneiden langer Datensatznamen in der Standard-Zeitleisten-Ansicht
 

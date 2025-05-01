@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 5%
+source-wordcount: '552'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 5%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens des dritten Quartals 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Look-and-Feel-Aktualisierung für die Menüoptionen „Mehr“ für Kommentare
+
+>[!NOTE]
+>
+>Vorschau-Version: 17. April 2025; Produktionsversion für alle Kunden: 17. April 2025
+
+Das Erscheinungsbild für die Optionen im Menü Mehr eines Kommentars im Abschnitt Aktualisierungen für alle Objekte wurde aktualisiert.
+
+Dieses Update enthält die folgenden Änderungen:
+
+* Die Aktionen wurden neu angeordnet, sodass ähnliche Funktionen gruppiert werden.
+* Es wurden Trennlinien eingefügt, um jede Gruppe klar zu trennen.
+* Die Löschaktion wurde durch eine rote Anzeige hervorgehoben.
+
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Look-and-Feel-Aktualisierungen eines Meilensteinpfadberichts
+
+>[!NOTE]
+>
+>Vorschau-Version: 30. April 2025; Produktionsversion für alle Kunden: 30. April 2025
+
+Das Erscheinungsbild des Meilensteinpfadberichts wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Lookand-Feel-Aktualisierungen für kürzlich wiederhergestellte Elemente
 
