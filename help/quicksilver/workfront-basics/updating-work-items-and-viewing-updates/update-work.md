@@ -6,7 +6,7 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -241,11 +241,9 @@ Dieser Artikel beschreibt, wie Sie Projekte, Aufgaben oder Probleme aktualisiere
 1. Klicken Sie **linken** auf „Updates“.
 Die **Kommentare** ist standardmäßig ausgewählt.
 
-1. 
-   <div class="preview">Beginnen Sie mit der Eingabe eines Kommentars in das Feld **Neuer Kommentar**.
+1. <span class="preview">Beginnen Sie mit der Eingabe eines Kommentars in das Feld **Neuer Kommentar**.</span>
 
-   ![Neues Kommentarfeld](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![Neues Kommentarfeld](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >

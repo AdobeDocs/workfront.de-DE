@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 1%
@@ -37,8 +37,8 @@ Objekte werden durch Senden einer HTTP-Anfrage an den eindeutigen URI bearbeitet
 Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 
 * **GET** - Ruft ein Objekt nach ID ab und sucht anhand einer Abfrage nach allen Objekten
-* **POST** - Fügt ein neues Objekt ein
-* **PUT** - Bearbeitet ein vorhandenes Objekt
+* **POST** - Fügt ein neues Objekt ein.
+* **PUT** - bearbeitet ein vorhandenes Objekt
 * **DELETE** - Löscht ein Objekt
 
 Weitere Details und Beispiele für jeden Vorgang finden Sie in der Entwicklerdokumentation zur [Workfront Planning API](https://developer.adobe.com/wf-planning/).
@@ -197,7 +197,7 @@ Nachfolgend finden Sie eine Liste der unterstützten Feldtypen und darüber, wel
 | Einzelauswahl | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
 | Mehrfachauswahl | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | Boolescher Wert | $is |
-| Benutzer | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
+| Benutzerin bzw. Benutzer | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | Formel | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
 | URL | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
 | created-by | $is, $isNot, $isAnyOf, $isNoneOf |
@@ -290,7 +290,7 @@ Beispiel: die Anfrage
                         "id": "Rc665728ff95730b58bc757b13",
                         "value": null
                     },
-....
+..
 ```
 
 Gibt eine Antwort ähnlich der folgenden zurück:
