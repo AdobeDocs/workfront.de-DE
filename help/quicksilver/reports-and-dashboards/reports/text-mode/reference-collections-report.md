@@ -6,9 +6,9 @@ description: Referenzieren von Sammlungen in einem Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -306,6 +306,15 @@ Beachten Sie beim Erstellen einer Sammlungsansicht die folgenden Einschränkunge
 Sie können im Filter eines Berichts auf eine Auflistung von Objekten verweisen, um nach den Attributen von Objekten zu filtern, die mit dem Objekt des Berichts verknüpft sind.
 
 Sie können beispielsweise nach Aufgaben- oder Probleminformationen in einem Projektbericht filtern, indem Sie in der Filteranweisung auf die Attribute von Aufgaben oder Problemen des Projekts verweisen.
+
+>[!NOTE]
+>
+>Wenn der Filter auf Felder angewendet wird, die mehrere Werte enthalten (z. B. eine Sammlung von Notizen innerhalb eines Projekts), bestimmt er die Einbeziehung wie folgt:
+>
+>* Wenn alle Elemente in einer Sammlung den angegebenen Wert enthalten, wird der gesamte Datensatz aus den Ergebnissen ausgeschlossen.
+>* Wenn mindestens ein Element in der Sammlung nicht den angegebenen Wert enthält, bleibt der Datensatz in den Ergebnissen.
+
+
 
 So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 

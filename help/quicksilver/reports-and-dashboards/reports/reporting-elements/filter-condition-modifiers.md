@@ -6,9 +6,9 @@ description: Mit den Filter- und Bedingungsmodifikatoren können Sie Filter erst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,12 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
   <tr valign="top"> 
    <td> <p><strong>Enthält nicht</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>Dies ist die (<i> Groß-/</i>) Version von <strong>notContains</strong>.</p><p>Dieser Modifikator filtert nach Elementen, denen der angegebene Wert fehlt.</p> <p>Beispiel: <code>does not contain inf</code> erfasst alles, ohne <code>Inf</code> oder <code>inf</code> im Namen.</p> <p>Hinweis: <span>Wenn das Feld, nach dem gefiltert werden soll, mehrere Optionen hat, werden die Ergebnisse herausgefiltert, die sowohl die angegebene Auswahl als auch die angegebene Auswahl und alle zusätzlichen Auswahlmöglichkeiten enthalten.</span> </p> </td> 
+   <td> <p>Dies ist die (<i> Groß-/</i>) Version von <strong>notContains</strong>.</p><p>Dieser Modifikator filtert nach Elementen, denen der angegebene Wert fehlt.</p> <p>Beispiel: <code>does not contain inf</code> erfasst alles, ohne <code>Inf</code> oder <code>inf</code> im Namen.</p> <p>Hinweis: Bei Anwendung auf Felder, die mehrere Werte enthalten (z. B. eine Sammlung von Notizen innerhalb eines Projekts), bestimmt der Filter den Ausschluss wie folgt:
+<ul>
+    <li>Wenn alle Elemente in einer Sammlung den angegebenen Text enthalten, wird der gesamte Datensatz aus den Ergebnissen ausgeschlossen.</li>
+    <li>Wenn mindestens ein Element in der Sammlung den angegebenen Text nicht enthält, bleibt der Datensatz in den Ergebnissen.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
