@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f8344ad64305b5ffe05f208da06cf330affa5850
+source-git-commit: 05311b556067289b81e597038dbbfc1fdd19629a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 3%
@@ -62,8 +62,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Die neuen Schaltflächen für die Entscheidung zur Dokumentgenehmigung werden jetzt in der Proofing-Anzeige angezeigt. Wenn Sie jetzt einen einfachen Korrekturabzug erstellen und genehmigende Personen und Prüfende aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt in der Korrekturabzugsansicht treffen.</p>
         </td>
         <td>Freitag, 10. April 2025</td>
-        <td>Freitag, 17. April 2025</td>
-        <td>Freitag, 17. April 2025</td>
+        <td>17. April 2025</td>
+        <td>17. April 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -227,5 +227,3 @@ New row for table
 
 
 -->
-
-
