@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Plan]</p> </td> 
+   <td> <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 

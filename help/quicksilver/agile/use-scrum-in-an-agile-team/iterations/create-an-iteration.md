@@ -103,7 +103,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
 1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus.
 
-1. Wählen Sie auf der Registerkarte **** oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
+1. Wählen Sie auf der Registerkarte **&#x200B;**&#x200B;oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
    >[!NOTE]
    >
-   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie ] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
+   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie &#x200B;] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
 
 
 ## Verstehen, wie Aufgabenstarttermine berechnet werden, wenn sie zu einer Iteration hinzugefügt werden {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

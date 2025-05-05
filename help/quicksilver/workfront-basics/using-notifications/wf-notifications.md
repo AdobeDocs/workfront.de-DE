@@ -89,7 +89,7 @@ Es gibt mehrere Dinge, die Sie beachten sollten, wenn Sie tägliche Digest-Benac
 
 Die Benachrichtigungen in der Kategorie [!UICONTROL Kommunikation] warnen Sie vor Kommentaren, die im [!UICONTROL Update]-Stream eines bestimmten Elements veröffentlicht wurden.
 
-Für alle verfügbaren Benachrichtigungen werden tägliche Digest[!UICONTROL E-Mails für die ] „Kommunikation“ ausgewählt.
+Für alle verfügbaren Benachrichtigungen werden tägliche Digest[!UICONTROL E-Mails für die &#x200B;] „Kommunikation“ ausgewählt.
 
 Die Informationen werden für das Objekt zusammengefasst, in dem die Kommunikation stattgefunden hat, und für jedes Objekt wird eine Gesamtzahl von Kommunikationsnachrichten angezeigt.
 
@@ -130,7 +130,7 @@ Informationen zum Aktivieren automatischer Erinnerungen finden Sie unter [Einric
 
 ### Erinnerungsbenachrichtigungen
 
-Ein [!DNL Workfront] (oder ein Benutzer mit [!UICONTROL  Zugriffsebene „Planer] und administrativem Zugriff auf Erinnerungsbenachrichtigungen) kann Erinnerungsbenachrichtigungen über bald ablaufende Fristen entwerfen und manuell mit Projekten, Aufgaben, Problemen und Arbeitszeittabellen verknüpfen.
+Ein [!DNL Workfront] (oder ein Benutzer mit [!UICONTROL &#x200B; Zugriffsebene „Planer] und administrativem Zugriff auf Erinnerungsbenachrichtigungen) kann Erinnerungsbenachrichtigungen über bald ablaufende Fristen entwerfen und manuell mit Projekten, Aufgaben, Problemen und Arbeitszeittabellen verknüpfen.
 
 >[!IMPORTANT]
 >

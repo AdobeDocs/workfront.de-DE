@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Teilaufgabe hinzufügen](assets/agile-story-addsubtask2-NWE.png)
 
-   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ ] und die Unteraufgabe wird in die Anzeigespur verschoben.
+   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ &#x200B;] und die Unteraufgabe wird in die Anzeigespur verschoben.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -106,7 +106,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> (Nur in Projekten verfügbar) Geben Sie die Anzahl der geplanten Stunden für die Aufgabe an.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL-Zuweisung]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL -Zuweisung]</strong></td>
       <td>Geben Sie den Namen des Teams ein, dem Sie die Unteraufgabe zuweisen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</td>
      </tr>
     </tbody>

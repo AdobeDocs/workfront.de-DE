@@ -126,9 +126,9 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
    >
    >* Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird das Feld Nur &lt;SSO-Konfiguration>-Authentifizierung zulassen ausgeblendet, wenn Sie die E-Mail-Einladung deaktivieren. Das Feld Federation-ID oder &lt;SSO Configuration> Benutzername bleibt sichtbar.
    >
-   * Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
+   >* Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
    >
-   Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+   >Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
 
 1. Klicken Sie **Diese Person hinzufügen**.
 
@@ -138,7 +138,7 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
 
    >[!NOTE]
    >
-   Wenn Sie Gruppenadministrator sind und Benutzer zu einer Organisation hinzufügen, die in die Adobe Admin Console integriert wurde, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt. Ein Workfront-Administrator muss den Benutzer genehmigen, wodurch der Benutzer in Workfront aktiviert und zur Adobe Admin Console hinzugefügt wird.
+   >Wenn Sie Gruppenadministrator sind und Benutzer zu einer Organisation hinzufügen, die in die Adobe Admin Console integriert wurde, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt. Ein Workfront-Administrator muss den Benutzer genehmigen, wodurch der Benutzer in Workfront aktiviert und zur Adobe Admin Console hinzugefügt wird.
 
 ## Kopieren eines Benutzers zum Erstellen eines neuen
 
@@ -146,11 +146,11 @@ Sie können einen Benutzer erstellen, indem Sie einen vorhandenen Benutzer kopie
 
 >[!NOTE]
 >
-Wenn Sie einen Benutzer auf diese Weise erstellen, werden alle Informationen vom ursprünglichen Benutzer an den neu erstellten Benutzer kopiert, mit Ausnahme der folgenden:
+>Wenn Sie einen Benutzer auf diese Weise erstellen, werden alle Informationen vom ursprünglichen Benutzer an den neu erstellten Benutzer kopiert, mit Ausnahme der folgenden:
 >
-* Die Informationen im Abschnitt Persönliche Informationen .
-* Beim Anmelden anzeigen: Hier ist die Standardregisterkarte für die Zugriffsebene ausgewählt.
-* Verzeichnisberichte
+>* Die Informationen im Abschnitt Persönliche Informationen .
+>* Beim Anmelden anzeigen: Hier ist die Standardregisterkarte für die Zugriffsebene ausgewählt.
+>* Verzeichnisberichte
 >
 
 So erstellen Sie einen neuen Benutzer durch Kopieren eines vorhandenen Benutzers:
@@ -174,6 +174,6 @@ Wenn Sie die Option zum Senden einer Einladung an den Benutzer ausgewählt haben
 
 >[!NOTE]
 >
-Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
+>Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
 >
-Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+>Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.

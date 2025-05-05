@@ -57,7 +57,7 @@ Sie können ein [!UICONTROL Portfolio] auf der Portfolioseite bearbeiten oder Po
 {{step1-to-portfolios}}
 
 1. Klicken Sie auf den Namen eines Portfolios, um es zu öffnen.
-1. (Optional) Um eingeschränkte Informationen zum Portfolio zu bearbeiten, klicken Sie im linken Bereich ]****[!UICONTROL  Portfolio-Details.
+1. (Optional) Um eingeschränkte Informationen zum Portfolio zu bearbeiten, klicken Sie im linken Bereich **&#x200B;**&#x200B;Portfolio-Details.
 
    ![Registerkarte &quot;Portfolio-Details“](assets/portfolio-details-tab-nwe-350x163.png)
 
@@ -69,7 +69,7 @@ Sie können ein [!UICONTROL Portfolio] auf der Portfolioseite bearbeiten oder Po
    >
    >Je nachdem, wie Ihr [!DNL Workfront]- oder Gruppenadministrator Ihre Layoutvorlage geändert hat, werden die Felder im Bereich [!UICONTROL Portfolio-] möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Ansicht [!UICONTROL Details] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen [!UICONTROL &#x200B; Abschnitt &#x200B;]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
@@ -150,7 +150,7 @@ Sie können ein [!UICONTROL Portfolio] auf der Portfolioseite bearbeiten oder Po
       <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Portfolio-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Portfolio-Besitzer]. Dies ist die Person, die die in den Projekten des Portfolios definierten Arbeiten überwachen und den Business Case genehmigen kann.</p> <p>Wichtig: Wenn Sie eine Person als Portfolio-Manager festlegen, erhält diese automatisch [!UICONTROL Manage]-Berechtigungen für das Portfolio, die Programme und die Projekte im Portfolio. </p> <p>Tipp: Sie können den Portfolio-Manager in der Portfolio-Kopfzeile schnell aktualisieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Gruppe]</td> 
+      <td role="rowheader">[!UICONTROL -Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Portfolio verknüpft ist oder für dessen Abschluss verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Portfolio Details] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Diese Option ist im Feld [!UICONTROL Portfolio bearbeiten] nicht verfügbar. </p> </p> </td> 
      </tr> 
      <tr> 

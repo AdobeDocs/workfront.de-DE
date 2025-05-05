@@ -38,7 +38,7 @@ Im Installationsprozess wird die Projektvorlage mit keinen benutzerdefinierten F
 
 ### Vorlagenaufgabe - Dauer und Aufwandsschätzungen aktualisieren {#update-template-task-duration-and-effort-estimates}
 
-Jede Aufgabe in der Vorlage enthält eine geplante Dauer und eine geplante Aufwandsschätzung. Diese Schätzungen dienen als Ausgangspunkt für die Dauer und die für diese Aktivitäten aufgewendete Zeit. Die Fähigkeiten, Fähigkeiten und das Tempo Ihres Unternehmens sind jedoch einzigartig. Sie sollten die geschätzte Dauer und den geschätzten Aufwand jeder Aufgabe überprüfen, um sie an die Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Verwalten von Aufgabeninformationen im Bereich [!UICONTROL Übersicht über ] Aufgabendetails](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
+Jede Aufgabe in der Vorlage enthält eine geplante Dauer und eine geplante Aufwandsschätzung. Diese Schätzungen dienen als Ausgangspunkt für die Dauer und die für diese Aktivitäten aufgewendete Zeit. Die Fähigkeiten, Fähigkeiten und das Tempo Ihres Unternehmens sind jedoch einzigartig. Sie sollten die geschätzte Dauer und den geschätzten Aufwand jeder Aufgabe überprüfen, um sie an die Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Verwalten von Aufgabeninformationen im Bereich [!UICONTROL Übersicht über &#x200B;] Aufgabendetails](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 
 ### Meilensteinpfad und Meilensteine verknüpfen {#associate-a-milestone-path-and-milestones}
 

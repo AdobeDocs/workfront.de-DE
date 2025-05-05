@@ -218,7 +218,7 @@ Der [!DNL Workfront]-Administrator kann jedoch die Option Pinnwände im [!UICONT
 
 >[!NOTE]
 >
->Dies hindert Benutzende nicht daran, über eine URL auf Pinnwände zuzugreifen. Dadurch wird nur verhindert, dass die Option [!DNL Boards] im [!UICONTROL Hauptmenü“ angezeigt ].
+>Dies hindert Benutzende nicht daran, über eine URL auf Pinnwände zuzugreifen. Dadurch wird nur verhindert, dass die Option [!DNL Boards] im [!UICONTROL Hauptmenü“ angezeigt &#x200B;].
 
 ### Kann ich die frühen Funktionen deaktivieren, sobald ich Mitglied geworden bin?
 
@@ -226,5 +226,5 @@ Nur [!DNL Workfront] Administratoren können den Erhalt frühzeitiger Funktionen
 
 {{step1-to-boards}}
 
-1. Klicken Sie ![Early Feature Opt](assets/early-feature-opt-in-enabled.png)in aktiviert[!UICONTROL  (Early Feature Opt-in ]) oben im Dashboard-Bildschirm.
+1. Klicken Sie ![Early Feature Opt](assets/early-feature-opt-in-enabled.png)in aktiviert[!UICONTROL &#x200B; (Early Feature Opt-in &#x200B;]) oben im Dashboard-Bildschirm.
 1. Klicken Sie **[!UICONTROL Deaktivieren]**.

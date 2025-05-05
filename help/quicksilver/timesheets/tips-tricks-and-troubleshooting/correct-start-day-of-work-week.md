@@ -33,7 +33,7 @@ Die Gebietsschema-Änderung wirkt sich nicht auf den Starttag der Woche auf dem 
 Im Folgenden finden Sie Anweisungen zum Ändern von Sprach- und Gebietsschemaeinstellungen für verschiedene Browser, die von Workfront unterstützt werden.
 
 * **Chrome:** Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Chrome-Browser ein: `chrome://settings/languages` gehen Sie dann zu „Sprachen“.
-* **Firefox:**Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Firefox-Browser ein: `about:preferences#content` gehen Sie dann zu Sprachen.
+* **Firefox:**&#x200B;Kopieren Sie den folgenden Link und fügen Sie ihn in Ihren Firefox-Browser ein: `about:preferences#content` gehen Sie dann zu Sprachen.
 * **IE 11:** Tools -> Internetoptionen -> Allgemein -> Sprachen
 * **Safari:** Leider erlaubt Safari nicht, die Browser-Sprachen zu ändern, ohne gleichzeitig die Sprache Ihres Betriebssystems zu ändern. Wahrscheinlich ist es einfacher, einfach einen anderen Browser wie Chrome oder Firefox zu installieren.
 

@@ -56,10 +56,10 @@ Informationen zum Konfigurieren von [!DNL Basecamp Classic] finden Sie unter [In
 
 Als [Profile mit Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) oder [Profile mit Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) können Sie die [!DNL Basecamp] Integration für das gesamte Konto in Ihren [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
-1. Sammeln [!UICONTROL  in &quot;]&quot; die folgenden Informationen:
+1. Sammeln [!UICONTROL &#x200B; in &quot;]&quot; die folgenden Informationen:
 
    * Die URL für Ihr [!DNL Basecamp]
-   * Die URL im Abschnitt &quot;[!UICONTROL  Informationen]
+   * Die URL im Abschnitt &quot;[!UICONTROL &#x200B; Informationen]
 
 1. Melden Sie sich von [!DNL Basecamp] ab.
 1. Klicken Sie **[!UICONTROL oben]** auf „Kontoeinstellungen“.
@@ -77,7 +77,7 @@ Als [Profile mit Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../
 
 1. Klicken Sie in den angezeigten Optionen rechts neben **[!UICONTROL [!DNL Basecamp]API-]** auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie in das sich öffnende Feld die URL im Abschnitt &quot;[!UICONTROL Meine ]&quot; in [!DNL Basecamp] ein und klicken Sie auf **[!UICONTROL Speichern]**.\
+1. Geben Sie in das sich öffnende Feld die URL im Abschnitt &quot;[!UICONTROL Meine &#x200B;]&quot; in [!DNL Basecamp] ein und klicken Sie auf **[!UICONTROL Speichern]**.\
    Sobald Sie [!DNL Workfront Proof] mit [!DNL Basecamp] integrieren, können Ihre Benutzerinnen und Benutzer ihre persönlichen Einstellungen konfigurieren. Informationen zum Einrichten persönlicher Einstellungen finden Sie unter [Persönliche Einstellungen konfigurieren](#configuring-personal-settings)
 
 1. Wenn Sie [!DNL Basecamp] Integration nicht aktivieren können, ist Ihre [!DNL Workfront Proof]-Konto-ID möglicherweise nicht mit der in [!DNL Basecamp] verwendeten Konto-ID identisch.

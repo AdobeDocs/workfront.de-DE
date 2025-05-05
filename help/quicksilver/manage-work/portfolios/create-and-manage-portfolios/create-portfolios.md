@@ -90,7 +90,7 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
    Als Ersteller des Portfolios werden Sie standardmäßig als Portfolio-Manager zugewiesen.
 
-1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Details.
+1. Klicken Sie im linken **auf** Portfolio-Details.
 1. Ändern Sie **[!UICONTROL Bereich]**&#x200B;Übersicht“ eine der folgenden Informationen:
 
    <table style="table-layout:auto"> 

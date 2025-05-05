@@ -67,7 +67,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    * Klicken Sie auf **Filter**, **Ansicht** und **Gruppierung** über dem [!UICONTROL Gantt-Diagramm] und fügen Sie den vorhandenen Filter, die Ansicht oder die Gruppierung hinzu oder bearbeiten Sie sie, die auf die Liste der Elemente im [!UICONTROL Gantt-Diagramm].
 
-     Alle in der Listenansicht ausgewählten Filter und Gruppierungen werden beim Anzeigen des [!UICONTROL Gantt-Diagramms“ ]. Ansichten werden im exportierten [!UICONTROL Gantt-Diagramm] nur innerhalb der Liste angezeigt, die neben dem [!UICONTROL Gantt-Diagramm] auf der ersten Seite angezeigt wird. Ansichten werden nicht im [!UICONTROL Gantt-Diagramm] selbst angezeigt.
+     Alle in der Listenansicht ausgewählten Filter und Gruppierungen werden beim Anzeigen des [!UICONTROL Gantt-Diagramms“ &#x200B;]. Ansichten werden im exportierten [!UICONTROL Gantt-Diagramm] nur innerhalb der Liste angezeigt, die neben dem [!UICONTROL Gantt-Diagramm] auf der ersten Seite angezeigt wird. Ansichten werden nicht im [!UICONTROL Gantt-Diagramm] selbst angezeigt.
 
      >[!TIP]
      >
@@ -97,7 +97,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
      >
      > Zuweisungen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] nach PDF exportiert wird. Wenn das [!UICONTROL Gantt-]) nach PDF exportiert wird, werden Zuweisungen nur in der Listenansicht angezeigt.
 
-   * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt ].
+   * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt &#x200B;].
 
      Weitere Informationen finden Sie unter [Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
@@ -129,7 +129,7 @@ Das **[!UICONTROL In PDF exportieren]** wird angezeigt.
 
      >[!NOTE]
      >
-     >* Sie können das Dropdown **[!UICONTROL Menü „Zoom]**&quot; oder das Regler-Tool verwenden, um zu bestimmen, wie viele Informationen auf jeder Seite angezeigt werden, wie in [Konfigurieren, wie Informationen im [!UICONTROL Gantt-Diagramm“ ]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). Wählen Sie eine detailliertere Option aus, um mehr zu exportierende Seiten anzuzeigen, oder wählen Sie eine weniger detailliertere Option aus, um weniger zu exportierende Seiten anzuzeigen.
+     >* Sie können das Dropdown **[!UICONTROL Menü „Zoom]**&quot; oder das Regler-Tool verwenden, um zu bestimmen, wie viele Informationen auf jeder Seite angezeigt werden, wie in [Konfigurieren, wie Informationen im [!UICONTROL Gantt-Diagramm“ &#x200B;]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). Wählen Sie eine detailliertere Option aus, um mehr zu exportierende Seiten anzuzeigen, oder wählen Sie eine weniger detailliertere Option aus, um weniger zu exportierende Seiten anzuzeigen.
      >
      >* Wenn Sie ein [!UICONTROL Gantt-Diagramm] mit mehr als 500 Elementen exportieren müssen, wenden Sie einen Filter auf die Liste an, bevor Sie das [!UICONTROL Gantt-Diagramm] anzeigen, sodass weniger als 500 Elemente oder 250 Seiten angezeigt werden. Informationen zum Anwenden eines Filters finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
      >
@@ -140,7 +140,7 @@ Das **[!UICONTROL In PDF exportieren]** wird angezeigt.
      >   * Wenn es mehr als 500 Elemente enthält
 
 
-1. Wenn der PDF nach dem Export in PDF gedruckt wird, wählen Sie **[!UICONTROL Dropdown-Menü]**Seitengröße“ die Papiergröße aus, in die gedruckt werden soll.
+1. Wenn der PDF nach dem Export in PDF gedruckt wird, wählen Sie **[!UICONTROL Dropdown-Menü]**&#x200B;Seitengröße“ die Papiergröße aus, in die gedruckt werden soll.
 Sie können aus den folgenden Optionen auswählen:
 
    * **[!UICONTROL Brief]**

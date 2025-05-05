@@ -131,7 +131,7 @@ Sie können Initiativinformationen in Berichten anzeigen, wie in der folgenden T
    <td>Alle oben aufgeführten Informationen zur Initiative, (Aufgabengebiet)-ID, Projekt*, Projektzuweisung, geplante Stunden*, Aufgabengebiet-Stunden für die Initiative, (Aufgabengebiet)-Anzahl, alle Projektfelder einschließlich benutzerdefinierter Felder*</td> 
   </tr> 
   <tr> 
-   <td><p>[!UICONTROL-Projekt]*</p></td> 
+   <td><p>[!UICONTROL -Projekt]*</p></td> 
    <td> <p>Alle oben aufgeführten Informationen zur Initiative*</p> </td> 
   </tr> 
  </tbody> 

@@ -39,13 +39,13 @@ Sie können manuell angeben, wann die Arbeit an einer Aufgabe oder einem Problem
 
 >[!TIP]
 >
->Das [!UICONTROL Tatsächliche Startdatum] stimmt möglicherweise nicht mit dem [!UICONTROL Geplanten Startdatum) ] Projekts, der Aufgabe oder des Problems überein, da der/die Benutzende die Arbeit möglicherweise später oder früher als das geplante Datum beginnen wird.
+>Das [!UICONTROL Tatsächliche Startdatum] stimmt möglicherweise nicht mit dem [!UICONTROL Geplanten Startdatum) &#x200B;] Projekts, der Aufgabe oder des Problems überein, da der/die Benutzende die Arbeit möglicherweise später oder früher als das geplante Datum beginnen wird.
 
 Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 >[!NOTE]
 >
->Die [!UICONTROL Muss beginnen am] oder die Begrenzungen Feste Datumswerte wirken sich auf [!UICONTROL  (Geplantes Startdatum] einer Aufgabe aus, nicht auf [!UICONTROL Tatsächliches Startdatum]. Dadurch wird das [!UICONTROL Geplantes Startdatum] auf ein von Ihnen angegebenes Datum aktualisiert. Das [!UICONTROL Tatsächliche Startdatum] wird unabhängig vom [!UICONTROL Geplanten Startdatum] aktualisiert, wie oben beschrieben.
+>Die [!UICONTROL Muss beginnen am] oder die Begrenzungen Feste Datumswerte wirken sich auf [!UICONTROL &#x200B; (Geplantes Startdatum] einer Aufgabe aus, nicht auf [!UICONTROL Tatsächliches Startdatum]. Dadurch wird das [!UICONTROL Geplantes Startdatum] auf ein von Ihnen angegebenes Datum aktualisiert. Das [!UICONTROL Tatsächliche Startdatum] wird unabhängig vom [!UICONTROL Geplanten Startdatum] aktualisiert, wie oben beschrieben.
 
 ![Tatsächliches Startdatum bei Bearbeitungsaufgabe](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
@@ -242,14 +242,14 @@ Informationen zum Protokollieren der Zeit in Workfront finden Sie unter [Zeit pr
 
 Das [!UICONTROL Geplantes Abschlussdatum] oder das [!UICONTROL Fällig am] ist das Datum, an dem ein Projekt, eine Aufgabe oder ein Problem planmäßig abgeschlossen wird.
 
-Abhängig von der [!UICONTROL Aufgabenbeschränkung] können Sie möglicherweise das [!UICONTROL geplante Abschlussdatum] einer Aufgabe nicht bearbeiten. Je nach [!UICONTROL Zeitplanmodus] können Sie möglicherweise das „Geplante [!UICONTROL &quot; eines Projekts nicht ] bearbeiten.
+Abhängig von der [!UICONTROL Aufgabenbeschränkung] können Sie möglicherweise das [!UICONTROL geplante Abschlussdatum] einer Aufgabe nicht bearbeiten. Je nach [!UICONTROL Zeitplanmodus] können Sie möglicherweise das „Geplante [!UICONTROL &quot; eines Projekts nicht &#x200B;] bearbeiten.
 
 Das [!UICONTROL Geplantes Abschlussdatum] wird in einigen Bereichen von [!DNL Workfront] als Fälligkeitsdatum angezeigt.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Übersicht über die Aufgabe [!UICONTROL Geplantes Abschlussdatum]](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Legen Sie das Projekt [!UICONTROL Geplantes Abschlussdatum) ]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Legen Sie das Projekt [!UICONTROL Geplantes Abschlussdatum) &#x200B;]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Übersicht über das Problem [!UICONTROL Geplantes Abschlussdatum]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
 ![Geplantes Abschlussdatum in der Kopfzeile](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
@@ -273,7 +273,7 @@ Die Ausrichtung am geplanten Datum ist in Projekt-, Aufgaben- und Problemlisten 
 
 Das [!UICONTROL Geplantes Startdatum] ist das Datum, an dem ein Projekt, eine Aufgabe oder ein Problem geplant ist.
 
-Abhängig von der [!UICONTROL Aufgabenbeschränkung] können Sie möglicherweise das [!UICONTROL Geplantes Startdatum) ] Aufgabe nicht bearbeiten. Abhängig vom [!UICONTROL Planungsmodus] können Sie möglicherweise das „Geplante Startdatum[!UICONTROL  eines Projekts ] bearbeiten.
+Abhängig von der [!UICONTROL Aufgabenbeschränkung] können Sie möglicherweise das [!UICONTROL Geplantes Startdatum) &#x200B;] Aufgabe nicht bearbeiten. Abhängig vom [!UICONTROL Planungsmodus] können Sie möglicherweise das „Geplante Startdatum[!UICONTROL &#x200B; eines Projekts &#x200B;] bearbeiten.
 
 Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL Geplantes Startdatum]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
@@ -283,9 +283,9 @@ Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL
 
 ## [!UICONTROL Voraussichtliches Abschlussdatum]
 
-Das [!UICONTROL voraussichtliche Abschlussdatum] ist ein berechneter Echtzeitindikator für den Zeitpunkt, zu dem das Projekt, die Aufgabe oder das Problem abgeschlossen wird. Wenn das Projekt, die Aufgabe oder das Problem als abgeschlossen markiert ist[!UICONTROL  ändert sich das &quot;] Abschlussdatum“ in das Datum [!UICONTROL Tatsächliches Abschlussdatum].
+Das [!UICONTROL voraussichtliche Abschlussdatum] ist ein berechneter Echtzeitindikator für den Zeitpunkt, zu dem das Projekt, die Aufgabe oder das Problem abgeschlossen wird. Wenn das Projekt, die Aufgabe oder das Problem als abgeschlossen markiert ist[!UICONTROL &#x200B; ändert sich das &quot;] Abschlussdatum“ in das Datum [!UICONTROL Tatsächliches Abschlussdatum].
 
-Wenn alles reibungslos und wie geplant verläuft[!UICONTROL  sollte das &quot;] Abschlussdatum“ mit dem [!UICONTROL Geplantes Abschlussdatum“ ]. Andernfalls kann aufgrund der Verzögerungen bei den Vorgängeraufgaben das [!UICONTROL voraussichtliche Abschlussdatum] vom [!UICONTROL geplanten Abschlussdatum“ ].
+Wenn alles reibungslos und wie geplant verläuft[!UICONTROL &#x200B; sollte das &quot;] Abschlussdatum“ mit dem [!UICONTROL Geplantes Abschlussdatum“ &#x200B;]. Andernfalls kann aufgrund der Verzögerungen bei den Vorgängeraufgaben das [!UICONTROL voraussichtliche Abschlussdatum] vom [!UICONTROL geplanten Abschlussdatum“ &#x200B;].
 
 Weitere Informationen finden Sie unter [Übersicht über das [!UICONTROL Voraussichtliche Abschlussdatum] für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -295,13 +295,13 @@ Weitere Informationen finden Sie unter [Übersicht über das [!UICONTROL Vorauss
 
 Das [!UICONTROL Voraussichtliche Startdatum] ist ein Echtzeitdatum für den Beginn des Projekts, der Aufgabe oder des Problems und berücksichtigt alle Verzögerungen. Dies ist ein genaueres Startdatum für das Projekt, die Aufgabe oder das Problem als [!UICONTROL Geplantes Startdatum]. Das [!UICONTROL Geplantes Startdatum] berücksichtigt keine Verzögerungen oder früheren Datumsangaben.
 
-Wenn Sie ein Projekt zum ersten Mal planen[!UICONTROL  sind das ]Geplanter Starttermin) und [!UICONTROL Geplanter Starttermin] der Aufgaben und des Projekts identisch. Da es zu Verzögerungen kommen kann oder Aufgaben früher abgeschlossen werden können[!UICONTROL  kann sich das &quot;] Startdatum“ vom [!UICONTROL  „Geplantes Startdatum“ ].
+Wenn Sie ein Projekt zum ersten Mal planen[!UICONTROL &#x200B; sind das &#x200B;]Geplanter Starttermin) und [!UICONTROL Geplanter Starttermin] der Aufgaben und des Projekts identisch. Da es zu Verzögerungen kommen kann oder Aufgaben früher abgeschlossen werden können[!UICONTROL &#x200B; kann sich das &quot;] Startdatum“ vom [!UICONTROL &#x200B; „Geplantes Startdatum“ &#x200B;].
 
-Bei einer Aufgabe kann [!UICONTROL  „Voraussichtliches Startdatum] auch von ihrem [!UICONTROL Geplantes Startdatum“ abweichen] wenn einer ihrer Vorgänger hinter dem Zeitplan liegt.
+Bei einer Aufgabe kann [!UICONTROL &#x200B; „Voraussichtliches Startdatum] auch von ihrem [!UICONTROL Geplantes Startdatum“ abweichen] wenn einer ihrer Vorgänger hinter dem Zeitplan liegt.
 
 >[!TIP]
 >
->Sie können das [!UICONTROL Voraussichtliche Startdatum) ] Problems nur in einer Liste oder in einem Bericht anzeigen.
+>Sie können das [!UICONTROL Voraussichtliche Startdatum) &#x200B;] Problems nur in einer Liste oder in einem Bericht anzeigen.
 
 Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL Voraussichtlicher Starttermin]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 

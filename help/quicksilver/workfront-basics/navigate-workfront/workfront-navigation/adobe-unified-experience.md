@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ Wenn Sie Fragen zum Onboarding bei der [!DNL Adobe Admin Console] haben, lesen S
 
 ## [!DNL Workfront]
 
-Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/aec-view-all-orgs.png)
 

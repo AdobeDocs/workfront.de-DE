@@ -42,7 +42,7 @@ Das Story Board besteht aus folgenden Elementen:
 
 * **Aufgabenstatus:** Sie an, wie eine Story durch die Iteration oder das Projekt verläuft, je nachdem, in welcher Statusspalte sich die Story befindet.
 
-  Der Aufgabenstatus kann für das Projekt angepasst werden, indem die Agile-Ansicht wie unter „Erstellen [ Anpassen einer Agile-Ansicht“ in ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)Übersicht über [ in [!UICONTROL Adobe Workfront&quot; beschrieben ]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Der Aufgabenstatus kann für das Projekt angepasst werden, indem die Agile-Ansicht wie unter „Erstellen [ Anpassen einer Agile-Ansicht“ in ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)Übersicht über [ in [!UICONTROL Adobe Workfront&quot; beschrieben &#x200B;]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * **Schwimmspur:** Wenn eine übergeordnete Story und ihre Unteraufgaben auf dem Storyboard angezeigt werden, wird eine Schwimmspur speziell für die Story und ihre Unteraufgaben erstellt. Dies bietet eine visuelle Unterscheidung, um besser zu erkennen, wie die Unteraufgaben einer Story über die Story-Tafel hinweg voranschreiten.
 

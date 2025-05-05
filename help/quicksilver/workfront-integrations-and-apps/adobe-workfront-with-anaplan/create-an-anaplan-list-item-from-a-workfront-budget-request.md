@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
+   <td> <p>[!UICONTROL -Plan], [!UICONTROL -Arbeit]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel
 
 &#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-&#42;&#42;Informationen zu [!DNL  Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42;Informationen zu [!DNL &#x200B; Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## Auslösendes Ereignis
 
@@ -194,7 +194,7 @@ Führen Sie die folgenden Schritte aus, um dieses Integrationsszenario in Ihrem 
 
 Um den durch diese Vorlage dargestellten Workflow abzuschließen, müssen Sie auch die folgende zusätzliche Vorlage bereitstellen:
 
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Weitere Szenarien für die Ausgabenoptimierung sind:
 

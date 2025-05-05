@@ -48,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
@@ -109,7 +109,7 @@ Um beispielsweise das Abonnement für ein Problem zu kündigen:
 
    ![Abo von einem Arbeitselement beenden](assets/unsubscribe-to-a-work-item-350x258.png)
 
-1. Sie können ein Abonnement auch kündigen, indem Sie in der Abonnement-E[!UICONTROL Mail auf den Link ]Abmelden“ klicken.
+1. Sie können ein Abonnement auch kündigen, indem Sie in der Abonnement-E[!UICONTROL Mail auf den Link &#x200B;]Abmelden“ klicken.
 
    Sobald Sie ein Abonnement für ein Element gekündigt haben, erhalten Sie keine Benachrichtigung mehr, wenn jemand das Problem kommentiert.
 

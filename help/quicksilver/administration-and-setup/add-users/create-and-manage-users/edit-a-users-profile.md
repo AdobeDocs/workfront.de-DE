@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Das Feld Benutzer bearbeiten wird angezeigt.
 
-1. Ändern Sie **Feld****Benutzer bearbeiten“ eine der folgenden Informationen und klicken Sie** auf „Änderungen speichern“:
+1. Ändern Sie **Feld**&#x200B;**Benutzer bearbeiten“ eine der folgenden Informationen und klicken Sie** auf „Änderungen speichern“:
 
    <table style="table-layout:auto"> 
     <col> 

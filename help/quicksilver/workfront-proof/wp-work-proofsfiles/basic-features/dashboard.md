@@ -251,7 +251,7 @@ Sie können auch zur Detailseite eines Elements gehen, indem Sie auf das Aktions
 
 >[!NOTE]
 >
->Wenn Sie im Abschnitt „Letzte Aktivität“ auf [!UICONTROL  Namen ] Korrekturabzugs klicken, wird der Korrekturabzug in der Korrekturabzugsansicht geöffnet.
+>Wenn Sie im Abschnitt „Letzte Aktivität“ auf [!UICONTROL &#x200B; Namen &#x200B;] Korrekturabzugs klicken, wird der Korrekturabzug in der Korrekturabzugsansicht geöffnet.
 
 So gehen Sie zur Seite mit den Korrekturabzugsdetails für diesen Korrekturabzug:
 

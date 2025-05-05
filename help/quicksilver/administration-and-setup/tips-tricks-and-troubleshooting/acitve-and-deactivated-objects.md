@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Als [!DNL Adobe Workfront] können Sie Objekte innerhalb des Systems aktivieren oder deaktivieren. Es wird empfohlen, Objekte, die Sie deaktivieren können, niemals zu löschen. Sie sollten das Objekt einfach deaktivieren, um eine zukünftige Verwendung zu verhindern und es aus den Dropdown-Menüs anderer Objekte zu entfernen.
 
-Um beispielsweise einen bestimmten „Stundentyp[!UICONTROL  anzuzeigen, ] der [!UICONTROL Stundentyp] aktiv sein. Ein inaktiver oder deaktivierter [!UICONTROL Stundentyp] wird nicht im Dropdown-Menü [!UICONTROL Stundentyp] angezeigt, verbleibt jedoch im System, um die historischen Aufzeichnungen darüber zu erhalten, wo dieser [!UICONTROL Stundentyp] in der Vergangenheit verwendet wurde.
+Um beispielsweise einen bestimmten „Stundentyp[!UICONTROL &#x200B; anzuzeigen, &#x200B;] der [!UICONTROL Stundentyp] aktiv sein. Ein inaktiver oder deaktivierter [!UICONTROL Stundentyp] wird nicht im Dropdown-Menü [!UICONTROL Stundentyp] angezeigt, verbleibt jedoch im System, um die historischen Aufzeichnungen darüber zu erhalten, wo dieser [!UICONTROL Stundentyp] in der Vergangenheit verwendet wurde.
 
 Der Begriff „Aktiv“ wird verwendet, um zu identifizieren, ob bestimmte Objekte im System aktiviert sind. In diesem Zusammenhang wird „Aktiv“ für die folgenden Objekte verwendet:
 

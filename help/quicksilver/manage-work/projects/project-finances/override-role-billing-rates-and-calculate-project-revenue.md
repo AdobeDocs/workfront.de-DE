@@ -327,7 +327,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes für Benutzer in verschie
 
 * Die **Geplanten Stunden** werden gleichmäßig über die **Dauer** der Aufgabe verteilt.
 
-* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start****Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
+* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start**&#x200B;**Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
 
 * Der Betrag der geplanten Stunden pro Tag ändert den geplanten Umsatz eines Projekts nicht, wenn der Abrechnungssatz des Aufgabengebiets nicht geändert wird oder wenn nur eine Überschreibung des Abrechnungssatzes erfolgt. Selbst wenn zwei Benutzer aus zwei verschiedenen Zeitzonen unterschiedliche geplante Stunden pro Tag sehen, sind die geplanten Gesamteinnahmen des Projekts zwischen den beiden Benutzern identisch.
 

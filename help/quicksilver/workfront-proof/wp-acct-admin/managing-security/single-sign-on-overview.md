@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für [!UICONTROL  Verwendung ] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
+Für [!UICONTROL &#x200B; Verwendung &#x200B;] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhandenen Benutzernamen und Kennwort Ihres Unternehmens bei [!DNL Workfront Proof] anmelden.
 

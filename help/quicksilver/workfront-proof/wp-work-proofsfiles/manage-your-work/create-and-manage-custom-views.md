@@ -316,7 +316,7 @@ Kopieren einer benutzerdefinierten Ansicht:
 
 ## Freigeben benutzerdefinierter Ansichten
 
-Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL  benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
+Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL &#x200B; benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
 
 So geben Sie eine benutzerdefinierte Ansicht für andere Benutzer frei:
 
@@ -346,7 +346,7 @@ So exportieren Sie die Daten aus einer benutzerdefinierten Ansicht in eine CSV-D
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. 3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen Sie [!UICONTROL  Menü ]In CSV exportieren) aus. 4)\
+1. Wählen Sie [!UICONTROL &#x200B; Menü &#x200B;]In CSV exportieren) aus. 4)\
    ![export_custom_view.png](assets/exporting-custom-view-350x258.png)\
    In einem separaten Browser-Fenster wird „Bericht wird generiert: 100 %&quot; plus die Anzahl der Datensätze (die Anzahl der in Ihrem benutzerdefinierten Bericht enthaltenen Elemente) angezeigt
 
@@ -366,7 +366,7 @@ Sie können eine benutzerdefinierte Ansicht einfach löschen. Gehen Sie dazu fol
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. 3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen [!UICONTROL  im ] die Option „Löschen“ aus. 4)\
+1. Wählen [!UICONTROL &#x200B; im &#x200B;] die Option „Löschen“ aus. 4)\
    ![deleting_custom_view.png](assets/deleting-custom-view-350x258.png)
 
 1. Klicken Sie **[!UICONTROL (]**), um zu bestätigen, dass Sie die aktuelle benutzerdefinierte Ansicht löschen möchten\

@@ -32,7 +32,7 @@ Ihr Zugriff auf die Überprüfung und Genehmigung von Korrekturabzügen entspric
 
    * Wählen **[!UICONTROL Alle Genehmigungen anzeigen]** im Bereich [!UICONTROL Genehmigungen] von [!UICONTROL Meine Arbeit] aus. Wählen Sie dann die Aufgabe Testversand-Genehmigung in der Liste aller Genehmigungen aus.
 
-     Informationen zu &quot;[!UICONTROL  Arbeit] in der Mobile App finden Sie [[!UICONTROL  Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+     Informationen zu &quot;[!UICONTROL &#x200B; Arbeit] in der Mobile App finden Sie [[!UICONTROL &#x200B; Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Wählen Sie auf der Seite Details **[!UICONTROL Zum Korrekturabzug wechseln]** aus.
 
@@ -64,7 +64,7 @@ Jeder Benutzer, der als Korrekturabzugsbesitzer, -autor oder -moderator zugewies
 
 1. Öffnen Sie den Dokument-Korrekturabzug und wählen Sie **[!UICONTROL Mehr]** Menü ![Mehr](assets/mobile-verticalmoremenu-20x33.png) oben rechts im Dokument aus. Wählen Sie dann **[!UICONTROL Mehr]** aus.
 1. Wählen Sie **[!UICONTROL Dokument sperren]** aus.\
-   Oben [!UICONTROL  Dokument wird die ] „Gesperrt“ angezeigt.
+   Oben [!UICONTROL &#x200B; Dokument wird die &#x200B;] „Gesperrt“ angezeigt.
 
 ### Korrekturabzug entsperren
 

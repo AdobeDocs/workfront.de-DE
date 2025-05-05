@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Wenn Sie eine Teilaufgabe auswählen, wird sie auch als Karte auf der Pinnwand hinzugefügt.
 
 1. Klicken Sie auf [!UICONTROL **Mehr**] > [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -85,7 +85,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie [!UICONTROL **linken Bedienfeld**] Aufgaben [!UICONTROL **oder**] Probleme“.
 1. Klicken Sie auf die Aufgabe, Unteraufgabe oder das Problem, die bzw. das Sie einer Pinnwand oder einem Arbeitsablauf hinzufügen möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü neben dem Objektnamen und wählen Sie [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 

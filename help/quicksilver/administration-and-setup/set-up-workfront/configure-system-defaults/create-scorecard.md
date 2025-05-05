@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Frage]</td> 
+      <td role="rowheader">[!UICONTROL -Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 

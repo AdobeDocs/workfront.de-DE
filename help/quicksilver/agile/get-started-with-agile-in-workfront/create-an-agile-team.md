@@ -162,7 +162,7 @@ Sie können ein vorhandenes Team in ein agiles Team umwandeln:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** die Option **[!UICONTROL Dies ist ein Agile-Team]** aus.
 
-1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **** Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
+1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **&#x200B;**&#x200B;Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
 
 1. Klicken Sie auf **Änderungen speichern**.
 

@@ -28,16 +28,16 @@ Obwohl sie ähnlich aussehen und sich ähnlich anfühlen, ist die Funktionalitä
 
 ## Überlegungen zum Gantt-Diagramm
 
-* Informationen können in folgendem (Gantt[!UICONTROL Diagramm) bearbeitet ]:
+* Informationen können in folgendem (Gantt[!UICONTROL Diagramm) bearbeitet &#x200B;]:
    * Aufgabenliste
-* Informationen in den folgenden (Gantt[!UICONTROL Diagrammen) können nicht bearbeitet ]:
+* Informationen in den folgenden (Gantt[!UICONTROL Diagrammen) können nicht bearbeitet &#x200B;]:
    * Eine Vorlagenaufgabenliste
    * Eine Projektliste
-* Für eine Liste von Vorlagen gibt [!UICONTROL  Option ]Gantt-Diagramm“.
-* Sie können konfigurieren, welche Informationen in der Aufgabenliste (Gantt[!UICONTROL  und ] Projektliste (Gantt[!UICONTROL Diagramm) ].
+* Für eine Liste von Vorlagen gibt [!UICONTROL &#x200B; Option &#x200B;]Gantt-Diagramm“.
+* Sie können konfigurieren, welche Informationen in der Aufgabenliste (Gantt[!UICONTROL &#x200B; und &#x200B;] Projektliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 * Sie können weder die Farben noch die Schriftarten konfigurieren, in denen die [!UICONTROL Gantt-Diagramm]Informationen angezeigt werden.
 * Wenn Informationen aus Aufgaben aktualisiert werden, werden sie automatisch sowohl in der Aufgabenliste [!UICONTROL Gantt-Diagramm] als auch in der Projektliste [!UICONTROL Gantt-Diagramm] angezeigt.
-* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Vorlagenaufgabenliste (Gantt[!UICONTROL Diagramm) ].
+* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Vorlagenaufgabenliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 
 ## Zugreifen auf das [!UICONTROL Gantt-Diagramm]
 
@@ -65,8 +65,8 @@ So greifen Sie auf die Aufgabenliste [!UICONTROL Gantt-Diagramm] eines Projekts 
 1. Wechseln Sie zu einem der folgenden Bereiche:
 
    * Wählen Sie ein Projekt aus [!UICONTROL **klicken Sie dann**] linken Bereich auf „Aufgaben“.
-   * eine Vorlage erstellen und dann im **]Bereich auf[!UICONTROL ** Vorlagenaufgaben“ klicken
-   * Eine Aufgabe oder Vorlagenaufgabe, und klicken Sie dann im **]Bereich auf[!UICONTROL ** Teilaufgaben“.
+   * eine Vorlage erstellen und dann im **Bereich auf** Vorlagenaufgaben“ klicken
+   * Eine Aufgabe oder Vorlagenaufgabe, und klicken Sie dann im **Bereich auf** Teilaufgaben“.
    * Aufgabenbericht
 
 1. Klicken Sie auf [!UICONTROL **Gantt**]-Symbol ![Gantt](assets/gantt-icon-nwe.png) oben in der Aufgabenliste.

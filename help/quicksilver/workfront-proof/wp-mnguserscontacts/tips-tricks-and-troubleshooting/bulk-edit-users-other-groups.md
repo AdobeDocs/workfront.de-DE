@@ -31,11 +31,11 @@ Nach dem Speichern der Änderungen wurden alle vorhandenen „Andere Gruppe“ e
 Das resultierende Verhalten hängt von der aktuellen Gruppenmitgliedschaft der ausgewählten Benutzer ab:
 
 * Wenn alle ausgewählten Benutzer und die Mitgliedschaften in anderen Gruppen genau übereinstimmen…
-Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, wird [!UICONTROL  Feld „Andere ]&quot; die vollständige Liste anzeigen
+Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, wird [!UICONTROL &#x200B; Feld „Andere &#x200B;]&quot; die vollständige Liste anzeigen
 aller Gruppen, denen diese Benutzer angehören.
 
 * Wenn die ausgewählten Benutzer unterschiedliche Andere Gruppenmitgliedschaften haben…
-Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, ] das Feld „Andere Gruppen[!UICONTROL  leer.
+Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben,  das Feld „Andere Gruppen leer.
 
 Wenn Sie auf **[!UICONTROL Änderungen speichern]** klicken, werden alle Elemente gespeichert, die im Feld Andere Gruppen angezeigt werden.
 

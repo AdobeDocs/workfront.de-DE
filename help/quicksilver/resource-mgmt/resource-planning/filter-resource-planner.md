@@ -282,7 +282,7 @@ So entfernen Sie einen Filter:
 
    ![Filter löschen](assets/rp-filter-options---delete-350x154.png)
 
-1. Klicken **** im Dialogfeld **Filter löschen** auf Löschen.
+1. Klicken **&#x200B;**&#x200B;im Dialogfeld **Filter löschen** auf Löschen.
 
 1. Der Filter wird gelöscht und aus dem Ressourcenplaner entfernt.
 

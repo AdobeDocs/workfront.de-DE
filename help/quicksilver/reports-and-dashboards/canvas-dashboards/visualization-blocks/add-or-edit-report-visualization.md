@@ -41,15 +41,15 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 1. Klicken Sie auf der rechten Seite des Bildschirms unter **Block hinzufügen** entweder auf:
 
-   Ziehen Sie das Symbol **Visualisierung** **** direkt an die gewünschte Position auf der Arbeitsfläche.
+   Ziehen Sie das Symbol **Visualisierung** **&#x200B;**&#x200B;direkt an die gewünschte Position auf der Arbeitsfläche.
 
    Oder
 
-   Doppelklicken Sie auf die **** **Visualisierung**, um oben auf der Arbeitsfläche eine Visualisierung hinzuzufügen.
+   Doppelklicken Sie auf die **&#x200B;**&#x200B;**Visualisierung**, um oben auf der Arbeitsfläche eine Visualisierung hinzuzufügen.
 
    Oder
 
-   Wählen Sie das **Visualisieren**-Symbol **** oben in einer vorhandenen Tabelle auf der Arbeitsfläche aus.
+   Wählen Sie das **Visualisieren**-Symbol **&#x200B;**&#x200B;oben in einer vorhandenen Tabelle auf der Arbeitsfläche aus.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
    >[!NOTE]
    >
-   >Wenn Sie **+ Neue Tabelle hinzufügen auswählen** wird unter dem Visualisierungsblock ein neuer Tabellenblock erstellt. Sie müssen die Tabelle mit Daten füllen, bevor Sie eine Visualisierung dafür hinzufügen können. Weitere Informationen zum Erstellen und Bearbeiten von Tabellen finden Sie unter [ [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Wenn Sie **+ Neue Tabelle hinzufügen auswählen** wird unter dem Visualisierungsblock ein neuer Tabellenblock erstellt. Sie müssen die Tabelle mit Daten füllen, bevor Sie eine Visualisierung dafür hinzufügen können. Weitere Informationen zum Erstellen und Bearbeiten von Tabellen finden Sie unter [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Wählen Sie den Visualisierungstyp aus, den Sie hinzufügen möchten.
 

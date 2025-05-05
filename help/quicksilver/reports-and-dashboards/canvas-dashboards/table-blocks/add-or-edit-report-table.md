@@ -66,6 +66,6 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 1. Führen Sie einen der folgenden Schritte aus, um die Tabelle weiter zu konfigurieren:
 
-   * **Formelfeld hinzufügen**: Klicken Sie oben in der Liste **Felder** auf „Neu +****. Weitere Anweisungen zum Erstellen eines Formelfelds finden Sie unter [Erstellen eines Formelfelds auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
+   * **Formelfeld hinzufügen**: Klicken Sie oben in der Liste **Felder** auf „Neu +**&#x200B;**. Weitere Anweisungen zum Erstellen eines Formelfelds finden Sie unter [Erstellen eines Formelfelds auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
    * **Filter hinzufügen**: Ziehen Sie das Feld, nach dem die Tabelle gefiltert werden soll, auf den Abschnitt **Filter** über der Tabelle. Weitere Informationen zum Einrichten von Filterregeln finden Sie unter [Filtern einer Tabelle auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
    * **Zeilen nach bestimmten Attributen gruppieren**: Ziehen Sie das Feld, nach dem die Tabelle gruppiert werden soll, auf den Abschnitt **Gruppe** über der Tabelle. Weitere Informationen zum Erstellen von Zeilengruppen finden Sie unter [Gruppieren von Tabellenzeilen in der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

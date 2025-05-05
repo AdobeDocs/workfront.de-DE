@@ -46,7 +46,7 @@ Es ist einfach, mit einer neuen Version der Datei aus Ihrem Box-Konto eine neue 
 1. Führen Sie die oben genannten Schritte aus.
 1. Klicken Sie auf der Seite [!DNL New proof] auf den Link [!UICONTROL Neue Version] (1), um zur Seite [!DNL New version] zu gelangen, auf der Sie den Prozess zum Erstellen einer neuen Version eines vorhandenen Korrekturabzugs abschließen können.\
    Wenn Sie bereits einen Korrekturabzug über [!DNL Box] mit einer früheren Version der Datei erstellt haben, wird dies in der Benachrichtigung am oberen Seitenrand angezeigt
-1. Wählen **[!UICONTROL im Popup]** Vorhandener Korrekturabzug“ die übergeordnete Version Ihres neuen Korrekturabzugs aus. Wenn die vorherige Version des Korrekturabzugs auch von [!DNL Box] gesendet wurde, wird dieser Korrekturabzug im Abschnitt [!UICONTROL Abgleichen von ]&quot; oben in der Liste angezeigt. Sie können Ihre übergeordnete Version auch im Abschnitt [!UICONTROL Andere Korrekturabzüge] auswählen.
+1. Wählen **[!UICONTROL im Popup]** Vorhandener Korrekturabzug“ die übergeordnete Version Ihres neuen Korrekturabzugs aus. Wenn die vorherige Version des Korrekturabzugs auch von [!DNL Box] gesendet wurde, wird dieser Korrekturabzug im Abschnitt [!UICONTROL Abgleichen von &#x200B;]&quot; oben in der Liste angezeigt. Sie können Ihre übergeordnete Version auch im Abschnitt [!UICONTROL Andere Korrekturabzüge] auswählen.
 1. Wenn der Korrekturabzug, den Sie in der Liste auswählen möchten, nicht angezeigt wird, haben Sie folgende Möglichkeiten:
 
    * Sortieren Sie die Spalten durch Klicken auf die Spaltenüberschrift.

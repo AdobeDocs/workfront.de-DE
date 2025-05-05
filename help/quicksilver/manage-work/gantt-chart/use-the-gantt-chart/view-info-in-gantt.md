@@ -63,7 +63,7 @@ Sie können die Aufgabeninformationen für ein Projekt direkt in der Projektlist
 
 >[!NOTE]
 >
->Aufgaben können nicht über die Projektliste (Gantt[!UICONTROL Diagramm) bearbeitet ].
+>Aufgaben können nicht über die Projektliste (Gantt[!UICONTROL Diagramm) bearbeitet &#x200B;].
 
 Sie können die Aufgabeninformationen für ein Projekt direkt aus einer Liste von Projekten in den folgenden Bereichen anzeigen:
 
@@ -88,7 +88,7 @@ So zeigen Sie Aufgaben in einem Projekt aus einer Projektliste an:
 1. Klicken Sie auf **[!UICONTROL Aufgabenliste anzeigen]** Symbol.
 
 1. Klicken Sie in der Projektliste auf der linken Seite auf den Dropdown-Pfeil neben dem Namen des Projekts, um alle Aufgaben unter diesem Projekt anzuzeigen.\
-   Dadurch werden Aufgabeninformationen im Gantt[!UICONTROL Diagramm ].\
+   Dadurch werden Aufgabeninformationen im Gantt[!UICONTROL Diagramm &#x200B;].\
    ![Show_task_list_enabled_project_extended.png](assets/show-task-list-enabled-project-expanded-350x78.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Drucken]** in der oberen rechten Ecke, um das [!UICONTROL Gantt-Diagramm] zu exportieren.
@@ -97,7 +97,7 @@ So zeigen Sie Aufgaben in einem Projekt aus einer Projektliste an:
    >
    >Die Projektliste [!UICONTROL Gantt-Diagramm] exportiert nur Projekte. Aufgabeninformationen sind nicht enthalten.
 
-## Ändern des Zeitraums, für den Informationen im [!UICONTROL Gantt-Diagramm“ angezeigt ]
+## Ändern des Zeitraums, für den Informationen im [!UICONTROL Gantt-Diagramm“ angezeigt &#x200B;]
 
 Sie können den im [!UICONTROL Gantt-Diagramm) angezeigten Zeitraum anpassen] um Informationen auf einer granularen Ebene anzuzeigen, oder Sie können schnell zu einer Tages-, Wochen-, Monats-, Quartals- oder Jahresansicht navigieren:
 
@@ -111,7 +111,7 @@ Sie können den im [!UICONTROL Gantt-Diagramm) angezeigten Zeitraum anpassen] um
 
 ### Informationen nach Tag, Woche, Monat, Quartal oder Jahr anzeigen {#view-information-by-day-week-month-quarter-or-year}
 
-1. Klicken [!UICONTROL  im ] Gantt-Diagramm auf das Dropdown-Menü „Zeitrahmen“.
+1. Klicken [!UICONTROL &#x200B; im &#x200B;] Gantt-Diagramm auf das Dropdown-Menü „Zeitrahmen“.
 
    ![Zeitleisten-Optionen](assets/timeline-options.png)
 
@@ -136,7 +136,7 @@ Sie können den im [!UICONTROL Gantt-Diagramm) angezeigten Zeitraum anpassen] um
 
 1. (Optional) Klicken Sie auf eine beliebige Stelle innerhalb des Zeitleisten-Snapshots, um zu einem bestimmten Punkt in der Lebensdauer des Projekts zu navigieren.\
    Oder\
-   Ziehen Sie die Griffe des Schnappschuss-Viewers, um einen bestimmten Zeitzeilenbereich auszuwählen und ihn im Hauptfenster (Gantt[!UICONTROL  anzuzeigen].
+   Ziehen Sie die Griffe des Schnappschuss-Viewers, um einen bestimmten Zeitzeilenbereich auszuwählen und ihn im Hauptfenster (Gantt[!UICONTROL &#x200B; anzuzeigen].
 
 ## Filter, Ansichten und Gruppierungen verwenden
 
@@ -149,15 +149,15 @@ Das [!UICONTROL Gantt-]) ist eine visuelle Darstellung der Informationen, die de
 Auf die Liste angewendete Filter und Gruppierungen werden sowohl in der Projektliste als auch in der Aufgabenliste [!UICONTROL Gantt-]) angezeigt und auch beim Exportieren der Gantt-Diagramme einbezogen:
 
 * Filter\
-   Sie können einen Filter auf die Liste anwenden, um die im [!UICONTROL Gantt-Diagramm) angezeigten Informationen ] steuern.\
+   Sie können einen Filter auf die Liste anwenden, um die im [!UICONTROL Gantt-Diagramm) angezeigten Informationen &#x200B;] steuern.\
    Informationen zum Anwenden eines Filters finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Gruppierungen\
    Auf die Liste angewendete Gruppierungen werden im [!UICONTROL Gantt-Diagramm] dargestellt.\
    Informationen zum Anwenden einer Gruppierung finden Sie unter [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Ansichten werden nicht im [!UICONTROL Gantt-Diagramm“ ]. Beim Exportieren des [!UICONTROL Gantt-Diagramms] (wie unter [Exportieren des [!UICONTROL Gantt-Diagramms] nach PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) beschrieben) wird die Aufgabenliste jedoch zusätzlich zum [!UICONTROL Gantt-Diagramm] exportiert, wobei die aktuelle Ansicht auf die Liste angewendet wird.
+Ansichten werden nicht im [!UICONTROL Gantt-Diagramm“ &#x200B;]. Beim Exportieren des [!UICONTROL Gantt-Diagramms] (wie unter [Exportieren des [!UICONTROL Gantt-Diagramms] nach PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) beschrieben) wird die Aufgabenliste jedoch zusätzlich zum [!UICONTROL Gantt-Diagramm] exportiert, wobei die aktuelle Ansicht auf die Liste angewendet wird.
 
 ## Konfigurieren von Anzeigeoptionen
 
-Sie können auswählen, welche Art von Informationen in beiden [!UICONTROL Gantt-Diagrammen) angezeigt ]. Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Sie können auswählen, welche Art von Informationen in beiden [!UICONTROL Gantt-Diagrammen) angezeigt &#x200B;]. Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).

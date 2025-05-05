@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Erstellen von Arbeitselementen und Projekten im Bereich Startseite
-description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " ].
+description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " &#x200B;].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Erstellen von Arbeitselementen und Projekten im Bereich Startseite
 
-Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; ].
+Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
 
 Von zu Hause aus haben Sie folgende Möglichkeiten
 
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliches Aufgabenelement erstellen
 
-Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL  persönliche ] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
+Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
 Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
 

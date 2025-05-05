@@ -87,7 +87,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
 
 ![[!UICONTROL Vorlageneinstellungen] Abschnitt](assets/Blueprints_TemplatePreferences.png)
 
-1. Geben [!UICONTROL  im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
+1. Geben [!UICONTROL &#x200B; im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
 1. Geben Sie Folgendes an:
 
    <table style="table-layout:auto">
@@ -100,11 +100,11 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
         <td>Diese Person ist in der Regel ein Manager, eine Führungskraft oder ein Stakeholder, der wissen muss, was mit dem Projekt geschieht. Der Projektsponsor erhält keinen zusätzlichen Zugriff auf das Projekt, wird aber zu den E-Mail-Benachrichtigungen für das Projekt hinzugefügt.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL-Portfolio]</strong></td>
+        <td><strong>[!UICONTROL -Portfolio]</strong></td>
         <td>Dies ist das Portfolio, dem das Projekt bei seiner Erstellung angehören wird.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL-Programm]</strong></td>
+        <td><strong>[!UICONTROL -Programm]</strong></td>
         <td>Dies ist das Programm, zu dem das Projekt gehören wird, wenn es erstellt wird.</td>
     </tr>
    </table>

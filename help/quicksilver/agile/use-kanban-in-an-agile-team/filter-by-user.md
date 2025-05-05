@@ -54,8 +54,8 @@ So filtern Sie eine [!UICONTROL Kanban]-Pinnwand:
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zu einem Kanban[!UICONTROL Board ].
-1. Klicken Sie auf [!UICONTROL  Dropdown]Menü „Filter“ auf der rechten Seite der [!UICONTROL Kanban]Pinnwand.
+1. Zu einem Kanban[!UICONTROL Board &#x200B;].
+1. Klicken Sie auf [!UICONTROL &#x200B; Dropdown]Menü „Filter“ auf der rechten Seite der [!UICONTROL Kanban]Pinnwand.
 1. Wählen Sie einen oder mehrere Benutzer oder &quot;**[!UICONTROL &quot;]**.
 
    >[!NOTE]

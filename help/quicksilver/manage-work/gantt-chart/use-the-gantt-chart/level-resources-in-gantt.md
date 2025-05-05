@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan] </p> </td> 
+   <td> <p>[!UICONTROL -Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
@@ -102,7 +102,7 @@ Sie können die Aufgabenliste (Gantt[!UICONTROL Diagramm) verwenden] um Ihre Res
 
    >[!TIP]
    >
-   >Mit den folgenden Tastaturbefehlen können Sie Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig machen oder ]:
+   >Mit den folgenden Tastaturbefehlen können Sie Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig machen oder &#x200B;]:
    >
    >* [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um den Vorgang rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um ihn wiederherzustellen.
    >* Windows: Verwenden Sie [!UICONTROL Strg + Z], um den Vorgang rückgängig zu machen, und [!UICONTROL Strg + Y], um ihn wiederherzustellen.

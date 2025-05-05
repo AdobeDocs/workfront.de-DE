@@ -109,7 +109,7 @@ So verwalten Sie [!DNL Workfront]-Benachrichtigungen für [!DNL Slack]:
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** um eine Aufgabe, ein Problem oder ein Projekt, für die bzw. das Ihre Genehmigung noch aussteht, zu genehmigen oder abzulehnen.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **&#x200B;**&#x200B;oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
      Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
       Nur die genehmigten Slack [Dateitypen](https://api.slack.com/types/file) können in der Vorschau angezeigt werden.

@@ -56,14 +56,14 @@ Die neue Korrekturabzugs-E-Mail enthält:
 
 ## Das Aktivitätsprotokoll
 
-Das Senden einer E[!UICONTROL Mail ]Neuer Korrekturabzug) an eine Überprüfende wird im Abschnitt [!UICONTROL Aktivität] der Seite [!UICONTROL Details des Korrekturabzugs] protokolliert. Weitere Informationen finden [ unter [!UICONTROL Verwalten] Korrekturabzugsdetails [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) in. Sie können überprüfen, ob die [!UICONTROL Neuer Korrekturabzug]-E-Mail zum Zeitpunkt der Erstellung eines Korrekturabzugs aktiviert war.
+Das Senden einer E[!UICONTROL Mail &#x200B;]Neuer Korrekturabzug) an eine Überprüfende wird im Abschnitt [!UICONTROL Aktivität] der Seite [!UICONTROL Details des Korrekturabzugs] protokolliert. Weitere Informationen finden [ unter [!UICONTROL Verwalten] Korrekturabzugsdetails [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) in. Sie können überprüfen, ob die [!UICONTROL Neuer Korrekturabzug]-E-Mail zum Zeitpunkt der Erstellung eines Korrekturabzugs aktiviert war.
 
 ![New_Version_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 
 >[!NOTE]
 >
 >* Wenn der Ersteller oder Besitzer des Korrekturabzugs [!UICONTROL Korrekturabzug erstellt] E-Mails standardmäßig deaktiviert hat (in den persönlichen Einstellungen), erhält er keine E-Mails [!UICONTROL Korrekturabzug erstellt] oder [!UICONTROL Neuer Korrekturabzug], selbst wenn das Kontrollkästchen [!UICONTROL Personen per E-Mail benachrichtigen] auf der Seite Neuer Korrekturabzug aktiviert ist. Weitere Informationen finden Sie unter .
->* Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, erhält der Ersteller/Inhaber des Korrekturabzugs keine [!UICONTROL Korrekturabzugs erstellt] oder [!UICONTROL Neuer Korrekturabzug]-E-Mails, selbst wenn dies in den persönlichen Einstellungen aktiviert ist und das Kontrollkästchen [!UICONTROL Personen per E-Mail benachrichtigen] auf der Seite Neuer Korrekturabzug aktiviert ist. Weitere Informationen finden Sie unter [E[!UICONTROL Mail mit ] Korrekturabzug](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) und unter .
+>* Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, erhält der Ersteller/Inhaber des Korrekturabzugs keine [!UICONTROL Korrekturabzugs erstellt] oder [!UICONTROL Neuer Korrekturabzug]-E-Mails, selbst wenn dies in den persönlichen Einstellungen aktiviert ist und das Kontrollkästchen [!UICONTROL Personen per E-Mail benachrichtigen] auf der Seite Neuer Korrekturabzug aktiviert ist. Weitere Informationen finden Sie unter [E[!UICONTROL Mail mit &#x200B;] Korrekturabzug](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) und unter .
 >
 
 

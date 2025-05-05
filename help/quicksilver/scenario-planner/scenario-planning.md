@@ -38,6 +38,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Funktionszuordnung für Projekte und Initiativen in der Aufgabenliste anzeigen](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

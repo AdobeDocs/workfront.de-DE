@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Erstellen und Verwalten von Aufgaben in der Startseite
-description: Sie können persönliche Aufgaben aus dem Bereich "[!UICONTROL " ].
+description: Sie können persönliche Aufgaben aus dem Bereich "[!UICONTROL " &#x200B;].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Persönliches Aufgabenelement erstellen und verwalten
 
-Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL  persönliche ] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
+Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
 Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
 

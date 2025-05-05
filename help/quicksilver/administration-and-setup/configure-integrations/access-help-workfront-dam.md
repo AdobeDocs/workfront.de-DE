@@ -1,5 +1,5 @@
 ---
-title: 'Zugriff auf die Hilfe für das DAM-System {]}Workfront[!UICONTROL '
+title: 'Zugriff auf die Hilfe für das DAM-System {}Workfront'
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL [!DNL Adobe Workfront] DAM] ist ein natives DAM-System (Digital Asset Management) in [!DNL Workfront], mit dem Sie digitale Dateien speichern, organisieren, suchen, abrufen und freigeben können.
 
-Sie können an den folgenden Orten auf die Support]Dokumentation für [!UICONTROL [!DNL Workfront] DAM zugreifen:
+Sie können an den folgenden Orten auf die SupportDokumentation für [!DNL Workfront] DAM zugreifen:
 
 * Wenn Sie die eigenständige [!UICONTROL Workfront DAM]-Anwendung (außerhalb der [!DNL Workfront]) verwenden, konsultieren Sie die [!DNL Webdam]-Hilfeseite.
 * HINWEIS: Wenn Sie eine Funktionsanfrage senden oder ein Problem protokollieren möchten, wenden Sie sich telefonisch, per E-Mail oder auf der [!DNL Workfront]-Hilfeseite an [!DNL Workfront] Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

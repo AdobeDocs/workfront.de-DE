@@ -134,7 +134,7 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal von Workfront gepusht wird. Dokumente mit den integrierten oder benutzerdefinierten Feldern werden beim ersten Versand eines Assets an Experience Manager Assets Essentials automatisch den angegebenen Feldern zugeordnet.
 
-1. Wählen Sie in der **** Workfront ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der **&#x200B;**&#x200B;Workfront ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
 
    >[!NOTE]
    >

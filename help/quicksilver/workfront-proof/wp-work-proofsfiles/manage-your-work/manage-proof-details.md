@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Auf [!UICONTROL  Seite „Korrekturabzugsdetails] können Sie einen vorhandenen Korrekturabzug verwalten. Sie können beispielsweise neue Prüfer hinzufügen, die Frist ändern, die ursprünglich für den Korrekturabzug festgelegten Einstellungen ändern und überprüfen, welche Aktivität in diesem Korrekturabzug stattgefunden hat.
+Auf [!UICONTROL &#x200B; Seite „Korrekturabzugsdetails] können Sie einen vorhandenen Korrekturabzug verwalten. Sie können beispielsweise neue Prüfer hinzufügen, die Frist ändern, die ursprünglich für den Korrekturabzug festgelegten Einstellungen ändern und überprüfen, welche Aktivität in diesem Korrekturabzug stattgefunden hat.
 
 Die Seite [!UICONTROL Korrekturabzugsdetails] ist besonders nützlich für Personen, die für Projekte verantwortlich sind und alle Änderungen in einem Korrekturabzug nachverfolgen müssen. Auf dieser Seite finden sie alles, was sie über einen Korrekturabzug wissen müssen, mit nur wenigen Klicks.
 
@@ -105,7 +105,7 @@ Auf der Seite mit den Details zum Testversand finden Sie folgende Informationen.
 
    * Abschnitt **[!UICONTROL Weitere Freigabeoptionen]**: Ermöglicht die Aktivierung der Korrekturabzugs-URL und des Einbettungs-Codes. Wenn Sie die Basecamp-Integration mit [!DNL Workfront] Korrekturabzug verwenden, können Sie den Korrekturabzug auch zu einem [!DNL Basecamp] Projekt hinzufügen, das Projekt ändern, dem der Korrekturabzug hinzugefügt wurde (klicken Sie auf **[!UICONTROL Bearbeiten]**), und auf den Korrekturabzug in Basecamp zugreifen (klicken Sie auf den bereitgestellten Link).
 
-   * **[!UICONTROL Einstellungen]** Abschnitt: Hiermit können Sie Einstellungen ändern, wie unter [[!UICONTROL Konfigurieren von ] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.
+   * **[!UICONTROL Einstellungen]** Abschnitt: Hiermit können Sie Einstellungen ändern, wie unter [[!UICONTROL Konfigurieren von &#x200B;] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.
 
    * **[!UICONTROL Aktivität]** Abschnitt: Zeigt eine Liste aller Aktionen an, die am Korrekturabzug in chronologischer Reihenfolge ausgeführt wurden, und bietet einen Audit-Trail für den Korrekturabzug. Dazu gehören das Datum und die Details aller kürzlich durchgeführten Aktivitäten im Testversand. Neben dem Abschnitt [!UICONTROL Nachrichten] bietet der Abschnitt [!UICONTROL Aktivität] einen vollständigen Überblick über den Überprüfungsprozess des Testversands, der insbesondere für die für den Genehmigungsprozess zuständigen Projektmanager nützlich ist.
    * **[!UICONTROL Nachrichten]** Abschnitt: Listet die Details aller E-Mail-Aktivitäten für den Testversand auf. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).

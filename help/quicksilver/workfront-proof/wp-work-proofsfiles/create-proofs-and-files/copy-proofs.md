@@ -84,4 +84,4 @@ So kopieren Sie vorhandene Korrekturabzugseinstellungen für einen neuen Korrekt
    ![more_button_text_version.png](assets/more-button-text-version.png)
 
 1. Klicken Sie **[!UICONTROL Dropdown-Menü auf]** Mit neuer Datei kopieren“.
-1. Laden Sie auf der ]**&quot;**[!UICONTROL  Korrekturabzug“ eine neue Datei hoch und klicken Sie dann auf **[!UICONTROL Erstellen]**.
+1. Laden Sie auf der **&quot;** Korrekturabzug“ eine neue Datei hoch und klicken Sie dann auf **[!UICONTROL Erstellen]**.

@@ -22,9 +22,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 Als [!UICONTROL Worker] liegt Ihre Hauptverantwortung darin, die Arbeit abzuschließen. Die Bereiche im [!UICONTROL Hauptmenü] die für Sie sichtbar sind, ermöglichen Ihnen dies.
 
-Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL  enthalten]:
+Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; enthalten]:
 
-* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, ] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, &#x200B;] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projekte]**: Hier werden Projekte angezeigt, die für Sie freigegeben wurden. Weitere Informationen finden Sie [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
 

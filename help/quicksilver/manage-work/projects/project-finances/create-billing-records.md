@@ -271,4 +271,4 @@ Nachdem Sie einen Rechnungsnachweis erstellt und Stunden, Ausgaben und Einnahmen
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Klicken Sie **Speichern****Änderungen**.
+1. Klicken Sie **Speichern**&#x200B;**Änderungen**.

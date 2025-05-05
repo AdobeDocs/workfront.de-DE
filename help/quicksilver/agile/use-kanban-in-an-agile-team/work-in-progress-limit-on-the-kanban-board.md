@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Verwalten Sie das [!UICONTROL Work In Progress] (WIP) auf dem Kanban-Board
 
-Sie können ein Limit [!UICONTROL Arbeit in Bearbeitung] (WIP) für jede Spalte auf der [!UICONTROL Kanban) ], wie im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) beschrieben.
+Sie können ein Limit [!UICONTROL Arbeit in Bearbeitung] (WIP) für jede Spalte auf der [!UICONTROL Kanban) &#x200B;], wie im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) beschrieben.
 
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, in jeder Statusspalte mehr Elemente als die von Ihnen festgelegte Beschränkung zu haben.
 

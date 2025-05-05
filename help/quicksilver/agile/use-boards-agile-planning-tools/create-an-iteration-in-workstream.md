@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -95,7 +95,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * Klicken Sie auf der Registerkarte „Kartenliste“ in der Ansicht „Iteration“ auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png).
    * Klicken Sie auf der Iterationskonsole auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) im Bereich Metriken oben rechts.
 
-1. Bearbeiten [!UICONTROL  im Bedienfeld ]Iterationskonfiguration“ die Iteration nach Bedarf.
+1. Bearbeiten [!UICONTROL &#x200B; im Bedienfeld &#x200B;]Iterationskonfiguration“ die Iteration nach Bedarf.
 1. Um den Namen der Iteration zu ändern, erweitern Sie [!UICONTROL **Iterationsdetails**].
 
    Sobald eine Iteration gestartet wurde, können Sie nur den Namen der Iteration und nicht das Datum oder die Iterationslänge ändern.

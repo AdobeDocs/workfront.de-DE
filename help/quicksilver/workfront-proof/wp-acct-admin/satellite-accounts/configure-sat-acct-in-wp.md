@@ -42,7 +42,7 @@ So erstellen Sie ein Satellitenkonto:
    ![new_satellite_account.png](assets/new-satellite-account-350x156.png)
 
 1. Geben Sie die Details Ihres Kunden ein, einschließlich relevanter Promo-Codes.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Satellitenkonto wird automatisch im Dropdown[!UICONTROL Menü ]Konten“ oben auf der Seite [!UICONTROL Abrechnung] angezeigt.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Satellitenkonto wird automatisch im Dropdown[!UICONTROL Menü &#x200B;]Konten“ oben auf der Seite [!UICONTROL Abrechnung] angezeigt.
 1. Wählen Sie das neue Satellitenkonto aus dem Dropdown-Menü aus.
 1. Fahren Sie mit [Plan für Ihr Satellite-Konto auswählen](#selecting-a-plan-for-your-satellite-account) fort, um Ihr Satellite-Konto zu aktualisieren.
 

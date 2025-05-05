@@ -72,7 +72,7 @@ Um herauszufinden, ob eine bestimmte Paketbereitstellung zurückgesetzt werden k
 ## Zurücksetzen eines installierten Umgebungs-Promotion-Pakets
 
 1. Wechseln Sie zur Umgebung, in der das Paket installiert wurde.
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen **im** Navigationsbereich die Option „Umgebungsförderung“ aus.
 1. Wählen Sie das Paket aus, das Sie zurücksetzen möchten, und klicken Sie auf **Bereitstellungen**.
 1. Bewegen Sie den Mauszeiger über die Bereitstellung (Installation), die Sie zurücksetzen möchten, und klicken Sie dann auf Zurücksetzen , wenn sie rechts neben der Zeile dieser Bereitstellung angezeigt wird.

@@ -103,7 +103,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Wenn die gelöschten Datensätze mit anderen Datensätzen verknüpft sind, werden die verknüpften Datensätze nicht gelöscht, aber die Informationen aus dem gelöschten Datensatz werden ebenfalls gelöscht. Beim Wiederherstellen der gelöschten Datensätze werden die Informationen aus den verbundenen Datensätzen wiederhergestellt.
 * Sie können Einträge stapelweise wiederherstellen.
 * Wenn die Datensätze gelöscht werden, werden die folgenden Informationen im zuletzt gelöschten Bin gespeichert:
-   * **Name**: Dies sind die Informationen im Primären Feld des Datensatzes. Weitere Informationen zu Primären Datensatzfeldern finden Sie unter Übersicht über Primäre Felder [](/help/quicksilver/planning/fields/primary-field-overview.md).
+   * **Name**: Dies sind die Informationen im Primären Feld des Datensatzes. Weitere Informationen zu Primären Datensatzfeldern finden Sie unter Übersicht über Primäre Felder [&#128279;](/help/quicksilver/planning/fields/primary-field-overview.md).
    * **Löschdatum**: Uhrzeit und Datum, an dem der Datensatz gelöscht wurde.
    * **Zeit in kürzlich gelöschten**: Die Zeit seit dem Löschen des Datensatzes. Datensätze, die mehr als 30 Tage vor dem aktuellen Datum gelöscht wurden, werden nicht im kürzlich gelöschten Bin angezeigt.
    * **Gelöscht von**: Der Name des Benutzers, der den Datensatz gelöscht hat.

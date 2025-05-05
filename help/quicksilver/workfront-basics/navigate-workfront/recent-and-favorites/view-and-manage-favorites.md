@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,11 +46,11 @@ So zeigen Sie ein Element an, das Sie zuvor als Favorit hinzugefügt haben:
 
 1. Klicken Sie auf **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon.png) in der oberen rechten Ecke einer beliebigen [!DNL Adobe Workfront].
 
-1. Klicken Sie in [!UICONTROL  Liste ]Favoriten“ auf das Element, das Sie anzeigen möchten.
+1. Klicken Sie in [!UICONTROL &#x200B; Liste &#x200B;]Favoriten“ auf das Element, das Sie anzeigen möchten.
 
 ## Element als Favorit hinzufügen
 
-Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite ].
+Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite &#x200B;].
 
 * [Zuletzt verwendete Elemente als Favoriten hinzufügen](#add-recent-items-as-a-favorite)
 * [Aktuelles Element als Favorit hinzufügen](#add-the-current-item-as-a-favorite)

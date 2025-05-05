@@ -104,7 +104,7 @@ Weitere Informationen zum Arbeiten in Listen finden Sie unter [Erste Schritte mi
 
 Sie können jetzt die folgenden Aktionen für die Aufgaben in einem Projekt ausführen, wenn sie im Bearbeitungsmodus des Gantt-Diagramms angezeigt werden:
 
-*  Aufgaben hinzufügen
+* Aufgaben hinzufügen
 * Aufgaben entfernen
 * Aufgaben inline bearbeiten
 

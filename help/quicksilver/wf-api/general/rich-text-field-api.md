@@ -28,7 +28,7 @@ Ein benutzerdefiniertes Feld mit Rich-Text-Formatierung wird als **Feld mit Rich
 **Beispiel** Eine einfache GET-Anfrage zum Abrufen des Werts des benutzerdefinierten Formularfelds (**mit Rich-Text**:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Beispiel:** Diese Anfrage gibt den Wert von **Feld mit Rich-Text** in JSON zurück, das in **parameterValue** **DE:Field mit Rich-Text gespeichert ist**
 
@@ -118,4 +118,4 @@ So speichern Sie die folgenden Werte eines Rich-Text-Felds mithilfe der Workfron
 1. Verwenden Sie die **stringify**-Methode für die oben beschriebene JSON, um eine **PUT**-Anfrage zu erstellen und Aktualisierungen zu senden
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

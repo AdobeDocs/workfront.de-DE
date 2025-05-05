@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Als neuer Benutzer können Sie nach Erhalt der Einladungs-E-Mail dem Link in der
 
 >[!NOTE]
 >
->Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL  die Ihr [!DNL Workfront]-Administrator im Bereich ]Allgemeine Optionen[!UICONTROL  der ]Einladungen“ angegeben hat.
+>Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL &#x200B; die Ihr [!DNL Workfront]-Administrator im Bereich &#x200B;]Allgemeine Optionen[!UICONTROL &#x200B; der &#x200B;]Einladungen“ angegeben hat.
 
 So erstellen Sie ein Kennwort für [!DNL Workfront] mithilfe der Einladungs-E-Mail:
 

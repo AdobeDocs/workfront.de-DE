@@ -89,7 +89,7 @@ Der Planer wird standardmäßig angezeigt.  Informationen zur Budgetierung von R
 
 ![Ressourcenplaner als Standard](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Klicken Sie **linken Bedienfeld**Ressourcenpools“.
+1. Klicken Sie **linken Bedienfeld**&#x200B;Ressourcenpools“.
 Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpools erstellen](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Verwenden des Ressourcenplaners für ein Projekt {#use-the-resource-planner-for-one-project}

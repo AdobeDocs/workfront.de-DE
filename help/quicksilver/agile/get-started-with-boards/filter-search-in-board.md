@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Pinnwand nach Fälligkeitsdatum filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den ] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
+1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den &#x200B;] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
 
    Nur Karten in den ausgewählten Datumsbereichen werden angezeigt.
 

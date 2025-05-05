@@ -143,8 +143,8 @@ Proofing-Text unterwegs ist wirklich in der [!DNL Workfront Proof] Tablet-App. D
 
    | **[!UICONTROL Hervorheben]** | Markiert den Text und kopiert ihn in das Kommentarfeld. |
    |---|---|
-   | **[!UICONTROL Ersetzen]** | Fügt [[!UICONTROL REPLACE] und [[!UICONTROL WITH]] zusammen mit dem Text in das Kommentarfeld ein, sodass Sie leichter Ersatztext empfehlen können. |
-   | **[!UICONTROL Löschen]** | Durchsucht den Text und fügt dem Kommentarfeld ]0}DELETE&quot; hinzu.[ |
+   | **[!UICONTROL Ersetzen]** | Fügt &lbrack;[!UICONTROL REPLACE] und [[!UICONTROL WITH]] zusammen mit dem Text in das Kommentarfeld ein, sodass Sie leichter Ersatztext empfehlen können. |
+   | **[!UICONTROL Löschen]** | Durchsucht den Text und fügt dem Kommentarfeld &rbrack;0&rbrace;DELETE&quot; hinzu.&lbrack; |
    | **[!UICONTROL Einfügen nach]** | Fügt [EINFÜGEN NACH] in das Kommentarfeld ein. |
 
    {style="table-layout:auto"}

@@ -34,7 +34,7 @@ So synchronisieren Sie einen [!DNL Box] Ordner mit einem Ordner in [!DNL Workfro
 1. Klicken Sie auf das **[!UICONTROL Weitere Optionen]**-Menü neben dem Ordner, mit dem Sie [!DNL Workfront Proof] (1) synchronisieren möchten.
 1. Wählen Sie **[!UICONTROL Weitere Aktionen]** (2) aus.
 1. Klicken Sie **[!UICONTROL Mit[!DNL Workfront Proof]]** synchronisieren (3).
-1. Führen [!UICONTROL  im angezeigten ] „Ordner synchronisieren“ (wenn Sie bei [!DNL Workfront Proof] angemeldet sind) einen der folgenden Schritte aus:
+1. Führen [!UICONTROL &#x200B; im angezeigten &#x200B;] „Ordner synchronisieren“ (wenn Sie bei [!DNL Workfront Proof] angemeldet sind) einen der folgenden Schritte aus:
 
    * Klicken Sie auf einen [!DNL Workfront Proof] Ordnernamen, um ihn mit dem entsprechenden Ordner in Feld (4) zu synchronisieren.
    * Klicken Sie auf **[!UICONTROL Neuer Ordner]**, um einen neuen Ordner in [!DNL Workfront Proof] (5) zu erstellen.\

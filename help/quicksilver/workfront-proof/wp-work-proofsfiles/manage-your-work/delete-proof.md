@@ -45,6 +45,6 @@ Informationen zum Papierkorb finden Sie unter [Wiederherstellen und Leeren des P
 
 Sie können Testsendungen auch an den unten beschriebenen Speicherorten löschen. Beachten Sie bei einem Korrekturabzug mit mehreren Versionen, dass diese Methoden die gesamte Korrekturabzugskette löschen.
 
-* In der Korrekturabzugsansicht können Sie im Menü ]**auf der linken Seite auf**[!UICONTROL  Löschen“ klicken.
+* In der Korrekturabzugsansicht können Sie im Menü **auf der linken Seite auf** Löschen“ klicken.
 * In jeder Listenansicht können Sie das Kontrollkästchen links neben dem Korrekturabzug (oder das Kontrollkästchen in der Kopfzeile zur Auswahl aller aufgelisteten Korrekturabzüge) aktivieren und dann über der Liste auf [!UICONTROL Löschen] klicken.
 * In jeder Listenansicht klicken Sie auf das Menü **[!UICONTROL Mehr]** rechts neben dem Korrekturabzug und dann auf **[!UICONTROL Löschen]**.

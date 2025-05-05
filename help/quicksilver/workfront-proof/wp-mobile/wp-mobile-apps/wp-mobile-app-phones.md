@@ -118,7 +118,7 @@ Wenn Sie einen Korrekturabzug in der Mobile App öffnen, können Sie Folgendes t
 
       1. Kommentar öffnen.
       1. Tippen Sie auf **[!UICONTROL Antworten]**.
-      1. Öffnen Sie [!UICONTROL  Menü ]Aktionen“ auf der rechten Seite des Textfelds (1).
+      1. Öffnen Sie [!UICONTROL &#x200B; Menü &#x200B;]Aktionen“ auf der rechten Seite des Textfelds (1).
       1. Tippen Sie **[!UICONTROL Aktion hinzufügen]** (2).
 
          ![actions_on_comments.png](assets/actions-on-comments-350x543.png)

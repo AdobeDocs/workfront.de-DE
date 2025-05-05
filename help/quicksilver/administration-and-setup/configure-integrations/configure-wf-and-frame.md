@@ -98,7 +98,7 @@ So aktivieren Sie Frame.io-Benutzer:
 {{step-1-to-users}}
 
 1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
-1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**Ja“ aus.
+1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**&#x200B;Ja“ aus.
    ![Zum Frame-Projekt hinzufügen](assets/add-to-frame-project.png)
 
    >[!NOTE]

@@ -55,4 +55,4 @@ Standardmäßig können Prüfer die Originaldatei, aus der der Korrekturabzug er
 
 Die in Ihren persönlichen Einstellungen gespeicherten Einstellungen werden auf alle von Ihnen erstellten Korrekturabzüge angewendet, können jedoch beim Erstellen eines neuen Korrekturabzugs oder beim Ändern eines Korrekturabzugs überschrieben werden, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-Sie können Datei-Downloads deaktivieren, indem Sie Ihre persönlichen Korrekturabzugseinstellungen ändern, wie unter [Konfigurieren der Korrekturabzugseinstellungen in[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.
+Sie können Datei-Downloads deaktivieren, indem Sie Ihre persönlichen Korrekturabzugseinstellungen ändern, wie unter [Konfigurieren der Korrekturabzugseinstellungen in[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.

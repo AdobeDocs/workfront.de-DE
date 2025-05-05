@@ -442,7 +442,7 @@ Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des 
 
   Die Option zum Zurückwechseln zum alten Kommentar-Stream wurde entfernt und der neue Kommentar-Stream sollte für alle Objekte das einzige Erlebnis sein.
 
-* 3. Oktober 2024:
+* &#x200B;3. Oktober 2024:
 
   Die Schaltfläche Feedback hinterlassen im Bereich Updates wurde entfernt.
 

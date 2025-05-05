@@ -61,12 +61,12 @@ Ihre Entitäts-ID finden Sie in Ihrer Verbundmetadaten-XML-Datei.
 1. Dieser Link kann sich in der Verbundmetadaten-XML-Datei befinden.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. Geben Sie im Feld **[!UICONTROL Abmelde]**URL den Link ein und speichern Sie ihn.
+1. Geben Sie im Feld **[!UICONTROL Abmelde]**&#x200B;URL den Link ein und speichern Sie ihn.
 Im Folgenden finden Sie ein Beispiel für eine Abmelde-URL:
 https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
    1. Gehen Sie zu Ihrem AD FS-Manager > Vertrauensstellungen > Vertrauensstellungen vertrauender Parteien - ProofHQ Eigenschaften.
-   1. Klicken Sie unter „Endpunkte[!UICONTROL  auf „Hinzufügen und ]&quot; mit den folgenden Details:
+   1. Klicken Sie unter „Endpunkte[!UICONTROL &#x200B; auf „Hinzufügen und &#x200B;]&quot; mit den folgenden Details:
 
       * Endpunkttyp = SAML-Abmeldung
       * Bindung = POST

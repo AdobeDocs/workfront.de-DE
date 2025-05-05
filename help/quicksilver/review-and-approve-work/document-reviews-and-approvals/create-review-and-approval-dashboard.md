@@ -60,6 +60,7 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**.
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Belassen Sie den Operator **Gleich** und geben Sie _Überprüfung ausstehend_ in das Textfeld ein.
+
       ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -76,10 +77,12 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Frist** aus.
    1. Ändern Sie den Operator in **kleiner als** und schalten Sie das relative Datum um. Geben Sie dann _$$TODAY_ in das Textfeld ein.
+
       ![Beispiel für überfälligen KPI-Filter](assets/overdue-kpi-filter.png)
 1. Klicken Sie **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Nicht enthält** und geben Sie dann _Genehmigt_ in das Textfeld ein.
+
       ![Überfälliger KPI-Filter - Beispiel 2](assets/overdue-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -96,11 +99,13 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter.png)
 1. Klicken Sie **Bedingung hinzufügen**:
    1. Klicken Sie auf **Und**, um sie in **Oder** zu ändern.
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Überprüft_ in das Textfeld ein.
+
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -116,10 +121,12 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Nicht enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter.png)
 1. Klicken Sie **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Frist** aus.
    1. Ändern Sie den Operator in **kleiner als**, schalten Sie dann das relative Datum ein und geben Sie dann _$$TODAY-2w_ in das Textfeld ein.
+
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -143,6 +150,7 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion**.
    1. Ändern Sie den Operator in **Ist nicht null**.
+
       ![Filterbeispiel](assets/approvals-by-decision-chart-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -163,10 +171,12 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Datum der Teilnehmerentscheidung für die Genehmigungsphase** aus.
    1. Ändern Sie den Operator in **Ist Null**.
+
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter.png)
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Deadline für Genehmigungsphase** aus.
    1. Ändern Sie den Operator in **Kleiner oder gleich**, schalten Sie dann den Schalter Relatives Datum festlegen ein und geben Sie _$$TODAYem_ in das Textfeld ein.
+
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -225,6 +235,7 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Genehmigung steht aus_.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approval-table-filter.png)
 1. Fügen Sie optionale Filter wie unten beschrieben hinzu oder klicken **oben** auf „Fertig“.
 
@@ -239,6 +250,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -247,6 +259,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann im Suchfeld **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Anforderer** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -303,6 +316,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Genehmigungsphase** > **Frist**.
    1. Ändern Sie den Operator in **Kleiner als**, schalten Sie **Relatives Datum festlegen** ein und geben Sie dann _$$TODAY_ ein.
+
       ![Beispiel für überfällige Genehmigungstabelle](assets/overdue-approval.png)
 1. Fügen Sie optionale Filter wie unten beschrieben hinzu oder klicken **oben** auf „Fertig“.
 
@@ -318,6 +332,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -326,6 +341,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann im Suchfeld **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Anforderer** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
@@ -334,6 +350,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann im Suchfeld **Genehmigungsphase** > **Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Meine Standard-Teams (angemeldeter Benutzer)** oder **Meine anderen Teams (angemeldeter Benutzer)**, um Projekte anzuzeigen, die Ihrem Standard-Team oder anderen Teams, denen Sie angehören, zugewiesen sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/approvals-ive-submitted-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 +++

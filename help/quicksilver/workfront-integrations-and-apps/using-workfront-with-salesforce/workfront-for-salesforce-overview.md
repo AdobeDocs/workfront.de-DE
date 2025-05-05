@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront for Salesforce]
 
-Um diese Funktion verwenden zu können[!UICONTROL  ist ein [!DNL Workfront]-Plan ]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
+Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein [!DNL Workfront]-Plan &#x200B;]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
 
 Sie können [!DNL Adobe Workfront for Salesforce] installieren, damit Ihre [!DNL Salesforce]-Benutzer [!DNL Workfront]-Anfragen senden und automatisch Projekte erstellen können, ohne [!DNL Salesforce] verlassen zu müssen.
 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan]</p> </td> 
+   <td> <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>

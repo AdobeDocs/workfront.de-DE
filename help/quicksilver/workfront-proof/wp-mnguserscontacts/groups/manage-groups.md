@@ -76,7 +76,7 @@ Oder\
 
 ## Anzeigen und Bearbeiten von Gruppendetails
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**Gruppendetails anzeigen“.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**&#x200B;Gruppendetails anzeigen“.
 Auf der angezeigten Seite können Sie alle Personen anzeigen, die sich derzeit in der Gruppe befinden, zusammen mit ihren Standardrollen und E-Mail-Warnhinweisen für die Gruppe.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Gruppendetails zu bearbeiten:

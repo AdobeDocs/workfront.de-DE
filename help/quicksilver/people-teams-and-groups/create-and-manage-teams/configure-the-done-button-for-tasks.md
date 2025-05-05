@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben
 
-Mit [!UICONTROL  Schaltfläche ]Fertig“ können Sie automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig markiert [!UICONTROL Adobe Workfront] eine Aufgabe als [!UICONTROL Abgeschlossen] wenn ein Verantwortlicher in seinem Arbeitselement auf Als abgeschlossen markieren klickt.
+Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Fertig“ können Sie automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig markiert [!UICONTROL Adobe Workfront] eine Aufgabe als [!UICONTROL Abgeschlossen] wenn ein Verantwortlicher in seinem Arbeitselement auf Als abgeschlossen markieren klickt.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team
 
-Mit der Schaltfläche [!UICONTROL Fertig“ können Sie ändern, welcher Status dem Arbeitselement ] wird. Sie können auch mehrere Status festlegen und es den Benutzenden ermöglichen, den entsprechenden Status auszuwählen.
+Mit der Schaltfläche [!UICONTROL Fertig“ können Sie ändern, welcher Status dem Arbeitselement &#x200B;] wird. Sie können auch mehrere Status festlegen und es den Benutzenden ermöglichen, den entsprechenden Status auszuwählen.
 
 {{step1-to-team}}
 
@@ -74,7 +74,7 @@ Mit der Schaltfläche [!UICONTROL Fertig“ können Sie ändern, welcher Status 
    >Beachten Sie beim Auswählen von Status für Aufgaben oder Probleme Folgendes:
    >
    >* Wenn Sie einen Status für jeden Typ von Arbeitselement auswählen, wird der Aufgaben- oder Problemstatus auf diesen Status gesetzt, wenn ein Benutzer auf [!UICONTROL Fertig] auf sein Element klickt. Wenn Sie mehrere Status für jeden Typ von Arbeitselement festlegen, wird der Schaltfläche [!UICONTROL Fertig] ein Dropdown-Menü hinzugefügt und der Benutzer muss einen Status auswählen, um den Status des Arbeitselements zu ändern.
-   >* Sie können mit der Schaltfläche „Fertig“ nur Status [!UICONTROL  Systemebene ]. Sie können keine gruppenspezifischen Status mit Arbeitselementstatus verknüpfen.
+   >* Sie können mit der Schaltfläche „Fertig“ nur Status [!UICONTROL &#x200B; Systemebene &#x200B;]. Sie können keine gruppenspezifischen Status mit Arbeitselementstatus verknüpfen.
    >* Wenn ein(e) Benutzende(r), der/die dem Element zugewiesen ist, das Element in dem mit der Schaltfläche [!UICONTROL Fertig] verknüpften Status platziert, wird das Element für [!UICONTROL /] Benutzende angezeigt, unabhängig davon, ob der ausgewählte Status ein [!UICONTROL Abgeschlossen]- oder [!UICONTROL Geschlossen]-Status oder ein Arbeitsstatus ist.
    >   
    >   

@@ -38,7 +38,7 @@ Bei Verwendung des [!UICONTROL Portfolio Optimizer] können Sie den Finanzstatus
 
 Beachten Sie beim Arbeiten mit Finanzen in [!UICONTROL Portfolio Optimizer Folgendes]:
 
-* Projekte erhalten jeweils eine Bewertung, wenn ihre [!UICONTROL Business Cases] gemäß den Kriterien abgeschlossen werden, die sie im [!UICONTROL Portfolio Optimizer} ]. Niedrige Kosten oder Projekte mit hoher Ausrichtung erhalten beispielsweise eine höhere Punktzahl.
+* Projekte erhalten jeweils eine Bewertung, wenn ihre [!UICONTROL Business Cases] gemäß den Kriterien abgeschlossen werden, die sie im [!UICONTROL Portfolio Optimizer&rbrace; &#x200B;]. Niedrige Kosten oder Projekte mit hoher Ausrichtung erhalten beispielsweise eine höhere Punktzahl.
 
   Weitere Informationen zur Berechnung des Portfolio-Optimizer-Scores eines Projekts finden Sie unter [Übersicht über den [!UICONTROL Portfolio Optimizer]-Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
@@ -50,8 +50,8 @@ Beachten Sie beim Arbeiten mit Finanzen in [!UICONTROL Portfolio Optimizer Folge
 Finanzinformationen finden Sie in den folgenden Bereichen von [!UICONTROL Portfolio Optimizer]:
 
 * **[!UICONTROL Portfolio-Kopfzeile]**: Dieser Bereich zeigt Finanzinformationen an, die aus allen Projekten im Portfolio gesammelt wurden. Er wird auf jeder Registerkarte des Portfolio-Objekts angezeigt.
-* **[!UICONTROL Portfolio-Finanzen für ausgewählte Projekte]**: Dieser Bereich zeigt Finanzinformationen an, die aus den Projekten gesammelt wurden, die in [!UICONTROL Portfolio Optimizer} ausgewählt ]. Sie können Projekte hinzufügen oder entfernen und verstehen, wie sich dies auf die Finanzen des Portfolios auswirkt, indem Sie die Informationen in diesem Bereich anzeigen.
-* **[!UICONTROL Projektfinanzen]**: In diesem Bereich werden die Finanzinformationen der einzelnen Projekte angezeigt, die in [!UICONTROL Portfolio Optimizer} ] sind.
+* **[!UICONTROL Portfolio-Finanzen für ausgewählte Projekte]**: Dieser Bereich zeigt Finanzinformationen an, die aus den Projekten gesammelt wurden, die in [!UICONTROL Portfolio Optimizer&rbrace; ausgewählt &#x200B;]. Sie können Projekte hinzufügen oder entfernen und verstehen, wie sich dies auf die Finanzen des Portfolios auswirkt, indem Sie die Informationen in diesem Bereich anzeigen.
+* **[!UICONTROL Projektfinanzen]**: In diesem Bereich werden die Finanzinformationen der einzelnen Projekte angezeigt, die in [!UICONTROL Portfolio Optimizer&rbrace; &#x200B;] sind.
 
 ### Die Finanzfelder im [!UICONTROL Portfolio Optimizer] {#the-financial-fields-in-the-portfolio-optimizer}
 
@@ -64,7 +64,7 @@ Die folgenden Finanzfelder werden in [!UICONTROL Portfolio Optimizer] angezeigt:
 
 ![Portfolio-Kopfzeile](assets/portfolio-header-nwe-350x14.png)
 
-[!DNL Adobe Workfront] berechnet die Finanzfelder in der Portfoliokopfzeile anhand von Informationen aus Projekten mit Status, die nur mit &quot;[!UICONTROL &quot; ] &quot;[!UICONTROL &quot; ].
+[!DNL Adobe Workfront] berechnet die Finanzfelder in der Portfoliokopfzeile anhand von Informationen aus Projekten mit Status, die nur mit &quot;[!UICONTROL &quot; &#x200B;] &quot;[!UICONTROL &quot; &#x200B;].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Die folgenden Finanzfelder werden in [!UICONTROL Portfolio Optimizer] angezeigt:
   </tr> 
   <tr> 
    <td>[!UICONTROL für Budget]</td> 
-   <td> <p>Der Prozentsatz der Projekte im Portfolio, die als [!UICONTROL On Budget] betrachtet werden. Dies ist auf jeder Registerkarte innerhalb eines [!UICONTROL-Portfolios] sichtbar.</p> <p>Projekte werden <strong>[!UICONTROL On Budget]</strong>, wenn sie ihr vordefiniertes Budget nicht überschritten haben. <br>Weitere Informationen zum Budget eines Projekts finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Manage] Informationen im Bereich Projektfinanzierung</a>.</p> <p>Der [!UICONTROL On Budget]-Prozentsatz wird anhand der folgenden Formel berechnet:</p> <p><em>[!UICONTROL on budget Portfolio percentage] = Anzahl der [!UICONTROL on budget] Projekte/Gesamtzahl der Projekte (</em><em> Status [!UICONTROL Aktuell] oder [!UICONTROL Genehmigt]</em> </p> </td> 
+   <td> <p>Der Prozentsatz der Projekte im Portfolio, die als [!UICONTROL On Budget] betrachtet werden. Dies ist auf jeder Registerkarte innerhalb eines [!UICONTROL -Portfolios] sichtbar.</p> <p>Projekte werden <strong>[!UICONTROL On Budget]</strong>, wenn sie ihr vordefiniertes Budget nicht überschritten haben. <br>Weitere Informationen zum Budget eines Projekts finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Manage] Informationen im Bereich Projektfinanzierung</a>.</p> <p>Der [!UICONTROL On Budget]-Prozentsatz wird anhand der folgenden Formel berechnet:</p> <p><em>[!UICONTROL on budget Portfolio percentage] = Anzahl der [!UICONTROL on budget] Projekte/Gesamtzahl der Projekte (</em><em> Status [!UICONTROL Aktuell] oder [!UICONTROL Genehmigt]</em> </p> </td> 
   </tr> 
   <tr> 
    <td>ROI (für Portfolio)</td> 
@@ -139,7 +139,7 @@ Die folgenden Finanzfelder werden in [!UICONTROL Portfolio Optimizer] angezeigt:
    <td> <p>Die Summe aller [!UICONTROL Potenzielle Risikokosten] aller Projekte im Portfolio. Die [!UICONTROL Mögliche Risikokosten] jedes Projekts sind in der Spalte [!UICONTROL Risiko] des [!UICONTROL Portfolio Optimizer] aufgeführt. </p> <p>Weitere Informationen zur Berechnung von Risiken für Projekte finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Berechnung potenzieller Risikokosten</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL-Vorteil]</td> 
+   <td>[!UICONTROL -Vorteil]</td> 
    <td> <p>Die Summe aller [!UICONTROL Geplanter Nutzen]-Werte aller Projekte im Portfolio. Der Wert des geplanten Nutzens jedes Projekts wird in der Spalte [!UICONTROL Benefit] des [!UICONTROL Portfolio Optimizer] aufgeführt. </p> <p>Weitere Informationen zum [!UICONTROL Geplanter Nutzen] eines Projekts finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -178,8 +178,8 @@ Die folgenden Symbole und Optionen sind für den [!UICONTROL Portfolio Optimizer
    <td>Verwenden Sie dieses Symbol, um das Portfolio basierend auf den folgenden finanziellen Werten der Projekte zu optimieren:
     <ul>
      <li>[!UICONTROL Kosten]</li>
-     <li>[!UICONTROL-Ausrichtung]</li>
-     <li>[!UICONTROL-Wert]</li>
+     <li>[!UICONTROL -Ausrichtung]</li>
+     <li>[!UICONTROL -Wert]</li>
      <li>[!UICONTROL Risiko-Nutzen-Verhältnis]</li>
      <li>[!UICONTROL ROI]</li>
     </ul><p>Weitere Informationen zur Portfoliooptimierung finden Sie im Artikel <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Optimieren von Projekten in [!UICONTROL Portfolio Optimizer]</a>.</p></td> 
@@ -196,7 +196,7 @@ Die folgenden Symbole und Optionen sind für den [!UICONTROL Portfolio Optimizer
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-export-optimizer-icon-350x173.png" style="width: 350;height: 173;"> </td> 
-   <td>[!UICONTROL-Export] </td> 
+   <td>[!UICONTROL -Export] </td> 
    <td> <p>Verwenden Sie dieses Symbol, um die Daten im Bereich [!UICONTROL Projektpriorisierung] von [!UICONTROL Portfolio Optimizer] zu exportieren. Sie können sie in die folgenden Formate exportieren:</p> 
     <ul> 
      <li>PDF</li> 
@@ -206,7 +206,7 @@ Die folgenden Symbole und Optionen sind für den [!UICONTROL Portfolio Optimizer
   </tr> 
   <tr> 
    <td> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td> 
-   <td>[!UICONTROL-Voreinstellungen]</td> 
+   <td>[!UICONTROL -Voreinstellungen]</td> 
    <td> <p>Mit diesem Symbol können Sie die in den Spalten von [!UICONTROL Portfolio Optimizer] angezeigten Projektfelder ändern oder je nach Status ändern, welche Projekte Sie in [!UICONTROL Optimizer] anzeigen. </p> <p>Tipp:  
      <ul> 
       <li> <p>Es stehen nicht alle [!DNL Workfront] Standardfelder zur Verfügung, die in den Spalten hinzugefügt werden können. </p> </li> 

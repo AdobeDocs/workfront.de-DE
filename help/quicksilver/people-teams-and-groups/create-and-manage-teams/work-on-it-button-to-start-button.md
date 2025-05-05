@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Ersetzen Sie [!UICONTROL  Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].
+# Ersetzen Sie [!UICONTROL &#x200B; Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].
 
 Die Standardkonfiguration von [!DNL Adobe Workfront] enthält eine Schaltfläche [!UICONTROL Bearbeiten] für Aufgaben und Probleme, die für Elemente angezeigt wird, denen Sie zugewiesen wurden. Wenn Sie auf [!UICONTROL Bearbeiten] auf Ihnen zugewiesene Elemente klicken, signalisieren Sie anderen Benutzern, dass Sie die Arbeit erhalten haben, und bestätigen, dass Sie daran arbeiten werden. Mit der Schaltfläche &quot;[!DNL Work On It]&quot; wird der Aufgaben- oder Problemstatus jedoch nicht aktualisiert, um darauf hinzuweisen, dass die Arbeit tatsächlich begonnen hat.
 
@@ -81,8 +81,8 @@ So konfigurieren Sie die Schaltfläche Start:
 
 1. Suchen Sie **[!UICONTROL Abschnitt mit der Schaltfläche]** Bearbeiten“ unten auf der Seite [!UICONTROL Teams bearbeiten].
 1. Aktivieren **[!UICONTROL das Kontrollkästchen „Bearbeiten-Schaltfläche in Start-Schaltfläche ändern, um den Status eines Elements automatisch]** aktualisieren“.
-1. Wählen Sie für jeden Arbeitselementtyp einen oder mehrere Status aus. Wenn Sie mehr als einen Status auswählen, wird beim Klicken auf &quot;[!UICONTROL &quot; ein Dropdown-Menü ], in dem Sie den gewünschten Status auswählen können.
-1. Klicken Sie **[!UICONTROL Änderungen speichern]**. Wenn Benutzenden ein Arbeitselement zugewiesen wird[!UICONTROL  wird ] Schaltfläche „Aufgabe starten[!UICONTROL  oder ]Problem starten“ anstelle [!UICONTROL  Schaltfläche &quot;] bearbeiten“ angezeigt.
+1. Wählen Sie für jeden Arbeitselementtyp einen oder mehrere Status aus. Wenn Sie mehr als einen Status auswählen, wird beim Klicken auf &quot;[!UICONTROL &quot; ein Dropdown-Menü &#x200B;], in dem Sie den gewünschten Status auswählen können.
+1. Klicken Sie **[!UICONTROL Änderungen speichern]**. Wenn Benutzenden ein Arbeitselement zugewiesen wird[!UICONTROL &#x200B; wird &#x200B;] Schaltfläche „Aufgabe starten[!UICONTROL &#x200B; oder &#x200B;]Problem starten“ anstelle [!UICONTROL &#x200B; Schaltfläche &quot;] bearbeiten“ angezeigt.
 
    >[!NOTE]
    >

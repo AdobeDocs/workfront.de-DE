@@ -52,30 +52,30 @@ Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schrit
 
 1. Wählen Sie aus den folgenden Filtern:
 
-   * [!UICONTROL Portfolios ]: Wählen Sie bestimmte Portfolios, deren Projekte Sie anzeigen möchten.
-   * [!UICONTROL Bedingung]: Wählen Sie diese Option aus, um nur Projekte mit einer bestimmten [!UICONTROL Bedingung“ ].
+   * [!UICONTROL Portfolios &#x200B;]: Wählen Sie bestimmte Portfolios, deren Projekte Sie anzeigen möchten.
+   * [!UICONTROL Bedingung]: Wählen Sie diese Option aus, um nur Projekte mit einer bestimmten [!UICONTROL Bedingung“ &#x200B;].
    * [!UICONTROL Fortschritt]: Wählen Sie diese Option aus, um nur Projekte mit einem bestimmten [!UICONTROL Fortschrittsstatus] anzuzeigen.
-   * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ ].
+   * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ &#x200B;].
    * [!UICONTROL Geplanter Start]: Wählen Sie diese Option aus, um nur Projekte mit dem [!UICONTROL Geplanten Startdatum] in den folgenden Zeitrahmen anzuzeigen:
 
       * Letzte 3 Monate
       * Letzte 2 Monate
       * Letzter Monat
       * Letzte zwei Wochen
-   * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in ] kommenden Zeitrahmen nur Projekte mit dem [!UICONTROL Geplantes Abschlussdatum“ anzuzeigen:
+   * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Geplantes Abschlussdatum“ anzuzeigen:
 
       * Zwei Wochen
       * Ein Monat
       * Zwei Monate
       * Drei Monate
-   * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in ] kommenden Zeitrahmen nur Projekte mit dem [!UICONTROL Projizierten Abschlussdatum“ anzuzeigen:
+   * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Projizierten Abschlussdatum“ anzuzeigen:
 
       * Zwei Wochen
       * Ein Monat
       * Zwei Monate
       * Drei Monate
    * [!UICONTROL Verantwortlicher]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die bestimmten Verantwortlichen zugewiesen sind.
-   * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen ].
+   * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen &#x200B;].
 
 
 

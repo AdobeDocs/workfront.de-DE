@@ -24,5 +24,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Verwalten einer Partnerbeziehung zwischen  [!DNL Workfront Proof ] Konten](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Verwalten einer Partnerbeziehung zwischen  [!DNL Workfront Proof &#x200B;] Konten](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [Freigeben von Elementen für einen Partner in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

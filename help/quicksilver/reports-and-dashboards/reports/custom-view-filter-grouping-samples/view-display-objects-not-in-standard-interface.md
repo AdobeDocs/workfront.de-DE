@@ -26,7 +26,7 @@ Sie können auf eine der folgenden Arten festlegen, welche Felder in eine Ansich
 
   Sie können den Textmodus verwenden, um die Spalte oder den Feldnamen anstelle der ID in eine Ansicht aufzunehmen, indem Sie die `fieldnameID` durch die `fieldname:name` ersetzen.
 
-  In der Standardmodus-Benutzeroberfläche ist beispielsweise das Feld **Portfolio-Eigentümer-ID** für eine Projektansicht verfügbar, das Feld **Portfolio-** Name} jedoch nicht. Sie können den Textmodus verwenden, um den **Namen des Portfolio-Inhabers** in der Spalte einer Ansicht anzuzeigen.
+  In der Standardmodus-Benutzeroberfläche ist beispielsweise das Feld **Portfolio-Eigentümer-ID** für eine Projektansicht verfügbar, das Feld **Portfolio-** Name&rbrace; jedoch nicht. Sie können den Textmodus verwenden, um den **Namen des Portfolio-Inhabers** in der Spalte einer Ansicht anzuzeigen.
 
 ## Zugriffsanforderungen
 

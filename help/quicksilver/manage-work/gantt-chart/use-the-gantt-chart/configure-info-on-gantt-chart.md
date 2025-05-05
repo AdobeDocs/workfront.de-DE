@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]
 
-Sie können konfigurieren, welche Informationen in der Aufgabenliste (Gantt[!UICONTROL  und ] Projektliste (Gantt[!UICONTROL Diagramm) ].
+Sie können konfigurieren, welche Informationen in der Aufgabenliste (Gantt[!UICONTROL &#x200B; und &#x200B;] Projektliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 
 ## Zugriffsanforderungen
 
@@ -59,10 +59,10 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
   <tr> 
    <td role="rowheader">[!UICONTROL Tatsächliche Daten]</td> 
    <td> <img src="assets/actual-dates-in-gantt-183x213.png" alt="actual_dates_in_gant.png" style="width: 183;height: 213;"> </td> 
-   <td> <p>[!UICONTROL Tatsächliches Startdatum] und [!UICONTROL Tatsächliches Abschlussdatum] werden mit einem Dreieckssymbol angezeigt. Wenn das tatsächliche Abschlussdatum von [!UICONTROL] null ist, wird nur das tatsächliche Startdatum von [!UICONTROL] angezeigt.</p> <p>Weitere Informationen zu Start- und Abschlussdaten finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum] </a> und <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum] </a>.</p> </td> 
+   <td> <p>[!UICONTROL Tatsächliches Startdatum] und [!UICONTROL Tatsächliches Abschlussdatum] werden mit einem Dreieckssymbol angezeigt. Wenn das tatsächliche Abschlussdatum von  null ist, wird nur das tatsächliche Startdatum von  angezeigt.</p> <p>Weitere Informationen zu Start- und Abschlussdaten finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum] </a> und <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum] </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-Zuweisungen]</td> 
+   <td role="rowheader">[!UICONTROL -Zuweisungen]</td> 
    <td> <img src="assets/assignments-in-gantt-312x203.png" alt="assignments_in_gant.png" style="width: 312;height: 203;"> </td> 
    <td> <p>Zeigt die Aufgabenzugewiesenen an. Bewegen Sie den Mauszeiger über den <strong>[!UICONTROL Details]</strong> Link neben dem Namen eines Verantwortlichen, um genauere Informationen dazu zu erhalten, einschließlich des Prozentsatzes, zu dem sie der Aufgabe zugewiesen sind.</p> <p>Bevollmächtigte Personen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] auf PDF exportiert wird. Wenn das [!UICONTROL Gantt-Diagramm] auf PDF exportiert wird, werden die Bevollmächtigten nur in der Aufgabenliste angezeigt.</p> </td> 
   </tr> 
@@ -119,13 +119,13 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
 1. Gehen Sie zur Aufgabenliste [!UICONTROL Gantt-Diagramm] oder zur Projektliste [!UICONTROL Gantt-Diagramm].\
    Weitere Informationen dazu, wo sich das [!UICONTROL Gantt-Diagramm] befindet, finden Sie unter [Erste Schritte mit dem [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
-1. (Optional) Wählen Sie die Einstellung **[!UICONTROL Zu voraussichtlichem Datum wechseln]**, um die Aufgaben nach ihrem [!UICONTROL  Datum ]. Standardmäßig werden Aufgaben nach ihrem [!UICONTROL geplanten Datum] im [!UICONTROL Gantt-Diagramm] angezeigt.
+1. (Optional) Wählen Sie die Einstellung **[!UICONTROL Zu voraussichtlichem Datum wechseln]**, um die Aufgaben nach ihrem [!UICONTROL &#x200B; Datum &#x200B;]. Standardmäßig werden Aufgaben nach ihrem [!UICONTROL geplanten Datum] im [!UICONTROL Gantt-Diagramm] angezeigt.
 1. Klicken Sie auf das Optionssymbol, um das Dialogfeld **[!UICONTROL Optionen]** anzuzeigen.\
    ![options.png](assets/options-350x129.png)
 
-1. Wählen Sie die Konfigurationsoptionen aus, die Sie im [!UICONTROL Gantt-Diagramm“ anzeigen ].
+1. Wählen Sie die Konfigurationsoptionen aus, die Sie im [!UICONTROL Gantt-Diagramm“ anzeigen &#x200B;].
 
    >[!NOTE]
-   > Nicht alle Konfigurationsoptionen sind in der Projektliste (Gantt[!UICONTROL Diagramm) ].
+   > Nicht alle Konfigurationsoptionen sind in der Projektliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 
 1. Klicken Sie auf eine beliebige Stelle im [!UICONTROL Gantt]Diagramm, um das Dialogfeld **[!UICONTROL Optionen]** zu schließen.

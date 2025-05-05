@@ -157,11 +157,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 >
 >Diese Einstellung gilt auch für das Löschen von Projekten, für die Aufgaben oder Probleme mit Stunden protokolliert wurden. Diese Einstellung gilt nicht für das Löschen von Projekten, bei denen die Zeit direkt für das Projekt protokolliert wird.
 
-* Bei Auswahl dieser Option erhalten Sie eine informative Warnung, wenn Sie eine Aufgabe oder ein Problem löschen. Die Warnung erinnert Sie daran, dass Aufgaben oder Probleme, die Stunden protokolliert haben, entweder in das Projekt verschoben oder gelöscht werden. Sie können konfigurieren, ob die Stunden gelöscht oder in das Projekt verschoben werden[!UICONTROL  indem Sie im Bereich „Arbeitszeittabelle und ]&quot; von [!UICONTROL Setup“ ]. Nachdem Sie bestätigt haben, dass Sie die Warnung gesehen haben, wird die Aufgabe oder das Problem gelöscht. Weitere Informationen zum Konfigurieren der Einstellungen für Arbeitszeittabellen und Stunden finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Bei Auswahl dieser Option erhalten Sie eine informative Warnung, wenn Sie eine Aufgabe oder ein Problem löschen. Die Warnung erinnert Sie daran, dass Aufgaben oder Probleme, die Stunden protokolliert haben, entweder in das Projekt verschoben oder gelöscht werden. Sie können konfigurieren, ob die Stunden gelöscht oder in das Projekt verschoben werden[!UICONTROL &#x200B; indem Sie im Bereich „Arbeitszeittabelle und &#x200B;]&quot; von [!UICONTROL Setup“ &#x200B;]. Nachdem Sie bestätigt haben, dass Sie die Warnung gesehen haben, wird die Aufgabe oder das Problem gelöscht. Weitere Informationen zum Konfigurieren der Einstellungen für Arbeitszeittabellen und Stunden finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   >[!TIP]
   >
-  >Wenn Sie ein Projekt mit Aufgaben und Problemen löschen, in denen Stunden protokolliert wurden, werden die protokollierten Stunden entweder gelöscht oder gemäß den Einstellungen im Bereich „Arbeitszeittabelle [!UICONTROL  Stundeneinstellungen] von [!UICONTROL Setup] beibehalten. Beim Löschen eines Projekts wird keine Warnmeldung angezeigt.
+  >Wenn Sie ein Projekt mit Aufgaben und Problemen löschen, in denen Stunden protokolliert wurden, werden die protokollierten Stunden entweder gelöscht oder gemäß den Einstellungen im Bereich „Arbeitszeittabelle [!UICONTROL &#x200B; Stundeneinstellungen] von [!UICONTROL Setup] beibehalten. Beim Löschen eines Projekts wird keine Warnmeldung angezeigt.
 
 * Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe oder ein Problem mit protokollierten Stunden löschen oder wenn Sie ein Projekt löschen, für dessen Aufgaben oder Probleme Stunden protokolliert wurden. Die Warnung gibt an, dass der Administrator nicht zulässt, dass Aufgaben oder Probleme mit protokollierten Stunden gelöscht werden. Die Aufgaben, Probleme oder Projekte, für die Stunden für Aufgaben und Probleme protokolliert wurden, können nicht gelöscht werden.
 
@@ -204,7 +204,7 @@ Wenn die Einstellung **[!UICONTROL Zulassen, dass Benutzer ihre Aufgaben und Pro
 
 Wenn diese Einstellung aktiviert ist, können Benutzer Folgendes sehen:
 
-* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine ]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
+* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine &#x200B;]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
 
   >[!NOTE]
   >

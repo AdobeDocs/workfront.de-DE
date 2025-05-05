@@ -66,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step-1-to-setup}}
 
 1. Klicken **im linken** auf „Zugriffsebenen“.
-1. 
+1. &#x200B;
    * In der Produktionsumgebung:
 Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf **Kopieren**.
 

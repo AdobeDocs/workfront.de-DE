@@ -48,7 +48,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Story oder Problem vom Scrum[!UICONTROL Board ]
+## Story oder Problem vom Scrum[!UICONTROL Board &#x200B;]
 
 {{step1-to-team}}
 
@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!NOTE]
    >
-   >Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicken Sie **[!UICONTROL Verschieben]**.
 

@@ -96,7 +96,7 @@ So richten Sie das E-Mail-Branding ein:
    Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. Klicken Sie auf **[!UICONTROL Registerkarte]** Einstellungen“.
-1. Klicken Sie im **[!UICONTROL Branding]** neben dem Bild der E **[!UICONTROL Mail]**Anwendung auf „Bearbeiten“ (1).
+1. Klicken Sie im **[!UICONTROL Branding]** neben dem Bild der E **[!UICONTROL Mail]**&#x200B;Anwendung auf „Bearbeiten“ (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Wählen Sie das Bild aus, das Sie für das Branding der E-Mails verwenden möchten. 2)

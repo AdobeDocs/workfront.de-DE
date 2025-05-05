@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-[!DNL Workfront Proof] sendet E-Mail-Benachrichtigungen von einer [!DNL Workfront Proof] E-Mail-Adresse wie notification@proofing.yourdomain.com an Ihre Validierungsverantwortlichen. Um sicherzustellen, dass die E-Mail-Server [!DNL Workfront Proof] Empfänger allen E-Mail-Benachrichtigungen vertrauen, müssen Sie einen [!UICONTROL Sender Policy Framework](SPF)-Eintrag für Ihre benutzerdefinierte Domain einrichten, die mit dem [!DNL Workfront Proof]-Konto verbunden ist (z. B. **proofing.meinedomäne.com**).
+[!DNL Workfront Proof] sendet E-Mail-Benachrichtigungen von einer [!DNL Workfront Proof] E-Mail-Adresse wie notification@proofing.yourdomain.com an Ihre Validierungsverantwortlichen. Um sicherzustellen, dass die E-Mail-Server [!DNL Workfront Proof] Empfänger allen E-Mail-Benachrichtigungen vertrauen, müssen Sie einen [!UICONTROL Sender Policy Framework] (SPF)-Eintrag für Ihre benutzerdefinierte Domain einrichten, die mit dem [!DNL Workfront Proof]-Konto verbunden ist (z. B. **proofing.meinedomäne.com**).
 
 Um einen SPF-Eintrag einzurichten, müssen Sie den für Ihre primäre Domain verwendeten SPF-Eintrag einbeziehen.
 

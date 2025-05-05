@@ -26,7 +26,7 @@ Als Systemadministrator haben Sie folgende Möglichkeiten:
   >[!NOTE]
   >
   >* Benutzern, denen keine Layoutvorlage zugewiesen ist, wird das [!UICONTROL Blueprints] im [!UICONTROL Hauptmenü] angezeigt.
-  >* Wenn Sie eine neue Layout-Vorlage erstellen[!UICONTROL  wird das Symbol ]Blueprints“ standardmäßig in die Liste [!UICONTROL Aktive Elemente] für das [!UICONTROL Hauptmenü] aufgenommen.
+  >* Wenn Sie eine neue Layout-Vorlage erstellen[!UICONTROL &#x200B; wird das Symbol &#x200B;]Blueprints“ standardmäßig in die Liste [!UICONTROL Aktive Elemente] für das [!UICONTROL Hauptmenü] aufgenommen.
 
 
 * Aktivieren Sie den Zugriff für Benutzer, um die Installation von Blueprints anzufordern, indem Sie eine Anfrage-Warteschlange zum Speichern der Anfragen einrichten. Dort haben Sie einen einzigen Ort, um Anfragen zu verfolgen und zu aktualisieren. Weitere Informationen finden Sie im folgenden Verfahren.

@@ -94,7 +94,7 @@ So suchen Sie in [!DNL Microsoft Teams] nach einem [!DNL Workfront] Element und 
 
      ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
-1. Geben [!UICONTROL  in das ] „Suchen“ den Namen oder die Referenznummer eines Projekts, einer Aufgabe oder eines Problems ein und klicken Sie darauf, wenn es in der Liste angezeigt wird.\
+1. Geben [!UICONTROL &#x200B; in das &#x200B;] „Suchen“ den Namen oder die Referenznummer eines Projekts, einer Aufgabe oder eines Problems ein und klicken Sie darauf, wenn es in der Liste angezeigt wird.\
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
    Dadurch wird eine Karte mit dem [!DNL Workfront] Element im Chat-Feld hinzugefügt. Einige Informationen zum Element sind auf der Karte enthalten, einschließlich Name des Elements, übergeordnetes Objekt, Status, Priorität, Prozent abgeschlossen.
 

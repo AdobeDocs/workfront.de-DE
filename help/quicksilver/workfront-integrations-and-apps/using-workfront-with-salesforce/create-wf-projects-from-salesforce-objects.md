@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Erstellen [!DNL Adobe Workfront] Projekte aus [!DNL Salesforce] Objekten
 
-Nach der Installation von [!DNL Adobe Workfront] für Salesforce können Sie Trigger definieren, die [!DNL Workfront] erstellen, wenn bestimmte Kriterien in [!DNL Salesforce] ([!UICONTROL ) ] [!UICONTROL Accounts] erfüllt sind.
+Nach der Installation von [!DNL Adobe Workfront] für Salesforce können Sie Trigger definieren, die [!DNL Workfront] erstellen, wenn bestimmte Kriterien in [!DNL Salesforce] ([!UICONTROL ) &#x200B;] [!UICONTROL Accounts] erfüllt sind.
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan]</p> </td> 
+   <td> <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 ## Voraussetzungen
 
-So senden Sie eine [!DNL Workfront] von einem [!DNL Salesforce] ([!UICONTROL ) ] Konto
+So senden Sie eine [!DNL Workfront] von einem [!DNL Salesforce] ([!UICONTROL ) &#x200B;] Konto
 Stellen Sie sicher, dass Ihre Umgebung über Folgendes verfügt:
 
 * Ihr [!DNL Workfront] hat [!DNL Workfront for Salesforce] installiert.\
@@ -110,7 +110,7 @@ So konfigurieren Sie Trigger in [!UICONTROL Salesforce]:
    ![salesforce_Trigger_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
 1. Klicken Sie **[!UICONTROL Neuer Trigger]**.
-1. Wählen Sie im Dropdown ]**Menü**[!UICONTROL [!DNL Salesforce] Objekt“ die Option **[!UICONTROL Opportunity]**.
+1. Wählen Sie im Dropdown **Menü**&#x200B;[!DNL Salesforce] Objekt“ die Option **[!UICONTROL Opportunity]**.
 
    Dies ist ein Pflichtfeld.
 
@@ -131,10 +131,10 @@ So konfigurieren Sie Trigger in [!UICONTROL Salesforce]:
 
       >[!NOTE]
       >
-      >Wenn Sie für die Vorlage, die Sie für diese Integration verwenden möchten, einen Vorlagenbesitzer angegeben haben, wird dieser zum Projektbesitzer des neuen Projekts. Die neuen Projekte werden je nach Vorlage unter [!UICONTROL Projekte in meinem ]) der Benutzerin bzw. des Benutzers angezeigt, die bzw. der Besitzer des neuen Projekts ist.
+      >Wenn Sie für die Vorlage, die Sie für diese Integration verwenden möchten, einen Vorlagenbesitzer angegeben haben, wird dieser zum Projektbesitzer des neuen Projekts. Die neuen Projekte werden je nach Vorlage unter [!UICONTROL Projekte in meinem &#x200B;]) der Benutzerin bzw. des Benutzers angezeigt, die bzw. der Besitzer des neuen Projekts ist.
 
    1. (Optional) Wählen Sie das Feld **[!UICONTROL Neues Projekt für jeden verkauften Produkttyp erstellen] aus** wenn Sie ein neues Projekt für jeden Produkttyp erstellen möchten, der bei einer Opportunity verkauft wird.
-   1. (Bedingt) Wählen Sie im Dropdown **** Menü **[!UICONTROL Produkt]** ein Produkt aus.
+   1. (Bedingt) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **[!UICONTROL Produkt]** ein Produkt aus.
 
       Dies ist ein Pflichtfeld.
 
@@ -146,10 +146,10 @@ So konfigurieren Sie Trigger in [!UICONTROL Salesforce]:
 
       >[!IMPORTANT]
       >
-      >Das Projekt wird nur erstellt, wenn die Phase bei der [!UICONTROL Opportunity“ aktualisiert ]. Ein eindeutiges Projekt wird für jedes Produkt erstellt, das beim Aktualisieren des Felds „Phase“ angegeben wird, und nicht, wenn die Produkte zu &quot;[!UICONTROL &quot; hinzugefügt ].
+      >Das Projekt wird nur erstellt, wenn die Phase bei der [!UICONTROL Opportunity“ aktualisiert &#x200B;]. Ein eindeutiges Projekt wird für jedes Produkt erstellt, das beim Aktualisieren des Felds „Phase“ angegeben wird, und nicht, wenn die Produkte zu &quot;[!UICONTROL &quot; hinzugefügt &#x200B;].
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Neuer Trigger]**.
-1. (Optional) Wählen Sie im Dropdown ]**Menü**[!UICONTROL [!DNL Salesforce]Objekt“ die Option **Konto
+1. (Optional) Wählen Sie im Dropdown **Menü**&#x200B;[!DNL Salesforce]Objekt“ die Option **Konto
 **.
 
    Dies ist ein Pflichtfeld.
@@ -158,7 +158,7 @@ So konfigurieren Sie Trigger in [!UICONTROL Salesforce]:
    1. Wählen Sie **[!UICONTROL Dropdown]** Menü **[!UICONTROL Typ]** aus.
 
       Wenn ein beliebiges **Konto
-** wird als **[!UICONTROL Typ]** angegeben, hier [!DNL Salesforce] wird ein **[!UICONTROL Projekt]** in [!DNL Workfront] erstellt.
+**&#x200B; wird als &#x200B;** [!UICONTROL Typ] **&#x200B; angegeben, hier [!DNL Salesforce] wird ein &#x200B;** [!UICONTROL Projekt]** in [!DNL Workfront] erstellt.
 
       Dies ist ein Pflichtfeld.
 
@@ -191,12 +191,12 @@ Je nachdem, welcher Trigger die Projekte generiert hat, konnten die Namen der Pr
 
 Wenn Ihr [!DNL Workfront] den Abschnitt [!DNL Workfront] zu Ihrem [!UICONTROL Opportunity] oder Konto hinzugefügt hat
 Seiten-Layout. Die automatisch erstellten Projekte werden auf der Registerkarte [!UICONTROL Projekte] dieses Abschnitts angezeigt.\
-Weitere Informationen zum Hinzufügen des Abschnitts &quot;[!DNL Workfront]&quot; zum Seiten-Layout eines (Opportunity[!UICONTROL  oder ] Kontos
+Weitere Informationen zum Hinzufügen des Abschnitts &quot;[!DNL Workfront]&quot; zum Seiten-Layout eines (Opportunity[!UICONTROL &#x200B; oder &#x200B;] Kontos
 , siehe [Konfigurieren des  [!DNL Adobe Workfront] -Abschnitts  [!DNL Salesforce] -users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 Sie müssen über ein [!DNL Workfront]-Konto verfügen und bei [!DNL Workfront] angemeldet sein, um die Registerkarte [!UICONTROL Projekte] anzeigen zu können.
 
-So zeigen Sie Projekte an, die aus einem (Opportunity[!UICONTROL  oder ] Konto erstellt wurden
+So zeigen Sie Projekte an, die aus einem (Opportunity[!UICONTROL &#x200B; oder &#x200B;] Konto erstellt wurden
 :
 
 1. Zu einem [!UICONTROL Opportunity] oder Konto gehen

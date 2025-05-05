@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher, um die eigene Einstellung zu ändern</p> <p>[!UICONTROL Plan], um die Einstellung für andere Benutzer zu bearbeiten</p> </td> 
+   <td> <p>[!UICONTROL -Anfrage] oder höher, um die eigene Einstellung zu ändern</p> <p>[!UICONTROL Plan], um die Einstellung für andere Benutzer zu bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 

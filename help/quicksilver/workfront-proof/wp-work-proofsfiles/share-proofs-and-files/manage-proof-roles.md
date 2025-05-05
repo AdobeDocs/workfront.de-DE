@@ -181,7 +181,7 @@ Sie können Korrekturabzug-Rollen zuweisen, wenn Sie neue Korrekturabzüge erste
 
 ### Neue Korrekturabzüge {#new-proofs}
 
-Korrekturabzug-Rollen können Prüfern auf der Seite &quot;[!UICONTROL  Korrekturabzug] während des Erstellungsprozesses des Korrekturabzugs zugewiesen werden (1).
+Korrekturabzug-Rollen können Prüfern auf der Seite &quot;[!UICONTROL &#x200B; Korrekturabzug] während des Erstellungsprozesses des Korrekturabzugs zugewiesen werden (1).
 
 ![Proof_roles_-_New_Proof_page.png](assets/proof-roles---new-proof-page-350x184.png)
 
@@ -229,7 +229,7 @@ Die Erstellerin bzw. der Ersteller des Korrekturabzugs kann nicht geändert oder
 
 ### Inhaber {#owners}
 
-Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Ersteller kann jedoch eine andere Person zum Besitzer des Korrekturabzugs machen, wenn er den Korrekturabzug anfänglich erstellt (auf der Seite &quot;[!UICONTROL  Korrekturabzug]).
+Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Ersteller kann jedoch eine andere Person zum Besitzer des Korrekturabzugs machen, wenn er den Korrekturabzug anfänglich erstellt (auf der Seite &quot;[!UICONTROL &#x200B; Korrekturabzug]).
 
 So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
@@ -238,9 +238,9 @@ So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
 ![Proof_roles_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 
-Sobald der Korrekturabzug erstellt wurde, kann der Besitzer noch geändert werden. Jeder Benutzer mit Bearbeitungsrechten für den Korrekturabzug kann über die Seite „Korrekturabzugsdetails“ ([!UICONTROL  unten) die Eigentümerschaft ] Korrekturabzugs an einen anderen Benutzer ändern.
+Sobald der Korrekturabzug erstellt wurde, kann der Besitzer noch geändert werden. Jeder Benutzer mit Bearbeitungsrechten für den Korrekturabzug kann über die Seite „Korrekturabzugsdetails“ ([!UICONTROL &#x200B; unten) die Eigentümerschaft &#x200B;] Korrekturabzugs an einen anderen Benutzer ändern.
 
-Die Möglichkeit, den/die Verantwortliche(n) für einen Korrekturabzug zu ändern, ist aus Sicht der Workflow-Verwaltung besonders nützlich. Dadurch kann die für das Projekt verantwortliche Person die Verantwortung für den Testversand übernehmen, indem ihr Bearbeitungsrechte für die Testsendungen erteilt werden und sie in der Ansicht &quot;[!UICONTROL  Testsendungen“ ] kann.
+Die Möglichkeit, den/die Verantwortliche(n) für einen Korrekturabzug zu ändern, ist aus Sicht der Workflow-Verwaltung besonders nützlich. Dadurch kann die für das Projekt verantwortliche Person die Verantwortung für den Testversand übernehmen, indem ihr Bearbeitungsrechte für die Testsendungen erteilt werden und sie in der Ansicht &quot;[!UICONTROL &#x200B; Testsendungen“ &#x200B;] kann.
 
 So ändern Sie den/die Verantwortliche für den Korrekturabzug über die Seite [!UICONTROL Details des Korrekturabzugs]:
 

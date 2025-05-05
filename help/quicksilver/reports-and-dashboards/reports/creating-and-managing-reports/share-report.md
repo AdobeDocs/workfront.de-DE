@@ -92,7 +92,7 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
 
    Oder
 
-   Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >****Freigabe**.
+   Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >**&#x200B;**Freigabe**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

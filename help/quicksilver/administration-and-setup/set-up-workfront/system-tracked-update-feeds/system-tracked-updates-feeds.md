@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Systemgesteuerte Aktualisierungs-Feeds
-description: Adobe Workfront protokolliert die Aktivitäten, die an bestimmten Objekten stattfinden, im Bereich [!UICONTROL Updates]. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Administratoren können im Abschnitt „Aktualisierungen“ festlegen, welche Änderungen [!UICONTROL  System ] soll.
+description: Adobe Workfront protokolliert die Aktivitäten, die an bestimmten Objekten stattfinden, im Bereich [!UICONTROL Updates]. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Administratoren können im Abschnitt „Aktualisierungen“ festlegen, welche Änderungen [!UICONTROL &#x200B; System &#x200B;] soll.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront protokolliert die Aktivitäten für bestimmte Objekte automatisch im Abschnitt [!UICONTROL Updates] als Systemaktualisierung. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Admins können im Abschnitt [!UICONTROL Updates“ festlegen, welche Änderungen das System ] soll.
+Adobe Workfront protokolliert die Aktivitäten für bestimmte Objekte automatisch im Abschnitt [!UICONTROL Updates] als Systemaktualisierung. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Admins können im Abschnitt [!UICONTROL Updates“ festlegen, welche Änderungen das System &#x200B;] soll.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

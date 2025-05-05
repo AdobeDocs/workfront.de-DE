@@ -233,11 +233,11 @@ Dies kann in jedem der folgenden Fälle eintreten:
    * Bewegen Sie den Mauszeiger über den Namen des Aufgabengebiets und klicken Sie auf das Symbol **[!UICONTROL Löschen]**![ Löschen](assets/delete.png), um das Aufgabengebiet aus der Initiative zu entfernen.
    * Wählen Sie **[!UICONTROL Rollen zu den verfügbaren Ressourcen des Szenarios hinzufügen]** und klicken Sie dann auf **[!UICONTROL Anwenden]**.
 
-     Dadurch wird die fehlende Anzahl von Aufgabengebiets-VZÄ oder Stunden zum Feld „Verfügbar[!UICONTROL  des ] hinzugefügt.
+     Dadurch wird die fehlende Anzahl von Aufgabengebiets-VZÄ oder Stunden zum Feld „Verfügbar[!UICONTROL &#x200B; des &#x200B;] hinzugefügt.
 
      >[!NOTE]
      >
-     >Mit den Rollen, die Sie zum Beheben der Konflikte hinzufügen, [!UICONTROL  die Aufgabengebiete ]Verfügbar“ für das ausgewählte Szenario und nicht für alle Szenarien im Plan geändert.
+     >Mit den Rollen, die Sie zum Beheben der Konflikte hinzufügen, [!UICONTROL &#x200B; die Aufgabengebiete &#x200B;]Verfügbar“ für das ausgewählte Szenario und nicht für alle Szenarien im Plan geändert.
 
      Ein grüner Aufwärtspfeil (![ grüner Aufwärtspfeil) ](assets/upward-green-arrow.png) den Monat in der Zeitleiste des Plans an, um anzugeben, dass dem Plan in diesem Monat weitere Ressourcen hinzugefügt wurden. Sie müssen die Ansicht [!UICONTROL Monat] auswählen, um diesen Indikator anzuzeigen.
 

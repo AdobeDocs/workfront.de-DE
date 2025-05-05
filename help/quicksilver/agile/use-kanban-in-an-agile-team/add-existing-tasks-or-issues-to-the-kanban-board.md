@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 4/2025 -->
 
-Sie können jede Aufgabe oder jedes Problem zu einem Kanban[!UICONTROL Board hinzufügen] wenn Sie Verwaltungszugriff auf das Projekt haben. Beachten Sie Folgendes, wenn Sie eine Aufgabe oder ein Problem auf eine Kanban[!UICONTROL Pinnwand ]:
+Sie können jede Aufgabe oder jedes Problem zu einem Kanban[!UICONTROL Board hinzufügen] wenn Sie Verwaltungszugriff auf das Projekt haben. Beachten Sie Folgendes, wenn Sie eine Aufgabe oder ein Problem auf eine Kanban[!UICONTROL Pinnwand &#x200B;]:
 
 * Wenn die Aufgabe oder das Problem einem agilen Team zugewiesen und in das [!UICONTROL Kanban“ eines anderen Teams verschoben wird] ändert sich die Team-Zuweisung nicht.
 * Wenn die Aufgabe oder das Problem keinem Team zugewiesen ist, wird die Aufgabe oder das Problem dem Team zugewiesen, dem das Kanban-Board gehört.
@@ -53,7 +53,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme aus einem Projekt
 
-So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Projekt eine Aufgabe oder ] hinzu:
+So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL &#x200B; Projekt eine Aufgabe oder &#x200B;] hinzu:
 
 {{step1-to-projects}}
 
@@ -71,7 +71,7 @@ So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Projekt eine Aufgabe oder ]
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme aus einem Bericht
 
-So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Bericht ] Aufgabe oder Problem hinzu:
+So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL &#x200B; Bericht &#x200B;] Aufgabe oder Problem hinzu:
 
 {{step1-to-reports}}
 

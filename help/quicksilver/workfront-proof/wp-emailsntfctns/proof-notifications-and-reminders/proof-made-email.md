@@ -31,7 +31,7 @@ Benutzer können [!UICONTROL Korrekturabzug erstellt] E-Mails in ihren Profilein
 
 ![proof_made_email.png](assets/proof-made-email-350x214.png)
 
-Eine E[!UICONTROL Mail ]Testversand durchgeführt“ enthält Ihre persönliche Nachricht (sofern vorhanden) und die folgenden Details zum Testversand:
+Eine E[!UICONTROL Mail &#x200B;]Testversand durchgeführt“ enthält Ihre persönliche Nachricht (sofern vorhanden) und die folgenden Details zum Testversand:
 
 * Name des Korrekturabzugs
 * Persönlicher Link zum Testversand

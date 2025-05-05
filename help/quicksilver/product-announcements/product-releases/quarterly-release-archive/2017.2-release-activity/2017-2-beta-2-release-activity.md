@@ -59,7 +59,7 @@ Weitere Informationen zum Abmelden von Abonnement-E-Mails finden Sie im Abschnit
 
 ## Konfigurieren der Anzeige von Meilensteinen im Gantt-Diagramm {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***KORREKTUR **: Diese Funktion befindet sich derzeit nicht in der Sandbox-Vorschau-Umgebung. Die Veröffentlichung ist für einen späteren Zeitpunkt im Juni 2017 geplant.*
+***KORREKTUR &#x200B;**: Diese Funktion befindet sich derzeit nicht in der Sandbox-Vorschau-Umgebung. Die Veröffentlichung ist für einen späteren Zeitpunkt im Juni 2017 geplant.*
 
 Es gibt jetzt zwei Optionen zum Anzeigen von Meilensteininformationen in einem Gantt-Diagramm. Sie können einen oder beide der folgenden Meilensteinindikatoren konfigurieren:
 

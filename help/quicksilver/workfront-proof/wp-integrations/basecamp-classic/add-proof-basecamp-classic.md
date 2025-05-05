@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Überprüfen eines Korrekturabzugs in [!
 
 1. Geben Sie an, ob dieser Korrekturabzug in [!DNL Basecamp] privat sein soll (Option in „Neue [!DNL Basecamp]&quot; nicht verfügbar).
 1. Wählen Sie Ihr [!DNL Basecamp Classic] aus.
-1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie ].
+1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie &#x200B;].
 1. Aktivieren **[!UICONTROL unter „Personen im Projekt]** die Kontrollkästchen der Reviewer in Ihrem [!DNL Basecamp Classic], die Sie dem Korrekturabzug hinzufügen möchten.\
    Reviewer werden in ihrer Standardrolle/in ihrem E-Mail-Warnhinweis angezeigt. Die ausgewählten Validierungsverantwortlichen erhalten eine Nachricht in [!DNL Basecamp] für diesen Korrekturabzug sowie eine E-Mail-Benachrichtigung von [!DNL Workfront Proof].
 
@@ -60,12 +60,12 @@ Weitere Informationen finden Sie unter [Überprüfen eines Korrekturabzugs in [!
 1. Stellen Sie sicher **[!UICONTROL dass]** Korrekturabzugs-URL) und **[!UICONTROL Einbettungs-Code]** auf &quot;**[!UICONTROL &quot;]**.
 
 1. Klicken Sie **[!UICONTROL Testversand zu einem [!DNL Basecamp] Projekt hinzufügen]**.
-1. Gehen Sie [!UICONTROL  Feld „Zu [!DNL Basecamp]] hinzufügen“ wie folgt vor:
+1. Gehen Sie [!UICONTROL &#x200B; Feld „Zu [!DNL Basecamp]] hinzufügen“ wie folgt vor:
 
    1. Klicken Sie auf **[!UICONTROL Daten aktualisieren]**, um mit [!DNL Basecamp Classic] zu synchronisieren, bevor Sie fortfahren.
    1. Geben Sie an, ob dieser Korrekturabzug in [!DNL Basecamp] [!UICONTROL Privat] sein soll (Option in „Neuer [!DNL Basecamp]&quot; nicht verfügbar).
    1. Wählen Sie Ihr [!DNL Basecamp Classic] aus.
-   1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie ].
+   1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie &#x200B;].
    1. Aktivieren **[!UICONTROL unter „Personen im Projekt]** die Kontrollkästchen der Reviewer in Ihrem [!DNL Basecamp Classic], die Sie dem Korrekturabzug hinzufügen möchten.
    1. Reviewer werden in ihrer Standardrolle/in ihrem E-Mail-Warnhinweis angezeigt. Die ausgewählten Validierungsverantwortlichen erhalten eine Nachricht in [!DNL Basecamp] für diesen Korrekturabzug sowie eine E-Mail-Benachrichtigung von [!DNL Workfront Proof].
 

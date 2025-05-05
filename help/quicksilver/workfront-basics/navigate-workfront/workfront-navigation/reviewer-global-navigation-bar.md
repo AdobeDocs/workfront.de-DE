@@ -19,9 +19,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 ## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Prüfers]
 
-Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
+Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL  enthalten]:
+Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL &#x200B; enthalten]:
 
 * **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]** der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit dem Lizenztyp **[!UICONTROL Meine Updates]** standardmäßig durch den Bereich „Meine Updates“ ersetzt. Als [!UICONTROL Prüfer] schließen Sie Ihre Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten anzeigen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Review-Benutzer.
 

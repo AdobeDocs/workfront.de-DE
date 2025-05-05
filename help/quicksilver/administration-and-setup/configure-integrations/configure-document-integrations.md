@@ -163,7 +163,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Authentifizierungs-URL]</td> 
+      <td role="rowheader">[!UICONTROL -Authentifizierungs-URL]</td> 
       <td>Die für die Benutzerauthentifizierung verwendete vollständige URL. [!DNL Workfront] navigiert Benutzer im Rahmen des OAuth-Bereitstellungsprozesses zu dieser Adresse.</td> 
      </tr> 
      <tr> 
@@ -187,7 +187,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
 
    >[!TIP]
    >
-   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL  Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
+   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL &#x200B; Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL ApiKey]**-Authentifizierung für den **[!UICONTROL Authentifizierungstyp]** ausgewählt haben, geben Sie den API-Schlüssel ein, der vom benutzerdefinierten Dokumentanbieter ausgestellt wurde.
 

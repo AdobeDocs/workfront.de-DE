@@ -137,4 +137,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn Sie die Felder im Abschnitt Finanzen bearbeiten, klicken Sie auf **Speichern****Änderungen**.
+1. (Bedingt) Wenn Sie die Felder im Abschnitt Finanzen bearbeiten, klicken Sie auf **Speichern**&#x200B;**Änderungen**.

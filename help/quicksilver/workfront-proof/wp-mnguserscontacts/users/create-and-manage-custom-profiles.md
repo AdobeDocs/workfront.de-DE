@@ -201,7 +201,7 @@ Weitere Informationen zu Berechtigungen finden Sie unter [Modulberechtigungen](#
 
    ![screen_shot_2018-04-06_12-36-21.png](assets/screenshot-2018-04-06-12-36-21-163x288.png)
 
-1. Klicken **** im **[!UICONTROL Bestätigungsdialogfeld]** auf „Ja“.
+1. Klicken **&#x200B;**&#x200B;im **[!UICONTROL Bestätigungsdialogfeld]** auf „Ja“.
 
 1. Wenn das Profil einem Benutzer zugewiesen ist, wählen Sie im Dropdown-Menü des Dialogfelds ein anderes Profil aus, das diesem Benutzer zugewiesen werden soll. Klicken Sie **[!UICONTROL Ja]** zur Bestätigung.
 

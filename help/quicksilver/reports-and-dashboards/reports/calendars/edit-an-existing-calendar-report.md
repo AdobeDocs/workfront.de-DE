@@ -70,16 +70,18 @@ Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, 
    1. Klicken Sie **[!UICONTROL Zum Kalender hinzufügen].**
    1. Geben Sie den Namen eines Projekts ein, dem Sie Kalenderereignisse hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
    1. Klicken Sie **Hinzufügen**.
+
       ![Ein Projekt zu einem Kalender hinzufügen](assets/add-a-calendar-project.png)
 
 
 1. (Optional) So fügen Sie eine Kalendergruppierung hinzu oder ändern eine vorhandene Kalendergruppierung:
    1. Klicken Sie auf das **Mehr** neben dem Projektnamen und dann auf **Bearbeiten**.
+
       ![Projekt im Kalender bearbeiten](assets/edit-project-in-calendar.png)
 
    1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
 
-      * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 

@@ -226,7 +226,7 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
         >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 

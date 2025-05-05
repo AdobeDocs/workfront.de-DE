@@ -338,7 +338,7 @@ Wenn Sie ein Projekt als Anfrage-Warteschlange einrichten, muss der Projektstatu
 So erstellen Sie eine Anfrage-Warteschlange:
 
 1. Wechseln Sie zu dem Projekt, das Sie als Anfrage-Warteschlange einrichten möchten.
-1. (Optional) Klicken Sie **linken Bereich auf****Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
+1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;**Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“. Möglicherweise müssen Sie auf **Weitere anzeigen** und dann auf **Warteschlangendetails** klicken.
 
    Dadurch wird der Abschnitt Warteschlangendetails geöffnet.

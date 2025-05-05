@@ -103,7 +103,7 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
 1. (Optional) Ändern Sie den Namen und die Beschreibung des Risikotyps.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern].**
 
@@ -142,7 +142,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
 1. Fügen Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und **[!UICONTROL Beschreibung]** (optional) hinzu.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Risikotyp erstellen]**,
 
@@ -150,7 +150,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
    >[!TIP]
    >
-   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten ] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
+   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten &#x200B;] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
 
 ## Risiken mit Risikotypen an Projekte anhängen
 

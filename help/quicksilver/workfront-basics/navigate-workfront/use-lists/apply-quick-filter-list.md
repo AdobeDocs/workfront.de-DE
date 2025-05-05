@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Anwenden eines Schnellfilters auf eine Liste
 
-1. Navigieren Sie zu einer Liste oder einem Bericht, die bzw. der Schnellfilter unterstützt, und klicken Sie **[!UICONTROL der Symbolleiste auf ]Schnellfilter** Symbol ![Schnellfilter](assets/qs-quick-filter-icon.png)Symbol .
+1. Navigieren Sie zu einer Liste oder einem Bericht, die bzw. der Schnellfilter unterstützt, und klicken Sie **[!UICONTROL der Symbolleiste auf &#x200B;]Schnellfilter** Symbol ![Schnellfilter](assets/qs-quick-filter-icon.png)Symbol .
 
    Oder
 

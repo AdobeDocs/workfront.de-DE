@@ -36,7 +36,7 @@ Außerdem können Sie [!DNL Workfront Proof] als Cloud-Speicher für Dateien ver
 
 Hochladen einer Datei in [!DNL Workfront Proof]:
 
-1. Klicken Sie in der linken oberen Ecke von [!DNL Workfront Proof] auf den Abwärtspfeil auf der Schaltfläche **[!UICONTROL Neuer Korrekturabzug]** und klicken Sie dann im angezeigten ]**auf**[!UICONTROL  Datei hochladen.\
+1. Klicken Sie in der linken oberen Ecke von [!DNL Workfront Proof] auf den Abwärtspfeil auf der Schaltfläche **[!UICONTROL Neuer Korrekturabzug]** und klicken Sie dann im angezeigten **auf** Datei hochladen.\
    ![Schaltfläche „Neuer Korrekturabzug“](assets/new-proof-button-menu.png)
 
 1. Die Seite **[!DNL New File]** wird angezeigt.

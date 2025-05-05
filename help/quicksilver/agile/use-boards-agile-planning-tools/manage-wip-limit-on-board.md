@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Informationen zum Hinzufügen einer neuen Spalte finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]** aus, um den Bereich Einstellungen zu öffnen.
-1. Aktivieren [!UICONTROL  unter „Spaltenrichtlinien] die **[!UICONTROL Laufende Arbeit] Limit**, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können.
+1. Aktivieren [!UICONTROL &#x200B; unter „Spaltenrichtlinien] die **[!UICONTROL Laufende Arbeit] Limit**, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können.
 1. Geben Sie die Limit-Nummer in das Feld **[!UICONTROL Limit festlegen]** ein.
 
    ![WIP-Beschränkung für Spalte](assets/boards-wip-limit-in-column.png)

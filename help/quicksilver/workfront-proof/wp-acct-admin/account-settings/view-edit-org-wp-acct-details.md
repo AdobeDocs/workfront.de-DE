@@ -24,7 +24,7 @@ Als [!DNL Workfront Proof] können Sie die Kontoeinstellungen für das [!DNL Wor
 
 1. Klicken **[!UICONTROL oben rechts]** Ihrem [!DNL Workfront Proof] auf „Einstellungen“ und wählen Sie dann **[!UICONTROL Kontoeinstellungen]** aus dem Dropdown-Menü aus.
 
-1. Stellen Sie auf der ] &quot;[!UICONTROL &quot; sicher, dass die Registerkarte **[!UICONTROL Details]** geöffnet ist.
+1. Stellen Sie auf der  &quot;&quot; sicher, dass die Registerkarte **[!UICONTROL Details]** geöffnet ist.
 Sie können die folgenden Abschnitte auf dieser Registerkarte anzeigen:
 
 ## Kontodetails bearbeiten

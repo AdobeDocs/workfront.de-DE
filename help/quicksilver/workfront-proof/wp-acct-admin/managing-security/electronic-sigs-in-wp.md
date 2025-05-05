@@ -43,7 +43,7 @@ Das [!UICONTROL Elektronische Signatur]-Popup wird im Proofing Viewer und auch a
 
 ![electronic_signature_-_proof_details_2.png](assets/electronic-signature---proof-details-2-350x148.png)
 
-Wenn die Option [!UICONTROL Single Sign-On] im Korrekturabzug aktiviert ist, werden die E-Mail- und Kennwortdetails nicht im Popup [!UICONTROL Elektronische ]) angezeigt, wenn eine Entscheidung getroffen wird.
+Wenn die Option [!UICONTROL Single Sign-On] im Korrekturabzug aktiviert ist, werden die E-Mail- und Kennwortdetails nicht im Popup [!UICONTROL Elektronische &#x200B;]) angezeigt, wenn eine Entscheidung getroffen wird.
 
 Nach dem Klicken auf die [!UICONTROL Bestätigen] (4) in diesem Popup wird der Reviewer stattdessen zur Seite [!UICONTROL Single Sign-On] weitergeleitet.
 

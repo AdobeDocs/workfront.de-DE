@@ -73,7 +73,7 @@ Beide Prozesse schaffen eine Verbindung zwischen den Projekten und den entsprech
      >
      >Aufgabengebiet-Informationen aus dem Projekt und der Initiative werden nicht nebeneinander im [!DNL Scenario Planner] Abschnitt der [!UICONTROL Projektdetails] angezeigt.
 
-   * Das [!UICONTROL  &quot;]&quot; in den folgenden Bereichen:
+   * Das [!UICONTROL &#x200B; &quot;]&quot; in den folgenden Bereichen:
 
       * [!UICONTROL Workload-] des Projekts
 
@@ -85,7 +85,7 @@ Beide Prozesse schaffen eine Verbindung zwischen den Projekten und den entsprech
 
      >[!TIP]
      >
-     >Sie können Aufgabenrolleninformationen aus dem Projekt und der Initiative Seite an Seite im Bedienfeld [!UICONTROL Rollenzuweisung“ ].
+     >Sie können Aufgabenrolleninformationen aus dem Projekt und der Initiative Seite an Seite im Bedienfeld [!UICONTROL Rollenzuweisung“ &#x200B;].
 
 * Sie können keine Aufgabengebiet-Zuordnung für ein Projekt für eine verknüpfte Initiative anzeigen. Weitere Informationen finden Sie unter [Projekte in Pläne importieren in der [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 

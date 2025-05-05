@@ -24,7 +24,7 @@ Das [!UICONTROL Workflow] zeigt den Workflow Ihres Korrekturabzugs so an, wie er
 Weitere Informationen zu Testversanddetails finden Sie unter [Verwalten von Testversanddetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).\
 Alle zugewiesenen Reviewer, einschließlich Benutzer und Gäste, können das Bedienfeld [!UICONTROL Workflow] anzeigen.
 
-So greifen Sie auf [!UICONTROL  Bedienfeld ]Workflow“ zu:
+So greifen Sie auf [!UICONTROL &#x200B; Bedienfeld &#x200B;]Workflow“ zu:
 
 1. Wenn das Menü mit dem Symbol auf der linken Seite nicht angezeigt wird **[!UICONTROL klicken Sie auf]** Symbol „Menü“ in der linken oberen Ecke der Korrekturabzugsansicht.
 

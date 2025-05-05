@@ -29,7 +29,7 @@ Gastreviewer, die keine eigenen Anmeldedaten für [!DNL ProofHQ] haben, greifen 
 
 Um einen Kommentar zu einem Korrekturabzug hinzuzufügen, klicken Sie auf die Schaltfläche *[!UICONTROL Kommentar hinzufügen]*, die oben auf der Seite verfügbar ist. Wenn diese Schaltfläche nicht angezeigt wird, wenden Sie sich an den Testversand-Verantwortlichen. Möglicherweise wurde Ihnen die falsche Testversand-Rolle zugewiesen (weitere Informationen zu Testversand-Rollen finden Sie unter [Verwalten von Testversand-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Daraufhin ] rechts im Bildschirm ein [!UICONTROL Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
+Daraufhin  rechts im Bildschirm ein Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
 
 Um auf den Kommentar einer Person zum Korrekturabzug zu antworten, klicken Sie in der Liste der Kommentare auf diesen Kommentar und geben Sie Ihre Antwort in das Feld [!UICONTROL Antwort] ein. Wenn Sie speichern, wird die Antwort auf dem Testversand veröffentlicht.
 
@@ -59,7 +59,7 @@ Mit dem in der [!UICONTROL Korrekturabzugsansicht“ verfügbaren Textanmerkungs
 
 * Hervorheben - Markiert den Text und kopiert ihn in das Kommentarfeld
 * replace - Kopiert den Text und fügt [[!UICONTROL REPLACE]] und [[!UICONTROL WITH]] in das Kommentarfeld ein, damit Sie leicht Ersatztext vorschlagen können
-* Löschen - Durchgestrichen und [[!UICONTROL DELETE ]] in das Kommentarfeld eingefügt
+* Löschen - Durchgestrichen und [[!UICONTROL DELETE &#x200B;]] in das Kommentarfeld eingefügt
 * Einfügen nach : ermöglicht es Ihnen, einfach Text vorzuschlagen, der nach dem hervorgehobenen Satz eingefügt werden muss
 
 Wenn der Text, den Sie verwenden möchten, in einem separaten Dokument gespeichert wird, können Sie die Tastaturbefehle (Strg+C und Strg+V auf einem PC, Befehl+C und Befehl+V auf einem [!DNL Mac]) verwenden, um ihn zu kopieren und in das Feld [!UICONTROL Kommentar] einzufügen.

@@ -77,7 +77,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 * Wenn Sie ein Projekt freigeben, erben alle Aufgaben, Probleme und Dokumente dieselben Berechtigungen, sofern nicht anders angegeben.
 
-  Informationen zur Verwaltung des Zugriffs auf Aufgaben und Probleme im Projekt auf der Grundlage der Berechtigungen eines Benutzers für das Projekt finden Sie im [](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+  Informationen zur Verwaltung des Zugriffs auf Aufgaben und Probleme im Projekt auf der Grundlage der Berechtigungen eines Benutzers für das Projekt finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
   Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten auf der Zugriffsebene der Benutzenden erben sollen. Weitere Informationen zum Beschränken von geerbten Berechtigungen für Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

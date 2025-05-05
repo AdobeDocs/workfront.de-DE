@@ -56,10 +56,10 @@ Ihr Unternehmen muss auf der Adobe-Geschäftsplattform sein, um Objekte zwischen
 ## Generieren eines Objektvergleichs
 
 1. Wechseln Sie zu einer Umgebung, in der Sie ein Objekt vergleichen möchten.
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **linken Navigationsbereich die Option** System“ und dann **Umgebungs-Promotion** aus.
 1. Klicken **oben rechts** Bildschirm auf „Umgebungen vergleichen“.
-1. Wählen Sie im Feld **Source** Umgebung die Umgebung aus, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, aus der Sie Objekte ****.
+1. Wählen Sie im Feld **Source** Umgebung die Umgebung aus, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, aus der Sie Objekte **&#x200B;**.
 1. Wählen Sie im Feld **Zielumgebung** die Umgebung aus, in der Sie das Paket installieren möchten. Dies ist die Umgebung, in die Sie Objekte **kopieren**.
 1. Wählen Sie im Bereich **Zu vergleichende Objekte** die Objekttypen aus, die Sie zwischen Umgebungen vergleichen möchten.
 1. Klicken **oben rechts** Bildschirm auf „Vergleich generieren“.

@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
-Wenn Sie [!DNL Google Workspace] eine von [!DNL Adobe Workfront] gesendete Benachrichtigungs-E-Mail öffnen, können Sie die zugehörigen Arbeitsaufgabendetails anzeigen und antworten, ohne Ihren [!UICONTROL Posteingang“ ]. Wenn Aktionen verfügbar sind, z. B. die Genehmigung einer Anfrage, können Sie diese Aktionen direkt über [!DNL Workfront for Google Workspace] ausführen.
+Wenn Sie [!DNL Google Workspace] eine von [!DNL Adobe Workfront] gesendete Benachrichtigungs-E-Mail öffnen, können Sie die zugehörigen Arbeitsaufgabendetails anzeigen und antworten, ohne Ihren [!UICONTROL Posteingang“ &#x200B;]. Wenn Aktionen verfügbar sind, z. B. die Genehmigung einer Anfrage, können Sie diese Aktionen direkt über [!DNL Workfront for Google Workspace] ausführen.
 
 >[!NOTE]
 >

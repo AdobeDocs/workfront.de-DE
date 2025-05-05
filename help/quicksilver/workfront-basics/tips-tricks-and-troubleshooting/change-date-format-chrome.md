@@ -22,7 +22,7 @@ ht-degree: 0%
 > Die Informationen in diesem Artikel gelten nur für Organisationen, die noch kein Onboarding für das einheitliche Adobe-Erlebnis durchgeführt haben.
 > Wenn Ihr Unternehmen das Adobe Unified Experience Platform nutzt, hängt Ihr bevorzugten Datum von Ihrer Spracheinstellung ab, die Sie in Adobe Unified Shell festgelegt haben. Die Standardspracheinstellung und damit die Standarddatumseinstellung ist `en-US`.
 
-Sie können das Datumsformat von Datumsangaben in [!DNL Adobe Workfront] ändern, z. B[!UICONTROL  „Geplantes ]&quot;, [!UICONTROL Tatsächliches Abschlussdatum] oder [!UICONTROL Voraussichtliches Abschlussdatum].
+Sie können das Datumsformat von Datumsangaben in [!DNL Adobe Workfront] ändern, z. B[!UICONTROL &#x200B; „Geplantes &#x200B;]&quot;, [!UICONTROL Tatsächliches Abschlussdatum] oder [!UICONTROL Voraussichtliches Abschlussdatum].
 
 Sie können beispielsweise ein Datumsformat von _TT/MM/JJJJ_ in _MM/TT/JJJJ_ oder umgekehrt ändern.
 Sie können auch das Datumsformat von _MM/TT/JJJ_ in _TT. JJJJ_ ändern.
@@ -36,7 +36,7 @@ Je nachdem, welche Änderungen Sie sehen möchten und wo Sie die Änderungen seh
    * MM/TT/JJJJ
    * Mo TT, JJJJ
 
-  Um die Spracheinstellungen in [!DNL Chrome] oder einem anderen Browser zu ändern, müssen Sie die Einstellungen dieses Browsers ändern. Die Schritte zum Ändern der Browser-Einstellungen variieren von Browser zu Browser. Informationen zum Ändern der Einstellungen finden [!UICONTROL  unter ], [!UICONTROL Voreinstellungen] oder [!UICONTROL Einstellungen] Ihres Browsers.
+  Um die Spracheinstellungen in [!DNL Chrome] oder einem anderen Browser zu ändern, müssen Sie die Einstellungen dieses Browsers ändern. Die Schritte zum Ändern der Browser-Einstellungen variieren von Browser zu Browser. Informationen zum Ändern der Einstellungen finden [!UICONTROL &#x200B; unter &#x200B;], [!UICONTROL Voreinstellungen] oder [!UICONTROL Einstellungen] Ihres Browsers.
 
 * Um das Datumsformat nur in Berichten und Ansichten zu ändern, müssen Sie die Einstellung [!UICONTROL Feldformat] im Bereich [!UICONTROL Erweiterte Optionen] einer Spalte aktualisieren, wenn Sie den Bericht oder die Ansicht erstellen. Dadurch wird das Datumsformat nicht entsprechend dem Speicherort oder der Sprache geändert. Ändert das Format von Datumsangaben im Kontext desselben Speicherorts oder derselben Sprache.
 

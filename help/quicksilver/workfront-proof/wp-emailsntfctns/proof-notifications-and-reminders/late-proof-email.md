@@ -21,24 +21,24 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Die E[!UICONTROL Mail „Verspäteter ]&quot; wird an Empfänger gesendet, wenn ein Korrekturabzug kurz vor dem Fristablauf oder dem Fristablauf steht. Diese E-Mail-Typen können auf der Ebene des Korrekturabzugs nicht deaktiviert werden, können jedoch auf der Ebene der persönlichen Einstellungen von Konten und Benutzern konfiguriert werden.
+Die E[!UICONTROL Mail „Verspäteter &#x200B;]&quot; wird an Empfänger gesendet, wenn ein Korrekturabzug kurz vor dem Fristablauf oder dem Fristablauf steht. Diese E-Mail-Typen können auf der Ebene des Korrekturabzugs nicht deaktiviert werden, können jedoch auf der Ebene der persönlichen Einstellungen von Konten und Benutzern konfiguriert werden.
 
 * [!UICONTROL Verspäteter Korrekturabzug] E-Mails werden automatisch an Prüfende gesendet, wenn die Frist für einen Korrekturabzug erreicht ist und nicht alle Prüfungen oder Entscheidungen getroffen wurden.
 
   Diese E-Mails sind standardmäßig aktiviert und können nicht für alle Konten angepasst werden, aber Benutzer können sie in ihren Proofing-Standardeinstellungen deaktivieren.
 
-* E-Mails mit Risiken werden an Prüfer gesendet, wenn der Termin für einen Korrekturabzug kurz bevorsteht. Sie sind standardmäßig deaktiviert und können in den [!UICONTROL Kontoeinstellungen“ aktiviert ]. Nach der Aktivierung können sie auch in den [!UICONTROL Proofing-Standardeinstellungen“ ] werden.
+* E-Mails mit Risiken werden an Prüfer gesendet, wenn der Termin für einen Korrekturabzug kurz bevorsteht. Sie sind standardmäßig deaktiviert und können in den [!UICONTROL Kontoeinstellungen“ aktiviert &#x200B;]. Nach der Aktivierung können sie auch in den [!UICONTROL Proofing-Standardeinstellungen“ &#x200B;] werden.
 
 Diese Benachrichtigungen können nicht angepasst werden.
 
 Die Personen, die benachrichtigt werden:
 
-* Nur wenn „E[!UICONTROL Mail] bei verspäteten Korrekturabzügen einen Warnhinweis ausgibt, wird der/die Verantwortliche in den [!UICONTROL Standardeinstellungen für Korrekturabzüge) ].
+* Nur wenn „E[!UICONTROL Mail] bei verspäteten Korrekturabzügen einen Warnhinweis ausgibt, wird der/die Verantwortliche in den [!UICONTROL Standardeinstellungen für Korrekturabzüge) &#x200B;].
 * Alle genehmigenden Personen, die noch keine Entscheidung über den Korrekturabzug getroffen haben. Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 
 >[!NOTE]
 >
->Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, werden keine [!UICONTROL Verspäteten ]-E-Mails gesendet, selbst wenn die validierungsverantwortlichen Personen und genehmigenden Personen ihre Kommentare und Entscheidungen noch nicht übermittelt haben. Sie können E[!UICONTROL Mails mit verspätetem Korrekturabzug auch in ] Standardeinstellungen für das Proofing deaktivieren.
+>Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, werden keine [!UICONTROL Verspäteten &#x200B;]-E-Mails gesendet, selbst wenn die validierungsverantwortlichen Personen und genehmigenden Personen ihre Kommentare und Entscheidungen noch nicht übermittelt haben. Sie können E[!UICONTROL Mails mit verspätetem Korrekturabzug auch in &#x200B;] Standardeinstellungen für das Proofing deaktivieren.
 
 Beachten Sie Folgendes zu Korrekturabzugs-Benachrichtigungen:
 
@@ -47,6 +47,6 @@ Beachten Sie Folgendes zu Korrekturabzugs-Benachrichtigungen:
 
   >[!NOTE]
   >
-  >Der Ersteller der Korrekturabzüge erhält für jeden [!UICONTROL  Korrekturabzug eine separate ]Korrekturabzugs erstellt). Weitere Informationen finden Sie unter [Die E[!UICONTROL Mail mit dem ] Korrekturabzug](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
+  >Der Ersteller der Korrekturabzüge erhält für jeden [!UICONTROL &#x200B; Korrekturabzug eine separate &#x200B;]Korrekturabzugs erstellt). Weitere Informationen finden Sie unter [Die E[!UICONTROL Mail mit dem &#x200B;] Korrekturabzug](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
 * Wenn Sie oder Ihre Validierungsverantwortlichen keine erwartete E-Mail-Benachrichtigung erhalten, lesen Sie [Konfigurieren von E [!DNL Workfront Proof] Mails zur Vermeidung von Spam-Filtern](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).

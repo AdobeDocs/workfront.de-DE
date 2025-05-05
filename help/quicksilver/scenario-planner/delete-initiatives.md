@@ -92,7 +92,7 @@ Eine Liste mit Plänen wird angezeigt.
 
    * Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen der Initiative und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
-   * Aktivieren Sie das Kästchen links von der Initiative und klicken Sie dann im unverankerten ]**, das unten im Plan angezeigt wird, auf**[!UICONTROL  Löschen und dann auf **[!UICONTROL Ja, löschen]**.
+   * Aktivieren Sie das Kästchen links von der Initiative und klicken Sie dann im unverankerten **, das unten im Plan angezeigt wird, auf** Löschen und dann auf **[!UICONTROL Ja, löschen]**.
 
    Die Initiative und ihre Aufgabengebiete sowie Kosteninformationen werden aus dem Plan gelöscht.
 
@@ -105,7 +105,7 @@ Eine Liste mit Plänen wird angezeigt.
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen, und suchen Sie dann die Initiative, die Sie löschen möchten.
-1. Markieren Sie die Kästchen links neben den Initiativen, die Sie löschen möchten, und klicken Sie dann im unten im Plan angezeigten ]**auf**[!UICONTROL  Löschen und anschließend auf **[!UICONTROL Ja, löschen]**.
+1. Markieren Sie die Kästchen links neben den Initiativen, die Sie löschen möchten, und klicken Sie dann im unten im Plan angezeigten **auf** Löschen und anschließend auf **[!UICONTROL Ja, löschen]**.
 
    ![Menü „Initiative verwalten“](assets/bottom-manage-initiative-menu-350x45.png)
 

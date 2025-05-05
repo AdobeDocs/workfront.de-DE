@@ -33,7 +33,7 @@ Sie können das Layout der Seite anpassen, sodass nur die für Sie relevanten In
 
 ## Registerkarte „Profile“
 
-Auf [!UICONTROL  Registerkarte ]Profile“ können Sie benutzerdefinierte Profile bequem hinzufügen und verwalten. Von hier aus können Sie die folgenden Aktionen ausführen:
+Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Profile“ können Sie benutzerdefinierte Profile bequem hinzufügen und verwalten. Von hier aus können Sie die folgenden Aktionen ausführen:
 
 * Neues Profil hinzufügen (1)
 * Durchführen von Massenaktionen für Profile:

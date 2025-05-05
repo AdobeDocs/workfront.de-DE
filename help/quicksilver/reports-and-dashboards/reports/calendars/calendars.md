@@ -25,7 +25,7 @@ Lesen Sie die folgenden Artikel, um sich mit Kalenderberichten in Adobe Workfron
 
 * [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
 * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Anzeigen von Kalenderberichten und Ereignisdetails](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
 * [Freigeben eines Kalenderberichts](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)

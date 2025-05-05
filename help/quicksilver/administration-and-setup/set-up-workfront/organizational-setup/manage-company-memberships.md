@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **[!UICONTROL Firmen]**.
 1. Klicken Sie auf den Namen der Firma.
-1. Führen Sie bei ausgewähltem ]**&quot;**[!UICONTROL &quot; im linken Bereich einen der folgenden Schritte aus:
+1. Führen Sie bei ausgewähltem **&quot;**&quot; im linken Bereich einen der folgenden Schritte aus:
 
    <table style="table-layout:auto"> 
     <col> 

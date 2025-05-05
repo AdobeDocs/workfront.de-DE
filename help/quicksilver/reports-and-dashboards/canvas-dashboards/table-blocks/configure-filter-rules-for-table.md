@@ -154,4 +154,4 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
    1. Ziehen Sie das Feld, das Sie hinzufügen möchten, in den Bereich **Regelsatz hinzufügen** unter Ihre anderen Filterregelsätze.
    1. Wiederholen Sie die Schritte 4 bis 7.
-   1. Wählen Sie in der Dropdown-Liste Operator links neben dem neuen Regelsatz die Option **AND** oder **OR**. Diese Operatoren funktionieren wie die in Schritt 7 aufgeführten, gelten aber für alle Regelsätze im Gegensatz zu einzelnen Regeln innerhalb eines Satzes.****
+   1. Wählen Sie in der Dropdown-Liste Operator links neben dem neuen Regelsatz die Option **AND** oder **OR**. Diese Operatoren funktionieren wie die in Schritt 7 aufgeführten, gelten aber für alle Regelsätze im Gegensatz zu einzelnen Regeln innerhalb eines Satzes.**&#x200B;**

@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>

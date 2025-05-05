@@ -59,8 +59,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bei der Berechnung der Kapazität eines Benutzers berücksichtigt Workfront die folgenden Informationen:
 
-* Die Anzahl der geplanten Stunden, wie im Zeitplan des Benutzers oder im „Standardzeitplan“ des Workfront[!UICONTROL Systems ]
-* [!UICONTROL Zeitplan] [!UICONTROL Ausnahmen] (je nachdem, [!UICONTROL  „Zeitplan] verwendet wird, können dies die Ausnahmen des Zeitplans des Benutzers oder die mit dem [!DNL Workfront] verknüpften sein [!UICONTROL Standardzeitplan])
+* Die Anzahl der geplanten Stunden, wie im Zeitplan des Benutzers oder im „Standardzeitplan“ des Workfront[!UICONTROL Systems &#x200B;]
+* [!UICONTROL Zeitplan] [!UICONTROL Ausnahmen] (je nachdem, [!UICONTROL &#x200B; „Zeitplan] verwendet wird, können dies die Ausnahmen des Zeitplans des Benutzers oder die mit dem [!DNL Workfront] verknüpften sein [!UICONTROL Standardzeitplan])
 * Urlaubstage des Benutzers
 * Der Wert des Vollzeitäquivalents ([!UICONTROL FTE]) des Benutzers oder des [!DNL Workfront]. Der [!UICONTROL FTE] entspricht 1, wenn der Benutzer wie im Zeitplan definiert Vollzeit arbeitet.
 * Der Wert von [!UICONTROL Arbeitszeit] für den Benutzer, der sich auf die Zeit bezieht, die der Benutzer für projektbezogene Arbeit aufwendet. Dazu gehören keine Overhead-Zeit wie Meetings und Schulungen. Die [!UICONTROL Arbeitszeit] ist gleich 1, wenn der Benutzer die gesamte Zeit für Arbeit zur Verfügung steht, wie im [!UICONTROL FTE] oder Zeitplan angegeben, was bedeutet, dass er keine Zeit mit nicht projektbezogener Arbeit wie Meetings oder Schulungen verbringt.
@@ -84,9 +84,9 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
 
      Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-     Weitere Informationen zum Ermitteln des Werts des [!UICONTROL  (FTE] finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Weitere Informationen zum Ermitteln des Werts des [!UICONTROL &#x200B; (FTE] finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-     Workfront berechnet die verfügbaren Stunden eines Benutzers mithilfe der folgenden Formel, wenn der Workfront-Administrator den &quot;[!UICONTROL  Zeitplan“ ]:
+     Workfront berechnet die verfügbaren Stunden eines Benutzers mithilfe der folgenden Formel, wenn der Workfront-Administrator den &quot;[!UICONTROL &#x200B; Zeitplan“ &#x200B;]:
 
 
      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
@@ -136,7 +136,7 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
 
      Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-     Weitere Informationen zum „Zeitplan[!UICONTROL  eines Benutzers ] Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Weitere Informationen zum „Zeitplan[!UICONTROL &#x200B; eines Benutzers &#x200B;] Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
      >[!NOTE]
      >
@@ -148,7 +148,7 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
 
 
-     Der verfügbare [!UICONTROL  (VZÄ] für den Benutzer wird anhand der folgenden Formel berechnet:
+     Der verfügbare [!UICONTROL &#x200B; (VZÄ] für den Benutzer wird anhand der folgenden Formel berechnet:
 
 
      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`

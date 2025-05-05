@@ -88,7 +88,7 @@ Informationen zum Erstellen von Programmen finden Sie unter [Erstellen eines Pro
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung des neuen Projekts an, bevor Sie es bearbeiten können.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 

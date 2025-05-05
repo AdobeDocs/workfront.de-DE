@@ -19,7 +19,7 @@ Die Aufgabenliste [!UICONTROL Gantt-Diagramm] zeigt Details zu Aufgaben an, die 
 
 In einer Vorlage spiegelt die Aufgabenliste [!UICONTROL Gantt-Diagramm] Aktualisierungen wider, die in der Aufgabenliste der Vorlage auf Aufgabenebene vorgenommen wurden. Das mit einer Vorlage verknüpfte [!UICONTROL Gantt-]&quot; kann nicht bearbeitet werden.
 
-In einem Projekt können Sie Aufgabeninformationen direkt in der Aufgabenliste (Gantt[!UICONTROL Diagramm) ].
+In einem Projekt können Sie Aufgabeninformationen direkt in der Aufgabenliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 
 In diesem Artikel werden die folgenden Aktionen beschrieben, die Sie direkt in der Aufgabenliste ausführen können [!UICONTROL Gantt-Diagramm]:
 
@@ -43,7 +43,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan] </p> </td> 
+   <td> <p>[!UICONTROL -Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
@@ -162,7 +162,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder ]:
+   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder &#x200B;]:
    >
    >   
    >   
@@ -197,7 +197,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder ]:
+   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder &#x200B;]:
    >
    >   
    >   

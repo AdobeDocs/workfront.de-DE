@@ -107,6 +107,7 @@ Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme v
 
 1. Vorlagenauswahl und Einrichtung
    1. Durchsuchen Sie alle verfügbaren Vorlagen und wählen Sie die Vorlage **@adobe/aem-cf-editor-ui-ext-tpl** für Ihr Projekt aus.
+
       ![Suchvorlage](assets/search-template.png)
       ![Vorlage auswählen](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme v
    1. Geben Sie eine beschreibende Zusammenfassung der Funktionalität Ihrer Erweiterung an.
    1. Wählen Sie eine anfängliche Versionsnummer aus, mit der Sie beginnen möchten.
    1. Bestätigen Sie den Abschluss, indem **Ich bin fertig** auswählen.
+
       ![Erweiterung definieren](assets/define-extension.png)
 
 1. Navigieren Sie zu Ihrem Projektordner

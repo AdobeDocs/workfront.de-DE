@@ -170,9 +170,9 @@ Durch die Neukonfiguration der Legacy-[!DNL SharePoint]-Integration können Ihre
 > * Die alte [!DNL SharePoint]-Integration trägt die Bezeichnung &quot;[!DNL SharePoint]&quot;.
 > * Die neue [!DNL SharePoint]-Integration trägt die Bezeichnung &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL Cloud-Anbieter]** aus.
-1. Stellen Sie sicher, dass die Optionen **[!DNL SharePoint]** und **[!UICONTROL [!DNL SharePoint](Graph API)]** beide aktiviert sind.
+1. Stellen Sie sicher, dass die Optionen **[!DNL SharePoint]** und **[!UICONTROL [!DNL SharePoint] (Graph API)]** beide aktiviert sind.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL [!DNL SharePoint]Integration aus]**.
 1. Aktivieren Sie das Kontrollkästchen links in der Liste für alle vorhandenen Integrationen und klicken Sie dann auf **[!UICONTROL Deaktivieren]**.
@@ -442,7 +442,7 @@ Benutzer mit [!UICONTROL Vollzugriff] verfügen über alle erforderlichen Berech
    <td> <p>Kann Listenelemente und Dokumente anzeigen, hinzufügen, aktualisieren und löschen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!Nur UICONTROL-Ansicht]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Nur-Ansicht]</p> </td> 
    <td> <p>Kann Seiten, Listenelemente und Dokumente anzeigen (Dokumenttypen mit Server-seitigen Datei-Handlern können im Browser angezeigt, aber nicht heruntergeladen werden)</p> </td> 
   </tr> 
  </tbody> 

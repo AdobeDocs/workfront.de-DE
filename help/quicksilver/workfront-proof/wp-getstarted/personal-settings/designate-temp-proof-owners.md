@@ -53,11 +53,11 @@ So bestimmen Sie den temporären Besitz Ihrer Korrekturabzüge:
 
    ![activity-section-delegation.png](assets/activity-section-delegated-350x318.png)
 
-   Eine [!UICONTROL Abwesenheitsbenachrichtigung] wird auch im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt, solange die Funktion aktiviert ist. Dies dient als Erinnerung an den ursprünglichen Besitzer und ermöglicht es ihm auch, die Delegierung sofort zu beenden oder zu &quot;[!UICONTROL  Einstellungen“ ] gehen, um dies anzupassen.
+   Eine [!UICONTROL Abwesenheitsbenachrichtigung] wird auch im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt, solange die Funktion aktiviert ist. Dies dient als Erinnerung an den ursprünglichen Besitzer und ermöglicht es ihm auch, die Delegierung sofort zu beenden oder zu &quot;[!UICONTROL &#x200B; Einstellungen“ &#x200B;] gehen, um dies anzupassen.
 
    ![notification-on-account.png](assets/notification-on-account-350x15.png)
 
-   Wenn der ursprüngliche Besitzer die Verantwortung für Ihre Korrekturabzüge zurücknimmt, verschwindet der delegierte Besitzer aus dem Abschnitt [!UICONTROL Details] der Seite mit den Korrekturabzugsdetails, und die [!UICONTROL Abwesend]-Benachrichtigung wird nicht mehr im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt. Ein Hinweis, der anzeigt, dass die Eigentümerschaft des Korrekturabzugs zurückgesetzt wurde[!UICONTROL  wird im Abschnitt ]Aktivität“ der Seite mit den Korrekturabzugsdetails angezeigt.
+   Wenn der ursprüngliche Besitzer die Verantwortung für Ihre Korrekturabzüge zurücknimmt, verschwindet der delegierte Besitzer aus dem Abschnitt [!UICONTROL Details] der Seite mit den Korrekturabzugsdetails, und die [!UICONTROL Abwesend]-Benachrichtigung wird nicht mehr im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt. Ein Hinweis, der anzeigt, dass die Eigentümerschaft des Korrekturabzugs zurückgesetzt wurde[!UICONTROL &#x200B; wird im Abschnitt &#x200B;]Aktivität“ der Seite mit den Korrekturabzugsdetails angezeigt.
 
    >[!NOTE]
    >

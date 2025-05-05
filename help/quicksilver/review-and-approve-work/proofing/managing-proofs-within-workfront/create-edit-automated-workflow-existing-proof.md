@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ](assets/workflow-icon-proofing-viewer.png) auf **Workflow** ![Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
+   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ![&#128279;](assets/workflow-icon-proofing-viewer.png) auf **Workflow** Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
 
 1. (Bedingt) Wenn für den Korrekturabzug derzeit ein einfacher Workflow (ohne Phasen) verwendet wird, klicken Sie im angezeigten **auf In automatisierten Workflow**.
 

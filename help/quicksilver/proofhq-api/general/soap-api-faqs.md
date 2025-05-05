@@ -33,7 +33,7 @@ Dazu sind zwei einfache Schritte erforderlich:
 
 **Schritt 1**: Wenn Sie noch keine Sitzungs-ID haben, erhalten Sie eine mit der doLogin()- oder getSessionID()-Methode. Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Kennwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie die E-Mail-Adresse und das Authentifizierungs-Token des Benutzers haben.
 
-**Schritt 2:**Jetzt ist es an der Zeit, den Korrekturabzug zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf „web“ und den SourceName-Parameter als URL der Web-Seite festlegen, die Sie erfassen möchten.
+**Schritt 2:**&#x200B;Jetzt ist es an der Zeit, den Korrekturabzug zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf „web“ und den SourceName-Parameter als URL der Web-Seite festlegen, die Sie erfassen möchten.
 
 Wenn Sie sich jetzt bei Ihrem Konto anmelden, sehen Sie den Testversand.
 

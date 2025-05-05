@@ -25,7 +25,7 @@ Im Abschnitt [!UICONTROL Meine Arbeit] des Bereichs [!UICONTROL Startseite] werd
 
 ## Anpassen des Abschnitts [!UICONTROL Meine Arbeit]
 
-Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL  Arbeit“ angezeigt ] sollen, und die Elementreihenfolge ändern.
+Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL &#x200B; Arbeit“ angezeigt &#x200B;] sollen, und die Elementreihenfolge ändern.
 
 1. Tippen Sie im schwebenden Menü auf Ihr Foto oder Ihre Initialen, um auf Ihr Profil zuzugreifen.
 1. Scrollen Sie zum Abschnitt **[!UICONTROL Konfiguration]** und tippen Sie auf **[!UICONTROL Einstellungen]**.
@@ -34,6 +34,6 @@ Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL  Arbeit“ ang
 
    >[!NOTE]
    >
-   >Das [!UICONTROL  „Aufgaben und ]&quot; wird immer angezeigt und kann nicht ausgeblendet werden.
+   >Das [!UICONTROL &#x200B; „Aufgaben und &#x200B;]&quot; wird immer angezeigt und kann nicht ausgeblendet werden.
 
    ![Mobile-Einstellungen](assets/mobile-settings-338x366.png)

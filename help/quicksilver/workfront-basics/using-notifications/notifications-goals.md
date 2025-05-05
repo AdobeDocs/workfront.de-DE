@@ -37,7 +37,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Produkt</strong></td> 
@@ -61,7 +61,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Voraussetzungen
 
-* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
+* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ &#x200B;].
 
 
 ## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich

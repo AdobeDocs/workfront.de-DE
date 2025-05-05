@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Konfigurieren des [!DNL Adobe Workfront] für [!DNL Salesforce] Benutzer
 
-Um diese Funktion verwenden zu können[!UICONTROL  ist ein [!DNL Workfront]-Plan ]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
+Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein [!DNL Workfront]-Plan &#x200B;]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
 
 Nachdem Sie [!DNL Adobe Workfront] für [!DNL Salesforce] als [!DNL Workfront]-Admin installiert haben, können Sie es für Ihre Benutzerinnen und Benutzer verfügbar machen, indem Sie es in einem neuen Abschnitt zu deren [!UICONTROL Opportunity] und [!UICONTROL Account]
 Seiten-Layouts in [!UICONTROL Salesforce].
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan]</p> </td> 
+   <td> <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +105,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 ## Konfigurieren des [!DNL Workfront] im [!DNL Salesforce Lightning Experience] Framework
 
-Sie können den Abschnitt [!DNL Workfront] zum Layout eines [!DNL Salesforce] (Opportunity[!UICONTROL  oder ] hinzufügen
+Sie können den Abschnitt [!DNL Workfront] zum Layout eines [!DNL Salesforce] (Opportunity[!UICONTROL &#x200B; oder &#x200B;] hinzufügen
 im [!DNL Salesforce Lightning Experience]-Framework, entweder durch Zugriff auf den [!UICONTROL Setup]-Bereich oder über ein Konto
 oder [!UICONTROL Opportunity] Objekt.
 

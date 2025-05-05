@@ -25,7 +25,7 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
 * [Adobe Workfront-Planungs-Aktivität für das zweite Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront-Planungsaktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
->Versionen [!TAB 2025]
+>[!TAB Versionen  2025]
 
 * [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [Übersicht über die Version 2025 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
@@ -34,7 +34,7 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
 * [Adobe Workfront-Planungsaktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 
->Versionen [!TAB 2024]
+>[!TAB Versionen  2024]
 
 * [Übersicht über die Version im ersten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)

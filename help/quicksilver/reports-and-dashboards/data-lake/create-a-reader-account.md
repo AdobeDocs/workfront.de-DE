@@ -79,7 +79,7 @@ So erstellen Sie ein Leserkonto:
 
 1. Nach Abschluss des Vorgangs wird ein Dialogfeld angezeigt, in dem erklärt wird, dass Ihr Leserkonto jetzt aktiv ist. Aktualisieren Sie die Browser-Seite, um auf die Schaltfläche **Neue Verbindung erstellen** zuzugreifen.
 
-Dialogfeld für das Erstellen des Reader-Kontos](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)![
+Dialogfeld für das Erstellen des Reader-Kontos![&#128279;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## Erstellen einer Verbindung
 

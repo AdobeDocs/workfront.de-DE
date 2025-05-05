@@ -86,7 +86,7 @@ Beachten Sie beim Definieren von Standardinformationen, die mit Aufgaben verknü
 * Wenn Sie Aufgaben von einem Projekt in ein anderes kopieren und das Zielprojekt unterschiedliche Standardeinstellungen für Aufgaben hat, behalten die kopierten Aufgaben die Standardeinstellungen des ursprünglichen Projekts bei, es sei denn, sie werden beim Kopieren gelöscht.
 * Wenn Sie eine Aufgabe im selben Projekt duplizieren, werden die benutzerdefinierten Formulare und der Genehmigungsprozess an die doppelte Aufgabe übertragen.
 
-  Informationen zum Kopieren und Duplizieren von Aufgaben finden Sie unter [ [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Kopieren und Duplizieren von Aufgaben finden Sie unter [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Wenn Sie die Aufgabe in ein anderes Projekt verschieben, werden die Standardaufgabeneinstellungen für die Aufgaben aus dem ursprünglichen Projekt gespeichert, unabhängig von den standardmäßigen Aufgabeneinstellungen für das neue Projekt.
 

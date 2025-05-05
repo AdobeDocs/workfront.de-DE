@@ -81,10 +81,10 @@ Sie können eine Nachricht für eine POST-Entscheidung erstellen, die angezeigt 
 1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
 
 1. Öffnen Sie die **[!UICONTROL Entscheidungen]** .
-1. Klicken Sie **[!UICONTROL Abschnitt]** Nach der Entscheidung ]**am Ende der Zeile**[!UICONTROL  Nachricht ]**auf**[!UICONTROL Bearbeiten.
+1. Klicken Sie **[!UICONTROL Abschnitt]** Nach der Entscheidung **am Ende der Zeile**&#x200B;[!UICONTROL &#x200B; Nachricht &#x200B;]&#x200B;**auf**&#x200B;Bearbeiten.
 Sie können auch entscheiden, ob die Nachricht allen Entscheidungsträgern angezeigt werden soll oder ob sie auf den Primären Entscheidungsträger beschränkt werden soll.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. Geben **[!UICONTROL in der Spalte]**Nachricht anzeigen“ die Entscheidungen an, für die diese Nachricht angezeigt werden soll.
+1. Geben **[!UICONTROL in der Spalte]**&#x200B;Nachricht anzeigen“ die Entscheidungen an, für die diese Nachricht angezeigt werden soll.
 Wenn Sie nicht mindestens eine Entscheidung auswählen, wird die Nachricht nicht auf Ihren Korrekturabzügen angezeigt. Stellen Sie sicher, dass Sie mindestens ein Kästchen in dieser Spalte aktivieren.
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

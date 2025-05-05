@@ -224,7 +224,7 @@ Bevor Sie beginnen:
         <td><span>Der erste Tag des Startmonats der Initiative, wenn das Projekt mit einer Initiative verknüpft ist.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!Enddatum der UICONTROL-Initiative]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL Enddatum der-Initiative]</span> </td> 
         <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
        </tr> 
        <tr> 

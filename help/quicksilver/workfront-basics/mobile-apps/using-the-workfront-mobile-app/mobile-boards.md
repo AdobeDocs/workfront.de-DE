@@ -48,7 +48,7 @@ Um Feedback zu mobilen Boards zu geben, klicken Sie auf das Symbol **[!UICONTROL
 
 >[!NOTE]
 >
->Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront][!UICONTROL  Pinnwände] archivieren oder löschen, nicht aus der Mobile App.
+>Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront][!UICONTROL &#x200B; Pinnwände] archivieren oder löschen, nicht aus der Mobile App.
 
 ## Board-Inhalte anzeigen
 

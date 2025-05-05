@@ -230,7 +230,7 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
 
 &#42;&#42; In der Zugriffsebene des Gruppenadministrators muss der Zugriff auf diese Aktion aktiviert sein. Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Die folgenden Aktivitäten sind Teil der erweiterten Unternehmenssteuerung und nicht für den Auswahlplan verfügbar. Nur Organisationen, die Prime- oder Ultimate-Pläne erworben haben, können auf diese Funktionen zugreifen.  Weitere Informationen zu Plänen finden Sie auf der Seite ](https://business.adobe.com/products/workfront/pricing.html) Preisgestaltung und Verpackung von [Adobe Workfront. (Für Organisationen, die die Legacy-Pläne verwenden, zeigt die obige Tabelle die Aktivitäten für Gruppen- und Untergruppenadministratoren an.)
+&#42;&#42;&#42; Die folgenden Aktivitäten sind Teil der erweiterten Unternehmenssteuerung und nicht für den Auswahlplan verfügbar. Nur Organisationen, die Prime- oder Ultimate-Pläne erworben haben, können auf diese Funktionen zugreifen.  Weitere Informationen zu Plänen finden Sie auf der Seite [&#128279;](https://business.adobe.com/products/workfront/pricing.html) Preisgestaltung und Verpackung von Adobe Workfront. (Für Organisationen, die die Legacy-Pläne verwenden, zeigt die obige Tabelle die Aktivitäten für Gruppen- und Untergruppenadministratoren an.)
 
 * Einstellungen für Projekte, Aufgaben und Probleme auf Gruppenebene konfigurieren
 * Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen auf Gruppenebene

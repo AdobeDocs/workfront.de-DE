@@ -48,7 +48,7 @@ Bitte befolgen Sie die folgenden einfachen Schritte, um unsere App zu Ihrem Box-
 
 1. Rufen Sie in Ihrem [!DNL Box]-Konto den Abschnitt **[!UICONTROL Apps]** auf.
 1. Geben Sie in die Suchleiste **[!DNL Workfront Proof]Sync** ein.
-1. Klicken Sie in ]**Suchergebnissen auf**[!UICONTROL [!DNL Workfront Proof] Synchronisieren .
+1. Klicken Sie in **Suchergebnissen auf**&#x200B;[!DNL Workfront Proof] Synchronisieren .
 1. Klicken Sie **[!UICONTROL Hinzufügen]**, um die [!DNL Workfront Proof] Sync-App zu Ihrem Box-Konto hinzuzufügen.
 1. Klicken Sie im angezeigten Bestätigungsfeld auf **[!UICONTROL OK]**.
 

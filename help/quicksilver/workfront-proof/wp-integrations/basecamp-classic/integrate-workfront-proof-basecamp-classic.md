@@ -109,7 +109,7 @@ So fügen Sie das [!DNL Basecamp]-API-Token in Ihre [!DNL Workfront Proof] ein [
 1. Navigieren Sie zu [[!UICONTROL Integrationen] - Benutzereinstellungen](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md) in Ihren [Persönlichen Einstellungen](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) (1).\
    Ein Administrator muss zunächst die [!DNL Basecamp Classic] aktivieren, damit Sie Ihre persönlichen Einstellungen aktivieren können. Weitere Informationen zum Einrichten der Integration finden Sie unter [Aktivieren  [!DNL Basecamp]  Integration mit [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) in diesem Artikel.
 
-1. Fügen Sie im Feld [!DNL Basecamp]-API-Token (2) das Token, das Sie soeben von Ihrer [!DNL Basecamp] Seite [!UICONTROL Meine ]) kopiert haben, in das Feld ein (3).\
+1. Fügen Sie im Feld [!DNL Basecamp]-API-Token (2) das Token, das Sie soeben von Ihrer [!DNL Basecamp] Seite [!UICONTROL Meine &#x200B;]) kopiert haben, in das Feld ein (3).\
    Informationen zum Kopieren Ihres [!DNL Basecamp]-API-Tokens finden Sie unter [Abrufen Ihres  [!DNL Basecamp] -API-](#retrieving-your-basecamp-api-token)) in diesem Artikel.
 
 1. Klicken Sie **[!UICONTROL Speichern]** (4).

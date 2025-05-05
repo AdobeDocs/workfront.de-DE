@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Senden von Direktnachrichten an andere Benutzer
 
-[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL  werden auf der Profilseite des Benutzers auf der Registerkarte ]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL &#x200B; werden auf der Profilseite des Benutzers auf der Registerkarte &#x200B;]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Der Benutzer, an den Sie die Nachricht senden, erhält die folgenden Arten von Benachrichtigungen, wenn Sie eine Nachricht wie in diesem Abschnitt beschrieben senden:
 

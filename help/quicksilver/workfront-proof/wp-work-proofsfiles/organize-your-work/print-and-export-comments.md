@@ -50,7 +50,7 @@ Um auf die Seite mit den Korrekturabzugsdetails für einen bestimmten Korrektura
 
 Sie können die Zusammenfassung des Korrekturabzugs drucken, indem Sie auf das Symbol **[!UICONTROL Drucken]** im Menü [!UICONTROL Korrekturabzugsaktionen] klicken.
 
-So greifen Sie über [!UICONTROL  Listenansicht auf ] Seite „Zusammenfassung der Kommentare“ zu:
+So greifen Sie über [!UICONTROL &#x200B; Listenansicht auf &#x200B;] Seite „Zusammenfassung der Kommentare“ zu:
 
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“.
 1. Wählen Sie **[!UICONTROL Kommentare drucken]**.

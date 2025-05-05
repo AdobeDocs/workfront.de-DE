@@ -68,7 +68,7 @@ Jeder [!DNL Workfont Proof] kann eine Partneranfrage löschen.
 
 Wenn die Anfrage auf der Absenderseite gelöscht wird, wird die Einladung weder im Konto des Absenders noch im Konto des Empfängers mehr angezeigt. Eine neue Einladung kann an dieselbe E-Mail-Adresse gesendet werden wie die ursprüngliche Einladung.
 
-Wenn die Empfängerorganisation eine Einladung löscht, wird die Einladung nicht mehr im Konto des Empfängers angezeigt, sondern [!UICONTROL  im Konto ] Absenders als „Abgelehnt“ angezeigt.
+Wenn die Empfängerorganisation eine Einladung löscht, wird die Einladung nicht mehr im Konto des Empfängers angezeigt, sondern [!UICONTROL &#x200B; im Konto &#x200B;] Absenders als „Abgelehnt“ angezeigt.
 
 So löschen Sie eine Partneranfrage:
 

@@ -205,7 +205,7 @@ Weitere Informationen zum Zugriff auf [!DNL Workfront] über einen freigegebenen
 
 1. Deaktivieren Sie die Auswahl aus den folgenden Optionen, um Ihre Einstellungen für Workfront zu deaktivieren:
 
-   * Deaktivieren Sie im Bereich **[!UICONTROL Allgemeine Einstellungen]** die Einstellung **[!UICONTROL Beim Einfügen einer [!DNL Workfront]-URL in einen [!DNL Slack]-Kanal zusätzliche Beschreibung, Fälligkeitsdatum oder Anforderernamen anzeigen]**&#x200B;, wenn Sie nicht möchten, dass [!DNL Slack] zusätzliche Informationen zu Ihren [!DNL Workfront]-Objekten hinzufügen, wenn Sie eine URL für das Objekt in [!UICONTROL Slack} ].
+   * Deaktivieren Sie im Bereich **[!UICONTROL Allgemeine Einstellungen]** die Einstellung **[!UICONTROL Beim Einfügen einer [!DNL Workfront]-URL in einen [!DNL Slack]-Kanal zusätzliche Beschreibung, Fälligkeitsdatum oder Anforderernamen anzeigen]**&#x200B;, wenn Sie nicht möchten, dass [!DNL Slack] zusätzliche Informationen zu Ihren [!DNL Workfront]-Objekten hinzufügen, wenn Sie eine URL für das Objekt in [!UICONTROL Slack&rbrace; &#x200B;].
 
    * Deaktivieren Sie **[!UICONTROL Bereich &quot;]**&quot; die Benachrichtigungen, die Sie nicht mehr von Workfront erhalten möchten.\
 

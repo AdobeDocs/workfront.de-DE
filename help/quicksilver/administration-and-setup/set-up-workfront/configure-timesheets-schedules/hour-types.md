@@ -116,7 +116,7 @@ So erstellen Sie neue Stundentypen:
       <td>Fügen Sie eine Beschreibung für Ihren Stundentyp hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Umfang]</td> 
+      <td role="rowheader">[!UICONTROL -Umfang]</td> 
       <td> <p>Legen Sie fest, ob es sich bei dem Stundentyp um einen allgemeinen oder einen projektspezifischen Stundentyp handelt, indem Sie im Dropdown-Menü den richtigen Bereich auswählen.</p> <p>Allgemeine Stundentypen sind nur in Arbeitszeittabellen sichtbar und können nicht mit Projekten, Aufgaben oder Problemen verknüpft werden.</p> <p><b>WICHTIG</b>: Wenn Sie einen benutzerdefinierten Stundentyp haben, der [!UICONTROL Project Specific] ist, ändern Sie ihn in [!UICONTROL General], alle vorhandenen Aufgaben, Probleme und Projektstunden werden auf ihre Systemstandardtypen festgelegt.</p> </td> 
      </tr> 
      <tr> 

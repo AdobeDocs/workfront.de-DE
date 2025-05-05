@@ -171,7 +171,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt haben, oder sie manuell beenden. Sie können auch den Zeitrahmen für die Delegierung ändern, wenn sich die Daten für die Delegierung ändern.
 
 1. Gehen Sie zum Bereich [!UICONTROL **Startseite**] und klicken Sie dann in einem der folgenden Widgets auf [!UICONTROL **Delegierung**] Bearbeiten: **Meine Arbeit**, **Meine Aufgaben** oder **Meine Probleme**.
-1. Führen [!UICONTROL  im Feld „Beenden des Delegierens von Aufgaben ] Problemen“ einen der folgenden Schritte aus:
+1. Führen [!UICONTROL &#x200B; im Feld „Beenden des Delegierens von Aufgaben &#x200B;] Problemen“ einen der folgenden Schritte aus:
    * Ändern Sie das [!UICONTROL **Startdatum**] oder das [!UICONTROL **Enddatum**]
    * Klicken Sie auf [!UICONTROL **Delegierung beenden**]
 
@@ -197,7 +197,7 @@ Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt 
 Wenn Aufgaben und Probleme delegiert werden, gibt es mehrere Bereiche in [!DNL Workfront], in denen Sie die delegierte Arbeit sehen oder sehen können, wer die Delegierten sind.
 
 * [Suchen Sie die Beauftragten im Feld Zuweisungen .](#locate-delegates-in-the-assignments-box)
-* [Delegierte Arbeit in &quot;[!UICONTROL &quot; ]](#locate-delegated-work-in-home)
+* [Delegierte Arbeit in &quot;[!UICONTROL &quot; &#x200B;]](#locate-delegated-work-in-home)
 
 
 ### Suchen Sie Delegierte im Feld [!UICONTROL Arbeitsaufträge].
@@ -232,7 +232,7 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
 >
 >Die geplanten Stunden oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in Ressourcen-Management-Tools wie dem [!UICONTROL Workload-Balancer] oder dem [!DNL Resource Planner] für die delegierten Benutzer nicht berücksichtigt. Die Stunden bleiben nur dem zugewiesenen Benutzer zugeordnet.
 
-### Delegierte Arbeit in &quot;[!UICONTROL &quot; ]
+### Delegierte Arbeit in &quot;[!UICONTROL &quot; &#x200B;]
 
 1. Navigieren Sie zum Bereich [!UICONTROL **Startseite**] im Widget [!UICONTROL **Meine Arbeit**].
 1. Klicken Sie auf das Dropdown-Menü Filter und wählen Sie eine oder mehrere der folgenden Optionen aus:
@@ -261,4 +261,4 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
 
      >[!TIP]
      >
-     >    Wenn der Beginn der Delegierung auf ein Datum nach dem heutigen Datum eingestellt ist, wird das Startdatum der Delegierung auch in der [!UICONTROL Arbeitsliste“ ]. Die delegierten Elemente werden in der Gruppierung angezeigt, die Sie für [!UICONTROL Arbeitsliste] je nach Gruppierungstyp auswählen. Wenn Sie beispielsweise nach „Geplantes Abschlussdatum[!UICONTROL  gruppieren] werden die delegierten Elemente in der Gruppierung angezeigt, die ihren geplanten Abschlussdaten entspricht.
+     >    Wenn der Beginn der Delegierung auf ein Datum nach dem heutigen Datum eingestellt ist, wird das Startdatum der Delegierung auch in der [!UICONTROL Arbeitsliste“ &#x200B;]. Die delegierten Elemente werden in der Gruppierung angezeigt, die Sie für [!UICONTROL Arbeitsliste] je nach Gruppierungstyp auswählen. Wenn Sie beispielsweise nach „Geplantes Abschlussdatum[!UICONTROL &#x200B; gruppieren] werden die delegierten Elemente in der Gruppierung angezeigt, die ihren geplanten Abschlussdaten entspricht.

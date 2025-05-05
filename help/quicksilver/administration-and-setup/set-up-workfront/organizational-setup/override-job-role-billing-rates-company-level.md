@@ -63,7 +63,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie auf den Firmennamen in der Liste.
 1. Klicken **[!UICONTROL im linken]** auf „Abrechnungssätze“.
 1. Klicken Sie **[!UICONTROL Abrechnungssatz hinzufügen] > [!UICONTROL Neuer Abrechnungssatz]** oder wählen Sie einen vorhandenen Satz aus, um ihn zu bearbeiten.
-1. Wählen Sie [!UICONTROL  Dialogfeld „Neuer Abrechnungssatz] ein [!UICONTROL **Aufgabengebiet**], um den Abrechnungssatz für zu definieren.
+1. Wählen Sie [!UICONTROL &#x200B; Dialogfeld „Neuer Abrechnungssatz] ein [!UICONTROL **Aufgabengebiet**], um den Abrechnungssatz für zu definieren.
 
    Der [!UICONTROL **Standard-Abrechnungssatz**] zeigt den Satz auf Systemebene für dieses Aufgabengebiet an.
 

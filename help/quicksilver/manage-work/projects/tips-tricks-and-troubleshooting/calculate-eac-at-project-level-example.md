@@ -30,7 +30,7 @@ ht-degree: 0%
 
 PIM = stundenbasiert
 
-EAC-Methode = Berechnung auf Projektebene ****
+EAC-Methode = Berechnung auf Projektebene **&#x200B;**
 
 1. Erstellen Sie Projekt A mit drei Aufgaben (keine untergeordneten Aufgaben), die alle Benutzer 1 zugewiesen sind und deren Kosten/Std. 100,00 USD betragen.
 1. Fügen Sie jeder Aufgabe die geplanten und tatsächlichen Stunden und % Abgeschlossen hinzu, wie in der folgenden Tabelle dargestellt:
@@ -81,7 +81,7 @@ EAC-Methode = Berechnung auf Projektebene ****
    **EAC für Aufgabe 1** = *IF* CPI &lt;> 0 *THEN* EAC = Geplante Stunden/CPI\
        *ELSE* EAC = Geplant  Stunden + tatsächlich  Stunden\
    **EAC für Aufgabe 1** = 5 / .04\
-   **EAC für Aufgabe 1** = 125 Stunden****
+   **EAC für Aufgabe 1** = 125 Stunden&#x200B;**&#x200B;**
 
 1. CPI/EAC für Aufgaben 2 und 3:\
    Aufgabe  2 = .12 / 83,33  Std.\
@@ -402,7 +402,7 @@ EAC-Methode = Berechnung auf Projektebene
 
 1. Führen Sie in Projektaktionen die Option Finanzen neu berechnen aus.
 1. **CPI für Aufgabe 1** = .14
-1. **CPI****für Aufgabe 1** = .14 wie folgt berechnet:\
+1. **CPI**&#x200B;**für Aufgabe 1** = .14 wie folgt berechnet:\
    **CPI**  **für Aufgabe 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
 
    ```
@@ -410,11 +410,11 @@ EAC-Methode = Berechnung auf Projektebene
    ```
 
    *    ELSE* CPI = CPI_Labour\
-   **CPI****für Aufgabe 1** = (100+300) / (2500+400)\
+   **CPI**&#x200B;**für Aufgabe 1** = (100+300) / (2500+400)\
    **CPI**  **für Aufgabe 1** = 400 / 2900\
-   **CPI**  **für Aufgabe 1**  = .14****
+   **CPI**  **für Aufgabe 1**  = .14&#x200B;**&#x200B;**
 
-1. **EAC****für Aufgabe 1** = 13.400,00 $\
+1. **EAC**&#x200B;**für Aufgabe 1** = 13.400,00 $\
    **CPI Labor**  **für Aufgabe 1** = WENN Ist-Lohnkosten &lt;> 0 DANN
 
    ```
@@ -423,67 +423,67 @@ EAC-Methode = Berechnung auf Projektebene
 
       ELSE CPI_Labour = 1\
    **CPI Labor**  **für Aufgabe 1** = 100/2500\
-   **CPI Labor**  **für Aufgabe 1** = .04 ****** EAC Arbeit ****für Aufgabe 1 **=*IF *CPI_Labor &lt;> 0*THEN *EAC Arbeit = Geplante Lohnkosten/CPI_Labor\
+   **CPI Labor**  **für Aufgabe 1** = .04 **&#x200B;**&#x200B;**&#x200B; EAC Arbeit &#x200B;**&#x200B;**für Aufgabe 1 &#x200B;**=*IF *CPI_Labor &lt;> 0*THEN *EAC Arbeit = Geplante Lohnkosten/CPI_Labor\
    *    SONST* EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten\
-   **EAC Arbeit ****für Aufgabe 1** = 500.00/.04\
-   **EAC Labor****für Aufgabe 1** = 12.500,00 $\
-   **EAC-Ausgabe****für Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-**** für Aufgabe 1** = 400,00 $ + 500,00 $\
-   **EAC-Ausgabe****für Aufgabe 1** = 900,00 $\
-   **EAC****für Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****für Aufgabe 1**  = 12 500,00 $ + 900,00 $\
-   **EAC****für Aufgabe 1**  = 13 400,00 $
+   **EAC Arbeit &#x200B;**&#x200B;**für Aufgabe 1** = 500.00/.04\
+   **EAC Labor**&#x200B;**für Aufgabe 1** = 12.500,00 $\
+   **EAC-Ausgabe**&#x200B;**für Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC-**&#x200B;**&#x200B; für Aufgabe 1** = 400,00 $ + 500,00 $\
+   **EAC-Ausgabe**&#x200B;**für Aufgabe 1** = 900,00 $\
+   **EAC**&#x200B;**für Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**für Aufgabe 1**  = 12 500,00 $ + 900,00 $\
+   **EAC**&#x200B;**für Aufgabe 1**  = 13 400,00 $
 
 1. Im Folgenden finden Sie die CPI-/EAC-Werte für Aufgabe 2 und Aufgabe 3:\
    Task 2 = .19 / $ 8.433,33\
    Task 3 = .44 / $6.950.00
 
 1. **CPI für Projekt** = .32 wie folgt berechnet:\
-   **CPI****für Projekt** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
+   **CPI**&#x200B;**für Projekt** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labour\
-   **CPI****für Projekt** = (1000 + 2300) / (7500 + 2700)\
-   **CPI****für Projekt** = 3300 / 10200\
-   **CPI****for Project** = .32
+   **CPI**&#x200B;**für Projekt** = (1000 + 2300) / (7500 + 2700)\
+   **CPI**&#x200B;**für Projekt** = 3300 / 10200\
+   **CPI**&#x200B;**for Project** = .32
 
 1. **EAC für Projekt** = 28.200,00 $ wie folgt berechnet:\
-   **CPI Arbeit****für Projekt** = WENN Ist-Lohnkosten &lt;> 0 DANN
+   **CPI Arbeit**&#x200B;**für Projekt** = WENN Ist-Lohnkosten &lt;> 0 DANN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
       ELSE CPI_Labour = 1\
-   **CPI Labor****für Projekt** = 1000 / 7500\
-   **CPI Labor****for Project** = .13333\
-   **CPI Labor****for Project** = .13
+   **CPI Labor**&#x200B;**für Projekt** = 1000 / 7500\
+   **CPI Labor**&#x200B;**for Project** = .13333\
+   **CPI Labor**&#x200B;**for Project** = .13
 
-   **EAC Labor****for Project** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**for Project** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
    *   SONST* EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten\
-   **EAC Labor****for Project** = 3000/ .13333\
-   **EAC Labor****for Project** = 22.500,00 $
+   **EAC Labor**&#x200B;**for Project** = 3000/ .13333\
+   **EAC Labor**&#x200B;**for Project** = 22.500,00 $
 
-   **EAC-Ausgaben****Projekt** =
+   **EAC-Ausgaben**&#x200B;**Projekt** =
 
    ```
    IncurredActualExpenseCost + NotIncurredPlannedExpense
    ```
 
-   **EAC-Ausgaben****Projekt** = 3.000,00 $ + 2.700,00 $\
-   **EAC-Ausgaben****Projekt** = 5.700,00 $
+   **EAC-Ausgaben**&#x200B;**Projekt** = 3.000,00 $ + 2.700,00 $\
+   **EAC-Ausgaben**&#x200B;**Projekt** = 5.700,00 $
 
-   **EAC****PROJECT** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****PROJECT**  = 22 500,00 $ + 5 700,00 $\
-   **EAC****PROJECT**  = 28 200,00 $
+   **EAC**&#x200B;**PROJECT** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**PROJECT**  = 22 500,00 $ + 5 700,00 $\
+   **EAC**&#x200B;**PROJECT**  = 28 200,00 $
 
 #### Kompliziertes Beispiel: Projekt hat untergeordnete Aufgaben {#complicated-example-project-has-children-tasks-1}
 
@@ -575,7 +575,7 @@ EAC-Methode = Berechnung auf Projektebene
  </tbody> 
 </table>
 
-1. Fügen Sie 50 Stunden direkt zum Projekt hinzu (Mehr>Stunden>Stunden protokollieren), sodass 5.000,00 USD der tatsächlichen Lohnkosten direkt im Projekt erfasst werden. ****
+1. Fügen Sie 50 Stunden direkt zum Projekt hinzu (Mehr>Stunden>Stunden protokollieren), sodass 5.000,00 USD der tatsächlichen Lohnkosten direkt im Projekt erfasst werden. **&#x200B;**
 1. Aufwendungen zu jeder Aufgabe gemäß der folgenden Tabelle hinzufügen (Zwischen jeder Aufgabe habe ich eine leere Zeile hinzugefügt, um die Lesbarkeit zu erleichtern):
 
 <table style="table-layout:auto"> 
@@ -813,31 +813,31 @@ EAC-Methode = Berechnung auf Projektebene
 1. **CPI** für Aufgabe 2 = .17 wie folgt berechnet:\
    **CPI Aufgabe 2** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *THEN* CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLabourCost + IncurredActualExpenseCost)\
    *   ELSE* CPI = CPI_Labour\
-   **CPI****Task 2** = (100+300) / (1000+1300)\
-   **CPI****Task 2**  = 400 / 2300\
-   **CPI****Task 2**  = .17
+   **CPI**&#x200B;**Task 2** = (100+300) / (1000+1300)\
+   **CPI**&#x200B;**Task 2**  = 400 / 2300\
+   **CPI**&#x200B;**Task 2**  = .17
 
 1. **EAC** für Aufgabe 2 = 5.900,00 $\
-   **CPI Arbeit****Aufgabe 2** = WENN Ist-Lohnkosten &lt;> 0 DANN CPI_Arbeit = TotalBudgetedCostWorkPerformed / Ist-Lohnkosten\
+   **CPI Arbeit**&#x200B;**Aufgabe 2** = WENN Ist-Lohnkosten &lt;> 0 DANN CPI_Arbeit = TotalBudgetedCostWorkPerformed / Ist-Lohnkosten\
       ELSE CPI_Labour = 1\
-   **CPI Labor****Task 2** = 100/1000\
-   **CPI Labor****Task 2** = .1
+   **CPI Labor**&#x200B;**Task 2** = 100/1000\
+   **CPI Labor**&#x200B;**Task 2** = .1
 
-   **EAC Labor****Task 2** = *IF* CPI_Labour &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**Task 2** = *IF* CPI_Labour &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
    *   SONST* EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten\
-   **EAC Labor****Task 2** = 500.00/.1\
-   **EAC Labor****Task 2** = $5.000.00 ****** EAC Expense ****Task 2 **= IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-Ausgabe ****Aufgabe 2** = 1.300,00 $ + - 400,00 $\
-   **EAC-Ausgabe****Aufgabe 2** = 900,00 $
+   **EAC Labor**&#x200B;**Task 2** = 500.00/.1\
+   **EAC Labor**&#x200B;**Task 2** = $5.000.00 **&#x200B;**&#x200B;**&#x200B; EAC Expense &#x200B;**&#x200B;**Task 2 &#x200B;**= IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC-Ausgabe &#x200B;**&#x200B;**Aufgabe 2** = 1.300,00 $ + - 400,00 $\
+   **EAC-Ausgabe**&#x200B;**Aufgabe 2** = 900,00 $
 
-   **EAC****Aufgabe 2** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****Task 2**  = 5 000,00 $ + 900,00 $\
-   **EAC****Task 2**  = 5 900,00 $
+   **EAC**&#x200B;**Aufgabe 2** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**Task 2**  = 5 000,00 $ + 900,00 $\
+   **EAC**&#x200B;**Task 2**  = 5 900,00 $
 
 1. Die CPI/EAC für die Aufgaben 4, 5 und 6 werden auf die gleiche Weise festgelegt, sodass ich nur die folgenden Werte angeben werde:\
    Aufgabe 4: .23 / 3.400,00 $\
@@ -845,83 +845,83 @@ EAC-Methode = Berechnung auf Projektebene
    Aufgabe 6: 1,06 / 2.366,67 $
 
 1. CPI für Aufgabe 3 = .31 wie folgt berechnet:\
-   **CPI****Aufgabe 3** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
+   **CPI**&#x200B;**Aufgabe 3** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labour\
-   **CPI****Task 3**  = (1 150 + 500) / (3 000 + 2 400)\
-   **CPI****Task 3**  =  1650/5400\
-   **CPI****Task 3**  = .31 ****** EAC für Aufgabe 3 **= 9.521,74 $ wie folgt berechnet:\
-   **CPI Labor ****Task 3** = WENN die tatsächlichen Lohnkosten &lt;> 0 DANN
+   **CPI**&#x200B;**Task 3**  = (1 150 + 500) / (3 000 + 2 400)\
+   **CPI**&#x200B;**Task 3**  =  1650/5400\
+   **CPI**&#x200B;**Task 3**  = .31 **&#x200B;**&#x200B;**&#x200B; EAC für Aufgabe 3 &#x200B;**= 9.521,74 $ wie folgt berechnet:\
+   **CPI Labor &#x200B;**&#x200B;**Task 3** = WENN die tatsächlichen Lohnkosten &lt;> 0 DANN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labour = 1\
-   **CPI Labor****Task 3** = 1150/3000\
-   **CPI Labor****Task 3** = .383333\
-   **CPI Labor****Task 3** = .38
+   **CPI Labor**&#x200B;**Task 3** = 1150/3000\
+   **CPI Labor**&#x200B;**Task 3** = .383333\
+   **CPI Labor**&#x200B;**Task 3** = .38
 
-   **EAC Labor****Task 3** = *IF* CPI_Labour &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**Task 3** = *IF* CPI_Labour &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   SONST* EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten\
-   **EAC Labor****Task 3** = $2.500.00 / .383333\
-   **EAC Labor****Task 3** = 6.521,74 $
+   **EAC Labor**&#x200B;**Task 3** = $2.500.00 / .383333\
+   **EAC Labor**&#x200B;**Task 3** = 6.521,74 $
 
-   **EAC-Ausgabe****Aufgabe 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-Ausgabe****Aufgabe 3** = 2.400,00 $ + 600,00 $\
-   **EAC-Ausgabe****Aufgabe 3** = 3.000,00 $
+   **EAC-Ausgabe**&#x200B;**Aufgabe 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC-Ausgabe**&#x200B;**Aufgabe 3** = 2.400,00 $ + 600,00 $\
+   **EAC-Ausgabe**&#x200B;**Aufgabe 3** = 3.000,00 $
 
-   **EAC****Aufgabe 3** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****Task 3**  = 6 521,74 $ + 3 000,00 $\
-   **EAC****Task 3**  = 9 521,74 $
+   **EAC**&#x200B;**Aufgabe 3** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**Task 3**  = 6 521,74 $ + 3 000,00 $\
+   **EAC**&#x200B;**Task 3**  = 9 521,74 $
 
 1. CPI für Aufgabe 1 = .16 berechnet wie folgt:\
-   **CPI****Task 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
+   **CPI**&#x200B;**Task 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labour\
-   **CPI****Task 1**  = (1250 + 300) / (5000 + 4500)\
-   **CPI****Task 1**  =  1550 / 9500=\
-   **CPI****Task 1**  = .16
+   **CPI**&#x200B;**Task 1**  = (1250 + 300) / (5000 + 4500)\
+   **CPI**&#x200B;**Task 1**  =  1550 / 9500=\
+   **CPI**&#x200B;**Task 1**  = .16
 
 1. EAC für Aufgabe 1 beträgt 17.100,00 US-Dollar und wird wie folgt berechnet:\
-   **CPI Labor****Task 1** = WENN die tatsächlichen Lohnkosten &lt;> 0 DANN
+   **CPI Labor**&#x200B;**Task 1** = WENN die tatsächlichen Lohnkosten &lt;> 0 DANN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labour = 1\
-   **CPI Labor****Task 1** = 1250 / 5000\
-   **CPI Labor****Task 1** = .25
+   **CPI Labor**&#x200B;**Task 1** = 1250 / 5000\
+   **CPI Labor**&#x200B;**Task 1** = .25
 
-   **EAC Labor****Task 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC Labor = Geplante Lohnkosten / CPI_Labor\
+   **EAC Labor**&#x200B;**Task 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC Labor = Geplante Lohnkosten / CPI_Labor\
    *   SONST* EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten\
-   **EAC Labor****Task 1** = 3.000,00 $ / .25\
-   **EAC Labor****Task 1** = 12.000,00 $
+   **EAC Labor**&#x200B;**Task 1** = 3.000,00 $ / .25\
+   **EAC Labor**&#x200B;**Task 1** = 12.000,00 $
 
-   **EAC-Ausgabe****Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC Ausgabe****Aufgabe 1** = 4500 $ + 600 $\
-   **EAC-Ausgabe****Aufgabe 1** = 5.100,00 $
+   **EAC-Ausgabe**&#x200B;**Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC Ausgabe**&#x200B;**Aufgabe 1** = 4500 $ + 600 $\
+   **EAC-Ausgabe**&#x200B;**Aufgabe 1** = 5.100,00 $
 
-   **EAC****Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****Task 1**  = 12 000,00 $ + 5 100,00 $\
-   **EAC****Task 1**  = 17 100,00 $
+   **EAC**&#x200B;**Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**Task 1**  = 12 000,00 $ + 5 100,00 $\
+   **EAC**&#x200B;**Task 1**  = 17 100,00 $
 
 1. CPI für Projekt ist .25\
-   **CPI****für Projekt** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
+   **CPI**&#x200B;**für Projekt** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost  &lt;> 0 *DANN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -929,37 +929,37 @@ EAC-Methode = Berechnung auf Projektebene
 
    *   ELSE* CPI = CPI_Labour
 
-   **CPI****für Projekt** = (2450 + 1900) / (11000 + 6700)\
-   **CPI****für Projekt** =   4350/17700\
-   **CPI****for Project** = .25
+   **CPI**&#x200B;**für Projekt** = (2450 + 1900) / (11000 + 6700)\
+   **CPI**&#x200B;**für Projekt** =   4350/17700\
+   **CPI**&#x200B;**for Project** = .25
 
 1. **EAC für Projekt** = 32.248,98 $ wie folgt berechnet:\
-   **CPI Arbeit****für Projekt** = WENN Ist-Lohnkosten &lt;> 0 DANN
+   **CPI Arbeit**&#x200B;**für Projekt** = WENN Ist-Lohnkosten &lt;> 0 DANN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labour = 1\
-   **CPI Labor****für Projekt** = 2450 / 11000\
-   **CPI Labor****for Project** = .22272\
-   **CPI Labor****for Project** = .22
+   **CPI Labor**&#x200B;**für Projekt** = 2450 / 11000\
+   **CPI Labor**&#x200B;**for Project** = .22272\
+   **CPI Labor**&#x200B;**for Project** = .22
 
-   **EAC Labor****for Project** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**for Project** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   SONST* EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten\
-   **EAC Labor****für Projekt** = 5.000,00 $ / .22272\
-   **EAC Labor****for Project** = 22.448,97959 $\
-   **EAC Labor****for Project** = 22.448,98 $
+   **EAC Labor**&#x200B;**für Projekt** = 5.000,00 $ / .22272\
+   **EAC Labor**&#x200B;**for Project** = 22.448,97959 $\
+   **EAC Labor**&#x200B;**for Project** = 22.448,98 $
 
-   **EAC-Ausgabe****Projekt** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-Ausgaben****Projekt** = 3.100,00 $ + 6.700,00 $\
-   **EAC-Ausgaben****Projekt** = 9.800,00 $
+   **EAC-Ausgabe**&#x200B;**Projekt** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC-Ausgaben**&#x200B;**Projekt** = 3.100,00 $ + 6.700,00 $\
+   **EAC-Ausgaben**&#x200B;**Projekt** = 9.800,00 $
 
-   **EAC****PROJECT** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****PROJECT**  = $ 22.448,98 + 9.800,00\
-   **EAC****PROJECT**  = 32 248,98 $
+   **EAC**&#x200B;**PROJECT** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**PROJECT**  = $ 22.448,98 + 9.800,00\
+   **EAC**&#x200B;**PROJECT**  = 32 248,98 $

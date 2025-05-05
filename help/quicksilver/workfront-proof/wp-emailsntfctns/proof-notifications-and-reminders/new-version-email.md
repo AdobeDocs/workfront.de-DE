@@ -25,7 +25,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Does this apply to PiW?</p>
 -->
 
-E-Mails zu neuen Versionen werden gesendet, wenn Sie eine [!UICONTROL neue Version] eines Korrekturabzugs erstellen. Sie können sie auf die gleiche Weise anpassen und deaktivieren wie die E[!UICONTROL Mails mit neuen ].
+E-Mails zu neuen Versionen werden gesendet, wenn Sie eine [!UICONTROL neue Version] eines Korrekturabzugs erstellen. Sie können sie auf die gleiche Weise anpassen und deaktivieren wie die E[!UICONTROL Mails mit neuen &#x200B;].
 
 >[!NOTE]
 >

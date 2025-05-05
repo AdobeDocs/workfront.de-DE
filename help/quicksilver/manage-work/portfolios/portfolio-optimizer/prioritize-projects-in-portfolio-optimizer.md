@@ -19,7 +19,7 @@ Sie können Ihre Projekte in [!UICONTROL Portfolio Optimizer] priorisieren, um d
 
 Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
 
-* Die Projekte oben in [!UICONTROL Portfolio Optimizer] werden als wichtiger erachtet als die unten aufgeführten. Sie müssen die Projekte in der Reihenfolge ihrer Priorität in [!UICONTROL Portfolio Optimizer} abschließen] damit die Portfolio optimiert werden kann.
+* Die Projekte oben in [!UICONTROL Portfolio Optimizer] werden als wichtiger erachtet als die unten aufgeführten. Sie müssen die Projekte in der Reihenfolge ihrer Priorität in [!UICONTROL Portfolio Optimizer&rbrace; abschließen] damit die Portfolio optimiert werden kann.
 * Die Priorität von Projekten in [!UICONTROL Portfolio Optimizer] hat nichts mit dem Feld [!UICONTROL Priorität] auf der Registerkarte [!UICONTROL Projektdetails] eines Projekts zu tun.
 
   Das Feld [!UICONTROL Priorität] auf der Registerkarte [!UICONTROL Projektdetails] ist eine visuelle Markierung, die Sie manuell angeben, um zu verstehen, wie wichtig ein Projekt sein sollte.
@@ -73,14 +73,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie **[!UICONTROL Portfolios]**.
 1. (Optional) Wählen Sie den richtigen Filter im Dropdown-Menü **[!UICONTROL Filter]** aus, um die richtige Liste der Portfolios anzuzeigen.
 1. Klicken Sie auf den Namen eines Portfolios, um es zu öffnen.
-1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung.
+1. Klicken Sie im linken **auf** Portfolio-Optimierung.
 1. Ändern Sie im Bereich [!UICONTROL Projektoptimierung] die Priorität Ihrer Projekte, indem Sie die Projekte nach ihrer Priorität ziehen und dann an die gewünschte Anzeigeposition ablegen.
 
    ![Portfolio Optimizer mit Projekten](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klicken Sie **[!UICONTROL Bereich &quot;]**&quot; im Bereich „Projektoptimierung“, wenn Sie die Neuanordnung Ihrer Projekte abgeschlossen haben. Die Projekte erhalten eine neue Nummer basierend auf der neuen Bestellung.
 
-1. Klicken Sie **[!UICONTROL Speichern]**, um die neue Projektpriorität im [!UICONTROL Portfolio Optimizer“ zu ]. Die Priorität wird als Zahl in der Spalte **#** aufgeführt.
+1. Klicken Sie **[!UICONTROL Speichern]**, um die neue Projektpriorität im [!UICONTROL Portfolio Optimizer“ zu &#x200B;]. Die Priorität wird als Zahl in der Spalte **#** aufgeführt.
 
    >[!TIP]
    >

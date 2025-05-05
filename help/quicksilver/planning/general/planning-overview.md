@@ -323,6 +323,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
      ![Gruppierung in der Zeitleisten-Ansicht angewendet](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalenderansicht** Zeigt Datensätze mit mindestens zwei Feldern vom Typ Datum in einem Kalenderformat an.
+
      ![Beispiel für Kalenderansicht](assets/calendar-view-example.png)
 
 

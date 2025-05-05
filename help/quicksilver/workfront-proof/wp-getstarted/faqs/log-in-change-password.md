@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. Navigieren Sie [Anmeldeseite](https://app.proofhq.com/login).
 
-1. Klicken Sie oben [!UICONTROL  auf ] Schaltfläche „Anmelden“.
+1. Klicken Sie oben [!UICONTROL &#x200B; auf &#x200B;] Schaltfläche „Anmelden“.
 1. Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.\
    Wenn Sie Ihr Kennwort vergessen haben, lesen Sie den Abschnitt [Wenn Sie Ihr Kennwort vergessen](#when-you-forget-your-password) weiter unten in diesem Artikel.
 
@@ -76,4 +76,4 @@ Sie können Ihrem [!DNL Workfront Proof]-Konto mehrere E-Mail-Adressen hinzufüg
 
 1. Klicken Sie in der erhaltenen Validierungs-E-Mail auf den Bestätigungs-Link.\
    Die E-Mail-Änderung wird in Ihrem Profil gespeichert. Möglicherweise müssen Sie den Browser aktualisieren, in dem Sie [!DNL Workfront Proof] Seite [!UICONTROL Persönliche Einstellungen] anzeigen, um anzuzeigen, dass es sich um eine Alias-E-Mail handelt.
-1. (Optional) Um die neue E-Mail-Adresse zu Ihrer primären E-Mail-Adresse in [!DNL Workfront Proof] zu machen, klicken Sie auf die Schaltfläche [!UICONTROL Mehr] (drei Punkte) ganz rechts neben der Adresse und klicken Sie dann im angezeigten ]**auf**[!UICONTROL  Primäre E-Mail erstellen.
+1. (Optional) Um die neue E-Mail-Adresse zu Ihrer primären E-Mail-Adresse in [!DNL Workfront Proof] zu machen, klicken Sie auf die Schaltfläche [!UICONTROL Mehr] (drei Punkte) ganz rechts neben der Adresse und klicken Sie dann im angezeigten **auf** Primäre E-Mail erstellen.

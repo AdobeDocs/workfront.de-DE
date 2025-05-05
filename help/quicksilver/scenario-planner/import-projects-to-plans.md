@@ -80,7 +80,7 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
 
 * Sie müssen mindestens über [!UICONTROL Ansicht]-Berechtigungen für die Projekte verfügen, um sie als neue Initiative in einen Plan importieren zu können.
 * Sie können dasselbe Projekt in mehrere Pläne importieren.
-* Die Projekte, die Sie importieren möchten, müssen Datumsangaben im Zeitrahmen Ihres Plans enthalten. Sie können keine Projekte importieren[!UICONTROL  deren geplantes Abschlussdatum vor dem Start des Plans ] oder deren [!UICONTROL geplantes Startdatum] nach dem Ende des Plans liegt.
+* Die Projekte, die Sie importieren möchten, müssen Datumsangaben im Zeitrahmen Ihres Plans enthalten. Sie können keine Projekte importieren[!UICONTROL &#x200B; deren geplantes Abschlussdatum vor dem Start des Plans &#x200B;] oder deren [!UICONTROL geplantes Startdatum] nach dem Ende des Plans liegt.
 * Sie können nicht mehr als 100 Projekte gleichzeitig importieren.
 * Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen darüber, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie [ Abschnitt „Projektinformationen in den Plan ](#project-information-imported-into-the-plan)&quot; in diesem Artikel.
 * Änderungen an den verknüpften Projekten wirken sich nicht auf die Initiativen des Plans aus.
@@ -132,7 +132,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
       --></li> 
-     <li>Wenn einer Aufgabe im Projekt mit einer Dauer von null [!UICONTROL] ein Aufgabengebiet zugewiesen wird, ist der erforderliche VZÄ (<span> Stunden) </span> Aufgabengebiet der Initiative standardmäßig null, auch wenn die Aufgabe über geplante Stunden verfügt. </li> 
+     <li>Wenn einer Aufgabe im Projekt mit einer Dauer von null  ein Aufgabengebiet zugewiesen wird, ist der erforderliche VZÄ (<span> Stunden) </span> Aufgabengebiet der Initiative standardmäßig null, auch wenn die Aufgabe über geplante Stunden verfügt. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -215,7 +215,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
       <td>Start- und Enddatum der Initiative. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Projekt]</td> 
+      <td role="rowheader">[!UICONTROL -Projekt]</td> 
       <td> <p>Der [!UICONTROL Geplanter Start] und die [!UICONTROL Abschlussdaten] des verknüpften Projekts.</p> <p>Tipp: Wenn die [!UICONTROL Project]-Informationen fehlen, wurde das Projekt gelöscht.</p> </td> 
      </tr> 
     </tbody> 

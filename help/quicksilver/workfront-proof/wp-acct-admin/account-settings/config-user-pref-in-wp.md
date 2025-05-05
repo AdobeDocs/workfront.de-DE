@@ -36,7 +36,7 @@ So bearbeiten Sie das Berechtigungsprofil für Korrekturabzüge eines/r Benutzen
 
 1. Gehen Sie [!UICONTROL Kontoeinstellungen] und klicken Sie dann auf die Registerkarte [!UICONTROL Benutzer].
 1. Klicken Sie auf den Namen des Benutzers, dessen Berechtigungen Sie bearbeiten möchten.
-1. Klicken Sie auf [!UICONTROL  Dropdown-] Berechtigungsprofil und wählen Sie ein neues Berechtigungsprofil aus.
+1. Klicken Sie auf [!UICONTROL &#x200B; Dropdown-] Berechtigungsprofil und wählen Sie ein neues Berechtigungsprofil aus.
 
    Berechtigungsprofile sind „Administrator“, „Supervisor“, „Manager“ und „Beobachter“.
 

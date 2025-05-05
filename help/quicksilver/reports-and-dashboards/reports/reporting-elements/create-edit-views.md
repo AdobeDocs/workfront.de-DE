@@ -90,6 +90,7 @@ Das **Ansicht anpassen** wird angezeigt.
    * Passen Sie die Reihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
    * Klicken Sie im Bereich **Spalteneinstellungen** auf **Diese Spalte zusammenfassen nach** und wählen Sie aus, wie die Daten in der Spalte angezeigt werden sollen. Diese Option ist für die folgenden Spaltentypen verfügbar:
+
      <table style="table-layout:auto"> 
          <col> 
          <col> 

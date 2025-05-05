@@ -57,7 +57,7 @@ Im Katalog werden alle Blueprints angezeigt, die für Ihr Unternehmen verfügbar
 1. Durchsuchen Sie den Blueprint-Katalog.
 1. Verwenden Sie das Bedienfeld „Filter“ auf der rechten Seite, um den Katalog nach folgenden Optionen zu filtern:
 
-   * Anwendungsfall (z. B[!UICONTROL  „Personalwesen] oder [!UICONTROL Marketing])
+   * Anwendungsfall (z. B[!UICONTROL &#x200B; „Personalwesen] oder [!UICONTROL Marketing])
    * Reifegrad ([!UICONTROL verwaltet] oder [!UICONTROL integriert])
    * Installationsstatus ([!UICONTROL installiert] oder nicht [!UICONTROL installiert])
    * Blueprint-Typ (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organisationsstruktur], [!UICONTROL Projektvorlage]<!--, Request Queue, Setup Feature-->)

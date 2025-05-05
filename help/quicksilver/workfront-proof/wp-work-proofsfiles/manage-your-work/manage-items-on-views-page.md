@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Elemente auf der Seite [!UICONTROL Ansichten] in  [!DNL Workfront Proof]
-description: Auf [!UICONTROL  Seite ]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
+description: Auf [!UICONTROL &#x200B; Seite &#x200B;]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Auf [!UICONTROL  Seite ]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
+Auf [!UICONTROL &#x200B; Seite &#x200B;]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
 
 ## Anzeigen der [!UICONTROL Ansichten] Seite
 
@@ -87,7 +87,7 @@ Sie können die in einer Ansicht aufgelisteten Informationen filtern.
 
 1. Die Filterleiste (2) wird angezeigt und jede Kategorie verfügt über ein Dropdown-Menü zur Filterung (3), um Ihren bevorzugten Wert auszuwählen. Der Standardwert für jede Kategorie ist „Alle“.
 1. Die Filterleiste wird in den von Ihnen erstellten benutzerdefinierten Ansichten nicht angezeigt. Für diese Ansichten können Sie Filter auf der Registerkarte [!UICONTROL Filter] anwenden und bearbeiten. Weitere Informationen finden Sie unter [Erstellen und Verwalten von benutzerdefinierten Ansichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-1. Um alle ausgewählten Filter anzuwenden, klicken Sie auf [!UICONTROL  Symbol ]Filter) (4) am Ende der Filterleiste.\
+1. Um alle ausgewählten Filter anzuwenden, klicken Sie auf [!UICONTROL &#x200B; Symbol &#x200B;]Filter) (4) am Ende der Filterleiste.\
    ![filters_2.png](assets/filters-2-350x102.png)
 
 Die ausgewählten Filterwerte bleiben so lange aktiv, bis Sie sie ändern. Wenn Sie die vollständige Liste der Elemente erneut anzeigen und darauf zugreifen möchten, müssen Sie alle Filterwerte wieder in die Standardeinstellung (**[!UICONTROL )]**.
@@ -187,7 +187,7 @@ So wählen Sie mehrere Elemente aus:
 
    * Klicken Sie auf das **[!UICONTROL Mehr]**-Menü, um zusätzliche Aktionen anzuzeigen.
 
-   * Die Aktionen werden nur auf die der ausgewählten Elemente angewendet, für die die jeweilige Option verfügbar ist. Wenn Sie beispielsweise Dateien und Korrekturabzüge und &quot;[!UICONTROL &quot; ], werden nur die Korrekturabzüge gesperrt (da Sie keine Dateien sperren können)
+   * Die Aktionen werden nur auf die der ausgewählten Elemente angewendet, für die die jeweilige Option verfügbar ist. Wenn Sie beispielsweise Dateien und Korrekturabzüge und &quot;[!UICONTROL &quot; &#x200B;], werden nur die Korrekturabzüge gesperrt (da Sie keine Dateien sperren können)
 
 ## Verschieben eines Elements in einen Ordner
 
@@ -197,4 +197,4 @@ Wenn Sie dazu berechtigt sind, können Sie Korrekturabzüge, Dateien und Ordner 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um ein Element zu verschieben, klicken und halten Sie es, ziehen Sie es per Drag-and-Drop in den Ordner, in dem Sie es ablegen möchten.
-   * Um mehrere Elemente gleichzeitig zu verschieben, können Sie die Kontrollkästchen links neben den Elementen aktivieren und dann oberhalb der Liste auf **[!UICONTROL Verschieben nach]**klicken und dann den Ordner auswählen, in dem Sie sie ablegen möchten, oder einen neuen Ordner für sie erstellen.
+   * Um mehrere Elemente gleichzeitig zu verschieben, können Sie die Kontrollkästchen links neben den Elementen aktivieren und dann oberhalb der Liste auf **[!UICONTROL Verschieben nach]**&#x200B;klicken und dann den Ordner auswählen, in dem Sie sie ablegen möchten, oder einen neuen Ordner für sie erstellen.

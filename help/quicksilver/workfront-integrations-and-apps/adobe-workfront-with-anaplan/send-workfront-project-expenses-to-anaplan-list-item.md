@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
+   <td> <p>[!UICONTROL -Plan], [!UICONTROL -Arbeit]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
@@ -133,7 +133,7 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 
    8. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
 
-  So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante ] vor:
+  So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante &#x200B;] vor:
 
    1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
    1. Speichern Sie die Datei im CSV-Format
@@ -229,7 +229,7 @@ Diese Szenariovorlage wird durch die folgenden Vorlagen für Ausgabenoptimierung
 Zusätzliche Szenarien für die Verknüpfung von Budgetanfragen:
 
 * [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Zusätzliche Szenarien für die Verknüpfung von Kampagnenanfragen:
 

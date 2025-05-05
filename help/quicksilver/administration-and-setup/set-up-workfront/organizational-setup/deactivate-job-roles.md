@@ -69,14 +69,14 @@ Wenn Sie ein Aufgabengebiet deaktivieren, wird es nicht mehr in den folgenden Be
 * Felder mit automatischer Textvervollständigung in benutzerdefinierten Formularen
 * Das Feld [!UICONTROL Pool-Mitglieder] in [!UICONTROL Ressourcenpools]
 * Das Feld [!UICONTROL Aufgabengebiet] eines Bearbeitungsbildschirms [!UICONTROL Abrechnungssatz], wenn ein Benutzer Abrechnungssätze für Projekte überschreibt
-* Das [!UICONTROL  „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
+* Das [!UICONTROL &#x200B; „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
 * Das [!UICONTROL Aufgabengebiet] eines Plans oder einer Initiative, wenn jemand die [!DNL Adobe Workfront Scenario Planner] verwendet.
 
   Die [!DNL Scenario Planner] ist nur in der neuen [!DNL Adobe Workfront] verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Die [!DNL Scenario Planner] Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
->Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) ].
+>Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) &#x200B;].
 
 ## Überlegungen vor der Deaktivierung eines Aufgabengebiets
 

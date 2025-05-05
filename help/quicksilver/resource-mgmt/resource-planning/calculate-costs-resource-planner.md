@@ -155,7 +155,7 @@ Obwohl Sie keine Aufgabeninformationen im Ressourcenplaner anzeigen können, wer
 
 Bei der Berechnung der geplanten Kosten für Benutzer, Funktionen und das Projekt gibt es die folgenden Szenarien:
 
-* Wenn der **Kostentyp** „Benutzer pro Stunde** lautet **und es **„keine Zuweisung** für die Aufgabe gibt:
+* Wenn der **Kostentyp** „Benutzer pro Stunde **&#x200B; lautet &#x200B;** und es **„keine Zuweisung** für die Aufgabe gibt:
 
    * **Geplante Kosten für Funktion und Benutzer**:
 

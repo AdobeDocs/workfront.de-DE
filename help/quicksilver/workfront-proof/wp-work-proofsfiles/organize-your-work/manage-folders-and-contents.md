@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie einen Korrekturabzug zu einem Ordner hinzufügen, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie in [[!UICONTROL Verwalten von ] beschrieben [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+   * Wenn Sie einen Korrekturabzug zu einem Ordner hinzufügen, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie in [[!UICONTROL Verwalten von &#x200B;] beschrieben [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
    * Wenn Sie eine Datei zu einem Ordner hinzufügen, gehen Sie zur Seite „Dateidetails“, wie in [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beschrieben.
 
 1. Klicken Sie auf den Namen des **Ordners**, in den sich die Datei oder der Korrekturabzug befindet, und klicken Sie dann auf den Namen des Ordners, in den Sie ihn verschieben möchten.\
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie einen Korrekturabzug aus einem Ordner verschieben, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie unter [[!UICONTROL Verwalten von ] [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben
+   * Wenn Sie einen Korrekturabzug aus einem Ordner verschieben, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie unter [[!UICONTROL Verwalten von &#x200B;] [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben
 
      Oder\
       Wenn Sie eine Datei aus einem Ordner verschieben, gehen Sie zur Seite mit den Dateidetails, wie in [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beschrieben.

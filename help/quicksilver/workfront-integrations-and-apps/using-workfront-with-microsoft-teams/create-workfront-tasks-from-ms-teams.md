@@ -75,7 +75,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. Geben Sie im Bot-] [!UICONTROL Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
+1. Geben Sie im Bot- Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
 
    * Aufgabenname im Feld **[!UICONTROL Den Titel der Aufgabe]**.
    * Beschreibung der Aufgabe im Feld **[!UICONTROL Beschreibung der Aufgabe]**.

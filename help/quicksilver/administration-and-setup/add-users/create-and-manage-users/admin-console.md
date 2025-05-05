@@ -105,7 +105,7 @@ Bevor Sie Admin Console für Workfront verwenden, sollten Sie eine E-Mail erhalt
 
 ## Zugriff auf den Benutzer- und Administratorbereich Ihrer Produktionsinstanz von Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Wählen Sie auf der ](https://adminconsole.adobe.com/) [Adobe Admin Console die Registerkarte **Produkte** in der oberen Navigationsleiste aus und wählen Sie dann **Workfront**.
+1. Wählen Sie auf der [&#128279;](https://adminconsole.adobe.com/) Adobe Admin Console die Registerkarte **Produkte** in der oberen Navigationsleiste aus und wählen Sie dann **Workfront**.
 
    <!--![Admin Console product](assets/admin-product-1.png)-->
 

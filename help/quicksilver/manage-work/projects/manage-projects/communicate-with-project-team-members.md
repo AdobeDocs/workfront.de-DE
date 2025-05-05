@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden******.\
+   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden**&#x200B;**&#x200B;**.\
    ![comment_1.png](assets/commenting-1-350x352.png)
 
 1. Geben Sie Ihr Update in das Feld **Für dieses Projekt aktualisieren**.

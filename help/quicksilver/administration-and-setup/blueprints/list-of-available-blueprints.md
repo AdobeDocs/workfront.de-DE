@@ -98,7 +98,7 @@ Das Paket [!UICONTROL Produktion von Druckelementen] enthält eine Vorlage, mit 
 Dieser [!UICONTROL Print: Direct Mail Asset Production]-Blueprint organisiert die Arbeit für einen Produktionsprozess für Marketingmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront.
 
 **[!UICONTROL Drucken: Erstellung und Ausführung von Briefpostinhalten]**
-Dieser [!UICONTROL  („Direkt-Mail-Inhaltserstellung und -]„) organisiert die Arbeit für einen Produktionsprozess für gedrucktes Marketingmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront. Diese Vorlage ist einzigartig, da sie auch Aufgaben zum Drucken des Assets und zum Ausführen der Briefpostkampagne unabhängig von anderen Kampagnenaktivitäten enthält.
+Dieser [!UICONTROL &#x200B; („Direkt-Mail-Inhaltserstellung und -]„) organisiert die Arbeit für einen Produktionsprozess für gedrucktes Marketingmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront. Diese Vorlage ist einzigartig, da sie auch Aufgaben zum Drucken des Assets und zum Ausführen der Briefpostkampagne unabhängig von anderen Kampagnenaktivitäten enthält.
 
 **[!UICONTROL Einrichten der Professional Services-Organisation]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, um auf einen Anwendungsfall für Professional Services zu erweitern.

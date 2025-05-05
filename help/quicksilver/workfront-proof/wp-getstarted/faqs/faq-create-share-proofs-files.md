@@ -121,9 +121,9 @@ Wenn Ihr Unternehmen von Validierungsverantwortlichen verlangt, dass diese Korre
 
 ### Antwort
 
-Sie können bei der Erstellung des Korrekturabzugs eine Frist für einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] der Seite [!UICONTROL Neuer ]). Wenn Sie [!UICONTROL automatisierten Workflow] verwenden, können Sie für jeden Schritt Ihrer Überprüfung eine andere Frist festlegen.
+Sie können bei der Erstellung des Korrekturabzugs eine Frist für einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] der Seite [!UICONTROL Neuer &#x200B;]). Wenn Sie [!UICONTROL automatisierten Workflow] verwenden, können Sie für jeden Schritt Ihrer Überprüfung eine andere Frist festlegen.
 
-Sie können auch eine Frist für einen vorhandenen Korrekturabzug auf der Seite [!UICONTROL Details des Korrekturabzugs“ festlegen ] aktualisieren. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Sie können auch eine Frist für einen vorhandenen Korrekturabzug auf der Seite [!UICONTROL Details des Korrekturabzugs“ festlegen &#x200B;] aktualisieren. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Wie kann ich eine neue Version meines Korrekturabzugs erstellen?
 

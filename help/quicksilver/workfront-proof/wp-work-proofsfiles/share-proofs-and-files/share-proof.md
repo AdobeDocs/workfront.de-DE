@@ -57,7 +57,7 @@ Sie können Reviewer zu einem Korrekturabzug hinzufügen, wenn Sie einen neuen K
    ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Klicken **[!UICONTROL im Dropdown]** Menü auf „Freigeben“.
-1. Fügen Sie auf der ]**&quot;**[!UICONTROL  Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
+1. Fügen Sie auf der **&quot;** Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
    Sie können auch einen der folgenden Schritte ausführen:
 
    * Entfernen Sie alle Reviewer mit einem Klick (4).

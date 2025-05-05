@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
-   <td> <p>[!UICONTROL-Plan] </p> </td> 
+   <td> <p>[!UICONTROL -Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -51,7 +51,7 @@ Die folgenden Filterschaltflächen werden nicht in den entsprechenden Bereichen 
    <td><strong>Filter-Schaltflächen</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL-Projekte] </p> </td> 
+   <td> <p>[!UICONTROL -Projekte] </p> </td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte, an denen ich mitwirke]</p> </li> 
@@ -79,7 +79,7 @@ Die Filterschaltflächen im Bereich [!UICONTROL Projekte und Arbeitszeittabellen
 
 1. Stellen Sie sicher, dass die Layout-Vorlage die folgenden Filter anzeigt:
 
-   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, ] ich besitze) [!UICONTROL Projekte] Bereich
+   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, &#x200B;] ich besitze) [!UICONTROL Projekte] Bereich
    * [!UICONTROL Meine Arbeitszeittabellen] und [!UICONTROL Meine Arbeitszeittabellen] im Bereich [!UICONTROL Arbeitszeittabelle]
 
    Gehen Sie dazu folgendermaßen vor:

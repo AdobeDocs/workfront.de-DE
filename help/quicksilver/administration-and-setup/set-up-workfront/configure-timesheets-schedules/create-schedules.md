@@ -95,7 +95,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    <table style="table-layout:auto">
     <tr>
-     <td>[!UICONTROL-Gruppe mit Administratorzugriff]</td>
+     <td>[!UICONTROL -Gruppe mit Administratorzugriff]</td>
      <td><p>Wählen Sie die Gruppe aus, deren Administratoren berechtigt sind, diesen Zeitplan zu bearbeiten.</p>
      <p><b>WICHTIG</b>:</p>
       <ul>

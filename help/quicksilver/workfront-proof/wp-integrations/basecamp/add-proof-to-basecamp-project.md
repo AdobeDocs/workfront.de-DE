@@ -61,7 +61,7 @@ Nachdem Sie einen Korrekturabzug zu einem [!DNL Basecamp] Projekt hinzugefügt h
 1. Stellen Sie sicher **[!UICONTROL dass]** Korrekturabzugs-URL) und **[!UICONTROL Einbettungs-Code]** auf &quot;**[!UICONTROL &quot;]**.
 
 1. Klicken Sie **[!UICONTROL Testversand zu einem Basecamp-Projekt hinzufügen]**.
-1. Gehen Sie [!UICONTROL  Feld „Zu Basecamp ]&quot; wie folgt vor:
+1. Gehen Sie [!UICONTROL &#x200B; Feld „Zu Basecamp &#x200B;]&quot; wie folgt vor:
 
    1. Klicken Sie auf **[!UICONTROL Daten aktualisieren]** um mit Basecamp Classic zu synchronisieren, bevor Sie fortfahren.
    1. Wählen Sie Ihr Basecamp-Projekt aus.

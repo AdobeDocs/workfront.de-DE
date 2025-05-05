@@ -75,7 +75,7 @@ Ein Szenario ist eine Kopie eines Plans. Sie können so viele Szenarien erstelle
 
    Informationen zum Erstellen von Plänen finden Sie unter [Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   Der erste von Ihnen erstellte Plan wird automatisch als &quot;[!UICONTROL  Szenario“ ].
+   Der erste von Ihnen erstellte Plan wird automatisch als &quot;[!UICONTROL &#x200B; Szenario“ &#x200B;].
 
 1. Klicken Sie auf den Abwärtspfeil neben einem vorhandenen Szenario und dann auf das Symbol **[!UICONTROL Kopieren]**.
 

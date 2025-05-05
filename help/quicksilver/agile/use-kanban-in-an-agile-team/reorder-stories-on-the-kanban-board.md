@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Storys auf dem Kanban[!UICONTROL Board neu ]
+# Storys auf dem Kanban[!UICONTROL Board neu &#x200B;]
 
-Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt ].
+Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt &#x200B;].
 
 >[!NOTE]
 >
->Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL  kann nicht geändert ].
+>Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL &#x200B; kann nicht geändert &#x200B;].
 
 Die Reihenfolge, in der die Storys auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden.
 
-Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board ].
+Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board &#x200B;].
 
 Wenn Sie Spalten auf der [!DNL Kanban]-Pinnwand neu anordnen, werden alle von Ihnen vorgenommenen Änderungen gespeichert, sodass die Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer die [!UICONTROL Kanban“-] das nächste Mal aufruft. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht rückgängig gemacht.)
 
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Storys auf dem Kanban[!UICONTROL Board neu ]
+## Storys auf dem Kanban[!UICONTROL Board neu &#x200B;]
 
 So ändern Sie die Reihenfolge der Storys:
 

@@ -91,7 +91,7 @@ Als Team-Verantwortlicher in [!DNL Microsoft Teams] können Sie die [!DNL Workfr
 
    1. Klicken Sie **[!UICONTROL Pin]**.
 
-      Dadurch wird ein [!DNL Workfront] unter dem Chat-Feld hinzugefügt. Von hier aus können Sie schnell auf [!UICONTROL  Bereich ]Suche“ zugreifen.
+      Dadurch wird ein [!DNL Workfront] unter dem Chat-Feld hinzugefügt. Von hier aus können Sie schnell auf [!UICONTROL &#x200B; Bereich &#x200B;]Suche“ zugreifen.
 
       Weitere Informationen zum Suchen nach [!DNL Workfront] Elementen finden Sie unter [Suchen nach und Freigeben von  [!DNL Adobe Workfront]  in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
@@ -122,7 +122,7 @@ So installieren Sie [!DNL Workfront for Microsoft Teams] aus einer privaten Date
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Pin]**.
 
-   Dadurch wird ein [!DNL Workfront] unter dem Feld [!UICONTROL Hier Ihre Fragen ]. Von hier aus können Sie schnell auf [!UICONTROL  Bereich ]Suche“ zugreifen.\
+   Dadurch wird ein [!DNL Workfront] unter dem Feld [!UICONTROL Hier Ihre Fragen &#x200B;]. Von hier aus können Sie schnell auf [!UICONTROL &#x200B; Bereich &#x200B;]Suche“ zugreifen.\
    Weitere Informationen zum Suchen nach Workfront-Elementen finden Sie unter [Suchen nach und Freigeben von  [!DNL Adobe Workfront]  in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 ## Melden Sie sich bei [!DNL Workfront] von [!DNL Microsoft] Teams an

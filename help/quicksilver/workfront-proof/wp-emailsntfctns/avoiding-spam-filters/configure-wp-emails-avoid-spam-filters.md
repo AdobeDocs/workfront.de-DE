@@ -34,7 +34,7 @@ Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste auf die Zulassungsl
 Je nach Art Ihres E-Mail-Clients müssen Sie möglicherweise [!DNL Workfront Proof] E-Mail-Adressen &quot;[!UICONTROL from]&quot; zu einer der folgenden Adressen hinzufügen, um zu verhindern, dass der Spam-Filter Ihre E-Mails in Zukunft an Ihren Spam-Ordner weiterleitet:
 
 * Ihre Kontaktliste
-* Ihre [!UICONTROL Liste sicherer ]&quot;
+* Ihre [!UICONTROL Liste sicherer &#x200B;]&quot;
 * Ein Filter, den Sie erstellen, um E-Mails von diesen Adressen an Ihren Posteingang zu senden
 
 Möglicherweise müssen Sie auch alle vorhandenen [!DNL Workfront Proof]-E-Mails aus Ihrem Spam-Ordner entfernen und überprüfen, ob eine der &quot;[!UICONTROL from]-Adressen auf der Liste der blockierten Adressen steht. Auf dieser Hilfeseite werden die [!DNL Workfront Proof] &quot;[!UICONTROL from]-Adressen aufgelistet und es wird gezeigt, wie sie in den folgenden E-Mail-Clients zum Spam-Filter hinzugefügt werden können:

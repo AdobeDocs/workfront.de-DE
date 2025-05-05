@@ -274,7 +274,7 @@ Die Zeilen in einer Textmodusansicht für eine Sammlung sind in der folgenden Ta
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&amp;zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
+   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Spaltenname</em> </td> 
@@ -403,7 +403,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
 1. Klicken Sie **Eingabeaufforderungen melden**.
 1. Klicken Sie **Eingabeaufforderung hinzufügen**.
 1. Klicken Sie **Benutzerdefinierte Eingabeaufforderung**.
-1. Geben Sie den Namen der Eingabeaufforderung im Feld **field****name** an.
+1. Geben Sie den Namen der Eingabeaufforderung im Feld **field**&#x200B;**name** an.
 
 1. Geben Sie eine **Dropdown-Elementbezeichnung** an.
 1. Geben Sie Folgendes im Feld **Bedingung** an:

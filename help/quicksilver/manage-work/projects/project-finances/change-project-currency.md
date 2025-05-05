@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >Stellen Sie sicher, dass das Projekt noch über keine Finanzinformationen verfügt. Stellen Sie beispielsweise sicher, dass mit dem Projekt keine geplanten Kosten oder Istkosten verknüpft sind.
 
 1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Bereich **Finanzen**.
-1. Klicken Sie **** Feld **Währung** auf „Hinzufügen“ und wählen Sie die Währung aus, die Sie als Standardwährung für das Projekt verwenden möchten. Alle Währungen, die Ihr Workfront-Administrator für Ihre Workfront-Instanz festgelegt hat, werden angezeigt.
+1. Klicken Sie **&#x200B;**&#x200B;Feld **Währung** auf „Hinzufügen“ und wählen Sie die Währung aus, die Sie als Standardwährung für das Projekt verwenden möchten. Alle Währungen, die Ihr Workfront-Administrator für Ihre Workfront-Instanz festgelegt hat, werden angezeigt.
 
    ![Währung des Projekts](assets/currency-on-project-expanded-nwe.png)
 

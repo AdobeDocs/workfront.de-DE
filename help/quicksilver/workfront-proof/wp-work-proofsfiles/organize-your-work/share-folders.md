@@ -74,7 +74,7 @@ Wenn jemand einen Ordner für Sie freigibt, wird er in der Seitenleiste seines [
 
 1. Klicken Sie auf den Link in der Benachrichtigungs-E-Mail, die Sie erhalten.
 1. Melden Sie sich bei [!DNL Workfront Proof] an.\
-     [!DNL  Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Über die Freigabe von Unterordnern
 

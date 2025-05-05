@@ -87,39 +87,39 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL-Projekt]</td> 
+      <td>[!UICONTROL -Projekt]</td> 
       <td>Der Name eines Projekts</td> 
       <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Abrechnungssätze], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL Auslastung], [!UICONTROL Auslastung], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Aufgabe]</td> 
       <td>Der Name einer Aufgabe</td> 
-      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Aufgabendetails], [!UICONTROL-Unteraufgabe], [!UICONTROL-Probleme], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-Ausgaben], [!UICONTROL-Vorgänger]</td> 
+      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Aufgabendetails], [!UICONTROL -Unteraufgabe], [!UICONTROL -Probleme], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen], [!UICONTROL -Ausgaben], [!UICONTROL -Vorgänger]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problem]</td> 
       <td>Der Name eines Problems</td> 
-      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Problemdetails], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen]</td> 
+      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Problemdetails], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL-Portfolio]</td> 
+      <td>[!UICONTROL -Portfolio]</td> 
       <td>Der Name eines Portfolios</td> 
-      <td>[!UICONTROL-Projekte], [!UICONTROL-Programme], [!UICONTROL-Portfolio-Details], [!UICONTROL-Portfolio] [!UICONTROL-Optimierung], [!UICONTROL-Dokumente], [!UICONTROL-Updates], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL -Projekte], [!UICONTROL -Programme], [!UICONTROL -Portfolio-Details], [!UICONTROL -Portfolio] [!UICONTROL -Optimierung], [!UICONTROL -Dokumente], [!UICONTROL -Updates], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL-Programm]</td> 
+      <td>[!UICONTROL -Programm]</td> 
       <td>Der Name eines Programms</td> 
-      <td>[!UICONTROL-Projekte], [!UICONTROL-Programmdetails], [!UICONTROL-Updates], [!UICONTROL-Dokumente], [!UICONTROL-Planung]*</td> 
+      <td>[!UICONTROL -Projekte], [!UICONTROL -Programmdetails], [!UICONTROL -Updates], [!UICONTROL -Dokumente], [!UICONTROL -Planung]*</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL-Vorlage]</td> 
+      <td>[!UICONTROL -Vorlage]</td> 
       <td>Der Name einer Projektvorlage</td> 
       <td>[!UICONTROL Vorlagenaufgaben], [!UICONTROL Vorlagendetails], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Risiken], [!UICONTROL Ausgaben], [!UICONTROL Personen], [!UICONTROL Genehmigungen], [!UICONTROL Abrechnungssätze], [!UICONTROL Warteschlangendetails], [!UICONTROL Routing-Regeln], [!UICONTROL Warteschlangenthema], [!UICONTROL Themengruppe]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlagenaufgabe]</td> 
       <td>Der Name einer Vorlagenaufgabe</td> 
-      <td>[!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Vorlagenaufgabendetails], [!UICONTROL-Teilaufgaben], [!UICONTROL-Ausgaben], [!UICONTROL-Genehmigungen], [!UICONTROL-Vorgänger]</td>
+      <td>[!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Vorlagenaufgabendetails], [!UICONTROL -Teilaufgaben], [!UICONTROL -Ausgaben], [!UICONTROL -Genehmigungen], [!UICONTROL -Vorgänger]</td>
      </tr>
      <!--
       <tr> 
@@ -134,12 +134,12 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
       <td>[!UICONTROL Rechnungsnachweis-Details], [!UICONTROL Fakturierbare Stunden], [!UICONTROL Fakturierbare Ausgaben], [!UICONTROL Feste Einnahmen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL-Projekte]</td> 
-      <td>Im [!UICONTROL-Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL-Projekte]</td> 
+      <td>[!UICONTROL -Projekte]</td> 
+      <td>Im [!UICONTROL -Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL -Projekte]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL-Anforderungen]</td> 
+      <td>[!UICONTROL -Anforderungen]</td> 
       <td>Der Name einer Anfrage</td> 
       <td>[!UICONTROL Neue Anfrage], [!UICONTROL Gesendete Anfragen], [!UICONTROL Alle Anfragen], [!UICONTROL Entwürfe]</td> 
      </tr> 
@@ -151,7 +151,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
      <tr> 
       <td>[!UICONTROL Scrum-Team]</td> 
       <td>Der Name eines Scrum-Teams</td> 
-      <td><p>[!UICONTROL-Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL-Aktualisierungen], [!UICONTROL-Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
+      <td><p>[!UICONTROL -Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL -Aktualisierungen], [!UICONTROL -Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban-Team]</td> 

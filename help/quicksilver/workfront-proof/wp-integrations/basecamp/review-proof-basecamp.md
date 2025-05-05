@@ -98,8 +98,8 @@ Das Korrekturabzugsbild hat weiterhin die Originalgröße, aber die Seite selbst
 
 Der ganzseitige Korrekturabzug zeigt Folgendes:
 
-* Die [!UICONTROL  „Kommentare hinzufügen] und [!UICONTROL Entscheidung übermitteln] (anstelle der auf dem Miniproof angezeigten Kommentare und Entscheidungssymbole) (1).
+* Die [!UICONTROL &#x200B; „Kommentare hinzufügen] und [!UICONTROL Entscheidung übermitteln] (anstelle der auf dem Miniproof angezeigten Kommentare und Entscheidungssymbole) (1).
 * Mehr Zoom- und Navigationswerkzeuge als der Miniproof (2).
-* Klicken [!UICONTROL  oben links im Korrekturabzug auf [!DNL Basecamp]] Schaltfläche „Wechseln zu“. Wenn Sie darauf klicken, gelangen Sie zurück in Ihr [!DNL Basecamp] (3).
+* Klicken [!UICONTROL &#x200B; oben links im Korrekturabzug auf [!DNL Basecamp]] Schaltfläche „Wechseln zu“. Wenn Sie darauf klicken, gelangen Sie zurück in Ihr [!DNL Basecamp] (3).
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Flags auf Storys auf dem Kanban[!UICONTROL Board ]
+# Flags auf Storys auf dem Kanban[!UICONTROL Board &#x200B;]
 
 Auf der [!DNL Kanban] bieten Flags einen visuellen Hinweis darauf, wann eine Story bereit ist, zum nächsten Status zu wechseln. Dadurch können [!UICONTROL Kanban]-Teams beim Verschieben von Storys über Status hinweg einen „Pull“-Ansatz anstelle eines „Push“-Ansatzes verwenden.
 
@@ -55,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Flags auf Storys auf dem Kanban[!UICONTROL Board ]
+## Flags auf Storys auf dem Kanban[!UICONTROL Board &#x200B;]
 
 So ändern Sie eine Markierung für eine Story:
 
@@ -79,6 +79,6 @@ Die Markierung ist standardmäßig auf **[!UICONTROL Auf Kurs]** für jede Story
 
      ![kanban_flag_block.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Bereit zum ]:** Die Story kann von einem anderen Teammitglied in den nächsten Status verschoben werden.
+   * **[!UICONTROL Bereit zum &#x200B;]:** Die Story kann von einem anderen Teammitglied in den nächsten Status verschoben werden.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

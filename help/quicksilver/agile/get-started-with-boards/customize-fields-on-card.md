@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 
 1. Rufen Sie eine Pinnwand auf und klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld „Konfigurieren“ zu öffnen.
 1. Erweitern Sie [!UICONTROL **Karten**].
-1. Klicken [!UICONTROL  unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
+1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
 1. Wählen Sie [!UICONTROL **Aufgabe**] oder [!UICONTROL **Problem**] aus.
 
    Die Kategorien der verfügbaren Felder für Aufgaben oder Probleme werden angezeigt. Erweitern Sie eine Kategorie, um alle Felder anzuzeigen. Sie können auch nach einem Feld suchen.
