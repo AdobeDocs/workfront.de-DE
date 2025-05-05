@@ -35,7 +35,7 @@ Nachdem Projektmanager die Arbeit an Projekten durch Erstellen von Vorgängen ge
 
 In diesem Artikel werden der allgemeine Zweck des Workload Balancer und einige der Best Practices beschrieben, mit denen Sie Ihre Projekte und Ressourcen einrichten können, um ihn erfolgreich zu verwenden.
 
-Um sich die Video-Tutorials zum Workload Balancer anzusehen, gehen Sie zur Seite [Workfront-Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) . Wählen Sie im linken Menü **Ressourcen verwalten** > **Workload-Balancer** und wählen Sie ein Tutorial.
+Um sich die Video-Tutorials zum Workload Balancer anzusehen, gehen Sie zur Seite [Workfront-Tutorials](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) . Wählen Sie im linken Menü **Ressourcen verwalten** > **Workload-Balancer** und wählen Sie ein Tutorial.
 
 ## Suchen des Workload Balancer
 

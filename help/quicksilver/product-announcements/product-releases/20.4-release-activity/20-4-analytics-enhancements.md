@@ -29,4 +29,4 @@ Damit Sie die gewünschten Informationen anzeigen können, ohne einschränkende 
 
 Zuvor wurde im Bereich Erweiterte Analyse die Anzahl der Projekte, die Sie betrachten können, auf 50 begrenzt.
 
-Diese Funktion ist jetzt im Lernpfad [Erweiterte Analyse, Teil 1“ ](https://experienceleague.adobe.com/en/docs/workfront/using/home) Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Erweiterte Analyse, Teil 1“ ](https://experienceleague.adobe.com/de/docs/workfront/using/home) Workfront One enthalten.

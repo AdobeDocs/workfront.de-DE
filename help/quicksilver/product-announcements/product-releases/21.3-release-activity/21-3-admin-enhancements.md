@@ -27,7 +27,7 @@ Blueprints bieten grundlegende Bausteine, mit denen Sie ein Work-Management-Syst
 
 Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Diese Funktion ist jetzt in den [Projektvorlagen im neuen Lernpfad für Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Projektvorlagen im neuen Lernpfad für Workfront](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
 
 ## Neu für Gruppenadministratoren: Erstellen und Verwalten von Status für eine Gruppe auf beliebiger Ebene
 

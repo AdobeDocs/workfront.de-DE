@@ -104,7 +104,7 @@ Informationen zur Deaktivierung von Benutzern finden Sie unter [Deaktivieren ode
 >
 >Wenn Ihr Unternehmen in das [!DNL Adobe Business Platform] integriert wurde, müssen Sie Benutzer über die [!UICONTROL Adobe Admin Console deaktivieren].
 >
->Anweisungen zur Deaktivierung von Benutzenden in der [!UICONTROL Adobe Admin Console] finden Sie im Abschnitt „Entfernen von Benutzenden“ im Artikel &quot;[ einzeln verwalten](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren [!UICONTROL Adobe Admin Console] Administrator.
+>Anweisungen zur Deaktivierung von Benutzenden in der [!UICONTROL Adobe Admin Console] finden Sie im Abschnitt „Entfernen von Benutzenden“ im Artikel &quot;[ einzeln verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren [!UICONTROL Adobe Admin Console] Administrator.
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Business Platform] integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

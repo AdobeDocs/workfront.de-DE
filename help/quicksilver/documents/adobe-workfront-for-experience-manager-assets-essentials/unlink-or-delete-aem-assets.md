@@ -30,8 +30,8 @@ Wenn Sie ein verknüpftes Dokument oder einen verknüpften Ordner in Workfront l
 
 Wenn Sie ein verknüpftes Dokument oder einen verknüpften Ordner aus der externen Anwendung löschen, bleibt das Dokument oder der Ordner im Workfront-System, bis Sie es bzw. ihn auch aus Workfront löschen.
 
-* Informationen zum Löschen eines Assets aus Adobe Experience Manager as a Cloud Service finden Sie unter [Löschen von Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in der Adobe Experience Manager as a Cloud Service-Dokumentation.
-* Informationen zum Löschen eines Assets aus Adobe Experience Manager Assets Essentials finden Sie unter [Löschen von Assets oder Ordnern](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in der Dokumentation zu Adobe Experience Manager Assets Essentials.
+* Informationen zum Löschen eines Assets aus Adobe Experience Manager as a Cloud Service finden Sie unter [Löschen von Assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in der Adobe Experience Manager as a Cloud Service-Dokumentation.
+* Informationen zum Löschen eines Assets aus Adobe Experience Manager Assets Essentials finden Sie unter [Löschen von Assets oder Ordnern](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in der Dokumentation zu Adobe Experience Manager Assets Essentials.
 
 
 

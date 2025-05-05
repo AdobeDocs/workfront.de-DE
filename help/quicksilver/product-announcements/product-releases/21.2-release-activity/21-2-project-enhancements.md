@@ -29,7 +29,7 @@ Im Rahmen der Neugestaltung der Felder Neu und Aufgabe bearbeiten haben wir die 
 
 Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
+Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
 
 ## Neue Schaltflächen in der Kopfzeile Projekte verfügbar
 
@@ -39,7 +39,7 @@ Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://experie
 
 Damit Sie die Liste der Projekte auf der Seite „Projekte“ schnell filtern können, gibt es zwei neue Schaltflächen in der Kopfzeile, mit denen Sie die Filter „Projekte, an denen ich mitarbeite“ oder „Projekte, an denen ich mitarbeite“ schnell anwenden können.
 
-Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 1: Erstellen eines Projekts](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 1: Erstellen eines Projekts](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
 
 ## Verschieben oder Löschen einer Story oder eines Problems aus dem Scrum-Board
 
@@ -133,9 +133,9 @@ Benutzer können jetzt Textformatierungen wie fett, Aufzählungslisten und Hyper
 
 Zuvor war die Textformatierung in Workfront Classic nur in den Listen „Projekt“, „Aufgabe“ und „Stunde“ sichtbar.
 
-Informationen zum Formatieren von Text in einem benutzerdefinierten Feld finden Sie unter [Erstellen eines benutzerdefinierten Formulars](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Informationen zum Formatieren von Text in einem benutzerdefinierten Feld finden Sie unter [Erstellen eines benutzerdefinierten Formulars](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
-Informationen zum Anzeigen von Informationen in Listen finden Sie unter [Erste Schritte mit Listen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Informationen zum Anzeigen von Informationen in Listen finden Sie unter [Erste Schritte mit Listen](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 ## Neues Feld „Aufgabe bearbeiten“
 

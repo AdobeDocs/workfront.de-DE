@@ -72,7 +72,7 @@ Um Ihre tägliche Arbeit mit Kalendern besser visualisieren und verwalten zu kö
 
 Zuvor konnten Sie Ihren Kalender nur mit projizierten, geplanten Terminen verwalten, wenn keine tatsächlichen Termine verfügbar waren.
 
-Weitere Informationen finden Sie unter [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (oder wenn Sie Workfront Classic verwenden, finden Sie [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Weitere Informationen finden Sie unter [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (oder wenn Sie Workfront Classic verwenden, finden Sie [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
 ## E-Mail-Änderungen
 
@@ -82,7 +82,7 @@ Zuvor konnten Systemadministratoren im Bereich „E-Mail-Setup“ eine benutzerd
 
 **POP-Antwortänderungen für eingehende E-Mails:** Systemadministratoren können jetzt keinen benutzerdefinierten POP-E-Mail-Server mehr für eingehende E-Mail-Antworten auf Benachrichtigungen konfigurieren.
 
-Weitere Informationen finden Sie unter [E-Mail-Spoofing und POP-Antwort-E-Mail-Änderungen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Weitere Informationen finden Sie unter [E-Mail-Spoofing und POP-Antwort-E-Mail-Änderungen](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) ist jetzt in ausgehenden Workfront-E-Mails enthalten
 

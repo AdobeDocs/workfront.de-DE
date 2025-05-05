@@ -34,7 +34,7 @@ Die erweiterte Analyse kann Ihnen dabei helfen, Folgendes zu identifizieren:
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
 ## Voraussetzungen
 
@@ -46,7 +46,7 @@ Um auf den erweiterten Analysebereich zuzugreifen, müssen Sie:
 
 * Bitten Sie Ihren Workfront-Administrator, Ihrer Layoutvorlage erweiterte Analysen hinzuzufügen.
 
-  Weitere Informationen finden Sie unter [Erweiterte Analyse: Hinzufügen von Analysen zu Layout-Vorlagen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+  Weitere Informationen finden Sie unter [Erweiterte Analyse: Hinzufügen von Analysen zu Layout-Vorlagen](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 Um Informationen zu Projekten und Aufgaben anzuzeigen, gehen Sie folgendermaßen vor:
 

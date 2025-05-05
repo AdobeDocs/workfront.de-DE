@@ -138,5 +138,5 @@ Informationen zur Verwendung von Feldern in Listen und Berichten finden Sie im [
 
 Wenn Sie einen gespeicherten Entwurf verwerfen, können Sie jetzt in der Bestätigungsmeldung, die Sie darüber informiert, dass Ihr Entwurf gelöscht wird, auf Abbrechen klicken. Auf diese Weise verlieren Sie den Entwurf nicht, falls Sie es sich anders überlegen, ihn zu verwerfen.
 
-Diese Funktion ist nur in der neuen Workfront-Version verfügbar. Weitere Informationen finden Sie unter [Erstellen und Senden von Workfront-Anfragen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Diese Funktion ist nur in der neuen Workfront-Version verfügbar. Weitere Informationen finden Sie unter [Erstellen und Senden von Workfront-Anfragen](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 

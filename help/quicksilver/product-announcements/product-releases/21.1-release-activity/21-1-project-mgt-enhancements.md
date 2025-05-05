@@ -27,7 +27,7 @@ Um den Status und Fortschritt eines Projekts leichter freizugeben, können Sie j
 
 Weitere Informationen finden Sie unter [Übersicht über Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 3: Verwalten eines Projekts](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen für die neue Workfront-Version, Teil 3: Verwalten eines Projekts](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
 
 ## Update des Anfrageprozentsatzes abgeschlossen, wenn das Projekt oder die Aufgabe aus der Anfrageaktualisierung konvertiert wurde
 
@@ -41,9 +41,9 @@ Damit Sie Ihre gesendeten Anfragen einfacher und konsistenter verwalten können,
 
 Informationen zum Auffinden gesendeter Anfragen finden Sie unter [Suchen gesendeter Anfragen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Collaborator-Grundlagen für das neue Workfront Experience](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One enthalten.
 
-Diese Funktion ist jetzt im Lernpfad [Anfragen für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Anfragen für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) in Workfront One enthalten.
 
 ## Aus der Seite „Neue Anfrage“ entfernte Felder
 

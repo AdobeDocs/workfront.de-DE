@@ -55,7 +55,7 @@ Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestal
 
 >[!NOTE]
 >
->Die Symbolleiste für dieselben Berichte in Dashboards wurde am 3. März 2022 in der Produktionsumgebung mit dem wöchentlichen [Wartungs](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)Update) aktualisiert.
+>Die Symbolleiste für dieselben Berichte in Dashboards wurde am 3. März 2022 in der Produktionsumgebung mit dem wöchentlichen [Wartungs](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates)Update) aktualisiert.
 
 * Projektberichte
 * Aufgabenberichte

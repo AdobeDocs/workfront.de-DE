@@ -32,7 +32,7 @@ Mit dieser neuen Funktion sind jetzt die folgenden Verbesserungen verfügbar:
 
 Weitere Informationen über den Arbeitsaufwand finden Sie [Arbeitsaufwand - Übersicht](../../../manage-work/tasks/task-information/work-effort.md).
 
-Diese Funktion ist jetzt in den [Planergrundlagen, Teil 2 des Lernpfads) ](https://experienceleague.adobe.com/en/docs/workfront/using/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen, Teil 2 des Lernpfads) ](https://experienceleague.adobe.com/de/docs/workfront/using/home) Workfront One enthalten.
 
 ## Projektstatusbasierte Farben für Arbeitselemente im Workload Balancer
 

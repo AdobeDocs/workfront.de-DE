@@ -23,4 +23,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Integrierte Statussymbole in Ansichten](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [Verwenden von integrierten Adobe Workfront-Berichten](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Überblick über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home)

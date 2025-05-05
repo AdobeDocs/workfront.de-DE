@@ -40,7 +40,7 @@ Weitere Informationen zu den vierteljährlichen und Schnellveröffentlichungspro
 
 ### Wartungs-Updates
 
-Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Produktionsumgebung bereitgestellt. Auf der Seite [Wartungs-Updates für ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)Workfront) finden Sie Fehlerbehebungen für die letzte Zeit.
+Problembehebungen für das Adobe Workfront-Produkt werden wöchentlich in der Produktionsumgebung bereitgestellt. Auf der Seite [Wartungs-Updates für ](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates)Workfront) finden Sie Fehlerbehebungen für die letzte Zeit.
 
 ## Aus einer geplanten Version entfernte Funktionen
 

@@ -42,4 +42,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Eine ausführliche Schulung zu Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Eine ausführliche Schulung zu Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).

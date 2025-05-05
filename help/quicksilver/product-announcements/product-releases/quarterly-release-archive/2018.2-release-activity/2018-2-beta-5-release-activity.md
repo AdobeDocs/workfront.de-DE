@@ -155,7 +155,7 @@ Vor dieser Verbesserung würde die Größe der benachbarten Spalte rechts neben 
 
 Informationen zur Größenanpassung der Spalten in Listen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Um an unserem Beta-Testprogramm für die aktuellen Listennutzungsverbesserungen teilzunehmen, siehe [Neue Listenstudie.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Anmeldung erforderlich)
+Um an unserem Beta-Testprogramm für die aktuellen Listennutzungsverbesserungen teilzunehmen, siehe [Neue Listenstudie.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de) (Anmeldung erforderlich)
 
 ## Symbolunterstützung für die neuen Projektlisten {#icon-support-for-the-new-project-lists}
 

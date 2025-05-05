@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home)
 * [Zugriff und Organisation von Berichten](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [Erstellen eines Berichts zu Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [Verstehen, wie Berichte in einem Dashboard organisiert werden](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

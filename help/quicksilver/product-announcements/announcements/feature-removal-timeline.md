@@ -44,7 +44,7 @@ Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schrittweise entf
    <td> <p>Wird ab dem 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>—</p> <p>Aus der Workfront-Plattform nach der ersten Jahreshälfte 2022 entfernt</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Am 31. März 2021 aus der Workfront-Plattform entfernt</td> 
   </tr> 

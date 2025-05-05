@@ -93,7 +93,7 @@ Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experienc
 1. Workfront Fügen Sie das Modul **&#x200B;**&#x200B;> **Misc Action** zu Ihrem Szenario hinzu.
 1. Wählen Sie im **Verbindung** die Workfront-Verbindung aus, die eine Verbindung zu dem Konto herstellt, das dieses Modul verwenden wird.
 
-   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
 
    Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses, das Sie benötigen, um eine Verbindung zu erstellen, finden [ unter „Erstellen einer OAuth](#create-an-oauth-application)Anwendung“ in diesem Artikel.
 
@@ -175,4 +175,4 @@ Für die Verbindung dieses Moduls müssen Sie in Workfront eine OAuth-Anwendung 
 
 Diese Client-ID und dieses Client-Geheimnis werden beim Konfigurieren der Verbindung des Moduls in Fusion verwendet.
 
-Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.

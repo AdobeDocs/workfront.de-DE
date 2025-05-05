@@ -29,10 +29,10 @@ In dieser ersten Version wurde der Genehmigungsprozess neben neuen Funktionen op
 * Genehmigungsentscheidungen direkt über Meine Aktualisierungen und Startseite treffen
 * Erstellen von Genehmigungen für bestimmte Dokumentversionen
 
-Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
+Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Schaltfläche „Neue Freigabe“
 
 Die Option Freigeben wurde aus dem Menü Mehr für Projekte, Aufgaben und Probleme entfernt, um die Freigabe intuitiver zu gestalten. Die neue Freigabeschaltfläche wird jetzt neben dem Namen eines Objekts direkt vor dem Menü Mehr angezeigt. Die Freigabe von Dokumenten, Portfolios und Programmen bleibt unverändert.
 
-Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/de/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

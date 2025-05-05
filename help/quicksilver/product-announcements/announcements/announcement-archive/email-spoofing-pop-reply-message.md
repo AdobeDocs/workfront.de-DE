@@ -31,4 +31,4 @@ Bestimmte E-Mail-Benachrichtigungen ermöglichen es Benutzenden, per E-Mail zu a
 
 E-Mails, die direkt aus dem Workfront Proof-System stammen, werden nicht geändert. Sie werden weiterhin diese E-Mails erhalten, wie Sie es bereits getan haben.
 
-Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/?support-tab=home#support).
+Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/de?support-tab=home#support).

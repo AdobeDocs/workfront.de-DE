@@ -41,15 +41,15 @@ Der erweiterte Connector von Workfront für Experience Manager ermöglicht jetzt
 ## Voraussetzungen und unterstützte Plattformen
 
 * Adobe Workfront
-* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets On-Premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
-* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
+* [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
+* [Adobe Experience Manager 6.5 Assets On-Premise](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/de/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets On-Premises
 * Adobe Experience Manager Assets as a Managed Service
 
 ## Erste Schritte
 
-1. **Installieren und Konfigurieren des Connectors**. Installieren und konfigurieren Sie mithilfe eines zertifizierten Partners oder einer Adobe Professional Services den erweiterten Connector von Workfront für Experience Manager, um Prozesse zu organisieren, zu standardisieren, Governance zu etablieren und den Asset-Lebenszyklus von der Erstellung bis zur Bereitstellung zu optimieren. [In Adobe Experience Manager 6.5 installieren](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations) oder [in Adobe Experience Manager as a Cloud Service installieren](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
+1. **Installieren und Konfigurieren des Connectors**. Installieren und konfigurieren Sie mithilfe eines zertifizierten Partners oder einer Adobe Professional Services den erweiterten Connector von Workfront für Experience Manager, um Prozesse zu organisieren, zu standardisieren, Governance zu etablieren und den Asset-Lebenszyklus von der Erstellung bis zur Bereitstellung zu optimieren. [In Adobe Experience Manager 6.5 installieren](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/integrations/workfront-integrations) oder [in Adobe Experience Manager as a Cloud Service installieren](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 1. **Verwenden Sie den Connector**. Erfahren Sie mehr über die Funktionen des erweiterten Connectors in Aktion mit der automatischen Generierung von projektverknüpften Ordnern in Experience Manager Assets, von Workfront-Metadaten, die Experience Manager Assets und Ordnern zugeordnet sind, der bidirektionalen Metadaten-Synchronisierung und vielem mehr. Weitere Informationen finden Sie unter [Erweiterter Workfront für Experience Manager-Connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Ähnliche Themen

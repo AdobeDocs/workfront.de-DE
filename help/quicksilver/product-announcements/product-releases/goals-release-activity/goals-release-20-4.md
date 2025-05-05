@@ -47,7 +47,7 @@ Auf der Grundlage des Feedbacks, das wir von Ihnen erhalten, verbessern wir Ihre
 >
 >**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
 
 ## Zugriffssteuerungen für Workfront-Ziele
 
@@ -61,7 +61,7 @@ Informationen zum Gewähren des Zugriffs auf Workfront-Ziele finden Sie unter [G
 >
 >**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
 
 ## Verbesserungen der Benutzerfreundlichkeit von Workfront Goals
 
@@ -82,4 +82,4 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >**Produktionsverfügbarkeit:** Mit Version 20.4
 
-Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Workfront-Ziele](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) in Workfront One enthalten.

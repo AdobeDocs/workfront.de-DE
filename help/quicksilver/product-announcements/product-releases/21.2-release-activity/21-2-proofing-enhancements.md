@@ -33,7 +33,7 @@ Zuvor mussten Sie zum Workflow Dokumentdetails und Korrekturabzug gehen, um die 
 
 Weitere Informationen zu Korrekturabzugsentscheidungen finden Sie [Bereich Dokumente](../../../documents/managing-documents/documents-area.md).
 
-Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
 
 ## Neue Felder im Bericht zu Korrekturabzugsgenehmigungen
 
@@ -45,7 +45,7 @@ Um nützliche Proofing-Informationen aufdecken zu können, haben wir die folgend
 
 Diese Felder sind nicht Teil des Standardberichts. Sie müssen sie hinzufügen, wenn Sie sie sehen möchten.
 
-Diese Funktion ist jetzt in den [Testsystem-Setups, Teil 2: Workflow-Management](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Testsystem-Setups, Teil 2: Workflow-Management](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Lernpfad in Workfront One enthalten.
 
 ## Übernehmen des vorhandenen Korrekturabzugs-Workflows beim Generieren einer neuen Version
 

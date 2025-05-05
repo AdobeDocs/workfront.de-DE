@@ -26,7 +26,7 @@ Im Setup konfigurieren Sie eine Voreinstellung, um sicherzustellen, dass jedes n
 
 Um sicherzustellen, dass neue Projekte immer einen Status haben, auch wenn ein Administrator den für neue Projekte konfigurierten Status ausblendet oder entsperrt, weist das System jetzt allen neuen Projekten den ersten Status in der Statusliste zu, bis Sie den neuen Status für neue Projekte erneut konfigurieren.
 
-Informationen zum Festlegen der Voreinstellung für den Status aller neuen Projekte finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie [Festlegen von Projektvoreinstellungen](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Informationen zum Festlegen der Voreinstellung für den Status aller neuen Projekte finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie [Festlegen von Projektvoreinstellungen](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -42,7 +42,7 @@ Das Festlegen von Projektvoreinstellungen ist jetzt intuitiver und einfacher zu 
 * Wenn Sie eine ungültige Zahl für eine Option wie „Typische Stunden pro Arbeitstag“ eingeben, wird sofort eine Warnmeldung angezeigt, anstatt nach dem Klicken auf Speichern.
 * Optionsbeschriftungen entsprechen dem entsprechenden Schnittstellentext an anderer Stelle in Workfront, z. B. im Detailbereich und in Berichten.
 
-Informationen zum Bereich Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie weitere Informationen [Festlegen von Projektvoreinstellungen](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Informationen zum Bereich Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oder wenn Sie Adobe Workfront Classic verwenden, finden Sie weitere Informationen [Festlegen von Projektvoreinstellungen](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 
@@ -68,11 +68,11 @@ Wenn Sie z. B. einen Vorgang mit der Einschränkung Muss beginnen am in ein ande
 
 Vor dieser Änderung wird die Aufgabenbeschränkung immer auf „So bald wie möglich“ geändert.
 
-Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder bei Verwendung von Adobe Workfront Classic unter [Verschieben von Aufgaben](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) (oder bei Verwendung von Adobe Workfront Classic unter [Verschieben von Aufgaben](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
-Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Aufgaben kopieren und duplizieren](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Aufgaben kopieren und duplizieren](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
-Eine Übersicht über alle Aufgabeneinschränkungen finden Sie unter [Übersicht über Aufgabeneinschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Übersicht über Aufgabeneinschränkungen](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Eine Übersicht über alle Aufgabeneinschränkungen finden Sie unter [Übersicht über Aufgabeneinschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (bzw. bei Verwendung von Adobe Workfront Classic unter [Übersicht über Aufgabeneinschränkungen](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 

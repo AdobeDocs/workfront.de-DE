@@ -36,7 +36,7 @@ Im Bereich Audit-Protokolle können Sie jetzt Änderungen in weiteren Bereichen 
 
 Weitere Informationen finden Sie [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Diese Funktion ist jetzt in den [Admin-Grundlagen für die neue Workfront-Version - Teil 2: Projekteinrichtung - Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Admin-Grundlagen für die neue Workfront-Version - Teil 2: Projekteinrichtung - Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Für Gruppenadministratoren: Verbesserte Steuerelemente zum Verschieben von Untergruppen und eine aktualisierte Symbolleiste
 
@@ -137,7 +137,7 @@ Zuvor konnten diese Standardwerte nicht angepasst werden, daher wurden sie immer
 
 Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Diese Funktion ist jetzt in den Administratorgrundlagen [ neuen Workfront-Erlebnisses, Teil 3: Lernpfad „Kontrolle und Benutzeroberfläche“ ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den Administratorgrundlagen [ neuen Workfront-Erlebnisses, Teil 3: Lernpfad „Kontrolle und Benutzeroberfläche“ ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Neu für Admins: Einfaches Auflisten der Berichte, die derzeit ein benutzerdefiniertes Feld verwenden
 

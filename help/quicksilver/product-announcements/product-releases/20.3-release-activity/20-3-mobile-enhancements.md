@@ -26,7 +26,7 @@ Workfront hat vor kurzem Technologie für eine völlig neue Generation von Workf
 
 Bisherige Workfront Fusion-Kunden können mit mehr Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Vorhersehbarkeit in Workfront Fusion 2.0 rechnen. Wir sind dabei, aktuelle Workfront Fusion-Kunden auf Workfront Fusion 2.0 zu migrieren. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
-Weitere Informationen finden Sie unter [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+Weitere Informationen finden Sie unter [Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home).
 
 ## Einführung in Workfront für MobileIron
 

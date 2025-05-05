@@ -43,6 +43,6 @@ Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestal
 
 >[!NOTE]
 >
->Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [ „Wartungs-Update vom 26. Mai 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [ „Wartungs-Update vom 26. Mai 2022](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 Wir haben die Breadcrumb-Trennzeichen in allen Bereichen aktualisiert, in denen Breadcrumbs verfügbar sind. Jetzt werden die Objekte in den Breadcrumbs durch senkrechte Striche (|) getrennt. Vor dieser Aktualisierung wurden sie durch Schrägstriche (/) getrennt.

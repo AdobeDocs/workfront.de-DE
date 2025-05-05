@@ -52,7 +52,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 >Nur autorisierte Support-Kontakte (oder Support-berechtigte Benutzer) können Online-Support-Tickets einreichen.
 
 
-1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com)-Website **[!UICONTROL Support]** oben auf der Seite.
+1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com/de)-Website **[!UICONTROL Support]** oben auf der Seite.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -105,7 +105,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 1. (Optional) Um das Gehäuse zu schließen, klicken Sie auf die Schaltfläche **[!UICONTROL Fall schließen]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=de)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

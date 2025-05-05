@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail 
 
 Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
 
 ## Stundenbearbeitung auf Arbeitszeittabellen beschränken
 

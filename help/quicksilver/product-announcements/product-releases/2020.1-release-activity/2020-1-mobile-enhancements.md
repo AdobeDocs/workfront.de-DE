@@ -25,7 +25,7 @@ Eine Liste aller mit Version 2020.1 verfügbaren Änderungen finden Sie unter [�
 
 Um die Konsistenz Ihres Erlebnisses bei der Verwendung von Workfront sowohl in der Mobile App als auch im Web zu verbessern, wird jede Anpassung der sekundären Navigation des linken Bedienfelds in den neuen oder vorhandenen Layout-Vorlagen automatisch in der Mobile App übernommen.
 
-Weitere Informationen zum Anpassen des linken Bereichs finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage in der neuen Workfront-Version](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Weitere Informationen zum Anpassen des linken Bereichs finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage in der neuen Workfront-Version](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 ## Wie Updates in der Mobile App
 

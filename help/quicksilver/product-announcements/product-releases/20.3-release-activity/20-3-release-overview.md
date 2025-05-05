@@ -435,7 +435,7 @@ Informationen zu den Wartungs-Updates, die während der Version 20.3 vorgenommen
 
 Seit dem 20. Mai 2020 stellt Workfront wöchentlich Funktionen in der Vorschau-Umgebung bereit. Vor dieser Änderung wurden die Funktionen normalerweise alle zwei Wochen in der Vorschau-Umgebung veröffentlicht.
 
-Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://experienceleague.adobe.com/de/docs/workfront/using/home)
 
 ### Zulassungsliste der zusätzlichen Domains, die für den Zugriff auf Workfront erforderlich sind {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkei
 
 ### Webinar zur Version 20.3 {#20-3-release-webinar}
 
-Sehen Sie sich das Webinar zur Produktversion 20.3 an [hier](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Sehen Sie sich das Webinar zur Produktversion 20.3 an [hier](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

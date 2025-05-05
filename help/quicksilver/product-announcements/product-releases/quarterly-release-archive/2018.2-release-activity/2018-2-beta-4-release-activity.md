@@ -145,7 +145,7 @@ Der Export der Daten aus dem Ressourcenplaner wurde vorübergehend deaktiviert, 
 
 Weitere Informationen zum Exportieren der Ressourcenplaner-Daten nach Excel finden Sie im Abschnitt „Exportoption“ in [Übersicht über die Ressourcenplaner-](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de)
 
 ## Systemeinstellung: Sitzungsinformationen auf externen Seiten {#system-setting-session-information-in-external-pages}
 
