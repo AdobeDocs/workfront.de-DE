@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 93eeef486565cb48e5362194c0a18c3f591ef2ed
+source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '363'
 ht-degree: 9%
 
 ---
@@ -38,11 +38,17 @@ Die folgende Tabelle zeigt den Versions- und Support-Zeitplan für die Workfront
  </thead> 
  <tbody> 
  <tr>
+   <td>20</td> 
+   <td> <p>Montag, 4. Mai 2025</p> </td> 
+   <td> <p>**Im Jahr 2028</p> <p>(mit Version 28.4)</p> </td> 
+   <td></td> 
+  </tr> 
+ <tr>
    <td>19</td> 
    <td> <p>Freitag, 10. Oktober 2024</p> </td> 
    <td> <p>**Im Jahr 2027</p> <p>(mit Version 27.10)</p> </td> 
    <td></td> 
-  </tr>  <tr>
+  </tr> 
  <tr>
    <td>18</td> 
    <td> <p>Dienstag, 8. April 2024</p> </td> 
