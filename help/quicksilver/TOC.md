@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 38e9a626e9bf172cacbee8688d6303224301e785
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '13180'
+source-wordcount: '13185'
 ht-degree: 2%
 
 ---
@@ -2089,6 +2089,7 @@ ht-degree: 2%
       * [Verwalten von Datensatzverbindungen aus Workfront-Objekten](planning/records/manage-records-in-planning-section.md)
       * [Exportieren der Details eines Datensatzes](planning/records/export-the-record-page.md)
       * [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Konfigurieren von Adobe Workfront Planning-Automatisierungen](planning/records/configure-automations-to-create-records.md)
       * [Erstellen von Objekten mithilfe von Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront-Planungsanfragen {#adobe-workfront-planning-requests}
       * [Adobe Workfront-Planungsanfragen: Artikelindex](planning/requests/requests-article-index.md)

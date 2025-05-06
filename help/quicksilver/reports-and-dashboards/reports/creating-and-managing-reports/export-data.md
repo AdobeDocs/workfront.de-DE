@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Daten exportieren
-description: Sie können Adobe Workfront-Daten aus verschiedenen Listen, Berichten, Dashboards und Suchvorgängen exportieren.
+description: Sie können Adobe Workfront-Daten aus Listen, Berichten, Dashboards und Suchvorgängen exportieren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
 
 # Daten exportieren
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-Sie können Adobe Workfront-Daten aus verschiedenen Listen, Berichten, Dashboards und Suchvorgängen exportieren.
+Sie können Adobe Workfront-Daten aus Listen, Berichten, Dashboards und Suchvorgängen exportieren.
 
 Einige der Gründe für den Datenexport sind:
 
@@ -97,8 +97,8 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
 
 Informationen können in den folgenden Formaten exportiert werden:
 
-* PDF (Brief-Querformat oder Hochformat, Legal, Ledger und A4)
-* Excel (.xls)
+* PDF (Hochformat oder Querformat)
+* Excel
 * Excel (.xlsx)
 * Durch Tabulatoren getrennt
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 Die Art und Weise, wie Berichte in Workfront angezeigt werden, sowie die Art und Weise, wie sie über einen manuellen Export, einen bereitgestellten Bericht oder über die API exportiert werden, sind verschiedenen Einschränkungen unterworfen.
 
 * **50.000 Zellen:** Die maximale Anzahl von Zellen, die in einem Berichtsexport für Excel-Dateien zulässig ist.
-* **50.000 Zeilen:** Die Anzahl der Datenzeilen, die in einem Berichtsexport für PDF- und TAB-Dateien zulässig ist.
+* **50.000 Zeilen:** Die Anzahl der Datenzeilen, die in einem Berichtsexport für Dateien mit PDF und durch Tabulatoren getrennte Dateien zulässig ist.
 
-   * Bei Excel-XLS-Dateien beträgt dieser Grenzwert **65.000 Zeilen**.
-   * Bei Excel-XLSX-Dateien beträgt dieser Grenzwert **100.000 Zeilen**.
+   * Bei Excel-Dateien beträgt dieser Grenzwert **65.000 Zeilen**.
+   * Bei Excel-Dateien (.xlsx) beträgt dieser Grenzwert **100.000 Zeilen**.
    * Von diesen Beschränkungen ausgenommen sind die Spaltenüberschriften sowie die Zeilen für Gruppierungen im Bericht. Wenn ein Bericht beispielsweise 6 Gruppierungen und 50.000 Datenzeilen enthält, enthält die exportierte Datei 50.000 Zeilen.
 
   >[!IMPORTANT]
@@ -153,7 +153,7 @@ Die Art und Weise, wie Berichte in Workfront angezeigt werden, sowie die Art und
      Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **10 MB Dateigröße** Dateigrößenbeschränkung für exportierte Berichte, deren Bereitstellung geplant ist. Wenn eine exportierte Datei, die an eine E-Mail angehängt ist, größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, anstelle des angehängten exportierten Berichts per E-Mail gesendet.
-* **65.530 Hyperlinks:** Dies ist eine von Excel auferlegte Grenze für Dokumente, die mehr als 65.530 Hyperlinks enthalten. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem zugestellten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn das Dokument jedoch mehr als 65.530 Links enthält, wird es nicht geöffnet. Diese Beschränkung besteht nur für Excel-Dateien, nicht für die anderen unterstützten Formate. 
+* **65.530 Hyperlinks:** Dies ist eine von Excel auferlegte Grenze für Dokumente, die mehr als 65.530 Hyperlinks enthalten. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem zugestellten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn das Dokument jedoch mehr als 65.530 Links enthält, wird es nicht geöffnet. Diese Beschränkung besteht nur für Excel-Dateien, nicht für die anderen unterstützten Formate.
 * **256 Spalten**: Dies ist eine Beschränkung, die Excel für Dokumente vorschreibt, die mehr als 256 Spalten enthalten. Diese Dokumente können nicht manuell exportiert oder in einem bereitgestellten Bericht gesendet werden. Diese Beschränkung besteht nur für Excel-Dateien, nicht für die anderen unterstützten Formate.
 
   >[!IMPORTANT]
@@ -175,7 +175,7 @@ Wenden Sie sich bei Problemen oder Problemen mit Ihrem Limit an den technischen 
 ### Exportieren von Daten aus einem Bericht oder einer Liste {#export-data-from-a-report-or-list}
 
 1. Navigieren Sie zu dem Bericht oder der Liste, den bzw. die Sie exportieren möchten.
-1. Wählen Sie die Elemente aus, die Sie exportieren möchten. (Wenn Sie einzelne Elemente auswählen, werden nur die ausgewählten Elemente exportiert.)
+1. Wählen Sie die Elemente aus, die Sie exportieren möchten. Durch Auswahl einzelner Elemente werden nur die ausgewählten Elemente exportiert.
 
    Wählen Sie beispielsweise in einem Projekt die Aufgaben aus, die Sie exportieren möchten.
 
@@ -197,22 +197,14 @@ Wenden Sie sich bei Problemen oder Problemen mit Ihrem Limit an den technischen 
 
    Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon-nwe.png) und wählen Sie dann ein Format aus.
 
-   Die Optionen, die Ihnen für den PDF-Export zur Verfügung stehen, hängen von den Gebietsschema-Einstellungen in Ihren Workfront-Benutzereinstellungen ab:
+   Die Optionen, die Ihnen für den PDF-Export zur Verfügung stehen, hängen von den E-Mail-Gebietsschema-Einstellungen in Ihren Workfront-Benutzereinstellungen ab:
 
-   * Nordamerika - Brief (Standard), Legal, Ledger, A4
+   * Nordamerika - Buchstabe - Querformat, Buchstabe - Hochformat, andere Größen
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * Alle Standorte außerhalb Nordamerikas - A3, A4 (Standard), Brief, Legal, Ledger
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * Alle Standorte außerhalb Nordamerikas - A4 - Querformat, A4 - Hochformat, Andere Größen
 
 1. (Bedingt) Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
-1. Fahren Sie mit [Exportiertes Dokument verwenden](#use-the-exported-document) fort.
+1. Um zu verstehen, wie Informationen in der exportierten Datei angezeigt werden, lesen Sie den Abschnitt [Verwenden des exportierten Dokuments](#use-the-exported-document) in diesem Artikel weiter.
 
 ### Exportieren von Daten aus einem Dashboard {#export-data-from-a-dashboard}
 
@@ -221,6 +213,8 @@ Sie können die Informationen aus einem Dashboard drucken oder als PDF-Datei exp
 Weitere Informationen zum Exportieren von Daten aus einem Dashboard finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 ## Verwenden des exportierten Dokuments {#use-the-exported-document}
+
+In den folgenden Abschnitten wird beschrieben, wie Informationen in einer exportierten Datei angezeigt werden:
 
 * [Dateinamen](#file-names)
 * [Titel](#titles)
@@ -308,11 +302,11 @@ Je nach Typ des zu exportierenden Dokuments werden Zeitstempel an verschiedenen 
 
 ### Formatierung {#formatting}
 
-Wenn Sie ein Projekt in .pdf exportieren, werden alle Teilaufgaben als Einzüge für die jeweiligen übergeordneten Aufgaben angezeigt. Exportierte Listen reduzieren keine übergeordneten Aufgaben.
+Wenn Sie ein Projekt in PDF exportieren, werden alle Teilaufgaben als Einrückung für ihre übergeordneten Aufgaben angezeigt. Exportierte Listen reduzieren keine übergeordneten Aufgaben.
 
 Sie erhalten immer die Standardregisterkarte eines Berichts, wenn ein Bericht gesendet oder für einen Versand geplant wird, es sei denn, der Bericht hat eine spezielle Ansicht.
 
-Wenn Ihr Bericht in der Web-Anwendung eine besondere Formatierung aufweist, sollte der Bericht mit der speziellen Formatierung bereitgestellt werden, wenn die Registerkarten Details und Matrix bereitgestellt werden, und zwar nur für PDF- und Excel-Dateien.
+Wenn Ihr Bericht in der Web-Anwendung eine besondere Formatierung aufweist, sollte der Bericht mit der speziellen Formatierung bereitgestellt werden, wenn die Registerkarten Details und Matrix bereitgestellt werden. Dies gilt nur für PDF- und Excel-Dateien.
 
 >[!NOTE]
 >
@@ -322,11 +316,11 @@ Weitere Informationen zum Anpassen der Formatierung in einem Bericht finden Sie 
 
 ### Relationen {#links}
 
-Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unterstützt. Wenn Sie eine Liste in Workfront nach .pdf exportieren, bleiben alle unterstützten Links, die im Originaldokument vorhanden sind, im exportierten Dokument verfügbar.
+Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unterstützt. Wenn Sie eine Liste in Workfront nach PDF exportieren, bleiben alle unterstützten Links, die im Originaldokument vorhanden sind, im exportierten Dokument verfügbar.
 
 >[!TIP]
 >
->Wenn die `valueformat=HTML` im Textmodus für eine benutzerdefinierte Feldspalte angezeigt wird und die Verknüpfungswerte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie zusätzliche Codezeilen zu Ihrer Spalte im Textmodus eingeben.
+>Wenn die `valueformat=HTML` für eine benutzerdefinierte Feldspalte im Textmodus angezeigt wird und die Verknüpfungswerte nicht in einer exportierten PDF-Datei angezeigt werden, müssen Sie im Textmodus zusätzliche Codezeilen zu Ihrer Spalte eingeben.
 >
 >Wenn Sie beispielsweise über ein benutzerdefiniertes Feld namens „Open Q1 Projects“ verfügen, das Links enthält, fügen Sie den folgenden Code hinzu:
 >
@@ -343,7 +337,7 @@ Wenn Sie in ein Excel-Format exportieren, werden nur Verknüpfungen zu Objekten 
 >
 >Wenn Ihre Organisation in Adobe Experience Cloud integriert wurde, ist kein Branding verfügbar.
 
-Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz für die globale Navigationsleiste ein benutzerdefiniertes Branding hinzugefügt hat, enthalten die exportierten PDF-Dateien auch Ihr personalisiertes Logo.
+Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz für die globale Navigationsleiste benutzerdefiniertes Branding hinzugefügt hat, enthalten die exportierten PDF-Dateien auch Ihr personalisiertes Logo.
 
 Daten, die in einem anderen Format exportiert werden, können nicht mit Ihrem Logo personalisiert werden.
 

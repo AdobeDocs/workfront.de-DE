@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,7 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
 * [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
 * [Löschen von Datensätzen](/help/quicksilver/planning/records/delete-records.md)
