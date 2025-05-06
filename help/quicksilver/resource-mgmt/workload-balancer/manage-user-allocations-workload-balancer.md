@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2886'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Die für die Aufgabe geplanten Stunden werden für den Benutzer, der der Aufgabe
 
 >[!CAUTION]
 >
->Der Workload Balancer zeigt nur bis zu 1.000 geplante Stunden pro Arbeitselement und bis zu 1.000 Tage der Dauer eines Elements an. Die Zuordnungen im Workload Balancer werden als Null angezeigt, nachdem das Limit von 1.000 Stunden oder 1.000 Tagen erreicht wurde. Es wird empfohlen, Aufgaben in kleinere Teilaufgaben zu unterteilen, um eine größere Anzahl geplanter Stunden oder für eine Dauer von mehr als 1000 Tagen aufzunehmen.
+>Der Workload Balancer zeigt nur <!--up to 1000 Planned Hours per work item per user, and--> bis zu 1.000 Tage der Dauer eines Elements an. Die Zuweisungen im Workload Balancer werden als Null angezeigt, nachdem das Limit von 1.000 Tagen erreicht wurde. Es wird empfohlen, Aufgaben in kleinere Teilaufgaben <!--to accommodate a larger number of Planned Hours or--> für eine Dauer von mehr als 1000 Tagen zu unterteilen.
 
 Beachten Sie Folgendes, wenn Sie im Workload Balancer tägliche, wöchentliche oder monatliche Zuweisungen für Aufgaben oder Probleme finden:
 
