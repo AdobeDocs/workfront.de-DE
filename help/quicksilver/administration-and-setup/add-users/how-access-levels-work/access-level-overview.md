@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1724'
 ht-degree: 5%
 
 ---
@@ -115,7 +115,7 @@ Diese Zugriffsebene ist an die Light-Lizenz angehängt und richtet sich an Benut
 * Alle Elemente und Aktualisierungen im Zusammenhang mit der Arbeit anzeigen
 * Projekte, Aufgaben und Probleme genehmigen
 * Anzeigen von Dashboards und Berichten
-* Zeit nachverfolgen und Arbeitszeittabellen genehmigen
+* Zeit bei Aufgaben und Problemen verfolgen und Arbeitszeittabellen genehmigen
 * Probleme erstellen und verwalten
 
 Benutzende mit der Zugriffsebene Light:
