@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6fe1a2c71f53d6b314c2b1402a547f9c934bfbea
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Informationen zur Zugriffsebene „Plan“ finden Sie unter [Zugriff auf Projekt
 
 Informationen zum Kopieren eines Projekts finden Sie unter [Kopieren eines Projekts](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Wählen Sie in einem benutzerdefinierten Formular für ein Objekt alle Elemente in einem Dropdown-Feld mit Mehrfachauswahl aus
 
@@ -63,7 +63,7 @@ Adobe Workfront-Administratoren können Gruppenadministratoren nun mehr Autonomi
 
 Weitere Informationen finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Diese Funktion ist jetzt in den Administrator[Grundlagen der neuen Workfront-Version, Teil 2: Projekteinrichtung, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den Administrator[Grundlagen der neuen Workfront-Version, Teil 2: Projekteinrichtung, Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Zugriffsebenen-Einstellungen für Portfolios und Programme separat konfigurieren
 
@@ -75,7 +75,7 @@ Informationen zum Konfigurieren einer Zugriffsebene finden Sie unter [Erstellen 
 
 Informationen zu den Zugriffseinstellungen, die Sie für Programme und Portfolios konfigurieren können, finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Aktivieren aller Kontrollkästchen in einer Reihe beim Bearbeiten von Informationen in einem benutzerdefinierten Formular
 
@@ -108,7 +108,7 @@ Zuvor konnte nur eine Gruppe auf oberster Ebene Gruppenadministratoren haben, un
 
 Weitere Informationen finden Sie im Abschnitt [Gruppenadministratoren für Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) im Artikel [Untergruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Konfigurieren von Ereignisbenachrichtigungen für Gruppen
 
@@ -125,9 +125,9 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Konfiguration von Ereignisbenachrichtigungen für alle Gruppen entsperren oder sperren](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
-Diese Funktion ist jetzt in den E[Mail- und In-App-Benachrichtigungen im neuen Lernpfad von Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) in Workfront One enthalten.
+This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
 
 ## Arbeiten mit Gruppenprojekten und Genehmigungsprozessen im Bereich Gruppen
 
