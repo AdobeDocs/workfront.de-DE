@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Aufgabeninformationen
+title: 'Aufgabeninformationen: Artikelindex'
 description: Aufgaben sind Arbeitselemente, die zum Abschluss eines Projekts in Adobe Workfront beitragen. Informationen zu Aufgabeninformationen finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# Aufgabeninformationen
+# Aufgabeninformationen: Artikelindex
+
+<!-- Audited: 5/2025 -->
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
@@ -30,7 +32,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Übersicht über das geplante Startdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-start-date.md)
 * [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Übersicht über das Datum der Aufgabenübergabe](../../../manage-work/tasks/task-information/handoff-task-date.md)
-* [Übersicht über das Slack-Datum der Aufgabe](../../../manage-work/tasks/task-information/task-slack-date.md)
+* [Aufgabe - Slack - Datumsübersicht](../../../manage-work/tasks/task-information/task-slack-date.md)
 * [ „Kann starten“-Übersicht für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [Überwachungsmodus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Abgleichsverzögerung für Aufgabe aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)

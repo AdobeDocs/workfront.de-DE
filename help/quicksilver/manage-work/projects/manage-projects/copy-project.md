@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '715'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 4%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie können jeweils nur ein Projekt kopieren. Projekte können nicht stapelweise kopiert werden.
+<!-- Audited: 5/2025 -->
+
+Sie können ein Projekt aus einem vorhandenen kopieren, anstatt eines von Grund auf neu zu erstellen, was Zeit spart.
+
+Beachten Sie, dass Sie Projekte nicht stapelweise kopieren können.
 
 >[!IMPORTANT]
 >
@@ -44,7 +48,7 @@ Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie
 >* Scorecard
 >* Standardinformationen zu Aufgaben (Standardgenehmigungsprozess für Aufgaben, Standardmäßige benutzerdefinierte Forms für Aufgaben)
 >
-> Die Daten der ursprünglichen Aufgaben in den Projekten werden in das neue Projekt kopiert. Sie müssen das Start- oder Abschlussdatum des Projekts (je nach Planungsmodus) ändern, um die Termine für die Aufgaben zu aktualisieren. Aufgrund von Aufgabenbeschränkungen können Sie möglicherweise die Daten im Projekt nicht ändern.
+> Die Termine der Aufgaben des ursprünglichen Projekts werden in das neue Projekt kopiert. Sie müssen das Start- oder Abschlussdatum des Projekts (je nach Planungsmodus) ändern, um die Aufgabendaten zu aktualisieren. Aufgrund von Aufgabenbeschränkungen können Sie möglicherweise die Daten im Projekt nicht ändern.
 
 ## Zugriffsanforderungen
 
@@ -77,34 +81,40 @@ Sie können ein Projekt kopieren, anstatt es von Grund auf neu zu erstellen. Sie
  </tbody> 
 </table>
 -->
-Sie müssen über Folgendes verfügen:
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-Plan*</p> </td> 
+   <td> <p>Adobe Workfront-Plan</p> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-Lizenz*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-Lizenz</p> </td> 
+   <td> <p>Neu: Standard </p> 
+   <p>Oder</p>
+   <p>Aktuell: Plan </p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationen der Zugriffsebene*</strong> </td> 
-   <td> <p>Zugriff auf Projekte mit der Möglichkeit zum Erstellen (<span> Kopieren</span> von Projekten bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
-</tr> 
+   <td>Konfigurationen der Zugriffsebene </td> 
+   <td> <p>Zugriff auf Projekte mit der Möglichkeit zum Erstellen (<span> Kopieren</span> von Projekten bearbeiten</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Objektberechtigungen </p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für das Projekt</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Einzelnes Projekt kopieren
 
@@ -112,27 +122,21 @@ Beim Kopieren eines Projekts werden auch einige Informationen aus dem ursprüngl
 
 Kopieren eines Projekts:
 
-1. Wechseln Sie zu dem Projekt, das Sie kopieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen
+{{step1-to-projects}}
 
-   ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr ](assets/more-icon.png) rechts neben dem Projektnamen.
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-menu.png)Mehr Menü).
+   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/more-icon.png)Mehr Menü).
 
-   ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+1. Klicken Sie **Dropdown** Menü „Mehr“ auf **Kopieren**. Das **Kopie von [Projektname]** wird angezeigt.
 
-1. Klicken Sie **Kopieren**.
+1. (Optional) Aktualisieren Sie den **Projektnamen**. Standardmäßig lautet der neue Name **Kopie von [Originalprojektname]**.
 
-1. Aktualisieren Sie den Namen des neuen Projekts.
+   ![Projektfeld kopieren](assets/copy-of-project-box.png)
 
-   Standardmäßig lautet der neue Name **Kopie von `<Original project name>`.**
-
-   ![Projektfeld kopieren](assets/copy-project-box-nwe-350x276.png)
-
-1. Wählen Sie **Status** für das neue Projekt aus.
-
-   Standardmäßig entspricht **Status** dem des ursprünglichen Projekts.
+1. Wählen Sie einen **Status** aus. Standardmäßig ist der Status des ursprünglichen Projekts ausgewählt.
 
 1. (Optional) Heben Sie die Markierung der Elemente auf, die Sie nicht in das neue Projekt kopieren möchten. In der folgenden Tabelle wird beschrieben, was passiert, wenn die Auswahl der Elemente aufgehoben wird:
 
@@ -143,17 +147,17 @@ Kopieren eines Projekts:
     <tbody> 
      <tr> 
       <td role="rowheader">Alle auswählen</td> 
-      <td> <p>Wählt alle Optionen aus und löscht alle Felder und Objekte aus dem neuen Projekt.</p> <p><b>TIPP</b>
+      <td> <p>Wählt alle Optionen aus und löscht alle Felder und Objekte aus dem neuen Projekt. </p>
 
-   Durch Deaktivieren von <strong>Alle auswählen</strong> werden alle Elemente deaktiviert. </p> </td>
-   </tr> 
+   <p> Wenn Sie diese Option deaktivieren, werden alle Elemente deaktiviert. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Arbeitsaufträge</td> 
-      <td>Entfernt alle Projekt- und Aufgabenzuweisungen</td> 
+      <td>Entfernt alle Projekt- und Aufgabenzuweisungen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fortschritt</td> 
-      <td>Entfernt den Fortschritt bei allen Aufgaben und wird als Neu angezeigt. </td> 
+      <td>Entfernt den Fortschritt bei allen Aufgaben und zeigt sie als Neu an. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Benutzerdefinierte Daten</td> 
@@ -162,29 +166,26 @@ Kopieren eines Projekts:
         <li>Aufgaben</li> 
         <li>Ausgaben</li> 
         <li> Dokumente</li> 
-       </ul> <p><b>NOTIZ</b>
-
-   Die benutzerdefinierten Formulare bleiben an die Aufgaben, Ausgaben, Dokumente und das Projekt angehängt, aber die Informationen in den benutzerdefinierten Feldern der Formulare werden nicht in das neue Projekt kopiert. </p> </td>
-   </tr> 
+       </ul> 
+      <p>Die benutzerdefinierten Formulare bleiben an die Aufgaben, Ausgaben, Dokumente und das Projekt angehängt, aber die Informationen in den benutzerdefinierten Feldern des Formulars werden nicht in das neue Projekt kopiert. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Dokumente</td> 
       <td> <p>Entfernt alle Elemente auf der Registerkarte „Dokumente“, einschließlich Dokumentversionen, verknüpfter Dokumente und Ordner.</p> <p>Standardmäßig können Korrekturabzüge und Genehmigungen nicht in ein anderes Projekt kopiert werden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alle Vorgänger</td> 
-      <td> <p>Entfernt alle Vorgängerbeziehungen zwischen den Aufgaben im Projekt. </p> <p><b>TIPP</b>
+      <td> <p>Entfernt alle Vorgängerbeziehungen zwischen den Aufgaben im Projekt. </p> <p>
 
    Projektübergreifende Vorgänger werden niemals in das neue Projekt übertragen, unabhängig davon, ob dies ausgewählt ist oder nicht. </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">Veranschlagte Stunden</td> 
-      <td> <p>Entfernt die budgetierten Stunden im Bereich Ressourcenplanung des Business Case des Projekts aus dem kopierten Projekt.</p>
-
-<b>HINWEIS</b>
-
-Mit dem Szenario-Planer budgetierte Stunden werden niemals in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Business Case mit dem Szenario-Planer</a>
-</tr></td>
+      <td> <p>Entfernt die budgetierten Stunden im Bereich Ressourcenplanung des Business Case des Projekts aus dem kopierten Projekt.</p> 
+    <p>
+   Mit dem Szenario-Planer budgetierte Stunden werden niemals in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Business Case mit dem Szenario-Planer</a></p>
+   </tr></td>
     <tr> 
       <td role="rowheader">Finanzinformationen</td> 
       <td> <p>Entfernt die Informationen in den folgenden Bereichen: </p> 
@@ -213,8 +214,4 @@ Mit dem Szenario-Planer budgetierte Stunden werden niemals in das neue Projekt k
     </tbody> 
    </table>
 
-1. Klicken Sie **Kopieren**, um eine Kopie des Projekts zu erstellen.
-
-   Dadurch wird ein neues Projekt erstellt, das dem kopierten Projekt ähnelt.
-
-   Sie können mit Änderungen am neuen kopierten Projekt beginnen, z. B. Aufgabenzuweisungen überprüfen oder Timelines anpassen.
+1. Klicken Sie **Projekt kopieren**. Das kopierte Projekt wird erstellt.

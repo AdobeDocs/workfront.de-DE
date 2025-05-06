@@ -7,14 +7,16 @@ description: Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lös
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1761'
 ht-degree: 1%
 
 ---
 
 # Übersicht über das Auflösen und das Auflösen von Objekten
+
+<!-- Audited: 5/2025 -->
 
 Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lösungsobjekt gebunden ist. Ein Lösungsobjekt ist ein Projekt, eine Aufgabe oder ein anderes Problem.
 
@@ -22,7 +24,7 @@ Wenn Sie ein Problem in eine Aufgabe oder ein Projekt konvertieren, wird das Pro
 
 Sie können ein Problem auch manuell mit einem Lösungsobjekt verknüpfen, bei dem es sich um eine Aufgabe, ein Projekt oder ein Problem handeln kann. Weitere Informationen finden Sie unter [Manuelles Verknüpfen der Lösung eines Problems mit anderen Problemen, Aufgaben oder Projekten](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
 
-Das ursprüngliche Problem wird in diesem Szenario zum lösbaren Objekt der Aufgabe, des Projekts oder des Problems.
+In diesem Szenario wird das ursprüngliche Problem zum lösbaren Objekt der Aufgabe, des Projekts oder des Problems.
 
 ## Einrichten von Adobe Workfront für die Verarbeitung auflösbarer Objekte {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
@@ -78,10 +80,10 @@ Je nachdem, wie der Workfront- oder Gruppen-Administrator die Problemeinstellung
 
 Die folgenden Szenarien sind vorhanden:
 
-* Wenn der Workfront- oder Gruppen-Administrator die **Ursprüngliches Problem beibehalten und seine Lösung mit der Aufgabe verknüpfen** und die **Ursprüngliches Problem beibehalten und seine Lösung mit dem Projekt verknüpfen** ausgewählt hat und die **Zulassen, dass diese Einstellungen während der Konvertierung geändert werden** nicht ausgewählt ist, können Sie diese Einstellungen beim Konvertieren von Problemen in Aufgaben oder Projekte nicht ändern.\
+* Wenn der Workfront- oder Gruppenadministrator die Option „Ursprüngliches Problem beibehalten“ hat und seine Lösung mit der Aufgabe verknüpfen und die Option „Ursprüngliches Problem beibehalten“ hat und seine Lösung mit dem ausgewählten Projekt verknüpft ist und die Option „Zulassen, dass diese Einstellungen während der Konvertierung geändert werden“ deaktiviert ist, können Sie diese Einstellungen beim Konvertieren von Problemen in Aufgaben oder Projekte nicht ändern.\
   ![Bereich „Projektvoreinstellungen - Probleme“](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Wenn der Workfront- oder Gruppen-Administrator die **Ursprüngliches Problem beibehalten und seine Lösung mit der Aufgabe verknüpfen** und die **Ursprüngliches Problem beibehalten und seine Lösung mit dem Projekt verknüpfen** ausgewählt oder deaktiviert hat und die **Zulassen, dass diese Einstellungen während** Konvertierung geändert werden ausgewählt ist, können Sie diese Einstellungen ändern, während Sie Probleme in Aufgaben oder Projekte konvertieren.\
+* Wenn der Workfront- oder Gruppen-Administrator bzw. die Gruppenadministratorin die Option Ursprüngliches Problem beibehalten und seine Lösung mit der Aufgabe verknüpfen sowie das ursprüngliche Problem beibehalten und seine Lösung mit dem ausgewählten oder nicht ausgewählten Projekt verknüpfen kann und die Option Zulassen, dass diese Einstellungen während der Konvertierung geändert werden ausgewählt ist, können Sie diese Einstellungen ändern, während Sie Probleme in Aufgaben oder Projekte konvertieren.\
   ![Option zum Beibehalten des Problems](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte finden Sie unter [Übersicht über das Konvertieren von Problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -133,9 +135,9 @@ Wenn der benutzerdefinierte Status eines Projekts einem Standardstatus entsprich
 
 #### Synchronisieren Sie den Standardstatus des Lösungsobjekts mit dem Standardstatus des lösbaren Objekts. {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Unabhängig davon, ob die Option „Status lösbarer Probleme automatisch aktualisieren, wenn sich der Status des Lösungsobjekts ändert“ ausgewählt ist, ändert sich der Status des lösbaren Objekts (Probleme) entsprechend jedes Mal, wenn sich der Standardstatus für die Lösungsobjekte (Projekte oder Aufgaben) ändert. Nur Standardstatus sind bereits Triggern wie dieser zugeordnet.
+Unabhängig davon, ob die Option Status „Lösbares Problem automatisch aktualisieren“ aktiviert ist, wenn sich der Status des Lösungsobjekts ändert, ändert sich der Status des lösbaren Objekts (Probleme) entsprechend, wenn sich der Standardstatus für die Lösungsobjekte (Projekte oder Aufgaben) ändert. Nur Standardstatus sind bereits Triggern wie dieser zugeordnet.
 
-Die folgenden Standardstatus für Aufgaben weisen die folgenden Trigger in den Standardstatus für Probleme auf, wenn das Problem als Lösungsobjekt einer Aufgabe festgelegt ist:
+Der Trigger der folgenden Standardaufgabe ändert die Standardanfragestatus, wenn das Problem als Lösungsobjekt der Aufgabe festgelegt wird:
 
 | **AUFGABENSTATUS** | **PROBLEMSTATUS** |
 |---|---|
@@ -143,7 +145,7 @@ Die folgenden Standardstatus für Aufgaben weisen die folgenden Trigger in den S
 | In Arbeit | In Arbeit |
 | Abgeschlossen | Geschlossen |
 
-Die folgenden Standardstatus für Projekte weisen den Trigger der folgenden Änderungen im Standardstatus für Probleme auf, wenn das Problem als lösbares Objekt eines Projekts festgelegt wird. Bei einigen Projektstatus ändert sich der Trigger der Probleme nicht. Die Probleme verbleiben in dem Status, in dem sie sich befanden, bevor das Projekt in einen der folgenden Status umgewandelt wurde:
+Der folgende Trigger des Standardprojekts zeigt die folgenden Änderungen am Standardproblemstatus an, wenn das Problem als lösbares Objekt eines Projekts festgelegt wird. Bei einigen Projektstatus werden keine Trigger-Änderungen an den Problemstatus vorgenommen. Die Probleme verbleiben in dem Status, in dem sie sich befanden, bevor das Projekt in einen der folgenden Status umgewandelt wurde:
 
 | **PROJEKTSTATUS** | **PROBLEMSTATUS** |
 |---|---|
@@ -159,40 +161,44 @@ Die folgenden Standardstatus für Projekte weisen den Trigger der folgenden Änd
 
 >[!NOTE]
 >
->Nachdem der Status des Problems zu Geschlossen wird (infolge des Schließens der Aufgabe oder des Projekts), und zwar unabhängig davon, in welchen Status sich die Aufgabe oder das Projekt nach dem Schließen ändert, bleibt das Problem geschlossen.
+>Nachdem der Anfragestatus zu Geschlossen wird (infolge des Schließens der Aufgabe oder des Projekts), und zwar unabhängig davon, wie sich der Aufgaben- oder Projektstatus nach dem Schließen ändert, bleibt das Problem geschlossen.
 
 #### Synchronisieren Sie den benutzerdefinierten Status des Lösungsobjekts mit dem benutzerdefinierten Status des lösbaren Objekts. {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
-Wenn Sie den Status der Aufgabe oder des Projekts in einen benutzerdefinierten Status ändern, ändert sich der Status des Problems nur dann in einen benutzerdefinierten Problemstatus, wenn die beiden folgenden Bedingungen erfüllt sind:
+Wenn Sie den Status der Aufgabe oder des Projekts in einen benutzerdefinierten Status ändern, ändert sich der Problemstatus nur dann in einen benutzerdefinierten Problemstatus, wenn die folgenden zwei Bedingungen erfüllt sind:
 
-* Die Option „Status eines lösbaren Problems automatisch aktualisieren, wenn sich der Status des Lösungsobjekts ändert“ ist ausgewählt. Weitere Informationen dazu, wie Sie diese Einstellung aktivieren, finden Sie unter [Einrichten von Adobe Workfront für die Verarbeitung von lösbaren Objekten](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* Die Option Problemstatus automatisch aktualisieren, wenn der Status des Lösungsobjekts sich ändert ausgewählt ist. Weitere Informationen finden Sie unter [Einrichten von Adobe Workfront für die Verarbeitung von lösbaren Objekten](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * Der benutzerdefinierte Status des Projekts oder der Aufgabe hat denselben aus drei Buchstaben bestehenden Code wie der benutzerdefinierte Status des Problems.
 
-Sie können benutzerdefinierte Status mit demselben Schlüssel sowohl für Probleme als auch für Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als Lösungsobjekt) in den benutzerdefinierten Status geändert wird, spiegelt die Änderung auch den Status des Problems wider. Der Statusschlüssel muss für den Problem- und Projekt- oder Aufgabenstatus identisch sein.
+Sie können benutzerdefinierte Status mit demselben Schlüssel sowohl für Probleme als auch für Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als Lösungsobjekt) in den benutzerdefinierten Status geändert wird, spiegelt die Änderung auch den Problemstatus wider. Der Statusschlüssel muss für den Problem- und Projekt- oder Aufgabenstatus identisch sein.
 
-Erstellen Sie beispielsweise einen benutzerdefinierten Projektstatus mit dem Namen „Launched“ und dem dreistelligen Code „LCD“, der „Current“ lautet. Erstellen Sie außerdem einen benutzerdefinierten Problemstatus mit dem Namen „Projekt gestartet“, auch mit dem Buchstabencode „LCD“, der „In Bearbeitung“ entspricht. Wenn Sie das Projekt als „gestartet“ markieren, ändert das Problem automatisch den Status in „Projekt gestartet“. Wenn der
-Status „Lösbares Problem“ automatisch aktualisieren Wenn der Status der Einstellung „Problemlösendes Objekt ändert sich“ nicht aktiviert ist, ändert sich der Problemstatus stattdessen in „In Bearbeitung“ (der Standardstatus).
+Angenommen, Sie erstellen ein benutzerdefinierter Projektstatus mit dem Namen „Launch“ mit dem aus drei Buchstaben bestehenden LCD-Code, was dem aktuellen entspricht. Als Nächstes erstellen Sie einen benutzerdefinierten Problemstatus mit dem Namen „Projekt gestartet“, auch mit dem Buchstaben-Code-LCD, der mit „In Bearbeitung“ übereinstimmt. Wenn Sie das Projekt als gestartet markieren, ändert das Problem automatisch den Status in Projekt gestartet. Wenn der Status „Lösbares Problem automatisch aktualisieren“ nicht aktiviert ist, wenn der Status des Lösungsobjekts sich ändert, ändert sich stattdessen der Problemstatus in „In Bearbeitung“.
 
 Weitere Informationen zum Erstellen eines benutzerdefinierten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synchronisieren Sie den Prozentwert der Fertigstellung eines Lösungsobjekts mit dem des lösbaren Objekts.
 
-Wenn ein Problem durch eine Aufgabe oder ein Projekt gelöst wird, wird der Prozentsatz der Abschlüsse des Problems auf dem lösbaren Problem aktualisiert, wenn eine der folgenden Situationen eintritt: 
+Wenn ein Problem durch eine Aufgabe oder ein Projekt gelöst wird, wird der Prozentsatz der Fertigstellung des Problems auf dem lösbaren Problem aktualisiert, wenn eine der folgenden Situationen eintritt:
 
 * Wenn jemand eine Änderung an der Aufgabe oder dem Projekt speichert.
-* Die Zeitleiste des Projekts wird neu berechnet.
+* Wenn die Zeitleiste des Projekts neu berechnet wird.
 
-Wenn ein Problem und durch ein anderes Problem gelöst werden, wird der Prozentsatz der abgeschlossenen Probleme aktualisiert, wenn eines der Probleme aktualisiert wird.
+Wenn ein Problem durch ein anderes Problem behoben wird, wird der Prozentsatz der abgeschlossenen Probleme aktualisiert, wenn eines der Probleme aktualisiert wird.
 
 ## Suchen des lösbaren Objekts in einer Aufgabe oder einem Projekt
 
+>[!NOTE]
+>
+>Um die Schritte in diesem Abschnitt ausführen zu können, müssen Sie mindestens über Anzeigezugriff auf Aufgaben und Projekte sowie über Anzeigeberechtigungen für die Aufgabe oder das Projekt verfügen, die bzw. das das auflösbare Objekt enthält, das Sie anzeigen möchten.
+
 Das Auffinden des Lösungsobjekts ist für Aufgaben und Projekte identisch.
 
-1. Navigieren Sie zu einem Projekt oder einer Aufgabe, das bzw. die Sie erstellt haben, indem Sie ein Problem in das Projekt oder die Aufgabe konvertieren.
-1. Klicken Sie auf **Projektdetails** oder das Symbol **Aufgabendetails** und klicken Sie darauf, um es zu erweitern.
-1. Klicken Sie auf **Übersicht**.
-1. Suchen Sie unten auf der Registerkarte nach **Dieses Problem wird gelöst** Feld: Das Problem, das das lösbare Objekt des Projekts oder der Aufgabe ist, wird in diesem Feld aufgeführt.
+1. Navigieren Sie zu einem Projekt oder einer Aufgabe, das/die Sie durch Konvertieren eines Problems erstellt haben.
+1. Wählen Sie links auf der Seite die Registerkarte **Aufgabendetails** oder **Projektdetails** aus.
+1. Suchen Sie unten im Abschnitt **Übersicht** das Feld **Dies löst**, in dem das lösbare Objekt der Aufgabe oder des Projekts angezeigt wird.
+
+   ![Dieses Feld wird aufgelöst](assets/this-resolves-field.png)
 
    >[!NOTE]
    >
@@ -202,11 +208,12 @@ Das Auffinden des Lösungsobjekts ist für Aufgaben und Projekte identisch.
 
 In einer Liste von Problemen können Sie Probleme, die als Lösungsobjekte gekennzeichnet sind, über Statussymbole identifizieren, indem Sie dieses Symbol in den Spalten **Statussymbole** oder **Flags** suchen:
 
-![Problemlösendes Objekt](assets/ro1.png)
+![Problemlösendes Objekt](assets/resolving-icon.png)
 
 ## Anzeigen von Informationen zu auflösbaren und auflösenden Objekten in einem Bericht
 
-Sie können Informationen zu den lösbaren oder auflösenden Objekten in der Ansicht oder im Bericht für Projekte, Aufgaben oder Probleme anzeigen.\
+Sie können Informationen zu den lösbaren oder auflösenden Objekten in der Ansicht oder im Bericht für Projekte, Aufgaben oder Probleme anzeigen.
+
 Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welchen Ansichten sie angezeigt werden können:
 
 <table style="table-layout:auto"> 
@@ -224,25 +231,25 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Hat lösbare </strong>: Zeigt einen <strong>True</strong>-Wert an, wenn dem Projekt oder der Aufgabe lösbare Probleme zugeordnet sind, und einen <strong>False</strong>-Wert, wenn dies nicht der Fall ist.</td> 
+   <td><strong>Hat lösbare Probleme</strong>: Zeigt einen Wert „True“ an, wenn dem Projekt oder der Aufgabe lösbare Probleme zugeordnet sind, und einen Wert „False“, wenn dies nicht der Fall ist.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Name des ursprünglichen Problems, ursprüngliches Problem-Eingabedatum, Name des Absenders</strong>: Zeigt den Namen und das Eingabedatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer benutzerdefinierten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen zum Erstellen einer benutzerdefinierten Textmodusansicht für ein Projekt, einen Aufgabenbericht oder eine Liste, um Informationen zum ursprünglichen Problem anzuzeigen, finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Anzeigen: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen</a>.<br></td> 
+   <td><strong>Name des ursprünglichen Problems, ursprüngliches Problem-Eingabedatum, Name des Absenders</strong>: Zeigt den Namen und das Eingabedatum des ursprünglichen Problems sowie den Namen des Benutzers an, der das Problem in einer benutzerdefinierten Textmodus-Ansicht erstellt hat.<br>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Anzeigen: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Lösbare Objekte:</strong> Zeigt eine Liste aller lösbaren Objekte in einer benutzerdefinierten Textmodusansicht für einen Projekt- oder Aufgabenbericht oder eine Liste an.</p> <p>Weitere Informationen zum Erstellen dieser Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht</a></p> </td> 
+   <td> <p><strong>Lösbare Objekte:</strong> Zeigt eine Liste aller lösbaren Objekte in einer benutzerdefinierten Textmodusansicht für einen Projekt- oder Aufgabenbericht oder eine Liste an.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Urheber eines konvertierten Problems</strong>: Zeigt Informationen zum Benutzer an, der das Problem ursprünglich protokolliert hat, das später in die Aufgabe konvertiert wurde. </td> 
+   <td><strong>Urheber eines konvertierten Problems</strong>: Zeigt Informationen zu dem Benutzer an, der das Problem ursprünglich protokolliert hat, das später in die Aufgabe konvertiert wurde. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -254,13 +261,13 @@ Die folgende Tabelle zeigt, welche Felder angezeigt werden können und in welche
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Aufgabe auflösen</strong>: Zeigt Informationen zur auflösenden Aufgabe an, die entweder aus dem ursprünglichen Problem konvertiert wurde oder manuell als Lösungsobjekt eines Problems gekennzeichnet wurde.</td> 
+   <td><strong>Aufgabe auflösen</strong>: Zeigt Informationen zur auflösenden Aufgabe an, die entweder aus dem ursprünglichen Problem konvertiert oder manuell als Lösungsobjekt für ein Problem ausgewiesen wurde.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Problem beheben</strong>: Zeigt Informationen zum Problem an, das manuell als Lösungsobjekt eines Problems angegeben wurde.</td> 
+   <td><strong>Problem beheben</strong>: Zeigt Informationen zum Problem an, das gelöst wurde und manuell als Lösungsobjekt eines Problems angegeben wurde.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

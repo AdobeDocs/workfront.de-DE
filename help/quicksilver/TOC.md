@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
 workflow-type: tm+mt
-source-wordcount: '13185'
+source-wordcount: '13189'
 ht-degree: 2%
 
 ---
@@ -1276,7 +1276,7 @@ ht-degree: 2%
    * Aufgaben {#tasks}
       * [Aufgaben: Artikelindex](manage-work/tasks/tasks-overview.md)
       * Aufgabeninformationen {#task-information}
-         * [Aufgabeninformationen](manage-work/tasks/task-information/task-information.md)
+         * [Aufgabeninformationen: Artikelindex](manage-work/tasks/task-information/task-information.md)
          * [Aufgaben - Übersicht](manage-work/tasks/task-information/tasks-overview.md)
          * [Tatsächliche Stunden anzeigen](manage-work/tasks/task-information/actual-hours.md)
          * [Übersicht über den Aufgabenverfolgungsmodus](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1439,7 +1439,7 @@ ht-degree: 2%
          * [Optimieren von Projekten in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Berechnung des Risikos zum Nettowert in einem Portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Anforderungen {#requests}
-      * [Anforderungen](manage-work/requests/requests-overview.md)
+      * [Anfragen: Artikelindex](manage-work/requests/requests-overview.md)
       * Anfrage-Warteschlangen erstellen und verwalten {#create-and-manage-request-queues}
          * [Anfrage-Warteschlangen erstellen und verwalten](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [Anfrage-Warteschlange erstellen](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)

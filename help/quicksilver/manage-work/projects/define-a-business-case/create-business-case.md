@@ -5,7 +5,7 @@ description: Sie können den Business Case verwenden, um ein Projekt anzufordern
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von oder höheren Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,13 +100,13 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
    >Die hier angezeigten Informationen entsprechen den Informationen, die in den Tools für die Ressourcenbudgetierung auf Systemebene angezeigt werden.
 
 1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [ Abschnitt ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
+1. (Optional) Wählen Sie im Dropdown **** Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
 
    Scorecards müssen erstellt werden, bevor sie mit Projekten verbunden werden können.
 
    Weitere Informationen zu Scorecards finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scorecards](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
+1. (Optional) Wählen Sie im Dropdown **** Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
 
    Benutzerdefinierte Forms muss erstellt werden, bevor sie an Projekte angehängt werden können.
 
