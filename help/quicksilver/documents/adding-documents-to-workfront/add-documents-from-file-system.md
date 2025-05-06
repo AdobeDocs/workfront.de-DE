@@ -6,9 +6,9 @@ description: Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben ode
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Die Dokumentüberprüfung ist für Ihr Unternehmen nur auf Anfrage aktiviert.
 
 Wenn die Dokumentüberprüfung aktiviert ist, werden Dateien mit einer Größe von unter 25 MB beim Hochladen überprüft. Dateien über 25 MB werden nicht gescannt.
 
-Wenn Workfront ein beschädigtes Dokument entdeckt, unterbricht Workfront den Upload-Vorgang und es wird eine Meldung angezeigt, die angibt, dass die Datei beschädigt ist. Sie erhalten auch eine E-Mail-Benachrichtigung, wenn Workfront potenziell schadhaften Inhalt entdeckt und die Datei entfernt werden soll.
+Wenn Workfront ein beschädigtes Dokument entdeckt, wird eine Meldung angezeigt, die angibt, dass die Datei beschädigt ist. Sie erhalten auch eine E-Mail-Benachrichtigung, wenn Workfront potenziell schadhaften Inhalt entdeckt und die Datei entfernt werden soll.
 
 Beschädigte Dateien werden innerhalb von 24 Stunden nach Erkennung entfernt, es sei denn, Sie entfernen sie manuell. Wenn Sie eine beschädigte Datei löschen, verfolgt Workfront diese Aktion als Aktualisierung. Wenn Sie Workfront erlauben, es zu entfernen, werden keine Aktualisierungen aufgezeichnet.
 
