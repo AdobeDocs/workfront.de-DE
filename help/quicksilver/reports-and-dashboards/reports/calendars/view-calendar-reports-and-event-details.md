@@ -1,21 +1,21 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: View Calendar Reports and Event Details
-description: You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
+title: Anzeigen von Kalenderberichten und Ereignisdetails
+description: Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie in Adobe Workfront erstellt haben oder die für Sie freigegeben wurden.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
 # Anzeigen von Kalenderberichten und Ereignisdetails
 
-You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
+Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie in Adobe Workfront erstellt haben oder die für Sie freigegeben wurden.
 
 ## Zugriffsanforderungen
 
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>New: Contributor</p>
+   <td><p>Neu: Mitwirkende</p>
        <p>oder</p>
        <p>Aktuell: Anfrage</p></td> 
   </tr> 
@@ -64,25 +64,25 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Standardkalender [!DNL Adobe Workfront]
 
-     Workfront creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.
+     Workfront erstellt einen Kalender für Sie basierend auf den Projekten, Aufgaben und Problemen, die Ihnen zugewiesen sind oder die Teams, Gruppen oder Rollen zugewiesen sind, denen Sie zugewiesen sind.
 
-   * Calendars that you have created
+   * Von Ihnen erstellte Kalender
 
-     To learn about creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+     Informationen zum Erstellen von Kalendern finden Sie unter [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-   * Calendars that other users have shared with you
+   * Kalender, die andere Benutzer für Sie freigegeben haben
 
-     To learn about sharing calendars, see [[!UICONTROL Share a calendar] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
-   ![Calendar duration](assets/view-menu-calendar-report-350x189.png)
-You can choose from the following calendar report views:
+   ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)
+Sie können aus den folgenden Kalenderberichtsansichten wählen:
 
-   * **[!UICONTROL Month]**: Displays four weeks of the calendar
-   * **[!UICONTROL Week]**: Displays one week of the calendar
-   * **[!UICONTROL Gantt]**: Displays a continuous view of the calendar
+   * **[!UICONTROL Monat]**: Zeigt vier Wochen des Kalenders an
+   * **[!UICONTROL Woche]**: Zeigt eine Kalenderwoche an
+   * **[!UICONTROL Gantt]**: Zeigt eine kontinuierliche Ansicht des Kalenders an
 
-     You can see more events in a [!UICONTROL Gantt] view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
+     Sie können weitere Ereignisse in einer [!UICONTROL Gantt“-Ansicht ], indem Sie nach unten oder seitlich scrollen. Ein Ladesymbol wird angezeigt, wenn Daten für die Ansicht gefüllt werden.
 
    >[!NOTE]
    >
@@ -90,31 +90,31 @@ You can choose from the following calendar report views:
 
 1. (Optional) Wenn Sie den Kalender in der Ansicht [!UICONTROL Monat] oder [!UICONTROL Woche] anzeigen, können Sie Ihre Kalenderansicht mit den folgenden Optionen ändern:
 
-   * Ein- oder Ausschließen von Wochenenden:
+<!--   * To include or exclude weekends:
 
-      1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf **[!UICONTROL Kalenderaktionen]** und wählen Sie dann in der Dropdown-Liste entweder **[!UICONTROL Wochenende anzeigen]** oder **[!UICONTROL Wochenende ausblenden]**.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * So ändern Sie die angezeigten Daten schnell:
+* So ändern Sie die angezeigten Daten schnell:
 
-      1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
+   1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
 
-         ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)\
-         Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht [!UICONTROL Woche] anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
+      ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)\
+      Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht [!UICONTROL Woche] anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
 
-      1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
+   1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
 
 
 1. (Optional) Um einen Kalender im Vollbildmodus anzuzeigen, klicken Sie auf die Vollbildpfeile auf der rechten Seite der Symbolleiste **[!UICONTROL Kalender]**.
-   ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Press Esc to return to the normal view of the calendar.
+   ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)\
+   Drücken Sie Esc, um zur normalen Kalenderansicht zurückzukehren.
 
-1. (Optional) To hide the events for a project or calendar grouping linked to the calendar, clear the project or calendar grouping in the project list.
-   ![Hide events](assets/hide-events-for-project-or-cal-grouping.png)
-You can make the events visible again by selecting the [!UICONTROL project] or calendar grouping in the project list.
+1. (Optional) Um die Ereignisse für ein mit dem Kalender verknüpftes Projekt oder eine mit dem Kalender verknüpfte Kalendergruppierung auszublenden, löschen Sie das Projekt oder die Kalendergruppierung in der Projektliste.
+   ![Ereignisse ausblenden](assets/hide-events-for-project-or-cal-grouping.png)
+Sie können die Ereignisse wieder anzeigen, indem Sie das [!UICONTROL Projekt] oder die Kalendergruppierung in der Projektliste auswählen.
 
 ## Kalenderbericht-Ereignisdetails anzeigen
 
-You can see the details of an event in a calendar, for both current and past events.
+Sie können die Details eines Ereignisses in einem Kalender für aktuelle und vergangene Ereignisse anzeigen.
 
 1. Navigieren Sie zum Ereignis, für das Sie die Details wissen möchten, und klicken Sie dann auf das Ereignis. Die Details werden in einem Bedienfeld auf der rechten Seite geöffnet.
 1. (Optional) Klicken Sie auf den Titel des Objekts, um das verknüpfte Projekt, die zugehörige Aufgabe oder das zugehörige Problem zu öffnen.
