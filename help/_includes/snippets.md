@@ -1,5 +1,5 @@
 ---
-source-git-commit: affff16630379333465c118734babf7a239af272
+source-git-commit: cbb434ff7c8f614b6ca3f657f01945306d26068c
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## 1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 
 ## Von Formular-Designer zu Allgemein {#form-designer-default}
 
@@ -98,7 +98,7 @@ Sie können die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeig
 
 ## Schritt 1: Erreichbarkeit der Benutzer {#step-1-to-users}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **![[!UICONTROL Benutzer[Benutzer]** Symbol]](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Benutzer![Benutzer]** Symbol](/help/_includes/assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
@@ -360,8 +360,8 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 ## Neueste DPV-Version {#latest-version}
 
 **Neueste Version**:
-* Mac: 2.1.44, Stand 1/2/2025
-* Windows: 2.1.44 vom 1/2/2025
+* Mac: 2.1.48, Stand 5/7/2025
+* Windows: 2.1.48 vom 5/7/2025
 
 <!-- Release -->
 

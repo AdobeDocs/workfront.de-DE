@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 ve
 >[!IMPORTANT]
 >
 >Die auf dieser Seite aufgeführten Funktionen sind Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kunden verfügbar.
+
+## Assets in einem verknüpften Google-Ordner muss einzeln hinzugefügt werden, damit es in Workfront angezeigt wird
+
+>[!NOTE]
+>
+>* Vorschau-Version: 31. Mai 2025; Produktionsversion für alle Kunden: 31. Mai 2025
+
+Google [ die Sicherheitskontrollen ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) Drittanbieteranwendungen, die auf Google Drive zugreifen, und erfordert, dass Anwendungen ein Einverständnismodell pro Benutzer verwenden. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Weitere Informationen [ Sie unter ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) von Dokumentintegrationen konfigurieren .
+
+Wichtige Funktionen, die unverändert bleiben:
+
+* Suchen und Filtern nach Assets und Ordnern über das Google Drive-Modal
+* Verknüpfen von Assets mit Workfront-Objekten von Google Drive
+* Hochladen von Assets in Google Drive über das Dropdown-Menü „Senden an“ auf der Dokumentseite
+* Anzeigen und Zugreifen auf die Ordnerstruktur im Bereich „Mein Laufwerk“ eines Benutzers
+* Verknüpfen einer neuen Version eines Assets von Google Drive mit einem vorhandenen Dokument in Workfront
+* Verknüpfen von Ordnern mit Workfront-Objekten von Google Drive
+* Hochladen von Assets in Google Drive durch Ziehen und Ablegen von Dokumenten in einen verknüpften Ordner
+* Erstellen eines neuen Google Drive-Dokuments in Workfront
 
 
 ## Neue Schaltflächen für Dokumentgenehmigungsentscheidungen in der Proofing-Anzeige verfügbar

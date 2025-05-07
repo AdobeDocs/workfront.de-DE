@@ -4,9 +4,10 @@ description: Verbesserungen beim Reporting für das zweite Quartal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: afd73cab145c1f1b73c06ee093de92a28f10bea4
+exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Wir haben das Erscheinungsbild des Workfront-Kalenders auf ein modernes Design a
 * Erstellen und Umbenennen des Kalenders
 * Die Kalenderaktionen wurden in ein Menü Mehr neben dem Kalendernamen verschoben
 * Ein neues seitliches Bedienfeld zum Anzeigen von Kalenderinformationen
+* Wochenenden können nicht mehr ausgeblendet werden
 * Und mehr
 
 Weitere Informationen finden Sie in den Artikeln [Kalender](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
