@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Authentifizierungs-URL]</td> 
+      <td role="rowheader">[!UICONTROL-Authentifizierungs-URL]</td> 
       <td>Die für die Benutzerauthentifizierung verwendete vollständige URL. [!DNL Workfront] navigiert Benutzer im Rahmen des OAuth-Bereitstellungsprozesses zu dieser Adresse.</td> 
      </tr> 
      <tr> 
@@ -187,7 +187,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
 
    >[!TIP]
    >
-   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL &#x200B; Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
+   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL  Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL ApiKey]**-Authentifizierung für den **[!UICONTROL Authentifizierungstyp]** ausgewählt haben, geben Sie den API-Schlüssel ein, der vom benutzerdefinierten Dokumentanbieter ausgestellt wurde.
 
@@ -250,4 +250,12 @@ So konfigurieren Sie [!DNL Workfront] zum Senden von Metadaten an [!DNL Workfron
 
 ## Einschränkungen
 
-* Die Google Drive-Dokumentintegration unterstützt das Hinzufügen von Ordnern und Bildern aus dem Bereich „Mein Laufwerk“ auf dem Google-Laufwerk. Sie können keine Ordner oder Bilder von einem freigegebenen Laufwerk hinzufügen. Weitere Informationen zu [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).
+### Google Drive-Integration
+
+* Wenn ein verknüpfter Ordner zu Workfront hinzugefügt wird, werden die Dateien im Ordner nicht mehr automatisch hinzugefügt.
+   * Sie können den Google-Ordner ohne die Dateien zu Workfront hinzufügen und dann die einzelnen Dateien zu Workfront hinzufügen. Die Dateien werden automatisch zum Google-Ordner in Workfront hinzugefügt.
+Oder
+   * Sie können einen Dokumentordner in Workfront erstellen, dann alle Dateien im Google-Ordner auswählen und sie zum Workfront-Ordner hinzufügen.
+
+
+* Die Google Drive-Dokumentintegration unterstützt das Hinzufügen von Dateien aus dem Bereich Mein Laufwerk Ihres Google-Laufwerks. Sie können keine Ordner oder Bilder von einem freigegebenen Laufwerk hinzufügen. Weitere Informationen zu [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).
