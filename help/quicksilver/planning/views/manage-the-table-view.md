@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3497'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
-   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
+   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout-Vorlage</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. (Optional) Aktivieren Sie die Einstellung **Auf die gesamte Zeile anwenden** in der oberen rechten Ecke des Felds Zeilenfarben . Die gesamte Zeile, in der die Bedingung erfüllt ist, wird automatisch in der ausgewählten Farbe angezeigt.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Wenn die Einstellung Auf die gesamte Zeile anwenden deaktiviert ist, wird nur auf der linken Seite des Primären Felds ein schmaler Farbindikator mit der ausgewählten Farbe angezeigt. Die Einstellung ist standardmäßig deaktiviert.
+   >* Wenn die Einstellung Auf die gesamte Zeile anwenden deaktiviert ist, wird nur auf der linken Seite des Primären Felds ein schmaler Farbindikator mit der ausgewählten Farbe angezeigt. Die Einstellung ist standardmäßig deaktiviert.
+   >
+   >* Sie können keine Zeilenfarben auf eine ganze Zeile anwenden, wenn Sie mindestens eine Gruppierung in der Tabellenansicht ausgewählt haben.
 
 1. Klicken Sie auf eine Stelle außerhalb des **Zeilenfarben**-Felds, um es zu schließen. Die Farben werden automatisch angewendet.
 
@@ -525,3 +527,49 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 
 Weitere Informationen finden Sie im Abschnitt „Aktivieren der Echtzeit-Anwesenheitsindikator“ im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
+<div class="preview">
+
+## Exportieren der Tabellenansicht
+
+Sie können Informationen in der Tabellenansicht in eine CSV- oder Excel-Datei exportieren.
+
+Beachten Sie beim Exportieren der Tabellenansicht Folgendes:
+
+* Die in eine Excel-Datei exportierten Informationen behalten die Filter, Gruppierungen und Sortierungen bei, die in Workfront Planning auf die Tabellenansicht angewendet wurden. Gruppierungen sind in der CSV-Datei nicht sichtbar.
+
+* Miniaturansichten und benutzerdefinierte Zeilenfarben werden in exportierten Dateien nicht unterstützt.
+
+* Es werden nur Felder exportiert, die in der Workfront-Benutzeroberfläche sichtbar sind. Ausgeblendete Felder werden nicht exportiert.
+
+So exportieren Sie Informationen aus der Tabellenansicht oder einem Datensatztyp:
+
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf die Registerkarte Tabellenansicht .
+1. Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Tabellenansicht“ und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-menu.png).
+1. Klicken Sie **Exportieren** und wählen Sie dann eines der folgenden Formate aus:
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >Sie können keine Informationen aus der Tabellenansicht exportieren, wenn Sie auf dem Bildschirm eine andere Ansicht anzeigen. Sie müssen die Tabellenansicht anzeigen, die Sie exportieren möchten, um auf die Option Exportieren im Menü Mehr zugreifen zu können.
+
+   Die Datei wird auf Ihren Computer heruntergeladen.
+
+1. (Optional) Gehen Sie zum Ordner Downloads auf Ihrem Computer und suchen Sie die heruntergeladene Datei.
+
+   Der Name der exportierten Datei folgt dem folgenden Format:
+
+   `Name of the view - name of the record type`
+
+   Beispielsweise generiert eine Tabellenansicht für den Datensatztyp Kampagnen eine Datei mit dem Namen `Table view - Campaigns`.
+
+   Die Datei enthält die folgenden Informationen:
+
+   * Die Spaltenüberschriften werden in der Excel-Datei schwarz hervorgehoben
+   * Alle in der Workfront-Benutzeroberfläche angezeigten Felder, nach denselben Kriterien sortiert und gefiltert
+   * Gruppierungen bleiben in der Excel-Datei erhalten
+
+   Sie können nun die exportierten Dateien für andere freigeben oder sie an eine beliebige Kommunikation anhängen.
+
+</div>

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 5%
 
 ---
@@ -44,19 +44,18 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* Datensatztypen
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * Sie können Datensatztypen für Personen in Ihrer Organisation freigeben.
+   * Die Ebene der für den Arbeitsbereich gewährten Berechtigungen wird als geerbte Berechtigungen für den Datensatztyp angezeigt.
+   * Sie können keinen Datensatztyp mit einer höheren Berechtigungsstufe freigeben, als der Benutzer für den Arbeitsbereich hat.
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
--->
+
 
 * Ansichten
 
@@ -67,7 +66,7 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
-Intern können Sie einen Arbeitsbereich oder eine Ansicht für die folgenden Workfront-Entitäten freigeben:
+Intern können Sie einen Arbeitsbereich, eine Ansicht oder <span class="preview"> Datensatztyp-</span> für die folgenden Workfront-Entitäten freigeben:
 
 * Benutzende
 * Gruppen
@@ -76,6 +75,11 @@ Intern können Sie einen Arbeitsbereich oder eine Ansicht für die folgenden Wor
 * Aufgabengebiete
 
 <span class="preview"> Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und die mit ihnen verknüpften Felder übernommen. </span>
+
+>[!IMPORTANT]
+>
+>Wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wurde, müssen die Benutzenden, für die Sie Planning-Objekte freigeben möchten, zum Adobe Admin Console hinzugefügt werden. Sie können Planning-Objekte nicht für Benutzende von Workfront freigeben, die nicht zum Adobe Admin Console hinzugefügt wurden.
+
 
 ## Überlegungen zur Freigabe von Objekten in Adobe Workfront Planning
 

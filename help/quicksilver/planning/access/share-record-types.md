@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Das Unternehmen muss in das einheitliche Adobe-Erlebnis integriert sein, damit Benutzer Berechtigungen für eine Ansicht über eine Berechtigungsanfrage anfordern und erteilen können. </p>
+<p>Benutzende müssen zur Adobe Admin Console hinzugefügt werden, um Berechtigungen für Workfront Planning-Ansichten zu erhalten.</p>
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -199,7 +199,7 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 
 ## Entfernen von Berechtigungen für einen Datensatztyp
 
-Sie können Benutzerberechtigungen von einem Datensatztyp entfernen. Sie behalten jedoch zumindest den Ansichtszugriff auf den Arbeitsbereich, der ihnen die Berechtigung gibt, zumindest den Datensatztyp anzuzeigen. Sie müssen ihren Zugriff aus dem Arbeitsbereich entfernen, wenn sie keine Berechtigungen für die Datensatztypen im Arbeitsbereich haben sollen.
+Sie können Benutzerberechtigungen von einem Datensatztyp entfernen. Sie behalten jedoch mindestens die Berechtigung Anzeigen für den Arbeitsbereich bei, wodurch sie mindestens die Berechtigung Anzeigen für den Datensatztyp erhalten. Sie müssen ihren Zugriff aus dem Arbeitsbereich entfernen, wenn sie keine Berechtigungen für die Datensatztypen im Arbeitsbereich haben sollen.
 
 {{step1-to-planning}}
 
