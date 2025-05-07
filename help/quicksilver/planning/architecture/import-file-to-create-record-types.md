@@ -109,7 +109,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * <!--In the Production environment,--> Verbindungsfelder zu Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
+   * &#x200B;<!--In the Production environment,--> Verbindungsfelder zu Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
