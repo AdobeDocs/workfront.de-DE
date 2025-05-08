@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront
 
 ### Aktualisierung der Benutzeroberfläche für das Ankündigungscenter
 
-**Vorschau-Version: 27. Februar 2025; wird noch bekannt gegeben**
+**Vorschau-Version: 27. Februar 2025; ab der Woche vom 6. März 2025**
 
 Wir haben das Announcement Center mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -71,7 +71,7 @@ Um die Einstellungen anzuzeigen, gehen Sie zu Einrichtung > Teams.
 
 ### Aktualisierung der Benutzeroberfläche für die Einstellungen des Genehmigungsprozesses im Setup
 
-**Vorschau-Version: 6. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 6. Februar 2025; Produktions-Version: Ab der Woche vom 13. Februar 2025**
 
 Das Dialogfeld Genehmigungseinstellungen wurde um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -177,7 +177,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Aktualisierungen der Benutzeroberfläche für Teamanfragen
 
-**Vorschau-Version: 6. März 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 6. März 2025; Produktions-Version: 13. März 2025**
 
 Wir haben die Seite „Teamanfragen“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 

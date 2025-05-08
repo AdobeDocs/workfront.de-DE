@@ -5,9 +5,9 @@ description: Sie können Elemente in leicht finden [!DNL Adobe Workfront]  indem
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Sie können in Workfront nach folgenden Objekten suchen:
 
 Die für die Suche verfügbaren Felder basieren auf dem Typ der Suche: Einfache oder [!UICONTROL Erweiterte Suche].
 
-* **Einfache Suche**: Bei der Suche nach Objekten in einer einfachen Suche sucht [!DNL Workfront] in den folgenden Feldern nach Text, der Ihre Keywords enthalten könnte:
+* **Einfache Suche**: Bei der Suche nach Objekten in einer Einfache Suche sucht [!DNL Workfront] in den folgenden Feldern nach Text, der Ihre Keywords enthalten könnte:
 
    * Objektnamen
    * Beschreibungen
@@ -95,7 +95,7 @@ Die für die Suche verfügbaren Felder basieren auf dem Typ der Suche: Einfache 
 
 >[!NOTE]
 >
->Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ &#x200B;].
+>Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ ].
 
 ## Verstehen der Einschränkungen [!DNL Workfront] Suchvorgänge
 
@@ -171,7 +171,7 @@ Eine Liste der spezifischen Felder, nach denen in der Standardsuche gesucht wird
 
 >[!NOTE]
 >
->Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ &#x200B;].
+>Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ ].
 
 * [Durchführen einer einfachen Suche](#perform-a-basic-search)
 * [Einfache Suche verfeinern](#refine-a-basic-search)
@@ -191,9 +191,10 @@ So führen Sie eine einfache Suche durch:
 
    ![Suche nach Objekttyp](assets/search-objecttype.png)
 
-1. Beginnen Sie **[!UICONTROL Feld]** Suchen“ mit der Eingabe der gesuchten Informationen.\
-   Informationen dazu, welche Felder in [!DNL Workfront] durchsucht werden, finden Sie unter [Grundlegendes zur Suche](#understand-search).\
-   ![Dropdown-Liste „Suche“](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. Beginnen Sie **[!UICONTROL Feld]**Suchen“ mit der Eingabe der gesuchten Informationen.
+Informationen dazu, welche Felder in [!DNL Workfront] durchsucht werden, finden Sie unter [Grundlegendes zur Suche](#understand-search).
+   ![Dropdown-Liste „Suche“](assets/qs-search-drop-down-highlighted-350x234.png)
+
    Wenn Sie mit der Eingabe in die Suchleiste beginnen, gibt [!DNL Workfront] Empfehlungen, die auf Ihrem Ansichtsverlauf basieren, und es wird das gesuchte Keyword in Blau hervorgehoben.
 
 1. Wenn das gesuchte Element im Menü [!UICONTROL mit automatischer Textvervollständigung] angezeigt wird, klicken Sie darauf.
@@ -211,7 +212,7 @@ So führen Sie eine einfache Suche durch:
    >Manchmal werden Varianten eines Wortes in der Liste der gefundenen Elemente angezeigt.\
    >Wenn Sie beispielsweise nach „Marketing“ suchen, werden Objekte angezeigt, die im Namen entweder „Marketing“ oder „Markt“ enthalten.
 
-1. (Optional) Wenn Ihre Suche zu viele Ergebnisse generiert hat, verfeinern Sie Ihre Suche wie in [Verfeinern einer einfachen Suche](#refine-a-basic-search) beschrieben.
+1. (Optional) Wenn Ihre Suche zu viele Ergebnisse generiert hat, verfeinern Sie Ihre Suche wie in [Einfache Suche verfeinern](#refine-a-basic-search) beschrieben.
 1. (Optional) Um zu der Seite zurückzukehren, auf der Sie sich vor der Suche befanden, klicken **[!UICONTROL oben rechts auf]** Schließen“.
 
 >[!NOTE]
@@ -220,19 +221,20 @@ So führen Sie eine einfache Suche durch:
 
 #### Einfache Suche verfeinern
 
-Nachdem Sie eine einfache Suche durchgeführt haben, wie unter [[!UICONTROL Durchführen einer einfachen Suche]](#perform-a-basic-search) beschrieben, können Sie die Suche verfeinern.
+Nach der Durchführung einer einfachen Suche - wie unter [[!UICONTROL Durchführen einer einfachen Suche]](#perform-a-basic-search) beschrieben - können Sie die Suche verfeinern.
 
 Verwenden Sie die Symbolleiste links neben Ihren Suchergebnissen, um die gesuchten Informationen einzugrenzen.
 
 So verfeinern Sie eine Suche:
 
 1. (Bedingt) Wenn Sie eine allgemeine Suche durchgeführt haben, wählen Sie das gesuchte Objekt in der Liste der Objekte oben links in den Ergebnissen aus.
-1. Suchen Sie die Felder, die für die Objekte verfügbar sind, die bei der Suche angezeigt werden, in der Symbolleiste links neben den Ergebnissen.\
-   Die Werte der einzelnen Felder werden, sortiert nach Anzahl, für jedes Feld bis zu 10 Werte angezeigt.
-1. Klicken Sie in eines der verfügbaren Felder, um die Ergebnisliste zu verkürzen.\
-   Die von Ihnen vorgenommenen Auswahlen werden blau hervorgehoben und die nicht ausgewählten Feldwerte sind ausgeblendet.\
-   Nachdem Sie jeden neuen Wert ausgewählt haben, werden die Ergebnisse auf der rechten Seite dynamisch aktualisiert.\
-   ![Suche verfeinern](assets/qs-refine-search-350x175.png)
+1. Suchen Sie die Felder, die für die Objekte verfügbar sind, die bei der Suche angezeigt werden, in der Symbolleiste links neben den Ergebnissen.
+Die Werte der einzelnen Felder werden, sortiert nach Anzahl, für jedes Feld bis zu 10 Werte angezeigt.
+1. Klicken Sie in eines der verfügbaren Felder, um die Ergebnisliste zu verkürzen.
+Die von Ihnen vorgenommenen Auswahlen werden blau hervorgehoben und die nicht ausgewählten Feldwerte sind ausgeblendet.
+Nachdem Sie jeden neuen Wert ausgewählt haben, werden die Ergebnisse auf der rechten Seite dynamisch aktualisiert.
+
+   ![Registerkarte „Einfache Suche“](assets/basic-search.png)
 
 1. (Optional) Klicken Sie auf die ausgewählten Werte, um die Auswahl aufzuheben und alle Werte für jedes Feld erneut anzuzeigen.
 
@@ -242,7 +244,7 @@ So verfeinern Sie eine Suche:
 
 >[!NOTE]
 >
->Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ &#x200B;].
+>Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ ].
 
 * [Verwenden [!UICONTROL erweiterten Suche]](#use-advanced-search)
 
@@ -260,17 +262,15 @@ So führen Sie eine erweiterte Suche durch:
    Die [!UICONTROL Erweiterte Suche] wird von rechts geöffnet und deckt den größten Teil der vorherigen Seite ab.
 
 1. Wählen Sie den Typ des Objekts aus, nach dem Sie suchen.\
-   **[!UICONTROL Projekte]** ist standardmäßig ausgewählt.
+   **[!UICONTROL Aufgaben]** ist standardmäßig ausgewählt.
 
-   ![Erweiterte Suchobjekte](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Erweiterte Suchobjekte](assets/advanced-search.png)
 
 1. (Optional) Geben Sie ein Keyword in das Feld oben in der Liste ein.
-1. (Optional) Klicken Sie **[!UICONTROL Ergebnisse filtern]**, um Ihre Suchergebnisse nach bestimmten Feldtypen zu filtern, und wählen Sie dann ein Feld aus der Liste aus. Wählen Sie bei Bedarf auch einen Wert für das Feld aus.\
-   Oder\
-   Neuen Filter hinzufügen.
+1. (Optional) Schalten Sie **[!UICONTROL Ergebnisse filtern]** ein, um einen Filter zur Verfeinerung Ihrer Suche zu erstellen. Klicken Sie **Abschluss auf**&#x200B;Übernehmen“.
 
 1. Klicken Sie auf **[!UICONTROL Suchen]**.\
-   Rechts neben der Symbolleiste [!UICONTROL Erweiterte Suche“ wird eine Liste mit Elementen &#x200B;], die Ihrer Suche entsprechen.
+   Rechts neben der Symbolleiste [!UICONTROL Erweiterte Suche“ wird eine Liste mit Elementen ], die Ihrer Suche entsprechen.
 
 1. (Optional) Um zu der Seite zurückzukehren, auf der Sie sich vor der Suche befanden, klicken **[!UICONTROL oben rechts auf]** Schließen“.
 
