@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ Um diese Änderung anzuzeigen, navigieren Sie zu Dokumente > Klicken Sie auf das
 
 ## Berichte und Dashboards
 
-+++Erweitern Sie , um Berichte und Aktualisierungen der Benutzeroberfläche von Dashboards anzuzeigen
+### Bericht „Zugriffsebene“ mit neuem Stil aktualisiert
+
+**Vorschau-Version: wird noch bekannt gegeben; Produktionsversion: Ab der Woche vom 6. Februar 2025**
+
+Wir haben den Bericht „Zugriffsebene“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen am Bericht. Die Funktionalität wurde nicht geändert.
+
+Um einen Team-Bericht zu erstellen, gehen Sie zu Berichte > Neuer Bericht > Zugriffsebene.
+
++++Erweitern Sie , um mehr Berichte und Dashboards-Aktualisierungen in der Benutzeroberfläche anzuzeigen
 
 ### Aktualisierter Teambericht mit neuem Stil
 
-**Vorschau-Version: 30. Januar 2025; ab der Woche vom 6. Februar 2025**
+**Vorschau-Version: 30. Januar 2025; Produktions-Version: Ab der Woche vom 6. Februar 2025**
 
 Wir haben den Teambericht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
