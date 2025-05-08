@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Linke Navigation in [!DNL Adobe Workfront]
 description: Der linke Navigationsbereich in [!DNL Workfront]  erleichtert die Navigation durch das System.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1373'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +83,7 @@ Das linke Bedienfeld ist für die folgenden Bereiche verfügbar:
 * [Standardabschnitte im Bereich [!UICONTROL Anfragen]](#default-sections-in-the-requests-area)
 * [Standardabschnitte im Bereich [!UICONTROL Ressourcen]](#default-sections-in-the-resourcing-area)
 * [Standardabschnitte im Bereich [!UICONTROL Projekte]](#default-sections-in-the-projects-area)
-* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]](#default-sections-in-the-timesheets-area)
+* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]](#default-sections-in-the-timesheets-area)
 * [Standardabschnitte im  [!DNL Goals] -Bereich](#default-sections-in-the-goals-area)
 
 ### Standardabschnitte im Bereich [!UICONTROL Dashboards]
@@ -130,7 +131,7 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Planer</strong></td> 
+   <td role="rowheader"><strong>Planerin oder Planer</strong></td> 
    <td>Zeigt den Ressourcenplaner an. Verwenden Sie diesen Bereich, um Ihre Ressourcen für mehrere Projekte zu planen. Informationen zur Verwendung des Ressourcenplaners finden Sie unter <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Erste Schritte mit der Ressourcenplanung</a>.</td> 
   </tr> 
   <tr> 
@@ -169,7 +170,7 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
 
 Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Projekte] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
-### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]
+### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]
 
 Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL Arbeitszeittabellen]** angezeigt:
 
@@ -179,7 +180,7 @@ Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL
         <td>Zeigt standardmäßig alle aktiven Arbeitszeittabellen an. Um übermittelte oder geschlossene Arbeitszeittabellen anzuzeigen, wählen Sie [!UICONTROL Übermittelt] oder [!UICONTROL Alle] aus dem Dropdown-Menü [!UICONTROL Filter] aus.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Von mir genehmigte-Arbeitszeittabellen]</strong></td>
+        <td><strong>[!Von mir genehmigte UICONTROL-Arbeitszeittabellen]</strong></td>
         <td>Zeigt standardmäßig Arbeitszeittabellen an, die zur Genehmigung eingereicht wurden. Um aktive oder alle Arbeitszeittabellen anzuzeigen, bei denen Sie die genehmigende Person sind, wählen Sie [!UICONTROL Active] oder Anwendung aus dem Dropdown-Menü Filter aus.</td>
     </tr>
     <tr>
@@ -242,7 +243,7 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
 
    Die Objektseite wird angezeigt.
 
-1. (Bedingt) Wenn Sie einen Bereich ausgewählt haben, der eine Liste von Objekten enthält, z. B. **[!UICONTROL Projekte]** oder **[!UICONTROL Portfolios]**, müssen Sie folgende Schritte ausführen, um auf die Navigation im linken Bereich zuzugreifen:
+1. (Bedingt) Wenn Sie einen Bereich ausgewählt haben, der eine Liste von Objekten enthält, z. B **[!UICONTROL Projekte]** oder **[!UICONTROL Portfolios]**, müssen Sie folgende Schritte ausführen, um auf die Navigation im linken Bereich zuzugreifen:
 
    1. Klicken Sie auf ein Objekt in der Liste.
    1. (Optional) Im Navigationsbereich auf der linken Seite können Sie ein anderes Objekt, z. B. **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]** innerhalb eines Projekts, im linken Bereich auswählen, um auf eine Liste von Objekten zuzugreifen, und dann auf den Namen des bestimmten Objekts klicken.\
@@ -254,12 +255,6 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
    Sie müssen über Berechtigungen zum Bearbeiten des -Objekts verfügen, bevor Sie die Informationen bearbeiten können.
 
    ![Abschnitte des linken Bedienfelds](assets/NWE-left-navigation-panel.png)
-
-1. (Optional) Klicken Sie **[!UICONTROL Mehr anzeigen]** am unteren Rand des linken Bedienfelds, um weitere Abschnitte anzuzeigen.
-
-   >[!NOTE]
-   >
-   >Diese Option ist nicht verfügbar, wenn standardmäßig alle Abschnitte im linken Bereich angezeigt werden.
 
 1. (Optional) Um einen Dashboard-Schnelllink hinzuzufügen, klicken **[!UICONTROL unten]** linken Bereich auf „Dashboard hinzufügen“ und führen Sie dann folgende Schritte aus:
 

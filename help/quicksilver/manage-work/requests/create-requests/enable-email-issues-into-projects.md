@@ -6,9 +6,9 @@ description: Sie können ein Projekt so konfigurieren, dass Benutzende dem Proje
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren,
 >Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
 
 1. Navigieren Sie zu dem Projekt, das Sie aktivieren möchten, um Probleme per E-Mail zu empfangen.
-1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
+1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 1. Wählen **Bereich &quot;**&quot; die Option **Als Warteschlange für Hilfeanfragen veröffentlichen**.
 
 1. Scrollen Sie nach unten zum Bereich **E-Mail-Warteschlangeneinstellungen** und wählen Sie dann **Anforderungsaufnahme per E-Mail aktivieren** aus.

@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ So verknüpfen Sie einen vorhandenen globalen Genehmigungsprozess mit einem Proj
 1. Wechseln Sie zu dem Arbeitselement, mit dem Sie einen Genehmigungsprozess verknüpfen möchten.
 1. Klicken Sie **linken** auf „Genehmigungen“.
 
-   Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Genehmigungen** klicken.
-
    ![Abschnitt „Genehmigungen“ in der Aufgabe](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Vorhandene verwenden oder Einzelnutzungsgenehmigungen erstellen](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ So erstellen Sie einen Genehmigungsprozess für den einmaligen Gebrauch:
 1. Wechseln Sie zu dem Projekt, der Aufgabe, dem Problem, der Vorlage oder der Vorlagenaufgabe, dem bzw. der Sie einen Genehmigungsprozess zuordnen möchten.
 1. Klicken Sie **linken** auf „Genehmigungen“.
 
-   Möglicherweise müssen Sie auf **Mehr anzeigen** > **Genehmigungen** klicken.
-
    ![Abschnitt „Genehmigungen“ in der Aufgabe](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klicken Sie **Einmalige Verwendung erstellen**.
@@ -231,8 +227,6 @@ So entfernen oder löschen Sie einen Genehmigungsprozess aus einem Arbeitselemen
 
 1. Wechseln Sie zum Projekt, zur Aufgabe, zum Problem, zur Vorlage oder zur Vorlagenaufgabe, in dem bzw. der Sie einen zuvor hinzugefügten Genehmigungsprozess entfernen möchten.
 1. Klicken Sie **linken** auf „Genehmigungen“.
-
-   Möglicherweise müssen Sie auf **Mehr anzeigen** > **Genehmigungen** klicken.
 
    ![Abschnitt „Genehmigungen“ in der Aufgabe](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 

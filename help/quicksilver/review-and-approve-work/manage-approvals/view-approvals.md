@@ -6,9 +6,9 @@ description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmig
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Sie erhalten Einblick in die Position einer Aufgabe oder eines Problems, an der 
 So zeigen Sie den aktuellen Status an, in dem sich eine Aufgabe oder ein Problem im Genehmigungsprozess befindet:
 
 1. Zu dem Projekt, der Aufgabe oder dem Problem gehen, mit dem/dem die Genehmigung verknüpft ist.
-1. Klicken Sie im linken Bedienfeld auf **Genehmigungen**. Möglicherweise müssen Sie zunächst auf &quot;**anzeigen“**.
+1. Klicken Sie im linken Bedienfeld auf **Genehmigungen**.
 
    Die Registerkarte Genehmigungen enthält vollständige Informationen zu allen früheren Genehmigungspfaden und -schritten. Sie können genau sehen, wer eine Entscheidung über die Genehmigung getroffen hat oder ob die Genehmigung für ein Team, ein Aufgabengebiet oder einen Benutzer festgelegt ist.
 
