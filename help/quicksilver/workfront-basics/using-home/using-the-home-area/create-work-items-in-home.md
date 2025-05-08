@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Erstellen von Arbeitselementen und Projekten im Bereich Startseite
-description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " &#x200B;].
+description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " ].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
 
 # Erstellen von Arbeitselementen und Projekten im Bereich Startseite
 
-Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
+Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; ].
 
 Von zu Hause aus haben Sie folgende Möglichkeiten
 
@@ -39,7 +39,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL Arbeit] oder höher</p> </td> 
+   <td>
+    <p>Neu: [!UICONTROL Standard]</p> 
+    <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
@@ -59,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliches Aufgabenelement erstellen
 
-Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
+Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL  persönliche ] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
 Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
 
