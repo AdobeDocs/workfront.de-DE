@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ### Aktualisierung der Benutzeroberfläche für die erweiterte Suche
 
-**Vorschau-Version: 17. April; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 17. April; Produktions-Version: Ab der Woche vom 24. April**
 
 Der Bereich Erweiterte Suche wurde durch folgende Änderungen aktualisiert:
 
@@ -344,19 +344,16 @@ Wir haben die Dokumentfreigabeseite für externe Benutzer mit einem moderneren D
 
 Externe Benutzer können von dieser Seite aus nicht mehr auf _Meine Einstellungen_ zugreifen.
 
-<!--
+### Aktualisierte Seite zur Registrierung externer Benutzer
 
-### Updated external user registration page
+**Vorschau-Version: 24. April 2024; Produktionsversion: Ab der Woche vom 8. Mai 2024**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+Wir haben die Seite zur externen Benutzerregistrierung mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## Lizenzen
 
+### Aktualisierte Lizenzvereinbarungsseite
 
-## Licenses
+**Vorschau-Version: 24. April 2024; Produktionsversion: Ab der Woche vom 8. Mai 2024**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+Wir haben die Lizenzvertragsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
