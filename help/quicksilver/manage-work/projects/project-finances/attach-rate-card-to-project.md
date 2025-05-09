@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Tarifkarte an ein Projekt anhängen
 
 1. Gehen Sie zum Projekt.
-1. Klicken **im linken** auf „Abrechnungssätze“. Möglicherweise müssen Sie zunächst auf &quot;**anzeigen“**.
+1. Klicken **im linken** auf „Abrechnungssätze“.
 1. Klicken Sie **Abrechnungssatz hinzufügen > Tarifkarte anhängen**.
 
    Die Seite Tarifkarte anhängen wird geöffnet. Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

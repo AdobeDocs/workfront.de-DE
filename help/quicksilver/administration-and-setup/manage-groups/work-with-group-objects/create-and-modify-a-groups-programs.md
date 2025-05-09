@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -25,28 +25,34 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">einem Benutzer uneingeschränkten Administratorzugriff gewähren</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td>
+   <td><p>Neu: Standard</p>
+       <p>Oder</p>
+       <p>Aktuell: Plan</p></td>
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Die Programme müssen mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem müssen Sie über die Berechtigung zum Anzeigen der Programme verfügen, entweder weil Sie sie erstellt haben oder weil sie für Sie freigegeben wurden</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td>
+   <td> <p>Das Programm muss mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem benötigen Sie Berechtigungen zum Anzeigen des Programms, entweder weil Sie es erstellt haben oder weil es für Sie freigegeben wurde.</p></td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie wissen möchten, über welchen Plan oder Lizenztyp Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

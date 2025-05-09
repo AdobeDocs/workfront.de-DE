@@ -6,9 +6,9 @@ description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgab
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Sie können den Abrechnungssatz eines Aufgabengebiets für ein Projekt wie folgt
 So überschreiben Sie einen Abrechnungssatz für ein Projekt:
 
 1. Wechseln Sie zu dem Projekt, für das Sie die Abrechnungssätze überschreiben möchten.
-1. Klicken **im linken** auf „Abrechnungssätze“. Möglicherweise müssen Sie zunächst auf &quot;**anzeigen“**.
+1. Klicken **im linken** auf „Abrechnungssätze“.
 1. Klicken Sie **Abrechnungssatz hinzufügen** > **Neuer Abrechnungssatz**.
 
    Das Feld „Neuer Abrechnungssatz“ wird geöffnet.

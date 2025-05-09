@@ -7,9 +7,9 @@ description: Sie können den Workload Balancer verwenden, um Ressourcen für Arb
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Die Seite Ihres Home-Teams wird angezeigt.
 {{step1-to-projects}}
 
 1. Klicken Sie auf den Namen eines Projekts, um die Projektseite zu öffnen.
-1. Klicken Sie **linken Bedienfeld** Workload Balancer“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Workload Balancer** klicken.
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
    Der Workload Balancer für das Projekt wird angezeigt.
 

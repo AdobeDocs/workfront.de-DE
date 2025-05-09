@@ -6,7 +6,7 @@ description: Sie können Verrechnungssätze verwenden, um den Umsatz Ihrer Proje
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes f
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -327,7 +327,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes für Benutzer in verschie
 
 * Die **Geplanten Stunden** werden gleichmäßig über die **Dauer** der Aufgabe verteilt.
 
-* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start**&#x200B;**Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
+* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start****Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
 
 * Der Betrag der geplanten Stunden pro Tag ändert den geplanten Umsatz eines Projekts nicht, wenn der Abrechnungssatz des Aufgabengebiets nicht geändert wird oder wenn nur eine Überschreibung des Abrechnungssatzes erfolgt. Selbst wenn zwei Benutzer aus zwei verschiedenen Zeitzonen unterschiedliche geplante Stunden pro Tag sehen, sind die geplanten Gesamteinnahmen des Projekts zwischen den beiden Benutzern identisch.
 
@@ -358,7 +358,7 @@ Weitere Informationen zur Neuberechnung der Projektfinanzen finden Sie im Artike
 
 ## Hinzufügen eines neuen Abrechnungssatzes mithilfe der API
 
-Um mithilfe der API einen neuen Abrechnungssatz für ein Aufgabengebiet hinzuzufügen, führen Sie eine *setRatesForRole*-Aktion für das **Rate**-Objekt mithilfe der *PUT-Methode*.
+Um mithilfe der API einen neuen Abrechnungssatz für ein Aufgabengebiet hinzuzufügen, führen Sie eine Aktion *setRatesForRole* für das Objekt **Rate** mithilfe der Methode *PUT*.
 Die Aktion und die Datumsfelder im Objekt **Rate** sind in der API-Version 8.0 verfügbar.
 Wenn Sie bereits mehrere Abrechnungssätze für ein Aufgabengebiet in einem Projekt definiert haben und einen neuen Abrechnungssatz mit einem neuen Datumsbereich hinzufügen möchten, müssen Sie sowohl den vorhandenen Satz als auch den Satz einbeziehen, der in demselben API-Aufruf hinzugefügt werden soll. Dies ähnelt dem Aktualisieren von Sammlungen auf Objekten.
 

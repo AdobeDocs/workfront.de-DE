@@ -6,9 +6,9 @@ description: Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht a
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 1%
 
 ---
@@ -453,7 +453,7 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
 
    * So zeigen Sie Nutzungsinformationen für ein einzelnes Projekt an:
 
-      1. Gehen Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann auf **Weitere Informationen anzeigen > Nutzung**.
+      1. Gehen Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann im linken Bereich **Nutzung**.
       1. Nutzungsinformationen werden beim Anzeigen eines einzelnen Projekts automatisch angezeigt und das Anwenden eines Filters ist nicht erforderlich.\
          Wenn Sie den Auslastungsbericht filtern möchten, können Sie einen Filter anwenden und dann auf &quot;**&quot;**.\
          Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\

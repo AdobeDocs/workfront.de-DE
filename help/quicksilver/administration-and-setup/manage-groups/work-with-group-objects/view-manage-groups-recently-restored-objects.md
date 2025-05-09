@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -30,28 +30,34 @@ Weitere Informationen zu wiederhergestellten Elementen finden Sie unter [Wiederh
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">einem Benutzer uneingeschränkten Administratorzugriff gewähren</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td>
+   <td><p>Neu: Standard</p>
+       <p>Oder</p>
+       <p>Aktuell: Plan</p></td>
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Die wiederhergestellten Elemente müssen mit der Gruppe oder einer ihrer Untergruppen verknüpft sein. </p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td>
+   <td>Die wiederhergestellten Elemente müssen mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie wissen möchten, über welchen Plan oder Lizenztyp Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +79,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
    Jede Registerkarte listet Elemente des entsprechenden Objekttyps auf, die zur aktuellen Gruppe oder zu ihren Untergruppen gehören und in den letzten 30 Tagen wiederhergestellt wurden.
 
-1. Führen Sie einen der folgenden Schritte aus:
+1. Führen Sie eine der folgenden Aktionen aus:
 
    <table style="table-layout:auto"> 
     <col> 

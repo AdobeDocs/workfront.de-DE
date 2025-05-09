@@ -5,9 +5,9 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,6 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
 
 1. Navigieren Sie zu einem Projekt.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-
-   Dieser Abschnitt befindet sich möglicherweise unter **Weitere anzeigen**.
-
 1. Klicken **bei** im linken Bereich auf **Neuer Rechnungsnachweis**.
 1. Geben Sie **Feld „Neuer**&quot;, das angezeigt wird, die folgenden Informationen an:
 
@@ -164,11 +161,7 @@ So fügen Sie einem Rechnungsnachweis fakturierbare Stunden hinzu:
 
 1. Zum Projekt mit den Rechnungsnachweisen wechseln.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-
-   Dieser Abschnitt befindet sich möglicherweise unter **Weitere anzeigen**.
-
 1. Klicken Sie auf **Beschreibung** eines Rechnungsnachweises, um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
-
 1. Klicken Sie **linken Bedienfeld auf** Abrechnungsfähige Stunden“.
 1. Wenn ein Rechnungsnachweis Stunden enthalten kann, klicken Sie auf **Stunden hinzufügen**.\
    Das **Abrechnungsfähige Stunden hinzufügen** wird geöffnet.
@@ -190,11 +183,7 @@ So fügen Sie verrechenbare Ausgaben zu einem Rechnungsnachweis hinzu:
 
 1. Zum Projekt mit den Rechnungsnachweisen wechseln.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-
-   Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Rechnungsnachweise** klicken.
-
 1. Klicken Sie auf **Beschreibung** eines Rechnungsnachweises, um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
-
 1. Klicken Sie **linken** auf „Abrechnungsfähige Ausgaben“.
 1. (Bedingt) Wenn Sie Ihren Aufgaben oder dem Projekt Kosten hinzugefügt und diese als fakturierbar markiert haben, klicken Sie auf **Kosten hinzufügen**.
 
@@ -215,11 +204,7 @@ So fügen Sie einem Rechnungsnachweis Festeinnahmen hinzu:
 
 1. Zum Projekt mit den Rechnungsnachweisen wechseln.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-
-   Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Rechnungsnachweise** klicken.
-
 1. Klicken Sie auf **Beschreibung** eines Rechnungsnachweises, um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
-
 1. Wählen Sie die **Festeinnahmen** aus.
 1. Wenn Sie Festeinnahmen zu Ihren Aufgaben hinzugefügt haben, klicken Sie auf **Festeinnahmen hinzufügen**.
 
@@ -271,4 +256,4 @@ Nachdem Sie einen Rechnungsnachweis erstellt und Stunden, Ausgaben und Einnahmen
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Klicken Sie **Speichern**&#x200B;**Änderungen**.
+1. Klicken Sie **Speichern****Änderungen**.

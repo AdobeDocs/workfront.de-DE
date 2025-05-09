@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -25,28 +25,34 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">einem Benutzer uneingeschränkten Administratorzugriff gewähren</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td>
+   <td><p>Neu: Standard</p>
+       <p>Oder</p>
+       <p>Aktuell: Plan</p></td>
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Das Portfolio muss mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem müssen Sie über Berechtigungen zum Anzeigen des Portfolios verfügen, entweder weil Sie es erstellt haben oder weil es für Sie freigegeben wurde.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td>
+   <td> <p>Das Portfolio muss mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem müssen Sie über Berechtigungen zum Anzeigen des Portfolios verfügen, entweder weil Sie es erstellt haben oder weil es für Sie freigegeben wurde.</p></td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie wissen möchten, über welchen Plan oder Lizenztyp Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,11 +74,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
       <td role="rowheader">Portfolio hinzufügen</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klicken Sie auf <strong>Neues Portfolio </strong>.</p> </li> 
-        <li value="2">Ersetzen <strong>Nicht benanntes Portfolio </strong> durch den Namen, den Sie für das Portfolio verwenden möchten.</li>
-        <li value="3"><p>Klicken Sie im linken Bereich </strong> <strong>Portfolio-Details und aktualisieren Sie die Informationen im Bereich Übersicht nach Bedarf.</p>
+        <li value="1"> <p>Klicken Sie <strong>Neue Portfolio</strong>.</p> </li> 
+        <li value="2">Ersetzen <strong>Nicht benannte Portfolio</strong> durch den Namen, den Sie für das Portfolio vergeben möchten.</li>
+        <li value="3"><p>Klicken Sie im linken </strong> auf <strong>Portfolio-Details und aktualisieren Sie die Informationen im Bereich Übersicht nach Bedarf.</p>
         <p>Weitere Informationen zu den Konfigurationsoptionen finden Sie unter <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios</a>.</p></li>
-        <li value="4">Klicken Sie im Browser auf die Schaltfläche Zurück , um zur Portfolios-Liste der Gruppe zurückzukehren.</li> 
+        <li value="4">Klicken Sie auf die Schaltfläche Zurück Ihres Browsers, um zur Portfolioliste der Gruppe zurückzukehren.</li> 
        </ol> </td>
      </tr> 
      <tr> 

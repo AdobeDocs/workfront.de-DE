@@ -6,7 +6,7 @@ description: Der Prozess zum Erstellen und Verwalten von Ausgaben ist für Proje
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -58,14 +58,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Ausgaben hinzufügen
 
 1. Wechseln Sie zu dem Projekt, in dem Sie Ausgaben eingeben möchten.\
-   Wenn Sie einer Aufgabe Ausgaben hinzufügen möchten, navigieren Sie stattdessen zu einer Aufgabe. 
-1. Klicken Sie **Weitere anzeigen** und dann auf **Ausgaben**.
-1. Klicken Sie **Kosten hinzufügen** .
+   Wenn Sie einer Aufgabe Ausgaben hinzufügen möchten, navigieren Sie stattdessen zu einer Aufgabe.
+1. Klicken Sie **linken** auf „Ausgaben“.
+1. Klicken Sie **Kosten hinzufügen**.
 Das **Kosten hinzufügen** wird angezeigt.
 1. Aktualisieren Sie Folgendes:
 
    * **Beschreibung:** Beschreibung der Ausgabe.
-
    * **Ausgabentyp:** (Erforderlich) Wählen Sie die Kategorie aus, die die Ausgabe am besten beschreibt.
    * **Aufgabe:** Sie den Namen der Aufgabe ein, mit der diese Ausgabe verbunden ist, und klicken Sie dann auf die Aufgabe, wenn sie in der Dropdown-Liste angezeigt wird.
    * **Geplanter Betrag:** Der geplante budgetierte Betrag für die Ausgabe.\
@@ -87,7 +86,6 @@ Das **Kosten hinzufügen** wird angezeigt.
 ## Kosten löschen
 
 1. Gehen Sie zu dem Projekt, in dem Sie Ausgaben löschen möchten.
-1. Klicken Sie **Weitere anzeigen** und dann auf **Ausgaben**.
+1. Klicken Sie **linken** auf „Ausgaben“.
 1. Wählen Sie die zu löschenden Ausgaben aus und klicken Sie dann auf **Löschen** ![Löschen](assets/delete.png).
-
 1. Klicken Sie auf **Ja, löschen**, um den Löschvorgang zu bestätigen.
