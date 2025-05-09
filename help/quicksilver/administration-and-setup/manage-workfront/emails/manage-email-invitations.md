@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: E-Mail-Einladungen für neue Benutzer verwalten
 description: Als Adobe Workfront-Administrator können Sie Benutzer mithilfe von E-Mail-Einladungen zu Workfront hinzufügen und sie darüber benachrichtigen, dass sie hinzugefügt wurden.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Eine Liste der Verfahren, die sich je nachdem unterscheiden, ob Ihr Unternehmen Adobe Admin Console verwendet hat, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-Administrator können Sie Benutzer mithilfe von E-Mail-Einladungen zu Workfront hinzufügen und sie darüber benachrichtigen, dass sie hinzugefügt wurden.
 
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## E-Mail-Einladungen generieren {#generate-email-invitations}
+## E-Mail-Einladungen an nicht registrierte Benutzer erneut senden
 
 E-Mail-Einladungen werden in den folgenden Szenarien generiert:
 
@@ -82,7 +82,7 @@ E-Mail-Einladungen werden in den folgenden Szenarien generiert:
   >
   >Wenn Sie das Kontrollkästchen **E-Mail-Einladung an diese Person senden** beim Erstellen des Benutzers deaktivieren, kann die E-Mail-Einladung nicht manuell generiert werden. Das manuelle erneute Senden der E-Mail-Einladungen ist nur für Benutzer möglich, denen bei der Erstellung ihres Kontos die ursprüngliche E-Mail-Einladung gesendet wurde. Weitere Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-So generieren Sie manuell E-Mail-Einladungen an nicht registrierte Benutzer:
+So senden Sie E-Mail-Einladungen manuell erneut an nicht registrierte bestehende Benutzer:
 
 {{step-1-to-users}}
 
@@ -96,11 +96,11 @@ So generieren Sie manuell E-Mail-Einladungen an nicht registrierte Benutzer:
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, neue Benutzer per E-Mail einzuladen.
+   >Wenn Ihre Organisation in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, neue Benutzer per E-Mail einzuladen.
    >
-   >Neue Adobe-Benutzer werden der Admin Console hinzugefügt und die Admin Console sendet eine E-Mail, um sie zum Abschluss des Registrierungsprozesses einzuladen. Alle Anwender müssen den Registrierungsprozess abschließen, um auf ein Adobe-System zugreifen zu können.
+   >Neue Adobe-Benutzende werden zur Admin Console hinzugefügt und die Admin Console sendet eine E-Mail, in der sie eingeladen werden, den Registrierungsprozess abzuschließen. Alle Benutzer müssen den Registrierungsprozess abschließen, um auf ein Adobe-System zugreifen zu können.
    >
-   >Bestehende Adobe-Benutzer erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+   >Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
 
 ## Konfigurieren von E-Mail-Einladungen {#configure-email-invitations}
 
