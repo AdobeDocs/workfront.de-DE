@@ -79,7 +79,7 @@ Scorecard von Grund auf neu erstellen:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Frage]</td> 
+      <td role="rowheader">[!UICONTROL -Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 
