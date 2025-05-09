@@ -6,9 +6,9 @@ description: Wenn Sie Zugriff auf eine Anfrage-Warteschlange gewähren, legen Si
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie Zugriff auf eine Anfrage-Warteschlange gewähren, legen Sie fest, wer in Ihrem Unternehmen die Anfrage-Warteschlange im Bereich Anfragen von Adobe Workfront anzeigen kann.
 
-Sie können verschiedenen Benutzern Zugriff auf eine Anfrage-Warteschlange gewähren, je nachdem, ob sie Teil des Projektteams, der Projektgruppe oder der Projektfirma sind. Sie können auch allen Personen im System Zugriff auf eine Anfrage-Warteschlange gewähren. 
+Sie können verschiedenen Benutzern Zugriff auf eine Anfrage-Warteschlange gewähren, je nachdem, ob sie Teil des Projektteams, der Projektgruppe oder der Projektfirma sind. Sie können auch allen Personen im System Zugriff auf eine Anfrage-Warteschlange gewähren.
 
 Dies ist besonders nützlich für Unternehmen, die externe Stakeholder in Workfront einladen und den Zugriff von Benutzenden auf bestimmte Bereiche beschränken möchten. In diesem Fall schränkt eine Anfrage-Warteschlange, die nur für die mit dem Unternehmen oder der Gruppe des Projekts verbundenen Benutzenden geöffnet ist, die Sichtbarkeit auf externe Stakeholder ein. Wenn Sie jedem Zugriff gewähren, wird die Anfrage sowohl für interne als auch externe Stakeholder sichtbar.
 
@@ -72,13 +72,13 @@ Bevor die Anfrage-Warteschlange im Bereich Anfragen für Benutzer verfügbar ist
    >
    >Nur Projekte mit dem Status „Aktuell“ werden im Bereich Anfragen angezeigt.
 
-1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“. Möglicherweise müssen Sie auf **Weitere anzeigen** und dann auf **Warteschlangendetails** klicken.
+1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 1. Wählen **Als Warteschlange für Hilfeanfragen veröffentlichen**, um das Projekt als Warteschlange für Anfragen festzulegen.
 1. Wählen Sie aus den folgenden Optionen aus:
 
    * **Beliebig**: Jeder Benutzer kann Anfragen anzeigen und zur Anfragewarteschlange hinzufügen.
-   * **Benutzer mit Ansichtszugriff auf dieses Projekt**: Benutzer mit Ansichtsberechtigungen für das Projekt können Anfragen anzeigen und zur Anfragewarteschlange hinzufügen. 
-   * **Personen im Unternehmen dieses Projekts**: Benutzer, die mit dem Unternehmen des Projekts verknüpft sind, können Anfragen anzeigen und hinzufügen. Das mit dem Projekt verknüpfte Unternehmen wird neben dieser Option in Klammern aufgeführt. 
+   * **Benutzer mit Ansichtszugriff auf dieses Projekt**: Benutzer mit Ansichtsberechtigungen für das Projekt können Anfragen anzeigen und zur Anfragewarteschlange hinzufügen.
+   * **Personen im Unternehmen dieses Projekts**: Benutzer, die mit dem Unternehmen des Projekts verknüpft sind, können Anfragen anzeigen und hinzufügen. Das mit dem Projekt verknüpfte Unternehmen wird neben dieser Option in Klammern aufgeführt.
    * **Personen in der Gruppe dieses Projekts**: Benutzer, die mit der Gruppe des Projekts verknüpft sind, können Anfragen anzeigen und hinzufügen. Die mit dem Projekt verknüpfte Gruppe wird neben dieser Option in Klammern aufgeführt.
 
      Gruppen-Warteschlangen sind nützlich, wenn mehrere Abteilungen ein Workfront-Konto gemeinsam nutzen, um individuelle Unternehmensziele zu erreichen. Jede Abteilung kann ihre eigenen Warteschlangen haben, die Mitglieder anderer Gruppen nicht sehen dürfen.

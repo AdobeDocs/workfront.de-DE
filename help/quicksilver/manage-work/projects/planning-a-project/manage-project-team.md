@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzende im Projekt
 
 1. Gehen Sie zu dem Projekt, dem Benutzer hinzugefügt werden sollen.
 
-1. Klicken Sie **linken** auf „Personen“. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
+1. Klicken Sie **linken** auf „Personen“.
 
 1. Klicken Sie **Benutzer hinzufügen**.
 

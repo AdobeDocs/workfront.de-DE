@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -31,38 +31,42 @@ Die für eine Scorecard ausgewählten Fragen und Antworten müssen quantifizierb
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen den folgenden Zugriff:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Aktuell: [!UICONTROL Business] oder höher</p> 
-   Oder
-   <p>Neu: [!UICONTROL Prime] oder höher</p>
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td> <p>Neu: [!UICONTROL Prime] oder höher</p>
+   <p>Aktuell: [!UICONTROL Business] oder höher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Aktuell: [!UICONTROL Plan]</p>
-   Oder
-   <p>Neu: [!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td><p>Neu: [!UICONTROL Standard]</p>
+   <p>Aktuell: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Scorecard erstellen
 
+Sie können eine Scorecard von Grund auf neu erstellen oder eine vorhandene kopieren.
+
+Scorecard von Grund auf neu erstellen:
+
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Scorecards]** und dann auf **[!UICONTROL Neue Scorecard]**, um den Scorecard Builder zu starten und eine Scorecard zu erstellen.
+1. Klicken Sie **[!UICONTROL Scorecards]** und dann auf **[!UICONTROL Neue Scorecard]**. Dadurch wird das Feld **Neue Scorecard** geöffnet.
+
+   <!--add screen shot at unshim-->
 
 1. Geben Sie einen **[!UICONTROL Scorecard-Namen]** und eine **[!UICONTROL Beschreibung]** an.
 
@@ -75,7 +79,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Frage]</td> 
+      <td role="rowheader">[!UICONTROL-Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 
@@ -104,6 +108,25 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Diese erstellen die Scorecard, und Projektmanager können sie jetzt an ihren Projekt-Business-Case anhängen.
 
+## Kopieren einer vorhandenen Scorecard
+
+Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Scorecard erstellen.
+
+{{step-1-to-setup}}
+
+1. Klicken Sie **[!UICONTROL linken]** auf „Scorecards“.
+1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard ](assets/copy-scorecard-icon.png) kopieren“.
+Das Feld **Scorecard kopieren** wird geöffnet.
+
+   <!--add screen shot at unshim-->
+1. Geben Sie die folgenden Informationen an:
+
+   * **Scorecard**: Name der Scorecard eingeben.  Standardmäßig wird der Name automatisch im folgenden Format aktualisiert:
+
+     `Original scorecard name (Copy)`
+   * **Beschreibung**: Geben Sie zusätzliche Informationen zur Scorecard ein.
+1. Klicken Sie auf **Speichern**.
+
 ## Scorecard auf ein Projekt anwenden
 
 Ein Benutzer mit [!UICONTROL Verwalten]-Berechtigungen für ein Projekt kann eine Scorecard auf ein Projekt anwenden, nachdem die Scorecard vom [!DNL Workfront]-Administrator erstellt wurde.
@@ -111,3 +134,5 @@ Ein Benutzer mit [!UICONTROL Verwalten]-Berechtigungen für ein Projekt kann ein
 Eine Scorecard wird einem Projekt beim Erstellen eines Business Case für das Projekt hinzugefügt. Weitere Informationen zum Hinzufügen einer Scorecard zu einem Projekt finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungswerts](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 Weitere Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '844'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Informationen zum Erstellen von Themengruppen finden Sie unter [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Klicken Sie **linken Bedienfeld** Warteschlangenthemen“. Möglicherweise müssen Sie auf **Weitere anzeigen** und dann auf **Warteschlangenthemen** klicken.
+1. Klicken Sie **linken Bedienfeld** Warteschlangenthemen“.
 1. Klicken Sie **Neues Warteschlangen-Thema**.
 1. Geben Sie im **Neues Warteschlangenthema** Folgendes ein:
 

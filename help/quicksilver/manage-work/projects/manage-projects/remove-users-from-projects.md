@@ -6,9 +6,9 @@ description: Sie können Benutzer aus einem Projekt entfernen, wenn sie nicht me
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ So entfernen Sie Benutzer aus dem Projektteam:
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Benutzer entfernen möchten.
 
-1. Klicken Sie **linken** auf „Personen“ und wählen Sie dann die Benutzer aus, die Sie entfernen möchten. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Personen** klicken.
+1. Klicken Sie **linken** auf „Personen“ und wählen Sie dann die Benutzer aus, die Sie entfernen möchten.
 
 1. Klicken Sie auf **Entfernen**-Symbol ![Element entfernen](assets/remove-icon---x-in-circle.png) oben in der Benutzerliste.
 

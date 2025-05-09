@@ -8,9 +8,9 @@ description: Projektmetriken bieten Ihnen eine Visualisierung der Vorgänge in e
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Sie können Aufgabenzuweisungen für ein Projekt in den folgenden Kategorien anz
 Sie können mit den Diagrammen im Bereich Metriken interagieren, um verschiedene Aspekte eines Diagramms anzuzeigen oder die Aufgaben und Probleme innerhalb eines Diagramms genauer zu betrachten.
 
 1. Navigieren Sie zu dem Projekt, für das Sie Metriken anzeigen möchten.
-1. Klicken Sie im linken Bedienfeld auf **Mehr anzeigen** um weitere Abschnitte anzuzeigen, und klicken Sie dann auf **Metriken**.\
+1. Klicken Sie im linken Bedienfeld auf **Metriken**.\
    Die Diagramme im Bereich Metriken zeigen standardmäßig Informationen zu Aufgaben an.\
    ![](assets/metrics-section-350x298.png)
 

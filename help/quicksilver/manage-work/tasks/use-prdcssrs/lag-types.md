@@ -7,9 +7,9 @@ description: Verzögerung ist die Zeit, die nach dem Abschluss eines erzwungenen
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Sie können Verzögerungstypen für Aufgaben angeben, wenn Sie deren Vorgängerb
 ### Verzögerungstypen im Abschnitt „Vorgänger“ einer Aufgabe angeben {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Wechseln Sie zu einer Aufgabe, für die Sie den Vorgänger und den Verzögerungstyp definieren möchten.
-1. Klicken Sie **linken Bedienfeld auf** Vorgänger“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. Klicken Sie **linken Bedienfeld auf** Vorgänger“.
 1. Klicken Sie **Vorgänger hinzufügen**.
 1. (Optional) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, ersetzen Sie den Namen **Übergeordnetes Projekt** durch ein anderes Projekt.
 1. Beginnen Sie mit der Eingabe des Namens der Vorgängeraufgabe und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.

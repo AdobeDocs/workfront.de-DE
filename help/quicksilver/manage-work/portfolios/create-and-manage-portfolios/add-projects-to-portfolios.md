@@ -6,9 +6,9 @@ description: Es wird empfohlen, Projekte zu Portfolios hinzuzufügen, wenn Sie s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,9 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht [!UICONTROL Meilenstein] anzeigen.
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
+
+   ![Vorhandenes Projekt hinzufügen](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -88,7 +90,7 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung eines Projekts an.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
@@ -100,9 +102,13 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
 
    ![Dropdown-Liste „Neues Projekt“](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Bedingt) Wenn Sie ein vorhandenes Projekt hinzufügen möchten, geben Sie den Namen eines Projekts in das Feld **[!UICONTROL Projekte hinzufügen]** ein und klicken Sie auf die gewünschten Projektnamen, wenn sie in der Liste angezeigt werden. Sie können mehrere Projekte gleichzeitig hinzufügen.
+1. (Bedingt) Wenn Sie ein vorhandenes Projekt hinzufügen möchten, geben Sie den Namen eines Projekts in das Feld **[!UICONTROL Projekte zu dieser Portfolio hinzufügen]** ein und klicken Sie auf die Projekte, wenn sie in der Liste angezeigt werden.
 
-   ![Vorhandenes Projekt hinzufügen](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   Sie können mehr als ein Projekt hinzufügen.
+
+1. (Optional) Klicken Sie auf das **X**-Symbol rechts neben dem Projektnamen, um es aus der Liste zu entfernen, wenn Sie es nicht zum Portfolio hinzufügen möchten.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
 1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**.
 

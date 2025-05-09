@@ -7,9 +7,9 @@ description: Ein Vorgänger ist die Aufgabe, von der eine andere Aufgabe (eine s
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Führen Sie einen der folgenden Schritte aus, um die Vorgänger einer Aufgabe zu
 * Gehen Sie zu dem Projekt, an dem Sie arbeiten, und führen Sie folgende Schritte aus:
 
    1. Suchen Sie die Aufgabe, für die Sie die Vorgänger suchen möchten, und klicken Sie auf die Aufgabe.
-   1. Klicken Sie **linken Bedienfeld auf** Vorgänger“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+   1. Klicken Sie **linken Bedienfeld auf** Vorgänger“.
    1. Der Name des Projekts, das den Vorgänger enthält, wird in der Spalte **Projekt** angezeigt.
 
       Die Zahl in der Spalte **#** zeigt die Nummer der Vorgängeraufgabe an. Beispiel: „6“ bedeutet die sechste Aufgabe im Projekt.

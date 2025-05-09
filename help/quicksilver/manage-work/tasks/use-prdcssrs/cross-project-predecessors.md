@@ -6,9 +6,9 @@ description: Ein projektübergreifender Vorgänger ist eine Aufgabe, von der ein
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Erstellen eines projektübergreifenden Vorgängers
 
 1. Wechseln Sie zu der Aufgabe, die Ihr Nachfolger sein wird (abhängige Aufgabe).
-1. Klicken Sie **linken Bedienfeld auf** Vorgänger“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. Klicken Sie **linken Bedienfeld auf** Vorgänger“.
 
    >[!TIP]
    >

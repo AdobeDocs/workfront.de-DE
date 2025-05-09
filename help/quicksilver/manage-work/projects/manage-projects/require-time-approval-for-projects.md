@@ -6,9 +6,9 @@ description: Genehmigung von Zeit für ein Projekt verlangen
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Wenn Sie ein Projekt so einrichten, dass die protokollierten Stunden genehmigt w
 So genehmigen Sie Stunden für ein Projekt oder lehnen sie ab:
 
 1. Gehen Sie zum Projekt.
-1. Klicken Sie auf **Bereich** Stunden“ im linken Bedienfeld. Dieser befindet sich möglicherweise unter dem Bereich **Mehr anzeigen**.
+1. Klicken Sie auf **Bereich** Stunden“ im linken Bedienfeld.
 
 1. Die für Probleme, Aufgaben und das Projekt protokollierten Stunden werden angezeigt und sollten den Status &quot;**&quot;**.\
    Klicken Sie links neben den Stundeneinträgen auf das Kästchen, um die Stunden auszuwählen, die genehmigt werden sollen.

@@ -2,24 +2,26 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Hinzufügen eines Projekts zu einem Programm
-description: Sie können Ihre Projekte organisieren, indem Sie sie zu Programmen innerhalb von Portfolios hinzufügen. Ein Programm kann mehrere Projekte enthalten, mit einem Projekt kann jedoch nur ein Programm verknüpft werden.
+description: Sie können Ihre Projekte organisieren, indem Sie sie zu Programmen innerhalb von Portfolios hinzufügen. Ein Programm kann mehrere Projekte enthalten, mit einem Projekt kann jedoch nur ein Programm verknüpft werden. Durch Hinzufügen eines Projekts zu einem Programm wird es gleichzeitig automatisch zum Portfolio des Programms hinzugefügt.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen eines Projekts zu einem Programm
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 Sie können Ihre Projekte organisieren, indem Sie sie zu Programmen innerhalb von Portfolios hinzufügen. Ein Programm kann mehrere Projekte enthalten, mit einem Projekt kann jedoch nur ein Programm verknüpft werden.
 
 Sie müssen ein Portfolio und ein Programm innerhalb dieses Portfolios erstellen, bevor Sie ein Projekt zu einem Programm hinzufügen können.
+
+Durch Hinzufügen eines Projekts zu einem Programm wird es gleichzeitig automatisch zum Portfolio des Programms hinzugefügt.
 
 Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -67,7 +69,7 @@ Informationen zum Erstellen von Programmen finden Sie unter [Erstellen eines Pro
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht [!UICONTROL Meilenstein] anzeigen.
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -88,7 +90,7 @@ Informationen zum Erstellen von Programmen finden Sie unter [Erstellen eines Pro
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung des neuen Projekts an, bevor Sie es bearbeiten können.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +100,19 @@ Informationen zum Erstellen von Programmen finden Sie unter [Erstellen eines Pro
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn Sie **[!UICONTROL Vorhandenes Projekt]** ausgewählt haben, gehen Sie wie folgt vor:
+1. (Bedingt) Wenn Sie **[!UICONTROL Vorhandenes Projekt]** ausgewählt haben, wird das Feld **Projekte hinzufügen** geöffnet.
 
-   1. Geben **[!UICONTROL im Dialogfeld „Projekte hinzufügen]** den Namen des Projekts in das bereitgestellte Feld ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können mehrere Projekte gleichzeitig hinzufügen.
-   1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**.**&#x200B;**&#x200B;Das Projekt wird auf der Registerkarte **[!UICONTROL Projekte]** des Programms angezeigt und ist jetzt mit dem Programm und dem Portfolio verknüpft.
+   <!--screen shot at unshim?-->
+
+1. Gehen Sie folgendermaßen vor:
+
+   1. Geben Sie in das Feld **[!UICONTROL Projekte hinzufügen]** den Namen eines Projekts in das Feld **Projekte zu diesem Programm hinzufügen** ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. <!--check casing on links and buttons-->
+
+      Sie können mehr als ein Projekt hinzufügen.
+   1. (Optional) Klicken Sie auf das **X**-Symbol rechts neben dem Projektnamen, um es aus der Liste zu entfernen, wenn Sie es nicht zum Programm hinzufügen möchten.
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**.
+
+      Das Projekt wird auf der Registerkarte **[!UICONTROL Projekte]** des Programms angezeigt und ist jetzt mit dem Programm und dem jeweiligen Portfolio des Programms verknüpft.

@@ -2,22 +2,26 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Planen von Ressourcen für ein Projekt
-description: Sie können Ressourcen für ein einzelnes Projekt planen, um anzugeben, welcher Arbeit die einzelnen Ressourcen zugeordnet sind und wie viel Zeit sie mit der Fertigstellung ihrer Arbeit verbringen sollen. Sie können Ressourcen für ein Projekt planen und jeder Ressource mithilfe des Tools Planung oder des Workload-Balancer auf Projektebene Stunden zuweisen.
-author: Alina
+description: Sie können Ressourcen für ein einzelnes Projekt planen, um anzugeben, welcher Arbeit die einzelnen Ressourcen zugeordnet sind und wie viel Zeit sie mit der Fertigstellung ihrer Arbeit verbringen sollen. Mit dem Workload-Balancer auf Projektebene können Sie Ressourcen für ein Projekt planen und jeder Ressource Stunden zuweisen.
+author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 2%
 
 ---
 
 # Planen von Ressourcen für ein Projekt
 
-Sie können Ressourcen für ein einzelnes Projekt planen, um anzugeben, welcher Arbeit die einzelnen Ressourcen zugeordnet sind und wie viel Zeit sie mit der Fertigstellung ihrer Arbeit verbringen sollen. Sie können Ressourcen für ein Projekt planen und jeder Ressource mithilfe des Tools Planung oder des Workload-Balancer auf Projektebene Stunden zuweisen.
+<!--Audited: 5/2025-->
+
+Sie können Ressourcen für ein einzelnes Projekt planen, um anzugeben, welcher Arbeit die einzelnen Ressourcen zugeordnet sind und wie viel Zeit sie mit der Fertigstellung ihrer Arbeit verbringen sollen. Mit dem Workload-Balancer auf Projektebene können Sie Ressourcen für ein Projekt planen und jeder Ressource Stunden zuweisen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,31 +49,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen beitragen </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Planen von Ressourcen für ein Projekt
 
-So greifen Sie auf das Tool Zeitplan in einem Projekt zu:
+Sie können den Workload Balancer verwenden, um Ressourcen für ein Projekt zu planen.
 
 1. Wechseln Sie zu dem Projekt, für das Sie Ressourcen planen möchten.
-1. Klicken Sie **linken Bedienfeld auf** Abschnitt „Planung“ oder „Workload Balancer“. Der Abschnitt Planung oder Workload-Balancer befindet sich möglicherweise unter **Weitere anzeigen**.
-
-   Informationen zur Planung von Ressourcen mit dem Tool Planung in einem Projekt finden Sie im Abschnitt „Ändern von Benutzerzuweisungen und Zuweisungen“ im Artikel „Erste Schritte mit der Ressourcenplanung“.
-
-1. (Bedingt und empfohlen) Wenn Sie auf Planung geklickt haben, klicken Sie auf **Zum Workload-Balancer wechseln**, um Ressourcen mithilfe des Workload-Balancer zu planen.
-
-   >[!TIP]
-   >
-   >Wenn Sie zuvor Workload Balancer ausgewählt haben, ändert sich der Name des Abschnitts in Workload-Balancer.
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
    Informationen zur Planung von Ressourcen mit dem Workload Balancer finden Sie in den folgenden Artikeln:
 
    * [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Verwalten von Benutzerzuweisungen im Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
- 
+

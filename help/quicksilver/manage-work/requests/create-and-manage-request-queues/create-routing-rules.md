@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Nach der Erstellung können Sie Routing-Regeln nicht mehr von einem Projekt in e
 ## Erstellen einer Routingregel
 
 1. Gehen Sie zu dem Projekt, dem Sie Routing-Regeln für Ihre Anfragen hinzufügen möchten.
-1. Klicken Sie **linken** auf „Routing-Regeln“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Routing-Regeln** klicken.
+1. Klicken Sie **linken** auf „Routing-Regeln“.
 1. Klicken Sie **Neue Routingregel**, um die neue Regel hinzuzufügen. Das Feld **Neue Routingregel** wird geöffnet.
 
    ![Neues Routingregel-Feld](assets/new-routing-rule-box.png)

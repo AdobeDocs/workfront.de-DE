@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Erstellen einer Themengruppe:
 1. Wechseln Sie zu dem Projekt, das Sie als Warteschlange für Hilfeanfragen veröffentlicht haben.\
    Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicken Sie **linken Bereich** Themengruppen“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Themengruppen** klicken.
+1. Klicken Sie **linken Bereich** Themengruppen“.
 1. Klicken Sie **Neue Themengruppe**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

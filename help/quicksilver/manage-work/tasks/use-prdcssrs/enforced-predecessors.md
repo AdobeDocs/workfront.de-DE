@@ -6,9 +6,9 @@ description: Vorgänger sind Aufgaben, von deren Abschluss andere Aufgaben abhä
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Erzwingen eines Vorgängers auf Aufgabenebene
 
 1. Wechseln Sie zur Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
-1. Klicken Sie **linken Bereich auf** Vorgänger“ und dann auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. Klicken Sie **linken Bereich auf** Vorgänger“ und dann auf **Vorgänger hinzufügen**.
 1. (Bedingt) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, entfernen Sie den Namen des Projekts im Feld **Übergeordnetes Projekt** und ersetzen Sie ihn durch ein anderes Projekt.
 1. Geben Sie den Namen der Vorgängeraufgabe(n) im Feld **Aufgaben** an.
 1. Geben Sie den **Abhängigkeitstyp** zwischen diesen beiden Aufgaben an.
