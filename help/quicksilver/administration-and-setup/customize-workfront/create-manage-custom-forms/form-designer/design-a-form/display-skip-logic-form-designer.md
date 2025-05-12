@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 Ein weiteres einfaches Beispiel: Ein Telefonnummernfeld muss eine bestimmte Anzahl von Ziffern enthalten, damit es gültig ist.
 
 Ein zusätzliches Beispiel für die Validierung anhand anderer Felder ist ein Feld für die Größe des Besprechungsraums (klein, mittel oder groß) und ein separates Feld für die Anzahl der Besprechungsteilnehmer. Die Anzahl der Personen für jede Raumgröße wird in die Validierungsformel geschrieben. Wenn die Anzahl der Teilnehmer, die der Benutzer betritt, für den ausgewählten Besprechungsraum zu hoch ist, wird die Fehlermeldung angezeigt.
+
+Weitere Beispiele für Validierungslogik finden Sie unter [Beispiele für erweiterte Logik in benutzerdefinierten Formularen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
 
 ### Validierungslogik definieren
 

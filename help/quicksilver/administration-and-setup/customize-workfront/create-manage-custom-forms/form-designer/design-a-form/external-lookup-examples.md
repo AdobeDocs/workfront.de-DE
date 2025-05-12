@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,38 @@ Ein externes Suchfeld in einem benutzerdefinierten Formular ruft eine externe AP
 Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können die externe Suche auch verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
 Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Suchkomponenten finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-Plan </td> 
+   <td>Beliebig</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Neu: Standard</p>
+   <p>oder</p>
+   <p>Aktuell: Plan</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Administrativer Zugriff auf benutzerdefinierte Formulare </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Einrichten eines externen Suchfelds für dieselbe Instanz von Workfront
 

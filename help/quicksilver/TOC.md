@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
+source-git-commit: b5e5704e3276d23ec0426674f62f53de7d4a4951
 workflow-type: tm+mt
-source-wordcount: '13194'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -568,6 +568,7 @@ ht-degree: 2%
             * [Erstellen eines Formulars aus einer Kopie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Hinzufügen berechneter Felder zu einem Formular](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+            * [Beispiele für erweiterte Logik in benutzerdefinierten Formularen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
             * [Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Organisieren und Vorschau eines Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * Verwalten benutzerdefinierter Formulare {#manage-custom-forms}
