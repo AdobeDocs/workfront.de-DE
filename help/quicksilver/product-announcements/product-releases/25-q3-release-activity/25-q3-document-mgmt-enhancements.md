@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Auf dieser Seite werden alle Document Management-Verbesserungen beschrieben, die
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->Die auf dieser Seite aufgeführten Funktionen sind Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kunden verfügbar.
+## Update der Desktop Proofing Viewer
+
+Der Desktop Proofing Viewer wurde auf Version 2.1.48 aktualisiert.
+
+Dieses Update ist eine Fehlerbehebung, um die Kompatibilität des Desktop Viewers mit Mac-Betriebssystemen sicherzustellen. Elektronen wurde auf 34,4,0 herabgestuft und Chrom auf 132.
+
+Dieses Update ist sowohl für Mac als auch für Windows.
+
 
 ## Assets in einem verknüpften Google-Ordner muss einzeln hinzugefügt werden, damit es in Workfront angezeigt wird
 
@@ -43,6 +48,10 @@ Wichtige Funktionen, die unverändert bleiben:
 
 
 ## Neue Schaltflächen für Dokumentgenehmigungsentscheidungen in der Proofing-Anzeige verfügbar
+
+>[!IMPORTANT]
+>
+>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kunden verfügbar.
 
 >[!NOTE]
 >
