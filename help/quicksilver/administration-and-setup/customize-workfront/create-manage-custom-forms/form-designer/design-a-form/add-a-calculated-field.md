@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen berechneter Felder zu einem Formular
+
+<!-- Audited: 5/2025 -->
 
 Sie können ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
@@ -77,7 +79,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können dasselbe berechnete benutzerdefinierte Feld für benutzerdefinierte Formulare verwenden, die zu verschiedenen Objekten gehören. Sie können beispielsweise das berechnete Feld Gewinn verwenden, das Sie für das benutzerdefinierte Formular Projekt in einem benutzerdefinierten Formular für eine Aufgabe erstellt haben.
 
-Bei Verwendung eines vorhandenen berechneten benutzerdefinierten Felds wird die Berechnung nicht in das neue Formular übertragen. Sie müssen die Berechnung im selben Feld erneut im neuen benutzerdefinierten Formular hinzufügen.
+Bei Verwendung eines vorhandenen berechneten benutzerdefinierten Felds wird die Berechnung nicht auf das neue Formular übertragen. Fügen Sie die Berechnung erneut für dasselbe Feld im neuen benutzerdefinierten Formular hinzu.
 
 Sie können für dasselbe Feld auch auf dem neuen Formular eine andere Berechnung verwenden. Die Beibehaltung des gleichen Namens für das berechnete benutzerdefinierte Feld stellt die Kohärenz und Konsistenz Ihrer Namenskonvention sicher.
 
@@ -93,15 +95,15 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
+1. Klicken Sie im linken Bedienfeld auf **Benutzerdefinierte Forms** gefolgt von **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
-1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Weiter**.
+1. Klicken Sie auf **Neues benutzerdefiniertes Formular**.
 
+1. Wählen **Dialogfeld „Neues benutzerdefiniertes**&quot; aus, an welche Objekttypen das benutzerdefinierte Formular angehängt werden soll, und klicken Sie dann auf **Weiter**.
 1. Klicken Sie oben links im Bildschirm auf &quot;**&quot;**.
 
    ![Feldbibliothek](assets/field-library.png)
@@ -131,14 +133,15 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
+1. Klicken Sie im linken Bedienfeld auf **Benutzerdefinierte Forms** gefolgt von **Forms**.
+
+1. Klicken Sie auf **Neues benutzerdefiniertes Formular**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
-1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Weiter**.
+1. Wählen **Dialogfeld „Neues benutzerdefiniertes**&quot; aus, an welche Objekttypen das benutzerdefinierte Formular angehängt werden soll, und klicken Sie dann auf **Weiter**.
 
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Berechnet** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 
@@ -166,9 +169,9 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer das Format <strong>Zahl</strong> oder <strong>Währung</strong>. Wenn Sie Zahl oder Währung auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</p> 
+      <td> <p>Das Format, in dem die Ergebnisse des Felds gespeichert und angezeigt werden sollen.</p> <p>Wenn das Feld in mathematischen Berechnungen verwendet wird, verwenden Sie immer das Format <strong>Zahl</strong> oder <strong>Währung</strong>. Wenn Sie <strong>Zahl</strong> oder <strong>Währung</strong> auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</p> 
       <p><b>WICHTIG</b>: Bevor Sie ein Format auswählen, überlegen Sie, welches Format für das neue Feld korrekt ist. Das Formatfeld kann nach dem Speichern des benutzerdefinierten Formulars nicht mehr bearbeitet werden. Die Auswahl des falschen Formats kann sich auf zukünftige Berechnungen und Aggregatwerte in Berichts- und Listengruppierungen auswirken.</p>
-      <p><strong>HINWEIS</strong> Berechnete Felder mit einem Währungsformat dürfen keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht „800.00.„) Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen unerwartete Folgen haben.</p></td>
+      <p><strong>HINWEIS</strong>: Berechnete Felder mit dem Format <strong>Währung</strong> sollten keine Anführungszeichen enthalten. (Verwenden Sie beispielsweise 800.00 und nicht „800.00.„) Die Verwendung von Anführungszeichen kann aufgrund von Nuancen bei der Sprachformatierung für Währungstypen unerwartete Folgen haben.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -217,7 +220,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
 
         Wenn Sie in einem berechneten benutzerdefinierten Feld auf ein verwandtes Objekt verweisen, müssen Sie Objektnamen und Attribute durch Punkte trennen.
 
-        Um beispielsweise in einem benutzerdefinierten Formular vom Typ Aufgabe den Namen des Feldinhabers in einem berechneten benutzerdefinierten Portfolio anzuzeigen, geben Sie Folgendes ein:
+        Um beispielsweise in einem benutzerdefinierten Formular vom Typ Aufgabe den Namen des Portfolio-Verantwortlichen in einem berechneten benutzerdefinierten Feld anzuzeigen, geben Sie Folgendes ein:
 
         `{project}.{porfolio}.{owner}`
 
@@ -295,7 +298,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
       >
       >Sie können einen der folgenden Schritte ausführen, um Hilfe bei Ihrer Berechnung zu erhalten:
       > 
-      >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, das zeigt, wie er verwendet werden kann, und einen Link „Weitere Informationen“ zu weiteren Informationen im Artikel [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) anzuzeigen.
+      >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, das zeigt, wie er verwendet werden kann, und einen **Weitere Informationen**-Link zu weiteren Informationen im Artikel [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) anzuzeigen.
       >  ![Hilfetext für Ausdruck](assets/hover-expression-help-text.jpg)
       >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Ausdrücke werden in blauen und Felder in grün angezeigt.
       >  ![Farben für Feldausdrücke](assets/colors-fields-expressions.jpg)
@@ -317,7 +320,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
     <tbody> 
      <tr> 
       <td role="rowheader">Logik hinzufügen</td> 
-      <td>Sie können eine Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer beim Ausfüllen des Formulars in einem vorangehenden Feld mit mehreren Auswahlmöglichkeiten (Dropdown, Kontrollkästchen oder Optionsfelder) trifft. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Logik überspringen ist für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
+      <td>Sie können eine Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer beim Ausfüllen des Formulars in einem vorangehenden Feld mit Mehrfachauswahl (Dropdown, Kontrollkästchen oder Optionsfelder) trifft. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Logik überspringen ist für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorherige Berechnungen aktualisieren</td> 

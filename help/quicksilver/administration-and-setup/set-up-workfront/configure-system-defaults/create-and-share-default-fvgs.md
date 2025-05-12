@@ -2,28 +2,32 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Standardfilter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben
+title: Systemweite Filter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben
 description: Sie können Standardfilter, Ansichten und Gruppierungen erstellen und sie dann für Benutzer in Ihrer Organisation verfügbar machen.
-author: Lisa
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 1%
+source-wordcount: '742'
+ht-degree: 0%
 
 ---
 
-# Standardfilter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben
+# Systemweite Filter, Ansichten und Gruppierungen erstellen, bearbeiten und freigeben
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Sie können Standardfilter, Ansichten und Gruppierungen erstellen und sie dann für Benutzer in Ihrer Organisation verfügbar machen.
+Sie können Filter, Ansichten und Gruppierungen erstellen und sie für Benutzer in Ihrer Organisation systemweit verfügbar machen.
 
-Wenn Sie Standardfilter, Ansichten und Gruppierungen erstellen, wie in diesem Artikel beschrieben, können Benutzer, für die Sie sie freigeben, diese beim Anzeigen ihrer Listen nutzen. Benutzende können basierend auf den von Ihnen erstellten Filtern, Ansichten und Gruppierungen eigene Filter, Ansichten und Gruppierungen erstellen, die von Ihnen erstellten Filter und Ansichten jedoch nicht direkt ändern.
+Wenn Sie systemweite Filter, Ansichten und Gruppierungen erstellen, wie in diesem Artikel beschrieben, können Benutzer, für die Sie sie freigeben, diese beim Anzeigen ihrer Listen nutzen. Benutzer können basierend auf den von Ihnen erstellten Filtern, Ansichten und Gruppierungen eigene Filter, Ansichten und Gruppierungen erstellen, diese jedoch nicht direkt ändern.
+
+Beachten Sie, dass sich die von Ihnen erstellten systemweiten Filter, Ansichten und Gruppierungen von den Standardfiltern, die Adobe Workfront automatisch für Sie im System erstellt, unterscheiden. Diese Standardfilter, -ansichten und -gruppierungen können nicht bearbeitet oder gelöscht werden.
 
 ## Zugriffsanforderungen
 
@@ -58,17 +62,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Erstellen von Standardfiltern, Ansichten oder Gruppierungen
+## Filter, Ansichten oder Gruppierungen erstellen
 
 {{step-1-to-setup}}
 
-1. Führen Sie einen der folgenden Schritte aus, je nachdem, ob Sie einen Filter, eine Ansicht oder eine Gruppierung erstellen oder bearbeiten:
 
-   * Klicken Sie **[!UICONTROL Schnittstelle]** > **[!UICONTROL Filter]**.
-
-   * Klicken Sie **[!UICONTROL Schnittstelle]** > **[!UICONTROL Ansichten]**.
-
-   * Klicken Sie **[!UICONTROL Schnittstelle]** > **[!UICONTROL Gruppierungen]**.
+1. Klicken Sie **[!UICONTROL Schnittstelle]** und klicken Sie dann auf eine der folgenden Optionen: **[!UICONTROL Filter]**, **[!UICONTROL Ansichten]** oder **[!UICONTROL Gruppierungen]**.
 
 1. Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung erstellen, klicken Sie auf **[!UICONTROL Filter hinzufügen]**, **[!UICONTROL Ansicht hinzufügen]** oder **[!UICONTROL Gruppierung hinzufügen]** und wählen Sie dann den Objekttyp aus, mit dem Sie den neuen Filter, die neue Ansicht oder die neue Gruppierung verknüpfen möchten.
 
@@ -95,9 +94,11 @@ Sie können Filter, Ansichten oder Gruppierungen aus der Layout-Vorlage ein- ode
 
 >[!NOTE]
 >
->Wenn ein(e) Benutzende(r) aktiv einen Filter, eine Ansicht oder eine Gruppierung verwendet und dieser dann von einem Administrator deaktiviert wird, hat der/die Benutzende weiterhin Zugriff, bis er/sie einen neuen Filter, eine neue Ansicht oder eine neue Gruppierung auswählt. Nachdem sie einen neuen Filter, eine neue Ansicht oder eine neue Gruppierung ausgewählt haben, können sie nicht mehr zum ausgeblendeten Filter, zur ausgeblendeten Ansicht oder zur ausgeblendeten Gruppierung zurückkehren.
+>Wenn ein(e) Benutzende(r) aktiv einen Filter, eine Ansicht oder eine Gruppierung verwendet und dieser dann von einem Administrator deaktiviert wird, hat der/die Benutzende weiterhin Zugriff, bis er/sie einen neuen Filter, eine neue Ansicht oder eine neue Gruppierung auswählt. Nachdem sie einen neuen ausgewählt haben, können sie nicht mehr zum verborgenen zurückkehren.
 
 So blenden Sie die in der Layout-Vorlage verfügbaren Filter, Ansichten oder Gruppierungen ein oder aus:
+
+{{step-1-to-setup}}
 
 1. Klicken Sie **[!UICONTROL Schnittstelle]** und klicken Sie dann auf eine der folgenden Optionen: **[!UICONTROL Filter]**, **[!UICONTROL Ansichten]** oder **[!UICONTROL Gruppierungen]**.
 
@@ -109,7 +110,7 @@ So blenden Sie die in der Layout-Vorlage verfügbaren Filter, Ansichten oder Gru
    >
    >Wenn Sie möchten, dass der Filter, die Ansicht oder die Gruppierung für die meisten Benutzer verfügbar bleibt, sie jedoch vor anderen ausblenden, können Sie die Layout-Vorlage verwenden. Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Bedingt) Wählen Sie den Filter, die Ansicht oder die Gruppierung aus, die Sie vor Benutzern ausblenden möchten, und klicken Sie dann auf **[!UICONTROL Systemweit deaktivieren]**. Nach der Deaktivierung werden der Filter, die Ansicht oder die Gruppierung in der Layout-Vorlage sowie für Benutzende im System ausgeblendet.
+1. (Bedingt) Wählen Sie den Filter, die Ansicht oder die Gruppierung aus, die Sie vor Benutzern ausblenden möchten, und klicken Sie dann auf **[!UICONTROL Systemweit deaktivieren]**. Der Filter, die Ansicht oder die Gruppierung ist jetzt in der Layout-Vorlage und für Benutzende im System ausgeblendet.
 
 
 ## Filter, Ansichten oder Gruppierungen für alle Benutzer verfügbar machen {#make-filters-views-or-groupings-available-to-users}
@@ -120,34 +121,19 @@ In diesen Schritten wird erläutert, wie Sie Filter, Ansichten und Gruppierungen
 
 1. Klicken Sie **[!UICONTROL Schnittstelle]** und klicken Sie dann auf eine der folgenden Optionen: **[!UICONTROL Filter]**, **[!UICONTROL Ansichten]** oder **[!UICONTROL Gruppierungen]**.
 
-1. Wählen Sie den Filter, die Ansicht oder die Gruppierung aus, die Sie den Benutzern zur Verfügung stellen möchten, und klicken Sie dann auf das **[!UICONTROL Freigeben]**-Symbol ![Freigeben](assets/share-icon.png), um das [!UICONTROL Filterzugriff], [!UICONTROL Anzeigezugriff] oder [!UICONTROL Gruppierungszugriff] Formular zu öffnen.
-1. (Bedingt) Um den Filter, die Ansicht oder die Gruppierung für alle Benutzer im System verfügbar zu machen, klicken Sie auf das Dropdown-![](assets/gear-menu-for-sharing-items.png) **[!UICONTROL Zahnrad]** und dann auf **[!UICONTROL Dies systemweit sichtbar machen]**. Alle Benutzenden im System können jetzt den Filter, die Ansicht oder die Gruppierung sehen.
-
-   Oder
-
-   Geben Sie den Namen bestimmter Benutzer, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie den Filter, die Ansicht oder die Gruppierung freigeben möchten, und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Wählen Sie den Filter, die Ansicht oder die Gruppierung aus, die Sie den Benutzern zur Verfügung stellen möchten, und klicken Sie dann auf das **[!UICONTROL Freigabe]**-Symbol ![Freigeben](assets/share-icon.png).
+1. Geben Sie den Namen bestimmter Benutzer, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie den Filter, die Ansicht oder die Gruppierung freigeben möchten, und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    Weitere Informationen zur Freigabe finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-   Benutzer, die Sie angegeben haben, können jetzt den Standardfilter, die Standardansicht oder die Standardgruppierung sehen, wenn Sie den Objekttyp anzeigen, mit dem Sie ihn verknüpft haben.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Benutzer, die Sie angegeben haben, können jetzt den Filter, die Ansicht oder die Gruppierung sehen, wenn Sie den Objekttyp anzeigen, mit dem Sie ihn verknüpft haben.
 
 ## Filter, Ansichten und Gruppierungen löschen
 
 {{step-1-to-setup}}
 
-1. Führen Sie einen der folgenden Schritte aus, je nachdem, ob Sie einen Filter, eine Ansicht oder eine Gruppierung löschen:
-
-   * Klicken Sie auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Filter]**
-
-   * Klicken Sie **[!UICONTROL Schnittstelle]** > **[!UICONTROL Ansichten]**
-
-   * Klicken Sie auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Gruppierungen]**
+1. Klicken Sie **[!UICONTROL Schnittstelle]** und klicken Sie dann auf eine der folgenden Optionen: **[!UICONTROL Filter]**, **[!UICONTROL Ansichten]** oder **[!UICONTROL Gruppierungen]**.
 
 1. Wählen Sie ein oder mehrere Elemente in der Liste aus und klicken Sie dann auf das **[!UICONTROL Löschen]**-Symbol ![Löschen](assets/delete.png).
-1. Detaillierte Informationen zum Konfigurieren eines Filters, einer Ansicht oder einer Gruppierung finden Sie in einem der folgenden Artikel.
 
-   * [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [Ansichten - Übersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-   * [Gruppierungen - Übersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+1. Klicken Sie im **Löschen**-Dialogfeld auf **Ja, Löschen**.

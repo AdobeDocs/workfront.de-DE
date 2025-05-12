@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 2%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 2%
    * Einrichten von Workfront {#set-up-wf}
       * [Einrichten](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Systemstandardeinstellungen konfigurieren {#configure-system-defaults}
-         * [Standardeinstellungen konfigurieren](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [Konfigurieren von Systemstandards: Artikelindex](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Projektvoreinstellungen konfigurieren](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Voreinstellungen für Aufgaben und Probleme konfigurieren](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [Projektvoreinstellungen für Gruppen sperren](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 2%
       * [Delegieren von Aufgaben und Problemen - Übersicht](manage-work/delegate-work/delegate-work-overview.md)
       * [Delegieren von Aufgaben und Problemen](manage-work/delegate-work/how-to-delegate-work.md)
 * Teams und Gruppen {#teams-groups}
-   * [Teams und Gruppen](people-teams-and-groups/people-teams-and-groups.md)
+   * [Teams und Gruppen: Artikelindex](people-teams-and-groups/people-teams-and-groups.md)
    * Erstellen und Verwalten von Teams {#create-manage-teams}
       * [Erstellen und Verwalten von Teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [Teams-Überblick](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
