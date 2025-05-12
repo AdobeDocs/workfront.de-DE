@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help
 >[!NOTE]
 >
 >* Vorschau: 17. April 2025
->* Produktions-Schnellveröffentlichung: 15. Mai 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
 >* Produktion für alle Kunden: 17. Juli 2025
 
 Um besser steuern zu können, wer Datensätze in jedem Datensatztyp anzeigen oder verwalten kann, und sicherzustellen, dass nur autorisierte Personen die Informationen jedes Datensatztyps basierend auf ihren Rollen und Zuständigkeiten verwalten können, haben wir Berechtigungen auf der Datensatztypebene eingeführt.
