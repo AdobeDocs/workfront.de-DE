@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
+source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,13 @@ Der Bereich Erweiterte Suche wurde durch folgende Änderungen aktualisiert:
 
 * Es wurde eine neue Registerkarte Vollständige Suche hinzugefügt. Auf dieser Registerkarte können Sie nach Typ, Eingabedatum, Eingabedatum, Kategorie und zuletzt aktualisiert von suchen.
 * Der Filter auf der Registerkarte Erweiterte Suche unterscheidet sich geringfügig. Jetzt ist der Filter nicht vorausgefüllt. Sie müssen ihn aktivieren und den Filter von Grund auf neu erstellen. Der Filter bleibt beim Aktualisieren der Seite nicht erhalten.
+* Die erweiterte Suche ist jetzt im Vollbildmodus verfügbar. Sie müssen die Seite verlassen, anstatt das Dialogfeld zu schließen.
 
 Weitere Informationen finden Sie unter [Suche [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Aktualisierung der Benutzeroberfläche für das Gewähren von Support-Zugriff auf Ihr Workfront-Konto
 
-**Vorschauversion: 24. April; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 24. April; Produktions-Version: Ab der Woche vom 1. Mai 2024**
 
 Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront-Konto zu gewähren, mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -237,7 +238,13 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > A
 
 ## Dokumente
 
-+++Erweitern, um Aktualisierungen der Dokumentenschnittstelle anzuzeigen
+### Dokument für externe E-Mail-Adressen freigeben
+
+**Vorschau-Version: 15. Mai 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Das Dialogfeld Freigeben wurde aktualisiert, damit Benutzer Dokumente über eine E-Mail-Adresse für externe Benutzer freigeben können. Diese Funktion war aufgrund der Modernisierungsarbeiten an der Benutzeroberfläche vorübergehend nicht verfügbar.
+
++++Erweitern, um weitere Aktualisierungen der Dokumentenoberfläche anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche beim Anfordern eines Dokuments
 
@@ -345,6 +352,22 @@ Wir haben eine neue Schaltfläche Textmodus bearbeiten und Modal bearbeiten zu d
 +++
 
 ## Benutzende
+
+### Aktualisierter Look für die Anmeldeseite
+
+**Vorschau-Version: 15. Mai 2024; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Anmeldeseite um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
+
+### Die Seite zum Zurücksetzen des Kennworts wurde aktualisiert
+
+**Vorschau-Version: 15. Mai 2024; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben den Bildschirm zum Zurücksetzen des Kennworts mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Dieses Update enthält Aktualisierungen für die folgenden Seiten:
+
+* Passwort fast abgelaufen
+* Abgelaufenes Kennwort
+* Temporäres Kennwort
 
 ### Dokumentenfreigabeseite für externe Benutzer aktualisiert
 
