@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
 1. (Optional) Klicken Sie auf **Aufschlüsselung**, um verbundene Datensätze in der Zeitleiste anzuzeigen.
 
-   Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion zum Anzeigen verbundener Datensätze in der Zeitleisten-Ansicht](#break-down-connected-records-in-the-timeline-view)
+   Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion zum Anzeigen verbundener Datensätze in der Zeitleisten](#break-down-connected-records-in-the-timeline-view) in diesem Artikel.
 
 ### Filter hinzufügen
 
@@ -266,15 +266,22 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 1. Klicken Sie **Einstellungen**.
-1. Klicken Sie **linken Bereich auf** Datum und Uhrzeit“ und wählen Sie dann ein **Startdatum** und ein **Enddatum** aus, die in der Zeitleiste angezeigt werden sollen. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges verfügbares Datumsfeld auswählen. Die Balken, die die Datensätze darstellen, beginnen an dem Datum, das Sie als Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
+1. Klicken Sie **linken Bereich auf** Datum und Uhrzeit“ und wählen Sie dann ein **Startdatum** und ein **Enddatum** aus, die in der Zeitleiste angezeigt werden sollen. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges verfügbares Datumsfeld auswählen.
+
+   Die Balken, die die Datensätze darstellen, beginnen an dem Datum, das Sie als Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
 
    >[!NOTE]
    >
-   >Datensätze, die keine Werte für das Start- oder Enddatum haben oder deren Startdatum nach dem Enddatum liegt, werden nicht in der Zeitleisten -Ansicht angezeigt.
+   >* Datensätze, die keine Werte für das Start- oder Enddatum haben oder deren Startdatum nach dem Enddatum liegt, werden nicht in der Zeitleisten -Ansicht angezeigt.
+   >
+   >* Wenn Sie zusätzliche Datensätze mithilfe der Option Aufschlüsselung anzeigen, sind das Start- und Enddatum die Daten des Hauptdatensatzes. Start- und Enddatum für die verbundenen Datensätze in diesem Bereich können nicht ausgewählt werden.
 
 1. Klicken Sie **linken** auf „Balkenstil“, um anzugeben, welche Informationen in den Datensatzleisten angezeigt werden sollen.
 
-   Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt.
+   <!--adjust this when the primary field is released??-->
 
 1. (Optional und bedingt) Wenn Sie den Datensätzen Miniaturen hinzugefügt haben, wählen Sie die Option Miniaturen aus, um das mit den Datensätzen verknüpfte Bild in der Datensatzleiste anzuzeigen.
 
@@ -306,10 +313,13 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >* <span class="preview">Wenn Sie die Zeitleisten -Ansicht aufschlüsseln, um verbundene Objekte anzuzeigen, gilt die Einstellung Balkendetails abschneiden nur für den Hauptdatensatztyp. Dies gilt nicht für die verbundenen Datensatzleisten.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.
 
    ![Ansicht der Farbregisterkarte „Timeline“](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Bedingt und optional) Wenn Sie der Zeitleisten -Ansicht eine Gruppierung hinzugefügt haben, wählen Sie eine der folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
 
@@ -348,9 +358,13 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Klicken Sie auf **Speichern**.
 
    Die Datensätze werden in der Zeitleisten -Ansicht mit den von Ihnen ausgewählten Spezifikationen angezeigt.
+
+
 
 ### Aufschlüsseln verbundener Datensätze in der Zeitleisten-Ansicht
 
@@ -359,6 +373,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Überlegungen zur Verwendung der Aufschlüsselungsfunktion
 
 * Sie können verbundene Datensätze oder Objekte unter den Datensätzen des ausgewählten Datensatztyps in der Zeitleisten -Ansicht anzeigen.
+* Verbundene Datensätze können nur in der Zeitleisten -Ansicht angezeigt werden, wenn die Datensätze im Standardmodus angezeigt werden. Die Aufschlüsselungsoption kann im Komprimierungsmodus der Zeitleisten -Ansicht nicht verwendet werden.
 * Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Zeitleisten -Ansicht anzeigen:
    * Mit dem ausgewählten Datensatztyp verknüpfte Workfront-Planungsdatensätze
    * Workfront-Objekttypen oder Experience Manager-Assets, die mit dem ausgewählten Datensatztyp verbunden sind.

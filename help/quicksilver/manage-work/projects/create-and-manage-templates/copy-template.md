@@ -6,10 +6,10 @@ description: Sie können eine Projektvorlage nicht nur von Grund auf neu erstell
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Sie benötigen den folgenden Zugriff.
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td><p>Neu: Standard</p> 
-   <p>current:plan </p> </td> 
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -81,9 +81,14 @@ Die folgenden Elemente werden niemals aus einer vorhandenen Vorlage in eine neue
 1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Vorlagennamen in der Kopfzeile und klicken Sie dann auf **Kopieren**.
 
    Das Feld **Vorlage kopieren** wird geöffnet.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. Geben Sie einen Namen für die Vorlage im Feld **Neuer Vorlagenname** an.
 
    Standardmäßig ist der neue Name `Copy of Original template name`.
 
-1. Wählen Sie aus, ob **Benutzerzuweisungen für Aufgaben und Vorlagen beibehalten werden sollen**: Wählen Sie diese Option aus, um alle Aufgaben- und Vorlagenzuweisungen von der ursprünglichen Vorlage auf die neue Vorlage zu übertragen.
+1. Wählen Sie die Option **Benutzerzuweisungen für Aufgaben und Vorlagen beibehalten**, wenn Sie alle Aufgaben- und Vorlagenzuweisungen von der ursprünglichen Vorlage in die neue Vorlage übernehmen möchten. Vorlagenaufgabenzuweisungen und der Vorlagenbesitzer sowie der Sponsor werden zur kopierten Vorlage übertragen.
 1. Klicken Sie **Speichern**, um eine Kopie der Vorlage zu erstellen.
+
+   Die neue Vorlage wird in der Vorlagenliste im Vorlagenbereich von Workfront angezeigt.

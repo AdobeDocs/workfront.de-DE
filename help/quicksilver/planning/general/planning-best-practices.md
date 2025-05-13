@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '3225'
+source-wordcount: '3188'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Im Folgenden finden Sie einige häufig gestellte Fragen zur Konfiguration von Wo
 #### Wie sollte ich beginnen?
 
 * ✅ Wenn Sie sich zum ersten Mal bei Planning anmelden, folgen Sie unserem In-App-Onboarding-Prozess, der den Wert von Planning klar vermittelt und Sie bei der Navigation und der effektiven Verwendung des Produkts führt. Dadurch wird sichergestellt, dass Sie die Funktionen von verstehen und leicht mit Ihrer Arbeit beginnen können.
-* ✅ Erkunden Sie zunächst unsere vordefinierten Arbeitsbereich-Vorlagen, um Ideen für vorhandene ähnliche Anwendungsfälle zu erhalten. Sie können die vordefinierten Datensatztypen und Felder in einer Vorlage verwenden oder eigene hinzufügen.
+* ✅ erkunden Sie zunächst unsere vordefinierten Arbeitsbereich-Vorlagen, um Ideen für vorhandene ähnliche Anwendungsfälle zu erhalten. Sie können die vordefinierten Datensatztypen und Felder in einer Vorlage verwenden oder eigene hinzufügen.
 * ✅ Identifizieren Sie die wichtigsten Anwendungsfälle, die Sie mit Workfront Planning lösen möchten. Die meisten Unternehmen möchten zum Beispiel den Überblick über strategische Aktivitäten verbessern, wozu auch die Erstellung eines besseren „Kampagnenkalenders“ gehören kann. Für diesen Anwendungsfall sollten Sie also zunächst einige Fragen beantworten:
 
    * Wer fragt danach?
@@ -50,7 +50,7 @@ Kampagnen? Taktik? Initiativen? Aktivitäten? Ereignisse?
 
   Beachten Sie außerdem, dass es möglicherweise andere Planende gibt, die derzeit keine Workfront-Benutzer sind. Diese Planer können mit Excel-Tabellen, Word-Dokumenten, PowerPoints usw. arbeiten. Überlegen Sie, wie sie in Workfront Planning auf Ihre Informationen zugreifen können.
 
-* ✅ Um die Vorteile von Workfront Planning voll auszuschöpfen, sollten Sie in Workfront Planning die Verwendung von Portfolios und Programmen im Workfront Workflow durch eine andere Oberstufenstruktur ersetzen.
+* ✅ Um die Vorteile von Workfront Planning in vollem Umfang nutzen zu können, sollten Sie in Workfront Planning die Verwendung von Portfolios und Programmen im Workfront Workflow durch eine andere Oberstufenstruktur ersetzen.
 
   Heute präsentieren Workfront-Kunden ihre strategische Arbeit durch Portfolios und Programme, in einigen Fällen als Projekte unterschiedlicher Art. Mit der Einführung von Planning sollte all diese strategische Arbeit durch benutzerdefinierte Datensatztypen in Workfront Planning abgewickelt werden, während Workfront sich auf die Ausführungsphase von Arbeit konzentriert, die als Projekte und Aufgaben dargestellt wird.
 
@@ -78,7 +78,7 @@ Kampagnen? Taktik? Initiativen? Aktivitäten? Ereignisse?
 * ✅ Erstellen und beschriften Sie die Abschnitte, um Ihren Benutzern zu zeigen, wie Sie Ihren Betriebslebenszyklus organisieren.
 
   Sie können beispielsweise einen Abschnitt mit dem Namen **Core-Datensätze** erstellen, in dem Sie Ihre Kampagnen, Taktiken und Ergebnisse in Ihrem Arbeitsbereich platzieren.
-* Datensatztypen „wie“ ✅ gruppieren.
+* ✅ Datensatztypen „like“ zusammen gruppieren.
 
   Sie können beispielsweise einen Abschnitt mit dem Namen &quot;**&quot; erstellen** der Datensatztypen wie „Region“, „Land“ und „Stadt“ enthält.
 
@@ -89,10 +89,10 @@ Datensatztypen sind die Bausteine einer Workfront Planning-Workspace. Sie könne
 
 #### Wie sollte ich Datensatztypen in meinem Arbeitsbereich definieren?
 
-* ✅ Nehmen Sie sich etwas Zeit, um zu ermitteln, welche Informationen Sie verfolgen müssen (welche Datensatztypen ich benötige) und wie diese Informationen verbunden werden müssen. Sprechen Sie mit den Stakeholdern, die den Arbeitsbereich verwenden werden, um alle ihre Anforderungen zu berücksichtigen. Sie können auch benutzerdefinierte Abschnitte mit verschiedenen Datensatztypen erstellen, um die Informationen auf sehr benutzerfreundliche Weise darzustellen.
+* ✅ Es kann einige Zeit dauern, bis Sie herausgefunden haben, welche Informationen Sie nachverfolgen müssen (welche Datensatztypen ich benötige) und wie diese Informationen verknüpft werden müssen. Sprechen Sie mit den Stakeholdern, die den Arbeitsbereich verwenden werden, um alle ihre Anforderungen zu berücksichtigen. Sie können auch benutzerdefinierte Abschnitte mit verschiedenen Datensatztypen erstellen, um die Informationen auf sehr benutzerfreundliche Weise darzustellen.
 
 
-* ⛔ Duplizieren Sie keine Datensatztypen für einen anderen Zeitraum (erstellen Sie beispielsweise keine separaten Datensatztypen für &quot;**2024“** &quot;**2025**).
+* ⛔ Duplizieren Sie keine Datensatztypen für einen anderen Zeitraum (erstellen Sie beispielsweise keine separaten Datensatztypen für **Kampagnen 2024“** &quot;**2025**).
 
   Wenn Sie verschiedene Datensatztypen erstellen, unterbricht dies den Datenfluss, wenn Sie Daten über mehrere Jahre hinweg vergleichen möchten. Die Ansichten heute sind pro Datensatztyp. Sobald das Jahr endet, zeigt die Ansicht dieses Datensatztyps nicht mehr die zukünftigen Elemente an. Es empfiehlt sich, für die Art der Arbeit einen einzigen Datensatztyp zu verwenden und die Daten mithilfe von Filtern zu segmentieren oder bei Bedarf zu archivieren.
 
@@ -111,7 +111,7 @@ Datensatztypen sind die Bausteine einer Workfront Planning-Workspace. Sie könne
 
 #### Wie sollte ich meine Datensatztypen beschriften?
 
-* ✅ Erstellen und beschriften Sie Datensatztypen, die ein einzelnes Konstrukt oder Substantiv darstellen, z. B. **Kampagnen**.
+* ✅ Datensatztypen, die ein einzelnes Konstrukt oder Substantiv darstellen, wie z. B. **Kampagnen“, erstellen und**.
 * ⛔ Erstellen Sie keinen Datensatztyp, der besser als Ansicht dargestellt wird.
 
   Beispielsweise ist **Kalender** eine schlechte Wahl für einen Datensatztyp, da es nicht der Datensatztyp selbst ist, sondern eine Ansicht von Datensätzen.
@@ -135,7 +135,7 @@ Felder sind Attribute von Datensatztypen und werden in der Tabellenansicht als S
 
 #### Wie sollte ich die Daten in meinem Arbeitsbereich verbinden?
 
-* ✅ Das Erstellen von Verbindungen ist eine der leistungsfähigsten Funktionen von Workfront Planning. Sie können Datensatztypen miteinander oder Datensatztypen mit Objekttypen aus anderen Programmen wie Adobe Workfront (Verbindung zu Projekten, Portfolios, Programmen, Unternehmen und Gruppen) und mit Adobe Experience Manager Assets (Verbindung zu Assets und Ordnern) verbinden.
+* ✅ Erstellen von Verbindungen ist eine der leistungsfähigsten Funktionen von Workfront Planning. Sie können Datensatztypen miteinander oder Datensatztypen mit Objekttypen aus anderen Programmen wie Adobe Workfront (Verbindung zu Projekten, Portfolios, Programmen, Unternehmen und Gruppen) und mit Adobe Experience Manager Assets (Verbindung zu Assets und Ordnern) verbinden.
 
   Das Verbinden von Objekt- und Datensatztypen gibt Ihnen einen vollständigen Überblick darüber, wie alles in Ihrem Unternehmen verbunden ist.
 
@@ -165,7 +165,7 @@ Felder sind Attribute von Datensatztypen und werden in der Tabellenansicht als S
 
 #### Sollte ich Felder ausblenden oder löschen, die für mich nicht relevant sind?
 
-* ✅ Spalte ausblenden, anstatt sie zu löschen, wenn diese Informationen für eine andere Person mit demselben Datensatztyp relevant sein könnten. Wenn Sie das Feld in einer bestimmten Tabellenansicht löschen, wird dieses Feld auch in den übrigen Ansichten dieses Datensatzes sowie überall dort gelöscht, wo dieser Datensatztyp verknüpft ist.
+* ✅ Die Spalte ausblenden, anstatt sie zu löschen, wenn diese Informationen für eine andere Person mit demselben Datensatztyp relevant sein könnten. Wenn Sie das Feld in einer bestimmten Tabellenansicht löschen, wird dieses Feld auch in den übrigen Ansichten dieses Datensatzes sowie überall dort gelöscht, wo dieser Datensatztyp verknüpft ist.
 
 #### Wie sollte ich Filter und Gruppierungen in den Tabellen- und Zeitleisten-Ansichten verwenden?
 
@@ -196,22 +196,29 @@ Verwenden Sie die Freigabefunktion, um Mitarbeitern die entsprechenden Berechtig
   Sie können aus den folgenden Berechtigungsebenen auswählen:
 
    * **Verwalten**: Benutzer können den Arbeitsbereich bearbeiten, löschen und freigeben.
-   * **Contribute**: Benutzer können Datensätze erstellen, bearbeiten und löschen.
+   * **Beitragen**: Benutzer können Datensätze erstellen, bearbeiten und löschen.
    * **Anzeigen**: Benutzer können Datensätze anzeigen.
 
 * ✅ Obwohl viele Kunden den Eindruck haben, dass sie Workspaces **Verwalten**-Berechtigungen für die meisten Benutzer erteilen würden, beschränken Sie die **Verwalten**-Berechtigungen auf eine ausgewählte Gruppe vertrauenswürdiger Personen, die keinen Datensatztyp versehentlich löschen oder anderweitig unnötige Datensatztypen und -felder erstellen. Sie können den Arbeitsbereich bearbeiten, freigeben und sogar löschen. Mit dieser Berechtigungsstufe erhalten sie vollständigen administrativen Zugriff auf die Workspace.
 
   Für die Verwaltung von Berechtigungen für einen Arbeitsbereich ist eine Standardbenutzerlizenz erforderlich.
 
-* ✅ Erteilen Sie Benutzern **Contribute**-Berechtigungen, wenn Sie möchten, dass sie nur Datensätze erstellen, bearbeiten und löschen können, sie aber nicht die Struktur und das Schema des Arbeitsbereichs ändern sollen. Mit **Contribute**-Berechtigungen können sie keine Datensatztypen erstellen oder die Felder für die vorhandenen Datensatztypen ändern.
+* ✅ Erteilen Sie Benutzern **Beitragen** Berechtigungen, wenn Sie möchten, dass sie nur Datensätze erstellen, bearbeiten und löschen können, sie jedoch nicht die Struktur und das Schema des Arbeitsbereichs ändern sollen. Mit **Contribute**-Berechtigungen können sie keine Datensatztypen erstellen oder die Felder in den vorhandenen Datensatztypen ändern.
 
-  Eine Standardbenutzerlizenz ist erforderlich, damit eine Person über **Contribute**-Berechtigungen für einen Arbeitsbereich verfügt.
+  Eine Standardbenutzerlizenz ist erforderlich, damit eine Person über **Beitragen**-Berechtigungen für einen Arbeitsbereich verfügt.
 
 * ✅ Erteilen Sie Benutzern **Anzeigen**-Berechtigungen, wenn sie nur Datensätze anzeigen sollen.
 
   >[!NOTE]
   >
   >Derzeit haben wir keine spezifischen Berechtigungen für Datensatztypen oder Datensätze. Dies bedeutet, dass alle Datensätze in einem der Datensatztypen sichtbar sind, wenn Sie jemandem (**)** Zugriff auf den Arbeitsbereich gewähren.
+
+<!--
+#### How should I manage permissions to record types?
+
+* ✅ Remember that users with Manage permissions to workspaces cannot have their permissions lowered for the record type. They will also inherit Manage permissions to the record type. You cannot give a user Manage permissions on the workspace but Contribute or View permissions on the record type. 
+* ✅ If you want users to have a lower permission level (for example, View permissions) for the record type than they have for the workspace, we recommend giving them Contribute permissions to the workspace. You can then, give them View permissions to the record type. 
+-->
 
 #### Wie sollte ich Berechtigungen für Ansichten verwalten?
 
@@ -221,7 +228,7 @@ Verwenden Sie die Freigabefunktion, um Mitarbeitern die entsprechenden Berechtig
 
 * ✅ Erteilen Sie Benutzern **Ansicht** Zugriff, um die Ansicht anwenden zu können. Sie können einige Filter oder Gruppierungen und die Sortierung ändern, diese Änderungen sind jedoch nur temporär. Die Änderungen werden nicht für alle anderen Benutzer gespeichert, die auf die Ansicht zugreifen. Diese Änderungen wirken sich nicht auf die Hauptkonfiguration der Ansicht für alle anderen aus, die ebenfalls die Ansicht verwenden.  Ihre Änderungen sind nur für den Benutzer sichtbar, der die geänderten Einstellungen anwendet. Nach Aktualisierung des Bildschirms werden die Änderungen auf den Standardwert zurückgesetzt.
 
-* ✅ Erteilen Sie **Jeder im Arbeitsbereich kann anzeigen** Berechtigungen, wenn jeder, der den Arbeitsbereich anzeigen kann, die Datensätze und deren Felder in dieser spezifischen Ansicht sehen soll. Auf diese Weise müssen Sie für die Ansicht niemanden manuell zum Feld für die Freigabeberechtigung hinzufügen.
+* ✅ Erteilen Sie **Alle im Arbeitsbereich können anzeigen** Berechtigungen, wenn jeder, der den Arbeitsbereich anzeigen kann, die Datensätze und deren Felder in dieser spezifischen Ansicht sehen soll. Auf diese Weise müssen Sie für die Ansicht niemanden manuell zum Feld für die Freigabeberechtigung hinzufügen.
 
   >[!NOTE]
   >
@@ -236,9 +243,9 @@ Verwenden Sie die Freigabefunktion, um Mitarbeitern die entsprechenden Berechtig
 
 #### Wie wirken sich Workfront-Lizenztypen auf Workfront Planning-Berechtigungen aus?
 
-* Für die **Freigabe von Workspace**: Benutzende mit Light- und Contribute-Lizenzen können nur Ansichtszugriff auf einen Arbeitsbereich erhalten. Um jemandem die Berechtigung &quot;Contribute&quot; oder „Verwalten“ für einen Arbeitsbereich zu erteilen, muss er über eine Standardlizenz verfügen.
+* Für die **Freigabe von Workspace**: Lizenzanwender von Light und Contribute können nur Ansichtszugriff auf einen Arbeitsbereich erhalten. Um jemandem die Berechtigung Beitragen oder Verwalten für einen Arbeitsbereich zu erteilen, muss er über eine Standardlizenz verfügen.
 
-* **Ansichtsfreigabe**: Benutzer von Standardlizenzen, die Verwaltungsberechtigungen für einen Arbeitsbereich haben, können eine Ansicht erstellen. Benutzende mit Light- und Contribute-Lizenz können nur die Ansichten nutzen, die Standardbenutzende erstellt und für sie freigegeben haben. Andernfalls können Benutzende, wenn nichts freigegeben wurde, die &quot;**Tabellenansicht“**.
+* **Ansichtsfreigabe**: Benutzer von Standardlizenzen, die Verwaltungsberechtigungen für einen Arbeitsbereich haben, können eine Ansicht erstellen. Benutzer der Light- und Contribute-Lizenz können nur die Ansichten verwenden, die von Standardbenutzern erstellt und für sie freigegeben wurden. Andernfalls können Benutzende, wenn nichts freigegeben wurde, die &quot;**Tabellenansicht“**.
 
 
 #### Was sollte ich tun, wenn ein Workspace-Besitzer wechselt?
@@ -263,19 +270,19 @@ Sie können für jeden Datensatztyp ein Anfrageformular erstellen, wenn Benutzer
 
 #### Wie sollte ich ein Anfrageformular für einen Datensatztyp erstellen oder bearbeiten?
 
-* ✅ Jeder Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ kann die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben werden.
+* ✅ Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ können die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning“ beschrieben ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wer kann neue Datensätze mithilfe des Anfrageformulars einreichen?
 
-* ✅ Übermittlungsberechtigungen hängen von den Einstellungen ab, die Sie für jedes Formular konfigurieren.
+* ✅ Berechtigungen zum Senden hängen von den Einstellungen ab, die Sie für jedes Formular konfigurieren.
 
   Im Formular-Builder können Sie nach der Veröffentlichung des Formulars Berechtigungen verwalten, um zu steuern, wer Anfragen senden kann.
 
   Sie können aus den folgenden drei Freigabeoptionen wählen:
 
    * **Jeder mit Ansicht oder Zugriff auf den Arbeitsbereich:** Alle Benutzer mit Ansicht oder höheren Berechtigungen für den Arbeitsbereich können eine Anfrage senden, die einen Datensatz erstellt.
-   * **Jeder, der Zugriff auf den Arbeitsbereich hat oder darüber**: Schränkt die Übermittlung auf Benutzende mit Contribute- oder höheren Berechtigungen für den Arbeitsbereich ein.
+   * **Alle mit Zugriff auf den Arbeitsbereich, der Beiträge leistet oder darüber**: Beschränkt die Übermittlung auf Benutzer mit der Berechtigung „Beitragen“ oder einer höheren Berechtigung für den Arbeitsbereich.
    * **Jeder mit dem Link:** Ermöglicht jedem, der den Formular-Link hat, eine Anfrage zu senden.
    * **Ablaufdatum:** Stellen Sie sicher, dass Sie ein Ablaufdatum für den öffentlichen Link festlegen, um die Sicherheit zu erhöhen.
 
@@ -342,10 +349,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -353,7 +360,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 
