@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Genehmigende Person muss nicht Mitglied des Projektteams sein (für Genehmigungsprozesse, die eine Rolle beinhalten)</td> 
-      <td> <p>Wählen Sie diese Option aus, wenn eine genehmigende Person nicht dem Projektteam angehören muss, wenn ein Genehmigungsprozess eine Rolle beinhaltet. Wenn Sie die Genehmigungsentscheidung einem Aufgabengebiet zuweisen, wird die Genehmigung nur Benutzern angezeigt, denen im Projekt eine Rolle zugeordnet ist. Wenn Sie diese Einstellung aktivieren, erhält jeder Benutzer mit diesem Aufgabengebiet die Genehmigungsanfrage, unabhängig davon, ob er zum Projektteam gehört oder nicht. Informationen zum Bearbeiten der Projektrolle eines Benutzers finden Sie unter <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Verwalten des Projektteams</a>. </p> 
+      <td> <p>Wählen Sie diese Option aus, wenn eine genehmigende Person nicht dem Projektteam angehören muss, wenn ein Genehmigungsprozess eine Rolle beinhaltet. Jeder Benutzer mit diesem Aufgabengebiet erhält die Genehmigungsanfrage, unabhängig davon, ob er zum Projektteam gehört oder nicht, obwohl ihm nicht automatisch Zugriff auf das Projekt gewährt wird. Informationen zum Bearbeiten der Projektrolle eines Benutzers finden Sie unter <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Verwalten des Projektteams</a>. </p> 
       <p><b>TIPP</b>: Wenn Sie eine Genehmigung einer Funktion zuweisen und die Option <b>Genehmigende Person muss nicht dem Projektteam angehören (für Genehmigungsprozesse, die eine Funktion beinhalten)</b> deaktiviert ist, aber es gibt keine Funktionen im Projektteam, die mit der Funktion in der Genehmigung übereinstimmen, wird die Genehmigung dem Projektbesitzer neu zugewiesen. </p> </td> 
      </tr> 
      <tr> 
