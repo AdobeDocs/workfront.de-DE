@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
+source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '592'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 3%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens des dritten Quartals 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+
+
+## Modernisierung der Benutzeroberfläche
+
+Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Programmen zu vereinheitlichen. Diese Änderungen werden außerhalb des standardmäßigen Veröffentlichungszeitplans veröffentlicht. Eine Liste dieser Änderungen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Look-and-Feel-Aktualisierung für die Menüoptionen „Mehr“ für Kommentare
 
