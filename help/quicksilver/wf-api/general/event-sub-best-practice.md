@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ Stellen Sie sicher, dass Ihr Abonnement-Endpunkt den Versandanforderungen für S
 
 Um Payloads von Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die IP-Adressen der Zulassungsliste nach globaler Region hinzufügen. Weitere Informationen finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
 
-## Die richtige Zugriffsebene und einen richtigen API-Schlüssel
+## Die richtige Zugriffsebene und Authentifizierung
 
 Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer Folgendes:
 
 * Zugriffsebene von **Systemadministrator**
 Weitere Informationen finden Sie unter [Gewähren des vollständigen administrativen Zugriffs für einen Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Gewähren des administrativen Zugriffs für bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Ein API-Schlüssel
+* Für die Verwendung der Ereignisabonnement-API ist eine `sessionID` Kopfzeile erforderlich
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).

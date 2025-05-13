@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Informationen zu den Endpunkten, die zum Aktualisieren oder Herunterstufen von E
 >
 >* **25.2 Version** (10. April 2025): Alle neuen Abonnements, die nach der Version 25.2 erstellt wurden, werden als Version 2 erstellt.
 >* **25.3 Version** (17. Juli 2025): Abonnements können nach der Version 25.3 nicht mehr auf Version 1 heruntergestuft werden.
->* **1. September 2025**: Alle verbleibenden Version 1-Abonnements werden auf Version 2 migriert.
+>* **15. Januar 2026**: Alle verbleibenden Version 1-Abonnements werden auf Version 2 migriert.
 
 ## Änderungen zwischen Version 1 und Version 2
 
@@ -256,4 +256,4 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
 
 Workfront Fusion verwendet Ereignisabonnements, um auf Änderungen in Szenarien mit Workfront-Triggern zu achten. Sie können die Ereignisabonnementversion, die Fusion direkt in einem Szenario verwendet, mithilfe des Payload-Versionsmoduls Workfront > Ereignisse aktualisieren aktualisieren .
 
-Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
+Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
