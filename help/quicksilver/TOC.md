@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b5e5704e3276d23ec0426674f62f53de7d4a4951
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13207'
 ht-degree: 2%
 
 ---
@@ -2105,6 +2105,8 @@ ht-degree: 2%
       * [Verwalten der Tabellenansicht](planning/views/manage-the-table-view.md)
       * [Zeitleisten-Ansicht verwalten](planning/views/manage-the-timeline-view.md)
       * [Kalenderansicht verwalten](planning/views/manage-the-calendar-view.md)
+      * [Datensatzansichten löschen](planning/views/delete-record-views.md)
+      * [Doppelte Datensatzansichten](planning/views/duplicate-record-views.md)
    * Adobe Workfront-Planungsbenachrichtigungen {#adobe-workfront-planning-notifications}
       * [Adobe Workfront-Planungsbenachrichtigungen: Artikelindex](planning/notifications/notifications-information.md)
       * [Adobe Workfront Planning-Benachrichtigungseinstellungen verwalten](planning/notifications/manage-notification-preferences.md)

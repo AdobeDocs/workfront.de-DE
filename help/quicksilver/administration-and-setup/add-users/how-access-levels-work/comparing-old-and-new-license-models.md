@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <th>[!UICONTROL Planer]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL -Anforderer]</th> 
+  <th>[!UICONTROL-Anforderer]</th> 
    <th>[!UICONTROL extern]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL light]</th> 
@@ -237,7 +237,7 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td></td> 
    <td></td>
    <td>✓</td> 
-   <td></td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 

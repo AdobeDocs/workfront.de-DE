@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,5 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensatzansichten in Adobe 
 * [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Zeitleisten-Ansicht verwalten](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [Kalenderansicht verwalten](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [Datensatzansichten löschen](/help/quicksilver/planning/views/delete-record-views.md)
+* [Doppelte Datensatzansichten](/help/quicksilver/planning/views/duplicate-record-views.md)

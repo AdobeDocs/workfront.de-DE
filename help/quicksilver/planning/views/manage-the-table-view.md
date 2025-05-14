@@ -1,14 +1,14 @@
 ---
 title: Verwalten der Tabellenansicht
-description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in Adobe Workfront Planning auf die Seite „Datensatztyp“ zugreifen. Dieser Artikel beschreibt, wie Sie eine Tabellenansicht erstellen und eine vorhandene bearbeiten oder löschen können.
+description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in Adobe Workfront Planning auf die Seite „Datensatztyp“ zugreifen. In diesem Artikel wird beschrieben, wie Sie eine Tabellenansicht erstellen oder bearbeiten und wie Sie Echtzeit-Präsenzindikatoren für die Ansicht aktivieren bzw. wie Sie sie in eine CSV- oder Excel-Datei exportieren.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3395'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,12 @@ ht-degree: 2%
 Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in Adobe Workfront Planning auf die Seite „Datensatztyp“ zugreifen.
 
 Weitere Informationen zu Datensatzansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+
+In diesem Artikel werden die folgenden Informationen beschrieben:
+
+* [Erstellen oder Bearbeiten von Spalten und Zeilen in einer Tabellenansicht](#manage-a-table-view)
+* [Echtzeit-Präsenzindikatoren für die Tabellenansicht aktivieren](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## Zugriffsanforderungen
 
@@ -525,7 +531,21 @@ Die Avatare anderer Benutzer, die Datensatzinformationen gleichzeitig bearbeiten
 
 Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld ein anderer Benutzer zum Zeitpunkt der Anzeige des Datensatzes bearbeitet.
 
-Weitere Informationen finden Sie im Abschnitt „Aktivieren der Echtzeit-Anwesenheitsindikator“ im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+1. Wechseln Sie zu einer Datensatztypseite und öffnen Sie eine beliebige Ansicht.
+1. (Bedingt) Wenn andere Benutzer die Datensätze des ausgewählten Typs gleichzeitig bearbeiten, werden ihre Avatare in der rechten oberen Ecke der Ansicht angezeigt.
+1. Klicken Sie auf das Dropdown-Menü neben den Avataren und wählen Sie dann den Umschalter **Mitarbeiter anzeigen** aus. Der Umschalter ist standardmäßig ausgewählt.
+
+   ![Umschalter „Mitarbeiter anzeigen“ ausgewählt](assets/show-collaborators-toggle-selected.png)
+
+1. (Bedingt) Öffnet eine Tabellenansicht, und das Feld, das eine andere Person aktiv bearbeitet, wird in der Farbe hervorgehoben, die dem Umriss des Avatars in der Tabellenansicht entspricht.
+
+   Wenn die Hervorhebungsfarbe des Avatars grau ist, hat der Benutzer die aktive Bearbeitung des Datensatzes vor mehr als 30 Sekunden gestoppt.
+
+   ![Echtzeit-Kennzeichnungstabellenfeld und Avatar-Verbindung](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Sie können den Umschalter **Mitarbeiter anzeigen** in jeder Ansicht auswählen. Das Feld, das derzeit von anderen bearbeitet wird, ist nur in der Tabellenansicht umrandet.
 
 <!--<div class="preview">
 
