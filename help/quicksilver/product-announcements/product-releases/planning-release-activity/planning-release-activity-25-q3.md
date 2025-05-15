@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Aktualisieren Sie bei Verwendung der Option Aufschlüsselung die Einstellungen der Zeitleisten-Ansicht, um das Erscheinungsbild der Balken der verbundenen Datensätze zu definieren
+
+>[!NOTE]
+>
+>* Vorschau: 15. Mai 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Sie können jetzt das Erscheinungsbild der Datensatzleisten in der Zeitleisten -Ansicht für die Datensätze in der Aufschlüsselung formatieren. Sie können die folgenden Einstellungen für die Balken dieser Datensätze aktualisieren:
+
+* Balkenstil
+* Farbe
+
+Vor dieser Verbesserung konnten Sie nur die Balken der Hauptdatensätze so formatieren, wie sie in der Zeitleisten -Ansicht angezeigt werden, und Sie konnten die Balken der verbundenen Datensätze nicht formatieren.\
+ 
+Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).  
+
+## Exportieren der Tabellenansicht in eine CSV- oder Excel-Datei 
+
+>[!NOTE]
+>
+>* Vorschau: 15. Mai 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Wir haben eine neue Funktion zu Workfront Planning hinzugefügt, mit der Sie in der Tabellenansicht sichtbare Informationen in eine CSV- oder Excel-Datei exportieren können.  
+
+Beachten Sie beim Exportieren von Informationen aus der Tabellenansicht Folgendes:  
+
+* Die exportierten Informationen berücksichtigen die Filter, Gruppierungen und Sortierungen, die in Workfront Planning auf die Tabellenansicht angewendet wurden.
+* Miniaturansichten und benutzerdefinierte Zeilenfarben werden in der exportierten Datei nicht unterstützt.  
+* Es werden nur Felder exportiert, die in der Workfront-Benutzeroberfläche sichtbar sind. Ausgeblendete Felder werden nicht exportiert.  
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Verbundene Workfront Planning-Felder werden jetzt beim Importieren von Datensätzen mithilfe einer CSV- oder Excel-Datei unterstützt
+
+>[!NOTE]
+>
+>* Vorschau: 15. Mai 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Sie können jetzt die Werte von verbundenen Feldern ausfüllen, wenn Sie mithilfe einer CSV- oder Excel-Datei Datensätze zu einem Datensatztyp hinzufügen.  Es werden nur verbundene Planungs-Datensatzfelder unterstützt. Felder, die Verbindungen zu anderen Anwendungen anzeigen, werden nicht unterstützt.
+
+Diese Änderung wird beim Importieren einer CSV- und Excel-Datei unterstützt, um sowohl einen Datensatztyp als auch Datensätze für einen vorhandenen Datensatztyp zu erstellen.
+
+Vor dieser Verbesserung konnten Verbindungsfelder beim Importieren von Datensätzen nicht ausgefüllt werden.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
+* [Erstellen Sie Datensatztypen, indem Sie Informationen aus einer CSV- oder Excel-Datei importieren](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 ## Inline-Bearbeitung auf der Seite „Verbundene Datensätze“ eines Datensatzes
 

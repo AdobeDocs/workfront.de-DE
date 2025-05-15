@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
+source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,44 @@ Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verf�
 ## Modernisierung der Benutzeroberfläche
 
 Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Programmen zu vereinheitlichen. Diese Änderungen werden außerhalb des standardmäßigen Veröffentlichungszeitplans veröffentlicht. Eine Liste dieser Änderungen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+<!--
+
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+-->
+
+## Lookand-Feel-Aktualisierungen auf der Diagnoseseite im Setup
+
+>[!NOTE]
+>
+>Vorschau-Version: 15. Mai 2025; Produktionsversion für alle Kunden: 15. Mai 2025
+
+Das Erscheinungsbild der Diagnoseseite im Bereich Setup wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Diagnose.
+
+Weitere Informationen finden Sie unter [Verwenden von Diagnosen zum Trigger automatisierter Prozesse](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+## Look-and-Feel-Aktualisierungen beim Hinzufügen eines Abrechnungssatzes zu einer Vorlage
+
+>[!NOTE]
+>
+>Vorschau-Version: 15. Mai 2025; Produktionsversion für alle Kunden: 15. Mai 2025
+
+Die Benutzeroberfläche wurde aktualisiert, um einen Abrechnungssatz zu einer Vorlage hinzuzufügen, sodass er mit anderen Bereichen der Anwendung übereinstimmt.
+
+Mit diesem Update wurden keine Funktionsänderungen eingeführt.
 
 ## Look-and-Feel-Aktualisierung für die Menüoptionen „Mehr“ für Kommentare
 
