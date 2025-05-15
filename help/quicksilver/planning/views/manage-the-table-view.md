@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ In diesem Artikel werden die folgenden Informationen beschrieben:
 
 * [Erstellen oder Bearbeiten von Spalten und Zeilen in einer Tabellenansicht](#manage-a-table-view)
 * [Echtzeit-Präsenzindikatoren für die Tabellenansicht aktivieren](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* <span class="preview">[Exportieren einer Tabellenansicht in eine CSV- oder Excel-Datei](#export-the-table-view)</span>
 
 ## Zugriffsanforderungen
 
@@ -88,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
-   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern, zu duplizieren <span class="preview"> zu exportieren</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout-Vorlage</p></td> 
@@ -109,8 +109,6 @@ Datensatzinformationen können nur in der Tabellenansicht bearbeitet werden.
 Weitere Informationen zum Bearbeiten von Datensätzen in der Tabellenansicht finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 ## Verwalten einer Tabellenansicht {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 Beim Erstellen einer Tabellenansicht werden alle Datensätze des ausgewählten Typs in einer Tabelle angezeigt. Jede Zeile ist ein eindeutiger Datensatz und jede Spalte ist ein Datensatzfeld. Standardmäßig werden alle Felder und Datensätze angezeigt.
 
@@ -547,51 +545,52 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
    >
    >Sie können den Umschalter **Mitarbeiter anzeigen** in jeder Ansicht auswählen. Das Feld, das derzeit von anderen bearbeitet wird, ist nur in der Tabellenansicht umrandet.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## Exportieren der Tabellenansicht
 
-You can export information in the table view to a CSV or an Excel file. 
+Sie können Informationen in der Tabellenansicht in eine CSV- oder Excel-Datei exportieren.
 
-Consider the following when exporting the table view:
+Beachten Sie beim Exportieren der Tabellenansicht Folgendes:
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* Die in eine Excel-Datei exportierten Informationen behalten die Filter, Gruppierungen und Sortierungen bei, die in Workfront Planning auf die Tabellenansicht angewendet wurden. Gruppierungen sind in der CSV-Datei nicht sichtbar.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* Miniaturansichten und benutzerdefinierte Zeilenfarben werden in exportierten Dateien nicht unterstützt.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Es werden nur Felder exportiert, die in der Workfront-Benutzeroberfläche sichtbar sind. Ausgeblendete Felder werden nicht exportiert.
 
-To export information from the table view or a record type:
+So exportieren Sie Informationen aus der Tabellenansicht oder einem Datensatztyp:
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf die Registerkarte Tabellenansicht .
+1. Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Tabellenansicht“ und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-menu.png).
 
-    * Excel
-    * CSV
+   ![Menü „Mehr“ in einer Ansicht](assets/view-more-menu-with-duplicate-option.png)
+1. Klicken Sie **Exportieren** und wählen Sie dann eines der folgenden Formate aus:
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >Sie können keine Informationen aus der Tabellenansicht exportieren, wenn Sie auf dem Bildschirm eine andere Ansicht anzeigen. Sie müssen die Tabellenansicht anzeigen, die Sie exportieren möchten, um auf die Option Exportieren im Menü Mehr zugreifen zu können.
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   Die Datei wird auf Ihren Computer heruntergeladen.
 
-    The name of the exported file follows the following format: 
+1. (Optional) Gehen Sie zum Ordner Downloads auf Ihrem Computer und suchen Sie die heruntergeladene Datei.
 
-    `Name of the view - name of the record type`
+   Der Name der exportierten Datei folgt dem folgenden Format:
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   Beispielsweise generiert eine Tabellenansicht für den Datensatztyp Kampagnen eine Datei mit dem Namen `Table view - Campaigns`.
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   Die Datei enthält die folgenden Informationen:
 
- -->
+   * Die Spaltenüberschriften werden in der Excel-Datei schwarz hervorgehoben
+   * Alle in der Workfront-Benutzeroberfläche angezeigten Felder, nach denselben Kriterien sortiert und gefiltert
+   * Gruppierungen bleiben in der Excel-Datei erhalten
+
+   Sie können nun die exportierten Dateien für andere freigeben oder sie an eine beliebige Kommunikation anhängen.
+
+</div>
+

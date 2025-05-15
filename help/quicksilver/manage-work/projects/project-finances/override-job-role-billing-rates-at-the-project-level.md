@@ -6,9 +6,9 @@ description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgab
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Sie können den Abrechnungssatz eines Aufgabengebiets für ein Projekt wie folgt
 
 * Mehrere Male, indem Sie mehrere neue Kurse für bestimmte Datumsbereiche auswählen.\
   Für jeden angegebenen Datumsbereich kann ein anderer Satz verwendet werden.
+
+* Sie können einer Projektvorlage neue Abrechnungssätze hinzufügen, die beim Erstellen des Projekts aus dieser Vorlage zu Projekt-Abrechnungssätzen werden. Informationen zum Bearbeiten von Vorlagen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >

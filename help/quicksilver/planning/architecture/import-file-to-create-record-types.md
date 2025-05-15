@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * &#x200B;<!--In the Production environment,--> Verbindungsfelder zu Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
+   * Verbindungsfelder, abhängig von der verwendeten Umgebung:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * In der Produktionsumgebung können Verbindungsfelder nicht den Planungsdatensätzen oder Workfront- und AEM Assets-Objekten zugeordnet werden
+
+      * <span class="preview">In der Vorschau-Umgebung können Sie Verbindungsfelder Planungsdatensätzen zuordnen und importieren. Sie können keine Felder Workfront und AEM Assets zuordnen.</span>
 
    * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
    * Formelfelder
@@ -129,8 +131,8 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. Klicken Sie **Datensatztyp hinzufügen**.
-1. Klicken Sie auf **Aus Datei**.
-1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei per Drag-and-Drop oder klicken Sie **CSV- oder Excel-Datei auswählen** um eine Datei zu suchen.
+1. Klicken Sie **Aus Datei hochladen**.
+1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei per Drag-and-Drop oder klicken Sie **CSV- oder Excel-Datei auswählen** um eine Datei zu suchen, und wählen Sie sie aus.
 1. Klicken Sie auf **Vorschau und Bearbeitung**.
 
    Das **„Vorschau und**&quot; wird mit den folgenden Informationen angezeigt:
@@ -153,11 +155,21 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
    Blättert, wenn Sie die Auswahl aufgehoben haben, wird die Anzeige mit grauem Hintergrund angezeigt.
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben der Spaltenüberschrift, um eine der folgenden Aktionen durchzuführen:
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben einer Spaltenüberschrift, um einen der folgenden Vorgänge auszuführen (<span class="preview"> der Registerkarte **Feld**</span>:
+
+   <span class="preview">![Registerkarte „Feld“ im Importfeld „Datensatztyp-Zuordnung“](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * Eines der Felder umbenennen
    * Ändern des **Feldtyps**
    * Aktualisieren Sie das Feld **Beschreibung**
+
+1. <span class="preview">(Optional) Klicken Sie auf die **Verbindung** , um die Informationen in der Spalte einem verbundenen Feld von anderen Datensatztypen zuzuordnen.</span>
+
+   <span class="preview">![Registerkarte „Verbindung“ im Feld „Datensatztyp-Import-Mapping“](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Sie können nur Felder aus Workfront Planning Connected Records zuordnen. Sie können keine Felder von Workfront- oder AEM Assets-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.</span>
 
 1. (Bedingt) Klicken Sie nach dem Aktualisieren der Feldinformationen auf **Speichern**.
 

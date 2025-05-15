@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
-
 
 # Datensatzansichten löschen
 
@@ -111,11 +111,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte Ansicht und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) links neben dem Ansichtsnamen und klicken Sie dann auf **Löschen**.
+1. <span class="preview">Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte „Ansicht“ und klicken Sie dann auf **Mehr** ![Mehr](assets/more-menu.png) links neben dem Namen der Ansicht und klicken Sie dann auf **Löschen**.</span>
 
-   Möglicherweise müssen Sie zunächst links neben **letzten Registerkarte auf** Mehr“ klicken, um die Ansicht zu finden, die Sie löschen möchten.
+   <span class="preview">![Menü „Mehr anzeigen“ in einer Datensatzansicht](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![Menü „Mehr anzeigen“ in einer Datensatzansicht](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >Möglicherweise müssen Sie auf **Mehr** rechts neben der letzten Registerkarte klicken, um die Ansicht zu finden, die Sie löschen möchten.
+
 
 1. Klicken Sie **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 

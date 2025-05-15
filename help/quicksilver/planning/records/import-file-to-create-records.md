@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * &#x200B;<!--In the Production environment,--> Verbindungsfelder zu Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
+   * Verbindungsfelder, abhängig von der verwendeten Umgebung:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * In der Produktionsumgebung können Verbindungsfelder nicht den Planungsdatensätzen oder Workfront- und AEM Assets-Objekten zugeordnet werden
+
+      * <span class="preview">In der Vorschau-Umgebung können Sie Verbindungsfelder Planungsdatensätzen zuordnen und importieren. Sie können keine Felder Workfront und AEM Assets zuordnen.</span>
 
    * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
    * Formelfelder
@@ -148,6 +150,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![Planfelder beim Importieren von Datensätzen Spalten zuordnen](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten 10 Datensätze werden im Vorschau- und Bearbeitungsfeld angezeigt.
+
+   >[!TIP]
+   >
+   >Nicht alle Feldtypen werden unterstützt. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensätzen mithilfe einer Excel- oder CSV](#considerations-about-importing-records-using-an-excel-or-csv-file)Datei in diesem Artikel.
+
 
 1. (Optional und bedingt) Wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, wählen **in der linken unteren Ecke** Bildschirms die Option „Fehlende Optionen erstellen“. Wenn diese Option aktiviert ist, werden die fehlenden Einfach- und Mehrfachauswahlfelder hinzugefügt.
 

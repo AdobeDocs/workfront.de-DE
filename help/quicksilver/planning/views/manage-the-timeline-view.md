@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 +++
 
 ## Verwalten einer Zeitleisten-Ansicht {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 Beim Erstellen einer Zeitleisten -Ansicht werden alle Datensätze des ausgewählten Datensatztyps in einer chronologischen Zeitleiste angezeigt.
 
@@ -278,7 +276,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
 1. Klicken Sie **linken** auf „Balkenstil“, um anzugeben, welche Informationen in den Datensatzleisten angezeigt werden sollen.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Sie können den Balkenstil des Hauptdatensatzes sowie der verbundenen Datensätze definieren, wenn Sie die Option Aufschlüsselung in der Standardansicht verwenden. </span>
 
    Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    >[!TIP]
    >
-   >* <span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird, und sie ist nicht in der Kalenderansicht verfügbar.</span>
+   ><span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird, und sie ist nicht in der Kalenderansicht verfügbar.</span>
    >
-   >* <span class="preview">Wenn Sie die Zeitleisten -Ansicht aufschlüsseln, um verbundene Objekte anzuzeigen, gilt die Einstellung Balkendetails abschneiden nur für den Hauptdatensatztyp. Dies gilt nicht für die verbundenen Datensatzleisten.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.
 
    ![Ansicht der Farbregisterkarte „Timeline“](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Sie können die Farbe des Hauptdatensatzes sowie der verbundenen Datensätze definieren, wenn Sie die Option Aufschlüsselung in der Standardansicht verwenden. </span>
 
 1. (Bedingt und optional) Wenn Sie der Zeitleisten -Ansicht eine Gruppierung hinzugefügt haben, wählen Sie eine der folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
 
@@ -358,7 +353,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(Optional) Wenn Sie die Option Aufschlüsselung verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden in der Zeitleiste angezeigten verbundenen Datensatz. </span>
 
 1. Klicken Sie auf **Speichern**.
 
@@ -410,9 +405,18 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
    >    Das Start- und Enddatum müssen sequenziell sein. Wenn das Enddatum vor dem Startdatum liegt, werden in der Zeitleiste keine Datensätze angezeigt.
 
    Ein nach rechts zeigender Pfeil wird auf der Leiste des ausgewählten Datensatzes in der Zeitleiste angezeigt, wenn sie mit anderen Datensätzen verbunden sind.
-1. Klicken Sie auf den nach rechts zeigenden Pfeil, um einen Datensatztyp zu erweitern und dessen Verbindungen anzuzeigen.
+1. Klicken Sie auf den nach rechts zeigenden Pfeil, um einen Datensatztyp zu erweitern und seine Verbindungen anzuzeigen.
 
    ![Kampagnen, die in der Ansicht „Zeitleiste“ nach Programmen aufgeschlüsselt sind](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    Wenn Sie mehrere verbundene Datensätze in der Aufschlüsselung anzeigen, sind sie nicht in hierarchischer Reihenfolge.
+   >
+   >Wenn Sie beispielsweise die Zeitleiste der Kampagnen anzeigen und der Aufschlüsselung Produkte und dann Programme hinzufügen, sind Programme nicht unbedingt zuerst mit den Produkten verbunden.
+   >
+   >Sowohl Produkte als auch Programme müssen mit den Kampagnen verbunden sein, damit sie als Optionen für die Aufschlüsselungsoption angezeigt werden. Sie können sie der Aufschlüsselung in beliebiger Reihenfolge hinzufügen.
+
 
 1. (Optional) Wiederholen Sie die obigen Schritte, um weitere verbundene Datensätze hinzuzufügen.
 

@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
 
 ---
-
 
 # Doppelte Datensatzansichten
 
@@ -114,9 +114,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Die Seite mit dem Datensatztyp wird geöffnet.
 Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Duplizieren**.
+1. <span class="preview">Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Duplizieren**. </span>
 
-   ![Menü „Mehr anzeigen“ in einer Datensatzansicht](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![Menü „Mehr anzeigen“ in einer Datensatzansicht](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    Die Ansicht wird dupliziert und der Name der neuen Ansicht folgt dem folgenden Muster: `Original view's name (Copy)`. Die neue Ansichtsregisterkarte wird am Ende aller Ansichtsregisterkarten angezeigt.
