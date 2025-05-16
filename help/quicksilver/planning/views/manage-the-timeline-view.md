@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
 1. Klicken Sie **linken** auf „Balkenstil“, um anzugeben, welche Informationen in den Datensatzleisten angezeigt werden sollen.
 
-   <span class="preview">Sie können den Balkenstil des Hauptdatensatzes sowie der verbundenen Datensätze definieren, wenn Sie die Option Aufschlüsselung in der Standardansicht verwenden. </span>
+   Mit der Option Aufschlüsselung in der Standardansicht können Sie den Balkenstil <span class="preview"> Hauptdatensatzes sowie der </span> Datensätze definieren.
 
    Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    ![Ansicht der Farbregisterkarte „Timeline“](assets/color-tab-timeline-view.png)
 
-   <span class="preview">Sie können die Farbe des Hauptdatensatzes sowie der verbundenen Datensätze definieren, wenn Sie die Option Aufschlüsselung in der Standardansicht verwenden. </span>
+   Mit der Option Aufschlüsselung in der Standardansicht können Sie die Farbe <span class="preview"> Hauptdatensatzes (sowie </span> verbundenen Datensätze) definieren.
 
 1. (Bedingt und optional) Wenn Sie der Zeitleisten -Ansicht eine Gruppierung hinzugefügt haben, wählen Sie eine der folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
 
