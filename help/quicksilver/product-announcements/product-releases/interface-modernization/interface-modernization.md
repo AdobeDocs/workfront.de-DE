@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ Weitere Informationen finden Sie unter [Suche [!DNL Adobe Workfront]](/help/quic
 
 Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront-Konto zu gewähren, mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
+## Berichte und Dashboard
+
+### URLs mit /title oder /qstile werden in Workfront-Dashboards nicht mehr unterstützt
+
+**Vorschau-Version: 13. Mai; Produktionsversion: wird noch bekannt gegeben**
+
+Wenn Sie eine externe Seite in einem Dashboard mit einer Workfront-URL haben, die `/tile` oder `/qstile` enthält, wird diese Seite nicht mehr geladen.
+
+Durch das Hinzufügen von `/tile` oder `/qstile` zu einer Workfront-URL konnte der Browser nicht unterstützte Seiten für klassische Erlebnisse laden, die im Juli 2022 eingestellt wurden.
+
+Es wird empfohlen, die URL zu ersetzen, um zu einer unterstützten Seite zu gelangen, oder die externe Seite aus Ihrem Dashboard zu entfernen.
+
 
 ## Benutzende
+
+### Aktualisierung der Benutzeroberfläche für die neue Benutzerregistrierungsseite
+
+**Vorschau-Version: 15. Mai 2024; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die neue Seite zur Benutzerregistrierung mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Benutzer haben nicht mehr die Möglichkeit, auf dieser Seite ein Foto hochzuladen. Sie können jedoch ein Foto in ihr Benutzerprofil hochladen, sobald sie sich bei Workfront anmelden.
 
 ### Aktualisierter Look für die Anmeldeseite
 
@@ -122,7 +142,6 @@ Wir haben die Seite zur externen Benutzerregistrierung mit einem moderneren Desi
 **Vorschau-Version: 24. April 2024; Produktionsversion: Ab der Woche vom 8. Mai 2024**
 
 Wir haben die Lizenzvertragsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
-
 
 
 ## Aktualisierung der Benutzeroberfläche im 2. Quartal
