@@ -6,14 +6,16 @@ description: Als Ressourcen-Manager können Sie den Adobe Workfront-Workload-Bal
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
 
 # Übersicht über die Zuweisung von Arbeit im Workload Balancer
+
+<!-- Audited: 5/2025 -->
 
 Als Ressourcen-Manager können Sie den Adobe Workfront-Workload-Balancer verwenden, um Arbeitselemente anzuzeigen, die Benutzenden noch nicht zugewiesen wurden, und diese Elemente ihnen zuzuweisen.
 
@@ -30,7 +32,7 @@ Informationen zum Zuweisen von Arbeitselementen in anderen Bereichen von Workfro
 
 Sie können Arbeit im Workload Balancer zuweisen, um sie an die verfügbare Zeit der Benutzenden anzupassen. Um sicherzustellen, dass Sie den richtigen Arbeitsaufwand zuweisen und den Benutzer nicht übermäßig zuweisen, muss die Summe der geplanten Stunden der dem Benutzer zugewiesenen Arbeitselemente mit der täglichen oder wöchentlichen Zuordnung des Benutzers übereinstimmen.
 
-Sie müssen verstehen, wie Workfront die verfügbare Zeit für einen Benutzer berechnet.
+Es ist wichtig zu verstehen, wie Workfront die verfügbare Zeit für einen Benutzer berechnet.
 
 Workfront verwendet die folgenden Informationen, um die Kapazität des/r Benutzenden im Workload Balancer zu berechnen:
 
@@ -43,7 +45,7 @@ Workfront verwendet die folgenden Informationen, um die Kapazität des/r Benutze
 
   Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Die Urlaubszeit des Benutzers. Dies zeigt an, an welchen Tagen der Benutzer den Flug starten möchte.
 
@@ -81,7 +83,7 @@ Sie können Benutzern mithilfe des Workload Balancer im Bereich Ressource, auf P
 Im Workload Balancer gibt es zwei Bereiche, in denen Sie Arbeitselemente anzeigen können:
 
 * **Nicht zugewiesene Arbeit**: Zeigt Elemente an, die Benutzern nicht zugewiesen sind.
-* **Zugewiesene Arbeit** zeigt Elemente an, die Benutzern zugewiesen sind.
+* **Zugewiesene Arbeit**: Zeigt Elemente an, die Benutzern zugewiesen sind.
 
 In der folgenden Tabelle wird beschrieben, welche Elemente in den einzelnen Bereichen basierend auf ihren Zuweisungen angezeigt werden:
 

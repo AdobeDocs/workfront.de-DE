@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Wenn APIModel INTERNAL die Feld-Projekt-ID (OpTask) nicht unterstützt Kategorie
-description: Wenn APIModel INTERNAL die Feld-Projekt-ID (OpTask) nicht unterstützt
+title: Kategorie
+description: Eine Tabelle der für das Kategorieobjekt verfügbaren Felder mit ihren Beschreibungen und Werttypen.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 25%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
 
 # Kategorie
+
+<!-- Audited: 5/2025 -->
 
 FieldsClass: „java.lang.IllegalArgumentException“,\
 Meldung: „APIModel INTERNAL unterstützt keine Feld-Projekt-ID (OpTask)“
@@ -139,23 +141,23 @@ Meldung: „APIModel INTERNAL unterstützt keine Feld-Projekt-ID (OpTask)“
 
 ## Verweise
 
-| Name | Label | Typ | Objektcode eingeben | URL |
-|---|---|---|---|---|
-| Kunde | Kunde | Kunde | KÜRZEN | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Eingegeben von | enteredBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Gruppe | Gruppe | Gruppe | GRUPPE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Zuletzt aktualisiert von | lastUpdatedBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Name | Label | Typ | Objektcode eingeben |
+|---|---|---|---|
+| Kunde | Kunde | Kunde | KÜRZEN |
+| Eingegeben von | enteredBy | Benutzerin oder Benutzer | BENUTZER |
+| Gruppe | Gruppe | Gruppe | GRUPPE |
+| Zuletzt aktualisiert von | lastUpdatedBy | Benutzerin oder Benutzer | BENUTZER |
 
 
 ## Sammlungen
 
-| Name | Label | Typ | Objektcode eingeben | URL |
-|---|---|---|---|---|
-| Zugriffsregeln | accessRules | Zugriffsregel | VERSIERT | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Kategoriezugriffsregeln | categoryAccessRules | Kategoriezugriffsregeln | KATAKER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Kaskadierende Regeln für Kategorien | categoryCascadeRules | Kaskadierende Regeln für Kategorien | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Kategorieparameter | categoryParameters | Kategorieparameter | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Andere Gruppen | otherGroups | Gruppe | GRUPPE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Name | Label | Typ | Objektcode eingeben |
+|---|---|---|---|
+| Zugriffsregeln | accessRules | Zugriffsregel | VERSIERT |
+| Kategoriezugriffsregeln | categoryAccessRules | Kategoriezugriffsregeln | KATAKER |
+| Kaskadierende Regeln für Kategorien | categoryCascadeRules | Kaskadierende Regeln für Kategorien | CTCSRL |
+| Kategorieparameter | categoryParameters | Kategorieparameter | CTGYPA |
+| Andere Gruppen | otherGroups | Gruppe | GRUPPE |
 
 
 ## Aktionen

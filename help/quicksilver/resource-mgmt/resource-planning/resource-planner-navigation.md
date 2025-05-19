@@ -7,52 +7,51 @@ description: Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verf
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '2652'
-ht-degree: 1%
+source-wordcount: '2424'
+ht-degree: 2%
 
 ---
 
 # Übersicht über die Navigation im Ressourcenplaner
 
-Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verfügbarkeit Ihrer Ressourcen sowie den geplanten Zeitaufwand für die Fertigstellung der Arbeit an Ihren Projekten leicht nachvollziehen. Anschließend können Sie die Zuordnung Ihrer Benutzer und deren Aufgabengebiete für die Projekte verwalten, denen sie zugewiesen sind.
+<!-- Audited: 5/2025 -->
+
+Der Adobe Workfront-Ressourcenplaner hilft Ihnen, die Verfügbarkeit Ihrer Ressourcen und den für die Fertigstellung der Projektarbeiten erforderlichen Zeitaufwand leicht zu verstehen. Anschließend können Sie die Zuordnung Ihrer Benutzer und deren Aufgabengebiete für die Projekte verwalten, denen sie zugewiesen sind.
 
 >[!TIP]
 >
->Sie können die Zuweisung von Teams für die Aufgaben, denen sie im Ressourcenplaner zugewiesen sind, nicht verwalten.
+>Sie können die Zuweisung von Teams zu den Aufgaben, denen sie im Ressourcenplaner zugewiesen sind, nicht verwalten.
 
 Sie müssen die Voraussetzungen erfüllen, um den Ressourcenplaner vollständig nutzen zu können. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![Ressourcenplaner](assets/rp-project-view-all-functionality-350x117.png)
+![Ressourcenplaner](assets/resource-planner-overview.png)
 
 In den folgenden Abschnitten werden alle Bereiche des Ressourcenplaners beschrieben.
 
 ## Zeitlicher Ablauf der Projekte
 
-![Timeline-Kalender](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Timeline-Kalender](assets/calendar-months.png)
 
 
+Verwenden Sie den Kalender oben im Ressourcenplaner, um durch die Zeitleiste der Projekte zu navigieren, die Sie anzeigen. Die Zeitleiste beginnt standardmäßig mit dem heutigen Monat.
 
-Verwenden Sie den Kalender oben im Ressourcenplaner, um durch die Zeitleiste der Projekte zu navigieren, die Sie anzeigen. Die Zeitleiste beginnt standardmäßig mit dem heutigen Monat.\
 Weitere Informationen zum Ändern des Zeitrahmens der Zeitleiste, die im Ressourcenplaner angezeigt wird, finden Sie im Abschnitt [Zeitrahmenauswahl](#timeframe-selection) in diesem Artikel.
 
 ## Zeitrahmenauswahl  {#timeframe-selection}
 
-![time_frame_selection_in_the_resource_planner.png](assets/time-frame-selection-in-the-resource-planner-350x61.png)
+![Zeitrahmen-Auswahl](assets/timeframe-selection.png)
 
-Standardmäßig zeigt der Ressourcenplaner Ressourceninformationen für drei oder vier Monate an, beginnend mit dem aktuellen Monat. Die Anzahl der angezeigten Zeiträume hängt von der Breite Ihres Bildschirms ab.
+Standardmäßig zeigt der Ressourcenplaner Ressourceninformationen für jeweils 3 oder 4 Monate an, beginnend mit dem aktuellen Monat. Die Anzahl der angezeigten Zeiträume hängt von der Breite Ihres Bildschirms ab.
 
 >[!TIP]
 >
 >Sie können im Ressourcenplaner nicht mehr als vier Zeiträume gleichzeitig anzeigen.
 
-So navigieren Sie in der Zeitleiste:
+Um in der Zeitleiste zu navigieren, klicken Sie auf die Pfeile nach vorne und zurück, um in der Zeitleiste vorwärts und rückwärts zu navigieren. Anschließend können Sie im Ressourcenplaner aus den folgenden Datumsbereichsoptionen auswählen, indem Sie auf die entsprechenden Schaltflächen klicken:
 
-1. Klicken Sie auf die Pfeile nach hinten und vorwärts, um sich auf der Timeline vor- und rückwärts zu bewegen.
-1. Wählen Sie im Ressourcenplaner aus den folgenden Datumsbereichsoptionen aus, indem Sie auf die entsprechenden Schaltflächen klicken:
-
-   <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -77,7 +76,7 @@ So navigieren Sie in der Zeitleiste:
 
 ## Projekt-/Rollen-/Benutzeransichtsauswahl
 
-![Nach Projekt, Rolle oder Benutzer anzeigen](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Nach Projekt, Rolle oder Benutzer anzeigen](assets/view-by-drop-down.png)
 
 Sie können die Ansicht im Ressourcenplaner ändern, je nachdem, wie die Informationen angezeigt werden sollen.
 
@@ -90,37 +89,33 @@ Wenn Sie die Ansicht ändern, ändern sich auch die folgenden Informationen:
 
   Weitere Informationen dazu, was die Spalten im Ressourcenplaner je nach ausgewählter Ansicht anzeigen, finden Sie unter [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner überprüfen](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Um genaue Informationen im Ressourcenplaner anzuzeigen, müssen Sie eine Reihe von Voraussetzungen erfüllen. Weitere Informationen zu den Voraussetzungen finden Sie im Abschnitt „Voraussetzungen für die Arbeit im Ressourcenplaner“ im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  So ändern Sie die Ansicht im Ressourcenplaner:
+Um genaue Informationen im Ressourcenplaner anzuzeigen, müssen Sie eine Reihe von Voraussetzungen erfüllen. Weitere Informationen zu den Voraussetzungen finden Sie im Abschnitt „Voraussetzungen für die Arbeit im Ressourcenplaner“ im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-1. Navigieren Sie zum **Ressourcenplaner**.\
-   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des ](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Um die Ansicht im Ressourcenplaner zu ändern, wählen Sie im Dropdown-Menü Ansicht nach eine der folgenden Ansichten aus:
 
-1. Wählen **im Dropdown** Menü Anzeigen nach eine der folgenden Ansichten aus:
-
-   * [Nach Projekt anzeigen](#view-by-project)
-   * [Nach Funktion anzeigen](#view-by-role)
-   * [Nach Benutzer/Benutzerin anzeigen](#view-by-user)
+* [Nach Projekt anzeigen](#view-by-project)
+* [Nach Funktion anzeigen](#view-by-role)
+* [Nach Benutzer/Benutzerin anzeigen](#view-by-user)
 
 ### Nach Projekt anzeigen {#view-by-project}
 
 Beachten Sie bei der Auswahl der Projektansicht im Ressourcenplaner Folgendes:
 
-* Es werden Projekte angezeigt, für die Sie zumindest über die Berechtigung zum Anzeigen verfügen.
+* Sie können Projekte anzeigen, für die Sie über Berechtigungen zum Anzeigen verfügen.
 * Wenn Sie zum ersten Mal auf den Ressourcenplaner zugreifen, können Sie Projekte sehen, die nach dem Standardfilter gefiltert wurden.\
-  Weitere Informationen zum Filtern von Informationen im Ressourcenplaner finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Weitere Informationen finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Die Anzahl der Elemente, die Sie in der Projektansicht anzeigen oder exportieren können, ist begrenzt, um die Leistung zu verbessern.\
-  Weitere Informationen zu Einschränkungen bei der Anzeige des Ressourcenplaners in der Projektansicht finden Sie im Abschnitt [Einschränkungen in der Projektansicht](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits) im Artikel [Anzeigebeschränkungen des Ressourcenplaners](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+  Weitere Informationen finden Sie im Abschnitt Einschränkungen in der Projektansicht im Artikel [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 * Die Projekte werden in der Projektansicht nach ihrer Priorität aufgelistet.\
-  Weitere Informationen zur Projektpriorität im Ressourcenplaner finden Sie im [Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
 
-* Wenn Sie die einzelnen Projekte erweitern, können Sie die damit verbundenen Aufgabengebiete anzeigen.\
-  Wenn Sie jede Rolle erweitern, können Sie mit ihr verknüpfte Benutzer anzeigen.\
-  Scrollen Sie zu Mehr Rollen und Benutzer unter jedem Projekt laden .
+* Wenn Sie die einzelnen Projekte erweitern, können Sie die damit verbundenen Aufgabengebiete anzeigen.
 
-* Wenn diese Ansicht angewendet wird, summieren sich die Funktionsstunden, VZÄ oder Kosten zu den Projektstunden, VZÄ oder Kosten.\
-  ![resource_planner_view_by_project.png](assets/resource-planner-view-by-project-350x228.png)
+* Wenn Sie jede Rolle erweitern, können Sie mit ihr verknüpfte Benutzer anzeigen. Scrollen Sie zu Mehr Rollen und Benutzer unter jedem Projekt laden .
+
+* Wenn diese Ansicht angewendet wird, summieren sich die Funktionsstunden, VZÄ oder Kosten zu den Projektstunden, VZÄ oder Kosten.
 
 * Sie können die folgenden Stunden-, FTE- oder Kosteninformationen in der Projektansicht anzeigen:
 
@@ -128,7 +123,7 @@ Beachten Sie bei der Auswahl der Projektansicht im Ressourcenplaner Folgendes:
    * Geplant
    * Budgetiert
    * Variance
-   * Net
+   * Netto
 
      Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -139,19 +134,17 @@ Beachten Sie bei der Auswahl der Rollenansicht im Ressourcenplaner Folgendes:
 * Sie müssen mindestens über Ansichtszugriff auf das Ressourcen-Management und Ansichtsberechtigungen für Projekte verfügen, um die mit diesen Projekten verknüpften Rollen anzeigen zu können.
 * Sie können jede Rolle erweitern, um eine Liste von Projekten anzuzeigen, und jedes Projekt, um eine Liste von Benutzern anzuzeigen, die diese Rollen in den Projekten erfüllen können.
 * Die Anzahl der Elemente, die Sie in der Rollenansicht anzeigen oder exportieren können, ist begrenzt, um die Leistung zu verbessern.\
-  Weitere Informationen zu Einschränkungen bei der Anzeige des Ressourcenplaners in der Rollenansicht finden Sie im Abschnitt [Einschränkungen in der Rollenansicht](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits) unter [Einschränkungen der Ressourcenplaner-Anzeige](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+  Weitere Informationen finden Sie unter „Einschränkungen“ im Abschnitt „Rollenansicht“ in [Einschränkungen bei der Ressourcenplaner-Anzeige](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 * Die Projekte werden unter dem Aufgabengebiet in der gleichen Prioritätsreihenfolge wie in der Projektansicht aufgeführt.
-* Wenn diese Ansicht angewendet wird, summieren sich die Projektstunden, FTE oder Kosten zu den Funktionsstunden, FTE oder Kosten.\
-  ![resource_planner_view_by_role.png](assets/resource-planner-view-by-role-350x222.png)
-
+* Wenn diese Ansicht angewendet wird, summieren sich die Projektstunden, FTE oder Kosten zu den Funktionsstunden, FTE oder Kosten.
 * Sie können die folgenden Stunden-, FTE- oder Kosteninformationen in der Rollenansicht anzeigen:
 
    * Verfügbar
    * Geplant
    * Budgetiert
    * Variance
-   * Net
+   * Netto
 
      Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -159,44 +152,40 @@ Beachten Sie bei der Auswahl der Rollenansicht im Ressourcenplaner Folgendes:
 
 Sie können den Ressourcenplaner in der Benutzeransicht anzeigen, um den Unterschied zwischen den geplanten und den verfügbaren Stunden oder VZÄ für Ihre Benutzer zu verstehen oder die Menge der tatsächlich protokollierten Stunden anzuzeigen.
 
-Sie können Ihre Ressourcen nicht budgetieren, wenn Sie die Benutzeransicht auf den Ressourcenplaner anwenden. Sie müssen Ihre Ressourcen mithilfe der Projekt- oder Rollenansichten budgetieren und die Benutzeransicht verwenden, um die Zuordnung und Verfügbarkeit Ihrer Benutzer in Bezug auf die geplanten Arbeiten zu überprüfen.* *
+Sie können Ihre Ressourcen nicht budgetieren, wenn Sie die Benutzeransicht auf den Ressourcenplaner anwenden. Sie müssen Ihre Ressourcen mithilfe der Projekt- oder Rollenansichten budgetieren und die Benutzeransicht verwenden, um die Zuordnung und Verfügbarkeit Ihrer Benutzer in Bezug auf die geplanten Arbeiten zu überprüfen.
 
 Die Benutzeransicht ist die Standardansicht des Ressourcenplaners.
 
-![RP_STORM_user_view_with_link.png](assets/rp-user-view-with-link-350x101.png)
-
 Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
 
-* Sie können alle aktiven und mindestens einmal bei Adobe Workfront angemeldeten Benutzer anzeigen, für die Sie über Berechtigungen verfügen (bis zu 2.000 Benutzer).\
-  Filtern Sie die Benutzerliste nach Team, Aufgabengebiet oder Pools, um Benutzer anzuzeigen, die nur mit diesen Entitäten verknüpft sind.
-* Wenn Sie die Liste der Benutzer nach Projekten gefiltert haben, können nur die mit den gefilterten Projekten verknüpften Benutzer erweitert werden und auch Ihre Informationen anzeigen.\
-  Weitere Informationen zum Filtern von Informationen im Ressourcenplaner finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
+* Sie können alle Benutzenden anzeigen, für die Sie über Berechtigungen verfügen, bis zu 2.000 Benutzende, die aktiv sind und mindestens einmal bei Adobe Workfront angemeldet sind. Filtern Sie die Benutzerliste nach Team, Aufgabengebiet oder Pools, um Benutzer anzuzeigen, die nur mit diesen Entitäten verknüpft sind.
+* Wenn Sie die Liste der Benutzer nach Projekten gefiltert haben, können nur die mit den gefilterten Projekten verknüpften Benutzer erweitert werden und Ihre Informationen anzeigen.\
+  Weitere Informationen finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Die Anzahl der Elemente, die Sie in der Benutzeransicht anzeigen oder exportieren können, ist begrenzt, um die Leistung zu verbessern.\
-  Weitere Informationen zu Einschränkungen beim Anzeigen des Ressourcenplaners in der Benutzeransicht finden Sie [ Abschnitt „Einschränkungen in der ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits)&quot; in [Einschränkungen des Ressourcenplaners](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+  Weitere Informationen finden Sie unter Einschränkungen im Abschnitt „Benutzeransicht“ in [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
-* Die Projekte werden unter dem Namen des Benutzers in der gleichen Prioritätsreihenfolge wie in der Projektansicht aufgeführt.\
-  Weitere Informationen zur Projektpriorität im Ressourcenplaner finden Sie im [Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
+* Die Projekte werden unter dem Benutzernamen in derselben Prioritätsreihenfolge aufgelistet wie in der Projektansicht.\
+  Weitere Informationen finden Sie [ Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
 
-* Wenn Benutzenden kein Aufgabengebiet zugeordnet ist, werden die Stunden- oder FTE-Werte unter dem Abschnitt **Keine Funktion** aufgeführt.
+* Wenn Benutzenden kein Aufgabengebiet zugeordnet ist, werden die Stunden- oder FTE-Werte im Abschnitt Keine Funktion aufgeführt.
 * Wenn diese Ansicht angewendet wird, summieren sich die Projektstunden oder VZÄ zu den Benutzerstunden oder VZÄ.
 
   >[!TIP]
   >
   >Sie können die Zuordnung und Verfügbarkeit der Benutzer nach Kosten nicht in der Benutzeransicht anzeigen.
 
-* Ihre Berechtigungen für Projekte und Aufgaben bestimmen, was unter den Namen der Benutzer angezeigt wird, die Sie in der Benutzeransicht sehen.\
+* Ihre Projekt- und Aufgabenberechtigungen bestimmen, was unter den Namen der Benutzer angezeigt wird, die Sie in der Benutzeransicht sehen.
+
   Die folgenden Szenarien sind vorhanden:
 
-   * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen von Projekten und Aufgaben oder Problemen verfügen, die den Benutzern im Ressourcenplaner zugewiesen sind, werden diese Elemente in den Abschnitten **Nicht zugängliche Elemente** angezeigt. Die **Nicht zugängliche Elemente**-Abschnitte ersetzen in diesem Fall die Projekt- oder Aufgabenabschnitte.
+   * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen von Projekten und Aufgaben oder Problemen verfügen, die den Benutzern im Ressourcenplaner zugewiesen sind, werden diese Elemente unter den Abschnitten Nicht zugängliche Elemente aufgeführt. In diesem Fall ersetzen diese Abschnitte die Projekt- oder Aufgabenabschnitte.
 
-   * Wenn Sie nicht berechtigt sind, die Projekte anzuzeigen, aber Zugriff haben, um die Aufgaben oder Probleme in den Projekten anzuzeigen, werden die Projekte, Aufgaben und Probleme unter den Namen der ihnen zugewiesenen Benutzer aufgeführt.
-   * Wenn Sie berechtigt sind, die Projekte anzuzeigen, aber keine Aufgaben oder Probleme in den Projekten, wird der Projektname angezeigt und die Aufgaben und Probleme werden unter dem Abschnitt **Nicht zugängliche Elemente** aufgelistet.\
-     Weitere Informationen zu Berechtigungen in Workfront finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen der Projekte verfügen, aber Zugriff haben, um die Aufgaben oder Probleme in den Projekten anzuzeigen, werden die Projekte, Aufgaben und Probleme unter den Namen der ihnen zugewiesenen Benutzer aufgeführt.
+   * Wenn Sie berechtigt sind, die Projekte anzuzeigen, aber keine Aufgaben oder Probleme in den Projekten, wird der Projektname angezeigt und die Aufgaben und Probleme werden im Abschnitt Nicht zugängliche Elemente aufgeführt.
 
-     ![Nicht zugängliche Elemente](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-   
 
 * Sie können die folgenden Stunden- und FTE-Informationen in der Benutzeransicht anzeigen:
 
@@ -210,19 +199,15 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
 
 ## Projektname
 
-![Projektname](assets/project-name-highlighted-resource-planner-350x445.png)
-
 Im Ressourcenplaner werden die folgenden Projekte angezeigt:
 
-* Projekte, für die Sie über die Berechtigung verfügen, mindestens Folgendes anzuzeigen.
+* Projekte, für die Sie Berechtigungen haben. Sie müssen auch Zugriff auf „Ressourcenverwaltung anzeigen“ in Ihrer Zugriffsebene haben.
 
-  Sie müssen auch Zugriff auf zumindest „Ressourcenverwaltung anzeigen“ in Ihrer Zugriffsebene haben.
-
-  Informationen zum Zugriff, der für die Verwendung des Ressourcenplaners erforderlich ist, finden Sie unter [Zugriff auf die Budgetierung von Ressourcen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Weitere Informationen finden Sie unter [Zugriff erforderlich, um Ressourcen in Adobe Workfront zu budgetieren](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Durch den auf den Ressourcenplaner angewendeten Filter eingeschränkte Projekte
 
-  Weitere Informationen zum Filtern von Informationen im Ressourcenplaner finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Weitere Informationen finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
   >[!NOTE]
   >
@@ -232,32 +217,28 @@ Im Ressourcenplaner werden die folgenden Projekte angezeigt:
 
 Projekte werden im Ressourcenplaner nach Priorität geordnet aufgelistet, wobei das wichtigste Projekt ganz oben steht. Die Priorität wird durch eine Zahl vor dem Projektnamen angezeigt.
 
-![Projektplanungspriorität](assets/rp-planner-priority-highlighted-350x186.png)
+![Projektplanungspriorität](assets/project-ranking.png)
 
-Sie können eine Einstellung auch aktivieren, um die Projektprioritäten entsprechend ihren Portfolios anzuzeigen, wenn sie mit einem Portfolio verknüpft sind. Informationen zum Priorisieren von Projekten und Anzeigen von Portfolioprioritäten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+Sie können eine Einstellung auch aktivieren, um die Projektprioritäten entsprechend ihren Portfolios anzuzeigen, wenn sie mit einem Portfolio verknüpft sind. Weitere Informationen finden Sie [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Name des Aufgabengebiets
-
-![Name des Aufgabengebiets](assets/role-highlighted-resource-planner-350x243.png)
 
 Die folgenden Kategorien von Aufgabengebieten sind im Ressourcenplaner aufgeführt:
 
 * Die Aufgabengebiete, die Aufgaben zugewiesen sind.
 * Die Aufgabengebiete, die keinen Aufgaben zugewiesen sind, jedoch die primären Aufgabengebiete der Benutzer sind, die mit den Ressourcenpools der Projekte verknüpft sind.
 * Die sekundären Aufgabengebiete von Benutzern, die Aufgaben in diesen Aufgabengebieten zugewiesen sind.
-* Die sekundären Aufgabengebiete von Benutzern, die über einen gültigen **Prozentsatz der FTE-Verfügbarkeit** in ihrem Profil verfügen.\
-  Weitere Informationen zum **Prozentsatz der FTE-Verfügbarkeit** für Aufgabengebiete finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+* Die sekundären Aufgabengebiete von Benutzern, die einen gültigen Prozentsatz der FTE-Verfügbarkeit in ihrem Profil haben.\
+  Weitere Informationen zum Prozentsatz der FTE-Verfügbarkeit für Aufgabengebiete finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 >[!NOTE]
 >
->Aufgabengebiete, die Problemen zugewiesen sind, werden auch aufgelistet, wenn die Einstellung **Stunden aus Problem einbeziehen** aktiviert ist. Weitere Informationen zur Aktivierung von Problemstunden im Ressourcenplaner finden Sie im Abschnitt [Einstellungen](#settings).
+>Aufgabengebiete, die Problemen zugewiesen sind, werden auch aufgeführt, wenn die Einstellung Stunden aus Problem einbeziehen aktiviert ist. Weitere Informationen zur Aktivierung von Problemstunden im Ressourcenplaner finden Sie im Abschnitt [Einstellungen](#settings).
 
 ## Benutzername
 
-![Benutzername](assets/user-highlighted-resource-planner-350x272.png)
-
 Die im Ressourcenplaner in der Projekt- und Rollenansicht aufgelisteten Benutzer gehören zu den Ressourcenpools, die mit den Projekten verknüpft sind.\
-Weitere Informationen zum Ausfüllen von Ressourcenpools mit Benutzern finden Sie unter [Zuordnen von Ressourcenpools zu Benutzern](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+Weitere Informationen finden Sie unter [Zuordnen von Ressourcenpools zu Benutzern](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
 Alle Benutzenden, auf die Sie Zugriff haben und die sich mindestens einmal bei Workfront angemeldet haben, werden in der Benutzeransicht angezeigt.
 
@@ -266,92 +247,81 @@ In den Projekt- und Rollenansichten könnten Benutzer unter den folgenden Arten 
 * Ihr primäres Aufgabengebiet
 * Ihr sekundäres Aufgabengebiet in den folgenden Szenarien:
 
-   * Wenn das sekundäre Aufgabengebiet eine gültige Zahl für den **Prozentsatz der FTE-Verfügbarkeit** in seinem Benutzerprofil hat.
+   * Wenn das sekundäre Aufgabengebiet eine gültige Zahl für den Prozentsatz der FTE-Verfügbarkeit in seinem Benutzerprofil hat.
    * Wenn der/die Benutzende Aufgaben in diesen Rollen zugewiesen ist
 
-Weitere Informationen zum **Prozentsatz der FTE-Verfügbarkeit** für ein Aufgabengebiet finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+Weitere Informationen zum Prozentsatz der FTE-Verfügbarkeit für ein Aufgabengebiet finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
-## Abschnitte „Keine Rolle“ und „Kein Benutzer“
-
-* [ Abschnitt „Keine Rolle“](#no-role-section)
-* [Abschnitt „Kein Benutzer“](#no-user-section)
+## Keine Rolle und keine Benutzerabschnitte
 
 ### Abschnitt „Keine Rolle“  {#no-role-section}
 
-Wenn ein(e) Benutzende(r) zu einem Ressourcenpool gehört, der mit einem Projekt verknüpft ist, ihm/ihr jedoch kein Aufgabengebiet zugeordnet ist, wird er/sie im Abschnitt **Keine**) anstelle unter einem bestimmten Aufgabengebiet angezeigt.
+Wenn ein(e) Benutzende(r) einem Ressourcenpool angehört, der mit einem Projekt verknüpft ist, ihm/ihr jedoch kein Aufgabengebiet zugeordnet ist, wird er/sie im Abschnitt Keine Rolle angezeigt statt in einem bestimmten Aufgabengebiet.
 
-Sie können keine Stunden für einen Benutzer in einem Abschnitt **Keine Rolle** budgetieren. Dem Benutzer muss mindestens ein Aufgabengebiet zugeordnet sein, damit er für Arbeit budgetiert werden kann.\
-![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
+Sie können keine Stunden für einen Benutzer in einem Abschnitt ohne Funktion budgetieren. Dem Benutzer muss mindestens ein Aufgabengebiet zugeordnet sein, damit er für Arbeit budgetiert werden kann.
 
-### Abschnitt „Kein Benutzer“  {#no-user-section}
 
-Wenn Sie einem Team eine Aufgabe zuweisen oder die Zuweisung aufheben, werden die geplanten Stunden unter dem Abschnitt **Kein Benutzer** angezeigt, der im Ressourcenplaner unter dem Abschnitt **Keine**&quot; angezeigt wird. Diese Aufgaben werden nicht im Ressourcenplaner angezeigt, wenn die Ansicht &quot;**nach Benutzer“** wird.
+### Kein Benutzerabschnitt  {#no-user-section}
 
-Die Anzahl der geplanten Stunden, die den Aufgaben im Projekt zugeordnet wurden, wird im Ressourcenplaner im Abschnitt **Kein Benutzer** angezeigt, diese Zuordnungen können jedoch nicht budgetiert werden.
+Wenn Sie einem Team eine Aufgabe zuweisen oder die Zuweisung aufheben, werden die geplanten Stunden unter dem Abschnitt Kein Benutzer angezeigt, der im Ressourcenplaner unter dem Abschnitt Keine Rolle angezeigt wird. Diese Aufgaben werden bei Verwendung der Ansicht Nach Benutzer anzeigen nicht im Ressourcenplaner angezeigt.
 
-![no_user_and_no_role___res_planner.png](assets/no-user-and-no-role---res-planner-350x129.png)
+Die Anzahl der geplanten Stunden, die den Aufgaben im Projekt zugeordnet wurden, wird im Ressourcenplaner im Abschnitt „Kein Benutzer“ angezeigt. Sie können jedoch für diese Zuordnungen kein Budget erstellen.
 
- 
+![Abschnitt „Kein Benutzer“](assets/no-user.png)
 
 ## Filter
 
 Mithilfe von Filtern können Sie die Informationen einschränken, die Sie im Ressourcenplaner anzeigen.
 
-![RP_filter_collapsed.png](assets/rp-filter-collapsed-350x112.png)
+![Filterschaltfläche](assets/filter-button.png)
 
 Weitere Informationen zum Filtern im Ressourcenplaner finden Sie unter [Filtern von Informationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
 
 ## Einstellungen {#settings}
 
-Im Bereich Einstellungen können Sie Optionen zum Anzeigen oder Ausblenden von Informationen im Ressourcenplaner aktivieren oder deaktivieren.
+Im Bereich Einstellungen können Sie Optionen zum Anzeigen oder Ausblenden von Informationen im Ressourcenplaner aktivieren oder deaktivieren. Um das Dialogfeld Ressourcenplaner-Einstellungen zu öffnen, klicken Sie auf das Symbol Einstellungen oben rechts auf der Seite.
 
-So aktivieren Sie Einstellungen im Ressourcenplaner:
+![Symbol für Ressourcenplaner-Einstellungen](assets/settings-icon.png)
 
-1. Öffnen Sie den Ressourcenplaner.
-1. Klicken Sie auf **Symbol** Einstellungen“.
+Von hier aus können Sie eine oder beide der folgenden Einstellungen aktivieren:
 
-   ![Symbol für Ressourcenplaner-Einstellungen](assets/rp-settings-icon-edit-1.png)
+* **Stunden aus Problemen einbeziehen**: Zeigt geplante Stunden aus Problemen an.
 
-   Das Feld Ressourcenplaner-Einstellungen wird angezeigt.
+  Beachten Sie beim Aktivieren dieser Einstellung Folgendes:
 
-   ![Ressourcenplaner-Einstellungen](assets/rp-settings-without-actual-hours-350x211.png)
-
-1. Aktivieren Sie die Einstellung **Stunden aus Problemen einbeziehen**, um geplante Stunden aus Problemen im Ressourcenplaner anzuzeigen. Diese Einstellung ist standardmäßig deaktiviert.
-
-   Beachten Sie beim Aktivieren dieser Einstellung Folgendes:
-
-   * Der Name des Benutzers, der den Problemen zugewiesen wurde, wird unter dem ihm zugeordneten Aufgabengebiet für das Problem angezeigt und Sie können budgetierte Stunden für den Benutzer und das Aufgabengebiet in den Projekt- und Rollenansichten angeben.
+   * Der Name des Benutzers, der den Problemen zugewiesen wurde, wird unter dem Aufgabengebiet angezeigt, das ihnen im Problem zugeordnet ist. In den Projekt- und Aufgabenansichten können Sie budgetierte Stunden für den Benutzer und das Aufgabengebiet angeben.
    * Die Probleme, denen die Benutzer zugewiesen sind, werden in der Benutzeransicht unter den Namen der Aufgabengebiete aufgeführt.
 
      >[!IMPORTANT]
      >
-     >**Wenn das geplante Start- und Abschlussdatum der Anfrage außerhalb der Zeitleiste des Projekts liegt, werden die geplanten Stunden für die Anfrage entsprechend den Datumsangaben der Anfrage angezeigt. Wenn beispielsweise die Projektzeitleiste zwischen Januar und März liegt, die Zeitleiste der Probleme jedoch im August, werden die geplanten Stunden für die Probleme im August angezeigt.**
+     >Wenn das geplante Start- und Abschlussdatum der Anfrage außerhalb der Zeitleiste des Projekts liegt, werden die geplanten Stunden für die Anfrage entsprechend den Datumsangaben der Anfrage angezeigt. Wenn beispielsweise die Projektzeitleiste zwischen Januar und März liegt, die Zeitleiste der Probleme jedoch im August, werden die geplanten Stunden für die Probleme im August angezeigt.
 
-1. (Bedingt und optional) Wenn Sie die Projektansicht ausgewählt haben, aktivieren Sie die Einstellung Portfolio-Prioritäten anzeigen , um die Projektprioritäten entsprechend der Portfolio anzuzeigen, der sie zugewiesen wurden. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Ressourcenplaner-Priorität angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
 
-   Informationen zum Priorisieren von Projekten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+* **Portfolio-Prioritäten anzeigen**: Zeigt die Projektprioritäten entsprechend der Portfolio an, der sie zugewiesen sind.
+
+  Informationen zum Priorisieren von Projekten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+
+
+  ![Ressourcenplaner-Einstellungen](assets/resource-planner-settings.png)
 
 ## Option für Vollbildmodus
 
-Sie können den Ressourcenplaner im Vollbildmodus anzeigen, um die Informationsmenge zu vergrößern, die Sie auf dem Bildschirm anzeigen können.
+Sie können den Ressourcenplaner im Vollbildmodus anzeigen, um die Informationsmenge zu vergrößern, die Sie auf dem Bildschirm anzeigen können. Diese Option ist für alle Ansichten verfügbar.
 
-Die Option zur Anzeige von Informationen im Vollbildmodus steht für alle Ansichten des Ressourcenplaners zur Verfügung.
+Um den Ressourcenplaner im Vollbildmodus anzuzeigen, klicken Sie auf das Vollbildsymbol in der oberen rechten Ecke der Seite.
 
-So zeigen Sie den Ressourcenplaner im Vollbildmodus an:
+![RP_sull_screen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)
 
-1. Navigieren Sie zum **Ressourcenplaner**.
-1. Klicken Sie auf **Vollbildsymbol**, um den Ressourcenplaner im Vollbildmodus anzuzeigen.\
-   ![RP_sull_screen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)\
-   Der Ressourcenplaner wird erweitert, sodass er Ihr gesamtes Browser-Fenster einnimmt, und das Symbol ändert sich in eine Option **Vollbildansicht schließen**.
-
-1. (Optional) Klicken Sie auf das **Vollbildsymbol schließen**, um zur vorherigen Anzeige zurückzukehren.
+Sobald der Bildschirm erweitert ist, können Sie auf das Symbol Vollbild schließen klicken, um zur vorherigen Anzeige zurückzukehren.
 
 ## Exportoption
 
 ![Export-Schaltfläche](assets/export-button-highlighted-resource-planner-350x92.png)
 
-Sie können Informationen aus jeder Ansicht des Ressourcenplaners in eine Excel-Datei (.xlsx) exportieren.\
+Sie können Informationen aus jeder Ansicht des Ressourcenplaners in eine Excel-Datei (.xlsx) exportieren.
+
 Informationen zum Exportieren von Informationen aus dem Ressourcenplaner finden Sie unter [Exportieren von Informationen aus dem Ressourcenplaner](../../resource-mgmt/resource-planning/export-resource-planner.md).
 
-Sie können die Informationsmenge und die Anzeige Ihrer exportierten Datei verwalten.\
+Sie können die Informationsmenge und die Anzeige Ihrer exportierten Datei verwalten.
+
 Informationen dazu, welche Informationen Sie aus dem Ressourcenplaner exportieren können und wie Sie das Erscheinungsbild der exportierten Datei verwalten, finden Sie unter [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).

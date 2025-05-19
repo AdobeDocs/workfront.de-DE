@@ -9,22 +9,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
 # Export historischer Daten aus [!DNL Adobe Workfront]: Vor- und Nachteile
 
-In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mit denen Sie historische Daten aus [!DNL Workfront] exportieren können.
+<!-- Audited: 5/2025 -->
+
+In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mit denen Sie historische Daten aus Adobe Workfront exportieren können.
 
 ## Verwenden Sie einen unserer Partner
 
 [!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) verfügt über eine benutzerfreundliche App (die [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/)-Lösung), mit der Sie Ihre Daten selbst herunterladen können. Ein optionaler Viewer (die [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)-Lösung) ermöglicht eine einfache Offline-Anzeige Ihrer Daten.
 
-* **Positiv** Alle Ihre [!DNL Workfront]-Kernobjekte werden exportiert, einschließlich der benutzerdefinierten Felder und Notizen, die alle in einer leicht zugänglichen [!DNL MS Access]-Datenbank gespeichert werden. Die Benutzeroberfläche des Viewers ist einfach zu bedienen und zu lesen. Das Extrahieren von Dokumenten ist auch separat als Service verfügbar, wobei die Ausgabe in einer logischen Ordnerstruktur organisiert ist, die jedem Dokument (und optional seinen vorherigen Versionen) zugeordnet ist.
+* **Positiv**: Alle Ihre [!DNL Workfront]-Kernobjekte, einschließlich der benutzerdefinierten Felder und Notizen, werden exportiert und in einer leicht zugänglichen [!DNL MS Access]-Datenbank gespeichert. Die Benutzeroberfläche des Viewers ist einfach zu bedienen und zu lesen. Das Extrahieren von Dokumenten ist auch separat als Service verfügbar, wobei die Ausgabe in einer logischen Ordnerstruktur organisiert ist, die jedem Dokument und seinen vorherigen Versionen zugeordnet ist.
 
 * **Nachteile:** Es gibt eine technische Einschränkung von 2 GB an Daten, aber AtAppStore ermöglicht Ihnen nur das zu kaufen, was Sie benötigen.
 
@@ -36,7 +38,7 @@ Sie müssen eine Anfrage an unser Kundensupportteam senden, das dann eine Anfrag
 
 * **Vorteile**: Sie erhalten Ihre gesamte Datenlast, einschließlich benutzerdefinierter Felder sowie Dokumente, die im System gespeichert sind.
 
-* **Nachteile**: Die Datenbankdatei ist schwer lesbar: Sie können diese Datei nur lesen, wenn Sie sie in eine [!DNL Postgres] Datenbank hochladen und die Beziehungen zwischen den Tabellen wiederherstellen. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen vom NOC-Team in einem separaten Prozess separat extrahiert werden. Dadurch gibt es keine Organisation für die Dokumente, und sie werden alle durch ihre GUID referenziert.
+* **Nachteile**: Es gibt keine Möglichkeit, diese Datei zu lesen, es sei denn, Sie laden sie in eine [!DNL Postgres]-Datenbank hoch und stellen die Beziehungen zwischen den Tabellen wieder her. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen vom NOC-Team in einem separaten Prozess separat extrahiert werden. Dadurch gibt es keine Organisation für die Dokumente, und sie werden alle durch ihre GUID referenziert.
 
 * **Kosten**: Mit diesem Download sind Kosten verbunden, je nachdem, wie lange das Team braucht, um die Datei zu erstellen. Wenden Sie sich an Ihren AEM/CAE, um weitere Informationen zu erhalten oder diesen Prozess zu starten.
 
@@ -60,4 +62,4 @@ Wenn Sie in Ihrem Unternehmen über die richtigen Ressourcen verfügen, können 
 
 * **Nachteile**: Die Zeit wird auf Ihrer Seite verbracht, und Sie müssen Ressourcen finden, um die API zu codieren und den Export durchzuführen.
 
-* **Kosten**: Intern in Ihrer Organisation.
+* **Kosten**: Es ist unternehmensintern.
