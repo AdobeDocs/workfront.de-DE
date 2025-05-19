@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1043'
 ht-degree: 7%
 
 ---
@@ -168,6 +168,10 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >Wenn die **Dashboard**-Option nicht verfügbar ist, bedeutet dies, dass Sie in Ihrem System keine Dashboards haben, die systemweit freigegeben sind. Private Dashboards können nicht exportiert werden.
+
 1. Klicken Sie auf **Weitere Optionen**, um die vollständige Liste der Objekte anzuzeigen.
 
    Alle hier aufgeführten Objekte können auch zum Importieren von Daten in Workfront verwendet werden.
@@ -260,7 +264,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
      </tr> 
      <tr> 
       <td valign="top">Portfolio</td> 
-      <td valign="top"> Portfolios <br>preferences  </td> 
+      <td valign="top"> Portfolio<br>Preferences  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -330,7 +334,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
 
    Die exportierte Kickstart-Datei wird entweder als Excel-Datei oder als heruntergeladen. komprimierte Datei, die mehrere Excel- und Eigenschaftendateien enthält. Jede Excel-Datei ist eine Sammlung von Blättern, wobei jedes Blatt ein Feld darstellt, das mit dem ausgewählten Objekt verknüpft ist. Jedem Export ist **Blatt** Eigenschaften“ zugeordnet.
 
-   Mit den **Dashboard** und **Report** können Sie bestimmte Dashboards und Berichte auswählen, die in den Download aufgenommen werden sollen. Sie können nur Dashboards exportieren, die systemweit freigegeben sind.
+   Mit den **Dashboard** und **Report** können Sie bestimmte Dashboards und Berichte auswählen, die in den Download aufgenommen werden sollen. Bei Dashboards können Sie nur Dashboards exportieren, die systemweit freigegeben sind.
 
    Matrixberichte können nicht exportiert werden. Weitere Informationen zu Matrixberichten finden Sie unter [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Jede Registerkarte listet Elemente des entsprechenden Objekttyps auf, die zur aktuellen Gruppe oder zu ihren Untergruppen gehören und in den letzten 30 Tagen wiederhergestellt wurden.
 
-1. Führen Sie eine der folgenden Aktionen aus:
+1. (Optional) Um die gesamte Liste der Objekte auf der Registerkarte zu exportieren, klicken Sie auf das Symbol **Exportieren**. ![Export-Symbol](assets/export-icon.png).
+1. (Optional) Ändern Sie die Anzeige von Informationen in der Liste mithilfe eines Filters, einer Ansicht oder einer Gruppierung.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Gesamte Objektliste auf der Registerkarte exportieren</p> </td> 
-      <td> <p>Klicken Sie <strong>Exportieren</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Ändern der Anzeige von Informationen in der Liste</p> </td> 
-      <td> <p>Verwenden Sie in der oberen rechten Ecke über der Liste <strong>Filter</strong>, um festzulegen, was basierend auf den von Ihnen angegebenen Kriterien angezeigt werden soll. Mit <strong>Ansicht</strong> können Sie festlegen, welche Felder als Spalten angezeigt werden. Verwenden Sie <strong>Gruppierung</strong>, um die Elemente in Kategorien zu gruppieren.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Weitere Informationen finden Sie unter [Übersicht über Berichtselemente](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+

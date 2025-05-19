@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 9%
@@ -68,7 +68,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Versäumnisnachrichten senden</td> 
+      <td role="rowheader">Versäumnisbenachrichtigungen senden</td> 
       <td> <p>sendet die automatischen Erinnerungsbenachrichtigungen für überfällige Aufgaben und Probleme manuell. </p> <p>Weitere Informationen zum Einrichten automatischer Erinnerungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Einrichten automatischer Erinnerungen</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -76,14 +76,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> <p>sendet die automatischen Erinnerungsbenachrichtigungen für Aufgaben und Probleme, die sich ihrem Fälligkeitsdatum nähern, manuell.</p> <p>Weitere Informationen zum Einrichten automatischer Erinnerungen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Einrichten automatischer Erinnerungen</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Erinnerungsnachrichten senden</td> 
+      <td role="rowheader">Erinnerungsbenachrichtigungen senden</td> 
       <td> <p>sendet Erinnerungsnachrichten manuell. </p> <p>Weitere Informationen zum Einrichten von Erinnerungsnachrichten finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Einrichten von Erinnerungsnachrichten</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alle POP-Konten prüfen</td> 
-      <td> <p>Sucht nach neuen E-Mails, die an mit Workfront verknüpfte POP-Konten gesendet wurden. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td>Sucht nach neuen E-Mails, die an mit Workfront verknüpfte POP-Konten gesendet wurden.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Timelines erneut berechnen</td> 
@@ -94,7 +92,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Stellt die Standardberichte wieder her, die ursprünglich mit Workfront bereitgestellt wurden, sodass sie für alle Benutzenden im Abschnitt <strong>Berichte</strong> angezeigt werden.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Arbeitszeittabellen erstellen</td> 
+      <td role="rowheader">Erstellen von Arbeitszeittabellen</td> 
       <td>Erzeugt Arbeitszeittabellen für Benutzer basierend auf ihren Profilen mit wiederkehrenden Arbeitszeittabellen. Diese Option muss nur ausgeführt werden, wenn das Arbeitszeittabellen-Profil nach der Zuweisung an Benutzende erheblich geändert wurde, und nur, nachdem alle aktuellen und künftigen Arbeitszeittabellen gelöscht wurden.</td> 
      </tr> 
     </tbody> 

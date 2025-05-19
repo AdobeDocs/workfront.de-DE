@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -104,7 +104,7 @@ Kickstart-Vorlage exportieren:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>Alle Dashboards im System können exportiert werden. Sie können in einem Export bis zu 100 spezifische Dashboards auswählen.</p> </td> 
+      <td scope="col"> <p>Dashboard</p> <p>Alle öffentlich freigegebenen Dashboards im System können exportiert werden. Dashboards, die nicht systemweit freigegeben sind, können nicht exportiert werden. Sie können in einem Export bis zu 100 spezifische Dashboards auswählen.</p> </td> 
       <td scope="col">Exportiert als ZIP-Datei</td> 
       <td scope="col"> <p>Parameter</p> <p>Beschreibender Text</p><p>Parameteroption</p> <p>Parametergruppe</p> <p>Kategorieparameter</p> <p>Kategorie</p> <p>Bericht</p> <p>Portal-Registerkarten-Abschnitt</p> <p>Dashboard</p> <p>Einstellungen</p> </td> 
      </tr> 
@@ -453,7 +453,7 @@ Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwe
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
+   * Benennen Sie die neue Spalte mit dem Namen {0#setRoleIDROLE **.**
    * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
 
      Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.
