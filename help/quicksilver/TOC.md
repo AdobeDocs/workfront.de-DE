@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '13209'
+source-wordcount: '13210'
 ht-degree: 2%
 
 ---
@@ -476,7 +476,7 @@ ht-degree: 2%
          * [Benutzernamen ändern](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
          * [Ändern des Passworts für einen automatisch bereitgestellten Benutzer](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
          * [Benutzerattribute zuordnen](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
-         * [Deaktivieren von Benutzern](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
+         * [Deaktivieren einer Person](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Benutzer löschen](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
          * [Audit-Protokolle](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Auditprotokolle anzeigen und exportieren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
@@ -2503,7 +2503,7 @@ ht-degree: 2%
       * [Format ausgehender Nachrichten für Ereignisabonnements](wf-api/api/message-format-event-subs.md)
       * [Häufig gestellte Fragen - Ereignisabonnements](wf-api/general/event-subs-faq.md)
    * Document Webhooks-API {#document-webhooks-api}
-      * [Artikel zur Document Webhooks-API](wf-api/doc-wbhks-api/document-webhooks-api.md)
+      * [Document Webhooks-API: Artikelindex](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Webhooks - Übersicht](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Registrieren einer Webhook-Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
       * [Authentifizierung für Dokument-Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)

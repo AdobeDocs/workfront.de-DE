@@ -7,7 +7,7 @@ description: Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verf
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
@@ -249,7 +249,6 @@ In den Projekt- und Rollenansichten könnten Benutzer unter den folgenden Arten 
 
    * Wenn das sekundäre Aufgabengebiet eine gültige Zahl für den Prozentsatz der FTE-Verfügbarkeit in seinem Benutzerprofil hat.
    * Wenn der/die Benutzende Aufgaben in diesen Rollen zugewiesen ist
-
 Weitere Informationen zum Prozentsatz der FTE-Verfügbarkeit für ein Aufgabengebiet finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Keine Rolle und keine Benutzerabschnitte

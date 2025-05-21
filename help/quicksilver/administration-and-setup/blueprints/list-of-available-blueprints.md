@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
 
 # Liste der verfügbaren Blueprints
+
+<!-- Audited: 5/2025 -->
 
 Die folgenden [!DNL Adobe Workfront] Blueprints können von Systemadministratoren installiert werden. Weitere Informationen zu Blueprints finden Sie unter [Blueprints - Übersicht](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
@@ -50,7 +52,7 @@ Das [!UICONTROL Digital Asset Revision]-Paket enthält eine einzelne Vorlage, um
 Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation jahrelang bei Implementierungsprojekten mit IT-Teams in Unternehmen verwendet hat, um die verschiedenen Aktivitäten zu verwalten, die stattfinden müssen, wenn ein Mitarbeiter in eine neue Rolle wechselt. Diese Vorlage reduziert die Sicherheitsrisiken, die bestehen, wenn ein Mitarbeitertransfer ohne IT-Aufsicht abgeschlossen wird. Darüber hinaus werden verschwendete Stunden unproduktiver Zeit vermieden, wenn der Zugriff auf Systeme nicht gewährt wird, um die Aufgaben der neuen Rolle des Mitarbeiters zu erfüllen.
 
 **[!UICONTROL Operativer Abschluss am Monatsende]**
-Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation jahrelang bei Implementierungsengagements mit Finanz-Teams verwendet hat, um das Ende des Monats für den Abschluss der Bücher zu organisieren. Die Vorlage enthält eine Checkliste mit häufigen Aktivitäten, die jeden Monat durchgeführt werden müssen, um einen korrekten Bericht über den Zustand des Unternehmens zu erstellen und diesen zu fördern.
+Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation jahrelang bei Implementierungsengagements mit Finanz-Teams verwendet hat, um den Monatsabschluss der Bücher zu organisieren. Die Vorlage enthält eine Checkliste mit häufigen Aktivitäten, die jeden Monat durchgeführt werden müssen, um einen korrekten Bericht über den Zustand des Unternehmens zu erstellen und diesen zu fördern.
 
 **[!UICONTROL Einrichten der Finanzorganisation]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, die auf eine Finanzabteilung erweitert werden sollen.
@@ -77,10 +79,13 @@ Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, um eine
 Dieser Blueprint enthält eine Vorlage, die das [!DNL Workfront professional services] Unternehmen jahrelang bei Implementierungsengagements mit Personal-Teams verwendet hat, um neue Mitarbeiter bei der Verfolgung ihrer Onboarding-Aktivitäten zu unterstützen.
 
 **[!UICONTROL Bereitschaft für neue Einstellungen]**
-Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation seit Jahren bei Implementierungsengagements mit Personal-Teams verwendet, um Personalspezialisten und Personalverantwortliche dazu aufzufordern, wichtige Aktivitäten abzuschließen, um den ersten Tag eines neuen Mitarbeiters bemerkenswert zu machen.
+Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation seit Jahren bei Implementierungsengagements mit Personal-Teams verwendet hat, um Personalspezialisten und Personalverantwortliche dazu aufzufordern, wichtige Aktivitäten für den ersten Arbeitstag eines Mitarbeiters abzuschließen.
 
 **Offboarding | Dashboard abgehender Benutzer**
 Dieser Blueprint enthält ein einziges Dashboard mit 13 Berichten, in denen Sie die Objekte und Arbeitsaufträge finden, neu zuweisen oder anderweitig verwalten können, die mit einem abreisenden Workfront-Benutzer verbunden sind. Sie können diese Berichte auch verwenden, wenn ein(e) Benutzende(r) in eine neue Rolle oder Gruppe wechselt, um seine/ihre Arbeit neu zuzuweisen.
+
+**Partneraktivierung: GenStudio Foundation-Paket**
+Das Package Partner Enablement: GenStudio Foundation wurde entwickelt, um die nahtlose Promotion der GenStudio Foundation-Umgebung zu erleichtern. Es enthält alle notwendigen Komponenten, um das Bootcamp effektiv zu betreiben.
 
 **People Manager-Dashboard**
 Dieser Blueprint enthält ein einziges Dashboard mit 12 Berichten, um Personen und Managern Einblick in die Arbeit ihrer direkt unterstellten Mitarbeiter zu geben.
@@ -95,20 +100,19 @@ Das Paket [!UICONTROL Produktion von Druckelementen] enthält eine Vorlage, mit 
 Das Paket [!UICONTROL Produktion von Druckelementen] enthält eine Vorlage, mit der die Arbeit für einen standardmäßigen Druckproduktionsprozess organisiert wird. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Druck-Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für die Erstellung von Druckinhalten zu schaffen, und passen Sie es dann an die Anforderungen anderer kreativer Prozesse für gedruckte Materialien an.
 
 **[!UICONTROL Drucken: Asset-Produktion für Briefpost]**
-Dieser [!UICONTROL Print: Direct Mail Asset Production]-Blueprint organisiert die Arbeit für einen Produktionsprozess für Marketingmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront.
+Der [!UICONTROL Print: Direct Mail Asset Production]-Blueprint organisiert die Arbeit für einen Produktionsprozess für Marketingmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront.
 
 **[!UICONTROL Drucken: Erstellung und Ausführung von Briefpostinhalten]**
-Dieser [!UICONTROL &#x200B; („Direkt-Mail-Inhaltserstellung und -]„) organisiert die Arbeit für einen Produktionsprozess für gedrucktes Marketingmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront. Diese Vorlage ist einzigartig, da sie auch Aufgaben zum Drucken des Assets und zum Ausführen der Briefpostkampagne unabhängig von anderen Kampagnenaktivitäten enthält.
+Der [!UICONTROL Print: Direct Mail Content Creation and Execution]-Blueprint organisiert die Arbeit für einen Produktionsprozess für Printmaterial. Dieser Blueprint dient als Einstiegspunkt für die Verwaltung von Printmaterial, insbesondere Briefpost, in Workfront. Diese Vorlage ist einzigartig, da sie auch Aufgaben zum Drucken des Assets und zum Ausführen der Briefpostkampagne unabhängig von anderen Kampagnenaktivitäten enthält.
 
 **[!UICONTROL Einrichten der Professional Services-Organisation]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, um auf einen Anwendungsfall für Professional Services zu erweitern.
 
 **[!UICONTROL Recruiting Process Tracking]**
-Dieser Blueprint definiert eine Checkliste für interne Rekrutierungsressourcen, die geschäftlichen Stakeholdern dabei helfen, den Fortschritt von Headcount-Anfragen zu verfolgen. Es wurde entwickelt, um eine verwaltete Reifegrad zu unterstützen.
+Dieser Blueprint definiert eine Checkliste für interne Rekrutierungsressourcen, die geschäftlichen Stakeholdern dabei helfen, den Fortschritt von Headcount-Anfragen zu verfolgen. Es wurde entwickelt, um ein verwaltetes Reifegrad zu unterstützen.
 
 **Vorbereitung der Ressourcenverwaltung**
-
-Verwenden Sie diese Projektvorlage und diesen Benutzerbericht, um sicherzustellen, dass Sie über die richtigen Einstellungen und Informationen verfügen, die zum Generieren genauer Ressourcen-Management-Daten erforderlich sind.
+Verwenden Sie diese Blueprint, um sicherzustellen, dass Sie über die richtigen Einstellungen und Informationen verfügen, die zum Generieren genauer Ressourcen-Management-Daten erforderlich sind.
 
 **[!UICONTROL Selbstbewertung der Risikokontrolle: Planung der wichtigsten Risikominderung]**
 [!UICONTROL Risk Control Self Assessment] (RSCA) definiert einen Prozess, um Risiken zu identifizieren und die vorhandenen Kontrollen zu messen, um diese Risiken zu mindern. Diese Vorlage formalisiert den Prozess zur Bewertung neuer Risiken, um sicherzustellen, dass geeignete Kontrollen eingerichtet werden und um sicherzustellen, dass Sie wissen, wie Sie die Wirksamkeit der Kontrolle messen und dokumentieren können.
@@ -120,10 +124,10 @@ Verwenden Sie diese Projektvorlage und diesen Benutzerbericht, um sicherzustelle
 Das Paket [!UICONTROL Produktion sozialer Assets] enthält eine Vorlage, die die Arbeit zum Erstellen eines sozialen Artefakts organisiert. Die Vorlage bietet einen schlanken Prozess für die Erstellung ursprünglicher sozialer Assets für ein Team, das sich auf Standardarbeitsanweisungen verlässt, um zu definieren, wie die Arbeit ausgeführt wird, und das Projekt nur verwendet, um die Arbeit zu priorisieren und den Fortschritt zu verfolgen.
 
 **[!UICONTROL Social-Asset-Produktion] (verwaltet)**
-Das Paket [!UICONTROL Produktion sozialer Assets] enthält eine Vorlage, die die Arbeit zum Erstellen eines sozialen Artefakts organisiert. Dieses Paket ist als Einstiegspunkt für die Verwaltung der Erstellung von Social Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für alle Prozesse zur Erstellung sozialer Inhalte zu schaffen, indem Sie es an die Anforderungen anderer kreativer Prozesse für soziale Inhalte anpassen.
+Das Paket [!UICONTROL Produktion sozialer Assets] enthält eine Vorlage, die die Arbeit zum Erstellen eines sozialen Artefakts organisiert. Sie ist als Einstiegspunkt für die Verwaltung der Erstellung von Social Assets in Workfront gedacht. Verwenden Sie dieses Paket, um eine Grundlage für alle Prozesse zur Erstellung sozialer Inhalte zu schaffen, indem Sie es an die Anforderungen anderer kreativer Prozesse für soziale Inhalte anpassen.
 
 **[!UICONTROL Software-Implementierungen/App-Entwicklung]**
-Dieser Blueprint enthält eine Vorlage, die das [!DNL Workfront] Professional Services-Unternehmen seit Jahren bei Implementierungsprojekten mit IT-Teams verwendet, um die Installation von Lösungen von Drittanbietern oder die Erstellung interner Dienstprogramme und Anwendungen zu organisieren.
+Dieser Blueprint enthält eine Vorlage, die das [!DNL Workfront] Professional Services-Unternehmen seit Jahren bei Implementierungsprojekten mit IT-Teams verwendet, um die Arbeit bei der Installation von Lösungen von Drittanbietern zu organisieren oder interne Dienstprogramme und Anwendungen zu erstellen.
 
 **[!UICONTROL Systemadministrator-Wartungs-Dashboard]**
 Diese Blueprint enthält ein einziges Dashboard, das Systemadministratoren bei der regelmäßigen Wartung und Bereinigung des Systems von anderem, möglicherweise im Laufe der Zeit anfallenden Wirrwarr unterstützt.
@@ -142,7 +146,7 @@ Dieser Blueprint enthält ein Dashboard mit sieben Berichten, damit Sie den Wert
 
 **Wertschöpfung | Dashboard überprüfen und genehmigen**
 
-Dieser Blueprint enthält ein Dashboard mit sieben Berichten, damit Sie den Wert von Workfront erkennen können. Diese Berichte helfen Ihnen, die Werte der Überprüfung und Genehmigung in messbare Vorteile zu übersetzen, die Sie im Laufe der Zeit verfolgen können, um bessere Ergebnisse zu erzielen.
+Dieser Blueprint enthält ein Dashboard mit sieben Berichten, damit Sie den Wert von Workfront nutzen können. Diese Berichte helfen Ihnen, die Werte der Überprüfung und Genehmigung in messbare Vorteile zu übersetzen, die Sie im Laufe der Zeit verfolgen können, um bessere Ergebnisse zu erzielen.
 
 **[!UICONTROL Video-Asset-Produktion] (integriert)**
 
@@ -153,7 +157,11 @@ Das [!UICONTROL Video Asset Production]-Paket enthält eine Vorlage, mit der die
 
 **[!UICONTROL [!DNL Workfront]Kommunikation und Launch-Vorlage]**
 
-Dieser Blueprint enthält eine einzige Vorlage, die die Arbeit organisiert, die ein [!DNL Workfront]-Kunde ausführen muss, um einen hervorragenden Rollout des [!DNL Workfront]-Programms zu erzielen.
+Diese Blueprint enthält eine einzige Vorlage für die Organisation der Arbeit, die ein [!DNL Workfront] für den Rollout seiner [!DNL Workfront]-Anwendung ausführen muss.
+
+**Workfront-Schulung für neue Benutzer**
+
+Dieser Blueprint enthält drei Projektvorlagen, die als Schulungs-Checkliste bei der Aktivierung von Benutzenden in Workfront verwendet werden können.
 
 **[!DNL Workfront Usage Dashboard]**
 Dieser Blueprint enthält ein Dashboard mit 11 Berichten, die Systemadministratoren und Governance-Teams dabei helfen zu verstehen, ob ihre Konfiguration wie erwartet verwendet wird.

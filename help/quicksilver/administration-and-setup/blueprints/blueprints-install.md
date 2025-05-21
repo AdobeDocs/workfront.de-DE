@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
 
 # Blueprint installieren
+
+<!-- Audited: 5/2025 -->
 
 Sie können eine Blueprint in Ihrer Produktionsumgebung oder einer Sandbox-Umgebung installieren.
 
@@ -63,7 +65,7 @@ Sie können Ihr Paket in einer der folgenden Umgebungen installieren:
     </tr>
     <tr>
         <td><strong>Sandbox-Vorschau</strong></td>
-        <td>Die Sandbox-Vorschau ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und jedes Wochenende von Workfront aktualisiert wird. Alle Support-Pakete haben Zugriff auf die Sandbox-Vorschau. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Die [!DNL Adobe Workfront] Sandbox-Vorschau-Umgebung</a>.</td>
+        <td>Die Sandbox-Vorschau ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und jedes Wochenende von Adobe Workfront aktualisiert wird. Alle Support-Pakete haben Zugriff auf die Sandbox-Vorschau. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Die [!DNL Adobe Workfront] Sandbox-Vorschau-Umgebung</a>.</td>
     </tr>
     <tr>
         <td><strong>Sandbox 1 und 2</strong></td>
@@ -78,23 +80,24 @@ Sie können Ihr Paket in einer der folgenden Umgebungen installieren:
 >[!NOTE]
 >
 >Bestimmte Blueprints können nur zu Testzwecken in der Vorschau-Umgebung installiert werden. Wenn Sie in Ihrer Produktionsumgebung, Sandbox 1 oder Sandbox 2 auf Nur-Vorschau-Inhalt zugreifen, ist die Schaltfläche Installieren nicht aktiv und möglicherweise wird eine Warnmeldung angezeigt.\
->Außerdem ist die Funktion zum Umschalten der Umgebung beim Zugriff auf Inhalte, die nur in der Vorschau angezeigt werden, eingeschränkt, selbst wenn Sie sich in der Vorschau-Umgebung befinden.
+>Darüber hinaus ist die Funktion zum Umschalten der Umgebung beim Zugriff auf Inhalte, die nur in der Vorschau angezeigt werden, eingeschränkt, selbst wenn Sie sich in der Vorschau-Umgebung befinden.
 
 ## Blueprint installieren
 
 {{step1-to-blueprints}}
 
-1. Suchen Sie die Blueprint, die Sie installieren möchten. Sie können auf der rechten Seite nach Anwendungsfall, Reifegrad, Installationsstatus und Typ filtern.
+1. Suchen Sie die Blueprint, die Sie installieren möchten. Sie können rechts auf der Seite nach Anwendungsfall, Reifegrad, Installationsstatus und Typ filtern.
 1. (Optional) Klicken Sie auf **[!UICONTROL Details]**, um mehr über die Funktionsweise des Blueprints zu erfahren.
 1. Klicken Sie auf **[!UICONTROL Installieren]**.
 1. Wählen Sie die Installation in Ihrer Produktionsumgebung oder einer Sandbox-Umgebung aus.\
    Weitere Informationen finden Sie unter [Wo sollte ich eine Blueprint installieren?](#where-should-i-install-a-blueprint) Abschnitt in diesem Artikel.
-1. Auf der [!UICONTROL Konfigurieren] können Sie eine der folgenden Aktionen ausführen:
+1. Auf der **Konfigurieren** können Sie eine der folgenden Aktionen ausführen:
 
    * Blueprint unverändert installieren. Bei Blueprint-Typen, für die keine Konfiguration erforderlich ist, ist dies die einzige Option. Für Blueprint-Typen, die konfiguriert werden müssen, können Sie optional festlegen, dass die Blueprint jetzt installiert und zu einem späteren Zeitpunkt konfiguriert wird. Klicken Sie **[!UICONTROL Unverändert installieren]**.
-   * Konfigurieren Sie die Blueprint vor der Installation für Blueprints, die konfiguriert werden müssen. Wählen Sie Ihre Konfiguration aus und klicken Sie auf **[!UICONTROL Blueprint installieren]**.\
+   * Konfigurieren Sie die Blueprint vor der Installation für Blueprints, die konfiguriert werden müssen. Wählen Sie Ihre Konfiguration aus und klicken Sie dann auf **[!UICONTROL Blueprint installieren]**.
 
      Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
-Wenn die Installation abgeschlossen ist, wird eine Meldung mit einer Liste der spezifischen Objekte (z. B. Rollen, Teams oder Gruppen) angezeigt, die mit der Blueprint erfolgreich installiert wurden, sowie der Objekte, die nicht installiert werden konnten.
+
+   Die Installation wird abgeschlossen. In einer Meldung wird eine Liste der spezifischen Objekte (z. B. Rollen, Teams oder Gruppen) angezeigt, die mit der Blueprint erfolgreich installiert wurden, sowie der Objekte, die nicht installiert werden konnten.
 
 Nach der Installation der Blueprint sind möglicherweise einige zusätzliche Aktionen erforderlich, um sie vollständig bereitzustellen. Weitere Informationen finden Sie [Aktionen, die nach der Installation eines Blueprints durchgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

@@ -3,21 +3,23 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: Document Webhooks-API - Übersicht
+title: 'Document Webhooks-API: Artikelindex'
 description: Document Webhooks-API-Themen
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# Document Webhooks-API - Übersicht
+# Document Webhooks-API: Artikelindex
+
+<!-- Audited: 5/2025 -->
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
@@ -32,7 +34,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Miniaturansicht für ein Dokument abrufen](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [Datei-Upload über Dokument-Webhooks](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
 * [Erstellen eines Ordners mit Dokument-Webhooks](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-* [Dokument oder Ordner löschen (noch nicht implementiert)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+* [Löschen eines Dokuments oder Ordners (noch nicht implementiert)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [Abrufen von Informationen über den Service (noch nicht implementiert)](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
 * [Dokument oder Ordner umbenennen (noch nicht implementiert)](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [Benutzerdefinierte Aktion durchführen (noch nicht implementiert)](../../wf-api/doc-wbhks-api/perform-custom-action.md)
