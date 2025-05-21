@@ -6,9 +6,9 @@ description: Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Kalender, die andere Benutzer für Sie freigegeben haben
 
-     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
    ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)
@@ -82,31 +82,26 @@ Sie können aus den folgenden Kalenderberichtsansichten wählen:
    * **[!UICONTROL Woche]**: Zeigt eine Kalenderwoche an
    * **[!UICONTROL Gantt]**: Zeigt eine kontinuierliche Ansicht des Kalenders an
 
-     Sie können weitere Ereignisse in einer [!UICONTROL Gantt“-Ansicht &#x200B;], indem Sie nach unten oder seitlich scrollen. Ein Ladesymbol wird angezeigt, wenn Daten für die Ansicht gefüllt werden.
+     Sie können weitere Ereignisse in einer **Gantt“-Ansicht**, indem Sie nach unten oder seitlich scrollen. Ein Ladesymbol wird angezeigt, wenn Daten für die Ansicht gefüllt werden.
 
    >[!NOTE]
    >
-   >In der [!UICONTROL Monat] und [!UICONTROL Woche]-Ansicht haben Ereignisse, die aktuell oder zukünftig sind (einschließlich Ereignisse, die sich über mehrere Tage erstrecken, sofern sie heute oder einen zukünftigen Tag enthalten), eine Schattierung, die der Farbe in dem Projekt oder der Kalendergruppierung entspricht. Vergangene Ereignisse haben eine hellere Schattierung, um anzuzeigen, dass sie nicht mehr aktuell sind. Sie können diese Ereignisse jedoch weiterhin auswählen und anzeigen.
+   >In der **Monat** und **Woche**-Ansicht haben Ereignisse, die aktuell oder zukünftig sind (einschließlich Ereignisse, die sich über mehrere Tage erstrecken, sofern sie heute oder einen zukünftigen Tag enthalten), eine Schattierung, die der Farbe in dem Projekt oder der Kalendergruppierung entspricht. Vergangene Ereignisse haben eine hellere Schattierung, um anzuzeigen, dass sie nicht mehr aktuell sind. Sie können diese Ereignisse jedoch weiterhin auswählen und anzeigen.
 
-1. (Optional) Wenn Sie den Kalender in der Ansicht [!UICONTROL Monat] oder [!UICONTROL Woche] anzeigen, können Sie Ihre Kalenderansicht mit den folgenden Optionen ändern:
+1. (Optional) Wenn Sie den Kalender in der Ansicht **Monat** oder **Woche** anzeigen, können Sie Ihre Kalenderansicht mit den folgenden Optionen ändern:
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* So ändern Sie die angezeigten Daten schnell:
+   * So ändern Sie die angezeigten Daten schnell:
 
-   1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
+      1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
 
-      ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)\
-      Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht [!UICONTROL Woche] anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
+         ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
+         Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht **Woche** anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
 
-
-1. (Optional) Um einen Kalender im Vollbildmodus anzuzeigen, klicken Sie auf die Vollbildpfeile auf der rechten Seite der Symbolleiste **[!UICONTROL Kalender]**.
-   ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Drücken Sie Esc, um zur normalen Kalenderansicht zurückzukehren.
+      1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
 
 1. (Optional) Um die Ereignisse für ein mit dem Kalender verknüpftes Projekt oder eine mit dem Kalender verknüpfte Kalendergruppierung auszublenden, löschen Sie das Projekt oder die Kalendergruppierung in der Projektliste.
    ![Ereignisse ausblenden](assets/hide-events-for-project-or-cal-grouping.png)

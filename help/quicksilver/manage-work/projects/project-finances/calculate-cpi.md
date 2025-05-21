@@ -7,14 +7,16 @@ description: Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreib
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Kostenentwicklungsindex (CPI) berechnen
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 +++
 
 ## Überblick über den Kostenentwicklungsindex (Cost Performance Index, CPI)
-
-* [Der CPI-Wert](#the-cpi-value)
-* [So wird der CPI berechnet](#how-cpi-is-calculated)
 
 ### Der CPI-Wert {#the-cpi-value}
 
@@ -184,7 +183,7 @@ Die insgesamt budgetierten Kosten der durchgeführten Arbeit werden für Folgend
 * **Für ein Projekt:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
@@ -196,8 +195,6 @@ Sie können den CPI eines Projekts oder einer Aufgabe in einem Projekt, einer Au
 1. Wechseln Sie zu dem Projekt oder der Aufgabe, in dem bzw. der Sie den CPI anzeigen möchten.
 1. Erweitern Sie **Projektdetails** oder **Aufgabendetails** im linken Bereich, je nachdem, ob Sie den CPI für ein Projekt oder eine Aufgabe anzeigen.
 
-1. Klicken Sie auf **Finanzen**.
-
-   Der CPI wird im Feld **CPI/SPI/CSI** angezeigt.
+1. Klicken Sie auf **Finanzen**. Der CPI wird im Feld **CPI/SPI/CSI** angezeigt.
 
    ![CPI im Projekt](assets/cpi-on-project-nwe.png)
