@@ -384,7 +384,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den ****- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den **&#x200B;**- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
