@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td><p>Beliebig</p>
+   <p>Das Hinzufügen benutzerdefinierter Programme zum Hauptmenü ist nur für Organisationen verfügbar, die für Adobe App Builder lizenziert sind.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -87,39 +88,39 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL -Projekt]</td> 
+      <td>[!UICONTROL-Projekt]</td> 
       <td>Der Name eines Projekts</td> 
-      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Abrechnungssätze], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL Auslastung], [!UICONTROL Auslastung], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Abrechnungssätze], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL Auslastung], [!UICONTROL Auslastung], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Aufgabe]</td> 
       <td>Der Name einer Aufgabe</td> 
-      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Aufgabendetails], [!UICONTROL -Unteraufgabe], [!UICONTROL -Probleme], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen], [!UICONTROL -Ausgaben], [!UICONTROL -Vorgänger]</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Aufgabendetails], [!UICONTROL-Unteraufgabe], [!UICONTROL-Probleme], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-Ausgaben], [!UICONTROL-Vorgänger], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problem]</td> 
       <td>Der Name eines Problems</td> 
-      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Problemdetails], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen]</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Problemdetails], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Portfolio]</td> 
+      <td>[!UICONTROL Portfolio]</td> 
       <td>Der Name eines Portfolios</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programme], [!UICONTROL -Portfolio-Details], [!UICONTROL -Portfolio] [!UICONTROL -Optimierung], [!UICONTROL -Dokumente], [!UICONTROL -Updates], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programme], [!UICONTROL Portfolio-Details], [!UICONTROL Portfolio] [!UICONTROL-Optimierung], [!UICONTROL-Dokumente], [!UICONTROL-Updates], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Programm]</td> 
+      <td>[!UICONTROL-Programm]</td> 
       <td>Der Name eines Programms</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programmdetails], [!UICONTROL -Updates], [!UICONTROL -Dokumente], [!UICONTROL -Planung]*</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programmdetails], [!UICONTROL-Updates], [!UICONTROL-Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Vorlage]</td> 
+      <td>[!UICONTROL-Vorlage]</td> 
       <td>Der Name einer Projektvorlage</td> 
       <td>[!UICONTROL Vorlagenaufgaben], [!UICONTROL Vorlagendetails], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Risiken], [!UICONTROL Ausgaben], [!UICONTROL Personen], [!UICONTROL Genehmigungen], [!UICONTROL Abrechnungssätze], [!UICONTROL Warteschlangendetails], [!UICONTROL Routing-Regeln], [!UICONTROL Warteschlangenthema], [!UICONTROL Themengruppe]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlagenaufgabe]</td> 
       <td>Der Name einer Vorlagenaufgabe</td> 
-      <td>[!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Vorlagenaufgabendetails], [!UICONTROL -Teilaufgaben], [!UICONTROL -Ausgaben], [!UICONTROL -Genehmigungen], [!UICONTROL -Vorgänger]</td>
+      <td>[!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Vorlagenaufgabendetails], [!UICONTROL-Teilaufgaben], [!UICONTROL-Ausgaben], [!UICONTROL-Genehmigungen], [!UICONTROL-Vorgänger]</td>
      </tr>
      <!--
       <tr> 
@@ -134,12 +135,12 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
       <td>[!UICONTROL Rechnungsnachweis-Details], [!UICONTROL Fakturierbare Stunden], [!UICONTROL Fakturierbare Ausgaben], [!UICONTROL Feste Einnahmen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Projekte]</td> 
-      <td>Im [!UICONTROL -Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL -Projekte]</td> 
+      <td>[!UICONTROL-Projekte]</td> 
+      <td>Im [!UICONTROL-Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL-Projekte]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Anforderungen]</td> 
+      <td>[!UICONTROL-Anforderungen]</td> 
       <td>Der Name einer Anfrage</td> 
       <td>[!UICONTROL Neue Anfrage], [!UICONTROL Gesendete Anfragen], [!UICONTROL Alle Anfragen], [!UICONTROL Entwürfe]</td> 
      </tr> 
@@ -151,7 +152,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
      <tr> 
       <td>[!UICONTROL Scrum-Team]</td> 
       <td>Der Name eines Scrum-Teams</td> 
-      <td><p>[!UICONTROL -Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL -Aktualisierungen], [!UICONTROL -Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
+      <td><p>[!UICONTROL-Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL-Aktualisierungen], [!UICONTROL-Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban-Team]</td> 
@@ -201,6 +202,8 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
    *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich dem linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
 
+   **Benutzerdefinierte Programme müssen separat erstellt werden, bevor sie als Hauptmenüoptionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 
 1. Führen Sie in der **[!UICONTROL Linker Bereich]** einen der folgenden Schritte aus, um zu bestimmen, was Benutzende im linken Bereich für den ausgewählten [!DNL Workfront] Bereich oder Objekttyp sehen werden:
 
@@ -221,7 +224,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
    >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Passen Sie den [!UICONTROL Zusammenfassungsbereich] mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [Passen Sie die Startseite mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Marken-Adobe [!DNL Workfront] unter Verwendung einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >* [Marke Adobe [!DNL Workfront] mit einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Optional) Wenn Sie ein Element im linken Bedienfeld hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Benutzerdefinierten Abschnitt hinzufügen]** und geben Sie einen **[!UICONTROL benutzerdefinierten Abschnittstitel]** für das Element ein. Fügen Sie dann das Dashboard hinzu.

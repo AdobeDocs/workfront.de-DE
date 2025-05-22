@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 >
 >Die Optionen im Hauptmenü, die den Benutzern angezeigt werden, hängen von ihrem Lizenztyp und davon ab, welche Einstellungen in ihrer Zugriffsebene konfiguriert sind. Einige Benutzer, die diese Layoutvorlage verwenden werden, sehen möglicherweise nicht alle hier ausgewählten Optionen. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) und [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Möglicherweise werden im Hauptmenü unterschiedliche Optionen angezeigt, wenn Ihr Unternehmen das einheitliche Adobe Workfront-Erlebnis erhalten hat. Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Möglicherweise werden im Hauptmenü unterschiedliche Optionen angezeigt, wenn Ihr Unternehmen das einheitliche Adobe Workfront-Erlebnis erhalten hat. Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -47,7 +47,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
-   <td>Beliebig</td> 
+   <td><p>Beliebig</p>
+
+<p>Das Hinzufügen benutzerdefinierter Programme zum Hauptmenü ist nur für Organisationen verfügbar, die für Adobe App Builder lizenziert sind.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -100,8 +102,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >
      >Nur Benutzer mit einer Plan -Lizenz (im aktuellen Lizenzmodell) oder Benutzer mit einer Standard -Lizenz (im neuen Lizenzmodell) können den Bereich Benutzer ![Benutzersymbol](assets/users-icon-in-main-menu.png) im Hauptmenü sehen.
 
-   * Anforde- rungen
-   * Arbeitszeit- tabellen
+   * Anforderungen
+   * Arbeitszeittabellen
    * Dokumente
    * Vorlagen
    * Analytik
@@ -120,6 +122,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >[!NOTE]
      >
      >Für die Planung ist eine zusätzliche Lizenz erforderlich. Informationen zur Workfront-Planung finden Sie unter [Adobe Workfront-Planung - Übersicht](/help/quicksilver/planning/general/planning-overview.md)
+      * Benutzerdefinierte Anwendung
+
+     >[!NOTE]
+     >
+     > Benutzerdefinierte Programme müssen separat erstellt werden, bevor sie als Hauptmenüoptionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 
 1. Führen Sie einen der folgenden Schritte aus:
 

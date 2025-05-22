@@ -3,15 +3,13 @@ title: Erstellen benutzerdefinierter Programme für Workfront mit Adobe App Buil
 description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adobe App Builder ermöglichen es Kunden und Partnern, benutzerdefinierte Benutzererlebnisse zu erstellen.
 author: Courtney
 feature: Digital Content and Documents
-hide: true
-hidefromtoc: true
-source-git-commit: 7c82dc70c5fde69c905b74f28a0ff9add663dbd9
+exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
+source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen benutzerdefinierter Programme für Workfront mit Adobe App Builder
 
@@ -155,13 +153,13 @@ So lassen Sie benutzerdefinierte Anwendungen im Hauptmenü von Workfront zu:
 In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -171,13 +169,13 @@ In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden.
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Fügen Sie das folgende Codefragment hinzu:
