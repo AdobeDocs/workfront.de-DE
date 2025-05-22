@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Scorecard erstellen
 description: Eine Scorecard misst, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt häufig die Mission, die Werte und die strategischen Ziele eines Unternehmens wider. Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, um sicherzustellen, dass sie bei der Priorisierung und Auswahl des Projekts aussagekräftig und wertvoll sind.  [!DNL Adobe Workfront]  erstellt die Scorecards anhand der Empfehlungen von Portfolio-Managern.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
 
 # Scorecard erstellen
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein. </span>
+
+<span class="preview">Weitere Informationen finden Sie unter [Modernisierung der ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)</span>
+
 Eine Scorecard misst, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt oft die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.
 
-Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, um sicherzustellen, dass sie bei der Priorisierung und Auswahl des Projekts aussagekräftig und wertvoll sind. Ein [!DNL Adobe Workfront] erstellt die Scorecards anhand der Empfehlungen von Portfolio-Managern.
+Als Portfolio-Manager können Sie die Scorecard-Fragen und -Antworten definieren, um sicherzustellen, dass sie bei der Priorisierung und Auswahl des Projekts aussagekräftig und wertvoll sind.
+
+Als [!DNL Adobe Workfront] können Sie Scorecards auf der Grundlage der Empfehlungen von Portfolio-Managern erstellen.
 
 Die für eine Scorecard ausgewählten Fragen und Antworten müssen quantifizierbar sein, damit ein Alignment-Wert zum Vergleich verschiedener Projekte bereitgestellt werden kann.
+
+Sie können eine Scorecard wie folgt erstellen:
+
+* Neu
+* Durch Kopieren einer vorhandenen
 
 ## Zugriffsanforderungen
 
@@ -56,17 +67,15 @@ Sie benötigen den folgenden Zugriff:
 
 +++
 
-## Scorecard erstellen
-
-Sie können eine Scorecard von Grund auf neu erstellen oder eine vorhandene kopieren.
-
-Scorecard von Grund auf neu erstellen:
+## Scorecard komplett neu erstellen
 
 {{step-1-to-setup}}
 
-1. Klicken Sie **[!UICONTROL Scorecards]** und dann auf **[!UICONTROL Neue Scorecard]**. Dadurch wird das Feld **Neue Scorecard** geöffnet.
+1. Klicken Sie **[!UICONTROL Scorecards]** und dann auf **[!UICONTROL Neue Scorecard]**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Das Feld **Neue Scorecard** wird geöffnet.</span>
+
+   <span class="preview">![Neues Scorecard-Feld](assets/new-scorecard-350x173.png)</span>
 
 1. Geben Sie einen **[!UICONTROL Scorecard-Namen]** und eine **[!UICONTROL Beschreibung]** an.
 
@@ -79,7 +88,7 @@ Scorecard von Grund auf neu erstellen:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Frage]</td> 
+      <td role="rowheader">[!UICONTROL-Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 
@@ -104,9 +113,9 @@ Scorecard von Grund auf neu erstellen:
    >
    >Sie können die Fragen in Ihrer Scorecard neu anordnen, indem Sie sie per Drag-and-Drop in die richtige Reihenfolge ziehen.
 
-1. Klicken Sie **[!UICONTROL Speichern]** wenn Sie alle Informationen eingegeben haben.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Diese erstellen die Scorecard, und Projektmanager können sie jetzt an ihren Projekt-Business-Case anhängen.
+   Dadurch wird die Scorecard erstellt und Projektmanager können sie jetzt an ihren Projekt-Business-Case anhängen.
 
 ## Kopieren einer vorhandenen Scorecard
 
@@ -116,16 +125,20 @@ Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Score
 
 1. Klicken Sie **[!UICONTROL linken]** auf „Scorecards“.
 1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard ](assets/copy-scorecard-icon.png) kopieren“.
-Das Feld **Scorecard kopieren** wird geöffnet.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Das Feld **Scorecard kopieren** wird geöffnet.</span>
+
+   <span class="preview">![Scorecard-Feld kopieren](assets/copy-scorecard-box.png)</span>
+
 1. Geben Sie die folgenden Informationen an:
 
-   * **Scorecard**: Name der Scorecard eingeben.  Standardmäßig wird der Name automatisch im folgenden Format aktualisiert:
+   * **Scorecard**: Aktualisieren Sie den Namen der Scorecard.  Standardmäßig wird der Name automatisch im folgenden Format aktualisiert:
 
      `Original scorecard name (Copy)`
    * **Beschreibung**: Geben Sie zusätzliche Informationen zur Scorecard ein.
 1. Klicken Sie auf **Speichern**.
+
+   Dadurch wird eine neue Scorecard mit denselben Informationen wie bei der ursprünglichen Scorecard erstellt. Projektmanager können ihn jetzt ihrem Projekt-Business-Case zuordnen.
 
 ## Scorecard auf ein Projekt anwenden
 

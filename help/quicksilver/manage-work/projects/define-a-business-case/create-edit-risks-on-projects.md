@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Risiken in Projekten erstellen und bearbeiten
-description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Risiken können im Rahmen der Erstellung eines Business Case eines Projekts oder über die Registerkarte Risiken aufgezeichnet werden. Risiken werden nur für ein Projekt erstellt. Sie können keine Risiken mit Aufgaben oder Problemen verknüpfen.
+description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Sie können Projektrisiken im Rahmen der Erstellung eines Business Case eines Projekts oder über die Registerkarte Risiken aufzeichnen. Sie können Risiken zu Projekten und Vorlagen hinzufügen. Sie können keine Risiken mit Aufgaben oder Problemen verknüpfen.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,21 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Risiken können im Rahmen der Erstellung eines Business Case eines Projekts oder über die Registerkarte Risiken aufgezeichnet werden. Risiken werden nur für ein Projekt erstellt. Sie können keine Risiken mit Aufgaben oder Problemen verknüpfen.
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein. </span>
+
+<span class="preview">Weitere Informationen finden Sie unter [Modernisierung der ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)</span>
+
+Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Sie können Risiken im Rahmen der Erstellung eines Business Case für ein Projekt oder über die Registerkarte Risiken aufzeichnen.
+
+Risiken können nur bei Projekten oder Vorlagen erstellt werden. Sie können keine Risiken mit Aufgaben oder Problemen verknüpfen.
 
 Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirken sich jedoch nicht auf die tatsächlichen Kosten des Projekts aus.
 
 >[!NOTE]
 >
->In diesem Artikel werden die mit dem Projekt verbundenen Risiken definiert, während Sie sie im Business Case des Projekts definieren oder auf der Registerkarte Risiken des Projekts hinzufügen. Informationen zum Risikofeld, das beim Bearbeiten eines Projekts verfügbar ist, finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+>In diesem Artikel werden die mit dem Projekt verbundenen Risiken definiert, während Sie sie im Business Case des Projekts definieren oder auf der Registerkarte Risiken des Projekts hinzufügen.
+>
+>Informationen zum Risikofeld, das beim Bearbeiten eines Projekts verfügbar ist, finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Zugriffsanforderungen
 
@@ -94,8 +102,7 @@ So erstellen oder bearbeiten Sie ein Risiko im Business Case:
 
 Neben dem Erstellen und Bearbeiten von Risiken im Business Case können Sie dazu auch den Abschnitt **Risiken** eines Projekts verwenden.
 
-* [Risiken im Bereich „Risiken“ ](#create-risks-in-the-risks-area)
-* [Risiken im Risikobereich bearbeiten](#edit-risks-in-the-risks-area)
+Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt und bearbeitet werden. Das Erstellen von Risiken für Vorlagen entspricht dem Erstellen von Risiken für Projekte.
 
 ### Risiken im Bereich „Risiken“ erstellen {#create-risks-in-the-risks-area}
 
@@ -104,15 +111,19 @@ Neben dem Erstellen und Bearbeiten von Risiken im Business Case können Sie dazu
 
    ![Risiken-Abschnitt der Aufgabe](assets/risks-section-on-project-2022.png)
 
-1. Klicken Sie auf **Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten.
+1. Klicken Sie auf **Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten. **Beschreibung** ist ein erforderliches Feld
 
    Oder
 
-   Klicken Sie **Neues Risiko**. Das **Neues Risiko** Dialogfeld wird geöffnet.
+   Klicken Sie **Neues Risiko**.
 
-1. Geben Sie die folgenden Informationen ein:
+   <span class="preview">Das Feld **Neues Risiko** wird geöffnet.</span>
 
-   * **Beschreibung**: Beschreiben Sie das Risiko.
+   <span class="preview">![Neues Risikofeld](assets/new-risk-box.png)</span>
+
+1. (Bedingt) Wenn Sie ein Risiko in das Feld **Neues Risiko** einfügen, geben Sie die folgenden Informationen ein:
+
+   * **Beschreibung**: Beschreiben Sie das Risiko. Dies ist ein Pflichtfeld.
    * **Risikotyp**: Geben Sie an, unter welche Kategorie das Risiko fällt.\
      Ihr Workfront-Administrator definiert die in Ihrer Umgebung verfügbaren Risikotypen. Informationen zur Definition von Risikotypen finden Sie im Artikel [Risikotypen bearbeiten und erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
@@ -126,11 +137,11 @@ Neben dem Erstellen und Bearbeiten von Risiken im Business Case können Sie dazu
 
    Oder
 
-   Klicken Sie **Speichern**, wenn Sie die Informationen im Dialogfeld **Neues Risiko** bearbeiten.
+   Klicken Sie **Speichern**, wenn Sie die Informationen im Feld **Neues Risiko** bearbeiten.
 
 1. (Optional) Wählen Sie im Dropdown-Menü **Status** für das Risiko einen anderen **Status** aus, wenn Sie die Ansicht **Standard** für die Liste der Risiken anwenden.
 
-   Standardmäßig lautet der Status eines Risikos **Identifiziert**.
+   Standardmäßig lautet der **Status** eines Risikos **Identifiziert**.
 
 ### Risiken im Risikobereich bearbeiten {#edit-risks-in-the-risks-area}
 
@@ -152,7 +163,7 @@ Risiken bearbeiten:
    >
    >Wenn Sie mehrere Risiken gleichzeitig bearbeiten, wenden Sie dieselben Informationen auf alle ausgewählten Risiken an. Die mit den einzelnen Risiken verbundenen Informationen vor Ihren Änderungen werden in einer Massenbearbeitung überschrieben.
 
-1. Wenn Sie auf **Bearbeiten** geklickt haben, wird **Dialogfeld** Risiko bearbeiten“ geöffnet.
+1. Wenn Sie auf **Bearbeiten** geklickt haben, wird das **Risiko bearbeiten** oder **Risiken bearbeiten** geöffnet.
 
    Erwägen Sie, die folgenden Felder zu bearbeiten:
 
@@ -164,7 +175,7 @@ Risiken bearbeiten:
    * **Istkosten**: Geben Sie die Istkosten des Risikos an, wenn das Risiko eingetreten ist.
    * **Minderungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu mindern.
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. <span class="preview">Klicken Sie auf **Speichern**.</span>
 1. (Optional) Bearbeiten Sie den **Status** für ein Risiko im **Status** Dropdown-Menü, wenn Sie die **Standard**-Ansicht für die Liste der Risiken anwenden.
 
    >[!NOTE]

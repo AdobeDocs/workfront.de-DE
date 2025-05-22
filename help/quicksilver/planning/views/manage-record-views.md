@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -221,9 +221,13 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
 1. (Bedingt) Wählen Sie die **Start** und **Enddatum** für die Datensätze aus, die in der Zeitleisten- oder Kalenderansicht angezeigt werden.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensatz- oder Objekttypen nachschlagen. Sie müssen Aggregatoren für Datumsfelder (MAX oder MIN) verwenden, wenn Sie Suchfelder als Start- und Enddatum für die Zeitleisten- und Kalenderansichten auswählen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensatz- oder Objekttypen nachschlagen.
+   >
+   >Sie müssen Aggregatoren für Datumsfelder (MAX oder MIN) verwenden, wenn Sie beim Verbinden von Datensatztypen Suchfelder auswählen. Nur durch Hinzufügen der Aggregatoren können Sie die Daten der Verbindungen als Start- und Enddaten für die Timeline- und Kalenderansichten verwenden.
+   >
+   >Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klicken Sie auf **Erstellen**.
 

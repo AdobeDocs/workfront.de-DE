@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '3819'
+source-wordcount: '3818'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Weitere Informationen zum Stundentyp, den Sie in Workfront anmelden können, fin
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in diesem Artikel auszuführen und projektspezifische Stunden zu protokollieren:
 
@@ -41,7 +41,9 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in die
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Einfach oder höher, um Stunden für ein Projekt, eine Aufgabe, ein Problem oder allgemeine Stunden in einer Arbeitszeittabelle einzutragen</p>
+   <td> <p>Neu:</p>
+   <ul><li> Light oder höher für die Protokollierung von Stunden für eine Aufgabe, ein Problem oder allgemeine Stunden auf einer Arbeitszeittabelle</li>
+   <li>Standardmäßige Protokollierung von Stunden für Projekte</li></ul>
 
 <p>Aktuell: 
    <ul><li>Überprüfen oder höher, um allgemeine Stunden in einer Arbeitszeittabelle zu erfassen</li>
@@ -152,7 +154,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **** Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]

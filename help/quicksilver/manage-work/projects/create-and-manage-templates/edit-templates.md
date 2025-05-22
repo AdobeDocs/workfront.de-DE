@@ -6,9 +6,9 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 2%
 
 ---
@@ -1092,7 +1092,7 @@ Das Hinzufügen der folgenden Elemente zu einer Vorlage entspricht dem Hinzufüg
 * Dokumente
 * Risiken
 
-  Weitere Informationen zum Erstellen von Risiken finden Sie [ Abschnitt „Erstellen und Bearbeiten von Risiken ](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) Projekten“ im Artikel [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Weitere Informationen zum Erstellen von Risiken finden Sie unter [Erstellen und Bearbeiten von Risiken in Projekten](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Genehmigungsprozesse
 

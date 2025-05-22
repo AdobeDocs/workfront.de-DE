@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ So verwalten Sie eine Zeitleisten -Ansicht:
       * Jahr
       * Quartal
       * Monat
-1. Klicken Sie **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen <!--check to see if they updated the name of the setting here-->
-
-   Oder
-
-   Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
-
-   Standardmäßig werden Datensätze in der kompakten Ansicht angezeigt.
+1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
+1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. <span class="preview">Die Option **Standard** ist die Standardoption.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
@@ -353,7 +348,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
-   1. <span class="preview">(Optional) Wenn Sie die Option Aufschlüsselung verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden in der Zeitleiste angezeigten verbundenen Datensatz. </span>
+1. <span class="preview">(Optional) Wenn Sie die Option Aufschlüsselung verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden in der Zeitleiste angezeigten verbundenen Datensatz. </span>
 
 1. Klicken Sie auf **Speichern**.
 
@@ -389,7 +384,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. (Bedingt) Wenn Sie die Zeitleisten -Ansicht im Standardmodus anzeigen, klicken Sie auf **Aufschlüsselung**.
+1. Klicken Sie in den ****- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
    >
    >Sowohl Produkte als auch Programme müssen mit den Kampagnen verbunden sein, damit sie als Optionen für die Aufschlüsselungsoption angezeigt werden. Sie können sie der Aufschlüsselung in beliebiger Reihenfolge hinzufügen.
 
+1. <span class="preview">(Bedingt) Wenn Sie die Zeitleiste im kompakten Modus anzeigen, klicken Sie auf **Ansicht wechseln**. Die Aufschlüsselung ist im Modus **Kompakt** nicht sichtbar</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Wählen Sie **Nicht mehr anzeigen** in der **Zur Standardansicht wechseln?** vor dem Wechsel der Ansicht. </span>
+   >
+   ><span class="preview">Diese Einstellung wird nur für den aktuellen Browser gespeichert. Wenn Sie Browser oder Computer wechseln, müssen Sie diese Einstellung erneut auswählen.</span>
+   >
+   >Sie können nicht in den Komprimierungsmodus zurückkehren, nachdem Sie die Ansicht auf „Standard“ umgeschaltet und verbundene Datensätze in der Ansicht angezeigt haben.
 1. (Optional) Wiederholen Sie die obigen Schritte, um weitere verbundene Datensätze hinzuzufügen.
 
 

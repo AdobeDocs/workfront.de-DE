@@ -6,7 +6,7 @@ description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemei
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben und Projektgrenzen überschreiten.
 Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren. Programme nutzen in der Regel dieselben Ressourcen wie andere Programme innerhalb desselben Portfolios.
@@ -137,7 +137,7 @@ Sie können die folgenden Informationen angeben:
       <td> <p>Geben Sie den Namen des Benutzers ein, der als Programm-Manager fungieren soll, und klicken Sie auf den Namen des Benutzers, wenn er in der Dropdown-Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Program Owner]. </p> <p>Tipp: Sie können den Programm-Manager auch in der Kopfzeile des Programms aktualisieren. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL -Gruppe] </td> 
+      <td role="rowheader">[!UICONTROL-Gruppe] </td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Programms ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
@@ -217,7 +217,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Bedingung für [!UICONTROL Active Projects]</td> 
-   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL -Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
+   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL-Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
   </tr> 
  </tbody> 
 </table>
