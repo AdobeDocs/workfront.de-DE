@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3938'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 
 ## Admin und Setup
+
+### Neues Erscheinungsbild der Felder „Neue Scorecard“ und „Scorecard kopieren“
+
+**Vorschau-Version: 22. Mai 2025 ; Produktions-Version: 29. Mai 2025**
+
+Das Erscheinungsbild der Felder „Neue Scorecard“ und „Scorecard kopieren“ wurde entsprechend dem Design in anderen Bereichen des Programms aktualisiert. Sie können das aktualisierte Design beim Erstellen oder Kopieren einer Scorecard im Bereich Setup von Workfront anzeigen.
+
+Weitere Informationen finden Sie unter [Erstellen einer Scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Aktualisierung der Benutzeroberfläche für die kürzlich wiederhergestellten Elemente einer Gruppe
 
@@ -82,7 +90,42 @@ Weitere Informationen finden Sie unter [Suche [!DNL Adobe Workfront]](/help/quic
 
 Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront-Konto zu gewähren, mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
-## Berichte und Dashboard
+## Projekte
+
+## Look-and-Feel-Aktualisierungen für die Risikofelder „Neu“ und „Bearbeiten“ für ein Projekt oder eine Vorlage
+
+**Vorschau-Version: 22. Mai 2025; Produktionsversion: 29. Mai 2025**
+
+Das Erscheinungsbild der Felder Neues Risiko und Risiko bearbeiten wurde aktualisiert, wenn Risiken hinzugefügt oder für ein Projekt oder eine Vorlage im Abschnitt Risiken bearbeitet wurden. Das Design der Boxen entspricht nun anderen Bereichen von Workfront.
+
+Weitere Informationen finden Sie [Erstellen und Bearbeiten von Risiken in Projekten](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Änderungen des Erscheinungsbilds im Feld Vorlage kopieren
+
+**Vorschau-Version: 22. Mai 2025; Produktionsversion: 22. Mai 2025**
+
+Das Erscheinungsbild des Felds Vorlage kopieren wurde an das Design anderer Bereiche von Workfront angepasst.
+
+Weitere Informationen finden Sie unter [Kopieren einer Projektvorlage](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Look-and-Feel-Aktualisierungen beim Hinzufügen von Objekten zu Programmen und Portfolios
+
+**Vorschau-Version: 22. Mai 2025; Produktionsversion: 29. Mai 2025**
+
+Die Benutzeroberfläche für die Felder zum Hinzufügen wurde aktualisiert, wenn Folgendes durchgeführt wird:
+
+* Hinzufügen von Projekten zu Programmen
+* Hinzufügen von Projekten zu Portfolios
+* Hinzufügen von Programmen zu Portfolios
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Hinzufügen eines vorhandenen Programms zu einem Portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Projekte zu einem Portfolio hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Ein Projekt zu einem Programm hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+
+## Berichte und Dashboards
 
 ### URLs mit /title oder /qstile werden in Workfront-Dashboards nicht mehr unterstützt
 
@@ -151,7 +194,15 @@ Wir haben die Lizenzvertragsseite mit einem moderneren Design aktualisiert, das 
 
 +++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Administration- und Setup-Benutzeroberfläche anzuzeigen.
 
-### Aktualisierungen der Benutzeroberfläche im Bereich „Ressourcenverwaltung“ im Setup
+### Aktualisierungen der Benutzeroberfläche für kürzlich wiederhergestellte Elemente
+
+**Vorschau-Version: 23. April 2025; Produktions-Version: 23. April 2025**
+
+Wir haben das Erscheinungsbild der kürzlich wiederhergestellten Elemente im Bereich Setup aktualisiert, um sie an das Design anderer Bereiche von Workfront anzupassen. Für kürzlich wiederhergestellte Projekte, Aufgaben, Anfragen, Dokumente oder Vorlagen hat sich keine Funktionalität geändert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Papierkorb > Kürzlich wiederhergestellt.
+
+Weitere Informationen finden Sie unter [Wiederhergestellte Elemente anzeigen](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Aktualisierungen der Benutzeroberfläche im Bereich Ressourcenverwaltung im Setup
 
 **Vorschau-Version: 17. April 2025; Beginn der Woche vom 17. April 2025**
 
@@ -159,7 +210,7 @@ Das Erscheinungsbild der Voreinstellungen für das Ressourcenmanagement im Berei
 
 Weitere Informationen finden Sie [Konfigurieren der Voreinstellungen für das Ressourcen-Management](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Aktualisierung der Benutzeroberfläche für eine Meilensteinpfadliste im Setup
+### Aktualisierung der Benutzeroberfläche für eine Meilensteinpfadliste im Setup
 
 **Vorschau-Version: 6. März 2025; ab der Woche vom 10. April 2025**
 
@@ -167,7 +218,7 @@ Das Erscheinungsbild der Liste Meilensteinpfad im Bereich Setup wurde entspreche
 
 Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Aktualisierung der Benutzeroberfläche für das Feld „Risikotyp bearbeiten“ im Setup
+### Aktualisierung der Benutzeroberfläche für das Feld „Risikotyp bearbeiten“ im Setup
 
 **Vorschau-Version: 27. März 2025; ab der Woche vom 10. April 2025**
 
@@ -483,16 +534,6 @@ Diese Aktualisierung beinhaltet visuelle Änderungen an den Listen und Symbollei
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Aktualisierungen der Benutzeroberfläche für kürzlich wiederhergestellte Elemente
-
-**Vorschau-Version: 23. April 2025; Produktions-Version: 23. April 2025**
-
-Wir haben das Erscheinungsbild der kürzlich wiederhergestellten Elemente im Bereich Setup aktualisiert, um sie an das Design anderer Bereiche von Workfront anzupassen. Für kürzlich wiederhergestellte Projekte, Aufgaben, Anfragen, Dokumente oder Vorlagen hat sich keine Funktionalität geändert.
-
-Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Papierkorb > Kürzlich wiederhergestellt.
-
-Weitere Informationen finden Sie unter [Wiederhergestellte Elemente anzeigen](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
 ### Aktualisierungen der Benutzeroberfläche für das Feld „Firma löschen“ in einem Unternehmensbericht
 
 **Vorschau-Version: 17. April 2025; Produktions-Version: 17. April 2025**
@@ -620,3 +661,8 @@ Dieses Update enthält die folgenden Änderungen:
 * Die Löschaktion wurde durch eine rote Anzeige hervorgehoben.
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+
+
+

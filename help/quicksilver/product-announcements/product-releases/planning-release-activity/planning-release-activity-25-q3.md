@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Neues Erlebnis beim Aufschlüsseln von Datensätzen im Komprimierungsmodus in der Zeitleisten -Ansicht
+
+>[!NOTE]
+>
+>* Vorschau: 22. Mai 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Wir haben das Erlebnis beim Aufschlüsseln von Datensätzen in der Zeitleisten -Ansicht geändert, und die kompakte Ansicht wurde angewendet.
+Bei der neuen Aktualisierung werden Sie beim Definieren der Aufschlüsselungsobjekte während der Anzeige der Zeitleiste im Komprimierungsmodus aufgefordert, nach Abschluss der Konfiguration der Aufschlüsselungsbedingungen zur Standardansicht zu wechseln.
+
+Vor dieser Verbesserung war es nicht möglich, die Aufschlüsselungsbedingungen zu definieren, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wurde.
+
+Bei diesem Upgrade ist die Option Standard die Standardoption. Zuvor war der Kompaktmodus der Standardmodus.
+
+Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Aktualisieren Sie bei Verwendung der Option Aufschlüsselung die Einstellungen der Zeitleisten-Ansicht, um das Erscheinungsbild der Balken der verbundenen Datensätze zu definieren
 
