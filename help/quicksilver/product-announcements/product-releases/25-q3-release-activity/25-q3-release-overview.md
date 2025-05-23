@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '992'
 ht-degree: 3%
 
 ---
@@ -73,9 +73,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             für Anwendungen von Drittanbietern, die auf Google Drive zugreifen, sodass Anwendungen ein Einverständnismodell pro Benutzer anwenden müssen. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Siehe <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Konfigurieren von Dokumentenintegrationen</a>
              für weitere Informationen. </p>
         </td>
-        <td>25. Mai 2023</td>
-        <td>25. Mai 2023</td>
-        <td>25. Mai 2023</td>
+        <td>14. Mai 2025</td>
+        <td>14. Mai 2025</td>
+        <td>14. Mai 2025</td>
     </tr>  
     <tr>
         <td>
@@ -115,6 +115,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
 </table> 
 
 -->
+
+### Projektverbesserungen
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mehr Transparenz bei der Verwendung des KI-Assistenten für Projekte, Aufgaben und Probleme</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Projekten, -Aufgaben und -Problemen findet, haben wir diese Informationen zur Frageantwort hinzugefügt. Jetzt fügt der KI-Assistent seine Suchinformationen in die Ausgabe ein. Sie können diese Informationen verwenden, um zu überprüfen, ob der KI-Assistent die von Ihnen gestellte Frage korrekt identifiziert hat, und um den Kontext der Antwort zu verstehen.</p>
+        </td>
+        <td>Dienstag, 19. Mai 2025</td>
+        <td>Dienstag, 19. Mai 2025</td>
+        <td>Dienstag, 19. Mai 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+
 
 ### Verbesserungen beim Reporting
 
@@ -180,6 +205,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mehr Transparenz bei der Verwendung des KI-Assistenten</a></p>
+                        <p>Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Projekten, -Aufgaben und -Problemen findet, haben wir diese Informationen zur Frageantwort hinzugefügt. Jetzt fügt der KI-Assistent seine Suchinformationen in die Ausgabe ein. Sie können diese Informationen verwenden, um zu überprüfen, ob der KI-Assistent die von Ihnen gestellte Frage korrekt identifiziert hat, und um den Kontext der Antwort zu verstehen. </p>
+                    </td>
+                    <td><p><b>Verfügbar zu diesen Daten:</b></p>
+                        <ul>
+                            <li>
+                                <p>Vorschau der Version: Im gesamten Zeitrahmen der Version für das dritte Quartal 2025<br /></p>
+                            </li>
+                            <li>
+                                <p>Produktionsfreigabe: Mindestens 2 Wochen nach der Freigabe für die Vorschau (sofern nicht anders angegeben)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Veröffentlichungstermine</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Updates im dritten Quartal 2025</a></p>
                         <p>Geringfügige Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms werden innerhalb des Zeitrahmens des dritten Quartals 2025 vorgenommen. </p>
                     </td>
@@ -211,7 +262,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -233,7 +284,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
