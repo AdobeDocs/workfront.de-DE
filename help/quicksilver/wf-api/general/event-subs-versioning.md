@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -255,4 +255,6 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
 
 Workfront Fusion verwendet Ereignisabonnements, um auf Änderungen in Szenarien mit Workfront-Triggern zu achten. Sie können die Ereignisabonnementversion, die Fusion direkt in einem Szenario verwendet, mithilfe des Payload-Versionsmoduls Workfront > Ereignisse aktualisieren aktualisieren .
 
-Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
+Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
+
+Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarien während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarien während des Ereignissabonnement-Upgrades V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
