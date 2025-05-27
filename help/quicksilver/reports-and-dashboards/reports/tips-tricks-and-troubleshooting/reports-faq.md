@@ -7,14 +7,16 @@ description: Häufig gestellte Fragen zu Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # Häufig gestellte Fragen zu Berichten
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 Im Folgenden finden Sie häufig gestellte Fragen zu Berichten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,39 +37,51 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan, Arbeit</p> </td> 
+   <td><p>Neu: Standard</p> 
+   <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Warum zeigt meine benutzerdefinierte Berechnung für eine Stundendifferenz nicht das richtige Ergebnis in einer Spalte an?
 
-In einem Projektbericht habe ich eine Berechnung, die die tatsächlichen Stunden (2) von den geplanten Stunden (4) abzieht. Das Ergebnis, das ich erhalte, ist 120, obwohl es 2 sein sollte.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+In einem Projektbericht habe ich eine Berechnung, die die tatsächlichen Stunden von den geplanten Stunden abzieht. Das Ergebnis, das ich erhalte, ist falsch.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 Meine Berechnung lautet:
-<pre>valueExpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### Antwort
 
-Felder, die in Workfront Stunden verwenden, werden in Minuten gespeichert. Wenn das Feld in einer Berechnung verwendet wird, wird das Ergebnis in Minuten angezeigt. Um das Ergebnis in Stunden zu erhalten, müssen Sie das Ergebnis der Berechnung durch 60 teilen.
+Die meisten Felder, die in Workfront Stunden verwenden, werden in Minuten gespeichert. Wenn Sie diese Felder in einer Berechnung verwenden, liegt das Ergebnis meistens in Minuten. Um das Ergebnis in Stunden zu erhalten, müssen Sie das Ergebnis der Berechnung oder des Feldes, auf das Sie verweisen, durch 60 teilen.
+
+Beispielsweise werden „Geplante Stunden“ in Minuten gespeichert, während „Tatsächliche Stunden“ in Stunden gespeichert werden. Daher müssen Sie „Geplante Stunden“ von Minuten in Stunden konvertieren.
 
 Die korrekte Berechnung lautet:
 
-<pre>valueExpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## Warum wird der Wert der einzelnen Diagrammelemente in einem Bericht nicht im Diagramm angezeigt?
 
@@ -175,7 +191,7 @@ Wenn Sie berechtigt sind, einen Bericht anzuzeigen oder zu verwalten, können Si
 
 ### Antwort
 
-Manchmal ist der Eigentümer des Berichts auch der im Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** im Bericht angegebene Benutzer. Wenn der **Diesen Bericht ausführen mit den Zugriffsrechten von:** Benutzer deaktiviert ist, wird der Bericht nicht mehr für Benutzer angezeigt, die den Bericht für sie freigegeben haben. In diesem Fall können Sie den Bericht erneut zugänglich machen, indem Sie die **Diesen Bericht ausführen mit den Zugriffsrechten von:** leer lassen oder einen aktiven Benutzer in das Feld eingeben.
+Manchmal ist der Eigentümer des Berichts auch der im Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** im Bericht angegebene Benutzer. Wenn der **Diesen Bericht ausführen mit den Zugriffsrechten von:** Benutzer deaktiviert ist, wird der Bericht nicht mehr für Benutzer angezeigt, die den Bericht für sie freigegeben haben. In diesem Fall können Sie den Bericht erneut zugänglich machen, indem Sie die **Diesen Bericht ausführen mit den Zugriffsrechten von:** leer lassen oder einen aktiven Benutzer in das Feld eingeben.
 
 Weitere Informationen zum Feld **Diesen Bericht mit Zugriffsrechten von:** ausführen“ finden Sie unter [Ausführen und Bereitstellen eines Berichts mit Zugriffsrechten eines anderen Benutzers](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Informationen zur Identifizierung aller Berichte, die von deaktivierten Benutzern erstellt werden, finden Sie unter [Erstellen eines Berichts zu Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 

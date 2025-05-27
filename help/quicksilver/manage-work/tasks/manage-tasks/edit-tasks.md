@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 4%
 
 ---
@@ -622,12 +622,14 @@ Die folgenden Felder sind standardmäßig in der Aufgabenkopfzeile enthalten:
 
 * Name der Aufgabe
 * Prozent abgeschlossen
+
+  Weitere Informationen finden Sie unter [Anzeigen und Aktualisieren des Prozentsatzes für abgeschlossene Aufgaben](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Arbeitsaufträge
 * Geplantes Abschlussdatum
 
   >[!CAUTION]
   >
-  >Einige Aufgabenbeschränkungen und andere Abhängigkeiten können die Bearbeitung dieses Felds verhindern. Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbeschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Einige Aufgabenbeschränkungen und andere Abhängigkeiten können verhindern, dass Sie das geplante Abschlussdatum einer Aufgabe bearbeiten. Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbeschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Treffen von Genehmigungsentscheidungen, wenn Sie in einem aktuellen Genehmigungsprozess als genehmigende Person festgelegt sind

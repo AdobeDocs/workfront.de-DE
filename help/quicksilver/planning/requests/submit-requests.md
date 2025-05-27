@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
 source-wordcount: '1914'
 ht-degree: 0%
@@ -220,13 +220,44 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
      >
      >In der Bestätigungs- oder Validierungsbenachrichtigung per E-Mail ist ein Link zur Anfrage vorhanden.
 
-   1. (Optional) Klicken Sie in **Bestätigungsmeldung auf** Anforderung anzeigen“, um die Anforderung zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
+1. (Optional) Klicken Sie in **Bestätigungsmeldung auf** Anforderung anzeigen“, um die Anforderung zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
 
-1. (Optional) Klicken Sie auf die **Planung** im Bereich Anfragen , um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
+1. (Optional) Klicken Sie auf die **Planung** im Bereich **Anfragen**, um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
 
    Die Seite mit den Anfragedetails wird geöffnet.
 
    ![Seite mit Anforderungsdetails](assets/request-details-page.png)
+
+   <!--replace the step directly above with this when we release filters and columns: 
+      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
+         All the requests you have access to view that were submitted to a Planning request form display in a list. 
+      1. (Optional) Do any of the following:
+         <div class="preview">
+         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
+                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
+            You can filter by any of the following fields:  
+            * **Workspace**: The workspace the request form is associated with.
+            * **Record type**: The record type the request form is associated with.
+            * **Entry date**: The date when the request was submitted.
+            * **Request form**: The name of the request form used to submit the request.
+            * **Status**: The status of the request.
+            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
+            You can have multiple filters joined by either And or Or.  
+            The request list is filtered automatically, as you add the filter conditions. 
+         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
+            >[!TIP]
+            >
+            >You cannot add any more columns. 
+            >
+            >You cannot display the **Subject** field.
+                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+      1. Click the name of a request in the list. 
+   The request details page opens. 
+   ![Request details page](assets/request-details-page.png)             
+      </div>
+      -->
+
 
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anforderung genehmigt wurde, klicken Sie auf den Namen der Anforderung und anschließend auf den Namen des Datensatzes **Feld &quot;**&quot;.
 

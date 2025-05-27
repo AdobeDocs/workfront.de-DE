@@ -5,9 +5,9 @@ description: Sie können das Bedienfeld Zusammenfassung verwenden, um Arbeitsele
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '986'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Ihr Workfront- oder Gruppen-Administrator kann die Bereiche und Felder ändern, 
 
 
 
-In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienfeld [!UICONTROL Zusammenfassung“ finden &#x200B;] verwenden können:
+In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienfeld [!UICONTROL Zusammenfassung“ finden ] verwenden können:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -74,7 +74,7 @@ In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienf
    <td>Probleme im Bereich [!UICONTROL Zugewiesene Arbeit] des [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Probleme im Abschnitt [!UICONTROL Submitted] im Bereich [!UICONTROL -Anforderungen]</td> 
+   <td>Probleme im Abschnitt [!UICONTROL Submitted] im Bereich [!UICONTROL-Anforderungen]</td> 
   </tr> 
 </tr> 
    <tr> 
@@ -85,10 +85,10 @@ In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienf
    <td><b>Dokumente</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Bereich [!UICONTROL -Dokumente]</td> 
+   <td>Bereich [!UICONTROL-Dokumente]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL -Dokumente]-Abschnitt eines beliebigen Objekts (Projekt, Aufgabe, Problem, Programm, Portfolio, Vorlage, Vorlagenaufgabe, Benutzer)</td> 
+   <td>[!UICONTROL-Dokumente]-Abschnitt eines beliebigen Objekts (Projekt, Aufgabe, Problem, Programm, Portfolio, Vorlage, Vorlagenaufgabe, Benutzer)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: Mitwirkender oder höher</p>
    Oder
-   <p>Aktuell:[!UICONTROL -Anfrage] oder höher</p> </td> 
+   <p>Aktuell:[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
@@ -151,7 +151,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    ![Bedienfeld Zusammenfassung](assets/summary-panel-for-task-new-comments.png)
 
-1. (Optional) Führen Sie einen [!UICONTROL &#x200B; folgenden Schritte aus] um das Bedienfeld „Zusammenfassung“ zu schließen:
+1. (Optional) Führen Sie einen [!UICONTROL  folgenden Schritte aus] um das Bedienfeld „Zusammenfassung“ zu schließen:
 
    * Klicken Sie in einer Aufgaben- oder Problemliste auf das Symbol **[!UICONTROL Zusammenfassung öffnen]** ![](assets/summary-panel-icon.png)
 
@@ -159,7 +159,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds [!UICONTROL Zusammenfassung].
 
-   * Klicken Sie [!UICONTROL &#x200B; Abschnitt &#x200B;]Gesendet“ im Bereich [!UICONTROL Anfragen] auf das Symbol **[!UICONTROL Zusammenfassung schließen]** ![](assets/close-summary-with-text-nwe.png)
+   * Klicken Sie [!UICONTROL  Abschnitt ]Gesendet“ im Bereich [!UICONTROL Anfragen] auf das Symbol **[!UICONTROL Zusammenfassung schließen]** ![](assets/close-summary-with-text-nwe.png)
 
      Oder
 
@@ -167,7 +167,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## [!UICONTROL Prozent abgeschlossen]
 
-Verwenden Sie die Fortschrittsleiste oben in der [!UICONTROL Zusammenfassung], um den abgeschlossenen Prozentsatz für die ausgewählte Aufgabe oder das ausgewählte Problem zu aktualisieren. Geben Sie eine Zahl ein oder ziehen Sie den Balken auf den richtigen Prozentsatz.
+Verwenden Sie das blaue Fortschrittsblase oben in der [!UICONTROL Zusammenfassung], um den abgeschlossenen Prozentsatz für die ausgewählte Aufgabe oder das ausgewählte Problem zu aktualisieren. Geben Sie eine Zahl ein, oder ziehen Sie die Blase auf den richtigen Prozentsatz.
+
+Wenn Sie den Kreis in das Bedienfeld Zusammenfassung ziehen, wird der Bereich „Prozent abgeschlossen“ in Schritten von einem Punkt aktualisiert. Es ist nicht möglich, eine Dezimalzahl einzugeben.
 
 ![Prozent abgeschlossen im Bedienfeld Zusammenfassung](assets/summary-overview-percent-complete.png)
 
@@ -203,9 +205,9 @@ Wenn Sie der Aufgabe keine Teilaufgaben hinzugefügt haben, klicken Sie auf **[!
 
 Verwenden Sie den [!UICONTROL Stunden] des Abschnitts [!UICONTROL Zusammenfassung], um Stunden für die ausgewählte Aufgabe oder das ausgewählte Problem zu protokollieren. Klicken Sie **[!UICONTROL Zeit erfassen]** und geben Sie Ihre Stunden ein. Um direkt zur Registerkarte „Stunden“ für die Aufgabe oder das Problem zu wechseln, klicken Sie auf den **[!UICONTROL Stunden]** Titel.
 
-Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die protokollierten Stunden an. Andere Benutzende haben in der [!UICONTROL Zusammenfassung) je &#x200B;] Zeit, in der sie sich bei der Aufgabe anmelden, unterschiedliche Stundensummen.
+Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die protokollierten Stunden an. Andere Benutzende haben in der [!UICONTROL Zusammenfassung) je ] Zeit, in der sie sich bei der Aufgabe anmelden, unterschiedliche Stundensummen.
 
-Wenn für die Aufgabe oder  keine geplanten Stunden“ vorhanden sind und Sie die Zeit protokolliert haben, wird die Stundenleiste rot angezeigt.
+Wenn für die Aufgabe oder ] keine geplanten [!UICONTROL Stunden“ vorhanden sind und Sie die Zeit protokolliert haben, wird die Stundenleiste rot angezeigt.
 
 ![Abschnitt „Stunden“ im Bedienfeld „Zusammenfassung“](assets/summary-hours-section.png)
 

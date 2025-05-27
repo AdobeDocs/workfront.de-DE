@@ -6,16 +6,20 @@ description: Sie können Probleme oder Anfragen in Adobe Workfront löschen, wen
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
 
 # Probleme löschen
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
 
 Sie können Probleme oder Anfragen in Adobe Workfront löschen, wenn Sie dazu über die erforderlichen Zugriffsrechte und Berechtigungen verfügen.
 
@@ -24,6 +28,8 @@ Sie können Probleme oder Anfragen in Adobe Workfront löschen, wenn Sie dazu ü
 >„Probleme“ und „Anfragen“ werden in Workfront synonym verwendet. Sie können Probleme sowohl bei Projekten als auch bei Aufgaben aufzeichnen, um unvorhergesehene Arbeiten anzuzeigen, die bearbeitet werden müssen. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anfrage-Warteschlange bezeichnet wird.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,30 +49,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Anfragen bearbeiten</p> <p>Anzeigen oder Hochladen des Zugriffs auf Projekte und Aufgaben</p>  <p>Informationen zum Zugriff auf Probleme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a>.  </p> </td> 
+   <td> <p>Zugriff auf Anfragen bearbeiten</p> <p>Anzeigen oder Hochladen des Zugriffs auf Projekte und Aufgaben</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Mitwirken an oder höhere Berechtigungen für das Projekt oder die Aufgabe</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Mitwirken an oder höhere Berechtigungen für das Projekt oder die Aufgabe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zum Löschen von Problemen
 
-* Ihr Workfront-Administrator oder ein Gruppenadministrator muss das Löschen von Anfragen in einem Projekt mit dem Status „Abgeschlossen“ in Ihrem Bereich Projektvoreinstellungen aktivieren. Informationen zum Einrichten von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Ihr Workfront-Administrator oder ein Gruppenadministrator muss das Löschen von Anfragen in einem Projekt mit dem Status „Abgeschlossen“ in Ihrem Bereich Projektvoreinstellungen aktivieren.
+
+  Informationen zum Einrichten von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Wenn das Problem über protokollierte Stunden verfügt, muss der Workfront-Administrator oder ein Gruppenadministrator das Löschen dieser Probleme zulassen, indem er die Voreinstellungen für Aufgaben und Probleme in Ihrer Workfront-Instanz konfiguriert. Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, bei denen Probleme mit protokollierten Stunden bestehen.
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
-  -->
-
   Weitere Informationen zum Aktivieren des Löschens von Problemen, bei denen Stunden protokolliert werden, finden Sie im Abschnitt „Löschen“ in [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 
 ## Die Auswirkungen des Löschens von Problemen
 
@@ -101,20 +106,20 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
 
 ## Probleme löschen
 
-* [Gleichzeitiges Löschen mehrerer Probleme in einem Projekt](#delete-multiple-issues-in-a-project-simultaneously)
-* [Einzelnes Problem löschen](#delete-a-single-issue)
-
 ### Gleichzeitiges Löschen mehrerer Probleme in einem Projekt  {#delete-multiple-issues-in-a-project-simultaneously}
 
 1. Navigieren Sie zum **Hauptmenü**.
 1. Klicken Sie auf **Projekte**.
 1. Klicken Sie auf den Projektnamen, der die Probleme enthält, die Sie löschen möchten.
 1. Klicken Sie **linken** auf „Probleme“.
-1. Wählen Sie ein Problem aus und klicken Sie dann oben in **Liste** Symbol ![Löschen](assets/delete.png) .
 
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen**.\
+   Rechts wird eine Liste der mit dem ausgewählten Projekt verknüpften Probleme angezeigt.
+1. Wählen Sie ein oder mehrere Probleme in der Liste aus und klicken Sie dann oben in **Liste auf** Löschen![Symbol &quot;](assets/delete.png)&quot;.
+
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja,**<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+
    Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
-   Weitere Informationen zu den Zugriffsrechten, die zum Löschen eines Problems erforderlich sind, finden Sie unter [Probleme löschen](#access-and-permissions-needed).
+   Weitere Informationen zu den Zugriffsrechten und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie im Abschnitt [Überlegungen zum Löschen von Problemen](#considerations-for-deleting-issues) in diesem Artikel.
 
 ### Einzelnes Problem löschen {#delete-a-single-issue}
 
@@ -123,7 +128,7 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
 1. Klicken Sie auf den Projektnamen, der das Problem enthält, das Sie löschen möchten.
 1. Klicken Sie **linken** auf „Probleme“.
 
-   ![Probleme-Symbol](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Abschnitt „Probleme“ im linken Bedienfeld](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Klicken Sie auf den Namen des Problems, das Sie löschen möchten.
 1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Problemnamen.
@@ -131,11 +136,13 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
    ![Menü „Problem Mehr“](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicken Sie **Problem löschen**.
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen**.
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja,**<!--change this to this button instead: <span class="preview">*Delete*</span>-->
 
    Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
-   Weitere Informationen zu den Zugriffsrechten, die zum Löschen eines Problems erforderlich sind, finden Sie unter [Probleme löschen](#access-and-permissions-needed).
+   Weitere Informationen zu den Zugriffsrechten und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie im Abschnitt [Überlegungen zum Löschen von Problemen](#considerations-for-deleting-issues) in diesem Artikel.
 
 ## Gelöschte Anfragen wiederherstellen
 
-Ein Workfront- oder Gruppen-Administrator kann Probleme innerhalb von 30 Tagen nach dem Löschen wiederherstellen. Weitere Informationen zum Wiederherstellen von Elementen in Workfront finden Sie unter [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Ein Workfront- oder Gruppen-Administrator kann Probleme innerhalb von 30 Tagen nach dem Löschen wiederherstellen.
+
+Weitere Informationen zum Wiederherstellen von Elementen in Workfront finden Sie unter [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

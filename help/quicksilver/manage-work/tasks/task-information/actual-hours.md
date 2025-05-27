@@ -7,9 +7,9 @@ description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
    <p>Neu: Standard<p>
    <p>Oder</p>
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Aufgaben, Projekte oder Probleme anzeigen oder erhöhen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Zugriff auf Aufgaben, Projekte oder Probleme anzeigen oder erhöhen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## Tatsächliche Stunden suchen
 
 Für Aufgaben, Projekte und Probleme ist es identisch, den Wert für Tatsächliche Stunden für ein Element zu finden.
-
-Die Informationen zu den tatsächlichen Stunden für Aufgaben finden Sie an den folgenden Speicherorten:
-
-* [Tatsächliche Stunden im Abschnitt „Details“](#actual-hours-in-the-details-section)
-* [Tatsächliche Stunden im Abschnitt „Stunden“](#actual-hours-in-the-hours-section)
-* [Tatsächliche Stunden in Berichten](#actual-hours-in-reports)
-* [Tatsächliche Stunden in Ressourcen-Management-Tools](#actual-hours-in-resource-management-tools)
 
 ### Tatsächliche Stunden im Abschnitt „Details“ {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Wenn Sie den Fortschritt der Arbeit sehen möchten, die Ihre Benutzerinnen und B
 * Der Ressourcenplaner.
 
   Weitere Informationen finden Sie unter [Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+
+
+### Tatsächliche Stunden in der Workfront-Datenbank, der API und benutzerdefinierte Daten
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+Die meisten Workfront-Felder, in denen Stunden gespeichert werden, werden in Minuten in der Workfront-Datenbank gespeichert. Beispielsweise wird der Name des Felds „Geplante Stunden“ für eine Aufgabe in der Workfront-Datenbank `workRequired` und in Minuten gespeichert.
+
+Beim Zugriff auf diese Felder in API-Aufrufen oder in berechneten benutzerdefinierten Feldern oder Spalten muss die Konvertierung von Minuten in Stunden berücksichtigt werden.
+
+Die tatsächlichen Stunden werden jedoch in der Workfront-Datenbank in Stunden gespeichert.
+
+Sie müssen in API-Aufrufen oder berechneten benutzerdefinierten Feldern oder Spalten in Workfront den folgenden Wert-Feldnamen für Tatsächliche Stunden verwenden: `actualWorkRequiredDouble`.
+
+Informationen zur Verwendung der tatsächlichen Stunden in berechneten Spalten oder Feldern finden Sie unter [Häufig gestellte Fragen zum Bericht](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Zeit erfassen
 
