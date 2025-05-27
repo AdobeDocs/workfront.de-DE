@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 
 ## Admin und Setup
+
+### Aktualisierung der Benutzeroberfläche für die Registerkarte „Zugriffsprotokoll“ im Setup
+
+**Vorschau-Version: 21. Mai 2025; Produktionsversion: 29. Mai 2025**
+
+Wir haben die Registerkarte „Zugriffsprotokoll“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Anmelden als > Wählen Sie oben im Bildschirm „Zugriffsprotokoll“.
 
 ### Neues Erscheinungsbild der Felder „Neue Scorecard“ und „Scorecard kopieren“
 
@@ -66,7 +74,7 @@ Mit diesem Update wurden keine Funktionsänderungen eingeführt.
 
 ### Dokument für externe E-Mail-Adressen freigeben
 
-**Vorschau-Version: 15. Mai 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 15. Mai 2025; Produktionsversion: 21. Mai 2025**
 
 Das Dialogfeld Freigeben wurde aktualisiert, damit Benutzer Dokumente über eine E-Mail-Adresse für externe Benutzer freigeben können. Diese Funktion war aufgrund der Modernisierungsarbeiten an der Benutzeroberfläche vorübergehend nicht verfügbar.
 
