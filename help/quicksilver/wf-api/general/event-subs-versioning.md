@@ -255,6 +255,6 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
 
 Workfront Fusion verwendet Ereignisabonnements, um auf Änderungen in Szenarien mit Workfront-Triggern zu achten. Sie können die Ereignisabonnementversion, die Fusion direkt in einem Szenario verwendet, mithilfe des Payload-Versionsmoduls Workfront > Ereignisse aktualisieren aktualisieren .
 
-Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
+Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
 
-Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarien während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarien während des Ereignissabonnement-Upgrades V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
+Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarien während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarien während des Ereignissabonnement-Upgrades V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=de).
