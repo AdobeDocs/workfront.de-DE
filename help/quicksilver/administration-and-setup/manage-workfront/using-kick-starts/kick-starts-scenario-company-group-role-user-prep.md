@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ In der folgenden Tabelle werden die zu importierenden Unternehmen, Gruppen und R
   <tr> 
    <td valign="top"> <p>ACME, CO</p> <p>Workfront, Inc.</p> <p><em>Ihre Firma</em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Finanzielle Details</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Verkauf</p> </td> 
-   <td valign="top"> <p valign="top">Wirtschaftsanalytiker</p> <p valign="top">Kreativ-Controller</p> <p valign="top">Entwerfende Person</p> <p valign="top">Ressourcenmanager</p> <p valign="top">Scrum Master</p> <p valign="top">technischer Redakteur</p> <p valign="top">Web-Entwickler</p> </td> 
+   <td valign="top"> <p valign="top">Wirtschaftsanalytiker</p> <p valign="top">Controller-Creative</p> <p valign="top">Entwerfende Person</p> <p valign="top">Ressourcenmanager</p> <p valign="top">Scrum Master</p> <p valign="top">technischer Redakteur</p> <p valign="top">Web-Entwickler</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,3 +309,13 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 1. Importieren Sie die Excel-Datei.
 
    Befolgen Sie die Anweisungen unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Benutzende, die in Workfront importiert wurden, werden im Status Deaktiviert und Ausstehende Genehmigung erstellt.
+> 
+>Wenn Ihre Organisation in die Adobe Admin Console migriert wurde und ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlassen kann, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
+>
+>Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.

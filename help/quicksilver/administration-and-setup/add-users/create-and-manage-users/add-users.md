@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -126,9 +126,9 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
    >
    >* Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird das Feld Nur &lt;SSO-Konfiguration>-Authentifizierung zulassen ausgeblendet, wenn Sie die E-Mail-Einladung deaktivieren. Das Feld Federation-ID oder &lt;SSO Configuration> Benutzername bleibt sichtbar.
    >
-   >* Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
+   * Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
    >
-   >Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+   Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
 
 1. Klicken Sie **Diese Person hinzufügen**.
 
@@ -138,7 +138,16 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
 
    >[!NOTE]
    >
-   >Wenn Sie Gruppenadministrator sind und Benutzer zu einer Organisation hinzufügen, die in die Adobe Admin Console integriert wurde, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt. Ein Workfront-Administrator muss den Benutzer genehmigen, wodurch der Benutzer in Workfront aktiviert und zur Adobe Admin Console hinzugefügt wird.
+   * Wenn Sie Gruppenadministrator sind und Benutzer zu einer Organisation hinzufügen, die in die Adobe Admin Console integriert wurde, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt.
+   > 
+   * Wenn der Benutzer den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlässt und durch eine Bildschirmaktualisierung das Abzeichen Ausstehende Genehmigung nicht entfernt wird, können Sie den Benutzer manuell genehmigen.
+   >
+   1. Navigieren Sie zu Einstellungen > Benutzer.
+   1. Wählen Sie den oder die Benutzer in der Benutzerliste aus.
+   1. Klicken Sie auf das Dreipunkt-Menü in der Listenüberschrift.
+   1. Wählen Sie **Genehmigen** aus.
+   1. Aktualisieren Sie die Seite nach einigen Minuten.
+
 
 ## Kopieren eines Benutzers zum Erstellen eines neuen
 
@@ -146,11 +155,11 @@ Sie können einen Benutzer erstellen, indem Sie einen vorhandenen Benutzer kopie
 
 >[!NOTE]
 >
->Wenn Sie einen Benutzer auf diese Weise erstellen, werden alle Informationen vom ursprünglichen Benutzer an den neu erstellten Benutzer kopiert, mit Ausnahme der folgenden:
+Wenn Sie einen Benutzer auf diese Weise erstellen, werden alle Informationen vom ursprünglichen Benutzer an den neu erstellten Benutzer kopiert, mit Ausnahme der folgenden:
 >
->* Die Informationen im Abschnitt Persönliche Informationen .
->* Beim Anmelden anzeigen: Hier ist die Standardregisterkarte für die Zugriffsebene ausgewählt.
->* Verzeichnisberichte
+* Die Informationen im Abschnitt Persönliche Informationen .
+* Beim Anmelden anzeigen: Hier ist die Standardregisterkarte für die Zugriffsebene ausgewählt.
+* Verzeichnisberichte
 >
 
 So erstellen Sie einen neuen Benutzer durch Kopieren eines vorhandenen Benutzers:
@@ -174,6 +183,6 @@ Wenn Sie die Option zum Senden einer Einladung an den Benutzer ausgewählt haben
 
 >[!NOTE]
 >
->Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
+Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
 >
->Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
