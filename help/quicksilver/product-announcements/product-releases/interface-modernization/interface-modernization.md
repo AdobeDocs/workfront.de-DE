@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ Es wird empfohlen, die URL zu ersetzen, um zu einer unterstützten Seite zu gela
 
 ### Aktualisierung der Benutzeroberfläche für die neue Benutzerregistrierungsseite
 
-**Vorschau-Version: 15. Mai 2024; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 12. Mai 2024; Produktionsversion: 19. Mai 2025**
 
 Wir haben die neue Seite zur Benutzerregistrierung mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -158,13 +158,15 @@ Benutzer haben nicht mehr die Möglichkeit, auf dieser Seite ein Foto hochzulade
 
 ### Aktualisierter Look für die Anmeldeseite
 
-**Vorschau-Version: 15. Mai 2024; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 12. Mai 2024; Produktionsversion: 19. Mai 2025**
 
 Wir haben die Anmeldeseite um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
 
+Mit dieser Änderung unterstützt die Anmeldeseite kein benutzerdefiniertes Branding mehr.
+
 ### Die Seite zum Zurücksetzen des Kennworts wurde aktualisiert
 
-**Vorschau-Version: 15. Mai 2024; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 12. Mai 2024; Produktionsversion: 19. Mai 2025**
 
 Wir haben den Bildschirm zum Zurücksetzen des Kennworts mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Dieses Update enthält Aktualisierungen für die folgenden Seiten:
 
