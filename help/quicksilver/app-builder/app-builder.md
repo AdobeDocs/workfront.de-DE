@@ -4,9 +4,9 @@ description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,11 @@ Sie müssen über Folgendes verfügen:
 
 * Ein IMS-aktiviertes Workfront-Konto
 * Ein Entwicklungsrechner mit Knoten v18 und npm
+* App Builder-Lizenz
 
 ## Zugriff auf Adobe App Builder
 
-Um Benutzeroberflächenerweiterungen zu erstellen, benötigen Sie Zugriff auf die Adobe App Builder in der Adobe Developer Console.
+Um Benutzeroberflächenerweiterungen zu erstellen, benötigen Sie Zugriff auf Adobe App Builder in der Adobe Developer Console.
 
 Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.adobe.com/uix/docs/guides/get-access/).
 
@@ -69,8 +70,6 @@ Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.
 ### Zugriff auf App Builder erhalten
 
 Unternehmen müssen beim Kauf von App Builder mit ihren Account Managern zusammenarbeiten.
-
-Um die AppBuilder-Integration zu testen, können Sie hier eine kostenlose Testversion für Ihre IMS-Organisation anfordern: https://developer.adobe.com/app-builder/trial/#
 
 Wenn AppBuilder ordnungsgemäß konfiguriert ist, sollte beim Erstellen eines neuen Projekts „Projekt aus Vorlage erstellen“ angezeigt werden.
 
@@ -132,7 +131,7 @@ Weitere Anweisungen finden Sie auf GitHub und der Adobe Developer-Site:
 
 1. Bestätigen Sie den Abschluss, indem Sie Ich bin fertig wählen. Die Code-Generierung aus der Vorlage ist in Bearbeitung.
    ![Generierung läuft](assets/6-generation-in-process.png)
-1. Warten Sie, bis eine Meldung angezeigt wird, dass die App-Initialisierung abgeschlossen ist. Anschließend können Sie das Projekt in einer IDE öffnen (VSCode wird empfohlen) und auf den src-Ordner zugreifen.
+1. Warten Sie, bis eine Meldung angezeigt wird, dass die App-Initialisierung abgeschlossen ist. Anschließend können Sie das Projekt in einer IDE öffnen (Visual Studio Code wird empfohlen) und auf den src-Ordner zugreifen.
 
    Weitere Informationen zu den Ordnern und Dateien in Ihrem Projekt finden Sie auf der [Adobe Developer Site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
@@ -153,13 +152,13 @@ So lassen Sie benutzerdefinierte Anwendungen im Hauptmenü von Workfront zu:
 In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -169,13 +168,13 @@ In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden.
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Fügen Sie das folgende Codefragment hinzu:
