@@ -7,9 +7,9 @@ description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Wenn Sie den Fortschritt der Arbeit sehen möchten, die Ihre Benutzerinnen und B
   Weitere Informationen finden Sie unter [Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Tatsächliche Stunden in der Workfront-Datenbank, der API und benutzerdefinierte Daten
+### Tatsächliche Stunden in der Workfront <!--database and the--> API-<!--, and custom data-->
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ Die meisten Workfront-Felder, in denen Stunden gespeichert werden, werden in Min
 
 Beim Zugriff auf diese Felder in API-Aufrufen oder in berechneten benutzerdefinierten Feldern oder Spalten muss die Konvertierung von Minuten in Stunden berücksichtigt werden.
 
-Die tatsächlichen Stunden werden jedoch in der Workfront-Datenbank in Stunden gespeichert.
+Je nachdem, wie Sie auf die tatsächlichen Stunden zugreifen, können diese in den folgenden Feldern und Einheiten in der Datenbank gespeichert werden:
 
-Sie müssen in API-Aufrufen oder berechneten benutzerdefinierten Feldern oder Spalten in Workfront den folgenden Wert-Feldnamen für Tatsächliche Stunden verwenden: `actualWorkRequiredDouble`.
+* In der API: Der `valuefield` für die tatsächlichen Stunden ist `actualWorkRequiredDouble`, der in Stunden gespeichert wird.
+* In der Workfront-Benutzeroberfläche (berechnetes benutzerdefiniertes Feld und Spalten): Die `valuefield` für die Ist-Stunden wird in Minuten `actualWorkRequired`.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 Informationen zur Verwendung der tatsächlichen Stunden in berechneten Spalten oder Feldern finden Sie unter [Häufig gestellte Fragen zum Bericht](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
