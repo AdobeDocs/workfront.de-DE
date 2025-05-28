@@ -7,9 +7,9 @@ description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ih
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 Als [!UICONTROL Worker] liegt Ihre Hauptverantwortung darin, die Arbeit abzuschließen. Die Bereiche im [!UICONTROL Hauptmenü] die für Sie sichtbar sind, ermöglichen Ihnen dies.
 
-Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; enthalten]:
+Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL  enthalten]:
 
-* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, &#x200B;] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, ] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projekte]**: Hier werden Projekte angezeigt, die für Sie freigegeben wurden. Weitere Informationen finden Sie [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
 
@@ -45,8 +45,6 @@ Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; entha
 * **[!UICONTROL Dokumente]**: Hier können Sie Dokumente hochladen oder für Sie freigegebene Dokumente überprüfen. Weitere Informationen finden Sie unter [Dokumente](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Ressourcenzuordnung]**: Sie können die Ressourcenzuordnung in den Ressourcenplanungs-Tools und Ressourcenpools hier anzeigen. Weitere Informationen finden Sie unter [Verwalten von Ressourcen](../../../resource-mgmt/manage-resources.md).
-
-* **[!UICONTROL Analytics]**: Projektdaten betrachten und Trends bei Planung und Abschluss identifizieren. In diesem Bereich werden Einblicke in Projekte angezeigt, auf die Sie Zugriff haben. Weitere Informationen finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 * **[!UICONTROL Pinnwände]**: Arbeiten Sie flexibel und gemeinsam mit Ihren Team-Mitgliedern, indem Sie freigegebene Pinnwände verwenden, die Spalten und Karten enthalten, die die Arbeit widerspiegeln, die Sie erledigen möchten. Weitere Informationen finden Sie [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

@@ -1,19 +1,19 @@
 ---
-title: 20. 4 Analytics-Verbesserungen
-description: 20. 4 Analytics-Verbesserungen
+title: ​20. 4 Analytics-Verbesserungen
+description: ​20. 4 Analytics-Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4 Analytics-Verbesserungen
+# &#x200B;20. 4 Analytics-Verbesserungen
 
 Auf dieser Seite werden alle Analytics-Verbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -28,5 +28,3 @@ Damit Sie die gewünschten Informationen anzeigen können, ohne einschränkende 
 * Jedes Diagramm verfügt jetzt über ein Menü Sortieren nach , mit dem Sie alphabetisch, nach dem geplanten Startdatum oder nach dem geplanten Abschlussdatum sortieren können.
 
 Zuvor wurde im Bereich Erweiterte Analyse die Anzahl der Projekte, die Sie betrachten können, auf 50 begrenzt.
-
-Diese Funktion ist jetzt im Lernpfad [Erweiterte Analyse, Teil 1“ ](https://experienceleague.adobe.com/de/docs/workfront/using/home) Workfront One enthalten.

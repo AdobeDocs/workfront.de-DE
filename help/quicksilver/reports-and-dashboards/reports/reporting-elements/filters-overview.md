@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Übersicht über Filter
 description: Sie können in Adobe Workfront Filter verwenden, um die Informationsmenge zu reduzieren, die auf dem Bildschirm in Listen, Berichten oder anderen Bereichen angezeigt wird.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -83,17 +83,13 @@ Sie können in den folgenden Bereichen von Workfront entweder integrierte Filter
 
   Weitere Informationen finden Sie im Artikel [Filtern von Informationen im Ressourcenplaner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-* Auslastungsbericht
+* Nutzungsbericht
 
   Weitere Informationen finden Sie im Abschnitt [Filtern von Nutzungsinformationen](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) im Artikel [Anzeigen von Informationen zur Ressourcenauslastung](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Workload Balancer
 
   Weitere Informationen finden Sie unter [Filtern von Informationen im Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Analytics-Bereich
-
-  Weitere Informationen finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Blueprints-Bereich
 
@@ -189,7 +185,7 @@ Ein Filter enthält die folgenden Elemente:
   </tr> 
   <tr> 
    <td><strong>Feld</strong></td> 
-   <td> <p>Das Attribut des Objekts, nach dem Sie filtern. </p> <p>Sie können beispielsweise nach Portfolio- oder Projektinhaber filtern. In diesen Fällen sind Name und Eigentümer Felder des Portfolios und der Projektobjekte. </p> </td> 
+   <td> <p>Das Attribut des Objekts, nach dem Sie filtern. </p> <p>Sie können beispielsweise nach Portfolio-Namen oder Projektbesitzer filtern. In diesem Fall sind Name und Eigentümer Felder der Portfolio- und Project-Objekte. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Wert</strong></td> 
@@ -227,7 +223,7 @@ Sie können Filtermodifikatoren verwenden, um anzugeben, mit welcher Art von Inf
 >[!INFO]
 >
 >**Beispiel:**
->Sie können nach Projekten filtern, die zu 100 % abgeschlossen sind. In diesem Fall können Sie den Modifikator „gleich“ in der folgenden Filteranweisung verwenden:
+>>Sie können nach Projekten filtern, die zu 100 % abgeschlossen sind. In diesem Fall können Sie den Modifikator „gleich“ in der folgenden Filteranweisung verwenden:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
@@ -258,7 +254,7 @@ Sie können Filter für komplexe Felder erstellen, z. B. Felder, deren Werte Kom
 Beim Erstellen eines Filters im Textmodus und Filtern nach Feldwerten, die Kommas enthalten, müssen Sie einen Schrägstrich (“/„) vor den Kommas hinzufügen, die die Werte trennen, um sicherzustellen, dass der Wert als eine Filteroption gelesen wird. Dies gilt nur für die folgenden Feldtypen:
 
 * Dropdown-Listen
-* Optionsschaltflächen
+* Optionsfelder
 * Kontrollkästchen
 
 Sie haben beispielsweise ein Optionsfeld für ein Projekt mit dem Namen „Farbe“ und die folgenden Optionen:

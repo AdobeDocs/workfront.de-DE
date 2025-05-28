@@ -6,9 +6,9 @@ description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ih
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 ## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Prüfers]
 
-Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
+Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL &#x200B; enthalten]:
+Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL  enthalten]:
 
 * **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]** der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit dem Lizenztyp **[!UICONTROL Meine Updates]** standardmäßig durch den Bereich „Meine Updates“ ersetzt. Als [!UICONTROL Prüfer] schließen Sie Ihre Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten anzeigen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Review-Benutzer.
 
@@ -31,8 +31,6 @@ Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL &#x200
 
 * **[!UICONTROL Anfragen]**: Sie können Anfragen senden und überprüfen, die Sie oder andere Benutzer Ihres Unternehmens in diesem Bereich gesendet haben.
 * **[!UICONTROL Dokumente]**: Sie können hier Dokumente hochladen oder für Sie freigegebene Dokumente überprüfen.
-* **[!UICONTROL Analytics]**: Projektdaten betrachten und Trends bei Planung und Abschluss identifizieren. In diesem Bereich werden Einblicke in Projekte angezeigt, auf die Sie Zugriff haben. Weitere Informationen finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Blueprints]**: Überprüfen Sie vorhandene Blueprints in Ihrem System und fordern Sie die Installation an, wenn der [!DNL Workfront] die Anfrage-Warteschlange für Blueprints konfiguriert hat. Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

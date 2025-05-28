@@ -6,9 +6,9 @@ description: Mit den Filtern im erweiterten Analysebereich von Adobe Workfront k
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+>Enhanced Analytics wurde am 27. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
 
 
 <!-- Audited: 12/2023 -->
 
-Mit den Filtern im erweiterten Analysebereich von Adobe Workfront können Sie sich auf bestimmte Projekte oder Datentypen konzentrieren. Die Filtertypen, die Sie verwenden, können Ihnen Einblicke geben in:
+Mit den Filtern im erweiterten Analysebereich von Adobe Workfront können Sie sich auf bestimmte Projekte oder Datentypen konzentrieren. Die Filtertypen, die Sie verwenden, können Ihnen insight für Folgendes bieten:
 
 * Projekte in Ihrem Besitz
 * Spezifische Portfolio- oder Programmansichten

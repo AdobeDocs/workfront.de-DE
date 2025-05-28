@@ -5,9 +5,9 @@ description: Die obere Navigationsleiste, die oben auf dem Bildschirm in  [!DNL 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Weitere Informationen zu den Favoriten finden Sie unter [Anzeigen und Verwalten 
 
 ## [!UICONTROL Zuletzt verwendet] Menü
 
-Mit **[!UICONTROL Symbol]** Zuletzt verwendet![[!UICONTROL &#x200B; (]](assets/recents-icon-40x43.png)) wird eine Liste der Seiten geöffnet, die Sie kürzlich besucht haben.
+Mit **[!UICONTROL Symbol]** Zuletzt verwendet![[!UICONTROL  (]](assets/recents-icon-40x43.png)) wird eine Liste der Seiten geöffnet, die Sie kürzlich besucht haben.
 
 Weitere Informationen zu den letzten Elementen finden Sie unter [Aktuelle Elemente anzeigen](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 
@@ -110,17 +110,16 @@ Weitere Informationen zu den einzelnen Bereichen finden Sie unter:
      <li>[!UICONTROL Reports]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Berichte</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Kalender]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Kalender: Artikelindex</a></li> 
-     <li>[!UICONTROL -Ressource]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Ressourcenmanagement-</a></li> 
+     <li>[!UICONTROL-Ressource]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Ressourcenmanagement-</a></li> 
      <li>[!UICONTROL Teams]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Erstellen und Verwalten von Teams</a></li> 
      <li>[!UICONTROL Benutzer]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Benutzer erstellen und verwalten</a></li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL -Anfragen]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Anfragen erstellen</a></li> 
+     <li>[!UICONTROL-Anfragen]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Anfragen erstellen</a></li> 
      <li>[!UICONTROL Arbeitszeittabellen]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Arbeitszeittabellen: Artikelindex</a></li> 
-     <li>[!UICONTROL -Dokumente]: <a href="../../documents/documents-overview.md" class="MCXref xref">Dokumente</a></li> 
+     <li>[!UICONTROL-Dokumente]: <a href="../../documents/documents-overview.md" class="MCXref xref">Dokumente</a></li> 
      <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Erstellen und Verwalten von Projektvorlagen: Artikelindex</a></li> 
-     <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Übersicht über die erweiterte Analyse</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] Übersicht</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Die Übersicht über den Szenario-Planer</a></li> 
      <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Korrekturabzug: Artikelindex</a></li> 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ Sie können sich auf verschiedene Projekte konzentrieren oder die Anzahl der Pro
 
 Zusätzlich zu den Erkenntnissen, die Sie gewinnen können, können Sie auch Aktionen für Aufgaben durchführen, z. B. den Status aktualisieren, eine Aktualisierung anfordern, die Aufgabe jemandem zuweisen usw.- direkt aus dem erweiterten Analysebereich.
 
-Weitere Informationen finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

@@ -7,9 +7,9 @@ description: Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+>Enhanced Analytics wurde am 27. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
 
 
 Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit denen Sie Projektdaten betrachten und Trends bei der Planung und beim Abschluss identifizieren können. Diese insight in Ihren Projekten hilft Ihnen bei der Verwaltung Ihrer aktuellen Arbeit und ermöglicht es Ihnen, die zukünftige Arbeit genauer zu planen.
@@ -34,7 +34,7 @@ Die erweiterte Analyse kann Ihnen dabei helfen, Folgendes zu identifizieren:
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
+Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Voraussetzungen
 
@@ -46,7 +46,7 @@ Um auf den erweiterten Analysebereich zuzugreifen, müssen Sie:
 
 * Bitten Sie Ihren Workfront-Administrator, Ihrer Layoutvorlage erweiterte Analysen hinzuzufügen.
 
-  Weitere Informationen finden Sie unter [Erweiterte Analyse: Hinzufügen von Analysen zu Layout-Vorlagen](https://experienceleague.adobe.com/de/docs/workfront/using/home).
+  Weitere Informationen finden Sie unter [Erweiterte Analyse: Hinzufügen von Analysen zu Layout-Vorlagen](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Um Informationen zu Projekten und Aufgaben anzuzeigen, gehen Sie folgendermaßen vor:
 

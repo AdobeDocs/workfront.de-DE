@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,6 @@ Eine Liste aller mit Version 21.1 verfügbaren Änderungen finden Sie unter Übe
 
 In der Standard-Layout-Vorlage ist der Bereich „Analysen“ jetzt standardmäßig aktiviert, d. h. Benutzende, die dieser Layout-Vorlage zugewiesen sind, sehen jetzt den Bereich „Analysen“ in der globalen Navigationsleiste in Adobe Workfront Classic und das Hauptmenü in der neuen Adobe Workfront-Version.
 
-Weitere Informationen zur erweiterten Analyse finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Erweiterte Analyse für alle Cluster verfügbar
 
@@ -37,7 +36,6 @@ Die erweiterte Analyse ist für alle Workfront-Cluster verfügbar, einschließli
 
 Zuvor war Enhanced Analytics nicht in Google Cloud Platform verfügbar, was Kunden in Cluster 6 daran hinderte, auf den Analytics-Bereich zuzugreifen. Jetzt können Geschäfts- und Unternehmenskunden auf Cluster 6 auf den Analytics-Bereich zugreifen.
 
-Weitere Informationen zur erweiterten Analyse finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## People -Seite jetzt für alle Cluster verfügbar
 
@@ -49,4 +47,4 @@ Die Seite Personen ist jetzt auf Workfront Classic für Cluster 4 verfügbar. Di
 
 Diese Seite war zuvor mit Version 20.3 sowohl in Workfront Classic als auch in der neuen Workfront-Version für alle anderen Cluster verfügbar.
 
-Weitere Informationen zu den auf der Seite „Personen“ verfügbaren Diagrammen finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
+
