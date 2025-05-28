@@ -119,7 +119,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >[!NOTE]
      >
      >Für die Planung ist eine zusätzliche Lizenz erforderlich. Informationen zur Workfront-Planung finden Sie unter [Adobe Workfront-Planung - Übersicht](/help/quicksilver/planning/general/planning-overview.md)
-      * Benutzerdefinierte Anwendung
+     > * Benutzerdefinierte Anwendung
 
      >[!NOTE]
      >

@@ -223,7 +223,7 @@ Sie können Filtermodifikatoren verwenden, um anzugeben, mit welcher Art von Inf
 >[!INFO]
 >
 >**Beispiel:**
->>Sie können nach Projekten filtern, die zu 100 % abgeschlossen sind. In diesem Fall können Sie den Modifikator „gleich“ in der folgenden Filteranweisung verwenden:
+>&#x200B;>Sie können nach Projekten filtern, die zu 100 % abgeschlossen sind. In diesem Fall können Sie den Modifikator „gleich“ in der folgenden Filteranweisung verwenden:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
