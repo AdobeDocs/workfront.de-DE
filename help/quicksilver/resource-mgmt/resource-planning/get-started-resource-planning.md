@@ -7,14 +7,16 @@ description: Sie können Ressourcenplanungs-Tools verwenden, um Ihre Aufgabengeb
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit der Ressourcenplanung
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,7 +37,7 @@ Weitere Informationen zum Planen von Ressourcen in Workfront mithilfe des Worklo
 
 Um Zeit für Ihre Ressourcen für die Projekte zu budgetieren, denen Sie sie zuweisen möchten, können Sie die folgenden Tools verwenden:
 
-* Verwenden Sie für die Budgetierung von Zuteilungen für mehrere Projekte und deren Priorisierung auf Systemebene den Ressourcenplaner auf Systemebene.
+* Verwenden Sie für die Budgetierung von Zuweisungen für mehrere Projekte und deren Priorisierung auf Systemebene den Ressourcenplaner auf Systemebene.
 
   Sie können auf den Ressourcenplaner zugreifen, indem Sie im Bereich „Ressourcen“ zum Abschnitt „Planer“ wechseln.
 

@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Anmelden als eine andere Benutzerin bzw. ein anderer Benutzer
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Als Adobe Workfront-Administrator benötigen Sie manchmal Zugriff auf Workfront im Namen eines anderen Benutzers.
-
-Oder Sie als Gruppenadministrator müssen möglicherweise auf Workfront im Namen einer Benutzerin oder eines Benutzers zugreifen, die bzw. der Mitglied einer von Ihnen verwalteten Gruppe ist.
+Als Adobe Workfront-Administrator benötigen Sie manchmal Zugriff auf Workfront im Namen eines anderen Benutzers. Oder Sie als Gruppenadministrator müssen möglicherweise auf Workfront im Namen einer Benutzerin oder eines Benutzers zugreifen, die bzw. der Mitglied einer von Ihnen verwalteten Gruppe ist.
 
 Wenn eine Aufgabe beispielsweise erst fortgesetzt werden kann, nachdem ein Benutzer im Urlaub eine bestimmte Aktion ausgeführt hat, können Sie sich als dieser Benutzer anmelden und stattdessen die Aktion ausführen.
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Da eine Dokumentenintegration möglicherweise eine Verbindung zu privaten persönlichen Dateien herstellt, können Admins nicht auf Dokumentenintegrationen zugreifen, während sie als ein anderer Benutzer angemeldet sind.
 >
->Weitere Informationen zu Dokumentintegrationen finden Sie unter [Konfigurieren von Dokumentintegrationen](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Weitere Informationen zu Dokumentintegrationen finden Sie unter [Konfigurieren von Dokumentintegrationen](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Zugriffsanforderungen
 
@@ -68,8 +66,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Mit der Zugriffsebene „Systemadministrator“ können Sie sich wie jeder andere anmelden.</p> <p>Bei einer Standard- oder Planerzugriffsebene können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die Einstellung <b>Benutzer</b> auf der Zugriffsebene für den <b>Bearbeiten</b>-Zugriff konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden <b>Benutzeradministratoroptionen</b> unter <b>Optimieren Sie Ihre Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> 
-   <p><b>HINWEIS</b>: Wenn die Option <b>Benutzeradmin (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p></td>
+   <td> <p>Mit der Zugriffsebene „Systemadministrator“ können Sie sich wie jeder andere anmelden.</p> <p>Bei einer Standard- oder Planerzugriffsebene können Sie sich als Benutzer mit einer niedrigeren Lizenzstufe anmelden, wenn die Einstellung Benutzer auf der Zugriffsebene für Bearbeitungszugriff konfiguriert ist und die Option Erstellen und mindestens eine der beiden Benutzeradministratoroptionen in den <img src="assets/gear-icon-in-access-levels.png"> Einstellungen optimieren aktiviert ist. </p> 
+   <p>HINWEIS: Wenn von diesen beiden Optionen Benutzeradmin (Gruppenbenutzer) aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +94,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie im linken Bedienfeld auf **Anmelden als**.
 
-1. Beginnen Sie in das Feld **Benutzer** auf der Registerkarte **Anmelden als** mit der Eingabe des Benutzernamens und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie **Feld „Namen eingeben…**&quot; auf der Registerkarte **Anmelden als** mit der Eingabe des Benutzernamens und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   Für den Benutzer muss eine Zugriffsebene in Workfront definiert sein. Sie können sich nicht als ein Benutzer beim Workfront-System anmelden, der nicht berechtigt ist, sich anzumelden.
 
    >[!NOTE]
-   >
-   >Gruppenadministratoren können sich nur als Benutzer anmelden, die Mitglieder der von ihnen verwalteten Gruppen sind. Sie können sich nicht als Workfront-Admin anmelden.
+   >* Für den ausgewählten Benutzer muss in Workfront eine Zugriffsebene definiert sein. Sie können sich nicht als ein Benutzer beim Workfront-System anmelden, der nicht berechtigt ist, sich anzumelden.
+   >* Gruppenadministratoren können sich nur als Benutzer anmelden, die Mitglieder der von ihnen verwalteten Gruppen sind. Sie können sich nicht als Workfront-Admin anmelden.
 
-1. Klicken Sie **Anmelden.**
+1. Klicken Sie **Anmelden**. Sie sind als ein anderer Benutzer angemeldet, und am oberen Bildschirmrand wird eine entsprechende Benachrichtigung angezeigt.
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,9 +128,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    </div>
    -->
 
-   Wenn Sie als ein anderer Benutzer angemeldet sind, wird oben im Bildschirm eine Benachrichtigung angezeigt, die dies angibt.
 
-1. Nachdem Sie als Benutzer die erforderlichen Aktionen ausgeführt haben, klicken Sie auf **Abmelden.**
+
+1. Nachdem Sie als Benutzer die erforderlichen Aktionen ausgeführt haben, klicken Sie **oben** Bildschirm auf „Abmelden“.
 
 ## Tracking und Auditing von Aktivitäten, während ein Administrator als ein anderer Benutzer angemeldet ist
 
@@ -153,14 +150,17 @@ Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie a
 ### Audit-Informationen anzeigen {#view-audit-information}
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator oder Gruppenadministrator an.
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. Klicken Sie auf **Anmelden als** und anschließend auf die Registerkarte **Zugriffsprotokoll**.
+1. Klicken Sie im linken Bedienfeld auf **Anmelden als** und klicken Sie dann auf die Registerkarte **Zugriffsprotokoll**.
 
-   Jedes Mal, wenn sich ein System- oder Gruppenadministrator bzw. eine Systemadministratorin als ein anderer Benutzer bei Workfront anmeldet, wird das Ereignis im Audit-Protokoll protokolliert. Darüber hinaus werden alle überprüfbaren Aktionen, die stattfinden, während der Administrator als ein anderer Benutzer angemeldet ist, im Audit-Protokoll protokolliert.
+   >[!NOTE]
+   >
+   >Jedes Mal, wenn sich ein System- oder Gruppenadministrator bzw. eine Systemadministratorin als ein anderer Benutzer bei Workfront anmeldet, wird das Ereignis im Audit-Protokoll protokolliert. Darüber hinaus werden alle überprüfbaren Aktionen, die stattfinden, während der Administrator als ein anderer Benutzer angemeldet ist, im Audit-Protokoll protokolliert.
 
-1. (Optional) Sie können die im Audit-Protokoll angezeigten Ergebnisse wie folgt filtern:
+1. (Optional) Sie können die Ergebnisse, die im Audit-Protokoll angezeigt werden, wie folgt filtern:
 
    * Nach Benutzer, der sich angemeldet hat
    * Von Benutzer, der angemeldet ist als
-   * Nach Datum
+   * Nach Datum und Uhrzeit
