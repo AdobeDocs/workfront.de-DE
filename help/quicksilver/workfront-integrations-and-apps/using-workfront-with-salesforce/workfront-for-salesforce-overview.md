@@ -28,7 +28,7 @@ Weitere Informationen zum Konfigurieren des [!DNL Workfront] in [!DNL Salesforce
 
 >[!NOTE]
 >
->Um diese Funktion verwenden zu können[!UICONTROL  ist ein [!DNL Workfront]-Plan ]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
+>Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein [!DNL Workfront]-Plan &#x200B;]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
 
 ## Zugriffsanforderungen
 
@@ -80,7 +80,7 @@ Beachten Sie beim Arbeiten mit [!DNL Workfront] für [!DNL Salesforce] Folgendes
 
   Eine Liste der [!DNL Workfront] Felder, die Sie in [!DNL Salesforce] anzeigen können, finden Sie unter [Senden [!DNL Adobe Workfront] Anfragen von [!DNL Salesforce] Objekten](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) und [Erstellen [!DNL Adobe Workfront] Projekte aus [!DNL Salesforce] Objekten](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* Sie können direkt auf Elemente zugreifen, die mit [!DNL Salesforce] verknüpft sind, indem Sie in Workfront auf [!UICONTROL  Link ]Zu Salesforce gehen“ klicken.
+* Sie können direkt auf Elemente zugreifen, die mit [!DNL Salesforce] verknüpft sind, indem Sie in Workfront auf [!UICONTROL &#x200B; Link &#x200B;]Zu Salesforce gehen“ klicken.
 
   Sie können keine Informationen zu den [!DNL Salesforce] Elementen in [!DNL Workfront] anzeigen. Über einen Link in Workfront gelangen Sie jedoch zu dem Element in Salesforce, damit Sie es dort überprüfen können.
 
