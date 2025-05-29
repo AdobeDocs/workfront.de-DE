@@ -3,14 +3,15 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'Adobe Workfront-Grundlagen: Artikelindex'
 description: Sehen Sie sich diese Bereiche an, um sich mit den Grundlagen von Adobe Workfront vertraut zu machen und zu erfahren, wie Sie grundlegende Funktionen ausführen, z. B. den Bereich „Startseite“ oder „Prioritäten“ verwenden, Ihr Kontoprofil verwalten, den KI-Assistenten verwenden oder sich über die Browser-Anforderungen und unterstützten Sprachen informieren. Mit dem Workfront-Glossar lernen Sie die gängige Terminologie in Workfront kennen.
+short-description: Machen Sie sich mit den Grundlagen von Adobe Workfront vertraut und erfahren Sie, wie Sie grundlegende Funktionen ausführen.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 58%
+source-wordcount: '205'
+ht-degree: 55%
 
 ---
 
