@@ -455,7 +455,7 @@ Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwe
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen {0#setRoleIDROLE **.**
+   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
    * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
 
      Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.
