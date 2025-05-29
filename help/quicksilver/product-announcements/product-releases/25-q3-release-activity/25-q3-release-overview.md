@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1087'
 ht-degree: 3%
 
 ---
@@ -73,9 +73,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             für Anwendungen von Drittanbietern, die auf Google Drive zugreifen, sodass Anwendungen ein Einverständnismodell pro Benutzer anwenden müssen. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Siehe <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Konfigurieren von Dokumentenintegrationen</a>
              für weitere Informationen. </p>
         </td>
-        <td>14. Mai 2025</td>
-        <td>14. Mai 2025</td>
-        <td>14. Mai 2025</td>
+        <td>22. Mai 2025</td>
+        <td>22. Mai 2025</td>
+        <td>22. Mai 2025</td>
     </tr>  
     <tr>
         <td>
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### Home-Verbesserungen
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funktion</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Das Widget Meine Genehmigungen wird jetzt automatisch nach </a> sortiert<p></p>
+            <p>Das Widget Meine Genehmigungen auf der Startseite wurde aktualisiert, sodass standardmäßig nach Frist (absteigend) sortiert wird. Dadurch können die dringendsten Genehmigungen oben in der Liste angezeigt werden. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>Freitag, 29. Mai 2025</td>
+        <td>Freitag, 12. Juni 2025</td>
+        <td>Freitag, 17. Juli 2025</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### Projektverbesserungen
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Änderung der Art und Weise, wie die tatsächlichen Stunden für API-Aufrufe in der Datenbank gespeichert werden</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Diese Aktualisierung führt zu einer Änderung der Art und Weise, wie die tatsächlichen Stunden für Projekte, Aufgaben und Probleme in der Datenbank gespeichert werden. Ab dieser Aktualisierung verwenden die tatsächlichen Stunden ein <code>actualWorkRequiredDouble</code> (mit einem Wert in Stunden).</p>
+        </td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisieren Sie in mithilfe des Schiebereglers Prozent abgeschlossen in einer Aufgaben- oder Problem-Kopfzeile</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Die Funktionsweise des Schiebereglers Prozent abgeschlossen für Aufgaben und Probleme wurde aktualisiert. Wenn Sie die blaue Blase Prozent abgeschlossen in die Kopfzeile einer Aufgabe oder eines Problems schieben, wird der Prozentsatz der Fertigstellung der Aufgabe oder des Problems jetzt in Schritten von fünf Punkten aktualisiert. Vor diesem Update wurden durch Schieben der blauen Blase Prozent abgeschlossen die Aufgaben oder Probleme in Schritten von einem Punkt aktualisiert.</p>
+        </td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mehr Transparenz bei der Verwendung des KI-Assistenten für Projekte, Aufgaben und Probleme</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mehr Transparenz bei der Verwendung des KI-Assistenten</a></p>
-                        <p>Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Projekten, -Aufgaben und -Problemen findet, haben wir diese Informationen zur Frageantwort hinzugefügt. Jetzt fügt der KI-Assistent seine Suchinformationen in die Ausgabe ein. Sie können diese Informationen verwenden, um zu überprüfen, ob der KI-Assistent die von Ihnen gestellte Frage korrekt identifiziert hat, und um den Kontext der Antwort zu verstehen. </p>
-                    </td>
-                    <td><p><b>Verfügbar zu diesen Daten:</b></p>
-                        <ul>
-                            <li>
-                                <p>Vorschau der Version: Im gesamten Zeitrahmen der Version für das dritte Quartal 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Produktionsfreigabe: Mindestens 2 Wochen nach der Freigabe für die Vorschau (sofern nicht anders angegeben)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Funktion</span>
@@ -262,7 +260,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -284,7 +282,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

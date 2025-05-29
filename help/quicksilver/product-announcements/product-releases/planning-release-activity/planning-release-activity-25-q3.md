@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filter, Spalten und zusätzliche Felder, die zur Registerkarte Planung im Bereich Anfragen hinzugefügt werden
+
+>[!NOTE]
+>
+>* Vorschau: 29. Mai 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Wir haben die folgende Funktion zu einer Liste von Anfragen auf der Registerkarte Planung im Bereich Anfragen hinzugefügt:
+
+* Nach Spalte eingegeben, um die Person anzugeben, die eine Anfrage hinzugefügt hat
+* Filter zur Begrenzung der Anzahl der Anfragen, die Sie auf der Registerkarte Planung anzeigen. Sie können die Liste nach den folgenden Elementen filtern:
+
+   * Das Workspace-Anfrageformular stammt von
+   * Der mit dem Anfrageformular verknüpfte Datensatztyp
+   * das Eingabedatum der Anfrage
+   * Der Name des Anfrageformulars
+   * den Status der Anfragen
+   * Der Name der Person, die die Anfrage eingegeben hat.
+
+* Spalten steuern, ob Felder (oder Spalten) in der Liste „Planungsanfragen“ angezeigt oder ausgeblendet werden sollen.
+
+Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Neues Erlebnis beim Aufschlüsseln von Datensätzen im Komprimierungsmodus in der Zeitleisten -Ansicht
 
@@ -126,7 +150,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

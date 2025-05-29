@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Dieses Update ist sowohl für Mac als auch für Windows.
 
 >[!NOTE]
 >
->* Vorschau-Version: 31. Mai 2025; Produktionsversion für alle Kunden: 31. Mai 2025
+>* Vorschau-Version: 2. Juni 2025; Produktionsversion für alle Kunden: 2. Juni 2025
 
 Google [ die Sicherheitskontrollen ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) Drittanbieteranwendungen, die auf Google Drive zugreifen, und erfordert, dass Anwendungen ein Einverständnismodell pro Benutzer verwenden. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Weitere Informationen [ Sie unter ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) von Dokumentintegrationen konfigurieren .
 
