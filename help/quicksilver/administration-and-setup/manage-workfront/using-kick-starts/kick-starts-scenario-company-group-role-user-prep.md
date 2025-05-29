@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
+source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 3%
 
 ---
 
@@ -56,25 +56,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 In der folgenden Tabelle werden die zu importierenden Unternehmen, Gruppen und Rollen angezeigt:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>Firmen</strong> </th> 
-   <th><strong>Gruppen</strong> </th> 
-   <th><strong>Rollen</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>ACME, CO</p> <p>Workfront, Inc.</p> <p><em>Ihre Firma</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">Finanzielle Details</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Verkauf</p> </td> 
-   <td valign="top"> <p valign="top">Wirtschaftsanalytiker</p> <p valign="top">Controller-Creative</p> <p valign="top">Entwerfende Person</p> <p valign="top">Ressourcenmanager</p> <p valign="top">Scrum Master</p> <p valign="top">technischer Redakteur</p> <p valign="top">Web-Entwickler</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Firmen | Gruppen | Rollen |
+|---|---|---|
+| ACME, CO <p>Workfront, Inc. <p>_Ihre Firma_ <p>XYZ, Inc. | Finanzielle Details <p>IT <p>Marketing <p>Verkauf | Wirtschaftsanalytiker <p>Controller-Creative <p>Entwerfende Person <p>Ressourcenmanager <p>Scrum Master <p>technischer Redakteur <p>Web-Entwickler |
+
+{style="table-layout:auto"}
 
 Rollennamen müssen eindeutig sein. Vorhandene Aufgabengebiete können nicht importiert werden.
 
@@ -82,8 +68,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 ### Benutzer 1
 
-| **Vorname** | Chris |
+| Attribut | Wert |
 |---|---|
+| **Vorname** | Chris |
 | **Nachname** | Besatzung |
 | **Benutzername/E-Mail** | mailto:cmanning@foo.com |
 | **Kennwort** | updateMe |
@@ -96,8 +83,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 ### Benutzer 2
 
-| **Vorname** | Jennifer |
+| Attribut | Wert |
 |---|---|
+| **Vorname** | Jennifer |
 | **Nachname** | Campbell |
 | **Benutzername/E-Mail** | jcampbell@foo.com |
 | **Kennwort** | updateMe |
@@ -110,8 +98,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 ### Benutzer 3
 
-| **Vorname** | Jill |
+| Attribut | Wert |
 |---|---|
+| **Vorname** | Jill |
 | **Nachname** | Sullivan |
 | **Benutzername/E-Mail** | jsullivan@foo.com |
 | **Kennwort** | updateMe |
@@ -124,8 +113,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 ### Benutzer 4
 
-| **Vorname** | Trester |
+| Attribut | Wert |
 |---|---|
+| **Vorname** | Trester |
 | **Nachname** | Lewis |
 | **Benutzername/E-Mail** | mlewis@foo.com |
 | **Kennwort** | updateMe |
@@ -138,8 +128,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 ### Benutzer 5
 
-| **Vorname** | Pam |
+| Attribut | Wert |
 |---|---|
+| **Vorname** | Pam |
 | **Nachname** | Reynolds |
 | **Benutzername/E-Mail** | preynolds@foo.com |
 | **Kennwort** | updateMe |
@@ -152,8 +143,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 ### Benutzer 6
 
-| **Vorname** | Strahl |
+| Attribut | Wert |
 |---|---|
+| **Vorname** | Strahl |
 | **Nachname** | Andrews |
 | **Benutzername/E-Mail** | randrews@foo.com |
 | **Kennwort** | updateMe |
@@ -184,9 +176,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 1. Navigieren Sie zum Blatt **Firma**.
 
-   Es sollte leer bleiben, es sei denn, Unternehmen sind bereits im System. ![Firmenblatt](assets/cmpysheet-350x16.png)
+   Es sollte leer bleiben, es sei denn, Unternehmen sind bereits im System.
 
-   ![Unternehmens-ID](assets/companyid--1--350x78.png)
+   ![Firmenblatt](assets/cmpysheet-350x16.png) ![Unternehmens-ID](assets/companyid--1--350x78.png)
 
 1. Geben Sie **TRUE** in die Spalte **isNew** ein.
 
@@ -296,23 +288,18 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
    Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
-   ![Unternehmens-ID](assets/companyid--1--350x78.png)
-
-   ![Firmen-ID einfügen](assets/pastecompanyid-350x84.png)
+   ![Unternehmens-ID](assets/companyid--1--350x78.png) ![Unternehmens-ID einfügen](assets/pastecompanyid-350x84.png)
 
 1. Geben Sie die Aufgabengebiet-Details des Benutzers ein.
 
    Dem Szenario zufolge wird Chris Manning die Rolle eines Unternehmensanalysten haben. Suchen Sie im Blatt **Rolle** die ID für die Rolle „Geschäftsanalyst“, kopieren Sie sie und fügen Sie sie im Blatt **Benutzer** in die Spalte **setRoleID** in der Zeile des Benutzers ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
-   ![Rollenkennung kopieren](assets/copyroleid-350x149.png)
-
-   ![Rollenkennung einfügen](assets/pasteroleid-350x95.png)
+   ![Rollenkennung kopieren](assets/copyroleid-350x149.png) ![Rollenkennung einfügen](assets/pasteroleid-350x95.png)
 
 1. Geben Sie bei Bedarf weitere Benutzerdetails ein und speichern Sie dann die Datei.
 1. Importieren Sie die Excel-Datei.
 
    Befolgen Sie die Anweisungen unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
-
 
 >[!NOTE]
 >
@@ -320,4 +307,4 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 > 
 >Wenn Ihre Organisation in die Adobe Admin Console migriert wurde und ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlassen kann, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
 >
->Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
+>Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
