@@ -307,4 +307,4 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 > 
 >Wenn Ihre Organisation in die Adobe Admin Console migriert wurde und ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlassen kann, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
 >
->Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
+>Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
