@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 2%
          * [Verbesserungen bei der Startseite für das 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
          * [Verbesserungen bei der Integration im 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
          * [Projektverbesserungen im 4. Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
-         * [4. Quartal 2023 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
+         * [&#x200B;4. Quartal 2023 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Lookand-Feel-Aktualisierungen im Zeitraum der Version 2023 im 4. Quartal](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * Version 23.3 {#release-23-3}
          * [Versionsübersicht 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
@@ -188,7 +188,7 @@ ht-degree: 2%
          * [21.2 Projektverbesserungen](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 Verbesserungen bei Anfragen](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 Verbesserungen beim Ressourcenmanagement](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 Verbesserte Berichterstellung](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 Verbesserte Berichterstellung](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 Proofing-Verbesserungen](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 Verbesserungen bei der Integration](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Weitere Verbesserungen](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 2%
          * Version 20.4 {#release-20-4}
             * [Übersicht über die Version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Verbesserungen beim Projektmanagement](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 Analytics-Verbesserungen](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Analytics-Verbesserungen](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 Verbesserungen beim Ressourcenmanagement](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 Verbesserungen bei Korrekturabzügen](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 Verbesserungen bei Mobile und Integration](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 2%
    * [Glossar zur Terminologie von Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront-Browser-Anforderungen](workfront-basics/workfront-browser-requirements.md)
    * [Unterstützte Sprachen in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+   * [HIPAA-Bereitschaft für Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Navigieren in Adobe Workfront {#navigate}
       * [Navigieren in Adobe Workfront: Artikelindex](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
@@ -1171,7 +1172,7 @@ ht-degree: 2%
          * [Übersicht über das voraussichtliche Startdatum des Projekts](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Erstellen von Projekten {#create-projects}
          * [Erstellen von Projekten: Artikelindex](manage-work/projects/create-projects/create-projects-overview.md)
-         * [Projekt erstellen](manage-work/projects/create-projects/create-project.md)
+         * [Erstellen eines Projekts](manage-work/projects/create-projects/create-project.md)
          * [Projekt anfordern](manage-work/projects/create-projects/request-project.md)
          * [Erstellen eines Projekts mithilfe einer Vorlage](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importieren eines Projekts aus dem Microsoft-Projekt](manage-work/projects/create-projects/import-project-from-ms-project.md)
