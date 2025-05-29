@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 0%
 
 # HIPAA-Bereitschaft für Workfront
 
-Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein **Business Associate** und/oder die **abgedeckte Entität** ist, für den der Business Associate Adobe Workfront bereitstellt, sollte die folgenden Richtlinien verwenden, um Workfront für die HIPAA-fähige Verwendung zu konfigurieren:
+Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Business Associate und/oder die abgedeckte Entität ist, für die der Business Associate Adobe Workfront bereitstellt, sollte die folgenden Richtlinien verwenden, um Workfront für die HIPAA-fähige Verwendung zu konfigurieren:
 
 
-## Kennwortanforderungen
+## Passwortanforderungen
 
 | **Sicherheitseinstellung** | **Was ist das?** | **Anforderung** |
 |----------------------|------------------|------------------|
@@ -35,14 +35,14 @@ Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein **Business Associat
 | **Sicherheitseinstellung** | **Was ist das?** | **Anforderung** |
 |----------------------|------------------|------------------|
 | Maximale Anzahl an Anmeldefehlern | Wie viele fehlgeschlagene Anmeldeversuche führen dazu, dass der Benutzer gesperrt wird? | Nicht mehr als 5 Versuche innerhalb eines 5-minütigen Zeitraums; ein erneuter Versuch ist nach 30 Minuten zulässig |
-| Maximale SSO-Überprüfungsfehler | Wie viele fehlgeschlagene SSO-Verifizierungsversuche führen zu einer Sperre? | Höchstens 5 (gilt nur für Kunden, die SSO verwenden) |
+| Maximale SSO-Überprüfungsfehler | Wie viele fehlgeschlagene SSO-Verifizierungsversuche führen zu einer Sperrung? | Höchstens 5 (gilt nur für Kunden, die SSO verwenden) |
 
 
 ## Sitzungsanforderungen
 
 | **Sicherheitseinstellung** | **Was ist das?** | **Anforderung** |
 |----------------------|------------------|------------------|
-| Sitzungs-Timeout | Wie viele Minuten ohne Aktivität führen zu einem Abmelden? | Nicht mehr als 15 Minuten |
+| Sitzungs-Timeout | Wie viele Minuten ohne Aktivität führen zu einer Abmeldung? | Nicht mehr als 15 Minuten |
 
 ## Zuständigkeiten des Kunden
 
