@@ -6,9 +6,9 @@ description: Sie können Probleme oder Anfragen in Adobe Workfront löschen, wen
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein. </span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 Sie können Probleme oder Anfragen in Adobe Workfront löschen, wenn Sie dazu über die erforderlichen Zugriffsrechte und Berechtigungen verfügen.
 
@@ -116,7 +116,7 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
    Rechts wird eine Liste der mit dem ausgewählten Projekt verknüpften Probleme angezeigt.
 1. Wählen Sie ein oder mehrere Probleme in der Liste aus und klicken Sie dann oben in **Liste auf** Löschen![Symbol &quot;](assets/delete.png)&quot;.
 
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja,**<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **<span class="preview">Löschen</span>**.
 
    Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
    Weitere Informationen zu den Zugriffsrechten und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie im Abschnitt [Überlegungen zum Löschen von Problemen](#considerations-for-deleting-issues) in diesem Artikel.
@@ -136,7 +136,7 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
    ![Menü „Problem Mehr“](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicken Sie **Problem löschen**.
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja,**<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **<span class="preview">Löschen</span>**.
 
    Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
    Weitere Informationen zu den Zugriffsrechten und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie im Abschnitt [Überlegungen zum Löschen von Problemen](#considerations-for-deleting-issues) in diesem Artikel.

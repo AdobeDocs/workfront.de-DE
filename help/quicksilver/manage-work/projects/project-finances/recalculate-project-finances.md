@@ -6,9 +6,9 @@ description: Die Finanzen werden für ein Projekt berechnet, da Änderungen in d
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Beliebig </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td>
    <p>Neu: Standard</p>
    <p>oder</p>
@@ -55,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Überlegungen zur Berechnung der Finanzen in Adobe Workfront
 
-Die Finanzen werden in Enhanced Analytics wie folgt berechnet:
+Die Finanzierungsmittel werden für Projekte wie folgt berechnet:
 
 * Sie können Kosten und Einnahmen für ein Projekt manuell neu berechnen, indem Sie die Option Finanzen für ein Projekt neu berechnen verwenden.
 * Darüber hinaus wird bei einigen Aktionen eine automatische Neuberechnung Trigger.

@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Weitere Informationen finden Sie unter [Modernisierung der ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Eine Scorecard misst, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt oft die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.
 
@@ -73,9 +73,9 @@ Sie benötigen den folgenden Zugriff:
 
 1. Klicken Sie **[!UICONTROL Scorecards]** und dann auf **[!UICONTROL Neue Scorecard]**.
 
-   <span class="preview">Das Feld **Neue Scorecard** wird geöffnet.</span>
+   Das Feld **Neue Scorecard** wird geöffnet.
 
-   <span class="preview">![Neues Scorecard-Feld](assets/new-scorecard-350x173.png)</span>
+   ![Neues Scorecard-Feld](assets/new-scorecard-350x173.png)
 
 1. Geben Sie einen **[!UICONTROL Scorecard-Namen]** und eine **[!UICONTROL Beschreibung]** an.
 
@@ -88,7 +88,7 @@ Sie benötigen den folgenden Zugriff:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Frage]</td> 
+      <td role="rowheader">[!UICONTROL-Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 
@@ -126,9 +126,9 @@ Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Score
 1. Klicken Sie **[!UICONTROL linken]** auf „Scorecards“.
 1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard ](assets/copy-scorecard-icon.png) kopieren“.
 
-   <span class="preview">Das Feld **Scorecard kopieren** wird geöffnet.</span>
+   Das Feld **Scorecard kopieren** wird geöffnet.
 
-   <span class="preview">![Scorecard-Feld kopieren](assets/copy-scorecard-box.png)</span>
+   ![Scorecard-Feld kopieren](assets/copy-scorecard-box.png)
 
 1. Geben Sie die folgenden Informationen an:
 

@@ -1,16 +1,16 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: Analytics,Metriken,Projekt,Erweitert,Aufgaben,Verantwortlicher,Abgeschlossen,Status,Überfällig,Bevorstehende
+keywords: Analytics,Metriken,Projekt,Aufgaben,Verantwortlicher,Abgeschlossen,Status,Überfällig,Bevorstehende
 navigation-topic: manage-projects
 title: Übersicht über Projektmetriken
 description: Projektmetriken bieten Ihnen eine Visualisierung der Vorgänge in einem Projekt, sodass Sie die Anforderungen und den Status eines Projekts schnell bewerten können. Erfahren Sie, wie der Bereich „Metriken“ im linken Bereich eines Projekts interpretiert wird.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,35 @@ Projektmetriken bieten eine allgemeine Ansicht der Leistung eines Projekts im Di
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-Plan*</td> 
+   <td role="rowheader">Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher </p> </td> 
+   <td> <p>Neu: Licht oder höher </p>
+   <p>Aktuell: Überprüfung oder höher </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen zum Zugriff auf Projekte finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Zugriff auf Projekte gewähren</a>. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen für ein Projekt</p> <p> Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für ein Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -72,10 +75,11 @@ Sie können auch ein Drilldown in jedes Diagramm durchführen, um Aufgaben oder 
 
 Weitere Informationen zum Untersuchen dieser Aufgaben oder Probleme finden Sie unter [Metrikdetails anzeigen](#view-metrics-details).
 
+<!--this was deprecated: 
 >[!TIP]
 >
->Um Metriken für eine Gruppe von Projekten innerhalb eines Programms, eines Portfolios usw. auf einer höheren Ebene anzuzeigen, navigieren Sie zum Bereich Erweiterte Analyse .\
->Weitere Informationen zur erweiterten Analyse finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## Projektkennzahlen
 

@@ -6,10 +6,10 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Weitere Informationen finden Sie unter [Modernisierung der ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Sie können Risiken im Rahmen der Erstellung eines Business Case für ein Projekt oder über die Registerkarte Risiken aufzeichnen.
 
@@ -117,9 +117,9 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
    Klicken Sie **Neues Risiko**.
 
-   <span class="preview">Das Feld **Neues Risiko** wird geöffnet.</span>
+   Das **Neues Risiko** Feld wird geöffnet.
 
-   <span class="preview">![Neues Risikofeld](assets/new-risk-box.png)</span>
+   ![Neues Risikofeld](assets/new-risk-box.png)
 
 1. (Bedingt) Wenn Sie ein Risiko in das Feld **Neues Risiko** einfügen, geben Sie die folgenden Informationen ein:
 
@@ -175,7 +175,7 @@ Risiken bearbeiten:
    * **Istkosten**: Geben Sie die Istkosten des Risikos an, wenn das Risiko eingetreten ist.
    * **Minderungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu mindern.
 
-1. <span class="preview">Klicken Sie auf **Speichern**.</span>
+1. Klicken Sie auf **Speichern**.
 1. (Optional) Bearbeiten Sie den **Status** für ein Risiko im **Status** Dropdown-Menü, wenn Sie die **Standard**-Ansicht für die Liste der Risiken anwenden.
 
    >[!NOTE]

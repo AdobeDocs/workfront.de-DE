@@ -6,9 +6,9 @@ description: Sie können einem Portfolio vorhandene Programme hinzufügen. Da Pr
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Weitere Informationen finden Sie unter [Modernisierung der ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Sie können einem Portfolio vorhandene Programme hinzufügen. Da Programme nicht in zwei verschiedenen Portfolios vorhanden sein können, wird sie beim Hinzufügen eines vorhandenen Programms dauerhaft von einem Portfolio in ein anderes verschoben.
 
@@ -62,9 +62,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
 1. Klicken Sie auf **[!UICONTROL Vorhandenes Programm]**.
 
-   <span class="preview">Das Feld **Programme hinzufügen** wird geöffnet.</span> <!--check screen shot - I logged changes for this casing-->
+   Das **„Programme hinzufügen** wird geöffnet. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![Feld „Programm hinzufügen“](assets/add-programs-box.png)</span>
+   ![Feld „Programm hinzufügen“](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Sie können mehr als ein Programm hinzufügen.
 
-1. (Optional) Klicken Sie auf das <span class="preview">**Löschen**-Symbol ![Löschen](assets/delete-icon.png)</span> neben dem Namen eines Programms, wenn Sie es nicht zum Portfolio hinzufügen möchten.
+1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png) neben dem Namen eines Programms, wenn Sie es nicht zum Portfolio hinzufügen möchten.
 
 1. Klicken Sie **[!UICONTROL Programme hinzufügen]**. <!--check this button in the UI after they implemented the changes??-->
 
