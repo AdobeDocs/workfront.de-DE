@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 1%
 
 ---
@@ -25,14 +25,13 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Admin und Setup
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### Aktualisierungen der Benutzeroberfläche für die Seite Daten importieren (Kickstarts)
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Vorschau-Version: 29. Mai 2025; Produktionsversion: 5. Juni 2025**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+Die Seite zum Datenimport (Kickstarts) im Bereich „Setup“ wurde mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt. Außerdem wurde der Kickstart-Importvorgang optimiert, sodass die ausgewählte Datei sofort hochgeladen wird. Sie müssen nicht mehr auf eine separate Schaltfläche **Hochladen** klicken, um den Import abzuschließen, nachdem Sie die Datei ausgewählt haben.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+Weitere Informationen finden Sie unter [Importieren von Daten in Workfront mithilfe einer Kickstart-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Aktualisierung der Benutzeroberfläche für die Registerkarte „Zugriffsprotokoll“ im Setup
 

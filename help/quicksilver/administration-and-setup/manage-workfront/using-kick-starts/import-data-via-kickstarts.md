@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2894'
 ht-degree: 6%
 
 ---
 
 # Daten mithilfe einer Kickstart-Vorlage in Workfront importieren
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -453,7 +455,7 @@ Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwe
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
+   * Benennen Sie die neue Spalte mit dem Namen {0#setRoleIDROLE **.**
    * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
 
      Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.
@@ -490,10 +492,17 @@ So importieren Sie die Tabellenkalkulationsvorlagendaten in Workfront:
 
 1. Klicken Sie **Abschnitt Daten mit Kickstart-** hochladen auf **Datei auswählen** navigieren Sie dann zu und wählen Sie das ausgefüllte Arbeitsblatt aus.
 
-1. Klicken Sie auf **Hochladen.**
+   <div class="preview">
 
-   Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt ein Timeout der Anwendung auf, und Workfront kann die Datei nicht hochladen.
+   In der Vorschau-Umgebung wird die Datei automatisch hochgeladen und eine Benachrichtigung über den erfolgreichen Import wird angezeigt.
 
-   Importieren Sie Ihre Daten in kleinere Objektstapel.
+   Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt ein Timeout der Anwendung auf, und Workfront kann die Datei nicht hochladen. Importieren Sie Ihre Daten in kleinere Objektstapel.
 
-1. (Bedingt) Wenn Sie Workfront Fusion verwenden, können Sie jetzt Ihre FLOs oder Szenarien aktivieren.
+   </div>
+
+1. (Nur in der Produktionsumgebung) Klicken Sie auf **Hochladen**.
+
+   Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt ein Timeout der Anwendung auf, und Workfront kann die Datei nicht hochladen. Importieren Sie Ihre Daten in kleinere Objektstapel.
+
+1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung, die Sie über das Problem informiert. Versuchen Sie, das Feld, das Blatt und die Zeilennummer zu identifizieren, in der das Problem aufgetreten ist, und korrigieren Sie die Informationen in der Excel-Datei. Versuchen Sie dann erneut, die Datei zu importieren.
+1. (Bedingt) Wenn Sie Workfront Fusion verwenden, können Sie jetzt Ihre FLOs oder Szenarien nach Abschluss des Imports aktivieren.

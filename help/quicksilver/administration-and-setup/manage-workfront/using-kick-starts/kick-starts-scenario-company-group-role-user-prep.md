@@ -5,13 +5,13 @@ keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
 navigation-topic: use-kick-starts
 title: 'Kickstarts-Szenario: Unternehmen, Gruppe, Rolle und Benutzer-Kickstarts Vorbereitung'
 description: Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anstelle der manuellen Eingabe von Daten Ihre Kundenliste, interne Abteilungen, Aufgabengebiete und Benutzerinformationen importieren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 1. Klicken Sie **Weitere Optionen**, um die vollständige Liste der Importoptionen anzuzeigen.
 1. Wählen Sie Zugriffsebene, Unternehmen, Gruppe, Aufgabengebiet und Benutzerobjekte aus, die Sie importieren möchten.
+1. Klicken Sie **Herunterladen**.
 
 ## Firmeninformationen eingeben
 
@@ -181,69 +182,67 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
    >
    >Wenn Sie mit sehr breiten Datenblättern arbeiten, können Sie das Tool zum Einfrieren (oder Ähnliches) Ihres Tabelleneditors verwenden, um die Arbeit mit der Tabelle zu vereinfachen.
 
-1. Zum Blatt „Firma“ gehen.
+1. Navigieren Sie zum Blatt **Firma**.
 
    Es sollte leer bleiben, es sei denn, Unternehmen sind bereits im System. ![Firmenblatt](assets/cmpysheet-350x16.png)
 
    ![Unternehmens-ID](assets/companyid--1--350x78.png)
 
-1. Geben Sie TRUE in die Spalte **isNew** ein.
-1. Wiederholen Sie diese Aktion für jede hinzugefügte Firma. (Führen Sie in diesem Beispiel diese Aktion für die Zeilen 3-6 aus, da vier Unternehmen hinzugefügt werden.)
+1. Geben Sie **TRUE** in die Spalte **isNew** ein.
+
+   Wiederholen Sie diese Aktion für jede hinzugefügte Firma. (Führen Sie in diesem Beispiel diese Aktion für die Zeilen 3-6 aus, da vier Unternehmen hinzugefügt werden.)
 
    ![Unternehmen ist neu](assets/cmpyisnew-350x86.png)
 
-1. Geben Sie eine eindeutige ID an.
+1. Geben Sie eine eindeutige **ID** ein.
 
-   Dies muss für jede Zeile der Spalte ID erfolgen. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
+   Sie müssen für jede Zeile eine ID eingeben. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
 
    ![Unternehmen ist neu](assets/cmpyisnew-350x86.png)
 
-1. Einen Namen festlegen.
-
-   Geben Sie die Namen der einzelnen Kunden in der Spalte **setName** an.
+1. Geben Sie die Namen der einzelnen Kunden in der Spalte **setName** ein.
 
    ![Unternehmens-ID](assets/companyid-350x78.png)
 
-1. Navigieren Sie zur Tabelle GRUPPE .
+1. Navigieren Sie zur **GROUP** Tabelle.
 
    Sofern Sie noch keine Gruppen in Workfront erstellt haben, sollte dieses Blatt nur die Standardgruppe anzeigen, die mit jedem Konto von Workfront bereitgestellt wurde.
 
    ![Gruppenblatt](assets/groupsheet-350x15.png) ![Leeres Gruppenblatt](assets/emptygroupsheet-350x85.png)
 
-1. Legen Sie die Spalte **isNew** fest. Je nach Szenario werden 4 Gruppen importiert. Geben Sie also „TRUE“ in die Zeilen 4 bis 7 für die Spalte „isNew“ ein.
-1. Geben Sie eine eindeutige ID an.
+1. Geben Sie **TRUE** in die Spalte **isNew** ein.
 
-   Dies muss für jede Zeile der Spalte ID erfolgen. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
+   Je nach Szenario werden 4 Gruppen importiert. Geben Sie daher **TRUE** in die Spalte **isNew** für die Zeilen 4 bis 7 ein.
+
+1. Geben Sie eine eindeutige **ID** ein.
+
+   Sie müssen für jede Zeile eine ID eingeben. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
 
    ![Gruppen-IDs](assets/groupids-350x85.png)
 
-1. Einen Namen festlegen.
-
-   Geben Sie die Namen der einzelnen Abteilungen in der Spalte &quot;**&quot;**.
+1. Geben Sie die Namen der einzelnen Abteilungen in der Spalte **setName** ein.
 
    ![Gruppennamen](assets/groupnames-350x85.png)
 
-   Geben Sie Rolleninformationen an. Navigieren Sie zum Funktionsblatt.
+1. Navigieren Sie zum Blatt **Rolle**.
 
-1. Sofern Sie in Ihrem Konto noch keine Rollen erstellt oder gelöscht haben, sollte dieses Blatt acht Rollen anzeigen, die mit jedem Konto von Workfront bereitgestellt werden.
+   Sofern Sie in Ihrem Konto noch keine Rollen erstellt oder gelöscht haben, sollte dieses Blatt acht Rollen anzeigen, die mit jedem Konto von Workfront bereitgestellt werden.
 
    ![Gruppennamen](assets/groupnames-350x85.png)
 
-1. True-Anweisung festlegen.
+1. Geben Sie **TRUE** in die Spalte **isNew** ein.
 
-   Es werden sieben Aufgabengebiete importiert. Geben Sie TRUE in die Zeilen 12 bis 18 für die Spalte „isNew“ ein.
+   Je nach Szenario werden 7 Aufgabengebiete importiert. Geben Sie daher **TRUE** in der Spalte **isNew** für die Zeilen 12 bis 18 ein.
 
    ![Rolle ist neu](assets/roleisnew-350x104.png)
 
-1. Geben Sie eine eindeutige ID an.
+1. Geben Sie eine eindeutige **ID** ein.
 
-   Dies muss für jede Zeile der Spalte ID erfolgen. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
-
-   ![Benutzerblatt](assets/usersheet-350x16.png)
+   Sie müssen für jede Zeile eine ID eingeben. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
 
    ![Rolle ist neu](assets/roleisnew--1--350x104.png)
 
-1. Geben Sie für jede Rolle einen Namen an, indem Sie ihn in die Spalte „setName“ eingeben.
+1. Geben Sie in der Spalte **setName“ einen Namen für** Rolle ein.
 
    ![Rolle ist neu](assets/roleisnew-350x104.png)
 
@@ -251,45 +250,49 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
    Geben Sie bei Bedarf Abrechnungssätze, Kostensätze und Beschreibungen für die Rollen an, die Sie erstellen.
 
-1. Gehen Sie zum Benutzerblatt, um Benutzerinformationen einzugeben.
+1. Navigieren Sie zum **USER**-Blatt.
 
    Sofern Sie noch keine Benutzenden in Ihrem Konto erstellt haben, sollte dieses Blatt nur die Admin-Benutzenden anzeigen, die mit jedem Konto von Workfront ausgestattet sind.
 
-   ![Rollennamen](assets/rolenames-350x104.png) ![Leeres Benutzerblatt](assets/emptyusersheet-350x52.png)
+   ![Benutzerblatt](assets/usersheet-350x16.png) ![Leeres Benutzerblatt](assets/emptyusersheet-350x52.png)
 
-1. Legen Sie den Wert „True“ fest, indem Sie TRUE in die Zeilen 4 bis 9 für die Spalte „isNew“ eingeben, da 6 Benutzer importiert werden.
+1. Geben Sie **TRUE** in die Spalte **isNew** ein.
 
-   ![Benutzer ist neu](assets/userisnew-350x52.png)
-
-1. Legen Sie eine eindeutige ID fest, indem Sie in jeder Zeile für die Spalte ID eine eindeutige ID angeben. Normalerweise funktionieren Ganzzahlen, die bei 1 beginnen, gut für neue Datensätze.
+   Je nach Szenario werden 6 Benutzer importiert. Geben Sie daher **TRUE** in der Spalte **isNew** für die Zeilen 4 bis 9 ein.
 
    ![Benutzer ist neu](assets/userisnew-350x52.png)
 
-1. Die Namen der einzelnen Benutzer in die Spalten „setFirstName“ und „setLastName“ eingeben.
+1. Geben Sie eine eindeutige **ID** ein.
+
+   Sie müssen für jede Zeile eine ID eingeben. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
+
+   ![Benutzer ist neu](assets/userisnew-350x52.png)
+
+1. Geben Sie die Namen der einzelnen Benutzer in die Spalten **setFirstName** und **setLastName** ein.
 
    ![Benutzernamen](assets/usernames-350x52.png)
 
-1. Legen Sie Detailwerte fest, indem Sie Werte in die Spalten „setEmail“, „setPassword“ und „setUsername“ eingeben.
+1. Legen Sie Detailwerte fest, indem Sie Werte in die Spalten **setEmail**, **setPassword** und **setUsername** eingeben.
 
    ![Benutzeranmeldeinformationen](assets/usercredentials-350x52.png)
 
 1. Geben Sie Werte für die Zugriffsebene an.
 
-   Beispiel: Chris Manning, der ein Teammitglied ist, sucht im Blatt „ACSLVL-Zugriffsebene“ nach der ID für die Zugriffsebene der Teammitglieder. Kopieren Sie die ID in die Zwischenablage und fügen Sie sie im Benutzerblatt in die Spalte **setAccessLevelID** in der Zeile von Chris ein.
+   Chris Manning ist zum Beispiel Teammitglied. Suchen Sie die ID auf dem Blatt **ACSLVL Access Level** für die Zugriffsebene der Teammitglieder. Kopieren Sie die ID und fügen Sie sie auf **Blatt** USER“ in die Spalte **setAccessLevelID** in der Zeile dieses Benutzers ein.
 
    Wiederholen Sie diesen Schritt für jeden Benutzer und jede Zugriffsebene.
 
    ![Zugriffsebenen-ID kopieren](assets/copyalid-350x171.png) ![Zugriffsebenen-ID einfügen](assets/pastealid-350x59.png)
 
-1. Details zur Hauptgruppe angeben.
+1. Geben Sie die Details der Hauptgruppe des Benutzers ein.
 
-   Gemäß dem Szenario gehört Chris Manning zur Marketing-Gruppe. Suchen Sie auf dem Blatt GRUPPE die ID für die Marketing-Gruppe, kopieren Sie sie in die Zwischenablage und fügen Sie sie auf dem Blatt BENUTZER in die Spalte **setHomeGroupID** in der Zeile von Chris ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
+   Gemäß dem Szenario gehört Chris Manning zur Marketing-Gruppe. Suchen Sie auf dem Blatt **GRUPPE** die ID für die Marketing-Gruppe, kopieren Sie sie und fügen Sie sie auf dem Blatt **BENUTZER** in die Spalte **setHomeGroupID** in der Zeile des Benutzers ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
    ![Gruppen-ID kopieren](assets/copygroupid-1-350x133.png) ![Gruppen-ID einfügen](assets/pastegroupid-350x59.png)
 
-1. Geben Sie Details zum Unternehmen an.
+1. Geben Sie die Unternehmensdetails des Benutzers ein.
 
-   Alle Benutzer in diesem Szenario gehören demselben Unternehmen. Suchen Sie auf dem Blatt „Unternehmen kopieren“ die ID für das Unternehmen „Ihr eigenes Unternehmen“, kopieren Sie die ID in die Zwischenablage und fügen Sie diesen Wert auf der Registerkarte „Benutzer“ in jede Zeile der Spalte „setCompanyID“ ein&#x200B;
+   Alle Benutzer in diesem Szenario gehören demselben Unternehmen. Suchen Sie auf dem Blatt **Unternehmen** die ID für das Unternehmen **Ihre eigene Firma**, kopieren Sie die ID und fügen Sie auf der Registerkarte **BENUTZER** diesen Wert in jede Zeile der Spalte **setCompanyID** ein&#x200B;
 
    Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
@@ -297,9 +300,9 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
    ![Firmen-ID einfügen](assets/pastecompanyid-350x84.png)
 
-1. Geben Sie Details zum Aufgabengebiet an.
+1. Geben Sie die Aufgabengebiet-Details des Benutzers ein.
 
-   Dem Szenario zufolge wird Chris Manning die Rolle eines Unternehmensanalysten haben. Suchen Sie auf dem Blatt „Rolle“ die ID für die Rolle „Geschäftsanalyst“, kopieren Sie sie in die Zwischenablage und fügen Sie sie auf dem Blatt „Benutzer“ in die Zeile „setRoleID“ in der Zeile „Chris“ ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
+   Dem Szenario zufolge wird Chris Manning die Rolle eines Unternehmensanalysten haben. Suchen Sie im Blatt **Rolle** die ID für die Rolle „Geschäftsanalyst“, kopieren Sie sie und fügen Sie sie im Blatt **Benutzer** in die Spalte **setRoleID** in der Zeile des Benutzers ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
    ![Rollenkennung kopieren](assets/copyroleid-350x149.png)
 
@@ -311,11 +314,10 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
    Befolgen Sie die Anweisungen unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-
 >[!NOTE]
 >
 >Benutzende, die in Workfront importiert wurden, werden im Status Deaktiviert und Ausstehende Genehmigung erstellt.
 > 
 >Wenn Ihre Organisation in die Adobe Admin Console migriert wurde und ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlassen kann, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
 >
->Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
+>Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
