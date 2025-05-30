@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
