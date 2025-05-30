@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
 workflow-type: tm+mt
-source-wordcount: '13220'
+source-wordcount: '13222'
 ht-degree: 2%
 
 ---
@@ -1013,7 +1013,7 @@ ht-degree: 2%
       * [Tags hinzufügen](agile/get-started-with-boards/add-tags.md)
       * [Pinnwände - E-Mail-Benachrichtigungen und Voreinstellungen](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Verwenden von Agile-Planungs-Tools in Pinnwänden {#agile-planning-boards}
-      * [Übersicht über Agile-Planungstools](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+      * [Übersicht über Agile-Planungs-Tools: Artikelindex](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Verwalten des Work In Progress (WIP)-Limits auf einer Pinnwand](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Verwenden von Gruppen auf einer Pinnwand](agile/use-boards-agile-planning-tools/group-cards-on-board.md)

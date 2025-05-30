@@ -7,14 +7,16 @@ description: Das agile Story Board von Scrum wird zusammen mit dem Abschlussstat
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
 
 # Übersicht über [!UICONTROL Scrum]-Board
+
+<!-- Audited: 5/2025 -->
 
 Das [!UICONTROL Scrum] Agile-Story-Board wird zusammen mit dem Abschlussstatus und dem Burndown-Diagramm angezeigt. Diese agilen Komponenten sind in den folgenden Situationen in [!UICONTROL Adobe Workfront verfügbar]:
 
@@ -29,31 +31,31 @@ Das [!UICONTROL Scrum] Agile-Story-Board wird zusammen mit dem Abschlussstatus u
 
 Das Story Board besteht aus folgenden Elementen:
 
-* **[!UICONTROL Übergeordnete Story] Spalte:** Im Gegensatz zu den anderen Spalten auf dem Story Board ist die Spalte [!UICONTROL Übergeordnete Story] kein Aufgabenstatus, sondern dient zur Unterbringung von Storys, die Unteraufgaben in der Iteration oder im Projekt enthalten. Nur übergeordnete Storys, die mindestens eine Unteraufgabe auf dem Storyboard haben, können sich in dieser Spalte befinden. Die übergeordneten Storys selbst wechseln nicht über das Storyboard hinweg vom Status zum Status .
+* **Übergeordnete Story-Spalte**: Im Gegensatz zu den anderen Spalten auf dem Story Board ist die Spalte [!UICONTROL Übergeordnete Story] kein Aufgabenstatus, sondern dient zur Unterbringung von Storys, die Unteraufgaben in der Iteration oder im Projekt enthalten. Nur übergeordnete Storys, die mindestens eine Unteraufgabe auf dem Storyboard haben, können sich in dieser Spalte befinden. Die übergeordneten Storys selbst wechseln nicht über das Storyboard hinweg vom Status zum Status .
 
   In einer Iteration wird diese Spalte nur dann im Story Board angezeigt, wenn mindestens eine Story Board mindestens eine Teilaufgabe enthält, die die folgenden Anforderungen erfüllt:
 
-   * Diesem agilen Team wie die übergeordnete Aufgabe zugewiesen
-   * Gehört zur Iteration
+   * Diesem agilen Team wie die übergeordnete Aufgabe zugewiesen.
+   * Gehört zur Iteration.
 
      In einem Projekt wird diese Spalte immer dann angezeigt, wenn eine Aufgabe mindestens eine Teilaufgabe hat.
 
      ![Übergeordnete Story-Spalte](assets/agile-parentstory-swimlane.png)
 
-* **Aufgabenstatus:** Sie an, wie eine Story durch die Iteration oder das Projekt verläuft, je nachdem, in welcher Statusspalte sich die Story befindet.
+* **Aufgabenstatus**: Gibt an, wie eine Story durch die Iteration oder das Projekt verläuft, je nachdem, in welcher Statusspalte sich die Story befindet.
 
-  Der Aufgabenstatus kann für das Projekt angepasst werden, indem die Agile-Ansicht wie unter „Erstellen [ Anpassen einer Agile-Ansicht“ in ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)Übersicht über [ in [!UICONTROL Adobe Workfront&quot; beschrieben &#x200B;]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Der Aufgabenstatus kann für das Projekt angepasst werden, indem die Agile-Ansicht geändert wird.
 
-* **Schwimmspur:** Wenn eine übergeordnete Story und ihre Unteraufgaben auf dem Storyboard angezeigt werden, wird eine Schwimmspur speziell für die Story und ihre Unteraufgaben erstellt. Dies bietet eine visuelle Unterscheidung, um besser zu erkennen, wie die Unteraufgaben einer Story über die Story-Tafel hinweg voranschreiten.
+* **Schwimmspur**: Wenn eine übergeordnete Story und ihre Unteraufgaben auf dem Storyboard angezeigt werden, wird eine Schwimmspur speziell für die Story und ihre Unteraufgaben erstellt. Dies bietet eine visuelle Unterscheidung, um besser zu erkennen, wie die Unteraufgaben einer Story über die Story-Tafel hinweg voranschreiten.
 
   In einer Iteration werden Schwimmspuren nur dann auf dem Story Board angezeigt, wenn eine Story auf dem Story Board mindestens eine Teilaufgabe enthält, die die folgenden Anforderungen erfüllt:
 
-   * Diesem agilen Team wie die übergeordnete Aufgabe zugewiesen
-   * Gehört zur Iteration
+   * Diesem agilen Team wie die übergeordnete Aufgabe zugewiesen.
+   * Gehört zur Iteration.
 
   In einem Projekt werden Schwimmspuren immer dann angezeigt, wenn eine Aufgabe mindestens eine Unteraufgabe oder eine übergeordnete Aufgabe hat.
 
-* **Individuelle Storys:** Individuelle Storys und Probleme werden unterhalb von Schwimmspuren auf dem Storyboard angezeigt. Dies bietet eine visuelle Unterscheidung zu den Geschichten, die Teil einer Schwimmspur sind.
+* **Individuelle Geschichten**: Einzelne Geschichten und Probleme werden unter allen Schwimmspuren auf dem Storyboard angezeigt. Dies bietet eine visuelle Unterscheidung zu den Geschichten, die Teil einer Schwimmspur sind.
 
 ## Beziehung zwischen Teilaufgaben und Storys
 
@@ -64,10 +66,6 @@ Wenn beispielsweise eine Story nur eine Teilaufgabe mit 4 Punkten hat, hat die S
 Dieselbe Logik gilt für Teilaufgaben der zweiten Ebene (Teilaufgaben von Teilaufgaben). Wenn eine Unteraufgabe eine oder mehrere Unteraufgaben der zweiten Ebene aufweist, wird die Unteraufgabe basierend auf den Unteraufgaben der zweiten Ebene berechnet.
 
 ## Beziehung zwischen dem Story Board und dem Auftragsbestand
-
->[!NOTE]
->
->Die Informationen in diesem Abschnitt gelten nur für agile Ansichten einer Iteration. Für agile Ansichten eines Projekts wird kein Rückstand verwendet. (Weitere Informationen zu den Unterschieden zwischen agilen Ansichten einer Iteration und eines Projekts finden Sie unter „Unterschiede bei Verwendung der [!UICONTROL Agile]-Ansicht in einem Projekt Verse in einer Iteration“ in [Verwalten eines Projekts in der Agile-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).)
 
 Der Iterationsrückstand zeigt nur Storys oder Unteraufgaben an, für die Sie einen Kostenvoranschlag festlegen können. Wenn eine übergeordnete Story Unteraufgaben aufweist, die auf dem Story Board angezeigt werden (da sie demselben agilen Team zugewiesen sind und zur Iteration gehören), wird die übergeordnete Aufgabe nicht im Rückstand angezeigt. In diesem Fall werden nur die Unteraufgaben im Rückstand angezeigt, während die Unteraufgaben und die übergeordnete Story auf dem Story Board angezeigt werden.
 

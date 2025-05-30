@@ -7,7 +7,7 @@ description: Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -110,7 +110,7 @@ Genehmigungen von Korrekturabzügen müssen im Workflow für Korrekturabzüge hi
 
 ## Versionen
 
-Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png), um Folgendes auszuführen:
+Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png), um Folgendes auszuführen:
 
 * Öffnen Sie einen Korrekturabzug.
 * Herunterladen eines Korrekturabzugs oder Dokuments.

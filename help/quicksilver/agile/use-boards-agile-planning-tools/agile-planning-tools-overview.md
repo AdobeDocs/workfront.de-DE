@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Übersicht über Agile-Planungs-Tools
-description: Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, sollten Sie zusätzliche agile Planungswerkzeuge auf Pinnwänden nutzen.
+title: 'Übersicht über Agile-Planungs-Tools: Artikelindex'
+description: Wenn Sie ein Board mit Ad-hoc- und verbundenen Karten erstellen, können Sie auf Boards zusätzliche agile Planungswerkzeuge nutzen.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Übersicht über Agile-Planungstools
+# Übersicht über Agile-Planungs-Tools: Artikelindex
 
-Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, sollten Sie zusätzliche agile Planungstools nutzen.
+<!-- Audited: 5/2025 -->
+
+Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, können Sie zusätzliche agile Planungswerkzeuge nutzen.
 
 Zu den nützlichen Tools für Kanban gehören:
 
