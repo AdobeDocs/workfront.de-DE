@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Hochladen von Testsendungen aus Adobe Photoshop
-description: Sie können Ihre Grafiktafeln als Korrekturabzüge direkt in Adobe Workfront hochladen, um sie gründlich zu prüfen und zu genehmigen.
+description: Sie können Fotodokumentvorgaben als Korrekturabzüge direkt in hochladen [!DNL Adobe Workfront]  um eine gründliche Überprüfung und Genehmigung zu erhalten.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Hochladen von Testsendungen aus [!DNL Photoshop]
 
-Sie können Ihre Grafiktafeln als Korrekturabzüge direkt in [!DNL Adobe Workfront] hochladen, um sie gründlich zu prüfen und zu genehmigen.
+Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direkt in [!DNL Adobe Workfront] hochladen, um sie gründlich zu überprüfen und zu genehmigen.
+
+>[!IMPORTANT]
+>
+>Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html) beschrieben.
+
+
 
 ## Zugriffsanforderungen
 
@@ -45,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
