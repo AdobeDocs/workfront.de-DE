@@ -59,7 +59,7 @@ So zeigen Sie ein Element an, das Sie zuvor als Favorit hinzugefügt haben:
 
 ## Element als Favorit hinzufügen
 
-Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite ].
+Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite &#x200B;].
 
 * [Zuletzt verwendete Elemente als Favoriten hinzufügen](#add-recent-items-as-a-favorite)
 * [Aktuelles Element als Favorit hinzufügen](#add-the-current-item-as-a-favorite)
