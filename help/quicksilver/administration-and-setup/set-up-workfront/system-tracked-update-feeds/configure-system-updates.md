@@ -3,21 +3,23 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systemaktualisierungen konfigurieren
-description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
+description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '823'
 ht-degree: 8%
 
 ---
 
 # Systemaktualisierungen konfigurieren
 
-[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die folgenden Ereignisse aufzuzeichnen:
+<!-- Audited: 5/2025 -->
+
+[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die folgenden Ereignisse aufzuzeichnen:
 
 * Änderungen, die Benutzer in einem Objektfeld vornehmen
 * Aktionen, die Benutzer für ein Objekt ausführen
@@ -37,8 +39,6 @@ Sie könnten beispielsweise alle Änderungen nachverfolgen [!DNL Workfront], die
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +79,7 @@ Sie können bestimmen, welche Informationen [!DNL Workfront] nachverfolgt, wenn 
 
 
 * [Felder hinzufügen,  [!DNL Workfront]  verfolgt werden sollen](#add-fields-you-want-workfront-to-track)
-* [Felder entfernen, die nicht verfolgt werden sollen](#remove-fields-that-you-don-t-want-tracked)
+* [Felder entfernen, die nicht verfolgt werden sollen](#remove-fields-you-don-t-want-tracked)
 
 ### Felder hinzufügen, die verfolgt werden [!DNL Workfront] {#add-fields-you-want-workfront-to-track}
 
@@ -87,37 +87,33 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
 
 >[!NOTE]
 >
->Sie können bis zu 300 integrierte und benutzerdefinierte Felder in den Aktualisierungs-Feeds verfolgen. Wenn Sie die maximale Anzahl von Feldern nachverfolgen und zusätzliche Felder nachverfolgen möchten, die nicht auf der Unterregisterkarte [!UICONTROL Alle Felder] angezeigt werden, müssen Sie zunächst einige der nachverfolgten Felder entfernen, um neue Felder nachverfolgen zu können. Weitere Informationen zum Entfernen von Feldern aus den Aktualisierungsfeldern finden Sie unter [Entfernen von Feldern, die nicht verfolgt werden sollen](#remove-fields-that-you-don-t-want-tracked).
+>Sie können bis zu 300 integrierte und benutzerdefinierte Felder in den Aktualisierungs-Feeds verfolgen. Wenn Sie die maximale Anzahl von Feldern verfolgen und zusätzliche Felder verfolgen möchten, die nicht auf der Unterregisterkarte [!UICONTROL Alle Felder] angezeigt werden, müssen Sie zunächst einige der verfolgten Felder entfernen, um neue Felder zu verfolgen. Weitere Informationen zum Entfernen von Feldern aus den Aktualisierungsfeldern finden Sie unter [Entfernen von Feldern, die nicht verfolgt werden sollen](#remove-fields-you-don-t-want-tracked).
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicken Sie im Bedienfeld links auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
+1. Klicken Sie im Bedienfeld links auf **[!UICONTROL Schnittstelle]** und dann auf **[!UICONTROL Feeds aktualisieren]**.
 
-1. &#x200B;Klicken Sie auf **[!UICONTROL Felder hinzufügen]** und klicken Sie dann auf das Objekt, das verfolgt werden soll.
+1. &#x200B;Klicken Sie auf **[!UICONTROL Felder hinzufügen]** und wählen Sie dann aus der Dropdown-Liste das Objekt aus, das Sie nachverfolgen möchten.
 
-1. **[!UICONTROL Beginnen Sie im &#x200B;]** Aktualisierungsfeeds“ mit der Eingabe eines integrierten (standardmäßigen) Felds oder eines benutzerdefinierten Felds für das Objekt und klicken Sie auf das Objekt, um es auszuwählen, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie in das angezeigte Feld mit der Eingabe eines integrierten (standardmäßigen) Felds oder eines benutzerdefinierten Felds für das Objekt und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-   Wenn [!DNL Workfront] das Feld bereits nachverfolgt, können Sie es nicht erneut aus der Liste hinzufügen.
+   >[!NOTE]
+   >
+   >Wenn [!DNL Workfront] das Feld bereits nachverfolgt, können Sie es nicht ein zweites Mal aus der Liste hinzufügen.
 
-1. Nachdem Sie alle Felder hinzugefügt haben, die Sie verfolgen [!DNL Workfront], klicken Sie auf **[!UICONTROL Felder hinzufügen]**.
+1. Nachdem Sie alle Felder hinzugefügt haben, die Sie verfolgen [!DNL Workfront], klicken Sie auf **[!UICONTROL Felder hinzufügen]**. Die hinzugefügten integrierten Felder werden auf der Unterregisterkarte **[!UICONTROL Integrierte Felder]** und die benutzerdefinierten Felder auf der Unterregisterkarte **[!UICONTROL Benutzerdefinierte Felder]** angezeigt.
 
-   Die hinzugefügten integrierten Felder werden auf der Unterregisterkarte **[!UICONTROL Integrierte Felder]** angezeigt.
+   Die Unterregisterkarte **[!UICONTROL Alle Felder]** zeigt sowohl die integrierten als auch die benutzerdefinierten Felder, die verfolgt werden.
 
-   Die hinzugefügten benutzerdefinierten Felder werden auf der Unterregisterkarte **[!UICONTROL Benutzerdefinierte Felder]** angezeigt.
-
-   Die Unterregisterkarte **[!UICONTROL Alle Felder]** zeigt sowohl die integrierten als auch die benutzerdefinierten Felder an, die verfolgt werden.
-
-### Felder entfernen, die nicht verfolgt werden sollen {#remove-fields-that-you-don-t-want-tracked}
+### Felder entfernen, die nicht verfolgt werden sollen {#remove-fields-you-don-t-want-tracked}
 
 Sie können Felder entfernen, die das System nicht für einen bestimmten Objekttyp über die [!DNL Workfront] nachverfolgen soll.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
+1. Klicken Sie **[!UICONTROL Schnittstelle]** und dann **[!UICONTROL Feeds aktualisieren]**.
 
-1. Wählen Sie auf **[!UICONTROL Registerkarte]** Getrackte Felder **[!UICONTROL die Unterregisterkarte Alle Felder]** aus.
-
-   Hier werden sowohl die integrierten als auch die benutzerdefinierten Felder angezeigt, die derzeit verfolgt werden.
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Getrackte Felder“ die Unterregisterkarte **[!UICONTROL Alle Felder]** aus. Sowohl die integrierten als auch die benutzerdefinierten Felder, die derzeit verfolgt werden, werden angezeigt.
 
 1. Wählen Sie das Feld aus, das Sie nicht mehr verfolgen möchten, und klicken Sie dann auf **[!UICONTROL Entfernen]**.
 
@@ -198,13 +194,13 @@ Sie können beispielsweise jedes Mal eine Aktualisierung aufzeichnen [!DNL Workf
 
 So konfigurieren Sie, welche Aktionen Sie verfolgen [!DNL Workfront]:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
+1. Klicken Sie **[!UICONTROL Schnittstelle]** und dann **[!UICONTROL Feeds aktualisieren]**.
 
 1. Klicken Sie auf **[!UICONTROL Registerkarte]** Aktionen“.
 
-1. Wählen Sie eine Aktion aus, um sie zu aktivieren, oder heben Sie die Auswahl einer Aktion auf, um sie zu deaktivieren.
+1. Aktivieren Sie das Kontrollkästchen einer Aktion, um sie zu aktivieren, oder deaktivieren Sie sie, um sie zu deaktivieren.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Wenn Sie eine Aktion deaktivieren, werden alle zuvor aufgezeichneten Aktualisierungen zu dieser Aktion im Bereich [!UICONTROL Updates] beibehalten, in dem sie aufgezeichnet wurde.

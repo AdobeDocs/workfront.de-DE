@@ -2,19 +2,19 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: Programmübersicht in [!DNL Adobe Workfront]
+title: Programme - Übersicht
 description: Ein Programm ist eine Sammlung von Projekten mit einheitlichen Merkmalen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitfenster. Programme sind eine Untergruppe von Portfolios. Sie können Projekte mit Programmen verknüpfen, bevor sie einem Portfolio hinzugefügt werden.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
 
-# Programmübersicht in [!DNL Adobe Workfront]
+# Programmübersicht
 
 <!-- Audited: 09/2024 -->
 
@@ -33,12 +33,12 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Portfolios zu erste
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
    <td> <p>Neu: Beliebig</p>
    <p>Aktuell: [!UICONTROL Business] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p>
    <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
@@ -57,7 +57,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Portfolios zu erste
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Überlegungen zur Arbeit mit Programmen
@@ -88,10 +88,10 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Portfolios zu erste
    * Ein Programm kann mehrere Projekte umfassen.
 
   Informationen zum Erstellen von Projekten und Portfolios finden Sie in den folgenden Artikeln:
-   * [Projekt erstellen](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+   * [Erstellen eines Projekts](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
    * [Erstellen von Portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * Mit dem Portfolio-Optimizer können Sie die Leistung aller Projekte innerhalb eines Portfolios analysieren. Es ist nicht möglich, die Leistung mehrerer Projekte innerhalb desselben Programms allein zu vergleichen. Sie müssen die Projektleistung auf Portfolioebene analysieren.
 
-  Weitere Informationen finden Sie unter [Optimieren von Projekten im Portfolio-Optimizer](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+  Weitere Informationen finden Sie unter [Optimieren von Projekten im Portfolio Optimizer](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).

@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Übersicht über das Commit-Datum
-description: Das Commit-Datum ist das Datum, zu dem sich ein Benutzer, der einer Aufgabe oder einem Problem zugewiesen wurde, verpflichtet hat, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum, da es eine realistischere Schätzung des Abschlussdatums ist, die vom Benutzer angegeben wird, der direkt für die Arbeit verantwortlich ist.
+description: Das Commit-Datum ist das Datum, zu dem sich ein Benutzer einer Aufgabe oder eines Problems verpflichtet hat, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum, da es eine realistischere Schätzung des Abschlussdatums ist, die vom Benutzer angegeben wird, der direkt für die Arbeit verantwortlich ist.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Übersicht über das Commit-Datum
 
-<!--Audited: 07/2024-->
+<!--Audited: 05/2025-->
 
 <!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
@@ -24,9 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
-Das Commit-Datum ist das Datum, zu dem sich ein Benutzer, der einer Aufgabe oder einem Problem zugewiesen wurde, verpflichtet hat, die Aufgabe oder das Problem abzuschließen.
-
-Dies unterscheidet sich vom geplanten Abschlussdatum einer Aufgabe oder eines Problems, da es sich um eine realistischere Schätzung des Abschlussdatums handelt, die nur von dem Benutzer angegeben wird, der für die Arbeit verantwortlich ist.
+Das Commit-Datum ist das Datum, zu dem sich ein Benutzer einer Aufgabe oder eines Problems verpflichtet hat, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum einer Aufgabe oder eines Problems, da es eine realistischere Schätzung des Abschlussdatums ist, die nur von dem Benutzer gegeben wird, der für die Arbeit verantwortlich ist.
 
 Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -35,13 +33,11 @@ Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über da
 Beachten Sie beim Arbeiten mit Commit-Daten Folgendes:
 
 * Nur Aufgaben und Probleme haben ein Commit-Datum.
-* Commit-Termine werden von Adobe Workfront nicht automatisch festgelegt.\
-  Wenn Sie eine Aufgabe oder ein Problem erstellen, wird der Aufgabe oder dem Problem kein Commit-Datum zugewiesen.
+* Commit-Termine werden von Adobe Workfront nicht automatisch festgelegt. Wenn Sie eine Aufgabe oder ein Problem erstellen, wird ihr kein Commit-Datum zugewiesen.
 * Wenn Sie einer Aufgabe oder einem Problem zugewiesen sind, können Sie das Commit-Datum festlegen, indem Sie einen der folgenden Schritte ausführen:
 
-   * Workfront kann das Commit-Datum so festlegen, dass es dem vorhandenen geplanten Abschlussdatum der Aufgabe oder des Problems entspricht, indem für die Aufgabe oder das Problem auf „Bearbeiten“, „Problem starten“ oder „Aufgabe starten“ geklickt wird. Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ finden [ unter „Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * Legen Sie das Commit-Datum manuell selbst fest, je nachdem, wann Sie glauben, dass die Aufgabe oder das Problem abgeschlossen sein könnte. Dies ist Ihre Schätzung und Verpflichtung als Verantwortlicher gegenüber dem Projekt-Manager, dass die Aufgabe oder das Problem bis zu einem bestimmten Datum abgeschlossen sein wird.
-Weitere Informationen finden Sie unter [Aktualisieren von Commit-Daten für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+   * Workfront kann das Commit-Datum so festlegen, dass es dem vorhandenen geplanten Abschlussdatum der Aufgabe oder des Problems entspricht, indem für die Aufgabe oder das Problem auf „Bearbeiten“, „Problem starten“ oder „Aufgabe starten“ geklickt wird. Weitere Informationen finden Sie [Ersetzen der Schaltfläche Bearbeiten durch eine Schaltfläche Starten](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Stellen Sie das Commit-Datum manuell entsprechend dem Zeitpunkt ein, zu dem die Aufgabe oder das Problem Ihrer Meinung nach abgeschlossen sein wird. Dies ist Ihre Schätzung und Verpflichtung als Verantwortlicher gegenüber dem Projekt-Manager, dass die Aufgabe oder das Problem bis zu einem bestimmten Datum abgeschlossen sein wird. Weitere Informationen finden Sie unter [Aktualisieren von Commit-Daten für Aufgaben und Probleme](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -52,16 +48,16 @@ Weitere Informationen finden Sie unter [Aktualisieren von Commit-Daten für Aufg
 >* Ressourcenmanager
 >* Systemadministrator
 >* Beliebiger anderer Bevollmächtigter für die Aufgabe
->* Jeder andere Benutzer mit Berechtigungen für die Aufgabe.
+>* Jeder andere Benutzer mit Berechtigungen für die Aufgabe
 >
 >Weitere Informationen zum Aufgabenbesitzer finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Suchen des Commit-Datums von Aufgaben und Problemen
 
-Das Commit-Datum für Aufgaben und Probleme finden Sie in den folgenden Bereichen von Workfront:
+Das Commit-Datum von Aufgaben und Problemen finden Sie in den folgenden Bereichen von Workfront:
 
 * Die Detailseite
-* Nachdem ein Workfront- oder Gruppen-Administrator bzw. eine Administratorin das Bedienfeld Zusammenfassung zu Ihrer Layout-Vorlage hinzugefügt hat, erfolgt das Hinzufügen. Weitere Informationen finden Sie [Anpassen des Bedienfelds Zusammenfassung mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Das Bedienfeld Zusammenfassung , nachdem ein Workfront- oder Gruppen-Administrator es Ihrer Layout-Vorlage hinzugefügt hat. Weitere Informationen finden Sie [Anpassen des Bedienfelds Zusammenfassung mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Die Kopfzeile einer Aufgabe oder eines Problems, nachdem ein Workfront- oder Gruppenadministrator sie zu Ihrer Layout-Vorlage hinzugefügt hat. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Benachrichtigungen und Aktualisierungen, die durch eine Änderung des Commit-Datums ausgelöst werden {#notifications-and-updates-triggered-by-changing-the-commit-date}
@@ -76,11 +72,11 @@ Manuelles Festlegen des Commit-Datums für eine Aufgabe oder einen Problem-Trigg
 
 * Die Änderung des Verpflichtungsdatums wird in der Systemaktivität und auf den Registerkarten Alle des Abschnitts Aktualisieren der Aufgabe oder des Problems angezeigt.
 
-  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+  ![Benachrichtigung zur Änderung des Commit-Datums](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  Die Änderung des Commit-Datums wird im Bereich Aktualisierungen der Aufgabe oder des Problems angezeigt, wenn der Workfront-Administrator dieses Update im Bereich Aktualisierungen-Feeds im Setup aktiviert. Weitere Informationen finden Sie unter [System-getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Die Änderung des Übertragungsdatums wird im Bereich Aktualisierungen der Aufgabe oder des Problems angezeigt, wenn der Workfront-Administrator dieses Update im Bereich Aktualisierungen-Feeds im Setup aktiviert. Weitere Informationen finden Sie unter [System-getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Wenn ein Projektbesitzer die Änderung nicht akzeptieren möchte, empfehlen wir, dass er dem Benutzer, der ein neues Datum vorschlägt, über die Registerkarte Kommentare im Abschnitt Aktualisierungen einen Kommentar zurückgibt, um ihn zu bitten, das Commit-Datum wieder in das ursprüngliche geplante Datum zu ändern, oder ein neues Datum auszuwählen.
+  Wenn ein Projektbesitzer die Änderung nicht akzeptieren möchte, empfehlen wir, dass er dem Benutzer, der ein neues Datum vorschlägt, über die Registerkarte Kommentare im Abschnitt Aktualisierungen einen Kommentar zurückgibt, ihn bittet, das Commit-Datum wieder in das ursprüngliche geplante Datum zu ändern, oder ein neues Datum auswählt.
 
   Wenn ein Projektinhaber die Änderung akzeptiert, kann er das geplante Abschlussdatum manuell an das Commit-Datum anpassen, das der dem Element zugewiesene Benutzer angeboten hat, indem er die Aufgabe oder das Problem bearbeitet.
 
@@ -94,7 +90,7 @@ Manuelles Festlegen des Commit-Datums für eine Aufgabe oder einen Problem-Trigg
   >
   >* [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -109,13 +105,13 @@ Manuelles Festlegen des Commit-Datums für eine Aufgabe oder einen Problem-Trigg
 
 * Das voraussichtliche Abschlussdatum der Aufgabe oder des Problems ist auf dasselbe Datum festgelegt, da die Aufgabe jetzt einen genaueren Hinweis darauf enthält, wann sie wahrscheinlich abgeschlossen wird.
 
-  Weitere Informationen zum voraussichtlichen Abschlussdatum finden Sie unter [Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Weitere Informationen finden Sie unter [Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * Der Projektbesitzer wird im Bereich Benachrichtigungen darüber benachrichtigt, dass sich das Commit-Datum einer Aufgabe oder eines Problems geändert hat.
 
-  ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
+  ![Benachrichtigung zur Änderung des Commit-Datums](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>

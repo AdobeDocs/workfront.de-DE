@@ -7,14 +7,16 @@ description: Berechnete Zuweisung ist ein Dauertyp, den Sie für eine Aufgabe in
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Dauertyp - Übersicht: Berechnete Zuweisung
+
+<!-- Audited: 5/2025 -->
 
 Berechnete Zuweisung ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Dauertypen in Workfront finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -31,7 +33,7 @@ Berechnete Zuweisung ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfr
 
 Berechnete Zuweisung ist in folgenden Situationen der bevorzugte Dauertyp:
 
-* Wenn Arbeitsaufträge ein Aktivitätsfenster haben, aber nicht die gesamte zugewiesene Dauer benötigen, um ihre Arbeit abzuschließen. Beispielsweise werden Sie beauftragt, Ihrem Vorgesetzten bis zum Ende der Woche einen Bericht zu übermitteln. Sie haben eine Dauer von fünf Tagen, aber es dauert nur zehn Stunden, um das Dokument zu entwerfen.
+* Wenn Arbeitsaufträge ein Aktivitätsfenster haben, aber nicht die gesamte zugewiesene Dauer benötigen, um ihre Arbeit abzuschließen. Beispielsweise werden Sie beauftragt, Ihrem Vorgesetzten bis zum Ende der Woche einen Bericht zu übermitteln. Sie haben eine Dauer von fünf Tagen, aber es dauert nur 10 Stunden, um das Dokument zu entwerfen.
 * Wenn einer Aufgabe eine einzelne Ressource zugewiesen wird, weil der Projektmanager die geplante Dauer und den geplanten Aufwand unabhängig voneinander schätzen kann.
 
   Sie können für dasselbe Ergebnis den Typ „Berechnete Arbeitsdauer“ verwenden. Der Projektmanager muss jedoch einen Prozentwert für die Zuordnung der Ressource eingeben, damit sich dies auf den berechneten Wert für „Geplante Stunden“ auswirkt. Dadurch wird die Projektplanung schwieriger und zeitaufwendiger.

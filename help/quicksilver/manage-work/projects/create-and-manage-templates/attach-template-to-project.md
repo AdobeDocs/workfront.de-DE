@@ -6,14 +6,16 @@ description: Sie können eine Vorlage entweder während der ersten Erstellungsph
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
 # Vorlage an ein Projekt anhängen
+
+<!-- Audited: 5/2025 -->
 
 Sie können eine Vorlage entweder während der ersten Erstellungsphase des Projekts oder nach seiner Erstellung an ein Projekt anhängen.
 
@@ -21,23 +23,26 @@ Weitere Informationen zum Erstellen eines Projekts mithilfe einer Vorlage finden
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Schritte durchzuführen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard</p>
+   <p>Oder</p>
+   <p>Aktuell: Plan</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten </p> <p>Informationen zum Projektzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Zugriff auf Projekte gewähren</a>.</p> <p>Zugriff auf Vorlagen anzeigen</p> <p>Informationen zu Vorlagenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Freigeben einer Vorlage</a>. </p> <p>Informationen zum Zugriff auf Vorlagen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten </p> <p>Informationen zum Projektzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Zugriff auf Projekte gewähren</a>.</p> <p>Zugriff auf Vorlagen anzeigen</p> <p>Informationen zu Vorlagenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Freigeben einer Vorlage</a>. </p> <p>Informationen zum Zugriff auf Vorlagen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen und Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -46,7 +51,9 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Sc
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Sc
 
 ## Vorlage an ein vorhandenes Projekt anhängen {#attach-a-template-to-an-existing-project}
 
-Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Projektliste oder einem Bericht an ein Projekt anhängen.
+Sie können eine Vorlage über die Projektseite oder eine Projektliste oder einen Bericht an ein Projekt anhängen.
 
-1. Wechseln Sie zu dem Projekt, an das Sie eine Vorlage anhängen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen
+{{step1-to-projects}}
 
-   ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Wählen Sie auf **Seite** das Projekt aus, dem Sie eine Vorlage anhängen möchten.
+
+1. Klicken Sie auf **Mehr**-Symbol ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+
+   ![Dropdown „Mehr“](assets/more-dropdown.png)
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf **Mehr** Symbol ![Mehr](assets/qs-more-icon-on-an-object.png)Symbol.
+   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das **Mehr** Symbol ![Mehr](assets/qs-more-icon-on-an-object.png)Symbol Mehr).
 
-   ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mehr Menü erweitert](assets/more-menu-expanded.png)
 
 
-1. Klicken Sie **Vorlage anhängen**.
+1. Klicken Sie **Vorlage anhängen**. Das Feld **Vorlage anhängen** wird angezeigt.
 
-   Das Feld Vorlage anhängen wird angezeigt.
-
-1. Geben Sie zunächst den Namen der Vorlage, die Sie anhängen möchten, in das Feld **Suchvorlagen** ein und klicken Sie dann auf sie, wenn sie angezeigt wird. in der Liste
+1. Geben Sie zunächst den Namen der Vorlage, die Sie anhängen möchten, in das Feld **Suchvorlagen** ein und klicken Sie dann auf die Vorlage, wenn sie in der Liste angezeigt wird.
 
    Oder
 
@@ -108,16 +117,12 @@ Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Pr
 
    ![Vorlagenfeld anhängen](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Optional) Klicken Sie auf **Favoriten**-Symbol ![Favoriten-](assets/favorites-icon-small.png)) links neben dem Vorlagennamen, um die Vorlage als Favorit zu markieren. Dadurch wird die Vorlage in die Favoritenliste verschoben.
+1. (Optional) Klicken Sie auf das Symbol **Favoriten** ![Favoritensymbol](assets/favorites-icon-small.png) rechts neben dem Vorlagennamen, um die Vorlage als Favorit zu markieren und in die Liste **Favoriten** zu verschieben.
 
-   ![Favoritensymbol in der Vorlagenliste](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. (Optional) Klicken Sie erneut auf das **Favoriten**-Symbol ![Favoriten](assets/favorites-icon-selected.png), um es aus der Liste **Favoriten** zu entfernen.
+1. Klicken Sie **Anpassen und anhängen**. Das Seitenbedienfeld **Vorlage anhängen** wird geöffnet.
 
-1. (Optional) Klicken Sie erneut auf **Favoriten**-Symbol ![Favoriten-Symbol](assets/favorites-icon-selected.png), um es aus der Favoritenliste zu entfernen.
-1. Klicken Sie **Anpassen und anhängen**.
-
-   ![Vorlage anhängen](assets/attach-template-large-box-nwe-350x262.png)
-
-1. Aktualisieren Sie die Informationen in den folgenden Abschnitten, bevor Sie die Vorlage anhängen (oder klicken Sie **Vorlage**):
+1. (Optional) Aktualisieren Sie die Informationen in den folgenden Abschnitten:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +137,7 @@ Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Pr
      </tr> 
      <tr> 
       <td role="rowheader">Wählen Sie die Projektaufgabe aus, die Sie als Vorgänger für die Aufgaben in dieser Vorlage haben möchten.</td> 
-      <td> <p>Klicken Sie auf das Feld, um eine Liste der Projektaufgaben anzuzeigen. Wählen Sie aus, welche Projektaufgabe abgeschlossen werden soll, bevor die Vorlagenaufgaben beginnen können. Alternativ können Sie diesen Schritt überspringen und Beziehungen innerhalb des Projekts einrichten, nachdem die Vorlage angehängt wurde. </p> <p> Wählen Sie die Informationen <strong>Abhängigkeitstyp</strong>, <strong>Verzögerung</strong> und aus, ob der Vorgänger <strong> werden soll </strong>. </p> </td> 
+      <td> <p>Klicken Sie auf das Feld, um eine Liste der Projektaufgaben anzuzeigen, und wählen Sie dann aus, welche Aufgabe abgeschlossen sein muss, bevor die Vorlagenaufgaben beginnen können. Alternativ können Sie diesen Schritt überspringen und Beziehungen innerhalb des Projekts einrichten, nachdem die Vorlage angehängt wurde. </p> <p> Wählen Sie die Informationen <strong>Abhängigkeitstyp</strong>, <strong>Verzögerungszeit</strong> und , wenn Sie möchten, dass der Vorgänger erzwungen wird, indem Sie das Kontrollkästchen <strong>Vorgänger erzwingen</strong> aktivieren. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wählen Sie die Projektaufgabe aus, die Sie als übergeordnetes Element der Aufgaben in dieser Vorlage haben möchten.</td> 
@@ -143,7 +148,7 @@ Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Pr
      </tr> 
      <tr> 
       <td role="rowheader">Die ausgewählten Elemente unten werden in das Projekt übertragen. Deaktivieren Sie die Auswahl der Einträge, die Sie ausschließen möchten.</td> 
-      <td> <p>Deaktivieren Sie die Kontrollkästchen neben den Informationen, die Sie aus der Vorlage entfernen möchten, bevor Sie sie an das Projekt anhängen. Diese Informationen werden nicht von der Vorlage an das Projekt übertragen. Weitere Informationen zu den einzelnen Feldern finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Übersicht über das Anhängen einer Vorlage an ein Projekt</a>. </p> <p>Wichtig: Wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> aktivieren, überschreiben die Warteschlangendetails der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> aktiviert lassen. <br>Wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> deaktivieren, bleiben alle Warteschlangeneinstellungen des Projekts erhalten und es werden keine Warteschlangeneinstellungen aus der Vorlage angehängt. </p> </td> 
+      <td> <p>Deaktivieren Sie die Kontrollkästchen für alle Informationen, die Sie aus der Vorlage ausschließen möchten, bevor Sie sie an das Projekt anhängen. Weitere Informationen zu den einzelnen Feldern finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Übersicht über das Anhängen einer Vorlage an ein Projekt</a>. </p> <p>Wichtig: Wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> aktivieren, überschreiben die Warteschlangendetails der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> aktiviert lassen. <br>Wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> deaktivieren, bleiben alle Warteschlangeneinstellungen des Projekts erhalten und es werden keine Warteschlangeneinstellungen aus der Vorlage angehängt. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Benutzerdefinierter Forms-Abschnitt</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -171,7 +176,7 @@ Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Pr
 
    Nachdem Sie die Vorlage angehängt haben, können Sie das Projekt bearbeiten und alle Aufgaben, Informationen oder Einstellungen nach Bedarf anpassen.
 
-1. (Optional) Klicken Sie auf **Projektdetails** und dann **Übersicht**, um den Namen der Vorlage anzuzeigen, die Sie im Bereich **Projektbeziehungen** angehängt haben.
+1. (Optional) Klicken Sie im linken Bereich auf **Projektdetails** und dann auf **Übersicht**, um den Namen der Vorlage anzuzeigen, die Sie im Bereich **Projektbeziehungen** angehängt haben.
 
    >[!TIP]
    >
@@ -181,18 +186,22 @@ Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Pr
 
 ## Mehrere Vorlagen an ein vorhandenes Projekt anhängen und Vorlageninformationen anzeigen {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-Sie können mehrere Vorlagen (einzeln) an dasselbe Projekt anhängen, indem Sie die Schritte im Abschnitt [Anhängen einer Vorlage an ein vorhandenes Projekt](#attach-a-template-to-an-existing-project) in diesem Artikel befolgen. Dadurch werden die Aufgaben und andere Informationen aus jeder Vorlage zum Projekt hinzugefügt.
+Sie können mehrere Vorlagen (jeweils eine) an dasselbe Projekt anhängen, indem Sie die Schritte ausführen, die im Abschnitt [Anhängen einer Vorlage an ein vorhandenes Projekt](#attach-a-template-to-an-existing-project) in diesem Artikel beschrieben werden. Dadurch werden die Aufgaben und andere Informationen aus jeder Vorlage zum Projekt hinzugefügt.
 
 >[!TIP]
 >
->Wenn Sie mehrere Vorlagen an ein Projekt anhängen, wird im Bereich Projektdetails nur die Vorlage angezeigt, die Sie zuerst angehängt haben.
+>Wenn Sie mehrere Vorlagen an ein Projekt anhängen, wird nur die zuerst angehängte Vorlage im Bereich Projektdetails angezeigt.
 
-So verstehen Sie, welche Vorlage auf ein Projekt angewendet wird:
+So zeigen Sie an, welche Vorlage auf ein Projekt angewendet wird:
 
-1. Navigieren Sie zu einem Projekt, an das eine Vorlage angehängt ist.
+{{step1-to-projects}}
+
+1. Wählen Sie auf **Seite** das Projekt aus, an das eine Vorlage angehängt ist.
+
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Suchen Sie den Namen der an das Projekt angehängten Vorlage im Feld **Vorlage** unten im Abschnitt **Übersicht** unter **Projektbeziehungen** .
 
-   ![Vorlageninformationen zum Projekt](assets/nwe-template-info-on-project-350x356.png)
+1. Suchen Sie den Namen der an das Projekt angehängten Vorlage im Feld **Vorlage** unten im Abschnitt **Übersicht** unter **Projektbeziehungen**.
+
+   ![Vorlageninformationen zu einem Projekt](assets/nwe-template-info-on-project-350x356.png)
 
 

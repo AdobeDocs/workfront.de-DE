@@ -3,26 +3,30 @@ content-type: overview
 product-area: projects
 navigation-topic: task-duration
 title: 'Übersicht über den Dauertyp: Einfach'
-description: Der einfache Dauertyp ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Dauertypen in Workfront finden Sie unter Übersicht über die Aufgabendauer und den Dauertyp.
+description: Der einfache Dauertyp ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können.
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
 # Übersicht über den Dauertyp: Einfach
 
-Der einfache Dauertyp ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Dauertypen in Workfront finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+<!-- Audited: 5/2025 -->
+
+Der einfache Dauertyp ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Weitere Informationen zu Dauertypen in Workfront finden Sie unter [Übersicht über Aufgabendauer und Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Übersicht über den einfachen Dauertyp
 
-Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als „Einfach“ festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Ihr Workfront- oder Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als „Einfach“ festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt.
 
-Wenn eine Aufgabe den Dauertyp „Einfach“ hat, treten folgende Dinge auf:
+Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+Wenn eine Aufgabe einen einfachen Dauertyp aufweist, treten folgende Probleme auf:
 
 * Projektmanager können die Dauer und die geplanten Stunden einer Aufgabe ändern, wenn sie festlegen, wie diese Stunden auf die Beauftragten verteilt werden sollen.
 
@@ -30,7 +34,7 @@ Wenn eine Aufgabe den Dauertyp „Einfach“ hat, treten folgende Dinge auf:
 
   >[!IMPORTANT]
   >
-  >Wenn Sie eine Aufgabe zum ersten Mal erstellen, ihr den Typ Einfache Dauer zuweisen und keine Dauer angeben, berechnet Workfront die Dauer der Aufgabe auf der Basis der für die Aufgabe angegebenen geplanten Stunden. Wenn Sie die Dauer einer Aufgabe vom Typ Einfache Dauer manuell ändern, gleicht Workfront die geplanten Stunden nicht mehr mit der Dauer ab, da davon ausgegangen wird, dass Sie sie manuell selbst definieren möchten.
+  >Wenn Sie eine Aufgabe zum ersten Mal erstellen und ihr den Typ Einfache Dauer zuweisen, aber keine Dauer angeben, berechnet Workfront die Dauer der Aufgabe auf der Basis der für die Aufgabe angegebenen geplanten Stunden. Wenn Sie die Dauer einer Aufgabe vom Typ Einfache Dauer manuell ändern, gleicht Workfront die geplanten Stunden nicht mehr mit der Dauer ab, da die Annahme besteht, dass Sie sie manuell definieren möchten.
   >
   >Workfront berechnet die Dauer von Aufgaben, deren Dauer nicht manuell mithilfe der folgenden Formel geändert wurde:
   >
@@ -38,7 +42,7 @@ Wenn eine Aufgabe den Dauertyp „Einfach“ hat, treten folgende Dinge auf:
   >
   >Ihr Workfront-Administrator definiert die `Typical hours per work day` im Bereich Projektvoreinstellungen der Instanzeinrichtung.
 
-* Der Zuordnungsprozentsatz ist ausgeblendet und stattdessen können Zuordnungsstunden bearbeitet werden.
+* Der Zuordnungsprozentsatz ist ausgeblendet, aber Zuordnungsstunden können bearbeitet werden.
 * Für alle neuen Kunden ist der Dauertyp auf Systemebene auf „Einfach“ festgelegt.
 
 ## Ändern des Dauertyps einer Aufgabe in „Einfach“

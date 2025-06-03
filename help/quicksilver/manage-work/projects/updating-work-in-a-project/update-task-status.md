@@ -6,9 +6,9 @@ description: Sie können den Status einer Aufgabe aktualisieren, um andere darü
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,6 @@ Sie können den Aufgabenstatus manuell aktualisieren oder zulassen, dass Workfro
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -38,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Standard</p> 
    Oder
    <p>Aktuell: Arbeit oder höher</p>
@@ -55,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,23 +68,23 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
 
 ## Aufgabenstatus manuell aktualisieren
 
-Sie können den Aufgabenstatus in den folgenden Bereichen von Workfront aktualisieren:
+Sie können den Aufgabenstatus in den folgenden Bereichen aktualisieren:
 
 * Die Aufgabenkopfzeile auf der Aufgabenseite
 * Das Feld Aufgabe bearbeiten beim Bearbeiten einer Aufgabe.
 * Der Abschnitt Aufgabendetails auf der Aufgabenseite.
-* Wenn in einer Aufgabenliste oder einem Bericht das Feld Status in der Ansicht sichtbar ist.
+* In einer Aufgabenliste oder einem Bericht, wenn das Feld Status in der Ansicht sichtbar ist.
 * Im Bedienfeld Zusammenfassung der Aufgabe.
 
 So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
 
 1. Wechseln Sie zu einer Aufgabe, für die Sie den Status aktualisieren möchten.
-1. Klicken Sie auf **Status** in der Aufgabenkopfzeile und wählen Sie einen neuen Status aus.
-1. Um einen visuellen Hinweis zum Abschluss der Aufgabe zu geben, ziehen oder doppelklicken Sie auf den Kreis unter **Prozent abgeschlossen** in der Kopfzeile der Aufgabe
+1. Klicken Sie in der Aufgabenkopfzeile auf das Feld **Status** und wählen Sie einen neuen Status aus.
+1. Um einen visuellen Hinweis auf den Abschluss der Aufgabe zu geben, ziehen Sie den Kreis unter **Prozent abgeschlossen** in die Kopfzeile der Aufgabe.
 
    Oder
 
-   Klicken Sie in die Sprechblase in der Aufgabenkopfzeile, um einen Prozentsatz einzugeben.
+   Doppelklicken Sie in die Blase **Prozent abgeschlossen**, um manuell einen neuen Prozentsatz einzugeben.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,10 +92,10 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
 
    * Um einen Hinweis zur Aktualisierung hinzuzufügen, gehen Sie zum Abschnitt **Aktualisierungen** und klicken Sie auf **Neuer Kommentar** und geben Sie dann einen Hinweis ein.
 
-     ![](assets/add-update-to-task.png)
+     ![Hinzufügen einer Aktualisierung zu einer Aufgabe](assets/add-update-to-task.png)
 
    * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie ihre Namen in das Feld **Personen oder Teams taggen** ein, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Andere bei Updates taggen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Um das Commit-Datum der Aufgabe zu aktualisieren, klicken Sie auf **Aufgabendetails** und bearbeiten Sie dann das Feld **Commit-Datum**. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Um das Commit-Datum der Aufgabe zu aktualisieren, klicken Sie auf **Aufgabendetails** und bearbeiten Sie dann das Feld **Commit-**&quot;. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -150,7 +148,7 @@ Workfront aktualisiert automatisch den vorhandenen Aufgabenstatus auf einen ande
   <tr data-mc-conditions=""> 
    <td><span>Klicken Sie auf die Schaltfläche Aufgabe starten , um die Bearbeitung einer Ihnen zugewiesenen Aufgabe anzunehmen</span> </td> 
    <td><span>Neu</span> </td> 
-   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen Ihres Home-Teams verknüpft ist.</p> <p>Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Aufgabe starten“ finden Sie <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“</a></span>.</p> <p>Tipp: <span>Klicken</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">auf die Schaltfläche „Rückgängig“</span>nach dem Klicken auf „Aufgabe starten“ wird der Status auf „Neu“ zurückgesetzt. </p> </td> 
+   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen Ihres Home-Teams verknüpft ist.</p> <p>Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Aufgabe starten“ finden Sie <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“</a></span>.</p> <p>Tipp: <span>Klicken</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">auf die Schaltfläche „Rückgängig“, </span> Sie auf „Aufgabe starten“ geklickt haben, wird der Status auf „Neu“ zurückgesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
