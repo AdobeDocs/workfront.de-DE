@@ -5,9 +5,9 @@ description: Sie können eine Scorecard verwenden, um zu messen, wie gut ein Pro
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,16 +31,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
    <td>
-   <p>Neu: Prime oder höher</p>
+   <p>Aktuell: Prime oder höher</p>
    <p>oder</p>
-   <p>Aktuell: Unternehmen oder höher</p> </td>
+   <p>Legacy: Unternehmen oder höher</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Standard</p>
+   <p>Aktuell: Standard</p>
    <p>oder</p>
-   <p>Aktuell: Plan</p></td>  
+   <p>Legacy: Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -68,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 In der Regel vervollständigt ein Projekt-Manager die Scorecard-Informationen, um einen Ausrichtungswert zwischen 0 und 100 für das Projekt zu erzeugen. Der erzeugte Wert wird später verwendet, wenn der Portfolio-Manager die Projekte im Portfolio-Optimizer überprüft, um sie zu vergleichen.
 
-Weitere Informationen zur Portfoliooptimierung finden Sie unter Übersicht über [Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen zur Portfoliooptimierung finden Sie unter [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Scorecard auf ein Projekt anwenden
 
@@ -151,14 +149,14 @@ Wenn die Scorecards der Projekte abgeschlossen sind, verwendet Workfront diese W
 
 ## Ausrichtungsbewertung anzeigen
 
-Sie können die Ausrichtungsbewertung eines Projekts auf Projektebene oder im Portfolio-Optimizer anzeigen.
+Sie können den Alignment-Score eines Projekts auf Projektebene oder in Portfolio Optimizer anzeigen.
 
 * [Anzeigen des Ausrichtungswerts in einem Projekt](#view-the-alignment-score-on-a-project)
-* [Zeigen Sie die Ausrichtungsbewertungen des Projekts und des Portfolios im Portfolio Optimizer an](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
+* [Anzeigen der Alignment-Bewertungen des Projekts und des Portfolios in Portfolio Optimizer](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Anzeigen des Ausrichtungswerts in einem Projekt
 
-Sie können den Alignment-Score eines Projekts auf Projektebene anzeigen, wenn Sie über Contribute-Rechte für das Projekt verfügen.
+Sie können den Alignment-Score eines Projekts auf Projektebene anzeigen, wenn Sie über Beitragsrechte für das Projekt verfügen.
 
 1. Navigieren Sie zum Projekt, dessen Ausrichtungsbewertung Sie anzeigen möchten.
 1. Klicken Sie **linken Bedienfeld** Business Case“.
@@ -168,11 +166,11 @@ Sie können den Alignment-Score eines Projekts auf Projektebene anzeigen, wenn S
 
    ![Ausrichtungsbewertung in einem Projekt](assets/alignment-score-on-a-project.png)
 
-### Zeigen Sie die Ausrichtungsbewertungen des Projekts und des Portfolios im Portfolio Optimizer an
+### Anzeigen der Alignment-Bewertungen des Projekts und des Portfolios in Portfolio Optimizer
 
-Sie können die Ausrichtungsbewertung eines Projekts oder eines Portfolios im Portfolio-Optimizer anzeigen, wenn Sie über Verwaltungszugriff auf das Portfolio verfügen.
+Sie können den Alignment-Score eines Projekts oder Portfolios in Portfolio Optimizer anzeigen, wenn Sie über Verwaltungszugriff auf das Portfolio verfügen.
 
-Weitere Informationen zu den im Portfolio Optimizer angezeigten Informationen finden Sie unter [Übersicht über den Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen zu den in Portfolio Optimizer angezeigten Informationen finden Sie unter [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Finden Sie den Alignment Score des Projekts in Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Suchen Sie den Ausrichtungswert des Portfolios im Portfolio Optimizer.](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
@@ -188,7 +186,7 @@ Weitere Informationen zu den im Portfolio Optimizer angezeigten Informationen fi
 
    Der Portfolio Optimizer wird angezeigt.
 
-   Der Ausrichtungswert eines Projekts wird als Prozentsatz in der Spalte **Ausrichtung** des Portfolio-Optimizers angezeigt.
+   Der Alignment-Score eines Projekts wird als Prozentsatz in der Spalte **Ausrichtung** des Portfolio Optimizer angezeigt.
 
    Dies ist der Alignment-Score des Projekts basierend auf der Scorecard, die mit dem Projekt verknüpft ist.
 
@@ -198,13 +196,13 @@ Weitere Informationen zu den im Portfolio Optimizer angezeigten Informationen fi
 
 1. Klicken Sie auf den Namen eines Portfolios.
 1. Klicken Sie im linken **auf** Portfolio-Optimierung.
-1. Oben im Portfolio-Optimizer finden Sie den **Aligned**-Wert sowie den **Alignment**, der den Alignment-Score des Portfolios angibt.
+1. Oben im Portfolio Optimizer finden Sie den Wert **Aligned** sowie den **Alignment**, der den Alignment-Score des Portfolios angibt.
 
    Dies ist der Alignment-Score des Portfolios.
 
    Weitere Informationen dazu, wie der Ausrichtungswert eines Portfolios generiert wird, finden Sie unter [Erstellen eines Ausrichtungswerts für ein Portfolio](#generate-an-alignment-score-for-a-portfolio).
 
-## Übersicht über die Portfolio Optimizer-Bewertung
+## Überblick über die Portfolio Optimizer-Bewertung
 
 Es gibt einen Unterschied zwischen dem Alignment-Score und dem Portfolio-Optimizer-Score eines Projekts.
 
@@ -212,7 +210,7 @@ Die Alignment-Punktzahl eines Projekts wird anhand der Punkte berechnet, die nac
 
 Der Ausrichtungswert eines Projekts wird in der Spalte **Ausrichtung** des Portfolio Optimizer angezeigt.
 
-Der Portfolio-Optimizer-Score ist ein im Portfolio-Optimizer automatisch berechnetes Ranking, nach dem Projekte priorisiert werden können. Der Portfolio-Optimizer-Score wird als Indikatorsymbol zusammen mit einer Zahl angezeigt und in der Spalte **Score** des Portfolio-Optimizers angezeigt. Ein Portfolio Optimizer-Score wird nur generiert, wenn alle Abschnitte des Business Case abgeschlossen sind, mit Ausnahme von „Ziele“.
+Der Portfolio-Optimizer-Score ist ein im Portfolio Optimizer automatisch berechneter Rang, nach dem Projekte priorisiert werden können. Der Portfolio-Optimizer-Score wird als Indikatorsymbol zusammen mit einer Zahl angezeigt und in der Spalte **Score** von Portfolio Optimizer angezeigt. Ein Portfolio Optimizer-Score wird nur generiert, wenn alle Abschnitte des Business Case abgeschlossen sind, mit Ausnahme von „Ziele“.
 
 Weitere Informationen zum Erstellen eines Business Case für ein Projekt finden Sie unter [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

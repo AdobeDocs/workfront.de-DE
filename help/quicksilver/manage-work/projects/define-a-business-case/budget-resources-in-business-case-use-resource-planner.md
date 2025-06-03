@@ -5,9 +5,9 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplane
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
-
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Prime oder höher</p> </td> 
+   <td> <p>Aktuell: Prime oder höher</p>
+   <p>Legacy: Pro oder höher</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Licht oder höher</p>
-   <p>Aktuell: Überprüfung oder höher</p>
+   <td> <p>Strom: Licht oder höher</p>
+   <p>Legacy: Überprüfung oder höher</p>
 
 <p><b>WICHTIG:</b></p> 
    <p>Neu: Sie müssen über eine Standardlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> 
@@ -66,7 +66,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

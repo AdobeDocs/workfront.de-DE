@@ -5,9 +5,9 @@ description: Beim Erstellen eines Business Case können Sie eine Reihe von Ziele
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,6 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Pro oder höher</p> </td> 
+   <td> <p>Aktuell: Prime oder höher</p>
+   <p>Legacy: Pro oder höher</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td>
    <td> 
-   <p>Neu: Standard</p> 
-   <p>Oder</p>
-   <p>Aktuell: Plan </p> 
+   <p>Aktuell: Standard</p> 
+   <p>Legacy: Plan </p> 
    </td> 
   </tr> 
   <tr> 
