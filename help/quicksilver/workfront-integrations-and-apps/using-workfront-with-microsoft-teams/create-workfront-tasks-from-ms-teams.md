@@ -6,7 +6,7 @@ description: Sie können persönliche Aufgaben in Adobe [!DNL Workfront] von Mic
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Da Microsoft zum neuen Teams-Client wechselt, ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Zur Vorbereitung entwickeln wir eine neue Version der Microsoft Teams-Integration, die vollständig mit dem New Teams-Client kompatibel und vor dem 1. Juli verfügbar sein wird, um einen reibungslosen Übergang zu gewährleisten.
 >
->Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden hier angezeigt, nachdem die Integration verfügbar ist.
+>Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden nach Veröffentlichung der Integration verfügbar sein.
 
 ## Zugriffsanforderungen
 
@@ -73,7 +73,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. Geben Sie im Bot- Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
+1. Geben Sie im Bot-] [!UICONTROL Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
 
    * Aufgabenname im Feld **[!UICONTROL Den Titel der Aufgabe]**.
    * Beschreibung der Aufgabe im Feld **[!UICONTROL Beschreibung der Aufgabe]**.

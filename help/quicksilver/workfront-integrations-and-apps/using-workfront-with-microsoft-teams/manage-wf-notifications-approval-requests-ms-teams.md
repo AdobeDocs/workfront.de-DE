@@ -6,7 +6,7 @@ description: Sie können Benachrichtigungen von  [!DNL Adobe Workfront]  erhalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Da Microsoft zum neuen Teams-Client wechselt, ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Zur Vorbereitung entwickeln wir eine neue Version der Microsoft Teams-Integration, die vollständig mit dem New Teams-Client kompatibel und vor dem 1. Juli verfügbar sein wird, um einen reibungslosen Übergang zu gewährleisten.
 >
->Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden hier angezeigt, nachdem die Integration verfügbar ist.
+>Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden nach Veröffentlichung der Integration verfügbar sein.
 
 Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Elemente erhalten, die Sie genehmigen müssen, Zuweisungen, die Ihnen erteilt wurden, oder Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
 
@@ -139,7 +139,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL ändern]</p> </th> 
    <th> <p>[!UICONTROL Zum Korrekturabzug wechseln] </p> </th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -271,7 +271,7 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, dem Sie angeh
   <tr> 
    <th>Benachrichtigung</th> 
    <th>[!UICONTROL Start]</th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -422,7 +422,7 @@ Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Dat
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>[!UICONTROL -Kommentar]</p> </th> 
+   <th> <p>[!UICONTROL-Kommentar]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
