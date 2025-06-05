@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
+source-wordcount: '2851'
 ht-degree: 6%
 
 ---
 
 # Daten mithilfe einer Kickstart-Vorlage in Workfront importieren
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -455,7 +453,7 @@ Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwe
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
+   * Benennen Sie die neue Spalte mit dem Namen {0#setRoleIDROLE **.**
    * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
 
      Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.
@@ -492,15 +490,7 @@ So importieren Sie die Tabellenkalkulationsvorlagendaten in Workfront:
 
 1. Klicken Sie **Abschnitt Daten mit Kickstart-** hochladen auf **Datei auswählen** navigieren Sie dann zu und wählen Sie das ausgefüllte Arbeitsblatt aus.
 
-   <div class="preview">
-
-   In der Vorschau-Umgebung wird die Datei automatisch hochgeladen und eine Benachrichtigung über den erfolgreichen Import wird angezeigt.
-
-   Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt ein Timeout der Anwendung auf, und Workfront kann die Datei nicht hochladen. Importieren Sie Ihre Daten in kleinere Objektstapel.
-
-   </div>
-
-1. (Nur in der Produktionsumgebung) Klicken Sie auf **Hochladen**.
+   Die Datei wird automatisch hochgeladen, und es wird eine Benachrichtigung angezeigt, dass der Import erfolgreich war.
 
    Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt ein Timeout der Anwendung auf, und Workfront kann die Datei nicht hochladen. Importieren Sie Ihre Daten in kleinere Objektstapel.
 
