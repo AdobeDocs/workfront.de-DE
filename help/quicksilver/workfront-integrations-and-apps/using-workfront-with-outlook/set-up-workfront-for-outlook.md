@@ -130,7 +130,7 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 ### [!DNL Workfront] für [!DNL Outlook] im Web {#workfront-for-outlook-on-the-web}
 
 1. Öffnen Sie [!DNL Microsoft Outlook] in einem Webbrowser.
-1. Klicken Sie auf **[!UICONTROL Symbol ]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
+1. Klicken Sie auf **[!UICONTROL Symbol &#x200B;]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
 
    Informationen zum Auffinden des Symbols finden Sie unter [Verwenden von Add [!DNL Outlook] Ins im Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in der Dokumentation zu Microsoft.
 
