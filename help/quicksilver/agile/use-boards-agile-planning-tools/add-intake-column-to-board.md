@@ -7,9 +7,9 @@ description: Optional können Sie Ihrer Pinnwand eine Aufnahmespalte hinzufügen
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ Weitere Informationen zu Spalten finden Sie unter [Verwalten von ](/help/quicksi
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,16 +84,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wählen Sie den **Board** aus. Neue Felder werden angezeigt.
 1. Aktivieren Sie **Elemente dynamisch in die Pinnwand aufnehmen**. Die leere Aufnahmespalte wird auf der linken Seite der Pinnwand angezeigt.
 
-   ![Einfache Filteroptionen für Spalte aufnehmen](assets/intake-column-simple-filters.png)
+   ![Einfache Filteroptionen für Spalte aufnehmen](assets/board-section.png)
 
 1. (Optional) Suchen Sie nach und wählen Sie [!DNL Workfront]Projekte [!UICONTROL **aus**].
 1. (Optional) Suchen Sie nach einem Benutzer oder einem Team und wählen Sie [!UICONTROL **Arbeitsaufträge**] aus.
-1. Wählen Sie [!UICONTROL **Abgeschlossene Arbeit einbeziehen**] aus, um Aufgaben und Probleme mit dem Status Abgeschlossen in der Spalte Aufnahme anzuzeigen.
-
-   >[!NOTE]
-   >
-   >Wenn diese Option nicht ausgewählt ist und Karten mit anderen Status als „Abgeschlossen“ markiert sind, werden sie nicht auf der Pinnwand angezeigt.
-
 1. Klicken Sie **Apply**. Die Objekte werden in der Aufnahmespalte der Pinnwand als verbundene Karten angezeigt.
 
    ![Aufnahmespalte](assets/intake-column-added3.png)

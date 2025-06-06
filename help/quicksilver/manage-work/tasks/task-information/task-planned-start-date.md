@@ -7,20 +7,22 @@ description: Das geplante Startdatum einer Aufgabe ist das Datum, an dem Sie als
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
 
 # Übersicht über das geplante Startdatum der Aufgabe
 
+<!-- Audited: 6/2025 -->
+
 Das geplante Startdatum einer Aufgabe ist das Datum, an dem Sie als Ersteller der Aufgabe entscheiden, dass die Arbeit an der Aufgabe beginnen soll. Die geplanten Aufgabentermine beeinflussen die Termine und die Timeline im Projekt. Informationen zum geplanten Startdatum des Projekts finden Sie unter [Übersicht über das geplante Startdatum des Projekts](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
 ## Das geplante Startdatum einer Aufgabe
 
-Sie können entweder das geplante Startdatum einer Aufgabe angeben oder es Adobe Workfront überlassen, es nach bestimmten Kriterien zu berechnen. 
+Sie können entweder das geplante Startdatum der Aufgabe angeben oder es Adobe Workfront überlassen, diese anhand bestimmter Kriterien zu berechnen. 
 
 * [Legen Sie das geplante Startdatum einer Aufgabe manuell fest](#manually-set-the-planned-start-date-of-a-task)
 * [Berechnen des geplanten Startdatums einer Aufgabe](#how-the-planned-start-date-is-calculated-for-a-task)
@@ -29,7 +31,7 @@ Sie können entweder das geplante Startdatum einer Aufgabe angeben oder es Adobe
 
 Das Festlegen des geplanten Startdatums einer Aufgabe hängt von der Art der Aufgabenbeschränkung ab, die Sie der Aufgabe zuweisen. 
 
-Sie können das geplante Startdatum beim Erstellen einer Aufgabe manuell festlegen, wie im Artikel [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) beschrieben.
+Sie können das geplante Startdatum beim Erstellen einer Aufgabe manuell festlegen. Weitere Informationen finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 Sie können das geplante Startdatum manuell angeben, wenn Sie eine der folgenden Aufgabeneinschränkungen auswählen: 
 
@@ -66,20 +68,20 @@ Wenn es automatisch vom System berechnet wird, kann Folgendes das geplante Start
 
 * Aufgabenbeschränkung
 
-  Weitere Informationen zu Aufgabenbeschränkungen finden Sie im Artikel [Übersicht über Aufgabenbeschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+  Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbeschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Vorgängerbeziehung für Aufgabe
 
-  Weitere Informationen zu Aufgabenvorgängern finden Sie im Artikel [Übersicht über Aufgabenvorgänger](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Weitere Informationen zu Aufgabenvorgängen finden Sie unter [Übersicht über Aufgabenvorgänge](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Projektstartdatum, wenn das Projekt ab dem Startdatum geplant wird.
-* Die Ausfallzeit des Primären Verantwortlichen für die Aufgabe.
+* Die Ausfallzeit des Primären Zugewiesenen der Aufgabe.
 
-  Wenn für den Primären Verantwortlichen Ausfallzeiten während der Aufgabendauer geplant sind, werden die geplanten Termine der Aufgabe entsprechend angepasst, wenn die Einstellung **Benutzer-Ausfallzeit in Aufgabendauer berücksichtigen** für das Feld **Benutzer-Ausfallzeit** ausgewählt ist. Neue Projekte übernehmen diese Einstellung aus dem Bereich Projektvoreinstellungen, Sie können die Einstellung jedoch auf Projektebene bearbeiten.
+  Wenn für den Primären Verantwortlichen Ausfallzeiten während der Aufgabendauer geplant sind, werden die geplanten Termine der Aufgabe entsprechend angepasst, wenn die Einstellung „Benutzer-Ausfallzeit berücksichtigen“ in der Aufgabendauer für das Feld „Benutzer-Ausfallzeit“ ausgewählt ist. Neue Projekte übernehmen diese Einstellung aus dem Bereich Projektvoreinstellungen, Sie können die Einstellung jedoch auf Projektebene bearbeiten.
 
-  Wenn beispielsweise eine Aufgabe mit der Einschränkung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen werden soll und der Primäre Verantwortliche für den 1. Juni eine Ausfallzeit markiert hat, wird das geplante Startdatum der Aufgabe zum 2. Juni.
+  Wenn beispielsweise eine Aufgabe mit der Einschränkung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen werden soll und der Primäre Verantwortliche für die Ausfallzeit den 1. Juni markiert hat, wird das geplante Startdatum der Aufgabe zum 2. Juni.
 
-  Informationen zur Einstellung **Benutzer-Ausfallzeit** finden Sie in den Artikeln [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Weitere Informationen zu den Urlaubseinstellungen für Benutzer finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Wenn es automatisch festgelegt wird, wird das geplante Startdatum anhand der folgenden Berechnung bestimmt: 
 
@@ -91,5 +93,5 @@ Wenn Ihre Aufgabe beispielsweise ein Abschlussdatum vom 16. September und eine D
 
 >[!NOTE]
 >
-> Der Aktualisierungstyp für das Projekt muss ebenfalls auf „Automatisch und bei Änderung“ oder „Automatisch“ gesetzt werden, damit die geplanten Stunden und die Dauer automatisch angepasst werden.\
->Weitere Informationen zum Aktualisierungstyp finden Sie im Artikel [Auswahl des Projektaktualisierungstyps](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+> Der Aktualisierungstyp für das Projekt muss ebenfalls auf „Automatisch“ und „Bei Änderung“ oder „Automatisch“ gesetzt werden, damit die geplanten Stunden und die Dauer automatisch angepasst werden.\
+>Weitere Informationen zum Aktualisierungstyp finden Sie unter [Auswahl des Projektaktualisierungstyps](../../../manage-work/projects/manage-projects/select-project-update-type.md).
