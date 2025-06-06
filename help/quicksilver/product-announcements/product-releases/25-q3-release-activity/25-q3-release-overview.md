@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 00710d009dca3dd9ae2f529a846c369e16d675b6
+source-git-commit: ca0a7403f8a8461d9d007afda1b1c88264da1c16
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1283'
 ht-degree: 3%
 
 ---
@@ -63,9 +63,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer-Update</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Dieses Update ist eine Fehlerbehebung, um die Kompatibilität des Desktop Viewers mit Mac-Betriebssystemen sicherzustellen. Elektronen wurde auf 34,4,0 herabgestuft und Chrom auf 132.</p>
         </td>
-        <td> Donnerstag, 7. Mai 2025</td>
-        <td> Donnerstag, 7. Mai 2025</td>
-        <td> Donnerstag, 7. Mai 2025</td>
+        <td>Donnerstag, 7. Mai 2025</td>
+        <td>Donnerstag, 7. Mai 2025</td>
+        <td>Donnerstag, 7. Mai 2025</td>
     </tr> 
       <tr>
         <td>
@@ -74,9 +74,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             für Anwendungen von Drittanbietern, die auf Google Drive zugreifen, sodass Anwendungen ein Einverständnismodell pro Benutzer anwenden müssen. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Siehe <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Konfigurieren von Dokumentenintegrationen</a>
              für weitere Informationen. </p>
         </td>
-        <td> 23. Mai 2025</td>
-        <td> 23. Mai 2025</td>
-        <td> 23. Mai 2025</td>
+        <td>29. Mai 2025</td>
+        <td>29. Mai 2025</td>
+        <td>29. Mai 2025</td>
     </tr>  
     <tr>
         <td>
@@ -106,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Das Widget Meine Genehmigungen wird jetzt automatisch nach </a> sortiert<p></p>
             <p>Das Widget Meine Genehmigungen auf der Startseite wurde aktualisiert, sodass standardmäßig nach Frist (absteigend) sortiert wird. Dadurch können die dringendsten Genehmigungen oben in der Liste angezeigt werden. </p>
         </td>
-        <td> Freitag, 29. Mai 2025</td>
+        <td>29. Mai 2025</td>
         <td>Freitag, 12. Juni 2025</td>
         <td>Freitag, 17. Juli 2025</td>
     </tr>     
@@ -129,27 +129,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Änderung der Art und Weise, wie die tatsächlichen Stunden für API-Aufrufe in der Datenbank gespeichert werden</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Diese Aktualisierung führt zu einer Änderung der Art und Weise, wie die tatsächlichen Stunden für Projekte, Aufgaben und Probleme in der Datenbank gespeichert werden. Ab dieser Aktualisierung verwenden die tatsächlichen Stunden ein <code>actualWorkRequiredDouble</code> (mit einem Wert in Stunden).</p>
         </td>
-        <td> Mittwoch, 27. Mai 2025</td>
-        <td> Mittwoch, 27. Mai 2025</td>
-        <td> Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
     </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisieren Sie in mithilfe des Schiebereglers Prozent abgeschlossen in einer Aufgaben- oder Problem-Kopfzeile</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Die Funktionsweise des Schiebereglers Prozent abgeschlossen für Aufgaben und Probleme wurde aktualisiert. Wenn Sie die blaue Blase Prozent abgeschlossen in die Kopfzeile einer Aufgabe oder eines Problems schieben, wird der Prozentsatz der Fertigstellung der Aufgabe oder des Problems jetzt in Schritten von fünf Punkten aktualisiert. Vor diesem Update wurden durch Schieben der blauen Blase Prozent abgeschlossen die Aufgaben oder Probleme in Schritten von einem Punkt aktualisiert.</p>
         </td>
-        <td> Mittwoch, 27. Mai 2025</td>
-        <td> Mittwoch, 27. Mai 2025</td>
-        <td> Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
+        <td>Mittwoch, 27. Mai 2025</td>
     </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mehr Transparenz bei der Verwendung des KI-Assistenten für Projekte, Aufgaben und Probleme</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Projekten, -Aufgaben und -Problemen findet, haben wir diese Informationen zur Frageantwort hinzugefügt. Jetzt fügt der KI-Assistent seine Suchinformationen in die Ausgabe ein. Sie können diese Informationen verwenden, um zu überprüfen, ob der KI-Assistent die von Ihnen gestellte Frage korrekt identifiziert hat, und um den Kontext der Antwort zu verstehen.</p>
         </td>
-        <td> Dienstag, 19. Mai 2025</td>
-        <td> Dienstag, 19. Mai 2025</td>
-        <td> Dienstag, 19. Mai 2025</td>
+        <td>Dienstag, 19. Mai 2025</td>
+        <td>Dienstag, 19. Mai 2025</td>
+        <td>Dienstag, 19. Mai 2025</td>
     </tr>     
   </tbody>
 </table>
@@ -173,7 +173,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Das Verhalten der Benutzer-Platzhalter wurde aktualisiert, um beim Filtern eines Berichts einen Nullwert auszuschließen. Diese Änderung hilft dem Filter, genauere Ergebnisse zu erzielen, anstatt Ergebnisse zurückzugeben, bei denen ein Benutzer nicht richtig konfiguriert ist (ein Nullergebnis). </p>
         </td>
         <td>Donnerstag, 30. April 2025</td>
-        <td> Freitag, 15. Mai 2025</td>
+        <td>Freitag, 15. Mai 2025</td>
         <td>Freitag, 17. Juli 2025</td>
     </tr>     
   </tbody>
@@ -251,7 +251,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -271,6 +271,14 @@ Da Microsoft zum neuen Teams-Client wechselt, ist der Classic Teams-Client nach 
 
 Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden nach Veröffentlichung der Integration verfügbar sein.
 
+### Workfront für Microsoft Outlook
+
+[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+
+* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
+
+Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+
 ### API-Version 20
 
 Workfront API Version 20 wurde am 4. Mai 2024 veröffentlicht. Für die API-Version 20 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
@@ -281,7 +289,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
