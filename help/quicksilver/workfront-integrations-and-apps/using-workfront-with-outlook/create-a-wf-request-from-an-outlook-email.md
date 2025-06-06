@@ -6,7 +6,7 @@ description: Sie können eine - [!DNL Adobe Workfront]  aus einer E-Mail in Outl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 >
 >Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
-
 
 Sie können in Outlook eine [!DNL Adobe Workfront] Anfrage aus einer E-Mail erstellen.
 

@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: ca0a7403f8a8461d9d007afda1b1c88264da1c16
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 3%
@@ -251,7 +251,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -289,7 +289,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
@@ -339,3 +339,4 @@ New row for table
 
 
 -->
+

@@ -6,7 +6,7 @@ description: Wenn Ihr  [!DNL Adobe Workfront]  mit SAML 2.0 integriert ist, müs
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 >
 >Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
-
 
 Wenn Ihr [!DNL Adobe Workfront] mit SAML 2.0 integriert ist, müssen Sie die SAML 2.0-Authentifizierung für [!DNL Office] Add-Ins aktivieren, damit sich Benutzer mit ihren SAML 2.0-Anmeldeinformationen authentifizieren können.
 

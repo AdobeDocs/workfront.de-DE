@@ -6,7 +6,7 @@ description: Mit  [!DNL Adobe Workfront] [!DNL Outlook] Add-In können Sie die w
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 >
 >Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
-
 
 Mit dem Add-in [!DNL Adobe Workfront] [!DNL Outlook] können Sie die folgenden wichtigen [!DNL Workfront] direkt in Outlook ausführen:
 
@@ -130,7 +129,7 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 ### [!DNL Workfront] für [!DNL Outlook] im Web {#workfront-for-outlook-on-the-web}
 
 1. Öffnen Sie [!DNL Microsoft Outlook] in einem Webbrowser.
-1. Klicken Sie auf **[!UICONTROL Symbol &#x200B;]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
+1. Klicken Sie auf **[!UICONTROL Symbol ]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
 
    Informationen zum Auffinden des Symbols finden Sie unter [Verwenden von Add [!DNL Outlook] Ins im Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in der Dokumentation zu Microsoft.
 

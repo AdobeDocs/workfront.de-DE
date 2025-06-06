@@ -6,7 +6,7 @@ description: Wenn Sie eine E [!DNL Adobe Workfront] Mail-Benachrichtigung in Ihr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
 
 Wenn Sie eine [!DNL Adobe Workfront] E-Mail-Benachrichtigung in Ihrem [!DNL Outlook] Posteingang erhalten, können Sie schnell einen Kommentar zu [!DNL Workfront] posten, indem Sie einfach auf die Benachrichtigung in Outlook antworten.
-
 
 ## Zugriffsanforderungen
 

@@ -6,7 +6,7 @@ description: Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
 
 Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem mit Informationen aus einer [!DNL Outlook] E-Mail aktualisieren.
-
 
 ## Zugriffsanforderungen
 
