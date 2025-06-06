@@ -65,7 +65,7 @@ Weitere Informationen zu Spalten finden Sie unter [Verwalten von ](/help/quicksi
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
