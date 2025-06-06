@@ -6,14 +6,24 @@ description: Sie können E [!DNL Outlook] Mails in Aufgaben  [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer [!DNL Outlook] E-Mail als Aufgabe zu Ihrer Auftragsliste
+
+>[!IMPORTANT]
+>
+>[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+>
+>* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
+>
+>Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+
+
 
 Sie können [!DNL Outlook] E-Mails in [!DNL Adobe Workfront] Aufgaben konvertieren. Nachdem eine E-Mail konvertiert wurde, ist die Aufgabe in Ihrer -Liste im Bereich [!UICONTROL Startseite] verfügbar.
 
@@ -60,8 +70,8 @@ Ihr [!DNL Workfront] muss [!DNL Outlook for Office] mit [!DNL Workfront] aktivie
    * **[!UICONTROL Beschreibung]:** Standardmäßig ist die Beschreibung mit dem Textkörper der E-Mail identisch. Sie können die Beschreibung nach Bedarf ändern.
    * **[!UICONTROL Anhänge]:** Alle E-Mail-Anhänge werden im Bereich [!UICONTROL Dokumente] der Aufgabe gespeichert. Sie können alle Anhänge löschen, bevor Sie die E-Mail als Aufgabe speichern.
 
-1. Klicken Sie **[!UICONTROL Hinzufügen]**.\
-   Die Aufgabe wird der [!UICONTROL Arbeitsliste) &#x200B;] Bereich Startseite ohne Commit-Datum hinzugefügt.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.\
+   Die Aufgabe wird der [!UICONTROL Arbeitsliste) ] Bereich Startseite ohne Commit-Datum hinzugefügt.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL In Workfront anzeigen]**, um die Aufgabe innerhalb des [!DNL Workfront]-Programms auf einer neuen Registerkarte anzuzeigen.
 

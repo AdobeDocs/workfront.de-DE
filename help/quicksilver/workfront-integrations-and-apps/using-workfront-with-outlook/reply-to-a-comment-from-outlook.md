@@ -6,16 +6,25 @@ description: Wenn Sie eine E [!DNL Adobe Workfront] Mail-Benachrichtigung in Ihr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
 # Auf einen Kommentar von [!DNL Outlook] antworten
 
+>[!IMPORTANT]
+>
+>[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+>
+>* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
+>
+>Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+
 Wenn Sie eine [!DNL Adobe Workfront] E-Mail-Benachrichtigung in Ihrem [!DNL Outlook] Posteingang erhalten, können Sie schnell einen Kommentar zu [!DNL Workfront] posten, indem Sie einfach auf die Benachrichtigung in Outlook antworten.
+
 
 ## Zugriffsanforderungen
 
