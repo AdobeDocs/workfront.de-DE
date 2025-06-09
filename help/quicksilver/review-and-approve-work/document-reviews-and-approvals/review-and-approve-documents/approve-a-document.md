@@ -6,9 +6,9 @@ description: Wenn Sie einem Dokument als genehmigende Person zugewiesen sind, gi
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Genehmigungen, die Aufgabengebieten oder Gruppen zugewiesen wurden, werden nicht auf der Startseite aufgelistet. Genehmigungen, die Teams zugewiesen wurden, werden in der Arbeitsliste in der Gruppierung „Teamanfrage“ angezeigt.
+   >* Genehmigungen, die Aufgabengebieten oder Gruppen zugewiesen wurden, werden nicht auf der Startseite aufgelistet.
+   >* Genehmigungen, die Teams zugewiesen wurden, werden auf der Startseite im Widget Meine Genehmigungen jedes einzelnen Teammitglieds angezeigt.
 
 1. Klicken Sie in der Liste, für die Sie eine Genehmigungsentscheidung treffen möchten, auf die Dokumentgenehmigung. Informationen zur Genehmigung werden rechts auf der Seite angezeigt.
 
