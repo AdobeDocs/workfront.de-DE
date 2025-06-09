@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,14 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
 
      Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Lizenz**
+   * auf die Zulassungsliste setzen **E-Mail**
 
-     Informationen zu Lizenzen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste auf die Zulassungsliste setzte finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Konfigurieren grundlegender Informationen {#configure-basic-info}
 
@@ -125,21 +130,17 @@ So konfigurieren Sie den Abschnitt „Allgemeine Informationen“ im Bereich „
        </ul> <p>Benutzer können die Zeitzone für ihre Workfront-Instanz unter ihrem Profil ändern. Wenn Benutzende ihre Zeitzone ändern, entsprechen Datum und Uhrzeit in ihren E-Mails aus Workfront ihren Profilvoreinstellungen. Weitere Informationen zum Ändern der Benutzerprofileinstellungen finden Sie unter <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Konfigurieren meiner Einstellungen</a>. Sie wird beim Erstellen eines neuen Zeitplans als Standardzeitzone ausgewählt. Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Erstellen eines Zeitplans</a>.</p> <p>Informationen zur Verwendung von Zeitplänen für die Zusammenarbeit in Workfront über Zeitzonen hinweg finden Sie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeiten über Zeitzonen hinweg</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Gebiet</td> 
+      <td role="rowheader">Standard-Gebietsschema für E-Mail</td> 
       <td>Steuert die Sprache, das Datum- und das Zahlenformat, die in ausgehenden E-Mail-Nachrichten verwendet werden. Das hier ausgewählte Gebietsschema ist der Standard, wenn neue Benutzer erstellt werden. Benutzer können ihr Gebietsschema in ihrem Benutzerprofil ändern. Wenn Benutzende ihr Gebietsschema ändern, entsprechen die Sprache, das Datum und das Zahlenformat in ihren E-Mails aus Workfront ihren Profilvoreinstellungen. Weitere Informationen zum Ändern Ihrer Profilvoreinstellungen finden Sie unter <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Konfigurieren meiner Einstellungen</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Speicherquote</td> 
       <td> <p>Dies ist der Umfang des in Ihrer Workfront-Instanz verfügbaren Dokumentenspeichers.<br>Das Kontingent enthält Dokumente, die Sie direkt in Workfront hochladen.<br>Sie umfasst nicht:</p> 
        <ul> 
-        <li>Dokumente, die Sie von einem anderen Drittanbieter (SharePoint, Google Drive, Webdam, Box, Dropbox, einem anderen Anbieter von Document Asset Management) mit Workfront verknüpfen.</li> 
+        <li>Dokumente, die Sie von einem anderen Drittanbieter (SharePoint, Google Drive, Webdam, Box, Dropbox oder einem anderen Anbieter von Document Asset Management) mit Workfront verknüpfen.</li> 
         <li>Ihre Workfront-Daten (Projekte, Aufgaben, Probleme, Benutzer usw.).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Produktversion</td> 
-      <td>Dies ist der Typ der Workfront-Instanz, die Ihnen zugewiesen ist. Die Produktversion für die meisten Workfront-Kunden ist <strong>Enterprise</strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
