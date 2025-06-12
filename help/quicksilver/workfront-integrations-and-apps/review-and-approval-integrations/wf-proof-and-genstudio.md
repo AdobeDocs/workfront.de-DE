@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing
-description: Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing
+title: Erste Schritte mit der Integration von GenStudio for Performance Marketing und Workfront Proof
+description: Erste Schritte mit der Integration von GenStudio for Performance Marketing und Workfront Proof
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
-# Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing
+# Erste Schritte mit der Integration von GenStudio for Performance Marketing und Workfront Proof
 
-Durch die Integration von Proofing mit GenStudio for Performance Marketing haben Sie folgende Möglichkeiten
+Durch die Integration zwischen GenStudio for Performance Marketing und Workfront Proof können Sie
 
 * Verwenden von Workfront-Korrekturabzugsvorlagen zum Definieren von Prüfungs- und Genehmigungs-Workflows
 
-* Überprüfen und Genehmigen von GenStudio-Entwurfsinhalten im Proofing-Viewer
+* Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Workfront Proofing Viewer
 
-* Anzeigen von Überprüfungsentscheidungen in GenStudio zur endgültigen Genehmigung und Veröffentlichung
+* Anzeigen von Überprüfungsentscheidungen in GenStudio for Performance Marketing zur endgültigen Genehmigung und Veröffentlichung
+
+Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Zugriffsanforderungen
@@ -78,37 +78,35 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Integration in Workfront aktivieren
 
+Sie müssen Systemadministrator sein, um diese Integration zu aktivieren.
+
 1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie im linken Bedienfeld auf **Überprüfen und** > **Adobe GenStudio**.
 1. Aktivieren **Korrekturabzugsgenehmigungen verwenden**.
-   ![Proofing für GenStudio aktivieren](assets/enable-proofing-gs.png)
+   ![Aktivieren des Proofings für die GenStudio-Einstellung](assets/enable-proofing-gs.png)
 
 ## Verwenden von Workfront-Korrekturabzugsvorlagen zur Definition von Genehmigungs-Workflows
 
 Wenn der Prozess der Inhaltsüberprüfung in Ihrem Unternehmen häufig wiederholt wird oder von denselben Personen geprüft wird, können Sie Korrekturabzugsvorlagen verwenden, um Prüfungs- und Genehmigungs-Workflows zu automatisieren.
 
+### Erstellen einer Testversandvorlage in Workfront
+
 Sie können einfache, einstufige Vorlagen für nur einen oder zwei Prüfer erstellen oder automatisierte, mehrstufige Vorlagen für komplexe Prüfungen mit vielen Phasen und Abhängigkeiten erstellen.
 
-Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede Korrekturabzugs-Workflow-Vorlage ändern und Prüfer und Phasen hinzufügen oder entfernen.
-
-Mit Korrekturabzugs-Workflow-Vorlagen können Sie
-
-* Fügen Sie bestimmte Benutzer hinzu und weisen Sie ihnen jeweils eine bestimmte Rolle als Korrekturabzug zu
-* Frist festlegen
-* Auswählen, wann ein Stadium aktiviert wird
-* Stadien nach Abschluss sperren
-* Nur eine Entscheidung verlangen
-* Festlegen eines primären Entscheidungsträgers
-* und weitere
-
-Weitere Informationen zu automatisierten Workflows und Vorlagen finden Sie unter
+Weitere Informationen zum Erstellen automatisierter Workflows und Vorlagen in Workfront finden Sie unter
 
 * [Automatisierter Workflow - Übersicht](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Erstellen und Verwalten von automatisierten Workflow-Vorlagen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-## Überprüfen und Genehmigen von GenStudio-Entwurfsinhalten im Proofing-Viewer
+### Auswählen oder Ändern der Vorlage in GenStudio for Performance Marketing
 
-Sie können GenStudio-Entwurfsinhalte direkt in GenStudio im Proofing-Viewer überprüfen und genehmigen.
+Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede Korrekturabzugs-Workflow-Vorlage ändern und Prüfer und Phasen hinzufügen oder entfernen.
+
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+
+## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Workfront Proofing Viewer
+
+Entwurfsinhalte können direkt in GenStudio for Performance Marketing im Workfront Proofing Viewer überprüft und genehmigt werden.
 
 Mit dem Proofing Viewer können Sie
 
@@ -116,10 +114,16 @@ Mit dem Proofing Viewer können Sie
 * Markup-Entwurf, um anzuzeigen, was geändert werden muss
 * Entscheidung treffen
 
-Weitere Informationen zur Überprüfung und Genehmigung in GenStudio finden Sie unter <!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
+Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
-## Anzeigen von Überprüfungsentscheidungen in GenStudio zur endgültigen Genehmigung und Veröffentlichung
 
-Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio veröffentlichen.
+>[!IMPORTANT]
+>
+>Benutzer müssen den [Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungs-Tool“ installieren](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) bevor sie Entwürfe in GenStudio for Performance Marketing überprüfen können.
 
-Weitere Informationen finden Sie unter <!--[link to GS docs]().-->
+
+## Anzeigen von Überprüfungsentscheidungen in GenStudio for Performance Marketing zur endgültigen Genehmigung und Veröffentlichung
+
+Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio for Performance Marketing veröffentlichen.
+
+Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
