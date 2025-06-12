@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Apps und -Services verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Eine Liste der Verfahren, die sich je nachdem unterscheiden, ob Ihr Unternehmen Adobe Admin Console verwendet hat, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -423,6 +423,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie die folgend
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie die folgend
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Wenn sich Ihr Unternehmen auf der Adobe Unified Experience befindet, verwendet es die folgenden Domains. Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.
+Wenn Ihr Unternehmen Adobe Unified Experience nutzt, verwendet es die folgenden Domains. Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.
 
 * &lt;Ihre Domain>.my.workfront.adobe.com
 * &lt;Ihre Domain>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ Wenn sich Ihr Unternehmen auf der Adobe Unified Experience befindet, verwendet e
 
 Fügen Sie für Workfront Fusion die folgenden Domains hinzu:
 
-* Für Unternehmen, die nicht auf dem Adobe Unified Experience:
+* Für Unternehmen, die nicht am einheitlichen Adobe-Erlebnis teilnehmen:
    * app.workfrontfusion.com (US AWS)
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (US Azure)
 
-* Für die Organisation auf dem Adobe Unified Experience
+* Für die Organisation des einheitlichen Adobe-Erlebnisses
 (Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.)
 
    * fusion.adobe.com
