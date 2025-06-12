@@ -7,9 +7,9 @@ description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Beim Zugriff auf diese Felder in API-Aufrufen oder in berechneten benutzerdefini
 
 Je nachdem, wie Sie auf die tatsächlichen Stunden zugreifen, können diese in den folgenden Feldern und Einheiten in der Datenbank gespeichert werden:
 
-* In der API: Der `valuefield` für die tatsächlichen Stunden ist `actualWorkRequiredDouble`, der in Stunden gespeichert wird.
+* In der API: Da die Veröffentlichung der folgenden Version der Workfront-API für später im Jahr 2025 geplant ist, wird die `valuefield` für Tatsächliche Stunden `actualWorkRequiredDouble`, die in Stunden gespeichert wird. Die aktuelle Version speichert die tatsächlichen Stunden als `actualWorkRequired`, die in Minuten gespeichert werden.
 * In der Workfront-Benutzeroberfläche (berechnetes benutzerdefiniertes Feld und Spalten): Die `valuefield` für die Ist-Stunden wird in Minuten `actualWorkRequired`.
 
 <!--Change the above with this when we fix this for the Workfront UI: 

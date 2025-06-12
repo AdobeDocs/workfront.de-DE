@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3512'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    >
    >    Die Sortierung der Datensätze in der Zeitleiste ist in der kompakten Ansicht nicht sichtbar.
 
+1. <span class="preview"> (Bedingt) Wenn Ihr Administrator benutzerdefinierte Quartale aktiviert hat und Workfront Probleme bei der Konfiguration der benutzerdefinierten Quartale erkennt, erhalten Sie möglicherweise eine Warnung, wenn Sie die Zeitleisten -Ansicht öffnen. </span>
+
+   <div class="preview">
+
+   Die folgenden Szenarien sind vorhanden:
+
+   * Wenn zwischen den Daten der Quartale Lücken oder Überschneidungen festgestellt wurden, erhalten Sie möglicherweise eine Benachrichtigung, dass benutzerdefinierte Quartale jetzt eingerichtet werden können und möglicherweise bearbeitet werden müssen.
+
+     ![Benachrichtigung für benutzerdefinierte Quartale fehlt oder Lücken zwischen Quartalen](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >Diese Nachricht sollte nur unmittelbar nach dem Kauf angezeigt werden, wenn die Planung und die benutzerdefinierten Quartale Ihrer Organisation bereits vor dem Kauf aktiviert waren. Überschneidungen und Lücken zwischen den Quartalen sind nach der Aktivierung von Workfront Planning für Ihr Unternehmen nicht zulässig.
+
+   * Wenn Quartale nur teilweise eingerichtet wurden und im selben Jahr einige Monate fehlen, erhalten Sie möglicherweise eine Benachrichtigung, wenn Sie scrollen, um die fehlenden Quartale anzuzeigen, die für den Rest des Jahres mit den fehlenden Quartalen eingerichtet werden müssen.
+
+   ![Fehlende ursprüngliche Nachricht für benutzerdefinierte Quartale in der Zeitleisten-Ansicht](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   Diese Warnmeldungen werden einmal pro Benutzerin bzw. Benutzer angezeigt.
+
+   >[!NOTE]
+   >
+   >Ohne das benutzerdefinierte Quartal ordnungsgemäß gespeichert zu haben, zeigt die Zeitleisten -Ansicht die klassischen Quartale an.
+   >Nach der Einrichtung von benutzerdefinierten Quartalen im Bereich „Setup“ werden in der Ansicht „Timeline“ die benutzerdefinierten Quartale anstelle der klassischen Quartale angezeigt.
+   >Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   </div>
+
+1. <span class="preview">(Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Zum Setup wechseln**, um Ihr Quartal einzurichten. Wenn nicht, klicken Sie **OK** und bitten Sie Ihren Workfront-Administrator, die benutzerdefinierten Quartale einzurichten.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.</span>
+
 1. (Optional und bedingt) Wenn der Datensatzname abgeschnitten ist, bewegen Sie den Mauszeiger über eine Datensatzleiste, um den vollständigen Namen des Datensatzes und zusätzliche Informationen anzuzeigen.
 
 1. Führen Sie einen der folgenden Schritte aus, um durch die Zeitleiste zu navigieren:
 
    * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um sich in der Zeitleiste vor- und rückwärts zu bewegen. Beim Aktualisieren der Seite wird der ausgewählte Zeitrahmen beibehalten.
    * Klicken Sie **Heute**, um die Zeitleiste auf das heutige Datum zu zentrieren.
-   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren:
+   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren und die Ansicht zu aktualisieren:
 
-      * Jahr
-      * Quartal
-      * Monat
+      * **Year**: Zeigt Quartale und Monate mit Jahresangabe an.
+      * **Quartal**: Zeigt Monate und Wochen mit Quartalsangabe an.
+      * **Monat**: Zeigt Wochen und Tage an.
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
 1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. <span class="preview">Die Option **Standard** ist die Standardoption.</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -269,6 +303,16 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >* Wenn Sie zusätzliche Datensätze mithilfe der Option Aufschlüsselung anzeigen, sind das Start- und Enddatum die Daten des Hauptdatensatzes. Start- und Enddatum für die verbundenen Datensätze in diesem Bereich können nicht ausgewählt werden.
 
+1. <span class="preview">(Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie **Zum Setup wechseln** im Feld **Benutzerdefinierte Quartale verwenden**, um den Bereich „Setup“ aufzurufen und benutzerdefinierte Quartale einzurichten. Nach der Einrichtung benutzerdefinierter Quartale können Sie diese in der Ansicht „Zeitleiste“ anstelle der klassischen Quartale anzeigen. Wenn Sie kein Workfront-Administrator sind, können Sie von einem Administrator anfordern, dass die benutzerdefinierten Quartale für Ihr Unternehmen aktiviert werden. </span>
+
+   Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   ![Benutzerdefinierte Quartale in den Zeitleisten-Anzeigeeinstellungen verwenden](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.</span>
+
 1. Klicken Sie **linken** auf „Balkenstil“, um anzugeben, welche Informationen in den Datensatzleisten angezeigt werden sollen.
 
    Mit der Option Aufschlüsselung in der Standardansicht können Sie den Balkenstil <span class="preview"> Hauptdatensatzes sowie der </span> Datensätze definieren.
@@ -384,7 +428,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

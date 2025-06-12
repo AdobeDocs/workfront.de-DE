@@ -6,9 +6,9 @@ description: Sie können Probleme oder Anfragen in Adobe Workfront löschen, wen
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -132,10 +132,12 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
    ![Menü „Problem Mehr“](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicken Sie **Problem löschen**.
-1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Löschen**.
+1. Klicken Sie **Löschen**, um.
 
-   Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
-   Weitere Informationen zu den Zugriffsrechten und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie im Abschnitt [Überlegungen zum Löschen von Problemen](#considerations-for-deleting-issues) in diesem Artikel.
+   >[!NOTE]
+   >
+   >  Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
+   >  Weitere Informationen zu den Zugriffsrechten und Berechtigungen, die zum Löschen eines Problems erforderlich sind, finden Sie im Abschnitt [Überlegungen zum Löschen von Problemen](#considerations-for-deleting-issues) in diesem Artikel.
 
 ## Gelöschte Anfragen wiederherstellen
 

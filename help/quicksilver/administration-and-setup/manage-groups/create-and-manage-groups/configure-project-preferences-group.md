@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 2%
 
 ---
@@ -238,14 +238,14 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Benutzerdefinierte Quartale</strong> </p> </td> 
-   <td> <p>Konfigurieren Sie benutzerdefinierte jährliche Quartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht der herkömmlichen Aufschlüsselung von Quartalen während eines Kalenderjahres entsprechen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale für Projekte </a>.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für benutzerdefinierte Quartale nicht entsperren.</p> </td> 
+   <td> <p>Konfigurieren Sie benutzerdefinierte jährliche Quartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht der herkömmlichen Aufschlüsselung von Quartalen während eines Kalenderjahres entsprechen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale </a>.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für benutzerdefinierte Quartale nicht entsperren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Business Cases {#business-cases}
 
-Sie können einen Business Case für neu erstellte Projekte erstellen, die mit der Gruppe verknüpft sind, um Projektanfragen zu senden. Sie können Voreinstellungen definieren, um zu bestimmen, welche Bereiche im Formular **Business Case** sichtbar sind. Es wird empfohlen, diese Optionen zu aktivieren, damit andere Tools, wie z. B. Portfolio Optimizer, ordnungsgemäß aktualisiert werden. Weitere Informationen zu den einzelnen Feldern finden Sie unter [Definieren eines Business-Case: Artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+Sie können einen Business Case für neu erstellte Projekte erstellen, die mit der Gruppe verknüpft sind, um Projektanfragen zu senden. Sie können Voreinstellungen definieren, um zu bestimmen, welche Bereiche im Formular **Business Case** sichtbar sind. Es wird empfohlen, diese Optionen zu aktivieren, damit andere Tools wie Portfolio Optimizer ordnungsgemäß aktualisiert werden. Weitere Informationen zu den einzelnen Feldern finden Sie unter [Definieren eines Business-Case: Artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 Nachdem der Workfront-Administrator die Abschnitte zum Business Case aktiviert hat, kann ein Projektinhaber dann einen Business Case auf Projektebene erstellen. Informationen zum Erstellen eines Business-Case finden Sie [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
