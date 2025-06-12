@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 ve
 
 >[!NOTE]
 >
->* Vorschau: 27. Mai 2025
->* Produktions-Schnellveröffentlichung: 27. Mai 2025
->* Produktion für alle Kunden: 27. Mai 2025
+>* Vorschau: Mit der nächsten API-Version, geplant für Ende 2025
+>* Schnelle Veröffentlichung in der Produktion: Mit der nächsten API-Version, die für Ende 2025 geplant ist
+>* Produktion für alle Kunden: Mit der nächsten API-Version, geplant für später im Jahr 2025
 
 Diese Aktualisierung führt zu einer Änderung der Art und Weise, wie die tatsächlichen Stunden für Projekte, Aufgaben und Probleme in der Datenbank gespeichert werden. Ab dieser Aktualisierung verwenden die tatsächlichen Stunden ein `actualWorkRequiredDouble` (mit einem Wert in Stunden).
 

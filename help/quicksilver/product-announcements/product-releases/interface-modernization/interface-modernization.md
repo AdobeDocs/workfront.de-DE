@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,17 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 
-## Admin und Setup
+## Administration und Einrichtung
+
+### Aktualisierungen der Benutzeroberfläche für die Seite Kundeninformationen
+
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
+
+Wir haben die Seite mit den Kundeninformationen durch ein moderneres Design ergänzt, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > System > Kundeninformationen.
+
+Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Daten importieren (Kickstarts)
 
@@ -108,6 +118,22 @@ Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront
 
 ## Projekte
 
+### Aktualisierungen der Benutzeroberfläche für den Abschnitt Verknüpfte Projekte eines Projekts (nur für bestimmte Kunden verfügbar)
+
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
+
+Wir haben den Abschnitt Verknüpfte Projekte eines Projekts mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Bestimmte Kundinnen und Kunden können diese Änderung anzeigen, indem sie im linken Bereich zum Abschnitt „Verknüpfte Projekte“ eines Projekts gehen.
+
+### Neues Erscheinungsbild für das Feld „Als Vorlage speichern“
+
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
+
+Das Erscheinungsbild des Felds „Als Vorlage speichern“, das beim Speichern eines Projekts als Vorlage angezeigt wird, wurde aktualisiert. Das neue Design enthält eine optimierte Benutzeroberfläche, in der alle Abschnitte in einer zusammenhängenden Form angezeigt werden, durch die Sie mithilfe von Links im linken Bereich navigieren können. Das neue Design passt sich anderen Bereichen und anderen Objekten in der Anwendung an.
+
+Weitere Informationen finden Sie unter [Speichern eines Projekts als Vorlage](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Look-and-Feel-Aktualisierungen für das Feld „Problem löschen“
 
 **Vorschau-Version: 29. Mai 2025; Produktionsversion: 5. Juni 2025**
@@ -150,6 +176,21 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 
 ## Berichte und Dashboards
+
+### Berichte mit neuem Stil aktualisiert
+
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
+
+Das Erscheinungsbild mehrerer Berichte wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert. Die Funktionalität wurde nicht geändert.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen an den Listen und Symbolleisten der Berichte für die folgenden Objekttypen:
+
+* Risiken
+* Baselines
+* Abrechnungssätze
+* Layoutvorlagen
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### URLs mit /title oder /qstile werden in Workfront-Dashboards nicht mehr unterstützt
 

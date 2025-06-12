@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Benutzerdefinierte Quartalsverfügbarkeit für die Zeitleisten-Ansicht von Workfront Planning
+
+>[!NOTE]
+>
+>* Vorschau: 12. Juni 2025
+>* Produktions-Schnellveröffentlichung: 17. Juli 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Mit diesem Update stehen bei der Konfiguration benutzerdefinierter Quartale im Bereich Projektvoreinstellungen unter „Setup“ die benutzerdefinierten Quartale für die Ansicht „Zeitleiste“ in Workfront Planning zur Verfügung.
+
+Vor diesem Update waren die benutzerdefinierten Quartale nur für die Reporting-Funktionen von Workfront verfügbar.
+
+Mit dieser Verbesserung erhalten Kunden, die Workfront Planning erworben haben, ein aktualisiertes Erlebnis zum Definieren benutzerdefinierter Quartale. Dieses Update enthält die folgenden Verbesserungen:
+
+Lücken und Überschneidungen zwischen den Quartalen werden nicht mehr akzeptiert.
+
+Sie können bis zu 100 benutzerdefinierte Quartale einrichten. Vor diesem Update konnten Sie nur 8 benutzerdefinierte Quartale einrichten
+
+Für Kunden, die Workfront Planning nicht erworben haben, ändert sich das benutzerdefinierte Quartalserlebnis nicht.
+
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Gleichzeitige Berechnung aller abhängigen Formeln
+
+>[!NOTE]
+>
+>* Vorschau: 12. Juni 2025
+>* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktion für alle Kunden: 12. Juni 2025
+
+Wir haben eine Verbesserung eingeführt, die alle Formelfelder, die voneinander abhängig sind, gleichzeitig aktualisiert, nachdem ein referenziertes Feld manuell aktualisiert wurde. Formelfelder, die 2, 3 oder 4 Felder vom Feld entfernt sind, deren Wert manuell geändert wird und die sich gegenseitig referenzieren, werden jetzt automatisch gleichzeitig aktualisiert.
+
+Vor dieser Verbesserung wurden nur die direkt abhängigen Formelfelder aktualisiert, wenn der Wert eines Referenzfelds manuell aktualisiert wurde.
+
+Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Neue Ausdrücke zu Formelfeldern hinzugefügt
+
+>[!NOTE]
+>
+>* Vorschau: 6. Juni 2025
+>* Produktions-Schnellveröffentlichung: 6. Juni 2025
+>* Produktion für alle Kunden: 6. Juni 2025
+
+Wir haben die folgenden Ausdrücke zu Formelfeldern hinzugefügt:
+
+* ARRAYCONTAINS
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+Vor dieser Verbesserung wurden diese Ausdrücke nur in von Workfront berechneten benutzerdefinierten Feldern unterstützt.
+
+Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Filter, Spalten und zusätzliche Felder, die zur Registerkarte Planung im Bereich Anfragen hinzugefügt werden
 
@@ -150,7 +206,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -184,7 +240,7 @@ Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help
 >[!NOTE]
 >
 >* Vorschau: 17. April 2025
->* Produktions-Schnellveröffentlichung: 12. Juni 2025
+>* Produktions-Schnellveröffentlichung: 17. Juli 2025
 >* Produktion für alle Kunden: 17. Juli 2025
 
 Um besser steuern zu können, wer Datensätze in jedem Datensatztyp anzeigen oder verwalten kann, und sicherzustellen, dass nur autorisierte Personen die Informationen jedes Datensatztyps basierend auf ihren Rollen und Zuständigkeiten verwalten können, haben wir Berechtigungen auf der Datensatztypebene eingeführt.
