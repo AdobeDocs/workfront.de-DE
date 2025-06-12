@@ -206,7 +206,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
