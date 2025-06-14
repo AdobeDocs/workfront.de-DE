@@ -25,7 +25,7 @@ Durch die Integration zwischen GenStudio for Performance Marketing und Workfront
 
 * Anzeigen von Überprüfungsentscheidungen in GenStudio for Performance Marketing zur endgültigen Genehmigung und Veröffentlichung
 
-Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Zugriffsanforderungen
