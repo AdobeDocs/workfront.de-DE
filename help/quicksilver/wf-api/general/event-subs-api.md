@@ -766,7 +766,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
