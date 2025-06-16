@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 3%
 
 ---
@@ -707,6 +707,33 @@ Mit diesem Filter können Nachrichten durchgelassen werden, wenn die aufgetreten
 }
 ```
 
+#### containsOnly
+
+Mit diesem Filter können Nachrichten nur dann durchgestellt werden, wenn der vollständige Satz ausgewählter Werte genau mit dem Feldwert im Filter übereinstimmt, unabhängig von der Reihenfolge. Es dürfen keine zusätzlichen oder fehlenden Werte vorhanden sein.
+
+Hinweis: Dies wird für Felder vom Typ Array (Mehrfachauswahl) verwendet. Mit diesem Beispielabonnement unten können Nachrichten nur dann durchgestellt werden, wenn das Feld `groups` genau „Auswahl 3“ und „Auswahl 4“ enthält, ohne zusätzliche oder fehlende Werte und unabhängig von der Reihenfolge.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### ändern
 
 Mit diesem Filter können Nachrichten nur dann durchgelassen werden, wenn das angegebene Feld (`fieldName`) in oldState und newState einen anderen Wert aufweist. Durch die Aktualisierung anderer Felder neben dem angegebenen (`fieldName`) wird diese Änderung nicht zurückgegeben.
@@ -739,7 +766,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
