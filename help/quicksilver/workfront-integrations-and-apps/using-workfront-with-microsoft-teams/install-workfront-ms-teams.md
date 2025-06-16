@@ -6,9 +6,9 @@ description: Die  [!DNL Adobe Workfront for Microsoft Teams] -App ermöglicht di
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Da Microsoft zum neuen Teams-Client wechselt, ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Zur Vorbereitung entwickeln wir eine neue Version der Microsoft Teams-Integration, die vollständig mit dem New Teams-Client kompatibel und vor dem 1. Juli verfügbar sein wird, um einen reibungslosen Übergang zu gewährleisten.
+>Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Apps wie Workfront weiterhin verwenden zu können, müssen Kunden vor diesem Datum zum neuen Teams-Client wechseln.
 >
->Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden hier angezeigt, nachdem die Integration verfügbar ist.
+>Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden.
 
 
 Mit der [!DNL Adobe Workfront for Microsoft Teams] App können Sie grundlegende Aktionen in [!DNL Workfront] durchführen, ohne Ihre [!DNL Microsoft Teams] Chat-Kanäle verlassen zu müssen.
@@ -72,7 +72,7 @@ Als Team-Verantwortlicher in [!DNL Microsoft Teams] können Sie die [!DNL Workfr
 1. Klicken Sie auf **[!UICONTROL Mehr]**-Symbol für das Team, für das Sie die Integration von Workfront für Microsoft Teams installieren möchten
 1. Klicken Sie auf **[!UICONTROL Registerkarte]** Apps“.
 1. Geben Sie in das **[!UICONTROL Suche nach Apps und mehr]** den Text *[!DNL Workfront]* ein.
-1. Klicken Sie **Hinzufügen**.
+1. Klicken Sie auf **Hinzufügen**.
 1. Klicken Sie **daraufhin geöffneten** auf „Hinzufügen“.
 1. Wählen Sie im Abschnitt Kanal auswählen das Team aus, dem Sie die Workfront-App hinzufügen möchten, und klicken Sie auf **Los**.
 

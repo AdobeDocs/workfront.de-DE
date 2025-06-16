@@ -6,9 +6,9 @@ description: Nachdem Ihr Teambesitzer Adobe Workfront für Microsoft Teams insta
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Da Microsoft zum neuen Teams-Client wechselt, ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Zur Vorbereitung entwickeln wir eine neue Version der Microsoft Teams-Integration, die vollständig mit dem New Teams-Client kompatibel und vor dem 1. Juli verfügbar sein wird, um einen reibungslosen Übergang zu gewährleisten.
+>Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Apps wie Workfront weiterhin verwenden zu können, müssen Kunden vor diesem Datum zum neuen Teams-Client wechseln.
 >
->Anweisungen zum Herunterladen und Installieren der Integration im neuen Team-Client werden nach Veröffentlichung der Integration verfügbar sein.
+>Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Team-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Nachdem Ihr Teambesitzer [!DNL Adobe Workfront for Microsoft Teams] installiert hat, können Sie [!DNL Workfront] Anfragen von Ihrem [!DNL Microsoft Teams]-Konto senden. Dazu benötigen Sie ein Workfront-Konto mit Zugriff auf die Übermittlungsanfragen. Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] finden Sie unter [Installieren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
