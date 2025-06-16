@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Auf dieser Seite werden alle Document Management-Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Update der Desktop Proofing Viewer
+
+Der Desktop Proofing Viewer wurde auf Version 2.1.50 aktualisiert.
+
+Diese Aktualisierung umfasst Aktualisierungen der internen Tools und wirkt sich nicht auf die Endbenutzerfunktionen aus.
+
+Dieses Update ist sowohl für Mac als auch für Windows.
 
 ## Neue Proofing- und GenStudio for Performance Marketing-Integration
 
