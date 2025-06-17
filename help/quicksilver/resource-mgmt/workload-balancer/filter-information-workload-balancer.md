@@ -169,9 +169,9 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Der Standardfilter zeigt Benutzer an, die zu einem Ihrer Teams gehören, sowie deren Arbeitselemente. Eine Kopie dieses Filters kann bearbeitet werden.
 
-   Wenn Sie über ein Projekt auf [!UICONTROL Workload ]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
+   Wenn Sie über ein Projekt auf [!UICONTROL Workload &#x200B;]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
 
-   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts ] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
+   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts &#x200B;] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
 
 
 1. Klicken Sie **Neuer Filter**.
