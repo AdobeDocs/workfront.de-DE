@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -173,4 +173,9 @@ In einem benutzerdefinierten Formular mit einem Abschnittsumbruch, der mit der B
 1. Beginnen Sie mit dem Erstellen oder Bearbeiten eines benutzerdefinierten Formulars und dem Hinzufügen von Feldern, wie in [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
 
 1. Klicken Sie **oben** auf „Vorschau“, um die Darstellung des Formulars bei Verwendung zu überprüfen, und dann auf **Vorschau beenden**, um zur Bearbeitung des Formulars zurückzukehren.
+
+   >[!NOTE]
+   >
+   >Erweiterte Logik wird im Vorschaumodus des Formular-Designers nicht unterstützt.
+
 
