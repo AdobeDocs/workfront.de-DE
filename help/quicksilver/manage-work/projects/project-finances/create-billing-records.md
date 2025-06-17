@@ -5,24 +5,24 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 0%
+source-wordcount: '1645'
+ht-degree: 1%
 
 ---
 
 # Rechnungsnachweise erstellen
 
+<!-- Audited: 6/2025 -->
+
 Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Ausgaben können Sie Rechnungsnachweise für ein Projekt erstellen, um Informationen zu erhalten, die in Rechnung gestellt werden müssen.
 
-Sie können keine Rechnungsnachweise für Aufgaben erstellen. Sie können nur Rechnungsnachweise für Projekte erstellen.
+Sie können keine Rechnungsnachweise für Aufgaben erstellen; Sie können nur Rechnungsnachweise für Projekte erstellen.
 
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Rechnungsnachweise - Übersicht
 
-Rechnungsnachweise werden als Anlagen zu einem Projekt erstellt und enthalten Finanzdaten aus dem Projekt sowie einige Finanzinformationen für die Aufgaben in einem Projekt.
+Rechnungsnachweise werden als Anlagen zu einem Projekt erstellt und enthalten Finanzdaten aus dem Projekt sowie die Finanzinformationen der Projektaufgaben.
 
 Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
 
@@ -71,9 +71,11 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
 
 ## Rechnungsnachweis erstellen
 
-1. Navigieren Sie zu einem Projekt.
+{{step1-to-projects}}
+
+1. Wählen Sie auf **Seite** ein Projekt aus.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-1. Klicken **bei** im linken Bereich auf **Neuer Rechnungsnachweis**.
+1. Klicken Sie **Neuer Rechnungsnachweis**.
 1. Geben Sie **Feld „Neuer**&quot;, das angezeigt wird, die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
@@ -82,50 +84,43 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
     <tbody> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Dies ist ein Pflichtfeld. Geben Sie eine Beschreibung für den Rechnungsnachweis an, um den Zweck oder die Absicht für diesen Datensatz widerzuspiegeln.</td> 
+      <td>(Erforderlich) Geben Sie eine Beschreibung für den Rechnungsnachweis ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fakturastatus</td> 
-      <td> <p>Wählen Sie <strong>Nicht in Rechnung gestellt</strong>, wenn dieser Datensatz noch nicht in Rechnung gestellt wurde.</p> <p>Wählen Sie <strong>In Rechnung gestellt</strong> aus, wenn der Rechnungsnachweis in Rechnung gestellt wird.</p> </td> 
+      <td> <p>Wählen <strong>Nicht in Rechnung gestellt</strong> wenn dieser Datensatz noch nicht in Rechnung gestellt wurde.</p> <p>Wählen Sie <strong>In Rechnung gestellt</strong> aus, wenn der Rechnungsnachweis in Rechnung gestellt wurde.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fakturierungsdatum</td> 
-      <td>Wählen Sie das Datum aus, an dem dieser Rechnungsnachweis in Rechnung gestellt wird, indem Sie auf das Kalendersymbol klicken.</td> 
+      <td>Wählen Sie das Datum aus, an dem dieser Rechnungsnachweis in Rechnung gestellt wurde, indem Sie auf das Kalendersymbol klicken.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bestellnummer</td> 
-      <td>Wenn diesem Rechnungsnachweis eine Bestellnummer zugeordnet ist, geben Sie diese Information in diesem Feld an.</td> 
+      <td>Geben Sie die Bestellnummer ein, die diesem Rechnungsnachweis zugeordnet ist.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rechnungsnummer</td> 
-      <td>Wenn diesem Rechnungsnachweis eine Rechnung zugeordnet ist, geben Sie diese Informationen in diesem Feld an.</td> 
+      <td>Geben Sie die diesem Rechnungsnachweis zugeordnete Rechnung ein.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zusätzlicher Betrag</td> 
-      <td>Geben Sie den Festbetrag Ihres Rechnungsnachweises ein. Dies ist der Betrag, den Sie einem externen Kunden, Auftragnehmer oder Partner für dieses Projekt in Rechnung stellen möchten. Dieser Betrag kann nicht mehr geändert werden, nachdem der Status des Rechnungsnachweises in „In Rechnung gestellt“ geändert wurde.</td> 
+      <td>Geben Sie den Festbetrag Ihres Rechnungsnachweises ein. Dies ist der Betrag, den Sie einem externen Kunden, Auftragnehmer oder Partner für dieses Projekt in Rechnung stellen möchten. Dieser Betrag kann nicht mehr geändert werden, nachdem der Status des Abrechnungs-Datensatzes in „In Rechnung gestellt“ geändert wurde.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Wählen **unter „Benutzerdefinierte Forms** ein benutzerdefiniertes Formular für Rechnungsnachweise aus, das Sie dem Rechnungsnachweis hinzufügen möchten.
+1. (Optional) Wählen **unter „Benutzerdefinierte Forms** ein benutzerdefiniertes Formular für Rechnungsnachweise aus, das Sie dem Datensatz hinzufügen möchten.
 
-   Sie (oder ein anderer Benutzer mit Zugriff auf benutzerdefinierte Formulare) müssen ein benutzerdefiniertes Formular für Rechnungsnachweise erstellen, bevor Sie es hier auswählen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Ein benutzerdefiniertes Formular für Rechnungsnachweise muss erstellt werden, bevor Sie es hier auswählen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   Sie können diesen Schritt wiederholen, um weitere benutzerdefinierte Formulare hinzuzufügen, die Sie für den Rechnungsnachweis benötigen.
-
-1. Klicken Sie auf **Speichern.**
-
-   Der Rechnungsnachweis wird erstellt. Um verrechenbare Stunden, Ausgaben und Festeinnahmen in den Rechnungsnachweis einzubeziehen, führen Sie die im folgenden Unterabschnitt beschriebenen Schritte aus.
+1. Klicken Sie auf **Speichern.** Der Rechnungsnachweis wird erstellt.
 
 ## Fakturierbare Stunden, Ausgaben und Festeinnahmen in einen Rechnungsnachweis einschließen
 
-* [Fakturierbare Stunden in einen Rechnungsnachweis einbeziehen](#include-billable-hours-in-a-billing-record)
-* [Fakturierbare Ausgaben in einen Rechnungsnachweis einbeziehen](#include-billable-expenses-in-a-billing-record)
-* [Festeinnahmen in einen Rechnungsnachweis einbeziehen](#include-fixed-revenues-in-a-billing-record)
-
 ### Fakturierbare Stunden in einen Rechnungsnachweis einbeziehen {#include-billable-hours-in-a-billing-record}
 
-Sie können Stunden, die für Aufgaben, Probleme oder das Projekt protokolliert wurden, in Ihre Rechnungsnachweise aufnehmen.\
+Sie können Stunden, die für Aufgaben, Probleme oder das Projekt protokolliert wurden, in Ihre Rechnungsnachweise aufnehmen.
+
 Wenn der Benutzer, der die Stunden oder sein Primäres Aufgabengebiet protokolliert, mit einem Abrechnungssatz pro Stunde verknüpft ist, wird der Umsatz aus diesen Stunden zum Abrechnungsdatensatz hinzugefügt.
 
 * [Welche Stunden können einem Rechnungsnachweis hinzugefügt werden](#what-hours-can-be-added-to-a-billing-record)
@@ -135,12 +130,12 @@ Wenn der Benutzer, der die Stunden oder sein Primäres Aufgabengebiet protokolli
 
 Sie können einem Rechnungsnachweis Stunden hinzufügen, wenn die folgenden Bedingungen erfüllt sind:
 
-* Für Aufgaben, Probleme oder das Projekt wurden Stunden protokolliert.
+* Für die Aufgaben, Probleme oder das Projekt wurden Stunden protokolliert.
 * Der Stundentyp der protokollierten Stunden wird als „Umsatz zählen“ gekennzeichnet.
 
-  Weitere Informationen zu Stundentypen finden Sie im Artikel [Verwalten von Stundentypen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+  Weitere Informationen finden Sie im Artikel [Verwalten von Stundentypen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* Alle Stunden, die für Probleme oder für das Projekt protokolliert wurden, können einem Rechnungsnachweis hinzugefügt werden, wenn der Benutzer, der die Zeit protokolliert, über einen Abrechnungssatz pro Stunde oder über sein Primäres Aufgabengebiet verfügt.
+* Alle für Probleme oder das Projekt protokollierten Stunden können einem Rechnungsnachweis hinzugefügt werden, wenn der Person, die die Zeit protokolliert, ein Abrechnungssatz pro Stunde oder ihr Primäres Aufgabengebiet zugeordnet ist.
 * Wenn Stunden für eine Aufgabe protokolliert werden, muss die Aufgabe den folgenden Umsatztyp aufweisen:
 
    * Der Umsatztyp kann nicht auf „Nicht fakturierbar“ festgelegt werden.
@@ -150,30 +145,28 @@ Sie können einem Rechnungsnachweis Stunden hinzufügen, wenn die folgenden Bedi
      >[!NOTE]
      >
      >Sie können Abrechnungssätze für Aufgabengebiete auf Projektebene überschreiben.\
-     >Weitere Informationen zum Überschreiben der Abrechnungssätze für Aufgabengebiete finden Sie im Abschnitt „Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene“ im Artikel [Übersicht über das Überschreiben der Abrechnungssätze für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Weitere Informationen finden Sie im Abschnitt zum Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene im Artikel [Übersicht über das Überschreiben der Abrechnungssätze für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* Wenn **Für dieses Projekt zu genehmigende Zeit erforderlich** in den Projekteinstellungen aktiviert ist, muss der Projektbesitzer die protokollierten Stunden genehmigen.\
-  Weitere Informationen zum Erfordernis einer Genehmigung für Projektstunden finden Sie im Artikel [Erforderliche Zeit für die Genehmigung eines Projekts](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
+* Wenn die Option Für dieses Projekt zu genehmigende Zeit erforderlich in den Projekteinstellungen aktiviert ist, muss der Projektbesitzer die protokollierten Stunden genehmigen.\
+  Weitere Informationen finden Sie unter [Für die Genehmigung eines Projekts ist Zeit erforderlich](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
 #### Hinzufügen von Stunden zu einem Rechnungsnachweis {#add-hours-to-a-billing-record}
 
-So fügen Sie einem Rechnungsnachweis fakturierbare Stunden hinzu:
+{{step1-to-projects}}
 
-1. Zum Projekt mit den Rechnungsnachweisen wechseln.
+1. Wählen Sie auf **Seite** ein Projekt aus.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-1. Klicken Sie auf **Beschreibung** eines Rechnungsnachweises, um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
+1. Klicken Sie auf den Rechnungsnachweis **Beschreibung**, um die Registerkarte **Details zum Rechnungsnachweis** zu öffnen.
 1. Klicken Sie **linken Bedienfeld auf** Abrechnungsfähige Stunden“.
-1. Wenn ein Rechnungsnachweis Stunden enthalten kann, klicken Sie auf **Stunden hinzufügen**.\
-   Das **Abrechnungsfähige Stunden hinzufügen** wird geöffnet.
+1. Wenn ein Rechnungsnachweis Stunden enthalten kann, klicken Sie auf **Stunden hinzufügen**. Das **Abrechnungsfähige Stunden hinzufügen** wird geöffnet.
 
    >[!NOTE]
    >
-   >Wenn keine Stunden protokolliert wurden oder die protokollierten Stunden die Bedingungen für das Hinzufügen zu einem Rechnungsnachweis nicht erfüllen, wird die Schaltfläche **Stunden hinzufügen** nicht angezeigt. Weitere Informationen dazu, welche Stunden in einem Rechnungsnachweis protokolliert werden können, finden Sie im Abschnitt [Welche Stunden können einem Rechnungsnachweis hinzugefügt werden](#what-hours-can-be-added-to-a-billing-record) in diesem Artikel.
+   >Wenn keine Stunden protokolliert werden oder die protokollierten Stunden die Bedingungen für das Hinzufügen zu einem Rechnungsnachweis nicht erfüllen, wird die Schaltfläche **Stunden hinzufügen** nicht angezeigt. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Welche Stunden können einem Rechnungsnachweis hinzugefügt werden](#what-hours-can-be-added-to-a-billing-record).
 
-1. Wählen Sie die Stundeneinträge aus, die Sie in den Rechnungsnachweis aufnehmen möchten, und klicken Sie auf **Stunden hinzufügen**.\
-   Die Ist-Kosten der Stunden werden als „Abrechnungsfähige **&quot;** „Rechnungsnachweissumme **hinzugefügt**.
+1. Wählen Sie die Stundeneinträge aus, die Sie in den Rechnungsnachweis aufnehmen möchten, und klicken Sie dann auf **Stunden hinzufügen**. Die Ist-Kosten der Stunden werden als „Abrechnungsfähige **&quot;** „Rechnungsnachweissumme **hinzugefügt**.
 
-1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Stunden** und **Rechnungsnachweissumme** zu überprüfen. Sie können die Summe der Rechnungsnachweise auch in der Kopfzeile des Rechnungsnachweises sehen.
+1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Stunden** und **Rechnungsnachweissumme** sowie die Summe des Rechnungsnachweises in der Kopfzeile des Rechnungsnachweises zu überprüfen.
 
 ### Verrechenbare Ausgaben in einen Rechnungsnachweis einschließen {#include-billable-expenses-in-a-billing-record}
 
@@ -181,74 +174,75 @@ Wenn Sie verrechenbare Ausgaben zum Rechnungsnachweis hinzufügen, stellen Sie s
 
 So fügen Sie verrechenbare Ausgaben zu einem Rechnungsnachweis hinzu:
 
-1. Zum Projekt mit den Rechnungsnachweisen wechseln.
+{{step1-to-projects}}
+
+1. Wählen Sie auf **Seite** ein Projekt aus.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-1. Klicken Sie auf **Beschreibung** eines Rechnungsnachweises, um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
+1. Klicken Sie auf den Rechnungsnachweis **Beschreibung**, um die Registerkarte **Details zum Rechnungsnachweis** zu öffnen.
 1. Klicken Sie **linken** auf „Abrechnungsfähige Ausgaben“.
 1. (Bedingt) Wenn Sie Ihren Aufgaben oder dem Projekt Kosten hinzugefügt und diese als fakturierbar markiert haben, klicken Sie auf **Kosten hinzufügen**.
 
    >[!NOTE]
    >
-   >Wenn Sie Ausgaben haben, diese jedoch nicht als „Verrechenbar“ gekennzeichnet sind **wird die Schaltfläche** Kosten hinzufügen“ nicht angezeigt. Nur fakturierbare Ausgaben mit einem tatsächlichen Betrag größer als null können in einen Rechnungsnachweis aufgenommen werden.
+   >Wenn Sie Ausgaben haben, diese jedoch nicht als „Verrechenbar“ gekennzeichnet sind, wird die Schaltfläche **Kosten hinzufügen** nicht angezeigt. Nur fakturierbare Ausgaben mit einem tatsächlichen Betrag größer als null können in einen Rechnungsnachweis aufgenommen werden.
 
-1. Wählen Sie die verrechenbaren Ausgaben aus, die dem Rechnungsnachweis hinzugefügt werden können, und klicken Sie dann auf **Ausgaben hinzufügen**.\
-   Der tatsächliche Betrag der Kosten wird als &quot;**Kosten“** „Rechnungsnachweissumme **hinzugefügt**.
+1. Wählen Sie die verrechenbaren Ausgaben aus, die dem Rechnungsnachweis hinzugefügt werden können, und klicken Sie dann auf **Ausgaben hinzufügen**.  Der tatsächliche Betrag der Kosten wird als &quot;**Kosten“** „Rechnungsnachweissumme **hinzugefügt**.
 
-1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Ausgaben** und **Rechnungsnachweissumme** zu überprüfen. Sie können die Summe der Rechnungsnachweise auch in der Kopfzeile des Rechnungsnachweises sehen.
+1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Ausgaben** und **Rechnungsnachweissumme** sowie die Summe des Rechnungsnachweises in der Kopfzeile des Rechnungsnachweises zu überprüfen.
 
 ### Festeinnahmen in einen Rechnungsnachweis einbeziehen {#include-fixed-revenues-in-a-billing-record}
 
-Sie können Festeinnahmen zu Ihren Rechnungsnachweisen hinzufügen, wenn Aufgaben mit Festeinnahmen verfügbar sind. Es stehen keine anderen Aufgaben- oder Projektumsätze zur Verfügung, die einem Rechnungsnachweis hinzugefügt werden können. Weitere Informationen zu Umsatztypen finden Sie im Abschnitt [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) in [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Sie können Festeinnahmen zu Ihren Rechnungsnachweisen hinzufügen, wenn Aufgaben mit Festeinnahmen verfügbar sind. Es steht kein anderer Typ von Aufgaben- oder Projektumsatz zur Verfügung, der einem Rechnungsnachweis hinzugefügt werden kann. Weitere Informationen zu Umsatztypen finden Sie im Abschnitt Übersicht über Abrechnung und Umsatz im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-So fügen Sie einem Rechnungsnachweis Festeinnahmen hinzu:
+{{step1-to-projects}}
 
-1. Zum Projekt mit den Rechnungsnachweisen wechseln.
+1. Wählen Sie auf **Seite** ein Projekt aus.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
-1. Klicken Sie auf **Beschreibung** eines Rechnungsnachweises, um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
+1. Klicken Sie auf die **Beschreibung) des Rechnungsnachweises** um die Registerkarte **Details des Rechnungsnachweises** zu öffnen.
 1. Wählen Sie die **Festeinnahmen** aus.
 1. Wenn Sie Festeinnahmen zu Ihren Aufgaben hinzugefügt haben, klicken Sie auf **Festeinnahmen hinzufügen**.
 
    >[!NOTE]
    >
-   >Wenn Sie Umsatzbeträge für Aufgaben haben, diese jedoch nicht als „Feste“ gekennzeichnet sind, wird **Schaltfläche „Feste** hinzufügen“ nicht angezeigt.
+   >Wenn Sie Umsatzbeträge für Aufgaben haben, diese jedoch nicht als „Feste Einnahmen“ gekennzeichnet sind **wird die Schaltfläche „Feste** hinzufügen“ nicht angezeigt.
 
-1. Wählen Sie die Aufgaben aus, deren Festeinnahmen Sie in den Rechnungsnachweis aufnehmen möchten, und klicken Sie dann auf **Aufgaben hinzufügen**.\
-   Der **Festeinnahmen** der Aufgaben wird als &quot;**Einnahmen“** „Rechnungsnachweissumme **hinzugefügt**.
+1. Wählen Sie die Aufgaben aus, deren Festeinnahmen Sie in den Rechnungsnachweis aufnehmen möchten, und klicken Sie dann auf **Aufgaben hinzufügen**.  Der **Festeinnahmen** der Aufgaben wird als &quot;**Einnahmen“** „Rechnungsnachweissumme **hinzugefügt**.
 
-1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Einnahmen** und **Rechnungsnachweissumme** zu überprüfen. Sie können die Summe der Rechnungsnachweise auch in der Kopfzeile des Rechnungsnachweises sehen.
+1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Einnahmen** und **Rechnungsnachweissumme** sowie die Summe des Rechnungsnachweises in der Kopfzeile des Rechnungsnachweises zu überprüfen.
 
 ## Rechnungsnachweis bearbeiten
 
-Nachdem Sie einen Rechnungsnachweis erstellt und Stunden, Ausgaben und Einnahmen in den Rechnungsnachweis aufgenommen haben, können Sie einige Informationen zum vorhandenen Datensatz bearbeiten, bevor er als „In Rechnung gestellt“ markiert wird.
+Nachdem Sie einen Rechnungsnachweis erstellt und ihm Stunden, Ausgaben und Einnahmen hinzugefügt haben, können Sie einige Informationen zum vorhandenen Datensatz bearbeiten, bevor er als „In Rechnung gestellt“ markiert wird.
 
-1. Wechseln Sie zum Rechnungsnachweis.
-1. Wenn **Rechnungsnachweisdetails** im linken Bereich ausgewählt ist, können Sie Informationen in allen verfügbaren Feldern bearbeiten
+1. Navigieren Sie zum Rechnungsnachweis.
+1. Wählen **Rechnungsnachweisdetails** im linken Bedienfeld aus.
+1. Bearbeiten Sie die Informationen in allen verfügbaren Feldern.
 
    Oder
 
-   Klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke und bearbeiten Sie dann Informationen in allen verfügbaren Feldern.
+   Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke und bearbeiten Sie dann Informationen in allen verfügbaren Feldern.
 
    Aktualisieren Sie Folgendes:
 
    * **Beschreibung**
+   * **Fakturierungsdatum**
    * **Fakturastatus**
 
      >[!TIP]
      >
      >Wenn Sie für **Fakturastatus die** „In Rechnung gestellt“ wählen, kann der Rechnungsnachweis nach dem Speichern der Änderungen nicht mehr bearbeitet werden.
 
-   * **Fakturierungsdatum**
-   * **Bestellnummer**
    * **Rechnungs-ID**
+   * **Bestellnummer**
    * **Zusätzlicher Betrag**
 
    Die folgenden Felder können nicht bearbeitet werden:
 
-   * **Fakturierbare Stunden:** Der Gesamtbetrag der tatsächlichen Einnahmen aus den im Rechnungsnachweis enthaltenen Stunden. Weitere Informationen zur Aufnahme von Stunden in einen Abrechnungs-Datensatz finden Sie im Abschnitt [Abrechnungsfähige Stunden in einen Abrechnungs-Datensatz einbeziehen](#include-billable-hours-in-a-billing-record) in diesem Artikel.
+   * **Fakturierbare Stunden:** Der Gesamtbetrag der tatsächlichen Einnahmen aus den im Rechnungsnachweis enthaltenen Stunden. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Stunden in einen Rechnungsnachweis einbeziehen](#include-billable-hours-in-a-billing-record).
 
-   * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen zur Aufnahme verrechenbarer Ausgaben in einen Rechnungsnachweis finden Sie im Abschnitt [Berücksichtigung verrechenbarer Ausgaben in einem ](#include-billable-expenses-in-a-billing-record)) dieses Artikels.
+   * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Ausgaben in einen Rechnungsnachweis einschließen](#include-billable-expenses-in-a-billing-record).
 
-   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen zur Einbeziehung von Festeinnahmen in einen Rechnungsnachweis finden Sie im Abschnitt [Festeinnahmen in einen Rechnungsnachweis einbeziehen](#include-fixed-revenues-in-a-billing-record) in diesem Artikel.
+   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis ](#include-fixed-revenues-in-a-billing-record).
 
    * **Rechnungsnachweissumme**: Die Summe aller fakturierbaren Beträge. Dies wird nach folgender Formel berechnet:
 
@@ -256,4 +250,4 @@ Nachdem Sie einen Rechnungsnachweis erstellt und Stunden, Ausgaben und Einnahmen
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Klicken Sie **Speichern**&#x200B;**Änderungen**.
+1. Klicken Sie auf **Änderungen speichern**.
