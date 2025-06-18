@@ -7,7 +7,7 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 2%
@@ -396,7 +396,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <td><strong>ARRAYCONTAINS</strong> </td> 
    <td> <p>Sucht nach einem bestimmten Wert in einer Liste oder einem Array. Wenn der Wert gefunden wird, gibt die Funktion True zurück, andernfalls gibt sie False zurück. </p> 
    <p>Der Ausdruck ist wie folgt formatiert:</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 

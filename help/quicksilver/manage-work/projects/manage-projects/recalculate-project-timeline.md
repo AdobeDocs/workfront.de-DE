@@ -6,14 +6,16 @@ description: Durch die Neuberechnung der Timelines können Manager sehen, wie si
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
 
 # Projektzeitleisten neu berechnen
+
+<!--Audited: 06/2025-->
 
 Durch die Neuberechnung der Timelines können Manager sehen, wie sich verschiedene Faktoren im Zusammenhang mit dem Projekt auf die Timeline des Projekts auswirken. Der Zeitplan eines Projekts bezieht sich auf geplante und geplante Termine.
 
@@ -21,68 +23,41 @@ Durch die Neuberechnung der Timelines können Manager sehen, wie sich verschiede
 
 In diesem Artikel wird beschrieben, wie die Neuberechnung der Zeitleiste erfolgt.
 
+Die automatische Neuberechnung der Zeitleiste erfolgt für keinen der Benutzer, die an der Arbeit am Projekt beteiligt sind, ohne speziellen Zugriff. Darüber hinaus können Sie die Timeline manuell neu berechnen.
+
 ## Zugriffsanforderungen
 
-<!--drafted for P&P: 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Die automatische Neuberechnung der Zeitleiste erfolgt für keinen der Benutzer, die an der Arbeit am Projekt beteiligt sind, ohne speziellen Zugriff.
-
-Sie müssen jedoch über die folgenden Zugriffsrechte verfügen, um die Zeitleiste eines Projekts manuell neu zu berechnen:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Neue Lizenz: Standard </p> 
+   Oder
+   <p>Aktuelle Lizenz: Plan </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Systemadministrator berechnet die Zeitleiste für alle Projekte im System neu</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Systemadministrator berechnet die Zeitleiste für alle Projekte im System neu</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für ein Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für ein Projekt</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Automatische Neuberechnung
 

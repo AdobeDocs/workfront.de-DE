@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 2%
+source-wordcount: '2061'
+ht-degree: 1%
 
 ---
 
@@ -277,12 +277,14 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
    * Ein Datensatztyp und ein Workfront-Projekt-, -Programm-, -Portfolio-, -Unternehmens- oder -Gruppenobjekttyp.
    * Einen Datensatztyp und ein Adobe Experience Manager-Asset oder -Ordner.
 
-     Sie benötigen eine Adobe Experience Manager-Lizenz, um Datensatztypen mit Experience Manager-Objekten zu verknüpfen.
+     Sie müssen über eine Adobe Experience Manager-Lizenz verfügen, um Datensatztypen mit Experience Manager-Objekten zu verbinden.
 
      ![Neue Registerkarte „Verbindung“ mit Workfront AEM-Optionen](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze oder Objekte dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verbundenes Datensatzfeld oder als Verbindung angezeigt.
+
+  Das Verbinden von Datensatztypen ist hilfreich, wenn sich mehrere Typen von Arbeitsobjekten gegenseitig beeinflussen. Sie können beispielsweise mit Kampagnen arbeiten, wobei jede Kampagne mehreren Marken gerecht werden kann. Um diese Beziehung anzugeben, können Sie Kampagnen mit Marken verbinden. Darüber hinaus kann es sein, dass die Arbeit für jede Kampagne in mehreren Projekten in Workfront geplant wird. Um dies anzuzeigen, können Sie die Kampagnen mit den entsprechenden Projekten verbinden. Durch das Verbinden von Datensatztypen und das anschließende Verbinden einzelner Datensätze wird diese Beziehung in Workfront Planning erreicht.
 
 * **Suchfelder** (oder verknüpfte Felder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verbunden haben, können Sie die Felder der verbundenen Datensätze aus dem Datensatz referenzieren, von dem aus Sie eine Verbindung herstellen.
 
@@ -299,7 +301,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
   >* Zuletzt geändert von
   >* Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor)
 
-  Informationen zum Verknüpfen von Datensatztypen, Datensätzen und Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
+  Informationen zum Verbinden von Datensatztypen, Datensätzen und Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
 
    * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
      ![Gruppierung in der Zeitleisten-Ansicht angewendet](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalenderansicht** Zeigt Datensätze mit mindestens zwei Feldern vom Typ Datum in einem Kalenderformat an.
-
      ![Beispiel für Kalenderansicht](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Wor
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
 
 * [Grundlagen der Adobe Workfront Planning-](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird.
 
