@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Plan]</p> </td> 
+   <td> <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
@@ -50,7 +50,7 @@ Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Workfront] und dann auf **[!UICONTROL Benutzer]** Symbol ![Benutzer](assets/users-icon-in-main-menu.png).
 
-   ![Optionen im Hauptmenü](assets/main-menu-options-350x481.png)
+
 
 1. Wählen Sie **[!UICONTROL Benutzer]** aus, für den das Kennwort zurückgesetzt werden muss.
    ![Benutzer auswählen](assets/100520classicnweselectuser-350x105.png)
