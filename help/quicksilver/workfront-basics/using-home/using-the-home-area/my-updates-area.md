@@ -6,9 +6,9 @@ description: Im Bereich [!UICONTROL Meine Updates] können Sie schnell die Geneh
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Als Benutzer mit einer [!UICONTROL Review]-Lizenz finden Sie standardmäßig den
 
 Informationen zu [!DNL Adobe Workfront] finden Sie unter [[!DNL Adobe Workfront] Lizenzen - Übersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Workfront]- oder Gruppenadministrator den Bereich &quot;[!UICONTROL &#x200B; Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Workfront]- oder Gruppenadministrator den Bereich &quot;[!UICONTROL  Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Zugriffsanforderungen
 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: Mitwirkender oder höher</p>
    Oder   
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
@@ -74,15 +74,13 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
 ## Rufen Sie den Bereich [!UICONTROL Meine Aktualisierungen] auf
 
-1. Klicken Sie **[!UICONTROL Hauptmenü]** auf **[!UICONTROL Meine Aktualisierungen]**.
+{{step1-to-my-updates}}
 
-   ![Meine Updates im Hauptmenü](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+Der Bereich [!UICONTROL Meine Updates] wird geöffnet.
 
-   Der Bereich [!UICONTROL Meine Updates] wird geöffnet.
+Die Genehmigungen und Zugriffsanfragen, die Ihnen zugewiesen wurden, werden in der ersten Hälfte der Seite unter &quot;**Updates“**.
 
-   Die Genehmigungen und Zugriffsanfragen, die Ihnen zugewiesen wurden, werden in der ersten Hälfte der Seite unter &quot;**Updates“**.
-
-   ![Meine Aktualisierungen Erwähnungen für Reviewer](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![Meine Aktualisierungen Erwähnungen für Reviewer](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Optional) Scrollen Sie zum unteren Rand des Bereichs [!UICONTROL **Meine Aktualisierungen**] und klicken Sie auf den nach rechts zeigenden Pfeil, um weitere Genehmigungen anzuzeigen, die auf zusätzlichen Seiten angezeigt werden.
 

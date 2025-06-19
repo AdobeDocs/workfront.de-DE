@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Systemgesteuerte Updates
+title: Übersicht über die vom System verfolgten Aktualisierungen
 description: Adobe Workfront erfasst die Aktivitäten, die an bestimmten Objekten stattfinden, indem Statusinformationen im Bereich [!UICONTROL Aktualisierungen] des Objekts protokolliert werden.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
-# Systemverfolgte Aktualisierungen
+# Übersicht über die vom System verfolgten Aktualisierungen
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] erfasst die Aktivitäten, die an bestimmten Objekten stattfinden, indem Statusinformationen im Abschnitt [!UICONTROL Updates“ &#x200B;] Objekts protokolliert werden.
+[!DNL Adobe Workfront] erfasst die Aktivitäten, die an bestimmten Objekten stattfinden, indem Statusinformationen im Abschnitt [!UICONTROL Updates“ ] Objekts protokolliert werden.
 
 Weitere Informationen zum Abschnitt „Aktualisierungen“ finden Sie [Übersicht über den Abschnitt „Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -61,7 +61,7 @@ System-getrackte Aktualisierungen sind nicht für alle Objekte verfügbar, die �
    * [!UICONTROL Projekt]
    * [!UICONTROL Aufgabe]
    * [!UICONTROL Probleme]
-   * [!UICONTROL Portfolio &#x200B;]
+   * [!UICONTROL Portfolio]
    * [!UICONTROL Programm]
    * [!UICONTROL Benutzer]
    * [!UICONTROL Vorlage]
@@ -75,7 +75,7 @@ System-getrackte Aktualisierungen sind nicht für alle Objekte verfügbar, die �
    * [!UICONTROL Iteration]
    * [!UICONTROL Ziel]
 
-     Sie müssen über eine zusätzliche Lizenz verfügen, um Zugriff auf den Bereich [!UICONTROL Ziele] zu erhalten. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Nicht alle Workfront-Pakete enthalten Workfront Goals. Weitere Informationen finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Karte] auf einer Pinnwand
 
      Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](../../../agile/get-started-with-boards/connected-cards.md).
@@ -119,7 +119,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] Admins können im Bereich [!UICONTROL Updates“ festlegen, welche Änderungen das System &#x200B;] soll. Nicht alle Objekte mit einem [!UICONTROL Updates]-Bereich verfügen auch über konfigurierbare [!UICONTROL Update]-Feeds. Die folgenden Objekte haben einen Bereich [!UICONTROL Updates], der vom System verfolgte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds hat:
+* [!DNL Workfront] Admins können im Bereich [!UICONTROL Updates“ festlegen, welche Änderungen das System ] soll. Nicht alle Objekte mit einem [!UICONTROL Updates]-Bereich verfügen auch über konfigurierbare [!UICONTROL Update]-Feeds. Die folgenden Objekte haben einen Bereich [!UICONTROL Updates], der vom System verfolgte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds hat:
 
    * [!UICONTROL Dokument]
    * [!UICONTROL Arbeitszeittabelle]

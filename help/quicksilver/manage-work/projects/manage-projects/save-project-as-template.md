@@ -6,9 +6,9 @@ description: Speichern eines Projekts als Vorlage „Als Vorlage speichern“ au
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,15 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
+<!--
 <div class="preview">
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Wenn Sie festlegen, dass ein Projekt zu einem späteren Zeitpunkt wieder ausgeführt werden soll, können Sie aus diesem vorhandenen Projekt eine Vorlage erstellen. Anschließend können Sie die Vorlage erneut verwenden, um zukünftige Projekte zu erstellen, die ähnliche Informationen enthalten oder möglicherweise dieselbe Zeitleiste oder dieselben Zuweisungen für das vorhandene Projekt verwenden.
 
@@ -67,13 +69,15 @@ Wenn Sie festlegen, dass ein Projekt zu einem späteren Zeitpunkt wieder ausgef�
 
 ## Speichern eines Projekts als Vorlage
 
-Das Speichern eines Projekts als Vorlage unterscheidet sich in der Produktions- und in der Vorschau-Umgebung.
+<!--
+Saving a project as a template differs in the Production and the Preview environments. 
 
-### Speichern eines Projekts als Vorlage in der Produktionsumgebung
+### Save a project as a template in the Production environment
 
-1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Als Vorlage speichern**.
-1. Geben Sie die folgenden Informationen für die Vorlage an:
+
+1. Go to the project that you want to save as a template. 
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,49 +85,51 @@ Das Speichern eines Projekts als Vorlage unterscheidet sich in der Produktions- 
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td>Geben Sie einen Namen für die Vorlage an.</td> 
+      <td>Specify a name for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung für die Vorlage an.</td> 
+      <td role="rowheader">Description</td> 
+      <td>Provide a description for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ist aktiv</td> 
-      <td> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
+      <td role="rowheader">Is Active</td> 
+      <td> <p>Select from the following options:</p> 
        <ul> 
-        <li> <p><strong>Ja</strong>: Andere Benutzer können die Vorlage finden und sie an Projekte anhängen.</p> </li> 
-        <li><strong>Nein</strong>: Andere Benutzer können die Vorlage nicht finden und sie nicht an Projekte anhängen.</li> 
+        <li> <p><strong>Yes</strong>: Other users can find the template and attach it to projects.</p> </li> 
+        <li><strong>No</strong>: Other users cannot find the template and cannot attach it to projects.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Benutzerdefinierte Formulare</td> 
-      <td>Verwenden Sie die Dropdown-Liste, um benutzerdefinierte Formulare auszuwählen, die an die Vorlage angehängt werden sollen. Wenn bereits benutzerdefinierte Formulare mit dem Projekt verknüpft wurden, werden alle Datenfelder aus diesen benutzerdefinierten Formularen angezeigt.<br>Sie können bis zu 10 benutzerdefinierte Formulare in eine Vorlage aufnehmen.</td> 
+      <td role="rowheader">Custom Forms</td> 
+      <td>Use the drop-down list to select any custom forms to attach to the template. If any custom forms have already been associated with the project, all of the data fields from those custom forms are displayed.<br>You can include up to 10 custom forms on a single template.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Forms verwalten**, um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen benutzerdefinierter Formulare aus der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Klicken Sie auf **Nächster Schritt.**
-1. Aktivieren **im Abschnitt** das Kontrollkästchen neben den Informationen, die Sie aus der Vorlage entfernen möchten.
+1. Click **Next Step.**
+1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Klicken Sie auf **Nächster Schritt.**
-1. Wählen Sie im **Ausschließen** alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
+1. Click **Next Step.**
+1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klicken Sie auf **Beenden und Vorlage speichern.**
+1. Click **Finish and Save Template.**
 
-   Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt und kann entweder an ein vorhandenes Projekt angehängt oder zum Erstellen eines neuen verwendet werden.
+   Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
 
 
 <div class="preview">
 
-### Speichern eines Projekts als Vorlage in der Vorschau-Umgebung
+### Save a project as a template in the Preview environment
+
+-->
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
 1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Als Vorlage speichern**.
@@ -165,7 +171,7 @@ Um ein Formular zu entfernen, wählen Sie es aus und klicken Sie auf **Entfernen
 
 1. Aktualisieren Sie bei Bedarf die Informationen in den angehängten benutzerdefinierten Formularen. Die Informationen werden auf die Vorlage übertragen.
 
-1. Klicken Sie **Abschnitt** Optionen“ im linken Bereich und aktivieren Sie dann das Kontrollkästchen neben den Informationen, die Sie auf die Vorlage übertragen möchten. Nicht ausgewählte Elemente werden nicht in die Vorlage übertragen. Standardmäßig sind alle Optionen deaktiviert.
+1. Klicken Sie **linken** auf „Optionen“ und aktivieren Sie dann das Kontrollkästchen neben den Informationen, die Sie auf die Vorlage übertragen möchten. Nicht ausgewählte Elemente werden nicht in die Vorlage übertragen. Standardmäßig sind alle Optionen deaktiviert.
 
    ![Optionen im Feld Als Vorlage speichern](assets/options-area-in-save-as-template-box.png)
 
@@ -173,8 +179,7 @@ Um ein Formular zu entfernen, wählen Sie es aus und klicken Sie auf **Entfernen
 
    ![Bereich im Feld Als Vorlage speichern ausschließen](assets/exclude-area-save-as-template-box.png)
 
-1. Klicken Sie auf **Beenden und Vorlage speichern.**
+1. Klicken **oben rechts** Bildschirm auf „Beenden und Vorlage speichern“.
 
    Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt und kann entweder an ein vorhandenes Projekt angehängt oder zum Erstellen eines neuen verwendet werden.
 
-</span>
