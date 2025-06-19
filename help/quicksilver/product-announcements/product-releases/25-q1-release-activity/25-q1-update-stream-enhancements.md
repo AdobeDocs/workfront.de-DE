@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderu
 
 >[!NOTE]
 >
->Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: wird noch bekannt gegeben
+>Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden für Startseite: wird noch angekündigt; Produktionsversion für alle Kunden für Meine Updates: 19. Juni 2025
 
 Das Kommentierungserlebnis im Erwähnungen-Widget auf der Startseite und im Abschnitt Erwähnungen im Bereich Meine Aktualisierungen wird aktualisiert. Dasselbe Erlebnis im Bereich „Updates“ für die meisten Workfront-Objekte ist jetzt auch im Erwähnungen-Widget und im Abschnitt „Erwähnungen“ unter „Meine Aktualisierungen“ verfügbar.
 
