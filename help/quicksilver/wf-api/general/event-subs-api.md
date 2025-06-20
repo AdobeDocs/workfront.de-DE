@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2632'
 ht-degree: 3%
 
 ---
@@ -711,7 +711,9 @@ Mit diesem Filter können Nachrichten durchgelassen werden, wenn die aufgetreten
 
 Mit diesem Filter können Nachrichten nur dann durchgestellt werden, wenn der vollständige Satz ausgewählter Werte genau mit dem Feldwert im Filter übereinstimmt, unabhängig von der Reihenfolge. Es dürfen keine zusätzlichen oder fehlenden Werte vorhanden sein.
 
-Hinweis: Dies wird für Felder vom Typ Array (Mehrfachauswahl) verwendet. Mit diesem Beispielabonnement unten können Nachrichten nur dann durchgestellt werden, wenn das Feld `groups` genau „Auswahl 3“ und „Auswahl 4“ enthält, ohne zusätzliche oder fehlende Werte und unabhängig von der Reihenfolge.
+>[!NOTE]
+>
+>Dies wird für Felder vom Typ Array (Mehrfachauswahl) verwendet. Mit diesem Beispielabonnement unten können Nachrichten nur dann durchgestellt werden, wenn das Feld `groups` genau „Auswahl 3“ und „Auswahl 4“ enthält, ohne zusätzliche oder fehlende Werte und unabhängig von der Reihenfolge. Wenn eine Zeichenfolge oder eine Ganzzahl in `fieldValue` statt in einem Array angegeben wird, ermöglicht das Abonnement, dass Nachrichten nur dann durchlaufen werden, wenn das `groups` Feld genau eine Option enthält und diese Option genau mit der in `fieldValue` angegebenen Zeichenfolge oder Ganzzahl übereinstimmt.“
 
 
 ```
@@ -729,6 +731,31 @@ Hinweis: Dies wird für Felder vom Typ Array (Mehrfachauswahl) verwendet. Mit di
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+Mit diesem Filter können Nachrichten nur dann durchgelassen werden, wenn das angegebene Feld (`fieldName`) den angegebenen Wert (`fieldValue`) nicht enthält.
+
+>[!NOTE]
+>
+>Dies wird für Felder vom Typ Array (Mehrfachauswahl) oder Zeichenfolge verwendet. Wenn das Feld eine Zeichenfolge ist, überprüfen wir, ob der angegebene Wert nicht in der Zeichenfolge enthalten ist (z. B. ist „Neu“ nicht in der Zeichenfolge „Projekt - Aktualisiert„). Wenn das Feld ein Array ist und der angegebene Feldwert eine Zeichenfolge oder eine Ganzzahl ist, überprüfen wir, ob das Array den angegebenen Wert nicht enthält (z. B. „Auswahl 1“ nicht in [ „Auswahl 2“, „Auswahl 3“]). Im folgenden Beispielabonnement können Nachrichten nur dann durchgestellt werden, wenn die `groups` Felder nicht die Zeichenfolge „Gruppe 2“ enthalten.
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
