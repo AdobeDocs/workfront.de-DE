@@ -5,7 +5,7 @@ description: Im Rahmen der Ressourcenplanung können Sie die Aufgabengebiete bud
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Sie müssen dem Projekt Aufgabengebiete zuordnen, bevor Sie die Ressourcen dafü
 
   Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Ressourcenplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Verwenden Sie den Szenario-Planer, um Initiativen mit erforderlichen Aufgabengebieten zu erstellen und sie mit dem Projekt zu verknüpfen. Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Verwenden Sie den Szenario-Planer, um Initiativen mit erforderlichen Aufgabengebieten zu erstellen und sie mit dem Projekt zu verknüpfen. Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
   >[!NOTE]
   >

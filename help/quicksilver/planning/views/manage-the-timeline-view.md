@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 0%
+source-wordcount: '3788'
+ht-degree: 2%
 
 ---
 
@@ -28,8 +28,6 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
    ![Fehlende ursprüngliche Nachricht für benutzerdefinierte Quartale in der Zeitleisten-Ansicht](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Diese Warnmeldungen werden einmal pro Benutzerin bzw. Benutzer angezeigt.
+   Die Warnmeldungen zu den benutzerdefinierten Quartalen werden einmal pro Benutzer angezeigt.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    >
    ><span class="preview">Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.</span>
 
-1. (Optional und bedingt) Wenn der Datensatzname abgeschnitten ist, bewegen Sie den Mauszeiger über eine Datensatzleiste, um den vollständigen Namen des Datensatzes und zusätzliche Informationen anzuzeigen.
+1. (Optional und bedingt) Wenn der Datensatzname abgeschnitten ist, bewegen Sie den Mauszeiger über eine Datensatzleiste, um den vollständigen Namen des Datensatzes und zusätzliche Informationen anzuzeigen. Informationen dazu, wie Sie das Abschneiden der Datensatzleiste in der Zeitleiste einrichten, finden Sie im Abschnitt [Bearbeiten der Zeitleisten-Anzeigeeinstellungen](#edit-the-timeline-view-settings) in diesem Artikel.
 
 1. Führen Sie einen der folgenden Schritte aus, um durch die Zeitleiste zu navigieren:
 
-   * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um sich in der Zeitleiste vor- und rückwärts zu bewegen. Beim Aktualisieren der Seite wird der ausgewählte Zeitrahmen beibehalten.
-   * Klicken Sie **Heute**, um die Zeitleiste auf das heutige Datum zu zentrieren.
+   * Klicken Sie auf das linke und rechte Symbol in der oberen linken Ecke oder verwenden Sie den horizontalen Bildlauf, um sich in der Zeitleiste vor- und rückwärts zu bewegen. Beim Aktualisieren der Seite wird der ausgewählte Zeitrahmen beibehalten.
+   * Klicken **oben** auf „Heute“, um die Zeitleiste auf das heutige Datum zu zentrieren.
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren und die Ansicht zu aktualisieren:
 
       * **Year**: Zeigt Quartale und Monate mit Jahresangabe an.
@@ -218,12 +216,105 @@ Beachten Sie beim Arbeiten mit Filtern in der Zeitleisten -Ansicht Folgendes:
 
 * Das Entfernen von Filtern entfernt sie von allen, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
 
-* Das Hinzufügen von Filtern in der Zeitleisten -Ansicht entspricht dem Hinzufügen von Filtern in der Tabellenansicht.
-
-  Weitere Informationen finden Sie im Abschnitt „Filter hinzufügen“ im Artikel &quot;[ der Tabellenansicht ](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 * Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
+
+So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
+
+1. Erstellen Sie eine Zeitleisten -Ansicht für eine Seite vom Typ Datensatz, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Wählen Sie eine Zeitleisten -Ansicht aus **klicken Sie dann** oben rechts in der Tabelle auf „Filter“.
+1. Klicken Sie **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
+
+   * **Feld auswählen** nach dem Sie <!-- the tip below might change--> filtern möchten
+
+   * **Wählen Sie eine Option** oder einen Filtermodifikator), um festzulegen, welche Art von Bedingung das Feld erfüllen muss
+
+     In der folgenden Tabelle werden die verfügbaren Modifikatoren für jeden Feldtyp angezeigt.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Feldtyp</b></th>
+            <th><b>Modifikatoren</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Einzeilig, Absatz, Formel </td>
+            <td><p>Enthält</p>
+            <p>Enthält nicht</p>
+            <p>Ist</p>
+            <p>Ist nicht</p>
+            <p>Ist leer</p>
+            <p>Ist nicht leer</p></td>
+        </tr>
+        <tr><td>Einzelauswahl</td>
+            <td><p>Ist</p>
+            <p>Ist nicht</p>
+            <p>Ist ein beliebiges von</p>
+            <p>Ist keines von</p>
+            <p>Ist leer</p>
+            <p>Ist nicht leer</p></td>
+        </tr>
+        <tr>
+            <td>Mehrfachauswahl, Personen</td>
+            <td><p>Hat eines von</p>
+            <p>Hat alle von</p>
+            <p>Ist genau</p>
+            <p>Hat keines von</p>
+            <p>Ist leer</p>
+            <p>Ist nicht leer</p></td>
+        </tr>
+        <tr>
+            <td>Zahl, Prozentsatz, Währung</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Ist leer</p>
+            <p>Ist nicht leer</p></td>
+        </tr>
+        <tr>
+            <td>Datum</td>
+            <td><p>Ist</p>
+            <p>Ist nicht</p>
+            <p>Ist nach</p>
+            <p>Ist vor</p>
+            <p>Ist zwischen</p><p>Ist nicht zwischen</p>
+            <p>Ist leer</p><p>Ist nicht leer</p></td>
+        </tr>
+
+     <tr>
+            <td>Kontrollkästchen</td>
+            <td><p>Ist</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Einen Wert für das ausgewählte Feld auswählen.
+
+   ![Tabellenansicht der Filter-Benutzeroberfläche](assets/filter-ui-table-view.png)
+
+   Es gibt keine Begrenzung dafür, wie viele Filterbedingungen Sie hinzufügen können.
+
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um eine weitere Filteroption hinzuzufügen, und wiederholen Sie die obigen Schritte. Die Anzahl der angewendeten Filter wird links neben dem Symbol **Filter** angezeigt.
+1. Klicken Sie links auf die folgenden Operatoren, um anzugeben, wie die Filterbedingungen verbunden werden und angewendet werden sollen:
+
+   * **AND**: Alle angegebenen Bedingungen müssen erfüllt sein.
+   * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.
+Dies ist die Standardoption.
+
+   1. (Optional) Fügen Sie zusätzliche Filtergruppierungen hinzu und verbinden Sie sie mit den Operatoren **AND** oder **OR**.
+
+      ![Mehrstufige Filter in Ansichten](assets/multi-tiered-filters-in-views.png)
+
+   Die Liste der Datensätze wird automatisch anhand Ihrer Filterkriterien gefiltert.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Optional) Klicken Sie auf das Symbol **x**, um eine Filterbedingung zu entfernen.
+1. (Optional) Klicken Sie auf **Filter** oder an einer anderen Stelle auf der Seite, um das Feld „Filter“ zu schließen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Gruppierung hinzufügen
@@ -231,8 +322,6 @@ Beachten Sie beim Arbeiten mit Filtern in der Zeitleisten -Ansicht Folgendes:
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Beim Anwenden einer Gruppierung auf eine Ansicht können Sie Datensätze anhand ähnlicher Informationen gruppieren.
-
-Das Hinzufügen von Gruppierungen in der Zeitleisten -Ansicht ähnelt dem Hinzufügen von Gruppierungen zur Tabellenansicht.
 
 Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgendes:
 
@@ -320,7 +409,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt.
    <!--adjust this when the primary field is released??-->
 
-1. (Optional und bedingt) Wenn Sie den Datensätzen Miniaturen hinzugefügt haben, wählen Sie die Option Miniaturen aus, um das mit den Datensätzen verknüpfte Bild in der Datensatzleiste anzuzeigen.
+1. (Optional und bedingt) Wenn Sie den Datensätzen Miniaturen hinzugefügt haben, wählen Sie die Option **Miniatur**, um das mit den Datensätzen verknüpfte Bild in der Datensatzleiste anzuzeigen.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    ![Zeitleisteneinstellungen des Bedienfelds „Datensatzdetails“ mit Vorschau](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Optional und bedingt) Wenn die Zeitleiste im Standardmodus angezeigt wird, aktivieren Sie die Einstellung **Balkendetails abschneiden**. Wenn diese Option aktiviert ist, werden die Informationen in den Datensatzleisten abgeschnitten und nur dann vollständig angezeigt, wenn Sie den Mauszeiger über die Balken bewegen. Diese Einstellung ist standardmäßig deaktiviert und die Informationen werden vollständig auf den Balken angezeigt. </span>
+1. <span class="preview">(Optional und bedingt) Wenn Sie die Zeitleiste im Standardmodus anzeigen, wählen Sie die Einstellung **Balkendetails abschneiden**. Wenn diese Option aktiviert ist, werden die Informationen in den Datensatzleisten abgeschnitten und nur dann vollständig angezeigt, wenn Sie den Mauszeiger über die Balken bewegen. Diese Einstellung ist standardmäßig deaktiviert und die Datensatzinformationen werden vollständig auf den Balken angezeigt. </span>
 
    ![Einstellung „Abschneiden aktiviert“ im Feld „Zeitleisten-Einstellungen“ hervorgehoben](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird, und sie ist nicht in der Kalenderansicht verfügbar.</span>
+   ><span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird.</span>
    >
 
 1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.
@@ -392,13 +481,11 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
-1. <span class="preview">(Optional) Wenn Sie die Option Aufschlüsselung verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden in der Zeitleiste angezeigten verbundenen Datensatz. </span>
+1. <span class="preview">(Optional) Wenn Sie die Option **Aufschlüsselung** verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden verbundenen Datensatz, der in der Zeitleiste angezeigt wird. </span>
 
 1. Klicken Sie auf **Speichern**.
 
    Die Datensätze werden in der Zeitleisten -Ansicht mit den von Ihnen ausgewählten Spezifikationen angezeigt.
-
-
 
 ### Aufschlüsseln verbundener Datensätze in der Zeitleisten-Ansicht
 
@@ -428,7 +515,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

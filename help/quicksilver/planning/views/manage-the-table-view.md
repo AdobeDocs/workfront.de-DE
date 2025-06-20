@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 2%
 
 ---
@@ -34,8 +34,6 @@ In diesem Artikel werden die folgenden Informationen beschrieben:
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ Beachten Sie beim Arbeiten mit Filtern in der Tabellenansicht Folgendes:
 
 * Das Entfernen von Filtern entfernt sie von allen, die auf denselben Datensatztyp zugreifen wie Sie und verwendet dieselbe Ansicht wie Sie.
 
-* Das Hinzufügen von Filtern zur Tabellenansicht entspricht dem Hinzufügen von Filtern zur Zeitleisten -Ansicht.
-
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 
 * Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
@@ -432,8 +428,6 @@ Gehen Sie wie folgt vor, um <!--ungrouped (add this when sorting for groupings w
 
 Beim Anwenden einer Gruppierung auf eine Ansicht können Sie Datensätze anhand ähnlicher Informationen gruppieren.
 
-Das Hinzufügen von Gruppierungen in der Tabellenansicht ähnelt dem Hinzufügen von Gruppierungen zur Zeitleisten -Ansicht.
-
 Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
@@ -464,6 +458,8 @@ Um eine Gruppierung hinzuzufügen:
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
+   <!--replace screen shot for Expand all-->
+
    ![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
@@ -475,6 +471,26 @@ Um eine Gruppierung hinzuzufügen:
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
 1. (Optional) Klicken Sie auf **+ Neuer Datensatz** am Ende einer Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

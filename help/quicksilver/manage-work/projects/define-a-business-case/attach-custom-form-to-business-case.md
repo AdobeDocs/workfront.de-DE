@@ -5,9 +5,9 @@ description: Benutzerdefinierte Forms werden verwendet, um Informationen zu erfa
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
 
 ## Zugriffsanforderungen
 
+<!--Audit: 06/2025-->
+
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
@@ -27,28 +29,28 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> <p>Aktuell: Prime oder höher</p>
    <p>Legacy: Pro oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td> 
    <p>Aktuell: Standard </p> 
    <p>Legacy: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen oder höher für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td> <p>Verwalten von Berechtigungen oder höher für das Projekt</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

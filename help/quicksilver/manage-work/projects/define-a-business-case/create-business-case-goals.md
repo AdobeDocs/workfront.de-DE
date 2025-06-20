@@ -5,16 +5,16 @@ description: Beim Erstellen eines Business Case können Sie eine Reihe von Ziele
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
 
 # Business Case-Ziele erstellen
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Diese Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor den Zweck des Abschlusses eines Projekts mitzuteilen.
 
@@ -50,12 +50,12 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> <p>Aktuell: Prime oder höher</p>
    <p>Legacy: Pro oder höher</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td> 
    <p>Aktuell: Standard</p> 
    <p>Legacy: Plan </p> 
@@ -63,16 +63,16 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen oder höher für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td> <p>Verwalten von Berechtigungen oder höher für das Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

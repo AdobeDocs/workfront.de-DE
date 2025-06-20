@@ -6,16 +6,16 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
 
 # Risiken in Projekten erstellen und bearbeiten
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> 
-   <p>Beliebig</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td> <p>Aktuelle Pläne:</p>
+   <ul><li>Beliebiger Plan, um Risiken im Risikobereich des Projekts hinzuzufügen</p></li>
+   <li><p>Prime oder höher, um Risiken zum Business Case des Projekts hinzuzufügen</p></li></ul>
+   <p>Legacy-Pläne: Beliebiger Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Standard </p>
-   <p>Aktuell: Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td> <p>Aktuell: Standard </p>
+   <p>Legacy: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
    <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p> Verwalten Sie Berechtigungen, einschließlich Finanzen verwalten für das Projekt, für das Sie Risiken erstellen oder bearbeiten möchten </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

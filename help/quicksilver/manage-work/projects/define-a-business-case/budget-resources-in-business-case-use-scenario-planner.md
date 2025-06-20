@@ -5,14 +5,16 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # Budgetressourcen im Business Case mit dem Szenario-Planer
+
+<!--Audited: 06/2025-->
 
 Im Rahmen der Ressourcenplanung können Sie mit dem Adobe Workfront-Szenario-Planer die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen.
 
@@ -33,7 +35,7 @@ Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetiere
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ Sie müssen über Folgendes verfügen:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Unternehmen oder höher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td><p>Aktuell: Ultimate</p> 
+   <p>Legacy: Unternehmen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td><p>Strom: Licht oder höher 
+   <p>Legacy: Überprüfung oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für den Adobe Workfront Scenario Planner erwerben, um auf die in diesem Artikel beschriebenen Funktionen zugreifen zu können.</p> <p>Informationen zum Abrufen des Workfront-Szenarioplaners finden Sie unter <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff für die Verwendung des Szenarioplaners erforderlich</a>. </p> </td> 
+   <td role="rowheader"><p>Produkt</p></td> 
+   <td><p>Der Szenario-Planer ist im aktuellen Ultimate Workfront-Plan enthalten.</p> 
+   <p>Für ältere Workfront-Pläne müssen Sie zusätzlich zur Workfront-Lizenz eine Lizenz für den Adobe Workfront-Szenarioplaner erwerben, um auf die in diesem Artikel beschriebenen Funktionen zugreifen zu können.</p> <p>Informationen zum Abrufen des Workfront-Szenarioplaners finden Sie unter <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff für die Verwendung des Szenarioplaners erforderlich</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
    <td> <p>Zugriff auf Folgendes bearbeiten: </p> 
     <ul> 
      <li> <p>Projekte</p> </li> 
@@ -63,13 +68,15 @@ Sie müssen über Folgendes verfügen:
     </ul> <p>Informationen zum Zugriff auf Budgetressourcen finden Sie auch unter <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Zugriff auf Budgetressourcen in Adobe Workfront erforderlich</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Adobe Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Verwalten von Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 

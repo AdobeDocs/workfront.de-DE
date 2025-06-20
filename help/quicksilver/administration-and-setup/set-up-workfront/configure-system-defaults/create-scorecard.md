@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -42,15 +42,13 @@ Sie können eine Scorecard wie folgt erstellen:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie benötigen den folgenden Zugriff:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Neu: [!UICONTROL Prime] oder höher</p>
+   <td> <p>Neu: Ultimate</p>
    <p>Aktuell: [!UICONTROL Business] oder höher</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ Sie benötigen den folgenden Zugriff:
    <p>Aktuell: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Zugriffsebene</p></td> 
+   <td><p>Systemadministrator</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +91,7 @@ Sie benötigen den folgenden Zugriff:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Frage]</td> 
+      <td role="rowheader">[!UICONTROL-Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 

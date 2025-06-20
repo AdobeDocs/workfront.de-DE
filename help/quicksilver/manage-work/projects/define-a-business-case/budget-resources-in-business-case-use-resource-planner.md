@@ -5,7 +5,7 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplane
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Budgetressourcen im Business Case mit dem Ressourcenplaner
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplaner auf Projektebene die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt beim Erstellen des Business Case erforderlich sind.
 
@@ -35,23 +35,23 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> <p>Aktuell: Prime oder höher</p>
    <p>Legacy: Pro oder höher</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td> <p>Strom: Licht oder höher</p>
    <p>Legacy: Überprüfung oder höher</p>
 
 <p><b>WICHTIG:</b></p> 
-   <p>Neu: Sie müssen über eine Standardlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> 
-   <p>Aktuell: Sie müssen über eine Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p>
+   <p>Aktuell: Sie müssen über eine Standardlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> 
+   <p>Legacy: Sie müssen über eine Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
    <td> <p>Zugriff auf Folgendes bearbeiten: </p> 
     <ul> 
      <li> <p>Projekte</p> </li> 
@@ -60,13 +60,13 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Verwalten von Berechtigungen für das Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

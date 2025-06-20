@@ -5,16 +5,16 @@ description: Sie können eine Scorecard verwenden, um zu messen, wie gut ein Pro
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scores
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 Sie können eine Scorecard verwenden, um zu messen, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt häufig die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.
 
@@ -29,14 +29,14 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td>
    <p>Aktuell: Prime oder höher</p>
    <p>oder</p>
    <p>Legacy: Unternehmen oder höher</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td>
    <p>Aktuell: Standard</p>
    <p>oder</p>
@@ -53,7 +53,7 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
