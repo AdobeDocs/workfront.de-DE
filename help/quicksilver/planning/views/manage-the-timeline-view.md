@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ Beachten Sie Folgendes:
 
    * Datensatzdaten
    * Systemgenerierte Felder aufzeichnen: Erstellungsdatum, Datum der letzten Änderung
-   * Daten aus verbundenen Datensatz- oder Objekttypen nachschlagen.
+   * Daten aus verbundenen Datensatz- oder Objekttypen nachschlagen (nur wenn Sie beim Verbinden der Datensatz- oder Objekttypen einen Aggregator für sie hinzugefügt haben)
 * Je nach den mit den Datensätzen verknüpften Daten werden in den folgenden Szenarien einige Datensätze möglicherweise nicht in der Zeitleisten -Ansicht angezeigt:
 
    * Wenn das Start- und Enddatum keine Werte aufweisen
@@ -515,7 +515,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
