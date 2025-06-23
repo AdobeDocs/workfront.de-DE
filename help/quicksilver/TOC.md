@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 2%
          * [Dashboard freigeben](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Entfernen einer externen Seite aus einem Dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Arbeitsflächen-Dashboards - Übersicht](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Erweiterte Analyse {#enhanced-analytics}
-      * [Erweiterte Analyse](enhanced-analytics/enhanced-analytics.md)
-      * [Erweiterte Analyse - Übersicht](enhanced-analytics/enhanced-analytics-overview.md)
-      * [Anwenden von Filtern in erweiterten Analysen](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [Grundlegendes zu KPIs für erweiterte Analysen](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [Anzeigen der Flugplanvisualisierung in Enhanced Analytics](enhanced-analytics/flight-plan-overview.md)
-      * [Anzeigen der Burndown-Visualisierung in erweiterten Analysen](enhanced-analytics/burndown-overview.md)
-      * [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](enhanced-analytics/tasks-in-flight-overview.md)
-      * [Visualisierung der Projektaktivität in Enhanced Analytics anzeigen](enhanced-analytics/project-activity-overview.md)
-      * [Anzeigen der Projekt-Treemap-Visualisierung in Enhanced Analytics](enhanced-analytics/project-treemap-overview.md)
-      * [Visualisierung „Aktivität nach Team“ in Enhanced Analytics anzeigen](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Übersicht über Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
