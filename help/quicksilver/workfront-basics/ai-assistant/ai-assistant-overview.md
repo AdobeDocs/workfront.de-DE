@@ -5,9 +5,9 @@ description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ So fordern Sie die Adobe Gen AI-Vereinbarung an:
 1. Wenn die Adobe Gen AI-Vereinbarungsmeldung angezeigt wird, klicken Sie auf **Vereinbarung überprüfen**.
 1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnen wird.
 
-   Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nachdem er signiert und zurückgegeben wurde, ist der KI-Assistent für Ihre Organisation aktiviert.
+   Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nachdem die Vereinbarung unterzeichnet und zurückgegeben wurde, wird sie von Adobe überprüft, und dann wird der KI-Assistent für Ihr Unternehmen aktiviert.
 
 ## Tipps zum Erstellen von Eingabeaufforderungen im KI-Assistenten
 
