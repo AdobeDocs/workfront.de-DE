@@ -6,26 +6,26 @@ description: Wenn Sie Zugriff auf eine Anfrage-Warteschlange gewähren, legen Si
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Zugriff auf Anfrage-Warteschlangen gewähren
 
+<!-- Audited: 6/2025 -->
+
 Wenn Sie Zugriff auf eine Anfrage-Warteschlange gewähren, legen Sie fest, wer in Ihrem Unternehmen die Anfrage-Warteschlange im Bereich Anfragen von Adobe Workfront anzeigen kann.
 
-Sie können verschiedenen Benutzern Zugriff auf eine Anfrage-Warteschlange gewähren, je nachdem, ob sie Teil des Projektteams, der Projektgruppe oder der Projektfirma sind. Sie können auch allen Personen im System Zugriff auf eine Anfrage-Warteschlange gewähren.
+Sie können verschiedenen Benutzern Zugriff auf eine Anfrage-Warteschlange gewähren, je nachdem, ob sie Teil des Projektteams, der Projektgruppe oder der Projektfirma sind. Sie können auch allen Personen im System Zugriff auf die Anfrage-Warteschlange gewähren.
 
-Dies ist besonders nützlich für Unternehmen, die externe Stakeholder in Workfront einladen und den Zugriff von Benutzenden auf bestimmte Bereiche beschränken möchten. In diesem Fall schränkt eine Anfrage-Warteschlange, die nur für die mit dem Unternehmen oder der Gruppe des Projekts verbundenen Benutzenden geöffnet ist, die Sichtbarkeit auf externe Stakeholder ein. Wenn Sie jedem Zugriff gewähren, wird die Anfrage sowohl für interne als auch externe Stakeholder sichtbar.
+Dies ist besonders hilfreich für Unternehmen, die externe Stakeholder in Workfront einladen und den Zugriff von Benutzenden auf bestimmte Bereiche beschränken möchten. In diesem Fall beschränkt eine Anfrage-Warteschlange, die nur den mit dem Unternehmen oder der Gruppe des Projekts verbundenen Benutzern offen steht, die Sichtbarkeit auf externe Stakeholder. Wenn Sie jedem Zugriff gewähren, wird die Anfrage sowohl für interne als auch externe Stakeholder sichtbar.
 
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,9 +38,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neue Lizenz: Standard </p>
-   Oder
-   <p>Aktuelle Lizenz: Plan </p> </td> 
+   <p>Neu: Standard </p>
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -61,7 +60,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bevor die Anfrage-Warteschlange im Bereich Anfragen für Benutzer verfügbar ist, müssen Sie ein Projekt mit den folgenden Einstellungen erstellen:
 
-* Weisen Sie sie als Anfrage-Warteschlange zu. Weitere Informationen zum Erstellen einer Anfrage-Warteschlange finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Weisen Sie sie als Anfrage-Warteschlange zu. Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 * Status des Projekts auf „Aktuell“ aktualisieren.
 
 ## Zugriff auf eine Anfrage-Warteschlange gewähren
@@ -74,16 +73,17 @@ Bevor die Anfrage-Warteschlange im Bereich Anfragen für Benutzer verfügbar ist
 
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 1. Wählen **Als Warteschlange für Hilfeanfragen veröffentlichen**, um das Projekt als Warteschlange für Anfragen festzulegen.
-1. Wählen Sie aus den folgenden Optionen aus:
+1. Wählen Sie aus den folgenden angezeigten Optionen aus:
 
    * **Beliebig**: Jeder Benutzer kann Anfragen anzeigen und zur Anfragewarteschlange hinzufügen.
    * **Benutzer mit Ansichtszugriff auf dieses Projekt**: Benutzer mit Ansichtsberechtigungen für das Projekt können Anfragen anzeigen und zur Anfragewarteschlange hinzufügen.
    * **Personen im Unternehmen dieses Projekts**: Benutzer, die mit dem Unternehmen des Projekts verknüpft sind, können Anfragen anzeigen und hinzufügen. Das mit dem Projekt verknüpfte Unternehmen wird neben dieser Option in Klammern aufgeführt.
    * **Personen in der Gruppe dieses Projekts**: Benutzer, die mit der Gruppe des Projekts verknüpft sind, können Anfragen anzeigen und hinzufügen. Die mit dem Projekt verknüpfte Gruppe wird neben dieser Option in Klammern aufgeführt.
 
-     Gruppen-Warteschlangen sind nützlich, wenn mehrere Abteilungen ein Workfront-Konto gemeinsam nutzen, um individuelle Unternehmensziele zu erreichen. Jede Abteilung kann ihre eigenen Warteschlangen haben, die Mitglieder anderer Gruppen nicht sehen dürfen.
+     Gruppen-Warteschlangen sind nützlich, wenn mehrere Abteilungen ein Workfront-Konto gemeinsam nutzen, um individuelle Unternehmensziele zu erreichen. Jede Abteilung kann ihre eigenen Warteschlangen haben, die Mitglieder anderer Gruppen nicht sehen sollten.
 
-     Informationen dazu, wer über Berechtigungen für ein Projekt verfügt, finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-     Gruppen und Unternehmen können beim Bearbeiten des Projekts mit dem Projekt verknüpft werden. Weitere Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Informationen dazu, wer über Berechtigungen für ein Projekt verfügt, finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+     Gruppen und Unternehmen können beim Bearbeiten des Projekts mit dem Projekt verknüpft werden. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Klicken Sie auf **Speichern**.

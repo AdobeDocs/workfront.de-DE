@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Beta-Informationen für Canvas-Dashboards
 description: Allgemeine Informationen zur Beta-Version von Canvas-Dashboards
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,23 @@ Arbeitsflächen-Dashboards sind eine Funktion, die derzeit entwickelt wird und e
 Grundlegende Informationen zur Verwendung von Arbeitsflächen-Dashboards finden Sie unter [Erste Schritte mit Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Eine Liste der gesamten Dokumentation zu Canvas-Dashboards finden Sie unter [Übersicht zu Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Beta-Status**
-
-Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und unterliegen daher häufigen Änderungen. Unten finden Sie Anweisungen zur Registrierung für die Beta-Version.
-
-## Beta-Version verwenden
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Canvas-Dashboards befinden sich derzeit in der geschlossenen Beta-Phase und stehen daher nur bestimmten Organisationen zur Verfügung. Wir laden Organisationen weiterhin direkt zur Beta-Version von einer Warteliste derer ein, die Interesse gezeigt haben. Sie können Ihr Unternehmen auf die Warteliste setzen, indem Sie [dieses Adobe-Feedback-Programmformular](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta) senden. Darüber hinaus erhalten Organisationen, die Workfront Planning als Teil ihres Pakets erworben haben, Beta-Zugriff, um produktübergreifende Reporting-Funktionen zu testen.
->
->Schließlich werden wir auf eine offene Beta-Version umstellen, ab der der Registrierungsprozess allen Organisationen zur Verfügung steht.
+>Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und unterliegen daher häufigen Änderungen.
 
-### Registrieren
-
-So registrieren Sie sich für die Beta-Version:
+## Betaversion registrieren
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Dashboards**.
 
-1. Klicken Sie **oben rechts auf der Seite auf die Beta** Schaltfläche „An der Arbeitsflächen-Dashboards-Beta teilnehmen“. Beachten Sie, dass diese Schaltfläche nur verfügbar ist, wenn Ihr Unternehmen zur geschlossenen Beta-Version eingeladen wurde.
+1. Klicken Sie oben rechts auf der Seite auf die Schaltfläche **An der Beta-Version des Canvas** Dashboards teilnehmen .
 
-1. Lesen Sie die Bedingungen und klicken Sie dann auf **Akzeptieren**. Sie sind jetzt für die Beta-Version registriert. Es wird jedoch einige Minuten dauern, bis Ihre Workfront-Daten in den Arbeitsflächen-Dashboards vollständig verfügbar sind.
+   >[!NOTE]
+   >
+   > Die Schaltfläche **An der Beta-Version des Canvas** Dashboards teilnehmen ist nur verfügbar, wenn Ihr Unternehmen zur geschlossenen Beta-Version eingeladen wurde.
 
-### Feedback geben
+1. Überprüfen Sie die Bedingungen im Feld **Beta-**. Klicken Sie dann auf **Zustimmen**. Sie sind jetzt für die Betaversion registriert. Beachten Sie, dass es einige Minuten dauern kann, bis Ihre Workfront-Daten in den Arbeitsflächen-Dashboards vollständig verfügbar sind.
+
+## Feedback geben
 
 Feedback wird geschätzt, da wir dieses Tool im Laufe der Beta-Phase entwickeln. Bitte befolgen Sie die unten stehenden Anweisungen, um Ihre Erfahrungen mit uns zu teilen.
 
@@ -51,7 +45,9 @@ Feedback wird geschätzt, da wir dieses Tool im Laufe der Beta-Phase entwickeln.
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Feedback senden** unten rechts auf der Seite, geben Sie dann Ihr Feedback in das angezeigte Formular ein und klicken Sie auf **Senden**.
+1. Klicken Sie auf **Feedback senden** in der rechten unteren Ecke der Seite und geben Sie Ihr Feedback in das angezeigte Formular ein.
+
+1. Klicken Sie **Senden**.
 
 ## Geplante Funktionen
 

@@ -7,14 +7,16 @@ description: Der Cost Schedule Performance Index (CSI) ist eine automatische Ber
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Kostenplan-Leistungsindex (CSI) berechnen
+
+<!-- Audited: 6/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
@@ -26,15 +28,12 @@ Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die 
 
 >[!TIP]
 >
->Adobe Workfront berechnet CSI sowohl für Aufgaben als auch für Projekte. Workfront berechnet keinen CSI-Wert für Probleme.
+>Adobe Workfront berechnet CSI sowohl für Aufgaben als auch für Projekte, aber nicht für Probleme.
 
-Sie können von den von dieser Metrik bereitgestellten Informationen nur profitieren, wenn in Ihrem Unternehmen Folgendes vorhanden ist:
+Sie können von den von dieser Metrik bereitgestellten Informationen nur profitieren, wenn die folgenden Szenarien in Ihrer Organisation vorhanden sind:
 
-* Ihre Benutzer protokollieren Zeit für die Arbeit, die sie abschließen.\
-  CSI wird anhand der Stunden berechnet.
-* Ihren Benutzern oder Aufgabengebieten sind Kosten pro Stunde zugeordnet. 
-
-  Diese berechnet CSI auf der Grundlage der Kosten.
+* Ihre Benutzer protokollieren Zeit für die Arbeit, die sie abschließen. CSI wird anhand der Stunden berechnet.
+* Ihren Benutzern oder Aufgabengebieten sind Kosten pro Stunde zugeordnet. Diese berechnet CSI auf der Grundlage der Kosten.
 
 ## So berechnet Workfront den Kostenplan-Leistungsindex (CSI)
 
@@ -58,11 +57,11 @@ CSI hat die folgenden drei möglichen Werte:
 
 >[!CAUTION]
 >
->Sie müssen Zugriff auf die Anzeige von Finanzdaten in Ihrer Zugriffsebene und auf die Berechtigungen zum Anzeigen des Projekts oder der Aufgabe haben, um den CSI-Wert eines Projekts oder einer Aufgabe sehen zu können.
+>Sie müssen Zugriff auf „Finanzdaten anzeigen“ in Ihrer Zugriffsebene und auf die Berechtigungen zum Anzeigen des Projekts oder der Aufgabe haben, um den CSI-Wert eines Projekts oder einer Aufgabe sehen zu können.
 
 Sie können CSI in den folgenden Bereichen von Workfront finden:
 
 * Finanzbereich im Abschnitt Projektdetails.
 * Finanzbereich im Abschnitt „Aufgabendetails“
-* Projekt- oder Aufgabenansicht
-* Ein Projekt- oder Aufgabenbericht
+* Eine Projekt- oder Aufgabenansicht.
+* Ein Projekt- oder Aufgabenbericht.

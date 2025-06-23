@@ -6,37 +6,33 @@ description: Ein Stundentyp ist eine Bezeichnung, mit der Sie Zeiteinträge kate
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
 
 # Stundentypen und Verfügbarkeit definieren
 
-<!--Audited: 10/2024-->
+<!--Audited: 6/2025-->
 
 Ein Stundentyp ist eine Bezeichnung, mit der Sie Zeiteinträge kategorisieren können. Je nach den Berichtsanforderungen Ihres Unternehmens für Stunden kann dies ein wesentlicher Teil der Protokollierungszeit sein.
 
 In Adobe Workfront gibt es zwei Gruppen von Stundentypen:
 
-* **Allgemeine Stunden:** Stunden, die keinem Projekt zugeordnet sind, z. B. Krankenstand oder Administration. Allgemeine Stunden können nur in der Arbeitszeittabelle protokolliert werden.
-* **Projektspezifische Stunden:** Stunden, die für Projekte, Aufgaben und Probleme protokolliert wurden. Sie können projektspezifische Stunden von jedem Ort aus protokollieren, an dem Sie die Zeit erfassen können.
+* **Allgemeine Stunden**: Stunden, die keinem Projekt zugeordnet sind, z. B. Krankenstand oder Administration. Sie können nur allgemeine Stunden auf der Arbeitszeittabelle protokollieren.
+* **Projektspezifische Stunden**: Stunden, die für Projekte, Aufgaben und Probleme protokolliert wurden. Sie können projektspezifische Stunden von jedem Ort aus protokollieren, an dem Sie die Zeit erfassen können.
 
 Beim Protokollieren der Zeit in Workfront hängen die verfügbaren projektspezifischen Stundentypen von den Konfigurationsoptionen ab, die auf System-, Projekt- und Benutzerebene festgelegt werden. (Die folgenden standardmäßigen projektspezifischen Stundentypen sind immer verfügbar: Projektzeit, Aufgabenzeit und Anfragezeit.)
 
 Die Stundentypen, die bei der Protokollierung der Zeit (für Projekte, Aufgaben und Probleme) ausgewählt werden können, werden zunächst durch die Stundentypen bestimmt, die vom Systemadministrator systemweit zur Verfügung gestellt werden, und dann durch die Stundentypen, die auf Projekt- und Benutzerebene ausgewählt werden.
 
-Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zeit an mehreren Stellen in Workfront protokollieren, wie in [Zeit protokollieren](../../timesheets/create-and-manage-timesheets/log-time.md).
+Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zeit an mehreren Stellen in Workfront protokollieren. Weitere Informationen finden Sie unter [Zeit erfassen](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über die folgenden Berechtigungen und Zugriffsrechte verfügen, um die in diesem Artikel beschriebenen Schritte ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +45,7 @@ Sie müssen über die folgenden Berechtigungen und Zugriffsrechte verfügen, um 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Standard</p> 
    <p>Aktuell: Plan</p>
    </td> 
@@ -65,21 +61,22 @@ Sie müssen über die folgenden Berechtigungen und Zugriffsrechte verfügen, um 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Definieren der Verfügbarkeit auf Systemebene
 
-Der Systemadministrator bestimmt, welche projektspezifischen Stundentypen systemweit zur Verfügung gestellt werden, wie unter [Verwalten von Stundentypen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) beschrieben.
+Der Systemadministrator bestimmt, welche projektspezifischen Stundentypen systemweit zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Verwalten von Stundentypen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Definieren der Verfügbarkeit auf Projektebene {#define-availability-at-the-project-level}
 
 Der Projektbesitzer bestimmt, ob alle auf Systemebene definierten Stundentypen für das Projekt (und die Aufgaben und Probleme innerhalb des Projekts) verfügbar sind oder ob nur eine Teilmenge dieser Stundentypen verfügbar ist.
 
-1. Wechseln Sie zu dem Projekt, in dem Sie die Verfügbarkeit von Stundentypen ermitteln möchten.
-1. Klicken Sie auf das **Mehr**-Menü neben dem Projektnamen in der Kopfzeile und dann auf **Bearbeiten**.
-Das **Projekt bearbeiten** wird geöffnet.
+{{step1-to-projects}}
+
+1. Wählen **auf** Seite „Projekte“ das Projekt aus, für das Sie die Verfügbarkeit von Stundentypen bestimmen möchten.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) neben dem Projektnamen in der Kopfzeile und dann auf **Bearbeiten**. Das Bedienfeld **Projekt bearbeiten** wird geöffnet.
 
 1. Suchen Sie im **Projekteinstellungen** die Einstellung **Stundentypen filtern**.
 
@@ -87,9 +84,7 @@ Das **Projekt bearbeiten** wird geöffnet.
 
    Oder
 
-   Wählen Sie **Ja**, um nur eine Teilmenge der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, und wählen Sie dann die Stundentypen aus, die Sie verfügbar machen möchten.
-
-   Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.
+   Wählen Sie **Ja**, um nur eine Teilmenge der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, und wählen Sie dann die **Stundentypen**, die Sie verfügbar machen möchten. Sie können mehrere Stundentypen auswählen.
 
    >[!NOTE]
    >
@@ -97,7 +92,7 @@ Das **Projekt bearbeiten** wird geöffnet.
    >   
    >   * Wenn Sie **Ja** auswählen, stehen nur die ausgewählten Stundentypen zur Auswahl, wenn Stunden für das Projekt (oder für Aufgaben und Probleme innerhalb des Projekts) protokolliert werden.
    >   
-   >   * Wenn Sie **Ja** auswählen und keine Stundentypen auswählen, zeigt das Projekt nur allgemeine Stundentypen an.
+   >   * Wenn Sie **Ja** und keine Stundentypen auswählen, zeigt das Projekt nur allgemeine Stundentypen an.
    >
    >   * Dieselben Auswahlen müssen auf der Ebene der einzelnen Benutzer vorgenommen werden, damit diese Stundentypoptionen im Projekt angezeigt werden.
    >
@@ -107,21 +102,19 @@ Das **Projekt bearbeiten** wird geöffnet.
 
 ## Definieren der Verfügbarkeit auf Benutzerebene
 
-Sie können Stunden für einen bestimmten Stundentyp nur dann für Projekte, Aufgaben und Probleme protokollieren, wenn dieser Stundentyp auf Systemebene, Projektebene und Benutzerebene verfügbar gemacht wurde.
+Sie können Stunden für einen bestimmten Stundentyp nur dann für Projekte, Aufgaben und Probleme protokollieren, wenn dieser Stundentyp auf System-, Projekt- und Benutzerebene verfügbar gemacht wurde.
 
-Wenn Sie einen Stundentyp wie in diesem Abschnitt beschrieben auf Benutzerebene verfügbar machen, diesen Stundentyp jedoch beim Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem nicht sehen, wurde dieser Stundentyp nicht für das Projekt verfügbar gemacht (wie in [Verfügbarkeitsdefinition auf Projektebene](#define-availability-at-the-project-level) beschrieben).
+Wenn Sie einen Stundentyp wie in diesem Abschnitt beschrieben auf Benutzerebene verfügbar machen, diesen Stundentyp jedoch beim Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem nicht sehen, wurde dieser Stundentyp nicht für das Projekt verfügbar gemacht. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Definieren der Verfügbarkeit auf Projektebene](#define-availability-at-the-project-level).
 
 So definieren Sie die Stundentypen, die einem Benutzer zur Verfügung stehen:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und klicken Sie dann auf Ihren Benutzeravatar in der linken oberen Ecke
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf Ihren Benutzeravatar in der linken oberen Ecke.
 
    Oder
 
-   Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/adobe-main-menu.png) oben rechts, falls verfügbar, und klicken Sie dann auf **Workfront-Profil**.
+   Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/adobe-main-menu.png) in der oberen rechten Ecke (falls verfügbar) und dann auf **Workfront-Profil**.
 
-1. Klicken Sie auf das **Mehr**-Menü neben dem Benutzernamen und dann auf **Bearbeiten**.
-
-   Das **Person bearbeiten** wird geöffnet.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) neben dem Benutzernamen und dann auf **Bearbeiten**. Das **Person bearbeiten** wird geöffnet.
 
    >[!IMPORTANT]
    >
@@ -136,13 +129,9 @@ So definieren Sie die Stundentypen, die einem Benutzer zur Verfügung stehen:
 
      Damit die von Ihnen auf Benutzerebene ausgewählten Stundentypen für Projekte, Aufgaben und Probleme verfügbar sind, müssen dieselben Stundentypen auch bei der Bearbeitung des Projekts in der Option **Stundentypen filtern** ausgewählt werden, wie in [Definieren der Verfügbarkeit auf Projektebene](#define-availability-at-the-project-level) beschrieben.
 
-1. (Optional) Wählen Sie **Dropdown-Menü** Standardstundentyp) einen Stundentyp aus.
+1. (Optional) Wählen Sie **Dropdown-Menü** Standardstundentyp) einen Stundentyp aus. Wenn der Benutzer-Standardstundentyp und ein projektgefilterter Stundentyp übereinstimmen, wird dieser Stundentyp beim Protokollieren der Zeit standardmäßig ausgewählt.
 
-   Wenn der Benutzer-Standardstundentyp und ein projektgefilterter Stundentyp übereinstimmen, wird dieser Stundentyp beim Protokollieren der Zeit standardmäßig ausgewählt.
-
-1. Klicken Sie auf **Änderungen speichern**.
-
-   Wenn Sie jetzt Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren, sind die ausgewählten Stundentypen verfügbar, wenn dieselben Stundentypen auf Projektebene verfügbar gemacht wurden.
+1. Klicken Sie **Änderungen speichern**. Wenn Sie jetzt Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren, sind die ausgewählten Stundentypen verfügbar, wenn dieselben Stundentypen auf Projektebene verfügbar gemacht wurden.
 
 ## So arbeiten Stundentypen auf Benutzerebene und auf Projektebene zusammen
 
@@ -163,9 +152,9 @@ In der folgenden Liste wird beschrieben, welche Stundentypen für ein Objekt ang
    * Wenn Sie alle Stundentypen für das Feld Verfügbarer Stundentyp im Benutzerprofil ausgewählt haben und die Stundentypen des Projekts nicht gefiltert werden, werden beim Protokollieren der Zeit alle verfügbaren Stundentypen angezeigt.
    * Wenn Sie nur eine Teilmenge von Stundentypen für das Feld Verfügbarer Stundentyp im Profil Ihres Benutzers ausgewählt haben und die Stundentypen des Projekts nicht gefiltert werden, sehen Sie beim Protokollieren der Zeit nur die Stundentypen des Benutzers.
    * Wenn Sie alle Stundentypen für das Feld Verfügbarer Stundentyp im Benutzerprofil ausgewählt haben und die Stundentypen des Projekts gefiltert werden, sehen Sie je nach Objekt nur die Stundentypen des Projekts und die standardmäßigen Stundentypen wie Projektzeit, Aufgabenzeit, Problemzeit.
-   * Wenn Sie im Profil Ihres Benutzers nur eine Untergruppe von Stundentypen für das Feld Verfügbarer Stundentyp ausgewählt haben und die Stundentypen des Projekts gefiltert werden, werden nur die Stundentypen angezeigt, die für den Benutzer und das Projekt gelten. Wenn Benutzende und Projekt keine Stundentypen gemeinsam haben, werden nur die standardmäßigen Stundentypen angezeigt (Projektzeit, Aufgabenzeit, Problemzeit).
+   * Wenn Sie im Profil Ihres Benutzers nur eine Untergruppe von Stundentypen für das Feld Verfügbarer Stundentyp ausgewählt haben und die Stundentypen des Projekts gefiltert werden, sehen Sie nur die Stundentypen, die für den Benutzer und das Projekt gelten. Wenn Benutzende und Projekt keine Stundentypen gemeinsam haben, werden nur die standardmäßigen Stundentypen angezeigt (Projektzeit, Aufgabenzeit, Problemzeit).
 
 >[!TIP]
 >
->   Wenn Sie statt des Standardstundentyps für ein Objekt einen anderen Stundentyp auswählen, bleibt der Stundentyp erhalten. Wenn Sie sich das nächste Mal für dasselbe Objekt anmelden, wird für den Stundentyp automatisch der zuletzt ausgewählte verwendet.
+>   Wenn Sie für ein Objekt einen anderen Stundentyp als den Standardstundentyp auswählen, bleibt der Stundentyp erhalten. Wenn Sie sich das nächste Mal für dasselbe Objekt anmelden, wird für den Stundentyp automatisch der zuletzt ausgewählte verwendet.
 
