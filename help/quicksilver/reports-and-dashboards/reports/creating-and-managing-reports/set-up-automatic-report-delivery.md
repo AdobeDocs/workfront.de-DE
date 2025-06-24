@@ -6,9 +6,9 @@ description: Planen eines automatischen Berichtversands
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
       <td role="rowheader"> <p>Senden an</p> </td> 
       <td> <p>Geben Sie zunächst den Namen des Benutzers, der Gruppe, des Teams oder der Rolle ein, an den bzw. die Sie den Bericht senden möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</p> <p>Oder</p> <p>Geben Sie die E-Mail-Adresse einer Person außerhalb des Workfront-Systems ein, der Sie Zugriff auf den Bericht gewähren möchten.</p> <p>Wiederholen Sie diesen Vorgang, um den Bericht an mehrere Benutzer, Gruppen, Teams oder Rollen zu senden.</p> <p>Hinweis:  <p>Beachten Sie beim Hinzufügen von Berichtsversand-Empfängern Folgendes:</p> 
         <ul> 
-         <li>Wenn Ihr Unternehmen Workfront-Benachrichtigungen auf bestimmte E-Mail-Domains beschränkt, können Sie Berichte möglicherweise nur an die in der E-Mail-Zulassungsliste aufgeführten E-Mail-Adressen senden.<p>Informationen dazu, wie Workfront-Admins die E-Mail-Zulassungsliste auf die Zulassungsliste setzte aktualisieren, finden Sie im Abschnitt <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurieren Ihrer E-Mail</a>.</p></li> 
+         <li><p>Wenn Ihr Unternehmen Workfront-Benachrichtigungen auf bestimmte E-Mail-Domains beschränkt, können Sie Berichte möglicherweise nur an die in der E-Mail-Zulassungsliste aufgeführten E-Mail-Adressen senden.</p> <p>Wenn beispielsweise ein(e) Benutzende(r) als Berichtsempfänger(in) festgelegt ist und eine E-Mail-Adresse hat, die zuvor zulässig war, und die Zulassungsliste so aktualisiert wird, dass sie keine E-Mails mehr an diese Domain sendet, erhält der/die Benutzende keine zugestellten Berichte mehr.</p><p>Informationen dazu, wie Workfront-Admins die E-Mail-Zulassungsliste auf die Zulassungsliste setzte aktualisieren, finden Sie im Abschnitt <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurieren Ihrer E-Mail</a>.</p></li> 
          <li> <p>Wenn Sie als Empfänger eine große Anzahl von Benutzern hinzufügen, kann dies zum Fehlschlagen des Versands führen. Wenn der Versand fehlschlägt, können Sie mehrere Berichtsendungen mit kleineren Benutzergruppen planen.</p> </li> 
         </ul> </td> 
      </tr> 
