@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 9%
+source-wordcount: '848'
+ht-degree: 10%
 
 ---
 
@@ -21,6 +21,10 @@ Ereignisabonnement-Ressourcenfelder stellen Trigger für Ereignisse dar, die daz
 Beachten Sie, dass Daten mithilfe verschachtelter Filter gefiltert werden können. Weitere Informationen finden Sie unter [Verwenden verschachtelter Filter](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) im Artikel Ereignisabonnement-API.
 
 In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnement-Ressourcen verfügbar sind:
+
+>[!NOTE]
+>
+>Einige Objekte sind nur in Ereignisabonnements Version 2 verfügbar. Diese Objekte sind in der Tabelle aufgeführt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Genehmigung<p>(Ereignis-Subs v2)</p></td> 
+   <td>Validierung</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Genehmigungsphase<p>(Ereignis-Subs v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Teilnehmerin oder Teilnehmer der Genehmigungsphase<p>(Ereignis-Subs v2)</p></td> 
+   <td>approval_stage_Participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> Entscheidung </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> RequesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Status</td> 
+  </tr> 
   <tr> 
    <td>Zuweisung</td> 
    <td>ZUWEISEN</td> 
@@ -183,7 +381,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -806,7 +1004,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Feld</td> 
+   <td>Feld<p>(Ereignis-Subs v2)</p></td> 
    <td>FELD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td><span>RequesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>Eintrag</td> 
+   <td>Eintrag<p><p>(Ereignis-Subs v2)</p></td> 
    <td>AUFZEICHNUNG</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Datensatztyp </td> 
+   <td>Datensatztyp<p><p>(Ereignis-Subs v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>Farbe</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Arbeitsbereich</td> 
+   <td>Arbeitsbereich<p><p>(Ereignis-Subs v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>Farbe</td> 
   </tr> 

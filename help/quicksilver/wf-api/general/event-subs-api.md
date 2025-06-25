@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,9 @@ Die folgenden Themen unterstützen die Ereignisabonnement-API:
 
 Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 
+* Genehmigung
+* Genehmigungsphase
+* Teilnehmerin oder Teilnehmer der Genehmigungsphase
 * Zuweisung
 * Firma
 * Dashboard
@@ -105,6 +108,18 @@ Die Abonnement-Ressource enthält die folgenden Felder.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Genehmigung</td> 
+        <td scope="col"><p>Validierung</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Genehmigungsphase</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Teilnehmerin oder Teilnehmer der Genehmigungsphase</td> 
+        <td scope="col"><p>approval_stage_Participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Zuweisung</td> 
         <td scope="col"><p>ZUWEISEN</p></td> 
@@ -793,7 +808,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
