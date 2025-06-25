@@ -7,20 +7,22 @@ description: Das Projektteam besteht aus Benutzern, die in gewisser Eigenschaft 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # Projektteam - Übersicht
 
-Das Projektteam besteht aus Benutzern, die in gewisser Eigenschaft mit einem Projekt verknüpft sind. Benutzer, die im Bereich Personen eines Projekts aufgeführt sind, sind die Benutzer, aus denen das Projekt-Team besteht. Beispielsweise gehören Benutzende, die mit der Arbeit am Projekt betraut sind, oder die Projektbesitzerin bzw. der Projektbesitzer zum Projektteam.
+<!-- Audited: 6/2025 -->
+
+Ein Projektteam besteht aus Benutzern, die mit einem Projekt in gewisser Kapazität verknüpft sind. Benutzer, die unter dem Bereich Personen eines Projekts aufgeführt sind, bilden das Projekt-Team. Beispielsweise gehören Benutzende, die mit der Arbeit am Projekt betraut sind, oder die Projektbesitzerin bzw. der Projektbesitzer zum Projektteam.
 
 ## Projektteammitglieder
 
-Benutzer können einem Projektteam entweder manuell oder automatisch zugewiesen werden. Weitere Informationen finden Sie im Abschnitt „Hinzufügen von Benutzern zu einem Projektteam“ im Artikel [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+Benutzer können einem Projektteam entweder manuell oder automatisch zugewiesen werden. Weitere Informationen finden Sie im Abschnitt Hinzufügen von Benutzern zu einem Projektteam im Artikel [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 Wenn Sie Benutzer manuell zum Projektteam hinzufügen, erhalten sie Ansichtsberechtigungen für das Projekt sowie für die Aufgaben, Probleme und Dokumente des Projekts.
 
@@ -30,7 +32,7 @@ Je nachdem, welche E-Mail-Benachrichtigungen Ihr Adobe Workfront-Administrator a
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Sie die Mitgliedschaft im Projektteam auf dem neuesten Stand halten, um zu vermeiden, dass Benachrichtigungen an Benutzer gesendet werden, die keine Informationen über ein Projekt benötigen.
+>Stellen Sie sicher, dass Sie die Mitgliedschaft im Projekt-Team auf dem neuesten Stand halten, um zu vermeiden, dass Benachrichtigungen an Benutzer gesendet werden, die keine Informationen zu einem Projekt benötigen.
 
 ## Rollenbasierte Genehmigungen
 
@@ -45,9 +47,9 @@ Wenn Sie nicht möchten, dass der Benutzer für rollenbasierte Genehmigungen dem
 
 ## Projekte, die ich filtere
 
-Wenn ein(e) Benutzende(r) im Bereich Personen eines Projekts aufgeführt ist, wird dieses Projekt angezeigt, wenn er/sie die Filter Projekte, die ich verwende in einer Liste von Projekten oder einem Projektbericht anwendet.
+Wenn ein(e) Benutzende(r) im Bereich Personen eines Projekts aufgeführt ist, wird dieses Projekt angezeigt, wenn er/sie die Option Projekte, an denen ich arbeite, in einer Liste von Projekten oder in einem Projektbericht anwendet.
 
-Sie können sehen, ob der Filter „Projekte, an denen ich mitarbeite“ im Bereich „Projekte“ ausgewählt ist. Sie können sie über das Bedienfeld „Filter“ oder über die Kopfzeile anwenden.
+Sie können sehen, ob der Filter „Projekte, an denen ich mitarbeite“ im Bereich „Projekte“ ausgewählt ist. Sie können sie entweder über das Bedienfeld „Filter“ oder über die Kopfzeile anwenden.
 
 ![](assets/nwe-project-list-buttons-350x187.png)
 

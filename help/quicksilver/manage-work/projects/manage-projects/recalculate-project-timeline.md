@@ -6,9 +6,9 @@ description: Durch die Neuberechnung der Timelines können Manager sehen, wie si
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,10 @@ Die automatische Neuberechnung der Zeitleiste erfolgt für keinen der Benutzer, 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neue Lizenz: Standard </p> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard </p> 
    Oder
-   <p>Aktuelle Lizenz: Plan </p>
+   <p>Aktuell: Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Die automatische Neuberechnung der Zeitleiste erfolgt für keinen der Benutzer, 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Standardmäßig werden die Projektzeitleisten täglich neu berechnet, wenn sich 
 
 >[!NOTE]
 >
->Wenn die Zeitleiste eines Projekts länger als 15 Jahre ist, wird die automatische Neuberechnung für dieses Projekt deaktiviert. Sie können nur einen Aktualisierungstyp „Handbuch“ für ein Projekt auswählen, das länger als 15 Jahre dauert. Wenn Sie die Daten im Projekt auf weniger als 15 Jahre ändern, müssen Sie Ihre Zeitleiste einmal manuell neu berechnen, bevor sie automatisch berechnet wird.
+>Wenn die Zeitleiste eines Projekts länger als 15 Jahre ist, ist die automatische Neuberechnung für dieses Projekt deaktiviert und Sie können nur den Typ „Manuelles Update“ auswählen. Wenn Sie die Daten im Projekt auf weniger als 15 Jahre ändern, müssen Sie Ihre Zeitleiste einmal manuell neu berechnen, bevor sie automatisch berechnet wird.
 
 * [Automatische Neuberechnung der Projektzeitleisten](#automatic-recalculation-of-project-timelines)
 * [Aktionen mit Trigger für eine automatische Neuberechnung der Projektzeitleisten](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
@@ -77,17 +77,16 @@ Standardmäßig werden die Projektzeitleisten täglich neu berechnet, wenn sich 
 
 ### Automatische Neuberechnung der Projektzeitleisten {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront berechnet die Zeitleisten täglich nur für Projekte neu, die alle folgenden Bedingungen erfüllen:
+Workfront berechnet die Zeitleisten täglich nur für Projekte neu, die alle folgenden Bedingungen erfüllen:
 
-* den Status „Aktuell“ haben
-* Der Aktualisierungstyp des Projekts ist auf „Automatisch“ oder „Automatisch“ und „Bei Änderung“ festgelegt.
+* Sie haben den Status Aktuell .
+* Der Projektaktualisierungstyp ist auf „Automatisch“ oder „Automatisch“ und „Bei Änderung“ festgelegt.
 
-  Informationen zum Typ des Projekt-Update-Typs finden Sie unter [Übersicht über den Projekt-Update-Typ](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Weitere Informationen finden Sie unter [Übersicht über den Projektaktualisierungstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Sie haben in den letzten drei Monaten ein Datum für das letzte Update\
-  Der Workfront-Administrator kann diese Standardfunktion ändern, wie unter [Konfigurieren von Zeitleisten-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) beschrieben.
+* Sie haben ein Datum für die letzte Aktualisierung innerhalb der letzten 3 Monate. Ein Workfront-Administrator kann diese Standardfunktion ändern. Weitere Informationen finden Sie unter [Konfigurieren von Zeitleisten-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* Das Datum der letzten Berechnung der Projekt-Zeitleiste liegt nicht innerhalb des aktuellen Kalendertages. Das bedeutet, dass das letzte Berechnungsdatum der Projekt-Zeitleiste vor 00:00 Uhr des aktuellen Tages liegt.
+* Das Datum der letzten Berechnung der Projekt-Zeitleiste liegt nicht im aktuellen Kalendertag. Das bedeutet, dass das letzte Berechnungsdatum der Projekt-Zeitleiste vor 00:00 Uhr des aktuellen Tages liegt.
 
 Sie können konfigurieren, wie oft die Zeitleiste für Ihr Projekt aktualisiert wird. Wenn die Projekt-Zeitleiste aktualisiert wird, wird sie auf der Grundlage der am Projekt vorgenommenen Änderungen neu berechnet.
 
@@ -149,9 +148,7 @@ Als Projektbesitzer können Sie die Timelines für einzelne Projekte manuell neu
 
 Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-1. Gehen Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen
-
-   ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen.
 
    Oder
 
@@ -163,9 +160,7 @@ Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder
    >
    >Abhängig von der Komplexität Ihrer Projekte empfehlen wir, bei der Massenberechnung der Zeitleisten keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
 
-1. Klicken Sie auf **Zeitleiste neu**.
-
-   Nachdem die Zeitleiste neu berechnet wurde, wird eine Meldung angezeigt, die besagt, dass die Neuberechnung erfolgreich war.
+1. Klicken Sie auf **Zeitleiste neu**. Die Zeitleiste wird neu berechnet und eine Erfolgsmeldung wird auf dem Bildschirm angezeigt.
 
    >[!TIP]
    >
@@ -177,7 +172,7 @@ Sie können die Timelines mehrerer Projekte manuell neu berechnen, indem Sie sie
 
 >[!TIP]
 >
->Je nach Komplexität Ihrer Projekte wird empfohlen, bei der Massenbearbeitung keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
+>Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenbearbeitung nicht eine große Anzahl von Projekten auszuwählen, um eine optimale Leistung zu gewährleisten. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
 
 1. Zu einer Projektliste gehen.
 1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann auf **Bearbeiten**.
@@ -189,7 +184,7 @@ Sie können die Timelines mehrerer Projekte manuell neu berechnen, indem Sie sie
 
 Workfront-Administratoren können die Diagnose „Zeitleiste neu berechnen“ ausführen, um sofort alle Zeitleisten im Workfront-System neu zu berechnen. Auf diese Weise können alle Projektmanager den Einfluss externer Änderungen sowohl bei geplanten als auch bei geplanten Terminen sofort sehen.
 
-Weitere Informationen zur Neuberechnung der Timelines für die gesamte Workfront-Site finden Sie im Abschnitt „Neuberechnen der Timelines für die gesamte Workfront-Instanz“ in [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Weitere Informationen zur Neuberechnung der Timelines für die gesamte Workfront-Site finden Sie im Abschnitt Neuberechnen der Timelines für die gesamte Workfront-Instanz in [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
