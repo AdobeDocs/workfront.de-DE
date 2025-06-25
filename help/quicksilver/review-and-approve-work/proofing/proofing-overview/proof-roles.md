@@ -7,9 +7,9 @@ description: Mit Korrekturabzug-Rollen können Sie Berechtigungen für einzelne 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ Mit Korrekturabzug-Rollen können Sie Berechtigungen für einzelne Korrekturabz�
 ## Rollen für Korrekturabzüge
 
 Korrekturabzug-Rollen werden Benutzenden für einen einzelnen Korrekturabzug gewährt, wenn der/die Benutzende zum Überprüfen des Korrekturabzugs eingeladen wird. Wenn Sie über einen Workfront Pro+-Plan verfügen, können Sie Benutzern mit Arbeits- oder Planlizenz Proofing-Rollen erteilen. Wenn Sie über einen alten Workfront Premium-Plan verfügen, können Sie Benutzern mit einer speziellen Proofing-Lizenz Proofing-Rollen erteilen. Weitere Informationen finden Sie unter [Zugriff auf die Proofing-Funktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-
->[!NOTE]
->
->Benutzende mit neuen Workfront-Plänen können allen Benutzenden im System Autoren- oder Moderatorrollen gewähren. Benutzer mit älteren Plänen können Autoren- oder Moderatorrollen an jeden Benutzer mit einer Proof-Lizenz im System vergeben.
 
 Die Rolle des Korrekturabzugs definiert, welche Aktionen ein Prüfer in Bezug auf diesen spezifischen Korrekturabzug durchführen kann.
 
@@ -131,7 +127,7 @@ Bestimmte Korrekturabzug-Rollen verleihen einem Prüfer Bearbeitungsrechte für 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>author</strong> </p> </td> 
+   <td> <p><strong>author*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,10 +143,10 @@ Bestimmte Korrekturabzug-Rollen verleihen einem Prüfer Bearbeitungsrechte für 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Moderator</strong> </p> </td> 
+   <td> <p><strong>Moderator*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 
@@ -164,3 +160,7 @@ Bestimmte Korrekturabzug-Rollen verleihen einem Prüfer Bearbeitungsrechte für 
   </tr> 
  </tbody> 
 </table>
+
+<p>* Benutzende mit neuen Workfront-Plänen können allen Benutzenden im System Autoren- oder Moderatorrollen gewähren, aber nur Benutzende mit einer Standardlizenz können alle mit diesen Rollen verbundenen Funktionen nutzen.
+
+Benutzer mit älteren Plänen können Autoren- oder Moderatorrollen an jeden Benutzer mit einer Proof-Lizenz im System vergeben.</p>
