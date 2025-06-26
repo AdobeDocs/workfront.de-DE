@@ -39,11 +39,11 @@ Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- un
 >[!IMPORTANT]
 >
 >Je nachdem, wann die Stunden protokolliert wurden, kann es eine Diskrepanz zwischen den tatsächlichen Stunden und den veralteten tatsächlichen Stunden für ein Projekt, eine Aufgabe oder ein Problem geben.<br>
->>Die folgenden Szenarien sind vorhanden:
+>&#x200B;>Die folgenden Szenarien sind vorhanden:
 >
 >* Die tatsächlichen Stunden, die für Projekte, Aufgaben und Probleme seit Mai 2021 protokollierte Stunden darstellen, wurden aus dem Feld Alte tatsächliche Stunden in das neue Feld Tatsächliche Stunden verschoben.
 >* Die tatsächlichen Stunden, die für Projekte, Aufgaben und Probleme vor Mai 2021 protokolliert werden, werden nur im Feld „Tatsächliche Legacy-Stunden“ berücksichtigt.
->  ><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
+>  &#x200B;><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
 
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
