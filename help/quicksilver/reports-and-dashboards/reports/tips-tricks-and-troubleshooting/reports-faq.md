@@ -7,9 +7,9 @@ description: Häufig gestellte Fragen zu Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-Für einen Projektbericht habe ich eine Berechnung, die die tatsächlichen Legacy-Stunden von den geplanten Stunden abzieht.
+In einem Projektbericht habe ich eine Berechnung, die die tatsächlichen Stunden von den geplanten Stunden abzieht.
 
 Das Ergebnis, das ich erhalte, ist falsch.
 
@@ -78,17 +78,19 @@ Meine Berechnung lautet:
 
 Die meisten Felder, die in Workfront Stunden verwenden, werden in Minuten gespeichert. Wenn Sie diese Felder in einer Berechnung verwenden, liegt das Ergebnis meistens in Minuten. Um das Ergebnis in Stunden zu erhalten, müssen Sie das Ergebnis der Berechnung oder des Feldes, auf das Sie verweisen, durch 60 teilen.
 
-Die korrekte Berechnung lautet:
+Geplante Stunden werden in Minuten gespeichert.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+Je nachdem, welches Feld Tatsächliche Stunden für Ihre Berechnung verwendet werden soll, lauten die richtigen Formeln:
 
->[!NOTE]
->
->Wenn Sie die tatsächlichen Stunden in Ihrer Berechnung verwenden, verwenden Sie `actualWorkRequiredDouble` für das Wertefeld. Tatsächliche Stunden werden in Stunden gespeichert. Geplante Stunden werden in Minuten gespeichert.
->
->Die korrekte Berechnung für Tatsächliche Stunden lautet:
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* Für veraltete tatsächliche Stunden, die in Minuten gespeichert werden:
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* Für tatsächliche Stunden, die in Stunden gespeichert sind:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Warum wird der Wert der einzelnen Diagrammelemente in einem Bericht nicht im Diagramm angezeigt?
 
