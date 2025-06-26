@@ -7,9 +7,9 @@ description: Sie können im Textmodus beim Erstellen berechneter benutzerdefinie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,15 @@ Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen
 * Ansichten
 * Gruppierungen
 * Berechnete benutzerdefinierte Felder
+* Geschäftsregeln
 
 Weitere Informationen zum Erstellen von „IF“-Anweisungen finden Sie unter [ „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Die Beispiele in diesem Handbuch veranschaulichen die Verwendung von Bedingungsoperatoren in berechneten benutzerdefinierten Feldern. Sie können sie auch in berechneten benutzerdefinierten Spalten oder Gruppierungen verwenden, wenn Sie die korrekte Syntax für berechnete benutzerdefinierte Felder in Berichten befolgen.
 
 Informationen über den Syntaxunterschied zwischen den berechneten benutzerdefinierten Feldern und den berechneten benutzerdefinierten Daten in Berichten finden Sie unter [Berechnete benutzerdefinierte Felder im Vergleich zu berechneten Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+
+Weitere Informationen zu Geschäftsregeln finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Im API Explorer finden Sie die Felder, auf die Sie in Ihren berechneten benutzerdefinierten Ausdrücken verweisen möchten. Weitere Informationen zum API-Explorer finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
