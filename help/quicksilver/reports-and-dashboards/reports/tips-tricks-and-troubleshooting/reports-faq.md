@@ -87,7 +87,7 @@ Die korrekte Berechnung lautet:
 >Wenn Sie die tatsächlichen Stunden in Ihrer Berechnung verwenden, verwenden Sie `actualWorkRequiredDouble` für das Wertefeld. Tatsächliche Stunden werden in Stunden gespeichert. Geplante Stunden werden in Minuten gespeichert.
 >
 >Die korrekte Berechnung für Tatsächliche Stunden lautet:
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## Warum wird der Wert der einzelnen Diagrammelemente in einem Bericht nicht im Diagramm angezeigt?
