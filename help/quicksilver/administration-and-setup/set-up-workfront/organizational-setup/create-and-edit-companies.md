@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Oder
 
-   Wenn Sie ein vorhandenes Unternehmen bearbeiten, wählen Sie das Unternehmen aus und klicken **[!UICONTROL oben in]** Liste Unternehmen auf „Bearbeiten“.
+   Wenn Sie eine vorhandene Firma bearbeiten, wählen Sie die Firma aus und klicken Sie dann oben in der Liste der Firmen auf **[!UICONTROL Bearbeiten]** Symbol ![Bearbeiten](assets/edit-icon.png).
 
 1. Aktualisieren Sie die folgenden Informationen:
 
