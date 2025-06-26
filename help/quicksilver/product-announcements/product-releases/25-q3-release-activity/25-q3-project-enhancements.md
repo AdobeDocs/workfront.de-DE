@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 Auf dieser Seite werden die mit der Version vom dritten Quartal 2025 vorgenommenen Projektverbesserungen für die Vorschau-Umgebung beschrieben. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Vorhandenes Feld „Tatsächliche Stunden“ wurde durch das Feld „Alte tatsächliche Stunden“ ersetzt und neues Feld „Tatsächliche Stunden“ erstellt
+
+>[!NOTE]
+>
+> Vorschau und Produktion: 24. Juni 2025 
+
+Das vorhandene Feld „Tatsächliche Stunden“ wurde in „Frühere Tatsächliche Stunden“ umbenannt. In diesem Feld wird die für Projekte, Aufgaben und Probleme protokollierte Zeit in Minuten gespeichert. Das Feld wird in der Workfront-Datenbank als actualWorkRequired gespeichert.
+
+Wir haben ein neues Feld Tatsächliche Stunden hinzugefügt, das die für Projekte, Aufgaben und Probleme protokollierte Zeit dezimal in Stunden speichert. Das Feld wird in der Workfront-Datenbank als actualWorkRequiredDouble gespeichert.
+
+Sowohl die Felder Tatsächliche Stunden als auch Legacy Tatsächliche Stunden sind in Projekt-, Aufgaben- und Problemansichten und Berichten sichtbar.
+
+Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- und Problemdetails sichtbar ist, stellt die veralteten tatsächlichen Stunden dar.
+
+
+>[!IMPORTANT]
+>
+>Vor Mai 2021 protokollierte Stunden werden im Feld „Tatsächliche Legacy-Stunden“ gespeichert.  
+>>Der Wert für das Feld Tatsächliche Stunden für Projekte, Aufgaben und Probleme, bei denen die Stunden vor Mai 2021 protokolliert wurden, ist null. 
+>>Nach Mai 2021 erfasste Stunden werden sowohl im Feld „Tatsächliche Stunden“ als auch im Feld „Frühere tatsächliche Stunden“ gespeichert.
+>> Möglicherweise müssen Sie Ihre Berichte aktualisieren, um die neuen Felder widerzuspiegeln.
+
+Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Änderung der Art und Weise, wie die tatsächlichen Stunden für API-Aufrufe in der Datenbank gespeichert werden
 

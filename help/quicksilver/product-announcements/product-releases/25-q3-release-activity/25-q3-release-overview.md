@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1627'
 ht-degree: 3%
 
 ---
@@ -128,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">All Approvals widget renamed to Document approval metrics</a><p></p>
+            <p>We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.</p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisiertes Kommentierungserlebnis im Abschnitt „Erwähnungen“ im Bereich „Meine Aktualisierungen“</a><p></p>
@@ -160,6 +169,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Vorhandenes Feld „Tatsächliche Stunden“ wurde durch das Feld „Alte tatsächliche Stunden“ ersetzt und neues Feld „Tatsächliche Stunden“ wurde erstellt</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Das vorhandene Feld „Tatsächliche Stunden“ wurde in „Frühere Tatsächliche Stunden“ umbenannt. In diesem Feld wird die für Projekte, Aufgaben und Probleme protokollierte Zeit in Minuten gespeichert. Das Feld wird in der Workfront-Datenbank als actualWorkRequired gespeichert. </p>
+            <p>Wir haben ein neues Feld Tatsächliche Stunden hinzugefügt, das die für Projekte, Aufgaben und Probleme protokollierte Zeit dezimal in Stunden speichert. Das Feld wird in der Workfront-Datenbank als actualWorkRequiredDouble gespeichert.</p>
+        </td>
+        <td>Mittwoch, 24. Juni 2025</td>
+        <td>Mittwoch, 24. Juni 2025</td>
+        <td>Mittwoch, 24. Juni 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Änderung der Art und Weise, wie die tatsächlichen Stunden für API-Aufrufe in der Datenbank gespeichert werden</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
@@ -203,6 +222,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Erweiterte </a> für die Berichtbereitstellung<p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Wir haben die geplante Bereitstellung von Berichten verbessert, um sicherzustellen, dass Workfront-Benachrichtigungen nur an E-Mail-Domains gesendet werden, die in der -Zulassungsliste genehmigt wurden.</p>
+            <p></p>
+        </td>
+        <td>Freitag, 26. Juni 2025</td>
+        <td>(Schrittweiser Rollout): 26. Juni bis 9. Juli 2025</td>
+        <td>(Schrittweiser Rollout): 26. Juni bis 9. Juli 2025</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Benutzer-Platzhalter geben beim Filtern von </a> keine Ergebnisse mehr mit einem Nullwert zurück<p></p>
@@ -287,7 +316,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -325,7 +354,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

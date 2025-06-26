@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
+
+>[!NOTE]
+>
+>* Vorschau: 26. Juni 2025
+>* Produktion für alle: 17. Juli 2025
+
+Sie können jetzt die Gruppierungen in einer Tabellenansicht mithilfe der folgenden Bereiche reduzieren und erweitern:
+
+* Das Gruppierungsfeld, auf das über die Symbolleiste der Tabellenansicht zugegriffen werden kann
+
+* Die Kopfzeile einer Gruppierung durch Rechtsklick darauf
+
+Sie können eine Gruppierung oder alle Gruppierungen gleichzeitig reduzieren oder erweitern.
+
+Vor dieser Verbesserung konnten Sie jeweils nur eine Gruppierung in jeder Gruppierungskopfzeile reduzieren oder erweitern.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Neue Aggregationsfunktion für Formelfelder
+
+>[!NOTE]
+>
+>* Vorschau: 26. Juni 2025
+>* Produktion für alle: 26. Juni 2025
+
+Wenn Sie jetzt Datensatztypen verbinden und ein Formelfeld als Suche einbringen, können Sie die Aggregatfunktionen (SUM, AVERAGE, MIN, MAX usw.) je nach Format des Formelfelds anwenden. Wenn das Formelfeld beispielsweise numerisch ist, können Sie Funktionen wie SUM oder AVG verwenden. Wenn das Formelfeld als Text formatiert ist, werden Aggregatfunktionen wie SUM nicht angewendet.
+
+Zuvor konnten Sie beim Verbinden von Datensatztypen und Einbringen von Suchfeldern aus den verbundenen Datensätzen Aggregatfunktionen nur auf reguläre Felder, nicht aber auf Formelfelder anwenden.
+
+Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Benutzerdefinierte Quartalsverfügbarkeit für die Zeitleisten-Ansicht von Workfront Planning
 
@@ -206,7 +239,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
