@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Konfigurieren von Voreinstellungen für Benutzeraktualisierungen
 description: Sie können Voreinstellungen konfigurieren, die auf bestimmte Funktionen zugreifen, wenn Benutzer Kommentare im Bereich [!UICONTROL Aktualisierungen] eines Objekts hinzufügen.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # Voreinstellungen für Benutzeraktualisierungen konfigurieren
+
+<!--Audited: 06/2025-->
 
 Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte Funktionen gewähren, wenn sie Kommentare im Bereich [!UICONTROL Aktualisierungen] eines Objekts hinzufügen.
 
@@ -34,7 +36,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
    <td><p>Neu: [!UICONTROL Standard]</p>
    Oder
    <p>Aktuell: [!UICONTROL Plan]</p>
@@ -47,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

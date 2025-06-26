@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Tatsächliche Stunden anzeigen
-description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront anmelden, werden als Tatsächliche Stunden betrachtet.
+description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront anmelden, werden als Tatsächliche Stunden betrachtet. Tatsächliche Stunden stellen die tatsächliche Zeit dar, die zum Abschließen einer Aufgabe, eines Problems oder eines Projekts benötigt wurde.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Tatsächliche Stunden im Vergleich zu veralteten tatsächlichen Stunden
+
+Je nachdem, aus welchem Bereich von Workfront Sie auf die tatsächlichen Stunden zugreifen, können diese auf eine der folgenden protokollierten Stunden verweisen:
+
+* In Projekt-, Aufgaben- und Problemberichten und -listen:
+
+   * **Tatsächliche Stunden**: Stunden, die für ein Projekt, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+   * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld ist `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* Im Bereich „Projekt-, Aufgaben- oder Problemdetails“:
+
+   * **Tatsächliche Stunden**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie entsprechen den tatsächlichen Legacy-Stunden in Berichten und Listen. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
 
 ## Tatsächliche Stunden für Aufgaben und Probleme im Vergleich zu tatsächlichen Stunden für Projekte
 
@@ -134,7 +147,7 @@ Wenn Sie den Fortschritt der Arbeit sehen möchten, die Ihre Benutzerinnen und B
   Weitere Informationen finden Sie unter [Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Tatsächliche Stunden in der Workfront <!--database and the--> API-<!--, and custom data-->
+### Tatsächliche Stunden in der Workfront-API
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ Die meisten Workfront-Felder, in denen Stunden gespeichert werden, werden in Min
 
 Beim Zugriff auf diese Felder in API-Aufrufen oder in berechneten benutzerdefinierten Feldern oder Spalten muss die Konvertierung von Minuten in Stunden berücksichtigt werden.
 
-Je nachdem, wie Sie auf die tatsächlichen Stunden zugreifen, können diese in den folgenden Feldern und Einheiten in der Datenbank gespeichert werden:
+Die tatsächlichen Stunden, die für Projekte, Aufgaben oder Probleme protokolliert werden, werden derzeit als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
 
-* In der API: Da die Veröffentlichung der folgenden Version der Workfront-API für später im Jahr 2025 geplant ist, wird die `valuefield` für Tatsächliche Stunden `actualWorkRequiredDouble`, die in Stunden gespeichert wird. Die aktuelle Version speichert die tatsächlichen Stunden als `actualWorkRequired`, die in Minuten gespeichert werden.
-* In der Workfront-Benutzeroberfläche (berechnetes benutzerdefiniertes Feld und Spalten): Die `valuefield` für die Ist-Stunden wird in Minuten `actualWorkRequired`.
+Die folgende Version der Workfront-API wird voraussichtlich im Laufe des Jahres 2025 veröffentlicht. Je nachdem, wie Sie auf die tatsächlichen Stunden zugreifen, können diese in den folgenden Feldern und Einheiten in der Datenbank gespeichert werden:
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **Tatsächliche Stunden**: Stunden, die für ein Projekt, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
 
 Informationen zur Verwendung der tatsächlichen Stunden in berechneten Spalten oder Feldern finden Sie unter [Häufig gestellte Fragen zum Bericht](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

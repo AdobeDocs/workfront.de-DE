@@ -8,16 +8,16 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
 # Arbeitszeittabelle und Stundeneinstellungen konfigurieren
 
-<!--Audited: 01/2024-->
+<!--Audited: 06/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -38,8 +38,6 @@ Alle Änderungen an Arbeitszeittabellen wirken sich auf alle Arbeitszeittabellen
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -151,7 +149,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <p>Das bedeutet, dass die Arbeitszeittabelle vorab mit Aufgaben und Problemen ausgefüllt wird, deren Termine zwischen vier Wochen vor dem Datumsbereich der Arbeitszeittabelle und bis zu vier Wochen nach dem Datumsbereich der Arbeitszeittabelle liegen, wenn Sie für Ihren Bereich 4 Wochen auswählen. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Abgeschlossene-Aufgaben und -Probleme]</td> 
+      <td role="rowheader">[!Abgeschlossene UICONTROL-Aufgaben und -Probleme]</td> 
       <td>Wenn einer einzelnen Aufgabe normalerweise mehrere Ressourcen zugewiesen sind, empfehlen wir diese Einstellung. Wenn also eine Ressource die Zeit für einen Vorgang aufzeichnet und ihn als abgeschlossen markiert, können die anderen Ressourcen, die dem Vorgang zugewiesen sind, den Vorgang oder das Problem weiterhin in ihrer Arbeitszeittabelle finden, um ihre Stunden aufzuzeichnen.</td> 
      </tr> 
      <tr> 

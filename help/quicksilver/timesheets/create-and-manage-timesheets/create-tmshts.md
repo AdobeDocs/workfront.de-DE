@@ -6,18 +6,22 @@ description: Wenn Sie eine nicht wiederkehrende Arbeitszeittabelle benötigen, k
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch
 
+<!--Audited: 6/2025-->
+
 Wenn Sie eine nicht wiederkehrende Arbeitszeittabelle benötigen, können Sie diese Arbeitszeittabelle manuell erstellen. Wenn das Enddatum der Arbeitszeittabelle erreicht ist und Sie mehr Arbeitszeittabellen benötigen, müssen Sie neue erstellen.
 
 Informationen zum Erstellen eines Arbeitszeittabellen-Profils, das ohne weiteres Eingreifen Ihrerseits wiederkehrende Arbeitszeittabellen für Ihre Benutzer generiert (empfohlen), finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+Informationen zum manuellen Generieren von Arbeitszeittabellen für alle Benutzenden im System, die einem Arbeitszeittabellenprofil zugeordnet sind, finden Sie unter [Manuelles Generieren von Arbeitszeittabellen](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
    <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> </td> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 ## Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klicken Sie **Arbeitszeittabellen**. Der **Alle**-Filter ist standardmäßig ausgewählt. Dadurch werden alle Arbeitszeittabellen angezeigt, auf die Sie Zugriff haben.
+Der **Alle**-Filter ist standardmäßig ausgewählt. Dadurch werden alle Arbeitszeittabellen angezeigt, auf die Sie Zugriff haben.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Arbeitszeittabellen-Liste mit einer ausgewählten Arbeitszeittabelle](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
@@ -78,9 +82,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
      Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Meine Arbeitszeittabellen-Filterschaltflächen auf der Seite mit der Arbeitszeittabellen-Liste](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicken Sie auf das Filtersymbol ![](assets/filter-nwepng.png) , um einen anderen Filter anzuwenden, oder erstellen Sie einen neuen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png), um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
    >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Optional) Klicken Sie auf das **Suchen**-Symbol ![](assets/search-icon.png), um einen Suchbegriff einzugeben und nach einer bestimmten Arbeitszeittabelle zu suchen. Sie können beispielsweise nach einem Arbeitszeittabellen-Zeitrahmen mit Besitzernamen suchen.
+1. (Optional) Klicken Sie auf das Symbol **Suchen** ![Suchsymbol](assets/search-icon.png), um einen Suchbegriff einzugeben und nach einer bestimmten Arbeitszeittabelle zu suchen. Sie können beispielsweise nach einem Arbeitszeittabellen-Zeitrahmen mit Besitzernamen suchen.
 
-1. (Optional) Klicken Sie auf **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
+1. (Optional) Klicken Sie auf **Ansicht** ![Ansichtssymbol](assets/view-icon.png) oder **Gruppierung** ![Gruppierungssymbol](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
    Informationen zum Erstellen von Filtern, Ansichten oder Gruppierungen finden Sie in den folgenden Artikeln:
 

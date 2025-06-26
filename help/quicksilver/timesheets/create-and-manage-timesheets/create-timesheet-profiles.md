@@ -6,14 +6,24 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
 
 # Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen, die ohne weiteres Eingreifen von Ihnen wiederkehrende Arbeitszeittabellen für Ihre Benutzer generieren. Dies spart Zeit und stellt sicher, dass Folgendes zwischen den Benutzern konsistent ist:
 
@@ -38,20 +48,20 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
    <td> <p>Beliebig</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Neu: Standard </p>
  <p>oder</p> 
 <p>Aktuell: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 >[!IMPORTANT]
 >
->Um Arbeitszeittabellen-Profiländerungen in aktuellen Arbeitszeittabellen zu aktivieren, müssen Sie die vorhandenen Arbeitszeittabellen löschen und dann neue generieren. Anweisungen finden Sie unter [Arbeitszeittabellen in Adobe Workfront löschen](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) und [Arbeitszeittabellen manuell generieren](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Um Arbeitszeittabellen-Profiländerungen in aktuellen Arbeitszeittabellen zu aktivieren, müssen Sie zunächst die vorhandenen Arbeitszeittabellen löschen, bevor Sie die Änderungen an den Arbeitszeittabellen-Profilen vornehmen, und dann neue Arbeitszeittabellen erstellen. Anweisungen finden Sie unter [Arbeitszeittabellen in Adobe Workfront löschen](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) und [Arbeitszeittabellen manuell generieren](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
@@ -77,7 +87,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Wenn Sie ein Arbeitszeittabellen-Profil für eine Gruppe erstellen oder bearbeiten, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 
 1. Klicken Sie **Arbeitszeittabellen-Profile**.
-1. Um ein neues Arbeitszeittabellen-Profil zu erstellen, klicken Sie auf **Neues Profil**.
+1. Um ein Arbeitszeittabellen-Profil zu erstellen, klicken Sie auf **Neues Profil**.
 
    Oder
 
@@ -86,13 +96,26 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Das neue oder vorhandene Arbeitszeittabellen-Profil wird angezeigt.
 
 
-1. Geben Sie auf **Registerkarte** Details festlegen) einen **Namen** und **Beschreibung** für das Arbeitszeittabellenprofil ein und geben Sie die folgenden Informationen ein:
+1. Klicken Sie auf **Details festlegen** und aktualisieren Sie dann die folgenden Informationen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>Name</strong> </td> 
+      <td> <p> Fügen Sie einen Namen für das Arbeitszeittabellen-Profil hinzu. Dabei kann es sich um den Namen eines Teams oder einer Gruppe handeln, dessen Personen für ihre Arbeitszeittabellen denselben Zeitrahmen verwenden. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Beschreibung</strong> </td> 
+      <td> <p> Fügen Sie weitere Informationen zum Arbeitszeittabellen-Profil hinzu.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>Gruppe mit Administratorzugriff</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader"><strong>Verfügbare Stundentypen</strong> </td> 
       <td><p>Diese Einstellung bezieht sich nur auf allgemeine Stundentypen und nicht auf projektspezifische Stundentypen. </p>
       <p>Standardmäßig sehen Benutzer alle allgemeinen Stunden auf einer Arbeitszeittabelle. Wenn Ihr Unternehmen jedoch möchte, dass nur bestimmte allgemeine Stunden für eine bestimmte Benutzergruppe angezeigt werden, können Sie die allgemeinen Stunden auswählen, die in den Arbeitszeittabellen angezeigt werden sollen, indem Sie sie in diesem Feld in ihrem Arbeitszeittabellen-Profil auswählen. Wenn Sie alle allgemeinen Stunden deaktivieren möchten, heben Sie die Auswahl aller Stundentypen auf, um die Arbeitszeittabelle ohne Abschnitt für allgemeine Stunden zu erstellen.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Erinnerungsnachrichten</strong> </td> 
+      <td> <p> Erinnerungsnachricht hinzufügen. Workfront sendet Benutzern Erinnerungen, damit diese ihre Arbeitszeittabellen ausfüllen oder genehmigen können. Sie müssen Erinnerungsnachrichten erstellen, bevor Sie sie mit einem Arbeitszeittabellen-Profil verknüpfen können.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
       <td>Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Diese Option ist standardmäßig deaktiviert.</td> 
      </tr> 

@@ -6,9 +6,9 @@ description: Ein Stundentyp ist eine Bezeichnung, mit der Sie Zeiteinträge kate
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ein Stundentyp ist eine Bezeichnung, mit der Sie Zeiteinträge kategorisieren k�
 
 In Adobe Workfront gibt es zwei Gruppen von Stundentypen:
 
-* **Allgemeine Stunden**: Stunden, die keinem Projekt zugeordnet sind, z. B. Krankenstand oder Administration. Sie können nur allgemeine Stunden auf der Arbeitszeittabelle protokollieren.
+* **Allgemeine Stunden**: Stunden, die keinem Projekt zugeordnet sind, z. B. Krankenstand oder Verwaltung. Sie können nur allgemeine Stunden auf der Arbeitszeittabelle protokollieren.
 * **Projektspezifische Stunden**: Stunden, die für Projekte, Aufgaben und Probleme protokolliert wurden. Sie können projektspezifische Stunden von jedem Ort aus protokollieren, an dem Sie die Zeit erfassen können.
 
 Beim Protokollieren der Zeit in Workfront hängen die verfügbaren projektspezifischen Stundentypen von den Konfigurationsoptionen ab, die auf System-, Projekt- und Benutzerebene festgelegt werden. (Die folgenden standardmäßigen projektspezifischen Stundentypen sind immer verfügbar: Projektzeit, Aufgabenzeit und Anfragezeit.)
@@ -45,7 +45,7 @@ Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zei
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Neu: Standard</p> 
    <p>Aktuell: Plan</p>
    </td> 
@@ -61,7 +61,7 @@ Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zei
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

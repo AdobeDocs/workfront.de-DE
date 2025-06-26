@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2556'
 ht-degree: 1%
 
 ---
@@ -199,14 +199,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
 
-     >[!TIP]
-     >
-     > Die folgenden Feldtypen können nicht als Suchfelder hinzugefügt werden:
-     >
-     >    * Personen
-     >    * Erstellt von
-     >    * Zuletzt geändert von
-     >    * Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor)
+   >[!TIP]
+   >
+   >Sie können keine Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor) als Suchfelder hinzufügen.
 
 1. (Bedingt und optional) Wenn Sie eine Verbindung zu einem Workfront-Objekt herstellen möchten, wählen Sie ein **benutzerdefiniertes Formular** aus dem Abschnitt **Nur Objekte verknüpfen, die diesen Kriterien**. Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
 
@@ -218,7 +213,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets oder einem Workfront Planning-Datensatztyp herstellen möchten, wählen Sie im Bereich **Datensatzdarstellung** eine der folgenden Optionen aus:
 
@@ -256,10 +251,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >    Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den verknüpften Feldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen.
 
-
 1. (Optional) Klicken Sie auf **Überspringen**, um das Hinzufügen von Feldern aus dem verknüpften Datensatz oder Objekttyp zu überspringen. Der Name oder das Primäre Feld des verknüpften Datensatzes ist das einzige sichtbare Feld in der Tabellenansicht des Datensatztyps, von dem aus Sie eine Verbindung herstellen.
 
-1. (Optional und bedingt) Wenn Sie ein Feld vom Typ Zahl, Währung, Prozentsatz oder Datum verknüpfen möchten, wählen Sie auch einen Aggregatorwert aus, um mehrere Werte zusammenzufassen. Die Werte für die verknüpften Felder werden je nach ausgewähltem Aggregator entweder durch Kommas getrennt oder als zusammengefasster Wert angezeigt, wenn Benutzende mehr als einen verknüpften Datensatz im verknüpften Datensatzfeld auswählen.
+1. Wählen Sie einen Aggregator für die hinzugefügten Suchfelder aus.
+
+   >[!NOTE]
+   >
+   >Sie können keine Aggregatoren für die folgenden Feldtypen hinzufügen:
+   >
+   >    * Absatz
+   >    * Kontrollkästchen
+
+   Die Werte für die verknüpften Felder werden je nach ausgewähltem Aggregator entweder durch Kommas getrennt oder als zusammengefasster Wert angezeigt, wenn Benutzende mehr als einen verknüpften Datensatz im verknüpften Datensatzfeld auswählen.
 
    Wenn das Suchfeld mehrere Werte enthält, die nicht zusammengefasst sind, sollten Sie bei der Verwendung des Felds beim Sortieren oder Gruppieren in einer Ansicht Folgendes beachten:
 
@@ -271,7 +274,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!IMPORTANT]
    >
-   >    Sie müssen beim Hinzufügen von Suchdatumsfeldern einen Aggregatorwert auswählen, wenn die Felder verfügbar sein sollen, um als Start- und Enddatum für die Timeline- und Kalenderansichten hinzugefügt werden zu können. Sie können beispielsweise den MAX oder den MIN-Aggregator für ein Suchdatumsfeld auswählen.
+   > Sie müssen beim Hinzufügen von Suchdatumsfeldern einen Aggregatorwert auswählen, wenn die Felder verfügbar sein sollen, um als Start- und Enddatum für die Timeline- und Kalenderansichten hinzugefügt werden zu können. Sie können beispielsweise den MAX oder den MIN-Aggregator für ein Suchdatumsfeld auswählen.
 
    ![Aggregator-Dropdown für verknüpftes Zahlenfeld](assets/aggregator-drop-down-for-number-linked-field.png)
 

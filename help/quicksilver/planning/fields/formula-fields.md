@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '795'
 ht-degree: 6%
 
 ---
 
 # Übersicht über Formelfelder
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -104,6 +102,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Formelfelder verweisen auf Felder, die zum selben Datensatztyp gehören.
 * Sie können nur dann auf Felder von anderen Datensatztypen verweisen, wenn Sie einen anderen Datensatztyp mit dem verbinden, für den Sie ein Formelfeld erstellen.
+* &lt;span class-„preview“>Wenn Sie in einer Formel auf verbundene Datensatztypen oder deren Suchfelder verweisen, hängt dies von Ihren Berechtigungen für die verbundenen Datensatztypen ab. Wenn Sie nicht berechtigt sind, den Datensatztyp anzuzeigen, können Sie dessen Felder nicht in einer Formel referenzieren. </span>
 * Der Feldtyp eines Formelfelds kann nach dem Speichern nicht mehr geändert werden.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren. Die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
 * Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, die in der Workfront Planning-Benutzeroberfläche angezeigt werden.

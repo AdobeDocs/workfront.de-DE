@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
+source-wordcount: '3720'
 ht-degree: 2%
 
 ---
@@ -458,9 +458,7 @@ Um eine Gruppierung hinzuzufügen:
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
-   <!--replace screen shot for Expand all-->
-
-   ![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
@@ -471,26 +469,23 @@ Um eine Gruppierung hinzuzufügen:
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
 1. (Optional) Klicken Sie auf **+ Neuer Datensatz** am Ende einer Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview">Um Gruppierungen zu erweitern oder zu reduzieren, führen Sie einen der folgenden Schritte aus:</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. Klicken Sie auf **Gruppierung** und dann auf **Alle erweitern** oder **Alle reduzieren**. Dadurch werden alle Gruppierungen und Untergruppierungen in der Tabellenansicht erweitert.
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![Alle Schaltflächen in der Tabellenansicht des Gruppierungsfelds erweitern und reduzieren](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. Klicken Sie mit der rechten Maustaste auf eine der Gruppierungsüberschriften in der Tabellenansicht, und klicken Sie dann auf eine der folgenden Optionen:
+      * **Gruppe erweitern**
+      * **Gruppe**
+      * **Alle erweitern**
+      * **Alle reduzieren**
+      * **Erweitern von Untergruppen**
+      * **Untergruppen reduzieren**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      Je nach der Anzahl der Gruppierungen, die Sie auf die Ansicht anwenden, stehen einige Optionen möglicherweise nicht zur Verfügung.</div>
 
 <!-- this is not available yet: 
 
