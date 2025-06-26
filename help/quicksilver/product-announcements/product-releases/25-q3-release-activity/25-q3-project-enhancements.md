@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,19 @@ Wir haben ein neues Feld Tatsächliche Stunden hinzugefügt, das die für Projek
 
 Sowohl die Felder Tatsächliche Stunden als auch Legacy Tatsächliche Stunden sind in Projekt-, Aufgaben- und Problemansichten und Berichten sichtbar.
 
-Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- und Problemdetails sichtbar ist, stellt die veralteten tatsächlichen Stunden dar.
+Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- und Problemdetails sichtbar ist, stellt die neuen tatsächlichen Stunden dar.
+
 
 
 >[!IMPORTANT]
 >
->Vor Mai 2021 protokollierte Stunden werden im Feld „Tatsächliche Legacy-Stunden“ gespeichert.  
->&#x200B;>Der Wert für das Feld Tatsächliche Stunden für Projekte, Aufgaben und Probleme, bei denen die Stunden vor Mai 2021 protokolliert wurden, ist null. 
->&#x200B;>Nach Mai 2021 erfasste Stunden werden sowohl im Feld „Tatsächliche Stunden“ als auch im Feld „Frühere tatsächliche Stunden“ gespeichert.
->&#x200B;> Möglicherweise müssen Sie Ihre Berichte aktualisieren, um die neuen Felder widerzuspiegeln.
+>Je nachdem, wann die Stunden protokolliert wurden, kann es eine Diskrepanz zwischen den tatsächlichen Stunden und den veralteten tatsächlichen Stunden für ein Projekt, eine Aufgabe oder ein Problem geben.<br>
+>>Die folgenden Szenarien sind vorhanden:
+>
+>* Die tatsächlichen Stunden, die für Projekte, Aufgaben und Probleme seit Mai 2021 protokollierte Stunden darstellen, wurden aus dem Feld Alte tatsächliche Stunden in das neue Feld Tatsächliche Stunden verschoben.
+>* Die tatsächlichen Stunden, die für Projekte, Aufgaben und Probleme vor Mai 2021 protokolliert werden, werden nur im Feld „Tatsächliche Legacy-Stunden“ berücksichtigt.
+>  ><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
+
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
+source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
 workflow-type: tm+mt
-source-wordcount: '4930'
+source-wordcount: '4861'
 ht-degree: 1%
 
 ---
@@ -33,19 +33,19 @@ We have updated the look and feel of all the tabs and subtabs in the Update Feed
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
-### Neues Erscheinungsbild der Listen im Abschnitt Arbeitszeittabellen und Stunden im Bereich Setup
+<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
 
-**Vorschau: 26. Juni 2025; Produktion für alle: 10. Juli 2025**
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
 
-Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und Stunden im Bereich Setup wurde aktualisiert:
+We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
 
-* Die Liste der Arbeitszeittabellen-Profile
+* The list of Timesheet Profiles 
 
-* Die Liste der Stundentypen
+* The list of Hour Types 
 
-Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
+These lists now match other areas of Workfront.  
 
-Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
 
 
 <!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
