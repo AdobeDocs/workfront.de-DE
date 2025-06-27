@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
+source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
 workflow-type: tm+mt
-source-wordcount: '13211'
+source-wordcount: '13224'
 ht-degree: 2%
 
 ---
@@ -1095,7 +1095,6 @@ ht-degree: 2%
       * [Der Bereich Dokumente](documents/managing-documents/documents-area.md)
       * [Dokumentdetails - Übersicht](documents/managing-documents/document-details-overview.md)
       * [Zusammenfassung für Dokumente - Überblick](documents/managing-documents/summary-for-documents.md)
-      * [Workfront AI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Vorschau von Dokumenten](documents/managing-documents/preview-documents.md)
       * [Dokumentengenehmigungen und Proofing](documents/managing-documents/document-approvals-and-proofing.md)
       * [Hinzufügen einer Aktualisierung zu einem Dokument](documents/managing-documents/add-update-documents.md)
@@ -1792,8 +1791,10 @@ ht-degree: 2%
       * [Verfügbare Funktionen für die Überprüfung und Genehmigung von Assets und Dokumenten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Übersicht über einheitliche Genehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Dokumentieren des Entscheidungsstatus - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * Einrichten und Verwalten von Asset- und Dokumentengenehmigungen {#manage-asset-review-and-approval}
          * [Asset- und Dokumentengenehmigungen einrichten und verwalten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [KI-Reviewer erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Hinzufügen zusätzlicher Prüfer oder genehmigender Personen zu einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Entfernen von Genehmigern oder Validierungsverantwortlichen aus einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1803,6 +1804,7 @@ ht-degree: 2%
          * [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Überprüfen und Genehmigen von Assets und Dokumenten {#review-and-approve-documents}
          * [Dokumente prüfen und genehmigen: Artikelverzeichnis](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [KI-Reviewer-Punktzahl und -Feedback anzeigen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Überprüfen eines Dokuments](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Dokument genehmigen](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Proofing {#proofing}
