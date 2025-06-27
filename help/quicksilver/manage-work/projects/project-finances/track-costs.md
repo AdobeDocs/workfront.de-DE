@@ -154,7 +154,7 @@ Der Stundensatz in der Formel berücksichtigt alle Datumsänderungen, die wirksa
 >[!NOTE]
 >
 >Die tatsächlichen Kosten des Projekts werden wie folgt berechnet:
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Diese Kosten werden in der Istkostenberechnung nicht dupliziert. Wenn beispielsweise Fixkosten Teil der Ist-Ausgaben des Projekts sind, werden sie nicht separat zu den Ist-Kosten hinzugefügt.
 

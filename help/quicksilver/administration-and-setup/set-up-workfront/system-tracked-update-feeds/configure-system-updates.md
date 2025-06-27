@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systemaktualisierungen konfigurieren
-description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
+description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quic
 
 </div>
 
-[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die folgenden Ereignisse aufzuzeichnen:
+[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die folgenden Ereignisse aufzuzeichnen:
 
 * Änderungen, die Benutzer in einem Objektfeld vornehmen
 * Aktionen, die Benutzer für ein Objekt ausführen
@@ -102,7 +102,7 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
    * <span class="preview">**Benutzerdefinierte Felder**</span>: Zeigt eine Liste der benutzerdefinierten Felder an. Sie müssen die benutzerdefinierten Felder erstellen, bevor sie in der Liste verfügbar sind.
    * <span class="preview">**Alle Felder**</span>: Zeigt eine Liste der integrierten und benutzerdefinierten Felder an.
 
-1. Klicken Sie <span class="preview">**[!UICONTROL Felder hinzufügen ]**</span> und wählen Sie dann aus der Dropdown-Liste das Objekt aus, das verfolgt werden soll.
+1. Klicken Sie <span class="preview">**[!UICONTROL Felder hinzufügen &#x200B;]**</span> und wählen Sie dann aus der Dropdown-Liste das Objekt aus, das verfolgt werden soll.
 
    Die manuelle Auswahl von Feldern ist nicht für alle Objekte verfügbar, die einen Bereich „Aktualisierungen“ aufweisen.
 
