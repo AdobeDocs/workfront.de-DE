@@ -7,9 +7,9 @@ description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,16 @@ Je nachdem, aus welchem Bereich von Workfront Sie auf die tatsächlichen Stunden
 * In Projekt-, Aufgaben- und Problemberichten und -listen:
 
    * **Tatsächliche Stunden**: Stunden, die für ein Projekt, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
-   * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld ist `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+   * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
+
+     >[!IMPORTANT]
+     >
+     >Die Ist-Kosten des Projekts berechnen mithilfe von Legacy-Ist-Stunden.
+
 
 * Im Bereich „Projekt-, Aufgaben- oder Problemdetails“:
 
-   * **Tatsächliche Stunden**: Stunden, die für Projekte, Aufgaben oder Probleme vor Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+   * **Tatsächliche Stunden**: Stunden, die für Projekte, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
 
 ## Tatsächliche Stunden für Aufgaben und Probleme im Vergleich zu tatsächlichen Stunden für Projekte
 
@@ -160,9 +165,13 @@ Die tatsächlichen Stunden, die für Projekte, Aufgaben oder Probleme protokolli
 Da die folgende Version der Workfront-API voraussichtlich im Laufe des Jahres 2025 veröffentlicht wird, werden die tatsächlichen Stunden in den folgenden Feldern und Einheiten in der Datenbank gespeichert:
 
 * **Tatsächliche Stunden**: Stunden, die für ein Projekt, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
-   * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
+* **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
 
-Informationen zur Verwendung der tatsächlichen Stunden in berechneten Spalten oder Feldern finden Sie unter [Häufig gestellte Fragen zum Bericht](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+  >[!IMPORTANT]
+  >
+  >Die Ist-Kosten des Projekts berechnen mithilfe von Legacy-Ist-Stunden.
+
+  Informationen zur Verwendung der tatsächlichen Stunden in berechneten Spalten oder Feldern finden Sie unter [Häufig gestellte Fragen zum Bericht](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Zeit erfassen
 

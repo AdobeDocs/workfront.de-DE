@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systemaktualisierungen konfigurieren
-description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
+description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '981'
 ht-degree: 8%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 8%
 
 <!-- Audited: 6/2025 -->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
-[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die folgenden Ereignisse aufzuzeichnen:
+[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die folgenden Ereignisse aufzuzeichnen:
 
 * Änderungen, die Benutzer in einem Objektfeld vornehmen
 * Aktionen, die Benutzer für ein Objekt ausführen
@@ -96,13 +96,13 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
 {{step-1-to-setup}}
 
 1. Klicken Sie im Bedienfeld links auf **[!UICONTROL Schnittstelle]** und dann auf **[!UICONTROL Feeds aktualisieren]**.
-1. (Optional) Klicken Sie auf der Registerkarte **Nachverfolgte Felder** auf eine der folgenden Unterregisterkarten, je nachdem, welche Feldtypen Sie im Aktualisierungsfeed nachverfolgen möchten:
+1. (Optional) Klicken Sie auf <span class="preview">**Registerkarte** Getrackte Felder</span> auf eine der folgenden Unterregisterkarten, je nachdem, welche Feldtypen Sie im Aktualisierungsfeed verfolgen möchten:
 
-   * **Integrierte Felder**: Zeigt eine Liste der integrierten Felder an.
-   * **Benutzerdefinierte Felder**: Zeigt eine Liste der benutzerdefinierten Felder an. Sie müssen die benutzerdefinierten Felder erstellen, bevor sie in der Liste verfügbar sind.
-   * **Alle Felder**: Zeigt eine Liste der integrierten und benutzerdefinierten Felder an.
+   * <span class="preview">**Integrierte Felder**</span>: Zeigt eine Liste der integrierten Felder an.
+   * <span class="preview">**Benutzerdefinierte Felder**</span>: Zeigt eine Liste der benutzerdefinierten Felder an. Sie müssen die benutzerdefinierten Felder erstellen, bevor sie in der Liste verfügbar sind.
+   * <span class="preview">**Alle Felder**</span>: Zeigt eine Liste der integrierten und benutzerdefinierten Felder an.
 
-1. Klicken Sie **[!UICONTROL Felder hinzufügen]** und wählen Sie dann aus der Dropdown-Liste das Objekt aus, das verfolgt werden soll.
+1. Klicken Sie <span class="preview">**[!UICONTROL Felder hinzufügen ]**</span> und wählen Sie dann aus der Dropdown-Liste das Objekt aus, das verfolgt werden soll.
 
    Die manuelle Auswahl von Feldern ist nicht für alle Objekte verfügbar, die einen Bereich „Aktualisierungen“ aufweisen.
 
@@ -115,51 +115,16 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
    * Programm
    * Benutzerin oder Benutzer
 
-   Das **Felder hinzufügen** wird für jedes ausgewählte Objekt geöffnet.
-1. Beginnen Sie **Feld „Felder hinzufügen** entweder mit der Eingabe eines integrierten (standardmäßigen) Felds oder eines benutzerdefinierten Felds für das Objekt und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+   Das </span> <span class="preview">**Felder hinzufügen** wird für jedes ausgewählte Objekt geöffnet.
+1. Beginnen Sie im </span> <span class="preview">**Felder hinzufügen** entweder mit der Eingabe eines integrierten (standardmäßigen) Felds oder eines benutzerdefinierten Felds für das Objekt und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
    >[!NOTE]
    >
    >Wenn [!DNL Workfront] das Feld bereits nachverfolgt, können Sie es nicht ein zweites Mal aus der Liste hinzufügen.
 
-1. Nachdem Sie alle Felder hinzugefügt haben, die Sie verfolgen [!DNL Workfront], klicken Sie auf **[!UICONTROL Felder hinzufügen]**.
-Die hinzugefügten integrierten Felder werden auf der Unterregisterkarte **[!UICONTROL Integrierte Felder]** und die benutzerdefinierten Felder auf der Unterregisterkarte **[!UICONTROL Benutzerdefinierte Felder]** angezeigt.
-Die Unterregisterkarte **[!UICONTROL Alle Felder]** zeigt sowohl die integrierten als auch die benutzerdefinierten Felder an, die [!DNL Workfront] nachverfolgt.
-
-<!-- replace the above when releasing to Preview: 
-
-1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
-1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
-
-   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
-   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
-   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
-
-1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
-
-   Manually selecting fields is not available for all the objects that have an Updates area.
-
-   Select from fields for the following objects:
-
-      * Project
-      * Task
-      * Issue
-      * Portfolio
-      * Program
-      * User
-
-   The <span class="preview">**Add fields** </span> box opens, for each object selected.
-1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
-
-   >[!NOTE]
-   >
-   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
-
-1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
-   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
-   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
-
--->
+1. Nachdem Sie alle Felder hinzugefügt haben, die Sie verfolgen [!DNL Workfront], klicken <span class="preview"> auf **[!UICONTROL Hinzufügen]**.
+Die hinzugefügten integrierten Felder werden auf der Unterregisterkarte **[!UICONTROL Integrierte Felder]** und die benutzerdefinierten Felder werden auf der Unterregisterkarte **[!UICONTROL Benutzerdefinierte Felder]** angezeigt.
+Die Unterregisterkarte **[!UICONTROL Alle Felder]** zeigt sowohl die integrierten als auch die benutzerdefinierten Felder an, die [!DNL Workfront] nachverfolgt.</span>
 
 ### Felder entfernen, die nicht verfolgt werden sollen {#remove-fields-you-don-t-want-tracked}
 

@@ -7,9 +7,9 @@ description: Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Wo
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Sie können verschiedene Arten von Kosten für Aufgaben und Projekte in Workfron
     </tr> 
     <tr> 
      <td>Ist-Lohnkosten</td> 
-     <td> <p>Sie werden nach folgender Formel berechnet:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>Sie werden nach folgender Formel berechnet:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>HINWEIS</strong>
+     <p>Workfront berechnet die Ist-Lohnkosten anhand der Legacy-Iststunden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Tatsächliche Stunden anzeigen</a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Der Stundensatz in der Formel berücksichtigt alle Datumsänderungen, die wirksa
 >[!NOTE]
 >
 >Die tatsächlichen Kosten des Projekts werden wie folgt berechnet:
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Diese Kosten werden in der Istkostenberechnung nicht dupliziert. Wenn beispielsweise Fixkosten Teil der Ist-Ausgaben des Projekts sind, werden sie nicht separat zu den Ist-Kosten hinzugefügt.
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
+source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
 workflow-type: tm+mt
-source-wordcount: '4861'
-ht-degree: 1%
+source-wordcount: '5088'
+ht-degree: 0%
 
 ---
 
@@ -24,38 +24,35 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Admin und Setup
 
-<!--### Look and feel updates for the Update Feeds section of Setup 
+### Look-and-Feel-Aktualisierungen für den Abschnitt „Aktualisierungs-Feeds“ von Setup
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
+**Vorschau: 27. Juni 2025; Produktion für alle: 10. Juli 2025**
 
-We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+Das Erscheinungsbild aller Registerkarten und Unterregisterkarten im Abschnitt „Aktualisierungs-Feeds“ von Setup wurde aktualisiert. Der Abschnitt Update-Feeds wird unter dem Bereich Schnittstelle von Setup angezeigt. Jetzt stimmen alle Registerkarten im Abschnitt „Aktualisierungs-Feeds“ mit anderen Bereichen von Workfront überein.
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
+Weitere Informationen finden Sie [Konfigurieren von Systemaktualisierungen](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
 
+### Look-and-Feel-Aktualisierungen für das Feld Felder hinzufügen im Abschnitt Aktualisierungs-Feeds von Setup
 
-<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+**Vorschau-Version: 27. Juni 2025; Produktionsversion: 10. Juli 2025**
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+Das Erscheinungsbild des Felds Felder hinzufügen im Abschnitt Aktualisieren von Feeds von Setup wurde aktualisiert. Der Abschnitt Update-Feeds wird unter dem Bereich Schnittstelle von Setup angezeigt. Wenn Sie jetzt Felder in einer beliebigen Unterregisterkarte der Registerkarte „Nachverfolgte Felder“ hinzufügen, hat das Feld „Felder hinzufügen“ ein neues Erscheinungsbild, und einige Elemente der Benutzeroberfläche wurden aktualisiert.
 
-We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+Weitere Informationen finden Sie [Konfigurieren von Systemaktualisierungen](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* The list of Timesheet Profiles 
+### Neues Erscheinungsbild der Listen im Abschnitt Arbeitszeittabellen und Stunden im Bereich Setup
 
-* The list of Hour Types 
+**Vorschau: 26. Juni 2025; Produktion für alle: 10. Juli 2025**
 
-These lists now match other areas of Workfront.  
+Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und Stunden im Bereich Setup wurde aktualisiert:
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
+* Die Liste der Arbeitszeittabellen-Profile
 
+* Die Liste der Stundentypen
 
-<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-**Preview release: June 26, 2025; Production release: July 10, 2025** 
-
-We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
-
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
-
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
