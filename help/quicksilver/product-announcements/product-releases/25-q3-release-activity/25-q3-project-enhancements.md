@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 ve
 >
 > Vorschau und Produktion: 24. Juni 2025 
 
-Das vorhandene Feld „Tatsächliche Stunden“ wurde in „Frühere Tatsächliche Stunden“ umbenannt. In diesem Feld wird die für Projekte, Aufgaben und Probleme protokollierte Zeit in Minuten gespeichert. Das Feld wird in der Workfront-Datenbank als actualWorkRequired gespeichert.
+Wir haben ein neues Feld Tatsächliche Stunden hinzugefügt, das die für Projekte, Aufgaben und Probleme protokollierte Zeit dezimal in Stunden speichert. Das Feld wird wie `actualWorkRequiredDouble` in der Workfront-Datenbank gespeichert.
 
-Wir haben ein neues Feld Tatsächliche Stunden hinzugefügt, das die für Projekte, Aufgaben und Probleme protokollierte Zeit dezimal in Stunden speichert. Das Feld wird in der Workfront-Datenbank als actualWorkRequiredDouble gespeichert.
+Das vorhandene Feld „Tatsächliche Stunden“ wurde in „Frühere Tatsächliche Stunden“ umbenannt. Das Feld speichert die für Projekte, Aufgaben und Probleme protokollierte Zeit in Minuten und wird `actualWorkRequired` in der Workfront-Datenbank gespeichert.
 
 Sowohl die Felder Tatsächliche Stunden als auch Legacy Tatsächliche Stunden sind in Projekt-, Aufgaben- und Problemansichten und Berichten sichtbar.
 
 Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- und Problemdetails sichtbar ist, stellt die neuen tatsächlichen Stunden dar.
 
-
-
 >[!IMPORTANT]
 >
 >Je nachdem, wann die Stunden protokolliert wurden, kann es eine Diskrepanz zwischen den tatsächlichen Stunden und den veralteten tatsächlichen Stunden für ein Projekt, eine Aufgabe oder ein Problem geben.<br>
->&#x200B;>Die folgenden Szenarien sind vorhanden:
+>>Die folgenden Szenarien sind vorhanden:
 >
->* Die tatsächlichen Stunden, die für Projekte, Aufgaben und Probleme seit Mai 2021 protokollierte Stunden darstellen, wurden aus dem Feld Alte tatsächliche Stunden in das neue Feld Tatsächliche Stunden verschoben.
->* Die tatsächlichen Stunden, die für Projekte, Aufgaben und Probleme vor Mai 2021 protokolliert werden, werden nur im Feld „Tatsächliche Legacy-Stunden“ berücksichtigt.
->  &#x200B;><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
-
+>* Tatsächliche Stunden stellen die Stunden dar, die seit Mai 2021 für Projekte, Aufgaben und Probleme protokolliert wurden.
+>* Ältere Ist-Stunden stellen Stunden dar, die für Projekte, Aufgaben und Probleme während der Laufzeit des Projekts, der Aufgabe oder des Problems protokolliert werden. Dies umfasst Stunden, die vor Mai 2021 bis zur aktuellen Zeit protokolliert wurden.
+>  ><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
+>  ><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
