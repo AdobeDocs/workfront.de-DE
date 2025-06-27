@@ -107,6 +107,7 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als Workfront-Admins 
    1. Erweitern Sie **System** und klicken Sie dann auf **Single Sign-on (SSO)**.
    1. Wählen Sie im Feld **Typ** den SSO-Typ aus, den Ihr Unternehmen verwendet.
    1. Scrollen Sie bei ausgewähltem Typ nach unten und deaktivieren Sie das Kontrollkästchen **Aktivieren**.
+
       ![SSO aktivieren](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Klicken Sie auf **Speichern**.
 
