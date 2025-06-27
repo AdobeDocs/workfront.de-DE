@@ -57,8 +57,8 @@ Bevor Sie beginnen, müssen Sie in GenStudio Foundations Markenrichtlinien einri
 
 Weitere Informationen zu Markenrichtlinien finden Sie unter
 
-* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Richtlinien hinzufügen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Richtlinien hinzufügen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## Hinzufügen eines KI-Reviewers
 
