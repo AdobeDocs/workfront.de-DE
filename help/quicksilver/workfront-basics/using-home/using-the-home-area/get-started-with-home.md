@@ -6,9 +6,9 @@ description: Die Startseite hilft Ihnen bei der Verwaltung Ihrer Arbeit. Sie kö
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -61,8 +61,8 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, s
 * **Meine Genehmigung**\
     Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und Schaltflächen zum direkten Treffen von Genehmigungsentscheidungen innerhalb des Widgets.
 
-* **Alle Genehmigungen**\
-        Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Genehmigungszeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und derzeit nur für bestimmte Kunden verfügbar.</span>
+* **Metriken für Dokumentengenehmigung**\
+        Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Dokumentzeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. Für dieses Widget müssen einheitliche Genehmigungen aktiviert sein.
 
 * **Erwähnungen**\
     Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite Meine Aktualisierungen . Sie können die Schaltfläche Antworten verwenden, um eine Antwort innerhalb des Widgets zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen an, denen Sie zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, deren Inhaber Sie sind, für die Sie der primäre Kontakt sind oder die Sie erstellt haben - solange die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
