@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c747d3697fd2a4e74dd4af5a8a418d0f52cf71ed
+source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '305'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,11 @@ Sandbox 2
 -->
 
 Mit Client-TLS können Sie überprüfen, ob die Ereignisabonnementnachricht, die Sie erhalten, tatsächlich von Adobe Workfront stammt. Um diese Funktion zu aktivieren, muss Ihr Server so konfiguriert sein, dass er das x509-Zertifikat von Workfront anfordert und validiert.
+
+>[!NOTE]
+>
+>* Workfront unterstützt derzeit standardmäßig TLS Version 1.2.
+>* Unternehmen können anfordern, dass TLS Version 1.3 für ihre Workfront-Instanz aktiviert wird.
 
 
 ## Überprüfen des Client-Zertifikats von Workfront
