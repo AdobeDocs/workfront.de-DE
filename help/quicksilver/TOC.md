@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 2%
 
 ---
@@ -2457,7 +2457,7 @@ ht-degree: 2%
       * [Integrationen aktualisieren, die die Standard-API-Versionierung verwenden](wf-api/api/update-default-api-versioning.md)
       * [Nachrichten zu Ereignisabonnements filtern](wf-api/api/filter-event-sub-messages.md)
       * [Ressourcenfelder für Ereignisabonnements](wf-api/api/event-sub-resource-fields.md)
-      * [Ereignisabonnement-Zertifikate](wf-api/api/event-sub-certs.md)
+      * [Client-TLS für Ereignisabonnement konfigurieren](wf-api/api/event-sub-certs.md)
       * [Angeben einer API-Version in Integrationen](wf-api/api/specify-api-version-integrations.md)
       * [Änderungen an der Kern-API: Antworten auf die Statussuche](wf-api/api/api-changes-search.md)
       * [API-Versionierung und Support-Zeitplan](wf-api/api/api-version-support-schedule.md)
