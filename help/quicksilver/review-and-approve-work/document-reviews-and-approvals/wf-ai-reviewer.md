@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Nicht unterstützter Dateityp"
->abstract="Dieser KI-Reviewer unterstützt den ausgewählten Dateityp nicht. Laden Sie einen unterstützten Dateityp hoch oder entfernen Sie den KI-Prüfer, um die Anfrage zu senden."
+>abstract="Dieser KI-Prüfer unterstützt den ausgewählten Dateityp nicht. Laden Sie einen unterstützten Dateityp hoch oder entfernen Sie den KI-Prüfer, um die Anfrage zu senden."
 
 Der KI-Reviewer kann die folgenden Dateitypen überprüfen:
 
@@ -55,8 +55,8 @@ Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Mark
 
 Weitere Informationen zu Markenrichtlinien finden Sie unter
 
-* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Richtlinien hinzufügen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Richtlinien hinzufügen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## KI-Reviewer erstellen
