@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Versio
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Das Widget „Alle Genehmigungen“ wurde in Dokumentgenehmigungsmetriken umbenannt
+
+>[!NOTE]
+>
+>* Vorschau: 30. Juni 2025
+>* Produktions-Schnellveröffentlichung: 30. Juni 2025
+>* Produktion für alle Kunden: 30. Juni 2025
 
 Das Widget Alle Genehmigungen wurde in Dokumentgenehmigungsmetriken umbenannt, damit die angezeigten Informationen genauer widergespiegelt werden. Das Widget Metriken zur Dokumentvalidierung bietet allgemeine Einblicke in Dokumentgenehmigungen für die Projekte, deren Inhaber Sie sind.
 
