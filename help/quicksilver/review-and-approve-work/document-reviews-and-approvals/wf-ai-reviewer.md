@@ -55,8 +55,8 @@ Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Mark
 
 Weitere Informationen zu Markenrichtlinien finden Sie unter
 
-* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Richtlinien hinzufügen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Richtlinien hinzufügen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## KI-Reviewer erstellen
