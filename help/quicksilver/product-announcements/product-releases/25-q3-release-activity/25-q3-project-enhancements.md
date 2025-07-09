@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 Auf dieser Seite werden die mit der Version vom dritten Quartal 2025 vorgenommenen Projektverbesserungen für die Vorschau-Umgebung beschrieben. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Aktualisierungen des Erlebnisses bei einer Anfrage
+
+>[!NOTE]
+>
+>* Vorschau: 9. Juli 2025
+>* Produktions-Schnellveröffentlichung: 17. Juli 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Wir haben das Erlebnis bei einer Anfrage in der neuen anfragenden -Version aktualisiert.
+
+* Die verfügbaren Anfrageformulare und -pfade werden in einer Liste anstatt auf Karten angezeigt. Die neuesten werden in einem Bereich oben angezeigt.
+* Alle Anfrageformulare, einschließlich Workfront- und Workfront Planning-Anfrageformularen, werden in der Liste angezeigt. Zuvor waren nur die ersten 50 erschienen.
+* Anfragepfade und Anfrageformulare werden in separaten Abschnitten aufgelistet, sowohl im Bereich Zuletzt verwendet als auch in der umfangreicheren Liste unten.
+* Wenn Sie nach einer Anfrage-Warteschlange suchen, filtert die Liste so, dass nur Formulare und Pfade angezeigt werden, die den Suchbegriff enthalten. Der Suchbegriff wird in jedem angezeigten Anfrageformular oder Pfad hervorgehoben.
+
+Informationen zum Erstellen einer Anfrage finden Sie unter [Erstellen und Senden von Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Vorhandenes Feld „Tatsächliche Stunden“ wurde durch das Feld „Alte tatsächliche Stunden“ ersetzt und neues Feld „Tatsächliche Stunden“ erstellt
 
@@ -37,12 +54,12 @@ Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- un
 >[!IMPORTANT]
 >
 >Je nachdem, wann die Stunden protokolliert wurden, kann es eine Diskrepanz zwischen den tatsächlichen Stunden und den veralteten tatsächlichen Stunden für ein Projekt, eine Aufgabe oder ein Problem geben.<br>
->&#x200B;>Die folgenden Szenarien sind vorhanden:
+>>Die folgenden Szenarien sind vorhanden:
 >
 >* Tatsächliche Stunden stellen die Stunden dar, die seit Mai 2021 für Projekte, Aufgaben und Probleme protokolliert wurden.
 >* Ältere Ist-Stunden stellen Stunden dar, die für Projekte, Aufgaben und Probleme während der Laufzeit des Projekts, der Aufgabe oder des Problems protokolliert werden. Dies umfasst Stunden, die vor Mai 2021 bis zur aktuellen Zeit protokolliert wurden.
->  &#x200B;><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
->  &#x200B;><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
+>  ><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
+>  ><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -96,3 +113,5 @@ Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Proj
 Zuvor waren diese Informationen in der Antwort des KI-Assistenten nicht verfügbar.
 
 Informationen zur Verwendung des KI-Assistenten, um Informationen zu Workfront-Elementen zu erhalten, finden [ unter „Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+
