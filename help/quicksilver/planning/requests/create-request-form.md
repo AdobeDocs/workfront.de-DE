@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2166'
 ht-degree: 1%
 
 ---
@@ -241,7 +241,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    ![Feld „Freigeben“ für das Anfrageformular](assets/share-box-for-request-form.png)
 
-1. Wählen Sie aus den folgenden Optionen aus, um anzugeben, welche Benutzertypen auf dieses Formular zugreifen können:
+1. (Bedingt) Wählen Sie in der Produktionsumgebung eine der folgenden Optionen aus, um anzugeben, welche Benutzertypen auf dieses Formular zugreifen können:
 
    * Jede Person mit Zugriff auf den Arbeitsbereich (Ansicht oder höher)
    * Jede Person mit Zugriff auf den Arbeitsbereich (Beitrag oder höher)
@@ -257,7 +257,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    >     * Personen
    >
 
-1. (Bedingt) Wenn Sie im vorherigen Schritt **Alle mit dem Link** ausgewählt haben, wählen Sie das **Link-Ablaufdatum** aus dem verfügbaren Kalender aus.
+1. (Bedingt) Wenn Sie in der Produktionsumgebung im vorherigen Schritt **Alle mit dem Link** ausgewählt haben, wählen Sie das **Link-Ablaufdatum** aus dem verfügbaren Kalender aus.
 
    Personen erhalten nach Ablauf des Links einen Fehler, und Sie müssen das Link-Datum aktualisieren und einen neuen Link zur Freigabe generieren, bevor Personen erneut auf das Formular zugreifen können.
 
@@ -267,13 +267,14 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    >
    >Nach Ablauf des Freigabedatums ist das Anfrageformular nicht mehr im Bereich Anfragen von Workfront verfügbar und die Links, die für andere Benutzende freigegeben sind, sind nicht mehr zugänglich.
 
-
-1. (Optional) Klicken Sie auf **Link speichern und kopieren** um die Freigabedetails für das Formular zu speichern. Wenn das Formular zuvor gespeichert wurde, klicken Sie auf **Link kopieren**.
+1. (Optional und bedingt) Klicken Sie in der Produktionsumgebung auf **Link speichern und kopieren** um die Freigabedetails für das Formular zu speichern. Wenn das Formular zuvor gespeichert wurde, klicken Sie auf **Link kopieren**.
 
    Die Formularfreigabeoptionen werden gespeichert und der Link wird in die Zwischenablage kopiert. Sie können sie jetzt für andere freigeben.
 
    Weitere Informationen zum Erstellen von Datensätzen über einen Link zu einem Anfrageformular finden Sie unter [Senden von Adobe Workfront Planning-Anfragen](/help/quicksilver/planning/requests/submit-requests.md).
 
+1. <span class="preview">(Bedingt) Um eine Vorschau in der Vorschau-Umgebung für Benutzer freizugeben, wählen Sie die Registerkarte Interne Freigabe aus, suchen Sie nach dem Namen des Benutzers und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.</span>
+1. <span class="preview">(Bedingt) Um einen öffentlichen Link in der Vorschauumgebung zu erstellen, wählen Sie die Registerkarte Öffentliche Freigabe aus und aktivieren Sie dann die Option Öffentlichen Link erstellen . Sie können dann den Link hier kopieren oder ein Ablaufdatum für den Link festlegen.</span>
 1. Klicken Sie **Speichern** in der rechten unteren Ecke der Registerkarte **Formular**, um das Formular zu speichern.
 
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
