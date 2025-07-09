@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
+source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1908'
 ht-degree: 0%
 
 ---
@@ -36,21 +36,21 @@ Prior to this enhancement, you had to manually update the fields associated with
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
 
-## Allgemeine Freigabeschaltfläche für Ansichten und Datensatztypen
+<!--## Common sharing button for views and record types
 
 >[!NOTE]
 >
->* Vorschau: 9. Juli 2025
->* Produktion für alle: 17. Juli 2025
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
 
-Über dieselbe Schaltfläche auf der Seite des Datensatztyps können Sie jetzt sowohl eine Ansicht als auch einen Datensatztyp freigeben. Vor dieser Verbesserung konnten Sie den Datensatztyp nur über die Schaltfläche Freigeben auf der Seite Datensatztyp und eine Ansicht über die Registerkarte Ansicht freigeben.
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 
-Weitere Informationen finden Sie in den folgenden Artikeln:
+For more information, see the following articles: 
 
-* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
 
-* [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md)
-
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+-->
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +78,7 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben Optionen zum Verwalten und Beitragen für Benutzer entfernt, für die Sie das Anfrageformular freigeben. Jetzt können hinzugefügte Benutzer nur noch das Formular senden.
 * Auf der Registerkarte Öffentliche Freigabe werden der Link und das Feld Ablaufdatum jetzt erst angezeigt, nachdem die Option Öffentlichen Link erstellen aktiviert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
 
@@ -296,7 +296,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
