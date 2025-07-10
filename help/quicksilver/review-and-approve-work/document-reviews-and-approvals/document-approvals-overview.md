@@ -6,9 +6,9 @@ description: Sie können einem Dokument, das bereits ausstehende Genehmigungen e
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Unified Approvals ist eine ganzheitliche Umgestaltung des bestehenden Genehmigungsprozesses, der derzeit für Adobe Workfront entwickelt wird. Diese Lösung ist derzeit nur in begrenztem Umfang verfügbar und wurde als praktische und effektive Lösung für Unternehmen konzipiert, die eine umfassende Interaktion mit Stakeholdern und versionsspezifische Dokumentengenehmigungen benötigen. Das durchdachte Design und die zielgerichteten neuen Funktionen erleichtern die Zusammenarbeit, Rollenklarheit und Versionskontrolle im Genehmigungsprozess und verbessern die Effizienz und Verantwortlichkeit.
+Einheitliche Genehmigungen, früher als „Neue Dokumentgenehmigungen“ bezeichnet, sind eine ganzheitliche Neugestaltung des bestehenden Genehmigungsprozesses, der derzeit für Adobe Workfront entwickelt wird. Diese Lösung ist derzeit nur in begrenztem Umfang verfügbar und wurde als praktische und effektive Lösung für Unternehmen konzipiert, die eine umfassende Interaktion mit Stakeholdern und versionsspezifische Dokumentengenehmigungen benötigen. Das durchdachte Design und die zielgerichteten neuen Funktionen erleichtern die Zusammenarbeit, Rollenklarheit und Versionskontrolle im Genehmigungsprozess und verbessern die Effizienz und Verantwortlichkeit.
 
 ## Hauptunterschiede von Proofing- und Legacy-Dokumentgenehmigungen
 

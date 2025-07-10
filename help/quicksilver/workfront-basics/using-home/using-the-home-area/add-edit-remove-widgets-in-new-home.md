@@ -6,9 +6,9 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1098'
 ht-degree: 6%
 
 ---
@@ -121,8 +121,8 @@ Hinzufügen eines Widgets:
    * **Meine Genehmigungen**\
        Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
-   * **Alle Genehmigungen**\
-           Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Genehmigungszeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und derzeit nur für bestimmte Kunden verfügbar.</span>
+   * **Metriken für Dokumentengenehmigung**\
+           Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Genehmigungszeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. Dieses Widget kann nur verwendet werden, wenn [Einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiviert ist.
 
    * **Erwähnungen**\
        Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite Meine Aktualisierungen . Sie können die Schaltfläche Antworten verwenden, um eine Antwort innerhalb des Widgets zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen an, denen Sie zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, deren Inhaber Sie sind, für die Sie der primäre Kontakt sind oder die Sie erstellt haben - solange die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
