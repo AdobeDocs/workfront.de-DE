@@ -185,7 +185,7 @@ Sie können eine Untergruppe zu einer Gruppe der obersten Ebene machen, indem Si
 >[!TIP]
 >
 >Wenn Sie eine Gruppe deaktivieren, die Untergruppen enthält, werden diese Untergruppen ebenfalls inaktiv. Wenn Sie möchten, dass eine der Gruppen aktiv ist, können Sie sie mithilfe dieser Anweisungen aus der übergeordneten Gruppe entfernen und dann reaktivieren.
->>Anweisungen zum Deaktivieren und Reaktivieren von Gruppen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>&#x200B;>Anweisungen zum Deaktivieren und Reaktivieren von Gruppen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 
