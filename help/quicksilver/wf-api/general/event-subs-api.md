@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 -->
 
 Wenn eine Aktion auf einem Adobe Workfront-Objekt stattfindet, das von Ereignisabonnements unterstützt wird, können Sie Workfront so konfigurieren, dass eine Antwort an Ihren gewünschten Endpunkt gesendet wird. Dies bedeutet, dass Drittanbieteranwendungen Aktualisierungen von Workfront-Interaktionen bald nach ihrem Auftreten über die Workfront-API erhalten können. Im Allgemeinen kann davon ausgegangen werden, dass Sie Webhook-Benachrichtigungen in weniger als 5 Sekunden nach der protokollierten Datenänderung erhalten. Im Durchschnitt erhalten Kundinnen und Kunden Webhook-Benachrichtigungen in weniger als 1 Sekunde, nachdem die Datenänderung protokolliert wurde.
+
+Da Ereignisabonnements Daten an einen anderen Service senden, werden sie über Befehle und nicht über die Workfront-Anwendung verwaltet.
 
 Um Payloads für Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen:
 
@@ -808,7 +810,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
