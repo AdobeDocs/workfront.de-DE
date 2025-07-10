@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
+source-git-commit: 2eb858876a79acd9d6028f051fa8c8bc9bc5a34a
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1801'
 ht-degree: 3%
 
 ---
@@ -131,7 +131,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Das Widget „Alle Genehmigungen“ wurde in Dokumentgenehmigungsmetriken umbenannt</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
-            <p>Das Widget Alle Genehmigungen wurde in Dokumentgenehmigungsmetriken umbenannt, damit die angezeigten Informationen genauer widergespiegelt werden. Das Widget Metriken zur Dokumentvalidierung bietet allgemeine Einblicke in Dokumentgenehmigungen für die Projekte, deren Inhaber Sie sind.</p>
+            <p>Das Widget Alle Genehmigungen wurde in Dokumentgenehmigungsmetriken umbenannt, damit die angezeigten Informationen genauer widergespiegelt werden. Das Widget Metriken zur Dokumentvalidierung bietet allgemeine Einblicke in Dokumentgenehmigungen für die Projekte, deren Inhaber Sie sind. Dieses Widget kann nur verwendet werden, wenn <a href="/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md"class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen</a> aktiviert ist.</p>
         </td>
         <td>Dienstag, 30. Juni 2025</td>
         <td>Dienstag, 30. Juni 2025</td>
@@ -332,7 +332,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -370,7 +370,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
