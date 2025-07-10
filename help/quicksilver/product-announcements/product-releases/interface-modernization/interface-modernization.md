@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierungen der Benutzeroberfläche in Untergruppen-Dialogfeldern
+
+**Vorschau-Version: 10. Juli 2025; Produktionsversion: 17. Juli 2025**
+
+Die Dialogfelder zum Hinzufügen einer Untergruppe, Bearbeiten einer Untergruppe und Kopieren einer Untergruppe wurden entsprechend anderen Bereichen der Anwendung aktualisiert.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Gruppe auswählen > Untergruppen. (Die Dialogfelder zum Hinzufügen, Bearbeiten und Kopieren einer Untergruppe aus der Hauptliste mit Gruppen wurden bereits aktualisiert.)
+
+Weitere Informationen finden Sie unter [Erstellen einer Untergruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) und [Verwalten einer Untergruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Look-and-Feel-Aktualisierungen für den Abschnitt „Aktualisierungs-Feeds“ von Setup
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
+source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,34 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--## Auto-populate fields based on applied groupings
+## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+Vorschau: 10. Juli 2025
+Produktions-Schnellveröffentlichung: 14. August 2025
+Produktion für alle: 16. Oktober 2025
 
-Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
 
-If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+Wenn mehrere Gruppierungen angewendet werden, füllt das System die mit allen Gruppierungen verknüpften Felder nur dann automatisch, wenn Sie den Datensatz am Ende der Liste innerhalb der letzten Gruppierungskriterien hinzufügen.
 
-Prior to this enhancement, you had to manually update the fields associated with groupings.  
+Vor dieser Verbesserung mussten Sie die mit Gruppierungen verknüpften Felder manuell aktualisieren.
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
-<!--## Common sharing button for views and record types
+## Allgemeine Freigabeschaltfläche für Ansichten und Datensatztypen
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>* Vorschau: 9. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
-You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+Über dieselbe Schaltfläche auf der Seite des Datensatztyps können Sie jetzt sowohl eine Ansicht als auch einen Datensatztyp freigeben. Vor dieser Verbesserung konnten Sie den Datensatztyp nur über die Schaltfläche Freigeben auf der Seite Datensatztyp und eine Ansicht über die Registerkarte Ansicht freigeben.
 
-For more information, see the following articles: 
+Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Share views](/help/quicksilver/planning/access/share-views.md)  
+* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
 
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
+* [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md)
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +77,7 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben Optionen zum Verwalten und Beitragen für Benutzer entfernt, für die Sie das Anfrageformular freigeben. Jetzt können hinzugefügte Benutzer nur noch das Formular senden.
 * Auf der Registerkarte Öffentliche Freigabe werden der Link und das Feld Ablaufdatum jetzt erst angezeigt, nachdem die Option Öffentlichen Link erstellen aktiviert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
 
@@ -296,7 +295,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 6d87be19693f8838458f6bbcf9edf681f19d677f
+source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschie
 
 Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-<!--## New look-and-feel for Announcement Center messages
+## Neues Erscheinungsbild für Nachrichten im Ankündigungscenter
 
 >[!NOTE]
 >
->* Preview: July 10, 2025
->* Production fast release: July 17, 2025
->* Production for all customers:  July 17, 2025
+>* Vorschau: 10. Juli 2025
+>* Produktions-Schnellveröffentlichung: 17. Juli 2025
+>* Produktion für alle Kunden: 17. Juli 2025
 
-Announcement Center messages now match the style of Workfront email notifications.-->
+Die Nachrichten im Ankündigungscenter entsprechen nun dem Stil der Workfront-E-Mail-Benachrichtigungen.
 
 ## Modernisierung der Benutzeroberfläche
 
