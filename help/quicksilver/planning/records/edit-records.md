@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 Wenn Sie Datensätze in der Tabellenansicht bearbeiten, gibt es einen Hinweis darauf, welches Feld von anderen Benutzern zum Zeitpunkt der Anzeige des Datensatzes bearbeitet wird.
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+
+<span class="preview">Wenn Sie in einer Gruppierung oder Untergruppierung nach dem letzten Datensatz einen neuen Datensatz hinzufügen, aktualisiert Workfront automatisch die in den Gruppierungen enthaltenen Felder für die neuen Datensätze. Sie können diese Felder bei Bedarf manuell bearbeiten, und die Datensätze können aus der Gruppierung entfernt werden. </span>
+
+Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
 {{step1-to-planning}}
 

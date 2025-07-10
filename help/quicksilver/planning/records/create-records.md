@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. (Bedingt) Führen Sie in der Tabellenansicht einen der folgenden Schritte aus:
 
-   * Klicken Sie **Neuer Datensatz** in der letzten Zeile der Tabelle
+   * Klicken Sie **Neuer Datensatz** in der letzten Zeile der Tabelle oder nach dem letzten Datensatz in einer Gruppierung
+
+     >[!TIP]
+     >
+     ><span class="preview">Wenn Sie in einer Gruppierung oder Untergruppierung nach dem letzten Datensatz einen neuen Datensatz hinzufügen, füllt Workfront automatisch die in den Gruppierungen enthaltenen Felder. Sie können diese Felder bei Bedarf manuell bearbeiten, und die Datensätze können aus der Gruppierung entfernt werden. </span>
 
    * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen.
    * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen**.

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 1%
+source-wordcount: '1950'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,6 @@ Sie können eine Ansicht für andere freigeben, um die Zusammenarbeit beim Arbei
 >
 >* Wenn Sie eine Ansicht freigeben, erteilen Sie anderen Berechtigungen für den Zugriff auf alle Elemente der Ansicht. Wenn Sie beispielsweise Berechtigungen zum Verwalten für eine Ansicht erteilen, können diese das Erscheinungsbild von Gruppierung, Filtern, Sortieren oder Balken ändern.
 
-
-Sie können eine Ansicht für die folgenden Entitäten freigeben:
-
-* Intern mit Workfront-Benutzern, -Gruppen, -Teams, -Unternehmen und -Aufgabengebieten
-* Öffentlich, mit Benutzern außerhalb von Workfront
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
@@ -118,6 +113,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zur Freigabe von Ansichten
 
+* Sie können eine Ansicht wie folgt freigeben:
+
+   * Intern mit Workfront-Benutzern, -Gruppen, -Teams, -Unternehmen und -Aufgabengebieten
+   * Öffentlich, mit Benutzern außerhalb von Workfront
+   * Durch Kopieren und anschließendes Freigeben eines Links zu einer Ansicht
+   * Durch Exportieren in eine Excel- oder CSV-Datei. Sie können nur die Tabellenansicht in eine Datei exportieren. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 * Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Sie können internen Workfront-Benutzern Berechtigungen zum Anzeigen oder Verwalten für eine Ansicht erteilen.
 
@@ -145,11 +147,17 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Ver
 
    Dadurch wird die Seite „Datensatztyp“ geöffnet.
 
-1. <span class="preview">Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen. Klicken Sie dann auf **Freigeben**. </span>
+1. Führen Sie auf der Registerkarte <span class="preview">Ansicht“ einen der folgenden Schritte aus:</span>
 
-   <span class="preview">![Mehr Menü für eine Ansicht](assets/more-menu-for-views-expanded-with-share-option.png) </span>
+   * Bewegen Sie den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Freigeben**.
 
-   Die **Interne Freigabe**-Registerkarte sollte standardmäßig ausgewählt sein.
+     ![Menü „Mehr“ für eine Ansicht](assets/more-menu-for-views-expanded-with-share-option.png)
+
+   * <span class="preview">Klicken Sie auf **Freigeben** > **Aktuelle Ansicht freigeben**</span>
+
+     <span class="preview">![Freigabeschaltfläche mit Datensatztyp- und Ansichtsfreigabeoptionen](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+
+   Das Feld **Ansicht freigeben** wird geöffnet und die Registerkarte **Interne Freigabe** sollte standardmäßig ausgewählt sein.
 
 1. (Optional) Wählen Sie im Bereich **Wer hat Zugriff** eine der folgenden Optionen aus:
 
@@ -174,7 +182,6 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Ver
 
      Systemadministratoren erhalten immer Verwaltungsberechtigungen für Ansichten, die für sie freigegeben wurden.
 
-1. Klicken Sie **Link kopieren**, um einen Link in die Ansicht in die Zwischenablage zu kopieren.
 1. Klicken Sie auf **Speichern**.
 
    Die Ansicht wird mit dem Symbol Personen ![Mit anderen Benutzern geteilt anzeigen](assets/view-shared-with-others-people-icon.png) aktualisiert, um anzugeben, dass die Ansicht jetzt für andere Benutzer freigegeben ist.
@@ -202,9 +209,14 @@ So geben Sie eine Ansicht in Workfront Planning öffentlich frei:
 
    Dadurch wird die Seite „Datensatztyp“ geöffnet.
 
-1. <span class="preview">Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen. Klicken Sie dann auf **Freigeben**. </span>
+1. Führen Sie auf der Registerkarte Ansicht eine der folgenden Aktionen aus:
 
-   <span class="preview">![Mehr Menü für Ansichten mit Freigabeoption erweitert](assets/more-menu-for-views-expanded-with-share-option.png)</span>
+   * Bewegen Sie den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Freigeben**.
+
+   ![Mehr Menü für Ansichten mit Freigabeoption erweitert](assets/more-menu-for-views-expanded-with-share-option.png)
+   * <span class="preview">Klicken Sie auf **Freigeben** > **Aktuelle Ansicht freigeben**</span>
+
+   Das **Ansicht freigeben** wird geöffnet.
 
 1. Klicken Sie auf **Öffentliche Freigabe**.
 
@@ -229,6 +241,34 @@ So geben Sie eine Ansicht in Workfront Planning öffentlich frei:
 
 1. (Optional) Fügen Sie den Link ein, den Sie in eine E-Mail, eine Chat-Nachricht, ein Dokument oder einen Workfront-Kommentar kopiert haben, um ihn für andere freizugeben.
 
+## Kopieren eines Links in eine Ansicht
+
+Sie können einen Link zu einer Ansicht in die Zwischenablage kopieren und in andere Anwendungen einfügen oder für andere freigeben.
+
+Informationen zum Kopieren eines Links in eine öffentlich freigegebene Ansicht finden Sie im Abschnitt [Freigeben von Berechtigungen für eine öffentliche Ansicht](#share-permissions-to-a-view-publicly) in diesem Artikel.
+
+In diesem Abschnitt wird beschrieben, wie Sie eine Ansicht intern freigeben.
+
+>[!IMPORTANT]
+>
+>Zunächst müssen Sie die Ansicht für Benutzer freigeben, bevor Sie den Link zur Ansicht freigeben, damit sie sie anzeigen können.
+
+
+{{step1-to-planning}}
+
+1. Öffnen Sie den Arbeitsbereich, in dessen Ansicht Sie den Link kopieren und freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz .
+
+   Dadurch wird die Seite „Datensatztyp“ geöffnet.
+
+1. Führen Sie auf der Registerkarte einer Ansicht einen der folgenden Schritte aus:
+
+   * Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen. Klicken Sie dann **Freigeben** > **Link kopieren** im **** Ansicht freigeben.
+   * <span class="preview">Klicken Sie **Freigeben** > **Ansichtslink kopieren**</span> > **Link kopieren** im **Ansicht freigeben** Feld.
+
+   Ein Link zur Ansicht wird in die Zwischenablage kopiert und Sie erhalten eine Bestätigung am unteren Bildschirmrand.
+
+   Sie können den Link jetzt in ein anderes Programm einfügen oder an andere senden.
+
 ## Erteilen von Berechtigungen für eine Ansicht über eine Berechtigungsanfrage
 
 Benutzende, die auf einen Link zu einer Ansicht zugreifen, für die sie keine Berechtigungen haben, können Berechtigungen für die Ansicht anfordern. Alle Benutzenden mit der Berechtigung Verwalten für die Ansicht erhalten die Berechtigungsanfrage und können die Berechtigungen erteilen oder verweigern.
@@ -236,10 +276,8 @@ Benutzende, die auf einen Link zu einer Ansicht zugreifen, für die sie keine Be
 1. (Bedingt) Wenn Sie der Manager einer Ansicht sind, erhalten Sie möglicherweise eine Anfrage eines anderen Benutzers, in den folgenden Bereichen auf die Ansicht zuzugreifen:
 
    * In-App-Benachrichtigung
-
      ![In-App-Benachrichtigung über Zugriffsanfrage für Ansicht](assets/in-app-notification-for-access-request-for-view.png)
    * Eine E-Mail-Benachrichtigung
-
      ![In-App-Benachrichtigung über Zugriffsanfrage für Ansicht](assets/in-app-notification-for-access-request-for-view.png)
 1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
 oder
@@ -261,7 +299,13 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 {{step1-to-planning}}
 
 1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz . Dadurch wird die Seite „Datensatztyp“ geöffnet.
-1. Bewegen Sie den Mauszeiger über den Namen der Registerkarte der Ansicht, deren Freigabe Sie entfernen möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) und dann auf **Freigeben**.
+1. Führen <span class="preview"> auf der Registerkarte Ansicht eine der folgenden Aktionen aus:</span>
+
+   * Bewegen Sie den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Freigeben**.
+
+   * <span class="preview">Klicken Sie auf **Freigeben** > **Aktuelle Ansicht freigeben**</span>
+
+   Das **Ansicht freigeben** wird geöffnet.
 1. Gehen Sie wie folgt vor, um die interne Freigabe einer Ansicht zu entfernen:
 
    1. Stellen Sie sicher **dass die Registerkarte** Interne Freigabe“ ausgewählt ist.

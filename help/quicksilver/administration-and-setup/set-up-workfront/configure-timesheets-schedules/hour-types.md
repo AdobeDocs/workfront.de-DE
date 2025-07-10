@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -23,13 +23,14 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Stundentypen sind Beschriftungen, mit denen Sie Ihre Stundeneinträge definieren. Stundentypen können mit Stundeneinträgen verknüpft werden.
 
@@ -127,7 +128,7 @@ Stundentypen erstellen:
       <td>Fügen Sie eine Beschreibung für Ihren Stundentyp hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Umfang]</td> 
+      <td role="rowheader">[!UICONTROL-Umfang]</td> 
       <td> <p>Wählen Sie im Dropdown-Menü <strong>Umfang“ aus, ob es sich bei dem Stundentyp um einen allgemeinen oder </strong> projektspezifischen Stundentyp handelt.</p> <p>Allgemeine Stundentypen sind nur in Arbeitszeittabellen sichtbar und können nicht mit Projekten, Aufgaben oder Problemen verknüpft werden.</p> <p><b>WICHTIG</b>: Wenn Sie einen benutzerdefinierten Stundentyp haben, der [!UICONTROL Project Specific] ist, und Sie ihn in [!UICONTROL General] ändern, werden alle vorhandenen Aufgaben, Probleme und Projektstunden auf ihre Systemstandardtypen gesetzt.</p> </td> 
      </tr> 
      <tr> 
@@ -165,11 +166,11 @@ So deaktivieren Sie einen Stundentyp:
 1. Wählen Sie den Stundentyp aus, den Sie deaktivieren möchten.
 
 
-1. <span class="preview">Klicken Sie auf **Mehr** und dann auf **Deaktivieren**.</span>
+1. Klicken Sie **Mehr** und dann **Deaktivieren**.
 
-   <span class="preview">![Aktivieren und Deaktivieren von Links zum Stundentyp](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![Aktivieren und Deaktivieren von Links zum Stundentyp](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">Der Stundentyp ist deaktiviert und kann von Benutzenden beim Protokollieren von Stunden nicht mehr gefunden werden.</span>
+   Der Stundentyp ist deaktiviert und kann von Benutzern beim Protokollieren von Stunden nicht mehr gefunden werden.
 
-1. <span class="preview">(Optional) Um einen Stundentyp erneut zu aktivieren, wählen Sie ihn in der Liste **Stundentypen** aus und klicken Sie dann auf **Mehr** > **Aktivieren**. </span>
+1. (Optional) Um einen Stundentyp erneut zu aktivieren, wählen Sie ihn in der Liste **Stundentypen** aus und klicken Sie dann auf **Mehr** > **Aktivieren**.
 

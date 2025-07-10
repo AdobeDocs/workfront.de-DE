@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 2%
 
 ---
@@ -573,13 +573,20 @@ Beachten Sie beim Exportieren der Tabellenansicht Folgendes:
 So exportieren Sie Informationen aus der Tabellenansicht oder einem Datensatztyp:
 
 1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf die Registerkarte Tabellenansicht .
-1. Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Tabellenansicht“ und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-menu.png).
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Tabellenansicht“ und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und dann auf **Exportieren**.
 
    ![Menü „Mehr“ in einer Ansicht](assets/view-more-menu-with-duplicate-option.png)
-1. Klicken Sie **Exportieren** und wählen Sie dann eines der folgenden Formate aus:
 
-   * Excel
-   * CSV
+   * Klicken Sie **Freigeben** > **Aktuelle Ansicht exportieren**. Diese Option ist nur verfügbar, wenn die Tabellenansicht angezeigt wird.
+
+   ![Freigabeschaltfläche mit Datensatztyp- und Ansichtsfreigabeoptionen](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Wählen Sie eines der folgenden Formate aus:
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >
