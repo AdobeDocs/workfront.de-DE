@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 0%
 
 ---
 
@@ -67,53 +67,34 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wählen Sie die bestehende Gruppe oder Untergruppe aus, der/der Sie eine neue Untergruppe hinzufügen möchten.
 1. Klicken Sie **Neue Untergruppe**.
 1. Geben Sie in das **Neue Untergruppe** angezeigte Feld einen **Gruppennamen** für die Untergruppe ein.
-1. (Optional) Geben Sie eine der folgenden Informationen an:
+1. (Optional) Geben Sie eine der folgenden Informationen ein:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Gruppenname</td> 
-      <td>Ändern Sie den Namen der Gruppe.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung für die Untergruppe ein. Sie können bis zu 512 Zeichen eingeben.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ist aktiv</td> 
-      <td> <p>(Standardmäßig aktiviert) Aktiviert die Gruppe in Ihrer Workfront-Instanz.</p> <p>Wenn in Feldern mit automatischer Textvervollständigung wie dem unten gezeigten reguläre Benutzer nach einer Gruppe suchen, um sie an ein Objekt anzuhängen oder ein Objekt für sie freizugeben, werden in der Liste nur aktive Gruppen angezeigt.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Um dies für Ihre Benutzerinnen und Benutzer zu optimieren, können Sie die Option Ist aktiv für Gruppen deaktivieren, die derzeit nicht verwendet werden.</p> <p>In diesem Feld können Sie die Gruppenliste einfach nach dem Status Aktiv oder Inaktiv anzeigen, filtern und gruppieren. Informationen zur Verwendung von Ansichten, Filtern und Gruppierungen in Listen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Berichterstellungselemente: Filter, Ansichten und Gruppierungen</a>.</p>  </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Diese Gruppe und ihre Untergruppen öffentlich machen</td> 
-      <td> <p>(Nur verfügbar, wenn Details für eine Gruppe der obersten Ebene und nicht für eine Untergruppe angezeigt werden.) Aktivieren Sie diese Option, damit Benutzende in der Untergruppe mit edit-user-access (die keine Administratoren der Gruppe sind) diese Gruppe und ihre Untergruppen zum Benutzerprofil anderer Benutzender hinzufügen können.</p> <p>Für eine öffentliche Gruppe kann jeder Benutzer (innerhalb oder außerhalb der Gruppe), der über Bearbeitungsbenutzerzugriff verfügt, die Gruppe zum Profil anderer Benutzer hinzufügen. Sie können das nicht für eine private Gruppe tun.</p> <p>Sie können diese Option nur für die oberste übergeordnete Gruppe in einer Gruppenhierarchie bearbeiten, die mehr als eine Ebene hat. Alle Untergruppen der übergeordneten Gruppe übernehmen diese Einstellung.</p> <p><b>HINWEIS</b>:  
-        <ul> 
-         <li>Sie können eine Untergruppe nicht selbst öffentlich machen, aber Sie können sie zu einer übergeordneten Gruppe auf oberster Ebene machen, wodurch auch alle Untergruppen der übergeordneten Gruppe öffentlich werden.</li> 
-         <li>Eine Untergruppe, die zu einer öffentlichen Gruppe gehört, ist standardmäßig öffentlich, sodass jeder Benutzer mit Bearbeitungsbenutzerzugriff die Untergruppe auch anderen Benutzern hinzufügen kann.</li> 
-        </ul> </p> <p>Informationen zum Zugriff, der zum Bearbeiten von Benutzern benötigt wird, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Gewähren des Zugriffs für Benutzer</a>. Informationen zum Bearbeiten von Benutzern finden Sie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Bearbeiten des Benutzerprofils</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Business Leader </td> 
-      <td> <p>Sie können einen Benutzer als Business Leader für eine von Ihnen verwaltete Untergruppe zuweisen. Ein Business Leader ist jemand, der geschäftliche Entscheidungen für die Untergruppe trifft. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Business Leader - Übersicht</a><span>.</span></p> <p>Wenn die Person nicht bereits Mitglied der Untergruppe ist, werden sie durch Hinzufügen ihres Namens zu diesem Feld auch zur Gruppe hinzugefügt.</p> <p><b>HINWEIS</b>:  
-        <ul> 
-         <li>Bevor Sie einen Business Leader aus einer Untergruppe entfernen können, müssen Sie dessen Namen aus dem Feld Business Leader entfernen.</li> 
-         <li>Wenn Sie den Namen aus dem Feld „Business Leader“ entfernen, bleibt dieser Benutzer Mitglied der Untergruppe, es sei denn, Sie entfernen ihn daraus. Anweisungen zum Entfernen einer Person aus einer Gruppe finden Sie im Abschnitt <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Verwalten der Gruppenmitgliedschaften</a> im Artikel <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Verwalten einer Gruppe</a>.</li> 
-        </ul> </p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Business Leader - Übersicht</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Gruppenmitglieder und Gruppenadministratoren</td> 
-      <td> 
-       <ul> 
-        <li> <p>Gruppenmitglieder: Um Benutzer und Gruppen zur Untergruppe hinzuzufügen, fangen Sie an, den Namen eines vorhandenen Benutzers oder einer vorhandenen Gruppe, den/die Sie hinzufügen möchten, einzugeben, und wählen Sie dann den Namen aus, wenn er angezeigt wird.</p> <p>Die Benutzer und Gruppen, die Sie hinzufügen, haben Zugriff auf alle Objekte, die für die Gruppe freigegeben sind.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.subgroups">Gruppenadministratoren: Eine Untergruppe übernimmt die Gruppenadministratoren der Gruppe, die sich darüber befindet. Die Angabe eines Benutzers als Gruppenadministrator für eine Untergruppe ist daher optional. Über das Dropdown-Menü rechts neben dem Benutzernamen können Sie ein Gruppenmitglied als Administrator für die Gruppe zuweisen.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Personen und Gruppen in der Liste durchsuchen</td> 
-      <td> Wenn Sie einen Benutzer oder eine Gruppe suchen müssen, der bzw. die dieser Untergruppe bereits zugewiesen ist, können Sie den Namen hier eingeben und ihn bzw. sie auswählen, wenn er/sie angezeigt wird.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Beschreibung**: Geben Sie eine Beschreibung für die Untergruppe ein. Sie können bis zu 512 Zeichen eingeben.
+   * **Ist Aktiv**: Diese Option ist standardmäßig aktiviert und macht die Gruppe in Ihrer Workfront-Instanz aktiv.
+
+     Wenn in Feldern mit automatischer Textvervollständigung wie dem unten gezeigten reguläre Benutzer nach einer Gruppe suchen, um sie an ein Objekt anzuhängen oder ein Objekt für sie freizugeben, werden in der Liste nur aktive Gruppen angezeigt.
+
+     ![Typeahead-Feld für eine Gruppe](assets/typeahead-for-group.png)
+
+     Um dies für Ihre Benutzer zu optimieren, können Sie die Option **Ist aktiv** für Gruppen deaktivieren, die derzeit nicht verwendet werden.
+
+     In diesem Feld können Sie die Gruppenliste einfach nach dem Status Aktiv oder Inaktiv anzeigen, filtern und gruppieren. Informationen zur Verwendung von Ansichten, Filtern und Gruppierungen in Listen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+
+   * **Business Leader**: Sie können einen Benutzer als Business Leader für eine von Ihnen verwaltete Untergruppe zuweisen. Ein Business Leader ist jemand, der geschäftliche Entscheidungen für die Untergruppe trifft. Weitere Informationen finden Sie unter [Business Leader - Übersicht](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+
+     Wenn die Person nicht bereits Mitglied der Untergruppe ist, werden sie durch Hinzufügen ihres Namens zu diesem Feld auch zur Gruppe hinzugefügt.
+
+     >[!NOTE]
+     >
+     >* Bevor Sie einen Business Leader aus einer Untergruppe entfernen können, müssen Sie dessen Namen aus dem Feld Business Leader entfernen.
+     >* Wenn Sie den Namen aus dem Feld „Business Leader“ entfernen, bleibt dieser Benutzer Mitglied der Untergruppe, es sei denn, Sie entfernen ihn daraus. Anweisungen zum Entfernen einer Person aus einer Gruppe finden Sie unter [Anzeigen und Verwalten der Gruppenmitgliedschaften](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+
+   * **Gruppenmitglieder und Gruppenadministratoren**: Um Benutzer und Gruppen als Mitglieder der Untergruppe hinzuzufügen, beginnen Sie mit der Eingabe des Namens eines vorhandenen Benutzers oder einer vorhandenen Gruppe, den/die Sie hinzufügen möchten, und wählen Sie dann den Namen aus, wenn er angezeigt wird.
+
+     Die Benutzer und Gruppen, die Sie hinzufügen, haben Zugriff auf alle Objekte, die für die Gruppe freigegeben sind.
+
+     Eine Untergruppe übernimmt die Gruppenadministratoren der darüber liegenden Gruppe. Die Angabe eines Benutzers als Gruppenadministrator für eine Untergruppe ist daher optional. Über das Dropdown-Menü rechts neben dem Benutzernamen können Sie ein Gruppenmitglied als Administrator für die Gruppe zuweisen.
+
+   * **Personen und Gruppen in der Liste suchen**: Wenn Sie einen Benutzer oder eine Gruppe suchen müssen, der bzw. die dieser Untergruppe bereits zugewiesen ist, können Sie seinen Namen hier eingeben und ihn/sie auswählen, wenn er/sie angezeigt wird.
 
 1. Klicken Sie auf **Speichern.**

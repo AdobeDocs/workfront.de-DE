@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Optionen zu konfigurieren, die Benutzende sehen, wenn sie das Hauptmenü in Workfront öffnen.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 3%
@@ -118,13 +118,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!NOTE]
      >
-     >Für die Planung ist eine zusätzliche Lizenz erforderlich. Informationen zur Workfront-Planung finden Sie unter [Adobe Workfront-Planung - Übersicht](/help/quicksilver/planning/general/planning-overview.md)
-     > * Benutzerdefinierte Anwendung
+     >Für die Planung ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
+
+   * Benutzerdefinierte Anwendung
 
      >[!NOTE]
      >
      > Benutzerdefinierte Programme müssen separat erstellt werden, bevor sie als Hauptmenüoptionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
-
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -144,6 +144,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!TIP]
    >
-   >Sie können jederzeit auf Speichern klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
+   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

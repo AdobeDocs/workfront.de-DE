@@ -6,9 +6,9 @@ description: Als Adobe Workfront-Kunde können Sie sich telefonisch oder per Onl
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,39 @@ Als [!DNL Adobe Workfront]-Kunde können Sie sich telefonisch oder per Online-Ti
 >[!NOTE]
 >
 >Wenden Sie sich bei kritischen Problemen telefonisch an [!DNL Workfront] Support.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Neu: Standard</p>
+       <p>Oder</p>
+       <p>Aktuell: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Sie müssen Systemadministrator sein.</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Telefon
 
@@ -52,7 +85,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 >Nur autorisierte Support-Kontakte (oder Support-berechtigte Benutzer) können Online-Support-Tickets einreichen.
 
 
-1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com/de)-Website **[!UICONTROL Support]** oben auf der Seite.
+1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com)-Website **[!UICONTROL Support]** oben auf der Seite.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -63,7 +96,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Klicken Sie **[!UICONTROL Ticket öffnen]** in der linken Seitenleiste auf.
-Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
+Die Seite [!UICONTROL Erstellung eines ]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
 
    >[!TIP]
    >
@@ -79,7 +112,7 @@ Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können S
 
 1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Fall senden]**.
 
-   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL &#x200B; Fälle] wird angezeigt.
+   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL  Fälle] wird angezeigt.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -105,7 +138,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 1. (Optional) Um das Gehäuse zu schließen, klicken Sie auf die Schaltfläche **[!UICONTROL Fall schließen]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=de)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
