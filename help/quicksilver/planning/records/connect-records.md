@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '3351'
+source-wordcount: '3414'
 ht-degree: 1%
 
 ---
@@ -227,6 +227,11 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
    >* Wir verwenden „verknüpfte Felder“ und „Lookup-Felder“ synonym.
    >
    >* Wenn Sie beim Verbinden der Datensatztypen die Verbindung mehrerer Datensätze herstellen, werden die Feldwerte der verschiedenen Objekte entweder durch Kommas getrennt angezeigt oder entsprechend dem Aggregator aggregiert, den Sie beim Verbinden der Datensatztypen ausgewählt haben.
+   >* Sie können keine Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor) als Suchfelder hinzufügen.
+   >
+   >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
+   >
+   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15:00 Uhr angezeigt wird, wird es in Workfront Planning in einem importierten Suchfeld als 15:00 Uhr angezeigt.
 
 1. (Optional) Schließen Sie die Seite für den Datensatztyp und wechseln Sie zum ausgewählten Arbeitsbereich.
 1. Klicken Sie auf die Karte für den Datensatztyp, mit dem Sie verknüpft haben.
@@ -339,7 +344,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Verbinden von Datensätzen mit Experience Manager-Assets:
 

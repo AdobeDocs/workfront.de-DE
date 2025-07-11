@@ -1,14 +1,14 @@
 ---
 title: 'Adobe Workfront-Planungsbenachrichtigungen: Artikelindex'
-description: Sie erhalten möglicherweise eine E-Mail- oder In-App-Benachrichtigung, wenn Sie in einem Datensatzkommentar mit Tags versehen werden oder wenn Sie Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern oder erteilen. In den folgenden Artikeln wird beschrieben, welche Workfront Planning-Benachrichtigungen Sie erhalten und wie Sie Ihre Benachrichtigungseinstellungen verwalten.
+description: Sie erhalten möglicherweise eine E-Mail- oder In-App-Benachrichtigung, wenn jemand Sie oder Ihre Teams in einem Datensatzkommentar taggt oder Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder Ihnen diese gewährt. In den folgenden Artikeln wird beschrieben, welche Workfront Planning-Benachrichtigungen Sie erhalten und wie Sie Ihre Benachrichtigungseinstellungen verwalten.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Sie erhalten möglicherweise eine E-Mail- oder In-App-Benachrichtigung, wenn Sie in einem Datensatzkommentar mit Tags versehen werden oder wenn Sie Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern oder erteilen.
+Sie erhalten möglicherweise eine E-Mail- oder In-App-Benachrichtigung, wenn jemand Sie oder Ihre Teams in einem Datensatzkommentar taggt oder Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder Ihnen diese gewährt.
 
 In den folgenden Artikeln wird beschrieben, welche Workfront-Planungsbenachrichtigungen Sie erhalten und wie Sie Ihre Voreinstellungen verwalten:
 

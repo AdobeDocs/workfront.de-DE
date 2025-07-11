@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensatztypen im Arbeitsbereich.
->&#x200B;>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
+>>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
@@ -195,6 +195,10 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 1. Klicken Sie auf **Speichern**.
 
    Der Datensatztyp wird jetzt für andere Benutzer freigegeben.
+Die Benutzer, für die Sie den Datensatztyp freigegeben haben, erhalten sowohl eine In-App- als auch eine E-Mail-Benachrichtigung über Berechtigungen für die folgenden Entitäten:
+
+   * Der Datensatztyp
+   * den Arbeitsbereich, wenn sie keine Berechtigungen für den Arbeitsbereich hatten, bevor der Datensatztyp für sie freigegeben wurde.
 
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite für den Datensatztyp zugreifen und sie in der ausgewählten Ansicht anzeigen zu können. Sie müssen über Berechtigungen für den Datensatztyp verfügen, um ihn anzeigen zu können.
 
