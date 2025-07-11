@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
   So werden beispielsweise Kommentare, die Projekten in Workfront hinzugefügt wurden, nicht im selben Projekt angezeigt, das mit einer Kampagne in Workfront Planning verknüpft ist, und Kommentare, die zum Projekt-Workfront Planning-Datensatz hinzugefügt wurden, werden in Workfront nicht angezeigt.
 
-* Sie können Benutzer taggen, um ihre Aufmerksamkeit auf ein Update zu lenken. Getaggte Benutzende erhalten keine In-App-Benachrichtigung oder E-Mail zu Ihrem Update. <!--this might change??-->
-
-* Sie können Benutzer taggen, um ihre Aufmerksamkeit auf ein Update zu lenken. Getaggte Benutzende erhalten eine In-App-Benachrichtigung oder eine E-Mail-Benachrichtigung über Ihr Update.
+* Sie können Benutzer oder Teams taggen, um ihre Aufmerksamkeit auf ein Update zu lenken. Sowohl einzeln getaggte Benutzer als auch Benutzer der getaggten Teams erhalten eine In-App-Benachrichtigung und eine E-Mail zu Ihrem Update.
 
   >[!NOTE]
   >
@@ -162,7 +160,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 1. (Optional) Um eine Änderung rückgängig zu machen oder wiederherzustellen, verwenden Sie die folgenden Tastenkombinationen:
    * Strg+Z (⌘+Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Y (⌘+Y für Mac), um eine Änderung wiederherzustellen
-1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers, um jemanden in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
+1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers oder Teams, um sie in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis oder Links zu Ihrer Aktualisierung hinzuzufügen, um Ihren Inhalt zu verbessern.
 

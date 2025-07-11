@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn die folgenden Szenarien vorliegen:
 
-* Jemand versieht Sie mit Tags in einem Datensatzkommentar
+* Jemand versieht Sie oder Ihre Teams in einem Datensatzkommentar mit Tags
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 * Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
@@ -160,7 +160,7 @@ OLD:
 
 ## Verwalten von In-App-Benachrichtigungen, wenn jemand Sie in einem Kommentar taggt
 
-1. (Bedingt) Nachdem Sie in einem Kommentar zu einem Datensatz getaggt wurden, navigieren Sie zum In-App **Benachrichtigungssymbol** Experience Cloud![Benachrichtigungssymbol](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Bedingt) Nachdem Sie oder Ihre Teams in einem Kommentar zu einem Datensatz getaggt wurden, navigieren Sie zum In-App-Symbol **Benachrichtigungen** (Symbol ![Experience Cloud-Benachrichtigungen](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![Beispiel für In-App-Benachrichtigung](assets/in-app-notification-example.png)
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Sie können E-Mail-Benachrichtigungen von Workfront Planning erhalten, wenn die folgenden Szenarien vorliegen:
 
-* Jemand versieht Sie mit Tags in einem Datensatzkommentar
+* Jemand versieht Sie oder Ihre Teams in einem Datensatzkommentar mit Tags
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 * Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
@@ -161,7 +161,7 @@ OLD:
 
 ## Verwalten von E-Mail-Benachrichtigungen, wenn jemand Sie in einem Kommentar taggt
 
-1. (Bedingt und optional) Nachdem Sie in einem Kommentar zu einem Datensatz getaggt wurden, wechseln Sie zu der E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert. Der Absender der E-Mail ist Adobe Experience Cloud.
+1. (Bedingt und optional) Nachdem jemand Sie oder Ihr Team in einem Kommentar zu einem Datensatz getaggt hat, wechseln Sie zu der E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert. Der Absender der E-Mail ist Adobe Experience Cloud.
 
    ![Beispiel für E-Mail-Benachrichtigungen](assets/email-notification-example.png)
 
