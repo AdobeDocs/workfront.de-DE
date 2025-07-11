@@ -344,7 +344,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Verbinden von Datensätzen mit Experience Manager-Assets:
 
