@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; ](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
@@ -179,12 +179,15 @@ Weitere Informationen finden Sie unter [Konfigurieren von Zeitleisten-Neuberechn
 
 In der Vorschau-Umgebung ist die nächtliche Neuberechnung deaktiviert und die Projektzeitleisten werden nicht automatisch neu berechnet. Sie müssen die Zeitleiste des Projekts für die Vorschau-Umgebung manuell neu berechnen. Weitere Informationen finden Sie unter [Neuberechnen von Projektzeitleisten](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Vorschau der Umgebungsleistung und -verfügbarkeit
 
-[!DNL Workfront] Vorschau-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie diese Umgebungen vielmehr, um die Funktionsfunktionen mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
+* [!DNL Workfront] Vorschau-Umgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie diese Umgebungen vielmehr, um die Funktionsfunktionen mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
 
-[!DNL Workfront] Vorschau-Umgebungen sind so konzipiert, dass sie immer verfügbar sind.
+* Workflows mit Dokumenten sollten sich auf Prozesse und nicht auf Belastungstests konzentrieren. Große Dateien werden in Sandbox-Umgebungen nicht unterstützt.
 
-Jeder Ausfall einer [!DNL Workfront]-Vorschau-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen (sofern vorhanden) oberste Priorität.
+* [!DNL Workfront] Vorschau-Umgebungen sind so konzipiert, dass sie immer verfügbar sind.
 
-Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung am Wochenende (samstags und sonntags) wird behoben, sodass die Umgebung montags zu den Geschäftszeiten geöffnet ist.
+* Jeder Ausfall einer [!DNL Workfront]-Vorschau-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen (sofern vorhanden) oberste Priorität.
+
+* Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung am Wochenende (samstags und sonntags) wird behoben, sodass die Umgebung montags zu den Geschäftszeiten geöffnet ist.

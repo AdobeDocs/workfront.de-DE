@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] Lizenz</p> </td> 
-   <td> <p>[!UICONTROL -Plan] </p> <p>Sie müssen [!DNL Workfront] sein. Informationen zu [!DNL Workfront] finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollständigen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
+   <td> <p>[!UICONTROL-Plan] </p> <p>Sie müssen [!DNL Workfront] sein. Informationen zu [!DNL Workfront] finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollständigen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Support-Paket</td> 
@@ -210,9 +210,12 @@ Weitere Informationen finden Sie unter [Konfigurieren von Zeitleisten-Neuberechn
 
 In der benutzerdefinierten Sandbox-Aktualisierungsumgebung ist die nächtliche Neuberechnung deaktiviert, und die Projektzeitleisten werden nicht automatisch neu berechnet. Sie müssen die Zeitleiste des Projekts für die benutzerdefinierte Sandbox-Aktualisierungsumgebung manuell neu berechnen. Weitere Informationen finden Sie unter [Neuberechnen von Projektzeitleisten](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Vorgesehene Verwendung und Verfügbarkeit
 
 * [!DNL Workfront] benutzerdefinierte Sandbox-Aktualisierungsumgebungen sind nicht für Leistungs- oder Belastungstests vorgesehen. Verwenden Sie diese Umgebungen vielmehr, um die Funktionsfunktionen mit den vorhandenen Workflows Ihres Unternehmens zu validieren.
+
+* Workflows mit Dokumenten sollten sich auf Prozesse und nicht auf Belastungstests konzentrieren. Große Dateien werden in Sandbox-Umgebungen nicht unterstützt.
 
 * [!DNL Workfront] benutzerdefinierte Sandbox-Aktualisierungsumgebungen sind so konzipiert, dass sie immer verfügbar sind. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen, falls vorhanden, erste Priorität. Alle Ausfälle einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung an Wochenenden (samstags und sonntags) werden behoben, sodass die Umgebung montags für Geschäftszeiten ausgeführt wird.
 
