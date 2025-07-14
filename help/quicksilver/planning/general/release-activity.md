@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Weitere Informationen zum Workfront Planning AI-Assistenten finden Sie unter [Ad
 
 Vorschau und Produktion: 28. August 2024
 
-Sie können jetzt Workfront-Planungsinformationen in einem Bericht anzeigen, indem Sie das Workfront-Arbeitsflächen-Dashboard verwenden. Weitere Informationen finden Sie [Erste Schritte mit Leinwand-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Sie können jetzt Workfront-Planungsinformationen in einem Bericht anzeigen, indem Sie das Workfront-Arbeitsflächen-Dashboard verwenden. Weitere Informationen finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Woche vom 19. August 2024
 
@@ -800,7 +800,7 @@ Produktion: 8. Mai 2024
 
 Vorschau: Noch festzulegen
 
-Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie zu einem Kommentar auf der Datensatzseite hinzufügt, erhalten Sie eine In-App- und eine E-Mail-Benachrichtigung zum Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
+Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie zu einem Kommentar auf der Datensatzseite hinzufügt, erhalten Sie eine In-App- und eine E-Mail-Benachrichtigung zum Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Weitere Informationen zu Workfront-Planungsbenachrichtigungen finden Sie unter [Adobe Workfront-Planungsbenachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 

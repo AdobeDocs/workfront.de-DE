@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
 # Beta-Informationen für Canvas-Dashboards
 
-Arbeitsflächen-Dashboards sind eine Funktion, die derzeit entwickelt wird und es Ihnen ermöglicht, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem verschiedene Berichtstypen zu einer anpassbaren Arbeitsfläche hinzugefügt werden. Bitte beachten Sie, dass wir zwar für Ihre Teilnahme an unserer Beta-Testphase dankbar sind, aber Teile der Funktion möglicherweise nicht vollständig sind oder nicht wie beabsichtigt funktionieren. Bitte senden Sie uns Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](#provide-feedback) unten befolgen.
-
-Grundlegende Informationen zur Verwendung von Arbeitsflächen-Dashboards finden Sie unter [Erste Schritte mit Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Eine Liste der gesamten Dokumentation zu Canvas-Dashboards finden Sie unter [Übersicht zu Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und unterliegen daher häufigen Änderungen.
+
+Arbeitsflächen-Dashboards sind eine Funktion, die sich derzeit in der Entwicklung befindet und es Ihnen ermöglicht, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem verschiedene Berichtstypen zu einer anpassbaren Arbeitsfläche hinzugefügt werden.
+
+Bitte beachten Sie, dass wir zwar für Ihre Teilnahme an unserer Beta-Testphase dankbar sind, aber Teile der Funktion möglicherweise nicht vollständig sind oder nicht wie beabsichtigt funktionieren. Bitte senden Sie uns Feedback zu Ihren Erfahrungen, indem Sie die Anweisungen im Abschnitt [Feedback geben](#provide-feedback) unten befolgen.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
+   <td> 
+<p>Beliebig </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td> 
+<p>Aktuell: Plan </p> 
+<p>Neu: Standard</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
+   <td><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Betaversion registrieren
 
@@ -49,29 +84,3 @@ Feedback wird geschätzt, da wir dieses Tool im Laufe der Beta-Phase entwickeln.
 
 1. Klicken Sie **Senden**.
 
-## Geplante Funktionen
-
-Nachfolgend finden Sie eine Liste der derzeit in der Beta-Version unterstützten Berichtstypen sowie eine Liste weiterer Funktionen, die wir im Laufe der Beta-Phase und darüber hinaus zu den Arbeitsflächen-Dashboards hinzufügen möchten.
-
-### Unterstützte Berichtstypen
-
-* Vorhandene Berichte (Berichte, die mit dem aktuellen Reporting-Tool erstellt wurden)
-* Diagrammberichte
-* KPI-Berichte
-* Tabellenberichte
-* Berichte zu ausstehenden Genehmigungen
-
-### Funktionen in Entwicklung
-
-* Datums- und benutzerbasierte Platzhalter für Filter
-* Workfront-Planungsberichte
-* Zusätzliche Workfront-Objekttypen
-* Boards-Berichte
-* Weitere Verbesserungen der Benutzerfreundlichkeit
-* Arbeitsblätter
-* Eingebettete Webinhalte
-
-### Zukünftige Roadmap-Funktionen
-
-* Eingabeaufforderungen auf Dashboard-Ebene
-* Währungsunterstützung
