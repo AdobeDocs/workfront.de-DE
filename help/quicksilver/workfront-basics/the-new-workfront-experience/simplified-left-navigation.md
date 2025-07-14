@@ -6,9 +6,9 @@ description: Der linke Navigationsbereich in [!DNL Workfront]  erleichtert die N
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,7 +83,7 @@ Das linke Bedienfeld ist für die folgenden Bereiche verfügbar:
 * [Standardabschnitte im Bereich [!UICONTROL Anfragen]](#default-sections-in-the-requests-area)
 * [Standardabschnitte im Bereich [!UICONTROL Ressourcen]](#default-sections-in-the-resourcing-area)
 * [Standardabschnitte im Bereich [!UICONTROL Projekte]](#default-sections-in-the-projects-area)
-* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]](#default-sections-in-the-timesheets-area)
+* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]](#default-sections-in-the-timesheets-area)
 * [Standardabschnitte im  [!DNL Goals] -Bereich](#default-sections-in-the-goals-area)
 
 ### Standardabschnitte im Bereich [!UICONTROL Dashboards]
@@ -170,7 +170,7 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
 
 Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Projekte] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
-### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]
+### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]
 
 Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL Arbeitszeittabellen]** angezeigt:
 
@@ -180,7 +180,7 @@ Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL
         <td>Zeigt standardmäßig alle aktiven Arbeitszeittabellen an. Um übermittelte oder geschlossene Arbeitszeittabellen anzuzeigen, wählen Sie [!UICONTROL Übermittelt] oder [!UICONTROL Alle] aus dem Dropdown-Menü [!UICONTROL Filter] aus.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Von mir genehmigte-Arbeitszeittabellen]</strong></td>
+        <td><strong>[!Von mir genehmigte UICONTROL-Arbeitszeittabellen]</strong></td>
         <td>Zeigt standardmäßig Arbeitszeittabellen an, die zur Genehmigung eingereicht wurden. Um aktive oder alle Arbeitszeittabellen anzuzeigen, bei denen Sie die genehmigende Person sind, wählen Sie [!UICONTROL Active] oder Anwendung aus dem Dropdown-Menü Filter aus.</td>
     </tr>
     <tr>
@@ -265,9 +265,7 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
       >
       >Sie müssen das Dashboard erstellen, bevor es in der Liste angezeigt wird.
 
-   1. Klicken Sie **[!UICONTROL Hinzufügen]**.
-
-      Der Dashboard-Link wird unten im linken Bedienfeld angezeigt.
+1. (Optional) Um einen Dashboard-Schnelllink zu entfernen, bewegen Sie den Mauszeiger über das Dashboard im linken Navigationsbereich und klicken Sie dann auf das Symbol **Entfernen** ![Entfernen](assets/remove-dashboard-from-left.png), wenn es angezeigt wird.
 
 1. (Optional) Um die Reihenfolge eines Bereichs im linken Bereich zu ändern, klicken Sie auf das **[!UICONTROL Ziehen]**-Symbol ![](assets/drag-icon.png) rechts neben einem Bereich und ziehen Sie ihn nach oben oder unten.
 
