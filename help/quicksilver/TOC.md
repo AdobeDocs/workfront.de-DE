@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
+source-git-commit: b4e2f9b6cad03062b4edb2858f2a59847b47d622
 workflow-type: tm+mt
-source-wordcount: '13221'
+source-wordcount: '13233'
 ht-degree: 2%
 
 ---
@@ -2041,7 +2041,8 @@ ht-degree: 2%
       * [Übersicht über Datensatztypen](planning/architecture/overview-of-record-types.md)
       * [Datensatztypen erstellen](planning/architecture/create-record-types.md)
       * [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
-      * [Globale Erstellung von Datensatztypen](planning/architecture/create-record-types-globally.md)
+      * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [Arbeitsbereichsübergreifenden Eintragstyp hinzufügen](planning/architecture/add-cross-workspace-record-types.md)
       * [Verbinden von Datensatztypen - Übersicht](planning/architecture/connect-record-types-overview.md)
       * [Verbinden von Datensatztypen](planning/architecture/connect-record-types.md)
       * [Datensatztypen bearbeiten](planning/architecture/edit-record-types.md)
@@ -2086,6 +2087,7 @@ ht-degree: 2%
       * [Seiten-Layout des Datensatzes verwalten](planning/records/manage-the-record-page.md)
       * [Verwalten von Datensatzverbindungen aus Workfront-Objekten](planning/records/manage-records-in-planning-section.md)
       * [Exportieren der Details eines Datensatzes](planning/records/export-the-record-page.md)
+      * [Datensätze aus der Tabellenansicht exportieren](planning/records/export-records-from-the-table-view.md)
       * [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Konfigurieren von Adobe Workfront Planning-Automatisierungen](planning/records/configure-automations-to-create-records.md)
       * [Erstellen von Objekten mithilfe von Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

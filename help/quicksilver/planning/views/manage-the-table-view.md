@@ -1,14 +1,14 @@
 ---
 title: Verwalten der Tabellenansicht
-description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in Adobe Workfront Planning auf die Seite „Datensatztyp“ zugreifen. In diesem Artikel wird beschrieben, wie Sie eine Tabellenansicht erstellen oder bearbeiten und wie Sie Echtzeit-Präsenzindikatoren für die Ansicht aktivieren bzw. wie Sie sie in eine CSV- oder Excel-Datei exportieren.
+description: Sie können Datensätze und ihre Felder in einer Tabellenansicht anzeigen, wenn Sie in Adobe Workfront Planning auf die Seite „Datensatztyp“ zugreifen. In diesem Artikel wird beschrieben, wie Sie eine Tabellenansicht erstellen oder bearbeiten und wie Sie Echtzeit-Präsenzindikatoren für die Ansicht aktivieren.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,8 @@ In diesem Artikel werden die folgenden Informationen beschrieben:
 
 * [Erstellen oder Bearbeiten von Spalten und Zeilen in einer Tabellenansicht](#manage-a-table-view)
 * [Echtzeit-Präsenzindikatoren für die Tabellenansicht aktivieren](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Exportieren einer Tabellenansicht in eine CSV- oder Excel-Datei](#export-the-table-view)</span>
+
+Informationen zum Exportieren der Tabellenansicht in eine Excel- oder CSV-Datei finden Sie unter [Exportieren von Datensätzen aus der Tabellenansicht](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Zugriffsanforderungen
 
@@ -558,57 +559,5 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 
 <div class="preview">
 
-## Exportieren der Tabellenansicht
 
-Sie können Informationen in der Tabellenansicht in eine CSV- oder Excel-Datei exportieren.
-
-Beachten Sie beim Exportieren der Tabellenansicht Folgendes:
-
-* Die in eine Excel-Datei exportierten Informationen behalten die Filter, Gruppierungen und Sortierungen bei, die in Workfront Planning auf die Tabellenansicht angewendet wurden. Gruppierungen sind in der CSV-Datei nicht sichtbar.
-
-* Miniaturansichten und benutzerdefinierte Zeilenfarben werden in exportierten Dateien nicht unterstützt.
-
-* Es werden nur Felder exportiert, die in der Workfront-Benutzeroberfläche sichtbar sind. Ausgeblendete Felder werden nicht exportiert.
-
-So exportieren Sie Informationen aus der Tabellenansicht oder einem Datensatztyp:
-
-1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf die Registerkarte Tabellenansicht .
-1. Führen Sie einen der folgenden Schritte aus:
-
-   * Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Tabellenansicht“ und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und dann auf **Exportieren**.
-
-   ![Menü „Mehr“ in einer Ansicht](assets/view-more-menu-with-duplicate-option.png)
-
-   * Klicken Sie **Freigeben** > **Aktuelle Ansicht exportieren**. Diese Option ist nur verfügbar, wenn die Tabellenansicht angezeigt wird.
-
-   ![Freigabeschaltfläche mit Datensatztyp- und Ansichtsfreigabeoptionen](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. Wählen Sie eines der folgenden Formate aus:
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >Sie können keine Informationen aus der Tabellenansicht exportieren, wenn Sie auf dem Bildschirm eine andere Ansicht anzeigen. Sie müssen die Tabellenansicht anzeigen, die Sie exportieren möchten, um auf die Option Exportieren im Menü Mehr zugreifen zu können.
-
-   Die Datei wird auf Ihren Computer heruntergeladen.
-
-1. (Optional) Gehen Sie zum Ordner Downloads auf Ihrem Computer und suchen Sie die heruntergeladene Datei.
-
-   Der Name der exportierten Datei folgt dem folgenden Format:
-
-   `Name of the view - name of the record type`
-
-   Beispielsweise generiert eine Tabellenansicht für den Datensatztyp Kampagnen eine Datei mit dem Namen `Table view - Campaigns`.
-
-   Die Datei enthält die folgenden Informationen:
-
-   * Die Spaltenüberschriften werden in der Excel-Datei schwarz hervorgehoben
-   * Alle in der Workfront-Benutzeroberfläche angezeigten Felder, nach denselben Kriterien sortiert und gefiltert
-   * Gruppierungen bleiben in der Excel-Datei erhalten
-
-   Sie können nun die exportierten Dateien für andere freigeben oder sie an eine beliebige Kommunikation anhängen.
-
-</div>
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '164'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
 * [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-* [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
+* [Konfigurieren von Adobe Workfront Planning-Automatisierungen](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
 * [Löschen von Datensätzen](/help/quicksilver/planning/records/delete-records.md)
@@ -44,3 +44,4 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Seiten-Layout des Datensatzes verwalten](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md)
+* [Datensätze aus der Tabellenansicht exportieren](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
