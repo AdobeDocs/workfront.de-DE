@@ -6,7 +6,7 @@ description: Sie können einen Tabellenbericht zu einem Arbeitsflächen-Dashboar
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -68,9 +68,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts zur 
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie **oben** auf „Neues Dashboard“.
+1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 

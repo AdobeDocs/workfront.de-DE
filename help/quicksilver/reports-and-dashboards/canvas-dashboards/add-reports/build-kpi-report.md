@@ -6,7 +6,7 @@ description: Ein KPI-Bericht, der einen einzelnen aggregierten KPI hervorgehoben
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -68,9 +68,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie **oben** auf „Neues Dashboard“.
+1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -86,8 +86,8 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
    1. Einen Bericht eingeben **Beschreibung**.
 
       >[!NOTE]
-      > 
-      > Die Beschreibung wird als Beschriftung unter dem KPI-Wert verwendet. Wenn Sie keine Beschreibung eingeben, wird eine Beschriftung für Sie basierend auf dem Aggregator und dem Aggregationstyp generiert, den Sie in den folgenden Schritten auswählen.
+      >
+      >Die Beschreibung wird als Beschriftung unter dem KPI-Wert verwendet. Wenn Sie keine Beschreibung eingeben, wird eine Beschriftung für Sie basierend auf dem Aggregator und dem Aggregationstyp generiert, den Sie in den folgenden Schritten auswählen.
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **KPI erstellen** zu konfigurieren:
 

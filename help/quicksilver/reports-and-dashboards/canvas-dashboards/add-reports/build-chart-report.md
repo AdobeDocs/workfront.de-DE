@@ -6,7 +6,7 @@ description: Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -68,9 +68,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie **oben** auf „Neues Dashboard“.
+1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -140,14 +140,13 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erläutert, in dem überfällige Aufgaben nach Projektbesitzer angezeigt werden.
 
-
 {{step1-to-dashboards}}
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie **oben** auf „Neues Dashboard“.
+1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
