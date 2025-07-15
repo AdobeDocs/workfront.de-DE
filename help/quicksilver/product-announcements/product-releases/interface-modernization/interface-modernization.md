@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3d24c7ac7c88aacd51c1c85c8ee20c69c627a014
+source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
 workflow-type: tm+mt
-source-wordcount: '5168'
+source-wordcount: '5214'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierung der Benutzeroberfläche der Registerkarte Portfolios in einer Gruppe
+
+**Vorschau: 10. Juli 2025; Produktion für alle: 17. Juli 2025**
+
+Wir haben die Seite Portfolio im linken Bereich in einer Gruppe aktualisiert, damit sie mit anderen Bereichen der Anwendung übereinstimmt.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Gruppe auswählen > Portfolios.
 
 ### Aktualisierungen der Benutzeroberfläche in Untergruppen-Dialogfeldern
 
