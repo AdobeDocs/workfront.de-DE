@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator können Sie eine Layout-Vorlage verwenden, um die Beschriftungen einiger Objekte, die in Workfront angezeigt werden, an die in Ihrem Unternehmen verwendeten Begriffe anzupassen.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Nachdem Sie eine Layout-Vorlage gespeichert haben, in der Sie die Terminologie g
 * Alle vom Hauptmenü aus zugänglichen Bereiche
 * Alle Registerkarten
 * Alle Menüs
-* Report Builder- und Berichterstellungselemente (Ansichten, Filter und Gruppierungen)
+* Report Builder und Reporting-Elemente (Ansichten, Filter und Gruppierungen)
 * Schaltflächen speichern
 * Exportierte Dateien
 * E-Mails

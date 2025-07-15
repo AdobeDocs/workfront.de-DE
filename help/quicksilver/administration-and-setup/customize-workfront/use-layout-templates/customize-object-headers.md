@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Felder zu konfigurieren, die Benutzende in der Kopfzeile des Objekts sehen, wenn sie die Seite eines Objekts öffnen.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Bewegen Sie [!UICONTROL &#x200B; Mauszeiger im Abschnitt &#x200B;]Kopfzeilenfelder“ über die angezeigten Felder und führen Sie einen der folgenden Schritte aus:
+1. Bewegen Sie [!UICONTROL  Mauszeiger im Abschnitt ]Kopfzeilenfelder“ über die angezeigten Felder und führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf das **x**-Symbol, um ein Feld zu entfernen
 
      Oder
