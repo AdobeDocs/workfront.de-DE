@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 6%
+source-wordcount: '684'
+ht-degree: 7%
 
 ---
 
 # Übersicht über Formelfelder
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -30,8 +30,6 @@ Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder er
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,14 +81,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich <span class="preview">und Datensatztyp</span> </a> </p>  
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich und Datensatztyp </a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -102,7 +96,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Formelfelder verweisen auf Felder, die zum selben Datensatztyp gehören.
 * Sie können nur dann auf Felder von anderen Datensatztypen verweisen, wenn Sie einen anderen Datensatztyp mit dem verbinden, für den Sie ein Formelfeld erstellen.
-* &lt;span class-„preview“>Wenn Sie in einer Formel auf verbundene Datensatztypen oder deren Suchfelder verweisen, hängt dies von Ihren Berechtigungen für die verbundenen Datensatztypen ab. Wenn Sie nicht berechtigt sind, den Datensatztyp anzuzeigen, können Sie dessen Felder nicht in einer Formel referenzieren. </span>
+* Das Referenzieren von verbundenen Datensatztypen oder deren Lookup-Feldern in einer Formel hängt von Ihren Berechtigungen für die verbundenen Datensatztypen ab. Wenn Sie nicht berechtigt sind, den Datensatztyp anzuzeigen, können Sie dessen Felder nicht in einer Formel referenzieren.
 * Der Feldtyp eines Formelfelds kann nach dem Speichern nicht mehr geändert werden.
 * Sie können die Berechnung eines Formelfelds nach dem Speichern aktualisieren. Die Ergebnisse der Berechnung werden automatisch für alle Datensätze desselben Typs aktualisiert.
 * Sie müssen die Felder, auf die Sie verweisen, in Formeln hinzufügen, die in der Workfront Planning-Benutzeroberfläche angezeigt werden.

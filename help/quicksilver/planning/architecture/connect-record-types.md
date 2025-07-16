@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2511'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Verbinden von Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -105,12 +105,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -150,7 +146,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!TIP]
      >
-     >Die Einstellung **Verbindung von anderen Arbeitsbereichen aus** muss für einen Datensatztyp auf der Registerkarte **Erweiterte Einstellungen** des Felds **Datensatztyp bearbeiten** aktiviert sein, damit ein Datensatztyp von anderen Arbeitsbereichen aus zugänglich ist. Wenn es keine Datensatztypen gibt, die für die Verbindung von anderen Arbeitsbereichen konfiguriert sind, wird der Abschnitt Arbeitsbereich nicht angezeigt.
+     >Die Einstellung **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** muss für einen Datensatztyp auf der Registerkarte **Erweiterte Einstellungen** des Felds **Datensatztyp bearbeiten** aktiviert sein, damit ein Datensatztyp von anderen Arbeitsbereichen aus zugänglich ist. Wenn es keine Datensatztypen gibt, die für die Verbindung von anderen Arbeitsbereichen konfiguriert sind, wird der Abschnitt Arbeitsbereich nicht angezeigt.
      > ![Registerkarte „Erweiterte Einstellungen“ im Feld „Datensatztyp bearbeiten“](assets/edit-record-type-box-advanced-settings-tab.png)
 
      Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
@@ -217,7 +213,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets oder einem Workfront Planning-Datensatztyp herstellen möchten, wählen Sie im Bereich **Datensatzdarstellung** eine der folgenden Optionen aus:
 

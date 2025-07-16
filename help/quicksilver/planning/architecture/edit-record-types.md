@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '646'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,10 @@ ht-degree: 2%
 
 # Datensatztypen bearbeiten
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -80,15 +81,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich <span class="preview">und Datensatztyp</span> </p>  
+   <td>   <p>Verwalten der Berechtigungen für einen Arbeitsbereich und Datensatztyp </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Nur Systemadministratoren können Datensatztypen für die Verbindung von anderen Arbeitsbereichen aktivieren</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -123,17 +120,22 @@ oder
       * Farbe zur Identifizierung des Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-1. (Bedingt) Wenn Sie Systemadministrator sind, klicken Sie im Feld **Datensatztyp bearbeiten** auf die Registerkarte **Erweiterte Einstellungen**. <!--the info here is duplicated in the Create record types article-->
+   <!--old info: 
+   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+   1. (Conditional) Update the following information in the **Advanced settings** tab: 
+      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+      * Choose from which workspaces the record type can be accessed. Choose from the following options:
+         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
+
+
+1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf **Erweiterte Einstellungen** und aktualisieren Sie die folgenden Informationen im Abschnitt **Arbeitsbereichsübergreifende**): <!--the info here is duplicated in the Create record types article-->
+   * Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung: Damit können Workspace-Manager von anderen Arbeitsbereichen aus eine Verbindung zu diesem Datensatztyp herstellen.\
+     Sie können festlegen, aus welchen Arbeitsbereichen dieser Datensatztyp verbunden werden kann. Sie können sie für alle Arbeitsbereiche verfügbar machen oder bestimmte Arbeitsbereiche festlegen, in die Sie sie importieren können.
+Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
    ![Registerkarte „Erweiterte Einstellungen“ im Feld „Datensatztyp bearbeiten“](assets/edit-record-type-box-advanced-settings-tab.png)
-
-1. (Bedingt) Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erweiterte Einstellungen**:
-
-   * Aktivieren Sie die Einstellung **Verbindung von anderem Arbeitsbereich herstellen**. Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus verbunden werden.
-   * Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
-
-      * **Systemweit**: Benutzer können von allen Arbeitsbereichen, in denen sie Berechtigungen verwalten, aus eine Verbindung zu diesem Datensatztyp herstellen.
-      * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
 
    <!--replace last point with this when we release dynamic record types:
       1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***

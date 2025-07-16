@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
 
 # Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ Datensatztypen sind die Objekttypen von Adobe Workfront Planning. In Workfront P
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * Verbindungsfelder, abhängig von der verwendeten Umgebung:
-
-      * In der Produktionsumgebung können Verbindungsfelder nicht den Planungsdatensätzen oder Workfront- und AEM Assets-Objekten zugeordnet werden
-
-      * <span class="preview">In der Vorschau-Umgebung können Sie Verbindungsfelder Planungsdatensätzen zuordnen und importieren. Sie können keine Felder Workfront und AEM Assets zuordnen.</span>
-
+   * Verbindungsfelder zu Workfront- und AEM Assets-Objekttypen.
    * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
    * Formelfelder
    * Erstellungsdatum, Erstellt von
    * Datum der letzten Änderung, letzte Änderung von
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Personen
 
 So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
@@ -155,21 +145,21 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
    Blättert, wenn Sie die Auswahl aufgehoben haben, wird die Anzeige mit grauem Hintergrund angezeigt.
 
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben einer Spaltenüberschrift, um einen der folgenden Vorgänge auszuführen (<span class="preview"> der Registerkarte **Feld**</span>:
+1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben einer Spaltenüberschrift, um auf der Registerkarte **Feld** eine der folgenden Aktionen auszuführen:
 
-   <span class="preview">![Registerkarte „Feld“ im Importfeld „Datensatztyp-Zuordnung“](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   ![Registerkarte „Feld“ im Importfeld „Datensatztyp-Zuordnung“](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Eines der Felder umbenennen
    * Ändern des **Feldtyps**
    * Aktualisieren Sie das Feld **Beschreibung**
 
-1. <span class="preview">(Optional) Klicken Sie auf die **Verbindung** , um die Informationen in der Spalte einem verbundenen Feld von anderen Datensatztypen zuzuordnen.</span>
+1. (Optional) Klicken Sie auf die **Verbindung**, um die Informationen in der Spalte einem verbundenen Feld von anderen Datensatztypen zuzuordnen.
 
-   <span class="preview">![Registerkarte „Verbindung“ im Feld „Datensatztyp-Import-Mapping“](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![Registerkarte „Verbindung“ im Feld „Datensatztyp-Import-Mapping“](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview">Sie können nur Felder aus Workfront Planning Connected Records zuordnen. Sie können keine Felder von Workfront- oder AEM Assets-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.</span>
+   >Sie können nur Felder aus Workfront Planning-verbundenen Datensätzen zuordnen. Sie können keine Felder von Workfront- oder AEM Assets-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.
 
 1. (Bedingt) Klicken Sie nach dem Aktualisieren der Feldinformationen auf **Speichern**.
 

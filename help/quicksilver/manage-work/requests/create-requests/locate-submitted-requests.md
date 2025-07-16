@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -204,9 +204,9 @@ So suchen Sie nach von Ihnen oder anderen Benutzern gesendeten Anfragen:
 
 1. (Optional und bedingt) Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, klicken Sie auf die Registerkarte **Planning** und dann **Gesendet** im linken Bereich, um Workfront Planning-Anfragen anzuzeigen.
 
-   <span class="preview">Verwenden Sie **Filter** und **Spalten**, um die Informationen in der Planning-Anfrageliste zu aktualisieren. </span>
+   Verwenden Sie **Filter** und **Spalten**, um die Informationen in der Planning-Anfrageliste zu aktualisieren.
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 

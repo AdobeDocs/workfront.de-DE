@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 1%
@@ -124,8 +124,8 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
 
-      * Erstellt von und Zuletzt geändert von
-      * Erstellungsdatum und Datum der letzten Änderung
+      * Erstellt von und Zuletzt geändert von <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
+      * Erstellungsdatum und Datum der letzten Änderung <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
       * Formel
       * Suchfelder der Workfront-Objekte
       * Suchfelder für verknüpfte Datensätze in Workfront

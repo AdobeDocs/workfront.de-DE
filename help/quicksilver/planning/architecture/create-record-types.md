@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1203'
 ht-degree: 1%
 
 ---
@@ -169,34 +169,45 @@ Informationen darüber, welche Datensatztypen in den einzelnen Vorlagen enthalte
       * Farbe zur Identifizierung des neuen Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp. Grau ist standardmäßig ausgewählt.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf **Erweiterte Einstellungen** und aktualisieren Sie die folgenden Informationen im Abschnitt **Konnektivitätsbereich**: <!--the info here is duplicated in the Edit record types article-->
 
-   * Aktivieren Sie die Einstellung **Verbindung von anderem Arbeitsbereich herstellen**. Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus verbunden werden.
-   * Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
+   <!--old setting:
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
+        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+        * Choose from which workspaces the record type can be accessed. Choose from the following options:
+            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
+    -->
 
-      * **Systemweit**: Benutzer können von allen Arbeitsbereichen, in denen sie Berechtigungen verwalten, aus eine Verbindung zu diesem Datensatztyp herstellen.
-      * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
+1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf **Erweiterte Einstellungen** und aktualisieren Sie die folgenden Informationen im Abschnitt **Arbeitsbereichsübergreifende**): <!--the info here is duplicated in the Edit record types article-->
+   * Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung: Damit können Workspace-Manager von anderen Arbeitsbereichen aus eine Verbindung zu diesem Datensatztyp herstellen.\
+     Sie können festlegen, aus welchen Arbeitsbereichen dieser Datensatztyp verbunden werden kann. Sie können sie für alle Arbeitsbereiche verfügbar machen oder bestimmte Arbeitsbereiche festlegen, in die Sie sie importieren können.
+Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
 
    ![Feld „Datensatztyp erstellen“ auf der Registerkarte „Erweiterte Einstellungen“](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-    <div class="preview">
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-            You can designate specific users who can add this record type to other workspaces. 
-        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-        ******** replace screen shot below **********
-        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-    -->
+        <div class="preview">
+        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+                You can designate specific users who can add this record type to other workspaces. 
+            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+            ******** replace screen shot below **********
+            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+        -->
 
-1. Klicken Sie auf **Erstellen**.
+1. Klicken Sie auf **Speichern**.
 
    Die Karte Datensatztyp wird dem ausgewählten Abschnitt und Arbeitsbereich hinzugefügt.
 Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ![Karte vom Typ „Datensatz“ mit Beschreibung](assets/record-type-card-with-description.png)
+
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindung von anderen** herstellen![ (Symbol ](assets/connect-from-other-workspaces-icon.png) von anderen Bereichen verbinden) auf der Datensatzkarte angezeigt.
+
+   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Optional) Zeigen Sie mit der Maus auf die Karte für den Datensatztyp und klicken Sie oben rechts auf **Mehr**-Symbol ![Mehr](assets/more-menu.png) und dann auf **Bearbeiten**, um Informationen zum Datensatztyp zu ändern.
 1. (Optional) Klicken Sie auf die Karte „Datensatztyp“, um die Seite „Datensatztyp“ zu öffnen.

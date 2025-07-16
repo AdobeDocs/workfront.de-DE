@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 2%
 
 ---
 
 # Zeitleisten-Ansicht verwalten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
    <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    >
    >    Die Sortierung der Datensätze in der Zeitleiste ist in der kompakten Ansicht nicht sichtbar.
 
-1. <span class="preview"> (Bedingt) Wenn Ihr Administrator benutzerdefinierte Quartale aktiviert hat und Workfront Probleme bei der Konfiguration der benutzerdefinierten Quartale erkennt, erhalten Sie möglicherweise eine Warnung, wenn Sie die Zeitleisten -Ansicht öffnen. </span>
-
-   <div class="preview">
+1. (Bedingt) Wenn Ihr Administrator benutzerdefinierte Quartale aktiviert hat und Workfront Probleme bei der Konfiguration der benutzerdefinierten Quartale erkennt, erhalten Sie möglicherweise eine Warnung, wenn Sie die Zeitleisten -Ansicht öffnen.
 
    Die folgenden Szenarien sind vorhanden:
 
@@ -152,13 +145,11 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    >Nach der Einrichtung von benutzerdefinierten Quartalen im Bereich „Setup“ werden in der Ansicht „Timeline“ die benutzerdefinierten Quartale anstelle der klassischen Quartale angezeigt.
    >Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-   </div>
-
-1. <span class="preview">(Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Zum Setup wechseln**, um Ihr Quartal einzurichten. Wenn nicht, klicken Sie **OK** und bitten Sie Ihren Workfront-Administrator, die benutzerdefinierten Quartale einzurichten.</span>
+1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Zum Setup wechseln**, um Ihr Quartal einzurichten. Wenn nicht, klicken Sie **OK** und bitten Sie Ihren Workfront-Administrator, die benutzerdefinierten Quartale einzurichten.
 
    >[!TIP]
    >
-   ><span class="preview">Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.</span>
+   >Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.
 
 1. (Optional und bedingt) Wenn der Datensatzname abgeschnitten ist, bewegen Sie den Mauszeiger über eine Datensatzleiste, um den vollständigen Namen des Datensatzes und zusätzliche Informationen anzuzeigen. Informationen dazu, wie Sie das Abschneiden der Datensatzleiste in der Zeitleiste einrichten, finden Sie im Abschnitt [Bearbeiten der Zeitleisten-Anzeigeeinstellungen](#edit-the-timeline-view-settings) in diesem Artikel.
 
@@ -172,7 +163,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
       * **Quartal**: Zeigt Monate und Wochen mit Quartalsangabe an.
       * **Monat**: Zeigt Wochen und Tage an.
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
-1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. <span class="preview">Die Option **Standard** ist die Standardoption.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. Die **Standard**-Option ist die Standardeinstellung.  <!--check to see if they updated the name of the setting here-->
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
@@ -392,7 +383,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >* Wenn Sie zusätzliche Datensätze mithilfe der Option Aufschlüsselung anzeigen, sind das Start- und Enddatum die Daten des Hauptdatensatzes. Start- und Enddatum für die verbundenen Datensätze in diesem Bereich können nicht ausgewählt werden.
 
-1. <span class="preview">(Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie **Zum Setup wechseln** im Feld **Benutzerdefinierte Quartale verwenden**, um den Bereich „Setup“ aufzurufen und benutzerdefinierte Quartale einzurichten. Nach der Einrichtung benutzerdefinierter Quartale können Sie diese in der Ansicht „Zeitleiste“ anstelle der klassischen Quartale anzeigen. Wenn Sie kein Workfront-Administrator sind, können Sie von einem Administrator anfordern, dass die benutzerdefinierten Quartale für Ihr Unternehmen aktiviert werden. </span>
+1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie im Feld **Benutzerdefinierte Quartale verwenden** auf **Zum Setup wechseln**, um den Bereich Setup aufzurufen und benutzerdefinierte Quartale einzurichten. Nach der Einrichtung benutzerdefinierter Quartale können Sie diese in der Ansicht „Zeitleiste“ anstelle der klassischen Quartale anzeigen. Wenn Sie kein Workfront-Administrator sind, können Sie von einem Administrator anfordern, dass die benutzerdefinierten Quartale für Ihr Unternehmen aktiviert werden.
 
    Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -400,11 +391,11 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    >[!TIP]
    >
-   ><span class="preview">Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.</span>
+   >Die Schaltfläche Zum Setup gehen wird nur für Workfront-Admins angezeigt.
 
 1. Klicken Sie **linken** auf „Balkenstil“, um anzugeben, welche Informationen in den Datensatzleisten angezeigt werden sollen.
 
-   Mit der Option Aufschlüsselung in der Standardansicht können Sie den Balkenstil <span class="preview"> Hauptdatensatzes sowie der </span> Datensätze definieren.
+   Mit der Option Aufschlüsselung in der Standardansicht können Sie den Balkenstil des Hauptdatensatzes sowie der verbundenen Datensätze definieren.
 
    Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    ![Zeitleisteneinstellungen des Bedienfelds „Datensatzdetails“ mit Vorschau](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Optional und bedingt) Wenn Sie die Zeitleiste im Standardmodus anzeigen, wählen Sie die Einstellung **Balkendetails abschneiden**. Wenn diese Option aktiviert ist, werden die Informationen in den Datensatzleisten abgeschnitten und nur dann vollständig angezeigt, wenn Sie den Mauszeiger über die Balken bewegen. Diese Einstellung ist standardmäßig deaktiviert und die Datensatzinformationen werden vollständig auf den Balken angezeigt. </span>
+1. (Optional und bedingt) Wenn die Zeitleiste im Standardmodus angezeigt wird, wählen Sie die Einstellung **Balkendetails abschneiden**. Wenn diese Option aktiviert ist, werden die Informationen in den Datensatzleisten abgeschnitten und nur dann vollständig angezeigt, wenn Sie den Mauszeiger über die Balken bewegen. Diese Einstellung ist standardmäßig deaktiviert und die Datensatzinformationen werden vollständig auf den Balken angezeigt.
 
    ![Einstellung „Abschneiden aktiviert“ im Feld „Zeitleisten-Einstellungen“ hervorgehoben](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird.</span>
+   >Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird.
    >
 
 1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.
 
    ![Ansicht der Farbregisterkarte „Timeline“](assets/color-tab-timeline-view.png)
 
-   Mit der Option Aufschlüsselung in der Standardansicht können Sie die Farbe <span class="preview"> Hauptdatensatzes (sowie </span> verbundenen Datensätze) definieren.
+   Sie können die Farbe des Hauptdatensatzes sowie der verbundenen Datensätze definieren, wenn Sie die Option Aufschlüsselung in der Standardansicht verwenden.
 
 1. (Bedingt und optional) Wenn Sie der Zeitleisten -Ansicht eine Gruppierung hinzugefügt haben, wählen Sie eine der folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
 
@@ -481,7 +472,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
-1. <span class="preview">(Optional) Wenn Sie die Option **Aufschlüsselung** verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden verbundenen Datensatz, der in der Zeitleiste angezeigt wird. </span>
+1. (Optional) Wenn Sie die Option **Aufschlüsselung** verwenden, wiederholen Sie die Schritte ab Schritt 4 für jeden in der Zeitleiste angezeigten verbundenen Datensatz.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -515,7 +506,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder <span class="preview">**Compact** **-Modi oben rechts in der Zeitleisten**</span> Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
    >
    >Sowohl Produkte als auch Programme müssen mit den Kampagnen verbunden sein, damit sie als Optionen für die Aufschlüsselungsoption angezeigt werden. Sie können sie der Aufschlüsselung in beliebiger Reihenfolge hinzufügen.
 
-1. <span class="preview">(Bedingt) Wenn Sie die Zeitleiste im kompakten Modus anzeigen, klicken Sie auf **Ansicht wechseln**. Die Aufschlüsselung ist im Modus **Kompakt** nicht sichtbar</span>
+1. (Bedingt) Wenn Sie die Zeitleiste im kompakten Modus anzeigen, klicken Sie auf **Ansicht wechseln**. Die Aufschlüsselung ist im Modus **Kompakt** nicht sichtbar.
 
    >[!TIP]
    >
-   ><span class="preview">Wählen Sie **Nicht mehr anzeigen** in der **Zur Standardansicht wechseln?** vor dem Wechsel der Ansicht. </span>
+   >Wählen **Nicht mehr anzeigen** in der Ansicht **Zur Standardansicht wechseln?** vor dem Wechsel der Ansicht.
    >
-   ><span class="preview">Diese Einstellung wird nur für den aktuellen Browser gespeichert. Wenn Sie Browser oder Computer wechseln, müssen Sie diese Einstellung erneut auswählen.</span>
+   >Diese Einstellung wird nur für den aktuellen Browser gespeichert. Wenn Sie Browser oder Computer wechseln, müssen Sie diese Einstellung erneut auswählen.
    >
    >Sie können nicht in den Komprimierungsmodus zurückkehren, nachdem Sie die Ansicht auf „Standard“ umgeschaltet und verbundene Datensätze in der Ansicht angezeigt haben.
 1. (Optional) Wiederholen Sie die obigen Schritte, um weitere verbundene Datensätze hinzuzufügen.

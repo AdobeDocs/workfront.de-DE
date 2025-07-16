@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1485'
 ht-degree: 5%
 
 ---
 
 # Kalenderansicht verwalten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,8 +28,6 @@ Weitere Informationen zu Adobe Workfront Planning-Ansichten und deren Verwaltung
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,12 +81,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
    <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 

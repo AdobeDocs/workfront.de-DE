@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,17 @@ Es wird empfohlen, auch die folgenden Artikel anzuzeigen:
 * [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
 * [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Überlegungen zur Genehmigung von Anfragen und Anfragestatus
+## Überlegungen zur Genehmigung von Anfragen
 
-Gesendete Anfragen werden im Bereich Anfragen in Workfront auf der Registerkarte Planung des Abschnitts Gesendet mit einem der folgenden Anfragestatus angezeigt:
+* Gesendete Anfragen werden im Bereich Anfragen in Workfront auf der Registerkarte Planung des Abschnitts Gesendet mit einem der folgenden Anfragestatus angezeigt:
 
-* **Überprüfung ausstehend** Dieser Status wird angezeigt, wenn keine der genehmigenden Personen das Anfrageobjekt geöffnet hat.
-* **In Überprüfung**: Der Status **Ausstehende Überprüfung** ändert sich in **In Überprüfung**, wenn mindestens eine genehmigende Person das Anfrageobjekt öffnet. Der Status der Anfrage bleibt **In Überprüfung** bis alle genehmigenden Personen die Anfrage genehmigt haben.
-* **Genehmigt**: Wenn eine genehmigende Person das Anfrageobjekt genehmigt, wird ihr individueller Status **Genehmigt**, aber der Gesamtstatus des Anfrageobjekts bleibt **In Überprüfung**, bis alle genehmigenden Personen ihre Entscheidung getroffen haben. Wenn alle genehmigenden Personen eine Anfrage genehmigen, wird der Anfragestatus **Genehmigt**.
-* **Abgeschlossen**: Wenn alle genehmigenden Personen das Anfrageobjekt genehmigen, ändert sich sein Status in **Abgeschlossen** oder wenn für die Anfrage keine Genehmigung erforderlich ist.
-* **Abgelehnt**: Wenn eine genehmigende Person das Anfrageobjekt ablehnt, wird der Status **Abgelehnt**. Es wird kein Datensatz erstellt und es muss eine neue Anfrage gesendet werden, um den Datensatz zu erstellen.
+   * **Überprüfung ausstehend** Dieser Status wird angezeigt, wenn keine der genehmigenden Personen das Anfrageobjekt geöffnet hat.
+   * **In Überprüfung**: Der Status **Ausstehende Überprüfung** ändert sich in **In Überprüfung**, wenn mindestens eine genehmigende Person das Anfrageobjekt öffnet. Der Status der Anfrage bleibt **In Überprüfung** bis alle genehmigenden Personen die Anfrage genehmigt haben.
+   * **Genehmigt**: Wenn eine genehmigende Person das Anfrageobjekt genehmigt, wird ihr individueller Status **Genehmigt**, aber der Gesamtstatus des Anfrageobjekts bleibt **In Überprüfung**, bis alle genehmigenden Personen ihre Entscheidung getroffen haben. Wenn alle genehmigenden Personen eine Anfrage genehmigen, wird der Anfragestatus **Genehmigt**.
+   * **Abgeschlossen**: Wenn alle genehmigenden Personen das Anfrageobjekt genehmigen, ändert sich sein Status in **Abgeschlossen** oder wenn für die Anfrage keine Genehmigung erforderlich ist.
+   * **Abgelehnt**: Wenn eine genehmigende Person das Anfrageobjekt ablehnt, wird der Status **Abgelehnt**. Es wird kein Datensatz erstellt und es muss eine neue Anfrage gesendet werden, um den Datensatz zu erstellen.
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## Zugriffsanforderungen
 
@@ -143,7 +145,7 @@ So validieren Sie eine Anfrage:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **&#x200B;**&#x200B;Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
+   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **** Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
 
      >[!TIP]
      >

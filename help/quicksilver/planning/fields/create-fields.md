@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # Erstellen von Feldern
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich <span class="preview">und Datensatztyp</span> </a> </p>  
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich und Datensatztyp</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ Einzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie kön
    ![Einzeiliger Textfeldtyp](assets/single-line-text-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spaltenüberschrift des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
 1. Klicken Sie auf **Erstellen**.
 
@@ -217,7 +212,7 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen über einen Dat
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
 1. Klicken Sie auf **Erstellen**.
 
@@ -234,7 +229,7 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Wahlen**: Die Optionen, die Benutzende beim Aktualisieren dieses Felds auswählen können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Auswahl verwenden.
 1. Klicken Sie **Auswahl hinzufügen**, um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Begrenzung dafür, wie viele Auswahlmöglichkeiten Sie einem Mehrfachauswahlfeld hinzufügen können.
@@ -263,7 +258,7 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Wahlen**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdown-Menü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Auswahl haben.
 
@@ -292,7 +287,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Der Typ des Datumsformats, das Sie in diesem Feld anzeigen möchten. <!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 >Zahlenfelder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Zahlen angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
@@ -330,7 +325,7 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
    ![Feldtyp Zahl](assets/number-field-type.png)
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die Sie für das Feld aufzeichnen möchten. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Zahlen in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
@@ -352,7 +347,7 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
 >Prozentuale Felder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten und die Werte dieser Felder werden nach dem Senden der Anfrage als Prozentwerte für den Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
@@ -360,7 +355,7 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
    ![Feldtyp Prozentsatz](assets/percentage-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die Sie für das Feld aufzeichnen möchten. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Prozentwerte in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
@@ -392,14 +387,14 @@ Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangeste
 >Währungsfelder werden in einem Formular-Builder für Anfragen als einzeilige Textfelder angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Währung angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
    ![Feldtyp Währung](assets/currency-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Währung**: Der Währungstyp, der in diesem Feld angezeigt werden soll. Dies ist eine Liste der Währungen nach der Internationalen Organisation für Normung (ISO).
    * **Genauigkeit**: Die Anzahl der Dezimalstellen, die Sie für das Feld aufzeichnen möchten. Es können bis zu 6 Dezimalstellen angezeigt werden.
@@ -422,7 +417,7 @@ Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine ein
    ![Checkbox-Feldtyp](assets/checkbox-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
 1. Klicken Sie auf **Erstellen**.
 
@@ -513,7 +508,7 @@ Sie können den Feldtyp Personen verwenden, um eine <!--, job role, or team--> z
    ![Personen-Feldtyp](assets/people-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Mehrere Werte zulassen**: Wählen Sie diese Option aus, wenn Sie Benutzern das Hinzufügen mehrerer Benutzer zu diesem Feld ermöglichen möchten. Diese Option ist standardmäßig deaktiviert.
 
@@ -535,7 +530,7 @@ Mit dem Feldtyp Erstellt von können Sie den Benutzer, der den Datensatz erstell
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
 
 1. Klicken Sie auf **Erstellen**.
@@ -555,7 +550,7 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
@@ -586,7 +581,7 @@ Mit dem Feldtyp Zuletzt geändert von können Sie den Benutzer, der den Datensat
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
 
 1. Klicken Sie auf **Erstellen**.
@@ -606,7 +601,7 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
-   * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
@@ -626,6 +621,75 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld vom Typ „Zuletzt geändert“ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz zuletzt geändert wurde.
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

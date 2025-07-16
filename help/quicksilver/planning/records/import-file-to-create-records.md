@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '923'
+ht-degree: 0%
 
 ---
 
 
 # Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,8 +29,6 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,15 +81,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich (<span class="preview"> Datensatztyp) bei</span> dem Sie Datensätze hinzufügen möchten. </p>  
+   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten. </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,16 +106,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * Verbindungsfelder, abhängig von der verwendeten Umgebung:
-
-      * In der Produktionsumgebung können Verbindungsfelder nicht den Planungsdatensätzen oder Workfront- und AEM Assets-Objekten zugeordnet werden
-
-      * <span class="preview">In der Vorschau-Umgebung können Sie Verbindungsfelder Planungsdatensätzen zuordnen und importieren. Sie können keine Felder Workfront und AEM Assets zuordnen.</span>
-
+   * Verbindungsfelder zu Workfront- und AEM Assets-Objekttypen. Sie können nur Verbindungsfelder den Planungs-Datensatztypen zuordnen.
    * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
    * Formelfelder
    * Erstellungsdatum, Erstellt von
    * Datum der letzten Änderung, letzte Änderung von
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Personen
    * Wenn ein Feld mit mehreren oder nur einer Auswahl importiert wird und es mehr Auswahlmöglichkeiten als ein ähnliches Feld in Planning hat, werden die zusätzlichen Optionen während des Imports erstellt. Nur Benutzer mit der Berechtigung Verwalten für den Arbeitsbereich können neue Auswahlmöglichkeiten importieren.
 

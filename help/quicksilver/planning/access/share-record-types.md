@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Datensatztypen freigeben
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensatztypen im Arbeitsbereich.
->&#x200B;>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
+>>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
@@ -95,12 +95,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>  <p>Verwalten der Berechtigungen für einen Datensatztyp</p>  
    <p>Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich können die Berechtigung Verwalten für einen Datensatztyp freigeben.</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die die Planungsbereiche enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren standardmäßig der Bereich Planung aktiviert.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -151,7 +147,7 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
    Dadurch wird die Seite „Datensatztyp“ geöffnet.
 
 1. Klicken Sie auf der Registerkarte einer beliebigen Ansicht **Freigeben** in der oberen rechten Ecke des Datensatztyps.
-1. <span class="preview">Klicken Sie **Datensatztyp freigeben**.</span>
+1. Klicken Sie **Datensatztyp freigeben**.
 
    Das Feld **Freigeben** wird geöffnet.
 
@@ -211,7 +207,7 @@ Sie können Benutzerberechtigungen von einem Datensatztyp entfernen. Sie behalte
 1. Öffnen Sie den Arbeitsbereich, dessen Datensatztypen Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz . Dadurch wird die Seite „Datensatztyp“ geöffnet.
 
 1. Klicken Sie auf der Registerkarte einer beliebigen Ansicht **Freigeben** in der oberen rechten Ecke des Datensatztyps.
-1. <span class="preview">Klicken Sie **Datensatztyp freigeben**.</span>
+1. Klicken Sie **Datensatztyp freigeben**.
 
    Das Feld **Freigeben** wird geöffnet.
 1. Suchen Sie die Person, Gruppe, Team, Firma oder Aufgabengebiet, deren Berechtigungen Sie entfernen möchten, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben ihrem Namen und klicken Sie auf **Entfernen**. <!--check the screen shot below - the UI text for View might not be accurate-->

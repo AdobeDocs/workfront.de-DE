@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 0%
@@ -239,7 +239,7 @@ Alle Anfragen, auf die Sie Zugriff haben und die an ein Planungsanfrageformular 
       * **Eingabedatum** Das Datum, an dem die Anfrage gesendet wurde.
       * **Anfrageformular**: Der Name des Anfrageformulars, das zum Senden der Anfrage verwendet wird.
       * **Status**: Der Status der Anfrage.
-      * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage mit einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
+      * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage von einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
 
         Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
 Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
@@ -312,6 +312,8 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
      >[!NOTE]
      >
      >Die E-Mail- und In-App-Benachrichtigungen sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
+
+   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.
 

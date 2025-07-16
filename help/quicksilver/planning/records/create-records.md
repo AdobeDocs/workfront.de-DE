@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Erstellen von Datensätzen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich (<span class="preview"> Datensatztyp) bei</span> dem Sie Datensätze hinzufügen möchten. </p>
-   <p>Zeigen Sie Berechtigungen oder höhere Berechtigungen für den Arbeitsbereich (<span class="preview"> Datensatztyp) an</span> um Datensätze mithilfe der Schaltfläche Datensatz anfragen auf der Datensatzseite zu erstellen</p>
+   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten. </p>
+   <p>Zeigen Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp an oder erhöhen Sie diese, um Datensätze mithilfe der Schaltfläche Datensatz anfragen auf der Datensatzseite zu erstellen</p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
      >[!TIP]
      >
-     ><span class="preview">Wenn Sie in einer Gruppierung oder Untergruppierung nach dem letzten Datensatz einen neuen Datensatz hinzufügen, füllt Workfront automatisch die in den Gruppierungen enthaltenen Felder. Sie können diese Felder bei Bedarf manuell bearbeiten, und die Datensätze können aus der Gruppierung entfernt werden. </span>
+     >Wenn Sie in einer Gruppierung oder Untergruppierung nach dem letzten Datensatz einen neuen Datensatz hinzufügen, füllt Workfront automatisch die in den Gruppierungen enthaltenen Felder. Sie können diese Felder bei Bedarf manuell bearbeiten, und die Datensätze können aus der Gruppierung entfernt werden.
 
    * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen.
    * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen**.
@@ -187,10 +182,10 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 ## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
 
-Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich <!--<span class="preview">and record type</span>--> können Datensätze nur mithilfe der Schaltfläche Datensatz anfragen auf der Seite Datensatztyp erstellen.
+Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich und den Datensatztyp können Datensätze nur mithilfe der Schaltfläche Datensatz anfordern auf der Seite Datensatztyp erstellen.
 
-Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich <!--<span class="preview">and record type</span>--> können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich und den Datensatztyp können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereic
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
-1. (Bedingt) Klicken Sie in einer beliebigen Ansicht in der oberen rechten Ecke Ihres Bildschirms auf eine der folgenden Optionen, je nach den Berechtigungen in Workspace <!--<span class="preview">and record type</span>-->:
+1. (Bedingt) Klicken Sie in einer beliebigen Ansicht in der oberen rechten Ecke Ihres Bildschirms auf eines der folgenden Elemente, je nach den Berechtigungen für den Arbeitsbereich und den Datensatztyp:
 
-   * Klicken Sie auf **Neuer Datensatz**, wenn Sie für die Workspace-<!--<span class="preview">and record type</span>--> Beitragen oder höhere Berechtigungen haben
+   * Klicken Sie **Neuer Datensatz**, wenn Sie für den Arbeitsbereich und den Datensatztyp die Berechtigung Beitragen oder eine höhere Berechtigung haben
 
      Oder
 
-   * Klicken Sie **Eintrag anfragen**, wenn Sie über Anzeigeberechtigungen für die Workspace-<!--<span class="preview">and record type</span>--> verfügen.
+   * Klicken Sie **Datensatz anfordern**, wenn Sie über Anzeigeberechtigungen für den Arbeitsbereich und den Datensatztyp verfügen.
 
 1. (Bedingt) Wenn Sie auf **Neuer Datensatz** geklickt haben, führen Sie folgende Schritte aus:
 

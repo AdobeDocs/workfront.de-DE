@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 2%
 
 ---
 
 # Verwalten der Tabellenansicht
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Informationen zum Exportieren der Tabellenansicht in eine Excel- oder CSV-Datei 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
-   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern, zu duplizieren <span class="preview"> zu exportieren</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die die Planungsbereiche enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren standardmäßig der Bereich Planung aktiviert.</span></p></td> 
+   <p>Berechtigungen für eine Ansicht anzeigen , um die Anzeigeeinstellungen vorübergehend zu ändern, zu duplizieren oder zu exportieren</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Beim Erstellen einer Tabellenansicht werden alle Datensätze des ausgewählten T
 
 Verwalten einer Tabellenansicht:
 
-1. <span class="preview">Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben</span>
+1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-   <span class="preview">![Beispiel für eine Tabellenansicht](assets/table-view-example.png)
-
-   </span>
+   ![Beispiel für eine Tabellenansicht](assets/table-view-example.png)
 
 1. (Optional) Klicken Sie auf **Zeilenhöhe** und wählen Sie dann eine der folgenden Optionen, um die Höhe der Tabellenzeilen zu ändern:
    * Klein
@@ -130,7 +123,7 @@ Verwalten einer Tabellenansicht:
    * [Filter](#add-filters)
    * [sort](#add-a-sort)
    * [Gruppierung](#add-groupings)
-   * <span class="preview">[Zeilenfarben](#add-row-colors)</span>
+   * [Zeilenfarben](#add-row-colors)
    * [Echtzeit-Präsenz-Indikator](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ Um eine Gruppierung hinzuzufügen:
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
-   <span class="preview">![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)</span>
+   ![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
@@ -470,9 +463,7 @@ Um eine Gruppierung hinzuzufügen:
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
 1. (Optional) Klicken Sie auf **+ Neuer Datensatz** am Ende einer Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">Um Gruppierungen zu erweitern oder zu reduzieren, führen Sie einen der folgenden Schritte aus:</span>
-
-   <div class="preview">
+1. Um Gruppierungen zu erweitern oder zu reduzieren, führen Sie einen der folgenden Schritte aus:
 
    1. Klicken Sie auf **Gruppierung** und dann auf **Alle erweitern** oder **Alle reduzieren**. Dadurch werden alle Gruppierungen und Untergruppierungen in der Tabellenansicht erweitert.
 
@@ -486,7 +477,7 @@ Um eine Gruppierung hinzuzufügen:
       * **Erweitern von Untergruppen**
       * **Untergruppen reduzieren**
 
-      Je nach der Anzahl der Gruppierungen, die Sie auf die Ansicht anwenden, stehen einige Optionen möglicherweise nicht zur Verfügung.</div>
+      Je nach der Anzahl der Gruppierungen, die Sie auf die Ansicht anwenden, stehen einige Optionen möglicherweise nicht zur Verfügung.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Zeilenfarben hinzufügen
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Klicken Sie auf eine Stelle außerhalb des **Zeilenfarben**-Felds, um es zu schließen. Die Farben werden automatisch angewendet.
 
-</div>
-
 ### Aktivieren der Echtzeit-Anwesenheitsindikator
 
 Die Avatare anderer Benutzer, die Datensatzinformationen gleichzeitig bearbeiten, wie Sie standardmäßig in der oberen rechten Ecke aller Datensatzansichten anzeigen.
@@ -557,7 +544,7 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
    >
    >Sie können den Umschalter **Mitarbeiter anzeigen** in jeder Ansicht auswählen. Das Feld, das derzeit von anderen bearbeitet wird, ist nur in der Tabellenansicht umrandet.
 
-<div class="preview">
+
 
 
 

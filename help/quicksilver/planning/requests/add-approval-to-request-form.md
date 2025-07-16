@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -116,6 +116,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zum Hinzufügen von Genehmigungen zu einem Anfrageformular
 
 * Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen. Sie können nur Benutzer als genehmigende Personen hinzufügen.
+  <!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 * Wenn Sie einem Anfrageformular mehrere genehmigende Personen hinzufügen, müssen alle genehmigenden Personen die Anfrage akzeptieren, bevor in Workfront Planning ein Datensatz erstellt wird.
 * Wenn alle genehmigenden Personen die Anfrage genehmigen, wird ein Datensatz für den mit dem Anfrageformular verknüpften Datensatztyp erstellt.
 * Wenn mindestens eine genehmigende Person die Anforderung ablehnt und alle anderen sie genehmigen, wird eine Anforderung für den Bereich Anfragen in Workfront erstellt, aber es wird kein Datensatz für den Datensatztyp erstellt, der mit dem Anfrageformular verknüpft ist.
