@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 1. Klicken Sie im linken Bereich auf **Schnittstelle** > **Layoutvorlagen**.
 
 1. Klicken Sie auf den Namen der Layout-Vorlage, die Sie ändern möchten.
-1. Klicken Sie **Kopieren**.
+1. Klicken Sie auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png).
 
    Alle Einstellungen mit Ausnahme des Namens, der Beschreibung und der Benutzerzuweisungen in der vorhandenen Layout-Vorlage werden in die neue Vorlage kopiert.
 
