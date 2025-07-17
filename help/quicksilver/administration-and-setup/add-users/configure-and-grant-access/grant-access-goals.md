@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
@@ -59,7 +59,6 @@ Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Vorausse
 1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf die Option rechts neben **Ziele**, die Sie für diese Zugriffsebene verwenden möchten.
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >

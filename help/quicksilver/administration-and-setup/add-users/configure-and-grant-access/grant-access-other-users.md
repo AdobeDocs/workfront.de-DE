@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
 
    1. Deaktivieren Sie **Kontaktinformationen anzeigen** und klicken Sie dann auf das X, um das Feld **Feinabstimmung der Einstellungen** zu schließen.
 
+      ![Benutzereinstellungen optimieren](assets/fine-tune-users.png)
+
 1. Um die Möglichkeit von Benutzern mit einer Planlizenz zu ändern, andere Benutzer zu bearbeiten, klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der Schaltfläche **Bearbeiten** rechts neben **Benutzer** und wählen Sie die Funktionen aus, die Sie gewähren möchten:
 
    <table style="table-layout:auto"> 
@@ -80,12 +82,9 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
      <tr> 
       <td role="rowheader"><strong>Erstellen</strong> </td> 
       <td> <p>Ermöglicht Benutzern das Erstellen von Benutzern.<br>Diese Option ist standardmäßig aktiviert.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Vergewissern Sie sich, dass diese Änderung vorgenommen wird, bevor Sie die Entwürfe für diese zwei Notizen rückgängig machen. Am 29.3. heißt es im Req Doc, dass dies von den Untersuchungsergebnissen abhängt.</p>
-
-       &lt;p>&lt;b>HINWEIS&lt;/b>: Dies ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>HINWEIS</b>: Dies ist nicht verfügbar, wenn Ihre Organisation in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Löschen</strong> </td> 
       <td> <p> Ermöglicht Benutzern das Löschen der von ihnen selbst erstellten Benutzer.<br>Diese Option ist standardmäßig aktiviert.</p> <p><b>HINWEIS</b>: Dies ist nicht verfügbar, wenn Ihre Organisation in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.</p> </td> 

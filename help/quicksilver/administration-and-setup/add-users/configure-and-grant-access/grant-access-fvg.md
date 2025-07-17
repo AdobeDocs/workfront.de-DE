@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben den Filtern und wählen Sie dann unter **Einstellungen optimieren** die Funktionen aus, die Sie gewähren möchten.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    Standardmäßig haben Benutzende mit Plan-, Arbeits-, Prüfer- oder Anfragelizenzen die Möglichkeit zum vollständigen Anzeigen und Bearbeiten. Benutzende mit einer Lizenz für externe Benutzer haben keinen Zugriff auf Filter, Ansichten und Gruppierungen.
 
@@ -80,7 +80,7 @@ In dieser Tabelle ist aufgeführt, was ein Workfront-Administrator Benutzern mit
 <thead>
 <tr>
 <th> Aktion </th>
-<th> Planer </th>
+<th> Planerin oder Planer </th>
 <th> Arbeitskraft </th>
 <th> Prüfende Person </th>
 <th> Anfragende Person </th>
