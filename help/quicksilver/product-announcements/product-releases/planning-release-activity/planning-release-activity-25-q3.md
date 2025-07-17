@@ -27,7 +27,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktion für alle: 10. Juli 2025
+>&#x200B;>Produktion für alle: 10. Juli 2025
 
 
 Die Registerkarte Erweiterte Einstellungen wurde aktualisiert, wenn ein Datensatztyp erstellt oder bearbeitet wird.
@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktion für alle: 10. Juli 2025
+>&#x200B;>Produktion für alle: 10. Juli 2025
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
@@ -55,8 +55,8 @@ Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwa
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktions-Schnellveröffentlichung: 14. August 2025
->>Produktion für alle: 16. Oktober 2025
+>&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
+>&#x200B;>Produktion für alle: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 >[!NOTE]
 >
 >Vorschau: 9. Juli 2025
->>Produktion für alle: 17. Juli 2025
+>&#x200B;>Produktion für alle: 17. Juli 2025
 
 Über dieselbe Schaltfläche auf der Seite des Datensatztyps können Sie jetzt sowohl eine Ansicht als auch einen Datensatztyp freigeben. Vor dieser Verbesserung konnten Sie den Datensatztyp nur über die Schaltfläche Freigeben auf der Seite Datensatztyp und eine Ansicht über die Registerkarte Ansicht freigeben.
 
@@ -336,7 +336,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

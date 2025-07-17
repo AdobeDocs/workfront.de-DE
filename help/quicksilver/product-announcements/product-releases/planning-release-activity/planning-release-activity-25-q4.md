@@ -27,8 +27,8 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >[!NOTE]
 >
 >Vorschau: 17. Juli 2025
->>Produktion für die Schnellveröffentlichung: 14. August 2025
->>Produktion für alle: 16. Oktober 2025
+>&#x200B;>Produktion für die Schnellveröffentlichung: 14. August 2025
+>&#x200B;>Produktion für alle: 16. Oktober 2025
 
 
 Wir führen die folgenden Felder ein, um Genehmigungsinformationen für Datensätze zu erfassen, die durch Senden einer Anfrage mit einer Genehmigung erstellt wurden:
@@ -44,8 +44,8 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktions-Schnellveröffentlichung: 14. August 2025
->>Produktion für alle: 16. Oktober 2025
+>&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
+>&#x200B;>Produktion für alle: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
