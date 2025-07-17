@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 ## Neue Felder zum Anzeigen von Informationen zur Datensatzgenehmigung
 
-Vorschau: 17. Juli 2025
-Produktion für die Schnellveröffentlichung: 14. August 2025
-Produktion für alle: 16. Oktober 2025
+>[!NOTE]
+>
+>Vorschau: 17. Juli 2025
+>>Produktion für die Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle: 16. Oktober 2025
+
 
 Wir führen die folgenden Felder ein, um Genehmigungsinformationen für Datensätze zu erfassen, die durch Senden einer Anfrage mit einer Genehmigung erstellt wurden:
 
@@ -37,9 +41,12 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 
 ## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
-Vorschau: 10. Juli 2025
-Produktions-Schnellveröffentlichung: 14. August 2025
-Produktion für alle: 16. Oktober 2025
+>[!NOTE]
+>
+>Vorschau: 10. Juli 2025
+>>Produktions-Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle: 16. Oktober 2025
+
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-

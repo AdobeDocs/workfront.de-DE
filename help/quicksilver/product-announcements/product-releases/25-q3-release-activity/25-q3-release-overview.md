@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '1794'
+source-wordcount: '1866'
 ht-degree: 3%
 
 ---
@@ -58,33 +58,26 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
-        <tr>
+    <tr>
         <td>
-            Integration von <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Express und Workfront Proof</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
-            <p>Wir freuen uns, eine neue Integration zwischen Adobe Express und Workfront Proof bekannt geben zu können.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen - schrittweiser Rollout</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.</p>
+            <p>Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die neuen Funktionen. 
+</p>
         </td>
-        <td>Samstag, 13. Juni 2025</td>
-        <td>Samstag, 13. Juni 2025</td>
-        <td>Samstag, 13. Juni 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
     </tr> 
-    <!--<tr>
+    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.
-            <ul>
-            <li>Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight</li>
-            <li>Conduct deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer</li>
-            <li>Meet enterprise compliance standards with electronic signatures and full audit logs</li>
-            <li>Require approval on any remixed files from an Express branded template</li>
-            <li>Map an Express template to a multi-stage review and approval workflow using advanced proof templates</li>
-            </ul>
-            <p>Note: The integration must be enabled for your accounts by the Adobe Product Team.</p>
-            </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer-Update</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Der Desktop Proofing Viewer wurde auf Version 2.1.50 aktualisiert. Diese Aktualisierung umfasst Aktualisierungen der internen Tools und wirkt sich nicht auf die Endbenutzerfunktionen aus.
         </td>
-        <td>July 17, 2025</td>
-        <td>July 17, 2025</td>
-        <td>July 17, 2025</td>
-    </tr> -->
+        <td>16. Juni 2025</td>
+        <td>16. Juni 2025</td>
+        <td>16. Juni 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Proofing- und GenStudio for Performance Marketing-Integration</a>
@@ -350,7 +343,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -388,7 +381,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## Einheitlicher Rollout von Genehmigungen nach Phasen
+
+>[!NOTE]
+>
+>Produktionsversion für Kunden: Schrittweiser Rollout ab 17. Juli 2025
+
+
+Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.
+
+Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die folgenden Funktionen direkt in einem Dokument:
+
+* Ein ganzes Workfront-Team entweder als Prüfer oder als genehmigende Person bestimmen
+* Festlegen einer Frist für die Überprüfung oder Genehmigung
+* Erstellen und Wiederverwenden von Genehmigungsvorlagen
+* Verwenden neuer Versionen
+* Anzeigen mehrerer wichtiger Leistungsindikatoren für Ihre Genehmigungen in den Widgets der Workfront-Startseite
+* Verwenden von Arbeitsflächen-Dashboards zum Anzeigen von Berichtsdetails zu einheitlichen Genehmigungen
+
+Weitere Informationen finden Sie unter [Übersicht über einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 ## Update der Desktop Proofing Viewer
+
+>[!NOTE]
+>
+>* Produktionsversion für alle Kunden: 16. Juni 2025
 
 Der Desktop Proofing Viewer wurde auf Version 2.1.50 aktualisiert.
 
