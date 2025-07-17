@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 282bcd517736cef2836842409e65a6ddce63d853
+source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dieser Artikel enthält eine Liste von Artikeln zu Versionsaktivitäten des Adob
 
 Informationen zur aktuellen Workfront Planning-Release-Aktivität finden Sie im folgenden Artikel:
 
-* [Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+* [Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
 
@@ -30,6 +30,8 @@ Informationen zur aktuellen Workfront Planning-Release-Aktivität finden Sie im 
 
 Informationen zu Funktionen, die vor der Produktionsversion vom 10. April 2025 veröffentlicht wurden, finden Sie in den folgenden Artikeln:
 
+* [Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+* [Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Versionsaktivität 2025 für Adobe Workfront Planning im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2024](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
