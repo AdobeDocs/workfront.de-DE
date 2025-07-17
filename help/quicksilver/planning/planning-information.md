@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 6705e9437d8e562dd43b8f530be90ee401042c80
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning: Artikelindex
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -51,12 +51,7 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront 
    * Freigabeberechtigungen für Planning
    * Ansichten freigeben
    * Freigeben von Arbeitsbereichen (Datensätze und Felder)
-
-  <div class="preview">
-
-   * Datensatztypen freigeben
-
-  </div>
+   * Datensatztypen (Datensätze und Felder) freigeben
 
 * [Architektur: Artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) enthält die folgenden Informationen:
 
@@ -101,13 +96,17 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront 
 
 * [Grundlagen der Adobe Workfront Planning-](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird.
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
 
 * [Übersicht über den Adobe Workfront Planning AI-Assistenten](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI-Assistenten für Planning können Sie nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen, indem Sie Befehle verwenden und den Assistenten die Arbeit für Sie erledigen lassen.
 
-  >[!NOTE]
-  >
-  >    Der Workfront-KI-Assistent wurde vorübergehend entfernt und ist zu einem späteren Zeitpunkt verfügbar.
+<!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
+
+* [Konfigurieren von Adobe Workfront Planning-](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Sie können Automatisierungen in Adobe Workfront Planning konfigurieren, die bei Aktivierung Objekte in Workfront oder Datensätze in Workfront Planning erstellen, wenn sie durch einen Planning-Datensatz ausgelöst werden.
 
 * **Berichterstellungsfunktionen für Workfront Planning**: Sie können jetzt mithilfe des Workfront Canvas-Dashboards Workfront-Planungsinformationen in einem Bericht anzeigen. Weitere Informationen finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

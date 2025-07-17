@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -154,18 +154,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Anforderungstypen</strong> </td> 
-      <td> <p>Wählen Sie aus, welche Art von Anfragen dieses Warteschlangenthema speichert. Die sichtbaren Optionen werden auf der Registerkarte <strong>Warteschlangendetails</strong> des Projekts festgelegt. Dies ist ein Pflichtfeld. </p>
-
-   <p><b>HINWEIS</b>:
-
-   Typen werden nur dann als Auswahl im Bereich Anfragen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch auf den Seiten Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs „Warteschlangendetails“ eines Projekts finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>. </p> <p>Wählen Sie aus den folgenden Typen:</p>
-   <ul>
-   <li>Fehlerbericht</li>
-   <li>Änderungsanforderung</li>
-   <li>Problem</li>
-   <li>Anfrage</li>
-   </ul> <p>Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. </p> </td>
-   </tr> 
+      <td> <p>Wählen Sie aus, welche Art von Anfragen dieses Warteschlangenthema speichert. Die sichtbaren Optionen werden auf der Registerkarte <strong>Warteschlangendetails</strong> des Projekts festgelegt. Dies ist ein Pflichtfeld. </p> 
+       <p><b>HINWEIS</b>:</p>
+      <p>Typen werden nur dann als Auswahl im Bereich Anfragen angezeigt, wenn der Anfragetyp sowohl auf den Seiten Warteschlangendetails als auch auf den Seiten Warteschlangenthema ausgewählt ist. Informationen zum Einrichten des Bereichs „Warteschlangendetails“ eines Projekts finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>. </p> <p>Wählen Sie aus den folgenden Typen:</p> 
+       <ul> 
+        <li>Fehlerbericht</li> 
+        <li>Änderungsanforderung</li> 
+        <li>Problem</li> 
+        <li>Anfrage</li> 
+       </ul> <p>Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
