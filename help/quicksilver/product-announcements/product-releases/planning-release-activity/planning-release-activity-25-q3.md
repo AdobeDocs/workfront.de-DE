@@ -109,7 +109,7 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben Optionen zum Verwalten und Beitragen für Benutzer entfernt, für die Sie das Anfrageformular freigeben. Jetzt können hinzugefügte Benutzer nur noch das Formular senden.
 * Auf der Registerkarte Öffentliche Freigabe werden jetzt das Feld Link und Ablaufdatum angezeigt, nachdem die Option Öffentlichen Link erstellen aktiviert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
 
