@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3708'
+source-wordcount: '3750'
 ht-degree: 2%
 
 ---
@@ -66,9 +66,9 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td><p> Standard zum Erstellen und Löschen von Ansichten</p>
+   <p>Mitwirkender oder höher zum Aktualisieren von Ansichtselementen</p>
    <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
@@ -81,7 +81,13 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
    <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren</p> </td> 
-  </tr>  
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
+   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -506,7 +512,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

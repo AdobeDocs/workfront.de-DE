@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1155'
 ht-degree: 5%
 
 ---
@@ -20,19 +20,23 @@ ht-degree: 5%
 
 # Übersicht über Freigabeberechtigungen in Adobe Workfront Planning
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
+Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich, einen Datensatztyp oder eine Ansicht freigeben oder entfernen.
 
-In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Objekte beschrieben.
+Sie können auch Planungsanfrageformulare freigeben. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Arbeitsbereiche, Datensatztypen, Datensätze, Felder und Ansichten beschrieben.
 
 ## Objekte, die Sie in Adobe Workfront Planning freigeben können
+
+Einige Workfront Planning-Objekte können manuell freigegeben werden, während andere Objekte diese Berechtigungen von anderen Objekten erben.
 
 Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
@@ -44,8 +48,6 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
 * Datensatztypen
 
    * Sie können Datensatztypen für Personen in Ihrer Organisation freigeben.
@@ -53,8 +55,6 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
    * Sie können keinen Datensatztyp mit einer höheren Berechtigungsstufe freigeben, als der Benutzer für den Arbeitsbereich hat.
 
   Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
-
-</div>
 
 
 * Ansichten
@@ -66,7 +66,7 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
-Intern können Sie einen Arbeitsbereich, eine Ansicht oder <span class="preview"> Datensatztyp-</span> für die folgenden Workfront-Entitäten freigeben:
+Intern können Sie einen Arbeitsbereich, eine Ansicht oder einen Datensatztyp für die folgenden Workfront-Entitäten freigeben:
 
 * Benutzende
 * Gruppen
@@ -74,7 +74,7 @@ Intern können Sie einen Arbeitsbereich, eine Ansicht oder <span class="preview"
 * Firmen
 * Aufgabengebiete
 
-<span class="preview"> Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und die mit ihnen verknüpften Felder übernommen. </span>
+Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und die mit ihnen verknüpften Felder übernommen.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen die Berechtigungseben
 >Weitere Informationen finden Sie unter [Lizenztyp - Übersicht bei Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Workspace-Berechtigungen
+### Berechtigungen für Arbeitsbereiche
 
 Sie müssen Benutzern Berechtigungen für Arbeitsbereiche erteilen, damit sie Zugriff auf die folgenden Entitäten erhalten:
 
@@ -130,23 +130,26 @@ Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 | Löschen | ✓ |            |       |
 | Anzeigen | ✓ | ✓ | ✓ |
 
-### Berechtigungen für Datensatztyp
+### Berechtigungen für Datensatztypen
 
-In der Produktionsumgebung werden Berechtigungen vom Typ Datensatz immer vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
+The following are the levels of permissions for record types: 
 
 
-|        | Verwalten | Mitwirken | Anzeigen |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Erstellen | ✓ |            |       |
-| Löschen | ✓ |            |       |
-| Bearbeiten | ✓ |            |       |
-| Anzeigen | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-In der Vorschau-Umgebung können Sie die geerbten Berechtigungen des Datensatztyps, die Sie vom Arbeitsbereich erhalten haben, entfernen.
+Berechtigungen vom Typ „Datensatz“ werden immer vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+
+Sie können die geerbten Berechtigungen des Datensatztyps, die Sie vom Arbeitsbereich erhalten haben, entfernen.
 
 Sie können Benutzenden für den Datensatztyp niedrigere Berechtigungen erteilen als für den Arbeitsbereich.
 
@@ -168,11 +171,9 @@ Die folgenden Szenarien sind vorhanden:
 >
 >*Wenn Sie Berechtigungen von einem Datensatztyp entfernen, behalten Benutzer weiterhin Anzeigeberechtigungen für den Arbeitsbereich und alle Datensatztypen bei, es sei denn, Sie entfernen deren Berechtigungen vom Arbeitsbereich.
 
-</div>
+### Berechtigungen für Datensätze
 
-### Datensatzberechtigungen
-
-Datensatzberechtigungen werden vom <span class="preview">Datensatztyp) übernommen</span> wenn Sie Berechtigungen für den Arbeitsbereich und <span class="preview">den Datensatztyp) </span>.
+Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 
@@ -184,9 +185,9 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 | Bearbeiten | ✓ | ✓ |       |
 | Anzeigen | ✓ | ✓ | ✓ |
 
-### Feldberechtigungen
+### Berechtigungen zum Aufzeichnen von Feldern
 
-Feldberechtigungen werden vom <span class="preview">Datensatztyp) übernommen</span> wenn Sie Berechtigungen für den Arbeitsbereich und <span class="preview">den Datensatztyp</span> erteilen.
+Feldberechtigungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
 Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf die mit den einzelnen Feldern verknüpften Werte. Zum Bearbeiten von Feldwerten benötigen Sie Berechtigungen zum Bearbeiten von Datensätzen.
 
@@ -198,7 +199,7 @@ Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf d
 | Anzeigen | ✓ | ✓ | ✓ |
 
 
-### Berechtigungen anzeigen
+### Berechtigungen für Ansichten
 
 Für Datensatzansichten müssen Sie separate Berechtigungen erteilen. Bei der Erteilung von Berechtigungen für den Arbeitsbereich werden keine Berechtigungen für die Datensatzansichten im Arbeitsbereich gewährt.
 

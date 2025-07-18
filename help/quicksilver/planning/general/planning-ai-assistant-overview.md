@@ -1,12 +1,12 @@
 ---
 title: Adobe Workfront Planning AI Assistant - Übersicht
 description: Sie können den KI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen. Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass die von der KI vorgenommenen Änderungen genau in Ihrer Umgebung widergespiegelt werden.
-author: Alina
+author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
+source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%

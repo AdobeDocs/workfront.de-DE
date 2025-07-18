@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,6 @@ Sie erhalten möglicherweise In-App- oder E-Mail-Benachrichtigungen, wenn in Wor
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -91,10 +89,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
+   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 
@@ -129,7 +131,7 @@ Heben Sie die Markierung der Benachrichtigungen auf, die Sie nicht mehr erhalten
       * Der Status einer von Ihnen gesendeten Workfront-Planungsanfrage ändert sich
       * Genehmigungen für Workfront Planning-Anfragen anfordern, gewähren oder ablehnen
 
-   Weitere Informationen zum Verwalten von Benachrichtigungen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
+   Weitere Informationen zum Verwalten von Benachrichtigungen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -139,7 +141,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

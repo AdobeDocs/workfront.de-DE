@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Übersicht über verbundene Datensätze
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Weitere Informationen zum Verbinden von Datensätzen miteinander oder mit einem 
 
   Die Werte der Suchfelder werden in den Workfront-Planungsdatensatz eingegeben, aus dem Sie eine Verknüpfung herstellen, nachdem sie im ursprünglichen Datensatz oder Objekt aktualisiert wurden.
 
-* Alle Personen mit Zugriff auf Workfront Planning and View oder höheren Berechtigungen für den Arbeitsbereich <span class="preview">und einen Datensatztyp</span> können die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Programmen anzeigen, mit denen Sie eine Verbindung herstellen.
-* Sie können die Verbindungen aller anderen Benutzer anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich (<span class="preview"> den Datensatztyp) </span>, in dem sich die verbundenen Datensätze befinden.
+* Jeder, der Zugriff auf Workfront Planning and View oder höhere Berechtigungen für den Arbeitsbereich und einen Datensatztyp hat, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Programmen anzeigen, mit denen Sie eine Verbindung herstellen.
+* Sie können die Verbindungen aller anderen anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich und den Datensatztyp verfügen, in dem sich die verbundenen Datensätze befinden.
 * Je nach Verbindungstyp, den Sie beim Verbinden der Datensatztypen ausgewählt haben, können Sie einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden. Weitere Informationen finden Sie im Abschnitt „Verbindungstypen“ im Artikel &quot;[ Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Bereiche, in denen Datensätze verbunden werden können
@@ -54,7 +54,7 @@ In den folgenden Bereichen können Sie Datensätze mit anderen Datensätzen oder
    * Die verbundenen Datensatzfelder in der Tabellenansicht eines Datensatztyps in Planning.
    * Die Vorschau oder Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
    * Die Vorschau oder Seite des Datensatzes auf der Registerkarte Verbindungen .
-   * Die Seite des Datensatzes auf der Registerkarte <span class="preview">Verbundene Datensatzseite</span> eines verbundenen Datensatzes.
+   * Die Seite des Datensatzes auf der Registerkarte „Verbundene Datensatzseite“ eines verbundenen Datensatzes.
 
 * Sie können Workfront-Objekte in den folgenden Bereichen von Workfront mit Workfront-Planungsdatensätzen verbinden:
 

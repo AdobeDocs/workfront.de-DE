@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 2%
 
 # Löschen von Datensätzen
 
-<!--take Preview and Production references out at release-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -29,8 +27,6 @@ Sie können Datensätze löschen, die in Adobe Workfront Planning nicht mehr rel
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -82,13 +78,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Mitwirken an oder höhere Berechtigungen für einen Arbeitsbereich <span class="preview">und einen Datensatztyp</span> </a> </p>  
+   <td>   <p>Beitragen oder höhere Berechtigungen für einen Arbeitsbereich und Datensatztyp </a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -100,7 +91,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zum Löschen von Datensätzen
 
 * Sie können Datensätze löschen, die Sie oder ein anderer Benutzer erstellt haben.
-* Gelöschte Datensätze können nicht in der Produktionsumgebung wiederhergestellt werden. Sie können gelöschte Datensätze in der Vorschau-Umgebung wiederherstellen.
+* Sie können gelöschte Datensätze wiederherstellen, die Sie oder andere gelöscht haben.
 * Wenn die gelöschten Datensätze mit anderen Datensätzen verknüpft sind, werden die verknüpften Datensätze nicht gelöscht, aber die Informationen aus dem gelöschten Datensatz werden ebenfalls gelöscht.
 * Sie können keine Datensätze aus der Zeitleiste oder den Kalenderansichten löschen.
 
@@ -136,7 +127,7 @@ Sie können einen Datensatz aus den folgenden Bereichen löschen:
 
    ![Weitere Menüoptionen auf der Seite „Datensatzdetails“](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Der Datensatz wird gelöscht.
-1. (Optional und bedingt) Wenn Sie den Datensatz in der Vorschau-Umgebung löschen, wechseln Sie zur Tabellenansicht der Datensatzseite und klicken Sie auf das **Rückgängig**-Symbol ![Rückgängig-Symbol](assets/undo-icon.png) in der oberen rechten Ecke der Ansicht und klicken Sie dann auf **Kürzlich gelöscht**, um die gelöschten Datensätze wiederherzustellen.
+1. (Optional) Wechseln Sie zur Tabellenansicht der Datensatzseite, klicken Sie oben rechts in der Ansicht auf das **Rückgängig**-Symbol ![Rückgängig](assets/undo-icon.png) und klicken Sie dann auf **Kürzlich gelöschte**, um die gelöschten Datensätze wiederherzustellen.
 
 Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
 

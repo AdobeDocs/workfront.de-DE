@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Verwalten von Datensatzverbindungen aus Workfront-Objekten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -32,8 +32,6 @@ Sie können Workfront-Planungsdatensätze in Workfront in den folgenden Bereiche
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto">
  <col>
@@ -72,8 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
@@ -94,17 +91,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Zeigen Sie in Workfront Berechtigungen oder höhere Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an</a> </p> 
    <p>In Workfront Planning:
    <ul><li>
-   Anzeigen von Berechtigungen für einen Arbeitsbereich (<span class="preview"> Datensatztyp), </span> verbundene Datensätze anzuzeigen </li>
+   Anzeigen von Berechtigungen für einen Arbeitsbereich und Datensatztyp zum Anzeigen verbundener Datensätze </li>
    oder
-   <li> Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich (<span class="preview"> Datensatztyp) </span>, um Datensätze zu verbinden oder zu trennen</a></li></ul> </p>  
+   <li> Beitragen von oder höhere Berechtigungen zu einem Arbeitsbereich und Datensatztyp, um Datensätze zu verbinden oder zu trennen</a></li></ul> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Workfront Planning-Arbeitsbereiche, einschließlich der nicht erstellten</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p>  </p>  
-</td>
   </tr>
  </tbody>
 </table>

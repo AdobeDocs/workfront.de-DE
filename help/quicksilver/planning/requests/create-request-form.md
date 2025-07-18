@@ -3,12 +3,12 @@ title: Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Plannin
 description: Nachdem Sie im Bereich Adobe Workfront-Planung einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen und es mit diesem Datensatztyp verknüpfen. Sie können dann einen Link dazu für andere interne oder externe Benutzer freigeben. Benutzer mit einem Link zum Formular können die Feldwerte darin ausfüllen und durch Senden einen neuen Datensatz für den damit verknüpften Datensatztyp hinzufügen.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <ul>
-   <li><p>Verwalten von Berechtigungen für einen Arbeitsbereich <span class="preview">und Datensatztyp</span> </p></li>
+   <li><p>Verwalten der Berechtigungen für einen Arbeitsbereich und Datensatztyp</p></li>
     <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>
     </ul>
    <p>Informationen zu Freigabeberechtigungen für Workfront Planning-Objekte finden Sie unter  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Übersicht über Freigabeberechtigungen in Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
 
-      * Erstellt von und Zuletzt geändert von <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * Erstellungsdatum und Datum der letzten Änderung <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * Erstellt von, Zuletzt geändert von, <span class="preview">Genehmigt von</span>
+      * Erstellungsdatum, Datum der letzten Änderung, <span class="preview">Genehmigungsdatum</span>
       * Formel
       * Suchfelder der Workfront-Objekte
       * Suchfelder für verknüpfte Datensätze in Workfront
@@ -229,6 +221,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
      Weitere Informationen zum Hinzufügen von Genehmigungen zu Anfrageformularen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Formulars in der Kopfzeile und klicken Sie dann auf **Bearbeiten**, um den Namen des Formulars zu aktualisieren.
+
 1. Klicken Sie auf **Veröffentlichen**, um das Formular zu veröffentlichen und einen eindeutigen Link für es zu erhalten.
 
    Folgendes geschieht:
@@ -236,47 +229,11 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    * Die Schaltfläche **Veröffentlichen** wird entfernt.
    * Die **Veröffentlichung aufheben** wird dem Formular hinzugefügt. Wenn Sie darauf klicken, ist der Zugriff auf das Formular nicht möglich.
    * Eine **Freigeben**-Schaltfläche wird dem Formular hinzugefügt.
+   * Das Formular wird im Bereich Anfragen des Hauptmenüs in Workfront verfügbar.
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   ![Feld „Freigeben“ für das Anfrageformular](assets/share-box-for-request-form.png)
-
-1. (Bedingt) Wählen Sie in der Produktionsumgebung eine der folgenden Optionen aus, um anzugeben, welche Benutzertypen auf dieses Formular zugreifen können:
-
-   * Jede Person mit Zugriff auf den Arbeitsbereich (Ansicht oder höher)
-   * Jede Person mit Zugriff auf den Arbeitsbereich (Beitrag oder höher)
-   * Jede Person mit dem Link
-
-   >[!WARNING]
-   >
-   >* Wenn Sie **Alle mit dem Link** auswählen, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, auch Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
-   >
-   >* Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:
-   >
-   >     * Workfront- oder AEM Assets-Verbindungen
-   >     * Personen
-   >
-
-1. (Bedingt) Wenn Sie in der Produktionsumgebung im vorherigen Schritt **Alle mit dem Link** ausgewählt haben, wählen Sie das **Link-Ablaufdatum** aus dem verfügbaren Kalender aus.
-
-   Personen erhalten nach Ablauf des Links einen Fehler, und Sie müssen das Link-Datum aktualisieren und einen neuen Link zur Freigabe generieren, bevor Personen erneut auf das Formular zugreifen können.
-
-   Sie können zukünftige Termine innerhalb von 180 Tagen ab dem aktuellen Datum auswählen.
-
-   >[!TIP]
-   >
-   >Nach Ablauf des Freigabedatums ist das Anfrageformular nicht mehr im Bereich Anfragen von Workfront verfügbar und die Links, die für andere Benutzende freigegeben sind, sind nicht mehr zugänglich.
-
-1. (Optional und bedingt) Klicken Sie in der Produktionsumgebung auf **Link speichern und kopieren** um die Freigabedetails für das Formular zu speichern. Wenn das Formular zuvor gespeichert wurde, klicken Sie auf **Link kopieren**.
-
-   Die Formularfreigabeoptionen werden gespeichert und der Link wird in die Zwischenablage kopiert. Sie können sie jetzt für andere freigeben.
-
-   Weitere Informationen zum Erstellen von Datensätzen über einen Link zu einem Anfrageformular finden Sie unter [Senden von Adobe Workfront Planning-Anfragen](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. <span class="preview">(Bedingt) Um eine Vorschau in der Vorschau-Umgebung für Benutzer freizugeben, wählen Sie die Registerkarte Interne Freigabe aus, suchen Sie nach dem Namen des Benutzers und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.</span>
-1. <span class="preview">(Bedingt) Um einen öffentlichen Link in der Vorschauumgebung zu erstellen, wählen Sie die Registerkarte Öffentliche Freigabe aus und aktivieren Sie dann die Option Öffentlichen Link erstellen . Sie können dann den Link hier kopieren oder ein Ablaufdatum für den Link festlegen.</span>
-1. Klicken Sie **Speichern** in der rechten unteren Ecke der Registerkarte **Formular**, um das Formular zu speichern.
-
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
@@ -291,7 +248,6 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    ![Menü „Mehr“ auf dem Anfrageformular aus der Liste der Anfrageformulare](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben **Anfrageformulare** in der Kopfzeile, um die Tabelle mit den Anfrageformularen zu schließen.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
@@ -302,3 +258,54 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
 1. (Optional) Wechseln Sie zum Bereich **Anfragen** in Workfront und suchen Sie das freigegebene Formular, um eine Anfrage zu senden. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
+## Anforderungsformular freigeben
+
+1. Erstellen Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars für einen Datensatztyp](#create-a-request-form-for-a-record-type) in diesem Artikel beschrieben.
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Anfrageformulars auf der Seite des Datensatztyps.
+1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
+
+1. Um das Formular intern freizugeben, wählen Sie die Registerkarte **Interne Freigabe** aus, suchen Sie im Feld **Zugriff zum Senden dieses Formulars gewähren** nach dem Namen eines Benutzers, Teams, Aufgabengebiets, einer Gruppe oder eines Unternehmens und wählen Sie es aus, wenn es in der Liste angezeigt wird. Die **Senden**-Berechtigung ist für jede Entität standardmäßig ausgewählt.
+
+   ![Feld „Freigeben“ für das Anfrageformular](assets/share-box-for-request-form.png)
+
+1. (Optional) Klicken Sie auf das Dropdown-Menü nach dem Namen einer Entität und klicken Sie dann auf **Entfernen**, um sie aus der Liste zu entfernen und die Freigabe des Formulars für sie zu beenden.
+
+1. Wählen Sie im Abschnitt **Wer kann Anfragen über dieses Formular senden** eine der folgenden Optionen aus, um anzugeben, welche Benutzertypen auf dieses Formular zugreifen können:
+
+   * Nur eingeladene Personen haben Zugriff
+   * Jede Person mit Zugriff auf den Arbeitsbereich (Ansicht oder höher)
+   * Jede Person mit Zugriff auf den Arbeitsbereich (Beitrag oder höher)
+1. (Optional) Klicken Sie auf **Link kopieren**, um den Link zum Formular für Personen freizugeben, die Zugriff darauf haben. Der Link wird in die Zwischenablage kopiert.
+1. Um das Formular öffentlich freizugeben, wählen Sie die Registerkarte **Öffentliche Freigabe** und aktivieren Sie dann die Einstellung **Öffentlichen Link erstellen**.
+
+   ![Öffentliche Freigabe für Anfrageformular](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Wenn Sie die Einstellung **Öffentlichen Link erstellen** aktivieren, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, auch Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
+   >
+   >* Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:
+   >
+   >     * Workfront- oder AEM Assets-Verbindungen
+   >     * Personen
+   >
+
+1. Wählen Sie ein **Link-Ablaufdatum** aus.
+
+   Sie können zukünftige Termine innerhalb von 180 Tagen ab dem aktuellen Datum auswählen.
+
+   >[!TIP]
+   >
+   >Nach Ablauf des Freigabedatums ist das Anfrageformular nicht mehr im Bereich Anfragen von Workfront verfügbar und die Links, die für andere Benutzende freigegeben sind, sind nicht mehr zugänglich.
+
+   Personen erhalten nach Ablauf des Links einen Fehler, und Sie müssen das Link-Datum aktualisieren und einen neuen Link zur Freigabe generieren, bevor Personen erneut auf das Formular zugreifen können.
+
+
+1. (Optional und bedingt) Klicken Sie auf **Speichern**, um die Freigabedetails für das Formular zu speichern.
+1. (Bedingt) Wenn das Formular zuvor gespeichert wurde, klicken Sie auf **Link kopieren**.
+
+   Die Formularfreigabeoptionen werden gespeichert und der Link wird in die Zwischenablage kopiert. Sie können sie jetzt für andere freigeben.
+
+   Weitere Informationen zum Erstellen von Datensätzen über einen Link zu einem Anfrageformular finden Sie unter [Senden von Adobe Workfront Planning-Anfragen](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Klicken Sie **Speichern** in der rechten unteren Ecke der Registerkarte **Formular**, um das Formular zu speichern.

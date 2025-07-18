@@ -3,12 +3,12 @@ title: Adobe Workfront-Planungsanfragen senden
 description: Nachdem in Adobe Workfront Planning von einer Datensatztypseite aus ein Link zu einem Anforderungsformular für Sie freigegeben wurde, können Sie eine Anforderung hinzufügen, um Datensätze für den Datensatztyp zu erstellen, der mit dem Anforderungsformular verknüpft ist.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
-   <p>Zeigen Sie Berechtigungen oder höhere Berechtigungen für einen Arbeitsbereich (<span class="preview"> Datensatztyp) an</span> wenn Sie ein Workfront-Benutzer sind</p> 
+   <p>Anzeigen oder Erweitern der Berechtigungen für einen Arbeitsbereich und einen Datensatztyp, wenn Sie Workfront-Benutzer sind</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Für den Zugriff auf den Planungsbereich in Workfront müssen Sie über die folgende Layout-Vorlagenkonfiguration verfügen: </p>
-<ul>
-<li><p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p></li>
-<li><div class="preview">
-<p> In der Vorschau-Umgebung müssen Benutzenden mit einer Light- oder Contributor-Lizenz eine Layout-Vorlage zugewiesen werden, die Planning enthält.
-   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
-
-<p> Der Zugriff auf den Bereich Planung ist jedoch nicht erforderlich, um Anfragen an Workfront Planning zu senden. </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -226,8 +212,6 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 Alle Anfragen, auf die Sie Zugriff haben und die an ein Planungsanfrageformular gesendet wurden, werden in einer Liste angezeigt.
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   <div class="preview">
-
    * Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie auf der Registerkarte Planung anzeigen möchten.
 
      ![Filter in der Registerkarte „Planungsanfragen“ bearbeiten](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -260,8 +244,6 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
    Die Seite mit den Anfragedetails wird geöffnet.
 
    ![Seite mit Anforderungsdetails](assets/request-details-page.png)
-
-   </div>
 
 
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anforderung genehmigt wurde, klicken Sie auf den Namen der Anforderung und anschließend auf den Namen des Datensatzes **Feld &quot;**&quot;.
@@ -313,7 +295,7 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
      >
      >Die E-Mail- und In-App-Benachrichtigungen sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview"> Nachdem die Anfrage genehmigt und der Datensatz erstellt wurde, zeigen die Felder Genehmigt von und Genehmigt Datum Informationen zur Genehmigung des Datensatzes an.</span>
 
 1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um auf Workfront Plann
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <ul>
-   <li><p>Zeigen Sie oder höhere Berechtigungen für Arbeitsbereiche, <span class="preview">Datensatztypen</span> und Ansichten an, die Sie nicht für den Zugriff auf sie und ihre Objekte erstellt haben.</p></li>
-   <li><p>Tragen Sie oder höhere Berechtigungen zu Arbeitsbereichen <span class="preview">und Datensatztypen) </span>, die Sie nicht erstellt haben, um sie zu bearbeiten und Datensatztypen und Datensätze zu erstellen, zu bearbeiten oder zu löschen.</p></li>
+   <li><p>Zeigen Sie oder höhere Berechtigungen für Arbeitsbereiche, Datensatztypen und Ansichten an, die Sie nicht für den Zugriff auf sie und ihre Objekte erstellt haben.</p></li>
+   <li><p>Tragen Sie oder höhere Berechtigungen zu Arbeitsbereichen und Datensatztypen bei, die Sie nicht erstellt haben, um sie zu bearbeiten und Datensatztypen und Datensätze zu erstellen, zu bearbeiten oder zu löschen.</p></li>
    <li><p>Beitragen oder höhere Berechtigungen für Ansichten, die Sie nicht erstellt haben, zum Bearbeiten, Löschen und Freigeben</p>
    </li>
     <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>
@@ -116,16 +116,14 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um auf Workfront Plann
   </tr>
 <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p>
 <p> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layoutvorlage zugewiesen werden, die die Planungsoption in den folgenden Bereichen enthält:</p>
    <ul><li>Hauptmenü</li>
    <li>Linkes Bedienfeld mit Projekten, Portfolios und Programmen</li>
    </ul>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Erstellen und Verwalten von Layout-Vorlagen</a>.</p>
-   </div>
-   <p><b>NOTIZ</b></p>
-   <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die die Planungsbereiche enthält.</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ Nachdem Ihr Unternehmen eine zusätzliche Workfront Planning-Lizenz erworben hat
 * Linkes Bedienfeld für Projekte, Portfolios und Programme
 * Nadeln
 
-<div class="preview">
-
 Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche in den folgenden Bereichen standardmäßig aktiviert:
 
 * Hauptmenü
 * Linker Bereich mit Projekten, Portfolios oder Programmen
 
-</div>
-
-So fügen Sie Benutzenden Ihrer Workfront-Instanz </span> Workfront Planning-Bereiche hinzu <span class="preview"> oder entfernen sie:
+So fügen Sie Workfront Planning-Bereiche zu Benutzern Ihrer Workfront-Instanz hinzu oder entfernen sie daraus:
 
 1. Melden Sie sich bei **Workfront** als Workfront-Administrator an.
 

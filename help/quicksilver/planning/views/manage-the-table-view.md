@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3346'
+source-wordcount: '3387'
 ht-degree: 2%
 
 ---
@@ -73,9 +73,9 @@ Informationen zum Exportieren der Tabellenansicht in eine Excel- oder CSV-Datei 
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td><p> Standard zum Erstellen und Löschen von Ansichten</p>
+   <p>Mitwirkender oder höher zum Aktualisieren von Ansichtselementen</p>
    <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
@@ -87,8 +87,14 @@ Informationen zum Exportieren der Tabellenansicht in eine Excel- oder CSV-Datei 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
-   <p>Berechtigungen für eine Ansicht anzeigen , um die Anzeigeeinstellungen vorübergehend zu ändern, zu duplizieren oder zu exportieren</p> </td> 
+   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren</p> </td> 
   </tr> 
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
+   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
+   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 

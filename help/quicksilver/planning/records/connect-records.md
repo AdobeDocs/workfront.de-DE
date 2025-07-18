@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Datensätze verbinden
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ Sie können Folgendes verbinden:
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich (<span class="preview"> Datensatztyp) </span>, um Datensätze zu verbinden </p>  
-   <p>Zeigen Sie oder höhere Berechtigungen für einen Arbeitsbereich (<span class="preview"> Datensatztyp) an</span> um alle Verbindungen zu Objekten und Feldern aus anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
+   <td>   <p>Beitragen von oder höhere Berechtigungen zu einem Arbeitsbereich und Datensatztyp, um Datensätze zu verbinden </p>  
+   <p>Zeigen Sie oder höhere Berechtigungen für einen Arbeitsbereich und einen Datensatztyp an, um alle Verbindungen zu Objekten und Feldern aus anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
    <p>Zeigen Sie Berechtigungen zum Anzeigen oder höhere Berechtigungen für die Objekte an, die Sie von Workfront oder Experience Manager Assets aus verknüpfen möchten. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
 * Die verbundenen Datensatzfelder in der Tabellenansicht.
 * Das Vorschaufeld oder die Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
 * Das Vorschaufeld oder die Seite des Datensatzes auf der Registerkarte Verbindungen .
-* Die Seite des Datensatzes auf einer Registerkarte <span class="preview">Verbundene Datensatzseite</span>.
+* Die Seite des Datensatzes auf der Registerkarte „Verbundene Datensatzseite“.
 
 ### Verbinden von Workfront-Planungsdatensätzen über die Tabellenansicht oder den Detailbereich eines Datensatzes
 
@@ -231,7 +224,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
    >
    >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
    >
-   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15:00 Uhr angezeigt wird, wird es in Workfront Planning in einem importierten Suchfeld als 15:00 Uhr angezeigt.
+   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
 
 1. (Optional) Schließen Sie die Seite für den Datensatztyp und wechseln Sie zum ausgewählten Arbeitsbereich.
 1. Klicken Sie auf die Karte für den Datensatztyp, mit dem Sie verknüpft haben.
@@ -344,7 +337,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Verbinden von Datensätzen mit Experience Manager-Assets:
 
@@ -461,8 +454,7 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 
    Der Datensatz wird sofort von allen Bereichen von Workfront Planning oder von anderen Anwendungen getrennt, in denen er möglicherweise als verbunden angezeigt wird. Alle Werte der Suchfelder werden ebenfalls entfernt.
 
-### Verbinden von Datensätzen über die <span class="preview">Seite „Verbundene Datensätze</span> eines Datensatzes
-
+### Verbinden von Datensätzen von der Seite „Verbundene Datensätze“ eines Datensatzes
 
 1. Navigieren Sie zu einer beliebigen Ansicht eines Datensatztyps, der mit anderen Planungs-Datensatztypen oder Objekttypen aus anderen Anwendungen verbunden ist.
 1. Führen Sie die in den vorherigen Unterabschnitten beschriebenen Schritte aus, um einen Datensatz in der Ansicht zu finden, die Sie mit anderen Datensätzen oder Objekten verbinden möchten.
@@ -470,7 +462,7 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 
    Die Vorschauseite wird geöffnet.
 1. Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
-1. Klicken Sie auf <span class="preview"> vorhandene Registerkarte „Verbundene </span>&quot; auf der Seite des Datensatzes. Sie müssen zunächst eine Seite <span class="preview">Verbundene Datensätze“ </span>. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Klicken Sie auf eine vorhandene Registerkarte „Verbundene Datensätze“ auf der Seite des Datensatzes. Zunächst müssen Sie eine Seite „Verbundene Datensätze“ erstellen. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.
 

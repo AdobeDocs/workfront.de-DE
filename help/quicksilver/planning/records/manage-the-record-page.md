@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2115'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto">
  <col>
@@ -99,15 +97,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
-   <p>Mitwirken an oder höhere Berechtigungen für einen Arbeitsbereich <span class="preview">und einen Datensatztyp</span> </a> </p>  
+   <p>Beitragen oder höhere Berechtigungen für einen Arbeitsbereich und Datensatztyp </a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>In der Produktionsumgebung müssen alle Benutzer, einschließlich der Systemadministratoren, einer Layoutvorlage zugewiesen werden, die Planning enthält.</p>
-<p><span class="preview">In der Vorschau-Umgebung ist für Standardbenutzer und Systemadministratoren „Planung“ standardmäßig aktiviert.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -262,48 +254,43 @@ Folgendes geschieht:
 
    Alle Änderungen am Layout der Datensatzvorschau oder -seite werden automatisch gespeichert.
 
-## Hinzufügen einer <span class="preview">Seite „Verbundene Datensätze</span> zu einem Datensatz
+## Hinzufügen einer Seite „Verbundene Datensätze“ zu einem Datensatz
 
-Sie können Informationen aus verbundenen Datensätzen oder Objekten anzeigen, indem Sie einem Datensatz eine Registerkarte für <span class="preview">Seite „Verbundene Datensätze</span> hinzufügen.
+Sie können Informationen aus verbundenen Datensätzen oder Objekten anzeigen, indem Sie einem Datensatz eine Registerkarte für eine Seite „Verbundene Datensätze“ hinzufügen.
 
-In der Produktionsumgebung werden die Informationen aus den verbundenen Datensätzen oder Objekten in einer schreibgeschützten Tabellenansicht angezeigt.
+Die Informationen der verbundenen Datensätze können in der Tabellenansicht bearbeitet werden. Die Informationen von Objekten, die mit einer anderen Anwendung verbunden sind, können in der Tabellenansicht nicht bearbeitet werden.
 
-<span class="preview">In der Vorschau-Umgebung können die Informationen aus den verbundenen Datensätzen in der Tabellenansicht bearbeitet werden. Die Informationen von Objekten, die mit einer anderen Anwendung verbunden sind, können in der Tabellenansicht nicht bearbeitet werden.</span>
+Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem Datensatz Folgendes:
 
-Beachten Sie Folgendes, wenn Sie eine <span class="preview">Seite „Verbundene Datensätze</span> zu einem Datensatz hinzufügen:
+* Sie können eine Seite „Verbundene Datensätze“ zu einem Datensatz hinzufügen, nachdem Sie in der Tabellenansicht eines Datensatztyps Datensätze oder Objekttypen mit dem Datensatztyp verbunden haben.
 
-* Sie können eine <span class="preview">Seite „Verbundene Datensätze</span> zu einem Datensatz hinzufügen, nachdem Sie in der Tabellenansicht eines Datensatztyps Datensatz- oder Objekttypen mit dem Datensatztyp verbunden haben.
+* Sie können keine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes hinzufügen.
 
-* Sie können keine <span class="preview">Seite „Verbundene Datensätze</span> zum Vorschaubereich eines Datensatzes hinzufügen.
+* Verbundene Datensatzseiten zeigen nur die verbundenen Objekte oder Datensätze eines Objekts oder Datensatztyps in einer Tabellenansicht an. Auf der Seite werden nicht alle Datensätze dieses Typs in der Tabellenansicht angezeigt.
 
-* <span class="preview">Verbundene Datensatzseiten</span> zeigen nur die verbundenen Objekte oder Datensätze von einem Objekt oder Datensatztyp in einer Tabellenansicht an. Auf der Seite werden nicht alle Datensätze dieses Typs in der Tabellenansicht angezeigt.
+* Nachdem Sie einem Datensatz eine Seite „Verbundene Datensätze“ hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. <!--this might have changed? check and take disclaimer out-->
 
-* Nachdem Sie einem Datensatz eine <span class="preview">Seite „Verbundene Datensätze</span> hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. <!--this might have changed? check and take disclaimer out-->
-
-* Sie können <span class="preview">Verbundene Datensatzseiten) </span> die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
+* Sie können Seiten mit verbundenen Datensätzen für die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
 
    * Workfront-Planungs-Datensatztypen
    * Workfront-Projekte, -Programme, -Portfolios, -Gruppen oder -Unternehmen. Sie können die verbundenen Workfront-Objekte auch dann anzeigen, wenn Sie nicht über die erforderlichen Zugriffsberechtigungen für sie in Workfront verfügen.
 
   >[!NOTE]
   >
-  >   Sie können keine <span class="preview">Seite „Verbundene Datensätze</span> für verbundene AEM Assets-Datensätze hinzufügen.
+  >   Sie können keine Seite „Verbundene Datensätze“ für verbundene AEM Assets-Datensätze hinzufügen.
 
 
-So fügen Sie eine <span class="preview">Seite „Verbundene Datensätze“ </span>:
+So fügen Sie eine Seite mit verbundenen Datensätzen hinzu:
 
 1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol **In neuer Registerkarte öffnen** ![Details in einer neuen ](assets/open-details-in-a-new-tab-icon.png) öffnen.
 1. Klicken Sie **Seite hinzufügen**.
 
-   <div class="preview">
 
    Das **Seite erstellen** wird geöffnet.
 
    ![Modal „Verbundene Datensätze hinzufügen“](assets/add-connection-view-page-modal.png)
 
-   </div>
-
-1. Fügen Sie den **Seitennamen** hinzu, klicken Sie auf **<span class="preview">Seite „Verbundene Datensätze</span>** und klicken Sie dann auf **Erstellen**.
+1. Fügen Sie den **Seitennamen** hinzu, klicken Sie auf **Seite „Verbundene Datensätze** und klicken Sie dann auf **Erstellen**.
 
    Der Datensatzseite wird eine neue Registerkarte hinzugefügt.
 1. Suchen Sie nach dem Namen eines verbundenen Datensatzes oder Objekttyps in der Liste oder klicken Sie darauf.
@@ -320,12 +307,10 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
 
    * Klicken Sie auf den Namen eines Datensatzes. Dadurch wird die Seite des Datensatzes in einer neuen Registerkarte geöffnet.
 
-     <span class="preview">In der Vorschau-Umgebung wird dadurch die Vorschauseite des Datensatzes geöffnet. Klicken Sie auf **In einer neuen Registerkarte öffnen** Symbol ![In einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke, um die Seite des verbundenen Datensatzes zu öffnen.</span>
+     Dadurch wird die Vorschauseite des Datensatzes geöffnet. Klicken Sie auf **In einer neuen Registerkarte öffnen** Symbol ![In einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke, um die Seite des verbundenen Datensatzes zu öffnen.
 
    * Klicken Sie auf **Verbinden**, um weitere Datensätze zu verbinden, und klicken Sie dann zum Schließen auf eine Stelle außerhalb des Verbindungsfelds. Die neuen Datensätze werden der Tabelle automatisch hinzugefügt.
-   * <span class="preview">Bearbeiten Sie alle Informationen aus den verbundenen Datensätzen in der Tabellenansicht. </span>
-
-   <div class="preview">
+   * Bearbeiten Sie alle Informationen aus den verbundenen Datensätzen in der Tabellenansicht.
 
    * Bewegen Sie den Mauszeiger über den Namen eines verbundenen Datensatzes und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
       * Anzeigen
@@ -345,10 +330,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
 
    * Inline-Bearbeitung eines beliebigen Datensatzes in der Tabelle auf der Seite „Verbundene Datensätze“. Workfront-Objekte werden in einer schreibgeschützten Tabellenansicht angezeigt und können nicht bearbeitet werden.
 
-   </div>
-
-
-1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte <span class="preview">Seite „Verbundene Datensätze</span>
+1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte Seite „Verbundene Datensätze“
 
    Oder
 
@@ -368,7 +350,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    >
 
 1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte <span class="preview">Seite „Verbundene Datensätze</span> und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um zur Registerkarte zu entfernen.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensätze“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
 
 

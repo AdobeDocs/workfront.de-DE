@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '5201'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # Erstellen von Feldern
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -165,7 +165,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * [Erstellt von](#created-by)
    * [Erstellungsdatum](#created-date)
    * [Zuletzt geändert von](#last-modified-by)
-   * [Datum der letzten Änderung](#last-modified-date)
+   * [Zuletzt geändert am](#last-modified-date)
+   * <span class="preview">[Genehmigt am](#approved-date)</span>
+   * <span class="preview">[Genehmigt von](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -302,7 +304,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
      Wählen Sie aus den folgenden Optionen aus:
 
       * **24hr**: Beispiel: 18:00
-      * **12**: Beispiel: 18:00 Uhr
+      * **12hr**: Beispiel: 18:0000 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -317,7 +319,7 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 >Zahlenfelder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Zahlen angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
@@ -347,7 +349,7 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
 >Prozentuale Felder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten und die Werte dieser Felder werden nach dem Senden der Anfrage als Prozentwerte für den Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
@@ -387,7 +389,7 @@ Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangeste
 >Währungsfelder werden in einem Formular-Builder für Anfragen als einzeilige Textfelder angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Währung angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
@@ -564,7 +566,7 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
      Wählen Sie aus den folgenden Optionen aus:
 
       * **24hr**: Beispiel: 18:00
-      * **12**: Beispiel: 18:00 Uhr
+      * **12hr**: Beispiel: 18:0000 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -616,80 +618,76 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
      Wählen Sie aus den folgenden Optionen aus:
 
       * **24hr**: Beispiel: 18:00
-      * **12**: Beispiel: 18:00 Uhr
+      * **12hr**: Beispiel: 18:0000 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld vom Typ „Zuletzt geändert“ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz zuletzt geändert wurde.
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### Genehmigungsdatum
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+Mit dem Feldtyp Genehmigt am können Sie das Datum hinzufügen, an dem eine Anfrage genehmigt wurde und die Erstellung des Datensatzes resultierte. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) ausgefüllt wird, an dem die Anfrage von der letzten genehmigenden Person genehmigt wurde. In diesem Fall sollte das Genehmigungsdatum mit dem Datum übereinstimmen, an dem der Datensatz erstellt wurde.
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>Das Feld Genehmigungsdatum enthält nur Informationen zu Datensätzen, die durch Senden eines mit genehmigenden Personen verknüpften Anforderungsformulars erstellt wurden.
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>Wenn das Formular mit mehreren genehmigenden Personen verknüpft ist, wird im Feld Genehmigungsdatum nur das Datum der letzten Genehmigungsentscheidung aufgezeichnet.
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![Feldtyp „Genehmigungsdatum“](assets/approved-date-field-type.png)
+
+   1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
+
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
+   * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
+
+      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
+      * **Standard**: 05/16/2023
+      * **Long**: 16. Mai 2023
+      * **Europäisch**: 16/05/2023
+      * **ISO**: 16.05.2023
+
+   * **Zeitfeld einbeziehen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert.
+
+     Wählen Sie aus den folgenden Optionen aus:
+
+      * **24hr**: Beispiel: 18:00
+      * **12hr**: Beispiel: 18:0000 Uhr
+
+1. Klicken Sie auf **Erstellen**.
+
+   Das neue Feld „Typ des genehmigten Datums“ wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem die Datensatzanfrage genehmigt wurde, wenn der Datensatz durch eine mit genehmigenden Personen verknüpfte Anfrage erstellt wurde.
+
+### Genehmigt von
+
+Mit dem Feldtyp Genehmigt nach können Sie den Benutzer hinzufügen, der die Anforderung zuletzt genehmigt hat, um einen Datensatz zu erstellen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Namen des Benutzers ausgefüllt wird, der die Anfrage zum Erstellen des Datensatzes genehmigt hat.
+
+>[!TIP]
+>
+>Das Feld Genehmigt von enthält nur Informationen zu Datensätzen, die durch Senden eines mit genehmigenden Personen verknüpften Anforderungsformulars erstellt wurden.
+>
+>Wenn das Formular mit mehr als einer genehmigenden Person verknüpft ist, werden die Namen aller genehmigenden Personen im Feld Genehmigungsdatum aufgezeichnet, durch Kommas getrennt.
+
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Genehmigt von** aus.
+
+   ![Genehmigt nach Feldtyp](assets/approved-by-field-type.png)
+
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
+
+   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
+
+1. Klicken Sie auf **Erstellen**.
+
+   Das neue Feld Genehmigt nach Typ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
 
 </div>
--->
-
 
 <!--
 

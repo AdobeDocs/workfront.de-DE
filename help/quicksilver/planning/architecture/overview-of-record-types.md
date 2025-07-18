@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in Adobe Workfront Planning Ihre eigenen Objekttypen erstellen. In Workfront werden beispielsweise die Objekttypen „Programm“, &quot;Portfolio&quot;, „Projekt“, „Aufgabe“ oder „Problem“ bereits erstellt.
+Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in Adobe Workfront Planning Ihre eigenen Objekttypen erstellen.
 
-Workfront Planning-Objekttypen werden als „Datensatztypen“ bezeichnet und existieren nur, wenn sie von Benutzenden erstellt werden. Datensatztypen sind die Bausteine eines Workfront Planning Workspace. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+In Workfront werden beispielsweise die Objekttypen „Programm“, &quot;Portfolio&quot;, „Projekt“, „Aufgabe“ oder „Problem“ bereits erstellt.
+
+Workfront Planning-Objekttypen werden als „Datensatztypen“ bezeichnet und existieren nur, wenn sie von Benutzenden erstellt werden.
+
+Datensatztypen sind die Bausteine eines Workfront Planning Workspace. Sie müssen alle erstellen, um sie mit Workflow- und anderen Informationen verknüpfen zu können.
+
+Datensatztypen sind in Arbeitsbereichen organisiert.
+
+Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ## Übersicht über den Datensatztyp
 
@@ -32,6 +40,8 @@ Weitere Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstell
 
    * **Operative Datensatztypen**: Datensatztypen, die strategische Pläne, Initiativen oder geplante Arbeiten darstellen. Beispielsweise sind Kampagne, Aktivität, Taktik und Opportunity operative Datensatztypen.
    * **Taxonomien**: Datensatztypen, die Attribute über einen betrieblichen Datensatztyp erfassen. Beispielsweise sind Region, Adresse und Zielgruppe Taxonomien.
+
+  Sie können diese Abschnitte umbenennen oder löschen oder weitere erstellen.
 
 * Wenn Sie einen Datensatztyp in einem Arbeitsbereich erstellen, den Sie von Grund auf neu erstellt haben, können Sie den Datensatztyp in jedem Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
 * Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, denen Sie Zugriff auf den Arbeitsbereich gewähren, den Datensatztyp anzeigen.
