@@ -8,18 +8,18 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '962'
 ht-degree: 1%
 
 ---
 
 # Gesendete Anfragen suchen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Sie können die folgenden Arten von Anfragen finden, die von Ihnen oder einer anderen Person gesendet oder von Ihnen gestartet, aber nie fertig gesendet wurden. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
