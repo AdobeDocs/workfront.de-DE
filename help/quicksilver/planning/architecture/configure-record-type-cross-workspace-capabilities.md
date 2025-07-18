@@ -149,7 +149,7 @@ oder
 
    * Der Datensatztyp und seine Felder können jetzt von den von Ihnen angegebenen Personen zu einem anderen Arbeitsbereich hinzugefügt werden.
    * Die Karte „Datensatztyp“ zeigt das Symbol „Globaler ![&quot; an](assets/global-icon.png) um anzugeben, dass der Datensatztyp jedem Arbeitsbereich hinzugefügt werden kann, dessen Manager Sie in Ihrer Konfiguration angegeben haben.
-   * Dem Datensatztyp wird ein vom System generiertes **&#x200B;**&#x200B;Workspace-Feld hinzugefügt.
+   * Dem Datensatztyp wird ein vom System generiertes **** Workspace-Feld hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wurde.
 

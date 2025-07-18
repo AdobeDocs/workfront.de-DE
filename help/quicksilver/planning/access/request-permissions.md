@@ -135,10 +135,8 @@ Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht freigibt, auf 
 
    Alle Benutzer mit der Berechtigung Verwalten für die Ansicht oder den Arbeitsbereich erhalten die folgenden Benachrichtigungen für die Zugriffsanfrage:
    * In-App-Benachrichtigung
-
      ![In-App-Benachrichtigung bei Zugriffsanfrage](assets/in-app-notification-for-access-request.png)
    * Eine E-Mail-Benachrichtigung
-
      ![E-Mail-Benachrichtigung für Zugriffsanfrage](assets/email-notification-for-access-request.png)
 
 1. (Bedingt) Wenn Ihnen die Ansicht oder der Arbeitsbereich-Manager Berechtigungen für die Ansicht oder den Arbeitsbereich gewährt, erhalten Sie eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung mit der Bestätigung, dass die Berechtigung erteilt wurde. <!--check this - I was not able to test this, but Isk confirmed.-->

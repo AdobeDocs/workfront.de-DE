@@ -76,7 +76,7 @@ Produktion: 21. Dezember 2023
 >
 >Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Adobe Workfront Planning-Funktionen herstellen zu können.
 >
->Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Planungsfunktionen herzustellen. Mit der neuen Fusion-Verbindung haben Sie folgende Möglichkeiten:
 
@@ -92,7 +92,7 @@ Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Pl
 
 * Trigger : Ein Szenario, in dem eine Änderung an den Planungsfunktionen vorgenommen wird
 
-Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Woche vom 11. Dezember 2023
 
@@ -132,9 +132,9 @@ Produktionsversion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
->Die Workfront-Instanz Ihres Unternehmens muss in die Adobe-Geschäftsplattform oder die Adobe Admin Console integriert sein, um Datensätze der Adobe Workfront-Planungsfunktionen mit Adobe Experience Manager Assets verbinden zu können.
+>Die Workfront-Instanz Ihres Unternehmens muss in die Adobe Business Platform oder die Adobe Admin Console integriert sein, um Adobe Workfront Planning-Funktionsdatensätze mit Adobe Experience Manager Assets verbinden zu können.
 >
->Wenn Sie Fragen zum Onboarding in der Adobe Admin Console haben, lesen Sie die häufig gestellten Fragen zum [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Wenn Sie Fragen zum Onboarding in der Adobe Admin Console haben, lesen Sie die häufig gestellten Fragen zu [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Sie können jetzt eine Verbindung zwischen den Datensatztypen der Adobe Workfront Planning-Funktionen und Adobe Experience Manager Assets herstellen.
 
@@ -148,7 +148,7 @@ Nachdem Sie die Verbindung hergestellt haben, sind mit diesem Update die folgend
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
-* Sie können auf den Asset-Namen in der Tabellenansicht des Datensatzes der Planungsfunktion im Feld Verbundener Datensatz klicken und ein Popup-Fenster mit der Miniaturansicht des Assets und mehreren Schlüsselfeldern anzeigen. Vom Popup-Fenster aus können Sie zum Asset-Viewer im Experience Manager navigieren und alle zugehörigen Details anzeigen.
+* Sie können auf den Asset-Namen in der Tabellenansicht des Datensatzes der Planungsfunktion im Feld Verbundener Datensatz klicken und ein Popup-Fenster mit der Miniaturansicht des Assets und mehreren Schlüsselfeldern anzeigen. Vom Popup-Fenster aus können Sie zum Asset-Viewer in Experience Manager navigieren und alle zugehörigen Details anzeigen.
 
 Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -363,7 +363,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 Vorschau und Produktion: 24. August 2023
 
-Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Programmen und -Portfolios verbinden. Sie müssen eine Verbindung zwischen einem Datensatztyp für Planungsfunktionen und einem Programm oder Portfolio herstellen, das ein verbundenes Feld erstellt. Anschließend können Sie beliebige Planungsfunktionsdatensätze aus allen anderen Datensatztypen innerhalb desselben Arbeitsbereichs mit bestimmten Programmen und Portfolios verbinden, wodurch im selben Arbeitsbereich ein schreibgeschützter Workfront-Programm- oder Workfront-Portfolio-Datensatztyp erstellt wird. Beachten Sie Folgendes:
+Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Programmen und -Portfolios verbinden. Sie müssen eine Verbindung zwischen einem Datensatztyp für Planungsfunktionen und einem Programm oder Portfolio herstellen, das ein verbundenes Feld erstellt. Anschließend können Sie beliebige Planungsfunktionsdatensätze aus allen anderen Datensatztypen innerhalb desselben Arbeitsbereichs mit bestimmten Programmen und Portfolios verbinden, wodurch ein schreibgeschützter Workfront-Programm- oder Workfront Portfolio-Datensatztyp im selben Arbeitsbereich erstellt wird. Beachten Sie Folgendes:
 
 * Workfront Connector-Datensatztypen sind für jeden Arbeitsbereich eindeutig.
 * Sie können mehrere Planungsfunktionsdatensätze mit demselben Workfront-Programm oder -Portfolio verbinden und mehrere Programme und Portfolios mit demselben Planungsfunktionsdatensatz verbinden.
