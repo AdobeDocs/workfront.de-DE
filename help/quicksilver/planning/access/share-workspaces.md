@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -128,6 +128,11 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
    ![Freigabe der Benutzeroberfläche für Gruppen](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden. Benutzende, die nur Workfront unterstützen, können nicht hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+
 1. Wählen Sie eine der folgenden Berechtigungsebenen aus dem Dropdown-Menü aus:
    * Anzeigen
    * Mitwirken
@@ -147,10 +152,8 @@ Benutzende, die auf einen Link zu einem Arbeitsbereich zugreifen, für den sie k
 1. (Bedingt) Wenn Sie der Manager eines Arbeitsbereichs sind, erhalten Sie möglicherweise eine Anfrage eines anderen Benutzers, in den folgenden Bereichen auf die Ansicht zuzugreifen:
 
    * In-App-Benachrichtigung
-
      ![In-App-Benachrichtigung bei Zugriffsanfrage](assets/in-app-notification-for-access-request.png)
    * Eine E-Mail-Benachrichtigung
-
      ![E-Mail-Benachrichtigung für Zugriffsanfrage](assets/email-notification-for-access-request.png)
 1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
 oder

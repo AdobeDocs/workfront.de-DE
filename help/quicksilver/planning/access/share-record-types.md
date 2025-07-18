@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensatztypen im Arbeitsbereich.
->&#x200B;>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
+>>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
@@ -175,7 +175,7 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 
    >[!IMPORTANT]
    >
-   >* Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden.
+   >* Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden. Benutzende, die nur Workfront unterstützen, können nicht hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >* Sie können Benutzenden nie größere Berechtigungen für einen Datensatztyp erteilen als für einen Arbeitsbereich.
    >* Sie können Benutzenden keine geringere Berechtigung als „Verwalten“ für einen Datensatztyp erteilen, wenn sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
    >* Sie können Benutzenden eine geringere Berechtigung für den Datensatztyp erteilen, wenn sie über die Berechtigung Beitragen für den Arbeitsbereich verfügen.

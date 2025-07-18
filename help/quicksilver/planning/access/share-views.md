@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
@@ -157,9 +157,9 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Ver
 
    * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer, Gruppen, Teams, Unternehmen oder Aufgabengebiete angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
 
-     >[!NOTE]
-     >
-     >   Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden.
+   >[!NOTE]
+   >
+   >Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden. Benutzende, die nur Workfront unterstützen, können nicht hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 
    * **Jeder Benutzer im Arbeitsbereich kann Folgendes anzeigen** Alle Benutzer mit Ansichts- oder höheren Berechtigungen für Arbeitsbereiche können auf die Ansicht zugreifen.
@@ -258,7 +258,7 @@ In diesem Abschnitt wird beschrieben, wie Sie eine Ansicht intern freigeben.
 
 1. Führen Sie auf der Registerkarte einer Ansicht einen der folgenden Schritte aus:
 
-   * Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen. Klicken Sie dann **Freigeben** > **Link kopieren** im **&#x200B;**&#x200B;Ansicht freigeben.
+   * Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen. Klicken Sie dann **Freigeben** > **Link kopieren** im **** Ansicht freigeben.
    * Klicken Sie **Freigeben** > **Ansichtslink kopieren** > **Link kopieren** in das Feld **Ansicht freigeben**.
 
    Ein Link zur Ansicht wird in die Zwischenablage kopiert und Sie erhalten eine Bestätigung am unteren Bildschirmrand.
@@ -272,10 +272,8 @@ Benutzende, die auf einen Link zu einer Ansicht zugreifen, für die sie keine Be
 1. (Bedingt) Wenn Sie der Manager einer Ansicht sind, erhalten Sie möglicherweise eine Anfrage eines anderen Benutzers, in den folgenden Bereichen auf die Ansicht zuzugreifen:
 
    * In-App-Benachrichtigung
-
      ![In-App-Benachrichtigung über Zugriffsanfrage für Ansicht](assets/in-app-notification-for-access-request-for-view.png)
    * Eine E-Mail-Benachrichtigung
-
      ![In-App-Benachrichtigung über Zugriffsanfrage für Ansicht](assets/in-app-notification-for-access-request-for-view.png)
 1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
 oder

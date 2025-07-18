@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -269,6 +269,10 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    ![Feld „Freigeben“ für das Anfrageformular](assets/share-box-for-request-form.png)
 
 1. (Optional) Klicken Sie auf das Dropdown-Menü nach dem Namen einer Entität und klicken Sie dann auf **Entfernen**, um sie aus der Liste zu entfernen und die Freigabe des Formulars für sie zu beenden.
+
+   >[!NOTE]
+   >
+   >Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden. Benutzende, die nur Workfront unterstützen, können nicht hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 1. Wählen Sie im Abschnitt **Wer kann Anfragen über dieses Formular senden** eine der folgenden Optionen aus, um anzugeben, welche Benutzertypen auf dieses Formular zugreifen können:
 
