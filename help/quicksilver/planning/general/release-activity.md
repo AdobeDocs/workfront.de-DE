@@ -800,7 +800,7 @@ Produktion: 8. Mai 2024
 
 Vorschau: Noch festzulegen
 
-Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie zu einem Kommentar auf der Datensatzseite hinzufügt, erhalten Sie eine In-App- und eine E-Mail-Benachrichtigung zum Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie zu einem Kommentar auf der Datensatzseite hinzufügt, erhalten Sie eine In-App- und eine E-Mail-Benachrichtigung zum Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
 
 Weitere Informationen zu Workfront-Planungsbenachrichtigungen finden Sie unter [Adobe Workfront-Planungsbenachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 
