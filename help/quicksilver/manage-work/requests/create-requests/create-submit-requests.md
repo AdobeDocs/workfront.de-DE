@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: 7c7697936da90d17599d90b69265f62221185569
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2803'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben dargestellt. Sie können jedoch in einer Umgebung arbeiten, in der ungeplante Arbeit in Form von Anfragen jederzeit eintreffen kann. Workfront bietet einen Workflow, der diesen Umgebungstyp durch die Verwendung von Anfrage-Warteschlangen unterstützt.
 
@@ -150,12 +150,12 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    ![Neues Anfragefeld mit einheitlichem Workflow für Planungsanfragen](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Klicken Sie auf eine der Workfront-Anfrage-Warteschlangenkarten, oder suchen Sie nach einer und klicken Sie dann darauf, wenn sie in der Liste angezeigt wird.
-1. <span class="preview">(Bedingt) Wenn Sie zu dem neuen Erlebnis gewechselt haben, das Workfront Planning umfasst und sich in der Vorschauumgebung befinden, wird im Feld **Neue Anfrage** Folgendes angezeigt:</span>
+1. (Bedingt) Wenn Sie zu dem neuen Erlebnis gewechselt haben, das Workfront Planning umfasst und sich in der Vorschauumgebung befinden, wird im Feld **Neue Anfrage** Folgendes angezeigt:
 
-   <ul><span class="preview"><li>Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt Letzte angezeigt. </li></span>
-    <span class="preview"><li>Alle zusätzlichen Workfront- und Planungsanfrageformulare <b>Alle Anfrageformulare</b> Abschnitt. Sie können nach einem Anfrageformular suchen, das standardmäßig nicht angezeigt wird. </li></span>
-    <span class="preview"><li>Alle zusätzlichen Workfront- und Planning-Anfragewarteschlangenpfade werden im Abschnitt <b>Alle Anfragepfade</b> angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird.</li></span></ul>
-    <span class="preview">Klicken Sie auf einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange, oder suchen Sie nach einem Pfad, und klicken Sie dann auf den Pfad, wenn er in der Liste angezeigt wird. </span>
+   <ul><li>Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt Letzte angezeigt. </li>
+    <li>Alle zusätzlichen Workfront- und Planungsanfrageformulare <b>Alle Anfrageformulare</b> Abschnitt. Sie können nach einem Anfrageformular suchen, das standardmäßig nicht angezeigt wird. </li>
+    <li>Alle zusätzlichen Workfront- und Planning-Anfragewarteschlangenpfade werden im Abschnitt <b>Alle Anfragepfade</b> angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird.</li></ul>
+   Klicken Sie auf einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange, oder suchen Sie nach einem Pfad, und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
 
 1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, die Workfront Planning enthält, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
 
