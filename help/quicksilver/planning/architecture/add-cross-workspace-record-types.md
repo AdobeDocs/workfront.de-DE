@@ -4,9 +4,9 @@ description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. I
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,6 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Einträge
    * Verbindungen aufzeichnen
 
-## Erstellen eines Datensatztyps aus einem vorhandenen globalen Datensatztyp
+* Sie können den Datensatztyp einschließlich der Felder nur im ursprünglichen Arbeitsbereich bearbeiten. Sie können sie nicht in den Arbeitsbereichen bearbeiten, in denen sie hinzugefügt wurde.
 
-1. Beginnen Sie mit der Erstellung eines Datensatztyps, wie im Artikel [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md) beschrieben, und klicken Sie dann auf **Globalen Datensatztyp verwenden**. <!--check this - the option might have been renamed in the UI-->
+## Erstellen eines Datensatztyps aus einem vorhandenen Datensatztyp
+
+1. Beginnen Sie mit der Erstellung eines Datensatztyps, wie im Artikel [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md) beschrieben, und klicken Sie dann auf **Vorhandene hinzufügen**. <!--check this - the option might have been renamed in the UI-->
+
+   ![Modal zum Hinzufügen eines Datensatztyps mit der Option zum Importieren aus einem anderen Arbeitsbereich](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Klicken Sie **Weiter**.
+1. Klicken **im Feld „Datensatztyp auswählen** auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
+
+   Der Datensatztyp wird dem ausgewählten Arbeitsbereich hinzugefügt und Folgendes geschieht:
+
+   * Das Symbol **Arbeitsbereichsübergreifender Datensatztyp** ![Symbol für arbeitsbereichsübergreifende ](assets/global-icon.png)) wird der Karte des importierten Datensatztyps hinzugefügt.
+   * Das schreibgeschützte Feld **Workspace** wird zum importierten Datensatztyp hinzugefügt. Das Feld zeigt an, in welchem Arbeitsbereich die einzelnen Datensätze erstellt wurden.
+
+     >[!NOTE]
+     >
+     >* Der importierte Datensatztyp oder seine Felder können nicht bearbeitet werden. Sie können den Datensatztyp und dessen Felder über den ursprünglichen Arbeitsbereich bearbeiten.
+
+1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des importierten Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+1. (Bedingt) Geben Sie **Löschen** in das bereitgestellte Feld ein und klicken Sie dann auf **Dauerhaft löschen**.
+
+   Dadurch wird der importierte Datensatztyp aus dem ausgewählten Arbeitsbereich entfernt. Der ursprüngliche Datensatztyp und seine Felder verbleiben im ursprünglichen Arbeitsbereich.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+

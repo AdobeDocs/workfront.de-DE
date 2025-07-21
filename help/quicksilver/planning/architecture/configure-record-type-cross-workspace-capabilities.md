@@ -4,9 +4,9 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,6 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -134,11 +132,11 @@ oder
 
    ![Datensatztyp bearbeiten Erweiterte Einstellungen mit Aktivieren von Zu anderen Arbeitsbereichen hinzufügen](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. Fügen Sie im Feld **Auswählen, wer diesen Datensatztyp zu von ihm verwalteten Arbeitsbereichen hinzufügen kann** Benutzer hinzu, die Sie diesem Datensatztyp zu von ihnen verwalteten Arbeitsbereichen hinzufügen möchten.
+1. Fügen Sie im Feld **Auswählen, wer diesen Datensatztyp zu von ihm verwalteten Arbeitsbereichen hinzufügen kann** Benutzer hinzu, denen Sie erlauben möchten, diesen Datensatztyp zu von ihnen verwalteten Arbeitsbereichen hinzuzufügen.
 
    Ihr Name wird dem Feld automatisch hinzugefügt.
 
-   Sie können einzelne Benutzer oder Gruppen, Teams, Aufgabengebiete oder Unternehmen hinzufügen, deren Benutzer Sie diesem Datensatztyp zu den von ihnen verwalteten Arbeitsbereichen hinzufügen möchten.
+   Sie können einzelne Benutzer oder Gruppen, Teams, Aufgabengebiete oder Unternehmen hinzufügen, deren Benutzer diesen Datensatztyp den von ihnen verwalteten Arbeitsbereichen hinzufügen dürfen.
 
    Sie können dieses Feld bearbeiten, nachdem Sie den Datensatztyp gespeichert haben.
 1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Auswählen, wer diesen Datensatztyp zu den von ihm verwalteten Arbeitsbereichen hinzufügen kann**.
@@ -148,14 +146,19 @@ oder
    Folgendes geschieht:
 
    * Der Datensatztyp und seine Felder können jetzt von den von Ihnen angegebenen Personen zu einem anderen Arbeitsbereich hinzugefügt werden.
+
+   >[!NOTE]
+   >
+   >Sie können den Datensatztyp und dessen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
+
    * Die Karte „Datensatztyp“ zeigt das Symbol „Globaler ![&quot; an](assets/global-icon.png) um anzugeben, dass der Datensatztyp jedem Arbeitsbereich hinzugefügt werden kann, dessen Manager Sie in Ihrer Konfiguration angegeben haben.
-   * Dem Datensatztyp wird ein vom System generiertes **&#x200B;**&#x200B;Workspace-Feld hinzugefügt.
+   * Dem Datensatztyp wird ein vom System generiertes **** Workspace-Feld hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wurde.
 
      Dieses Feld ist schreibgeschützt und kann nicht gelöscht werden.
 
-## Konfigurieren der Verbindung zu einem Datensatztyp in anderen Arbeitsbereichen
+## Konfigurieren der Verbindung zu einem Datensatztyp aus anderen Arbeitsbereichen
 
 Sie können einen Datensatztyp konfigurieren, mit dem über andere Arbeitsbereiche eine Verbindung hergestellt werden soll, wenn Sie den Datensatztyp erstellen oder bearbeiten.
 
@@ -175,7 +178,7 @@ oder
    ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card.png)
 
 1. Wählen Sie im Feld **Datensatztyp bearbeiten** die Registerkarte **Erweiterte Einstellungen** aus.
-1. Aktivieren Sie die Einstellung **Verbindung zu diesem Datensatztyp von anderen Arbeitsbereichen aus zulassen**. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Registerkarte „Datensatztyp bearbeiten - Erweiterte Einstellungen“ mit aktivierter Option „Von anderen Arbeitsbereichen verbinden“](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ oder
 
    * Der Datensatztyp und seine Felder können jetzt über die von Ihnen angegebenen Arbeitsbereiche verbunden werden.
    * Auf der Karte „Datensatztyp“ wird das Symbol für eine arbeitsbereichsübergreifende Verbindung ![Symbol für eine arbeitsbereichsübergreifende Verbindung](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatztyp über jeden Arbeitsbereich, den Sie in Ihrer Konfiguration angegeben haben, verbunden werden kann.
+
+   Der Datensatztyp steht nun für die Verbindung über die vorgesehenen Arbeitsbereiche zur Verfügung.
+
+
+
 
 
 
