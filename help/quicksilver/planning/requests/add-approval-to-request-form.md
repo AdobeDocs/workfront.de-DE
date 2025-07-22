@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -123,11 +123,11 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
    Der **Konfiguration** wird angezeigt.
 
    ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
-1. Klicken **im Feld** auf das Dropdown-Symbol und wählen Sie einen oder mehrere Namen aus der Liste aus
+1. Klicken **im Feld** auf das Dropdown-Symbol und wählen Sie einen oder mehrere Benutzer <span class="preview">oder Teams</span> in der Liste aus
 
    Oder
 
-   Beginnen Sie mit der Eingabe des Namens einer genehmigenden Person und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
+   Geben Sie den Namen eines Benutzers (<span class="preview"> Teams) ein</span> den Sie als genehmigende Person festlegen möchten, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
    >* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Anfragen in Workfront.
    >
    >* Alle genehmigenden Personen müssen eine Entscheidung treffen, bevor eine Anfrage genehmigt oder abgelehnt wird.
+   >
+   >* <span class="preview">Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.</span>
 
 
 1. (Optional) Klicken Sie auf **Veröffentlichen** wenn Sie das Anfrageformular noch nie zuvor freigegeben haben
