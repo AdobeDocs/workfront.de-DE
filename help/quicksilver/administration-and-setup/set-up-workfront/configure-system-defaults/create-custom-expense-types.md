@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 4%
 
 ---
@@ -72,39 +72,21 @@ Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht 
 
 1. Klicken Sie **[!UICONTROL Ausgabentypen]**.
 1. Klicken Sie **[!UICONTROL Neuer Ausgabentyp]**.
-1. Geben **[!UICONTROL im Dialogfeld „Neuer]**&quot; die folgenden Informationen an:
+1. Geben Sie **[!UICONTROL Dialogfeld „Neuer]**&quot; die folgenden Informationen ein:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Geben Sie einen Namen für die Ausgabe an.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Beschreibung]</td> 
-      <td>Geben Sie eine Beschreibung für die Ausgabe an.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Berechnete Einheit]</td> 
-      <td> <p>Wählen Sie die Maßeinheit für Ihren Ausgabentyp aus der Dropdown-Liste aus.</p> <p>Folgende Maßeinheiten sind verfügbar:</p> 
-       <ul> 
-        <li>Meile</li> 
-        <li>Kilometer</li> 
-        <li>Kilogramm</li> 
-        <li>Dollar</li> 
-        <li>Dollar</li> 
-        <li>Tag</li> 
-        <li>Sonstiges - Wenn Sie diese Option wählen, werden Sie aufgefordert, die Maßeinheit zu benennen und diese als eine Ihrer Organisation vertraute Einheit zu definieren.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rate</td> 
-      <td> <p>Geben Sie den Preis pro Einheit an. Dies ist ein währungsformatiertes Feld, das die Kosten für jede Einheit darstellt, die im Feld <strong>[!UICONTROL Berechnete Einheit]</strong> festgelegt wird. </p> <p>Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach dem Dezimaltrennzeichen enthalten. Beispiel: 1.0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Name** - Ein Name für die Ausgabe.
+   * **Beschreibung** - Eine Beschreibung der Ausgabe.
+   * **Berechnete Einheit** - Wählen Sie in der Dropdown-Liste die Maßeinheit für Ihren Ausgabentyp aus. Die folgenden Maßeinheiten sind verfügbar:
+
+      * Meile
+      * Kilometer
+      * Kilogramm
+      * Dollar
+      * Stunde
+      * Tag
+      * Sonstiges - Wenn Sie diese Option wählen, werden Sie aufgefordert, die Maßeinheit zu benennen und diese als eine Ihrer Organisation vertraute Einheit zu definieren.
+
+   * **Rate** - Der Preis pro Einheit. Dies ist ein währungsformatiertes Feld, das die Kosten für jede Einheit darstellt, die im Feld **Berechnete Einheit** festgelegt wird. Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach dem Dezimaltrennzeichen enthalten. Beispiel: 1.0375.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -115,7 +97,7 @@ Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht 
 {{step-1-to-setup}}
 
 1. Klicken Sie **[!UICONTROL Ausgabentypen]**.
-1. Wählen Sie den zu ändernden Ausgabentyp aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie den zu ändernden Ausgabentyp aus und klicken Sie dann auf das Symbol **[!UICONTROL Bearbeiten]** ![Symbol Bearbeiten](assets/edit-icon.png).
 
    Das **[!UICONTROL Ausgabentyp bearbeiten]** wird angezeigt.
 
