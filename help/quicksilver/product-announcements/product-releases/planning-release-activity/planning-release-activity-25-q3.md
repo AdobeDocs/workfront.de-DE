@@ -27,8 +27,8 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktion für alle: 10. Juli 2025
->>[!BADGE Aus dem Zeitplan]{type=Neutral}
+>&#x200B;>Produktion für alle: 10. Juli 2025
+>&#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 
 Die Registerkarte Erweiterte Einstellungen wurde aktualisiert, wenn ein Datensatztyp erstellt oder bearbeitet wird.
@@ -45,8 +45,8 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktion für alle: 10. Juli 2025
->>[!BADGE Aus dem Zeitplan]{type=Neutral}
+>&#x200B;>Produktion für alle: 10. Juli 2025
+>&#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
@@ -57,8 +57,8 @@ Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwa
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->>Produktions-Schnellveröffentlichung: 14. August 2025
->>Produktion für alle: 16. Oktober 2025
+>&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
+>&#x200B;>Produktion für alle: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
@@ -74,7 +74,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 >[!NOTE]
 >
 >Vorschau: 9. Juli 2025
->>Produktion für alle: 17. Juli 2025
+>&#x200B;>Produktion für alle: 17. Juli 2025
 
 Über dieselbe Schaltfläche auf der Seite des Datensatztyps können Sie jetzt sowohl eine Ansicht als auch einen Datensatztyp freigeben. Vor dieser Verbesserung konnten Sie den Datensatztyp nur über die Schaltfläche Freigeben auf der Seite Datensatztyp und eine Ansicht über die Registerkarte Ansicht freigeben.
 
@@ -147,7 +147,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >
 >* Vorschau: 26. Juni 2025
 >* Produktion für alle: 26. Juni 2025
->  >[!BADGE Aus dem Zeitplan]{type=Neutral}
+>  &#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt Datensatztypen verbinden und ein Formelfeld als Suche einbringen, können Sie die Aggregatfunktionen (SUM, AVERAGE, MIN, MAX usw.) je nach Format des Formelfelds anwenden. Wenn das Formelfeld beispielsweise numerisch ist, können Sie Funktionen wie SUM oder AVG verwenden. Wenn das Formelfeld als Text formatiert ist, werden Aggregatfunktionen wie SUM nicht angewendet.
 
@@ -183,7 +183,7 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekt
 >
 >* Vorschau: 12. Juni 2025
 >* Produktion für alle: 12. Juni 2025
->  >[!BADGE Aus dem Zeitplan]{type=Neutral}
+>  &#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wir haben eine Verbesserung eingeführt, die alle Formelfelder, die voneinander abhängig sind, gleichzeitig aktualisiert, nachdem ein referenziertes Feld manuell aktualisiert wurde. Formelfelder, die 2, 3 oder 4 Felder vom Feld entfernt sind, deren Wert manuell geändert wird und die sich gegenseitig referenzieren, werden jetzt automatisch gleichzeitig aktualisiert.
 
@@ -197,7 +197,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 >
 >* Vorschau: 6. Juni 2025
 >* Produktion für alle Kunden: 6. Juni 2025
->  >[!BADGE Aus dem Zeitplan]{type=Neutral}
+>  &#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wir haben die folgenden Ausdrücke zu Formelfeldern hinzugefügt:
 
@@ -339,7 +339,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
