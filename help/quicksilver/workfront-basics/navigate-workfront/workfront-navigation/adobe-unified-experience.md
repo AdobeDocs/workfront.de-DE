@@ -6,9 +6,9 @@ description: Der  [!DNL Workfront]  über Adobe Experience Cloud bietet Ihnen ei
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,6 +58,14 @@ Die [!DNL Workfront]-Instanz Ihres Unternehmens muss in die [!DNL Adobe Business
 
 Wenn Sie Fragen zum Onboarding bei der [!DNL Adobe Admin Console] haben, lesen Sie die [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
+## Adobe Identity Management System (IMS)
+
+Im Zuge der Umstellung auf das einheitliche Adobe-Erlebnis verwendet Ihr Unternehmen jetzt das Identity Management-System von Adobe zur Authentifizierung von Benutzern. Das bedeutet, dass Sie sich über Adobe bei Workfront anmelden, anstatt sich direkt bei Workfront anzumelden. Adobe IMS verlangt außerdem, dass Workfront-Administratoren die Benutzerverwaltung in der Adobe Admin Console und nicht in Workfront durchführen.
+
+Informationen zur Anmeldung bei Workfront in Adobe Unified Experience finden Sie unter [Bei Adobe Experience Cloud anmelden](#log-in-to-adobe-experience-cloud) in diesem Artikel.
+
+Informationen zur Benutzerverwaltung in der Adobe Admin Console finden Sie im Artikel [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
 ## Anmelden bei [!DNL Adobe Experience Cloud]
 
 1. Öffnen Sie ein Browser-Fenster und navigieren Sie zu <https://experience.adobe.com>.
@@ -71,7 +79,7 @@ Wenn Sie Fragen zum Onboarding bei der [!DNL Adobe Admin Console] haben, lesen S
 
 ## [!DNL Workfront]
 
-Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/aec-view-all-orgs.png)
 
@@ -117,7 +125,7 @@ Wenn Ihr Unternehmen eine separate Anwendung zum Verwalten von Kennwörtern verw
 
 Wenn Ihr Kennwort von [!DNL Adobe] verwaltet wird, können Sie das Kennwort in Ihrem Adobe-Konto ändern.
 
-[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/de/manage-account/using/change-or-reset-password.html){target="_blank"}
+[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Wenden Sie sich an Ihren Administrator, um weitere Informationen zum Ändern Ihres Kennworts zu erhalten.
 
