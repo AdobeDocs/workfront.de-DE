@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
-
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Layout-Vorlagen
 
@@ -248,7 +247,7 @@ Das neue Erlebnis ist beim Erstellen oder Bearbeiten von Themengruppen in Projek
 
 ### Aktualisierungen der Benutzeroberfläche für den Abschnitt Verknüpfte Projekte eines Projekts (nur für bestimmte Kunden verfügbar)
 
-**Vorschau-Version: 12. Juni 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
 
 Wir haben den Abschnitt Verknüpfte Projekte eines Projekts mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -256,7 +255,7 @@ Bestimmte Kundinnen und Kunden können diese Änderung anzeigen, indem sie im li
 
 ### Neues Erscheinungsbild für das Feld „Als Vorlage speichern“
 
-**Vorschau-Version: 12. Juni 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
 
 Das Erscheinungsbild des Felds „Als Vorlage speichern“, das beim Speichern eines Projekts als Vorlage angezeigt wird, wurde aktualisiert. Das neue Design enthält eine optimierte Benutzeroberfläche, in der alle Abschnitte in einer zusammenhängenden Form angezeigt werden, durch die Sie mithilfe von Links im linken Bereich navigieren können. Das neue Design passt sich anderen Bereichen und anderen Objekten in der Anwendung an.
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->&#x200B;>Produktion für alle: 10. Juli 2025
+>>Produktion für alle: 10. Juli 2025
+>>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 
 Die Registerkarte Erweiterte Einstellungen wurde aktualisiert, wenn ein Datensatztyp erstellt oder bearbeitet wird.
@@ -44,7 +45,8 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->&#x200B;>Produktion für alle: 10. Juli 2025
+>>Produktion für alle: 10. Juli 2025
+>>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
@@ -55,8 +57,8 @@ Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwa
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle: 16. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
@@ -72,7 +74,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 >[!NOTE]
 >
 >Vorschau: 9. Juli 2025
->&#x200B;>Produktion für alle: 17. Juli 2025
+>>Produktion für alle: 17. Juli 2025
 
 Über dieselbe Schaltfläche auf der Seite des Datensatztyps können Sie jetzt sowohl eine Ansicht als auch einen Datensatztyp freigeben. Vor dieser Verbesserung konnten Sie den Datensatztyp nur über die Schaltfläche Freigeben auf der Seite Datensatztyp und eine Ansicht über die Registerkarte Ansicht freigeben.
 
@@ -118,7 +120,7 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben Optionen zum Verwalten und Beitragen für Benutzer entfernt, für die Sie das Anfrageformular freigeben. Jetzt können hinzugefügte Benutzer nur noch das Formular senden.
 * Auf der Registerkarte Öffentliche Freigabe werden jetzt das Feld Link und Ablaufdatum angezeigt, nachdem die Option Öffentlichen Link erstellen aktiviert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
 
@@ -145,6 +147,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >
 >* Vorschau: 26. Juni 2025
 >* Produktion für alle: 26. Juni 2025
+>  >[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt Datensatztypen verbinden und ein Formelfeld als Suche einbringen, können Sie die Aggregatfunktionen (SUM, AVERAGE, MIN, MAX usw.) je nach Format des Formelfelds anwenden. Wenn das Formelfeld beispielsweise numerisch ist, können Sie Funktionen wie SUM oder AVG verwenden. Wenn das Formelfeld als Text formatiert ist, werden Aggregatfunktionen wie SUM nicht angewendet.
 
@@ -179,8 +182,8 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekt
 >[!NOTE]
 >
 >* Vorschau: 12. Juni 2025
->* Produktions-Schnellveröffentlichung: 12. Juni 2025
->* Produktion für alle Kunden: 12. Juni 2025
+>* Produktion für alle: 12. Juni 2025
+>  >[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wir haben eine Verbesserung eingeführt, die alle Formelfelder, die voneinander abhängig sind, gleichzeitig aktualisiert, nachdem ein referenziertes Feld manuell aktualisiert wurde. Formelfelder, die 2, 3 oder 4 Felder vom Feld entfernt sind, deren Wert manuell geändert wird und die sich gegenseitig referenzieren, werden jetzt automatisch gleichzeitig aktualisiert.
 
@@ -193,8 +196,8 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 >[!NOTE]
 >
 >* Vorschau: 6. Juni 2025
->* Produktions-Schnellveröffentlichung: 6. Juni 2025
 >* Produktion für alle Kunden: 6. Juni 2025
+>  >[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wir haben die folgenden Ausdrücke zu Formelfeldern hinzugefügt:
 
@@ -238,7 +241,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 >
 >* Vorschau: 22. Mai 2025
 >* Produktions-Schnellveröffentlichung: 12. Juni 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Wir haben das Erlebnis beim Aufschlüsseln von Datensätzen in der Zeitleisten -Ansicht geändert, und die kompakte Ansicht wurde angewendet.
 Bei der neuen Aktualisierung werden Sie beim Definieren der Aufschlüsselungsobjekte während der Anzeige der Zeitleiste im Komprimierungsmodus aufgefordert, nach Abschluss der Konfiguration der Aufschlüsselungsbedingungen zur Standardansicht zu wechseln.
@@ -255,7 +258,7 @@ Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help
 >
 >* Vorschau: 15. Mai 2025
 >* Produktions-Schnellveröffentlichung: 12. Juni 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Sie können jetzt das Erscheinungsbild der Datensatzleisten in der Zeitleisten -Ansicht für die Datensätze in der Aufschlüsselung formatieren. Sie können die folgenden Einstellungen für die Balken dieser Datensätze aktualisieren:
 
@@ -272,7 +275,7 @@ Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help
 >
 >* Vorschau: 15. Mai 2025
 >* Produktions-Schnellveröffentlichung: 12. Juni 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Wir haben eine neue Funktion zu Workfront Planning hinzugefügt, mit der Sie in der Tabellenansicht sichtbare Informationen in eine CSV- oder Excel-Datei exportieren können.  
 
@@ -290,7 +293,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >
 >* Vorschau: 15. Mai 2025
 >* Produktions-Schnellveröffentlichung: 12. Juni 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Sie können jetzt die Werte von verbundenen Feldern ausfüllen, wenn Sie mithilfe einer CSV- oder Excel-Datei Datensätze zu einem Datensatztyp hinzufügen.  Es werden nur verbundene Planungs-Datensatzfelder unterstützt. Felder, die Verbindungen zu anderen Anwendungen anzeigen, werden nicht unterstützt.
 
@@ -310,7 +313,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* Vorschau: 30. April 2025
 >* Produktions-Schnellveröffentlichung: 15. Mai 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Sie können jetzt Datensätze auf der Seite „Verbundene Datensätze“ eines Datensatzes bearbeiten. Mit diesem Update haben wir Folgendes eingeführt:
 
@@ -327,7 +330,7 @@ Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/
 >
 >* Vorschau: 30. April 2025
 >* Produktions-Schnellveröffentlichung: 15. Mai 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Benutzer von Standard- und Systemadministratoren finden den Bereich Planung jetzt standardmäßig im Hauptmenü, ohne einer Layoutvorlage zugewiesen zu werden, die ihn enthält. Alle anderen Benutzer müssen über eine Layoutvorlage verfügen, die den zugewiesenen Planungsbereich enthält, um darauf zugreifen zu können.
 
@@ -336,7 +339,7 @@ Vor dieser Verbesserung mussten Benutzende mit allen Lizenzstufen einer geänder
 >[!NOTE]
 >
 >Diese Änderung ist für alle neuen und bestehenden Benutzer mit Systemadministrator- und Standardlizenz sichtbar.
->&#x200B;>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
+>>Vorhandene Benutzer, die einer Layout-Vorlage zugewiesen sind, sehen weiterhin alles entsprechend den in der Layout-Vorlage definierten Einstellungen.
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -346,7 +349,7 @@ Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Plannin
 >
 >* Vorschau: 30. April 2025
 >* Produktions-Schnellveröffentlichung: 15. Mai 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Für eine bessere Sichtbarkeit der wichtigen Informationen Ihrer Datensätze haben wir eine Farbformatierung auf Zeilenebene für die Tabellenansicht eingeführt. Sie können jetzt für jede Zeile eine Farbe auswählen, nachdem Sie die Bedingungen für jede Auswahl definiert haben.  Dies ist eine neue Funktion, die vor diesem Update nicht vorhanden war.
 
@@ -358,7 +361,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >
 >* Vorschau: 23. April 2025
 >* Produktions-Schnellveröffentlichung: 15. Mai 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Sie können jetzt in einer Zeitleisten -Ansicht eine Einstellung auf der Registerkarte Balkenstil des Felds Einstellungen aktivieren, um längere Datensatznamen zu kürzen, wenn sie in der Standardansicht angezeigt werden. Die Einstellung ist standardmäßig deaktiviert und kann nur aktiviert werden, wenn die Zeitleisten -Ansicht im Standardmodus angezeigt wird. Da diese Einstellung deaktiviert ist, werden die Informationen in den Datensatzleisten standardmäßig erweitert angezeigt. Vor dieser Verbesserung wurden Informationen auf den Datensatzleisten standardmäßig abgeschnitten.
 
@@ -366,12 +369,11 @@ Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help
 
 ## Freigabeberechtigungen für Datensatztypen
 
-
 >[!NOTE]
 >
 >* Vorschau: 17. April 2025
 >* Produktions-Schnellveröffentlichung: 17. Juli 2025
->* Produktion für alle Kunden: 17. Juli 2025
+>* Produktion für alle: 17. Juli 2025
 
 Um besser steuern zu können, wer Datensätze in jedem Datensatztyp anzeigen oder verwalten kann, und sicherzustellen, dass nur autorisierte Personen die Informationen jedes Datensatztyps basierend auf ihren Rollen und Zuständigkeiten verwalten können, haben wir Berechtigungen auf der Datensatztypebene eingeführt.
 
