@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensatztypen im Arbeitsbereich.
->&#x200B;>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
+>>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
@@ -142,9 +142,21 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 
 {{step1-to-planning}}
 
-1. Öffnen Sie den Arbeitsbereich, dessen Datensatztypen Sie freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz .
+1. Öffnen Sie den Arbeitsbereich, dessen Datensatztypen Sie freigeben möchten.
 
-   Dadurch wird die Seite „Datensatztyp“ geöffnet.
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
+
+   Die Seite mit dem Datensatztyp wird geöffnet.
 
 1. Klicken Sie auf der Registerkarte einer beliebigen Ansicht **Freigeben** in der oberen rechten Ecke des Datensatztyps.
 1. Klicken Sie **Datensatztyp freigeben**.
@@ -160,7 +172,6 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
    >[!TIP]
    >
    >Sie können keine einzelnen Entitäten aus der Liste „Geerbte Berechtigungen“ entfernen.
-
 
 1. (Optional und bedingt) Wenn Sie den Datensatztyp für bestimmte Entitäten freigeben und ihnen einen anderen Zugriff auf den Datensatztyp gewähren möchten, als sie bereits für den Arbeitsbereich haben, gehen Sie wie folgt vor:
 
