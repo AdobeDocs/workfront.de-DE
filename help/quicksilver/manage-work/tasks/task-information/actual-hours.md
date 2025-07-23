@@ -7,9 +7,9 @@ description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ Je nachdem, aus welchem Bereich von Workfront Sie auf die tatsächlichen Stunden
 * Im Bereich „Projekt-, Aufgaben- oder Problemdetails“:
 
    * **Tatsächliche Stunden**: Stunden, die für Projekte, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+   * **Tatsächliche Stunden**: Wenn der Zugriff auf diese Stunden über ein benutzerdefiniertes Feld erfolgt, das in einem Projekt, einer Aufgabe oder einem benutzerdefinierten Formular für ein Problem auf das native Feld verweist.
 
 ## Tatsächliche Stunden für Aufgaben und Probleme im Vergleich zu tatsächlichen Stunden für Projekte
 
@@ -111,34 +112,40 @@ So suchen Sie tatsächliche Stunden in Aufgabendetails:
 1. Wechseln Sie zu einer Aufgabe, für die Sie die tatsächlichen Stunden überprüfen möchten.
 1. Klicken Sie im linken Bedienfeld auf **Aufgabendetails**. Der Abschnitt **Übersicht** wird angezeigt.
 1. Suchen Sie den Wert **Tatsächliche Stunden** im Abschnitt **Arbeitszeit**. Dies ist die Gesamtzahl der für diese Aufgabe protokollierten Stunden.
+1. (Optional und bedingt) Wenn der Verweis auf das native Feld „Tatsächliche Stunden“ zu einem Projekt, einer Aufgabe oder einem benutzerdefinierten Formular für ein Problem hinzugefügt wurde, wechseln Sie zum benutzerdefinierten Formular und suchen Sie im benutzerdefinierten Feld nach den tatsächlichen Stunden. Dies ist die Gesamtzahl der für das Objekt protokollierten Stunden.
 
 ### Tatsächliche Stunden im Abschnitt „Stunden“ {#actual-hours-in-the-hours-section}
 
 Die tatsächliche Stundenanzahl im Abschnitt Stunden ist für Projekte, Aufgaben und Probleme identisch.
 
-So suchen Sie die tatsächlichen Stunden im Abschnitt Stunden :
+So suchen Sie die tatsächlichen Stunden im Abschnitt Stunden einer Aufgabe:
 
 1. Wechseln Sie zu einer Aufgabe, für die Sie die tatsächlichen Stunden überprüfen möchten.
 
 1. Klicken Sie im linken Bedienfeld auf **Stunden**. Eine Liste der für die Aufgabe protokollierten Stundeneinträge wird angezeigt, wobei in der Spalte **Stunden** die Gesamtzahl der tatsächlichen Stunden für die Aufgabe angezeigt wird.
 
 1. Stellen Sie sicher **dass die** Standard“ und die **Projekt** Gruppierung auf diese Liste angewendet werden.
+1. Die tatsächlichen Stunden für die Aufgabe werden in der Gruppierungszeile für die Spalte „Tatsächliche **&quot;**.
 
-### Tatsächliche Stunden in Berichten {#actual-hours-in-reports}
+### Tatsächliche Stunden und veraltete tatsächliche Stunden in Berichten
 
-Beim Erstellen von Aufgaben, Problemen oder Projektberichten können Sie den tatsächlichen Stundenwert für jede Aufgabe, jedes Problem oder jedes Projekt im Bericht anzeigen.
+Beim Erstellen von Aufgaben, Problemen oder Projektberichten können Sie die Ist-Stunden und die Legacy-Ist-Stunden für jede Aufgabe, jedes Problem oder jedes Projekt im Bericht anzeigen.
 
-So zeigen Sie die tatsächlichen Stunden in einem Aufgabenbericht an:
+Informationen zur Differenz zwischen tatsächlichen Stunden und veralteten tatsächlichen Stunden finden Sie im Abschnitt [Tatsächliche Stunden vs. veraltete tatsächliche Stunden](#actual-hours-vs-legacy-actual-hours) in diesem Artikel.
+
+So zeigen Sie die tatsächlichen Stunden und die veralteten tatsächlichen Stunden in einem Aufgabenbericht an:
 
 {{step1-to-reports}}
 
 1. Klicken Sie auf der **Berichte** auf **Neuer Bericht** und wählen Sie dann **Aufgabe** als Objekt aus.
 1. Klicken Sie unten rechts auf der Seite auf **Spalte hinzufügen**.
-1. Beginnen Sie im angezeigten **In dieser Spalte anzeigen** mit der Eingabe von &quot;**Stunden“** wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie in **Dropdown-Feld****In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
+1. Wiederholen Sie den obigen Schritt, um das Feld **Alte tatsächliche Stunden** zum Bericht hinzuzufügen.
 
 1. Klicken Sie unten links auf der Seite auf **Speichern + Schließen** um den Bericht zu speichern.
 
 1. Geben **im Dialogfeld „Diesen Bericht zum Speichern benennen** einen neuen Berichtsnamen ein und klicken Sie dann auf **Anwenden**.
+1. Wiederholen Sie dieselben Schritte für einen Projekt- oder Problembericht.
 
 ### Tatsächliche Stunden in Ressourcen-Management-Tools {#actual-hours-in-resource-management-tools}
 

@@ -7,9 +7,9 @@ description: Im Abschnitt Aktualisierungen eines Objekts werden Kommentare angez
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ Die folgenden Objekte verfügen über einen Abschnitt „Aktualisierungen“, in
 * Vorlagen
 * Vorlagenaufgaben
 * Benutzende
-* Arbeitszeit- tabellen
+* Arbeitszeittabellen
 * Teams
 * Ziele
 * Wiederholungen
@@ -150,7 +150,7 @@ Es gibt Unterschiede zwischen der Anzeige von Kommentaren und Aktualisierungen f
    * Programme
    * Portfolios
    * Benutzende
-   * Arbeitszeit- tabellen
+   * Arbeitszeittabellen
 
 * Für die folgenden Objekte gibt es keine Registerkarte „Systemaktivität“ oder „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ entspricht dem Erlebnis aller anderen Objekte:
 
@@ -299,24 +299,33 @@ Die folgende Tabelle zeigt die Objekte, deren Kommentare auch auf ihren höherra
 
 Es gibt einige Einschränkungen im Abschnitt Aktualisierungen eines Teams und bei der Eingabe von Aktualisierungen im Namen anderer Benutzer.
 
-### Einschränkungen für Benutzer und Teams
+### Überlegungen für Benutzer und Teams
 
 Beachten Sie beim Anzeigen von Aktualisierungen für Benutzer und Teams Folgendes:
 
 * Es ist nicht möglich, dem Abschnitt Aktualisierungen eines Teams neue Kommentare hinzuzufügen.
-
-* Der Abschnitt Aktualisierungen für Teams wird durch Aktualisierungen ausgefüllt, die für die folgenden Objekte eingegeben wurden:
-
-   * Benutzende
-   * Storys
-   * Arbeitszeit- tabellen
-   * Wiederholungen
 
 * Sie können einer Aktualisierung, die Sie in einem Team anzeigen, eine Antwort hinzufügen. Die Antwort wird im Bereich Updates des Teams sowie im Abschnitt Updates des Objekts, zu dem sie gehört, angezeigt.
 
 * Im Abschnitt Aktualisierungen für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen eingegeben wurden.
 
   Wenn Sie möchten, dass alle an einem Benutzer oder einem Team vorgenommenen Aktualisierungen über das 90-Tage-Limit hinaus angezeigt werden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* Der Abschnitt Aktualisierungen für Teams wird durch Kommentare ausgefüllt, die den folgenden Objekten hinzugefügt werden:
+
+   * Benutzende
+   * Storys
+   * Arbeitszeittabellen
+   * Wiederholungen
+
+* Die Registerkarte Systemaktualisierungen im Bereich Aktualisierungen für Benutzende wird durch Aktualisierungen anderer Objekte ausgefüllt. Im Folgenden finden Sie Aktualisierungen, die auf der Registerkarte Systemaktualisierungen des Benutzerprofils angezeigt werden, wenn diese Felder im Bereich Aktualisierungs-Feeds von Setup verfolgt werden:
+
+   * Hinzufügen, Entfernen und andere Dokumentaktualisierungen
+   * Stundeneingabe, -entfernung, -eingabe im Auftrag von und andere Stundeneintragsaktualisierungen
+   * Hinweise, Aktualisierungen für benutzerdefinierte Felder
+   * Aktualisierungen des Benutzerprofils (Aktualisierungen des Avatars des Benutzers, Mobiltelefonnummer, Über mich sprechen, Titel)
+   * Hinzufügen, Entfernen, Ändern der Zugriffsebene von Benutzern, Änderungen in integrierten Benutzerfeldern
+   * Finanzinformationen aus Aufgaben und Projekten.
 
 ### Einschränkungen bei der Eingabe von Kommentaren im Auftrag eines anderen Benutzers
 
