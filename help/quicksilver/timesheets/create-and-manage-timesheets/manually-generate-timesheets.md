@@ -6,9 +6,9 @@ description: Damit Änderungen, die Sie an den Arbeitszeittabellen-Profilen vorg
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Anweisungen zum Löschen von Arbeitszeittabellen finden Sie unter [Löschen von 
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +42,15 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zu manuell generierten Arbeitszeittabellen
 
 Wenn Sie Arbeitszeittabellen manuell generieren:
 
-* Sie werden entsprechend den Arbeitszeittabellen-Profilen generiert, die mit Ihren Benutzern verknüpft sind. Benutzende, denen keine Arbeitszeittabellen-Profile zugeordnet sind, erhalten keine Arbeitszeittabellen. 
+* Sie werden entsprechend den Arbeitszeittabellen-Profilen generiert, die mit Ihren Benutzern verknüpft sind. Benutzende, denen keine Arbeitszeittabellen-Profile zugeordnet sind, erhalten keine Arbeitszeittabellen.
 * Es werden nur die aktuelle Arbeitszeittabelle und die folgende Arbeitszeittabelle generiert. Workfront generiert keine zwei Arbeitszeittabellen für denselben Zeitraum. Wenn Sie bereits über eine Arbeitszeittabelle für den aktuellen Zeitrahmen verfügen, wird keine weitere Arbeitszeittabelle erstellt, wenn Sie den manuellen Prozess zum Generieren von Arbeitszeittabellen verwenden.
 
 ## Manuelles Generieren von Arbeitszeittabellen über den Bereich Arbeitszeittabellen und Stunden
@@ -64,7 +66,7 @@ Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Ar
    Wenn Sie Arbeitszeittabellen generieren, die von einer bestimmten Gruppe verwendet werden, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 
 1. Klicken Sie **Arbeitszeittabellen-Profile**.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) und dann **Arbeitszeittabellen generieren**.
+1. Klicken Sie oben in der Liste der Arbeitszeittabellen-Profile auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) für Arbeitszeittabellen-Profile auf Systemebene oder **Mehr** für Arbeitszeittabellen-Profile und klicken Sie dann auf **Arbeitszeittabellen erstellen**.
 
    Neue Arbeitszeittabellen werden für bis zu zwei Zeiträume für Benutzende erstellt, die mit Arbeitszeittabellen-Profilen verknüpft sind.
 
@@ -76,5 +78,5 @@ Sie können Arbeitszeittabellen auf Systemebene manuell über den Bereich „Dia
 
 1. Erweitern Sie **System** und klicken Sie dann auf **Diagnose**.
 
-1. Klicken Sie **Diagnose durchführen**. 
+1. Klicken Sie **Diagnose durchführen**.
 1. Klicken Sie **Arbeitszeittabellen erstellen**.
