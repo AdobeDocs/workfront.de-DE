@@ -6,9 +6,9 @@ description: Damit Änderungen, die Sie an den Arbeitszeittabellen-Profilen vorg
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 Wenn Sie Arbeitszeittabellen manuell generieren:
 
 * Sie werden entsprechend den Arbeitszeittabellen-Profilen generiert, die mit Ihren Benutzern verknüpft sind. Benutzende, denen keine Arbeitszeittabellen-Profile zugeordnet sind, erhalten keine Arbeitszeittabellen. 
-* Es werden nur die aktuelle Arbeitszeittabelle und die folgende Arbeitszeittabelle generiert. Workfront generiert keine zwei Arbeitszeittabellen für denselben Zeitraum. Wenn Sie bereits über eine Arbeitszeittabelle für einen bestimmten Zeitrahmen verfügen, wird keine weitere Arbeitszeittabelle erstellt, wenn Sie den manuellen Prozess zur Erstellung von Arbeitszeittabellen verwenden.
+* Es werden nur die aktuelle Arbeitszeittabelle und die folgende Arbeitszeittabelle generiert. Workfront generiert keine zwei Arbeitszeittabellen für denselben Zeitraum. Wenn Sie bereits über eine Arbeitszeittabelle für den aktuellen Zeitrahmen verfügen, wird keine weitere Arbeitszeittabelle erstellt, wenn Sie den manuellen Prozess zum Generieren von Arbeitszeittabellen verwenden.
 
 ## Manuelles Generieren von Arbeitszeittabellen über den Bereich Arbeitszeittabellen und Stunden
 
@@ -64,7 +64,7 @@ Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Ar
    Wenn Sie Arbeitszeittabellen generieren, die von einer bestimmten Gruppe verwendet werden, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 
 1. Klicken Sie **Arbeitszeittabellen-Profile**.
-1. Klicken Sie auf **Mehr** und dann **Arbeitszeittabellen erstellen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) und dann **Arbeitszeittabellen generieren**.
 
    Neue Arbeitszeittabellen werden für bis zu zwei Zeiträume für Benutzende erstellt, die mit Arbeitszeittabellen-Profilen verknüpft sind.
 

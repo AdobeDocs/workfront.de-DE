@@ -6,9 +6,9 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
    >* Wenn Sie eine Gruppe hinzufügen, wird nur der Gruppenname auf der Registerkarte Personen zuweisen angezeigt, nicht die Liste der Gruppenmitglieder. Wenn Sie die hier aufgeführten Gruppenmitglieder sehen möchten, klicken Sie auf Änderungen speichern und dann auf den Namen des soeben erstellten Arbeitszeittabellen-Profils.
    >* Wenn Sie diese Schritte abgeschlossen haben, generiert das Arbeitszeittabellen-Profil Arbeitszeittabellen nur für die zugewiesenen Benutzer oder Gruppenmitglieder, die für den aktuellen Zeitraum keine Arbeitszeittabellen haben.
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie auf **Speichern**.
 
-   Wenn das Arbeitszeittabellen-Profil zum ersten Mal Arbeitszeittabellen generiert, werden für jeden Benutzer zwei Arbeitszeittabellen erstellt. Danach wird jedes Mal, wenn neue Arbeitszeittabellen erstellt werden, eine Arbeitszeittabelle pro Benutzer erstellt.
+1. Klicken Sie oben in der Liste der Arbeitszeittabellen-Profile auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) für Arbeitszeittabellen-Profile auf Systemebene oder **Mehr** für Arbeitszeittabellen-Profile und klicken Sie dann auf **Arbeitszeittabellen erstellen**.
+
+   Unten im Bildschirm wird eine Bestätigung angezeigt, dass Arbeitszeittabellen erfolgreich generiert wurden. Neue Arbeitszeittabellen werden auf der Grundlage der von Ihnen erstellten neuen Profile generiert.
+
+   Weitere Informationen finden Sie unter [Arbeitszeittabellen manuell generieren](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+   Wenn das Arbeitszeittabellen-Profil zum ersten Mal Arbeitszeittabellen generiert, werden für jeden Benutzer zwei Arbeitszeittabellen erstellt, und zwar sowohl für den Zeitrahmen, der die aktuelle Zeit enthält, als auch für den folgenden Zeitrahmen.
+
+   Danach wird jedes Mal, wenn neue Arbeitszeittabellen erstellt werden, eine Arbeitszeittabelle pro Benutzer erstellt.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

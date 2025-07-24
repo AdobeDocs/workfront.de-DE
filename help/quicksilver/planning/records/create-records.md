@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Erstellen von Datensätzen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ In Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps.
 
 Sie können Datensätze wie folgt erstellen:
 
-* [Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Erstellen Sie Datensätze, indem Sie sie inline über die Tabellenansicht des Datensatztyps hinzufügen](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [Verwenden Sie die Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht.](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Fügen Sie sie inline über die Tabellenansicht vom Typ Datensatz hinzu](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Fügen Sie sie in der Zeitleisten-Ansicht des Datensatztyps hinzu](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Kopieren und Einfügen einer Liste von Datensätzen aus einer externen Liste](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplizieren von Datensätzen aus einer Tabellenansicht](#create-records-by-duplicating-them)
-* [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
-* [Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Erstellen von Datensätzen mithilfe von Automatisierungen](#create-records-by-using-automations)
+* [Aus anderen Datensätzen verbinden](#create-records-as-you-connect-them)
+* [Senden eines Anfrageformulars an einen Datensatztyp](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Informationen aus einer CSV- oder Excel-Datei importieren](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Automatisierungen verwenden](#create-records-by-using-automations)
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -Ansicht finden Sie in den folgenden Artikeln:
 
@@ -270,64 +273,64 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
    * STRG + Z (⌘ + Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Umsch+Z (⌘+Umschalt+Z für Mac) zum Wiederherstellen einer Änderung
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## Erstellen von Datensätzen durch Hinzufügen in der Zeitleisten-Ansicht vom Datensatztyp
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+Sie können Datensätze in der Zeitleisten-Ansicht einer Datensatztypseite erstellen, indem Sie in die Zeitleiste doppelklicken.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [Verwalten der Zeitleistenansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
 
-1. Click a record type card. 
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
-    The record type page opens in the view that you last accessed. 
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. Klicken Sie, um zuerst eine Zeitleisten-Ansicht zu öffnen oder eine Zeitleisten-Ansicht zu erstellen.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >Sie können eine Zeitleisten -Ansicht nur erstellen, wenn mindestens zwei Datumsfelder mit dem Datensatztyp verknüpft sind.
+1. Doppelklicken Sie auf eine beliebige Stelle in der Zeitleiste.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   Ein neues Eintragsfeld wird geöffnet. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![Neues Datensatzfeld in der Timeline mit unbenannter Datensatzleiste](assets/new-record-small-box-on-timeline.png)
+1. Aktualisieren Sie die folgenden Informationen:
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **Name**: Geben Sie den Namen des Datensatzes ein. Wenn Sie es leer lassen, benennt Workfront es **mit &quot;**&quot;. Der Name wird nicht in der Datensatzleiste angezeigt, wenn er leer gelassen wird.
+   * **Datensatzdatumsfelder**: Aktualisieren Sie die Daten des Datensatzes.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     Die Namen der Datumsfelder werden entsprechend den Feldern angepasst, die zum Zeitpunkt der Erstellung der Zeitleisten-Ansicht für das Start- und Enddatum ausgewählt wurden.
 
-1. (Optional) Click one of the following icons: 
+     Standardmäßig sind Datumswerte vorab ausgewählt, je nachdem, wie Sie die Zeitleisten -Ansicht anzeigen. Die folgenden Szenarien sind vorhanden:
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * Nach **Jahr**: Das Start- und Enddatum des Datensatzes erstrecken sich über einen Monat.
+      * Nach **Quartal**: Das Start- und Enddatum des Datensatzes erstrecken sich über eine Woche.
+      * Nach **Monat**: Das Start- und Enddatum des Datensatzes erstrecken sich über drei Tage.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (Optional) Klicken Sie auf eines der folgenden Symbole:
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **Erweitern** ![Symbol „Erweitern](assets/expand-icon.png), um die Datensatzdetails im Vorschaufenster zu öffnen.
+   * **Löschen** ![Löschen-Symbol](assets/delete-icon.png), um den Datensatz zu löschen.
+   * **Schließen** ![Schließen-Symbol](assets/close-icon.png), um das neue Datensatzfeld zu schließen.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   Der Datensatz wird sofort zur Zeitleiste sowie zur Tabellen- und Kalenderansicht hinzugefügt, es sei denn, Sie haben auf das Symbol **Löschen** geklickt.
 
-</div>-->
+1. (Optional) Klicken Sie auf die Datensatzleiste in der Zeitleiste, um das Detailfenster des Datensatzes zu öffnen und seine Informationen zu aktualisieren, zu löschen oder Kommentare hinzuzufügen.
+
+   >[!TIP]
+   >
+   >Standardmäßig verknüpft Workfront den Datensatz mit einer Miniaturansicht und einem Titelbild.
+   >
+   >Die Miniaturansicht wird nur in der Zeitleisten -Ansicht angezeigt, wenn sie in den Einstellungen der Ansicht aktiviert ist.
+
+</div>
 
 ## Erstellen von Datensätzen durch Kopieren und Einfügen aus einer externen Liste
 
