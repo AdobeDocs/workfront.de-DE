@@ -6,7 +6,7 @@ description: Der Prozess zum Erstellen und Verwalten von Ausgaben ist für Proje
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wechseln Sie zu dem Projekt oder der Aufgabe, für das bzw. die Sie Ausgaben eingeben möchten.
 1. Klicken Sie **linken** auf „Ausgaben“.
 1. Klicken Sie **Kosten hinzufügen**. Das **Kosten hinzufügen** wird angezeigt.
-1. Aktualisieren Sie Folgendes:
+1. Geben Sie die folgenden Informationen ein:
 
    * **Beschreibung:** Geben Sie eine Beschreibung der Ausgabe ein.
    * **Ausgabentyp:** (Erforderlich) Wählen Sie die Kategorie aus, die die Ausgabe am besten beschreibt.
@@ -68,7 +68,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * **Tatsächlicher Betrag** Geben Sie den Betrag ein, mit dem die tatsächlichen Kosten der Ausgabe berechnet werden. Dies wirkt sich auf die Ist-Kosten des Projekts aus.
 
-   * **Geplantes Datum:** Geben Sie das erwartete Datum ein, an dem die Ausgabe anfallen soll. Sie können das Datum in das Feld im Format *mm/tt/jj* eingeben oder auf das Symbol **Kalender** klicken  ![Kalendersymbol](assets/calendar-icon.png) und das Datum dynamisch auswählen.
+   * **Geplantes Datum:** Geben Sie das erwartete Datum ein, an dem die Ausgabe anfallen soll. Sie können das Datum in das Feld im Format *mm/tt/jj* eingeben oder auf das **Kalender**-Symbol ![Kalendersymbol](assets/calendar-icon.png) klicken und das Datum dynamisch auswählen.
 
    * **Zahlungsdatum:** Sie das Datum ein, an dem die Ausgabe bezahlt wurde, oder wählen Sie es aus.
    * **Fakturierbar:** Wählen Sie diese Option, wenn Sie diese Ausgabe in Rechnung stellen möchten. Die Kategorisierung einer Ausgabe als fakturierbar ist beim Erstellen von Rechnungsnachweisen wichtig.
@@ -80,7 +80,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie müssen ein benutzerdefiniertes Formular erstellen, bevor Sie es mit einer Ausgabe verknüpfen können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie auf **Speichern**.
 
 ## Kosten löschen
 
