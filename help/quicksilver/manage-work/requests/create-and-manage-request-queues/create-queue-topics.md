@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
+
 Warteschlangenthemen arbeiten mit Routingregeln zusammen, um eingehende Arbeit automatisch einem Benutzer, einem Aufgabengebiet oder Team zuzuweisen oder in einem Projekt zu platzieren. Warteschlangenthemen definieren die Bedingungen, die vorhanden sein müssen, damit die Routingregel implementiert wird.
 
 Die Anzahl der Warteschlangenthemen, die einer Themengruppe oder einem Projekt zugewiesen werden können, ist unbegrenzt. Warteschlangenthemen sind ein berichtspflichtiger Objekttyp.
 
-Nach der Erstellung können Sie Warteschlangenthemen nicht mehr von einem Projekt in ein anderes verschieben.
+Sie können Warteschlangenthemen für einzelne Projekte oder für Projektvorlagen erstellen.
+
+Nach der Erstellung können Sie Warteschlangenthemen nicht mehr von einem Projekt oder einer Vorlage in ein anderes verschieben.
 
 ## Zugriffsanforderungen
 
@@ -97,7 +101,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Gehen Sie zu dem Projekt, das Sie als Warteschlange für Hilfeanfragen aktivieren möchten, und legen Sie dort ein neues Warteschlangenthema an.\
+1. Gehen Sie zu dem Projekt oder der Vorlage, das bzw. die Sie als Warteschlange für Hilfeanfragen aktivieren möchten, und legen Sie dort ein neues Warteschlangenthema an.\
    Weitere Informationen zum Ausweisen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Sie können verwandte Warteschlangenthemen unter einer Themengruppe organisieren. Auf diese Weise erhält der Antragsteller bei einer Anfrage eine Reihe von Dropdown-Menüs.
@@ -171,3 +175,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **Speichern**.\
    Das Warteschlangenthema kann jetzt verwendet werden und wird im Bereich Anfragen von Workfront angezeigt, nachdem eine Anfrage-Warteschlange und eine Themengruppe ausgewählt wurden.
+
+## Warteschlangenthema bearbeiten
+
+So bearbeiten Sie ein vorhandenes Warteschlangenthema:
+
+1. Gehen Sie zu dem Projekt oder der Vorlage, das bzw. die das Warteschlangenthema enthält, das bzw. die Sie bearbeiten möchten.
+1. Klicken Sie **linken Bedienfeld** Warteschlangenthemen“.
+1. Wählen Sie in der Produktionsumgebung das Warteschlangen-Thema aus, das Sie bearbeiten möchten. Klicken Sie auf der sich öffnenden Detailseite auf **Warteschlangenthema bearbeiten**.
+1. <span class="preview">Wählen Sie in der Vorschau -Umgebung das Warteschlangen-Thema aus, das Sie bearbeiten möchten, und klicken Sie dann auf das Bearbeitungssymbol ![Bearbeiten](assets/edit-icon.png).</span>
+
