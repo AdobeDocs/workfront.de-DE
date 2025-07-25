@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 0%
@@ -357,7 +357,7 @@ Bestimmte Kundinnen und Kunden können diese Änderung anzeigen, indem sie im li
 
 ### Neues Erscheinungsbild für das Feld „Als Vorlage speichern“
 
-**Vorschau-Version: 12. Juni 2025; Produktionsversion: 19. Juni 2025
+**Vorschau-Version: 12. Juni 2025; Produktions-Version: 19. Juni 2025**
 
 Das Erscheinungsbild des Felds „Als Vorlage speichern“, das beim Speichern eines Projekts als Vorlage angezeigt wird, wurde aktualisiert. Das neue Design enthält eine optimierte Benutzeroberfläche, in der alle Abschnitte in einer zusammenhängenden Form angezeigt werden, durch die Sie mithilfe von Links im linken Bereich navigieren können. Das neue Design passt sich anderen Bereichen und anderen Objekten in der Anwendung an.
 
@@ -515,7 +515,6 @@ Wir haben die Lizenzvertragsseite mit einem moderneren Design aktualisiert, das 
 
 +++
 
--->
 
 ## Aktualisierung der Benutzeroberfläche im 2. Quartal
 
