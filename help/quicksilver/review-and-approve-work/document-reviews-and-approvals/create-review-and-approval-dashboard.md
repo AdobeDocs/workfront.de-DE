@@ -88,6 +88,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Belassen Sie den Operator **Gleich** und geben Sie dann _Überprüfung ausstehend_ in das Textfeld ein.
+
       ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -133,11 +134,13 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner als**.
    1. Schalten Sie **Relatives Datum festlegen** auf **EIN** und geben Sie dann _$$TODAY_ in das Textfeld ein.
+
       ![Beispiel für überfälligen KPI-Filter](assets/overdue-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
    1. Ändern Sie den Operator in **Nicht enthält** und geben Sie dann _Genehmigt_ in das Textfeld ein.
+
       ![Überfälliger KPI-Filter - Beispiel 2](assets/overdue-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -184,12 +187,14 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Status** aus.
 
    1. Ändern Sie den Operator in **Enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf **Und**, um sie in **Oder** zu ändern.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie _Überprüft_ in das Textfeld ein.
+
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -234,12 +239,14 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Status** aus.
 
    1. Ändern Sie den Operator in **Nicht enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Frist** aus.
    1. Ändern Sie den Operator in **kleiner als** und schalten Sie dann **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAY-2w_ in das Textfeld ein.
+
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -277,6 +284,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Dokumentversion** > **Version** aus.
    1. Ändern Sie den Operator in **Ist nicht null**.
+
       ![Filterbeispiel](assets/approvals-by-decision-chart-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -315,12 +323,14 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Entscheidungsdatum**.
 
    1. Ändern Sie den Operator in **Ist Null**.
+
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner oder gleich** und schalten Sie **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAYem_ in das Textfeld ein.
+
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -394,6 +404,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Ausstehende_) in das Textfeld ein.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approval-table-filter.png)
    1. (Optional) Fügen Sie zusätzliche Filter hinzu, wie im Abschnitt **Optionale Filter** unten beschrieben.
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
@@ -411,6 +422,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, bei denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -420,6 +432,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen **im Suchfeld** Genehmigungsphase **> Genehmigungsphase Teilnehmer** > **Anforderer** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, bei denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -489,6 +502,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner als** und schalten Sie dann **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAY_ in das Textfeld ein.
+
       ![Beispiel für überfällige Genehmigungstabelle](assets/overdue-approval.png)
    1. (Optional) Fügen Sie zusätzliche Filter hinzu, wie im Abschnitt **Optionale Filter** unten beschrieben.
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
@@ -507,6 +521,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen Sie **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -516,6 +531,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen **im Suchfeld** Genehmigungsphase **> Genehmigungsphase Teilnehmer** > **Anforderer** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -525,6 +541,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen Sie **Genehmigungsphase** > **Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > Typ _Name_ im Suchfeld.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Meine Standard-Teams (angemeldeter Benutzer)** oder **Meine anderen Teams (angemeldeter Benutzer)**, um Projekte anzuzeigen, die Ihrem Standard-Team oder anderen Teams, denen Sie angehören, zugewiesen sind.
+
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/approvals-ive-submitted-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 +++
