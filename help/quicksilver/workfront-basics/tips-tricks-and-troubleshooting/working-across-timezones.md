@@ -5,9 +5,9 @@ title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein zu verstehen, wie  [!DNL Adobe Workfront]  Zeitzonen verwendet, um Zeitfelder für Objekte und Zeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ Die Zeitzone für die [!DNL Workfront]-Instanz Ihres Unternehmens ist in der Reg
 
 ### Ihr Benutzerprofil {#your-user-profile}
 
-Die Zeitzone in Ihrem Benutzerprofil sollte für den Ort konfiguriert werden, an dem Sie arbeiten. Damit wird Folgendes festgelegt:
+Das Feld Zeitzone im Profil Ihres Benutzers steuert die Zeit, die in Ihren ausgehenden E-Mail-Nachrichten angezeigt wird.
+
+Die Zeitzone wirkt sich auch darauf aus, was in einem PTO-Kalenderbericht angezeigt wird.
+
+Informationen zum Konfigurieren Ihrer Zeitzone in Ihrem Benutzerprofil finden Sie unter [Konfigurieren meiner Einstellungen](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+Informationen dazu, wie [!DNL Workfront] (oder eine Person mit [!UICONTROL Bearbeiten]-Zugriff auf Benutzer) die Zeitzone in einem Benutzerprofil konfigurieren können, finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Die Zeitzone Ihres Browsers
+
+Die Zeitzone in Ihrem Browser sollte für den Ort konfiguriert werden, an dem Sie arbeiten. Damit wird Folgendes festgelegt:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Zeiten für ein Objekt, an dem Sie arbeiten, z. B. Start- und Endzeiten
+* Zeiten für ein Objekt, an dem Sie arbeiten, z. B. Start- und Endzeiten.
 
-  Wenn einem Objekt Benutzende in mehreren Zeitzonen zugewiesen sind, konvertiert [!DNL Workfront] die Objektzeiten für alle Beteiligten mithilfe der in den einzelnen Benutzerprofilen konfigurierten Zeitzone.
+  Wenn einem Objekt Benutzende in mehreren Zeitzonen zugewiesen sind, konvertiert [!DNL Workfront] die Objektzeiten für alle Beteiligten mithilfe der im Browser jedes Benutzers konfigurierten Zeitzone.
 
-  **Beispiel:** In der Eastern Standard Time (EST)-Zone, in der Sie arbeiten, legen Sie eine Aufgabe so fest, dass sie um 16:00 Uhr beginnt, und weisen Sie sie Benutzern zu, die in der Pacific Standard Time (PST)-Zone arbeiten. Für diese Benutzer wird die Startzeit als 13:00 Uhr angezeigt. Wenn es um 16:00 Uhr angezeigt würde, würden sie drei Stunden später anfangen, daran zu arbeiten.
+  **BEISPIEL**
+In der Eastern Standard Time (EST)-Zone, in der Sie arbeiten, legen Sie eine Aufgabe so fest, dass sie um 16 :00 beginnt, und weisen Sie sie Benutzern zu, die in der Pacific Standard Time (PST)-Zone arbeiten. Für diese Benutzer wird die Startzeit als 13 :00 angezeigt. Würde sie um 16 :00 angezeigt, würden sie mit drei Stunden Verspätung damit beginnen.
 
-  Wenn der Ersteller des Objekts den Unterschied zwischen den Zeitzonen der Verantwortlichen nicht bemerkt und die erforderlichen Anpassungen beim Festlegen der Objektzeiten vornimmt, oder die Verantwortlichen diesen Unterschied nicht bemerken, kann es schwierig sein, den richtigen Zeitpunkt zu finden, während alle am Objekt zusammenarbeiten.
+  Wenn der Ersteller des Objekts den Unterschied zwischen den Zeitzonen der Verantwortlichen nicht kennt und beim Festlegen der Objektzeiten nicht die erforderlichen Anpassungen vornimmt, oder die Verantwortlichen diesen Unterschied nicht kennen, kann es schwierig sein, den richtigen Zeitpunkt zu finden, während alle am Objekt zusammenarbeiten.
 
-  **Beispiel:** Sie konfigurieren eine eintägige Aufgabe so, dass sie um 9:00 Uhr EST beginnt, wobei Sie vergessen, dass einige Benutzer an der Aufgabe in der PST-Zone arbeiten. Für sie die Startzeit 6:00 Uhr. Da sie die Arbeit erst um 9:00 Uhr (Ihre Mittagszeit) beginnen, beginnt die Aufgabe und endet mit drei Stunden Verspätung.
+  **BEISPIEL**
 
-Informationen zum Konfigurieren Ihrer Zeitzone in Ihrem Benutzerprofil finden Sie unter [Konfigurieren meiner Einstellungen](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+  Sie konfigurieren eine eintägige Aufgabe so, dass sie um 9:00 Uhr EST beginnt:00 wobei Sie vergessen, dass einige Benutzer an der Aufgabe in der PST-Zone arbeiten. Für sie die Startzeit 6:00 h. Da sie die Arbeit erst um 9 Uhr (:00) beginnen, beginnt die Aufgabe mit drei Stunden Verspätung.
 
-Informationen dazu, wie [!DNL Workfront] (oder eine Person mit [!UICONTROL Bearbeiten]-Zugriff auf Benutzer) die Zeitzone in einem Benutzerprofil konfigurieren können, finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Die Zeitzonenkonfiguration ist bei den verschiedenen Browsern unterschiedlich. Weitere Informationen finden Sie in der Dokumentation jedes Browsers oder in den Hilfeinformationen.
 
 ## Wie Sie es Benutzern erleichtern können, über Zeitzonen hinweg zu arbeiten
 
@@ -110,7 +121,7 @@ Sie können Benutzenden auf verschiedene Weise dabei helfen, einfacher über meh
 >[!BEGINSHADEBOX]
 
 **BEISPIEL:**
-Ein EST-Benutzer wird einer eintägigen Aufgabe zugewiesen, die um 9:00 Uhr PST beginnen soll, d. h. um 12:00 Uhr EST. Da dem EST-Benutzer nur noch 2 Arbeitsstunden für den Tag verbleiben, verlängert sich das Abschlussdatum der Aufgabe um etwa 6 Stunden auf den nächsten Arbeitstag.
+Ein EST-Benutzer wird einer eintägigen Aufgabe zugewiesen, die um 9:00 :00 PST beginnen soll, d. h. um 12:00 Uhr EST. Da dem EST-Benutzer nur noch 2 Arbeitsstunden für den Tag verbleiben, verlängert sich das Abschlussdatum der Aufgabe um etwa 6 Stunden auf den nächsten Arbeitstag.
 
 
 >[!ENDSHADEBOX]

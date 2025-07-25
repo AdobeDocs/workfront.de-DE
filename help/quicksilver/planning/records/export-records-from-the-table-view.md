@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ In Adobe Workfront Planning können Sie Datensätze und deren Informationen aus 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Licht oder höher </p>
    <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ In Adobe Workfront Planning können Sie Datensätze und deren Informationen aus 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
-   <p>Anzeigen von Berechtigungen für eine Ansicht , um die Anzeigeeinstellungen vorübergehend zu ändern, zu duplizieren oder zu exportieren.</p> </td> 
+   <td>   <p>Anzeigen von oder höheren Berechtigungen für eine Ansicht</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
