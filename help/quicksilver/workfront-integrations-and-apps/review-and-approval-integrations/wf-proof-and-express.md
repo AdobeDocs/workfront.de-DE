@@ -7,12 +7,10 @@ description: Erste Schritte mit Proofing und Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Einrichten von Validierungs-Workflows in Workfront
 
-Bevor Benutzer einen Genehmigungs-Workflow zu einer Express-Vorlage hinzufügen können, muss ein Korrekturabzugs-Administrator einen Genehmigungs-Workflow in Workfront erstellen.
+Bevor Benutzer einen Genehmigungs-Workflow zu einer Express-Vorlage hinzufügen können, muss ein Korrekturabzugsadministrator mit einer Standardlizenz einen Genehmigungs-Workflow in Workfront erstellen.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten automatisierter Workflow-Vorlagen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -90,7 +88,9 @@ Nachdem eine Validierungs-Workflow-Vorlage in Workfront erstellt wurde, können 
 
 Wenn eine Express-Vorlage neu gemischt wird, ist vor der Veröffentlichung eine Genehmigung erforderlich - wodurch der vorkonfigurierte Genehmigungs-Workflow automatisch ausgelöst wird.
 
-Erfahren Sie mehr darüber, wie Sie freigabefähigen Vorlagen Prüfungs- und Genehmigungs-Workflows hinzufügen. <!--need link to help article-->
+Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine Genehmigung von Adobe Express anfordern zu können.
+
+Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
@@ -104,8 +104,8 @@ Während des gesamten Prozesses der Inhaltserstellung, -überprüfung und -valid
 * Kommentare lesen
 * und weitere
 
-Erfahren Sie, wie Sie eine Genehmigung für Designs erhalten.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Remixte Express-Datei überprüfen und genehmigen
 
@@ -113,8 +113,4 @@ Stakeholder können mithilfe von Markup-Tools und Kommentaren im Workfront Proof
 
 Sie sind auch dafür verantwortlich, endgültige Entscheidungen zur Genehmigung des Inhalts zu treffen, damit er veröffentlicht werden kann.
 
-Erfahren Sie mehr darüber, wie Sie Designs in Workfront überprüfen und genehmigen.
-
-
-Workfront Collaborator-Lizenz - Versuch herauszufinden, wie dies funktioniert -
-
+Benutzer müssen mindestens über eine Workfront-Mitwirkendenlizenz verfügen, um eine Entscheidung treffen zu können.
