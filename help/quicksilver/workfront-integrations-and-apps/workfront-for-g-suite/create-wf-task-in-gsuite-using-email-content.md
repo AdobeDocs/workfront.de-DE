@@ -3,22 +3,32 @@ product-area: workfront-integrations;projects
 keywords: Google,DOC,Dokument,Blatt,Folie
 navigation-topic: workfront-for-g-suite
 title: Erstellen einer  [!DNL Adobe Workfront]  in Google Workspace mithilfe von E-Mail-Inhalten
-description: Sie können eine externe E-Mail (nicht vom Adobe generiert [!DNL Workfront] in eine Workfront-Aufgabe konvertieren.
+description: Sie können eine externe E-Mail (die nicht von Adobe generiert wurde [!DNL Workfront] in eine Workfront-Aufgabe konvertieren.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer [!DNL Adobe Workfront] Aufgabe in [!DNL Google Workspace] mit E-Mail-Inhalt
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>
+>* Zugriff auf Google Workspace-Funktionen in Workfront
+>
+>* Anzeigen und Verwalten von Workfront-Aufgaben über Gmail oder das Site-Panel des Google-Kalenders
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Sie können eine externe E-Mail (nicht von [!DNL Adobe Workfront] generiert) in eine [!DNL Workfront] Aufgabe konvertieren.
 
@@ -84,12 +94,12 @@ Bevor Sie eine [!DNL Workfront] Aufgabe in [!DNL Google Workspace] erstellen kö
       <td> <p>Klicken Sie auf <strong>[!UICONTROL Geplante Dauer]</strong> und geben Sie die Anzahl der Tage ein, die die Aufgabe dauern soll. </p> <p>Hinweis: Diese Option kann für Ihr Unternehmen auf unterschiedliche Weise konfiguriert werden. Für Ihr Unternehmen müssen Sie beispielsweise möglicherweise die Anzahl der Stunden anstatt der Tage eingeben. Weitere Informationen erhalten Sie von Ihrem [!DNL Workfront]. Wenn Sie einen anderen Zeitraum als den konfigurierten Standardwert angeben möchten, geben Sie <strong>m</strong>, <strong>h</strong>, <strong>d</strong>, <strong>w</strong> oder <strong>mo</strong> nach der Zahl ein, die Minuten, Stunden, Tage, Wochen oder Monate angibt.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL -Priorität]</td> 
+      <td role="rowheader">[!UICONTROL-Priorität]</td> 
       <td>Klicken Sie auf den Dropdown-Pfeil und dann auf die Priorität, die Sie für die Aufgabe haben möchten.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL E-Mail-Anhänge einschließen]</td> 
-      <td> <p>(Nur verfügbar, wenn die E-Mail mindestens einen Anhang enthält.) Klicken Sie auf diese Option, um Anhänge in der E-Mail im Bereich [!UICONTROL -Dokumente] der Aufgabe zu speichern. </p> <p>Wenn Sie einen Anhang nicht speichern möchten, klicken Sie auf das X rechts neben seinem Namen. </p> <p>Wenn die E-Mail Links zu Dokumenten in [!DNL Google Drive] enthält, werden diese auf der Registerkarte [!UICONTROL Übersicht] der Aufgabe gespeichert, die Sie gerade erstellen. </p> <p>Wichtig: Damit dies funktioniert, muss Ihr [!DNL Workfront]-Administrator [!DNL Google Drive] autorisieren, mit Dokumenten in [!DNL Workfront] zu arbeiten, wie im Abschnitt <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Konfigurieren von Integrationen zur Verwaltung von Dokumenten</a> im Artikel <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Konfigurieren von Dokumentenintegrationen</a>.</p> <p>Wenn Sie diese Option aktivieren, bleibt sie für andere E-Mails aktiviert, die Sie in Aufgaben, Probleme und Aktualisierungen konvertieren.</p> </td> 
+      <td> <p>(Nur verfügbar, wenn die E-Mail mindestens einen Anhang enthält.) Klicken Sie auf diese Option, um Anhänge in der E-Mail im Bereich [!UICONTROL-Dokumente] der Aufgabe zu speichern. </p> <p>Wenn Sie einen Anhang nicht speichern möchten, klicken Sie auf das X rechts neben seinem Namen. </p> <p>Wenn die E-Mail Links zu Dokumenten in [!DNL Google Drive] enthält, werden diese auf der Registerkarte [!UICONTROL Übersicht] der Aufgabe gespeichert, die Sie gerade erstellen. </p> <p>Wichtig: Damit dies funktioniert, muss Ihr [!DNL Workfront]-Administrator [!DNL Google Drive] autorisieren, mit Dokumenten in [!DNL Workfront] zu arbeiten, wie im Abschnitt <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Konfigurieren von Integrationen zur Verwaltung von Dokumenten</a> im Artikel <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Konfigurieren von Dokumentenintegrationen</a>.</p> <p>Wenn Sie diese Option aktivieren, bleibt sie für andere E-Mails aktiviert, die Sie in Aufgaben, Probleme und Aktualisierungen konvertieren.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL E-Mail-Datei einschließen]</td> 

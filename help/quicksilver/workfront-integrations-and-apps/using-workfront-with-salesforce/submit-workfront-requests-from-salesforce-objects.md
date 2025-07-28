@@ -6,14 +6,24 @@ description: Nach der Installation [!DNL Adobe Workfront] für [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 1%
+source-wordcount: '632'
+ht-degree: 0%
 
 ---
 
 # Senden von [!DNL Adobe Workfront]-Anfragen von [!DNL Salesforce]
+
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront mit Salesforce nach dem 28. **2026 nicht mehr**.
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Salesforce zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Salesforce finden Sie unter [Salesforce-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Nach der Installation von [!DNL Adobe Workfront for Salesforce] können Sie [!DNL Workfront] Anfragen von [!DNL Salesforce] Opportunities und Konten senden. Diese Funktion ist sowohl im [!DNL Classic]- als auch im [!DNL Lightning Experience]-Framework verfügbar.
 
@@ -31,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] Lizenz*</p></td> 
-   <td> <p>[!UICONTROL -Plan]</p> </td> 
+   <td> <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>

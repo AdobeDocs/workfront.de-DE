@@ -6,24 +6,36 @@ description: Sie können  [!DNL Adobe Workfront] -for [!DNL Jira]  verwenden, um
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Installieren von [!DNL Adobe Workfront for Jira]
 
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront für Jira nach dem 28. **2026 nicht mehr**.
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Jira zu verwenden.
+>
+>Acht einsatzbereite Workfront-Automatisierungs- und Integrationsvorlagen für Jira werden bis August verfügbar sein, um gängige Workflows zu replizieren und die Implementierung zu beschleunigen. Vorlagen können vollständig an spezifische Geschäftsanforderungen angepasst und bei sich ändernden Anforderungen erweitert werden.
+> 
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+
 Sie können [!DNL Adobe Workfront for Jira] verwenden, um Ihre [!DNL Jira]- und [!DNL Workfront] zu integrieren.
 
-Nach der Installation des Add-ons können Sie Workflows definieren, die beim Erstellen von [!DNL Workfront] automatisch [!DNL Jira] Probleme verursachen. Die Elemente in beiden Anwendungen werden verknüpft, und einige ihrer Informationen können in beiden Systemen automatisch aktualisiert werden.
+Nach der Installation des Add-ons können Sie Workflows definieren, die beim Erstellen von [!DNL Jira] automatisch [!DNL Workfront] Probleme verursachen. Die Elemente in beiden Anwendungen werden verknüpft, und einige ihrer Informationen können in beiden Systemen automatisch aktualisiert werden.
 
 Von dieser Integration können alle Anwender in [!DNL Workfront] und [!DNL Jira] profitieren. Sie benötigen lediglich eine Lizenz für das System, in dem sie am meisten arbeiten, und nicht für beide Systeme.
 
 Dieses Add-on ist für die Versionen [!UICONTROL Server] und [!UICONTROL OnDemand] (oder [!UICONTROL Cloud]) [!DNL Jira] Software verfügbar. Dieses Add-on ist für die [!DNL Data Center] Version [!DNL Jira] Software nicht verfügbar.
 
-Eine Liste der [!DNL Jira] Versionen, die [!DNL Workfront for Jira] derzeit unterstützt, finden Sie unter [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) im Atlassian Marketplace.
+Eine Liste der [!DNL Jira] Versionen, die [!DNL Workfront for Jira] derzeit unterstützt, finden Sie unter [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) im Atlassian Marketplace.
 
 ## Zugriffsanforderungen
 
@@ -42,7 +54,7 @@ Sie müssen über Folgendes verfügen:
    <p>Aktuell: [!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] - Übersicht</td> 
+   <td role="rowheader">Übersicht über Adobe-[!DNL Workfront]</td> 
    <td> 
    <p>Neu: Standard</p>
    <p>Aktuell: [!UICONTROL Plan]</p></td> 
@@ -75,11 +87,11 @@ Weitere Informationen zum Anfordern eines Add-ons zur Installation in Ihrem [!DN
 So installieren Sie [!DNL Workfront for Jira]:
 
 1. Melden Sie sich bei [!DNL Jira] als [!DNL Jira] an.
-1. Suchen Sie das **[!DNL Workfront for Jira]**-Add-on in der [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview).
+1. Suchen Sie das **[!DNL Workfront for Jira]**-Add-on in der [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
 1. Klicken Sie **[!UICONTROL Jetzt abrufen]**, um es zu installieren.
 
-   Nach Abschluss der Installation können Sie sich von [!DNL Jira] aus bei [!DNL Workfront] anmelden und Ihre Integration konfigurieren.
+   Nach Abschluss der Installation können Sie sich von [!DNL Workfront] aus bei [!DNL Jira] anmelden und Ihre Integration konfigurieren.
 
    Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront für Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 

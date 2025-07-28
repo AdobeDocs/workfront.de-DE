@@ -7,18 +7,28 @@ description: Sie können eine externe E-Mail (nicht von generiert [!DNL Adobe Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines [!DNL Adobe Workfront] Problems in [!DNL Google Workspace] mit E-Mail-Inhalt
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>
+>* Zugriff auf Google Workspace-Funktionen in Workfront
+>
+>* Anzeigen und Verwalten von Workfront-Aufgaben über Gmail oder das Site-Panel des Google-Kalenders
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Sie können eine externe E-Mail (nicht von [!DNL Adobe Workfront] generiert) in ein [!DNL Workfront] Problem konvertieren.
 
@@ -81,12 +91,12 @@ Bevor Sie ein Problem aus [!DNL Google Workspace] erstellen können, müssen Sie
       <td>Klicken Sie auf <strong>[!UICONTROL Zuweisen zu]</strong>, klicken Sie auf die <strong>[!UICONTROL Zuweisen zu]</strong> Option, die angezeigt wird, und tippen Sie dann den Namen der Person ein und klicken Sie darauf, wenn er in der folgenden Liste angezeigt wird. Wiederholen Sie diesen Vorgang für jede Person, die Sie hinzufügen möchten, und klicken Sie dann auf <strong>[!UICONTROL Speichern]</strong>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL -Priorität]</td> 
+      <td role="rowheader">[!UICONTROL-Priorität]</td> 
       <td>Klicken Sie auf den Dropdown-Pfeil und dann auf die Priorität, die Sie für das Problem einrichten möchten.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL E-Mail-Anhänge einschließen]</td> 
-      <td> <p>(Nur verfügbar, wenn die E-Mail mindestens einen Anhang enthält.) Klicken Sie auf diese Option, um Anhänge in der E-Mail im Bereich [!UICONTROL -Dokumente] des Problems zu speichern. </p> <p>Wenn Sie einen Anhang nicht speichern möchten, klicken Sie auf das X rechts neben seinem Namen. </p> <p>Wenn die E-Mail Links zu Dokumenten in [!DNL Google Drive] enthält, werden diese auf der Registerkarte [!UICONTROL Übersicht] des Problems gespeichert, das Sie gerade erstellen. </p> <p>Wichtig: Damit dies funktioniert, muss Ihr [!DNL Workfront]-Administrator [!DNL Google Drive] autorisieren, mit Dokumenten in [!DNL Workfront] zu arbeiten, wie im Abschnitt <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Konfigurieren von Integrationen zur Verwaltung von Dokumenten</a> im Artikel <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Konfigurieren von Dokumentenintegrationen</a>.</p> <p>Wenn Sie diese Option aktivieren, bleibt sie für andere E-Mails aktiviert, die Sie in Aufgaben, Probleme und Aktualisierungen konvertieren.</p> </td> 
+      <td> <p>(Nur verfügbar, wenn die E-Mail mindestens einen Anhang enthält.) Klicken Sie auf diese Option, um Anhänge in der E-Mail im Bereich [!UICONTROL-Dokumente] des Problems zu speichern. </p> <p>Wenn Sie einen Anhang nicht speichern möchten, klicken Sie auf das X rechts neben seinem Namen. </p> <p>Wenn die E-Mail Links zu Dokumenten in [!DNL Google Drive] enthält, werden diese auf der Registerkarte [!UICONTROL Übersicht] des Problems gespeichert, das Sie gerade erstellen. </p> <p>Wichtig: Damit dies funktioniert, muss Ihr [!DNL Workfront]-Administrator [!DNL Google Drive] autorisieren, mit Dokumenten in [!DNL Workfront] zu arbeiten, wie im Abschnitt <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Konfigurieren von Integrationen zur Verwaltung von Dokumenten</a> im Artikel <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Konfigurieren von Dokumentenintegrationen</a>.</p> <p>Wenn Sie diese Option aktivieren, bleibt sie für andere E-Mails aktiviert, die Sie in Aufgaben, Probleme und Aktualisierungen konvertieren.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">E-Mail-Datei einschließen</td> 

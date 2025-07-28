@@ -7,18 +7,28 @@ description: Sie können auf Ihre  [!DNL Adobe Workfront]  zugreifen, einschlie�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Zugreifen auf [!DNL Adobe Workfront] [!UICONTROL Home]-Inhalte über [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>
+>* Zugriff auf Google Workspace-Funktionen in Workfront
+>
+>* Anzeigen und Verwalten von Workfront-Aufgaben über Gmail oder das Site-Panel des Google-Kalenders
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Sie können auf Ihre [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalte zugreifen, einschließlich aller Ihnen zugewiesenen Aufgaben, Probleme, Genehmigungen und Zugriffsanfragen, ohne Google Workspace verlassen zu müssen.
 
@@ -45,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen
 
-Bevor Sie über [!DNL Google Workspace] auf [!UICONTROL Startseite]-Inhalte zugreifen können, müssen Sie
+Bevor Sie über [!UICONTROL  auf ]Startseite[!DNL Google Workspace]-Inhalte zugreifen können, müssen Sie
 
 * Installieren von [!DNL Workfront for Google Workspace]\
    Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).

@@ -6,9 +6,9 @@ description: Sie können verwenden [!DNL Adobe Workfront for Jira]  um Ihre  [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,27 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront für Jira nach dem 28. **2026 nicht mehr**.
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Jira zu verwenden.
+>
+>Acht einsatzbereite Workfront-Automatisierungs- und Integrationsvorlagen für Jira werden bis August verfügbar sein, um gängige Workflows zu replizieren und die Implementierung zu beschleunigen. Vorlagen können vollständig an spezifische Geschäftsanforderungen angepasst und bei sich ändernden Anforderungen erweitert werden.
+> 
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+
 Sie können [!DNL Adobe Workfront for Jira] verwenden, um Ihre [!DNL Jira]- und [!DNL Workfront] zu integrieren.
 
-Nach der Installation des Add-ons können Sie Workflows definieren, die beim Erstellen von [!DNL Workfront] automatisch [!DNL Jira] Probleme verursachen. Die Elemente in beiden Anwendungen werden verknüpft, und einige ihrer Informationen werden automatisch in beiden Systemen aktualisiert.
+Nach der Installation des Add-ons können Sie Workflows definieren, die beim Erstellen von [!DNL Jira] automatisch [!DNL Workfront] Probleme verursachen. Die Elemente in beiden Anwendungen werden verknüpft, und einige ihrer Informationen werden automatisch in beiden Systemen aktualisiert.
 
 Von dieser Integration können alle Anwender in [!DNL Workfront] und [!DNL Jira] profitieren. Sie benötigen lediglich eine Lizenz für das System, in dem sie am meisten arbeiten, und nicht für beide Systeme.
 
 Dieses Add-on ist sowohl für die [!UICONTROL Server]- als auch für [!UICONTROL OnDemand]-Versionen (oder [!UICONTROL Cloud]) [!DNL Jira] Software verfügbar.
 
-Eine Liste der [!DNL Jira] Versionen, die [!DNL Workfront for Jira] derzeit unterstützt, finden Sie unter [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) auf der [!DNL Atlassian Marketplace].
+Eine Liste der [!DNL Jira] Versionen, die [!DNL Workfront for Jira] derzeit unterstützt, finden Sie unter [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) auf der [!DNL Atlassian Marketplace].
 
 ## Zugriffsanforderungen
 
@@ -148,7 +160,7 @@ So konfigurieren Sie Trigger für die automatische Erstellung von Elementen in [
 1. Klicken Sie **[!UICONTROL Konfigurieren]**.
 1. Melden Sie sich bei [!DNL Workfront] als Systemadministrator an.
 
-   Die Registerkarte **&#x200B;**&#x200B;Trigger&quot; ist in Jira standardmäßig ausgewählt.
+   Die Registerkarte **** Trigger&quot; ist in Jira standardmäßig ausgewählt.
 
 1. Klicken Sie **[!UICONTROL Trigger hinzufügen]**, um einen neuen Trigger hinzuzufügen.
 1. Geben Sie im Feld **[!UICONTROL Workfront-Team/Benutzer/Rolle]** den Namen eines [!DNL Workfront]-Teams, eines Benutzers oder eines Aufgabengebiets an und klicken Sie dann auf das gewünschte Team, um es auszuwählen, wenn es in der Liste angezeigt wird.
@@ -219,7 +231,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
         </tr>
         <tr>
          <td role="rowheader">Dokumente</td>
-         <td><p>Dokumente, die an eine Aufgabe oder ein Problem in [!DNL Workfront] angehängt sind, sind auch an das Problem angehängt, mit dem es in Jira verknüpft ist. Neue Dokumentversionen von [!DNL Workfront] werden Jira als separate Dokumente hinzugefügt und mit <i>_v&lt;Versionsnummer&gt;</i> angehängt, um die nummerierte Version in Workfront anzugeben. </p><p>Wenn beispielsweise der Name eines Dokuments in [!DNL Workfront] "<strong>" lautet </strong> Sie ihm in [!DNL Workfront] eine neue Version hinzufügen, wird die neue Version als neues Dokument mit dem Namen "<strong>" in [!DNL Jira] übertragen</strong>.</p><p>Wichtig: <p>Beachten Sie beim Synchronisieren von Dokumenten Folgendes:</p>
+         <td><p>Dokumente, die an eine Aufgabe oder ein Problem in [!DNL Workfront] angehängt sind, sind auch an das Problem angehängt, mit dem es in Jira verknüpft ist. Neue Dokumentversionen von [!DNL Workfront] werden Jira als separate Dokumente hinzugefügt und mit <i>_v&lt;Versionsnummer&gt;</i> angehängt, um die nummerierte Version in Workfront anzugeben. </p><p>Wenn beispielsweise der Name eines Dokuments in [!DNL Workfront] "<strong>" lautet </strong> Sie ihm in [!DNL Workfront] eine neue Version hinzufügen, wird die neue Version als neues Dokument mit dem Namen "[!DNL Jira]" in <strong> übertragen</strong>.</p><p>Wichtig: <p>Beachten Sie beim Synchronisieren von Dokumenten Folgendes:</p>
            <ul>
             <li><p>Dokumente mit mehr als 5 MB werden nicht synchronisiert. Wenn die Synchronisierung eines Dokuments fehlschlägt, weil das Dokument zu groß ist, wird ein Fehler im Aktivitätsprotokoll protokolliert. </p><p>Weitere Informationen zum Aktivitätsprotokoll finden Sie unter <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">Jira-Aktivitätsprotokoll anzeigen</a>.</p></li>
             <li><p>Dokumente, die mit Aufgaben und Problemen von externen Servern verknüpft sind, werden nicht an die [!DNL Jira] Elemente übertragen. Nur Dokumente, die direkt auf die Aufgabe oder das Problem in [!DNL Workfront] hochgeladen werden, werden auf die verknüpfte Anfrage in [!DNL Jira] übertragen.</p></li>
@@ -228,7 +240,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td>
-         <td><p>Das [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems in [!DNL Workfront] wird zum [!UICONTROL Fälligkeitsdatum] des Problems, mit dem es in [!DNL Jira] verknüpft ist.</p><p>Hinweis: Stellen Sie sicher, dass bei [!DNL Jira] Problemen <strong>[!UICONTROL Due Date]</strong> angezeigt wird, damit dieser Wert synchronisiert werden kann.</p></td>
+         <td><p>Das [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems in [!DNL Workfront] wird zum [!UICONTROL Fälligkeitsdatum] des Problems, mit dem es in [!DNL Jira] verknüpft ist.</p><p>Hinweis: Stellen Sie sicher, dass bei <strong> Problemen </strong>[!UICONTROL Due Date][!DNL Jira] angezeigt wird, damit dieser Wert synchronisiert werden kann.</p></td>
         </tr>
        </tbody>
       </table>
@@ -264,7 +276,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Bevollmächtigter]</td>
-         <td><p>Der [!UICONTROL Bevollmächtigte] eines Problems in [!DNL Jira] wird zum [!UICONTROL Bevollmächtigten] der Aufgabe oder des Problems, mit der bzw. dem es in [!DNL Workfront] verknüpft ist.</p><p>Wichtig: Wenn Sie einem Benutzer, der kein [!DNL Workfront] Konto hat, ein Element in [!DNL Jira] zuweisen, erstellt die Integration nur dann einen neuen aktiven Benutzer in [!DNL Workfront], wenn <strong>Automatisch einen Benutzer in [!DNL Workfront] erstellen, wenn der [!DNL Jira] Benutzer kein [!DNL Workfront] Konto hat</strong> auf <strong>[!UICONTROL Always]</strong> gesetzt ist. Dieser Benutzer ist nicht im Besitz einer [!DNL Workfront]. Aktive Benutzende können Arbeitselementen in [!DNL Workfront] zugewiesen werden, können jedoch nicht in Aktualisierungen eingeschlossen werden. </p></td>
+         <td><p>Der [!UICONTROL Bevollmächtigte] eines Problems in [!DNL Jira] wird zum [!UICONTROL Bevollmächtigten] der Aufgabe oder des Problems, mit der bzw. dem es in [!DNL Workfront] verknüpft ist.</p><p>Wichtig: Wenn Sie einem Benutzer, der kein [!DNL Jira] Konto hat, ein Element in [!DNL Workfront] zuweisen, erstellt die Integration nur dann einen neuen aktiven Benutzer in [!DNL Workfront], wenn <strong>Automatisch einen Benutzer in [!DNL Workfront] erstellen, wenn der [!DNL Jira] Benutzer kein [!DNL Workfront] Konto hat</strong> auf <strong>[!UICONTROL Always]</strong> gesetzt ist. Dieser Benutzer ist nicht im Besitz einer [!DNL Workfront]. Aktive Benutzende können Arbeitselementen in [!DNL Workfront] zugewiesen werden, können jedoch nicht in Aktualisierungen eingeschlossen werden. </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Anlagen]</td>
@@ -311,7 +323,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
            <li>Wenn Sie <strong>[!UICONTROL Never]</strong> auswählen, passiert Folgendes:
             <ul>
              <li>Es werden keine [!DNL Jira] Zuweisungen für die [!DNL Workfront] Elemente angezeigt. In diesem Fall werden in [!DNL Workfront] nur Zuweisungen auf den [!DNL Workfront] Elementen angezeigt.</li>
-             <li>Die Zeit, die ein Benutzer ohne ein [!DNL Workfront]-Konto für ein verknüpftes [!DNL Jira]-Problem protokolliert hat, wird nicht automatisch auf das verknüpfte [!DNL Workfront]-Element übertragen. Sie können weiterhin Zeit für das [!DNL Workfront] Element im rechten Bedienfeld des [!DNL Jira] Problems protokollieren.</li>
+             <li>Die Zeit, die ein Benutzer ohne ein [!DNL Jira]-Konto für ein verknüpftes [!DNL Workfront]-Problem protokolliert hat, wird nicht automatisch auf das verknüpfte [!DNL Workfront]-Element übertragen. Sie können weiterhin Zeit für das [!DNL Workfront] Element im rechten Bedienfeld des [!DNL Jira] Problems protokollieren.</li>
             </ul></li>
           </ul></td>
         </tr>
@@ -324,11 +336,11 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
 
 ## Fehlerbehebung
 
-### Elemente können in [!DNL Jira] nicht erstellt werden, da Trigger-Felder mit der Kennzeichnung &quot;[!UICONTROL &#x200B; nicht gefunden &#x200B;]&quot;
+### Elemente können in [!DNL Jira] nicht erstellt werden, da Trigger-Felder mit der Kennzeichnung &quot;[!UICONTROL  nicht gefunden ]&quot;
 
 #### Problem
 
-Wenn bei der [!DNL Workfront for Jira] Anwendung ein Fehler auftritt, deaktiviert [!DNL Workfront] die Trigger, um weitere Komplikationen zu vermeiden. Wenn diese Trigger deaktiviert sind, werden sie als &quot;[!UICONTROL &#x200B; nicht gefunden“ &#x200B;].
+Wenn bei der [!DNL Workfront for Jira] Anwendung ein Fehler auftritt, deaktiviert [!DNL Workfront] die Trigger, um weitere Komplikationen zu vermeiden. Wenn diese Trigger deaktiviert sind, werden sie als &quot;[!UICONTROL  nicht gefunden“ ].
 
 #### Lösung
 
@@ -336,9 +348,9 @@ Suchen Sie den Fehler, der die Trigger deaktiviert hat. Den Fehler finden Sie im
 
 Die häufigste Ursache für dieses Verhalten ist der Fehler &quot;[!UICONTROL Feld &#39;duedate&#39; kann nicht festgelegt werden. Es ist nicht auf dem entsprechenden Bildschirm oder unbekannt.]&quot;
 
-Dieser Fehler bedeutet, dass Sie versuchen, das &quot;[!UICONTROL &#x200B; Abschlussdatum“ &#x200B;] von [!DNL Workfront] nach [!DNL Jira] zu synchronisieren. Dazu müssen Sie sicherstellen, dass Ihre [!DNL Jira] ein Feld namens „Fälligkeitsdatum[!UICONTROL &#x200B; aufweisen]. Wenn dieses Feld nicht vorhanden ist, kann [!DNL Workfront] das geplante Abschlussdatum nicht mit [!DNL Workfront] synchronisieren und deaktiviert Ihre Trigger.
+Dieser Fehler bedeutet, dass Sie versuchen, das &quot;[!UICONTROL  Abschlussdatum“ ] von [!DNL Workfront] nach [!DNL Jira] zu synchronisieren. Dazu müssen Sie sicherstellen, dass Ihre [!DNL Jira] ein Feld namens „Fälligkeitsdatum[!UICONTROL  aufweisen]. Wenn dieses Feld nicht vorhanden ist, kann [!DNL Workfront] das geplante Abschlussdatum nicht mit [!DNL Workfront] synchronisieren und deaktiviert Ihre Trigger.
 
 Um diesen Fehler zu beheben, führen Sie einen der folgenden Schritte aus:
 
 * Bitten Sie Ihren [!DNL Jira], die betroffenen [!DNL Jira] zu aktualisieren, um sicherzustellen, dass sie ein Feld für das Fälligkeitsdatum haben.
-* Deaktivieren Sie die Synchronisierung des geplanten Abschlussdatums von [!DNL Workfront] auf der Seite „Setup[!UICONTROL &#x200B; von Workfront].
+* Deaktivieren Sie die Synchronisierung des geplanten Abschlussdatums von [!DNL Workfront] auf der Seite „Setup[!UICONTROL  von Workfront].

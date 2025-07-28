@@ -6,14 +6,26 @@ description: Als  [!DNL Jira]  können Sie die Ausnahmen und Fehler, die bei der
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Anzeigen des [!UICONTROL [!DNL Jira] Aktivitätsprotokolls]
+
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront für Jira nach dem 28. **2026 nicht mehr**.
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Jira zu verwenden.
+>
+>Acht einsatzbereite Workfront-Automatisierungs- und Integrationsvorlagen für Jira werden bis August verfügbar sein, um gängige Workflows zu replizieren und die Implementierung zu beschleunigen. Vorlagen können vollständig an spezifische Geschäftsanforderungen angepasst und bei sich ändernden Anforderungen erweitert werden.
+> 
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Als [!DNL Jira] können Sie die Ausnahmen und Fehler, die bei der Synchronisierung oder Erstellung der Tickets zwischen [!DNL Adobe Workfront] und [!DNL Jira] auftreten, in einem [!UICONTROL Aktivitätsprotokoll] anzeigen.
 
@@ -35,7 +47,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe [!DNL Workfront]-Lizenzen</a>*</td> 
-   <td> <p>[!UICONTROL -Plan]</p> </td> 
+   <td> <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] Zugriff</td> 

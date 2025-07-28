@@ -7,18 +7,28 @@ description: Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Aktualisieren eines [!DNL Adobe Workfront] aus [!DNL Google Workspace] mithilfe von E-Mail-Inhalten
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>
+>* Zugriff auf Google Workspace-Funktionen in Workfront
+>
+>* Anzeigen und Verwalten von Workfront-Aufgaben über Gmail oder das Site-Panel des Google-Kalenders
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem mit Informationen aus einer nicht [!DNL Adobe Workfront] E-Mail aktualisieren.
 
@@ -53,7 +63,7 @@ Bevor Sie ein [!DNL Workfront] mit E-Mail-Inhalt aus [!DNL Google Workspace] akt
 ## Aktualisieren eines [!DNL Workfront] mithilfe von E-Mail-Inhalten aus [!DNL Google Workspace]
 
 1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das Workfront-Symbol ![Workfront](assets/wf-lion-icon.png)Symbol in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
-1. Wenn die E-Mail-Nachricht in [!DNL Google Workspace] geöffnet ist **[!UICONTROL klicken Sie im [!DNL Google Workspace]-Bedienfeld auf]** Als neues Update posten.
+1. Wenn die E-Mail-Nachricht in [!DNL Google Workspace] geöffnet ist **[!UICONTROL klicken Sie im]**-Bedienfeld auf [!DNL Google Workspace]Als neues Update posten.
 1. Klicken **[!UICONTROL unter &quot;]**&quot; auf den Dropdown-Pfeil und dann auf den Objekttyp, zu dem Sie die Aktualisierung hinzufügen möchten.
 1. Klicken Sie auf die **[!UICONTROL Suchen nach]**, geben Sie den Namen des Objekts ein, zu dem Sie die Aktualisierung hinzufügen möchten, und wählen Sie dann das Element aus, wenn es in der Liste unten angezeigt wird.
 

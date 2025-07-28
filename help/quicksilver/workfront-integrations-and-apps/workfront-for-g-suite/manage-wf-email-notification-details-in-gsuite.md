@@ -3,24 +3,34 @@ product-area: workfront-integrations
 keywords: Google,DOC,Dokument,Blatt,Folie
 navigation-topic: workfront-for-g-suite
 title: Verwalten  [!DNL Adobe Workfront]  Benachrichtigungsdetails aus Google Workspace
-description: Wenn Sie in Google Workspace Adobe eine Benachrichtigungs-E-Mail öffnen [!DNL Workfront]  die von Ihnen gesendet wurde, können Sie die zugehörigen Arbeitsaufgabendetails anzeigen und antworten, ohne Ihren Posteingang zu verlassen. Wenn Aktionen verfügbar sind, z. B. die Genehmigung einer Anfrage, können Sie diese Aktionen direkt über Workfront für Google Workspace durchführen.
+description: Wenn Sie in Google Workspace eine von Adobe gesendete Benachrichtigungs [!DNL Workfront] E-Mail öffnen, können Sie die zugehörigen Arbeitsaufgabendetails anzeigen und antworten, ohne Ihren Posteingang zu verlassen. Wenn Aktionen verfügbar sind, z. B. die Genehmigung einer Anfrage, können Sie diese Aktionen direkt über Workfront für Google Workspace durchführen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '576'
+ht-degree: 0%
 
 ---
 
 # Verwalten von [!DNL Adobe Workfront]-Benachrichtigungsdetails über [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>
+>* Zugriff auf Google Workspace-Funktionen in Workfront
+>
+>* Anzeigen und Verwalten von Workfront-Aufgaben über Gmail oder das Site-Panel des Google-Kalenders
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Wenn Sie [!DNL Google Workspace] eine von [!DNL Adobe Workfront] gesendete Benachrichtigungs-E-Mail öffnen, können Sie die zugehörigen Arbeitsaufgabendetails anzeigen und antworten, ohne Ihren [!UICONTROL Posteingang“ &#x200B;]. Wenn Aktionen verfügbar sind, z. B. die Genehmigung einer Anfrage, können Sie diese Aktionen direkt über [!DNL Workfront for Google Workspace] ausführen.
+Wenn Sie [!DNL Google Workspace] eine von [!DNL Adobe Workfront] gesendete Benachrichtigungs-E-Mail öffnen, können Sie die zugehörigen Arbeitsaufgabendetails anzeigen und antworten, ohne Ihren [!UICONTROL Posteingang“ ]. Wenn Aktionen verfügbar sind, z. B. die Genehmigung einer Anfrage, können Sie diese Aktionen direkt über [!DNL Workfront for Google Workspace] ausführen.
 
 >[!NOTE]
 >
@@ -88,7 +98,7 @@ Bevor Sie Benachrichtigungsdetails aus [!DNL Google Workspace] verwalten können
      </tr> 
      <tr> 
       <td>Aktualisieren </td> 
-      <td> <p>Zeigen Sie einen beliebigen Teil der gesamten Aktualisierungsliste für das Element an, damit Sie über den Kontext verfügen, in dem Sie[!UICONTROL Post]</strong> neues Update oder eine <strong>[!UICONTROL Reply]<strong> müssen</strong>. Sie können auf <strong>[!UICONTROL Notify]</strong> klicken, um bestimmte Benutzer über Ihre Antwort zu informieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Antwort auf eine [!DNL Adobe Workfront] Update-Benachrichtigung von [!DNL Google Workspace]</a>.</p> </td> 
+      <td> <p>Zeigen Sie einen beliebigen Teil der gesamten Aktualisierungsliste für das Element an, damit Sie über den Kontext verfügen, in dem Sie[!UICONTROL Post]<strong> neues Update oder eine </strong>[!UICONTROL Reply]<strong> müssen</strong>. Sie können auf <strong>[!UICONTROL Notify]</strong> klicken, um bestimmte Benutzer über Ihre Antwort zu informieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Antwort auf eine [!DNL Adobe Workfront] Update-Benachrichtigung von [!DNL Google Workspace]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Genehmigungsanforderung</td> 

@@ -7,7 +7,7 @@ description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder abgestimmte Zi
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -67,10 +67,6 @@ Beachten Sie beim Arbeiten mit Ergebnissen Folgendes:
 
 * Sie beantworten die Frage: „Woher weiß ich, wann mein Ziel erreicht ist?“
 * Es handelt sich um metrische Indikatoren. Sie können aus den folgenden Optionen auswählen, um einen Fortschritt für Ihr Ergebnis anzuzeigen:
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * Währung
    * Zahl

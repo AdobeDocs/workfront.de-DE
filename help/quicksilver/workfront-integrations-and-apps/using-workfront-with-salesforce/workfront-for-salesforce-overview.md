@@ -7,9 +7,9 @@ description: Salesforce Sie können für  [!DNL Adobe Workfront]  installieren, 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 # Übersicht über [!DNL Adobe Workfront for Salesforce]
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront mit Salesforce nach dem 28. **2026 nicht mehr**.
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Salesforce zu verwenden.
+>
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Salesforce finden Sie unter [Salesforce-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Sie können [!DNL Adobe Workfront for Salesforce] installieren, damit Ihre [!DNL Salesforce]-Benutzer [!DNL Workfront]-Anfragen senden und automatisch Projekte erstellen können, ohne [!DNL Salesforce] verlassen zu müssen.
 
@@ -28,7 +38,7 @@ Weitere Informationen zum Konfigurieren des [!DNL Workfront] in [!DNL Salesforce
 
 >[!NOTE]
 >
->Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein [!DNL Workfront]-Plan &#x200B;]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
+>Um diese Funktion verwenden zu können[!UICONTROL  ist ein ]-Plan [!DNL Workfront]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
 
 ## Zugriffsanforderungen
 
@@ -80,7 +90,7 @@ Beachten Sie beim Arbeiten mit [!DNL Workfront] für [!DNL Salesforce] Folgendes
 
   Eine Liste der [!DNL Workfront] Felder, die Sie in [!DNL Salesforce] anzeigen können, finden Sie unter [Senden [!DNL Adobe Workfront] Anfragen von [!DNL Salesforce] Objekten](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) und [Erstellen [!DNL Adobe Workfront] Projekte aus [!DNL Salesforce] Objekten](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* Sie können direkt auf Elemente zugreifen, die mit [!DNL Salesforce] verknüpft sind, indem Sie in Workfront auf [!UICONTROL &#x200B; Link &#x200B;]Zu Salesforce gehen“ klicken.
+* Sie können direkt auf Elemente zugreifen, die mit [!DNL Salesforce] verknüpft sind, indem Sie in Workfront auf [!UICONTROL  Link ]Zu Salesforce gehen“ klicken.
 
   Sie können keine Informationen zu den [!DNL Salesforce] Elementen in [!DNL Workfront] anzeigen. Über einen Link in Workfront gelangen Sie jedoch zu dem Element in Salesforce, damit Sie es dort überprüfen können.
 

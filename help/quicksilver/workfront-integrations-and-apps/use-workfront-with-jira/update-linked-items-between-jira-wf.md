@@ -6,14 +6,26 @@ description: Wenn Sie Probleme  [!DNL Jira]  Aufgaben oder  [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
 
 # Aktualisieren verknüpfter Elemente zwischen [!DNL Jira] und [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront für Jira nach dem 28. **2026 nicht mehr**.
+>
+>Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Jira zu verwenden.
+>
+>Acht einsatzbereite Workfront-Automatisierungs- und Integrationsvorlagen für Jira werden bis August verfügbar sein, um gängige Workflows zu replizieren und die Implementierung zu beschleunigen. Vorlagen können vollständig an spezifische Geschäftsanforderungen angepasst und bei sich ändernden Anforderungen erweitert werden.
+> 
+>Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Wenn Sie [!DNL Jira] Probleme mit [!DNL Adobe Workfront] Aufgaben oder Problemen verknüpfen, können Ihre Benutzerinnen und Benutzer Elemente in einer Anwendung aktualisieren. Das Gegenstück zu diesem Element wird auch für die Benutzerinnen und Benutzer aktualisiert, die in der zweiten Anwendung arbeiten.
 
@@ -156,7 +168,7 @@ Die folgende Liste zeigt, welche [!DNL Jira] Felder mit [!DNL Workfront] Feldern
   </tr>
   <tr> 
    <td>[!UICONTROL Problemanhänge]</td> 
-   <td> [!UICONTROL Problem- oder Aufgabendokumente]<br>Ein Kommentar zum Hochladen eines neuen Dokuments in [!DNL Jira] wird der Registerkarte [!UICONTROL -Aktualisierungen] des [!DNL Workfront] Problems oder der Aufgabe hinzugefügt.  </td> 
+   <td> [!UICONTROL Problem- oder Aufgabendokumente]<br>Ein Kommentar zum Hochladen eines neuen Dokuments in [!DNL Jira] wird der Registerkarte [!UICONTROL-Aktualisierungen] des [!DNL Workfront] Problems oder der Aufgabe hinzugefügt.  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fälligkeitsdatum]</td> 
@@ -195,7 +207,7 @@ Sie können die Zeit aus einem [!DNL Jira] Problem protokollieren, das mit einem
 
 >[!IMPORTANT]
 >
->Wenn der Benutzer, der die Zeit in [!DNL Jira] protokolliert, in [!DNL Workfront] nicht vorhanden ist, erstellt die Integration einen neuen aktiven Benutzer in Workfront, wenn **[!UICONTROL Automatisch einen Benutzer in [!DNL Workfront] erstellen&#x200B;wenn der [!DNL Jira] *Benutzer kein[!DNL Workfront]&#x200B;Konto]** auf&#x200B;**[!UICONTROL &#x200B; Immer &#x200B;]**&#x200B;gesetzt ist. Dieser Benutzer ist nicht im Besitz einer [!DNL Workfront]. Sie können aktive Benutzer Arbeitselementen in [!DNL Workfront] zuweisen, sie jedoch nicht in Aktualisierungen einbeziehen. Informationen zum Konfigurieren der automatischen Erstellung [!DNL Workfront] Benutzer aus [!DNL Jira] finden Sie unter [Konfigurieren [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Wenn der Benutzer, der die Zeit in [!DNL Jira] protokolliert, in [!DNL Workfront] nicht vorhanden ist, erstellt die Integration einen neuen aktiven Benutzer in Workfront, wenn **[!UICONTROL Automatisch einen Benutzer in [!DNL Workfront] erstellen&#x200B;wenn der [!DNL Jira] *Benutzer kein[!DNL Workfront]&#x200B;Konto]** auf**[!UICONTROL  Immer ]**gesetzt ist. Dieser Benutzer ist nicht im Besitz einer [!DNL Workfront]. Sie können aktive Benutzer Arbeitselementen in [!DNL Workfront] zuweisen, sie jedoch nicht in Aktualisierungen einbeziehen. Informationen zum Konfigurieren der automatischen Erstellung [!DNL Workfront] Benutzer aus [!DNL Jira] finden Sie unter [Konfigurieren [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 So protokollieren Sie die Zeit für ein Element in [!DNL Jira] und lassen es sowohl in [!DNL Jira] als auch [!DNL Workfront] aufzeichnen:
 
@@ -215,7 +227,7 @@ So protokollieren Sie die Zeit für ein Element in [!DNL Jira] und lassen es sow
 
 ### Zeit von [!DNL Jira] in ein [!DNL Workfront] Element protokollieren
 
-Sie können die Zeit aus dem [!DNL Jira] Problem nur für das verknüpfte [!DNL Workfront]-Element protokollieren, ohne diese Zeit für das [!DNL Jira] Problem aufzuzeichnen.
+Sie können die Zeit aus dem [!DNL Workfront] Problem nur für das verknüpfte [!DNL Jira]-Element protokollieren, ohne diese Zeit für das [!DNL Jira] Problem aufzuzeichnen.
 
 1. Anmelden bei [!DNL Jira].
 1. Navigieren Sie zu einem [!DNL Jira] Problem, das mit einem [!DNL Workfront] Element verknüpft ist.

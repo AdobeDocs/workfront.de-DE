@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 ## Prüfprotokolltypen und die Aktionen, durch die sie Trigger werden
 
 * [Zugriffsebene](#access-level)
-* [Verfahrensregeln](#business-rules)
+* [Geschäftsregeln](#business-rules)
 * [Firma](#company)
 * [Bedingung](#condition)
 * [Benutzerdefiniertes Feld](#custom-field)
@@ -91,7 +91,7 @@ Das System generiert einen Zugriffsebenen-Protokolleintrag, wenn ein Benutzer ei
 * Ändert eine Zugriffsebene:
 
    * Ändert den Lizenztyp
-   * Ändert Berechtigungen für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Dokumente, Benutzende oder Vorlagen
+   * Ändert Berechtigungen für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Dokumente, Benutzer oder Vorlagen
 
      >[!NOTE]
      >
@@ -99,7 +99,7 @@ Das System generiert einen Zugriffsebenen-Protokolleintrag, wenn ein Benutzer ei
      >
      >Wenn beispielsweise ein(e) Benutzende(r) den Zugriffstyp Planer von Ansicht in Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen optimieren enthalten sind.
 
-### Verfahrensregeln
+### Geschäftsregeln
 
 Geschäftsregeln sind nur für Kunden verfügbar, die einen Ultimate Workfront-Plan erworben haben. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
@@ -257,7 +257,7 @@ Weitere Informationen zum Konfigurieren von Aufgabengebieten finden Sie unter [E
 Das System generiert einen Prüfprotokolleintrag für den Anmeldeversuch, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
 * Anmelden, Abmelden oder Fehlschlagen eines Anmeldeversuchs in Workfront (im Browser und in der Mobile App)
-* Meldet sich bei einer Workfront-Integration an, meldet sich ab oder schlägt einen Anmeldeversuch fehl (z. B. Workfront für Slack und Workfront für Salesforce)
+* Meldet sich bei einer Workfront-Integration (z. B. Workfront für Slack) an, meldet sich ab oder schlägt einen Anmeldeversuch fehl
 * Anmelden bei oder Abmelden von der Workfront-API
 
 Wenn ein Workfront-Administrator die Funktion „Anmelden als“ verwendet, werden keine Anmeldeversuche aufgezeichnet.
