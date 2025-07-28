@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Aktualisierungen der Benutzeroberfläche für die Liste der Arbeitszeittabellen-Profile in einer Gruppe
 
-**Vorschau-Version: 24. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 24. Juli 2025; Produktionsversion: 28. Juli 2025**
 
 Das Erscheinungsbild der Arbeitszeittabellen-Profilliste im linken Bereich in einer Gruppe wurde entsprechend anderen Bereichen der Anwendung aktualisiert.
 
@@ -50,15 +50,23 @@ Die Exportschaltfläche wurde an die rechte Seite der Seite verschoben.
 
 Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Änderungsverfolgung > Auditprotokolle.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Aktualisierung der Benutzeroberfläche auf der Seite „Benutzer für SSO aktualisieren“ im Setup
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Vorschau-Version: 22. Juli 2025; Produktionsversion: 28. Juli 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+Wir haben die Seite Benutzer für SSO aktualisieren mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO aktualisieren
 
 ## Projekte
+
+## Aktualisierungen der Benutzeroberfläche für das Feld MS Project-Datei importieren
+
+**Vorschau-Version: 24. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Das Erscheinungsbild des Feldes MS Project-Datei importieren beim Importieren eines Projekts aus MS Project wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Projekte > Neues Projekt > MS Project importieren.
 
 ## Aktualisierung der Benutzeroberfläche für das Ausgabenfeld eines Projekts oder einer Vorlage hinzufügen
 
