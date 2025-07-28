@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Voraussetzungen
 
-Bevor Sie über [!UICONTROL  auf ]Startseite[!DNL Google Workspace]-Inhalte zugreifen können, müssen Sie
+Bevor Sie über [!UICONTROL &#x200B; auf &#x200B;]Startseite[!DNL Google Workspace]-Inhalte zugreifen können, müssen Sie
 
 * Installieren von [!DNL Workfront for Google Workspace]\
    Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).

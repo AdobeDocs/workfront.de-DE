@@ -206,7 +206,7 @@ So heben Sie die Verknüpfung eines [!DNL Jira] Problems mit einem [!DNL Workfro
 
 1. Anmelden bei Jira.
 1. Navigieren Sie zu dem Problem, das mit einer [!DNL Workfront] Aufgabe oder einem Problem verknüpft ist.
-1. Wechseln Sie zum rechten Bedienfeld von **0}Workfront.**
+1. Wechseln Sie zum rechten Bedienfeld von **0&rbrace;Workfront.**
 1. Klicken Sie auf das Symbol **[!UICONTROL Verknüpfung aufheben]** und dann auf **[!UICONTROL Verknüpfung aufheben]**. Die zuvor verknüpften [!DNL Jira] und [!DNL Workfront] Elemente werden aufgehoben.
 
    Felder, Kommentare oder Dokumente, die in Zukunft aktualisiert werden, werden nicht im vorherigen Gegenstück in der anderen Anwendung aktualisiert.
