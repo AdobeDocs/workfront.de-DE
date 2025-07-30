@@ -125,7 +125,7 @@ Wenn Ihr Unternehmen eine separate Anwendung zum Verwalten von Kennwörtern verw
 
 Wenn Ihr Kennwort von [!DNL Adobe] verwaltet wird, können Sie das Kennwort in Ihrem Adobe-Konto ändern.
 
-[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/de/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Wenden Sie sich an Ihren Administrator, um weitere Informationen zum Ändern Ihres Kennworts zu erhalten.
 
