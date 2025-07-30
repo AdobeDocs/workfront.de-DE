@@ -5,9 +5,9 @@ description: Sie können KI verwenden, um Anfragefelder automatisch auszufüllen
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,5 @@ Sie können ein Dokument hochladen, das auf das gesamte Formular oder auf einen 
 Wenn Sie nicht die erwarteten Vorschläge erhalten, kann dies auf eine der folgenden Ursachen zurückzuführen sein:
 
 * Sie müssen mindestens einen Monat an Anfragedaten im System haben, bevor es Feldwerte aus früheren Anfragen vorschlagen kann.
-* Ein Datenelement einer Anfrage muss mehr als 24 Stunden im System vorhanden sein, bevor es in einer anderen Anfrage vorgeschlagen werden kann.
 * Sie haben möglicherweise die Leitplanken für den Dokument-Upload nicht befolgt, wenn Sie ein Dokument hochladen, aus dem Sie Vorschläge abrufen möchten. Weitere Informationen finden Sie unter [Leitplanken beim Hochladen von Dokumenten](#document-upload-guardrails) in diesem Artikel.
 
