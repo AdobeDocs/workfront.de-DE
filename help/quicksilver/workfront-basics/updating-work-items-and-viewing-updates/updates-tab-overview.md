@@ -7,9 +7,9 @@ description: Im Abschnitt Aktualisierungen eines Objekts werden Kommentare angez
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 4%
 
 ---
@@ -322,7 +322,7 @@ Beachten Sie beim Anzeigen von Aktualisierungen für Benutzer und Teams Folgende
 
    * Hinzufügen, Entfernen und andere Dokumentaktualisierungen
    * Stundeneingabe, -entfernung, -eingabe im Auftrag von und andere Stundeneintragsaktualisierungen
-   * Hinweise, Aktualisierungen für benutzerdefinierte Felder
+   * Aktualisierungen an benutzerdefinierten Feldern
    * Aktualisierungen des Benutzerprofils (Aktualisierungen des Avatars des Benutzers, Mobiltelefonnummer, Über mich sprechen, Titel)
    * Hinzufügen, Entfernen, Ändern der Zugriffsebene von Benutzern, Änderungen in integrierten Benutzerfeldern
    * Finanzinformationen aus Aufgaben und Projekten.

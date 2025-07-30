@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 1%
 
 ---
@@ -264,11 +264,11 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
 
 * Sie können eine Seite „Verbundene Datensätze“ zu einem Datensatz hinzufügen, nachdem Sie in der Tabellenansicht eines Datensatztyps Datensätze oder Objekttypen mit dem Datensatztyp verbunden haben.
 
-* Sie können keine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes hinzufügen.
+* Sie können keine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes hinzufügen. <!--take this out when we release connected record pages to the record preview area-->
 
 * Verbundene Datensatzseiten zeigen nur die verbundenen Objekte oder Datensätze eines Objekts oder Datensatztyps in einer Tabellenansicht an. Auf der Seite werden nicht alle Datensätze dieses Typs in der Tabellenansicht angezeigt.
 
-* Nachdem Sie einem Datensatz eine Seite „Verbundene Datensätze“ hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. <!--this might have changed? check and take disclaimer out-->
+* Nachdem Sie einem Datensatz eine Seite „Verbundene Datensätze“ hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. &lt;!- Dies ändert sich mit der Veröffentlichung der verbundenen Seiten im Vorschaubereich— Überprüfen und Entfernen des Haftungsausschlusses—>
 
 * Sie können Seiten mit verbundenen Datensätzen für die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
 
@@ -279,12 +279,20 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
   >
   >   Sie können keine Seite „Verbundene Datensätze“ für verbundene AEM Assets-Datensätze hinzufügen.
 
-
 So fügen Sie eine Seite mit verbundenen Datensätzen hinzu:
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol **In neuer Registerkarte öffnen** ![Details in einer neuen ](assets/open-details-in-a-new-tab-icon.png) öffnen.
 1. Klicken Sie **Seite hinzufügen**.
-
 
    Das **Seite erstellen** wird geöffnet.
 

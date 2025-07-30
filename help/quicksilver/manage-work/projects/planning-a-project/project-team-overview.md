@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Projektteam - Übersicht
-description: Das Projektteam besteht aus Benutzern, die in gewisser Eigenschaft mit einem Projekt verknüpft sind. Benutzer, die im Bereich Personen eines Projekts aufgeführt sind, sind die Benutzer, aus denen das Projekt-Team besteht.
+description: Das Projektteam besteht aus Benutzern, die in gewisser Eigenschaft mit einem Projekt verknüpft sind. Benutzer, die unter dem Bereich Personen eines Projekts oder einer Vorlage aufgeführt sind, sind die Benutzer, aus denen das Projekt-Team besteht.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 Ein Projektteam besteht aus Benutzern, die mit einem Projekt in gewisser Kapazität verknüpft sind. Benutzer, die unter dem Bereich Personen eines Projekts aufgeführt sind, bilden das Projekt-Team. Beispielsweise gehören Benutzende, die mit der Arbeit am Projekt betraut sind, oder die Projektbesitzerin bzw. der Projektbesitzer zum Projektteam.
 
+Benutzer, die mit der Arbeit an einer Projektvorlage verknüpft sind oder Vorlagenbesitzer oder Sponsor sind, sind Teil des zukünftigen Projektteams, nachdem das Projekt mithilfe der Vorlage erstellt wurde.
+
 ## Projektteammitglieder
 
 Benutzer können einem Projektteam entweder manuell oder automatisch zugewiesen werden. Weitere Informationen finden Sie im Abschnitt Hinzufügen von Benutzern zu einem Projektteam im Artikel [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -28,7 +30,13 @@ Wenn Sie Benutzer manuell zum Projektteam hinzufügen, erhalten sie Ansichtsbere
 
 ## Benachrichtigungen an Mitglieder des Projektteams
 
-Je nachdem, welche E-Mail-Benachrichtigungen Ihr Adobe Workfront-Administrator aktiviert, werden die Benutzer in einem Projektteam über verschiedene Aktionen für ein Projekt benachrichtigt. Weitere Informationen zum Aktivieren von E-Mail-Benachrichtigungen finden [ unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Je nachdem, welche E-Mail-Benachrichtigungen Ihr Adobe Workfront-Administrator aktiviert, werden die Benutzer in einem Projektteam über verschiedene Aktionen für ein Projekt benachrichtigt.
+
+Weitere Informationen finden Sie auch in den folgenden Artikeln:
+
+* [Typen von Ereignisbenachrichtigungen](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Ereignisbenachrichtigungen für alle Systembenutzenden konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >
