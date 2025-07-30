@@ -5,9 +5,9 @@ description: Sie können KI verwenden, um Anfragefelder automatisch auszufüllen
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit Teil einer geschlossenen Beta-Version. Um diese Funktion aktivieren zu lassen, wenden Sie sich bitte an sargism@adobe.com.
+>Diese Funktion ist derzeit Teil einer geschlossenen Beta-Version. Wenden Sie sich an `sargism@adobe.com`, um diese Funktion aktivieren zu lassen.
 >
 >Um sich für die Closed Beta zu qualifizieren, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ KI kann Ihnen helfen, Anfragefelder automatisch auszufüllen. Es kann Feldwerte 
 Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
 
 Das automatische Ausfüllen überschreibt keine bereits ausgefüllten Felder.
+
+Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff hätten.
 
 ## Vorschläge beim Ausfüllen des Formulars einholen
 
@@ -162,4 +164,12 @@ Sie können ein Dokument hochladen, das auf das gesamte Formular oder auf einen 
    Oder
 
    Wählen **oben auf der Seite** Alle akzeptieren **oder (Alle**) aus, um alle Vorschläge zu akzeptieren oder abzulehnen.
+
+## Fehlerbehebung
+
+Wenn Sie nicht die erwarteten Vorschläge erhalten, kann dies auf eine der folgenden Ursachen zurückzuführen sein:
+
+* Sie müssen mindestens einen Monat an Anfragedaten im System haben, bevor es Feldwerte aus früheren Anfragen vorschlagen kann.
+* Ein Datenelement einer Anfrage muss mehr als 24 Stunden im System vorhanden sein, bevor es in einer anderen Anfrage vorgeschlagen werden kann.
+* Sie haben möglicherweise die Leitplanken für den Dokument-Upload nicht befolgt, wenn Sie ein Dokument hochladen, aus dem Sie Vorschläge abrufen möchten. Weitere Informationen finden Sie unter [Leitplanken beim Hochladen von Dokumenten](#document-upload-guardrails) in diesem Artikel.
 

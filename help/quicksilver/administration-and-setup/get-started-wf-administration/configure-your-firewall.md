@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -74,9 +74,7 @@ Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfro
 >
 >Einige Workfront-Integrationen funktionieren nicht, wenn die -Zulassungsliste aktiviert ist, da sie nicht mit einer statischen IP-Adresse konfiguriert werden können. Um die folgenden Integrationen verwenden zu können, müssen Sie die Zulassungsliste deaktivieren.
 >
->* Workfront für Google Workspace
 >* Workfront für Outlook
->* Workfront für Salesforce
 
 * [IP-Adressen für die Cluster 1, 2, 3, 5, 7, 8 und 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-Adressen, um Cluster 4 zuzulassen](#ip-addresses-to-allow-for-cluster-4)
