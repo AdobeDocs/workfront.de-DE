@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
 
 * Sie können eine Seite „Verbundene Datensätze“ zu einem Datensatz hinzufügen, nachdem Sie in der Tabellenansicht eines Datensatztyps Datensätze oder Objekttypen mit dem Datensatztyp verbunden haben.
 
-* Sie können keine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes hinzufügen. <!--take this out when we release connected record pages to the record preview area-->
+* In der Produktionsumgebung können Sie keine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes hinzufügen.
+
+  <span class="preview">Sie können eine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes in der Vorschau-Umgebung hinzufügen.</span>
 
 * Verbundene Datensatzseiten zeigen nur die verbundenen Objekte oder Datensätze eines Objekts oder Datensatztyps in einer Tabellenansicht an. Auf der Seite werden nicht alle Datensätze dieses Typs in der Tabellenansicht angezeigt.
 
-* Nachdem Sie einem Datensatz eine Seite „Verbundene Datensätze“ hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. &lt;!- Dies ändert sich mit der Veröffentlichung der verbundenen Seiten im Vorschaubereich— Überprüfen und Entfernen des Haftungsausschlusses—>
+* Je nach verwendeter Umgebung können Sie Folgendes feststellen:
+
+   * Nachdem Sie in der Produktionsumgebung einem Datensatz eine Seite „Verbundene Datensätze“ hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen.
+   * <span class="preview">In der Vorschau-Umgebung ist die Seite „Verbundene Datensätze“ sowohl im Vorschaubereich des Datensatzes als auch auf der separaten Browser-Registerkarte sichtbar.</span>
 
 * Sie können Seiten mit verbundenen Datensätzen für die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
 
@@ -281,18 +286,11 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
 
 So fügen Sie eine Seite mit verbundenen Datensätzen hinzu:
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. Klicken Sie auf den Namen des Datensatzes, um ihn zu öffnen.
+1. Klicken Sie **einem der** Bereiche auf „Seite hinzufügen“:
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. Klicken Sie in einer Datensatzseitenansicht auf den Namen eines Datensatzes, um ihn zu öffnen, und klicken Sie dann oben rechts auf der Vorschauseite auf das Symbol **In neuer Registerkarte öffnen** ![Details in einer neuen ](assets/open-details-in-a-new-tab-icon.png) öffnen.
-1. Klicken Sie **Seite hinzufügen**.
+   * <span class="preview">Das Vorschaufenster des Datensatzes</span>
+   * Die Detailseite des Datensatzes, nachdem Sie auf das Symbol **In neuer Registerkarte öffnen** (![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Vorschauseite geklickt haben.
 
    Das **Seite erstellen** wird geöffnet.
 
@@ -306,8 +304,6 @@ Die Tabellenansicht des ausgewählten Datensatztyps wird auf der neuen Seite ang
 Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Registerkarte des verbundenen Datensatzes angezeigt.
 
    Die ersten fünf Felder der verbundenen Datensatztabelle werden standardmäßig angezeigt. Standardmäßig werden keine Suchfelder angezeigt.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Tabellenansicht mit Audience-Verbindung unter Kampagnendetails](assets/audience-connected-table-view-under-campaign-details-page.png)
 
