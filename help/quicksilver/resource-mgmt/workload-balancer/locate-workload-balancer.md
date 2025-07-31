@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: Arbeit,Team,Personal,Ressourcen
 navigation-topic: the-workload-balancer
 title: Suchen des Workload Balancer
-description: Sie können den Workload Balancer verwenden, um Ressourcen für Arbeiten zu planen oder ihre Verfügbarkeit und aktuelle Zuweisungen zu überprüfen.
+description: Der Workload Balancer steht für mehrere Projekte im Bereich Ressource, für ein Team, für ein Projekt und für einen Benutzer zur Verfügung.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # Suchen des Workload Balancer
+
+{{preview-fast-release-general}}
 
 Sie können den Workload Balancer verwenden, um Ressourcen für Arbeiten zu planen oder ihre Verfügbarkeit und aktuelle Zuweisungen zu überprüfen.
 
@@ -55,7 +57,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td><p>Neu: Standard</p>
        <p>oder</p>
        <p>Aktuell: Plan, wenn der Workload Balancer im Bereich „Ressourcen“ verwendet wird</br>
-       Arbeit bei Verwendung des Workload Balancer eines Teams oder Projekts</p></td>
+       Arbeit bei Verwendung des Workload Balancer eines Teams oder Projekts</p>
+       <p><span class="preview">Hinweis: Alle Benutzer können ohne Lizenzanforderungen in ihren eigenen Benutzerprofilen auf den Workload-Balancer zugreifen.</span></p></td>
   </tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Folgendes anzeigen oder höher:</p> 
@@ -137,6 +140,27 @@ Die Seite Ihres Home-Teams wird angezeigt.
      >
      >Sie können alle Benutzer im System anstelle nur der im Projekt vorhandenen Benutzer (im Bereich Zugewiesene Arbeit ) anzeigen, indem Sie die Option Alle Benutzer anzeigen aktivieren. Weitere Informationen finden Sie unter [Navigieren im Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
+<div class="preview">
+
+### Zugriff auf den Workload Balancer für einen Benutzer
+
+Alle Benutzer haben Zugriff darauf, den Workload-Balancer in ihren eigenen Profilen anzuzeigen. Workload-Balancer-Daten für einen Benutzer sind schreibgeschützt. Auf Benutzerebene können Sie keine Arbeit zuweisen, die Zuweisung von Arbeit aufheben oder Zuordnungen anpassen.
+
+Alle Anzeigeeinstellungen sind für den Workload-Balancer für einen Benutzer verfügbar. Weitere Informationen finden Sie unter [Navigieren im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+{{step1-click-profile-pic}}
+
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
+
+   Der Workload-Balancer für den Benutzer wird angezeigt.
+
+   ![Workload-Balancer für einen Benutzer](assets/workload-balancer-user.png)
+
+   Der Workload-Balancer eines Benutzers zeigt standardmäßig die folgenden Informationen an:
+
+   * **Zugewiesene Arbeit**: Die Aufgaben und Probleme, die dem jeweiligen Benutzer zugewiesen sind.
+
+</div>
 
 ## Hinzufügen des Workload Balancer zu einem benutzerdefinierten Abschnitt
 

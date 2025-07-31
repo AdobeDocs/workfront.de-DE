@@ -6,14 +6,16 @@ description: Ohne entsprechende Zugriffsrechte können Sie Ihre Arbeitszuweisung
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # Zugriff zum Verwalten von Ressourcen im Workload Balancer erforderlich
+
+{{preview-fast-release-general}}
 
 Ohne entsprechende Zugriffsrechte können Sie Ihre Arbeitszuweisungen im Workload-Balancer möglicherweise nicht anzeigen oder verwalten.
 
@@ -81,6 +83,8 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um den Workload-Balanc
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview">Alle Benutzer haben Zugriff darauf, den Workload-Balancer in ihren eigenen Profilen anzuzeigen. Dies ist weder durch die Lizenz noch durch die Zugriffsebene eingeschränkt. Beachten Sie, dass der Workload Balancer für ein Benutzerprofil schreibgeschützt ist und Zuweisungen und Zuweisungen nicht geändert werden können.</span>
 
 ## Zugriff erforderlich, um Zuweisungen im Workload Balancer zu verwalten
 

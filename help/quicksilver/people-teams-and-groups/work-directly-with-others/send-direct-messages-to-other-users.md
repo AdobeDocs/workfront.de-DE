@@ -7,16 +7,18 @@ description: Mit Adobe Workfront können Sie schnell und einfach Nachrichten, di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 52d722932b6b445bc8ee08a706e4e53765776bf7
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # Senden von Direktnachrichten an andere Benutzer
 
-[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL &#x200B; werden auf der Profilseite des Benutzers auf der Registerkarte &#x200B;]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+{{highlighted-preview}}
+
+[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL  werden auf der Profilseite des Benutzers auf der Registerkarte ]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Der Benutzer, an den Sie die Nachricht senden, erhält die folgenden Arten von Benachrichtigungen, wenn Sie eine Nachricht wie in diesem Abschnitt beschrieben senden:
 
@@ -83,11 +85,16 @@ Diese Option ist nur verfügbar, wenn Sie über eine Standard-, Plan- oder Arbei
 {{step-1-to-users}}
 
 1. Wählen Sie den/die Benutzer aus, an den/die Sie eine Nachricht senden möchten, und klicken Sie auf [!UICONTROL **Update an Benutzer senden**].
-1. Geben Sie Ihre Nachricht in das Fenster [!UICONTROL Aktualisierung an Benutzer senden] ein.
+1. Geben Sie Ihre Nachricht in das Fenster [!UICONTROL Aktualisierung an Benutzer senden] ein. Verwenden Sie die Textformatierungsoptionen nach Bedarf. Weitere Informationen finden Sie unter [Verwenden von Rich-Text in einem Workfront](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) im Artikel [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Melden Sie den Benutzer im Fenster Update an Benutzer senden](assets/send-update-to-user-072825.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Melden Sie den Benutzer im Fenster Update an Benutzer senden](assets/send-message-to-user-dialog-from-user-list.png)
 
-1. (Optional) Suchen Sie nach allen zusätzlichen Benutzern, die Sie mit Tags in der Nachricht versehen möchten. Die bereits in der Benutzerliste ausgewählten Benutzer müssen nicht getaggt werden.
+1. <span class="preview">(Optional) Klicken Sie auf **Personen taggen**, um weitere Benutzer in der Nachricht zu taggen. Weitere Informationen finden Sie unter [Andere bei Updates taggen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+1. (Optional) Suchen Sie in der Produktionsumgebung nach allen zusätzlichen Benutzern, die Sie mit Tags in der Nachricht versehen möchten. Die bereits in der Benutzerliste ausgewählten Benutzer müssen nicht getaggt werden.
 1. (Optional) Wählen Sie **[!UICONTROL Privat für meine Firma]** aus, damit diese Nachricht nur für andere Benutzer in Ihrer Firma sichtbar ist.
 1. Klicken Sie [!UICONTROL **Senden**].
-Die Nachricht wird oben in der Nachrichtenliste auf der Registerkarte **[!UICONTROL Updates]** auf der Profilseite jedes Benutzers veröffentlicht.
+Die Nachricht wird oben in der Nachrichtenliste auf der Registerkarte **[!UICONTROL Updates]** auf der Profilseite jedes getaggten Benutzers veröffentlicht.

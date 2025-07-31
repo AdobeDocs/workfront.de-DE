@@ -6,9 +6,9 @@ description: Verwenden Sie den Workload Balancer, um die Verfügbarkeit Ihrer Re
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
+source-wordcount: '4371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Verwenden Sie den Workload Balancer in Adobe Workfront, um Benutzenden je nach V
 
 Der Workload Balancer ist in mehreren Bereichen von Adobe Workfront verfügbar. Die Navigation ist in allen Bereichen ähnlich.
 
-Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Zugriffsanforderungen
 
@@ -109,8 +109,8 @@ Weitere Informationen zum Anzeigen von Informationen im Workload Balancer finden
 
 Informationen zum Verwalten von Ressourcen mit dem Workload Balancer finden Sie auch in den folgenden Artikeln:
 
-* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigieren im Workload Balancer für mehrere Projekte im Bereich Ressourcen
@@ -478,12 +478,37 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
    Weitere Informationen finden Sie unter [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-
    >[!NOTE]
    >
    >Sie können keine Aufgabengebiet-Informationen für Initiativen anzeigen, wenn Ihr Unternehmen keine Lizenz für den Workfront Scenario Planner erworben hat. In diesem Fall können Sie nur die geplanten Stunden anzeigen, die mit Aufgabengebieten im Projekt verknüpft sind. Weitere Informationen finden Sie unter [Zugriff für die Verwendung des Szenario-Planers erforderlich](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Projekts fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
+
+<div class="preview">
+
+### Navigieren im Workload Balancer eines Benutzers
+
+Sie können über Ihr eigenes Benutzerprofil auf den Workload-Balancer zugreifen.
+
+{{step1-click-profile-pic}}
+
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
+
+   Der Workload-Balancer für den Benutzer wird angezeigt.
+
+   ![Workload-Balancer für einen Benutzer](assets/workload-balancer-user.png)
+
+   Der Workload-Balancer eines Benutzers zeigt standardmäßig die folgenden Informationen an:
+
+   * **Zugewiesene Arbeit**: Die Aufgaben und Probleme, die dem jeweiligen Benutzer zugewiesen sind.
+
+   >[!NOTE]
+   >
+   >Der Workload-Balancer für ein Benutzerprofil ist schreibgeschützt und Zuweisungen und Zuweisungen können nicht geändert werden.
+
+1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Benutzers fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
