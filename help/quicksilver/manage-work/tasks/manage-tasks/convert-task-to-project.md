@@ -6,9 +6,9 @@ description: Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Alle Teilaufgaben, Probleme und Notizen werden dem neuen Projekt zugeordnet.
 * Dokumente, Dokumentversionen und Testsendungen werden in das neue Projekt verschoben.
 * Der Status und der abgeschlossene Prozentsatz aller Teilaufgaben und Probleme werden beibehalten.
-* Freigegebene Benutzer der Aufgabe werden zu freigegebenen Benutzern des Projekts.
+* Aufgabenzugewiesene und der Benutzer, der die Aufgabe in das Projekt konvertiert, werden zu freigegebenen Benutzern im Projekt.
 * Das Startdatum des Projekts ist auf das Startdatum der Aufgabe festgelegt.
 * In der folgenden Tabelle sind die Projektinformationen aufgeführt und es wird angegeben, ob sie von der Vorlage oder von der Aufgabe übertragen werden:
 
