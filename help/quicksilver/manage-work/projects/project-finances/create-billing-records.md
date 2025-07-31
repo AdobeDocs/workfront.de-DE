@@ -5,7 +5,7 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
 
 Sie können Stunden, die für Aufgaben, Probleme oder das Projekt protokolliert wurden, in Ihre Rechnungsnachweise aufnehmen.
 
-Wenn der Benutzer, der die Stunden oder sein Primäres Aufgabengebiet protokolliert, mit einem Abrechnungssatz pro Stunde verknüpft ist, wird der Umsatz aus diesen Stunden zum Abrechnungsdatensatz hinzugefügt.
+Wenn der Benutzer, der die Stunden oder sein primäres Aufgabengebiet protokolliert, mit einem Abrechnungssatz pro Stunde verknüpft ist, wird der Umsatz aus diesen Stunden zum Abrechnungs-Datensatz hinzugefügt.
 
 * [Welche Stunden können einem Rechnungsnachweis hinzugefügt werden](#what-hours-can-be-added-to-a-billing-record)
 * [Hinzufügen von Stunden zu einem Rechnungsnachweis](#add-hours-to-a-billing-record)
@@ -135,19 +135,19 @@ Sie können einem Rechnungsnachweis Stunden hinzufügen, wenn die folgenden Bedi
 
   Weitere Informationen finden Sie im Artikel [Verwalten von Stundentypen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* Alle für Probleme oder das Projekt protokollierten Stunden können einem Rechnungsnachweis hinzugefügt werden, wenn der Person, die die Zeit protokolliert, ein Abrechnungssatz pro Stunde oder ihr Primäres Aufgabengebiet zugeordnet ist.
+* Alle für Probleme oder das Projekt protokollierten Stunden können einem Rechnungsnachweis hinzugefügt werden, wenn dem Benutzer, der die Zeit protokolliert, ein Abrechnungssatz pro Stunde oder sein primäres Aufgabengebiet zugeordnet ist.
 * Wenn Stunden für eine Aufgabe protokolliert werden, muss die Aufgabe den folgenden Umsatztyp aufweisen:
 
    * Der Umsatztyp kann nicht auf „Nicht fakturierbar“ festgelegt werden.
    * Wenn der Umsatztyp auf „Benutzer pro Stunde“ festgelegt ist, muss für den Benutzer, der die Zeit protokolliert, der Satz „Abrechnung pro Stunde“ in seinem Profil festgelegt sein.
-   * Wenn der Umsatztyp auf „Funktion pro Stunde“ festgelegt ist, muss die Primäre Rolle des Benutzers, der die Zeit protokolliert, über einen Abrechnungssatz pro Stunde verfügen.
+   * Wenn der Umsatztyp auf „Funktion pro Stunde“ festgelegt ist, muss die primäre Rolle des Benutzers, der die Zeit protokolliert, über einen Abrechnungssatz pro Stunde verfügen.
 
      >[!NOTE]
      >
      >Sie können Abrechnungssätze für Aufgabengebiete auf Projektebene überschreiben.\
-     >Weitere Informationen finden Sie im Abschnitt zum Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene im Artikel [Übersicht über das Überschreiben der Abrechnungssätze für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Weitere Informationen finden Sie im Abschnitt „Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene“ im Artikel [Übersicht über das Überschreiben der Abrechnungssätze für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* Wenn die Option Für dieses Projekt zu genehmigende Zeit erforderlich in den Projekteinstellungen aktiviert ist, muss der Projektbesitzer die protokollierten Stunden genehmigen.\
+* Wenn die Option Für dieses Projekt zu genehmigende Zeit erforderlich in den Projekteinstellungen ausgewählt ist, muss der Projektbesitzer die protokollierten Stunden genehmigen.\
   Weitere Informationen finden Sie unter [Für die Genehmigung eines Projekts ist Zeit erforderlich](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
 #### Hinzufügen von Stunden zu einem Rechnungsnachweis {#add-hours-to-a-billing-record}
@@ -184,15 +184,15 @@ So fügen Sie verrechenbare Ausgaben zu einem Rechnungsnachweis hinzu:
 
    >[!NOTE]
    >
-   >Wenn Sie Ausgaben haben, diese jedoch nicht als „Verrechenbar“ gekennzeichnet sind, wird die Schaltfläche **Kosten hinzufügen** nicht angezeigt. Nur fakturierbare Ausgaben mit einem tatsächlichen Betrag größer als null können in einen Rechnungsnachweis aufgenommen werden.
+   >Wenn Sie Ausgaben haben, diese jedoch nicht als „Verrechenbar“ gekennzeichnet sind, wird die Schaltfläche **Ausgaben hinzufügen** nicht angezeigt. Nur fakturierbare Ausgaben mit einem tatsächlichen Betrag größer als null können in einen Rechnungsnachweis aufgenommen werden.
 
-1. Wählen Sie die verrechenbaren Ausgaben aus, die dem Rechnungsnachweis hinzugefügt werden können, und klicken Sie dann auf **Ausgaben hinzufügen**.  Der tatsächliche Betrag der Kosten wird als &quot;**Kosten“** „Rechnungsnachweissumme **hinzugefügt**.
+1. Wählen Sie die fakturierbaren Ausgaben aus, die dem Rechnungsnachweis hinzugefügt werden können, und klicken Sie dann auf **Ausgaben hinzufügen**.  Der tatsächliche Betrag der Kosten wird als &quot;**Kosten“** „Rechnungsnachweissumme **hinzugefügt**.
 
 1. (Optional) Klicken Sie auf **Rechnungsnachweisdetails**, um die Beträge **Abrechnungsfähige Ausgaben** und **Rechnungsnachweissumme** sowie die Summe des Rechnungsnachweises in der Kopfzeile des Rechnungsnachweises zu überprüfen.
 
 ### Festeinnahmen in einen Rechnungsnachweis einbeziehen {#include-fixed-revenues-in-a-billing-record}
 
-Sie können Festeinnahmen zu Ihren Rechnungsnachweisen hinzufügen, wenn Aufgaben mit Festeinnahmen verfügbar sind. Es steht kein anderer Typ von Aufgaben- oder Projektumsatz zur Verfügung, der einem Rechnungsnachweis hinzugefügt werden kann. Weitere Informationen zu Umsatztypen finden Sie im Abschnitt Übersicht über Abrechnung und Umsatz im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Sie können Festeinnahmen zu Ihren Rechnungsnachweisen hinzufügen, wenn Sie Aufgaben mit Festeinnahmen haben. Es steht kein anderer Typ von Aufgaben- oder Projektumsatz zur Verfügung, der einem Rechnungsnachweis hinzugefügt werden kann. Weitere Informationen zu Umsatztypen finden Sie im Abschnitt „Übersicht über Abrechnung und Umsatz“ im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 {{step1-to-projects}}
 
@@ -240,7 +240,7 @@ Nachdem Sie einen Rechnungsnachweis erstellt und ihm Stunden, Ausgaben und Einna
 
    * **Fakturierbare Stunden:** Der Gesamtbetrag der tatsächlichen Einnahmen aus den im Rechnungsnachweis enthaltenen Stunden. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Stunden in einen Rechnungsnachweis einbeziehen](#include-billable-hours-in-a-billing-record).
 
-   * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Ausgaben in einen Rechnungsnachweis einschließen](#include-billable-expenses-in-a-billing-record).
+   * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Ausgaben in einen Rechnungsnachweis einbeziehen](#include-billable-expenses-in-a-billing-record).
 
    * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis ](#include-fixed-revenues-in-a-billing-record).
 
