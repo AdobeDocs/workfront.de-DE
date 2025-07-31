@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 5%
 
 ---
 
 # Erstellen eines benutzerdefinierten Formulars
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -133,7 +135,7 @@ Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehme
 >[!NOTE]
 >
 >Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, in dem jetzt in anderen Bereichen von Workfront darauf verwiesen werden kann.
->&#x200B;>Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
+>>Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
 >
 >Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
 >
@@ -572,7 +574,7 @@ So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
 
 ### Hinzufügen externer Suchfelder
 
-Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen. Das externe Suchfeld ist auch in Listen und Berichten verfügbar.
+Ein externes Suchfeld ruft eine externe API auf und gibt Werte als Optionen in einem Dropdown-Feld zurück. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können eine oder mehrere dieser Optionen aus der Dropdown-Liste auswählen, je nachdem, ob das externe Suchfeld ein Einzel- oder Mehrfachauswahlfeld ist. Die externen Suchfelder sind auch in Listen und Berichten verfügbar.
 
 Beispiele für die Verwendung des externen Suchfelds zum Aufrufen derselben Instanz von Workfront oder einer öffentlichen API finden Sie unter [Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -583,7 +585,7 @@ Beispiele für die Verwendung des externen Suchfelds zum Aufrufen derselben Inst
 
 So fügen Sie eine externe Suche hinzu:
 
-1. Suchen Sie auf **Registerkarte** Neues Feld“ auf der linken Bildschirmseite nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie auf **Registerkarte** Neues Feld“ auf der linken Bildschirmseite nach **Externe Suche** oder <span class="preview">**Externe Suche mit Mehrfachauswahl**</span> und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -647,8 +649,8 @@ So fügen Sie eine externe Suche hinzu:
       <td><p>Klicken Sie <strong>Kopfzeile hinzufügen</strong> und geben Sie dann das für die Authentifizierung mit der API erforderliche Schlüssel-Wert-Paar ein oder fügen Sie es ein.</p><p><strong>Hinweis:</strong> Die Header-Felder sind kein sicherer Ort zum Speichern von Anmeldeinformationen, und Sie sollten darauf achten, was Sie eingeben und speichern.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Mehrfachauswahl-Dropdown</td>
-      <td><p>Wählen Sie diese Option aus, damit der/die Benutzende mehr als einen Wert in der Dropdown-Liste auswählen kann.</p></td>
+      <td role="rowheader"><span class="preview">Mehrfachauswahl-Dropdown</span></td>
+      <td><p><span class="preview">Wählen Sie diese Option aus, damit der/die Benutzende mehr als einen Wert in der Dropdown-Liste auswählen kann.</span></p></td>
      </tr>
      </tr>
      <tr> 
@@ -969,7 +971,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 

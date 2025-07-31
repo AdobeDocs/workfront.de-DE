@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage
 
-In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen ](assets/main-menu-icon.png), falls verfügbar, oder um Dashboards.
+In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen ](assets/main-menu-icon-left-nav.png), falls verfügbar, oder um Dashboards.
 
 Alle Pins, die von Ihren Benutzerinnen und Benutzern eigenständig hinzugefügt wurden, werden rechts neben den Pins angezeigt, die Sie der Layout-Vorlage hinzufügen.
 
@@ -109,8 +109,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Klicken Sie **Dashboard hinzufügen**
       * Geben Sie einen beschreibenden Namen in das Feld <!--**Quick link name**-->**Benutzerdefinierter Name** ein
-      * Wählen Sie ein Dashboard im <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> **Dashboard hinzufügen** aus
-      * Klicken Sie **Hinzufügen**.
+      * Wählen Sie ein Dashboard im **** Dashboard hinzufügen<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> aus
+      * Klicken Sie auf **Hinzufügen**.
 
 1. Wiederholen Sie diesen Schritt, um alle weiteren Seiten anzuheften.
 
