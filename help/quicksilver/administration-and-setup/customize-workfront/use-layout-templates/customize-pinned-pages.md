@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Klicken Sie **Dashboard hinzufügen**
       * Geben Sie einen beschreibenden Namen in das Feld <!--**Quick link name**-->**Benutzerdefinierter Name** ein
-      * Wählen Sie ein Dashboard im **** Dashboard hinzufügen<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> aus
+      * Wählen Sie ein Dashboard im **&#x200B;**&#x200B;Dashboard hinzufügen<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> aus
       * Klicken Sie auf **Hinzufügen**.
 
 1. Wiederholen Sie diesen Schritt, um alle weiteren Seiten anzuheften.
