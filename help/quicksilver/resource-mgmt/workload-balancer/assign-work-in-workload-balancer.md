@@ -6,14 +6,16 @@ description: Als Ressourcen-Manager können Sie den Adobe Workfront-Workload-Bal
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1058'
 ht-degree: 1%
 
 ---
 
 # Übersicht über die Zuweisung von Arbeit im Workload Balancer
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ In der folgenden Tabelle wird beschrieben, welche Elemente in den einzelnen Bere
  </tbody> 
 </table>
 
-&#42;Wenn ein Arbeitselement einem Benutzer und einer Funktion zugewiesen wird, wird es im Bereich Nicht zugewiesene Arbeit nur angezeigt, wenn die Funktion der Primäre Zugewiesene ist.
+&#42;Wenn ein Arbeitselement einem Benutzer und einer Funktion zugewiesen wird, wird es im Bereich Nicht zugewiesene Arbeit nur angezeigt, wenn die Funktion der Primäre Zugewiesene ist. <span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugewiesene Arbeit angezeigt, wenn die Einstellung **Funktionszuweisungen anzeigen** aktiviert ist.</span>
 
 &#42;&#42;Wenn ein Arbeitselement einem Benutzer und einer anderen Entität zugewiesen wird, wird es im Bereich Zugewiesene Arbeit nur angezeigt, wenn der Benutzer der Primäre Bearbeiter ist.
 
-Weitere Informationen zu den Bereichen „Nicht zugewiesen“ und „Zugewiesen“ im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen zu den Bereichen „Nicht zugewiesene Arbeit“ und „Zugewiesene Arbeit“ im Workload Balancer sowie zu den Einstellungen für den Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Überlegungen zu mehreren Zuweisungen an Aufgabengebiete, Teams und Benutzer
 

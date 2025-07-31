@@ -7,14 +7,16 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
 
 # Manuelles Zuweisen von Arbeit über den Workload Balancer
+
+{{preview-fast-release-general}}
 
 Mit dem Adobe Workfront Workload Balancer können Sie Benutzenden manuell Arbeitselemente zuweisen.
 
@@ -71,13 +73,17 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
    Sie können Benutzern mithilfe des Workload Balancer im Bereich Ressource, auf Projekt- oder auf Teamebene Arbeit zuweisen. Weitere Informationen dazu, wo sich der Workload-Balancer in Workfront befindet, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben oder Probleme anzuzeigen
+1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben, Probleme <span class="preview"> Rollenzuweisungen anzuzeigen</span>.
 
    Oder
 
    Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie seine Elemente neu zuweisen möchten.
 
-1. Klicken Sie auf **Mehr** ![Mehr ](assets/qs-more-menu.png) links neben einem Arbeitselementnamen und dann auf **Diese zuweisen**.
+   >[!NOTE]
+   >
+   ><span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung „Funktionszuweisungen anzeigen“ aktiviert ist. Weitere Informationen finden Sie unter [Anpassen der Ansicht](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigieren im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-menu.png) links neben einem Arbeitselementnamen <span class="preview">oder einer </span>) und klicken Sie dann auf **Zuweisen zu**.
 
    ![Diese zuweisen zu](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

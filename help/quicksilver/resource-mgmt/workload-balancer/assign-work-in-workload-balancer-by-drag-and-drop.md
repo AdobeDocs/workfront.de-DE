@@ -6,14 +6,16 @@ description: Sie können Arbeitselemente mit dem Adobe Workfront Workload Balanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
 
 # Zuweisen von Arbeit im Workload Balancer durch Ziehen und Ablegen
+
+{{preview-fast-release-general}}
 
 Sie können Arbeitselemente mit dem Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente per Drag-and-Drop an die richtigen Benutzenden ziehen.
 
@@ -70,11 +72,15 @@ Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit 
 
    Sie können Benutzern mithilfe des Workload Balancer im Bereich Ressource, auf Projekt- oder auf Teamebene Arbeit zuweisen. Weitere Informationen dazu, wo sich der Workload-Balancer in Workfront befindet, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben und Probleme anzuzeigen, die Benutzern nicht zugewiesen sind
+1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben, Probleme <span class="preview">und Rollenzuweisungen</span> anzuzeigen, die Benutzern nicht zugewiesen sind
 
    Oder
 
    Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie seine Elemente neu zuweisen möchten.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung „Funktionszuweisungen anzeigen“ aktiviert ist. Weitere Informationen finden Sie unter [Anpassen der Ansicht](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigieren im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
 
 1. (Bedingt) Klicken Sie im Workload-Balancer eines Projekts auf das Symbol **Alle Benutzer anzeigen** ![Alle Benutzer anzeigen](assets/show-all-users-icon-project-workload-balancer.png), um alle Workfront-Benutzer anzuzeigen.
 
@@ -84,27 +90,30 @@ Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit 
 
    ![Benutzer im Projekt](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
-
    >[!TIP]
    >
    >* Die Option Alle Benutzer anzeigen ist nur im Workload Balancer eines Projekts verfügbar.
    >* Verwenden Sie Filter, um nur die Benutzer anzuzeigen, die für Sie wichtig sind. Verwenden Sie beispielsweise einen Filter, um nur Benutzer aus Ihren Teams oder Gruppen anzuzeigen.
 
-
-
-1. Klicken Sie auf den Balken eines Arbeitselements, das entweder die geplante oder die projizierte Zeitleiste anzeigt, und ziehen Sie es über den Namen eines Benutzers in den Bereich **Zugewiesen**.
+1. Klicken Sie auf den Balken eines Arbeitselements (<span class="preview"> Rollenzuweisung), </span> entweder die geplante oder die projizierte Zeitleiste anzeigt, und ziehen Sie sie über den Namen eines Benutzers in den Bereich **Zugewiesen**.
 
    Der Benutzer, über den Sie den Mauszeiger bewegen, um das Arbeitselement abzulegen, ist hervorgehoben.
+
+   <span class="preview">Beim Ziehen und Ablegen von Rollenzuweisungen wird der Benutzer orange hervorgehoben, wenn seine aktuelle Rolle nicht mit der Rollenzuweisung übereinstimmt. Sie können die Arbeit dennoch dem Benutzer zuweisen, wenn die Rollen nicht übereinstimmen.</span>
 
    >[!TIP]
    >
    >Die „Geplanten Stunden“ für den Benutzer, auf den Sie den Mauszeiger bewegen, werden in Echtzeit mit der Anzahl der täglichen geplanten Stunden aus dem Arbeitselement aktualisiert, um anzugeben, wie sich das Hinzufügen eines neuen Elements auf seine Gesamtzuweisung auswirken könnte.
 
-   ![Element auf Zugewiesen ablegen](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Element ablegen, das einem Benutzer zugewiesen werden soll](assets/wb-drag-drop-role-or-task-to-user.png)
 
-1. Wenn Sie bereit sind, legen Sie das ausgewählte Arbeitselement in derselben Zeile wie den Namen des Benutzers im Bereich Zugewiesen ab. Das Element wird zugewiesen und die zugewiesenen geplanten Stunden werden für den Benutzer mit den neuen Stunden aus dem Arbeitselement aktualisiert.
+   Beispielbild in der Produktionsumgebung:
+   ![Element ablegen, das einem Benutzer zugewiesen werden soll](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
-   Wenn das Element einem Aufgabengebiet zugewiesen wurde, das der Benutzer nicht erfüllen kann, wird das Element unter dem Namen des Benutzers im Bereich Zugewiesene Arbeit angezeigt und verbleibt auch im Bereich Nicht zugewiesene Arbeit , um anzugeben, dass das zugehörige Aufgabengebiet noch nicht durch einen Benutzer ersetzt wurde.
+1. Wenn Sie bereit sind, legen Sie das ausgewählte Arbeitselement <span class="preview">oder die </span>) in derselben Zeile wie den Namen des Benutzers im Bereich Zugeordnet ab. Das Element wird zugewiesen und die zugewiesenen geplanten Stunden werden für den Benutzer mit den neuen Stunden aus dem Arbeitselement aktualisiert.
+
+   <span class="preview">Wenn die Einstellung „Funktionszuweisungen anzeigen“ nicht aktiviert </span> und das Arbeitselement einem Aufgabengebiet zugewiesen wurde, das der Benutzer nicht erfüllen kann, wird das Element unter dem Namen des Benutzers im Bereich Zugewiesene Arbeit angezeigt. Sie verbleibt auch im Bereich Nicht zugewiesene Arbeit , um anzugeben, dass das mit ihr verknüpfte Aufgabengebiet noch nicht durch einen Benutzer ersetzt wurde.
 
    >[!TIP]
    >
