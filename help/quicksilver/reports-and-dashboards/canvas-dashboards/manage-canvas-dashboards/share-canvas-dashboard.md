@@ -3,12 +3,12 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Freigeben eines Arbeitsflächen-Dashboards
 description: Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende freigeben, damit diese es anzeigen oder bearbeiten können.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende freigeben, damit diese es anzeigen oder bearbeiten können.
 
-## Zugriffsanforderungen
-
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -50,23 +47,52 @@ Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende
    <td><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p>
   </td> 
   </tr>  
+    </tr>  
+        <tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td><p>Berechtigungen für das Dashboard verwalten</p>
+  </td> 
+  </tr>
 </tbody> 
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
+## Überlegungen zur Freigabe von Dashboards
+
+* Standardmäßig verfügt der Ersteller eines Dashboards über Verwaltungsberechtigungen dafür.
+
+* Sie können Dashboards, die Sie erstellen, für andere Einzelpersonen, Teams, Gruppen, Aufgabengebiete oder Unternehmen freigeben. Sie können auch Dashboards freigeben, die zuvor erstellt und für Sie freigegeben wurden.
+
+* Wenn Sie ein Dashboard freigeben, erben Benutzer standardmäßig die Ansichtsberechtigungen für alle Berichtsobjekte im Dashboard, es sei denn, die Berechtigung wird vor der Freigabe aktualisiert.
+
+* Wenn Sie über Anzeigeberechtigungen für ein Dashboard verfügen, können Sie das Dashboard freigeben, aber Sie können den Empfängerinnen und Empfängern keine Berechtigung zuweisen, die höher als „Anzeigen“ ist.
+
 
 ## Freigeben eines Arbeitsflächen-Dashboards
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Dashboards**.
 
-1. Klicken Sie im linken Bereich auf **Arbeitsflächen-Dashboards** und klicken Sie dann auf den Namen des Arbeitsflächen-Dashboards, das Sie freigeben möchten.
+{{step1-to-dashboards}}
 
-1. Klicken Sie auf **Freigeben** oben rechts auf der Seite.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Geben Sie im Feld **Zugriff erteilen an:** des angezeigten Felds **Dashboard-Freigabe** den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den bzw. die Sie das Dashboard freigeben möchten, und wählen Sie ihn aus, wenn er in der Liste unten angezeigt wird.
+1. Wählen Sie auf **Seite &quot;** Dashboards“ das Dashboard aus, das Sie freigeben möchten.
 
-1. (Optional) Nachdem Sie eine Entität zur Liste der vorgesehenen Empfänger hinzugefügt haben, können Sie den Zugriff bearbeiten, den sie für dieses Arbeitsflächen-Dashboard erhalten. Standardmäßig erhalten sie nur **Ansichtszugriff** Sie können ihnen jedoch Verwaltungszugriff erteilen, indem Sie neben der Entität auf **Ansicht >** klicken und dann in der Dropdown-Liste **Verwalten** auswählen. Beachten Sie, dass die Zugriffsebene einiger Entitäten nicht geändert werden kann, z. B. von Administratoren.
+1. Klicken Sie oben rechts auf der Seite auf die Schaltfläche **Freigeben**. Das **Dashboard-Freigabe** wird angezeigt.
 
-1. Nachdem Sie alle Personen hinzugefügt haben, für die Sie das Arbeitsflächen-Dashboard freigeben möchten, klicken Sie auf die Schaltfläche **Freigeben**.
+1. Beginnen Sie im Feld **Zugriff erteilen an** mit der Eingabe des Namens eines bestimmten Benutzers, Teams, einer bestimmten Rolle, einer Gruppe oder eines Unternehmens, für den bzw. die Sie das Arbeitsflächen-Dashboard freigeben möchten, und wählen Sie ihn aus, wenn er in der Dropdown-Liste angezeigt wird.
+
+1. (Optional) Um den Zugriff eines Benutzers auf das Dashboard zu bearbeiten, klicken Sie auf **Anzeigen** neben seinem Namen und wählen Sie dann **Verwalten** in der angezeigten Dropdown-Liste aus.
+
+   >[!NOTE]
+   >
+   >Einige Benutzer können ihre Zugriffsebene nicht ändern lassen (z. B. Administratoren).
+
+1. Wiederholen Sie die Schritte 5 bis 6 für jeden Benutzer, für den Sie das Dashboard freigeben möchten.
+
+1. Klicken Sie auf die **Freigeben**. Die Empfänger erhalten eine E-Mail-Benachrichtigung, die sie darüber informiert, dass das Dashboard für sie freigegeben wurde, auf das sie jetzt unter **Dashboards** > **Arbeitsflächen-Dashboards** > **Freigegebene Dashboards** zugreifen können.
+
+   >[!NOTE]
+   >
+   >Es können individuelle Benutzervoreinstellungen und Systemausschlüsse für E-Mail-Benachrichtigungen gelten.
