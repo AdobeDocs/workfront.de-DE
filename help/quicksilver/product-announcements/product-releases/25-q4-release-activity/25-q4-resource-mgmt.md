@@ -4,11 +4,10 @@ description: Verbesserungen beim Ressourcenmanagement im vierten Quartal 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -19,11 +18,25 @@ Auf dieser Seite werden die Verbesserungen des Ressourcen-Managements beschriebe
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Der Workload Balancer ist jetzt in Ihrem Benutzerprofil verfügbar
+
+>[!NOTE]
+>
+>* Vorschau: 31. Juli 2025
+>* Produktions-Schnellveröffentlichung: 14. August 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Alle Benutzer können jetzt ihre eigenen Bedarfs- und Kapazitätsdaten im Workload Balancer in ihrem Profil anzeigen, unabhängig von ihrer Zugriffsebene. Wenn Sie auf Ihr Workfront-Benutzerprofil zugreifen, wird der Workload-Balancer im linken Navigationsbereich angezeigt.
+
+Workload-Balancer-Daten für einen Benutzer sind schreibgeschützt. Auf Benutzerebene können Sie keine Arbeit zuweisen, die Zuweisung von Arbeit aufheben oder Zuordnungen anpassen.
+
+Weitere Informationen finden Sie unter [Suchen des Workload-Balancer](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
 ## Funktionszuweisungen werden im Workload Balancer angezeigt
 
 >[!NOTE]
 >
->* Vorschau: 24. Juli 2025
+>* Vorschau: 31. Juli 2025
 >* Produktions-Schnellveröffentlichung: 14. August 2025
 >* Produktion für alle Kunden: 16. Oktober 2025
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,50 @@ Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO a
 
 ## Projekte
 
+## Neues Erscheinungsbild des Abschnitts „Warteschlangendetails“ in einer Vorlage
+
+**Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
+
+Das Erscheinungsbild des Abschnitts „Warteschlangendetails“ einer Vorlage wurde aktualisiert. Das Erscheinungsbild des Abschnitts Warteschlangendetails stimmt nun mit anderen Bereichen von Workfront überein.
+
+Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Oberflächenaktualisierungen für das Feld Update an Benutzer senden in einer Vorlage
+
+**Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
+
+Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisiert, wenn auf das Feld über die Registerkarte Personen in einer Vorlage zugegriffen wird. Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
+
+Weitere Informationen finden Sie unter [Verwalten des Projektteams](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## Aktualisierungen der Benutzeroberfläche für Rechnungsnachweise
+
+**Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
+
+Wir haben das Erscheinungsbild der Seiten Abrechnungsfähige Stunden, Abrechnungsfähige Ausgaben und Festeinnahmen der Abrechnungsdatensätze aktualisiert, sodass sie mit anderen Bereichen der Anwendung übereinstimmen. Die Dialogfelder zum Hinzufügen neuer abrechenbarer Stunden, abrechenbarer Ausgaben und fester Einnahmen wurden ebenfalls aktualisiert.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu einem Projekt > Rechnungsnachweise > Wählen Sie einen Rechnungsnachweis > Fakturierbare Stunden, Fakturierbare Ausgaben oder Festeinnahmen > Neue fakturierbare Stunden, fakturierbare Ausgaben oder Festeinnahmen hinzufügen .
+
+Weitere Informationen finden Sie [Rechnungsnachweise erstellen](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Aktualisierungen der Benutzeroberfläche für das Feld MS Project-Datei importieren
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
@@ -84,7 +128,7 @@ Weitere Informationen finden Sie unter [Projektausgaben verwalten](/help/quicksi
 
 Das Erscheinungsbild einer Routingregel wurde bei der Bearbeitung in einer Vorlage aktualisiert. Die Routing-Regelbearbeitungsseite entspricht nun dem Design anderer Bereiche von Workfront.
 
-Eine kleine Funktionsänderung wurde auf die Liste der Routing-Regeln angewendet. Um die Routingregel zu bearbeiten, wählen Sie die gewünschte Routingregel aus der Liste aus, und klicken Sie auf das Symbol Bearbeiten .
+Um die Routingregel zu bearbeiten, wählen Sie die gewünschte Routingregel aus der Liste aus, und klicken Sie auf das Symbol Bearbeiten .
 
 Weitere Informationen finden Sie unter [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -98,7 +142,7 @@ Das Erscheinungsbild der folgenden Listen in Vorlagen wurde aktualisiert:
 * Themengruppen
 * Routing-Regeln
 
-Eine kleine Funktionsänderung wurde auf die Listen angewendet. Um ein Element in einer dieser Listen zu bearbeiten oder zu löschen, wählen Sie das Element aus und klicken Sie auf das entsprechende Symbol.
+Um ein Element in einer dieser Listen zu bearbeiten oder zu löschen, wählen Sie das Element aus und klicken Sie auf das entsprechende Symbol.
 
 Weitere Informationen finden Sie unter
 
@@ -398,6 +442,11 @@ Weitere Informationen finden Sie unter [Kopieren einer Projektvorlage](/help/qui
 ### Look-and-Feel-Aktualisierungen beim Hinzufügen von Objekten zu Programmen und Portfolios
 
 **Vorschau-Version: 22. Mai 2025; Produktionsversion: 29. Mai 2025**
+
+>[!NOTE]
+>
+>Vorübergehend aus Vorschau und Produktion entfernt
+
 
 Die Benutzeroberfläche für die Felder zum Hinzufügen wurde aktualisiert, wenn Folgendes durchgeführt wird:
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
@@ -38,9 +38,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-Verbesserungen
 
+* [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen bei Dokumenten und Proofing](#document-and-proofing-enhancements)
-  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
+* [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
+
+### Administrator-Verbesserungen
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a><p></p>
+            <p>Ein neuer Feldtyp, die Mehrfachauswahl externer Suche, ist jetzt im Designer für benutzerdefinierte Formulare verfügbar. Wenn Daten in einem externen System gespeichert sind, können Sie mit diesem Feldtyp Optionen aus einer externen API laden und basierend auf anderen Feldwerten im benutzerdefinierten Formular filtern. Dies ist dasselbe wie eine externe Suche mit Einzelauswahl.</p>
+            <p>Wenn das Formular zu einem Objekt hinzugefügt wird, erscheinen die von der API zurückgegebenen Werte in einem Dropdown-Feld, und der Benutzer kann mehrere Werte auswählen.</p>
+        </td>
+        <td>Freitag, 31. Juli 2025</td>
+        <td>Freitag, 14. August 2025</td>
+        <td>Freitag, 16. Oktober 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
 
 ### Verbesserungen bei Dokumenten und Proofing
 
@@ -65,24 +86,77 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
-            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
-            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> -->
+
+### Verbesserungen beim Ressourcen-Management
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Der Workload Balancer ist jetzt in Ihrem Benutzerprofil verfügbar</a><p></p>
+            <p>Alle Benutzer können jetzt ihre eigenen Bedarfs- und Kapazitätsdaten im Workload Balancer in ihrem Profil anzeigen, unabhängig von ihrer Zugriffsebene. Wenn Sie auf Ihr Workfront-Benutzerprofil zugreifen, wird der Workload-Balancer im linken Navigationsbereich angezeigt.</p>
+            <p>Workload-Balancer-Daten für einen Benutzer sind schreibgeschützt. Auf Benutzerebene können Sie keine Arbeit zuweisen, die Zuweisung von Arbeit aufheben oder Zuordnungen anpassen.</p>
+        </td>
+        <td>Freitag, 31. Juli 2025</td>
+        <td>Freitag, 14. August 2025</td>
+        <td>Freitag, 16. Oktober 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Rollenzuweisungen werden im Workload-Balancer-</a> angezeigt<p></p>
+            <p>Ressourcenmanager können jetzt im Workload-Balancer Aufgabenrollenzuweisungen überprüfen. Die Zuweisungen werden im Bereich Nicht zugewiesene Arbeit unter den Aufgaben oder Problemen angezeigt, denen die Rollen zugewiesen sind. Im Bereich Zugewiesene Arbeit werden nur Arbeitselemente angezeigt, die Benutzern zugewiesen sind. </p>
+            <p>Die neue Einstellung für den Workload Balancer „Rollenzuweisungen anzeigen“ bestimmt, ob Rollenzuweisungen angezeigt werden. Die Einstellung ist standardmäßig aktiviert.</p>
+        </td>
+        <td>Freitag, 31. Juli 2025</td>
+        <td>Freitag, 14. August 2025</td>
+        <td>Freitag, 16. Oktober 2025</td>
+    </tr>     
+  </tbody>
+</table>
 
 ### Weitere Verbesserungen
 
@@ -133,7 +207,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 
@@ -144,6 +218,18 @@ Für Folgendes gibt es derzeit keine Aktualisierungen in der Version:
 * Szenarienplaner
 * Korrekturabzug
 * Ziele
+
+## Aktualisierungen der Desktop Proofing Viewer
+
+### Version 2.1.52
+
+**Produktionsversion für alle Kunden: 31. Juli 2025**
+
+Der Desktop Proofing Viewer wurde auf Version 2.1.52 aktualisiert, welche Fehlerkorrekturen behandelt.
+
+Die Aktualisierung vom 2.1.51 umfasste interne Tooling-Aktualisierungen und hatte keine Auswirkungen auf die Endbenutzerfunktionalität.
+
+Dieses Update ist sowohl für Mac als auch für Windows.
 
 ## Ankündigungen
 
@@ -170,7 +256,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -182,7 +268,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
