@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 9420a6a087e0f859c9b2e1a1de1b04a0652ffac2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '13342'
+source-wordcount: '13409'
 ht-degree: 2%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 2%
          * [21.1 Weitere Verbesserungen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning-Versionsaktivität{#planning-release-activity}
          * [Adobe Workfront Planning-Versionsaktivität](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2025](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Versionsaktivität 2025 für Adobe Workfront Planning im zweiten Quartal](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -1506,17 +1505,28 @@ ht-degree: 2%
 * Bericht- erstellung {#reporting}
    * [Berichte und Dashboards: Artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Dashboards für die Arbeitsfläche {#canvas-dashboards}
-      * [Dashboards für die Arbeitsfläche](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [Arbeitsflächen-Dashboards - Übersicht](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Erstellen von Dashboards {#create-dashboards}
+         * [Erstellen von Arbeitsflächen-Dashboards: Artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
+         * [Erstellen eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
       * Hinzufügen von Berichten {#add-reports}
          * [Berichte hinzufügen: Artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
-         * [Übersicht über die Berichtstypen im Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
-         * [Erstellen eines KPI-Berichts](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-         * [Erstellen eines Diagrammberichts](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-         * [Erstellen eines Tabellenberichts](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [Hinzufügen eines vorhandenen Berichts zu einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+         * [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * Arbeitsflächen-Dashboards verwalten {#manage-canvas-dashboards}
-         * [Arbeitsflächen-Dashboards verwalten](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Arbeitsflächen-Dashboards verwalten: Artikelindex](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Freigeben eines Arbeitsflächen-Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+         * [Anordnen von Berichten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+         * [Löschen eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+      * Verwalten von Berichten {#manage-reports}
+         * [Berichte verwalten: Artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
+         * [Bearbeiten eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+         * [Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+         * [Löschen eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+
    * Berichte {#reports}
       * [Berichte](reports-and-dashboards/reports/reports-overview.md)
       * Grundlagen zur Berichterstellung {#report-basics}

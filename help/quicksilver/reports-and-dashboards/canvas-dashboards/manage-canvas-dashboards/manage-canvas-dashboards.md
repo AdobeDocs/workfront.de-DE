@@ -1,15 +1,15 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: Arbeitsflächen-Dashboards verwalten
-description: Artikelindex für Canvas-Dashboards verwalten
-author: Nolan
+title: 'Arbeitsflächen-Dashboards verwalten: Artikelindex'
+description: Sehen Sie sich die Artikel in diesem Abschnitt an.
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: d9b99257041a98eca7bb0e8c38861cbdf96594bd
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,7 @@ ht-degree: 0%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Freigeben eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+* [Anordnen von Berichten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+* [Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+* [Löschen eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+

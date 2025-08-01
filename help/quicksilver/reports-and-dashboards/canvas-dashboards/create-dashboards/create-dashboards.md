@@ -5,7 +5,7 @@ title: Erstellen eines Canvas-Dashboards
 description: Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpassbaren Dashboard hinzufügen, um Ihre Kontodaten schnell zu visualisieren.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen
 
 1. Klicken Sie **oben** auf „Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**. Das **Berichtfeld hinzufügen** wird geöffnet. Von hier aus können Sie einen neuen Bericht erstellen oder einen vorhandenen Bericht zum Dashboard hinzufügen.
 

@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Berichte in einem Dashboard anordnen
+title: Anordnen von Berichten in einem Arbeitsflächen-Dashboard
 description: Sie können anordnen, wie Berichte in einem Arbeitsflächen-Dashboard angezeigt werden, nachdem sie zu einem Dashboard hinzugefügt wurden.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Berichte in einem Dashboard anordnen
+# Anordnen von Berichten in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Nachdem ein Bericht zu einem Dashboard hinzugefügt wurde, wird er als Berichts-Widget im Dashboard angezeigt, sodass Sie seine Daten schnell auf einen Blick visualisieren können. Nachdem mehrere Berichte hinzugefügt wurden, wird empfohlen, die Größe und Reihenfolge jedes Widgets neu anzuordnen, um die Dashboard-Daten effizienter anzuzeigen.
+Nachdem ein Bericht zu einem Arbeitsflächen-Dashboard hinzugefügt wurde, wird er als Berichts-Widget im Dashboard angezeigt, damit Sie seine Daten schnell auf einen Blick visualisieren können. Nachdem mehrere Berichte hinzugefügt wurden, wird empfohlen, die Größe und Reihenfolge jedes Widgets neu anzuordnen, um die Dashboard-Daten effizienter anzuzeigen.
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 

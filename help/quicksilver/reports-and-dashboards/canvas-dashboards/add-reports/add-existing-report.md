@@ -6,7 +6,7 @@ description: Berichte, die mit dem Adobe Workfront-Berichts-Tool erstellt wurden
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 

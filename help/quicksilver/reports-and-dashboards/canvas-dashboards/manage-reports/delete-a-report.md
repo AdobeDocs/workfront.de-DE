@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Löschen eines Berichts
+title: Löschen eines Berichts in einem Arbeitsflächen-Dashboard
 description: Sie können einen Bericht aus einem Arbeitsflächen-Dashboard löschen.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Löschen eines Berichts
+# Löschen eines Berichts in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Nachdem ein Dashboard erstellt wurde und Sie ihm Berichte hinzugefügt haben, können Sie ältere Berichte löschen, die für dieses bestimmte Dashboard nicht mehr gelten.
+Sobald ein Arbeitsflächen-Dashboard erstellt wurde und Sie ihm Berichte hinzugefügt haben, können Sie ältere Berichte löschen, die für dieses bestimmte Dashboard nicht mehr gelten.
 
 Das Löschen eines Berichts ist dauerhaft. Wenn Sie einen Bericht nach dem Löschen erneut hinzufügen müssen, müssen Sie den Bericht neu erstellen.
 

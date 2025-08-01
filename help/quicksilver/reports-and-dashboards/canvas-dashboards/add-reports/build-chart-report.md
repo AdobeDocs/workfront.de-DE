@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Erstellen eines Diagrammberichts
+title: Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard
 description: Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- oder Tortendiagramm darstellt, kann zu einem Arbeitsflächen-Dashboard hinzugefügt werden.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# Erstellen eines Diagrammberichts
+# Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -146,7 +146,7 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 

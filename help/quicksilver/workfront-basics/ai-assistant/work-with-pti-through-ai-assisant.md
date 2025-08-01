@@ -5,10 +5,10 @@ description: Mit der Funktion „Zusammenfassen“ können Sie Arbeitselemente u
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Der KI-Assistent kann Ihnen dabei helfen, Projekte, Aufgaben und Probleme in Wor
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>Neu: Beliebig</p>
-       <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
-       <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Arbeitselemente suchen
 
 1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
-1. Eingabeaufforderung eingeben wie
+1. Geben Sie eine Eingabeaufforderung ein, wie etwa:
 
-   * Meine Aufgaben für diese Woche suchen
-   * Welche Probleme gibt es im Projekt „Frühjahrskampagne“?
-   * Projekte mit dem aktuellen Status suchen
+   * *Diese Woche fällige Aufgaben suchen*
+   * *Welche Probleme gibt es im Projekt „Frühjahrskampagne“*
+   * *Projekte im aktuellen Status suchen*
 
-   Je nachdem, wie groß oder komplex die Eingabeaufforderung ist und wie viele Datensätze sie durchsuchen muss, benötigt der KI-Assistent einige Minuten, um die Informationen zu finden.
-1. Zeigen Sie die Antwort im Bedienfeld KI-Assistent an.
-1. (Optional) Um zum Arbeitselement zu wechseln, klicken Sie auf den Link im Bedienfeld KI-Assistent.
+   >[!NOTE]
+   >
+   > Der KI-Assistent benötigt einige Minuten, um die Informationen zu finden, je nachdem, wie groß oder komplex die Eingabeaufforderung ist und wie viele Datensätze er durchsuchen muss.
+1. Zeigen Sie die Antwort im Bedienfeld **KI-Assistent** an.
+1. (Optional) Um zum Arbeitselement zu wechseln, klicken Sie auf den Link im Bedienfeld **KI-Assistent**.
+
 
 <!--
 

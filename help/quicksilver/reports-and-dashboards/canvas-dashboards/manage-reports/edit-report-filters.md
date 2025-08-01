@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Berichtsfilter bearbeiten
+title: Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard
 description: Sie können Berichtsfilter bearbeiten, nachdem sie auf ein Arbeitsflächen-Dashboard angewendet wurden.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
-# Berichtsfilter bearbeiten
+# Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
 >
