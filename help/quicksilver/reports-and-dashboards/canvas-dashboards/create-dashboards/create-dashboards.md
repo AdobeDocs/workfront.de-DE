@@ -63,7 +63,7 @@ Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen
 
 1. Klicken Sie **oben** auf „Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**. Das **Berichtfeld hinzufügen** wird geöffnet. Von hier aus können Sie einen neuen Bericht erstellen oder einen vorhandenen Bericht zum Dashboard hinzufügen.
 
