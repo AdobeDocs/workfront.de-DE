@@ -67,8 +67,8 @@ Standardmäßig werden die Projektzeitleisten täglich neu berechnet, wenn sich 
 >* Wenn die Zeitleiste eines Projekts länger als 15 Jahre ist, ist die automatische Neuberechnung für dieses Projekt deaktiviert und Sie können nur den Typ „Manuelles Update“ auswählen. Wenn Sie die Daten im Projekt auf weniger als 15 Jahre ändern, müssen Sie Ihre Zeitleiste einmal manuell neu berechnen, bevor sie automatisch berechnet wird.
 >* Für die Sandbox-Umgebungen „Vorschau“ und „Benutzerdefinierte Aktualisierung“ ist die nächtliche Neuberechnung deaktiviert und die Projektzeitleisten werden nicht automatisch neu berechnet. Sie müssen die Zeitleiste des Projekts für die Sandbox-Umgebungen „Vorschau“ und „Benutzerdefinierte Aktualisierung“ manuell neu berechnen.
 >* Wenn ein Projekt komplex ist, wird die automatische Neuberechnung der Zeitleiste möglicherweise nicht ausgeführt.
->  > Ein Beispiel für ein komplexes Projekt kann ein Projekt mit mehreren Abhängigkeiten, einer großen Anzahl von Aufgaben, mehreren projektübergreifenden Vorgängern oder mehreren Aufgabeneinzügen sein.
->  > Workfront platziert rechts neben dem Projektnamen auf der Projektseite einen Warnhinweis, der darauf hinweist, dass die Projektzeitleiste manuell neu berechnet werden muss. Nur Benutzer mit der Berechtigung Verwalten für das Projekt können die Timeline manuell neu berechnen.
+>  &#x200B;> Ein Beispiel für ein komplexes Projekt kann ein Projekt mit mehreren Abhängigkeiten, einer großen Anzahl von Aufgaben, mehreren projektübergreifenden Vorgängern oder mehreren Aufgabeneinzügen sein.
+>  &#x200B;> Workfront platziert rechts neben dem Projektnamen auf der Projektseite einen Warnhinweis, der darauf hinweist, dass die Projektzeitleiste manuell neu berechnet werden muss. Nur Benutzer mit der Berechtigung Verwalten für das Projekt können die Timeline manuell neu berechnen.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >
