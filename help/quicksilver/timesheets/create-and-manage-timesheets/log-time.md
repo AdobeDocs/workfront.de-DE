@@ -164,7 +164,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **** Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]
