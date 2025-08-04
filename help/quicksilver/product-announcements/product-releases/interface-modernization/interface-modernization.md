@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ Wir haben die Seite Benutzer für SSO aktualisieren mit einem moderneren Design 
 Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO aktualisieren
 
 ## Projekte
+
+## Aktualisierungen der Benutzeroberfläche für ein Projekt Business Case
+
+**Vorschau-Version: 4. August 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben das Erscheinungsbild des Business Case des Projekts aktualisiert, um es an andere Bereiche der Anwendung anzupassen.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Projekte > Projekt auswählen > Business Case.
+
+Weitere Informationen finden Sie unter [Erstellen eines Business-Case für ein Projekt](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Neues Erscheinungsbild des Abschnitts „Warteschlangendetails“ in einer Vorlage
 

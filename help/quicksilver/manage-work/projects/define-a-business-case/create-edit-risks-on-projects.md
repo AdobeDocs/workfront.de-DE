@@ -6,9 +6,9 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ So erstellen oder bearbeiten Sie ein Risiko im Business Case:
 
    * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
 
-   ![Risiken](assets/crp1-350x117.png)
+   <!--![Risks](assets/crp1-350x117.png)-->
 
 1. (Optional) Klicken Sie auf **Weitere Risiken hinzufügen**, um weitere Risiken hinzuzufügen.
 1. Klicken Sie auf **Speichern**.

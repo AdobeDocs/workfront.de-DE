@@ -6,9 +6,9 @@ description: In diesem Artikel werden die Bereiche des Business Case eines Proje
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Erwägen Sie, die folgenden Felder zu bearbeiten:
 
 * **Portfolio**: Wählen Sie eine Portfolio für das Projekt aus. Sie müssen den Portfolio erstellen und im Status Aktiv platzieren, bevor er in diesem Dropdown-Menü zur Auswahl verfügbar ist.
 
-  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Weitere Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -114,7 +114,7 @@ Die budgetierten Stunden für die Ressourcen des Projekts werden im Bereich Ress
 
 Weitere Informationen zur Budgetierung von Ressourcen für das Projekt im Business Case finden Sie [Budgetressourcen im Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![Business Case-Ressourcenbudgetierung](assets/business-case-sp-selected-with-choose-button-350x121.png)
+<!--![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
 Beachten Sie beim Anzeigen des Abschnitts „Ressourcenbudgetierung“ des Business Case Folgendes:
 

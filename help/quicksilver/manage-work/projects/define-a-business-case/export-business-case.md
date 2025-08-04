@@ -6,9 +6,9 @@ description: Sie können den Business Case in eine PDF-Datei exportieren, für d
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -56,9 +56,9 @@ Sie können den Business Case in eine PDF-Datei exportieren, für den Fall, dass
 1. Klicken Sie **linken Bedienfeld** Business Case“.
 1. Klicken Sie oben rechts **Zusammenfassung eines Business-Case** auf **Exportieren**.
 
-   ![Zusammenfassung eines Business-Case](assets/bc-summary--350x587.png)\
+   &lt;!—![Zusammenfassung eines Business Case](assets/bc-summary--350x587.png)—>\
    Ein PDF   Die Datei wird auf Ihren Computer heruntergeladen. Die Datei enthält alle Bereiche des Business Case in einem leicht lesbaren Format.
 
-   ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
+   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
 1. (Optional) Hängen Sie die PDF-Datei an eine E-Mail an oder drucken Sie sie aus, um sie für andere freizugeben.

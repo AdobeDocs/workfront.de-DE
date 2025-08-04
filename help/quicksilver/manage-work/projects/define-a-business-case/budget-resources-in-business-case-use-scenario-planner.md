@@ -5,9 +5,9 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
    * Wenn Sie soeben Informationen aus dem Szenario-Planer veröffentlicht haben, wählen Sie im Feld **Wählen Sie die Stunden, die zur Berechnung der budgetierten Lohnkosten des Projekts verwendet werden sollen** im Bereich Ressourcenbudgetierung die Option Szenario-Planer aus und klicken Sie dann auf **Auswählen**.
 
-     ![Business-Case im Ressourcenplaner mit der Schaltfläche „Auswählen“](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * Wenn der Ressourcenplaner zuvor für die Budgetierung von Ressourcen für das Projekt ausgewählt wurde, klicken Sie auf **Ändern** > **Szenario-Planer** > **Wählen**.
 

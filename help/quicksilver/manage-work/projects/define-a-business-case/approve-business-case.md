@@ -5,7 +5,7 @@ description: Nachdem Sie den Business Case für eine Projektanfrage abgeschlosse
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ So erstellen Sie einen Bericht für Projekte, für die die Genehmigung ihrer Bus
 1. Klicken Sie **linken Bedienfeld** Business Case“.
 1. Klicken Sie **Bereich** Genehmigen“ oder **Ablehnen**, um den Business Case zu genehmigen oder abzulehnen.
 
-   ![Business Case](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![Business Case](assets/business-case-summary-with-rp-information--1-.png)—>
 
    Der Projektstatus wird in &quot;**&quot; geändert** wenn der Business Case genehmigt wurde.
 
