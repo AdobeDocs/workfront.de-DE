@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 0%
 
 ---
@@ -50,12 +50,13 @@ Weitere Informationen zum Stundentyp, den Sie in Workfront anmelden können, fin
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu:</p>
+   <td> 
    <ul><li> Light oder höher für die Protokollierung von Stunden für eine Aufgabe, ein Problem oder allgemeine Stunden auf einer Arbeitszeittabelle</li>
    <li>Standardmäßige Protokollierung von Stunden für Projekte</li></ul>
 
-<p>Aktuell: 
-   <ul><li>Überprüfen oder höher, um allgemeine Stunden in einer Arbeitszeittabelle zu erfassen</li>
+<p>Oder: </p>
+
+<ul><li>Überprüfen oder höher, um allgemeine Stunden in einer Arbeitszeittabelle zu erfassen</li>
    <li>Arbeit oder höher zum Protokollieren von Stunden für ein Projekt, eine Aufgabe oder ein Problem</li></ul> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
    ![Arbeitszeittabelle](assets/timesheet-redesigned-nwe.png)
 
 
-1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen![](assets/exit-full-screen.png), um** Arbeitszeittabelle zurückzukehren.
+1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen**, um ![](assets/exit-full-screen.png) Arbeitszeittabelle zurückzukehren.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -163,7 +164,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **** Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]

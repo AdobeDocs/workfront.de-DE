@@ -6,9 +6,9 @@ description: Ein projektübergreifender Vorgänger ist eine Aufgabe, von der ein
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Übersicht übe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,9 +49,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Standard </p> 
-   Oder
-   <p>Aktuell: Plan </p>
+   <td> <p>Standard </p>
+
+<p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 +++
 
 ## Erstellen eines projektübergreifenden Vorgängers
+
+>[!TIP]
+>
+>Obwohl das Erstellen von Vorlagenaufgaben mit dem Erstellen von Vorlagenaufgaben-Vorgängern vergleichbar ist, können Sie keine vorlagenübergreifenden Vorgänger für Vorlagenaufgaben erstellen.
+
 
 1. Wechseln Sie zu der Aufgabe, die Ihr Nachfolger sein wird (abhängige Aufgabe).
 1. Klicken Sie **linken Bedienfeld auf** Vorgänger“.

@@ -6,9 +6,9 @@ description: Sie können Vorgängeraufgaben (oder nur Vorgänger) verwenden, um 
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Weitere Informationen finden Sie unter [Übersicht über Aufgabenvorgänger](../
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Weitere Informationen finden Sie unter [Übersicht über Aufgabenvorgänger](../
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Standard </p><p>Aktuell: Plan </p> </td> 
+   <td> <p>Standard </p><p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -78,7 +78,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >1. Klicken Sie auf das **Planmodus**-Symbol und wählen Sie **Automatisches Speichern**.
    >
-   >1. Geben Sie die Referenznummer des Projekts des Vorgängers ein, gefolgt von einem Doppelpunkt und der Nummer der Aufgabe. Wenn Sie beispielsweise *765021:12 eingeben* bedeutet dies, dass die Referenznummer des Projekts des Vorgängers 765021 ist und der Vorgänger die Aufgabennummer 12 im Projekt ist.
+   >1. Geben Sie die Referenznummer des Projekts des Vorgängers ein, gefolgt von einem Doppelpunkt und der Nummer der Aufgabe. Wenn Sie beispielsweise *765021:12* eingeben, wird die Referenznummer des Projekts des Vorgängers 765021 und der Vorgänger die Aufgabennummer 12 im Projekt.
    >
    >1. Fügen Sie den Abhängigkeitstyp für diesen Vorgänger hinzu. Weitere Informationen finden Sie unter [Erstellen von projektübergreifenden Vorgängern](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >

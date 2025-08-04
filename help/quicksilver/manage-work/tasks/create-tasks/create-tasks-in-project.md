@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können Aufgaben auch wie folgt erstellen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Sie können Aufgaben auch wie folgt erstellen:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-Lizenz</p> </td> 
-   <td><p>Aktuell: Arbeit oder höher</p> 
-   Oder
-   <p>Neu: Standard</p> </td> 
+   <td><p>Standard</p> 
+   <p>Arbeit oder höher</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
@@ -70,7 +70,7 @@ Sie können Aufgaben auch wie folgt erstellen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen für das Projekt mit der Möglichkeit, Aufgaben oder höher hinzuzufügen</p> <p>Wenn Sie eine Aufgabe erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für die Aufgabe</p> <p> Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Freigeben einer </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für das Projekt mit der Möglichkeit zum Hinzufügen von Aufgaben oder höher hinzufügen</p> <p>Wenn Sie eine Aufgabe erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für die Aufgabe</p> <p> Informationen zu Aufgabenberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Freigeben einer </a>. </p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 +++
 
 ## Erstellen von Aufgaben in einem Projekt
+
+Das Erstellen von Aufgaben in einem Projekt ähnelt dem Erstellen von Aufgaben in einer Vorlage. Gehen Sie wie folgt vor, wenn Sie einer Vorlage Vorlagenaufgaben hinzufügen.
+
+So erstellen Sie Aufgaben in einem Projekt:
 
 1. Wechseln Sie zu dem Projekt, in dem Sie eine Aufgabe erstellen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
@@ -113,7 +117,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
          Dadurch wird die neue Aufgabe zu einer untergeordneten Aufgabe oder Teilaufgabe der vorherigen Aufgabe.
 
-         Weitere Informationen zu untergeordneten Aufgaben finden Sie unter [Unteraufgaben erstellen](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Weitere Informationen zu untergeordneten Aufgaben finden Sie im Abschnitt „Erstellen von Teilaufgaben aus dem Abschnitt „Teilaufgaben“ im Artikel [Erstellen von Teilaufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Bedingt) Wenn Sie die Option **Automatisches Speichern** nach dem Drücken von **Weitere Aufgaben hinzufügen** deaktiviert haben, können Sie Folgendes tun:
 
          * Klicken Sie **jederzeit auf** Rückgängig“, um Ihre letzte Änderung rückgängig zu machen, oder auf **Abbrechen**, um alle an der Aufgabenliste vorgenommenen Änderungen rückgängig zu machen.
          * Wenn Sie zuvor auf **Rückgängig** geklickt haben, klicken Sie auf **Wiederholen**, um die letzte Änderung, die Sie abgebrochen haben, erneut anzuwenden.
          * Klicken Sie **Speichern**, um Ihre Änderungen an der Aufgabenliste zu speichern.
+   1. (Optional) Klicken Sie in einer Aufgabenliste auf den Abschnitt **Vorgänger**, um der Aufgabe Vorgänger hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung im Bereich Vorgänger](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Optional) Klicken Sie in einer Aufgabenliste auf den Abschnitt **Teilaufgaben**, um untergeordnete Aufgaben hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Teilaufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Erstellen von Aufgaben durch Verschieben einer persönlichen Aufgabe in ein Projekt
 
@@ -184,6 +189,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Workfront speichert persönliche Aufgaben in einem nicht aufgelisteten persönlichen Projekt, das immer nach diesem Muster benannt wird: &quot;&lt; vollständiger Name des Benutzers > Aufgaben des Benutzers. Ein persönliches Projekt könnte z. B. „Ricks Aufgaben“ heißen.
 
-1. Klicken Sie auf der Aufgabenseite auf das ![](assets/more-icon.png) **Mehr** und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Klicken Sie auf der Aufgabenseite auf das **** Mehr![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Nachdem Sie die Aufgabe verschoben haben, wird die Aufgabe für das ausgewählte Projekt angezeigt. Die Zeitleiste des Projekts ist möglicherweise von der Zeitleiste der neuen Aufgabe betroffen.

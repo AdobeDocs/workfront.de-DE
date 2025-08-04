@@ -6,9 +6,9 @@ description: Sie können Vorgängeraufgaben (oder nur Vorgänger) verwenden, um 
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,7 @@ Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenvorgäng
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: Standard </p>
-   <p>Oder </p>
-   <p>Aktuell: Plan </p> </td> 
+   <p>Standard </p>
+    <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -69,15 +66,24 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Vorgänger für eine Aufgabe erstellen
 
+Das Erstellen eines Vorgängers für eine Projektaufgabe mithilfe des Bereichs Vorgänger ähnelt dem Erstellen von Vorgängern für eine Vorlagenaufgabe in einer Vorlage.
+
+Erstellen einer Vorgängeraufgabe für eine Projektaufgabe:
+
 1. Navigieren Sie zu der Aufgabe, die Sie als abhängige Aufgabe festlegen möchten.
 
 1. Klicken Sie im linken Bedienfeld auf **Vorgänger**.
 
-1. Klicken Sie im Abschnitt **Vorgänger** auf **+Vorgänger hinzufügen**. Das **Vorgänger hinzufügen** wird geöffnet.
+1. Klicken Sie im Abschnitt **Vorgänger** auf **Vorgänger hinzufügen**. Das **Vorgänger hinzufügen** wird geöffnet.
 
 1. (Optional) Um einen projektübergreifenden Vorgänger hinzuzufügen, ersetzen Sie den Namen des Projekts im Feld **Übergeordnetes Projekt** durch ein anderes Projekt.
 
    Weitere Informationen finden Sie [Erstellen von projektübergreifenden Vorgängern](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >Sie können keine vorlagenübergreifenden Vorgänger für Vorlagenaufgaben erstellen.
+
 
 1. Geben Sie im Feld **Aufgaben** den Namen der Aufgabe(n) ein, die Sie als Vorgänger festlegen möchten, und wählen Sie sie aus, wenn sie in der Dropdown-Liste angezeigt werden.
 
@@ -96,3 +102,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Weitere Informationen finden Sie unter [Erzwingen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Klicken Sie auf **Speichern**.
+
+1. (Optional) Um einen Vorgänger zu entfernen, wählen Sie ihn aus der Liste der Vorgänger aus und klicken Sie dann auf das **Entfernen**-Symbol ![Entfernen](assets/remove-or-delete-icon.png).
+
+   Der Vorgänger wird aus der Liste entfernt. Die Vorgängeraufgabe wird nicht aus ihrem Projekt gelöscht.

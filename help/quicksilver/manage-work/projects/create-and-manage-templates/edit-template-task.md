@@ -7,9 +7,9 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2493'
 ht-degree: 4%
 
 ---
@@ -31,9 +31,7 @@ Sie können Vorlagenaufgaben bearbeiten oder Vorlagenaufgaben stapelweise bearbe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Standard </p>
-   <p>Aktuell: Plan </p> </td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -80,7 +78,9 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
 1. Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen.
 1. Klicken Sie **linken Bedienfeld** Vorlagenaufgaben“.
 1. Klicken Sie auf den Namen einer Vorlagenaufgabe in der Liste, um die Vorlagenaufgabe zu öffnen.
-1. (Optional) Um mehrere Vorlagenaufgaben in großen Mengen zu bearbeiten, wählen Sie mehrere Vorlagenaufgaben aus und klicken Sie dann **Bearbeiten** oben in der Vorlagenliste.
+1. (Optional) Klicken Sie im linken Bereich auf **Vorgänger**, um Vorgänger für die Vorlagenaufgaben hinzuzufügen. Das Hinzufügen von Vorlagenaufgabe-Vorgängern ähnelt dem Hinzufügen von Projektaufgaben-Vorgängern. Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung im Bereich Vorgänger](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+1. (Optional) Klicken Sie im linken Bereich auf **Teilaufgaben**, um untergeordnete Elemente für die Vorlagenaufgabe hinzuzufügen. Das Hinzufügen von Teilaufgaben für Vorlagenaufgaben ähnelt dem Hinzufügen von Projektaufgaben-Teilaufgaben. Weitere Informationen finden Sie im Abschnitt „Erstellen von Teilaufgaben aus dem Abschnitt „Teilaufgaben“ im Artikel [Erstellen von Teilaufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+
 1. (Bedingt) Um eingeschränkte Informationen zu einer Vorlagenaufgabe zu bearbeiten, klicken Sie im linken Bereich auf **Vorlagenaufgabendetails** und gehen Sie dann in die Bereiche des Abschnitts Details , um Informationen für die einzelnen Bereiche zu bearbeiten.
 1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-all-icon.png), um alle Bereiche zu reduzieren.
 1. Um Informationen im Abschnitt Details zu bearbeiten, klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) und wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten**, um Informationen in allen Bereichen zu bearbeiten:
@@ -95,8 +95,8 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
    >[!TIP]
    >
    >Um Informationen zu allen Feldern zu erhalten, die im Bereich Details angezeigt werden, setzen Sie den Vorgang mit Bearbeiten aller Felder im Feld Vorlagenaufgabe bearbeiten fort, wie unten beschrieben.
-
-1. (Bedingt) Um alle Informationen zur Vorlagenaufgabe zu bearbeiten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlagenaufgabe und anschließend auf **Bearbeiten**.
+1. (Optional) Um mehrere Vorlagenaufgaben in großen Mengen zu bearbeiten, wählen Sie mehrere Vorlagenaufgaben aus und klicken Sie dann **Bearbeiten** oben in der Vorlagenliste.
+1. (Bedingt) Um alle Informationen zu einer Vorlagenaufgabe oder zu mehreren Aufgaben gleichzeitig zu bearbeiten, wählen Sie diese aus einer Liste aus und klicken Sie dann oben in der Liste auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png).
 
    Das **Vorlagenaufgabe bearbeiten** wird angezeigt.
 
