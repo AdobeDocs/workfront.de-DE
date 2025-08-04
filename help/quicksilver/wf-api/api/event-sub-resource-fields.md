@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '873'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,8 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
 
 >[!NOTE]
 >
->Einige Objekte sind nur in Ereignisabonnements Version 2 verfügbar. Diese Objekte sind in der Tabelle aufgeführt.
+>* Einige Objekte sind nur in Ereignisabonnements Version 2 verfügbar. Diese Objekte sind in der Tabelle aufgeführt.
+>* Die auf dieser Seite aufgelisteten Felder sind immer im bereitgestellten Ereignis vorhanden, auch wenn der Wert dieses Felds null ist.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -381,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 

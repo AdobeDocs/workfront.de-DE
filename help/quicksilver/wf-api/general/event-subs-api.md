@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 3%
@@ -77,7 +77,9 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Benutzerin oder Benutzer
 * Arbeitsbereich
 
-Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, finden Sie unter [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
+>[!NOTE]
+>
+>Eine Liste der Felder, die von Ereignisabonnementobjekten unterstützt werden, finden Sie unter [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Authentifizierung bei Ereignisabonnements
 
@@ -810,7 +812,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
