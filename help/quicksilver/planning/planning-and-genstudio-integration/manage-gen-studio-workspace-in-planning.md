@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe Workfront Planning verfügbar, wenn Ihr Unternehmen beide Produkte gekauft hat und Ihre Workfront-Instanz in die GenStudio-Instanz Ihres Unternehmens integriert ist. Sie können den GenStudio-Arbeitsbereich unter „Planung“ anzeigen und Informationen in beiden Systemen aktualisieren.
 
-Informationen zur Verwendung von GenStudio for Performance Marketing finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+Informationen zur Verwendung von GenStudio for Performance Marketing finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home).
 
 ## Zugriffsanforderungen
 
