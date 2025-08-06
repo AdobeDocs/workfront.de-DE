@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Business-Case für ein P
 
 ## Neues Erscheinungsbild des Abschnitts „Warteschlangendetails“ in einer Vorlage
 
-**Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
+**Vorschau-Version: 31. Juli 2025; Produktionsversion: 14. August 2025**
 
 Das Erscheinungsbild des Abschnitts „Warteschlangendetails“ einer Vorlage wurde aktualisiert. Das Erscheinungsbild des Abschnitts Warteschlangendetails stimmt nun mit anderen Bereichen von Workfront überein.
 
