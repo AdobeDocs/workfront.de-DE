@@ -4,9 +4,9 @@ description: Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,11 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+Unternehmen, die sowohl Adobe Workfront Planning als auch Adobe GenStudio for Performance Marketing verwenden, definieren Marketing-Konzepte wie Kampagnen, Produkte und Personas häufig detaillierter als das, was GenStudio standardmäßig unterstützt.
 
-Adobe GenStudio for Performance Marketing und Adobe Workfront Planning sind nativ integriert. Durch diese Integration soll verhindert werden, dass Benutzer zwischen den beiden Anwendungen hin- und herwechseln müssen, um identische oder ähnliche Informationen zu aktualisieren.
+GenStudio for Performance Marketing und Workfront Planning sind nativ integriert. Diese Integration ermöglicht es Benutzenden, in Workfront Planning, Kampagnen, Produkte, Personas, Aktivierungen, Kanäle und Regionen zu verwalten, die in GenStudio verwendet werden. Außerdem können sie GenStudio so konfigurieren, dass in Workfront Planning auf bestehende Datensatztypen verwiesen wird, und so einen besser vernetzten und konsistenteren Marketing-Workflow erstellen.
 
-Sie können Ihre Kampagnen jetzt in GenStudio oder Workfront Planning aktualisieren oder erstellen und sie in beiden Programmen weiter bearbeiten.
+Diese Integration hilft Ihnen, doppelte Dateneingabe zu vermeiden, die Abstimmung über Planungs- und Aktivierungsmaßnahmen hinweg aufrechtzuerhalten und Ihr Marketing-Aufzeichnungssystem zu unterstützen.
 
 Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe Workfront Planning verfügbar, wenn Ihr Unternehmen beide Produkte gekauft hat.
 
@@ -106,13 +107,14 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 
 ## Integrationsanforderungen
 
-* Workfront und GenStudio for Performance Marketing müssen für dieselbe Organisation aktiviert sein. Wenn Ihr Unternehmen über mehrere Workfront-Instanzen verfügt, kann nur eine mit GenStudio for Performance Marketing integriert werden.
+* Workfront und GenStudio for Performance Marketing müssen für dieselbe Organisation aktiviert sein.
+* GenStudio ist in Workfront Planning nicht verfügbar, wenn Ihr Unternehmen mehrere Workfront-Instanzen hat. <!--this will change-->
 
 * Die Workfront-Instanz ist Teil von Adobe Unified Experience, einschließlich der Verwendung des Identity Management Systems (IMS).
 
   Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Benutzer, die sowohl Planning als auch GenStudio verwenden, können nur zu einer Workfront-Instanz in der IMS-Organisation gehören.
+* Benutzende, die sowohl Planning als auch GenStudio verwenden, können zu nur einer Workfront-Instanz in der IMS-Organisation gehören.
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
@@ -121,7 +123,7 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 
 * Ihr Unternehmen muss Adobe GenStudio for Performance Marketing erwerben, bevor Sie einen GenStudio-Arbeitsbereich in Workfront Planning anzeigen können.
 
-  Weitere Informationen zu GenStudio finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home).
+  Weitere Informationen zu GenStudio finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
   Weitere Informationen zur Integration von GenStudio und Workfront Planning finden Sie unter [Erste Schritte mit der Integration von Workfront Planning und GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 
@@ -140,6 +142,7 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 * Datensatztypen können in Workfront Planning nicht über GenStudio bearbeitet werden.
 * Datensatztypen aus GenStudio können nicht für andere Benutzer freigegeben werden. Workfront-Administratoren können den GenStudio-Arbeitsbereich in ihrem Planungsbereich anzeigen.
 * Datensatztypen, die mit GenStudio synchronisiert werden, zeigen einen visuellen Indikator an, der deutlich macht, dass die Datensatztypen aus GenStudio importiert wurden.
+* Benutzer, die den GenStudio-Arbeitsbereich in Planning anzeigen, können seine Datensatztypen für andere freigeben.
 
 ### Einträge
 
@@ -152,15 +155,25 @@ Sie können Datensätze in Workfront Planning hinzufügen oder löschen, damit s
 
   Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Sie können keine Aktivierungsdatensätze aus Workfront Planning erstellen oder löschen.
+* Sie können Datensatzinformationen für alle Datensätze im Arbeitsbereich von GenStudio in jedem der sichtbaren Felder von Workfront Planning bearbeiten.
+
+  Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 ### Felder
 
 * Alle Datensatzfelder werden aus GenStudio importiert und die Feldeinstellungen können nicht bearbeitet werden.
 * Sie können in Workfront Planning nur dann Felder für GenStudio-Datensatztypen erstellen, wenn Sie Systemadministratorzugriff in GenStudio haben.
-* Sie können Datensatzinformationen für alle Datensätze im Arbeitsbereich von GenStudio in jedem der sichtbaren Felder von Workfront Planning bearbeiten.
+* In Planning können Sie Felder für GenStudio-Datensatztypen erstellen. Diese Felder sind in den folgenden Bereichen sichtbar:
+   * Planungsansichten
+   * Detailseiten für Planungsdatensätze
+   * Detailseiten für GenStudio-Einträge
 
-  Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
-* Sie können Felder in der Tabellenansicht eines GenStudio-Datensatztyps ausblenden, aber keine Felder aus Workfront Planning löschen.
+  >[!TIP]
+  >
+  >In Workfront Planning erstellte Felder sind in der GenStudio-Listenansicht nicht sichtbar.
+
+* Sie können Felder in der Tabellenansicht eines GenStudio-Datensatztyps in Planning ausblenden, aber Sie können keine Felder aus Workfront Planning löschen.
+
 
 <!-- checking: 
 I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - only the newly added fiedsl can be changed or the reference fields. - from this: https://experience.adobe.com/?commentID=6848549f00000091e5f5a16636e381c0#/@adobeinternalworkfront/so:hub-Hub/workfront/project/67649bc00000545810daad1cd1fbb9cc/updates 

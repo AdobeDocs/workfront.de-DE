@@ -7,9 +7,9 @@ description: Das Projektteam besteht aus Benutzern, die in gewisser Eigenschaft 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 1%
 
 <!-- Audited: 6/2025 -->
 
-Ein Projektteam besteht aus Benutzern, die mit einem Projekt in gewisser Kapazität verknüpft sind. Benutzer, die unter dem Bereich Personen eines Projekts aufgeführt sind, bilden das Projekt-Team. Beispielsweise gehören Benutzende, die mit der Arbeit am Projekt betraut sind, oder die Projektbesitzerin bzw. der Projektbesitzer zum Projektteam.
+Ein Projektteam besteht aus Benutzern, die mit einem Projekt in gewisser Kapazität verknüpft sind. Benutzer, die im Abschnitt Personen eines Projekts aufgeführt sind, bilden das Projekt-Team. Beispielsweise gehören Benutzende, die mit der Arbeit am Projekt betraut sind, oder die Projektbesitzerin bzw. der Projektbesitzer zum Projektteam.
 
-Benutzer, die mit der Arbeit an einer Projektvorlage verknüpft sind oder Vorlagenbesitzer oder Sponsor sind, sind Teil des zukünftigen Projektteams, nachdem das Projekt mithilfe der Vorlage erstellt wurde.
+Die folgenden Benutzer in einer Projektvorlage sind Teil des zukünftigen Projektteams, nachdem das Projekt mithilfe der Vorlage erstellt wurde:
+
+* Benutzende, denen die Arbeit (Aufgaben und Probleme) an der Vorlage zugewiesen wurde.
+* Inhaber oder Sponsor der Vorlage.
+
+Benutzer, die Teil des zukünftigen Projektteams in einer Vorlage sind, werden im Abschnitt Personen der Vorlage angezeigt.
 
 ## Projektteammitglieder
 

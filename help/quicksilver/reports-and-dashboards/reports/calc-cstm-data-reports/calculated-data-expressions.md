@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Übersicht über berechnete Datenausdrücke
 description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefinierte Datenfelder in Adobe Workfront zu definieren. Berechnete Ausdrücke verbinden vorhandene Workfront-Felder in Anweisungen, die ein neues Feld generieren.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -414,23 +414,8 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>Sortiert die Array-Elemente in aufsteigender Reihenfolge und konvertiert sie in den Typ des ersten Elements.</p>
-   <p>Der Ausdruck ist wie folgt formatiert:</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-12.6“, "-13“].</p>
-   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>Sortiert die Array-Elemente in absteigender Reihenfolge und konvertiert sie in den Typ des ersten Elements.</p>
-   <p>Der Ausdruck ist wie folgt formatiert:</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-13“, "-12.6“].</p>
-   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>Wird mit anderen Ausdrücken verwendet, um einen Wert basierend auf einer Indexnummer aus einer Liste auszuwählen. </p>
    <p>Eine Indexnummer ist ein Feld oder eine Funktion, die einen numerischen Wert (normalerweise in einem bekannten Bereich) zurückgibt.</p> 
@@ -543,10 +528,35 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>Konvertiert die Eingabezeichenfolge in PascalCase, indem der erste Buchstabe eines jeden Worts großgeschrieben und alle Leerzeichen entfernt werden. </p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>Zum Beispiel wird „hello world“ zu „helloWorld“</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>Entfernt diakritische Zeichen aus allen akzentuierten Zeichen in der Eingabezeichenfolge. </p> 
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>Zum Beispiel wird „Héllo wörld with àccénts“ zu „Hallo Welt mit Akzenten“. </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>ERSETZEN</strong> </td> 
    <td> <p>Ersetzt in Zeichenfolge1 alle Vorkommen von Zeichenfolge2 durch Zeichenfolge3.</p> <p>Der Ausdruck ist wie folgt formatiert:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Ersetzt die Übereinstimmungen des angegebenen Musters durch die Ersatzzeichenfolge. </p> 
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>Beispielsweise erzeugt REPLACEPATTERN(„foo123bar“, "\d+", „_„) die Zeichenfolge „foo_bar“. 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>RIGHT</strong> </td> 
@@ -560,6 +570,22 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Sortiert die Array-Elemente in aufsteigender Reihenfolge und konvertiert sie in den Typ des ersten Elements.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-12.6“, "-13“].</p>
+   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Sortiert die Array-Elemente in absteigender Reihenfolge und konvertiert sie in den Typ des ersten Elements.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-13“, "-12.6“].</p>
+   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>
   <tr> 
    <td><strong>ZEICHENFOLGE</strong> </td> 
    <td> <p>Konvertiert eine Zahl in eine Zeichenfolge und ist wie folgt formatiert:</p>
@@ -603,3 +629,4 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
   </tr> 
  </tbody> 
 </table>
+
