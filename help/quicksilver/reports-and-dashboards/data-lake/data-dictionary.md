@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Datenwörterbuch für Workfront Data Connect
 description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der Daten in Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -54,8 +54,8 @@ Objekte in Workfront (und daher im Data Connect-Data Lake) werden nicht nur durc
 
 Es gibt eine Reihe von Datumsobjekten, die Informationen darüber liefern, wann bestimmte Ereignisse auftreten.
 
-* `DL_LOAD_TIMESTAMP`: Dieses Datum wird als interne Referenz verwendet und gibt an, wann die Daten in die Tabelle „Aktuell“, „Ereignis“ oder „Täglicher Verlauf“ geladen wurden. Dieses Datum sollte nicht für die Datenanalyse verwendet werden und soll während der Beta-Phase des Data Lake von Workfront entfernt werden.
-* `CALENDAR_DATE`: Dieses Datum ist nur in der Tabelle Tagesverlauf vorhanden. Diese Tabelle enthält eine Aufzeichnung des Aussehens der Daten um 11:59 UTC für jedes in `CALENDAR_DATE` angegebene Datum.
+* `DL_LOAD_TIMESTAMP`: Dieses Datum wird nach Abschluss einer erfolgreichen Datenaktualisierung aktualisiert und enthält den Zeitstempel, an dem der Aktualisierungsauftrag begann, der die neueste Version eines Datensatzes bereitgestellt hat.
+* `CALENDAR_DATE`: Dieses Datum ist nur in der Tabelle Tagesverlauf vorhanden. Diese Tabelle enthält einen Datensatz dazu, wie die Daten bei 11:UTC für :59 in `CALENDAR_DATE` angegebenen Datum aussahen.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der täglichen Verlaufstabelle vorhanden und zeichnet genau auf, wann ein Datensatz _auf_ den Wert geändert wurde, den er in der aktuellen Zeile hat.
 * `END_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der täglichen Verlaufstabelle vorhanden und zeichnet genau auf, wann ein Datensatz _von_ den Wert in der aktuellen Zeile in einen Wert in einer anderen Zeile geändert hat. Um zwischen Abfragen von `BEGIN_EFFECTIVE_TIMESTAMP` und `END_EFFECTIVE_TIMESTAMP` zu ermöglichen, ist dieser Wert nie null, auch wenn kein neuer Wert vorhanden ist. Wenn ein Datensatz noch gültig ist (d. h. wenn sich der Wert nicht geändert hat), haben `END_EFFECTIVE_TIMESTAMP` den Wert 2300-01-01.
 
