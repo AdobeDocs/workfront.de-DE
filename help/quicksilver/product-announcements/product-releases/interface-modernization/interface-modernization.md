@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Oberflächenaktualisierungen für das Feld Update an Benutzer senden in einer Vorlage
+### Schnittstellenaktualisierungen für das Benutzerfeld „Update an Benutzer senden“ für mehrere Objekte
 
-**Vorschau-Version: 31. Juli 2025; Produktionsversion: wird noch bekannt gegeben, 2025**
+**Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
 
-Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisiert, wenn auf das Feld über die Registerkarte Personen in einer Vorlage zugegriffen wird. Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
+Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisiert, wenn über die folgenden Bereiche darauf zugegriffen wird:
 
-Weitere Informationen finden Sie unter [Verwalten des Projektteams](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* Der Abschnitt „Personen“ in einer Vorlage
+* Der Abschnitt „Personen“ eines Projekts
+* Eine Benutzerliste in einem Unternehmen
+* Die Benutzerliste im Bereich Benutzer
+
+Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Senden von Direktnachrichten an andere Benutzer](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Projektteam verwalten](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Aktualisiertes Erlebnis beim Bearbeiten eines Warteschlangen-Themas in einem Projekt oder einer Vorlage
 
