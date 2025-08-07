@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 9d8c57454ce8b9e5809b2cee0778704014dbfa0f
 workflow-type: tm+mt
-source-wordcount: '13409'
+source-wordcount: '13414'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 2%
          * [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten und Proofing im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
          * [Home-Verbesserungen für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md)
+         * [Projektverbesserungen im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Verbesserungen für Anfragen im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Verbesserungen beim Ressourcenmanagement im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
          * [Lookand-Feel-Aktualisierungen im Zeitraum der Version 2025 im 4. Quartal](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
@@ -212,7 +213,6 @@ ht-degree: 2%
          * [21.1 Weitere Verbesserungen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning-Versionsaktivität{#planning-release-activity}
          * [Adobe Workfront Planning-Versionsaktivität](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2025](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Versionsaktivität 2025 für Adobe Workfront Planning im zweiten Quartal](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)

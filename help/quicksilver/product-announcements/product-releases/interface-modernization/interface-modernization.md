@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,19 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Admin und Setup
 
-## Aktualisierungen der Benutzeroberfläche für die Liste der Arbeitszeittabellen-Profile in einer Gruppe
+## Aktualisierungen der Benutzeroberfläche für den Bereich „Bedingungen“ im Setup
+
+**Vorschau-Version: 7. August 2025; Produktions-Version: 18. August 2025**
+
+Wir haben die Seite Bedingungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Eine sichtbare Verbesserung in der Benutzeroberfläche ist, dass jetzt neben Bedingungen, die Sie bearbeiten können, eine Schaltfläche **Bearbeiten** angezeigt wird, und Sie müssen nicht mehr den Mauszeiger über eine Bedingung bewegen, um das Symbol Bearbeiten zu finden.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Projektvoreinstellungen > Bedingungen.
+
+Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+### Aktualisierungen der Benutzeroberfläche für die Liste der Arbeitszeittabellen-Profile in einer Gruppe
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: 28. Juli 2025**
 
@@ -32,7 +44,7 @@ Das Erscheinungsbild der Arbeitszeittabellen-Profilliste im linken Bereich in ei
 
 Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Gruppe auswählen > Arbeitszeittabellen-Profile.
 
-## Änderungen an der Benutzeroberfläche für die Felder Neu und Stundentyp bearbeiten
+### Änderungen an der Benutzeroberfläche für die Felder Neu und Stundentyp bearbeiten
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: 31. Juli 2025**
 
@@ -40,7 +52,7 @@ Das Erscheinungsbild der Felder „Neuer Stundentyp“ und „Stundentyp bearbei
 
 Weitere Informationen finden Sie unter [Verwalten von Stundentypen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Aktualisierung der Benutzeroberfläche auf der Seite „Auditprotokolle“ im Setup
+### Aktualisierung der Benutzeroberfläche auf der Seite „Auditprotokolle“ im Setup
 
 **Vorschau-Version: 22. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
 
@@ -50,7 +62,7 @@ Die Exportschaltfläche wurde an die rechte Seite der Seite verschoben.
 
 Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Änderungsverfolgung > Auditprotokolle.
 
-## Aktualisierung der Benutzeroberfläche auf der Seite „Benutzer für SSO aktualisieren“ im Setup
+### Aktualisierung der Benutzeroberfläche auf der Seite „Benutzer für SSO aktualisieren“ im Setup
 
 **Vorschau-Version: 22. Juli 2025; Produktionsversion: 28. Juli 2025**
 
@@ -60,9 +72,17 @@ Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO a
 
 ## Projekte
 
-## Aktualisierungen der Benutzeroberfläche für ein Projekt Business Case
+### Aktualisierungen der Benutzeroberfläche zum Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem auf der Registerkarte Stunden
 
-**Vorschau-Version: 4. August 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 7. August 2025; Produktions-Version: 14. August 2025**
+
+Das Erscheinungsbild des Felds Zeit protokollieren wurde beim Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem auf der Registerkarte Stunden aktualisiert, sodass es dem Design anderer Bereiche von Workfront entspricht.
+
+Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Aktualisierungen der Benutzeroberfläche für ein Projekt Business Case
+
+**Vorschau-Version: 4. August 2025; Produktionsversion: Aufust 18**
 
 Wir haben das Erscheinungsbild des Business Case des Projekts aktualisiert, um es an andere Bereiche der Anwendung anzupassen.
 
@@ -70,7 +90,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Projekte > Projekt auswählen > Busi
 
 Weitere Informationen finden Sie unter [Erstellen eines Business-Case für ein Projekt](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
-## Neues Erscheinungsbild des Abschnitts „Warteschlangendetails“ in einer Vorlage
+### Neues Erscheinungsbild des Abschnitts „Warteschlangendetails“ in einer Vorlage
 
 **Vorschau-Version: 31. Juli 2025; Produktionsversion: 14. August 2025**
 
@@ -78,7 +98,7 @@ Das Erscheinungsbild des Abschnitts „Warteschlangendetails“ einer Vorlage wu
 
 Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Oberflächenaktualisierungen für das Feld Update an Benutzer senden in einer Vorlage
+### Oberflächenaktualisierungen für das Feld Update an Benutzer senden in einer Vorlage
 
-**Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
+**Vorschau-Version: 31. Juli 2025; Produktionsversion: wird noch bekannt gegeben, 2025**
 
 Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisiert, wenn auf das Feld über die Registerkarte Personen in einer Vorlage zugegriffen wird. Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
 Weitere Informationen finden Sie unter [Verwalten des Projektteams](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-## Aktualisiertes Erlebnis beim Bearbeiten eines Warteschlangen-Themas in einem Projekt oder einer Vorlage
+### Aktualisiertes Erlebnis beim Bearbeiten eines Warteschlangen-Themas in einem Projekt oder einer Vorlage
 
 **Vorschau-Version: 31. Juli 2025; Produktions-Version: 31. Juli 2025**
 
@@ -104,7 +124,7 @@ Eine kleine Funktionsänderung wurde auf die Liste der Routing-Regeln angewendet
 
 Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Aktualisierungen der Benutzeroberfläche für Rechnungsnachweise
+### Aktualisierungen der Benutzeroberfläche für Rechnungsnachweise
 
 **Vorschau-Version: 31. Juli 2025; Produktionsversion: 7. August 2025**
 
@@ -114,7 +134,7 @@ Um diese Änderungen anzuzeigen, gehen Sie zu einem Projekt > Rechnungsnachweise
 
 Weitere Informationen finden Sie [Rechnungsnachweise erstellen](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
-## Aktualisierungen der Benutzeroberfläche für das Feld MS Project-Datei importieren
+### Aktualisierungen der Benutzeroberfläche für das Feld MS Project-Datei importieren
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
 
@@ -122,7 +142,7 @@ Das Erscheinungsbild des Feldes MS Project-Datei importieren beim Importieren ei
 
 Um diese Änderung anzuzeigen, gehen Sie zu Projekte > Neues Projekt > MS Project importieren.
 
-## Aktualisierung der Benutzeroberfläche für das Ausgabenfeld eines Projekts oder einer Vorlage hinzufügen
+### Aktualisierung der Benutzeroberfläche für das Ausgabenfeld eines Projekts oder einer Vorlage hinzufügen
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: 31. Juli 2025**
 
@@ -132,7 +152,15 @@ Weitere Informationen finden Sie unter [Projektausgaben verwalten](/help/quicksi
 
 ## Vorlagen
 
-## Änderungen an der Benutzeroberfläche beim Bearbeiten einer Routingregel für eine Vorlage
+### Aktualisierungen der Benutzeroberfläche für die Liste der Vorgänger in einer Vorlage
+
+**Vorschau-Version: 7. August 2025; Produktions-Version: 14. August 2025**
+
+Wir haben das Erscheinungsbild der Vorgängerlisten in einer Vorlage aktualisiert, damit es dem Design anderer Bereiche von Workfront entspricht.
+
+Das Hinzufügen von Vorgängern für eine Vorlagenaufgabe ähnelt dem Hinzufügen von Vorgängern zu einer Projektaufgabe. Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung im Bereich Vorgänger](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### Änderungen an der Benutzeroberfläche beim Bearbeiten einer Routingregel für eine Vorlage
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: 31. Juli 2025**
 
@@ -142,7 +170,7 @@ Um die Routingregel zu bearbeiten, wählen Sie die gewünschte Routingregel aus 
 
 Weitere Informationen finden Sie unter [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-## Änderungen an der Benutzeroberfläche in den Verwaltungsbereichen für Anforderungswarteschlangen einer Vorlage
+### Änderungen an der Benutzeroberfläche in den Verwaltungsbereichen für Anforderungswarteschlangen einer Vorlage
 
 **Vorschau-Version: 24. Juli 2025; Produktionsversion: 31. Juli 2025**
 
@@ -160,6 +188,18 @@ Weitere Informationen finden Sie unter
 * [Themengruppen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Benutzende
+
+### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
+
+**Vorschauversion: 7. August 2025; Produktionsversion für alle Kunden: 14. August 2025**
+
+Das Dialogfeld zum Importieren neuer Benutzer über eine Tabellenkalkulationsdatei wurde aktualisiert, damit es mit anderen Bereichen der Anwendung übereinstimmt.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Benutzer importieren.
+
+Weitere Informationen finden Sie unter [Benutzer importieren](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Aktualisierung der Benutzeroberfläche im 3. Quartal
 
 ### Admin und Setup
@@ -168,7 +208,7 @@ Weitere Informationen finden Sie unter
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Layout-Vorlagen
 
-**Vorschau-Version: 17. Juli 2025; Produktionsversion: 24. Juli 2025**
+**Vorschau-Version: 17. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
 
 Wir haben die Seite Layout-Vorlagen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
