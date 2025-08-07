@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Probleme zuweisen
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,6 +172,10 @@ So weisen Sie Probleme in einer Liste zu:
 
    * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets oder eines aktiven Teams ein, den/das Sie dem Problem zuweisen möchten. Klicken Sie dann auf das Problem, wenn es in der Liste angezeigt wird.
 
+     <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+     ![Zuweisungsfeld](assets/assignments-field-0825.png)
+
+     Beispielbild in der Produktionsumgebung:
      ![Zuweisungsfeld](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -180,8 +186,7 @@ So weisen Sie Probleme in einer Liste zu:
    >
    >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-
-1. (Bedingt) Wenn im Feld Arbeitsaufträge angezeigt, klicken Sie auf das **Personen**![Personen-Symbol](assets/teams.png) in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld Erweiterte Arbeitsaufträge zu öffnen und erweiterte Arbeitsaufträge zu erstellen. Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Bedingt) Klicken Sie im Feld Arbeitsaufträge auf <span class="preview">**Erweitert**</span> oder auf das **Personen-Symbol** ![Personen-](assets/teams.png) in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld Erweiterte Arbeitsaufträge zu öffnen und erweiterte Arbeitsaufträge zu erstellen. Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -204,7 +209,7 @@ So weisen Sie Probleme in einer Liste zu:
    >Wenn eines der Probleme bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Problemen hinzugefügt, anstatt die vorhandenen Ressourcen in den Problemen zu ersetzen.
 
 1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Problembesitzer** aus, um anzugeben, welche Ressource der primäre Zugewiesene oder der Inhaber des Problems ist, wenn Sie dem Problem mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
-1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&#x200B;**&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
+1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des ****&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
 1. (Optional) Wenn Sie vorhandene Zugewiesene aus allen Problemen entfernen möchten, führen Sie einen der folgenden Schritte aus:
 

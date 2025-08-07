@@ -7,24 +7,18 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '2012'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
 
 # Aufgaben zuweisen
 
+{{preview-fast-release-general}}
+
 <!--Audited: 07/2024-->
-
-<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar oder in der Produktionsumgebung für Kunden, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Informationen zur aktuellen Version finden Sie unter [Versionsübersicht 4. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Sie können Benutzern, Aufgabengebieten oder Teams Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
@@ -55,8 +49,6 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
 * [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Zugriffsanforderungen
-
-<!-- Audited: 07/2024-->
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
@@ -152,23 +144,21 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klicken Sie auf den Namen der Zuweisungen, wenn die Aufgabe bereits zugewiesen ist.
 
-   ![Arbeitsaufträge](assets/assignments-box-in-task-header.png)
+   ![Arbeitsaufträge](assets/assignments-from-task-header-0825.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams, den/das Sie zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
-
+   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Aufgabengebiets oder Teams, den/das Sie zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
 
      >[!TIP]
      >
      >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
      >
      >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     >
-     ><span class="preview">Beim Hinzufügen einer Aufgabenrollenzuweisung können Sie nach dem Aufgabengebiet oder dem Standort suchen. Wählen Sie eine Funktion aus der Liste Aufgabengebiete aus, um den Standardabrechnungssatz für die Zuweisung zu verwenden, oder wählen Sie ein Aufgabengebiet der Tarifkarte aus, um den Abrechnungssatz aus der Tarifkarte zu verwenden. Weitere Informationen zu Tarifkarten finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
+     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
 
-   * (Bedingt) Klicken Sie auf einen der Namen in den <span class="preview">**Vorgeschlagene**</span>), **Benutzer und Teams** oder **Aufgabengebiete** oder <span class="preview">**Tarif-**</span>, wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Bedingt) Klicken Sie auf einen der Namen in den Listen **Benutzer und Teams** oder **Aufgabengebiete**, wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Sie können den Namen eines Benutzers, Teams oder Aufgabengebiets eingeben, das der Aufgabe zugewiesen werden soll, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 
@@ -214,15 +204,11 @@ So weisen Sie Aufgaben in einer Liste zu:
      >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
      >
      >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-     >
-     ><span class="preview">Beim Hinzufügen einer Aufgabenrollenzuweisung können Sie nach dem Aufgabengebiet oder dem Standort suchen. Wählen Sie ein Aufgabengebiet aus, um den Standardabrechnungssatz für die Zuweisung zu verwenden, oder wählen Sie ein Aufgabengebiet der Tarifkarte aus, um den Abrechnungssatz aus der Tarifkarte zu verwenden. Weitere Informationen zu Tarifkarten finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
+     <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Bedingt) Wenn im Feld **Arbeitsaufträge** angezeigt, klicken Sie auf das Symbol **Personen** in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld **Erweiterte Arbeitsaufträge** zu öffnen und erweiterte Arbeitsaufträge zu erstellen.
-
-   <!--
-   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
-   -->
+1. (Bedingt) Klicken Sie im Feld Arbeitsaufträge auf <span class="preview">**Erweitert**</span> oder das **Personen-Symbol** ![Personen-Symbol](assets/teams.png) in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld **Erweiterte Arbeitsaufträge** zu öffnen und erweiterte Arbeitsaufträge zu erstellen.
 
    Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

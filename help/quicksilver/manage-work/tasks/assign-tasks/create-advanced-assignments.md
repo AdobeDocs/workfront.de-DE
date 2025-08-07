@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Erweiterte Zuweisungen erstellen
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!TIP]
    >
-   >Erweiterte Zuweisungen können direkt in der Aufgaben- oder Problemliste vorgenommen werden, wenn mindestens zwei Personen zugewiesen sind. Klicken Sie in das **Arbeitsaufträge**-Feld in derselben Zeile wie die Aufgabe oder das Problem und klicken Sie dann auf das **Personen-Symbol**, um das Fenster Erweiterte Arbeitsaufträge zu öffnen. Fahren Sie mit Schritt 5 fort, um mit dem Erstellen erweiterter Zuweisungen fortzufahren.\
+   >Erweiterte Zuweisungen können direkt in der Aufgaben- oder Problemliste vorgenommen werden. Klicken Sie in das **Arbeitsaufträge**-Feld in derselben Zeile wie die Aufgabe oder das Problem und klicken Sie dann auf <span class="preview">**Erweitert**</span> oder das **Personen-Symbol**, um das Fenster „Erweiterte Arbeitsaufträge“ zu öffnen. Fahren Sie mit Schritt 5 fort, um mit dem Erstellen erweiterter Zuweisungen fortzufahren.
+   ><span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   >![Klicken Sie auf Erweitert oder auf das Symbol Personen ](assets/access-aa-from-lists.png)
+   >Beispielbild in der Produktionsumgebung:
    >![Klicken Sie auf das Symbol Personen ](assets/nwe-advanced-assignments-350x55.png)
 
 1. Klicken Sie **Zuweisen zu** im Feld **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems
@@ -95,7 +100,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **Erweitert**.
 
-   ![Klicken Sie auf Erweitert](assets/assignments-box-in-task-header.png)
+   ![Klicken Sie auf Erweitert](assets/assignments-from-task-header-0825.png)
 
 1. Geben Sie **Feld „Personen, Rollen und Teams suchen** den Namen eines Benutzers, einer Rolle oder eines Teams ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
