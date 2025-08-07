@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO a
 
 ## Projekte
 
-### Aktualisierungen der Benutzeroberfläche zum Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem auf der Registerkarte Stunden
+### Aktualisierungen der Benutzeroberfläche zum Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem im Abschnitt Stunden
 
 **Vorschau-Version: 7. August 2025; Produktions-Version: 14. August 2025**
 
-Das Erscheinungsbild des Felds Zeit protokollieren wurde beim Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem auf der Registerkarte Stunden aktualisiert, sodass es dem Design anderer Bereiche von Workfront entspricht.
+Das Erscheinungsbild des Felds Zeit protokollieren wurde aktualisiert, wenn im Abschnitt Stunden die Zeit für ein Projekt, eine Aufgabe oder ein Problem protokolliert wird, sodass sie dem Design anderer Bereiche von Workfront entspricht.
 
 Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -112,9 +112,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisiert, wenn über die folgenden Bereiche darauf zugegriffen wird:
 
-* Der Abschnitt „Personen“ in einer Vorlage
-* Der Abschnitt „Personen“ eines Projekts
-* Eine Benutzerliste in einem Unternehmen
+* Der Abschnitt „Personen“ einer Vorlage
+* Der Abschnitt Personen eines Projekts
+* Der Abschnitt „Firmenmitglieder“ einer Firma
 * Die Benutzerliste im Bereich Benutzer
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
