@@ -4,9 +4,9 @@ description: Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,22 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 * Anzeigen von GenStudio Workspace in Workfront Planning.
 * Ändern Sie Ihre Kampagnen in GenStudio und führen Sie Echtzeitaktualisierungen derselben Informationen in Workfront Planning durch.
 * Ändern Sie Ihre Kampagnen in Workfront Planning und erhalten Sie in GenStudio Echtzeit Aktualisierungen derselben Informationen.
+
+## Integrationsanforderungen
+
+* Workfront und GenStudio for Performance Marketing müssen für dieselbe Organisation aktiviert sein.
+
+  Weitere Informationen zu GenStudio finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+* GenStudio ist in Workfront Planning nicht verfügbar, wenn Ihr Unternehmen mehrere Workfront-Instanzen hat. <!--this will change-->
+
+* Die Workfront-Instanz ist Teil von Adobe Unified Experience, einschließlich der Verwendung des Identity Management Systems (IMS).
+
+  Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+* Benutzende, die sowohl Planning als auch GenStudio verwenden, können zu nur einer Workfront-Instanz in der IMS-Organisation gehören.
+
+<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
 ## Zugriffsanforderungen
 
@@ -105,44 +121,34 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Integrationsanforderungen
+## Übersicht über die Integration von Workfront Planning und GenStudio
 
-* Workfront und GenStudio for Performance Marketing müssen für dieselbe Organisation aktiviert sein.
-* GenStudio ist in Workfront Planning nicht verfügbar, wenn Ihr Unternehmen mehrere Workfront-Instanzen hat. <!--this will change-->
+In den folgenden Abschnitten werden die folgenden Themen beschrieben:
 
-* Die Workfront-Instanz ist Teil von Adobe Unified Experience, einschließlich der Verwendung des Identity Management Systems (IMS).
+* Funktionen zum Aktualisieren von Workfront-Planungsinformationen aus GenStudio
+* Funktionen zum Aktualisieren von GenStudio-Informationen aus Workfront Planning
+* Einschränkungen für das, was Sie in einem GenStudio-Arbeitsbereich in Workfront Planning verwalten können und was nicht.
 
-  Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-* Benutzende, die sowohl Planning als auch GenStudio verwenden, können zu nur einer Workfront-Instanz in der IMS-Organisation gehören.
-
-<!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
-
-
-## Überlegungen zum Verwalten eines GenStudio-Arbeitsbereichs in Workfront Planning
-
-* Ihr Unternehmen muss Adobe GenStudio for Performance Marketing erwerben, bevor Sie einen GenStudio-Arbeitsbereich in Workfront Planning anzeigen können.
-
-  Weitere Informationen zu GenStudio finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home).
-
-  Weitere Informationen zur Integration von GenStudio und Workfront Planning finden Sie unter [Erste Schritte mit der Integration von Workfront Planning und GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-
-* Workfront-Benutzende müssen Zugriff auf GenStudio haben, damit sie den GenStudio-Arbeitsbereich in Workfront Planning sehen können.
-
-
-* In den folgenden Abschnitten wird beschrieben, welche Einschränkungen es gibt, was Sie in einem GenStudio-Arbeitsbereich in Workfront Planning verwalten können und was nicht.
+<!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
 ### Der GenStudio-Arbeitsbereich in Workfront Planning
 
-* Wenn Ihr Unternehmen über mehrere Workfront-Instanzen verfügt, kann nur eine Instanz von Workfront Ihren GenStudio-Arbeitsbereich anzeigen.
-* Der GenStudio-Arbeitsbereich zeigt einen visuellen Indikator an, der deutlich macht, dass er aus GenStudio importiert wurde.
+* Wenn Ihr Unternehmen über mehrere Workfront-Instanzen verfügt, ist der GenStudio-Arbeitsbereich in keiner Ihrer Workfront-Instanzen sichtbar. <!-- this might change-->
+* Der GenStudio-Arbeitsbereich zeigt einen visuellen Indikator an, der deutlich macht, dass er aus GenStudio importiert wurde. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+* Alle Benutzenden, die sowohl Zugriff auf GenStudio als auch auf Workfront Planning haben, können auch den GenStudio-Arbeitsbereich in Workfront Planning anzeigen.
+* Workfront Planning-Benutzer müssen über das Adobe Identity Management System (IMS) verwaltet werden, damit sie den GenStudio Workspace von Workfront aus anzeigen und verwenden können.
+
+  Benutzende, die nur Workfront nutzen, können den GenStudio-Arbeitsbereich nicht sehen, selbst wenn er in Workfront verfügbar ist.
+
+  Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 ### Datensatztypen
 
-* Datensatztypen können in Workfront Planning nicht über GenStudio bearbeitet werden.
-* Datensatztypen aus GenStudio können nicht für andere Benutzer freigegeben werden. Workfront-Administratoren können den GenStudio-Arbeitsbereich in ihrem Planungsbereich anzeigen.
+* Sie können Informationen zu Datensatztypen (z. B. deren Erscheinungsbild) in GenStudio in Workfront Planning bearbeiten.
+* Sie können GenStudio-Datensatztypen in Planning für andere freigeben.  <!--checking with Ani H.-->
+* Datensatztypen können im Arbeitsbereich von GenStudio unter „Planung“ erstellt werden. <!-- checking with Ani where these show up in GenS-->
 * Datensatztypen, die mit GenStudio synchronisiert werden, zeigen einen visuellen Indikator an, der deutlich macht, dass die Datensatztypen aus GenStudio importiert wurden.
-* Benutzer, die den GenStudio-Arbeitsbereich in Planning anzeigen, können seine Datensatztypen für andere freigeben.
 
 ### Einträge
 
@@ -150,20 +156,24 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 Sie können Datensätze in Workfront Planning hinzufügen oder löschen, damit sie in GenStudio sichtbar werden (oder daraus entfernt werden).
 * Sie können Datensätze aus Workfront Planning wie folgt hinzufügen:
 
-   * Manuell, von Grund auf
+   * Manuell, von Grund auf, aus jeder Ansicht mithilfe der Schaltfläche Neuer Datensatz
    * Durch Importieren mithilfe einer CSV- oder Excel-Datei
+   * Manuell, inline, in der Tabellenansicht
+   * Manuell, direkt in der Zeitleisten-Ansicht
 
   Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Sie können keine Aktivierungsdatensätze aus Workfront Planning erstellen oder löschen.
-* Sie können Datensatzinformationen für alle Datensätze im Arbeitsbereich von GenStudio in jedem der sichtbaren Felder von Workfront Planning bearbeiten.
+* Sie können Datensatzinformationen für alle Datensätze im Arbeitsbereich von GenStudio in Planning in jedem der sichtbaren Felder von Workfront Planning bearbeiten.
 
   Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
+  <!--asking Ani if I delete a record in GS - will it move to Recovery box in Planning?-->
+
 ### Felder
 
-* Alle Datensatzfelder werden aus GenStudio importiert und die Feldeinstellungen können nicht bearbeitet werden.
-* Sie können in Workfront Planning nur dann Felder für GenStudio-Datensatztypen erstellen, wenn Sie Systemadministratorzugriff in GenStudio haben.
-* In Planning können Sie Felder für GenStudio-Datensatztypen erstellen. Diese Felder sind in den folgenden Bereichen sichtbar:
+* Datensatzfelder werden aus GenStudio importiert. Sie können die Feldeinstellungen in Workfront Planning bearbeiten.
+* In Workfront Planning können Sie weitere Felder für GenStudio-Datensatztypen erstellen, wenn Sie in Gen Studio über Verwaltungszugriff verfügen.
+* Wenn Sie in Planning Felder für GenStudio-Datensatztypen erstellen, sind diese in den folgenden Bereichen sichtbar:
    * Planungsansichten
    * Detailseiten für Planungsdatensätze
    * Detailseiten für GenStudio-Einträge
@@ -183,16 +193,17 @@ I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - onl
 
 ### Ansichten
 
-* Sie können Ansichten für GenStudio-Datensatztypen erstellen. Sie können Ansichten, die automatisch aus GenStudio importiert wurden, nicht bearbeiten, aber Sie können die Ansichtselemente für die GenStudio-Tabellenansicht ändern. Sie können beispielsweise die Filter, die Sortierung, die Gruppierungen, die Zeilenfarben und die Zeilenhöhe in der Tabellenansicht ändern.
+* Sie können Ansichten für GenStudio-Datensatztypen erstellen.
 
   Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
-* Sie können die Ansicht eines GenStudio-Datensatztyps wie folgt freigeben:
-
-   * Ansichts-Link kopieren
-   * Ansicht in eine Datei exportieren (nur für die Tabellenansicht verfügbar)
+* Sie können die Ansicht eines GenStudio-Datensatztyps so freigeben, wie Sie eine Ansicht für einen Planning-Datensatztyp freigeben würden.
 
 ### Verbindungen
 
-* Es ist nicht möglich, in Planning andere Datensatz- oder Objekttypen aus GenStudio-Datensatztypen zu verbinden.
-* Sie können in Planning von anderen Datensatztypen aus eine Verbindung zu GenStudio-Datensatztypen herstellen.
+* Sie können in Workfront Planning die folgenden Verbindungen zwischen GenStudio-Datensatztypen und anderen Datensatz- oder Objekttypen herstellen:
+
+   * Zwei GenStudio-Datensatztypen und
+   * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus demselben Arbeitsbereich
+   * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus einem anderen Arbeitsbereich, wenn die Datensatztypen für die Verbindung aus einem anderen Arbeitsbereich konfiguriert sind.
+   * Ein GenStudio-Datensatztyp und ein Workfront-Objekttyp (Projekte, Portfolios, Programme, Unternehmen, Gruppen)

@@ -7,7 +7,7 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -374,7 +374,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einige der f
 
 Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textformatierten Wert anzeigt, indem Sie die folgenden Ausdrücke verwenden:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <td> <p>Ersetzt die Übereinstimmungen des angegebenen Musters durch die Ersatzzeichenfolge. </p> 
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>Beispielsweise erzeugt REPLACEPATTERN(„foo123bar“, "\d+", „_„) die Zeichenfolge „foo_bar“. 
+   <p>Beispielsweise erzeugt REPLACEPATTERN(„foo123bar“, "\d+", „_„) die Zeichenfolge „foo_bar“.
    </td> 
   </tr> 
   <tr> 

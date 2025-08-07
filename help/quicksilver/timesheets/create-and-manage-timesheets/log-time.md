@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '4064'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,13 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
 <div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 </div>
-
--->
 
 Sie können die Zeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 
@@ -164,7 +161,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **** Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]
@@ -455,13 +452,13 @@ So protokollieren Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgab
 1. Klicken Sie im linken Bedienfeld auf **Stunden**.
 1. Klicken Sie **Zeit protokollieren**.
 
-   Das **Protokollzeit** wird angezeigt.
+   <span class="preview">Das Feld **Zeit erfassen** wird angezeigt.</span>
 
-   <!--<div class="preview">
-  
-   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+   <div class="preview">
 
-   </div>-->
+   ![Zeit im Abschnitt Stunden einer Aufgabe ](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -475,7 +472,7 @@ So protokollieren Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgab
      Weitere Informationen zur Konfiguration von Stundentypen finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Aufgabengebiet**: (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Aufgabengebiet zu Stundeneinträgen manuell hinzufügen** aktiviert hat, wählen Sie aus dem Dropdown-Menü ein **Aufgabengebiet** aus. Die beim Zuweisen zum -Objekt angegebene Rolle wird standardmäßig angezeigt. Wenn Ihnen für das Objekt keine Rolle zugewiesen wurde, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Stunden**: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Stunden** oder <span class="preview">der wöchentliche Kalender</span>: Geben Sie die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein. <span class="preview">Geben Sie im wöchentlichen Kalender die Anzahl der Stunden für das Projekt, die Aufgabe oder das Problem ein.</span> Der wöchentliche Kalender wird im Bereich **Stunden** des Felds **Zeit** in der Produktionsumgebung angezeigt.
    * **Hinweis**: Fügen Sie einen Hinweis hinzu, um zu erklären, wozu die Stunden dienen. Dies wird als **Stundennotiz“** &quot;**&quot;**.
 
 1. Klicken Sie **Zeit protokollieren**.
