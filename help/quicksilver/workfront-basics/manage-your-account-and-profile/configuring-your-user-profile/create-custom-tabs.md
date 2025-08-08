@@ -82,7 +82,7 @@ Nachdem Sie das Dashboard oder die externe Seite erstellt haben, können Sie sie
 
 1. Wechseln Sie zu einem der [!DNL Workfront] Bereiche oder Objekte, denen Sie im linken Bereich einen benutzerdefinierten Abschnitt hinzufügen können.\
    Oder
-1. Wechseln Sie zu einem -Objekt, dem Sie [!UICONTROL  linken Bereich ein ] hinzufügen können.\
+1. Wechseln Sie zu einem -Objekt, dem Sie [!UICONTROL &#x200B; linken Bereich ein &#x200B;] hinzufügen können.\
    Weitere Informationen dazu, welchen Bereichen und Objekten Sie benutzerdefinierte Abschnitte hinzufügen können, finden Sie unter [[!DNL Adobe Workfront] Abschnitte](#adobe-workfront-sections).
 1. Klicken Sie **[!UICONTROL linken Bedienfeld]** Dashboard hinzufügen“.
 1. Geben Sie einen Namen für das Dashboard in das Feld **[!UICONTROL Name des Schnelllinks]** ein. Dies ist nur für Sie sichtbar.
