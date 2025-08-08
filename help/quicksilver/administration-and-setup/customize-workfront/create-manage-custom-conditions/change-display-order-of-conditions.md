@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Sie können die Reihenfolge ändern, in der Bedingungen in Projekten, Aufgaben u
 
 * Wenn ein Benutzer ein Projekt bearbeitet
 
-  ![Bedingung beim Bearbeiten eines Projekts ändern](assets/change-condition-edit-project.png)
+  ![Bedingung beim Bearbeiten eines Projekts ändern](assets/change-condition-edit-project-0825.png)
 
 * Wenn ein Benutzer die Bedingung für eine Aufgabe oder ein Problem ändert
 
@@ -66,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
-1. Wählen Sie die **Projekte**, **Aufgaben** oder **Probleme** aus.
+1. Wählen Sie die **Projekte**, **** oder **Probleme** aus.
 
 1. Ziehen Sie ![Symbol „Verschieben](assets/move-icon---dots.png) Bedingungen, um ihre Reihenfolge zu ändern.
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 Wir haben die Seite Bedingungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
-Eine sichtbare Verbesserung in der Benutzeroberfläche ist, dass jetzt neben Bedingungen, die Sie bearbeiten können, eine Schaltfläche **Bearbeiten** angezeigt wird, und Sie müssen nicht mehr den Mauszeiger über eine Bedingung bewegen, um das Symbol Bearbeiten zu finden.
+Eine sichtbare Verbesserung in der Benutzeroberfläche besteht darin, dass die Schaltflächen **Bearbeiten** und **Löschen** jetzt neben Bedingungen angezeigt werden, die Sie bearbeiten können, und Sie müssen nicht mehr den Mauszeiger über eine Bedingung bewegen, um die Symbole Bearbeiten und Löschen zu finden.
 
 Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Projektvoreinstellungen > Bedingungen.
 
