@@ -66,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
-1. Wählen Sie die **Projekte**, **** oder **Probleme** aus.
+1. Wählen Sie die **Projekte**, **&#x200B;**&#x200B;oder **Probleme** aus.
 
 1. Ziehen Sie ![Symbol „Verschieben](assets/move-icon---dots.png) Bedingungen, um ihre Reihenfolge zu ändern.
 
