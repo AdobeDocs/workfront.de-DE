@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: 183bdced08da75cfb15fe2cc0f0804dec7f07f23
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte
-
-{{highlighted-preview}}
 
 Wenn für die Bedingungsart eines Projekts der Fortschrittsstatus anstelle der manuellen festgelegt wurde, zeigt Adobe Workfront automatisch eine von drei integrierten Standardbedingungen für das Projekt an (Zielgruppengerecht, Gefährdet oder In Schwierigkeiten), während es fortgesetzt wird, wie unter [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) erläutert.
 
