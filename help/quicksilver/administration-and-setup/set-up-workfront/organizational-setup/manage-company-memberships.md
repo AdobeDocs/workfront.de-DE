@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Verwalten von Unternehmensmitgliedschaften
 description: Im Bereich [!UICONTROL Firmen] im Setup können Sie die Mitglieder einer Firma hinzufügen und entfernen. Sie können auch ihre Benutzerprofile bearbeiten und sie daran erinnern, sich im System  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **[!UICONTROL Firmen]**.
 1. Klicken Sie auf den Namen der Firma.
-1. Führen Sie bei ausgewähltem **&quot;**&quot; im linken Bereich einen der folgenden Schritte aus:
+1. Klicken Sie **[!UICONTROL linken]** auf „Firmenmitglieder“.
+1. Führen Sie einen der folgenden Schritte aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Senden eines Kommentars an Benutzer und deren Bereich [!UICONTROL Updates]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Wählen Sie mindestens einen Benutzer aus und klicken Sie dann auf das Symbol [!UICONTROL Comment] <img src="assets/comment-icon.png"> der Symbolleiste.</p> </li> 
+        <li value="1"> <p>Wählen Sie mindestens einen Benutzer aus und klicken Sie dann in der Symbolleiste <b>Aktualisierung an </b> senden).</p> </li> 
         <li value="2"> <p>Geben Sie den Kommentar ein, den Sie den Benutzern und dem Bereich [!UICONTROL Updates] ihrer Benutzerprofile senden möchten.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Senden von Direktnachrichten an andere Benutzer</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportieren der Liste der Firmenmitglieder</td> 

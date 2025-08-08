@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
 # Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung
+
+{{highlighted-preview}}
 
 Als Adobe Workfront-Administrator können Sie eine benutzerdefinierte Bedingung für Projekte, Aufgaben und Probleme erstellen oder bearbeiten, um sie an die Anforderungen Ihres Unternehmens anzupassen.
 
@@ -64,8 +66,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Oder
 
-   Um eine vorhandene Bedingung zu bearbeiten, bewegen Sie den Mauszeiger über die Bedingung, die Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten**-Symbol ganz rechts.
+   Um eine vorhandene Bedingung zu bearbeiten, klicken Sie <span class="preview">**Bearbeiten** neben dem Namen der Bedingung</span> oder bewegen Sie den Mauszeiger über die Bedingung, die Sie bearbeiten möchten, und klicken Sie dann auf das Symbol **Bearbeiten** ganz rechts.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Benutzerdefinierte Bedingung bearbeiten](assets/custom-conditions-0825.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Benutzerdefinierte Bedingung](assets/custom-condition-edit-nwe.jpg)
 
 1. Konfigurieren Sie Ihre benutzerdefinierte Bedingung mit den folgenden Optionen:
@@ -116,15 +122,17 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Wenn ein Benutzer ein Projekt bearbeitet
 
-     ![Bedingung beim Bearbeiten eines Projekts ändern](assets/change-condition-edit-project.png)
+     ![Bedingung beim Bearbeiten eines Projekts ändern](assets/change-condition-edit-project-0825.png)
 
-   * Wenn ein(e) Benutzende(r) die Bedingung für eine Aufgabe oder ein Problem auf der Registerkarte Aktualisierungen ändert:
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![Bedingung beim Aktualisieren des Kommentars ändern](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * Wenn ein(e) Benutzende(r) die Bedingung für eine Aufgabe oder ein Problem in einer Listenansicht ändert:
+* Wenn ein(e) Benutzende(r) die Bedingung für eine Aufgabe oder ein Problem in einer Listenansicht ändert:
 
-     ![Bedingung in Liste ändern](assets/change-conditions-list-dropdown-only.png)
+  ![Bedingung in Liste ändern](assets/change-conditions-list-dropdown-only.png)
 
 1. Klicken Sie auf **Speichern**.
 

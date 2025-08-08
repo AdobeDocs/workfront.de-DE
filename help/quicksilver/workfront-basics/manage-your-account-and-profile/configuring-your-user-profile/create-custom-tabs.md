@@ -6,9 +6,9 @@ description: Die Informationen, die Sie in der - [!DNL Workfront] -Anwendung seh
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,14 @@ In der folgenden Tabelle sind alle [!DNL Workfront] Bereiche und Objekte aufgef�
 | [!UICONTROL Team] | ✓ |   |
 | [!UICONTROL Anfragen]-Bereich | ✓ |   |
 | [!UICONTROL Arbeitszeittabellen]-Bereich | ✓ |   |
-| [!UICONTROL Portfolio &#x200B;] | ✓ | ✓ |
+| [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL Programm] | ✓ | ✓ |
 | [!UICONTROL Projekt] | ✓ | ✓ |
 | [!UICONTROL Aufgabe] | ✓ |  ✓ |
 | [!UICONTROL Probleme] |  ✓ |  ✓ |
 | [!UICONTROL Benutzer] |  ✓ |  ✓ |
 | [!UICONTROL Dokument] |  ✓ |  ✓ |
+| Bereich [!UICONTROL Ressourcen] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
    <td> <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td>[!UICONTROL Reviewer] oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
+   <td role="rowheader">Objektberechtigungen</td> 
    <td>Ansichtszugriff auf den Objekttyp</td> 
   </tr> 
  </tbody> 
@@ -81,12 +82,12 @@ Nachdem Sie das Dashboard oder die externe Seite erstellt haben, können Sie sie
 
 1. Wechseln Sie zu einem der [!DNL Workfront] Bereiche oder Objekte, denen Sie im linken Bereich einen benutzerdefinierten Abschnitt hinzufügen können.\
    Oder
-1. Wechseln Sie zu einem -Objekt, dem Sie [!UICONTROL &#x200B; linken Bereich ein &#x200B;] hinzufügen können.\
+1. Wechseln Sie zu einem -Objekt, dem Sie [!UICONTROL  linken Bereich ein ] hinzufügen können.\
    Weitere Informationen dazu, welchen Bereichen und Objekten Sie benutzerdefinierte Abschnitte hinzufügen können, finden Sie unter [[!DNL Adobe Workfront] Abschnitte](#adobe-workfront-sections).
 1. Klicken Sie **[!UICONTROL linken Bedienfeld]** Dashboard hinzufügen“.
 1. Geben Sie einen Namen für das Dashboard in das Feld **[!UICONTROL Name des Schnelllinks]** ein. Dies ist nur für Sie sichtbar.
 1. Geben Sie den Namen eines vorhandenen Dashboards oder einer externen Seite in das Feld **[!UICONTROL Dashboard auswählen]** ein und wählen Sie dann das Dashboard aus, wenn es in der Liste angezeigt wird.
-1. Klicken Sie **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 1. (Optional) Ziehen Sie die Abschnitte per Drag-and-Drop in die Reihenfolge, in der Sie sie anzeigen möchten.
 
    Der obere Abschnitt ist der Standardabschnitt für die Seite.
