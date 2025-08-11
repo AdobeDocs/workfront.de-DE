@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
 workflow-type: tm+mt
 source-wordcount: '6622'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Admin und Setup
 
-## Aktualisierungen der Benutzeroberfläche für den Bereich „Bedingungen“ im Setup
+### Aktualisierungen der Benutzeroberfläche für den Bereich „Bedingungen“ im Setup
 
 **Vorschau-Version: 7. August 2025; Produktions-Version: 18. August 2025**
 
