@@ -4,9 +4,10 @@ content-type: reference
 description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verwenden, indem Sie eine Eingabeaufforderung eingeben oder ein Dokument angeben.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -62,6 +63,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Voraussetzungen
 
 Um Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments automatisch auszufüllen **müssen** der folgenden Bedingungen zutreffen:
@@ -72,6 +75,9 @@ Um Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments automatisch 
 * Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen
 
   Weitere Informationen zum Unterzeichnen des Vertrags finden Sie unter [Unterschreiben des Adobe Gen AI-](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)) im Artikel KI-Assistent - Übersicht.
+* Der KI-Assistent muss in den Systemeinstellungen Ihrer Organisation aktiviert sein. Dieser wird von Ihrem Workfront-Administrator verwaltet.
+
+  Weitere Informationen zum Aktivieren des KI-Assistenten in den Systemeinstellungen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Abrufen von Vorschlägen aus einer Textaufforderung
 
@@ -252,4 +258,3 @@ Wenn Sie nicht die erwarteten Vorschläge erhalten, kann dies auf eine der folge
 
 * Sie müssen mindestens einen Monat an Anfragedaten im System haben, bevor es Feldwerte aus früheren Anfragen vorschlagen kann.
 * Sie haben möglicherweise die Leitplanken für den Dokument-Upload nicht befolgt, wenn Sie ein Dokument hochladen, aus dem Sie Vorschläge abrufen möchten. Weitere Informationen finden Sie unter [Leitplanken beim Hochladen von Dokumenten](#document-upload-guardrails) in diesem Artikel.
-

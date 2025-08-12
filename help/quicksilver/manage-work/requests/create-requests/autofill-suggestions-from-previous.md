@@ -4,7 +4,8 @@ content-type: reference
 description: Sie können KI verwenden, um Anfragefelder automatisch mit Daten aus vorherigen Anfragen auszufüllen.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,6 +60,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vorschläge beim Ausfüllen des Formulars einholen
 
