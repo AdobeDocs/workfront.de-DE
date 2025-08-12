@@ -6,28 +6,26 @@ description: Das Adobe Workfront-Überprüfungs-Tool ist eine Browser-Erweiterun
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
+source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
 
 # Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungs-Tool
 
-<span class="preview">Das Adobe Workfront Review-Tool wurde am 7. November 2024 bereitgestellt. Diese Erweiterung befindet sich derzeit in der Betaphase.</span>
 
-Das Adobe Workfront-Überprüfungs-Tool ist eine Web-basierte Browser-Erweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL prüfen können. Das Adobe Workfront-Überprüfungs-Tool ist in den folgenden Browsern verfügbar:
+>[!IMPORTANT]
+>
+> Es wird empfohlen, den Desktop Proofing Viewer für interaktive Inhalte zu verwenden, die auf einer Website gehostet werden, für die eine SSO-Authentifizierung erforderlich ist oder die das Öffnen ihrer Website in iFrames wie Figma verhindert.
+
+Das Adobe Workfront-Überprüfungs-Tool ist eine Web-basierte Browser-Erweiterung, mit der Sie interaktiven Inhalt in einer ZIP-Datei oder mit einer URL markieren können. Das Adobe Workfront-Überprüfungs-Tool ist in den folgenden Browsern verfügbar:
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->Diese Erweiterung ist erforderlich, um Inhalte in GenStudio for Performance Marketing und Creative Cloud Express zu überprüfen. Assets wird automatisch im Web-Viewer geöffnet. Sie müssen keine Kontoeinstellungen aktualisieren.
-
 
 ## Installieren der Erweiterung
 
@@ -48,11 +46,16 @@ Reviewer und genehmigende Personen müssen das Adobe Workfront-Überprüfungs-To
 
 Damit interaktive Korrekturabzüge automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet werden können, muss ein Workfront-Administrator die Korrekturabzugseinstellungen in Workfront aktualisieren, wie in den folgenden Abschnitten beschrieben.
 
+## Verwenden des Adobe Workfront-Überprüfungs-Tools in GenStudio for Performance Marketing und Creative Cloud Express
+
+Diese Erweiterung ist erforderlich, um Inhalte in GenStudio for Performance Marketing und Creative Cloud Express zu überprüfen. Assets wird automatisch im Web-Viewer geöffnet. Sie müssen keine Kontoeinstellungen aktualisieren.
+
+
 ## Aktualisieren der Workfront-Proofing-Standardeinstellungen
 
 Um das Workfront-Überprüfungs-Tool als Standard-Viewer für interaktive Inhalte zu verwenden, müssen Sie die Proofing-Standardeinstellungen in Workfront aktualisieren.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Es wird empfohlen, den Desktop Proofing Viewer zu verwenden, wenn sich der zu überprüfende Inhalt auf einer Website befindet, die
 >
