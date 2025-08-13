@@ -7,9 +7,9 @@ description: In Adobe Workfront gibt es Beschränkungen für die Anzahl der Obje
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Beispiele für Aufgabenabhängigkeiten, die die Neuberechnung der Zeitleiste des
   <tr> 
    <td role="rowheader"><p>Zeitleistenberechnungen</p></td> 
    <td>Workfront führt keine automatischen Zeitleistenberechnungen für Projekte durch, die in den letzten sechs Monaten nicht aktualisiert wurden. Die Zeitleistenberechnungen werden erst fortgesetzt, wenn eine Aktualisierung vorgenommen wurde.<p>Für Projekte, die in den letzten drei Monaten nicht aktualisiert wurden, führt Workfront wöchentlich anstatt nachts Zeitleistenberechnungen durch.</p><p>Informationen zur Berechnung der Projektzeitleiste finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitleisten neu berechnen</a>. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>Objekte konvertieren </p></td> 
+   <td>Workfront erlaubt beim Konvertieren von Objekten eine Verarbeitungsdauer von maximal 5 Minuten. Wenn an das Objekt eine große Anzahl von Dokumenten angehängt ist, kann es möglicherweise nicht innerhalb des 5-Minuten-Limits konvertiert werden. Möglicherweise müssen Sie einige der Dokumente entfernen und erneut versuchen.</td> 
   </tr> 
  </tbody> 
 </table>

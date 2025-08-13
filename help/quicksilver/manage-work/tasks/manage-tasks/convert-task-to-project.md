@@ -6,9 +6,9 @@ description: Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Die ursprüngliche Aufgabe wird gelöscht.
 * Alle Teilaufgaben, Probleme und Notizen werden dem neuen Projekt zugeordnet.
 * Dokumente, Dokumentversionen und Testsendungen werden in das neue Projekt verschoben.
+* Beim Konvertieren einer Aufgabe in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an die Aufgabe eine große Anzahl von Dokumenten angehängt ist und sie nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
 * Der Status und der abgeschlossene Prozentsatz aller Teilaufgaben und Probleme werden beibehalten.
 * Aufgabenzugewiesene und der Benutzer, der die Aufgabe in das Projekt konvertiert, werden zu freigegebenen Benutzern im Projekt.
 * Das Startdatum des Projekts ist auf das Startdatum der Aufgabe festgelegt.

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
    * Versionen
    * Korrekturabzüge werden nur einbezogen, wenn die Option **Ursprüngliches Problem beibehalten und seine Lösung mit dieser Aufgabe verknüpfen** nicht ausgewählt ist.
    * Dokumentgenehmigungen werden nicht einbezogen, wenn Sie ein Problem konvertieren, an das Dokumente und Dokument-Links angehängt sind.
-
+* Beim Konvertieren eines Problems gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
 * Wenn Sie sich entschieden haben, das Problem bei der Konvertierung zu belassen und ihm Dokumente beigefügt sind, werden das Dokument und seine Versionen in das Projekt oder die Aufgabe kopiert. Die Korrekturabzüge und Dokumentgenehmigungen werden nicht in das Projekt oder die Aufgabe kopiert.
 * Wenn Sie sich dafür entschieden haben, das Problem nicht in der Konvertierung zu belassen und ihm Dokumente beigefügt sind, werden das Dokument, seine Versionen und die Korrekturabzüge an das Projekt oder die Aufgabe übertragen. Die Dokumentengenehmigungen werden nicht auf das Projekt oder die Aufgabe übertragen.
 * Wenn Sie Dokumente und Ordner haben, die mit dem ursprünglichen Problem von Drittanbieterdiensten wie Google Drive verknüpft sind, unabhängig davon, ob Sie das Problem während der Konvertierung beibehalten oder nicht, werden diese Links in das neue Objekt kopiert.
@@ -244,7 +244,7 @@ Sie können die ursprünglichen Anfrageinformationen in Projekt- und Aufgabenlis
 
 Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten und Aufgaben sichtbar sind.
 
-| Anfragefelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich „Projektdetails“ | Aufgabenliste oder Bericht | Aufgabendetailbereich |
+| Problemfelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich „Projektdetails“ | Aufgabenliste oder Bericht | Aufgabendetailbereich |
 |---|---|---|---|---|---|
 | Name des Problems | Name des konvertierten Problems | ✔ | ✔ | ✔ | ✔ |
 | Hauptansprechpartner | Name des Urhebers des konvertierten Problems | ✔ | `✔` | ✔ |  |
