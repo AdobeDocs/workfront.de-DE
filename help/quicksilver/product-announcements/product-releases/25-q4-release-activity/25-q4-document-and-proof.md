@@ -4,9 +4,10 @@ description: Verbesserungen bei Dokumenten und Proofing im vierten Quartal 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,27 @@ Auf dieser Seite werden die Dokument- und Proofing-Verbesserungen beschrieben, d
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Neuer Workfront AI Reviewer
+
+>[!NOTE]
+>
+>Verfügbar für alle Kunden 14. August 2025
+
+Der neue Workfront AI Reviewer trägt dazu bei, die Einhaltung der Markenrichtlinien sicherzustellen, indem Inhalte automatisch anhand Ihrer Markenrichtlinien überprüft werden, beginnend mit den Bildrichtlinien. Er bietet eine Bewertung und umsetzbares Feedback, um den Genehmigungsprozess zu optimieren.
+
+Sie können den KI-Reviewer zu Genehmigungsvorlagen oder einzelnen Prüfungs- und Genehmigungsanfragen hinzufügen, was eine schnellere Inhaltserstellung bei gleichzeitiger Einhaltung von Markenstandards ermöglicht.
+
+Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+Diese Funktion befindet sich derzeit in der Betaphase.
+
+
 ## Neue Proofing-Integration für Adobe Express
+
+>[!NOTE]
+>
+>Verfügbar für alle Kunden 28. Juli 2025
+
 
 Wir freuen uns, eine neue Integration zwischen Adobe Express und Workfront Proof bekannt geben zu können.
 

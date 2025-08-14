@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
+
+**Vorschau-Version: 14. August 2025; Produktions-Version: 21. August 2025**
+
+Das Erscheinungsbild der kürzlich gelöschten Elemente im Bereich Setup wurde aktualisiert, damit es dem Design anderer Bereiche von Workfront entspricht. Für kürzlich gelöschte Projekte, Aufgaben, Anfragen, Dokumente oder Vorlagen wurden keine Funktionen geändert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Papierkorb > Kürzlich gelöscht.
+
+Weitere Informationen finden Sie unter [Wiederherstellen gelöschter Elemente](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Bedingungen“ im Setup
 
@@ -82,7 +92,7 @@ Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timeshe
 
 ### Aktualisierungen der Benutzeroberfläche für ein Projekt Business Case
 
-**Vorschau-Version: 4. August 2025; Produktionsversion: 18. August**
+**Vorschau-Version: 4. August 2025; Produktions-Version: 13. August 2025**
 
 Wir haben das Erscheinungsbild des Business Case des Projekts aktualisiert, um es an andere Bereiche der Anwendung anzupassen.
 
@@ -125,15 +135,14 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Projektteam verwalten](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Aktualisiertes Erlebnis beim Bearbeiten eines Warteschlangen-Themas in einem Projekt oder einer Vorlage
+### Aktualisiertes Erlebnis beim Bearbeiten einer Themengruppe in einem Projekt oder einer Vorlage
 
 **Vorschau-Version: 31. Juli 2025; Produktions-Version: 31. Juli 2025**
 
-Das Erscheinungsbild eines Warteschlangen-Themas wurde bei der Bearbeitung in einer Vorlage aktualisiert. Die Seite zur Bearbeitung von Warteschlangenthemen stimmt jetzt mit dem Design anderer Bereiche von Workfront überein.
+Das Erscheinungsbild einer Themengruppe bei der Bearbeitung in einer Vorlage wurde aktualisiert. Die Themengruppen-Bearbeitungsseite entspricht nun dem Design anderer Bereiche von Workfront.
+Eine kleine Funktionsänderung wurde auf die Themengruppe angewendet. Um eine Themengruppe zu bearbeiten, wählen Sie die Themengruppe aus der Liste aus und klicken Sie auf das Symbol Bearbeiten . Sie werden nicht mehr zur Detailseite der Themengruppe weitergeleitet, bevor Sie sie bearbeiten können.
 
-Eine kleine Funktionsänderung wurde auf die Liste der Routing-Regeln angewendet. Um ein Warteschlangenthema zu bearbeiten, wählen Sie das Warteschlangenthema aus der Liste aus und klicken Sie auf das Symbol Bearbeiten . Sie werden nicht mehr zur Detailseite für Warteschlangenthemen weitergeleitet, bevor Sie sie bearbeiten können.
-
-Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Weitere Informationen finden Sie unter [Themengruppen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Aktualisierungen der Benutzeroberfläche für Rechnungsnachweise
 
@@ -215,11 +224,11 @@ Weitere Informationen finden Sie unter [Benutzer importieren](/help/quicksilver/
 
 ### Admin und Setup
 
-+++Erweitern Sie , um die Aktualisierungen der Admin- und Setup-Benutzeroberfläche anzuzeigen, die im dritten Quartal vorgenommen wurden
++++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Admin- und Setup-Benutzeroberfläche anzuzeigen.
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Layout-Vorlagen
 
-**Vorschau-Version: 17. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 17. Juli 2025; Produktionsversion: 14. August 2025**
 
 Wir haben die Seite Layout-Vorlagen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -404,7 +413,7 @@ Mit diesem Update wurden keine Funktionsänderungen eingeführt.
 
 ### Dokumente
 
-+++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Dokumentenoberfläche anzuzeigen.
++++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Dokumentenschnittstelle anzuzeigen
 
 ### Dokument für externe E-Mail-Adressen freigeben
 
@@ -416,7 +425,7 @@ Das Dialogfeld Freigeben wurde aktualisiert, damit Benutzer Dokumente über eine
 
 ### Navigation und Suche
 
-+++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Navigations- und Suchschnittstelle anzuzeigen.
++++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Navigations- und Suchschnittstelle anzuzeigen
 
 ### Aktualisierung der Benutzeroberfläche für die erweiterte Suche
 
@@ -526,7 +535,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 ### Berichte und Dashboards
 
-+++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Benutzeroberfläche von Berichten und Dashboards anzuzeigen.
++++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Benutzeroberfläche für Berichte und Dashboards anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche für den Spesenbericht
 
@@ -566,7 +575,7 @@ Es wird empfohlen, die URL zu ersetzen, um zu einer unterstützten Seite zu gela
 
 ## Benutzende
 
-+++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Benutzeroberfläche anzuzeigen.
++++Erweitern Sie , um die im dritten Quartal vorgenommenen Aktualisierungen der Benutzeroberfläche anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche des Organigramms
 
@@ -623,7 +632,7 @@ Wir haben die Seite zur externen Benutzerregistrierung mit einem moderneren Desi
 
 ### Lizenzen
 
-+++Erweitern Sie , um die in Q3 vorgenommenen Aktualisierungen der Benutzeroberfläche anzuzeigen.
++++Erweitern Sie , um die im dritten Quartal vorgenommenen Aktualisierungen der Benutzeroberfläche anzuzeigen
 
 ### Aktualisierte Lizenzvereinbarungsseite
 
@@ -639,7 +648,7 @@ Wir haben die Lizenzvertragsseite mit einem moderneren Design aktualisiert, das 
 
 ### Administration und Einrichtung
 
-+++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Administration- und Setup-Benutzeroberfläche anzuzeigen.
++++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Administrations- und Setup-Oberfläche anzuzeigen.
 
 ### Aktualisierungen der Benutzeroberfläche für kürzlich wiederhergestellte Elemente
 
@@ -891,7 +900,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > A
 
 ### Dokumente
 
-+++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Dokumentenoberfläche anzuzeigen.
++++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Dokumentenschnittstelle anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche beim Anfordern eines Dokuments
 
@@ -958,7 +967,7 @@ Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksi
 
 ### Berichte und Dashboards
 
-+++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Benutzeroberfläche von Berichten und Dashboards anzuzeigen.
++++Erweitern Sie , um die in Q2 vorgenommenen Aktualisierungen der Benutzeroberfläche von Berichten und Dashboards anzuzeigen
 
 ### Look-and-Feel-Aktualisierungen eines Meilensteinpfadberichts
 
