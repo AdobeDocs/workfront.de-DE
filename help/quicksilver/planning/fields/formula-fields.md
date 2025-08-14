@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder er
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder er
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Überlegungen zu Formelfeldern
 
@@ -112,6 +112,10 @@ Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder er
 
   Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 * Sie können Formelfelder in neuen Formeln referenzieren. Sobald der Wert in einem Feld aktualisiert wird, auf das in einem Formelfeld verwiesen wird, werden alle nachfolgenden Felder, die auf dieses Feld oder Formelfelder verweisen, die dieses Feld enthalten, automatisch aktualisiert.
+* Formelfelder werden in den folgenden Fällen möglicherweise als `#ERROR!` angezeigt:
+   * Wenn ein in einer Formel verwendetes Feld gelöscht wird.
+   * Wenn ein in einem aggregierten Suchfeld verwendetes Feld als `#ERROR!` angezeigt wird.
+Beispiel: Sie zeigen ein Suchfeld an, das aggregierte Suchformularfelder enthält, und eines der referenzierten Formelfelder wird als `#ERROR!` angezeigt.
 
 ## Unterstützte Formeln
 

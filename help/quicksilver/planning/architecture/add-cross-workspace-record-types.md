@@ -4,9 +4,9 @@ description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. I
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 Als Workspace-Manager können Sie einen vorhandenen Datensatztyp in einen anderen Workspace importieren oder hinzufügen.
 
-Sie müssen zunächst die arbeitsbereichsübergreifenden Funktionen eines Datensatztyps definieren, bevor Workspace-Manager ihn in andere Arbeitsbereiche importieren können.
+Sie müssen zunächst einen Datensatztyp als zentralisierten Arbeitsbereich festlegen, bevor Workspace-Manager ihn in andere Arbeitsbereiche importieren können.
 
-Sie definieren die arbeitsbereichsübergreifenden Funktionen eines Datensatztyps, wenn Sie einen Datensatztyp erstellen oder bearbeiten.
+Sie können einen Datensatztyp beim Erstellen oder Bearbeiten als zentralisiert festlegen, während Sie seine arbeitsbereichsübergreifenden Einstellungen definieren.
 
 Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
-## Überlegungen beim Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich
+## Übersicht über zentralisierte Datensatztypen
+
+Überlegungen beim Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich
 
 * Wenn keine Datensatztypen zum Hinzufügen zu einem anderen Arbeitsbereich konfiguriert sind, wird beim Erstellen eines Datensatztyps die Option zum Importieren aus einem anderen Arbeitsbereich nicht angezeigt. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * Nachdem Sie den Datensatztyp aus einem anderen Arbeitsbereich hinzugefügt haben, werden auch die folgenden Informationen aus dem vorhandenen Datensatztyp hinzugefügt:

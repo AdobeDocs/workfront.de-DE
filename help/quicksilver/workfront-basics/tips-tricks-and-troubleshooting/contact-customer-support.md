@@ -6,9 +6,9 @@ description: Als Adobe Workfront-Kunde können Sie sich telefonisch oder per Onl
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,7 @@ Als [!DNL Adobe Workfront]-Kunde können Sie sich telefonisch oder per Online-Ti
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>Oder</p>
-       <p>Aktuell: Plan</p></td>
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,7 +82,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 >Nur autorisierte Support-Kontakte (oder Support-berechtigte Benutzer) können Online-Support-Tickets einreichen.
 
 
-1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com/de)-Website **[!UICONTROL Support]** oben auf der Seite.
+1. Klicken Sie auf der [[!DNL Experience League]](https://experienceleague.adobe.com)-Website **[!UICONTROL Support]** oben auf der Seite.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -93,10 +90,12 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 
    Auf der [!UICONTROL Support]-Homepage können Sie zu Ihren offenen Support-Fällen navigieren, einen neuen Fall protokollieren, die wichtigsten [!UICONTROL Support]-Artikel anzeigen oder auf zusätzliche Lernquellen zugreifen.
 
+   Weitere Informationen zu Workfront-Schulungen finden Sie unter [Hilfezentrum](https://learning.adobe.com/resources/help-center.html).
+
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Klicken Sie **[!UICONTROL Ticket öffnen]** in der linken Seitenleiste auf.
-Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
+Die Seite [!UICONTROL Erstellung eines ]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
 
    >[!TIP]
    >
@@ -112,7 +111,7 @@ Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können S
 
 1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Fall senden]**.
 
-   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL &#x200B; Fälle] wird angezeigt.
+   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL  Fälle] wird angezeigt.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -138,7 +137,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 1. (Optional) Um das Gehäuse zu schließen, klicken Sie auf die Schaltfläche **[!UICONTROL Fall schließen]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=de)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

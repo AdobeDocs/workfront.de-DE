@@ -6,10 +6,10 @@ description: Portfolios sind Sammlungen von Projekten oder Programmen in Adobe W
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +23,7 @@ Es wird empfohlen, ein Portfolio, das nicht mehr mit zukünftigen Projekten verk
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Standard] </p>
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -68,6 +66,7 @@ Beachten Sie bei der Entscheidung, ob Portfolios gelöscht oder deaktiviert werd
 * Beim Löschen eines Portfolios werden die damit verbundenen Projekte nicht gelöscht.
 * Gelöschte Portfolios können nicht wiederhergestellt werden.
 * Durch die Deaktivierung eines Portfolios wird sichergestellt, dass der Name des Portfolios und seiner Programme beim Erstellen eines Projekts nicht mehr Projekten zugewiesen werden kann.
+* Wenn Sie ein Portfolio deaktivieren, das bereits an ein Projekt angehängt ist, wird es nicht aus dem Projekt entfernt. Wenn Sie ein deaktiviertes Portfolio aus einem Projekt entfernen, müssen Sie es erneut aktivieren, bevor Sie es erneut an das Projekt anhängen können.
 
 ## Portfolio deaktivieren
 
@@ -82,11 +81,17 @@ Wenn Sie ein Portfolio deaktivieren, können Sie weiterhin über den Bereich [!U
 1. Klicken Sie **[!UICONTROL Portfolios]** .
 1. Klicken Sie auf den Namen des Portfolios.
 1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Portfolionamen und klicken Sie dann auf **[!UICONTROL Portfolio deaktivieren]**.
+Das Portfolio wird sofort deaktiviert.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Portfolionamen und dann auf **[!UICONTROL Portfolio aktivieren]**, um es erneut zu aktivieren.
 
 ## Löschen eines Portfolios
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Klicken Sie **[!UICONTROL Portfolios]** .
-1. Wählen Sie das Portfolio aus und klicken Sie dann auf **[!UICONTROL Löschen]**&#x200B; das [!UICONTROL Löschen]-Symbol ![Löschen-Symbol](assets/delete.png).
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Wählen Sie das Portfolio in der Liste aus und klicken Sie dann auf das **[!UICONTROL Löschen]**-Symbol ![Löschen](assets/delete.png).
+   * Klicken Sie auf das Portfolio, um es zu öffnen, und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Portfolionamen und dann auf **Portfolio löschen**.
 1. Klicken Sie **[!UICONTROL Ja, löschen]** zur Bestätigung.
+
+   Das Portfolio wurde gelöscht und kann nicht wiederhergestellt werden.
