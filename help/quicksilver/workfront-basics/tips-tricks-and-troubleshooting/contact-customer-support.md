@@ -95,7 +95,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Klicken Sie **[!UICONTROL Ticket öffnen]** in der linken Seitenleiste auf.
-Die Seite [!UICONTROL Erstellung eines ]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
+Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
 
    >[!TIP]
    >
@@ -111,7 +111,7 @@ Die Seite [!UICONTROL Erstellung eines ]) wird geöffnet. Dort können Sie Ihren
 
 1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Fall senden]**.
 
-   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL  Fälle] wird angezeigt.
+   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL &#x200B; Fälle] wird angezeigt.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)

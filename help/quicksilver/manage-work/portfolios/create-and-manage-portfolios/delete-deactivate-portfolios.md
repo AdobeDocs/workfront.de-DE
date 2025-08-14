@@ -36,7 +36,7 @@ Es wird empfohlen, ein Portfolio, das nicht mehr mit zukünftigen Projekten verk
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p> </td> 
+   <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
