@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Oberflächenaktualisierungen für das Feld Update an Benutzer senden in Gruppen
+
+**Vorschau-Version: 14. August 2025; Produktions-Version: 14. August 2025**
+
+Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisiert, wenn der Zugriff über die Liste der Gruppenmitglieder und die Liste der Untergruppenmitglieder erfolgt.
+
+Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
+
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -85,6 +95,10 @@ Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO a
 ### Aktualisierungen der Benutzeroberfläche zum Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem im Abschnitt Stunden
 
 **Vorschau-Version: 7. August 2025; Produktions-Version: 14. August 2025**
+
+>[!NOTE]
+>
+>Vorübergehend aus Vorschau und Produktion entfernt
 
 Das Erscheinungsbild des Felds Zeit protokollieren wurde aktualisiert, wenn im Abschnitt Stunden die Zeit für ein Projekt, eine Aufgabe oder ein Problem protokolliert wird, sodass sie dem Design anderer Bereiche von Workfront entspricht.
 

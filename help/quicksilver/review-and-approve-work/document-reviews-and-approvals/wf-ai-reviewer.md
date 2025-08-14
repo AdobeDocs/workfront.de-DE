@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
+source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 4%
 
 ---
@@ -53,7 +53,7 @@ Der KI-Reviewer kann die folgenden Dateitypen überprüfen:
 
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio für Performance Marketing. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio für Performance Marketing. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## KI-Reviewer erstellen
@@ -103,3 +103,6 @@ Weitere Informationen zum Anzeigen von Bewertungen und Feedback finden Sie unter
 ![KI-Reviewer-Feedback](assets/ai-reviewer-feedback.png)
 
 
+## Videoanleitung
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
