@@ -57,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bevor Sie beginnen, müssen Sie in GenStudio Foundations Richtlinien für Image-Marken einrichten.
 
-Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Hinzufügen eines KI-Reviewers
 
