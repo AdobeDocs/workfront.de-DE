@@ -6,19 +6,21 @@ description: Workfront AI-Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '620'
+ht-degree: 4%
 
 ---
 
 # Erste Schritte mit dem Workfront AI Reviewer
 
-Mit dem Workfront AI Reviewer können Sie die Inhaltsgeschwindigkeit erhöhen und die Markenkonformität im Prüfungs- und Genehmigungs-Workflow optimieren. Sie können den Genehmigungsvorlagen oder individuellen Überprüfungs- und Genehmigungsanfragen in Workfront KI-Reviewer hinzufügen.
+>[!NOTE]
+>
+>Diese Funktion befindet sich derzeit in der Betaphase.
+
+Mit dem Workfront AI Reviewer können Sie die Inhaltsgeschwindigkeit erhöhen und die Markenkonformität im Prüfungs- und Genehmigungs-Workflow optimieren. Sie können in Workfront KI-Reviewer zu Genehmigungsvorlagen oder individuellen Prüfungs- und Genehmigungsanfragen hinzufügen.
 
 ## Zugriffsanforderungen
 
@@ -51,17 +53,12 @@ Der KI-Reviewer kann die folgenden Dateitypen überprüfen:
 
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio Foundations.
-
-Weitere Informationen zu Markenrichtlinien finden Sie unter
-
-* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Richtlinien hinzufügen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio für Performance Marketing. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## KI-Reviewer erstellen
 
-Sobald in GenStudio Foundations mindestens eine Marke eingerichtet ist, können Workfront-Administratoren im Bereich Setup mit der Erstellung von KI-Reviewern beginnen. Diese KI-Reviewer können dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zugewiesen werden.
+Sobald in GenStudio Foundations mindestens eine Marke eingerichtet ist, können Workfront-Administratoren im Bereich Setup mit der Erstellung von KI-Reviewern beginnen. Diese KI-Reviewer können dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zugewiesen werden. Zurzeit können KI-Prüfer nur anhand von Richtlinien für Bild- und Markenbezeichnungen überprüfen.
 
 Weitere Informationen finden Sie unter [KI-Reviewer erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -71,13 +68,13 @@ Benutzer können KI-Reviewer zu vorhandenen Genehmigungsvorlagen oder zu individ
 
 ### Validierungsvorlagen
 
-Wenn in Ihrem Unternehmen häufig dieselben Personen zur Überprüfung und Genehmigung von Anfragen hinzugefügt werden, können Benutzer von Standardlizenzen im Bereich &quot;Workfront-Setup“ Genehmigungsvorlagen erstellen.
+Wenn in Ihrem Unternehmen häufig dieselben Personen an Prüfungs- und Genehmigungsanfragen beteiligt sind, können Benutzer von Standardlizenzen im Bereich &quot;Workfront-Setup“ Genehmigungsvorlagen erstellen.
 
 Benutzer können KI-Reviewer zu Genehmigungsvorlagen hinzufügen, um automatisch die Markenkonformität zu überprüfen, wenn eine Vorlage zum Erstellen einer Anfrage verwendet wird.
 
 Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Projekts, einer Aufgabe oder eines Problems angewendet werden.
 
-Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![Vorlagenliste mit KI-Reviewern](assets/ai-review-templates.png)
 
@@ -85,7 +82,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage für
 
 Wenn Benutzer einzelne Prüfungs- und Genehmigungsanfragen erstellen, können sie einen KI-Reviewer in mit anderen Teilnehmern hinzufügen oder sie können eine einzelne Anfrage mit nur dem KI-Reviewer erstellen, um die Markenkonformität zu überprüfen.
 
-Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
 ![KI-Prüfer wurde der individuellen Genehmigungsanfrage hinzugefügt](assets/ad-ai-reviewer-to-request.png)

@@ -6,17 +6,19 @@ description: Sobald Sie in GenStudio Foundations mindestens eine Marke eingerich
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 4673049e-119e-4315-95f0-f10d8b286856
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 1%
 
 ---
 
-
 # KI-Reviewer erstellen
+
+>[!NOTE]
+>
+>Diese Funktion befindet sich derzeit in der Betaphase.
 
 Sobald Sie in GenStudio Foundations mindestens eine Marke eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zuweisen können.
 
@@ -53,12 +55,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie in GenStudio Foundations Markenrichtlinien einrichten.
+Bevor Sie beginnen, müssen Sie in GenStudio Foundations Richtlinien für Image-Marken einrichten.
 
-Weitere Informationen zu Markenrichtlinien finden Sie unter
-
-* [GenStudio for Performance Marketing-Marken](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Richtlinien hinzufügen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Hinzufügen eines KI-Reviewers
 
@@ -77,4 +76,3 @@ Weitere Informationen zu Markenrichtlinien finden Sie unter
 
    * [Erstellen einer Validierungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-

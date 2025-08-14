@@ -6,17 +6,19 @@ description: Sekunden nach dem Senden der Genehmigungsanfrage können Sie die Pu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # KI-Reviewer-Punktzahl und -Feedback anzeigen
+
+>[!NOTE]
+>
+>Diese Funktion befindet sich derzeit in der Betaphase.
 
 Sekunden nach dem Senden der Prüfungs- und Genehmigungsanfrage können Sie die Punktzahl und das Feedback des KI-Reviewers im Bedienfeld Dokumentzusammenfassung anzeigen.
 
