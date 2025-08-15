@@ -152,7 +152,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
    ![Kalendersymbol](assets/calendar-tab.png)
 1. Klicken Sie auf **Einstellungen** in der rechten Ecke des Kalenders.
 
-1. Wählen Sie auf **Registerkarte**Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.
+1. Wählen Sie auf **Registerkarte**&#x200B;Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.
    ![Musterleiste](assets/sample-task-for-field-config.png)
 
 1. Wählen Sie auf **Registerkarte** Farbe“ aus, wie Ihre Arbeitselemente angezeigt werden sollen. Wenn Sie beispielsweise **Projekt** auswählen, werden Ihre Arbeitselemente entsprechend der Farbe angezeigt, die dem Projekt in der Arbeitsliste zugewiesen wurde.
