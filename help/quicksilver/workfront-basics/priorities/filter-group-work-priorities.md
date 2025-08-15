@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 4%
 
 ---
@@ -64,8 +64,7 @@ Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
 {{step1-to-priorities}}
 
 1. Klicken **oben links** der Arbeitsliste auf „Filter“.
-1. Klicken Sie **Standardfilter**.
-1. Wählen Sie einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
+1. Wählen Sie im **Standardfilter** einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
    ![filter](assets/filter-new.png)
 
 +++Erweitern um detaillierte Informationen zu den verfügbaren Filtern
@@ -116,12 +115,12 @@ Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
     <td>Zeigt Arbeit nach geplantem Abschlussdatum an</td>
     </tr>
     <tr>
-    <td>Status</td>
-    <td>Zeigt Aufgaben oder Probleme mit dem Status Neu, In Bearbeitung und Abgeschlossen an</td>
+    <td>Mein Fokus</td>
+    <td>Zeigt Aufgaben oder Probleme an, denen Fokusebenen zugewiesen wurden. Fokusebenen werden von den einzelnen Benutzenden zugewiesen und verwaltet.</td>
     </tr>
     <tr>
-    <td>Mein Fokus</td>
-    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Fokusebenen werden von den einzelnen Benutzenden zugewiesen und verwaltet.</td>
+    <td>Status</td>
+    <td>Zeigt Aufgaben oder Probleme in den Status Neu, In Bearbeitung und Abgeschlossen an.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
 >[!NOTE]
 >
->Diese Funktion ist nur für Kundinnen und Kunden im Unified Adobe-Erlebnis mit dem KI-Assistenten verfügbar. Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Diese Funktion ist nur für Kunden im Unified Adobe-Erlebnis mit dem KI-Assistenten verfügbar. Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,18 +145,16 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
    Sie können z. B. Folgendes eingeben:
 
-   * Anzeige verspäteter Aufgaben
-   * Meine obersten Prioritäten anzeigen
-   * Heute fällige Arbeiten anzeigen
-
-</div>
+   * *Anzeige verspäteter Aufgaben*
+   * *Meine obersten Prioritäten anzeigen*
+   * *Heute fällige Arbeiten anzeigen*
 
 ## Arbeiten gruppieren
 
 {{step1-to-priorities}}
 
 1. Klicken **oben links** der Arbeitsliste auf „Gruppen“.
-1. Gruppe auswählen, um die Arbeitsliste zu organisieren
+1. Gruppe auswählen, um die Arbeitsliste zu organisieren.
    ![Gruppen](assets/groups-new.png)
 
 +++Erweitern um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
@@ -165,9 +162,9 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 | Gruppe | Beschreibung |
 |-----------|-------------|
 | Projekt | Dadurch werden Elemente nach Projekt gruppiert. |
+| Fälligkeitsdatum | Dadurch werden Elemente nach Fälligkeitsdatum gruppiert. Fälligkeitsdaten werden durch das geplante Abschlussdatum bestimmt. |
 | Mein Fokus | Dadurch werden Elemente basierend auf der zugewiesenen Fokusebene gruppiert. |
-| Fällige Woche | Dadurch werden Elemente nach der Woche gruppiert, in der sie fällig sind. Fälligkeitsdaten werden durch das geplante Abschlussdatum bestimmt. |
-| Status | Elemente werden nach folgenden Status gruppiert: Neu, In Bearbeitung, Abgeschlossen. <br>Hinweis: Benutzerdefinierte Status können derzeit nicht in Prioritäten verwendet werden. |
+| Status | Elemente werden nach folgenden Status gruppiert: Neu, In Bearbeitung, Abgeschlossen. <br><b>Hinweis</b>: Benutzerdefinierte Status können derzeit nicht in Prioritäten verwendet werden. |
 
 +++
 
@@ -176,14 +173,14 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 Sie können einzelne Arbeitselemente beim Gruppieren nach „Meine Priorität“ oder „Status“ per Drag-and-Drop zwischen Kategorien ziehen.
 
 1. Arbeit gruppieren nach **Status** oder **Meine Priorität**.
-2. Bewegen Sie den Mauszeiger über das Arbeitselement, um das Verschiebesymbol zu finden, und ziehen Sie es in die gewünschte Kategorie.
+2. Bewegen Sie den Mauszeiger über das Arbeitselement, um auf das Symbol **Ziehen** zu klicken und es in die gewünschte Kategorie zu verschieben.
    ![Symbol ziehen](assets/drag-and-drop.png)
 
 ## Arbeit sortieren
 
 ### In Gruppen sortieren
 
-Um Ihre Arbeit innerhalb einer Gruppe zu sortieren, öffnen Sie **Gruppe** und klicken Sie auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
+Um Ihre Arbeit innerhalb einer Gruppe zu sortieren, öffnen Sie **Gruppe** und wählen Sie aus, ob Sie in auf- oder absteigender Reihenfolge sortieren möchten.
 
 ![In Gruppen sortieren](assets/sort-in-groups.png)
 

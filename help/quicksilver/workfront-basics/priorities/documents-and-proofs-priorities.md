@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,18 @@ Sie können ein Dokument aus der Arbeitsliste oder der Seite „Arbeitsaufgabend
 {{step1-to-priorities}}
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
-1. Stellen Sie sicher, dass Sie sich im Bedienfeld auf der Registerkarte „Aufgabe“ oder „Probleme“ befinden.
-1. Klicken Sie auf das Dokumentsymbol in der rechten Seitenleiste.
-1. Klicken Sie auf Datei hochladen und wählen Sie die Datei aus.
-1. (Optional) Führen Sie einen der folgenden Schritte aus:
-   1. Ordner auswählen.
-   1. Kommentar abgeben
-   1. Zusätzliche Dateien hinzufügen.
+1. Stellen Sie sicher, dass Sie sich im Zusammenfassungsbereich auf **Registerkarte** Aufgabe **oder** Probleme“ befinden.
+1. Klicken Sie auf das **Datei hochladen**-Symbol ![Datei hochladen](assets/upload-file-icon.png).
+1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
+oder
+Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
+   ![Dateien hinzufügen](assets/add-files.png)
+1. (Optional) Hinzufügen eines Kommentars.
+1. (Optional) Weitere Dateien hinzufügen.
+
+   >[!NOTE]
+   >
+   >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
 1. Klicken Sie **Hochladen**.
 
 ### Details zum Arbeitselement
@@ -86,12 +91,18 @@ Sie können ein Dokument aus der Arbeitsliste oder der Seite „Arbeitsaufgabend
 {{step1-to-priorities}}
 
 1. Klicken Sie in der Arbeitsliste auf den Namen des Arbeitselements.
-1. Klicken Sie auf die Registerkarte Dokument oben im Bildschirm.
-1. Klicken Sie auf **Dokument hochladen** > **Dokument**.
-1. (Optional) Führen Sie einen der folgenden Schritte aus:
-   1. Ordner auswählen.
-   1. Kommentar abgeben
-   1. Zusätzliche Dateien hinzufügen.
+1. Klicken Sie auf **Registerkarte** Dokumente“ oben im Bildschirm.
+1. Klicken **oben rechts auf** Dokument hochladen“ und wählen Sie dann **Dokument** aus.
+1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
+oder
+Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
+   ![Dateien hinzufügen](assets/add-files.png)
+1. (Optional) Hinzufügen eines Kommentars.
+1. (Optional) Weitere Dateien hinzufügen.
+
+   >[!NOTE]
+   >
+   >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
 1. Klicken Sie **Hochladen**.
 
 
@@ -105,16 +116,17 @@ Sie können einen Korrekturabzug aus einem Dokument über die Arbeitsliste oder 
 {{step1-to-priorities}}
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
-1. Stellen Sie sicher, dass Sie sich im Bedienfeld auf der Registerkarte „Aufgabe“ oder „Probleme“ befinden.
-1. Klicken Sie auf **Dokument** in der rechten Seitenleiste.
-1. Klicken Sie auf **Datei hochladen** und wählen Sie dann die Datei aus.
+1. Stellen Sie sicher, dass Sie sich im Zusammenfassungsbereich auf **Registerkarte** Aufgabe **oder** Probleme“ befinden.
+1. Klicken Sie auf **Dokumente**-Symbol ![Dokumente](assets/show-document-icon.png) in der rechten Seitenleiste.
+1. Klicken Sie auf das **Datei hochladen**-Symbol ![Datei hochladen](assets/upload-file-icon.png) und wählen Sie dann die Datei aus.
 
    >[!NOTE]
    >
    >Sie müssen das Dokument hochladen, bevor Sie den Korrekturabzug erstellen können.
 
 
-1. Nachdem die Datei hochgeladen wurde, klicken Sie auf **Korrekturabzug erstellen**.
+1. Wählen Sie die Datei nach dem Hochladen im Abschnitt **Dokumente** aus.
+1. Klicken **oben rechts** Feld „Dateidetails“ auf „Korrekturabzug erstellen“.
 1. Wählen Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ Sie können einen Korrekturabzug aus einem Dokument über die Arbeitsliste oder 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Einfacher Korrekturabzug</td> 
+      <td role="rowheader"><b>Einfacher Korrekturabzug</b></td> 
       <td>Mit dieser Option wird ein Korrekturabzug ohne angehängten Workflow erstellt und die Standardeinstellungen für den Korrekturabzug angewendet. Sie können die Standardeinstellungen für den Korrekturabzug aktualisieren oder einen Workflow hinzufügen, nachdem Sie den Korrekturabzug erstellt haben. Weitere Informationen zu Korrekturabzugseinstellungen finden Sie unter <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Bearbeiten von Korrekturabzugseinstellungen</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Erweiterter Korrekturabzug</td> 
+      <td role="rowheader"><b>Erweiterter Korrekturabzug</b></td> 
       <td> <p>Mit dieser Option können Sie einen einfachen oder erweiterten Workflow konfigurieren und die Korrekturabzugseinstellungen für den von Ihnen erstellten Korrekturabzug ändern. Weitere Informationen finden Sie unter </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow</a> </p> </li> 
@@ -142,8 +154,8 @@ Sie können einen Korrekturabzug aus einem Dokument über die Arbeitsliste oder 
 {{step1-to-priorities}}
 
 1. Klicken Sie in der Arbeitsliste auf den Namen des Arbeitselements.
-1. Klicken Sie auf **Registerkarte** Dokument“ oben im Bildschirm.
-1. Klicken Sie auf **Dokument hochladen** > **Testversand**.
+1. Klicken Sie auf **Registerkarte** Dokumente“ oben im Bildschirm.
+1. Klicken **oben rechts auf** Dokument hochladen“ und wählen Sie dann **Testversand** aus.
 1. Erstellen Sie einen Korrekturabzug wie in beschrieben.
    [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

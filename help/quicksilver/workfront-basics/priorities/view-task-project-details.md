@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -74,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
    * Zeit erfassen
    * Datei hinzufügen
-   * <span class="preview">Gehen Sie direkt zum Projekt</span>
+   * Direkt zum Projekt wechseln
 
    ![Projektdetails](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
 
-1. Problem ist standardmäßig ausgewählt. Hier können Sie
+1. Problem ist standardmäßig ausgewählt. Hier können Sie:
    * Projekt- und Problemdetails und -beschreibung anzeigen und bearbeiten
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
    * Dokumente anzeigen und hinzufügen
@@ -116,7 +116,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Echtzeitaktualisierungen können auf der Detailseite einer Aufgabe oder eines Problems angezeigt werden. Mit Echtzeit-Präsenzindikatoren können Sie auch sehen, ob andere Benutzer die Seite gleichzeitig mit Ihnen ansehen.
 
-## Arbeitsaufgabendetails anzeigen
+### Arbeitsaufgabendetails anzeigen
 
 {{step1-to-priorities}}
 

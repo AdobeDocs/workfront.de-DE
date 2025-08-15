@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Prioritäten: Bevorstehende Versionen](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Erste Schritte mit Prioritäten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Projekt- und Arbeitselementdetails in Prioritäten anzeigen](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [Filtern und Gruppieren Ihrer Arbeit in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)

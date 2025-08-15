@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ Sie können Kommentare hinzufügen und Kommentare und Systemaktualisierungen in 
 
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie den **Updates** in der rechten unteren Ecke des Bildschirms.
-1. (Optional) Verwenden Sie die **Kommentare**, um Aktualisierungen vorzunehmen, die andere im Arbeitselement vorgenommen haben.
+1. (Optional) Verwenden Sie die **Kommentare**, um Aktualisierungen anzuzeigen, die andere im Arbeitselement vorgenommen haben.
 1. (Optional) Auf der Registerkarte **Systemaktivität** können Sie die Systemaktivität im Zusammenhang mit dem Arbeitselement anzeigen.
-1. (Optional) Um einen Kommentar hinzuzufügen, wechseln Sie zur Registerkarte **Kommentar** und beginnen Sie mit der Eingabe in das Feld Neuer Kommentar . Klicken Sie **Absenden** wenn Sie fertig sind.
+1. (Optional) Um einen Kommentar hinzuzufügen, wechseln Sie zur Registerkarte **Kommentar** und beginnen Sie mit der Eingabe in das Feld **Neuer Kommentar**. Klicken Sie **Absenden** wenn Sie fertig sind.
    ![Bereich Aktualisierungen](assets/updates-area-in-overview.png)
 
 ## Auf einen Kommentar antworten
@@ -101,12 +101,12 @@ Sie können auf einen Kommentar in einem Arbeitselement antworten:
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie den **Updates** in der rechten unteren Ecke des Bildschirms.
 1. Suchen Sie auf **Registerkarte** den Kommentar, auf den Sie antworten möchten, und klicken Sie dann auf **Antworten**.
-1. (Bedingt) Wenn Sie antworten möchten, um den Inhalt einer Nachricht in Ihre Antwort zu übernehmen, klicken Sie auf das **Mehr** Menüsymbol ![Mehr Menü](assets/more-icon.png) neben dem Nachrichtentext und wählen Sie **Antwort zitieren**.
+1. (Bedingt) Wenn Sie den Inhalt einer Nachricht in Ihre Antwort übernehmen möchten, klicken Sie auf das **Mehr** Menüsymbol ![Mehr Menü](assets/more-icon.png) neben dem Nachrichtentext und wählen Sie **Antwort zitieren**.
 
 1. Geben Sie Ihre Antwort ein und klicken Sie dann auf **Senden**.
 
    >[!IMPORTANT]
    >
-   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das Menü Mehr in der oberen rechten Ecke des Kommentars und dann auf Bearbeiten.
+   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das **Mehr**-Menü in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.
 
    ![Auf Kommentar antworten](assets/reply-to-comment.png)

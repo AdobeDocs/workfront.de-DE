@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,8 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in die
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: </p>
-   <p>Light oder höher für die Protokollierung von Stunden für eine Aufgabe oder ein Problem</p>
-   <p>Aktuell: 
-   <p>Arbeit oder höher zum Protokollieren von Stunden für eine Aufgabe oder ein Problem</p> </td> 
+   <td> <p>Neu: Leicht oder höher, um Stunden für eine Aufgabe oder ein Problem zu protokollieren</p>
+   <p>Aktuell: Arbeit oder höher zum Protokollieren von Stunden für eine Aufgabe oder ein Problem</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -61,7 +59,8 @@ Sie können die Zeit direkt in der Arbeitsliste protokollieren:
 
 {{step1-to-priorities}}
 
-1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Zeit**.
+1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) .
+1. Wählen Sie **Zeit erfassen**.
    ![Update, Protokollierungszeit und Upload](assets/update-log-upload.png)
 1. Wählen **im Dropdown** Menü „Stundentyp“ den entsprechenden Stundentyp aus. Stundentypen sind je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, verfügbar, wie unter Definieren von Stundentypen und Verfügbarkeit beschrieben.
 
@@ -77,7 +76,7 @@ Sie können die Zeit in einem einzelnen Arbeitselement protokollieren:
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
+1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Klicken **Abschnitt „Schnellaktionen** auf **Zeit protokollieren**.
 1. Wählen **im Dropdown** Menü „Stundentyp“ den entsprechenden Stundentyp aus. Stundentypen sind je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, verfügbar, wie unter Definieren von Stundentypen und Verfügbarkeit beschrieben.
 1. (Bedingt) Wenn der Workfront- oder Gruppenadministrator bzw. die Gruppenadministratorin die Einstellung Aufgabengebiete zu Stundeneinträgen manuell hinzufügen aktiviert hat, wählen Sie aus dem Dropdown-Menü ein Aufgabengebiet aus. Die Funktion, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen im -Objekt keine Rolle zugewiesen ist, wird Ihre Primäre Rolle als Standard angezeigt. Wenn Ihnen keine Primäre Funktion zugewiesen wurde, wird kein Aufgabengebiet angezeigt.

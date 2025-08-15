@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
+1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Klicken Sie **Abschnitt &quot;**&quot; auf **Link hinzufügen**.
 1. Fügen Sie die URL in das Feld **Link hinzufügen** ein.
 1. Klicken Sie auf **Speichern**.
@@ -71,16 +71,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
+1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie **Abschnitt &quot;**&quot; den Link, den Sie kopieren möchten.
-1. Klicken Sie auf das Kopiersymbol ![Kopiersymbol](assets/copy-icon.png).
+1. Klicken Sie auf das **Kopieren**![ Kopieren](assets/copy-icon.png)Symbol.
    ![Link kopieren](assets/copy-link.png)
 
 ## Schnelllink öffnen
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
+1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie **Abschnitt** Schnelllinks“ den Link, den Sie öffnen möchten.
 1. Klicken Sie auf den Link. Der Link wird in einer neuen Registerkarte geöffnet.
    ![Link öffnen](assets/open-link.png)
@@ -89,7 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
+1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Klicken **oben rechts** Bildschirm auf „Details bearbeiten“.
    ![Details bearbeiten](assets/edit-details.png)
-1. Suchen Sie den Link, den Sie entfernen möchten, und klicken Sie dann auf das Löschsymbol ![Löschsymbol](assets/delete-icon.png).
+1. Suchen Sie den Link, den Sie entfernen möchten, und klicken Sie dann auf das Symbol **Löschen** ![Löschen](assets/delete-icon.png).
