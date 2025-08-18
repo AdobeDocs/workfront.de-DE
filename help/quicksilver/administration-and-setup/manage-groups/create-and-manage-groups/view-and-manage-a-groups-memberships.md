@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Wählen Sie einen oder mehrere Benutzernamen aus und klicken Sie dann auf <strong>Exportieren</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exportieren Sie die Daten als PDF-, Excel- oder tabulatorgetrennte Datei.</p> <p>Weitere Informationen zum Exportieren von Daten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportieren von Daten</a>.</p> </li> 
+        <li value="2"> <p>Exportieren Sie die Daten als durch PDF, Excel oder Tabulatoren getrennte Datei.</p> <p>Weitere Informationen zum Exportieren von Daten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportieren von Daten</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -116,8 +116,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Kommentar an Gruppenmitglieder senden</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Wählen Sie einen oder mehrere Benutzernamen aus und klicken Sie dann auf <strong>Aktualisieren</strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Kommentar eingeben.</li> 
+        <li value="1">Wählen Sie mindestens ein Gruppenmitglied aus und klicken Sie dann in der Symbolleiste <strong>Aktualisierung an Benutzer </strong>).</li> 
+        <li value="2"><p>Geben Sie den Kommentar ein, den Sie den Benutzern und dem Bereich Aktualisierungen ihrer Benutzerprofile senden möchten.</p>
+        <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Senden von Direktnachrichten an andere Benutzer</a>.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

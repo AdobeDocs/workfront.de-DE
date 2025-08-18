@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
      Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) oder [Benutzerprofile stapelweise bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf Aktualisieren ![Kommentarsymbol](assets/comment-icon.png), um ihren Benutzerprofilen einen Kommentar hinzuzufügen.
+   * Wählen Sie eine beliebige Anzahl von Untergruppenmitgliedern in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden**, um ihren Benutzerprofilen einen Kommentar hinzuzufügen.
 
      Der oder die Benutzenden erhalten eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Bereich Aktualisierungen im Benutzerprofil angezeigt.
+
+     Weitere Informationen finden Sie unter [Senden von Direktnachrichten an andere Benutzer](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
 
    * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf Deaktivieren ![Benutzer deaktivieren](assets/deactivate-user.png) oder Aktivieren ![Benutzer aktivieren](assets/activate-user.png).
 
