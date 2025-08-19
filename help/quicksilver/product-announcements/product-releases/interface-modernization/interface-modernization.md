@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierungen der Benutzeroberfläche für die Seite „Überprüfungs- und Genehmigungsbenachrichtigungen“ im Setup
+
+**Vorschau-Version: 18. August 2025; Produktions-Version: 18. August 2025**
+
+Die Seite zu den Überprüfungs- und Genehmigungsbenachrichtigungen wurde durch ein moderneres Design ergänzt, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Überprüfen und bestätigen.
+
+### Aktualisierungen der Benutzeroberfläche für die Dialogfelder „Rechnungsnachweise hinzufügen“ und „Rechnungsnachweise bearbeiten“
+
+**Vorschau-Version: 14. August 2025; Produktions-Version: 18. August 2025**
+
+Die Dialogfelder zum Hinzufügen und Bearbeiten von Rechnungsnachweisen wurden durch ein moderneres Design ergänzt, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Projekte > Projekt auswählen > Rechnungsnachweise > Rechnungsnachweis hinzufügen oder bearbeiten Sie einen Rechnungsnachweis
+
+Weitere Informationen finden Sie [Rechnungsnachweise erstellen](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
 ### Oberflächenaktualisierungen für das Feld Update an Benutzer senden in Gruppen
 
@@ -43,6 +61,7 @@ Das Erscheinungsbild der kürzlich gelöschten Elemente im Bereich Setup wurde a
 Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Papierkorb > Kürzlich gelöscht.
 
 Weitere Informationen finden Sie unter [Wiederherstellen gelöschter Elemente](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Bedingungen“ im Setup
 
@@ -84,7 +103,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Änderungsverfolgung >
 
 ### Aktualisierung der Benutzeroberfläche auf der Seite „Benutzer für SSO aktualisieren“ im Setup
 
-**Vorschau-Version: 22. Juli 2025; Produktionsversion: 28. Juli 2025**
+**Vorschau-Version: 22. Juli 2025; Produktionsversion: 18. August 2025**
 
 Wir haben die Seite Benutzer für SSO aktualisieren mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 

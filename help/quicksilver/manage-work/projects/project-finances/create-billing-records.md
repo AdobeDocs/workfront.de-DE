@@ -5,7 +5,7 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
 1. Wählen Sie auf **Seite** ein Projekt aus.
 1. Klicken Sie **linken** auf Rechnungsnachweise .
 1. Klicken Sie **Neuer Rechnungsnachweis**.
-1. Geben Sie **Feld „Neuer**&quot;, das angezeigt wird, die folgenden Informationen an:
+1. Geben Sie **Feld „Neuer**&quot; die folgenden Informationen ein:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -87,11 +87,11 @@ Beachten Sie bei der Planung der Verwendung von Rechnungsnachweisen Folgendes:
       <td>(Erforderlich) Geben Sie eine Beschreibung für den Rechnungsnachweis ein.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fakturastatus</td> 
+      <td role="rowheader">Abrechnungsstatus</td> 
       <td> <p>Wählen <strong>Nicht in Rechnung gestellt</strong> wenn dieser Datensatz noch nicht in Rechnung gestellt wurde.</p> <p>Wählen Sie <strong>In Rechnung gestellt</strong> aus, wenn der Rechnungsnachweis in Rechnung gestellt wurde.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fakturierungsdatum</td> 
+      <td role="rowheader">Abrechnungsdatum</td> 
       <td>Wählen Sie das Datum aus, an dem dieser Rechnungsnachweis in Rechnung gestellt wurde, indem Sie auf das Kalendersymbol klicken.</td> 
      </tr> 
      <tr> 
