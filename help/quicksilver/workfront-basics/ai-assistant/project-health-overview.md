@@ -5,7 +5,9 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 2024f19709f7859ed6f19b830321d9e4c09e71f8
+hide: true
+hidefromtoc: true
+source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
@@ -286,7 +288,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts für
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 1. Klicken Sie oben rechts auf **Neues Dashboard**.
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 1. Klicken Sie auf der linken Seite auf **Tabelle**.
