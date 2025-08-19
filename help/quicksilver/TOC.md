@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
 workflow-type: tm+mt
-source-wordcount: '13424'
+source-wordcount: '13427'
 ht-degree: 2%
 
 ---
@@ -885,6 +885,7 @@ ht-degree: 2%
       * [Verwenden des KI-Assistenten für die Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Automatisches Ausfüllen einer Anfrage mit KI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+      * [Projektstatus - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
    * Arbeitselemente aktualisieren und Aktualisierungen anzeigen {#update-work-items-view-updates}
       * [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Abschnitt „Aktualisierungen“ - Übersicht](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -911,7 +912,7 @@ ht-degree: 2%
       * [Übersicht über In-App-Benachrichtigungen](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [In-App-Benachrichtigungen anzeigen und verwalten](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
       * [E-Mail-Versand über die Sandbox-Vorschau-Umgebung aktivieren](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
-      * [Ereignisbenachrichtigungen](workfront-basics/using-notifications/event-notifications.md)
+      * [Ereignis-Benachrichtigungen](workfront-basics/using-notifications/event-notifications.md)
       * [Erinnerungsnachricht an ein Objekt anhängen](workfront-basics/using-notifications/attach-reminder-notification-object.md)
       * [Ereignisbenachrichtigung: Artikelindex](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
       * [Benachrichtigungen: Aktion erforderlich](workfront-basics/using-notifications/notifications-action-needed.md)
@@ -1504,7 +1505,7 @@ ht-degree: 2%
    * Tipps, Tricks und Fehlerbehebung für Teams und Gruppen {#tips-tricks-people-teams-groups}
       * [Tipps, Tricks und Fehlerbehebung für Teams und Gruppen](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Bereits verwendeter Benutzername](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Bericht- erstellung {#reporting}
+* Reporting {#reporting}
    * [Berichte und Dashboards: Artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Dashboards für die Arbeitsfläche {#canvas-dashboards}
       * [Arbeitsflächen-Dashboards - Übersicht](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
@@ -1799,7 +1800,7 @@ ht-degree: 2%
    * [Eingeschränkte Dokument- und Korrekturabzugsentscheidung für nicht bezahlte Benutzer - Überblick](review-and-approve-work/proof-doc-decision-limits.md)
    * Arbeitsgenehmigungen {#work-approvals}
       * [Arbeitsgenehmigungen](review-and-approve-work/manage-approvals/manage-approvals.md)
-      * [Übersicht über den Genehmigungsprozess](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
+      * [Überblick über den Genehmigungsprozess](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [Dokumentgenehmigungen anfordern](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Genehmigende Arbeit](review-and-approve-work/manage-approvals/approving-work.md)
       * [Genehmigungen anzeigen](review-and-approve-work/manage-approvals/view-approvals.md)
@@ -2460,8 +2461,8 @@ ht-degree: 2%
       * Workfront Proof-API {#wf-proof-api}
          * [Workfront Proof-API](workfront-proof/wp-integrations/api/wp-api.md)
          * [Die Workfront Proof-API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
-         * [Box](workfront-proof/wp-integrations/box/box.md)
+      * Feld {#box}
+         * [Feld](workfront-proof/wp-integrations/box/box.md)
          * [Einführung in die Integration von Workfront Proof und Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Erstellen eines Korrekturabzugs über Ihr Box-Konto](workfront-proof/wp-integrations/box/create-proof-box-account.md)
          * [Synchronisieren von Box-Ordnern mit Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
