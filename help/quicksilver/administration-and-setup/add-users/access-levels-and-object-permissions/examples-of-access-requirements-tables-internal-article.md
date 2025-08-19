@@ -213,12 +213,12 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<p>Beliebiges Adobe Workfront-Paket oder Adobe Workfront-Workflow-Paket</p> (***Das ist zu viel****)
+<p>Beliebiges Adobe Workfront-Paket oder Adobe Workfront-Workflow-Paket</p> (***Das ist zu viel**&#x200B;**)
 
 Und
 <p>Beliebiges Adobe Workfront-Planungspaket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-Plattform (****Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???*****)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
    <td> 
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
