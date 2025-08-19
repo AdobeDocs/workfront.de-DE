@@ -6,9 +6,9 @@ description: Sie können eine Vorlagenaufgabe in dieselbe Vorlage oder in eine a
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2091'
 ht-degree: 3%
 
 ---
@@ -35,13 +35,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
-</tr> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für eine Vorlage und die Vorlagenaufgabe </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für eine Vorlage.</p> <p>Sie können eine Vorlagenaufgabe nicht freigeben.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +122,7 @@ Das Feld Vorlagenaufgabe kopieren wird geöffnet.
       <td>Deaktivieren Sie diese Option, um alle Informationen aus der Vorlagenaufgabe zu entfernen, wenn Sie sie an den neuen Speicherort kopieren. </td> 
      </tr>
      <tr> 
-      <td role="rowheader">Einschränkung</td> 
+      <td role="rowheader">Beschränkung</td> 
       <td> <p>Die Vorlagenaufgabe-Einschränkung wird auf So bald wie möglich oder So spät wie möglich basierend auf der Einstellung des Vorlagenzeitplanmodus festgelegt.</p> <p> Wenn diese Option aktiviert ist, wird die aktuelle Einschränkung der Vorlagenaufgabe auf die kopierte Vorlagenaufgabe übertragen. </p> 
       <p><b>NOTIZ</b>
 
@@ -247,7 +245,7 @@ Das Feld Vorlagenaufgabe verschieben wird geöffnet.
       <td>Deaktivieren Sie diese Option, um alle Informationen aus der Vorlagenaufgabe zu entfernen, wenn Sie sie an die neue Position verschieben. </td> 
      </tr>
      <tr> 
-      <td role="rowheader">Einschränkung</td> 
+      <td role="rowheader">Beschränkung</td> 
       <td> <p>Die Vorlagenaufgabe-Einschränkung wird auf So bald wie möglich oder So spät wie möglich basierend auf der Einstellung des Vorlagenzeitplanmodus festgelegt.</p> <p> Wenn diese Option aktiviert ist, wird die aktuelle Einschränkung der Vorlagenaufgabe auf die verschobene Vorlagenaufgabe übertragen. </p>
 
    <p><b>NOTIZ</b>

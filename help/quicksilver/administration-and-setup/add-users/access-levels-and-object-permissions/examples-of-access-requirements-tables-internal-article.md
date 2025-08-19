@@ -4,10 +4,10 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 3%
+source-wordcount: '630'
+ht-degree: 2%
 
 ---
 
@@ -213,12 +213,9 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<p>Beliebiges Adobe Workfront-Paket oder Adobe Workfront-Workflow-Paket</p> (***Das ist zu viel**&#x200B;**)
-
-Und
-<p>Beliebiges Adobe Workfront-Planungspaket</p> 
+<p>Jedes Adobe Workfront Workflow-Paket und jedes Adobe Workfront Planning-Paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-Plattform (****Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???*****)</p></td> 
    <td> 
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
@@ -262,12 +259,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>Produkte</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] Paket</p> </td> 
+<td> <p>[!DNL Adobe Workfront] Paket</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 

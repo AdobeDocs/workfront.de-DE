@@ -7,9 +7,9 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Sie können Vorlagenaufgaben bearbeiten oder Vorlagenaufgaben stapelweise bearbe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Sie können Vorlagenaufgaben bearbeiten oder Vorlagenaufgaben stapelweise bearbe
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen </td> 
-   <td> <p>Verwalten von Berechtigungen für eine Vorlage. </p> <p>Beitragen oder höhere Berechtigungen für die Vorlagenaufgabe.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für eine Vorlage. </p> <p>Sie können eine Vorlagenaufgabe nicht freigeben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,7 +144,7 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
       <td role="rowheader"><strong>Priorität</strong> </td> 
       <td> <p>Dies ist eine visuelle Markierung, mit der Sie Ihre Vorlagenaufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-        <li> <p><strong>Keine</strong> </p> </li> 
+        <li> <p><strong>Kein</strong> </p> </li> 
         <li> <p><strong>Niedrig</strong> </p> </li> 
         <li> <p> <b>normal</b></p> </li> 
         <li> <p><b>Hoch</b> </p> </li> 
@@ -266,7 +266,7 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
 ### Einstellungen {#settings}
 
 1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe, wie oben beschrieben.
-1. Klicken Sie **Einstellungen**.
+1. Klicken Sie auf **Einstellungen**.
 
    ![Einstellungen für Vorlagenaufgaben bearbeiten](assets/edit-template-tasks-settings-classic-350x231.png)
 
