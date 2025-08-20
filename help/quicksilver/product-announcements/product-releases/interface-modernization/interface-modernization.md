@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Weitere Informationen finden Sie unter [Verwalten von Stundentypen](/help/quicks
 
 ### Aktualisierung der Benutzeroberfläche auf der Seite „Auditprotokolle“ im Setup
 
-**Vorschau-Version: 22. Juli 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 22. Juli 2025; Produktionsversion: 28. Juli 2025**
 
 Wir haben die Seite „Audit-Protokolle“ im Setup aktualisiert, sodass sie mit anderen Bereichen der Anwendung übereinstimmt.
 

@@ -6,9 +6,9 @@ description: Damit Änderungen, die Sie an den Arbeitszeittabellen-Profilen vorg
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Ar
    Wenn Sie Arbeitszeittabellen generieren, die von einer bestimmten Gruppe verwendet werden, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 
 1. Klicken Sie **Arbeitszeittabellen-Profile**.
+1. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) und dann **Arbeitszeittabellen erstellen**.
+
 1. Klicken Sie oben in der Liste der Arbeitszeittabellen-Profile auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) für Arbeitszeittabellen-Profile auf Systemebene oder **Mehr** für Arbeitszeittabellen-Profile und klicken Sie dann auf **Arbeitszeittabellen erstellen**.
 
    Neue Arbeitszeittabellen werden für bis zu zwei Zeiträume für Benutzende erstellt, die mit Arbeitszeittabellen-Profilen verknüpft sind.

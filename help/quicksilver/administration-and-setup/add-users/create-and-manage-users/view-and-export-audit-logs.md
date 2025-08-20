@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 2%
 
 ---
 
@@ -77,16 +77,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Die Optionen im Dropdown-Menü Aktionstyp variieren je nach ausgewähltem Auditprotokoll.
 
-   ![Auditprotokolle](assets/audit-logs.jpg)
+   ![Administratorprotokolle](assets/audit-logs.png)
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 1. (Optional) Klicken Sie auf **Filter löschen**, um die an den Filtern vorgenommenen Änderungen zurückzusetzen.
 
 ## Auditprotokolle exportieren
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **System > Auditprotokolle**.
+1. Klicken Sie im linken Bedienfeld auf **System > Änderungs-Tracking > Auditprotokolle**.
 
 1. Wählen Sie **Dropdown-Menü** Protokolltyp) ein Administratorprotokoll aus.
 
