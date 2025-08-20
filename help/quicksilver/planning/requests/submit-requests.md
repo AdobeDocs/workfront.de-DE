@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto">
  <col>
@@ -61,8 +61,8 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
    <td>
 <p>Einer der folgenden Workfront-Pläne:</p>
 <ul><li>Auswählen</li>
-<li>Erstklassig</li>
-<li>Ultimativ</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
    </td>
 <tr>
@@ -162,7 +162,7 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 
 1. Klicken Sie auf **Neue Anfrage**.
 
-   ![Neues Anfragefeld mit einheitlichen Workfront- und Planungskarten](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    Das **Neue Anfrage** wird mit den folgenden Informationen geöffnet:
 
@@ -171,13 +171,13 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in den Abschnitten „Letzte“ oder „Alle Anfrageformulare“ auf die Karte für eines der Planungsanfrageformulare
+   * Wählen Sie die Planning-Anfrageformulare in den Abschnitten „Letzte“ oder „Alle Anfrageformulare“ aus
    * Geben Sie zunächst den Namen eines Planungsanfrageformulars in das Suchfeld ein und klicken Sie dann auf die Karte, wenn sie in der Liste angezeigt wird.
 
    Das Anfrageformular wird geöffnet.
 
 1. Aktualisieren Sie die im Anfrageformular verfügbaren Felder. Felder mit einem roten Sternchen sind Pflichtfelder.
-1. Klicken Sie **Senden**.
+1. Klicken Sie auf **Senden**.
 
    Das Anfrageformular wird geschlossen und Sie kehren zum Bereich **Anfragen** zurück.
 
@@ -272,7 +272,7 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
    >
    >Es wird empfohlen, so viele Felder wie möglich in Ihrer Anfrage zu aktualisieren, damit der neue Datensatz identifizierbar wird, wenn er zum Datensatztyp in Workfront Planning hinzugefügt wird.
 
-1. Klicken Sie **Senden**.
+1. Klicken Sie auf **Senden**.
 
    Ihr Formular wird übermittelt und Folgendes geschieht:
 
