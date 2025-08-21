@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,8 @@ Um ein Projekt oder eine Vorlage als Anfrage-Warteschlange einzurichten, müssen
 In diesem Artikel wird beschrieben, wie Sie ein Projekt als Anfrage-Warteschlange konfigurieren können, in der Benutzer Anfragen senden können. Das Einrichten von Warteschlangendetails für eine Vorlage ähnelt dem Einrichten dieser Details für das Projekt.
 
 Weitere Informationen zum Senden einer neuen Anfrage an eine Anfrage-Warteschlange finden Sie unter [Anforderungen kopieren und senden](../create-requests/copy-and-submit-requests.md).
+
+Informationen zum Konfigurieren eines Anfrageformulars in Workfront Planning finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Zugriffsanforderungen
 
@@ -338,7 +340,7 @@ Wenn Sie ein Projekt als Anfrage-Warteschlange einrichten, muss der Projektstatu
 So erstellen Sie eine Anfrage-Warteschlange:
 
 1. Wechseln Sie zu dem Projekt, das Sie als Anfrage-Warteschlange einrichten möchten.
-1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;**Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
+1. (Optional) Klicken Sie **linken Bereich auf****Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 
    Dadurch wird der Abschnitt Warteschlangendetails geöffnet.
@@ -354,7 +356,7 @@ So erstellen Sie eine Anfrage-Warteschlange:
 
      | Wer Anfragen eingeben kann | Beschreibung |
      |---|---|
-     | Jeder | Jeder Workfront-Benutzer mit einem aktiven Konto kann diese Anfrage-Warteschlange einsehen und ihr Anfragen hinzufügen |
+     | Jede Person | Jeder Workfront-Benutzer mit einem aktiven Konto kann diese Anfrage-Warteschlange einsehen und ihr Anfragen hinzufügen |
      | Benutzer mit Ansichtszugriff auf dieses Projekt | Benutzende mit Anzeigeberechtigungen für das Projekt können Anfragen anzeigen und zu dieser Warteschlange hinzufügen |
      | Personen im Unternehmen dieses Projekts | Benutzer, die zu dem Unternehmen gehören, das mit diesem Projekt verknüpft ist, können Anfragen anzeigen und zu dieser Warteschlange hinzufügen. Wenn dem Projekt eine Firma zugeordnet ist, wird der Name der Firma nach dieser Einstellung in Klammern aufgeführt. |
      | Personen in der Gruppe dieses Projekts | Benutzer, die zu der mit diesem Projekt verknüpften Gruppe gehören, können Anfragen anzeigen und zu dieser Warteschlange hinzufügen. Wenn mit dem Projekt eine Gruppe verknüpft ist, wird der Name der Gruppe nach dieser Einstellung in Klammern in grauer Schriftart aufgeführt. |
@@ -412,7 +414,7 @@ So erstellen Sie eine Anfrage-Warteschlange:
           </tr> 
           <tr> 
            <td> <p>Anzeigen und Zulassen, dass Benutzer die vorkonfigurierte Dropdown-Liste Themengruppe ändern</p> </td> 
-           <td> <p>Verwenden Sie den Parameter „path“, indem Sie dem <code>src URL</code> den Parameter <code>showPreSelectedOptions=true</code> hinzufügen.</p> </td> 
+           <td> <p>Verwenden Sie den Parameter „path“, indem Sie dem <code>showPreSelectedOptions=true</code> den Parameter <code>src URL</code> hinzufügen.</p> </td> 
           </tr> 
           <tr> 
            <td> <p>Erkennen, wann das Formular gesendet wurde</p> </td> 
@@ -445,8 +447,8 @@ So erstellen Sie eine Anfrage-Warteschlange:
 
       * Tage
       * Stunden
-      * Minuten
-      * Wochen
+      * Minutes
+      * Weeks
 
    Die Standarddauer ist die Zeit, die normalerweise benötigt wird, um ein an diese Anfrage-Warteschlange gesendetes Problem zu beheben. Dies wird zur Standardeinstellung für alle eingehenden Probleme und kann manuell geändert werden.
 Die Standarddauer eines Problems entspricht den für das Problem geplanten Stunden. Das geplante Abschlussdatum der Anfrage wird auf Grundlage dieses Felds berechnet.\

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Sie können ein Anfrageformular erstellen und es mit einem Datensatztyp in Adobe Workfront Planning verknüpfen. Sie können das Formular dann für andere freigeben und diese können Anfragen zum Erstellen von Datensätzen senden.
+Sie können ein Anfrageformular erstellen und es mit einem Datensatztyp in Adobe Workfront Planning verknüpfen. Sie können das Formular dann für andere freigeben und diese können Anfragen zum Erstellen von Datensätzen dieses Typs senden.
 
 In diesem Artikel wird beschrieben, wie ein Workspace-Manager ein Anfrageformular erstellen kann, das mit einem Datensatztyp verknüpft ist.
 
@@ -34,7 +34,7 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto">
  <col>
@@ -55,8 +55,8 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
    <td>
 <p>Einer der folgenden Workfront-Pläne:</p>
 <ul><li>Auswählen</li>
-<li>Erstklassig</li>
-<li>Ultimativ</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
    </td>
 
@@ -135,7 +135,11 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
    * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
 
-## Erstellen eines Anfrageformulars für einen Datensatztyp
+## Erstellen eines Anfrageformulars
+
+Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Formular verknüpft ist, <span class="preview">oder aus dem Bereich Anfragen von Workfront.</span>
+
+### Erstellen eines Anfrageformulars aus einem Datensatztyp
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
 1. Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und klicken Sie dann auf **Anforderungsformular erstellen** oder **Anforderungsformulare verwalten**, wenn Sie bereits über ein Formular verfügen und weitere erstellen möchten.
 1. (Bedingt) Wenn Sie ein weiteres Formular hinzufügen möchten, klicken Sie auf **Neues Anfrageformular**.
-1. Aktualisieren Sie den Namen des Anfrageformulars. Standardmäßig lautet der Name des Formulars &quot;**Formular**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   Das Feld Anfrage erstellen wird geöffnet.
+
+1. Aktualisieren Sie im Feld Anfrageformular erstellen den Namen des Anfrageformulars. Standardmäßig lautet der Name des Formulars &quot;**Formular**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Optional) Fügen Sie **Anfrageformular eine** Beschreibung“ hinzu.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klicken Sie auf **Erstellen**. Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
+1. Klicken Sie auf **Erstellen**.
+
+   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
+1. Fahren Sie fort [Formular konfigurieren](#configure-the-form).
+
+<div class="preview">
+
+### Erstellen eines Anfrageformulars aus dem Bereich Anfragen von Workfront
+
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Anfragen**.
+1. Klicken Sie in der rechten oberen Ecke des Bildschirms auf **Formulare anfordern**.
+1. (Bedingt) Wenn Sie ein vorhandenes Anfrageformular bearbeiten, wählen Sie es aus der Liste aus und fahren Sie dann mit dem Vorgang [Formular konfigurieren](#confgure-the-form) fort.
+1. Wenn Sie ein neues Antragsformular erstellen, klicken Sie in der rechten oberen Ecke des Bildschirms auf **Neues Antragsformular**.
+
+   Das Feld Anfrage erstellen wird geöffnet
+
+1. Aktualisieren Sie im Feld Anfrageformular erstellen den Namen des Anfrageformulars. Standardmäßig lautet der Name des Formulars **Unbenanntes Formular**.
+1. Wählen Sie im Feld Objekttypen den Datensatztyp aus, mit dem das Anfrageformular verknüpft werden soll. Datensatztypen werden in dem Arbeitsbereich gruppiert, in dem sie vorhanden sind.
+1. (Optional) Fügen Sie **Anfrageformular eine** Beschreibung“ hinzu.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Klicken Sie auf **Erstellen**.
+
+   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
+1. Fahren Sie fort [Formular konfigurieren](#configure-the-form).
+
+</div>
+
+## Formular konfigurieren
+
+1. Beginnen Sie mit der Erstellung oder Bearbeitung eines Anfrageformulars, wie in einem der folgenden Abschnitte beschrieben:
+
+   * [Erstellen eines Anfrageformulars aus einem Datensatztyp](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Erstellen eines Anfrageformulars aus dem Bereich Anfragen von Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 
    ![Kampagnen-Anfrage Formular - Bearbeitungsmodus](assets/campaigns-request-form-edit-mode.png)
 
