@@ -5,13 +5,13 @@ title: Verwenden des Widgets Meine Anfragen
 description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können das Widget auch mit Filtern und Spalten anpassen.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
-
 
 # Verwenden des Widgets Meine Anfragen
 
@@ -19,11 +19,16 @@ ht-degree: 3%
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>In diesem Artikel wird das neue Widget „Meine Anfragen“ beschrieben. Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird.
+>>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
+
 Das Widget Meine Anfragen zeigt Anfragen an, die an Ihre Organisation gesendet wurden. Sie können die Anfragen filtern, nach bestimmten Anfragen suchen oder die Spaltenreihenfolge und Sichtbarkeit anpassen. Sie können auch über das Widget Meine Anfragen eine neue Anfrage erstellen.
 
 >[!NOTE]
 >
->Wenn das Widget Meine Anfragen geladen wird, werden bis zu 50 Anfragen angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie in der Liste nach unten.
+>* Wenn das Widget Meine Anfragen geladen wird, werden bis zu 50 Anfragen angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie in der Liste nach unten.
 
 ## Zugriffsanforderungen
 
@@ -47,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: Mitwirkender oder höher</p>
    Oder   
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
@@ -137,8 +142,3 @@ So suchen Sie im Widget „Meine Anfragen“ nach bestimmten Anfragen:
    Anfragen, die den Begriff enthalten, sind orange hervorgehoben.
 
 1. (Optional) Um zu den hervorgehobenen Anfragen zu springen, klicken Sie in der Suchleiste auf die Pfeile nach oben oder unten.
-
-
-
-
-

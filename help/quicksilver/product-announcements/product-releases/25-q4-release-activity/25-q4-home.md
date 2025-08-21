@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ Um Workfront und Workfront Planning nahtloser zu gestalten, haben wir das Widget
 * Im Widget werden sowohl Workfront- als auch Workfront-Planungsanfragen angezeigt.
 * Der Filter kann jetzt besser angepasst werden. Jetzt können Sie mit Und- und Oder-Regeln nach bestimmten Feldwerten filtern.
 * Sie können Spalten im Widget ausblenden oder neu anordnen.
+
+Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird. Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
 
 Weitere Informationen zum neuen Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
