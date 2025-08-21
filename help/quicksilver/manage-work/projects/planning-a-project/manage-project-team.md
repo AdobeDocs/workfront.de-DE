@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 1%
+source-wordcount: '1193'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ Sie können die Benutzer in den Teams des Projekts und der Vorlage verwalten, in
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -193,7 +193,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    Benutzer werden aus unvollständigen Arbeitselementen entfernt und deren Zuweisung aufgehoben.
 
    Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem ](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
-1. (Optional) Um eine Aktualisierung für dieses Projekt an Benutzer zu senden, klicken Sie auf Alle aktualisieren , um die Aktualisierung an alle Mitglieder des Teams zu senden
+1. (Optional) Um eine Aktualisierung für dieses Projekt an Benutzer zu senden, klicken Sie auf **Alle aktualisieren** um die Aktualisierung an alle Mitglieder des Teams zu senden
 
    Oder
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Klicken Sie **linken** auf „Personen“.
 
-1. Wählen Sie einen oder mehrere Benutzer aus der Liste aus und klicken Sie dann auf **Entfernen**, um sie aus dem Team zu entfernen.
+1. Wählen Sie einen oder mehrere Benutzer aus der Liste aus und klicken Sie dann auf das Symbol **Entfernen**, um sie aus dem Team zu entfernen.
 
 1. Klicken Sie **Ja, Ausgewählte Benutzer entfernen**, um die Benutzer zu bestätigen und zu entfernen.
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem ](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
 
-1. (Optional) Um eine Aktualisierung an Benutzer zu senden, klicken Sie auf Alle aktualisieren , um die Aktualisierung an alle Benutzer in der Liste zu senden
+1. (Optional) Um eine Aktualisierung an Benutzer zu senden, klicken Sie auf **Alle aktualisieren**, um die Aktualisierung an alle Benutzer in der Liste zu senden
 
    Oder
 
-   Wählen Sie einen oder mehrere Benutzer aus der Liste aus und klicken Sie dann auf **Aktualisieren**.
+   Wählen Sie einen oder mehrere Benutzer aus der Liste aus und klicken Sie dann auf **Update an Benutzer senden**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Benutzer erhalten möglicherweise eine E-Mail-Benachrichtigung, wenn sie für sie aktiviert sind, und sie erhalten eine In-App-Benachrichtigung über das neue Update.
 
-1. (Optional) Klicken Sie **Exportieren** um die Benutzerliste in eine Datei zu exportieren
+1. Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon.png), um die Benutzerliste in eine Datei zu exportieren
 
    Oder
 
-   Wählen Sie Benutzer aus und klicken Sie dann auf **Exportieren**, um nur bestimmte Benutzer zu exportieren.
+   Wählen Sie Benutzer aus und klicken Sie dann auf das **Exportieren**-Symbol, um nur bestimmte Benutzer zu exportieren.
 
 ## Überlegungen zum Entfernen von Benutzern aus einem Projektteam
 
