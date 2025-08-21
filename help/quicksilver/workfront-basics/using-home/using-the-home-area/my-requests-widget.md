@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >In diesem Artikel wird das neue Widget „Meine Anfragen“ beschrieben. Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird.
->>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
+>&#x200B;>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
 
 Das Widget Meine Anfragen zeigt Anfragen an, die an Ihre Organisation gesendet wurden. Sie können die Anfragen filtern, nach bestimmten Anfragen suchen oder die Spaltenreihenfolge und Sichtbarkeit anpassen. Sie können auch über das Widget Meine Anfragen eine neue Anfrage erstellen.
 
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: Mitwirkender oder höher</p>
    Oder   
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
