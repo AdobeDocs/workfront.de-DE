@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: Mitwirkender oder höher</p>
    Oder   
-   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
