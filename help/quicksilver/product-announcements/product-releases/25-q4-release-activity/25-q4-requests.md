@@ -3,10 +3,9 @@ title: Verbesserungen für Anfragen im vierten Quartal 2025
 description: Verbesserungen für Anfragen im vierten Quartal 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -23,8 +22,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 >[!NOTE]
 >
->* Vorschau: 31. Juli 2025
->* Produktions-Schnellveröffentlichung: 14. August 2025
+>* Vorschau: 21. August 2025
+>* Produktions-Schnellveröffentlichung: 11. September 2025
 >* Produktion für alle Kunden: 16. Oktober 2025
 
 Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebnis zu schaffen, haben wir das anfragende Erlebnis aktualisiert. Jetzt können Sie:

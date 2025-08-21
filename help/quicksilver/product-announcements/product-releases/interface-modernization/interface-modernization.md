@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,17 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite „Überprüfungs- und Genehmigungsbenachrichtigungen“ im Setup
 
@@ -110,6 +121,54 @@ Wir haben die Seite Benutzer für SSO aktualisieren mit einem moderneren Design 
 Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO aktualisieren
 
 ## Projekte
+
+### Aktualisierungen der Benutzeroberfläche beim Hinzufügen von Objekten zu Programmen und Portfolios
+
+**Vorschau-Version: 22. Mai 2025; Produktionsversion: 29. Mai 2025**
+
+>[!NOTE]
+>
+>Diese wurde vorübergehend sowohl aus der Vorschau als auch aus der Produktion entfernt und am 21. August 2025 wieder hinzugefügt.
+
+
+Die Benutzeroberfläche für die Felder zum Hinzufügen wurde aktualisiert, wenn Folgendes durchgeführt wird:
+
+* Hinzufügen von Projekten zu Programmen
+* Hinzufügen von Projekten zu Portfolios
+* Hinzufügen von Programmen zu Portfolios
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Hinzufügen eines vorhandenen Programms zu einem Portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Projekte zu einem Portfolio hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Ein Projekt zu einem Programm hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### Aktualisierungen der Benutzeroberfläche des Felds Neues Warteschlangenthema von Projekten und Vorlagen
+
+**Vorschau-Version: 21. August 2025; Produktions-Version: 28. August 2025**
+
+Das Erscheinungsbild des Kästchens Neues Warteschlangenthema wurde aktualisiert, wenn Sie einem Projekt oder einer Vorlage ein neues Warteschlangenthema hinzufügen, sodass es dem Design anderer Bereiche von Workfront entspricht.
+
+Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Aktualisierungen der Benutzeroberfläche beim Bearbeiten eines Warteschlangen-Themas für ein Projekt oder eine Vorlage
+
+**Vorschau-Version: 21. August 2025; Produktions-Version: 28. August 2025**
+
+Wir haben das Erlebnis beim Bearbeiten eines Warteschlangen-Themas für Projekte und Vorlagen aktualisiert, sodass es nun mit anderen Bereichen von Workfront übereinstimmt.
+
+Mit diesem Update wurde eine kleine Funktionsänderung eingeführt. Wenn Sie jetzt auf ein Warteschlangen-Thema klicken, gelangen Sie direkt zur Bearbeitungsseite des Warteschlangen-Themas anstelle einer Seite für die Warteschlangen-Themendetails.
+
+Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### Aktualisierungen der Benutzeroberfläche zum Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem im Abschnitt Stunden
 
@@ -204,6 +263,14 @@ Das Dialogfeld zum Hinzufügen einer neuen Ausgabe zu einem Projekt wurde aktual
 Weitere Informationen finden Sie unter [Projektausgaben verwalten](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Vorlagen
+
+### Aktualisierungen der Benutzeroberfläche für die Personenliste in einer Vorlage
+
+**Vorschau-Version: 21. August 2025; Produktions-Version: 28. August 2025**
+
+Wir haben das Erscheinungsbild der Personen -Liste in einer Vorlage aktualisiert, sodass es dem Design anderer Bereiche von Workfront entspricht.
+
+Das Arbeiten mit Personen in einer Vorlage ähnelt dem Arbeiten mit Personen in einem Projekt. Weitere Informationen finden Sie unter [Verwalten des Projektteams](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Liste der Vorgänger in einer Vorlage
 
@@ -542,26 +609,6 @@ Das Erscheinungsbild des Felds Vorlage kopieren wurde an das Design anderer Bere
 
 Weitere Informationen finden Sie unter [Kopieren einer Projektvorlage](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
-### Look-and-Feel-Aktualisierungen beim Hinzufügen von Objekten zu Programmen und Portfolios
-
-**Vorschau-Version: 22. Mai 2025; Produktionsversion: 29. Mai 2025**
-
->[!NOTE]
->
->Vorübergehend aus Vorschau und Produktion entfernt
-
-
-Die Benutzeroberfläche für die Felder zum Hinzufügen wurde aktualisiert, wenn Folgendes durchgeführt wird:
-
-* Hinzufügen von Projekten zu Programmen
-* Hinzufügen von Projekten zu Portfolios
-* Hinzufügen von Programmen zu Portfolios
-
-Weitere Informationen finden Sie in den folgenden Artikeln:
-
-* [Hinzufügen eines vorhandenen Programms zu einem Portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Projekte zu einem Portfolio hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Ein Projekt zu einem Programm hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 
