@@ -272,7 +272,7 @@ Wenn Sie dies so schnell wie möglich durchführen, haben Ihre Benutzer Zeit, si
 
 **Training**
 
-* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Grundlagen der Arbeit in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
