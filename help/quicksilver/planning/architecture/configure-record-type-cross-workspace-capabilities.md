@@ -4,10 +4,10 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 1%
+source-wordcount: '1021'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -86,8 +86,8 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -127,7 +127,9 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 
 +++   
 
-## Konfigurieren des Hinzufügens eines Datensatztyps zu anderen Arbeitsbereichen
+## Konfigurieren von zentralisierten Datensatztypen
+
+<!--this is a UI term; don't change the title of this section-->
 
 Als Workspace-Manager können Sie einen Datensatztyp konfigurieren, der anderen Arbeitsbereichen hinzugefügt wird, wenn Sie einen Datensatztyp erstellen oder bearbeiten.
 
@@ -145,7 +147,7 @@ So konfigurieren Sie das Hinzufügen eines Datensatztyps zu einem anderen Arbeit
    * Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte Datensatztyp .
 oder
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen, und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps.
-1. Klicken Sie **Bearbeiten**.
+1. Klicken Sie auf **Bearbeiten**.
 
    ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card.png)
 
@@ -174,13 +176,15 @@ oder
    >Sie können den Datensatztyp und dessen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
    * Die Karte „Datensatztyp“ zeigt das Symbol „Globaler ![&quot; an](assets/global-icon.png) um anzugeben, dass der Datensatztyp jedem Arbeitsbereich hinzugefügt werden kann, dessen Manager Sie in Ihrer Konfiguration angegeben haben.
-   * Dem Datensatztyp wird ein vom System generiertes **&#x200B;**&#x200B;Workspace-Feld hinzugefügt.
+   * Dem Datensatztyp wird ein vom System generiertes **** Workspace-Feld hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wurde.
 
      Dieses Feld ist schreibgeschützt und kann nicht gelöscht werden.
 
-## Konfigurieren der Verbindung zu einem Datensatztyp aus anderen Arbeitsbereichen
+## Konfigurieren verbindbarer Datensatztypen
+
+<!--this is a UI term; don't change the title of this section-->
 
 Sie können einen Datensatztyp konfigurieren, mit dem über andere Arbeitsbereiche eine Verbindung hergestellt werden soll, wenn Sie den Datensatztyp erstellen oder bearbeiten.
 
@@ -210,7 +214,7 @@ oder
 
    * **Systemweit**: Benutzer können von allen Arbeitsbereichen, in denen sie Berechtigungen verwalten, aus eine Verbindung zu diesem Datensatztyp herstellen.
    * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
-1. Klicken Sie **Bearbeiten**.
+1. Klicken Sie auf **Bearbeiten**.
 
    Folgendes geschieht:
 

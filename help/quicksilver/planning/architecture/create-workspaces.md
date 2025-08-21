@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Allgemeine Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche -
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -54,8 +54,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Arbeitsbereich erstellen
 
@@ -154,5 +154,15 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
    Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Weitere Informationen zum Bearbeiten und Löschen von Datensatztypen in einem Arbeitsbereich finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+1. (Optional) Klicken Sie auf den Rückwärtspfeil links neben dem neuen Arbeitsbereich, um die Hauptseite von Planning zu öffnen. Auf der Registerkarte &quot;**&quot; wird eine neue Workspace-Karte für den neuen Workspace**.
+
+   Der Name des Benutzers, der den Arbeitsbereich erstellt hat, wird auf der Arbeitsbereichskarte als Besitzer gespeichert.
+
+   >[!NOTE]
+   >
+   >Für Benutzende, die derzeit eine Umstellung auf das Adobe Identity Management System (IMS) vornehmen, werden Arbeitsbereiche, die von Benutzenden erstellt wurden, die nur Workfront nutzen und keine IMS-Benutzenden sind, als vom **System** erstellt angezeigt.
+   >
+   >Informationen zu IMS finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 

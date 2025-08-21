@@ -1,13 +1,13 @@
 ---
-title: Workspace-übergreifende Datensatztypen hinzufügen
+title: Hinzufügen vorhandener Datensatztypen
 description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. In Workfront Planning können Sie einen vorhandenen Datensatztyp aus einem anderen Arbeitsbereich importieren.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Arbeitsbereichsübergreifenden Eintragstyp hinzufügen
+# Hinzufügen vorhandener Datensatztypen
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -35,7 +35,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.  
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,8 +56,8 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -109,6 +109,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
    * Verbindungen aufzeichnen
 
 * Sie können den Datensatztyp einschließlich der Felder nur im ursprünglichen Arbeitsbereich bearbeiten. Sie können sie nicht in den Arbeitsbereichen bearbeiten, in denen sie hinzugefügt wurde.
+* Die aus allen Arbeitsbereichen hinzugefügten Datensätze sind für alle Benutzer sichtbar, die in allen Arbeitsbereichen auf sie zugreifen, auch wenn sie in einem Arbeitsbereich erstellt wurden, in dem sie keine Berechtigungen haben.
 
 ## Erstellen eines Datensatztyps aus einem vorhandenen Datensatztyp
 
@@ -116,7 +117,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 
    ![Modal zum Hinzufügen eines Datensatztyps mit der Option zum Importieren aus einem anderen Arbeitsbereich](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
-1. Klicken Sie **Weiter**.
+1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld „Datensatztyp auswählen** auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
    Der Datensatztyp wird dem ausgewählten Arbeitsbereich hinzugefügt und Folgendes geschieht:
