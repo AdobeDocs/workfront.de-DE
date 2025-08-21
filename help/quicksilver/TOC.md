@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
+source-git-commit: aa1c75263b23389b2a98cb6f10d7cd76515612d8
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13445'
 ht-degree: 2%
 
 ---
@@ -478,7 +478,7 @@ ht-degree: 2%
       * Benutzer erstellen und verwalten {#create-manage-users}
          * [Benutzer erstellen und verwalten: Artikelindex](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [Benutzer hinzufügen](administration-and-setup/add-users/create-and-manage-users/add-users.md)
-         * [Benutzer importieren](administration-and-setup/add-users/create-and-manage-users/import-users.md)
+         * [Benutzende importieren](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [Benutzerprofil bearbeiten](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
          * [Massenbearbeitung von Benutzerprofilen](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
          * [Erstellen von Direktberichten](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
@@ -1948,6 +1948,11 @@ KI- {#ai-assistant}
          * [Dokumentname nach dem Hochladen geändert und enthält ein ungültiges Zeichen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Testen eines PowerPoint mit eingebettetem Video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Korrekturabzugsversionen können nicht heruntergeladen oder in der Vorschau angezeigt werden, wenn ein interaktiver Korrekturabzug als neue Version hinzugefügt wird](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+   * Native Integrationen {#native-integrations}
+   * [Überprüfen und Genehmigen von nativen Integrationen: Artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+   * [Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+   * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+   * [Erste Schritte mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Tipps, Tricks und Fehlerbehebung bei Validierungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung bei Validierungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2147,9 +2152,6 @@ KI- {#ai-assistant}
    * [Übersicht über integrierte Adobe Workfront-Integrationen](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront-Integrationsmethoden](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Integrationen überprüfen und genehmigen {#review-approval-integrations}
-      * [Prüf- und Genehmigungsintegrationen: Artikelindex](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
-      * [Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-      * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
    * Adobe Workfront für Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront für Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installieren des Adobe Workfront-Plug-ins für Creative Cloud-Programme {#install-wf-cc}
