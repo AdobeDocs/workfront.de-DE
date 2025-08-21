@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,6 @@ Lesen Sie diese Artikel, um zu erfahren, wie Sie den -Startseiten-Bereich in Ado
 * [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Erstellen von Arbeitselementen und Projekten im Bereich [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Persönliches Aufgabenelement erstellen und verwalten](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
+* [Verwenden des Widgets Meine Anfragen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [Zeit für ein Arbeitselement aus dem Bereich [!UICONTROL Startseite] protokollieren](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Markieren Sie ein Element als [!UICONTROL Fertig] im Bereich [!UICONTROL Startseite].](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

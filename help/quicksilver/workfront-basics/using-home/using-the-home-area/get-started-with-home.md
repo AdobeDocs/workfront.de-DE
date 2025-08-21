@@ -6,9 +6,9 @@ description: Die Startseite hilft Ihnen bei der Verwaltung Ihrer Arbeit. Sie kö
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1093'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >Der Inhalt in diesem Artikel wurde durch den Inhalt des Artikels Erste Schritte mit der neuen Startseite ersetzt. Die neue Startseite wird jetzt als Startseite bezeichnet.
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
 Das neue Zuhause in Adobe Workfront soll das aktuelle Zuhause-Erlebnis verbessern und Ihnen gleichzeitig eine flexiblere Möglichkeit bieten, sich auf die richtige Arbeit zu konzentrieren.
 
@@ -54,6 +56,9 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, s
 
 * **Meine Anfragen**\
     Zeigt alle von Ihnen gesendeten Anfragen, einen Filter, um nur offene Anfragen anzuzeigen, und eine Schaltfläche an, die das Bedienfeld „Zusammenfassung“ für eine Anfrage öffnet.
+
+  <span class="preview">In der Vorschau-Umgebung zeigt dieses Widget alle von Ihnen gesendeten Anfragen an, einen Filter, um nur Anfragen anzuzeigen, die den von Ihnen angegebenen Kriterien entsprechen, und eine Schaltfläche, mit der Sie die Spalten im Widget neu anordnen können.</span>
+
 
 * **Teamanfragen**\
     Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.

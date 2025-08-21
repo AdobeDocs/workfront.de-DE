@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Erstellen von Arbeitselementen und Projekten im Bereich Startseite
-description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " &#x200B;].
+description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " ].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
 # Erstellen von Arbeitselementen und Projekten im Bereich Startseite
 
-Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
+Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; ].
 
 Von zu Hause aus haben Sie folgende Möglichkeiten
 
@@ -25,7 +25,7 @@ Von zu Hause aus haben Sie folgende Möglichkeiten
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -52,6 +52,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
    <td> <p>Zugriff auf [!UICONTROL Bearbeiten] oder höher für Aufgaben</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -61,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Persönliches Aufgabenelement erstellen
 
-Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
+Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL  persönliche ] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
 Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
 
@@ -130,17 +134,17 @@ Sie können ein Problem direkt über den Startseiten-Bereich zu einem vorhandene
 Sie können eine Anfrage direkt über den Bereich Startseite erstellen:
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
-1. (Bedingt) Fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Anfragen**.
+1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Anfragen**.
 1. Gehen Sie zum **Meine Anfragen**-Widget und klicken Sie auf **Neu**.
-   ![Neue Anfrage erstellen](assets/create-new-request.png)
+   ![Neue Anfrage erstellen](assets/create-new-request-new.png)
 
-1. Geben Sie **Dialogfeld &quot;** Anfrage“ den Namen der Anfrage-Warteschlange ein.
+1. Geben **im Dialogfeld Neue Anfrage** den Namen der Workfront-Anfragewarteschlange oder des Workfront Planning-Anfrageformulars in die Suchleiste ein und wählen Sie ihn aus, wenn er angezeigt wird.
 1. Füllen Sie die entsprechenden Felder aus.
-1. Klicken Sie **Senden**.
+1. Klicken Sie auf **Senden**.
 
 Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## Projekt erstellen
+## Erstellen eines Projekts
 
 Sie können ein Projekt direkt im Bereich Startseite erstellen:
 

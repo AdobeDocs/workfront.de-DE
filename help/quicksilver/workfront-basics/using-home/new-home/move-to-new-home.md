@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
-
 
 # Von der alten zur neuen Startseite wechseln
 
@@ -30,7 +30,7 @@ Weitere Informationen zur Einstellung der alten Startseite finden Sie im [Handbu
 
 Das Widget „Meine Arbeit“ wurde in Widget-Form erstellt, um die alte Arbeitsliste der Startseite so genau wie möglich widerzuspiegeln. Benutzer können ihre Arbeitsliste im Widget „Meine Arbeit“ mit ähnlichen Filtern und Gruppierungen gruppieren und filtern:
 
-| **filter** | **Gruppierung** |
+| **Filter** | **Gruppierung** |
 |------------|-----------|
 | - <br> wird bearbeitet - Bereit zum Start <br> - Nicht bereit <br> - Angeforderter <br> - Delegierter <br> - Abgeschlossen | - <br> - Status <br> - Fälligkeitsdatum <br> - Keine |
 
@@ -163,6 +163,8 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, s
 * **Meine Anfragen**\
     Zeigt alle von Ihnen gesendeten Anfragen, einen Filter, um nur offene Anfragen anzuzeigen, und eine Schaltfläche an, die das Bedienfeld „Zusammenfassung“ für eine Anfrage öffnet.
 
+  <span class="preview">In der Vorschau-Umgebung zeigt dieses Widget alle von Ihnen gesendeten Anfragen an, einen Filter, um nur Anfragen anzuzeigen, die den von Ihnen angegebenen Kriterien entsprechen, und eine Schaltfläche, mit der Sie die Spalten im Widget neu anordnen können.</span>
+
 * **Teamanfragen**\
     Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
@@ -270,7 +272,7 @@ Wenn Sie dies so schnell wie möglich durchführen, haben Ihre Benutzer Zeit, si
 
 **Training**
 
-* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Grundlagen der Arbeit in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

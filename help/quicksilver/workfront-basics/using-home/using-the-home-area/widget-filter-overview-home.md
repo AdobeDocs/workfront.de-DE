@@ -6,14 +6,18 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 12%
+source-wordcount: '1092'
+ht-degree: 11%
 
 ---
 
 # Übersicht über Startseiten-Widget-Filter
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Sie können Filter für die folgenden Widgets verwenden, um Arbeit zu finden und zu organisieren:
 
@@ -242,6 +246,8 @@ Im Widget Meine Probleme können Sie die folgenden Filter verwenden:
 
 ## Meine Anfragen
 
+In der Produktionsumgebung:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ Im Widget Meine Probleme können Sie die folgenden Filter verwenden:
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+In der Vorschau-Umgebung:
+
+Das Widget Meine Anfragen verfügt über einen anpassbaren Filter, mit dem Sie steuern können, welche Anfragen im Widget angezeigt werden. Sie können diesen Filter für verschiedene Felder und Werte konfigurieren und Bedingungen mithilfe von UND und ODER stapeln.
+
+Anweisungen zum Konfigurieren des Filters im Widget Meine Anfragen finden Sie unter [Filteranfragen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) im Artikel Verwenden des Widgets Meine Anfragen .
+
+</div>
 
 ## Meine Arbeit
 
