@@ -6,10 +6,10 @@ description: Sie können einen Tabellenbericht zu einem Arbeitsflächen-Dashboar
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 0%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können einen Tabellenbericht zu einem Arbeitsflächen-Dashboard hinzufügen
 
 ![Beispiel für einen Tabellenbericht](assets/table-example-main.png)
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts zur 
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -111,3 +111,82 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts zur 
    1. Klicken Sie auf **Gruppierung hinzufügen** und wählen Sie dann das Feld aus, das Sie als Gruppierung erstellen möchten. Die Gruppierungsspalte wird im Vorschaubereich auf der rechten Seite angezeigt.
 
 1. Klicken Sie **Speichern**, um den Bericht zu erstellen und zum Dashboard hinzuzufügen.
+
+## Beispiel für einen Tabellenbericht erstellen
+
+In diesem Abschnitt werden die Schritte zum Erstellen eines Tabellenberichts erläutert, der ausstehende Dokumentgenehmigungen ausgibt.
+
+Weitere Informationen zu Beispielen für Tabellenberichte finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+
+1. Klicken **oben rechts auf** Neues Dashboard“.
+
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
+
+1. Klicken Sie auf **Erstellen**.
+
+1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
+
+1. Klicken Sie auf der linken Seite auf **Tabelle**.
+
+1. Klicken Sie oben rechts auf **Bericht erstellen**.
+
+1. Gehen Sie wie folgt vor, um den Abschnitt **Details** zu konfigurieren:
+
+   1. Geben Sie _Ausstehende_) in das Feld **Name** ein.
+   1. Geben Sie eine Beschreibung in das Feld **Beschreibung** ein. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
+
+1. Gehen Sie wie folgt vor, um den Abschnitt **Tabelle erstellen** zu konfigurieren:
+
+   1. Klicken Sie im linken Bereich auf das Symbol **Tabellenspalten** ![Tabellenspalten](assets/drilldown-column.png) .
+   1. Klicken Sie **Spalte hinzufügen**.
+   1. Scrollen Sie nach unten und wählen Sie **Dokumentgenehmigungen** > **Status** aus.
+   1. Die folgenden Spalten hinzufügen:
+
+   <table>
+    <tr>
+    <td><strong>Projektname</strong></td>
+    <td>Dokumentversion &gt; Dokument &gt; Projekt &gt; Name</td>
+    </tr>
+    <tr>
+    <td><strong>Dokumentname</strong></td>
+    <td>Dokumentversion &gt; Dokument &gt; Typ <em>Name</em> in das Suchfeld.</td>
+    </tr>
+    <tr>
+    <td><strong>Dokumentversion</strong></td>
+    <td>Dokumentversion &gt; Dokument &gt; Version</td>
+    </tr>
+    <tr>
+    <td><strong>Frist</strong></td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Frist</td>
+    </tr>
+    <tr>
+    <td><strong>Anfrage von</strong></td>
+    <td>Dokumentgenehmigung &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
+    </tr>
+    <tr>
+    <td><strong>Angefordertes Datum</strong></td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
+    </tr>
+    <tr>
+    <td><strong>Genehmigende Person</strong></td>
+    <td>Dokumentgenehmigung &gt; Genehmigungsphase &gt; Teilnehmer an Genehmigungsphase* &gt; Teilnehmer &gt; Typ <em>Name</em> im Suchfeld.</td>
+    </tr>
+    </table>
+
+
+   *Teilnehmer der Genehmigungsphase werden auf _Genehmigungsphase PA.._ gekürzt
+
+
+1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
+   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Registerkarte &quot;](assets/filter-tab.png)&quot;.
+   1. Klicken Sie **Filter bearbeiten** und dann **Bedingung hinzufügen**.
+   1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
+   1. Wählen Sie **Status** aus.
+   1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Ausstehende_) in das Textfeld ein.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approval-table-filter.png)
+   1. (Optional) Fügen Sie zusätzliche Filter hinzu, wie im Abschnitt **Optionale Filter** unten beschrieben.
+1. Klicken **oben** auf dem Bildschirm auf „Speichern“.

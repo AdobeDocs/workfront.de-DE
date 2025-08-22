@@ -6,9 +6,9 @@ description: Ein KPI-Bericht, der einen einzelnen aggregierten KPI hervorgehoben
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sie können einen KPI-Bericht erstellen und zu einem Arbeitsflächen-Dashboard h
 
 ![Beispiel für KPI-Bericht](assets/kpi-example-main.png)
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -122,5 +122,57 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
    1. Klicken Sie auf **Gruppierung hinzufügen** und wählen Sie dann das Feld aus, das Sie als Gruppierung erstellen möchten.
 
 1. Klicken Sie **Speichern**, um den Bericht zu erstellen und zum Dashboard hinzuzufügen.
+
+## Beispiel für einen KPI-Bericht erstellen
+
+In diesem Abschnitt werden die Schritte zum Erstellen eines KPI-Berichts erläutert, der ausstehende Dokumentgenehmigungen ausgibt.
+
+Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+
+1. Klicken **oben rechts auf** Neues Dashboard“.
+
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
+
+1. Klicken Sie auf **Erstellen**.
+
+1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
+
+1. Wählen Sie auf der linken Seite &quot;**&quot;**.
+
+1. Klicken Sie oben rechts auf **Bericht erstellen**.
+
+1. Gehen Sie wie folgt vor, um den Abschnitt **Details** zu konfigurieren:
+
+   1. Geben Sie *Ausstehend* in das Feld **Name** ein.
+   1. Geben Sie *Feld* Beschreibung **„Ausstehende Genehmigungen** ein. Wird als Beschriftung unterhalb des KPI-Werts angezeigt.
+
+1. Gehen Sie wie folgt vor, um den Abschnitt **KPI erstellen** zu konfigurieren:
+
+   1. Klicken Sie im linken Bedienfeld auf das Symbol **KPI erstellen** ![KPI erstellen](assets/build-kpi-icon.png).
+
+   1. Klicken Sie **Feld auswählen**.
+
+   1. Suchen Sie den Ordner **Dokumentengenehmigung** und wählen Sie ihn aus.
+
+   1. Wählen Sie **Status** aus.
+
+   1. Wählen **in der Dropdown** Liste Aggregationstyp die Option **Anzahl** aus.
+
+1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
+
+   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png).
+
+   1. Wählen Sie **Filter bearbeiten** aus.
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
+   1. Belassen Sie den Operator **Gleich** und geben Sie dann _Überprüfung ausstehend_ in das Textfeld ein.
+      ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 
