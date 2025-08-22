@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ Der Workfront-Administrator ermöglicht die Integration zwischen Workfront und F
 
 ## Zugriffsanforderungen
 
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->Diese Funktion steht nur Organisationen zur Verfügung, die in das [!DNL Adobe Admin Console] integriert wurden.
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
@@ -62,7 +64,7 @@ Nachdem ein standardmäßiges [!DNL Frame.io] eingerichtet wurde, wird für alle
 
 >[!IMPORTANT]
 >
->Diese Funktion wird in Kürze verfügbar sein. Im Moment werden Frame.io-Konten manuell vom Workfront-Team hinzugefügt. Wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+>Diese Funktion wird in Kürze verfügbar sein. Im Moment werden Frame.io-Konten manuell vom Workfront-Team hinzugefügt. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um Hilfe zu erhalten.
 
 ## Konfigurieren eines einzelnen Frame.io-Kontos mit einer Workfront-Gruppe
 
@@ -98,7 +100,7 @@ So aktivieren Sie Frame.io-Benutzer:
 {{step-1-to-users}}
 
 1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
-1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**&#x200B;Ja“ aus.
+1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**Ja“ aus.
    ![Zum Frame-Projekt hinzufügen](assets/add-to-frame-project.png)
 
    >[!NOTE]

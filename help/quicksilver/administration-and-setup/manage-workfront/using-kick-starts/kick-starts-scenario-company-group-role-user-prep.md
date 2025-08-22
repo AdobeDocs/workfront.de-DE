@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 5%
 
 ---
 
@@ -73,8 +73,8 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 | **Vorname** | Chris |
 | **Nachname** | Besatzung |
 | **Benutzername/E-Mail** | mailto:cmanning@foo.com |
-| **Kennwort** | updateMe |
-| **Zugriff** | Teammitglied |
+| **Passwort** | updateMe |
+| **Zugriff auf** | Teammitglied |
 | **Firma** | &lt;*Ihre Firma>* |
 | **Hauptgruppe** | Marketing |
 | **Aufgabengebiet** | Wirtschaftsanalytiker |
@@ -88,8 +88,8 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 | **Vorname** | Jennifer |
 | **Nachname** | Campbell |
 | **Benutzername/E-Mail** | jcampbell@foo.com |
-| **Kennwort** | updateMe |
-| **Zugriff** | Project Manager |
+| **Passwort** | updateMe |
+| **Zugriff auf** | Project Manager |
 | **Firma** | &lt;*Ihre Firma>* |
 | **Hauptgruppe** | Marketing |
 | **Aufgabengebiet** | Project Manager |
@@ -103,8 +103,8 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 | **Vorname** | Jill |
 | **Nachname** | Sullivan |
 | **Benutzername/E-Mail** | jsullivan@foo.com |
-| **Kennwort** | updateMe |
-| **Zugriff** | Helpdesk |
+| **Passwort** | updateMe |
+| **Zugriff auf** | Helpdesk |
 | **Firma** | &lt;*Ihre Firma>* |
 | **Hauptgruppe** | Verkauf |
 | **Aufgabengebiet** | Vertriebsmitarbeiter |
@@ -118,8 +118,8 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 | **Vorname** | Trester |
 | **Nachname** | Lewis |
 | **Benutzername/E-Mail** | mlewis@foo.com |
-| **Kennwort** | updateMe |
-| **Zugriff** | Portfolio-Manager |
+| **Passwort** | updateMe |
+| **Zugriff auf** | Portfolio-Manager |
 | **Firma** | &lt;*Ihre Firma>* |
 | **Hauptgruppe** | Finanzielle Details |
 | **Aufgabengebiet** | Controller |
@@ -133,8 +133,8 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 | **Vorname** | Pam |
 | **Nachname** | Reynolds |
 | **Benutzername/E-Mail** | preynolds@foo.com |
-| **Kennwort** | updateMe |
-| **Zugriff** | Project Manager |
+| **Passwort** | updateMe |
+| **Zugriff auf** | Project Manager |
 | **Firma** | *Ihre Firma>* |
 | **Hauptgruppe** | Marketing |
 | **Aufgabengebiet** | IT |
@@ -148,8 +148,8 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 | **Vorname** | Strahl |
 | **Nachname** | Andrews |
 | **Benutzername/E-Mail** | randrews@foo.com |
-| **Kennwort** | updateMe |
-| **Zugriff** | Administrator |
+| **Passwort** | updateMe |
+| **Zugriff auf** | Administrator |
 | **Firma** | *Ihre Firma>* |
 | **Hauptgruppe** | Ressourcenmanager |
 | **Aufgabengebiet** | Keine |
@@ -305,6 +305,6 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 >
 >Benutzende, die in Workfront importiert wurden, werden im Status Deaktiviert und Ausstehende Genehmigung erstellt.
 > 
->Wenn Ihre Organisation in die Adobe Admin Console migriert wurde und ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlassen kann, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
+>Wenn ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlässt, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
 >
->Anweisungen finden Sie unter [Mehrere Benutzer verwalten | CSV-Massen-Upload](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) in der Dokumentation zu Adobe.
+>Anweisungen finden Sie unter [Verwalten mehrerer Benutzender | CSV-Massen-Upload](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) in der Adobe-Dokumentation.
