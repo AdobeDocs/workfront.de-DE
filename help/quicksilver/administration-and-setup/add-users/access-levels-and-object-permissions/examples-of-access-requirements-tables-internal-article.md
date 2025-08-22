@@ -4,7 +4,7 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Zugriffsanforderungen (Dies ist ein Beispiel, wenn das Paket gleich bleibt und wir die Zeile „Lizenzen“ aktualisieren)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen (nur für neue Nettokunden verfügbar)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen (dies ist ein Beispiel, bei dem die neue Funktion nur in den Paketen 2023/2025 vorhanden ist)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Zugriffsanforderungen (Dies ist ein Beispiel, bei dem Sie andere Produkte benötigen)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
    <td> 
 <p>Jedes Adobe Workfront Workflow-Paket und jedes Adobe Workfront Planning-Paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-Plattform (****Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???*****)</p></td> 
    <td> 
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
