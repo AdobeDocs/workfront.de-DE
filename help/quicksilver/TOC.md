@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cc2787176a862b4d020955edad5ed5246cfef862
+source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
 workflow-type: tm+mt
 source-wordcount: '13445'
 ht-degree: 2%
@@ -876,8 +876,8 @@ ht-degree: 2%
          * [Zeit für ein Arbeitselement aus dem Bereich „Startseite“ erfassen](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Markieren eines Elements als „Fertig“ im Bereich „Startseite“](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Verwenden des Bereichs Meine Aktualisierungen](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-         * [Verwenden Sie das Widget „Meine Anfragen“](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
-KI- {#ai-assistant}
+         * [Verwenden des Widgets Meine Anfragen](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+   * KI-Assistent {#ai-assistant}
       * [KI-Assistent](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Überblick über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Zusammenfassen mithilfe des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
