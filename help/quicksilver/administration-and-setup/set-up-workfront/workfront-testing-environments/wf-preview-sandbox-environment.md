@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; ](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
@@ -156,28 +156,18 @@ Weitere Informationen zum einmaligen Anmelden finden Sie unter [Übersicht über
 
 >[!IMPORTANT]
 >
->Das in diesem Abschnitt beschriebene Verfahren wurde entfernt, da es nur auf Organisationen angewendet wurde, die noch nicht in die Adobe Admin Console integriert wurden.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in das [!DNL Adobe Admin Console] integriert wurden. Wenn Ihre Organisation in die [!DNL Adobe Admin Console] integriert wurde, ist keine Aktion erforderlich.
 >
->Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
-
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Admin Console] integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
-If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
+Wenn Sie Ihre Vorschau-Sandbox für die Verwendung mit einer Single Sign-On-Lösung konfigurieren möchten, können Sie sie separat von Ihrer Produktionsumgebung konfigurieren. Die SSO-Konfiguration in der Sandbox-Vorschau ist unabhängig von Ihrer SSO-Konfiguration in der Produktionsumgebung.
 
-When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
+Wenn Ihre Sandbox-Vorschau (jedes Wochenende) aktualisiert wird, werden die SSO-Informationen nicht aus Ihrer Produktionsumgebung kopiert, um die Sandbox-Vorschau-Konfiguration zu überschreiben.
 
-The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.
+Die Schritte zum Konfigurieren von Single Sign-on in der Vorschau-Sandbox ähneln denen zum Konfigurieren in der Produktionsumgebung.
 
-For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).-->
+Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie unter [Übersicht über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Automatische Neuberechnung der Projektzeitleisten
 

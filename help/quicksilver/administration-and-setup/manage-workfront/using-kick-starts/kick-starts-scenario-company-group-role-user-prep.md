@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1217'
 ht-degree: 5%
 
 ---
@@ -305,6 +305,6 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 >
 >Benutzende, die in Workfront importiert wurden, werden im Status Deaktiviert und Ausstehende Genehmigung erstellt.
 > 
->Wenn ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlässt, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
+>Wenn Ihre Organisation in die Adobe Admin Console migriert wurde und ein(e) Benutzende(r) den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlassen kann, können Sie den Benutzerstapel direkt zur Adobe Admin Console hinzufügen.
 >
 >Anweisungen finden Sie unter [Verwalten mehrerer Benutzender | CSV-Massen-Upload](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) in der Adobe-Dokumentation.

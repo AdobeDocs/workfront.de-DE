@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Grundlagen der Migration von Workfront zur Adobe Admin Console
-
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT]
->
->Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
->
->Dieser Artikel wird in naher Zukunft entfernt.
 
 Adobe verändert die Art und Weise, wie Sie Ihre Adobe Workfront-Benutzenden verwalten, und steigert so Ihre Produktivität. Im Rahmen dieser Änderung migriert Adobe Ihre Workfront-Instanz und Ihre Benutzerinnen und Benutzer zum Adobe Admin Console. Dies ist eine erforderliche Migration und hat keine Auswirkungen auf Berichte, Genehmigungspfade, Inhalte oder Assets. Dies wirkt sich darauf aus, wie Sie den Benutzerzugriff verwalten und wie sich Ihre Benutzer anmelden.
 

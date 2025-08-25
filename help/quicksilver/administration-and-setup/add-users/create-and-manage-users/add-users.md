@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1299'
 ht-degree: 3%
 
 ---
@@ -21,14 +21,16 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->* **Sie müssen Systemadministratoren über die Adobe Admin Console erstellen.**
+>* **Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie Systemadministratoren über die Adobe Admin Console erstellen.**
 >
 >   Anweisungen zum Erstellen von Systemadministratoren in der Adobe Admin Console finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->   Gruppenadministratoren können dieses Verfahren verwenden, um Benutzer zu erstellen und die Benutzer zur Genehmigung durch den Administrator weiterzuleiten.
+>   Gruppenadministratoren in Organisationen, die in die Adobe Admin Console integriert wurden, können mit diesem Verfahren Benutzende erstellen und diese zur Genehmigung durch den Administrator einreichen.
+>
+>   Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Wenn Ihr Unternehmen Single Sign-on (SSO) verwendet** empfehlen wir, Benutzer zu erstellen und sie Workfront in Adobe Admin Console zuzuweisen. Das Erstellen dieser Benutzenden in Workfront ist möglich. Abhängig von der Konfiguration der Admin Console Ihres Unternehmens kann es jedoch zu Problemen bei der Übertragung dieser Informationen an die Adobe Admin Console kommen.
->  &#x200B;>   Nachdem Sie den Benutzer in der Adobe Admin Console erstellt haben, können Sie die Benutzerinformationen in der Workfront konfigurieren, z. B. das Zuweisen von Rollen, Gruppen, Teams und Zugriffsebenen.
+>  >   Nachdem Sie den Benutzer in der Adobe Admin Console erstellt haben, können Sie die Benutzerinformationen in der Workfront konfigurieren, z. B. das Zuweisen von Rollen, Gruppen, Teams und Zugriffsebenen.
 >* **Wenn Ihr Unternehmen kein Single Sign-on (SSO) verwendet** können Sie Benutzende, die keine Systemadministratoren sind, direkt in Workfront hinzufügen. Es ist möglich, Benutzende in der Adobe Admin Console hinzuzufügen. Durch das Hinzufügen in der Workfront können Sie jedoch deren Zugriffsebene beim Erstellen festlegen, was Ihnen Zeit sparen kann.
 
 
@@ -36,7 +38,11 @@ ht-degree: 3%
 Sie können Benutzende in Adobe Workfront hinzufügen, indem Sie einzelne Benutzende von Grund auf neu erstellen oder indem Sie bestehende Benutzende kopieren.
 
 Informationen zum gleichzeitigen Importieren mehrerer Benutzer finden Sie unter [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
-—>
+
+<!--
+Replace this intro with something like the following when we switch to Admin Console:
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+-->
 
 ## Zugriffsanforderungen
 
@@ -132,7 +138,7 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
 
    >[!NOTE]
    >
-   >* Wenn Sie als Gruppenadministrator einen Benutzer hinzufügen, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt.
+   >* Wenn Sie Gruppenadministrator sind und Benutzer zu einer Organisation hinzufügen, die in die Adobe Admin Console integriert wurde, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt.
    > 
    >* Wenn der Benutzer den Status Deaktiviert und Ausstehende Genehmigung nicht innerhalb weniger Minuten verlässt und durch eine Bildschirmaktualisierung das Abzeichen Ausstehende Genehmigung nicht entfernt wird, können Sie den Benutzer manuell genehmigen.
    >

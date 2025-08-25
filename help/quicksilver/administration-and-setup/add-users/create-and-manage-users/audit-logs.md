@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -252,24 +252,19 @@ Das System generiert einen Eintrag im Administratorprotokoll für Aufgabengebiet
 
 Weitere Informationen zum Konfigurieren von Aufgabengebieten finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### Anmeldeversuch {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+Das System generiert einen Prüfprotokolleintrag für den Anmeldeversuch, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* Anmelden, Abmelden oder Fehlschlagen eines Anmeldeversuchs in Workfront (im Browser und in der Mobile App)
+* Meldet sich bei einer Workfront-Integration (z. B. Workfront für Slack) an, meldet sich ab oder schlägt einen Anmeldeversuch fehl
+* Anmelden bei oder Abmelden von der Workfront-API
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+Wenn ein Workfront-Administrator die Funktion „Anmelden als“ verwendet, werden keine Anmeldeversuche aufgezeichnet.
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>Dies ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 ### Priorität {#priority}
 
@@ -350,17 +345,21 @@ Weitere Informationen zu den Voreinstellungen für Aufgaben und Probleme finden 
 
 ### Benutzerin bzw. Benutzer {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+Das System generiert einen Benutzerüberwachungsprotokolleintrag, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
-* Creates a user
+* Erstellt einen Benutzer
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Dies ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* Löscht einen Benutzer
+* Ändert Zugriffsebene, Unternehmen, Team oder Gruppe eines Benutzers
+* Aktiviert einen Benutzer
+* Deaktiviert einen Benutzer

@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Der Workfront-Administrator ermöglicht die Integration zwischen Workfront und F
 
 ## Zugriffsanforderungen
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
+>Diese Funktion steht nur Organisationen zur Verfügung, die in das [!DNL Adobe Admin Console] integriert wurden.
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
@@ -100,7 +98,7 @@ So aktivieren Sie Frame.io-Benutzer:
 {{step-1-to-users}}
 
 1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
-1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**&#x200B;Ja“ aus.
+1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**Ja“ aus.
    ![Zum Frame-Projekt hinzufügen](assets/add-to-frame-project.png)
 
    >[!NOTE]
