@@ -55,7 +55,7 @@ Der KI-Reviewer kann die folgenden Dateitypen überprüfen:
 
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio für Performance Marketing. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio für Performance Marketing. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## KI-Reviewer erstellen
