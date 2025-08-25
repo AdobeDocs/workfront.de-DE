@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 4%
+source-wordcount: '894'
+ht-degree: 5%
 
 ---
 
@@ -83,11 +83,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Einbetten von Workfront in einen iframe zulassen</p> </td> 
-      <td>Ermöglicht das Einbetten von Workfront in einen iframe.<p>Diese Option ist standardmäßig deaktiviert.</p><p><b>WICHTIG</b>: Wenn eine Web-basierte Anwendung in einem iframe angezeigt wird, wird die Anwendung anfällig für eine Sicherheitslücke durch Clickjacking.</p></td> 
+      <td>Ermöglicht das Einbetten von Workfront in einen iframe.<p>Standardmäßig ist diese Option deaktiviert.</p><p><b>WICHTIG</b>: Wenn eine Web-basierte Anwendung in einem iframe angezeigt wird, wird die Anwendung anfällig für eine Sicherheitslücke durch Clickjacking.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">SAML 2.0-Authentifizierung in Office 365-Add-ins zulassen.</td> 
-      <td> <p>Ermöglicht das Einbetten von Workfront in einen iframe nur für Office 365-Add-Ins, wenn Workfront mit einer SAML 2.0-Lösung für einmaliges Anmelden integriert ist. </p> <p>Diese Option ist standardmäßig aktiviert.</p> <p><b>HINWEIS</b>: Wenn Sie die obige Option <strong>Einbetten von Workfront in einen iframe zulassen</strong> aktivieren, wird die Option <strong>SAML 2.0-Authentifizierung in Office 365-Add-</strong> zulassen) aktiviert und abgeblendet.</p> </td> 
+      <td> <p>Ermöglicht das Einbetten von Workfront in einen iframe nur für Office 365-Add-Ins, wenn Workfront mit einer SAML 2.0-Lösung für einmaliges Anmelden integriert ist. </p> <p>Standardmäßig ist diese Option aktiviert.</p> <p><b>HINWEIS</b>: Wenn Sie die obige Option <strong>Einbetten von Workfront in einen iframe zulassen</strong> aktivieren, wird die Option <strong>SAML 2.0-Authentifizierung in Office 365-Add-</strong> zulassen) aktiviert und abgeblendet.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwendung von Sitzungsinformationen beim Erstellen von URLs für externe Seiten aktivieren</td> 
@@ -95,7 +95,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Benutzer dürfen die mobilen Anwendungen von Workfront und das Workfront Outlook-Add-in verwenden</td> 
-      <td> <p>Ermöglicht Benutzenden den Zugriff auf die mobilen Apps (Workfront View für iPad und Apps für Mobiltelefone) und die Workfront Outlook-App.</p> <p>Diese Option ist standardmäßig aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> <p>Weitere Informationen zum Outlook-Plug-in finden Sie unter <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Einrichten von Adobe Workfront für Outlook</a>.</p> </td> 
+      <td> <p>Ermöglicht Benutzenden den Zugriff auf die mobilen Apps (Workfront View für iPad und Apps für Mobiltelefone) und die Workfront Outlook-App.</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> <p>Weitere Informationen zum Outlook-Plug-in finden Sie unter <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Einrichten von Adobe Workfront für Outlook</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mit Personen ohne Workfront-Konto über E-Mail-Adressen zusammenarbeiten</p> </td> 
@@ -105,37 +105,37 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
         <li>Dokumentanforderung<br></li>
         <li>Dokumentengenehmigung</li>
         <li>Kalender</li>
-       </ul><p>Diese Option ist standardmäßig aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene Externe Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
+       </ul><p>Standardmäßig ist diese Option aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene Externe Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Externe Benutzer auffordern, sich mit einem Kennwort zu registrieren</td> 
-      <td> <p>Externe Benutzer müssen sich registrieren, bevor sie Elemente in Workfront anzeigen können. Standardmäßig ist diese Option deaktiviert. Wenn Sie diese Option aktivieren, werden Personen ohne Workfront-Konto, die über ihre E-Mail-Adresse in bestimmte Updates eingebunden sind, aufgefordert, ein Konto zu erstellen, bevor sie das Element anzeigen können, in dem sie enthalten sind. Dadurch wird ein externes Benutzerkonto für sie erstellt.</p> <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Benutzer automatisch abmelden nach</td> 
-      <td> Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität von Workfront abgemeldet wird. Standardmäßig werden Benutzer nach 8 Stunden Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Mobile Benutzer automatisch abmelden nach </td> 
-      <td>Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität bei der Workfront-Anwendung abgemeldet wird. Standardmäßig werden Benutzer nach 7 Tagen Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Hilfe-URL</td> 
-      <td>Ermöglicht die Definition einer internen benutzerdefinierten Hilfeseite, zu der das Hilfesymbol des Hauptmenüs wechseln soll. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurieren einer benutzerdefinierten Hilfe-URL</a>.</p></td> 
+      <td> <p>Externe Benutzer müssen sich registrieren, bevor sie Elemente in Workfront anzeigen können. Standardmäßig ist diese Option deaktiviert. Wenn Sie diese Option aktivieren, werden Personen ohne Workfront-Konto, die über ihre E-Mail-Adresse in bestimmte Updates eingebunden sind, aufgefordert, ein Konto zu erstellen, bevor sie das Element anzeigen können, in dem sie enthalten sind. Dadurch wird ein externes Benutzerkonto für sie erstellt.</p> <p>Standardmäßig ist diese Option deaktiviert.</p> </td> 
+     </tr>
+<!-- DELETE THIS SECTION MARCH 2026   <tr> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Benutzer im System sehen standardmäßig die neue Startseite </td> 
-      <td>Hier können Sie angeben, ob Benutzern das neue Startseiten-Erlebnis standardmäßig angezeigt wird. Wenn diese Option aktiviert ist, wird den Benutzenden standardmäßig die neue Startseite angezeigt, sie können sich jedoch auch einzeln für die Aktivierung oder Deaktivierung der neuen Startseite entscheiden. Wenn diese Option deaktiviert ist, wird den Benutzenden das Banner, das ihnen den Wechsel zur neuen Startseite ermöglicht, nicht angezeigt. Sie können jedoch weiterhin zur neuen Startseite navigieren, indem sie am Ende ihrer Instanz-URL manuell <code>/home/workspaces</code> eingeben. Diese Einstellung ist standardmäßig aktiviert.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Arbeitsliste „Prioritäten“ aktivieren </td> 
-      <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Testumgebungen</td> 
-      <td>Ermöglicht den Zugriff auf Ihre Workfront-Testumgebungen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Die Adobe Workfront-Vorschau-Sandbox-Umgebung</a>.</p></td> 
-    </tbody> 
-   </table>
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr>  -->
+    &lt;tr>
+    &lt;td role=„rowhader“>Benutzerdefinierte Hilfe-URL&lt;/td>
+    &lt;td>Hier können Sie eine interne benutzerdefinierte Hilfe-Site definieren, zu der das Hilfesymbol des Hauptmenüs geleitet werden soll. Weitere Informationen finden Sie unter &lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;>Konfigurieren einer benutzerdefinierten Hilfe-URL&lt;/a>.&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td role=„rowhader“>Benutzer im System sehen standardmäßig das neue Starterlebnis &lt;/td>
+    &lt;td>Hier können Sie angeben, ob Benutzer das neue Starterlebnis standardmäßig sehen werden. Wenn diese Option aktiviert ist, wird den Benutzenden standardmäßig die neue Startseite angezeigt, sie können sich jedoch auch einzeln für die Aktivierung oder Deaktivierung der neuen Startseite entscheiden. Wenn diese Option deaktiviert ist, wird den Benutzenden das Banner, das ihnen den Wechsel zur neuen Startseite ermöglicht, nicht angezeigt. Sie können jedoch weiterhin zur neuen Startseite navigieren, indem sie am Ende ihrer Instanz-URL &lt;code>/home/workspaces&lt;/code> manuell eingeben. Diese Einstellung ist standardmäßig aktiviert.&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td role=„rowhader“>Aktivieren der Prioritäts-Worklist &lt;/td>
+    &lt;td>Hiermit können Sie die Prioritäts-Worklist für Ihre Benutzer aktivieren oder deaktivieren. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter &lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;>Erste Schritte mit Prioritäten&lt;/a>.&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td role=„rowhader“>Testumgebungen&lt;/td>
+    &lt;td>Ermöglicht den Zugriff auf Ihre Workfront-Testumgebungen. Weitere Informationen finden Sie unter &lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>Die Sandbox-Vorschau für Adobe Workfront&lt;/a>.&lt;/p>&lt;/td>
+    &lt;/tbody>
+</table>
 
 1. Klicken Sie auf **Speichern**.
 

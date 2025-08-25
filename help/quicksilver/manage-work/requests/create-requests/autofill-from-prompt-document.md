@@ -5,9 +5,9 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1091'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Um Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments automatisch auszufüllen **müssen** der folgenden Bedingungen zutreffen:
 
-* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
+* Ihr Unternehmen muss Adobe IMS (Identity Management-System) verwenden
 * Adobe Unified Experience muss aktiviert sein
 * Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
 * Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen

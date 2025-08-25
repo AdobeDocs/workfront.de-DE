@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 2%
 
 ---
 
@@ -24,13 +24,15 @@ Die folgenden Fragen werden häufig zur Umgebungsförderung gestellt:
 
 ### Antwort
 
-Eine domänenübergreifende Umgebungsförderung wird derzeit nicht unterstützt. Sie müssen zwischen Umgebungen in derselben Domain weiterleiten.
+Eine domänenübergreifende Umgebungsförderung wird derzeit nicht unterstützt. Sie müssen zwischen Umgebungen in derselben Domain weiterleiten.-->
 
-## Ist die Adobe Business Platform/IMS eine Voraussetzung für die Umgebungsförderung?
+<!--DELETE THIS SECTION MARCH 2026-->
 
-### Antwort
+<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
 
-Nein. Die Umgebungsunterstützung ist sowohl für IMS-aktivierte als auch für Nicht-IMS-Workfront-Instanzen verfügbar.
+### Answer
+
+No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
 
 ## Wie können wir herausfinden, ob sich unsere Workfront-Instanz auf einer Prime- oder Ultimate-Lizenz befindet?
 
@@ -38,7 +40,7 @@ Nein. Die Umgebungsunterstützung ist sowohl für IMS-aktivierte als auch für N
 
 * Ein Workfront-Administrator kann die Lizenz Ihres Unternehmens suchen.
 
-   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
    1. Klicken Sie **linken** auf „System“
    1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
 Der Plan wird oben rechts auf der Seite angezeigt.

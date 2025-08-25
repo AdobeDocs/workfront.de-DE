@@ -5,9 +5,9 @@ description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Um den KI-Assistenten für Ihre Organisation zu aktivieren **müssen** alle) der folgenden Bedingungen zutreffen:
 
-* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
-* Adobe Unified Experience muss aktiviert sein
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
 * Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen
 
@@ -113,7 +115,7 @@ Der KI-Assistent kann Daten abfragen, die den folgenden Objekttypen zugeordnet s
 * Workfront-Planungsdatensätze
 
 
-## Zugriff auf KI-Assistenten
+## Zugriff auf den KI-Assistenten
 
 1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol „KI-Assistent![Symbol „KI-Assistent](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Geben Sie Ihre Frage oder Eingabeaufforderung im Bedienfeld rechts am Bildschirm ein.

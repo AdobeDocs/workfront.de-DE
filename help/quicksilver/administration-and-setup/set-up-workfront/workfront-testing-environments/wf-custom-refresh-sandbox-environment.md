@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!DNL Workfront] Lizenz</p> </td> 
-   <td> <p>[!UICONTROL -Plan] </p> <p>Sie müssen [!DNL Workfront] sein. Informationen zu [!DNL Workfront] finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollständigen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
+   <td> <p>[!UICONTROL-Plan] </p> <p>Sie müssen [!DNL Workfront] sein. Informationen zu [!DNL Workfront] finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollständigen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Support-Paket</td> 
@@ -190,15 +190,22 @@ So planen Sie eine Aktualisierung Ihrer Kunden-Aktualisierungs-Sandbox:
 
 ## Konfigurieren von Single Sign-on in der benutzerdefinierten Aktualisierungs-Sandbox
 
-Wenn Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox für die Verwendung mit einer Single Sign-On-Lösung konfigurieren möchten, können Sie sie separat von Ihrer Produktionsumgebung konfigurieren. Die SSO-Konfiguration in der benutzerdefinierten Aktualisierungs-Sandbox ist unabhängig von Ihrer SSO-Konfiguration in der Produktionsumgebung.\
-Wenn Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox aktualisieren, werden die SSO-Informationen nicht aus Ihrer Produktionsumgebung kopiert, um die benutzerdefinierte Aktualisierungs-Sandbox-Konfiguration zu überschreiben.
+>[!IMPORTANT]
+>
+>Das in diesem Abschnitt beschriebene Verfahren wurde entfernt, da es nur auf Organisationen angewendet wurde, die noch nicht in die Adobe Admin Console integriert wurden.
+>
+>Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
 
-Die Schritte zum Konfigurieren von Single Sign-on in der benutzerdefinierten Aktualisierungs-Sandbox ähneln denen zum Konfigurieren der Sandbox in der Produktionsumgebung.\
-Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie unter [Übersicht über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die [!DNL Workfront]-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+-->
 
 ## Automatische Neuberechnung der Projektzeitleisten
 

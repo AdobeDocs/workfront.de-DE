@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1207'
 ht-degree: 2%
 
 ---
@@ -92,40 +92,47 @@ Sie können den API-Schlüssel für Ihr Administrator-Benutzerkonto generieren, 
 
    So entfernen Sie den API-Schlüssel: Klicken Sie im Abschnitt **API** Schlüsseleinstellungen **auf „Entfernen** und dann auf **Entfernen**.
 
-## Generieren eines API-Schlüssels für Benutzer ohne Administratorrechte
+## Generieren eines API-Schlüssels für Benutzer ohne Administratorrechte—>
 
-Sie können API-Schlüssel für Benutzer in anderen Rollen als Workfront-Admins generieren und verwalten.
+<!--DELETE THIS SECTION MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Das in diesem Abschnitt beschriebene Verfahren wurde entfernt, da es nur auf Organisationen angewendet wurde, die noch nicht in die Adobe Admin Console integriert wurden.
+>
+>Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
+
+<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. (Bedingt) Wenn Ihre Organisation die Zugriffsverwaltung mit Single Sign-On (SSO) verwendet, deaktivieren Sie vorübergehend die Option, die eine SSO-Authentifizierung erfordert.
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
-
-   1. Erweitern Sie **System** und klicken Sie dann auf **Single Sign-on (SSO)**.
-   1. Wählen Sie im Feld **Typ** den SSO-Typ aus, den Ihr Unternehmen verwendet.
-   1. Scrollen Sie bei ausgewähltem Typ nach unten und deaktivieren Sie das Kontrollkästchen **Aktivieren**.
-
-      ![SSO aktivieren](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. Klicken Sie auf **Speichern**.
-
-
-1. Geben Sie in der Adressleiste eines Browsers den folgenden API-Aufruf ein:
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
-
-   Ersetzen Sie `<domain>` durch Ihren Workfront-Domain-Namen sowie den Benutzernamen und das Kennwort mit den Workfront-Anmeldeinformationen des Benutzers.
-
-1. (Bedingt) Aktivieren Sie die Option, die eine SSO-Authentifizierung erfordert, wenn Sie sie in Schritt 1 deaktiviert haben.
-
-   {{step-1-to-setup}}
-
-   1. Erweitern Sie **System** und klicken Sie dann auf **Single Sign-on (SSO)**.
-
-   1. Wählen Sie die SSO-Methode im Dropdown **Menü** Typ“ aus.
-   1. Aktivieren Sie das Kontrollkästchen, das eine SSO-Authentifizierung erfordert.
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.-->
 
 ## Konfigurieren, wann API-Schlüssel ablaufen
 
