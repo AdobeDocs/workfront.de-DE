@@ -67,9 +67,9 @@ Informationen zum [!DNL Admin Console] finden Sie in den folgenden Artikeln:
 
 Bestehende Kunden werden kontaktiert, um Migrationen zu planen. Das Migrations-Team unterstützt seine Kollegen dabei, den Kunden durch den Prozess zu führen, bei [!DNL Admin Console] Einrichtung zu beraten und Links zur Dokumentation bereitzustellen, die erforderlich ist, um den Umzug so einfach und unkompliziert wie möglich zu gestalten.
 
-* [[!DNL Adobe Workfront] Support-Übersicht](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] Information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] und [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Support-Übersicht](https://experienceleague.adobe.com/de/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] Information](https://experienceleague.adobe.com/de/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] und [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/de/docs/customer-one/using/workfront/faq)
 
 ### Wie handhabt ihr [!DNL Adobe Admin Console] für Unternehmen, die dies bereits für Federated IDs aktiviert haben, anders als [!DNL Workfront] SSO eingerichtet ist?
 
