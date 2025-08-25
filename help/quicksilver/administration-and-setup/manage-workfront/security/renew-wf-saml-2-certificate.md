@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Admin Console integriert wurden. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, ist keine Aktion erforderlich.
+>Das auf dieser Seite beschriebene Verfahren wurde entfernt, da es nur für Organisationen galt, die noch nicht in Adobe Admin Console integriert waren. Dieses Verfahren ist für Organisationen auf der Adobe Admin Console nicht erforderlich.
 >
->Eine Liste der Verfahren, die sich je nachdem unterscheiden, ob Ihr Unternehmen Adobe Admin Console verwendet hat, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Da nun alle Workfront-Organisationen in die Adobe Admin Console integriert wurden, wird dieser Artikel in naher Zukunft entfernt.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, ist keine Aktion erforderlich.
+>
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Die Adobe Workfront-Server verwenden das SAML 2.0-Protokoll für die Authentifizierung und Autorisierung. Nach der Aktualisierung bleibt das neue Zertifikat ein Jahr lang gültig. Wenn es Zeit ist, das Zertifikat auf Ihrem Identitätsanbieter zu verlängern, erhalten Sie in Workfront einen Warnhinweis, dass diese Änderung vorgenommen werden muss. Als Workfront-Administrator können Sie diese Änderung auf Systemebene verwalten.
 

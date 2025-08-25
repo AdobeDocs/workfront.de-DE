@@ -6,14 +6,14 @@ description: Der  [!DNL Workfront]  über Adobe Experience Cloud bietet Ihnen ei
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 0%
+source-wordcount: '673'
+ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Unified Experience] für [!DNL Workfront]
+# [!DNL Adobe Unified Experience] for [!DNL Workfront]
 
 <!--Audited: 10/2024-->
 
@@ -28,7 +28,7 @@ Wenn sich Ihr Unternehmen im einheitlichen Adobe-Erlebnis befindet, beginnt die 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,11 +52,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Voraussetzungen
+<!--DELETE THIS SECTION MARCH 2026-->
 
-Die [!DNL Workfront]-Instanz Ihres Unternehmens muss in die [!DNL Adobe Business Platform] oder die [!DNL Adobe Admin Console] integriert werden.
+<!--## Prerequisites
 
-Wenn Sie Fragen zum Onboarding bei der [!DNL Adobe Admin Console] haben, lesen Sie die [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
+
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
 
 ## Adobe Identity Management System (IMS)
 
@@ -66,7 +68,7 @@ Informationen zur Anmeldung bei Workfront in Adobe Unified Experience finden Sie
 
 Informationen zur Benutzerverwaltung in der Adobe Admin Console finden Sie im Artikel [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-## Anmelden bei [!DNL Adobe Experience Cloud]
+## Melden Sie sich bei [!DNL Adobe Experience Cloud] an.
 
 1. Öffnen Sie ein Browser-Fenster und navigieren Sie zu <https://experience.adobe.com>.
 1. Geben Sie auf dem Bildschirm [!UICONTROL **Anmelden**] Ihre E-Mail-Adresse ein und klicken Sie auf **[!UICONTROL Weiter]**.
@@ -77,9 +79,9 @@ Informationen zur Benutzerverwaltung in der Adobe Admin Console finden Sie im Ar
 >
 >Wenn eine Browser-Registerkartensitzung auf einer Seite abläuft, auf der Workfront geöffnet ist, und Sie eine aktive Workfront-Sitzung auf einer anderen Browser-Registerkarte haben, können Sie die abgelaufene Registerkarte neu laden, um die Workfront-Seite erneut zu öffnen.
 
-## [!DNL Workfront]
+## Zugriff auf [!DNL Workfront]
 
-Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/aec-view-all-orgs.png)
 

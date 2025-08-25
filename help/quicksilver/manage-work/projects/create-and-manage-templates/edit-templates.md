@@ -6,7 +6,7 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 2%
@@ -108,7 +108,7 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
    * [Vorlageneinstellungen](#template-settings)
    * [Aufgabeneinstellungen](#task-settings)
    * [Problemeinstellungen](#issue-settings)
-   * [Zugriff](#access-preview)
+   * [Zugriff auf](#access-preview)
    * [Kommentar](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
@@ -488,7 +488,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    ![Abschnitt „Anfrageeinstellungen im Feld „Vorlage bearbeiten“](assets/edit-template-box-issue-settings-section.png)
 
-1. (Optional) Deaktivieren Sie die Option **Benutzer dürfen Probleme inline hinzufügen**. Sie ist standardmäßig aktiviert.
+1. (Optional) Deaktivieren Sie die Option **Benutzer dürfen Probleme inline hinzufügen**. Diese ist standardmäßig aktiviert.
 
    Wenn diese Option deaktiviert ist, können Benutzende keine Probleme inline zum Projekt oder zu den Aufgaben im Abschnitt „Probleme“ hinzufügen, wenn das Projekt über die Vorlage erstellt wird.
 
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 

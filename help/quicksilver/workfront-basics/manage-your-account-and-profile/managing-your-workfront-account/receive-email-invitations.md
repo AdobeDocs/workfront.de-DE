@@ -6,9 +6,9 @@ description: Wenn  [!DNL Workfront]  Administrator einen neuen Benutzer erstellt
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,7 +42,6 @@ Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder 
 
 Wenn ein [!DNL Workfront] einen neuen Benutzer erstellt, erhält der neue Benutzer möglicherweise eine Einladungs-E-Mail, die auf verschiedenen Faktoren basiert:
 
-* Ob die Organisation des Benutzers in die [!DNL Adobe Admin Console] integriert wurde
 * Ob der Benutzer in [!DNL Workfront] oder der [!DNL Admin Console] hinzugefügt wurde
 * Ob der Benutzer Zugriff auf andere [!DNL Adobe] Produkte hat oder ein neuer [!DNL Adobe] ist
 * Ob der Administrator beschlossen hat, dem Benutzer eine E-Mail-Einladung zu senden (gilt nur für Organisationen, die sich noch nicht auf der [!DNL Admin Console] befinden)
@@ -57,7 +56,7 @@ Als neuer Benutzer können Sie nach Erhalt der Einladungs-E-Mail dem Link in der
 
 >[!NOTE]
 >
->Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL &#x200B; die Ihr [!DNL Workfront]-Administrator im Bereich &#x200B;]Allgemeine Optionen[!UICONTROL &#x200B; der &#x200B;]Einladungen“ angegeben hat.
+>Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL  die Ihr ]-Administrator im Bereich [!UICONTROL Allgemeine Optionen] der [!DNL Workfront]Einladungen“ angegeben hat.
 
 So erstellen Sie ein Kennwort für [!DNL Workfront] mithilfe der Einladungs-E-Mail:
 

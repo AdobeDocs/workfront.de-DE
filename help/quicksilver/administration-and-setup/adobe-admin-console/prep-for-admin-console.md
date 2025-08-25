@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Vorbereiten des Onboardings Ihres Unternehmens in der Adobe Admin Console
-description: Da Adobe Workfront ein Adobe-Produkt ist, können Sie über die Adobe Admin Console darauf zugreifen. Auf diese Weise können Sie Workfront zusammen mit anderen Adobe-Konten und Produkten für Ihre Benutzerinnen und Benutzer an einem zentralen Ort verwalten.
+description: Da Adobe Workfront ein Adobe-Produkt ist, können Sie über die Adobe Admin Console darauf zugreifen. Dadurch können Sie Workfront zusammen mit anderen Adobe-Konten und -Produkten für Ihre Benutzenden an einem zentralen Ort verwalten.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,17 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Da Adobe Workfront ein Adobe-Produkt ist, können Sie über die Adobe Admin Console darauf zugreifen. Auf diese Weise können Sie Workfront zusammen mit anderen Adobe-Konten und Produkten für Ihre Benutzerinnen und Benutzer an einem zentralen Ort verwalten.
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Da nun alle Organisationen in die Adobe Admin Console migriert wurden, wird dieser Artikel in naher Zukunft entfernt.
+
+Da Adobe Workfront ein Adobe-Produkt ist, können Sie über die Adobe Admin Console darauf zugreifen. Dadurch können Sie Workfront zusammen mit anderen Adobe-Konten und -Produkten für Ihre Benutzenden an einem zentralen Ort verwalten.
 
 Alle Workfront-Kunden werden schließlich in die Adobe Admin Console verschoben. Nachdem Ihr Unternehmen zur Adobe Admin Console gewechselt ist, wird die Workfront-Authentifizierung von der Konsole verwaltet. Die Vorbereitung und Durchführung dieses Schritts früher legt den Grundstein für ein effizientes Arbeitsmanagement und positioniert Ihr Unternehmen für schnellere Innovationen in der Zukunft
 
-Einen Überblick über Adobe Admin Console finden Sie unter Übersicht über die [Admin Console ](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Einen Überblick über Adobe Admin Console finden Sie unter [Übersicht über Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 ## Migrations-Checkliste
 
@@ -35,7 +41,7 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
 
    * Wenn Ihr Unternehmen über keine bestehende Adobe Admin Console verfügt oder Sie keine bestehende Adobe Admin Console verwenden möchten, kann Ihnen der Workfront-Support bei der Erstellung einer neuen helfen.
 
-   * Wenn Sie mehrere Adobe-Admin Consolen haben und sich nicht sicher sind, welche am besten zum Hinzufügen von Workfront geeignet ist, wenden Sie sich an den Workfront-Support.
+   * Wenn Sie über mehrere Adobe Admin Consoles verfügen und sich nicht sicher sind, welche am besten zum Hinzufügen von Workfront geeignet ist, wenden Sie sich an den Workfront-Support.
 
 1. Bestätigen Sie mit dem Workfront-Support, dass Sie eine bestehende Adobe Admin Console verwenden oder eine neue erstellen lassen möchten.
 
@@ -45,7 +51,7 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
    >
    >Bereiten Sie sich darauf vor, mit dem Workfront-Support und Ihrem IT-Team über Authentifizierungseinstellungen wie Single Sign-on (SSO) oder Nicht-SSO zu sprechen.
 
-   Anweisungen finden Sie im Abschnitt Identity Management des [Bereitstellungshandbuchs für Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/deployment-planning.html).
+   Anweisungen finden Sie im Abschnitt Identity Management des [Bereitstellungshandbuchs für Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Bedingt) Wenn Sie Single Sign-on verwenden, verbinden Sie die neue Adobe Admin Console mit Ihrem bestehenden SSO-Anbieter.
 
