@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Verlängern des Adobe Workfront SAML 2.0-Metadatenzertifikats
-
->[!IMPORTANT]
->
->Das auf dieser Seite beschriebene Verfahren wurde entfernt, da es nur für Organisationen galt, die noch nicht in Adobe Admin Console integriert waren. Dieses Verfahren ist für Organisationen auf der Adobe Admin Console nicht erforderlich.
->
->Da nun alle Workfront-Organisationen in die Adobe Admin Console integriert wurden, wird dieser Artikel in naher Zukunft entfernt.
-
-<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
