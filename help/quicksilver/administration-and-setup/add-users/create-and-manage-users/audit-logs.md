@@ -1,5 +1,5 @@
 ---
-title: Auditprotokolle
+title: Übersicht über Auditprotokolle
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
 
-# Audit-Protokolle
+# Übersicht über Auditprotokolle
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 * [Benutzerdefinierter Abschnitt](#custom-section)
 * [Wechselkurs](#exchange-rate)
 * [Gruppe](#group)
-* [Aufgabengebiete](#job-roles)
-* [Anmeldeversuch](#login-attempt)
+* [Aufgabengebiet](#job-role)
 * [Priorität](#priority)
 * [Projektvoreinstellung](#project-preference)
 * [Schweregrad](#severity)
 * [Status](#status)
 * [Voreinstellungen für Aufgaben und Probleme](#tasks-issues-preferences)
 * [Benutzerin bzw. Benutzer](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Zugriffsebene {#access-level}
 
@@ -236,7 +236,7 @@ Das System generiert einen Eintrag im Administratorprotokoll für eine Gruppe, w
    * Fügt Benutzer hinzu oder entfernt sie
    * Fügt Untergruppen hinzu oder entfernt sie
 
-### Aufgabengebiete {#job-roles}
+### s {#job-role}
 
 Das System generiert einen Eintrag im Administratorprotokoll für Aufgabengebiete, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 

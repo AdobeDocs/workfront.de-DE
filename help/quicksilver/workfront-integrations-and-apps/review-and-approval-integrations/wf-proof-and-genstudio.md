@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Durch die Integration zwischen GenStudio for Performance Marketing und Workfront
 
 * Anzeigen von Überprüfungsentscheidungen in GenStudio for Performance Marketing zur endgültigen Genehmigung und Veröffentlichung
 
-Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Zugriffsanforderungen
@@ -67,9 +67,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Integrationsanforderungen
 
-* Workfront und GenStudio for Performance Marketing müssen in derselben IMS-Organisation bereitgestellt werden.
+* Workfront und GenStudio for Performance Marketing müssen in derselben Identity Management System (IMS)-Organisation bereitgestellt werden.
 
-* Benutzende können nur zu einer Workfront-Instanz in der IMS-Organisation gehören.
+* Benutzende können nur zu einer Workfront-Instanz innerhalb der IMS-Organisation gehören.
 
 * Die Workfront-Instanz muss für das einheitliche Adobe-Erlebnis aktiviert sein.
 
@@ -102,7 +102,7 @@ Weitere Informationen zum Erstellen automatisierter Workflows und Vorlagen in Wo
 
 Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede Korrekturabzugs-Workflow-Vorlage ändern und Prüfer und Phasen hinzufügen oder entfernen.
 
-Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Workfront Proofing Viewer
 
@@ -114,7 +114,7 @@ Mit dem Proofing Viewer können Sie
 * Markup-Entwurf, um anzuzeigen, was geändert werden muss
 * Entscheidung treffen
 
-Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](http
 
 Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio for Performance Marketing veröffentlichen.
 
-Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

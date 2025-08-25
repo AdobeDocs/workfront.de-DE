@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Im Bereich Audit-Protokolle können Sie jetzt Änderungen in weiteren Bereichen 
 * Ändert eine Projekteinstellung oder erstellt oder löscht ein benutzerdefiniertes Quartal.
 * Ändert die Voreinstellungen für Aufgaben und Probleme
 
-Weitere Informationen finden Sie [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Weitere Informationen finden Sie unter [Übersicht über Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 Diese Funktion ist jetzt in den [Admin-Grundlagen für die neue Workfront-Version - Teil 2: Projekteinrichtung - Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Sie können alle Audit-Protokolle im System oder diejenigen anzeigen, die bestim
 
 Audit-Protokolle enthalten Benutzeränderungen, die in den letzten 90 Tagen im System ausgelöst wurden.
 
-Informationen zu allen Prüfprotokolltypen und deren Generierung finden Sie unter [Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Informationen zu allen Prüfprotokolltypen und deren Generierung finden Sie unter [Übersicht über Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Zugriffsanforderungen
 
@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    **Alle Protokolltypen** ist standardmäßig ausgewählt.
 
-   Eine Liste aller Prüfprotokolltypen, die angezeigt werden können, und der darin enthaltenen Informationen finden Sie unter [Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Eine Liste aller Prüfprotokolltypen, die angezeigt werden können, sowie die darin enthaltenen Informationen finden Sie unter [Übersicht über Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optional) Legen Sie einen der verfügbaren Filter für die folgenden Felder fest:
 

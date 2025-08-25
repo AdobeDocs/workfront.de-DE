@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 2%
 
 ---
@@ -489,7 +489,7 @@ ht-degree: 2%
          * [Benutzerattribute zuordnen](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Deaktivieren einer Person](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Benutzer löschen](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Audit-Protokolle](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Übersicht über Auditprotokolle](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Auditprotokolle anzeigen und exportieren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Benutzeranmeldeinformationen anzeigen](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Verwalten von Benutzenden in der Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 2%
       * [Architektur: Artikelindex](planning/architecture/architecture-information.md)
       * [Arbeitsbereiche - Übersicht](planning/architecture/workspaces-overview.md)
       * [Erstellen von Arbeitsbereichen](planning/architecture/create-workspaces.md)
+      * [Workspace-Hierarchien erstellen](planning/architecture/create-workspace-hierarchies.md)
       * [Übersicht über Datensatztypen](planning/architecture/overview-of-record-types.md)
       * [Datensatztypen erstellen](planning/architecture/create-record-types.md)
       * [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
@@ -2107,7 +2108,7 @@ ht-degree: 2%
       * [Übersicht über verbundene Datensätze](planning/records/connected-records-overview.md)
       * [Datensätze verbinden](planning/records/connect-records.md)
       * [Datensätze bearbeiten](planning/records/edit-records.md)
-      * [Löschen von Datensätzen](planning/records/delete-records.md)
+      * [Löschen von Einträgen](planning/records/delete-records.md)
       * [Gelöschte Einträge wiederherstellen](planning/records/restore-deleted-records.md)
       * [Freigeben von Datensätzen](planning/records/share-records.md)
       * [Doppelte Einträge](planning/records/copy-or-duplicate-records.md)
