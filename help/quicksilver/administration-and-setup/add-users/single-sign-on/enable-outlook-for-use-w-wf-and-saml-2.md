@@ -32,7 +32,7 @@ Wenn Sie die SAML 2.0-Authentifizierung aktivieren und möchten, dass sich Ihre 
 >[!NOTE]
 >
 >Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens ein benutzerdefiniertes SSO-Portal verwendet.
->>Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>&#x200B;>Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 <!--
 or is enabled with Adobe IMS-->
 
