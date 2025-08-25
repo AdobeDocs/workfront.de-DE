@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 5%
+source-wordcount: '951'
+ht-degree: 7%
 
 ---
 
@@ -110,32 +110,32 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      <tr> 
       <td role="rowheader">Externe Benutzer auffordern, sich mit einem Kennwort zu registrieren</td> 
       <td> <p>Externe Benutzer müssen sich registrieren, bevor sie Elemente in Workfront anzeigen können. Standardmäßig ist diese Option deaktiviert. Wenn Sie diese Option aktivieren, werden Personen ohne Workfront-Konto, die über ihre E-Mail-Adresse in bestimmte Updates eingebunden sind, aufgefordert, ein Konto zu erstellen, bevor sie das Element anzeigen können, in dem sie enthalten sind. Dadurch wird ein externes Benutzerkonto für sie erstellt.</p> <p>Standardmäßig ist diese Option deaktiviert.</p> </td> 
-     </tr>
-<!-- DELETE THIS SECTION MARCH 2026   <tr> 
-      <td role="rowheader">Automatically log users out after</td> 
-      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Benutzer automatisch abmelden nach</td> 
+      <td> Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität von Workfront abgemeldet wird. Standardmäßig werden Benutzer nach 8 Stunden Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mobile Benutzer automatisch abmelden nach </td> 
+      <td>Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität bei der Workfront-Anwendung abgemeldet wird. Standardmäßig werden Benutzer nach 7 Tagen Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Hilfe-URL</td> 
+      <td>Ermöglicht die Definition einer internen benutzerdefinierten Hilfeseite, zu der das Hilfesymbol des Hauptmenüs wechseln soll. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurieren einer benutzerdefinierten Hilfe-URL</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Automatically log mobile users out after </td> 
-      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr>  -->
-    &lt;tr>
-    &lt;td role=„rowhader“>Benutzerdefinierte Hilfe-URL&lt;/td>
-    &lt;td>Hier können Sie eine interne benutzerdefinierte Hilfe-Site definieren, zu der das Hilfesymbol des Hauptmenüs geleitet werden soll. Weitere Informationen finden Sie unter &lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;>Konfigurieren einer benutzerdefinierten Hilfe-URL&lt;/a>.&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=„rowhader“>Benutzer im System sehen standardmäßig das neue Starterlebnis &lt;/td>
-    &lt;td>Hier können Sie angeben, ob Benutzer das neue Starterlebnis standardmäßig sehen werden. Wenn diese Option aktiviert ist, wird den Benutzenden standardmäßig die neue Startseite angezeigt, sie können sich jedoch auch einzeln für die Aktivierung oder Deaktivierung der neuen Startseite entscheiden. Wenn diese Option deaktiviert ist, wird den Benutzenden das Banner, das ihnen den Wechsel zur neuen Startseite ermöglicht, nicht angezeigt. Sie können jedoch weiterhin zur neuen Startseite navigieren, indem sie am Ende ihrer Instanz-URL &lt;code>/home/workspaces&lt;/code> manuell eingeben. Diese Einstellung ist standardmäßig aktiviert.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=„rowhader“>Aktivieren der Prioritäts-Worklist &lt;/td>
-    &lt;td>Hiermit können Sie die Prioritäts-Worklist für Ihre Benutzer aktivieren oder deaktivieren. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter &lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;>Erste Schritte mit Prioritäten&lt;/a>.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=„rowhader“>Testumgebungen&lt;/td>
-    &lt;td>Ermöglicht den Zugriff auf Ihre Workfront-Testumgebungen. Weitere Informationen finden Sie unter &lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>Die Sandbox-Vorschau für Adobe Workfront&lt;/a>.&lt;/p>&lt;/td>
-    &lt;/tbody>
-</table>
+      <td role="rowheader">Benutzer im System sehen standardmäßig die neue Startseite </td> 
+      <td>Hier können Sie angeben, ob Benutzern das neue Startseiten-Erlebnis standardmäßig angezeigt wird. Wenn diese Option aktiviert ist, wird den Benutzenden standardmäßig die neue Startseite angezeigt, sie können sich jedoch auch einzeln für die Aktivierung oder Deaktivierung der neuen Startseite entscheiden. Wenn diese Option deaktiviert ist, wird den Benutzenden das Banner, das ihnen den Wechsel zur neuen Startseite ermöglicht, nicht angezeigt. Sie können jedoch weiterhin zur neuen Startseite navigieren, indem sie am Ende ihrer Instanz-URL manuell <code>/home/workspaces</code> eingeben. Diese Einstellung ist standardmäßig aktiviert.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Arbeitsliste „Prioritäten“ aktivieren </td> 
+      <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Testumgebungen</td> 
+      <td>Ermöglicht den Zugriff auf Ihre Workfront-Testumgebungen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Die Adobe Workfront-Vorschau-Sandbox-Umgebung</a>.</p></td> 
+    </tbody> 
+   </table>
 
 1. Klicken Sie auf **Speichern**.
 

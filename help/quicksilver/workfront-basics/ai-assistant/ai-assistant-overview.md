@@ -5,9 +5,9 @@ description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -49,10 +49,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Um den KI-Assistenten für Ihre Organisation zu aktivieren **müssen** alle) der folgenden Bedingungen zutreffen:
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled-->
+* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
+* Adobe Unified Experience muss aktiviert sein
 * Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
 * Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen
 
