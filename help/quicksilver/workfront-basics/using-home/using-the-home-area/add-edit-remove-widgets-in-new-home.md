@@ -6,10 +6,10 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 6%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -95,7 +95,7 @@ Hinzufügen eines Widgets:
    ![Schaltfläche „Anpassen](assets/customize-button.png)
 1. Scrollen Sie zum Abschnitt **Widgets** und wählen Sie dann die Widgets aus, die Sie hinzufügen möchten.
 
-+++ Erweitern um eine detaillierte Liste der verfügbaren Widgets anzuzeigen
+   +++ Erweitern um eine detaillierte Liste der verfügbaren Widgets anzuzeigen
 
    * **Meine Arbeit**\
        Zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Bearbeitung eines Elements zu beginnen, oder auf die Schaltfläche Fertig , um das Element als abgeschlossen zu markieren. Sie können auch über das Widget Meine Arbeit Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen aktualisieren, die Zeit protokollieren und Aktualisierungen hinzufügen.
@@ -119,7 +119,10 @@ Hinzufügen eines Widgets:
        Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
    * **Meine Genehmigungen**\
-       Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
+       Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen, eine Schaltfläche zum Delegieren von Genehmigungen und Schaltflächen zum Treffen von Genehmigungsentscheidungen direkt im Widget an. Genehmigungen werden wie folgt geordnet:
+      * Überfällige Fristen
+      * Bevorstehende Fristen
+      * Elemente ohne Frist
 
    * **Metriken für Dokumentengenehmigung**\
            Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Genehmigungszeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. Dieses Widget kann nur verwendet werden, wenn [Einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiviert ist.
@@ -134,7 +137,7 @@ Hinzufügen eines Widgets:
      >
      >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im Aufgaben-Widget erstellen zu können. Nur persönliche Aufgaben, die vom aktuellen Benutzer eingegeben wurden, werden angezeigt.
 
-+++
+   +++
 
 1. Klicken Sie **Widget hinzufügen**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -127,17 +127,15 @@ So passen Sie die Startseite mithilfe einer Layout-Vorlage an:
         <li>Meine Probleme</li>
       </ul>
       <p>Nachdem Sie das Widget ausgewählt haben, das Sie bearbeiten möchten, wählen Sie die <b>Filter</b>, <b>Spalten</b> und <b>Gruppen</b> aus, die Sie für die Startseite auf der rechten Seite verfügbar machen möchten.</p>
-      <p> Sie können:</p>
+      <p> Sie haben folgende Möglichkeiten:</p>
       <ul>
       <li><p>Wählen Sie die für Benutzer verfügbaren Filter, Spalten oder Gruppen aus und ordnen Sie sie an, indem Sie das Kontrollkästchen neben den Optionen in der Liste aktivieren. Deaktivierte Optionen werden für Benutzende nicht angezeigt.</p></li>
-      <li> <p>Optionen per Drag-and-Drop in die Liste ziehen, um eine Reihenfolge festzulegen.</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* Die Filter-, Spalten- und Gruppenoptionen sind mit den Listenanpassungsoptionen in der Layout-Vorlage verknüpft. Hier vorgenommene Änderungen gelten auch für diese Einstellungen.
    >* Benutzer müssen mindestens Zugriff auf „Erstellen“ für Ansichten haben, damit die Spaltenkonfiguration des Administrators ordnungsgemäß auf ihre Startseiten angewendet werden kann.
-
    </p>
       <li><p>Legen Sie einen Standardfilter oder eine Standardgruppe für das Widget fest, indem Sie den Mauszeiger über eine Option bewegen und auf <b>Als Standard festlegen</b> klicken. Die aktuelle Standardeinstellung zeigt rechts neben der <b> ein blaues </b>.</p></li>
       <li><p>Fügen Sie einen vorhandenen Filter, eine vorhandene Spalte oder eine vorhandene Gruppe zur Liste der verfügbaren Optionen hinzu, indem Sie auf die Schaltfläche mit dem Pluszeichen unten in jeder Liste klicken, um dieser Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</p></li>

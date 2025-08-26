@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Das Widget Meine Genehmigungen wird jetzt automatisch nach </a> sortiert<p></p>
-            <p>Das Widget Meine Genehmigungen auf der Startseite wurde aktualisiert, sodass standardmäßig nach Frist (absteigend) sortiert wird. Dadurch können die dringendsten Genehmigungen oben in der Liste angezeigt werden. </p><p><b>Hinweis</b> Derzeit können im Widget Meine Genehmigungen nur Korrekturabzugsgenehmigungen nach Frist sortiert werden.</p>
+            <p>Das Widget Meine Genehmigungen auf der Startseite wurde aktualisiert, sodass standardmäßig nach Frist (aufsteigend) sortiert wird. Dadurch können die dringendsten Genehmigungen oben in der Liste angezeigt werden. Genehmigungen werden wie folgt geordnet:</p>
+            <ul>
+                <li>Überfällige Fristen</li>
+                <li>Bevorstehende Fristen</li>
+                <li>Elemente ohne Frist</li>
+            </ul>
+            <p><b>Hinweis</b> Derzeit können im Widget Meine Genehmigungen nur Korrekturabzugsgenehmigungen nach Frist sortiert werden.</p>
         </td>
         <td>29. Mai 2025</td>
         <td>Freitag, 12. Juni 2025</td>
@@ -381,7 +387,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

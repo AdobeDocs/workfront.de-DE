@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ Weitere Informationen finden Sie unter [Verwenden des Bereichs Meine Aktualisier
 >* Produktions-Schnellveröffentlichung: 12. Juni 2025
 >* Produktion für alle Kunden: 17. Juli 2025
 
-Das Widget Meine Genehmigungen auf der Startseite wurde aktualisiert, sodass standardmäßig nach Frist (absteigend) sortiert wird. Dadurch können die dringendsten Genehmigungen oben in der Liste angezeigt werden.
+Das Widget Meine Genehmigungen auf der Startseite wurde aktualisiert, sodass standardmäßig nach Frist (aufsteigend) sortiert wird. Dadurch können die dringendsten Genehmigungen oben in der Liste angezeigt werden. Genehmigungen werden wie folgt geordnet:
+
+* Überfällige Fristen
+* Bevorstehende Fristen
+* Elemente ohne Frist
 
 Derzeit können im Widget Meine Genehmigungen nur Korrekturabzugsgenehmigungen nach Frist sortiert werden.
 
