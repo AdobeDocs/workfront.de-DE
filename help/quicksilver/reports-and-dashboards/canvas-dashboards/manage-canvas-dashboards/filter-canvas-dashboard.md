@@ -5,11 +5,9 @@ title: Filtern eines Arbeitsflächen-Dashboards
 description: Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, nachdem es erstellt wurde.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -20,9 +18,9 @@ ht-degree: 0%
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Sie können einen Filter auf das Dashboard anwenden, der Eingabeaufforderungen enthält __________
+Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabeaufforderungen enthält. Eine Eingabeaufforderung dient als Filtermodifikator, der zusätzliche Filterkriterien anwendet, sodass Sie Ihre Ergebnisse noch weiter eingrenzen können. Diese Eingabeaufforderungen können bei jeder Anwendung des Filters geändert werden, sodass Sie die angezeigten Ergebnisse anpassen können, ohne die wichtigsten Filterkriterien des Dashboards oder jeden einzelnen Bericht bearbeiten zu müssen.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,6 +67,26 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 ## Dashboard filtern
 
+Führen Sie die folgenden Schritte in der angegebenen Reihenfolge aus, um ein Dashboard zu filtern:
+
+* [Teil 1: Erstellen eines Dashboard-Filters](#part-1-create-a-dashboard-filter)
+* [Teil 2: Erstellen einer Dashboard-Eingabeaufforderung](#part-2-define-a-dashboard-prompt)
+* [Teil 3: Anwenden einer Dashboard-Eingabeaufforderung](#step-3-apply-a-dashboard-prompt)
+
+>[!NOTE]
+>
+>Der Dashboard-Filter wird auf alle Berichte angewendet, in denen Filter auf Dashboard-Ebene nicht deaktiviert sind.  Sie können einzelne Berichte von der Anwendung von Filtern auf Dashboard-Ebene ausschließen, indem Sie das Aktionsmenü für jeden Bericht erweitern und die Option **Filter deaktivieren** auswählen.
+
+
+### Teil 1: Erstellen eines Dashboard-Filters
+
+Mit einem Dashboard-Filter können Sie einen gemeinsamen Filter auf alle Berichte anwenden, die in einem Dashboard verfügbar sind, ohne die Filter für jeden einzelnen Bericht ändern zu müssen.
+
+>[!NOTE]
+>
+>Diese Filter können nur von einem Benutzer mit Verwaltungszugriff auf das Dashboard konfiguriert werden.
+
+
 {{step1-to-dashboards}}
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
@@ -85,9 +103,22 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
       ![Bearbeiten-Symbol](assets/edit-icon.png)
 
-   1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
+   1. Klicken Sie **Bedingung hinzufügen** und fügen Sie dann die folgenden Informationen hinzu:
+      * Wählen Sie ein Feld aus, nach dem Sie filtern möchten.
+      * Wählen Sie eine Option (oder einen Filtermodifikator) aus, um festzulegen, welche Art von Bedingung das Feld erfüllen muss.
 
    1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
+
+1. Fahren Sie mit [Teil 2: Erstellen einer Dashboard-Eingabeaufforderung](#part-2-define-a-dashboard-prompt) fort.
+
+
+### Teil 2: Dashboard-Eingabeaufforderung definieren
+
+In einer Dashboard-Eingabeaufforderung haben Benutzer die Möglichkeit, zusätzliche benutzerdefinierte Filter auf im Dashboard verfügbare Berichte anzuwenden.
+
+>[!NOTE]
+>
+>Die Dashboard-Eingabeaufforderungsoptionen können nur von einem Benutzer mit Verwaltungszugriff auf das Dashboard konfiguriert werden.
 
 1. Gehen Sie wie folgt vor, um eine Eingabeaufforderung hinzuzufügen:
 
@@ -95,7 +126,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
    1. Geben Sie einen Titel in das Feld **Bezeichnung anpassen** ein.
 
-   1. Klicken Sie **Feld auswählen** und geben Sie dann das Feld an, das Sie ________ möchten.
+   1. Wählen Sie das Feld aus, auf dem die Eingabeaufforderung basieren soll, indem Sie den Namen des Felds eingeben und es dann auswählen, wenn es in der Liste angezeigt wird. 
 
 1. Gehen Sie wie folgt vor, um eine benutzerdefinierte Eingabeaufforderung hinzuzufügen:
 
@@ -105,10 +136,34 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
    1. Klicken Sie **Neue Option hinzufügen**.
 
-   1. Geben Sie _____ in das Feld **Optionswert** ein.
+   1. Geben Sie den Namen der Eingabeaufforderung in das Feld **Optionswert** ein.
 
    1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
+
+      >[!NOTE]
+      >
+      >Die Bedingung einer benutzerdefinierten Eingabeaufforderung kann nur im Textmodus bearbeitet werden. Auf diese Weise können mehrere Bedingungen in einem einzigen Feld angewendet werden.
+
 
    1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
 
 1. Klicken Sie **Speichern**, um den Filter auf das Dashboard anzuwenden.
+
+1. Fahren Sie mit [Teil 3: Anwenden einer Dashboard-Eingabeaufforderung](#step-3-apply-a-dashboard-prompt) fort.
+
+### Schritt 3: Dashboard-Eingabeaufforderung anwenden
+
+Alle Benutzer mit Zugriff auf ein Dashboard können eine Dashboard-Eingabeaufforderung auf ein Canvas-Dashboard anwenden, sobald der Filter und die Eingabeaufforderungen erstellt wurden.
+
+{{step1-to-dashboards}}
+
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+
+1. Wählen Sie auf der **Arbeitsflächen** Dashboards“ das Dashboard aus, auf das Sie die Eingabeaufforderung anwenden möchten.
+
+1. Klicken Sie oben links auf der Detailseite des Dashboards auf **Filter**. Das seitliche Bedienfeld „Filter“ wird geöffnet.
+
+1. Wählen Sie **Abschnitt Datensätze anzeigen, bei denen…** eine Bedingung für eine oder alle angezeigten Eingabeaufforderungen aus. Die Eingabeaufforderung wird angewendet, und ein **Dashboard-Filter angewendet**-Tag wird in der Ecke des Berichts-Widgets angezeigt.
+   ![Bedingung auswählen](assets/prompts-list.png)
+
+1. Klicken Sie auf **Schließen**-Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke, um das Bedienfeld auszublenden.
