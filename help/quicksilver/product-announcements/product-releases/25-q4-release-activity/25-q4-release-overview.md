@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1638'
 ht-degree: 4%
 
 ---
@@ -82,6 +82,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen - schrittweiser Rollout</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.</p>
+            <p>Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die neuen Funktionen. 
+</p>
+        </td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Neuer Workfront AI-Reviewer</a><p></p>
@@ -349,7 +360,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -361,7 +372,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

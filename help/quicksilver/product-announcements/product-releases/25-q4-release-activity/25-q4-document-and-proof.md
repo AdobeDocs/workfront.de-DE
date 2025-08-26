@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Auf dieser Seite werden die Dokument- und Proofing-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Einheitlicher Rollout von Genehmigungen nach Phasen
+
+>[!NOTE]
+>
+>Produktionsversion für Kunden: Schrittweiser Rollout ab 17. Juli 2025
+
+
+Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.
+
+Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die folgenden Funktionen direkt in einem Dokument:
+
+* Ein ganzes Workfront-Team entweder als Prüfer oder als genehmigende Person bestimmen
+* Festlegen einer Frist für die Überprüfung oder Genehmigung
+* Erstellen und Wiederverwenden von Genehmigungsvorlagen
+* Verwenden neuer Versionen
+* Anzeigen mehrerer wichtiger Leistungsindikatoren für Ihre Genehmigungen in den Widgets der Workfront-Startseite
+* Verwenden von Arbeitsflächen-Dashboards zum Anzeigen von Berichtsdetails zu einheitlichen Genehmigungen
+
+Weitere Informationen finden Sie unter [Übersicht über einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Neuer Workfront AI Reviewer
 
