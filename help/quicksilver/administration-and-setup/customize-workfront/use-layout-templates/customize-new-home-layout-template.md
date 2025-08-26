@@ -136,11 +136,11 @@ So passen Sie die Startseite mithilfe einer Layout-Vorlage an:
    >
    >* Die Filter-, Spalten- und Gruppenoptionen sind mit den Listenanpassungsoptionen in der Layout-Vorlage verknüpft. Hier vorgenommene Änderungen gelten auch für diese Einstellungen.
    >* Benutzer müssen mindestens Zugriff auf „Erstellen“ für Ansichten haben, damit die Spaltenkonfiguration des Administrators ordnungsgemäß auf ihre Startseiten angewendet werden kann.
-   </p>
-      <li><p>Legen Sie einen Standardfilter oder eine Standardgruppe für das Widget fest, indem Sie den Mauszeiger über eine Option bewegen und auf <b>Als Standard festlegen</b> klicken. Die aktuelle Standardeinstellung zeigt rechts neben der <b> ein blaues </b>.</p></li>
-      <li><p>Fügen Sie einen vorhandenen Filter, eine vorhandene Spalte oder eine vorhandene Gruppe zur Liste der verfügbaren Optionen hinzu, indem Sie auf die Schaltfläche mit dem Pluszeichen unten in jeder Liste klicken, um dieser Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</p></li>
-      </ul>
-      <p>
+   ></p>
+   >   <li><p>Legen Sie einen Standardfilter oder eine Standardgruppe für das Widget fest, indem Sie den Mauszeiger über eine Option bewegen und auf <b>Als Standard festlegen</b> klicken. Die aktuelle Standardeinstellung zeigt rechts neben der <b> ein blaues </b>.</p></li>
+   >   <li><p>Fügen Sie einen vorhandenen Filter, eine vorhandene Spalte oder eine vorhandene Gruppe zur Liste der verfügbaren Optionen hinzu, indem Sie auf die Schaltfläche mit dem Pluszeichen unten in jeder Liste klicken, um dieser Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</p></li>
+   >   </ul>
+   >   <p>
 
    >[!NOTE]
    >
