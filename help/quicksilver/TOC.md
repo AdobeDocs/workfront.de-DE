@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+source-git-commit: 6f1b24548fe99b5833dce0e5456eaefa5591abd1
 workflow-type: tm+mt
-source-wordcount: '13461'
+source-wordcount: '13464'
 ht-degree: 2%
 
 ---
@@ -830,6 +830,7 @@ ht-degree: 2%
          * [Exportieren einer Liste](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [Ändern der Anzeige einer Liste](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+         * [Erweiterte Listen verwenden](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
       * [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [Häufig gestellte Fragen zu Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [Übersicht über die obere Navigationsleiste](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
@@ -2107,7 +2108,7 @@ ht-degree: 2%
       * [Erstellen von Datensätzen](planning/records/create-records.md)
       * [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/records/import-file-to-create-records.md)
       * [Übersicht über verbundene Datensätze](planning/records/connected-records-overview.md)
-      * [Datensätze verbinden](planning/records/connect-records.md)
+      * [Einträge verbinden](planning/records/connect-records.md)
       * [Datensätze bearbeiten](planning/records/edit-records.md)
       * [Löschen von Einträgen](planning/records/delete-records.md)
       * [Gelöschte Einträge wiederherstellen](planning/records/restore-deleted-records.md)
