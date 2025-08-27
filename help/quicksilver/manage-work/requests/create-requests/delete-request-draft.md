@@ -6,10 +6,10 @@ description: Anfrageentwürfe können während der Erstellung gelöscht werden, 
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Anfragen bearbeiten</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ Sie können eine Workfront-Planungsanfrage aus den folgenden Bereichen senden:
 
 * Aus dem Bereich Anfragen von Workfront.
 * Von einem direkten Link zum freigegebenen Anfrageformular.
-
-  In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp über den Bereich Anfragen in Workfront oder über einen freigegebenen Link senden können.
 * Auf der Seite „Datensatztyp“, wenn Sie einen neuen Datensatz hinzufügen oder anfordern. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+
+In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp über den Bereich Anfragen in Workfront oder über einen freigegebenen Link senden können.
+
 
 Workfront-Benutzende und externe Benutzende können Anfragen an Planning-Datensatztypen senden und Datensätze erstellen. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
    >* Sie haben Zugriff, um mindestens einen Arbeitsbereich anzuzeigen.
    >
 
-1. Klicken Sie auf **Neue Anfrage**.
+<!--Production-->
+
+1. Klicken Sie in der Produktionsumgebung auf **Neue Anfrage**.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
    * Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt Letzte angezeigt.
    * 50 zusätzliche Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt **Alle Anfrageformulare** in alphabetischer Reihenfolge angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird.
 
-1. Führen Sie einen der folgenden Schritte aus:
+1. Führen Sie in der Produktionsumgebung einen der folgenden Schritte aus:
 
    * Wählen Sie die Planning-Anfrageformulare in den Abschnitten „Letzte“ oder „Alle Anfrageformulare“ aus
    * Geben Sie zunächst den Namen eines Planungsanfrageformulars in das Suchfeld ein und klicken Sie dann auf die Karte, wenn sie in der Liste angezeigt wird.
 
    Das Anfrageformular wird geöffnet.
+
+<!-- Put preview section here-->
+1. <span class="preview">Wählen Sie in der Vorschau-Umgebung ein Anfrageformular oder eine Warteschlange aus dem Bereich Kürzlich aufgerufene Anfrageformulare aus, oder geben Sie den Namen des Formulars oder der Warteschlange in die Liste ein und wählen Sie ihn dann aus, wenn er angezeigt wird.
 
 1. Aktualisieren Sie die im Anfrageformular verfügbaren Felder. Felder mit einem roten Sternchen sind Pflichtfelder.
 1. Klicken Sie auf **Senden**.

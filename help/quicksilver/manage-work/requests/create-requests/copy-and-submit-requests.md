@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 1%
+source-wordcount: '1361'
+ht-degree: 2%
 
 ---
 
@@ -80,10 +80,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Anfragen bearbeiten</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">Objektberechtigungen</td> 
    <td><p>Zugriff zum Hinzufügen von Anfragen zu einer Anfragewarteschlange</p> <p>Anzeigen von oder höheren Berechtigungen für die vorhandene Anfrage</p> <p>Informationen zum Einrichten einer Anfrage-Warteschlange finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>. </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -254,6 +258,6 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
    >* Alle benutzerdefinierten Formulare, die an die ursprüngliche Anfrage angehängt sind, sowie die in den benutzerdefinierten Feldern enthaltenen Werte werden auf die kopierte Anfrage übertragen. Dazu gehören Felder, die Logik enthalten.
    >* Benutzerdefinierte Formulare können nicht aus der kopierten Anfrage entfernt werden.
 
-1. Klicken Sie **Senden**.
+1. Klicken Sie auf **Senden**.
 
    Die kopierte Anfrage wird als neue Anfrage in der von Ihnen angegebenen Anfrage-Warteschlange gesendet.

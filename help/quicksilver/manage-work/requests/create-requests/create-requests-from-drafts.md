@@ -6,10 +6,10 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
@@ -42,6 +42,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Anfragen bearbeiten</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -73,7 +77,7 @@ Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen k�
 
    | Betreff | Dies ist der Name, den Sie Ihrer Anfrage gegeben haben, als Sie mit der Erstellung begonnen haben. |
    |---|---|
-   | Pfad | Der Name der Anfrage-Warteschlange, der Themengruppen und der Warteschlangenthemen, an die Sie die Anfrage ursprünglich senden wollten. |
+   | Path | Der Name der Anfrage-Warteschlange, der Themengruppen und der Warteschlangenthemen, an die Sie die Anfrage ursprünglich senden wollten. |
    | Eingabedatum | Das Datum, an dem Sie mit der Erstellung der Anfrage begonnen haben. |
    | Datum der letzten Aktualisierung | Das letzte Ihrer letzten Aktualisierung. Wenn Sie sie seit dem ersten Start der Anfrage nicht aktualisiert haben, sollten das Eingabedatum und das Datum der letzten Aktualisierung gleich sein. |
 

@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '978'
+ht-degree: 2%
 
 ---
 
@@ -66,6 +66,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Objektberechtigungen</td> 
    <td><p>Anzeigen von Berechtigungen oder höher für die Anfragen</p></td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Produkt</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -108,7 +112,7 @@ So suchen Sie nach von Ihnen oder anderen Benutzern gesendeten Anfragen:
          <td> <p>Der Name des Lösungsobjekts, bei dem es sich um eine Aufgabe oder ein Projekt handeln kann, in das die Anfrage konvertiert wurde. </p> <p>Klicken Sie auf den Namen der Aufgabe oder des Projekts, um sie bzw. es zu öffnen. </p> <p>Wenn die Anfrage nicht konvertiert wurde, ist dieses Feld leer. </p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader">Pfad</td> 
+         <td role="rowheader">Path</td> 
          <td>Der Name der Anfrage-Warteschlange, der Themengruppen und der Warteschlangenthemen, an die die Anfrage ursprünglich gesendet wurde. </td> 
       </tr> 
       <tr> 
