@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ In Adobe Workfront Planning gibt es Beschränkungen für die Anzahl der Objekte,
 
 In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte aufgeführt, die Sie in Workfront Planning erstellen können. Die Einschränkungen können sich ändern.
 
-| Adobe Workfront Planning-Objekt | Grenze |
+| Adobe Workfront Planning-Objekt | Limit |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | Unbegrenzt* |
 | Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
@@ -36,16 +36,21 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl von Datensätzen für einen Arbeitsbereich | 25.000 für Kunden mit Planning <br> 500.000 für Kunden mit Planning Plus |
 | Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | 500.000 für Kunden mit Planning <br>2 Millionen für Kunden mit Planning Plus |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
-| Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
-| Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |
+| Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
+| Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |
 | Anzahl der Absatzfelder für einen Datensatztyp | 20 Absatzfelder |
-| Größe der Datei, die Sie in eine Datensatztyptabelle einfügen können | 1 MB |
-| Größe der Datei, die Sie über die API für eine Datensatztyptabelle importieren können | 1,5 MB |
+| Größe der Datei, die Sie in eine Datensatztyptabelle einfügen können | 1MB |
+| Größe der Datei, die Sie über die API für eine Datensatztyptabelle importieren können | 1,5MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
-| CSV-Größe der Excel-Datei, die Sie importieren können, um Datensatztypen zu erstellen | 5 MB |
+| CSV-Größe der Excel-Datei, die Sie importieren können, um Datensatztypen zu erstellen | 5MB |
 | Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 25.000 |
 | Anzahl der Spalten, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 

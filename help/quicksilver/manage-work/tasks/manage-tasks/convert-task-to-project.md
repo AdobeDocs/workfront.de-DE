@@ -6,14 +6,23 @@ description: Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # Konvertieren einer Aufgabe in ein Projekt
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erforderlich ist als ursprünglich geplant, können Sie sie in ein Projekt konvertieren.
 
@@ -166,7 +175,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) dann auf **In Projekt konvertieren**.
 1. Wählen Sie eine der folgenden Optionen aus:
 
-   * **Neues Projekt**
+   * **Neues Projekt**, um ein Projekt ohne Vorlage zu erstellen
    * Eine Vorlage im Abschnitt **Aus Vorlagen auswählen**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken **in** eingeblendeten Benachrichtigung auf „Weiter“.
 1. Geben **im Feld „In Projekt**&quot; Folgendes an:
 
-   * **Name**: Benennen Sie Ihr Projekt. Der Standardname ist der Name der Aufgabe.
-   * (Optional) **Beschreibung**: Beschreiben Sie den Zweck dieses Projekts.
-   * (Optional und bedingt) Wenn Sie ausgewählt haben, dass ein Projekt aus einer Vorlage erstellt werden soll, aktualisieren Sie die verfügbaren Felder **Dialogfeld „In Projekt**&quot;.
+   * **Name**: Benennen Sie Ihr Projekt. Der Standardname ist der Name der Aufgabe. Dies ist ein Pflichtfeld.
+   * **Beschreibung**: Beschreiben Sie den Zweck dieses Projekts.
+   * (Bedingt) Wenn Sie ausgewählt haben, ein Projekt aus einer Vorlage zu erstellen, aktualisieren Sie die verfügbaren Felder im Feld **In Projekt konvertieren**.
 
      Weitere Informationen zum Bearbeiten von Feldern in Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Um Felder im Abschnitt Finanzen im Feld In Projekt konvertieren zu aktualisieren, benötigen Sie Bearbeitungszugriff auf Finanzdaten in Ihrer Zugriffsebene. Wenn Sie auf Ihrer Zugriffsebene Ansichtszugriff auf Finanzdaten haben, werden alle Finanzinformationen aus der Vorlage an das neue Projekt übertragen und können nicht bearbeitet werden, während Sie das Problem konvertieren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Vorlage freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Um Felder im Abschnitt Finanzen im Feld In Projekt konvertieren zu aktualisieren, benötigen Sie Bearbeitungszugriff auf Finanzdaten in Ihrer Zugriffsebene. Wenn Sie auf Ihrer Zugriffsebene Ansichtszugriff auf Finanzdaten haben, werden alle Finanzinformationen aus der Vorlage an das neue Projekt übertragen und können nicht bearbeitet werden, während Sie das Problem konvertieren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Vorlage freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Optional) Fügen Sie **Benutzerdefinierte Forms** zum neuen Projekt hinzu.
 
@@ -193,4 +202,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      >
      >Wenn Sie eine Vorlage für die Konvertierung verwenden und ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das auch in einem benutzerdefinierten Formular zu finden ist, das an die Aufgabe angehängt ist, wird der Feldwert aus der Aufgabe für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld bei der Aufgabe jedoch leer ist, wird der Wert aus der Vorlage verwendet.
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie **Änderungen speichern** <!--<span class="preview">or **Convert to Project**</span>-->.
