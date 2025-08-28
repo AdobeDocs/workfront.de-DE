@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 6%
@@ -132,16 +132,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">KI aktivieren </td> 
-      <td>Ermöglicht die Auswahl der Aktivierung von KI, einschließlich des KI-Assistenten. <p><b>Hinweis</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></td> 
+      <td role="rowheader"><span class="preview">KI aktivieren</span> </td> 
+      <td><span class="preview">Ermöglicht die Auswahl der Aktivierung von KI, einschließlich des KI-Assistenten. <p><b>Hinweis</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Formular automatisch ausfüllen </td> 
-      <td>Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</td> 
+      <td role="rowheader"><span class="preview">Formular automatisch ausfüllen </span></td> 
+      <td><span class="preview">Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Opt-in für KI-Beta-Versionen </td> 
-      <td>Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
+      <td role="rowheader"><span class="preview">Opt-in für KI-Beta-Versionen </span></td> 
+      <td><span class="preview">Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Testumgebungen</td> 
