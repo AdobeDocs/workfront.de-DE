@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 1b8a09028136d858fbf4de9f8b4b35165c6b6d25
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,22 @@ Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vo
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Aktivieren der KI-Beta-Funktionen für Ihr Unternehmen
+
+>[!NOTE]
+>
+>* Vorschau: 28. August 2025
+>* Produktions-Schnellveröffentlichung: 11. September 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Damit Sie bevorstehende KI-Funktionen leichter sehen und beeinflussen können, haben wir es Ihnen ermöglicht, die Beta-Version dieser Funktionen für Ihre Organisation zu aktivieren. Jetzt können Sie in Ihren Systemeinstellungen eine oder mehrere der derzeit verfügbaren KI-Beta-Funktionen aktivieren.
+
+Zuvor konnten Beta-Funktionen von Systemadministratoren nicht aktiviert werden.
+
+Weitere Informationen zum Festlegen von Systemvoreinstellungen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+Voraussetzungen für die Aktivierung von KI-Funktionen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+
 ## Aktualisierungen des Workfront-Benutzerprofils
 
 >[!NOTE]
@@ -27,7 +43,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.
 
-Es gibt kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:
+Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:
 
 * Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.
 * Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde entfernt, da sie sich auf eine veraltete Funktion bezieht.

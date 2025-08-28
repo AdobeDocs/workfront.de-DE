@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1871'
 ht-degree: 4%
 
 ---
@@ -57,11 +57,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktivieren der KI-Beta-Funktionen für Ihr Unternehmen</a><p></p>
+            <p>Damit Sie bevorstehende KI-Funktionen leichter sehen und beeinflussen können, haben wir es Ihnen ermöglicht, die Beta-Version dieser Funktionen für Ihre Organisation zu aktivieren. Jetzt können Sie in Ihren Systemeinstellungen eine oder mehrere der derzeit verfügbaren KI-Beta-Funktionen aktivieren.</p>
+        </td>
+        <td>Freitag, 28. August 2025</td>
+        <td>Freitag, 11. September 2025</td>
+        <td>Freitag, 16. Oktober 2025</td>
+    </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront-Benutzerprofils</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront-Benutzerprofils</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.</p>
-            <p>Es gibt kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
+            <p>Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
             <ul>
                 <li>Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.</li>
                 <li>Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde entfernt, da sie sich auf eine veraltete Funktion bezieht.</li>
@@ -73,7 +82,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a><p></p>
             <p>Ein neuer Feldtyp, die Mehrfachauswahl externer Suche, ist jetzt im Designer für benutzerdefinierte Formulare verfügbar. Wenn Daten in einem externen System gespeichert sind, können Sie mit diesem Feldtyp Optionen aus einer externen API laden und basierend auf anderen Feldwerten im benutzerdefinierten Formular filtern. Dies ist dasselbe wie eine externe Suche mit Einzelauswahl.</p>
             <p>Wenn das Formular zu einem Objekt hinzugefügt wird, erscheinen die von der API zurückgegebenen Werte in einem Dropdown-Feld, und der Benutzer kann mehrere Werte auswählen.</p>
         </td>
@@ -380,7 +389,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -392,7 +401,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
