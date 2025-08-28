@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
      Oder
 
-     Um eine neue Vorlage für die Gruppe zu erstellen, die auf einer vorhandenen Vorlage basiert, wählen Sie die vorhandene Vorlage aus und klicken Sie dann auf **Kopieren**.
+     Um eine neue Vorlage für die Gruppe zu erstellen, die auf einer vorhandenen Vorlage basiert, wählen Sie die vorhandene Vorlage aus und klicken Sie dann auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png).
 
      Informationen zum Erstellen einer Layout-Vorlage finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      Informationen zum Kopieren einer Layout-Vorlage, um eine neue zu erstellen, finden Sie unter [Kopieren einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Um eine vorhandene Gruppe zu bearbeiten, wählen Sie sie aus und klicken Sie auf **Bearbeiten**.
+   * Um eine vorhandene Gruppenlayoutvorlage zu bearbeiten, wählen Sie sie aus und klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
      Informationen zum Bearbeiten einer Layout-Vorlage finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Um eine oder mehrere Layout-Vorlagen zu löschen, wählen Sie sie aus und klicken Sie auf **Löschen**.
-   * **Exportieren** Die Liste der Layout-Vorlagen.
+   * Um eine oder mehrere Layout-Vorlagen zu löschen, wählen Sie sie aus und klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png).
+   * Um die Liste der Layout-Vorlagen zu exportieren, klicken Sie auf das Symbol **Exportieren** ![Symbol Exportieren](assets/export-icon.png).
