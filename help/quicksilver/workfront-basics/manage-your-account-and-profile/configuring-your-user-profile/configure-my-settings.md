@@ -3,22 +3,24 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Meine Einstellungen konfigurieren
 description: Ihr  [!DNL Adobe Workfront]  enthält Informationen über sich selbst (z. B. Name, E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen über Ihre Interaktionen mit  [!DNL Workfront]  und anderen Benutzenden in Ihrem Unternehmen.
-author: Courtney
+author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
 workflow-type: tm+mt
-source-wordcount: '3303'
+source-wordcount: '3288'
 ht-degree: 1%
 
 ---
 
 # Meine Einstellungen konfigurieren
 
+{{highlighted-preview}}
+
 <!-- Audited: 01/2024 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+<p>Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
 
 Ihr [!DNL Adobe Workfront] enthält Informationen über sich selbst (z. B. Name, E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen zu Ihren Interaktionen mit [!DNL Workfront] und anderen Benutzenden in Ihrem Unternehmen (z. B. Ihre Benachrichtigungseinstellungen, die Registerkarten, die Sie in [!DNL Workfront] anzeigen möchten, oder Ihr Aufgabengebiet, Manager- und Gruppen- und Teammitgliedschaften).
@@ -29,9 +31,9 @@ Je nachdem, welche Zugriffsebene Sie in [!DNL Workfront] haben, können Sie eini
 
 ## Wie sich Zugriffsebenen auf die Bearbeitung des Bereichs [!UICONTROL Meine Einstellungen] auswirken
 
-Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; &#x200B;] oder nicht bearbeiten.
+Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; ] oder nicht bearbeiten.
 
-Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine &#x200B;]](#configuring-the-my-settings-area).
+Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine ]](#configuring-the-my-settings-area).
 
 Wenden Sie sich an Ihren [!DNL Workfront], um zu erfahren, welche Zugriffsebene Sie haben.
 
@@ -75,7 +77,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Voreinstellungen]</td> 
+   <td rowspan="2">[!UICONTROL-Voreinstellungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -92,7 +94,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Benachrichtigungen]</td> 
+   <td rowspan="2">[!UICONTROL-Benachrichtigungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td>✔ </td> 
@@ -177,7 +179,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Kommentar]</td> 
+   <td rowspan="2">[!UICONTROL-Kommentar]</td> 
    <td>Sichtbar</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -246,7 +248,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
    <td> E-Mail-Adresse aktualisieren. Dies ist ein Pflichtfeld. Beachten Sie, dass Ihre E-Mail-Adresse auch Ihr Benutzername für [!DNL Workfront] ist.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Kennwort zurücksetzen]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Kennwort zurücksetzen]</strong> / <span class="preview"><strong>Kennwort ändern</strong></span></td> 
    <td>Setzen Sie Ihr Kennwort in diesem Abschnitt zurück. Weitere Informationen zum Zurücksetzen des Kennworts finden Sie unter <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Kennwort zurücksetzen</a>.</td> 
   </tr> 
   <tr> 
@@ -270,7 +272,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td>Geben Sie Ihren Titel an. Dies ist nicht dasselbe wie Ihr Aufgabengebiet. Ihr Titel ist nicht Teil der Ressourcenplanung, Ihr Aufgabengebiet hingegen schon. Ihr Titel wird in der [!DNL Workfront]-Oberfläche überall dort angezeigt, wo Ihr Name und Ihr Avatar erscheinen. Sie ist für alle sichtbar, die Zugriff auf Ihr Benutzerprofil haben.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL , mit mir sprechen über]</strong></td>
+        <td><strong>[!UICONTROL, mit mir sprechen über]</strong></td>
         <td>Geben Sie Ihre beruflichen Interessen in diesem Feld an.</td>
     </tr>
 </table>
@@ -285,7 +287,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Erweiterung]</strong></td>
+        <td><strong>[!UICONTROL-Erweiterung]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -293,7 +295,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Adresse]</strong></td>
+        <td><strong>[!UICONTROL-Adresse]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -301,7 +303,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Status]</strong></td>
+        <td><strong>[!UICONTROL-Status]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -313,8 +315,8 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Profilbild]</strong></td>
-        <td>Ihr Profilbild wird zu Ihrem Avatar und ist überall im [!DNL Workfront] sichtbar, wo Ihr Name angezeigt wird.</td>
+        <td><strong>[!UICONTROL Profilfoto]</strong></td>
+        <td>Ihr Profilfoto wird zu Ihrem Avatar und ist überall im [!DNL Workfront] sichtbar, wo Ihr Name angezeigt wird.</td>
     </tr>
 </table>
 
@@ -324,7 +326,7 @@ Geben Sie in diesem Abschnitt an, was in Ihrer [!DNL Workfront] angezeigt werden
 
 >[!NOTE]
 >
->Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL &#x200B; angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
+>Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL  angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
 
 In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
 
@@ -340,13 +342,8 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail-Gebietsschema]</strong> </td> 
    <td><p>Geben Sie hier Ihre bevorzugte Sprache an. Damit wird die Sprache, das Datum und das Zahlenformat gesteuert, die in ausgehenden E-Mail-Nachrichten verwendet werden.</p>
-   <p><strong>HINWEIS:</strong> Wenn Ihr Unternehmen das einheitliche Adobe-Erlebnis verwendet, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändern der Adobe Experience Cloud</a> im Artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Unterstützte Sprachen in Adobe Workfront</a>.</p></td> 
+   <p><strong>HINWEIS</strong> Wenn Ihr Unternehmen Adobe Unified Experience nutzt, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändern der Adobe Experience Cloud</a> im Artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Unterstützte Sprachen in Adobe Workfront</a>.</p></td> 
   </tr>
-
-<tr> 
-   <td role="rowheader"><strong>[!UICONTROL Sende mir selbst zugewiesene Arbeit zur Registerkarte ‚Arbeiten an‘]</strong> </td> 
-   <td>Dieses Feld bezieht sich auf eine veraltete Funktion, die aus [!DNL Workfront] entfernt wurde.</td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren</strong></td> 
    <td>Wählen Sie dieses Feld aus, um unmittelbar nach dem Laden des Dokuments in [!DNL Workfront] mit der Erstellung eines Korrekturabzugs zu beginnen. Dieses Feld ist standardmäßig deaktiviert und kann nur von einem Workfront-Administrator aktualisiert werden.<br>Dieses Feld ist nur verfügbar, wenn Ihr Unternehmen die Workfront Proof-Komponente für Workfront erworben hat und Sie als Korrekturabzugsbenutzende aktiviert sind. Weitere Informationen zu Workfront Proof finden Sie unter <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Testsendungen in Adobe Workfront verwalten</a>.
@@ -359,7 +356,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
 
 Geben Sie an, welche Benachrichtigungen Sie von [!DNL Workfront] erhalten möchten. Weitere Informationen zum Konfigurieren von Benachrichtigungen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### [!UICONTROL Zugriff]
+### [!UICONTROL Zugriff auf]
 
 Ihr Zugriff und andere zugehörige Komponenten werden von Ihrem [!DNL Workfront]-Administrator konfiguriert, wenn Ihr Konto eingerichtet wird.
 
@@ -459,8 +456,8 @@ Verwenden Sie einen der folgenden Punkte in diesem Abschnitt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Zeitplan Deaktivierung]</strong></td> 
-   <td>Aktivieren Sie diese Einstellung, um festzulegen, dass Ihr Konto nach einer gewissen Zeit wieder deaktiviert werden soll. In der <p><strong>[!UICONTROL Geplantes Deaktivierungsdatum]</strong> das angezeigt wird, geben Sie das Datum an, nach dem Ihr Konto deaktiviert wird. Informationen zur Deaktivierung von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planen von Benutzern für die Deaktivierung</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deaktivieren oder Reaktivieren von Benutzern</a>. </p><p>Sie können die Deaktivierungsfelder Ihres Kontos bearbeiten, wenn Sie über eine [!UICONTROL Standard]- oder [!UICONTROL Plan]-Lizenz verfügen oder [!DNL Workfront] sind. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Zeitplan Deaktivierung]</strong> / <span class="preview"><strong>Deaktivierungsdatum festlegen</strong></span></td> 
+   <td><p>Aktivieren Sie dieses Kontrollkästchen <span class="preview">klicken Sie auf diese Schaltfläche</span>, wenn Sie planen möchten, dass Ihr Konto nach einer bestimmten Zeit deaktiviert wird. Geben Sie in der <strong>[!UICONTROL Geplantes Deaktivierungsdatum]</strong>, die angezeigt wird, das Datum an, nach dem Ihr Konto deaktiviert wird. Informationen zur Deaktivierung von Benutzern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Planen von Benutzern für die Deaktivierung</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deaktivieren oder Reaktivieren von Benutzern</a>. </p><p>Sie können die Deaktivierungsfelder Ihres Kontos bearbeiten, wenn Sie über eine [!UICONTROL Standard]- oder [!UICONTROL Plan]-Lizenz verfügen oder [!DNL Workfront] sind. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primäre Rolle]</strong></td> 
@@ -528,7 +525,7 @@ Ihr [!DNL Workfront] muss benutzerdefinierte Formulare für das Benutzerobjekt k
 
 ### [!UICONTROL Kommentar]
 
-Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL &#x200B; gespeichert &#x200B;].
+Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL  gespeichert ].
 
 Sie können auf das [!UICONTROL Personen]-Symbol klicken, um andere in das Update aufzunehmen.
 

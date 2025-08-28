@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >title="Deaktivieren einer Person"
 >abstract="Durch das Deaktivieren von Benutzenden werden diese aus Workfront und Frame.io entfernt. Deaktivierte Benutzende können später wieder aktiviert werden."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bevor Sie einen Workfront-Administrator oder einen Standard- oder Plan-Lizenzbenutzer deaktivieren, müssen Sie dessen Objekte und Aktivitäten mit einem anderen Benutzer verknüpfen.
 
-Weitere Informationen finden Sie unter [Informationen zum Deaktivieren von Workfront-Administratoren und Plan](#about-deactivating-workfront-administrators-and-plan-license-users)Lizenzanwendern in diesem Artikel.
+Weitere Informationen finden Sie unter [Informationen zum Deaktivieren von Workfront-Administratoren und Standard- oder Plan](#about-deactivating-workfront-administrators-and-plan-license-users)Lizenzbenutzern in diesem Artikel.
 
 ## Deaktivieren einer Person
 
@@ -127,17 +129,17 @@ So planen Sie die Deaktivierung eines Benutzers:
 
 1. Klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 1. Klicken Sie im linken Bereich des Felds **Benutzer bearbeiten** auf **Ressourcenplanung**.
-1. Aktivieren Sie **Kontrollkästchen** Deaktivierung planen“.
+1. Aktivieren **das Kontrollkästchen** Deaktivierung planen“ <span class="preview"> oder klicken Sie auf **Deaktivierungsdatum festlegen**</span>.
 
-1. Wählen Sie das Datum und die Uhrzeit für **Geplantes Deaktivierungsdatum** aus.
+1. Wählen Sie das Datum und die Uhrzeit für **Geplantes Deaktivierungsdatum** / <span class="preview">**Deaktivierungsdatum**</span> aus.
 
    >[!NOTE]
    >
    >* Im Zeitfeld können Sie nur Ganzstundenschritte und nicht Minuten auswählen.
-   >* Wenn Sie eine Zeit für den aktuellen Tag auswählen, der vergangen ist, plant Workfront die Deaktivierung für den folgenden Tag um 00:00 Uhr.
+   >* Wenn Sie eine Uhrzeit für den aktuellen Tag auswählen, der vergangen ist, plant Workfront die Deaktivierung für den folgenden Tag um 12 :00 Uhr.
    >* Die ausgewählte Zeit entspricht der Zeitzone des Computers des Benutzers, der die Deaktivierung plant.
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie **Änderungen speichern** <span class="preview">oder **Speichern**</span>.
 
 Der Benutzer wird am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert.
 
