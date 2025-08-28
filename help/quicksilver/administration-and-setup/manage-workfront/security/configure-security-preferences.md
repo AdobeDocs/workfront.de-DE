@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
@@ -22,6 +22,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -107,29 +111,37 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
         <li>Kalender</li>
        </ul><p>Standardmäßig ist diese Option aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene Externe Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Externe Benutzer auffordern, sich mit einem Kennwort zu registrieren</td> 
-      <td> <p>Externe Benutzer müssen sich registrieren, bevor sie Elemente in Workfront anzeigen können. Standardmäßig ist diese Option deaktiviert. Wenn Sie diese Option aktivieren, werden Personen ohne Workfront-Konto, die über ihre E-Mail-Adresse in bestimmte Updates eingebunden sind, aufgefordert, ein Konto zu erstellen, bevor sie das Element anzeigen können, in dem sie enthalten sind. Dadurch wird ein externes Benutzerkonto für sie erstellt.</p> <p>Standardmäßig ist diese Option deaktiviert.</p> </td> 
+     <!--<tr> 
+      <td role="rowheader">Require external users to register with a password</td> 
+      <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Benutzer automatisch abmelden nach</td> 
-      <td> Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität von Workfront abgemeldet wird. Standardmäßig werden Benutzer nach 8 Stunden Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
+      <td role="rowheader">Automatically log users out after</td> 
+      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mobile Benutzer automatisch abmelden nach </td> 
-      <td>Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität bei der Workfront-Anwendung abgemeldet wird. Standardmäßig werden Benutzer nach 7 Tagen Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
-     </tr> 
+      <td role="rowheader">Automatically log mobile users out after </td> 
+      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> -->
      <tr> 
       <td role="rowheader">Hilfe-URL</td> 
       <td>Ermöglicht die Definition einer internen benutzerdefinierten Hilfeseite, zu der das Hilfesymbol des Hauptmenüs wechseln soll. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurieren einer benutzerdefinierten Hilfe-URL</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Benutzer im System sehen standardmäßig die neue Startseite </td> 
-      <td>Hier können Sie angeben, ob Benutzern das neue Startseiten-Erlebnis standardmäßig angezeigt wird. Wenn diese Option aktiviert ist, wird den Benutzenden standardmäßig die neue Startseite angezeigt, sie können sich jedoch auch einzeln für die Aktivierung oder Deaktivierung der neuen Startseite entscheiden. Wenn diese Option deaktiviert ist, wird den Benutzenden das Banner, das ihnen den Wechsel zur neuen Startseite ermöglicht, nicht angezeigt. Sie können jedoch weiterhin zur neuen Startseite navigieren, indem sie am Ende ihrer Instanz-URL manuell <code>/home/workspaces</code> eingeben. Diese Einstellung ist standardmäßig aktiviert.</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">Arbeitsliste „Prioritäten“ aktivieren </td> 
       <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">KI aktivieren </td> 
+      <td>Ermöglicht die Auswahl der Aktivierung von KI, einschließlich des KI-Assistenten. <p><b>Hinweis</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Formular automatisch ausfüllen </td> 
+      <td>Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Opt-in für KI-Beta-Versionen </td> 
+      <td>Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testumgebungen</td> 
