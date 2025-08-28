@@ -6,23 +6,22 @@ description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
 
 # Portfolios bearbeiten
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div>-->
+</div>
 
 Sie können Informationen zu Portfolios bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben.
 
@@ -110,9 +109,9 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   Das **[!UICONTROL Portfolio bearbeiten]** wird angezeigt. <!--update screen shot at preview release-->
+   <span class="preview">Das Feld **[!UICONTROL Portfolio bearbeiten]** wird angezeigt.</span>
 
-   ![Feld „Portfolio bearbeiten“](assets/edit-portfolio-box-classic-350x224.png)
+   <span class="preview">![Feld „Portfolio bearbeiten“](assets/edit-portfolio-box-classic-350x224.png)</span>
 
    Alle Portfoliofelder sind im Feld [!UICONTROL Portfolio bearbeiten] verfügbar und werden nach den im linken Bedienfeld aufgelisteten Bereichen gruppiert.
 
@@ -170,17 +169,15 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
     </tbody> 
    </table>
 
-1. Klicken Sie **[!UICONTROL Änderungen speichern]** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. Klicken Sie **[!UICONTROL Änderungen speichern]** <span class="preview">oder [!UICONTROL **Speichern**]</span> und bearbeiten Sie die folgenden Abschnitte weiter.
 
 ### Benutzerdefinierte Formulare
 
 1. Beginnen Sie mit der Bearbeitung des Portfolios wie oben beschrieben.
 1. Klicken Sie auf **[!UICONTROL Dropdown-Menü]** Forms hinzufügen“, um ein benutzerdefiniertes Formular auszuwählen und es zum Portfolio hinzuzufügen.
 
-   <!--Or 
-   <span class="preview">Start typing the name of a form in the [!UICONTROL **Add custom form**] field.</span>-->
+   Oder
+   <span class="preview">Beginnen Sie mit der Eingabe des Namens eines Formulars in das Feld [!UICONTROL **Benutzerdefiniertes Formular hinzufügen**].</span>
 
    Sie müssen benutzerdefinierte Portfolioformulare erstellen, bevor sie hinzugefügt werden können.
 
@@ -188,20 +185,16 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
    >
    >Je nachdem, wie Ihr [!DNL Workfront] die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle dieselben Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern innerhalb eines Abschnitts eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Portfolio selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Aktualisieren Sie alle Felder in den benutzerdefinierten Formularen und klicken Sie dann auf **[!UICONTROL Änderungen speichern]** oder fahren Sie mit dem folgenden Abschnitt fort.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. Klicken Sie **[!UICONTROL Änderungen speichern]** <span class="preview">oder [!UICONTROL **Speichern**]</span> und bearbeiten Sie die folgenden Abschnitte weiter.
 
 ### Kommentar {#comment}
 
 1. Beginnen Sie mit der Bearbeitung eines Portfolios wie oben beschrieben.
-1. Klicken Sie **[!UICONTROL Kommentar]**. <!--replace screen shot at preview-->
+1. Klicken Sie **[!UICONTROL Kommentar]**.
 
-   ![Feld Portfoliokommentar bearbeiten](assets/comment-box-edit-portfolio-classic-350x227.png)
+   <span class="preview">![Feld Portfoliokommentar bearbeiten](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
 
-1. Fügen Sie im Feld **[!UICONTROL Aktualisierung des Portfolios posten]** einen Kommentar hinzu.
+1. <span class="preview">Fügen Sie im Feld **[!UICONTROL Hinzufügen einer Aktualisierung zum Portfolio“ einen Kommentar]**.</span>
 1. (Optional) Klicken Sie auf das **[!UICONTROL Personen]**-Symbol, um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.
 1. (Optional) Klicken Sie auf das **[!UICONTROL Sperren]**-Symbol, um den Kommentar zu sperren und ihn nur für Benutzer in Ihrem Unternehmen privat zu machen.
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span>.-->
+1. Klicken Sie **[!UICONTROL Änderungen speichern]** <span class="preview">oder [!UICONTROL **Speichern**]</span>.

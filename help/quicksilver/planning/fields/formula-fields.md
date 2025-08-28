@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '889'
+ht-degree: 5%
 
 ---
 
 # Übersicht über Formelfelder
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder er
 * Sie können Formelfelder in neuen Formeln referenzieren. Sobald der Wert in einem Feld aktualisiert wird, auf das in einem Formelfeld verwiesen wird, werden alle nachfolgenden Felder, die auf dieses Feld oder Formelfelder verweisen, die dieses Feld enthalten, automatisch aktualisiert.
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## Einschränkungen bei Formelfeldern
 
-* You can add a maximum of 20 formula fields for one record type. 
+* Sie können maximal 20 Formelfelder für einen Datensatztyp hinzufügen.
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  Formelsuchfelder, die von verbundenen Datensatztypen hinzugefügt werden, werden nicht auf diese Beschränkung angerechnet.
 
-* The formula expression cannot exceed 50,000 characters. 
+* Der Formelausdruck darf 50.000 Zeichen nicht überschreiten.
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* Formelfelder werden in den folgenden Fällen möglicherweise als `#ERROR!` angezeigt:
+   * Wenn ein in einer Formel verwendetes Feld gelöscht wird.
+   * Wenn ein in einem aggregierten Suchfeld verwendetes Feld als `#ERROR!` angezeigt wird.
+
+     Beispiel: Sie zeigen ein Suchfeld an, das aggregierte Suchformularfelder enthält, und eines der referenzierten Formelfelder wird als `#ERROR!` angezeigt.
+   * Wenn ein Formelwert nicht im ausgewählten Format angezeigt werden kann.
+
+     Wenn ich beispielsweise Zahl für das Format eines Formelfelds auswähle und die in der Formel verwendeten Felder Textfelder sind, die nur nicht numerische Textwerte anzeigen, wird das Formelergebnis als `#ERROR!` angezeigt, da der Text nicht in eine Zahl zerlegt werden kann.
+
+</div>
 
 ## Unterstützte Formeln
 

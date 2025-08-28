@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Scorecard erstellen
 description: Eine Scorecard misst, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt häufig die Mission, die Werte und die strategischen Ziele eines Unternehmens wider. Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, um sicherzustellen, dass sie bei der Priorisierung und Auswahl des Projekts aussagekräftig und wertvoll sind.  [!DNL Adobe Workfront]  erstellt die Scorecards anhand der Empfehlungen von Portfolio-Managern.
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -91,7 +91,7 @@ Sie können eine Scorecard wie folgt erstellen:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Frage]</td> 
+      <td role="rowheader">[!UICONTROL-Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 
