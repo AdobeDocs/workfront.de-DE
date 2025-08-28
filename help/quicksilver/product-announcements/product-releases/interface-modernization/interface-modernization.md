@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,26 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Admin und Setup
 
-<!--
-### Interface updates when editing a Scorecard
+### Aktualisierungen der Benutzeroberfläche für die Liste der Layout-Vorlagen in einer Gruppe
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**Vorschau-Version: 28. August 2025; Produktionsversion: 4. September 2025**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+Das Erscheinungsbild der Liste der Layout-Vorlagen im linken Bereich in einer Gruppe wurde aktualisiert, sodass es anderen Bereichen der Anwendung entspricht.
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Gruppe auswählen > Layoutvorlagen.
 
--->
+Weitere Informationen finden Sie unter [Erstellen und Ändern der Layout-Vorlagen einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+
+### Aktualisierungen der Benutzeroberfläche beim Bearbeiten einer Scorecard
+
+**Vorschau-Version: 28. August 2025; Produktions-Version: 28. August 2025**
+
+Das Erscheinungsbild von wurde aktualisiert, wenn eine Scorecard bearbeitet wird, sodass sie dem Design in anderen Bereichen des Programms entspricht. Sie können das aktualisierte Design anzeigen, wenn Sie eine Scorecard im Bereich „Setup“ von Workfront bearbeiten.
+
+Die Scorecard wurde geringfügig hinsichtlich der Funktionalität geändert. Um eine Scorecard zu bearbeiten, wählen Sie die Scorecard aus der Liste aus und klicken Sie auf das Symbol Bearbeiten . Sie werden nicht mehr zur Scorecard-Detailseite weitergeleitet, bevor Sie bearbeiten können.
+
+
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite „Überprüfungs- und Genehmigungsbenachrichtigungen“ im Setup
 
@@ -120,7 +130,30 @@ Wir haben die Seite Benutzer für SSO aktualisieren mit einem moderneren Design 
 
 Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO aktualisieren
 
+## Portfolios
+
+### Aktualisierungen der Benutzeroberfläche zum Bearbeiten von Portfolios
+
+**Vorschau-Version: 28. August 2025; Produktionsversion: 4. September 2025**
+
+Für die Bearbeitung von Portfolios im Feld Portfolio bearbeiten wurden Benutzeroberflächenaktualisierungen eingeführt. Die Felder Portfolio bearbeiten und Portfolios bearbeiten weisen jetzt ein neueres Design auf, das mit anderen Bereichen von Workfront übereinstimmt.
+
+>[!NOTE]
+>
+>Die Einstellung Ausdrücke neu berechnen wurde bei der Massenbearbeitung von Portfolios entfernt. Sie können benutzerdefinierte Ausdrücke weiterhin stapelweise neu berechnen, wenn Sie mehrere Portfolios in einer Liste auswählen und auf die Option Ausdrücke neu berechnen im Menü Mehr der Symbolleiste klicken.
+
+
+Weitere Informationen finden Sie unter [Portfolios bearbeiten](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
+
 ## Projekte
+
+### Änderungen an der Benutzeroberfläche für das Konvertieren einer Aufgabe in ein Projekt ohne Vorlage
+
+**Vorschau-Version: 28. August 2025; Produktionsversion: 4. September 2025**
+
+Für das Konvertieren einer Aufgabe in ein Projekt ohne Vorlage wurden Oberflächenaktualisierungen für das Feld In Projekt konvertieren eingeführt. Die Box entspricht nun dem Design anderer Bereiche von Workfront.
+
+Weitere Informationen finden Sie unter [Konvertieren einer Aufgabe in ein Projekt](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### Aktualisierungen der Benutzeroberfläche beim Hinzufügen von Objekten zu Programmen und Portfolios
 
@@ -161,14 +194,14 @@ Mit diesem Update wurde eine kleine Funktionsänderung eingeführt. Wenn Sie jet
 
 Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-<!--### Interface update for the Edit Expense box of a project
+### Aktualisierung der Benutzeroberfläche für das Feld „Ausgaben bearbeiten“ eines Projekts
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**Vorschau-Version: 28. August 2025; Produktionsversion: 4. September 2025**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+Das Dialogfeld zum Bearbeiten von Projektausgaben wurde entsprechend den anderen Bereichen der Anwendung aktualisiert. Das aktualisierte Dialogfeld ist verfügbar, wenn Ausgaben in Projekten oder Vorlagen bearbeitet werden.
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+Weitere Informationen finden Sie unter [Projektausgaben verwalten](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 
 ### Aktualisierungen der Benutzeroberfläche zum Protokollieren der Zeit für ein Projekt, eine Aufgabe oder ein Problem im Abschnitt Stunden
 

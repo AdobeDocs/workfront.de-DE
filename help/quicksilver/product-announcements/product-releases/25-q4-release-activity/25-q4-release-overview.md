@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1811'
 ht-degree: 4%
 
 ---
@@ -57,9 +57,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront-Benutzerprofils</a><p></p>
+            <p>Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.</p>
+            <p>Es gibt kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
+            <ul>
+                <li>Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.</li>
+                <li>Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde entfernt, da sie sich auf eine veraltete Funktion bezieht.</li>
+            </ul>
+        </td>
+        <td>Freitag, 28. August 2025</td>
+        <td>Freitag, 4. September 2025</td>
+        <td>Freitag, 4. September 2025</td>
+    </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Ein neuer Feldtyp, die Mehrfachauswahl externer Suche, ist jetzt im Designer für benutzerdefinierte Formulare verfügbar. Wenn Daten in einem externen System gespeichert sind, können Sie mit diesem Feldtyp Optionen aus einer externen API laden und basierend auf anderen Feldwerten im benutzerdefinierten Formular filtern. Dies ist dasselbe wie eine externe Suche mit Einzelauswahl.</p>
             <p>Wenn das Formular zu einem Objekt hinzugefügt wird, erscheinen die von der API zurückgegebenen Werte in einem Dropdown-Feld, und der Benutzer kann mehrere Werte auswählen.</p>
         </td>
@@ -266,30 +280,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funktion</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Veröffentlichungstermine</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen der erweiterten Listen</a><p></p>
+            <p>Mit unserem erweiterten Listen-Layout können Sie Filter und Gruppierungen verwenden, um Ihre Arbeit anzuzeigen und besser zu organisieren. Über einem Widget wird nun ein blauer Punktindikator angezeigt, der Ihnen mitteilt, wann ein Filter oder eine Gruppierung in den folgenden Bereichen auf eine Liste angewendet wurde:</p>
+            <ul>
+                <li>Wechselkurse in Setup</li>
+                <li>Widget „Meine Anfragen“</li>
+                <li>Prioritäten</li>
+            </ul>
+        </td>
+        <td>Freitag, 28. August 2025</td>
+        <td>Freitag, 11. September 2025</td>
+        <td>Freitag, 16. Oktober 2025</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-Feel-Updates im vierten Quartal 2025</a></p>
                         <p>Geringfügige Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung werden innerhalb des Zeitrahmens der Version vom vierten Quartal 2025 vorgenommen. </p>
                     </td>
-                    <td><p><b>Verfügbar zu diesen Daten:</b></p>
-                        <ul>
-                            <li>
-                                <p>Vorschau der Version: Im gesamten Zeitrahmen der Version für das vierte Quartal 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Produktionsfreigabe: Mindestens 2 Wochen nach der Freigabe für die Vorschau (sofern nicht anders angegeben)</p>
+                    <td><p>Im gesamten Veröffentlichungszeitraum des vierten Quartals 2025<br /></p>
+                    <td colspan="2"><p>Schnellfreigabe: Mindestens 1 Woche nach der Freigabe für die Vorschau (sofern nicht anders angegeben)</p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +380,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -372,7 +392,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
