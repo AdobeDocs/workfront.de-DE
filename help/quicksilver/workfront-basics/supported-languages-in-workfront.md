@@ -6,9 +6,9 @@ description: Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -72,9 +72,8 @@ Der Web Proofing Viewer in Workfront unterstützt die meisten Sprachen, die in W
 
 Die folgenden Sprachen werden im Proofing-Tool nicht unterstützt:
 
-* Chinesisch - Vereinfacht (zh-CN)
 * Chinesisch - Traditionell (zh-TW)
-* Portugiesisch (pt-BR)
+* Koreanisch (ko-KR)
 
 Ihr Unternehmen muss eine Proofing-Lizenz erwerben, damit Sie auf die Web Proofing Viewer zugreifen können.
 
@@ -93,7 +92,7 @@ Derzeit unterstützt Workfront Fusion nur Englisch.
 * Workfront Fusion unterstützt nicht die Verwendung von nicht englischen Textzeichen in von Benutzenden eingegebenen Feldern.
 
 Ihr Unternehmen muss eine Workfront Fusion-Lizenz erwerben, damit Sie auf Workfront Fusion zugreifen können.\
-Weitere Informationen zu Workfront Fusion finden Sie unter [Adobe Workfront Fusion - Übersicht](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Weitere Informationen zu Workfront Fusion finden Sie unter [Adobe Workfront Fusion - Übersicht](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändern der Sprache
 
