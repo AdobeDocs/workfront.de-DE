@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 2%
+source-wordcount: '2618'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Liste bearbe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -163,11 +163,9 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
      <tr> 
       <td role="rowheader">Beschreibung</td> 
       <td> <p>Fügen Sie zusätzliche Informationen zum Problem hinzu.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Abschnitt „Grundlegende Informationen“</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Status</td> 
       <td> <p>Wählen Sie den Status des Problems aus. Weitere Informationen zum Problemstatus finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Zugriff auf die Liste der Systemanfragestatus</a>. </p> </td> 
      </tr> 
@@ -175,7 +173,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
       <td role="rowheader">Priorität</td> 
       <td> <p>Dies ist eine visuelle Markierung, mit der Sie Probleme priorisieren können.</p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-        <li> <p><strong>Keine</strong> </p> </li> 
+        <li> <p><strong>Kein</strong> </p> </li> 
         <li> <p><strong>Niedrig</strong> </p> </li> 
         <li> <p><strong>normal</strong> </p> </li> 
         <li> <p><strong>Hoch</strong> </p> </li> 
@@ -192,8 +190,24 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
         <li> <p style="font-weight: bold;">Programmfehler ohne Umgehungslösung</p> </li> 
         <li> <p style="font-weight: bold;">Schwerer Fehler</p> </li> 
        </ul> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Schweregrade für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Schweregraden finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Erstellen oder Anpassen von </a>.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Problembedingung</td> 
+   <td> <p>Die Bedingung eines Problems ist eine Kennzeichnung, die anzeigt, wie es sich entwickelt.</p> 
+   <p>Sie können die Bedingung einer Aufgabe oder eines Problems entweder automatisch oder manuell festlegen.</p>
+   <p>Sie müssen dem Problem zugewiesen sein, um seine Bedingung ändern zu können.</p>
+   <p>Wählen Sie aus den folgenden Optionen aus:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Keine Probleme</p> </li> 
+   <li> <p style="font-weight: bold;">Kleinere Probleme</p> </li> 
+   <li> <p style="font-weight: bold;">Größere Probleme</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Geben Sie einen Weblink ein, der sich auf die Informationen zum Problem bezieht.</p> </td> 
      </tr> 
@@ -340,7 +354,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 ### Einstellungen {#settings}
 
 1. Beginnen Sie mit der Bearbeitung eines Problems, wie oben beschrieben.
-1. Klicken Sie **Einstellungen**.
+1. Klicken Sie auf **Einstellungen**.
 
    ![Symbol für Problemeinstellungen](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
