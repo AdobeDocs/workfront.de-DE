@@ -6,9 +6,9 @@ description: Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfro
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
 
 Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende freigeben, damit diese es anzeigen oder bearbeiten können.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -44,13 +51,14 @@ Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
-   <td><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p>
+   <td><p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td><p>Berechtigungen für das Dashboard verwalten</p>
+   <td><p>Anzeigen von Berechtigungen für das Dashboard zur Freigabe des Dashboards</p>
+   <p>Verwalten von Berechtigungen für das Dashboard zum Zuweisen von Dashboard-Berechtigungen</p>
   </td> 
   </tr>
 </tbody> 
@@ -61,13 +69,17 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Überlegungen zur Freigabe von Dashboards
 
-* Standardmäßig verfügt der Ersteller eines Dashboards über Verwaltungsberechtigungen dafür.
+* Dashboards können für Benutzende, Teams, Gruppen, Aufgabengebiete oder Unternehmensressourcen freigegeben werden.
 
-* Sie können Dashboards, die Sie erstellen, für andere Einzelpersonen, Teams, Gruppen, Aufgabengebiete oder Unternehmen freigeben. Sie können auch Dashboards freigeben, die zuvor erstellt und für Sie freigegeben wurden.
+* Standardmäßig verfügt der Ersteller eines Dashboards über Verwaltungsberechtigungen für das Dashboard.
 
-* Wenn Sie ein Dashboard freigeben, erben Benutzer standardmäßig die Ansichtsberechtigungen für alle Berichtsobjekte im Dashboard, es sei denn, die Berechtigung wird vor der Freigabe aktualisiert.
+* Systemadministratoren und Benutzer mit der Berechtigung „Verwalten“ können Zugriff auf ein Dashboard gewähren, anzeigen oder verwalten.
 
-* Wenn Sie über Anzeigeberechtigungen für ein Dashboard verfügen, können Sie das Dashboard freigeben, aber Sie können den Empfängerinnen und Empfängern keine Berechtigung zuweisen, die höher als „Anzeigen“ ist.
+* Benutzende mit der Berechtigung Anzeigen für ein Dashboard können Ansichtszugriff auf ein Dashboard gewähren.
+
+* Bei der Freigabe eines Dashboards erben die Ressourcen, für die es freigegeben ist, die Berechtigungen für die im Dashboard angezeigten Berichte.
+
+* Wenn ein Dashboard über eine Layout-Vorlage verteilt wird, wird allen Ressourcen, die der Layout-Vorlage zugewiesen sind, eine automatische Ansichtsberechtigung für das Dashboard (und dessen Berichte) gewährt.
 
 
 ## Freigeben eines Arbeitsflächen-Dashboards
@@ -83,16 +95,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Beginnen Sie im Feld **Zugriff erteilen an** mit der Eingabe des Namens eines bestimmten Benutzers, Teams, einer bestimmten Rolle, einer Gruppe oder eines Unternehmens, für den bzw. die Sie das Arbeitsflächen-Dashboard freigeben möchten, und wählen Sie ihn aus, wenn er in der Dropdown-Liste angezeigt wird.
 
-1. (Optional) Um den Zugriff eines Benutzers auf das Dashboard zu bearbeiten, klicken Sie auf **Anzeigen** neben seinem Namen und wählen Sie dann **Verwalten** in der angezeigten Dropdown-Liste aus.
+1. (Optional) Um den Zugriff einer Ressource auf das Dashboard zu bearbeiten, klicken Sie auf **Anzeigen** neben ihrem Namen und wählen Sie dann **Verwalten** in der angezeigten Dropdown-Liste aus.
 
    >[!NOTE]
    >
-   >Einige Benutzer können ihre Zugriffsebene nicht ändern lassen (z. B. Administratoren).
+   > Wenn Benutzenden die Bearbeitungsberechtigungen für ein Dashboard nicht über ihre Zugriffsebene zugewiesen wurden, können ihnen keine Verwaltungsberechtigungen für ein Dashboard zugewiesen werden.
 
-1. Wiederholen Sie die Schritte 5 bis 6 für jeden Benutzer, für den Sie das Dashboard freigeben möchten.
+1. Wiederholen Sie die Schritte 5 bis 6 für jede Ressource, für die Sie das Dashboard freigeben möchten.
 
 1. Klicken Sie auf die **Freigeben**. Die Empfänger erhalten eine E-Mail-Benachrichtigung, die sie darüber informiert, dass das Dashboard für sie freigegeben wurde, auf das sie jetzt unter **Dashboards** > **Arbeitsflächen-Dashboards** > **Freigegebene Dashboards** zugreifen können.
 
    >[!NOTE]
    >
-   >Es können individuelle Benutzervoreinstellungen und Systemausschlüsse für E-Mail-Benachrichtigungen gelten.
+   > Es können individuelle Benutzervoreinstellungen und Systemausschlüsse für E-Mail-Benachrichtigungen gelten. <br>
+   > Benachrichtigungen werden nur gesendet, wenn sie direkt für einen Benutzer freigegeben werden. Bei der Freigabe für Gruppen, Rollen, Unternehmen und Teams werden keine E-Mail-Benachrichtigungen generiert.<br>
+   > Berechtigungen, die von einer Layout-Vorlage übernommen werden, generieren keine E-Mail-Benachrichtigung über den Zugriff auf das Dashboard.

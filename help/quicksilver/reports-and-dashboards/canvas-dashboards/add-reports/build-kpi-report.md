@@ -6,9 +6,9 @@ description: Ein KPI-Bericht, der einen einzelnen aggregierten KPI hervorgehoben
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
 
 Sie können einen KPI-Bericht erstellen und zu einem Arbeitsflächen-Dashboard hinzufügen, das Ihre wichtigsten Leistungsindikatordaten visuell als eine Zahl darstellt, mit der Sie dann sehen können, wie Ihre Projekte und Teams funktionieren.
 
 ![Beispiel für KPI-Bericht](assets/kpi-example-main.png)
+
+## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
@@ -70,7 +77,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -107,6 +114,8 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
    1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
 
+      Weitere Informationen zu Filtern finden Sie unter [Berichtsfilter in einem Arbeitsflächen-Dashboard bearbeiten](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
 1. Gehen Sie wie folgt vor, um den Abschnitt **Spalteneinstellungen** zu konfigurieren:
 
    1. Klicken Sie im linken Bedienfeld auf das Symbol **Drilldown-**![Spalten-Symbol](assets/drilldown-column.png). Die Felder aus dem Diagramm werden automatisch als Spalten im Vorschauabschnitt auf der rechten Seite angezeigt.
@@ -135,7 +144,7 @@ Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eine
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -174,5 +183,37 @@ Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eine
    1. Belassen Sie den Operator **Gleich** und geben Sie dann _Überprüfung ausstehend_ in das Textfeld ein.
       ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
+
+## Überlegungen beim Erstellen eines KPI-Berichts
+
+### Verwenden der Feldauswahl
+
+Die **Abschnitte** Dropdown-Liste im Abschnitt **KPI erstellen** soll die Auswahlmöglichkeiten in einer Feldauswahl einschränken, damit ein Objekt beim Erstellen eines Tabellenberichts leichter zu finden ist. Wählen Sie zunächst ein Basiseinheitsobjekt aus.
+
+* **Alle Abschnitte**: Alle Objekttypen in Workfront Workflow und Workfront Planning.
+* **Workfront-Objekte**: Native Workfront-Workflow-Objekte.
+* **Planning-Datensatztypen**: Benutzerdefinierte Datensatztypen, die in Workfront Planning definiert sind.
+
+![Dropdown-Liste „Abschnitte](assets/sections-dropdown.png)
+
+Nachdem das Basisobjekt für die Entität ausgewählt wurde, wird **Dropdown-** „Abschnitte“ mit den entsprechenden Feldtypoptionen aktualisiert, aus denen Sie auswählen können.
+
+* **Alle Abschnitte**: Native Felder, benutzerdefinierte Felder und verwandte Objekte.
+* **Alle Felder**: Sowohl native als auch benutzerdefinierte Felder (ohne Beziehungen).
+* **Benutzerdefinierte Felder**: Kundendefinierte Felder in einem benutzerdefinierten Formular oder einem Planungsdatensatz.
+* **Workfront-**: Nur native Felder.
+* **Beziehungen**: Verbundene Datensätze.
+
+![Auswahl berichtbarer Objekte](assets/reportable-objects-selection.png)
+
+### Verweisen auf untergeordnete Objekte
+
+Verfügbare Beziehungen für zusätzliche Spalten, Filteroptionen und Gruppierungsattribute sind im Allgemeinen auf Objekte beschränkt, die höher in der Workfront-Objekthierarchie stehen oder die ansonsten eine einzige Auswahl im Basisobjekt der Entität des Berichts aufweisen. Hiervon gibt es einige Ausnahmen, darunter die folgenden:
+
+* Projekt > Aufgaben
+* Dokumentengenehmigung > Dokumentengenehmigungsphasen
+* Phasen der Dokumentgenehmigung > Teilnehmer an der Dokumentgenehmigungsphase
+
+Bei Verwendung einer der oben aufgeführten hierarchischen Beziehungen wird in der Tabelle für jeden untergeordneten Datensatz eine Zeile angezeigt, die mit dem übergeordneten Objekt verbunden ist.
 
 

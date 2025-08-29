@@ -5,10 +5,11 @@ title: Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern
 description: Sie können den Namen oder die Beschreibung eines Arbeitsflächen-Dashboards bearbeiten, nachdem es erstellt wurde.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -16,14 +17,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
+
 
 Sie können den Namen oder die Beschreibung eines Arbeitsflächen-Dashboards bearbeiten, nachdem es erstellt wurde.
 
 Alle Änderungen, die Sie an einem Dashboard vornehmen, wirken sich auf alle Benutzer aus, die Zugriff darauf haben.
 
+## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 ## Name und Beschreibung eines Dashboards ändern
 
+>[!NOTE]
+>
+>Benutzer, für die Sie ein Arbeitsflächen-Dashboard freigegeben haben, können den Namen und die Beschreibung im Inventarlisten- und Detailbereich des Arbeitsflächen-Dashboards einsehen.
+
 {{step1-to-dashboards}}
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
@@ -83,4 +95,6 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 1. Geben Sie eine neue **Beschreibung** ein.
 
 1. Klicken Sie auf **Speichern**.
+
+
 

@@ -6,10 +6,10 @@ description: Berichte, die mit dem Adobe Workfront-Berichts-Tool erstellt wurden
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
 
 Berichte, die mit dem Adobe Workfront-Berichts-Tool erstellt wurden, können zu einem Arbeitsflächen-Dashboard hinzugefügt werden. Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erste Schritte mit Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,13 +63,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Hinzufügen eines vorhandenen Berichts zu einem Arbeitsflächen-Dashboard
 
+
 {{step1-to-dashboards}}
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -76,9 +84,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
      >[!NOTE]
      >
-     > An dieser Stelle in der Beta-Phase ist das Widget **Alle Genehmigungen** Startseite das einzige verfügbare Widget. Diese Liste wird im Laufe des Beta-Stadiums erweitert.
+     > An dieser Stelle in der Beta-Phase ist das Widget **Metriken für Dokumentgenehmigungen** Startseite das einzige verfügbare Widget. Diese Liste wird im Laufe des Beta-Stadiums erweitert.
 
 1. (Optional) Um die Details eines Berichts anzuzeigen, bevor er zum Dashboard hinzugefügt wird, klicken Sie auf **Anzeigen** Inline mit dem gewünschten Bericht.
 
 1. Klicken Sie **Hinzufügen** inline mit dem Bericht, den Sie hinzufügen möchten.
+
+   >[!NOTE]
+   >
+   > Wenn Sie einem Dashboard nach seiner Erstellung einen zusätzlichen vorhandenen Bericht hinzufügen möchten, klicken Sie auf die Schaltfläche **Bericht hinzufügen** in der oberen rechten Ecke der Detailseite des Dashboards und wiederholen Sie dann die Schritte 6 bis 9.
+
+
 

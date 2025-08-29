@@ -5,10 +5,11 @@ title: Erstellen eines Canvas-Dashboards
 description: Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpassbaren Dashboard hinzufügen, um Ihre Kontodaten schnell zu visualisieren.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
 
 Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpassbaren Dashboard hinzufügen, um Ihre Kontodaten schnell zu visualisieren.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -53,6 +61,10 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpas
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
+## Voraussetzungen
+
+Canvas-Dashboards müssen in der Layout-Vorlagenkonfiguration der Seite Dashboards in den linken Navigationselementen aktiviert werden.
+
 ## Dashboard erstellen
 
 Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen, die Sie beim Erstellen eines Dashboards verwenden können. In diesem Abschnitt führen wir Sie durch den allgemeinen Prozess der Erstellung eines Dashboards.
@@ -63,7 +75,7 @@ Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen
 
 1. Klicken Sie **oben** auf „Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**. Das **Berichtfeld hinzufügen** wird geöffnet. Von hier aus können Sie einen neuen Bericht erstellen oder einen vorhandenen Bericht zum Dashboard hinzufügen.
 

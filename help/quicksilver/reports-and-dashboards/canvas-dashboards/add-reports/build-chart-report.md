@@ -6,9 +6,9 @@ description: Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
 
 Sie können einen Diagrammbericht erstellen und zu einem Arbeitsflächen-Dashboard hinzufügen, um Ihre Daten als Balken-, Spalten-, Linien- oder Tortendiagramm zu visualisieren.
 
 ![Diagrammbericht](assets/chart-report-main.png)
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +77,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -90,7 +97,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
       >[!NOTE]
       >
-      >Es gibt eine maximale Anzahl von Serien, die in einem Diagramm angezeigt werden können. Wenn dieses Kontrollkästchen aktiviert ist, werden alle Datenreihen über dem Grenzwert in einer **Sonstige** Gruppierung im Diagramm zusammengefasst.
+      >Es gibt eine maximale Anzahl von 60 Serien, die in einem Diagramm angezeigt werden können. Wenn dieses Kontrollkästchen aktiviert ist, werden alle Datenreihen über dem Grenzwert in einer **Sonstige** Gruppierung im Diagramm zusammengefasst.
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **Diagramm erstellen** zu konfigurieren:
 
@@ -100,7 +107,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
       * **bar**
       * **Spalte**
-      * **line**
+      * **Line**
       * **Kreis**
 
    1. Wählen Sie in **Dropdown-** „Spaltentyp“ den Spaltentyp aus:
@@ -146,7 +153,7 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -204,6 +211,8 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
    1. Geben Sie *$$TODAY* in das Feld „Evaluator“ ein.
 
+      Weitere Informationen zu Platzhaltern finden Sie im Abschnitt Datumsbasierte Platzhalterfiltervariablen im Artikel [Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) .
+
       ![Evaluator-Feld](assets/add-condition.png)
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **Spalteneinstellungen** zu konfigurieren:
@@ -227,3 +236,35 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
    1. Klicken Sie auf **Gruppierung hinzufügen** und wählen Sie dann das Feld **Projekt** > **Name** aus.
 
 1. Klicken Sie **Speichern**, um den Bericht zu erstellen und zum Dashboard hinzuzufügen.
+
+## Überlegungen beim Erstellen eines Diagrammberichts
+
+### Verwenden der Feldauswahl
+
+Die **Abschnitte** Dropdown-Liste im Abschnitt **Diagramm erstellen** dient dazu, die Auswahl in einer Feldauswahl einzugrenzen, damit ein Objekt beim Erstellen eines Tabellenberichts leichter zu finden ist. Wählen Sie zunächst ein Basiseinheitsobjekt aus.
+
+* **Alle Abschnitte**: Alle Objekttypen in Workfront Workflow und Workfront Planning.
+* **Workfront-Objekte**: Native Workfront-Workflow-Objekte.
+* **Planning-Datensatztypen**: Benutzerdefinierte Datensatztypen, die in Workfront Planning definiert sind.
+
+![Dropdown-Liste „Abschnitte](assets/sections-dropdown.png)
+
+Nachdem das Basisobjekt für die Entität ausgewählt wurde, wird **Dropdown-** „Abschnitte“ mit den entsprechenden Feldtypoptionen aktualisiert, aus denen Sie auswählen können.
+
+* **Alle Abschnitte**: Native Felder, benutzerdefinierte Felder und verwandte Objekte.
+* **Alle Felder**: Sowohl native als auch benutzerdefinierte Felder (ohne Beziehungen).
+* **Benutzerdefinierte Felder**: Kundendefinierte Felder in einem benutzerdefinierten Formular oder einem Planungsdatensatz.
+* **Workfront-**: Nur native Felder.
+* **Beziehungen**: Verbundene Datensätze.
+
+![Auswahl berichtbarer Objekte](assets/reportable-objects-selection.png)
+
+### Verweisen auf untergeordnete Objekte
+
+Verfügbare Beziehungen für zusätzliche Spalten, Filteroptionen und Gruppierungsattribute sind im Allgemeinen auf Objekte beschränkt, die höher in der Workfront-Objekthierarchie stehen oder die ansonsten eine einzige Auswahl im Basisobjekt der Entität des Berichts aufweisen. Hiervon gibt es einige Ausnahmen, darunter die folgenden:
+
+* Projekt > Aufgaben
+* Dokumentengenehmigung > Dokumentengenehmigungsphasen
+* Phasen der Dokumentgenehmigung > Teilnehmer an der Dokumentgenehmigungsphase
+
+Bei Verwendung einer der oben aufgeführten hierarchischen Beziehungen wird in der Tabelle für jeden untergeordneten Datensatz eine Zeile angezeigt, die mit dem übergeordneten Objekt verbunden ist.

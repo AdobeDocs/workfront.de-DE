@@ -5,10 +5,11 @@ title: Anordnen von Berichten in einem Arbeitsflächen-Dashboard
 description: Sie können anordnen, wie Berichte in einem Arbeitsflächen-Dashboard angezeigt werden, nachdem sie zu einem Dashboard hinzugefügt wurden.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 1%
 
 ---
 
@@ -16,11 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
 
-Nachdem ein Bericht zu einem Arbeitsflächen-Dashboard hinzugefügt wurde, wird er als Berichts-Widget im Dashboard angezeigt, damit Sie seine Daten schnell auf einen Blick visualisieren können. Nachdem mehrere Berichte hinzugefügt wurden, wird empfohlen, die Größe und Reihenfolge jedes Widgets neu anzuordnen, um die Dashboard-Daten effizienter anzuzeigen.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
+Nachdem ein Bericht zu einem Arbeitsflächen-Dashboard hinzugefügt wurde, wird er als Berichts-Widget im Dashboard angezeigt, damit Sie seine Daten schnell auf einen Blick visualisieren können. Nachdem mehrere Berichte hinzugefügt wurden, können Sie die Größe der einzelnen Widgets so einstellen, dass sie am besten zum Inhalt des Berichts im Dashboard passen, und dann die Position der einzelnen Widgets anpassen, um die Daten effektiver anzuzeigen.
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 

@@ -5,10 +5,11 @@ title: Löschen eines Canvas-Dashboards
 description: Sie können anordnen, wie Berichte in einem Arbeitsflächen-Dashboard angezeigt werden, nachdem sie zu einem Dashboard hinzugefügt wurden.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -16,12 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
+
 
 Sobald Sie kein Canvas-Dashboard mehr benötigen, können Sie es aus Adobe Workfront entfernen.
 
+## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 >[!WARNING]
 >
->Nachdem ein Dashboard gelöscht wurde, kann es nicht mehr wiederhergestellt werden.
+> Nachdem ein Dashboard gelöscht wurde, können das Dashboard und alle benutzerdefinierten Berichte und/oder Visualisierungen nicht mehr wiederhergestellt werden.<br>
+> > Wenn Sie ein Dashboard löschen, das einen klassischen Bericht enthält, wird der klassische Bericht nicht gelöscht.
 
 {{step1-to-dashboards}}
 
@@ -83,4 +92,4 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Aktivieren **im Dialogfeld** Dashboard löschen“ das Kontrollkästchen **Ich bestätige, dass ich dieses Dashboard löschen**.
 
-1. Klicken Sie **Löschen**.
+1. Klicken Sie auf **Löschen**.

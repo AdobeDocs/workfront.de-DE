@@ -5,9 +5,10 @@ title: Filtern eines Arbeitsflächen-Dashboards
 description: Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, nachdem es erstellt wurde.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>
+>* Eigene Schlüssel für Amazon Web Services mitbringen
+>* Azure
+>* Google Cloud Platform
+
 
 Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabeaufforderungen enthält. Eine Eingabeaufforderung dient als Filtermodifikator, der zusätzliche Filterkriterien anwendet, sodass Sie Ihre Ergebnisse noch weiter eingrenzen können. Diese Eingabeaufforderungen können bei jeder Anwendung des Filters geändert werden, sodass Sie die angezeigten Ergebnisse anpassen können, ohne die wichtigsten Filterkriterien des Dashboards oder jeden einzelnen Bericht bearbeiten zu müssen.
+
+## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
