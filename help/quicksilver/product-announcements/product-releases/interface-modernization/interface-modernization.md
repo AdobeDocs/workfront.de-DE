@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 **Vorschau-Version: 21. August 2025; Produktions-Version: 28. August 2025**
 
+>[!NOTE]
+>
+>Diese Funktion wurde vorübergehend aus der Produktionsumgebung entfernt.
+
 Das Erscheinungsbild des Kästchens Neues Warteschlangenthema wurde aktualisiert, wenn Sie einem Projekt oder einer Vorlage ein neues Warteschlangenthema hinzufügen, sodass es dem Design anderer Bereiche von Workfront entspricht.
 
 Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -187,6 +191,10 @@ Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](/help/qu
 ### Aktualisierungen der Benutzeroberfläche beim Bearbeiten eines Warteschlangen-Themas für ein Projekt oder eine Vorlage
 
 **Vorschau-Version: 21. August 2025; Produktions-Version: 28. August 2025**
+
+>[!NOTE]
+>
+>Diese Funktion wurde vorübergehend aus der Produktionsumgebung entfernt.
 
 Wir haben das Erlebnis beim Bearbeiten eines Warteschlangen-Themas für Projekte und Vorlagen aktualisiert, sodass es nun mit anderen Bereichen von Workfront übereinstimmt.
 
