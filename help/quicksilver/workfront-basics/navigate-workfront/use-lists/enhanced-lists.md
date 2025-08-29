@@ -4,10 +4,11 @@ title: Erweiterte Listen verwenden
 description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 0%
+source-wordcount: '1124'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{preview-fast-release-general}}
 
-Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten.
+Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
 Informationen zu den Standardlisten finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -67,7 +68,22 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 Je nach Konfiguration der erweiterten Liste gibt es möglicherweise zwei Möglichkeiten, ein Element zur Liste hinzuzufügen:
 
 * Klicken Sie auf eine Schaltfläche oberhalb der Liste. Diese Option öffnet ein Dialogfeld, in dem Sie Informationen eingeben und speichern können.
-* Klicken Sie **Neue**) unten in der Liste auf. Mit dieser Option fügen Sie der Tabelle eine neue Zeile hinzu und geben Informationen in jede Zelle ein. Wenn eine Zelle auf einen bestimmten Datensatz beschränkt ist (z. B. auf einen Währungsnamen), werden Sie möglicherweise aufgefordert, aus einer Liste auszuwählen oder nach dem Namen zu suchen.
+* Klicken Sie **Neue**) unten in der Liste auf. Mit dieser Option fügen Sie der Tabelle eine neue Zeile hinzu und geben Informationen in jede Zelle ein.
+
+  Erweiterte Listen unterstützen diese Feldtypen:
+
+   * Text
+   * Zahl
+   * Währung
+   * Datum
+   * Datum und Uhrzeit
+   * Dropdown-Listen für Einzel-/Mehrfachauswahl
+   * Typeahead
+   * Absatz
+   * Zugewiesener (ein oder mehrere)
+   * Farbwähler
+
+  Wenn Sie eine Zelle bearbeiten, hat jeder Feldtyp seine eigenen Bearbeitungsoptionen.
 
 Um ein Element in der Liste zu bearbeiten, doppelklicken Sie in die Zelle, die Sie bearbeiten möchten, und geben Sie die Informationen ein. Einige Zellen sind möglicherweise schreibgeschützt.
 
@@ -77,13 +93,19 @@ Um ein Element in der Liste zu bearbeiten, doppelklicken Sie in die Zelle, die S
 
 Wenn Sie das Kontrollkästchen neben einem Element in der erweiterten Liste aktivieren, wird die Aktionsleiste am unteren Bildschirmrand angezeigt und zeigt Aktionen an, die Sie für das Element ausführen können. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
 
-Klicken Sie in der Aktionsleiste auf eine Schaltfläche, um diese Aktion auszuführen, z. B. um das Listenelement anzuzeigen, das Element zu löschen oder als Standardelement festzulegen.
+>[!NOTE]
+>
+>Verschiedene erweiterte Listen ermöglichen möglicherweise die Auswahl eines einzelnen Elements, die Massenbearbeitung (die Auswahl mehrerer Elemente) oder die Auswahl keiner Elemente.
+
+Klicken Sie in der Aktionsleiste auf eine Schaltfläche, um diese Aktion auszuführen, z. B. das Anzeigen des Listenelements, das Löschen des Elements oder das Bearbeiten des Elements.
 
 Wenn für das ausgewählte Element keine Aktionen verfügbar sind, wird in der Aktionsleiste „Keine verfügbaren Aktionen“ angezeigt.
 
 ![Beispiel für Aktionsleiste](assets/glist-action-bar-exchange-rates.png)
 
-Das **Mehr**-Menü ist das Dreipunkt-Menü, das neben einem Listenelement angezeigt wird, wenn Sie den Mauszeiger darüber bewegen. Klicken Sie auf das Menü, um zusätzliche Aktionen für das Element anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
+Das **Mehr**-Menü ist das Dreipunkt-Menü, das neben einem Primärfeld in einem Listenelement angezeigt wird, wenn Sie den Mauszeiger darüber bewegen. (Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet.)
+
+Klicken Sie auf das Menü, um zusätzliche Aktionen für das Element anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
 
 ![Weitere Menübeispiele](assets/glist-more-menu-exchange-rates.png)
 
@@ -100,7 +122,9 @@ Einige erweiterte Listen ermöglichen es Ihnen, Spalten auszublenden und anzuzei
 
    >[!NOTE]
    >
-   >Ein Feld kann immer an der ersten Position angezeigt oder fixiert werden und die Spalte kann nicht geändert werden.
+   >Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet. Sie ist an der ersten Position fixiert und kann nicht geändert werden. Wenn die Anzahl der Spalten groß ist, wird das primäre Feld nach links eingefroren, und wenn Sie horizontal scrollen, wird es immer angezeigt.
+   >
+   >Das Symbol neben einem Feldnamen zeigt den Feldtyp an, z. B. Text oder Datumsfeld.
 
    <span class="preview">Ein Indikator wird auf der Schaltfläche **Spalten** angezeigt, wenn Spalten ausgeblendet sind. Der Indikator wird bei der Neuanordnung der Spalten nicht angezeigt.</span>
 
@@ -150,7 +174,7 @@ Um einzelne Spalten zu sortieren, gehen Sie zur Spalte und klicken Sie auf den A
 
 >[!NOTE]
 >
->Wenn die Liste ein Standardelement enthält, wird dieses Element immer an erster Stelle in der Liste stehen, unabhängig davon, wie die Liste sortiert ist.
+>Einige Spalten sind möglicherweise nicht sortierbar.
 
 ![Nach Spalte sortieren](assets/glist-sort-by-column.png)
 

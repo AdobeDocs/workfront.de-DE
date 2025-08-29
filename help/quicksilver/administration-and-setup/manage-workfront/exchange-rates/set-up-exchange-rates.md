@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -86,9 +86,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Basiswährung (Standard) zu ändern:
 
    * Aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen Sie **Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
-   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **&#x200B;**&#x200B;Mehr. Wählen Sie dann **Als Standard festlegen** aus.
+   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **** Mehr. Wählen Sie dann **Als Standard festlegen** aus.
 
      Die neue Standardwährung wird mit dem Symbol aktualisiert.
+
+     >[!NOTE]
+     >
+     >Die Standardwährung wird immer zuerst in der Liste angezeigt, unabhängig davon, wie die Liste sortiert ist.
 
 1. (Optional) Um eine Währung zu löschen, aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen **Löschen** in der Aktionsleiste am unteren Bildschirmrand. Die Standardwährung kann nicht gelöscht werden.
 
