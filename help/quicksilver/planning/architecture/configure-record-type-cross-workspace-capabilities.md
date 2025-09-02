@@ -4,10 +4,10 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 2%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -65,7 +65,7 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.  
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produkte</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> 
-<p>Einer der folgenden Workfront-Pläne:</p> 
-<ul><li>Auswählen</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
-   <td> 
-<p>Beliebig </p> 
+<ul><li><p>Beliebiges Workfront-Paket</p></li>
+Und
+<li><p>Planning Plus-Paket</p></li></ul>
+Oder:
+<ul><li><p>Beliebiges Workflow-Paket</p> </li>
+Und
+<li><p>Planen eines Prime- oder Ultimate-Pakets</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
-   <td> 
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 ## Konfigurieren von zentralisierten Datensatztypen
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-Als Workspace-Manager können Sie einen Datensatztyp konfigurieren, der anderen Arbeitsbereichen hinzugefügt wird, wenn Sie einen Datensatztyp erstellen oder bearbeiten.
+Als Workspace-Manager können Sie einen Datensatztyp als zentralisierten Datensatztyp konfigurieren. Ein zentralisierter Datensatztyp kann anderen Arbeitsbereichen hinzugefügt werden.
 
-Wenn Sie das Hinzufügen eines Datensatztyps zu anderen Arbeitsbereichen konfigurieren, kann ein Workspace-Manager den Datensatztyp und alle zugehörigen Informationen in einen der von ihm verwalteten Arbeitsbereiche importieren.
+Ein Workspace-Manager kann einem von ihm verwalteten Workspace einen zentralen Datensatztyp hinzufügen. Die ursprünglichen Felder des Datensatztyps werden ebenfalls hinzugefügt.
 
-So konfigurieren Sie das Hinzufügen eines Datensatztyps zu einem anderen Arbeitsbereich, wenn Sie den Datensatztyp bearbeiten:
+Benutzer können Datensätze zu einem zentralen Datensatztyp aus jedem Arbeitsbereich hinzufügen, zu dem sie beitragen können, wobei dieser Datensatztyp hinzugefügt wird, einschließlich seines primären Arbeitsbereichs. Sie können nur Datensätze aus dem Arbeitsbereich anzeigen, für die sie über die Berechtigung zum Anzeigen verfügen.
+
+So konfigurieren Sie das Hinzufügen eines Datensatztyps als zentralisierten Datensatztyp:
 
 {{step1-to-planning}}
 
@@ -176,11 +159,14 @@ oder
    >Sie können den Datensatztyp und dessen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
    * Die Karte „Datensatztyp“ zeigt das Symbol „Globaler ![&quot; an](assets/global-icon.png) um anzugeben, dass der Datensatztyp jedem Arbeitsbereich hinzugefügt werden kann, dessen Manager Sie in Ihrer Konfiguration angegeben haben.
-   * Dem Datensatztyp wird ein vom System generiertes **&#x200B;**&#x200B;Workspace-Feld hinzugefügt.
+   * Dem Datensatztyp wird ein vom System generiertes **** Workspace-Feld hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wurde.
 
      Dieses Feld ist schreibgeschützt und kann nicht gelöscht werden.
+1. (Optional) Wechseln Sie zu einem anderen Arbeitsbereich und erstellen Sie einen Datensatztyp mithilfe eines vorhandenen Datensatztyps. Wählen Sie den Datensatztyp aus, den Sie in den obigen Schritten aktiviert haben.
+
+   Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 ## Konfigurieren verbindbarer Datensatztypen
 
@@ -222,6 +208,9 @@ oder
    * Auf der Karte „Datensatztyp“ wird das Symbol für eine arbeitsbereichsübergreifende Verbindung ![Symbol für eine arbeitsbereichsübergreifende Verbindung](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatztyp über jeden Arbeitsbereich, den Sie in Ihrer Konfiguration angegeben haben, verbunden werden kann.
 
    Der Datensatztyp steht nun für die Verbindung über die vorgesehenen Arbeitsbereiche zur Verfügung.
+1. (Optional) Wechseln Sie zu einem anderen Arbeitsbereich und fügen Sie eine Verbindung zu dem Datensatztyp hinzu, den Sie in den obigen Schritten für eine Workspace-übergreifende Verbindbarkeit aktiviert haben.
+
+   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 

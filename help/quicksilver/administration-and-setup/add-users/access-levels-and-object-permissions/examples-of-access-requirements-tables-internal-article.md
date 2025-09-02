@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '752'
 ht-degree: 2%
 
 ---
@@ -208,36 +208,59 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> Produkte</p> </td> 
-   <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<p>Jedes Adobe Workfront Workflow-Paket und jedes Adobe Workfront Planning-Paket</p> 
+<ul><li><p>Beliebiges Workfront-Paket</p></li>
+Und
+<li><p>Beliebiges Planungspaket</p></li></ul>
+Oder
+<ul><li><p>Beliebiges Workflow-Paket</p></li>
+Und
+<li><p>Beliebiges Planungspaket</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
-   <td> 
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p> Standard</p> 
+   <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Zugriffsanforderungen für zentralisierte Datensatztypen in Workfront Planning
+
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td>
+
+<ul><li><p>Beliebiges Workfront- oder Workflow-Paket</p></li>
+Und
+<li><p>Ein Prime- oder Ultimate-Planungspaket</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
@@ -248,14 +271,11 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-
-
 ## Zugriffsanforderungen für die meisten Szenario-Planer
 
 >[!NOTE]
 >
 >Wenn Ihr Unternehmen den Szenario-Planer von Adobe bereits in der Vergangenheit erworben hat, ist er im Besitz des Bestandsschutzes. Der Szenario-Planer kann nicht mehr erworben werden.
-
 
 Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
@@ -264,24 +284,61 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] Paket</p> </td> 
+<td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
+   <td> <p>Adobe Workfront-Lizenz</p> </td> 
    <td> <p>Licht oder höher</p> 
    Oder
-   <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
+   <p>Überprüfen oder höher</p> </td> 
   </tr>
 
 <td><p>Konfigurationen der Zugriffsebene</p> </td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Zugriff auf den Szenario-Planer bearbeiten</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>[!UICONTROL Manage]-Berechtigungen für einen Plan</p>  </td> 
+   <td> <p>Verwalten der Berechtigungen für einen Plan</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Zugriffsanforderungen für die meisten Workfront-Ziele
+
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen die Adobe Workfront Goals in der Vergangenheit gekauft hat, ist es in der Vergangenheit in Bestandsschutz. Adobe Workfront Goals ist nicht mehr erhältlich.
+
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront-Paket</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront-Lizenz</p> </td> 
+   <td> <p>Mitwirkender oder höher</p> 
+   Oder
+   <p>Antragsteller oder höher</p> </td> 
+  </tr>
+
+<td><p>Konfigurationen der Zugriffsebene</p> </td> 
+   <td> <p>Zugriff auf Ziele bearbeiten</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Objektberechtigungen </p> </td> 
+   <td> <p>Verwalten von Berechtigungen für ein Ziel</p>  </td> 
   </tr> 
  </tbody> 
 </table>

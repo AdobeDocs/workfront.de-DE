@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '3872'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,8 +48,8 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -93,7 +93,7 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++     
 
 ## Verwalten einer Zeitleisten-Ansicht {#manage-a-timeline-view}
 
@@ -119,6 +119,12 @@ Beachten Sie Folgendes:
 * Sie können Datensätze in der Zeitleisten -Ansicht erstellen und bearbeiten. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
 </div>
+
+<!--move this bullet under the same div as above OR add a span or another div tag?? ??
+
+* You can resize the records' bars in the timeline view. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+-->
 
 So verwalten Sie eine Zeitleisten -Ansicht:
 
@@ -387,7 +393,7 @@ this is not possible right now; if this is the same functionality as the table v
 Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, welche Informationen wie im Abschnitt „Zeitleiste“ der Ansicht angezeigt werden sollen.
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie **Einstellungen**.
+1. Klicken Sie auf **Einstellungen**.
 1. Klicken Sie **linken Bereich auf** Datum und Uhrzeit“ und wählen Sie dann ein **Startdatum** und ein **Enddatum** aus, die in der Zeitleiste angezeigt werden sollen. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges verfügbares Datumsfeld auswählen.
 
    Die Balken, die die Datensätze darstellen, beginnen an dem Datum, das Sie als Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
@@ -521,7 +527,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

@@ -4,9 +4,9 @@ description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. I
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -44,48 +44,28 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produkte</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> 
-<p>Einer der folgenden Workfront-Pläne:</p> 
-<ul><li>Auswählen</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
-   <td> 
-<p>Beliebig </p> 
+<ul><li><p>Beliebiges Workfront-Paket</p></li>
+Und
+<li><p>Planning Plus-Paket</p></li></ul>
+Oder:
+<ul><li><p>Beliebiges Workflow-Paket</p> </li>
+Und
+<li><p>Planen eines Prime- oder Ultimate-Pakets</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
-   <td> 
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
@@ -105,8 +85,9 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 * Nachdem Sie den Datensatztyp aus einem anderen Arbeitsbereich hinzugefügt haben, werden auch die folgenden Informationen aus dem vorhandenen Datensatztyp hinzugefügt:
 
    * Felder
-   * Einträge
    * Verbindungen aufzeichnen
+
+* Sie können Datensätze, die von anderen Arbeitsbereichen hinzugefügt wurden, nur anzeigen, wenn Sie über Berechtigungen für diese Arbeitsbereiche verfügen.
 
 * Sie können den Datensatztyp einschließlich der Felder nur im ursprünglichen Arbeitsbereich bearbeiten. Sie können sie nicht in den Arbeitsbereichen bearbeiten, in denen sie hinzugefügt wurde.
 * Die aus allen Arbeitsbereichen hinzugefügten Datensätze sind für alle Benutzer sichtbar, die in allen Arbeitsbereichen auf sie zugreifen, auch wenn sie in einem Arbeitsbereich erstellt wurden, in dem sie keine Berechtigungen haben.

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '5244'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -46,7 +46,7 @@ Weitere Informationen zu Workfront Planning-Feldern finden Sie unter [Feldübers
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -69,8 +69,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -108,7 +108,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Erstellen von Feldern durch Verbinden von Datensatztypen
 
@@ -264,6 +264,14 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen über einen Dat
 
 Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informationen in einem beliebigen Format zu erfassen, indem Sie mehr als eine Option aus einem Dropdown-Menü auswählen.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann **Feldtyp Mehrfachauswahl** aus.
 
    ![Feldtyp mit Mehrfachauswahl](assets/multi-select-field-type.png)
@@ -292,6 +300,14 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 ### Einzelauswahl {#single-select}
 
 Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebigen Format erfassen, indem Sie eine Option aus einem Dropdown-Menü auswählen.
+
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzelauswahl** aus.
 
@@ -358,7 +374,7 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 >Zahlenfelder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Zahlen angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
@@ -388,7 +404,7 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
 >Prozentuale Felder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten und die Werte dieser Felder werden nach dem Senden der Anfrage als Prozentwerte für den Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
@@ -428,7 +444,7 @@ Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangeste
 >Währungsfelder werden in einem Formular-Builder für Anfragen als einzeilige Textfelder angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Währung angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
