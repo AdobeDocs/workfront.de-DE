@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1875'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Monatliche Version | Vierteljährliche Veröffentlichung |
 >|----|----|
->| <ul><li>25.5 (Mai 2025)</li><li>25.6 (Juni 2025)</li><li>25.7 (Juli 2025)</li></ul> | <ul><li>25.7 (Juli 2025)</li></ul> |
+>| <ul><li>25.5 (15. Mai 2025)</li><li>25.6 (12. Juni 2025)</li><li>25.7 (17. Juli 2025)</li></ul> | <ul><li>25.7 (17. Juli 2025)</li></ul> |
 >
 >Beachten Sie, dass die Benutzer des Zeitplans für die schnelle Veröffentlichung jedes Quartals (25.7 in diesem Quartal) die Veröffentlichung einen Tag früher erhalten werden.
 >
@@ -387,7 +387,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
