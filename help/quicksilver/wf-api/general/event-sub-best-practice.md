@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Stellen Sie sicher, dass alle erforderlichen Felder für den Anfragetext für di
 ## Vermeiden Sie das Einfügen von zusätzlichen Textfeldern
 
 Fügen Sie in die Anfrage keine zusätzlichen Textfelder ein, da dies dazu führt, dass die API kein Abonnement erstellen kann.
+
+## Überlastung von Ereignisabonnements vermeiden
+
+Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Um dies sicherzustellen, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion von einem einzelnen Benutzer zu verhindern, die potenzielle Probleme mit der Service-Qualität für alle Benutzer verursachen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandbox- und Verzögerungen bei der Ereignisbereitstellung kommen.
 
 ## Vollständige Tests innerhalb der Übergangsphase
 

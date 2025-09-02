@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 3%
 
 ---
@@ -62,19 +62,19 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Dokument
 * Ausgabe
 * Feld
-* Stunde
+* Hour
 * Problem
-* Notiz
+* Hinweis
 * Portfolio
 * Programm
 * Projekt
 * Eintrag
-* Datensatztyp
+* Art des Eintrags
 * Bericht
 * Aufgabe
 * Vorlage
 * Arbeitszeittabelle
-* Benutzerin oder Benutzer
+* Benutzerin bzw. Benutzer
 * Arbeitsbereich
 
 >[!NOTE]
@@ -89,6 +89,10 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt I
 * Für die Verwendung der Ereignisabonnement-API ist eine `sessionID` Kopfzeile erforderlich
 
   Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
+
+## Überlastung von Ereignisabonnements vermeiden
+
+Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Um dies sicherzustellen, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion von einem einzelnen Benutzer zu verhindern, die potenzielle Probleme mit der Service-Qualität für alle Benutzer verursachen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandbox- und Verzögerungen bei der Ereignisbereitstellung kommen.
 
 ## Abonnement-Ressource erstellen
 
@@ -149,7 +153,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>FELD</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>Stunde</p></td> 
+        <td scope="col"><p>Hour</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -157,7 +161,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>OPTASK</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Notiz</td> 
+        <td scope="col">Hinweis</td> 
         <td scope="col">NOTIZ</td> 
        </tr> 
        <tr> 
@@ -177,7 +181,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>AUFZEICHNUNG</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Datensatztyp</p></td> 
+        <td scope="col"><p>Art des Eintrags</p></td> 
         <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
@@ -197,7 +201,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col">TSHET</td> 
        </tr> 
        <tr> 
-        <td scope="col">Benutzerin oder Benutzer</td> 
+        <td scope="col">Benutzerin bzw. Benutzer</td> 
         <td scope="col">BENUTZER</td> 
        </tr> 
        <tr> 
@@ -300,7 +304,7 @@ Das Übergeben einer Abonnement-Ressource als Hauptteil einer Anfrage (wobei der
 |---|---|
 | content-length | `→0` |
 | Datum | `→Wed, 05 Apr 2017 21:23:33 GMT` |
-| Speicherort | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
+| Standort | `→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2` |
 | Server | `→Apache-Coyote/1.1` |
 
 ## Abfrage von Ereignisabonnements
@@ -356,7 +360,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Antwort-Header | Beispiel |
 |---|---|
-| content-type | `→application/json;charset=UTF-8` |
+| Content-Type | `→application/json;charset=UTF-8` |
 | Datum | `→Wed, 05 Apr 2017 21:29:32 GMT` |
 | Server | `→Apache-Coyote/1.1` |
 | Transfer-Codierung | `→chunked` |
@@ -780,7 +784,7 @@ Mit diesem Filter können Nachrichten nur dann durchgelassen werden, wenn das an
 }
 ```
 
-#### ändern
+#### change
 
 Mit diesem Filter können Nachrichten nur dann durchgelassen werden, wenn das angegebene Feld (`fieldName`) in oldState und newState einen anderen Wert aufweist. Durch die Aktualisierung anderer Felder neben dem angegebenen (`fieldName`) wird diese Änderung nicht zurückgegeben.
 
@@ -804,7 +808,7 @@ Mit diesem Filter können Nachrichten nur dann durchgelassen werden, wenn das an
 }
 ```
 
-#### Bundesland
+#### state
 
 Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Objekts angewendet wird, das erstellt oder aktualisiert wurde. Dies ist hilfreich, wenn Sie wissen möchten, wo eine Änderung von einer Sache zur anderen vorgenommen wurde.
 `oldState` ist auf CREATE `eventTypes` nicht möglich.
@@ -812,7 +816,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
