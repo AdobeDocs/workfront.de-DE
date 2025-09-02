@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
+source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 3%
+source-wordcount: '681'
+ht-degree: 4%
 
 ---
 
@@ -104,7 +104,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Arbeitszeittabellen
    * Dokumente
    * Vorlagen
-   * Proofing
    * Ziele
 
      >[!NOTE]
@@ -132,7 +131,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * &quot;![-Symbol](assets/add-icon-plus-in-circle.png) **Verfügbare Elemente** anzeigen, die nicht im Hauptmenü angezeigt werden sollen.
    * Ziehen Sie ![Symbol ziehen](assets/move-icon---dots.png) **Aktive Elemente**, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
 
-1. Klicken Sie **Fertig**.
+1. Klicken Sie auf **Fertig**.
 
    Sie können auch jederzeit **Abbrechen** klicken, wenn Sie Ihre Änderungen verwerfen möchten.
 
