@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '1028'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 
 Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Beispiel für Zugriffsanforderungen für das Ressourcen-Management
+## Zugriffsanforderungen für das Ressourcen-Management (Beispiel für mehrere mögliche Lizenzen; alle RM-Pakete sind jetzt „any„)
 
 Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
@@ -378,4 +378,45 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 </table>
 
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<p>Connector-basiert (veraltet): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>
+   <p>Wenn Ihr Unternehmen über ein Select- oder Prime Workfront-Paket verfügt, das keine Workfront-Automatisierung und -Integration enthält, muss Ihr Unternehmen Adobe Workfront Fusion erwerben.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+## Erweiterte Enterprise-Steuerelemente
+
+In einem Artikel über Gruppenadministratoren wird das Paket erwähnt, in dem der Kunde vorhanden sein muss, damit Gruppenadministratoren über bestimmte Funktionen in Workfront verfügen.
+
+[Link zum aktuellen Artikel](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### Der Text zur dritten Fußnote unter der Tabelle wurde aktualisiert
+
+&#42;&#42;&#42; Diese Pakete enthalten die unten aufgeführten erweiterten Funktionen für die Unternehmenssteuerung:
+
+* Workflow-Prime und höher
+* Workfront Prime und höher
+
+Weitere Informationen zu Paketen finden Sie auf der Seite [ Preisgestaltung und Verpackung von ](https://business.adobe.com/products/workfront/pricing.html)Adobe Workfront.
+
+Erweiterte Enterprise Controls:
+
+* Einstellungen für Projekte, Aufgaben und Probleme auf Gruppenebene konfigurieren
+* Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen auf Gruppenebene
+* Konfigurieren von Ereignis-Benachrichtigungs-E-Mails auf Gruppenebene
+* Erstellen und Verwalten von gruppenspezifischen Genehmigungsprozessen
+* Lizenzbeschränkungen zuweisen und ihre Nutzung nach Hauptgruppe anzeigen
+* Gruppenadministratoren für Untergruppen zuweisen
+* Gruppenadministratoren erlauben, Untergruppen zu erstellen
 
