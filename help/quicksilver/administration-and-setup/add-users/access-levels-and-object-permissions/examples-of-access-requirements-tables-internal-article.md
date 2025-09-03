@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,13 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td>
 
-<ul><li><p>Beliebiges Workfront- oder Workflow-Paket</p></li>
-Und
-<li><p>Ein Prime- oder Ultimate-Planungspaket</p></li></ul>
+<ul><li><p>Beliebiges Workfront-Paket</p></li>
+  Und
+  <li><p>Planning Plus-Paket</p></li></ul>
+  Oder:
+  <ul><li><p>Beliebiges Workflow-Paket</p> </li>
+  Und
+  <li><p>Planen eines Prime- oder Ultimate-Pakets</p></li></ul>
    </td> </tr>
 
 </tr> 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
    * Inline, in einer Tabellenansicht.
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * Wenn ein(e) Benutzende(r) einen Datensatz in einer Ansicht bearbeitet, sind die Änderungen sofort in allen Ansichten und auf den Datensatzseiten für alle anderen Benutzenden sichtbar.
 
@@ -127,10 +135,16 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
 
 Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
-* [Die Tabellenansicht eines Datensatztyps](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Die Tabellenansicht](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Die Zeitleisten -Ansicht](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [Die Kalenderansicht](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view)
 * [Die Seite des Datensatzes](#edit-a-record-from-the-records-page)
 * [Ein Workfront-Objekt im Planungsabschnitt](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+Um die Daten der Datensätze zu bearbeiten, gehen Sie wie folgt vor:
+
+* [Ändern Sie die Größe der Balken der Datensätze in der Zeitleisten- und Kalenderansicht]
 
 ### Bearbeiten eines Datensatzes inline in der Tabellenansicht eines Datensatztyps
 
@@ -221,6 +235,39 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    >    Sie können die Tastaturbefehle mehrmals hintereinander verwenden, um mehrere Änderungen rückgängig zu machen.
 
 1. (Optional) Fügen Sie einem Datensatz eine Miniaturansicht hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+
+### Bearbeiten eines Datensatzes in der Zeitleisten-Ansicht eines Datensatztyps
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Öffnen Sie die Seite „Datensatztyp“ in einer Zeitleisten -Ansicht. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
+
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+
+### Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Öffnen Sie die Seite „Datensatztyp“ in einer Kalenderansicht. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
+
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes aus der Datensatzvorschau in einer Ansicht
 

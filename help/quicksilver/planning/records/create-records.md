@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 0%
@@ -335,7 +335,9 @@ Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [V
    * **Schließen** ![Schließen-Symbol](assets/close-icon.png), um das neue Datensatzfeld zu schließen.
 
    Der Datensatz wird sofort zur Zeitleiste sowie zur Tabellen- und Kalenderansicht hinzugefügt, es sei denn, Sie haben auf das Symbol **Löschen** geklickt.
-   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
 1. (Optional) Klicken Sie auf die Datensatzleiste in der Zeitleiste, um das Detailfenster des Datensatzes zu öffnen und seine Informationen zu aktualisieren, zu löschen oder Kommentare hinzuzufügen.
 
    >[!TIP]
@@ -401,7 +403,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -412,9 +416,8 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
 
-</div>
+    </div> -->
 
--->
 
 ## Erstellen von Datensätzen durch Kopieren und Einfügen aus einer externen Liste
 
