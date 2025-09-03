@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -344,4 +344,34 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 </table>
 
 Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Beispiel für Zugriffsanforderungen für das Ressourcen-Management
+
+Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Leicht oder höher für ein Projekt; Standard für mehrere Projekte</p>
+       <p>Überprüfung oder höher für ein Projekt; Planen mehrerer Projekte</p></td>
+  </tr> 
+  <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen des Zugriffs auf das Ressourcenmanagement oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Objektberechtigungen</td> 
+   <td> <p>Anzeigen von Berechtigungen für Projekte und Benutzer </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
