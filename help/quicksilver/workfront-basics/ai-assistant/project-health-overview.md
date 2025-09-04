@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Um die Projektdiagnose nutzen zu können, muss in Ihrer Organisation der KI-Assistent aktiviert sein.
 
-Um den KI-Assistenten für Ihr Unternehmen zu aktivieren, müssen alle folgenden Bedingungen erfüllt sein:
+Um den KI-Assistenten und die Projektdiagnose für Ihre Organisation zu aktivieren, müssen alle folgenden Bedingungen erfüllt sein:
 
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
+* Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
 * Das einheitliche Adobe-Erlebnis muss aktiviert sein.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 * Der Workfront-Administrator muss den KI-Assistenten für Benutzende in Ihrer Organisation aktivieren. Der KI-Assistent wird über Zugriffsebenen aktiviert.
+* Die Optionen KI aktivieren und Projektdiagnose müssen im Abschnitt KI-Voreinstellungen unter Setup > Voreinstellungen ausgewählt werden.
 
-Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  ![Abschnitt KI-Voreinstellungen](assets/ai-preferences.png)
+
+Weitere Informationen finden Sie unter [Übersicht über den KI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)Assistenten und [Systemeinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Liste mit Eingabeaufforderungen des KI-Assistenten
 
@@ -288,7 +292,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts für
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 1. Klicken Sie oben rechts auf **Neues Dashboard**.
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 1. Klicken Sie auf der linken Seite auf **Tabelle**.

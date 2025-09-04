@@ -6,9 +6,9 @@ description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie könn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: Mitwirkender oder höher </p>
         <p>oder</p> 
-        <p>Aktuell: [!UICONTROL -Anfrage] oder höher </p></td> 
+        <p>Aktuell: [!UICONTROL-Anfrage] oder höher </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,12 +120,6 @@ Die Richtlinie zum Aktualisieren des Status funktioniert automatisch sowohl für
 * Wenn der Status einer Ad-hoc-Karte oder einer verbundenen Karte auf der Karte aktualisiert wird, um ihn an den Spaltenstatus in der Richtlinie anzupassen, oder an einer anderen Stelle in Workfront der Status einer verbundenen Karte aktualisiert wird, wird die Karte automatisch in diese Spalte verschoben. Wenn außerdem ein benutzerdefinierter Status auf einer Karte mit dem Systemstatus übereinstimmt, der der Spalte zugewiesen wurde, wird die Karte in diese Spalte verschoben.
 
 Eine Karte verbleibt in einer Spalte, in der sie platziert wird, wenn der Kartenstatus keinem in den Spaltenrichtlinien festgelegten Status entspricht.
-
->[!NOTE]
->
->Dynamische Pinnwände platzieren immer Karten in der Spalte, die ihrem Status entspricht, unabhängig davon, ob Spaltenrichtlinien aktiviert oder deaktiviert sind. Karten kehren beim Aktualisieren der Pinnwand zu ihren zugewiesenen Spalten zurück.
-> 
->Wenn Sie bei allen Pinnwand-Typen eine Karte von einer Spalte in eine andere Spalte mit demselben Status verschieben, kehrt die Karte bei der Aktualisierung der Pinnwand zur ursprünglichen Spalte zurück.
 
 1. Rufen Sie die Pinnwand auf.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]**.
