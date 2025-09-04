@@ -292,7 +292,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts für
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 1. Klicken Sie oben rechts auf **Neues Dashboard**.
-1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 1. Klicken Sie auf der linken Seite auf **Tabelle**.
