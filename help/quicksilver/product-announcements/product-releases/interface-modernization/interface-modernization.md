@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierungen der Benutzeroberfläche für die Felder „Neue Scorecard“ und „Scorecard kopieren“
+
+**Vorschau-Version: 4. September 2025; Produktions-Version: 11. September 2025**
+
+Das Erscheinungsbild der Felder „Neue Scorecard“ und „Scorecard kopieren“ wurde entsprechend dem Design in anderen Bereichen des Programms aktualisiert. Sie können das aktualisierte Design beim Erstellen oder Kopieren einer Scorecard im Bereich Setup von Workfront anzeigen.\
+Weitere Informationen finden Sie unter [Erstellen einer Scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Liste der Layout-Vorlagen in einer Gruppe
 
@@ -217,7 +224,7 @@ Weitere Informationen finden Sie unter [Projektausgaben verwalten](/help/quicksi
 
 >[!NOTE]
 >
->Vorübergehend aus Vorschau und Produktion entfernt
+>In der Vorschau verfügbar und werden ab dem 4. September 2025 in einem stufenweisen Rollout in der Produktion verfügbar sein.
 
 Das Erscheinungsbild des Felds Zeit protokollieren wurde aktualisiert, wenn im Abschnitt Stunden die Zeit für ein Projekt, eine Aufgabe oder ein Problem protokolliert wird, sodass sie dem Design anderer Bereiche von Workfront entspricht.
 

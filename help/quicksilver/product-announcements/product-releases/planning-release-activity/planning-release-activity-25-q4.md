@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,114 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Unified request form list now available
 
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: September 11, 2025
+>* Production all: October 16, 2025
+
+To make it easier to find the request form you're looking for in Workfront Planning, we've created a unified list for request forms. Now, all request forms that you have access to can be found in a single list, regardless of the object they were created for. Clicking on a form in this list brings you to the request form's page, where you can edit, preview, or publish and unpublish the form.
+
+Previously, request forms were located only on the object for which they were created.
+
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Ändern der Größe von Datensätzen in der Kalendermonatsansicht
+
+>[!NOTE]
+>
+>* Vorschau: 4. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Alle Produktionen: 16. Oktober 2025
+
+In der Kalenderansicht einer Datensatztypseite können Sie jetzt auf die linken oder rechten Ränder eines Datensatzes klicken, ziehen und ablegen, um dessen Dauer zu ändern.
+
+Durch Verschieben der Ränder eines Datensatzes wird auch dessen Anfangs- und Enddatum sofort geändert.
+
+Es wird eine Übersicht angezeigt, die Sie zum neuen Speicherort führt, bevor die Größe des Ereignisses geändert wird.
+
+Die Größenänderung von Datensätzen in der Kalenderansicht ist nur verfügbar, wenn die Ansicht nach Monat angezeigt wird.
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+
+## Erstellen von Datensätzen in der Kalenderansicht
+
+>[!NOTE]
+>
+>* Vorschau: 4. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Sie können jetzt Datensätze in der Kalenderansicht eines Datensatztyps erstellen, indem Sie auf eine beliebige Stelle im Kalender doppelklicken.
+
+Sie können den Datumsbereich Ihres Datensatzes auswählen oder die Seite des Datensatzes öffnen, um alle Details zu bearbeiten.
+
+Vor dieser Verbesserung konnten Sie zum Hinzufügen eines Datensatzes aus der Kalenderansicht nur mithilfe der Schaltfläche Neuer Datensatz neue Datensätze hinzufügen.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+
+## Ändern der Größe von Datensätzen in der Zeitleisten -Ansicht
+
+>[!NOTE]
+>
+>* Vorschau: 4. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+In der Zeitleisten -Ansicht einer Datensatztypseite können Sie jetzt auf die linken oder rechten Ränder eines Datensatzes klicken, ziehen und ablegen, um dessen Dauer zu ändern.
+
+Durch Verschieben der Ränder eines Datensatzes wird auch dessen Anfangs- und Enddatum sofort geändert.
+
+Es wird eine Übersicht angezeigt, die Sie zum neuen Speicherort führt, bevor die Größe des Ereignisses geändert wird.
+
+>[!NOTE]
+>
+>Die Größenänderung von Datensätzen in der Zeitleisten -Ansicht ist verfügbar, wenn die Ansicht jährlich, vierteljährlich oder monatlich angezeigt wird.
+
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+
+## Anzahl der in der Kalenderansicht angezeigten Datensätze steuern
+
+>[!NOTE]
+>
+>* Vorschau: 4. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Wir haben die Einstellung Zeilenhöhe in der Symbolleiste der Kalenderansicht einer Datensatzseite hinzugefügt. Sie können jetzt festlegen, wie viele Datensätze in einer Kalenderzelle angezeigt werden, indem Sie eine der folgenden Optionen für die Zeilenhöhe der Ansicht auswählen:
+
+* Kurz
+* Standard
+* Mittel
+* Groß
+* An Inhalt anpassen
+
+Die Einstellung ist nur verfügbar, wenn die Kalenderansicht nach Monat angezeigt wird. Die Einstellung ist nicht verfügbar, wenn der Kalender nach Woche angezeigt wird.
+
+Weitere Informationen, einschließlich der Beschränkungen für jede Option, finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+
+## Neue Auswahl hinzufügen, um Felder vom Typ in der Tabellenansicht auszuwählen
+
+>[!NOTE]
+>
+>* Vorschau: 4. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Sie können einem Ein- oder Mehrfachauswahlfeld jetzt eine neue Auswahl hinzufügen, während Sie den Feldwert in der Tabellenansicht aktualisieren. Wenn beispielsweise das Statusfeld mit einer einzigen Auswahl drei Auswahlmöglichkeiten hat und Sie eine vierte Auswahl haben möchten, können Sie es hinzufügen, während Sie das Statusfeld eines Datensatzes in der Tabellenansicht bearbeiten.
+
+Vor dieser Verbesserung konnten Sie neue Auswahlmöglichkeiten nur durch Bearbeiten des Felds hinzufügen.
+
+>[!NOTE]
+>
+>Diese Funktion ist nur verfügbar, wenn Sie die Feldwerte in der Tabellenansicht aktualisieren.
+
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 ## Neue kombinierte Statusspalte in der Liste Einheitliche Anfrage
 
@@ -77,8 +184,8 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 >[!NOTE]
 >
 >Vorschau: 7. August 2025
->&#x200B;>Produktion für alle :August, 2025
->&#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
+>>Produktion für alle :August, 2025
+>>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wir haben neue Ausdrücke mit der folgenden Verwendung zu Formelfeldern in Workfront Planning und zu berechneten benutzerdefinierten Feldern in Workfront hinzugefügt:
 
@@ -93,8 +200,8 @@ Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrü
 >[!NOTE]
 >
 >Vorschau: 31. Juli 2025
->&#x200B;>Produktion für alle Kunden: 31. Juli 2025
->&#x200B;>[!BADGE Aus dem Zeitplan]{type=Neutral}
+>>Produktion für alle Kunden: 31. Juli 2025
+>>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Es wurde eine Schaltfläche Maximieren hinzugefügt, um das Feld Formel beim Erstellen oder Bearbeiten des Felds in einer Datensatztabellen-Ansicht zu vergrößern. Darüber hinaus wurde im neuen vergrößerten Fenster eine Schaltfläche Minimieren hinzugefügt, um zum Feld Felderstellung zurückzukehren.
 
@@ -143,8 +250,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Vorschau: 24. Juli 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle Kunden: 16. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle Kunden: 16. Oktober 2025
 
 Sie können jetzt Datensätze in der Zeitleisten -Ansicht eines Datensatztyps erstellen, indem Sie an einer beliebigen Stelle in der Zeitleiste doppelklicken.
 
@@ -159,8 +266,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 >[!NOTE]
 >
 >Vorschau: 24. Juli 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle Kunden: 16. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle Kunden: 16. Oktober 2025
 
 Sie können jetzt einen Datensatztyp über das Menü Mehr der Karte Datensatztyp auf der Seite Arbeitsbereich freigeben. Vor dieser Verbesserung war die Option Freigeben nur auf der Seite „Datensatztyp“ verfügbar.
 
@@ -171,8 +278,8 @@ Weitere Informationen finden Sie [Datensatztypen freigeben](/help/quicksilver/pl
 >[!NOTE]
 >
 >Vorschau: 24. Juli 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle Kunden: 16. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle Kunden: 16. Oktober 2025
 
 Sie können jetzt alle Workfront Planning-Ansichten (Tabelle, Timeline und Kalender) im Vollbildmodus anzeigen. Die Ansichtsfunktion bleibt erhalten und Sie können die Ansicht auch im Vollbildmodus ändern.
 
@@ -185,8 +292,8 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 >[!NOTE]
 >
 >Vorschau: 22. Juli 2025
->&#x200B;>Produktion für die Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle Kunden: 16. Oktober 2025
+>>Produktion für die Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle Kunden: 16. Oktober 2025
 
 Um den Genehmigungsprozess flexibler zu gestalten, haben wir die Möglichkeit hinzugefügt, Teams als genehmigende Personen in Planungsanfrageformularen hinzuzufügen. Jetzt können Sie beim Festlegen von Genehmigern Team-Namen eingeben und auswählen. Jedes Teammitglied kann eine Entscheidung treffen, die als Genehmigungsentscheidung für das gesamte Team gilt.
 
@@ -199,8 +306,8 @@ Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem A
 >[!NOTE]
 >
 >Vorschau: 17. Juli 2025
->&#x200B;>Produktion für die Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle Kunden: 16. Oktober 2025
+>>Produktion für die Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle Kunden: 16. Oktober 2025
 
 Wir führen die folgenden Felder ein, um Genehmigungsinformationen für Datensätze zu erfassen, die durch Senden einer Anfrage mit einer Genehmigung erstellt wurden:
 
@@ -214,8 +321,8 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 >[!NOTE]
 >
 >Vorschau: 10. Juli 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 14. August 2025
->&#x200B;>Produktion für alle Kunden: 16. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 14. August 2025
+>>Produktion für alle Kunden: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
