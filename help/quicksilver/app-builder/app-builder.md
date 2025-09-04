@@ -154,13 +154,13 @@ So lassen Sie benutzerdefinierte Anwendungen im Hauptmenü von Workfront zu:
 In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
 
     &quot;
-    mainMenu: {
+    mainMenu: &lbrace;
     
-    getItems() {
+    getItems() &lbrace;
     
-    return [
+    return &lbrack;
     
-    {
+    &lbrace;
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,13 +170,13 @@ In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden.
     
     icon: icon1,
     
-    },
+    &rbrace;,
     
-    ];
+    &rbrack;;
     
-    },
+    &rbrace;,
     
-    }
+    &rbrace;
     &quot;
 
 1. Fügen Sie das folgende Codefragment hinzu:
