@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ab70d832c7c03f116d68f8bad394f44f5ecca8cf
+source-git-commit: 7eef99ed854beb8b737238ff9c08313e057ef5ac
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1951'
 ht-degree: 4%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-Verbesserungen
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
+* [Verbesserungen an Dashboards](#dashboards)
 * [Verbesserungen bei Dokumenten und Proofing](#document-and-proofing-enhancements)
 * [Home-Verbesserungen](#home-enhancements)
 * [Projektverbesserungen](#project-enhancements)
@@ -93,6 +94,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Verbesserungen an Dashboards
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}">Neue Canvas-Dashboards - offene Beta-Version</a>
+            <p>Die neue Funktion für Arbeitsflächen-Dashboards hilft Ihnen, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem Berichtstypen zu einer Arbeitsfläche hinzugefügt werden, die viele flexible Layout-Optionen bietet, darunter Größenanpassung, Drag-and-Drop und mehr.</p>
+        </td>
+        <td>Mittwoch, 26. August 2025</td>
+        <td>Mittwoch, 26. August 2025</td>
+        <td>Mittwoch, 26. August 2025</td>
+    </tr> 
+</table>
 
 ### Verbesserungen bei Dokumenten und Proofing
 
@@ -398,7 +420,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -410,7 +432,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
