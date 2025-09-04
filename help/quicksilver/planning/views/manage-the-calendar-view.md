@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 5%
+source-wordcount: '1860'
+ht-degree: 4%
 
 ---
 
@@ -111,19 +111,12 @@ Beachten Sie Folgendes:
    * Wenn das Start- oder Enddatum keinen Wert hat, wird der Datensatz als eintägiges Ereignis angezeigt
    * Wenn das Startdatum nach dem Enddatum liegt, wird der Datensatz nicht im Kalender angezeigt.
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* Sie können Datensätze in der Kalenderansicht erstellen und bearbeiten. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+* Sie können die Größe der Balken der Datensätze in der Kalendermonatsansicht ändern, indem Sie auf klicken und dann die Ränder an eine neue Position ziehen und ablegen. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- und Enddatum sofort aktualisiert. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Verwalten einer Kalenderansicht:
 
@@ -151,7 +144,7 @@ Verwalten einer Kalenderansicht:
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[Zeilenhöhe](#modify-row-height)</span>
    * [Einstellungen](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ So fügen Sie einen Filter zu einer Kalenderansicht hinzu:
 1. (Optional) Klicken Sie auf das Symbol **x**, um eine Filterbedingung zu entfernen.
 1. (Optional) Klicken Sie auf **Filter**, um das Feld „Filter“ zu schließen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### Zeilenhöhe ändern
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+Sie können die Zeilenhöhe einer Kalenderzelle ändern, um die Anzahl der in jeder Zelle angezeigten Datensatzleisten zu erhöhen oder zu verringern.
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+Die Anzahl der im Kalender angezeigten Datensätze hängt von der Anzahl der Felder ab, die in den Balken der Datensätze angezeigt werden.
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>Diese Einstellung ist nur verfügbar, wenn der Kalender nach Monat angezeigt wird.
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. Erstellen Sie eine Kalenderansicht für eine Datensatztypseite, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. (Bedingt) Zeigen Sie die Kalenderansicht nach Monat an und klicken Sie dann auf **Zeilenhöhe** in der Kalendersymbolleiste.
+1. Wählen Sie aus den folgenden Optionen:
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>Zeilenhöhenoption</b></th>
+        <th><b>Standardmäßige maximale Anzahl von Datensätzen</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Kurz</td>
+        <td><p>Enthält:</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2 Datensätze mit 1 Feld</li>
+    <li>1 Datensatz mit mehr als 1 Feld</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Enthält:</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4 Datensätze mit 1 Feld</li>
+    <li>2 Datensätze mit mehr als 1 Feld</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Mittel</td>
+        <td><p>Enthält:</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8 Datensätze mit 1 Feld</li>
+    <li>4 Datensatz mit mehr als 1 Feld</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Groß</td>
+        <td><p>Enthält:</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>12 Datensätze mit 1 Feld</li>
+    <li>6 Datensatz mit mehr als 1 Feld</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>An Inhalt anpassen</td>
+        <td><p>Alle Datensätze sind sichtbar, bis zu 500 Datensätze</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (Optional) Klicken Sie auf **Mehr**, wenn Datensätze im Kalender nicht sichtbar sind.
 
 </span>
-
--->
 
 ### Bearbeiten der Einstellungen für die Kalenderansicht
 

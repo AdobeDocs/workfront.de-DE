@@ -6,22 +6,22 @@ description: Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
 
 # Konvertieren einer Aufgabe in ein Projekt
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erforderlich ist als ursprünglich geplant, können Sie sie in ein Projekt konvertieren.
 
@@ -203,4 +203,4 @@ Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erforderlich ist 
      >
      >Wenn Sie eine Vorlage für die Konvertierung verwenden und ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das auch in einem benutzerdefinierten Formular zu finden ist, das an die Aufgabe angehängt ist, wird der Feldwert aus der Aufgabe für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld bei der Aufgabe jedoch leer ist, wird der Wert aus der Vorlage verwendet.
 
-1. Klicken Sie **Änderungen speichern** <span class="preview">oder **In Projekt konvertieren**.</span>
+1. Klicken Sie **In Projekt konvertieren**.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2688'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Datensätze bearbeiten
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -242,12 +242,10 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 <!--add another step about drag and drop here when that is available-->
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Zeitleisten -Ansicht. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-<!--
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+1. <span class="preview">Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes und klicken Sie, ziehen Sie den Rand per Drag-and-Drop an ein anderes Datum. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
 
--->
+   <span class="preview">![Leiste am linken Ende der Zeitleisten-Ansicht, um die Größe zu ändern](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
@@ -258,12 +256,10 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 <!--add another step about drag and drop here when that is available-->
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Kalenderansicht. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-<!--
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. (Bedingt) Wählen Sie **Monat** im Dropdown-Menü oben rechts aus.
+1. <span class="preview">Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes, klicken Sie, ziehen Sie die Ränder und legen Sie sie an einem anderen Datum ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
+   <span class="preview">![Leiste am linken Ende der Kalenderansicht, deren Größe geändert werden soll](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
@@ -389,39 +385,34 @@ Nachdem Sie Datensätze mit Workfront-Objekten verbunden haben, können Sie Work
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## Bearbeiten von Informationen in Ein- oder Mehrfachauswahlfeldern
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+Beim Bearbeiten von Informationen in einem Ein- oder Mehrfachauswahlfeld können Sie dem Feld neue Auswahlmöglichkeiten hinzufügen, ohne das Feld bearbeiten zu müssen.
 
 >[!IMPORTANT]
 >
->The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+>Die in diesem Abschnitt beschriebene Funktion ist nur in der Tabellenansicht verfügbar. Sie ist nicht in anderen Bereichen verfügbar, in denen Einzel- oder Mehrfachauswahlfelder angezeigt werden.
 
+**BEISPIEL**
 
-**EXAMPLE**
+Möglicherweise verfügen Sie über ein Feld mit einer einzigen Auswahl namens Status , in dem die Optionen Neu und Geschlossen verfügbar sind, und Sie möchten eine Auswahl für einen Status In Bearbeitung hinzufügen. Sie können die Auswahl hinzufügen, indem Sie einen der folgenden Schritte ausführen:
 
-You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+* Bearbeiten des Felds. Weitere Informationen finden Sie unter [Felder bearbeiten](/help/quicksilver/planning/fields/edit-fields.md)
+* Hinzufügen einer neuen Option beim Bearbeiten des Datensatzes in der Tabellenansicht, wie unten beschrieben.
 
-* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
-* Adding a new option while editing the record in the table view, as described below. 
+So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld eine neue Auswahl hinzu:
 
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und öffnen Sie die Tabellenansicht.
+1. Fügen Sie das Einzel- oder Mehrfachauswahlfeld, dem Sie eine Auswahl hinzufügen möchten, in der Tabellenansicht als neue Spalte hinzu. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+1. Beginnen Sie mit der Inline-Bearbeitung des Felds, indem Sie auf die Zelle für das Feld doppelklicken.
+1. Geben Sie den Namen der Auswahl ein, die Sie hinzufügen möchten, und klicken Sie dann auf **Auswahl hinzufügen**.
 
-To add a new choice to an existing select field when editing a record: 
+   ![Auswahl im Einzelauswahlfeld in der Tabellenansicht hinzufügen](assets/add-choice-in-table-view-for-single-select-field.png)
 
-1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-1. Start editing the field inline by double-clicking the cell for the field. 
-1. Type the name of the choice you want to add, then click **Add choice**.
-
-    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
-
-    The new choice is added immediately to the single-select field. 
+   Die neue Auswahl wird sofort zum Feld für die Einzelauswahl hinzugefügt.
 
 </div>
-
--->

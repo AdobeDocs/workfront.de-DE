@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Fel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,8 +51,8 @@ Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Fel
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -90,7 +90,7 @@ Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Fel
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Überlegungen zum Bearbeiten von Feldeinstellungen
@@ -98,7 +98,7 @@ Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Fel
 Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 
 * Feldeinstellungen können nur über die Tabelle vom Typ Datensatz bearbeitet werden.
-* Ein Feld kann weder auf der Datensatzseite noch in einer anderen Ansicht außerhalb der Tabellenansicht bearbeitet werden.
+* Die Einstellungen eines Feldes können nicht auf der Datensatzseite oder in einer anderen Ansicht außerhalb der Tabellenansicht bearbeitet werden.
 * Nach dem Speichern des Felds ist keine Bearbeitung des Feldtyps möglich.
 * Sie können die Auswahl der Einstellung Negative Zahlen zulassen , die zuvor für ein Feld vom Typ Zahl, Prozentsatz oder Währung ausgewählt wurde, nicht aufheben, wenn bereits negative Werte für die Datensätze gespeichert sind, an die sie angehängt ist.
 * Sie können die Konfiguration der folgenden Feldelemente bearbeiten, nachdem Sie das Feld gespeichert haben:
@@ -116,6 +116,7 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
   >Andere Benutzer werden nicht darüber informiert, dass sich die Feldkonfiguration geändert hat.
 
 * Sie können vorhandene Suchfelder aus verbundenen Datensätzen bearbeiten.
+* Zusätzlich zur Bearbeitung des Felds, wie im Abschnitt [Feldeinstellungen bearbeiten](#edit-field-settings-1) in diesem Artikel beschrieben, <span class="preview">Sie die Auswahl eines Felds mit einer oder mehreren Auswahlmöglichkeiten bearbeiten, wenn Sie einen Datensatz in der Tabellenansicht bearbeiten, während Sie die Feldwerte aktualisieren. Weitere Informationen finden Sie [ Abschnitt „Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)&quot; in diesem Artikel.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 1. (Bedingt) Klicken Sie bei verbundenen Datensatzfeldern auf **Suchfelder bearbeiten** und fügen Sie Suchfelder zum verbundenen Datensatztyp hinzu oder entfernen Sie diese.
 
    Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+<div class="preview">
+
+## Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der Tabellenansicht
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+Sie können einem vorhandenen Einzel- oder Mehrfachauswahlfeld beim Bearbeiten von Datensätzen in der Tabellenansicht neue Auswahlmöglichkeiten hinzufügen.
+
+>[!IMPORTANT]
+>
+>Die in diesem Abschnitt beschriebene Funktion ist nur in der Tabellenansicht verfügbar. Sie ist nicht in anderen Bereichen verfügbar, in denen Einzel- oder Mehrfachauswahlfelder angezeigt werden.
+
+**BEISPIEL**
+
+Möglicherweise verfügen Sie über ein Feld mit einer einzigen Auswahl namens Status , in dem die Optionen Neu und Geschlossen verfügbar sind, und Sie möchten eine Auswahl für einen Status In Bearbeitung hinzufügen. Sie können die Auswahl hinzufügen, indem Sie einen der folgenden Schritte ausführen:
+
+* Bearbeiten des Felds. Weitere Informationen finden Sie im Abschnitt [Bearbeiten von ](#edit-field-settings-1)) in diesem Artikel.
+* Hinzufügen einer neuen Option beim Bearbeiten des Datensatzes in der Tabellenansicht, wie unten beschrieben.
+
+So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld eine neue Auswahl hinzu:
+
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und öffnen Sie die Tabellenansicht.
+1. Fügen Sie das Einzel- oder Mehrfachauswahlfeld, dem Sie eine Auswahl hinzufügen möchten, in der Tabellenansicht als neue Spalte hinzu. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+1. Beginnen Sie mit der Inline-Bearbeitung des Felds, indem Sie auf die Zelle für das Feld doppelklicken.
+1. Geben Sie den Namen der Auswahl ein, die Sie hinzufügen möchten, und klicken Sie dann auf **Auswahl hinzufügen**.
+
+   ![Auswahl im Einzelauswahlfeld in der Tabellenansicht hinzufügen](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   Die neue Auswahl wird sofort zum Feld für die Einzelauswahl hinzugefügt.
+
+</div>

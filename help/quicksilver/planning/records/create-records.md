@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -32,16 +32,9 @@ Sie können Datensätze wie folgt erstellen:
 <div class="preview">
 
 * [Fügen Sie sie in der Zeitleisten-Ansicht des Datensatztyps hinzu](#create-records-by-adding-them-in-the-record-type-timeline-view)
+* [Fügen Sie sie in der Kalenderansicht des Datensatztyps hinzu](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
-
-<!--
-<div class="preview">
-
-* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
--->
 
 * [Kopieren und Einfügen einer Liste von Datensätzen aus einer externen Liste](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplizieren von Datensätzen aus einer Tabellenansicht](#create-records-by-duplicating-them)
@@ -307,7 +300,7 @@ Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [V
    >Sie können eine Zeitleisten -Ansicht nur erstellen, wenn mindestens zwei Datumsfelder mit dem Datensatztyp verknüpft sind.
 1. Doppelklicken Sie auf eine beliebige Stelle in der Zeitleiste.
 
-   Ein neues Eintragsfeld wird geöffnet. <!--might need a new screen shot for Production - might add a title etc-->
+   Das Feld **Neuer Datensatz** wird geöffnet. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Neues Datensatzfeld in der Timeline mit unbenannter Datensatzleiste](assets/new-record-small-box-on-timeline.png)
 1. Aktualisieren Sie die folgenden Informationen:
@@ -335,8 +328,10 @@ Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [V
    * **Schließen** ![Schließen-Symbol](assets/close-icon.png), um das neue Datensatzfeld zu schließen.
 
    Der Datensatz wird sofort zur Zeitleiste sowie zur Tabellen- und Kalenderansicht hinzugefügt, es sei denn, Sie haben auf das Symbol **Löschen** geklickt.
-   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+1. (Optional) Bewegen Sie den Mauszeiger über einen Rand der Datensatzleiste in der Zeitleiste und ziehen Sie die Enden der Leiste per Drag-and-Drop an ein anderes Datum. Dadurch werden das Start- und Enddatum des Datensatzes automatisch geändert.
+
+   Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Optional) Klicken Sie auf die Datensatzleiste in der Zeitleiste, um das Detailfenster des Datensatzes zu öffnen und seine Informationen zu aktualisieren, zu löschen oder Kommentare hinzuzufügen.
 
@@ -348,75 +343,73 @@ Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [V
 
 </div>
 
-<!--
-
 <div class="preview">
 
-## Create records by adding them in the record type calendar view
+## Erstellen Sie Datensätze, indem Sie sie in der Kalenderansicht des Datensatztyps hinzufügen
 
-You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+Sie können Datensätze in der Kalenderansicht einer Datensatztypseite erstellen, indem Sie auf eine beliebige Stelle im Kalender doppelklicken.
 
-For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Weitere Informationen zum Erstellen einer Kalenderansicht finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
 
-1. Click a record type card. 
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
-    The record type page opens in the view that you last accessed. 
+1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
-1. Click to open a calendar view, or create a calendar view.
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben.
 
-    >[!NOTE]
-    >
-    >You can create a calendar view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere on the calendar. 
+1. Klicken Sie, um eine Kalenderansicht zu öffnen, oder erstellen Sie eine Kalenderansicht.
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
+   >[!NOTE]
+   >
+   >Sie können eine Kalenderansicht nur erstellen, wenn mindestens zwei Datumsfelder mit dem Datensatztyp verknüpft sind.
+1. Doppelklicken Sie auf eine beliebige Stelle im Kalender.
 
-    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+   Das Feld **Neuer Datensatz** wird geöffnet. <!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-1. Update the following information:
+   ![Neues Datensatzfeld im Kalender mit unbenannter Datensatzleiste](assets/new-record-small-box-on-calendar.png)
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
-    
-        >[!TIP]
-        >
-        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+1. Aktualisieren Sie die folgenden Informationen:
 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
+   * **Name**: Geben Sie den Namen des Datensatzes ein. Wenn Sie es leer lassen, benennt Workfront es **mit &quot;**&quot;.
 
-        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
+     >[!TIP]
+     >
+     >Wenn Sie den Namen des Datensatzes in den Datensatzleisten gemäß den Kalendereinstellungen anzeigen, ist der Name nicht in der Datensatzleiste sichtbar, wenn er leer gelassen wird.
 
-        * By **Month**: The record start and end dates span one day.
-        * By **Week**: The record start and end dates span two days.
+   * **Datensatzdatumsfelder**: Aktualisieren Sie die Daten des Datensatzes.
 
-1. (Optional) Click one of the following icons: 
+     Die Namen der Datumsfelder werden entsprechend den Feldern angepasst, die zum Zeitpunkt der Erstellung der Kalenderansicht für das Start- und Enddatum ausgewählt wurden.
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+     Standardmäßig sind Datumswerte abhängig von der Anzeige der Kalenderansicht vorab ausgewählt. Die folgenden Szenarien sind vorhanden:
 
-    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
-1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+      * Nach **Monat**: Das Start- und Enddatum des Datensatzes erstrecken sich über einen Tag.
+      * Nach **Woche**: Das Start- und Enddatum des Datensatzes erstrecken sich über zwei Tage.
 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+1. (Optional) Klicken Sie auf eines der folgenden Symbole:
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+   * **Erweitern** ![Symbol „Erweitern](assets/expand-icon.png), um die Datensatzdetails im Vorschaufenster zu öffnen.
+   * **Löschen** ![Löschen-Symbol](assets/delete-icon.png), um den Datensatz zu löschen.
+   * **Schließen** ![Schließen-Symbol](assets/close-icon.png), um das neue Datensatzfeld zu schließen.
 
-    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
+   Der Datensatz wird sofort zum Kalender sowie zu den Tabellen- und Zeitleisten-Ansichten hinzugefügt, es sei denn, Sie haben auf das Symbol **Löschen** geklickt.
+1. (Optional und bedingt) Wählen Sie **Monat** aus dem Dropdown-Menü in der oberen Ecke aus, bewegen Sie den Mauszeiger über einen der Ränder der Datensatzleiste im Kalender und ziehen Sie die Enden der Leiste dann auf ein anderes Datum. Dadurch werden das Start- und Enddatum des Datensatzes automatisch geändert.
 
-    </div> -->
+   Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+1. (Optional) Klicken Sie auf die Datensatzleiste im Kalender, um das Detailfenster des Datensatzes zu öffnen und seine Informationen zu aktualisieren, zu löschen oder Kommentare hinzuzufügen.
+
+   >[!TIP]
+   >
+   >Standardmäßig verknüpft Workfront den Datensatz mit einer Miniaturansicht und einem Titelbild.
+   >
+   >Die Miniaturansicht wird nur dann in der Kalenderansicht angezeigt, wenn sie in den Einstellungen der Ansicht aktiviert ist.
+
+   <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
+
+   </div>
 
 
 ## Erstellen von Datensätzen durch Kopieren und Einfügen aus einer externen Liste

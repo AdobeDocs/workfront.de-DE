@@ -6,9 +6,9 @@ description: Der Name eines Problems wird in der Adobe Workfront-Datenbank als â
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Der Name eines Problems wird in der Adobe Workfront-Datenbank als `opTask` angez
 
 Weitere Informationen zum Aussehen von Objekten in der Workfront-Datenbank finden Sie im [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-## `opTask` Dateiname
+## `opTask` Feldname
 
 Verwenden Sie den `opTask` Feldnamen beim Referenzieren von Problemen in den folgenden Kontexten:
 
