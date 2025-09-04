@@ -4,10 +4,10 @@ description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 1%
 
 Benutzeroberflächenerweiterungen für Workfront auf Basis von Adobe App Builder ermöglichen es Kunden und Partnern, benutzerdefinierte Benutzererlebnisse zu erstellen. Diese Tools steigern die Effizienz, bieten nahtlose, vernetzte Erlebnisse und verbessern die Benutzerzufriedenheit erheblich und helfen Unternehmen, ihre einzigartige Vision zu verwirklichen.
 
-Ohne Workfront UI-Erweiterungen muss ein Projektmanager beispielsweise möglicherweise zwischen Workfront und einem separaten Zeitverfolgungssystem wechseln, um Stunden zu protokollieren. Mit Benutzeroberflächenerweiterungen kann die Zeitverfolgung direkt in das Workfront-Erlebnis integriert werden, was den Workflow optimiert und Zeit spart. Darüber hinaus können Sie benutzerdefinierte Komponenten hinzufügen, um die Benutzerfreundlichkeit zu verbessern, sich wiederholende Aufgaben zu automatisieren und das Content-Management mit Funktionen wie Metadaten-Tagging und Inhaltsvorschauen zu verbessern. Adobe App Builder bietet außerdem Skalierbarkeit und robustes Identity Management (IMS), sodass eine sichere und effiziente Anpassung in jedem Maßstab gewährleistet ist.
+Ohne Workfront UI-Erweiterungen muss ein Projektmanager beispielsweise möglicherweise zwischen Workfront und einem separaten Zeitverfolgungssystem wechseln, um Stunden zu protokollieren. Mit Benutzeroberflächenerweiterungen kann die Zeitverfolgung direkt in das Workfront-Erlebnis integriert werden, wodurch der Workflow optimiert und Zeit gespart wird. Darüber hinaus können Sie benutzerdefinierte Komponenten hinzufügen, um die Benutzerfreundlichkeit zu verbessern, sich wiederholende Aufgaben zu automatisieren und das Content-Management mit Funktionen wie Metadaten-Tagging und Inhaltsvorschauen zu verbessern. Adobe App Builder bietet außerdem Skalierbarkeit und robustes Identity Management (IMS), sodass eine sichere und effiziente Anpassung in jedem Maßstab gewährleistet ist.
 
 Erweiterungen der Workfront-Benutzeroberfläche bieten mehrere wichtige Vorteile:
 
 * Präzise Anpassung: Standardmäßige Software-Schnittstellen erfüllen häufig nicht alle Geschäftsanforderungen. Benutzeroberflächenerweiterungen ermöglichen es Entwicklerinnen und Entwicklern, die Standardbenutzeroberfläche zu ändern und zu erweitern, um bestimmte Geschäftsanforderungen zu erfüllen.
-* Systemintegration: Benutzeroberflächenerweiterungen erleichtern die Integration anderer Systeme und gewährleisten so nahtlose Workflows und Datenkonsistenz.
-* Skalierbarkeit: Wenn Unternehmen wachsen, können Benutzeroberflächenerweiterungen entwickelt werden, um neue Funktionen hinzuzufügen, ohne dass das System komplett überholt werden muss.
+* Systemintegration: Benutzeroberflächenerweiterungen erleichtern die Integration anderer Systeme und sorgen so für nahtlose Workflows und Datenkonsistenz.
+* Skalierbarkeit: Wenn Unternehmen wachsen, können Benutzeroberflächen-Erweiterungen entwickelt werden, um neue Funktionen hinzuzufügen, ohne dass das System komplett überholt werden muss.
 * Verkürzte Entwicklungszeit: Vorkonfigurierte Erweiterungspunkte und Tools reduzieren den Zeit- und Arbeitsaufwand für die Implementierung benutzerdefinierter Funktionen erheblich.
 * Verbesserte Benutzerakzeptanz: Ein optimiertes Benutzererlebnis kann die Softwareakzeptanz erheblich steigern. Benutzerdefinierte Benutzeroberflächenelemente, die auf die Benutzerpräferenzen abgestimmt sind, können die Akzeptanzraten und die allgemeine Zufriedenheit verbessern.
 * Mithilfe von Workfront UI-Erweiterungen können Unternehmen maßgeschneiderte Benutzererlebnisse erstellen, die die Effizienz, Integration und Benutzerzufriedenheit steigern.
 
-Nachdem eine Anwendung in der Adobe App Builder erstellt wurde, kann sie ein Workfront-Administrator mithilfe von Layout-Vorlagen dem Workfront-Hauptmenü und dem linken Navigationsbereich hinzufügen. Wenn ein(e) Benutzende(r) mit der Layout-Vorlage auf das Programm klickt, wird das Programm in Workfront eingebettet, anstatt es separat öffnen zu müssen.
+Nachdem eine Anwendung in der Adobe App Builder erstellt wurde, kann sie ein Workfront-Administrator mithilfe von Layout-Vorlagen dem Workfront-Hauptmenü und dem linken Navigationsbereich hinzufügen. Ein Benutzer mit der Layout-Vorlage, der auf das Programm klickt, sieht das Programm in Workfront eingebettet, anstatt es separat öffnen zu müssen.
 
 In diesem Artikel wird beschrieben, wie Sie auf die App Builder zugreifen und eine Vorlage verwenden können, um eine Anwendung zu erstellen.
 
@@ -62,7 +62,7 @@ Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.
    >
    >Wenn keine Option zum Verwalten von Entwicklern angezeigt wird, verfügen Sie über kein Produkt, das Entwicklerzugriff ermöglicht.
 
-1. Fügen Sie die E-Mail des Benutzers hinzu. Sie sollte nach vorhandenen Benutzern suchen, die bereits in der Admin Console hinzugefügt wurden.
+1. Fügen Sie die E-Mail des Benutzers hinzu. Sie sollte nach vorhandenen Benutzenden suchen, die bereits aus der Admin Console hinzugefügt wurden.
 
 1. Fügen Sie die erforderlichen Produkte zum Entwicklerprofil hinzu und klicken Sie auf **Speichern**.\
    ![Entwickler hinzufügen](assets/add-developer.png)
@@ -93,13 +93,13 @@ Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.
 
 1. **App Builder**.
 
-1. Geben Sie einen **Projekttitel** und **App-Namen** ein. Beide verfügen über Standardwerte, aber es ist später einfacher, das gewünschte Projekt zu identifizieren, wenn Sie den Wert anpassen.
+1. Geben Sie einen **Projekttitel** und **App-Namen** ein. Beide haben Standardwerte, aber es ist einfacher, das gewünschte Projekt später zu identifizieren, wenn Sie den Wert anpassen.
 
 1. Lassen Sie **Laufzeit**.
 
 1. Klicken Sie auf **Speichern**.
 
-## Verwenden der Adobe IO (AIO)-CLI
+## Verwenden der Adobe Developer (aio)-CLI
 
 Adobe bietet eine Open-Source-CLI, mit der Sie das App Builder-Programm erstellen können.
 
@@ -125,7 +125,7 @@ Weitere Anweisungen finden Sie auf GitHub und der Adobe Developer-Site:
    * Benennen Sie die Erweiterung.
    * Geben Sie eine beschreibende Zusammenfassung der Funktionalität der Erweiterung an.
    * Wählen Sie eine anfängliche Versionsnummer aus, mit der Sie beginnen möchten.
-   * Die Vorlage erstellt den Code für eine primäre Navigationsschaltfläche, wenn Sie die Option „Benutzerdefinierte Schaltfläche zum Hauptmenüelement hinzufügen“ auswählen, wenn Sie nach der Frage „Was möchten Sie als Nächstes tun?“ gefragt werden.
+   * Die Vorlage erstellt den Code für eine primäre Navigationsschaltfläche, wenn Sie auf „Benutzerdefinierte Schaltfläche zum Hauptmenüelement hinzufügen“ klicken, wenn Sie nach „Was möchten Sie als Nächstes tun?“ gefragt werden.
 
    ![Wählen Sie „Fertig“](assets/5-select-done.png)
 
@@ -134,6 +134,8 @@ Weitere Anweisungen finden Sie auf GitHub und der Adobe Developer-Site:
 1. Warten Sie, bis eine Meldung angezeigt wird, dass die App-Initialisierung abgeschlossen ist. Anschließend können Sie das Projekt in einer IDE öffnen (Visual Studio Code wird empfohlen) und auf den src-Ordner zugreifen.
 
    Weitere Informationen zu den Ordnern und Dateien in Ihrem Projekt finden Sie auf der [Adobe Developer Site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+
+Weitere Informationen zu den Ordnern und Dateien in Ihrem Projekt finden Sie auf der [Adobe Developer-Site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Erstellen der Erweiterungen in VSCode
 
@@ -152,13 +154,13 @@ So lassen Sie benutzerdefinierte Anwendungen im Hauptmenü von Workfront zu:
 In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +170,13 @@ In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden.
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Fügen Sie das folgende Codefragment hinzu:
@@ -218,11 +220,170 @@ So lassen Sie benutzerdefinierte Programme im Navigationsbereich des linken Work
 
 1. Speichern Sie Ihre Arbeit.
 
+### Einbetten einer App mithilfe eines benutzerdefinierten Workfront-Formulars
+
+Der Forms Widget-Erweiterungspunkt ist eine Benutzeroberflächenerweiterungsfunktion in Adobe Workfront, mit der Sie benutzerdefinierte Widgets erstellen können, die in benutzerdefinierte Workfront-Formulare eingebettet werden können. Im Gegensatz zu anderen Erweiterungspunkten, die Navigationselemente oder Menüoptionen hinzufügen, bieten Widgets eine Möglichkeit, benutzerdefinierte Inhalte in speziellen Bereichen in benutzerdefinierten Formularfeldern anzuzeigen.
+
+Widgets sind modulare UI-Komponenten, die zu benutzerdefinierten Workfront-Formularen als Formularfelder hinzugefügt werden können. Sie bieten eine Möglichkeit, benutzerdefinierte Funktionen, Datenvisualisierungen oder externe Inhalte direkt in benutzerdefinierten Formularschnittstellen zu präsentieren, sodass Benutzende beim Ausfüllen von Formularen mit benutzerdefinierter Logik interagieren können.
+
+#### Konfigurieren einer Widget-Erweiterung
+
+Wie Benutzeroberflächen-Erweiterungspunkte für das Hauptmenü und die sekundäre Navigation wird der Erweiterungspunkt „Widgets“ innerhalb des Methodenobjekts der `ExtensionRegistration`-Komponente konfiguriert, normalerweise im `ExtensionRegistration.js`. Das bedeutet, dass bei Verwendung des Forms-Widgets nur ein „Widget“-Element in `extesionregistration` mit einer gültigen Route in Ihrer App.js hinzugefügt werden muss:
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Widget-Konfigurationseigenschaften
+
+**Erforderliche Eigenschaften**
+
+* id (String): Eindeutige Kennung für das Widget. Muss für alle Widgets in Ihrer Erweiterung eindeutig sein.
+
+* url (Zeichenfolge): Der URL-Pfad zum Inhalt des Widgets. Dieser sollte auf eine Route in Ihrer Erweiterung verweisen, die die Widget-Komponente rendert.
+
+* label (Zeichenfolge): Anzeigename für das Widget, das in der Benutzeroberfläche zur Auswahl benutzerdefinierter Formularfelder angezeigt wird.
+
+**Optionale Eigenschaften**
+
+* Dimensionen (Objekt): Gibt die Anzeigeabmessungen des Widgets an. Alle Eigenschaften sind optional, und dies sind die einzigen möglichen Dimensionen:
+
+* Höhe (Zahl): Höhe des Widgets in Pixel
+
+* Breite (Zahl): Breite des Widgets in Pixel
+
+* maxHeight (Zahl): Maximale Höhe des Widgets in Pixel
+
+* maxWidth (Zahl): Maximale Breite des Widgets in Pixel
+
+**Dimension-Eigenschaften**
+
+Mit dem Dimensions -Objekt können Sie die Größe und Layout-Beschränkungen Ihres Widgets steuern:
+
+* Höhe und Breite : Legen Sie die anfängliche/bevorzugte Größe des Widgets fest
+
+* maxHeight und maxWidth: Legen Sie Obergrenzen fest, um zu verhindern, dass das Widget zu groß wird
+
+* Responsives Verhalten: Widgets können innerhalb dieser Einschränkungen responsiv sein
+
+* Formularintegration: Dimensionen helfen sicherzustellen, dass das Widget gut in Formularfeld-Layouts passt
+
+#### Beispielkonfigurationen für Dimension
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Kontextdaten
+
+Widgets haben Zugriff auf denselben freigegebenen Kontext wie andere Erweiterungspunkte, einschließlich:
+
+* Auth: Authentifizierungsinformationen, einschließlich IMS-Token
+
+* objCode: Objekttyp-Code (AUFGABE, PROJEKT, PROBLEM usw.)
+
+* objID: Objektkennung
+
+* Host-Name: Hostname der Workfront-Instanz
+
+* Protokoll: Verbindungsprotokoll
+
+* Benutzer: Aktuelle Benutzerinformationen
+
+* isLoginAs: Gibt an, ob der Benutzer als ein anderer Benutzer angemeldet ist
+
+* isInBulkEditing: wenn sich das Formular derzeit im Massenbearbeitungsmodus befindet. Wenn ja, enthält der Kontext mehrere Werte für die Objekt-ID.
+
+#### Hinzufügen eines Widgets zu einem benutzerdefinierten Workfront-Formular
+
+Eine App kann mithilfe des Feldtyps „UI-Erweiterungen“ in ein benutzerdefiniertes Workfront-Formular eingebettet werden. Nachdem Sie das Feld hinzugefügt haben, wählen Sie ein Formular-Widget aus. Die Liste der Widgets basiert auf aktiven Apps in Ihrer IMS-Organisation oder auf lokal aktiven Apps, wenn sie `extensionoverride=TRUE` werden.
+
+![Feld „Benutzeroberflächenerweiterungen“ in einem benutzerdefinierten Formular](assets/ui-extensions-field.png)
+
 ### Konfigurieren von App.js
 
 1. Wechseln Sie zu App.js.
 
-1. Die Vorlage zeigt eine Route für eine Hauptmenüoption an. Eine Route definiert die Zuordnung zwischen URL-Pfaden und den für diese Pfade gerenderten Komponenten. Um eine Route hinzuzufügen, verwenden Sie das folgende Codefragment. Ersetzen Sie unbedingt den genauen Pfad und das Element durch Ihres.
+1. Die Vorlage erstellt eine Route für eine Option im Hauptmenü. Eine Route definiert die Zuordnung zwischen URL-Pfaden und den für diese Pfade gerenderten Komponenten. Um eine Route hinzuzufügen, verwenden Sie das folgende Codefragment. Ersetzen Sie unbedingt den genauen Pfad und das Element durch Ihres.
 
    ```
        <Route 
@@ -238,6 +399,7 @@ So lassen Sie benutzerdefinierte Programme im Navigationsbereich des linken Work
 1. Speichern Sie Ihre Arbeit.
 
 Weitere Informationen zum Entwickeln und Ausführen der Anwendung finden Sie auf der [Adobe Developer Site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
+
 
 ## Freigegebener Kontext
 
@@ -268,8 +430,8 @@ Navigieren Sie dann in Ihrem Browser zu der Seite, für die Sie eine Entwicklung
 
 Wenn die Konfiguration korrekt abgeschlossen wurde, werden beim Neuladen der Layoutvorlagenseite in Workfront die Schaltflächen in Ihrem App Builder-Programm angezeigt. Fügen Sie die App-Schaltflächen zum Hauptmenü und zum linken Bedienfeld für ein Objekt hinzu und überprüfen Sie, ob sie in diesen Bereichen korrekt angezeigt werden.
 
-Weitere Anweisungen finden Sie auf der Adobe Developer-Site, unter Verwendung eines Beispiels aus AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Weitere Anweisungen finden Sie auf der Adobe Developer-Site. Verwenden Sie dazu ein Beispiel aus AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## Anträge veröffentlichen und Einreichung genehmigen
 
-Um das Programm zu veröffentlichen und zu genehmigen, folgen Sie den Anweisungen auf der [Adobe Developer Site](https://developer.adobe.com/uix/docs/guides/publication/).
+Um den Antrag zu veröffentlichen und zu genehmigen, folgen Sie den Anweisungen auf der [Adobe Developer-Site](https://developer.adobe.com/uix/docs/guides/publication/).
