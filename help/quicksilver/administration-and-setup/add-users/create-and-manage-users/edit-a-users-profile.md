@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Das Feld Benutzer bearbeiten wird angezeigt.
 
-1. Ändern Sie im Feld **Benutzer bearbeiten** die Informationen in einem der Abschnitte und klicken Sie **Änderungen speichern** <span class="preview">oder **Speichern**</span>.
+1. Ändern Sie im Feld **Benutzer bearbeiten** die Informationen in einem der Abschnitte und klicken Sie **auf** Speichern“.
 
 ### Persönliche Info
 
@@ -94,7 +94,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
   Wenn Ihre Organisation in die Adobe Admin Console migriert wurde, können Sie die E-Mail-Adresse von Benutzenden in Workfront nicht bearbeiten. Die E-Mail-Adresse des Benutzers ist in der Adobe Admin Console festgelegt.
 
-* **Kennwort zurücksetzen** / <span class="preview">**Kennwort ändern**</span>: Klicken Sie auf diesen Link, um das Kennwort des Benutzers zurückzusetzen. Sie müssen Ihr eigenes Kennwort eingeben, bevor Sie das Kennwort eines anderen Benutzers zurücksetzen können.
+* **Kennwort ändern**: Klicken Sie auf diese Schaltfläche, um das Kennwort des Benutzers zurückzusetzen. Sie müssen Ihr eigenes Kennwort eingeben, bevor Sie das Kennwort eines anderen Benutzers zurücksetzen können.
 
   Zum Zurücksetzen des Kennworts eines anderen Benutzers müssen Sie ein Workfront-Administrator oder ein Gruppenadministrator sein.
 
@@ -121,7 +121,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   >
   >Wenn Sie Gruppenadministrator sind und für Ihre Zugriffsebene die Berechtigung Benutzeradministration (alle Benutzer) aktiviert haben, können Sie die Felder &lt;SSO-Konfiguration> für alle Benutzer bearbeiten.
 
-* **Profilfoto**: Klicken Sie auf **Foto hochladen** / <span class="preview">**Neu hochladen**</span>, um das Profilbild des Benutzers zu laden. Sie können eine JPG-, GIF- oder PNG-Datei hochladen. Die Dateigrößenbeschränkung beträgt 4 MB.
+* **Profilfoto**: Klicken Sie auf **Neu hochladen**, um das Profilbild des Benutzers zu laden. Sie können eine JPG-, GIF- oder PNG-Datei hochladen. Die Dateigrößenbeschränkung beträgt 4 MB.
 
   Das Profilbild wird zum Avatar der Benutzerin oder des Benutzers und ist im gesamten Workfront-System sichtbar, unabhängig davon, wo der Name der Person angezeigt wird.
 
@@ -148,7 +148,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   >
   >Diese Option ist nur in der Vorschau- und Sandbox-Umgebung verfügbar. E-Mail-Benachrichtigungen sind standardmäßig in der Produktionsumgebung aktiviert.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Arbeit, die ich mir selbst zuweise, an meine Registerkarte „Arbeiten an“ senden**: Wenn diese Option aktiviert ist, wird Arbeit, die der/die Benutzende sich selbst zuweist, automatisch auf den Status „In Bearbeitung“ anstelle von „Neu“ gesetzt. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren**: Aktivieren Sie diese Option, wenn die Dokumente, die der Benutzer hochlädt, sofort einen Korrekturabzug generieren sollen.
 
@@ -162,7 +162,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
 ### Zugriff
 
-* **Ist aktiv** / <span class="preview">**Benutzer ist aktiv**</span>: Aktivieren Sie diese Option, um anzugeben, dass der Benutzer aktiv ist. Aktive Benutzende verwenden eine Workfront-Lizenz. Durch Deaktivieren des Felds wird der Benutzer deaktiviert und daran gehindert, sich bei Workfront anzumelden.
+* **Benutzer ist aktiv**: Aktivieren Sie diese Option, um anzugeben, dass der Benutzer aktiv ist. Aktive Benutzende verwenden eine Workfront-Lizenz. Durch Deaktivieren des Felds wird der Benutzer deaktiviert und daran gehindert, sich bei Workfront anzumelden.
 
 * **Zugriffsebene**: Wählen Sie die Zugriffsebene aus, die Sie diesem Benutzer zuweisen möchten.
 
@@ -199,7 +199,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 * **Direktberichte**: Wenn Sie ein Unternehmen für den Benutzer angegeben haben, können Sie auch die Direktberichte des Benutzers angeben. Ein Benutzer kann über mehrere Direktberichte verfügen. Dieses Feld wird nicht angezeigt, wenn der/die Benutzende nicht zuerst einer Firma zugeordnet ist.
 * **Home-**: Geben Sie das Home-Team für den Benutzer an. Benutzer können nur über ein Home-Team verfügen. Das Haupt-Team ist beim Zuweisen einer Layout-Vorlage oder beim Definieren der Schaltfläche Bearbeiten für die dem Benutzer zugewiesenen Aufgaben und Probleme wichtig.
 * **Andere Teams**: Benutzer können mehreren Teams angehören. Ein(e) Benutzende(r) kann Arbeitselemente anzeigen, die einem seiner Teams in seinem/ihrem Home-Bereich zugewiesen sind.
-* **Hauptgruppe**/<span class="preview">**Aktuelle Hauptgruppe**</span>: Wählen Sie eine geeignete Gruppe aus, um den Benutzer zuzuweisen. Dadurch kann der Benutzer auf Objekte zugreifen, die für die Gruppe freigegeben sind. Sie können Layout-Vorlagen auch für die Hauptgruppe der Benutzenden freigeben.
+* **Aktuelle Hauptgruppe**: Wählen Sie eine geeignete Gruppe aus, um den Benutzer zuzuweisen. Dadurch kann der Benutzer auf Objekte zugreifen, die für die Gruppe freigegeben sind. Sie können Layout-Vorlagen auch für die Hauptgruppe der Benutzenden freigeben.
 
   Dies ist ein Pflichtfeld. Jeder Benutzer muss einer Hauptgruppe zugeordnet sein. Wenn Sie keine Hauptgruppe auswählen, wird diese der Hauptgruppe des neuen Benutzers zugewiesen.
 
@@ -237,8 +237,8 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   >
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
-* **Deaktivierung planen** / <span class="preview">**Deaktivierungsdatum festlegen**</span>: Aktivieren Sie dieses Kontrollkästchen / <span class="preview">klicken Sie auf diese Schaltfläche</span>, wenn Sie möchten, dass dieser Benutzer zu einem bestimmten Datum und zu einer bestimmten Uhrzeit deaktiviert wird.
-* **Geplantes Deaktivierungsdatum** / <span class="preview">**Deaktivierungsdatum**</span>: Das Datum und die Uhrzeit, zu der der Benutzer deaktiviert wird. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um die Deaktivierung dieses Benutzers zu einem bestimmten Datum und zu einer bestimmten Uhrzeit zu planen.
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das Benutzende in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der bzw. dem der Benutzer zugewiesen ist, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.
@@ -256,11 +256,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Wenn für andere Funktionen eine FTE-Verfügbarkeit von 0 % verfügbar ist, werden sie nicht im Ressourcenplaner angezeigt, es sei denn, die Benutzer sind Aufgaben in diesen Rollen zugewiesen.
 
-  <span class="preview">In Vorschau:</span>
   ![Benutzerrollen und FTE](assets/user-roles-fte-2025.png)
-
-  In Produktion:
-  ![Benutzerrollen und FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   Die Summe aller **Prozentsätze der FTE-Verfügbarkeit** für alle Rollen muss 100 % betragen. Jeder Prozentsatz der FTE-Verfügbarkeit berechnet die verfügbaren Stunden für jede Rolle pro Benutzer im Ressourcenplaner. Die verfügbaren Stunden für jede Rolle pro Benutzer hängen von der verfügbaren Zeit für den Benutzer ab.
 
@@ -328,11 +324,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise Abrechnungssatz 1 kein Enddatum hat und Sie eine Sekunde mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem Abrechnungssatz 1 ein Enddatum vom 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.
 
-  <span class="preview">In Vorschau:</span>
   ![Benutzerkosten und Abrechnungssätze](assets/user-cost-billing-rates-2025.png)
-
-  In Produktion:
-  ![Benutzerkosten und Abrechnungssätze](assets/edit-user-cost-billing-rate-2.png)
 
 ### Benutzerdefinierte Formulare
 

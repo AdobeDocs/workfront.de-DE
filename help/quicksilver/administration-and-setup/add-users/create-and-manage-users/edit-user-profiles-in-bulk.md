@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # Massenbearbeitung von Benutzerprofilen
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie mehrere Benutzer aus und klicken Sie dann auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png).
 
-1. Ändern Sie im Feld **Benutzer bearbeiten** die Informationen in einem der Abschnitte und klicken Sie **Änderungen speichern** <span class="preview">oder **Speichern**</span>.
+1. Ändern Sie im Feld **Benutzer bearbeiten** die Informationen in einem der Abschnitte und klicken Sie **auf** Speichern“.
 
 ### Einstellungen
 
@@ -101,7 +99,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
 ### Zugriff
 
-* **Ist aktiv** / <span class="preview">**Benutzer ist aktiv**</span>: Aktivieren Sie diese Option, um anzugeben, dass die Benutzer aktiv sind. Aktive Benutzende verwenden eine Workfront-Lizenz. Durch Deaktivieren des Felds werden die Benutzenden deaktiviert und daran gehindert, sich bei Workfront anzumelden.
+* **Benutzer ist aktiv**: Aktivieren Sie diese Option, um anzugeben, dass die Benutzer aktiv sind. Aktive Benutzende verwenden eine Workfront-Lizenz. Durch Deaktivieren des Felds werden die Benutzenden deaktiviert und daran gehindert, sich bei Workfront anzumelden.
 
 * **Zugriffsebene**: Wählen Sie die Zugriffsebene aus, die diesen Benutzern zugewiesen werden soll. Alle ausgewählten Benutzer verfügen über dieselbe Zugriffsebene.
 
@@ -136,7 +134,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 * **Unternehmen**: Das Unternehmen der Benutzer. Benutzende können nur mit einer Firma verknüpft werden. Sie müssen eine Firma erstellen, bevor Sie sie mit einem Benutzer verknüpfen können. In der Liste werden nur aktive Unternehmen angezeigt. Informationen zum Erstellen von Unternehmen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Home-**: Geben Sie das Home-Team für die Benutzer an. Benutzer können nur über ein Home-Team verfügen.
 * **Andere Teams**: Benutzer können mehreren Teams angehören.
-* **Hauptgruppe**/<span class="preview">**Aktuelle Hauptgruppe**</span>: Wählen Sie eine geeignete Gruppe aus, um die Benutzer zuzuweisen. Dadurch können Benutzer auf Objekte zugreifen, die für die Gruppe freigegeben sind. Sie können Layout-Vorlagen auch für eine Hauptgruppe freigeben.
+* **Aktuelle Hauptgruppe**: Wählen Sie eine geeignete Gruppe aus, um die Benutzer zuzuweisen. Dadurch können Benutzer auf Objekte zugreifen, die für die Gruppe freigegeben sind. Sie können Layout-Vorlagen auch für eine Hauptgruppe freigeben.
 
   Dies ist ein Pflichtfeld. Jeder Benutzer muss einer Hauptgruppe zugeordnet sein. Wenn Sie keine Hauptgruppe auswählen, wird diese als Hauptgruppe zugewiesen.
 
@@ -174,8 +172,8 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   >
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
-* **Deaktivierung planen** / <span class="preview">**Deaktivierungsdatum festlegen**</span>: Aktivieren Sie dieses Kontrollkästchen / <span class="preview">klicken Sie auf diese Schaltfläche</span>, wenn Sie diese Benutzer planen möchten, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit deaktiviert zu werden.
-* **Geplantes Deaktivierungsdatum** / <span class="preview">**Deaktivierungsdatum**</span>: Das Datum und die Uhrzeit, zu der die Benutzer deaktiviert werden. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um festzulegen, dass diese Benutzer an einem bestimmten Datum und zu einer bestimmten Uhrzeit deaktiviert werden sollen.
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung der Benutzer. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das die Benutzerinnen und Benutzer in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der/dem die Benutzenden zugewiesen sind, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.

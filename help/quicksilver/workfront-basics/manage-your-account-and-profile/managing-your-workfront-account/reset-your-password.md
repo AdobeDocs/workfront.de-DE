@@ -6,10 +6,10 @@ description: Sie können Ihr Kennwort  [!DNL Adobe Workfront] . Als wichtige Sic
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '235'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können Ihr [!DNL Adobe Workfront] zurücksetzen. Als wichtige Sicherheitsma
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über Folgendes verfügen:
 
@@ -63,17 +63,17 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Passwort in [!DNL Adobe Workfront] zurücksetzen
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild.
+{{step1-click-profile-pic}}
 
-   ![Öffnen Sie das Hauptmenü und wählen Sie Ihren Benutzernamen aus.](assets/main-menu-options-350x481.png)
+![Öffnen Sie das Hauptmenü und wählen Sie Ihren Benutzernamen aus.](assets/main-menu-options-350x481.png)
 
 1. Klicken Sie auf das **[!UICONTROL Mehr]** Symbol ![Mehr](assets/more-icon.png) und dann auf **[!UICONTROL Bearbeiten]**.
 
-1. Klicken Sie im **[!UICONTROL Person bearbeiten]** angezeigten Feld unter **[!UICONTROL Persönliche]** Info auf **[!UICONTROL Kennwort zurücksetzen]**.
+1. Klicken Sie im **[!UICONTROL Person bearbeiten]** angezeigten Feld unter **[!UICONTROL Persönliche]** Info) auf **[!UICONTROL Kennwort ändern]**.
 
-   ![Person bearbeiten](assets/edit-person-box-350x196.jpg)
+   ![Klicken Sie auf Kennwort ändern](assets/edit-user-change-password.png)
 
-   Wenn Ihr Unternehmen [!DNL Workfront] mit einer SSO-Lösung integriert hat, werden Sie möglicherweise zum Zurücksetzen Ihrer Kennwörter über Ihr SSO-System weitergeleitet, wenn Sie auf **[!UICONTROL Kennwort zurücksetzen]** klicken. Dadurch wird Ihr SSO-Passwort zurückgesetzt, was sich auf die Anmeldung bei allen anderen Anwendungen in Ihrer Organisation auswirkt.
+   Wenn Ihr Unternehmen [!DNL Workfront] mit einer SSO-Lösung integriert hat, werden Sie möglicherweise zum Zurücksetzen Ihrer Kennwörter über Ihr SSO-System weitergeleitet, wenn Sie auf **[!UICONTROL Kennwort ändern]** klicken. Dadurch wird Ihr SSO-Passwort zurückgesetzt, was sich auf die Anmeldung bei allen anderen Anwendungen in Ihrer Organisation auswirkt.
 
 1. Geben Sie Ihr altes Kennwort und dann zweimal das gewünschte neue Kennwort ein.
 
@@ -86,4 +86,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Kennwortregeln sind möglicherweise strenger, je nach den Konfigurationseinstellungen, die von Ihrem [!DNL Workfront] festgelegt wurden.
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
