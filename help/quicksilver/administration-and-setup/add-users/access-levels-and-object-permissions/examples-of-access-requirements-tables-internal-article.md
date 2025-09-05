@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1071'
 ht-degree: 2%
 
 ---
@@ -406,6 +406,8 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Zugriffsanforderungen für die Automatisierung und Integration von Adobe Workfront
+
 <p>Connector-basiert (veraltet): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -418,9 +420,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Erweiterte Enterprise-Steuerelemente
 
