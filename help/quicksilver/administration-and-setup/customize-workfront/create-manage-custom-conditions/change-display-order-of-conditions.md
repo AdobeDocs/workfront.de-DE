@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Sie können die Reihenfolge ändern, in der Bedingungen in Projekten, Aufgaben u
 
 * Wenn ein Benutzer die Bedingung für eine Aufgabe oder ein Problem ändert
 
-  ![Bedingung in Liste ändern](assets/change-conditions-list-dropdown-only.png)
+  ![Bedingung in Liste ändern](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >In der Ansicht „Standardbedingung“ ist **Feld** Bedingung“ ein Feldtyp, der nicht inline bearbeitet werden kann. Wenn Sie das Feld **Bedingung** separat zu einer Ansicht hinzufügen, kann es bearbeitet werden. Weitere Informationen zur Inline-Bearbeitung finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Zugriffsanforderungen
 
@@ -66,9 +70,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
-1. Wählen Sie die **Projekte**, **&#x200B;**&#x200B;oder **Probleme** aus.
+1. Wählen Sie die **Projekte**, **** oder **Probleme** aus.
 
-1. Ziehen Sie ![Symbol „Verschieben](assets/move-icon---dots.png) Bedingungen, um ihre Reihenfolge zu ändern.
+1. Ziehen Sie ![move icon](assets/move-icon---dots.png) die Bedingungen, um ihre Reihenfolge zu ändern.
 
    Die neue Bestellung wird automatisch gespeichert.
 

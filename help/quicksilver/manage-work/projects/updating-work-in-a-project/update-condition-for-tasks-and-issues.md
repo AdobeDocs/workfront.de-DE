@@ -6,9 +6,9 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Kennzeichn
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäß
 
 ## Zugriffsanforderungen {#access-requirements}
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäß
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Anzeigen oder Erweitern der Berechtigungen für Aufgaben und Probleme zum Anzeigen ihrer Bedingung</p>
-   <p>Contribute-Berechtigungen für Aufgaben und Probleme zum Aktualisieren der Bedingung</p>
+   <p>Mitwirken an Berechtigungen für Aufgaben und Probleme, um die Bedingung zu aktualisieren</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ Sie können den Zustand von Aufgaben und Problemen in verschiedenen Bereichen vo
    * Kleinere Probleme
    * Größere Probleme
 
-   ![](assets/condition-in-task-header.png)
-1. Klicken Sie auf die Eingabetaste , um die Bedingung zu speichern.
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### Aktualisieren der Bedingung einer Aufgabe oder eines Problems im Abschnitt mit den Aufgaben- oder Problemdetails
 
@@ -151,14 +152,17 @@ Sie können den Zustand von Aufgaben und Problemen in verschiedenen Bereichen vo
 
 1. Aktualisieren Sie **Bedingung** des Problems oder der Aufgabe inline, indem Sie auf die vorhandene Bedingung doppelklicken und einen neuen Wert aus dem Dropdown-Menü auswählen.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >Die Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung möglicherweise mehr als drei Optionen für die Bedingung finden. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in Workfront finden Sie unter [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-
 1. Drücken Sie **Eingabetaste** auf der Tastatur oder klicken Sie außerhalb des Felds Bedingung , um die neue Aufgabe oder Problembedingung zu speichern.
+
+   >[!NOTE]
+   >
+   >In der Ansicht „Standardbedingung“ ist **Feld** Bedingung“ ein Feldtyp, der nicht inline bearbeitet werden kann. Wenn Sie das Feld **Bedingung** separat zu einer Ansicht hinzufügen, kann es bearbeitet werden. Weitere Informationen zur Inline-Bearbeitung finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

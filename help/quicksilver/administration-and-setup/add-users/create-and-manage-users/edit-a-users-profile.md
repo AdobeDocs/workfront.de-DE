@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
+source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3185'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,20 +106,22 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
   Das Kennwort eines Workfront-Administrators kann nicht zurückgesetzt werden.
 
-* **&lt;SSO-Konfiguration> Benutzername**: Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird der SSO-Benutzername in diesem Feld angezeigt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
-* **Nur &lt;SSO-Konfiguration> Authentifizierung zulassen**: Wenn der Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat und alle Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
+<!--
+* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
+* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
+  
+  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
 
-  Wenn dieses Feld ausgewählt ist, muss sich der Benutzer mit seinen SSO-Anmeldeinformationen bei Workfront anmelden. Wenn Sie diese Option deaktivieren, können sich Benutzer mit ihren Workfront-Anmeldeinformationen bei Workfront anmelden.
+  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-  Weitere Informationen zum Konfigurieren von Workfront mit einer SSO-Lösung finden Sie [Übersicht über Single Sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
-
-  Weitere Informationen zum Aktualisieren von Benutzern für SSO finden Sie unter [Aktualisieren von Benutzern für einmaliges Anmelden](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
   >[!NOTE]
   >
-  >Wenn Sie Gruppenadministrator sind, können Sie die Felder &lt;SSO Configuration> nur für Benutzer in den Gruppen bearbeiten, in denen Sie als solcher angegeben sind. Außerdem muss in Ihrer Zugriffsebene die Berechtigung Benutzeradmin (Gruppenbenutzer) aktiviert sein.
+  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
   >
-  >Wenn Sie Gruppenadministrator sind und für Ihre Zugriffsebene die Berechtigung Benutzeradministration (alle Benutzer) aktiviert haben, können Sie die Felder &lt;SSO-Konfiguration> für alle Benutzer bearbeiten.
+  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
+-->
 
 * **Profilfoto**: Klicken Sie auf **Neu hochladen**, um das Profilbild des Benutzers zu laden. Sie können eine JPG-, GIF- oder PNG-Datei hochladen. Die Dateigrößenbeschränkung beträgt 4 MB.
 
@@ -148,7 +150,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   >
   >Diese Option ist nur in der Vorschau- und Sandbox-Umgebung verfügbar. E-Mail-Benachrichtigungen sind standardmäßig in der Produktionsumgebung aktiviert.
 
-* **Arbeit, die ich mir selbst zuweise, an meine Registerkarte „Arbeiten an“ senden**: Wenn diese Option aktiviert ist, wird Arbeit, die der/die Benutzende sich selbst zuweist, automatisch auf den Status „In Bearbeitung“ anstelle von „Neu“ gesetzt. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
+<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
+
+<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren**: Aktivieren Sie diese Option, wenn die Dokumente, die der Benutzer hochlädt, sofort einen Korrekturabzug generieren sollen.
 
