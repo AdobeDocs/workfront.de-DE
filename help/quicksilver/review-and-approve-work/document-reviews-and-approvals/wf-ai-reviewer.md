@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '638'
 ht-degree: 4%
 
 ---
@@ -51,9 +51,11 @@ Der KI-Reviewer kann die folgenden Dateitypen überprüfen:
 * WEBP (.webp)
 * Nicht animierte GIF (.gif)
 
+Wenn Sie einen nicht unterstützten Dateityp hochladen, wird die Option „KI-Reviewer“ beim Erstellen einer Genehmigung nicht angezeigt.
+
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio Foundations. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio Foundations. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## KI-Reviewer erstellen
