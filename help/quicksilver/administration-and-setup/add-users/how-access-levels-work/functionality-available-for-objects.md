@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
+source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 11%
+source-wordcount: '1313'
+ht-degree: 14%
 
 ---
 
@@ -34,22 +34,22 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; |   |   |   |
-| Kopieren | ✓ &#42; |   |   |   |
-| Löschen | ✓ &#42; |   |   |   |
-| Freigeben | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Erstellen | ✓&#42; |   |   |   |
+| Kopieren | ✓&#42; |   |   |   |
+| Löschen | ✓&#42; |   |   |   |
+| Freigeben | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Benutzerdefiniertes Formular hinzufügen | ✓ |   |   |   |
 | Benutzerdefinierte Felder aktualisieren | ✓ |   |   |   |
 | Genehmigungsprozess hinzufügen | ✓ |   |   |   |
 | Genehmigen eines Projekts | ✓ | ✓ |   |   |
 | Dokument hinzufügen | ✓ | ✓ | ✓ |   |
 | Problem hinzufügen | ✓ | ✓ | ✓ |   |
-|  Aufgaben hinzufügen | ✓ |   |   |   |
+| Aufgaben hinzufügen | ✓ |   |   |   |
 | Aktualisierungen/Kommentare abgeben | ✓ | ✓ | ✓ |   |
 | Status ändern | ✓ |   |   |   |
-| Stunden protokollieren | ✓ | ✓ |   |   |
+| Stunden protokollieren | ✓ |   |   |   |
 | Zuweisungen bearbeiten | ✓ |   |   |   |
 | Verwalten einer Grundlinie | ✓ |   |   |   |
 | Risiken managen | ✓ |   |   |   |
@@ -72,11 +72,11 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; |   |   |   |
-| Löschen | ✓ &#42; |   |   |   |
-| Freigeben | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Erstellen | ✓&#42; |   |   |   |
+| Löschen | ✓&#42; |   |   |   |
+| Freigeben | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Hinzufügen von Vorgängern | ✓ |   |   |   |
 |  Probleme hinzufügen | ✓ | ✓ |   |   |
 | Aufgabe bearbeiten (Status ausschließen) | ✓ |   |   |   |
@@ -104,12 +104,12 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Erstellen | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Bearbeiten | ✓ | ✓ | ✓ |   |
-| Löschen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
-| Freigeben | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Löschen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Freigeben | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ |   |
 | Probleme genehmigen | ✓ | ✓ | ✓ |   |
@@ -134,11 +134,11 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Portfolios habe
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; |   |   |   |
-| Löschen | ✓ &#42; |   |   |   |
-| Freigeben | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Erstellen | ✓&#42; |   |   |   |
+| Löschen | ✓&#42; |   |   |   |
+| Freigeben | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Details bearbeiten | ✓ |   |   |   |
 | Benutzerdefinierte Formulare anhängen | ✓ |   |   |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ |   |   |   |
@@ -158,11 +158,11 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Programme haben
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; |   |   |   |
-| Löschen | ✓ &#42; |   |   |   |
-| Freigeben | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Erstellen | ✓&#42; |   |   |   |
+| Löschen | ✓&#42; |   |   |   |
+| Freigeben | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Details bearbeiten | ✓ |   |   |   |
 | Benutzerdefinierte Formulare anhängen | ✓ |   |   |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ |   |   |   |
@@ -182,13 +182,13 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; |   |   |   |
-| Löschen | ✓ &#42; |   |   |   |
-| Integrierte Berichte anzeigen | ✓ &#42; |   |   |   |
-| Freigeben | ✓ &#42; | ✓ |   |   |
-| Kalender und Berichte öffentlich freigeben | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; | ✓ &#42; |
+| Erstellen | ✓&#42; |   |   |   |
+| Löschen | ✓&#42; |   |   |   |
+| Integrierte Berichte anzeigen | ✓&#42; |   |   |   |
+| Freigeben | ✓&#42; | ✓ |   |   |
+| Kalender und Berichte öffentlich freigeben | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Bearbeiten | ✓ |   |   |   |
 | Kopieren | ✓ |   |   |   |
 
@@ -204,11 +204,11 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-------------------|------------|---------|---------------|---------------|
-| Erstellen | ✓ | ✓ | ✓ |   |
-| Löschen | ✓ | ✓ | ✓ |   |
-| Freigeben | ✓ | ✓ | ✓ |   |
-| Systemweit freigeben | ✓ | ✓ | ✓ |   |
-| Anzeigen | ✓ | ✓ | ✓ |   |
+| Erstellen | ✓* | ✓* | ✓* |   |
+| Löschen | ✓* | ✓* | ✓* |   |
+| Freigeben | ✓* | ✓* | ✓* |   |
+| Systemweit freigeben | ✓* | ✓* | ✓* |   |
+| Ansicht | ✓ | ✓ | ✓ |   |
 | Bearbeiten | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -219,14 +219,14 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
-| Löschen (Dokumente und Ordner) | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
-| Freigeben | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
-| Öffentlich freigeben (extern) | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; | ✓ &#42; |
+| Erstellen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Löschen (Dokumente und Ordner) | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Freigeben | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Öffentlich freigeben (extern) | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Details bearbeiten | ✓ | ✓ | ✓ |   |
-| Download | ✓ | ✓ | ✓ | ✓ |
+| Herunterladen | ✓ | ✓ | ✓ | ✓ |
 | Checkout | ✓ | ✓ | ✓ |   |
 | Genehmigende Personen (Dokumente) hinzufügen | ✓ | ✓ | ✓ |   |
 | Dokumente genehmigen | ✓ | ✓ | ✓ | ✓ |
@@ -254,10 +254,10 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Erstellen | ✓ |   |   |   |
-| Löschen | ✓ |   |   |   |
-| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für einen beliebigen Benutzer | ✓ |   |   |   |
-| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für alle Benutzenden in der von ihnen verwalteten Gruppe | ✓ |   |   |   |
+| Erstellen | ✓* |   |   |   |
+| Löschen | ✓* |   |   |   |
+| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für einen beliebigen Benutzer | ✓* |   |   |   |
+| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für alle Benutzenden in der von ihnen verwalteten Gruppe | ✓* |   |   |   |
 | Benutzer anzeigen | ✓ | ✓ | ✓ |   |
 | Kontaktinformationen anzeigen | ✓ | ✓ | ✓ |   |
 
@@ -271,10 +271,10 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
-| Erstellen | ✓ |   |   |   |
-| Löschen | ✓ |   |   |   |
-| Teams bearbeiten, denen sie angehören | ✓ |   |   |   |
-| Teams in von ihnen verwalteten Gruppen bearbeiten | ✓ |   |   |   |
+| Erstellen | ✓* |   |   |   |
+| Löschen | ✓* |   |   |   |
+| Teams bearbeiten, denen sie angehören | ✓* |   |   |   |
+| Teams in von ihnen verwalteten Gruppen bearbeiten | ✓* |   |   |   |
 | Alle Teams anzeigen | ✓ | ✓ | ✓ |   |
 | Anzeigen der mit den Gruppen verknüpften Teams | ✓ | ✓ | ✓ |   |
 
@@ -286,11 +286,11 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-----------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓ &#42; |   |   |   |
-| Löschen | ✓ &#42; |   |   |   |
-| Freigeben | ✓ &#42; |   |   |   |
-| Systemweit freigeben | ✓ &#42; |   |   |   |
-| Anzeigen | ✓ &#42; |   |   |   |
+| Erstellen | ✓&#42; |   |   |   |
+| Löschen | ✓&#42; |   |   |   |
+| Freigeben | ✓&#42; |   |   |   |
+| Systemweit freigeben | ✓&#42; |   |   |   |
+| Ansicht | ✓&#42; |   |   |   |
 | Kopieren | ✓ |   |   |   |
 | Vorlagendetails bearbeiten | ✓ |   |   |   |
 
@@ -304,13 +304,13 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten hab
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Funktionsbezogene Abrechnung und Kostensätze bearbeiten | ✓ &#42; |   |   |   |
-| Benutzerfakturierung und Kostensätze bearbeiten | ✓ &#42; |   |   |   |
-| Funktionsbezogene Abrechnung und Kostensätze anzeigen | ✓ &#42; |   |   |   |
-| Benutzerfakturierung und Kostensätze anzeigen | ✓ &#42; |   |   |   |
-| Abrechnungsdatensätze verwalten | ✓ |   |   |   |
+| Funktionsbezogene Abrechnung und Kostensätze bearbeiten | ✓&#42; |   |   |   |
+| Benutzerfakturierung und Kostensätze bearbeiten | ✓&#42; |   |   |   |
+| Funktionsbezogene Abrechnung und Kostensätze anzeigen | ✓&#42; |   |   |   |
+| Benutzerfakturierung und Kostensätze anzeigen | ✓&#42; |   |   |   |
+| Abrechnungseinträge verwalten | ✓ |   |   |   |
 | Ausgaben verwalten | ✓ |   |   |   |
-| Finanzdaten anzeigen | ✓ &#42; | ✓ &#42; |   |   |
+| Finanzdaten anzeigen | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Tarifkarten verwalten</span> | ✓ |   |   |   |
 | Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen | ✓ |   |   |   |
 | Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |   |   |   |
@@ -328,12 +328,12 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
-| Prioritäten und Budgetstunden im Planer bearbeiten | ✓ &#42; |   |   |   |
-| Ressourcenpools erstellen, bearbeiten und löschen&#42;&#42; | ✓ &#42; |   |   |   |
-| Geplante Stunden im Workload Balancer aktualisieren&#42;&#42;&#42; | ✓ &#42; |   |   |   |
-| Projektprioritäten im Ressourcenplaner anzeigen | ✓ &#42; |   |   |   |
-| Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen | ✓ &#42; | ✓ &#42; |   |   |
-| Ressourcenpools anzeigen | ✓ &#42; | ✓ &#42; |   |   |
+| Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |   |   |   |
+| Ressourcenpools erstellen, bearbeiten und löschen&#42;&#42; | ✓&#42; |   |   |   |
+| Geplante Stunden im Workload Balancer aktualisieren&#42;&#42;&#42; | ✓&#42; |   |   |   |
+| Projektprioritäten im Ressourcenplaner anzeigen | ✓&#42; |   |   |   |
+| Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen | ✓&#42; | ✓&#42; |   |   |
+| Ressourcenpools anzeigen | ✓&#42; | ✓&#42; |   |   |
 | Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |   |   |   |
 | Ressourcenpools an Projekte, Vorlagen und Benutzer anhängen | ✓ |   |   |   |
 
@@ -343,7 +343,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 
 &#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzen. Wenn Sie einem Planer-Benutzer Zugriff auf die Ressourcenverwaltung gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuordnungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Business Case anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Erfordert die Berechtigung für Contribute zum -Objekt, wobei „Zuweisungen vornehmen“ unter „Erweiterte Einstellungen“ aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Erfordert die Berechtigung „Beitragen“ zum -Objekt, wobei „Zuweisungen vornehmen“ in den erweiterten Einstellungen aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Bereich für Szenarienplaner
 
@@ -368,7 +368,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 
 <!-- ask Alina about this section -->
 
-| Aktionen | Anzeigen | Bearbeiten |
+| Aktionen | Ansicht | Bearbeiten |
 |---|---|---|
 | Erstellen |   | ✓ |
 | Alle Ziele bearbeiten/löschen |   | ✓ |
