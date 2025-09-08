@@ -6,7 +6,7 @@ description: Sie können Arbeitselemente mit dem Adobe Workfront Workload Balanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workl
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -95,7 +95,7 @@ Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit 
    >* Die Option Alle Benutzer anzeigen ist nur im Workload Balancer eines Projekts verfügbar.
    >* Verwenden Sie Filter, um nur die Benutzer anzuzeigen, die für Sie wichtig sind. Verwenden Sie beispielsweise einen Filter, um nur Benutzer aus Ihren Teams oder Gruppen anzuzeigen.
 
-1. Klicken Sie auf den Balken eines Arbeitselements (<span class="preview"> Rollenzuweisung), </span> entweder die geplante oder die projizierte Zeitleiste anzeigt, und ziehen Sie sie über den Namen eines Benutzers in den Bereich **Zugewiesen**.
+1. Klicken Sie auf den Balken eines Arbeitselements (<span class="preview"> Rollenzuweisung), </span> entweder die geplante oder die projizierte Zeitleiste anzeigt, und ziehen Sie sie über die Stunden für einen Benutzer in den Bereich **Zugewiesen**.
 
    Der Benutzer, über den Sie den Mauszeiger bewegen, um das Arbeitselement abzulegen, ist hervorgehoben.
 
