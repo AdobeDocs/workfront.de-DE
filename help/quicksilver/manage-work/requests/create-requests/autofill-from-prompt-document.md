@@ -5,9 +5,9 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -121,41 +121,54 @@ So verwenden Sie Vorschläge basierend auf einer eingefügten Textaufforderung:
 
 Diese Beispiele zeigen Aufforderungen zu verschiedenen Möglichkeiten, wie die KI auf andere Projekte verweisen kann.
 
-* Verweisen auf eine frühere Kundenkampagne
+#### Verweisen auf eine frühere Kundenkampagne
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* Aufbauen auf einem vorhandenen Projekt
+Erstellen Sie eine ähnliche Kampagnenanfrage wie bei der Einführung im 2. Quartal, diesmal jedoch für den Unternehmensbereich Automotive. Beibehalten des Lieferumfangs und des Zielgruppenprofils.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Wiederverwenden eines Stils aus einer früheren Leistung
+#### Aufbauen auf einem vorhandenen Projekt
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Erweitern auf einen älteren Kampagnentyp
+Verwenden Sie das gleiche Setup, das wir beim Projektstart im letzten Frühjahr (für die Kundenfirma) hatten. Ich möchte eine digitale Werbekampagne mit demselben Executive-Publikum durchführen, aber mit aktualisierten Daten für dieses Quartal.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Wiederholen einer Anfrage für ein anderes Produkt
+#### Wiederverwenden eines Stils aus einer früheren Leistung
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Erzählstil mit impliziten Verweisen
+Bereiten Sie eine Anfrage ähnlich der Sommerförderungskampagne von (Client-Unternehmen) vor, die wir im letzten Jahr ausgeführt haben. Konzentrieren Sie sich auf Social-Media-Assets, behalten Sie Spanisch als primäre Sprache bei und passen Sie das Budget auf 75.000 Dollar an.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Erweitern auf einen älteren Kampagnentyp
+
+>[!BEGINSHADEBOX]
+
+Nehmen Sie die Webinar-Kampagne (Client-Unternehmen) aus dem 1. Quartal als Referenz. Ich möchte denselben Registrierungs-Workflow und dieselben Assets, aber dieses Mal ist das Thema „KI in der Finanzplanung“ und das Publikum sind junge Profis.
+
+>[!ENDSHADEBOX]
+
+#### Wiederholen einer Anfrage für ein anderes Produkt
+
+>[!BEGINSHADEBOX]
+
+Richten Sie eine Kampagnenanfrage wie das von uns behandelte Rebranding-Projekt (Client-Unternehmen) ein, ersetzen Sie jedoch durch (Neue Client-Firma) als Client. Sorgen Sie dafür, dass alle Ergebnisse mit dem Unternehmens-Branding übereinstimmen.
+
+>[!ENDSHADEBOX]
+
+#### Erzählstil mit impliziten Verweisen
+
+>[!BEGINSHADEBOX]
+
+Wir planen eine Kampagne, die der Holiday Social Ads ähnelt, die wir letztes Jahr geschaltet haben. Das Budget sollte etwa 50.000 sein, das Ziel sollte die Lead-Generierung sein, und die Ergebnisse sollten Instagram- und TikTok-Assets umfassen.
+
+>[!ENDSHADEBOX]
+
 
 ## Abrufen von Vorschlägen basierend auf einem hochgeladenen Dokument
 
