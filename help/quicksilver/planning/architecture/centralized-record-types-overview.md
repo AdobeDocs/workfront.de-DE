@@ -3,9 +3,9 @@ title: Übersicht über zentralisierte Datensatztypen
 description: Zentralisierte Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
 hidefromtoc: true
 hide: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -20,120 +20,109 @@ recommendations: noDisplay, noCatalog
 
 # Übersicht über zentralisierte Datensatztypen
 
-
 Zentralisierte Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
 
 ## Übersicht über zentralisierte Datensatztypen
 
 Bei der Implementierung von Workfront Planning für ein Unternehmen mit mehreren Teams mit gemeinsamen Workflows müssen Sie möglicherweise eine zusammenhängende Struktur und Metadaten für wichtige Datensatztypen (wie Kampagnen oder Ergebnisse) definieren, die den Arbeitsbereichen jedes Teams hinzugefügt werden können, um ihre Arbeit zu erfassen und zu verwalten.
 
-Außerdem benötigen Sie möglicherweise die Arbeit jedes Teams, um auf eine zentrale, globalere Ebene zu gelangen.
+Außerdem benötigen Sie möglicherweise die Arbeit jedes Teams, um eine zentrale Ebene zu erreichen.
 
-Mit diesem Workflow können Sie sicherstellen, dass Teams ihre Arbeit konsistent erfassen, während sie gleichzeitig eine Team-übergreifende Sichtbarkeit ermöglichen, ohne dass alle Personen in der Organisation zu einem Arbeitsbereich hinzugefügt werden müssen.
+In einem solchen Workflow können Sie sicherstellen, dass Teams ihre Arbeit konsistent erfassen, während Sie die Team-übergreifende Sichtbarkeit erschließen, ohne dass alles zu einem Arbeitsbereich oder alle Personen in der Organisation zu jedem Arbeitsbereich hinzugefügt werden müssen. Hierfür können Sie zentralisierte Datensatztypen verwenden.
 
 Gehen Sie wie folgt vor, um zentralisierte Datensatztypen zu verwenden:
 
-1. Konfigurieren Sie einen Datensatztyp, der zentralisiert werden soll.
+1. Konfigurieren Sie einen Datensatztyp, der in einem bestimmten Arbeitsbereich zentralisiert werden soll.
+
+   Ein Workspace-Manager kann Benutzer mit einer Standardlizenz, Teams, Gruppen, Rollen oder Unternehmen auswählen, um einen ausgewählten Datensatztyp zu einem von ihnen verwalteten Arbeitsbereich hinzuzufügen.
+
+   Der ursprüngliche Datensatztyp ist in seinem ursprünglichen Arbeitsbereich vorhanden, wird jedoch von allen anderen Arbeitsbereichen sichtbar gemacht.
 
    Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Einen vorhandenen Datensatztyp aus einem zentralisierten hinzufügen.
+1. Fügen Sie dem Arbeitsbereich eines Teams einen vorhandenen Datensatztyp aus einem vorhandenen Datensatztyp, der als zentralisierter Typ konfiguriert wurde, hinzu.
+
+   Der Datensatztyp ist in den folgenden Arbeitsbereichen vorhanden:
+
+   * Der ursprüngliche Arbeitsbereich, in dem er als zentralisierter Datensatztyp angegeben war.
+   * Der Arbeitsbereich des Teams.
 
    Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
+   In den folgenden Abschnitten werden Überlegungen zu zentralisierten Datensatztypen entweder in ihren ursprünglichen Arbeitsbereichen oder nach dem Hinzufügen zu den Arbeitsbereichen eines Teams beschrieben.
 
+## Überlegungen zu den zentralisierten Datensatztypen in ihrem ursprünglichen Arbeitsbereich
 
+Der für die Zentralisierung konfigurierte Datensatztyp weist die folgenden Eigenschaften auf:
 
-・ Die neue Einstellung „Zulassen, dass der Datensatztyp in anderen Arbeitsbereichen hinzugefügt wird“ ist in den erweiterten Einstellungen für Datensatztypen verfügbar.
+* Alle zugehörigen Informationen können nur im ursprünglichen Arbeitsbereich bearbeitet werden.
 
-・ Wenn diese Option aktiviert ist, kann der Workspace-Manager Benutzer mit Standardlizenz, Teams, Gruppen, Rollen oder Unternehmen auswählen, die den Datensatztyp in den von ihnen verwalteten Workspaces hinzufügen können.
+* Sie können die folgenden Aktionen für den zentralisierten Datensatztyp aus dem ursprünglichen Arbeitsbereich eines zentralisierten Datensatztyps ausführen:
 
-・ Der Workspace-Manager, der die Einstellung bearbeitet, wird standardmäßig automatisch zur Liste der ausgewählten Benutzer hinzugefügt
+   * Bearbeiten
 
-o Der Workspace-Manager kann seinen eigenen Namen entfernen, nachdem er mindestens 1 andere Entität hinzugefügt hat
+     Die Bearbeitung eines zentralisierten Datensatztyps umfasst die Bearbeitung des Erscheinungsbilds, der arbeitsbereichsübergreifenden Funktionen und aller im ursprünglichen Arbeitsbereich erstellten Felder.
+   * Anfrageformulare erstellen
+   * Anfrageformulare verwalten
 
-o Es muss mindestens 1 Benutzer/Team/… ausgewählt sein, um die Einstellung zu speichern
+* Ein zentralisierter Datensatztyp kann nur gelöscht werden, wenn er nicht zu einem Team-Arbeitsbereich hinzugefügt wurde. Nachdem er zum Arbeitsbereich eines Teams hinzugefügt wurde, führt der Versuch, ihn aus dem ursprünglichen Arbeitsbereich zu löschen, zu einem Fehler.
 
-o Sobald der Datensatztyp in mindestens 1 anderen Arbeitsbereich hinzugefügt wurde, können alle ausgewählten Benutzer entfernt werden
+  Dies geschieht, damit der zentralisierte Datensatztyp in den Arbeitsbereichen verbleiben kann, in denen er bereits hinzugefügt wurde.
+* Die Datensätze, die Sie einem zentralen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den ursprünglichen Arbeitsbereich verfügen.
+* Die Datensätze, die Sie aus dem Arbeitsbereich des Teams hinzufügen, werden aggregiert und im ursprünglichen Arbeitsbereich angezeigt. Alle Mitglieder des ursprünglichen Arbeitsbereichs erhalten Ansichtsberechtigungen für ihn.
 
-§ Dies geschieht, damit verhindert werden kann, dass der globale Datensatztyp in neuen Arbeitsbereichen hinzugefügt wird, während er in Arbeitsbereichen beibehalten wird, in denen er bereits verwendet wird.
+* Die verbundenen Datensatztypen eines zentralisierten Datensatztyps werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
 
-・ In Phase 1 werden alle Datensätze der verbundenen Datensatztypen automatisch für alle Arbeitsbereiche freigegeben, in denen der Datensatztyp hinzugefügt wurde.
+* Felder, die für einen zentralen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird.
 
-・ Sobald der Datensatztyp als arbeitsbereichsübergreifend aktiviert ist, wird dem Datensatztyp ein systemgeneriertes &quot;Workspace&quot;-Feld hinzugefügt
+## Überlegungen zu zentralisierten Datensatztypen nach dem Hinzufügen zum Arbeitsbereich eines Teams
 
-So wird der Arbeitsbereich angezeigt, aus dem jeder Datensatz erstellt wurde.
+* Teamarbeitsbereich-Mitwirkende erhalten die Berechtigung Beitragen für den zentralisierten Datensatztyp im Teamarbeitsbereich. Sie können Datensätze darin hinzufügen und verwalten.
 
-o Dieses Feld ist schreibgeschützt und kann nicht gelöscht werden.
+* Team Workspace-Betrachter erhalten die Berechtigung zum Anzeigen des zentralisierten Datensatztyps in Team Workspace. Es können keine Datensätze hinzugefügt und darin verwaltet werden.
 
-So kann es aus den Ansichtsfeldern ausgeblendet werden.
+* Team Workspace-Manager können die folgenden Aktionen für den Datensatztyp ausführen, der aus einem zentralisierten Datensatztyp im Arbeitsbereich eines Teams hinzugefügt wurde:
 
-o Das Arbeitsbereich -Feld kann zum Filtern, Gruppieren und Sortieren sowie in allen Anzeigeeinstellungen wie anderen Feldern verwendet werden.
+   * Neue Felder hinzufügen
 
+     Felder, die einem zentralen Datensatz aus einem Team-Arbeitsbereich hinzugefügt werden, sind nur aus dem Arbeitsbereich des Teams sichtbar.
+   * Freigeben
+   * Löschen.
 
-Workspace-übergreifende Datensatztypen in lokalen Arbeitsbereichen
+     Wenn Sie den Datensatztyp aus dem Arbeitsbereich eines Teams löschen, wird er nur aus dem Arbeitsbereich des Teams entfernt. Die Datensätze, die ihm aus dem Arbeitsbereich des Teams hinzugefügt wurden, werden ebenfalls gelöscht. Dadurch wird der Datensatztyp nicht aus seinem ursprünglichen Arbeitsbereich oder aus anderen Team-Arbeitsbereichen gelöscht, in denen er hinzugefügt wurde.
 
-・ Beim Versuch, einen neuen Datensatztyp zu ihrem Arbeitsbereich hinzuzufügen, sehen lokale Arbeitsbereich-Manager eine Option, um aus der Liste der globalen Datensatztypen auszuwählen, die für sie verfügbar sind
+     Dies geschieht, damit es möglich ist, den bereits hinzugefügten zentralisierten Datensatztyp in Arbeitsbereichen, die ihn bereits verwenden, beizubehalten.
 
-・ Wenn ein globaler Datensatztyp ausgewählt wird, wird er sofort zum Arbeitsbereich hinzugefügt
+* Sie können die folgenden Aktionen nicht für den Datensatztyp ausführen, der aus einem zentralisierten Datensatztyp im Arbeitsbereich eines Teams hinzugefügt wurde:
 
-・ Es ist möglich, den globalen Datensatztyp in einen beliebigen Bereich und an eine beliebige Position im lokalen Arbeitsbereich zu verschieben
+   * Bearbeiten
 
+     Sie können weder das Erscheinungsbild, noch die Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace importiert wurden.
+   * Anfrageformulare erstellen
+   * Anfrageformulare verwalten
 
-Berechtigungen für den globalen Datensatztyp in lokalen Arbeitsbereichen
+* In den Arbeitsbereichen eines Teams hinzugefügte Datensätze sind in den folgenden Arbeitsbereichen sichtbar, wenn Sie über Ansichts- oder höhere Berechtigungen für diese Arbeitsbereiche verfügen:
 
-In lokalen Arbeitsbereichen erhalten die Mitglieder folgenden Zugriff auf den globalen Datensatztyp:
+   * Der Arbeitsbereich des Teams, in dem sie hinzugefügt werden.
+   * Der ursprüngliche Arbeitsbereich des zentralisierten Datensatztyps.
+   * Alle anderen Arbeitsbereiche, bei denen der zentrale Arbeitsbereich hinzugefügt wird.
 
-・ In Phase 1 erhalten lokale Workspace-Manager die Berechtigung Beitragen . Dies bedeutet:
+* Die folgenden Szenarien existieren für Datensätze, die in den Arbeitsbereichen der Teams erstellt wurden:
 
-So können lokale Arbeitsbereichsmanager:
+   * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Arbeitsbereich und keine Berechtigungen für die Arbeitsbereiche der Teams verfügen, können Sie Datensätze anzeigen, die aus den Arbeitsbereichen des Teams im ursprünglichen Arbeitsbereich hinzugefügt wurden, Sie können sie jedoch nicht über den ursprünglichen Arbeitsbereich verwalten.
+   * Wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich des Teams verfügen, können Sie die Datensätze im ursprünglichen Arbeitsbereich des zentralisierten Datensatztyps oder in dem Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
 
-§ Globalen Datensatztyp hinzufügen
+     Sie können die Datensätze in zusätzlichen Team-Arbeitsbereichen anzeigen, in denen der zentralisierte Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen.
 
-§ Hinzufügen/Bearbeiten/Löschen von Datensätzen im globalen Datensatztyp, unabhängig davon, aus welchem Arbeitsbereich der Datensatz hinzugefügt wurde.
+## Zugriff auf Verbindungen
 
-§ Löschen des globalen Datensatztyps aus dem lokalen Arbeitsbereich
+Datensatztypen, die mit dem zentralisierten Datensatztyp im ursprünglichen Arbeitsbereich verbunden sind, werden für Team-Arbeitsbereiche sichtbar, in denen der zentralisierte Datensatztyp hinzugefügt wird.
 
-o Lokale Workspace-Manager können:
+## API-Verhalten
 
-§ Hinzufügen, Bearbeiten und Löschen von Feldern
+Beim Hinzufügen von Datensätzen zu einem zentralisierten Datensatztyp aus einem Team-Arbeitsbereich mithilfe der Workfront Planning-API prüft das System, ob die Benutzenden Zugriff haben, um Datensätze im ursprünglichen Arbeitsbereich des zentralisierten Datensatztyps zu erstellen.
 
-§ Aktualisieren des Erscheinungsbilds und der Kennzeichnung des Datensatztyps
+Die folgenden Fälle liegen vor:
 
-§ Siehe die erweiterten Einstellungen für den Datensatztyp
+* Wenn der/die Benutzende Zugriff hat, wird der Datensatz im ursprünglichen Arbeitsbereich des zentralisierten Datensatztyps erstellt.
 
-§ Automatisierungen verwalten
-
-§ Anfrageformulare verwalten
-
-§ Anpassen der Freigabe des Datensatztyps für den Umfang des Arbeitsbereichs
-
-§ Deaktivieren Sie in den erweiterten Einstellungen die Einstellung Globaler Datensatztyp .
-
-・ Mitwirkende am lokalen Arbeitsbereich erhalten die Berechtigung Beitragen zum globalen Datensatztyp und können darin Datensätze hinzufügen und verwalten
-
-・ Lokale Workspace-Viewer erhalten die Berechtigung zum Anzeigen des globalen Datensatztyps
-
-・ Sobald ein Datensatz zum globalen Datensatztyp aus einem der lokalen Arbeitsbereiche hinzugefügt wird, wird dieser Arbeitsbereichsname im Workspace-Feld angezeigt
-
-o Im Moment ist es nicht möglich, das Feld Arbeitsbereich zu bearbeiten oder zu ändern
-
-・ Datensätze, die zu lokalen Arbeitsbereichen hinzugefügt werden, werden aggregiert und im primären Arbeitsbereich angezeigt, und alle Mitglieder des primären Arbeitsbereichs erhalten Ansichtszugriff darauf.
-
-・ In lokalen Arbeitsbereichen hinzugefügte Datensätze werden in anderen lokalen Arbeitsbereichen mit demselben globalen Datensatztyp nicht angezeigt und ihre Mitglieder erhalten keinen Zugriff auf die Datensätze.
-
-
-
-Zugriff auf Verbindungen:
-
-・ MVP-Umfang
-
-o Die mit dem globalen Datensatztyp verbundenen Datensatztypen werden für lokale Arbeitsbereiche sichtbar, in denen der globale Datensatztyp hinzugefügt wird, damit sie die Verbindungsfelder zum Taggen verwenden können
-
-
-API-Verhalten
-
-Wenn Benutzende versuchen, über die API Datensätze in einem globalen Datensatztyp zu erstellen, ohne die Workspace-ID anzugeben, prüft das System, ob die Benutzenden Zugriff haben, um Datensätze im primären Arbeitsbereich zu erstellen (wo der globale Datensatztyp erstellt wird)
-
-・ Wenn ja, wird der Datensatz im primären Arbeitsbereich erstellt
-
-・ Wenn nicht, erhält der Benutzer einen Validierungsfehler, dass er keinen Zugriff auf den primären Arbeitsbereich hat und die Arbeitsbereich-ID angeben muss, in der er Zugriff zum Erstellen hat.
+* Wenn der/die Benutzende keinen Zugriff hat, erhält der/die Benutzende die Fehlermeldung, dass er/sie keinen Zugriff auf den ursprünglichen Arbeitsbereich des zentralisierten Datensatztyps hat und er/sie die Arbeitsbereich-ID angeben muss, unter der er/sie Zugriff zum Erstellen von Datensätzen hat.

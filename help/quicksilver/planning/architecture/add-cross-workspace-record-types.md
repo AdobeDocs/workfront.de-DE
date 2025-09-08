@@ -4,10 +4,10 @@ description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. I
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ Sie können einen Datensatztyp beim Erstellen oder Bearbeiten als zentralisiert 
 
 Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+Bevor Sie einem Arbeitsbereich Datensätze aus einem zentralisierten Datensatztyp hinzufügen, lesen Sie den Artikel [Übersicht über zentralisierte Datensatztypen](/help/quicksilver/planning/architecture/centralized-record-types-overview.md).
+
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen.
@@ -48,7 +50,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket</p></li>
 Und
@@ -73,24 +75,9 @@ Und
 </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-## Übersicht über zentralisierte Datensatztypen
-
-Überlegungen beim Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich
-
-* Wenn keine Datensatztypen zum Hinzufügen zu einem anderen Arbeitsbereich konfiguriert sind, wird beim Erstellen eines Datensatztyps die Option zum Importieren aus einem anderen Arbeitsbereich nicht angezeigt. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* Nachdem Sie den Datensatztyp aus einem anderen Arbeitsbereich hinzugefügt haben, werden auch die folgenden Informationen aus dem vorhandenen Datensatztyp hinzugefügt:
-
-   * Felder
-   * Verbindungen aufzeichnen
-
-* Sie können Datensätze, die von anderen Arbeitsbereichen hinzugefügt wurden, nur anzeigen, wenn Sie über Berechtigungen für diese Arbeitsbereiche verfügen.
-
-* Sie können den Datensatztyp einschließlich der Felder nur im ursprünglichen Arbeitsbereich bearbeiten. Sie können sie nicht in den Arbeitsbereichen bearbeiten, in denen sie hinzugefügt wurde.
-* Die aus allen Arbeitsbereichen hinzugefügten Datensätze sind für alle Benutzer sichtbar, die in allen Arbeitsbereichen auf sie zugreifen, auch wenn sie in einem Arbeitsbereich erstellt wurden, in dem sie keine Berechtigungen haben.
 
 ## Erstellen eines Datensatztyps aus einem vorhandenen Datensatztyp
 
@@ -101,21 +88,41 @@ Und
 1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld „Datensatztyp auswählen** auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   Der Datensatztyp wird dem ausgewählten Arbeitsbereich hinzugefügt und Folgendes geschieht:
+   Der Datensatztyp wird dem ausgewählten Arbeitsbereich hinzugefügt.
 
-   * Das Symbol **Arbeitsbereichsübergreifender Datensatztyp** ![Symbol für arbeitsbereichsübergreifende ](assets/global-icon.png)) wird der Karte des importierten Datensatztyps hinzugefügt.
-   * Das schreibgeschützte Feld **Workspace** wird zum importierten Datensatztyp hinzugefügt. Das Feld zeigt an, in welchem Arbeitsbereich die einzelnen Datensätze erstellt wurden.
+   >[!TIP]
+   >
+   >Wenn keine Datensatztypen zum Hinzufügen zu einem anderen Arbeitsbereich konfiguriert sind, wird beim Erstellen eines Datensatztyps die Option zum Importieren aus einem anderen Arbeitsbereich nicht angezeigt.
+
+   Folgendes geschieht:
+
+   * Darüber hinaus werden die folgenden Informationen aus dem vorhandenen zentralisierten Datensatztyp hinzugefügt:
+
+      * Alle Originalfelder
+      * Alle Datensatzverbindungen
+   * Sie können Datensätze, die von anderen Arbeitsbereichen hinzugefügt wurden, nur anzeigen, wenn Sie mindestens über die Berechtigung Anzeigen für diese Arbeitsbereiche verfügen.
+   * Das Symbol **zentralisierter Datensatztyp** ![Symbol für zentralisierten Datensatztyp](assets/global-icon.png) wird der Karte des importierten Datensatztyps hinzugefügt.
+   * Das schreibgeschützte Feld **Workspace** wird der Tabellenansicht des importierten Datensatztyps hinzugefügt. Das Feld zeigt an, in welchem Arbeitsbereich die einzelnen Datensätze erstellt wurden.
 
      >[!NOTE]
      >
-     >* Der importierte Datensatztyp oder seine Felder können nicht bearbeitet werden. Sie können den Datensatztyp und dessen Felder über den ursprünglichen Arbeitsbereich bearbeiten.
+     >* Das Erscheinungsbild, die erweiterten Einstellungen oder die ursprünglichen Felder des importierten Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
+
+1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
+
+1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des importierten Datensatztyps oder rechts neben dem Namen des Datensatztyps auf der Seite und klicken Sie dann auf **Freigeben**, um ihn für andere Benutzer im selben Arbeitsbereich freizugeben.
 
 1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des importierten Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
 1. (Bedingt) Geben Sie **Löschen** in das bereitgestellte Feld ein und klicken Sie dann auf **Dauerhaft löschen**.
 
-   Dadurch wird der importierte Datensatztyp aus dem ausgewählten Arbeitsbereich entfernt. Der ursprüngliche Datensatztyp und seine Felder verbleiben im ursprünglichen Arbeitsbereich.
+   Folgendes geschieht:
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * Der aus einem zentralisierten Datensatztyp erstellte Datensatztyp wird aus dem ausgewählten Arbeitsbereich entfernt.
+   * Der ursprüngliche Datensatztyp und seine Felder verbleiben im ursprünglichen Arbeitsbereich.
+   * Alle anderen Datensatztypen, die aus demselben zentralen Datensatz importiert wurden, verbleiben in ihren Arbeitsbereichen.
+   * Die Datensätze, die dem Datensatztyp aus dem aktuellen Arbeitsbereich hinzugefügt wurden, werden gelöscht. Alle anderen Datensätze, die aus zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der zentralisierte Datensatztyp hinzugefügt wurde, bleiben erhalten.
+
+
 
 
 

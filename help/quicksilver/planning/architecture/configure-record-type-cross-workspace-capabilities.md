@@ -4,9 +4,9 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Paket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket</p></li>
 Und
@@ -103,7 +103,7 @@ Und
 </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -116,7 +116,9 @@ Als Workspace-Manager können Sie einen Datensatztyp als zentralisierten Datensa
 
 Ein Workspace-Manager kann einem von ihm verwalteten Workspace einen zentralen Datensatztyp hinzufügen. Die ursprünglichen Felder des Datensatztyps werden ebenfalls hinzugefügt.
 
-Benutzer können Datensätze zu einem zentralen Datensatztyp aus jedem Arbeitsbereich hinzufügen, zu dem sie beitragen können, wobei dieser Datensatztyp hinzugefügt wird, einschließlich seines primären Arbeitsbereichs. Sie können nur Datensätze aus dem Arbeitsbereich anzeigen, für die sie über die Berechtigung zum Anzeigen verfügen.
+Benutzer können Datensätze zu einem zentralisierten Datensatztyp aus jedem Arbeitsbereich hinzufügen, für den sie über Beitragsberechtigungen verfügen, und wo der zentralisierte Datensatztyp hinzugefügt wird, einschließlich des ursprünglichen Arbeitsbereichs. Sie können Datensätze aus dem Arbeitsbereich anzeigen, für den sie nur über die Berechtigung Anzeigen verfügen.
+
+Weitere Informationen finden Sie unter [Übersicht über zentralisierte Datensatztypen](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
 
 So konfigurieren Sie das Hinzufügen eines Datensatztyps als zentralisierten Datensatztyp:
 
@@ -134,18 +136,29 @@ oder
 
    ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card.png)
 
+   >[!TIP]
+   >
+   >Wenn ein Datensatztyp bereits als zentralisierter Datensatztyp festgelegt wurde und zu anderen Arbeitsbereichen hinzugefügt wurde, ist die Option Bearbeiten abgeblendet.
+
 1. Wählen Sie im Feld **Datensatztyp bearbeiten** die Registerkarte **Erweiterte Einstellungen** aus.
 1. Aktivieren Sie die **Zulassen, dass dieser Datensatztyp anderen Arbeitsbereichen hinzugefügt**).
 
    ![Datensatztyp bearbeiten Erweiterte Einstellungen mit Aktivieren von Zu anderen Arbeitsbereichen hinzufügen](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. Fügen Sie im Feld **Auswählen, wer diesen Datensatztyp zu von ihm verwalteten Arbeitsbereichen hinzufügen kann** Benutzer hinzu, denen Sie erlauben möchten, diesen Datensatztyp zu von ihnen verwalteten Arbeitsbereichen hinzuzufügen.
+   >[!TIP]
+   >
+   >Nachdem Sie einen zentralisierten Datensatztyp zu einem anderen Arbeitsbereich hinzugefügt haben, kann diese Einstellung nicht mehr deaktiviert werden.
+
+1. Fügen Sie im Feld **Auswählen, wer diesen Datensatztyp zu von ihm verwalteten Arbeitsbereichen hinzufügen kann** Entitäten hinzu, denen Sie erlauben möchten, diesen Datensatztyp zu von ihnen verwalteten Arbeitsbereichen hinzuzufügen.
 
    Ihr Name wird dem Feld automatisch hinzugefügt.
 
    Sie können einzelne Benutzer oder Gruppen, Teams, Aufgabengebiete oder Unternehmen hinzufügen, deren Benutzer diesen Datensatztyp den von ihnen verwalteten Arbeitsbereichen hinzufügen dürfen.
 
+   Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
+
    Sie können dieses Feld bearbeiten, nachdem Sie den Datensatztyp gespeichert haben.
+
 1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Auswählen, wer diesen Datensatztyp zu den von ihm verwalteten Arbeitsbereichen hinzufügen kann**.
 
 1. Klicken Sie auf **Speichern**.
@@ -156,12 +169,12 @@ oder
 
    >[!NOTE]
    >
-   >Sie können den Datensatztyp und dessen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
+   >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Die Karte „Datensatztyp“ zeigt das Symbol „Globaler ![&quot; an](assets/global-icon.png) um anzugeben, dass der Datensatztyp jedem Arbeitsbereich hinzugefügt werden kann, dessen Manager Sie in Ihrer Konfiguration angegeben haben.
-   * Dem Datensatztyp wird ein vom System generiertes **&#x200B;**&#x200B;Workspace-Feld hinzugefügt.
+   * Auf der Karte „Datensatztyp“ wird das Symbol &quot;![ Datensatztyp“ angezeigt](assets/global-icon.png) um anzugeben, dass der Datensatztyp für das Hinzufügen zu anderen Arbeitsbereichen verfügbar ist.
+   * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
-     Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wurde.
+     Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
 
      Dieses Feld ist schreibgeschützt und kann nicht gelöscht werden.
 1. (Optional) Wechseln Sie zu einem anderen Arbeitsbereich und erstellen Sie einen Datensatztyp mithilfe eines vorhandenen Datensatztyps. Wählen Sie den Datensatztyp aus, den Sie in den obigen Schritten aktiviert haben.
@@ -194,20 +207,20 @@ oder
 
    ![Registerkarte „Datensatztyp bearbeiten - Erweiterte Einstellungen“ mit aktivierter Option „Von anderen Arbeitsbereichen verbinden“](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
-   Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus verbunden werden.
+   Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus mit verbunden werden.
 
 1. Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
 
-   * **Systemweit**: Benutzer können von allen Arbeitsbereichen, in denen sie Berechtigungen verwalten, aus eine Verbindung zu diesem Datensatztyp herstellen.
+   * **Systemweit**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen.
    * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
-1. Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf **Speichern**.
 
    Folgendes geschieht:
 
-   * Der Datensatztyp und seine Felder können jetzt über die von Ihnen angegebenen Arbeitsbereiche verbunden werden.
-   * Auf der Karte „Datensatztyp“ wird das Symbol für eine arbeitsbereichsübergreifende Verbindung ![Symbol für eine arbeitsbereichsübergreifende Verbindung](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatztyp über jeden Arbeitsbereich, den Sie in Ihrer Konfiguration angegeben haben, verbunden werden kann.
+   * Der Datensatztyp und seine Felder können jetzt über die von Ihnen angegebenen Arbeitsbereiche mit verbunden werden.
+   * Auf der Karte „Datensatztyp“ wird das Symbol für eine arbeitsbereichsübergreifende Verbindung ![Symbol für eine arbeitsbereichsübergreifende Verbindung](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatztyp für die Verbindung über jeden Arbeitsbereich verfügbar ist, den Sie in Ihrer Konfiguration festgelegt haben.
 
-   Der Datensatztyp steht nun für die Verbindung über die vorgesehenen Arbeitsbereiche zur Verfügung.
+   Der Datensatztyp wird in den vorgesehenen Arbeitsbereichen verfügbar, mit dem eine Verbindung hergestellt werden kann.
 1. (Optional) Wechseln Sie zu einem anderen Arbeitsbereich und fügen Sie eine Verbindung zu dem Datensatztyp hinzu, den Sie in den obigen Schritten für eine Workspace-übergreifende Verbindbarkeit aktiviert haben.
 
    Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).

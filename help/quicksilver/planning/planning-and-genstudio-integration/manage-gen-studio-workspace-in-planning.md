@@ -4,9 +4,9 @@ description: Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
 >[!IMPORTANT]
 >
 >Die in diesem Artikel beschriebenen Schritte veranschaulichen, wie Sie den GenStudio-Arbeitsbereich in Workfront Planning aktualisieren können, wenn Sie über Verwaltungsberechtigungen für ihn verfügen.
->&#x200B;> Nicht alle Funktionen sind verfügbar, wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich verfügen.
+>> Nicht alle Funktionen sind verfügbar, wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich verfügen.
 >
 >Wenn Ihr Unternehmen über mehrere Instanzen von Workfront verfügt, erhalten alle Benutzenden Beitragsberechtigungen für den GenStudio-Arbeitsbereich in Workfront Planning.
 
@@ -79,7 +79,7 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen und Ereignisse</li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
+   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
    </p>
   </td> 
   </tr>   
@@ -88,9 +88,10 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
-   <li><p>Verwalten Sie Berechtigungen für den GenStudio-Arbeitsbereich, um die Architektur des Arbeitsbereichs, die Datensatztypen und Felder zu ändern</p></li>
-   <li><p>Berechtigungen für den GenStudio-Arbeitsbereich hinzufügen, um Datensätze im GenStudio-Datensatzbereich hinzuzufügen, zu aktualisieren oder zu löschen</p> </li> 
+   <li><p>Verwalten Sie Berechtigungen für den GenStudio-Arbeitsbereich, um dem GenStudio-Arbeitsbereich neue Felder oder Datensatztypen hinzuzufügen</p></li>
+   <li><p>Mitwirken an Berechtigungen für den GenStudio-Arbeitsbereich zum Hinzufügen, Aktualisieren oder Löschen von Datensätzen im GenStudio-Arbeitsbereich</p> </li>  
    </ul>
+   <p>Benutzende können in Workfront Planning keine GenStudio for Performance Marketing-Datensatztypen oder -Felder aus dem GenStudio-Arbeitsbereich entfernen</p>
    <p>In Adobe GenStudio for Performance Marketing: <p>
    <ul>
    <li><p> Alle Berechtigungen in Adobe GenStudio for Performance Marketing</p></li>
@@ -106,80 +107,9 @@ Weitere Informationen zu Adobe GenStudio for Performance Marketing finden Sie im
 
 +++   
 
-<!--Old/ original table:
-
-<table style="table-layout:auto"> 
-<col> 
-</col> 
-<col> 
-</col> 
-<tbody> 
-    <tr> 
-    <td role="rowheader"><p>Adobe Workfront package</p></td> 
-   <td> 
-<p>Any Adobe Workfront Workflow package</p>
-<p>Any Adobe Workfront Planning package</p>  
-
-   </td> </tr>
-<tr> 
-   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
-   <td> 
-<p>??? DOES GEN STUDIO HAVE A PACKAGE THAT SUPPORTS THIS???</p>  
-
-   </td> </tr>
- 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard</p>
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
-   <td><p> ??? DOES GEN STUDIO REQUIRE A SPECIFIC LICENSE THAT SUPPORTS THIS???</p>
-  </td> 
-  </tr> 
-  <tr> 
-<td> 
-   <p> Additional products</p> </td> 
-   <td> 
-   <p> Adobe GenStudio for Performance Marketing</p></td> 
-  </tr>   
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-   <p>Configuration for GenStudio: ???WHAT IS THE ACCESS LEVEL NEED FOR GENS???</p> 
-</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Object permissions*</p></td> 
-   <td>  
-   <p>In Workfront Planning: </p>
-   <ul>
-   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
-   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
-   </ul>
-   <p>In Adobe GenStudio for Performance Marketing: <p>
-   <ul>
-   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
-   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
-   </td> 
-  </tr> 
-</tbody> 
-</table> -->
-
 ## Überlegungen zum Verwalten eines GenStudio-Arbeitsbereichs in Workfront Planning
 
 * Ihr Unternehmen muss Adobe GenStudio for Performance Marketing erwerben, bevor Sie einen GenStudio-Arbeitsbereich in Workfront Planning anzeigen können.
-
-* Workfront-Benutzende müssen Zugriff auf GenStudio haben, damit sie den GenStudio-Arbeitsbereich in Workfront Planning sehen können.
 
 * Je nachdem, über wie viele Workfront-Instanzen Ihr Unternehmen verfügt, haben Sie automatisch die folgenden Berechtigungen für den GenStudio-Arbeitsbereich in Planning:
 
@@ -194,18 +124,18 @@ Weitere Informationen zu Adobe GenStudio for Performance Marketing finden Sie im
       <tr> 
       <td role="rowheader"><p>Eine Instanz von Workfront</p></td> 
       <td> 
-   <p>In Workfront Planning gibt es einen GenStudio-Arbeitsbereich</p>
-   <p>Alle Benutzenden mit Zugriff auf GenStudio und Workfront Planning verfügen über Verwaltungsberechtigungen für den GenStudio Workspace</p> 
+   <p>Der GenStudio-Arbeitsbereich ist in Ihrer Instanz von Workfront Planning sichtbar</p>
+   <p>Workfront-Administratoren verfügen über Verwaltungsberechtigungen für den GenStudio-Arbeitsbereich in Planning</p>
+   <p>Alle anderen Benutzenden haben in Planning den Zugriff Beitragen zum GenStudio-Arbeitsbereich</p>
    </td> </tr>
       <tr> 
    <td> 
       <p> Mehrere Instanzen von Workfront</p> </td> 
       <td> 
-      <p>In jeder Workfront Planning-Instanz gibt es einen GenStudio-Arbeitsbereich</p>
-   <p>Alle Benutzenden mit Zugriff auf GenStudio und Workfront Planning haben Beitragsberechtigungen für den GenStudio-Arbeitsbereich jeder Instanz</p> </td> 
+      <p>Der GenStudio Workspace ist in allen Workfront-Instanzen sichtbar</p>
+   <p>Alle Benutzenden mit Zugriff auf GenStudio for Performance Marketing und Workfront Planning haben Beitragsberechtigungen für GenStudio in Planning</p> </td> 
    </tr>
-
-  </tbody> 
+      </tbody> 
    </table>
 
 * Das Aktualisieren der Workspace-Konfiguration, der Datensatztypen, Ansichten und Felder für einen GenStudio Workspace entspricht dem Aktualisieren eines Workfront Planning Workspace mit seinen Elementen.
@@ -277,7 +207,7 @@ CAN YOU DO THIS??
 
 1. Wechseln Sie zum GenStudio-Arbeitsbereich in Workfront Planning und öffnen Sie eine Seite für den Datensatztyp, wie im Abschnitt [Verwalten des GenStudio-Arbeitsbereichs von Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in diesem Artikel beschrieben.
 
-1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf eine der folgenden Aktionen:
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben einem Namen eines Datensatztyps und dann auf eine der folgenden Aktionen:
 
    * **Bearbeiten**
 
@@ -291,7 +221,7 @@ CAN YOU DO THIS??
 
      Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. Gehen Sie wie folgt vor, um die Ansicht und den Datensatztyp zu verwalten:
+1. Gehen Sie wie folgt vor, um eine Ansicht oder den Datensatztyp freizugeben:
 
    * Klicken **oben rechts** der Seite „Datensatztyp“ auf „Freigeben“ und dann auf eine der folgenden Aktionen:
       * **Datensatztyp freigeben**
@@ -328,6 +258,10 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
      Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
      Datensätze sind sowohl in Workfront als auch in GenStudio sichtbar.
+
+     >[!NOTE]
+     >
+     >Es können keine Datensätze für den Datensatztyp Aktivierungen hinzugefügt werden.
 
 1. Führen Sie einen der folgenden Schritte aus, um Datensätze zu bearbeiten:
 
