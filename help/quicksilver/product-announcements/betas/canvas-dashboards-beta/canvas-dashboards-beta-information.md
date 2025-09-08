@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie uns Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](#provide-feedback) unten befolgen.<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie unter [Übersicht über Canvas-Dashboards](/hel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
-   <td><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p>
+   <td><p>Systemadministratorzugriff zum Aktivieren von Canvas-Dashboards</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!NOTE]
    >
-   > Die Schaltfläche **An der Beta-Version des Canvas** Dashboards teilnehmen ist nur verfügbar, wenn Ihr Unternehmen zur Beta-Version eingeladen wurde.
+   > Die Schaltfläche **An der Beta-Version des Canvas** Dashboards teilnehmen“ ist nur für Systemadministratoren verfügbar. Alle anderen Benutzer sehen diese Schaltfläche in einem deaktivierten Zustand.
 
 1. Überprüfen Sie die Bedingungen im Feld **Beta-**. Klicken Sie dann auf **Zustimmen**. Sie sind jetzt für die Betaversion registriert. Beachten Sie, dass es einige Minuten dauern kann, bis Ihre Workfront-Daten in den Arbeitsflächen-Dashboards vollständig verfügbar sind.
+
+   >[!NOTE]
+   >
+   >Sobald die Beta-Bedingungen akzeptiert sind, werden die Funktionen des Canvas-Dashboards für alle Benutzenden in der Workfront-Umgebung aktiviert. Jeder Benutzer mit der Zugriffsberechtigung Anzeigen und Verwalten auf Dashboards kann Canvas-Dashboards nach seiner Zugriffsebene anzeigen und bearbeiten.<br>
+   >Beachten Sie, dass die Sichtbarkeit der Landingpage für Arbeitsflächen-Dashboards über die zugewiesene Layout-Vorlage des Benutzers gesteuert wird. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Feedback geben
 
