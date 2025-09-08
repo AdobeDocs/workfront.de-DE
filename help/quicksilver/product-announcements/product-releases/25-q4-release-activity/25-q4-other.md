@@ -4,9 +4,10 @@ description: Weitere Verbesserungen im Veröffentlichungszeitraum des vierten Qu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,6 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 Mit unserem erweiterten Listen-Layout können Sie Filter und Gruppierungen verwenden, um Ihre Arbeit anzuzeigen und besser zu organisieren. Über einem Widget wird nun ein blauer Punktindikator angezeigt, der Ihnen mitteilt, wann ein Filter oder eine Gruppierung in den folgenden Bereichen auf eine Liste angewendet wurde:
 
-* Wechselkurse in Setup
 * Widget „Meine Anfragen“
 * Prioritäten
 
