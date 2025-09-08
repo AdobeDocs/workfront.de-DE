@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -420,10 +420,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Erweiterte Enterprise-Steuerelemente
 
@@ -450,3 +450,37 @@ Erweiterte Enterprise Controls:
 * Gruppenadministratoren für Untergruppen zuweisen
 * Gruppenadministratoren erlauben, Untergruppen zu erstellen
 
+## Zugriffsanforderungen für Proofing
+
+## Zugriffsanforderungen
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td>  <p>Standard</p>
+   <p>Arbeit oder Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td>Manager oder höher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
+   <td>Prüfer, Prüfer und genehmigende Person, Moderator, Autor</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
