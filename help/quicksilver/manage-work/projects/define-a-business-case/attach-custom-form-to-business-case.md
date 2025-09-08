@@ -5,9 +5,9 @@ description: Benutzerdefinierte Forms werden verwendet, um Informationen zu erfa
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ Informationen zum Anhängen benutzerdefinierter Formulare an Objekte finden Sie 
 
 ## Benutzerdefinierte Forms an den Business Case anhängen
 
-Um ein benutzerdefiniertes Formular zu einem Business Case hinzuzufügen, muss der Workfront-Administrator diese Option in „Setup“ auswählen. Weitere Informationen zur Aktivierung benutzerdefinierter Formulare im Setup finden Sie im Abschnitt [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) im Artikel [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Um ein benutzerdefiniertes Formular zu einem Business Case hinzuzufügen, muss der Workfront-Administrator diese Option in „Setup“ auswählen. Weitere Informationen zur Aktivierung benutzerdefinierter Formulare im Setup finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 So fügen Sie ein benutzerdefiniertes Formular hinzu:
 
-1. Gehen Sie zu dem Projekt, an das Sie das Formular anhängen möchten, und klicken Sie dann **linken Bereich** Business Case“.
+1. Gehen Sie zu dem Projekt, an das Sie das Formular anhängen möchten, und klicken Sie dann **linken Bereich** Business Case“. Der Business Case wird angezeigt.
 
-   Der Business Case wird angezeigt.
+1. Wählen **Abschnitt „Benutzerdefiniertes Formular** aus dem Dropdown-Menü das benutzerdefinierte Formular aus, das Sie anhängen möchten. Das benutzerdefinierte Formular wird im Abschnitt **Hinzugefügte Formulare** unten angezeigt.
 
-1. Wählen **Abschnitt „Benutzerdefiniertes Formular** aus dem Dropdown-Menü das benutzerdefinierte Formular aus, das Sie anhängen möchten.
+1. (Optional) Um die Details des benutzerdefinierten Formulars zu erweitern, klicken Sie auf den Pfeil links neben dem Namen des benutzerdefinierten Formulars.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![Benutzerdefinierte Formulardetails erweitern](assets/expand-custom-form-details.png)
 
-1. (Optional) Wählen Sie **Benutzerdefiniertes Formular bearbeiten** aus.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Geben Sie Informationen in die Felder des benutzerdefinierten Formulars ein und klicken Sie dann auf **Speichern** .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

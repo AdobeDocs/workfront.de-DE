@@ -5,9 +5,9 @@ description: Sie können eine Scorecard verwenden, um zu messen, wie gut ein Pro
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Anwenden einer Scorecard auf ein Projekt:
 
 1. Wählen Sie eine Scorecard aus dem Dropdown-Menü aus.
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![Neue Scorecard](assets/scorecard-section.png)
 
 1. Geben Sie eine Antwort für alle Fragen in der Scorecard ein.
 
@@ -160,11 +160,9 @@ Sie können den Alignment-Score eines Projekts auf Projektebene anzeigen, wenn S
 
 1. Navigieren Sie zum Projekt, dessen Ausrichtungsbewertung Sie anzeigen möchten.
 1. Klicken Sie **linken Bedienfeld** Business Case“.
-1. Navigieren Sie zur **Zusammenfassung eines Business** Case“ auf der rechten Seite Ihres Bildschirms.
+1. Navigieren Sie zur **Zusammenfassung eines Business** Case“ auf der rechten Seite Ihres Bildschirms. Die Ausrichtungsbewertung befindet sich in der Zusammenfassung des Business-Case im Wert **Abgestimmt**.
 
-   Die Ausrichtungsbewertung befindet sich in der Zusammenfassung des Business-Case im Wert **Abgestimmt**.
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![Ausrichtungsbewertung in einem Projekt](assets/aligned-section.png)
 
 ### Anzeigen der Alignment-Bewertungen des Projekts und des Portfolios in Portfolio Optimizer
 
@@ -175,16 +173,14 @@ Weitere Informationen zu den in Portfolio Optimizer angezeigten Informationen fi
 * [Finden Sie den Alignment Score des Projekts in Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Suchen Sie den Ausrichtungswert des Portfolios im Portfolio Optimizer.](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![Ausrichtungsbewertung in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Suchen Sie den Ausrichtungswert des Projekts im Portfolio Optimizer. {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Klicken Sie auf den Namen eines Portfolios.
-1. Klicken Sie im linken **auf** Portfolio-Optimierung.
-
-   Der Portfolio Optimizer wird angezeigt.
+1. Klicken Sie im linken **auf** Portfolio-Optimierung. Der Portfolio Optimizer wird angezeigt.
 
    Der Alignment-Score eines Projekts wird als Prozentsatz in der Spalte **Ausrichtung** des Portfolio Optimizer angezeigt.
 

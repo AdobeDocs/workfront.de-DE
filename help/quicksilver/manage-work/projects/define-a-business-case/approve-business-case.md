@@ -5,9 +5,9 @@ description: Nachdem Sie den Business Case für eine Projektanfrage abgeschlosse
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -80,15 +80,15 @@ So erstellen Sie einen Bericht für Projekte, für die die Genehmigung ihrer Bus
 
 1. Wählen Sie die **Ansicht** des Berichts aus und klicken Sie dann auf **Spalte hinzufügen**.
 
-1. Beginnen Sie, „Status“ in das Feld **In dieser Spalte anzeigen** einzugeben, und wählen Sie dieses Feld aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie mit der Eingabe *Status* in das Feld **In dieser Spalte anzeigen** und wählen Sie dieses Feld aus, wenn es in der Liste angezeigt wird.
 
    In dieser Spalte wird der Status der Projekte angezeigt.
 
 1. Wählen Sie **Registerkarte** Filter“ des Berichts aus und klicken Sie dann auf **Filterregel hinzufügen**.
 
-1. Beginnen Sie mit der Eingabe von „Status **in das Feld „Nur Projekte anzeigen, in denen …** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie mit der Eingabe *Status* in das Feld **Nur Projekte anzeigen, in denen …** angezeigt wird, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 1. Wählen Sie **Filtermodifikator &quot;**&quot; aus.
-1. Beginnen Sie, „Angefordert“ in das verfügbare Feld einzugeben.
+1. Beginnen Sie *angefordert* in das verfügbare Feld einzugeben.
 
    Dadurch wird sichergestellt, dass der Bericht nur Projekte mit dem Status Angefordert enthält.
 
@@ -126,15 +126,15 @@ So erstellen Sie einen Bericht für Projekte, für die die Genehmigung ihrer Bus
 1. Klicken Sie **linken Bedienfeld** Business Case“.
 1. Klicken Sie **Bereich** Genehmigen“ oder **Ablehnen**, um den Business Case zu genehmigen oder abzulehnen.
 
-   &lt;!—![Business Case](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   Der Projektstatus wird in &quot;**&quot; geändert** wenn der Business Case genehmigt wurde.
+Der Projektstatus wird in &quot;**&quot; geändert** wenn der Business Case genehmigt wurde.
 
-   Der Projektstatus ändert sich in **Abgelehnt** wenn der Business-Case abgelehnt wird.
+Der Projektstatus ändert sich in **Abgelehnt** wenn der Business-Case abgelehnt wird.
 
-   >[!NOTE]
-   >
-   >Es gibt keine Benachrichtigungen, die den Benutzer, der die Genehmigung des Business-Case eingereicht hat, darüber informieren, ob seine Projektanforderung genehmigt oder abgelehnt wurde.
+>[!NOTE]
+>
+>Es gibt keine Benachrichtigungen, die den Benutzer, der die Genehmigung des Business-Case eingereicht hat, darüber informieren, ob seine Projektanforderung genehmigt oder abgelehnt wurde.
 
 ## Genehmigen des Business Case durch Zugriff auf angeforderte Projekte in einem Portfolio
 

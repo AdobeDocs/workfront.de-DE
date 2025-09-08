@@ -5,9 +5,9 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplane
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
 1. (Optional und bedingt) Wenn die Projektinformationen von einer Initiative im Szenario-Planer veröffentlicht wurden, führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie Ressourcenplaner im Feld **Wählen Sie die Stunden aus, die zur Berechnung der budgetierten Lohnkosten des Projekts verwendet werden sollen** und klicken Sie dann auf **Wählen > Ressourcenbudgetierung bearbeiten**.
+   * Wählen Sie Ressourcenplaner im Feld **Wählen Sie die Stunden aus, die zur Berechnung der budgetierten Lohnkosten des Projekts verwendet werden sollen** und klicken Sie dann auf **Auswählen** > **Ressourcenbudgetierung bearbeiten**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Wenn der Szenario-Planer für die Budgetierung von Ressourcen für das Projekt ausgewählt wurde, klicken Sie auf **Ändern** > **Ressourcenbudgetierung bearbeiten**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Hierbei werden die budgetierten Stunden des Projekts verwendet, um die budgetierten Lohnkosten für das Projekt zu berechnen.
 
@@ -130,7 +130,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
    >
    >Wenn das Projekt bereits mit Ressourcenpools verknüpft ist, wird der Ressourcenplaner standardmäßig angezeigt. Um dem Projekt weitere Ressourcenpools hinzuzufügen, bearbeiten Sie das Projekt. Informationen zum Bearbeiten eines Projekts finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 
    Der Ressourcenplaner wird für das ausgewählte Projekt angezeigt.
 
@@ -158,7 +158,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
 1. Klicken Sie **Heute**, um zum heutigen Zeitrahmen zurückzukehren.
 1. (Optional) Klicken Sie auf **Woche**, **Monat** oder **Quartal**, um Informationen zum Projekt in verschiedenen Zeitrahmen anzuzeigen.
-1. (Optional) Klicken Sie auf das **Stunden** Dropdown-Menü und wählen Sie **Stunden**, **FTE** oder **Kosten**, um die Anzeige von Informationen im Ressourcenplaner zu ändern. Standardmäßig werden Stunden angezeigt.
+1. (Optional) Klicken Sie auf das **Stunden** Dropdown-Menü und wählen Sie **Stunden**, **FTE** oder **Kosten**, um die Anzeige der Informationen im Ressourcenplaner zu ändern. Standardmäßig werden Stunden angezeigt.
 
 1. (Optional) Klicken Sie auf **Exportieren**, um den Ressourcenplaner in eine Excel-Datei zu exportieren.
 
@@ -172,7 +172,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
    * Schätzen Sie die Anzahl der Stunden, FTE oder Kostenwerte für Funktionen, Benutzer oder das Projekt manuell.
 
-     Oder
+     oder
 
    * Klicken Sie auf **Optionen**-Symbol für das Projekt oder die Aufgabengebiete und wählen Sie eine Option aus, um die Stunden für Rollen, Benutzer oder das Projekt automatisch zu budgetieren.
 

@@ -5,9 +5,9 @@ description: Beim Erstellen eines Business Case können Sie eine Reihe von Ziele
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,10 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
 {{step1-to-projects}}
 
 1. Wählen Sie in der Projektliste das Projekt aus, für das Sie Business-Case-Ziele definieren möchten.
+
 1. Klicken Sie im linken Bedienfeld auf **Business Case**. Der Abschnitt **Business-Case** wird angezeigt.
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![Informationen zum Business-Case](assets/business-case-info.png)
 
 1. Klicken **Abschnitt „Ziele** auf **Ziele bearbeiten**.
 
@@ -97,11 +98,11 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
    * Niedrig
    * Minimal
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![Wichtigkeit](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >Die Wichtigkeitsstufen von Zielen können nicht angepasst werden.
+   >[!NOTE]
+   >
+   >Die Wichtigkeitsstufen von Zielen können nicht angepasst werden.
 
 1. (Optional) Um ein weiteres Ziel hinzuzufügen, klicken Sie auf **Weitere Ziele hinzufügen** und wiederholen Sie die Schritte 5 bis 6.
 

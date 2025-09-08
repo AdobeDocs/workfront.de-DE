@@ -6,9 +6,9 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirke
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,18 +86,18 @@ So erstellen oder bearbeiten Sie ein Risiko im Business Case:
 1. Klicken **Abschnitt &quot;**&quot; auf **Risiken bearbeiten**.
 1. Geben Sie die folgenden Informationen ein oder bearbeiten Sie sie:
 
-   * **Beschreibung:** Beschreibung des Risikos.
+   * **Beschreibung:** Beschreiben Sie das Risiko.
 
-   * **Mögliche Kosten**: Geben Sie die geschätzten Kosten an, wenn das Risiko eintreten sollte.
+   * **Mögliche Kosten**: Geben Sie die geschätzten Kosten ein, wenn das Risiko eintreten sollte.
 
-   * **Wahrscheinlichkeit**: Geben Sie die Wahrscheinlichkeit für das Eintreten des Risikos als Prozentwert an.
+   * **Wahrscheinlichkeit**: Geben Sie die Wahrscheinlichkeit für das Eintreten des Risikos als Prozentwert ein.
 
-   * **Typ:** geben an, unter welche Kategorie das Risiko fällt.
+   * **Typ:** Wählen Sie aus, unter welche Kategorie das Risiko fällt.
    * **Minderungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu mindern.
 
-   * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
+   * **Kosten zur Risikominderung**: Geben Sie die Kosten für den Plan zur Risikominderung ein, den Sie erstellen müssen, um das Risiko zu vermeiden.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Risiken](assets/edit-risk.png)
 
 1. (Optional) Klicken Sie auf **Weitere Risiken hinzufügen**, um weitere Risiken hinzuzufügen.
 1. Klicken Sie auf **Speichern**.
@@ -115,13 +115,11 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
    ![Risiken-Abschnitt der Aufgabe](assets/risks-section-on-project-2022.png)
 
-1. Klicken Sie auf **Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten. **Beschreibung** ist ein erforderliches Feld
+1. Klicken Sie auf **Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten.
 
    Oder
 
-   Klicken Sie **Neues Risiko**.
-
-   Das **Neues Risiko** Feld wird geöffnet.
+   Klicken Sie **Neues Risiko**, um das Feld **Neues Risiko** zu öffnen.
 
    ![Neues Risikofeld](assets/new-risk-box.png)
 
@@ -149,9 +147,9 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
 ### Risiken im Risikobereich bearbeiten {#edit-risks-in-the-risks-area}
 
-Sie können Risiken während der Laufzeit eines Projekts bearbeiten, z. B. wenn Änderungen in der Wahrscheinlichkeit, den potenziellen Kosten oder dem Status auftreten.
+Risiken können während der Laufzeit eines Projekts oder bei Änderungen bearbeitet werden (z. B. Änderung der Wahrscheinlichkeit, der potenziellen Kosten oder des Status).
 
-Sie können jeweils nur ein Risiko bearbeiten oder mehrere Risiken zusammen bearbeiten.
+Sie können jeweils nur ein Risiko oder mehrere Risiken gleichzeitig bearbeiten.
 
 Risiken bearbeiten:
 
@@ -172,7 +170,7 @@ Risiken bearbeiten:
    Erwägen Sie, die folgenden Felder zu bearbeiten:
 
    * **Beschreibung**: Bearbeiten Sie die Beschreibung des Risikos.
-   * **Risikotyp**: Geben Sie an, unter welche Kategorie das Risiko fällt.
+   * **Risikotyp**: Aktualisieren Sie, unter welche Kategorie das Risiko fällt.
    * **Wahrscheinlichkeit**: Geben Sie die Wahrscheinlichkeit für das Eintreten des Risikos als Prozentwert an.
    * **Mögliche Kosten**: Geben Sie die geschätzten Kosten an, wenn das Risiko eintreten sollte.
    * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
