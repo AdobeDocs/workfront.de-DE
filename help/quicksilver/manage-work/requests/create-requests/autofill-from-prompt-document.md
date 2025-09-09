@@ -5,7 +5,7 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 2%
@@ -133,7 +133,7 @@ Erstellen Sie eine ähnliche Kampagnenanfrage wie bei der Einführung im 2. Quar
 
 >[!BEGINSHADEBOX]
 
-Verwenden Sie das gleiche Setup, das wir beim Projektstart im letzten Frühjahr (für die Kundenfirma) hatten. Ich möchte eine digitale Werbekampagne mit demselben Executive-Publikum durchführen, aber mit aktualisierten Daten für dieses Quartal.
+Verwenden Sie das gleiche Setup, das wir beim Projektstart (Projektname) im letzten Frühjahr hatten. Ich möchte eine digitale Werbekampagne mit demselben Executive-Publikum durchführen, aber mit aktualisierten Daten für dieses Quartal.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Verwenden Sie das gleiche Setup, das wir beim Projektstart im letzten Frühjahr 
 
 >[!BEGINSHADEBOX]
 
-Bereiten Sie eine Anfrage ähnlich der Sommerförderungskampagne von (Client-Unternehmen) vor, die wir im letzten Jahr ausgeführt haben. Konzentrieren Sie sich auf Social-Media-Assets, behalten Sie Spanisch als primäre Sprache bei und passen Sie das Budget auf 75.000 Dollar an.
+Bereiten Sie eine Anfrage ähnlich der Sommerförderungskampagne vor, die wir im letzten Jahr ausgeführt haben (Kundenfirma). Konzentrieren Sie sich auf Social-Media-Assets, behalten Sie Spanisch als primäre Sprache bei und passen Sie das Budget auf 75.000 Dollar an.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Bereiten Sie eine Anfrage ähnlich der Sommerförderungskampagne von (Client-Unt
 
 >[!BEGINSHADEBOX]
 
-Nehmen Sie die Webinar-Kampagne (Client-Unternehmen) aus dem 1. Quartal als Referenz. Ich möchte denselben Registrierungs-Workflow und dieselben Assets, aber dieses Mal ist das Thema „KI in der Finanzplanung“ und das Publikum sind junge Profis.
+Nehmen Sie die Webinar-Reihe (Name der Kampagne) aus dem 1. Quartal als Referenz. Ich möchte denselben Registrierungs-Workflow und dieselben Assets, aber dieses Mal ist das Thema „KI in der Finanzplanung“ und das Publikum sind junge Profis.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Nehmen Sie die Webinar-Kampagne (Client-Unternehmen) aus dem 1. Quartal als Refe
 
 >[!BEGINSHADEBOX]
 
-Richten Sie eine Kampagnenanfrage wie das von uns behandelte Rebranding-Projekt (Client-Unternehmen) ein, ersetzen Sie jedoch durch (Neue Client-Firma) als Client. Sorgen Sie dafür, dass alle Ergebnisse mit dem Unternehmens-Branding übereinstimmen.
+Richten Sie eine Kampagnenanfrage genauso ein wie das von uns behandelte Rebranding-Projekt (Client-Unternehmen), ersetzen Sie jedoch durch (neues Client-Unternehmen) als Client. Sorgen Sie dafür, dass alle Ergebnisse mit dem Unternehmens-Branding übereinstimmen.
 
 >[!ENDSHADEBOX]
 
