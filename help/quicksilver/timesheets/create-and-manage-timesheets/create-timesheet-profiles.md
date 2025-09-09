@@ -3,19 +3,21 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
 description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen, die ohne weiteres Eingreifen von Ihnen wiederkehrende Arbeitszeittabellen für Ihre Benutzer generieren. Dies spart Ihnen Zeit und sorgt für Konsistenz zwischen den Benutzern.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 1%
+source-wordcount: '1610'
+ht-degree: 2%
 
 ---
 
 # Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
    Um ein vorhandenes Arbeitszeittabellen-Profil zu bearbeiten, wählen Sie das zu bearbeitende Arbeitszeittabellen-Profil aus und klicken Sie dann auf **Bearbeiten**.
 
-   Das neue oder vorhandene Arbeitszeittabellen-Profil wird angezeigt.
+   Die Seite mit dem neuen oder vorhandenen Arbeitszeittabellen-Profil wird angezeigt.
 
 
-1. Klicken Sie auf **Details festlegen** und aktualisieren Sie dann die folgenden Informationen:
+1. Klicken Sie auf **Details festlegen** und aktualisieren Sie dann die folgenden Informationen: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Name</strong> </td> 
-      <td> <p> Fügen Sie einen Namen für das Arbeitszeittabellen-Profil hinzu. Dabei kann es sich um den Namen eines Teams oder einer Gruppe handeln, dessen Personen für ihre Arbeitszeittabellen denselben Zeitrahmen verwenden. </p> </td> 
+      <td> <p> Fügen Sie einen Namen für das Arbeitszeittabellen-Profil hinzu. Dabei kann es sich um den Namen eines Teams oder einer Gruppe handeln, dessen Personen für ihre Arbeitszeittabellen denselben Zeitrahmen verwenden. </p> <p>Dies ist ein Pflichtfeld.</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader"><strong>Gruppe mit Administratorzugriff</strong> </td> 
+   <td role="rowheader"><strong>Gruppe mit Administratorzugriff</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>Wenn Sie ein Arbeitszeittabellen-Profil auf Systemebene erstellen, lassen Sie dieses Feld leer.</p> <p>Jeder Benutzer, der Benutzerkonten bearbeiten kann, kann anderen Benutzern eine Arbeitszeittabelle auf Systemebene anhängen.</p> <p>Nur ein Workfront-Administrator kann ein Arbeitszeittabellen-Profil auf Systemebene bearbeiten.</p> </li> 
@@ -132,7 +132,7 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
 
    <p><b>HINWEIS</b>: Workfront erstellt immer zwei Arbeitszeittabellen gleichzeitig: Die erste Arbeitszeittabelle enthält immer das aktuelle Datum, und die zweite Arbeitszeittabelle beginnt, wenn der Zeitrahmen der ersten endet.</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Genehmigende Personen</strong></p> </td> 
       <td> <p> <p>Genehmigende Personen sind Benutzer, die die Arbeitszeittabelle für die mit der Arbeitszeittabelle verbundenen Benutzer genehmigen. Sie können bis zu 7 Benutzer in einer Arbeitszeittabelle als genehmigende Personen angeben. Die Identifizierung mehrerer Benutzer ist nützlich, um sicherzustellen, dass eine genehmigende Person verfügbar ist, wenn jemand abwesend ist. Alle genehmigenden Personen werden benachrichtigt, wenn ein Benutzer die Arbeitszeittabelle zur Genehmigung einreicht. Nur ein Benutzer muss die Arbeitszeittabelle genehmigen, damit sie genehmigt werden kann.</p> <p>Nur Benutzer mit Verwaltungsrechten für Arbeitszeittabellen können als genehmigende Personen festgelegt werden. Weitere Informationen zu Arbeitszeittabellen-Administratorrechten finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> <p>Wählen Sie im Dropdown-Menü die genehmigende Person für die Arbeitszeittabelle aus (wenn eine genehmigende Person erforderlich ist). Sie können aus den folgenden Optionen auswählen:</p> 
@@ -146,9 +146,9 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
       <td role="rowheader"><strong>Kann </strong> bearbeiten </td> 
       <td> <p> <p>Wählen Sie diese Option aus, damit die genehmigenden Personen Stunden auf der Arbeitszeittabelle bearbeiten können.
 
-   Diese Option funktioniert zusammen mit der Einstellung **Bearbeitung von Arbeitszeittabellen auf Inhaber und Administratoren beschränken** im Bereich Setup > Arbeitszeittabellen und Stunden > Voreinstellungen. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren</a>.
+   <p>Diese Option funktioniert zusammen mit der Einstellung **Bearbeitung von Arbeitszeittabellen auf Inhaber und Administratoren beschränken** im Bereich Setup &gt; Arbeitszeittabellen und Stunden &gt; Voreinstellungen. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren</a>.</p>
 
-   Die folgenden Szenarien sind vorhanden:
+   <p>Die folgenden Szenarien sind vorhanden: </p>
 
    <ul>
       <li>Wenn die <b>Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken</b> aktiviert ist:</li>
@@ -177,12 +177,16 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
    <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
-      <td>Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Diese Option ist standardmäßig deaktiviert.</td> 
+      <td>Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Standardmäßig ist diese Option deaktiviert.</td> 
      </tr> 
     </tbody> 
     </table>
 
-1. Klicken Sie auf **Registerkarte** Personen zuweisen“, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Klicken Sie auf **Registerkarte** Personen zuweisen“, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. <!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [ für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
 
@@ -229,4 +233,4 @@ Sie können über mehr als ein Arbeitszeittabellen-Profil für Ihre Organisation
 * Eindeutige genehmigende Personen für verschiedene Benutzergruppen
 * Eindeutige allgemeine Stundenanforderungen für verschiedene Benutzergruppen
 
-Ein Benutzer kann nicht gleichzeitig mit mehr als einem Arbeitszeittabellen-Profil verknüpft werden. 
+Ein Benutzer kann nicht gleichzeitig mit mehr als einem Arbeitszeittabellen-Profil verknüpft werden.

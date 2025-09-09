@@ -4,9 +4,9 @@ description: Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Ihr Unternehmen muss die folgenden Anforderungen erfüllen, damit die Integratio
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen und Ereignisse</li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
+   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ Je nachdem, über wie viele Workfront-Instanzen Ihr Unternehmen verfügt, haben 
     <td role="rowheader"><p>Eine Instanz von Workfront</p></td> 
    <td> 
 <p>Der GenStudio-Arbeitsbereich ist in Ihrer Instanz von Workfront Planning sichtbar</p>
-<p>Workfront-Administratoren verfügen über Verwaltungsberechtigungen für den GenStudio-Arbeitsbereich in Planning</p>
-<p>Alle anderen Benutzenden haben in Planning den Zugriff Beitragen zum GenStudio-Arbeitsbereich</p>
+<p>Alle Benutzenden, einschließlich Workfront-Administratoren, haben standardmäßig Beitragszugriff auf den GenStudio-Arbeitsbereich in Planning</p>
+<p>Workfront-Admins können für den GenStudio-Arbeitsbereich für jeden Benutzer Berechtigungen zum Verwalten ändern und erteilen</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Mehrere Instanzen von Workfront</p> </td> 
    <td> 
    <p>Der GenStudio Workspace ist in allen Workfront-Instanzen sichtbar</p>
-<p>Alle Benutzenden mit Zugriff auf GenStudio for Performance Marketing und Workfront Planning haben Beitragsberechtigungen für GenStudio in Planning</p> </td> 
+<p>Alle Benutzenden mit Zugriff auf GenStudio for Performance Marketing und Workfront Planning haben standardmäßig Beitragsberechtigungen für GenStudio in Planning</p> 
+<p>Workfront-Admins können niemandem Verwaltungsberechtigungen für den GenStudio-Arbeitsbereich erteilen</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ In den folgenden Abschnitten werden die folgenden Themen beschrieben:
    * Bearbeiten von Informationen zu GenStudio-Datensatztypen (ihr Erscheinungsbild, erweiterte Einstellungen).
    * GenStudio-Datensatztypen für andere freigeben.
    * Datensatztypen erstellen. Diese Datensatztypen verbleiben nur in Workfront Planning. Sie werden in GenStudio nicht angezeigt.
+   * Aktivieren von Datensätzen aus GenStudio Workspace, um eine Verbindung von anderen Workspaces herzustellen.
+   * Aktivieren Sie das Hinzufügen von Datensätzen aus dem GenStudio-Arbeitsbereich zu anderen Arbeitsbereichen.
 * Wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich in Planning verfügen, können Sie die GenStudio-Datensatztypen in Planning nicht ändern.
 
 ### Datensätze im GenStudio Workspace

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -94,3 +94,5 @@ Sie können in Adobe Workfront Planning neue Felder hinzufügen, die den Lebensz
 * Feldnamen können bis zu 250 Zeichen lang sein.
 
 * Beim Löschen eines Datensatztyps oder Arbeitsbereichs werden auch alle mit ihnen verknüpften Felder sowie die Werte der Felder gelöscht und können nicht wiederhergestellt werden. <!-- this might change with a possible recycle bin solution?!-->
+* Wenn Sie Felder löschen, die Teil eines Formelausdrucks sind, ändert sich das Formelfeld.
+* Wenn Sie einen Formelausdruck ändern und dieses Formelfeld in anderen Formelfeldern referenziert wird, sind auch die zusätzlichen Formeln betroffen.
