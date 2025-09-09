@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 >* Produktions-Schnellveröffentlichung: 11. September 2025
 >* Produktion für alle Kunden: 16. Oktober 2025
 
-Um das einheitliche Anfrageerlebnis zu vereinfachen, zeigt die Spalte Status jetzt sowohl den Anfragestatus als auch den Genehmigungsstatus an, je nachdem, was für eine bestimmte Anfrage gilt.
+Um das einheitliche Anfrageerlebnis zu vereinfachen, zeigt die Spalte Status jetzt sowohl Anfragestatus als auch Genehmigungsstatus an, je nachdem, was für eine bestimmte Anfrage gilt.
 
 Weitere Informationen zum Erstellen von Anfragen finden Sie unter:
 
