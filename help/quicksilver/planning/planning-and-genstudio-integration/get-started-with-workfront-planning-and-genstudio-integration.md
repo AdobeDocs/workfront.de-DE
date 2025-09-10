@@ -103,7 +103,7 @@ Ihr Unternehmen muss die folgenden Anforderungen erfüllen, damit die Integratio
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
+   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
    </p>
   </td> 
   </tr>   
