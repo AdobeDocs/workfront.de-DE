@@ -6,7 +6,7 @@ description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder ein
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 2%
@@ -106,7 +106,7 @@ Die Meilenstein -Ansicht ist in Projektlisten und Projektberichten verfügbar. S
 
 Informationen zum Wechseln zur Meilenstein -Ansicht finden Sie im Abschnitt [Wechseln zur Meilenstein -](#switch-to-the-milestone-view) in diesem Artikel.
 
-<!--add new screen shot-->
+<!--add new screen shot for preview or prod release-->
 
 ![Projekt mit Meilenstein-Ansicht](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 
   Sie können den Prozentsatz der Fertigstellung direkt in der Ansicht Meilenstein anpassen, wie im Abschnitt [Anpassen des Prozentsatzes der Fertigstellung für Aufgaben in der Ansicht Meilenstein](#adjust-percent-complete-for-tasks-in-the-milestone-view) in diesem Artikel beschrieben.
 
-* **Symbole für den Aufgabenstatus:** Neben jedem Projekt und jeder Aufgabe wird in der Ansicht Meilenstein ein Statussymbol angezeigt. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Symbole für den Aufgabenstatus:** Neben jedem Projekt und jeder Aufgabe wird in der Ansicht Meilenstein ein Statussymbol angezeigt. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -200,7 +200,7 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 
    * Den Spalten Start und Abschluss wird keine Farbschattierung zugewiesen, wenn die Aufgaben den Verlaufsstatus Gefährdet oder Hinten aufweisen.
 
-  <!--add new screen shot-->
+  <!--add new screen shot for preview or prod release-->
 
   ![Meilensteinansicht mit Schattierung](assets/milestone-view-with-shading.png)
 
@@ -240,7 +240,7 @@ So konfigurieren Sie, ob Projektstatussymbole und der Prozentsatz der Projektabs
 1. Klicken Sie auf **Dropdown** Menü „Ansicht“ und dann auf **Meilenstein**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Klicken Sie **Optionen** in der oberen rechten Ecke der Ansicht Meilenstein .
+1. <!--In the Production environment,--> Klicken Sie **Optionen** in der oberen rechten Ecke der Ansicht Meilenstein .
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ So passen Sie den abgeschlossenen Prozentsatz für eine Aufgabe in der Ansicht M
 
 1. (Bedingt) Wenn die Abschlussprozentsätze in der Meilenstein -Ansicht nicht aktuell sind, aktivieren Sie die Anzeige des Prozentsatzes der abgeschlossenen Aufgaben und Projekte, wie im Abschnitt [Konfigurieren der Informationen, die in der Meilenstein -Ansicht angezeigt werden](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.
 
-1. &#x200B;<!--In the Production environment,--> Klicken Sie unter einer Aufgabe auf den Fertigstellungsprozentsatz, geben Sie einen neuen Prozentsatz an und drücken Sie dann die Eingabetaste.
+1. <!--In the Production environment,--> Klicken Sie unter einer Aufgabe auf den Fertigstellungsprozentsatz, geben Sie einen neuen Prozentsatz an und drücken Sie dann die Eingabetaste.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

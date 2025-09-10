@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ Weitere Informationen zum Verwalten von Workfront Planning-Datensatzansichten fi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -73,8 +73,8 @@ Weitere Informationen zum Verwalten von Workfront Planning-Datensatzansichten fi
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -119,7 +119,7 @@ Weitere Informationen zum Verwalten von Workfront Planning-Datensatzansichten fi
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Überlegungen beim Arbeiten mit Datensatzansichten
 
@@ -170,6 +170,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 | Datensätze nach Woche anzeigen |           |               | ✓ |
 | Exportieren von Informationen aus einer Ansicht | ✓ |               |    |
 | <span class="preview">Im Vollbildmodus anzeigen</span> | ✓ | ✓ | ✓ |
+| <span class="preview">Erstellen von Datensätzen in der Ansicht</span> | ✓ | ✓ | ✓ |
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
 1. Klicken Sie auf **+ Ansicht**, um eine neue Ansicht hinzuzufügen.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Wählen Sie aus den folgenden Ansichtstypen:
 
    * Tabelle
@@ -206,6 +213,8 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 >
 >Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
 >
+
+<!-- replace screen shot at production??-->
 
 ![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)
 

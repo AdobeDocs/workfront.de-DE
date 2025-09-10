@@ -3,7 +3,7 @@ title: Übersicht über zentralisierte Datensatztypen
 description: Zentralisierte Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Der für die Zentralisierung konfigurierte Datensatztyp weist die folgenden Eige
 
    * Bearbeiten
 
-     Sie können weder das Erscheinungsbild, noch die Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace importiert wurden.
+     Sie können weder sein Erscheinungsbild noch seine Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace hinzugefügt wurden.
    * Anfrageformulare erstellen
    * Anfrageformulare verwalten
 

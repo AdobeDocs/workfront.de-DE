@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -246,6 +246,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 1. <span class="preview">Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes und klicken Sie, ziehen Sie den Rand per Drag-and-Drop an ein anderes Datum. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
 
    <span class="preview">![Leiste am linken Ende der Zeitleisten-Ansicht, um die Größe zu ändern](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 2%
 
 ---
@@ -114,13 +114,6 @@ Beachten Sie Folgendes:
    * Wenn das Start- oder Enddatum keinen Wert hat
    * Wenn das Startdatum nach dem Enddatum liegt
 
-<div class="preview">
-
-* Sie können Datensätze in der Zeitleisten -Ansicht erstellen und bearbeiten. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-* Sie können die Größe der Balken der Datensätze in der Zeitleisten -Ansicht ändern, indem Sie darauf klicken und dann ihre Ränder an eine neue Position ziehen und ablegen. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- und Enddatum sofort aktualisiert. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 So verwalten Sie eine Zeitleisten -Ansicht:
 
 1. Navigieren Sie zur Seite für den Datensatztyp, für den Sie die Zeitleiste anzeigen möchten.
@@ -203,6 +196,20 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 1. (Optional) Klicken Sie auf **Aufschlüsselung**, um verbundene Datensätze in der Zeitleiste anzuzeigen.
 
    Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion zum Anzeigen verbundener Datensätze in der Zeitleisten](#break-down-connected-records-in-the-timeline-view) in diesem Artikel.
+1. <span class="preview">Führen Sie einen der folgenden Schritte aus, um Datensätze in der Zeitleisten-Ansicht zu erstellen oder ihre Daten zu bearbeiten:</span>
+
+   * <span class="preview">Doppelklicken Sie auf eine beliebige Stelle in der Zeitleiste, um einen Datensatz zu erstellen. </span>
+
+     <span class="preview">Weitere Informationen finden Sie unter [Erstellen von ](/help/quicksilver/planning/records/create-records.md)</span>
+
+   * <span class="preview">Klicken Sie auf das Ende einer Datensatzleiste und ziehen Sie sie per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- und Enddatum sofort aktualisiert. </span>
+
+     <span class="preview">Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### Filter hinzufügen
 
@@ -522,7 +529,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
