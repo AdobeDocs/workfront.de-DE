@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebni
 * Spalten in der Liste der gesendeten Anfragen ausblenden und neu anordnen.
 
 Dieses Update enthält auch Änderungen am Erscheinungsbild der Seite.
+
+Beachten Sie bei der Verwendung des neuen Erlebnisses Anfordern Folgendes:
+
+* Entwürfe befinden sich nun in derselben Liste wie die gesendeten Anfragen
+* Die neue -Version zeigt derzeit nur Anfragen an, die in den letzten 1,5 Monaten erstellt wurden. Um ältere Anfragen anzuzeigen, können Sie das neue Erlebnis vorübergehend deaktivieren und über das alte Erlebnis auf die älteren Anfragen zugreifen.
 
 Zuvor befanden sich Workfront- und Workfront-Planungsanfragen auf separaten Registerkarten, und die Filter konnten nicht angepasst werden.
 

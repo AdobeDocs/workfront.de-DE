@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,8 @@ Um Workfront und Workfront Planning nahtloser zu gestalten, haben wir das Widget
 
 Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird. Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
 
+Das neue Widget Meine Anfragen zeigt nur die Anfragen an, die in der neuen Anfrageerfahrung erstellt wurden.
+
 Weitere Informationen zum neuen Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+Die Versionshinweise für das neue anfordernde Erlebnis finden Sie unter [Aktualisierungen an der anfordernden Erfahrung](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).
