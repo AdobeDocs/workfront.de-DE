@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,11 @@ Weitere Informationen zum Festlegen von Systemvoreinstellungen finden Sie [Konfi
 Voraussetzungen für die Aktivierung von KI-Funktionen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 ## Aktualisierungen des Workfront-Benutzerprofils
+
+>[!IMPORTANT]
+>
+>Dieses Update wurde vorübergehend aus der Vorschau und Produktion entfernt.
+
 
 >[!NOTE]
 >
