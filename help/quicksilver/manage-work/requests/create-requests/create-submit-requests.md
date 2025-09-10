@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 1%
 
 ---
@@ -163,6 +163,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    >* <span class="preview">Die Liste enthält sowohl Workfront-Anfragewarteschlangen als auch Workfront Planning-Anfrageformulare.</span>
    >* <span class="preview">Sie können die Liste nach Objekttyp filtern.</span>
    >* <span class="preview">Um nur Workfront-Anfrage-Warteschlangen anzuzeigen, filtern Sie nach `Issue` Objekttypen.</span>
+   >* <span class="preview">In der neuen anfordernden Version befinden sich Entwürfe in derselben Liste wie gesendete Anfragen.</span>
 
 1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, die Workfront Planning enthält, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
 

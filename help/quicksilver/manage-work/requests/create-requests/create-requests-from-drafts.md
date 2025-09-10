@@ -6,14 +6,16 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
 # Anforderungen aus Entwürfen erstellen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
 Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei der Eingabe einer neuen Anfrage vorschlägt, können Sie auch über den Abschnitt „Entwürfe“ auf eine Entwurfsanfrage zugreifen und die Übermittlung dort abschließen.
 
@@ -105,3 +107,9 @@ Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen k�
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Wenn Sie die Anfrage senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
+
+   >[!NOTE]
+   >
+   >* <span class="preview">In der neuen anfordernden Version befinden sich Entwürfe in derselben Liste wie gesendete Anfragen.</span>
+   ><span class="preview">Weitere Informationen zum Erstellen von Anfragen in der neuen -Version finden Sie unter [Erstellen von Anfragen und Generieren von Entwürfen in der Workfront-Web](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app)App im Artikel Erstellen und Senden von Anfragen.</span>
+
