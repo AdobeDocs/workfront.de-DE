@@ -1,10 +1,12 @@
 ---
 title: Verwalten von GenStudio Workspace in Adobe Workfront Planning
 description: Der GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe Workfront Planning verfügbar, wenn Ihr Unternehmen beide Produkte gekauft hat und Ihre Workfront-Instanz in die GenStudio-Instanz Ihres Unternehmens integriert ist. Sie können den GenStudio-Arbeitsbereich unter „Planung“ anzeigen und Informationen in beiden Systemen aktualisieren.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
 >[!IMPORTANT]
 >
 >Die in diesem Artikel beschriebenen Schritte veranschaulichen, wie Sie den GenStudio-Arbeitsbereich in Workfront Planning aktualisieren können, wenn Sie über Verwaltungsberechtigungen für ihn verfügen.
->&#x200B;> Nicht alle Funktionen sind verfügbar, wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich verfügen.
+>> Nicht alle Funktionen sind verfügbar, wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich verfügen.
 >
 >Wenn Ihr Unternehmen über mehrere Instanzen von Workfront verfügt, erhalten alle Benutzenden Beitragsberechtigungen für den GenStudio-Arbeitsbereich in Workfront Planning.
 
@@ -79,7 +81,7 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
+   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
    </p>
   </td> 
   </tr>   

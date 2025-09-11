@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '990'
 ht-degree: 5%
 
 ---
@@ -113,17 +113,16 @@ Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder er
   Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 * Sie können Formelfelder in neuen Formeln referenzieren. Sobald der Wert in einem Feld aktualisiert wird, auf das in einem Formelfeld verwiesen wird, werden alle nachfolgenden Felder, die auf dieses Feld oder Formelfelder verweisen, die dieses Feld enthalten, automatisch aktualisiert.
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* Wenn Sie ein Formelfeld oder ein Feld aktualisieren, das Auswirkungen darauf haben könnte, werden Sie durch einen Warnhinweis über die Auswirkungen Ihrer Änderung informiert. Der Warnhinweis wird in den folgenden Fällen angezeigt:
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * Wenn Sie ein Formelfeld aktualisieren (mit Ausnahme von Namen- und Beschreibungsänderungen), wenn dieses Feld abhängige Formelfelder oder Suchfelder enthält. Der Warnhinweis listet diese abhängigen Felder auf und fragt Sie, ob Sie fortfahren möchten.
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * Wenn Sie ein Feld löschen, das in einem Formelausdruck oder als Suchfeld verwendet wird. Der Warnhinweis listet die abhängigen Formel- und Lookup-Felder auf und fragt Sie, ob Sie mit der Löschung fortfahren möchten.
 
 </div>
--->
+
 
 
 <div class="preview">

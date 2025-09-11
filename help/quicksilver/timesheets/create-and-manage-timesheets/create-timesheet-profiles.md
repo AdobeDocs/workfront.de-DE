@@ -6,9 +6,9 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1695'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--at the Prod release, remove the Production and Preview references from this article-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen, die ohne weiteres Eingreifen von Ihnen wiederkehrende Arbeitszeittabellen für Ihre Benutzer generieren. Dies spart Zeit und stellt sicher, dass Folgendes zwischen den Benutzern konsistent ist:
 
@@ -67,7 +67,7 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
 ## Arbeitszeittabellen-Profil erstellen oder bearbeiten
 
-<!--
+<!--Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
@@ -182,9 +182,9 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
     </tbody> 
     </table>
 
-1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Klicken Sie auf **Registerkarte** Personen zuweisen“, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. <!--Keep the reference to the group upon release to Prod-->
+1. Klicken Sie in der Produktionsumgebung oder beim Erstellen von Arbeitszeittabellenprofilen auf Gruppenebene auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellenprofil mit bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zu verknüpfen. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+   <span class="preview">Scrollen Sie in der Vorschau-Umgebung beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
