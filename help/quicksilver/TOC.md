@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
 workflow-type: tm+mt
-source-wordcount: '13489'
+source-wordcount: '13494'
 ht-degree: 2%
 
 ---
@@ -1027,6 +1027,7 @@ ht-degree: 2%
       * [Löschen oder Archivieren einer Karte von einer Pinnwand](agile/get-started-with-boards/delete-board-items.md)
       * [Filtern und Suchen in einer Pinnwand](agile/get-started-with-boards/filter-search-in-board.md)
       * [Tags hinzufügen](agile/get-started-with-boards/add-tags.md)
+      * [Verwalten der Pinnwand-Administratoransicht](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [Pinnwände - E-Mail-Benachrichtigungen und Voreinstellungen](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Verwenden von Agile-Planungs-Tools in Pinnwänden {#agile-planning-boards}
       * [Übersicht über Agile-Planungs-Tools: Artikelindex](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
