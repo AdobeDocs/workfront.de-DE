@@ -8,16 +8,16 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: fec9f895113600ff6ccc795a94019a473793a226
+source-git-commit: 49a8f32b45aaf9de0274617714ad7cd45b4e7e74
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Workfront Data Connect
 
-Workfront Data Connect bietet einen beispiellosen Zugriff auf Workfront-Daten mithilfe der Snowflake-Technologie, sodass Sie geschäftskritische Fragen beantworten und den Wert Ihrer Prozesse messen können. Mit dieser Funktion können Unternehmenskunden ihre Daten mithilfe von Datenvisualisierungs-Tools direkt aus einem Data Lake von Workfront abfragen oder Workfront-Daten in ein kundeneigenes Data Warehouse exportieren.
+Workfront Data Connect ermöglicht den Zugriff auf Workfront-Daten mithilfe der Snowflake-Technologie, sodass Sie geschäftskritische Fragen beantworten und den Wert Ihrer Prozesse messen können. Mit dieser Funktion können Unternehmenskunden ihre Daten mithilfe von Datenvisualisierungs-Tools direkt aus einem Data Lake von Workfront analysieren oder Workfront-Daten in ein kundeneigenes Data Warehouse exportieren.
 
 Abonnenten können ihr bevorzugtes Business Intelligence-Tool (Tableau, Power BI, Domo, Looker usw.) mit Data Connect verbinden, um Datenvisualisierungen mit den folgenden Datentypen zu erstellen:
 
