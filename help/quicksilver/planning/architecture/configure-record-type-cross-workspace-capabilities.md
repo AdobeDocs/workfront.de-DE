@@ -4,9 +4,9 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Ein Workspace-Manager kann einem von ihm verwalteten Workspace einen zentralen D
 
 Benutzer können Datensätze zu einem zentralisierten Datensatztyp aus jedem Arbeitsbereich hinzufügen, für den sie über Beitragsberechtigungen verfügen, und wo der zentralisierte Datensatztyp hinzugefügt wird, einschließlich des ursprünglichen Arbeitsbereichs. Sie können Datensätze aus dem Arbeitsbereich anzeigen, für den sie nur über die Berechtigung Anzeigen verfügen.
 
-Weitere Informationen finden Sie unter [Übersicht über zentralisierte Datensatztypen](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+Weitere Informationen finden Sie unter [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 So konfigurieren Sie das Hinzufügen eines Datensatztyps als zentralisierten Datensatztyp:
 
@@ -179,7 +179,7 @@ oder
      Dieses Feld ist schreibgeschützt und kann nicht gelöscht werden.
 1. (Optional) Wechseln Sie zu einem anderen Arbeitsbereich und erstellen Sie einen Datensatztyp mithilfe eines vorhandenen Datensatztyps. Wählen Sie den Datensatztyp aus, den Sie in den obigen Schritten aktiviert haben.
 
-   Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+   Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Konfigurieren verbindbarer Datensatztypen
 

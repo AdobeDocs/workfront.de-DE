@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '700'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,9 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um auf Workfront Plann
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>Workfront Planning ist nicht für veraltete Workfront-Pakete verfügbar</p>
-<ul><li><p>Beliebiges Planungspaket</p></li></ul>
+<p>Eines der folgenden Planungspakete:</p>
+<ul><li><p>Workfront Planning</p></li>
+<li><p>Workfront Planning Plus</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p>
    </td>
 <tr>

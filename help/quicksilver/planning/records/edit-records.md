@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,6 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
 
 +++   
 
-
 ## Überlegungen zum Bearbeiten von Datensätzen
 
 * Sie können von Ihnen erstellte oder von anderen erstellte Datensätze bearbeiten, wenn Sie über Berechtigungen für den Arbeitsbereich verfügen.
@@ -106,18 +105,7 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
    * Vorschau des Datensatzes in einer Datensatzansicht
    * Die Detailseite des Datensatzes
    * Inline, in einer Tabellenansicht.
-<!--* You can edit a record's dates from the following areas:
-        * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars</span>
-         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
-
-<!-- when drag and drop is available replace the last 2 points with this:
-
-* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
-* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
-    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
--->
+   * <span class="preview"> Die Kalender- und Timeline-Ansicht bei der Größenänderung <!--or dragging and dropping--> Datensätze. Dadurch werden die Daten der Datensätze aktualisiert.</span>
 
 * Wenn ein(e) Benutzende(r) einen Datensatz in einer Ansicht bearbeitet, sind die Änderungen sofort in allen Ansichten und auf den Datensatzseiten für alle anderen Benutzenden sichtbar.
 
@@ -258,10 +246,17 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 <!--add another step about drag and drop here when that is available-->
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Kalenderansicht. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. (Bedingt) Wählen Sie **Monat** im Dropdown-Menü oben rechts aus.
-1. <span class="preview">Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes, klicken Sie, ziehen Sie die Ränder und legen Sie sie an einem anderen Datum ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
+1. <span class="preview">(Bedingt) Bewegen Sie den Mauszeiger in der monatlichen Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf ein anderes Datum, ziehen Sie die Ränder und legen Sie sie ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
 
    <span class="preview">![Leiste am linken Ende der Kalenderansicht, deren Größe geändert werden soll](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+
+   <!--At preview release, add one of the following depending on which one is releasing: 
+    Scenario one: only drag and drop in the weekly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario two: only drag and drop in the monthly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
+    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 

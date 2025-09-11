@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13497'
 ht-degree: 2%
 
 ---
@@ -2078,9 +2078,9 @@ ht-degree: 2%
       * [Übersicht über Datensatztypen](planning/architecture/overview-of-record-types.md)
       * [Datensatztypen erstellen](planning/architecture/create-record-types.md)
       * [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
-      * [Übersicht über zentralisierte Datensatztypen](planning/architecture/centralized-record-types-overview.md)
+      * [Übersicht über arbeitsbereichsübergreifende Datensatztypen](planning/architecture/cross-workspace-record-types-overview.md)
       * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [Hinzufügen vorhandener Datensatztypen](planning/architecture/add-cross-workspace-record-types.md)
+      * [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [Verbinden von Datensatztypen - Übersicht](planning/architecture/connect-record-types-overview.md)
       * [Verbinden von Datensatztypen](planning/architecture/connect-record-types.md)
       * [Datensatztypen bearbeiten](planning/architecture/edit-record-types.md)
