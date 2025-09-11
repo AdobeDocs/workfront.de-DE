@@ -44,7 +44,7 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
 >[!IMPORTANT]
 >
 >Die in diesem Artikel beschriebenen Schritte veranschaulichen, wie Sie den GenStudio-Arbeitsbereich in Workfront Planning aktualisieren können, wenn Sie über Verwaltungsberechtigungen für ihn verfügen.
->> Nicht alle Funktionen sind verfügbar, wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich verfügen.
+>&#x200B;> Nicht alle Funktionen sind verfügbar, wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich verfügen.
 >
 >Wenn Ihr Unternehmen über mehrere Instanzen von Workfront verfügt, erhalten alle Benutzenden Beitragsberechtigungen für den GenStudio-Arbeitsbereich in Workfront Planning.
 
