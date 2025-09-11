@@ -7,9 +7,9 @@ description: Sie können verschiedene Arten von Dateien für Ihre Reviewer freig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,12 @@ Für Workfront gelten die folgenden Beschränkungen:
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-Präsentation
+
+  >[!NOTE]
+  >
+  >Es gibt ein bekanntes Problem mit PowerPoint-Präsentationsdateien, die derzeit nicht hochgeladen werden können. Wenn dieses Problem auftritt, konvertieren Sie die Datei in PDF und laden Sie stattdessen die PDF hoch. Weitere Informationen finden Sie unter [Korrekturabzüge: Aus einer PowerPoint-Datei kann kein Korrekturabzug generiert werden](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+
+
 * PPTX - PowerPoint Presentation 2007 PS - PostScript-Datei
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
