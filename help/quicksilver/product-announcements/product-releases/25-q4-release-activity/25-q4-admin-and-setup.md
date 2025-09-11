@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Neue Pinnwand-Administratoransicht
+
+>[!NOTE]
+>
+>* Vorschau: 11. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Die Admin-Ansicht der Pinnwände enthält eine Liste aller Pinnwände in Ihrem Konto, die Systemadministratoren verwenden können, um einen schnellen Überblick über die gesamten Pinnwand-Details zu erhalten, einschließlich des Zeitpunkts der letzten Aktualisierung, der Anzahl der Karten, die jede Karte hat, und mehr.
+
+Weitere Informationen finden Sie unter [Verwalten der Pinnwand-Administratoransicht](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Aktivieren der KI-Beta-Funktionen für Ihr Unternehmen
 

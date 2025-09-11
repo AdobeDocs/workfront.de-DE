@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Auf dieser Seite werden die Projektverbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Neue Projektintegrität - Beta
+
+>[!NOTE]
+>
+>* Vorschau: 11. September 2025
+>* Produktion für alle Kunden: 11. September 2025
+
+Die neue Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit des KI-Assistenten, um Ihnen sofort einen Überblick darüber zu geben, wie Ihre Projekte funktionieren und welche Bereiche Ihrer Aufmerksamkeit bedürfen.
+
+Der KI-Assistent kann eine Bewertung des Projektzustands für ein Projekt, ein Programm und mehrere Projekte generieren.
+
+Weitere Informationen finden Sie unter [Projektdiagnose - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+Diese Funktion befindet sich derzeit in der Betaphase.
 
 <!--
 ## Create project intake forms in Workfront

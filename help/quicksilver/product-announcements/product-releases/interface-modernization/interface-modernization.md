@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierungen der Benutzeroberfläche beim Hinzufügen oder Bearbeiten eines Arbeitszeittabellen-Profils im Bereich „Setup“
+
+**Vorschau-Version: 11. September 2025; Produktions-Version: 18. September 2025**
+
+Das Erscheinungsbild der Seite „Arbeitszeittabellen-Profil“ wurde aktualisiert, wenn ein systemweites Arbeitszeittabellen-Profil bearbeitet oder hinzugefügt wird.
+
+Um diese Änderungen anzuzeigen, wählen Sie Einrichtung > Arbeitszeittabelle und Stunden > Arbeitszeittabellen-Profile und fügen Sie entweder ein neues Profil hinzu oder bearbeiten Sie ein vorhandenes.
+
+Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Felder „Neue Scorecard“ und „Scorecard kopieren“
 
@@ -153,6 +163,14 @@ Für die Bearbeitung von Portfolios im Feld Portfolio bearbeiten wurden Benutzer
 Weitere Informationen finden Sie unter [Portfolios bearbeiten](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
 ## Projekte
+
+### Aktualisierungen der Benutzeroberfläche für eine Projektliste oder einen Bericht beim Anwenden der Meilenstein -Ansicht
+
+**Vorschau-Version: 11. September 2025; Produktions-Version: 18. September 2025**
+
+Das Erscheinungsbild einer Projektliste oder eines Berichts wurde aktualisiert, wenn Sie die Ansicht Meilenstein auf sie anwenden.
+
+Die Projektliste oder der Bericht stimmt nun mit dem Design anderer Bereiche von Workfront überein. Weitere Informationen finden Sie unter [Verwenden der Meilenstein -Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### Änderungen an der Benutzeroberfläche für das Konvertieren einer Aufgabe in ein Projekt ohne Vorlage
 
@@ -357,6 +375,18 @@ Weitere Informationen finden Sie unter
 * [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Benutzende
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
 
