@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 3d5dc51c519c7880e7a159fd26420bbd5ec18b6b
 workflow-type: tm+mt
-source-wordcount: '13497'
+source-wordcount: '13503'
 ht-degree: 2%
 
 ---
@@ -440,6 +440,7 @@ ht-degree: 2%
          * [Geschäftsregeln erstellen und bearbeiten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Konfigurieren von Speicherorten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
+         * [Importieren von Tarifkarten aus einer Vorlage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
       * Zeitpläne und Arbeitszeittabellen-Voreinstellungen konfigurieren {#configure-timesheets-schedules}
          * [Zeitpläne und Arbeitszeittabellen-Voreinstellungen konfigurieren](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Zeitpläne - Übersicht](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
