@@ -5,9 +5,9 @@ title: Verwalten der Pinnwand-Administratoransicht
 description: Die Admin-Ansicht der Pinnwände enthält eine Liste aller Pinnwände in Ihrem Konto, die Systemadministratoren verwenden können, um einen schnellen Überblick über die gesamten Pinnwand-Details zu erhalten.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
@@ -38,8 +38,13 @@ In diesem Bereich können Sie die folgenden Aktionen ausführen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher </p>
-        <p> Anfrage oder höher </p></td> 
+   <td> <p>Standard</p>
+        <p> Plan </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Systemadministrator </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
