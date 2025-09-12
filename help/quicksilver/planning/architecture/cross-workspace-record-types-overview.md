@@ -3,9 +3,9 @@ title: Übersicht über arbeitsbereichsübergreifende Datensatztypen
 description: Zentralisierte Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ In Adobe Workfront Planning können Sie Workspace-übergreifende Funktionen für
 Im Folgenden finden Sie arbeitsbereichsübergreifende Funktionen von Datensatztypen:
 
 * Sie können einen Datensatztyp als zentralisiert festlegen. Benutzer können zentralisierte Datensatztypen zu anderen Arbeitsbereichen hinzufügen, die sie verwalten können.
+
+  >[!IMPORTANT]
+  >
+  >Sie müssen über ein Workfront Planning Plus-Paket zusätzlich zu einem Workfront-Paket verfügen, um zentralisierte Datensatztypen verwenden zu können.
+  >
+  >Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront Account Manager.
+
 * Sie können einen Datensatztyp als „verbindbar“ festlegen. Benutzer können von anderen Arbeitsbereichen aus eine Verbindung zu diesem Datensatztyp herstellen.
 
 In diesem Artikel erhalten Sie einen Überblick über arbeitsbereichsübergreifende Datensatztypen. Informationen zum Definieren der arbeitsbereichsübergreifenden Funktionen eines Datensatztyps finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

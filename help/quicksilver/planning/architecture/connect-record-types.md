@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,8 +70,8 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -159,47 +159,63 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 
      ![AEM Assets-Verbindungsauswahl](assets/aem-assets-connection-selection.png)
 
-1. Aktualisieren Sie die folgenden Informationen:
+     Für den ausgewählten Datensatz oder Objekttyp wird eine neue Registerkarte Verbindung geöffnet.
 
-   * **Name**: Der Name des verbundenen Felds, wie er in der Tabellenansicht oder auf der Datensatzseite des ursprünglichen Datensatztyps angezeigt wird. Dadurch wird die verknüpfte Datensatzspalte in der Tabellenansicht des ursprünglichen Datensatztyps oder das verknüpfte Datensatzfeld für die ursprünglichen Datensätze erstellt. Standardmäßig ist der Name des Felds der Name des Datensatzes oder Objekts, mit dem Sie eine Verbindung herstellen.
+1. Aktualisieren Sie das **Name** mit dem Namen des neuen verbundenen Felds, wie es in der Tabellenansicht oder auf der Datensatzseite des ursprünglichen Datensatztyps angezeigt wird. Dadurch wird die verbundene Datensatzspalte (oder das verbundene Feld) in der Tabellenansicht des ursprünglichen Datensatztyps erstellt. Standardmäßig ist der Name des Felds der Name des Datensatzes oder Objekts, mit dem Sie eine Verbindung herstellen.
 
    >[!TIP]
    >
    >Sie können mehrere Verbindungen mit demselben Datensatz oder Objekttyp haben. Wenn Sie den Namen des verbundenen Feldes nicht bearbeiten, fügt Workfront eine Zahl nach dem Namen des verbundenen Datensatzes hinzu, um die Anzahl der verbundenen Datensatztypen mit demselben Namen anzugeben.
 
-   * **Beschreibung**: Zusätzliche Informationen zum verbundenen Datensatzfeld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
-   * **Mehrere Datensätze zulassen**: Wählen Sie diese Option aus, um anzugeben, dass Sie Benutzern das Hinzufügen mehrerer Datensätze erlauben, wenn das Feld „Verknüpfter Datensatztyp“ in den ursprünglichen Datensätzen angezeigt wird. Dies ist standardmäßig ausgewählt.
+1. Aktualisieren Sie **Feld** Beschreibung“, indem Sie Informationen zum verbundenen Datensatzfeld hinzufügen. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
+1. (Bedingt) Wenn Sie Datensatztypen aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager-Asset-Objekt verbinden, wählen Sie die Option **Mehrere Datensätze zulassen** aus. Wenn Sie diese Option auswählen, können Benutzer mehrere Datensätze hinzufügen, wenn das Feld „Verbundener Datensatztyp“ in den ursprünglichen Datensätzen angezeigt wird. Dies ist standardmäßig ausgewählt.
 
-     Diese Option ist nur verfügbar, wenn Datensätze aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager Asset-Objekt verbunden werden.
+   ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-allow-multiple-records-box.png)
 
-     ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-allow-multiple-records-box.png)
+1. (Bedingt) Wenn Sie Datensatztypen aus demselben Arbeitsbereich oder einen Planning-Datensatztyp mit einem Workfront-Objekttyp verbinden, wählen Sie eine der folgenden **Verbindungstyp**-Optionen aus, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
-   * **Verbindungstyp**: Wählen Sie eine der folgenden Optionen aus, um anzugeben, mit wie vielen Datensätzen eine Verbindung hergestellt werden kann:
+   * Viele-zu-viele
+   * Eins zu viele
+   * Viele-zu-eins
+   * Eins zu eins
 
-      * Viele-zu-viele
-      * Eins-zu-viele
-      * Viele-zu-eins
-      * Eins-zu-eins
+   ![Viele zu viele Verbindungsauswahl](assets/many-to-many-connection-picker.png)
 
-     Diese Option ist nur verfügbar, wenn Datensätze aus demselben Arbeitsbereich oder einem Datensatz und einem Workfront-Objekttyp verbunden werden.
+   Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-     ![Viele zu viele Verbindungsauswahl](assets/many-to-many-connection-picker.png)
-
-     Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-     >[!NOTE]
-     >
-     > Wenn Sie für den Verbindungstyp Eins-zu-viele oder Eins-zu-Eins auswählen und später einen Datensatz oder ein Objekt verbinden möchten, das bereits an anderer Stelle verbunden ist, erhalten Sie eine Warnung, dass durch erneutes Verbinden der Datensatz oder das Objekt aus der ursprünglichen Verbindung entfernt wird. Sie können das Entfernen zulassen oder einen anderen Datensatz auswählen.
-
-   * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
-
-   >[!TIP]
+   >[!NOTE]
    >
-   >* Sie können keine Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor) als Suchfelder hinzufügen.
-   >
-   >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
-   >
-   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
+   > Wenn Sie für den Verbindungstyp Eins-zu-viele oder Eins-zu-Eins auswählen und später einen Datensatz oder ein Objekt verbinden möchten, das bereits an anderer Stelle verbunden ist, erhalten Sie eine Warnung, dass durch erneutes Verbinden der Datensatz oder das Objekt aus der ursprünglichen Verbindung entfernt wird. Sie können das Entfernen zulassen oder einen anderen Datensatz auswählen.
+
+
+   <!-- 
+        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
+    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
+        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * Many to many
+            * One to many
+            * Many to one
+            * One to one      
+            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <div class="preview">
+        * In the Preview environment, do the following: 
+            1. Select one of the following:
+                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+                    >[!TIP]
+                    >
+                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
+            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+                * Many to many
+                * One to many
+                * Many to one
+                * One to one  
+            </div>       
+             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+                >[!NOTE]
+                >
+                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
 
 1. (Bedingt und optional) Wenn Sie eine Verbindung zu einem Workfront-Objekt herstellen möchten, wählen Sie ein **benutzerdefiniertes Formular** aus dem Abschnitt **Nur Objekte verknüpfen, die diesen Kriterien**. Nur Objekte, an die die ausgewählten benutzerdefinierten Formulare angehängt sind, können mit dem ausgewählten Datensatztyp verknüpft werden. Sie können mehrere Formulare auswählen.
 
@@ -207,13 +223,14 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    >
    > Sie müssen benutzerdefinierte Formulare in Workfront für die ausgewählten Objekte erstellen, bevor sie in dieser Liste angezeigt werden.
 
-1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets herstellen möchten, wählen Sie ein Repository aus dem Dropdownmenü **Experience Manager-Repository** im Abschnitt **Verknüpfen von Assets aus dem folgenden Repository** aus. Dies ist ein Pflichtfeld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
+1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets herstellen möchten, wählen Sie ein Repository aus dem Dropdown-Menü **Experience Manager** im Abschnitt **Verknüpfen von Assets aus dem folgenden Repository** aus. Dies ist ein Pflichtfeld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets oder einem Workfront Planning-Datensatztyp herstellen möchten, wählen Sie im Bereich **Datensatzdarstellung** eine der folgenden Optionen aus:
+
+1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets oder einem Workfront Planning-Datensatztyp herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des Datensatzes **eine der folgenden Optionen**:
 
    * **Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld Verbundener Datensatz angezeigt. Dies ist die Standardoption.
    * **Name**: Im Feld Verbundener Datensatz wird nur der Name der verbundenen Datensätze angezeigt.
@@ -230,6 +247,16 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    >* Bei der Auswahl von Workfront-Objekttypen steht das Erscheinungsbild eines Datensatzes nicht zur Verfügung.
    >
    >* Die Auswahl im Bereich Erscheinungsbild des Datensatzes bestimmt, wie die Datensätze in Verbindungen überall im System angezeigt werden, einschließlich aller Ansichten und Detailseiten.
+
+1. Wählen Sie die **Suchfelder auswählen**, um Felder aus dem Datensatztyp hinzuzufügen, mit dem Sie eine Verbindung herstellen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
+
+   >[!TIP]
+   >
+   >* Sie können keine Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor) als Suchfelder hinzufügen.
+   >
+   >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
+   >
+   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -318,13 +345,15 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 
      Wenn Sie beispielsweise einen Kampagnendatensatztyp mit dem Programmdatensatztyp verknüpft und das Feld Programmverknüpfte Datensatzinformationen als „Programm“ bezeichnet und dann die Option ausgewählt haben, das Feld Programmbudget auch in der Tabellenansicht der Kampagne anzuzeigen, wird das verknüpfte Feld automatisch in der Tabellenansicht der Kampagne `Budget (from Program information)` benannt.
 
-   * Wenn Sie Datensatztypen miteinander verknüpfen, wird auch ein verknüpftes Datensatzfeld zu dem Datensatztyp hinzugefügt, mit dem Sie verknüpfen. Der Name des verknüpften Datensatzfelds beim verknüpften Datensatztyp ist der Name des Datensatztyps, von dem aus die Verknüpfung hergestellt wird.
+   * Wenn Sie Datensatztypen miteinander verknüpfen, wird dem Datensatztyp, mit dem Sie verknüpfen, auch ein verknüpftes Datensatzfeld hinzugefügt <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> Der Name des verknüpften Datensatzfelds im verknüpften Datensatztyp ist der Name des Datensatztyps, mit dem Sie verknüpfen.
 
      Wenn Sie beispielsweise den Datensatztyp „Produkt“ mit dem Datensatztyp „Kampagne“ verknüpfen und das verbundene Feld der Kampagne als „Verknüpftes Produkt“ benennen, wird für den Datensatztyp „Produkt“ ein verknüpftes Datensatzfeld „Kampagne“ erstellt.
 
      >[!TIP]
      >
-     > Für Objekte aus einem anderen Programm wird kein verknüpftes Datensatzfeld mit dem Datensatztyp erstellt, von dem aus Sie in Workfront Planning verknüpfen.
+     > Für Objekte aus einem anderen Programm wird kein verknüpftes Datensatzfeld mit dem Datensatztyp erstellt, von dem aus Sie in Workfront Planning verknüpfen. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+
+   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (Optional und bedingt) Klicken Sie in der Tabellenansicht Ursprünglicher Datensatztyp oder Verknüpfter Datensatztyp auf den nach unten zeigenden Pfeil in der Kopfzeile der verknüpften Datensatzfelder und dann auf eine der folgenden Aktionen:
 

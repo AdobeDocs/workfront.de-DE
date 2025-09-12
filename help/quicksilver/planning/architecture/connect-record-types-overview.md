@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,11 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
 
 Bei der Planung von Workfront gibt es zwei Schritte für Verbindungen:
 
-1. Zunächst müssen Sie eine Verbindung zwischen zwei Datensatztypen oder einem Datensatztyp und einem Objekttyp aus einer anderen Anwendung herstellen. Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-1. Zweitens können Sie einzelne Datensätze eines Typs mit Datensätzen eines anderen Typs verbinden, nachdem die beiden Datensatztypen verbunden wurden. Informationen zum Verbinden von Datensätzen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+1. Herstellen einer Verbindung zwischen zwei Datensatztypen oder einem Datensatztyp und einem Objekttyp aus einer anderen Anwendung.
+
+   Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Verbinden Sie einen einzelnen Datensatz eines Typs mit Datensätzen eines anderen Typs, nachdem die beiden Datensatztypen verbunden wurden. Informationen zum Verbinden von Datensätzen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
 Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
@@ -62,13 +65,24 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
      >
      >Wenn Sie Fragen zum Onboarding in der Adobe Admin Console haben, lesen Sie die häufig gestellten Fragen zu [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-* Nachdem Sie Datensätze für die verbundenen Datensatztypen erstellt haben, können Sie sie über das Feld Verbundener Datensatz miteinander verknüpfen.  Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+* Nachdem Sie Datensätze für Datensatztypen erstellt haben, können Sie sie über das verbundene Datensatzfeld miteinander verknüpfen.
+
+  Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
 * Nachdem Sie einen Datensatztyp mit einem anderen Datensatztyp oder mit einem Objekttyp aus einer anderen Anwendung verbunden haben, sind die folgenden Szenarien vorhanden:
 
-   * **Wenn Sie zwei Planning-Datensatztypen verbinden**: Für den Datensatztyp, von dem aus Sie eine Verbindung herstellen, wird ein verknüpftes Datensatzfeld erstellt. Für den Datensatztyp, mit dem Sie eine Verbindung herstellen, wird ein ähnliches verknüpftes Datensatzfeld erstellt.
+   * **Wenn Sie zwei Planning-Datensatztypen verbinden**: Für den Datensatztyp, von dem aus Sie eine Verbindung herstellen, wird ein verknüpftes Datensatzfeld erstellt. Ein ähnliches verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, mit dem Sie eine Verbindung <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->.
 
      Wenn Sie beispielsweise den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit der automatischen Bezeichnung „Kampagne“ wird für den Produktdatensatztyp erstellt.
+
+     <!--<div class="preview">
+        
+        For example, the following scenarios exist: 
+        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
+        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
+        </div>-->
+
+     Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * **Wenn Sie einen Datensatztyp mit einem Objekttyp aus einer anderen Anwendung verbinden**:
 
@@ -76,7 +90,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
       * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
       * Die Planungsdatensätze sind auf der Registerkarte Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.
@@ -108,13 +122,6 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
 Nachdem Sie eine Verbindung zwischen zwei Datensatztypen oder zwischen einem Datensatz und einem Objekttyp aus einer anderen Anwendung hergestellt haben, können Sie Datensätze in die verbundenen Datensatzfelder einfügen.
 
-Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufügen können, können Sie im Folgenden die Verbindungstypen auswählen, aus denen Sie beim Verbinden von Datensatztypen auswählen können:
-
-* [Viele-zu-viele](#many-to-many-connection-type)
-* [Eins-zu-viele](#one-to-many-connection-type)
-* [Viele-zu-eins](#many-to-one-connection-type)
-* [Eins-zu-eins](#many-to-one-connection-type)
-
 >[!WARNING]
 >
 >Diese Optionen sind beim Verbinden der folgenden Elemente nicht verfügbar:
@@ -122,6 +129,69 @@ Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufüge
 >* Zwei Datensätze aus verschiedenen Arbeitsbereichen
 >
 >* Datensatztyp und Experience Manager-Assets
+
+Sie können auswählen, ob Sie jeweils einen Datensatz mit mehreren Datensätzen oder einen Datensatz miteinander verbinden möchten.
+
+Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld-<!--and the environment you use to create the connected fields--> hinzufügen können, können Sie im Folgenden die Verbindungstypen auswählen, aus denen Sie beim Verbinden von Datensatztypen auswählen können:
+
+<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+
+<div class="preview">
+
+* In the Preview environment: 
+
+    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+
+        * [Multi-select](#multi-select-connection-type)
+        * [Single-select](#single-select-connection-type)
+
+</div>
+
+* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+
+    * [Many to many](#many-to-many-connection-type)
+    * [One to many](#one-to-many-connection-type)
+    * [Many to one](#many-to-one-connection-type)
+    * [One to one](#many-to-one-connection-type) 
+
+<div class="preview">
+
+### Multi-select connection type
+
+![Multi-select connection type](assets/multi-select-connection-picker.png)
+
+When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+
+For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+
+After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+
+    * Single-select
+    * One to many
+    * Many to one
+    * One to one
+
+### Single-select connection type
+
+![Single select connection type](assets/single-select-connection-picker.png)
+
+When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+
+For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+
+After you select this connection type, you cannot change the connection type after you save it to any of the following:
+
+    * One to many
+    * One to one
+
+</div>
+
+-->
+
+* [Viele-zu-viele](#many-to-many-connection-type)
+* [Eins zu viele](#one-to-many-connection-type)
+* [Viele-zu-eins](#many-to-one-connection-type)
+* [Eins zu eins](#many-to-one-connection-type)
 
 ### Viele-zu-viele-Verbindungstyp
 

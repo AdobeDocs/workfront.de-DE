@@ -4,9 +4,9 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -83,11 +83,11 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
 <ul><li><p>Beliebiges Workfront-Paket</p></li>
 Und
 <li><p>Planning Plus-Paket</p></li></ul>
-Oder:
-<ul><li><p>Beliebiges Workflow-Paket</p> </li>
-Und
-<li><p>Planen eines Prime- oder Ultimate-Pakets</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td>
 
 <tr> 
