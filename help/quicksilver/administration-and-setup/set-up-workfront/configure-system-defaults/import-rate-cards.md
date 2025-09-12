@@ -40,7 +40,7 @@ Sie können eine Vorlagendatei verwenden, um Ihre Tarifkarten in Excel zu erstel
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p>
+   <p>[!UICONTROL -Plan]</p>
    </td> 
   </tr> 
   <tr> 
