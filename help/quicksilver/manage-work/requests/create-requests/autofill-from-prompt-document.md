@@ -1,18 +1,18 @@
 ---
-title: Automatisches Ausfüllen einer Anfrage über Eingabeaufforderungen oder Dokumente
+title: Ausfüllen eines KI-Formulars verwenden, um eine Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten auszufüllen
 content-type: reference
 description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verwenden, indem Sie eine Eingabeaufforderung eingeben oder ein Dokument angeben.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1368'
 ht-degree: 2%
 
 ---
 
-# Automatisches Ausfüllen einer Anfrage über Eingabeaufforderungen oder Dokumente
+# Ausfüllen eines KI-Formulars verwenden, um eine Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten auszufüllen
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 2%
 >
 >* Um diese Funktion nutzen zu können, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-KI kann Ihnen dabei helfen, Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch auszufüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
+Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
 
-Das automatische Ausfüllen überschreibt keine bereits ausgefüllten Felder.
+KI-Formularausfüllung überschreibt keine Felder, die Sie bereits ausgefüllt haben.
 
 Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff hätten.
 
@@ -67,7 +67,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Um Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments automatisch auszufüllen **müssen** der folgenden Bedingungen zutreffen:
+Um das Ausfüllen von KI-Formularen für Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments zu verwenden **müssen** alle) der folgenden Bedingungen zutreffen:
 
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
 * Adobe Unified Experience muss aktiviert sein
@@ -81,11 +81,11 @@ Um Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments automatisch 
 
 ## Abrufen von Vorschlägen aus einer Textaufforderung
 
-Das automatische Ausfüllen kann Feldwerte basierend auf Text vorschlagen, z. B. E-Mails. Sie fügen einen Textblock ein, und Workfront verarbeitet den Text, um auf der Grundlage des Texts Feldwerte vorzuschlagen.
+Das Ausfüllen eines KI-Formulars kann Feldwerte basierend auf Text wie E-Mails vorschlagen. Sie fügen einen Textblock ein, und Workfront verarbeitet den Text, um auf der Grundlage des Texts Feldwerte vorzuschlagen.
 
-Wenn die E-Mail beispielsweise „Dies ist am 1. Juni fällig“ enthält und das Anfrageformular ein Feld für das Fälligkeitsdatum hat, schlägt Workfront für diesen Feldwert den 1. Juni vor.
+Wenn die E-Mail beispielsweise „Dies ist am 1. Juni fällig“ enthält und das Anfrageformular ein Feld für das Fälligkeitsdatum hat, würde das Ausfüllen des KI-Formulars für diesen Feldwert den 1. Juni vorschlagen.
 
-Diese Art von Vorschlag überprüft auch frühere Anfragen nach ähnlichen Kontexten. Wenn in der Eingabeaufforderung beispielsweise erwähnt wird, dass die Anfrage für einen bestimmten Client gilt, kann Workfront die Rechnungsadresse für diesen Client basierend auf vorherigen Anfragen automatisch suchen und eingeben.
+Beim Ausfüllen eines Formulars prüft Workfront auch frühere Anfragen auf ähnliche Kontexte. Wenn in der Eingabeaufforderung beispielsweise erwähnt wird, dass die Anfrage für einen bestimmten Client gilt, kann Workfront die Rechnungsadresse für diesen Client basierend auf vorherigen Anfragen automatisch suchen und eingeben.
 
 Sie können Text einfügen, der auf das gesamte Formular oder auf einen einzelnen Abschnitt des Formulars angewendet wird.
 
@@ -263,11 +263,11 @@ Workfront-Feldtypen beeinflussen, ob ein bestimmtes Feld automatisch ausgefüllt
 
 #### Andere Best Practices
 
-Beachten Sie beim Hochladen eines Dokuments für das automatische Ausfüllen Folgendes:
+Beachten Sie beim Hochladen eines Dokuments zum Ausfüllen eines KI-Formulars Folgendes:
 
-* Das automatische Ausfüllen ist derzeit für das lateinische Alphabet optimiert.
+* Das Ausfüllen von KI-Formularen ist derzeit für das lateinische Alphabet optimiert.
 * Es wird empfohlen, eine Textgröße von 8 Punkten oder mehr zu verwenden.
-* Das automatische Ausfüllen kann Probleme mit Bildern im Dokument haben, z. B. gedrehte oder verzerrte Bilder, Diagramme und das Zählen oder Verwenden räumlicher Gründe für Objekte in Bildern.
+* Das Ausfüllen von KI-Formularen kann Probleme mit Bildern im Dokument haben, z. B. gedrehte oder verzerrte Bilder, Diagramme und das Zählen oder Verwenden räumlicher Gründe für Objekte in Bildern.
 * Wie immer empfehlen wir, die Ergebnisse vor dem Senden der Anfrage auf Korrektheit zu überprüfen.
 
 ### Dokument hochladen, um eine Anfrage automatisch auszufüllen

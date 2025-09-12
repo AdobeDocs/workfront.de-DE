@@ -1,18 +1,18 @@
 ---
-title: Anfrage aus vorherigen Daten automatisch ausfüllen
+title: Automatische Vervollständigung einer Anfrage mit Daten aus vorherigen Anfragen
 content-type: reference
-description: Sie können KI verwenden, um Anfragefelder automatisch mit Daten aus vorherigen Anfragen auszufüllen.
+description: Sie können KI verwenden, um Anfragefelder mithilfe von Daten aus früheren Anfragen automatisch auszufüllen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Anfrage aus vorherigen Daten automatisch ausfüllen
+# Automatische Vervollständigung einer Anfrage mit Daten aus vorherigen Anfragen
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 KI kann Ihnen dabei helfen, Anfragefelder basierend auf früheren Anfragen automatisch auszufüllen. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
 
-Das automatische Ausfüllen überschreibt keine bereits ausgefüllten Felder.
+Bei der automatischen Vervollständigung werden bereits ausgefüllte Felder nicht überschrieben.
 
 Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff hätten.
 
@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Vorschläge beim Ausfüllen des Formulars einholen
 
-Das automatische Ausfüllen kann Feldwerte beim Ausfüllen des Formulars vorschlagen. Wenn Sie Werte in die Anfragefelder eingeben, vergleicht Workfront diese Werte mit vorherigen Anfragen. Wenn der eingegebene Wert eng mit anderen Feldwerten in ähnlichen Kontexten in früheren Anfragen korreliert, schlägt Workfront diese Werte vor.
+Beim automatischen Ausfüllen des Formulars können Werte aus den Feldern vorgeschlagen werden. Wenn Sie Werte in die Anfragefelder eingeben, vergleicht Workfront diese Werte mit vorherigen Anfragen. Wenn der eingegebene Wert eng mit anderen Feldwerten in ähnlichen Kontexten in früheren Anfragen korreliert, schlägt Workfront diese Werte vor.
 
 Wenn beispielsweise eine Klinik immer denselben Abrechnungscode verwendet, schlägt Workfront vor, dass sich der Abrechnungscode bei Eingabe des Kliniknamens im entsprechenden Feld befindet.
 
