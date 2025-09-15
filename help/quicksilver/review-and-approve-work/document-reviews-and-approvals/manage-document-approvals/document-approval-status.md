@@ -6,9 +6,9 @@ description: Der Status der Dokumentenentscheidung wird aufgelistet und erläute
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -98,6 +98,7 @@ Die folgenden Status sind verfügbar:
                                 <p>Mindestens eine genehmigende Person hat eine Entscheidung mit dem Status „Genehmigt mit Änderungen“ getroffen</p>
                                 <p>Andere genehmigende Personen haben möglicherweise Entscheidungen vom Typ „Genehmigt“ getroffen.
                             </li>
+                            <p>Hinweis: Diese Option steht nicht zur Verfügung, wenn Sie die Frame.io-Integration zur Überprüfung und Genehmigung verwenden.</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ Die folgenden Status sind verfügbar:
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>Alle Genehmigungen und Prüfungen sind abgeschlossen</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>Alle genehmigenden Personen haben möglicherweise Entscheidungen vom Typ „Genehmigt“ getroffen.
                             </li>

@@ -6,7 +6,7 @@ description: Sie können die Genehmigung anderer Benutzer für ein Dokument in A
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf Dokumentdetails.
    ![Dokumentdetails](assets/doc-details.png)
-
 
 1. Wählen Sie in der Nähe des Dokumentnamens in der Dropdown-Liste Version die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig wird die neueste Version ausgewählt.
 

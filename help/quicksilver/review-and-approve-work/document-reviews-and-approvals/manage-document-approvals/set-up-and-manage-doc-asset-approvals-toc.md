@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Asset- und Dokumentengenehmigungen einrichten und verwalten: Artikelindex'
-description: Dieser Abschnitt enthält Artikel zum Verwalten von Asset- und Dokumentgenehmigungen in Workfront.
+title: 'Einheitliche Genehmigungen einrichten und verwalten: Artikelindex'
+description: Dieser Abschnitt enthält Artikel zum Verwalten von einheitlichen Genehmigungen in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Asset- und Dokumentengenehmigungen einrichten und verwalten: Artikelindex
+# Einheitliche Genehmigungen einrichten und verwalten: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
