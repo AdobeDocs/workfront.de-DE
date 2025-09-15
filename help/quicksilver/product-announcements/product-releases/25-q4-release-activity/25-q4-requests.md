@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ Weitere Informationen zum Erstellen von Anfragen finden Sie unter:
 >* Produktions-Schnellveröffentlichung: 11. September 2025
 >* Produktion für alle Kunden: 16. Oktober 2025
 
-Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebnis zu schaffen, haben wir das anfragende Erlebnis aktualisiert. Jetzt können Sie:
+Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebnis zu schaffen, haben wir das anfragende Erlebnis aktualisiert.
+
+Um das neue anfragende Erlebnis zu verwenden, aktivieren Sie im Bereich Anfragen den Umschalter Neues Erlebnis verwenden in der rechten oberen Ecke des Bildschirms.
+
+In der neuen -Version haben Sie folgende Möglichkeiten:
 
 * Workfront- und Workfront-Planungsanfragen in einer Liste anzeigen.
 * Filtern Sie gesendete Anfragen nach von Ihnen angegebenen Kriterien.

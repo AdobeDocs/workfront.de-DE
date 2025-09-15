@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
 # SAML 2.0-Metadaten in Ihrem Identitätsanbieter aktualisieren
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Admin Console integriert haben.
+>
+>Informationen zum Zuordnen von Benutzerattributen in Organisationen, die in Adobe Admin Console integriert wurden, finden Sie unter [Zuordnen von Benutzerattributen im einheitlichen Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) im Artikel Zuordnen von Benutzerattributen.
 
 In den folgenden Abschnitten wird beschrieben, wie Sie Ihre SAML 2.0-Metadaten (Security Assertion Markup Language) aktualisieren, wenn Sie Active Directory Federation Services (ADFS) als Identitätsanbieter verwenden.
 

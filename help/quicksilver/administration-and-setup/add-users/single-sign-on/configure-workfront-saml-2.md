@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 8%
 
 ---
@@ -23,7 +23,13 @@ ht-degree: 8%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Admin Console integriert haben.
+>
+>Informationen zum Zuordnen von Benutzerattributen in Organisationen, die in Adobe Admin Console integriert wurden, finden Sie unter [Zuordnen von Benutzerattributen im einheitlichen Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) im Artikel Zuordnen von Benutzerattributen.
 
 Als Adobe Workfront-Administrator können Sie die Web- und mobilen Anwendungen von Workfront so konfigurieren, dass sie mit einer SAML 2.0-Lösung (Security Assertion Markup Language) für einmaliges Anmelden (SSO) integriert werden.
 
@@ -88,7 +94,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> <p>Wählen Sie die von Ihrem IDP-Server unterstützte Methode zum Senden von Authentifizierungsinformationen aus:</p>
        <ul>
        <li>POST</li>
-       <li>REDIRECT</li>
+       <li>UMLEITUNG</li>
        </ul> </td>
      </tr>
      <tr>
@@ -152,7 +158,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <li> <p>Telefonnummer</p> </li> 
       <li> <p>Postleitzahl</p> </li> 
       <li> <p>Zeitplan</p> </li> 
-      <li> <p>Status</p> </li> 
+      <li> <p>Land</p> </li> 
       <li> <p>Arbeitszeittabellen-Profil</p> </li> 
       <li> <p>Titel</p> </li> 
       </ul>
