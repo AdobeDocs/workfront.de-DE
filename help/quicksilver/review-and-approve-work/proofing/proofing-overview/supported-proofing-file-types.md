@@ -136,7 +136,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 
   >[!NOTE]
   >
-  >Es gibt ein bekanntes Problem mit PowerPoint-Präsentationsdateien, die derzeit nicht hochgeladen werden können. Wenn dieses Problem auftritt, konvertieren Sie die Datei in PDF und laden Sie stattdessen die PDF hoch. Weitere Informationen finden Sie unter [Korrekturabzüge: Aus einer PowerPoint-Datei kann kein Korrekturabzug generiert werden](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Es gibt ein bekanntes Problem mit PowerPoint-Präsentationsdateien, die derzeit nicht hochgeladen werden können. Wenn dieses Problem auftritt, konvertieren Sie die Datei in PDF und laden Sie stattdessen die PDF hoch. Weitere Informationen finden Sie unter [Korrekturabzüge: Aus einer PowerPoint-Datei kann kein Korrekturabzug generiert werden](https://experienceleague.adobe.com/de/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
 
 * PPTX - PowerPoint Presentation 2007 PS - PostScript-Datei
