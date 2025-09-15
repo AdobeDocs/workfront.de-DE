@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
+source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4396'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ Objekte werden durch Senden einer HTTP-Anfrage an den eindeutigen URI bearbeitet
 Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 
 * **GET** - Ruft ein Objekt nach ID ab, sucht nach allen Objekten anhand einer Abfrage, führt Berichte aus oder führt benannte Abfragen aus
-* **POST** - Fügt ein neues Objekt ein
-* **PUT** - Bearbeitet ein vorhandenes Objekt
+* **POST** - Fügt ein neues Objekt ein.
+* **PUT** - bearbeitet ein vorhandenes Objekt
 * **DELETE** - Löscht ein Objekt
 
 Um Client-Mängel oder Protokolllängenbeschränkungen zu umgehen, kann der Methodenparameter verwendet werden, um das HTTP-Verhalten zu überschreiben. Beispielsweise kann ein GET-Vorgang implementiert werden, indem der folgende URI gepostet wird:
@@ -133,9 +133,9 @@ Die API verwendet dieselbe Cookie-basierte Authentifizierung wie die Web-Benutze
 
 >[!NOTE]
 >
->Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch nicht auf die Adobe Business Platform umgestiegen sind. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen die Adobe-Geschäftsplattform verwendet.
+>Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in die Adobe Business Platform erhalten haben. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen die Adobe Business-Plattform verwendet hat.
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe-Geschäftsplattform eingeführt hat, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe Business Platform verwendet, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Mit einem gültigen Benutzernamen und Kennwort können Sie die folgende Anfrage verwenden, um eine Sitzungs-ID abzurufen:
 
@@ -208,7 +208,7 @@ So melden Sie einen Benutzer ab:
 
 Bei PUT-, POST- und DELETE-Anfragen muss nach der Anmeldung immer die Sitzungs-ID angegeben werden.
 
-## Verhalten von GET
+## GET-Verhalten
 
 Verwenden Sie die HTTP-GET-Methode zum Abrufen eines oder mehrerer Objekte und zum Ausführen von Berichten.
 
@@ -271,7 +271,7 @@ In der folgenden Tabelle sind einige der Modifikatoren aufgeführt, die Sie mit 
 | NE | Gibt Ergebnisse zurück, die nicht den Status „Geschlossen“ haben | <pre>…status=cls&amp;status_mode=ne…</pre> |
 | Gate | Gibt Ergebnisse zurück, deren Prozentwert der Fertigstellung größer oder gleich 50 ist | <pre>…percentComplete=50&amp;percentComplete_Mod=get…</pre> |
 | LTE | Gibt Ergebnisse zurück, deren Prozentwert kleiner oder gleich 50 ist | <pre>…percentComplete=50&amp;percentComplete_Mod=lte…</pre> |
-| isNull | gibt Ergebnisse zurück, bei denen die Beschreibung null ist | <pre>…description_mod=isNull…</pre> |
+| isnull | gibt Ergebnisse zurück, bei denen die Beschreibung null ist | <pre>…description_mod=isNull…</pre> |
 | nicht null | gibt Ergebnisse zurück, bei denen die Beschreibung nicht null ist | <pre>…description_mod=notNull…</pre> |
 | enthält | Gibt Ergebnisse zurück, bei denen der Name &quot;Workfront&quot; enthält | <pre>…name=Workfront&amp;name_mod=enthält…</pre> |
 | zwischen | Gibt Ergebnisse zurück, die innerhalb der letzten 7 Tage ein Eingabedatum aufweisen | <pre>…entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between…</pre> |
@@ -357,7 +357,7 @@ Benutzerdefinierte Datenfelder können mit dem Präfix „DE:“ abgerufen werde
 Einige Objekttypen verfügen über benannte Suchvorgänge, die häufig ausgeführt werden und verfügbar sind, indem der Name der Abfrage an das Ende des Objekttyp-URI angehängt wird. Beispielsweise ruft die folgende Anfrage die Arbeitselemente (Aufgaben und Probleme) ab, denen der Benutzer derzeit zugewiesen ist:
 <pre>/attask/api/v15.0/work/myWork</pre>Benannte Abfragen unterstützen das Anfordern des -Feldparameters zum Abrufen zusätzlicher Felder. Einige benannte Abfragen akzeptieren auch zusätzliche Filter. Eine Liste der zulässigen Abfragen mit dem Namen eines Objekts finden Sie auf der Registerkarte Aktion für das Objekt in der  [API-Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-#### Verwenden von `Count`
+#### Verwenden `Count`
 
 Sie können `count` verwenden, um die Anzahl der Ergebnisse zurückzugeben, die Ihrer Abfrage entsprechen. Dies kann nützlich sein, wenn Sie die Daten in den Ergebnissen nicht benötigen. Durch die Rückgabe der Zählung kann der Server die Anfrage schneller verarbeiten und Bandbreite sparen. Beispiel: die Anfrage
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>Gibt die Anzahl der Ergebnisse im folgenden Format zurück:
@@ -450,18 +450,18 @@ Um sicherzustellen, dass Ihre Ergebnisse ordnungsgemäß paginiert werden, verwe
 Sie können eine Zugriffsregel erstellen, um zu bestimmen, wer auf ein Objekt zugreifen kann. Im Folgenden finden Sie Beispiele für Zugriffsregeln, die Sie festlegen können:
 
 Um ein Projekt so einzurichten, dass es nur für einen Benutzer mit der ID „abc123“ freigegeben wird, verwenden Sie die folgende Anfrage:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternativ können Sie nur für eine neue Person freigeben und die vorhandenen Berechtigungen intakt lassen:
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternativ können Sie nur für eine neue Person freigeben und die vorhandenen Berechtigungen intakt lassen:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Abrufen der vorhandenen Zugriffsregeln:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
-## Verhalten der POST
+## POST-Verhalten
 
-POST fügt ein neues -Objekt ein. Die Syntax entspricht der von PUT, mit einigen Ausnahmen. Da das neue Objekt noch nicht vorhanden ist, verfügt es über keine ID. Aus diesem Grund enthält der URI die ID nicht.
+POST fügt ein neues Objekt ein. Die Syntax entspricht der von PUT, mit einigen Ausnahmen. Da das neue Objekt noch nicht vorhanden ist, verfügt es über keine ID. Aus diesem Grund enthält der URI die ID nicht.
 
 ### Erstellen eines Objekts
 
 Im Folgenden finden Sie ein Beispiel für eine Anfrage zum Erstellen eines neuen Projekts:
-<pre>POST /attask/api/v15.0/project?name=Neues Projekt</pre>Die Antwort enthält das neu erstellte Projekt zusammen mit seiner neuen ID und allen anderen angegebenen Feldern.
+<pre>POST /attask/api/v15.0/project?name=New Project</pre>Die Antwort enthält das neu erstellte Projekt zusammen mit seiner neuen ID und allen anderen angegebenen Feldern.
 
 ### Kopieren eines Objekts
 
@@ -478,16 +478,16 @@ Sie können Dokumente über die folgende API-URL hochladen:
 <pre>{<br>    „Griff“: „4C7C08FA0000002FF924E298EE148DF4“<br>}</pre>Sie können beim Erstellen eines Workfront-Dokuments den -Handle verwenden und an die folgende URL senden:
 <pre>POST /attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc…123, (handle from the file upload)<br>    docObjCode: PROJ, (oder TASK, OPTASK usw.<br>    objID: abc…123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
-## PUT Verhalten
+## PUT-Verhalten
 
 PUT wird verwendet, um ein vorhandenes Objekt zu aktualisieren.
 
-Die Antwort für eine PUT ist identisch mit einer GET. In beiden Fällen gibt der Server den neuen Status des -Objekts nach der Aktualisierung zurück. Alle Regeln, die zum Ändern einer Antwort auf eine GET-Anfrage verwendet werden, funktionieren auch beim PUT, z. B. die Angabe zusätzlicher zurückzugebender Felder, benutzerdefinierter Daten usw.
+Die Antwort für eine PUT ist identisch mit einer GET. In beiden Fällen gibt der Server den neuen Status des -Objekts nach der Aktualisierung zurück. Alle Regeln, die zum Ändern einer Antwort auf eine GET-Anfrage verwendet werden, funktionieren auch mit PUT, z. B. die Angabe zusätzlicher zurückzugebender Felder, benutzerdefinierter Daten usw.
 
 ### Objekte bearbeiten
 
 Aktualisierungen an Objekten werden immer nach ID unter Verwendung der eindeutigen URI des Objekts durchgeführt. Zu aktualisierende Felder werden als Anfrageparameter angegeben. Um beispielsweise den Namen eines Projekts zu ändern, können Sie eine Anfrage ähnlich der folgenden senden:
-<pre>PUT /attask/api/v15.0/project/4c7…?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7…&amp;name=New Project Name</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt nicht auf dem Server vorhanden ist.
+<pre>PUT /attask/api/v15.0/project/4c7…?name=Neuer Projektname <br>PUT /attask/api/v15.0/project?id=4c7…&amp;name=Neuer Projektname</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt nicht auf dem Server vorhanden ist.
 
 ### Angeben von JSON-Bearbeitungen
 
@@ -523,11 +523,11 @@ Im Folgenden finden Sie ein Beispiel für jeden Aktionstyp: 
 ### Freigeben von Objekten
 
 Das folgende Beispiel zeigt die Syntax für die Freigabe eines Projekts für ein Team:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Beim Bearbeiten eines Objekts können Sie alle Zugriffsregeln für ein Objekt ersetzen, indem Sie eine PUT durchführen und Aktualisierungen ähnlich dem folgenden Beispiel senden:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>Das folgende Beispiel zeigt die Syntax zum Verschieben einer Aufgabe von einem Projekt in ein anderes:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Beim Bearbeiten eines Objekts können Sie alle Zugriffsregeln für ein Objekt ersetzen, indem Sie eine PUT durchführen und Aktualisierungen ähnlich dem folgenden Beispiel senden:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>Das folgende Beispiel zeigt die Syntax zum Verschieben einer Aufgabe von einem Projekt in ein anderes:
 <pre>PUT /attask/api/v15.0/task/4c7…/move?projectID=5d8…</pre>
 
-## Verhalten des DELETE
+## DELETE-Verhalten
 
 DELETE entfernt ein Objekt. In jedem Fall kann der URI den Parameter force=true enthalten, damit der Server die angegebenen Daten und deren abhängigen Elemente entfernt. Im folgenden Beispiel wird eine Aufgabe gelöscht, indem die HTTP-DELETE-Methode für einen URI ausgeführt wird:
 <pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
@@ -535,9 +535,9 @@ DELETE entfernt ein Objekt. In jedem Fall kann der URI den Parameter force=true 
 ## Massenaktualisierungen
 
 Eine Massen-Aktualisierungsanweisung aktualisiert innerhalb eines einzigen API-Aufrufs mehrere Objekte gleichzeitig. Ein Massenerstellungs-API-Aufruf wird ähnlich wie ein normaler Aktualisierungsaufruf erstellt, wie in den folgenden Beispielen gezeigt:
-<pre>PUT /attask/api/v15.0/proj?updates=[{„name“:„Test_Project_1“},{„name“:„Test_Project_2“}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem ähnlichen Ergebnis wie dem folgenden führt:
+<pre>PUT /attask/api/v15.0/proj?updates=[{„name“:„Test_Project_1“},{„name“:„Test_Project_2“}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>oder <pre>PUSH /attask/api/v15.0/proj?updates=[{„name“:„Test_Project_1“},{„name“:„Test_Project_2“}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem ähnlichen Ergebnis wie dem folgenden führt:
 <pre>Daten: [{<br>    ID: „53ff8d3d003b438b57a8a784df38f6b3“,<br>    Name: „test_project_1“,<br>    objCode: „PROJ“,<br>    percentComplete: 0,<br>    scheduledCompletionDate: „2014-08-28T11:00:00:000-0400“,<br>    geplantes Startdatum: „2014-08-28T11:00:00:000-0400“,<br>    Priorität: 0,<br>    projectionCompletionDate: „2014-08-28T16:12:00:000-0400“,<br>    Status: „CUR“<br>},<br>{<br>    Kennung: „53ff8d49003b43a2562aa34ea3b6b10“,<br>    Name: „test_project_2“,<br>    objCode: „PROJ“,<br>    percentComplete: 0usi,<br>    scheduledCompletionDate: „2014-08-28T11:00:00:000-0400“,<br>    geplantes Startdatum: „2014-08-28T11:00:00:000-0400“,<br>    Priorität: 0,<br>    projectionCompletionDate: „2014-08-28T16:12:00:000-0400“,<br>    Status: „CUR“<br>}]</pre>Sie können auch eine Massenaktualisierung ähnlich der folgenden durchführen:
-<pre>PUT /attask/api/v15.0/proj?umethod=PUT&amp;updates=[{„ID“:„123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx“,„name“:„Test_Project_1_ Edit“},{„ID“:„123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem ähnlichen Ergebnis wie dem folgenden führt:
+<pre>PUT /attask/api/v15.0/proj?umethod=PUT&amp;updates=[{„ID“:„123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx“,„name“:„Test_Project_1_ Edit“},{„ID“:„123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem ähnlichen Ergebnis wie dem folgenden führt:
 <pre>Daten: [ {<br>     Kennung: „53ff8e15003b461d4560f7f65a440078“,<br>     Name: „test_project_1_edit“,<br>     objCode: „PROJ“,<br>     percentComplete: 0,<br>     scheduledCompletionDate: „2014-08-28T11:00:00:000-0400“,<br>     geplantes Startdatum: „2014-08-28T11:00:00:000-0400“,<br>     Priorität: 0,<br>     projectionCompletionDate: „2014-08-28T16:16:00:000-0400“,<br>     Status: „CUR“<br>},<br>{<br>    Kennung: „53ff8e19003b46238a58d303608de502“,<br>    Name: „test_project_2_edit“,<br>    objCode: „PROJ“,<br>    percentComplete: 0,<br>    scheduledCompletionDate: „2014-08-28T11:00:00:000-0400“,<br>    geplantes Startdatum: „2014-08-28T11:00:00:000-0400“,<br>    Priorität: 0,<br>    projectionCompletionDate: „2014-08-28T16:16:00:000-0400“,<br>    Status: „CUR“<br>}]</pre>Wenn Sie möchten, dass alle Vorgänge in derselben Transaktion stattfinden, fügen Sie „atomic=true“ zu Ihrem Batch-API-Aufruf als Abfrageparameter hinzu. Auf diese Weise werden alle Vorgänge zurückgesetzt, wenn einer der Vorgänge fehlschlägt.
 
 >[!NOTE]
