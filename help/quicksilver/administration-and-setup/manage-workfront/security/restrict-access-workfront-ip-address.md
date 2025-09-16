@@ -8,18 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 65121fae364683373d2bc9abbe6672755d0cd09c
+source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
 # Zugriff auf Adobe Workfront nach IP-Adresse beschränken
 
+<!--
 >[!IMPORTANT]
 >
->Diese Funktion ist derzeit nicht für Organisationen verfügbar, die in die Adobe Admin Console integriert wurden. Sie wird in einer zukünftigen Version in der Adobe Admin Console verfügbar sein.
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
 
 Sie können eine Adobe Workfront-IP-Zulassungsliste konfigurieren, die den Zugriff auf Workfront auf 75 IP-Adressen oder IP-Adressbereiche beschränkt, die Sie angeben. Dies bietet eine zusätzliche Sicherheitsebene für das Workfront-Programm.
 
@@ -37,7 +38,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Unternehmen</p> </td> 
+   <td> <p>Enterprise</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,7 +46,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>Hinweis</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +69,7 @@ Nachdem Sie der Workfront-Zulassungsliste IP-Adressen hinzugefügt haben, könne
 
 1. Wählen Sie im Abschnitt **IP** Zulassungsliste) die Option **IP-Zulassungsliste aktivieren.**
 
-   Diese Option ist standardmäßig deaktiviert.
+   Standardmäßig ist diese Option deaktiviert.
 
 1. Geben Sie die IP-Adresse an, mit der Sie derzeit auf das Workfront-System zugreifen.
 
