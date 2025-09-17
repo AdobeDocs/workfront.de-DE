@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Als Reviewer können Sie Assets mit Kommentaren versehen und mit Markierungen versehen. Nach Abschluss des Vorgangs können Sie Ihre Überprüfung in Workfront als abgeschlossen markieren. Das Markieren der Überprüfung als abgeschlossen ist nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-1. Gehen Sie zu Ihrer E-Mail-Benachrichtigung und klicken Sie auf **Zum Überprüfen gehen**.
+1. Navigieren Sie zu Ihrer E-Mail-Benachrichtigung zur Überprüfung und klicken Sie auf **Zum Überprüfen wechseln**.
 oder
 Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen und klicken Sie dann auf **Überprüfung öffnen**.
 
@@ -82,11 +82,9 @@ Als genehmigende Person können Sie Kommentare hinzufügen und Assets markieren.
 
 Das Dokument wechselt erst dann in den Status Genehmigt , wenn alle zugewiesenen genehmigenden Personen „Genehmigt“ auswählen.
 
-Wenn eine genehmigende Person „Arbeit erforderlich“ auswählt, ändert sich der Status des Dokuments sofort in „Arbeit erforderlich“. Das Dokument muss überarbeitet und als neue Version mit einem neuen Genehmigungs-Workflow hochgeladen werden.
-
 So treffen Sie eine Entscheidung über ein Dokument:
 
-1. Gehen Sie zu Ihrer E-Mail-Benachrichtigung und klicken Sie auf **Zum Überprüfen gehen**.
+1. Navigieren Sie zu Ihrer E-Mail-Benachrichtigung zur Überprüfung und klicken Sie auf **Zum Überprüfen wechseln**.
 oder
 Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen und klicken Sie dann auf **Überprüfung öffnen**.
 

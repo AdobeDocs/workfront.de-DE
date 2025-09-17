@@ -6,9 +6,9 @@ description: Sie können einheitliche Genehmigungen mit Proofing verwenden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Hinzufügen einer neuen Version:
 ## Korrekturabzug prüfen und eine Entscheidung treffen
 
 Das Dokument wechselt erst dann in den Status Genehmigt , wenn alle zugewiesenen genehmigenden Personen „Genehmigt“ auswählen.
-
-Wenn eine genehmigende Person „Arbeit erforderlich“ auswählt, ändert sich der Status des Dokuments sofort in „Arbeit erforderlich“. Das Dokument muss überarbeitet und als neue Version mit einem neuen Genehmigungs-Workflow hochgeladen werden.
 
 So überprüfen und genehmigen Sie ein Dokument:
 

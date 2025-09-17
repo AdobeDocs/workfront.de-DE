@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
+source-git-commit: 190481ed57485a5c93a0086cda207a270d05ac23
 workflow-type: tm+mt
-source-wordcount: '13500'
+source-wordcount: '13502'
 ht-degree: 2%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 2%
       * [Übersicht über einheitliche Genehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Dokumentieren des Entscheidungsstatus - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [Überblick über das Adobe Enterprise Storage Management](/help/quicksilver/review-and-approve-work/esm-overview.md)
+      * [Überblick über Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * Einrichten und Verwalten von Asset- und Dokumentengenehmigungen {#manage-asset-review-and-approval}
          * [Einheitliche Genehmigungen einrichten und verwalten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [KI-Reviewer erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
@@ -1957,6 +1957,7 @@ ht-degree: 2%
          * [Korrekturabzugsversionen können nicht heruntergeladen oder in der Vorschau angezeigt werden, wenn ein interaktiver Korrekturabzug als neue Version hinzugefügt wird](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Native Integrationen {#native-integrations}
       * [Überprüfen und Genehmigen von nativen Integrationen: Artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Übersicht über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
       * [Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Erste Schritte mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
