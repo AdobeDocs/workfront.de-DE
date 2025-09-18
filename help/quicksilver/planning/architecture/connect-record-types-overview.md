@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
 
 # Übersicht über verbundene Datensatztypen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Sie können angeben, dass sich einzelne Datensatztypen gegenseitig oder auf Objekte aus anderen Anwendungen beziehen, indem Sie sie verbinden.
 
@@ -75,12 +75,12 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
      Wenn Sie beispielsweise den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit der automatischen Bezeichnung „Kampagne“ wird für den Produktdatensatztyp erstellt.
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     Beispielsweise sind folgende Szenarien vorhanden:
+      * Wenn Sie die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen aktivieren und den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit der automatischen Bezeichnung „Kampagne“ wird für den Produktdatensatztyp erstellt.
+      * Wenn Sie die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen deaktivieren und den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit dem automatischen Namen „Kampagne“ wird nicht für den Produktdatensatztyp erstellt.
+     </div>
 
      Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -90,7 +90,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
       * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
       * Die Planungsdatensätze sind auf der Registerkarte Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.
@@ -132,66 +132,65 @@ Nachdem Sie eine Verbindung zwischen zwei Datensatztypen oder zwischen einem Dat
 
 Sie können auswählen, ob Sie jeweils einen Datensatz mit mehreren Datensätzen oder einen Datensatz miteinander verbinden möchten.
 
-Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld-<!--and the environment you use to create the connected fields--> hinzufügen können, können Sie im Folgenden die Verbindungstypen auswählen, aus denen Sie beim Verbinden von Datensatztypen auswählen können:
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufügen können und welche Umgebung Sie zum Erstellen der verbundenen Felder verwenden, können Sie im Folgenden die Verbindungstypen auswählen, aus denen Sie beim Verbinden von Datensatztypen auswählen können:
 
 <div class="preview">
 
-* In the Preview environment: 
+* In der Vorschau-Umgebung:
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * Wenn die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen deaktiviert ist, können Sie aus folgenden Optionen wählen:
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [Mehrfachauswahl](#multi-select-connection-type)
+      * [Einzelauswahl](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview">Wenn in der Vorschau -Umgebung die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen aktiviert ist, </span> Sie in der Produktionsumgebung aus folgenden Optionen wählen:
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [Viele-zu-viele](#many-to-many-connection-type)
+   * [Eins zu viele](#one-to-many-connection-type)
+   * [Viele-zu-eins](#many-to-one-connection-type)
+   * [Eins zu eins](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### Mehrfachauswahl-Verbindungstyp
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![Mehrfachauswahl-Verbindungstyp](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+Wenn Sie eine Mehrfachauswahl-Verbindung zwischen Datensatztypen erstellen, können Sie dann im Verbindungsfeld mehrere verbundene Datensätze aus dem ursprünglichen Datensatztyp auswählen.
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+Wenn Sie beispielsweise eine Mehrfachauswahl-Verbindung zwischen Kampagnen und Projekten erstellen, können Sie für eine Kampagne mehrere Projekte auswählen. Für den Projektobjekttyp wird kein mit Campaign verbundener Datensatztyp erstellt.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+Nachdem Sie diesen Verbindungstyp ausgewählt haben, können Sie den Verbindungstyp nach dem Speichern in einem der folgenden Typen nicht mehr ändern:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    * Einzelauswahl
+    * 1:n
+    * Viele:
+    * 1:1
 
-### Single-select connection type
+### Verbindungstyp mit Einzelauswahl
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![Verbindungstyp für Einzelauswahl](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+Wenn Sie eine Verbindung zwischen Datensatztypen erstellen, die nur einmal ausgewählt werden kann, können Sie dann im Verbindungsfeld einen Datensatz aus dem ursprünglichen Datensatztyp auswählen.
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+Wenn Sie beispielsweise eine Einzelauswahlverbindung zwischen Kampagnen und Unternehmen erstellen, können Sie ein Unternehmen für eine Kampagne auswählen. Für den Objekttyp „Unternehmen“ wird kein mit Campaign verbundener Datensatztyp erstellt.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+Nachdem Sie diesen Verbindungstyp ausgewählt haben, können Sie den Verbindungstyp nicht mehr ändern, nachdem Sie ihn in einem der folgenden Elemente gespeichert haben:
 
-    * One to many
-    * One to one
+* Eins zu viele
+* Eins zu eins
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [Viele-zu-viele](#many-to-many-connection-type)
-* [Eins zu viele](#one-to-many-connection-type)
-* [Viele-zu-eins](#many-to-one-connection-type)
-* [Eins zu eins](#many-to-one-connection-type)
 
 ### Viele-zu-viele-Verbindungstyp
 
