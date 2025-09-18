@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '2073'
 ht-degree: 4%
@@ -87,8 +87,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>Freitag, 28. August 2025</td>
-        <td>Schrittweiser Rollout ab 18. September 2025</td>
-        <td>Schrittweiser Rollout ab 18. September 2025</td>
+        <td>Schrittweiser Rollout ab 25. September 2025</td>
+        <td>Schrittweiser Rollout ab 25. September 2025</td>
     </tr>  
     <tr>
         <td>
@@ -439,7 +439,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -451,7 +451,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
