@@ -6,14 +6,16 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 2%
 
 ---
 
 # Projektvorlagen bearbeiten
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
    * [Kommentar](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### Vorlagenname{#template-name}
 
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
@@ -134,33 +135,33 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
 1. Aktualisieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Beschreibung</strong></td> 
-         <td>Fügen Sie zusätzliche Informationen über die Vorlage hinzu.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Priorität</strong></td> 
-         <td><p>Dies ist nur eine visuelle Markierung für Sie, mit der Sie Ihre zukünftigen Projekte priorisieren können. Wählen Sie aus den folgenden Optionen aus:</p> 
-         <ul> 
-         <li><p><strong>Keine</strong></p></li> 
-         <li><p><strong>Niedrig</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Hoch</strong></p></li> 
-         <li><p><strong>Dringend</strong></p></li> 
-         </ul><p><p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Prioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>Beschreibung</strong></td> 
+      <td>Fügen Sie zusätzliche Informationen über die Vorlage hinzu.</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Priorität</strong></td> 
+      <td><p>Dies ist nur eine visuelle Markierung für Sie, mit der Sie Ihre zukünftigen Projekte priorisieren können. Wählen Sie aus den folgenden Optionen aus:</p> 
+      <ul> 
+      <li><p><strong>Keine</strong></p></li> 
+      <li><p><strong>Niedrig</strong></p></li> 
+      <li><p><strong>Normal</strong></p></li> 
+      <li><p><strong>Hoch</strong></p></li> 
+      <li><p><strong>Dringend</strong></p></li> 
+      </ul><p><p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Prioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Geben Sie einen Weblink an, der sich auf Informationen zu dieser Vorlage bezieht.</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>Ist aktiv</strong></td> 
       <td><p>Aktivieren Sie diese Option, wenn die Vorlage aktiv sein soll. Andere Benutzer können diese Vorlage suchen und sie beim Erstellen von Projekten an Projekte anhängen. Deaktivieren Sie die Option, wenn Sie nicht mehr verwendete Vorlagen deaktivieren möchten. Deaktivierte Vorlagen können nicht an Projekte angehängt werden. Dies ist standardmäßig aktiviert. </p><p><b>TIPP</b></p>
 
-<p>Sie können eine Vorlage über die Vorlagenüberschrift deaktivieren, wie im Abschnitt „Aktivieren oder Deaktivieren einer Vorlage“ in diesem Artikel beschrieben.</p></td> 
+   <p>Sie können eine Vorlage über die Vorlagenüberschrift deaktivieren, wie im Abschnitt „Aktivieren oder Deaktivieren einer Vorlage“ in diesem Artikel beschrieben.</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
        <td><p>Geben Sie ein Budget für die Projekte an, die aus dieser Vorlage erstellt werden.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>Performance-Index-Methode</strong></td> 
-         <td><p>Wählen Sie aus, wie Workfront die Earned Value-Metriken des zukünftigen Projekts berechnen soll. Wählen Sie aus den folgenden Optionen:
-         <ul>
-         <li>Stundenbasiert</li>
-         <li>Kostenbasiert</li>
-         </ul>
+       <td role="rowheader"><strong>Performance-Index-Methode</strong></td> 
+       <td><p>Wählen Sie aus, wie Workfront die Earned Value-Metriken des zukünftigen Projekts berechnen soll. Wählen Sie aus den folgenden Optionen:
+       <ul>
+       <li>Stundenbasiert</li>
+       <li>Kostenbasiert</li>
+       </ul>
 
-   Weitere Informationen zur Leistungsindexmethode finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Festlegen der Leistungsindexmethode (PIM)</a>. </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Geplanter Gewinn</strong></td> 
-         <td><p>Geben Sie den geplanten Nutzen der Projekte an, die aus dieser Vorlage erstellt werden. Der Planned Benefit wird im Business Case des Projekts und des Portfolio Optimizer verwendet. </p><p>Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p><p>Weitere Informationen zur Verwendung von Portfolio Optimizer finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten in Portfolio Optimizer</a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Fixkosten</strong></td> 
-         <td><p>Geben Sie die Fixkosten für die Projekte an, die aus dieser Vorlage erstellt werden. Dies unterscheidet sich von den Lohnkosten, die aus den Stunden für das Projekt und den Ausgaben, die aus dem Betrag der Ausgaben für das Projekt stammen. Die Fixkosten eines Projekts werden bei der Berechnung des Nettowerts eines Projekts berücksichtigt und sind Teil der budgetierten Kosten.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Festeinnahmen</strong></td> 
-       <td><p>Geben Sie den Festumsatz für die Projekte an, die aus dieser Vorlage erstellt werden.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Genehmigung des Zeitaufwands für dieses Projekt verlangen</strong></td> 
-       <td><p>Wählen Sie diese Option aus, damit der Projektbesitzer des zukünftigen Projekts, das aus dieser Vorlage erstellt wurde, die für das Projekt protokollierte Zeit genehmigen muss. Wenn Sie Rechnungsnachweise verwenden und diese Option wählen, werden nur die genehmigten Stunden für das Projekt als verfügbare fakturierbare Stunden für die Rechnungsnachweise angezeigt. Die Genehmigung der Zeit für das Projekt ist unabhängig von der Genehmigung von Arbeitszeittabellen. Weitere Informationen dazu, wie viel Zeit für die Genehmigung eines Projekts benötigt wird, finden Sie unter <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Zeit für die Genehmigung eines Projekts benötigen</a>.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       Weitere Informationen zur Leistungsindexmethode finden Sie unter &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=„MCXref xref“>Festlegen der Leistungsindexmethode (PIM)&lt;/a>. &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=„rowhader“>&lt;strong>Geplanter Nutzen&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Geben Sie den geplanten Nutzen der Projekte an, die aus dieser Vorlage erstellt werden. Der Planned Benefit wird im Business Case des Projekts und des Portfolio Optimizer verwendet. &lt;/p>&lt;p>Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=„MCXref xref“>Übersicht über den geplanten Nutzen eines Projekts&lt;/a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. &lt;/p>&lt;p>Weitere Informationen zur Verwendung von Portfolio Optimizer finden Sie unter &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=„MCXref xref“>Verwalten von Projekten in Portfolio Optimizer&lt;/a> &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=„rowhader“>&lt;strong>Festkosten&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Geben Sie die Fixkosten für die Projekte an, die aus dieser Vorlage erstellt werden. Dies unterscheidet sich von den Lohnkosten, die aus den Stunden für das Projekt und den Ausgaben, die aus dem Betrag der Ausgaben für das Projekt stammen. Die Fixkosten eines Projekts werden bei der Berechnung des Nettowerts eines Projekts berücksichtigt und sind Teil der budgetierten Kosten.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=„rowhader“>&lt;strong>Fester Umsatz&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Geben Sie den Festumsatz für die Projekte an, die aus dieser Vorlage erstellt werden.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=„rowHeader“>&lt;strong>Für dieses Projekt ist eine Genehmigung der Zeit erforderlich&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Wählen Sie diese Option aus, damit der Projekteigentümer des zukünftigen Projekts, das aus dieser Vorlage erstellt wurde, die für das Projekt protokollierte Zeit genehmigen muss. Wenn Sie Rechnungsnachweise verwenden und diese Option wählen, werden nur die genehmigten Stunden für das Projekt als verfügbare fakturierbare Stunden für die Rechnungsnachweise angezeigt. Die Genehmigung der Zeit für das Projekt ist unabhängig von der Genehmigung von Arbeitszeittabellen. Weitere Informationen dazu, wie viel Zeit für die Genehmigung eines Projekts benötigt wird, finden Sie unter &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=„MCXref xref“>Für ein Projekt ist Zeit erforderlich&lt;/a>.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/tbody>
+   </table>
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -330,12 +331,12 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
        <td> <p>Meilensteinpfad für Vorlage auswählen In der Liste werden nur aktive Meilensteinpfade angezeigt.<br>Weitere Informationen zu Meilensteinpfaden finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Meilensteinpfad erstellen</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Fertigstellungsmodus</strong> </td> 
-         <td> <p>Steuert, wie das zukünftige Projekt als Abgeschlossen markiert wird. <br>Wählen Sie aus den folgenden Optionen aus:</p> 
-         <ul> 
-         <li> <p><strong>Automatisch</strong>: Das Projekt wird als Abgeschlossen markiert, wenn alle Aufgaben und Probleme abgeschlossen sind.</p> </li> 
-         <li> <p><strong>Manuell</strong>: Sie müssen den Abschlussstatus für das Projekt manuell auswählen, wenn alle Aufgaben und Probleme abgeschlossen sind. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Fertigstellungsmodus</strong> </td> 
+       <td> <p>Steuert, wie das zukünftige Projekt als Abgeschlossen markiert wird. <br>Wählen Sie aus den folgenden Optionen aus:</p> 
+       <ul> 
+       <li> <p><strong>Automatisch</strong>: Das Projekt wird als Abgeschlossen markiert, wenn alle Aufgaben und Probleme abgeschlossen sind.</p> </li> 
+       <li> <p><strong>Manuell</strong>: Sie müssen den Abschlussstatus für das Projekt manuell auswählen, wenn alle Aufgaben und Probleme abgeschlossen sind. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Zusammenfassung - Fertigstellungsmodus</strong> </td> 
@@ -346,72 +347,72 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Update-Typ</strong> </td> 
-         <td> <p>Steuert, wann die Änderungen, die Sie an der Zeitleiste des zukünftigen Projekts vornehmen, im Projekt gespeichert werden. </p> 
-         <b>BEISPIEL </b> 
-         <p>Die folgenden Änderungen am Projekt-Trigger führen zu einer Aktualisierung der Zeitleiste des Projekts:</p> 
-         <ul> 
-         <li> <p>Aktualisieren der Daten von Aufgaben</p> </li> 
-         <li> <p>Vorgängerbeziehungen ändern<br></p> </li> 
-         <li> <p>Eltern-Kind-Beziehungen ändern</p> </li> 
-         <li> <p>Zusätzlich zum Ändern der Aufgabenbeschränkung oder des Dauertyps können Sie Zuweisungen hinzufügen oder entfernen.</p> </li> 
-         </ul> 
-         </div> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
-         <ul> 
-         <li> <p><strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Zeitleiste des zukünftigen Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist (Bei Änderung). Die Zeitleiste des Projekts wird ebenfalls jede Nacht aktualisiert (automatisch).<br>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass die Zeitleiste des Projekts immer auf dem neuesten Stand ist.<br>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt durchführen, die bzw. das eine Neuberechnung der Zeitleiste Trigger, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, die längere Neuberechnungen erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Nur </strong>: Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Zeitleiste abhängig ist. Sie können diese Option auswählen, wenn Änderungen nur selten im Projekt oder in anderen Projekten auftreten, von denen die Zeitleiste abhängig ist.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Nur automatisch</strong>: Die Zeitleiste des Projekts wird jede Nacht aktualisiert. Sie wird nicht sofort nach den Änderungen aktualisiert.<br>Sie können diese Option auswählen, wenn an jedem Tag viele Änderungen im Projekt oder in anderen Projekten auftreten, von denen die Zeitleiste abhängig ist. Beachten Sie jedoch, dass Sie diese Einstellung gewählt haben, da das Projekt nicht gleichzeitig mit den Änderungen aktualisiert wird.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Nur manuelle </strong>: Die Projekt-Zeitleiste wird nur aktualisiert, wenn Sie die Option zur Neuberechnung von Zeitleisten auswählen, wie in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Neuberechnen von Projekt-Zeitleisten</a> beschrieben.<br></p> </li> 
-         </ul> <p>Sie können diese Option auswählen, wenn Sie mehrere Änderungen am Projekt gleichzeitig vornehmen und die Neuberechnung der Zeitleiste nach allen Änderungen (und nicht nach jeder einzelnen Änderung) durchgeführt werden soll.</p> </td> 
+       <td role="rowheader"><strong>Update-Typ</strong> </td> 
+       <td> <p>Steuert, wann die Änderungen, die Sie an der Zeitleiste des zukünftigen Projekts vornehmen, im Projekt gespeichert werden. </p> 
+       <b>BEISPIEL </b> 
+       <p>Die folgenden Änderungen am Projekt-Trigger führen zu einer Aktualisierung der Zeitleiste des Projekts:</p> 
+       <ul> 
+       <li> <p>Aktualisieren der Daten von Aufgaben</p> </li> 
+       <li> <p>Vorgängerbeziehungen ändern<br></p> </li> 
+       <li> <p>Eltern-Kind-Beziehungen ändern</p> </li> 
+       <li> <p>Zusätzlich zum Ändern der Aufgabenbeschränkung oder des Dauertyps können Sie Zuweisungen hinzufügen oder entfernen.</p> </li> 
+       </ul> 
+       </div> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
+       <ul> 
+       <li> <p><strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Zeitleiste des zukünftigen Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist (Bei Änderung). Die Zeitleiste des Projekts wird ebenfalls jede Nacht aktualisiert (automatisch).<br>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass die Zeitleiste des Projekts immer auf dem neuesten Stand ist.<br>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt durchführen, die bzw. das eine Neuberechnung der Zeitleiste Trigger, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, die längere Neuberechnungen erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Nur </strong>: Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Zeitleiste abhängig ist. Sie können diese Option auswählen, wenn Änderungen nur selten im Projekt oder in anderen Projekten auftreten, von denen die Zeitleiste abhängig ist.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Nur automatisch</strong>: Die Zeitleiste des Projekts wird jede Nacht aktualisiert. Sie wird nicht sofort nach den Änderungen aktualisiert.<br>Sie können diese Option auswählen, wenn an jedem Tag viele Änderungen im Projekt oder in anderen Projekten auftreten, von denen die Zeitleiste abhängig ist. Beachten Sie jedoch, dass Sie diese Einstellung gewählt haben, da das Projekt nicht gleichzeitig mit den Änderungen aktualisiert wird.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Nur manuelle </strong>: Die Projekt-Zeitleiste wird nur aktualisiert, wenn Sie die Option zur Neuberechnung von Zeitleisten auswählen, wie in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Neuberechnen von Projekt-Zeitleisten</a> beschrieben.<br></p> </li> 
+       </ul> <p>Sie können diese Option auswählen, wenn Sie mehrere Änderungen am Projekt gleichzeitig vornehmen und die Neuberechnung der Zeitleiste nach allen Änderungen (und nicht nach jeder einzelnen Änderung) durchgeführt werden soll.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Zeitplan</strong> </td> 
-         <td> <p>Wählen Sie einen Zeitplan für Ihre Vorlage aus. Dies wird zum Zeitplan des Projekts, das aus dieser Vorlage erstellt wird. Dies sollte derselbe Zeitplan sein, der den meisten Personen zugewiesen wird, die an dem Projekt arbeiten. Sie müssen einen Zeitplan erstellen, bevor Sie ihn einer Vorlage zuweisen können.<br>Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Erstellen eines Zeitplans</a>. <br>Wenn Sie in Ihrem System keine benutzerdefinierten Zeitpläne erstellt haben, wird der Standardzeitplan ausgewählt. </p> </td> 
+       <td role="rowheader"><strong>Zeitplan</strong> </td> 
+       <td> <p>Wählen Sie einen Zeitplan für Ihre Vorlage aus. Dies wird zum Zeitplan des Projekts, das aus dieser Vorlage erstellt wird. Dies sollte derselbe Zeitplan sein, der den meisten Personen zugewiesen wird, die an dem Projekt arbeiten. Sie müssen einen Zeitplan erstellen, bevor Sie ihn einer Vorlage zuweisen können.<br>Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Erstellen eines Zeitplans</a>. <br>Wenn Sie in Ihrem System keine benutzerdefinierten Zeitpläne erstellt haben, wird der Standardzeitplan ausgewählt. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Benutzer-Ausfallzeit</strong> </td> 
-         <td> <p>Legt fest, ob die Ausfallzeit des Primären Zugewiesenen einer Aufgabe die geplanten Termine der Aufgabe anpasst. Wenn Sie die Vorlage an ein vorhandenes Projekt anhängen und die Vorlage für dieses Feld eine andere Einstellung als das Projekt hat, bleibt die Einstellung für das Projekt unverändert. Die Standardoption dieser Einstellung für eine neue Vorlage entspricht der Projektvoreinstellung auf Systemebene. </p> <p>Informationen zu den Projektvoreinstellungen auf Systemebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>. </p> <p>Weitere Informationen darüber, wie sich diese Einstellung auf die Aufgabentermine in einem Projekt auswirkt, finden Sie unter <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projekte bearbeiten</a>.<br>Wählen Sie aus den folgenden Optionen aus:<br></p> 
-         <ul> 
-         <li> <p><strong>Benutzer-Ausfallzeit in Aufgabendauer berücksichtigen</strong>: Bei Auswahl dieser Option werden die geplanten Termine der Aufgaben für das auf dieser Vorlage erstellte Projekt entsprechend der Ausfallzeit des Primären Verantwortlichen für die Aufgabe angepasst, wenn die Ausfallzeit während der Aufgabendauer eintritt. </p> </li> 
-         <li> <p><strong>Benutzer-Ausfallzeit in Aufgabendauer ignorieren</strong>: Bei Auswahl dieser Option bleiben die geplanten Termine der auf dieser Vorlage erstellten Aufgaben im Projekt wie ursprünglich geplant, auch wenn der Primäre Bearbeiter der Aufgabe während der Aufgabendauer Ausfallzeiten hat. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Benutzer-Ausfallzeit</strong> </td> 
+       <td> <p>Legt fest, ob die Ausfallzeit des Primären Zugewiesenen einer Aufgabe die geplanten Termine der Aufgabe anpasst. Wenn Sie die Vorlage an ein vorhandenes Projekt anhängen und die Vorlage für dieses Feld eine andere Einstellung als das Projekt hat, bleibt die Einstellung für das Projekt unverändert. Die Standardoption dieser Einstellung für eine neue Vorlage entspricht der Projektvoreinstellung auf Systemebene. </p> <p>Informationen zu den Projektvoreinstellungen auf Systemebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>. </p> <p>Weitere Informationen darüber, wie sich diese Einstellung auf die Aufgabentermine in einem Projekt auswirkt, finden Sie unter <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projekte bearbeiten</a>.<br>Wählen Sie aus den folgenden Optionen aus:<br></p> 
+       <ul> 
+       <li> <p><strong>Benutzer-Ausfallzeit in Aufgabendauer berücksichtigen</strong>: Bei Auswahl dieser Option werden die geplanten Termine der Aufgaben für das auf dieser Vorlage erstellte Projekt entsprechend der Ausfallzeit des Primären Verantwortlichen für die Aufgabe angepasst, wenn die Ausfallzeit während der Aufgabendauer eintritt. </p> </li> 
+       <li> <p><strong>Benutzer-Ausfallzeit in Aufgabendauer ignorieren</strong>: Bei Auswahl dieser Option bleiben die geplanten Termine der auf dieser Vorlage erstellten Aufgaben im Projekt wie ursprünglich geplant, auch wenn der Primäre Bearbeiter der Aufgabe während der Aufgabendauer Ausfallzeiten hat. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Abgleichsmodus für Ressourcen</strong> </td> 
-         <td> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
-         <ul> 
-         <li> <p><strong>Manuell</strong>: Sie müssen die Ressourcen für das aus dieser Vorlage erstellte Projekt manuell abgleichen (dies ist die Standardeinstellung)</p> </li> 
-         <li> <p><strong>Automatisch: </strong> Workfront gleicht die Ressourcen für das zukünftige Projekt ab. <br>Weitere Informationen zum Abgleichen von Ressourcen finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Ressourcen abgleichen“ im Gantt-Diagramm </a>. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Abgleichsmodus für Ressourcen</strong> </td> 
+       <td> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
+       <ul> 
+       <li> <p><strong>Manuell</strong>: Sie müssen die Ressourcen für das aus dieser Vorlage erstellte Projekt manuell abgleichen (dies ist die Standardeinstellung)</p> </li> 
+       <li> <p><strong>Automatisch: </strong> Workfront gleicht die Ressourcen für das zukünftige Projekt ab. <br>Weitere Informationen zum Abgleichen von Ressourcen finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Ressourcen abgleichen“ im Gantt-Diagramm </a>. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Risiko</strong> </td> 
-         <td> <p>Definieren Sie den Risikograd der Projekte, die aus dieser Vorlage erstellt werden. Das Risiko ist nur ein Indikator dafür, wie riskant ein Projekt sein kann. Sie können die Ausführung Ihrer Projekte nach dem Risikoniveau priorisieren.<br>Ziehen Sie die Auswahl aus den folgenden Risikostufen in Betracht:<br></p> 
-         <ul> 
-         <li> <p><strong>Sehr niedrig</strong> </p> </li> 
-         <li> <p><strong>Niedrig</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>Hoch</strong> </p> </li> 
-         <li> <p><strong>Sehr hoch</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Risiko</strong> </td> 
+       <td> <p>Definieren Sie den Risikograd der Projekte, die aus dieser Vorlage erstellt werden. Das Risiko ist nur ein Indikator dafür, wie riskant ein Projekt sein kann. Sie können die Ausführung Ihrer Projekte nach dem Risikoniveau priorisieren.<br>Ziehen Sie die Auswahl aus den folgenden Risikostufen in Betracht:<br></p> 
+       <ul> 
+       <li> <p><strong>Sehr niedrig</strong> </p> </li> 
+       <li> <p><strong>Niedrig</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>Hoch</strong> </p> </li> 
+       <li> <p><strong>Sehr hoch</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Ressourcenpools</strong> </td> 
-         <td> <p>Geben Sie die mit der Vorlage verknüpften Ressourcenpools an. Ressourcenpools sind Sammlungen von Benutzern, die gleichzeitig für die Durchführung eines Projekts benötigt werden. Weitere Informationen zu Ressourcenpools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcenpools - Übersicht </a>.</p> <p> <p><b>NOTIZ</b>
+       <td role="rowheader"><strong>Ressourcenpools</strong> </td> 
+       <td> <p>Geben Sie die mit der Vorlage verknüpften Ressourcenpools an. Ressourcenpools sind Sammlungen von Benutzern, die gleichzeitig für die Durchführung eines Projekts benötigt werden. Weitere Informationen zu Ressourcenpools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcenpools - Übersicht </a>.</p> <p> <p><b>NOTIZ</b>
 
-   Wenn Sie Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcenpools angezeigt, die allen ausgewählten Vorlagen gemeinsam sind. Wenn die ausgewählten Vorlagen keine freigegebenen Ressourcenpools haben, ist dieses Feld leer. Die hier angegebenen Ressourcenpools überschreiben die einzelnen Ressourcenpools der Vorlagen.</p> </p> </td>
-   </tr>
-
+       Wenn Sie Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcenpools angezeigt, die allen ausgewählten Vorlagen gemeinsam sind. Wenn die ausgewählten Vorlagen keine freigegebenen Ressourcenpools haben, ist dieses Feld leer. Die hier angegebenen Ressourcenpools überschreiben die einzelnen Ressourcenpools der Vorlagen.&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>Genehmigung des Zeitaufwands für dieses Projekt verlangen</strong></td>
 
-<td><p>Wählen Sie diese Option aus, damit der zukünftige Projektbesitzer des mit dieser Vorlage erstellten Projekts die für das Projekt protokollierte Zeit genehmigen muss.</p> 
+   <td><p>Wählen Sie diese Option aus, damit der zukünftige Projektbesitzer des mit dieser Vorlage erstellten Projekts die für das Projekt protokollierte Zeit genehmigen muss.</p> 
    <p>Wenn Sie Rechnungsnachweise verwenden und diese Option wählen, werden nur die genehmigten Stunden für das Projekt als verfügbare fakturierbare Stunden für die Rechnungsnachweise angezeigt. </p>
    <p>Die Genehmigung der Zeit für das Projekt ist unabhängig von der Genehmigung von Arbeitszeittabellen. Weitere Informationen dazu, wie viel Zeit für die Genehmigung eines Projekts benötigt wird, finden Sie unter <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Zeit für die Genehmigung eines Projekts benötigen</a>.</p>
    </td> 
@@ -431,8 +432,8 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
    <li>In der Liste werden nur aktive Genehmigungsprozesse angezeigt. </li> 
    <li> <p>In der Liste werden systemweite und gruppenspezifische Genehmigungsprozesse angezeigt. Ein Genehmigungsprozess, der mit einer anderen Gruppe als der der Vorlage verknüpft ist, wird nicht in der Liste angezeigt.</p> <p><b>WICHTIG</b>
 
-Wenn sich die mit der Vorlage verknüpfte Gruppe ändert, wird der gruppenspezifische Genehmigungsprozess zu einem einmaligen Genehmigungsprozess. Weitere Informationen darüber, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Genehmigungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Wie sich Änderungen an Gruppen- und Genehmigungsprozessen auf zugewiesene Genehmigungsprozesse auswirken</a>. </p> </li>
-<li> <p>Wenn Sie einen Genehmigungsprozess für den einmaligen Gebrauch hinzugefügt haben, wird er in diesem Feld als „Benutzerdefiniert“ angezeigt. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit</a>. </p> 
+   Wenn sich die mit der Vorlage verknüpfte Gruppe ändert, wird der gruppenspezifische Genehmigungsprozess zu einem einmaligen Genehmigungsprozess. Weitere Informationen darüber, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Genehmigungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Wie sich Änderungen an Gruppen- und Genehmigungsprozessen auf zugewiesene Genehmigungsprozesse auswirken</a>. </p> </li>
+   <li> <p>Wenn Sie einen Genehmigungsprozess für den einmaligen Gebrauch hinzugefügt haben, wird er in diesem Feld als „Benutzerdefiniert“ angezeigt. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit</a>. </p> 
       </li> 
       <li> <p>Bei der Massenbearbeitung von Vorlagen gibt es die folgenden Szenarien:</p> 
       <ul> 
@@ -613,6 +614,10 @@ So bearbeiten Sie Vorlagen stapelweise:
 
    Das **Vorlage bearbeiten** wird geöffnet.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Vorlagen bearbeiten](assets/bulk-edit-templates-0925.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Vorlagen bearbeiten](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
@@ -631,7 +636,7 @@ So bearbeiten Sie Vorlagen stapelweise:
    * Probleme
    * Kommentar
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken <span class="preview">**auf**</span> oder **Änderungen speichern**.
 
    Alle von Ihnen vorgenommenen Änderungen sind nun in allen ausgewählten Vorlagen sichtbar.
 
