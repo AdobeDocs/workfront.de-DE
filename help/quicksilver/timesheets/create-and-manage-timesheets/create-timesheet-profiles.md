@@ -6,9 +6,9 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1635'
 ht-degree: 2%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 2%
 # Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen werden nach einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar sein.
-
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
-</div>
 
 Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen, die ohne weiteres Eingreifen von Ihnen wiederkehrende Arbeitszeittabellen für Ihre Benutzer generieren. Dies spart Zeit und stellt sicher, dass Folgendes zwischen den Benutzern konsistent ist:
 
@@ -182,9 +172,9 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
     </tbody> 
     </table>
 
-1. Klicken Sie in der Produktionsumgebung oder beim Erstellen von Arbeitszeittabellenprofilen auf Gruppenebene auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellenprofil mit bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zu verknüpfen. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. Klicken Sie beim Erstellen von Arbeitszeittabellenprofilen auf Gruppenebene auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellenprofil mit bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zu verknüpfen. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview">Scrollen Sie in der Vorschau-Umgebung beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
