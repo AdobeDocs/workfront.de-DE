@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Aktualisierungen des Workfront-Benutzerprofils
+
+>[!NOTE]
+>
+>* Vorschau: 28. August 2025
+>* Produktion für alle Kunden: Schrittweiser Rollout ab 18. September 2025
+
+Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.
+
+Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:
+
+* Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.
+* Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde entfernt, da sie sich auf eine veraltete Funktion bezieht.
+
+Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Neue Pinnwand-Administratoransicht
 
@@ -46,26 +62,7 @@ Weitere Informationen zum Festlegen von Systemvoreinstellungen finden Sie [Konfi
 
 Voraussetzungen für die Aktivierung von KI-Funktionen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-## Aktualisierungen des Workfront-Benutzerprofils
 
->[!IMPORTANT]
->
->Dieses Update wurde vorübergehend aus der Vorschau und Produktion entfernt.
-
-
->[!NOTE]
->
->* Vorschau: 28. August 2025
->* Produktion für alle Kunden: 4. September 2025
-
-Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.
-
-Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:
-
-* Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.
-* Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde entfernt, da sie sich auf eine veraltete Funktion bezieht.
-
-Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular
 

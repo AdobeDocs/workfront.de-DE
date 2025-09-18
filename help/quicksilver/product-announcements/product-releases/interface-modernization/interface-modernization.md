@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,25 @@ Für die Bearbeitung von Portfolios im Feld Portfolio bearbeiten wurden Benutzer
 
 Weitere Informationen finden Sie unter [Portfolios bearbeiten](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
+## Programme
+
+### Aktualisierungen der Benutzeroberfläche im Feld Programm bearbeiten
+
+**Vorschau-Version: 18. September 2025; Produktions-Version: 25. September 2025**
+
+Das Erscheinungsbild des Felds Programm bearbeiten wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
+
+Weitere Informationen finden Sie unter [Programme bearbeiten](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
+
 ## Projekte
+
+### Aktualisierung der Benutzeroberfläche bei der Massenbearbeitung von Vorlagen
+
+**Vorschau-Version: 18. September 2025; Produktions-Version: 25. September 2025**
+
+Das Erscheinungsbild des Felds Vorlagen bearbeiten wurde aktualisiert, wenn Vorlagen aus einer Liste von Vorlagen stapelweise bearbeitet werden. Die Informationen im Feld Vorlagen bearbeiten sind nun so organisiert, dass sie mit dem Bearbeitungsfeld für einzelne Vorlagen übereinstimmen.
+
+Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ### Aktualisierungen der Benutzeroberfläche für eine Projektliste oder einen Bericht beim Anwenden der Meilenstein -Ansicht
 
@@ -376,17 +394,16 @@ Weitere Informationen finden Sie unter
 
 ## Benutzende
 
-<!--
-### Interface updates for the New User dialog
+### Aktualisierungen der Benutzeroberfläche für das Dialogfeld „Neue Benutzer“
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**Vorschau-Version: 18. September 2025; Produktions-Version: 18. September 2025**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, damit es dem Design in anderen Bereichen des Programms entspricht.
 
-To view this change, go to Users > New User > New User.
+Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2073'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront-Benutzerprofils</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
-            <p><i>Dieses Update wurde vorübergehend aus der Vorschau und Produktion entfernt.</i></p>
             <p>Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.</p>
             <p>Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
             <ul>
@@ -88,8 +87,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>Freitag, 28. August 2025</td>
-        <td>Freitag, 4. September 2025</td>
-        <td>Freitag, 4. September 2025</td>
+        <td>Schrittweiser Rollout ab 18. September 2025</td>
+        <td>Schrittweiser Rollout ab 18. September 2025</td>
     </tr>  
     <tr>
         <td>
@@ -440,7 +439,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Salesforce.
 
 Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
-Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
 
@@ -452,7 +451,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
