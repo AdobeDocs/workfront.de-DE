@@ -6,7 +6,7 @@ description: Mit Data Connect können Workfront-Admins auf detaillierte Datensä
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In der Ansicht Vorgangsverlauf können Workfront-Admins auf detaillierte Datensätze jedes Datenaktualisierungsauftrags zugreifen. Diese Datensätze liefern wertvolle insight für die Aufträge, mit denen Ihre Daten auf dem neuesten Stand gehalten werden, und helfen Ihnen, optimale Zeitrahmen für die Ausführung von Prozessen und die Aktualisierung Ihrer Geschäftsvisualisierungen festzulegen.
 
-![Vorgangsverlauf anzeigen](assets/job-history-tab.png)
+![Vorgangsverlauf anzeigen](assets/job-history-overview.png)
 
 Die Spalten der Vorgangsverlauf-Ansicht enthalten die folgenden Informationen:
 
