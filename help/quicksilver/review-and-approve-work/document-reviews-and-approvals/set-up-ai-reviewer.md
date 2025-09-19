@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: KI-Reviewer erstellen
-description: Sobald Sie in GenStudio Foundations mindestens eine Marke eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zuweisen können.
+description: Nachdem Sie mindestens eine Marke in GenStudio Foundation eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Diese Funktion befindet sich derzeit in der Betaphase.
 
-Sobald Sie in GenStudio Foundations mindestens eine Marke eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zuweisen können.
+Nachdem Sie mindestens eine Marke in GenStudio Foundation eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie in GenStudio Foundations Richtlinien für Image-Marken einrichten.
+Bevor Sie beginnen, müssen Sie in GenStudio Foundation Richtlinien für die Bild-Markendarstellung einrichten.
 
-Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Hinzufügen eines KI-Reviewers
 
@@ -72,7 +72,7 @@ Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste
 
    Nachdem der KI-Reviewer erstellt wurde, können Benutzer den KI-Reviewer zu Genehmigungsvorlagen oder Einzelgenehmigungen hinzufügen.
 
-   Weitere Informationen finden Sie unter
+   Weitere Informationen finden Sie unter 
 
    * [Erstellen einer Validierungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
