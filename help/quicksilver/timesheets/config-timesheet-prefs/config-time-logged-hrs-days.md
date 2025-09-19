@@ -6,9 +6,9 @@ description: Als Anwender mit Planlizenz können Sie konfigurieren, ob Sie die Z
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Suchen Sie im daraufhin angezeigten Dialogfeld im Abschnitt **Ressourcenplanung** die Option **Zeit erfassen**.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Zeit in Optionen erfassen](assets/user-profile-log-time-options.png)
 
 1. (Bedingt) Wenn Sie Systemadministrator sind und mehrere Benutzer gleichzeitig bearbeiten, wählen Sie **Zeit erfassen** aus.
 1. Wählen Sie aus den folgenden Optionen für die Zeitprotokollierung aus:
