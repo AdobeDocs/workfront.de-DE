@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
 workflow-type: tm+mt
-source-wordcount: '13511'
+source-wordcount: '13516'
 ht-degree: 2%
 
 ---
@@ -886,6 +886,7 @@ ht-degree: 2%
       * [Überblick über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Zusammenfassen mithilfe des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Hilfe vom KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [KI-Assistent meldet Best Practices](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
       * [Überarbeiten von berechneten Feldformeln mit dem KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [Verwenden des KI-Assistenten für die Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
