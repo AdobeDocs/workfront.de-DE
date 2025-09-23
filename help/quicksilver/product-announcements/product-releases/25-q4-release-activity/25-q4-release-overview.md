@@ -78,7 +78,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen der Workfront User Profil</a><p>[! ABZEICHEN Außerhalb des Zeitplans]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen der Workfront User Profil</a><p>[ ! ABZEICHEN Außerhalb des Zeitplans]{type=Neutral}</p>
             <p>Wir haben die Look-and-Feel der Workfront User Profil auf eine moderne Design aktualisiert, die mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für einen Administrator, der eine einzelne Profil oder mehrere Profile gleichzeitig bearbeitet, als auch für einen User, der seine eigenen Profil bearbeitet.</p>
             <p>Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
             <ul>
@@ -138,7 +138,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen – phasenweiser Rollout</a><p>[! ABZEICHEN Außerhalb des Zeitplans]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen – phasenweiser Rollout</a><p>[ ! ABZEICHEN Außerhalb des Zeitplans]{type=Neutral}</p>
             <p>Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.</p>
             <p>Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die neuen Funktionen. 
 </p>
