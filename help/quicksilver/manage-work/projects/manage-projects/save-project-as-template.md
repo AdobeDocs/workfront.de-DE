@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Speichern eines Projekts als Vorlage
-description: Speichern eines Projekts als Vorlage „Als Vorlage speichern“ auf Projektebene, damit die Benutzer dies in der Benutzeroberfläche sehen. Es gibt einen anderen Artikel, auf den dieser Link verweist, der ausführlicher ist (Schritt-für-Schritt). Diese Funktion muss in beiden Bereichen von Projekten UND Vorlagen beibehalten werden.)“
+description: Speichern Sie ein Projekt als Vorlage auf Projektebene, damit die Benutzer dies in der Benutzeroberfläche sehen. Es gibt einen anderen Artikel, auf den dieser Link verweist, der ausführlicher ist (Schritt für Schritt). Diese Funktion muss in beiden Bereichen von Projekten UND Vorlagen beibehalten werden.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Wenn Sie festlegen, dass ein Projekt zu einem späteren Zeitpunkt wieder ausgef�
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 

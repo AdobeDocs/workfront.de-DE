@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden
-description: Verfügbare, geplante und tatsächliche Stunden oder FTEs im Ressourcenplaner anzeigen, wenn Sie die „User view Planning“ im Ressourcenplaner verwenden. Dies kann z. B. „Budgetieren von Ressourcen im Ressourcenplaner“ oder „Verwalten von Ressourcen im Ressourcenplaner“ sein. etc… - oder ggf. von einem anderen POV umgewidmet werden müssen?!“
+description: Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht „Planung“ im Ressourcenplaner verwenden - z. B. „Budgetierung von Ressourcen im Ressourcenplaner“ oder „Verwaltung von Ressourcen im Ressourcenplaner“. etc… - oder ggf. von einem anderen POV?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
@@ -75,7 +75,7 @@ In den folgenden Tabellen finden Sie Informationen zu den in der Benutzeransicht
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td>Die Gesamtzahl der verfügbaren Stunden (VZÄ) für den Benutzer gemäß seinem Zeitplan. </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ In den folgenden Tabellen finden Sie Informationen zu den in der Benutzeransicht
    <td>Diese Informationen sind für das Projekt nicht verfügbar, wenn die Benutzeransicht auf den Ressourcenplaner angewendet wird. </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Gesamtzahl der verfügbaren Stunden oder VZÄ für die Rolle gemäß dem Zeitplan des Benutzers und dem <strong>Prozentsatz der VZÄ-Verfügbarkeit</strong> der Rolle.</p> </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ Weitere Informationen dazu, wie die Benutzer- und Rollenverfügbarkeit basierend
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td> Die Gesamtzahl der geplanten Stunden (FTE) aus allen Aufgaben oder Problemen, die dem Benutzer in allen Projekten zugewiesen wurden.<br><p>Dazu gehören Aufgaben und Probleme, die dem/der Benutzenden zugewiesen sind, aber keinem Aufgabengebiet zugeordnet sind, sowie Aufgaben oder Probleme, die nicht in Projekten enthalten sind, auf die Sie Zugriff haben, um sie zu verwalten.</p><p>Wenn die Benutzerzuordnung für Stunden mithilfe des Workload Balancer geändert wurde, können die Daten im Ressourcenplaner beeinflusst werden, wenn die ausgewählten Datumsangaben nur einen Teil einer Aufgabe oder eines Problems enthalten. Informationen zum Ändern der Zuweisungen für -Benutzer finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload-Balancer</a> . </p></td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ Weitere Informationen dazu, wie die Benutzer- und Rollenverfügbarkeit basierend
    <td> Die Gesamtzahl der geplanten Stunden (FTE) aus allen Aufgaben und Problemen, die einem bestimmten Benutzer im Projekt zugewiesen wurden.<br><p>Hinweis: Dies umfasst nicht die geplanten Stunden oder VZÄ aus Aufgaben oder Problemen, die keinem Benutzer zugewiesen sind. </p></td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Gesamtzahl der geplanten Stunden oder VZÄ aus allen Aufgaben und Problemen, die dem Benutzer in dieser Funktion im Projekt zugewiesen wurden.</p> <p> <p>Hinweis: Dies umfasst nicht die geplanten Stunden oder FTEs aus Aufgaben oder Problemen, die dieser Rolle, aber nicht diesem Benutzer in dieser Rolle zugewiesen sind. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ Weitere Informationen zu den geplanten Stunden und VZÄ im Ressourcenplaner find
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer </td> 
+   <td>Benutzerin bzw. Benutzer </td> 
    <td> <p>Die Zeit, die der Benutzer bei allen ihm zugewiesenen Aufgaben oder Problemen protokolliert hat.</p> <p>Dazu gehört Folgendes:</p> 
     <ul> 
      <li>Aufgaben und Probleme, die dem/der Benutzenden zugewiesen sind, aber keinem Aufgabengebiet zugeordnet sind.</li> 
@@ -182,7 +182,7 @@ Weitere Informationen zu den geplanten Stunden und VZÄ im Ressourcenplaner find
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Zeit, die für alle Aufgaben oder Probleme protokolliert wurde, die dem Benutzer in dieser Rolle zugewiesen wurden. </p> <p>Dies umfasst nicht Folgendes:</p> 
     <ul> 
      <li>Zeit, die für Aufgaben und Probleme protokolliert wurde, die dieser Rolle, aber nicht diesem Benutzer in dieser Rolle zugewiesen wurden.</li> 
@@ -213,7 +213,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td> <p>Die Differenz zwischen der verfügbaren und der geplanten Stunde oder FTE des Benutzers. </p> <p>Die Differenz zwischen Stunde und FTE wird nach folgender Formel berechnet:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, ist der Benutzer überlastet. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
    <td>Diese Informationen sind für das Projekt nicht verfügbar. </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Differenz zwischen der verfügbaren und der geplanten Stunde (FTE) des Aufgabengebiets. </p> <p>Die Differenz zwischen Stunde und FTE wird nach folgender Formel berechnet:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, ist die Rolle überlastet. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td> <p>Die Zuordnung der geplanten Stunden oder FTE als Prozentsatz der verfügbaren Stunden. Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Für VZÄ-Werte wird dieselbe Berechnung verwendet. </p> </td> 
   </tr> 
   <tr> 
@@ -250,7 +250,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
    <td>Diese Informationen sind für das Projekt nicht verfügbar, wenn die Ansicht <strong>Nach Benutzer anzeigen</strong> auf den Ressourcenplaner angewendet wird.</td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> Die Zuordnung der geplanten Stunden oder FTE als Prozentsatz der verfügbaren Stunden. <p>Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Für VZÄ-Werte wird dieselbe Berechnung verwendet.</p></td> 
   </tr> 
   <tr> 
