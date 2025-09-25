@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 <!--add another step about drag and drop here when that is available-->
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Kalenderansicht. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Bedingt) Bewegen Sie den Mauszeiger in der monatlichen Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf ein anderes Datum, ziehen Sie die Ränder und legen Sie sie ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
+1. <span class="preview">(Bedingt) Bewegen Sie den Mauszeiger in der Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf, ziehen Sie die Ränder und legen Sie sie an einem anderen Datum ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
 
    <span class="preview">![Leiste am linken Ende der Kalenderansicht, deren Größe geändert werden soll](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

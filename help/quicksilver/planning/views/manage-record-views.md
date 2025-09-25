@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1260'
 ht-degree: 2%
 
 ---
@@ -187,13 +187,12 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Klicken Sie auf **+ Ansicht**, um eine neue Ansicht hinzuzufügen.
+1. Führen Sie je nach verwendeter Umgebung die folgenden Schritte aus:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * Klicken Sie in der Produktionsumgebung auf die Registerkarte **+Ansicht**.
+   * <span class="preview">Klicken Sie in der Vorschau-Umgebung auf das Dropdown-Symbol ![Dropdown-Symbol](assets/drop-down-icon.png) neben dem Namen der aktuellen Ansicht und dann auf **+Neue Ansicht**.</span>
+
+1. <span class="preview">Ziehen Sie aus dem Dropdown-Menü Ansicht die Ansichten per Drag-and-Drop in die gewünschte Reihenfolge.</span>
 1. Wählen Sie aus den folgenden Ansichtstypen:
 
    * Tabelle
