@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2204'
 ht-degree: 4%
 
 ---
@@ -39,10 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-Verbesserungen
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
-* [Verbesserungen bei Dashboards](#dashboards)
-* [Verbesserungen bei Dokumenten und Korrekturhilfen](#document-and-proofing-enhancements)
-* [Verbesserungen für zu Hause](#home-enhancements)
-* [Projekt Verbesserungen](#project-enhancements)
+* [Verbesserungen an Dashboards](#dashboards)
+* [Verbesserungen bei Dokumenten und Proofing](#document-and-proofing-enhancements)
+* [Home-Verbesserungen](#home-enhancements)
+* [Projektverbesserungen](#project-enhancements)
 * [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Verbesserungen bei Anfragen](#requests-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
@@ -60,10 +60,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Bestätigung beim Entfernen eines benutzerdefinierten Formulars aus einem Objekt</a><p></p>
+            <p>Um den Zugriff auf die benötigten Daten sicherzustellen, haben wir beim Entfernen eines benutzerdefinierten Formulars aus einem -Objekt ein Bestätigungsdialogfeld hinzugefügt. Wenn Sie ein benutzerdefiniertes Formular aus einem Objekt entfernen, werden die Daten in diesem Formular dauerhaft aus dem Objekt entfernt. Jetzt können Sie im Dialogfeld bestätigen, dass Sie verstanden haben, dass diese Daten entfernt werden, und sicherstellen, dass Sie die benötigten Daten nicht entfernen. </p>
+        </td>
+        <td>Freitag, 25. September 2025</td>
+        <td>Donnerstag, 15. Oktober 2025</td>
+        <td>Freitag, 16. Oktober 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Neue Pinnwand-Administratoransicht</a><p></p>
             <p>Die Admin-Ansicht der Pinnwände enthält eine Liste aller Pinnwände in Ihrem Konto, die Systemadministratoren verwenden können, um einen schnellen Überblick über die gesamten Pinnwand-Details zu erhalten, einschließlich des Zeitpunkts der letzten Aktualisierung, der Anzahl der Karten, die jede Karte hat, und mehr.</p>
         </td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Donnerstag, 15. Oktober 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr> 
@@ -73,13 +82,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Damit Sie bevorstehende KI-Funktionen leichter sehen und beeinflussen können, haben wir es Ihnen ermöglicht, die Beta-Version dieser Funktionen für Ihre Organisation zu aktivieren. Jetzt können Sie in Ihren Systemeinstellungen eine oder mehrere der derzeit verfügbaren KI-Beta-Funktionen aktivieren.</p>
         </td>
         <td>Freitag, 28. August 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen der Workfront User Profil</a><p>[ ! ABZEICHEN Außerhalb des Zeitplans]{type=Neutral}</p>
-            <p>Wir haben die Look-and-Feel der Workfront User Profil auf eine moderne Design aktualisiert, die mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für einen Administrator, der eine einzelne Profil oder mehrere Profile gleichzeitig bearbeitet, als auch für einen User, der seine eigenen Profil bearbeitet.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront-Benutzerprofils</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Das Erscheinungsbild des Workfront-Benutzerprofils wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Diese Aktualisierungen gelten sowohl für Administratoren, die ein einzelnes Profil oder mehrere Profile gleichzeitig bearbeiten, als auch für Benutzer, die ihre eigenen Profile bearbeiten.</p>
             <p>Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
             <ul>
                 <li>Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.</li>
@@ -88,12 +97,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td>Freitag, 28. August 2025</td>
         <td>Schrittweiser Rollout ab 25. September 2025</td>
-        <td>Phasenweise Rollout ab 25. September 2025</td>
+        <td>Schrittweiser Rollout ab 25. September 2025</td>
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">hinzufügen Optionen mit mehreren Werten aus einer externen API in ein benutzerdefiniertes Formular</a><p></p>
-            <p>Ein neuer Feldtyp, die Mehrfachauswahl externer Suche, ist jetzt im Designer für benutzerdefinierte Formulare verfügbar. Wenn Sie Daten auf einem externen System gespeichert haben, können Sie mit diesem Feldtyp Optionen aus einer externen API laden und basierend auf anderen Feldwerten im benutzerdefinierten Formular filtern. Dies ist dasselbe wie eine externe Suche mit Einzelauswahl.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Hinzufügen mehrerer Wertoptionen aus einer externen API zu einem benutzerdefinierten Formular</a><p></p>
+            <p>Ein neuer Feldtyp, die Mehrfachauswahl externer Suche, ist jetzt im Designer für benutzerdefinierte Formulare verfügbar. Wenn Daten in einem externen System gespeichert sind, können Sie mit diesem Feldtyp Optionen aus einer externen API laden und basierend auf anderen Feldwerten im benutzerdefinierten Formular filtern. Dies ist dasselbe wie eine externe Suche mit Einzelauswahl.</p>
             <p>Wenn das Formular zu einem Objekt hinzugefügt wird, erscheinen die von der API zurückgegebenen Werte in einem Dropdown-Feld, und der Benutzer kann mehrere Werte auswählen.</p>
         </td>
         <td>Freitag, 31. Juli 2025</td>
@@ -138,20 +147,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen – phasenweiser Rollout</a><p>[ ! ABZEICHEN Außerhalb des Zeitplans]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Einheitliche Genehmigungen - schrittweiser Rollout</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.</p>
             <p>Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die neuen Funktionen. 
 </p>
         </td>
         <td>Schrittweiser Rollout ab 17. Juli 2025</td>
-        <td>Phased Rollout ab 17. Juli 2025</td>
-        <td>Phased Rollout ab 17. Juli 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
+        <td>Schrittweiser Rollout ab 17. Juli 2025</td>
     </tr> 
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Neu Workfront AI Reviewer</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Neuer Workfront AI-Reviewer</a><p></p>
             <p>Hinweis: Diese Funktion befindet sich derzeit in der Betaphase.</p>
-            <p>Der neue Workfront AI Reviewer trägt dazu bei, die Einhaltung der Werbetreibender Image sicherzustellen, indem er Inhalte automatisch anhand Ihrer Werbetreibender-Richtlinien überprüft, beginnend mit den Bildrichtlinien. Er bietet eine Bewertung und umsetzbares Feedback, um den Genehmigungsprozess zu optimieren. </p>
+            <p>Der neue Workfront AI Reviewer trägt dazu bei, die Einhaltung der Markenrichtlinien sicherzustellen, indem Inhalte automatisch anhand Ihrer Markenrichtlinien überprüft werden, beginnend mit den Bildrichtlinien. Er bietet eine Bewertung und umsetzbares Feedback, um den Genehmigungsprozess zu optimieren. </p>
             <p>Sie können den KI-Reviewer zu Genehmigungsvorlagen oder einzelnen Prüfungs- und Genehmigungsanfragen hinzufügen, was eine schnellere Inhaltserstellung bei gleichzeitiger Einhaltung von Markenstandards ermöglicht.</p>
         </td>
         <td>Freitag, 14. August 2025</td>
@@ -167,7 +176,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <li>Führen Sie mit dem Workfront Proofing Viewer tiefgründige Überprüfungen durch, indem Sie Markierungen, Anmerkungen und Kommentare zeichnen</li>
             <li>Einhaltung von Unternehmensstandards durch elektronische Signaturen und vollständige Auditprotokolle</li>
             <li>Genehmigung für alle Remix-Dateien aus einer Express-Markenvorlage verlangen</li>
-            <li>Zuordnen einer Express-Vorlage zu einer Überprüfung und Genehmigung mit mehreren Schritt arbeitsablauf mithilfe erweiterter Testversand Vorlagen</li>
+            <li>Zuordnen einer Express-Vorlage zu einem mehrstufigen Prüfungs- und Genehmigungs-Workflow mithilfe erweiterter Korrekturabzugsvorlagen</li>
             </ul>
         </td>
         <td>Dienstag, 28. Juli 2025</td>
@@ -177,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Verbesserungen für zu Hause
+### Home-Verbesserungen
 
 <table style="table-layout:auto">
   <tbody>
@@ -201,7 +210,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Das neue Widget Meine Anfragen zeigt nur die Anfragen an, die in der neuen Anfrageerfahrung erstellt wurden.</p>
         </td>
         <td>Freitag, 21. August 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr>     
   </tbody>
@@ -231,11 +240,11 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Neues Projekt - Gesundheit - Beta</a>
             <p>Die neue Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit des KI-Assistenten, um Ihnen sofort einen Überblick darüber zu geben, wie Ihre Projekte funktionieren und welche Bereiche Ihrer Aufmerksamkeit bedürfen.</p>
-            <p>Der KI-Assistent kann eine Projekt Zustandsbewertung für ein Projekt, eine Programm und mehrere Projekte generieren.</p>
+            <p>Der KI-Assistent kann eine Bewertung des Projektzustands für ein Projekt, ein Programm und mehrere Projekte generieren.</p>
         </td>
-        <td>Freitag, 11. September 2025</td>
-        <td>Freitag, 11. September 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
+        <td>11. September 2025</td>
+        <td>11. September 2025</td>
     </tr> 
   <tr>
         <td>
@@ -253,11 +262,11 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Zusätzliche Möglichkeit, über Listen auf Erweitert Zuweisungen zuzugreifen</a><p></p>
-            <p>Für Aufgaben in Listen steht nun eine <b>Erweitert</b> Button zur Verfügung, mit der Sie schneller auf die Seite "Erweitert Assignments" zugreifen können. Das <b>Symbol für Personen</b> , um zu Erweitert Aufgaben zu gelangen, ist auch für Aufgaben in Listen verfügbar.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Zusätzliche Möglichkeit, über Listen auf erweiterte Zuweisungen zuzugreifen</a><p></p>
+            <p>Eine <b>Erweitert</b>-Schaltfläche ist jetzt für Zuweisungen in Listen verfügbar, sodass Sie schneller auf die Seite Erweiterte Zuweisungen zugreifen können. Das <b>Personen</b>-Symbol, um zu erweiterten Zuweisungen zu gelangen, ist auch für Zuweisungen in Listen verfügbar.</p>
         </td>
         <td>Freitag, 7. August 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr> 
   </tbody>
@@ -271,12 +280,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Funktion</strong>
         </td>
         <td><strong>Vorschau</strong></td>
-        <td><strong>Schnelle Freigabe</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Workload Balancer ist jetzt auf Ihrem User Profil verfügbar</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Der Workload Balancer ist jetzt in Ihrem Benutzerprofil verfügbar</a><p></p>
             <p>Alle Benutzer können jetzt ihre eigenen Bedarfs- und Kapazitätsdaten im Workload Balancer in ihrem Profil anzeigen, unabhängig von ihrer Zugriffsebene. Wenn Sie auf Ihr Workfront-Benutzerprofil zugreifen, wird der Workload-Balancer im linken Navigationsbereich angezeigt.</p>
             <p>Workload-Balancer-Daten für einen Benutzer sind schreibgeschützt. Auf Benutzerebene können Sie keine Arbeit zuweisen, die Zuweisung von Arbeit aufheben oder Zuordnungen anpassen.</p>
         </td>
@@ -286,8 +295,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Rollenzuweisungen werden im Workload Balancer angezeigt </a><p></p>
-            <p>Ressource Manager können jetzt Aufträge Rolle Zuweisungen im Workload Balancer überprüfen. Die Zuweisungen werden im Bereich "Nicht zugewiesene Arbeit" unter den Aufgaben oder Problemen angezeigt, denen die Rollen zugewiesen sind. Im Bereich Zugewiesene Arbeit werden nur Arbeitselemente angezeigt, die Benutzern zugewiesen sind. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Rollenzuweisungen werden im Workload-Balancer-</a> angezeigt<p></p>
+            <p>Ressourcenmanager können jetzt im Workload-Balancer Aufgabenrollenzuweisungen überprüfen. Die Zuweisungen werden im Bereich Nicht zugewiesene Arbeit unter den Aufgaben oder Problemen angezeigt, denen die Rollen zugewiesen sind. Im Bereich Zugewiesene Arbeit werden nur Arbeitselemente angezeigt, die Benutzern zugewiesen sind. </p>
             <p>Die neue Einstellung für den Workload Balancer „Rollenzuweisungen anzeigen“ bestimmt, ob Rollenzuweisungen angezeigt werden. Die Einstellung ist standardmäßig aktiviert.</p>
         </td>
         <td>Freitag, 31. Juli 2025</td>
@@ -297,7 +306,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Verbesserungen bei Anforderungen
+### Verbesserungen bei Anfragen
 
 <table style="table-layout:auto">
   <tbody>
@@ -314,7 +323,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Um das einheitliche Anfrageerlebnis zu vereinfachen, zeigt die Spalte Status jetzt sowohl Anfragestatus als auch Genehmigungsstatus an, je nachdem, was für eine bestimmte Anfrage gilt.</p>
         </td>
         <td>Freitag, 28. August 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr>     
     <tr>
@@ -323,14 +332,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebnis zu schaffen, haben wir das anfragende Erlebnis aktualisiert. Jetzt können Sie:
             <ul>
                 <li>Workfront- und Workfront-Planungsanfragen in einer Liste anzeigen.</li>
-                <li>Filtern eingereichten Anfragen auf Grundlage von von Ihnen angegebenen Kriterien eingereicht.</li>
-                <li>Search nach Workfront Anfrage-Warteschlangen und Workfront Planning-Formularen in einer konsolidierten Erlebnis und wählen Sie diese aus.</li>
+                <li>Filtern Sie gesendete Anfragen nach von Ihnen angegebenen Kriterien.</li>
+                <li>Suchen Sie in einem konsolidierten Erlebnis nach Workfront-Anfragewarteschlangen und Workfront Planning-Formularen und wählen Sie sie aus.</li>
                 <li>Spalten in der Liste der gesendeten Anfragen ausblenden und neu anordnen.</li>
             </ul>
             </p>
         </td>
         <td>Freitag, 21. August 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr>     
   </tbody>
@@ -346,7 +355,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Funktion</strong>
         </td>
         <td><strong>Vorschau</strong></td>
-        <td><strong>Schnelle Freigabe</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
     <tr>
@@ -354,20 +363,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Einheitliches Adobe-Erlebnis jetzt für mehr Workfront-Organisationen verfügbar</a><p></p>
             <p>Um Unternehmen den Zugriff auf die Vorteile von Adobe Unified Experience zu ermöglichen, stellen wir es bestehenden Workfront-Kunden weiterhin zur Verfügung.</p><p><span style="color: #ff0000;">Das einheitliche Adobe-Erlebnis wird in einem schrittweisen Rollout zur Verfügung gestellt.</span> </p>
         </td>
-        <td><p>Freitag, 11. September 2025</p><p>Oder</p><p>Freitag, 11. Dezember 2025</p></td>
+        <td><p>11. September 2025</p><p>Oder</p><p>Freitag, 11. Dezember 2025</p></td>
         <td><p>Freitag, 16. Oktober 2025</p><p>Oder</p><p>Freitag, 15. Januar 2026</p></td>
         <td><p>Freitag, 16. Oktober 2025</p><p>Oder</p><p>Freitag, 15. Januar 2026</p></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen erweiterter Listen</a><p></p>
-            <p>Mit unserem erweiterten Listenlayout können Sie Filter und Gruppierungen verwenden, um Ihre Arbeit anzuzeigen und besser zu organisieren. Über einem Widget wird nun ein blauer Punktindikator angezeigt, der Ihnen mitteilt, wann ein Filter oder eine Gruppierung in den folgenden Bereichen auf eine Liste angewendet wurde:</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen der erweiterten Listen</a><p></p>
+            <p>Mit unserem erweiterten Listen-Layout können Sie Filter und Gruppierungen verwenden, um Ihre Arbeit anzuzeigen und besser zu organisieren. Über einem Widget wird nun ein blauer Punktindikator angezeigt, der Ihnen mitteilt, wann ein Filter oder eine Gruppierung in den folgenden Bereichen auf eine Liste angewendet wurde:</p>
             <ul>
-                <li>Widget "Meine Anforderungen"</li>
+                <li>Widget „Meine Anfragen“</li>
                 <li>Prioritäten</li>
             </ul>
         </td>
         <td>Freitag, 28. August 2025</td>
-        <td>Freitag, 11. September 2025</td>
+        <td>11. September 2025</td>
         <td>Freitag, 16. Oktober 2025</td>
     </tr>     
                  <tr>
@@ -398,9 +407,9 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 ### Workfront Fusion-Verbesserungen
 
-Neu Funktionen in Workfront Fusion sind in der Produktion in einer Kadenz außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie in [Adobe Systems Workfront Fusion-Version Aktivität](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einem zeitlichen Abstand außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Verbesserungen bei Workfront Planning
+### Workfront-Planungsverbesserungen
 
 Neue Funktionen in Workfront Planning sind in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität zum 4. Quartal 2025 für Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md).
 
@@ -410,7 +419,7 @@ Für Folgendes gibt es derzeit keine Aktualisierungen in der Version:
 * Korrekturabzug
 * Ziele
 
-## Desktop-Testversand Betrachter-Updates
+## Aktualisierungen der Desktop Proofing Viewer
 
 ### Version 2.1.52
 
@@ -432,11 +441,11 @@ Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mi
 
 ### Workfront für Microsoft Outlook
 
-[Microsoft ist dabei, die Unterstützung für alte Exchange online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) zu deaktivieren, die derzeit vom Workfront Outlook-Add-In für die Authentifizierung verwendet werden. Diese Änderung von Microsoft hat bereits begonnen, sich auf Kunden auszuwirken, und wird bis Oktober 2025 schrittweise eingeführt.
+[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
 
-* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Workfront für Microsoft Outlook-Integration nicht mehr.**
+* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
-Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token erneut aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
 
 ### Andere Workfront-Integrationsübergänge
 
@@ -446,7 +455,7 @@ Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithi
 * Workfront für Jira
 * Workfront für Salesforce.
 
-Wir empfehlen die Verwendung von Workfront Automation and Integration für die Integrationsanforderungen Ihrer Organisation mit Google Arbeitsbereich.
+Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
 Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-Version 20
@@ -459,8 +468,8 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-### Schulungsupdates
+### Schulungsaktualisierungen
 
 Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).

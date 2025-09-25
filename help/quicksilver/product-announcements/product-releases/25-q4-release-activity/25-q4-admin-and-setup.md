@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Bestätigung beim Entfernen eines benutzerdefinierten Formulars aus einem Objekt
+
+>[!NOTE]
+>
+>* Vorschau: 25. September 2025
+>* Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
+
+Um den Zugriff auf die benötigten Daten sicherzustellen, haben wir beim Entfernen eines benutzerdefinierten Formulars aus einem -Objekt ein Bestätigungsdialogfeld hinzugefügt. Wenn Sie ein benutzerdefiniertes Formular aus einem Objekt entfernen, werden die Daten in diesem Formular dauerhaft aus dem Objekt entfernt. Jetzt können Sie im Dialogfeld bestätigen, dass Sie verstanden haben, dass diese Daten entfernt werden, und sicherstellen, dass Sie die benötigten Daten nicht entfernen.
+
+Zuvor war die einzige Warnung vor dem Entfernen von Daten Text in der Nähe der Option „Entfernen“.
+
+Weitere Informationen zum Entfernen eines benutzerdefinierten Formulars finden Sie unter [Entfernen eines benutzerdefinierten Formulars aus einem Objekt](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) im Artikel Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt sind.
 
 ## Aktualisierungen des Workfront-Benutzerprofils
 

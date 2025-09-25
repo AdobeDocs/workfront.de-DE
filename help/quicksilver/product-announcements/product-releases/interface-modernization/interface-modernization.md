@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### Aktualisierungen der Benutzeroberfläche für den Bereich „Schweregrade“ im Setup
+
+**Vorschau-Version: 25. September 2025; Produktionsversion: 2. Oktober 2025**
+
+Wir haben die Seite „Schweregrade“ mit einem moderneren Design aktualisiert, das zu anderen Bereichen von Workfront konsistent ist.
+
+Eine sichtbare Änderung in der Benutzeroberfläche besteht darin, dass Sie zum Festlegen eines Schweregrads als Standard oder zum Löschen eines Schweregrads das Kontrollkästchen neben dem Namen des Schweregrads aktivieren und eine Option in der Aktionsleiste am unteren Bildschirmrand auswählen müssen.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Projektvoreinstellungen > Schweregrade.
+
+Weitere Informationen finden Sie unter [Erstellen oder Anpassen von Problemschweregraden](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+
+### Aktualisierungen der Benutzeroberfläche für den Bereich „Prioritäten“ im Setup
+
+**Vorschau-Version: 25. September 2025; Produktionsversion: 2. Oktober 2025**
+
+Wir haben die Prioritätsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Eine sichtbare Änderung in der Benutzeroberfläche besteht darin, dass Sie, um eine Priorität zur Standardpriorität zu machen oder eine Priorität zu löschen, das Kontrollkästchen neben dem Namen der Priorität aktivieren und eine Option in der Aktionsleiste am unteren Bildschirmrand auswählen müssen.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einrichtung > Projektvoreinstellungen > Prioritäten.
+
+Weitere Informationen finden Sie unter [Erstellen und Anpassen von Prioritäten](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Aktualisierungen der Benutzeroberfläche beim Hinzufügen oder Bearbeiten eines Arbeitszeittabellen-Profils im Bereich „Setup“
 
@@ -392,7 +426,27 @@ Weitere Informationen finden Sie unter
 * [Themengruppen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## Benutzende
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### Aktualisierungen der Benutzeroberfläche für persönliche Auszeiten
+
+**Vorschau-Version: 25. September 2025; Produktionsversion: 2. Oktober 2025**
+
+Wir haben das Erscheinungsbild des persönlichen Urlaubskalenders aktualisiert, einschließlich der Möglichkeit, Genehmigungen zu delegieren, sodass er mit anderen Bereichen der Anwendung übereinstimmt.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Ihrem Benutzerprofil und klicken Sie **linken Bereich auf** Auszeit“.
+
+Weitere Informationen finden Sie unter [Konfigurieren persönlicher Ausfallzeiten](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) und [Genehmigungsanfrage delegieren](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Aktualisierungen der Benutzeroberfläche für das Dialogfeld „Neue Benutzer“
 
