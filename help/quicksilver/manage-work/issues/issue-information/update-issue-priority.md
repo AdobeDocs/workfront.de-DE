@@ -6,7 +6,7 @@ description: Sie können eine Priorität für ein Problem definieren, um anzugeb
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Anfragepriorität aktualisieren
 
-Sie können eine Priorität für ein Problem definieren  um anzugeben, wie wichtig das Problem ist.
+Sie können eine Priorität für ein Problem definieren, um anzugeben, wie wichtig das Problem ist.
 
-Sie müssen über Verwaltungsberechtigungen für das Problem verfügen, um die Priorität des Problems ändern zu können.  [Aktualisieren der Priorität eines Problems](#update-the-priority-of-an-issue).
+Sie müssen über Verwaltungsberechtigungen für das Problem verfügen, um die Priorität des Problems ändern zu können. [Aktualisieren der Priorität eines Problems](#update-the-priority-of-an-issue).
 
 ## Zugriffsanforderungen
 
@@ -103,7 +103,7 @@ In der folgenden Tabelle finden Sie Informationen zu den einzelnen standardmäß
 
 1. Klicken Sie auf **Feld** Priorität“ im Bereich **Grundlegende Informationen**.
 
-   ![Anfragepriorität](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Anfragepriorität](assets/issue-priority-field.png)
 
 1. Wählen Sie einen Wert für das Feld **Priorität** aus.
 
