@@ -6,16 +6,14 @@ description: Sie können Informationen zu Programmen bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
 
 # Programme bearbeiten
-
-{{highlighted-preview}}
 
 Sie können Informationen zu Programmen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie sie für Sie freigegeben haben.
 
@@ -80,11 +78,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Gehen Sie wie folgt vor, um Informationen [!UICONTROL &#x200B; Abschnitt &#x200B;]Details“ zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm &#x200B;] bearbeiten.
+   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm ] bearbeiten.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Programm angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
    1. (Optional) Klicken Sie auf **[!UICONTROL Export]**-Symbol ![Export](assets/export.png), um die [!UICONTROL Übersicht] und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 
@@ -106,11 +104,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Das **[!UICONTROL Programm bearbeiten]** Dialogfeld wird angezeigt.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Feld „Programm bearbeiten“](assets/edit-program-0925.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![Feld „Programm bearbeiten“](assets/edit-program-box-nwe-350x236.png)
 
    Alle Programmfelder sind im Feld [!UICONTROL Programm bearbeiten] verfügbar und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
 
@@ -153,7 +147,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Programm-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Diese Person kann die in den Projekten des Programms definierten Arbeiten überwachen. </p> <p>Wichtig: Wenn Sie jemanden als Programm-Manager festlegen, erhält dieser automatisch [!UICONTROL Manage]-Berechtigungen für das Programm und die Projekte im Programm. </p> <p>Tipp: Sie können den Programm-Manager im Programm-Header schnell aktualisieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Gruppe]</td> 
+      <td role="rowheader">[!UICONTROL-Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Programm verknüpft ist oder für den Abschluss des Programms verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Programmdetails] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Diese Option ist im Feld [!UICONTROL Programm bearbeiten] nicht verfügbar. </p> </p> </td> 
      </tr> 
      <tr> 
@@ -163,7 +157,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tbody> 
    </table>
 
-1. Klicken Sie <span class="preview">**Speichern**</span> oder **[!UICONTROL Änderungen speichern]** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
+1. Klicken Sie **[!UICONTROL Speichern]** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 
 ### [!UICONTROL Benutzerdefinierte Formulare]
 
@@ -176,17 +170,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Je nachdem, wie Ihr [!DNL Workfront] die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle dieselben Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern innerhalb eines Abschnitts eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für das Programm selbst haben. Informationen zum Festlegen von Berechtigungen für Abschnitte eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Aktualisieren Sie alle Felder in den benutzerdefinierten Formularen und klicken Sie dann auf <span class="preview">**Speichern**</span> oder **[!UICONTROL Änderungen speichern]** oder fahren Sie mit dem folgenden Abschnitt fort.
+1. Aktualisieren Sie alle Felder in den benutzerdefinierten Formularen und klicken Sie dann auf **[!UICONTROL Speichern]** oder fahren Sie mit dem folgenden Abschnitt fort.
 
 ### [!UICONTROL Kommentar] {#comment}
 
 1. Beginnen Sie mit der Bearbeitung eines Programms wie oben beschrieben.
 1. Klicken Sie **[!UICONTROL Kommentar]**.
-1. Fügen Sie einen Kommentar in das Feld **[!UICONTROL Aktualisierung für das Programm posten]** / <span class="preview">**Für jedes Programm eine Aktualisierung hinzufügen**</span> ein.
+
+   ![Kommentarfeld im Feld „Programm bearbeiten“](assets/comment-box-on-edit-program.png)
+
+1. Fügen Sie im Feld **[!UICONTROL Aktualisierung zu jedem Programm hinzufügen]** einen Kommentar hinzu.
 1. (Optional) Klicken Sie auf das **[!UICONTROL Personen]**-Symbol, um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.
-1. (Optional) Klicken Sie auf das **[!UICONTROL Sperrsymbol]** <span class="preview"> (oder wählen Sie [!UICONTROL **Privat für meine Firma**]</span>, um den Kommentar zu sperren und ihn nur für Benutzer in Ihrer Firma privat zu machen.
+1. (Optional) Wählen Sie [!UICONTROL **Privat für meine Firma**] aus, um den Kommentar zu sperren und ihn nur für Benutzer in Ihrer Firma privat zu machen.
 
    Nachdem Sie Ihre Änderungen gespeichert haben, wird der hinzugefügte Kommentar auf der Registerkarte [!UICONTROL Updates] des Programms angezeigt und sendet eine E-Mail an die darin enthaltenen Benutzer.
 
-
-   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->
