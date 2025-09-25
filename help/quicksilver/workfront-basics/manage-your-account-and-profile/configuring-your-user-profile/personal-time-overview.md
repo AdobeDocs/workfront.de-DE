@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Konfigurieren der persönlichen Ausfallzeit
 description: Es ist wichtig, in Adobe Workfront anzugeben, wann genehmigte Ausfallzeiten eintreten, da sich dies auf Ihren Zeitplan und die geplanten Abschlussdaten der Aufgaben auswirkt, denen Sie zugewiesen sind.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
 # Konfigurieren der persönlichen Ausfallzeit
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -70,14 +72,17 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 >[!NOTE]
 >
->Wenn Sie über das einheitliche Adobe-Erlebnis verfügen, können Sie auf Ihr Workfront-Profil zugreifen, indem Sie im oberen Navigationsbereich auf das Adobe-Kontomenü (Ihr Profilbild) klicken und dann auf Workfront-Profil klicken.
+>Wenn Sie Adobe Unified Experience verwenden, können Sie auf Ihr Workfront-Profil zugreifen, indem Sie im oberen Navigationsbereich auf das Adobe-Kontomenü (Ihr Profilbild) klicken und dann auf Workfront-Profil klicken.
 >
 >![Workfront-Profil](assets/aue-profile.png)
-
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Auszeit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Auszeit aus.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Persönlicher Urlaubskalender](assets/personal-time-off-calendar-0925.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Persönlicher Urlaubskalender](assets/personal-time-off-calendar.png)
 
 1. Wählen Sie **[!UICONTROL Den ganzen]** aus, wenn Sie sich einen ganzen Tag freinehmen möchten.

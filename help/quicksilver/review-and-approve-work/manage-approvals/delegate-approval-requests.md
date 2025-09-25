@@ -6,7 +6,7 @@ description: Durch das Delegieren von Genehmigungsanfragen können Sie einen and
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -117,10 +117,10 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
 1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
    * **Name**: Geben Sie den Namen des Benutzers ein, an den Sie Genehmigungen delegieren möchten, und klicken Sie auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12:00 Uhr an dem von Ihnen ausgewählten Datum.\
+   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12 :00 Uhr an dem von Ihnen ausgewählten Datum.\
      Das Startdatum muss das aktuelle Datum oder ein Datum in der Zukunft sein.
    * **Enddatum**: Führen Sie einen der folgenden Schritte aus:
-      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um 23:59 Uhr an dem von Ihnen ausgewählten Datum.
+      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um :59 Uhr an dem von Ihnen ausgewählten Datum.
       * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
 
 1. Klicken Sie auf **Speichern**.
@@ -133,13 +133,14 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
    >[!NOTE]
    >
    >Workfront-Admins können die Delegierung von Genehmigungen über den Bereich „Setup“ deaktivieren. Wenn die Delegierung von Genehmigungen deaktiviert ist, wird die Schaltfläche Genehmigungen delegieren nicht angezeigt.
+
 1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
    * **Name**: Geben Sie den Namen des Benutzers ein, an den Sie Genehmigungen delegieren möchten, und klicken Sie auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12:00 Uhr an dem von Ihnen ausgewählten Datum.\
+   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12 :00 Uhr an dem von Ihnen ausgewählten Datum.\
      Das Startdatum muss das aktuelle Datum oder ein Datum in der Zukunft sein.
    * **Enddatum**: Führen Sie einen der folgenden Schritte aus:
-      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um 23:59 Uhr an dem von Ihnen ausgewählten Datum.
+      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um :59 Uhr an dem von Ihnen ausgewählten Datum.
       * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
 
 ## Aktualisieren oder Beenden einer Genehmigungsdelegierung {#update-or-stop-an-approval-delegation}
