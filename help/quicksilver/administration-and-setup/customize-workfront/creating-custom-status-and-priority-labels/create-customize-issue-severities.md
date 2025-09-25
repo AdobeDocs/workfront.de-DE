@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
 # Problemschweregrade erstellen oder anpassen
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -72,7 +74,7 @@ Workfront verfügt über fünf integrierte Problemschweregrade:
 * Programmfehler ohne Umgehungslösung
 * Schwerer Fehler
 
-<p>Für diese Schweregrade können Sie Folgendes bearbeiten:</p>
+Für diese Schweregrade können Sie Folgendes bearbeiten:
 
 * Name
 * Farbe
@@ -82,10 +84,11 @@ Workfront verfügt über fünf integrierte Problemschweregrade:
 * Welcher Schweregrad der Standard ist
 
   Weitere Informationen zu Standardschweregraden finden Sie unter [Erstellen oder Bearbeiten eines Problemschweregrads](#create-or-edit-an-issue-severity) in diesem Artikel.
+
 * Beschreibung
 * Ob ein Schweregrad in Workfront ausgeblendet ist
 
-  Weitere Informationen zum Ausblenden eines Schweregrads finden Sie unter [Erstellen oder Bearbeiten eines Schweregrads des Problems](#create-or-edit-an-issue-severity")
+  Weitere Informationen zum Ausblenden eines Schweregrads finden Sie unter [Erstellen oder Bearbeiten eines Schweregrads des Problems](#create-or-edit-an-issue-severity) in diesem Artikel.
 
 * Löschen eines Schweregrads
 
@@ -99,44 +102,45 @@ Als Workfront-Admin können Sie Problemschweregrade erstellen und bearbeiten, um
 
 1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** > **Schweregrade**.
 
-1. Wenn Sie einen neuen Schweregrad erstellen, klicken Sie auf &quot;**Schweregrad hinzufügen**.
+1. Wenn Sie einen neuen Schweregrad erstellen, klicken Sie auf <span class="preview">**Neue** unten in der Tabelle</span> oder **Neuen Schweregrad hinzufügen**.
 1. Konfigurieren Sie die folgenden Optionen für den neuen Schweregrad oder bearbeiten Sie sie für einen vorhandenen:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Name des Schweregrads</td> 
-      <td>Geben Sie einen Namen für den Schweregrad ein</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Wichtigkeit</td> 
-      <td>Erhöhen oder verringern Sie den Schweregrad der ursprünglich von Workfront zugewiesenen Schwere.
-      <p>Die Wichtigkeitsnummer für jeden Schweregrad muss eindeutig sein. Die höchste Zahl entspricht dem höchsten Schweregrad.</p> <p>Sie können diese Zahl nicht mehr bearbeiten, nachdem Sie den Schweregrad gespeichert haben.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Farbe</td> 
-      <td> <p>Wählen Sie eine Farbe für den Schweregrad.</p> 
-      <p>Die Farbe des Schweregrads wird in Diagrammberichten verwendet, wenn Sie Ihre Ergebnisse nach Problemschweregrad gruppieren. Informationen zu Diagrammberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standardschweregrad</td> 
-      <td>Wählen Sie den Schweregrad aus, für den Workfront automatisch alle neu erstellten Probleme auswählen soll.</p>
-      <p>Kosmetik ist der Standardschweregrad für Probleme in Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung für den Schweregrad ein, um dessen Funktion zu erklären.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ausblenden</td> 
-      <td> Ausblenden eines nicht mehr benötigten Schweregrads. 
-      <p>Ein ausgeblendeter Schweregrad wird nirgends in Workfront angezeigt, sodass Benutzende ihn nicht für ihre Probleme auswählen können.</p> 
-      <p><b>WICHTIG</b>: Anstatt Schweregrade zu löschen, die Sie nicht mehr verwenden möchten, empfehlen wir, sie auszublenden. Auf diese Weise behalten Sie alle historischen Daten zu Objekten, die bereits mit dem Schweregrad abgeschlossen wurden, und verhindern gleichzeitig, dass Benutzer den Schweregrad in Zukunft verwenden.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Name des Schweregrads**: Geben Sie einen Namen für den Schweregrad ein.
+   * **Wichtigkeit**: Erhöhen oder verringern Sie den Schweregrad der ursprünglich von Workfront zugewiesenen Schwere.
+
+     Die Wichtigkeitsnummer für jeden Schweregrad muss eindeutig sein. Die höchste Zahl entspricht dem höchsten Schweregrad.
+
+     Sie können diese Zahl nicht mehr bearbeiten, nachdem Sie den Schweregrad gespeichert haben.
+
+   * **Farbe**: Wählen Sie eine Farbe für den Schweregrad aus.
+
+     Die Farbe des Schweregrads wird in Diagrammberichten verwendet, wenn Sie Ihre Ergebnisse nach Problemschweregrad gruppieren. Informationen zu Diagrammberichten finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+   * **Standardschweregrad**: Wählen Sie den Schweregrad aus, den Workfront automatisch auf alle neu erstellten Probleme anwenden soll.
+
+     **Cosmetic** ist der Standardschweregrad für Probleme in Workfront.
+
+     Sie können keinen ausgeblendeten Schweregrad zum Standard machen.
+
+     <div class="preview">
+
+     Der Standardschweregrad wird mit einem Symbol ![Standardschweregrad-Symbol](assets/default-icon.png) angegeben. Um einen neuen Standard auszuwählen, führen Sie einen der folgenden Schritte aus:
+
+      * Aktivieren Sie das Kontrollkästchen neben dem Namen des Schweregrads und wählen Sie **Als Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
+      * Bewegen Sie den Mauszeiger über den Namen des Schweregrads und klicken Sie auf das **Mehr** Menü, das angezeigt wird. Wählen Sie dann **Als Standard festlegen** aus.
+
+        Der neue Standardschweregrad ist mit dem Symbol gekennzeichnet.
+
+     </div>
+
+   * **Beschreibung**: Geben Sie eine Beschreibung für den Schweregrad ein, um die Funktion zu erklären.
+   * <span class="preview">**Auswahl ausblenden**</span> oder **Ausblenden**: <span class="preview">Wählen Sie **Ja**</span> oder aktivieren Sie das Kontrollkästchen, um einen nicht mehr benötigten Schweregrad auszublenden.
+
+     Ein ausgeblendeter Schweregrad wird nirgends in Workfront angezeigt, sodass Benutzende ihn nicht für ihre Probleme auswählen können.
+
+     >[!IMPORTANT]
+     >
+     >Anstatt Schweregrade zu löschen, die Sie nicht mehr verwenden möchten, empfehlen wir, sie auszublenden. Auf diese Weise behalten Sie alle historischen Daten zu Objekten, die bereits mit dem Schweregrad abgeschlossen wurden, und verhindern gleichzeitig, dass Benutzer den Schweregrad in Zukunft verwenden.
 
 1. (Optional) Ändern Sie die Auflistungsreihenfolge Ihrer Schweregrade, indem Sie sie in die gewünschte Reihenfolge ziehen und ablegen.
 
