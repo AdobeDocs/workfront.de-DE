@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ Das Erscheinungsbild des Felds Vorlagen bearbeiten wurde aktualisiert, wenn Vorl
 
 Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Aktualisierungen der Benutzeroberfläche für eine Projektliste oder einen Bericht beim Anwenden der Meilenstein -Ansicht
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**Vorschau-Version: 11. September 2025; Produktions-Version: 18. September 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Das Erscheinungsbild einer Projektliste oder eines Berichts wurde aktualisiert, wenn Sie die Ansicht Meilenstein auf sie anwenden.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-Die Projektliste oder der Bericht stimmt nun mit dem Design anderer Bereiche von Workfront überein. Weitere Informationen finden Sie unter [Verwenden der Meilenstein -Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Änderungen an der Benutzeroberfläche für das Konvertieren einer Aufgabe in ein Projekt ohne Vorlage
 
