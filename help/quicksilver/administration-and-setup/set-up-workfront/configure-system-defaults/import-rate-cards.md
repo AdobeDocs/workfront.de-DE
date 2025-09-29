@@ -42,7 +42,7 @@ Um die in diesem Artikel beschriebenen Beispiel-Ratenkarten anzuzeigen, laden Si
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p>
+   <p>[!UICONTROL -Plan]</p>
    </td> 
   </tr> 
   <tr> 
