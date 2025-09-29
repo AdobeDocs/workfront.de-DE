@@ -6,9 +6,9 @@ description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Wor
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
    <td role="rowheader">Bestehende Cloud-Dokumentanbieter</td> 
    <td>Dazu gehören die folgenden: 
     <ul> 
-     <li>Box</li> 
+     <li>Feld</li> 
      <li>Dropbox</li> 
      <li>Dropbox Business</li> 
      <li>WebDAM</li> 
@@ -39,19 +39,16 @@ Sie können Dokumente und Ordner aus den folgenden Quellen mit Adobe Workfront v
   </tr> 
   <tr> 
    <td role="rowheader">Workfront-Korrekturabzug </td> 
-   <td>Sie können Korrekturabzüge, die ursprünglich in Workfront Proof erstellt wurden, in Workfront verfügbar machen. Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Bei den neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-Pläne</a>.</td> 
+   <td>Sie können Korrekturabzüge, die ursprünglich in Workfront Proof erstellt wurden, in Workfront verfügbar machen.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Sie können von Experience Manager Assets Essentials aus Dokumente mit Workfront verknüpfen. Weitere Informationen finden Sie unter <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> von Adobe Workfront für Experience Manager Assets Essentials</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>Dies erfordert einen zusätzlichen Kauf. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Andere Dokumentenanbieter (über benutzerdefinierte Dokumentenintegrationen)</td> 
-   <td> <p class="workfront_plans">Für die aktuellen Lizenzen ist ein Pro Workfront-Plan oder höher erforderlich, um diese Funktion verwenden zu können. Bei den neuen Lizenzen enthalten alle Pläne diese Funktion. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront-Pläne</a>.</p> </td>
+   <td> <p class="workfront_plans">Diese Integrationen können im Bereich Setup konfiguriert werden.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ Es gelten die folgenden Ausnahmen:
 
 * Wenn vom Dokumenten-Service bereitgestellt, können Miniaturansichten und Vorschaubilder auf Workfront-Servern gespeichert werden.
 * Wenn Sie Proofing in Workfront verwenden, wird das Dokument kopiert und zu den Proofing-Servern hinzugefügt.
+
+## Dateigrößenbeschränkungen
+
+Cloud-Drittanbieter:
+
+* Einzeldatei: 5 GB oder weniger
+* Mehrere Dateien: 1 GB oder weniger (insgesamt alle Dateien)
 
 ## Verknüpfen eines Dokuments aus einer externen Anwendung mit Workfront
 
