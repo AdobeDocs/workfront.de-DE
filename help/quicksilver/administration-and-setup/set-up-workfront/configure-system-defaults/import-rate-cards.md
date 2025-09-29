@@ -4,17 +4,19 @@ description: Sie können eine Vorlagendatei verwenden, um Ihre Tarifkarten in Ex
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
-
 # Importieren von Tarifkarten aus einer Vorlage
 
 Sie können eine Vorlagendatei verwenden, um Ihre Tarifkarten in Excel zu erstellen und sie in Adobe Workfront zu importieren, anstatt alle Aufgabengebiete und Tarife manuell hinzuzufügen.
+
+Um die in diesem Artikel beschriebenen Beispiel-Ratenkarten anzuzeigen, laden Sie die [Beispieldatei](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip) herunter.
 
 ## Wichtige Regeln für die Arbeit mit der Vorlagendatei
 
@@ -40,7 +42,7 @@ Sie können eine Vorlagendatei verwenden, um Ihre Tarifkarten in Excel zu erstel
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p>
+   <p>[!UICONTROL-Plan]</p>
    </td> 
   </tr> 
   <tr> 
@@ -179,6 +181,3 @@ Die Befolgung dieser Schritte verhindert unnötige Probleme und gewährleistet e
 1. Wenn die Datei Probleme enthält, wird eine Fehlermeldung angezeigt. Klicken Sie auf **Probleme anzeigen**, um die Probleme in einem separaten Bildschirm anzuzeigen.
 
    Sie müssen die Probleme in der Excel-Datei korrigieren und erneut importieren, bevor die Tarifkarten in Workfront vorhanden sind.
-
-
-
