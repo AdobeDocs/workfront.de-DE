@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3426'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -148,9 +148,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   >
   >Diese Option ist nur in der Vorschau- und Sandbox-Umgebung verfügbar. E-Mail-Benachrichtigungen sind standardmäßig in der Produktionsumgebung aktiviert.
 
-<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
-
-* **Arbeit, die ich mir selbst zuweise, an meine Registerkarte „Arbeiten an“ senden**: Wenn diese Option aktiviert ist, wird Arbeit, die der/die Benutzende sich selbst zuweist, automatisch auf den Status „In Bearbeitung“ anstelle von „Neu“ gesetzt. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Aufgabenstatus automatisch auf „In Bearbeitung“ setzen, wenn Aufgaben selbst zugewiesen werden**: Wenn diese Option aktiviert ist, wird Arbeit, die sich der/die Benutzende selbst zuweist, automatisch auf den Status „In Bearbeitung“ anstelle von „Neu“ gesetzt.
 
 * **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren**: Aktivieren Sie diese Option, wenn die Dokumente, die der Benutzer hochlädt, sofort einen Korrekturabzug generieren sollen.
 

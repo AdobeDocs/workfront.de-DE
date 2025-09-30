@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2214'
 ht-degree: 4%
 
 ---
@@ -92,7 +92,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Es gibt einige kleine Funktionsunterschiede zum aktuellen Benutzerprofil, darunter:</p>
             <ul>
                 <li>Einige Kontrollkästchen (z. B. das Markieren des Benutzers als aktiv) wurden in Umschalter oder Schaltflächen geändert.</li>
-                <li>Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde entfernt, da sie sich auf eine veraltete Funktion bezieht.</li>
+                <li>Die Option „Arbeit, die ich mir selbst zuweise, an meiner Registerkarte „Arbeiten“ unter „Voreinstellungen“ senden wurde in „Aufgabenstatus automatisch auf „In Bearbeitung“ setzen, wenn Aufgaben selbst zugewiesen werden“ umbenannt, um den Zweck widerzuspiegeln.</li>
             </ul>
         </td>
         <td>Freitag, 28. August 2025</td>
@@ -468,7 +468,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
