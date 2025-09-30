@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 2%
 
 ---
 
 
 # Datensatzansichten verwalten
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -192,30 +194,32 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
    * Klicken Sie in der Produktionsumgebung auf die Registerkarte **+Ansicht**.
    * <span class="preview">Klicken Sie in der Vorschau-Umgebung auf das Dropdown-Symbol ![Dropdown-Symbol](assets/drop-down-icon.png) neben dem Namen der aktuellen Ansicht und dann auf **+Neue Ansicht**.</span>
 
-1. <span class="preview">Ziehen Sie aus dem Dropdown-Menü Ansicht die Ansichten per Drag-and-Drop in die gewünschte Reihenfolge.</span>
 1. Wählen Sie aus den folgenden Ansichtstypen:
 
    * Tabelle
    * Timeline
    * Kalender
 
-   Eine neue Registerkarte mit der ausgewählten Ansicht wird erstellt.
+   In der Produktionsumgebung wird eine neue Registerkarte mit der ausgewählten Ansicht erstellt.
 
    Je nach Bildschirmbreite werden möglicherweise zusätzliche Ansichten im Menü **Mehr** (![) ](assets/more-menu.png).
 
+   >[!TIP]
+   >
+   >Beim Erstellen eines Datensatztyps wird standardmäßig auch die Tabellenansicht erstellt.
+   >
+   >Um eine Timeline- oder eine Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder enthalten.
+   >
+   >Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
+   >
 
->[!TIP]
->
->Beim Erstellen eines Datensatztyps wird standardmäßig auch die Tabellenansicht erstellt.
->
->Um eine Timeline- oder eine Kalenderansicht zu erstellen, muss der Datensatztyp, für den Sie die Ansicht erstellen, mindestens zwei Datumsfelder enthalten.
->
->Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
->
+   <span class="preview">Wählen Sie in der Vorschau-Umgebung einen Ansichtstyp aus und klicken Sie dann auf **Erstellen**. Dem Dropdown-Menü wird eine neue Ansicht hinzugefügt. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![Ansichtsfeld erstellen](assets/create-view-box.png)</span>
 
-![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">Ziehen Sie aus dem Dropdown-Menü Ansicht die Ansichten per Drag-and-Drop in die gewünschte Reihenfolge.</span>
+
+   <span class="preview">![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Bedingt) Klicken Sie **Weiter**, wenn Sie eine Timeline- oder Kalenderansicht erstellen.
 

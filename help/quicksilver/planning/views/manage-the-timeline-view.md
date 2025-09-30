@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 2%
 
 ---
 
 # Zeitleisten-Ansicht verwalten
+
+<!--remove preview and production references at production-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -117,9 +119,9 @@ Beachten Sie Folgendes:
 So verwalten Sie eine Zeitleisten -Ansicht:
 
 1. Navigieren Sie zur Seite für den Datensatztyp, für den Sie die Zeitleiste anzeigen möchten.
-1. Erstellen Sie eine Zeitleisten -Ansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. <span class="preview">Erstellen Sie eine Zeitleisten -Ansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben</span>
 
-   ![Beispiel für Zeitleisten-Ansicht](assets/timeline-view-example.png)
+   <span class="preview">![Beispiel für Zeitleisten-Ansicht](assets/timeline-view-example.png)</span>
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden standardmäßig als Balken in einer Zeitleiste angezeigt und in chronologischer Reihenfolge ihres Startdatums sortiert.
 
@@ -173,9 +175,9 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf **Suche**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein, der mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
+   1. <span class="preview">Klicken Sie auf **Suchen**-Symbol ![Suchen-Symbol](assets/search-icon.png) und geben Sie ein Keyword ein, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben. </span>
 
-      ![Suchfeld und Timeline-Ansicht der Ergebnisse](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![Suchfeld und Timeline-Ansicht der Ergebnisse](assets/search-box-and-results-timeline-view.png)</span>
 
       Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
 
@@ -353,23 +355,21 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgend
 So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.
+1. <span class="preview">Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.</span>
 
-   ![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** suchen Sie nach einem anderen Feld und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Zeitleiste angewendet und die Datensätze werden im Gruppierungsfeld angezeigt.
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
-   Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
+   <span class="preview">Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![Gruppierung in der Zeitleisten-Ansicht angewendet](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![Gruppierung gilt in der Zeitleisten-Ansicht](assets/grouping-applied-in-timeline-view.png)
+1. Ziehen Sie **Feld Datensätze gruppieren nach** Gruppierungen in die richtige Reihenfolge.
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
@@ -527,10 +527,14 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
    >    Das Start- und Enddatum müssen sequenziell sein. Wenn das Enddatum vor dem Startdatum liegt, werden in der Zeitleiste keine Datensätze angezeigt.
 
    Ein nach rechts zeigender Pfeil wird auf der Leiste des ausgewählten Datensatzes in der Zeitleiste angezeigt, wenn sie mit anderen Datensätzen verbunden sind.
-1. Klicken Sie auf den nach rechts zeigenden Pfeil, um einen Datensatztyp zu erweitern und seine Verbindungen anzuzeigen.
+1. Klicken Sie auf den nach rechts zeigenden Pfeil, um einen Datensatztyp zu erweitern und seine Verbindungen anzuzeigen. <!--update screen shot at production-->
 
    ![Kampagnen, die in der Ansicht „Zeitleiste“ nach Programmen aufgeschlüsselt sind](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

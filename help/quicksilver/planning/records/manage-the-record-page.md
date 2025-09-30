@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2308'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto">
  <col>
@@ -61,8 +61,8 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
    <td>
 <p>Einer der folgenden Workfront-Pläne:</p>
 <ul><li>Auswählen</li>
-<li>Erstklassig</li>
-<li>Ultimativ</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
    </td>
 
@@ -264,16 +264,16 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
 
 * Sie können eine Seite „Verbundene Datensätze“ zu einem Datensatz hinzufügen, nachdem Sie in der Tabellenansicht eines Datensatztyps Datensätze oder Objekttypen mit dem Datensatztyp verbunden haben.
 
-* In der Produktionsumgebung können Sie keine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes hinzufügen.
+* In der Produktionsumgebung können Sie keine Seite „Verbundene Datensätze“ aus der Vorschau eines Datensatzes hinzufügen.
 
-  <span class="preview">Sie können eine Seite „Verbundene Datensätze“ zum Vorschaubereich eines Datensatzes in der Vorschau-Umgebung hinzufügen.</span>
+  <span class="preview">Sie können eine Seite „Verbundene Datensätze“ aus der Vorschau eines Datensatzes in der Vorschau-Umgebung hinzufügen.</span>
 
 * Verbundene Datensatzseiten zeigen nur die verbundenen Objekte oder Datensätze eines Objekts oder Datensatztyps in einer Tabellenansicht an. Auf der Seite werden nicht alle Datensätze dieses Typs in der Tabellenansicht angezeigt.
 
 * Je nach verwendeter Umgebung können Sie Folgendes feststellen:
 
    * Nachdem Sie in der Produktionsumgebung einem Datensatz eine Seite „Verbundene Datensätze“ hinzugefügt haben, ist die Registerkarte „Seite“ im Vorschaubereich des Datensatzes sichtbar, sie ist jedoch leer. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen.
-   * <span class="preview">In der Vorschau-Umgebung ist die Seite „Verbundene Datensätze“ sowohl im Vorschaubereich des Datensatzes als auch auf der separaten Browser-Registerkarte sichtbar.</span>
+   * <span class="preview">In der Vorschau-Umgebung ist die Seite „Verbundene Datensätze“ sowohl im Vorschaubereich des Datensatzes als auch auf der Browser-Registerkarte sichtbar.</span>
 
 * Sie können Seiten mit verbundenen Datensätzen für die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
 
@@ -317,14 +317,14 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    * Bearbeiten Sie alle Informationen aus den verbundenen Datensätzen in der Tabellenansicht.
 
    * Bewegen Sie den Mauszeiger über den Namen eines verbundenen Datensatzes und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
-      * Anzeigen
+      * Ansicht
       * Link kopieren
       * Miniaturansicht bearbeiten
       * Duplizieren
       * Datensatz oberhalb oder unterhalb einfügen
       * Löschen
    * Wählen Sie einen der Datensätze aus und klicken Sie dann auf eine der folgenden Optionen in der blauen Leiste am unteren Bildschirmrand:
-      * Anzeigen
+      * Ansicht
       * Link kopieren
       * Miniaturansicht bearbeiten
       * Duplizieren
@@ -332,7 +332,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
 
      Weitere Informationen zum Bearbeiten von Datensätzen in der Tabellenansicht finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-   * Inline-Bearbeitung eines beliebigen Datensatzes in der Tabelle auf der Seite „Verbundene Datensätze“. Workfront-Objekte werden in einer schreibgeschützten Tabellenansicht angezeigt und können nicht bearbeitet werden.
+   * Inline-Bearbeitung eines beliebigen Datensatzes in der Tabelle auf der Seite „Verbundene Datensätze“. In der Produktionsumgebung werden alle Workfront-Objekte in einer schreibgeschützten Tabellenansicht angezeigt und können nicht bearbeitet werden. <span class="preview">Sie können Workfront-Projekte in der Vorschau-Umgebung inline bearbeiten.</span>
 
 1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte Seite „Verbundene Datensätze“
 
@@ -353,7 +353,12 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    >   Sie können keine Felder in der Tabellenansicht der Registerkarte eines verbundenen Datensatzes erstellen, bearbeiten oder löschen.
    >
 
-1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
+1. (Bedingt) Führen Sie einen der folgenden Schritte aus, um weitere Datensätze oder Objekte miteinander zu verbinden:
+
+   * Klicken Sie **unten in** Tabelle auf „Verbinden“, um Datensätze oder beliebige Workfront-Objekte (<span class="preview"> Projekte) hinzuzufügen oder zu entfernen</span>
+   * <span class="preview">Klicken Sie in der Vorschau **Umgebung oben rechts auf der Seite „Verbundene Datensätze** oder unten in der Tabelle auf **Neue Zeile**, um Projekte hinzuzufügen oder zu entfernen.</span>
+
+   Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensätze“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
 

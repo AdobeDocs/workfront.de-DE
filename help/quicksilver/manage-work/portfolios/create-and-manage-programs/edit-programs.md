@@ -6,9 +6,9 @@ description: Sie können Informationen zu Programmen bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '988'
 ht-degree: 1%
 
 ---
@@ -78,11 +78,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Gehen Sie wie folgt vor, um Informationen [!UICONTROL &#x200B; Abschnitt &#x200B;]Details“ zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm &#x200B;] bearbeiten.
+   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm ] bearbeiten.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Programm angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
    1. (Optional) Klicken Sie auf **[!UICONTROL Export]**-Symbol ![Export](assets/export.png), um die [!UICONTROL Übersicht] und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 
@@ -99,14 +99,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Führen Sie einen der folgenden Schritte aus, um alle Informationen zu einem oder mehreren Programmen zu bearbeiten:
 
-   * Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png) neben dem Programmnamen und dann &#x200B;**[!UICONTROL Bearbeiten].**
+   * Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png) neben dem Programmnamen und dann **[!UICONTROL Bearbeiten].**
    * Gehen Sie zu einer Liste von Programmen und wählen Sie ein oder mehrere Programme aus, die Sie bearbeiten möchten, und klicken Sie dann oben in der Liste auf **[!UICONTROL Bearbeiten]**-Symbol ![Bearbeiten](assets/edit-icon.png)Symbol.
 
-   Das **[!UICONTROL Programm bearbeiten]** Dialogfeld wird angezeigt.
+     Das **[!UICONTROL Programm bearbeiten]** wird angezeigt.
 
-   ![Feld „Programm bearbeiten“](assets/edit-program-0925.png)
+     ![Feld „Programm bearbeiten“](assets/edit-program-0925.png)
 
-   Alle Programmfelder sind im Feld [!UICONTROL Programm bearbeiten] verfügbar und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
+     Alle Programmfelder sind im Feld [!UICONTROL Programm bearbeiten] verfügbar und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
 
 1. Erwägen Sie, Informationen in einem der folgenden Abschnitte anzugeben:
 
@@ -136,26 +136,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Aktualisieren Sie den Namen des Programms. </p> <p>Tipp: Dies ist nicht verfügbar, wenn Sie mehr als ein Programm ausgewählt haben. </p> </td> 
+      <td> <p>Aktualisieren Sie den Namen des Programms. </p> <p><b>TIPP</b></p><p>Dies ist nicht verfügbar, wenn Sie mehr als ein Programm ausgewählt haben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Beschreibung]</td> 
-      <td> <p>Geben Sie eine Beschreibung für die Portfolio ein, um anzugeben, was eindeutig ist. </p> </td> 
+      <td> <p>Geben Sie eine Beschreibung für das Portfolio ein, um anzugeben, was daran eindeutig ist. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Programm-Manager]</td> 
-      <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Programm-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Diese Person kann die in den Projekten des Programms definierten Arbeiten überwachen. </p> <p>Wichtig: Wenn Sie jemanden als Programm-Manager festlegen, erhält dieser automatisch [!UICONTROL Manage]-Berechtigungen für das Programm und die Projekte im Programm. </p> <p>Tipp: Sie können den Programm-Manager im Programm-Header schnell aktualisieren. </p> </td> 
+      <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Programm-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Diese Person kann die in den Projekten des Programms definierten Arbeiten überwachen. </p> <p><b><p>WICHTIG</b></p> <p>Wenn Sie jemanden als Programm-Manager festlegen, erhält dieser automatisch [!UICONTROL Manage]-Berechtigungen für das Programm und die Projekte im Programm. </p> <p><b>TIPP</b></p> <p>Sie können den Programm-Manager im Programm-Header schnell aktualisieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Gruppe]</td> 
-      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Programm verknüpft ist oder für den Abschluss des Programms verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Programmdetails] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Diese Option ist im Feld [!UICONTROL Programm bearbeiten] nicht verfügbar. </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL ist aktiv]</td> 
-      <td> <p> Aktivieren Sie dieses Kontrollkästchen, wenn das Programm aktiv sein soll. Andere Benutzer können aktive Programme finden und sie an Projekte anhängen oder zu Portfolios hinzufügen. Inaktive Programme können nicht mit Projekten oder Portfolios verknüpft werden. Dies ist standardmäßig aktiviert.</p> </td> 
+      <td role="rowheader">[!UICONTROL-Gruppe]</td> 
+      <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Programm verknüpft ist oder für den Abschluss des Programms verantwortlich ist. </p> <p><b>TIPP</b></p>  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Program Details] wie folgt vor, um sicherzustellen, dass Sie die richtige Gruppe auswählen: </p> <p>Bewegen Sie den Mauszeiger über den Gruppennamen und klicken Sie auf das Symbol [!UICONTROL information] <img src="assets/info-icon.png"> daneben. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Diese Option ist im Feld [!UICONTROL Programm bearbeiten] nicht verfügbar. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -184,4 +187,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Wählen Sie [!UICONTROL **Privat für meine Firma**] aus, um den Kommentar zu sperren und ihn nur für Benutzer in Ihrer Firma privat zu machen.
 
    Nachdem Sie Ihre Änderungen gespeichert haben, wird der hinzugefügte Kommentar auf der Registerkarte [!UICONTROL Updates] des Programms angezeigt und sendet eine E-Mail an die darin enthaltenen Benutzer.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

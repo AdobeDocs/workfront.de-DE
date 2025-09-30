@@ -6,9 +6,9 @@ description: Sie können die Reihenfolge aktualisieren, in der die benutzerdefin
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf die Objekte bearbeiten, für die Sie benutzerdefinierte Formulare verwalten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf die Objekte bearbeiten, für die Sie benutzerdefinierte Formulare verwalten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen oder höher für die Objekte beisteuern, für die Sie benutzerdefinierte Formulare verwalten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen oder höher für die Objekte beisteuern, für die Sie benutzerdefinierte Formulare verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 1. Wechseln Sie zum -Objekt, in dem Sie die Reihenfolge der hinzugefügten benutzerdefinierten Formulare ändern möchten, und beginnen Sie dann mit der Bearbeitung des -Objekts.
 
-   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken **Abschnitt „Benutzerdefinierte Forms** für Projekte, Aufgaben und Probleme auf das ![](assets/move-icon---dots.png) neben dem Namen eines benutzerdefinierten Formulars. Klicken Sie für alle anderen Objekte auf **Forms verwalten**. Diese Option wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular an das Objekt angehängt ist.
 1. Ziehen Sie einen ![](assets/move-icon---dots.png) an eine neue Position in der Liste.
@@ -73,18 +73,13 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 >
 >Wenn Sie ein benutzerdefiniertes Formular aus einem Objekt entfernen, gehen alle in den benutzerdefinierten Feldern des Formulars erfassten Informationen verloren und können nicht wiederhergestellt werden.
 
-1. Wechseln Sie zum -Objekt, von dem Sie das benutzerdefinierte Formular entfernen möchten, und beginnen Sie mit der Bearbeitung des -Objekts.
+1. Wechseln Sie zu dem Objekt, von dem Sie das benutzerdefinierte Formular entfernen möchten, und klicken Sie dann im linken Bedienfeld **Details** für das Objekt.
 
-   Gehen Sie beispielsweise zu einem Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   Gehen Sie beispielsweise zu einem Projekt und klicken Sie auf den Abschnitt **Projektdetails**.
 
-1. Klicken Sie **Benutzerdefinierte Forms**.
-1. Bei Projekten, Aufgaben und Problemen mit benutzerdefinierten Formularen klicken Sie auf das **X**-Symbol rechts neben einem Formular, um es aus dem Objekt zu entfernen.
-
-   Klicken Sie für alle anderen Objekte **Forms verwalten** und klicken Sie dann auf das **X**-Symbol rechts neben einem Formular, um es aus dem Objekt zu entfernen.
-
-1. <span class="preview">Klicken Sie im daraufhin angezeigten Dialogfeld auf **Entfernen**.</span>
-
-1. Klicken Sie **Speichern** .
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke der Seite des Objekts und dann auf **Alle bearbeiten**.
+1. Klicken Sie auf das **Löschen**-Symbol ![](assets/delete-icon.png) rechts neben einem benutzerdefinierten Formularnamen und klicken Sie dann auf **Löschen**, um das Formular zu bestätigen und aus dem Objekt zu entfernen, oder **Abbrechen**, um das Entfernen zu verhindern.
+1. Klicken Sie **Änderungen speichern** .
 
 ## Verwalten mehrerer benutzerdefinierter Formulare, die dieselben benutzerdefinierten Felder enthalten
 
