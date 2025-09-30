@@ -6,14 +6,16 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
 
 # Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
    Die Seite mit dem neuen oder vorhandenen Arbeitszeittabellen-Profil wird angezeigt.
 
-
-1. Klicken Sie auf **Details festlegen** und aktualisieren Sie dann die folgenden Informationen: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Aktualisieren Sie die folgenden Informationen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -155,6 +156,10 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
    <b>HINWEIS</b>: Nachdem Sie eine Arbeitszeittabelle zur Genehmigung eingereicht haben, können Sie die Stunden nicht mehr bearbeiten. Um eine übermittelte Arbeitszeittabelle in den bearbeitbaren Status zurückzuversetzen, rufen Sie die Arbeitszeittabelle zurück oder bitten Sie die genehmigende Person, die Arbeitszeittabelle abzulehnen. Weitere Informationen finden Sie unter <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Arbeitszeittabelle zur Genehmigung einreichen</a> und <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Arbeitszeittabelle genehmigen</a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>Überstunden</strong> </td> 
+      <td>Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Standardmäßig ist diese Option deaktiviert.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Verfügbare Stundentypen</strong> </td> 
       <td><p>Diese Einstellung bezieht sich nur auf allgemeine Stundentypen und nicht auf projektspezifische Stundentypen. </p>
       <p>Standardmäßig sehen Benutzer alle allgemeinen Stunden auf einer Arbeitszeittabelle. Wenn Ihr Unternehmen jedoch möchte, dass nur bestimmte allgemeine Stunden für eine bestimmte Benutzergruppe angezeigt werden, können Sie die allgemeinen Stunden auswählen, die in den Arbeitszeittabellen angezeigt werden sollen, indem Sie sie in diesem Feld in ihrem Arbeitszeittabellen-Profil auswählen. Wenn Sie alle allgemeinen Stunden deaktivieren möchten, heben Sie die Auswahl aller Stundentypen auf, um die Arbeitszeittabelle ohne Abschnitt für allgemeine Stunden zu erstellen.</p></td> 
@@ -165,14 +170,9 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
       <td> <p> Erinnerungsnachricht hinzufügen. Workfront sendet Benutzern Erinnerungen, damit diese ihre Arbeitszeittabellen ausfüllen oder genehmigen können. Sie müssen Erinnerungsnachrichten erstellen, bevor Sie sie mit einem Arbeitszeittabellen-Profil verknüpfen können.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
-      <td>Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Standardmäßig ist diese Option deaktiviert.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. Klicken Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Produktionsumgebung auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Klicken Sie beim Erstellen von Arbeitszeittabellenprofilen auf Gruppenebene auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellenprofil mit bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zu verknüpfen. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Vorschau zum unteren Seitenrand und suchen Sie den Abschnitt **Personen zuweisen**.</span>
 
    Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,7 +188,7 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
 1. Klicken Sie auf **Speichern**.
 
-1. Klicken Sie oben in der Liste der Arbeitszeittabellen-Profile auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) für Arbeitszeittabellen-Profile auf Systemebene oder **Mehr** für Arbeitszeittabellen-Profile und klicken Sie dann auf **Arbeitszeittabellen erstellen**.
+1. Klicken Sie oben in der Arbeitszeittabellen-Profilliste auf das Symbol **Mehr** (![-Symbol](assets/more-icon.png) und dann auf **Arbeitszeittabellen erstellen**.
 
    Unten im Bildschirm wird eine Bestätigung angezeigt, dass Arbeitszeittabellen erfolgreich generiert wurden. Neue Arbeitszeittabellen werden auf der Grundlage der von Ihnen erstellten neuen Profile generiert.
 
