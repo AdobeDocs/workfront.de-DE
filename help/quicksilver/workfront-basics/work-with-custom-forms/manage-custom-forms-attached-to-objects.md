@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 1. Wechseln Sie zum -Objekt, in dem Sie die Reihenfolge der hinzugefügten benutzerdefinierten Formulare ändern möchten, und beginnen Sie dann mit der Bearbeitung des -Objekts.
 
-   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken **Abschnitt „Benutzerdefinierte Forms** für Projekte, Aufgaben und Probleme auf das ![](assets/move-icon---dots.png) neben dem Namen eines benutzerdefinierten Formulars. Klicken Sie für alle anderen Objekte auf **Forms verwalten**. Diese Option wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular an das Objekt angehängt ist.
 1. Ziehen Sie einen ![](assets/move-icon---dots.png) an eine neue Position in der Liste.
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 1. Wechseln Sie zum -Objekt, von dem Sie das benutzerdefinierte Formular entfernen möchten, und beginnen Sie mit der Bearbeitung des -Objekts.
 
-   Gehen Sie beispielsweise zu einem Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   Gehen Sie beispielsweise zu einem Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken Sie **Benutzerdefinierte Forms**.
 1. Bei Projekten, Aufgaben und Problemen mit benutzerdefinierten Formularen klicken Sie auf das **X**-Symbol rechts neben einem Formular, um es aus dem Objekt zu entfernen.
