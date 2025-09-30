@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 >[!NOTE]
 >
->* Vorschau: 25. September 2025
->* Produktions-Schnellveröffentlichung: 15. Oktober 2025
->* Produktion für alle Kunden: 16. Oktober 2025
+>* Vorschau: 24. September 2025
+>* Produktion für alle Kunden: 25. September 2025
 
 Um den Zugriff auf die benötigten Daten sicherzustellen, haben wir beim Entfernen eines benutzerdefinierten Formulars aus einem -Objekt ein Bestätigungsdialogfeld hinzugefügt. Wenn Sie ein benutzerdefiniertes Formular aus einem Objekt entfernen, werden die Daten in diesem Formular dauerhaft aus dem Objekt entfernt. Jetzt können Sie im Dialogfeld bestätigen, dass Sie verstanden haben, dass diese Daten entfernt werden, und sicherstellen, dass Sie die benötigten Daten nicht entfernen.
 

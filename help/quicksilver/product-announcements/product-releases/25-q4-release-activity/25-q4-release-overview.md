@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2219'
 ht-degree: 4%
 
 ---
@@ -60,12 +60,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Bestätigung beim Entfernen eines benutzerdefinierten Formulars aus einem Objekt</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Bestätigung beim Entfernen eines benutzerdefinierten Formulars aus einem Objekt</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
             <p>Um den Zugriff auf die benötigten Daten sicherzustellen, haben wir beim Entfernen eines benutzerdefinierten Formulars aus einem -Objekt ein Bestätigungsdialogfeld hinzugefügt. Wenn Sie ein benutzerdefiniertes Formular aus einem Objekt entfernen, werden die Daten in diesem Formular dauerhaft aus dem Objekt entfernt. Jetzt können Sie im Dialogfeld bestätigen, dass Sie verstanden haben, dass diese Daten entfernt werden, und sicherstellen, dass Sie die benötigten Daten nicht entfernen. </p>
         </td>
+        <td>Donnerstag, 24. September 2025</td>
         <td>Freitag, 25. September 2025</td>
-        <td>Donnerstag, 15. Oktober 2025</td>
-        <td>Freitag, 16. Oktober 2025</td>
+        <td>Freitag, 25. September 2025</td>
     </tr> 
     <tr>
         <td>
@@ -468,7 +468,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
