@@ -6,16 +6,16 @@ description: Sie können die Reihenfolge aktualisieren, in der die benutzerdefin
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie steht allen Kunden in der Vorschau -Umgebung und einer ausgewählten Gruppe von Kunden in der Produktionsumgebung zur Verfügung.</span>
 
 Sie können die Reihenfolge aktualisieren, in der die benutzerdefinierten Formulare, die an ein Objekt angehängt sind, angezeigt werden, sie entfernen oder die Darstellung benutzerdefinierter Formulare auf mehreren Objekten stapelweise bearbeiten.
 
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Objekte, für die Sie benutzerdefinierte Formulare verwalten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen oder höher für die Objekte beisteuern, für die Sie benutzerdefinierte Formulare verwalten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 1. Wechseln Sie zum -Objekt, in dem Sie die Reihenfolge der hinzugefügten benutzerdefinierten Formulare ändern möchten, und beginnen Sie dann mit der Bearbeitung des -Objekts.
 
-   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die ![](assets/more-icon.png) **Mehr** und klicken Sie dann auf **Bearbeiten** .
+   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken **Abschnitt „Benutzerdefinierte Forms** für Projekte, Aufgaben und Probleme auf das ![](assets/move-icon---dots.png) neben dem Namen eines benutzerdefinierten Formulars. Klicken Sie für alle anderen Objekte auf **Forms verwalten**. Diese Option wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular an das Objekt angehängt ist.
 1. Ziehen Sie einen ![](assets/move-icon---dots.png) an eine neue Position in der Liste.
@@ -75,12 +75,14 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 1. Wechseln Sie zum -Objekt, von dem Sie das benutzerdefinierte Formular entfernen möchten, und beginnen Sie mit der Bearbeitung des -Objekts.
 
-   Gehen Sie beispielsweise zu einem Projekt, klicken Sie auf die ![](assets/more-icon.png) **Mehr** und klicken Sie dann auf **Bearbeiten** .
+   Gehen Sie beispielsweise zu einem Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken Sie **Benutzerdefinierte Forms**.
 1. Bei Projekten, Aufgaben und Problemen mit benutzerdefinierten Formularen klicken Sie auf das **X**-Symbol rechts neben einem Formular, um es aus dem Objekt zu entfernen.
 
    Klicken Sie für alle anderen Objekte **Forms verwalten** und klicken Sie dann auf das **X**-Symbol rechts neben einem Formular, um es aus dem Objekt zu entfernen.
+
+1. <span class="preview">Klicken Sie im daraufhin angezeigten Dialogfeld auf **Entfernen**.</span>
 
 1. Klicken Sie **Speichern** .
 
