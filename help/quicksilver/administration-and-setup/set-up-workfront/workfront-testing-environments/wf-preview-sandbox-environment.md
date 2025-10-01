@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; ](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
@@ -191,3 +191,5 @@ In der Vorschau-Umgebung ist die nächtliche Neuberechnung deaktiviert und die P
 * Jeder Ausfall einer [!DNL Workfront]-Vorschau-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen (sofern vorhanden) oberste Priorität.
 
 * Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung am Wochenende (samstags und sonntags) wird behoben, sodass die Umgebung montags zu den Geschäftszeiten geöffnet ist.
+
+* Proofing ist in der Vorschau-Umgebung nicht verfügbar.
