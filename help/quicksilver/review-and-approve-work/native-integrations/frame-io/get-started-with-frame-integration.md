@@ -6,12 +6,10 @@ description: Erste Schritte mit der Frame.io-Integration.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -42,7 +40,7 @@ Nachdem der Genehmigungs-Workflow erstellt wurde, können Validierungsverantwort
 Weitere Informationen zum Einrichten von Projekten finden Sie unter
 
 * [Erstellen eines Projekts](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Übersicht über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Starten von formellen Überprüfungen und Genehmigungen in Workfront
 
@@ -72,7 +70,7 @@ Reviewer und genehmigende Personen können einem Genehmigungs-Workflow für den 
 
 Sobald der Prüfungs- und Genehmigungs-Workflow in Workfront initiiert wurde, können Prüfer und genehmigende Personen auf den Viewer Frame.io zugreifen, um Kommentare hinzuzufügen, das Asset zu markieren und eine Entscheidung zu treffen.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+Weitere Informationen finden Sie unter [Überprüfen und Genehmigen mit dem Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Zugriff auf den Frame.io-Viewer
 
@@ -83,7 +81,7 @@ Benutzer können auf folgende Weise auf den Viewer Frame.io zugreifen:
 
 >[!NOTE]
 >
->Externe Workfront-Benutzer werden per E-Mail benachrichtigt und aufgefordert, eine Frame.io-Anmeldung zu erstellen, um Assets zu überprüfen und zu genehmigen. <!--is this still accurate?-->
+>Externe Workfront-Benutzer werden per E-Mail benachrichtigt und aufgefordert, eine Frame.io-Anmeldung zu erstellen, um Assets zu überprüfen und zu genehmigen.
 
 ![Frame-Viewer von der Startseite aus öffnen](assets/open-fio-viewwer.png)
 

@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 * Richten Sie das standardmäßige Frame.io-Konto im Workfront-Setup-Bereich ein.
 * Aktivieren von Frame.io-Benutzern im Workfront-Benutzerprofil
 
-Weitere Informationen zu den oben genannten Voraussetzungen finden Sie unter [Konfigurieren der  [!DNL Workfront] - [!DNL Frame.io] -Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 
 ## Erstellen einer neuen Projektvorlage

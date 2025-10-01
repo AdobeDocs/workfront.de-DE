@@ -5,16 +5,14 @@ title: Übersicht über die Frame.io-Integration
 description: Übersicht über die Frame.io-Integration
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
+exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
-
 
 # Übersicht über die Frame.io-Integration
 
@@ -22,13 +20,13 @@ Die Integration von Workfront und Frame.io ermöglicht es Projektkoordinatoren, 
 
 ## Auf Adobe Enterprise Storage aufbauend
 
-Kernstück dieser Integration ist Adobe Enterprise Storage, eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient, einschließlich Workfront, Frame.io und Creative Cloud.
+Kernstück dieser Integration ist Adobe Enterprise Storage, eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient, einschließlich Workfront und Frame.io. <!--, and Creative Cloud.-->
 
 Zu den wichtigsten Vorteilen von Adobe Enterprise Storage gehören:
 
 * Unified Storage Layer für das Kreativ- und Arbeits-Management von Assets
 * Zentralisierte Berechtigungen über Adobe IMS für eine sichere Zugriffskontrolle
-* End-to-End-Asset-Sichtbarkeit in Workfront-, Frame.io- und Creative Cloud-Apps <!--coming soon?-->
+* End-to-End-Asset-Sichtbarkeit in Workfront- und Frame.io-<!--, and Creative Cloud apps -->
 * Skalierbares Speicher- und Kontingent-Management für Unternehmensanforderungen
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -60,7 +58,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der Frame.io-Integrat
 
 #### Grenzwerte für Videoprüfungen
 
-Für Anfragen zum Nachweis von Videos gilt eine jährliche Obergrenze von 10 % der gesamten gebührenpflichtigen Workfront-Benutzerlizenzen eines Unternehmens (Standard und Light). Diese Begrenzung wird auf Organisationsebene angewendet.
+Für Anfragen zum Nachweis von Videos gilt eine jährliche Obergrenze von 10 % der gesamten gebührenpflichtigen Workfront-Benutzerlizenzen eines Unternehmens - Standard und Light. Diese Begrenzung wird auf Organisationsebene angewendet.
 
 Workfront-Administratoren erhalten Benachrichtigungen, wenn die Nutzung 80 % und 100 % der Obergrenze erreicht.
 
@@ -72,9 +70,9 @@ Der Frame.io-Viewer unterstützt alle gängigen Video-, Bild-, Audio-, PDF- und 
 
 #### Zugriff und Lizenzierung für den Frame.io-Viewer
 
-Der Frame.io-Viewer steht allen Workfront-Benutzern mit einer gebührenpflichtigen Lizenz zur Verfügung. Für die Verwendung des Frame.io Viewers für Reviews und Genehmigungen mit dieser Integration ist keine zusätzliche Frame.io-Lizenz erforderlich.
+Der Frame.io-Viewer ist der Standard-Viewer für alle Workfront-Prüfungs- und Genehmigungs-Workflows. Es ist automatisch für alle Workfront-Benutzer mit einer gebührenpflichtigen Lizenz enthalten. Für die Verwendung des Frame.io Viewers für Reviews und Genehmigungen ist keine zusätzliche Frame.io-Lizenz erforderlich.
 
-Wenn Ihr Unternehmen zusätzliche Frame.io-Funktionen nutzen möchte, z. B. das direkte Hochladen von Assets in Projekte in Frame.io, können Sie eine Frame.io Enterprise-Lizenz erwerben. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um eine Demo zu planen und die Vorteile der vollständigen Frame.io-Lösung zu erkunden.
+Wenn Ihr Unternehmen die zusätzlichen Frame.io-Funktionen nutzen möchte, die mit dieser Integration verfügbar sind, z. B. das direkte Hochladen von Assets in Projekte in Frame.io, können Sie eine Frame.io Enterprise-Lizenz erwerben. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um eine Demo zu planen und die Vorteile der vollständigen Frame.io-Lösung zu erkunden.
 
 Die Workfront-Proofing-Funktion ist in dieser Integration nicht verfügbar.
 
@@ -94,24 +92,49 @@ Da diese Integration mithilfe von ESM erstellt wird, müssen beim Verwalten von 
 
 Unter Berücksichtigung dieser Einschränkungen benennt Workfront Objekte oder Dokumente automatisch nach Bedarf um, um Konflikte zu vermeiden.
 
+### Freigabe und Berechtigungen
+
+Im Rahmen der Integration werden Benutzerberechtigungen in Workfront gesteuert und fließen nach unten zu Frame.io. Das bedeutet, dass Sie einen Benutzer nicht zu einem Projekt in Frame.io einladen oder Benutzerberechtigungen in Frame.io ändern können. Diese Aktionen müssen über das Modal „Projektfreigabe“ in Workfront durchgeführt werden.
+
+Die folgende Tabelle zeigt, wie Workfront-Berechtigungen Frame.io-Berechtigungen zugeordnet sind:
+
+<table>
+<tr>
+<th>Workfront-Benutzerberechtigung</th>
+<th>Frame.io-Benutzerberechtigung</th>
+</tr>
+<tr>
+<td>Verwalten</td>
+<td>Bearbeiten und Freigeben</td>
+</tr>
+<tr>
+<td>Mitwirken</td>
+<td>Bearbeiten und Freigeben</td>
+</tr>
+<tr>
+<td>Ansicht</td>
+<td>Nur Kommentar</td>
+</tr>
+</table>
+
+
+
 ### Dokumentenverwaltung in Workfront
 
 Dokumente werden mit dieser Integration auf Projektebene verwaltet und können derzeit nicht in Aufgaben oder Probleme hochgeladen werden.
 
 Der Dokumentzugriff wird auch auf Projektebene verwaltet. Wenn ein(e) Benutzende(r) Zugriff auf ein Projekt hat, kann er/sie auf alle mit diesem Projekt verbundenen Dokumente zugreifen.
 
-<!--Documents can't be dragged as full folders.-->
-
 ### Einschränkungen beim Dokumenterlebnis
 
-Da diese Integration mit ESM erstellt wird, gibt es einige Einschränkungen beim Original-Dokumenterlebnis in Workfront:
+Da diese Integration mit dem Adobe Enterprise-Speicher erstellt wird, gibt es einige Einschränkungen beim Original-Dokumenterlebnis in Workfront:
 
 #### Einschränkungen
 
 Die folgenden Funktionen sind nicht in dieser Integration enthalten:
 
 <!--* External document providers-->
-* Zugriff auf Proofing
+* Zugriff auf Proofing in Workfront
 * Dokument-Viewer in Workfront
 * Favoriten-Dokumente
 * Dokumente anfordern
@@ -125,6 +148,3 @@ For now, the following capabilities are not available:
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
 * Upload documents to tasks or issues in Workfront-->
-
-
-

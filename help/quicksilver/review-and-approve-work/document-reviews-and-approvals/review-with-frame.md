@@ -5,16 +5,14 @@ title: Überprüfen und Genehmigen mit dem Frame.io-Viewer
 description: Erfahren Sie, wie Sie Dokumente mit dem Frame.io-Viewer überprüfen und genehmigen können.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # Überprüfen und Genehmigen mit dem Frame.io-Viewer
 
@@ -22,11 +20,12 @@ Sie können Dokumente in Workfront mit dem Frame.io-Viewer überprüfen und gene
 
 Durch die Überprüfung von Workfront-Dokumenten mit dem Frame.io-Viewer können Sie Kommentare hinterlassen oder bestimmte Abschnitte eines Dokuments, Bildes oder Videos markieren, um effizient mit Ihrem Team zusammenzuarbeiten und sicherzustellen, dass das Feedback klar und umsetzbar ist.
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Weitere Informationen zur Integration von Frame.io in Workfront finden Sie unter [Übersicht über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
-## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+<!--## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +34,28 @@ Durch die Überprüfung von Workfront-Dokumenten mit dem Frame.io-Viewer können
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anfrage oder höher</p>
-   <p>Mitwirkender oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Bearbeitungszugriff auf das mit dem Dokument verknüpfte Objekt</p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## Überprüfen eines Dokuments
 
@@ -71,7 +70,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
    >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen.
-Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Kommentare werden in Workfront nicht angezeigt. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Wenn Sie mit dem Dokument zufrieden sind, navigieren Sie zurück zur Seite Dokumentdetails in Workfront und markieren Sie Ihre Überprüfung als abgeschlossen.
 
    ![Review als abgeschlossen markieren](assets/mark-review-complete.png)
@@ -93,8 +92,7 @@ Gehen Sie zur Workfront-Startseite, suchen Sie das Widget Meine Genehmigungen un
    >Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
-1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen.
-Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. Verwenden Sie in Frame.io die Kommentar-Tools, um Feedback zu hinterlassen oder Fragen zu stellen. Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Wenn Sie mit dem Dokument zufrieden sind, können Sie eine der folgenden Entscheidungen im Frame.io-Viewer auswählen:
 
    * **Genehmigen**: Das Asset benötigt keine Änderungen und ist einsatzbereit.
@@ -109,4 +107,3 @@ Kommentare und Asset-Markup sind nur im Frame.io-Viewer sichtbar. Weitere Inform
 
 
 <!--is document owner the correct term?-->
-

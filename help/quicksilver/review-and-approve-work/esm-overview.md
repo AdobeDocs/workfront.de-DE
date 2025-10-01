@@ -5,16 +5,14 @@ title: Überblick über Adobe Enterprise Storage
 description: Überblick über Adobe Enterprise Storage
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Überblick über Adobe Enterprise Storage
 
@@ -40,4 +38,4 @@ Dies ebnet auch den Weg für künftige Asset-Management-Integrationen mit andere
 
 Die Integration von Workfront und Frame.io nutzt Adobe Enterprise Storage, um eine einheitliche Prüfung und Genehmigung zu ermöglichen. Diese Integration ermöglicht es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können. Dadurch wird sichergestellt, dass alle Stakeholder Zugriff auf die neuesten Versionen von Assets haben und das Feedback an einem Ort zentralisiert wird.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Weitere Informationen zur Integration von Workfront und Frame.io finden Sie unter [Übersicht über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
