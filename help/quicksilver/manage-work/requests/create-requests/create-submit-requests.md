@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 1%
 
 ---
@@ -147,13 +147,13 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
    Das **Neue Anfrage**-Feld wird geöffnet.
 
-1. (Bedingt) Wenn Sie zu dem neuen Erlebnis gewechselt haben, das Workfront Planning umfasst und sich in der Produktionsumgebung befinden, wird im Feld **Neue Anfrage** Folgendes angezeigt:</span>
+1. (Bedingt) Wenn Sie zum neuen Erlebnis gewechselt sind und sich in der Produktionsumgebung befinden, wird im Feld **Neue Anfrage** Folgendes angezeigt:</span>
 
    <ul><li>Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt Letzte angezeigt. </li>
     <li>Alle zusätzlichen Workfront- und Planungsanfrageformulare <b>Alle Anfrageformulare</b> Abschnitt. Sie können nach einem Anfrageformular suchen, das standardmäßig nicht angezeigt wird. </li>
     <li>Alle zusätzlichen Workfront- und Planning-Anfragewarteschlangenpfade werden im Abschnitt <b>Alle Anfragepfade</b> angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird.</li></ul>
    Klicken Sie auf einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange, oder suchen Sie nach einem Pfad, und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
-1. <span class="preview">(Bedingt) Wenn Sie zu einem neuen Erlebnis gewechselt haben, das Workfront Planning umfasst, wählen Sie einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange aus oder klicken Sie auf die Suchleiste. </span>
+1. <span class="preview">(Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, wählen Sie einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange aus oder klicken Sie auf die Suchleiste. </span>
 
    <span class="preview">Wenn Sie auf die Suchleiste klicken, wird ein Dropdown-Menü mit den zuletzt verwendeten Warteschlangen und Formularen angezeigt. Wählen Sie eine aus der Liste aus oder beginnen Sie mit der Eingabe und wählen Sie die Warteschlange oder Liste aus, wenn sie angezeigt wird.</span>
 
@@ -165,7 +165,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    >* <span class="preview">Um nur Workfront-Anfrage-Warteschlangen anzuzeigen, filtern Sie nach `Issue` Objekttypen.</span>
    >* <span class="preview">In der neuen anfordernden Version befinden sich Entwürfe in derselben Liste wie gesendete Anfragen.</span>
 
-1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, die Workfront Planning enthält, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
+1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt sind, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
 
    Klicken Sie andernfalls in das Feld **Anfragetyp** und führen Sie einen der folgenden Schritte aus:
 
@@ -348,7 +348,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
    Wenn Sie die Anfrage senden, wird der Entwurf automatisch gelöscht und kann nicht wiederhergestellt werden.
 
-   Gesendete Anfragen werden im Abschnitt **Gesendet** des Bereichs Anfragen aufgeführt. Wenn Sie die neue -Version verwenden, die Workfront Planning enthält, werden die von Workfront gesendeten Anfragen auf der Registerkarte **Workfront** im Bereich Anfragen angezeigt.
+   Gesendete Anfragen werden im Abschnitt **Gesendet** des Bereichs Anfragen aufgeführt. Wenn Sie die neue -Version verwenden, werden die von Workfront gesendeten Anfragen auf der Registerkarte **Workfront** im Bereich Anfragen angezeigt.
 
    Informationen zum Bearbeiten eingehender Anfragen finden Sie im Artikel [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
