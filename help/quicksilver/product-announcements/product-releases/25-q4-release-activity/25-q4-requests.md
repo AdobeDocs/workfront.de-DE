@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,34 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## Neue kombinierte Statusspalte in der Liste Einheitliche Anfrage
+## Erstellen und Speichern von Ansichten im Bereich Anfragen
 
 >[!NOTE]
 >
->* Vorschau: 28. August 2025
->* Produktions-Schnellveröffentlichung: 11. September 2025
->* Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 2. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>>Produktion für alle: 16. Oktober 2025
 
-Um das einheitliche Anfrageerlebnis zu vereinfachen, zeigt die Spalte Status jetzt sowohl Anfragestatus als auch Genehmigungsstatus an, je nachdem, was für eine bestimmte Anfrage gilt.
+Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten im Bereich Anfragen zu erstellen und zu speichern. Jetzt können Sie eine Ansicht, einschließlich Filtern und Spaltenkonfigurationen, speichern und zwischen Ansichten wechseln. Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
-Weitere Informationen zum Erstellen von Anfragen finden Sie unter:
+Zuvor konnten Filter und Spaltenkonfigurationen nicht gespeichert werden.
 
-* Für Workfront: [Anfragen erstellen und senden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Für Workfront Planning: [Senden von Adobe Workfront Planning-Anfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+Weitere Informationen und Anweisungen finden Sie unter [Erstellen von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## Aktualisierungen beim Anfordern von Erlebnissen
 

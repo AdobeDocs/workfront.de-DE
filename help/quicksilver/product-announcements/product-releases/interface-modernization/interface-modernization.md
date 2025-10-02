@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,39 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Admin und Setup
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### Neue Benutzeroberfläche und Funktionen für die Felder Neu und Meilensteinpfad bearbeiten .
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Vorschau-Version: 2. Oktober 2025; Produktions-Version: Ab der Woche vom 9. Oktober 2025**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+Die Felder Neu und Meilensteinpfad bearbeiten verfügen jetzt über eine neue Benutzeroberfläche. Die Liste Meilensteinpfad hat ein neues Erscheinungsbild und einige Funktionen in diesem Bereich haben sich möglicherweise geändert.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### Aktualisierungen der Benutzeroberfläche beim Hinzufügen oder Bearbeiten von Gruppen-Arbeitszeittabellen-Profilen
+
+**Vorschau-Version: 30. September 2025; Produktionsversion: Beginn der Woche vom 2. Oktober 2025**
+
+Das Erscheinungsbild der Seite „Arbeitszeittabellen-Profil“ wurde aktualisiert, wenn ein Gruppen-Arbeitszeittabellen-Profil bearbeitet oder hinzugefügt wurde.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Einstellungen > Gruppen > Wählen Sie einen Gruppennamen > Arbeitszeittabellen-Profile aus und fügen Sie entweder ein neues Profil hinzu oder bearbeiten Sie ein vorhandenes.
+
+Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+### Aktualisierungen der Benutzeroberfläche für die Statuslisten
+
+**Vorschau-Version: 2. Oktober 2025; Produktions-Version: 9. Oktober 2025**
+
+Das Erscheinungsbild der Statuslisten wurde aktualisiert, damit sie dem Design in anderen Bereichen des Programms entsprechen.
+
+Diese Aktualisierung wirkt sich aus auf:
+
+* Im Bereich Status unter Setup > Projektvoreinstellungen
+* Die Status sind beim Anzeigen einer Gruppe
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Schweregrade“ im Setup
 
-**Vorschau-Version: 25. September 2025; Produktionsversion: 2. Oktober 2025**
+**Vorschau-Version: 25. September 2025; Produktionsversion: 9. Oktober 2025**
 
 Wir haben die Seite „Schweregrade“ mit einem moderneren Design aktualisiert, das zu anderen Bereichen von Workfront konsistent ist.
 
@@ -48,7 +68,7 @@ Weitere Informationen finden Sie unter [Erstellen oder Anpassen von Problemschwe
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Prioritäten“ im Setup
 
-**Vorschau-Version: 25. September 2025; Produktionsversion: 2. Oktober 2025**
+**Vorschau-Version: 25. September 2025; Produktionsversion: 9. Oktober 2025**
 
 Wir haben die Prioritätsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -208,6 +228,38 @@ Weitere Informationen finden Sie unter [Programme bearbeiten](/help/quicksilver/
 
 ## Projekte
 
+### Aktualisierungen der Benutzeroberfläche für Abrechnungssätze
+
+**Vorschau-Version: 2. Oktober 2025; Produktions-Version: Ab der Woche vom 9. Oktober 2025**
+
+Wir haben das Erscheinungsbild der Seite Abrechnungssätze eines Projekts aktualisiert, sodass sie mit anderen Bereichen der Anwendung übereinstimmt. Die Dialogfelder zum Hinzufügen und Bearbeiten von Abrechnungssätzen wurden ebenfalls aktualisiert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu einem Projekt > Abrechnungssätze.
+
+Weitere Informationen finden Sie unter [Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### Aktualisierungen der Benutzeroberfläche für eine Projektliste oder einen Bericht beim Anwenden der Meilenstein -Ansicht
+
+**Vorschau-Version: 2. Oktober 2025; Produktions-Version: Ab der Woche vom 9. Oktober 2025**
+
+Das Erscheinungsbild einer Projektliste oder eines Berichts wurde aktualisiert, wenn Sie die Ansicht Meilenstein auf sie anwenden.
+
+Die Projektliste oder der Bericht stimmt nun mit dem Design anderer Bereiche von Workfront überein. Weitere Informationen finden Sie unter [Verwenden der Meilenstein -Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Aktualisierung der Benutzeroberfläche bei der Massenbearbeitung von Vorlagen
 
 **Vorschau-Version: 18. September 2025; Produktions-Version: 25. September 2025**
@@ -215,14 +267,6 @@ Weitere Informationen finden Sie unter [Programme bearbeiten](/help/quicksilver/
 Das Erscheinungsbild des Felds Vorlagen bearbeiten wurde aktualisiert, wenn Vorlagen aus einer Liste von Vorlagen stapelweise bearbeitet werden. Die Informationen im Feld Vorlagen bearbeiten sind nun so organisiert, dass sie mit dem Bearbeitungsfeld für einzelne Vorlagen übereinstimmen.
 
 Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Änderungen an der Benutzeroberfläche für das Konvertieren einer Aufgabe in ein Projekt ohne Vorlage
 
@@ -427,16 +471,15 @@ Weitere Informationen finden Sie unter
 * [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## Benutzende
 
-<!--### Interface updates for the User Details page
+### Aktualisierungen der Benutzeroberfläche auf der Seite „Benutzerdetails“
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Vorschau-Version: 2. Oktober 2025; Produktions-Version: 9. Oktober 2025**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+Das Erscheinungsbild der Seite mit den Benutzerdetails wurde aktualisiert, damit sie mit anderen Bereichen der Anwendung übereinstimmt.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+Sie können das aktualisierte Design anzeigen, indem Sie zu Benutzer wechseln, einen Benutzer auswählen und im linken Bedienfeld auf Details klicken.
 
 ### Aktualisierungen der Benutzeroberfläche für persönliche Auszeiten
 
@@ -791,7 +834,7 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Beri
 
 ### URLs mit /title oder /qstile werden in Workfront-Dashboards nicht mehr unterstützt
 
-**Vorschau-Version: 13. Mai; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 13. Mai; Produktionsversion: ab 20. Mai 2025**
 
 Wenn Sie eine externe Seite in einem Dashboard mit einer Workfront-URL haben, die `/tile` oder `/qstile` enthält, wird diese Seite nicht mehr geladen.
 
