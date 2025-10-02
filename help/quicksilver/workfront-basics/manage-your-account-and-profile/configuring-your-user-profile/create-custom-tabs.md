@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Erstellen benutzerdefinierter Abschnitte
 description: Die Informationen, die Sie in der - [!DNL Workfront] -Anwendung sehen, werden standardmäßig oft in den Abschnitten im linken Bereich angezeigt. Jeder Abschnitt enthält verschiedene Informationen zu einem Bereich  [!DNL Workfront]  einem Objekt.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -82,7 +82,7 @@ Nachdem Sie das Dashboard oder die externe Seite erstellt haben, können Sie sie
 
 1. Wechseln Sie zu einem der [!DNL Workfront] Bereiche oder Objekte, denen Sie im linken Bereich einen benutzerdefinierten Abschnitt hinzufügen können.\
    Oder
-1. Wechseln Sie zu einem -Objekt, dem Sie [!UICONTROL &#x200B; linken Bereich ein &#x200B;] hinzufügen können.\
+1. Wechseln Sie zu einem -Objekt, dem Sie [!UICONTROL  linken Bereich ein ] hinzufügen können.\
    Weitere Informationen dazu, welchen Bereichen und Objekten Sie benutzerdefinierte Abschnitte hinzufügen können, finden Sie unter [[!DNL Adobe Workfront] Abschnitte](#adobe-workfront-sections).
 1. Klicken Sie **[!UICONTROL linken Bedienfeld]** Dashboard hinzufügen“.
 1. Geben Sie einen Namen für das Dashboard in das Feld **[!UICONTROL Name des Schnelllinks]** ein. Dies ist nur für Sie sichtbar.
@@ -106,7 +106,7 @@ Die folgenden Objekte werden nach dem Objekt gefiltert, unter dem sie angezeigt 
 * Aufgabe
 * Problem
 * Genehmigungsprozess
-* Notiz
+* Hinweis
 * Dokument
 
 Weitere Informationen zur Hierarchie und Interdependenz von Objekten finden Sie im Abschnitt [Interdependenz und Hierarchie der Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) im Artikel [Grundlegendes zu Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

@@ -6,18 +6,18 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
+source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1668'
 ht-degree: 2%
 
 ---
 
 # Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
 
-{{highlighted-preview}}
-
 <!--Audited: 06/2025-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
 
 Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen, die ohne weiteres Eingreifen von Ihnen wiederkehrende Arbeitszeittabellen für Ihre Benutzer generieren. Dies spart Zeit und stellt sicher, dass Folgendes zwischen den Benutzern konsistent ist:
 
@@ -89,92 +89,73 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
 1. Aktualisieren Sie die folgenden Informationen:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Name</strong> </td> 
-      <td> <p> Fügen Sie einen Namen für das Arbeitszeittabellen-Profil hinzu. Dabei kann es sich um den Namen eines Teams oder einer Gruppe handeln, dessen Personen für ihre Arbeitszeittabellen denselben Zeitrahmen verwenden. </p> <p>Dies ist ein Pflichtfeld.</p> </td> 
-     </tr>
+   * **Name**: Fügen Sie einen Namen für das Arbeitszeittabellen-Profil hinzu. Dabei kann es sich um den Namen eines Teams oder einer Gruppe handeln, dessen Personen für ihre Arbeitszeittabellen denselben Zeitrahmen verwenden. Dies ist ein Pflichtfeld.
+   * **Beschreibung**: Fügen Sie weitere Informationen zum Arbeitszeittabellen-Profil hinzu.
+   * **Mit Administratorzugriff gruppieren**: Wenn Sie ein Arbeitszeittabellen-Profil auf Systemebene erstellen, lassen Sie dieses Feld leer.
 
-   <tr> 
-      <td role="rowheader"><strong>Beschreibung</strong> </td> 
-      <td> <p> Fügen Sie weitere Informationen zum Arbeitszeittabellen-Profil hinzu.     
-      </p> </td> 
-     </tr>
+     Jeder Benutzer, der Benutzerkonten bearbeiten kann, kann anderen Benutzern eine Arbeitszeittabelle auf Systemebene anhängen.
 
-   <tr> 
-   <td role="rowheader"><strong>Gruppe mit Administratorzugriff</strong> </td> 
-      <td> <p> 
-      <ul> 
-      <li> <p>Wenn Sie ein Arbeitszeittabellen-Profil auf Systemebene erstellen, lassen Sie dieses Feld leer.</p> <p>Jeder Benutzer, der Benutzerkonten bearbeiten kann, kann anderen Benutzern eine Arbeitszeittabelle auf Systemebene anhängen.</p> <p>Nur ein Workfront-Administrator kann ein Arbeitszeittabellen-Profil auf Systemebene bearbeiten.</p> </li> 
-      </ul> 
-     <ul> 
-      <li> <p>Wenn Sie ein Arbeitszeittabellen-Profil für eine von Ihnen verwaltete Gruppe erstellen, identifizieren Sie die Gruppe hier.</p> <p>Dadurch wird das Arbeitszeittabellen-Profil nicht den Benutzenden in der Gruppe zugewiesen, sondern nur den Gruppenadministratoren, das Arbeitszeittabellen-Profil zu ändern. Sie weisen das Profil in Schritt 6 Benutzern zu.</p>
+     Nur ein Workfront-Administrator kann ein Arbeitszeittabellen-Profil auf Systemebene bearbeiten.
 
-   <p><b>HINWEIS</b>: Wenn Benutzende außerhalb der Gruppe Arbeitszeittabellen-Profile an andere Benutzende anhängen, können sie dieses Arbeitszeittabellen-Profil nicht anzeigen oder anhängen.</p> </li> 
-      </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Arbeitszeittabellen erstellen</strong> </td> 
-      <td> <p> <p>Geben Sie an, wann das Arbeitszeittabellen-Profil die Arbeitszeittabellen generieren soll. Eine Arbeitszeittabelle kann so eingerichtet werden, dass sie automatisch auf wöchentlicher, zweiwöchentlicher, halbmonatlicher oder monatlicher Basis generiert wird. Wählen Sie den Wochentag aus, an dem die Arbeitszeittabelle erstellt werden soll.</p>
-      <p>Eine wöchentliche Arbeitszeittabelle beginnt mit dem Datum ihrer Erstellung. Wenn Sie beispielsweise wöchentliche Arbeitszeittabellen jeden Donnerstag erstellen, ist der erste Wochentag auf der Arbeitszeittabelle Donnerstag.</p>
+     Wenn Sie ein Arbeitszeittabellen-Profil für eine von Ihnen verwaltete Gruppe erstellen, identifizieren Sie die Gruppe hier.
 
+     Dadurch wird das Arbeitszeittabellen-Profil nicht den Benutzenden in der Gruppe zugewiesen, sondern nur den Gruppenadministratoren, das Arbeitszeittabellen-Profil zu ändern. Sie weisen das Profil in Schritt 6 Benutzern zu.
 
-   <p><b>HINWEIS</b>: Workfront erstellt immer zwei Arbeitszeittabellen gleichzeitig: Die erste Arbeitszeittabelle enthält immer das aktuelle Datum, und die zweite Arbeitszeittabelle beginnt, wenn der Zeitrahmen der ersten endet.</p> </p> </td> 
-   </tr> 
-     <tr> 
-      <td role="rowheader"><p><strong>Genehmigende Personen</strong></p> </td> 
-      <td> <p> <p>Genehmigende Personen sind Benutzer, die die Arbeitszeittabelle für die mit der Arbeitszeittabelle verbundenen Benutzer genehmigen. Sie können bis zu 7 Benutzer in einer Arbeitszeittabelle als genehmigende Personen angeben. Die Identifizierung mehrerer Benutzer ist nützlich, um sicherzustellen, dass eine genehmigende Person verfügbar ist, wenn jemand abwesend ist. Alle genehmigenden Personen werden benachrichtigt, wenn ein Benutzer die Arbeitszeittabelle zur Genehmigung einreicht. Nur ein Benutzer muss die Arbeitszeittabelle genehmigen, damit sie genehmigt werden kann.</p> <p>Nur Benutzer mit Verwaltungsrechten für Arbeitszeittabellen können als genehmigende Personen festgelegt werden. Weitere Informationen zu Arbeitszeittabellen-Administratorrechten finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> <p>Wählen Sie im Dropdown-Menü die genehmigende Person für die Arbeitszeittabelle aus (wenn eine genehmigende Person erforderlich ist). Sie können aus den folgenden Optionen auswählen:</p> 
-      <ul> 
-      <li><strong>Keine</strong>: Die Arbeitszeittabelle muss nicht genehmigt werden.</li> 
-      <li><strong>Ihr Manager</strong>: Dies ist die vom System festgelegte standardmäßige genehmigende Person. In diesem Fall genehmigt der als Manager benannte Benutzer die Arbeitszeittabelle, wenn sie zur Genehmigung eingereicht wird.</li> 
-      <li><strong>Spezifische Personen</strong> Sie können bestimmte Benutzer bzw. Benutzerinnen nach Namen als Arbeitszeittabellen-Genehmiger bzw. -Genehmigerinnen bestimmen. Eine Arbeitszeittabelle kann mehrere genehmigende Personen enthalten. Wenn eine der genehmigenden Personen die Arbeitszeittabelle genehmigt hat, wird diese als "<strong>" </strong> und verschwindet aus der Liste der Arbeitszeittabellen-Genehmigungen aller verbleibenden genehmigenden Personen.</li> 
-       </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Kann </strong> bearbeiten </td> 
-      <td> <p> <p>Wählen Sie diese Option aus, damit die genehmigenden Personen Stunden auf der Arbeitszeittabelle bearbeiten können.
+     >[!NOTE]
+     >
+     >Wenn Benutzende außerhalb der Gruppe Arbeitszeittabellen-Profile an andere Benutzende anhängen, können sie dieses Arbeitszeittabellen-Profil nicht anzeigen oder anhängen.
 
-   <p>Diese Option funktioniert zusammen mit der Einstellung **Bearbeitung von Arbeitszeittabellen auf Inhaber und Administratoren beschränken** im Bereich Setup &gt; Arbeitszeittabellen und Stunden &gt; Voreinstellungen. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren</a>.</p>
+   * **Arbeitszeittabellen erstellen**: Geben Sie an, wann das Arbeitszeittabellenprofil die Arbeitszeittabellen generieren soll. Eine Arbeitszeittabelle kann so eingerichtet werden, dass sie automatisch auf wöchentlicher, zweiwöchentlicher, halbmonatlicher oder monatlicher Basis generiert wird. Wählen Sie den Wochentag aus, an dem die Arbeitszeittabelle erstellt werden soll.
 
-   <p>Die folgenden Szenarien sind vorhanden: </p>
+     Eine wöchentliche Arbeitszeittabelle beginnt mit dem Datum ihrer Erstellung. Wenn Sie beispielsweise wöchentliche Arbeitszeittabellen jeden Donnerstag erstellen, ist der erste Wochentag auf der Arbeitszeittabelle Donnerstag.
 
-   <ul>
-      <li>Wenn die <b>Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken</b> aktiviert ist:</li>
-      <ul><li>Genehmigende Personen können Arbeitszeittabellen nur genehmigen und ablehnen, unabhängig davon, ob <b>Kann Zeit bearbeiten</b> aktiviert ist oder nicht. </li>
-      <li>Die Manager der Arbeitszeittabellen-Besitzer können nur die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter anzeigen.</li></ul>
-      <li>Wenn die <b>Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken</b> deaktiviert ist:</li>
-    <ul><li>Wenn die <b>Kann die Zeit bearbeiten</b> aktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle senden, erneut öffnen oder schließen und die Zeit bearbeiten.</li>
-      <li>Wenn die <b>Kann die Zeit bearbeiten</b> deaktiviert ist, können genehmigende Personen die Arbeitszeittabelle nicht senden, erneut öffnen oder schließen und können die Zeit auch nicht bearbeiten. Genehmigende Personen können die Arbeitszeittabelle nur genehmigen oder ablehnen. </li>
-      <li>Die Manager von Arbeitszeittabellen-Besitzern können die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter senden, zurückrufen, erneut öffnen und bearbeiten.</li></ul>
-      </ul>
+     >[!NOTE]
+     >
+     >Workfront erstellt immer zwei Arbeitszeittabellen gleichzeitig: Die erste Arbeitszeittabelle enthält immer das aktuelle Datum, und die zweite Arbeitszeittabelle beginnt, wenn der Zeitrahmen der ersten endet.
 
-   <p>
+   * **Genehmiger**: Genehmigende Personen sind Benutzer, die die Arbeitszeittabelle für die mit der Arbeitszeittabelle verknüpften Benutzer genehmigen. Sie können bis zu 7 Benutzer in einer Arbeitszeittabelle als genehmigende Personen angeben. Die Identifizierung mehrerer Benutzer ist nützlich, um sicherzustellen, dass eine genehmigende Person verfügbar ist, wenn jemand abwesend ist. Alle genehmigenden Personen werden benachrichtigt, wenn ein Benutzer die Arbeitszeittabelle zur Genehmigung einreicht. Nur ein Benutzer muss die Arbeitszeittabelle genehmigen, damit sie genehmigt werden kann.
 
-   <b>HINWEIS</b>: Nachdem Sie eine Arbeitszeittabelle zur Genehmigung eingereicht haben, können Sie die Stunden nicht mehr bearbeiten. Um eine übermittelte Arbeitszeittabelle in den bearbeitbaren Status zurückzuversetzen, rufen Sie die Arbeitszeittabelle zurück oder bitten Sie die genehmigende Person, die Arbeitszeittabelle abzulehnen. Weitere Informationen finden Sie unter <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Arbeitszeittabelle zur Genehmigung einreichen</a> und <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Arbeitszeittabelle genehmigen</a>.</p> </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Überstunden</strong> </td> 
-      <td>Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Standardmäßig ist diese Option deaktiviert.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Verfügbare Stundentypen</strong> </td> 
-      <td><p>Diese Einstellung bezieht sich nur auf allgemeine Stundentypen und nicht auf projektspezifische Stundentypen. </p>
-      <p>Standardmäßig sehen Benutzer alle allgemeinen Stunden auf einer Arbeitszeittabelle. Wenn Ihr Unternehmen jedoch möchte, dass nur bestimmte allgemeine Stunden für eine bestimmte Benutzergruppe angezeigt werden, können Sie die allgemeinen Stunden auswählen, die in den Arbeitszeittabellen angezeigt werden sollen, indem Sie sie in diesem Feld in ihrem Arbeitszeittabellen-Profil auswählen. Wenn Sie alle allgemeinen Stunden deaktivieren möchten, heben Sie die Auswahl aller Stundentypen auf, um die Arbeitszeittabelle ohne Abschnitt für allgemeine Stunden zu erstellen.</p></td> 
-     </tr>
+     Nur Benutzer mit Verwaltungsrechten für Arbeitszeittabellen können als genehmigende Personen festgelegt werden. Weitere Informationen zu Arbeitszeittabellen-Administratorrechten finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-   <tr> 
-      <td role="rowheader"><strong>Erinnerungsnachrichten</strong> </td> 
-      <td> <p> Erinnerungsnachricht hinzufügen. Workfront sendet Benutzern Erinnerungen, damit diese ihre Arbeitszeittabellen ausfüllen oder genehmigen können. Sie müssen Erinnerungsnachrichten erstellen, bevor Sie sie mit einem Arbeitszeittabellen-Profil verknüpfen können.  </p> </td> 
-     </tr>
+     Wählen Sie im Dropdown-Menü die genehmigende Person für die Arbeitszeittabelle aus (wenn eine genehmigende Person erforderlich ist). Sie können aus den folgenden Optionen auswählen:
 
-1. Klicken Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Produktionsumgebung auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+      * **Keine**: Die Arbeitszeittabelle muss nicht genehmigt werden.
+      * **Ihr Manager**: Dies ist die vom System festgelegte standardmäßige genehmigende Person. In diesem Fall genehmigt der als Manager benannte Benutzer die Arbeitszeittabelle, wenn sie zur Genehmigung eingereicht wird.
+      * **Spezifische Personen**: Sie können bestimmte Benutzer bzw. Benutzerinnen nach Namen als Arbeitszeittabellen-Genehmiger bzw. -Genehmigerinnen bestimmen. Eine Arbeitszeittabelle kann mehrere genehmigende Personen enthalten. Wenn eine der genehmigenden Personen die Arbeitszeittabelle genehmigt hat, wird diese als &quot;**&quot;** und verschwindet aus der Liste der Arbeitszeittabellen-Genehmigungen aller verbleibenden genehmigenden Personen.
+
+   * **Kann die Zeit bearbeiten**: Wählen Sie diese Option aus, damit die genehmigenden Personen Stunden auf der Arbeitszeittabelle bearbeiten können.
+
+     Diese Option funktioniert zusammen mit der Einstellung **Bearbeitung von Arbeitszeittabellen auf Inhaber und Administratoren beschränken** im Bereich Setup > Arbeitszeittabellen und Stunden > Voreinstellungen. Weitere Informationen finden Sie unter [Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+     Die folgenden Szenarien sind vorhanden:
+
+     Wenn die **Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken** aktiviert ist:
+
+      * Genehmigende Personen können Arbeitszeittabellen nur genehmigen und ablehnen, unabhängig davon, ob die Option Zeit bearbeiten aktiviert ist oder nicht.
+      * Die Manager der Arbeitszeittabellen-Besitzer können nur die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter anzeigen.
+
+     Wenn die **Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken** deaktiviert ist:
+
+      * Wenn **Kann die Zeit bearbeiten** aktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle senden, erneut öffnen oder schließen und die Zeit bearbeiten.
+      * Wenn **Kann die Zeit bearbeiten** deaktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle nicht senden, erneut öffnen oder schließen und auch die Zeit nicht bearbeiten. Genehmigende Personen können die Arbeitszeittabelle nur genehmigen oder ablehnen.
+      * Die Manager von Arbeitszeittabellen-Besitzern können die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter senden, zurückrufen, erneut öffnen und bearbeiten.
+
+     >[!NOTE]
+     >
+     >Nachdem Sie eine Arbeitszeittabelle zur Genehmigung eingereicht haben, können Sie die Stunden nicht mehr bearbeiten. Um eine übermittelte Arbeitszeittabelle in den bearbeitbaren Status zurückzuversetzen, rufen Sie die Arbeitszeittabelle zurück oder bitten Sie die genehmigende Person, die Arbeitszeittabelle abzulehnen. Weitere Informationen finden Sie unter [Arbeitszeittabelle zur Genehmigung einreichen](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) und [Arbeitszeittabelle genehmigen](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md).
+
+   * **Überstunden**: Sie können das Feld „Überstunden“ in den Arbeitszeittabellen ausblenden. Standardmäßig ist diese Option deaktiviert.
+   * **Verfügbare Stundentypen**: Diese Einstellung bezieht sich nur auf allgemeine Stundentypen und nicht auf projektspezifische Stundentypen.
+
+     Standardmäßig sehen Benutzer alle allgemeinen Stunden auf einer Arbeitszeittabelle. Wenn Ihr Unternehmen jedoch möchte, dass nur bestimmte allgemeine Stunden für eine bestimmte Benutzergruppe angezeigt werden, können Sie die allgemeinen Stunden auswählen, die in den Arbeitszeittabellen angezeigt werden sollen, indem Sie sie in diesem Feld in ihrem Arbeitszeittabellen-Profil auswählen. Wenn Sie alle allgemeinen Stunden deaktivieren möchten, heben Sie die Auswahl aller Stundentypen auf, um die Arbeitszeittabelle ohne Abschnitt für allgemeine Stunden zu erstellen.
+
+   * **Erinnerungsnachrichten**: Fügen Sie eine Erinnerungsnachricht hinzu. Workfront sendet Benutzern Erinnerungen, damit diese ihre Arbeitszeittabellen ausfüllen oder genehmigen können. Sie müssen Erinnerungsnachrichten erstellen, bevor Sie sie mit einem Arbeitszeittabellen-Profil verknüpfen können.
+
+1. Klicken Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Produktionsumgebung auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    <span class="preview">Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Vorschau zum unteren Seitenrand und suchen Sie den Abschnitt **Personen zuweisen**.</span>
 
-   Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**.
 
    Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
@@ -224,3 +205,88 @@ Sie können über mehr als ein Arbeitszeittabellen-Profil für Ihre Organisation
 * Eindeutige allgemeine Stundenanforderungen für verschiedene Benutzergruppen
 
 Ein Benutzer kann nicht gleichzeitig mit mehr als einem Arbeitszeittabellen-Profil verknüpft werden.
+
+<!--
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Name</strong> </td> 
+      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> <p>This ia a required field.</p> </td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td> <p> Add more information about the timesheet profile.     
+      </p> </td> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
+      <td> <p> 
+      <ul> 
+      <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
+      </ul> 
+     <ul> 
+      <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
+
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
+      </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Create timesheets</strong> </td> 
+      <td> <p> <p>Specify when the timesheet profile should generate the timesheets. A timesheet can be set to automatically generate on a weekly, bi-weekly, semi-monthly, or monthly basis. Select the day of the week when you want the timesheet to be produced.</p>
+      <p>A weekly timesheet begins on the date it is generated. For example, if you create weekly timesheets every Thursday, the first day of the week on the timesheet is Thursday.</p>
+    
+      
+   <p><b>NOTE</b>: Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet starts when the time frame of the first one ends.</p> </p> </td> 
+   </tr> 
+     <tr> 
+      <td role="rowheader"><p><strong>Approvers</strong></p> </td> 
+      <td> <p> <p>Approvers are users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
+      <ul> 
+      <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
+      <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
+      <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
+       </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Can edit time </strong> </td> 
+      <td> <p> <p>Select this option to allow the approvers to edit hours on the timesheet. 
+
+   <p>This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p>
+
+   <p>The following scenarios exist: </p>
+
+   <ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
+      <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
+      <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
+    <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
+      <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
+      <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
+      </ul>
+
+   <p>
+
+   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Available Hour Types</strong> </td> 
+      <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
+      <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Reminder notifications</strong> </td> 
+      <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
+     </tr>
+    </tbody> 
+   </table>
+-->
