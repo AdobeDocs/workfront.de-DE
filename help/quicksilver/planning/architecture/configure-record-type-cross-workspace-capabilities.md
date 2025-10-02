@@ -174,7 +174,7 @@ So konfigurieren Sie einen Datensatztyp als zentralisiert:
    >
    >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Auf der Karte „Datensatztyp“ wird das Symbol &quot;![ Datensatztyp“ angezeigt](assets/global-icon.png) um anzugeben, dass der Datensatztyp für das Hinzufügen zu anderen Arbeitsbereichen verfügbar ist.
+   * Auf der Karte „Datensatztyp“ wird das Symbol &quot;![&#x200B; Datensatztyp“ angezeigt](assets/global-icon.png) um anzugeben, dass der Datensatztyp für das Hinzufügen zu anderen Arbeitsbereichen verfügbar ist.
    * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
