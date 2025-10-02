@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '3138'
 ht-degree: 1%
 
 ---
@@ -135,11 +135,15 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
    * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
 
-## Erstellen eines Anfrageformulars
+## Anfrageformular erstellen
+
+Um ein Anfrageformular zu erstellen, müssen Sie mit der Erstellung des Formulars beginnen, die Formulardetails einrichten und das Formular veröffentlichen und freigeben.
+
+### Erstellen eines Anfrageformulars
 
 Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Formular verknüpft ist, <span class="preview">oder aus dem Bereich Anfragen von Workfront.</span>
 
-### Erstellen eines Anfrageformulars aus einem Datensatztyp
+#### Erstellen eines Anfrageformulars aus einem Datensatztyp
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
 
 <div class="preview">
 
-### Erstellen eines Anfrageformulars aus dem Bereich Anfragen von Workfront
+#### Erstellen eines Anfrageformulars aus dem Bereich Anfragen von Workfront
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Anfragen**.
 1. Klicken Sie in der rechten oberen Ecke des Bildschirms auf **Formulare anfordern**.
@@ -186,16 +190,21 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
 1. Klicken Sie auf **Erstellen**.
 
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
-1. Fahren Sie fort [Formular konfigurieren](#configure-the-form).
+1. Fahren Sie fort [Einrichten von Details für das Anfrageformular](#set-up-details-for-the-request-form).
 
 </div>
 
-## Formular konfigurieren
+### Einrichten von Details für das Anfrageformular
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung eines Anfrageformulars, wie in einem der folgenden Abschnitte beschrieben:
+Formulardetails sind in Registerkarten unterteilt.
 
-   * [Erstellen eines Anfrageformulars aus einem Datensatztyp](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Erstellen eines Anfrageformulars aus dem Bereich Anfragen von Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
+* Auf **Registerkarte** Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen <span class="preview">und Optionen für das Abschließen von Anfragen festlegen</span>.
+* <span class="preview">Die Registerkarte **Automatisierungen** ermöglicht es Ihnen, die Vorgänge basierend auf Funktionen der mit dem Formular gestellten Anfrage zu automatisieren.</span>
+
+#### Einrichten von Formulardetails
+
+1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
 
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 
@@ -248,6 +257,16 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
    Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
+1. Fahren Sie mit [Konfigurationsdetails einrichten](#set-up-configuration-details) fort, wenn Sie weitere Details für das Formular konfigurieren möchten, oder gehen Sie zu [Formularerstellung abschließen](#complete-request-form-creation).
+
+#### Einrichten von Konfigurationsdetails
+
+Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlegen <span class="preview">und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird</span>.
+
+1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
+
+   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
+1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
 1. (Optional) Klicken Sie auf die **Konfiguration** und fügen Sie dann mindestens einen Benutzer <span class="preview">oder ein Team</span> zum Feld **Genehmigende** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
 
@@ -263,6 +282,39 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
 
      Weitere Informationen zum Hinzufügen von Genehmigungen zu Anfrageformularen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
+1. <span class="preview">(Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist**.</span>
+
+1. <span class="preview">Wählen Sie aus, ob eine über dieses Formular erstellte Anfrage beim Erstellen des angeforderten Objekts als „abgeschlossen“ markiert oder ob das angeforderte Objekt abgeschlossen sein soll.</span>
+1. <span class="preview">(Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.</span>
+1. Fahren Sie mit [Einrichten von Automatisierungsdetails](#set-up-configuration-details) fort, wenn Sie weitere Details für das Formular konfigurieren möchten, oder gehen Sie zu [Formularerstellung abschließen](#complete-request-form-creation).
+
+<div class="preview">
+
+#### Automatisierungen einrichten
+
+Sie können Automatisierungen in Adobe Workfront Planning konfigurieren, die, wenn sie aktiviert sind, Objekte in Workfront erstellen oder Datensätze in Workfront Planning aufnehmen, wenn sie durch einen Planungsdatensatz ausgelöst werden.
+
+Informationen zum Erstellen von Automatisierungen in anderen Bereichen von Workfront Planning finden Sie unter [Konfigurieren von Adobe Workfront Planning-Automatisierungen](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. Aktualisieren Sie auf der Detailseite der Automatisierung die folgenden Felder im Abschnitt **Trigger**:
+
+   * **Trigger**: Wählen Sie die Aktion aus, durch die die Automatisierung Trigger werden soll. Derzeit ist der einzige verfügbare Trigger für die Automatisierung von Anforderungsformularen `When request object status equals pending creation`.
+
+1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
+Derzeit ist die einzige verfügbare Aktion für die Automatisierung von Anforderungsformularen `Create record`.
+
+     >[!TIP]
+     >
+     >Nachdem Sie die Automatisierung gespeichert haben, können Sie die in diesem Feld ausgewählte Aktion nicht mehr ändern.
+1. Fahren Sie [Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
+
+
+</div>
+
+### Abschließen der Formularerstellung
+
+1. Erstellen und richten Sie das Formular wie unter [Erstellen eines Anfrageformulars beginnen](#begin-creating-a-request-form) und [Details für das Anfrageformular einrichten](#set-up-details-for-the-request-form) beschrieben ein.
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Formulars in der Kopfzeile und klicken Sie dann auf **Bearbeiten**, um den Namen des Formulars zu aktualisieren.
 
 1. Klicken Sie auf **Veröffentlichen**, um das Formular zu veröffentlichen und einen eindeutigen Link für es zu erhalten.
@@ -280,6 +332,21 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
+
+## Verwalten vorhandener Anfrageformulare
+
+
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Anfrageformulare verwalten möchten.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
+
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anfrageformulare verwalten**.
+
+   Alle mit dem Datensatztyp verknüpften Anforderungsformulare werden in einer Tabellenansicht angezeigt.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Anfrageformulars in der Tabellenansicht, klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Formularnamen und klicken Sie auf eine der folgenden Optionen:
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Sie können auch die Entitäten ändern, für die Sie ein Anfrageformular freige
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -53,8 +53,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>
 <p>Einer der folgenden Workfront-Pläne:</p>
 <ul><li>Auswählen</li>
-<li>Erstklassig</li>
-<li>Ultimativ</li></ul>
+<li>Prime</li>
+<li>Ultimate</li></ul>
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
    </td>
 
@@ -117,7 +117,7 @@ So ändern Sie die Freigabe eines Anfrageformulars:
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie ein Formular freigeben möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
