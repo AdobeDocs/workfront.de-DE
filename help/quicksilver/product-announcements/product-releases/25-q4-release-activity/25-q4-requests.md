@@ -23,8 +23,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 >[!NOTE]
 >
 >Vorschau: 2. Oktober 2025
->>Produktions-Schnellveröffentlichung: 15. Oktober 2025
->>Produktion für alle: 16. Oktober 2025
+>&#x200B;>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>&#x200B;>Produktion für alle: 16. Oktober 2025
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten im Bereich Anfragen zu erstellen und zu speichern. Jetzt können Sie eine Ansicht, einschließlich Filtern und Spaltenkonfigurationen, speichern und zwischen Ansichten wechseln. Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
