@@ -6,14 +6,16 @@ description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgab
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
+
+{{highlighted-preview}}
 
 Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 
@@ -89,8 +91,6 @@ So überschreiben Sie einen Abrechnungssatz für ein Projekt:
 
 1. Wählen **im Feld** das Aufgabengebiet aus, für das Sie den Abrechnungssatz ändern möchten.
 
-   ![Abrechnungssatz für Projekt überschreiben](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    Das Feld **Standard-Abrechnungssatz** zeigt den Satz auf Systemebene für dieses Aufgabengebiet an.
 
 1. Geben Sie im Feld **Abrechnungssätze 1** die einmalige Überschreibung des Abrechnungssatzes ein und klicken Sie dann auf **Speichern**, um den Abrechnungssatz einmal zu überschreiben
@@ -105,7 +105,11 @@ So überschreiben Sie einen Abrechnungssatz für ein Projekt:
    * **Startdatum**: Dies ist das Datum, an dem der Standardsatz endet.
    * **Enddatum**: Das Datum, an dem die neue Überschreibung des Abrechnungssatzes endet.
 
-   ![new_billing_rate_with_adjust_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Abrechnungssätze mit Überschreibungsdaten](assets/billing-rates-093025.png)
+
+   Beispielbild in der Produktionsumgebung:
+   ![Abrechnungssätze mit Überschreibungsdaten](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. Die Zeitzone für die von Ihnen ausgewählten Daten wird unten im Feld „Neuer Abrechnungssatz“ angezeigt. Dies ist die Zeitzone, die mit Ihrer Workfront-Instanz verknüpft ist, wie im Bereich Kundeninformationen von Setup gezeigt. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront wendet den Tarif für Aufgabengebiete außer Kraft setzen auf die Stunden an, die während der bei der Berechnung des Umsatzes für das Projekt angegebenen Zeitrahmen auftreten.
