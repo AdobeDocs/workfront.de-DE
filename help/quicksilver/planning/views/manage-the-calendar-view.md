@@ -143,7 +143,7 @@ Verwalten einer Kalenderansicht:
 
    * <span class="preview">Doppelklicken Sie auf eine beliebige Stelle im Kalender, um einen Datensatz zu erstellen. </span>
 
-     <span class="preview">Weitere Informationen finden Sie unter [Erstellen von ](/help/quicksilver/planning/records/create-records.md)</span>
+     <span class="preview">Weitere Informationen finden Sie unter [Erstellen von &#x200B;](/help/quicksilver/planning/records/create-records.md)</span>
 
    * <span class="preview">Klicken Sie auf den linken oder rechten Rand einer Datensatzleiste und ziehen Sie ihn dann per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- oder Enddatum sofort aktualisiert. </span>
 

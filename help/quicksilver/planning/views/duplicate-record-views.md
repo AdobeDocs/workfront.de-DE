@@ -111,7 +111,7 @@ Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenan
 
 1. Führen Sie je nach verwendeter Umgebung die folgenden Schritte aus:
 
-   * Bewegen Sie in der Produktionsumgebung den Mauszeiger auf der Registerkarte Ansicht über einen der Namen der Ansicht und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) links neben dem Ansichtsnamen und klicken Sie dann auf **Duplizieren**.
+   * Bewegen Sie in der Produktionsumgebung den Mauszeiger auf der Registerkarte Ansicht über einen der Namen der Ansicht und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) links neben dem Ansichtsnamen und klicken Sie dann auf **Duplizieren**.
    * <span class="preview">Klicken Sie in der Vorschau-Umgebung auf das Dropdown-Symbol ![Dropdown-Symbol](assets/drop-down-icon.png) neben dem Namen der aktuellen Ansicht, bewegen Sie den Mauszeiger über den Namen einer Ansicht, klicken Sie auf **Mehr** und dann auf **Duplizieren**.</span>
 
      ![Menü „Mehr“ in der Ansicht mit Optionen](assets/more-menu-for-views-expanded-with-delete-option.png)
