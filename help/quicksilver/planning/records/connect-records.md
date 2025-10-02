@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3397'
 ht-degree: 1%
 
 ---
@@ -337,7 +337,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Verbinden von Datensätzen mit Experience Manager-Assets:
 
@@ -467,11 +467,12 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
    In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.
 
    In der Tabelle werden alle verbundenen Datensätze eines Typs angezeigt.
-1. Klicken Sie auf **Verbinden**, <span class="preview">**Datensätze verbinden** oder **Neue Zeile**</span>, um Datensätze hinzuzufügen oder zu entfernen.
+1. Klicken Sie **Verbinden** oder <span class="preview">**Verbinden von Datensätzen** in einer Projektliste, </span> vorhandene Datensätze hinzuzufügen oder zu entfernen.
 
    ![Schaltfläche „Verbinden“ auf der Registerkarte „Details verbundener Datensätze“ hervorgehoben](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. <span class="preview">Klicken Sie **Neue Zeile** in einer Liste von Projekten, um ein Projekt zu erstellen. Die neuen Projekte werden automatisch mit dem aktuellen Datensatz verbunden. </span>
 1. (Optional) Wenn Sie einen verbundenen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen** um ihn zu erstellen und zu verbinden.
 
 ## Verbinden von Datensätzen aus Workfront-Objekten

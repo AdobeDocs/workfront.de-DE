@@ -3,9 +3,10 @@ title: Übersicht über arbeitsbereichsübergreifende Datensatztypen
 description: Zentralisierte Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
 hidefromtoc: true
 hide: true
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ In Adobe Workfront Planning können Sie Workspace-übergreifende Funktionen für
 
 Im Folgenden finden Sie arbeitsbereichsübergreifende Funktionen von Datensatztypen:
 
-* Sie können einen Datensatztyp als zentralisiert festlegen. Benutzer können zentralisierte Datensatztypen zu anderen Arbeitsbereichen hinzufügen, die sie verwalten können.
+* Sie können einen Datensatztyp als zentralisiert festlegen. Benutzer können zentralisierte Datensatztypen zu anderen von ihnen verwalteten Arbeitsbereichen hinzufügen.
 
   >[!IMPORTANT]
   >
@@ -39,7 +40,7 @@ In diesem Artikel erhalten Sie einen Überblick über arbeitsbereichsübergreife
 
 ## Übersicht über zentralisierte Datensatztypen
 
-Zentralisierte Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
+Zentralisierte Datensatztypen können in Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
 
 Bei der Implementierung von Workfront Planning für ein Unternehmen mit mehreren Teams mit gemeinsamen Workflows müssen Sie möglicherweise eine zusammenhängende Struktur und Metadaten für wichtige Datensatztypen (wie Kampagnen oder Ergebnisse) definieren, die den Arbeitsbereichen jedes Teams hinzugefügt werden können, um ihre Arbeit zu erfassen und zu verwalten.
 
@@ -51,12 +52,12 @@ Gehen Sie wie folgt vor, um zentralisierte Datensatztypen zu verwenden:
 
 1. Konfigurieren Sie einen Datensatztyp, der in einem bestimmten Arbeitsbereich zentralisiert werden soll.
 
-   Ein Workspace-Manager kann Benutzer mit einer Standardlizenz, Teams, Gruppen, Rollen oder Unternehmen auswählen, um einen ausgewählten Datensatztyp zu einem von ihnen verwalteten Arbeitsbereich hinzuzufügen.
+   Ein Workspace-Manager kann Benutzern mit einer Standardlizenz oder Teams, Gruppen, Rollen und Unternehmen Berechtigungen erteilen, um einen ausgewählten Datensatztyp zu einem von ihnen verwalteten Arbeitsbereich hinzuzufügen.
 
-   Der ursprüngliche Datensatztyp ist in seinem ursprünglichen Arbeitsbereich vorhanden, wird jedoch von allen anderen Arbeitsbereichen sichtbar gemacht.
+   Der ursprüngliche Datensatztyp ist in seinem ursprünglichen Arbeitsbereich vorhanden, wird jedoch in anderen Arbeitsbereichen sichtbar gemacht.
 
    Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Hinzufügen eines Datensatztyps aus einem vorhandenen, der als zentralisierter Datensatztyp konfiguriert wurde, zu einem sekundären Arbeitsbereich.
+1. Fügen Sie einen Datensatztyp zu einem sekundären Arbeitsbereich hinzu, der von einem vorhandenen Arbeitsbereich stammt, der als zentralisierter Datensatztyp konfiguriert wurde.
 
    Der Datensatztyp ist in den folgenden Arbeitsbereichen vorhanden:
 
@@ -71,7 +72,7 @@ Gehen Sie wie folgt vor, um zentralisierte Datensatztypen zu verwenden:
 
 Der für die Zentralisierung konfigurierte Datensatztyp weist die folgenden Eigenschaften auf:
 
-* Alle zugehörigen Informationen können nur im ursprünglichen Arbeitsbereich bearbeitet werden.
+* Alle zugehörigen Informationen (Erscheinungsbild, ursprüngliche Felder) können nur im ursprünglichen Arbeitsbereich bearbeitet werden.
 
 * Sie können die folgenden Aktionen für den zentralisierten Datensatztyp aus dem ursprünglichen Arbeitsbereich eines zentralisierten Datensatztyps ausführen:
 
@@ -85,21 +86,21 @@ Der für die Zentralisierung konfigurierte Datensatztyp weist die folgenden Eige
 
   Dies geschieht, damit der zentralisierte Datensatztyp in den Arbeitsbereichen verbleiben kann, in denen er bereits hinzugefügt wurde.
 * Die Datensätze, die Sie einem zentralen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den Arbeitsbereich verfügen, in dem sie hinzugefügt wurden.
-* Die Datensätze, die Sie aus einem sekundären Arbeitsbereich hinzufügen, werden aggregiert und im ursprünglichen Arbeitsbereich angezeigt. Alle Mitglieder des ursprünglichen Arbeitsbereichs erhalten Ansichtsberechtigungen für ihn.
+* Die Datensätze, die Sie aus einem sekundären Arbeitsbereich hinzufügen, werden aggregiert und im ursprünglichen Arbeitsbereich angezeigt. Alle Mitglieder des ursprünglichen Arbeitsbereichs erhalten Ansichtsberechtigungen für sie.
 
 * Die verbundenen Datensatztypen eines zentralisierten Datensatztyps werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
 
   Wenn Sie beispielsweise einen Kampagnen-Datensatztyp haben, der eine Verbindung mit dem Datensatztyp Regionen aufweist, und Sie den Kampagnen-Datensatztyp einem sekundären Arbeitsbereich hinzufügen, werden Regionen für den sekundären Arbeitsbereich arbeitsbereichsübergreifend verbindbar. Die Mitglieder des sekundären Arbeitsbereichs können jetzt Kampagnen erstellen und sie mit Regionen verknüpfen.
 
-* Felder, die für einen zentralen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird. Felder aus einem ursprünglichen Arbeitsbereich sind in den sekundären Arbeitsbereichen schreibgeschützt.
+* Felder, die für einen zentralen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird. Die Feldeinstellungen eines ursprünglichen Arbeitsbereichs sind in den sekundären Arbeitsbereichen schreibgeschützt.
 
 ### Überlegungen zu zentralisierten Datensatztypen nach dem Hinzufügen zu einem sekundären Arbeitsbereich
 
-* Sekundäre Arbeitsbereich-Mitwirkende erhalten die Berechtigung Beitragen für den zentralisierten Datensatztyp im Arbeitsbereich ihres Teams. Sie können Datensätze darin hinzufügen und verwalten.
+* Sekundäre Arbeitsbereich-Mitwirkende erhalten die Berechtigung Beitragen für den zentralisierten Datensatztyp im Arbeitsbereich ihres Teams. Sie können Datensätze darin vom sekundären Arbeitsbereich hinzufügen und verwalten.
 
-* Sekundäre Arbeitsbereich-Betrachter erhalten die Berechtigung zum Anzeigen des zentralisierten Datensatztyps im Arbeitsbereich ihres Teams. Es können keine Datensätze hinzugefügt und darin verwaltet werden.
+* Sekundäre Arbeitsbereich-Betrachter erhalten die Berechtigung zum Anzeigen des zentralisierten Datensatztyps im Arbeitsbereich ihres Teams. Sie können darin keine Datensätze hinzufügen und verwalten.
 
-* Sekundär Workspace-Manager können die folgenden Aktionen für den Datensatztyp ausführen, der aus einem zentralisierten Datensatztyp in einem sekundären Workspace hinzugefügt wurde:
+* Sekundär Workspace-Manager können die folgenden zusätzlichen Aktionen für den Datensatztyp ausführen, der aus einem zentralisierten Datensatztyp in einem sekundären Workspace hinzugefügt wurde:
 
    * Löschen.
 
@@ -110,26 +111,25 @@ Der für die Zentralisierung konfigurierte Datensatztyp weist die folgenden Eige
         Fields added to a centralized record from a secondary workspace are visible only from the secondary workspace. 
     * Share it-->
 
-* Die folgenden Aktionen können nicht für den Datensatztyp ausgeführt werden, der aus einem zentralisierten Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurde:
+* Kein Benutzer kann die folgenden Aktionen für den Datensatztyp ausführen, der aus einem zentralisierten Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurde:
 
    * Bearbeiten
 
      Sie können weder sein Erscheinungsbild noch seine Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace hinzugefügt wurden.
    * Anfrageformulare erstellen und verwalten
-   * Erstellen und Verwalten von Anfrageformularen
+   * Automatisierungen erstellen und verwalten
 
-* In sekundären Arbeitsbereichen hinzugefügte Datensätze sind in den folgenden Arbeitsbereichen sichtbar, wenn Sie über Anzeigen- oder höhere Berechtigungen für diese Arbeitsbereiche verfügen:
+* In sekundären Arbeitsbereichen hinzugefügte Datensätze sind nur dann in den folgenden Arbeitsbereichen sichtbar, wenn Sie über Anzeigen- oder höhere Berechtigungen für diese Arbeitsbereiche verfügen:
 
    * Der sekundäre Arbeitsbereich, in dem sie hinzugefügt werden.
    * Der ursprüngliche Arbeitsbereich des zentralisierten Datensatztyps.
    * Alle anderen Arbeitsbereiche, bei denen der zentrale Arbeitsbereich hinzugefügt wird.
 
-* Die folgenden Szenarien existieren für Datensätze, die in den Arbeitsbereichen der Teams erstellt wurden:
+* Die folgenden Szenarien existieren für Datensätze, die in sekundären Arbeitsbereichen erstellt wurden:
 
    * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Arbeitsbereich und keine Berechtigungen für sekundäre Arbeitsbereiche verfügen, können Sie Datensätze anzeigen, die von den sekundären Arbeitsbereichen im ursprünglichen Arbeitsbereich hinzugefügt wurden. Sie können diese jedoch nicht über den ursprünglichen Arbeitsbereich verwalten.
    * Wenn Sie über Verwaltungsberechtigungen für den sekundären Arbeitsbereich verfügen, können Sie die Datensätze im ursprünglichen Arbeitsbereich des zentralisierten Datensatztyps oder in dem Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
-
-     Sie können die Datensätze in zusätzlichen sekundären Arbeitsbereichen anzeigen, in denen der zentralisierte Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen.
+   * Sie können die Datensätze in zusätzlichen sekundären Arbeitsbereichen anzeigen, in denen der zentralisierte Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen.
 
 ### Zugriff auf die Verbindungen eines zentralisierten Datensatztyps
 
@@ -163,5 +163,3 @@ Gehen Sie wie folgt vor, um verbindbare Datensatztypen zu verwenden:
 1. Stellen Sie eine Verbindung zu einem Datensatztyp her, der als von einem anderen von Ihnen verwalteten Arbeitsbereich aus verbindbar gekennzeichnet ist.
 
    Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   In den folgenden Abschnitten werden Überlegungen zu zentralisierten Datensatztypen und deren Funktionsweise in ihren ursprünglichen oder sekundären Arbeitsbereichen beschrieben.

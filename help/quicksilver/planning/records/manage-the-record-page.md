@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 1%
 
 ---
@@ -332,7 +332,22 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
 
      Weitere Informationen zum Bearbeiten von Datensätzen in der Tabellenansicht finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-   * Inline-Bearbeitung eines beliebigen Datensatzes in der Tabelle auf der Seite „Verbundene Datensätze“. In der Produktionsumgebung werden alle Workfront-Objekte in einer schreibgeschützten Tabellenansicht angezeigt und können nicht bearbeitet werden. <span class="preview">Sie können Workfront-Projekte in der Vorschau-Umgebung inline bearbeiten.</span>
+   * Inline-Bearbeitung eines beliebigen Datensatzes in der Tabelle auf der Seite „Verbundene Datensätze“.
+
+     In der Produktionsumgebung werden alle Workfront-Objekte in einer schreibgeschützten Tabellenansicht angezeigt und können nicht bearbeitet werden.
+
+     <span class="preview">In der Vorschau-Umgebung können Sie Projekte auf der Seite „Verbundene Datensätze“ inline bearbeiten.</span>
+
+1. <span class="preview">(Bedingt) Führen Sie beim Anzeigen einer Liste verbundener Projekte einen der folgenden Schritte aus:</span>
+
+   * <span class="preview">Klicken Sie **Datensätze verbinden** in der oberen rechten Ecke der Seite „Verbundene Datensätze“, um vorhandene Projekte zu verbinden.</span>
+   * <span class="preview">Inline-Bearbeitung der Projektinformationen in der Tabelle.</span>
+   * <span class="preview">Klicken Sie auf **Neue Zeile**, um ein Projekt ohne Vorlage zu erstellen.</span>
+
+     Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * <span class="preview">Bewegen Sie den Mauszeiger über ein Projekt und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie dann auf eine der folgenden Aktionen:</span>
+      * <span class="preview">**Löschen**, um das Projekt zu löschen. Durch das Löschen eines Projekts wird es vom Datensatz getrennt und in den Workfront-Papierkorb verschoben. </span>
+      * <span class="preview">**Trennen**, um das Projekt vom Datensatz zu trennen. Trennen eines Projekts</span>
 
 1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte Seite „Verbundene Datensätze“
 
@@ -356,7 +371,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus, um weitere Datensätze oder Objekte miteinander zu verbinden:
 
    * Klicken Sie **unten in** Tabelle auf „Verbinden“, um Datensätze oder beliebige Workfront-Objekte (<span class="preview"> Projekte) hinzuzufügen oder zu entfernen</span>
-   * <span class="preview">Klicken Sie in der Vorschau **Umgebung oben rechts auf der Seite „Verbundene Datensätze** oder unten in der Tabelle auf **Neue Zeile**, um Projekte hinzuzufügen oder zu entfernen.</span>
+   * <span class="preview">Klicken Sie in der Vorschau-Umgebung auf **Datensätze verbinden** in der oberen rechten Ecke der Seite „Verbundene Datensätze“, um vorhandene Projekte zu verbinden, oder klicken Sie **Neue Zeile** unten in der Tabelle, um Projekte zu erstellen und sie automatisch mit dem aktuellen Datensatz zu verbinden.</span>
 
    Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensätze“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.

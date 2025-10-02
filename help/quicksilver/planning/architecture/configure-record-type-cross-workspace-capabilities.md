@@ -4,9 +4,9 @@ description: Sie können festlegen, dass ein Datensatztyp entweder einem anderen
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,8 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+Sie können Datensatztypen so konfigurieren, dass sie in mehreren Arbeitsbereichen funktionieren.
+
 Im Folgenden finden Sie arbeitsbereichsübergreifende Funktionen von Datensatztypen:
 
 * Sie können einen Datensatztyp als zentralisiert festlegen. Benutzer können zentralisierte Datensatztypen zu anderen Arbeitsbereichen hinzufügen, die sie verwalten können.
@@ -81,8 +83,10 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket</p></li>
-Und
-<li><p>Planning Plus-Paket</p></li></ul>
+<p>Und</p>
+<li><p>Beliebiges Planungspaket zum Erstellen verbindbarer Datensatztypen</p></li>
+<li><p>Planning Plus-Paket zum Erstellen zentralisierter Datensatztypen</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -118,19 +122,18 @@ Ein Workspace-Manager kann einem von ihm verwalteten Workspace einen zentralen D
 
 Benutzer können Datensätze zu einem zentralisierten Datensatztyp aus jedem Arbeitsbereich hinzufügen, für den sie über Beitragsberechtigungen verfügen, und wo der zentralisierte Datensatztyp hinzugefügt wird, einschließlich des ursprünglichen Arbeitsbereichs. Sie können Datensätze aus dem Arbeitsbereich anzeigen, für den sie nur über die Berechtigung Anzeigen verfügen.
 
-Weitere Informationen finden Sie unter [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+Weitere Informationen finden Sie unter [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-So konfigurieren Sie das Hinzufügen eines Datensatztyps als zentralisierten Datensatztyp:
+So konfigurieren Sie einen Datensatztyp als zentralisiert:
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, dessen Datensatztypen Sie bearbeiten möchten.
+1. Klicken Sie auf den Arbeitsbereich, dessen Datensatztypen Sie als zentralisiert konfigurieren möchten.
 
    Die Workspace-Seite wird geöffnet und die Datensatztypen werden angezeigt.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte Datensatztyp .
-oder
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen, und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps.
 1. Klicken Sie auf **Bearbeiten**.
 
@@ -140,7 +143,7 @@ oder
    >
    >Wenn ein Datensatztyp bereits als zentralisierter Datensatztyp festgelegt wurde und zu anderen Arbeitsbereichen hinzugefügt wurde, ist die Option Bearbeiten abgeblendet.
 
-1. Wählen Sie im Feld **Datensatztyp bearbeiten** die Registerkarte **Erweiterte Einstellungen** aus.
+1. Klicken Sie im Feld **Datensatztyp bearbeiten** auf die Registerkarte **Erweiterte Einstellungen**.
 1. Aktivieren Sie die **Zulassen, dass dieser Datensatztyp anderen Arbeitsbereichen hinzugefügt**).
 
    ![Datensatztyp bearbeiten Erweiterte Einstellungen mit Aktivieren von Zu anderen Arbeitsbereichen hinzufügen](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -197,12 +200,11 @@ So konfigurieren Sie einen Datensatztyp für die Verbindung von anderen Arbeitsb
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte Datensatztyp und klicken Sie dann auf **Bearbeiten**
-oder
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie dann auf **Bearbeiten**.
 
    ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card.png)
 
-1. Wählen Sie im Feld **Datensatztyp bearbeiten** die Registerkarte **Erweiterte Einstellungen** aus.
+1. Klicken Sie im Feld **Datensatztyp bearbeiten** auf die Registerkarte **Erweiterte Einstellungen**.
 1. Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Registerkarte „Datensatztyp bearbeiten - Erweiterte Einstellungen“ mit aktivierter Option „Von anderen Arbeitsbereichen verbinden“](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

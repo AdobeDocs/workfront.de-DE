@@ -4,9 +4,9 @@ description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. I
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Als Workspace-Manager können Sie einen Datensatztyp, der in einem Workspace vorhanden ist, zu einem Workspace hinzufügen, den Sie in Adobe Workfront Planning verwalten.
+Als Workspace-Manager können Sie einen Datensatztyp, der in einem anderen Workspace vorhanden ist, zu einem Workspace hinzufügen, den Sie in Adobe Workfront Planning verwalten.
 
-Sie müssen zunächst einen Datensatztyp als zentralisierten Workspace-Typ festlegen, bevor Workspace-Manager ihn als vorhandenen Datensatztyp in andere Workspaces einfügen können.
+In diesem Artikel wird beschrieben, wie Sie einen Datensatztyp aus einem vorhandenen hinzufügen und löschen können, wenn er nicht mehr benötigt wird.
 
-Sie können einen Datensatztyp beim Erstellen oder Bearbeiten als zentralisiert festlegen, während Sie seine arbeitsbereichsübergreifenden Einstellungen definieren.
+Ein Workspace-Manager muss zunächst einen Datensatztyp als zentralisierten Datensatztyp festlegen, bevor er ihn zu Arbeitsbereichen hinzufügen kann, die er als vorhandenen Datensatztyp verwaltet.
+
+Sie können einen Datensatztyp beim Erstellen oder Bearbeiten als zentralisiert festlegen, während Sie seine erweiterten Einstellungen definieren.
 
 Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 Bevor Sie einem Arbeitsbereich Datensätze aus einem zentralisierten Datensatztyp hinzufügen, lesen Sie den Artikel [Übersicht über arbeitsbereich-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 
 ## Zugriffsanforderungen
 
@@ -53,8 +56,10 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem zentralisierten Datensatzty
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket</p></li>
-Und
-<li><p>Planning Plus-Paket</p></li></ul>
+<p>Und</p>
+<li><p>Beliebiges Planungspaket zum Erstellen verbindbarer Datensatztypen</p></li>
+<li><p>Planning Plus-Paket zum Erstellen zentralisierter Datensatztypen</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    >[!TIP]
    >
-   >Wenn keine Datensatztypen zum Hinzufügen zu einem anderen Arbeitsbereich konfiguriert sind, wird beim Erstellen eines Datensatztyps nicht die Option zum Hinzufügen aus einem anderen Arbeitsbereich angezeigt.
+   >Wenn keine Datensatztypen zum Hinzufügen zu einem anderen Arbeitsbereich konfiguriert sind, wird die Option zum Hinzufügen aus einem anderen Arbeitsbereich nicht angezeigt.
 
    Folgendes geschieht:
 
@@ -100,19 +105,27 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
       * Alle Originalfelder
       * Alle Datensatzverbindungen
-   * Sie können Datensätze, die von anderen Arbeitsbereichen hinzugefügt wurden, nur anzeigen, wenn Sie mindestens über die Berechtigung Anzeigen für diese Arbeitsbereiche verfügen.
+   * Sie können Datensätze, die von anderen Arbeitsbereichen hinzugefügt wurden, die denselben zentralisierten Datensatztyp verwenden, nur anzeigen, wenn Sie mindestens über die Berechtigung Anzeigen für diese Arbeitsbereiche verfügen.
    * Das Symbol **zentralisierter Datensatztyp** ![Symbol für zentralisierten Datensatztyp](assets/global-icon.png) wird der Karte des neuen Datensatztyps hinzugefügt.
    * Das schreibgeschützte Feld **Workspace** wird der neuen Tabellenansicht vom Typ Datensatz hinzugefügt. Das Feld zeigt an, in welchem Arbeitsbereich die einzelnen Datensätze erstellt wurden.
 
      >[!NOTE]
      >
-     >* Das Erscheinungsbild, die erweiterten Einstellungen oder die ursprünglichen Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
+     >Das Erscheinungsbild, die erweiterten Einstellungen oder die ursprünglichen Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. (Optional) Klicken Sie auf die Karte **Mehr** Menü ![Mehr](assets/more-menu.png) auf der Karte des neuen Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+## Löschen eines zentralisierten Datensatztyps aus einem sekundären Arbeitsbereich
+
+Sie können einen Datensatztyp löschen, den Sie aus einem anderen Arbeitsbereich hinzugefügt haben, falls er nicht mehr benötigt wird. Wenn Sie sie löschen, wird sie nur aus dem sekundären Arbeitsbereich entfernt, und die aus diesem Arbeitsbereich hinzugefügten Datensätze werden gelöscht. Der ursprüngliche Datensatztyp verbleibt im ursprünglichen Arbeitsbereich und auch in anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
+
+So löschen Sie einen zentralisierten Datensatztyp aus einem sekundären Arbeitsbereich:
+
+1. Wechseln Sie zum zentralen Datensatztyp im sekundären Arbeitsbereich.
+
+1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
 1. (Bedingt) Geben Sie **Löschen** in das bereitgestellte Feld ein und klicken Sie dann auf **Dauerhaft löschen**.
 
    Folgendes geschieht:

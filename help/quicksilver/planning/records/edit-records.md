@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    <span class="preview">![Leiste am linken Ende der Zeitleisten-Ansicht, um die Größe zu ändern](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Klicken Sie auf eine Datensatzleiste und ziehen Sie sie dann per Drag-and-Drop an eine andere Position, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.</span>
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
@@ -246,17 +246,11 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 <!--add another step about drag and drop here when that is available-->
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Kalenderansicht. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Bedingt) Bewegen Sie den Mauszeiger in der Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf, ziehen Sie die Ränder und legen Sie sie an einem anderen Datum ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
+1. <span class="preview">(Bedingt) Bewegen Sie den Mauszeiger in der Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf, ziehen Sie die Ränder und legen Sie sie an einem anderen Datum ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
 
    <span class="preview">![Leiste am linken Ende der Kalenderansicht, deren Größe geändert werden soll](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-   <!--At preview release, add one of the following depending on which one is releasing: 
-    Scenario one: only drag and drop in the weekly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario two: only drag and drop in the monthly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
-    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Klicken Sie auf eine Datensatzleiste und ziehen Sie sie dann per Drag-and-Drop an eine andere Position, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.</span>
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -35,30 +35,44 @@ Sie können Adobe Workfront-Objekte aus Workfront Planning wie folgt erstellen:
 
   Informationen zum Erstellen von Workfront-Objekten mithilfe von Automatisierungen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-Sie können die folgenden Typen von Workfront-Objekten aus Workfront Planning erstellen, wenn Sie einen Workfront Planning-Datensatz mit den folgenden Workfront-Objekttypen verbinden:
-
-* Projekte
-* Portfolios
-* Programme
-
 >[!IMPORTANT]
 >
->* Sie können nur Projekte, Portfolios und Programme in Workfront erstellen, wenn Sie sie über einen Datensatz verbinden.
+>Sie können die folgenden Workfront-Objekte aus Workfront Planning erstellen, wenn Sie sie mit Planungsdatensätzen verbinden:
 >
->* Sie können keine Gruppen oder Unternehmen erstellen, wenn Sie sie über einen Datensatz in Workfront Planning verbinden.
+>* Projekte
+>* Portfolios
+>* Programme
+>
+>Sie können die folgenden Workfront-Objekte mit Planungsdatensätzen verbinden, sie jedoch nicht im Verbindungsprozess erstellen:
+>
+>* Gruppen
+>* Firmen
 >
 
-Sie können Projekte, Portfolios und Programme über ein Verbindungsfeld in folgenden Bereichen von Workfront Planning verbinden:
+Beachten Sie beim Verbinden und Erstellen von Workfront-Objekten mit Workfront-Planungsdatensätzen Folgendes:
 
-* Die Tabellenansicht eines Datensatztyps
-* Die Detailseite oder das Vorschaufeld eines Datensatzes
-* Registerkarte „Verbindungen“ eines Datensatzes
+* Sie können Workfront-Projekte, -Portfolios, -Programme, -Gruppen und -Unternehmen über ein Verbindungsfeld aus den folgenden Bereichen von Workfront Planning verbinden:
+
+   * Die Tabellenansicht eines Datensatztyps
+   * Die Detailseite oder das Vorschaufeld eines Datensatzes
+   * Registerkarte „Verbindungen“ eines Datensatzes
+
+* Sie können Projekte aus den folgenden Bereichen von Workfront Planning erstellen:
+
+   * Die Tabellenansicht eines Datensatztyps
+   * Der Detailbereich eines Datensatzes im Verbindungsfeld
+   * <span class="preview">Die Seite „Verbundener Datensatz“ eines Datensatzes im Bereich „Details“</span>
+
+* Sie können Portfolios und Programme aus den folgenden Bereichen von Workfront Planning erstellen:
+
+   * Die Tabellenansicht eines Datensatztyps
+   * Der Detailbereich eines Datensatzes im Verbindungsfeld
 
 Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +93,8 @@ Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten fin
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -128,10 +142,17 @@ Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten fin
 Sie müssen über Folgendes verfügen, bevor Sie neue Projekte oder Portfolios hinzufügen können, indem Sie sie mit vorhandenen Datensätzen verbinden:
 
 * Datensatztypen, die mit Workfront-Projekten, -Portfolios oder -Programmen verbunden sind. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Einträge. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+* Datensätze für die mit Workfront-Objekten verbundenen Datensatztypen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 ## Erstellen Sie Projekte, während Sie sie mit Datensätzen aus Workfront Planning verbinden
+
+Sie können in Workfront Planning in den folgenden Bereichen von Workfront Planning Projekte erstellen, während Sie sie mit Datensätzen verbinden:
+
+* Die Tabellenansicht eines Datensatztyps oder der Bereich Details eines Datensatzes im Verbindungsfeld
+* <span class="preview">Die Seite „Verbundener Datensatz“ eines Datensatzes, im Bereich „Details“ eines Datensatzes </span>
+
+### Erstellen von Projekten im Bereich „Details“ eines Datensatzes oder in der Tabellenansicht eines Datensatztyps
 
 So erstellen Sie Projekte, während Sie sie mit anderen Datensätzen verbinden:
 
@@ -154,7 +175,34 @@ Geben Sie den Namen eines Projekts ein und klicken Sie dann auf **Projekt hinzuf
 
 1. (Optional) Klicken Sie in Workfront Planning auf den Namen des neuen Projekts, um die Projektseite in Workfront zu öffnen und zusätzliche Aktualisierungen am Projekt vorzunehmen.
 
+<div class="preview">
+
+### Erstellen von Projekten über die Seite „Verbundene Datensätze“ eines Datensatzes
+
+1. Verbinden Sie den Projektobjekttyp mit einem Workfront Planning-Datensatztyp in der Tabellenansicht.
+
+   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes. Das Vorschaufeld Details wird geöffnet.
+
+1. Fügen Sie eine **Seite „Verbundene Datensätze** für Projekte hinzu.
+
+   Weitere Informationen finden Sie im Abschnitt „Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz“ im Artikel [Verwalten des Datensatzseitenlayouts](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   Die Seite Verbundene Datensätze wird in der Tabellenansicht angezeigt. Verbundene Projekte werden in der Tabelle angezeigt.
+
+   ![Tabellenansicht „Projekte“ auf der Seite „Verbundene Datensätze“](assets/projects-connected-records-page-table.png)
+
+1. Klicken Sie **Neue Zeile** in der Projekttabelle, um ein Projekt hinzuzufügen.
+
+   Sie können in diesem Bereich nur ein leeres Projekt hinzufügen. Sie können kein Projekt mit einer Vorlage hinzufügen.
+1. (Optional) Klicken Sie auf den Namen des Projekts in der Tabellenansicht, um das Projekt in Workfront zu öffnen und weitere Informationen hinzuzufügen.
+
+</div>
+
 ## Erstellen Sie Portfolios, während Sie sie mit Datensätzen aus Workfront Planning verbinden
+
+Sie können Portfolios aus der Tabellenansicht eines Datensatztyps oder der Detailseite eines Datensatzes erstellen.
 
 So erstellen Sie Portfolios, während Sie sie mit Planungsdatensätzen verbinden:
 
@@ -173,6 +221,8 @@ So erstellen Sie Portfolios, während Sie sie mit Planungsdatensätzen verbinden
 1. (Optional) Klicken Sie in Workfront Planning auf den Namen des neuen Portfolios, um die Portfolioseite in Workfront zu öffnen und zusätzliche Aktualisierungen am Portfolio vorzunehmen.
 
 ## Erstellen Sie Programme, während Sie sie mit Datensätzen aus Workfront Planning verbinden
+
+Sie können Programme aus der Tabellenansicht eines Datensatztyps oder der Detailseite eines Datensatzes erstellen.
 
 So erstellen Sie Programme, während Sie sie aus Planungsdatensätzen verbinden:
 

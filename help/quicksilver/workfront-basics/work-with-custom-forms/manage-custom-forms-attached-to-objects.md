@@ -6,16 +6,16 @@ description: Sie können die Reihenfolge aktualisieren, in der die benutzerdefin
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie steht allen Kunden in der Vorschau -Umgebung und einer ausgewählten Gruppe von Kunden in der Produktionsumgebung zur Verfügung.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Sie können die Reihenfolge aktualisieren, in der die benutzerdefinierten Formulare, die an ein Objekt angehängt sind, angezeigt werden, sie entfernen oder die Darstellung benutzerdefinierter Formulare auf mehreren Objekten stapelweise bearbeiten.
 
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
 
 1. Wechseln Sie zum -Objekt, in dem Sie die Reihenfolge der hinzugefügten benutzerdefinierten Formulare ändern möchten, und beginnen Sie dann mit der Bearbeitung des -Objekts.
 
-   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken **Abschnitt „Benutzerdefinierte Forms** für Projekte, Aufgaben und Probleme auf das ![](assets/move-icon---dots.png) neben dem Namen eines benutzerdefinierten Formulars. Klicken Sie für alle anderen Objekte auf **Forms verwalten**. Diese Option wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular an das Objekt angehängt ist.
 1. Ziehen Sie einen ![](assets/move-icon---dots.png) an eine neue Position in der Liste.

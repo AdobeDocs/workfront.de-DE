@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 2%
 
 ---
@@ -198,12 +198,10 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
      <span class="preview">Weitere Informationen finden Sie unter [Erstellen von ](/help/quicksilver/planning/records/create-records.md)</span>
 
-   * <span class="preview">Klicken Sie auf das Ende einer Datensatzleiste und ziehen Sie sie per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- und Enddatum sofort aktualisiert. </span>
+   * <span class="preview">Klicken Sie auf den linken oder rechten Rand einer Datensatzleiste und ziehen Sie ihn dann per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- oder Enddatum sofort aktualisiert. </span>
 
+   * <span class="preview">Ziehen Sie Datensätze per Drag-and-Drop, um ihre Position und ihr Datum in der Zeitleiste zu aktualisieren. Durch Verschieben der Datensatzbalken wird das Start- und Enddatum sofort aktualisiert.</span>
      <span class="preview">Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
@@ -527,7 +525,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    <div class="preview">

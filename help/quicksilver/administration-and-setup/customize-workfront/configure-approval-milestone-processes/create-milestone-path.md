@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Als Adobe Workfront-Administrator können Sie Meilensteinpfade erstellen, die dann auf jedes Projekt im System angewendet werden können. Die Änderungen an Meilensteinpfaden in diesem Bereich wirken sich auf das gesamte Workfront-System aus.
 
@@ -45,14 +53,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +84,18 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
 
 1. Klicken Sie **Prozesse** > **Meilensteinpfade**.
 1. Klicken Sie auf **Neuer Meilensteinpfad.**
-1. Geben Sie folgende Informationen im Bereich **Basisinformationen** an:
+
+   <div class="preview">
+
+   Das Feld Neuer Meilensteinpfad wird geöffnet.
+
+   ![Feld „Neuer Meilensteinpfad“](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. Klicken Sie **linken** auf „Grundlegende Informationen“.
+
+   Aktualisieren Sie die folgenden Informationen:
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
     </tr>
    </table>
 
-1. Geben Sie die folgenden Informationen im Bereich **Meilensteine** an:
+1. Klicken Sie **linken** auf „Meilensteine“.
+1. Klicken Sie in der Produktionsumgebung auf **Meilenstein hinzufügen**, um dem Pfad Meilensteine hinzuzufügen.
+   <span class="preview">Klicken Sie in der Vorschau-Umgebung auf **Neue Zeile**, um dem Pfad Meilensteine hinzuzufügen.</span>
+1. Aktualisieren Sie die folgenden Informationen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
     </tbody> 
    </table>
 
-1. Klicken Sie **Meilenstein hinzufügen** und fügen Sie weitere Meilensteine nach Bedarf hinzu, bis der Pfad abgeschlossen ist.
-
+1. (Optional) Ziehen Sie jeden Meilenstein per Drag-and-Drop, um ihn neu anzuordnen.
 1. Klicken Sie **Meilensteinpfad erstellen** um Ihre Änderungen zu speichern.
 
    Ihr Meilensteinpfad kann jetzt mit einem Projekt verknüpft werden.
 
    Weitere Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten und Meilensteinen mit Aufgaben finden Sie unter [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-
+1. (Optional) Wählen Sie aus der Liste Meilensteinpfade einen Meilenstein aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um den Meilensteinpfad zu öffnen und dessen Informationen zu bearbeiten.
 1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon.png) und wählen Sie dann eines der folgenden Formate aus, um die Liste der Meilensteinpfade in eine Datei zu exportieren:
 
    * PDF
@@ -130,10 +155,12 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
    * Excel (xlsx)
    * Durch Tabulatoren getrennt
 
-1. (Optional) Wählen Sie einen Meilenstein in der Meilensteinliste aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um Meilensteininformationen zu bearbeiten.
-1. (Optional) Wählen Sie in der Meilenstein-Liste einen Meilenstein aus und klicken Sie dann auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png), um ihn zu löschen.
+1. (Optional) Wählen Sie einen oder mehrere Meilensteine in der Meilensteinliste aus und klicken Sie dann auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png), um sie zu löschen.
 1. Klicken Sie **Ja, löschen**.
-Der Meilenstein wurde gelöscht und kann nicht wiederhergestellt werden. Alle mit dem Meilenstein verknüpften Projektinformationen und alle mit den Meilensteinpfaden verknüpften Aufgabeninformationen werden ebenfalls gelöscht.
+
+   Der Meilenstein wurde gelöscht und kann nicht wiederhergestellt werden. Der Meilensteinpfad wird aus allen Projekten entfernt, die zuvor damit verknüpft waren, und alle Meilensteine werden aus den Aufgaben entfernt, die mit ihnen verknüpft waren.
+
+   Gelöschte Meilensteine können nicht wiederhergestellt werden.
 
 
 ## Anzeigen von Meilensteinpfaddetails in einem Projektbericht

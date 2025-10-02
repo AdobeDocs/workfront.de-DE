@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,12 @@ Das Verbinden von Datensatztypen ist hilfreich, wenn sich mehrere Typen von Arbe
 
 In diesem Artikel wird beschrieben, wie Sie zwei Workfront Planning-Datensatztypen oder einen Workfront Planning-Datensatztyp mit einem Objekt aus einer anderen Anwendung verbinden können.
 
-Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden und Felder aus den verknüpften Datensatz- oder Objekttypen in einem Workfront Planning-Datensatz anzeigen.
+Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, wird ein Verbindungsfeld zu einem Planungs-Datensatztyp hinzugefügt. Im Verbindungsfeld können Sie einzelne Datensätze miteinander verbinden und Felder aus den verknüpften Datensatz- oder Objekttypen in einem Workfront Planning-Datensatz anzeigen.
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Allgemeine Informationen zu Verbindungstypen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -126,19 +131,18 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite „Datensatztyp“ zu öffnen.
 1. Klicken Sie oben rechts in der Tabellenansicht auf das Symbol **+** und dann auf die Registerkarte **Neue Verbindung**.
 
-   ![Neue Registerkarte „Verbindung“ mit Workfront AEM-Optionen](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Neue Registerkarte „Verbindung“ mit Workfront AEM-Optionen](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. Suchen Sie **Feld** Datensatztyp“ nach einem Datensatztyp oder wählen Sie einen der folgenden Typen aus:
+1. Nach einem Datensatztyp suchen oder einen der folgenden Typen auswählen:
 
-   * Ein anderer Datensatztyp aus dem aktuellen Arbeitsbereich
+   * <span class="preview">Ein Datensatztyp aus dem aktuellen Arbeitsbereich</span>
 
-     ![Viele zu viele Verbindungsauswahl](assets/many-to-many-connection-picker.png)
+     <span class="preview">![Mehrfachauswahl für die Verbindungsauswahl für den Datensatztyp „Same-Workspace“](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >Wenn Sie im ausgewählten Arbeitsbereich keine anderen Datensatztypen haben, wird der Abschnitt Arbeitsbereich nicht angezeigt.
-
 
    * Ein Datensatztyp aus einem anderen Arbeitsbereich, der für die Verbindung von anderen Arbeitsbereichen konfiguriert wurde.
 
@@ -149,13 +153,13 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 
      Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-allow-multiple-records-box.png)
+     ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * Ein **Projekt, Portfolio, Programm,** oder **Gruppe** aus dem Abschnitt **Workfront** Objekttypen.
+   * <span class="preview">Ein **Projekt, Portfolio, Programm,** oder **Gruppe** aus dem Abschnitt **Workfront** Objekttypen.</span>
 
-     ![Auswahl der Workfront-Projektverbindung](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Auswahl der Workfront-Projektverbindung](assets/multi-select-connection-picker-project.png)</span>
 
-   * **Experience Manager Assets** im Abschnitt **Adobe-**.
+   * **Experience Manager Assets** im Abschnitt **Adobe-**. <!--update screen shot??-->
 
      ![AEM Assets-Verbindungsauswahl](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 1. Aktualisieren Sie **Feld** Beschreibung“, indem Sie Informationen zum verbundenen Datensatzfeld hinzufügen. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen.
 1. (Bedingt) Wenn Sie Datensatztypen aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager-Asset-Objekt verbinden, wählen Sie die Option **Mehrere Datensätze zulassen** aus. Wenn Sie diese Option auswählen, können Benutzer mehrere Datensätze hinzufügen, wenn das Feld „Verbundener Datensatztyp“ in den ursprünglichen Datensätzen angezeigt wird. Dies ist standardmäßig ausgewählt.
 
-   ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-allow-multiple-records-box.png)
+   ![Neue Verbindung zum Datensatztyp aus einem anderen Arbeitsbereich](assets/new-connection-allow-multiple-records-box.png)
 
 1. (Bedingt) Wenn Sie Datensatztypen aus demselben Arbeitsbereich oder einen Planning-Datensatztyp mit einem Workfront-Objekttyp verbinden, führen Sie je nach verwendeter Umgebung einen der folgenden Schritte aus:
 
@@ -197,6 +201,8 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
          >
          >Für einen Datensatztyp sind maximal 500 Felder zulässig. Es wird empfohlen, diese Einstellung deaktiviert zu lassen, insbesondere für taxonomische Datensatztypen, um ein Erreichen dieser Grenze zu vermeiden.
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. (Bedingt) Wenn Sie **Entsprechendes Feld für verknüpften Datensatztyp erstellen** aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
          * Viele-zu-viele
@@ -222,7 +228,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets oder einem Workfront Planning-Datensatztyp herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des Datensatzes **eine der folgenden Optionen**:

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 4%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 4%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über die Berechtigung Beitragen oder Verwalten verfügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Standard</p>
-   <p>Aktuell: Arbeit oder höher</p> </td> 
+   <td> <p>Standard</p>
+   <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -183,6 +193,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
    * [Benutzerdefinierte Formulare](#Custom%C2%A0F)
    * [Finanzen](#finance)
    * [Einstellungen](#settings)
+   * [Kommentar](#comment)
 
    >[!NOTE]
    >
@@ -399,7 +410,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
       <td>Abkürzung</td> 
       </tr> 
       <tr> 
-      <td>Minuten</td> 
+      <td>Minutes</td> 
       <td>M</td> 
       </tr> 
       <tr> 
@@ -411,12 +422,12 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
       <td>D</td> 
       </tr> 
       <tr> 
-      <td>Wochen</td> 
-      <td>W </td> 
+      <td>Weeks</td> 
+      <td>W</td> 
       </tr> 
       <tr> 
-      <td>Monate</td> 
-      <td>D</td> 
+      <td>Months</td> 
+      <td>T</td> 
       </tr> 
       <tr> 
       <td>Verstrichene Minuten</td> 
@@ -605,9 +616,23 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
    </table>
     </li>
 
-1. Klicken Sie auf **Speichern**.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit dem folgenden Abschnitt fort.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Kommentar
+
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Klicken Sie **linken** auf „Kommentar“.
+
+   ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)
+
+1. Fügen Sie in dem dafür vorgesehenen Bereich ein Update hinzu.
+1. (Optional) Fügen Sie Ihrer Aktualisierung eine der folgenden Aktionen hinzu:
+
+   * Fügen Sie Ihrem Update im Bereich **Personen taggen** Benutzer oder Teams hinzu oder verwenden Sie @, um sie in Ihr Update aufzunehmen.
+   * Aktivieren Sie das **Privat für meine Firma**, um die Aktualisierung für Personen in Ihrer Firma privat zu halten.
+1. Klicken Sie auf **Speichern**.
 
 ## Aufgabe in der Aufgabenkopfzeile bearbeiten (eingeschränkt)
 
