@@ -6,7 +6,7 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 1%
@@ -155,7 +155,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    Klicken Sie auf einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange, oder suchen Sie nach einem Pfad, und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
 1. <span class="preview">(Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, wählen Sie einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange aus oder klicken Sie auf die Suchleiste. </span>
 
-   <span class="preview">Wenn Sie auf die Suchleiste klicken, wird ein Dropdown-Menü mit den zuletzt verwendeten Warteschlangen und Formularen angezeigt. Wählen Sie eine aus der Liste aus oder beginnen Sie mit der Eingabe und wählen Sie die Warteschlange oder Liste aus, wenn sie angezeigt wird.</span>
+   <span class="preview">Wenn Sie auf die Suchleiste klicken, wird ein Dropdown-Menü mit den zuletzt verwendeten Warteschlangen und Formularen angezeigt. Wählen Sie eine aus der Liste aus oder beginnen Sie mit der Eingabe und wählen Sie die Warteschlange oder das Formular aus, wenn es angezeigt wird.</span>
 
    >[!NOTE]
    >

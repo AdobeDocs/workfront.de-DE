@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
-source-wordcount: '13520'
+source-wordcount: '13526'
 ht-degree: 2%
 
 ---
@@ -1483,6 +1483,7 @@ ht-degree: 2%
          * [Anforderungen kopieren und senden](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Anfrage aus vorherigen Daten automatisch ausfüllen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [Automatisches Ausfüllen einer Anfrage über Eingabeaufforderungen oder Dokumente](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+         * [Ansichten im Bereich Anfragen erstellen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Arbeit delegieren {#delegate-work}
       * [Arbeit delegieren](manage-work/delegate-work/delegate-work.md)
       * [Delegieren von Aufgaben und Problemen - Übersicht](manage-work/delegate-work/delegate-work-overview.md)

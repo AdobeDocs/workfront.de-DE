@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
+source-git-commit: 8c5f98bc48b644d8d15c320b2a6ca709eda775b7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,4 @@ Weitere Informationen zum Erstellen, Senden oder Senden von E-Mail-Anfragen in W
 * [Löschen eines Anfrageentwurfs](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Anfrage aus vorherigen Daten automatisch ausfüllen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [Automatisches Ausfüllen einer Anfrage über Eingabeaufforderungen oder Dokumente](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Ansichten im Bereich Anfragen erstellen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
