@@ -6,9 +6,9 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 2%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-So bearbeiten Sie Vorlagen stapelweise:
-
 {{step1-to-templates}}
 
 1. Mehrere Vorlagen in der Liste auswählen.
@@ -671,12 +669,11 @@ So bearbeiten Sie Vorlagen stapelweise:
 
    * Übersicht
    * Finanzielle Details
-   * Portfolio
-   * Einstellungen
-   * Zugriff
    * Benutzerdefinierte Formulare
-   * Aufgaben
-   * Probleme
+   * Vorlageneinstellungen
+   * Einstellungen für die Aufgabe
+   * Problemeinstellungen
+   * Zugriff
    * Kommentar
 
 1. Klicken Sie auf **Speichern**.

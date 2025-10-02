@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
 # Datensatzansichten löschen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ Die Ansicht wird für alle Benutzer gelöscht, die über die Berechtigung zum Zu
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte Ansicht und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) links neben dem Ansichtsnamen und klicken Sie dann auf **Löschen**.
 
-   ![Menü „Mehr anzeigen“ in einer Datensatzansicht](assets/view-more-menu-with-duplicate-option.png)
+1. Führen Sie auf der Registerkarte der Ansicht eine der folgenden Aktionen aus:
 
-   >[!TIP]
-   >
-   >Möglicherweise müssen Sie auf **Mehr** rechts neben der letzten Registerkarte klicken, um die Ansicht zu finden, die Sie löschen möchten.
+   * Führen Sie je nach Umgebung, von der aus Sie auf die Ansicht zugreifen, die folgenden Schritte aus:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * Bewegen Sie in der Produktionsumgebung den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Löschen**.
+
+     >[!TIP]
+     >
+     >Möglicherweise müssen Sie auf **Mehr** rechts neben der letzten Registerkarte klicken, um die Ansicht zu finden, die Sie löschen möchten.
+
+      * <span class="preview"> Klicken Sie in der Vorschau-Umgebung auf die Registerkarte der Ansicht, bewegen Sie den Mauszeiger über die Ansicht im Dropdown-Menü, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie dann auf **Löschen**.</span>
+
+     ![Menü Mehr mit Optionen](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Klicken Sie **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
 

@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 3%
@@ -117,6 +117,7 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
    </table>
 
 1. Klicken Sie **linken** auf „Meilensteine“.
+
 1. Klicken Sie in der Produktionsumgebung auf **Meilenstein hinzufügen**, um dem Pfad Meilensteine hinzuzufügen.
    <span class="preview">Klicken Sie in der Vorschau-Umgebung auf **Neue Zeile**, um dem Pfad Meilensteine hinzuzufügen.</span>
 1. Aktualisieren Sie die folgenden Informationen:

@@ -6,9 +6,9 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
    ![Risiken-Abschnitt der Aufgabe](assets/risks-section-on-project-2022.png)
 
-1. Klicken Sie auf **Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten.
+1. Klicken Sie auf **Weitere Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten.
 
    Oder
 
@@ -131,15 +131,11 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
    * **Wahrscheinlichkeit**: Geben Sie die Wahrscheinlichkeit für das Eintreten des Risikos als Prozentwert an.
    * **Mögliche Kosten**: Geben Sie die geschätzten Kosten an, wenn das Risiko eintreten sollte.
-   * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
    * **Istkosten**: Geben Sie die Istkosten des Risikos an, wenn das Risiko eingetreten ist.
+   * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
    * **Minderungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu mindern.
 
-1. (Bedingt) Klicken Sie **Eingeben**, wenn Sie das Risiko inline erstellen.
-
-   Oder
-
-   Klicken Sie **Speichern**, wenn Sie die Informationen im Feld **Neues Risiko** bearbeiten.
+1. Klicken Sie auf **Speichern**.
 
 1. (Optional) Wählen Sie im Dropdown-Menü **Status** für das Risiko einen anderen **Status** aus, wenn Sie die Ansicht **Standard** für die Liste der Risiken anwenden.
 
@@ -167,14 +163,14 @@ Risiken bearbeiten:
 
 1. Wenn Sie auf **Bearbeiten** geklickt haben, wird das **Risiko bearbeiten** oder **Risiken bearbeiten** geöffnet.
 
-   Erwägen Sie, die folgenden Felder zu bearbeiten:
+   Aktualisieren Sie die folgenden Felder:
 
    * **Beschreibung**: Bearbeiten Sie die Beschreibung des Risikos.
    * **Risikotyp**: Aktualisieren Sie, unter welche Kategorie das Risiko fällt.
    * **Wahrscheinlichkeit**: Geben Sie die Wahrscheinlichkeit für das Eintreten des Risikos als Prozentwert an.
    * **Mögliche Kosten**: Geben Sie die geschätzten Kosten an, wenn das Risiko eintreten sollte.
-   * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
    * **Istkosten**: Geben Sie die Istkosten des Risikos an, wenn das Risiko eingetreten ist.
+   * **Kosten für die Risikominderung**: Geben Sie die Kosten des Minderungsplans an, den Sie erstellen müssen, um das Risiko zu vermeiden.
    * **Minderungsplan**: Aktualisieren Sie die Beschreibung des Plans, um das Risiko zu mindern.
 
 1. Klicken Sie auf **Speichern**.
