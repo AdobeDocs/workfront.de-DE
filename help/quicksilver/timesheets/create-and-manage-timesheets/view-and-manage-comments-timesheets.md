@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Stundeneintragskommentare auf einer Arbeitszeittabelle anzeigen {#view-hour-entry-comments-on-a-timesheet}
 
-Sie können Kommentare konfigurieren, die zu einzelnen Stundeneinträgen vorgenommen werden, damit sie in der Arbeitszeittabelle angezeigt werden. Die Option zum Ein- und Ausblenden von Kommentaren hat keine Auswirkungen auf Kommentare in der gesamten Arbeitszeittabelle oder auf Kommentare zu einzelnen Elementen. Weitere Informationen finden Sie unter  [Kommentare zu einer Arbeitszeittabelle ](#make-comments-on-a-timesheet).
+Sie können Kommentare konfigurieren, die zu einzelnen Stundeneinträgen vorgenommen werden, damit sie in der Arbeitszeittabelle angezeigt werden. Die Option zum Ein- und Ausblenden von Kommentaren hat keine Auswirkungen auf Kommentare in der gesamten Arbeitszeittabelle oder auf Kommentare zu einzelnen Elementen. Weitere Informationen finden Sie unter  [Kommentare zu einer Arbeitszeittabelle &#x200B;](#make-comments-on-a-timesheet).
 
 Standardmäßig werden Kommentare beim ersten Zugriff auf eine Arbeitszeittabelle ausgeblendet.
 
@@ -147,7 +147,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
    >   * Befehlstaste + Rückgabe für Mac-Computer.
 
 
-1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer ](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
+1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer &#x200B;](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
 
 ### Kommentar zu einem Arbeitselement in einer Arbeitszeittabelle {#comment-on-a-work-item-in-a-timesheet}
 

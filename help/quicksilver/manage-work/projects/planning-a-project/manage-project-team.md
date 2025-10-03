@@ -192,7 +192,7 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzende im Projekt
 
    Benutzer werden aus unvollständigen Arbeitselementen entfernt und deren Zuweisung aufgehoben.
 
-   Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem ](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
+   Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem &#x200B;](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
 1. (Optional) Um eine Aktualisierung für dieses Projekt an Benutzer zu senden, klicken Sie auf **Alle aktualisieren** um die Aktualisierung an alle Mitglieder des Teams zu senden
 
    Oder
@@ -241,7 +241,7 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzende im Projekt
 
    Benutzer werden aus den Vorlagenaufgaben entfernt und ihre Zuweisung wird aufgehoben.
 
-   Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem ](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
+   Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem &#x200B;](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
 
 1. (Optional) Um eine Aktualisierung an Benutzer zu senden, klicken Sie auf **Alle aktualisieren**, um die Aktualisierung an alle Benutzer in der Liste zu senden
 

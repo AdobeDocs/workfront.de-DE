@@ -546,7 +546,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -667,7 +667,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 
