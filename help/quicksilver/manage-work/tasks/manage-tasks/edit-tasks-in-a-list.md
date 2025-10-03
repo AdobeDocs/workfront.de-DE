@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Aufgaben in einer Liste bearbeiten
-description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Liste angezeigten Felder bearbeiten.
+description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Liste angezeigten Felder bearbeiten. Sie müssen den Planungsmodus in einer Aufgabenliste definieren, um anzugeben, wie Ihre Änderungen in Workfront gespeichert werden sollen. Sie können Ihre Änderungen manuell oder automatisch speichern.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie d
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Überlegungen zum Bearbeiten von Aufgaben in einer Liste {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Beachten Sie beim Bearbeiten von Aufgaben in einer Liste Folgendes:
      >
      >Standardmäßig speichert Workfront Ihre Änderungen an Aufgaben automatisch im Abschnitt Teilaufgaben oder in einem Aufgabenbericht.
 
-* Sie können steuern, wann Workfront die Änderungen an den Aufgaben in einer Liste speichert. Ihre Änderungen können automatisch oder manuell gespeichert werden.
+* Sie können steuern, wann Workfront die an den Aufgaben vorgenommenen Änderungen in einer Liste speichert, indem Sie den Planungsmodus definieren, bevor Sie mit der Bearbeitung der Aufgaben beginnen.
 
-  Informationen zum Konfigurieren der Änderungen, die Sie an Aufgaben in einer Liste vornehmen, wenn Workfront die Änderungen speichert, finden Sie im Abschnitt [Auswählen einer Speicheroption beim Bearbeiten von Aufgaben in einer ](#select-a-save-option-when-editing-tasks-in-a-list)) dieses Artikels.
+  Sie können sich entscheiden, ob Workfront die von Ihnen vorgenommenen Änderungen wie folgt speichert:
+
+      * Automatisch, nach jeder Änderung
+     * Manuell, erst nachdem Sie auf Speichern geklickt haben.
+  
+  Informationen zum Konfigurieren, wann Workfront Änderungen an Aufgaben in einer Liste speichert, finden Sie im Abschnitt [Ändern des Planungsmodus vor dem Bearbeiten von Aufgaben in einer Liste](#modify-plan-mode-before-editing-tasks-in-a-list) in diesem Artikel.
 
 * Andere Benutzer müssen ihre Seiten aktualisieren, bevor sie die Aktualisierungen sehen können, die Sie an einer Aufgabe vornehmen.
 
-## Wählen Sie beim Bearbeiten von Aufgaben in einer Liste eine Speicheroption aus. {#select-a-save-option-when-editing-tasks-in-a-list}
+## Ändern des Planungsmodus vor der Bearbeitung von Aufgaben in einer Liste
 
-Sie können entscheiden, ob die Änderungen, die Sie an Aufgaben in einer Liste vornehmen, automatisch gespeichert werden, sobald sie auftreten, oder ob Sie jede Änderung manuell speichern möchten.
+Sie können entscheiden, ob die Änderungen, die Sie an Aufgaben in einer Liste vornehmen, automatisch gespeichert werden, sobald sie auftreten, oder ob Sie jede Änderung manuell speichern möchten. Dazu müssen Sie den Planungsmodus in einer Aufgabenliste ändern, bevor Sie die Aufgaben bearbeiten.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ Sie können entscheiden, ob die Änderungen, die Sie an Aufgaben in einer Liste 
 
 Wenn Sie Ihre Änderungen in einer Liste für ein Projekt speichern, für das entweder „Automatisch“ oder „Automatisch“ und „Bei Änderung“ als Aktualisierungstyp ausgewählt ist, aktualisiert Workfront die Projekt-Zeitleiste zusammen mit allen projektinternen und projektübergreifenden Abhängigkeiten. Zeitleistenberechnungen können lange dauern, wenn das Projekt groß ist oder viele Abhängigkeiten vorhanden sind. Einige Methoden zum Bearbeiten einer Aufgabenliste können schneller sein als andere, je nachdem, welche Methode Sie zum Speichern Ihrer Änderungen ausgewählt haben.
 
-Sie können steuern, wann Workfront die Änderungen an den Aufgaben in einer Liste speichert. Die folgenden Szenarien sind vorhanden: 
+Sie können steuern, wann Workfront die Änderungen an den Aufgaben in einer Liste speichert. Die folgenden Szenarien sind vorhanden:
 
 * Sie können Workfront nach jeder Aktualisierung die Änderungen automatisch speichern lassen.
 
-  Weitere Informationen finden Sie im Abschnitt [Bearbeiten von Aufgaben in einer Liste und automatisches Speichern ](#edit-tasks-in-a-list-and-automatically-save-changes) Änderungen“ in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Festlegen des Planungsmodus zum automatischen Speichern von Änderungen](#set-the-plan-mode-to-automatically-save-changes) in diesem Artikel.
 
 * Sie können steuern, wann Sie mehrere Änderungen gleichzeitig anwenden, indem Sie eine Schaltfläche Speichern manuell verwenden.
 
-  Weitere Informationen finden Sie im Abschnitt [Bearbeiten von Aufgaben in einer Liste und manuelles Speichern ](#edit-tasks-in-a-list-and-manually-save-changes) Änderungen“ in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Festlegen des Planungsmodus zum manuellen Speichern von Änderungen](#set-the-plan-mode-to-manually-save-changes) in diesem Artikel.
 
-### Aufgaben in einer Liste bearbeiten und Änderungen automatisch speichern {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Planmodus zum automatischen Speichern von Änderungen festlegen
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
     </tbody> 
    </table>
 
-### Aufgaben in einer Liste bearbeiten und Änderungen manuell speichern {#edit-tasks-in-a-list-and-manually-save-changes}
+### Planmodus zum manuellen Speichern von Änderungen festlegen {#edit-tasks-in-a-list-and-manually-save-changes}
 
 Sie können Änderungen an Aufgaben in einer Liste manuell speichern. Wenn Sie Änderungen auf diese Weise speichern, können Sie diese vor dem Speichern umkehren.
 
@@ -261,7 +266,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    Oder
 
-   Klicken Sie auf die ![](assets/more-icon-task-list.png) **Mehr**.
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -337,7 +342,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
    >
    >Die **Zeitplanung**-Option ist für Projekte mit mehr als 2000 Aufgaben abgeblendet.
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 
    Die Liste enthält folgende Änderungen:
 
@@ -369,7 +374,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    Oder
 
-   Klicken Sie auf die ![](assets/more-icon-task-list.png) **Mehr**.
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 

@@ -6,9 +6,9 @@ description: Beim Bereitstellen von Aktualisierungskommentaren für ein Adobe Wo
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Anstatt diese Benutzer in das Objekt aufzunehmen, indem Sie sie ihm zuweisen ode
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -122,8 +122,7 @@ Sie können auch Benutzer entfernen, die versehentlich getaggt wurden, wenn Sie 
 
    >[!NOTE]
    >
-   >* Diese Option wird nur angezeigt, wenn der Benutzer einer Firma zugeordnet ist.
-   >* Getaggte Benutzende außerhalb des Unternehmens können weiterhin eine In-App-Benachrichtigung oder E-Mail erhalten, auch wenn sie die privaten Kommentare auf der Registerkarte Aktualisierungen nicht sehen. Wir empfehlen, externe Benutzer nicht mit Tags zu versehen, wenn Sie die Informationen nicht mit ihnen teilen möchten.
+   >Getaggte Benutzende außerhalb des Unternehmens können weiterhin eine In-App-Benachrichtigung oder E-Mail erhalten, auch wenn sie die privaten Kommentare auf der Registerkarte Aktualisierungen nicht sehen. Wir empfehlen, externe Benutzer nicht mit Tags zu versehen, wenn Sie die Informationen nicht mit ihnen teilen möchten.
 
 1. (Optional) Um mehrere Benutzer und Teams hinzuzufügen, wiederholen Sie Schritt 2. <!--insure this stays accurate-->
 
@@ -131,7 +130,7 @@ Sie können auch Benutzer entfernen, die versehentlich getaggt wurden, wenn Sie 
    >
    >Alle Benutzer und Team-Mitglieder, die im Feld „Personen oder Teams taggen“ aufgeführt sind, erhalten eine In-App-Benachrichtigung für das Update und je nach Konfiguration ihrer E-Mail-Benachrichtigungseinstellungen möglicherweise eine E-Mail. Benutzer, die sich in einem Kommentar oder einer Antwort selbst taggen, erhalten eine Benachrichtigung für diesen Kommentar oder diese Antwort und können ihren Namen für den Rest des Threads in als Mitglied des Threads aufgeführt sehen. Sie erhalten jedoch keine weitere Benachrichtigung, es sei denn, sie taggen sich erneut. Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) und [Ereignisbenachrichtigungen für alle Personen im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Klicken Sie **Senden**.\
+1. Klicken Sie auf **Senden**.\
    Benutzern, die an der Aktualisierung beteiligt sind, wird automatisch die Berechtigung Anzeigen für das Objekt gewährt; sie können Aktualisierungen am Objekt anzeigen und darauf reagieren.
 
    Die Namen der getaggten Entitäten werden neben ihren Avataren angezeigt, bis zu zwei Entitäten. Wenn mehr als zwei Entitäten mit Tags versehen sind, wird der Name des ersten Elements sowie die Anzahl der zusätzlichen mit Tags versehenen Entitäten angezeigt.

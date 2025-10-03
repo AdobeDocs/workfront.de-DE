@@ -6,9 +6,9 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 2%
 
 ---
@@ -546,7 +546,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -641,6 +641,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
    ![Kommentarbereich für Bearbeitungsvorlage](assets/edit-template-box-comment-section.png)
 1. Fügen Sie einen Kommentar zur Aktualisierung hinzu, die Sie durchführen, kennzeichnen Sie zusätzliche Benutzer oder aktivieren Sie das **Privat für meine Firma**, um die Aktualisierung für Benutzer in Ihrer Firma privat zu halten, und klicken Sie dann auf **Speichern**.
 
+   >[!TIP]
+   >
+   >Die Einstellung **Privat für meine**) ist nur verfügbar, wenn Ihr Workfront-Profil mit einer Firma verknüpft ist.
+
 ## Stapelweises Bearbeiten von Vorlagen
 
 Sie können Vorlagen stapelweise bearbeiten und alle zugehörigen Informationen gleichzeitig aktualisieren.
@@ -663,7 +667,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 

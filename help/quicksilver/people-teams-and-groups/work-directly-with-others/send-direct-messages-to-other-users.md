@@ -7,16 +7,16 @@ description: Mit Adobe Workfront können Sie schnell und einfach Nachrichten, di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Senden von Direktnachrichten an andere Benutzer
 
-[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL &#x200B; werden auf der Profilseite des Benutzers auf der Registerkarte &#x200B;]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL  werden auf der Profilseite des Benutzers auf der Registerkarte ]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Der Benutzer, an den Sie die Nachricht senden, erhält die folgenden Arten von Benachrichtigungen, wenn Sie eine Nachricht wie in diesem Abschnitt beschrieben senden:
 
@@ -73,6 +73,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Wählen Sie **[!UICONTROL Privat für meine Firma]** aus, damit diese Nachricht nur für andere Benutzer in Ihrer Firma sichtbar ist.
 
+   >[!TIP]
+   >
+   >Die Einstellung [!UICONTROL **Privat für meine**]) ist nur verfügbar, wenn Ihr Workfront-Profil mit einer Firma verknüpft ist.
+
 1. Klicken Sie auf **[!UICONTROL Aktualisieren].**
 Die Nachricht wird oben in der Nachrichtenliste auf der Registerkarte **[!UICONTROL Updates]** auf der Profilseite des Benutzers veröffentlicht.
 
@@ -89,5 +93,9 @@ Diese Option ist nur verfügbar, wenn Sie über eine Standard-, Plan- oder Arbei
 
 1. (Optional) Klicken Sie auf **Personen taggen**, um weitere Benutzer in der Nachricht zu taggen. Weitere Informationen finden Sie unter [Andere bei Updates taggen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optional) Wählen Sie **[!UICONTROL Privat für meine Firma]** aus, damit diese Nachricht nur für andere Benutzer in Ihrer Firma sichtbar ist.
+
+   >[!TIP]
+   >
+   >Die Einstellung [!UICONTROL **Privat für meine**]) ist nur verfügbar, wenn Ihr Workfront-Profil mit einer Firma verknüpft ist.
 1. Klicken Sie [!UICONTROL **Senden**].
 Die Nachricht wird oben in der Nachrichtenliste auf der Registerkarte **[!UICONTROL Updates]** auf der Profilseite jedes getaggten Benutzers veröffentlicht.

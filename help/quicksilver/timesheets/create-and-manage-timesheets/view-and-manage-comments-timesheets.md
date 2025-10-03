@@ -6,9 +6,9 @@ description: Sie können Kommentare zu Arbeitszeittabellen, zu den in den Arbeit
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie können Aktualisierungen aus einer Arbeitszeittabelle oder aus einzelnen Stu
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -96,6 +96,10 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
 1. Beginnen Sie mit dem Hinzufügen neuer Kommentare oder antworten Sie auf vorhandene, wie in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) beschrieben.
 1. (Optional) Fügen Sie Personen oder Teams im Feld **Personen oder Teams taggen** hinzu, um andere in Ihr Update aufzunehmen. Weitere Informationen finden Sie unter [Andere bei Updates taggen](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optional) Wählen Sie die Option **Privat für meine Firma** aus, wenn nur Personen aus Ihrer Firma die Aktualisierung anzeigen sollen.
+
+   >[!TIP]
+   >
+   >Die Einstellung **Privat für meine**) ist nur verfügbar, wenn Ihr Workfront-Profil mit einer Firma verknüpft ist.
 1. Geben Sie Ihren Kommentar ein und klicken Sie dann auf **Senden**.
 
    Ihr Kommentar wird im [!UICONTROL Aktualisierungen] der Arbeitszeittabelle auf der Registerkarte Kommentare angezeigt.
