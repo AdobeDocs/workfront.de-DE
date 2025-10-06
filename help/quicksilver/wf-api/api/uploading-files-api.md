@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen für **
 
 **Befolgen Sie beim Hochladen von Dateien mit API-Tools die folgenden Richtlinien:**
 
-* Verwenden Sie die Option Ihres API-Tools, um Ihre Datei hochzuladen. Dabei handelt es sich häufig um **Schaltfläche „Datei auswählen** auf dem Anfragebildschirm.
+* Verwenden Sie die Option Ihres API-Tools, um Ihre Datei hochzuladen. Oft befindet sich auf **Anfragebildschirm die Schaltfläche** Datei auswählen“.
 
-* Verwenden Sie die HTTP-Methode der POST , um die Anfrage zum Hochladen der Datei zu stellen.
+* Verwenden Sie die POST-HTTP-Methode, um die Anfrage zum Hochladen der Datei zu stellen.
 
 * Ihre Anfrage sollte zu einer Antwort führen, die einen Wert für ihr Handle enthält.
 
