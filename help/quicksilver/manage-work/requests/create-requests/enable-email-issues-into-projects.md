@@ -6,10 +6,10 @@ description: Sie können ein Projekt so konfigurieren, dass Benutzende dem Proje
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 1%
+source-wordcount: '812'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,7 @@ Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren,
 >* Workfront ermöglicht eine eindeutige E-Mail pro Anfrage-Warteschlange für alle Cluster. Wenn Sie Ihre Anfrage-Warteschlange deaktivieren, behalten Sie die von Ihnen erstellte E-Mail-Adresse so lange bei, wie sie sich noch im Feld Eingangs-E-Mail-Adresse befindet. Wenn Sie die Verwendung der Eingangs-E-Mail einstellen möchten, müssen Sie sie aus dem Feld Eingangs-E-Mail löschen, damit sie für die zukünftige Verwendung verfügbar ist.
 >
 >* Wenn die Anfrage-Warteschlange mehrere Warteschlangenthemen oder Themengruppen enthält, wählt Workfront nach dem Zufallsprinzip das Warteschlangenthema aus, an das die per E-Mail gesendeten Anfragen gesendet werden, wodurch E-Mail gesendete Anfragen schwer zu verwalten sind.
->  &#x200B;>Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
+>  >Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
 
 1. Navigieren Sie zu dem Projekt, das Sie aktivieren möchten, um Probleme per E-Mail zu empfangen.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
@@ -119,6 +119,11 @@ Wenn ein Workfront-Benutzer eine E-Mail an Workfront sendet, passiert Folgendes:
 * Die Betreffzeile der E-Mail wird zum Problemnamen.
 * Der Textkörper der E-Mail wird zur Beschreibung des Problems.
 * Wenn der E-Mail Dokumente beigefügt sind, werden diese Dokumente dem Problem in Workfront beigefügt.
+
+  >[!NOTE]
+  >
+  > MSG-Dateien werden nicht unterstützt und nicht an das Problem in Workfront angehängt.
+
 * Der Benutzer, der die E-Mail sendet, wird zum Primären Ansprechpartner für das neue Problem in Workfront.
 * Der Textkörper der E-Mail darf 4.000 Zeichen nicht überschreiten.
 * E-Mail-Anhänge dürfen insgesamt 7 MB nicht überschreiten.
