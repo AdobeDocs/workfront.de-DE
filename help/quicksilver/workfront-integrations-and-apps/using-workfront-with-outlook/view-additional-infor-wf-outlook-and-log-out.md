@@ -6,10 +6,10 @@ description: Sie können Details zur Version des Adobe Workfront-Add-Ins für Ou
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -21,44 +21,3 @@ ht-degree: 3%
 >
 >**Da Microsoft diese Token deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
-Sie können Details zur Version des [!DNL Adobe Workfront]-Add-Ins für [!DNL Outlook] anzeigen, direkt zur Web-Version navigieren, Feedback senden oder sich abmelden.
-
-## Zugriffsanforderungen
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL Arbeit], [!UICONTROL Plan]</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
-
-## Voraussetzungen
-
-Ihr [!DNL Workfront] muss [!DNL Outlook for Office] mit [!DNL Workfront] aktivieren, bevor Sie diese Integration verwenden können.
-
-## Anzeigen zusätzlicher Informationen zu [!DNL Adobe Workfront for Outlook] und Abmelden
-
-1. Wählen Sie eine E-Mail in [!DNL Outlook].
-1. Klicken Sie auf **[!DNL Workfront]** Symbol, um das Workfront-Add-in anzuzeigen.
-1. Klicken Sie auf den Dropdown-Pfeil neben Ihrem Benutzernamen.
-
-1. Klicken Sie auf eine der folgenden Optionen:
-
-   * **[!UICONTROL Über]:** Informationen zum Workfront-Add-in anzeigen, einschließlich der aktuellen Version, neuer Funktionen und eines Links zu Anleitungsinformationen auf der Workfront-Hilfeseite.
-   * **[!UICONTROL Web-Version]:** Starten Sie die vollständige Workfront-Anwendung in einem neuen Browserfenster.
-   * **Feedback senden** Senden Sie Feedback an [!DNL Workfront] zum Workfront-Add-in.
-   * **[!UICONTROL Abmelden]:** Melden Sie sich vom [!DNL Workfront]-Add-in ab.
-
-     Mit dieser Option werden Sie nicht von [!DNL Outlook] abgemeldet.

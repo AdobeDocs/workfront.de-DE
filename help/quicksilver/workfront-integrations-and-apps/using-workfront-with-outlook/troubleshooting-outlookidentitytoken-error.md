@@ -6,10 +6,10 @@ description: Wenn bei der Verwendung von Workfront für Outlook ein OutlookIdent
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 43%
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,3 @@ ht-degree: 43%
 >
 >**Da Microsoft diese Token deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
-Bei Verwendung von Workfront für Outlook wird möglicherweise der folgende Fehler angezeigt:
-
-```
-Unexpected error
-Unable to get the outlookIdentityToken
-```
-
-Um diesen Fehler zu beheben, müssen Sie Microsoft 365-Legacytoken für Ihr Unternehmen aktivieren. Da dies in Microsoft 365 erfolgen muss, kann Workfront diese Token nicht für Ihr Unternehmen aktivieren.
-
-Anweisungen zum Aktivieren von Microsoft 365-Legacytoken finden Sie unter [Aktivieren oder Deaktivieren von Legacytoken](https://learn.microsoft.com/de-de/office/dev/add-ins/outlook/turn-exchange-tokens-on-off) in der Dokumentation zu Microsoft.
-
-Weitere Informationen zu Legacytoken finden Sie unter [Kann ich Exchange Online Legacytoken wieder aktivieren?](https://learn.microsoft.com/de-de/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) in der Dokumentation zu Microsoft.
