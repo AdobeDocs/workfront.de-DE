@@ -66,7 +66,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
 >[!NOTE]
 >
 >Neue Felder können den Objektansichten ohne vorherige Ankündigung hinzugefügt werden, um die sich verändernden Datenanforderungen des Workfront-Programms zu unterstützen. Wir raten zur Verwendung von „SELECT“-Abfragen, bei denen der nachgelagerte Datenempfänger nicht darauf vorbereitet ist, zusätzliche Spalten zu verarbeiten, wenn sie hinzugefügt werden.<br>
->>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
+>&#x200B;>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
 
 ### Zugriffsebene
 
