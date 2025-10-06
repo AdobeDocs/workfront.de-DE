@@ -7,10 +7,10 @@ description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 9%
 
 ---
 
@@ -22,23 +22,23 @@ Diese Seite enthält Informationen zur Struktur und zum Inhalt der Daten in Work
 >
 >Die Daten in Data Connect werden alle vier Stunden aktualisiert, sodass die letzten Änderungen möglicherweise nicht sofort angezeigt werden.
 
-## Tabellentypen
+## Typen anzeigen
 
-Es gibt eine Reihe von Tabellentypen, die Sie in Data Connect verwenden können, um Ihre Workfront-Daten auf eine Weise anzuzeigen, die den meisten insight bietet.
+Es gibt eine Reihe von Ansichtstypen, die Sie in Data Connect verwenden können, um Ihre Workfront-Daten auf eine Weise anzuzeigen, die den meisten insight bietet.
 
-* **Aktuelle Tabelle**
+* **Aktuelle Ansicht**
 
-  Die aktuelle Tabelle spiegelt die Daten ähnlich wie in Workfront wider, jedes Objekt und seinen aktuellen Status. Sie kann jedoch mit einer viel geringeren Latenz als innerhalb von Workfront navigiert werden.
+  Die aktuelle Ansicht spiegelt Daten ähnlich wie in Workfront wider, jedes Objekt und seinen aktuellen Status. Sie kann jedoch mit einer viel geringeren Latenz als innerhalb von Workfront navigiert werden.
 
-* **Ereignistabelle**
+* **Ereignisansicht**
 
-  Die Ereignistabelle erfasst jede Änderung in Workfront: d. h. jedes Mal, wenn ein Objekt den Status wechselt, wird ein Datensatz erstellt, der anzeigt, wann die Änderung stattgefunden hat, wer die Änderung vorgenommen hat und was geändert wurde. Daher ist diese Tabelle für Point-in-Time-Vergleiche nützlich. Diese Tabelle enthält nur Datensätze aus den letzten drei Jahren.
+  Die Ereignisansicht verfolgt jede Änderung in Workfront: d. h. jedes Mal, wenn ein Objekt den Status ändert, wird ein Datensatz erstellt, der anzeigt, wann die Änderung stattgefunden hat, wer die Änderung vorgenommen hat und was geändert wurde. Daher ist diese Ansicht für Point-in-Time-Vergleiche nützlich. Diese Ansicht enthält nur Datensätze aus den letzten drei Jahren.
 
-* **Tägliche Verlaufstabelle**
+* **Tägliche Verlaufsansicht**
 
-  Die Tägliche Verlaufstabelle bietet eine gekürzte Version der Ereignistabelle, da sie den Status jedes Objekts auf täglicher Basis anzeigt und nicht den Zeitpunkt, zu dem jedes einzelne Ereignis aufgetreten ist. Daher ist diese Tabelle für Trendanalysen nützlich.
+  Die tägliche Verlaufsansicht bietet eine gekürzte Version der Ereignisansicht, da sie den Status jedes Objekts auf täglicher Basis anzeigt und nicht den Zeitpunkt, zu dem jedes einzelne Ereignis aufgetreten ist. Daher ist diese Ansicht für die Trendanalyse nützlich.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## Entitätsbeziehungsdiagramm
 
@@ -48,20 +48,25 @@ Objekte in Workfront (und daher im Data Connect-Data Lake) werden nicht nur durc
 
 >[!IMPORTANT]
 >
->Das Entitätsbeziehungsdiagramm ist eine laufende Arbeit, die nur zu Referenzzwecken dient und geändert werden kann.
+>Das Entitätsbeziehungsdiagramm ist in Arbeit. Als solche dient sie nur zu Referenzzwecken und kann sich ändern.
 
 ## Datentypen
 
 Es gibt eine Reihe von Datumsobjekten, die Informationen darüber liefern, wann bestimmte Ereignisse auftreten.
 
 * `DL_LOAD_TIMESTAMP`: Dieses Datum wird nach Abschluss einer erfolgreichen Datenaktualisierung aktualisiert und enthält den Zeitstempel, an dem der Aktualisierungsauftrag begann, der die neueste Version eines Datensatzes bereitgestellt hat.
-* `CALENDAR_DATE`: Dieses Datum ist nur in der Tabelle Tagesverlauf vorhanden. Diese Tabelle enthält einen Datensatz dazu, wie die Daten bei 11:UTC für :59 in `CALENDAR_DATE` angegebenen Datum aussahen.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der täglichen Verlaufstabelle vorhanden und zeichnet genau auf, wann ein Datensatz _auf_ den Wert geändert wurde, den er in der aktuellen Zeile hat.
-* `END_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der täglichen Verlaufstabelle vorhanden und zeichnet genau auf, wann ein Datensatz _von_ den Wert in der aktuellen Zeile in einen Wert in einer anderen Zeile geändert hat. Um zwischen Abfragen von `BEGIN_EFFECTIVE_TIMESTAMP` und `END_EFFECTIVE_TIMESTAMP` zu ermöglichen, ist dieser Wert nie null, auch wenn kein neuer Wert vorhanden ist. Wenn ein Datensatz noch gültig ist (d. h. wenn sich der Wert nicht geändert hat), haben `END_EFFECTIVE_TIMESTAMP` den Wert 2300-01-01.
+* `CALENDAR_DATE`: Dieses Datum ist nur in der Ansicht Täglicher Verlauf vorhanden. Die tägliche Verlaufsansicht bietet einen Datensatz dazu, wie die Daten um 11::59 UTC für jedes in `CALENDAR_DATE` angegebene Datum aussahen.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der Tagesverlaufsansicht vorhanden und stellt den Zeitpunkt dar, zu dem ein Datensatz zum aktuellen Wert in der Anwendung wird.
+* `END_EFFECTIVE_TIMESTAMP`: Dieses Datum ist sowohl in der Ereignis- als auch in der Tagesverlaufsansicht vorhanden und zeichnet genau auf, wann ein Datensatz _von_ den Wert in der aktuellen Zeile auf einen Wert in einer anderen Zeile geändert hat. Um zwischen Abfragen von `BEGIN_EFFECTIVE_TIMESTAMP` und `END_EFFECTIVE_TIMESTAMP` zu ermöglichen, ist dieser Wert nie null, auch wenn kein neuer Wert vorhanden ist. Wenn ein Datensatz noch gültig ist (d. h. wenn sich der Wert nicht geändert hat), haben `END_EFFECTIVE_TIMESTAMP` den Wert 2300-01-01.
 
 ## Terminologietabelle
 
-In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen in der Benutzeroberfläche und API) mit den entsprechenden Namen in Data Connect korreliert.
+In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen in der Benutzeroberfläche und API) mit den entsprechenden Namen in Data Connect korreliert. Außerdem enthält diese Tabelle Referenzfelder für jedes Objekt zu anderen Workfront-Objekten.
+
+>[!NOTE]
+>
+>Neue Felder können den Objektansichten ohne vorherige Ankündigung hinzugefügt werden, um die sich verändernden Datenanforderungen des Workfront-Programms zu unterstützen. Wir raten zur Verwendung von „SELECT“-Abfragen, bei denen der nachgelagerte Datenempfänger nicht darauf vorbereitet ist, zusätzliche Spalten zu verarbeiten, wenn sie hinzugefügt werden.<br>
+>>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
 
 ### Zugriffsebene
 
@@ -98,12 +103,12 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>ACCESSLEVELID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -114,7 +119,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>LEGACYACCESSLEVELID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -125,7 +130,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -172,8 +177,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>ACCESSRULEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>URSPRÜNGLICH</td>
@@ -195,7 +200,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -236,8 +241,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>APPROVALPATHID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>APPROVALPROCESSID</td>
@@ -253,7 +258,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>GLOBALPATHID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -264,7 +269,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -305,8 +310,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>APPROVALPROCESSID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -322,7 +327,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -369,12 +374,12 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>APPROVALSTEPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -415,8 +420,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>APPROVERSTATUSID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>APPROVABLEOBJID</td>
@@ -474,7 +479,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSYSYID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -539,8 +544,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>ZUWEISUNGS-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>CATEGORYID</td>
@@ -553,6 +558,12 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -627,13 +638,13 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
     <tbody>
         <tr>
              <td>ACCESSREQUESTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle für Zugriffsanfragen wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>APPROVABLEID</td>
              <td>FK</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -645,8 +656,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>WARTEN AUF VALIDIERUNG</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>DOCUMENTID</td>
@@ -686,7 +697,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -751,8 +762,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>BASELINE-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EXCHANGERATEID</td>
@@ -768,7 +779,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -815,8 +826,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>BASELINETASKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EXCHANGERATEID</td>
@@ -832,7 +843,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -927,8 +938,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>RATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ROLEID</td>
@@ -944,7 +955,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -997,8 +1008,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>BILLINGRECORDID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>CATEGORYID</td>
@@ -1014,7 +1025,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>RECHNUNGS-ID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Rechnungstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -1031,7 +1042,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1072,8 +1083,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>BOOKINGID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1113,7 +1124,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -1184,8 +1195,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>BUSINESSPROFILEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1207,7 +1218,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1248,8 +1259,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>BUSINESSRULEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1265,7 +1276,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1306,8 +1317,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>CATEGORYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1329,7 +1340,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1370,8 +1381,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>CATEGORIESPARAMETERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>CATEGORYID</td>
@@ -1393,7 +1404,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1414,9 +1425,9 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
       <tbody>
         <tr>
             <td>Klassifikator</td>
-            <td>Speicherort</td>
+            <td>Standort</td>
             <td>CLSF</td>
-            <td>Speicherort</td>
+            <td>Standort</td>
             <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
         </tr>
       </tbody>
@@ -1434,8 +1445,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>CLASSIFIERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1457,7 +1468,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1504,8 +1515,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>COMPANYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1533,7 +1544,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1574,12 +1585,12 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>CUSTOMQUARTERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1620,8 +1631,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>CUSTOMENUMID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -1643,7 +1654,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1707,12 +1718,12 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>DOCUMENTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>DOCUMENTREQUESTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Dokumentanforderungstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -1783,12 +1794,12 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>RELEASEVERSIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Versionstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -1865,8 +1876,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
              <td>DOCAPPROVALID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>DOCUMENTID</td>
@@ -1888,7 +1899,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -1931,7 +1942,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td class="key">VALIDIEREN</td>
              <td>PK</td>
-             <td>-</td>
+             <td>–</td>
              <td>HINWEIS: Dies ist auch die ID des DOCUMENTVERSION-Objekts, mit dem die Genehmigung verknüpft ist.</td>
         </tr>
         <tr>
@@ -1948,12 +1959,12 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td class="key">EAUTHTENANTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td class="key">PRODUCTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2008,8 +2019,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td class="key">APPROVALSTAGEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td class="key">CREATORID</td>
@@ -2069,8 +2080,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td class="key">ASSET-ID</td>
@@ -2158,8 +2169,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>DOCFOLDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -2211,7 +2222,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2276,12 +2287,12 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>DOCPROVIDERMETAID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -2328,8 +2339,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>DOCPROVIDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EIGENTÜMER-ID</td>
@@ -2339,7 +2350,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -2380,12 +2391,12 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>DOCPROVIDERCONFIGID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -2438,8 +2449,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>DOCUMENTVERSIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -2449,12 +2460,12 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>EXTERNALSTORAGEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Die externe ID im externen Speichersystem</td>
         </tr>
         <tr>
              <td>PROOFAPPROVALSTATUSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle des Korrekturabzugs-Genehmigungsstatus wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -2465,7 +2476,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>PROFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Korrekturabzugstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -2477,12 +2488,12 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>PROOFSTAGEID</td>
              <td>FK</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Die Tabelle Korrekturabzugsschritt wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -2523,8 +2534,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>EXCHANGERATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PROJEKT-ID</td>
@@ -2534,7 +2545,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2605,8 +2616,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>AUSGABEN-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EXPENSETYPEID</td>
@@ -2634,7 +2645,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2698,14 +2709,14 @@ Eingeschränkte Kundenverfügbarkeit
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>EXPENSETYPEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -2715,7 +2726,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -2774,12 +2785,12 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>GROUPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2796,7 +2807,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2808,7 +2819,7 @@ Eingeschränkte Kundenverfügbarkeit
     </tbody>
 </table>
 
-### Stunde
+### Hour
 
 <table>
     <thead>
@@ -2822,10 +2833,10 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Stunde</td>
-            <td>Stunde</td>
+            <td>Hour</td>
+            <td>Hour</td>
             <td>HOUR</td>
-            <td>Stunde</td>
+            <td>Hour</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -2866,7 +2877,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>BLÖD</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2877,15 +2888,15 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>EXTERNALTIMESHEETID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Workfront-Beziehung; wird für die Integration in externe Systeme verwendet
 Selbst</td>
         </tr>
         <tr>
              <td>STUNDE</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>HOURTYPEID</td>
@@ -2919,7 +2930,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>PROJEKTOVERHEADID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2930,7 +2941,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -2982,14 +2993,14 @@ Selbst</td>
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>HOURTYPEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -2999,7 +3010,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -3052,8 +3063,8 @@ Selbst</td>
         <tr>
              <td>ITERATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
@@ -3069,7 +3080,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -3127,7 +3138,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>AUDITRECORDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Auditdatensatztabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -3156,7 +3167,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>DOCUMENTSHAREID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle zur Dokumentfreigabe wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -3179,14 +3190,14 @@ Selbst</td>
         </tr>
         <tr>
              <td>INITIATIVEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Initiativen-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>JOURNALENTRIESID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3226,12 +3237,12 @@ Selbst</td>
         </tr>
         <tr>
              <td>SUBSCRIBEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -3307,7 +3318,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>EXTERNALSTORAGEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Die externe ID im externen Speichersystem</td>
         </tr>
         <tr>
@@ -3325,12 +3336,12 @@ Selbst</td>
         <tr>
              <td>LINKEDFOLDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -3377,8 +3388,8 @@ Selbst</td>
         <tr>
              <td>MEILENSTEIN-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>MEILENSTEINPFAD</td>
@@ -3388,7 +3399,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -3441,12 +3452,12 @@ Selbst</td>
         <tr>
              <td>MEILENSTEINPFAD</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -3493,8 +3504,8 @@ Selbst</td>
         <tr>
              <td>NONLABORRESOURCEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -3522,7 +3533,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -3581,8 +3592,8 @@ Selbst</td>
         <tr>
              <td>NLBRCATEGORYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PRIVATERATECARDID</td>
@@ -3598,7 +3609,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -3639,8 +3650,8 @@ Selbst</td>
         <tr>
              <td>NONWORKDAYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3656,7 +3667,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -3668,7 +3679,7 @@ Selbst</td>
     </tbody>
 </table>
 
-### Notiz
+### Hinweis
 
 <table>
     <thead>
@@ -3682,10 +3693,10 @@ Selbst</td>
       </thead>
       <tbody>
         <tr>
-            <td>Notiz</td>
-            <td>Notiz</td>
+            <td>Hinweis</td>
+            <td>Hinweis</td>
             <td>NOTIZ</td>
-            <td>Notiz</td>
+            <td>Hinweis</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
       </tbody>
@@ -3732,7 +3743,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>AUDITRECORDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Auditdatensatztabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -3749,7 +3760,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>EXTERNALSERVICEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Workfront-Beziehung; wird für die Integration in externe Systeme verwendet</td>
         </tr>
         <tr>
@@ -3761,8 +3772,8 @@ Selbst</td>
         <tr>
              <td>NOTEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3784,7 +3795,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>PARENTENDORSEMENTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Empfehlungstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -3819,12 +3830,12 @@ Selbst</td>
         </tr>
         <tr>
              <td>PROOFACTIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle der Korrekturabzugsaktionen wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>PROFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Korrekturabzugstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -3835,7 +3846,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -3882,7 +3893,6 @@ Selbst</td>
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### Objektintegration
@@ -3926,8 +3936,8 @@ Selbst</td>
         <tr>
              <td>OBJECTINTEGRATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3937,11 +3947,10 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Objektkategorie
@@ -3985,8 +3994,8 @@ Selbst</td>
         <tr>
              <td>OBJECTSCATEGORYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>OBJID</td>
@@ -3996,7 +4005,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4078,7 +4087,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>KANBANBOARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Kanban-Board-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -4102,8 +4111,8 @@ Selbst</td>
         <tr>
              <td>OPTASKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>EIGENTÜMER-ID</td>
@@ -4119,12 +4128,12 @@ Selbst</td>
         </tr>
         <tr>
              <td>QUEUEDEFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Warteschlangendefinitionstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>QUEUETOPICID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Warteschlangenthema-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -4177,7 +4186,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -4229,18 +4238,18 @@ Selbst</td>
         </tr>
         <tr>
              <td>PARAMETERFILTERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Parameterfiltertabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>PARAMETERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4287,12 +4296,12 @@ Selbst</td>
         <tr>
              <td>PARAMETERGROUPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4339,12 +4348,12 @@ Selbst</td>
         <tr>
              <td>PARAMETEROPTIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4384,7 +4393,7 @@ Selbst</td>
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -4426,8 +4435,8 @@ Selbst</td>
         <tr>
              <td>PORTALSECTIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PREFERENCEID</td>
@@ -4455,12 +4464,12 @@ Selbst</td>
         </tr>
         <tr>
              <td>SCHEDULEDREPORTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle für geplante Berichte wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -4506,7 +4515,7 @@ Selbst</td>
     <tbody>
         <tr>
              <td>DOCID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -4517,18 +4526,18 @@ Selbst</td>
         </tr>
         <tr>
              <td>PORTALPROFILEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>PORTALTABID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -4574,12 +4583,12 @@ Selbst</td>
     <tbody>
         <tr>
              <td>CALENDARPORTALSECTIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Kalenderportal-Abschnitt wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>EXTERNALSECTIONID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle mit externen Abschnitten wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -4603,12 +4612,12 @@ Selbst</td>
         <tr>
              <td>PORTALTABSECTIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4655,12 +4664,12 @@ Selbst</td>
         <tr>
              <td>REPORTLASTVIEWERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -4706,7 +4715,7 @@ Selbst</td>
     <tbody>
         <tr>
              <td>ALIGNMENTSCORECARD</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Scorecard-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -4742,12 +4751,12 @@ Selbst</td>
         <tr>
              <td>PORTFOLIOID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4787,18 +4796,18 @@ Selbst</td>
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>PREFERENCEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4875,12 +4884,12 @@ Selbst</td>
         <tr>
              <td>PROGRAMM-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -4920,12 +4929,12 @@ Selbst</td>
     <tbody>
         <tr>
              <td>ALEMANTIVEFOLDERTREESREFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>ALIGNMENTSCORECARD</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Scorecard-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -4972,7 +4981,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>DELIVERABLESCORECARD</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Scorecard-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         </tr>
@@ -5020,7 +5029,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>POPACCOUNTID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">POP-Kontotabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -5044,12 +5053,12 @@ Selbst</td>
         <tr>
              <td>PROJEKT-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>QUEUEDEFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Warteschlangendefinitionstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -5084,7 +5093,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5143,17 +5152,17 @@ Selbst</td>
         <tr>
              <td>PROJEKTBENUTZER-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>TMPUSERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5206,8 +5215,8 @@ Selbst</td>
         <tr>
              <td>PROJEKTBENUTZERROLLE-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ROLEID</td>
@@ -5217,7 +5226,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5282,8 +5291,8 @@ Selbst</td>
         <tr>
              <td>RATECARDID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SECURITYROOTID</td>
@@ -5299,11 +5308,10 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Berichtordner
@@ -5341,12 +5349,12 @@ Selbst</td>
         <tr>
              <td>REPORTFOLDERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -5393,12 +5401,12 @@ Selbst</td>
         <tr>
              <td>REPORTVIEWSTATISTICCOUNTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -5445,8 +5453,8 @@ Selbst</td>
         <tr>
              <td>REPORTABLEBUDGETEDHOURID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ROLEID</td>
@@ -5456,7 +5464,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5503,12 +5511,12 @@ Selbst</td>
         <tr>
              <td>RESERVEDTIMEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5561,8 +5569,8 @@ Selbst</td>
         <tr>
              <td>ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PROJEKT-ID</td>
@@ -5578,7 +5586,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5637,12 +5645,12 @@ Selbst</td>
         <tr>
              <td>RESOURCEPOOLID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -5683,12 +5691,12 @@ Selbst</td>
         <tr>
              <td>RICHTEXTNOTEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -5728,18 +5736,18 @@ Selbst</td>
     <tbody>
         <tr>
              <td>PARAMETERVALUEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Parameterwerttabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>RICHTEXTPARAMETERVALUEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -5804,8 +5812,8 @@ Selbst</td>
         <tr>
              <td>RISKANT</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>RISKTYPEID</td>
@@ -5815,7 +5823,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5862,12 +5870,12 @@ Selbst</td>
         <tr>
              <td>RISKTYPEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -5913,7 +5921,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Layoutvorlagentabelle wird nicht unterstützt</td>
         </tr>
         <tr>
@@ -5925,12 +5933,12 @@ Selbst</td>
         <tr>
              <td>ROLEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -5995,14 +6003,186 @@ Selbst</td>
         <tr>
              <td>SCHEDULEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
+    </tbody>
+</table>
+
+### Personalplan
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personalplan</td>
+            <td>Personalplan</td>
+            <td>PERSONAL</td>
+            <td>Personalplan</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT </td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>        
+        <tr>
+             <td>EIGENTÜMER-ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>PERSONALPLANUNG</td>
+             <td>PK</td>
+             <td>–</td>
+             <td>–</td>
+        </tr>
+    </tbody>
+</table>
+
+### Personalplanressource
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personalplanressource</td>
+            <td>Personalplanressource</td>
+            <td>PERSONAL</td>
+            <td>Personalplanressource</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>PERSONALPLANUNG</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_CURRENT</td>
+             <td>PERSONALPLANUNG</td>
+        </tr>       
+         <tr>
+             <td>PERSONALPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>–</td>
+             <td>–</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6053,12 +6233,12 @@ Selbst</td>
         <tr>
              <td>STEPAPPROVERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6176,7 +6356,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>KANBANBOARDID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Kanban-Board-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -6217,7 +6397,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>RECURRENCERULEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle der Wiederholungsregeln wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -6246,14 +6426,14 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>AUFGABEN-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>TEAMFÄNGER</td>
@@ -6305,8 +6485,8 @@ Selbst</td>
         <tr>
              <td>ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>PREDECESSORID</td>
@@ -6322,7 +6502,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -6374,7 +6554,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Layoutvorlagentabelle wird nicht unterstützt</td>
         </tr>
         <tr>
@@ -6404,12 +6584,12 @@ Selbst</td>
         <tr>
              <td>TEAMFÄNGER</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6455,7 +6635,7 @@ Selbst</td>
     <tbody>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6467,8 +6647,8 @@ Selbst</td>
         <tr>
              <td>TEAMMITGLIED-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>BENUTZER-ID</td>
@@ -6519,7 +6699,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6531,8 +6711,8 @@ Selbst</td>
         <tr>
              <td>TEAMMITGLIED-ROLEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>BENUTZER-ID</td>
@@ -6595,7 +6775,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>DELIVERABLESCORECARD</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Leistung: Scorecard-Tabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -6648,7 +6828,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>QUEUEDEFID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Warteschlangendefinitionstabelle wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -6659,7 +6839,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6671,8 +6851,8 @@ Selbst</td>
         <tr>
              <td>TEMPLATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -6741,7 +6921,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6752,14 +6932,14 @@ Selbst</td>
         </tr>
         <tr>
              <td>TEAMTIMELINEABLEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle für Teamzeitpläne wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
              <td>TEMPLATEASSIGNMENTID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>TEMPLATETASKID</td>
@@ -6858,7 +7038,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>RECURRENCERULEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle der Wiederholungsregeln wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -6869,7 +7049,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -6880,7 +7060,7 @@ Selbst</td>
         </tr>
         <tr>
              <td>TEAMTIMELINEABLEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Tabelle für Teamzeitpläne wird derzeit nicht unterstützt</td>
         </tr>
         <tr>
@@ -6892,8 +7072,8 @@ Selbst</td>
         <tr>
              <td>TEMPLATETASKID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -6945,13 +7125,153 @@ Selbst</td>
         <tr>
              <td>TEMPLATEPREDECESSORID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
+        </tr>
+    </tbody>
+</table>
+
+### Zeitphasen-KPI kombiniert
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Zeitphasen-KPI kombiniert</td>
+            <td>Zeitphasen-KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ZUWEISUNGS-ID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ZUWEISUNGS-ID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>Dies ist ein natürlicher Schlüssel für den Zeitphasen-KPI-Eintrag</td>
+             <td>–</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Die METADATA-Tabelle wird nicht bereitgestellt</td>
+             <td>–</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMM-ID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMM-ID</td>
+        </tr>
+                        <tr>
+             <td>PROJEKT-ID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJEKT-ID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, basierend auf OBJCODE</td>
+             <td>Der Primärschlüssel/die ID des im Feld OBJCODE identifizierten Objekts
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>Die SCHEMA-Tabelle wird nicht bereitgestellt. Der Wert aus dieser Tabelle wird in der Spalte SCHEMANAME bereitgestellt. SCHEMANAME identifiziert den KPI (z. B. scheduledHours, estimatedHours und actualHours), mit dem der Datensatz verbunden ist.</td>
+             <td>–</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AUFGABEN-ID</td>
+        </tr>
+                                <tr>
+             <td>PERSONALPLANUNG</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_CURRENT</td>
+             <td>PERSONALPLANUNG</td>
+        </tr>
+                                <tr>
+             <td>PERSONALPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_RESOURCE_CURRENT</td>
+             <td>PERSONALPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>AUFGABEN-ID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AUFGABEN-ID</td>
+        </tr>
+                                <tr>
+             <td>BENUTZER-ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
         </tr>
     </tbody>
 </table>
@@ -7008,6 +7328,12 @@ Eingeschränkte Kundenverfügbarkeit
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Die METADATA-Tabelle wird nicht bereitgestellt</td>
+             <td>–</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Wird in Kürze hinzugefügt</td>
+             <td>Die SCHEMA-Tabelle wird nicht bereitgestellt. Der Wert aus dieser Tabelle wird in der Spalte SCHEMANAME bereitgestellt. SCHEMANAME identifiziert den KPI (z. B. scheduledRevenueRate, scheduledCostRate, actualRevenue usw.), mit dem der Datensatz verbunden ist.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7056,9 +7382,21 @@ Eingeschränkte Kundenverfügbarkeit
              <td>TASKS_CURRENT</td>
              <td>AUFGABEN-ID</td>
         </tr>
+                <tr>
+             <td>PERSONALPLANUNG</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_CURRENT</td>
+             <td>PERSONALPLANUNG</td>
+        </tr>
+          <tr>
+             <td>PERSONALPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_RESOURCE_CURRENT</td>
+             <td>PERSONALPLANRESOURCEID</td>
+        </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7070,8 +7408,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>TIMEPHASEDCURRENCYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>BENUTZER-ID</td>
@@ -7134,6 +7472,12 @@ Eingeschränkte Kundenverfügbarkeit
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Die METADATA-Tabelle wird nicht bereitgestellt</td>
+             <td>–</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Wird in Kürze hinzugefügt</td>
+             <td>Die SCHEMA-Tabelle wird nicht bereitgestellt. Der Wert aus dieser Tabelle wird in der Spalte SCHEMANAME bereitgestellt. SCHEMANAME identifiziert den KPI (z. B. scheduledHours, estimatedHours und actualHours), mit dem der Datensatz verbunden ist.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7182,9 +7526,21 @@ Eingeschränkte Kundenverfügbarkeit
              <td>TASKS_CURRENT</td>
              <td>AUFGABEN-ID</td>
         </tr>
+                <tr>
+             <td>PERSONALPLANUNG </td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_CURRENT</td>
+             <td>PERSONALPLANUNG</td>
+        </tr>
+           <tr>
+             <td>PERSONALPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_RESOURCE_CURRENT</td>
+             <td>PERSONALPLANRESOURCEID</td>
+        </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7196,10 +7552,155 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>TIMEPHASEDDURATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
+             <td>BENUTZER-ID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Zeitphasen-KPI-Zahlen
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Zeitphasen-KPI-Zahlen</td>
+            <td>Zeitphasen-KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY_<br>_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ZUWEISUNGS-ID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ZUWEISUNGS-ID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>Dies ist ein natürlicher Schlüssel für den Zeitphasen-KPI-Eintrag</td>
+             <td>–</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>Die METADATA-Tabelle wird nicht bereitgestellt</td>
+             <td>–</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMM-ID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMM-ID</td>
+        </tr>
+                <tr>
+             <td>PROJEKT-ID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJEKT-ID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, basierend auf OBJCODE</td>
+             <td>Der Primärschlüssel/die ID des im Feld OBJCODE identifizierten Objekts</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>Die SCHEMA-Tabelle wird nicht bereitgestellt. Der Wert aus dieser Tabelle wird in der Spalte SCHEMANAME bereitgestellt. SCHEMANAME identifiziert den KPI (z. B. scheduledHours, estimatedHours und actualHours), mit dem der Datensatz verbunden ist.</td>
+             <td>–</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AUFGABEN-ID</td>
+        </tr>
+                <tr>
+             <td>PERSONALPLANUNG</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_CURRENT</td>
+             <td>PERSONALPLANUNG</td>
+        </tr>
+                <tr>
+             <td>PERSONALPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>PERSONAL_PLAN_RESOURCE_CURRENT</td>
+             <td>PERSONALPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>AUFGABEN-ID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>AUFGABEN-ID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>–</td>
+             <td>–</td>
+        </tr>
+                <tr>
              <td>BENUTZER-ID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
@@ -7260,14 +7761,14 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>ARBEITSZEITTABELLEN-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>ARBEITSZEITTABELLEN-PROFILEID</td>
@@ -7336,14 +7837,14 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>ARBEITSZEITTABELLEN-PROFILEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7382,7 +7883,7 @@ Eingeschränkte Kundenverfügbarkeit
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7411,14 +7912,14 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>UIFILTERID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7457,7 +7958,7 @@ Eingeschränkte Kundenverfügbarkeit
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7486,14 +7987,14 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>UIGROUPBYID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7550,14 +8051,14 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>UITEMPLATEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7577,9 +8078,9 @@ Eingeschränkte Kundenverfügbarkeit
       <tbody>
         <tr>
             <td>UI-Ansicht</td>
-            <td>Anzeigen</td>
+            <td>Ansicht</td>
             <td>UIVIEW</td>
-            <td>Anzeigen</td>
+            <td>Ansicht</td>
             <td>UIVIEWS_CURRENT<br>UIVIEWS_DAILY_HISTORY<br>UIVIEWS_EVENT</td>
         </tr>
       </tbody>
@@ -7596,7 +8097,7 @@ Eingeschränkte Kundenverfügbarkeit
     <tbody>
         <tr>
              <td>APPGLOBALID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7625,19 +8126,19 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>UIVIEWID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
 
-### Benutzerin oder Benutzer
+### Benutzerin bzw. Benutzer
 
 <table>
     <thead>
@@ -7651,10 +8152,10 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Benutzerin oder Benutzer</td>
-            <td>Benutzerin oder Benutzer</td>
+            <td>Benutzerin bzw. Benutzer</td>
+            <td>Benutzerin bzw. Benutzer</td>
             <td>BENUTZER</td>
-            <td>Benutzerin oder Benutzer</td>
+            <td>Benutzerin bzw. Benutzer</td>
             <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
         </tr>
       </tbody>
@@ -7701,7 +8202,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>EAUTHUSERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7742,7 +8243,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Layoutvorlagentabelle wird nicht unterstützt</td>
         </tr>
         <tr>
@@ -7753,12 +8254,12 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>PORTALPROFILEID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Portalprofiltabelle wird nicht unterstützt</td>
         </tr>
         <tr>
              <td>VORFLÜSSIG</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7787,7 +8288,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7805,12 +8306,12 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>BENUTZER-ID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>UUMUSERID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
@@ -7856,7 +8357,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7868,8 +8369,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERDELEGATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7914,7 +8415,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7926,8 +8427,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERSGROUPID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -7972,7 +8473,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -7984,13 +8485,13 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERLOCATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
 
-### Benutzerfunktion
+### Benutzerrolle
 
 <table>
     <thead>
@@ -8004,10 +8505,10 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Benutzerfunktion</td>
+            <td>Benutzerrolle</td>
             <td>Weitere Funktionen</td>
             <td>USRROL</td>
-            <td>Benutzerfunktion</td>
+            <td>Benutzerrolle</td>
             <td>USERSROLES_CURRENT<br>USERSROLES_DAILY_HISTORY<br>USERSROLES_EVENT</td>
         </tr>
       </tbody>
@@ -8030,7 +8531,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -8048,8 +8549,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERLOCATIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8088,7 +8589,7 @@ Eingeschränkte Kundenverfügbarkeit
     <tbody>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -8100,8 +8601,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERPREFVALUEID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8146,7 +8647,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -8158,8 +8659,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERROLESETID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
@@ -8199,12 +8700,12 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>USERDECISIONID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -8274,7 +8775,7 @@ Eingeschränkte Kundenverfügbarkeit
         </tr>
         <tr>
              <td>SYSID</td>
-             <td>-</td>
+             <td>–</td>
              <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
@@ -8292,8 +8793,8 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>WORKITEMID</td>
              <td>PK</td>
-             <td>-</td>
-             <td>-</td>
+             <td>–</td>
+             <td>–</td>
         </tr>
     </tbody>
 </table>
