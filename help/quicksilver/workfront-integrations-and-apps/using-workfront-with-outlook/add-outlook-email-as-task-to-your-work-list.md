@@ -67,7 +67,7 @@ Ihr [!DNL Workfront] muss [!DNL Outlook for Office] mit [!DNL Workfront] aktivie
    * **[!UICONTROL Anhänge]:** Alle E-Mail-Anhänge werden im Bereich [!UICONTROL Dokumente] der Aufgabe gespeichert. Sie können alle Anhänge löschen, bevor Sie die E-Mail als Aufgabe speichern.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.\
-   Die Aufgabe wird der [!UICONTROL Arbeitsliste) ] Bereich Startseite ohne Commit-Datum hinzugefügt.
+   Die Aufgabe wird der [!UICONTROL Arbeitsliste) &#x200B;] Bereich Startseite ohne Commit-Datum hinzugefügt.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL In Workfront anzeigen]**, um die Aufgabe innerhalb des [!DNL Workfront]-Programms auf einer neuen Registerkarte anzuzeigen.
 

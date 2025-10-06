@@ -70,7 +70,7 @@ So erstellen Sie eine [!DNL Workfront] aus [!DNL Outlook]:
 1. Wählen **[!UICONTROL im Feld „Anforderungstyp auswählen]** die Anforderungswarteschlange aus, an die Sie die Anforderung senden möchten.
 
 1. Geben Sie die folgenden Informationen an:\
-   Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, können die verfügbaren Felder variieren. Eine vollständige Liste und Beschreibung der möglichen Felder finden Sie [ Artikel  [!DNL Adobe Workfront] Erstellen und senden](../../manage-work/requests/create-requests/create-submit-requests.md) .
+   Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, können die verfügbaren Felder variieren. Eine vollständige Liste und Beschreibung der möglichen Felder finden Sie [&#x200B; Artikel  [!DNL Adobe Workfront] Erstellen und senden](../../manage-work/requests/create-requests/create-submit-requests.md) .
 
    * **[!UICONTROL Betreff]:** Geben Sie einen Betreff für die Anfrage an. Standardmäßig wird der E-Mail-Betreff verwendet.
    * **[!UICONTROL Beschreibung]:** Geben Sie eine Beschreibung für die Anfrage an. Standardmäßig wird der Textkörper der E-Mail verwendet.

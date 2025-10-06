@@ -108,7 +108,7 @@ Die E-Mail-Server-Anforderungen werden standardmäßig erfüllt, wenn Sie eine V
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* Um über den [!DNL Workfront]Store[[!DNL Office]  auf das ](https://store.office.com/)-Add-in zugreifen zu können, müssen Ihre Clientzugriffsserver mit [https://store.office.com kommunizieren ](https://store.office.com/).
+* Um über den [!DNL Workfront]Store[[!DNL Office]  auf das &#x200B;](https://store.office.com/)-Add-in zugreifen zu können, müssen Ihre Clientzugriffsserver mit [https://store.office.com kommunizieren &#x200B;](https://store.office.com/).
 
 Weitere Informationen zu unterstützten Umgebungen finden Sie auf der [[!DNL Microsoft Office 365] Startseite](https://products.office.com/en-us/office-365-home).
 
@@ -118,7 +118,7 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. Klicken Sie [!DNL Outlook 365] oben in der Office 365 **[!UICONTROL Benutzeroberfläche auf das Symbol]** Add-Ins durchsuchen![ ](assets/outlook-add-in-26x26.png) und anschließend auf **[!UICONTROL Add-Ins verwalten]**.
+1. Klicken Sie [!DNL Outlook 365] oben in der Office 365 **[!UICONTROL Benutzeroberfläche auf das Symbol]** Add-Ins durchsuchen![&#x200B; &#x200B;](assets/outlook-add-in-26x26.png) und anschließend auf **[!UICONTROL Add-Ins verwalten]**.
 
 1. Suchen Sie im Feld **[!UICONTROL Add-Ins suchen]** nach **[!DNL Workfront]** drücken Sie dann die [!UICONTROL Eingabetaste].
 
@@ -127,7 +127,7 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 ### [!DNL Workfront] für [!DNL Outlook] im Web {#workfront-for-outlook-on-the-web}
 
 1. Öffnen Sie [!DNL Microsoft Outlook] in einem Webbrowser.
-1. Klicken Sie auf **[!UICONTROL Symbol ]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
+1. Klicken Sie auf **[!UICONTROL Symbol &#x200B;]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
 
    Informationen zum Auffinden des Symbols finden Sie unter [Verwenden von Add [!DNL Outlook] Ins im Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in der Dokumentation zu Microsoft.
 

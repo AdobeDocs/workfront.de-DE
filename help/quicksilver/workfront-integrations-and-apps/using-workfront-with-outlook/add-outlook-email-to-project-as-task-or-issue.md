@@ -92,7 +92,7 @@ Ihr [!DNL Workfront] muss [!DNL Outlook for Office] mit [!DNL Workfront] aktivie
       </tr>
       <tr>
         <td>[!UICONTROL Anlagen]</td>
-        <td>Alle E-Mail-Anhänge werden im Bereich [!UICONTROL-Dokumente] der Aufgabe oder des Problems gespeichert. Sie können alle Anhänge löschen, bevor Sie die E-Mail als Aufgabe oder Problem speichern.</td>
+        <td>Alle E-Mail-Anhänge werden im Bereich [!UICONTROL -Dokumente] der Aufgabe oder des Problems gespeichert. Sie können alle Anhänge löschen, bevor Sie die E-Mail als Aufgabe oder Problem speichern.</td>
       </tr>
    </table>
 
