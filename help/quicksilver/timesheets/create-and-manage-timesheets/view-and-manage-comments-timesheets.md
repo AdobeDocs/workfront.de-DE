@@ -6,7 +6,7 @@ description: Sie können Kommentare zu Arbeitszeittabellen, zu den in den Arbeit
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Stundeneintragskommentare auf einer Arbeitszeittabelle anzeigen {#view-hour-entry-comments-on-a-timesheet}
 
-Sie können Kommentare konfigurieren, die zu einzelnen Stundeneinträgen vorgenommen werden, damit sie in der Arbeitszeittabelle angezeigt werden. Die Option zum Ein- und Ausblenden von Kommentaren hat keine Auswirkungen auf Kommentare in der gesamten Arbeitszeittabelle oder auf Kommentare zu einzelnen Elementen. Weitere Informationen finden Sie unter  [Kommentare zu einer Arbeitszeittabelle &#x200B;](#make-comments-on-a-timesheet).
+Sie können Kommentare konfigurieren, die zu einzelnen Stundeneinträgen vorgenommen werden, damit sie in der Arbeitszeittabelle angezeigt werden. Die Option zum Ein- und Ausblenden von Kommentaren hat keine Auswirkungen auf Kommentare in der gesamten Arbeitszeittabelle oder auf Kommentare zu einzelnen Elementen. Weitere Informationen finden Sie unter  [Kommentare zu einer Arbeitszeittabelle ](#make-comments-on-a-timesheet).
 
 Standardmäßig werden Kommentare beim ersten Zugriff auf eine Arbeitszeittabelle ausgeblendet.
 
@@ -100,6 +100,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
    >[!TIP]
    >
    >Die Einstellung **Privat für meine**) ist nur verfügbar, wenn Ihr Workfront-Profil mit einer Firma verknüpft ist.
+
 1. Geben Sie Ihren Kommentar ein und klicken Sie dann auf **Senden**.
 
    Ihr Kommentar wird im [!UICONTROL Aktualisierungen] der Arbeitszeittabelle auf der Registerkarte Kommentare angezeigt.
@@ -147,7 +148,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
    >   * Befehlstaste + Rückgabe für Mac-Computer.
 
 
-1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer &#x200B;](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
+1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer ](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
 
 ### Kommentar zu einem Arbeitselement in einer Arbeitszeittabelle {#comment-on-a-work-item-in-a-timesheet}
 

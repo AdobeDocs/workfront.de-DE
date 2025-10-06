@@ -6,7 +6,7 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 2%
@@ -162,65 +162,65 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
    <p>Sie können eine Vorlage über die Vorlagenüberschrift deaktivieren, wie im Abschnitt „Aktivieren oder Deaktivieren einer Vorlage“ in diesem Artikel beschrieben.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>Bedingungstyp</strong></td> 
-   <td><p>Wählen Sie zwischen den folgenden Bedingungstypen aus:</p> 
-   <ul> 
-   <li><strong>Manuell</strong> Der Projektinhaber legt die Projektbedingung manuell fest. <strong></strong></li> 
-   <li><strong>Fortschrittsstatus: </strong> Workfront legt die Bedingung des zukünftigen Projekts automatisch auf der Grundlage des Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Verstehen des Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Aufgabenstatus</a>.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Zeitplanmodus</strong></td> 
-   <td><p>Geben Sie an, ob das Projekt, das diese Vorlage verwendet, ab dem <strong>Startdatum</strong> oder ab dem <strong>Abschlussdatum</strong> geplant wird. Diese Auswahl bestimmt anhand dieser Vorlage die geplanten Termine der zukünftigen Aufgaben im Projekt. </p><p>Wählen Sie aus den folgenden Optionen aus: </p> 
-   <ul> 
-   <li><p><strong>Zeitplan vom Startdatum</strong>: Das Startdatum der Vorlage ist tatsächlich der Starttag. Wenn Sie eine Vorlage vom Startdatum ausgehend planen, berechnet Adobe Workfront den Abschlusstag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Der Starttag der Vorlage wird zum geplanten Startdatum des zukünftigen Projekts.</p></li> 
-   <li><p><strong>Zeitplan ab Abschlussdatum</strong>: Das Abschlussdatum der Vorlage ist in Wirklichkeit der Abschlussdatum. Wenn Sie für eine Vorlage ein Abschlussdatum festlegen, berechnet Workfront den Starttag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Das Abschlussdatum der Vorlage wird zum geplanten Abschlussdatum des zukünftigen Projekts. </p></li> 
-   </ul><p>Weitere Informationen zu den Anfangs- und Abschlusstagen von Vorlagenaufgaben finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Übersicht über Anfangs- und Abschlusstage in einer Vorlage</a>. </p><p>Die Einstellung Zeitplan ab für Vorlagen ähnelt der von Projekten. Ihr Workfront-Administrator wählt die Standardeinstellung Zeitplan ab für die Projekte in Ihrem System aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p></td> 
-   </tr>
+   <td role="rowheader"><strong>Bedingungstyp</strong></td> 
+      <td><p>Wählen Sie zwischen den folgenden Bedingungstypen aus:</p> 
+      <ul> 
+      <li><strong>Manuell</strong> Der Projektinhaber legt die Projektbedingung manuell fest. <strong></strong></li> 
+      <li><strong>Fortschrittsstatus: </strong> Workfront legt die Bedingung des zukünftigen Projekts automatisch auf der Grundlage des Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Verstehen des Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Aufgabenstatus</a>.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Zeitplanmodus</strong></td> 
+      <td><p>Geben Sie an, ob das Projekt, das diese Vorlage verwendet, ab dem <strong>Startdatum</strong> oder ab dem <strong>Abschlussdatum</strong> geplant wird. Diese Auswahl bestimmt anhand dieser Vorlage die geplanten Termine der zukünftigen Aufgaben im Projekt. </p><p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <ul> 
+      <li><p><strong>Zeitplan vom Startdatum</strong>: Das Startdatum der Vorlage ist tatsächlich der Starttag. Wenn Sie eine Vorlage vom Startdatum ausgehend planen, berechnet Adobe Workfront den Abschlusstag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Der Starttag der Vorlage wird zum geplanten Startdatum des zukünftigen Projekts.</p></li> 
+      <li><p><strong>Zeitplan ab Abschlussdatum</strong>: Das Abschlussdatum der Vorlage ist in Wirklichkeit der Abschlussdatum. Wenn Sie für eine Vorlage ein Abschlussdatum festlegen, berechnet Workfront den Starttag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Das Abschlussdatum der Vorlage wird zum geplanten Abschlussdatum des zukünftigen Projekts. </p></li> 
+      </ul><p>Weitere Informationen zu den Anfangs- und Abschlusstagen von Vorlagenaufgaben finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Übersicht über Anfangs- und Abschlusstage in einer Vorlage</a>. </p><p>Die Einstellung Zeitplan ab für Vorlagen ähnelt der von Projekten. Ihr Workfront-Administrator wählt die Standardeinstellung Zeitplan ab für die Projekte in Ihrem System aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>Portfolio</strong></td> 
-   <td><p>Geben Sie eine Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Programm</strong></td> 
-   <td><p>Wenn Sie eine Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>Gruppe</strong></td> 
-   <td><p>Wählen Sie in der Dropdown-Liste die Gruppe aus, die Sie mit Projekten verknüpfen möchten, die aus der Vorlage erstellt wurden. Es kann sich um eine Gruppe auf beliebiger Ebene handeln. </p><p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol <img src="assets/info-icon.png"> neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p><b>NOTIZEN</b>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td><p>Geben Sie eine Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Programm</strong></td> 
+      <td><p>Wenn Sie eine Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Gruppe</strong></td> 
+      <td><p>Wählen Sie in der Dropdown-Liste die Gruppe aus, die Sie mit Projekten verknüpfen möchten, die aus der Vorlage erstellt wurden. Es kann sich um eine Gruppe auf beliebiger Ebene handeln. </p><p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol <img src="assets/info-icon.png"> neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p><b>NOTIZEN</b>
 
-<ul> 
-   <li><p>Wenn im Bereich Projekte auf der Seite einer Gruppe jemand ein Projekt mit einer Vorlage erstellt, für die keine Gruppe ausgewählt ist, verknüpft das System die aktuell geöffnete Gruppe mit dem Projekt.</p><p>Dies unterscheidet sich von anderen Bereichen, in denen das System die Hauptgruppe einer Benutzerin oder eines Benutzers mit dem Projekt verknüpft, wenn die Benutzerin oder der Benutzer das Projekt mithilfe einer Vorlage erstellt, für die keine Gruppe ausgewählt ist.</p></li> 
-   <li><p>Wenn ein(e) Benutzende(r) beim Erstellen eines Projekts oder beim Konvertieren einer Aufgabe oder eines Problems in ein Projekt eine Vorlage auswählt, aus der eine Gruppe ausgewählt wurde, kann der/die Benutzende eine andere Gruppe für das Projekt auswählen.</p></li> 
-   <li>Obwohl dieses Feld in Vorlagen nur in der neuen Adobe Workfront-Version verfügbar ist, können Sie es sowohl dort in Listen und Berichten als auch in Adobe Workfront Classic sehen. </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Firma</strong></td> 
-   <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
-   <td><p>Der Benutzer, der als Vorlagenbesitzer festgelegt ist, muss ein aktiver Workfront-Benutzer sein. </p><p>Beachten Sie Folgendes über den Benutzer, der als Vorlagenbesitzer festgelegt ist: </p> 
    <ul> 
-   <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
-   <li>Sie werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das aus der Vorlage erstellte Projekt. </li> 
-   <li>Sie werden zum Projektbesitzer, wenn das Projekt aus dieser Vorlage erstellt wird. </li> 
-   <li> Wenn der als Vorlagenbesitzer angegebene Benutzer von seiner Zugriffsebene aus nur eingeschränkten Zugriff auf Vorlagen oder Projekte hat, sind seine Verwaltungsberechtigungen für die Vorlage und die Projekte eingeschränkt. Wenn sie beispielsweise nur Ansichtszugriff für Vorlagen oder Projekte in ihrer Zugriffsebene haben, erhalten sie automatisch Ansichtsberechtigungen für die Vorlage und das Projekt, wenn sie als Vorlagenbesitzer angegeben sind.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Vorlagensponsor</strong></td> 
-   <td><p>Der in diesem Feld angegebene Benutzer wird zum Projektsponsor, wenn die Vorlage zum Projekt hinzugefügt wird. Dieser Benutzer wird dem Projekt-Team hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Vorlagensponsor angegeben ist, muss ein aktiver Workfront-Benutzer sein. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Ressourcenmanager</strong></td> 
-   <td><p>Die angegebenen Benutzer erhalten automatisch Verwaltungsberechtigungen für die zukünftigen Projekte und können Ressourcen zu den Aufgaben und Problemen der Projekte zuweisen. Sie können mehr als einen Ressourcen-Manager angeben. </p></td> 
-   </tr> 
-</table>
+      <li><p>Wenn im Bereich Projekte auf der Seite einer Gruppe jemand ein Projekt mit einer Vorlage erstellt, für die keine Gruppe ausgewählt ist, verknüpft das System die aktuell geöffnete Gruppe mit dem Projekt.</p><p>Dies unterscheidet sich von anderen Bereichen, in denen das System die Hauptgruppe einer Benutzerin oder eines Benutzers mit dem Projekt verknüpft, wenn die Benutzerin oder der Benutzer das Projekt mithilfe einer Vorlage erstellt, für die keine Gruppe ausgewählt ist.</p></li> 
+      <li><p>Wenn ein(e) Benutzende(r) beim Erstellen eines Projekts oder beim Konvertieren einer Aufgabe oder eines Problems in ein Projekt eine Vorlage auswählt, aus der eine Gruppe ausgewählt wurde, kann der/die Benutzende eine andere Gruppe für das Projekt auswählen.</p></li> 
+      <li>Obwohl dieses Feld in Vorlagen nur in der neuen Adobe Workfront-Version verfügbar ist, können Sie es sowohl dort in Listen und Berichten als auch in Adobe Workfront Classic sehen. </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Firma</strong></td> 
+      <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
+      <td><p>Der Benutzer, der als Vorlagenbesitzer festgelegt ist, muss ein aktiver Workfront-Benutzer sein. </p><p>Beachten Sie Folgendes über den Benutzer, der als Vorlagenbesitzer festgelegt ist: </p> 
+      <ul> 
+      <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
+      <li>Sie werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das aus der Vorlage erstellte Projekt. </li> 
+      <li>Sie werden zum Projektbesitzer, wenn das Projekt aus dieser Vorlage erstellt wird. </li> 
+      <li> Wenn der als Vorlagenbesitzer angegebene Benutzer von seiner Zugriffsebene aus nur eingeschränkten Zugriff auf Vorlagen oder Projekte hat, sind seine Verwaltungsberechtigungen für die Vorlage und die Projekte eingeschränkt. Wenn sie beispielsweise nur Ansichtszugriff für Vorlagen oder Projekte in ihrer Zugriffsebene haben, erhalten sie automatisch Ansichtsberechtigungen für die Vorlage und das Projekt, wenn sie als Vorlagenbesitzer angegeben sind.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Vorlagensponsor</strong></td> 
+      <td><p>Der in diesem Feld angegebene Benutzer wird zum Projektsponsor, wenn die Vorlage zum Projekt hinzugefügt wird. Dieser Benutzer wird dem Projekt-Team hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Vorlagensponsor angegeben ist, muss ein aktiver Workfront-Benutzer sein. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Ressourcenmanager</strong></td> 
+      <td><p>Die angegebenen Benutzer erhalten automatisch Verwaltungsberechtigungen für die zukünftigen Projekte und können Ressourcen zu den Aufgaben und Problemen der Projekte zuweisen. Sie können mehr als einen Ressourcen-Manager angeben. </p></td> 
+      </tr> 
+      </table>
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -260,72 +260,72 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Geben Sie einen Weblink an, der sich auf Informationen zu dieser Vorlage bezieht.</td> 
        </tr>
-   <tr> 
+      <tr> 
       <td role="rowheader"><strong>Ist aktiv</strong></td> 
       <td><p>Aktivieren Sie diese Option, wenn die Vorlage aktiv sein soll. Andere Benutzer können diese Vorlage suchen und sie beim Erstellen von Projekten an Projekte anhängen. Deaktivieren Sie die Option, wenn Sie nicht mehr verwendete Vorlagen deaktivieren möchten. Deaktivierte Vorlagen können nicht an Projekte angehängt werden. Dies ist standardmäßig aktiviert. </p><p><b>TIPP</b></p>
 
    <p>Sie können eine Vorlage über die Vorlagenüberschrift deaktivieren, wie im Abschnitt „Aktivieren oder Deaktivieren einer Vorlage“ in diesem Artikel beschrieben.</p></td> 
      </tr>
 
-<tr> 
-<td role="rowheader"><strong>Bedingungstyp</strong></td> 
-   <td><p>Wählen Sie zwischen den folgenden Bedingungstypen aus:</p> 
-   <ul> 
-   <li><strong>Manuell</strong> Der Projektinhaber legt die Projektbedingung manuell fest. <strong></strong></li> 
-   <li><strong>Fortschrittsstatus: </strong> Workfront legt die Bedingung des zukünftigen Projekts automatisch auf der Grundlage des Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Verstehen des Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Aufgabenstatus</a>.</li> 
-   </ul>
-   </td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Zeitplanmodus</strong></td> 
-   <td><p>Geben Sie an, ob das Projekt, das diese Vorlage verwendet, ab dem <strong>Startdatum</strong> oder ab dem <strong>Abschlussdatum</strong> geplant wird. Diese Auswahl bestimmt anhand dieser Vorlage die geplanten Termine der zukünftigen Aufgaben im Projekt. </p><p>Wählen Sie aus den folgenden Optionen aus: </p> 
-   <ul> 
-   <li><p><strong>Zeitplan vom Startdatum</strong>: Das Startdatum der Vorlage ist tatsächlich der Starttag. Wenn Sie eine Vorlage vom Startdatum ausgehend planen, berechnet Adobe Workfront den Abschlusstag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Der Starttag der Vorlage wird zum geplanten Startdatum des zukünftigen Projekts.</p></li> 
-   <li><p><strong>Zeitplan ab Abschlussdatum</strong>: Das Abschlussdatum der Vorlage ist in Wirklichkeit der Abschlussdatum. Wenn Sie für eine Vorlage ein Abschlussdatum festlegen, berechnet Workfront den Starttag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Das Abschlussdatum der Vorlage wird zum geplanten Abschlussdatum des zukünftigen Projekts. </p></li> 
-   </ul><p>Weitere Informationen zu den Anfangs- und Abschlusstagen von Vorlagenaufgaben finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Übersicht über Anfangs- und Abschlusstage in einer Vorlage</a>. </p><p>Die Einstellung Zeitplan ab für Vorlagen ähnelt der von Projekten. Ihr Workfront-Administrator wählt die Standardeinstellung Zeitplan ab für die Projekte in Ihrem System aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p></td> 
-   </tr>
+      <td role="rowheader"><strong>Bedingungstyp</strong></td> 
+      <td><p>Wählen Sie zwischen den folgenden Bedingungstypen aus:</p> 
+      <ul> 
+      <li><strong>Manuell</strong> Der Projektinhaber legt die Projektbedingung manuell fest. <strong></strong></li> 
+      <li><strong>Fortschrittsstatus: </strong> Workfront legt die Bedingung des zukünftigen Projekts automatisch auf der Grundlage des Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Verstehen des Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Aufgabenstatus</a>.</li> 
+      </ul>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Zeitplanmodus</strong></td> 
+      <td><p>Geben Sie an, ob das Projekt, das diese Vorlage verwendet, ab dem <strong>Startdatum</strong> oder ab dem <strong>Abschlussdatum</strong> geplant wird. Diese Auswahl bestimmt anhand dieser Vorlage die geplanten Termine der zukünftigen Aufgaben im Projekt. </p><p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <ul> 
+      <li><p><strong>Zeitplan vom Startdatum</strong>: Das Startdatum der Vorlage ist tatsächlich der Starttag. Wenn Sie eine Vorlage vom Startdatum ausgehend planen, berechnet Adobe Workfront den Abschlusstag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Der Starttag der Vorlage wird zum geplanten Startdatum des zukünftigen Projekts.</p></li> 
+      <li><p><strong>Zeitplan ab Abschlussdatum</strong>: Das Abschlussdatum der Vorlage ist in Wirklichkeit der Abschlussdatum. Wenn Sie für eine Vorlage ein Abschlussdatum festlegen, berechnet Workfront den Starttag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Das Abschlussdatum der Vorlage wird zum geplanten Abschlussdatum des zukünftigen Projekts. </p></li> 
+      </ul><p>Weitere Informationen zu den Anfangs- und Abschlusstagen von Vorlagenaufgaben finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Übersicht über Anfangs- und Abschlusstage in einer Vorlage</a>. </p><p>Die Einstellung Zeitplan ab für Vorlagen ähnelt der von Projekten. Ihr Workfront-Administrator wählt die Standardeinstellung Zeitplan ab für die Projekte in Ihrem System aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p></td> 
+      </tr>
 
-<tr> 
-   <td role="rowheader"><strong>Portfolio</strong></td> 
-   <td><p>Geben Sie eine Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
-   </tr> 
    <tr> 
-   <td role="rowheader"><strong>Programm</strong></td> 
-   <td><p>Wenn Sie eine Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
-   </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td role="rowheader"><strong>Gruppe</strong></td> 
-   <td><p>Wählen Sie in der Dropdown-Liste die Gruppe aus, die Sie mit Projekten verknüpfen möchten, die aus der Vorlage erstellt wurden. Es kann sich um eine Gruppe auf beliebiger Ebene handeln. </p><p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol <img src="assets/info-icon.png"> neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p><b>NOTIZEN</b>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td><p>Geben Sie eine Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Programm</strong></td> 
+      <td><p>Wenn Sie eine Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
+      </tr>  
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Gruppe</strong></td> 
+      <td><p>Wählen Sie in der Dropdown-Liste die Gruppe aus, die Sie mit Projekten verknüpfen möchten, die aus der Vorlage erstellt wurden. Es kann sich um eine Gruppe auf beliebiger Ebene handeln. </p><p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol <img src="assets/info-icon.png"> neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p><b>NOTIZEN</b>
 
-<ul> 
-   <li><p>Wenn im Bereich Projekte auf der Seite einer Gruppe jemand ein Projekt mit einer Vorlage erstellt, für die keine Gruppe ausgewählt ist, verknüpft das System die aktuell geöffnete Gruppe mit dem Projekt.</p><p>Dies unterscheidet sich von anderen Bereichen, in denen das System die Hauptgruppe einer Benutzerin oder eines Benutzers mit dem Projekt verknüpft, wenn die Benutzerin oder der Benutzer das Projekt mithilfe einer Vorlage erstellt, für die keine Gruppe ausgewählt ist.</p></li> 
-   <li><p>Wenn ein(e) Benutzende(r) beim Erstellen eines Projekts oder beim Konvertieren einer Aufgabe oder eines Problems in ein Projekt eine Vorlage auswählt, aus der eine Gruppe ausgewählt wurde, kann der/die Benutzende eine andere Gruppe für das Projekt auswählen.</p></li> 
-   <li>Obwohl dieses Feld in Vorlagen nur in der neuen Adobe Workfront-Version verfügbar ist, können Sie es sowohl dort in Listen und Berichten als auch in Adobe Workfront Classic sehen. </li> 
-   </ul> </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Firma</strong></td> 
-   <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
-   <td><p>Der Benutzer, der als Vorlagenbesitzer festgelegt ist, muss ein aktiver Workfront-Benutzer sein. </p><p>Beachten Sie Folgendes über den Benutzer, der als Vorlagenbesitzer festgelegt ist: </p> 
    <ul> 
-   <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
-   <li>Sie werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das aus der Vorlage erstellte Projekt. </li> 
-   <li>Sie werden zum Projektbesitzer, wenn das Projekt aus dieser Vorlage erstellt wird. </li> 
-   <li> Wenn der als Vorlagenbesitzer angegebene Benutzer von seiner Zugriffsebene aus nur eingeschränkten Zugriff auf Vorlagen oder Projekte hat, sind seine Verwaltungsberechtigungen für die Vorlage und die Projekte eingeschränkt. Wenn sie beispielsweise nur Ansichtszugriff für Vorlagen oder Projekte in ihrer Zugriffsebene haben, erhalten sie automatisch Ansichtsberechtigungen für die Vorlage und das Projekt, wenn sie als Vorlagenbesitzer angegeben sind.</li>
-   </ul></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Vorlagensponsor</strong></td> 
-   <td><p>Der in diesem Feld angegebene Benutzer wird zum Projektsponsor, wenn die Vorlage zum Projekt hinzugefügt wird. Dieser Benutzer wird dem Projekt-Team hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Vorlagensponsor angegeben ist, muss ein aktiver Workfront-Benutzer sein. </p></td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Ressourcenmanager</strong></td> 
-   <td><p>Die angegebenen Benutzer erhalten automatisch Verwaltungsberechtigungen für die zukünftigen Projekte und können Ressourcen zu den Aufgaben und Problemen der Projekte zuweisen. Sie können mehr als einen Ressourcen-Manager angeben. </p></td> 
-   </tr> 
-</table>
+      <li><p>Wenn im Bereich Projekte auf der Seite einer Gruppe jemand ein Projekt mit einer Vorlage erstellt, für die keine Gruppe ausgewählt ist, verknüpft das System die aktuell geöffnete Gruppe mit dem Projekt.</p><p>Dies unterscheidet sich von anderen Bereichen, in denen das System die Hauptgruppe einer Benutzerin oder eines Benutzers mit dem Projekt verknüpft, wenn die Benutzerin oder der Benutzer das Projekt mithilfe einer Vorlage erstellt, für die keine Gruppe ausgewählt ist.</p></li> 
+      <li><p>Wenn ein(e) Benutzende(r) beim Erstellen eines Projekts oder beim Konvertieren einer Aufgabe oder eines Problems in ein Projekt eine Vorlage auswählt, aus der eine Gruppe ausgewählt wurde, kann der/die Benutzende eine andere Gruppe für das Projekt auswählen.</p></li> 
+      <li>Obwohl dieses Feld in Vorlagen nur in der neuen Adobe Workfront-Version verfügbar ist, können Sie es sowohl dort in Listen und Berichten als auch in Adobe Workfront Classic sehen. </li> 
+      </ul> </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Firma</strong></td> 
+      <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
+      <td><p>Der Benutzer, der als Vorlagenbesitzer festgelegt ist, muss ein aktiver Workfront-Benutzer sein. </p><p>Beachten Sie Folgendes über den Benutzer, der als Vorlagenbesitzer festgelegt ist: </p> 
+      <ul> 
+      <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
+      <li>Sie werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das aus der Vorlage erstellte Projekt. </li> 
+      <li>Sie werden zum Projektbesitzer, wenn das Projekt aus dieser Vorlage erstellt wird. </li> 
+      <li> Wenn der als Vorlagenbesitzer angegebene Benutzer von seiner Zugriffsebene aus nur eingeschränkten Zugriff auf Vorlagen oder Projekte hat, sind seine Verwaltungsberechtigungen für die Vorlage und die Projekte eingeschränkt. Wenn sie beispielsweise nur Ansichtszugriff für Vorlagen oder Projekte in ihrer Zugriffsebene haben, erhalten sie automatisch Ansichtsberechtigungen für die Vorlage und das Projekt, wenn sie als Vorlagenbesitzer angegeben sind.</li>
+      </ul></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Vorlagensponsor</strong></td> 
+      <td><p>Der in diesem Feld angegebene Benutzer wird zum Projektsponsor, wenn die Vorlage zum Projekt hinzugefügt wird. Dieser Benutzer wird dem Projekt-Team hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Vorlagensponsor angegeben ist, muss ein aktiver Workfront-Benutzer sein. </p></td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Ressourcenmanager</strong></td> 
+      <td><p>Die angegebenen Benutzer erhalten automatisch Verwaltungsberechtigungen für die zukünftigen Projekte und können Ressourcen zu den Aufgaben und Problemen der Projekte zuweisen. Sie können mehr als einen Ressourcen-Manager angeben. </p></td> 
+      </tr> 
+      </table>
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -460,24 +460,24 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
       <td role="rowheader"><strong>Genehmigung des Zeitaufwands für dieses Projekt verlangen</strong></td>
 
    <td><p>Wählen Sie diese Option aus, damit der zukünftige Projektbesitzer des mit dieser Vorlage erstellten Projekts die für das Projekt protokollierte Zeit genehmigen muss.</p> 
-   <p>Wenn Sie Rechnungsnachweise verwenden und diese Option wählen, werden nur die genehmigten Stunden für das Projekt als verfügbare fakturierbare Stunden für die Rechnungsnachweise angezeigt. </p>
-   <p>Die Genehmigung der Zeit für das Projekt ist unabhängig von der Genehmigung von Arbeitszeittabellen. Weitere Informationen dazu, wie viel Zeit für die Genehmigung eines Projekts benötigt wird, finden Sie unter <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Zeit für die Genehmigung eines Projekts benötigen</a>.</p>
-   </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Stundentyp filtern</strong> </td> 
-   <td> <p>Beachten Sie Folgendes:</p> <p>Wählen <strong>Nein</strong>, um alle projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>Oder</p> <p>Wählen Sie <strong>Ja</strong>, um nur einen Teil der projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen, und wählen Sie dann die Stundentypen aus, die Sie verfügbar machen möchten. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)</p> <p>Wenn Sie diese Option wählen, stehen nur die ausgewählten Stundentypen zur Auswahl, wenn Stunden für das Projekt (oder für Aufgaben und Probleme innerhalb des Projekts) protokolliert werden. Es muss mindestens ein Stundentyp ausgewählt werden. Wenn Sie diese Option auswählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt verfügbar gemacht.</p> <p>Die Auswahl desselben Stundentyps muss auf der Ebene der einzelnen Benutzenden erfolgen, damit diese Optionen für den Stundentyp im Projekt angezeigt werden. </p> <p>Weitere Informationen zur Definition von Stundentypen auf Benutzerebene finden Sie im Abschnitt <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Protokollzeit</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a>.</p> </td> 
-   </tr> 
-   <tr> 
-   <td role="rowheader"><strong>Erinnerungsnachricht</strong> </td> 
-   <td>Wählen Sie die Erinnerungsnachricht aus, die mit dem zukünftigen Projekt verknüpft werden soll. Sie müssen Erinnerungsnachrichten für Projekte konfigurieren, damit dieses Feld bei der Bearbeitung einer Vorlage angezeigt wird. <br>Weitere Informationen zum Konfigurieren von Erinnerungsnachrichten finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Einrichten von Erinnerungsnachrichten</a>.</td> 
-   </tr>
-   <tr> 
-   <td role="rowheader"><strong>Genehmigungsprozess</strong> </td> 
-   <td> <p>Wählen Sie den Genehmigungsprozess aus, den Sie mit der Vorlage verknüpfen möchten. Ihr Workfront-Administrator oder ein Benutzer mit administrativem Zugriff auf Genehmigungsprozesse muss Genehmigungsprozesse auf Systemebene oder Gruppenebene definieren, bevor Sie sie mit einer Vorlage verknüpfen können. Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>.</p> <p>Beachten Sie beim Hinzufügen von Genehmigungsprozessen Folgendes: </p> 
-   <ul> 
-   <li>In der Liste werden nur aktive Genehmigungsprozesse angezeigt. </li> 
-   <li> <p>In der Liste werden systemweite und gruppenspezifische Genehmigungsprozesse angezeigt. Ein Genehmigungsprozess, der mit einer anderen Gruppe als der der Vorlage verknüpft ist, wird nicht in der Liste angezeigt.</p> <p><b>WICHTIG</b>
+      <p>Wenn Sie Rechnungsnachweise verwenden und diese Option wählen, werden nur die genehmigten Stunden für das Projekt als verfügbare fakturierbare Stunden für die Rechnungsnachweise angezeigt. </p>
+      <p>Die Genehmigung der Zeit für das Projekt ist unabhängig von der Genehmigung von Arbeitszeittabellen. Weitere Informationen dazu, wie viel Zeit für die Genehmigung eines Projekts benötigt wird, finden Sie unter <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Zeit für die Genehmigung eines Projekts benötigen</a>.</p>
+      </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Stundentyp filtern</strong> </td> 
+      <td> <p>Beachten Sie Folgendes:</p> <p>Wählen <strong>Nein</strong>, um alle projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>Oder</p> <p>Wählen Sie <strong>Ja</strong>, um nur einen Teil der projektspezifischen Stundentypen für das zukünftige Projekt verfügbar zu machen, und wählen Sie dann die Stundentypen aus, die Sie verfügbar machen möchten. (Halten Sie die Umschalttaste gedrückt, um mehrere Stundentypen auszuwählen.)</p> <p>Wenn Sie diese Option wählen, stehen nur die ausgewählten Stundentypen zur Auswahl, wenn Stunden für das Projekt (oder für Aufgaben und Probleme innerhalb des Projekts) protokolliert werden. Es muss mindestens ein Stundentyp ausgewählt werden. Wenn Sie diese Option auswählen und keine Stundentypen auswählen, werden alle Stundentypen für das Projekt verfügbar gemacht.</p> <p>Die Auswahl desselben Stundentyps muss auf der Ebene der einzelnen Benutzenden erfolgen, damit diese Optionen für den Stundentyp im Projekt angezeigt werden. </p> <p>Weitere Informationen zur Definition von Stundentypen auf Benutzerebene finden Sie im Abschnitt <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Protokollzeit</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Protokollzeit</a>.</p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Erinnerungsnachricht</strong> </td> 
+      <td>Wählen Sie die Erinnerungsnachricht aus, die mit dem zukünftigen Projekt verknüpft werden soll. Sie müssen Erinnerungsnachrichten für Projekte konfigurieren, damit dieses Feld bei der Bearbeitung einer Vorlage angezeigt wird. <br>Weitere Informationen zum Konfigurieren von Erinnerungsnachrichten finden Sie unter <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Einrichten von Erinnerungsnachrichten</a>.</td> 
+      </tr>
+      <tr> 
+      <td role="rowheader"><strong>Genehmigungsprozess</strong> </td> 
+      <td> <p>Wählen Sie den Genehmigungsprozess aus, den Sie mit der Vorlage verknüpfen möchten. Ihr Workfront-Administrator oder ein Benutzer mit administrativem Zugriff auf Genehmigungsprozesse muss Genehmigungsprozesse auf Systemebene oder Gruppenebene definieren, bevor Sie sie mit einer Vorlage verknüpfen können. Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>.</p> <p>Beachten Sie beim Hinzufügen von Genehmigungsprozessen Folgendes: </p> 
+      <ul> 
+      <li>In der Liste werden nur aktive Genehmigungsprozesse angezeigt. </li> 
+      <li> <p>In der Liste werden systemweite und gruppenspezifische Genehmigungsprozesse angezeigt. Ein Genehmigungsprozess, der mit einer anderen Gruppe als der der Vorlage verknüpft ist, wird nicht in der Liste angezeigt.</p> <p><b>WICHTIG</b>
 
    Wenn sich die mit der Vorlage verknüpfte Gruppe ändert, wird der gruppenspezifische Genehmigungsprozess zu einem einmaligen Genehmigungsprozess. Weitere Informationen darüber, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Genehmigungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Wie sich Änderungen an Gruppen- und Genehmigungsprozessen auf zugewiesene Genehmigungsprozesse auswirken</a>. </p> </li>
    <li> <p>Wenn Sie einen Genehmigungsprozess für den einmaligen Gebrauch hinzugefügt haben, wird er in diesem Feld als „Benutzerdefiniert“ angezeigt. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit</a>. </p> 
@@ -546,7 +546,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -667,7 +667,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 
