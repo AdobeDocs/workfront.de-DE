@@ -6,10 +6,10 @@ description: Sie können Details zur Version des Adobe Workfront-Add-Ins für Ou
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+>[Microsoft hat die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) deaktiviert, die vom Workfront Outlook-Add-in zur Authentifizierung verwendet wurden. Diese Änderung durch Microsoft wurde schrittweise eingeführt und ist zum 1. Oktober 2025 abgeschlossen.
 >
->* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
->
->Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+>**Da Microsoft diese Token deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
 Sie können Details zur Version des [!DNL Adobe Workfront]-Add-Ins für [!DNL Outlook] anzeigen, direkt zur Web-Version navigieren, Feedback senden oder sich abmelden.
 

@@ -6,22 +6,21 @@ description: Sie können E-Mails in  [!DNL Adobe Workfront]  oder Probleme konve
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer [!DNL Outlook] E-Mail zu einem Projekt als Aufgabe oder Problem
 
+
 >[!IMPORTANT]
 >
->[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+>[Microsoft hat die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) deaktiviert, die vom Workfront Outlook-Add-in zur Authentifizierung verwendet wurden. Diese Änderung durch Microsoft wurde schrittweise eingeführt und ist zum 1. Oktober 2025 abgeschlossen.
 >
->* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
->
->Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+>**Da Microsoft diese Token deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
 Sie können E-Mails in [!DNL Adobe Workfront] Aufgaben oder Probleme konvertieren. Nachdem eine E-Mail konvertiert wurde, wird die Aufgabe oder das Problem in dem Projekt angezeigt, das beim Konvertieren ausgewählt wurde.
 
@@ -93,7 +92,7 @@ Ihr [!DNL Workfront] muss [!DNL Outlook for Office] mit [!DNL Workfront] aktivie
       </tr>
       <tr>
         <td>[!UICONTROL Anlagen]</td>
-        <td>Alle E-Mail-Anhänge werden im Bereich [!UICONTROL -Dokumente] der Aufgabe oder des Problems gespeichert. Sie können alle Anhänge löschen, bevor Sie die E-Mail als Aufgabe oder Problem speichern.</td>
+        <td>Alle E-Mail-Anhänge werden im Bereich [!UICONTROL-Dokumente] der Aufgabe oder des Problems gespeichert. Sie können alle Anhänge löschen, bevor Sie die E-Mail als Aufgabe oder Problem speichern.</td>
       </tr>
    </table>
 

@@ -6,10 +6,10 @@ description: Mit  [!DNL Adobe Workfront] [!DNL Outlook] Add-In können Sie die w
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 0%
+source-wordcount: '735'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+>[Microsoft hat die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) deaktiviert, die vom Workfront Outlook-Add-in zur Authentifizierung verwendet wurden. Diese Änderung durch Microsoft wurde schrittweise eingeführt und ist zum 1. Oktober 2025 abgeschlossen.
 >
->* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
->
->Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+>**Da Microsoft diese Token deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
 Mit dem Add-in [!DNL Adobe Workfront] [!DNL Outlook] können Sie die folgenden wichtigen [!DNL Workfront] direkt in Outlook ausführen:
 
@@ -110,7 +108,7 @@ Die E-Mail-Server-Anforderungen werden standardmäßig erfüllt, wenn Sie eine V
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* Um über den [[!DNL Office] Store](https://store.office.com/) auf das [!DNL Workfront]-Add-in zugreifen zu können, müssen Ihre Clientzugriffsserver mit [https://store.office.com kommunizieren ](https://store.office.com/).
+* Um über den [!DNL Workfront]Store[[!DNL Office]  auf das ](https://store.office.com/)-Add-in zugreifen zu können, müssen Ihre Clientzugriffsserver mit [https://store.office.com kommunizieren ](https://store.office.com/).
 
 Weitere Informationen zu unterstützten Umgebungen finden Sie auf der [[!DNL Microsoft Office 365] Startseite](https://products.office.com/en-us/office-365-home).
 
@@ -118,7 +116,7 @@ Weitere Informationen zu unterstützten Umgebungen finden Sie auf der [[!DNL Mic
 
 Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
-### [!DNL Workfront] für [!DNL Outlook 365] {#workfront-for-outlook-365}
+### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 
 1. Klicken Sie [!DNL Outlook 365] oben in der Office 365 **[!UICONTROL Benutzeroberfläche auf das Symbol]** Add-Ins durchsuchen![ ](assets/outlook-add-in-26x26.png) und anschließend auf **[!UICONTROL Add-Ins verwalten]**.
 
@@ -129,11 +127,11 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 ### [!DNL Workfront] für [!DNL Outlook] im Web {#workfront-for-outlook-on-the-web}
 
 1. Öffnen Sie [!DNL Microsoft Outlook] in einem Webbrowser.
-1. Klicken Sie auf **[!UICONTROL Symbol &#x200B;]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
+1. Klicken Sie auf **[!UICONTROL Symbol ]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
 
    Informationen zum Auffinden des Symbols finden Sie unter [Verwenden von Add [!DNL Outlook] Ins im Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in der Dokumentation zu Microsoft.
 
-1. Suchen Sie im Feld **[!UICONTROL Add-Ins suchen]** nach **[!DNL Workfront]** und drücken Sie dann die **[!UICONTROL Eingabetaste]**.
+1. Suchen Sie im Feld **[!DNL Workfront]** Add-Ins suchen **[!UICONTROL nach]** und drücken Sie dann die **[!UICONTROL Eingabetaste]**.
 
 1. Wenn es in der Liste angezeigt wird, klicken Sie auf **Hinzufügen**.
 

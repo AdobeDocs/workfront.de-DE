@@ -6,22 +6,22 @@ description: Sie können eine - [!DNL Adobe Workfront]  aus einer E-Mail in Outl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer [!DNL Adobe Workfront]-Anfrage aus einer [!UICONTROL Outlook]-E-Mail
 
+
+
 >[!IMPORTANT]
 >
->[Microsoft deaktiviert die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), die derzeit vom Workfront Outlook-Add-in zur Authentifizierung verwendet werden. Diese Änderung durch Microsoft hat bereits Auswirkungen auf Kunden und wird bis Oktober 2025 schrittweise eingeführt.
+>[Microsoft hat die Unterstützung für veraltete Exchange Online-Token](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) deaktiviert, die vom Workfront Outlook-Add-in zur Authentifizierung verwendet wurden. Diese Änderung durch Microsoft wurde schrittweise eingeführt und ist zum 1. Oktober 2025 abgeschlossen.
 >
->* **Nachdem Microsoft diese Token vollständig deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
->
->Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni** können Administratoren Token nicht mehr selbst erneut aktivieren - nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
+>**Da Microsoft diese Token deaktiviert hat, funktioniert die Integration von Workfront für Microsoft Outlook nicht mehr.**
 
 Sie können in Outlook eine [!DNL Adobe Workfront] Anfrage aus einer E-Mail erstellen.
 
