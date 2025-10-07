@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,6 @@ Weitere Informationen zum Konfigurieren der Layout-Vorlage finden Sie unter [Ers
 
 Sie können Workfront von Outlook für Office 365 aus verwenden, wie in den folgenden Abschnitten beschrieben:
 
-* [Einrichten von Adobe Workfront für Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * „Aktualisieren eines vorhandenen Elements aus einer E-Mail mit Outlook 365“
 
 ## Spalten in einer beliebigen Liste per Drag-and-Drop neu anordnen
@@ -98,4 +97,4 @@ Vor dieser Änderung konnten Sie nur Gruppen Zugriff gewähren.
 
 **Add-on zum Download verfügbar: April 2016**
 
-Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht das Speichern und Exportieren von auf der Creative Cloud erstellten Assets in Workfront und beschleunigt so den Genehmigungs- und Überprüfungsprozess.
+Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht Ihnen das Speichern und Exportieren von in der Creative Cloud erstellten Assets in Workfront und beschleunigt so den Genehmigungs- und Überprüfungsprozess.

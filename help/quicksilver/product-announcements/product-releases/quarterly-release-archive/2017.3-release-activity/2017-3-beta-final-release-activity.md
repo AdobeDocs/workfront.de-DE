@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -268,7 +268,7 @@ Dies ist die Standardrolle, der Benutzende in einem Korrekturabzug zugewiesen we
 ## Proofing-Verbesserungen in Workfront Proof und Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
 * [Neustart und Überspringen im HTML5-Video-Proofing-Viewer (Tastaturbefehle)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
-* [HTML5 Proofing Viewer-Updates](#html5-proofing-viewer-updates)
+* [HTML5 Proofing Viewer-Aktualisierungen](#html5-proofing-viewer-updates)
 
 ### Neustart und Überspringen im HTML5-Video-Proofing-Viewer (Tastaturbefehle) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
@@ -276,13 +276,13 @@ Im HTML5 Proofing Viewer stehen jetzt Tastaturbefehle für Videos zur Verfügung
 
 Weitere Informationen zu den verfügbaren Tastaturbefehlen finden Sie unter [Tastaturbefehle im Workfront Proof Proofing Viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
-### HTML5 Proofing Viewer-Updates {#html5-proofing-viewer-updates}
+### HTML5 Proofing Viewer-Aktualisierungen {#html5-proofing-viewer-updates}
 
 Der HTML5-Viewer unterstützt jetzt statische Korrekturabzüge.
 
 Vor dieser Änderung unterstützte der HTML5-Viewer nur Videoabzüge. 
 
-Der HTML-Viewer enthält die folgenden neuen Funktionen beim Testen von statischen Inhalten:
+Der HTML-Viewer bietet beim Testen von statischen Inhalten die folgenden neuen Funktionen:
 
 * Erstellen eines einzelnen Kommentars mit Markierungen auf mehreren Seiten in einer einzigen Ansicht
 
@@ -297,7 +297,7 @@ Der HTML-Viewer enthält die folgenden neuen Funktionen beim Testen von statisch
 * Angeben benutzerdefinierter Werte im Messwerkzeug
 * Wenn Sie in Workfront Proof in einem Korrekturabzug im Proofing Viewer Anmerkungen zu Texten vornehmen, können Sie Optionen zum Angeben einschließen, dass der Text fett, kursiv und unterstrichen dargestellt werden soll.
 
-Der HTML5-Viewer unterstützt noch nicht alle Funktionen, die derzeit im bestehenden Flash-Viewer verfügbar sind. Die folgende Funktion ist derzeit nicht verfügbar, wird aber in eine zukünftige Version aufgenommen:
+Der HTML5-Viewer unterstützt noch nicht alle Funktionen, die derzeit im vorhandenen Flash-Viewer verfügbar sind. Die folgende Funktion ist derzeit nicht verfügbar, wird aber in eine zukünftige Version aufgenommen:
 
 * Unterstützung von Rich-Media-Dateien
 * Vergleichsmodus (Video und statisch)
@@ -309,7 +309,7 @@ Der HTML5-Viewer unterstützt noch nicht alle Funktionen, die derzeit im bestehe
 
 Weitere Informationen zu statischen Korrekturabzügen im HTML5-Viewer finden Sie unter .
 
-Als Workfront-Administrator in Workfront Proof können Sie festlegen, ob Benutzende in Ihrem Unternehmen Zugriff auf den neuen HTML5-Proofing-Viewer für Videoprüfungen haben.
+Als Workfront-Administrator in Workfront Proof können Sie festlegen, ob Benutzende in Ihrem Unternehmen Zugriff auf den neuen HTML5 Proofing Viewer für Videoprüfungen haben.
 
 ## Neues Gantt-Diagramm neu gestalten {#new-gantt-chart-redesign}
 
@@ -427,13 +427,13 @@ Wir haben die Möglichkeit hinzugefügt, über die Workfront Mobile App auf Ihre
 
 Sie können diese Funktion installieren, wenn Sie Ihre Workfront Mobile App aktualisieren. Das Update wird im November 2017 sowohl in den Apple- als auch in den Android Mobile-Stores verfügbar sein.
 
-## Workfront-Integration mit Slack {#workfront-integration-with-slack}
+## Integration von Workfront mit Slack {#workfront-integration-with-slack}
 
 >[!NOTE]
 >
 >Die Slack-Integration ist derzeit nicht verfügbar. Sie wird ab November 2017 in Ihrer Produktionsumgebung verfügbar sein.
 
-Wir starten eine neue Integration zwischen Workfront und Slack. Wenn Ihr Unternehmen bereits Slack für Ihre Kommunikation verwendet hat, können Sie es jetzt in Workfront integrieren und gängige Workfront-Aktionen durchführen, ohne Ihre Kommunikationskanäle in Slack zu belassen. Sie können jetzt über Ihr Slack-Konto die folgenden Aktionen ausführen:
+Wir starten eine neue Integration zwischen Workfront und Slack. Wenn Ihr Unternehmen bereits Slack für Ihre Kommunikation verwendet hat, können Sie es jetzt in Workfront integrieren und gängige Workfront-Aktionen durchführen, ohne Ihre Kommunikationskanäle in Slack verlassen zu müssen. Sie können jetzt über Ihr Slack-Konto die folgenden Aktionen ausführen:
 
 * Suchen nach einem Element in Workfront
 * Zugriff auf Ihre Arbeits- und Genehmigungslisten
@@ -444,7 +444,7 @@ Wir starten eine neue Integration zwischen Workfront und Slack. Wenn Ihr Unterne
 * Genehmigen Ihrer Arbeit
 * Zugreifen auf Favoriten und die Listen der letzten Elemente
 
-Weitere Informationen zum Zugriff auf Workfront von Slack aus finden Sie unter [Verwenden von Workfront mit Slack.](https://support.workfront.com/hc/en-us/sections/115000458033)
+Weitere Informationen zum Zugriff auf Workfront über Slack finden Sie unter [Verwenden von Workfront mit Slack.](https://support.workfront.com/hc/en-us/sections/115000458033)
 
 ## Outlook 365 - Verbesserungen {#outlook-365-improvements}
 
@@ -452,8 +452,6 @@ Wir haben folgende Verbesserungen am Workfront-Add-in für vorgenommen  Outlook
 
 * Aufgabe oder Problem zu einem Projekt in Workfront hinzufügen: Sie können jetzt mithilfe des Outlook 365-Add-ins eine E-Mail in eine Aufgabe oder ein Problem in Workfront konvertieren. In diesem Prozess können Sie ein Projekt, dem die Aufgabe oder das Problem hinzugefügt werden soll, sowie einen Bevollmächtigten und ein Fälligkeitsdatum angeben. Vor dieser Verbesserung konnten Sie nur eine Anfrage an eine Anfrage-Warteschlange senden oder eine persönliche Aufgabe aus Outlook 365 zu Ihrer Arbeitsliste hinzufügen. 
 * Beibehalten eines Links zu Workfront-Objekten in der ursprünglichen E-Mail, die in Aufgaben, Probleme oder Anfragen konvertiert wurde: Wenn Sie eine E-Mail von Outlook 365 in eine Aufgabe, ein Problem oder eine Anfrage konvertieren, behält Outlook 365 einen Link zu der Aufgabe oder dem Problem bei, die bzw. das aus dieser E-Mail in der ursprünglichen E-Mail konvertiert wurde. Vor dieser Änderung gab es in Outlook keinen Hinweis darauf, ob eine E-Mail in eine Aufgabe konvertiert oder als Anfrage gesendet wurde. 
-
-  Weitere Informationen zum Konvertieren einer E-Mail in eine Aufgabe oder ein Problem aus Outlook 365 finden Sie unter [Hinzufügen einer Outlook-E-Mail zu einem Projekt als Aufgabe oder Problem](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 ## API-Änderungen {#api-changes}
 

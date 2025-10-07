@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2790'
 ht-degree: 1%
 
 ---
@@ -369,12 +369,6 @@ Der Textkörper der E-Mail wird als Anfragebeschreibung hinzugefügt.
 >Die HTML-Formatierung wird entfernt, wenn die Anfrage in Workfront eingeht, aber Signaturen und vorhandene Inhalte im Antwort-an-Thread werden nicht entfernt und erscheinen in der Anfragebeschreibung.
 
 Informationen zum Aktivieren einer Anfrage-Warteschlange für den Empfang von Anfragen per E-Mail finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anfrage-Warteschlangen-Projekt senden](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
-
-## Erstellen von Anfragen mit dem Outlook-Client
-
-Sie können Anfragen mithilfe des Outlook-Clients senden. Sie können eine neue Anfrage erstellen oder eine E-Mail in eine Anfrage konvertieren.
-
-Informationen zum Senden von Anfragen mit dem Outlook-Client finden Sie im Artikel [Erstellen einer Adobe Workfront-Anfrage aus einer Outlook-E-Mail](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Erstellen von Anfragen mit der Workfront Mobile App
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 6%
+source-wordcount: '818'
+ht-degree: 7%
 
 ---
 
@@ -99,7 +99,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Benutzer dürfen die mobilen Anwendungen von Workfront und das Workfront Outlook-Add-in verwenden</td> 
-      <td> <p>Ermöglicht Benutzenden den Zugriff auf die mobilen Apps (Workfront View für iPad und Apps für Mobiltelefone) und die Workfront Outlook-App.</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> <p>Weitere Informationen zum Outlook-Plug-in finden Sie unter <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Einrichten von Adobe Workfront für Outlook</a>.</p> </td> 
+      <td> <p>Ermöglicht Benutzenden den Zugriff auf die mobilen Apps (Workfront View für iPad und Apps für Mobiltelefone) und die Workfront Outlook-App.</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mit Personen ohne Workfront-Konto über E-Mail-Adressen zusammenarbeiten</p> </td> 
@@ -140,7 +140,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td><span class="preview">Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Opt-in für KI-Beta-Versionen </span></td> 
+      <td role="rowheader"><span class="preview">Opt-in für KI-Betaversionen </span></td> 
       <td><span class="preview">Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</span></td> 
      </tr>
      <tr> 

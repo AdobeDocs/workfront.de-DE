@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1559312e-2e51-4075-b9a9-923211abd125
-source-git-commit: c69a855e189863852ab7eaecc5c4f791564cd8f4
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,3 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2024-Ve
 >Vorschau-Version: 6. August 2024; Produktionsversion: 6. August 2024
 
 Die Integration der Anmeldung für Outlook wurde optimiert, sodass alle Kunden dieselbe Schaltfläche für die Anmeldung bei Workfront sehen, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte unterscheiden sich zwischen IMS- und Nicht-IMS-Instanzen, aber die Anfangsseite ist für alle Benutzer gleich.
-
-Weitere Informationen finden Sie unter [Einrichten von Adobe Workfront für Outlook](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
