@@ -6,7 +6,7 @@ description: Sie können den Workload-Balancer für andere Benutzende freigeben,
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -130,10 +130,10 @@ Sie benötigen den folgenden Zugriff, um Informationen im Workload Balancer übe
 1. Führen Sie einen der folgenden Schritte aus, um den Link für andere freizugeben:
 
    * Fügen Sie sie in eine E-Mail, Chat-Nachricht oder eine andere Anwendung ein und teilen Sie diese mit anderen Benutzern.
-   * Fügen Sie ihn einem benutzerdefinierten Abschnitt als externe Seite hinzu, fügen Sie den benutzerdefinierten Abschnitt dem Profil eines Benutzers oder einer Layout-Vorlage hinzu und geben Sie die Layout-Vorlage dann für Benutzer, Teams, Aufgabengebiete oder Gruppen frei.
+   * Fügen Sie es einem Dashboard als externe Seite hinzu, fügen Sie das Dashboard dem Profil eines Benutzers oder einer Layout-Vorlage hinzu und geben Sie die Layout-Vorlage dann für Benutzer, Teams, Aufgabengebiete oder Gruppen frei.
 
-     Informationen zum Erstellen einer externen Seite finden Sie unter [Externe Web-Seite in ein Dashboard einbetten](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Informationen zum Hinzufügen benutzerdefinierter Abschnitte zu einer Layout-Vorlage finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Informationen zum Erstellen einer externen Seite finden Sie unter [Externe Web-Seite in ein Dashboard einbetten](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Informationen zum Hinzufügen von Dashboards zu einer Layout-Vorlage finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Wenn Sie den Workload-Balancer zum benutzerdefinierten Abschnitt eines -Objekts hinzufügen, werden die Informationen im Workload-Balancer nicht nach dem -Objekt gefiltert. Der Workload Balancer zeigt die Informationen an, die von den ursprünglich angewendeten Filtern gefiltert wurden.
+     >Wenn Sie den Workload-Balancer als Dashboard zum linken Bedienfeld eines Objekts hinzufügen, werden die Informationen im Workload-Balancer nicht nach dem Objekt gefiltert. Der Workload Balancer zeigt die Informationen an, die von den ursprünglich angewendeten Filtern gefiltert wurden.

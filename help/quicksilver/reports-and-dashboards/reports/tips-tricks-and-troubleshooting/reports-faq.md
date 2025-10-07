@@ -7,9 +7,9 @@ description: Häufig gestellte Fragen zu Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Im Folgenden finden Sie häufig gestellte Fragen zu Berichten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -210,8 +210,7 @@ Weitere Informationen zum Feld **Diesen Bericht mit Zugriffsrechten von:** ausf�
 
 Wenn Sie einen Benutzer löschen, können Sie weiterhin auf alle von ihm erstellten Berichte zugreifen. Dashboards, die den Bericht enthalten, werden jedoch auch gelöscht. Dies bedeutet, dass Sie nicht mehr auf Folgendes zugreifen können:
 
-* Ein Dashboard, das den Bericht enthält
-* Ein benutzerdefinierter Abschnitt, der ein Dashboard des Berichts enthält
+* Ein Dashboard, das den Bericht enthält, einschließlich Dashboards im linken Bereich eines Objekts
 
 Weitere Informationen zu den Auswirkungen des Löschens eines Benutzers finden Sie unter [Löschen von Benutzern](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

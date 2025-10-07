@@ -7,9 +7,9 @@ description: Ein Dashboard bietet schnellen Zugriff auf Informationen. Sie könn
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Sie können ein Dashboard wie folgt für Benutzer freigeben:
 * Freigabe auf individueller Basis.\
   Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Fügen Sie zu einem Bereich oder Objekt in Workfront mit einem benutzerdefinierten Abschnitt ein Dashboard hinzu.\
-  Weitere Informationen zum Erstellen benutzerdefinierter Abschnitte finden Sie unter [Linke Navigation in der Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Ein Dashboard zu einem Bereich oder Objekt in Workfront im linken Bereich hinzufügen.\
+  Weitere Informationen zum Hinzufügen von Dashboards im linken Bereich finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Platzieren Sie die Dashboards in Layout-Vorlagen, die Sie für Benutzende freigeben können.\
   Weitere Informationen zum Freigeben von Dashboards über Layout-Vorlagen finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -108,8 +108,8 @@ Wenn Sie ein Dashboard für Benutzende freigeben, werden alle Berichte, Kalender
 
 Sie können ein Dashboard wie folgt anzeigen:
 
-* Greifen Sie auf den benutzerdefinierten Abschnitt zu, in dem das Dashboard platziert ist.\
-  Weitere Informationen zum Platzieren von Dashboards in benutzerdefinierten Abschnitten finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Greifen Sie über das linke Bedienfeld eines Objekts auf das Dashboard zu.
+Weitere Informationen zum Platzieren von Dashboards im linken Bereich finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Suchen Sie nach dem Dashboard und greifen Sie manuell darauf zu.
 

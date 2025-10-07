@@ -7,10 +7,10 @@ description: Der Workload Balancer steht für mehrere Projekte im Bereich Ressou
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 0%
+source-wordcount: '868'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können den Workload Balancer verwenden, um Ressourcen für Arbeiten zu plan
 Sie können auf die folgenden Arten auf den Workload-Balancer zugreifen:
 
 * Aus mehreren von Adobe Workfront vordefinierten Bereichen
-* Durch Hinzufügen zu einem benutzerdefinierten Abschnitt
+* Durch Hinzufügen zum linken Bedienfeld als Dashboard
 
 In diesem Artikel werden die Bereiche beschrieben, in denen Sie auf den Workload Balancer zugreifen können.
 
@@ -162,11 +162,11 @@ Alle Anzeigeeinstellungen sind für den Workload-Balancer für einen Benutzer ve
 
 </div>
 
-## Hinzufügen des Workload Balancer zu einem benutzerdefinierten Abschnitt
+## Hinzufügen des Workload-Balancer zum linken Bedienfeld als Dashboard
 
-Sie können den Workload Balancer zu jedem benutzerdefinierten Abschnitt hinzufügen.
+Sie können den Workload-Balancer als Dashboard zum linken Bedienfeld von Objekten hinzufügen, die die Anpassung ermöglichen.
 
-Die meisten Anpassungen, die Sie bereits auf den Workload Balancer angewendet haben, bleiben beim Hinzufügen zum benutzerdefinierten Abschnitt erhalten.
+Die meisten Anpassungen, die Sie bereits auf den Workload Balancer angewendet haben, bleiben beim Hinzufügen zum linken Bedienfeld erhalten.
 
 1. Greifen Sie auf den Workload Balancer zu, indem Sie einen der folgenden Bereiche aufrufen:
 
@@ -181,15 +181,15 @@ Die meisten Anpassungen, die Sie bereits auf den Workload Balancer angewendet ha
       (NOTE: ensure this stays correct)
       -->
 
-1. Erstellen Sie einen benutzerdefinierten Abschnitt wie in [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) beschrieben, um das Dashboard auf der benutzerdefinierten Registerkarte zu platzieren.
+1. Fügen Sie dem linken Navigationsbereich eines Objekts ein Dashboard hinzu, wie in [Hinzufügen eines Dashboards im linken Bereich eines Workfront-Objekts oder -Bereichs](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) beschrieben, um das Dashboard auf der benutzerdefinierten Registerkarte zu platzieren.
 
-   Wenn Sie über den benutzerdefinierten Abschnitt auf den Workload Balancer zugreifen, können Sie ihn so anzeigen, als ob Sie direkt über einen der in Schritt 1 aufgeführten ursprünglichen Bereiche darauf zugreifen würden.
+   Wenn Sie über das Dashboard auf den Workload Balancer zugreifen, können Sie ihn so anzeigen, als ob Sie direkt über einen der in Schritt 1 aufgeführten ursprünglichen Bereiche darauf zugreifen würden.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Optional) Geben Sie die benutzerdefinierte Registerkarte in einer Layout-Vorlage frei, wie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) beschrieben.
+1. (Optional) Geben Sie das Dashboard in einer Layout-Vorlage frei, wie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) beschrieben.
 
 
 <!--

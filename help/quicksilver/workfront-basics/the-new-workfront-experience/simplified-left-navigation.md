@@ -3,12 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Linke Navigation in [!DNL Adobe Workfront]
 description: Der linke Navigationsbereich in [!DNL Workfront]  erleichtert die Navigation durch das System.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1375'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,15 +67,15 @@ Das linke Bedienfeld ist für die folgenden Objekte verfügbar:
 * Vorlage
 * Vorlagenaufgabe
 * Wiederholung
-* Benutzerin oder Benutzer
+* Benutzerin bzw. Benutzer
 * Team
 * Gruppe
 * Ziel
 
 >[!IMPORTANT]
 >
->Wenn im linken Bereich standardmäßig nur ein Bereich angezeigt wird, z. B. **[!UICONTROL Alle Projekte]** im **[!UICONTROL Projekte]**-Bereich, muss ein [!DNL Workfront]-Administrator diesem Bereich beim Erstellen einer Layout-Vorlage mindestens einen benutzerdefinierten Abschnitt hinzufügen und Sie dieser Vorlage zuweisen, bevor der linke Bereich in diesem Bereich angezeigt wird.\
->Informationen zum Anpassen des linken Bereichs in einer Layout-Vorlage durch einen [!DNL Workfront] finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Wenn im linken Bereich standardmäßig nur ein Bereich angezeigt wird, z. B. **[!UICONTROL Alle Projekte]** im **[!UICONTROL Projekte]**-Bereich, muss ein [!DNL Workfront]-Administrator diesem Bereich beim Erstellen einer Layout-Vorlage mindestens ein Dashboard hinzufügen und Sie dieser Vorlage zuweisen, bevor der linke Bereich in diesem Bereich angezeigt wird.
+>>Informationen zum Anpassen des linken Bereichs in einer Layout-Vorlage durch einen [!DNL Workfront] finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Das linke Bedienfeld ist für die folgenden Bereiche verfügbar:
 
@@ -83,7 +83,7 @@ Das linke Bedienfeld ist für die folgenden Bereiche verfügbar:
 * [Standardabschnitte im Bereich [!UICONTROL Anfragen]](#default-sections-in-the-requests-area)
 * [Standardabschnitte im Bereich [!UICONTROL Ressourcen]](#default-sections-in-the-resourcing-area)
 * [Standardabschnitte im Bereich [!UICONTROL Projekte]](#default-sections-in-the-projects-area)
-* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]](#default-sections-in-the-timesheets-area)
+* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]](#default-sections-in-the-timesheets-area)
 * [Standardabschnitte im  [!DNL Goals] -Bereich](#default-sections-in-the-goals-area)
 
 ### Standardabschnitte im Bereich [!UICONTROL Dashboards]
@@ -163,14 +163,14 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
         <td>Zeigt alle Projekte an, auf die Sie Zugriff haben, um sie anzuzeigen. Verwenden Sie das Dropdown-Menü [!UICONTROL Filter], um zu ändern, welche Projekte Sie anzeigen möchten</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Benutzerdefinierte Abschnitte]</strong></td>
-        <td>Sie können alle benutzerdefinierten Abschnitte anzeigen, die Ihr [!DNL Workfront] zum linken Bereich für den Bereich [!UICONTROL Projects] in Ihrer Layout-Vorlage hinzugefügt hat. Benutzerdefinierte Abschnitte haben Namen, die für Ihre Umgebung angepasst wurden.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>Sie können alle Dashboards anzeigen, die Ihr [!DNL Workfront]-Administrator zum linken Bedienfeld für den Bereich [!UICONTROL Projects] in Ihrer Layout-Vorlage hinzugefügt hat. Diese Dashboards haben Namen, die für Ihre Umgebung angepasst wurden.</td>
     </tr>
 </table>
 
 Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Projekte] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
-### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]
+### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]
 
 Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL Arbeitszeittabellen]** angezeigt:
 
@@ -180,7 +180,7 @@ Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL
         <td>Zeigt standardmäßig alle aktiven Arbeitszeittabellen an. Um übermittelte oder geschlossene Arbeitszeittabellen anzuzeigen, wählen Sie [!UICONTROL Übermittelt] oder [!UICONTROL Alle] aus dem Dropdown-Menü [!UICONTROL Filter] aus.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Von mir genehmigte-Arbeitszeittabellen]</strong></td>
+        <td><strong>[!Von mir genehmigte UICONTROL-Arbeitszeittabellen]</strong></td>
         <td>Zeigt standardmäßig Arbeitszeittabellen an, die zur Genehmigung eingereicht wurden. Um aktive oder alle Arbeitszeittabellen anzuzeigen, bei denen Sie die genehmigende Person sind, wählen Sie [!UICONTROL Active] oder Anwendung aus dem Dropdown-Menü Filter aus.</td>
     </tr>
     <tr>
@@ -239,14 +239,16 @@ Das Suchen und Bearbeiten von Informationen im linken Bereich ist für diese Obj
 
 Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, finden Sie unter [[!UICONTROL Standardabschnitte] im linken Navigationsbereich](#default-sections-in-the-left-navigation-panel).
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![](assets/main-menu-icon-16x12.png) und dann auf den Namen eines Objekts, um darauf zuzugreifen.
+{{step1-click-main-menu}}
+
+1. Klicken Sie auf den Namen eines Objekts, um darauf zuzugreifen.
 
    Die Objektseite wird angezeigt.
 
 1. (Bedingt) Wenn Sie einen Bereich ausgewählt haben, der eine Liste von Objekten enthält, z. B **[!UICONTROL Projekte]** oder **[!UICONTROL Portfolios]**, müssen Sie folgende Schritte ausführen, um auf die Navigation im linken Bereich zuzugreifen:
 
    1. Klicken Sie auf ein Objekt in der Liste.
-   1. (Optional) Im Navigationsbereich auf der linken Seite können Sie ein anderes Objekt, z. B. **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]** innerhalb eines Projekts, im linken Bereich auswählen, um auf eine Liste von Objekten zuzugreifen, und dann auf den Namen des bestimmten Objekts klicken.\
+   1. (Optional) Im Navigationsbereich auf der linken Seite können Sie ein anderes Objekt, z. B. **[!UICONTROL Aufgaben]** oder **[!UICONTROL Probleme]** innerhalb eines Projekts, im linken Bereich auswählen, um auf eine Liste von Objekten zuzugreifen, und dann auf den Namen des bestimmten Objekts klicken.
 
       Die Objektseite wird angezeigt.
 
@@ -254,9 +256,9 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
 
    Sie müssen über Berechtigungen zum Bearbeiten des -Objekts verfügen, bevor Sie die Informationen bearbeiten können.
 
-   ![Abschnitte des linken Bedienfelds](assets/NWE-left-navigation-panel.png)
+   ![Abschnitte des linken Bedienfelds](assets/left-navigation-panel.png)
 
-1. (Optional) Um einen Dashboard-Schnelllink hinzuzufügen, klicken **[!UICONTROL unten]** linken Bereich auf „Dashboard hinzufügen“ und führen Sie dann folgende Schritte aus:
+1. (Optional) Um einen Dashboard-Schnelllink hinzuzufügen, klicken Sie **[!UICONTROL Dashboard hinzufügen]** unten im linken Bedienfeld und führen Sie dann folgende Schritte aus:
 
    1. Geben Sie einen Namen für das Dashboard in das Feld **[!UICONTROL Name des Schnelllinks]** ein.
    1. Geben Sie den Namen eines vorhandenen Dashboards in das Feld **[!UICONTROL Dashboard auswählen]** ein und klicken Sie dann auf das Dashboard, wenn es in der Liste angezeigt wird.
@@ -267,9 +269,9 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
 
 1. (Optional) Um einen Dashboard-Schnelllink zu entfernen, bewegen Sie den Mauszeiger über das Dashboard im linken Navigationsbereich und klicken Sie dann auf das Symbol **Entfernen** ![Entfernen](assets/remove-dashboard-from-left.png), wenn es angezeigt wird.
 
-1. (Optional) Um die Reihenfolge eines Bereichs im linken Bereich zu ändern, klicken Sie auf das **[!UICONTROL Ziehen]**-Symbol ![](assets/drag-icon.png) rechts neben einem Bereich und ziehen Sie ihn nach oben oder unten.
+1. (Optional) Um die Reihenfolge eines Bereichs im linken Bereich zu ändern, klicken Sie auf das **[!UICONTROL Ziehen]**-Symbol ![](assets/drag-icon.png) neben einem Bereich und ziehen Sie ihn nach oben oder unten.
 
-   ![Ziehen eines Abschnitts](assets/drag-section-right.png)
+   ![Ziehen eines Abschnitts](assets/drag-section.png)
 
 1. (Optional) Um den linken Bereich zu schließen, klicken Sie auf das Symbol **[!UICONTROL Reduzieren]** ![](assets/left-panel-collapse-icon.png).
 
