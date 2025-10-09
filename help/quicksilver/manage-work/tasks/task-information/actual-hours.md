@@ -7,9 +7,9 @@ description: Die Stunden, die Sie bei Ihren Arbeitselementen in Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ Je nachdem, aus welchem Bereich von Workfront Sie auf die tatsächlichen Stunden
      >
      >Die Ist-Kosten des Projekts berechnen mithilfe von Legacy-Ist-Stunden.
 
+* Im Bereich Projekt-, Aufgaben- oder Problemdetails können tatsächliche Stunden in den folgenden Feldern angezeigt werden:
 
-* Im Bereich „Projekt-, Aufgaben- oder Problemdetails“:
+   * **Tatsächliche Stunden**: Auf der Registerkarte „Details“ werden diese Stunden für Projekte, Aufgaben oder Probleme nach Mai 2021 protokolliert. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+   * **Tatsächliche Stunden**: In einem Projekt, einer Aufgabe oder einem benutzerdefinierten Formular für ein Problem, wenn der Zugriff über ein benutzerdefiniertes Feld erfolgt, das auf das native Feld für den nativen Feldverweis verweist. Dies sind Stunden, die für Projekte, Aufgaben oder Probleme nach Mai 2021 protokolliert werden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
 
-   * **Tatsächliche Stunden**: Stunden, die für Projekte, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
-   * **Tatsächliche Stunden**: Wenn der Zugriff auf diese Stunden über ein benutzerdefiniertes Feld erfolgt, das in einem Projekt, einer Aufgabe oder einem benutzerdefinierten Formular für ein Problem auf das native Feld verweist.
+>[!NOTE]
+>
+>Es wird empfohlen, das Feld „Tatsächliche Stunden“ zu verwenden, wenn dies möglich ist, da im Feld „Frühere Tatsächliche Stunden“ aufgrund der Art und Weise, wie Inkremente gerundet werden, ungenaue Stunden angezeigt werden können.
 
 ## Tatsächliche Stunden für Aufgaben und Probleme im Vergleich zu tatsächlichen Stunden für Projekte
 
@@ -139,7 +142,7 @@ So zeigen Sie die tatsächlichen Stunden und die veralteten tatsächlichen Stund
 
 1. Klicken Sie auf der **Berichte** auf **Neuer Bericht** und wählen Sie dann **Aufgabe** als Objekt aus.
 1. Klicken Sie unten rechts auf der Seite auf **Spalte hinzufügen**.
-1. Beginnen Sie in **Dropdown-Feld**&#x200B;**In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie in **Dropdown-Feld****In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
 1. Wiederholen Sie den obigen Schritt, um das Feld **Alte tatsächliche Stunden** zum Bericht hinzuzufügen.
 
 1. Klicken Sie unten links auf der Seite auf **Speichern + Schließen** um den Bericht zu speichern.
