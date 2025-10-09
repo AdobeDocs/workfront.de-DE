@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierungen der Benutzeroberfläche im Dialogfeld Benutzer importieren bei Firmen
+
+**Vorschauversion: 9. Oktober 2025; Produktionsversion für alle Kunden: Ab der Woche vom 16. Oktober 2025**
+
+Wir haben das Dialogfeld zum Importieren neuer Benutzer in ein Unternehmen über eine Tabellenkalkulationsdatei aktualisiert, sodass es mit anderen Bereichen des Programms übereinstimmt.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Firmen > Firma auswählen > Firmenmitglieder > Mitglied hinzufügen > Benutzer importieren.
 
 ### Neue Benutzeroberfläche und Funktionen für die Felder Neu und Meilensteinpfad bearbeiten .
 
@@ -56,7 +64,7 @@ Diese Aktualisierung wirkt sich aus auf:
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Schweregrade“ im Setup
 
-**Vorschau-Version: 25. September 2025; Produktionsversion: 9. Oktober 2025**
+**Vorschau-Version: 25. September 2025; Produktionsversion: wird noch bekannt gegeben**
 
 Wir haben die Seite „Schweregrade“ mit einem moderneren Design aktualisiert, das zu anderen Bereichen von Workfront konsistent ist.
 
@@ -68,7 +76,7 @@ Weitere Informationen finden Sie unter [Erstellen oder Anpassen von Problemschwe
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Prioritäten“ im Setup
 
-**Vorschau-Version: 25. September 2025; Produktionsversion: 9. Oktober 2025**
+**Vorschau-Version: 25. September 2025; Produktionsversion: wird noch bekannt gegeben**
 
 Wir haben die Prioritätsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -142,7 +150,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -485,6 +493,11 @@ Sie können das aktualisierte Design anzeigen, indem Sie zu Benutzer wechseln, e
 
 **Vorschau-Version: 25. September 2025; Produktionsversion: 2. Oktober 2025**
 
+>[!NOTE]
+>
+>Diese Funktion wurde am 9. Oktober 2025 vorübergehend aus der Vorschau- und Produktionsumgebung entfernt.
+
+
 Wir haben das Erscheinungsbild des persönlichen Urlaubskalenders aktualisiert, einschließlich der Möglichkeit, Genehmigungen zu delegieren, sodass er mit anderen Bereichen der Anwendung übereinstimmt.
 
 Um diese Änderungen anzuzeigen, gehen Sie zu Ihrem Benutzerprofil und klicken Sie **linken Bereich auf** Auszeit“.
@@ -499,7 +512,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -576,7 +589,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
