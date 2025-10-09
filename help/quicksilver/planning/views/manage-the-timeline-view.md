@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 2%
 
 ---
@@ -196,12 +196,21 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
    * <span class="preview">Doppelklicken Sie auf eine beliebige Stelle in der Zeitleiste, um einen Datensatz zu erstellen. </span>
 
-     <span class="preview">Weitere Informationen finden Sie unter [Erstellen von &#x200B;](/help/quicksilver/planning/records/create-records.md)</span>
+     <span class="preview">Weitere Informationen finden Sie unter [Erstellen von ](/help/quicksilver/planning/records/create-records.md)</span>
+
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
 
    * <span class="preview">Klicken Sie auf den linken oder rechten Rand einer Datensatzleiste und ziehen Sie ihn dann per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- oder Enddatum sofort aktualisiert. </span>
 
    * <span class="preview">Ziehen Sie Datensätze per Drag-and-Drop, um ihre Position und ihr Datum in der Zeitleiste zu aktualisieren. Durch Verschieben der Datensatzbalken wird das Start- und Enddatum sofort aktualisiert.</span>
      <span class="preview">Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> Ändern der Größe und Ziehen und Ablegen von Datensätzen ist in der Zeitleiste für die in der Aufschlüsselung angezeigten Workfront- und AEM Assets-Objekttypen nicht möglich.</span>
+
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
@@ -376,7 +385,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -525,7 +534,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    <div class="preview">

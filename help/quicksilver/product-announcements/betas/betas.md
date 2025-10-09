@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Beta-Programme
-description: Erfahren Sie mehr über die aktuellen Beta-Versionen in Adobe Workfront.
+description: Erfahren Sie mehr über neue Adobe Workfront-Funktionen, die derzeit in einer Beta-Version für alle oder eine begrenzte Anzahl von Kunden verfügbar sind.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
 # Beta-Programme
 
-Die auf dieser Seite verlinkten Artikel beschreiben die aktuellen Beta-Programme, die in Adobe Workfront verfügbar sind. Funktionen, die in der Beta-Version verfügbar sind, stehen möglicherweise nicht allen Kunden zur Verfügung.
+Die auf dieser Seite verlinkten Artikel beschreiben die aktuellen Beta-Programme, die in Adobe Workfront verfügbar sind.
 
-Die folgenden Artikel enthalten Informationen zu Funktionen, die sich derzeit in der Beta-Phase befinden:
+Beta-Programme, die in eingeschränkter Version ausgeführt werden und privat verwaltet werden, sind möglicherweise nicht auf dieser Seite aufgeführt.
 
-* [Beta-Informationen für Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Funktionen, die in der Beta-Version verfügbar sind, stehen möglicherweise nicht allen Kunden zur Verfügung.
+
+Die folgenden Funktionen sind derzeit in der Beta-Version verfügbar:
+
+* Arbeitsflächen-Dashboard
+
+  Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Projektzustand
+
+  Weitere Informationen finden Sie unter [Projektdiagnose - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* In: The Workfront AI Reviewer
+Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 <!--

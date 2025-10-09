@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 2%
+source-wordcount: '1308'
+ht-degree: 1%
 
 ---
 
@@ -217,6 +217,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    <span class="preview">![Ansichtsfeld erstellen](assets/create-view-box.png)</span>
 
+1. <span class="preview">Um eine vorhandene Ansicht zu bearbeiten, geben Sie den Namen einer Ansicht in das Feld **Suche** ein und drücken Sie die Eingabetaste auf der Tastatur.</span>
 1. <span class="preview">Ziehen Sie aus dem Dropdown-Menü Ansicht die Ansichten per Drag-and-Drop in die gewünschte Reihenfolge.</span>
 
    <span class="preview">![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)</span>

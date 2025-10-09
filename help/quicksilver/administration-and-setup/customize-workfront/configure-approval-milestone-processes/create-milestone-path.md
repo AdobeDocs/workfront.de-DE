@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 3%
+source-wordcount: '820'
+ht-degree: 4%
 
 ---
 
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Als Adobe Workfront-Administrator können Sie Meilensteinpfade erstellen, die dann auf jedes Projekt im System angewendet werden können. Die Änderungen an Meilensteinpfaden in diesem Bereich wirken sich auf das gesamte Workfront-System aus.
 
@@ -85,13 +85,9 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
 1. Klicken Sie **Prozesse** > **Meilensteinpfade**.
 1. Klicken Sie auf **Neuer Meilensteinpfad.**
 
-   <div class="preview">
-
    Das Feld Neuer Meilensteinpfad wird geöffnet.
 
    ![Feld „Neuer Meilensteinpfad“](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. Klicken Sie **linken** auf „Grundlegende Informationen“.
 
@@ -118,8 +114,7 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
 
 1. Klicken Sie **linken** auf „Meilensteine“.
 
-1. Klicken Sie in der Produktionsumgebung auf **Meilenstein hinzufügen**, um dem Pfad Meilensteine hinzuzufügen.
-   <span class="preview">Klicken Sie in der Vorschau-Umgebung auf **Neue Zeile**, um dem Pfad Meilensteine hinzuzufügen.</span>
+1. Klicken Sie auf **Neue Zeile**, um dem Pfad Meilensteine hinzuzufügen.
 1. Aktualisieren Sie die folgenden Informationen:
 
    <table style="table-layout:auto"> 
