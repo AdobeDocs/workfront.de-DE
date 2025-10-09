@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 >[!NOTE]
 >
 >Vorschau: 2. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 15. Oktober 2025
->&#x200B;>Produktion für alle: 16. Oktober 2025
+>>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>>Produktion für alle: 16. Oktober 2025
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten im Bereich Anfragen zu erstellen und zu speichern. Jetzt können Sie eine Ansicht, einschließlich Filtern und Spaltenkonfigurationen, speichern und zwischen Ansichten wechseln. Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
@@ -71,7 +71,7 @@ Dieses Update enthält auch Änderungen am Erscheinungsbild der Seite.
 Beachten Sie bei der Verwendung des neuen Erlebnisses Anfordern Folgendes:
 
 * Entwürfe sind derzeit nur in der Legacy-Anfrage zu finden. In der neuen -Version können Sie Entwürfe nur dann in einer Workflow-Warteschlange sehen, wenn sich ein Entwurf im selben Pfad befindet.
-* Die neue -Version zeigt derzeit nur Anfragen an, die in den letzten 1,5 Monaten erstellt wurden. Um ältere Anfragen anzuzeigen, können Sie das neue Erlebnis vorübergehend deaktivieren und über das alte Erlebnis auf die älteren Anfragen zugreifen.
+* In der neuen -Version werden derzeit nur Anfragen angezeigt, die nach Juli 2025 erstellt wurden. Um ältere Anfragen anzuzeigen, können Sie das neue Erlebnis vorübergehend deaktivieren und über das alte Erlebnis auf die älteren Anfragen zugreifen.
 
 Zuvor befanden sich Workfront- und Workfront-Planungsanfragen auf separaten Registerkarten, und die Filter konnten nicht angepasst werden.
 
