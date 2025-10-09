@@ -6,16 +6,16 @@ description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgab
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
+source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
 
-{{highlighted-preview}}
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
 
 Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 
