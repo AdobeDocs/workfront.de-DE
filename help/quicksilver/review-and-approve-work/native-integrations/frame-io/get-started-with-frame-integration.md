@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: a3edfadc447a763c638cc926b386272890697f81
+source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io]
 
 Die Integration von Workfront und Frame.io muss in Ihrer Workfront-Instanz eingerichtet sein. Weitere Informationen finden Sie unter [Übersicht über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
 
-<!--## Integration requirements
+## Integrationsanforderungen
 
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Workfront und Frame.io müssen in derselben Identity Management System (IMS)-Organisation bereitgestellt werden.
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* Benutzende können nur zu einer Workfront-Instanz innerhalb der IMS-Organisation gehören.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* Die Workfront-Instanz muss im einheitlichen Adobe Experience Manager- und Adobe Enterprise-Speicher aktiviert werden.
 
-* The integration is configured by Adobe Professional Services. -->
+* Die Integration muss von Adobe Professional Services konfiguriert werden.
 
 ## Arbeitsaufnahme und -planung in Workfront
 
@@ -110,7 +110,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 

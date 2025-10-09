@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ Die Integration von Workfront und Frame.io ermöglicht es Projektkoordinatoren, 
 
 ## Integrationsanforderungen
 
-Für die Integration von Workfront und Frame.io muss Adobe Professional Services aktiviert sein.
+* Workfront und Frame.io müssen in derselben Identity Management System (IMS)-Organisation bereitgestellt werden.
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Benutzende können nur zu einer Workfront-Instanz innerhalb der IMS-Organisation gehören.
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* Die Workfront-Instanz muss im einheitlichen Adobe Experience Manager- und Adobe Enterprise-Speicher aktiviert werden.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* Die Integration muss von Adobe Professional Services konfiguriert werden.
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## Auf Adobe Enterprise Storage aufbauend
 
@@ -39,7 +36,7 @@ Kernstück dieser Integration ist Adobe Enterprise Storage, eine Cloud-basierte 
 Zu den wichtigsten Vorteilen von Adobe Enterprise Storage gehören:
 
 * Unified Storage Layer für das Kreativ- und Arbeits-Management von Assets
-* Zentralisierte Berechtigungen über Adobe IMS für eine sichere Zugriffskontrolle
+* Zentralisierte Berechtigungen über das Adobe Identity Management System (IMS) für eine sichere Zugriffskontrolle
 * End-to-End-Asset-Sichtbarkeit in Workfront- und Frame.io-<!--, and Creative Cloud apps -->
 * Skalierbares Speicher- und Kontingent-Management für Unternehmensanforderungen
 
@@ -80,7 +77,7 @@ Diese Beschränkung gilt nicht für Frame.io Enterprise-Kunden.
 
 #### Unterstützte Dateitypen im Frame.io-Viewer
 
-Der Frame.io-Viewer unterstützt alle gängigen Video-, Bild-, Audio-, PDF- und MS® Office-Typen. Eine detaillierte Liste der unterstützten Dateien finden Sie unter [Typen in Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+Der Frame.io-Viewer unterstützt alle gängigen Video-, Bild-, Audio-, PDF- und MS® Office-Typen. Eine detaillierte Liste der unterstützten Dateien finden Sie unter [Unterstützte Dateitypen auf Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Zugriff und Lizenzierung für den Frame.io-Viewer
 
@@ -98,11 +95,13 @@ Weitere Informationen zum Verwalten von Projekten in Workfront finden Sie [Proje
 
 ### Erzwungene Struktur- und Namenskonventionen
 
-Da diese Integration mithilfe von ESM erstellt wird, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
+Da diese Integration mit Adobe Enterprise Storage erstellt wird, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
 
 * Objektnamen müssen eindeutig sein und können nicht dupliziert werden
-* ESM erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur
+* Der Adobe Enterprise-Speicher erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur
 * Dokumente können nicht denselben Namen haben, wenn sie zum selben Projekt gehören
+* Dokumentnamen dürfen keines der folgenden Sonderzeichen enthalten: \ / : * ? &quot; | &lt; >
+* Dokumentnamen sind auf maximal 255 Zeichen beschränkt
 
 Unter Berücksichtigung dieser Einschränkungen benennt Workfront Objekte oder Dokumente automatisch nach Bedarf um, um Konflikte zu vermeiden.
 
