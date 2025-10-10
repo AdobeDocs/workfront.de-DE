@@ -5,9 +5,9 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Um den KI-Assistenten und die Projektdiagnose für Ihre Organisation zu aktivier
 * Das einheitliche Adobe-Erlebnis muss aktiviert sein.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 * Der Workfront-Administrator muss den KI-Assistenten für Benutzende in Ihrer Organisation aktivieren. Der KI-Assistent wird über Zugriffsebenen aktiviert.
-* Die Optionen KI aktivieren und Projektdiagnose müssen im Abschnitt KI-Voreinstellungen unter Setup > Voreinstellungen ausgewählt werden.
+* Sowohl die Option KI aktivieren als auch die Option Projektdiagnose müssen im Abschnitt KI-Voreinstellungen unter Setup > System > Voreinstellungen ausgewählt werden.
 
   ![Abschnitt KI-Voreinstellungen](assets/ai-preferences.png)
 
@@ -275,7 +275,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 
