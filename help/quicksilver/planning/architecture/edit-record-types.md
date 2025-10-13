@@ -107,7 +107,7 @@ oder
 
 1. Im Feld **Datensatztyp bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet.
 
-   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ ](assets/edit-record-type-box-appearance-tab.png)
+   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild**:
 
@@ -147,7 +147,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergr
 
 1. Klicken Sie auf **Speichern**.
 
-   Auf der Karte „Datensatztyp“ im Arbeitsbereich wird oben rechts das Symbol „Verbindung ![ anderen Arbeitsbereichen herstellen](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatz jetzt von anderen Arbeitsbereichen aus zugänglich ist.
+   Auf der Karte „Datensatztyp“ im Arbeitsbereich wird oben rechts das Symbol „Verbindung ![&#x200B; anderen Arbeitsbereichen herstellen](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatz jetzt von anderen Arbeitsbereichen aus zugänglich ist.
 
 1. (Optional) Klicken Sie im Arbeitsbereich auf die Karte Datensatztyp , um die Seite des Datensatztyps zu öffnen, und benennen Sie dann den Datensatztyp in der Kopfzeile um.
 

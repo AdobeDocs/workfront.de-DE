@@ -169,7 +169,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
 
 
-1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
@@ -225,7 +225,7 @@ So konfigurieren Sie einen Datensatztyp als verbindbar:
 
    * **Systemweit**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen.
    * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
-1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 

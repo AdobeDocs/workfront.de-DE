@@ -136,7 +136,7 @@ So greifen Sie auf ein Problem zu und zeigen Informationen dazu an:
 * **Stunden**: Zeigt eine Liste der Stundeneinträge für das Problem an.
 * **Genehmigungen:** Zeigt die mit dem Problem verbundenen Genehmigungspfade an.
 
-  Weitere Informationen zum Verknüpfen von Genehmigungen mit einem Problem finden Sie [ Abschnitt „Verknüpfen eines Genehmigungsprozesses mit einem ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)&quot; in [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Weitere Informationen zum Verknüpfen von Genehmigungen mit einem Problem finden Sie [&#x200B; Abschnitt „Verknüpfen eines Genehmigungsprozesses mit einem &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)&quot; in [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Anzeigen, welche Projekte und Aufgaben Probleme aufweisen
 
