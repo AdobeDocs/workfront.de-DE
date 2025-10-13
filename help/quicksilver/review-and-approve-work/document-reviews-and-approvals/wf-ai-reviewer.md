@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,10 @@ Jeder Benutzer kann den KI-Reviewer zu einer Überprüfungs- und Genehmigungsanf
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
+## Beta-Version
+
+Um an der Beta teilzunehmen, gehen Sie zu **Setup** > **Überprüfung und Genehmigung** > **KI-Prüfer** und klicken Sie auf **Bedingungen akzeptieren**.
+
 
 ## Unterstützte Dateitypen {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ Wenn Sie einen nicht unterstützten Dateityp hochladen, wird die Option „KI-Re
 
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio Foundation. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio Foundation. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## KI-Reviewer erstellen
