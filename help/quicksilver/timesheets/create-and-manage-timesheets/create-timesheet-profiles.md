@@ -6,9 +6,9 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 2%
 # Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen
 
 <!--Audited: 06/2025-->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
 
 Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen, die ohne weiteres Eingreifen von Ihnen wiederkehrende Arbeitszeittabellen für Ihre Benutzer generieren. Dies spart Zeit und stellt sicher, dass Folgendes zwischen den Benutzern konsistent ist:
 
@@ -151,15 +149,13 @@ Weitere Informationen zum manuellen Erstellen einer Arbeitszeittabelle finden Si
 
    * **Erinnerungsnachrichten**: Fügen Sie eine Erinnerungsnachricht hinzu. Workfront sendet Benutzern Erinnerungen, damit diese ihre Arbeitszeittabellen ausfüllen oder genehmigen können. Sie müssen Erinnerungsnachrichten erstellen, bevor Sie sie mit einem Arbeitszeittabellen-Profil verknüpfen können.
 
-1. Klicken Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Produktionsumgebung auf die Registerkarte **Personen zuweisen**, um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen. <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen auf Gruppenebene in der Vorschau zum unteren Seitenrand und suchen Sie den Abschnitt **Personen zuweisen**.</span>
-
-   Scrollen Sie beim Erstellen von Arbeitszeittabellen-Profilen für das System nach unten auf der Seite und suchen Sie den Abschnitt **Personen zuweisen**.
+1. Um das Arbeitszeittabellen-Profil bestimmten Benutzenden, Gruppen oder (wenn Sie Workfront-Administrator sind) Teams zuzuordnen, scrollen Sie nach unten auf der Seite und finden Sie den Abschnitt **Personen zuweisen**.
 
    Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [&#x200B; für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils &#x200B;](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
+
+   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [ für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
 
    >[!NOTE]
    >
