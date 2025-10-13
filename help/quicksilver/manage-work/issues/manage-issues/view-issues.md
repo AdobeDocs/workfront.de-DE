@@ -6,14 +6,16 @@ description: Sie können Probleme anzeigen, die mit einem Projekt, einer Aufgabe
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Anfragen anzeigen
+
+<!--Audited: 10/2025-->
 
 Sie können Probleme anzeigen, die mit einem Projekt, einer Aufgabe oder einer Iteration verbunden sind.
 
@@ -138,11 +140,14 @@ So greifen Sie auf ein Problem zu und zeigen Informationen dazu an:
 
 ## Anzeigen, welche Projekte und Aufgaben Probleme aufweisen
 
-Sie können Symbole in der Ansicht eines Projekt- oder Aufgabenberichts oder einer Liste hinzufügen, um anzuzeigen, ob Probleme damit verbunden sind. Das Hinzufügen von Symbolen zur Ansicht eines Berichts oder einer Liste ist bei Projekten und Aufgaben ähnlich.
+Sie können Symbole in der Ansicht eines Projekt- oder Aufgabenberichts oder einer Liste hinzufügen, um anzuzeigen, ob Probleme damit verbunden sind.
+
+Das Hinzufügen von Symbolen zur Ansicht eines Berichts oder einer Liste ist bei Projekten und Aufgaben ähnlich.
 
 So fügen Sie Symbole hinzu, die anzeigen, ob ein Projekt in einem Projektbericht Probleme aufweist:
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Klicken Sie **Reporting** > **Neuer Bericht** > **Projektbericht**.
 1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe **Statussymbole** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
@@ -150,4 +155,4 @@ So fügen Sie Symbole hinzu, die anzeigen, ob ein Projekt in einem Projektberich
 
    Die Problemsymbole werden in den Projekten mit Problemen in der Spalte **Statussymbole** angezeigt.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Projektliste mit Problem-Symbol](assets/project-list-with-issue-icon-350x132.png)

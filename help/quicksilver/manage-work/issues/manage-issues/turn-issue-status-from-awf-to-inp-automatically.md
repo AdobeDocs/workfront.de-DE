@@ -6,28 +6,32 @@ description: Wenn der Primäre Kontaktperson eines Problems das Problem aktualis
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Problemstatus von „Auf Feedback warten“ automatisch auf „In Bearbeitung“ aktualisieren
 
+<!--Audited: 109/2025-->
+
 Wenn der Primäre Kontaktperson eines Problems das Problem aktualisiert, indem entweder ein Feld aktualisiert (einschließlich eines benutzerdefinierten Felds) oder ein Kommentar hinzugefügt wird, wird der Problemstatus automatisch auf „In Bearbeitung“ aktualisiert.
 
-Damit diese automatische Statusänderung erfolgt, ist Folgendes erforderlich:
+Damit diese automatische Statusänderung erfolgt, sind folgende Schritte erforderlich:
 
-* Das Problem muss über eine Anfrage-Warteschlange eingegeben werden.
+* Das Problem muss mithilfe einer Anfrage-Warteschlange hinzugefügt werden.
 
-  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [ Abschnitt „Erstellen und Verwalten ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“. Informationen zum Erstellen von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [ Abschnitt „Erstellen und Verwalten ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
+
+  Informationen zum Senden von Anfragen an eine Anfrage-Warteschlange finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Die Warteschlangendetails in der Anfrage-Warteschlange müssen über die folgenden Einstellungen verfügen:
-   * **Wenn jemand eine Anfrage stellt, wird** automatisch erteilt. ist auf **Contribute-Zugriff eingestellt**
-   * **Status ändern** wird unter „Erweiterte Einstellungen“ ausgewählt
+   * **Wenn jemand eine Anfrage stellt, automatisch gewähren** ist auf **Beitragszugriff** eingestellt
+   * **Status ändern** ist ausgewählt
 
-  ![Warteschlangendetails gewähren Contribute Zugriff, und der Änderungsstatus ist ausgewählt.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![Warteschlangendetails gewähren Beitragszugriff, und der Änderungsstatus ist ausgewählt.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >
