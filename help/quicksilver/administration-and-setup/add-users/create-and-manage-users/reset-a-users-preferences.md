@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -18,6 +18,8 @@ ht-degree: 2%
 # Zurücksetzen der Benutzereinstellungen
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Als Adobe Workfront-Administrator können Sie die Benutzereinstellungen für beliebige Benutzende im Workfront-System zurücksetzen oder entfernen.
 
@@ -69,7 +71,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
  </thead> 
  <tbody> 
   <tr> 
-   <td>Ansichten</td> 
+   <td>Ansichten </td> 
    <td> <p> Auf Systemstandard zurückgesetzt</p> <p>Vorhandene Ansichten werden nicht gelöscht. Sie können sie erneut auswählen.</p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +96,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
   </tr> 
   <tr> 
    <td>Benutzerdefinierte Registerkarten</td> 
-   <td>entfernt</td> 
+   <td>Entfernt</td> 
   </tr> 
   <tr> 
    <td>Benutzerdefinierte globale Navigationsoptionen</td> 
@@ -103,6 +105,17 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## Benutzereinstellungen zurücksetzen
 
 {{step-1-to-setup}}
@@ -110,9 +123,9 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 1. Wählen Sie **Anmelden als** aus.
 1. Geben Sie den Namen des Benutzers ein, dessen Voreinstellungen Sie zurücksetzen möchten, und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 1. Wählen Sie **Anmelden** aus.
-1. Wenn Ihr Unternehmen nicht zum einheitlichen Adobe-Erlebnis hinzugefügt wurde, führen Sie diesen Schritt aus:
+1. Wenn Ihr Unternehmen nicht zum einheitlichen Adobe-Erlebnis hinzugefügt wurde, führen Sie die folgenden Schritte aus:
 
-   * Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `workfront.com` `/resetUser` hinzu.
+   * Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `/resetUser` `workfront.com` hinzu.
 
      >[!NOTE]
      >
@@ -120,9 +133,9 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. Wenn Ihr Unternehmen zum einheitlichen Adobe-Erlebnis hinzugefügt wurde, führen Sie diesen Schritt aus:
+1. Wenn Ihre Organisation in das einheitliche Adobe-Erlebnis integriert wurde, führen Sie diesen Schritt aus:
 
-   * Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `workfront` `/resetUser` hinzu.
+   * Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `/resetUser` `workfront` hinzu.
 
      >[!NOTE]
      >
@@ -133,6 +146,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 1. Drücken Sie **ENTER**.
 1. Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf **Zurücksetzen**.
 
-   Oder
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+Oder
 
-   Um nur benutzerdefinierte Registerkarten zurückzusetzen, wählen Sie **Registerkarten zurücksetzen**.
+Um nur benutzerdefinierte Registerkarten zurückzusetzen, wählen Sie **Registerkarten zurücksetzen**.
