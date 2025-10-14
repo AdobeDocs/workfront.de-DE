@@ -7,9 +7,9 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann genehmigte Ausfa
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
+source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] ist nicht dafür konzipiert, bestehende Systeme zur Verwaltung, Ansammlung und Verfolgung persönlicher Ausfallzeiten zu replizieren oder zu ersetzen.
 
@@ -79,10 +79,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Auszeit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Auszeit aus.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-   ![Persönlicher Urlaubskalender](assets/personal-time-off-calendar-0925.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
 
-   Beispielbild in der Produktionsumgebung:
+   <!--Sample image in the Production environment:-->
    ![Persönlicher Urlaubskalender](assets/personal-time-off-calendar.png)
 
 1. Wählen Sie **[!UICONTROL Den ganzen]** aus, wenn Sie sich einen ganzen Tag freinehmen möchten.
