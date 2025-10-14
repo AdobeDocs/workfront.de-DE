@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # Datensatztypen löschen
 
@@ -32,7 +34,7 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -53,8 +55,8 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
    <td> 
 <p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
 <p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
@@ -92,7 +94,7 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Überlegungen beim Löschen von Datensatztypen
@@ -108,6 +110,21 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 * Der Datensatztyp wird aus allen Benutzern entfernt, die auf den Arbeitsbereich zugreifen.
 * Gelöschte Datensatztypen oder deren Informationen können nicht wiederhergestellt werden.
 * Es wird empfohlen, die Felder und die mit dem Datensatztyp verknüpften Datensätze, die Sie löschen möchten, in einem anderen Datensatztyp neu zu erstellen, bevor Sie sie löschen.
+
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
 
 ## Datensatztypen löschen
 
@@ -127,6 +144,13 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 
    ![Datensatztyp-Bestätigung dauerhaft löschen](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. Geben Sie **Bestätigungsfeld** Löschen“ ein und klicken Sie dann auf **Dauerhaft löschen**. Hierbei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der ausgewählte Datensatztyp wird zusammen mit den zugehörigen Feldern, zugehörigen Datensätzen und Ansichten gelöscht und kann nicht wiederhergestellt werden.
+
+

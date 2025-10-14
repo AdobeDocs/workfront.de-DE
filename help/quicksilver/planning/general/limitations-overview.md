@@ -6,13 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 3%
 
 ---
 
+
+<!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Übersicht über Adobe Workfront Planning-Objektbeschränkungen
 
@@ -49,6 +51,10 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | <span class="preview">Anzahl der Formelfelder für einen Datensatztyp</span> | <span class="preview">20 </span> |
 | <span class="preview">Anzahl der Zeichen in einem Formelfeldausdruck</span> | <span class="preview"> 000 </span> |
 
+
+<!-- Add this after the formula fields limit above:
+
+| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 

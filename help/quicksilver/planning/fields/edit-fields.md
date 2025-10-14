@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # Bearbeiten von Feldeinstellungen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--leave the choice value information in yellow till January 2026-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -116,7 +118,7 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
   >Andere Benutzer werden nicht darüber informiert, dass sich die Feldkonfiguration geändert hat.
 
 * Sie können vorhandene Suchfelder aus verbundenen Datensätzen bearbeiten.
-* Zusätzlich zur Bearbeitung des Felds, wie im Abschnitt [Feldeinstellungen bearbeiten](#edit-field-settings-1) in diesem Artikel beschrieben, <span class="preview">Sie die Auswahl eines Felds mit einer oder mehreren Auswahlmöglichkeiten bearbeiten, wenn Sie einen Datensatz in der Tabellenansicht bearbeiten, während Sie die Feldwerte aktualisieren. Weitere Informationen finden Sie [&#x200B; Abschnitt „Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)&quot; in diesem Artikel.</span>
+* Zusätzlich zur Bearbeitung des Felds, wie im Abschnitt [Feldeinstellungen bearbeiten](#edit-field-settings-1) in diesem Artikel beschrieben, <span class="preview">Sie die Auswahl eines Felds mit einer oder mehreren Auswahlmöglichkeiten bearbeiten, wenn Sie einen Datensatz in der Tabellenansicht bearbeiten, während Sie die Feldwerte aktualisieren. Weitere Informationen finden Sie [ Abschnitt „Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)&quot; in diesem Artikel.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -182,7 +184,7 @@ Sie können einem vorhandenen Einzel- oder Mehrfachauswahlfeld beim Bearbeiten v
 
 Möglicherweise verfügen Sie über ein Feld mit einer einzigen Auswahl namens Status , in dem die Optionen Neu und Geschlossen verfügbar sind, und Sie möchten eine Auswahl für einen Status In Bearbeitung hinzufügen. Sie können die Auswahl hinzufügen, indem Sie einen der folgenden Schritte ausführen:
 
-* Bearbeiten des Felds. Weitere Informationen finden Sie im Abschnitt [Bearbeiten von &#x200B;](#edit-field-settings-1)) in diesem Artikel.
+* Bearbeiten des Felds. Weitere Informationen finden Sie im Abschnitt [Bearbeiten von ](#edit-field-settings-1)) in diesem Artikel.
 * Hinzufügen einer neuen Option beim Bearbeiten des Datensatzes in der Tabellenansicht, wie unten beschrieben.
 
 So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld eine neue Auswahl hinzu:
@@ -195,5 +197,7 @@ So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld ei
    ![Auswahl im Einzelauswahlfeld in der Tabellenansicht hinzufügen](assets/add-choice-in-table-view-for-single-select-field.png)
 
    Die neue Auswahl wird sofort zum Feld für die Einzelauswahl hinzugefügt.
+
+   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
 </div>
