@@ -90,7 +90,7 @@ Löschen eines Plans:
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr ](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
    Der Plan wird gelöscht und Sie kehren zur Liste der Pläne zurück.
 

@@ -132,7 +132,7 @@ So verknüpfen Sie eine [!DNL Workfront] Aufgabe automatisch mit einem [!DNL Jir
 
    >[!NOTE]
    >
-   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol ](assets/more-icon.png) des Elements aus.
+   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol &#x200B;](assets/more-icon.png) des Elements aus.
 
 1. Geben Sie die für die Aufgabe verfügbaren Felder an oder aktualisieren Sie sie.
 1. Suchen Sie im **[!UICONTROL Arbeitsaufträge]** nach dem Benutzer, der Rolle oder dem Team, der bzw. das als Trigger(in) in der [!DNL Jira]-Integration angegeben ist, und wählen Sie diese aus.

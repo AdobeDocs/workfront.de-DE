@@ -30,4 +30,4 @@ Mit der Einstellung der eigenständigen Workfront Proof-App in 23.4 wurden der p
 * Der Status des Korrekturabzugs kann auf den Seiten Dokumentdetails und Korrekturabzugsdetails in der Mobile App angezeigt werden
 * Schaltflächen, mit denen Benutzende zur Workfront Proof-App navigieren, wurden entfernt
 
-Weitere Informationen zum Proofing in der Workfront Mobile App finden Sie unter [Testsendungen in der Adobe Workfront Mobile App überprüfen und Entscheidungen ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Weitere Informationen zum Proofing in der Workfront Mobile App finden Sie unter [Testsendungen in der Adobe Workfront Mobile App überprüfen und Entscheidungen &#x200B;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).

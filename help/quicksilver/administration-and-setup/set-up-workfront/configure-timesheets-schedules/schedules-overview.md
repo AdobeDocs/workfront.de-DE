@@ -53,7 +53,7 @@ Beachten Sie beim Arbeiten mit Zeitplänen in Workfront Folgendes:
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront] verwendet entweder den Benutzer oder den Projektzeitplan, um die Ressourcenverfügbarkeit im Ressourcenplaner zu ermitteln. Welcher Zeitplan verwendet wird, hängt davon ab, was der [!DNL Workfront]-Administrator für die Einstellung [!UICONTROL Ressourcenverfügbarkeit mithilfe von berechnen] ausgewählt hat. Informationen zu den Einstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  >[!DNL Workfront] verwendet entweder den Benutzer oder den Projektzeitplan, um die Ressourcenverfügbarkeit im Ressourcenplaner zu ermitteln. Welcher Zeitplan verwendet wird, hängt davon ab, was der [!DNL Workfront]-Administrator für die Einstellung [!UICONTROL Ressourcenverfügbarkeit mithilfe von berechnen] ausgewählt hat. Informationen zu den Einstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
 ## Hierarchie der Zeitpläne
 
@@ -71,7 +71,7 @@ Die Reihenfolge, in der die Zeitpläne vom System verwendet werden, wenn mehr al
    * Der Zeitplan des Benutzers, der der Aufgabe zugewiesen ist
    * Der mit dem Projekt verknüpfte Zeitplan.
 
-     Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
+     Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
 
 * Wenn einer Aufgabe mehrere Benutzer zugewiesen sind und die Benutzer während des Zeitrahmens der Aufgabe unterschiedliche Zeitpläne haben, verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup] definiert:
 

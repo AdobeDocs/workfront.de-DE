@@ -73,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie **Abschnitt &quot;**&quot; den Link, den Sie kopieren möchten.
-1. Klicken Sie auf das **Kopieren**![ Kopieren](assets/copy-icon.png)Symbol.
+1. Klicken Sie auf das **Kopieren**![&#x200B; Kopieren](assets/copy-icon.png)Symbol.
    ![Link kopieren](assets/copy-link.png)
 
 ## Schnelllink öffnen

@@ -95,7 +95,7 @@ Sie können die Gruppe schnell bearbeiten, kopieren oder löschen, ohne die Haup
 
    * **Bearbeiten**: [Anzeigen und Verwalten der Details einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **Kopieren**: [Erstellen einer Gruppe auf oberster Ebene durch Kopieren einer vorhandenen Gruppe oder ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **Kopieren**: [Erstellen einer Gruppe auf oberster Ebene durch Kopieren einer vorhandenen Gruppe oder &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
    * **Löschen**: [Löschen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

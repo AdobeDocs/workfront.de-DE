@@ -50,7 +50,7 @@ Sie können zwei separate Korrekturabzüge vergleichen.
 
 ### Vergleichen separater Korrekturabzüge in [!DNL Workfront] {#compare-separate-proofs-in-workfront}
 
-Informationen zum Vergleichen separater Korrekturabzüge aus der Dokumentliste in [!DNL Workfront] finden Sie im Abschnitt [Vergleichen ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) Korrekturabzügen“ im Artikel [Korrekturabzüge vergleichen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
+Informationen zum Vergleichen separater Korrekturabzüge aus der Dokumentliste in [!DNL Workfront] finden Sie im Abschnitt [Vergleichen &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) Korrekturabzügen“ im Artikel [Korrekturabzüge vergleichen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
 
 ### Vergleichen separater Korrekturabzüge in [!DNL Workfront Proof] {#compare-separate-proofs-in-workfront-proof}
 

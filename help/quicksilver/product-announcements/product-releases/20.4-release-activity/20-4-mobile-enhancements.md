@@ -32,7 +32,7 @@ Um die Verwendung von Workfront über Microsoft Teams zu vereinfachen, haben wir
 * Wir haben es Ihnen ermöglicht, die benutzerdefinierten Formulare eines Arbeitselements in der Benachrichtigung zu sehen und das benutzerdefinierte Formular zu erweitern, um die Felder zu sehen.
 * Wenn Sie eine Benachrichtigung über ein Projekt, eine Aufgabe oder ein Problem erhalten, können Sie jetzt den Status des Arbeitselements direkt in der Benachrichtigung ändern.
 
-Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams ](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams &#x200B;](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Einführung in Workfront für MobileIron
 

@@ -81,7 +81,7 @@ Stellen Sie vor der Installation des [!DNL Workfront]-Connectors für [!UICONTRO
 
 >[!IMPORTANT]
 >
->Die folgenden Anweisungen gelten für einen [!DNL Workfront with AEM Assets] Legacy-Connector, der durch den [[!DNL Workfront for Experience Manager] erweiterten Connector“ ersetzt ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Weitere Informationen erhalten Sie von Ihrem Kontovertreter.
+>Die folgenden Anweisungen gelten für einen [!DNL Workfront with AEM Assets] Legacy-Connector, der durch den [[!DNL Workfront for Experience Manager] erweiterten Connector“ ersetzt &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Weitere Informationen erhalten Sie von Ihrem Kontovertreter.
 
 Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie den Connector mit dem [!UICONTROL CRX Package Manager&rbrace; als Paket in AEM &#x200B;].
 

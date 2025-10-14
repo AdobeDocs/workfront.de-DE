@@ -87,6 +87,6 @@ Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden B
 
    * Erstellen Sie ein Projekt von Grund auf oder mithilfe einer Vorlage und ändern Sie den Status in **angefordert**.
 
-     Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines ](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines &#x200B;](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben. Ein Portfolio-Manager kann sie jetzt überprüfen und entweder genehmigen oder ablehnen. In diesem Fall ändert sich der Status des Projekts in **Genehmigt** oder **Abgelehnt**.

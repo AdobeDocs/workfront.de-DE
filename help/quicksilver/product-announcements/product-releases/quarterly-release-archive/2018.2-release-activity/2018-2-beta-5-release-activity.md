@@ -39,7 +39,7 @@ Die Beta-Version 5 von 2018.2 enthält die Verbesserungen für Workfront-Adminis
 * [Verbesserungen der Projekt- und Rollenansicht im Ressourcenplaner](#project-and-role-view-improvements-in-the-resource-planner)
 * [Spaltenbreiten für Projektlisten ändern](#resize-column-widths-for-project-lists)
 * [Symbolunterstützung für die neuen Projektlisten](#icon-support-for-the-new-project-lists)
-* [ Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](#add-large-thumbnail-field-in-document-views)
+* [&#x200B; Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](#add-large-thumbnail-field-in-document-views)
 * [Excel-Exportbeschränkung erhöhen](#increase-excel-export-limit)
 * [Schnellfilter für Projektlisten](#quick-filters-for-project-lists)
 * [Referenzieren von Problemsammlungen in Projekt- und Aufgabenberichten](#reference-issue-collections-in-project-and-task-reports)
@@ -220,7 +220,7 @@ Informationen zur Verwendung des Textmodus finden Sie unter  [Übersicht über 
 
 >[!NOTE]
 >
->Im folgenden Video war der Beispiel-Textmodus für Problemsammlungen falsch. Der richtige Beispieltextmodus ist in &quot;[ in einem Bericht“ ](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>Im folgenden Video war der Beispiel-Textmodus für Problemsammlungen falsch. Der richtige Beispieltextmodus ist in &quot;[&#x200B; in einem Bericht“ &#x200B;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Neues, robusteres Versionsmenü beim Hinzufügen neuer Dokumentversionen in Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -241,7 +241,7 @@ Die folgenden Optionen sind jetzt im Menü Neue Version für alle Bereiche verf�
 * Verknüpfte Optionen (von Dropbox, von Google Drive usw.)
 * Aus Zwischenablage einfügen (dies ist eine neue Option beim Hinzufügen von Versionen)
 
-Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem ](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem &#x200B;](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ## Verbesserungen bei Mobilgeräten in der Android Beta Mobile App {#mobile-improvements-in-the-android-beta-mobile-app}
 
@@ -333,7 +333,7 @@ Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen für Pro
 
 Beim Überprüfen eines Korrekturabzugs im Web Proofing Viewer oder Desktop Proofing Viewer können Sie nun den Avatar jedes Benutzers anzeigen, der den Korrekturabzug derzeit betrachtet, der in der oberen rechten Ecke der Proofing Viewer angezeigt wird.
 
-Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
 ### Filterkommentare, um im Desktop Proofing Viewer eine einzelne Seite für interaktive URL-Korrekturabzüge anzuzeigen {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 
@@ -426,7 +426,7 @@ Sie können jetzt beim Proofing in Workfront Proof direkt über die neue Proofin
 
 Zuvor war diese Option nur in Legacy Flash Viewer verfügbar.
 
-Weitere Informationen finden Sie unter [ von Testsendungen in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) Artikel  [Testsendungen in Workfront Proof kopieren](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Weitere Informationen finden Sie unter [&#x200B; von Testsendungen in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) Artikel  [Testsendungen in Workfront Proof kopieren](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
 ### Neuer Link „Korrekturabzugsdetails“ im Proofing Viewer und Desktop Proofing Viewer (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

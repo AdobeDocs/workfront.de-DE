@@ -82,7 +82,7 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
 * Sie können dasselbe Projekt in mehrere Pläne importieren.
 * Die Projekte, die Sie importieren möchten, müssen Datumsangaben im Zeitrahmen Ihres Plans enthalten. Sie können keine Projekte importieren[!UICONTROL &#x200B; deren geplantes Abschlussdatum vor dem Start des Plans &#x200B;] oder deren [!UICONTROL geplantes Startdatum] nach dem Ende des Plans liegt.
 * Sie können nicht mehr als 100 Projekte gleichzeitig importieren.
-* Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen darüber, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie [ Abschnitt „Projektinformationen in den Plan ](#project-information-imported-into-the-plan)&quot; in diesem Artikel.
+* Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen darüber, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie [&#x200B; Abschnitt „Projektinformationen in den Plan &#x200B;](#project-information-imported-into-the-plan)&quot; in diesem Artikel.
 * Änderungen an den verknüpften Projekten wirken sich nicht auf die Initiativen des Plans aus.
 * Änderungen an den Initiativen im Plan wirken sich nicht automatisch auf die Änderungen an den verknüpften Projekten aus. Änderungen an der Initiative wirken sich nur dann auf die verknüpften Projekte aus, wenn Sie die Initiative im Plan veröffentlichen. Informationen darüber, wie sich Veröffentlichungsinitiativen auf die verknüpften Projekte auswirken, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 * Beim Löschen einer Initiative, die durch den Import eines Projekts erstellt wurde, wird das Projekt nicht gelöscht.
@@ -185,7 +185,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
 
    Beachten Sie Folgendes:
 
-   * Rechts neben dem Namen ![ Initiative wird ](assets/project-icon-sp.png) Projektsymbol (Projektsymbol) angezeigt.
+   * Rechts neben dem Namen ![&#x200B; Initiative wird &#x200B;](assets/project-icon-sp.png) Projektsymbol (Projektsymbol) angezeigt.
    * Wenn der Projektzeitplan die Dauer des Plans überschreitet, endet der Balken der Initiative mit einem spitzen Rand nach links (wenn das Startdatum vor dem Datum des Plans liegt) oder nach rechts (wenn das Enddatum nach dem Datum des Plans liegt).
 
      ![Projektleiste vor dem Startdatum](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)

@@ -42,5 +42,5 @@ In diesen Artikeln wird beschrieben, wie Sie als Adobe Workfront-Admin Benutzend
 
 ## Siehe auch
 
-* Allgemeine Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+* Allgemeine Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 * Informationen dazu, wie Benutzende Objekte miteinander freigeben und Berechtigungen zum Anzeigen und Bearbeiten für diese Objekte erteilen können, finden Sie unter [Berechtigungen für Objekte erteilen und anfordern](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) und [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

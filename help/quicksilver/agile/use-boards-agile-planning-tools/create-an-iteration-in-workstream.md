@@ -85,7 +85,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Die Iteration wird jetzt in der Ansicht „Iteration“ der Kartenliste und im Bereich „Metriken“ auf der Iterationskonsole angezeigt.
 
-   Informationen zum Hinzufügen von Karten zu einer Iteration finden [ unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Informationen zum Hinzufügen von Karten zu einer Iteration finden [&#x200B; unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Bearbeiten einer vorhandenen Iteration
 

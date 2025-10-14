@@ -31,7 +31,7 @@ Wenn der Korrekturabzug-Designer Kommentare und Entscheidungen zu einem Korrektu
 
 ![designer_managers_-_option_A.png](assets/designers_managers_-_option_A.png)
 
-1. Der Designer erstellt einen neuen Korrekturabzug und weist den Projekt-Manager als Eigentümer des Projekts zu (weitere Informationen finden Sie unter [ von Korrekturabzügen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Als Ersteller des Korrekturabzugs kann der Designer:
+1. Der Designer erstellt einen neuen Korrekturabzug und weist den Projekt-Manager als Eigentümer des Projekts zu (weitere Informationen finden Sie unter [&#x200B; von Korrekturabzügen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Als Ersteller des Korrekturabzugs kann der Designer:
 
    * Kommentieren Sie den Korrekturabzug und verwenden Sie die Registerkarte [!UICONTROL Aktionen], um die Kommentar-Threads zu verfolgen.
    * Erstellen Sie eine neue Version des Korrekturabzugs für den Projekt-Manager.
@@ -51,7 +51,7 @@ Wenn der Designer nicht am [!DNL Workfront Proof] Überprüfungsprozess beteilig
 
 1. Der Designer lädt die Datei hoch und gibt sie für den Projekt-Manager frei. Weitere Informationen finden Sie unter [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Freigeben von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
-1. Der Projekt-Manager erhält die Datei und kann mit nur einem Klick einen Korrekturabzug aus der Datei erstellen. Weitere Informationen zum Konvertieren von Dateien in Korrekturabzüge finden [ unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) in unter [Dateien  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) verwalten.
+1. Der Projekt-Manager erhält die Datei und kann mit nur einem Klick einen Korrekturabzug aus der Datei erstellen. Weitere Informationen zum Konvertieren von Dateien in Korrekturabzüge finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) in unter [Dateien  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) verwalten.
 
 1. Der Kunde erhält eine E-Mail mit einem Link zum Testversand. Weitere Informationen finden Sie unter [Neue Korrekturabzugs-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 1. Der Kunde prüft den Korrekturabzug, fügt Kommentare hinzu und trifft eine Entscheidung.

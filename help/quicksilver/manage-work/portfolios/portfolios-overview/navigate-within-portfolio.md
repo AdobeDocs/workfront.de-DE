@@ -103,7 +103,7 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
 
 
 1. Klicken Sie **[!UICONTROL linken Bedienfeld]**&#x200B;Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
-Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
+Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
 
 1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfolio]** Details im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefinierte Forms]**, um Informationen zum Portfolio zu bearbeiten.
 
@@ -119,7 +119,7 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](.
 
 1. (Optional) Klicken Sie **linken Bereich** Dokumente“, um Dokumente an das Portfolio anzuhängen.
 1. (Optional) Klicken Sie **[!UICONTROL linken]** auf „Updates“, um dem Aktualisierungsverlauf des Portfolios Kommentare hinzuzufügen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr ](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
 
    * Deaktivieren Sie das Portfolio. Wenn ein Portfolio deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen.
    * Löschen Sie das Portfolio.

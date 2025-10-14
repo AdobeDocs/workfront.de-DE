@@ -51,7 +51,7 @@ Informationen zum Freigeben von Objekten in Workfront finden Sie in den folgende
    * [Dashboard freigeben](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Kalenderbericht freigeben](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-  Darüber hinaus finden Sie [Freigeben von Berichten, Dashboards und ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)) allgemeine Informationen zum Freigeben von Berichten, Dashboards und Kalendern.
+  Darüber hinaus finden Sie [Freigeben von Berichten, Dashboards und &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)) allgemeine Informationen zum Freigeben von Berichten, Dashboards und Kalendern.
 
 * Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Freigeben von Filtern, Ansichten oder Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * Informationen zu Dokumentordnern finden Sie unter [Freigeben eines Dokumentordners](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).

@@ -61,7 +61,7 @@ Um Vorlageninformationen zu entfernen, die dem Projekt hinzugefügt wurden, habe
 
 * Löscht die Aufgaben im Projekt, die mit der Vorlage hinzugefügt wurden.
 
-  Weitere Informationen finden Sie [ Abschnitt „Löschen von Aufgaben, die aus einer Vorlage ](#delete-tasks-created-from-a-template) wurden“ in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Löschen von Aufgaben, die aus einer Vorlage &#x200B;](#delete-tasks-created-from-a-template) wurden“ in diesem Artikel.
 
 * Löschen Sie die Vorlage aus Workfront. Beim Löschen der Vorlage aus Workfront werden die aus der Vorlage hinzugefügten Aufgaben nicht aus den Projekten gelöscht.
 

@@ -42,7 +42,7 @@ Eine ausführliche Beschreibung des [!DNL Workfront]-Veröffentlichungsprozesses
 >
 >Sie können eine Projektvorlage erstellen, um die Arbeit im Zusammenhang mit geplanten [!DNL Workfront] zu verfolgen.
 >
->Weitere Informationen finden Sie unter [Verwenden eines Projekts [!DNL Workfront]  um die Versionsarbeit ](#use-a-workfront-project-to-track-release-work) verfolgen.
+>Weitere Informationen finden Sie unter [Verwenden eines Projekts [!DNL Workfront]  um die Versionsarbeit &#x200B;](#use-a-workfront-project-to-track-release-work) verfolgen.
 
 
 Es wird empfohlen, einige oder alle der folgenden Aktionen in Betracht zu ziehen, die Ihnen bei der Vorbereitung Ihres Unternehmens auf bevorstehende Versionen helfen können:

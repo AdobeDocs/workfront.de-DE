@@ -21,4 +21,4 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Verwenden der Mobile [!DNL Adobe Workfront] App](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
 * [Verwenden Sie [!DNL Adobe Workfront View]](../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-* [Tipps, Tricks und Fehlerbehebung für Mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+* [Tipps, Tricks und Fehlerbehebung für Mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)

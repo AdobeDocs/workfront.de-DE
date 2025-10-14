@@ -75,7 +75,7 @@ Die folgende Funktion unterstützt diese Methode:
 Weitere Informationen finden Sie unter [Hinzufügen des Rückstands zum [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Konfigurieren Sie Elemente im Rückstand, die automatisch zum agilen Story Board [!UICONTROL Kanban“ hinzugefügt werden] wenn andere Elemente in einen Status verschoben werden, der mit „Abgeschlossen“ übereinstimmt.
-Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 * Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem agilen Story Board [!UICONTROL Kanban] angezeigt werden soll.
 Weitere Informationen finden Sie unter [Verwalten des Work In Progress (WIP)-Limits auf dem Kanban-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).

@@ -32,5 +32,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Grundlegendes zu Ordnerberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
 * [Erstellen und Verwalten von Tags in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
 * [Archivieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-* [Sichern Sie Ihre  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+* [Sichern Sie Ihre  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
 * [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)

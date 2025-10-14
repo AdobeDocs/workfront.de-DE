@@ -79,7 +79,7 @@ Ein Szenario ist eine Kopie eines Plans. Sie können so viele Szenarien erstelle
 
 1. Klicken Sie auf den Abwärtspfeil neben einem vorhandenen Szenario und dann auf das Symbol **[!UICONTROL Kopieren]**.
 
-   ![Szenario ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Szenario &#x200B;](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Dadurch wird ein neues Szenario mit denselben Informationen wie das kopierte Szenario erstellt. Sie erhält automatisch den Namen &quot;[!UICONTROL Szenario 2]&quot;, wenn es sich um das zweite Szenario Ihres Plans handelt, &quot;[!UICONTROL Szenario 3]&quot;, wenn es das dritte ist usw. Sie können Ihre Szenarien nicht umbenennen. Die Anzahl der Kopien, die Sie erstellen können, ist unbegrenzt.
 
@@ -190,7 +190,7 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie sie vergleichen, um das b
 
 1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png), um das Szenario **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
 
-   ![Szenario kopieren oder ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Szenario kopieren oder &#x200B;](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Wenn Sie ein Szenario kopieren, wird es automatisch auf der Kartenseite angezeigt und gemäß diesem Muster umbenannt: &quot;[!UICONTROL Szenario] `<next number in order>`.“
 

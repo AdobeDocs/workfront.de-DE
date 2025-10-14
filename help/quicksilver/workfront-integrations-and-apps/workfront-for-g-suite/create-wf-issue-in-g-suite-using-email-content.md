@@ -34,7 +34,7 @@ Sie können eine externe E-Mail (nicht von [!DNL Adobe Workfront] generiert) in 
 
 Sie können auch eine externe E-Mail in eine Aktualisierung eines vorhandenen Problems konvertieren. Weitere Informationen finden Sie unter [Aktualisieren eines  [!DNL Adobe Workfront] -Elements  [!DNL Google Workspace] Verwenden von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
 
-Weitere Informationen zur Verwendung von [!DNL Google Workspace] für die Arbeit mit von [!DNL Workfront] gesendeten Benachrichtigungs-E-Mails finden [ unter Verwalten [!DNL Adobe Workfront] Benachrichtigungsdetails von [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+Weitere Informationen zur Verwendung von [!DNL Google Workspace] für die Arbeit mit von [!DNL Workfront] gesendeten Benachrichtigungs-E-Mails finden [&#x200B; unter Verwalten [!DNL Adobe Workfront] Benachrichtigungsdetails von [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
 
 ## Zugriffsanforderungen
 

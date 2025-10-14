@@ -180,7 +180,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
    >[!TIP]
    >
-   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [ Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
+   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen &#x200B;](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
 
 1. (Optional) Entfernen Sie Vorlageninformationen aus dem Projekt, an das Sie die Vorlage angehängt haben. Weitere Informationen finden Sie unter [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 

@@ -30,7 +30,7 @@ Betrachten Sie die folgenden Szenarien, je nachdem, ob sich eine Aufgabe auf dem
 
   Informationen zum kritischen Pfad finden Sie unter [Übersicht über den projektkritischen Pfad](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-  Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den ](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den &#x200B;](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * Bei Aufgaben, die sich nicht auf dem kritischen Pfad befinden, erhöht sich die Pufferzeit um so früher, je früher die Aufgabe geplant ist. Für diese Aufgaben bleibt das Slack-Datum in der Zukunft, bis sich die Aufgaben so spät auf das Abschlussdatum des Projekts auswirken.
 

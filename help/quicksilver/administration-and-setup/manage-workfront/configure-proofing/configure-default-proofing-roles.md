@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie **unten** der Liste auf der linken Seite auf „Überprüfen und bestätigen“.
 1. Wählen Sie **Abschnitt Rollen für bestimmte Empfängerinnen und Empfänger eines** die Standardrolle für Benutzerinnen und Benutzer sowie Gastbenutzer aus, die zum Workflow eines Korrekturabzugs hinzugefügt werden.
 
-   Unten [Rechte, die Proofing-Rollen ](#rights-associated-with-proofing-roles) sind) finden Sie eine Liste der einzelnen Proofing-Rollen und der damit verbundenen Rechte.
+   Unten [Rechte, die Proofing-Rollen &#x200B;](#rights-associated-with-proofing-roles) sind) finden Sie eine Liste der einzelnen Proofing-Rollen und der damit verbundenen Rechte.
 
    >[!NOTE]
    >

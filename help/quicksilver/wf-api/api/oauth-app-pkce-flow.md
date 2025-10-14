@@ -154,7 +154,7 @@ Beachten Sie die Parameter, die übergeben werden:
 
 * `code` ist der Autorisierungs-Code, den Sie vom Endpunkt /authorize erhalten haben.
 
-* `code_verifier` ist der PKCE-Code Verifier, den Ihre App in &quot;[ des Korrekturabzugsschlüssels für den Code-Austausch“ ](#Create).
+* `code_verifier` ist der PKCE-Code Verifier, den Ihre App in &quot;[&#x200B; des Korrekturabzugsschlüssels für den Code-Austausch“ &#x200B;](#Create).
 
 * `client_id` identifiziert Ihren Client und muss mit dem in OAuth2 vorregistrierten Wert übereinstimmen.
 

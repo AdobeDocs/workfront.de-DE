@@ -86,7 +86,7 @@ Sie können jetzt die budgetierten Kosten der geplanten Arbeit (BCWS) und die bu
 
 Obwohl diese Projektleistungsmetriken zuvor in Finanzberechnungen in Workfront verwendet wurden, waren sie vor dieser Verbesserung nicht im System sichtbar.
 
-Weitere Informationen zur Berechnung des SKBA finden [ unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Weitere Informationen zur Berechnung des SKBA finden [&#x200B; unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
 Informationen zur Berechnung des SKAA finden Sie unter [Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

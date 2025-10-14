@@ -34,7 +34,7 @@ Die folgenden Ressourceninformationen werden im Ressourcenplaner anders berechne
   Weitere Informationen zum Definieren der Ressourcenverwaltungseinstellungen für das Adobe Workfront-System finden Sie unter [Ressourcenverwaltungseinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * Alle anderen FTE-Werte werden auf Grundlage des Systemstandardzeitplans berechnet.\
-  Weitere Informationen dazu, wie alle anderen Werte im Ressourcenplaner angezeigt werden, wenn VZÄ verwendet werden, finden Sie im Abschnitt [Berechnen aller anderen Stunden- und VZÄ-Werte für Benutzer und Aufgabengebiete im ](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner)) in diesem Artikel.
+  Weitere Informationen dazu, wie alle anderen Werte im Ressourcenplaner angezeigt werden, wenn VZÄ verwendet werden, finden Sie im Abschnitt [Berechnen aller anderen Stunden- und VZÄ-Werte für Benutzer und Aufgabengebiete im &#x200B;](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner)) in diesem Artikel.
 
 Es ist wichtig zu verstehen, was das FTE für jede Ihrer Benutzerinnen und Benutzer und deren Aufgabengebiete ist, um Ihre Ressourcen genau zu verwalten, während Sie sie der Arbeit zuweisen.
 
@@ -67,7 +67,7 @@ Je nachdem, wie diese Einstellung konfiguriert ist, wird die Verfügbarkeit der 
 
    * Der verfügbare VZÄ für den Benutzer im Ressourcenplaner ist derselbe wie der in den Benutzereinstellungen angegebene VZÄ für den Benutzer.
 
-     Wenn beispielsweise der Benutzer-FTE in den Benutzereinstellungen 0,5 beträgt, ist der verfügbare FTE des Benutzers im Ressourcenplaner 0,5. Weitere Informationen zum FTE-Wert des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, [ Sie unter „Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Wenn beispielsweise der Benutzer-FTE in den Benutzereinstellungen 0,5 beträgt, ist der verfügbare FTE des Benutzers im Ressourcenplaner 0,5. Weitere Informationen zum FTE-Wert des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, [&#x200B; Sie unter „Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Zeitplan des Benutzers**: Der Zeitplan des Benutzers wird verwendet, um die Verfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Der Wert des Vollzeitäquivalents (FTE) des Benutzers wird ignoriert. In diesem Fall:
 
@@ -100,7 +100,7 @@ Wenn beispielsweise der Wert von Verfügbare Stunden für eine Benutzerin oder e
 
 >[!NOTE]
 >
->Die gesamte verfügbare Zeit für den Benutzer wird anhand einer der beiden Methoden berechnet, die im Abschnitt [Berechnen der verfügbaren Stunden und VZÄ für einen Benutzer im ](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) dieses Artikels beschrieben sind.
+>Die gesamte verfügbare Zeit für den Benutzer wird anhand einer der beiden Methoden berechnet, die im Abschnitt [Berechnen der verfügbaren Stunden und VZÄ für einen Benutzer im &#x200B;](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) dieses Artikels beschrieben sind.
 
 Wenn Sie den Ressourcenplaner in der Rollenansicht anzeigen, entspricht die Verfügbarkeit eines einzigen Aufgabengebiets der Gesamtverfügbarkeit aller Benutzer, die dieses Aufgabengebiet erfüllen können.
 

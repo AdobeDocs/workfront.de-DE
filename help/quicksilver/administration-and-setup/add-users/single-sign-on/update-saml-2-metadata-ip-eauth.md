@@ -117,7 +117,7 @@ Dieses Verfahren liefert wichtige Informationen zur Konfiguration von Okta als I
    1. Stellen Sie sicher **dass** Klassische Benutzeroberfläche) in der oberen linken Ecke der Okta-Benutzeroberfläche ausgewählt ist.
    1. Klicken Sie im Menü auf **Anwendungen** > **Anwendungen**.
 
-   1. Klicken Sie auf die von Ihnen erstellte Workfront-App, wie im Abschnitt &quot;[ einer Workfront-App in Okta“ ](#create-a-workfront-app-in-okta)
+   1. Klicken Sie auf die von Ihnen erstellte Workfront-App, wie im Abschnitt &quot;[&#x200B; einer Workfront-App in Okta“ &#x200B;](#create-a-workfront-app-in-okta)
    1. Klicken Sie auf der **Anmelden**-Registerkarte auf **Identitätsanbieter-Metadaten**.
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata.png)

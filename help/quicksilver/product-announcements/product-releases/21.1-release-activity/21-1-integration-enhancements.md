@@ -31,5 +31,5 @@ Um die Verwendung von Workfront über Microsoft Teams zu vereinfachen, haben wir
 
 Um diese neue Funktion nutzen zu können, müssen Sie sich erneut bei Ihrem Microsoft Teams-Konto anmelden. Du brauchst keine anderen Maßnahmen zu ergreifen.
 
-Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams ](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams &#x200B;](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 

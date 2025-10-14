@@ -68,7 +68,7 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 ## Bearbeiten von Smart-Ordnern 
 
 1. Wechseln Sie zum Bereich **Dokumente**, der den Smart-Ordner enthält, den Sie bearbeiten möchten.
-1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü ](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
+1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü &#x200B;](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
 1. Klicken Sie **Bearbeiten**.
 
 1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **Ordner speichern**.

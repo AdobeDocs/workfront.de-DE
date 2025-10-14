@@ -35,7 +35,7 @@ Um auf den Kommentar einer Person zum Korrekturabzug zu antworten, klicken Sie i
 
 Alle Kommentare und Entscheidungen werden fast sofort im Korrekturabzug angezeigt. Wenn sich also jemand anders den Korrekturabzug zur gleichen Zeit wie Sie ansieht, wird er Ihre Kommentare sofort sehen.
 
-Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [ Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
+Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [&#x200B; Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
 
 ## Wie markiere ich einen Korrekturabzug?
 

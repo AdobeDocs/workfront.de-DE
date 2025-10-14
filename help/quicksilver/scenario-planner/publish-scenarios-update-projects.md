@@ -73,7 +73,7 @@ Das Veröffentlichen eines Szenarios aus der [!DNL Adobe Workfront Scenario Plan
 Bevor Sie beginnen:
 
 * Sie müssen einen Plan erstellen und speichern, bevor Sie Initiativen daraus veröffentlichen können.
-* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Überlegungen zur Veröffentlichung von Initiativen in Projekten
 
@@ -91,7 +91,7 @@ Bevor Sie beginnen:
   >
   >Sie können dasselbe Projekt in mehrere Pläne importieren. Die Veröffentlichung kann Initiativinformationen zu einem Projekt überschreiben, das mit mehreren Initiativen verknüpft ist.
 
-  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [ Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [&#x200B; Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Alle am Projekt vorgenommenen Änderungen werden nicht auf die verknüpfte Initiative übertragen.
 

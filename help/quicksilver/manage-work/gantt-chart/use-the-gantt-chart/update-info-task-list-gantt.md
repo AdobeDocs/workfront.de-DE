@@ -67,7 +67,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 1. Klicken Sie auf **[!UICONTROL Symbol]** Gantt-Diagramm“.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
    Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
@@ -99,7 +99,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    Die **[!UICONTROL AutoSpeichern]**-Option ist standardmäßig ausgewählt. In diesem Fall werden alle Änderungen automatisch gespeichert.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
@@ -131,7 +131,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
@@ -178,7 +178,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
 1. Klicken Sie im Bereich **[!UICONTROL Aufgaben]** auf das Symbol **[!UICONTROL Gantt-Diagramm]**.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
    Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Sie ist standardmäßig aktiviert.
 

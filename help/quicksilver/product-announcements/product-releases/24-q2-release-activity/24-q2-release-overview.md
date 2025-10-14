@@ -17,7 +17,7 @@ ht-degree: 0%
 Diese Seite enthält Informationen zur Funktionalität, die in der Version vom zweiten Quartal 2024 enthalten ist. Diese Verbesserungen wurden mit der Version 24.4 vom 10. und 11. April 2024 in der Produktionsumgebung für alle Kunden verfügbar gemacht.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für [ Adobe Summit zu registrieren](https://summit.adobe.com/na/) um die folgenden Workfront-Sitzungen anzusehen:
+Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für [&#x200B; Adobe Summit zu registrieren](https://summit.adobe.com/na/) um die folgenden Workfront-Sitzungen anzusehen:
 
 [Die Zukunft von Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) am 26. März 2024, um eine Vorschau auf die Zukunft der strategischen Planung und des Workflows zu erhalten. Erfahren Sie, wie das Workfront-Team Geschäftsfunktionen über den gesamten Marketing-Lebenszyklus hinweg mit einem KI-First-Ansatz zur Automatisierung der Arbeit, zur Vereinfachung von Anwendererlebnissen und zur Steigerung der Produktivität ansprechen möchte.
 

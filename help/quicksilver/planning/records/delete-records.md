@@ -152,7 +152,7 @@ Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wie
 
      ![Kontextmenü für Datensatzzeile](assets/contextual-menu-for-record-row.png)
 
-   * Klicken Sie auf **Symbol** Details öffnen![ (Symbol „Details öffnen“ im Feld &quot;](assets/open-details-icon-in-table-name-field.png)„), um das Feld mit den detaillierten Informationen zum Datensatz zu öffnen, und klicken Sie auf **Mehr** ![Mehr Menü](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
+   * Klicken Sie auf **Symbol** Details öffnen![&#x200B; (Symbol „Details öffnen“ im Feld &quot;](assets/open-details-icon-in-table-name-field.png)„), um das Feld mit den detaillierten Informationen zum Datensatz zu öffnen, und klicken Sie auf **Mehr** ![Mehr Menü](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
 
    Der Datensatz wird gelöscht.
 

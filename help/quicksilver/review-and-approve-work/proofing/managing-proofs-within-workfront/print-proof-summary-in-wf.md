@@ -65,7 +65,7 @@ Sie können eine Zusammenfassung eines Korrekturabzugs direkt aus der Dokumentli
 
    Oder
 
-   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** (![) ](assets/print-icon-in-pv.png) der linken Symbolleiste. (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![Menüsymbol](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsanzeige.)
+   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** (![) &#x200B;](assets/print-icon-in-pv.png) der linken Symbolleiste. (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![Menüsymbol](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsanzeige.)
 
 1. Verwenden Sie eine der folgenden Optionen:
 

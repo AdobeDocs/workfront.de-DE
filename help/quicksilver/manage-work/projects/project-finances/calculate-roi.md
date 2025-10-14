@@ -29,7 +29,7 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 Die folgenden Felder wirken sich auf den ROI eines Projekts aus:
 
 * **Geplanter Projektnutzen**: Dies ist ein manueller Eintrag, der vom Projektinhaber beim Ausfüllen des Bereichs „Projektinformationen“ des Business Case angegeben wird. Hierbei handelt es sich um eine Schätzung dessen, was Sie als Projektbesitzer glauben, dass das Projekt Vorteile bringen könnte, wenn Sie das Projekt abschließen. Dies ist ein bestimmter Währungsbetrag und muss ein positiver Wert sein.\
-  Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie im Abschnitt „Projektinformationen“ im Artikel „Erstellen [ Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie im Abschnitt „Projektinformationen“ im Artikel „Erstellen [&#x200B; Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * **Budgetierte Projektkosten**: Dies sind die Gesamtkosten, die mit dem Projekt verbunden sind und zum Zeitpunkt des ersten Starts des Projekts geschätzt werden.
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >* Die neue SharePoint-Integration muss möglicherweise nicht von einem Administrator konfiguriert werden. Sie kann auch von einzelnen Benutzern eingerichtet werden. Um jedoch einen reibungslosen Übergang zur neuen SharePoint-Integration sicherzustellen, muss ein Workfront-Administrator einige kleine Änderungen an den Einstellungen im Bereich &quot;Workfront-Setup“ vornehmen.
 >
->    Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren der Legacy-SharePoint-Integration für den kontinuierlichen Zugriff auf ](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
+>    Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren der Legacy-SharePoint-Integration für den kontinuierlichen Zugriff auf &#x200B;](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
 >    
 >* Es wird empfohlen, dass Benutzer Dokumente verknüpfen, die derzeit über die alte [!DNL SharePoint]-Integration über die neue Integration verknüpft sind.
 >    
@@ -159,7 +159,7 @@ Wenn ein Asset zuerst in [!DNL Workfront] hochgeladen und dann an [!DNL SharePoi
 Um sicherzustellen, dass Ihre Benutzerinnen und Benutzer weiterhin über die alte [!DNL SharePoint]-Integration Zugriff auf Dokumente haben, die mit Workfront verknüpft sind, müssen Sie den Zugriff auf die alte [!DNL SharePoint]-Integration neu konfigurieren und den SharePoint-Client-Geheim-Code auf dem neuesten Stand halten.
 
 * [Zugriff auf die Legacy- [!DNL SharePoint]  neu konfigurieren](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Konfigurieren des Client-Geheimnisses für den kontinuierlichen Zugriff auf die Legacy- [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Konfigurieren des Client-Geheimnisses für den kontinuierlichen Zugriff auf die Legacy- [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Zugriff auf die alte [!DNL SharePoint]-Integration neu konfigurieren
 
@@ -191,7 +191,7 @@ Ihr [!DNL SharePoint]-Client-Geheimnis läuft einmal im Jahr ab. Um den kontinui
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. Generieren Sie ein neues Client-Geheimnis, wie unter [Ersetzen eines ablaufenden Client-Geheimnisses in einem Add [!DNL SharePoint] In“ ](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
+1. Generieren Sie ein neues Client-Geheimnis, wie unter [Ersetzen eines ablaufenden Client-Geheimnisses in einem Add [!DNL SharePoint] In“ &#x200B;](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopieren Sie dieses Client-Geheimnis an einen sicheren Speicherort.
 1. Melden Sie sich bei [!DNL Workfront] als Administrator an.
 1. Klicken Sie in Workfront auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Setup]**![Setup](/help/_includes/assets/gear-icon-setup.png).

@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Veröffentlichung der Version 2020.1 in der Produktionsumgebung zur Verfügung gestellt.
 
-Informationen zum Veröffentlichungszeitrahmen und allen mit der Version 2020.1 verfügbaren Funktionen finden Sie unter [ der Version 2020.1 - Übersicht](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Informationen zum Veröffentlichungszeitrahmen und allen mit der Version 2020.1 verfügbaren Funktionen finden Sie unter [&#x200B; der Version 2020.1 - Übersicht](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

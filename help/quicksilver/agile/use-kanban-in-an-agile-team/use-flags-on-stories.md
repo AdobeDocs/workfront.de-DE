@@ -75,7 +75,7 @@ Die Markierung ist standardmäßig auf **[!UICONTROL Auf Kurs]** für jede Story
      Dies ist die Standardmarkierung für jede Story auf dem Kanban-Board.
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Ist blockiert]:** Die Story kann nicht mit dem nächsten Status fortfahren. Wenn diese Markierung für eine Story gesetzt wird, zählt die Story nicht zum WIP-Limit. (Weitere Informationen zu Fertigstellungsbeschränkungen finden Sie im Artikel [Konfigurieren von ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
+   * **[!UICONTROL Ist blockiert]:** Die Story kann nicht mit dem nächsten Status fortfahren. Wenn diese Markierung für eine Story gesetzt wird, zählt die Story nicht zum WIP-Limit. (Weitere Informationen zu Fertigstellungsbeschränkungen finden Sie im Artikel [Konfigurieren von &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
 
      ![kanban_flag_block.png](assets/kanban-flag-blocked.png)
 

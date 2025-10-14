@@ -133,6 +133,6 @@ Sie können eine Pinnwand so konfigurieren, dass Karten nach einem Zeitplan arch
 
 Wenn Sie die Karten wieder anzeigen möchten, nachdem sie von der Pinnwand gefallen sind, können Sie den Pinnwand-Filter so einstellen, dass archivierte Karten angezeigt werden.
 
-Weitere Informationen finden Sie unter [Konfigurieren von ](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Weitere Informationen finden Sie unter [Konfigurieren von &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
 [Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412323/){target=_blank}

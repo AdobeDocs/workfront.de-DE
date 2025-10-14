@@ -48,7 +48,7 @@ So erstellen Sie ein Satellitenkonto:
 
 ## Auswählen eines Plans für Ihr Satellite-Konto {#selecting-a-plan-for-your-satellite-account}
 
-Nachdem Sie das Satellite-Konto wie unter &quot;[ eines Satellite-Kontos“ beschrieben eingerichtet haben](#creating-a-satellite-account) müssen Sie es auf den gewünschten Plan aktualisieren.
+Nachdem Sie das Satellite-Konto wie unter &quot;[&#x200B; eines Satellite-Kontos“ beschrieben eingerichtet haben](#creating-a-satellite-account) müssen Sie es auf den gewünschten Plan aktualisieren.
 
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung].\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die Seite  [!DNL Workfront Proof] [!UICONTROL Abrechnung]](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Mitwirken oder Verwalten bestimmter Projekte erteilen, auf die Sie Zugriff haben, um sie freizugeben.
 
@@ -66,7 +66,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 * Standardmäßig verfügt der Ersteller eines Projekts über Berechtigungen zum Verwalten des Projekts und wird auch als Projektbesitzer bezeichnet. Wenn das Projekt einem anderen Eigentümer zugewiesen ist, verfügt dieser Benutzer auch über Berechtigungen zum Verwalten des Projekts. Wenn der Projektersteller (oder -eigentümer) das Projekt für andere Benutzer freigibt, gewähren sie diesen Benutzern bestimmte Berechtigungen, um zu steuern, was sie bei der Arbeit am Projekt tun können.
 
-  Wenn ein Projektinhaber jedoch nicht über eine Plan- oder Standardlizenz verfügt, hat er nicht den vollen Zugriff, um das Projekt zu verwalten. Nur Benutzer mit einer Plan- oder Standardlizenz können über Berechtigungen zum Verwalten eines Projekts verfügen. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Wenn ein Projektinhaber jedoch nicht über eine Plan- oder Standardlizenz verfügt, hat er nicht den vollen Zugriff, um das Projekt zu verwalten. Nur Benutzer mit einer Plan- oder Standardlizenz können über Berechtigungen zum Verwalten eines Projekts verfügen. Weitere Informationen finden Sie unter [&#x200B; der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Sie können Projekte einzeln oder gemeinsam nutzen. Die Freigabe von Projekten ist mit der Freigabe anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können einem Projekt die folgenden Berechtigungen erteilen:

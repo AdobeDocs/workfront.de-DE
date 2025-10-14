@@ -55,7 +55,7 @@ Weitere Informationen finden Sie unter Übersicht über den erweiterten Connecto
 
 >[!NOTE]
 >
->Für die Bereitstellung und Konfiguration dieses Connectors ist ein zertifizierter Partner erforderlich. Weitere Informationen finden [ unter „Installieren des erweiterten Connectors ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) Workfront für Experience Manager&quot;.
+>Für die Bereitstellung und Konfiguration dieses Connectors ist ein zertifizierter Partner erforderlich. Weitere Informationen finden [&#x200B; unter „Installieren des erweiterten Connectors &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) Workfront für Experience Manager&quot;.
 
 ## Adobe Creative Cloud-Integrationen verwenden jetzt OAuth2
 

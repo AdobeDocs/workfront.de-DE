@@ -157,7 +157,7 @@ Als [!DNL Workfront] können Sie Stundentypen für Ihr Unternehmen auf System- u
 
 1. Klicken Sie im linken Bereich auf **Arbeitszeittabelle und Stunden** und dann auf **Stundentypen**.
 
-1. Klicken Sie auf einen Namen für den Stundentyp oder wählen Sie den Stundentyp aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
+1. Klicken Sie auf einen Namen für den Stundentyp oder wählen Sie den Stundentyp aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
 1. Geben **im Dialogfeld** Stundentypen bearbeiten“ die folgenden Informationen an:
 
    <table style="table-layout:auto"> 

@@ -256,7 +256,7 @@ Unsere primäre Empfehlung ist, so bald wie möglich mit der Umstellung auf ein 
 
 Wir empfehlen Administratoren:
 
-1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [ finden Sie unter „Anpassen einer neuen Startseite mithilfe ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
+1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [&#x200B; finden Sie unter „Anpassen einer neuen Startseite mithilfe &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
 
 1. Weisen Sie Ihre neuen Layout-Vorlagen einer kleinen Anzahl von Testbenutzern zu, die überprüfen können, ob ihre Widgets und allgemeinen Einstellungen ihren Arbeitsanforderungen entsprechen.
 

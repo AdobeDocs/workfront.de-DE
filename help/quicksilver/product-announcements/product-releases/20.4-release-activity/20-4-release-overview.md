@@ -39,7 +39,7 @@ Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfron
 * [Verbesserungen für Administratoren](#administrator-enhancements)
 * [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Verbesserungen beim Projektmanagement](#project-management-enhancements)
-* [Erweiterte ](#enhanced-analytics)
+* [Erweiterte &#x200B;](#enhanced-analytics)
 * [Verbesserungen beim Proofing](#proofing-enhancements)
 * [Verbesserungen bei Mobile und Integration](#mobile-and-integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)

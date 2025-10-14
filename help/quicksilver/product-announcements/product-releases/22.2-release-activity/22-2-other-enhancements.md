@@ -46,5 +46,5 @@ Zu den Highlights dieses Redesigns gehören:
 * Die Arbeitszeittabellenliste entspricht nun dem Erlebnis in allen anderen Listen in Workfront.
 * Das Filtererlebnis stimmt nun mit den Filtern in allen anderen Listen überein. Sie haben mehr Flexibilität, eigene Filter mit den Feldern und Attributen zu erstellen, die für Sie am sinnvollsten sind, und sie für andere Benutzer freizugeben.
 
-Weitere Informationen zum Erstellen von Arbeitszeittabellen mithilfe der neuen Listen [ Sie unter „Erstellen einer Einmal-Arbeitszeittabelle](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Weitere Informationen zum Erstellen von Arbeitszeittabellen mithilfe der neuen Listen [&#x200B; Sie unter „Erstellen einer Einmal-Arbeitszeittabelle](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 

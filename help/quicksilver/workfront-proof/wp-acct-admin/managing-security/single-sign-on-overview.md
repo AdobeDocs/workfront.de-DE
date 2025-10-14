@@ -34,4 +34,4 @@ Sie müssen über benutzerdefinierte Subdomains oder Domains in Ihrem [!DNL Work
 <!--* Custom sub-domains are free to set up. See our [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md) for more information.-->
 * Weitere Informationen über vollständig angepasste Domains finden Sie unter [Marke [!DNL Workfront Proof] Website - Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Informationen [ Einrichten von SSO in Ihrem Konto finden  [!DNL Workfront Proof]  unter „Konfigurieren von Single Sign](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) für Benutzer“.
+Informationen [&#x200B; Einrichten von SSO in Ihrem Konto finden  [!DNL Workfront Proof]  unter „Konfigurieren von Single Sign](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) für Benutzer“.

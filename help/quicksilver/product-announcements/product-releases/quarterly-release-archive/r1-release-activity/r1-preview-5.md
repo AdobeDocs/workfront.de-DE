@@ -36,7 +36,7 @@ Weitere Informationen zum Konfigurieren des Speicherorts der Registerkarte „Nu
 
 Jetzt können Sie einen vorhandenen globalen Genehmigungsprozess ändern, wenn Sie diesen globalen Genehmigungsprozess mit einem Objekt verknüpfen. Die von Ihnen vorgenommenen Änderungen gelten nur für den Genehmigungsprozess für das Objekt, mit dem Sie es verknüpfen.
 
-Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit ](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit &#x200B;](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## Konfigurieren Sie Berichte so, dass das neue Gantt-Diagramm standardmäßig angezeigt wird
 

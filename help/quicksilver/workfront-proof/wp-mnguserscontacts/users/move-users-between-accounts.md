@@ -33,7 +33,7 @@ Wenn Sie Administrator eines [!DNL Workfront]-Korrekturabzugs sind und mit Ihrem
 1. Wählen Sie ein Zielkonto aus der Liste Verbundene Konten (2).
 1. Weisen Sie die Profilberechtigung (3) zu, die dieser Benutzer für das neue Konto haben soll.
 1. Wählen Sie einen Benutzer (4) aus, der für die Elemente, die nicht verschoben werden sollen, verantwortlich sein soll.
-Dazu gehören die Elemente, die Sie im alten Konto belassen möchten, und die Elemente, die nicht verschoben werden können (siehe [Elemente, die nicht verschoben werden können](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) unten).
+Dazu gehören die Elemente, die Sie im alten Konto belassen möchten, und die Elemente, die nicht verschoben werden können (siehe [Elemente, die nicht verschoben werden können](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) unten).
 
 1. Aktivieren Sie die Kontrollkästchen, wenn Sie die Korrekturabzüge (5) und Dateien (6) zusammen mit dem/der Benutzenden verschieben möchten.
 1. Erstellen Sie einen Namen für den Ordner (7), in dem alle verschobenen Elemente in dem neuen Konto abgelegt werden.

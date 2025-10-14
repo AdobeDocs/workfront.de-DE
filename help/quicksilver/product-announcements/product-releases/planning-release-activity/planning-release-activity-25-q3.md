@@ -50,7 +50,7 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
-Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von ](/help/quicksilver/planning/records/manage-record-comments.md)).
+Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md)).
 
 ## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
@@ -175,7 +175,7 @@ Sie können bis zu 100 benutzerdefinierte Quartale einrichten. Vor diesem Update
 
 Für Kunden, die Workfront Planning nicht erworben haben, ändert sich das benutzerdefinierte Quartalserlebnis nicht.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Gleichzeitige Berechnung aller abhängigen Formeln
 

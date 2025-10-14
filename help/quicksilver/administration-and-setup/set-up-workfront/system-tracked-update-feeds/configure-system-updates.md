@@ -138,7 +138,7 @@ Sie können Felder entfernen, die das System nicht für einen bestimmten Objektt
 
 1. Wählen Sie auf **[!UICONTROL Registerkarte]** Getrackte Felder“ die Unterregisterkarte **[!UICONTROL Alle Felder]** aus. Sowohl die integrierten als auch die benutzerdefinierten Felder, die derzeit verfolgt werden, werden angezeigt.
 
-1. Wählen Sie das Feld aus, das Sie mit dem Tracking stoppen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Entfernen]** (Symbol ![ entfernen](assets/remove-icon.png).
+1. Wählen Sie das Feld aus, das Sie mit dem Tracking stoppen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Entfernen]** (Symbol ![&#x200B; entfernen](assets/remove-icon.png).
 
 1. Klicken Sie im angezeigten **[!UICONTROL Feld]** Feld entfernen“ zur Bestätigung auf **[!UICONTROL Ja,]** entfernen.
 

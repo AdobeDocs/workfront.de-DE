@@ -45,7 +45,7 @@ Eine E[!UICONTROL Mail &#x200B;]Testversand durchgeführt“ enthält Ihre pers�
 >
 > Bei der Freigabe von Korrekturabzugs-Links ist es nicht möglich, dem Korrekturabzug explizit Reviewer hinzuzufügen. Sie geben nur die öffentliche Korrekturabzugs-URL weiter und der Empfänger erhält nur Lesezugriff auf den Korrekturabzug.
 
-Weitere Informationen finden [ unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in .
+Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in .
 
 Wenn dieser Link nicht in der E-Mail des Empfängers angezeigt werden soll, sollten Sie die Einstellungen [!UICONTROL Öffentliche Freigabe] für den Testversand deaktivieren ([!UICONTROL Originaldatei herunterladen] und [!UICONTROL Öffentliche URL]).
 
@@ -55,5 +55,5 @@ Wenn dieser Link nicht in der E-Mail des Empfängers angezeigt werden soll, soll
 
 1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 
-1. Detailliertere [ finden Sie unter „Konfigurieren der E-Mail](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)Benachrichtigungseinstellungen in Workfront Proof&quot;.
+1. Detailliertere [&#x200B; finden Sie unter „Konfigurieren der E-Mail](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)Benachrichtigungseinstellungen in Workfront Proof&quot;.
 1. Wenn die E-Mail-Benachrichtigungen standardmäßig in den [!UICONTROL Kontoeinstellungen] deaktiviert sind, erhält der Ersteller oder Inhaber des Korrekturabzugs keine E-Mails [!UICONTROL Korrekturabzug erstellt] oder [!UICONTROL Neuer Korrekturabzug], selbst wenn dies in den persönlichen Einstellungen aktiviert ist und das Kontrollkästchen [!UICONTROL Personen per E-Mail benachrichtigen] auf der Seite [!UICONTROL Neuer Korrekturabzug] aktiviert ist.

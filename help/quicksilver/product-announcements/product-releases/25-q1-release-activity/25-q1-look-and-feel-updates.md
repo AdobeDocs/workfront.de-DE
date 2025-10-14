@@ -66,7 +66,7 @@ Wir haben Leistungsverbesserungen für den Bereich in Setup vorgenommen, in dem 
 
 Wir haben die Seiten „Mitglieder des Unternehmens“ und „Abrechnungssätze des Unternehmens“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Auf Firmenmitgliedschaften kann über Setup > Firmen > Firmennamen auswählen > Firmenmitglieder im linken Bereich auswählen zugegriffen werden. Die Abrechnungssätze für Unternehmen sind über Setup > Firmen > Firmenname auswählen > Abrechnungssätze im linken Bedienfeld auswählen zugänglich.
 
-Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Aktualisierungen des Erscheinungsbilds für die Haupt- und sekundären Navigationsbereiche
 

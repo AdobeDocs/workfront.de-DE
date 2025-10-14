@@ -242,7 +242,7 @@ Nachdem Sie einen Rechnungsnachweis erstellt und ihm Stunden, Ausgaben und Einna
 
    * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Ausgaben in einen Rechnungsnachweis einbeziehen](#include-billable-expenses-in-a-billing-record).
 
-   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis ](#include-fixed-revenues-in-a-billing-record).
+   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis &#x200B;](#include-fixed-revenues-in-a-billing-record).
 
    * **Rechnungsnachweissumme**: Die Summe aller fakturierbaren Beträge. Dies wird nach folgender Formel berechnet:
 

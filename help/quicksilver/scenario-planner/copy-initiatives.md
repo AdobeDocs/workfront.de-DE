@@ -91,7 +91,7 @@ Beachten Sie beim Kopieren von Initiativen Folgendes:
 
   Informationen zur Veröffentlichung von Initiativen in Projekten finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [ Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [&#x200B; Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 ## Initiativen kopieren
 

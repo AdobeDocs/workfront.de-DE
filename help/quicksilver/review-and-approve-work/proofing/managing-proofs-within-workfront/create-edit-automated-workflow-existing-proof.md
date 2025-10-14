@@ -110,7 +110,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    1. Geben Sie einen Kontaktnamen oder eine E-Mail-Adresse ein und konfigurieren Sie die Einstellungen für Validierungsverantwortliche für das Stadium.
 
-      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu ](#about-adding-reviewers-to-a-stage) in diesem Artikel.
+      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu &#x200B;](#about-adding-reviewers-to-a-stage) in diesem Artikel.
 
    1. Verwenden Sie eine der folgenden Optionen, um das Stadium weiter zu konfigurieren:
 

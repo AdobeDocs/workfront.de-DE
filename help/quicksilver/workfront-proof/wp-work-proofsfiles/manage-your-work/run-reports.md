@@ -69,7 +69,7 @@ In diesem Bedienfeld haben Sie folgende Möglichkeiten
 1. (Optional) Wählen Sie die Option **[!UICONTROL Min-Max-Bereich anzeigen]** aus, um zu bestimmen, ob Mindest- und Höchstwerte im Diagramm angezeigt werden.\
    Bei Auswahl dieser Option wird zwischen den minimalen und maximalen Werten eine blaue Schattierung angezeigt.
 
-1. (Optional) Sie können die angezeigten Daten filtern, wie unter [Filterberichte“ ](#filtering-reports).
+1. (Optional) Sie können die angezeigten Daten filtern, wie unter [Filterberichte“ &#x200B;](#filtering-reports).
 
 ## Berichte filtern {#filtering-reports}
 

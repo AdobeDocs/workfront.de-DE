@@ -248,7 +248,7 @@ Ein überarbeitetes Planerlebnis, mit dem Sie die Arbeitslasten und Anforderunge
 
 API-Version 11, veröffentlicht mit der Version 2020.1. Weitere Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 11](../../../wf-api/api/new-api-version-11.md) [Neue Funktionen in der API-Version 11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145).
 
-Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md) [API-Versionsveröffentlichung und Support-Zeitplan](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
+Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md) [API-Versionsveröffentlichung und Support-Zeitplan](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
 ## Wartungs-Updates für Workfront 
 
@@ -258,7 +258,7 @@ Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenomm
 
 * [Änderung des Veröffentlichungsintervalls für die Vorschau](#change-in-preview-release-cadence) Neu!
 
-* auf die Zulassungsliste setzen [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen ](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* auf die Zulassungsliste setzen [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar zur Version [.2020.1](#2020-1-release-webinar)
 * [Webinar zur Produkt-Roadmap im 1. Quartal](#q1-product-roadmap-webinar)

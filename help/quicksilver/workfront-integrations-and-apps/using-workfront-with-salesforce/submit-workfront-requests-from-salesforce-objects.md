@@ -77,7 +77,7 @@ Um eine [!DNL Workfront]-Anfrage von einer [!DNL Salesforce] Opportunity oder ei
    >
    >Das Hochladen eines Dokuments mit dem [!DNL Workfront]-Plug-in in [!DNL Salesforce] ist vorübergehend nicht verfügbar.
 
-   Fahren Sie mit den unter &quot;[ und Senden [!DNL Adobe Workfront] Anfragen“ beschriebenen ](../../manage-work/requests/create-requests/create-submit-requests.md) fort.
+   Fahren Sie mit den unter &quot;[&#x200B; und Senden [!DNL Adobe Workfront] Anfragen“ beschriebenen &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md) fort.
 
 1. Klicken Sie **[!UICONTROL Senden]**.
 
@@ -117,7 +117,7 @@ Um eine [!DNL Workfront]-Anfrage von einer [!DNL Salesforce] Opportunity oder ei
 1. (Optional) Klicken Sie auf **[!UICONTROL Wechseln zu[!DNL Salesforce]]**, um auf die Opportunity oder das Konto zuzugreifen, bei dem das Problem aus den folgenden Bereichen von Workfront stammt:
 
    * Im [!UICONTROL Details] des Problems
-   * Wenn Sie das Problem in einer Liste im Bedienfeld Zusammenfassung auswählen, nachdem Sie in der Symbolleiste der Liste auf [!UICONTROL Zusammenfassung öffnen] ![Symbol ](assets/summary-panel-icon.png)Zusammenfassungsbereich“ geklickt haben.
+   * Wenn Sie das Problem in einer Liste im Bedienfeld Zusammenfassung auswählen, nachdem Sie in der Symbolleiste der Liste auf [!UICONTROL Zusammenfassung öffnen] ![Symbol &#x200B;](assets/summary-panel-icon.png)Zusammenfassungsbereich“ geklickt haben.
    * In der Problem-Kopfzeile, wenn das Feld [!UICONTROL Integrationen] verfügbar ist. Ihr System- oder Gruppenadministrator muss das Feld [!UICONTROL Integrationen] zu Ihrer Layoutvorlage hinzufügen, um den Link Wechseln zu Salesforce in der Anfragekopfzeile anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]

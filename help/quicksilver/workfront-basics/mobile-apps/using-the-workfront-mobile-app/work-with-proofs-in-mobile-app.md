@@ -79,7 +79,7 @@ Nachdem Sie das Korrekturabzugsdokument geprüft haben, können Sie im Korrektur
 ### Im Testversand eine Entscheidung treffen
 
 1. Öffnen Sie den Korrekturabzug für das Dokument.
-1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
+1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
 1. Wählen Sie im Feld [!UICONTROL Entscheidung treffen] eine Entscheidung aus.
 
    Im Folgenden finden Sie einige allgemeine Entscheidungsoptionen. Der [!DNL Adobe Workfront] oder der [!UICONTROL Workfront Proof]Administrator kann die Liste der Entscheidungsoptionen konfigurieren. Weitere Informationen zum Konfigurieren von Entscheidungen durch Admins finden Sie unter [Konfigurieren von Genehmigungsentscheidungsoptionen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
@@ -114,7 +114,7 @@ Nachdem Sie das Korrekturabzugsdokument geprüft haben, können Sie im Korrektur
 ### Entscheidung im Korrekturabzug ändern
 
 1. Öffnen Sie den Korrekturabzug für das Dokument.
-1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
+1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
 
    Das [!UICONTROL Entscheidung treffen] zeigt Ihre aktuelle Entscheidung an.
 

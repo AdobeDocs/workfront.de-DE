@@ -84,7 +84,7 @@ Beachten Sie die folgenden Regeln, wenn Sie EXISTS-Anweisungen in einem Filter v
 
 * Wenn ein Verknüpfungsobjekt fehlt, weil das Original- und das Zielobjekt direkt miteinander verbunden sind, können Sie den Objektcode des Zielobjekts anstelle des Verknüpfungsobjekts verwenden.
 * Sie können auf mehrere Felder (Zielfelder) desselben Objekts (Zielobjekt) verweisen. In diesem Fall müssen Sie die Zeilen verbinden, die auf die Felder durch UND verweisen.\
-  Portfolio Ein Beispiel für das Filtern nach mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Namen des Aufgabenbesitzers und ID der Scorecard für die Ausrichtung des Portfolios ](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel.
+  Portfolio Ein Beispiel für das Filtern nach mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Namen des Aufgabenbesitzers und ID der Scorecard für die Ausrichtung des Portfolios &#x200B;](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel.
 
 * Der einzige für eine EXISTS-Anweisung unterstützte Modifikator ist NOTEXISTS.
 
@@ -140,7 +140,7 @@ Sie können einen Filter erstellen, der auf Objekte über mehrere Ebenen der Obj
 
 Sie müssen immer eine EXISTS-Anweisung und die Textmodus-Schnittstelle verwenden, um diesen Filter zu erstellen.
 
-Beispiele für Filter finden Sie im Abschnitt [Beispiel 1: Nach Namen des Portfolios nach ](#example-1-filter-for-issues-by-portfolio-owner-name) filtern) in diesem Artikel.
+Beispiele für Filter finden Sie im Abschnitt [Beispiel 1: Nach Namen des Portfolios nach &#x200B;](#example-1-filter-for-issues-by-portfolio-owner-name) filtern) in diesem Artikel.
 
 So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierarchie erstreckt:
 
@@ -220,7 +220,7 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
    EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Ein Beispiel für das Reporting zu benutzerdefinierten Feldern, die nicht mit benutzerdefinierter Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Filtern nach fehlenden Objekten: Benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular ](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) werden in diesem Artikel.
+   Ein Beispiel für das Reporting zu benutzerdefinierten Feldern, die nicht mit benutzerdefinierter Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Filtern nach fehlenden Objekten: Benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular &#x200B;](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) werden in diesem Artikel.
 
 1. Klicken Sie auf **Filter speichern**.
 

@@ -29,7 +29,7 @@ So zeigen Sie die Rechnungsdetails Ihres Satellitenkontos an und verwalten diese
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung].
 1. Öffnen Sie das Dropdown-Menü oben auf der Seite (1) und wählen Sie dann das entsprechende Satellitenkonto aus. 2)
 
-   Weitere Informationen finden Sie auf [ Seite  [!DNL Workfront Proof] [!UICONTROL Abrechnung] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Weitere Informationen finden Sie auf [&#x200B; Seite  [!DNL Workfront Proof] [!UICONTROL Abrechnung] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
    ![satellite_account_billing_page__1_.png](assets/satellite-account-billing-page--1--350x167.png)
 

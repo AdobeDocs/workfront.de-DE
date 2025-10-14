@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens der Version 22.4 vorgenommen wurden. Diese Verbesserungen werden mindestens 2 Wochen nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Look-and-Feel-Aktualisierungen auf der Lizenzseite
 

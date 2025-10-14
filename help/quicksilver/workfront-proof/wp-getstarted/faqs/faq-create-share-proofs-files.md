@@ -31,7 +31,7 @@ Ein Korrekturabzug ist eine statische Audio- oder Videodatei, die in der Korrekt
 
 ### Antwort
 
-Testsendungen können aus statischen, Audio- und Videodateien erstellt werden. Dateien mit mehr als 4 GB können nicht hochgeladen werden. [!DNL Workfront] unterstützt mehr als 150 Dateitypen (eine vollständige Liste finden Sie [Unterstützte Proofing-Dateitypen ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) Größenbeschränkungen - Übersicht).
+Testsendungen können aus statischen, Audio- und Videodateien erstellt werden. Dateien mit mehr als 4 GB können nicht hochgeladen werden. [!DNL Workfront] unterstützt mehr als 150 Dateitypen (eine vollständige Liste finden Sie [Unterstützte Proofing-Dateitypen &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) Größenbeschränkungen - Übersicht).
 
 ## Was ist der Unterschied zwischen einem Korrekturabzug und einer Datei?
 

@@ -61,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Arbeit** hinzuzufügen.
 1. Suchen Sie das Arbeitselement und klicken Sie dann **[!UICONTROL Arbeitselement auf]**&#x200B;Als abgeschlossen markieren“.
-Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden ](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
+Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden &#x200B;](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
    ![Meine Arbeit als erledigt markieren](assets/my-work-done.png)
 
 
@@ -102,7 +102,7 @@ Wenn Sie keinem Home-Team zugewiesen sind, wird der Standardstatus ausgewählt, 
 
 Wenn die [!UICONTROL Fertig]-Schaltfläche mit mehreren Status verknüpft ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. In diesem Szenario können Sie nicht einfach auf &quot;[!UICONTROL &quot; &#x200B;]. Sie müssen einen Status aus dem Dropdown-Menü auswählen. Wählen Sie den Status aus, der am besten zum Abschluss des Arbeitselements passt. Auf diese Weise ändern Sie den Status des Arbeitselements.
 
-Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden [ unter Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
+Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden [&#x200B; unter Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 ### Schaltfläche [!UICONTROL Fertig] für Elemente, die mehreren Ressourcen zugewiesen sind
 

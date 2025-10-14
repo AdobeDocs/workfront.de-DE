@@ -84,7 +84,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    1. Speichern Sie das neue benutzerdefinierte Formular.
 
 1. Beschränken Sie den Zugriff auf das benutzerdefinierte Formular auf Benutzer mit Administratorzugriff, wie unter [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) beschrieben.
-1. Wenden Sie das neue benutzerdefinierte Formular auf die Objekte an, auf die das ursprüngliche benutzerdefinierte Formular bereits angewendet wurde, wie in [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt“ ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Wenden Sie das neue benutzerdefinierte Formular auf die Objekte an, auf die das ursprüngliche benutzerdefinierte Formular bereits angewendet wurde, wie in [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt“ &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Wenn Sie das neue benutzerdefinierte Formular auf diese Objekte anwenden, wird sichergestellt, dass historische Berichtsdaten nicht betroffen sind.
 

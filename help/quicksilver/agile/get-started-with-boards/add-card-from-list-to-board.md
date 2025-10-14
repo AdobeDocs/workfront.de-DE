@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 
@@ -93,7 +93,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 

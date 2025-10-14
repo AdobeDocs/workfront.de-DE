@@ -61,7 +61,7 @@ Die Deaktivierung von Benutzenden kann in verschiedenen Szenarien nützlich sein
 
 Diese Funktion ist auch bei der Massenbearbeitung von Benutzern verfügbar. 
 
-Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines ](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines &#x200B;](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Neue E-Mail-Digest-Optionen für „Aktionen erforderlich“
 

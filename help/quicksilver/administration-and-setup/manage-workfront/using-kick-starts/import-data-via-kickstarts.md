@@ -20,7 +20,7 @@ ht-degree: 6%
 
 <!--Audited: 12/2023-->
 
-Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Dieser Prozess ist in drei Hauptaufgaben unterteilt:
 

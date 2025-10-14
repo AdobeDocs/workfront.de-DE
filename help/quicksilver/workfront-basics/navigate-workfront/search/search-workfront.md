@@ -250,7 +250,7 @@ Diese Art der Suche ist hilfreich, wenn Sie sich ein Keyword, das mit einem Obje
 
 So führen Sie eine erweiterte Suche durch:
 
-1. Klicken Sie oben rechts auf einer beliebigen Seite in [!DNL Workfront] auf das Symbol **[!UICONTROL Suchen]** (![) ](assets/search-icon.png). Das Menü **Suche** wird angezeigt.
+1. Klicken Sie oben rechts auf einer beliebigen Seite in [!DNL Workfront] auf das Symbol **[!UICONTROL Suchen]** (![) &#x200B;](assets/search-icon.png). Das Menü **Suche** wird angezeigt.
 
 1. Klicken Sie unten im Menü **Suche** auf **[!UICONTROL Erweiterte Suche]**. Die **Suche** wird geöffnet, wobei die Registerkarte **Erweiterte Suche** standardmäßig ausgewählt ist.
    ![Erweiterte Suche](assets/qs-advanced-search-350x224.png)

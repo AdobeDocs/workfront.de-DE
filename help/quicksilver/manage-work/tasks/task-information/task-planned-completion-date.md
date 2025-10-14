@@ -20,7 +20,7 @@ Das geplante Abschlussdatum einer Aufgabe ist das Datum, bis zu dem die Aufgabe 
 
 Sie können entweder das geplante Abschlussdatum einer Aufgabe angeben oder es Adobe Workfront überlassen, es nach bestimmten Kriterien zu berechnen.
 
-Die geplanten Abschlussdaten von Aufgaben für ein Projekt bestimmen das geplante Abschlussdatum eines Projekts, wenn das Projekt ab dem Startdatum geplant wird. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Die geplanten Abschlussdaten von Aufgaben für ein Projekt bestimmen das geplante Abschlussdatum eines Projekts, wenn das Projekt ab dem Startdatum geplant wird. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >

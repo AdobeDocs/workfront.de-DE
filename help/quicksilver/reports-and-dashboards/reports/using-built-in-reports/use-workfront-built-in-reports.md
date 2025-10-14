@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Übersicht über integrierte Berichte {#overview-of-built-in-reports}
 
-Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die Berichte stehen allen Benutzern zur Verfügung, die zumindest Ansichtsrechte für integrierte Berichte in ihrer Zugriffsebene haben.
 

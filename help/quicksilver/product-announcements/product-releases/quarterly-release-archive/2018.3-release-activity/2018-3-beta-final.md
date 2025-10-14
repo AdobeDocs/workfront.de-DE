@@ -30,7 +30,7 @@ Die Beta-Endversion 2018.3 enthält die folgenden Verbesserungen:
 * [Aktualisierungen für das Hinzufügen neuer Aufgaben auf der Startseite](#updates-for-adding-new-tasks-in-home)
 * [Proofing-Markup-Tools sind jetzt standardmäßig erweitert](#proofing-markup-tools-now-expanded-by-default)
 * [Microsoft OneDrive-Dokumentintegration](#microsoft-onedrive-document-integration)
-* Integration von [Workfront für Microsoft Teams ](#workfront-for-microsoft-teams-integration)
+* Integration von [Workfront für Microsoft Teams &#x200B;](#workfront-for-microsoft-teams-integration)
 * [Aktualisierte Integration von Workfront für Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Verbesserungen an Workfront Mobile Apps](#workfront-mobile-app-improvements)
 
@@ -84,7 +84,7 @@ Die Integration ist für alle Kunden, die einen Workfront Professional-Plan oder
 
 >[!NOTE]
 >
-> Einige Bereiche der im folgenden Video beschriebenen Integration wurden geändert. Die neuesten Informationen zu Workfront für Microsoft Teams finden Sie im Abschnitt [[!DNL Adobe Workfront for Microsoft Teams]: ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) .
+> Einige Bereiche der im folgenden Video beschriebenen Integration wurden geändert. Die neuesten Informationen zu Workfront für Microsoft Teams finden Sie im Abschnitt [[!DNL Adobe Workfront for Microsoft Teams]: &#x200B;](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) .
 
 ## Aktualisierte Integration von Workfront für Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 

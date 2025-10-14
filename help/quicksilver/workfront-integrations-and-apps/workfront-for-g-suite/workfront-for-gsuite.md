@@ -42,11 +42,11 @@ Diese Hilfeartikel können Ihnen bei den ersten Schritten mit [!DNL Workfront fo
 
 In diesen wird erläutert, wie Sie [!DNL Workfront] Objekte verwalten, ohne [!DNL Google Workspace] verlassen zu müssen:
 
-* [ [!DNL Adobe Workfront] -Inhalte von [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+* [&#x200B; [!DNL Adobe Workfront] -Inhalte von [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [Aktualisieren eines [!DNL Adobe Workfront] Objekts aus [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
 * [Dokumente anzeigen und verwalten in [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
 * [Anzeigen und Verwalten  [!DNL Adobe Workfront]  Objektdetails in [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-* [ [!DNL Adobe Workfront]  von [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+* [&#x200B; [!DNL Adobe Workfront]  von [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
 In diesen wird erläutert, wie Sie Details zu einem Arbeitselement anzeigen und darauf reagieren können, wenn Sie eine E-Mail mit einer [!DNL Workfront] erhalten.
 

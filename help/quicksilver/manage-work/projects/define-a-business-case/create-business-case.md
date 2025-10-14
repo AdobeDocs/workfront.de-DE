@@ -104,7 +104,7 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
    >
    >Die hier angezeigten Informationen entsprechen den Informationen, die in den Tools für die Ressourcenbudgetierung auf Systemebene angezeigt werden.
 
-1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [ Abschnitt ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [&#x200B; Abschnitt &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
 
    Scorecards müssen erstellt werden, bevor sie mit Projekten verbunden werden können.

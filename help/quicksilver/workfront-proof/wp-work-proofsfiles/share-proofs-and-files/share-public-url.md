@@ -31,7 +31,7 @@ Eine Option zum Signieren ist ebenfalls vorhanden, sodass sich Personen, die spe
 
 Wenn Abonnements für den Korrekturabzug aktiviert sind, kann sich jeder, der Zugriff auf die Korrekturabzugs-URL hat, für den Korrekturabzug selbst abonnieren (fügen Sie sich also dem Überprüfungszyklus mit der vom Testversand-Besitzer angegebenen Standardrolle hinzu).
 
-Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 So verwenden Sie die öffentliche URL eines Korrekturabzugs:
 
@@ -53,7 +53,7 @@ Wenn er/sie nicht bereits eine Prüferin bzw. einen Prüfer für den Korrekturab
 >
 >Abonnements können deaktiviert werden. In diesem Fall können sie den Korrekturabzug nicht abonnieren.
 
-Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 So greifen Sie über eine öffentliche URL auf den Korrekturabzug zu:
 

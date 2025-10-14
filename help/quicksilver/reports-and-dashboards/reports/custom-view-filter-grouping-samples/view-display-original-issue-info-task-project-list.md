@@ -26,7 +26,7 @@ Informationen zum Erstellen einer Ansicht mit dem standardmäßigen Report Build
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

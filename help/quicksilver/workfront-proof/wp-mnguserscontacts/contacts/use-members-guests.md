@@ -23,11 +23,11 @@ ht-degree: 0%
 
 Benutzer, Mitglieder und Gäste sind die drei Kontakttypen, mit denen Sie auf der Seite „Kontakte“ arbeiten können.
 
-Weitere [ zur Seite „Kontakte“ finden  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) unter „Verwalten Ihrer Kontakte in“.
+Weitere [&#x200B; zur Seite „Kontakte“ finden  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) unter „Verwalten Ihrer Kontakte in“.
 
 * **Benutzende**
 
-  Benutzer verfügen über eine [!DNL Workfront Proof] Anmeldung im Konto Ihres Unternehmens. Wenn Sie [!DNL Workfront Proof] sind, können Sie einen neuen Benutzer hinzufügen. Weitere Informationen finden [ unter &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) mit erstellen“.
+  Benutzer verfügen über eine [!DNL Workfront Proof] Anmeldung im Konto Ihres Unternehmens. Wenn Sie [!DNL Workfront Proof] sind, können Sie einen neuen Benutzer hinzufügen. Weitere Informationen finden [&#x200B; unter &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) mit erstellen“.
 
 * **Mitglieder**
 

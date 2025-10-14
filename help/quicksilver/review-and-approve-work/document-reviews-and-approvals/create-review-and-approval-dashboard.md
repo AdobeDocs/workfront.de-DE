@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Ausstehende Genehmigungen
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Überfällige Genehmigungen
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -148,7 +148,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 #### Abgeschlossene Genehmigungen
 
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -200,7 +200,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Abgebrochene Genehmigungen
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -256,7 +256,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Validierungen nach Entscheidungsbalkendiagramm
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -291,7 +291,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Überarbeitungen Balkendiagramm
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -342,7 +342,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
 
 ### Liste der ausstehenden Genehmigungen
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -440,7 +440,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 
 ### Liste der überfälligen Genehmigungen
 
-1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 

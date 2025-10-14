@@ -230,7 +230,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
 1. Führen Sie einen der folgenden Schritte aus, um Konflikte mit Aufgabengebieten zu lösen:
 
    * Passen Sie die Anzahl der Aufgabengebiete für jeden Monat der Initiative manuell auf eine niedrigere Zahl an.
-   * Bewegen Sie den Mauszeiger über den Namen des Aufgabengebiets und klicken Sie auf das Symbol **[!UICONTROL Löschen]**![ Löschen](assets/delete.png), um das Aufgabengebiet aus der Initiative zu entfernen.
+   * Bewegen Sie den Mauszeiger über den Namen des Aufgabengebiets und klicken Sie auf das Symbol **[!UICONTROL Löschen]**![&#x200B; Löschen](assets/delete.png), um das Aufgabengebiet aus der Initiative zu entfernen.
    * Wählen Sie **[!UICONTROL Rollen zu den verfügbaren Ressourcen des Szenarios hinzufügen]** und klicken Sie dann auf **[!UICONTROL Anwenden]**.
 
      Dadurch wird die fehlende Anzahl von Aufgabengebiets-VZÄ oder Stunden zum Feld „Verfügbar[!UICONTROL &#x200B; des &#x200B;] hinzugefügt.
@@ -239,9 +239,9 @@ Dies kann in jedem der folgenden Fälle eintreten:
      >
      >Mit den Rollen, die Sie zum Beheben der Konflikte hinzufügen, [!UICONTROL &#x200B; die Aufgabengebiete &#x200B;]Verfügbar“ für das ausgewählte Szenario und nicht für alle Szenarien im Plan geändert.
 
-     Ein grüner Aufwärtspfeil (![ grüner Aufwärtspfeil) ](assets/upward-green-arrow.png) den Monat in der Zeitleiste des Plans an, um anzugeben, dass dem Plan in diesem Monat weitere Ressourcen hinzugefügt wurden. Sie müssen die Ansicht [!UICONTROL Monat] auswählen, um diesen Indikator anzuzeigen.
+     Ein grüner Aufwärtspfeil (![&#x200B; grüner Aufwärtspfeil) &#x200B;](assets/upward-green-arrow.png) den Monat in der Zeitleiste des Plans an, um anzugeben, dass dem Plan in diesem Monat weitere Ressourcen hinzugefügt wurden. Sie müssen die Ansicht [!UICONTROL Monat] auswählen, um diesen Indikator anzuzeigen.
 
-   * (Bedingt) Schließen Sie das Bedienfeld Details und geben Sie der Initiative eine höhere Priorität, um Budgetressourcen vom Plan nach Möglichkeit zuerst zu erhalten. Informationen zum Aktualisieren der Priorität der Initiative finden [ unter „Aktualisieren der Prioritäten der Initiative im ](../scenario-planner/prioritize-initiatives.md)&quot;.
+   * (Bedingt) Schließen Sie das Bedienfeld Details und geben Sie der Initiative eine höhere Priorität, um Budgetressourcen vom Plan nach Möglichkeit zuerst zu erhalten. Informationen zum Aktualisieren der Priorität der Initiative finden [&#x200B; unter „Aktualisieren der Prioritäten der Initiative im &#x200B;](../scenario-planner/prioritize-initiatives.md)&quot;.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Details ausblenden]**, um das zusätzliche Detailfeld zu schließen, und klicken Sie dann auf **[!UICONTROL Übernehmen]**, um die Änderungen zu speichern, die Sie an den Aufgabengebieten vornehmen.
 

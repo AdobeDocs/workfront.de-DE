@@ -88,7 +88,7 @@ Wenn ein(e) Benutzende(r) in eine Konversation über die Aufgabe, das Problem, d
 
 Wird eine Konversation zu einem Projekt hinzugefügt, wird eine E-Mail mit dem zweiten Betreff generiert. Hier enthält die Betreffzeile „topReferenceObject:name“, und Workfront identifiziert erneut, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von „topReferenceObject:name“ im Betreff zurück. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Projekt-ABC“.
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für &#x200B;](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
 
 ## E-Mail-Betreffzeilen für E-Mails mit mehreren Aktionen anpassen
 
@@ -100,4 +100,4 @@ Die Anforderung, ein Dokument zu einem Problem hinzuzufügen, ist beispielsweise
 
 ![Ereignis hat nicht mehrere Betreffzeilen](assets/Ev-not-mult-subj-lines.png)
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für &#x200B;](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.

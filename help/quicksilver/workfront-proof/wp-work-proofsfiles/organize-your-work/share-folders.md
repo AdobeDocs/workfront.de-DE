@@ -97,4 +97,4 @@ Die Freigabe eines Ordners für einen Partner bedeutet:
 * Alle Benutzer in dieser Organisation haben schreibgeschützten Zugriff auf den Ordner (und die Ordnerelemente).
 * Alle neuen Benutzer, die der Organisation hinzugefügt werden, haben automatisch schreibgeschützten Zugriff auf den Ordner (und alle Elemente im Ordner).
 
-Weitere Informationen [ Sie unter „Freigeben von Elementen für einen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) in“.
+Weitere Informationen [&#x200B; Sie unter „Freigeben von Elementen für einen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) in“.

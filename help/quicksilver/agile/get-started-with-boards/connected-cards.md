@@ -204,7 +204,7 @@ So trennen Sie die Verbindung auf Kartenebene:
 
 ## Konvertieren einer Ad-hoc-Karte in eine verbundene Karte
 
-Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [ unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [&#x200B; unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Rufen Sie die Pinnwand auf und öffnen Sie die Ad-hoc-Karte.
 1. Überprüfen Sie den Namen und die Beschreibung auf der Karte. Sie werden zu der Aufgabe oder dem Problem hinzugefügt, die bzw. das Sie in [!DNL Workfront] erstellen.

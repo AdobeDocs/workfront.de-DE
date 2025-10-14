@@ -106,7 +106,7 @@ Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgend
 
 * Auf dem Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Benutzern ermöglichen, die Standardwährung für ein Aufgabengebiet zu ändern
 

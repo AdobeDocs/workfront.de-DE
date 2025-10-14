@@ -69,7 +69,7 @@ Die folgenden Ressourcen wurden für die API-Version 13 geändert.
 
 Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

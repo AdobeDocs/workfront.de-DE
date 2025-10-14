@@ -89,7 +89,7 @@ Sie können über eine [!DNL Basecamp Classic] auf einen Korrekturabzug zugreife
 
 ## Überprüfen eines Korrekturabzugs in [!DNL Basecamp]
 
-Der Mini-Korrekturabzug in [!DNL Basecamp] bietet Ihnen die Tools, die Sie hinzufügen müssen, um [ Korrekturabzug in der Korrekturabzugsansicht ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) entscheiden. Alle dem Projekt zugewiesenen Benutzer sehen Ihre Markierungen und Kommentare und können mit ihren eigenen Kommentaren in Echtzeit antworten.
+Der Mini-Korrekturabzug in [!DNL Basecamp] bietet Ihnen die Tools, die Sie hinzufügen müssen, um [&#x200B; Korrekturabzug in der Korrekturabzugsansicht &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) entscheiden. Alle dem Projekt zugewiesenen Benutzer sehen Ihre Markierungen und Kommentare und können mit ihren eigenen Kommentaren in Echtzeit antworten.
 
 Wenn Sie den Korrekturabzug öffnen, wird der Korrekturabzug im Fenster [!UICONTROL Proofing] (1) angezeigt, und der Name des Korrekturabzugs und die Versionsnummer werden in der oberen linken Ecke (2) angezeigt.
 

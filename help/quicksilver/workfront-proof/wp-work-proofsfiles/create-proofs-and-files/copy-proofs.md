@@ -42,7 +42,7 @@ Die im ursprünglichen Korrekturabzug enthaltenen Reviewer werden automatisch im
 1. (Optional) Um den KopierKorrekturabzug umzubenennen, geben Sie einen neuen **[!UICONTROL Korrekturabzugsnamen]** ein.
 1. (Optional) Führen Sie im Abschnitt **[!DNL Share]** einen der folgenden Schritte aus:
 
-   * Fügen Sie dem Testversand Prüfer hinzu. Weitere Informationen finden [ unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in . Informationen zum Hinzufügen von Gruppen zu einem Korrekturabzug finden Sie unter [Hinzufügen von Gruppen zu einem Korrekturabzug](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
+   * Fügen Sie dem Testversand Prüfer hinzu. Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in . Informationen zum Hinzufügen von Gruppen zu einem Korrekturabzug finden Sie unter [Hinzufügen von Gruppen zu einem Korrekturabzug](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
 
    * Weisen Sie einem Reviewer eine Korrekturabzugsrolle zu. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
    * Festlegen von E-Mail-Warnungen für Prüfer. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).

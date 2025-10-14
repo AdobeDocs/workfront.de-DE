@@ -48,15 +48,15 @@ Die neue Korrekturabzugs-E-Mail enthält:
 
      Auf diese Weise können Sie die Korrekturabzugs-URL und/oder den Download-Link für die Originaldatei freigeben. Dadurch können Sie dem Korrekturabzug keine Prüfer explizit hinzufügen. Sie geben nur die öffentliche Korrekturabzugs-URL frei und der Empfänger erhält nur Lesezugriff auf den Korrekturabzug.
 
-     Weitere Informationen finden [ unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in .
+     Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in .
 
      Wenn dieser Link nicht in der E-Mail des Empfängers angezeigt werden soll, können Sie die Einstellungen [!UICONTROL Öffentliche Freigabe] für den Testversand deaktivieren
 
-     (Originaldatei und öffentliche URL herunterladen). Weitere Informationen [ Sie unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) von Korrekturabzugsdetails in .
+     (Originaldatei und öffentliche URL herunterladen). Weitere Informationen [&#x200B; Sie unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) von Korrekturabzugsdetails in .
 
 ## Das Aktivitätsprotokoll
 
-Das Senden einer E[!UICONTROL Mail &#x200B;]Neuer Korrekturabzug) an eine Überprüfende wird im Abschnitt [!UICONTROL Aktivität] der Seite [!UICONTROL Details des Korrekturabzugs] protokolliert. Weitere Informationen finden [ unter [!UICONTROL Verwalten] Korrekturabzugsdetails [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) in. Sie können überprüfen, ob die [!UICONTROL Neuer Korrekturabzug]-E-Mail zum Zeitpunkt der Erstellung eines Korrekturabzugs aktiviert war.
+Das Senden einer E[!UICONTROL Mail &#x200B;]Neuer Korrekturabzug) an eine Überprüfende wird im Abschnitt [!UICONTROL Aktivität] der Seite [!UICONTROL Details des Korrekturabzugs] protokolliert. Weitere Informationen finden [&#x200B; unter [!UICONTROL Verwalten] Korrekturabzugsdetails [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) in. Sie können überprüfen, ob die [!UICONTROL Neuer Korrekturabzug]-E-Mail zum Zeitpunkt der Erstellung eines Korrekturabzugs aktiviert war.
 
 ![New_Version_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

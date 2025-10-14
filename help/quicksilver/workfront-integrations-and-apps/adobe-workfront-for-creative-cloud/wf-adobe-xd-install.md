@@ -75,7 +75,7 @@ Wenn Sie [!DNL Adobe Admin Console] sind, können Sie das Plug-in in [!DNL Creat
 
 Sie können das [!DNL Adobe Workfront for XD]-Plug-in über die [!DNL Adobe Exchange] selbst installieren.
 
-1. Navigieren Sie zur [Adobe Workfront für XD-](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) auf der Adobe Exchange.
+1. Navigieren Sie zur [Adobe Workfront für XD-](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) auf der Adobe Exchange.
 1. Klicken Sie im angezeigten Dialogfeld auf **[!DNL Adobe Creative Cloud] Desktop-Programm öffnen**.
 1. Sobald [!DNL Adobe XD] Plug-in-Manager geöffnet ist, klicken Sie auf **[!UICONTROL Installieren]**.
 1. Lesen Sie die Informationen im Dialogfeld und klicken Sie dann auf **[!UICONTROL OK]**.

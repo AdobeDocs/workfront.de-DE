@@ -86,7 +86,7 @@ Dieses Update ist sowohl für Mac als auch für Windows.
 >
 >* Vorschau-Version: 2. Juni 2025; Produktionsversion für alle Kunden: 2. Juni 2025
 
-Google [ die Sicherheitskontrollen ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) Drittanbieteranwendungen, die auf Google Drive zugreifen, und erfordert, dass Anwendungen ein Einverständnismodell pro Benutzer verwenden. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Weitere Informationen [ Sie unter ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) von Dokumentintegrationen konfigurieren .
+Google [&#x200B; die Sicherheitskontrollen &#x200B;](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) Drittanbieteranwendungen, die auf Google Drive zugreifen, und erfordert, dass Anwendungen ein Einverständnismodell pro Benutzer verwenden. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) von Dokumentintegrationen konfigurieren .
 
 Wichtige Funktionen, die unverändert bleiben:
 

@@ -37,7 +37,7 @@ Informationen zum Hinzufügen eines Freiberuflers zu Ihrem Team finden Sie unter
 
 >[!NOTE]
 >
->Freiberufler, die zu Ihrem Konto hinzugefügt werden, da Benutzer Einblick in Ihr Konto haben und möglicherweise auch Kundendetails sehen können (je nach Benutzerprofil). Dies ist möglicherweise nicht das, was Sie möchten. Daher wäre es vielleicht besser, ein Satellitenkonto für Ihre Freiberufler einzurichten. Siehe [Einrichten eines Satellitenkontos für Ihre Freiberufler](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) unten.
+>Freiberufler, die zu Ihrem Konto hinzugefügt werden, da Benutzer Einblick in Ihr Konto haben und möglicherweise auch Kundendetails sehen können (je nach Benutzerprofil). Dies ist möglicherweise nicht das, was Sie möchten. Daher wäre es vielleicht besser, ein Satellitenkonto für Ihre Freiberufler einzurichten. Siehe [Einrichten eines Satellitenkontos für Ihre Freiberufler](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) unten.
 
 ## Einrichten eines Satellitenkontos für Freiberufler
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront ist ein Programm für das Arbeits-Management, mit dem Sie den gesamten Arbeitszyklus an einem Ort verwalten können. Durch die Integration von Workfront und Experience Manager Assets können Unternehmen die Geschwindigkeit von Inhalten und die Zeit bis zur Markteinführung verbessern, indem sie Workfront und Digital Asset Management miteinander verbinden. Im Rahmen der Verwaltung ihrer Arbeit in Workfront haben Benutzende Zugriff auf die erforderlichen Dokumente und die Bilder.
 
-Der erweiterte Connector von Workfront für Experience Manager ermöglicht erweiterte Geschäftsprozesse mit durchgängigen Workflows und bietet durchgängige, personalisierte Kundenerlebnisse und zentralen Speicher. Weitere Informationen zu den Funktionen des erweiterten Connectors finden Sie unter [ im erweiterten Connector ](#what-s-new-in-the-enhanced-connector) diesem Artikel.
+Der erweiterte Connector von Workfront für Experience Manager ermöglicht erweiterte Geschäftsprozesse mit durchgängigen Workflows und bietet durchgängige, personalisierte Kundenerlebnisse und zentralen Speicher. Weitere Informationen zu den Funktionen des erweiterten Connectors finden Sie unter [&#x200B; im erweiterten Connector &#x200B;](#what-s-new-in-the-enhanced-connector) diesem Artikel.
 
 >[!IMPORTANT]
 >

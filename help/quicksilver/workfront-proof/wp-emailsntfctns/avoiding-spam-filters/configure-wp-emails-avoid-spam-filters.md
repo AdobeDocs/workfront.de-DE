@@ -27,7 +27,7 @@ Um sicherzustellen, dass Ihre [!DNL Workfront Proof]-E-Mails immer an Ihren Post
 * [!DNL Workfront Proof]-Mailserver: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-E-Mail-Adressen (z. B. notification@proofhq.com)
 
-Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste auf die Zulassungsliste setzte hinzufügen können, finden [ unter „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) im Artikel [Konfigurieren der Firewall-Zulassungsliste ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste auf die Zulassungsliste setzte hinzufügen können, finden [&#x200B; unter „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) im Artikel [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] E[!UICONTROL Mail]Adressen „Von“
 

@@ -25,7 +25,7 @@ Datensicherheit ist für [!DNL Workfront Proof] von größter Bedeutung. Wir inv
 
 Dadurch bieten wir unseren Kunden ein unübertroffenes Maß an Sicherheit und Datenschutz.
 
-Weitere Einzelheiten finden Sie auf [ Seite ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)Sicherheitsübersicht“.
+Weitere Einzelheiten finden Sie auf [&#x200B; Seite &#x200B;](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)Sicherheitsübersicht“.
 
 ## Elektronische Signaturen erforderlich
 

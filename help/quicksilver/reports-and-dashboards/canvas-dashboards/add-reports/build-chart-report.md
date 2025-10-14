@@ -123,7 +123,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
 
-   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![ Filter](assets/filter-icon.png).
+   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![&#x200B; Filter](assets/filter-icon.png).
    1. Wählen Sie **Filter bearbeiten** aus.
    1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
    1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.

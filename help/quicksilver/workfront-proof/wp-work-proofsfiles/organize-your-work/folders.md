@@ -27,7 +27,7 @@ Ordner sind die beste Möglichkeit, Ihre Arbeit in Ihrem [!DNL Workfront Proof]-
 
 Die Verwendung von Ordnern bietet die folgenden Vorteile:
 
-* **Zugriff auf vertrauliche Kundendaten einschränken**: Wenn Sie nicht möchten, dass einige Ihrer Benutzer einige Ihrer Korrekturabzüge sehen, können Sie die Ordner, in denen sie gespeichert sind, als privat festlegen. Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+* **Zugriff auf vertrauliche Kundendaten einschränken**: Wenn Sie nicht möchten, dass einige Ihrer Benutzer einige Ihrer Korrekturabzüge sehen, können Sie die Ordner, in denen sie gespeichert sind, als privat festlegen. Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * **Massenaktionen für Korrekturabzüge und Dateien durchführen**: Sie können Korrekturabzüge und Dateien, die in Ordnern gruppiert sind, bequem verwalten, indem Sie Massenaktionen für sie durchführen. Sie können beispielsweise mehrere Elemente in einer Aktion freigeben. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 

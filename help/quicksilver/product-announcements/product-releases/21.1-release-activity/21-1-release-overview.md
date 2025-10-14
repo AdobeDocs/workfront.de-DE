@@ -392,7 +392,7 @@ Weitere Informationen zu Ersatzlösungen für jedes spezifische Flash-basierte T
 
 ### Webinar zur Version 21.1 {#21-1-release-webinar}
 
-Das Workfront-Webinar Version 21.1 wird am 3. Februar um 11:00 Uhr EDT/16:00 Uhr BST präsentiert. Registrieren Sie sich für das Webinar [hier](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+Das Workfront-Webinar Version 21.1 wird am 3. Februar um 11:00 Uhr EDT/16:00 Uhr BST präsentiert. Registrieren Sie sich für das Webinar [hier](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Änderung des Veröffentlichungsintervalls für die Vorschau {#change-in-preview-release-cadence}
 

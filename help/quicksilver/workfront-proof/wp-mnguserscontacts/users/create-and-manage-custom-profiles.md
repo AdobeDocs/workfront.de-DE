@@ -41,10 +41,10 @@ Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL
 Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 * Öffentliche Ordner
-Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Private Ordner
-Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Kontakte
 Weitere Informationen finden Sie unter [Kontakte](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
@@ -176,7 +176,7 @@ Erstellen Sie Kopien eines vorhandenen Profils, um mehrere Profile mit ähnliche
    ![screen_shot_2018-04-06_12-34-41.png](assets/screenshot-2018-04-06-12-34-41.png)
 
 1. (Optional) Informationen zum Aktivieren des kopierten Profils finden Sie unter [Aktivieren und Deaktivieren eines Profils](#enabling-and-disabling-a-profile).
-1. (Optional) Informationen zum Bearbeiten des kopierten Profils finden Sie unter [ eines Profils](#editing-a-profile).
+1. (Optional) Informationen zum Bearbeiten des kopierten Profils finden Sie unter [&#x200B; eines Profils](#editing-a-profile).
 
 ## Profil bearbeiten {#editing-a-profile}
 

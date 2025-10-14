@@ -34,4 +34,4 @@ Jetzt können Sie:
 
 Informationen zum Konfigurieren verknüpfter Ordner in den Adobe Experience Manager-Workflows finden Sie unter [Erstellen von verknüpften Adobe Experience Manager-Ordnern](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
 
-Informationen zur Verwendung der Adobe Experience Manager-Workflows in Projekten oder Projektvorlagen finden Sie unter [ von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Informationen zur Verwendung der Adobe Experience Manager-Workflows in Projekten oder Projektvorlagen finden Sie unter [&#x200B; von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

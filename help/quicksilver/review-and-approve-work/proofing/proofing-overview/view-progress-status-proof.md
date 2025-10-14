@@ -21,7 +21,7 @@ Sie können Informationen darüber, wie ein Korrekturabzug im Überprüfungsproz
 
 Der Korrekturabzug-Fortschritt gibt die Arbeit an, die an einem Korrekturabzug durchgeführt wurde, und zwar von dem Zeitpunkt, an dem Sie den Korrekturabzug an die Empfänger senden, bis zu dem Zeitpunkt, an dem sie eine Entscheidung über den Korrekturabzug treffen. Die Fortschrittssymbole S, O, C und D werden neben dem Namen des Korrekturabzugs angezeigt und geben Informationen zum Fortschritt des Korrekturabzugs an.
 
-![Korrekturabzug - vorhandener Fortschritt ](assets/proof-edit-existing-progress-350x62.png)
+![Korrekturabzug - vorhandener Fortschritt &#x200B;](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ Die Fortschrittssymbole können in den folgenden Farben angezeigt werden, um bes
 
 Der Korrekturabzugsstatus zeigt den Status der Entscheidungen an, die für den Korrekturabzug erforderlich sind. Der Status des Testversands wird vom Teilnehmer mit dem „Worst Case“-Status gesteuert. Angenommen, es gibt drei Entscheidungen zum Korrekturabzug: zwei haben den Status **Akzeptiert** und eine den Status **Abgelehnt**. Die Worst-Case-Entscheidung **Abgelehnt** überlagert die anderen Entscheidungen, und der Gesamtstatus des Korrekturabzugs wird als **Abgelehnt** angezeigt. 
 
-![Korrekturabzug - vorhandener Fortschritt ](assets/proof-edit-existing-progress-350x62.png)
+![Korrekturabzug - vorhandener Fortschritt &#x200B;](assets/proof-edit-existing-progress-350x62.png)
 
 Die Standardstatusoptionen lauten wie folgt:
 

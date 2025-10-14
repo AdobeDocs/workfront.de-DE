@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom dritten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [&#x200B; zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Für Projekte und Aufgaben verfügbare Felder „Abrechenbare und nicht abrechenbare Ausgaben“
 

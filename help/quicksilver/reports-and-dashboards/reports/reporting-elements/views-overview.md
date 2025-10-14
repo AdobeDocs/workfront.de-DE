@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Überlegungen zu Ansichten
 

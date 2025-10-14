@@ -40,9 +40,9 @@ Informationen zum Verwalten automatisierter Workflow-Korrekturabzüge finden Sie
 
    >[!NOTE]
    >
-   >Nur [!DNL Workfront Proof] Benutzer haben über die Korrekturabzugsansicht Zugriff auf die Seite mit den Korrekturabzugsdetails. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000911887-Users)Benutzer“.
+   >Nur [!DNL Workfront Proof] Benutzer haben über die Korrekturabzugsansicht Zugriff auf die Seite mit den Korrekturabzugsdetails. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000911887-Users)Benutzer“.
 
-   Siehe auch [Bearbeiten von Korrekturabzugphasen und ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md) und [Konfigurieren der Korrekturabzugseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+   Siehe auch [Bearbeiten von Korrekturabzugphasen und &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md) und [Konfigurieren der Korrekturabzugseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
 ## Informationen und Optionen auf der Seite Korrekturabzugsdetails
 
@@ -61,7 +61,7 @@ Auf der Seite mit den Details zum Testversand finden Sie folgende Informationen.
 
    * **Verantwortlicher:** Person, der der Korrekturabzug gehört. Hier können Sie einen anderen Verantwortlichen für den Testversand auswählen. Weitere Informationen finden Sie unter [Profile für Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * **Delegiert:** Wenn die Abwesenheitsfunktion aktiviert ist, wird der delegierte Inhaber des Korrekturabzugs angezeigt. Weitere Informationen finden Sie unter &quot;[ von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **Delegiert:** Wenn die Abwesenheitsfunktion aktiviert ist, wird der delegierte Inhaber des Korrekturabzugs angezeigt. Weitere Informationen finden Sie unter &quot;[&#x200B; von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
    * **Erstellt** Uhrzeit und Datum, an dem der Korrekturabzug hochgeladen wurde.
    * **State:** Aktueller Status des Korrekturabzugs. Sie können den Status des Korrekturabzugs hier ändern. Weitere Informationen finden Sie unter [Anzeigen des Fortschritts und Status eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
@@ -88,7 +88,7 @@ Auf der Seite mit den Details zum Testversand finden Sie folgende Informationen.
         Wenn ein Korrekturabzug gesperrt ist, ist es nicht mehr möglich, den Korrekturabzug zu kommentieren und Entscheidungen zu treffen. Sie können einen Korrekturabzug so einstellen, dass er bei allen Entscheidungen automatisch gesperrt wird, indem Sie diese Einstellung auf den Korrekturabzug anwenden.
 
       * Wenn Sie eine neue Version eines Korrekturabzugs hochladen, wird die vorherige Version automatisch gesperrt. Weitere Informationen finden Sie unter .
-      * **[!UICONTROL Frühere Version ändern]**: dient der Verknüpfung separater Korrekturabzüge als Versionen innerhalb derselben Korrekturabzugskette (wobei alle Markierungen und Kommentare für jeden Korrekturabzug beibehalten werden). Dies muss über die Seite mit den Korrekturabzugsdetails des Korrekturabzugs erfolgen, bei dem es sich um die neueste Version des Korrekturabzugs handelt. Weitere Informationen [ Sie unter „Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) Korrekturabzugsversionen in“.
+      * **[!UICONTROL Frühere Version ändern]**: dient der Verknüpfung separater Korrekturabzüge als Versionen innerhalb derselben Korrekturabzugskette (wobei alle Markierungen und Kommentare für jeden Korrekturabzug beibehalten werden). Dies muss über die Seite mit den Korrekturabzugsdetails des Korrekturabzugs erfolgen, bei dem es sich um die neueste Version des Korrekturabzugs handelt. Weitere Informationen [&#x200B; Sie unter „Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) Korrekturabzugsversionen in“.
 
       * **[!UICONTROL Link zur vorherigen Version entfernen]**: Hiermit können Sie die Verknüpfung des aktuell angezeigten Korrekturabzugs mit dem übergeordneten Korrekturabzug (frühere Version) aufheben, ohne ihn mit einem anderen Korrekturabzug in Ihrem Konto zu verknüpfen. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsversionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) in [Verwalten von Korrekturabzugsversionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
@@ -101,7 +101,7 @@ Auf der Seite mit den Details zum Testversand finden Sie folgende Informationen.
 
      >[!NOTE]
      >
-     >Sie müssen über Bearbeitungsrechte für den Korrekturabzug verfügen, um die Korrekturabzugsschritte und die Details der Prüfer zu bearbeiten. Weitere Informationen finden [ unter „Verwalten von Korrekturabzug [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)Rollen in und [Profile für Korrekturabzugsberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)&quot;.
+     >Sie müssen über Bearbeitungsrechte für den Korrekturabzug verfügen, um die Korrekturabzugsschritte und die Details der Prüfer zu bearbeiten. Weitere Informationen finden [&#x200B; unter „Verwalten von Korrekturabzug [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)Rollen in und [Profile für Korrekturabzugsberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)&quot;.
 
    * Abschnitt **[!UICONTROL Weitere Freigabeoptionen]**: Ermöglicht die Aktivierung der Korrekturabzugs-URL und des Einbettungs-Codes. Wenn Sie die Basecamp-Integration mit [!DNL Workfront] Korrekturabzug verwenden, können Sie den Korrekturabzug auch zu einem [!DNL Basecamp] Projekt hinzufügen, das Projekt ändern, dem der Korrekturabzug hinzugefügt wurde (klicken Sie auf **[!UICONTROL Bearbeiten]**), und auf den Korrekturabzug in Basecamp zugreifen (klicken Sie auf den bereitgestellten Link).
 

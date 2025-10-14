@@ -93,7 +93,7 @@ Wenn Sie die eigenständige Workfront Proof verwenden, können Sie eine neue Ver
 
 >[!NOTE]
 >
->Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [ unter „Erstellen eines mehrseitigen ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
+>Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [&#x200B; unter „Erstellen eines mehrseitigen &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
 
 So erstellen Sie eine neue Version eines Korrekturabzugs in Workfront Proof:
 

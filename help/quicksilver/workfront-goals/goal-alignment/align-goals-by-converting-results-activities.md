@@ -128,7 +128,7 @@ Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgend
 
 1. Navigieren Sie zu einem Ziel mit einem Ergebnis oder einer Aktivität, die Sie in ein Ziel konvertieren möchten.
 1. Klicken Sie auf der Zielseite im linken Bereich **Fortschrittsanzeigen**.
-1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsindikatoren aus und klicken Sie dann oben in der Fortschrittsindikatorliste auf **In Ziel** Konvertieren![-Symbol ](assets/convert-to-goal-icon-unshimmed.png)In Ziel konvertieren . Das Feld In Ziel konvertieren wird geöffnet.
+1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsindikatoren aus und klicken Sie dann oben in der Fortschrittsindikatorliste auf **In Ziel** Konvertieren![-Symbol &#x200B;](assets/convert-to-goal-icon-unshimmed.png)In Ziel konvertieren . Das Feld In Ziel konvertieren wird geöffnet.
 
    ![In Zielfeld konvertieren](assets/convert-to-goal-box-unshimmed.png)
 1. Aktualisieren Sie die folgenden Informationen:

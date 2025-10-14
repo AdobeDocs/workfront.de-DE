@@ -109,7 +109,7 @@ Beachten Sie bei der Auswahl der Projektansicht im Ressourcenplaner Folgendes:
   Weitere Informationen finden Sie im Abschnitt Einschränkungen in der Projektansicht im Artikel [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 * Die Projekte werden in der Projektansicht nach ihrer Priorität aufgelistet.\
-  Weitere Informationen finden Sie [ Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
 
 * Wenn Sie die einzelnen Projekte erweitern, können Sie die damit verbundenen Aufgabengebiete anzeigen.
 
@@ -166,7 +166,7 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
   Weitere Informationen finden Sie unter Einschränkungen im Abschnitt „Benutzeransicht“ in [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
 * Die Projekte werden unter dem Benutzernamen in derselben Prioritätsreihenfolge aufgelistet wie in der Projektansicht.\
-  Weitere Informationen finden Sie [ Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
 
 * Wenn Benutzenden kein Aufgabengebiet zugeordnet ist, werden die Stunden- oder FTE-Werte im Abschnitt Keine Funktion aufgeführt.
 * Wenn diese Ansicht angewendet wird, summieren sich die Projektstunden oder VZÄ zu den Benutzerstunden oder VZÄ.

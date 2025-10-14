@@ -139,7 +139,7 @@ Wenn Sie eine Option zum Sortieren nach auswählen, werden alle Spalten sortiert
 
    Der Pfeil auf dem Sortierungssymbol gibt an, ob die Spalten in auf- oder absteigender Reihenfolge sortiert sind.
 
-   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) ](assets/sort-applied-boards.png).
+   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) &#x200B;](assets/sort-applied-boards.png).
 
    ![Sortieren nach Spalten auf einer Pinnwand](assets/sort-by-columns-in-board.png)
 

@@ -50,4 +50,4 @@ So bearbeiten Sie das Berechtigungsprofil für Korrekturabzüge eines/r Benutzen
    >   * Das Profilprotokoll des Benutzers (nur für diesen Benutzer zugänglich)
 
 
-Weitere Informationen zu Aktivitätsprotokollen finden Sie unter &quot;[ des Audit [!DNL Workfront Proof] Protokolls zu Aktivitäten](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+Weitere Informationen zu Aktivitätsprotokollen finden Sie unter &quot;[&#x200B; des Audit [!DNL Workfront Proof] Protokolls zu Aktivitäten](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

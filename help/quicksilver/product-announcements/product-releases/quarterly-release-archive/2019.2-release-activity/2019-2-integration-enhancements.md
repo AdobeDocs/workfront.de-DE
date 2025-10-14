@@ -32,7 +32,7 @@ Bei der Verwendung von Workfront für Microsoft Teams können Sie jetzt Folgende
 
   Vor dieser Verbesserung konnten Sie keine der Workfront-Benachrichtigungen in Microsoft Teams deaktivieren.
 
-  Weitere Informationen finden Sie unter [Verwalten von Workfront-Benachrichtigungen und Genehmigungsanfragen in Microsoft Teams ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  Weitere Informationen finden Sie unter [Verwalten von Workfront-Benachrichtigungen und Genehmigungsanfragen in Microsoft Teams &#x200B;](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Aktualisierte Integration von Workfront für Adobe Creative Cloud
 

@@ -182,9 +182,9 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
    ```
 
 1. Ersetzen **Spaltenname** durch den Namen Ihrer Spalte in der `displayname`.
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts in der `listmethod`, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts in der `listmethod`, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in der `valuefield`, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in der `valuefield`, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 
    Sie können **valueField** durch **valueExpression** ersetzen, wenn Sie einen benutzerdefinierten Ausdruck in Ihrer Ansicht erstellen möchten.
 
@@ -218,7 +218,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
      valueformat=HTML
      ```
 
-     Beachten Sie, dass Sie in einer Auflistung **Probleme** für die **listMethod**-Zeile anstelle von **opTasks** verwenden müssen, dem Datenbanknamen für Probleme. Informationen dazu, wann &quot;**&quot; und** &quot;**&quot; beim** von Problemen verwendet werden sollten, finden [ unter „Verwenden von „OpTask“ und „Problem“ beim Referenzieren von Problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Beachten Sie, dass Sie in einer Auflistung **Probleme** für die **listMethod**-Zeile anstelle von **opTasks** verwenden müssen, dem Datenbanknamen für Probleme. Informationen dazu, wann &quot;**&quot; und** &quot;**&quot; beim** von Problemen verwendet werden sollten, finden [&#x200B; unter „Verwenden von „OpTask“ und „Problem“ beim Referenzieren von Problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
    * Wenn Sie eine Liste der Aufgaben in einem Projektbericht zusammen mit dem primären Bearbeiter anzeigen möchten, verwenden Sie eine **valueExpression**-Zeile, um auf die Namen der Aufgaben neben den Namen des primären Beauftragten zu verweisen, anstatt auf **valueField**.
 
@@ -342,9 +342,9 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
 
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in , wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in , wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 1. Ersetzen Sie **Wert des Modifikators** durch einen gültigen Modifikator.
@@ -413,8 +413,8 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
    ```
 
 1. (Optional) Geben Sie an, ob diese Auswahl in der Eingabeaufforderung standardmäßig angezeigt wird.
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 
    Wenn Sie beispielsweise nach Projekten filtern, in denen der Name der Aufgabe „Marketing“ enthält, ersetzen Sie **Sammlungsobjektwert** durch **Marketing**.

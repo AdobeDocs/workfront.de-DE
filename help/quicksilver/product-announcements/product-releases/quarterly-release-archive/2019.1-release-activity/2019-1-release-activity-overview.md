@@ -142,7 +142,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Wenn die Sicherheitsrichtlinien Ihres Unternehmens die Verwendung der eigenständigen Desktop Proofing Viewer-App nicht zulassen, kann Ihr Workfront-Administrator jetzt interaktive Inhalte im Web Proofing Viewer aktivieren.
 
-* [Die standardmäßige Sortierreihenfolge für Kommentare im Proofing Viewer ist jetzt von „Von alt nach aktuell“ ](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [Die standardmäßige Sortierreihenfolge für Kommentare im Proofing Viewer ist jetzt von „Von alt nach aktuell“ &#x200B;](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   In der Korrekturabzugsansicht ist die standardmäßige Sortierreihenfolge für Kommentare zu einem Korrekturabzug jetzt von Alt nach Neu , wie in einer verbalen Konversation.
 

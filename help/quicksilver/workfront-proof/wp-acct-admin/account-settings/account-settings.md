@@ -27,7 +27,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [manage [!DNL Workfront Proof] users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
 * [Konfigurieren des Berechtigungsprofils für Korrekturabzüge von Benutzenden in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
 * [Konfigurieren Sie benutzerdefinierte Profile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-* [Konfigurieren von Single Sign-On für  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+* [Konfigurieren von Single Sign-On für  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 * [Single Sign-On [!DNL Workfront Proof]: AD FS-Konfiguration](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
 * [Korrekturabzug-Berechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
 * [Konfigurieren Sie die Optionen für Genehmigungsentscheidungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)

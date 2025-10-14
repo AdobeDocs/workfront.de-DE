@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [&#x200B; zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Backend-Änderung an produktinternen Handbüchern
 

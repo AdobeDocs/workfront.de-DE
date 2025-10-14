@@ -467,4 +467,4 @@ Im Folgenden finden Sie den Zeitrahmen für die Entfernung dieser SSO-Optionen:
 
 ### Webinar zur Produkt-Roadmap im 3. Quartal {#q3-product-roadmap-webinar}
 
-Erfahren Sie mehr über die nächsten Schritte während des [Q3-Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register)-Webinars am 1. August um 9:00 Uhr. MST.
+Erfahren Sie mehr über die nächsten Schritte während des [Q3-Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)-Webinars am 1. August um 9:00 Uhr. MST.

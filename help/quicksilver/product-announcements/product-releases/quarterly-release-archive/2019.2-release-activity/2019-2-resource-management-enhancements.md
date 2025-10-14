@@ -26,7 +26,7 @@ Sie können jetzt im Ressourcenplaner eine Einstellung aktivieren, mit der Sie d
 
 Vor dieser Verbesserung konnten Sie die Portfoliopriorität eines Projekts nicht im Ressourcenplaner anzeigen.
 
-Informationen zur Aktivierung dieser Einstellung finden Sie [ Abschnitt ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings)Einstellungen“ von [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Informationen zur Aktivierung dieser Einstellung finden Sie [&#x200B; Abschnitt &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings)Einstellungen“ von [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Filter im Ressourcenplaner freigeben
 

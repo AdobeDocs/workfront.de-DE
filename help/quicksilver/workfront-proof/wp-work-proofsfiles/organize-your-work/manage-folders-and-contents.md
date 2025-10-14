@@ -87,7 +87,7 @@ Sie können Ihre Dateien einfach über die Seite [!UICONTROL Ordnerdetails] verw
 
    * **[!UICONTROL Korrekturabzugsdetails anzeigen]** oder **[!UICONTROL Dateidetails anzeigen]**: Öffnet die Seite mit den Korrekturabzugsdetails oder Dateidetails. Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) oder [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-   * **[!UICONTROL Freigeben]**: Hiermit können Sie die Datei für weitere Personen freigeben. Weitere Informationen finden Sie unter &quot;[ in [!UICONTROL Workfront Proof freigeben]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
+   * **[!UICONTROL Freigeben]**: Hiermit können Sie die Datei für weitere Personen freigeben. Weitere Informationen finden Sie unter &quot;[&#x200B; in [!UICONTROL Workfront Proof freigeben]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
    * **[!UICONTROL Nachricht]**: Senden Sie eine E-Mail an die Personen, für die der Korrekturabzug freigegeben wurde.
    * **[!UICONTROL Neue Version]**: Erstellen Sie eine neue Version des Korrekturabzugs.

@@ -27,5 +27,5 @@ Dies kann aufgrund der Zulassungsliste in Adobe Cloud Manager auftreten. Wenn di
 
 Fügen Sie die Workfront-IP-Adressen zur Adobe Cloud Manager-Zulassungsliste hinzu.
 
-* Anweisungen zum Hinzufügen von IP-Adressen zu Ihrer Adobe Cloud Manager finden Sie unter [Einführung in IP-Zulassungslisten ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) in der Dokumentation zu Adobe Experience Manager.
+* Anweisungen zum Hinzufügen von IP-Adressen zu Ihrer Adobe Cloud Manager finden Sie unter [Einführung in IP-Zulassungslisten &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) in der Dokumentation zu Adobe Experience Manager.
 * Eine Liste der Workfront-IP-Adressen, die der Zulassungsliste hinzugefügt werden können, finden Sie unter [Konfigurieren der Firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

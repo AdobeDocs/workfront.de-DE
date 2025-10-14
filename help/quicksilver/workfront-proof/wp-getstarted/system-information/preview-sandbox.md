@@ -35,8 +35,8 @@ Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Die Daten fl
 
 Standardmäßig haben Sie als System-Admin Zugriff auf die Sandbox-Vorschau-Umgebung. Wenn Sie nicht wie in diesem Abschnitt beschrieben auf die Sandbox-Vorschau-Umgebung zugreifen können, wenden Sie sich an Ihren [!DNL Workfront] oder an unser Support-Team.
 
-* [Zugriff auf die Sandbox-Vorschau als eigenständiger  [!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Zugriff auf die Vorschau-Sandbox als  [!DNL Workfront]+[!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Zugriff auf die Sandbox-Vorschau als eigenständiger  [!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Zugriff auf die Vorschau-Sandbox als  [!DNL Workfront]+[!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### Zugriff auf die Sandbox-Vorschau als eigenständiger [!DNL Workfront Proof]
 

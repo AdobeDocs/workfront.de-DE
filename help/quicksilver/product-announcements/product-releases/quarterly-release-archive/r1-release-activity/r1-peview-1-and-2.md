@@ -38,7 +38,7 @@ Vor dieser Änderung waren Informationen zu Genehmigungsschritten nur auf der Re
 
 Bei Projekten werden die Genehmigungsinformationen in der Kopfzeile neben dem Projekttitel angezeigt. Bei Aufgaben und Problemen werden die Genehmigungsinformationen im rechten Bedienfeld angezeigt.
 
-Weitere Informationen finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Arbeit genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Arbeit genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Zu aktualisierende Objekte konfigurieren, für die die Genehmigung aussteht
 
@@ -51,7 +51,7 @@ Wenn für ein Projekt, eine Aufgabe oder ein Problem die Genehmigung aussteht, k
   Informationen zum Konfigurieren von Projekten, damit Benutzer Probleme hinzufügen können, wenn das Projekt noch nicht genehmigt wurde, finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Bearbeiten von Aufgaben und Problemen innerhalb eines Projekts, das noch nicht genehmigt wurde.\
-  Informationen zum Konfigurieren von Projekten, damit Benutzer Aufgaben und Probleme bearbeiten können, wenn die Genehmigung für das Projekt aussteht, finden [ unter Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Informationen zum Konfigurieren von Projekten, damit Benutzer Aufgaben und Probleme bearbeiten können, wenn die Genehmigung für das Projekt aussteht, finden [&#x200B; unter Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Vor dieser Änderung konnten Projekte, Aufgaben und Probleme, für die die Genehmigung ausstand, nicht bearbeitet werden. Außerdem konnten Probleme nicht zu Projekten hinzugefügt werden, für die die Genehmigung ausstand, und Aufgaben und Probleme konnten nicht in Projekten bearbeitet werden, für die die Genehmigung ausstand.
 

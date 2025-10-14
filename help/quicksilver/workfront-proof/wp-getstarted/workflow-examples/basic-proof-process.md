@@ -31,7 +31,7 @@ In diesem Beispiel wird der grundlegende Workflow zwischen einem Designer oder P
 
 * **Neue Korrekturabzugs-E-**: Der Client erhält eine E-Mail mit einem Link zum Korrekturabzug.
 
-* **Testversand überprüfen** Der Kunde prüft den Testversand, fügt Kommentare hinzu und trifft eine Entscheidung. Weitere Informationen finden Sie unter [Testsendungen überprüfen in [!DNL Adobe Workfront]: ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) und [Eine Entscheidung über einen Korrekturabzug im Proofing Viewer treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **Testversand überprüfen** Der Kunde prüft den Testversand, fügt Kommentare hinzu und trifft eine Entscheidung. Weitere Informationen finden Sie unter [Testsendungen überprüfen in [!DNL Adobe Workfront]: &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) und [Eine Entscheidung über einen Korrekturabzug im Proofing Viewer treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 * **E-Mail-Warnhinweis**: Der Designer oder Projekt-Manager erhält je nach den von ihm festgelegten E-Mail-Warnhinweisen eine E-Mail mit einer Zusammenfassung der Überprüfung durch den Kunden. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

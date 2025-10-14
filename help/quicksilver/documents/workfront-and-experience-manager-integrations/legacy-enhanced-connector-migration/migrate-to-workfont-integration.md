@@ -28,7 +28,7 @@ Kunden, die die neue native Integration zwischen Workfront und Adobe Experience 
 Adobe muss bei dieser Migration helfen. Um Hilfe anzufordern, führen Sie einen der folgenden Schritte aus:
 
 * Wenn Sie Zugriff auf Workfront Hub haben, senden Sie Ihre Anfrage an die [Workfront-Migration zu Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
-* Wenn Sie keinen Zugriff auf Workfront Hub haben, können Sie Ihre Anfrage an die Warteschlange für frühzeitige Migrationsanfragen von [Workfront an Adobe Admin Console ](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+* Wenn Sie keinen Zugriff auf Workfront Hub haben, können Sie Ihre Anfrage an die Warteschlange für frühzeitige Migrationsanfragen von [Workfront an Adobe Admin Console &#x200B;](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
 ## Konfigurieren der as a Cloud Service-Integration Ihres neuen Workfront für Adobe Experience Manager Assets
 

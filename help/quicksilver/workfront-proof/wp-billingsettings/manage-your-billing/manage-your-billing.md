@@ -28,4 +28,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [Wählen Sie Ihre Zahlungsmethode in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
 * [Download your [!DNL Workfront Proof] bill](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [Konto  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [Konto  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

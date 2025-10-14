@@ -267,7 +267,7 @@ Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich 
 
 ### Update der IP-Zulassungsliste für die Verwendung der Integration von Workfront for Jira erforderlich
 
-Wir haben einige Backend-Aktualisierungen für die Workfront for Jira-Integration vorgenommen. Auf die Zulassungsliste setzen auf die Zulassungsliste setzen Stellen Sie sicher, dass die folgenden IP-Adressen, [ im Artikel „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) aufgeführt sind, zu Ihrer für eingehende und ausgehende Verbindungen hinzugefügt wurden:
+Wir haben einige Backend-Aktualisierungen für die Workfront for Jira-Integration vorgenommen. Auf die Zulassungsliste setzen auf die Zulassungsliste setzen Stellen Sie sicher, dass die folgenden IP-Adressen, [&#x200B; im Artikel „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) aufgeführt sind, zu Ihrer für eingehende und ausgehende Verbindungen hinzugefügt wurden:
 
 * 34.213.36.118
 * 35.160.0.242

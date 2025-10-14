@@ -96,4 +96,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Informationen zum Bearbeiten eines Unternehmens finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Unternehmens in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) im Artikel [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![ und wählen ](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.
+1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![&#x200B; und wählen &#x200B;](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.

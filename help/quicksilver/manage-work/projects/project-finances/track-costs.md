@@ -86,7 +86,7 @@ Sie können verschiedene Arten von Kosten für Aufgaben und Projekte in Workfron
    </tbody> 
   </table>
 
-  Weitere Informationen finden Sie [ Abschnitt „Wie Workfront geplante, budgetierte und Istkosten berechnet](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Wie Workfront geplante, budgetierte und Istkosten berechnet](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel.
 
 * **Ausgabenkosten** sind mit Ausgaben für Projekte und Aufgaben verknüpft.\
   Wenn Sie ein Projekt erstellen, können Sie geplante Ausgaben für das gesamte Projekt festlegen. Darüber hinaus können Sie Ausgaben neuen oder vorhandenen Aufgaben zuordnen. Weitere Informationen finden Sie unter [Projektausgaben verwalten](../../../manage-work/projects/project-finances/manage-project-expenses.md).

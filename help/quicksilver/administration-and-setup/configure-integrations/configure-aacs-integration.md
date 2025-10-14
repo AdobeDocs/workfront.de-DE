@@ -263,7 +263,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration sein sollen.
 1. (Bedingt) Gehen Sie wie folgt vor, um dieser Integration eine Ordnerstruktur (verschachtelte Ordner) hinzuzufügen:
 
-   1. Klicken Sie auf **Symbol** Ordner hinzufügen![ (Ordner hinzufügen](assets/add-folder-aem.png).
+   1. Klicken Sie auf **Symbol** Ordner hinzufügen![&#x200B; (Ordner hinzufügen](assets/add-folder-aem.png).
    1. Wählen Sie im Feld **Name** aus, wie Sie den Ordner benennen möchten:
 
       * **Name**: Geben Sie einen Namen für den Ordner ein.

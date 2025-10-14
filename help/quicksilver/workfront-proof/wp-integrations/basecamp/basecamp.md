@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Hinzufügen eines Korrekturabzugs zu einem  [!DNL Basecamp] ](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Hinzufügen eines Korrekturabzugs zu einem  [!DNL Basecamp] &#x200B;](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
 * [Integrieren  [!DNL Workfront Proof] mit [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
 * [Überprüfen eines Korrekturabzugs in [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
 * [Grundlegendes zur  [!DNL Basecamp]  von  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

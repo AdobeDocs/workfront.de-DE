@@ -59,7 +59,7 @@ So synchronisieren Sie einen [!DNL Box] Ordner mit einem Ordner in [!DNL Workfro
 >[!NOTE]
 >
 >* Sie können den [!DNL Box] auch über das Menü [!UICONTROL Ordneroptionen] synchronisieren.
->* Wenn Sie eine eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite zu dieser Seite weitergeleitet. Weitere Informationen finden Sie in [ Artikeln unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)Branding“.
+>* Wenn Sie eine eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite zu dieser Seite weitergeleitet. Weitere Informationen finden Sie in [&#x200B; Artikeln unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)Branding“.
 >* Wenn Sie die Funktion [!UICONTROL Single Sign-On (SSO)] in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre SSO-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr [!DNL Box]-Konto und [!DNL Workfront Proof] verwenden. Weitere Informationen finden Sie unter [[!UICONTROL Single Sign-On] in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 >* Wenn Sie nicht dieselbe E-Mail-Adresse sowohl für Ihr [!DNL Box]-Konto als auch für Ihr [!DNL Workfront Proof]-Konto verwenden, werden Sie immer zur standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet.
 >

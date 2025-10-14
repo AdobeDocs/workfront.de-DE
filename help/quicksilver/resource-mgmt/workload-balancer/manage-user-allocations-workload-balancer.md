@@ -247,7 +247,7 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
      ![Sperrsymbol](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung ](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den ](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung &#x200B;](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den &#x200B;](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 1. (Bedingt) Wenn die Aufgabe mehr als einem Benutzer zugewiesen ist, wiederholen Sie diese Schritte für jeden Benutzer, der der Aufgabe zugewiesen ist, um die Zuordnungen für jeden Benutzer zu aktualisieren.
 
@@ -277,7 +277,7 @@ Dies ist möglich, wenn die folgenden Bedingungen vorliegen:
    * Verwalten Sie die Berechtigungen für die Aufgaben.
    * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Workload Balancer im Bereich „Ressourcenverwaltung“ Ihrer Zugriffsebene.
 
-  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
+  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
 
 * Die Aufgabe hat den Dauertyp „Einfach“.
 

@@ -148,7 +148,7 @@ Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren
 
 Sie können die Zeit für Arbeitselemente protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 
-Weitere Informationen finden Sie unter [Zeit in Prioritäten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
+Weitere Informationen finden Sie unter [Zeit in Prioritäten &#x200B;](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![Update, Protokollierungszeit und Upload](assets/update-log-upload.png)
 

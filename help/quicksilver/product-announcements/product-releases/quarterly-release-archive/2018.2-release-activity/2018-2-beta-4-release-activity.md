@@ -111,7 +111,7 @@ Die Arbeitsliste im Bereich Startseite enthält die folgenden Verbesserungen:
 * Bei Anfragen wird jetzt der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat, mit dem Text &quot;[Genehmiger_name] für den Ihre Genehmigung erforderlich ist.“
 * Beim Erstellen einer neuen persönlichen Aufgabe wird die Schaltfläche „Aufgaben“ jetzt als „Persönlich“ gekennzeichnet.
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 * Verspätete Elemente werden erst nach einer Stunde nach dem geplanten Abschlussdatum als verspätet angezeigt.
 

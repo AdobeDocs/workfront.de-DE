@@ -119,4 +119,4 @@ Die folgenden Funktionen wurden bereits in der Android Beta-Version der Workfron
 
 * Neues Tutorial-Erlebnis für iOS 
 
-Weitere Informationen zu diesen Funktionen und Videos, in denen diese Funktionen veranschaulicht werden, finden Sie unter [Versionsaktivität von Beta 4 ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)2018.2 und [Versionsaktivität von Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Weitere Informationen zu diesen Funktionen und Videos, in denen diese Funktionen veranschaulicht werden, finden Sie unter [Versionsaktivität von Beta 4 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)2018.2 und [Versionsaktivität von Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

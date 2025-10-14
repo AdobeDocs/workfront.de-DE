@@ -24,7 +24,7 @@ Die obere Navigationsleiste, die oben auf dem Bildschirm in [!DNL Adobe Workfron
 
 Das **[!UICONTROL Startseite]**-Symbol ![](assets/home-icon.png) Sie zur [!UICONTROL Startseite] der standardmäßigen Landingpage.
 
-Standardmäßig wird durch Klicken auf das Symbol Startseite der Bereich Startseite geöffnet. Weitere Informationen zur Startseite finden Sie unter [Verwenden des Bereichs [!UICONTROL Startseite] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Standardmäßig wird durch Klicken auf das Symbol Startseite der Bereich Startseite geöffnet. Weitere Informationen zur Startseite finden Sie unter [Verwenden des Bereichs [!UICONTROL Startseite] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Ihr Workfront-Administrator kann das Startseiten -Symbol anpassen, um eine andere Seite zu öffnen, indem er eine Layout-Vorlage erstellt und sie Ihnen zuweist. Weitere Informationen finden Sie unter [Landingpage mithilfe einer Layout-Vorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
@@ -84,7 +84,7 @@ Welche Optionen im [!UICONTROL Hauptmenü“ verfügbar sind] hängt von Folgend
 
 * **Konfigurationen von Layout-Vorlagen**: Informationen dazu, wie ein [!DNL Workfront]-Administrator das [!UICONTROL Hauptmenü] einer Layout-Vorlage ändern kann, finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **Lizenztyp**: Informationen zu den Standardkonfigurationen für verschiedene Lizenztypen finden Sie unter [Grundlegendes zur Navigation für einen Benutzer, der die Lizenz ](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md), oder [Grundlegendes zur Navigation für einen Benutzer, der die [!UICONTROL Arbeit]-Lizenz verwendet](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Lizenztyp**: Informationen zu den Standardkonfigurationen für verschiedene Lizenztypen finden Sie unter [Grundlegendes zur Navigation für einen Benutzer, der die Lizenz &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md), oder [Grundlegendes zur Navigation für einen Benutzer, der die [!UICONTROL Arbeit]-Lizenz verwendet](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Jedes Symbol führt Sie zu einem anderen Bereich von Workfront.
 

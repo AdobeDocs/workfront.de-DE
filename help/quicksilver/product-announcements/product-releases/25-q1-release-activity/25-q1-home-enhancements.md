@@ -22,7 +22,7 @@ Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderu
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Siehe [Demo-Video zu ](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
+Siehe [Demo-Video zu &#x200B;](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
 
 ## Verwenden Sie intelligente Filter, um Ihre Arbeit in den Prioritäten zu finden
 

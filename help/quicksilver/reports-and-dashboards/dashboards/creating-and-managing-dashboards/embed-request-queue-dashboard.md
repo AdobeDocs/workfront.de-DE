@@ -156,7 +156,7 @@ Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, ist der
 
 Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-Thema, das unter einer Anfragewarteschlange verschachtelt ist, in ein Dashboard einbetten, um Benutzern direkten Zugriff auf eingegebene Anfragen zu gewähren.
 
-1. Rufen Sie eine URL für die Anforderungswarteschlange mit einer der Methoden ab, die im Abschnitt [Abrufen der URL ](#obtain-the-url-of-the-request-queue) Anforderungswarteschlange“ dieses Artikels beschrieben sind.
+1. Rufen Sie eine URL für die Anforderungswarteschlange mit einer der Methoden ab, die im Abschnitt [Abrufen der URL &#x200B;](#obtain-the-url-of-the-request-queue) Anforderungswarteschlange“ dieses Artikels beschrieben sind.
 
 1. Klicken Sie auf **Hauptmenü** > **Dashboards** > **Neues Dashboard**.
 

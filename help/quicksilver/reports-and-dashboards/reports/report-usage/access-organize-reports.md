@@ -74,7 +74,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
 
 1. Geben Sie einen Namen für den neuen Ordner ein und drücken Sie dann die Eingabetaste.
 1. Fügen Sie im Ordner **Meine**&quot; Berichte zum Ordner „NEU“ hinzu.\
-   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [ Abschnitt „Hinzufügen von Berichten zu ](#add-reports-to-a-folder)&quot; in diesem Artikel.
+   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [&#x200B; Abschnitt „Hinzufügen von Berichten zu &#x200B;](#add-reports-to-a-folder)&quot; in diesem Artikel.
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
    Oder\
    Klicken Sie auf einen beliebigen unter dem Ordner **Meine Berichte** verschachtelten Ordner.
 
-1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![ Liste ](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
+1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![&#x200B; Liste &#x200B;](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
 
 1. Wählen Sie den Ordner aus, dem Sie den Bericht hinzufügen möchten.
 

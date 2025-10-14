@@ -125,7 +125,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Das Problem ist nun mit der neuen Aufgabe für das ausgewählte Projekt verknüpft und wird abgeschlossen, sobald die Aufgabe abgeschlossen ist, falls Sie die ursprüngliche Anfrage beibehalten möchten.
 
-   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [ Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
+   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
 
 1. (Optional) Fahren Sie mit der Bearbeitung der Aufgabe nach Bedarf fort.
 

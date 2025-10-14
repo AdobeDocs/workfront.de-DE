@@ -854,7 +854,7 @@ Der Webhook-Anbieter registriert benutzerdefinierte Aktionen bei Workfront, inde
 ![Benutzerdefinierte Aktion durchführen](assets/mceclip0-350x262.png)
 
 Benutzerinnen und Benutzer können Trigger zur benutzerdefinierten Aktion erstellen, indem sie den Abschnitt unter Dokumentaktionen auswählen.\
-![Benutzerdefinierte Aktionen für Trigger ](assets/mceclip1-350x95.png)
+![Benutzerdefinierte Aktionen für Trigger &#x200B;](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -893,7 +893,7 @@ GET /customAction
 
 Eine JSON-Zeichenfolge, die Erfolg oder Fehler anzeigt, wie im Abschnitt Fehlerbehandlung unten angegeben. Bei einem Fehler (d. h. Status = „Fehler„) zeigt Workfront dem Benutzer die bereitgestellte Fehlermeldung an.
 
-**Beispiel:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Beispiel:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 Antwort
 

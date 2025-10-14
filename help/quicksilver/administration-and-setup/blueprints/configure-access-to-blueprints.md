@@ -89,7 +89,7 @@ Bevor Benutzer die Installation von Blueprints für sie anfordern können, müss
 
    >[!IMPORTANT]
    >
-   >In dieser Liste werden nur öffentliche Anfrage-Warteschlangen angezeigt. Um Ihre Anfrage-Warteschlange öffentlich zu machen, lesen Sie [ Abschnitt „Voraussetzungen](#prerequisites) weiter oben.
+   >In dieser Liste werden nur öffentliche Anfrage-Warteschlangen angezeigt. Um Ihre Anfrage-Warteschlange öffentlich zu machen, lesen Sie [&#x200B; Abschnitt „Voraussetzungen](#prerequisites) weiter oben.
 
    Die Einstellung für die Anfrage-Warteschlange ist festgelegt, und Benutzer können jetzt die Blueprint-Installation anfordern.
 

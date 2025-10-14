@@ -379,12 +379,12 @@ Sie können die folgenden Umsatztypen für Projekte verfolgen:
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 * Die tatsächlichen Einnahmen für ein Projekt werden anhand der folgenden Formel berechnet:
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 Für den tatsächlichen Umsatz in Verbindung mit den Stunden, die direkt im Projekt erfasst werden, oder mit den Problemen verwendet Workfront den Abrechnungssatz der Person, die die Zeit im Projekt erfasst. Wenn dem/der Benutzenden kein Abrechnungssatz zugeordnet ist, verwendet Workfront den Abrechnungssatz des Primären Aufgabengebiets. Wenn beide Sätze null sind, ist der tatsächliche Umsatz, der mit den für das Projekt oder die Probleme protokollierten Stunden verbunden ist, null.

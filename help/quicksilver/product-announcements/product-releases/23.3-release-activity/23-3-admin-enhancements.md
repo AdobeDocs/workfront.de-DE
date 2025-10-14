@@ -30,7 +30,7 @@ Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des Schnell
 
 Der Systemadministrator kann jetzt die Arbeitszeittabelle „Wo Benutzer die Zeit protokollieren können“ und die Stundenvoreinstellung sperren und entsperren. Wenn diese Einstellung entsperrt ist, können Gruppenadministratoren die Einstellungen „Wo Benutzer die Zeit protokollieren können“ für jede Gruppe separat konfigurieren.
 
-Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) und [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) und [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3419111/){target=_blank}
 

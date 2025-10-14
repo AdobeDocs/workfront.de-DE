@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage
 
-In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen ](assets/main-menu-icon-left-nav.png), falls verfügbar, oder um Dashboards.
+In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen &#x200B;](assets/main-menu-icon-left-nav.png), falls verfügbar, oder um Dashboards.
 
 Alle Pins, die von Ihren Benutzerinnen und Benutzern eigenständig hinzugefügt wurden, werden rechts neben den Pins angezeigt, die Sie der Layout-Vorlage hinzufügen.
 
@@ -25,7 +25,7 @@ Weitere Informationen zum Anheften von Seiten finden Sie unter [Seiten anheften,
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 

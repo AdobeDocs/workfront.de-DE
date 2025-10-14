@@ -27,12 +27,12 @@ Die [!DNL Adobe Workfront] mit [!DNL Anaplan]-Integration bietet die folgenden W
 
 * [Projektaktualisierungen  [!DNL Adobe Workfront]  ein  [!DNL Anaplan]  senden](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 * [Senden  [!DNL Adobe Workfront]  Ausgaben an  [!DNL Anaplan]  Listenelement](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [ [!DNL Adobe Workfront]  Stunden-Aktualisierungen an ein  [!DNL Anaplan]  senden](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [&#x200B; [!DNL Adobe Workfront]  Stunden-Aktualisierungen an ein  [!DNL Anaplan]  senden](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Workflows zum Verknüpfen von Budgetanfragen
 
-* [Erstellen  [!DNL Anaplan]  Listenelements aus einer  [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Anwenden  [!DNL Anaplan]  Budgetzuweisung auf ein  [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Erstellen  [!DNL Anaplan]  Listenelements aus einer  [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Anwenden  [!DNL Anaplan]  Budgetzuweisung auf ein  [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Workflows zum Verknüpfen von Kampagnenanfragen
 

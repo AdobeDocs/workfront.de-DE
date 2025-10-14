@@ -97,7 +97,7 @@ Nachdem Sie Ihren Bericht erstellt haben, können Sie Ihre Berichte nach Bedarf 
    * Aktualisieren Sie das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** für einen aktiven Benutzer: Weitere Informationen finden Sie unter [Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
    * Kopie des Berichts erstellen: Weitere Informationen finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
-   * Löschen eines Berichts: Weitere Informationen finden Sie im Abschnitt [Erstellen einer exakten Kopie ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) Berichts“ des Artikels [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   * Löschen eines Berichts: Weitere Informationen finden Sie im Abschnitt [Erstellen einer exakten Kopie &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) Berichts“ des Artikels [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
    * Freigeben eines Berichts: Weitere Informationen finden Sie unter [Freigeben eines Berichts in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 

@@ -28,7 +28,7 @@ Wenn Sie an der Migration von einem Agile-Team (Kanban-Board  [!DNL Workfront][!
 
 Das [!UICONTROL Kanban]-Board besteht aus den folgenden Elementen:
 
-**Rückstandsspalte** Zeigt alle Aufgaben an, die sich derzeit im Rückstand befinden. Diese Spalte wird nicht standardmäßig angezeigt. Weitere Informationen zum Rückstand, einschließlich seiner Anzeige auf dem Kanban[!UICONTROL Board, finden Sie &#x200B;]Verwalten des [ Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Rückstandsspalte** Zeigt alle Aufgaben an, die sich derzeit im Rückstand befinden. Diese Spalte wird nicht standardmäßig angezeigt. Weitere Informationen zum Rückstand, einschließlich seiner Anzeige auf dem Kanban[!UICONTROL Board, finden Sie &#x200B;]Verwalten des [&#x200B; Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Story-Status**: Gibt an, wie eine Story voranschreitet, je nachdem, in welcher Statusspalte sich die Story befindet.
 

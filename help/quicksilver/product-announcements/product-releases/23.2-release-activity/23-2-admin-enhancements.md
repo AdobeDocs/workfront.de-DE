@@ -27,7 +27,7 @@ Zuvor war das Zuordnen von Workfront-Daten zu Experience Manager Assets-Tags nic
 
 Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der [!UICONTROL Experience Manager Assets as a Cloud Service]-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [ der Experience Manager Assets Essentials-Integration ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [&#x200B; der Experience Manager Assets Essentials-Integration &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Erstellen benutzerdefinierter Formulare mit dem neuen Formular-Designer - Beta
 

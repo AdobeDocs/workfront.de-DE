@@ -34,12 +34,12 @@ Nachdem Sie eine Layout-Vorlage gespeichert haben, in der Sie die Terminologie g
 >[!NOTE]
 >
 >* Im Outlook-Add-In-Bereich werden die benutzerdefinierten Beschriftungen nicht angezeigt.
->* Beim Anpassen von Kennzeichnungen können Grammatikprobleme und andere Probleme auftreten. Wenn Sie z. B. „Problem“ in „Anfrage“ ändern, kann es an bestimmten Stellen der Benutzeroberfläche den Ausdruck „Eine Anfrage“ geben. Weitere Informationen finden Sie unter [Auswirkungen der Anpassung von Objektnamen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) im Artikel &quot;[ von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+>* Beim Anpassen von Kennzeichnungen können Grammatikprobleme und andere Probleme auftreten. Wenn Sie z. B. „Problem“ in „Anfrage“ ändern, kann es an bestimmten Stellen der Benutzeroberfläche den Ausdruck „Eine Anfrage“ geben. Weitere Informationen finden Sie unter [Auswirkungen der Anpassung von Objektnamen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) im Artikel &quot;[&#x200B; von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 

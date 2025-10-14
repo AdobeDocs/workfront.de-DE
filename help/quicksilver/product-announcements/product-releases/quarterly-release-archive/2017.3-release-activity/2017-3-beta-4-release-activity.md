@@ -39,7 +39,7 @@ Die Beta 4-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren
 * [Abschnitt „Aufgabengebiet“ für Benutzereinstellungen enthält Prozentsatz der FTE-Verfügbarkeit](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
 * [Speichern und Verwalten von Filtern im Auslastungsbericht für ein Projekt](#save-and-manage-filters-in-the-utilization-report-on-a-project)
 * [Zusätzliche Filteroptionen im Auslastungsbericht](#additional-filtering-options-in-the-utilization-report)
-* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio ](#view-the-utilization-report-by-program-or-portfolio)
+* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio &#x200B;](#view-the-utilization-report-by-program-or-portfolio)
 * [Ursprüngliche Anfrageinformationen in Projekt- und Aufgabenberichten anzeigen](#show-original-issue-information-in-project-and-task-reports)
 * [Filtersystemaktualisierungen im Aktualisierungsstrom sind jetzt objektübergreifend persistent](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
 * [Berichte zu aktiven Korrekturabzugsschritten in Workfront](#report-on-active-proof-stages-within-workfront)
@@ -115,7 +115,7 @@ Jetzt können Sie Filter speichern, die Sie im Auslastungsbericht erstellen. Dar
 
 Zuvor mussten Sie jedes Mal, wenn Sie den Auslastungsbericht filterten, einzelne Filteroptionen angeben.
 
-Weitere Informationen zum Speichern und Verwalten von Filtern im Auslastungsbericht finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Speichern und Verwalten von Filtern im Auslastungsbericht finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Zusätzliche Filteroptionen im Auslastungsbericht {#additional-filtering-options-in-the-utilization-report}
 

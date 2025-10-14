@@ -90,7 +90,7 @@ Informationen zum Erstellen von Berichten finden Sie [Erstellen eines benutzerde
 
 * Sie müssen über eine Planlizenz (aktuelle Lizenzen) oder Standardlizenz (neue Lizenzen) verfügen, um Ihre eigenen Berichte zu erstellen.
 
-  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
+  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf „Berichte bearbeiten“ auf Ihrer Zugriffsebene gewähren.
 
@@ -118,7 +118,7 @@ Sie können sehen, wem ein Bericht gehört, indem Sie das Feld **Eingegeben von*
 Es wird empfohlen, zuerst die Berichterstellungsoberfläche zu verwenden, um einen neuen Bericht zu erstellen. Die Benutzeroberfläche bietet eine optimierte Reihe von Tools, die Sie durch das Zusammenfügen von Elementen führen, um den gewünschten Bericht zu erstellen. Sie verfügen über Objekte und Felder, die Sie aus Listen auswählen und zu allen Berichtselementen hinzufügen können.\
 Weitere Informationen zum Erstellen von Berichten in der Benutzeroberfläche zum Erstellen von Berichten finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [ Abschnitt „Bericht über ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [&#x200B; Abschnitt „Bericht über &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Weitere Informationen zu den Feldern, die Sie in Berichten anzeigen können, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -149,7 +149,7 @@ Eine Liste der häufigsten Verwendungen des Textmodus in einem Bericht finden Si
 
 Informationen zur Aufnahme berechneter benutzerdefinierter Daten in Berichte finden Sie unter [Berechnete benutzerspezifische Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung ](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung &#x200B;](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Sie können Sammlungsfelder auch mithilfe des Textmodus in Berichten referenzieren.\
 Informationen zur Verwendung des Textmodus zum Anzeigen von Sammlungsinformationen in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).

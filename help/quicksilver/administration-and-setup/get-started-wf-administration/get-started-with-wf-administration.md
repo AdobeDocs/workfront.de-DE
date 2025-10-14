@@ -29,7 +29,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Verfügbare Lizenzen in Ihrem System verwalten](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [Konfigurieren Sie grundlegende Informationen für Ihr System](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
-* [Konfigurieren der Firewall-Zulassungsliste ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 * auf die Zulassungsliste setzen [Konfigurieren Ihrer E-Mail-Adresse](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * [Browser-Anforderungen für Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)

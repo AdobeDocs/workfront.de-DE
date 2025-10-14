@@ -55,4 +55,4 @@ Ab der neuen Version der Mobile App können Sie Korrekturabzüge von Dokumenten 
 
 Vor diesem Update konnten Sie mit der Mobile App Projekt-, Aufgaben-, Problem- und Dokumentengenehmigungen durchführen. Sie benötigen eine Proof HQ-Lizenz, um Korrekturabzüge für die Mobile App zu genehmigen. 
 
-Weitere Informationen zum Proofing in Workfront finden Sie [ Abschnitt ](../../../review-and-approve-work/proofing/proofing.md)Proofing“. 
+Weitere Informationen zum Proofing in Workfront finden Sie [&#x200B; Abschnitt &#x200B;](../../../review-and-approve-work/proofing/proofing.md)Proofing“. 

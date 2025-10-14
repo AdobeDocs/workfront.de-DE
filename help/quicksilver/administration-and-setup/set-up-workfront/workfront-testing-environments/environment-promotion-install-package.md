@@ -68,7 +68,7 @@ Es wird empfohlen, das Paket in den Status TESTEN zu versetzen und in einer ande
 
 So bearbeiten Sie den Status eines Pakets:
 
-1. Wählen Sie das Paket aus, wie [ im Artikel Erstellen und Bearbeiten ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) Promotion-Paketen für Umgebungen unter „Bearbeiten oder Zusammenstellen eines vorhandenen Pakets“ beschrieben.
+1. Wählen Sie das Paket aus, wie [&#x200B; im Artikel Erstellen und Bearbeiten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) Promotion-Paketen für Umgebungen unter „Bearbeiten oder Zusammenstellen eines vorhandenen Pakets“ beschrieben.
 1. Klicken Sie **Paket bearbeiten**.
 1. Klicken Sie **Status**.
 1. Wählen Sie den gewünschten Status aus dem Dropdown-Menü aus.

@@ -624,7 +624,7 @@ Informationen zu den Wartungs-Updates, die während der Version 22.2 vorgenommen
 
 ## Webinar zur Version 22.2
 
-Das Webinar zur Version Workfront 22.2 wird am 24. März 2022 um 8:00 Uhr MST vorgestellt. Sie können sich für die Veranstaltung auf der Seite &quot;[&quot; in Workfront One ](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+Das Webinar zur Version Workfront 22.2 wird am 24. März 2022 um 8:00 Uhr MST vorgestellt. Sie können sich für die Veranstaltung auf der Seite &quot;[&quot; in Workfront One &#x200B;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

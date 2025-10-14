@@ -108,7 +108,7 @@ Die Version 2018.3 enthält Verbesserungen sowohl für Workfront-Administratoren
 ### Weitere Verbesserungen
 
 * [Microsoft OneDrive-Dokumentintegration](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
-* Integration von [Workfront für Microsoft Teams ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
+* Integration von [Workfront für Microsoft Teams &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Aktualisierte Integration von Workfront für Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
 * [Flash-Entfernung für die Freigabe von Berichten, Kalendern und Dokumenten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 

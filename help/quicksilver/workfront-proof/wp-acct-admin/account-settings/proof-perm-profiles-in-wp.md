@@ -98,7 +98,7 @@ Abrechnungsadministratoren haben Zugriff auf [Kontoeinstellungen auf  [!DNL Work
 
 Informationen zu Kontoeinstellungen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-Weitere Informationen zur Abrechnung finden Sie [ „Die  [!DNL Workfront Proof] -Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+Weitere Informationen zur Abrechnung finden Sie [&#x200B; „Die  [!DNL Workfront Proof] -Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Administrator {#administrator}
 
@@ -158,7 +158,7 @@ Supervisoren haben die folgenden Berechtigungen:
 
 ![Rot X](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
 
-![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [ in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [&#x200B; in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
 ![Rotes X](assets/no2.png)Kein Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 

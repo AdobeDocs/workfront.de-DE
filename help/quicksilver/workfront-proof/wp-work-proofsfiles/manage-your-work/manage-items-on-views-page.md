@@ -53,7 +53,7 @@ So ändern Sie, was Sie in der Liste [!UICONTROL Ansichten] sehen:
    * **[!UICONTROL Gesperrte Korrekturabzüge]**: Nur gesperrte Korrekturabzüge.
    * **[!UICONTROL Archivierte Korrekturabzüge]**: Nur archivierte Korrekturabzüge (siehe [Archivieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md))
 
-   * **[!UICONTROL Meine Korrekturabzüge]**: Zeigt nur Korrekturabzüge an, deren Inhaber Sie sind und die an Sie delegiert wurden. Weitere Informationen finden Sie unter &quot;[ von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **[!UICONTROL Meine Korrekturabzüge]**: Zeigt nur Korrekturabzüge an, deren Inhaber Sie sind und die an Sie delegiert wurden. Weitere Informationen finden Sie unter &quot;[&#x200B; von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
    * **[!UICONTROL Korrekturabzüge mit ausstehender Entscheidung]**: Zeigt nur Korrekturabzüge an, für die Sie eine Entscheidung treffen müssen
    * **[!UICONTROL Überfällige Korrekturabzüge]**: Zeigt nur Korrekturabzüge an, deren Frist abgelaufen ist
@@ -74,7 +74,7 @@ So ändern Sie, was Sie in der Liste [!UICONTROL Ansichten] sehen:
      >
      >Wenn Sie die Seite „Ansichten“ verlassen und in derselben Sitzung zu ihr zurückkehren, wird Ihre zuletzt ausgewählte Ansicht angezeigt.
 
-     Sie können auch eigene Ansichten erstellen. Weitere [ finden Sie unter „Erstellen und Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) benutzerdefinierten Ansichten in“.
+     Sie können auch eigene Ansichten erstellen. Weitere [&#x200B; finden Sie unter „Erstellen und Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) benutzerdefinierten Ansichten in“.
 
 
 
@@ -141,7 +141,7 @@ So zeigen Sie detailliertere Informationen zu einem Korrekturabzug an:
    * Senden Sie dem Validierungsverantwortlichen eine Erinnerungsnachricht.
    * Bearbeiten Sie die Einstellungen des Reviewers für den Testversand.\
 
-     Im angezeigten Feld Reviewer bearbeiten können Sie nicht nur Rollen- und E-Mail-Warnungen, sondern auch den Anzeigenamen für die Reviewer ändern. Beachten Sie, dass der Anzeigename nur für den jeweiligen Korrekturabzug geändert werden kann, nicht in den Details des Reviewers auf der Seite „Kontakte“. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts)Kontakte“.
+     Im angezeigten Feld Reviewer bearbeiten können Sie nicht nur Rollen- und E-Mail-Warnungen, sondern auch den Anzeigenamen für die Reviewer ändern. Beachten Sie, dass der Anzeigename nur für den jeweiligen Korrekturabzug geändert werden kann, nicht in den Details des Reviewers auf der Seite „Kontakte“. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts)Kontakte“.
 
    * Wählen Sie den Prüfer als Primären Entscheidungsträger für den Korrekturabzug aus.
    * Löschen Sie den Prüfer aus dem Korrekturabzug.

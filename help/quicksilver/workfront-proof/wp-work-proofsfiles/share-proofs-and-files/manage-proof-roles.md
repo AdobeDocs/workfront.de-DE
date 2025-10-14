@@ -213,7 +213,7 @@ Sie können die Standardrolle für den Korrekturabzug auf der Seite [!DNL Proofi
 >
 >Nur Benutzer mit Administrator- oder Billing-Administratorprofilen können die Proofing-Standardeinstellungen für andere Benutzer in ihrem Konto ändern.
 
-Weitere Informationen finden Sie unter &quot;[ Einstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
+Weitere Informationen finden Sie unter &quot;[&#x200B; Einstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
 
 ## Ersteller und Inhaber
 

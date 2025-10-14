@@ -33,7 +33,7 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um sicherzu
 * 23.251.239.98
 * 23.251.239.99
 
-(Weitere Informationen zu der Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer hinzugefügt werden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste auf die Zulassungsliste setzte ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Weitere Informationen zu der Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer hinzugefügt werden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste auf die Zulassungsliste setzte &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 Wann muss dies geschehen?
 

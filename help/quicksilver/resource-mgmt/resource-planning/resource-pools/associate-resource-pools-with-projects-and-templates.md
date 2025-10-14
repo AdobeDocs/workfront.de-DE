@@ -104,7 +104,7 @@ Ressourcenpools können mit Vorlagen auf die gleiche Weise verknüpft werden wie
 So verknüpfen Sie Ressourcenpools mit mehreren Projekten in großen Mengen:
 
 1. Zu einer Projektliste gehen.
-1. Wählen Sie mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
 
 1. Klicken Sie **Einstellungen**.
 1. Geben Sie zunächst den Namen eines Ressourcenpools in das Feld **Ressourcenpools** ein und wählen Sie ihn dann aus der Liste aus, wenn er angezeigt wird.\

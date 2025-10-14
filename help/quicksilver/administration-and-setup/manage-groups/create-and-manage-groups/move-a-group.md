@@ -60,7 +60,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 >
 >Wenn die Status der verschobenen Gruppe entsperrt sind, übernimmt die neue übergeordnete Gruppe weder die Status der neuen übergeordneten Gruppe, noch übernimmt die neue übergeordnete Gruppe deren Status.
 >
->Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 {{step-1-to-setup}}
 

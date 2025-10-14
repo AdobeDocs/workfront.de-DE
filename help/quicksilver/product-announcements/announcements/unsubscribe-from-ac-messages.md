@@ -25,7 +25,7 @@ Nachrichten aus dem Ankündigungs-Center werden von Adobe Workfront an den Workf
 
 Abmeldung vom Erhalt von Nachrichten des Ankündigungscenters:
 
-1. Klicken Sie oben rechts in Workfront auf ![ nummerierte Symbol ](assets/notifications-icon-jewel.jpg)Benachrichtigungssymbol), um die Liste der Benachrichtigungen zu öffnen.
+1. Klicken Sie oben rechts in Workfront auf ![&#x200B; nummerierte Symbol &#x200B;](assets/notifications-icon-jewel.jpg)Benachrichtigungssymbol), um die Liste der Benachrichtigungen zu öffnen.
 1. Klicken **unten** der Liste auf „Alle Ankündigungen“.
 
    Die **Ankündigungen** wird angezeigt, auf der alle Ihre Ankündigungen aufgelistet sind.

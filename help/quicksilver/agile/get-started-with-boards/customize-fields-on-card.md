@@ -70,7 +70,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es bzw. ihn in beiden Kartenansichten zu deaktivieren.
-1. Klicken Sie auf das Symbol „Ausblenden![ (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
+1. Klicken Sie auf das Symbol „Ausblenden![&#x200B; (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
 1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder auf Standard zurücksetzen**].
 1. Klicken Sie [!UICONTROL **Konfigurieren ausblenden**], um das Bedienfeld „Konfigurieren“ zu schließen.
 

@@ -95,7 +95,7 @@ Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experienc
 
    Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
 
-   Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses, das Sie benötigen, um eine Verbindung zu erstellen, finden [ unter „Erstellen einer OAuth](#create-an-oauth-application)Anwendung“ in diesem Artikel.
+   Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses, das Sie benötigen, um eine Verbindung zu erstellen, finden [&#x200B; unter „Erstellen einer OAuth](#create-an-oauth-application)Anwendung“ in diesem Artikel.
 
 1. Wählen Sie **Feld** Datensatztyp“ `Issue` aus.
 1. Wählen Sie im **Aktion** die Option `convertToProject` aus.
@@ -115,7 +115,7 @@ Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experienc
 
 1. Ersetzen Sie `Folder tree ID here` durch die Ordner-IDs.
 
-   Informationen zum Auffinden von Ordnerbaum-IDs finden Sie unter [Suchen von ](#locate-folder-tree-ids)-IDs“ in diesem Artikel.
+   Informationen zum Auffinden von Ordnerbaum-IDs finden Sie unter [Suchen von &#x200B;](#locate-folder-tree-ids)-IDs“ in diesem Artikel.
 
    Um mehr als eine Ordnerstruktur zu verwenden, trennen Sie IDs durch ein Komma:
 

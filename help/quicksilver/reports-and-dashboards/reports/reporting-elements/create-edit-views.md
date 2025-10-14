@@ -203,7 +203,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
    Es wird empfohlen, in Ihrem Ansichtsnamen das Wort „Agile“ einzufügen, damit Benutzende wissen, dass es sich um eine Agile-Ansicht handelt.\
    Dieser Name wird im Dropdown **Menü „Ansicht** angezeigt, wenn Sie eine Ansicht auswählen.
 
-1. Definieren Sie die Statusspalten, die auf dem Story Board in der Agile-Ansicht angezeigt werden sollen. Dies sind die Aufgabenstatus, die vom Workfront-Administrator definiert werden, wie unter &quot;[ erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
+1. Definieren Sie die Statusspalten, die auf dem Story Board in der Agile-Ansicht angezeigt werden sollen. Dies sind die Aufgabenstatus, die vom Workfront-Administrator definiert werden, wie unter &quot;[&#x200B; erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
 
    Im Agile-Story-Board stehen nur Systemstatus zur Verwendung zur Verfügung. Wenn ein Status nur für eine einzelne Gruppe verfügbar ist, der Sie angehören, ist der Status nicht im Agile-Story-Board verfügbar. Darüber hinaus werden Aufgaben mit einem Status, der nur für eine benutzerdefinierte Gruppe verfügbar ist, nicht angezeigt, wenn das Projekt in einer Agile-Ansicht angezeigt wird.
 

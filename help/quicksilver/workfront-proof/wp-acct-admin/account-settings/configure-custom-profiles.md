@@ -52,7 +52,7 @@ Weitere Informationen zum Anpassen der Registerkarte „Profile“ finden Sie un
 
 Auf der Seite Profildetails können Sie die für Ihr benutzerdefiniertes Profil aktivierten Berechtigungen ändern, das Profil kopieren, das Profil löschen und die Liste der Benutzer anzeigen, denen das Profil zugewiesen ist.
 
-Weitere Informationen zu den Aktionen, die Sie auf dieser Seite ausführen können, finden Sie unter &quot;[ und Verwalten von benutzerdefinierten Profilen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+Weitere Informationen zu den Aktionen, die Sie auf dieser Seite ausführen können, finden Sie unter &quot;[&#x200B; und Verwalten von benutzerdefinierten Profilen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 * [Aufrufen der Seite „Profildetails“](#accessing-the-profile-details-page)
 * [Anzeigen der Liste der Benutzer mit einem zugewiesenen Profil](#viewing-the-list-of-users-with-a-profile-assigned)

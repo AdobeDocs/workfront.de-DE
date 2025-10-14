@@ -27,7 +27,7 @@ Eine Liste aller in 2018.2 vorgenommenen Änderungen finden Sie unter [Übersich
 Die Beta 1-Version 2018.2 enthält die folgenden Verbesserungen:
 
 * [Ändern von Aufgabendaten im Gantt-Diagramm](#modify-task-dates-in-the-gantt-chart)
-* [Rufen Sie das Projekt-Gantt-Diagramm über die Registerkarte Aktualisierungen ](#access-the-project-gantt-chart-from-the-updates-tab)vorübergehend entfernt)
+* [Rufen Sie das Projekt-Gantt-Diagramm über die Registerkarte Aktualisierungen &#x200B;](#access-the-project-gantt-chart-from-the-updates-tab)vorübergehend entfernt)
 
 * [Verschiedene Links wurden wieder zu Dokumenten in der Dokumentliste hinzugefügt](#various-links-re-introduced-to-documents-on-the-document-list)
 * [Verbesserungen an der Benutzeransicht im Ressourcenplaner](#user-view-improvements-in-the-resource-planner)

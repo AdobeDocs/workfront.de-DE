@@ -306,4 +306,4 @@ Um die Anzeige von Titeln in der Kopfzeile der Anzeigeseite zu verbessern, haben
 
 Daher werden längere Datensatztitel jetzt umgebrochen, anstatt abgeschnitten zu werden, wenn sie auf der Detailseite und im Vorschaufeld angezeigt werden.
 
-Weitere Informationen zur Datensatzseite finden Sie unter &quot;[ verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+Weitere Informationen zur Datensatzseite finden Sie unter &quot;[&#x200B; verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).

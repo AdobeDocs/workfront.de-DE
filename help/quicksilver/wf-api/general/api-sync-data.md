@@ -54,7 +54,7 @@ https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,
 
 ### Tagebucheintragsobjekt
 
-Wenn Sie Änderungen zu einem bestimmten Feld eines Objekts erhalten möchten, können Sie das Objekt „Journaleintrag“ abfragen. Das Workfront-Journaleintragsobjekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Weitere Informationen finden [ unter „Konfigurieren von ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)&quot;.
+Wenn Sie Änderungen zu einem bestimmten Feld eines Objekts erhalten möchten, können Sie das Objekt „Journaleintrag“ abfragen. Das Workfront-Journaleintragsobjekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Weitere Informationen finden [&#x200B; unter „Konfigurieren von &#x200B;](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)&quot;.
 
 Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt. Anschließend können Sie das Journaleintragsobjekt mit einem API-Aufruf ähnlich dem folgenden abfragen:
 

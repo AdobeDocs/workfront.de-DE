@@ -35,8 +35,8 @@ ht-degree: 0%
 
    Der Datei im Feld wird ein Kommentar mit einem persönlichen Link zum Korrekturabzug im [!DNL Workfront Proof] hinzugefügt.
 
-   * Wenn Sie Ihre eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie zu dieser Seite anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).
-   * Wenn Sie die Single-Sign-On-Funktion in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre Single-Sign-On-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr Box-Konto und Ihre [!DNL Workfront Proof] verwenden. Weitere Informationen finden [ unter „Single Sign [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)On“.
+   * Wenn Sie Ihre eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie zu dieser Seite anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).
+   * Wenn Sie die Single-Sign-On-Funktion in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre Single-Sign-On-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr Box-Konto und Ihre [!DNL Workfront Proof] verwenden. Weitere Informationen finden [&#x200B; unter „Single Sign [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)On“.
    * Wenn Sie nicht dieselbe E-Mail-Adresse sowohl für Ihr [!DNL Box]-Konto als auch für Ihr [!DNL Workfront Proof]-Konto verwenden, werden Sie immer zur standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet.
 
 ## Erstellen einer neuen Version eines Korrekturabzugs mithilfe einer Datei in [!DNL Box]

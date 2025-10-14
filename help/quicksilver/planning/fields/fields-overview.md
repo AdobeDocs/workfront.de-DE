@@ -55,7 +55,7 @@ Sie können in Adobe Workfront Planning neue Felder hinzufügen, die den Lebensz
 
       * Beim Importieren vorhandener Felder aus Workfront.
 
-        Weitere Informationen finden Sie unter [Felder aus Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+        Weitere Informationen finden Sie unter [Felder aus Adobe Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
    * Automatisch:

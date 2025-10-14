@@ -28,6 +28,6 @@ Adobe Workfront bietet eine Integration mit Microsoft Teams. Dieser Artikel enth
 * [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
 * [Zugriff [!DNL Adobe Workfront] von [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
 * [Nach Elementen  [!DNL Adobe Workfront]  und diese freigeben in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-* [ [!DNL Adobe Workfront] Aufgaben erstellen aus [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+* [&#x200B; [!DNL Adobe Workfront] Aufgaben erstellen aus [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
 * [Submit [!DNL Adobe Workfront] requests from [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
 * [Verwalten  [!DNL Adobe Workfront]  Benachrichtigungen in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)

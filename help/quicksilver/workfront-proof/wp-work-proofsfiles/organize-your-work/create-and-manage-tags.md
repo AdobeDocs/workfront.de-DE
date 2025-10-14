@@ -76,7 +76,7 @@ Weitere Informationen zu diesen Profilen und Berechtigungen finden Sie unter [Pr
 1. Wählen Sie in einer Listenansicht oder im Dashboard die Elemente aus, für die Sie Tags erstellen oder verwalten möchten.
 1. Klicken Sie **[!UICONTROL Tags]** > **[!UICONTROL Tags verwalten]** direkt über der Liste.
 
-1. Verwalten Sie auf [!UICONTROL &#x200B; angezeigten &#x200B;] Ihre Tags wie oben unter [Erstellen, Bearbeiten oder Löschen einer Registerkarte“ beschrieben](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. Verwalten Sie auf [!UICONTROL &#x200B; angezeigten &#x200B;] Ihre Tags wie oben unter [Erstellen, Bearbeiten oder Löschen einer Registerkarte“ beschrieben](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    Ein Tag wird auf alle ausgewählten Elemente angewendet, wenn das Kontrollkästchen neben dem Tag dunkelgrau ist. Wenn er hellgrau ist, werden nur einige der Elemente in einem ausgewählten Stapel mit einem Tag versehen. Wenn Sie ein Tag aus allen ausgewählten Elementen entfernen möchten, stellen Sie sicher, dass das Kontrollkästchen neben dem Tag leer ist.\
    ![Tags_menu_-_dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

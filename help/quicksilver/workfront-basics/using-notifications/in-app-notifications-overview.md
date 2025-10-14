@@ -56,7 +56,7 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 
 ### [!UICONTROL Genehmigungen]
 
-* ![Projekt muss genehmigt ](assets/prjneedsapprvl.png) [!UICONTROL Projekt muss genehmigt werden] - [Name des Absenders]
+* ![Projekt muss genehmigt &#x200B;](assets/prjneedsapprvl.png) [!UICONTROL Projekt muss genehmigt werden] - [Name des Absenders]
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe benötigt Ihre Genehmigung] - [Name des Absenders]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem muss genehmigt werden] - [Name des Absenders]
 * ![Dokumentsymbol](assets/document.png) [!UICONTROL Dokument muss genehmigt werden] - [Name des Absenders]

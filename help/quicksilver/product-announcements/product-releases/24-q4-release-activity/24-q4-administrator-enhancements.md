@@ -28,7 +28,7 @@ Um die Funktionen der Umgebungsförderung zu erweitern, haben wir die Möglichke
 
 Zuvor waren Zugriffsebenen für die Umgebungsförderung nicht verfügbar.
 
-Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
+Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
 
 ## Ein Zähler für benutzerdefinierte Formulare zeigt die Anzahl der Felder an
 

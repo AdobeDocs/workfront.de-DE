@@ -449,7 +449,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ## Webinar zur Version 21.4
 
-Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. Sie können die Webinar-Aufzeichnung über die Seite [Ereignisse auf Workfront One“ ](https://one.workfront.com/s/event).
+Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. Sie können die Webinar-Aufzeichnung über die Seite [Ereignisse auf Workfront One“ &#x200B;](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

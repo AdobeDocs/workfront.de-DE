@@ -101,7 +101,7 @@ Wenn Sie den Business Case auf eine PDF exportieren, spiegeln die Finanzinformat
 
 Zuvor spiegelt die exportierte Datei die Informationen im Bereich Legacy-Ressourcenkalkulationen und im Kapazitätsplaner wider. 
 
-Informationen zum Exportieren des Business-Case finden Sie [ Abschnitt „Erstellen eines Business-Case für ](../../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[ in „Erstellen eines Business-Case für ein Projekt](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Informationen zum Exportieren des Business-Case finden Sie [&#x200B; Abschnitt „Erstellen eines Business-Case für &#x200B;](../../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[&#x200B; in „Erstellen eines Business-Case für ein Projekt](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Außerkraftsetzung des Abrechnungssatzes auf Firmenebene aktivieren {#enable-company-level-billing-rate-override}
 

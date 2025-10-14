@@ -154,4 +154,4 @@ Sie können Ad-hoc-Karten mit nur einem Titel hinzufügen, um Ihre Pinnwand schn
 
 1. Aktualisieren Sie [!UICONTROL &#x200B; Feld &#x200B;]Kartendetails“ die Informationen nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]**, um zur Pinnwand zurückzukehren.
 
-   Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.
+   Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.

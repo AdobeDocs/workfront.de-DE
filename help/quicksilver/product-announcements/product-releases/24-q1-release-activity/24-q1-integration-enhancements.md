@@ -42,4 +42,4 @@ Wir haben der Adobe Experience Manager-Integration einen weiteren Workflow hinzu
 
 Der automatische Publish-Workflow kann in der Adobe Experience Manager-Integration aktiviert und konfiguriert werden. Nach der Aktivierung kann der Workflow auf Projektvorlagen- oder Projektebene bearbeitet werden.
 
-Weitere Informationen finden Sie unter [Veröffentlichen von ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets)&quot; in [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Weitere Informationen finden Sie unter [Veröffentlichen von &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets)&quot; in [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

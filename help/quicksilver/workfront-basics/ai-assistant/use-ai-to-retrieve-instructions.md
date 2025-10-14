@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Der KI-Assistent kann Informationen aus der Workfront-Dokumentation finden, sodass Sie Adobe Experience League nicht mehr aufrufen müssen, um die benötigte Hilfe zu erhalten.
 
-Wenn Sie beispielsweise den KI-Assistenten nach der Frage „Wie erstelle ich eine Anfrage-Warteschlange?“ fragen, werden Anweisungen zum Erstellen der Anfrage zurückgegeben, die aus dem Artikel &quot;[ und Verwalten von Anfrage-Warteschlangen“ ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Wenn Sie beispielsweise den KI-Assistenten nach der Frage „Wie erstelle ich eine Anfrage-Warteschlange?“ fragen, werden Anweisungen zum Erstellen der Anfrage zurückgegeben, die aus dem Artikel &quot;[&#x200B; und Verwalten von Anfrage-Warteschlangen“ &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Zugriffsanforderungen
 
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Abrufen von Informationen oder Anweisungen aus der Workfront-Dokumentation mithilfe des KI-Assistenten:
 
-1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie im Bedienfeld KI-Assistent Ihre Eingabeaufforderung in den Textbereich unten im Bedienfeld ein.
 
    Je nachdem, wie groß oder komplex die Eingabeaufforderung ist, kann es einige Minuten dauern, bis der KI-Assistent die Informationen findet. Wir empfehlen einfache Eingabeaufforderungen.

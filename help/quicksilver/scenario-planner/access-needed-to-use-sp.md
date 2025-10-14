@@ -68,7 +68,7 @@ Sie müssen sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor 
 
 1. (Optional und empfohlen) Um Finanzinformationen für Ihre Pläne und Initiativen anzuzeigen oder zu aktualisieren, muss Ihnen Ihr [!DNL Workfront]-Administrator auch Zugriff auf [!UICONTROL Finanzdaten] in Ihrer Zugriffsebene gewähren. Informationen zum Gewähren von Finanzdaten auf Ihrer Zugriffsebene finden Sie unter [Gewähren des Zugriffs auf Finanzdaten](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-1. (Optional) Wenn Sie auf Pläne zugreifen müssen, die Sie nicht erstellt haben, muss Ihnen ein Planersteller die richtigen Berechtigungen für seinen Plan erteilen, um darauf zugreifen zu können. Informationen zu den Berechtigungen, die für den Zugriff auf Pläne und Initiativen erforderlich sind, die Sie nicht erstellt haben, finden Sie im Abschnitt [Berechtigungen, die für den Zugriff auf Pläne und ](#permissions-needed-to-access-plans-and-initiatives) erforderlich sind“ in diesem Artikel.
+1. (Optional) Wenn Sie auf Pläne zugreifen müssen, die Sie nicht erstellt haben, muss Ihnen ein Planersteller die richtigen Berechtigungen für seinen Plan erteilen, um darauf zugreifen zu können. Informationen zu den Berechtigungen, die für den Zugriff auf Pläne und Initiativen erforderlich sind, die Sie nicht erstellt haben, finden Sie im Abschnitt [Berechtigungen, die für den Zugriff auf Pläne und &#x200B;](#permissions-needed-to-access-plans-and-initiatives) erforderlich sind“ in diesem Artikel.
 
 <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
@@ -90,7 +90,7 @@ Zusätzlich zu der Lizenz, die Ihr Unternehmen für die [!DNL Workfront Scenario
   >
   >[!UICONTROL Anforderer] und [!UICONTROL Externe]-Benutzer haben keinen Zugriff zum Anzeigen der [!DNL Scenario Planner].
 
-* Anzeigen der Berechtigungen für den Plan. Informationen zu den Berechtigungen, die für den Zugriff auf Pläne und Initiativen erforderlich sind, die Sie nicht erstellt haben, finden Sie im Abschnitt [Berechtigungen, die für den Zugriff auf Pläne und ](#permissions-needed-to-access-plans-and-initiatives) erforderlich sind“ in diesem Artikel.
+* Anzeigen der Berechtigungen für den Plan. Informationen zu den Berechtigungen, die für den Zugriff auf Pläne und Initiativen erforderlich sind, die Sie nicht erstellt haben, finden Sie im Abschnitt [Berechtigungen, die für den Zugriff auf Pläne und &#x200B;](#permissions-needed-to-access-plans-and-initiatives) erforderlich sind“ in diesem Artikel.
 
 ## Zugriff zum Verwalten von Plänen und Initiativen erforderlich
 
@@ -112,7 +112,7 @@ Ihr [!DNL Workfront] muss Ihnen den folgenden Zugriff zuweisen, damit Sie Pläne
 
   Weitere Informationen zur Zugriffsebene [!UICONTROL Finanzdaten] finden Sie unter [Zugriff auf Finanzdaten gewähren](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Verwalten Sie die Berechtigungen für einen Plan, den Sie nicht erstellt haben. Informationen zu den Berechtigungen, die für den Zugriff auf Pläne und Initiativen erforderlich sind, die Sie nicht erstellt haben, finden Sie im Abschnitt [Berechtigungen, die für den Zugriff auf Pläne und ](#permissions-needed-to-access-plans-and-initiatives) erforderlich sind“ in diesem Artikel.
+* Verwalten Sie die Berechtigungen für einen Plan, den Sie nicht erstellt haben. Informationen zu den Berechtigungen, die für den Zugriff auf Pläne und Initiativen erforderlich sind, die Sie nicht erstellt haben, finden Sie im Abschnitt [Berechtigungen, die für den Zugriff auf Pläne und &#x200B;](#permissions-needed-to-access-plans-and-initiatives) erforderlich sind“ in diesem Artikel.
 
 ## Für den Zugriff auf Pläne und Initiativen erforderliche Berechtigungen
 

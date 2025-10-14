@@ -136,7 +136,7 @@ Das Datum, an dem eine Aufgabe oder ein Problem abgeschlossen sein soll. Das Fä
 
 Das Fälligkeitsdatum von Aufgaben und Problemen ist in Aufgaben- und Problemlisten und Berichten sichtbar.
 
-Weitere Informationen finden Sie [ Abschnitt „Geplantes ](#planned-completion-date)&quot; in diesem Artikel.
+Weitere Informationen finden Sie [&#x200B; Abschnitt „Geplantes &#x200B;](#planned-completion-date)&quot; in diesem Artikel.
 
 ## Fällig am
 
@@ -144,7 +144,7 @@ Das Datum, an dem das Projekt abgeschlossen sein soll. Das geplante Abschlussdat
 
 Das Fälligkeitsdatum des Projekts wird in Projektlisten und Berichten angezeigt.
 
-Weitere Informationen finden Sie [ Abschnitt „Geplantes ](#planned-completion-date)&quot; in diesem Artikel.
+Weitere Informationen finden Sie [&#x200B; Abschnitt „Geplantes &#x200B;](#planned-completion-date)&quot; in diesem Artikel.
 
 ## [!UICONTROL Eingabedatum]
 
@@ -315,7 +315,7 @@ Aufgaben können manchmal beginnen und abgeschlossen werden, ohne dass sich dies
 
 Das Slack-Datum zeigt das genaue Datum an, an dem sich eine Aufgabe auf jeden Fall auf das Abschlussdatum des Projekts auswirken könnte.
 
-Informationen zum Slack-Datum einer Aufgabe finden Sie unter [Übersicht über das Slack-Datum ](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
+Informationen zum Slack-Datum einer Aufgabe finden Sie unter [Übersicht über das Slack-Datum &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
 Slack-Termine von Aufgaben werden in Aufgabenlisten und Berichten angezeigt.
 
@@ -325,7 +325,7 @@ Das Datum, an dem das Projekt beginnen soll. Das Startdatum eines Projekts entsp
 
 Dieses Feld ist in Projektlisten und Berichten sichtbar.
 
-Weitere Informationen finden Sie [ Abschnitt „Geplantes ](#planned-start-date)&quot; in diesem Artikel.
+Weitere Informationen finden Sie [&#x200B; Abschnitt „Geplantes &#x200B;](#planned-start-date)&quot; in diesem Artikel.
 
 
 

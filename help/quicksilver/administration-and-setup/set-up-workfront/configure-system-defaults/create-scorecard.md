@@ -127,7 +127,7 @@ Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Score
 {{step-1-to-setup}}
 
 1. Klicken Sie **[!UICONTROL linken]** auf „Scorecards“.
-1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard ](assets/copy-scorecard-icon.png) kopieren“.
+1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard &#x200B;](assets/copy-scorecard-icon.png) kopieren“.
 
    Das Feld **Scorecard kopieren** wird geöffnet.
 

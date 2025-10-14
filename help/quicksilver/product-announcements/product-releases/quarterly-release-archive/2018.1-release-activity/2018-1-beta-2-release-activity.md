@@ -135,9 +135,9 @@ Im Bereich Startseite stehen jetzt verschiedene Verbesserungen zur Verfügung, d
 * Zeigen Sie auf einen Benutzeravatar in einem Arbeitselement im linken Bereich, um den Namen des Benutzers anzuzeigen.
 * Erweitern Sie den Bereich „Verspätet“ im linken Bereich, um alle verspäteten Elemente anzuzeigen (wenn dieser Bereich reduziert ist, werden nur die ersten 5 Elemente angezeigt).
 * Nachdem Sie ein Element als abgeschlossen markiert haben, bleibt das Element im linken Bedienfeld, bis Sie ein anderes Element auswählen.\
-  Informationen zum Anzeigen abgeschlossener Elemente finden Sie unter [Elemente in der Arbeitsliste im ](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) anzeigen) unter [Elemente in der Arbeitsliste im ](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) anzeigen.
+  Informationen zum Anzeigen abgeschlossener Elemente finden Sie unter [Elemente in der Arbeitsliste im &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) anzeigen) unter [Elemente in der Arbeitsliste im &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) anzeigen.
 
-Weitere Informationen zur Verwendung des neuen Bereichs „Startseite“ sowie Informationen zu Funktionsunterschieden zwischen „Meine Arbeit“ und „Startseite“ [ Sie unter „Verwenden des Bereichs „Startseite](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Weitere Informationen zur Verwendung des neuen Bereichs „Startseite“ sowie Informationen zu Funktionsunterschieden zwischen „Meine Arbeit“ und „Startseite“ [&#x200B; Sie unter „Verwenden des Bereichs „Startseite](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Neue Verbesserungen bei der Korrekturabzugsansicht  {#new-proofing-viewer-improvements}
 

@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Einführung in die Integration  [!DNL Workfront Proof]  und  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Erstellen eines Korrekturabzugs über Ihr - [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Einführung in die Integration  [!DNL Workfront Proof]  und  [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Erstellen eines Korrekturabzugs über Ihr - [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [Synchronisieren  [!DNL Box]  Ordnern mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [Sehen Sie sich die Originaldatei eines Korrekturabzugs in an [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

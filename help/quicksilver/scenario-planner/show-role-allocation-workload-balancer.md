@@ -162,7 +162,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. (Optional) Klicken Sie auf das Dropdown-Symbol, um einen der Monate im Bedienfeld [!UICONTROL Rollenzuweisung] oder in der Zeitleiste des [!UICONTROL Workload-Balancer] zu erweitern.
 
-   ![Monat im Bedienfeld „Rollenzuweisung“ ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Monat im Bedienfeld „Rollenzuweisung“ &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt &#x200B;], werden auch für jeden Monat angezeigt.
 

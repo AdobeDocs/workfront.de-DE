@@ -35,7 +35,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Der Ersteller eines Berichts, Dashboards oder Kalenders hat standardmäßig Verwaltungsberechtigungen für ihn.
 * Die Freigabe von Berichten, Dashboards und Kalendern ähnelt der Freigabe anderer Objekte in Workfront.
 
-  Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
   In den folgenden Artikeln erfahren Sie außerdem, wie Sie Berichte, Dashboards und Kalender freigeben:
 
@@ -59,7 +59,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Wenn Sie ein Dashboard freigeben, haben Benutzer standardmäßig Anzeigeberechtigungen für alle Berichte, Kalender und externen Seiten im Dashboard.
 * Benutzende mit einer Anfragelizenz können keinen systemweiten Bericht anzeigen. Ein Bericht muss für die Antragsteller einzeln freigegeben werden, wenn sie ihn anzeigen müssen.
 * Wenn ein Bericht eine Eingabeaufforderung enthält und Sie ihn öffentlich freigeben, müssen die Benutzenden, die auf den Bericht zugreifen, bei Workfront angemeldet sein, damit der Bericht über die Eingabeaufforderung ausgeführt werden kann. Wenn er sich nicht bei Workfront anmelden kann, wird der Bericht ohne die Eingabeaufforderung angezeigt.\
-  Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe ](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * Sie können geerbte Berechtigungen aus einem Bericht oder Kalender entfernen.
 

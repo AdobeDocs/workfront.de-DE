@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
    ![Bearbeiten eines Berichts](assets/edit-report-box.png)
 
@@ -127,6 +127,6 @@ Weitere Informationen finden Sie unter [Hinzufügen eines vorhandenen Berichts z
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Klicken Sie im **Berichtsauswahl** auf **Hinzufügen** für den Bericht, mit dem Sie die Daten des vorhandenen Berichts-Widgets ersetzen möchten.

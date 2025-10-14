@@ -46,7 +46,7 @@ Das Feld Projektbesitzer ermöglicht Folgendes:
 
 * Sie können bestimmte Benachrichtigungen aktivieren, die nur an den Projektbesitzer gesendet werden.
 
-  Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie im Abschnitt [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify)) im Artikel [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie im Abschnitt [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify)) im Artikel [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * Sie können das Feld Projektbesitzer in einem Bericht oder einer Liste anzeigen.
 

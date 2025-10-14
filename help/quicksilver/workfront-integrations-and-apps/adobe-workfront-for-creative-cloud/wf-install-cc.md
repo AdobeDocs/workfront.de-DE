@@ -34,7 +34,7 @@ Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Ma
 
 >[!NOTE]
 >
->Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Zugriffsanforderungen
@@ -82,7 +82,7 @@ Als [!DNL Adobe Admin Console] können Sie [!DNL Adobe Workfront for design and 
 
 Sie können [!DNL Adobe Workfront for design and video] selbst über die [!DNL Adobe Exchange] installieren.
 
-1. Navigieren Sie zur [Adobe Workfront for Design and Video-](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) auf der Adobe Exchange.
+1. Navigieren Sie zur [Adobe Workfront for Design and Video-](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) auf der Adobe Exchange.
 1. Klicken Sie im angezeigten Dialogfeld auf **[!DNL Adobe Creative Cloud] Desktop-Programm öffnen**.
 1. Sobald [!DNL Adobe Creative Cloud] Plug-in-Manager geöffnet ist, klicken Sie auf **[!UICONTROL Installieren]**.
 1. Lesen Sie die Informationen im Dialogfeld und klicken Sie dann auf **[!UICONTROL OK]**.
@@ -162,4 +162,4 @@ Um dieses Problem zu beheben,
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
