@@ -46,7 +46,7 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
   <p>Ihr Unternehmen hat möglicherweise ein Workfront-Paket in einem oder mehreren dieser Bereiche erworben.</p>
   <p>Zuvor bot Workfront Workfront Select-, Workfront Prime- und Workfront Ultimate-Pakete an, ohne zwischen Workflow, Planung sowie Automatisierung und Integration zu unterscheiden. Ihr Unternehmen verwendet möglicherweise eines dieser Legacy-Pakete. 
    <ul><li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welches Adobe Workfront-Paket Ihr Unternehmen verwendet, einschließlich der Frage, ob Ihr Unternehmen das aktuelle oder das veraltete Paketmodell verwendet.</li>
-   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
+   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/de/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -97,7 +97,7 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
    <ul><li>Das aktuelle Lizenzmodell basiert auf der Anzahl der durchgeführten Vorgänge und hat keine Einschränkungen bezüglich der möglichen Aktionen einer Organisation. </li>
    <li>Legacy-Lizenzen basieren darauf, ob Szenarien mit Anwendungen von Drittanbietern verbunden werden können oder ob die Szenarien nur für die Automatisierung von Workfront verwendet werden. </li>
    </ul>
-   Informationen zur Fusion-Lizenzierung finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-Lizenzen</a>.
+   Informationen zur Fusion-Lizenzierung finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-Lizenzen</a>.
    </td> 
   </tr> 
  </tbody> 
