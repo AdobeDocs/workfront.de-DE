@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Salesforce finden Sie unter [Salesforce-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein &#x200B;]-Plan [!DNL Workfront]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
+Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein &#x200B;]-Plan [!DNL Workfront]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/de/products/workfront/pricing.html)
 
 Nachdem Sie [!DNL Adobe Workfront] für [!DNL Salesforce] als [!DNL Workfront]-Admin installiert haben, können Sie es für Ihre Benutzerinnen und Benutzer verfügbar machen, indem Sie es in einem neuen Abschnitt zu deren [!UICONTROL Opportunity] und [!UICONTROL Account]
 Seiten-Layouts in [!UICONTROL Salesforce].

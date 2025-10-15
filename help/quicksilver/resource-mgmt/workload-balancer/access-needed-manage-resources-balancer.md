@@ -52,7 +52,7 @@ Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan Ihres Unte
  </tbody> 
 </table>
 
-Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://business.adobe.com/products/workfront/pricing.html).
+Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 
 Informationen dazu, wo Sie den Workload-Balancer in Workfront finden können, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

@@ -74,7 +74,7 @@ Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurier
 
 * [!DNL Workfront Proof]
 
-  Durch das Verknüpfen von Korrekturabzügen aus [!DNL Workfront Proof] können Sie Korrekturabzüge, die ursprünglich in [!DNL Workfront Proof] erstellt wurden, in [!DNL Workfront] verfügbar machen. Für die aktuellen Pläne ist ein [!UICONTROL Pro]-[!DNL Workfront] oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Pläne ist diese Funktion in allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
+  Durch das Verknüpfen von Korrekturabzügen aus [!DNL Workfront Proof] können Sie Korrekturabzüge, die ursprünglich in [!DNL Workfront Proof] erstellt wurden, in [!DNL Workfront] verfügbar machen. Für die aktuellen Pläne ist ein [!UICONTROL Pro]-[!DNL Workfront] oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Pläne ist diese Funktion in allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurier
 
 * Andere Dokumentanbieter (über benutzerdefinierte Dokumentintegrationen).
 
-  Für die aktuellen Pläne ist ein [!UICONTROL Pro]-[!DNL Workfront] oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Pläne ist diese Funktion in allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
+  Für die aktuellen Pläne ist ein [!UICONTROL Pro]-[!DNL Workfront] oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Pläne ist diese Funktion in allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 
 Darüber hinaus können Sie Ihr [!DNL Workfront]-Dokumenterlebnis mit DAM-Integrationen von Drittanbietern verbessern. Administratoren müssen diese Funktionen aktivieren, damit Benutzer den Dienst mit ihrem [!DNL Workfront] verknüpfen können.
 

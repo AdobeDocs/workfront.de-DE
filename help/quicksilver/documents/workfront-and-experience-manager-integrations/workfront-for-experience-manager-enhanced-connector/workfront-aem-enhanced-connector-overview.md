@@ -54,5 +54,5 @@ Der erweiterte Connector von Workfront für Experience Manager ermöglicht jetzt
 
 ## Ähnliche Themen
 
-* Überblick über [Workfront für Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)
+* Überblick über [Workfront für Adobe Experience Manager](https://business.adobe.com/de/products/workfront/aem-integration.html)
 * [Adobe Workfront für Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

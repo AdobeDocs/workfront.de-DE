@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für die Verwendung dieser Funktion ist ein Select- oder Premium-[!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
+Für die Verwendung dieser Funktion ist ein Select- oder Premium-[!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 
 Mit benutzerdefinierten Feldern können Sie zusätzliche Daten erfassen, wenn Sie einen neuen Korrekturabzug, Benutzende oder Gast erstellen. Wenn ein(e) Benutzende(r) beispielsweise einen neuen Korrekturabzug erstellt, kann er/sie einen zusätzlichen Abschnitt enthalten, in dem eine Auftragsnummer, ein Abteilungscode oder eine Lieferantenreferenz erfasst werden können.
 

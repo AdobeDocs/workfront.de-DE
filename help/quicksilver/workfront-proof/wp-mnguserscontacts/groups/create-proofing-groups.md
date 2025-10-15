@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für die Verwendung dieser Funktion ist ein Select- oder Premium-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne](https://business.adobe.com/products/workfront/pricing.html).
+Für die Verwendung dieser Funktion ist ein Select- oder Premium-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 
 Sie können Benutzergruppen erstellen, die Sie als Prüfer für mehrere Korrekturabzüge hinzufügen können. Dies ist nützlich, wenn Sie regelmäßig Inhalte an dieselben Benutzer senden.
 

@@ -27,7 +27,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront-Plan</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">Adobe Workfront-Plan</a> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 

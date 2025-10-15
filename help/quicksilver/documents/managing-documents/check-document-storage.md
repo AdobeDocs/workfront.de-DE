@@ -28,7 +28,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 

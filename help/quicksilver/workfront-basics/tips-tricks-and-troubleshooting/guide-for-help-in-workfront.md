@@ -81,11 +81,11 @@ Die folgenden Ressourcen können Ihnen dabei helfen, zu bestimmen, wie Sie [!DNL
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] Ressourcen mit hervorgehobenen Kunden</a> </td> 
+   <td><a href="https://business.adobe.com/de/resources/main.html?Products=Workfront">[!DNL Workfront] Ressourcen mit hervorgehobenen Kunden</a> </td> 
    <td>Dies ist Ihre Ausgangsquelle für Webinare, E-Books, Whitepapers, Videos und Berichte.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudien </a></td> 
+   <td><a href="https://business.adobe.com/de/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudien </a></td> 
    <td>Lesen Sie sich eine wachsende Sammlung von mehr als 60 Fallstudien durch, in denen die Herausforderungen und [!DNL Workfront] Lösungen und Vorteile für die Kunden hervorgehoben werden.</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ Die folgenden Ressourcen können Ihnen dabei helfen, mehr über die [!DNL Workfr
 
 | [[!DNL Adobe Workfront] Integrationen](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Sie können [!DNL Workfront] mit Anwendungen von Drittanbietern integrieren. Integrationen können den Nutzen von [!DNL Workfront] erweitern und an die Anforderungen Ihres Unternehmens anpassen. Dieser Knowledgebase-Artikel behandelt Ihre Integrationsoptionen und weist Sie in die nächste Richtung. |
 |---|---|
-| [[!DNL Workfront] Integrierte Integrationen](https://business.adobe.com/products/workfront/integrations.html) | Dank der kostenlosen integrierten Integrationen von Workfront können Sie und Ihr Team nahtlos in die Workfront-Plattform wechseln, während dieselben Workflows und Prozesse beibehalten werden. |
+| [[!DNL Workfront] Integrierte Integrationen](https://business.adobe.com/de/products/workfront/integrations.html) | Dank der kostenlosen integrierten Integrationen von Workfront können Sie und Ihr Team nahtlos in die Workfront-Plattform wechseln, während dieselben Workflows und Prozesse beibehalten werden. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home) | Verbindet [!DNL Workfront] mit über 100 Anwendungen und erleichtert so die Automatisierung geschäftskritischer Prozesse ohne Code. |
 
 {style="table-layout:auto"}

@@ -38,7 +38,7 @@ Weitere Informationen zum Konfigurieren des [!DNL Workfront] in [!DNL Salesforce
 
 >[!NOTE]
 >
->Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein &#x200B;]-Plan [!DNL Workfront]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/products/workfront/pricing.html)
+>Um diese Funktion verwenden zu können[!UICONTROL &#x200B; ist ein &#x200B;]-Plan [!DNL Workfront]Pro) erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [[!DNL Workfront] Pläne.](https://business.adobe.com/de/products/workfront/pricing.html)
 
 ## Zugriffsanforderungen
 

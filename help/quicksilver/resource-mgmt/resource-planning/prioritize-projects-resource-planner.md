@@ -112,7 +112,7 @@ So bearbeiten Sie die Projektplanungspriorität:
 >
 >Ihr Unternehmen muss über einen Business- oder höheren Workfront-Plan verfügen, um Projekte in Portfolio Optimizer zu priorisieren.
 >
->Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://business.adobe.com/products/workfront/pricing.html).
+>Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 >
 >Informationen zum Priorisieren von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

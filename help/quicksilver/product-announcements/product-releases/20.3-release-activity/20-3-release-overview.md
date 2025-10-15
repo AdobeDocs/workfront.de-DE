@@ -118,7 +118,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >
 >Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/products/workfront/pricing.html).
+>* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/de/products/workfront/pricing.html).
 >* Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
 >  Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
@@ -154,7 +154,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
 >&gt;   <td>Unternehmen oder höher</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -450,7 +450,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
 
 ### Webinar zur Version 20.3 {#20-3-release-webinar}
 

@@ -358,7 +358,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
 
 ### Webinar zur Version 2020.1 {#2020-1-release-webinar}
 
