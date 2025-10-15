@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 469242118429fa37835766737b88d35d2baefb69
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 1%
+source-wordcount: '1048'
+ht-degree: 0%
 
 ---
 
@@ -35,45 +35,46 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> Adobe Workfront-Pläne beziehen sich auf die von Ihrem Unternehmen erworbenen Funktionen. Die meisten Workfront-Funktionen sind in allen Plänen verfügbar, mit wenigen Ausnahmen, die sich hauptsächlich auf die strategische Planung und die Unternehmenssteuerung beziehen. 
-   <ul><li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Adobe Workfront-Plan Ihr Unternehmen verwendet, einschließlich der Frage, ob Ihr Unternehmen das neue oder das aktuelle Verpackungsmodell verwendet.</li>
-   <li>Anweisungen, wie ein Workfront-Administrator den Workfront-Plan Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Anzeigen des Cluster- und Workfront-Plans Ihres Unternehmens</a>.</li><li>Weitere Informationen zu den neuen Workfront-Plänen finden Sie unter <a href="https://business.adobe.com/de/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> Adobe Workfront-Pakete beziehen sich auf die von Ihrem Unternehmen erworbenen Funktionen. Die meisten Workfront-Funktionen sind in allen Packages verfügbar, mit wenigen Ausnahmen, die sich hauptsächlich auf die strategische Planung und Unternehmenssteuerung beziehen. <p>Pakete, die vor 2022 existierten, werden nicht aufgelistet.</p>
+   <p>Workfront-Pakete sind in drei Bereiche unterteilt. Jeder Bereich bietet verschiedene Pakete wie Select, Prime und Ultimate.<p>
+   <ul>
+   <li><b>Workfront-Workflow</b>: Enthält Funktionen im Zusammenhang mit Vorgängen wie Aufgabenverwaltung, Genehmigungen und Arbeitszeittabellen.</li>
+   <li><b>Workfront Planning</b>: Enthält Funktionen für die strategische Planung.</li>
+   <li><b>Automatisierung und Integration von Workfront</b>: Umfasst Funktionen zur Automatisierung von Prozessen und zur Integration mit anderen Anwendungen.</li>
+   </ul>
+  <p>Ihr Unternehmen hat möglicherweise ein Workfront-Paket in einem oder mehreren dieser Bereiche erworben.</p>
+  <p>Zuvor bot Workfront Workfront Select-, Workfront Prime- und Workfront Ultimate-Pakete an, ohne zwischen Workflow, Planung sowie Automatisierung und Integration zu unterscheiden. Ihr Unternehmen verwendet möglicherweise eines dieser Legacy-Pakete. 
+   <ul><li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welches Adobe Workfront-Paket Ihr Unternehmen verwendet, einschließlich der Frage, ob Ihr Unternehmen das aktuelle oder das veraltete Paketmodell verwendet.</li>
+   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> Adobe Workfront-Lizenzen beziehen sich auf die Funktionen von Workfront, die in der Ihnen zugewiesenen Lizenz enthalten sind. Beispielsweise könnte ein Benutzer über eine Lizenz verfügen, die das Kennzeichnen von Arbeitselementen und die Protokollierungszeit umfasst, während ein anderer Benutzer über eine Lizenz verfügt, die es ihm nur ermöglicht, Assets zu genehmigen oder Anfragen zu senden. <p> 
    <ul>
    <li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welche Lizenz Ihnen zugewiesen wurde.</li>
-   <li>Adobe Workfront stellt auf ein neues Preis- und Verpackungsmodell um. Informationen zu Lizenzen finden Sie unter:
+   <li>Informationen zu Lizenzen finden Sie unter:
    <ul>
-   <li>Neu: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Neue Lizenzen - Übersicht</a></li>
-   <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Lizenzen - Übersicht</a></li></ul></li>
-   <li>Wenn Sie die richtige Zugriffsebene haben und immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Übersicht über neue Lizenzen</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Lizenzen - Überblick</a></li></ul></li>
+   <li>Wenn Sie die richtige Zugriffsebene haben und immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.
    </ul>
       </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Workfront bietet einige Produkte an, die zusätzlich zu Workfront erworben werden können.
-   <p>In Artikeln, die die in diesen zusätzlichen Produkten durchgeführten Verfahren beschreiben, wird das erforderliche Produkt hier aufgeführt.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets oder Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront-Ziele</li>
-   <li>Workfront-Szenarienplaner</li>
-   <li>Workfront Planning</li>
-   </ul>
+   <td><p>Da Workfront eng mit anderen Adobe-Produkten zusammenarbeitet, interagieren einige Verfahren in Workfront direkt mit diesen Produkten. Um diese Verfahren zu befolgen, muss Ihr Unternehmen das Produkt gekauft haben. Um beispielsweise eine Funktion verwenden zu können, die es Workfront ermöglicht, mit Adobe Experience Manager Assets zu interagieren, muss Ihr Unternehmen Adobe Experience Manager Assets erworben haben.</p>
+   <p>Artikel, in denen die mit zusätzlichen Produkten durchgeführten Verfahren beschrieben werden, führen das gewünschte Produkt in der Produktlinie dieser Tabelle auf.</p>
    <p>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, ob Ihr Unternehmen eines dieser zusätzlichen Produkte erworben hat.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
    <td> Zugriffsebenen sind Berechtigungssätze für Aktionen, die Sie in Workfront ausführen können und die von Ihrem Workfront-Administrator festgelegt werden. <p>Workfront verfügt über integrierte Zugriffsebenen, die den Workfront-Lizenzen entsprechen. Ihr Workfront-Administrator kann jedoch weitere Zugriffsebenen erstellen, um die in Ihrem Unternehmen erforderlichen Berechtigungssätze genauer widerzuspiegeln.</p>
    <ul>
-    <li>Adobe Workfront stellt auf ein neues Preis- und Verpackungsmodell um. Informationen zu Zugriffsebenen für die einzelnen Modelle finden Sie unter:
+    <li>Informationen zu Zugriffsebenen finden Sie unter:
    <ul>
-   <li>Neu: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über neue Zugriffsebenen</a></li>
-   <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Zugriffsebenen - Übersicht</a></li></ul></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über neue Zugriffsebenen</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Übersicht über Zugriffsebenen</a></li></ul></li>
     <li>Wenden Sie sich an Ihren Workfront-Administrator, um die Details Ihrer Zugriffsebene zu erfahren</li>
     <li>Wenn Sie Workfront-Administrator sind, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurieren des Zugriffs auf Adobe Workfront</a> weitere Informationen darüber, wie Sie Zugriff auf bestimmte Objekte auf der Zugriffsebene gewähren.</li>  
    <li>Wenn Sie die richtige Zugriffsebene haben und immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</li>
@@ -85,7 +86,7 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
    <p>Informationen zum Anfordern zusätzlichen Zugriffs auf ein Objekt finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte</a>.</p><p>Informationen zum Freigeben eines Objekts finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Freigeben eines Objekts</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Layoutvorlage</td> 
+   <td role="rowheader">Layout-Vorlage</td> 
    <td><p>Layout-Vorlagen steuern, was Sie im Hauptmenü sehen können, und werden von Ihrem Workfront-Administrator konfiguriert. In dieser Zeile sind alle spezifischen Bereiche von Workfront aufgeführt, die zum Ausführen der Aktion in Ihr Hauptmenü aufgenommen werden müssen.</p><p>Wenn Sie in einem Artikel aufgefordert werden, auf einen Bereich im Hauptmenü zu klicken, der in Ihrem Hauptmenü nicht angezeigt wird, wenden Sie sich im Allgemeinen an Ihren Workfront-Administrator, um zu ermitteln, ob dieser Bereich Ihnen zur Verfügung gestellt werden kann.</p><p>
    Informationen dazu, wie Workfront-Admins das Hauptmenü konfigurieren können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage</a>.</p>
    </td> 
@@ -93,10 +94,10 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-Lizenz</td> 
    <td>Adobe Workfront Fusion verfügt über ein anderes Lizenzierungsmodell als Workfront. 
-   <ul><li>Aktuell: Das aktuelle Lizenzmodell basiert auf der Anzahl der durchgeführten Vorgänge und hat keine Einschränkungen bezüglich der möglichen Aktionen einer Organisation. </li>
-   <li>Legacy: Legacy-Lizenzen basieren darauf, ob Szenarien mit Anwendungen von Drittanbietern verbunden werden können oder ob die Szenarien nur für die Automatisierung von Workfront verwendet werden. </li>
+   <ul><li>Das aktuelle Lizenzmodell basiert auf der Anzahl der durchgeführten Vorgänge und hat keine Einschränkungen bezüglich der möglichen Aktionen einer Organisation. </li>
+   <li>Legacy-Lizenzen basieren darauf, ob Szenarien mit Anwendungen von Drittanbietern verbunden werden können oder ob die Szenarien nur für die Automatisierung von Workfront verwendet werden. </li>
    </ul>
-   Informationen zur Fusion-Lizenzierung finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-Lizenzen</a>.
+   Informationen zur Fusion-Lizenzierung finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-Lizenzen</a>.
    </td> 
   </tr> 
  </tbody> 
