@@ -74,7 +74,7 @@ Sie können Arbeit im Workload Balancer wie folgt zuweisen:
 
   Weitere Informationen finden Sie unter [Massenzuweisung von Arbeit mit dem Workload-Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Informationen zum Aufheben der Zuweisung von Arbeit finden [ unter „Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Informationen zum Aufheben der Zuweisung von Arbeit finden [&#x200B; unter „Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Arbeitsauftragsbereiche im Workload Balancer
 
