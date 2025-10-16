@@ -132,7 +132,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Projektliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Projekte]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL Portfolio auswählen] &gt;[!UICONTROL Projekte]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL Portfolio auswählen] &gt;[!UICONTROL Programme] &gt;[!UICONTROL Programm auswählen] &gt;[!UICONTROL Projekte]</p> </li> 
     </ul> </td> 
@@ -187,10 +187,10 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Dokumente</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL -Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL Portfolio auswählen] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL Portfolio auswählen] &gt;[!UICONTROL Programme] &gt;[!UICONTROL Programm auswählen] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL -Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL Aufgabe auswählen] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL select] ein Projekt &gt; [!UICONTROL Probleme] &gt;[!UICONTROL Problem auswählen] &gt; [!UICONTROL Dokumente]</p> </li> 
     </ul> </td> 
@@ -227,7 +227,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Ausgabenliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL] Projekt auswählen &gt;[!UICONTROL-Ausgaben]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt; Projekt auswählen &gt;[!UICONTROL -Ausgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL Projekt auswählen] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL Aufgabe auswählen] &gt;[!UICONTROL Ausgaben]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -235,7 +235,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Projekt auswählen</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt; Projekt auswählen</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL Aufgabe auswählen] &gt;[!UICONTROL Stunden]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL select] ein Projekt &gt;[!UICONTROL Probleme] &gt;[!UICONTROL select] ein Problem &gt;[!UICONTROL Stunden]</p> </li>
     </ul> </td> 
@@ -313,11 +313,11 @@ Eine Liste umfasst die folgenden Elemente:
    <td> <p>Filter verhindern basierend auf den von Ihnen angegebenen Kriterien unnötige Informationen aus einer Liste. </p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filter - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL-Ansicht]</strong></td> 
+   <td><strong>[!UICONTROL -Ansicht]</strong></td> 
    <td> <p>In Ansichten wird festgelegt, welche Felder (Spalten) auf dem Bildschirm angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL-Gruppierung]</strong></td> 
+   <td><strong>[!UICONTROL -Gruppierung]</strong></td> 
    <td> <p>Gruppierungen trennen die Objekte auf der Liste in Bereiche basierend auf den von Ihnen angegebenen Kriterien.</p> <p>Beispielsweise können die Probleme in einer Liste in Abschnitten nach Status oder Priorität angezeigt werden.</p> <p>In einer Standardgruppierung können bis zu drei Ebenen von Gruppierungen vorhanden sein. Wenn Sie im Textmodus eine Gruppierung konfigurieren, können Sie eine vierte Ebene hinzufügen.</p> <p>Weitere Informationen zu Gruppierungen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungen - Übersicht in [!DNL Adobe Workfront]</a>.</p> <p>Weitere Informationen zum Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -448,7 +448,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL-Export]</td> 
+   <td>[!UICONTROL -Export]</td> 
    <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
@@ -493,7 +493,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
+   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 

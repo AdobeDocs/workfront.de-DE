@@ -13,9 +13,9 @@ ht-degree: 1%
 
 ---
 
-# Storys oder Probleme aus dem Kanban[!UICONTROL Board ]
+# Storys oder Probleme aus dem Kanban[!UICONTROL Board &#x200B;]
 
-Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board ]. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
+Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board &#x200B;]. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
 
 ## Zugriffsanforderungen
 

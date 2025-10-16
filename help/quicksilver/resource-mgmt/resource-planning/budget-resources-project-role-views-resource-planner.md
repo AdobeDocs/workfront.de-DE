@@ -104,7 +104,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Klicken Sie auf das **Mehr**-Menü für das Projekt und dann auf **Geplante Stunden für Funktionen als „Budgetiert“**.\
      Die budgetierten Stunden für jede Funktion werden anhand der folgenden Formel berechnet:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Sie müssen Bearbeitungszugriff auf die Ressourcen-Management- und Finanzdaten s
 
 Informationen zum Zugriff, der für die Budgetierung von Ressourcen erforderlich ist, finden Sie im Artikel [Zugriff auf die Budgetierung von Ressourcen in Adobe Workfront erforderlich](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-So budgetieren Sie Zuteilungen im Ressourcenplaner in der ****:
+So budgetieren Sie Zuteilungen im Ressourcenplaner in der **&#x200B;**:
 
 1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
@@ -174,8 +174,8 @@ So budgetieren Sie Zuteilungen im Ressourcenplaner in der ****:
    * Geben **in der Spalte** BDG) manuell die Anzahl der budgetierten Stunden, VZÄ oder Kosten für die Aufgabengebiete an.\
      Dadurch werden die für die Funktion budgetierten Stunden auf die budgetierten Stunden des Projekts für die Projekte verteilt, auf die Sie Zugriff haben.
 
-   * Klicken Sie auf das **Mehr**-Menü für das Aufgabengebiet und dann auf **Geplante Stunden für Projekte als „Budgetiert“ festlegen.**Die für die Funktion budgetierten Stunden werden anhand der folgenden Formel berechnet:\
-     *
+   * Klicken Sie auf das **Mehr**-Menü für das Aufgabengebiet und dann auf **Geplante Stunden für Projekte als „Budgetiert“ festlegen.**&#x200B;Die für die Funktion budgetierten Stunden werden anhand der folgenden Formel berechnet:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

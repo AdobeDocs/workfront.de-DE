@@ -44,7 +44,7 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>Standard</p> 
-   <p>[!UICONTROL-Plan] </p> </td> 
+   <p>[!UICONTROL -Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
@@ -98,7 +98,7 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; &#x200B;].
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -119,7 +119,7 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung eines Projekts an.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 

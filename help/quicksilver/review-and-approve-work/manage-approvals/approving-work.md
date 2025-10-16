@@ -191,7 +191,7 @@ Abhängig von Ihren Benachrichtigungseinstellungen erhalten Sie möglicherweise 
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-     Informationen zur Überprüfung von Testsendungen finden Sie unter [Testsendungen in Adobe Workfront ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Informationen zur Überprüfung von Testsendungen finden Sie unter [Testsendungen in Adobe Workfront &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Klicken Sie **oben rechts auf** Option „Entscheidung“, um das Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 

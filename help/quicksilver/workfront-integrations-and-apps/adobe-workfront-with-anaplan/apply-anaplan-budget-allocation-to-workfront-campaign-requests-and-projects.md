@@ -107,7 +107,7 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 
    7. [!UICONTROL Marke]
 
-  Die Ansicht sollte so gefiltert werden, dass Elemente mit einer [!UICONTROL [!DNL Workfront] Projekt-GUID ] einige Indikatoren angezeigt werden, die darauf hinweisen, dass Budgetzuweisungen an Workfront übermittelt werden sollen.
+  Die Ansicht sollte so gefiltert werden, dass Elemente mit einer [!UICONTROL [!DNL Workfront] Projekt-GUID &#x200B;] einige Indikatoren angezeigt werden, die darauf hinweisen, dass Budgetzuweisungen an Workfront übermittelt werden sollen.
 
 Anweisungen zu diesen Aktionen finden Sie in der [!DNL Anaplan]-Dokumentation.
 

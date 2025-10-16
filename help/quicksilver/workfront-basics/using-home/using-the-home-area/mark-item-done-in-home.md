@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Markieren Sie ein Element als [!UICONTROL Fertig] im Bereich [!UICONTROL Startseite].
 
-Sie können eine Aufgabe oder ein Problem als „Erledigt“ markieren, wenn Sie die Aufgabe oder das Problem zugewiesen haben. Wenn Sie eine Aufgabe oder ein Problem als &quot;[!UICONTROL &quot; ], wird der Status der Aufgabe oder des Problems in &quot;[!UICONTROL &quot; ].
+Sie können eine Aufgabe oder ein Problem als „Erledigt“ markieren, wenn Sie die Aufgabe oder das Problem zugewiesen haben. Wenn Sie eine Aufgabe oder ein Problem als &quot;[!UICONTROL &quot; &#x200B;], wird der Status der Aufgabe oder des Problems in &quot;[!UICONTROL &quot; &#x200B;].
 
 >[!NOTE]
 >
@@ -62,8 +62,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Arbeit** hinzuzufügen.
-1. Suchen Sie das Arbeitselement und klicken Sie dann **[!UICONTROL Arbeitselement auf]**Als abgeschlossen markieren“.
-Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden ](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
+1. Suchen Sie das Arbeitselement und klicken Sie dann **[!UICONTROL Arbeitselement auf]**&#x200B;Als abgeschlossen markieren“.
+Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden &#x200B;](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
    ![Meine Arbeit als erledigt markieren](assets/my-work-done.png)
 
 
@@ -78,9 +78,9 @@ Sie können ein Arbeitselement im Widget „Meine Aufgaben“ und „Meine Probl
 1. Klicken **oben** Zusammenfassungsbereich auf „Als erledigt markieren“.
 
 
-## Verstehen der Optionen der Schaltfläche &quot;[!UICONTROL &quot; ]
+## Verstehen der Optionen der Schaltfläche &quot;[!UICONTROL &quot; &#x200B;]
 
-Standardmäßig wird durch Klicken auf [!UICONTROL Fertig] auf einem Arbeitselement der Status dieses Elements in &quot;[!UICONTROL  abgeschlossen] (für Aufgaben) oder [!UICONTROL Gelöst] (für Probleme) geändert.
+Standardmäßig wird durch Klicken auf [!UICONTROL Fertig] auf einem Arbeitselement der Status dieses Elements in &quot;[!UICONTROL &#x200B; abgeschlossen] (für Aufgaben) oder [!UICONTROL Gelöst] (für Probleme) geändert.
 
 Ihr [!DNL Adobe Workfront] kann anpassen, welche Status mit der Schaltfläche [!UICONTROL Fertig] verknüpft sind, und diese Anpassungen auf Ihr Haupt-Team anwenden.
 
@@ -102,9 +102,9 @@ Wenn Sie keinem Home-Team zugewiesen sind, wird der Standardstatus ausgewählt, 
 
 ### Schaltfläche [!UICONTROL Fertig], die mit mehreren Status verknüpft ist
 
-Wenn die [!UICONTROL Fertig]-Schaltfläche mit mehreren Status verknüpft ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. In diesem Szenario können Sie nicht einfach auf &quot;[!UICONTROL &quot; ]. Sie müssen einen Status aus dem Dropdown-Menü auswählen. Wählen Sie den Status aus, der am besten zum Abschluss des Arbeitselements passt. Auf diese Weise ändern Sie den Status des Arbeitselements.
+Wenn die [!UICONTROL Fertig]-Schaltfläche mit mehreren Status verknüpft ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. In diesem Szenario können Sie nicht einfach auf &quot;[!UICONTROL &quot; &#x200B;]. Sie müssen einen Status aus dem Dropdown-Menü auswählen. Wählen Sie den Status aus, der am besten zum Abschluss des Arbeitselements passt. Auf diese Weise ändern Sie den Status des Arbeitselements.
 
-Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden [ unter Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
+Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden [&#x200B; unter Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 ### Schaltfläche [!UICONTROL Fertig] für Elemente, die mehreren Ressourcen zugewiesen sind
 

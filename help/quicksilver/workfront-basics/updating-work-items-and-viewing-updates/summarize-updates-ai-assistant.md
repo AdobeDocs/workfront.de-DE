@@ -106,7 +106,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 So zeigen Sie eine Zusammenfassung eines Objekts an:
 
 1. Navigieren Sie zu dem Objekt, für das Sie eine Zusammenfassung anzeigen möchten.
-1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie im Bedienfeld KI-Assistent eine Eingabeaufforderung ein, z. B.:
 
    * Eine Zusammenfassung in drei Sätzen geben

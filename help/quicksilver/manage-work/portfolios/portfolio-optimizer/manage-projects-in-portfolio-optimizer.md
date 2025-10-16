@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [[!UICONTROL Portfolio Optimizer] - Übersicht](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 * [Suchen Sie den [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-* [Übersicht über die Bewertung für [!UICONTROL Portfolio ]Optimizer“](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+* [Übersicht über die Bewertung für [!UICONTROL Portfolio &#x200B;]Optimizer“](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
 * [Priorisieren von Projekten im [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
 * [Optimieren von Projekten im [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
 * [Berechnung des [!UICONTROL Risiko/Nettowert] in einem Portfolio](../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Rückstand zur Pinnwand [!UICONTROL Kanban] hinzufügen
 
-Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; ], damit sie im Rückstand angezeigt werden.
+Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; &#x200B;], damit sie im Rückstand angezeigt werden.
 
 ## Zugriffsanforderungen
 

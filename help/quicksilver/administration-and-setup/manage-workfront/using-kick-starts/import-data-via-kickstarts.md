@@ -20,7 +20,7 @@ ht-degree: 6%
 
 <!--Audited: 12/2023-->
 
-Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Dieser Prozess ist in drei Hauptaufgaben unterteilt:
 
@@ -449,7 +449,7 @@ Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwe
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen {0#setRoleIDROLE **.**
+   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
    * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
 
      Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.

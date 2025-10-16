@@ -169,12 +169,12 @@ Sie können die benutzerdefinierten Felder mehrerer Objekte manuell neu berechne
 >Sie können benutzerdefinierte Ausdrücke auch aus einer Liste von Objekten neu berechnen. So berechnen Sie beispielsweise benutzerdefinierte Ausdrücke massenhaft aus einer Projektliste neu:
 >
 >1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
->1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+>1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 >
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront berechnet alle benutzerdefinierten Felder für alle ausgewählten Projekte.
->>Nicht alle Listen aller Objekte verfügen über diese Funktion.
+>&#x200B;>Nicht alle Listen aller Objekte verfügen über diese Funktion.
 >
 >Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenberechnung berechneter benutzerdefinierter Felder keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung sicherzustellen. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
 

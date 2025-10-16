@@ -75,7 +75,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 * Sie können Zeit für Projekte, Aufgaben oder Probleme protokollieren oder die Zeit direkt in Ihrer Arbeitszeittabelle protokollieren.
 
-  Informationen zum Erstellen von Arbeitszeittabellen finden [ unter „Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Informationen zum Erstellen von Arbeitszeittabellen finden [&#x200B; unter „Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Alle Zeiteinträge, die über andere Tools als die Arbeitszeittabelle erfasst werden, werden für den entsprechenden Zeitraum in der Arbeitszeittabelle angezeigt.
 * Aufgaben und Probleme in einem Projekt, das nicht aktuell ist, werden nicht vorab in einer Arbeitszeittabelle ausgefüllt.
@@ -161,7 +161,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **** Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]
@@ -290,7 +290,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    * **Schließen**: Schließen Sie die Arbeitszeittabelle, wenn Sie mit der Aktualisierung fertig sind. Diese Option ist nur verfügbar, wenn die Arbeitszeittabelle keiner genehmigenden Person zugeordnet ist.
 
-   * **Zur Genehmigung einreichen:** Diese Option ist nur verfügbar, wenn auf der Arbeitszeittabelle eine genehmigende Person vorhanden ist. Speichern Sie Ihre Änderungen und senden Sie sie zur Genehmigung. Sie können die Arbeitszeittabelle nach dem Schließen öffnen, indem Sie auf **Rückruf** klicken, falls noch keine Genehmigung erteilt wurde. Weitere Informationen finden Sie unter [Arbeitszeittabelle zur Genehmigung ](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+   * **Zur Genehmigung einreichen:** Diese Option ist nur verfügbar, wenn auf der Arbeitszeittabelle eine genehmigende Person vorhanden ist. Speichern Sie Ihre Änderungen und senden Sie sie zur Genehmigung. Sie können die Arbeitszeittabelle nach dem Schließen öffnen, indem Sie auf **Rückruf** klicken, falls noch keine Genehmigung erteilt wurde. Weitere Informationen finden Sie unter [Arbeitszeittabelle zur Genehmigung &#x200B;](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
    * **Ablehnen**: Diese Option wird angezeigt, wenn Sie eine Arbeitszeittabelle genehmigen und diese zur Genehmigung eingereicht wurde. Wenn Sie darauf klicken, ändert sich der Status der Arbeitszeittabelle in Abgelehnt und die Arbeitszeittabelle bleibt offen.
 
@@ -318,9 +318,9 @@ Entfernen Sie die Stunden, ersetzen Sie sie durch 0 und drücken Sie dann die Ei
 
    Die Stunden werden entfernt und die Arbeitszeittabelle wird automatisch gespeichert.
 
-Sie können ein Element (Projekt, Aufgabe oder Problem) aus der Arbeitszeittabelle entfernen, indem Sie die Anheftung aufheben, wenn Sie die Zeit dafür noch nicht protokolliert haben und das Element manuell hinzugefügt haben (wie in den Schritten 4-8 im Abschnitt [Zeit in einer Arbeitszeittabelle ](#log-time-on-a-timesheet)). <!--ensure this stays accurate-->
+Sie können ein Element (Projekt, Aufgabe oder Problem) aus der Arbeitszeittabelle entfernen, indem Sie die Anheftung aufheben, wenn Sie die Zeit dafür noch nicht protokolliert haben und das Element manuell hinzugefügt haben (wie in den Schritten 4-8 im Abschnitt [Zeit in einer Arbeitszeittabelle &#x200B;](#log-time-on-a-timesheet)). <!--ensure this stays accurate-->
 
-Sie können Elemente, die in der Arbeitszeittabelle enthalten sind, nicht automatisch gemäß den Arbeitszeittabellen-Voreinstellungen in Ihrem Workfront-System oder Ihrer Gruppe entfernen, die so konfiguriert sind, dass die Arbeitszeittabellen vorab ausgefüllt werden (wie in [Konfigurieren von Arbeitszeittabellen- und ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Die Elemente werden nicht mehr vorab in der Arbeitszeittabelle ausgefüllt, wenn die Daten der Elemente außerhalb des Zeitrahmens der Arbeitszeittabelle liegen.
+Sie können Elemente, die in der Arbeitszeittabelle enthalten sind, nicht automatisch gemäß den Arbeitszeittabellen-Voreinstellungen in Ihrem Workfront-System oder Ihrer Gruppe entfernen, die so konfiguriert sind, dass die Arbeitszeittabellen vorab ausgefüllt werden (wie in [Konfigurieren von Arbeitszeittabellen- und &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Die Elemente werden nicht mehr vorab in der Arbeitszeittabelle ausgefüllt, wenn die Daten der Elemente außerhalb des Zeitrahmens der Arbeitszeittabelle liegen.
 
 So entfernen Sie ein Element aus der Arbeitszeittabelle, das manuell hinzugefügt wurde:
 
@@ -396,7 +396,7 @@ Sie können in den folgenden Abschnitten projektspezifische Zeit für ein Projek
 
 Um Zeit im Abschnitt Aktualisierungen eines Projekts, einer Aufgabe oder eines Problems zu erfassen, benötigen Sie Folgendes:
 
-* Der richtige Zugriff und die richtigen Berechtigungen, wie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel beschrieben.
+* Der richtige Zugriff und die richtigen Berechtigungen, wie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel beschrieben.
 
 * Ihr Workfront-Administrator muss die Einstellung Zeit direkt in Projekten protokollieren unter [!UICONTROL **Arbeitszeittabelle und Stunden**]> [!UICONTROL **Voreinstellungen**] im Systembereich aktivieren, wenn Sie die Zeit direkt in einem Projekt protokollieren möchten.
 
@@ -416,7 +416,7 @@ So protokollieren Sie die Zeit im Abschnitt „Aktualisierungen“ eines Projekt
    >   
    >   In der rechten oberen Ecke des Felds Tage eingeben wird angegeben, wie viele Stunden in einem Tag enthalten sind.
 
-   ![Zeitfeld für eine Aufgabe im Bereich „Aktualisierungen“ ](assets/log-time-box-in-updates-stream.png)
+   ![Zeitfeld für eine Aufgabe im Bereich „Aktualisierungen“ &#x200B;](assets/log-time-box-in-updates-stream.png)
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -454,7 +454,7 @@ So protokollieren Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgab
 
    Das **Zeit erfassen** wird angezeigt.
 
-   ![Zeit im Abschnitt Stunden einer Aufgabe ](assets/log-time-box-in-hours-section-on-task.png)
+   ![Zeit im Abschnitt Stunden einer Aufgabe &#x200B;](assets/log-time-box-in-hours-section-on-task.png)
 
 1. Geben Sie die folgenden Informationen an:
 

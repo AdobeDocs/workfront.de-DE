@@ -118,7 +118,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Konfigurieren des [!DNL Workfront] im [!DNL Salesforce Lightning Experience] Framework
 
-Sie können den Abschnitt [!DNL Workfront] zum Layout eines [!DNL Salesforce] (Opportunity[!UICONTROL  oder ] hinzufügen
+Sie können den Abschnitt [!DNL Workfront] zum Layout eines [!DNL Salesforce] (Opportunity[!UICONTROL &#x200B; oder &#x200B;] hinzufügen
 im [!DNL Salesforce Lightning Experience]-Framework, entweder durch Zugriff auf den [!UICONTROL Setup]-Bereich oder über ein Konto
 oder [!UICONTROL Opportunity] Objekt.
 

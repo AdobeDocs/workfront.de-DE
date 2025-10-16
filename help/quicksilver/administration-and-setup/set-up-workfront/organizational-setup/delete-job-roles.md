@@ -38,7 +38,7 @@ Um alle historischen Informationen über Arbeitsaufträge zu speichern, empfehle
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL-Plan]</p></td>
+       <p>[!UICONTROL -Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 

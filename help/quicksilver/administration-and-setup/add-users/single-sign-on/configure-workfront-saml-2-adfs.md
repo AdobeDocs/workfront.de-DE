@@ -66,7 +66,7 @@ Um die Authentifizierung für die Workfront-Web-Anwendung und die Workfront-Mobi
 1. Klicken Sie im linken Bereich auf **System** > **Single Sign-On (SSO)**.
 1. Klicken Sie **Dropdown-** „Typ“ auf **SAML 2.0**, um zusätzliche Informationen und Optionen anzuzeigen.
 1. Kopieren Sie die URL, die nach **Metadaten-URL** angezeigt wird.
-1. Fahren Sie mit dem folgenden Abschnitt fort[ „Konfigurieren von Vertrauensstellungen vertrauender Parteien](#configure-relying-party-trusts).
+1. Fahren Sie mit dem folgenden Abschnitt fort[&#x200B; „Konfigurieren von Vertrauensstellungen vertrauender Parteien](#configure-relying-party-trusts).
 
 ### Konfigurieren von Vertrauensstellungen vertrauender Parteien {#configure-relying-party-trusts}
 
@@ -86,7 +86,7 @@ Um die Authentifizierung für die Workfront-Web-Anwendung und die Workfront-Mobi
 
    Dadurch gelangen Sie zum Abschnitt **Bereit zum Hinzufügen von**&quot;.
 
-1. Fahren Sie mit dem folgenden Abschnitt [Konfigurieren von ](#configure-claim-rules) fort.
+1. Fahren Sie mit dem folgenden Abschnitt [Konfigurieren von &#x200B;](#configure-claim-rules) fort.
 
 ### Anspruchsregeln konfigurieren {#configure-claim-rules}
 

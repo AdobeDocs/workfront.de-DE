@@ -278,7 +278,7 @@ So verwalten Sie Ziele in der Liste „Ziele“:
 
      Weitere Informationen finden Sie unter [Berechnen des Zielfortschritts in Adobe Workfront-](../goal-management/calculate-goal-progress.md).
 
-1. Klicken Sie oben rechts in der ![ auf das Filtersymbol ](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
+1. Klicken Sie oben rechts in der ![&#x200B; auf das Filtersymbol &#x200B;](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
 
    Informationen zur Verwendung von Filtern in Workfront Goals finden Sie unter [Filtern von Informationen in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 

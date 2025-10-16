@@ -59,7 +59,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Oder
 
-   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken **auf** Workflow![ ](assets/workflow-icon-proofing-viewer.png)Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
+   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken **auf** Workflow![&#x200B; &#x200B;](assets/workflow-icon-proofing-viewer.png)Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
 
 1. (Bedingt) Wenn für den Korrekturabzug derzeit ein einfacher Workflow (ohne Phasen) verwendet wird, klicken Sie im angezeigten **auf In automatisierten Workflow**.
 
@@ -111,7 +111,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    1. Geben Sie einen Kontaktnamen oder eine E-Mail-Adresse ein und konfigurieren Sie die Einstellungen für Validierungsverantwortliche für das Stadium.
 
-      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu ](#about-adding-reviewers-to-a-stage) in diesem Artikel.
+      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu &#x200B;](#about-adding-reviewers-to-a-stage) in diesem Artikel.
 
    1. Verwenden Sie eine der folgenden Optionen, um das Stadium weiter zu konfigurieren:
 

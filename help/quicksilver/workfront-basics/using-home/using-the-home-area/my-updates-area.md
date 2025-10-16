@@ -27,7 +27,7 @@ Als Benutzer mit einer [!UICONTROL Review]-Lizenz finden Sie standardmäßig den
 
 Informationen zu [!DNL Adobe Workfront] finden Sie unter [[!DNL Adobe Workfront] Lizenzen - Übersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Workfront]- oder Gruppenadministrator den Bereich &quot;[!UICONTROL  Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Workfront]- oder Gruppenadministrator den Bereich &quot;[!UICONTROL &#x200B; Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Zugriffsanforderungen
 

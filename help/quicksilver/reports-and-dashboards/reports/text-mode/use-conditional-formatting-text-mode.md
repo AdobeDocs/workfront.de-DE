@@ -82,7 +82,7 @@ So fügen Sie einer Ansicht in der Textmodus-Benutzeroberfläche bedingte Format
 1. Klicken Sie auf die Spalte in der Ansicht, auf die Sie eine bedingte Formatierung anwenden möchten.
 1. Klicken Sie **In Textmodus wechseln**.
 1. Klicken Sie im Bereich **In dieser Spalte anzeigen:** auf **Klicken, um Text zu bearbeiten**.
-1. Fügen Sie die Code-Beispiele [ „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
+1. Fügen Sie die Code-Beispiele [&#x200B; „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
 1. Klicken Sie **Speichern** und dann auf **Ansicht speichern**.
 
 ## Ansichten im Textmodus formatieren {#format-views-using-text-mode}

@@ -92,7 +92,7 @@ Um verfügbare Kostenwerte im Ressourcenplaner anzuzeigen, benötigen Sie Folgen
 * Informationen zur Benutzerverfügbarkeit.
 
   Das Erhalten von Informationen zur Benutzerverfügbarkeit hängt davon ab, wie der Workfront-Administrator die Voreinstellungen für die Ressourcenverwaltung konfiguriert.\
-  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 Die folgende Tabelle zeigt, wie die verfügbaren Kosten im Ressourcenplaner berechnet werden:
 
@@ -150,7 +150,7 @@ Obwohl Sie keine Aufgabeninformationen im Ressourcenplaner anzeigen können, wer
 
 Bei der Berechnung der geplanten Kosten für Benutzer, Funktionen und das Projekt gibt es die folgenden Szenarien:
 
-* Wenn der **Kostentyp** „Benutzer pro Stunde** lautet **und es **„keine Zuweisung** für die Aufgabe gibt:
+* Wenn der **Kostentyp** „Benutzer pro Stunde **&#x200B; lautet &#x200B;** und es **„keine Zuweisung** für die Aufgabe gibt:
 
    * **Geplante Kosten für Funktion und Benutzer**:
 

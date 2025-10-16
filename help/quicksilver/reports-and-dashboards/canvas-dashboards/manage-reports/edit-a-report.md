@@ -18,8 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
    ![Bearbeiten eines Berichts](assets/edit-report-box.png)
 
@@ -127,6 +127,6 @@ Weitere Informationen finden Sie unter [Hinzufügen eines vorhandenen Berichts z
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Klicken Sie im **Berichtsauswahl** auf **Hinzufügen** für den Bericht, mit dem Sie die Daten des vorhandenen Berichts-Widgets ersetzen möchten.

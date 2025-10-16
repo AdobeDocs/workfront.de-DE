@@ -76,7 +76,7 @@ Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren,
 >* Workfront ermöglicht eine eindeutige E-Mail pro Anfrage-Warteschlange für alle Cluster. Wenn Sie Ihre Anfrage-Warteschlange deaktivieren, behalten Sie die von Ihnen erstellte E-Mail-Adresse so lange bei, wie sie sich noch im Feld Eingangs-E-Mail-Adresse befindet. Wenn Sie die Verwendung der Eingangs-E-Mail einstellen möchten, müssen Sie sie aus dem Feld Eingangs-E-Mail löschen, damit sie für die zukünftige Verwendung verfügbar ist.
 >
 >* Wenn die Anfrage-Warteschlange mehrere Warteschlangenthemen oder Themengruppen enthält, wählt Workfront nach dem Zufallsprinzip das Warteschlangenthema aus, an das die per E-Mail gesendeten Anfragen gesendet werden, wodurch E-Mail gesendete Anfragen schwer zu verwalten sind.
->  >Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
+>  &#x200B;>Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
 
 1. Navigieren Sie zu dem Projekt, das Sie aktivieren möchten, um Probleme per E-Mail zu empfangen.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.

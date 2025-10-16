@@ -36,7 +36,7 @@ Mit Tarifkarten können Sie je nach Standort mehrere Abrechnungssätze pro Rolle
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL-Plan]</p></td>
+       <p>[!UICONTROL -Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf [!UICONTROL **Tarifkarten**].
-1. Klicken Sie auf [!UICONTROL **Neue Tarifkarte**] und geben Sie dann einen Namen für die Tarifkarte in das Feld [!UICONTROL Neue ]&quot; ein, um „Unbenannte Tarifkarte“ zu ersetzen.
+1. Klicken Sie auf [!UICONTROL **Neue Tarifkarte**] und geben Sie dann einen Namen für die Tarifkarte in das Feld [!UICONTROL Neue &#x200B;]&quot; ein, um „Unbenannte Tarifkarte“ zu ersetzen.
 1. (Optional) Fügen Sie auf dem Bildschirm mit den Tarifkartendetails eine [!UICONTROL **Beschreibung**] hinzu.
 1. (Optional) Um ein benutzerdefiniertes Formular an die Tarifkarte anzuhängen, klicken Sie auf das Feld [!UICONTROL **Benutzerdefiniertes Formular hinzufügen**] in der oberen rechten Ecke und wählen Sie ein benutzerdefiniertes Formular aus der angezeigten Liste aus.
 

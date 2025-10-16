@@ -101,7 +101,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zum Kanban[!UICONTROL Board ].
+1. Zum Kanban[!UICONTROL Board &#x200B;].
 1. Erweitern Sie die Kachel Story , um alle mit der Story verbundenen Felder anzuzeigen.
 
    ![Story-Karte](assets/story-expanded-on-kanban-board-2021-350x405.png)

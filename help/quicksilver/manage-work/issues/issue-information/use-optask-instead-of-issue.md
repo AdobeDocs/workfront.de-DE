@@ -34,7 +34,7 @@ Verwenden Sie den `opTask` Feldnamen beim Referenzieren von Problemen in den fol
 
 * Beim Aktualisieren von Problemfeldern in einem Kickstart-Datenimportblatt.
 
-  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[ finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[&#x200B; finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## `issue` Feldname
 

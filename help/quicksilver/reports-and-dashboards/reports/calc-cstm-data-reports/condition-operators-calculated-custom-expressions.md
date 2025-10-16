@@ -31,7 +31,7 @@ Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen
 * Berechnete benutzerdefinierte Felder
 * Geschäftsregeln
 
-Weitere Informationen zum Erstellen von „IF“-Anweisungen finden Sie unter [ „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Weitere Informationen zum Erstellen von „IF“-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Die Beispiele in diesem Handbuch veranschaulichen die Verwendung von Bedingungsoperatoren in berechneten benutzerdefinierten Feldern. Sie können sie auch in berechneten benutzerdefinierten Spalten oder Gruppierungen verwenden, wenn Sie die korrekte Syntax für berechnete benutzerdefinierte Felder in Berichten befolgen.
 

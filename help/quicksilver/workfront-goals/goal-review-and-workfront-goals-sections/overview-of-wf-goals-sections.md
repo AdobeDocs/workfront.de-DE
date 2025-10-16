@@ -67,7 +67,7 @@ Im Folgenden finden Sie einen kurzen Überblick über die Abschnitte der Workfro
 
 Sie können die Zielliste verwenden, um Ziele zu überprüfen, die zu Ihnen, Ihren Teams, Gruppen oder Ihrer Organisation gehören. Sie können Ziele in jedem Status und aus jedem Zeitraum anzeigen.
 
-Informationen zum Navigieren in der Zielliste und Verwalten von [ finden Sie unter „Verwalten von Zielen in der Zielliste von Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Informationen zum Navigieren in der Zielliste und Verwalten von [&#x200B; finden Sie unter „Verwalten von Zielen in der Zielliste von Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![Liste der Ziele](assets/goal-list-unshimmed.png)
 

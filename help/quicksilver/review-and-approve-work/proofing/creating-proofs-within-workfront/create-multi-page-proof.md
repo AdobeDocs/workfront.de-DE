@@ -58,7 +58,7 @@ So erstellen Sie einen mehrseitigen Korrekturabzug:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, in dem/der Sie den Korrekturabzug anzeigen möchten, und klicken Sie dann auf den Abschnitt **Dokumente**.
 1. Klicken Sie **Neu hinzufügen** > **Testversand** .
-1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [ Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
+1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [&#x200B; Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
 
    >[!NOTE]
    >

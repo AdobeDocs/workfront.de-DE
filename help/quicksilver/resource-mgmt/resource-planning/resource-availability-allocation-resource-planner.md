@@ -194,7 +194,7 @@ So zeigen Sie die Benutzerzuordnung in einem Diagramm an:
 
 1. Wechseln Sie zum Ressourcenplaner.
 
-   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des ](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 1. Wählen Sie **Nach Benutzer anzeigen** aus.
 

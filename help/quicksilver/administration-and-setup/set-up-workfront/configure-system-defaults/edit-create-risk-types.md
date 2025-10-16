@@ -44,7 +44,7 @@ Sie können Risikotypen mit Projektrisiken verknüpfen, um festzustellen, auf we
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL-Plan]</p></td>
+       <p>[!UICONTROL -Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -140,7 +140,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
    >[!TIP]
    >
-   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten ] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
+   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten &#x200B;] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
 
 ## Risiken mit Risikotypen an Projekte anhängen
 

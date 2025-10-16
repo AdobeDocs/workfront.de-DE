@@ -322,7 +322,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Auslastung] %</td> 
+      <td role="rowheader">[!UICONTROL -Auslastung] %</td> 
       <td> 
        <div> 
         <p>Der Prozentsatz der Nutzung zeigt an, wie viele der verfügbaren Aufgabengebiete tatsächlich für die Initiativen im Szenario verwendet (oder erforderlich) werden. </p> 

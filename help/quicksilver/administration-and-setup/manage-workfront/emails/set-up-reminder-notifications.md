@@ -154,7 +154,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
 
 Wenn die Bedingung für das Element erfüllt ist, an das die Erinnerungsbenachrichtigung angehängt ist, wird eine E-Mail-Benachrichtigung an den in der Erinnerungsbenachrichtigung definierten Benutzer ausgelöst.
 
-Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [ Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [&#x200B; Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Versand der Testerinnerungsnachricht
 

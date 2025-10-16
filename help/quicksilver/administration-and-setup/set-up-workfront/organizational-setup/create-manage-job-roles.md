@@ -38,7 +38,7 @@ Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabe
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL-Plan]</p></td>
+       <p>[!UICONTROL -Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 

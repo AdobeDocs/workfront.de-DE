@@ -29,7 +29,7 @@ Wenn Ihr Unternehmen beispielsweise über ein Web-basiertes Dokument-Repository,
 >
 >
 >* Dashboard-Seiten werden nicht mehr als eingebettete externe Seiten in Dashboards unterstützt. Vorhandene Dashboards werden zwar nicht automatisch geändert, um diese externen Seiten zu entfernen, aber Änderungen an einem Dashboard, das einen solchen Verweis enthält, können erst gespeichert werden, wenn der Verweis entfernt oder geändert wird.
->  > Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
+>  &#x200B;> Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
 >
 >     * /dashboards&#x200B;
 >     * /dashboard/:ID&#x200B;

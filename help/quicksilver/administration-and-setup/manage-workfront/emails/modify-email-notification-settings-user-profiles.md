@@ -67,7 +67,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
 
 1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen anzuzeigen, die sich auf diese Kategorie beziehen.
 
-   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle ](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
+   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle &#x200B;](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
 
 
 1. Klicken Sie auf eine Benachrichtigung, die Benutzerinnen und Benutzer entweder täglich oder sofort erhalten sollen, oder löschen Sie alle Benachrichtigungen, die sie nicht mehr erhalten sollen.

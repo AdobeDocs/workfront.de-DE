@@ -33,7 +33,7 @@ Aufgaben sind Arbeitselemente, die zum Abschluss eines Projekts in Adobe Workfro
 * [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Übersicht über das Datum der Aufgabenübergabe](../../../manage-work/tasks/task-information/handoff-task-date.md)
 * [Aufgabe - Slack - Datumsübersicht](../../../manage-work/tasks/task-information/task-slack-date.md)
-* [ „Kann starten“-Übersicht für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
+* [&#x200B; „Kann starten“-Übersicht für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [Überwachungsmodus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Abgleichsverzögerung für Aufgabe aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Aufgabenkostentyp aktualisieren](../../../manage-work/tasks/task-information/update-task-cost-type.md)

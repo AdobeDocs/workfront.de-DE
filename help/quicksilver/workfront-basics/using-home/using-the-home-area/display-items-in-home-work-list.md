@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Elemente in der [!UICONTROL Arbeitsliste] im Bereich „Startseite“ anzeigen
-description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL  welche Elemente in Ihrer ]Arbeitsliste“ angezeigt werden.
+description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL &#x200B; welche Elemente in Ihrer &#x200B;]Arbeitsliste“ angezeigt werden.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 <!-- Audited: 1/2024 -->
 
-Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL  welche Elemente in Ihrer ]Arbeitsliste“ angezeigt werden.
+Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL &#x200B; welche Elemente in Ihrer &#x200B;]Arbeitsliste“ angezeigt werden.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Teamanfragen müssen die folgenden Anforderungen erfüllen, damit sie im Widget 
 
 ## Filtern von Arbeit
 
-Sie können Elemente in der (Arbeitsliste[!UICONTROL  eines Widgets filtern] um nur bestimmte Elementtypen anzuzeigen. Sie können beispielsweise „Meine Arbeit“ ([!UICONTROL ) filtern, ] nur Probleme oder Anfragen anzuzeigen.
+Sie können Elemente in der (Arbeitsliste[!UICONTROL &#x200B; eines Widgets filtern] um nur bestimmte Elementtypen anzuzeigen. Sie können beispielsweise „Meine Arbeit“ ([!UICONTROL ) filtern, &#x200B;] nur Probleme oder Anfragen anzuzeigen.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ So filtern Sie Ihre Arbeit:
    | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
 
 1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
-1. Wählen Sie **Filter**Vorgeschlagen“ oder einen von Ihnen erstellten Filter aus.
+1. Wählen Sie **Filter**&#x200B;Vorgeschlagen“ oder einen von Ihnen erstellten Filter aus.
 Detaillierte Informationen zu vorgeschlagenen Filtern finden Sie unter [Übersicht über Widget-Filter für Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Optional) Schalten Sie **Filter stapeln** ein, um mehrere Filteroptionen auszuwählen.
 

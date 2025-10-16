@@ -143,8 +143,8 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
       <td>Die Anzahl der geplanten Stunden, die mit jedem Aufgabengebiet in den Aufgaben oder Problemen des Projekts für die Gesamtdauer des Projekts verknüpft sind. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Varianz]</td> 
-      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL-Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
+      <td role="rowheader">[!UICONTROL -Varianz]</td> 
+      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL -Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
      </tr> 
     </tbody> 
    </table>

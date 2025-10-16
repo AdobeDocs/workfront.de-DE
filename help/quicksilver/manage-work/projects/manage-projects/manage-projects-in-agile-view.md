@@ -96,7 +96,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
 1. Wechseln Sie zu dem Projekt, das Sie in einer Agile-Ansicht anzeigen möchten, entweder in der Aufgabenliste oder in der Problemliste.
-1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![ (](assets/board-icon-for-agile-view.png).
+1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![&#x200B; (](assets/board-icon-for-agile-view.png).
 
    Die Pinnwand-Ansicht des Projekts wird standardmäßig angezeigt.
 
@@ -105,6 +105,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Klicken Sie auf **Konfigurieren**, um Optionen für die Spalten und Karten festzulegen.
 
-   Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
+   Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
 
 1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf das Symbol **Liste**.

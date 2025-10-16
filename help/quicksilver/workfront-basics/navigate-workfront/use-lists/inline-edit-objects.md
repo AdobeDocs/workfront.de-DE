@@ -82,7 +82,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Wenn Sie über mehrere Seiten verfügen, können Sie ein -Objekt mithilfe von Folgendem finden:
    >
    >   * **Paginierung**: Klicken Sie auf die Rückwärts- und Vorwärtspfeile, um zwischen Seiten zu navigieren.
-   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke ] Liste und bleibt beim Bildlauf beibehalten.
+   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke &#x200B;] Liste und bleibt beim Bildlauf beibehalten.
    >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen, und geben Sie dann Text ein, um nur Elemente anzuzeigen, die den eingegebenen Text enthalten.
    >     Der Schnellfilter befindet sich in der Listen-Symbolleiste. Weitere Informationen finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 

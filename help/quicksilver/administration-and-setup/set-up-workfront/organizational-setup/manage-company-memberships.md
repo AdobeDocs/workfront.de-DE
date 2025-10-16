@@ -34,7 +34,7 @@ Informationen zum Erstellen einer neuen Firma finden Sie unter [Erstellen und Be
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL-Plan]</p>
+   <td><p>[!UICONTROL -Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>

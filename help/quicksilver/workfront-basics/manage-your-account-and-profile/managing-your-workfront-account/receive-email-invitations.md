@@ -57,7 +57,7 @@ Als neuer Benutzer können Sie nach Erhalt der Einladungs-E-Mail dem Link in der
 
 >[!NOTE]
 >
->Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL  die Ihr ]-Administrator im Bereich [!UICONTROL Allgemeine Optionen] der [!DNL Workfront]Einladungen“ angegeben hat.
+>Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL &#x200B; die Ihr &#x200B;]-Administrator im Bereich [!UICONTROL Allgemeine Optionen] der [!DNL Workfront]Einladungen“ angegeben hat.
 
 So erstellen Sie ein Kennwort für [!DNL Workfront] mithilfe der Einladungs-E-Mail:
 

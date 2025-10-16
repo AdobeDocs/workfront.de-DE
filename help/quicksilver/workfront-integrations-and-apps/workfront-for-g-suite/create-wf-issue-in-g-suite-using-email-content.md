@@ -34,7 +34,7 @@ Sie können eine externe E-Mail (nicht von [!DNL Adobe Workfront] generiert) in 
 
 Sie können auch eine externe E-Mail in eine Aktualisierung eines vorhandenen Problems konvertieren. Weitere Informationen finden Sie unter [Aktualisieren eines  [!DNL Adobe Workfront] -Elements  [!DNL Google Workspace] Verwenden von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
 
-Weitere Informationen zur Verwendung von [!DNL Google Workspace] für die Arbeit mit von [!DNL Workfront] gesendeten Benachrichtigungs-E-Mails finden [ unter Verwalten [!DNL Adobe Workfront] Benachrichtigungsdetails von [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+Weitere Informationen zur Verwendung von [!DNL Google Workspace] für die Arbeit mit von [!DNL Workfront] gesendeten Benachrichtigungs-E-Mails finden [&#x200B; unter Verwalten [!DNL Adobe Workfront] Benachrichtigungsdetails von [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
 
 ## Zugriffsanforderungen
 
@@ -93,12 +93,12 @@ Bevor Sie ein Problem aus [!DNL Google Workspace] erstellen können, müssen Sie
       <td>Klicken Sie auf <strong>[!UICONTROL Zuweisen zu]</strong>, klicken Sie auf die <strong>[!UICONTROL Zuweisen zu]</strong> Option, die angezeigt wird, und tippen Sie dann den Namen der Person ein und klicken Sie darauf, wenn er in der folgenden Liste angezeigt wird. Wiederholen Sie diesen Vorgang für jede Person, die Sie hinzufügen möchten, und klicken Sie dann auf <strong>[!UICONTROL Speichern]</strong>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL-Priorität]</td> 
+      <td role="rowheader">[!UICONTROL -Priorität]</td> 
       <td>Klicken Sie auf den Dropdown-Pfeil und dann auf die Priorität, die Sie für das Problem einrichten möchten.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL E-Mail-Anhänge einschließen]</td> 
-      <td> <p>(Nur verfügbar, wenn die E-Mail mindestens einen Anhang enthält.) Klicken Sie auf diese Option, um Anhänge in der E-Mail im Bereich [!UICONTROL-Dokumente] des Problems zu speichern. </p> <p>Wenn Sie einen Anhang nicht speichern möchten, klicken Sie auf das X rechts neben seinem Namen. </p> <p>Wenn die E-Mail Links zu Dokumenten in [!DNL Google Drive] enthält, werden diese auf der Registerkarte [!UICONTROL Übersicht] des Problems gespeichert, das Sie gerade erstellen. </p> <p>Wichtig: Damit dies funktioniert, muss Ihr [!DNL Workfront]-Administrator [!DNL Google Drive] autorisieren, mit Dokumenten in [!DNL Workfront] zu arbeiten, wie im Abschnitt <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Konfigurieren von Integrationen zur Verwaltung von Dokumenten</a> im Artikel <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Konfigurieren von Dokumentenintegrationen</a>.</p> <p>Wenn Sie diese Option aktivieren, bleibt sie für andere E-Mails aktiviert, die Sie in Aufgaben, Probleme und Aktualisierungen konvertieren.</p> </td> 
+      <td> <p>(Nur verfügbar, wenn die E-Mail mindestens einen Anhang enthält.) Klicken Sie auf diese Option, um Anhänge in der E-Mail im Bereich [!UICONTROL -Dokumente] des Problems zu speichern. </p> <p>Wenn Sie einen Anhang nicht speichern möchten, klicken Sie auf das X rechts neben seinem Namen. </p> <p>Wenn die E-Mail Links zu Dokumenten in [!DNL Google Drive] enthält, werden diese auf der Registerkarte [!UICONTROL Übersicht] des Problems gespeichert, das Sie gerade erstellen. </p> <p>Wichtig: Damit dies funktioniert, muss Ihr [!DNL Workfront]-Administrator [!DNL Google Drive] autorisieren, mit Dokumenten in [!DNL Workfront] zu arbeiten, wie im Abschnitt <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Konfigurieren von Integrationen zur Verwaltung von Dokumenten</a> im Artikel <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Konfigurieren von Dokumentenintegrationen</a>.</p> <p>Wenn Sie diese Option aktivieren, bleibt sie für andere E-Mails aktiviert, die Sie in Aufgaben, Probleme und Aktualisierungen konvertieren.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">E-Mail-Datei einschließen</td> 

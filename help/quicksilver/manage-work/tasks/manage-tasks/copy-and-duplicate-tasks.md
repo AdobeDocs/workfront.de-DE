@@ -91,7 +91,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 * Sie haben während des Kopiervorgangs die Möglichkeit, einige mit der Aufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Standardmäßig werden die folgenden Objekte jedoch nicht an die kopierte Aufgabe übertragen:
    * Probleme
    * Protokollierte Stunden
-   * <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
+   * &#x200B;<!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
 * Die folgenden Elemente werden standardmäßig zur kopierten Aufgabe verschoben:
 
    * Meilensteine werden auf die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.

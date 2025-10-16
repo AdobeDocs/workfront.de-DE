@@ -61,7 +61,7 @@ Eine Liste aller Befehle, die Sie von Slack für [!DNL Workfront] ausführen kö
 ## Anmelden bei [!DNL Workfront] von [!DNL Slack] {#log-in-to-workfront-from-slack}
 
 Wenn Sie einen Befehl in das Nachrichtenfeld in Slack eingeben, werden Sie aufgefordert, sich zuerst bei [!DNL Workfront] anzumelden.\
-Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [ Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
+Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [&#x200B; Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
 
 So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
@@ -88,7 +88,7 @@ So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
 1. (Optional) Deaktivieren Sie alle [!DNL Workfront], die Sie in [!DNL Slack] nicht erhalten möchten.
 
-   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [ Abschnitt „Konfigurieren ](#configure-settings-configure-settings)&quot; in diesem Artikel
+   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [&#x200B; Abschnitt „Konfigurieren &#x200B;](#configure-settings-configure-settings)&quot; in diesem Artikel
 
 1. Navigieren Sie zurück zu Ihrem [!DNL Slack].
 

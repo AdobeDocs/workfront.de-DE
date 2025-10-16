@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
+* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ &#x200B;].
 
 
 ## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich

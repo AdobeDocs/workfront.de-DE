@@ -112,7 +112,7 @@ Sie können die Filter Meine Arbeit so anpassen, dass sie auf bestimmte Elemente
 
 >[!TIP]
 >
->Wenn Sie nach spezifischeren Filteroptionen suchen, können Sie die Widgets Meine Aufgabe oder Meine Anfrage verwenden. Weitere Informationen zu den Filtern Meine Aufgabe und Meine Probleme finden Sie unter [Übersicht über Widget-Filter ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
+>Wenn Sie nach spezifischeren Filteroptionen suchen, können Sie die Widgets Meine Aufgabe oder Meine Anfrage verwenden. Weitere Informationen zu den Filtern Meine Aufgabe und Meine Probleme finden Sie unter [Übersicht über Widget-Filter &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 
 ## Organisieren der Arbeit
 

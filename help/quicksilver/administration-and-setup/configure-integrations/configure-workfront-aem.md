@@ -78,9 +78,9 @@ Stellen Sie vor der Installation des [!DNL Workfront]-Connectors für [!UICONTRO
 
 >[!IMPORTANT]
 >
->Die folgenden Anweisungen gelten für einen [!DNL Workfront with AEM Assets] Legacy-Connector, der durch den [[!DNL Workfront for Experience Manager] erweiterten Connector“ ersetzt ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Weitere Informationen erhalten Sie von Ihrem Kontovertreter.
+>Die folgenden Anweisungen gelten für einen [!DNL Workfront with AEM Assets] Legacy-Connector, der durch den [[!DNL Workfront for Experience Manager] erweiterten Connector“ ersetzt &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Weitere Informationen erhalten Sie von Ihrem Kontovertreter.
 
-Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie den Connector mit dem [!UICONTROL CRX Package Manager} als Paket in AEM ].
+Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie den Connector mit dem [!UICONTROL CRX Package Manager&rbrace; als Paket in AEM &#x200B;].
 
 1. Laden Sie auf einer Workstation, auf der Sie AEM bereits installiert haben, die Installationsdatei für den [!DNL Workfront for AEM Assets] Connector herunter.
 
@@ -96,7 +96,7 @@ Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie de
 1. Klicken Sie auf **[!UICONTROL Installieren].**
 
 1. Ignorieren Sie im Dialogfeld **[!UICONTROL Paket]** die erweiterten Einstellungen und klicken Sie auf **[!UICONTROL Installieren]**.
-1. (Optional) Um zu bestätigen, dass der Connector erfolgreich installiert wurde, stellen Sie sicher, dass im [!UICONTROL Aktivitätsprotokoll“ die folgende Anweisung angezeigt ]:
+1. (Optional) Um zu bestätigen, dass der Connector erfolgreich installiert wurde, stellen Sie sicher, dass im [!UICONTROL Aktivitätsprotokoll“ die folgende Anweisung angezeigt &#x200B;]:
 
    ```
    Package installed in <time>
@@ -226,7 +226,7 @@ Mit dem [!UICONTROL AEM Externalizer] kann AEM URLs in einem Format übergeben, 
 
 1. Klicken Sie **[!UICONTROL OSGI]** und dann **[!UICONTROL Dropdown-Menü auf]** Konfiguration“.
 
-1. Wählen Sie in der Konfigurationsliste &#x200B;/**[!UICONTROL CQ Link Externalizer ].** Die Seite **[!UICONTROL Externalizer]** wird angezeigt.
+1. Wählen Sie in der Konfigurationsliste &#x200B;/**[!UICONTROL CQ Link Externalizer &#x200B;].** Die Seite **[!UICONTROL Externalizer]** wird angezeigt.
 
 1. Stellen Sie im Abschnitt **[!UICONTROL Domains]** sicher, dass die im Feld **[!UICONTROL author]** aufgeführte Domain der Domain-Name ist, auf den AEM-Benutzer extern zugreifen können.
 
@@ -241,7 +241,7 @@ Mit dem [!UICONTROL AEM Externalizer] kann AEM URLs in einem Format übergeben, 
 
 ## Konfigurieren von [!DNL Workfront] für die Integration mit [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-Nach der Installation des [!UICONTROL Connectors für WorkfrontAEM Assets ] (wie unter [Installieren des [!UICONTROL Connector-Pakets für Workfront für AEM Assets] beschrieben](#install-the-workfront-for-aem-assets-connector-package)) und der Konfiguration von [!UICONTROL AEM Assets] (wie unter [Konfigurieren[!UICONTROL  AEM Assets] für die Integration mit [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) beschrieben) müssen Sie [!DNL Workfront] konfigurieren, um Dokumente zwischen [!DNL Workfront] und [!DNL AEM Assets] zu verknüpfen.
+Nach der Installation des [!UICONTROL Connectors für WorkfrontAEM Assets &#x200B;] (wie unter [Installieren des [!UICONTROL Connector-Pakets für Workfront für AEM Assets] beschrieben](#install-the-workfront-for-aem-assets-connector-package)) und der Konfiguration von [!UICONTROL AEM Assets] (wie unter [Konfigurieren[!UICONTROL &#x200B; AEM Assets] für die Integration mit [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) beschrieben) müssen Sie [!DNL Workfront] konfigurieren, um Dokumente zwischen [!DNL Workfront] und [!DNL AEM Assets] zu verknüpfen.
 
 1. Melden Sie sich bei Workfront als Administrator an.
 
@@ -266,7 +266,7 @@ Nach der Installation des [!UICONTROL Connectors für WorkfrontAEM Assets ] (wie
 
 1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Authentifizierungstyp“ die Option **[!UICONTROL APIkey].**
 
-1. Fügen Sie im Feld &#x200B;**[!UICONTROL API-]** den AEM-API-Schlüssel ein, den Sie bei der Konfiguration von [!UICONTROL AEM Assets kopiert ].
+1. Fügen Sie im Feld &#x200B;**[!UICONTROL API-]** den AEM-API-Schlüssel ein, den Sie bei der Konfiguration von [!UICONTROL AEM Assets kopiert &#x200B;].
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. (Optional) Stellen Sie sicher, dass die Integration mit [!UICONTROL Aktiv] markiert ist.\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)

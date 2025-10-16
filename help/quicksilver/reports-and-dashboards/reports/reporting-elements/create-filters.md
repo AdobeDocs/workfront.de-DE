@@ -113,7 +113,7 @@ Sie können Filter mithilfe der in der folgenden Tabelle beschriebenen Typen von
 </tbody>
 </table>
 
-Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Benutzeroberflächen Folgendes:
 

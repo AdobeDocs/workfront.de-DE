@@ -143,7 +143,7 @@ So planen Sie ein Projekt ab dem Startdatum:
 
    Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **Geplantes Abschlussdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet. 
 
-   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
    Das geplante Abschlussdatum des Projekts fällt in diesem Fall mit dem geplanten Abschlussdatum der letzten Aufgabe im Projekt zusammen.
 

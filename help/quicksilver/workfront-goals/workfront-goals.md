@@ -52,7 +52,7 @@ Lesen Sie die Artikel in den folgenden Abschnitten, um zu erfahren, wie Sie Ziel
 * [Adobe Workfront-Ziele - Übersicht](../workfront-goals/goal-management/wf-goals-overview.md)
 * [Zielverwaltung in Adobe Workfront Ziele: Artikelindex](../workfront-goals/goal-management/goal-management.md)
 * [Zielausrichtung in Adobe Workfront-Zielen: Artikelindex](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Zielüberprüfung und die Abschnitte Adobe Workfront-Ziele ](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Zielüberprüfung und die Abschnitte Adobe Workfront-Ziele &#x200B;](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Ergebnisse und Aktivitäten in Adobe Workfront Goals](../workfront-goals/results-and-activities/results-and-activities.md)
 * [Adobe Workfront-Zieleinstellungen](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)
 

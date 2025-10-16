@@ -126,9 +126,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      >   * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben. Wenn Sie den Matrixbericht erstellt haben, um die geplanten Stunden oder tatsächlichen Stunden in der Spalte **Wert** anzuzeigen, beachten Sie, dass Stunden- oder Kosteninformationen für alle übergeordneten Objekte (z. B. übergeordnete Aufgaben) nicht im Matrixbericht angezeigt werden. Um Stunden für übergeordnete Objekte anzuzeigen, müssen Sie die Registerkarte **Details** anzeigen.
      >   
      >   
-     >
+     >**Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
 
-   **Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
    Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile dafür definieren, wie Felder, die dieser Regel entsprechen, angezeigt werden. Klicken Sie **Regel hinzufügen** nachdem Sie die Regel definiert haben, und klicken Sie dann auf **Fertig**, um die Regel zu speichern.
 
 1. Klicken Sie auf **Filter**, um festzulegen, welche Informationen im Bericht angezeigt werden.

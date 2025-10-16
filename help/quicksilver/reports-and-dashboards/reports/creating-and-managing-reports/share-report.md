@@ -84,7 +84,7 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
 
    Oder
 
-   Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >****Freigabe**.
+   Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >**&#x200B;**Freigabe**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 
@@ -124,6 +124,6 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
 
      >[!NOTE]
      >
-     >Wenn für den Bericht eine Eingabeaufforderung vorhanden ist und Sie ihn öffentlich freigeben, können Benutzende, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird ohne Eingabeaufforderung angezeigt, es sei denn, der Benutzer meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Wenn für den Bericht eine Eingabeaufforderung vorhanden ist und Sie ihn öffentlich freigeben, können Benutzende, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird ohne Eingabeaufforderung angezeigt, es sei denn, der Benutzer meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. Klicken Sie auf **Speichern**.

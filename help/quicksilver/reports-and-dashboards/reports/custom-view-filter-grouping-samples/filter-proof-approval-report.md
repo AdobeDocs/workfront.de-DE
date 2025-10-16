@@ -67,10 +67,10 @@ Sie können einen Filter für einen Bericht zu Korrekturabzugsgenehmigungen erst
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Um einen eigenen Bericht zu Korrekturabzugsgenehmigungen zu erstellen, klicken Sie auf das Symbol **Hauptmenü** (Symbol ![ Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte** ![Berichte](assets/reports-in-main-menu.png).
+   Um einen eigenen Bericht zu Korrekturabzugsgenehmigungen zu erstellen, klicken Sie auf das Symbol **Hauptmenü** (Symbol ![&#x200B; Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte** ![Berichte](assets/reports-in-main-menu.png).
 
 1. Klicken Sie **Neuer Bericht**. Die Liste der Objekttypen wird angezeigt.
-1. Klicken Sie **der Liste**Korrekturabzug-Genehmigung“.
+1. Klicken Sie **der Liste**&#x200B;Korrekturabzug-Genehmigung“.
 Report Builder wird geöffnet.
 1. Klicken Sie **Filter** und anschließend auf **Filterregel hinzufügen**.
 

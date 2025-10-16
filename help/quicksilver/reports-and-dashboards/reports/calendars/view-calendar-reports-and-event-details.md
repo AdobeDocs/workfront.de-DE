@@ -69,7 +69,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Kalender, die andere Benutzer für Sie freigegeben haben
 
-     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
    ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)

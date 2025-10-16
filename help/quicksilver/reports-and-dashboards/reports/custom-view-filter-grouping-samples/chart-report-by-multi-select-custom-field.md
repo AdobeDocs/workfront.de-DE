@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [ Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
+Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
 
 ## Erstellen eines Diagramms für einen Bericht mit mehreren benutzerdefinierten Feldern
 
@@ -133,7 +133,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, wählen Sie auf der Registerkarte Details des Berichts alle Objekte aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachauswahlfeld und dem berechneten benutzerdefinierten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
 1. (Optional und bedingt) Wählen Sie das Feld **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie dann auf **Änderungen speichern**.\
-   ![Benutzerdefinierte Ausdrücke neu ](assets/recalculate-custom-expressions-350x259.png)
+   ![Benutzerdefinierte Ausdrücke neu &#x200B;](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >

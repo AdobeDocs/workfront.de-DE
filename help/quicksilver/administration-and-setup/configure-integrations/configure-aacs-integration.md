@@ -98,7 +98,7 @@ Bevor Sie beginnen,
 
 1. Wählen **[!UICONTROL Integration [!DNL Experience Manager] hinzufügen]**.
 1. Geben Sie im Feld **[!UICONTROL Name]** den Namen ein, den Benutzer sehen sollen, wenn sie mit dieser Integration in Workfront und Experience Manager Assets interagieren.
-1. Im Feld **[!UICONTROL Navigations-URL]** füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um über das Hauptmenü eine Verknüpfung mit der [!DNL Experience Manager]-Instanz Ihrer Organisation [!UICONTROL  erstellen] um Schnellzugriff zu erhalten.
+1. Im Feld **[!UICONTROL Navigations-URL]** füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um über das Hauptmenü eine Verknüpfung mit der [!DNL Experience Manager]-Instanz Ihrer Organisation [!UICONTROL &#x200B; erstellen] um Schnellzugriff zu erhalten.
 1. Wählen Sie ein Repository aus dem Dropdown-Menü **[!UICONTROL [!DNL Experience Manager]Assets]** Repository aus. Das System füllt automatisch alle [!DNL Experience Manager]-Repositorys, die mit der Organisations-ID verknüpft sind, der Ihr Benutzerprofil zugewiesen ist.
    ![Wählen Sie das Experience Manager-Repository](assets/setup-information.png)
 
@@ -195,7 +195,7 @@ Zuordnen von Metadaten für Assets:
 
    >[!NOTE]
    >
-   >Sie können ein einzelnes [!DNL Workfront] mehreren [!UICONTROL Experience Manager Assets-Feldern ]. Sie können nicht mehrere [!DNL Workfront] einem einzelnen [!DNL Experience Manager Assets] zuordnen.
+   >Sie können ein einzelnes [!DNL Workfront] mehreren [!UICONTROL Experience Manager Assets-Feldern &#x200B;]. Sie können nicht mehrere [!DNL Workfront] einem einzelnen [!DNL Experience Manager Assets] zuordnen.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. Suchen Sie im Feld [!DNL Experience Manager Assets] nach den vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf zusätzliche Kategorien zuzugreifen.
@@ -264,7 +264,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration sein sollen.
 1. (Bedingt) Gehen Sie wie folgt vor, um dieser Integration eine Ordnerstruktur (verschachtelte Ordner) hinzuzufügen:
 
-   1. Klicken Sie auf **Symbol** Ordner hinzufügen![ (Ordner hinzufügen](assets/add-folder-aem.png).
+   1. Klicken Sie auf **Symbol** Ordner hinzufügen![&#x200B; (Ordner hinzufügen](assets/add-folder-aem.png).
    1. Wählen Sie im Feld **Name** aus, wie Sie den Ordner benennen möchten:
 
       * **Name**: Geben Sie einen Namen für den Ordner ein.

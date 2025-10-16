@@ -65,7 +65,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zum Problem, in dem bzw. dem Sie einen neuen Korrekturabzug erstellen möchten.
 1. Klicken Sie auf die **Dokumente**.
-1. Klicken Sie ![ linken Bedienfeld auf Dokumente ](assets/document-icon.png)Dokumentensymbol).
+1. Klicken Sie ![&#x200B; linken Bedienfeld auf Dokumente &#x200B;](assets/document-icon.png)Dokumentensymbol).
 1. Klicken Sie **Neu hinzufügen** und klicken Sie dann **angezeigten Menü auf** Korrekturabzug.
 
    >[!TIP]

@@ -32,7 +32,7 @@ Sie können ein Unternehmen, das Sie nicht mehr verwenden, deaktivieren und dabe
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL-Plan]</p>
+   <td><p>[!UICONTROL -Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>

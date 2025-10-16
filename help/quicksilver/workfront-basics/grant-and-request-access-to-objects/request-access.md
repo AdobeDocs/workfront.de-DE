@@ -28,7 +28,7 @@ Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem Zugriff auf d
 >* Ansichten und Arbeitsbereiche in Workfront Planning. Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Dies erfordert eine zusätzliche Lizenz.
 
 
-Ihr Workfront-Administrator konfiguriert Ihren Zugriff auf einen Objekttyp auf Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Ihr Workfront-Administrator konfiguriert Ihren Zugriff auf einen Objekttyp auf Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [&#x200B; der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Wenn Sie Berechtigungen für bestimmte Objekte in Workfront benötigen, können Sie Zugriff darauf anfordern. Anstatt eine E-Mail an den Workfront-Administrator oder Objektinhaber zu senden, um Ihre Anforderungen zu erläutern, können Sie in Workfront zusätzlichen Zugriff (oder Berechtigungen) anfordern.
 

@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen**, um alle Dokumentversionen anzuzeigen.
 
@@ -87,7 +87,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Klicken Sie **Abschnitt** Versionen“ auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts von der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Herunterladen**.
 
@@ -99,7 +99,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen** und klicken Sie dann auf **Alle herunterladen**.
 
@@ -127,7 +127,7 @@ Löschen einer Dokumentversion:
 
 1. Wählen Sie auf **Seite** Dokumente“ das Dokument aus der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen**, um alle Dokumentversionen anzuzeigen.
 1. Klicken Sie **Abschnitt** Versionen“ auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts von der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Löschen**.

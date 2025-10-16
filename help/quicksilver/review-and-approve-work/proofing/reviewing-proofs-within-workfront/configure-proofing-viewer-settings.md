@@ -88,7 +88,7 @@ So konfigurieren Sie Einstellungen für die Proofing-Anzeige:
 
    ![Menüsymbol](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klicken Sie in der linken Symbolleiste auf das Symbol **Einstellungen** (![) ](assets/settings-icon-in-pv.png).
+1. Klicken Sie in der linken Symbolleiste auf das Symbol **Einstellungen** (![) &#x200B;](assets/settings-icon-in-pv.png).
 
 1. Konfigurieren Sie eine der folgenden **Einstellungen** die angezeigt werden.
 

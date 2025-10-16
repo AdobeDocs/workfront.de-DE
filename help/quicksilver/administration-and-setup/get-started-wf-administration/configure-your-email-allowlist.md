@@ -31,7 +31,7 @@ Dies ist nützlich, wenn die Sicherheitsrichtlinie Ihres Unternehmens Benutzende
 >Alle E-Mails von Workfront werden von dieser Adresse gesendet, um den erfolgreichen E-Mail-Versand zu steigern und das Spoofing von E-Mails zu beseitigen. Dazu gehören sowohl automatisierte Warnhinweise als auch die Kommunikation zwischen Benutzern.
 >
 >Die „Von“-Zeile in einer Workfront-E-Mail, die Sie von einem Benutzer namens Joan Harris erhalten, würde beispielsweise wie folgt aussehen:
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 Informationen zum Konfigurieren der Firewall Ihres Unternehmens zum Öffnen der Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront auf die Zulassungsliste setzen-Servern finden Sie unter [Konfigurieren der Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

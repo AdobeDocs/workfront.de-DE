@@ -89,7 +89,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Oder
 
-   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden******.\
+   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden**&#x200B;**&#x200B;**.\
    ![comment_1.png](assets/commenting-1-350x352.png)
 
 1. Geben Sie Ihr Update in das Feld **Für dieses Projekt aktualisieren**.
@@ -113,7 +113,7 @@ Sie können Projektaktualisierungen an Team-Mitglieder und andere Benutzer sende
 
 1. Senden Sie eine Aktualisierung an die Mitglieder des Projektteams, wie im
 
-   [Senden einer E-Mail an ein Mitglied ](#send-an-email-to-a-project-team-member) ProjektteamsAbschnitt in diesem Artikel.
+   [Senden einer E-Mail an ein Mitglied &#x200B;](#send-an-email-to-a-project-team-member) ProjektteamsAbschnitt in diesem Artikel.
 
    Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Aktualisierungen des Projekts angezeigt.
 

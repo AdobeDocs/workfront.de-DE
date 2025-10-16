@@ -218,6 +218,6 @@ So erstellen Sie Aufgaben in einem Projekt:
 
    Workfront speichert persönliche Aufgaben in einem nicht aufgelisteten persönlichen Projekt, das immer nach diesem Muster benannt wird: &quot;&lt; vollständiger Name des Benutzers > Aufgaben des Benutzers. Ein persönliches Projekt könnte z. B. „Ricks Aufgaben“ heißen.
 
-1. Klicken Sie auf der Aufgabenseite auf das **** Mehr![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Klicken Sie auf der Aufgabenseite auf das **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Nachdem Sie die Aufgabe verschoben haben, wird die Aufgabe für das ausgewählte Projekt angezeigt. Die Zeitleiste des Projekts ist möglicherweise von der Zeitleiste der neuen Aufgabe betroffen.

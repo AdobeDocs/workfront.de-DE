@@ -43,7 +43,7 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 

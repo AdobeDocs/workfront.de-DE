@@ -44,7 +44,7 @@ Beachten Sie, dass sich die von Ihnen erstellten systemweiten Filter, Ansichten 
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL-Plan]</p></td>
+       <p>[!UICONTROL -Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 

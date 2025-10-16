@@ -51,7 +51,7 @@ Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direk
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p>  </td> 
+   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p>  </td> 
   </tr> 
  </tbody> 
 </table>

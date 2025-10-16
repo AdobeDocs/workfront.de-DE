@@ -91,7 +91,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Klicken Sie auf **Filter**, **Ansicht** und **Gruppierung** über dem [!UICONTROL Gantt-Diagramm] und fügen Sie den vorhandenen Filter, die Ansicht oder die Gruppierung hinzu oder bearbeiten Sie sie, die auf die Liste der Elemente im [!UICONTROL Gantt-Diagramm].
 
-     Alle in der Listenansicht ausgewählten Filter und Gruppierungen werden beim Anzeigen des [!UICONTROL Gantt-Diagramms“ ]. Ansichten werden im exportierten [!UICONTROL Gantt-Diagramm] nur innerhalb der Liste angezeigt, die neben dem [!UICONTROL Gantt-Diagramm] auf der ersten Seite angezeigt wird. Ansichten werden nicht im [!UICONTROL Gantt-Diagramm] selbst angezeigt.
+     Alle in der Listenansicht ausgewählten Filter und Gruppierungen werden beim Anzeigen des [!UICONTROL Gantt-Diagramms“ &#x200B;]. Ansichten werden im exportierten [!UICONTROL Gantt-Diagramm] nur innerhalb der Liste angezeigt, die neben dem [!UICONTROL Gantt-Diagramm] auf der ersten Seite angezeigt wird. Ansichten werden nicht im [!UICONTROL Gantt-Diagramm] selbst angezeigt.
 
      >[!TIP]
      >
@@ -122,7 +122,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      >
      > Zuweisungen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] nach PDF exportiert wird. Nach dem Export werden Zuweisungen nur in der Listenansicht angezeigt.
 
-   * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt ]. Wie dies in der Exportdatei angezeigt wird, hängt davon ab, ob Sie **[!UICONTROL Was ich sehe]** oder **[!UICONTROL Mehrere Seiten]** in einem späteren Schritt auswählen.
+   * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt &#x200B;]. Wie dies in der Exportdatei angezeigt wird, hängt davon ab, ob Sie **[!UICONTROL Was ich sehe]** oder **[!UICONTROL Mehrere Seiten]** in einem späteren Schritt auswählen.
 
      Weitere Informationen finden Sie unter [Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 

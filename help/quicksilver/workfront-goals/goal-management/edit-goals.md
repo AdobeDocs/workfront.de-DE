@@ -228,7 +228,7 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (Optional) Klicken Sie **linken Bereich auf**Fortschrittsanzeigen“, um Ergebnisse, Aktivitäten oder Projekte zum Ziel hinzuzufügen. Durch Hinzufügen von Fortschrittsanzeigen können Sie sicherstellen, dass Sie den Fortschritt des Ziels verfolgen können.
+1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;Fortschrittsanzeigen“, um Ergebnisse, Aktivitäten oder Projekte zum Ziel hinzuzufügen. Durch Hinzufügen von Fortschrittsanzeigen können Sie sicherstellen, dass Sie den Fortschritt des Ziels verfolgen können.
 Weitere Informationen finden Sie in den folgenden Artikeln:
    * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
    * [Fügen Sie Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzu](../results-and-activities/add-results-to-goals.md).

@@ -22,7 +22,7 @@ Sie können Probleme in Adobe Workfront mit einem Schweregrad verknüpfen. Aufga
 Probleme sind unerwartete Ereignisse, die verhindern können, dass Ihre Projekte termingerecht oder innerhalb des Budgets abgeschlossen werden. Mithilfe von Schweregraden können Sie die Schwere eines Problems angeben.
 
 Ihr Workfront-Administrator definiert die in Workfront verfügbaren Schweregrade. Nachdem sie eingerichtet wurden, können Sie sie mit einem Problem verknüpfen.\
-Weitere Informationen zum Erstellen von Schweregraden in Workfront finden Sie unter [Erstellen oder Anpassen von ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Weitere Informationen zum Erstellen von Schweregraden in Workfront finden Sie unter [Erstellen oder Anpassen von &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 Sie müssen über Beitragsberechtigungen für ein Problem verfügen, um dessen Schweregrad aktualisieren zu können.
 

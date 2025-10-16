@@ -60,5 +60,5 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Melden Sie sich von Ihrem [!DNL Workfront] ab
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Abmelden]**![ Abmeldesymbol](assets/logout-icon.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Abmelden]**![&#x200B; Abmeldesymbol](assets/logout-icon.png).
 1. Dadurch gelangen Sie zurück zur Anmeldeseite, auf der Sie Ihren Benutzernamen und Ihr Kennwort erneut eingeben können.

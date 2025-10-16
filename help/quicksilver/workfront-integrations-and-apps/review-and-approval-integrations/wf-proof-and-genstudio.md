@@ -102,7 +102,7 @@ Weitere Informationen zum Erstellen automatisierter Workflows und Vorlagen in Wo
 
 Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede Korrekturabzugs-Workflow-Vorlage ändern und Prüfer und Phasen hinzufügen oder entfernen.
 
-Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Workfront Proofing Viewer
 

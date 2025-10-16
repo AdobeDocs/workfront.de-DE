@@ -174,9 +174,9 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
    ```
 
 1. Ersetzen **Spaltenname** durch den Namen Ihrer Spalte in der `displayname`.
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts in der `listmethod`, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts in der `listmethod`, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in der `valuefield`, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in der `valuefield`, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 
    Sie können **valueField** durch **valueExpression** ersetzen, wenn Sie einen benutzerdefinierten Ausdruck in Ihrer Ansicht erstellen möchten.
 
@@ -210,7 +210,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
      valueformat=HTML
      ```
 
-     Beachten Sie, dass Sie in einer Auflistung **Probleme** für die **listMethod**-Zeile anstelle von **opTasks** verwenden müssen, dem Datenbanknamen für Probleme. Informationen dazu, wann &quot;**&quot; und** &quot;**&quot; beim** von Problemen verwendet werden sollten, finden [ unter „Verwenden von „OpTask“ und „Problem“ beim Referenzieren von Problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Beachten Sie, dass Sie in einer Auflistung **Probleme** für die **listMethod**-Zeile anstelle von **opTasks** verwenden müssen, dem Datenbanknamen für Probleme. Informationen dazu, wann &quot;**&quot; und** &quot;**&quot; beim** von Problemen verwendet werden sollten, finden [&#x200B; unter „Verwenden von „OpTask“ und „Problem“ beim Referenzieren von Problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
    * Wenn Sie eine Liste der Aufgaben in einem Projektbericht zusammen mit dem primären Bearbeiter anzeigen möchten, verwenden Sie eine **valueExpression**-Zeile, um auf die Namen der Aufgaben neben den Namen des primären Beauftragten zu verweisen, anstatt auf **valueField**.
 
@@ -266,7 +266,7 @@ Die Zeilen in einer Textmodusansicht für eine Sammlung sind in der folgenden Ta
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&amp;zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
+   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Spaltenname</em> </td> 
@@ -334,9 +334,9 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
 
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in , wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in , wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 1. Ersetzen Sie **Wert des Modifikators** durch einen gültigen Modifikator.
@@ -395,7 +395,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
 1. Klicken Sie **Eingabeaufforderungen melden**.
 1. Klicken Sie **Eingabeaufforderung hinzufügen**.
 1. Klicken Sie **Benutzerdefinierte Eingabeaufforderung**.
-1. Geben Sie den Namen der Eingabeaufforderung im Feld **field****name** an.
+1. Geben Sie den Namen der Eingabeaufforderung im Feld **field**&#x200B;**name** an.
 
 1. Geben Sie eine **Dropdown-Elementbezeichnung** an.
 1. Geben Sie Folgendes im Feld **Bedingung** an:
@@ -405,8 +405,8 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
    ```
 
 1. (Optional) Geben Sie an, ob diese Auswahl in der Eingabeaufforderung standardmäßig angezeigt wird.
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 
    Wenn Sie beispielsweise nach Projekten filtern, in denen der Name der Aufgabe „Marketing“ enthält, ersetzen Sie **Sammlungsobjektwert** durch **Marketing**.

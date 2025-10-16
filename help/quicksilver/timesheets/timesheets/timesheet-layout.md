@@ -75,7 +75,7 @@ Die Arbeitszeittabellen-Kopfzeile enthält die folgenden Informationen:
 Im linken Bereich stehen die folgenden Abschnitte zur Verfügung:
 
 * **Arbeitszeittabelle**: Zeigt die tatsächliche Arbeitszeittabelle an.
-* **Updates**: Zeigt Kommentare und Systemaktualisierungen für die Arbeitszeittabelle an. Weitere Informationen finden Sie [ Abschnitt „Aktualisierungen“ im linken ](#updates-area-in-the-left-panel) in diesem Artikel.
+* **Updates**: Zeigt Kommentare und Systemaktualisierungen für die Arbeitszeittabelle an. Weitere Informationen finden Sie [&#x200B; Abschnitt „Aktualisierungen“ im linken &#x200B;](#updates-area-in-the-left-panel) in diesem Artikel.
 
 ## Arbeitselemente
 
@@ -149,7 +149,7 @@ Sie können Arbeitszeittabellen für eine, zwei oder vier Wochen erstellen.
 
 Der Zeitrahmen wird in Schritten von ganzen Wochen angezeigt. Tage außerhalb des angegebenen Arbeitszeittabellen-Zeitrahmens werden abgeblendet. Die Zeit kann nicht für Tage protokolliert werden, die außerhalb des Zeitrahmens der Arbeitszeittabelle liegen.
 
-Weitere Informationen finden [ unter „Erstellen einer Arbeitszeittabelle für den einmaligen ](../create-and-manage-timesheets/create-tmshts.md)&quot; oder [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [&#x200B; unter „Erstellen einer Arbeitszeittabelle für den einmaligen &#x200B;](../create-and-manage-timesheets/create-tmshts.md)&quot; oder [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->

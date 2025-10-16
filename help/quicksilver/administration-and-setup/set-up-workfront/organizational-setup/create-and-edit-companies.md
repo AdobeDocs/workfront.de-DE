@@ -37,7 +37,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL-Plan]</p>
+   <td><p>[!UICONTROL -Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 

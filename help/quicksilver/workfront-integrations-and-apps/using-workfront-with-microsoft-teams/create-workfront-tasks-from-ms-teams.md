@@ -88,7 +88,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
    Die neue persönliche Aufgabe wird in [!DNL Workfront] erstellt. Eine [!UICONTROL Referenznummer] wird ihm zugewiesen und auf der Karte [!UICONTROL Neue Aufgabe] angezeigt.
 
-   Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) Abschnitt im Artikel [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) Abschnitt im Artikel [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Aufgabeninformationen weiter zu bearbeiten.
 1. (Optional) Klicken Sie auf **[!UICONTROL In[!DNL Workfront]]** anzeigen , um die Aufgabe in einer neuen Registerkarte in [!DNL Workfront] zu öffnen und die Aufgabe weiter zu bearbeiten, in ein Projekt zu verschieben oder sie einer anderen Person zuzuweisen.

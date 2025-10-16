@@ -116,7 +116,7 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 1. Klicken Sie auf **Abschnitt** Teilaufgaben“ im linken Bedienfeld, falls vorhanden.
 1. Klicken Sie auf **Neue Aufgabe.**
 
-   Gehen Sie wie im folgenden Artikel beschrieben vor, um mit dem Erstellen der Unteraufgabe fortzufahren[ „Aufgaben in einem Projekt erstellen](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Gehen Sie wie im folgenden Artikel beschrieben vor, um mit dem Erstellen der Unteraufgabe fortzufahren[&#x200B; „Aufgaben in einem Projekt erstellen](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Klicken Sie auf **Aufgabe erstellen.**
 

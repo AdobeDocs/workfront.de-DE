@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Wechseln Sie zum -Objekt, in dem Sie die Reihenfolge der hinzugefügten benutzerdefinierten Formulare ändern möchten, und beginnen Sie dann mit der Bearbeitung des -Objekts.
 
-   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken **Abschnitt „Benutzerdefinierte Forms** für Projekte, Aufgaben und Probleme auf das ![](assets/move-icon---dots.png) neben dem Namen eines benutzerdefinierten Formulars. Klicken Sie für alle anderen Objekte auf **Forms verwalten**. Diese Option wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular an das Objekt angehängt ist.
 1. Ziehen Sie einen ![](assets/move-icon---dots.png) an eine neue Position in der Liste.
@@ -158,7 +158,7 @@ So bearbeiten Sie mehrere benutzerdefinierte Formulare, wenn Sie Objekte stapelw
 
 1. (Optional) Wenn Sie allen Objekten benutzerdefinierte Formulare hinzugefügt, die Objekte jedoch noch nicht gespeichert haben, können Sie die Reihenfolge ändern, in der die benutzerdefinierten Formulare auf den Objekten angezeigt werden.
 
-   Weitere Informationen zum Ändern der Reihenfolge der Formulare finden Sie unter [Mehrere benutzerdefinierte Formulare, die an ein Objekt angehängt sind, neu ](#reorder-multiple-custom-forms-attached-to-an-object) diesem Artikel.
+   Weitere Informationen zum Ändern der Reihenfolge der Formulare finden Sie unter [Mehrere benutzerdefinierte Formulare, die an ein Objekt angehängt sind, neu &#x200B;](#reorder-multiple-custom-forms-attached-to-an-object) diesem Artikel.
 
 1. Klicken Sie **Formular entfernen**, um ein benutzerdefiniertes Formular aus den Objekten zu entfernen.
 

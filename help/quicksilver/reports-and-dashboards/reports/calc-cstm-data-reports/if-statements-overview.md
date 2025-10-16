@@ -57,7 +57,7 @@ Sie können „IF“-Anweisungen in Workfront in folgendem Format erstellen:
 
 * **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer „IF“-Anweisung hilft. Beispielsweise sind „ist gleich“ oder „ist größer als“ Bedingungsoperatoren. Eine Liste der Bedingungsoperatoren, die Sie in Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
+* **True**&#x200B;**Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
 
 * **Falscher Ausdruck** = Dies ist die Variable „Falsch“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
 

@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Erstellen von Direktberichten
 
-1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [ in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [&#x200B; in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 1. Stellen Sie **Abschnitt** Organisation) sicher, dass im Feld **Firma** eine Firma ausgewählt ist.
 
    Dieses Feld darf nicht leer sein.

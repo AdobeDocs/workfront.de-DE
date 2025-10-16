@@ -63,7 +63,7 @@ Weitere Informationen zum Erstellen eines Business-Case und einer Projektanfrage
 
 Nachdem Sie die Projektanforderung übermittelt haben, prüft der Portfolio-Manager oder ein Executive-Team sie und entscheidet, ob das Projekt genehmigt werden soll. Wenn er/sie das Projekt genehmigt, wird das Projekt für ein Firmenprojekt Portfolio ausgewählt.
 
-Weitere Informationen zu Portfolios finden Sie unter [Portfoliomethodik ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Weitere Informationen zur Genehmigung eines Business-Case finden Sie [Genehmigen eines Business-Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Weitere Informationen zu Portfolios finden Sie unter [Portfoliomethodik &#x200B;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Weitere Informationen zur Genehmigung eines Business-Case finden Sie [Genehmigen eines Business-Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio-Optimierung {#portfolio-optimization}
 

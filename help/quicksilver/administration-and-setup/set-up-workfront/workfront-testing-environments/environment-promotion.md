@@ -61,7 +61,7 @@ Der Endpunkt Erstellen eines Weiterleitungspakets setzt voraus, dass Sie die Que
 
 Die Funktion Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Das Verschieben von Transaktionsobjekten wird nicht unterstützt (mit wenigen Ausnahmen).
 
-Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Authentifizierung
 
@@ -71,7 +71,7 @@ Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-S
 
 ### Authentifizierung beim Anforderungsheader
 
-Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
+Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen &#x200B;](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
 
 Im Folgenden finden Sie ein Beispiel für einen Anfrage-Header:
 
@@ -118,7 +118,7 @@ Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe d
 >
 >Jedes Element enthält auch eine `entities`. Dies erwartet das `ID` Feld. Er kann auch ein optionales `name`-Attribut akzeptieren, um das Erkennen der `ID` zu vereinfachen.
 >
->Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die ](#supported-objects-for-environment-promotion)) in diesem Artikel.
+>Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die &#x200B;](#supported-objects-for-environment-promotion)) in diesem Artikel.
 
 #### URL
 
@@ -372,7 +372,7 @@ Die bearbeitbaren Attribute sind:
 1. description (String)
 1. Status (Zeichenfolge mit Wertvalidierung)
 
-Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [ Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [&#x200B; Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -1016,7 +1016,7 @@ Eine Übersetzungskarte mit einem `202 - OK` Status
 
 Für diesen Schritt gibt es keinen Endpunkt.
 
-1. Überprüfen Sie in der Übersetzungszuordnung[ die in Schritt 1 - Erstellen einer ](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
+1. Überprüfen Sie in der Übersetzungszuordnung[&#x200B; die in Schritt 1 - Erstellen einer &#x200B;](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
 1. Aktualisieren Sie das Aktionsfeld auf jedem Objekt, um die gewünschte Installationsaktion durchzuführen.
 1. Überprüfen Sie die `targetId` für jedes Objekt. Wenn die Aktion „Festlegen“ `USEEXISTING` oder `OVERWRITING` ist, sollte die `targetId` auf die UUID des Zielobjekts in der Zielumgebung festgelegt werden. Für jede andere Aktion sollte die targetId eine leere Zeichenfolge sein.
 

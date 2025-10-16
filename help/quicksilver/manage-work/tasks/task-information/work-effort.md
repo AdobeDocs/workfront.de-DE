@@ -138,7 +138,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    Weiterführende Informationen dazu, wie Sie Work Effort für ein Projekt aktivieren, finden Sie im Abschnitt „Aufgabeneinstellungen“ im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Klicken Sie **linken** auf „Aufgaben“ und dann auf den Namen einer Aufgabe, um darauf zuzugreifen.
-1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Bearbeiten**. Stellen Sie sicher, dass die Aufgabe einen einfachen Dauertyp aufweist.
+1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Bearbeiten**. Stellen Sie sicher, dass die Aufgabe einen einfachen Dauertyp aufweist.
 
    >[!TIP]
    >

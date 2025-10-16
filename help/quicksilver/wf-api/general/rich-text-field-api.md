@@ -123,4 +123,4 @@ So speichern Sie die folgenden Werte eines Rich-Text-Felds mithilfe der Workfron
 1. Verwenden Sie die Stringify-Methode für die oben beschriebene JSON, um eine PUT-Anfrage zu stellen und Aktualisierungen zu senden.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

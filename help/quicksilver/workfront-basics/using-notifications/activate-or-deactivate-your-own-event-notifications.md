@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von ] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
+Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von &#x200B;] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
 
-Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert ]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
+Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert &#x200B;]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
 
 Sie können dies weiter anpassen, indem Sie konfigurieren, welche Benachrichtigungen Sie erhalten. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen oder in einer täglichen Digest-E-Mail erhalten möchten.
 

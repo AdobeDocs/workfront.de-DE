@@ -149,7 +149,7 @@ Sie können die Bedingung einer Aufgabe oder eines Problems in einem Aufgaben- o
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

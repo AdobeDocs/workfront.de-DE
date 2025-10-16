@@ -119,7 +119,7 @@ Sie müssen über Folgendes verfügen, [!DNL Workfront] dieses Szenario verwende
 
   Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Ein Projekt, das als Anfrage-Warteschlange eingerichtet wird, um neue Kampagnen-Anfragen zu erfassen. Diesen [!UICONTROL  muss ] Formular „Kampagnenbeschreibung“ beigefügt werden.
+* Ein Projekt, das als Anfrage-Warteschlange eingerichtet wird, um neue Kampagnen-Anfragen zu erfassen. Diesen [!UICONTROL &#x200B; muss &#x200B;] Formular „Kampagnenbeschreibung“ beigefügt werden.
 
 ## Erwartete [!DNL Anaplan]
 

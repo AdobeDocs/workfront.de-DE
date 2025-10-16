@@ -39,7 +39,7 @@ Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfe
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>[!UICONTROL bearbeiten] Zugriff auf [!UICONTROL-Dokumente]</p> </td> 
+   <td> <p>[!UICONTROL bearbeiten] Zugriff auf [!UICONTROL -Dokumente]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 

@@ -36,7 +36,7 @@ Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p>
+   <p>[!UICONTROL -Plan]</p>
    </td> 
   </tr>  
   <tr> 

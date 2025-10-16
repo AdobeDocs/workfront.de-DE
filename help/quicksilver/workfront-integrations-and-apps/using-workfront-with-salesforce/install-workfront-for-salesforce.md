@@ -74,8 +74,8 @@ Sie müssen [!DNL Salesforce] und [!DNL Workfront] sein, um [!DNL Workfront for 
 In den folgenden Unterabschnitten wird beschrieben, wie Sie [!DNL Workfront] für Ihre [!DNL Salesforce] Produktionsumgebung installieren. Sie können die gleichen Schritte ausführen, um [!DNL Workfront] für Ihre [!DNL Salesforce] Sandbox-Umgebung zu installieren.
 
 * [Installation  [!DNL Workfront for Salesforce] , bevor es im  [!DNL AppExchange]  verfügbar wird](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [Installieren  [!DNL Workfront for Salesforce]  Framework [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [Installieren  [!DNL Workfront for Salesforce]  Framework [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [Installieren  [!DNL Workfront for Salesforce]  Framework [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [Installieren  [!DNL Workfront for Salesforce]  Framework [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### Installieren von [!DNL Workfront for Salesforce], bevor es im [!DNL AppExchange] Marketplace verfügbar wird {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 

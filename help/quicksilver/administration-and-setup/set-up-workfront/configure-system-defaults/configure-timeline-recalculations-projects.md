@@ -38,7 +38,7 @@ In diesem Artikel wird beschrieben, wie Sie als [!DNL Workfront] feststellen kö
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL-Plan]</p></td>
+       <p>[!UICONTROL -Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -67,7 +67,7 @@ Als [!DNL Adobe Workfront] können Sie konfigurieren, wenn [!DNL Workfront] Proj
 
    * **Wenn sich der Projektumfang ändert**: Informationen dazu, was eine Änderung des Projektumfangs ausmacht, finden Sie unter [Neuberechnen von Projektzeitleisten](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     In diesem Fall berechnet [!DNL Workfront] die Zeitleiste für alle Projekte neu, die den Aktualisierungstyp &quot;[!UICONTROL &quot; und „Bei Änderung] oder „Nur [!UICONTROL &quot; ].
+     In diesem Fall berechnet [!DNL Workfront] die Zeitleiste für alle Projekte neu, die den Aktualisierungstyp &quot;[!UICONTROL &quot; und „Bei Änderung] oder „Nur [!UICONTROL &quot; &#x200B;].
 Informationen zu Projektaktualisierungstypen finden Sie unter [Übersicht über Projektaktualisierungstypen](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

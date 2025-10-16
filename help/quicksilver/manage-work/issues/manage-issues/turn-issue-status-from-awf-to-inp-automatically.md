@@ -23,7 +23,7 @@ Damit diese automatische Statusänderung erfolgt, sind folgende Schritte erforde
 
 * Das Problem muss mithilfe einer Anfrage-Warteschlange hinzugefügt werden.
 
-  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [ Abschnitt „Erstellen und Verwalten ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
+  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [&#x200B; Abschnitt „Erstellen und Verwalten &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
 
   Informationen zum Senden von Anfragen an eine Anfrage-Warteschlange finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 

@@ -252,7 +252,7 @@ Wenn die Einstellung **[!UICONTROL Erlauben Sie Benutzern, ihre Aufgaben und Pro
 
 Wenn diese Einstellung aktiviert ist, können Gruppenbenutzer Folgendes sehen:
 
-* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine ]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
+* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine &#x200B;]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
 
   >[!NOTE]
   >
