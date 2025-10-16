@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # Unternehmen deaktivieren oder reaktivieren
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Sie können ein Unternehmen, das Sie nicht mehr verwenden, deaktivieren und dabei alle zugehörigen historischen Daten beibehalten. Wenn Sie ein Unternehmen deaktivieren, das bereits irgendwo im System verwendet wird, funktioniert es weiterhin wie immer. Es wird nicht entfernt oder blockiert.
 
@@ -32,7 +34,7 @@ Sie können ein Unternehmen, das Sie nicht mehr verwenden, deaktivieren und dabe
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL-Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
@@ -67,8 +69,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Firmen]** ![Symbol Firmen](assets/companies-icon-left-panel.png).
 
 1. Wählen Sie ein oder mehrere Unternehmen zum Deaktivieren oder Reaktivieren aus.
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Deaktivieren Sie für ein einzelnes Unternehmen die Option **[!UICONTROL Ist aktiv]**, um sie zu deaktivieren, oder aktivieren Sie die Option, um sie zu aktivieren.
+1. Klicken Sie **[!UICONTROL Bearbeiten]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Deaktivieren Sie für ein einzelnes Unternehmen die Option **[!UICONTROL Ist aktiv]**, um sie zu deaktivieren, oder aktivieren Sie die Option, um sie zu aktivieren.
 
    Oder
 
