@@ -34,7 +34,7 @@ Sie können ein Unternehmen, das Sie nicht mehr verwenden, deaktivieren und dabe
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL-Plan]</p>
+   <td><p>[!UICONTROL -Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Wählen Sie ein oder mehrere Unternehmen zum Deaktivieren oder Reaktivieren aus.
 1. Klicken Sie **[!UICONTROL Bearbeiten]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. <!--In the Production environment, -->Deaktivieren Sie für ein einzelnes Unternehmen die Option **[!UICONTROL Ist aktiv]**, um sie zu deaktivieren, oder aktivieren Sie die Option, um sie zu aktivieren.
+1. &#x200B;<!--In the Production environment, -->Deaktivieren Sie für ein einzelnes Unternehmen die Option **[!UICONTROL Ist aktiv]**, um sie zu deaktivieren, oder aktivieren Sie die Option, um sie zu aktivieren.
 
    Oder
 
