@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 2%
 # Warteschlangenthemen erstellen
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Warteschlangenthemen arbeiten mit Routingregeln zusammen, um eingehende Arbeit automatisch einem Benutzer, einem Aufgabengebiet oder Team zuzuweisen oder in einem Projekt zu platzieren. Warteschlangenthemen definieren die Bedingungen, die vorhanden sein müssen, damit die Routingregel implementiert wird.
 
@@ -179,8 +177,7 @@ So bearbeiten Sie ein vorhandenes Warteschlangenthema:
 
 1. Gehen Sie zu dem Projekt oder der Vorlage, das bzw. die das Warteschlangenthema enthält, das bzw. die Sie bearbeiten möchten.
 1. Klicken Sie **linken Bedienfeld** Warteschlangenthemen“.
-1. Wählen Sie in der Produktionsumgebung das Warteschlangen-Thema aus, das Sie bearbeiten möchten. Klicken Sie auf der sich öffnenden Detailseite auf **Warteschlangenthema bearbeiten**.
-1. <span class="preview">Klicken Sie in der Vorschau-Umgebung auf das Warteschlangen-Thema, das Sie bearbeiten möchten.
+1. Klicken Sie auf das Warteschlangen-Thema, das Sie bearbeiten möchten.
 
 Informationen zu den verfügbaren Bearbeitungsoptionen finden Sie unter [Warteschlangenthema erstellen](#create-a-queue-topic) in diesem Artikel.
 

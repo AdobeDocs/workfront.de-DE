@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Sie können ein Unternehmen, das Sie nicht mehr verwenden, deaktivieren und dabe
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL-Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
@@ -44,7 +44,7 @@ Sie können ein Unternehmen, das Sie nicht mehr verwenden, deaktivieren und dabe
     <ul> 
      <li> <p>Die Zugriffsebene [!UICONTROL Systemadministrator], mit der Sie jede Firma im System bearbeiten können.</p> </li> 
      <li> <p>Administrativer Zugriff auf die Verwaltung von Unternehmen, wodurch Sie jedes Unternehmen im System bearbeiten können.</p> </li> 
-    </ul> <p><b>HINWEIS</b>:  
+    </ul> <p><b>HINWEIS</b>:
      <ul> 
       <li> <p>Sie können auch Firmen verwalten, die mit einer beliebigen Gruppe verknüpft sind, der Sie als Gruppenadministrator zugewiesen sind.</p> </li> 
       <li> <p>Um Benutzer zum [!DNL Workfront] hinzuzufügen oder daraus zu entfernen, benötigen Sie eine der folgenden Eigenschaften:</p> 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Wählen Sie ein oder mehrere Unternehmen zum Deaktivieren oder Reaktivieren aus.
 1. Klicken Sie **[!UICONTROL Bearbeiten]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. &#x200B;<!--In the Production environment, -->Deaktivieren Sie für ein einzelnes Unternehmen die Option **[!UICONTROL Ist aktiv]**, um sie zu deaktivieren, oder aktivieren Sie die Option, um sie zu aktivieren.
+1. Deaktivieren Sie für ein einzelnes Unternehmen die Option **[!UICONTROL Ist aktiv]**, um sie zu deaktivieren, oder aktivieren Sie die Option, um sie zu aktivieren. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Oder
 

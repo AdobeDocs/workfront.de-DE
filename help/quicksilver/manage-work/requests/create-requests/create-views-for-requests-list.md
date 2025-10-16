@@ -5,16 +5,15 @@ title: Ansichten im Bereich Anfragen erstellen
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: 1c7e2fb7de500083f0f7e42f1016323305054d88
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
 # Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
 

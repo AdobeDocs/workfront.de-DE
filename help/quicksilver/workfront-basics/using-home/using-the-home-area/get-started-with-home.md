@@ -6,9 +6,9 @@ description: Die Startseite hilft Ihnen bei der Verwaltung Ihrer Arbeit. Sie kö
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1030'
 ht-degree: 4%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >Der Inhalt in diesem Artikel wurde durch den Inhalt des Artikels Erste Schritte mit der neuen Startseite ersetzt. Die neue Startseite wird jetzt als Startseite bezeichnet.
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
 Das neue Zuhause in Adobe Workfront soll das aktuelle Zuhause-Erlebnis verbessern und Ihnen gleichzeitig eine flexiblere Möglichkeit bieten, sich auf die richtige Arbeit zu konzentrieren.
 
@@ -55,9 +53,7 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, s
     Zeigt Probleme an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Problem direkt über das Widget erstellen. Dieses Widget enthält nur Probleme, deren verknüpfte Projekte auf „Aktuell“ eingestellt sind, und keine abgeschlossenen Projekte. Sie können Ihre Anfragen auch delegieren, während Sie nicht im Büro sind.
 
 * **Meine Anfragen**\
-    Zeigt alle von Ihnen gesendeten Anfragen, einen Filter, um nur offene Anfragen anzuzeigen, und eine Schaltfläche an, die das Bedienfeld „Zusammenfassung“ für eine Anfrage öffnet.
-
-  <span class="preview">In der Vorschau-Umgebung zeigt dieses Widget alle von Ihnen gesendeten Anfragen an, einen Filter, um nur Anfragen anzuzeigen, die den von Ihnen angegebenen Kriterien entsprechen, und eine Schaltfläche, mit der Sie die Spalten im Widget neu anordnen können. Wenn Sie Zugriff auf Workfront Planning haben, werden Ihre Planungsanfragen ebenfalls hier angezeigt.</span>
+    Zeigt alle gesendeten Anfragen an, einen Filter, um nur Anfragen anzuzeigen, die den von Ihnen angegebenen Kriterien entsprechen, und eine Schaltfläche, mit der Sie die Spalten im Widget neu anordnen können. Wenn Sie Zugriff auf Workfront Planning haben, werden Ihre Planungsanfragen ebenfalls hier angezeigt.
 
 
 * **Teamanfragen**\

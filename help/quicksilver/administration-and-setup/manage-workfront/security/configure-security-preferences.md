@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 7%
+source-wordcount: '735'
+ht-degree: 8%
 
 ---
 
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">KI aktivieren</span> </td> 
-      <td><span class="preview">Ermöglicht die Auswahl der Aktivierung von KI, einschließlich des KI-Assistenten. <p><b>Hinweis</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></span></td> 
+      <td role="rowheader">KI aktivieren </td> 
+      <td>Ermöglicht die Auswahl der Aktivierung von KI, einschließlich des KI-Assistenten. <p><b>Hinweis</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Formular automatisch ausfüllen </span></td> 
-      <td><span class="preview">Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</span></td> 
+      <td role="rowheader">Formular automatisch ausfüllen </td> 
+      <td>Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Opt-in für KI-Betaversionen </span></td> 
-      <td><span class="preview">Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</span></td> 
+      <td role="rowheader">Opt-in für KI-Betaversionen </td> 
+      <td>&gt;Hiermit können Sie die derzeit in Beta vorhandenen KI-Funktionen aktivieren. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testumgebungen</td> 

@@ -6,23 +6,20 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '734'
 ht-degree: 3%
 
 ---
 
 # Verwenden des Widgets Meine Anfragen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 >[!IMPORTANT]
 >
 >In diesem Artikel wird das neue Widget „Meine Anfragen“ beschrieben. Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird.
->&#x200B;>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
+>>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
 
 Das Widget Meine Anfragen zeigt Anfragen an, die an Ihre Organisation gesendet wurden. Sie können die Anfragen filtern, nach bestimmten Anfragen suchen oder die Spaltenreihenfolge und Sichtbarkeit anpassen. Sie können auch über das Widget Meine Anfragen eine neue Anfrage erstellen.
 

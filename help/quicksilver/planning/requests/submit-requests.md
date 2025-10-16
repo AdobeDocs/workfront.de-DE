@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -144,15 +144,7 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
    * Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt Letzte angezeigt.
    * 50 zusätzliche Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt **Alle Anfrageformulare** in alphabetischer Reihenfolge angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird.
 
-1. Führen Sie in der Produktionsumgebung einen der folgenden Schritte aus:
-
-   * Wählen Sie die Planning-Anfrageformulare in den Abschnitten „Letzte“ oder „Alle Anfrageformulare“ aus
-   * Geben Sie zunächst den Namen eines Planungsanfrageformulars in das Suchfeld ein und klicken Sie dann auf die Karte, wenn sie in der Liste angezeigt wird.
-
-   Das Anfrageformular wird geöffnet.
-
-<!-- Put preview section here-->
-1. <span class="preview">Wählen Sie in der Vorschau-Umgebung ein Anfrageformular oder eine Warteschlange aus dem Bereich Kürzlich aufgerufene Anfrageformulare aus, oder geben Sie den Namen des Formulars oder der Warteschlange in die Liste ein und wählen Sie ihn dann aus, wenn er angezeigt wird.
+1. Wählen Sie ein Anfrageformular oder eine Warteschlange aus dem Bereich Kürzlich aufgerufene Anfrageformulare aus, oder geben Sie den Formular- oder Warteschlangennamen in die Liste ein und wählen Sie ihn aus, wenn er angezeigt wird.
 
 1. Aktualisieren Sie die im Anfrageformular verfügbaren Felder. Felder mit einem roten Sternchen sind Pflichtfelder.
 1. Klicken Sie auf **Senden**.
@@ -221,16 +213,9 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 
    Die Seite mit den Anfragedetails wird geöffnet.
 
-   ![Seite mit Anforderungsdetails](assets/request-details-page.png)
-
-   <div class="preview">
-      In Vorschau:
-
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
-   </div>
-
-1. <span class="preview">(Optional) Geben Sie im Bereich „Kommentare“ einen Kommentar ein.
+1. (Optional) Geben Sie im Bereich „Kommentare“ einen Kommentar ein.
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anforderung genehmigt wurde, klicken Sie auf den Namen der Anforderung und anschließend auf den Namen des Datensatzes **Feld &quot;**&quot;.
 
    Die Seite des Datensatzes wird in Workfront Planning geöffnet.
@@ -292,16 +277,11 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 
    Die Seite mit den Anfragedetails wird geöffnet.
 
-   ![Seite mit Anforderungsdetails](assets/request-details-page.png)
-
-   <div class="preview">
-   In Vorschau:
-
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
-   </div>
 
-1. <span class="preview">(Optional) Geben Sie im Bereich „Kommentare“ einen Kommentar ein.
+
+1. (Optional) Geben Sie im Bereich „Kommentare“ einen Kommentar ein.
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anforderung genehmigt wurde, klicken Sie auf den Namen der Anforderung und anschließend auf den Namen des Datensatzes **Feld &quot;**&quot;.
 
    Die Seite des Datensatzes wird in Workfront Planning geöffnet.

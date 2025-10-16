@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2580'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben dargestellt. Sie können jedoch in einer Umgebung arbeiten, in der ungeplante Arbeit in Form von Anfragen jederzeit eintreffen kann. Workfront bietet einen Workflow, der diesen Umgebungstyp durch die Verwendung von Anfrage-Warteschlangen unterstützt.
 
@@ -144,23 +141,16 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
    Das **Neue Anfrage**-Feld wird geöffnet.
 
-1. (Bedingt) Wenn Sie zum neuen Erlebnis gewechselt sind und sich in der Produktionsumgebung befinden, wird im Feld **Neue Anfrage** Folgendes angezeigt:</span>
+1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt sind, wählen Sie einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange aus oder klicken Sie auf die Suchleiste.
 
-   <ul><li>Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt Letzte angezeigt. </li>
-    <li>Alle zusätzlichen Workfront- und Planungsanfrageformulare <b>Alle Anfrageformulare</b> Abschnitt. Sie können nach einem Anfrageformular suchen, das standardmäßig nicht angezeigt wird. </li>
-    <li>Alle zusätzlichen Workfront- und Planning-Anfragewarteschlangenpfade werden im Abschnitt <b>Alle Anfragepfade</b> angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird.</li></ul>
-   Klicken Sie auf einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange, oder suchen Sie nach einem Pfad, und klicken Sie dann darauf, wenn er in der Liste angezeigt wird.
-1. <span class="preview">(Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, wählen Sie einen der Pfade oder Formulare für die Workfront-Anfrage-Warteschlange aus oder klicken Sie auf die Suchleiste. </span>
-
-   <span class="preview">Wenn Sie auf die Suchleiste klicken, wird ein Dropdown-Menü mit den zuletzt verwendeten Warteschlangen und Formularen angezeigt. Wählen Sie eine aus der Liste aus oder beginnen Sie mit der Eingabe und wählen Sie die Warteschlange oder das Formular aus, wenn es angezeigt wird.</span>
+   Wenn Sie auf die Suchleiste klicken, wird ein Dropdown-Menü mit den zuletzt verwendeten Warteschlangen und Formularen angezeigt. Wählen Sie eine aus der Liste aus oder beginnen Sie mit der Eingabe und wählen Sie die Warteschlange oder das Formular aus, wenn es angezeigt wird.
 
    >[!NOTE]
    >
-   ><span class="preview">Beachten Sie Folgendes bezüglich des neuen anfragenden Erlebnisses, das derzeit in der Vorschau verfügbar ist:</span>
-   >* <span class="preview">Die Liste enthält sowohl Workfront-Anfragewarteschlangen als auch Workfront Planning-Anfrageformulare.</span>
-   >* <span class="preview">Sie können die Liste nach Objekttyp filtern.</span>
-   >* <span class="preview">Um nur Workfront-Anfrage-Warteschlangen anzuzeigen, filtern Sie nach `Issue` Objekttypen.</span>
-   >* <span class="preview">In der neuen anfordernden Version befinden sich Entwürfe in derselben Liste wie gesendete Anfragen.</span>
+   >Beachten Sie Folgendes bezüglich des neuen anfragenden Erlebnisses:
+   >* Die Liste enthält die Workfront-Anfragewarteschlangen und Workfront Planning-Anfrageformulare.
+   >* Sie können die Liste nach Objekttyp filtern.
+   >* In der neuen anfordernden -Version befinden sich Entwürfe in derselben Liste wie die gesendeten Anfragen.
 
 1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt sind, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '2686'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie mit der Erstellung des Formular
 
 ### Erstellen eines Anfrageformulars
 
-Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Formular verknüpft ist, <span class="preview">oder aus dem Bereich Anfragen von Workfront.</span>
+Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatztyp erstellen<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
 
 #### Erstellen eines Anfrageformulars aus einem Datensatztyp
 
@@ -136,37 +136,41 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. Fahren Sie fort [Formular konfigurieren](#configure-the-form).
 
+<!--
+
 <div class="preview">
 
-#### Erstellen eines Anfrageformulars aus dem Bereich Anfragen von Workfront
+#### Create a request form from the Requests area of Workfront
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Anfragen**.
-1. Klicken Sie in der rechten oberen Ecke des Bildschirms auf **Formulare anfordern**.
-1. (Bedingt) Wenn Sie ein vorhandenes Anfrageformular bearbeiten, wählen Sie es aus der Liste aus und fahren Sie dann mit dem Vorgang [Formular konfigurieren](#confgure-the-form) fort.
-1. Wenn Sie ein neues Antragsformular erstellen, klicken Sie in der rechten oberen Ecke des Bildschirms auf **Neues Antragsformular**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   Das Feld Anfrage erstellen wird geöffnet
+   The Create request form box opens
 
-1. Aktualisieren Sie im Feld Anfrageformular erstellen den Namen des Anfrageformulars. Standardmäßig lautet der Name des Formulars **Unbenanntes Formular**.
-1. Wählen Sie im Feld Objekttypen den Datensatztyp aus, mit dem das Anfrageformular verknüpft werden soll. Datensatztypen werden in dem Arbeitsbereich gruppiert, in dem sie vorhanden sind.
-1. (Optional) Fügen Sie **Anfrageformular eine** Beschreibung“ hinzu.
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. Klicken Sie auf **Erstellen**.
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
-1. Fahren Sie fort [Einrichten von Details für das Anfrageformular](#set-up-details-for-the-request-form).
+
 
 </div>
+
+-->
 
 ### Einrichten von Details für das Anfrageformular
 
 Formulardetails sind in Registerkarten unterteilt.
 
 * Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
-* Auf **Registerkarte** Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen <span class="preview">und Optionen für das Abschließen von Anfragen festlegen</span>.
-* <span class="preview">Die Registerkarte **Automatisierungen** ermöglicht es Ihnen, die Vorgänge basierend auf Funktionen der mit dem Formular gestellten Anfrage zu automatisieren.</span>
+* Auf **Registerkarte**Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Einrichten von Formulardetails
 
@@ -227,14 +231,14 @@ Formulardetails sind in Registerkarten unterteilt.
 
 #### Einrichten von Konfigurationsdetails
 
-Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlegen <span class="preview">und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird</span>.
+Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlegen und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird.
 
 1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
 
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. (Optional) Klicken Sie auf die **Konfiguration** und fügen Sie dann mindestens einen Benutzer <span class="preview">oder ein Team</span> zum Feld **Genehmigende** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
+1. (Optional) Klicken Sie auf die **Konfiguration** und fügen Sie dann mindestens einen Benutzer oder ein Team zum Feld **Genehmiger** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
 
    ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
 
@@ -244,39 +248,44 @@ Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlege
    * Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen.
    * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt.
    * Alle genehmigenden Personen müssen eine Entscheidung treffen, bevor eine Anfrage genehmigt oder abgelehnt wird.
-   * <span class="preview">Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.</span>
+   * Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
 
      Weitere Informationen zum Hinzufügen von Genehmigungen zu Anfrageformularen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. <span class="preview">(Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist**.</span>
+1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
 
-1. <span class="preview">Wählen Sie aus, ob eine über dieses Formular erstellte Anfrage beim Erstellen des angeforderten Objekts als „abgeschlossen“ markiert oder ob das angeforderte Objekt abgeschlossen sein soll.</span>
-1. <span class="preview">(Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.</span>
-1. Fahren Sie mit [Einrichten von Automatisierungsdetails](#set-up-configuration-details) fort, wenn Sie weitere Details für das Formular konfigurieren möchten, oder gehen Sie zu [Formularerstellung abschließen](#complete-request-form-creation).
+1. Wählen Sie aus, ob eine aus diesem Formular erstellte Anfrage beim Erstellen des angeforderten Objekts als abgeschlossen markiert oder ob das angeforderte Objekt fertig gestellt werden soll.
+1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
+1. Fahren Sie <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
 
+<!--
+ 
 <div class="preview">
 
-#### Automatisierungen einrichten
+#### Set up Automations
 
-Sie können Automatisierungen in Adobe Workfront Planning konfigurieren, die, wenn sie aktiviert sind, Objekte in Workfront erstellen oder Datensätze in Workfront Planning aufnehmen, wenn sie durch einen Planungsdatensatz ausgelöst werden.
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-Informationen zum Erstellen von Automatisierungen in anderen Bereichen von Workfront Planning finden Sie unter [Konfigurieren von Adobe Workfront Planning-Automatisierungen](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. Aktualisieren Sie auf der Detailseite der Automatisierung die folgenden Felder im Abschnitt **Trigger**:
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Trigger**: Wählen Sie die Aktion aus, durch die die Automatisierung Trigger werden soll. Derzeit ist der einzige verfügbare Trigger für die Automatisierung von Anforderungsformularen `When request object status equals pending creation`.
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**: <!--submitted bugs for these fields - see if they need changing here-->
-   * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
-Derzeit ist die einzige verfügbare Aktion für die Automatisierung von Anforderungsformularen `Create record`.
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >Nachdem Sie die Automatisierung gespeichert haben, können Sie die in diesem Feld ausgewählte Aktion nicht mehr ändern.
-1. Fahren Sie [Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
+
+-->
 
 ### Abschließen der Formularerstellung
 
@@ -294,7 +303,7 @@ Derzeit ist die einzige verfügbare Aktion für die Automatisierung von Anforder
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.

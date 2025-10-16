@@ -8,18 +8,15 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '968'
 ht-degree: 2%
 
 ---
 
 # Gesendete Anfragen suchen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Sie können die folgenden Arten von Anfragen finden, die von Ihnen oder einer anderen Person gesendet oder von Ihnen gestartet, aber nie fertig gesendet wurden. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
@@ -177,6 +174,9 @@ So suchen Sie nach von Ihnen oder anderen Benutzern gesendeten Anfragen:
    </table>
 
 1. (Optional) Klicken Sie auf das **Seite filtern**-Symbol oben ![](assets/search-icon.png) in der Liste, um nach einer Anfrage anhand des Namens zu suchen. Die Liste wird mit Ergebnissen aktualisiert, die Ihren Suchkriterien entsprechen.
+
+1. (Bedingt) Um nur Workfront-Anfragewarteschlangen anzuzeigen, suchen oder filtern Sie nach `Issue` Objekttypen.</span>
+
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>

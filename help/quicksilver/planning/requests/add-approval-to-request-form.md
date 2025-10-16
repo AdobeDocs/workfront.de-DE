@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -90,11 +90,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    Der **Konfiguration** wird angezeigt.
 
    ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
-1. Klicken **im Feld** auf das Dropdown-Symbol und wählen Sie einen oder mehrere Benutzer <span class="preview">oder Teams</span> in der Liste aus
+1. Klicken **im Feld** auf das Dropdown-Symbol und wählen Sie einen oder mehrere Benutzer oder Teams in der Liste aus
 
    Oder
 
-   Geben Sie den Namen eines Benutzers (<span class="preview"> Teams) ein</span> den Sie als genehmigende Person festlegen möchten, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
+   Geben Sie den Namen eines Benutzers oder Teams ein, den Sie als genehmigende Person festlegen möchten, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    >
    >* Alle genehmigenden Personen müssen eine Entscheidung treffen, bevor eine Anfrage genehmigt oder abgelehnt wird.
    >
-   >* <span class="preview">Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.</span>
+   >* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
 
 
 1. (Optional) Klicken Sie auf **Veröffentlichen** wenn Sie das Anfrageformular noch nie zuvor freigegeben haben
