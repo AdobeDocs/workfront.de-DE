@@ -1,25 +1,24 @@
 ---
 title: Übersicht über arbeitsbereichsübergreifende Datensatztypen
-description: Globale Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: Sie können Datensatztypen als global oder verbindbar aktivieren. Globale Datensatztypen können in Adobe Workfront Planning über einen zentralen oder primären Arbeitsbereich zu mehreren Arbeitsbereichen hinzugefügt werden, während verbindbare Datensatztypen über andere Arbeitsbereiche als ihren eigenen mit verbunden werden können.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # Übersicht über Workspace-übergreifende Datensatztypen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ In Adobe Workfront Planning können Sie Workspace-übergreifende Funktionen für
 
 Im Folgenden finden Sie arbeitsbereichsübergreifende Funktionen von Datensatztypen:
 
-* **Globale Datensatztypen**: Benutzer können globale Datensatztypen zu anderen von ihnen verwalteten Arbeitsbereichen hinzufügen.
+* <span class="preview">**Globale Datensatztypen**: Benutzer können globale Datensatztypen zu anderen von ihnen verwalteten Arbeitsbereichen hinzufügen.</span>
 
 * **Verbindbare Datensatztypen**: Benutzer können von anderen Arbeitsbereichen aus eine Verbindung zu diesem Datensatztyp herstellen.
 
 In diesem Artikel erhalten Sie einen Überblick über arbeitsbereichsübergreifende Datensatztypen. Informationen zum Definieren der arbeitsbereichsübergreifenden Funktionen eines Datensatztyps finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+<div class="preview">
 
 ## Übersicht über globale Datensatztypen
 
@@ -118,11 +119,12 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
     * Add request forms to it
     * Add automations to it-->
 
-* Kein Benutzer kann die folgenden Aktionen für den Datensatztyp ausführen, der von einem globalen Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurde:
+* Kein Benutzer kann die folgenden Aktionen für einen globalen Datensatztyp in einem sekundären Arbeitsbereich ausführen:
 
    * Bearbeiten
 
      Sie können weder sein Erscheinungsbild noch seine Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace hinzugefügt wurden.
+   * Freigeben
    * Anfrageformulare erstellen und verwalten
    * Automatisierungen erstellen und verwalten
 
@@ -151,6 +153,8 @@ Die folgenden Fälle liegen vor:
 * Wenn der/die Benutzende Zugriff hat, wird der Datensatz im ursprünglichen Arbeitsbereich globaler Datensatztypen erstellt.
 
 * Wenn der/die Benutzende keinen Zugriff hat, erhält der/die Benutzende die Fehlermeldung, dass er/sie keinen Zugriff auf den ursprünglichen Arbeitsbereich des globalen Datensatztyps hat und er/sie die Arbeitsbereich-ID angeben muss, unter der er/sie Zugriff zum Erstellen von Datensätzen hat.
+
+</div>
 
 ## Übersicht über verbindbare Datensatztypen
 

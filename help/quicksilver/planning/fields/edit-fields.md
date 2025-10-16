@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
   >Andere Benutzer werden nicht darüber informiert, dass sich die Feldkonfiguration geändert hat.
 
 * Sie können vorhandene Suchfelder aus verbundenen Datensätzen bearbeiten.
-* Zusätzlich zur Bearbeitung des Felds, wie im Abschnitt [Feldeinstellungen bearbeiten](#edit-field-settings-1) in diesem Artikel beschrieben, <span class="preview">Sie die Auswahl eines Felds mit einer oder mehreren Auswahlmöglichkeiten bearbeiten, wenn Sie einen Datensatz in der Tabellenansicht bearbeiten, während Sie die Feldwerte aktualisieren. Weitere Informationen finden Sie [&#x200B; Abschnitt „Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)&quot; in diesem Artikel.</span>
+* Zusätzlich zur Bearbeitung des Felds, wie im Abschnitt [Feldeinstellungen bearbeiten](#edit-field-settings-1) in diesem Artikel beschrieben, <span class="preview">Sie die Auswahl eines Felds mit einer oder mehreren Auswahlmöglichkeiten bearbeiten, wenn Sie einen Datensatz in der Tabellenansicht bearbeiten, während Sie die Feldwerte aktualisieren. Weitere Informationen finden Sie [ Abschnitt „Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)&quot; in diesem Artikel.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -200,8 +200,6 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
    Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
-<div class="preview">
-
 ## Hinzufügen neuer Auswahlmöglichkeiten zu einem vorhandenen Auswahlfeld beim Bearbeiten von Datensätzen in der Tabellenansicht
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -216,7 +214,7 @@ Sie können einem vorhandenen Einzel- oder Mehrfachauswahlfeld beim Bearbeiten v
 
 Möglicherweise verfügen Sie über ein Feld mit einer einzigen Auswahl namens Status , in dem die Optionen Neu und Geschlossen verfügbar sind, und Sie möchten eine Auswahl für einen Status In Bearbeitung hinzufügen. Sie können die Auswahl hinzufügen, indem Sie einen der folgenden Schritte ausführen:
 
-* Bearbeiten des Felds. Weitere Informationen finden Sie im Abschnitt [Bearbeiten von &#x200B;](#edit-field-settings-1)) in diesem Artikel.
+* Bearbeiten des Felds. Weitere Informationen finden Sie im Abschnitt [Bearbeiten von ](#edit-field-settings-1)) in diesem Artikel.
 * Hinzufügen einer neuen Option beim Bearbeiten des Datensatzes in der Tabellenansicht, wie unten beschrieben.
 
 So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld eine neue Auswahl hinzu:
@@ -230,6 +228,5 @@ So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld ei
 
    Die neue Auswahl wird sofort zum Feld für die Einzelauswahl hinzugefügt.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">Jeder Auswahl wird außerdem ein neuer Wert hinzugefügt. Sie können die Auswahlwerte in API-Aufrufen oder anderen Integrationen verwenden. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).</span>
 
-</div>

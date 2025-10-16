@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2732'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,10 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -273,7 +271,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps
 
@@ -288,7 +286,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes aus der Datensatzvorschau in einer Ansicht
 
@@ -337,9 +335,9 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Erweitertes Feld für die Datensatzvorschau der Echtzeit-Anzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[&#x200B; wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes &#x200B;](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
+1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[ wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes ](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
 
 ### Bearbeiten eines Datensatzes auf der Datensatzseite
 
@@ -383,7 +381,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    Oder
 
-   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
+   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -401,7 +399,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Das erweiterte Feld für die Datensatzvorschau der Echtzeitanzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Bearbeiten eines Datensatzes aus einem Workfront-Objekt im Planungsabschnitt
@@ -438,5 +436,5 @@ So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld ei
 
    Die neue Auswahl wird sofort zum Feld für die Einzelauswahl hinzugefügt.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">Jeder Auswahl wird ein neuer Auswahlwert hinzugefügt. Sie können die Auswahlwerte in API-Aufrufen oder anderen Integrationen verwenden. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md). </span>
 

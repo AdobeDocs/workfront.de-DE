@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
+source-wordcount: '5463'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -179,7 +179,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -238,8 +238,8 @@ Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/qui
    * [Erstellungsdatum](#created-date)
    * [Zuletzt geändert von](#last-modified-by)
    * [Zuletzt geändert am](#last-modified-date)
-   * <span class="preview">[Genehmigt am](#approved-date)</span>
-   * <span class="preview">[Genehmigt von](#approved-by)</span>
+   * [Genehmigungsdatum](#approved-date)
+   * [Genehmigt von](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -299,7 +299,7 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
 >[!NOTE]
 >
-><span class="preview">Zusätzlich zu den in diesem Abschnitt beschriebenen Funktionen können Sie neue Optionen hinzufügen, wenn Sie den Mehrfachauswahl-Feldwert eines Datensatzes inline in der Tabellenansicht bearbeiten. Weitere Informationen finden Sie im Abschnitt „Bearbeiten von Informationen zu Einzel- oder Mehrfachauswahlfeldern“ im Artikel [Bearbeiten von Datensätzen](/help/quicksilver/planning/records/edit-records.md).</span>
+>Zusätzlich zu den in diesem Abschnitt beschriebenen Funktionen können Sie neue Optionen hinzufügen, wenn Sie den Mehrfachauswahl-Feldwert eines Datensatzes inline in der Tabellenansicht bearbeiten. Weitere Informationen finden Sie im Abschnitt „Bearbeiten von Informationen zu Einzel- oder Mehrfachauswahlfeldern“ im Artikel [Bearbeiten von Datensätzen](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann **Feldtyp Mehrfachauswahl** aus.
@@ -327,23 +327,20 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
    Das neue Mehrfachauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über den Feldnamen in der Tabellenansicht, klicken Sie auf das Dropdown-Menü rechts neben dem Feldnamen und dann auf **Feld bearbeiten**.</span>
+1. <span class="preview">Aktivieren Sie die Einstellung **Werte anzeigen**, um die Werte für jede Auswahl anzuzeigen. Die Werte sind die Namen der einzelnen Auswahlmöglichkeiten, wie sie in der Workfront-Datenbank angezeigt werden. </span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront weist jeder Auswahl eindeutige Werte zu. </span>
+   >
+   >* <span class="preview">Werte entsprechen dem Auswahlnamen im Kleinbuchstabenformat. Mehrere Wörter werden durch einen Unterstrich getrennt. </span>
+   >
+   >* <span class="preview">Werte können zwischen mehreren Feldern wiederholt werden, müssen aber für ein Feld eindeutig sein.</span>
+   >
+   ><span class="preview"> ![Wertumschalter anzeigen](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">(Optional) Verwenden Sie die Auswahlwerte in Ihren API-Aufrufen und anderen Integrationen. </span>
 
 ### Einzelauswahl {#single-select}
 
@@ -351,13 +348,12 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 
 >[!NOTE]
 >
-><span class="preview">Zusätzlich zu den in diesem Abschnitt beschriebenen Funktionen können Sie neue Optionen hinzufügen, wenn Sie den Einzelauswahlfeldwert eines Datensatzes inline in der Tabellenansicht bearbeiten. Weitere Informationen finden Sie im Abschnitt „Bearbeiten von Informationen zu Einzel- oder Mehrfachauswahlfeldern“ im Artikel [Bearbeiten von Datensätzen](/help/quicksilver/planning/records/edit-records.md).</span>
+>Zusätzlich zu den in diesem Abschnitt beschriebenen Funktionen können Sie neue Optionen hinzufügen, wenn Sie den Einzelauswahlfeldwert eines Datensatzes inline in der Tabellenansicht bearbeiten. Weitere Informationen finden Sie im Abschnitt „Bearbeiten von Informationen zu Einzel- oder Mehrfachauswahlfeldern“ im Artikel [Bearbeiten von Datensätzen](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzelauswahl** aus.
 
    ![Feldtyp für Einzelauswahl](assets/single-select-field-type.png)
-
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 
    Das neue Einzelauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
-<!--
+1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über den Feldnamen in der Tabellenansicht, klicken Sie auf das Dropdown-Menü rechts neben dem Feldnamen und dann auf **Feld bearbeiten**.</span>
+1. <span class="preview">Aktivieren Sie die Einstellung **Werte anzeigen**, um die Werte für jede Auswahl anzuzeigen. Die Werte sind die Namen der einzelnen Auswahlmöglichkeiten, wie sie in der Workfront-Datenbank angezeigt werden. </span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront weist jeder Auswahl eindeutige Werte zu. </span>
+   >
+   >* <span class="preview">Werte entsprechen dem Auswahlnamen im Kleinbuchstabenformat. Mehrere Wörter werden durch einen Unterstrich getrennt. </span>
+   >
+   >* <span class="preview">Werte können zwischen mehreren Feldern wiederholt werden, müssen aber für ein Feld eindeutig sein.</span>
+   >
+   ><span class="preview"> ![Wertumschalter anzeigen](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">(Optional) Verwenden Sie die Auswahlwerte in Ihren API-Aufrufen und anderen Integrationen. </span>
 
 ### Datum {#date}
 
@@ -438,7 +430,7 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 >Zahlenfelder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Zahlen angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
@@ -468,7 +460,7 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
 >Prozentuale Felder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten und die Werte dieser Felder werden nach dem Senden der Anfrage als Prozentwerte für den Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
@@ -508,7 +500,7 @@ Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangeste
 >Währungsfelder werden in einem Formular-Builder für Anfragen als einzeilige Textfelder angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Währung angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
@@ -583,7 +575,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
@@ -696,7 +688,6 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
 
    Das neue Feld vom Typ Erstelltes Datum wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz erstellt wurde.
 
-
 ### Zuletzt geändert von
 
 Mit dem Feldtyp Zuletzt geändert von können Sie den Benutzer, der den Datensatz zuletzt geändert hat, zu einem Datensatz hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Namen des Benutzers ausgefüllt wird, der beim letzten Aktualisieren des Datensatzes angemeldet war.
@@ -713,7 +704,6 @@ Mit dem Feldtyp Zuletzt geändert von können Sie den Benutzer, der den Datensat
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld Letzte Änderung nach Typ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
-
 
 ### Zuletzt geändert am
 
@@ -748,8 +738,6 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
 
    Das neue Feld vom Typ „Zuletzt geändert“ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz zuletzt geändert wurde.
 
-<div class="preview">
-
 ### Genehmigungsdatum
 
 Mit dem Feldtyp Genehmigt am können Sie das Datum hinzufügen, an dem eine Anfrage genehmigt wurde und die Erstellung des Datensatzes resultierte. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) ausgefüllt wird, an dem die Anfrage von der letzten genehmigenden Person genehmigt wurde. In diesem Fall sollte das Genehmigungsdatum mit dem Datum übereinstimmen, an dem der Datensatz erstellt wurde.
@@ -759,7 +747,6 @@ Mit dem Feldtyp Genehmigt am können Sie das Datum hinzufügen, an dem eine Anfr
 >Das Feld Genehmigungsdatum enthält nur Informationen zu Datensätzen, die durch Senden eines mit genehmigenden Personen verknüpften Anforderungsformulars erstellt wurden.
 >
 >Wenn das Formular mit mehreren genehmigenden Personen verknüpft ist, wird im Feld Genehmigungsdatum nur das Datum der letzten Genehmigungsentscheidung aufgezeichnet.
-
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
 
@@ -810,8 +797,6 @@ Mit dem Feldtyp Genehmigt nach können Sie den Benutzer hinzufügen, der die Anf
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld Genehmigt nach Typ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
-
-</div>
 
 <!--
 

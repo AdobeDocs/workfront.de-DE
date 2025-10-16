@@ -1,23 +1,18 @@
 ---
 title: Hinzufügen vorhandener Datensatztypen aus einer anderen Workspace
 description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. In Workfront Planning können Sie einen vorhandenen Datensatztyp hinzufügen, der in einem anderen Workspace erstellt wurde.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich
 
@@ -56,7 +51,7 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
 <p>Oder</p>
-<li><p>Workflow- und Planungspakete für Prime und Ultimate</p></p></li></ul>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >Stellen Sie sicher, dass in mindestens einem anderen Arbeitsbereich mindestens ein Datensatztyp als „global“ festgelegt ist.
+>
+>Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 1. Beginnen Sie mit der Erstellung eines Datensatztyps, wie im Artikel [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md) beschrieben, und klicken Sie dann auf **Vorhandene hinzufügen**. <!--check this - the option might have been renamed in the UI-->
 

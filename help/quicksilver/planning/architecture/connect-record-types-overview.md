@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Bei der Planung von Workfront gibt es zwei Schritte für Verbindungen:
 
 Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">In Workfront Planning können bis zu 30 verbundene Felder für einen Datensatztyp verwendet werden.</span>
 
 * In Adobe Workfront Planning können Sie die folgenden Entitäten verbinden:
 
@@ -76,16 +76,14 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
 * Nachdem Sie einen Datensatztyp mit einem anderen Datensatztyp oder mit einem Objekttyp aus einer anderen Anwendung verbunden haben, sind die folgenden Szenarien vorhanden:
 
-   * **Wenn Sie zwei Planning-Datensatztypen verbinden**: Für den Datensatztyp, von dem aus Sie eine Verbindung herstellen, wird ein verknüpftes Datensatzfeld erstellt. Ein ähnliches verknüpftes Datensatzfeld wird für den Datensatztyp erstellt, mit dem Sie eine Verbindung <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->.
+   * **Wenn Sie zwei Planning-Datensatztypen verbinden**: Für den Datensatztyp, von dem aus Sie eine Verbindung herstellen, wird ein verknüpftes Datensatzfeld erstellt. Ein ähnliches verknüpftes Datensatzfeld wird nur dann für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, wenn Sie die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen auf der Registerkarte Neue Verbindung aktivieren.
 
      Wenn Sie beispielsweise den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit der automatischen Bezeichnung „Kampagne“ wird für den Produktdatensatztyp erstellt.
 
-     <div class="preview">
-
      Beispielsweise sind folgende Szenarien vorhanden:
+
       * Wenn Sie die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen aktivieren und den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit der automatischen Bezeichnung „Kampagne“ wird für den Produktdatensatztyp erstellt.
       * Wenn Sie die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen deaktivieren und den Datensatztyp „Kampagne“ mit dem Datensatztyp „Produkt“ verbinden, wird ein verknüpftes Datensatzfeld (Verbindungsfeld), das Sie „Verknüpftes Produkt“ nennen, für den Datensatztyp der Kampagne erstellt. Ein verknüpfter Datensatztyp mit dem automatischen Namen „Kampagne“ wird nicht für den Produktdatensatztyp erstellt.
-     </div>
 
      Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -95,7 +93,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
       * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
       * Die Planungsdatensätze sind auf der Registerkarte Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.
@@ -112,7 +110,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
      >
      >Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den Suchfeldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen oder ihren Berechtigungen in anderen Arbeitsbereichen.
 
-     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
      Verknüpfte Felder werden durch ein Symbol vorangestellt, das den Feldtyp angibt. Beispielsweise werden verknüpften Feldern (oder Suchfeldern) Symbole vorangestellt, die angeben, dass ein Feld eine Zahl, ein Absatz oder ein Datum ist.
 
@@ -137,27 +135,19 @@ Nachdem Sie eine Verbindung zwischen zwei Datensatztypen oder zwischen einem Dat
 
 Sie können auswählen, ob Sie jeweils einen Datensatz mit mehreren Datensätzen oder einen Datensatz miteinander verbinden möchten.
 
-Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufügen können und welche Umgebung Sie zum Erstellen der verbundenen Felder verwenden, können Sie im Folgenden die Verbindungstypen auswählen, aus denen Sie beim Verbinden von Datensatztypen auswählen können:
+Im Folgenden finden Sie die Verbindungstypen, aus denen Sie beim Verbinden von Datensatztypen auswählen können:
 
-<div class="preview">
+* Wenn die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** deaktiviert ist, können Sie aus folgenden Optionen wählen:
 
-* In der Vorschau-Umgebung:
+   * [Mehrfachauswahl](#multi-select-connection-type)
+   * [Einzelauswahl](#single-select-connection-type)
 
-   * Wenn die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen deaktiviert ist, können Sie aus folgenden Optionen wählen:
-
-      * [Mehrfachauswahl](#multi-select-connection-type)
-      * [Einzelauswahl](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">Wenn in der Vorschau -Umgebung die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen aktiviert ist, </span> Sie in der Produktionsumgebung aus folgenden Optionen wählen:
+* Wenn die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** aktiviert ist, können Sie aus folgenden Optionen wählen:
 
    * [Viele-zu-viele](#many-to-many-connection-type)
    * [Eins zu viele](#one-to-many-connection-type)
    * [Viele-zu-eins](#many-to-one-connection-type)
    * [Eins zu eins](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### Mehrfachauswahl-Verbindungstyp
 

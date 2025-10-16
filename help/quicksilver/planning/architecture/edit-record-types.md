@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Datensatztypen bearbeiten
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -40,20 +40,26 @@ Datensatztypen sind die Objekttypen von Adobe Workfront Planning. Sie können da
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>So aktivieren Sie verbindbare Datensatztypen: </p>
+<p>Beliebiges Workfront- und Planungspaket</p>
+<p>Beliebiges Workfront- und Planungspaket</p>
+<p><b>NOTIZ</b></p>
+<p>So konfigurieren Sie verbindbare Datensatztypen: </p>
 <ul> 
 <li><p>Jedes Workfront-Paket und jedes Planungspaket</p></li>
 <p>Oder</p>
-<li><p>Workflow- und Planungspakete für Prime und Ultimate</p></li></ul>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
 
-<p>So aktivieren Sie globale Datensatztypen:</p>
+<div class="preview">
+<p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
 <li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
 <p>Oder</p>
-<li><p>Workflow- und Planungspakete für Prime und Ultimate</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
+
+</div>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
@@ -140,15 +146,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte Datensatztyp und klicken Sie dann auf **Bearbeiten**
-     <!--<span class="preview">or **Settings**</span>-->
-Oder
-   * <span class="preview">Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie dann auf **Bearbeiten**<!--<span class="preview">or **Settings**</span>. </span>-->
+     <span class="preview">oder **Einstellungen**</span>
+oder
+   * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen. Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Bearbeiten** <span class="preview">oder **Einstellungen**</span>.
 
-   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
+   <span class="preview">![Weitere Menüoptionen auf der Karte „Datensatztyp“ mit Einstellungen](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
 
-1. Im Feld **Datensatztyp bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet. <!--update screen shot below at preview-->
+1. Im Feld **Datensatztyp bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet. <!--update screen shot below at production-->
 
-   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ ](assets/edit-record-type-box-appearance-tab.png)
 
    Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild**:
 
@@ -158,26 +164,17 @@ Oder
       * Farbe zur Identifizierung des Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
+1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf die Registerkarte **Erweiterte Einstellungen** <span class="preview">oder **Arbeitsbereichsübergreifende Einstellungen**</span> und aktualisieren Sie die Informationen zu den arbeitsbereichsübergreifenden Funktionen des Datensatztyps.
 
-1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf **Erweiterte Einstellungen** und aktualisieren Sie die folgenden Informationen im Abschnitt **Arbeitsbereichsübergreifende**): <!--the info here is duplicated in the Create record types article-->
-   * Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung: Damit können Workspace-Manager von anderen Arbeitsbereichen aus eine Verbindung zu diesem Datensatztyp herstellen.\
-     Sie können festlegen, aus welchen Arbeitsbereichen dieser Datensatztyp verbunden werden kann. Sie können sie für alle Arbeitsbereiche verfügbar machen oder bestimmte Arbeitsbereiche festlegen, in die Sie sie importieren können.
-Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+   Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
 
-
-   ![Feld „Datensatztyp erstellen“ auf der Registerkarte „Erweiterte Einstellungen“](assets/create-record-type-box-advanced-settings-tab.png)
-
-   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
-    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
-    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
-    ***********Add screenshot***********
-    -->
+   ![Feld „Datensatztyp bearbeiten“ mit der Registerkarte „Erweiterte Einstellungen“](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Klicken Sie auf **Speichern**.
 
-   Auf der Karte „Datensatztyp“ im Arbeitsbereich wird oben rechts das Symbol „Verbindung ![&#x200B; anderen Arbeitsbereichen herstellen](assets/connect-from-other-workspaces-icon.png) angezeigt, um anzugeben, dass der Datensatz jetzt von anderen Arbeitsbereichen aus zugänglich ist.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
-   <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
+   <span class="preview">Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird das Symbol **Globaler** Globaler![Datensatz](assets/global-icon.png) auf der Datensatzkarte angezeigt. </span>
 
 1. (Optional) Klicken Sie im Arbeitsbereich auf die Karte Datensatztyp , um die Seite des Datensatztyps zu öffnen, und benennen Sie dann den Datensatztyp in der Kopfzeile um.
 

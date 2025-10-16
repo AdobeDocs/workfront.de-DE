@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensatztypen im Arbeitsbereich.
->&#x200B;>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
+>>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe &#x200B;](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
+>* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
 
@@ -181,6 +181,17 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Datensatztypen können nicht extern für Benutzende außerhalb von Workfront freigegeben werden.
 * Wenn Sie einem Benutzer, der keine Workspace-Berechtigungen hat, höhere als die Anzeigeberechtigungen für einen Datensatztyp gewähren möchten, müssen Sie zunächst den Workspace für ihn mit einer höheren Berechtigung als „Anzeigen“ freigeben. Die höheren Berechtigungen für den Arbeitsbereich gelten dann für die Datensatztypen.
 
+<div class="preview">
+
+* Bei der Freigabe globaler Datensatztypen gibt es die folgenden Szenarien:
+
+   * Sie können globale Datensatztypen über ihren ursprünglichen Arbeitsbereich freigeben.
+   * Globale Datensatztypen können nicht freigegeben werden, nachdem sie einem sekundären Arbeitsbereich hinzugefügt wurden.
+
+  Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+</div>
+
 ## Freigeben von Berechtigungen für einen Datensatztyp
 
 Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpassen, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
@@ -191,7 +202,7 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * <span class="preview">Klicken Sie auf der Karte „Datensatztyp“ auf das Menü **Mehr** > **Freigeben**.</span>
+   * Klicken Sie auf der Karte Datensatztyp auf das Menü **Mehr** > **Freigeben**.
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite des Datensatztyps zu öffnen, und klicken Sie dann in einer beliebigen Datensatztypansicht auf **Freigeben** > **Datensatztyp** Freigeben).
 
    Das Feld **Freigeben** wird geöffnet.

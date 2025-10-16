@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '1062'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Datensatztypen löschen
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -52,10 +52,12 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
 <p>Oder</p>
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>So löschen Sie globale Datensatztypen:</p>
+<ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<p>Oder</p>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+</div>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -148,14 +150,13 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 * Gelöschte Datensatztypen oder deren Informationen können nicht wiederhergestellt werden.
 * Es wird empfohlen, die Felder und die mit dem Datensatztyp verknüpften Datensätze, die Sie löschen möchten, in einem anderen Datensatztyp neu zu erstellen, bevor Sie sie löschen.
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* Ein globaler Datensatztyp, der anderen Arbeitsbereichen hinzugefügt wurde, kann nicht gelöscht werden.
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  Weitere Informationen finden Sie im Abschnitt [Löschen globaler ](#delete-global-record-types)) in diesem Artikel.
 
-</div>-->
+</div>
 
 ## Datensatztypen löschen
 
@@ -180,71 +181,68 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 
    Der ausgewählte Datensatztyp wird zusammen mit den zugehörigen Feldern, zugehörigen Datensätzen und Ansichten gelöscht und kann nicht wiederhergestellt werden.
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## Globale Datensatztypen löschen
 
-The following scenarios exist when deleting global record types:
+Beim Löschen globaler Datensatztypen gibt es die folgenden Szenarien:
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* Wenn ein als „global“ konfigurierter Datensatztyp noch nicht zu einem anderen Arbeitsbereich hinzugefügt wurde, können Sie ihn aus dem ursprünglichen Arbeitsbereich löschen.
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* Wenn ein als globaler Datensatztyp konfigurierter Datensatztyp zu mindestens einem anderen Arbeitsbereich hinzugefügt wurde, können Sie ihn nicht aus dem ursprünglichen Arbeitsbereich löschen. Zunächst müssen Sie globale Datensatztypen aus den sekundären Arbeitsbereichen, in denen sie hinzugefügt wurden, entfernen (indem Sie sie löschen). Anschließend können Sie den globalen Datensatztyp dauerhaft aus dem ursprünglichen Arbeitsbereich löschen.
 
-### Delete a global record type from the original workspace
+### Löschen eines globalen Datensatztyps aus dem ursprünglichen Arbeitsbereich
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+Sie können einen Datensatztyp aus seinem ursprünglichen Arbeitsbereich löschen, wenn er nicht mehr relevant ist.
 
-1. Go to the global record type in its original workspace. 
+1. Zum globalen Datensatztyp in seinem ursprünglichen Arbeitsbereich gehen.
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. (Bedingt) Führen Sie einen der folgenden Schritte aus, je nachdem, ob der globale Datensatztyp zu sekundären Arbeitsbereichen hinzugefügt wurde:
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * Wenn der Datensatztyp nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+   * Wenn der Datensatztyp mindestens einem anderen sekundären Arbeitsbereich hinzugefügt wurde, wechseln Sie zunächst zum sekundären Arbeitsbereich und löschen Sie den globalen Datensatz aus diesem Bereich.
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären ](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
 
-   The following things occur: 
+1. (Bedingt) Löschen Sie den Datensatztyp weiter, wie im Abschnitt [Löschen von Datensatztypen](#delete-record-types-1) in diesem Artikel beschrieben.
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   Folgendes geschieht:
 
-### Delete a global record type from a secondary workspace
+   * Der globale Datensatztyp wird aus dem ursprünglichen Arbeitsbereich entfernt, und der Datensatztyp, seine Datensätze und Felder können nicht wiederhergestellt werden.
+   * Alle globalen Datensatztypen aus den sekundären Arbeitsbereichen und deren Datensätze werden ebenfalls entfernt.
 
-You can delete a record type you added from another workspace if no longer needed. 
+### Löschen eines globalen Datensatztyps aus einem sekundären Arbeitsbereich
 
-Consider the following:
+Sie können einen Datensatztyp löschen, den Sie aus einem anderen Arbeitsbereich hinzugefügt haben, falls er nicht mehr benötigt wird.
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+Beachten Sie Folgendes:
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, wird er nur aus dem sekundären Arbeitsbereich entfernt. Der Datensatztyp verbleibt im ursprünglichen Arbeitsbereich.
 
-   * The records added from the secondary workspace.
+* Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, werden auch die folgenden gelöscht:
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * Die vom sekundären Arbeitsbereich hinzugefügten Datensätze.
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* Globale Datensatztypen, die aus ihren sekundären Arbeitsbereichen gelöscht wurden, können nicht wiederhergestellt werden.
 
-To delete a global record type from a secondary workspace: 
+* Der ursprüngliche Datensatztyp verbleibt sowohl im ursprünglichen Arbeitsbereich als auch in anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
 
-1. Go to the global record type in its secondary workspace. 
+So löschen Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich:
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. Wechseln Sie zum Typ Globaler Datensatz im sekundären Arbeitsbereich.
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+1. (Bedingt) Geben Sie **Löschen** in das bereitgestellte Feld ein und klicken Sie dann auf **Dauerhaft löschen**.
 
-   The following things occur: 
+   ![Bestätigungsfeld Sekundärer globaler Datensatztyp löschen](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   Folgendes geschieht:
+
+   * Der aus einem globalen Datensatztyp erstellte Datensatztyp wird aus dem ausgewählten Arbeitsbereich entfernt.
+   * Der ursprüngliche Datensatztyp mit den Feldern verbleibt im ursprünglichen Arbeitsbereich.
+   * Der Datensatztyp verbleibt in allen anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
+   * Die Datensätze, die dem Datensatztyp aus dem aktuellen Arbeitsbereich hinzugefügt <!--and fields-->, werden gelöscht. Alle anderen Datensätze, die von zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der globale Datensatztyp hinzugefügt wurde, bleiben in ihren jeweiligen Arbeitsbereichen und im ursprünglichen Arbeitsbereich erhalten. &lt;!- Felder bleiben in den Arbeitsbereichen erhalten, in denen sie hinzugefügt wurden.
+
+</div>

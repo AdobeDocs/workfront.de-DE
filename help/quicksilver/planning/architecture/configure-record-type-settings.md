@@ -1,26 +1,17 @@
 ---
 title: Konfigurieren des Einstellungsbereichs eines Datensatztyps
-description: Datensatztypen können bearbeitet werden, nachdem sie auf der Seite Einstellungen gespeichert wurden.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: Datensatztypen können nicht nur im Feld Datensatztyp bearbeiten bearbeitet werden, sondern auch auf der Seite Einstellungen .
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
--->
+---
+
 
 # Konfigurieren des Bereichs Einstellungen eines Datensatztyps
 
@@ -32,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 Sie können zusätzliche Einstellungen für einen Datensatztyp konfigurieren, nachdem sie in Adobe Workfront Planning gespeichert wurden.
 
-Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, können Sie zusätzliche Einstellungen für ihn konfigurieren, indem Sie einen der folgenden Schritte ausführen:
+Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, können Sie zusätzliche Einstellungen konfigurieren, indem Sie einen der folgenden Schritte ausführen:
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -46,7 +37,7 @@ Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, k
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, k
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul><li><p>Beliebiges Workfront-Paket</p></li>
-<p>Und</p>
-<li><p>Beliebiges Planungspaket zum Erstellen verbindbarer Datensatztypen</p></li>
-<li><p>Planning Plus-Paket zum Erstellen zentralisierter Datensatztypen</p></li>
-</ul>
-<p>Oder:</p>
-<ul><li><p>Ein Workflow- und Planungs-Prime- oder Ultimate-Paket</p> </li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront Account Manager. </p> 
-   </td>
+<p>Beliebiges Workfront- und Planungspaket</p>
+<p>Beliebiges Workfront- und Planungspaket</p>
+<p><b>NOTIZ</b></p>
+<p>So konfigurieren Sie verbindbare Datensatztypen: </p>
+<ul> 
+<li><p>Jedes Workfront-Paket und jedes Planungspaket</p></li>
+<p>Oder</p>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
 
-<tr> 
+<p>So konfigurieren Sie globale Datensatztypen:</p>
+
+<ul> 
+<li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<p>Oder</p>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, k
 
 Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ Sie können Workspace-übergreifende Funktionen für einen Datensatztyp definier
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte Datensatztyp und klicken Sie dann auf **Einstellungen**
-oder
+
+     ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     Oder
+
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie dann auf **Einstellungen**.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card.png)
+   ![Arbeitsbereichsübergreifende Einstellungen auf der Seite „Einstellungen“](assets/settings-page-cross-workspace-settings.png)
 
 1. Der **Arbeitsbereich-übergreifende Einstellungen** ist standardmäßig ausgewählt.
 1. Schalten Sie eine der folgenden Einstellungen ein oder aus:

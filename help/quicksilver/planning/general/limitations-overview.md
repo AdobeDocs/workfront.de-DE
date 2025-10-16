@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 3%
 
 ---
@@ -48,13 +48,9 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | CSV-Größe der Excel-Datei, die Sie importieren können, um Datensatztypen zu erstellen | 5MB |
 | Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 25.000 |
 | Anzahl der Spalten, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 500 |
-| <span class="preview">Anzahl der Formelfelder für einen Datensatztyp</span> | <span class="preview">20 </span> |
-| <span class="preview">Anzahl der Zeichen in einem Formelfeldausdruck</span> | <span class="preview"> 000 </span> |
-
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
+| Anzahl der Formelfelder für einen Datensatztyp | 20 |
+| <span class="preview">Anzahl der Verbindungsfelder für einen Datensatztyp</span> | <span class="preview">30 </span> |
+| Anzahl der Zeichen in einem Formelfeldausdruck | 50.000 |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 

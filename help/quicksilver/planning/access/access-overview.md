@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -57,14 +57,20 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td>
    <td>
    <p>Beliebiges Workfront- und Planungspaket</p>
-   <p>Oder</p>
    <p>Beliebiges Workflow- und Planungspaket</p>
-   <!--<p><b>NOTE</b></p>
-<p><span class="preview">For access to global record types:</span></p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
-<tr>
+
+<p><b>NOTIZ</b></p>
+
+<p>Zugriff auf verbindbare Datensatztypen:</p>
+   <ul><li><p>Beliebiges Workfront-Paket und ein Planungspaket</p></li>
+   <li><p>Beliebiger Workflow und ein Planning Prime- und Ultimate-Paket</p></li></ul>
+
+<div class="preview">
+   <p>Für den Zugriff auf globale Datensatztypen:</p>
+   <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+   <li><p>Beliebiges Workflow-Paket und ein Planning Prime- und Ultimate-Paket</p></li></ul> </td></tr>
+   </div>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
    <td>
    <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
@@ -154,7 +160,7 @@ So fügen Sie Workfront Planning-Bereiche zu Benutzern Ihrer Workfront-Instanz h
 
 Lizenzen können Benutzern zugewiesen werden, wenn die jeweilige Zugriffsebene beim Bearbeiten oder Erstellen konfiguriert wird.
 
-Weitere Informationen finden [&#x200B; unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Weitere Informationen finden [ unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 ## Zugriffsebene konfigurieren
 
