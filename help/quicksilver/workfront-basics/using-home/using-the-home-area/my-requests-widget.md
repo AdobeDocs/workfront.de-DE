@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >In diesem Artikel wird das neue Widget „Meine Anfragen“ beschrieben. Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird.
->>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
+>&#x200B;>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
 
 Das Widget Meine Anfragen zeigt Anfragen an, die an Ihre Organisation gesendet wurden. Sie können die Anfragen filtern, nach bestimmten Anfragen suchen oder die Spaltenreihenfolge und Sichtbarkeit anpassen. Sie können auch über das Widget Meine Anfragen eine neue Anfrage erstellen.
 
