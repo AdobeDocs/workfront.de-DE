@@ -34,7 +34,7 @@ Sie können ein Programm auf der Programmseite bearbeiten oder ein oder mehrere 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p> </td> 
+   <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -76,11 +76,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen [!UICONTROL &#x200B; Abschnitt &#x200B;]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm ] bearbeiten.
+   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm &#x200B;] bearbeiten.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Programm angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
    1. (Optional) Klicken Sie auf **[!UICONTROL Export]**-Symbol ![Export](assets/export.png), um die [!UICONTROL Übersicht] und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 
@@ -145,7 +145,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Programm-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Diese Person kann die in den Projekten des Programms definierten Arbeiten überwachen. </p> <p><b><p>WICHTIG</b></p> <p>Wenn Sie jemanden als Programm-Manager festlegen, erhält dieser automatisch [!UICONTROL Manage]-Berechtigungen für das Programm und die Projekte im Programm. </p> <p><b>TIPP</b></p> <p>Sie können den Programm-Manager im Programm-Header schnell aktualisieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Gruppe]</td> 
+      <td role="rowheader">[!UICONTROL -Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Programm verknüpft ist oder für den Abschluss des Programms verantwortlich ist. </p> <p><b>TIPP</b></p>  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Program Details] wie folgt vor, um sicherzustellen, dass Sie die richtige Gruppe auswählen: </p> <p>Bewegen Sie den Mauszeiger über den Gruppennamen und klicken Sie auf das Symbol [!UICONTROL information] <img src="assets/info-icon.png"> daneben. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Diese Option ist im Feld [!UICONTROL Programm bearbeiten] nicht verfügbar. </p> </p> </td> 
      </tr> 
     </tbody> 
