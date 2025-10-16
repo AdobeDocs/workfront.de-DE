@@ -250,7 +250,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td>
-         <td><p>Das [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems in [!DNL Workfront] wird zum [!UICONTROL Fälligkeitsdatum] des Problems, mit dem es in [!DNL Jira] verknüpft ist.</p><p>Hinweis: Stellen Sie sicher, dass bei <strong> Problemen </strong>[!UICONTROL Due Date][!DNL Jira] angezeigt wird, damit dieser Wert synchronisiert werden kann.</p></td>
+         <td><p>Das [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems in [!DNL Workfront] wird zum [!UICONTROL Fälligkeitsdatum] des Problems, mit dem es in [!DNL Jira] verknüpft ist.</p><p>Hinweis: Stellen Sie sicher, dass bei <strong> Problemen </strong>[!UICONTROL Due Date]&#x200B;[!DNL Jira] angezeigt wird, damit dieser Wert synchronisiert werden kann.</p></td>
         </tr>
        </tbody>
       </table>
