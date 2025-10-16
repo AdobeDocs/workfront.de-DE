@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Manuelles Zuweisen von Arbeit über den Workload Balancer
-
-{{preview-fast-release-general}}
 
 Mit dem Adobe Workfront Workload Balancer können Sie Benutzenden manuell Arbeitselemente zuweisen.
 
@@ -69,7 +67,7 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
    Sie können Benutzern mithilfe des Workload Balancer im Bereich Ressource, auf Projekt- oder auf Teamebene Arbeit zuweisen. Weitere Informationen dazu, wo sich der Workload-Balancer in Workfront befindet, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben, Probleme <span class="preview"> Rollenzuweisungen anzuzeigen</span>.
+1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben, Probleme oder Rollenzuweisungen anzuzeigen.
 
    Oder
 
@@ -77,9 +75,9 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
    >[!NOTE]
    >
-   ><span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung „Funktionszuweisungen anzeigen“ aktiviert ist. Weitere Informationen finden Sie unter [Anpassen der Ansicht](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigieren im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung Funktionszuweisungen anzeigen aktiviert ist. Weitere Informationen finden Sie unter [Anpassen der Ansicht](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigieren im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-menu.png) links neben einem Arbeitselementnamen <span class="preview">oder einer </span>) und klicken Sie dann auf **Zuweisen zu**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-menu.png) links neben einem Arbeitselementnamen oder einer Funktionszuweisung und klicken Sie dann auf **Zuweisen zu**.
 
    ![Diese zuweisen zu](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

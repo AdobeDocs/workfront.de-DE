@@ -7,7 +7,7 @@ description: Der Workload Balancer steht für mehrere Projekte im Bereich Ressou
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Suchen des Workload Balancer
-
-{{preview-fast-release-general}}
 
 Sie können den Workload Balancer verwenden, um Ressourcen für Arbeiten zu planen oder ihre Verfügbarkeit und aktuelle Zuweisungen zu überprüfen.
 
@@ -136,8 +134,6 @@ Die Seite Ihres Home-Teams wird angezeigt.
      >
      >Sie können alle Benutzer im System anstelle nur der im Projekt vorhandenen Benutzer (im Bereich Zugewiesene Arbeit ) anzeigen, indem Sie die Option Alle Benutzer anzeigen aktivieren. Weitere Informationen finden Sie unter [Navigieren im Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Zugriff auf den Workload Balancer für einen Benutzer
 
 Alle Benutzer haben Zugriff darauf, den Workload-Balancer in ihren eigenen Profilen anzuzeigen. Workload-Balancer-Daten für einen Benutzer sind schreibgeschützt. Auf Benutzerebene können Sie keine Arbeit zuweisen, die Zuweisung von Arbeit aufheben oder Zuordnungen anpassen.
@@ -155,8 +151,6 @@ Alle Anzeigeeinstellungen sind für den Workload-Balancer für einen Benutzer ve
    Der Workload-Balancer eines Benutzers zeigt standardmäßig die folgenden Informationen an:
 
    * **Zugewiesene Arbeit**: Die Aufgaben und Probleme, die dem jeweiligen Benutzer zugewiesen sind.
-
-</div>
 
 ## Hinzufügen des Workload-Balancer zum linken Bedienfeld als Dashboard
 

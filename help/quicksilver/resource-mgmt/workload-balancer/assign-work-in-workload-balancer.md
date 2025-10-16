@@ -6,7 +6,7 @@ description: Als Ressourcen-Manager können Sie den Adobe Workfront-Workload-Bal
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # Übersicht über die Zuweisung von Arbeit im Workload Balancer
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -76,7 +74,7 @@ Sie können Arbeit im Workload Balancer wie folgt zuweisen:
 
   Weitere Informationen finden Sie unter [Massenzuweisung von Arbeit mit dem Workload-Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Informationen zum Aufheben der Zuweisung von Arbeit finden [&#x200B; unter „Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Informationen zum Aufheben der Zuweisung von Arbeit finden [ unter „Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Arbeitsauftragsbereiche im Workload Balancer
 
@@ -124,7 +122,7 @@ In der folgenden Tabelle wird beschrieben, welche Elemente in den einzelnen Bere
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td> </td> 
    <td>✔</td> 
   </tr> 
@@ -146,7 +144,7 @@ In der folgenden Tabelle wird beschrieben, welche Elemente in den einzelnen Bere
  </tbody> 
 </table>
 
-&#42;Wenn ein Arbeitselement einem Benutzer und einer Funktion zugewiesen wird, wird es im Bereich Nicht zugewiesene Arbeit nur angezeigt, wenn die Funktion der Primäre Zugewiesene ist. <span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugewiesene Arbeit angezeigt, wenn die Einstellung **Funktionszuweisungen anzeigen** aktiviert ist.</span>
+&#42;Wenn ein Arbeitselement einem Benutzer und einer Funktion zugewiesen wird, wird es im Bereich Nicht zugewiesene Arbeit nur angezeigt, wenn die Funktion der Primäre Zugewiesene ist. Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung **Funktionszuweisungen anzeigen** aktiviert ist.
 
 &#42;&#42;Wenn ein Arbeitselement einem Benutzer und einer anderen Entität zugewiesen wird, wird es im Bereich Zugewiesene Arbeit nur angezeigt, wenn der Benutzer der Primäre Bearbeiter ist.
 

@@ -5,7 +5,7 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Erweiterte Listen verwenden
-
-{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -126,7 +124,7 @@ Einige erweiterte Listen ermöglichen es Ihnen, Spalten auszublenden und anzuzei
    >
    >Das Symbol neben einem Feldnamen zeigt den Feldtyp an, z. B. Text oder Datumsfeld.
 
-   <span class="preview">Ein Indikator wird auf der Schaltfläche **Spalten** angezeigt, wenn Spalten ausgeblendet sind. Der Indikator wird bei der Neuanordnung der Spalten nicht angezeigt.</span>
+   Ein Indikator wird auf der Schaltfläche **Spalten** angezeigt, wenn Spalten ausgeblendet sind. Der Indikator wird bei der Neuanordnung der Spalten nicht angezeigt.
 
    ![Indikator für ausgeblendete Spalten](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung als OR-Anweisung hinzuzufügen.
 1. Wenn der Filter angewendet wird, können Sie die Optionen **Filter** erneut öffnen, um die Filteroptionen zu ändern oder alle Filter zu löschen.
 
-   <span class="preview">Wenn ein Filter auf die Liste angewendet wird, wird auf der Schaltfläche **Filter** ein Indikator angezeigt.</span>
+   Wenn ein Filter auf die Liste angewendet wird **wird auf der** „Filter“ ein Indikator angezeigt.
 
    ![Angewendeter Filter-Indikator](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 
    ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">Wenn eine Gruppierung auf die Liste angewendet wird, wird auf der Schaltfläche **Gruppe** ein Indikator angezeigt.</span>
+   Auf der Schaltfläche **Gruppe** wird ein Indikator angezeigt, wenn eine Gruppierung auf die Liste angewendet wird.
 
    ![Gruppierung angewendet Indikator](assets/glist-grouping-applied-indicator.png)
 

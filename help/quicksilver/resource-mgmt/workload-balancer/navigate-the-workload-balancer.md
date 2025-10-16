@@ -6,16 +6,14 @@ description: Verwenden Sie den Workload Balancer, um die Verfügbarkeit Ihrer Re
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4334'
 ht-degree: 0%
 
 ---
 
 # Navigieren im Workload Balancer
-
-{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -23,7 +21,7 @@ Verwenden Sie den Workload Balancer in Adobe Workfront, um Benutzenden je nach V
 
 Der Workload Balancer ist in mehreren Bereichen von Adobe Workfront verfügbar. Die Navigation ist in allen Bereichen ähnlich.
 
-Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Zugriffsanforderungen
 
@@ -78,7 +76,7 @@ Beachten Sie beim Anzeigen des Workload Balancer Folgendes:
   >* Arbeitselemente, die einem Aufgabengebiet oder Team zugewiesen sind und die auch einem Benutzer zugewiesen sind, werden sowohl im Bereich Nicht zugewiesene Arbeit als auch unter dem Namen des zugewiesenen Benutzers im Bereich Zugewiesene Arbeit angezeigt.
   >* Arbeitselemente, die einem Benutzer und einem Aufgabengebiet zugewiesen sind, wobei das Aufgabengebiet als primärer Bearbeiter des Elements ausgewählt ist, werden im Bereich Nicht zugewiesene Arbeit angezeigt.
   >* Arbeitselemente, die mehr als einem Benutzer zugewiesen sind, werden unter allen Namen der zugewiesenen Benutzer im Bereich Zugewiesene Arbeit angezeigt.
-  >* <span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung „Funktionszuweisungen anzeigen“ aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel.</span>
+  >* Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung Funktionszuweisungen anzeigen aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel.
 
   Weitere Informationen finden Sie unter [Arbeitsauftragsbereiche im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) unter [Übersicht über die Zuweisung von Arbeit im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -105,9 +103,8 @@ Weitere Informationen zum Anzeigen von Informationen im Workload Balancer finden
 
 Informationen zum Verwalten von Ressourcen mit dem Workload Balancer finden Sie auch in den folgenden Artikeln:
 
-* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
-
+* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigieren im Workload Balancer für mehrere Projekte im Bereich Ressourcen
 
@@ -138,7 +135,7 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
 
         Informationen zur Verwendung von Filtern finden Sie unter [Filtern von Informationen im Workload-Balancer](../workload-balancer/filter-information-workload-balancer.md).
 
-      * <span class="preview">Funktionszuweisungen unter Arbeitselementen werden nur angezeigt, wenn Sie die Einstellung „Funktionszuweisungen anzeigen“ aktivieren. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel.</span>
+      * Funktionszuweisungen unter Arbeitselementen werden nur angezeigt, wenn Sie die Einstellung „Funktionszuweisungen anzeigen“ aktivieren. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel.
 
       * Projekte werden nur angezeigt, wenn Sie die Einstellung Nach Projekt gruppieren aktivieren. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel.
 
@@ -240,11 +237,7 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
 
    Das Bedienfeld Einstellungen wird auf der rechten Seite angezeigt.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Bedienfeld „Einstellungen für den Workload Balancer“](assets/workload-balancer-settings.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![Einstellungsbedienfeld](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Wählen Sie aus den unten aufgeführten Optionen aus, um die Informationen zu aktualisieren, die Sie im Workload Balancer anzeigen, und klicken Sie dann auf das **X** Symbol oben rechts im Feld „Einstellungen“, um ihn zu schließen.
 
@@ -265,7 +258,7 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
 
      Nach Abschluss einer Aufgabe oder eines Problems wird oben rechts ein grünes Häkchensymbol angezeigt. Dasselbe Symbol wird für ein Projekt angezeigt, wenn die Aufgaben oder Probleme für den ausgewählten Zeitrahmen des Projekts abgeschlossen sind.
    * **Verbleibende Zeit anzeigen**: Wenn diese Option aktiviert ist, zeigt Workfront die Differenz zwischen der täglichen Zeit, für die der Benutzer zur Arbeit verfügbar ist, basierend auf seinen Zeitplänen, und den Stunden an, für die er im Bereich Zugewiesene Arbeit für die Benutzer zugewiesen ist. Dies ist standardmäßig deaktiviert und die zugewiesene Zeit wird standardmäßig angezeigt.
-   * <span class="preview">**Funktionszuweisungen anzeigen**: Wenn diese Option aktiviert ist, werden Funktionszuweisungen im Bereich Nicht zugewiesene Arbeit unter den ihnen zugewiesenen Arbeitselementen angezeigt. Dies ist standardmäßig aktiviert.</span>
+   * **Funktionszuweisungen anzeigen**: Wenn diese Option aktiviert ist, werden Funktionszuweisungen im Bereich Nicht zugewiesene Arbeit unter den ihnen zugewiesenen Arbeitselementen angezeigt. Dies ist standardmäßig aktiviert.
 
    * Wählen Sie im **Farbschema auswählen** die Farbe aus, die Sie für das Projekt und die Vorgangsbalken benötigen.
 
@@ -316,7 +309,7 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
    ![Details der zugewiesenen Zeit](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Klicken Sie auf **Zuordnungssymbol ausblenden** ![Zuordnungssymbol anzeigen](assets/show-allocations-icon-small.png), um den Namen der Aufgaben und Probleme in den Balken der Arbeitselemente anzuzeigen.
-1. Klicken Sie auf das **Mehr Menü**-Symbol ![Mehr-Symbol](assets/more-icon.png) rechts neben dem Namen einer Aufgabe, eines Problems <span class="preview">oder einer </span>, und klicken Sie dann auf eine der folgenden Optionen.
+1. Klicken Sie auf das **Mehr Menü**-Symbol ![Mehr-Symbol](assets/more-icon.png) rechts neben dem Namen einer Aufgabe, eines Problems oder einer Rolle und klicken Sie dann auf eine der folgenden Optionen.
 
    ![Menü „Mehr“](assets/more-menu-right-of-task-350x104.png)
 
@@ -333,7 +326,7 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
 
      >[!NOTE]
      >
-     ><span class="preview">Funktionszuweisungen werden nur unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung Funktionszuweisungen anzeigen aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel. Funktionszuweisungen verfügen nur über die Option **Diesen zuweisen** im Menü **Mehr**.</span>
+     >Funktionszuweisungen werden nur dann unter Arbeitselementen im Bereich Nicht zugewiesene Arbeit angezeigt, wenn die Einstellung Funktionszuweisungen anzeigen aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Anpassen der Ansicht](#customize-the-view) in diesem Artikel. Funktionszuweisungen haben nur die Option **Diesen zuweisen** im Menü **Mehr**.
 
      >[!TIP]
      >
@@ -423,7 +416,7 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
    Der Workload Balancer eines Teams zeigt standardmäßig die folgenden Informationen an:
 
-   * Im Bereich **Nicht zugewiesene Arbeit**: Arbeitselemente, die dem Team oder dem Team und den Aufgabengebieten zugewiesen sind und die Benutzern nicht zugewiesen sind. <span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung „Funktionszuweisungen anzeigen“ aktiviert ist.</span>
+   * Im Bereich **Nicht zugewiesene Arbeit**: Arbeitselemente, die dem Team oder dem Team und den Aufgabengebieten zugewiesen sind und die Benutzern nicht zugewiesen sind. Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung Funktionszuweisungen anzeigen aktiviert ist.
    * Im Bereich **Zugewiesene Arbeit** werden Arbeitselemente, die Benutzern zugewiesen sind, unter den Namen der Benutzer angezeigt.
 
 1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Teams fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte im Bereich Ressourcen](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
@@ -439,7 +432,7 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
    Der Workload Balancer für das Projekt zeigt standardmäßig die folgenden Informationen an:
 
-   * Im Bereich **Nicht zugewiesene Arbeit**: Arbeitselemente im Projekt, die Rollen oder Teams zugewiesen sind und nicht Benutzern zugewiesen sind. <span class="preview">Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung „Funktionszuweisungen anzeigen“ aktiviert ist.</span>
+   * Im Bereich **Nicht zugewiesene Arbeit**: Arbeitselemente im Projekt, die Rollen oder Teams zugewiesen sind und nicht Benutzern zugewiesen sind. Funktionszuweisungen werden unter Arbeitselementen im Bereich Nicht zugeordnete Arbeit angezeigt, wenn die Einstellung Funktionszuweisungen anzeigen aktiviert ist.
    * Im Bereich **Zugewiesene Arbeit**: Arbeitselemente im Projekt, die mindestens einem Benutzer zugewiesen sind.
 
    Es wird empfohlen, Filter zu verwenden, um nur Benutzer anzuzeigen, die für Sie wichtig sind.
@@ -480,8 +473,6 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
 1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Projekts fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
 
-<div class="preview">
-
 ### Navigieren im Workload Balancer eines Benutzers
 
 Sie können über Ihr eigenes Benutzerprofil auf den Workload-Balancer zugreifen.
@@ -504,7 +495,6 @@ Sie können über Ihr eigenes Benutzerprofil auf den Workload-Balancer zugreifen
 
 1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Benutzers fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
 
-</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
