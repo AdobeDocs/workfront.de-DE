@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # Datensatzansichten löschen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ Die Ansicht wird für alle Benutzer gelöscht, die über die Berechtigung zum Zu
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+   <p>Beliebiges Workfront und beliebiges Planungspaket</p>
+
+<p>Beliebiger Workflow und beliebiges Planungspaket</p>
+   <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
@@ -139,20 +138,10 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
 
-1. Führen Sie auf der Registerkarte der Ansicht eine der folgenden Aktionen aus:
+1. Klicken Sie auf der Registerkarte der Ansicht auf die Registerkarte der Ansicht, bewegen Sie den Mauszeiger über die Ansicht im Dropdown-Menü, klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-menu.png) und klicken Sie dann auf **Löschen**.</span>
 
-   * Führen Sie je nach Umgebung, von der aus Sie auf die Ansicht zugreifen, die folgenden Schritte aus:
+   ![Menü Mehr mit Optionen](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * Bewegen Sie in der Produktionsumgebung den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Löschen**.
-
-     >[!TIP]
-     >
-     >Möglicherweise müssen Sie auf **Mehr** rechts neben der letzten Registerkarte klicken, um die Ansicht zu finden, die Sie löschen möchten.
-
-      * <span class="preview"> Klicken Sie in der Vorschau-Umgebung auf die Registerkarte der Ansicht, bewegen Sie den Mauszeiger über die Ansicht im Dropdown-Menü, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie dann auf **Löschen**.</span>
-
-     ![Menü Mehr mit Optionen](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Klicken Sie **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
+1. Klicken Sie **Löschen** zur Bestätigung.
 
    Die Ansicht wird für alle Benutzenden gelöscht, die auf den Datensatzbereich zugreifen können.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Verwalten von Datensatzverbindungen aus Workfront-Objekten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -45,10 +45,8 @@ Sie können Workfront-Planungsdatensätze in Workfront in den folgenden Bereiche
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Beliebiges Workfront und beliebiges Planungspaket</p>
+<p>Beliebiger Workflow und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -172,7 +170,7 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze im Planungsabschn
    * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 * Sie können den Planungsabschnitt über ein Workfront-Objekt anzeigen, selbst wenn keine Datensätze mit dem Workfront-Objekt verknüpft sind.
-* <span class="preview">Ein Datensatztyp wird nur dann im Bereich Planung eines Workfront-Objekts angezeigt, wenn Sie beim Erstellen der Verbindung zwischen zwei Datensatztypen das entsprechende Feld in der Einstellung Verknüpfter Datensatztyp erstellen aktivieren.</span>
+* Ein Datensatztyp wird nur dann im Bereich Planung eines Workfront-Objekts angezeigt, wenn Sie bei der Erstellung der Verbindung zwischen zwei Datensatztypen das entsprechende Feld in der Einstellung Verknüpfter Datensatztyp erstellen aktivieren.
 
   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -262,7 +260,7 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
 
   Beispielsweise können Sie möglicherweise ein benutzerdefiniertes Formular mit einem Feld für eine Planning-Verbindung an Aufgaben anhängen, Sie können jedoch keine Workfront Planning-Objekte mit Aufgaben verbinden.
 * Ein Planning-Verbindungsfeld kann nicht bearbeitet werden, wenn Workfront-Objekte stapelweise bearbeitet werden.
-* <span class="preview">Ein Datensatztyp wird in einem benutzerdefinierten Feld von Planning-Verbindung eines Workfront-Objekts nur angezeigt, wenn Sie beim Erstellen der Verbindung zwischen zwei Datensatztypen die Einstellung Entsprechendes Feld erstellen in der Einstellung Verknüpfter Datensatztyp aktivieren.</span>
+* Ein Datensatztyp wird in einem benutzerdefinierten Feld von Planning-Verbindung eines Workfront-Objekts nur angezeigt, wenn Sie beim Erstellen der Verbindung zwischen zwei Datensatztypen die Einstellung Zugehöriges Feld erstellen in der Einstellung Verknüpfter Datensatztyp aktivieren.
 
   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 

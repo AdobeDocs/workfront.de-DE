@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 1%
@@ -82,8 +82,8 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
 
-      * Erstellt von, Zuletzt geändert von, <span class="preview">Genehmigt von</span>
-      * Erstellungsdatum, Datum der letzten Änderung, <span class="preview">Genehmigungsdatum</span>
+      * Erstellt von, Zuletzt geändert von, Genehmigt von
+      * Erstellungsdatum, Datum der letzten Änderung, Genehmigungsdatum
       * Suchfelder der Workfront-Objekte
       * Suchfelder für verknüpfte Datensätze in Workfront
 
@@ -169,7 +169,7 @@ Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatzt
 Formulardetails sind in Registerkarten unterteilt.
 
 * Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
-* Auf **Registerkarte**&#x200B;Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
+* Auf **Registerkarte**Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Einrichten von Formulardetails
@@ -303,7 +303,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.

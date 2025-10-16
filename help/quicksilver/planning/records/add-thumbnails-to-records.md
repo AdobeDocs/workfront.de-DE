@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/pl
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -225,7 +222,7 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
    Klicken Sie **Bilder durchsuchen** und suchen Sie dann nach einer Bilddatei, die Sie hinzufügen möchten. Die Datei muss auf Ihrem Computer gespeichert werden.
 
 1. (Optional) Verwenden Sie nach dem Hochladen des Bildes im Feld **Miniaturansicht aufzeichnen** das Größenänderungswerkzeug, um das Bild zuzuschneiden und seine Größe zu ändern.
-1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen** (![&#x200B; Symbol Neues Bild hochladen](assets/upload-new-image-icon.png), um ein anderes Bild hochzuladen.
+1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen** (![ Symbol Neues Bild hochladen](assets/upload-new-image-icon.png), um ein anderes Bild hochzuladen.
 1. (Optional) Klicken Sie auf die **Galerie** und dann auf ein Bild. Die Bildergalerie kann nicht geändert werden.
 
    ![Aufzeichnen des Miniaturfelds für die Galerie](assets/record-thumbnail-box-for-gallery.png)

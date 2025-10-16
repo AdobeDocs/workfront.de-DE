@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,7 @@ In Workfront Planning können Sie folgende Elemente mithilfe von Automatisierung
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -160,7 +157,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
   `[ Name of the record ] Name of the field choice`
 
-  Weitere Informationen finden Sie [&#x200B; Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
 
 * Neue Objekte oder Datensätze überschreiben nicht vorhandene im selben Feld. Durch das mehrfache Auslösen derselben Automatisierung für denselben Datensatz werden die neuen Objekte oder Datensätze im selben verbundenen Feld des ursprünglichen Datensatzes zusätzlich zu den zuvor erstellten hinzugefügt.
 

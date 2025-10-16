@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -41,10 +41,7 @@ Sie können einen vorhandenen Datensatz in der Tabellenansicht duplizieren. Der 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -147,7 +144,7 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
      ![Menü Mehr aus Datensatz in der Tabellenansicht](assets/more-menu-from-record-in-table-view.png)
 
-   * Wählen Sie einen Datensatz aus und klicken Sie dann auf **Symbol &quot;** Duplizieren![&#x200B; Symbol „Duplizieren](assets/duplicate-icon-white-and-blue.png) in der Symbolleiste am unteren Seitenrand.
+   * Wählen Sie einen Datensatz aus und klicken Sie dann auf **Symbol &quot;** Duplizieren![ Symbol „Duplizieren](assets/duplicate-icon-white-and-blue.png) in der Symbolleiste am unteren Seitenrand.
 
      ![Symbol „Duplizieren“ in der Symbolleiste in der Tabellenansicht](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
