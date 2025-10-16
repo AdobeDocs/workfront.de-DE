@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, d. h. diese Ereig
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Planer oder höher mit administrativem Zugriff auf Erinnerungsnachrichten</p> <p>Informationen dazu, wie Sie einem Planbenutzer administrativen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Planer oder höher mit administrativem Zugriff auf Erinnerungsnachrichten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,11 +85,11 @@ Beispiel: „Jemand nimmt mich in eine direkte Aktualisierung auf“ hat zwei ve
 
 ![Ereignis hat nicht mehrere Betreffzeilen](assets/ev-multiple-subject.png)
 
-Wenn ein(e) Benutzende(r) in eine Konversation über die Aufgabe, das Problem, die Vorlagenaufgabe oder das Dokument einbezogen wird, wird eine E-Mail mit der ersten Betreffzeile generiert. Die Betreffzeile enthält „referenceObject:name“, und das System definiert das Objekt und zeigt den entsprechenden Namen im Feld Betreff an. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Aufgabe 123 im Projekt-ABC“.
+Wenn ein(e) Benutzende(r) in eine Konversation über die Aufgabe, das Problem, die Vorlagenaufgabe oder das Dokument einbezogen wird, wird eine E-Mail mit der ersten Betreffzeile generiert. Die Betreffzeile enthält „referenceObject:name&quot;, das System definiert das Objekt und zeigt den entsprechenden Namen im Feld „Betreff“ an. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Aufgabe 123 im Projekt-ABC“.
 
-Wird eine Konversation zu einem Projekt hinzugefügt, wird eine E-Mail mit dem zweiten Betreff generiert. Hier enthält die Betreffzeile „topReferenceObject:name“, und Workfront identifiziert erneut, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von „topReferenceObject:name“ im Betreff zurück. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Projekt-ABC“.
+Wird eine Konversation zu einem Projekt hinzugefügt, wird eine E-Mail mit dem zweiten Betreff generiert. Hier enthält die Betreffzeile „topReferenceObject:name&quot; und Workfront identifiziert erneut, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von „topReferenceObject:name&quot; im Betreff zurück. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Projekt-ABC“.
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für &#x200B;](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
 
 ## E-Mail-Betreffzeilen für E-Mails mit mehreren Aktionen anpassen
 
@@ -100,4 +101,4 @@ Die Anforderung, ein Dokument zu einem Problem hinzuzufügen, ist beispielsweise
 
 ![Ereignis hat nicht mehrere Betreffzeilen](assets/Ev-not-mult-subj-lines.png)
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für &#x200B;](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.

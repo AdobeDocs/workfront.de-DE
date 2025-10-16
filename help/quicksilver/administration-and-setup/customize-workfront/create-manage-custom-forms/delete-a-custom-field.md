@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,27 @@ Um die Systemleistung zu verbessern und die Verwendung von Formularen für Benut
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
-   <td>Beliebig</td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+  <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +80,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    1. Speichern Sie das neue benutzerdefinierte Formular.
 
 1. Beschränken Sie den Zugriff auf das benutzerdefinierte Formular auf Benutzer mit Administratorzugriff, wie unter [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) beschrieben.
-1. Wenden Sie das neue benutzerdefinierte Formular auf die Objekte an, auf die das ursprüngliche benutzerdefinierte Formular bereits angewendet wurde, wie in [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt“ &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Wenden Sie das neue benutzerdefinierte Formular auf die Objekte an, auf die das ursprüngliche benutzerdefinierte Formular bereits angewendet wurde, wie in [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt“ ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Wenn Sie das neue benutzerdefinierte Formular auf diese Objekte anwenden, wird sichergestellt, dass historische Berichtsdaten nicht betroffen sind.
 

@@ -6,9 +6,9 @@ description: Sie können die Workfront-Erweiterung verwenden, um digitale Inhalt
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Wir ersetzen die Workfront-Erweiterung für Illustrator und InDesign durch &quot;[&#x200B; Creative Cloud-Plug-ins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Ab Ende 2022 wird diese Erweiterung nicht mehr unterstützt und ist unverändert verfügbar.
+>Wir ersetzen die Workfront-Erweiterung für Illustrator und InDesign durch &quot;[ Creative Cloud-Plug-ins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Ab Ende 2022 wird diese Erweiterung nicht mehr unterstützt und ist unverändert verfügbar.
 
 Sie können die Workfront-Erweiterung verwenden, um digitale Inhalte, die Sie in Adobe Illustrator Adobe InDesign speichern und erstellen, nach Workfront zu exportieren. Dadurch wird der Prozess der Dokumentüberprüfung und -validierung beschleunigt.
 
@@ -37,26 +37,24 @@ Die Workfront-Erweiterung wird für Adobe Creative Cloud 2017 und höher in den 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktuell: Pro oder höher</p>
-   Oder
-   <p>Neu: Beliebiger Plan</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktuell: Arbeit oder höher</p>
-   Oder
-   <p>Neu: Standard</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Standard</p> 
+   <p>Arbeit oder höher</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
+   <td role="rowheader">Zusätzliche Produkte</td> 
    <td>Sie müssen zusätzlich zu einer Workfront-Lizenz über eine Adobe Creative Cloud-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +99,7 @@ Beachten Sie beim Hochladen oder Exportieren einer Datei aus Adobe Creative Clou
 * Ihre Zugriffsebene muss das Hochladen von Dokumenten auf Workfront zulassen. Weitere Informationen finden Sie unter [Zugriff auf Dokumente gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * Sie müssen über die Berechtigung zum Hochladen von Dokumenten in das Element verfügen, in dem Sie es haben möchten. Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * Die Datei wird für das ausgewählte Workfront-Objekt in den Bereich Dokumente hochgeladen.
-* Sie können ein Dokument nicht in den Bereich Dokumente im Hauptmenü (![) &#x200B;](assets/main-menu-icon.png) einer Adobe Creative Cloud-Anwendung exportieren.
+* Sie können ein Dokument nicht in den Bereich Dokumente im Hauptmenü (![) ](assets/main-menu-icon.png) einer Adobe Creative Cloud-Anwendung exportieren.
 
 In den folgenden Abschnitten werden die folgenden Punkte erläutert:
 
@@ -135,7 +133,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 
 1. (Optional) Geben Sie einen neuen Namen für die Datei ein.
 
-   ![Datei &#x200B;](assets/rename-file-uploading.png)
+   ![Datei ](assets/rename-file-uploading.png)
 
 1. Klicken Sie **Hochladen**.
 
@@ -148,7 +146,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 ### Exportieren einer aktuell in Illustrator oder InDesign geöffneten Datei {#export-a-file-currently-open-in-illustrator-or-indesign}
 
 1. Öffnen Sie in einer unterstützten Adobe Creative Cloud-Anwendung eine Datei, die Sie nach Workfront exportieren möchten.
-1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **&#x200B;**&#x200B;> **Erweiterungen** > **Workfront**.
+1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
 
    Eine Liste der Ihnen zugewiesenen Arbeitselemente wird angezeigt, wenn sich das Projekt in einem aktuellen Status befindet. Wenn keine Liste angezeigt wird, melden Sie sich bei Workfront an.
 
@@ -182,7 +180,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 ### Hochladen einer neuen Dateiversion von Illustrator oder InDesign {#upload-a-new-version-of-a-file-from-illustrator-or-indesign}
 
 1. Wenn Sie eine Datei, an der Sie in einem unterstützten Adobe-Programm arbeiten, als neue Version einer Datei in Workfront exportieren möchten, öffnen Sie die Datei im Adobe-Programm.
-1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **&#x200B;**&#x200B;> **Erweiterungen** > **Workfront**.
+1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
 
    Eine Liste der Ihnen zugewiesenen Arbeitselemente wird angezeigt, wenn das Projekt einen aktuellen Status aufweist. Wenn keine Liste angezeigt wird, melden Sie sich bei Workfront an.
 
@@ -218,7 +216,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 Sie können Kommentare direkt zu einem Workfront-Dokument in einer Adobe-Anwendung hinzufügen. In Workfront werden Ihre Kommentare im Bereich Dokumentaktualisierungen und im Bereich Aktualisierungen für das Workfront-Element angezeigt, in dem das Dokument gespeichert ist.
 
 1. Öffnen Sie eine der unterstützten Adobe-Anwendungen.
-1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **&#x200B;**&#x200B;> **Erweiterungen** > **Workfront**.
+1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
 
    Eine Liste der Ihnen zugewiesenen Arbeitselemente wird angezeigt, wenn das Projekt einen aktuellen Status aufweist. Wenn keine Liste angezeigt wird, melden Sie sich bei Workfront an.
 
@@ -260,7 +258,7 @@ Sie können wie folgt eine Genehmigung für ein Dokument von einem Adobe-Program
 So fordern Sie eine Genehmigung für ein Dokument von einem Adobe-Programm an:
 
 1. Öffnen Sie eine der unterstützten Adobe-Anwendungen.
-1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **&#x200B;**&#x200B;> **Erweiterungen** > **Workfront**.
+1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
 
    Eine Liste der Ihnen zugewiesenen Arbeitselemente wird angezeigt, wenn das Projekt einen aktuellen Status aufweist. Wenn keine Liste angezeigt wird, melden Sie sich bei Workfront an.
 
@@ -292,7 +290,7 @@ So fordern Sie eine Genehmigung für ein Dokument von einem Adobe-Programm an:
 Wenn Ihr Unternehmen automatisierte Workflow-Vorlagen verwendet, können Sie einen Korrekturabzug für ein Dokument erstellen, das Sie in einer Adobe-Anwendung erstellen, ohne die Anwendung verlassen zu müssen. Informationen zum Erstellen von Testsendungen finden Sie unter [Erstellen von Testsendungen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Informationen zu automatisierten Workflow-Vorlagen finden Sie unter [Automatisierte Workflow-Vorlagen](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Automatisierter Workflow - Übersicht](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Öffnen Sie eine der unterstützten Adobe-Anwendungen.
-1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **&#x200B;**&#x200B;> **Erweiterungen** > Workfront.
+1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > Workfront.
 
    Eine Liste der Ihnen zugewiesenen Arbeitselemente wird angezeigt, wenn das Projekt einen aktuellen Status aufweist. Wenn keine Liste angezeigt wird, melden Sie sich bei Workfront an.
 

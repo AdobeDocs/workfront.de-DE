@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 1%
+source-wordcount: '690'
+ht-degree: 0%
 
 ---
 
@@ -35,74 +35,41 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produkte</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront-Planung<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td> 
+<ul><li><p>Beliebiges Workfront-Paket</p></li>
+Und
+<li><p>Beliebiges Planungspaket</p></li></ul>
+Oder
+<ul><li><p>Beliebiges Workflow-Paket</p></li>
+Und
+<li><p>Beliebiges Planungspaket</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich und Datensatztyp</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td>
-   <td>
-<p>Einer der folgenden Workfront-Pläne:</p>
-<ul><li>Auswählen</li>
-<li>Erstklassig</li>
-<li>Ultimativ</li></ul>
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td>
-   <td>
-<p>Beliebig </p>  
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
-   <td>
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Objektberechtigungen</p></td>
-   <td>
-   <ul>
-   <li><p>Verwalten der Berechtigungen für einen Arbeitsbereich und Datensatztyp</p></li>
-    <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>
-    </ul>
-   <p>Informationen zu Freigabeberechtigungen für Workfront Planning-Objekte finden Sie unter  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Übersicht über Freigabeberechtigungen in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-
-</tbody>
+</tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: Wenn Sie ein Projekt über Workfront Fusion erstellen und Adobe Exp
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -26,16 +26,14 @@ Wenn Sie ein Projekt über Workfront Fusion erstellen und Adobe Experience Manag
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
 <table>
   <tr>
-    <td><strong>Adobe Workfront-Plan*</strong></td>
-    <td>Beliebig</td>
+    <td><strong>Adobe Workfront-Paket</strong></td>
+   <td> <p>Jedes Adobe Workfront-Workflow-Paket und jedes Adobe Workfront-Automatisierungs- und Integrationspaket</p><p>Workfront Ultimate</p><p>Workfront Prime und Select-Pakete, mit einem zusätzlichen Kauf von Workfront Fusion.</p> </td> 
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-Lizenzen*</strong></td>
-   <td>Anfrage oder höher</td>
+   <td><strong>Adobe Workfront-Lizenzen</strong></td>
+   <td><p>Mitwirkender oder höher</p><p>Anfrage oder höher</p></td>
   </tr>
   <tr>
    <td><strong>Produkt</strong></td>
@@ -50,26 +48,17 @@ Sie müssen über Folgendes verfügen:
        </li>
      </ul>
      <p><b>Workfront Fusion:</b></p>
-     <p>Neu:</p>
      <ul>
        <li>
-         <p>Prime oder Workfront-Plan auswählen: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
-       </li>
-       <li> 
-         <p>Ultimate Workfront Plan: Workfront Fusion ist enthalten.</p>
+        <p>Wenn Ihr Unternehmen über ein Select- oder Prime Workfront-Paket verfügt, das keine Workfront-Automatisierung und -Integration enthält, muss Ihr Unternehmen Adobe Workfront Fusion erwerben.</li></ul>
        </li>
      </ul>
-     <p>Oder</p>
-     <p>Aktuell: Ihr Unternehmen muss Adobe Workfront Fusion erwerben.</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Konfigurationen der Zugriffsebene*</strong>
+   <td><strong>Konfigurationen der Zugriffsebene</strong>
    </td>
-   <td>Zugriff auf Dokumente bearbeiten
-     <p>
-       <strong>Hinweis: </strong>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <strong>Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</strong>.
-     </p>
+   <td><p>Zugriff auf Dokumente bearbeiten</p>
    </td>
   </tr>
 </table>
@@ -90,12 +79,12 @@ Bevor Sie beginnen,
 
 Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experience Manager-Workflows enthält, müssen Sie das Aktionsmodul Workfront > Sonstige verwenden.
 
-1. Workfront Fügen Sie das Modul **&#x200B;**&#x200B;> **Misc Action** zu Ihrem Szenario hinzu.
+1. Workfront Fügen Sie das Modul **** > **Misc Action** zu Ihrem Szenario hinzu.
 1. Wählen Sie im **Verbindung** die Workfront-Verbindung aus, die eine Verbindung zu dem Konto herstellt, das dieses Modul verwenden wird.
 
-   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
 
-   Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses, das Sie benötigen, um eine Verbindung zu erstellen, finden [&#x200B; unter „Erstellen einer OAuth](#create-an-oauth-application)Anwendung“ in diesem Artikel.
+   Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses, das Sie benötigen, um eine Verbindung zu erstellen, finden [ unter „Erstellen einer OAuth](#create-an-oauth-application)Anwendung“ in diesem Artikel.
 
 1. Wählen Sie **Feld** Datensatztyp“ `Issue` aus.
 1. Wählen Sie im **Aktion** die Option `convertToProject` aus.
@@ -115,7 +104,7 @@ Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experienc
 
 1. Ersetzen Sie `Folder tree ID here` durch die Ordner-IDs.
 
-   Informationen zum Auffinden von Ordnerbaum-IDs finden Sie unter [Suchen von &#x200B;](#locate-folder-tree-ids)-IDs“ in diesem Artikel.
+   Informationen zum Auffinden von Ordnerbaum-IDs finden Sie unter [Suchen von ](#locate-folder-tree-ids)-IDs“ in diesem Artikel.
 
    Um mehr als eine Ordnerstruktur zu verwenden, trennen Sie IDs durch ein Komma:
 
@@ -175,4 +164,4 @@ Für die Verbindung dieses Moduls müssen Sie in Workfront eine OAuth-Anwendung 
 
 Diese Client-ID und dieses Client-Geheimnis werden beim Konfigurieren der Verbindung des Moduls in Fusion verwendet.
 
-Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.

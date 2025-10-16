@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Probleme erstellen
+title: Anfragen erstellen
 description: Bei der Arbeit an einem Projekt kann es vorkommen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine Aufgabe protokollieren. Benutzende mit entsprechender Zugriffsberechtigung können den Status von Problemen während des Projekts oder der Aufgabe anzeigen und überwachen und sich den Fortschritt ansehen. Dadurch entfallen lange E-Mail-Ketten oder Statusbesprechungen. Im Gegensatz zu Aufgaben, bei denen es sich um geplante Ereignisse handelt, stellen Probleme ungeplante Arbeitselemente in Adobe Workfront dar.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
 
 # Probleme erstellen
 
-<!--Audited: 03/2025-->
+<!--Audited: 08/2025-->
 
 <!--
 
@@ -41,23 +41,21 @@ Sie können auch Probleme zu Projekten als Anfragen hinzufügen. Weitere Informa
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neue Lizenz:</p>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
    <ul><li>Mitwirkender oder höher</li>
    <li>Leicht oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul>
-   <p>Aktuelle Lizenz:</p>
-  <ul><li>Anfrage oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
+   Oder
+   <ul><li>Anfrage oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -73,6 +71,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions with ability to Add Issues to the task or project where you create the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -106,7 +135,7 @@ Die Felder für neue Anfragen oder Anfragen werden im Abschnitt „Warteschlange
 
 Informationen zum Konfigurieren des Abschnitts „Warteschlangendetails“ des Projekts finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [&#x200B; Abschnitt „Erstellen von Problemen durch Eingabe einer &#x200B;](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
+Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [ Abschnitt „Erstellen von Problemen durch Eingabe einer ](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
 
 ## Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche „Neues Problem“
 
@@ -160,7 +189,7 @@ Das Feld „Neues Problem“ wird angezeigt.
 
    Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicken Sie **Senden**.
+1. Klicken Sie auf **Senden**.
 
    Probleme können mehreren Benutzern, Aufgabengebieten oder einem Team zugewiesen werden. Weitere Informationen zum Zuweisen und Verwalten von Anfragen finden Sie unter [Arbeiten und Teamanfragen verwalten](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 

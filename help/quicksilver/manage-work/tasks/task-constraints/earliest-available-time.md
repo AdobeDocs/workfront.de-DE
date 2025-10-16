@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Übersicht über die Aufgabenbeschränkung: Früheste verfügbare Zeit'
+title: 'Übersicht über die Aufgabenbeschränkung: früheste verfügbare Zeit'
 description: Die früheste verfügbare Zeit ist eine Aufgabenbeschränkung, die eine Aufgabe so plant, dass sie zum frühestmöglichen verfügbaren Zeitpunkt beginnt, nachdem alle Vorgängerbeziehungen berücksichtigt wurden.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

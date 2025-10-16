@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -47,26 +47,21 @@ Sie können eine Scorecard wie folgt erstellen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Neu: Ultimate</p>
-   <p>Aktuell: [!UICONTROL Business] oder höher</p> 
-   </td> 
+   <td role="rowheader">Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td><p>Neu: [!UICONTROL Standard]</p>
-   <p>Aktuell: [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>Zugriffsebene</p></td> 
-   <td><p>Systemadministrator</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Sie müssen ein Workfront-Administrator sein. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +86,7 @@ Sie können eine Scorecard wie folgt erstellen:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Frage]</td> 
+      <td role="rowheader">[!UICONTROL-Frage]</td> 
       <td>Geben Sie die Frage ein, die Sie in die Scorecard aufnehmen möchten.</td> 
      </tr> 
      <tr> 
@@ -127,7 +122,7 @@ Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Score
 {{step-1-to-setup}}
 
 1. Klicken Sie **[!UICONTROL linken]** auf „Scorecards“.
-1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard &#x200B;](assets/copy-scorecard-icon.png) kopieren“.
+1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard ](assets/copy-scorecard-icon.png) kopieren“.
 
    Das Feld **Scorecard kopieren** wird geöffnet.
 

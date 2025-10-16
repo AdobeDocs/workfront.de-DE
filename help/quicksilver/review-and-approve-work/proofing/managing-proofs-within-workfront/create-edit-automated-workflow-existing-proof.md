@@ -6,9 +6,9 @@ description: Automatisierte Workflows erleichtern die Verwaltung des Überprüfu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1142'
 ht-degree: 1%
 
 ---
@@ -23,32 +23,33 @@ Informationen zum Erstellen eines automatisierten Workflows für einen neuen Kor
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Arbeit oder Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ![&#128279;](assets/workflow-icon-proofing-viewer.png) auf **Workflow** Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
+   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken **auf** Workflow![ ](assets/workflow-icon-proofing-viewer.png)Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
 
 1. (Bedingt) Wenn für den Korrekturabzug derzeit ein einfacher Workflow (ohne Phasen) verwendet wird, klicken Sie im angezeigten **auf In automatisierten Workflow**.
 
@@ -110,7 +111,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    1. Geben Sie einen Kontaktnamen oder eine E-Mail-Adresse ein und konfigurieren Sie die Einstellungen für Validierungsverantwortliche für das Stadium.
 
-      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu &#x200B;](#about-adding-reviewers-to-a-stage) in diesem Artikel.
+      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu ](#about-adding-reviewers-to-a-stage) in diesem Artikel.
 
    1. Verwenden Sie eine der folgenden Optionen, um das Stadium weiter zu konfigurieren:
 
@@ -135,7 +136,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
          <td><p>Wählen Sie den Primären Entscheidungsträger auf der Bühne aus (nur verfügbar, nachdem Sie mindestens eine Person zur Bühne hinzugefügt haben, die die Rolle einer genehmigenden Person oder höher für Korrekturabzüge hat). Wenn Sie einen Primären Entscheidungsträger auswählen, ist die Option <strong>Nur eine Entscheidung erforderlich</strong> in diesem Schritt deaktiviert.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">Nur eine Entscheidung erforderlich</td>
+         <td role="rowheader">Nur 1 Entscheidung erforderlich</td>
          <td>Beendet den gesamten Überprüfungsprozess, wenn einer der Entscheidungsträger eine Entscheidung trifft.<p>Diese Option ist nicht verfügbar, wenn Sie im Dropdown-Menü <strong>Primärer Entscheidungsträger</strong> einen Benutzer angegeben haben.</p></td>
         </tr>
         <tr>

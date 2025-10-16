@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -26,26 +26,23 @@ Sie können eine Blueprint in Ihrer Produktionsumgebung oder einer Sandbox-Umgeb
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>Sie müssen [!DNL Workfront] sein. </td> 
+   <td>Workfront-Administrator</td> 
   </tr> 
  </tbody> 
 </table>

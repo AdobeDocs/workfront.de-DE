@@ -6,10 +6,10 @@ description: Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressou
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 8%
+source-wordcount: '546'
+ht-degree: 9%
 
 ---
 
@@ -26,36 +26,31 @@ Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Bearbeiten des Zugriffs auf das Ressourcen-Management, der den Zugriff auf die Verwaltung von Ressourcenpools umfasst</p> <p>Zugriff auf Projekte, Vorlagen und Benutzer bearbeiten</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objektberechtigungen</td> 
+  <tr> 
+   <td>Objektberechtigungen</td> 
    <td>Verwalten Sie Berechtigungen für die Projekte, Vorlagen und Benutzer, mit denen Sie die Ressourcenpools verknüpfen möchten</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

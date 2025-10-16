@@ -7,7 +7,7 @@ description: Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Proje
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%
@@ -67,7 +67,7 @@ In der folgenden Tabelle werden jede Einschränkung und ihre Abkürzungen angeze
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit</a> </p> </td> 
-   <td scope="col"> <p>SMZ</p> </td> 
+   <td scope="col"> <p>BREITENGRAD</p> </td> 
    <td scope="col"> <p>Legt fest, dass eine Aufgabe zum spätestens verfügbaren Zeitpunkt beginnt, nachdem Vorgänger-Nachfolger-Beziehungen im Projekt berücksichtigt wurden.</p> </td>
   </tr> 
   <tr> 
@@ -131,5 +131,5 @@ Die folgende Tabelle zeigt die standardmäßige Aufgabenbeschränkung bei der Au
 |---|---|---|
 | Startdatum | Auf Basis des geplanten Projektdatums | So bald wie möglich (SBWM) |
 | Startdatum | Heute | Nicht früher anfangen als |
-| Abschlussdatum | Auf Basis des geplanten Projektdatums | So spät wie möglich |
-| Abschlussdatum | Heute | Nicht später anfangen als |
+| Fertigstellungsdatum | Auf Basis des geplanten Projektdatums | So spät wie möglich |
+| Fertigstellungsdatum | Heute | Nicht später anfangen als |

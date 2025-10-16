@@ -7,10 +7,10 @@ description: Standardmäßig werden in der Liste der in der  [!DNL Adobe Workfro
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Standardmäßig werden in der Liste der in [!DNL Adobe Workfront View] angezeigt
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,17 +29,21 @@ Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schrit
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Paket</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+   <td> 
+   <p>Mitwirkender oder höher</p>
+   <p>Überprüfen oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ändern der Gruppierung in der Projektliste
 
@@ -66,13 +70,13 @@ So zeigen Sie Details zu einem Projekt in [!DNL Workfront View] an:
 1. Tippen Sie auf der Startseite [!DNL Workfront] Ansicht auf ein beliebiges Projekt in der Liste, um die Projektdetails anzuzeigen.\
    Die Projektinformationen werden in den Widgets angezeigt, die auf dem Bildschirm verfügbar sind.\
    Sie können bis zu vier Widgets gleichzeitig anzeigen und Sie können entfernen und zu jedem Projekt Widgets hinzufügen, um verschiedene Informationen über das Projekt anzuzeigen.\
-   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] &#x200B;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] ](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
 ## Navigieren durch Projekte in [!DNL Workfront View]
 
 1. Tippen Sie in der Liste der Projekte in der [!DNL Workfront View]-App auf den Namen eines Projekts.\
    Informationen über das Projekt werden in den Widgets angezeigt, die auf den Bildschirm hochgeladen wurden.\
-   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] &#x200B;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+   Weitere Informationen zum Hinzufügen von Widgets zur Ansicht [!UICONTROL Projektdetails] finden Sie unter [Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails] ](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
 1. Wischen Sie von rechts nach links, um das folgende Projekt in der Liste anzuzeigen.\
    Beim Scrollen durch die einzelnen Projekte werden jeweils dieselben Widgets angezeigt.\

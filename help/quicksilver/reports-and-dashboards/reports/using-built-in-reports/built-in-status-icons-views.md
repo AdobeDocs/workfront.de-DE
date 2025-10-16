@@ -6,9 +6,9 @@ description: Sie können das integrierte Feld Statussymbole als Spalte in Ihren 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1205'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Beachten Sie Folgendes:
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und &#x200B;](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und ](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
 
 * In einigen Ansichten **das Feld** Statussymbole“ **Flags** oder **Ansichtssymbole**.\
   Sie können das Erscheinungsbild der Symbole, die im Feld Statussymbole enthalten sind, nicht anpassen.
@@ -45,33 +45,25 @@ Beachten Sie Folgendes:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Anfrage oder höher</p></li>
-         </ul>
+      <p>Mitwirkender oder höher</p>
+      <p>Anfrage oder höher</p>
    </td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Spalten zu einem Bericht hinzuzufügen</p></td> 
   </tr> 
   <tr> 
@@ -81,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

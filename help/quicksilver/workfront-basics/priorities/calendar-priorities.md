@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 4%
 
 ---
@@ -37,14 +37,14 @@ Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Kalender. Mit dem 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Aktuell: Prüfer oder höher</p>
-   <p>Neu: Licht oder höher</p> 
+   <p>Reviewer oder höher</p>
+   <p>Licht oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
    ![Kalendersymbol](assets/calendar-tab.png)
 1. Klicken Sie auf **Einstellungen** in der rechten Ecke des Kalenders.
 
-1. Wählen Sie auf **Registerkarte**&#x200B;Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.
+1. Wählen Sie auf **Registerkarte**Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.
    ![Musterleiste](assets/sample-task-for-field-config.png)
 
 1. Wählen Sie auf **Registerkarte** Farbe“ aus, wie Ihre Arbeitselemente angezeigt werden sollen. Wenn Sie beispielsweise **Projekt** auswählen, werden Ihre Arbeitselemente entsprechend der Farbe angezeigt, die dem Projekt in der Arbeitsliste zugewiesen wurde.

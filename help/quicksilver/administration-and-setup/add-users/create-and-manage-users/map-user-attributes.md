@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,28 +26,26 @@ Mit Single Sign-on (SSO) können Sie Attribute aus dem Active Directory Ihres Id
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Systemadministrator]</td>
+   <td><p>Sie müssen ein Workfront-Administrator sein</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,17 +61,17 @@ Beachten Sie beim Zuordnen von Attributen Folgendes:
 
 ## Zuordnen von Benutzerattributen für Ihre Organisation
 
-Das Verfahren zum Zuordnen von Attributen unterscheidet sich, je nachdem, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt.
+Das Verfahren zum Zuordnen von Attributen unterscheidet sich, je nachdem, ob Ihr Unternehmen Adobe Unified Experience nutzt.
 
-Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis befindet, überprüfen Sie die URL, die Sie für den Zugriff auf Workfront verwenden.
+Um festzustellen, ob sich Ihr Unternehmen im einheitlichen Adobe-Erlebnis befindet, überprüfen Sie die URL, über die Sie auf Workfront zugreifen.
 
 | URL | Adobe Experience |
 |---|---|
 | (CompanyName).my.workfront.com | Klassische Erfahrung |
-| experience.adobe.com | Adobe Unified Experience |
+| experience.adobe.com | Einheitliches Adobe-Erlebnis |
 
 * [Zuordnen von Benutzerattributen im klassischen Erlebnis](#map-user-attributes-in-the-classic-experience)
-* [Zuordnen von Benutzerattributen im einheitlichen Adobe-Erlebnis](#map-user-attributes-in-the-adobe-unified-experience)
+* [Zuordnen von Benutzerattributen in Adobe Unified Experience](#map-user-attributes-in-the-adobe-unified-experience)
 
 ### Zuordnen von Benutzerattributen im klassischen Erlebnis
 
@@ -91,7 +89,7 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
 
    Sie können Attribute wie Adresse, Manager, Aufgabengebiet, Hauptgruppe usw. zuordnen.
 
-   Attributzuordnungen funktionieren im Verhältnis 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört; Sie können nur eine pro Benutzer festlegen.
+   Attributzuordnungen funktionieren mit einem Verhältnis von 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört; Sie können nur eine pro Benutzer festlegen.
 
    >[!IMPORTANT]
    >
@@ -130,7 +128,7 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
 1. (Optional) Um weitere Benutzerattribute zuzuordnen, klicken Sie auf **Zuordnung hinzufügen** und wiederholen Sie die Schritte 6 bis 7.
 1. Klicken Sie auf **Speichern**.
 
-### Zuordnen von Benutzerattributen im einheitlichen Adobe-Erlebnis
+### Zuordnen von Benutzerattributen in Adobe Unified Experience
 
 1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-left.png) in der linken oberen Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
@@ -138,11 +136,11 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
 
 1. Wählen Sie die Registerkarte **Adobe** aus.
 
-1. (Optional und bedingt) Wenn in Ihrem Unternehmen die Attributzuordnung in der klassischen Version konfiguriert war und Sie diese Attributzuordnung in die einheitliche Adobe-Version kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
+1. (Optional und bedingt) Wenn in Ihrem Unternehmen die Attributzuordnung in der klassischen Version konfiguriert war und Sie diese Attributzuordnung in die Adobe Unified Experience kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
 
    >[!NOTE]
    >
-   >Es wird empfohlen, Zuordnungen beim ersten Konfigurieren von Zuordnungen im einheitlichen Adobe-Erlebnis zu migrieren. Es schadet nicht, sie später erneut zu migrieren, aber sie mehrmals zu migrieren ist unnötig.
+   >Es wird empfohlen, Zuordnungen zu migrieren, wenn Sie im einheitlichen Adobe-Erlebnis zum ersten Mal Zuordnungen konfigurieren. Es schadet nicht, sie später erneut zu migrieren, aber sie mehrmals zu migrieren ist unnötig.
 
 1. Um eine neue Attributzuordnung zu erstellen, klicken Sie auf **Zuordnung hinzufügen**.
 

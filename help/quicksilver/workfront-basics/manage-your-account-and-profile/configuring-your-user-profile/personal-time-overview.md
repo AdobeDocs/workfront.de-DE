@@ -7,10 +7,10 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann genehmigte Ausfa
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '433'
+ht-degree: 0%
 
 ---
 
@@ -38,33 +38,33 @@ Ressourcen-Management-Tools verwenden auch Ihre persönliche Auszeit, um anzugeb
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td> Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: Standard (zur Konfiguration der Urlaubszeiten)</p>
-        <p>oder</p>
-        <p>Aktuell: Arbeit oder höher (zur Konfiguration der persönlichen Ausfallzeit)</p> </td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td> <p>Zur Konfiguration Ihrer persönlichen Ausfallzeit benötigen Sie Folgendes:</p>
+        <p>Standard (zur Konfiguration der Urlaubszeiten)</p>
+        <p>Arbeit oder höher (zur Konfiguration der Urlaubszeiten)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Manager] mit [!UICONTROL Benutzer bearbeiten]-Zugriff (um Änderungen am Urlaubskalender anderer Benutzer vorzunehmen)<br>
-   <strong>HINWEIS</strong> Wenn ein Manager den persönlichen Urlaubskalender eines anderen Benutzers bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td><p>Wenn Sie Änderungen am Urlaubskalender eines anderen Benutzers vornehmen möchten, müssen Sie dessen Manager sein und über Zugriff auf „Benutzer bearbeiten“ verfügen.</p>
+   <p><strong>HINWEIS</strong> Wenn ein Manager den persönlichen Urlaubskalender eines anderen Benutzers bearbeitet, werden alle Einträge in der Zeitzone des Benutzers und nicht in der Zeitzone des Managers angezeigt.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konfigurieren der persönlichen Ausfallzeit in [!DNL Workfront]
 

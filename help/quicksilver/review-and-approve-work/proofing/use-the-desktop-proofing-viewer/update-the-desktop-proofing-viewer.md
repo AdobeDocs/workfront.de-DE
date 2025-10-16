@@ -6,9 +6,9 @@ description: Gelegentlich werden neue Software-Updates mit Verbesserungen und Fe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Beliebig</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,7 +55,7 @@ Der Desktop Proofing Viewer sucht beim Start automatisch nach Aktualisierungen.�
 
 So suchen Sie manuell nach Updates:
 
-1. Klicken Sie auf einer Mac in der Apple **Navigationsleiste über dem Desktop Proofing Viewer auf** 0&rbrace;Workfront Proof **> &lbrack;Über Workfront Proof. &#x200B;**
+1. Klicken Sie auf einer Mac in der Apple **Navigationsleiste über dem Desktop Proofing Viewer auf** 0}Workfront Proof **> [Über Workfront Proof. **
 
    Oder
 

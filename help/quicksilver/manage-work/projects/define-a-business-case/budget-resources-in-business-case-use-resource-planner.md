@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Budgetressourcen im Business Case mit dem Ressourcenplaner
 description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplaner auf Projektebene die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt beim Erstellen des Business Case erforderlich sind.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,17 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Aktuell: Prime oder höher</p>
-   <p>Legacy: Pro oder höher</p> 
+   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
+   <td> <p>Prime oder höher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <p>Strom: Licht oder höher</p>
-   <p>Legacy: Überprüfung oder höher</p>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td> <p>Licht oder höher</p>
+   <p>Überprüfen oder höher</p>
 
 <p><b>WICHTIG:</b></p> 
-   <p>Aktuell: Sie müssen über eine Standardlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> 
-   <p>Legacy: Sie müssen über eine Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p>
+   <p>Sie müssen über eine Standard- oder Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

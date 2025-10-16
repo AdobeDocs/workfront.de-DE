@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken
 description: Sie können im Textmodus beim Erstellen berechneter benutzerdefinierter Daten in Adobe Workfront Bedingungsoperatoren oder -modifikatoren verwenden.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,12 +26,12 @@ Sie können „IF“-Anweisungen in Workfront verwenden, um Datenfelder sowohl f
 
 Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen:
 
-* Ansichten
+* Ansichten 
 * Gruppierungen
 * Berechnete benutzerdefinierte Felder
 * Geschäftsregeln
 
-Weitere Informationen zum Erstellen von „IF“-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Weitere Informationen zum Erstellen von „IF“-Anweisungen finden Sie unter [ „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Die Beispiele in diesem Handbuch veranschaulichen die Verwendung von Bedingungsoperatoren in berechneten benutzerdefinierten Feldern. Sie können sie auch in berechneten benutzerdefinierten Spalten oder Gruppierungen verwenden, wenn Sie die korrekte Syntax für berechnete benutzerdefinierte Felder in Berichten befolgen.
 
@@ -66,7 +66,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Workfront verwenden:
    <td>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn das erste Feld Ihrer Anweisung größer als das zweite Feld ist. <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
-   <td>Größer als oder gleich </td> 
+   <td>Größer oder gleich </td> 
    <td>&gt;= </td> 
    <td>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn das erste Feld Ihrer Anweisung größer oder gleich dem zweiten Feld ist. <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 

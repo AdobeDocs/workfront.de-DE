@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Probleme löschen
-description: Sie können Probleme oder Anfragen in Adobe Workfront löschen, wenn Sie dazu über die erforderlichen Zugriffsrechte und Berechtigungen verfügen.
+description: Probleme oder Anfragen können in Adobe Workfront gelöscht werden, wenn Sie über die entsprechenden Zugriffsrechte und Berechtigungen verfügen und feststellen, dass sie nicht mehr benötigt werden. Es wird empfohlen, sie zu schließen, anstatt sie zu löschen, damit Sie die Genauigkeit Ihrer Projekte beibehalten können.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
 
 # Probleme löschen
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-Sie können Probleme oder Anfragen in Adobe Workfront löschen, wenn Sie dazu über die erforderlichen Zugriffsrechte und Berechtigungen verfügen.
+Probleme oder Anfragen können in Adobe Workfront gelöscht werden, wenn Sie über die entsprechenden Zugriffsrechte und Berechtigungen verfügen und feststellen, dass sie nicht mehr benötigt werden. Es wird empfohlen, sie zu schließen, anstatt sie zu löschen, damit Sie die Genauigkeit Ihrer Projekte beibehalten können.
+
+Workfront-Administratoren können gelöschte Probleme wiederherstellen.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ Sie können Probleme oder Anfragen in Adobe Workfront löschen, wenn Sie dazu ü
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Mitwirkender oder höher</p>
-   <p>Aktuell: Anforderung oder höher</p>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Mitwirkender oder höher</p>
+   <p>Anfrage oder höher</p>
  </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Die folgenden an ein Problem angehängten Objekte werden auch gelöscht, wenn Si
 
   Sie können ein Problem, an das ein ausgechecktes Dokument angehängt wurde, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
 
-* Notizen
+* Anmerkungen
 * Genehmigungen
 
 Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für die Löschung von Projekten, Aufgaben oder Problemen in den **Arbeitszeittabellen- und**) Ihrer Workfront-Instanz konfiguriert, werden die für die Probleme protokollierten Stunden beim Löschen eines Problems auf eine der folgenden Arten gehandhabt:

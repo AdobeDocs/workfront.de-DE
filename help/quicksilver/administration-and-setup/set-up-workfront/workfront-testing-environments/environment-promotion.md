@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -32,26 +32,26 @@ Sie müssen über Folgendes verfügen:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] Plan</strong>
+   <td>Adobe Workfront-Paket
    </td>
-   <td> Prime oder Ultimate (nur neue Pläne)
+   <td> <p>Prime oder Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] Lizenzen</strong>
+   <td><strong>Workfront-Lizenzen</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Konfigurationen der Zugriffsebene
    </td>
-   <td>Sie müssen [!DNL Workfront] sein.
+   <td><p>Sie müssen ein Workfront-Administrator sein.</p>
    </td>
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -61,7 +61,7 @@ Der Endpunkt Erstellen eines Weiterleitungspakets setzt voraus, dass Sie die Que
 
 Die Funktion Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Das Verschieben von Transaktionsobjekten wird nicht unterstützt (mit wenigen Ausnahmen).
 
-Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Authentifizierung
 
@@ -71,7 +71,7 @@ Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-S
 
 ### Authentifizierung beim Anforderungsheader
 
-Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen &#x200B;](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
+Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
 
 Im Folgenden finden Sie ein Beispiel für einen Anfrage-Header:
 
@@ -107,7 +107,7 @@ Dieser Aufruf führt einen mehrstufigen Prozess aus.
 
 Der erste Schritt führt zur Erstellung eines leeren Promotion-Pakets im Status „ASSEMBLING“.
 
-Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe des `objectCollections`-Arrays zusammengestellt, das im Hauptteil der POST bereitgestellt wird. Dieser Schritt kann je nach der Anzahl der angeforderten Datensätze und Ihrer Workfront-Konfiguration mehrere Minuten dauern. Am Ende dieses Prozesses wird das leere Promotion-Paket mit dem `packageEntities` aktualisiert und der Status wird automatisch auf „ENTWURF“ gesetzt.
+Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe des `objectCollections`-Arrays zusammengestellt, das im POST-Hauptteil bereitgestellt wird. Dieser Schritt kann je nach der Anzahl der angeforderten Datensätze und Ihrer Workfront-Konfiguration mehrere Minuten dauern. Am Ende dieses Prozesses wird das leere Promotion-Paket mit dem `packageEntities` aktualisiert und der Status wird automatisch auf „ENTWURF“ gesetzt.
 
 
 >[!NOTE]
@@ -118,7 +118,7 @@ Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe d
 >
 >Jedes Element enthält auch eine `entities`. Dies erwartet das `ID` Feld. Er kann auch ein optionales `name`-Attribut akzeptieren, um das Erkennen der `ID` zu vereinfachen.
 >
->Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die &#x200B;](#supported-objects-for-environment-promotion)) in diesem Artikel.
+>Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die ](#supported-objects-for-environment-promotion)) in diesem Artikel.
 
 #### URL
 
@@ -144,7 +144,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 ```json
 {
@@ -247,7 +247,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 _leer_
 
@@ -312,7 +312,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 _leer_
 
@@ -372,7 +372,7 @@ Die bearbeitbaren Attribute sind:
 1. description (String)
 1. Status (Zeichenfolge mit Wertvalidierung)
 
-Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [&#x200B; Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [ Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -400,7 +400,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 ```json
 {
@@ -482,7 +482,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 _leer_
 
@@ -535,7 +535,7 @@ Für jedes Promotion-Objekt wird eine der folgenden `actions` festgelegt:
   </tr> 
   <tr> 
    <td>IGNORIEREN</td> 
-   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor der <code>/install</code>-Aufruf ausgeführt wird.</p><p><b>Anmerkungen: </b><ul><li><p>Wenn ein Datensatz, der ursprünglich auf ERSTELLEN festgelegt war, auf IGNORIEREN festgelegt ist, sollten auch alle untergeordneten Datensätze auf IGNORIEREN festgelegt werden.</p><p>Wenn beispielsweise ein Vorlagendatensatz einer CREATE-Aktion zugeordnet wurde und die installierenden Benutzenden ihn aus der Bereitstellung ausschließen möchten, können sie die Vorlagenaktion auf IGNORIEREN setzen.</p><p>Wenn der installierende Benutzer in diesem Fall nicht auch die Vorlagenaufgaben, Vorlagenaufgabenzuweisungen, Vorlagenaufgabenvorgänger, Warteschlangendefinition, Warteschlangenthemen, Routing-Regeln usw. auf IGNORIEREN festlegt, führt die Bereitstellung zu einem fehlgeschlagenen Installationsversuch.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf „VORHANDEN VERWENDEN“ festgelegt war, auf „IGNORIEREN“ gesetzt wurde, kann es während des Installationsprozesses zu einigen nachteiligen Auswirkungen kommen.</p><p>Wenn beispielsweise der Aktion „USEEXISTING“ ein Gruppeneintrag zugeordnet wurde und die installierende Person die Aktion in „IGNORE“ ändert, wird diesem Projekt bei Objekten, für die eine Gruppe erforderlich ist (z. B. wenn ein Projekt ohne zugewiesene Gruppe nicht vorhanden sein kann) die Standardgruppe zugewiesen.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf „USEEXISTING“ festgelegt war, auf „CREATE“ gesetzt ist, kann es während des Installationsprozesses zu unerwünschten Effekten kommen, da viele Workfront-Entitäten über Einschränkungen hinsichtlich eindeutiger Namen verfügen.</p><p>Wenn beispielsweise der Aktion USEEXISTING ein Eintrag „Standardgruppe“ zugeordnet wurde und der installierende Benutzer die Aktion in CREATE ändert, da bereits eine „Standardgruppe“ vorhanden ist, können bei der Installation nicht alle Schritte ausgeführt werden. Gruppennamen müssen eindeutig sein.</p><p>Einige Entitäten verfügen nicht über eine eindeutige Namensbeschränkung. Für diese Objekte führt diese Änderung zu zwei identisch benannten Datensätzen. Für Vorlagen, Projekte, Ansichten, Filter, Gruppierungen, Berichte und Dashboards sind beispielsweise keine Beschränkungen für eindeutige Namen erforderlich. Es empfiehlt sich, eindeutige Namen für diese Datensätze zu haben. Dies wird jedoch nicht erzwungen.</p></li></ul></p></td> 
+   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor der <code>/install</code>-Aufruf ausgeführt wird.</p><p><b>Hinweise: </b><ul><li><p>Wenn ein Datensatz, der ursprünglich auf ERSTELLEN festgelegt war, auf IGNORIEREN festgelegt ist, sollten auch alle untergeordneten Datensätze auf IGNORIEREN festgelegt werden.</p><p>Wenn beispielsweise ein Vorlagendatensatz einer CREATE-Aktion zugeordnet wurde und die installierenden Benutzenden ihn aus der Bereitstellung ausschließen möchten, können sie die Vorlagenaktion auf IGNORIEREN setzen.</p><p>Wenn der installierende Benutzer in diesem Fall nicht auch die Vorlagenaufgaben, Vorlagenaufgabenzuweisungen, Vorlagenaufgabenvorgänger, Warteschlangendefinition, Warteschlangenthemen, Routing-Regeln usw. auf IGNORIEREN festlegt, führt die Bereitstellung zu einem fehlgeschlagenen Installationsversuch.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf „VORHANDEN VERWENDEN“ festgelegt war, auf „IGNORIEREN“ gesetzt wurde, kann es während des Installationsprozesses zu einigen nachteiligen Auswirkungen kommen.</p><p>Wenn beispielsweise der Aktion „USEEXISTING“ ein Gruppeneintrag zugeordnet wurde und die installierende Person die Aktion in „IGNORE“ ändert, wird diesem Projekt bei Objekten, für die eine Gruppe erforderlich ist (z. B. wenn ein Projekt ohne zugewiesene Gruppe nicht vorhanden sein kann) die Standardgruppe zugewiesen.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf „USEEXISTING“ festgelegt war, auf „CREATE“ gesetzt ist, kann es während des Installationsprozesses zu unerwünschten Effekten kommen, da viele Workfront-Entitäten über Einschränkungen hinsichtlich eindeutiger Namen verfügen.</p><p>Wenn beispielsweise der Aktion USEEXISTING ein Eintrag „Standardgruppe“ zugeordnet wurde und der installierende Benutzer die Aktion in CREATE ändert, da bereits eine „Standardgruppe“ vorhanden ist, können bei der Installation nicht alle Schritte ausgeführt werden. Gruppennamen müssen eindeutig sein.</p><p>Einige Entitäten verfügen nicht über eine eindeutige Namensbeschränkung. Für diese Objekte führt diese Änderung zu zwei identisch benannten Datensätzen. Für Vorlagen, Projekte, Ansichten, Filter, Gruppierungen, Berichte und Dashboards sind beispielsweise keine Beschränkungen für eindeutige Namen erforderlich. Es empfiehlt sich, eindeutige Namen für diese Datensätze zu haben. Dies wird jedoch nicht erzwungen.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -566,7 +566,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 ```json
 {}
@@ -717,7 +717,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 ```json
 {
@@ -771,7 +771,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 _leer_
 
@@ -868,7 +868,7 @@ Oder
 }
 ```
 
-#### Text
+#### Textkörper
 
 _leer_
 
@@ -933,7 +933,7 @@ Dies ist ein dreistufiger Prozess.
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
 ```
 
-#### Text
+#### Textkörper
 
 Keine
 
@@ -1016,7 +1016,7 @@ Eine Übersetzungskarte mit einem `202 - OK` Status
 
 Für diesen Schritt gibt es keinen Endpunkt.
 
-1. Überprüfen Sie in der Übersetzungszuordnung[&#x200B; die in Schritt 1 - Erstellen einer &#x200B;](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
+1. Überprüfen Sie in der Übersetzungszuordnung[ die in Schritt 1 - Erstellen einer ](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
 1. Aktualisieren Sie das Aktionsfeld auf jedem Objekt, um die gewünschte Installationsaktion durchzuführen.
 1. Überprüfen Sie die `targetId` für jedes Objekt. Wenn die Aktion „Festlegen“ `USEEXISTING` oder `OVERWRITING` ist, sollte die `targetId` auf die UUID des Zielobjekts in der Zielumgebung festgelegt werden. Für jede andere Aktion sollte die targetId eine leere Zeichenfolge sein.
 
@@ -1032,7 +1032,7 @@ Für diesen Schritt gibt es keinen Endpunkt.
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
 ```
 
-#### Text
+#### Textkörper
 
 Dies ist ein Objekt mit einem einzelnen `translationMap`, das der geänderten Übersetzungszuordnung aus [Schritt 2 - Übersetzungszuordnung ändern](#step-2---modify-the-translation-map) entsprechen sollte.
 

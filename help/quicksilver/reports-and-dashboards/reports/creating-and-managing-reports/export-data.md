@@ -6,9 +6,9 @@ description: Sie können Adobe Workfront-Daten aus Listen, Berichten, Dashboards
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -46,29 +46,20 @@ Die Angaben in diesem Artikel gelten nicht für folgende Ausfuhren:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-    <p>Neu:</p>
-      <ul>
-      <li>Licht oder höher</li>
-      </ul>
-    <p>Aktuell:</p>
-      <ul>
-      <li>Überprüfen oder höher</li>
-    </td> 
+   <td> 
+      <p>Leicht</p>
+      <p>Überprüfung</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -81,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -292,7 +283,7 @@ Im exportierten Dokument wird ein Zeitstempel aus dem Kontext des Benutzers ange
 Der Zeitstempel enthält:
 
 * Datum
-* Uhrzeit
+* Zeit
 * Zeitzone, in der das Element exportiert wurde
 
 Je nach Typ des zu exportierenden Dokuments werden Zeitstempel an verschiedenen Stellen angezeigt:
@@ -314,7 +305,7 @@ Wenn Ihr Bericht in der Web-Anwendung eine besondere Formatierung aufweist, soll
 
 Weitere Informationen zum Anpassen der Formatierung in einem Bericht finden Sie unter [Verwenden der bedingten Formatierung in Ansichten](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-### Relationen {#links}
+### Links {#links}
 
 Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unterstützt. Wenn Sie eine Liste in Workfront nach PDF exportieren, bleiben alle unterstützten Links, die im Originaldokument vorhanden sind, im exportierten Dokument verfügbar.
 

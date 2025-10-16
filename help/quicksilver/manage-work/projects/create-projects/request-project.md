@@ -6,9 +6,9 @@ description: Sie können die Genehmigung eines Projekts beantragen, bevor Sie mi
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 2%
 
 ---
@@ -34,37 +34,68 @@ Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden B
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront-Lizenz*</p> </td> 
-   <td> <p>Neu: Standard </p>
-   Oder
-   <p>Aktuell: Plan </p>
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront-Lizenz</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p>
+   <p>Wenn Sie ein Projekt über ein Portfolio oder ein Programm anfordern, benötigen Sie Bearbeitungszugriff auf Portfolios und Programme</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Wenn Sie eine Projektanfrage erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für das Projekt </p> </td> 
+   <td> <p>Wenn Sie eine Projektanfrage erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für das Projekt </p> 
+   <p>Wenn Sie ein Projekt aus einem Portfolio oder einem Programm anfordern, müssen Sie über Verwaltungsberechtigungen für das Portfolio und das Programm verfügen.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Projekt anfordern
 
@@ -87,6 +118,6 @@ Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden B
 
    * Erstellen Sie ein Projekt von Grund auf oder mithilfe einer Vorlage und ändern Sie den Status in **angefordert**.
 
-     Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines &#x200B;](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines ](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben. Ein Portfolio-Manager kann sie jetzt überprüfen und entweder genehmigen oder ablehnen. In diesem Fall ändert sich der Status des Projekts in **Genehmigt** oder **Abgelehnt**.

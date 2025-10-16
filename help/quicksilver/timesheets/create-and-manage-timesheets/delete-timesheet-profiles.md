@@ -3,10 +3,10 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Arbeitszeittabellen-Profile löschen
 description: Sie können ein Arbeitszeittabellen-Profil löschen, das möglicherweise nicht mehr relevant ist.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
@@ -25,30 +25,30 @@ Informationen zu Arbeitszeittabellen-Profilen finden Sie [Erstellen, Bearbeiten 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Standard</p>
-   Oder
-   <p>Aktuell: Plan </p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p>  </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td><p>Administrativer Zugriff auf Arbeitszeittabellen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

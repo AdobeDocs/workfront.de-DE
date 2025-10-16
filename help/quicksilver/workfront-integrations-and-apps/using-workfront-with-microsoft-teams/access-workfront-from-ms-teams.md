@@ -6,9 +6,9 @@ description: Sie können auf  [!DNL Adobe Workfront] von [!DNL Microsoft Teams] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 >Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Team-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 
-Sie können von [!DNL Microsoft Teams] aus auf [!DNL Adobe Workfront] zugreifen und mehrere Aktionen in [!DNL Workfront] ausführen, indem Sie Befehle entweder im [!DNL Workfront] Bot-Kanal oder einem anderen Team-Kanal eingeben.
+Sie können von [!DNL Adobe Workfront] aus auf [!DNL Microsoft Teams] zugreifen und mehrere Aktionen in [!DNL Workfront] ausführen, indem Sie Befehle entweder im [!DNL Workfront] Bot-Kanal oder einem anderen Team-Kanal eingeben.
 
 Folgendes können Sie in [!DNL Workfront] von [!DNL Microsoft Teams] aus tun:
 
@@ -43,27 +43,23 @@ Die Befehle, die Sie von [!DNL Microsoft Teams] aus zum Ausführen dieser Aktion
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p>
-   <p>Aktuell: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+   <p>Arbeit oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
-
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Übersicht über Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können persönliche Aufgaben in [!DNL Adobe Workfront] aus [!DNL Microsoft Teams] erstellen, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie sind von [!DNL Microsoft Teams] aus bei [!DNL Workfront] angemeldet.
+* Sie sind von [!DNL Workfront] aus bei [!DNL Microsoft Teams] angemeldet.
 
 ## Zugriff auf [!DNL Workfront] über den [!DNL Workfront] Bot-Chat-Kanal
 

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Übersicht „Kann beginnen“ für Aufgaben
+title: '`Kann beginnen`-Übersicht für Aufgaben'
 description: Wenn eine Aufgabe startbereit ist, fügt Adobe Workfront der Aufgabe einen Indikator „Kann starten“ hinzu, um leicht festzustellen, ob Sie mit der Arbeit an der Aufgabe beginnen können. Sie können diesen Indikator in der Ansicht einer Aufgabenliste oder eines Berichts anzeigen.
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%

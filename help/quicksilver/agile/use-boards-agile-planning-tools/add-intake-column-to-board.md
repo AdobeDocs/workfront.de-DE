@@ -7,7 +7,7 @@ description: Optional können Sie Ihrer Pinnwand eine Aufnahmespalte hinzufügen
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%
@@ -33,7 +33,7 @@ Die Aufnahmespalte ist auf 300 Aufgaben und 300 Probleme beschränkt. Die Standa
 Aufgaben:
 
 * Primäre Reihenfolge: Projektname
-* Sekundäre Reihenfolge: Struktur für Auffächerung des Arbeitsaufwands
+* Sekundäre Reihenfolge: Struktur zur Aufschlüsselung des Arbeitsaufwands
 
 Probleme:
 
@@ -46,7 +46,7 @@ Probleme:
 >
 >Um eine Synchronisierung mit Workfront durchzuführen und neue Aufgaben und Probleme auf der Pinnwand oder der Aufnahmespalte zu beheben, klicken Sie auf das Menü Mehr ![[!UICONTROL Mehr Menü]](assets/more-menu.png) neben dem Namen der Pinnwand und wählen Sie Verbundene Elemente synchronisieren.
 
-Weitere Informationen zu Spalten finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen zu Spalten finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
 
@@ -57,15 +57,14 @@ Weitere Informationen zu Spalten finden Sie unter [Verwalten von &#x200B;](/help
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
    </td> 
   </tr> 
  </tbody> 

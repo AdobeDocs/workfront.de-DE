@@ -6,9 +6,9 @@ description: Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht a
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '7285'
+source-wordcount: '7259'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,22 @@ Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht anzeigen.
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um auf den Auslastungsbericht zuzugreifen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>Oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>Oder</p>
-       <p>Aktuell: Plan</p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Folgendes anzeigen oder höher:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung </p> </li> 
@@ -76,13 +72,13 @@ Sie müssen über Folgendes verfügen, um auf den Auslastungsbericht zuzugreifen
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Zeigen Sie den Zugriff auf Projekte, Portfolios und Programme an, um auf den Abschnitt Nutzung im Bereich Ressourcen zuzugreifen</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Verwalten des Zugriffs auf ein Projekt, um auf den Abschnitt Nutzung des Projekts zuzugreifen</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,7 +113,7 @@ Mit dem Nutzungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz 
 
 Sie können den Auslastungsbericht im Bereich Ressourcen anzeigen, um die Auslastung für mehrere Projekte anzuzeigen, oder Sie können ihn auf Projektebene anzeigen, um die Auslastung für die einzelnen Ressourcen (Aufgabengebiete und Benutzer) anzuzeigen, die mit diesem Projekt verknüpft sind.
 
-Informationen zum Zugriff auf und zur Verwendung des Auslastungsberichts finden Sie [&#x200B; Abschnitt „Verfolgen von Fortschritt, Kosten und Umsatz mit dem &#x200B;](#track-progress-cost-and-revenue-with-the-utilization-report)&quot; in diesem Artikel.
+Informationen zum Zugriff auf und zur Verwendung des Auslastungsberichts finden Sie [ Abschnitt „Verfolgen von Fortschritt, Kosten und Umsatz mit dem ](#track-progress-cost-and-revenue-with-the-utilization-report)&quot; in diesem Artikel.
 
 ### Stunden verfolgen (Fortschritt) {#track-hours-progress}
 
@@ -254,7 +250,7 @@ Sie können Kosteninformationen im Auslastungsbericht wie folgt anzeigen:
 * Für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt, Programm oder Portfolio
 * Nach Rolle oder Person, für Projekte
 
-Die Währung im Auslastungsbericht wird durch die im Projekt festgelegte Währung bestimmt. Informationen zum Anpassen der Währung für ein Projekt finden Sie unter [Ändern der &#x200B;](../../manage-work/projects/project-finances/change-project-currency.md).
+Die Währung im Auslastungsbericht wird durch die im Projekt festgelegte Währung bestimmt. Informationen zum Anpassen der Währung für ein Projekt finden Sie unter [Ändern der ](../../manage-work/projects/project-finances/change-project-currency.md).
 
 Die folgenden Informationen sind im Auslastungsbericht beim Verfolgen der Kosten verfügbar:
 
@@ -299,7 +295,7 @@ Beim Verfolgen des Umsatzes eines Projekts, Programms oder Portfolios wird der U
 
 Die Informationen in der folgenden Tabelle sind im Auslastungsbericht beim Verfolgen des Umsatzes verfügbar.
 
-Informationen zu den spezifischen Feldern und wie Workfront sie berechnet, finden Sie auch unter [Kosten &#x200B;](../../manage-work/projects/project-finances/track-costs.md) und [Übersicht über Abrechnung und Umsatz](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Informationen zu den spezifischen Feldern und wie Workfront sie berechnet, finden Sie auch unter [Kosten ](../../manage-work/projects/project-finances/track-costs.md) und [Übersicht über Abrechnung und Umsatz](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -456,7 +452,7 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
       1. Gehen Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann im linken Bereich **Nutzung**.
       1. Nutzungsinformationen werden beim Anzeigen eines einzelnen Projekts automatisch angezeigt und das Anwenden eines Filters ist nicht erforderlich.\
          Wenn Sie den Auslastungsbericht filtern möchten, können Sie einen Filter anwenden und dann auf &quot;**&quot;**.\
-         Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+         Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Nutzungsinformationen werden für einzelne Benutzer und Rollen angezeigt (Benutzer werden innerhalb ihrer zugehörigen Rolle gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für mehrere Projekte an:
@@ -464,7 +460,7 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
      {{step1-to-utilization-report}}
 
       1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.
-Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Nutzungsinformationen werden für einzelne Rollen und Projekte angezeigt (Rollen sind in ihrem zugehörigen Projekt gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Programm an:
@@ -473,7 +469,7 @@ Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastun
 
       1. Klicken Sie **Anzeigen**>**Programme**.
       1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Auslastungsinformationen werden für einzelne Projekte und Programme angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Portfolio an:
@@ -482,7 +478,7 @@ Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastun
 
       1. Klicken Sie **Anzeigen**>**Portfolios**.
       1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Portfolios im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+         Sie müssen ein oder mehrere Portfolios im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Nutzungsinformationen werden für einzelne Projekte, Programme und Portfolios angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert, Programme innerhalb ihres zugehörigen Portfolios).
 
 1. Klicken Sie oben rechts im Auslastungsbericht auf **Anzeigen** und wählen Sie dann im Menü Folgendes aus:

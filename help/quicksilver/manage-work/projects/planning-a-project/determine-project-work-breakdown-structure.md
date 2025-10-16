@@ -6,7 +6,7 @@ description: Die Definition einer Projektstrukturplan-Aktivität (Work Breakdown
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Um PSP-Ergebnisse und -Ergebnisse in Workfront zu definieren, empfehlen wir die 
   Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Erstellen eines Meilensteinpfads](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Zuordnen von Meilensteinen zu Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Schlüsseln Sie die Aufgaben mit einem zu großen Bereich in Teilaufgaben auf. Verknüpfen Sie sie mit dem übergeordneten Element, das Ihre Leistung definiert .\
-  Informationen zum Erstellen von Teilaufgaben finden Sie im Artikel [Erstellen von &#x200B;](../../../manage-work/tasks/create-tasks/create-subtasks.md)&quot;.
+  Informationen zum Erstellen von Teilaufgaben finden Sie im Artikel [Erstellen von ](../../../manage-work/tasks/create-tasks/create-subtasks.md)&quot;.
 
 * Identifizieren Sie Abhängigkeitsbeziehungen zwischen Teilaufgaben und zwischen Meilensteinen.\
   In einer Abhängigkeitsbeziehung hängt der Beginn einer Aufgabe vom Abschluss einer anderen Aufgabe oder einer Gruppe von Aufgaben ab.\
@@ -80,7 +80,7 @@ Beachten Sie Folgendes:
 
   Da es sich bei der Dauer um eine Schätzung handelt, stellen Sie sicher, dass Sie optimistische Zeitwerte festlegen, um Faktoren zu berücksichtigen, die sich auf die Aufgabe auswirken können, z. B. Wetter, Stromausfälle, Lieferantenschwierigkeiten oder andere unvorhergesehene Ereignisse. Überlegen Sie außerdem, ob es Vorgänger- oder Abhängigkeitsaufgaben gibt und wie diese Einschränkungen für die Arbeit verursachen und sich auf den Abschluss von Aufgaben auswirken können.
 
-  Je nach Dauertyp der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Je nach Dauertyp der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Aufgaben zuweisen
 

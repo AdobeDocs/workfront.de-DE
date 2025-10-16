@@ -6,10 +6,10 @@ description: Adobe Workfront kann eine eindeutige URL für die Benutzeransicht d
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 1%
 
 ---
 
@@ -23,36 +23,32 @@ Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-    <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan</p></td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Anzeigen oder Erweitern des Zugriffs auf Ressourcenmanagement, Projekte und Benutzer</p> <p>Anzeigen des Zugriffs auf Finanzdaten zum Anzeigen von Kosteninformationen</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Zeigen Sie Berechtigungen oder höhere Berechtigungen für die Projekte an, die Sie im Ressourcenplaner anzeigen möchten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +71,7 @@ So rufen Sie eine eindeutige URL in der Benutzeransicht des Ressourcenplaners ab
 1. (Optional) Wählen Sie den Zeitrahmen aus, nach dem Sie die Informationen im Ressourcenplaner anzeigen möchten. Wählen Sie aus den folgenden Optionen aus:
 
    * Woche
-   * Monat
+   * Month
    * Quartal
 
 1. (Optional) Wählen Sie aus, ob die Informationen nach **(FTE** oder **Stunden** angezeigt werden sollen.\

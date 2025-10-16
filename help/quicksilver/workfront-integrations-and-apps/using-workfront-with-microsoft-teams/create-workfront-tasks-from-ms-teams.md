@@ -6,9 +6,9 @@ description: Sie können persönliche Aufgaben in Adobe [!DNL Workfront] von Mic
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -21,33 +21,38 @@ ht-degree: 0%
 >
 >Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Team-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
+
+
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL Arbeit], [!UICONTROL Plan]</p> </td> 
-  </tr>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+   <p>Arbeit oder höher</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
 Sie können persönliche Aufgaben in [!DNL Adobe Workfront] aus [!DNL Microsoft Teams] erstellen, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie sind von [!DNL Microsoft Teams] aus bei [!DNL Workfront] angemeldet.
+* Sie sind von [!DNL Workfront] aus bei [!DNL Microsoft Teams] angemeldet.
 
 >[!NOTE]
 >
@@ -57,7 +62,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
 ## Persönliche Aufgaben aus [!DNL Microsoft Teams] erstellen
 
-1. Melden Sie sich von [!DNL Microsoft Teams] aus bei [!DNL Workfront] an.
+1. Melden Sie sich von [!DNL Workfront] aus bei [!DNL Microsoft Teams] an.
 
    Informationen zur Anmeldung bei [!DNL Workfront] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -73,7 +78,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. Geben Sie im Bot- Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
+1. Geben Sie im Bot-Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
 
    * Aufgabenname im Feld **[!UICONTROL Den Titel der Aufgabe]**.
    * Beschreibung der Aufgabe im Feld **[!UICONTROL Beschreibung der Aufgabe]**.
@@ -83,7 +88,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
    Die neue persönliche Aufgabe wird in [!DNL Workfront] erstellt. Eine [!UICONTROL Referenznummer] wird ihm zugewiesen und auf der Karte [!UICONTROL Neue Aufgabe] angezeigt.
 
-   Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) Abschnitt im Artikel [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) Abschnitt im Artikel [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Aufgabeninformationen weiter zu bearbeiten.
 1. (Optional) Klicken Sie auf **[!UICONTROL In[!DNL Workfront]]** anzeigen , um die Aufgabe in einer neuen Registerkarte in [!DNL Workfront] zu öffnen und die Aufgabe weiter zu bearbeiten, in ein Projekt zu verschieben oder sie einer anderen Person zuzuweisen.

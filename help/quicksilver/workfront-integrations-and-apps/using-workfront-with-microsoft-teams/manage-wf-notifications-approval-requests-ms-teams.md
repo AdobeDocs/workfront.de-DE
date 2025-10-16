@@ -6,10 +6,10 @@ description: Sie können Benachrichtigungen von  [!DNL Adobe Workfront]  erhalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1434'
+ht-degree: 4%
 
 ---
 
@@ -30,40 +30,45 @@ Diese Benachrichtigungen enthalten [!DNL Workfront] Aktionen, die Sie in [!DNL M
 >[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um die [!DNL Adobe Workfront for Microsoft Teams integration] verwenden zu können, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
 
+
+
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL Arbeit], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+   <p>Arbeit oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen für den Empfang von [!DNL Workfront]-Benachrichtigungen in [!DNL Microsoft Teams]
 
 Sie können [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams] erhalten, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie sind von [!DNL Microsoft Teams] aus bei [!DNL Workfront] angemeldet.
+* Sie sind von [!DNL Workfront] aus bei [!DNL Microsoft Teams] angemeldet.
 * Sie haben sofortige Benachrichtigungen in [!DNL Workfront] aktiviert. Informationen zur Aktivierung sofortiger Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Informationen zur Installation von [!DNL Workfront for Microsoft Teams] und zur Anmeldung bei [!DNL Workfront from Microsoft Teams] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ## Verwalten von [!DNL Workfront]-Benachrichtigungen in [!DNL Microsoft Teams]
 
-Wenn die [!DNL Workfront for Microsoft Teams]-App installiert ist, wird [!DNL Microsoft Teams] für jedes Mitglied dieses Teams ein [!DNL Workfront]-Chat-Kanal erstellt. Wenn eine bestimmte Aktion in [!DNL Workfront] ausgeführt wird, können Sie die Einstellungen für [!DNL Workfront for Microsoft Teams] so konfigurieren, dass sie Benachrichtigungen über diese Aktion im [!DNL Workfront] Chat-Kanal von [!DNL Microsoft Teams] erhalten.
+Wenn die [!DNL Workfront for Microsoft Teams]-App installiert ist, wird [!DNL Workfront] für jedes Mitglied dieses Teams ein [!DNL Microsoft Teams]-Chat-Kanal erstellt. Wenn eine bestimmte Aktion in [!DNL Workfront] ausgeführt wird, können Sie die Einstellungen für [!DNL Workfront for Microsoft Teams] so konfigurieren, dass sie Benachrichtigungen über diese Aktion im [!DNL Workfront] Chat-Kanal von [!DNL Microsoft Teams] erhalten.
 
 Beachten Sie beim Arbeiten mit [!DNL Workfront]-Benachrichtigungen von [!DNL Microsoft Teams] Folgendes:
 
@@ -77,7 +82,7 @@ Beachten Sie beim Arbeiten mit [!DNL Workfront]-Benachrichtigungen von [!DNL Mic
 
 So verwalten Sie die [!DNL Workfront], die Sie in [!DNL Microsoft Teams] erhalten können:
 
-1. Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf das Symbol **[!UICONTROL Mehr hinzugefügt]** (drei Punkte) Apps .
+1. Klicken Sie in der linken Navigationsleiste in **[!UICONTROL auf das Symbol]** Mehr hinzugefügt[!DNL Microsoft Teams] (drei Punkte) Apps .
 
 1. Klicken Sie in der angezeigten Liste auf [!DNL Workfront] .
 1. Wählen Sie die Registerkarte **[!UICONTROL Einstellungen]**.
@@ -96,7 +101,7 @@ So verwalten Sie die [!DNL Workfront], die Sie in [!DNL Microsoft Teams] erhalte
 
 ## Antworten auf [!DNL Workfront] Benachrichtigungen und Genehmigungsanfragen in [!DNL Microsoft Teams]
 
-1. Melden Sie sich von [!DNL Microsoft Teams] aus bei [!DNL Workfront] an.\
+1. Melden Sie sich von [!DNL Workfront] aus bei [!DNL Microsoft Teams] an.\
    Informationen zur Anmeldung bei [!DNL Workfront] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Chat]** und klicken Sie auf den **[!DNL Workfront]** Bot-Kanal.\
@@ -139,7 +144,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL ändern]</p> </th> 
    <th> <p>[!UICONTROL Zum Korrekturabzug wechseln] </p> </th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -271,7 +276,7 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, dem Sie angeh
   <tr> 
    <th>Benachrichtigung</th> 
    <th>[!UICONTROL Start]</th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -422,7 +427,7 @@ Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Dat
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>[!UICONTROL -Kommentar]</p> </th> 
+   <th> <p>[!UICONTROL-Kommentar]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 

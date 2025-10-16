@@ -5,9 +5,9 @@ description: Wenn Sie E-Mail-Benachrichtigungen von der Sandbox-Vorschau-Umgebun
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Sie können dies für sich selbst oder für einen beliebigen Benutzer tun, auf d
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,25 +42,32 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Anfrage] oder höher, um die eigene Einstellung zu ändern</p> <p>[!UICONTROL Plan], um die Einstellung für andere Benutzer zu bearbeiten</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td> 
+   <p>Mitwirkender oder höher zum Ändern der eigenen Einstellung</p> <p>Standard, um die Einstellung für andere Benutzer zu bearbeiten</p> 
+   Oder
+   <p> Fordern Sie oder höher an, Ihre eigene Einstellung zu ändern</p> <p>Bearbeiten der Einstellung für andere Benutzer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
    <td> <p>Sie müssen eine der folgenden Möglichkeiten haben:</p> 
     <ul> 
-     <li> <p>Zugriffsebene des [!UICONTROL Systemadministrators].</p> <p> Weitere Informationen zu dieser Zugriffsebene finden Sie unter "<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> eines Benutzers vollen administrativen Zugriff gewähren</a>. </p> </li> 
-     <li> <p>In Ihrer Zugriffsebene muss [!UICONTROL Bearbeiten] für die Einstellung [!UICONTROL Benutzer] ausgewählt sein. Und für die Einstellung [!UICONTROL Users] müssen unter [!UICONTROL Feinabstimmung der Einstellungen] <img src="assets/gear-icon-in-access-levels.png"> die Option [!UICONTROL Create] und mindestens eine der beiden [!UICONTROL User Admin]-Optionen aktiviert sein. </p> <p>Wenn Sie die Option [!UICONTROL Benutzeradmin (Gruppenbenutzer)] verwenden, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>Weitere Informationen zur Einstellung von [!UICONTROL Users] in einer Zugriffsebene finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Benutzerzugriffs</a>.</p> </li> 
-    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+     <li> <p>Zugriffsebene des [!UICONTROL Systemadministrators].</p> </li> 
+     <li> <p>In Ihrer Zugriffsebene muss [!UICONTROL Bearbeiten] für die Einstellung [!UICONTROL Benutzer] ausgewählt sein. Und für die Einstellung [!UICONTROL Users] müssen unter [!UICONTROL Feinabstimmung der Einstellungen] <img src="assets/gear-icon-in-access-levels.png"> die Option [!UICONTROL Create] und mindestens eine der beiden [!UICONTROL User Admin]-Optionen aktiviert sein. </li> 
+     <li>Wenn Sie die Option [!UICONTROL Benutzeradmin (Gruppenbenutzer)] verwenden, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aktivieren des Versands von E-Mails aus der Sandbox-Vorschau-Umgebung
 

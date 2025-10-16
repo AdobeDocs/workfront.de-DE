@@ -6,9 +6,9 @@ description: Sie können Pläne im Rahmen der Verwendung des Workfront-Szenariop
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -27,47 +27,78 @@ Sie können Pläne im Rahmen der Verwendung der [!DNL Workfront Scenario Planner
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
-   <td> <ul></li>
-   <li><p>Neu: Ultimate </p></li>
-   <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
-   <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
+   <td> <p>[!DNL Adobe Workfront] Packstück</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
-   <td> <p>Neu: Licht oder höher</p> 
-   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
+   <td> <p>[!UICONTROL light] oder höher</p> 
+   <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
   </tr> 
-  <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
-   <li><p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenarioplaner</p></li></ul>
-
-<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich, um die [!DNL Scenario Planner]</a> verwenden zu können. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Zugriffsebene </td> 
+    <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!DNL Scenario Planner]</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>[!UICONTROL Manage]-Berechtigungen für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für einen Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zum Zugriff auf den Szenario-Planer finden Sie unter [Zugriff für die Verwendung des erforderlich [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen für Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Erstellen oder Bearbeiten von Plänen
 
@@ -121,7 +152,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
    ![Neues Planfeld](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
-1. (Bedingt) Geben Sie beim Erstellen eines neuen Plans die folgenden Informationen an:
+1. (Bedingt) Geben Sie beim Erstellen eines Plans die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -291,7 +322,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Auslastung] %</td> 
+      <td role="rowheader">[!UICONTROL-Auslastung] %</td> 
       <td> 
        <div> 
         <p>Der Prozentsatz der Nutzung zeigt an, wie viele der verfügbaren Aufgabengebiete tatsächlich für die Initiativen im Szenario verwendet (oder erforderlich) werden. </p> 
@@ -355,7 +386,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
    Informationen zum Hinzufügen von Initiativen finden Sie im Artikel [Erstellen und Bearbeiten von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-1. (Optional) Erstellen Sie eine Kopie des vorhandenen Szenarios, um ein neues Szenario desselben Plans zu erstellen. Weitere Informationen zum Erstellen und Verwenden mehrerer Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in der [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+1. (Optional) Erstellen Sie eine Kopie des vorhandenen Szenarios, um ein Szenario desselben Plans zu erstellen. Weitere Informationen zum Erstellen und Verwenden mehrerer Szenarien finden Sie unter [Erstellen und Vergleichen von Planszenarien in der [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 1. Klicken Sie **[!UICONTROL Plan speichern]**.
 
    Ihr Plan wird erstellt oder aktualisiert.

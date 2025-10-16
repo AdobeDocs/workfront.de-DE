@@ -9,28 +9,24 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
 # Zugriff auf die Proofing-Funktion in Workfront
 
-Welche Proofing-Funktion Ihren Benutzern zur Verfügung steht, hängt davon ab, welchen Workfront-Plan Ihr Unternehmen erworben hat.
+Das Proofing wird automatisch für alle Lizenzen in der Workfront durchgeführt. Lizenzen bestimmen, was Benutzer tun können.
 
-## Proofing in Workfront
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-Derzeit gibt es drei Planungsoptionen für das Proofing in Workfront:
+Die Legacy-Workfront-Pakete des Jahres 2017 enthalten automatisch ein Proofing für Arbeits- und Planlizenzen, wenn Sie die Pro-, Business- oder Enterprise-Workfront-Pläne haben. Diese Pläne laufen derzeit aus.
 
-* **Neue Workfront-Pläne**: In den neuen Workfront-Plänen wird automatisch ein Proofing für alle Lizenzen durchgeführt.
-* **Aktuelle Workfront Pro+-Pläne**: Proofing ist automatisch für Arbeits- und Planlizenzen enthalten, wenn Sie die Pro-, Business- oder Enterprise Workfront-Pläne haben.
-* **Legacy Workfront Premium-Pläne**: Diese Option ist für ältere Workfront-Pläne - Select, Enterprise, Premium. In diesem Plan ist das Proofing nicht automatisch mit Lizenzen enthalten. Sie müssen Proofing-Zugriff für bestimmte Benutzer in deren Benutzerprofil gewähren.
+Wenn Sie Workfront-Administrator sind, können Sie unter Einrichtung > System > Lizenzen prüfen, welchen Plan Ihre Instanz verwendet.
 
-  Wenn Sie Workfront-Administrator sind, können Sie unter Einrichtung > System > Lizenzen prüfen, welchen Plan Ihre Instanz verwendet.
-
-### Proofing-Funktionen in Workfront
+## Proofing-Funktionen in Workfront
 
 Informationen zum Gewähren und Sperren des Benutzerzugriffs auf das Erstellen und Anzeigen von Korrekturabzügen in Workfront finden Sie [Konfigurieren des Korrekturabzugszugriffs einer Benutzerin bzw. eines Benutzers](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

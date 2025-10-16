@@ -6,10 +6,10 @@ description: Sie können einen Slack-Kommentar als Aktualisierung zu einem besti
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
@@ -19,22 +19,26 @@ Sie können einen [!DNL Slack] Kommentar als Aktualisierung zu einem bestimmten 
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Beliebig</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.\
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -56,7 +60,7 @@ Bevor Sie einen [!DNL Slack] Kommentar als Update posten können, müssen Sie
    >
 1. Beginnen Sie in das Feld **[!UICONTROL Projekt, Aufgabe oder Problem]** den Namen eines Projekts, einer Aufgabe oder eines Problems einzugeben, dem bzw. dem die Aktualisierung hinzugefügt werden soll, und klicken Sie auf den Namen des Projekts, der Aufgabe oder des Problems, wenn es bzw. es in der Liste angezeigt wird. Sie müssen Zugriff haben, um ein Objekt anzuzeigen, bevor es in der Liste angezeigt wird.
 1. (Optional) Geben **[!UICONTROL in das Feld &quot;]** einbeziehen“ den Namen eines Benutzers ein, den Sie anzeigen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
-1. Klicken Sie **[!UICONTROL Senden]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**.
 
    In [!DNL Slack] wird eine Bestätigung angezeigt, die Sie darüber informiert, dass Ihr Update veröffentlicht wurde.
 

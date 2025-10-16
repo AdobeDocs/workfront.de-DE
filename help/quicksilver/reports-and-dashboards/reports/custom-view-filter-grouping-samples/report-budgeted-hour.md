@@ -7,10 +7,10 @@ description: 'Bericht: Budgetierte Stunde'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '656'
+ht-degree: 2%
 
 ---
 
@@ -32,28 +32,21 @@ Wenn Sie Informationen zu budgetierten Stunden für andere Benutzer freigeben m�
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-    <p>Neu:</p>
-   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
-   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Filter ändern </p></li>
-   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
+   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -66,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +78,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Informationen zum Runden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Klicken Sie **Fertig**.
+1. Klicken Sie auf **Fertig**.
 1. (Optional) Klicken Sie auf **Spalte hinzufügen**, um weitere Spalten hinzuzufügen.
 1. (Optional) Um die Lesbarkeit des Berichts zu vereinfachen, wird empfohlen, eine Gruppierung hinzuzufügen. Wir schlagen folgende Gruppierung vor:
 
@@ -116,7 +109,7 @@ Im Bericht „Budgetierte Stunde“ sind standardmäßig die folgenden Informati
    <td>Dies ist der Name des Aufgabengebiets, das mit der budgetierten Stunde verknüpft ist. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Benutzerin oder Benutzer</td> 
+   <td role="rowheader">Benutzerin bzw. Benutzer</td> 
    <td>Dies ist der Name des Benutzers, der mit der budgetierten Stunde verknüpft ist.</td> 
   </tr> 
   <tr> 

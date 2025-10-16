@@ -8,36 +8,47 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
 # Zielverwaltung in Adobe Workfront Ziele: Artikelindex
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>
+>Adobe Workfront Goals ist nicht mehr erhältlich.
+>
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Für die neue Plan- und Lizenzstruktur*:
+>* For the new plan and license structure*:
 >
->   * Ein Ultimate-Plan
+>   * An Ultimate plan 
 >    
->* Für die aktuelle Plan- und Lizenzstruktur:
+>* For the current plan and license structure: 
 >
->   * Ein Profi oder höher
->   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 >
 >
->Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 In den folgenden Artikeln erfahren Sie, wo Sie mit den Workfront-Zielen beginnen, wie wichtig die Verwendung von Zielen ist und wie Sie Ziele erstellen, bearbeiten, kommentieren und verwalten. Außerdem erfahren Sie, wie Sie Zielinformationen filtern und drucken:
 

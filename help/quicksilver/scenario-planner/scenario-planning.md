@@ -2,20 +2,20 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Adobe Workfront-Szenarioplaner
+title: 'Adobe Workfront-Szenarioplaner: Artikelindex'
 description: Eine Liste von Artikeln, die Funktionen des Workfront-Szenarioplaners beschreiben.
 author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Scenario Planner]
+# [!DNL Adobe Workfront Scenario Planner]: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
@@ -38,6 +38,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Funktionszuordnung für Projekte und Initiativen in der Aufgabenliste anzeigen](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

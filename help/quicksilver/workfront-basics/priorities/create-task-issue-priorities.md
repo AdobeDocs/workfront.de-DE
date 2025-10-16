@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ Sie können neue Aufgaben und Probleme direkt aus den Prioritäten erstellen:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Paket</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
    <td> 
-   <p>Aktuell: Anforderung oder höher für Anforderungen; Überprüfung oder höher für Probleme; Arbeit oder höher für Aufgaben</p>
-   <p>Neu: Mitwirkender oder höher für Anfragen; Leicht oder höher für Anfragen und Dokumente: Standard oder höher</p> 
+   <p>Anforderung oder höher für Anforderungen; Überprüfung oder höher für Probleme; Arbeit oder höher für Aufgaben</p>
+   <p>Mitwirkende oder höher für Anfragen; Leicht oder höher für Anfragen und Dokumente: Standard oder höher</p> 
    </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -36,22 +36,22 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Packstück</td> 
    <td> <p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront]-Lizenzen*</td> 
-   <td> <p>Neu: Standard</p>
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] Lizenzen</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Portfolios</p>  </td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Portfolios]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>[!UICONTROL Manage]-Berechtigungen für ein Portfolio</p>
-   <p> Verwalten Sie Berechtigungen für die Projekte im Portfolio, um sie zum Portfolio hinzuzufügen oder daraus zu entfernen</p>  </td> 
+   <p>[!UICONTROL Verwalten] Berechtigungen für die Projekte im Portfolio, um sie zum Portfolio hinzuzufügen oder daraus zu entfernen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,6 +59,35 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p> Manage permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Portfolios bearbeiten
 
@@ -85,7 +114,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
 
       >[!TIP]
       >
-      >Sie können auf das Symbol **Alle** erweitern![&#x200B; (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
+      >Sie können auf das Symbol **Alle** erweitern![ (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
 
       Informationen zu den Feldern, die im Abschnitt [!UICONTROL **Portfolio-Details**] angezeigt werden, finden Sie, wenn Sie mit der Bearbeitung des Portfolios im Feld [!UICONTROL **Portfolio bearbeiten**] fortfahren, wie unten beschrieben.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Portfolio angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** in der oberen rechten Ecke der Seite **Details** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.

@@ -7,7 +7,7 @@ description: Berechnete Arbeit ist ein Dauertyp, den Sie für eine Aufgabe in Ad
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Berechnete Arbeit ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront
 
 Berechnete Arbeit bestimmt den Aufwand (geplante Stunden), der für die Erfüllung der Aufgabe erforderlich ist. Es wird empfohlen, den Typ Berechnete Arbeitsdauer zu verwenden, wenn die der Aufgabe zugewiesenen Ressourcen für die gesamte Dauer der Aufgabe zugewiesen sind.
 
-Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als berechnete Arbeit festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als berechnete Arbeit festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Beim Hinzufügen von Ressourcen zu einer Aufgabe kann ein Projektmanager erwarten, dass der geplante Aufwand zunimmt. Beispiel: Ein einstündiges Planungstreffen mit drei Ressourcen stellt insgesamt drei Arbeitsstunden dar, und ein einstündiges Planungstreffen mit zehn Ressourcen stellt zehn Arbeitsstunden dar. Dabei wird davon ausgegangen, dass jede Ressource der Aufgabe mit 100%iger Zuordnung zugeordnet ist.
 

@@ -3,13 +3,13 @@ content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Häufig gestellte Fragen zu Aufgaben
-description: Standardmäßig erhält ein Aufgabenanfragender/-zuweiser keine E-Mail-Benachrichtigungen über die Änderungen an den Aufgaben, die er anderen Benutzern zuweist. Die Anzahl der Benachrichtigungen zu diesen Aufgaben wäre für jemanden, der regelmäßig eine große Anzahl von Aufgaben zuweist, überwältigend.
+description: Dieser Artikel enthält eine Liste der am häufigsten gestellten Fragen zu Aufgaben in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---

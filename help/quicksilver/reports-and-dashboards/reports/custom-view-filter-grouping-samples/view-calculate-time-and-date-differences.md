@@ -7,9 +7,9 @@ description: Erfahren Sie, wie Sie Zeit- und Datumsunterschiede berechnen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -35,26 +35,24 @@ Sie können die Differenz zwischen den folgenden Werten berechnen:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: </p><ul><li><p>Mitwirkende zum Ändern einer Ansicht </p></li><li>
-   <p>Standard zum Ändern eines Berichts</p></li></ul><p>Oder</p><p>Aktuell:</p><ul><li><p>Änderung einer Ansicht anfordern </p></li><li>
-   <p>Planen der Änderung eines Berichts</p> </li><ul></td> 
+   <td> 
+   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
-  </tr>  
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 

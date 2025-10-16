@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
 # Über das standardmäßige Adobe Workfront-Layout
 
-Das Standardlayout besteht aus der Anordnung des Hauptmenüs ![Hauptmenüsymbol](assets/main-menu-icon.png) oder des Hauptmenüs ![Hauptmenüsymbol](assets/main-menu-icon.png) falls verfügbar, des linken Bedienfelds sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layout-Vorlage vornimmt.
+Das Standardlayout besteht aus der Anordnung des Hauptmenüs ![Hauptmenüsymbol](assets/main-menu-icon.png) oder des Hauptmenüs ![Hauptmenüsymbol](assets/main-menu-icon-left-nav.png) falls verfügbar, des linken Bedienfelds sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layout-Vorlage vornimmt.
 
 Informationen dazu, wie Workfront-Admins das Standard-Layout von Benutzenden ändern können, indem sie ihnen eine Layout-Vorlage zuweisen, finden Sie [Zuweisen von Benutzenden zu einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -51,7 +51,7 @@ In der folgenden Tabelle werden die Standardmenüoptionen und die im linken Bedi
     <th class="tg-0lax"><span style="font-weight:bold">Planerin oder Planer</span></th>
     <th class="tg-0lax"><span style="font-weight:bold">Arbeitskraft</span></th>
     <th class="tg-1wig">Prüfende Person</th>
-    <th class="tg-1wig">Anfragender</th>
+    <th class="tg-1wig">Anfragenden</th>
     <th class="tg-1wig">Externer Benutzer</th>
   </tr></thead>
 <tbody>

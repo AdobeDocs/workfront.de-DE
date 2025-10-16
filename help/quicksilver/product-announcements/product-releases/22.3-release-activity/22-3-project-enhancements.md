@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Dieses Update enthält:
 * Die benutzerdefinierten Standardformulare, die im Bereich Aufgabeneinstellungen des Zielprojekts definiert sind, wurden der neuen Aufgabe hinzugefügt.
 
 
-Weitere Informationen finden Sie unter [Konvertieren eines Problems in eine Aufgabe in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Weitere Informationen finden Sie unter [Problem in eine Aufgabe konvertieren](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Neues Erlebnis beim Konvertieren eines Problems in ein Projekt ohne Vorlage
 
@@ -143,7 +143,7 @@ Weitere Informationen zum Freigeben von Ordnern finden Sie [Freigeben eines Doku
 
 >[!NOTE]
 >
->Diese Funktion wird voraussichtlich am 9. Januar 2023 aus der Vorschau entfernt. Weitere Informationen finden Sie auf der Übersichtsseite zur Version [23.1 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Diese Funktion wird voraussichtlich am 9. Januar 2023 aus der Vorschau entfernt. Weitere Informationen finden Sie auf der Übersichtsseite zur Version [23.1 ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >

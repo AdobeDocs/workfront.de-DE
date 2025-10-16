@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Verwenden von Aufgabenvorgängern
+title: 'Verwenden von Aufgabenvorgängern: Artikelindex'
 description: Vorgänger sind Aufgaben, von denen andere Aufgaben (so genannte Nachfolgeaufgaben) abhängen, bevor sie abgeschlossen werden können. In den folgenden Artikeln erfahren Sie mehr über Vorgänger in Adobe Workfront.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-# Verwenden von Aufgabenvorgängern
+# Verwenden von Aufgabenvorgängern: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

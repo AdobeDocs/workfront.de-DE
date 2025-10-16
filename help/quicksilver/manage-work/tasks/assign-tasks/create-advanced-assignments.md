@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -49,33 +49,32 @@ Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Standard</p>
-    <p>Aktuell: Arbeit oder höher</p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+   <p>Arbeit oder höher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td role>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben und Probleme bearbeiten</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Mitwirken an oder höhere Berechtigungen für eine Aufgabe oder ein Problem</p>  </td> 
+   <td>Objektberechtigungen</td> 
+   <td> <p>Mitwirken an oder höhere Berechtigungen für die Aufgabe oder das Problem</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,9 +87,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Erweiterte Zuweisungen können direkt in der Aufgaben- oder Problemliste vorgenommen werden. Klicken Sie in das **Arbeitsaufträge**-Feld in derselben Zeile wie die Aufgabe oder das Problem und klicken Sie dann auf <span class="preview">**Erweitert**</span> oder das **Personen-Symbol**, um das Fenster „Erweiterte Arbeitsaufträge“ zu öffnen. Fahren Sie mit Schritt 5 fort, um mit dem Erstellen erweiterter Zuweisungen fortzufahren.
    ><span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-   >![Klicken Sie auf Erweitert oder auf das Symbol Personen &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicken Sie auf Erweitert oder auf das Symbol Personen ](assets/access-aa-from-lists.png)
    >Beispielbild in der Produktionsumgebung:
-   >![Klicken Sie auf das Symbol Personen &#x200B;](assets/nwe-advanced-assignments-350x55.png)
+   >![Klicken Sie auf das Symbol Personen ](assets/nwe-advanced-assignments-350x55.png)
 
 1. Klicken Sie **Zuweisen zu** im Feld **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems
 
@@ -136,13 +135,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
      >[!IMPORTANT]
      >
-     >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt „Mehrere Benutzer einer Aufgabe zuweisen“ im Artikel &quot;[&#x200B; zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt „Mehrere Benutzer einer Aufgabe zuweisen“ im Artikel &quot;[ zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Zuteilungen**: Wenn der Dauertyp einer Aufgabe „Einfach“ ist, geben Sie die Anzahl der Stunden an, die jeder Benutzer oder jedes Aufgabengebiet der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer ist gleich der Zahl im Feld **Geplante Stunden** am unteren Rand der Spalte „Zuordnungen“. Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Beauftragte für die Lösung der Aufgabe oder des Problems aufwenden soll.
 
      >[!TIP]
      >   
-     >   * Nachdem Sie die Zuweisungen für Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt „Geplante Stunden für die Aktualisierung von Aufgaben bei der Verwaltung von Benutzerzuweisungen“ im Artikel &quot;[&#x200B; Stunden - Übersicht](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Nachdem Sie die Zuweisungen für Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt „Geplante Stunden für die Aktualisierung von Aufgaben bei der Verwaltung von Benutzerzuweisungen“ im Artikel &quot;[ Stunden - Übersicht](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Zuweisungen für Probleme können nicht manuell geändert werden.
      >   * Zuteilungen für Teams, die Aufgaben zugewiesen sind, können nicht manuell geändert werden.
 

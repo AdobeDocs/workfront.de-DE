@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Anfrage-Warteschlangen erstellen und verwalten
 description: Sie können Anfrage-Warteschlangen in Adobe Workfront erstellen, um ungeplante Arbeiten in Ihrem Unternehmen zu erfassen. In den folgenden Artikeln wird beschrieben, wie Sie Projekte so konfigurieren können, dass sie als Anforderungswarteschlangen funktionieren.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

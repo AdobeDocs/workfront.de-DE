@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: „OpTask“ und „Problem“ beim Referenzieren von Problemen verwenden
+title: Verwenden von „opTask“ und „issue“ beim Referenzieren von Problemen
 description: Der Name eines Problems wird in der Adobe Workfront-Datenbank als „opTask“ angezeigt. Es gibt zwar Fälle, in denen Sie den Problemfeldnamen verwenden müssen, um auf Probleme zu verweisen, aber in den meisten Fällen müssen Sie beim Verweisen auf Probleme den Feldnamen „opTask“ anstelle von „Problem“ verwenden.
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # „OpTask“ und „Problem“ beim Referenzieren von Problemen verwenden
+
+<!--Audited: 08/2025-->
 
 Der Name eines Problems wird in der Adobe Workfront-Datenbank als `opTask` angezeigt. Es gibt zwar Fälle, in denen Sie den `issue` Feldnamen verwenden müssen, um auf Probleme zu verweisen, aber in den meisten Fällen müssen Sie beim Verweisen auf Probleme den `opTask` Feldnamen anstelle von `issue` verwenden.
 
@@ -32,7 +34,7 @@ Verwenden Sie den `opTask` Feldnamen beim Referenzieren von Problemen in den fol
 
 * Beim Aktualisieren von Problemfeldern in einem Kickstart-Datenimportblatt.
 
-  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[&#x200B; finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[ finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## `issue` Feldname
 

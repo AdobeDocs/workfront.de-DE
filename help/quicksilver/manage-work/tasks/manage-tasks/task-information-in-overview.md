@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails - Übersicht“
-description: Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails - Übersicht“
+description: Sie können die Informationen einer Aufgabe anzeigen oder bearbeiten, indem Sie im Abschnitt „Aufgabendetails“ im Bereich „Übersicht“ aufrufen. Es gibt eine begrenzte Anzahl von Feldern, die Sie im Abschnitt Aufgabendetails anzeigen oder bearbeiten können.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-Sie können die Informationen einer Aufgabe anzeigen oder bearbeiten, indem Sie auf den Bereich Übersicht des Abschnitts Aufgabendetails zugreifen. Es gibt eine begrenzte Anzahl von Feldern, die Sie in diesem Bereich anzeigen oder bearbeiten können. Informationen zum Bearbeiten aller Informationen für eine Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Sie können die Informationen einer Aufgabe anzeigen oder bearbeiten, indem Sie im Abschnitt „Aufgabendetails“ im Bereich „Übersicht“ aufrufen. Es gibt eine begrenzte Anzahl von Feldern, die Sie im Abschnitt Aufgabendetails anzeigen oder bearbeiten können.
+
+Informationen zum Bearbeiten aller Informationen für eine Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 In diesem Artikel wird beschrieben, wie Sie Informationen im Bereich Übersicht der Aufgabendetails anzeigen oder bearbeiten. Informationen zum Aktualisieren anderer Bereiche von Aufgabendetails finden Sie in den folgenden Artikeln:
 
@@ -29,31 +31,29 @@ In diesem Artikel wird beschrieben, wie Sie Informationen im Bereich Übersicht 
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> Plan*</b> </p> </td> 
+   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> Lizenz*</b> </p> </td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Adobe Workfront-Lizenz </p> </td> 
+   <td><p>Standard</p> 
+   <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationen der Zugriffsebene*</strong> </td> 
-   <td> <p>Anzeigen oder Hochladen des Zugriffs auf Projekte und Aufgaben</p> <p>Wenn Sie die richtige Zugriffsebene haben, aber den Abschnitt „Details“ der Aufgabe immer noch nicht bearbeiten können, fragen Sie Ihren Adobe Workfront, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen oder Hochladen des Zugriffs auf Projekte und Aufgaben</p> <p>Wenn Sie die richtige Zugriffsebene haben, aber den Abschnitt „Details“ der Aufgabe immer noch nicht bearbeiten können, fragen Sie Ihren Adobe Workfront, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Contribute oder höhere Berechtigungen für das Projekt</p> <p>Zeigen Sie die Berechtigungen für die Aufgabe an, um Informationen im Abschnitt Details anzuzeigen. </p> 
-   <p>Contribute-Berechtigungen für die Aufgabe , um die folgenden Informationen im Abschnitt „Details“ zu aktualisieren:</p>
+   <td> <p>Objektberechtigungen</p> </td> 
+   <td> <p>Mitwirken an oder höhere Berechtigungen für das Projekt</p> <p>Zeigen Sie die Berechtigungen für die Aufgabe an, um Informationen im Abschnitt Details anzuzeigen. </p> 
+   <p>Tragen Sie Berechtigungen für die Aufgabe bei, um die folgenden Informationen im Abschnitt Details zu aktualisieren:</p>
 
 <ul>
    <li>Beschreibung</li>
@@ -64,6 +64,42 @@ Sie müssen über Folgendes verfügen:
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Bearbeiten von Aufgabeninformationen im Abschnitt „Aufgabendetails - Übersicht“
 
@@ -155,7 +191,7 @@ Sie müssen über Folgendes verfügen:
             <td>Abkürzung</td> 
            </tr> 
            <tr> 
-            <td>Minuten</td> 
+            <td>Minutes</td> 
             <td>M</td> 
            </tr> 
            <tr> 
@@ -167,12 +203,12 @@ Sie müssen über Folgendes verfügen:
             <td>D</td> 
            </tr> 
            <tr> 
-            <td>Wochen</td> 
-            <td>W </td> 
+            <td>Weeks</td> 
+            <td>W</td> 
            </tr> 
            <tr> 
-            <td>Monate</td> 
-            <td>D</td> 
+            <td>Months</td> 
+            <td>T</td> 
            </tr> 
            <tr> 
             <td>Verstrichene Minuten</td> 
@@ -269,7 +305,7 @@ Sie müssen über Folgendes verfügen:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Projizierter Starttermin</td> 
+      <td role="rowheader">Voraussichtlicher Starttermin</td> 
       <td> <p>Das „reale“ Datum, an dem die Aufgabe beginnen soll, basierend auf dem Fortschritt und dem Abschluss vorheriger Aufgaben. Dies ist ein berechnetes Feld, das nicht manuell bearbeitet werden kann.</p> <p> Das voraussichtliche Startdatum und das geplante Startdatum sind identisch, wenn zum ersten Mal ein Projekt geplant wird. Das voraussichtliche Startdatum kann vom geplanten Startdatum weg verschoben werden, wenn sich das Projekt weiterentwickelt und die Aufgabe noch nicht gestartet wurde. Weitere Informationen über das voraussichtliche Startdatum finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Übersicht über das voraussichtliche Startdatum des Projekts</a>. </p> </td> 
      </tr> 
      <tr> 

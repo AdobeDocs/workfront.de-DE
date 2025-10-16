@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 7%
+source-wordcount: '1019'
+ht-degree: 8%
 
 ---
 
@@ -32,32 +32,27 @@ Der Export von Daten über Kickstarts ist auch hilfreich, um zu verstehen, welch
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Neu: Standard</p>
-   Oder
-   <p>Aktuell: Plan</p>
-   </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Systemadministrator]</td>
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td>Systemadministrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -161,7 +156,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
-      <td valign="top"> <p>Benutzerin oder Benutzer</p> </td> 
+      <td valign="top"> <p>Benutzerin bzw. Benutzer</p> </td> 
       <td valign="top"> <p><br></p> </td> 
       <td valign="top"> <p> Excel</p> </td> 
      </tr> 
@@ -225,7 +220,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
      <tr> 
       <td valign="top">Filter</td> 
       <td valign="top"> <br> </td> 
-      <td valign="top">ZIP </td> 
+      <td valign="top">ZIP CODE </td> 
      </tr> 
      <tr> 
       <td valign="top">Gruppe</td> 
@@ -235,10 +230,10 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
      <tr> 
       <td valign="top">Gruppierung</td> 
       <td valign="top"> grouping.<br> </td> 
-      <td valign="top">ZIP</td> 
+      <td valign="top">ZIP CODE</td> 
      </tr> 
      <tr> 
-      <td valign="top">Stunde</td> 
+      <td valign="top">Hour</td> 
       <td valign="top"> <br> </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -258,7 +253,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Notiz</td> 
+      <td valign="top">Hinweis</td> 
       <td valign="top"> Hinweis<br>Voreinstellungen </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -323,9 +318,9 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
-      <td valign="top"> Anzeigen </td> 
+      <td valign="top"> Ansicht </td> 
       <td valign="top"> <br>  </td> 
-      <td valign="top">ZIP</td> 
+      <td valign="top">ZIP CODE</td> 
      </tr> 
     </tbody> 
    </table>

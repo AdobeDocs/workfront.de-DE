@@ -6,16 +6,16 @@ description: Projektanfragen werden in Adobe Workfront als Projekte mit dem Stat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Angeforderte Projekte überprüfen
 
-Wenn mehrere Projektanträge zur Prüfung eingereicht werden, kann das Projektmanagementbüro oder der Portfoliokomitee zusammentreten, um eingereichte Anträge zu prüfen und die Genehmigungen für Projektanträge zu bestimmen. Projektanfragen werden in [!DNL Adobe Workfront] als Projekte mit dem Status [!UICONTROL Angefordert] angezeigt.
+Wenn mehrere Projektanträge zur Prüfung eingereicht werden, kann das Projektmanagementbüro oder der Portfoliokomitee zusammentreten, um eingereichte Anträge zu prüfen und die Genehmigungen für Projektanträge zu bestimmen. Projektanfragen werden in [!UICONTROL  als Projekte mit dem Status ]Angefordert[!DNL Adobe Workfront] angezeigt.
 
 Sie können eine Projektanfrage zur Überprüfung senden, indem Sie einen der folgenden Schritte ausführen:
 
@@ -30,21 +30,20 @@ Sie können angeforderte Projekte in den folgenden [!DNL Adobe Workfront] überp
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Packstück</td> 
    <td><p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL -Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>[!UICONTROL Standard] </p> 
+   <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -61,11 +60,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] access or higher to Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Überprüfen angeforderter Projekte in einem Projektbericht
 
-Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; &#x200B;].
+Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; ].
 
-Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL &#x200B; Abschnitt „Genehmigen des Business Case durch Erstellen &#x200B;]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md). 
+Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL  Abschnitt „Genehmigen des Business Case durch Erstellen ]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md). 
 
 ## Angeforderte Projekte innerhalb eines Portfolios überprüfen
 
@@ -83,7 +107,7 @@ Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines 
 1. Klicken Sie **[!UICONTROL linken]** auf „Projektdetails“.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie **[!UICONTROL Business Case]** und klicken Sie dann im Bereich **[!UICONTROL Business Case-Zusammenfassung] auf** Genehmigen **oder** Ablehnen, um den Business Case zu genehmigen oder abzulehnen.
+   * Klicken Sie **[!UICONTROL Business Case]** und klicken Sie dann im Bereich **[!UICONTROL Business Case-Zusammenfassung]** auf **[!UICONTROL Genehmigen]** oder [!UICONTROL Ablehnen], um den Business Case zu genehmigen oder abzulehnen.
 
      ![approve_or_ject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

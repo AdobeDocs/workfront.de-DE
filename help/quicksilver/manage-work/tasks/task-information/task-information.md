@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Dieser Abschnitt enthält die folgenden Artikel:
+Aufgaben sind Arbeitselemente, die zum Abschluss eines Projekts in Adobe Workfront beitragen. Informationen zu Aufgabeninformationen finden Sie in den folgenden Artikeln:
 
 * [Aufgaben - Übersicht](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [Tatsächliche Stunden anzeigen](../../../manage-work/tasks/task-information/actual-hours.md)
@@ -33,7 +33,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Übersicht über das Datum der Aufgabenübergabe](../../../manage-work/tasks/task-information/handoff-task-date.md)
 * [Aufgabe - Slack - Datumsübersicht](../../../manage-work/tasks/task-information/task-slack-date.md)
-* [&#x200B; „Kann starten“-Übersicht für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
+* [ „Kann starten“-Übersicht für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [Überwachungsmodus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Abgleichsverzögerung für Aufgabe aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Aufgabenkostentyp aktualisieren](../../../manage-work/tasks/task-information/update-task-cost-type.md)

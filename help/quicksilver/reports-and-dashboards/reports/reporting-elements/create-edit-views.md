@@ -6,9 +6,9 @@ description: Sie können die Art der Informationen, die Sie auf dem Bildschirm a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -25,44 +25,35 @@ In diesem Artikel wird beschrieben, wie Sie Standardansichten für Listen und Be
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Anfrage oder höher</p></li>
-         </ul>
+    <p>Mitwirkender oder höher</p>
+    <p>Anfrage oder höher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen*</strong></td> 
+   <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Verwalten der Berechtigungen für einen Bericht zum Erstellen oder Bearbeiten einer Ansicht in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Ansicht, um sie zu bearbeiten</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Erstellen oder Anpassen einer Ansicht
@@ -90,7 +81,6 @@ Das **Ansicht anpassen** wird angezeigt.
    * Passen Sie die Reihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
    * Klicken Sie im Bereich **Spalteneinstellungen** auf **Diese Spalte zusammenfassen nach** und wählen Sie aus, wie die Daten in der Spalte angezeigt werden sollen. Diese Option ist für die folgenden Spaltentypen verfügbar:
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -106,7 +96,7 @@ Das **Ansicht anpassen** wird angezeigt.
            <td role="rowheader"><strong>Währungsfelder</strong></td> 
            <td><ul>
            <li>Count</li>
-         <li>Summe</li>
+         <li>Sum</li>
            <li>Durchschnitt</li>
          <li>Maximum</li>
            <li>Minimum</li>
@@ -203,7 +193,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
    Es wird empfohlen, in Ihrem Ansichtsnamen das Wort „Agile“ einzufügen, damit Benutzende wissen, dass es sich um eine Agile-Ansicht handelt.\
    Dieser Name wird im Dropdown **Menü „Ansicht** angezeigt, wenn Sie eine Ansicht auswählen.
 
-1. Definieren Sie die Statusspalten, die auf dem Story Board in der Agile-Ansicht angezeigt werden sollen. Dies sind die Aufgabenstatus, die vom Workfront-Administrator definiert werden, wie unter &quot;[&#x200B; erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
+1. Definieren Sie die Statusspalten, die auf dem Story Board in der Agile-Ansicht angezeigt werden sollen. Dies sind die Aufgabenstatus, die vom Workfront-Administrator definiert werden, wie unter &quot;[ erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
 
    Im Agile-Story-Board stehen nur Systemstatus zur Verwendung zur Verfügung. Wenn ein Status nur für eine einzelne Gruppe verfügbar ist, der Sie angehören, ist der Status nicht im Agile-Story-Board verfügbar. Darüber hinaus werden Aufgaben mit einem Status, der nur für eine benutzerdefinierte Gruppe verfügbar ist, nicht angezeigt, wenn das Projekt in einer Agile-Ansicht angezeigt wird.
 

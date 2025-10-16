@@ -6,10 +6,10 @@ description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambes
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '471'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
 
-Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des &#x200B;]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des ]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
 
 Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Bereich [!UICONTROL Setup] erstellen kann, finden Sie [Erstellen eines Teams im Bereich [!UICONTROL Setup]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
@@ -25,22 +25,19 @@ Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Ber
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Paket</p> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
  </tbody> 
 </table>

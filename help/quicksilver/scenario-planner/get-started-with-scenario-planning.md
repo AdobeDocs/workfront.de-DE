@@ -5,20 +5,19 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit dem [!DNL Scenario Planner]
 
-Die [!DNL Scenario Planner] erfordert eine zusätzliche Lizenz zur [!DNL Adobe Workfront]. Weitere Informationen zum Workfront-[!DNL Scenario Planner] finden Sie unter [Die [!DNL Scenario Planner] Übersicht](../scenario-planner/scenario-planner-overview.md).
-
 Sie können die [!DNL Adobe Workfront Scenario Planner] verwenden, um Pläne auf Unternehmensebene zu erstellen, die die allgemeinen strategischen Ergebnisse Ihres Unternehmens beschreiben. Sie können mehrere Initiativen für einen Plan definieren und in verschiedenen Szenarien platzieren, um die optimale Lösung für die Ausführung des Plans zu finden.
 
 Einen umfassenden Überblick über die [!DNL Workfront Scenario Planner] finden Sie unter [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
+
 
 ## Ansätze zur Verwendung des [!DNL Workfront Scenario Planner]
 
@@ -59,9 +58,9 @@ Die [!DNL Workfront Scenario Planner] wird angezeigt.
 
    Klicken Sie **[!UICONTROL Neuer Plan]**, um einen neuen Plan hinzuzufügen.
 
-   Weitere Informationen zum Erstellen von Plänen finden [&#x200B; unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
+   Weitere Informationen zum Erstellen von Plänen finden [ unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
 
-## Objekte [!DNL Workfront Scenario Planner]
+## [!DNL Workfront Scenario Planner]-Objekte
 
 In der folgenden Tabelle werden die [!DNL Workfront Scenario Planner] Objekte beschrieben. Ihr [!DNL Workfront] kann seinen Namen in Ihrem System anpassen, indem er eine Layout-Vorlage ändert und sie Benutzern, Teams oder Gruppen zuweist. Informationen zum Anpassen von Objektnamen mithilfe einer Layout-Vorlage finden Sie [Anpassen der Terminologie der Benutzeroberfläche mithilfe einer Layout-Vorlage](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 

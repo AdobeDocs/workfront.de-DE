@@ -6,9 +6,9 @@ description: In diesem Artikel erfahren Sie mehr über die Richtlinien für die 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Ado
 
 * Sie können die Spaltenbreite in Ihren Workfront-Listen und -Berichten an Ihre Anforderungen anpassen, je nachdem, welche Art von Informationen Sie in Spalten anzeigen möchten.
 
-  Sie können die Breite von Spalten vorübergehend ändern, während Sie eine Liste oder einen Bericht anzeigen, oder dauerhaft ändern, indem Sie die Breite der Spalte im View Builder anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie im Abschnitt [Überlegungen beim temporären Ändern der Breite und Reihenfolge &#x200B;](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) Spalten“ in diesem Artikel.
+  Sie können die Breite von Spalten vorübergehend ändern, während Sie eine Liste oder einen Bericht anzeigen, oder dauerhaft ändern, indem Sie die Breite der Spalte im View Builder anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie im Abschnitt [Überlegungen beim temporären Ändern der Breite und Reihenfolge ](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) Spalten“ in diesem Artikel.
 
 * Spalten, die in integrierten Ansichten angezeigt werden, haben Breiten, die zuvor von Workfront definiert wurden und hartcodiert sind. Um diese Breiten zu ändern, müssen Sie die Breite dieser Spalten mithilfe des Textmodus im View Builder manuell aktualisieren.
 
@@ -38,43 +38,37 @@ Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Ado
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Anfrage oder höher</p></li>
-         </ul>
+    <p>Mitwirkender oder höher</p>
+    <p>Anfrage oder höher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu bearbeiten</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Verwalten der Berechtigungen für einen Bericht zum Bearbeiten einer Ansicht in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Ansicht, um sie zu bearbeiten</p></td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+    <td> <p>Verwalten der Berechtigungen für einen Bericht zum Bearbeiten einer Ansicht in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Ansicht, um sie zu bearbeiten</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +83,7 @@ Sie können die Breite und Reihenfolge der Spalten in Ihren Berichten wie folgt 
 
 Sie können Spaltenrahmen ziehen, um die Spaltengröße zu ändern, und Spalten per Drag-and-Drop verschieben, um sie in den meisten Listen auf der gesamten Workfront-Site vorübergehend neu anzuordnen. Dazu gehören Berichte, Ansichten, Berichte zu Dashboards und die Gantt-Ansicht.
 
-Weitere Informationen zu Workfront-Listen finden Sie im Artikel &quot;[&#x200B; mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Weitere Informationen zu Workfront-Listen finden Sie im Artikel &quot;[ mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * [Überlegungen beim vorübergehenden Ändern der Breite und Reihenfolge von Spalten](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
 * [Spaltengröße vorübergehend ändern](#resize-columns-temporarily)

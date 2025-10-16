@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '174'
 ht-degree: 4%
 
 ---
@@ -23,23 +23,19 @@ Catch me up - powered by Workfront AI Assistant - fasst Aktualisierungen, hochge
 
 ## Zugriffsanforderungen
 
-+++Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können: 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Nicht verfügbar</p></td>
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td>Beliebig</td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Nicht verfügbar</p></td>
+   <td><p>Standard</td>
   </tr> 
  </tbody> 
 </table>

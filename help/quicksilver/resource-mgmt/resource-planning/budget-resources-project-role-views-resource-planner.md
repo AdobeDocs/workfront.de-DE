@@ -6,9 +6,9 @@ description: Sie können Ressourcen im Adobe Workfront-Ressourcenplaner mithilfe
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ Bevor Sie mit der Budgetplanung im Ressourcenplaner beginnen, lesen Sie die folg
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-    <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan</p></td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten bearbeiten, um Ressourcen nach Kosten zu budgetieren</p> <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +104,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * Klicken Sie auf das **Mehr**-Menü für das Projekt und dann auf **Geplante Stunden für Funktionen als „Budgetiert“**.\
      Die budgetierten Stunden für jede Funktion werden anhand der folgenden Formel berechnet:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -158,7 +153,7 @@ Sie müssen Bearbeitungszugriff auf die Ressourcen-Management- und Finanzdaten s
 
 Informationen zum Zugriff, der für die Budgetierung von Ressourcen erforderlich ist, finden Sie im Artikel [Zugriff auf die Budgetierung von Ressourcen in Adobe Workfront erforderlich](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-So budgetieren Sie Zuteilungen im Ressourcenplaner in der **&#x200B;**:
+So budgetieren Sie Zuteilungen im Ressourcenplaner in der ****:
 
 1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
@@ -179,8 +174,8 @@ So budgetieren Sie Zuteilungen im Ressourcenplaner in der **&#x200B;**:
    * Geben **in der Spalte** BDG) manuell die Anzahl der budgetierten Stunden, VZÄ oder Kosten für die Aufgabengebiete an.\
      Dadurch werden die für die Funktion budgetierten Stunden auf die budgetierten Stunden des Projekts für die Projekte verteilt, auf die Sie Zugriff haben.
 
-   * Klicken Sie auf das **Mehr**-Menü für das Aufgabengebiet und dann auf **Geplante Stunden für Projekte als „Budgetiert“ festlegen.**&#x200B;Die für die Funktion budgetierten Stunden werden anhand der folgenden Formel berechnet:\
-     &#x200B;*
+   * Klicken Sie auf das **Mehr**-Menü für das Aufgabengebiet und dann auf **Geplante Stunden für Projekte als „Budgetiert“ festlegen.**Die für die Funktion budgetierten Stunden werden anhand der folgenden Formel berechnet:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

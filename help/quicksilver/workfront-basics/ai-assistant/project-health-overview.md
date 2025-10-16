@@ -5,9 +5,9 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,8 @@ Der KI-Assistent kann eine Bewertung des Projektzustands für die folgenden Obje
 
 Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übers
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Auswählen von, Prime oder Ultimate </p> 
+<p>Auswählen oder höher </p> 
+<p>Workflow auswählen oder höher</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übers
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
-   <td><p>Administrator zum Verwalten der Projektkonsistenzkonfigurationen </p>
-   <p>Bearbeiten, um Projektzustandskonfigurationen anzuwenden </p>
-     <p>Anzeigen, um Projektzustandskonfigurationen anzuzeigen </p>
+   <td><p>Sie müssen Systemadministrator sein, um Projektzustandskonfigurationen verwalten zu können </p>
+   <p>Zugriff auf Projekte bearbeiten, um Projektzustandskonfigurationen anzuwenden </p>
+     <p>Anzeigen des Zugriffs auf Projekte zum Anzeigen von Projektzustandskonfigurationen </p>
   </td> 
   </tr>  
     </tr>  
@@ -275,7 +277,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 

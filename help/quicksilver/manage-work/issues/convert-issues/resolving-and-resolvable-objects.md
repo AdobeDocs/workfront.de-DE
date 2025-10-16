@@ -7,16 +7,16 @@ description: Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lös
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 1%
+source-wordcount: '1760'
+ht-degree: 2%
 
 ---
 
 # Übersicht über das Auflösen und das Auflösen von Objekten
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lösungsobjekt gebunden ist. Ein Lösungsobjekt ist ein Projekt, eine Aufgabe oder ein anderes Problem.
 

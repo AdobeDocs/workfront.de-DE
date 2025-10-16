@@ -5,10 +5,10 @@ description: Mit der Funktion „Zusammenfassen“ können Sie Arbeitselemente u
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 
@@ -27,13 +27,11 @@ Der KI-Assistent kann Ihnen dabei helfen, Projekte, Aufgaben und Probleme in Wor
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>Aktuell: Nicht verfügbar</p></td>
+   <td><p>Beliebig</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>Aktuell: Nicht verfügbar</p></td>
+   <td><p>Standard</p>
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +42,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Arbeitselemente suchen
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie eine Eingabeaufforderung ein, wie etwa:
 
    * *Diese Woche fällige Aufgaben suchen*

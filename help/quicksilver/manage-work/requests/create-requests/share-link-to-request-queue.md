@@ -1,13 +1,13 @@
 ---
 title: Freigeben eines Links zu einer Anfrage-Warteschlange
 description: Sie können einen Link zu einer Anfrage-Warteschlange, einer Themengruppe oder einem Warteschlangenthema freigeben, während Sie die Anfrage senden.
-author: Alina
+author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '288'
 ht-degree: 4%
 
 ---
@@ -24,21 +24,18 @@ Sie können einen Link zu einer Anfrage-Warteschlange, einer Themengruppe oder e
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Mitwirkender oder höher</p>
-   Oder
-   <p>Aktuell: Anforderung oder höher</p>
+   <td> <p>Mitwirkender oder höher</p>
+   <p>Anfrage oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

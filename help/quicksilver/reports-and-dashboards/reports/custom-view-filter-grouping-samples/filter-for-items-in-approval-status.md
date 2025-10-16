@@ -7,9 +7,9 @@ description: Sie können nur Elemente in einem bestimmten Status anzeigen, der s
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -28,28 +28,21 @@ Sie können die folgenden Objekte in einen Genehmigungsstatus versetzen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-    <p>Neu:</p>
-   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
-   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Filter ändern </p></li>
-   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
+   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -62,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Fügen Sie beispielsweise in einem Projektbericht den **Status Planung** ein, wenn Sie nur Projekte anzeigen möchten, die den Status &quot;**- Genehmigung steht aus“**.
 1. Klicken Sie **Textmodus**.
-1. Ändern Sie die `status`, indem Sie **:A** zum aus drei Buchstaben bestehenden Schlüssel des Status hinzufügen:
+1. Ändern Sie die `status` Zeile, indem Sie dem aus drei Buchstaben bestehenden Schlüssel des Status **:A** hinzufügen:
    <pre>status=PLN:A<br>status_mod=in</pre>
 
 1. Klicken Sie **Übernehmen** > **Als neu speichern**.

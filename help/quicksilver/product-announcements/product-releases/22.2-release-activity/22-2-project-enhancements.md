@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ Wir haben ein neues Menü Mehr in Projektlisten und Berichten hinzugefügt, dami
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Projektzeitleisten neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [Projektfinanzen neu &#x200B;](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [Projektfinanzen neu ](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Exportieren eines Projekts in das Microsoft-Projekt](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
@@ -124,7 +124,7 @@ Um die Effizienz zu steigern und die Anzahl der Klicks zu reduzieren, haben wir 
 
 Benutzer bleiben auf der Liste, dem Bericht oder einem Dashboard, nachdem sie ein Problem in ein Projekt konvertiert haben, anstatt zur Projektseite weitergeleitet zu werden. Nach Abschluss der Konvertierung wird eine Erfolgsmeldung mit dem Link zum Projekt angezeigt, damit Sie bei Bedarf einfach zum Projekt navigieren können.
 
-Weitere Informationen finden Sie unter [Konvertieren eines Problems in ein Projekt in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Weitere Informationen finden Sie unter [Problem in ein Projekt konvertieren](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Zuordnungsstunden werden bei Änderungen an Zuweisungen nicht mehr entfernt
 

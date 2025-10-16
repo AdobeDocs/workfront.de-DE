@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 4%
+source-wordcount: '663'
+ht-degree: 12%
 
 ---
 
@@ -20,32 +20,33 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts von Teams und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
    ![Teams optimieren](assets/fine-tune-teams.png)
@@ -60,12 +61,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
          <td role="rowheader">Meinen Gruppen zugeordnete Teams anzeigen</td>
          <td>
           <p><b>Aktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können sie die mit ihren Gruppen verknüpften Teams sehen, unabhängig davon, ob sie Team-Mitglieder sind oder nicht. </p>
-          <p><b>Deaktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung für Teams nach Teams suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur sehen, wenn sie Team-Mitglieder sind</p><p>Diese Option ist standardmäßig aktiviert.</p>
+          <p><b>Deaktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung für Teams nach Teams suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur sehen, wenn sie Team-Mitglieder sind</p><p>Standardmäßig ist diese Option aktiviert.</p>
           </td>
         </tr>
         <tr>
          <td role="rowheader">Alle Teams anzeigen</td>
-         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können die Benutzer ein beliebiges Team anzeigen und auswählen.</p><p>Diese Option ist standardmäßig aktiviert. </p></td>
+         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können die Benutzer ein beliebiges Team anzeigen und auswählen.</p><p>Standardmäßig ist diese Option aktiviert. </p></td>
         </tr>
        </tbody>
       </table>
@@ -78,30 +79,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
        <tbody>
         <tr>
          <td role="rowheader">Erstellen</td>
-         <td><p>Ermöglicht Benutzenden mit Plan- oder Arbeitslizenz, Teams zu erstellen.</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
+         <td><p>Ermöglicht Benutzenden mit Plan- oder Arbeitslizenz, Teams zu erstellen.</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Löschen</td>
-         <td><p> Ermöglicht Benutzenden mit einer Planlizenz, die Teams zu löschen, auf die sie Zugriff haben, um sie zu bearbeiten (für Benutzende mit einer Arbeitslizenz nicht verfügbar).</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
+         <td><p> Ermöglicht Benutzenden mit einer Planlizenz, die Teams zu löschen, auf die sie Zugriff haben, um sie zu bearbeiten (für Benutzende mit einer Arbeitslizenz nicht verfügbar).</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadmins)</td>
-         <td><p>Ermöglicht Benutzenden von Planlizenzen, die als Gruppenadministratoren festgelegt sind, Teams zu bearbeiten, die mit den von ihnen verwalteten Gruppen verknüpft sind.</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
+         <td><p>Ermöglicht Benutzenden von Planlizenzen, die als Gruppenadministratoren festgelegt sind, Teams zu bearbeiten, die mit den von ihnen verwalteten Gruppen verknüpft sind.</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Teams bearbeiten, denen ich angehöre</td>
-         <td><p>Ermöglicht Benutzenden, eine Plan- oder Arbeitslizenz zu vergeben, um Teams zu bearbeiten, deren Mitglied sie sind.</p><p>Diese Option ist standardmäßig deaktiviert.</p></td>
+         <td><p>Ermöglicht Benutzenden, eine Plan- oder Arbeitslizenz zu vergeben, um Teams zu bearbeiten, deren Mitglied sie sind.</p><p>Standardmäßig ist diese Option deaktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Meinen Gruppen zugeordnete Teams anzeigen</td>
          <td>
          <p><b>Aktiviert</b> Wenn Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können sie die mit ihren Gruppen verknüpften Teams sehen, unabhängig davon, ob sie Team-Mitglieder sind oder nicht. </p>
-         <p><b>Deaktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung für Teams nach Teams suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur sehen, wenn sie Team-Mitglieder sind</p><p>Diese Option ist standardmäßig aktiviert.</p>
+         <p><b>Deaktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung für Teams nach Teams suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur sehen, wenn sie Team-Mitglieder sind</p><p>Standardmäßig ist diese Option aktiviert.</p>
          </td>
         </tr>
         <tr>
          <td role="rowheader">Alle Teams anzeigen</td>
-         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können die Benutzer ein beliebiges Team anzeigen und auswählen.</p><p>Diese Option ist standardmäßig aktiviert. </p></td>
+         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können die Benutzer ein beliebiges Team anzeigen und auswählen.</p><p>Standardmäßig ist diese Option aktiviert. </p></td>
         </tr>
        </tbody>
       </table>

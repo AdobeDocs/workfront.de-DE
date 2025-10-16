@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Anhängen eines benutzerdefinierten Formulars an einen Business Case
 description: Benutzerdefinierte Forms werden verwendet, um Informationen zu erfassen, die in bestehenden Adobe Workfront-Feldern nicht angezeigt werden.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Aktuell: Prime oder höher</p>
-   <p>Legacy: Pro oder höher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
+   <td> <p>Prime oder höher</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz/p&gt;</td> 
    <td> 
-   <p>Aktuell: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -50,7 +49,7 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

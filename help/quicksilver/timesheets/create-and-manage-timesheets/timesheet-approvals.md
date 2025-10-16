@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Arbeitszeittabelle genehmigen
 description: Der Prozess der Genehmigung von Arbeitszeittabellen bietet Managern Einblick in die Arbeitszeit ihrer direkt unterstellten Mitarbeiter. Die genehmigenden Personen können überprüfen, ob alle aufgezeichneten Zeiten in den richtigen Bereichen aufgezeichnet wurden und ob eine ausreichende Anzahl von Stunden für den Zeitraum aufgezeichnet wurde.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 0%
+source-wordcount: '672'
+ht-degree: 1%
 
 ---
 
@@ -27,33 +27,28 @@ Informationen zum Senden einer Arbeitszeittabelle finden Sie unter [Senden einer
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <p>Neu: Standard</p>
-   <p>Aktuell: Plan </p> 
-   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Administrativer Zugriff auf Arbeitszeittabellen und Stunden </p> </td> 
-  </tr>
-
-</td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
+  <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td><p>Administrativer Zugriff auf Arbeitszeittabellen und Stunden</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

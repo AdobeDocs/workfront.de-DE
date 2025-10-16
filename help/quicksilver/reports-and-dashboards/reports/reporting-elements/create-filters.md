@@ -6,9 +6,9 @@ description: Sie können die Informationsmenge, die auf dem Bildschirm angezeigt
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -35,48 +35,35 @@ Sie können die folgenden Filtertypen in Adobe Workfront anwenden:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender zum Ändern eines Filters</p></li>
-         <li><p>Standard zum Ändern eines Filters in einem Bericht</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Filter ändern</p></li>
-         <li><p>Filter in einem Bericht ändern</p></li>
-         </ul>
+    <p>Mitwirkender oder Anfrage zum Ändern eines Filters</p>
+    <p>Standard oder Plan zum Ändern eines Filters in einem Bericht</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <ul><li><p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten</p></li></ul>
-
-Um einen Filter in einem Bericht zu bearbeiten, müssen Sie zusätzlich zum Bearbeitungszugriff auf Filter, Ansichten und Gruppierungen über die folgende Zugriffsebenen-Konfiguration verfügen:
-
-<ul><li><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></li></ul>   
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen*</strong></td> 
-   <td> <p>Verwalten der Berechtigungen für einen Filter</p></td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Verwalten der Berechtigungen für einen Filter</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -126,7 +113,7 @@ Sie können Filter mithilfe der in der folgenden Tabelle beschriebenen Typen von
 </tbody>
 </table>
 
-Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Benutzeroberflächen Folgendes:
 

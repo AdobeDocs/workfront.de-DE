@@ -7,9 +7,9 @@ description: 'Anzeigen: Arbeitsfreie Zeit des Benutzers'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '239'
 ht-degree: 5%
 
 ---
@@ -28,39 +28,27 @@ Sie können einen Bericht zu Ausfallzeiten erstellen, um die Urlaubszeiten der B
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p> Aktuell: 
-   <ul>
-   <li>Änderung einer Ansicht anfordern</li> 
-   <li>Planen der Änderung eines Berichts</li>
-   </ul>
-     </p>
-     <p> Neu: 
-   <ul>
-   <li>Mitwirkende zum Ändern einer Ansicht</li> 
-   <li>Standard zum Ändern eines Berichts</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Mitwirkender oder Anfrage zum Ändern einer Ansicht </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Der Bericht zeigt standardmäßig die folgenden Felder in der Ansicht an:
 
-   | Benutzerin oder Benutzer | Der Name des Benutzers, der die Urlaubszeit in seinem Profil angegeben hat. |
+   | Benutzerin bzw. Benutzer | Der Name des Benutzers, der die Urlaubszeit in seinem Profil angegeben hat. |
    |---|---|
    | Startdatum | Das Startdatum des Zeitraums der Ausfallzeit, den der Benutzer angegeben hat. |
    | Enddatum | Das Enddatum des von der Benutzerin bzw. dem Benutzer angegebenen Urlaubzeitraums. |

@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Als [!DNL Adobe Workfront] können Sie Ihre Arbeitswoche mit Zeitplänen definie
 
 Wenn Sie Benutzer haben, die in verschiedenen Zeitzonen arbeiten, wird durch die Erstellung eines Zeitplans in jeder Zeitzone und die Verknüpfung mit diesen Benutzern sichergestellt, dass ihre Arbeit in [!DNL Workfront] in Echtzeit aufgezeichnet wird und dass ihre Verfügbarkeit immer korrekt ist, je nachdem, wann sie arbeiten.
 
-Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten [&#x200B; Sie unter &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers bearbeiten und [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten [ Sie unter ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers bearbeiten und [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Gruppenadministratoren können auch Zeitpläne erstellen, die mit den von ihnen verwalteten Gruppen verknüpft sind. Weitere Informationen finden Sie unter [Erstellen und Ändern der Zeitpläne einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
@@ -39,30 +39,27 @@ Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>[!DNL Adobe Workfront] Packstück</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: [!UICONTROL Standard]</p>
-       <p>Oder</p>
-       <p>Aktuell: [!UICONTROL Plan]</p></td>
+   <td>[!DNL Adobe Workfront] Lizenz</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Systemadministrator]</td>  
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td>[!UICONTROL Systemadministrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,7 +92,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    <table style="table-layout:auto">
     <tr>
-     <td>[!UICONTROL -Gruppe mit Administratorzugriff]</td>
+     <td>[!UICONTROL-Gruppe mit Administratorzugriff]</td>
      <td><p>Wählen Sie die Gruppe aus, deren Administratoren berechtigt sind, diesen Zeitplan zu bearbeiten.</p>
      <p><b>WICHTIG</b>:</p>
       <ul>

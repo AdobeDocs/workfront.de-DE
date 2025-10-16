@@ -6,10 +6,10 @@ description: Sie können Ihre Arbeit mit dem Adobe Workfront-Plug-in aktualisier
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 3%
+source-wordcount: '195'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,6 @@ Sie können Ihre Arbeit in einem der folgenden [!DNL Adobe Creative Cloud]-Progr
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,25 +31,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
+   <td role="rowheader">Zusätzliche Produkte</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL View] Zugriff auf das Objekt, das Sie aktualisieren möchten. </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] Zugriff auf das Objekt, das Sie aktualisieren möchten. </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,4 +96,4 @@ So posten Sie eine Aktualisierung:
 1. Klicken Sie auf **[!UICONTROL Neues Update]**.
 1. Geben Sie Ihr Update ein.
 1. (Optional) Um einen Benutzer zu taggen, geben Sie das @-Symbol und den Namen des Benutzers ein und wählen Sie dann seinen Namen aus dem Dropdown-Menü aus.
-1. Klicken Sie **[!UICONTROL Senden]**. Aktualisierungen werden in Echtzeit mit der Adobe Workfront-Webanwendung synchronisiert.
+1. Klicken Sie auf **[!UICONTROL Absenden]**. Aktualisierungen werden in Echtzeit mit der Adobe Workfront-Webanwendung synchronisiert.

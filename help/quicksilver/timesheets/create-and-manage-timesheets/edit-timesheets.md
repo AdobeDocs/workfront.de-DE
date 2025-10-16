@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Arbeitszeittabellen-Informationen bearbeiten
 description: Benutzende mit administrativem Zugriff auf Arbeitszeittabellen können Informationen zu bestehenden Arbeitszeittabellen in Adobe Workfront bearbeiten. Sie können beispielsweise den Eigentümer, die genehmigenden Personen oder den Zeitrahmen der Arbeitszeittabelle bearbeiten.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 0%
+source-wordcount: '757'
+ht-degree: 1%
 
 ---
 
@@ -23,33 +23,34 @@ Sie können Informationen auf einer einzigen Arbeitszeittabelle bearbeiten oder 
 >
 >Wenn Benutzende mit Arbeitszeittabellen-Profilen verknüpft sind und die Arbeitszeittabellen automatisch generiert werden, werden die Änderungen, die Sie an vorhandenen Arbeitszeittabellen vornehmen, nicht in Arbeitszeittabellen übernommen, die für zukünftige Datumsangaben generiert werden. Für alle automatisch generierten Arbeitszeittabellen werden die Einstellungen in den Arbeitszeittabellen-Profilen festgelegt. Weitere Informationen finden Sie unter [Arbeitszeittabellen-Profile erstellen](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
-</tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td><p>Administrativer Zugriff auf Arbeitszeittabellen</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Arbeitszeittabellen bearbeiten
 
@@ -132,7 +133,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
-      <td> <p>Sie können das Feld „Überstunden“ auf der Arbeitszeittabelle ausblenden.</p> <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
+      <td> <p>Sie können das Feld „Überstunden“ auf der Arbeitszeittabelle ausblenden.</p> <p>Standardmäßig ist diese Option deaktiviert.</p> </td> 
      </tr> 
     </tbody> 
    </table>

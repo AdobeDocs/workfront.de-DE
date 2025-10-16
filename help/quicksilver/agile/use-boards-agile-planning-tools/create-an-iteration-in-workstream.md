@@ -7,9 +7,9 @@ description: Eine Iteration ist ein bestimmter Zeitraum, der für die Durchführ
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,21 @@ Eine Iteration ist ein bestimmter Zeitraum, der für die Durchführung von Arbei
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -85,7 +82,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Die Iteration wird jetzt in der Ansicht „Iteration“ der Kartenliste und im Bereich „Metriken“ auf der Iterationskonsole angezeigt.
 
-   Informationen zum Hinzufügen von Karten zu einer Iteration finden [&#x200B; unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Informationen zum Hinzufügen von Karten zu einer Iteration finden [ unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Bearbeiten einer vorhandenen Iteration
 
@@ -95,7 +92,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * Klicken Sie auf der Registerkarte „Kartenliste“ in der Ansicht „Iteration“ auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png).
    * Klicken Sie auf der Iterationskonsole auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) im Bereich Metriken oben rechts.
 
-1. Bearbeiten [!UICONTROL &#x200B; im Bedienfeld &#x200B;]Iterationskonfiguration“ die Iteration nach Bedarf.
+1. Bearbeiten [!UICONTROL  im Bedienfeld ]Iterationskonfiguration“ die Iteration nach Bedarf.
 1. Um den Namen der Iteration zu ändern, erweitern Sie [!UICONTROL **Iterationsdetails**].
 
    Sobald eine Iteration gestartet wurde, können Sie nur den Namen der Iteration und nicht das Datum oder die Iterationslänge ändern.

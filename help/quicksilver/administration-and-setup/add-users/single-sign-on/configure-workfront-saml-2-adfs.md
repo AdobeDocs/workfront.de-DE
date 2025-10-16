@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -27,26 +27,26 @@ In diesem Handbuch wird das Einrichten von ADFS ohne automatische Bereitstellung
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Um die Authentifizierung für die Workfront-Web-Anwendung und die Workfront-Mobi
 1. Klicken Sie im linken Bereich auf **System** > **Single Sign-On (SSO)**.
 1. Klicken Sie **Dropdown-** „Typ“ auf **SAML 2.0**, um zusätzliche Informationen und Optionen anzuzeigen.
 1. Kopieren Sie die URL, die nach **Metadaten-URL** angezeigt wird.
-1. Fahren Sie mit dem folgenden Abschnitt fort[&#x200B; „Konfigurieren von Vertrauensstellungen vertrauender Parteien](#configure-relying-party-trusts).
+1. Fahren Sie mit dem folgenden Abschnitt fort[ „Konfigurieren von Vertrauensstellungen vertrauender Parteien](#configure-relying-party-trusts).
 
 ### Konfigurieren von Vertrauensstellungen vertrauender Parteien {#configure-relying-party-trusts}
 
@@ -86,7 +86,7 @@ Um die Authentifizierung für die Workfront-Web-Anwendung und die Workfront-Mobi
 
    Dadurch gelangen Sie zum Abschnitt **Bereit zum Hinzufügen von**&quot;.
 
-1. Fahren Sie mit dem folgenden Abschnitt [Konfigurieren von &#x200B;](#configure-claim-rules) fort.
+1. Fahren Sie mit dem folgenden Abschnitt [Konfigurieren von ](#configure-claim-rules) fort.
 
 ### Anspruchsregeln konfigurieren {#configure-claim-rules}
 

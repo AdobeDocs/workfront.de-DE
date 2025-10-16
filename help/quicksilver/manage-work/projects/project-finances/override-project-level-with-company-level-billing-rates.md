@@ -6,10 +6,10 @@ description: Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firme
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 1%
+source-wordcount: '453'
+ht-degree: 2%
 
 ---
 
@@ -25,35 +25,32 @@ Sie können ein Projekt so konfigurieren, dass Abrechnungssätze auf Firmenebene
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td>Zugriff auf Projekte und Finanzdaten bearbeiten</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,7 +93,7 @@ Nachdem Sie die Option zum Außerkraftsetzen der Abrechnungssätze auf Firmenebe
 
       1. Zu einer Projektliste gehen.
       1. Aktivieren Sie das Kontrollkästchen entsprechend den Projekten, die Sie aktualisieren möchten.
-      1. Klicken Sie **Bearbeiten**.
+      1. Klicken Sie auf **Bearbeiten**.
       1. Aktivieren Sie im Abschnitt Einstellungen die Option **Kosten und Einnahmen neu berechnen**.
       1. Klicken Sie auf **Änderungen speichern**.
 

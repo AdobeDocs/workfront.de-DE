@@ -6,10 +6,10 @@ description: Sie können Ihr Kennwort  [!DNL Adobe Workfront] . Als wichtige Sic
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
+source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 1%
 
 ---
 
@@ -27,32 +27,21 @@ Sie können Ihr [!DNL Adobe Workfront] zurücksetzen. Als wichtige Sicherheitsma
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
-
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
+   <td>Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td>Adobe Workfront-Lizenz</td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Anfrage oder höher</p></li>
-         </ul>
-   </td>
+   <p>Mitwirkender oder höher</p>
+   <p>Anfrage oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>

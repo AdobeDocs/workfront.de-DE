@@ -5,7 +5,7 @@ title: Programme löschen und deaktivieren
 description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben und Projektgrenzen überschreiten. Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren. Programme nutzen in der Regel dieselben Ressourcen wie andere Programme innerhalb desselben Portfolios. Sie können ein Programm löschen oder deaktivieren, wenn es irrelevant wird.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Es wird empfohlen, ein Portfolio zu deaktivieren, anstatt es zu löschen, um die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td>
+   <td role="rowheader">[!DNL Adobe Workfront] Packstück</td>
 
 <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL -Plan]</p> </td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

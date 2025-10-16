@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,8 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Projekte: Artikelindex](../manage-work/projects/projects-overview.md)
 * [Aufgaben: Artikelindex](../manage-work/tasks/tasks-overview.md)
-* [Probleme](../manage-work/issues/issues-overview.md)
+* [Probleme: Artikelindex](../manage-work/issues/issues-overview.md)
 * [Das Gantt-Diagramm](../manage-work/gantt-chart/the-gantt-chart.md)
-* [Portfolio-Management](../manage-work/portfolios/portfolio-management-overview.md)
-* [Anforde- rungen](../manage-work/requests/requests-overview.md)
+* [Portfolio-Verwaltung](../manage-work/portfolios/portfolio-management-overview.md)
+* [Anforderungen](../manage-work/requests/requests-overview.md)
 * [Arbeit delegieren](../manage-work/delegate-work/delegate-work.md)

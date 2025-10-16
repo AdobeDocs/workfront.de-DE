@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Testversandphasen und Prüfer bearbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,20 @@ Sie können die Phasen und die Details der Prüfer in einem Korrekturabzug bearb
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Arbeit oder Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -44,13 +45,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Autor oder Moderator </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Entfernen einzelner Reviewer</td> 
-      <td> <p>Wählen Sie das <strong>Mehr</strong>-Menü rechts neben dem Namen des Reviewers aus und klicken Sie dann </strong> Dropdown-Menü auf <strong>Entfernen“. Klicken Sie <strong>Bestätigen</strong> in dem Feld, das angezeigt wird, um den Prüfer aus dem Korrekturabzug zu entfernen.</p> </td> 
+      <td> <p>Wählen Sie das <strong>Mehr</strong>-Menü rechts neben dem Namen des Reviewers aus und klicken Sie dann <strong> Dropdown-Menü auf </strong>Entfernen“. Klicken Sie <strong>Bestätigen</strong> in dem Feld, das angezeigt wird, um den Prüfer aus dem Korrekturabzug zu entfernen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mehrere Reviewer entfernen</td> 
@@ -111,7 +112,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td> <p>Um den Anzeigenamen des Reviewers im Korrekturabzug zu ändern, klicken Sie in das Textfeld und bearbeiten Sie seinen Namen inline.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Funktion</td> 
+      <td role="rowheader">Rolle</td> 
       <td>Um die Rolle des Validierungsverantwortlichen im Testversand zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie die bevorzugte Rolle aus. Weitere Informationen finden Sie unter.</td> 
      </tr> 
      <tr> 
@@ -123,7 +124,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td> <p>Um die Entscheidung des Reviewers bezüglich des Korrekturabzugs zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie die bevorzugte Entscheidung aus. Beachten Sie, dass alle Entscheidungen, die Sie im Namen eines anderen Benutzers treffen, im Abschnitt Aktivität des Korrekturabzugs vermerkt sind. Diese Option wird nur angezeigt, wenn die Überprüfung eine Entscheidung getroffen hat.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Phase</td> 
+      <td role="rowheader">Staging</td> 
       <td>Es ist nicht möglich, Reviewer zwischen verschiedenen Phasen zu verschieben. Sie können jedoch einen Reviewer mit einer anderen Frist entfernen und erneut hinzufügen.</td> 
      </tr> 
     </tbody> 

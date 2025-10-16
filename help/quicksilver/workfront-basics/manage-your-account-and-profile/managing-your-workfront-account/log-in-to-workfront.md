@@ -6,14 +6,14 @@ description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie sich bei Workfron
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
-# Anmelden bei [!DNL Adobe Workfront]
+# Melden Sie sich bei [!DNL Adobe Workfront] an.
 
 <!--Audited: 2024-->
 
@@ -37,28 +37,24 @@ Sie benötigen die folgenden Informationen, um sich bei [!DNL Adobe Workfront] a
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
+   <td>Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
+   <td>Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p> </td> 
+   <p>Mitwirkender oder höher</p>
+   <p>Anfrage oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

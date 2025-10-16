@@ -6,9 +6,9 @@ description: Planen eines automatischen Berichtversands
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1293'
 ht-degree: 2%
 
 ---
@@ -27,35 +27,32 @@ Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-      <td> 
-      <p>Neu: Standard</p>
-      <p>Oder</p>
-
-<p>Aktuell: Plan</p>
-
-</td>
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p>
+   <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p></td> 
+     <td> <p>Verwalten von Berechtigungen für einen Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,7 +123,7 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Links einbeziehen</p> </td> 
-      <td> <p>Diese Option ist nur verfügbar, wenn <strong>MS Excel</strong> im Dropdown-Menü <strong>Format</strong> ausgewählt ist. Wenn diese Option aktiviert ist, werden alle Hyperlinks in das exportierte Excel-Dokument eingefügt.</p> <p>Dokumente mit mehr als 65.530 Links können nicht geöffnet werden. Deaktivieren Sie diese Option, wenn das exportierte Dokument mehr als 65.530 Links enthalten soll.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
+      <td> <p>Diese Option ist nur verfügbar, wenn <strong>MS Excel</strong> im Dropdown-Menü <strong>Format</strong> ausgewählt ist. Wenn diese Option aktiviert ist, werden alle Hyperlinks in das exportierte Excel-Dokument eingefügt.</p> <p>Dokumente mit mehr als 65.530 Links können nicht geöffnet werden. Deaktivieren Sie diese Option, wenn das exportierte Dokument mehr als 65.530 Links enthalten soll.</p> <p>Standardmäßig ist diese Option aktiviert.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Zusammenfassung</p> </td> 
@@ -141,7 +138,7 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
       <td> <p>Wählen Sie die Häufigkeit aus, mit der der Versand wiederholt werden soll. Der Wert, den Sie für diese Option auswählen, basiert auf der Option, die in der Dropdown-Liste <strong>Wiederholungen</strong> ausgewählt wurde.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Uhrzeit</p> </td> 
+      <td role="rowheader"> <p>Zeit</p> </td> 
       <td> <p>Wählen Sie die Tageszeit für den Versand aus.</p> <p>Tipp: Da sich Systemlasten auf die Bereitstellungszeiten von Berichten auswirken können, kann es zu einer Verzögerung von bis zu 24 Stunden zwischen der geplanten Zeit und der tatsächlichen Bereitstellungszeit kommen. Wenn Sie einen Bericht benötigen, der zu einem bestimmten Zeitpunkt geliefert werden soll, empfehlen wir, den Versand vor dem erforderlichen Zeitpunkt zu planen. Im Allgemeinen empfehlen wir, den Versand mindestens einen Tag vor dem erforderlichen Datum zu planen.</p> </td> 
      </tr> 
      <tr> 

@@ -7,9 +7,9 @@ description: Sie können Projekte aus bestehenden Initiativen erstellen und Proj
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -23,57 +23,94 @@ Das Veröffentlichen eines Szenarios aus der [!DNL Adobe Workfront Scenario Plan
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
-   <td> <ul></li>
-   <li><p>Neu: Ultimate </p></li>
-   <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
-   <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
+   <td> <p>[!DNL Adobe Workfront] Packstück</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
-   <td> <p>Neu: Licht oder höher</p> 
-   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
+   <td> <p>[!UICONTROL light] oder höher</p> 
+   <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
   </tr> 
-  <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
-   <li><p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenarioplaner</p></li></ul>
-
-<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich, um die [!DNL Scenario Planner]</a> verwenden zu können. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Zugriffsebene </td> 
+    <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>[!UICONTROL Bearbeiten]-Zugriff für die [!DNL Scenario Planner] und [!UICONTROL Projekte]</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td>  <ul> 
+   <td> <ul> 
      <li>[!UICONTROL Manage]-Berechtigungen für den Plan </li> 
      <li>[!UICONTROL Manage]-Berechtigungen für veröffentlichte Projekte</li> 
-    </ul> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im [!DNL Scenario Planner]</a>.</p> </td> 
+    </ul>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zum Zugriff auf den Szenario-Planer finden Sie unter [Zugriff für die Verwendung des erforderlich [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen für Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td>  <ul> 
+     <li>[!UICONTROL Manage] permissions for the plan </li> 
+     <li>[!UICONTROL Manage] permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 
 ## Voraussetzungen
 
 Bevor Sie beginnen:
 
 * Sie müssen einen Plan erstellen und speichern, bevor Sie Initiativen daraus veröffentlichen können.
-* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Überlegungen zur Veröffentlichung von Initiativen in Projekten
 
@@ -91,7 +128,7 @@ Bevor Sie beginnen:
   >
   >Sie können dasselbe Projekt in mehrere Pläne importieren. Die Veröffentlichung kann Initiativinformationen zu einem Projekt überschreiben, das mit mehreren Initiativen verknüpft ist.
 
-  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [&#x200B; Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [ Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Alle am Projekt vorgenommenen Änderungen werden nicht auf die verknüpfte Initiative übertragen.
 
@@ -224,7 +261,7 @@ Bevor Sie beginnen:
         <td><span>Der erste Tag des Startmonats der Initiative, wenn das Projekt mit einer Initiative verknüpft ist.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL Enddatum der-Initiative]</span> </td> 
+        <td role="rowheader"><span>[!Enddatum der UICONTROL-Initiative]</span> </td> 
         <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
        </tr> 
        <tr> 

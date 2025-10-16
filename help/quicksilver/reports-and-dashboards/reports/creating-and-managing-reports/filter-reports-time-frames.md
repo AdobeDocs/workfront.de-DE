@@ -6,9 +6,9 @@ description: Sie können einen Bericht nach dem Zeitraum eines Datums filtern, d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '947'
 ht-degree: 5%
 
 ---
@@ -23,25 +23,21 @@ Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem O
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-      <td> 
-      <p>Neu: Standard</p>
-       <p> Oder</p>
-      <p>Aktuell: Plan</p>
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
@@ -123,7 +119,7 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
      </tr>
 
    <tr> 
-      <td role="rowheader">Nicht Null</td> 
+      <td role="rowheader">Nicht null</td> 
       <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, für die das Eingabedatum einen Wert aufweist.</td> 
      </tr>
 

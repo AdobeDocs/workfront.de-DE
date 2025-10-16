@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Überblick über Business Case-Finanzfelder
 description: Die Unterregisterkarte Business-Case enthält Finanzfelder für das Projekt. Damit einige der Finanzfelder Werte aufweisen, müssen entsprechende Bereiche des Business Case ausgefüllt werden.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 2%

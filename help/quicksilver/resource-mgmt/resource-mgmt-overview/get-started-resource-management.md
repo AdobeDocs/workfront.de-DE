@@ -7,9 +7,9 @@ description: Mit dem Ressourcenmanagement können Sie Ihr System so konfiguriere
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Die Verwaltung von Ressourcen in Workfront umfasst die folgenden Schritte:
   Weitere Informationen zur Ressourcenplanung und zum Zuweisen von Arbeit finden Sie in den folgenden Abschnitten:
 
    * [Ressourcenplanung: Artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront-Szenarioplaner](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: Artikelindex](../../scenario-planner/scenario-planning.md)
    * [Der Workload Balancer: Artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -147,7 +147,7 @@ Sie müssen einer der folgenden Benutzer sein und über die folgenden Zugriffs- 
    * Zugriff auf Finanzdaten bearbeiten, um Kosteninformationen im Ressourcenplaner anzuzeigen
    * Zugriff auf Finanzdaten anzeigen, um Kosten- und Umsatzinformationen im Auslastungsbericht anzuzeigen (nur Benutzer mit Planlizenz)
 
-* Contribute oder höhere Berechtigungen, die Zuweisungen an die Projekte enthalten, für die Sie Ressourcen verwalten möchten.
+* Tragen Sie zu oder höhere Berechtigungen bei, die Zuweisungen für die Projekte enthalten, für die Sie Ressourcen verwalten möchten.
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
@@ -168,7 +168,7 @@ Sie müssen eine Reihe von Anforderungen erfüllen, bevor Sie die Tools für das
 Informationen zu den Anforderungen der einzelnen Ressourcenverwaltungstools in Workfront finden Sie unter folgenden Themen:
 
 * Der Abschnitt [Voraussetzungen für die Arbeit im Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-* Der Abschnitt [Best Practices für die Verwendung des Workload &#x200B;](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)) im Artikel [Übersicht über den Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Der Abschnitt [Best Practices für die Verwendung des Workload ](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)) im Artikel [Übersicht über den Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Zugriff zum Budgetressourcen in Adobe Workfront erforderlich](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Zugriff erforderlich, um Ressourcen im Workload Balancer zu verwalten](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

@@ -6,9 +6,9 @@ description: Sie können Teams, die Sie nicht mehr verwenden, deaktivieren, wäh
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -46,23 +46,20 @@ Deaktivierte Teams werden bei der Suche nach einem Team nicht angezeigt, werden 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Paket</p> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td>
-  </tr>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
   <tr>
    <td>Konfigurationen der Zugriffsebene</td>
    <td><p>Um ein Team zu deaktivieren, sind keine Konfigurationen erforderlich.</p>

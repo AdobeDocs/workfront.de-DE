@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: '257'
+ht-degree: 6%
 
 ---
 
@@ -23,32 +23,37 @@ Sie können [!DNL JumpSeat] mit [!DNL Workfront] integrieren, um benutzerdefinie
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td>[!UICONTROL -Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über einen aktiven [!DNL JumpSeat] verfügen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p> Sie müssen [!DNL Workfront] sein. Informationen zu [!DNL Workfront] finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollständigen Administratorzugriffs für einen Benutzer</a>.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-Paket
+   </td>
+    <p>Workflow Ultimate</p>
+   <td> <p>Prime oder Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-Lizenzen
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>Produkt
+   </td>
+   <td>Sie müssen über einen aktiven [!DNL JumpSeat] verfügen.
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationen der Zugriffsebene
+   </td>
+   <td>Sie müssen [!DNL Workfront] sein.
+   </td>
+  </tr>
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +65,7 @@ Bevor Sie beginnen, müssen Sie
 
 >[!IMPORTANT]
 >
->Wenn Sie sich auf der Adobe Unified Experience befinden, müssen Sie die folgende Anwendungs-URL verwenden: `.workfront.adobe.com`.
+>Wenn Sie Adobe Unified Experience verwenden, müssen Sie die folgende Anwendungs-URL verwenden: `.workfront.adobe.com`.
 
 
 
@@ -70,7 +75,7 @@ Es wird empfohlen, sowohl in der Vorschau- als auch in der Produktionsumgebung e
 
 >[!TIP]
 >
->Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [&#x200B; finden Sie unter „Hinzufügen oder &#x200B;](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
+>Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [ finden Sie unter „Hinzufügen oder ](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
 
 So konfigurieren Sie die [!DNL JumpSeat]:
 
@@ -85,7 +90,7 @@ So konfigurieren Sie die [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpSeat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

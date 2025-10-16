@@ -6,10 +6,10 @@ description: Die Änderungen, die Sie an einem Arbeitszeittabellen-Profil vorneh
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -35,28 +35,32 @@ Adobe Workfront- oder Gruppenadministratoren können Arbeitszeittabellen für al
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td><p>Administrativer Zugriff auf Arbeitszeittabellen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Arbeitszeittabellen in einer Liste löschen
 
@@ -100,13 +104,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 1. Wählen Sie eine oder mehrere zu löschende Arbeitszeittabellen aus und klicken Sie oben in der Liste der Arbeitszeittabellen **das Symbol** Löschen![](assets/delete.png).
 
-1. Klicken Sie **Löschen**.
+1. Klicken Sie auf **Löschen**.
 
    Die ausgewählten Arbeitszeittabellen werden gelöscht und können nicht wiederhergestellt werden.
 
    Um neue Arbeitszeittabellen zu erstellen, stellen Sie sicher, dass die Benutzenden mit einem Arbeitszeittabellenprofil verknüpft sind, und bitten Sie den Workfront-Administrator oder einen Gruppenadministrator, neue Arbeitszeittabellen zu erstellen.
 
-   Weitere Informationen finden Sie unter:
+   Weitere Informationen finden Sie hier:
 
    * [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
    * [Arbeitszeittabellen manuell generieren](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)

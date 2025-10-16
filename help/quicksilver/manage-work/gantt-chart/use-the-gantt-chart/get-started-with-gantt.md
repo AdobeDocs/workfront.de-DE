@@ -6,7 +6,7 @@ description: Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstel
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Erste Schritte mit dem [!UICONTROL Gantt-Diagramm]
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 08/2025 -->
 
 Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstellung der Zeitleiste einer Liste von Aufgaben oder Projekten.
 
@@ -28,16 +28,16 @@ Obwohl sie ähnlich aussehen und sich ähnlich anfühlen, ist die Funktionalitä
 
 ## Überlegungen zum Gantt-Diagramm
 
-* Informationen können in folgendem (Gantt[!UICONTROL Diagramm) bearbeitet &#x200B;]:
+* Informationen können in folgendem (Gantt[!UICONTROL Diagramm) bearbeitet ]:
    * Aufgabenliste
-* Informationen in den folgenden (Gantt[!UICONTROL Diagrammen) können nicht bearbeitet &#x200B;]:
+* Informationen in den folgenden (Gantt[!UICONTROL Diagrammen) können nicht bearbeitet ]:
    * Eine Vorlagenaufgabenliste
    * Eine Projektliste
-* Für eine Liste von Vorlagen gibt [!UICONTROL &#x200B; Option &#x200B;]Gantt-Diagramm“.
-* Sie können konfigurieren, welche Informationen in der Aufgabenliste (Gantt[!UICONTROL &#x200B; und &#x200B;] Projektliste (Gantt[!UICONTROL Diagramm) &#x200B;].
+* Für eine Liste von Vorlagen gibt [!UICONTROL  Option ]Gantt-Diagramm“.
+* Sie können konfigurieren, welche Informationen in der Aufgabenliste (Gantt[!UICONTROL  und ] Projektliste (Gantt[!UICONTROL Diagramm) ].
 * Sie können weder die Farben noch die Schriftarten konfigurieren, in denen die [!UICONTROL Gantt-Diagramm]Informationen angezeigt werden.
 * Wenn Informationen aus Aufgaben aktualisiert werden, werden sie automatisch sowohl in der Aufgabenliste [!UICONTROL Gantt-Diagramm] als auch in der Projektliste [!UICONTROL Gantt-Diagramm] angezeigt.
-* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Vorlagenaufgabenliste (Gantt[!UICONTROL Diagramm) &#x200B;].
+* Wenn Informationen aus Vorlagenaufgaben aktualisiert werden, werden sie automatisch in der Vorlagenaufgabenliste (Gantt[!UICONTROL Diagramm) ].
 
 ## Zugreifen auf das [!UICONTROL Gantt-Diagramm]
 
@@ -65,8 +65,8 @@ So greifen Sie auf die Aufgabenliste [!UICONTROL Gantt-Diagramm] eines Projekts 
 1. Wechseln Sie zu einem der folgenden Bereiche:
 
    * Wählen Sie ein Projekt aus [!UICONTROL **klicken Sie dann**] linken Bereich auf „Aufgaben“.
-   * eine Vorlage erstellen und dann im **Bereich auf** Vorlagenaufgaben“ klicken
-   * Eine Aufgabe oder Vorlagenaufgabe, und klicken Sie dann im **Bereich auf** Teilaufgaben“.
+   * eine Vorlage erstellen und dann im [!UICONTROL **Bereich auf**] Vorlagenaufgaben“ klicken
+   * Eine Aufgabe oder Vorlagenaufgabe, und klicken Sie dann im [!UICONTROL **Bereich auf**] Teilaufgaben“.
    * Aufgabenbericht
 
 1. Klicken Sie auf [!UICONTROL **Gantt**]-Symbol ![Gantt](assets/gantt-icon-nwe.png) oben in der Aufgabenliste.

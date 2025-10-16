@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch
 description: Wenn Sie eine nicht wiederkehrende Arbeitszeittabelle benötigen, können Sie diese Arbeitszeittabelle manuell erstellen. Wenn das Enddatum der Arbeitszeittabelle erreicht ist und Sie mehr Arbeitszeittabellen benötigen, müssen Sie neue erstellen.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1062'
+ht-degree: 1%
 
 ---
 
@@ -38,29 +38,28 @@ Informationen zum manuellen Generieren von Arbeitszeittabellen für alle Benutze
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Standard </p>
-   <p>Aktuell: Plan </p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>Sie müssen administrativen Zugriff auf Arbeitszeittabellen haben. </p>  </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td><p>Administrativer Zugriff auf Arbeitszeittabellen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -156,7 +155,7 @@ Der **Alle**-Filter ist standardmäßig ausgewählt. Dadurch werden alle Arbeits
    <tr>
 
    <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
-      <td>Sie können das Feld „Überstunden“ auf der Arbeitszeittabelle ausblenden. Diese Option ist standardmäßig deaktiviert.</td> 
+      <td>Sie können das Feld „Überstunden“ auf der Arbeitszeittabelle ausblenden. Standardmäßig ist diese Option deaktiviert.</td> 
       </tr> 
       </tbody> 
    </table>

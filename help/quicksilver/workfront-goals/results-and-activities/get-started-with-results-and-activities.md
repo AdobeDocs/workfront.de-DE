@@ -7,31 +7,43 @@ description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder abgestimmte Zi
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 3%
 
 ---
 
 # Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront Goals
 
+<!--Audited for P& P only: 10/2025-->
+
+>[!NOTE]
+>
+>Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>
+>Adobe Workfront Goals ist nicht mehr erhältlich.
+>
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Für die neue Plan- und Lizenzstruktur:
+>* For the new plan and license structure:
 >
->   * Der Ultimate Workfront-Plan
+>   * The Ultimate Workfront plan 
 >    
->* Für die aktuelle Plan- und Lizenzstruktur:
+>* For the current plan and license structure: 
 >
->   * Ein Pro- oder höher-Workfront-Plan
->   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
@@ -189,7 +201,7 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> 
+  <tr> ****
    <td>Sie bieten eine Reihe von Werten zwischen den Start- und Endwerten, die veranschaulichen, wie nahe Sie am Erreichen sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
    <td>✔</td> 
    <td>✔</td> 

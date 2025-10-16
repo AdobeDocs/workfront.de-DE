@@ -6,9 +6,9 @@ description: Sie können die folgenden Objekte, die zur Genehmigung eingereicht 
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1184'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Sie können die folgenden Objekte, die zur Genehmigung eingereicht wurden, zurü
 * Projekte
 * Aufgaben
 * Probleme
-* Arbeitszeit- tabellen
+* Arbeitszeittabellen
 * Dokumente
 * Alle Anforderungen
 
@@ -28,32 +28,33 @@ Sie können die folgenden Objekte, die zur Genehmigung eingereicht wurden, zurü
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anfrage oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Beitragen oder höher</p>
+   <p>Anfrage oder höher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder Erhöhen des Zugriffs auf Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen oder Erhöhen des Zugriffs auf Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Dokumente</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das mit der Genehmigung verknüpfte Objekt anzeigen oder höher </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf das mit der Genehmigung verknüpfte Objekt anzeigen oder höher </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +149,7 @@ Wenn Sie sich an eine Genehmigung erinnern, die mit dem Anfangsstatus des Proble
 
 1. Klicken **oben rechts** Bereich auf „Rückruf“.
 
-## Arbeitszeit- tabellen
+## Arbeitszeittabellen
 
 Wenn Sie eine Arbeitszeittabellen-Genehmigung zurückrufen, kehrt die Arbeitszeittabelle zu dem Status zurück, in dem sie sich befand, bevor sie zur Genehmigung eingereicht wurde.
 

@@ -2,20 +2,20 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Zugriff  [!DNL Adobe Workfront]  Objekte über einen freigegebenen Link in [!DNL Slack]
-description: Wenn Links zu  [!DNL Adobe Workfront] -Objekten für Sie in einem Slack-Kanal freigegeben werden, können Sie zusätzliche Informationen dazu auf Slack anzeigen, nachdem Sie für Slack installiert und konfiguriert  [!DNL Workfront] .
+description: Wenn Links zu  [!DNL Adobe Workfront] -Objekten für Sie in einem Slack-Kanal freigegeben werden, können Sie zusätzliche Informationen dazu in Slack anzeigen, nachdem Sie Slack installiert und  [!DNL Workfront]  haben.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
 
 # Zugreifen auf [!DNL Adobe Workfront] Objekte über einen freigegebenen Link in [!DNL Slack]
 
-Wenn Links zu [!DNL Adobe Workfront] Objekten für Sie in einem [!DNL Slack] Kanal freigegeben werden, können Sie nach der Installation und Konfiguration von [!DNL Workfront for Slack] zusätzliche Informationen dazu in [!DNL Slack] anzeigen.
+Wenn Links zu [!DNL Adobe Workfront] Objekten für Sie in einem [!DNL Slack] Kanal freigegeben werden, können Sie nach der Installation und Konfiguration von [!DNL Slack] zusätzliche Informationen dazu in [!DNL Workfront for Slack] anzeigen.
 
 Weitere Informationen zum Konfigurieren von [!DNL Workfront for Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
@@ -25,24 +25,26 @@ Wenn ein(e) Benutzende(r) einen Link zu einem Objekt im [!DNL Workfront] mit Ihn
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL -Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Beliebig</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -70,7 +72,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
    * **[!UICONTROL Geplantes Abschlussdatum]**: Weitere Informationen zum geplanten Abschlussdatum finden Sie unter [Festlegen des geplanten Abschlussdatums für ein Projekt](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * **[!UICONTROL Portfolio Portfolio]** Name: Weitere Informationen zu Portfolios finden Sie unter [Portfolioübersicht in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL Portfolio]** Name: Weitere Informationen zu Portfolios finden Sie unter [Grundlegendes zur Portfoliomethodik](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Bedingung]**: Weitere Informationen zur Projektbedingung finden Sie unter [Übersicht über Projektbedingung und Bedingungstyp](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -120,7 +122,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Anfragen von [!DNL Slack] aus aufrufen
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
 
    Weitere Informationen zur Anmeldung bei Workfront von [!DNL Slack] aus finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -151,7 +153,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Zugriff auf Portfolios über [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
 
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -164,7 +166,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 1. (Optional) Klicken Sie auf den Namen des Portfolios, um es in [!DNL Workfront] in einer neuen Browser-Registerkarte zu öffnen.
 1. Ziehen Sie die folgenden zusätzlichen Informationen zum Portfolio in Erwägung:
 
-   * **[!UICONTROL Portfolio-Manager-Name]**
+   * **[!UICONTROL Portfolio Manager-Name]**
    * **[!UICONTROL Einschaltzeit]**
    * **[!UICONTROL ROI]**
    * **[!UICONTROL Nettowert]**
@@ -172,11 +174,11 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
    * **[!UICONTROL Im Budget]**
    * **[!UICONTROL Abgestimmt]**
 
-     Weitere Informationen zu Portfoliometriken, einschließlich [!UICONTROL ROI], [!UICONTROL Net Value], [!UICONTROL Alignment], [!UICONTROL On Time] und [!UICONTROL On Budget], finden Sie unter [Grundlegendes zum [!UICONTROL Portfolio Optimizer].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+     Weitere Informationen zu Portfoliometriken, einschließlich [!UICONTROL ROI], [!UICONTROL Net Value], [!UICONTROL Alignment], [!UICONTROL On Time] und [!UICONTROL On Budget] finden Sie unter [Grundlegendes zu [!UICONTROL Portfolio Optimizer].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Zugreifen auf Programme von [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
 
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -197,7 +199,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Zugreifen auf Berichte über [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
 
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 

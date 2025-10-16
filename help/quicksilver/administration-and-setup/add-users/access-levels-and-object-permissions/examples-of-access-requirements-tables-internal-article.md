@@ -4,9 +4,9 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1245'
 ht-degree: 2%
 
 ---
@@ -330,7 +330,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 <td><p>Konfigurationen der Zugriffsebene</p> </td> 
    <td> <p>Zugriff auf den Szenario-Planer bearbeiten</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Objektberechtigungen </p> </td> 
    <td> <p>Verwalten der Berechtigungen für einen Plan</p>  </td> 
   </tr> 
@@ -343,7 +343,7 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen die Adobe Workfront Goals in der Vergangenheit gekauft hat, ist es in der Vergangenheit in Bestandsschutz. Adobe Workfront Goals ist nicht mehr erhältlich.
+>Sie können Adobe Workfront Goals weiterhin verwenden, wenn Ihr Unternehmen dieses Paket bereits in der Vergangenheit gekauft hat. Adobe Workfront Goals ist nicht mehr erhältlich.
 
 Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
@@ -420,10 +420,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Erweiterte Enterprise-Steuerelemente
 
@@ -438,7 +438,7 @@ In einem Artikel über Gruppenadministratoren wird das Paket erwähnt, in dem de
 * Workflow-Prime und höher
 * Workfront Prime und höher
 
-Weitere Informationen zu Paketen finden Sie auf der Seite [&#x200B; Preisgestaltung und Verpackung von &#x200B;](https://business.adobe.com/de/products/workfront/pricing.html)Adobe Workfront.
+Weitere Informationen zu Paketen finden Sie auf der Seite [ Preisgestaltung und Verpackung von ](https://business.adobe.com/products/workfront/pricing.html)Adobe Workfront.
 
 Erweiterte Enterprise Controls:
 
@@ -461,7 +461,32 @@ Erweiterte Enterprise Controls:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Jedes Adobe Workfront-Workflow-Paket und jedes Adobe Workfront-Automatisierungs- und Integrationspaket</p><p>Workfront Ultimate</p><p>Workfront Prime und Select-Pakete, mit einem zusätzlichen Kauf von Workfront Fusion.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-Lizenzen</td> 
+   <td> <p>Standard</p><p>Arbeit oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion-Lizenz</td> 
+   <td>
+   <p>Betriebsbasiert: Keine Workfront Fusion-Lizenzanforderung</p>
+   <p>Connector-basiert (veraltet): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>
+   <p>Wenn Ihr Unternehmen über ein Select- oder Prime Workfront-Paket verfügt, das keine Workfront-Automatisierung und -Integration enthält, muss Ihr Unternehmen Adobe Workfront Fusion erwerben.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+<td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 

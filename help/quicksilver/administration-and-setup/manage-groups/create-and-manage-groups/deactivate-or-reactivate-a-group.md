@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
 # Deaktivieren oder Reaktivieren einer Gruppe
-
-<!--
-If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/manage-a-group and to Manage groups/Create and manage groups/view-and-manage-a-groups-details
--->
 
 Sie können eine von Ihnen verwaltete Gruppe, die Sie nicht mehr verwenden, deaktivieren.
 
@@ -27,32 +23,27 @@ Sie können eine von Ihnen verwaltete Gruppe, die Sie nicht mehr verwenden, deak
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>Oder</p>
-       <p>Aktuell: Plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 >
 >* Entfernen Sie sie aus der übergeordneten Gruppe. Weitere Informationen finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
->* Verschieben Sie sie unter eine aktive Gruppe. Weitere Informationen finden Sie im Abschnitt [Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Verschieben Sie sie unter eine aktive Gruppe. Weitere Informationen finden Sie im Abschnitt [Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 {{step-1-to-setup}}
 
@@ -92,7 +83,7 @@ Beachten Sie Folgendes zu einer Gruppe, die Sie deaktivieren, indem Sie die Opti
 
   Informationen zur Reaktivierung einer Untergruppe in dieser Situation finden Sie unter [Informationen zur Reaktivierung einer Untergruppe unterhalb einer inaktiven übergeordneten Gruppe](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in diesem Artikel.
 
-* Wenn Sie im Setup zum Bereich Gruppen gehen, werden nur aktive Gruppen in der Liste angezeigt, da Active der Standardfilter (![) &#x200B;](assets/filter-nwepng.png). Wenn Sie alle von Ihnen verwalteten Gruppen anzeigen möchten, einschließlich der inaktiven, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
+* Wenn Sie im Setup zum Bereich Gruppen gehen, werden nur aktive Gruppen in der Liste angezeigt, da Active der Standardfilter (![) ](assets/filter-nwepng.png). Wenn Sie alle von Ihnen verwalteten Gruppen anzeigen möchten, einschließlich der inaktiven, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
 
   Weitere Informationen zu Filtern in Listen finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -119,4 +110,4 @@ Durch Deaktivieren einer Gruppe werden auch alle darunter liegenden Untergruppen
 
 * Entfernen Sie die Untergruppe aus der übergeordneten Gruppe (wodurch die Untergruppe eine Gruppe der obersten Ebene wird). Aktivieren Sie dann die Option Ist aktiv für die verschobene Gruppe, wie im Abschnitt [Deaktivieren oder Reaktivieren einer Gruppe](#View) in diesem Artikel beschrieben.
 
-  Anweisungen zum Entfernen einer Untergruppe aus der übergeordneten Gruppe finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe auf oberster Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Anweisungen zum Entfernen einer Untergruppe aus der übergeordneten Gruppe finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe auf oberster Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

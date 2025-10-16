@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Erstellen von Aufgaben - Übersicht
+title: Aufgaben erstellen - Übersicht
 description: Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie das Projekt erstellt haben.
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In diesem Artikel werden Überlegungen, Einschränkungen und Standardeinstellung
 Sie können Aufgaben auf folgende Weise für ein Projekt erstellen:
 
 * von Grund auf neu erstellen, wie [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) beschrieben.
-* Kopieren Sie Aufgaben in dasselbe Projekt oder in ein neues Projekt oder duplizieren Sie Aufgaben für dasselbe Projekt, wie unter [&#x200B; und doppelte Aufgaben beschrieben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Kopieren Sie Aufgaben in dasselbe Projekt oder in ein neues Projekt oder duplizieren Sie Aufgaben für dasselbe Projekt, wie unter [ und doppelte Aufgaben beschrieben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * Verschieben von Aufgaben von einem Projekt in ein anderes, wie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) beschrieben.
 
 ## Einschränkungen beim Erstellen von Aufgaben
@@ -86,7 +86,7 @@ Beachten Sie beim Definieren von Standardinformationen, die mit Aufgaben verknü
 * Wenn Sie Aufgaben von einem Projekt in ein anderes kopieren und das Zielprojekt unterschiedliche Standardeinstellungen für Aufgaben hat, behalten die kopierten Aufgaben die Standardeinstellungen des ursprünglichen Projekts bei, es sei denn, sie werden beim Kopieren gelöscht.
 * Wenn Sie eine Aufgabe im selben Projekt duplizieren, werden die benutzerdefinierten Formulare und der Genehmigungsprozess an die doppelte Aufgabe übertragen.
 
-  Informationen zum Kopieren und Duplizieren von Aufgaben finden Sie unter [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Kopieren und Duplizieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Wenn Sie die Aufgabe in ein anderes Projekt verschieben, werden die Standardaufgabeneinstellungen für die Aufgaben aus dem ursprünglichen Projekt gespeichert, unabhängig von den standardmäßigen Aufgabeneinstellungen für das neue Projekt.
 

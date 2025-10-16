@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1841'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,23 @@ Sie können Details eines Blueprints konfigurieren, bevor Sie ihn installieren. 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>Sie müssen [!DNL Workfront] sein. </td> 
+   <td>Workfront-Administrator </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +84,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
 
 ![[!UICONTROL Vorlageneinstellungen] Abschnitt](assets/Blueprints_TemplatePreferences.png)
 
-1. Geben [!UICONTROL &#x200B; im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
+1. Geben [!UICONTROL  im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
 1. Geben Sie Folgendes an:
 
    <table style="table-layout:auto">
@@ -100,11 +97,11 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
         <td>Diese Person ist in der Regel ein Manager, eine Führungskraft oder ein Stakeholder, der wissen muss, was mit dem Projekt geschieht. Der Projektsponsor erhält keinen zusätzlichen Zugriff auf das Projekt, wird aber zu den E-Mail-Benachrichtigungen für das Projekt hinzugefügt.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Portfolio]</strong></td>
+        <td><strong>[!UICONTROL Portfolio]</strong></td>
         <td>Dies ist das Portfolio, dem das Projekt bei seiner Erstellung angehören wird.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Programm]</strong></td>
+        <td><strong>[!UICONTROL-Programm]</strong></td>
         <td>Dies ist das Programm, zu dem das Projekt gehören wird, wenn es erstellt wird.</td>
     </tr>
    </table>
@@ -219,7 +216,7 @@ Einige Blueprints umfassen vorgeschriebene Unternehmen. Ein Unternehmen ist eine
 
 Der Blueprint sucht nach dem Firmennamen, um festzustellen, ob vorhandene Unternehmen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Unternehmen übereinstimmen, können Sie sie mit der Blueprint erstellen lassen. Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
 
-Abschnitt ![[!UICONTROL Unternehmenszuordnung] &#x200B;](assets/Blueprints_CompanyMapping.png)
+Abschnitt ![[!UICONTROL Unternehmenszuordnung] ](assets/Blueprints_CompanyMapping.png)
 
 1. Wenn eine Firma vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
@@ -254,7 +251,7 @@ Einige Blueprints enthalten vorgeschriebene Gruppen. Eine Gruppe ist eine Benutz
 
 Der Blueprint sucht nach dem Gruppennamen, um festzustellen, ob eine vorhandene Gruppe übereinstimmt. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Gruppen übereinstimmen, können Sie diese mit der Blueprint erstellen lassen.
 
-Abschnitt ![[!UICONTROL Gruppenzuordnung] &#x200B;](assets/Blueprints_GroupMapping.png)
+Abschnitt ![[!UICONTROL Gruppenzuordnung] ](assets/Blueprints_GroupMapping.png)
 
 1. Wenn eine Gruppe vorhanden ist, können Sie **[!UICONTROL Gruppe neu zuordnen]** und eine der folgenden Optionen auswählen:
 

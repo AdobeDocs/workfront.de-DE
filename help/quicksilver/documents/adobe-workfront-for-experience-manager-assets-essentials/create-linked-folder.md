@@ -7,9 +7,9 @@ description: Sie können in Workfront einen Ordner erstellen, der mit Experience
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager As
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront-Plan*</strong>
+   <td><strong>Adobe Workfront-Paket</strong>
    </td>
    <td>Beliebig
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-Lizenzen*</strong>
+   <td><strong>Adobe Workfront-Lizenzen</strong>
    </td>
-   <td>Plan
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Produkt</strong>
+   <td><strong>Zusätzliche Produkte</strong>
    </td>
    <td>Sie müssen über Experience Manager Assets as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer hinzugefügt werden.
    </td>
@@ -59,8 +59,7 @@ Sie müssen über Folgendes verfügen:
   </tr>
 </table>
 
-
-*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

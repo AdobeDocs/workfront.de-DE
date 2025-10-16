@@ -6,10 +6,10 @@ description: Sie können ein Asset oder einen Ordner aus Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 0%
+source-wordcount: '639'
+ht-degree: 1%
 
 ---
 
@@ -23,22 +23,22 @@ Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Ex
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p> Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anfrage oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenzen</td> 
+   <td> 
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
+   <td role="rowheader">Zusätzliche Produkte</td> 
    <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
   </tr> 
    <tr> 
@@ -46,17 +46,17 @@ Sie müssen über Folgendes verfügen:
     <td>Sie müssen Schreibzugriff auf den Ordner haben.</td> 
    </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Ansichtszugriff oder höher</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Ansichtszugriff oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ Sie können ein Asset aus Experience Manager Assets oder Assets Essentials mit W
 
    ![Asset auswählen](assets/select-an-asset.png)
 
-1. Klicken Sie **Auswählen**.
+1. Klicken Sie auf **Auswählen**.
 
 ## Verknüpfen von Ordnern aus Experience Manager Assets oder Assets Essentials
 
@@ -101,7 +101,7 @@ Die Berechtigungen zum Anzeigen einzelner Assets innerhalb eines Ordners basiere
 
    ![Ordner auswählen](assets/select-a-folder.png)
 
-1. Klicken Sie **Auswählen**.
+1. Klicken Sie auf **Auswählen**.
 
 ## Verknüpfen einer neuen Version aus Experience Manager Assets oder Assets Essentials
 
@@ -121,7 +121,7 @@ So verknüpfen Sie eine neue Version von Assets Essentials:
 
    ![Asset auswählen](assets/select-an-asset.png)
 
-1. Klicken Sie **Auswählen**.
+1. Klicken Sie auf **Auswählen**.
 
 >[!TIP]
 >

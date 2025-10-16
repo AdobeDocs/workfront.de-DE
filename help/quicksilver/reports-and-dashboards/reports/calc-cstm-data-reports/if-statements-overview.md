@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: IF-Anweisungen - Übersicht
 description: Sie können „IF“-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront können Sie mit „IF“-Anweisungen Datenfelder sowohl für Reporting- als auch für benutzerdefinierte Datenzwecke vergleichen, formatieren und zeichenfolgen. Mathematisch über „IF“-Aussagen nachzudenken führt außerdem zu einem besseren konzeptionellen Verständnis, da häufig Variablen für Ausdrücke verwendet werden.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Sie können „IF“-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront können Sie mit „IF“-Anweisungen Datenfelder sowohl für Reporting- als auch für benutzerdefinierte Datenzwecke vergleichen, formatieren und zeichenfolgen. Mathematisch über „IF“-Aussagen nachzudenken führt außerdem zu einem besseren konzeptionellen Verständnis, da häufig Variablen für Ausdrücke verwendet werden.
 
-## Recommendations für „IF“-Anweisungen
+## Empfehlungen für „IF“-Aussagen
 
 Beachten Sie Folgendes, bevor Sie eine „IF“-Anweisung erstellen:
 
@@ -33,7 +33,7 @@ Beachten Sie Folgendes, bevor Sie eine „IF“-Anweisung erstellen:
 
 * Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen:
 
-   * Ansichten
+   * Ansichten 
    * Gruppierungen
    * Berechnete benutzerdefinierte Felder
 
@@ -57,7 +57,7 @@ Sie können „IF“-Anweisungen in Workfront in folgendem Format erstellen:
 
 * **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer „IF“-Anweisung hilft. Beispielsweise sind „ist gleich“ oder „ist größer als“ Bedingungsoperatoren. Eine Liste der Bedingungsoperatoren, die Sie in Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True**&#x200B;**Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
+* **True****Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
 
 * **Falscher Ausdruck** = Dies ist die Variable „Falsch“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
 

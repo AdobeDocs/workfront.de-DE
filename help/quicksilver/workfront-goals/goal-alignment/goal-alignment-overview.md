@@ -7,34 +7,41 @@ description: Die Zielausrichtung stellt sicher, dass alle Personen in Ihrer Orga
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
 
 # Übersicht über die Zielausrichtung in Adobe Workfront Goals
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
+>Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 >
->* Für die neue Plan- und Lizenzstruktur:
->
->   * Der Ultimate Workfront-Plan
->    
->* Für die aktuelle Plan- und Lizenzstruktur:
->
->   * Ein Pro- oder höher-Workfront-Plan
->   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
->
->Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Adobe Workfront Goals ist nicht mehr erhältlich.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 Die Ausrichtung von Zielen ist ein wichtiger Bestandteil des Ziel-Managements. Sie können sicherstellen, dass alle Personen in Ihrem Unternehmen über die erforderlichen Maßnahmen zur Förderung der Strategie auf einer Seite stehen, indem Sie ihre Ziele aufeinander und auf die Organisationsziele von Teams, Gruppen und des Unternehmens abstimmen.
 
@@ -95,7 +102,7 @@ Nach der Ausrichtung der Ziele sind sie Teil derselben Hierarchie und in verschi
 -->
 Sie können untergeordnete und übergeordnete Ziele in den folgenden Bereichen anzeigen:
 
-* Der Abschnitt Fortschrittsanzeigen auf der Seite eines Ziels unter dem Gruppierungstyp: Ziel .
+* Der Abschnitt Fortschrittsanzeigen auf der Seite eines Ziels unter der Gruppierung :Goal.
 * Abschnitt „Zielausrichtung“ der Seite „Ziele“
 
 

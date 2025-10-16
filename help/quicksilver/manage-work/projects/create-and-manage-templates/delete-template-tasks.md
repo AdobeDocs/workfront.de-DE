@@ -6,10 +6,11 @@ title: Vorlagenaufgabe löschen
 description: Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Gelöschte Vorlagenaufgaben können nicht wiederhergestellt werden. Aus der Vorlagenaufgabe erstellte Projektaufgaben werden nicht gelöscht oder geändert.
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <p>Standard </p>
-   <p>Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Zugriffsebene</p></td> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
    <td> <p>Zugriff auf Vorlagen bearbeiten</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Vorlagenaufgabe löschen
 
@@ -76,7 +103,3 @@ Sie können eine oder mehrere Vorlagenaufgaben stapelweise löschen.
 >Sie können im linken Bereich einer Vorlagenaufgabe auf die Abschnitte Vorgänger oder Teilaufgaben klicken, um einen Vorgänger oder eine Teilaufgabe zu löschen.
 >
 >Wiederholen Sie die obigen Schritte, um Vorgänger oder Teilaufgaben von Vorlagenaufgaben zu löschen.
-
-
-
-

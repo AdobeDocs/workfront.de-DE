@@ -6,14 +6,16 @@ description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
 
 # Anfragen in einer Liste bearbeiten
+
+<!--Audited: 08/2025-->
 
 Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Probleme in Listen bearbeitet werden.
 
@@ -21,19 +23,26 @@ Informationen zum Bearbeiten eines einzelnen Problems finden Sie unter [Probleme
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel auszuführen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anfrage oder höher</p> <p>Überprüfen Sie die Lizenz oder eine höhere Lizenz zur Bearbeitung von Problemen im Abschnitt „Probleme“ eines Projekts.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+
+<ul><li><p>Mitwirkender oder höher</p> </li>
+   <li><p>Light- oder Higher-Lizenz zum Bearbeiten eines Problems im Abschnitt „Probleme“ eines Projekts</p></li></ul> 
+    Oder
+   <ul><li><p>Antragsteller oder höher</p> </li>
+   <li><p>Reviewer oder höhere Lizenz zum Bearbeiten eines Problems im Abschnitt „Probleme“ eines Projekts</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
@@ -46,7 +55,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Probleme bei der Inline-Bearbeitung
 
@@ -71,22 +107,21 @@ So bearbeiten Sie ein Problem inline:
 
    Informationen zur Inline-Bearbeitung von Objekten finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-## Anfragen in einer Liste bearbeiten
+## Anfragen aus einer Liste bearbeiten
 
 1. Navigieren Sie zu einer Liste von Problemen in einem Projekt oder einer Aufgabe.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Wählen Sie das Problem in der Liste aus und klicken Sie dann in der Symbolleiste auf ![Symbol bearbeiten](assets/qs-edit-icon.png).
-   * Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-icon-task-list.png) rechts neben dem Problemnamen und klicken Sie dann auf **In neuer Registerkarte öffnen**. Dadurch wird die Problemseite in einer neuen Registerkarte geöffnet. Klicken Sie auf **Mehr** > **Bearbeiten** auf der Problemseite.
-   * Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-icon-task-list.png) rechts neben dem Problemnamen und dann auf **Bearbeiten**.
+   * Wählen Sie das Problem in der Liste aus und klicken Sie dann auf **Bearbeiten** Symbol ![Bearbeiten](assets/qs-edit-icon.png) in der Symbolleiste.
+   * Klicken Sie auf den Namen des Problems und dann auf **Bearbeiten**.
 
-     Bei jeder dieser Aktionen wird das Feld „Problem bearbeiten“ geöffnet.
+     Bei jeder dieser Aktionen wird das Feld **Problem bearbeiten** geöffnet.
 
-     Informationen zum Bearbeiten von Problemen im Feld „Problem bearbeiten“ finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Informationen zum Bearbeiten von Problemen im Feld **Problem bearbeiten** finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Anfragen mithilfe der Zusammenfassung bearbeiten
 
-Sie können ein Problem in einer Liste mithilfe der Zusammenfassung bearbeiten.
+Sie können ein Problem in einer Liste mithilfe des Bedienfelds Zusammenfassung bearbeiten.
 
 1. Gehen Sie zum Projekt, dessen Probleme Sie bearbeiten möchten.
 1. Klicken Sie **linken** auf „Probleme“.
@@ -100,11 +135,12 @@ Sie können ein Problem in einer Liste mithilfe der Zusammenfassung bearbeiten.
 1. (Optional) Beginnen Sie mit der Eingabe einer Aktualisierung für das Problem im Bereich **Updates**.
 1. Klicken Sie auf eines der folgenden Symbole oder Bereiche, um zu dem Problem zu wechseln und Informationen auf Anfrageebene zu bearbeiten:
 
-   | Dokumente | Klicken Sie **Zum Hinzufügen hier klicken**, um dem Problem Dokumente hinzuzufügen. |
+   | Symbol | Aktion |
    |---|---|
-   | Details | Klicken, um Informationen zum Problem zu aktualisieren. |
-   | Stunden | Klicken, um Stunden einzutragen. |
-   | Genehmigungen | Klicken, um Problemgenehmigungen hinzuzufügen. |
+   | Dokumente ![Symbol Dokumente](assets/documents-icon-in-summary.png) | Klicken Sie **Zum Hinzufügen hier klicken**, um dem Problem Dokumente hinzuzufügen. |
+   | Details ![details icon](assets/details-icon-in-summary.png) | Klicken, um Informationen zum Problem zu aktualisieren. |
+   | Stunden ![Zeit protokollieren](assets/log-time-icon-in-summary.png) | Klicken, um Stunden einzutragen. |
+   | Genehmigungen ![Symbol für Genehmigungen](assets/approvals-icon-in-summary.png) | Klicken, um Problemgenehmigungen hinzuzufügen. |
 
 1. (Optional) Klicken Sie erneut auf **Zusammenfassung öffnen** oder auf das **X** Symbol oben rechts in der Zusammenfassung, um das Bedienfeld zu schließen und das Problem inline zu bearbeiten.
 

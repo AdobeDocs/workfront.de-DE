@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Anzeigen und Verwalten von Kommentaren in einer Arbeitszeittabelle
 description: Sie können Kommentare zu Arbeitszeittabellen, zu den in den Arbeitszeittabellen enthaltenen Arbeitselementen sowie zu jedem Stundeneintrag abgeben, den Sie protokollieren.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -29,39 +29,37 @@ Sie können Aktualisierungen aus einer Arbeitszeittabelle oder aus einzelnen Stu
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Licht oder höher </p>
-   <p>Aktuell: Überprüfung oder höher</p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td> <p>Licht oder höher </p>
+   <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td>Konfiguration der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder erhöhen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Anzeigen oder Erweitern von Berechtigungen für Aufgaben und Probleme</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Stundeneintragskommentare auf einer Arbeitszeittabelle anzeigen {#view-hour-entry-comments-on-a-timesheet}
 
-Sie können Kommentare konfigurieren, die zu einzelnen Stundeneinträgen vorgenommen werden, damit sie in der Arbeitszeittabelle angezeigt werden. Die Option zum Ein- und Ausblenden von Kommentaren hat keine Auswirkungen auf Kommentare in der gesamten Arbeitszeittabelle oder auf Kommentare zu einzelnen Elementen. Weitere Informationen finden Sie unter  [Kommentare zu einer Arbeitszeittabelle &#x200B;](#make-comments-on-a-timesheet).
+Sie können Kommentare konfigurieren, die zu einzelnen Stundeneinträgen vorgenommen werden, damit sie in der Arbeitszeittabelle angezeigt werden. Die Option zum Ein- und Ausblenden von Kommentaren hat keine Auswirkungen auf Kommentare in der gesamten Arbeitszeittabelle oder auf Kommentare zu einzelnen Elementen. Weitere Informationen finden Sie unter  [Kommentare zu einer Arbeitszeittabelle ](#make-comments-on-a-timesheet).
 
 Standardmäßig werden Kommentare beim ersten Zugriff auf eine Arbeitszeittabelle ausgeblendet.
 
@@ -148,7 +146,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
    >   * Befehlstaste + Rückgabe für Mac-Computer.
 
 
-1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer &#x200B;](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
+1. (Optional) Informationen zum Konfigurieren der Stundeneingabekommentare, die auf der Arbeitszeittabelle angezeigt werden, finden Sie im Abschnitt [Anzeigen von Stundeneingabekommentaren auf einer ](#view-hour-entry-comments-on-a-timesheet)) in diesem Artikel.
 
 ### Kommentar zu einem Arbeitselement in einer Arbeitszeittabelle {#comment-on-a-work-item-in-a-timesheet}
 

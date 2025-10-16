@@ -8,9 +8,9 @@ exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,26 @@ Informationen zur Konfiguration von SAML vor der Migration zu Enhanced Authentic
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,7 +117,7 @@ Dieses Verfahren liefert wichtige Informationen zur Konfiguration von Okta als I
    1. Stellen Sie sicher **dass** Klassische Benutzeroberfläche) in der oberen linken Ecke der Okta-Benutzeroberfläche ausgewählt ist.
    1. Klicken Sie im Menü auf **Anwendungen** > **Anwendungen**.
 
-   1. Klicken Sie auf die von Ihnen erstellte Workfront-App, wie im Abschnitt &quot;[&#x200B; einer Workfront-App in Okta“ &#x200B;](#create-a-workfront-app-in-okta)
+   1. Klicken Sie auf die von Ihnen erstellte Workfront-App, wie im Abschnitt &quot;[ einer Workfront-App in Okta“ ](#create-a-workfront-app-in-okta)
    1. Klicken Sie auf der **Anmelden**-Registerkarte auf **Identitätsanbieter-Metadaten**.
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata.png)

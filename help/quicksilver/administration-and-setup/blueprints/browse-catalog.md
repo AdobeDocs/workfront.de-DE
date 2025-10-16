@@ -7,9 +7,9 @@ description: Blueprints bieten grundlegende Bausteine, mit denen Sie ein mit Ihn
 author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -24,27 +24,23 @@ Blueprints können nur vom Systemadministrator installiert werden. Weitere Infor
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td>
-   <p>Neu: Mitwirkender oder höher</p>
-   <p>oder</p>
-   <p>Aktuell: Anforderung oder höher</p></td> 
-  </tr>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Mitwirkender oder höher</p><p>Antragsteller oder höher</p>
+  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +53,7 @@ Im Katalog werden alle Blueprints angezeigt, die für Ihr Unternehmen verfügbar
 1. Durchsuchen Sie den Blueprint-Katalog.
 1. Verwenden Sie das Bedienfeld „Filter“ auf der rechten Seite, um den Katalog nach folgenden Optionen zu filtern:
 
-   * Anwendungsfall (z. B[!UICONTROL &#x200B; „Personalwesen] oder [!UICONTROL Marketing])
+   * Anwendungsfall (z. B[!UICONTROL  „Personalwesen] oder [!UICONTROL Marketing])
    * Reifegrad ([!UICONTROL verwaltet] oder [!UICONTROL integriert])
    * Installationsstatus ([!UICONTROL installiert] oder nicht [!UICONTROL installiert])
    * Blueprint-Typ (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organisationsstruktur], [!UICONTROL Projektvorlage]<!--, Request Queue, Setup Feature-->)

@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 1%
+source-wordcount: '1114'
+ht-degree: 2%
 
 ---
 
@@ -33,32 +33,34 @@ Als [!DNL Adobe Workfront] können Sie Dokumentintegrationen konfigurieren, um D
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: [!UICONTROL Standard]</p>
-       <p>oder</p>
-       <p>Aktuell: [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen [!DNL Workfront] sein.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-Paket
+   </td>
+   <td> <p>Prime oder Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-Lizenzen
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationen der Zugriffsebene
+   </td>
+   <td>Sie müssen [!DNL Workfront] sein.
+   </td>
+  </tr>
 </table>
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Unterstützte Integrationen
 
@@ -74,7 +76,7 @@ Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurier
 
 * [!DNL Workfront Proof]
 
-  Durch das Verknüpfen von Korrekturabzügen aus [!DNL Workfront Proof] können Sie Korrekturabzüge, die ursprünglich in [!DNL Workfront Proof] erstellt wurden, in [!DNL Workfront] verfügbar machen. Für die aktuellen Pläne ist ein [!UICONTROL Pro]-[!DNL Workfront] oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Pläne ist diese Funktion in allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
+  Durch das Verknüpfen von Korrekturabzügen aus [!DNL Workfront Proof] können Sie Korrekturabzüge, die ursprünglich in [!DNL Workfront Proof] erstellt wurden, in [!DNL Workfront] verfügbar machen.
 
 * [!DNL Microsoft SharePoint]
 
@@ -96,8 +98,6 @@ Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurier
   >Sie können von einem externen Cloud-Anbieter verknüpfte Dokumente auf die gleiche Weise prüfen und genehmigen wie Dokumente, die direkt in [!DNL Workfront] hochgeladen wurden.
 
 * Andere Dokumentanbieter (über benutzerdefinierte Dokumentintegrationen).
-
-  Für die aktuellen Pläne ist ein [!UICONTROL Pro]-[!DNL Workfront] oder höher erforderlich, um diese Funktion verwenden zu können. Für die neuen Pläne ist diese Funktion in allen Plänen verfügbar. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
 
 Darüber hinaus können Sie Ihr [!DNL Workfront]-Dokumenterlebnis mit DAM-Integrationen von Drittanbietern verbessern. Administratoren müssen diese Funktionen aktivieren, damit Benutzer den Dienst mit ihrem [!DNL Workfront] verknüpfen können.
 
@@ -163,7 +163,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Authentifizierungs-URL]</td> 
+      <td role="rowheader">[!UICONTROL-Authentifizierungs-URL]</td> 
       <td>Die für die Benutzerauthentifizierung verwendete vollständige URL. [!DNL Workfront] navigiert Benutzer im Rahmen des OAuth-Bereitstellungsprozesses zu dieser Adresse.</td> 
      </tr> 
      <tr> 
@@ -187,7 +187,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
 
    >[!TIP]
    >
-   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL &#x200B; Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
+   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL  Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL ApiKey]**-Authentifizierung für den **[!UICONTROL Authentifizierungstyp]** ausgewählt haben, geben Sie den API-Schlüssel ein, der vom benutzerdefinierten Dokumentanbieter ausgestellt wurde.
 
@@ -243,7 +243,7 @@ So konfigurieren Sie [!DNL Workfront] zum Senden von Metadaten an [!DNL Workfron
 1. Erweitern Sie **[!UICONTROL Dokumente]** und klicken Sie dann auf **[!UICONTROL Metadatenzuordnung]**.
 
 1. Wählen Sie in der Liste der Felder eines der Felder aus, die Sie aus der Metadatenzuordnung entfernen möchten.
-1. Klicken Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie auf **[!UICONTROL Löschen]**.
 
    Die Felder werden aus der Metadatenzuordnung entfernt und die darin enthaltenen Informationen werden nicht an [!DNL Workfront DAM] mit den hochgeladenen Dokumenten übertragen.
 

@@ -7,50 +7,84 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten von Informationen in benutzerdefinierten Formularfeldern
 
+<!--Audited: 10/2025-->
+
 Sie können Informationen in einem benutzerdefinierten Formular bearbeiten, nachdem das Formular mit einem Objekt verbunden wurde. Informationen zum Hinzufügen benutzerdefinierter Formulare zu Objekten finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Team oder höher</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Paket</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-Lizenzen*</p> </td> 
-   <td> <p>Anfrage oder höher</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Lizenz</p> </td> 
+   <td> <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Zugriffsebene*</td> 
-   <td> <p>Bearbeitungszugriff auf das Objekt, für das Sie das benutzerdefinierte Formular bearbeiten möchten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Bearbeitungszugriff auf das Objekt, für das Sie das benutzerdefinierte Formular bearbeiten möchten</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objektberechtigungen</p> </td> 
    <td> 
     <ul> 
-     <li> <p>Contribute oder höhere Berechtigungen für das Objekt, für das Sie das benutzerdefinierte Formular bearbeiten möchten</p> </li> 
-     <li>Anzeigen von Berechtigungen für die Felder, die Sie bearbeiten möchten. Informationen über Freigabeberechtigungen für benutzerdefinierte Felder finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Freigabe für benutzerdefinierte Felder und Widgets konfigurieren</a>.</li> 
-     <li> <p>Bearbeitungsberechtigungen für die Abschnitte im Formular, in denen sich die zu bearbeitenden Felder befinden</p> </li> 
-    </ul> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen für Objekte finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+     <li> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen für das Objekt bei, für das Sie das benutzerdefinierte Formular bearbeiten möchten</p> </li> 
+     <li><p>Anzeigen von Berechtigungen für die Felder, die Sie bearbeiten möchten.</p></li> 
+     <li><p>Bearbeitungsberechtigungen für die Abschnitte im Formular, in denen sich die zu bearbeitenden Felder befinden</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Voraussetzungen
 
@@ -64,7 +98,7 @@ Sie müssen über Folgendes verfügen:
 Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, ist für alle Objekte identisch. Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Navigieren Sie zu einem Objekt, für das Sie Informationen im benutzerdefinierten Formular bearbeiten möchten.
-1. Klicken Sie im **Bedienfeld auf**`<Object type>` Details.
+1. Klicken Sie im **`<Object type>`Bedienfeld auf** Details.
 
    Wenn Sie beispielsweise Informationen in einem benutzerdefinierten Formular eines Projekts bearbeiten, klicken Sie auf **Projektdetails**.
 
@@ -132,13 +166,15 @@ Sie können die benutzerdefinierten Felder mehrerer Objekte manuell neu berechne
 
 >[!TIP]
 >
->Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenberechnung berechneter benutzerdefinierter Felder keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung sicherzustellen. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
->
->So berechnen Sie benutzerdefinierte Ausdrücke stapelweise aus einer Projektliste neu:
+>Sie können benutzerdefinierte Ausdrücke auch aus einer Liste von Objekten neu berechnen. So berechnen Sie beispielsweise benutzerdefinierte Ausdrücke massenhaft aus einer Projektliste neu:
 >
 >1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
->1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+>1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 >
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront berechnet alle benutzerdefinierten Felder für alle ausgewählten Projekte.
+>>Nicht alle Listen aller Objekte verfügen über diese Funktion.
+>
+>Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenberechnung berechneter benutzerdefinierter Felder keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung sicherzustellen. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
+

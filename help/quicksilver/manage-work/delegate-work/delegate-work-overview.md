@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegieren von Arbeit - Übersicht
 description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre Arbeit vorübergehend an andere Benutzer delegieren, um sicherzustellen, dass Ihre Abwesenheit nicht zu einer Hürde für die Fertigstellung der Arbeit wird.
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Beachten Sie beim Delegieren von Aufgaben und Problemen Folgendes:
 
   Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-* Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
+* Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; ].
 * Beim Delegieren von Arbeit gibt es Ausnahmen für die folgenden Lizenztypen:
 
    * Sie können Arbeit an Prüfer oder Auftraggeber delegieren, obwohl [!DNL Workfront] dies nicht empfiehlt.

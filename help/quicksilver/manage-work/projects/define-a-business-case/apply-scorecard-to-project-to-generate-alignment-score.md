@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scores
 description: Sie können eine Scorecard verwenden, um zu messen, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt häufig die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,15 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>
-   <p>Aktuell: Prime oder höher</p>
-   <p>oder</p>
-   <p>Legacy: Unternehmen oder höher</p> </td>
+   <p>Prime oder höher</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Aktuell: Standard</p>
-   <p>oder</p>
-   <p>Legacy: Plan</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +50,7 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

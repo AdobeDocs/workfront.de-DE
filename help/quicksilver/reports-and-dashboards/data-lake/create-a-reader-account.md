@@ -7,10 +7,10 @@ description: Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Sn
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 0%
+source-wordcount: '629'
+ht-degree: 1%
 
 ---
 
@@ -18,41 +18,33 @@ ht-degree: 0%
 
 Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Snowflake-Leserkonto (oder ein Service-Konto) für Ihr Unternehmen erstellen und dann für jeden Benutzer oder jedes Tool, auf den bzw. die Sie Zugriff auf Data Connect haben möchten, eine neue Verbindung erstellen.
 
-Nachdem Sie eine Verbindung erstellt haben, können Sie die zugehörige URL und den Benutzernamen finden, indem Sie auf der Seite **Datenverbindung** (**Hauptmenü** > **Setup** > **System** > **Datenverbindung**) auf der Registerkarte **Vorhandene Verbindungen** klicken.
+Nachdem Sie eine Verbindung erstellt haben, können Sie die zugehörige URL und den Benutzernamen finden, indem Sie auf der Seite „Datenverbindung“ (Hauptmenü > Setup > System > Datenverbindung) unter der Registerkarte „Vorhandene Verbindungen“ darauf klicken.
 
 Informationen zur Verwendung einer neu erstellten Verbindung mit einem externen Produkt finden Sie unter [Herstellen einer Verbindung mit Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>In den folgenden Plänen enthalten:</p>
-    <ul>
-        <li>Ultimativ</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect ist nicht für veraltete Workfront-Pläne verfügbar.</p> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p></td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,9 +71,9 @@ So erstellen Sie ein Leserkonto:
 
 1. Nach Abschluss des Vorgangs wird ein Dialogfeld angezeigt, in dem erklärt wird, dass Ihr Leserkonto jetzt aktiv ist. Aktualisieren Sie die Browser-Seite, um auf die Schaltfläche **Neue Verbindung erstellen** zuzugreifen.
 
-Dialogfeld für das Erstellen des Reader-Kontos![&#128279;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+Dialogfeld für das Erstellen des Reader-Kontos![](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
-## Erstellen einer Verbindung
+## Verbindung erstellen
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Setup**.
 
@@ -95,7 +87,7 @@ Dialogfeld für das Erstellen des Reader-Kontos![&#128279;](/help/quicksilver/re
 
 1. Es **ein** Standardkennwort) sowie eine URL generiert, über die Ihre Daten über Snowflake angezeigt werden können. Sie müssen das Kennwort zusammen mit dem Benutzernamen verwenden, den Sie zum ersten Mal für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie sowohl den Benutzernamen als auch die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
 
-   ![Standardkonto-Passwort](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
+   ![Standardkonto-Kennwort](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
 1. Öffnen Sie Snowflake mithilfe eines Browsers, um zur URL aus dem vorherigen Schritt zu navigieren, geben Sie den ausgewählten Benutzernamen und das Standardkennwort aus dem vorherigen Schritt ein und klicken Sie dann auf **Anmelden**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Weitere Informationen zur Startseite finden Sie unter [Erste Schritte mit der St
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -43,31 +43,29 @@ Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zu
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td><p>Neu: Standard</p>
-  <p> Aktuell: Plan</p>
-   </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
-Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.</p>
+        <p>Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,11 +134,11 @@ So passen Sie die Startseite mithilfe einer Layout-Vorlage an:
    >
    >* Die Filter-, Spalten- und Gruppenoptionen sind mit den Listenanpassungsoptionen in der Layout-Vorlage verknüpft. Hier vorgenommene Änderungen gelten auch für diese Einstellungen.
    >* Benutzer müssen mindestens Zugriff auf „Erstellen“ für Ansichten haben, damit die Spaltenkonfiguration des Administrators ordnungsgemäß auf ihre Startseiten angewendet werden kann.
-   ></p>
-   >   <li><p>Legen Sie einen Standardfilter oder eine Standardgruppe für das Widget fest, indem Sie den Mauszeiger über eine Option bewegen und auf <b>Als Standard festlegen</b> klicken. Die aktuelle Standardeinstellung zeigt rechts neben der <b> ein blaues </b>.</p></li>
-   >   <li><p>Fügen Sie einen vorhandenen Filter, eine vorhandene Spalte oder eine vorhandene Gruppe zur Liste der verfügbaren Optionen hinzu, indem Sie auf die Schaltfläche mit dem Pluszeichen unten in jeder Liste klicken, um dieser Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Legen Sie einen Standardfilter oder eine Standardgruppe für das Widget fest, indem Sie den Mauszeiger über eine Option bewegen und auf <b>Als Standard festlegen</b> klicken. Die aktuelle Standardeinstellung zeigt rechts neben der <b> ein blaues </b>.</p></li>
+      <li><p>Fügen Sie einen vorhandenen Filter, eine vorhandene Spalte oder eine vorhandene Gruppe zur Liste der verfügbaren Optionen hinzu, indem Sie auf die Schaltfläche mit dem Pluszeichen unten in jeder Liste klicken, um dieser Liste eine Option hinzuzufügen. Beachten Sie, dass nur vorhandene Filter, Felder (für Spalten) oder Gruppen auf diese Weise hinzugefügt werden können.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

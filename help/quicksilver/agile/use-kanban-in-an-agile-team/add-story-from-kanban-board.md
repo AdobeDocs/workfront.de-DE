@@ -6,22 +6,20 @@ description: Sie können eine neue Story oder ein Problem schnell direkt im Kanb
 author: Lisa
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
-# Stories und Probleme aus dem Kanban[!UICONTROL Board &#x200B;]
+# Stories und Probleme aus dem Kanban[!UICONTROL Board ]
 
-Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UICONTROL Board &#x200B;].
+Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UICONTROL Board ].
 
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,18 +28,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p> 
-   oder
-   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeit oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Manage] Zugriff auf die Aufgabe oder das Problem </td> 
+   <td>Zugriff auf die Aufgabe oder das Problem verwalten </td> 
   </tr> 
  </tbody> 
 </table>

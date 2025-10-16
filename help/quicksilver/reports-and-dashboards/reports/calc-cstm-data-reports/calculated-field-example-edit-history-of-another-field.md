@@ -5,12 +5,12 @@ keywords: Audit, Protokoll, benutzerdefiniert, Feld
 navigation-topic: calculate-custom-data-reports
 title: 'Beispiel für berechnete benutzerdefinierte Felder: Anzeigen des Bearbeitungsverlaufs eines Felds'
 description: Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren und Sie ein Protokoll aller an einem Feld vorgenommenen Änderungen sowie ein Datum, an dem die Änderungen vorgenommen werden, erfassen möchten, können Sie diese Informationen in einem berechneten benutzerdefinierten Feld erfassen.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ Dies geschieht folgendermaßen:
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td> <p>Adobe Workfront-Paket</p> </td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront-Lizenz*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-Lizenz</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Konfigurationen der Zugriffsebene*</strong> </td> 
-   <td> <p>Administrativer Zugriff auf benutzerdefinierte Forms</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td><p>Konfigurationen der Zugriffsebene</p></td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Forms</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Verwalten der Berechtigungen für die benutzerdefinierten Formulare </p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>.<br></p> </td> 
+   <td> <p>Objektberechtigungen</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für die benutzerdefinierten Formulare</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -80,7 +83,7 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das de
 
    1. Klicken Sie **Einzeiliger Text**.
    1. Geben Sie einen **Titel** für das benutzerdefinierte Feld an. Sie können ihr beispielsweise den Namen „Anweisungen“ geben.
-   1. Klicken Sie **Apply**.
+   1. Klicken Sie auf **Übernehmen**.
 
 1. Klicken Sie **Berechnet**, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
 1. Geben Sie einen **Titel** für das berechnete benutzerdefinierte Feld an. Sie können ihr beispielsweise den Namen „Anweisungen - Bearbeitungsverlauf“ geben.

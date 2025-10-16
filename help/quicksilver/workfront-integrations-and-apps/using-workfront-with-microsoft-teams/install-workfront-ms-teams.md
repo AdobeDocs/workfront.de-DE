@@ -6,9 +6,9 @@ description: Die  [!DNL Adobe Workfront for Microsoft Teams] -App ermöglicht di
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -31,29 +31,29 @@ Mit der [!DNL Adobe Workfront for Microsoft Teams] App können Sie grundlegende 
 >[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um die [!DNL Adobe Workfront for Microsoft Teams integration] verwenden zu können, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
 
+
+
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: Standard</p>
-    <p>Aktuell: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+   <p>Arbeit oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,13 +102,13 @@ So installieren Sie [!DNL Workfront for Microsoft Teams] aus einer privaten Date
 
 Als [!DNL Microsoft Teams] Team-Eigentümer müssen Sie die [!DNL Workfront for Microsoft Teams] App für Ihr Team installieren, bevor Sie oder ein anderes Teammitglied sich bei [!DNL Workfront from Microsoft Teams] anmelden kann.
 
-Wenn Sie von [!DNL Microsoft Teams] bei [!DNL Workfront] angemeldet sind, können Sie [!DNL Workfront] Benachrichtigungen im [!DNL Workfront] Bot-Kanal erhalten oder bestimmte Aktionen in [!DNL Workfront] von [!DNL Microsoft Teams] aus durchführen.
+Wenn Sie von [!DNL Workfront] bei [!DNL Microsoft Teams] angemeldet sind, können Sie [!DNL Workfront] Benachrichtigungen im [!DNL Workfront] Bot-Kanal erhalten oder bestimmte Aktionen in [!DNL Workfront] von [!DNL Microsoft Teams] aus durchführen.
 
 Informationen zur Installation der [!DNL Workfront]-App finden Sie im Abschnitt [Installieren [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) in diesem Artikel.
 
 Informationen zum Zugriff auf [!DNL Workfront] von [!DNL Microsoft Teams] zum Ausführen bestimmter Aktionen finden Sie unter [Zugriff [!DNL Adobe Workfront] von [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md).
 
-So melden Sie sich von [!DNL Microsoft Teams] aus bei [!DNL Workfront] an:
+So melden Sie sich von [!DNL Workfront] aus bei [!DNL Microsoft Teams] an:
 
 1. Gehen Sie zum Kanal **[!UICONTROL Allgemein]** des Teams, in dem die [!DNL Workfront for Microsoft Teams] App installiert wurde, und klicken Sie auf **[!UICONTROL Bei Workfront anmelden]**.
 

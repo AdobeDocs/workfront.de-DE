@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1960'
 ht-degree: 6%
 
 ---
@@ -33,30 +33,26 @@ Beim Erstellen einer [!UICONTROL OAuth2]-Anwendung generieren Sie eine Client-ID
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: [!UICONTROL Standard]</p>
-   Oder
-   <p>Aktuell:[!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> Sie müssen [!DNL Workfront] sein. </td> 
+   <td>Sie müssen ein Workfront-Administrator sein. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -342,7 +338,7 @@ Für die weitere Konfiguration und Verwendung der erstellten OAuth2-Anwendung si
 
 ### Autorisierung mit Autorisierungs-Code und Zugriffs-Token {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp benötigt einige Informationen von [!DNL Workfront], daher sendet es eine Anfrage an den `/authorize`-Endpunkt der [!DNL Workfront]-API. Die Anfrage enthält den `code` [!UICONTROL RESPONSE_TYPE], der angibt, dass die Anfrage einen Autorisierungs-Code zurückgeben soll.
+1. ClientApp benötigt einige Informationen von [!DNL Workfront], daher sendet es eine Anfrage an den [!DNL Workfront]-Endpunkt der `/authorize`-API. Die Anfrage enthält den RESPONSE_TYPE`code`, der angibt, dass die Anfrage einen Autorisierungs-Code zurückgeben soll.
 1. Dieser Trigger [!DNL Workfront] eine Authentifizierungsaufforderung an den Benutzer senden. Der Benutzer kann seine Anmeldeinformationen in die Eingabeaufforderung eingeben, wodurch [!DNL Workfront] Berechtigung zur Kommunikation mit ClientApp erhält. Wenn der Benutzer bereits bei [!DNL Workfront] angemeldet ist, kann dieser Schritt übersprungen werden.
 1. Die [!DNL Workfront]-API sendet einen Autorisierungs-Code an ClientApp.
 1. ClientApp sendet in einer Anfrage die folgenden Informationen an die [!DNL Workfront]-API `/token`   Endpunkt:

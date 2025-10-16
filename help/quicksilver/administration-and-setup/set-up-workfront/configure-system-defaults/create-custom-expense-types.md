@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '379'
 ht-degree: 4%
 
 ---
@@ -27,31 +27,27 @@ Sie können alle von Ihnen erstellten Ausgabentypen bearbeiten oder löschen. Di
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Beliebig</td> 
+   <td>[!DNL Adobe Workfront] Packstück</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: [!UICONTROL Standard]</p>
-   Oder
-   <p>Aktuell: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] Lizenz</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Systemadministrator]</td>
-  </tr>
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td>[!UICONTROL Systemadministrator]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +55,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht oder bearbeitet werden können, gehören die folgenden:
 
-* [!UICONTROL Advertising]
+* [!UICONTROL Werbung]
 * [!UICONTROL Beratung]
 * [!UICONTROL Unterhaltung]
 * [!UICONTROL Allgemein]
@@ -82,8 +78,8 @@ Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht 
       * Kilometer
       * Kilogramm
       * Dollar
-      * Stunde
-      * Tag
+      * Hour
+      * Day
       * Sonstiges - Wenn Sie diese Option wählen, werden Sie aufgefordert, die Maßeinheit zu benennen und diese als eine Ihrer Organisation vertraute Einheit zu definieren.
 
    * **Rate** - Der Preis pro Einheit. Dies ist ein währungsformatiertes Feld, das die Kosten für jede Einheit darstellt, die im Feld **Berechnete Einheit** festgelegt wird. Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach dem Dezimaltrennzeichen enthalten. Beispiel: 1.0375.

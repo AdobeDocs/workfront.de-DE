@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: Übersicht über das Ändern von Problemzuweisungen
 description: Sie können Anfragen Benutzern, Teams oder Aufgabengebieten zuweisen oder deren Zuweisung aufheben. Sie können mehrere Ressourcen oder nur eine Ressource gleichzeitig zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

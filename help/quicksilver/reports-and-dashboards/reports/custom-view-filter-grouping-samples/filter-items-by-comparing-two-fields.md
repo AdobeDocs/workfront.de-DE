@@ -7,9 +7,9 @@ description: Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,21 @@ Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder vergle
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-    <p>Neu:</p>
-   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
-   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Filter ändern </p></li>
-   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
+   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -56,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Zu einer Aufgabenliste gehen.
 1. Wählen Sie **Dropdown** Menü „Filter“ die Option **Neuer Filter**.
 
-1. Fügen Sie einen Filter für **Aufgabe:Tatsächliches Abschlussdatum** > **Größer als** > **Datum auswählen** hinzu.
+1. Fügen Sie einen Filter für **Aufgabe:Actual Abschlussdatum** > **Größer als** > **Wählen Sie ein Datum** hinzu.
 
    >[!TIP]
    >

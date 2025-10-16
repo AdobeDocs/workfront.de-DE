@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -47,31 +47,27 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
-   <td>Beliebig</td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+  <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -182,7 +178,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
 
       Jedes Feld muss von geschweiften Klammern umgeben sein. Wenn Sie mit der Eingabe eines Feldnamens beginnen, macht das System Vorschläge, und Sie können einen auswählen, um ihn in Ihre Berechnung einzufügen.
 
-+++ **Erweitern Sie , um die in berechneten benutzerdefinierten Feldern erforderliche Syntax anzuzeigen**
+      +++ **Erweitern Sie , um die in berechneten benutzerdefinierten Feldern erforderliche Syntax anzuzeigen**
 
       Jedes Feld muss die unten beschriebene Syntax verwenden, wobei die einzelnen Feldnamen in geschweiften Klammern stehen müssen. Wenn Sie mit der Eingabe eines Feldnamens beginnen, macht das System Vorschläge, und Sie können einen auswählen, um ihn in Ihre Berechnung einzufügen. Wenn Sie Daten in eine Berechnung falsch eingeben, werden Sie durch eine Warnmeldung informiert. Das Formular kann erst gespeichert werden, wenn die Berechnung so bearbeitet wurde, dass sie gültige Felder und einen gültigen berechneten Ausdruck enthält.
 
@@ -282,7 +278,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
            >
            ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Zeitangaben in berechneten benutzerdefinierten Feldern durch die koordinierte Weltzeit (UTC) berechnet und gespeichert, nicht durch die Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular, die auf der Grundlage der individuellen Zeitzonen der einzelnen Benutzenden erstellt werden.</div>
 
-+++
+        +++
 
    1. Klicken Sie in das große Textfeld und dann auf **Ausdrücke** und **Felder**, die Sie Ihrer Berechnung hinzufügen können.
 
@@ -292,7 +288,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
 
       Wenn Sie eine öffnende Klammer eingeben, wird die schließende Klammer automatisch hinzugefügt.
 
-+++ **Erweitern Sie , um hilfreiche Tipps anzuzeigen**
+      +++ **Erweitern Sie , um hilfreiche Tipps anzuzeigen**
 
       >[!TIP]
       >
@@ -309,7 +305,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
       >  ![Vorschau der Berechnung](assets/preview-calc.jpg)
       >* Referenzausdrücke in einer langen Berechnung unter Verwendung der Zeilennummern, die links angezeigt werden.
 
-+++
+      +++
    1. Klicken Sie **Minimieren** wenn Sie die Erstellung der Berechnung für das berechnete benutzerdefinierte Feld abgeschlossen haben.
 
    1. (Optional) Verwenden Sie eine der folgenden Optionen, um Ihr berechnetes benutzerdefiniertes Feld weiter zu konfigurieren:

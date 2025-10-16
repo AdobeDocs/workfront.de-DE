@@ -7,9 +7,9 @@ description: Sie können ein Limit für laufende Arbeiten (Work In Progress, WIP
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,19 @@ Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Sie nicht 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,10 +53,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
 1. Suchen Sie die Spalte, der Sie das WIP-Limit hinzufügen möchten.
 
-   Informationen zum Hinzufügen einer neuen Spalte finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zum Hinzufügen einer neuen Spalte finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]** aus, um den Bereich Einstellungen zu öffnen.
-1. Aktivieren [!UICONTROL &#x200B; unter „Spaltenrichtlinien] die **[!UICONTROL Laufende Arbeit] Limit**, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können.
+1. Aktivieren [!UICONTROL  unter „Spaltenrichtlinien] die **[!UICONTROL Laufende Arbeit] Limit**, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können.
 1. Geben Sie die Limit-Nummer in das Feld **[!UICONTROL Limit festlegen]** ein.
 
    ![WIP-Beschränkung für Spalte](assets/boards-wip-limit-in-column.png)

@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Business Case-Ziele erstellen
 description: Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Business Case-Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor zu kommunizieren, wann ein Projekt abgeschlossen werden soll.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 2%
 
 ---
 
@@ -50,15 +50,14 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Aktuell: Prime oder höher</p>
-   <p>Legacy: Pro oder höher</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
+   <td> <p>Prime oder höher</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td> 
-   <p>Aktuell: Standard</p> 
-   <p>Legacy: Plan </p> 
+   <p>Standard</p> 
+   <p>Plan </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

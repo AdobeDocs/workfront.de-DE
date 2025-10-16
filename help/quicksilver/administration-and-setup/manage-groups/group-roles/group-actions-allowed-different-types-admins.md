@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 3%
+source-wordcount: '514'
+ht-degree: 13%
 
 ---
 
@@ -46,14 +46,14 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   <tr> 
    <td>Benutzerprofile erstellen und bearbeiten</td> 
    <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Untergruppen</td>
    <td>✓ </td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Einstellungen für Projekte, Aufgaben und Probleme auf Systemebene konfigurieren</td> 
@@ -63,9 +63,9 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   </tr> 
   <tr> 
    <td>Aktivieren und Deaktivieren von Projekt-, Aufgaben- und Problem-Voreinstellungen für Gruppen und Untergruppen</td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen auf Systemebene</td> 
@@ -75,9 +75,9 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   </tr> 
   <tr> 
    <td>Arbeitszeittabellen- und Stundeneinstellungen für Gruppen und Untergruppen aktivieren und deaktivieren </td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Konfigurieren von Ereignis-Benachrichtigungs-E-Mails auf Systemebene</td> 
@@ -87,15 +87,15 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   </tr> 
   <tr> 
    <td>Aktivieren und Deaktivieren von Ereignis-Benachrichtigungs-E-Mails für Gruppen und Untergruppen</td> 
-   <td>✓ *** </td> 
-   <td>✓ ***</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten benutzerdefinierter Formulare</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Layout-Vorlagen erstellen und verwalten</td> 
@@ -105,9 +105,9 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Genehmigungsprozessen für eine Gruppe</td> 
-   <td>✓ *** </td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Teams</td> 
@@ -118,20 +118,20 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   <tr> 
    <td>Wechselkurse erstellen und verwalten</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Stundentypen erstellen und verwalten</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Meilensteinpfade erstellen und verwalten</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Zeitplänen</td> 
@@ -154,8 +154,8 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   <tr> 
    <td>Erstellen von Arbeitszeittabellen für den einmaligen Gebrauch</td> 
    <td>✓</td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Aufgabengebieten</td> 
@@ -207,7 +207,7 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
   </tr> 
   <tr> 
    <td>Maximale Anzahl von Lizenzen zuweisen</td> 
-   <td>✓ *** </td> 
+   <td>✓*** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -230,7 +230,14 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
 
 &#42;&#42; In der Zugriffsebene des Gruppenadministrators muss der Zugriff auf diese Aktion aktiviert sein. Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Die folgenden Aktivitäten sind Teil der erweiterten Unternehmenssteuerung und nicht für den Auswahlplan verfügbar. Nur Organisationen, die Prime- oder Ultimate-Pläne erworben haben, können auf diese Funktionen zugreifen.  Weitere Informationen zu Plänen finden Sie auf der Seite [&#128279;](https://business.adobe.com/de/products/workfront/pricing.html) Preisgestaltung und Verpackung von Adobe Workfront. (Für Organisationen, die die Legacy-Pläne verwenden, zeigt die obige Tabelle die Aktivitäten für Gruppen- und Untergruppenadministratoren an.)
+&#42;&#42;&#42; Diese Pakete enthalten die unten aufgeführten erweiterten Funktionen für die Unternehmenssteuerung:
+
+* Workflow-Prime und höher
+* Workfront Prime und höher
+
+Weitere Informationen zu Paketen finden Sie auf der Seite [ Preisgestaltung und Verpackung von ](https://business.adobe.com/products/workfront/pricing.html)Adobe Workfront.
+
+Erweiterte Enterprise Controls:
 
 * Einstellungen für Projekte, Aufgaben und Probleme auf Gruppenebene konfigurieren
 * Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen auf Gruppenebene

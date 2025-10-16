@@ -6,9 +6,9 @@ description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder ein
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -41,38 +41,30 @@ Die Meilenstein -Ansicht ist beim Anzeigen einer Projektliste oder eines Projekt
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Arbeit oder höher</p></li>
-         </ul>
+    <p>Standard</p>
+    <p>Arbeit oder höher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards, Kalender</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards, Kalender</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Anzeigen von Berechtigungen für einen Projektbericht, um die Meilenstein -Ansicht auf einen Bericht anzuwenden</p> </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+    <td> <p>Anzeigen von Berechtigungen für einen Projektbericht, um die Meilenstein -Ansicht auf einen Bericht anzuwenden</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

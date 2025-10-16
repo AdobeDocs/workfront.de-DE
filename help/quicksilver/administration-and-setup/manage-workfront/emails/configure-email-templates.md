@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
@@ -32,21 +32,18 @@ E-Mail-Vorlagen können mit Erinnerungsbenachrichtigungen für Probleme, Aufgabe
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td><p>Neu: Standard</p>
-   Oder
-   <p>Aktuell: Plan</p>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td>Fügen Sie den Text hinzu, der in der Betreffzeile der E-Mail angezeigt wird, wenn die von der Vorlage generierte E-Mail-Nachricht gesendet wird. Dies ist ein Pflichtfeld.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Text </td> 
+      <td role="rowheader">Textkörper </td> 
       <td> <p>Fügen Sie den Text für den Inhalt der E-Mail-Nachricht hinzu.</p> <p>Sie können die HTML-Formatierung für den E-Mail-Inhalt verwenden, wie im Abschnitt <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Hinzufügen der HTML-Formatierung zu einer E-Mail-Vorlage</a> in diesem Artikel beschrieben.</p> </td> 
      </tr> 
     </tbody> 
@@ -109,7 +106,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf **Speichern**.
 
-## Hinzufügen von HTML-Formatierung zu einer E-Mail-Vorlage {#add-html-formatting-to-an-email-template}
+## Hinzufügen einer HTML-Formatierung zu einer E-Mail-Vorlage {#add-html-formatting-to-an-email-template}
 
 Sie können E-Mail-Vorlagen HTML-Tags hinzufügen, um benutzerdefinierte Benachrichtigungen zu erstellen.\
 Erstellen Sie die E-Mail-Vorlage wie in [Erstellen einer neuen E-Mail-Vorlage](#create-a-new-email-template) beschrieben.

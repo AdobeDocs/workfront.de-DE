@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '805'
 ht-degree: 2%
 
 ---
@@ -27,30 +27,26 @@ Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie im Abschni
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> <col> 
+<table style="table-layout:auto"> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Neu: Standard</p>
-   Oder
-   <p>Aktuell: Plan</p></td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p></td> 
+   <td>Sie müssen ein Workfront-Administrator sein. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -118,7 +114,7 @@ So konfigurieren Sie den Abschnitt „Allgemeine Informationen“ im Bereich „
       <td> <p>Die E-Mail-Adresse Ihres Workfront-Administrators. Sie können dieses Feld so bearbeiten, dass es mit der E-Mail-Adresse eines Workfront-Administrators übereinstimmt. Der mit dieser E-Mail-Adresse verknüpfte Benutzer wird als Hauptadministrator von Workfront in Ihrem Workfront-System betrachtet. Jede Site-weite Kommunikation von Workfront wird an diese E-Mail-Adresse geleitet, daher ist es wichtig, sie auf dem neuesten Stand zu halten.</p> <p><b>HINWEIS</b>: Sie können die Zugriffsebene der Benutzenden, die mit der Admin-E-Mail verknüpft sind, nicht deaktivieren, löschen oder ändern.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Domäne</td> 
+      <td role="rowheader">Domain</td> 
       <td> <p>Die Domain wird von Workfront bei der Kontoerstellung festgelegt.</p> <p>Die Domain identifiziert Ihre eindeutige Subdomain der URL, die Sie für den Zugriff auf Workfront verwenden.<p>Wenn Ihrem Unternehmen beispielsweise die Domain „mycompany“ zugewiesen wurde, lautet die URL für den Zugriff auf Workfront <i>https://mycompany.my.workfront.com.</i></p><p>Sie können die Domain nicht selbst bearbeiten. Wenn Sie Ihre Domain ändern möchten, können Sie sich an den Workfront-Support wenden. Weitere Informationen zur Kontaktaufnahme mit dem Workfront-Support finden Sie unter <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Kundensupport kontaktieren</a>.</p> </td> 
      </tr> 
      <tr> 

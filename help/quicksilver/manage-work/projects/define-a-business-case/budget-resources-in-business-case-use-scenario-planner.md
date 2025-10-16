@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Budgetressourcen im Business Case mit dem Szenario-Planer
 description: Im Rahmen der Ressourcenplanung können Sie mit dem Adobe Workfront-Szenario-Planer die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Weitere Informationen zum Erstellen eines Business-Case finden Sie unter [Erstel
 >
 >Die Aufgabengebiet-Informationen für die mit dem Projekt verknüpfte Initiative, die Sie im Szenario-Planer auf Systemebene eingeben, werden bei der Veröffentlichung der Initiative im Bereich Ressourcenbudgetierung des Business Cases des Projekts angezeigt. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
-Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetieren. Weitere Informationen finden Sie unter:
+Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetieren. Weitere Informationen finden Sie hier:
 
 * [Budgetressourcen im Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
@@ -35,7 +35,7 @@ Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetiere
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetiere
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td><p>Aktuell: Ultimate</p> 
-   <p>Legacy: Unternehmen oder höher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
+   <td><p>Prime oder höher</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p>Strom: Licht oder höher 
-   <p>Legacy: Überprüfung oder höher</p> </td> 
+   <td><p>Licht oder höher 
+   <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Produkt</p></td> 

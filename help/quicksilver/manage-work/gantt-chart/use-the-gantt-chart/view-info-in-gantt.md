@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Informationen im [!UICONTROL Gantt-Diagramm]
-description: Die Aufgabenliste Gantt-Diagramm und Projektliste Gantt-Diagramm zeigen Informationen zu Projekten und Aufgaben an.
+description: Die Adobe Workfront-Aufgaben- und [!UICONTROL  (Gantt]Diagramme) zeigen Informationen zu Aufgaben und Projekten an.
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Informationen im [!UICONTROL Gantt-Diagramm]
 
-Die Aufgabenliste [!UICONTROL Gantt-Diagramm] und die Projektliste [!UICONTROL Gantt-Diagramm] zeigen Informationen zu Projekten und Aufgaben an.
+<!--Audited: 08/2025-->
+
+Die Adobe Workfront-Aufgaben- und [!UICONTROL  (Gantt]Diagramme) zeigen Informationen zu Aufgaben und Projekten an.
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befolgen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Packstück</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Überblick über Lizenzen*</td> 
-   <td> <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td><p>[!UICONTROL light] oder höher</p>
+    <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte und Aufgaben in [!UICONTROL View] oder höher</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festlegt. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte und Aufgaben in [!UICONTROL View] oder höher</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL View] oder höher Zugriff auf das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf das Projekt und die Aufgaben in [!UICONTROL View] oder höher</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Suchen Sie das [!UICONTROL Gantt-]
 
@@ -63,7 +92,7 @@ Sie können die Aufgabeninformationen für ein Projekt direkt in der Projektlist
 
 >[!NOTE]
 >
->Aufgaben können nicht über die Projektliste (Gantt[!UICONTROL Diagramm) bearbeitet &#x200B;].
+>Aufgaben können nicht über die Projektliste (Gantt[!UICONTROL Diagramm) bearbeitet ].
 
 Sie können die Aufgabeninformationen für ein Projekt direkt aus einer Liste von Projekten in den folgenden Bereichen anzeigen:
 
@@ -75,20 +104,16 @@ So zeigen Sie Aufgaben in einem Projekt aus einer Projektliste an:
 
 1. Gehen Sie zu einem der oben genannten Bereiche.
 
-   Klicken Sie beispielsweise im [!UICONTROL Hauptmenü] auf **[!UICONTROL Projekte]**.
+   Workfront Klicken Sie beispielsweise im Hauptmenü [!UICONTROL **Hauptmenüsymbol**] ![ in ](assets/lines-main-menu.png) auf **[!UICONTROL Projekte]**.
 
    Eine Liste von Projekten wird angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Gantt]**-Symbol ![Gantt](assets/gantt-icon-nwe.png) in der rechten oberen Ecke des Bildschirms.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. Klicken Sie auf **[!UICONTROL Aufgabenliste anzeigen]** Symbol.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Aufgabenliste anzeigen![ „Aufgabenliste ](assets/show-task-list-icon.png).
 
 1. Klicken Sie in der Projektliste auf der linken Seite auf den Dropdown-Pfeil neben dem Namen des Projekts, um alle Aufgaben unter diesem Projekt anzuzeigen.\
-   Dadurch werden Aufgabeninformationen im Gantt[!UICONTROL Diagramm &#x200B;].\
+   Dadurch werden Aufgabeninformationen im Gantt[!UICONTROL Diagramm ].\
    ![Show_task_list_enabled_project_extended.png](assets/show-task-list-enabled-project-expanded-350x78.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Drucken]** in der oberen rechten Ecke, um das [!UICONTROL Gantt-Diagramm] zu exportieren.
@@ -97,7 +122,7 @@ So zeigen Sie Aufgaben in einem Projekt aus einer Projektliste an:
    >
    >Die Projektliste [!UICONTROL Gantt-Diagramm] exportiert nur Projekte. Aufgabeninformationen sind nicht enthalten.
 
-## Ändern des Zeitraums, für den Informationen im [!UICONTROL Gantt-Diagramm“ angezeigt &#x200B;]
+## Ändern des Zeitraums, für den Informationen im [!UICONTROL Gantt-Diagramm“ angezeigt ]
 
 Sie können den im [!UICONTROL Gantt-Diagramm) angezeigten Zeitraum anpassen] um Informationen auf einer granularen Ebene anzuzeigen, oder Sie können schnell zu einer Tages-, Wochen-, Monats-, Quartals- oder Jahresansicht navigieren:
 
@@ -111,7 +136,7 @@ Sie können den im [!UICONTROL Gantt-Diagramm) angezeigten Zeitraum anpassen] um
 
 ### Informationen nach Tag, Woche, Monat, Quartal oder Jahr anzeigen {#view-information-by-day-week-month-quarter-or-year}
 
-1. Klicken [!UICONTROL &#x200B; im &#x200B;] Gantt-Diagramm auf das Dropdown-Menü „Zeitrahmen“.
+1. Klicken [!UICONTROL  im ] Gantt-Diagramm auf das Dropdown-Menü „Zeitrahmen“.
 
    ![Zeitleisten-Optionen](assets/timeline-options.png)
 
@@ -132,11 +157,11 @@ Sie können den im [!UICONTROL Gantt-Diagramm) angezeigten Zeitraum anpassen] um
    >
    >Die Zeitleisten-Momentaufnahme wird erst angezeigt, nachdem Sie auf die horizontale Bildlaufleiste geklickt haben.
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![Zeitleisten-Snapshot-Mini-Map](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Optional) Klicken Sie auf eine beliebige Stelle innerhalb des Zeitleisten-Snapshots, um zu einem bestimmten Punkt in der Lebensdauer des Projekts zu navigieren.\
    Oder\
-   Ziehen Sie die Griffe des Schnappschuss-Viewers, um einen bestimmten Zeitzeilenbereich auszuwählen und ihn im Hauptfenster (Gantt[!UICONTROL &#x200B; anzuzeigen].
+   Ziehen Sie die Griffe des Schnappschuss-Viewers, um einen bestimmten Zeitzeilenbereich auszuwählen und ihn im Hauptfenster (Gantt[!UICONTROL  anzuzeigen].
 
 ## Filter, Ansichten und Gruppierungen verwenden
 
@@ -149,15 +174,15 @@ Das [!UICONTROL Gantt-]) ist eine visuelle Darstellung der Informationen, die de
 Auf die Liste angewendete Filter und Gruppierungen werden sowohl in der Projektliste als auch in der Aufgabenliste [!UICONTROL Gantt-]) angezeigt und auch beim Exportieren der Gantt-Diagramme einbezogen:
 
 * Filter\
-   Sie können einen Filter auf die Liste anwenden, um die im [!UICONTROL Gantt-Diagramm) angezeigten Informationen &#x200B;] steuern.\
+   Sie können einen Filter auf die Liste anwenden, um die im [!UICONTROL Gantt-Diagramm) angezeigten Informationen ] steuern.\
    Informationen zum Anwenden eines Filters finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Gruppierungen\
    Auf die Liste angewendete Gruppierungen werden im [!UICONTROL Gantt-Diagramm] dargestellt.\
    Informationen zum Anwenden einer Gruppierung finden Sie unter [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Ansichten werden nicht im [!UICONTROL Gantt-Diagramm“ &#x200B;]. Beim Exportieren des [!UICONTROL Gantt-Diagramms] (wie unter [Exportieren des [!UICONTROL Gantt-Diagramms] nach PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) beschrieben) wird die Aufgabenliste jedoch zusätzlich zum [!UICONTROL Gantt-Diagramm] exportiert, wobei die aktuelle Ansicht auf die Liste angewendet wird.
+Ansichten werden nicht im [!UICONTROL Gantt-Diagramm“ ]. Beim Exportieren des [!UICONTROL Gantt-Diagramms] (wie unter [Exportieren des [!UICONTROL Gantt-Diagramms] nach PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) beschrieben) wird die Aufgabenliste jedoch zusätzlich zum [!UICONTROL Gantt-Diagramm] exportiert, wobei die aktuelle Ansicht auf die Liste angewendet wird.
 
 ## Konfigurieren von Anzeigeoptionen
 
-Sie können auswählen, welche Art von Informationen in beiden [!UICONTROL Gantt-Diagrammen) angezeigt &#x200B;]. Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Sie können auswählen, welche Art von Informationen in beiden [!UICONTROL Gantt-Diagrammen) angezeigt ]. Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).

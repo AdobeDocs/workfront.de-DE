@@ -7,9 +7,9 @@ description: Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisun
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeit
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>So weisen Sie eine Anforderung zu oder bearbeiten sie:
-   <p>Neu: Licht oder höher</br>
-    oder</br>
-   Aktuell: Überprüfung oder höher</p>
+   <p>Licht oder höher</p>
+  <p>Überprüfen oder höher</p>
    <p>So weisen Sie eine Anfrage neu zu:
-   <p>Neu: Standard</br>
-    oder</br>
-   Aktuell: Arbeit oder höher</p></td>
+   <p>Standard</p>
+   <p>Arbeit oder höher</p></td>
   </tr> 
  </tbody> 
 </table>

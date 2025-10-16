@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Kommunikation mit Projektteammitgliedern](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [Verwalten eines Projekts in der Agile-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Projektbeschränkungen - Übersicht](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [Übersicht über Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Verstehen von Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

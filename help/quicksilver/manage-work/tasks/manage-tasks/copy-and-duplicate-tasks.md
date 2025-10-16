@@ -6,9 +6,9 @@ description: Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt k
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,38 @@ Sie können eine oder mehrere Aufgaben oder übergeordnete Aufgaben gleichzeitig
 
 ## Zugriffsanforderungen
 
-<!-- drafted for P&P:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeit oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Verwalten der Berechtigungen für eine Aufgabe</p> <p>Mitwirken an oder höhere Berechtigungen für das Projekt</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,37 +80,7 @@ Sie können eine oder mehrere Aufgaben oder übergeordnete Aufgaben gleichzeitig
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Arbeit oder höher </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten der Berechtigungen für eine Aufgabe </p> <p>Contribute oder höhere Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+</table>-->
 
 ## Überlegungen zum Kopieren von Aufgaben
 
@@ -90,7 +91,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 * Sie haben während des Kopiervorgangs die Möglichkeit, einige mit der Aufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Standardmäßig werden die folgenden Objekte jedoch nicht an die kopierte Aufgabe übertragen:
    * Probleme
    * Protokollierte Stunden
-   * &#x200B;<!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
+   * <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
 * Die folgenden Elemente werden standardmäßig zur kopierten Aufgabe verschoben:
 
    * Meilensteine werden auf die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
@@ -181,7 +182,7 @@ Sie können Aufgaben nicht nur in eine Aufgabenliste kopieren, sondern auch nach
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Einschränkung</td> 
+      <td role="rowheader">Beschränkung</td> 
       <td> <p>Die Aufgabenbeschränkung wird auf So bald wie möglich oder So spät wie möglich basierend auf der Einstellung des Projektzeitplanmodus festgelegt.</p> <p> Wenn diese Option aktiviert ist, wird die aktuelle Einschränkung der Aufgabe auf die kopierte Aufgabe übertragen. </p> <p>Hinweis: Wenn ein Vorgang mit datumsspezifischen Einschränkungen in ein anderes Projekt verschoben oder kopiert wird und die Einschränkungstermine des Vorgangs außerhalb der Termine des neuen Projekts liegen, wird entweder die Aufgabenbeschränkung auf „So bald wie möglich“ oder „So spät wie möglich“ geändert oder die geplanten Start- oder Abschlussdaten der Projekte werden angepasst. Einige Beispiele für datumsspezifische Einschränkungen sind „Muss beginnen am“, „Muss enden am“, „Nicht früher als“, „Start nicht später als“ usw. Informationen zu Aufgabenbeschränkungen und dazu, wie sich Vorgangseinschränkungen oder Projekttermine auswirken können, finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über </a> Aufgabenbeschränkung“. Suchen Sie nach einer bestimmten Einschränkung.</p> </td> 
      </tr> 
      <tr> 
@@ -268,7 +269,7 @@ Sie können eine Aufgabe schnell in einer Aufgabenliste duplizieren, wenn Sie ei
 * Die folgenden Elemente werden nicht auf die neue Aufgabe übertragen:
 
    * Protokollierte Stunden
-   * Notizen
+   * Anmerkungen
    * Probleme
    * Nur die Vorgänger, die derselben Gruppe kopierter Aufgaben angehören, werden ebenfalls mit ihren Nachfolgeaufgaben kopiert.
 

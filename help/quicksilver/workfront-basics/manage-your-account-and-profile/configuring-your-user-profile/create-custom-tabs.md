@@ -6,9 +6,9 @@ description: Die Informationen, die Sie in der - [!DNL Workfront] -Anwendung seh
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
@@ -44,34 +44,32 @@ In der folgenden Tabelle sind alle [!DNL Workfront] Bereiche und Objekte aufgef�
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Licht oder höher</p>
+   <p>Überprüfen oder höher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td>[!UICONTROL Reviewer] oder höher</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td>Ansichtszugriff auf den Objekttyp</td> 
+   <td>Objektberechtigungen</td> 
+   <td><p>Ansichtszugriff auf den Objekttyp</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder Lizenztyp Sie besitzen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hinzufügen eines Dashboards im linken Bereich eines [!DNL Workfront] Objekts oder Bereichs
 

@@ -6,9 +6,9 @@ description: In diesem Artikel wird beschrieben, wie Sie eine neue agile Story e
 author: Lisa
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,20 @@ In diesem Artikel wird beschrieben, wie Sie eine neue agile Story erstellen, wen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p> 
-   oder
-   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeit oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Manage] Zugriff auf das Projekt, an dem sich die Story befindet </td> 
+   <td>Zugriff auf das Projekt verwalten, an dem sich die Story befindet </td> 
   </tr>
  </tbody> 
 </table>

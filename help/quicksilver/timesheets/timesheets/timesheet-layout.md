@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Arbeitszeittabellen-Layout - Übersicht
 description: In diesem Artikel wird das Layout von Arbeitszeittabellen in Adobe Workfront beschrieben, sodass Sie besser verstehen können, wie Sie Arbeitszeittabellen anpassen und verwenden können, um die Zeit aufzuzeichnen.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Im Folgenden finden Sie die Bereiche einer Arbeitszeittabelle:
 * [Zeitrahmen und Stundeneingabebereich](#time-frame-and-hour-entry-area)
 * [Kommentare zu Stundeneinträgen](#hour-entry-comments)
 * [Stunden](#hours)
-* [Gesamtwerte](#totals)
+* [Gesamt](#totals)
 
 ## Arbeitszeittabellen-Kopfzeile
 
@@ -75,7 +75,7 @@ Die Arbeitszeittabellen-Kopfzeile enthält die folgenden Informationen:
 Im linken Bereich stehen die folgenden Abschnitte zur Verfügung:
 
 * **Arbeitszeittabelle**: Zeigt die tatsächliche Arbeitszeittabelle an.
-* **Updates**: Zeigt Kommentare und Systemaktualisierungen für die Arbeitszeittabelle an. Weitere Informationen finden Sie [&#x200B; Abschnitt „Aktualisierungen“ im linken &#x200B;](#updates-area-in-the-left-panel) in diesem Artikel.
+* **Updates**: Zeigt Kommentare und Systemaktualisierungen für die Arbeitszeittabelle an. Weitere Informationen finden Sie [ Abschnitt „Aktualisierungen“ im linken ](#updates-area-in-the-left-panel) in diesem Artikel.
 
 ## Arbeitselemente
 
@@ -149,7 +149,7 @@ Sie können Arbeitszeittabellen für eine, zwei oder vier Wochen erstellen.
 
 Der Zeitrahmen wird in Schritten von ganzen Wochen angezeigt. Tage außerhalb des angegebenen Arbeitszeittabellen-Zeitrahmens werden abgeblendet. Die Zeit kann nicht für Tage protokolliert werden, die außerhalb des Zeitrahmens der Arbeitszeittabelle liegen.
 
-Weitere Informationen finden [&#x200B; unter „Erstellen einer Arbeitszeittabelle für den einmaligen &#x200B;](../create-and-manage-timesheets/create-tmshts.md)&quot; oder [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Erstellen einer Arbeitszeittabelle für den einmaligen ](../create-and-manage-timesheets/create-tmshts.md)&quot; oder [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
@@ -170,7 +170,7 @@ Die Kommentare, die Sie im Kommentarfeld für Stundeneinträge eingeben, werden 
 
 Die Arbeitszeittabelle stellt Eingabefelder für jedes Arbeitselement und jeden Tag des Arbeitszeittabellenbereichs bereit, um die mit der Arbeit am Element verbrachte Zeit aufzuzeichnen. Während Sie die Zeit erfassen, wird das Element, das Sie für die Zeit für Hervorhebungen in hellblau und das Stundenfeld erfassen, in dunkelblau umrandet.
 
-## Gesamtwerte
+## Gesamt
 
 ![Arbeitszeittabellen-Summen](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 

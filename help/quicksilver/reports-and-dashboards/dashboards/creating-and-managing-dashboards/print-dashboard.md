@@ -6,9 +6,9 @@ description: Sie können ein Dashboard drucken oder in eine PDF-Datei exportiere
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -25,43 +25,35 @@ Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucke
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
-      <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Arbeit oder höher</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Arbeit oder höher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
-   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong>/td&gt; 
+   <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Anzeigen von Berechtigungen für das Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,7 +105,7 @@ Die folgenden Informationen sind nicht in der gedruckten oder exportierten Dashb
 1. Wählen Sie im Feld **Ziel** aus den verschiedenen verfügbaren Druckoptionen.\
    Die Druckoptionen variieren je nach verwendetem Browser und Browser-Version.
 
-1. (Optional) Speichern Sie das Dashboard als PDF-Datei und klicken Sie dann auf **Speichern**, um die PDF zu speichern.\
+1. (Optional) Speichern Sie das Dashboard als PDF-Datei und klicken Sie dann auf **Speichern** um die PDF zu speichern.\
    Informationen zum Speichern des Dashboards als PDF-Datei finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Klicken Sie **Drucken**.

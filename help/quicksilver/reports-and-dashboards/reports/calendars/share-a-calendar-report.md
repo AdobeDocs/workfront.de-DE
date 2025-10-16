@@ -6,10 +6,10 @@ description: Sie können einen Kalender für andere Benutzer freigeben und öffe
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +22,6 @@ Sie können einen Kalender für andere Benutzer freigeben und öffentlich verfü
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: Leicht</p>
-       <p>oder</p>
-       <p>Aktuell: Überprüfung</p></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Leicht</p>
+       <p>Überprüfung</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf [!UICONTROL View] oder höher auf [!UICONTROL Reports], [!UICONTROL Dashboards] und [!UICONTROL Calenders]</p></td> 
+   <td> <p> Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards und Kalender</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Anzeigen] oder höhere Berechtigungen für den Kalenderbericht, mit Zugriff auf die Freigabe</td> 
+   <td>Anzeigen von oder höheren Berechtigungen für den Kalenderbericht mit Zugriff auf die Freigabe</td> 
   </tr> 
  </tbody> 
 </table>

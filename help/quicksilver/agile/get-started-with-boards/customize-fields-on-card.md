@@ -6,9 +6,9 @@ description: Sie können anpassen, welche Felder auf einer Karte angezeigt werde
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,19 @@ Sie können auch benutzerdefinierte Felder anzeigen, die zuvor erstellt wurden. 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,7 +67,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es bzw. ihn in beiden Kartenansichten zu deaktivieren.
-1. Klicken Sie auf das Symbol „Ausblenden![&#x200B; (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
+1. Klicken Sie auf das Symbol „Ausblenden![ (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
 1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder auf Standard zurücksetzen**].
 1. Klicken Sie [!UICONTROL **Konfigurieren ausblenden**], um das Bedienfeld „Konfigurieren“ zu schließen.
 
@@ -82,7 +79,7 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 
 1. Rufen Sie eine Pinnwand auf und klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld „Konfigurieren“ zu öffnen.
 1. Erweitern Sie [!UICONTROL **Karten**].
-1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
 1. Wählen Sie [!UICONTROL **Aufgabe**] oder [!UICONTROL **Problem**] aus.
 
    Die Kategorien der verfügbaren Felder für Aufgaben oder Probleme werden angezeigt. Erweitern Sie eine Kategorie, um alle Felder anzuzeigen. Sie können auch nach einem Feld suchen.

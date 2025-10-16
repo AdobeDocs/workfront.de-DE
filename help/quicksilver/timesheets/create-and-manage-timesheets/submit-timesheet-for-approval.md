@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Arbeitszeittabelle zur Genehmigung einreichen
 description: Durch das Einreichen Ihrer Arbeitszeittabelle zur Genehmigung erhält Ihr Vorgesetzter Einblick in Ihre Arbeitszeit. Genehmigende Personen können überprüfen, ob alle aufgezeichneten Zeiten in den richtigen Bereichen zugewiesen wurden und ob eine ausreichende Anzahl von Stunden für den Zeitraum aufgezeichnet wurde.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ Durch das Einreichen Ihrer Arbeitszeittabelle zur Genehmigung erhält Ihr Vorges
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Licht oder höher </p>
-   <p>Aktuell: Überprüfung oder höher </p>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td> <p>Licht oder höher </p>
+   <p>Überprüfen oder höher </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder erhöhen </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Anzeigen oder Hochladen von Berechtigungen für die Arbeitszeittabelle</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ### Arbeitszeittabelle zur Genehmigung einreichen
 
-Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
+Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
 
 So senden Sie eine Arbeitszeittabelle zur Genehmigung:
 
@@ -77,7 +75,7 @@ So senden Sie eine Arbeitszeittabelle zur Genehmigung:
    * Wenn er/sie die Genehmigung erteilt **ändert sich die Schaltfläche** Rückruf **in „Erneut öffnen** und der Arbeitszeittabellen-Status ändert sich in &quot;**Öffnen**.
    * Wenn er/sie ihn ablehnt, ersetzt **Schaltfläche „Zur Genehmigung**&quot; die Schaltfläche **Rückruf** und der Arbeitszeittabellen-Status wird auf **Abgelehnt** aktualisiert.
 
-1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Arbeitszeittabelle &#x200B;](#recall-a-timesheet)&quot; in diesem Artikel.
+1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel.
 
 ### Anzeigen des Status einer übermittelten Arbeitszeittabelle {#view-the-status-of-a-submitted-timesheet}
 

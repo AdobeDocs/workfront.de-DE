@@ -6,9 +6,9 @@ description: Sie können anderen Benutzern die Berechtigungen für Objekte entzi
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,21 @@ Sie können anderen Benutzern die Berechtigungen für Objekte entziehen, auf die
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-
-Sie müssen über Folgendes verfügen, um Objekte freizugeben:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-Lizenz*</td> 
-   <td> <p>Neue Lizenz: Mitwirkende oder höher</p>
-   Oder  
-   <p>Aktuelle Lizenz: Anfrage oder höher</p>
-   <p><b>NOTIZ</b></p>
-
-<p>Einige Objekte erfordern einen höheren Zugriff als „Anfrage“. </p>
-
-<p>Bei der neuen Lizenz kann beispielsweise ein Mitwirkender Probleme freigeben, aber nur Benutzer mit Standardlizenz können ein Projekt freigeben.</p>
-
-<p>Für die aktuelle Lizenz kann ein Antragsteller Probleme freigeben, aber nur Arbeiter oder Planende können ein Projekt freigeben.</p> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
+   <p><strong>Hinweis</strong>: Einige Objekte erfordern einen höheren Zugriff als „Anfrage“.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Berechtigung zum Anzeigen oder höher für die Objekte, die Sie freigeben möchten</p> <p>Verwalten von Berechtigungen zum Entfernen vererbter Berechtigungen für Objekte</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

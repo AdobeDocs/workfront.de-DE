@@ -6,10 +6,10 @@ description: Lesen Sie diesen Artikel zur Fehlerbehebung bei Filterschaltfläche
 feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,32 @@ ht-degree: 1%
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
-   <td> <p>Beliebig</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
-   <td> <p>[!UICONTROL -Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
-   <td> <p>[!UICONTROL Systemadministrator]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-Paket
+   </td>
+   <td> <p>Prime oder Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-Lizenzen
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationen der Zugriffsebene
+   </td>
+   <td>Sie müssen [!DNL Workfront] sein.
+   </td>
+  </tr>
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Problem
 
@@ -51,7 +57,7 @@ Die folgenden Filterschaltflächen werden nicht in den entsprechenden Bereichen 
    <td><strong>Filter-Schaltflächen</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL -Projekte] </p> </td> 
+   <td> <p>[!UICONTROL-Projekte] </p> </td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte, an denen ich mitwirke]</p> </li> 
@@ -79,7 +85,7 @@ Die Filterschaltflächen im Bereich [!UICONTROL Projekte und Arbeitszeittabellen
 
 1. Stellen Sie sicher, dass die Layout-Vorlage die folgenden Filter anzeigt:
 
-   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, &#x200B;] ich besitze) [!UICONTROL Projekte] Bereich
+   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, ] ich besitze) [!UICONTROL Projekte] Bereich
    * [!UICONTROL Meine Arbeitszeittabellen] und [!UICONTROL Meine Arbeitszeittabellen] im Bereich [!UICONTROL Arbeitszeittabelle]
 
    Gehen Sie dazu folgendermaßen vor:

@@ -6,9 +6,9 @@ description: Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundene
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinz
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Konfigurationen der Zugriffsebene</td>
-   <td>[!UICONTROL Bearbeiten] Zugriff auf Dokumente</td>
+   <td>Zugriff auf Dokumente bearbeiten</td>
   </tr>
  </tbody> 
 </table>
@@ -61,7 +58,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Öffnen Sie die verbundene Karte, der Sie ein Dokument hinzufügen möchten.
 1. Ziehen Sie die Datei per Drag-and-Drop in den Bereich [!UICONTROL Dokumente] oder klicken Sie auf [!UICONTROL **Dokument hinzufügen**], um eine Datei auszuwählen.
 
-   Die Datei wird im Bereich &quot;[!UICONTROL &quot; &#x200B;].
+   Die Datei wird im Bereich &quot;[!UICONTROL &quot; ].
 
    ![Dokumente zur Karte hinzugefügt](assets/add-document-to-card.png)
 
@@ -72,4 +69,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!NOTE]
    >
-   >PDF zeigen keine Miniaturansicht an.
+   >In PDFs wird kein Miniaturbild angezeigt.

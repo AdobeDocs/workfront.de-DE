@@ -7,9 +7,9 @@ description: Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit den Forts
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '793'
 ht-degree: 4%
 
 ---
@@ -18,22 +18,32 @@ ht-degree: 4%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>
+>Adobe Workfront Goals ist nicht mehr erhältlich.
+>
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Für die neue Plan- und Lizenzstruktur:
+>* For the new plan and license structure:
 >
->   * Der Ultimate Workfront-Plan
+>   * The Ultimate Workfront plan 
 >    
->* Für die aktuelle Plan- und Lizenzstruktur:
+>* For the current plan and license structure: 
 >
->   * Ein Pro- oder höher-Workfront-Plan
->   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 ## Überlegungen zur Aktualisierung des Zielstatus in Workfront Goals
 
@@ -42,10 +52,10 @@ ht-degree: 4%
 
   | Von/bis | Entwurf | Aktiv | Inaktiv | Geschlossen |
   |---|---|---|---|---|
-  | Entwurf | - | Ja | Nein | Nein |
-  | Aktiv | Nein | - | Ja | Ja |
-  | Inaktiv | Nein | Ja | - | Nein |
-  | Geschlossen | Nein | Ja | Nein | - |
+  | Entwurf | – | Ja | Nein | Nein |
+  | Aktiv | Nein | – | Ja | Ja |
+  | Inaktiv | Nein | Ja | – | Nein |
+  | Geschlossen | Nein | Ja | Nein | – |
 
 * Das Öffnen eines geschlossenen Ziels aktualisiert auch den Fortschritt des Ziels.
 * Bestimmte Aktionen, die Sie für ein Ziel ausführen, aktualisieren auch dessen Status. Informationen dazu, wie Sie den Zielstatus aktualisieren können, finden Sie in den folgenden Artikeln:

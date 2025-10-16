@@ -6,9 +6,9 @@ description: Sie können Filter, Ansichten oder Gruppierungen aus Listen und Ber
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '801'
 ht-degree: 1%
 
 ---
@@ -21,46 +21,37 @@ Sie können Filter, Ansichten oder Gruppierungen aus Listen und Berichten entfer
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Anfrage oder höher</p></li>
-         </ul>
+    <p>Mitwirkender oder höher</p>
+    <p>Anfrage oder höher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td><p>Anzeigen oder höherer Zugriff auf Filter, Ansichten, Gruppierungen</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td><p>Anzeigen von Berechtigungen mit Zugriff auf die Freigabe für den Filter, die Ansicht oder die Gruppierung, die Sie entfernen möchten</p>
+   <td role="rowheader">Objektberechtigungen</td> 
+    <td> <p>Anzeigen von Berechtigungen mit Zugriff auf die Freigabe für den Filter, die Ansicht oder die Gruppierung, die Sie entfernen möchten</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -130,5 +121,5 @@ Die folgenden Szenarien bestehen, wenn Sie einen Filter, eine Ansicht oder eine 
    >
    >Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung entfernen, ohne ihn für andere freizugeben, wird er/sie aus dem System entfernt, ohne dass Sie um eine Bestätigung gebeten werden.
 
-1. Klicken Sie **Fertig**.
+1. Klicken Sie auf **Fertig**.
 

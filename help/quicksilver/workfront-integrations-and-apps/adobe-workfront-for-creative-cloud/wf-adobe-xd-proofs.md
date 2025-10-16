@@ -6,9 +6,9 @@ description: Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,21 @@ Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in [!DNL Adobe Work
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Pro] oder höher</p> <p>oder</p> <p>Legacy-Plan: [!UICONTROL Premium]</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter .</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] Packstück</td> 
+   <td>Beliebig </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>Standard</p> <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
+   <td role="rowheader">Zusätzliche Produkte</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -45,12 +43,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Um herauszufinden, über welchen Plan, welche Rolle oder welches Profil für Korrekturabzugsberechtigungen Sie verfügen, wenden Sie sich an Ihren [!DNL Workfront] oder [!DNL Workfront Proof].
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -113,7 +112,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Asset-Typ]** das Exportformat aus.
 
 
-1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als ein Zeichenblatt ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenblätter als **[!UICONTROL Einzelne PDF-]** oder **M[!UICONTROL mehrere PDF-Dateien exportieren]**.
+1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als eine Zeichenfläche ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenflächen als **[!UICONTROL Einzelne PDF-])** **M[!UICONTROL mehrere PDF-Dateien]** exportieren möchten.
 
 1. (Optional) Benennen Sie die PDF.
 
@@ -187,7 +186,7 @@ Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Korrek
    ![Genehmigungen von Korrekturabzügen in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Wählen Sie **[!UICONTROL Dropdown-Menü]** Asset-Typ“ den soeben erstellten Link auf der Registerkarte **Freigegebene Links** aus. Weitere Informationen finden Sie unter [Erstellen eines interaktiven Links für Ihre Zeichenfläche](#create-an-interactive-link-for-your-artboard).\
-   ![Freigegebene Links in XD](assets/shared-links-xd-350x870.png)
+   ![Freigegebene Links in XDS](assets/shared-links-xd-350x870.png)
 
 1. Klicken Sie **[!UICONTROL Hochladen]**.
 
@@ -249,7 +248,7 @@ Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speic
 
    ![Genehmigungen von Korrekturabzügen in XD](assets/proof-approvals-xd-350x396.png)
 
-1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als ein Zeichenblatt ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenblätter als **[!UICONTROL Einzelne PDF-]** oder **M[!UICONTROL mehrere PDF-Dateien exportieren]**.
+1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als eine Zeichenfläche ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenflächen als **[!UICONTROL Einzelne PDF-])** **M[!UICONTROL mehrere PDF-Dateien]** exportieren möchten.
 
 1. (Optional) Benennen Sie die PDF.
 

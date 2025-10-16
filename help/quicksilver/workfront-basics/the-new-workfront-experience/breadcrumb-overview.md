@@ -4,16 +4,16 @@ title: Breadcrumbs - Übersicht
 description: Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Breadcrumbs - Übersicht
 
-Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL &#x200B; für das Brand Team].
+Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL  für das Brand Team].
 
 ![Reduzierter Breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
@@ -42,30 +42,7 @@ Sie können auch die folgenden Tasten verwenden, um durch die Breadcrumbs zu nav
  </tbody> 
 </table>
 
-+++Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Beliebig</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL -Anfrage] oder höher</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder Lizenztyp Sie besitzen.
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

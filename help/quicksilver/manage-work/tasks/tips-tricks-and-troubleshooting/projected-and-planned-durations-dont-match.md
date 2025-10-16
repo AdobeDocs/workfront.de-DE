@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: Projizierte Dauer stimmt nicht mit geplanter Dauer überein
-description: 'Sie erhalten die folgende Fehlermeldung: „Die projizierte Dauer einer Aufgabe/eines Problems ist auf 0 gestiegen und stimmt nicht mit der geplanten Dauer überein.“'
+title: Voraussichtliche Dauer stimmt nicht mit geplanter Dauer überein
+description: 'In diesem Artikel wird die Fehlerbehebung in Adobe Workfront beschrieben, wenn möglicherweise die folgende Meldung angezeigt wird: ''Die voraussichtliche Dauer einer Aufgabe/eines Problems ist auf 0 gestiegen und entspricht nicht der geplanten Dauer.'''
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 0%
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 

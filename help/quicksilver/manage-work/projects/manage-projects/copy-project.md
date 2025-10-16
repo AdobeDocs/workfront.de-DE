@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 4%
+source-wordcount: '712'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Beachten Sie, dass Sie Projekte nicht stapelweise kopieren können.
 >* Probleme
 >* Abrechnungssätze
 >* Abrechnungseinträge
->* Notizen
+>* Anmerkungen
 >* Stunden
 >* Projektübergreifende Vorgänger
 >* Veranschlagte Stunden
@@ -52,36 +52,6 @@ Beachten Sie, dass Sie Projekte nicht stapelweise kopieren können.
 
 ## Zugriffsanforderungen
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -90,23 +60,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-Plan</p> </td> 
+   <td> <p>Adobe Workfront-Paket</p> </td>  
    <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
-   <td> <p>Neu: Standard </p> 
-   <p>Oder</p>
-   <p>Aktuell: Plan </p>
+   <td> <p>Standard</p> 
+   <p>Plan</p>
+      </td> 
+  </tr> 
+     <td>Konfigurationen der Zugriffsebene </td> 
+   <td> <p>Zugriff auf Projekte mit der Möglichkeit zum Erstellen und Kopieren von Projekten bearbeiten</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Konfigurationen der Zugriffsebene </td> 
-   <td> <p>Zugriff auf Projekte mit der Möglichkeit zum Erstellen (<span> Kopieren</span> von Projekten bearbeiten</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>Objektberechtigungen </p> </td> 
+<td> <p>Objektberechtigungen </p> </td> 
    <td> <p>Anzeigen von Berechtigungen oder höher für das Projekt</p>  </td> 
   </tr> 
  </tbody> 
@@ -116,6 +83,35 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Einzelnes Projekt kopieren
 
 Beim Kopieren eines Projekts werden auch einige Informationen aus dem ursprünglichen Projekt in das neue Projekt kopiert. Sie können auch angeben, welche Elemente während des Kopiervorgangs nicht in das neue Projekt kopiert werden sollen.
@@ -124,7 +120,7 @@ Kopieren eines Projekts:
 
 {{step1-to-projects}}
 
-1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-icon.png) rechts neben dem Projektnamen.
+1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr ](assets/more-icon.png) rechts neben dem Projektnamen.
 
    Oder
 

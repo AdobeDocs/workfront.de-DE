@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Erstellen eines Business Case für ein Projekt
 description: Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zweck, das Budget und den potenziellen Nutzen für das Projekt zu definieren. Der Portfolio-Manager oder Projektsponsor verwendet die Informationen aus dem Business Case, um das Projekt zu analysieren und zu priorisieren, bevor es genehmigt wird.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,16 @@ Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zwec
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
    <td> 
-   <p>Aktuell: Prime oder höher</p> 
-   <p>Legacy: Pro oder höher</p> 
+   <p>Prime oder höher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
-   <p>Aktuell: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
@@ -50,7 +49,7 @@ Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zwec
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,14 +103,14 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
    >
    >Die hier angezeigten Informationen entsprechen den Informationen, die in den Tools für die Ressourcenbudgetierung auf Systemebene angezeigt werden.
 
-1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [&#x200B; Abschnitt &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
+1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [ Abschnitt ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+1. (Optional) Wählen Sie im Dropdown **** Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
 
    Scorecards müssen erstellt werden, bevor sie mit Projekten verbunden werden können.
 
    Weitere Informationen zu Scorecards finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scorecards](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
+1. (Optional) Wählen Sie im Dropdown **** Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
 
    Benutzerdefinierte Forms muss erstellt werden, bevor sie an Projekte angehängt werden können.
 

@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Exportieren einer Liste von Arbeitszeittabellen
 description: Als Personen-Manager oder Arbeitszeittabellen-Genehmiger müssen Sie möglicherweise eine Liste von Arbeitszeittabellen herunterladen, um schnell Informationen zu den Arbeitszeittabellen der Personen anzuzeigen, für die Sie verantwortlich sind. Exportieren Sie dazu eine Liste von Arbeitszeittabellen.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 2%
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
@@ -23,33 +23,31 @@ Als Personen-Manager oder Arbeitszeittabellen-Genehmiger müssen Sie möglicherw
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Licht oder höher </p>
-   <p>Aktuell: Überprüfung oder höher </p>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td> <p>Licht oder höher </p>
+   <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder erhöhen </p> </td> 
+   <td>Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder erhöhen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Hochladen von Berechtigungen für die Arbeitszeittabelle</p> </td> 
+   <td>Objektberechtigungen</td> 
+   <td> <p>Anzeigen oder Erweitern von Berechtigungen für Aufgaben und Probleme</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,9 +127,9 @@ Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
 1. Wählen Sie aus den folgenden Optionen den Dateityp aus, in den Sie die Liste der Arbeitszeittabellen exportieren möchten:
 
-   * PDF Landscape
+   * PDF Landschaft
    * PDF Hochformat
-   * PDF andere Größen
+   * Andere PDF-Größen
    * Excel
    * Excel (xlsx)
    * Durch Tabulatoren getrennt

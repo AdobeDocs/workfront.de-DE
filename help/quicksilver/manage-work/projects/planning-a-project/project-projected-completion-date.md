@@ -7,9 +7,9 @@ description: Das voraussichtliche Abschlussdatum ist ein Echtzeitindikator für 
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ In den folgenden Abschnitten wird beschrieben, wie das voraussichtliche Abschlus
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ In den folgenden Abschnitten wird beschrieben, wie das voraussichtliche Abschlus
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: 
    <ul><li><p>Mitarbeiter oder höher, um das voraussichtliche Abschlussdatum in einem Bericht anzuzeigen</p></li> <li><p>Eine Standardlizenz zum Erstellen eines Berichts</p></li> </ul>
-
-<p>Aktuell: 
+   Oder
    <ul><li><p>Überprüfen Sie oder höher, um das voraussichtliche Abschlussdatum in einem Bericht anzuzeigen</p></li> 
    <li><p>Planlizenz zum Erstellen eines Berichts</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte anzeigen oder höher</p> <p>Sie müssen Bearbeitungszugriff auf Berichte, Dashboards und Kalender haben, um einen Bericht zu erstellen</p> <p>Sie müssen Bearbeitungszugriff auf Filter, Ansichten oder Gruppierungen haben, um einen Bericht erstellen oder eine Listenansicht ändern zu können</p>  </td> 
+   <td> <p>Zugriff auf Projekte anzeigen oder höher</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu erstellen</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Bericht zu erstellen oder eine Listenansicht zu ändern</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -57,7 +55,7 @@ In den folgenden Abschnitten wird beschrieben, wie das voraussichtliche Abschlus
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

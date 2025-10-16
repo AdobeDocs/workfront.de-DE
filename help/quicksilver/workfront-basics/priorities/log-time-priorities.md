@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in die
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Leicht oder höher, um Stunden für eine Aufgabe oder ein Problem zu protokollieren</p>
-   <p>Aktuell: Arbeit oder höher zum Protokollieren von Stunden für eine Aufgabe oder ein Problem</p> </td> 
+   <td> <p>Light oder höher für die Protokollierung von Stunden für eine Aufgabe oder ein Problem</p>
+   <p>Arbeit oder höher zum Protokollieren von Stunden für eine Aufgabe oder ein Problem</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

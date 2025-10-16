@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,24 @@ Beachten Sie beim Arbeiten mit Berechtigungen für Datensatztypen Folgendes:
 * Benutzende können nicht über größere Berechtigungen für einen Datensatztyp verfügen als für den Arbeitsbereich, zu dem der Datensatztyp gehört.
 * Wenn Sie Benutzenden die Berechtigungen für einen Datensatztyp entziehen, wird nicht ihr Anzeigezugriff auf alle Datensatztypen im Arbeitsbereich entfernt, da dadurch nicht ihre Berechtigungen für den Arbeitsbereich entfernt werden.
 
-| Adobe Workfront Lizenztyp* | Höchste in Adobe Workfront Planning zulässige Berechtigungen |
+| Adobe Workfront-Lizenztyp | Höchste in Adobe Workfront Planning zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Standard | <p>Benutzer können Arbeitsbereiche, Datensatztypen und Ansichten verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
 | Licht oder Mitwirkender | <p>Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen.</p> <br> <p>Benutzer können die Ansichten anzeigen, die für sie freigegeben wurden, sie können jedoch keine eigenen erstellen. </p><br> <p>Benutzende können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen.</p> |
 
-*Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar.
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### Lizenztypen und Berechtigungen für Arbeitsbereiche und Datensatztypen
 
 Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche und Datensatztypen haben. Die Berechtigungen Beitragen und Verwalten für Arbeitsbereiche und Datensatztypen werden auch auf Datensätze und Felder übertragen.
 
+Systemadministratoren können alle Arbeitsbereiche im System anzeigen, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
+
 Benutzer mit allen anderen Lizenztypen haben Ansichtsberechtigungen für Arbeitsbereiche und Datensatztypen, die für sie freigegeben sind, sowie für ihre Datensätze und Felder.
 
-Systemadministratoren können alle Arbeitsbereiche im System anzeigen, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ Systemadministratoren können alle Arbeitsbereiche im System anzeigen, einschlie
 
 ### Lizenztypen und Berechtigungen für Ansichten
 
-Nur Benutzer mit einer Standardlizenz können über Verwaltungsberechtigungen für Ansichten verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Ansichten verfügen, die für sie freigegeben wurden.
+Nur Benutzer mit einer Standardlizenz können über Verwaltungsberechtigungen für Ansichten verfügen.
+
+Systemadministratoren können nicht auf Ansichten zugreifen, die sie nicht erstellt haben. Sie müssen mit ihnen geteilt werden.
+
+Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Ansichten verfügen, die für sie freigegeben wurden.
 
 >[!INFO]
 >

@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 description: Standardmäßig zeigt  [!DNL Adobe Workfront] Ansicht“ die Liste [!UICONTROL Alle Projekte] in  [!DNL Workfront] an, sodass alle Projekte, auf die Sie Zugriff haben, unabhängig vom Status aufgeführt werden.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können die Liste der Projekte in filtern, [!DNL Workfront View] nur für Si
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schrit
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront]*</strong>/td&gt; 
+   <td role="rowheader"><strong>Adobe Workfront-Paket</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+   <td> 
+   <p>Mitwirkender oder höher</p>
+   <p>Überprüfen oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtern Sie die [!UICONTROL Projekte] Liste in der [!UICONTROL Workfront-Ansicht]
 
@@ -52,30 +56,30 @@ Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schrit
 
 1. Wählen Sie aus den folgenden Filtern:
 
-   * [!UICONTROL Portfolios &#x200B;]: Wählen Sie bestimmte Portfolios, deren Projekte Sie anzeigen möchten.
-   * [!UICONTROL Bedingung]: Wählen Sie diese Option aus, um nur Projekte mit einer bestimmten [!UICONTROL Bedingung“ &#x200B;].
+   * [!UICONTROL Portfolios]: Wählen Sie bestimmte Portfolios aus, deren Projekte Sie anzeigen möchten.
+   * [!UICONTROL Bedingung]: Wählen Sie diese Option aus, um nur Projekte mit einer bestimmten [!UICONTROL Bedingung“ ].
    * [!UICONTROL Fortschritt]: Wählen Sie diese Option aus, um nur Projekte mit einem bestimmten [!UICONTROL Fortschrittsstatus] anzuzeigen.
-   * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ &#x200B;].
+   * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ ].
    * [!UICONTROL Geplanter Start]: Wählen Sie diese Option aus, um nur Projekte mit dem [!UICONTROL Geplanten Startdatum] in den folgenden Zeitrahmen anzuzeigen:
 
       * Letzte 3 Monate
       * Letzte 2 Monate
       * Letzter Monat
       * Letzte zwei Wochen
-   * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Geplantes Abschlussdatum“ anzuzeigen:
+   * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in [!UICONTROL  kommenden Zeitrahmen nur Projekte mit dem ]Geplantes Abschlussdatum“ anzuzeigen:
 
       * Zwei Wochen
       * Ein Monat
       * Zwei Monate
       * Drei Monate
-   * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Projizierten Abschlussdatum“ anzuzeigen:
+   * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in [!UICONTROL  kommenden Zeitrahmen nur Projekte mit dem ]Projizierten Abschlussdatum“ anzuzeigen:
 
       * Zwei Wochen
       * Ein Monat
       * Zwei Monate
       * Drei Monate
    * [!UICONTROL Verantwortlicher]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die bestimmten Verantwortlichen zugewiesen sind.
-   * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen &#x200B;].
+   * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen ].
 
 
 

@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Überblick über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste
+title: Überblick über das gleichzeitige Speichern von Änderungen in einer Aufgabenliste
 description: Wenn Sie Aufgaben in einer Liste bearbeiten, können Sie separate Speichereinstellungen verwenden, um anzugeben, ob Ihre Änderungen beim Bearbeiten von Aufgaben in einer Liste manuell gespeichert werden sollen.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

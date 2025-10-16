@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -27,31 +27,27 @@ Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzer
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-Plan </td> 
-   <td>Beliebig</td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Neu: Standard</p>
-   <p>oder</p>
-   <p>Aktuell: Plan</p></td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>Administrativer Zugriff auf benutzerdefinierte Formulare </td> 
+  <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +90,7 @@ Dieses Beispiel zeigt, wie die Workfront-API aufgerufen und eine Liste von Proje
    >
    >**Header**-Informationen sind für einen Aufruf derselben Workfront-Instanz nicht erforderlich.
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 
    ![Einrichtung eines API-Aufrufs an Workfront in benutzerdefinierter Form](assets/external-lookup-to-workfront.png)
 
@@ -131,13 +127,13 @@ Dieses Beispiel zeigt, wie Sie die Workfront-API aufrufen und Daten aus einem be
    `$.data[*].parameterValues.["DE:Combo Colors"]`
 
    * „parameterValues“ bezieht sich auf jedes benutzerdefinierte Feld in Workfront für das Objekt, an dem Sie sich befinden.
-   * In diesem Beispiel ist „DE:Combo Colors“ das spezifische benutzerdefinierte Feld, das die abzurufenden Werte enthält.
+   * In diesem Beispiel ist „DE:ComboColors“ das spezifische benutzerdefinierte Feld, das die abzurufenden Werte enthält.
 
    >[!NOTE]
    >
    >**Header**-Informationen sind für einen Aufruf derselben Workfront-Instanz nicht erforderlich.
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 
    Wenn das benutzerdefinierte Formular zu einem Workfront-Objekt hinzugefügt wird, werden alle Werte im Feld „Kombinationsfarben“ in der Dropdown-Liste Externes Suchfeld angezeigt.
 
@@ -202,7 +198,7 @@ Listet alle Länder auf: <https://api.first.org/data/v1/countries>
 
 1. (Optional) Wählen Sie **Mehrfachauswahl-Dropdown** aus, damit Benutzende mehr als einen Wert im Dropdown-Menü auswählen können.
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 
    ![Einrichtung eines API-Aufrufs an eine öffentliche API in benutzerdefinierter Form](assets/external-lookup-to-api-for-countries.png)
 

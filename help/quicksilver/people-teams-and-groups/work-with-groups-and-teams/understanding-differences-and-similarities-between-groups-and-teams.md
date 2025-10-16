@@ -2,19 +2,19 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Gruppen im Vergleich zu Teams in Adobe Workfront
-description: Gruppen und Teams sind Sammlungen von Benutzenden in Adobe Workfront.
+title: Gruppen im Vergleich zu Teams in Workfront
+description: Gruppen und Teams sind Sammlungen von Benutzenden in Adobe Workfront. Erfahren Sie mehr über die Unterschiede und Gemeinsamkeiten zwischen Gruppen und Teams.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
-# Gruppen im Vergleich zu Teams in [!DNL Adobe Workfront]
+# Gruppen im Vergleich zu Teams in Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -32,11 +32,11 @@ Angenommen, Sie haben eine Finanzgruppe, die Benutzer in der Finanzabteilung ent
 
 Weitere Informationen zum Erstellen und Verwalten von Gruppen finden Sie unter [Gruppe erstellen](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Gruppe verwalten](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-## Verwenden von Teams zur Darstellung der Arbeitsstruktur innerhalb einer Abteilung
+## Teams verwenden, um die Arbeitsstruktur innerhalb einer Abteilung darzustellen
 
 Es wird empfohlen, Teams so zu konfigurieren, dass sie der täglichen Arbeitsstruktur Ihrer Abteilungsteams entsprechen.
 
-Sie können beispielsweise über ein Lohn- und Gehaltsabrechnungs-Team, ein Kreditorenkonto und ein Debitorenkonto-Team verfügen. Normalerweise arbeiten die Personen in jedem dieser Teams an Projekten, Aufgaben oder Problemen, die diesen Teams ähnlich sind.
+Sie können beispielsweise über ein Lohn- und Gehaltsabrechnungs-Team, ein Kreditorenteam und ein Debitorenkontenteam verfügen. Normalerweise arbeiten die Personen in jedem dieser Teams an Projekten, Aufgaben oder Problemen, die diesen Teams ähnlich sind.
 
 Weitere Informationen zum Erstellen und Verwalten von Teams finden Sie unter [Erstellen und Verwalten von Teams](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 

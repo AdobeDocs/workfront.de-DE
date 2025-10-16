@@ -6,10 +6,10 @@ description: Sie können einen vorhandenen Kalender ändern, indem Sie einen Lin
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
@@ -25,8 +25,6 @@ Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Pr
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards] und [!UICONTROL Kalender]</p></td> 
+   <td> <p> Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Manage] Zugriff auf den Kalenderbericht</td> 
+   <td>Zugriff auf den Kalenderbericht verwalten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,19 +66,17 @@ Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, 
 1. (Optional) So fügen Sie ein Projekt zum Kalenderbericht hinzu:
    1. Klicken Sie **[!UICONTROL Zum Kalender hinzufügen].**
    1. Geben Sie den Namen eines Projekts ein, dem Sie Kalenderereignisse hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-   1. Klicken Sie **Hinzufügen**.
-
+   1. Klicken Sie auf **Hinzufügen**.
       ![Ein Projekt zu einem Kalender hinzufügen](assets/add-a-calendar-project.png)
 
 
 1. (Optional) So fügen Sie eine Kalendergruppierung hinzu oder ändern eine vorhandene Kalendergruppierung:
    1. Klicken Sie auf das **Mehr** neben dem Projektnamen und dann auf **Bearbeiten**.
-
       ![Projekt im Kalender bearbeiten](assets/edit-project-in-calendar.png)
 
    1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
 
-      * [Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 

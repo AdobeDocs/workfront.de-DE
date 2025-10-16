@@ -6,9 +6,9 @@ description: Das Menü Favoriten ermöglicht einen schnellen Zugriff auf Element
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ Das [!UICONTROL Favoriten] Menü ermöglicht den schnellen Zugriff auf Elemente.
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>
-      <p>Neu: Mitwirkender oder höher<p>
-      <p>Oder</p>
-      <p>Aktuell: Anforderung oder höher</p> </td> 
+      <p>Mitwirkender oder höher<p>
+      <p>Anfrage oder höher</td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +56,7 @@ So zeigen Sie ein Element an, das Sie zuvor als Favorit hinzugefügt haben:
 
 ## Element als Favorit hinzufügen
 
-Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite &#x200B;].
+Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite ].
 
 * [Zuletzt verwendete Elemente als Favoriten hinzufügen](#add-recent-items-as-a-favorite)
 * [Aktuelles Element als Favorit hinzufügen](#add-the-current-item-as-a-favorite)
@@ -74,7 +71,7 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 ### Aktuelles Element als Favorit hinzufügen
 
 1. Navigieren Sie zu der Seite, die Sie als Favorit hinzufügen möchten.
-1. **[!DNL Favorites]** Klicken Sie oben rechts auf ![&#x200B; Seite auf &#x200B;](assets/favorites-icon.png)Favoriten“ und dann auf **[!UICONTROL Aktuelle Seite hinzufügen]**.
+1. **[!DNL Favorites]** Klicken Sie oben rechts auf ![ Seite auf ](assets/favorites-icon.png)Favoriten“ und dann auf **[!UICONTROL Aktuelle Seite hinzufügen]**.
 
    ![Aktuelle Seite zu Favoriten hinzufügen](assets/add-current-page.png)
 

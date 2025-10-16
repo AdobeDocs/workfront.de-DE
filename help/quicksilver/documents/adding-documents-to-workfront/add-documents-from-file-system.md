@@ -6,9 +6,9 @@ description: Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben ode
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -31,28 +31,28 @@ Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p> Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anfrage oder höher</p> </td> 
+   <td> 
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +85,7 @@ Hinzufügen eines Dokuments:
        <ol> 
         <li value="1">Wählen Sie <strong> Dropdown-Menü </strong>Neu hinzufügen“ <strong>Dokument.</strong></li> 
         <li value="2"> <p>Navigieren Sie zu dem Dokument, das Sie aus dem Dateisystem auf Ihrer Workstation hinzufügen möchten, und wählen Sie es aus.<br></p> <p>Sie können mehrere Dokumente auswählen, indem Sie die Umschalttaste gedrückt halten, während Sie zusätzliche Dateien auswählen.</p> </li> 
-        <li value="3">Klicken Sie <strong>Öffnen</strong>.</li> 
+        <li value="3">Klicken Sie auf <strong>Öffnen</strong>.</li> 
        </ol> 
        <p><b>HINWEIS</b>: Sie können Dateien auch direkt aus Ihrem Datei-Manager per Drag-and-Drop in die Dokumentliste ziehen.</td> 
      </tr> 

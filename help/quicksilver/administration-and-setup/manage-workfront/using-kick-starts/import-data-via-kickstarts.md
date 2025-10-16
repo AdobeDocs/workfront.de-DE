@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2828'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 <!--Audited: 12/2023-->
 
-Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Dieser Prozess ist in drei Hauptaufgaben unterteilt:
 
@@ -34,31 +34,27 @@ Jedes dieser Verfahren wird in der richtigen Reihenfolge in diesem Artikel besch
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>
-   <p> Neu: Standard</p>
-   oder
-   <p>Aktuell: Plan</p></td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td>[!UICONTROL Systemadministrator]</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td>Systemadministrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -139,9 +135,9 @@ Kickstart-Vorlage exportieren:
       <td> <p> Teammitglied</p> <p>Team</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Benutzerin oder Benutzer</p> </td> 
+      <td> <p>Benutzerin bzw. Benutzer</p> </td> 
       <td> <p>Exportiert als Excel-Datei. Um die vollständige Liste der Optionen anzuzeigen, klicken Sie auf <strong>Weitere Optionen</strong>.</p> </td> 
-      <td> <p>Benutzerin oder Benutzer</p> <p>Einstellungen</p> </td> 
+      <td> <p>Benutzerin bzw. Benutzer</p> <p>Einstellungen</p> </td> 
      </tr> 
      <tr> 
       <td>Zugriffsebene</td> 
@@ -189,9 +185,9 @@ Kickstart-Vorlage exportieren:
       <td> <p> Gruppierung</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td>Stunde</td> 
+      <td>Hour</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Stunde</p> <p>Einstellungen </p> </td> 
+      <td> <p> Hour</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Problem</td> 
@@ -211,9 +207,9 @@ Kickstart-Vorlage exportieren:
      </tr>
 
    <tr> 
-      <td>Notiz</td> 
+      <td>Hinweis</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Notiz</p> <p>Einstellungen </p> </td> 
+      <td> <p> Hinweis</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Portfolio</td> 
@@ -271,9 +267,9 @@ Kickstart-Vorlage exportieren:
       <td> <p> Arbeitszeittabellen-Profil</p> <p>Arbeitszeittabelle</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td>Anzeigen </td> 
+      <td>Ansicht </td> 
       <td> <p>Exportiert als ZIP-Datei</p> </td> 
-      <td> <p> Anzeigen</p> <p>Einstellungen </p> </td> 
+      <td> <p> Ansicht</p> <p>Einstellungen </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -360,7 +356,7 @@ Jede Zeile des Blatts entspricht einem eindeutigen Objekt.
    * Geben Sie in die Spalte **setCategoryID** die GUID des vorhandenen benutzerdefinierten Formulars ein, in dem sich dieses benutzerdefinierte Feld befindet. Dieses Feld ist beim Import von benutzerdefinierten Daten erforderlich.
    * Wenn Sie mehrere Datenwerte in dem benutzerdefinierten Feld hinzufügen müssen (z. B. Optionsfelder, Kontrollkästchen oder Listen), verwenden Sie das vertikale Balken-Trennzeichen für benutzerdefinierte Daten &quot;|&quot;, das auf der Registerkarte „Voreinstellungen“ aufgeführt ist, um die Werte zu trennen.
 
-     **Beispiel:** Geben Sie A|D unter der Spalte DE:Departments ein, um Abteilung A und Abteilung D in Ihrem benutzerdefinierten Formular auszufüllen.
+     **Beispiel** Geben Sie A|D unter der Spalte DE:Departments ein, um Abteilung A und Abteilung D in Ihrem benutzerdefinierten Formular auszufüllen.
 
      >[!NOTE]
      >
@@ -378,11 +374,11 @@ Workfront kann die meisten Datumsformate verarbeiten. Sie müssen jedoch sichers
 
 Workfront akzeptiert auch Zeitwerte als Teil des Datums.
 
-Beispiel: 07/10/2022 13:30 oder 07/10/2022 13:00 Uhr.
+Beispiel: 07/10/2022 01:30 oder 07/10/2022 13:0000 Uhr.
 
 Wenn Sie eine Uhrzeit im Datum auslassen, führt Workfront einen der folgenden Schritte aus:
 
-* Angenommen, die Zeit ist um 00:00 Uhr. Um das erwartete Datumsergebnis sehen zu können, muss die Systemzeitzone mit Ihrer Zeitzone übereinstimmen.
+* Angenommen, die Zeit ist 12:00 h. Um das erwartete Datumsergebnis sehen zu können, muss die Systemzeitzone mit Ihrer Zeitzone übereinstimmen.
 * Wenn er sich auf einem Objekt befindet, das mit einem Zeitplan verknüpft ist, bezieht sich die Zeit auf die früheste Zeit, die der Zeitplan zulässt.
 
 >[!NOTE]
@@ -453,7 +449,7 @@ Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwe
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
    * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
+   * Benennen Sie die neue Spalte mit dem Namen {0#setRoleIDROLE **.**
    * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
 
      Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.

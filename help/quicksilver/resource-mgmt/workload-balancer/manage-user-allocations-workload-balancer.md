@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Beliebig </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan, wenn der Workload Balancer im Bereich „Ressourcen“ verwendet wird</br>
-       Arbeit bei Verwendung des Workload Balancer eines Teams oder Projekts</p></td>
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Planung, wenn der Workload Balancer im Bereich „Ressourcen“ verwendet wird; Arbeit, wenn der Workload Balancer eines Teams oder Projekts verwendet wird</p></td>
+  </tr>
+  <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Folgendes bearbeiten:</p> 
     <ul> 
      <li>Ressourcenverwaltung</li> 
@@ -52,13 +48,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Tragen Sie Berechtigungen oder höher bei, die Zuweisungen an die Aufgaben und Probleme enthalten, für die Sie Zuweisungen verwalten möchten. </p> <p>Oder </p> <p>Verwalten Sie zusätzlich zur Aktualisierung der Zuweisungen Berechtigungen für die Aufgaben, für die Sie die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Workload Balancer finden Sie im Abschnitt <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisieren der geplanten Stunden bei der Verwaltung </a> Benutzerzuweisungen) in diesem Artikel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +90,7 @@ Beachten Sie Folgendes, wenn Sie im Workload Balancer tägliche, wöchentliche o
 
   >[!INFO]
   >
-  > Eine Aufgabe kann beispielsweise eine Dauer von 2 Tagen und 2 geplanten Stunden haben und sie hat eine geplante Startzeit von 12:00 Uhr am ersten Tag der Dauer mit einem Benutzer und einem Projektplan, der um 17 Uhr endet. Die Kapazität des Benutzers für den ersten Tag beträgt 5 Stunden. Die Kapazität des Benutzers für den zweiten Tag beträgt 8 Stunden (wenn der Zeitplan um 9 Uhr morgens beginnt).
+  > Eine Aufgabe kann beispielsweise eine Dauer von 2 Tagen und 2 geplanten Stunden haben und sie hat eine geplante Startzeit von 12 :00 am ersten Tag der Dauer mit einem Benutzer und einem Projektplan, der um 17 Uhr endet. Die Kapazität des Benutzers für den ersten Tag beträgt 5 Stunden. Die Kapazität des Benutzers für den zweiten Tag beträgt 8 Stunden (wenn der Zeitplan um 9 Uhr morgens beginnt).
   >
   >Workfront berechnet die Zuordnung der 2 Stunden für die 2 Tage der Dauer anhand der folgenden Formel:
   >
@@ -247,7 +243,7 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
      ![Sperrsymbol](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung &#x200B;](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den &#x200B;](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung ](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den ](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 1. (Bedingt) Wenn die Aufgabe mehr als einem Benutzer zugewiesen ist, wiederholen Sie diese Schritte für jeden Benutzer, der der Aufgabe zugewiesen ist, um die Zuordnungen für jeden Benutzer zu aktualisieren.
 
@@ -277,7 +273,7 @@ Dies ist möglich, wenn die folgenden Bedingungen vorliegen:
    * Verwalten Sie die Berechtigungen für die Aufgaben.
    * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Workload Balancer im Bereich „Ressourcenverwaltung“ Ihrer Zugriffsebene.
 
-  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
+  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
 
 * Die Aufgabe hat den Dauertyp „Einfach“.
 

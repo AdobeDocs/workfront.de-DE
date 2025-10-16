@@ -6,9 +6,9 @@ description: Portfolio oder Project Portfolio Management (PPM) ist der Prozess d
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Portfolio oder Project Portfolio Management (PPM) ist der Prozess der Priorisierung und Verwaltung einer Liste von Projekten, um spezifische Geschäftsziele zu erreichen.
 
-In diesem Artikel werden die allgemeinen Konzepte der Portfolioverwaltung beschrieben. Allgemeine Informationen zur Portfolioverwaltung in Adobe Workfront finden Sie unter Übersicht über die [Portfolio in Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+In diesem Artikel werden die allgemeinen Konzepte der Portfolioverwaltung beschrieben. Allgemeine Informationen zur Portfolioverwaltung in Adobe Workfront finden Sie unter [Grundlegendes zur Portfoliomethodik](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 Ein Portfolio ist eine Sammlung von Projekten mit gemeinsamen Geschäftszielen. Das Ergebnis einer effektiven PPM-Methodik ermöglicht es Führungskräften:
 
@@ -63,7 +63,7 @@ Weitere Informationen zum Erstellen eines Business-Case und einer Projektanfrage
 
 Nachdem Sie die Projektanforderung übermittelt haben, prüft der Portfolio-Manager oder ein Executive-Team sie und entscheidet, ob das Projekt genehmigt werden soll. Wenn er/sie das Projekt genehmigt, wird das Projekt für ein Firmenprojekt Portfolio ausgewählt.
 
-Weitere Informationen zu Portfolios finden Sie in der Übersicht über [Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Weitere Informationen zur Genehmigung eines Business-Case finden Sie [Genehmigen eines Business-Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Weitere Informationen zu Portfolios finden Sie unter [Portfoliomethodik ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Weitere Informationen zur Genehmigung eines Business-Case finden Sie [Genehmigen eines Business-Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio-Optimierung {#portfolio-optimization}
 

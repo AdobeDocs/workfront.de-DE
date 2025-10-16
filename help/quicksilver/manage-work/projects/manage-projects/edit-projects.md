@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 1%
 
 ---
@@ -47,14 +47,13 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td><p>Neu: Standard </p> 
-   Oder
-   <p>Aktuell: Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -63,7 +62,7 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
-     <p>Verwalten von Berechtigungen für ein Projekt </p> 
+     <p>Verwalten von Berechtigungen für ein Projekt</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
 *Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Einschränkungen beim Bearbeiten von Projekten
 
@@ -403,7 +433,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Geplanter Nutzen</strong> </td> 
-      <td> <p>Schätzen Sie den geplanten Nutzen des Projekts. Dies wird im Business Case des Projekts und in Portfolio Optimizer verwendet. Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten in Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Schätzen Sie den geplanten Nutzen des Projekts. Dies wird im Business Case des Projekts und in Portfolio Optimizer verwendet. Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten im Portfolio Optimizer: Artikelindex</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tatsächlicher Gewinn</strong> </td> 

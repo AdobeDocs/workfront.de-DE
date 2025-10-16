@@ -6,9 +6,9 @@ description: Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie sc
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -22,36 +22,36 @@ Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie schnell zu übe
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> -->
-   <td role="rowheader">Produkt</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
+   <td role="rowheader">Zusätzliche Produkte</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL View] Zugriff oder höher auf das Objekt, in das Sie ein Dokument hochladen möchten.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] Zugriff oder höher auf das Objekt, in das Sie ein Dokument hochladen möchten.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,15 +92,15 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Die Zeichenflächen werden als JPG in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
+      <td>Die Zeichenflächen werden als JPG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Die Zeichenflächen werden als SVG in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
+      <td>Die Zeichenflächen werden als SVG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Wählen Sie aus, ob die ausgewählten Zeichenflächen als <strong>Einzelne PDF-Datei</strong> oder <strong>Mehrere PDF-Dateien</strong> hochgeladen werden sollen. Die Zeichenflächen werden als PDF auf die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen.</td>
+      <td>Wählen Sie aus, ob die ausgewählten Zeichenflächen als <strong>Einzelne PDF-Datei</strong> oder <strong>Mehrere PDF-Dateien</strong> hochgeladen werden sollen. Die Zeichenflächen werden als PDF in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen.</td>
      </tr>
     </tbody>
    </table>
@@ -124,7 +124,7 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
 
    >[!NOTE]
    >
-   >Wenn Sie eine neue Version einer SVG, PNG oder JPG hochladen möchten, können Sie nur eine Zeichenfläche hochladen.
+   >Wenn Sie eine neue Version eines SVG, PNG oder JPG hochladen möchten, können Sie nur eine einzige Zeichenfläche hochladen.
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
@@ -143,15 +143,15 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Die Zeichenfläche wird als JPG auf die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
+      <td>Die Zeichenfläche wird in [!DNL Workfront] als JPG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements hochgeladen. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Die Zeichenfläche wird als SVG auf die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
+      <td>Die Zeichenfläche wird als SVG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>Die Zeichenflächen werden als PDF in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen.</p>
+      <td><p>Die Zeichenflächen werden als PDF in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen.</p>
       <p><strong>Hinweis</strong>: Für eine neue Dokumentversion kann nur eine Zeichenfläche hochgeladen werden.</p>
       </td>
      </tr>

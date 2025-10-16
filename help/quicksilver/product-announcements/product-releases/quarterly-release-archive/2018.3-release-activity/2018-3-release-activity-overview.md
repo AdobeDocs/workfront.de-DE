@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Die Version 2018.3 enthält Verbesserungen sowohl für Workfront-Administratoren
 ### Weitere Verbesserungen
 
 * [Microsoft OneDrive-Dokumentintegration](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
-* Integration von [Workfront für Microsoft Teams &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
+* Integration von [Workfront für Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Aktualisierte Integration von Workfront für Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
 * [Flash-Entfernung für die Freigabe von Berichten, Kalendern und Dokumenten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 
@@ -118,7 +118,7 @@ Die Version 2018.3 enthält Verbesserungen sowohl für Workfront-Administratoren
 * [API Version 3 wird nicht mehr unterstützt](#api-version-3-no-longer-supported)
 * [Die TLS-Unterstützung wird beendet](#tls-support-is-ending)
 * [Die JSONP-Unterstützung wird eingestellt](#jsonp-support-is-ending)
-* [Flash-Anwendung entfernen](#flash-application-removal)
+* [Entfernen der Flash-Anwendung](#flash-application-removal)
 * [Verschiedene Single Sign-On-Optionen, die entfernt werden sollen](#various-single-sign-on-options-to-be-removed)
 * [Legacy Workfront FusionUpdate - 20. September 2018](#legacy-workfront-fusionupdate-september-20-2018)
 
@@ -138,11 +138,11 @@ Weitere Informationen finden Sie unter  [TLS 1.2 muss in Adobe Workfront erford
 
 ### JSONP-Unterstützung wird beendet {#jsonp-support-is-ending}
 
-Da JSONP (JavaScript mit Abstand) ein alter Standard mit bekannten Sicherheitslücken ist, unterstützt Workfront JSONP ab November 2018 nicht mehr. Weitere Informationen finden Sie unter [Beenden der Unterstützung für JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Da JSONP (JavaScript mit Abstand) ein alter Standard mit bekannten Sicherheitslücken ist, unterstützt Workfront JSONP ab November 2018 nicht mehr.
 
-### Entfernen einer Flash-Anwendung {#flash-application-removal}
+### Flash-Anwendungs-Entfernung {#flash-application-removal}
 
-Alle Funktionen, die auf Flash-Technologie angewiesen sind, sollen mit der Version 2018.3 aus Workfront entfernt und durch eine neue Lösung ersetzt werden.
+Sämtliche Funktionen, die auf der Flash-Technologie basieren, sollen mit der Version 2018.3 aus Workfront entfernt und durch eine neue Lösung ersetzt werden.
 
 Detaillierte Informationen zu den alten Flash-Tools und deren Ersetzungen finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
+source-wordcount: '350'
+ht-degree: 2%
 
 ---
 
@@ -25,34 +25,31 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td>
-   <td><p>Neu: Standard</p>
-       <p>Oder</p>
-       <p>Aktuell: Plan</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td>
+   <td>Objektberechtigungen</td>
    <td> <p>Das Portfolio muss mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem müssen Sie über Berechtigungen zum Anzeigen des Portfolios verfügen, entweder weil Sie es erstellt haben oder weil es für Sie freigegeben wurde.</p></td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
        <ol> 
         <li value="1"> <p>Klicken Sie <strong>Neue Portfolio</strong>.</p> </li> 
         <li value="2">Ersetzen <strong>Nicht benannte Portfolio</strong> durch den Namen, den Sie für das Portfolio vergeben möchten.</li>
-        <li value="3"><p>Klicken Sie im linken </strong> auf <strong>Portfolio-Details und aktualisieren Sie die Informationen im Bereich Übersicht nach Bedarf.</p>
+        <li value="3"><p>Klicken Sie im linken <strong> auf </strong>Portfolio-Details und aktualisieren Sie die Informationen im Bereich Übersicht nach Bedarf.</p>
         <p>Weitere Informationen zu den Konfigurationsoptionen finden Sie unter <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios</a>.</p></li>
         <li value="4">Klicken Sie auf die Schaltfläche Zurück Ihres Browsers, um zur Portfolioliste der Gruppe zurückzukehren.</li> 
        </ol> </td>

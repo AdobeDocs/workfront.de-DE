@@ -7,10 +7,10 @@ description: Berichte bieten Einblicke in das, was mit Benutzenden und der Arbei
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 0%
+source-wordcount: '3292'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Berichte sind eine Kombination der folgenden drei Elemente in Workfront:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Anzeigen</td> 
+   <td role="rowheader">Ansicht</td> 
    <td> <li>Definiert die Spalten in Ihrem Bericht und welche Informationen Sie in die einzelnen Spalten aufnehmen können.</li> <li>Weitere Informationen zu Ansichten finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
@@ -88,9 +88,9 @@ Informationen zum Erstellen von Berichten finden Sie [Erstellen eines benutzerde
 
 ### Voraussetzungen für das Erstellen von Berichten {#prerequisites-for-creating-reports}
 
-* Sie müssen über eine Planlizenz (aktuelle Lizenzen) oder Standardlizenz (neue Lizenzen) verfügen, um Ihre eigenen Berichte zu erstellen.
+* Sie müssen über eine Standard- oder Planlizenz verfügen, um Ihre eigenen Berichte zu erstellen.
 
-  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
+  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf „Berichte bearbeiten“ auf Ihrer Zugriffsebene gewähren.
 
@@ -118,7 +118,7 @@ Sie können sehen, wem ein Bericht gehört, indem Sie das Feld **Eingegeben von*
 Es wird empfohlen, zuerst die Berichterstellungsoberfläche zu verwenden, um einen neuen Bericht zu erstellen. Die Benutzeroberfläche bietet eine optimierte Reihe von Tools, die Sie durch das Zusammenfügen von Elementen führen, um den gewünschten Bericht zu erstellen. Sie verfügen über Objekte und Felder, die Sie aus Listen auswählen und zu allen Berichtselementen hinzufügen können.\
 Weitere Informationen zum Erstellen von Berichten in der Benutzeroberfläche zum Erstellen von Berichten finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [&#x200B; Abschnitt „Bericht über &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [ Abschnitt „Bericht über ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Weitere Informationen zu den Feldern, die Sie in Berichten anzeigen können, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -149,7 +149,7 @@ Eine Liste der häufigsten Verwendungen des Textmodus in einem Bericht finden Si
 
 Informationen zur Aufnahme berechneter benutzerdefinierter Daten in Berichte finden Sie unter [Berechnete benutzerspezifische Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung &#x200B;](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung ](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Sie können Sammlungsfelder auch mithilfe des Textmodus in Berichten referenzieren.\
 Informationen zur Verwendung des Textmodus zum Anzeigen von Sammlungsinformationen in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
@@ -177,7 +177,7 @@ Auf der Registerkarte Details eines Berichts werden das Objekt der Berichte und 
 >[!IMPORTANT]
 >
 >Die Informationen auf der Registerkarte Details werden je nach Zeitzone möglicherweise anders als auf der Registerkarte Diagramm angezeigt.\
->Ein Benutzer in Kalifornien hat beispielsweise am 12. Februar um 21:30 Uhr PST eine Aufgabe abgeschlossen. Wenn ein(e) Benutzende(r) in New York einen Bericht aufruft, der diese Aufgabenfertigstellung enthält, wird das tatsächliche Abschlussdatum sowohl auf der Registerkarte Details als auch im Diagramm als 13. Februar angezeigt, da es am 13. Februar um 12:30 Uhr EST abgeschlossen wurde. Im Diagramm ist sie jedoch in der Gruppierung vom 12. Februar enthalten, bis Sie das Diagrammelement erweitern.
+>Beispielsweise hat ein Benutzer in Kalifornien am 12. Februar um 21::30 Uhr PST eine Aufgabe abgeschlossen. Wenn ein(e) Benutzende(r) in New York einen Bericht aufruft, der diese Aufgabenfertigstellung enthält, wird das tatsächliche Abschlussdatum sowohl auf der Registerkarte Details als auch im Diagramm als 13. Februar angezeigt, da es am 13. Februar um 12 :30 EST abgeschlossen wurde. Im Diagramm ist sie jedoch in der Gruppierung vom 12. Februar enthalten, bis Sie das Diagrammelement erweitern.
 
 ### Registerkarte „Zusammenfassung“ {#summary-tab}
 
@@ -206,7 +206,7 @@ Erwägen Sie die Aufnahme eines Diagramms in Ihre Berichte, um effektive Dashboa
 >[!IMPORTANT]
 >
 >Wenn Sie auf ein Diagrammelement klicken, werden die erweiterten Informationen möglicherweise je nach Zeitzone anders als das Diagramm angezeigt.\
->Ein Benutzer in Kalifornien hat beispielsweise am 12. Februar um 21:30 Uhr PST eine Aufgabe abgeschlossen. Wenn ein(e) Benutzende(r) in New York einen Bericht aufruft, der diese Aufgabenfertigstellung enthält, wird das tatsächliche Abschlussdatum sowohl auf der Registerkarte Details als auch im Diagramm als 13. Februar angezeigt, da es am 13. Februar um 12:30 Uhr EST abgeschlossen wurde. Im Diagramm ist sie jedoch in der Gruppierung vom 12. Februar enthalten, bis Sie das Diagrammelement erweitern.
+>Beispielsweise hat ein Benutzer in Kalifornien am 12. Februar um 21::30 Uhr PST eine Aufgabe abgeschlossen. Wenn ein(e) Benutzende(r) in New York einen Bericht aufruft, der diese Aufgabenfertigstellung enthält, wird das tatsächliche Abschlussdatum sowohl auf der Registerkarte Details als auch im Diagramm als 13. Februar angezeigt, da es am 13. Februar um 12 :30 EST abgeschlossen wurde. Im Diagramm ist sie jedoch in der Gruppierung vom 12. Februar enthalten, bis Sie das Diagrammelement erweitern.
 
 Informationen zum Erstellen eines Berichts mit einem Diagramm finden Sie im Artikel [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -296,11 +296,11 @@ Die folgenden Begriffe werden für Workfront-Berichte verwendet:
    <td>Ein Bean stellt ein wiederverwendbares Programmierelement dar. Der Begriff Bean bezeichnet Beziehungen zwischen verschiedenen Objekten in der Workfront-Anwendung. Es ist wichtig, dass Sie mit diesen Beziehungen vertraut sind, wenn Sie versuchen, zusätzliche Attribute über ein Objekt anzuzeigen, die in den grundlegenden Reporting-Tools nicht verfügbar sind.</td> 
   </tr> 
   <tr> 
-   <td>Builder-Benutzeroberfläche oder -Report Builder</td> 
+   <td>Builder-Oberfläche für Report Builder</td> 
    <td>Die Builder-Benutzeroberfläche ist eine Reihe von Dropdown-Menüs mit Feldern, die auf den Registerkarten Spalten (Ansicht), Filter und Gruppierung angezeigt werden. Es bietet eine intuitive Zuordnung der Bean-Beziehungen, um die Identifizierung der Spalten in einer Ansicht, der Kriterien eines Filters und der gemeinsamen Attribute einer Gruppierung zu unterstützen.</td> 
   </tr> 
   <tr> 
-   <td>Camel Case</td> 
+   <td>Binnenmajuskel</td> 
    <td> <p>Camel Case bezieht sich auf eine bestimmte Methode, Programmierelemente zu schreiben, um Attribute mit mehreren Wörtern gemeinsam zu zeichenfolgen. Bei der Schreibweise eines Attributs in Binnenmajuskel-Schreibweise ist der erste Buchstabe des ersten Worts kleingeschrieben, es gibt kein Leerzeichen zwischen den Wörtern, und der erste Buchstabe eines nachfolgenden Worts ist großgeschrieben.</p> <p>Die Hauptgruppe würde beispielsweise als „homeGroup<em> geschrieben</em> der Ressourcenpool wäre <em>resourcePool</em> und das tatsächliche Startdatum wäre <em>actualStartDate</em>.</p> </td> 
   </tr> 
   <tr> 
@@ -310,7 +310,7 @@ Die folgenden Begriffe werden für Workfront-Berichte verwendet:
      <li>Spalte</li> 
      <li>Balken</li> 
      <li>Kreis</li> 
-     <li>Zeile</li> 
+     <li>Linie</li> 
      <li>Tachometer</li> 
      <li>Blasen</li> 
     </ul> <p>Weitere Informationen zum Hinzufügen von Diagrammen zu Berichten finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a>.</p> </td> 
@@ -325,7 +325,7 @@ Die folgenden Begriffe werden für Workfront-Berichte verwendet:
   </tr> 
   <tr> 
    <td>Felder</td> 
-   <td> <p>Bezieht sich auf die Attribute Ihrer Objekte. Beispiel: „Status“ ist ein Feld für Projekte, Aufgaben oder Probleme. "Portfolio-Manager“ ist ein Feld für das Portfolio-Objekt.</p> <p>Sie können auch benutzerdefinierte Felder verwenden, die Sie selbst erstellen und benutzerdefinierten Formularen hinzufügen.<br>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>.</p> </td> 
+   <td> <p>Bezieht sich auf die Attribute Ihrer Objekte. Beispiel: „Status“ ist ein Feld für Projekte, Aufgaben oder Probleme. "Portfolio Manager“ ist ein Feld für das Portfolio-Objekt.</p> <p>Sie können auch benutzerdefinierte Felder verwenden, die Sie selbst erstellen und benutzerdefinierten Formularen hinzufügen.<br>Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Erstellen eines benutzerdefinierten Formulars</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Feldname </td> 

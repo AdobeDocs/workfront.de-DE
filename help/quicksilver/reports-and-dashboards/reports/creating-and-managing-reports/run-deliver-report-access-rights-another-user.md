@@ -6,10 +6,10 @@ description: Standardmäßig können Benutzende nur die Objekte in einem Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 0%
+source-wordcount: '1185'
+ht-degree: 1%
 
 ---
 
@@ -30,43 +30,36 @@ Wenn Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ausführe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-      <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen der Berechtigungen für einen Bericht (zum Anzeigen des bereitgestellten Berichts)</p><p>Berechtigungen für einen Bericht verwalten (um den Bericht auszuführen)</p></td> 
+     <td> <p>Anzeigen der Berechtigungen für einen Bericht, um den bereitgestellten Bericht anzuzeigen</p>
+     <p>Verwalten der Berechtigungen für einen Bericht, um den Bericht auszuführen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +85,7 @@ So führen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers aus
    >
    >Benutzer mit einer niedrigeren Zugriffsebene, die Berichte erstellen dürfen, können für das Feld **Diesen Bericht ausführen mit Zugriffsrechten von:** nicht einen anderen Benutzer als sich selbst auswählen.
 
-1. Klicken Sie **Fertig**.
+1. Klicken Sie auf **Fertig**.
 1. Klicken Sie auf **Speichern + schließen**.\
    Der Bericht wird nun für alle Benutzer angezeigt, für die der Bericht freigegeben ist, als ob er von dem im Feld **Diesen Bericht mit Zugriffsrechten ausführen von:** angegebenen Benutzer angezeigt worden wäre.
 

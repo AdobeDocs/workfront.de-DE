@@ -6,9 +6,9 @@ description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -36,21 +36,19 @@ Beachten Sie beim Erstellen einer neuen Version eines Korrekturabzugs die folgen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Aktuell: Pro oder höher</p> <p>oder</p> <p>Legacy: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Aktuell: Standard</p> 
-   <p>Oder</p>
-   <p>Legacy: Arbeit oder Plan (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
+   <td> <p>Standard</p> 
+   <p>Arbeit oder Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -58,12 +56,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +91,7 @@ Wenn Sie die eigenständige Workfront Proof verwenden, können Sie eine neue Ver
 
 >[!NOTE]
 >
->Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [&#x200B; unter „Erstellen eines mehrseitigen &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
+>Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [ unter „Erstellen eines mehrseitigen ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
 
 So erstellen Sie eine neue Version eines Korrekturabzugs in Workfront Proof:
 
@@ -208,7 +206,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
 ## Über die Nachricht Neue Version
 
-Wenn in der vorherigen Version des Korrekturabzugs ein benutzerdefinierter Betreff/eine benutzerdefinierte Nachricht enthalten war, wird sie/sie standardmäßig auf der Seite „Neue Version“ angezeigt. Sie können:
+Wenn in der vorherigen Version des Korrekturabzugs ein benutzerdefinierter Betreff/eine benutzerdefinierte Nachricht enthalten war, wird sie/sie standardmäßig auf der Seite „Neue Version“ angezeigt. Sie haben folgende Möglichkeiten:
 
 * Bearbeiten Sie den Betreff und die Nachricht.
 * Deaktivieren Sie das Kontrollkästchen Personen per E-Mail benachrichtigen. Das bedeutet, dass keine E-Mail an Ihre Prüfer gesendet wird, um sie darüber zu informieren, dass sie eine neue Version zur Überprüfung haben.

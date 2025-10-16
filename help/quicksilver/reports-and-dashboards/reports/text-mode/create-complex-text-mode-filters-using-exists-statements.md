@@ -6,7 +6,7 @@ description: Mit EXISTS-Anweisungen können Sie komplexe Textmodusfilter erstell
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -40,9 +40,9 @@ Informationen darüber, welche Objekte sich in Workfront befinden, sowie über i
 
 Beim Erstellen von Filtern können Sie mithilfe der standardmäßigen Berichtsschnittstelle innerhalb von bis zu zwei Beziehungsebenen auf andere Objekte verweisen, die mit dem Objekt des Filters verbunden sind.
 
-Sie können beispielsweise in einem Problemfilter auf die Portfolio-ID verweisen, um mithilfe der Standardschnittstelle nur Probleme in Projekten anzuzeigen, die mit einem bestimmten Portfolio verknüpft sind. In diesem Fall ist das Portfolio zwei Ebenen von Problemen entfernt.
+Sie können beispielsweise in einem Problemfilter auf die Portfolio-ID verweisen, um nur Probleme in Projekten anzuzeigen, die mit einem bestimmten Portfolio verknüpft sind. Verwenden Sie dazu die Standardschnittstelle. In diesem Fall ist das Portfolio zwei Ebenen von Problemen entfernt.
 
-Sie können jedoch nicht in einem Problemfilter mithilfe der Standardschnittstelle auf den Eigentümer des Portfolios verweisen, um nur Probleme aus Projekten anzuzeigen, die mit Portfolios verknüpft sind, in denen der Eigentümer ein bestimmter Benutzer ist. Sie müssen den Textmodus verwenden, um auf das Feld Name des Portfolio-Inhabers zuzugreifen, das drei Ebenen von Problemen entfernt ist.
+Sie können jedoch nicht in einem Problemfilter mithilfe der Standardschnittstelle auf den Portfolio-Verantwortlichen verweisen, um nur Probleme aus Projekten anzuzeigen, die mit Portfolios verknüpft sind, in denen der Verantwortliche ein bestimmter Benutzer ist. Sie müssen den Textmodus verwenden, um auf das Feld Portfolio-Eigentümername zuzugreifen, das drei Ebenen von Problemen entfernt ist.
 
 ![Problem mit Symbolen für Portfoliobesitzer](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -84,7 +84,7 @@ Beachten Sie die folgenden Regeln, wenn Sie EXISTS-Anweisungen in einem Filter v
 
 * Wenn ein Verknüpfungsobjekt fehlt, weil das Original- und das Zielobjekt direkt miteinander verbunden sind, können Sie den Objektcode des Zielobjekts anstelle des Verknüpfungsobjekts verwenden.
 * Sie können auf mehrere Felder (Zielfelder) desselben Objekts (Zielobjekt) verweisen. In diesem Fall müssen Sie die Zeilen verbinden, die auf die Felder durch UND verweisen.\
-  Portfolio Ein Beispiel für das Filtern nach mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Namen des Aufgabenbesitzers und ID der Scorecard für die Ausrichtung des Portfolios &#x200B;](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel.
+  Ein Beispiel für die Filterung nach mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio-Besitzername und Portfolio-Ausrichtungs-Scorecard](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)ID in diesem Artikel.
 
 * Der einzige für eine EXISTS-Anweisung unterstützte Modifikator ist NOTEXISTS.
 
@@ -92,27 +92,19 @@ Beachten Sie die folgenden Regeln, wenn Sie EXISTS-Anweisungen in einem Filter v
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berichtsberechtigungen zum Bearbeiten von Filtern in einem Bericht</p> <p>Verwalten von Berechtigungen für einen Filter, um ihn zu bearbeiten</p></td> 
+   <td><p>Verwalten von Berichtsberechtigungen zum Bearbeiten von Filtern in einem Bericht</p> <p>Verwalten von Berechtigungen für einen Filter, um ihn zu bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,11 +128,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***[This information is somewhat duplicated from the section below: Create Text-Mode Filters for Missing Objects])</p>
 -->
 
-Sie können einen Filter erstellen, der auf Objekte über mehrere Ebenen der Objekthierarchie hinweg verweist, in der das Filterobjekt vorhanden ist. Sie können beispielsweise einen Problemfilter für Probleme erstellen, die sich in Projekten befinden, die nicht mit einem bestimmten Portfolio-Inhaber verknüpft sind.
+Sie können einen Filter erstellen, der auf Objekte über mehrere Ebenen der Objekthierarchie hinweg verweist, in der das Filterobjekt vorhanden ist. Sie können beispielsweise einen Problemfilter für Probleme erstellen, die sich in Projekten befinden, die nicht mit einem bestimmten Portfolio-Eigentümer verknüpft sind.
 
 Sie müssen immer eine EXISTS-Anweisung und die Textmodus-Schnittstelle verwenden, um diesen Filter zu erstellen.
 
-Beispiele für Filter finden Sie im Abschnitt [Beispiel 1: Nach Namen des Portfolios nach &#x200B;](#example-1-filter-for-issues-by-portfolio-owner-name) filtern) in diesem Artikel.
+Beispiele für Filter finden Sie im Abschnitt [Beispiel 1: Nach Portfolio-Inhabernamen filtern](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
 
 So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierarchie erstreckt:
 
@@ -148,7 +140,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
    Beispiel: Problem.
 
 1. Identifizieren Sie das Feld, nach dem Sie filtern möchten. Dieses Objekt wird als Zielfeld bezeichnet, das zu einem Zielobjekt gehört.\
-   Beispiel: das Feld ownerID (Zielfeld), das zum Portfolio (Zielobjekt) gehört.
+   Zum Beispiel das Feld ownerID (Zielfeld), das zu Portfolio (Zielobjekt) gehört.
 
 1. (Bedingt) Wenn das ursprüngliche Objekt (Problem) und das Zielfeld (ownerID) nicht direkt miteinander verbunden sind, müssen Sie ein drittes Objekt, ein Verknüpfungsobjekt (Projekt) finden, das sie verbindet. Das Verknüpfungsobjekt muss über mindestens ein Feld verfügen, das von den Registerkarten Felder oder Verweise des ursprünglichen Objekts referenziert wird (auf dem ursprünglichen Objekt angezeigtes Verknüpfungsfeld), und es muss auch über ein Verknüpfungsfeld zum Zielobjekt verfügen, das auf den Registerkarten Felder oder Verweise des Verknüpfungsobjekts angezeigt wird. Das Verknüpfungsfeld mit dem Zielobjekt, das im Verknüpfungsobjekt angezeigt wird (oder das Verknüpfungsfeld, das im Verknüpfungsobjekt angezeigt wird), muss mit dem Zielfeld übereinstimmen.
 
@@ -172,7 +164,7 @@ So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierar
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   Ein Beispiel für die Verwendung der oben genannten Felder finden Sie im Abschnitt [Beispiel 1: Filtern nach Portfolio-Inhabername](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
+   Ein Beispiel für die Verwendung der oben genannten Felder finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen nach Portfolio-](#example-1-filter-for-issues-by-portfolio-owner-name)) in diesem Artikel.
 
 1. Klicken Sie auf **Filter speichern**.
 
@@ -220,7 +212,7 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
    EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Ein Beispiel für das Reporting zu benutzerdefinierten Feldern, die nicht mit benutzerdefinierter Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Filtern nach fehlenden Objekten: Benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular &#x200B;](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) werden in diesem Artikel.
+   Ein Beispiel für das Reporting zu benutzerdefinierten Feldern, die nicht mit benutzerdefinierter Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Filtern nach fehlenden Objekten: Benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular ](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) werden in diesem Artikel.
 
 1. Klicken Sie auf **Filter speichern**.
 
@@ -228,11 +220,11 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
 
 Verwenden Sie diese Beispiele, um Textmodusfilter mit EXISTS-Anweisungen zu erstellen.
 
-### Beispiel 1: Filtern von Problemen nach Portfolio-Inhabername {#example-1-filter-for-issues-by-portfolio-owner-name}
+### Beispiel 1: Nach Portfolio-Eigentümername nach Problemen filtern {#example-1-filter-for-issues-by-portfolio-owner-name}
 
 Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter für eine Liste von Problemen erstellen, um nur Probleme anzuzeigen, die zu Projekten gehören, die mit einem Portfolio verknüpft sind, dessen Besitzer ein bestimmter Benutzer ist.
 
-So filtern Sie Probleme nach dem Namen des Portfolio-Inhabers:
+So filtern Sie Probleme nach dem Portfolio-Eigentümernamen:
 
 1. Erstellen Sie einen Problemfilter.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -349,7 +341,7 @@ So filtern Sie nach Benutzern, die die Zeit der letzten Woche nicht protokollier
 
 1. Klicken Sie auf **Filter speichern**.
 
-### Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Name des Portfolio-Inhabers und Scorecard-ID für die Portfolio-Ausrichtung {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
+### Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio-Eigentümername und Portfolio-Ausrichtungs-Scorecard-ID {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
 Mithilfe der Textmodusschnittstelle können Sie einen Filter erstellen, der auf mehr als ein Feld des Zielobjekts verweist. In diesem Fall müssen die Filteranweisungen, die sich auf die Zielfelder beziehen, über UND verbunden werden.
 
@@ -358,7 +350,7 @@ Sie können beispielsweise eine Liste von Aufgaben so filtern, dass nur Aufgaben
 * Sie befinden sich in einem Projekt, das mit einem Portfolio verknüpft ist, dessen Besitzer ein bestimmter Benutzer ist.
 * Sie befinden sich in einem Projekt, das mit einem Portfolio verknüpft ist, dessen Projekte nicht mit einer bestimmten Alignment-Scorecard verknüpft sind.
 
-So filtern Sie Aufgaben nach dem Namen des Portfolio-Verantwortlichen und der Scorecard-ID für die Portfolio-Ausrichtung:
+So filtern Sie Aufgaben nach dem Portfolio-Besitzernamen und der Portfolio-Ausrichtungs-Scorecard-ID:
 
 1. Erstellen Sie einen Aufgabenfilter.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -384,7 +376,7 @@ So filtern Sie Aufgaben nach dem Namen des Portfolio-Verantwortlichen und der Sc
    >* Das zweite Zielfeld ist die Ausrichtungs-Scorecard-ID.
    >* Das Verknüpfungsobjekt ist Projekt.
    >* Der Objektcode des Verknüpfungsobjekts ist PROJ.
-   >* Das Verknüpfungsfeld mit dem Zielobjekt ist die ID (des Portfolios).
+   >* Das Verknüpfungsfeld mit dem Zielobjekt ist die ID (der Portfolio).
    >* Das Verknüpfungsfeld, das auf dem ursprünglichen Objekt angezeigt wird, ist projectID.
    >* Ersetzen Sie die Besitzer-ID durch eine Benutzer-ID aus Ihrer Umgebung.
 

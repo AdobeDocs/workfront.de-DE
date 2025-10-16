@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1241'
 ht-degree: 1%
 
 ---
@@ -25,34 +25,31 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td>Beliebig</td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td>
-   <td><p>Neu: Standard</p>
-       <p>Oder</p>
-       <p>Aktuell: Plan</p></td>
-  <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
+  <tr>
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td>
+   <td>Objektberechtigungen</td>
    <td>Zugriff auf die Vorlagen, die angezeigt werden sollen und mit denen Sie arbeiten möchten, anzeigen oder höher</td> 
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +86,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader">Freigeben einer oder mehrerer Vorlagen</td> 
       <td> <p>Wählen Sie mindestens eine Vorlage aus, klicken Sie auf das Symbol Freigeben <img src="assets/share-icon.png"> dann auf eine der folgenden Optionen im Dropdown-Menü:</p> 
        <ul> 
-        <li> <p><strong>Vorlage</strong>: Fügen Sie im </strong> „Zugriff auf <strong>" Namen hinzu, um anzugeben, wer Zugriff auf die Vorlage selbst haben möchte.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Freigeben einer Vorlage</a> im Artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Freigeben von Projektvorlagen</a>.</p> </li> 
+        <li> <p><strong>Vorlage</strong>: Fügen Sie im <strong> „Zugriff auf </strong>" Namen hinzu, um anzugeben, wer Zugriff auf die Vorlage selbst haben möchte.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Freigeben einer Vorlage</a> im Artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Freigeben von Projektvorlagen</a>.</p> </li> 
         <li><strong>Projekt</strong> <strong>: Fügen Sie im </strong> „Projektzugriff“ Namen hinzu, um anzugeben, wem Sie Zugriff auf die aus der Vorlage erstellten Projekte gewähren möchten</li> 
        </ul> <p>Das Symbol Freigeben ist nur verfügbar, wenn Sie Freigabezugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> </td> 
      </tr> 
@@ -147,7 +144,7 @@ Wenn Sie eine Projektvorlage erstellen, werden die in den folgenden Tabellen auf
    <td> <p>Wird über die Voreinstellung „Benutzer-Ausfallzeit“ auf Gruppenebene konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder über dieselbe Voreinstellung auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Update-Typ</p> </td> 
+   <td role="rowheader"> <p>Art der Aktualisierung</p> </td> 
    <td> <p>Konfiguriert durch die Voreinstellung des Projekts auf Gruppenebene „Projektzeitleisten werden automatisch neu berechnet“, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder dieselbe Voreinstellung des Projekts auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
   <tr> 

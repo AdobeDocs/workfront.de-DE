@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -31,26 +31,26 @@ Sie müssen über Folgendes verfügen:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] Plan</strong>
+   <td>Adobe Workfront-Paket
    </td>
-   <td> <p>Neu: Prime oder Ultimate</p><p>Oder</p><p>Aktuell: Nicht verfügbar</p>
+   <td> <p>Prime oder Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] Lizenzen</strong>
+   <td><strong>Workfront-Lizenzen</strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: Nicht verfügbar</p>
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Konfigurationen der Zugriffsebene
    </td>
-   <td>Sie müssen [!DNL Workfront] sein.
+   <td><p>Sie müssen ein Workfront-Administrator sein.</p>
    </td>
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -72,7 +72,7 @@ Um herauszufinden, ob eine bestimmte Paketbereitstellung zurückgesetzt werden k
 ## Zurücksetzen eines installierten Umgebungs-Promotion-Pakets
 
 1. Wechseln Sie zur Umgebung, in der das Paket installiert wurde.
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen **im** Navigationsbereich die Option „Umgebungsförderung“ aus.
 1. Wählen Sie das Paket aus, das Sie zurücksetzen möchten, und klicken Sie auf **Bereitstellungen**.
 1. Bewegen Sie den Mauszeiger über die Bereitstellung (Installation), die Sie zurücksetzen möchten, und klicken Sie dann auf Zurücksetzen , wenn sie rechts neben der Zeile dieser Bereitstellung angezeigt wird.

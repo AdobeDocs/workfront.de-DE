@@ -6,9 +6,9 @@ description: Verwenden von Workflows in der Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,40 @@ Wenn ein Projekt mithilfe einer Projektvorlage erstellt wird, der ein Workflow z
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront-Plan*</strong>
-   </td>
-   <td>Beliebig
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront-Lizenzen*</strong>
-   </td>
-   <td>Anfrage oder höher
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produkt</strong>
-   </td>
-   <td><p>Sie müssen über Experience Manager Assets as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</p><p>Sie müssen Schreibzugriff auf das Repository in Adobe Experience Manager haben.</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Konfigurationen der Zugriffsebene*</strong>
-   </td>
-   <td>Zugriff auf Dokumente bearbeiten
-<p>
-<strong>Hinweis: </strong>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <strong>Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</strong>.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Objektberechtigungen</strong>
-   </td>
-   <td>Zugriff verwalten oder höher für das Projekt 
-<p>
-Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <strong>Anfordern von Zugriffsberechtigungen für Objekte </strong>.
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p> Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenzen</td> 
+   <td> 
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Zusätzliche Produkte</td> 
+   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager-Berechtigungen</td> 
+    <td>Sie müssen Schreibzugriff auf den Ordner haben.</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Ansichtszugriff oder höher</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +87,7 @@ Sie können einen Workflow zu einer Projektvorlage hinzufügen. Der Workflow wir
 
    Anweisungen zu bestimmten Workflows finden Sie unter [Bearbeiten von Workflow-Werten in einem Projekt](#edit-workflow-values-in-a-project) in diesem Artikel.
 
-   Nur Workflows, die im Bereich Experience Manager von Setup aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
+   Nur Workflows, die im Bereich &quot;Experience Manager&quot; von „Setup“ aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
 
 1. Ihre Änderungen werden automatisch gespeichert. <!-- do they though??-->
 
@@ -108,7 +104,7 @@ Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen 
 1. Wählen Sie bei der Auswahl einer Vorlage für das Projekt die Vorlage aus, die die Workflows enthält, die Sie für dieses Projekt verwenden möchten.
 1. (Optional) Bearbeiten Sie alle Workflow-Werte für das Projekt, wie unter [Bearbeiten von Workflow-Werten in einem Projekt](#edit-workflow-values-in-a-project) beschrieben.
 
-   Nur Workflows, die im Bereich Experience Manager von Setup aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
+   Nur Workflows, die im Bereich &quot;Experience Manager&quot; von „Setup“ aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
 
 
 ### Hinzufügen eines Workflows zu einem vorhandenen Projekt
@@ -124,7 +120,7 @@ Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen 
 1. Wählen Sie bei der Auswahl einer Vorlage für das Projekt die Vorlage aus, die die Workflows enthält, die Sie für dieses Projekt verwenden möchten.
 1. (Optional) Bearbeiten Sie alle Workflow-Werte für das Projekt, wie unter [Bearbeiten von Workflow-Werten in einem Projekt](#edit-workflow-values-in-a-project) beschrieben.
 
-   Nur Workflows, die im Bereich Experience Manager von Setup aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
+   Nur Workflows, die im Bereich &quot;Experience Manager&quot; von „Setup“ aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
 
 
 
@@ -176,6 +172,6 @@ So bearbeiten Sie den Workflow für verknüpfte Ordner:
 
 So bearbeiten Sie den Workflow zum Veröffentlichen von Assets:
 
-1. **Publish-Assets automatisch ein** oder aus.
+1. Schalten Sie **Assets automatisch veröffentlichen** nach Bedarf ein oder aus.
 1. (Bedingt) Wenn Sie die Veröffentlichung aktivieren, wählen Sie aus, ob Sie im Veröffentlichungs-Service, Brand Portal oder in beiden veröffentlichen möchten.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

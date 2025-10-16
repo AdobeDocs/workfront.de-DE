@@ -6,10 +6,10 @@ description: Nachdem Ihr Teambesitzer Adobe Workfront für Microsoft Teams insta
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -28,26 +28,31 @@ Nachdem Ihr Teambesitzer [!DNL Adobe Workfront for Microsoft Teams] installiert 
 >[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um die [!DNL Adobe Workfront for Microsoft Teams integration] verwenden zu können, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
 
+
+
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
-   <td> <p>Arbeit, Plan, Überprüfung, Anfrage</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Mitwirkender oder höher</p>
+   <p>Antragsteller oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -55,7 +60,7 @@ Ihr [!DNL Microsoft Teams] Teambesitzer muss [!DNL Workfront] für [!DNL Microso
 
 ## [!DNL Workfront] Anfragen von [!DNL Microsoft Teams] senden
 
-1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf]** Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
+1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in]** auf [!DNL Microsoft Teams] Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
 
 1. Klicken Sie in der angezeigten Liste auf **[!DNL Workfront]** .
 1. Klicken Sie auf die **[!UICONTROL Anfragen]**.
@@ -87,13 +92,13 @@ Ihr [!DNL Microsoft Teams] Teambesitzer muss [!DNL Workfront] für [!DNL Microso
 
 1. (Optional) Wenn der [!DNL Workfront]-Administrator benutzerdefinierte Formulare an die Anfrage-Warteschlange angehängt hat, geben Sie die Informationen in den Feldern ein, die auf den benutzerdefinierten Formularen verfügbar sind.
 1. Die benutzerdefinierten Formulare werden unten in der neuen Anfrage angezeigt.
-1. Klicken Sie **[!UICONTROL Senden]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**.
 
    Die Anfrage wird in [!DNL Workfront] in der angegebenen Anfragewarteschlange angezeigt. Sie erhalten eine Bestätigung, dass die Anfrage erfolgreich gesendet wurde.
 
 ## [!DNL Workfront] Anfragen anzeigen, die Sie in [!DNL Microsoft Teams] gesendet haben
 
-1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf]** Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
+1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in]** auf [!DNL Microsoft Teams] Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
 
 1. Klicken Sie in der angezeigten Liste auf **[!DNL Workfront]** .
 1. Klicken Sie auf die **[!UICONTROL Anfragen]**.

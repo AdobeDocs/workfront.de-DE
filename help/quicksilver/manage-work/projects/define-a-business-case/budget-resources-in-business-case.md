@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: Budgetressourcen im Business Case
 description: Im Rahmen der Ressourcenplanung können Sie die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen. Weitere Informationen zum Erstellen eines Business-Case finden Sie unter Erstellen eines Business-Case für ein Projekt .
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

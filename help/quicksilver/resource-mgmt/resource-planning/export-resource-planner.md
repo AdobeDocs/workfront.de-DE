@@ -6,10 +6,10 @@ description: Sie können Informationen aus jeder Ansicht des Ressourcenplaners i
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 5%
 
 ---
 
@@ -25,36 +25,32 @@ Sie können Informationen aus jeder Ansicht des Ressourcenplaners in eine Excel-
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Licht oder höher</p>
-       <p>oder</p>
-       <p>Aktuell: Überprüfung oder höher</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Licht oder höher</p>
+       <p>Überprüfen oder höher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Anzeigen des Zugriffs auf oder höher für Projekte, Benutzer und Ressourcenmanagement</p> </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen des Zugriffs auf oder höher für Projekte, Benutzer und Ressourcenmanagement</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte</p> </td> 
+   <td>Objektberechtigungen</td> 
+   <td> <p>Anzeigen oder Erhöhen von Berechtigungen für Projekte</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +79,7 @@ Der **Planer** wird standardmäßig angezeigt.
    Im Folgenden finden Sie die maximalen Zeiträume, die Sie exportieren können:
 
    * 52 Wochen
-   * 36 Monaten
+   * 36 Monate
    * 12 Quartale
 
    **Zu exportieren auswählen**: Je nach ausgewählter Ansicht können Sie auswählen, ob Sie die Verfügbarkeits- und Budgetierungsinformationen für alle auf dem Bildschirm aufgeführten Objekte oder für bestimmte Objekte exportieren möchten.
@@ -103,7 +99,7 @@ Sie können auswählen, ob die folgenden Informationen exportiert werden sollen:
 
    * Wählen Sie in der Rollenansicht die zu exportierende Option aus:
 
-      * Funktionen
+      * Rollen
       * Aufgabengebiete und Projekte
       * Alles (dies ist die Standardoption)
 

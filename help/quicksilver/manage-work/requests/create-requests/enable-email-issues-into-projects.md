@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Benutzern die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt zu senden
 description: Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme per E-Mail hinzufügen können.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,18 @@ Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme p
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Mitwirkender oder höher</p>
-   Oder
-   <p>Aktuell: Anforderung oder höher</p>
+   <td> <p>Mitwirkender oder höher</p>
+   <p>Anfrage oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +76,7 @@ Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren,
 >* Workfront ermöglicht eine eindeutige E-Mail pro Anfrage-Warteschlange für alle Cluster. Wenn Sie Ihre Anfrage-Warteschlange deaktivieren, behalten Sie die von Ihnen erstellte E-Mail-Adresse so lange bei, wie sie sich noch im Feld Eingangs-E-Mail-Adresse befindet. Wenn Sie die Verwendung der Eingangs-E-Mail einstellen möchten, müssen Sie sie aus dem Feld Eingangs-E-Mail löschen, damit sie für die zukünftige Verwendung verfügbar ist.
 >
 >* Wenn die Anfrage-Warteschlange mehrere Warteschlangenthemen oder Themengruppen enthält, wählt Workfront nach dem Zufallsprinzip das Warteschlangenthema aus, an das die per E-Mail gesendeten Anfragen gesendet werden, wodurch E-Mail gesendete Anfragen schwer zu verwalten sind.
->  &#x200B;>Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
+>  >Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
 
 1. Navigieren Sie zu dem Projekt, das Sie aktivieren möchten, um Probleme per E-Mail zu empfangen.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.

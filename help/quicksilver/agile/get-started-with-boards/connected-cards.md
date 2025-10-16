@@ -6,10 +6,10 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 0%
+source-wordcount: '1430'
+ht-degree: 1%
 
 ---
 
@@ -40,21 +40,18 @@ Um verbundene Karten mit Workfront zu synchronisieren, klicken Sie auf das Menü
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td>
-   <p>Neu: Mitwirkender oder höher</p>
-   <p>Oder</p>
-   <p>Aktuell: Anforderung oder höher</p>
- </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">Konfigurationen der Zugriffsebene</td>
@@ -63,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr>
    <td role="rowheader">Objektberechtigungen</td>
    <td><p>Berechtigung zum Anzeigen oder Erhöhen der Berechtigungen für die Aufgabe oder das Problem von Workfront</p>
-   <p><strong>Hinweis:</strong> Benutzer mit der Berechtigung Anzeigen für eine Aufgabe oder ein Problem können keine Aktion auf Karten ausführen, die mit der Aufgabe oder dem Problem verbunden sind, einschließlich des Verschiebens der Karte in eine andere Spalte auf der Pinnwand. Benutzer anzeigen können die Karte nur öffnen, um ihre Eigenschaften anzuzeigen und die verbundene Aufgabe oder das verbundene Problem zu öffnen. Um zusätzlichen Zugriff anzufordern, öffnen Sie die Aufgabe oder das Problem und fordern Sie dort Zugriff an.</td>
+</td>
   </tr>
  </tbody> 
 </table>
@@ -87,7 +84,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >* In den Suchergebnissen sind nur Objekte verfügbar, für die Sie über Berechtigungen verfügen. Wenn ein Element abgeblendet ist, wurde es der Pinnwand bereits hinzugefügt.
    >* Wenn Sie nach **[!UICONTROL Projekte in meinem Besitz]** oder **[!UICONTROL Projekte in]** filtern, werden Projekte, die dem Status „Abgeschlossen“, „Inaktiv“ oder „Abgelehnt“ entsprechen, nicht einbezogen. Sie können mit dem Filter **[!UICONTROL Alle]** weiterhin nach diesen Projekten suchen.
 
-1. Klicken Sie **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![Nach Aufgabe oder Problem zum Verbinden suchen](assets/boards-tasksissues-350x94.png)
 
@@ -133,7 +130,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td><p>Die Anzahl der Stunden, die die Karte ausgefüllt werden soll.</p><p>Durch Ändern der Schätzung wird auch der Wert der Story-Punkte auf dem verbundenen [!DNL Workfront] geändert.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Zuweisungen]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL-Zuweisungen]</strong></td>
       <td><p>Um der Karte weitere Personen oder ein Team zuzuweisen, klicken Sie auf <strong>[!UICONTROL Zuweisung hinzufügen]</strong> und geben Sie einen Namen in das Suchfeld ein. Wählen Sie ihn dann aus, wenn er in der Ergebnisliste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen. Auf einer verbundenen Karte ist nur ein Team-Arbeitsauftrag zulässig.</p>
       <p>Alle ausgewählten Bevollmächtigten werden auch der Aufgabe oder dem Problem in [!DNL Workfront] zugewiesen.</p></td>
      </tr>
@@ -160,7 +157,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <p>Der Zähler oben in der Checkliste zeigt die Anzahl der abgeschlossenen Elemente und die Gesamtzahl der Elemente an.</p> <p>Weitere Informationen zu Checklistenelementen finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Verwalten von Checklistenelementen auf Karten</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Dokumente]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL-Dokumente]</strong></td>
       <td>Bewegen Sie bei einem vorhandenen Dokument den Mauszeiger über die Dokumentminiaturansicht und klicken Sie auf <strong>Vorschau</strong>, um die Datei im Browser anzuzeigen, oder auf <strong>Herunterladen</strong>, um die Datei auf Ihren Computer herunterzuladen. Ein neues Dokument finden Sie unter <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Dokumente auf Karten hinzufügen</a>.</td>
      </tr>
      <tr>
@@ -204,11 +201,11 @@ So trennen Sie die Verbindung auf Kartenebene:
 
 ## Konvertieren einer Ad-hoc-Karte in eine verbundene Karte
 
-Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [&#x200B; unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [ unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Rufen Sie die Pinnwand auf und öffnen Sie die Ad-hoc-Karte.
 1. Überprüfen Sie den Namen und die Beschreibung auf der Karte. Sie werden zu der Aufgabe oder dem Problem hinzugefügt, die bzw. das Sie in [!DNL Workfront] erstellen.
-1. Klicken [!UICONTROL &#x200B; im Bereich &quot;]&quot; der Kartendetails auf **[!UICONTROL Mit Workfront verbinden]**.
+1. Klicken [!UICONTROL  im Bereich &quot;]&quot; der Kartendetails auf **[!UICONTROL Mit Workfront verbinden]**.
 1. Wählen Sie im Fenster [!UICONTROL Karte verbinden] aus, ob Sie eine Aufgabe oder ein Problem erstellen möchten.
 1. Suchen Sie nach einem Projekt und wählen Sie es aus, dem die Aufgabe oder das Problem hinzugefügt werden soll.
 
@@ -229,7 +226,7 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
 
 Sie müssen über die richtigen Berechtigungen verfügen, um Stunden für die verbundene Aufgabe oder das verbundene Problem zu protokollieren.
 
-Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im Bereich [!UICONTROL Konfigurieren] unter &quot;[!UICONTROL &quot; &#x200B;]. Weitere Informationen finden Sie unter [Anpassen der auf einer Karte angezeigten Felder](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im Bereich [!UICONTROL Konfigurieren] unter &quot;[!UICONTROL &quot; ]. Weitere Informationen finden Sie unter [Anpassen der auf einer Karte angezeigten Felder](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Geben Sie die Anzahl der Stunden für die Aufgabe oder das Problem ein.
 1. Wählen Sie einen [!UICONTROL Stundentyp] aus dem Dropdown-Menü aus, wenn er sich von der Standardeinstellung unterscheidet.

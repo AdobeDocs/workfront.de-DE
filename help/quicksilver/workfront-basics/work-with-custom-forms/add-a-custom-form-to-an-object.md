@@ -7,9 +7,9 @@ description: Sie können ein vorhandenes benutzerdefiniertes Formular zu jedem d
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Sie können ein vorhandenes benutzerdefiniertes Formular zu jedem der unten aufg
 * Gruppen
 * Wiederholungen
 * Ausgaben
-* Abrechnungs-Datensätze
+* Abrechnungseinträge
 
 Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen, für die das Formular erstellt wurde.
 
@@ -41,38 +41,64 @@ Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen,
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschriebenen Aktionen durchzuführen:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Adobe Workfront-Lizenz</td> 
+  <td> <p>Mitwirkender oder höher</p>
+ <p>Anfrage oder höher</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf die Objekte bearbeiten, für die Sie benutzerdefinierte Formulare verwalten</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Verwalten Sie Berechtigungen für das Objekt, für das Sie ein benutzerdefiniertes Formular anhängen möchten.</p> <p>Anzeigen von oder höhere Berechtigungen für das benutzerdefinierte Formular mit der Berechtigung <b>An benutzerdefinierte Daten anhängen</b> (Projekte, Aufgaben und Probleme).</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront-Lizenz</td> 
-  <td> <p>Neu: Mitwirkender oder höher </p>
- <p>oder</p> 
-<p>Aktuell: Anforderung oder höher </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf die Objekte bearbeiten, für die Sie benutzerdefinierte Formulare verwalten</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten Sie Berechtigungen für das Objekt, für das Sie ein benutzerdefiniertes Formular anhängen möchten.</p> <p>Anzeigen von oder höhere Berechtigungen für das benutzerdefinierte Formular mit der Berechtigung <b>An benutzerdefinierte Daten anhängen</b> (Projekte, Aufgaben und Probleme). Weitere Informationen finden Sie unter <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a>.</p> <p>Wichtig: Wenn Sie keine Planlizenz mit administrativem Zugriff auf benutzerdefinierte Forms haben, müssen Sie bestimmte Berechtigungen haben, um zumindest das benutzerdefinierte Formular anzuzeigen, wie in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Freigeben eines benutzerdefinierten Formulars</a> beschrieben. Diese Berechtigungen müssen Ihnen auch dann gewährt werden, wenn das Formular systemweit sichtbar ist. </p> <p>Weitere Informationen zum Anfordern von Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Voraussetzungen
 
@@ -88,7 +114,7 @@ Sie haben zwei Möglichkeiten, um ein benutzerdefiniertes Formular zu einem Obje
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt durch Bearbeiten des -Objekts {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
 1. Klicken Sie **Benutzerdefinierte Forms** > **Forms hinzufügen** und wählen Sie dann aus dem Dropdown-Menü bis zu 10 Formulare aus.
 
 1. (Optional) Aktualisieren Sie die Informationen in den bearbeitbaren Feldern im benutzerdefinierten Formular.
@@ -100,7 +126,7 @@ Sie haben zwei Möglichkeiten, um ein benutzerdefiniertes Formular zu einem Obje
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt aus dem Bereich Details {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie im linken Bedienfeld **Abschnitt**`<Object type>` . Klicken Sie beispielsweise auf **Projektdetails**, um einem Projekt benutzerdefinierte Formulare hinzuzufügen, oder auf **Problemdetails**, um einem Problem benutzerdefinierte Formulare hinzuzufügen.
+1. Klicken Sie im linken Bedienfeld **`<Object type>`Abschnitt** . Klicken Sie beispielsweise auf **Projektdetails**, um einem Projekt benutzerdefinierte Formulare hinzuzufügen, oder auf **Problemdetails**, um einem Problem benutzerdefinierte Formulare hinzuzufügen.
 1. Klicken Sie oben rechts **das Feld** Benutzerdefiniertes Formular hinzufügen“ und wählen Sie dann bis zu 10 benutzerdefinierte Formulare aus der angezeigten Liste aus.
 
    Wenn das Formular Pflichtfelder enthält (mit einem roten Sternchen gekennzeichnet), müssen Sie diese derzeit nicht ausfüllen.
@@ -132,7 +158,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Mehrere Objekte in der Liste auswählen.
 
-1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
    Oder
 

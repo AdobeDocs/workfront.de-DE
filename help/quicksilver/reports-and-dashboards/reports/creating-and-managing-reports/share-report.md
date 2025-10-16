@@ -6,10 +6,10 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 0%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -29,43 +29,35 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über Folgendes verfügen, um Objekte freizugeben:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-      <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Licht oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Überprüfen oder höher</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Leicht</p>
+      <p>Überprüfung</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards, Kalender oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher im Bericht</p></td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für den Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +84,7 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
 
    Oder
 
-   Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >**&#x200B;**Freigabe**.
+   Klicken Sie auf den Namen eines Berichts und dann auf **Berichtsaktionen >****Freigabe**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 
@@ -106,11 +98,11 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigen</td> 
-      <td> <p>Ermöglicht es dem Empfänger, den Bericht im Bereich <strong>Berichte</strong> anzuzeigen und auszuführen.</p> <p>Sie können auf <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob die Benutzerin bzw. der Benutzer sie für </strong> im System <strong>freigeben“ kann.</p> </td> 
+      <td> <p>Ermöglicht es dem Empfänger, den Bericht im Bereich <strong>Berichte</strong> anzuzeigen und auszuführen.</p> <p>Sie können auf <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob die Benutzerin bzw. der Benutzer sie für <strong> im System </strong>freigeben“ kann.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwalten</td> 
-      <td> <p>Ermöglicht dem Empfänger vollen Bearbeitungszugriff auf den Bericht.</p> <p>Sie können auf <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob der/die Benutzende den Bericht aus dem System <strong>löschen</strong> und für </strong> im System <strong>freigeben können soll.</p> </td> 
+      <td> <p>Ermöglicht dem Empfänger vollen Bearbeitungszugriff auf den Bericht.</p> <p>Sie können auf <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob der/die Benutzende den Bericht aus dem System <strong>löschen</strong> und für <strong> im System </strong>freigeben können soll.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -132,6 +124,6 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
 
      >[!NOTE]
      >
-     >Wenn für den Bericht eine Eingabeaufforderung vorhanden ist und Sie ihn öffentlich freigeben, können Benutzende, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird ohne Eingabeaufforderung angezeigt, es sei denn, der Benutzer meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Wenn für den Bericht eine Eingabeaufforderung vorhanden ist und Sie ihn öffentlich freigeben, können Benutzende, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird ohne Eingabeaufforderung angezeigt, es sei denn, der Benutzer meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. Klicken Sie auf **Speichern**.

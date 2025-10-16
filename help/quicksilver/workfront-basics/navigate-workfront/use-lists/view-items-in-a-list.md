@@ -5,10 +5,10 @@ description: Sie können Listen von -Objekten in anzeigen [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 0%
+source-wordcount: '2275'
+ht-degree: 1%
 
 ---
 
@@ -31,28 +31,22 @@ Im Folgenden finden Sie einige Merkmale von Listen in [!DNL Workfront]:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-    <p>Neu:</p>
-   <ul><li><p>Mitwirkender oder höher </p></li>
-   </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Anfrage oder höher</p></li>
-    </ul></td> 
+   <p>Mitwirkender oder höher</p>
+   <p>Anfrage oder höher</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -65,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,7 +108,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>[!DNL Workfront] auflisten</strong></th> 
+   <th><strong>[!DNL Workfront] list</strong></th> 
    <th><strong>Speicherort der Objektliste</strong></th> 
   </tr> 
  </thead> 
@@ -138,7 +132,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Projektliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL Portfolio auswählen] &gt;[!UICONTROL Projekte]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL Portfolio auswählen] &gt;[!UICONTROL Programme] &gt;[!UICONTROL Programm auswählen] &gt;[!UICONTROL Projekte]</p> </li> 
     </ul> </td> 
@@ -193,10 +187,10 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Dokumente</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL Portfolio auswählen] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL Portfolio auswählen] &gt;[!UICONTROL Programme] &gt;[!UICONTROL Programm auswählen] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL-Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL Aufgabe auswählen] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL select] ein Projekt &gt; [!UICONTROL Probleme] &gt;[!UICONTROL Problem auswählen] &gt; [!UICONTROL Dokumente]</p> </li> 
     </ul> </td> 
@@ -233,7 +227,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Ausgabenliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt; Projekt auswählen &gt;[!UICONTROL -Ausgaben]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL] Projekt auswählen &gt;[!UICONTROL-Ausgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL Projekt auswählen] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL Aufgabe auswählen] &gt;[!UICONTROL Ausgaben]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -241,7 +235,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt; Projekt auswählen</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Projekt auswählen</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL Projekt auswählen] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL Aufgabe auswählen] &gt;[!UICONTROL Stunden]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL select] ein Projekt &gt;[!UICONTROL Probleme] &gt;[!UICONTROL select] ein Problem &gt;[!UICONTROL Stunden]</p> </li>
     </ul> </td> 
@@ -319,11 +313,11 @@ Eine Liste umfasst die folgenden Elemente:
    <td> <p>Filter verhindern basierend auf den von Ihnen angegebenen Kriterien unnötige Informationen aus einer Liste. </p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filter - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL -Ansicht]</strong></td> 
+   <td><strong>[!UICONTROL-Ansicht]</strong></td> 
    <td> <p>In Ansichten wird festgelegt, welche Felder (Spalten) auf dem Bildschirm angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL -Gruppierung]</strong></td> 
+   <td><strong>[!UICONTROL-Gruppierung]</strong></td> 
    <td> <p>Gruppierungen trennen die Objekte auf der Liste in Bereiche basierend auf den von Ihnen angegebenen Kriterien.</p> <p>Beispielsweise können die Probleme in einer Liste in Abschnitten nach Status oder Priorität angezeigt werden.</p> <p>In einer Standardgruppierung können bis zu drei Ebenen von Gruppierungen vorhanden sein. Wenn Sie im Textmodus eine Gruppierung konfigurieren, können Sie eine vierte Ebene hinzufügen.</p> <p>Weitere Informationen zu Gruppierungen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungen - Übersicht in [!DNL Adobe Workfront]</a>.</p> <p>Weitere Informationen zum Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +346,7 @@ Sie können die folgenden Aktionen in einer Liste abschließen:
  <thead> 
   <tr> 
    <th><strong>Aktion</strong></th> 
-   <th><strong>Informationen</strong></th> 
+   <th><strong>Information</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -377,7 +371,7 @@ Sie können die folgenden Aktionen in einer Liste abschließen:
    <td> <p>Wenden Sie einen Schnellfilter an, um nur Elemente zu finden, die für Sie wichtig sind, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.</p> <p><b>WICHTIG:</b></p> <p> Sie können Elemente, die ein Suchwort enthalten, mithilfe des Schnellfilters finden, unabhängig davon, ob dieses Element auf Ihrem Bildschirm sichtbar ist oder angezeigt wird, nachdem Sie zum unteren Seitenrand gescrollt haben. Wenn Sie die Suchfunktionen Ihres Browsers verwenden, können Sie nur Elemente finden, die bereits auf dem Bildschirm sichtbar sind. Wenn Ihre Liste mehrere Seiten umfasst, finden Schnellfilter nur die Elemente auf der aktuellen Seite.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Anwenden des Schnellfilters auf eine Liste</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Export</strong> </td> 
+   <td><strong>Exportieren</strong> </td> 
    <td> <p>Exportiert eine Objektliste aus [!DNL Workfront]. Wenn eine Liste mehr als 2.000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente auf einer Seite zu überprüfen.</p> <p>Weitere Informationen zum Exportieren einer Liste finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Liste exportieren</a>. Weitere Informationen zu Exportformaten und -beschränkungen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportieren von Daten</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -454,7 +448,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL -Export]</td> 
+   <td>[!UICONTROL-Export]</td> 
    <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
@@ -499,7 +493,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
+   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 

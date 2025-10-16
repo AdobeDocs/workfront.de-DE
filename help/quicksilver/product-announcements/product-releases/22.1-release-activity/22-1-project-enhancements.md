@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Sie können jetzt direkt nach der Auswahl, das Problem zu konvertieren, einfache
 
 Die neu gestaltete Benutzeroberfläche entspricht dem Erlebnis, wenn Sie ein Projekt aus einer Vorlage erstellen, die wir kürzlich ebenfalls aktualisiert haben.
 
-Weitere Informationen finden Sie unter [Konvertieren eines Problems in ein Projekt in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Weitere Informationen finden Sie unter [Problem in ein Projekt konvertieren](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Konvertieren von Problemen in Projekte mithilfe einer Vorlage aus Listen, Berichten und Dashboards
 

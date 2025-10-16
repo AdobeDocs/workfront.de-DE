@@ -6,16 +6,16 @@ description: Sie können eine Aufgabe oder ein Problem als „Erledigt“ markie
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
 # Markieren Sie ein Element als [!UICONTROL Fertig] im Bereich [!UICONTROL Startseite].
 
-Sie können eine Aufgabe oder ein Problem als „Erledigt“ markieren, wenn Sie die Aufgabe oder das Problem zugewiesen haben. Wenn Sie eine Aufgabe oder ein Problem als &quot;[!UICONTROL &quot; &#x200B;], wird der Status der Aufgabe oder des Problems in &quot;[!UICONTROL &quot; &#x200B;].
+Sie können eine Aufgabe oder ein Problem als „Erledigt“ markieren, wenn Sie die Aufgabe oder das Problem zugewiesen haben. Wenn Sie eine Aufgabe oder ein Problem als &quot;[!UICONTROL &quot; ], wird der Status der Aufgabe oder des Problems in &quot;[!UICONTROL &quot; ].
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Sie können eine Aufgabe oder ein Problem als „Erledigt“ markieren, wenn Sie
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,25 +34,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL Arbeit] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td> 
+   <p>Standard</p>
+   <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Aufgaben und Probleme</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Aufgaben und Probleme</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,8 +62,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Arbeit** hinzuzufügen.
-1. Suchen Sie das Arbeitselement und klicken Sie dann **[!UICONTROL Arbeitselement auf]**&#x200B;Als abgeschlossen markieren“.
-Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden &#x200B;](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
+1. Suchen Sie das Arbeitselement und klicken Sie dann **[!UICONTROL Arbeitselement auf]**Als abgeschlossen markieren“.
+Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden ](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
    ![Meine Arbeit als erledigt markieren](assets/my-work-done.png)
 
 
@@ -76,9 +78,9 @@ Sie können ein Arbeitselement im Widget „Meine Aufgaben“ und „Meine Probl
 1. Klicken **oben** Zusammenfassungsbereich auf „Als erledigt markieren“.
 
 
-## Verstehen der Optionen der Schaltfläche &quot;[!UICONTROL &quot; &#x200B;]
+## Verstehen der Optionen der Schaltfläche &quot;[!UICONTROL &quot; ]
 
-Standardmäßig wird durch Klicken auf [!UICONTROL Fertig] auf einem Arbeitselement der Status dieses Elements in &quot;[!UICONTROL &#x200B; abgeschlossen] (für Aufgaben) oder [!UICONTROL Gelöst] (für Probleme) geändert.
+Standardmäßig wird durch Klicken auf [!UICONTROL Fertig] auf einem Arbeitselement der Status dieses Elements in &quot;[!UICONTROL  abgeschlossen] (für Aufgaben) oder [!UICONTROL Gelöst] (für Probleme) geändert.
 
 Ihr [!DNL Adobe Workfront] kann anpassen, welche Status mit der Schaltfläche [!UICONTROL Fertig] verknüpft sind, und diese Anpassungen auf Ihr Haupt-Team anwenden.
 
@@ -100,9 +102,9 @@ Wenn Sie keinem Home-Team zugewiesen sind, wird der Standardstatus ausgewählt, 
 
 ### Schaltfläche [!UICONTROL Fertig], die mit mehreren Status verknüpft ist
 
-Wenn die [!UICONTROL Fertig]-Schaltfläche mit mehreren Status verknüpft ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. In diesem Szenario können Sie nicht einfach auf &quot;[!UICONTROL &quot; &#x200B;]. Sie müssen einen Status aus dem Dropdown-Menü auswählen. Wählen Sie den Status aus, der am besten zum Abschluss des Arbeitselements passt. Auf diese Weise ändern Sie den Status des Arbeitselements.
+Wenn die [!UICONTROL Fertig]-Schaltfläche mit mehreren Status verknüpft ist, zeigt die Schaltfläche das Wort **[!UICONTROL Fertig]** an, gefolgt von einem Dropdown-Menü. In diesem Szenario können Sie nicht einfach auf &quot;[!UICONTROL &quot; ]. Sie müssen einen Status aus dem Dropdown-Menü auswählen. Wählen Sie den Status aus, der am besten zum Abschluss des Arbeitselements passt. Auf diese Weise ändern Sie den Status des Arbeitselements.
 
-Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden [&#x200B; unter Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
+Informationen dazu, wie Sie mehrere Status mit der Schaltfläche [!UICONTROL Fertig] verknüpfen können, finden [ unter Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) und [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 ### Schaltfläche [!UICONTROL Fertig] für Elemente, die mehreren Ressourcen zugewiesen sind
 

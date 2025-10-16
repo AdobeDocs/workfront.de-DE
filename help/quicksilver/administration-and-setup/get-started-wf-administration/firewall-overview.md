@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Geben Sie dem Netzwerkadministrator die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Cluster</td> 
-   <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen</a>.</td> 
+   <td>Informationen zum Auffinden des Clusters Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Ihr Workfront-Plan</td> 
-   <td> <p>Informationen zum Auffinden des Plans Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Cluster- und Workfront-Plan Ihres Unternehmens anzeigen.</a></p> </td> 
+   <td role="rowheader">Ihr Workfront-Paket</td> 
+   <td> <p>Informationen zum Suchen des Pakets Ihres Unternehmens finden Sie unter <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Anzeigen des Clusters und Workfront-Pakets Ihres Unternehmens.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihre Domain</td> 
@@ -93,7 +93,7 @@ Geben Sie dem Netzwerkadministrator die folgenden Informationen:
 >
 >Wenn Sie eines dieser Produkte, Integrationen oder Funktionen zu einem späteren Zeitpunkt hinzufügen, müssen Sie sich an Ihren Netzwerkadministrator wenden, damit dieser die Zulassungsliste anpassen kann.
 
-### Cluster- und Workfront-Plan Ihres Unternehmens anzeigen {#view-your-organization-s-cluster-and-workfront-plan}
+### Cluster- und Workfront-Paket Ihres Unternehmens anzeigen {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Geben Sie dem Netzwerkadministrator die folgenden Informationen:
 
    ![Cluster suchen](assets/locate-cluster.png)
 
-1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
+1. Um Ihr Workfront-Paket anzuzeigen, wählen Sie **Lizenzen** aus.
 
-   Der Plan wird oben rechts auf der Seite angezeigt.
+   Das Paket wird oben rechts auf der Seite angezeigt.
 
    ![Plan suchen](assets/locate-plan.png)

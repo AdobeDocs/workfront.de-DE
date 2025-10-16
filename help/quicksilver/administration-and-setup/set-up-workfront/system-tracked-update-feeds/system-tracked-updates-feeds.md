@@ -4,13 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: 'Vom System nachverfolgte Aktualisierungs-Feeds: Artikelindex'
-description: Adobe Workfront protokolliert die Aktivitäten, die an bestimmten Objekten stattfinden, im Bereich [!UICONTROL Updates]. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Administratoren können im Abschnitt „Aktualisierungen“ festlegen, welche Änderungen [!UICONTROL &#x200B; System &#x200B;] soll.
+description: Adobe Workfront protokolliert die Aktivitäten, die an bestimmten Objekten stattfinden, im Bereich [!UICONTROL Updates]. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Administratoren können im Abschnitt „Aktualisierungen“ festlegen, welche Änderungen [!UICONTROL  System ] soll.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Vom System nachverfolgte Updates: Artikelindex
 
-<!--Audited: April, 2024-->
+<!--Audited: 04/2024-->
 
-Adobe Workfront protokolliert die Aktivitäten für bestimmte Objekte automatisch im Abschnitt [!UICONTROL Updates] als Systemaktualisierung. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Admins können im Abschnitt [!UICONTROL Updates“ festlegen, welche Änderungen das System &#x200B;] soll.
+Adobe Workfront protokolliert die Aktivitäten für bestimmte Objekte automatisch im Abschnitt [!UICONTROL Updates] als Systemaktualisierung. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Admins können im Abschnitt [!UICONTROL Updates“ festlegen, welche Änderungen das System ] soll.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

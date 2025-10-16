@@ -6,9 +6,9 @@ description: Mithilfe von Filtern können Sie festlegen, welche Informationen im
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,32 @@ Mithilfe von Filtern können Sie festlegen, welche Informationen im Ressourcenpl
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+  <tr> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Licht oder höher</p>
-       <p>oder</p>
-       <p>Aktuell: Überprüfung oder höher</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Licht oder höher</p>
+       <p>Überprüfen oder höher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Anzeigen des Zugriffs auf oder höher für Projekte, Benutzer und Ressourcenmanagement</p> </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen des Zugriffs auf oder höher für Projekte, Benutzer und Ressourcenmanagement</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte</p> </td> 
+   <td>Objektberechtigungen</td> 
+   <td> <p>Anzeigen oder Erhöhen von Berechtigungen für Projekte</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -282,7 +278,7 @@ So entfernen Sie einen Filter:
 
    ![Filter löschen](assets/rp-filter-options---delete-350x154.png)
 
-1. Klicken **&#x200B;**&#x200B;im Dialogfeld **Filter löschen** auf Löschen.
+1. Klicken **** im Dialogfeld **Filter löschen** auf Löschen.
 
 1. Der Filter wird gelöscht und aus dem Ressourcenplaner entfernt.
 
@@ -296,7 +292,7 @@ Sie können einen Filter, den Sie erstellt haben oder auf den Sie Zugriff haben,
 
 Informationen zum Standardfilter finden Sie im Abschnitt [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel.
 
-Informationen zum Duplizieren von Filtern finden Sie [&#x200B; Abschnitt „Duplizieren &#x200B;](#duplicate-a-filter) Filters“ in diesem Artikel.
+Informationen zum Duplizieren von Filtern finden Sie [ Abschnitt „Duplizieren ](#duplicate-a-filter) Filters“ in diesem Artikel.
 
 1. Wechseln Sie zum Ressourcenplaner.
 1. Erweitern Sie das **Filter**-Dropdown-Menü.
@@ -314,7 +310,7 @@ Informationen zum Duplizieren von Filtern finden Sie [&#x200B; Abschnitt „Dupl
 1. Geben **in das Feld „Ressourcenplaner-Filterzugriff erteilen an** die Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie den Filter freigeben möchten.
 1. Wählen Sie aus den folgenden Berechtigungsebenen aus:
 
-   * Anzeigen
+   * Ansicht
    * Verwalten
 
      Informationen zu Berechtigungen in Workfront finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)

@@ -6,10 +6,10 @@ description: Sie können mehrere Dateien in einem mehrseitigen Korrekturabzug ko
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '602'
+ht-degree: 1%
 
 ---
 
@@ -21,32 +21,32 @@ Sie können mehrere Dateien in einem mehrseitigen Korrekturabzug kombinieren. Re
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td>
+   <p>Standard</p>
+    <p>Arbeit oder Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Lizenz oder welches Proof-Berechtigungsprofil Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ So erstellen Sie einen mehrseitigen Korrekturabzug:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, in dem/der Sie den Korrekturabzug anzeigen möchten, und klicken Sie dann auf den Abschnitt **Dokumente**.
 1. Klicken Sie **Neu hinzufügen** > **Testversand** .
-1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [&#x200B; Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
+1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [ Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
 
    >[!NOTE]
    >
@@ -78,14 +78,14 @@ So erstellen Sie einen mehrseitigen Korrekturabzug:
    * Bei einem einfachen Korrekturabzug können Sie so viele Prüfer hinzufügen, wie Sie möchten, aber sie sind nicht in Phasen unterteilt. Alle Reviewer, die Sie hinzufügen, können sofort nach der Erstellung auf den Korrekturabzug zugreifen. Informationen zum Konfigurieren eines einfachen Korrekturabzugs finden Sie unter [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
    * Mit einem automatisierten Korrekturabzug wechselt der Korrekturabzug von Schritt zu Schritt und Adobe Workfront benachrichtigt jeden Benutzer, wenn er an der Reihe ist, ihn zu überprüfen. Informationen zum Konfigurieren eines automatisierten Korrekturabzugs finden Sie unter [Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-## Aspekte {#considerations}
+## Zu beachten {#considerations}
 
 Beachten Sie beim Kombinieren von Dateien zu einem einzigen Korrekturabzug Folgendes:
 
 * Sie können bis zu 500 separate Dateien hochladen.
-* Sie können statische Dateien verschiedener Typen (z. B. PDF, JPG, DOC, PPT, EXC) bis zu insgesamt 2.000 Seiten kombinieren.
+* Sie können statische Dateien verschiedener Typen (z. B. PDF, JPG, DOC, PPT, EXC) mit bis zu insgesamt 2.000 Seiten kombinieren.
 * Sie können statische Web-Aufnahmen kombinieren.
-* Sie können GIF-Dateien kombinieren. Animierte GIF werden jedoch als Statikdateien verarbeitet.
+* Sie können GIF-Dateien kombinieren. Animierte GIFs werden jedoch als statische Dateien verarbeitet.
 * Es ist nicht möglich, AV-Dateien und interaktive Web-Aufnahmen zu kombinieren.
 * Das Miniaturbild des Korrekturabzugs wird von der ersten Seite des Korrekturabzugs übernommen (siehe [Verwalten von Korrekturabzugsdetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 * Sie können die Namen der Dateien, die zum Erstellen des Korrekturabzugs kombiniert wurden, auf der Seite mit den Korrekturabzugsdetails überprüfen. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).

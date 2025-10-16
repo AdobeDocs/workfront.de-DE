@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Beachten Sie die Parameter, die übergeben werden:
 
 ## Code gegen Token austauschen
 
-Um den Autorisierungs-Code gegen ein Zugriffstoken einzutauschen, übergeben Sie ihn zusammen mit dem `code_verifier` an den `/token`-Endpunkt Ihres Autorisierungsservers.
+Um den Autorisierungs-Code gegen ein Zugriffstoken einzutauschen, übergeben Sie ihn zusammen mit dem `/token` an den `code_verifier`-Endpunkt Ihres Autorisierungsservers.
 
 >[!INFO]
 >
@@ -154,7 +154,7 @@ Beachten Sie die Parameter, die übergeben werden:
 
 * `code` ist der Autorisierungs-Code, den Sie vom Endpunkt /authorize erhalten haben.
 
-* `code_verifier` ist der PKCE-Code Verifier, den Ihre App in &quot;[&#x200B; des Korrekturabzugsschlüssels für den Code-Austausch“ &#x200B;](#Create).
+* `code_verifier` ist der PKCE-Code Verifier, den Ihre App in &quot;[ des Korrekturabzugsschlüssels für den Code-Austausch“ ](#Create).
 
 * `client_id` identifiziert Ihren Client und muss mit dem in OAuth2 vorregistrierten Wert übereinstimmen.
 
@@ -190,7 +190,7 @@ Sie können Ihr Zugriffs-Token mit einem API-Aufruf ähnlich dem folgenden valid
 
 ## Aktualisierungstoken anfordern
 
-Um ein Aktualisierungs-Token anzufordern, können Sie einen POST-Aufruf an die API durchführen, ähnlich wie im Folgenden beschrieben:
+Um ein Aktualisierungs-Token anzufordern, können Sie einen POST-Aufruf an die API durchführen, ähnlich dem folgenden:
 
 >[!INFO]
 >

@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Risiken in Projekten erstellen und bearbeiten
 description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Sie können Projektrisiken im Rahmen der Erstellung eines Business Case eines Projekts oder über die Registerkarte Risiken aufzeichnen. Sie können Risiken zu Projekten und Vorlagen hinzufügen. Sie können keine Risiken mit Aufgaben oder Problemen verknüpfen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirke
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Aktuelle Pläne:</p>
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <ul><li>Beliebiger Plan, um Risiken im Risikobereich des Projekts hinzuzufügen</p></li>
    <li><p>Prime oder höher, um Risiken zum Business Case des Projekts hinzuzufügen</p></li></ul>
-   <p>Legacy-Pläne: Beliebiger Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td> <p>Aktuell: Standard </p>
-   <p>Legacy: Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
@@ -67,7 +63,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

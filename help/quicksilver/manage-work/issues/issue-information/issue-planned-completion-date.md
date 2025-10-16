@@ -6,7 +6,7 @@ description: Das geplante Abschlussdatum einer Anfrage ist das Datum, bis zu dem
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -15,11 +15,13 @@ ht-degree: 0%
 
 # Übersicht über das geplante Abschlussdatum der Anfrage
 
+<!--Audited: 08/2025-->
+
 Das geplante Abschlussdatum einer Anfrage ist das Datum, bis zu dem die Anfrage voraussichtlich abgeschlossen wird.
 
 Sie können entweder das geplante Abschlussdatum eines Problems angeben oder es je nach bestimmten Kriterien Adobe Workfront überlassen, es zu berechnen.
 
-Die geplanten Abschlussdaten von Problemen wirken sich nicht auf das geplante Abschlussdatum des Projekts aus. Nur die geplanten Abschlussdaten von Vorgängen wirken sich auf das geplante Abschlussdatum des Projekts aus. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+Die geplanten Abschlussdaten von Problemen wirken sich nicht auf das geplante Abschlussdatum des Projekts aus. Nur die geplanten Abschlussdaten von Vorgängen wirken sich auf das geplante Abschlussdatum des Projekts aus. Weitere Informationen zum geplanten Abschlussdatum des Projekts finden Sie unter [Festlegen des geplanten Abschlussdatums ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >

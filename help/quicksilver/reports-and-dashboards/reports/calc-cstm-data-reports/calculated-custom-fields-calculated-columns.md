@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Berechnete benutzerdefinierte Felder im Vergleich zu berechneten Spalten
 description: Um mehrere Felder in Adobe Workfront zu aggregieren und diesen Aggregatwert in einem neuen Feld anzuzeigen, können Sie ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular oder eine berechnete Spalte in einer Ansicht erstellen.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%

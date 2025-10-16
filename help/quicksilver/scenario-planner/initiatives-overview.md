@@ -7,7 +7,7 @@ description: Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version ve
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -45,11 +45,6 @@ Beachten Sie beim Erstellen von Initiativen Folgendes:
 * Sie können mehrere Initiativen in einem Plan erstellen. Mit jeder Initiative können Sie eine allgemeine Strategie entwerfen, um die Arbeit in Ihrer Abteilung zu erledigen.
 * Sie können innerhalb eines Plans Initiativen priorisieren, um sicherzustellen, dass die wichtigste Initiative das meiste Budget und die meisten Ressourcen erhält.
 * Wenn Sie Initiativen in einem Plan erstellen, kann jeder, der diesen Plan anzeigt, auch alle Initiativen im Plan anzeigen.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * Sie können Initiativen veröffentlichen, um Projekte zu erstellen oder die mit ihnen verknüpften Projekte zu aktualisieren. Informationen zu Veröffentlichungsinitiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Finanzielle Informationen zu Initiativen
@@ -131,7 +126,7 @@ Sie können Initiativinformationen in Berichten anzeigen, wie in der folgenden T
    <td>Alle oben aufgeführten Informationen zur Initiative, (Aufgabengebiet)-ID, Projekt*, Projektzuweisung, geplante Stunden*, Aufgabengebiet-Stunden für die Initiative, (Aufgabengebiet)-Anzahl, alle Projektfelder einschließlich benutzerdefinierter Felder*</td> 
   </tr> 
   <tr> 
-   <td><p>[!UICONTROL -Projekt]*</p></td> 
+   <td><p>[!UICONTROL-Projekt]*</p></td> 
    <td> <p>Alle oben aufgeführten Informationen zur Initiative*</p> </td> 
   </tr> 
  </tbody> 

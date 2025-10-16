@@ -6,9 +6,9 @@ description: Mit dem [!UICONTROL Portfolio Optimizer] können Sie Ihre Projekte 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Mit dem [!UICONTROL Portfolio Optimizer] können Sie Ihre Projekte anhand ihrer 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -28,23 +28,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> Beliebig</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Packstück</td> 
+   <td> <p>Workfront Prime oder höher</p>
+      <p>Workflow-Prime oder höher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Neu: [!UICONTROL Standard] </p>
-   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Projekte und Portfolios</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Portfolios] und [!UICONTROL Projekte]</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio</p> <p>Mitwirken an oder höhere Berechtigungen für die Projekte</p> 
-   <p>Sie müssen über Verwaltungsberechtigungen für alle Projekte in der Liste verfügen, um „Projektpriorität festlegen<b> verwenden zu </b>.</p>
-    </td> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,9 +53,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Optimieren von Projekten in Portfolio Optimizer
 
-1. Öffnen Sie eine Portfolio und klicken Sie dann im linken **auf** Portfolio-Optimierung.
+1. Öffnen Sie eine Portfolio und klicken Sie dann im linken **[!UICONTROL auf]** Portfolio-Optimierung.
 
    Der [!UICONTROL Portfolio Optimizer] wird angezeigt.
 
@@ -68,7 +95,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Ändern Sie mithilfe des Gleitkreises die Optimierung einer der folgenden Kategorien:
 
    * **[!UICONTROL Niedrige Kosten]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit den niedrigsten [!UICONTROL geplanten Kosten] anzuzeigen.
-   * **[!UICONTROL Hohe Ausrichtung]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit der höchsten Ausrichtung, die auf der [!UICONTROL Scorecard“ &#x200B;], anzuzeigen.
+   * **[!UICONTROL Hohe Ausrichtung]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit der höchsten Ausrichtung, die auf der [!UICONTROL Scorecard“ ], anzuzeigen.
    * **[!UICONTROL Hoher Wert]**: Bewegen Sie den Schieberegler nach rechts, um Projekte mit einem höheren [!UICONTROL Nettowert]-Wert anzuzeigen.
    * **[!UICONTROL Niedriges Risiko/]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit dem niedrigsten Risiko/Gewinn-Verhältnis anzuzeigen.
    * **[!UICONTROL Hoher ROI]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit höherer Rentabilität anzuzeigen.

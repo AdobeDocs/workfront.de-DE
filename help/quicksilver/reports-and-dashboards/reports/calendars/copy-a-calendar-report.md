@@ -6,9 +6,9 @@ description: Wenn Sie einen Kalender erstellt haben, können Sie den Kalender ko
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ Wenn Sie außerdem [!UICONTROL Verwalten] Zugriff auf einen Kalender haben, dess
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!UICONTROL Berichte], [!UICONTROL Dashboards] und [!UICONTROL Kalender]</p></td> 
+   <td> <p> Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Manage] Zugriff auf den Kalenderbericht</td> 
+   <td>Zugriff auf den Kalenderbericht verwalten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,6 +69,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Alle Projekte und Kalendergruppierungen im ursprünglichen Kalender werden in der Kopie des Kalenders angezeigt. Nur Objekte, die durch Kalenderfilter platziert wurden, werden in den neu kopierten Kalender exportiert. Alle Ereignisse, die dem ursprünglichen Kalender manuell hinzugefügt wurden, müssen dem kopierten Kalender manuell hinzugefügt werden.
    >
-   >Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   >Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf **Umbenennen** neben dem Dropdown-Menü Kalender.

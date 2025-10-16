@@ -2,22 +2,45 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Zugriff [!DNL Adobe Workfront] von [!DNL Slack]
-description: Durch die  [!DNL Adobe Workfront]  von  [!DNL Slack]  können Sie auf  [!DNL Workfront]  Slack zugreifen oder bestimmte Aktionen  [!DNL Workfront]  einem Schrägstrich durchführen. Die Integration kann in jeder beliebigen  [!DNL Slack]  verwendet werden, einschließlich der Mobile [!DNL Slack] App.
+description: Durch die  [!DNL Adobe Workfront]  von  [!DNL Slack]  können Sie auf  [!DNL Workfront]  Slack zugreifen oder bestimmte Aktionen in  [!DNL Workfront]  einem Schrägstrich durchführen. Die Integration kann in jeder beliebigen  [!DNL Slack]  verwendet werden, einschließlich der Mobile [!DNL Slack] App.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1106'
 ht-degree: 1%
 
 ---
 
 # Zugriff auf [!DNL Adobe Workfront] von [!DNL Slack]
 
-Durch die Integration von [!DNL Adobe Workfront] mit [!DNL Slack] können Sie von [!DNL Slack] aus auf [!DNL Workfront] zugreifen oder bestimmte Aktionen in [!DNL Workfront] mit einem Schrägstrich durchführen. Die Integration kann aus jeder [!DNL Slack]-Umgebung verwendet werden, einschließlich der [!DNL Slack] Mobile App.
+Durch die Integration von [!DNL Adobe Workfront] mit [!DNL Slack] können Sie von [!DNL Workfront] aus auf [!DNL Slack] zugreifen oder bestimmte Aktionen in [!DNL Workfront] mit einem Schrägstrich durchführen. Die Integration kann aus jeder [!DNL Slack]-Umgebung verwendet werden, einschließlich der [!DNL Slack] Mobile App.
 
 Sie oder Ihr [!DNL Slack] müssen die [!DNL Workfront] App in Ihrer [!DNL Slack]-Instanz installieren, bevor Sie [!DNL Workfront] von [!DNL Slack] verwenden können. Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront für Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Beliebig</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Über Schrägstriche {#about-slash-commands}
 
@@ -33,14 +56,14 @@ Beachten Sie Folgendes, wenn Sie einen Schrägstrich in verwenden, [!DNL Slack] 
 
   Dies bedeutet, dass Ihr Befehl für die [!DNL Workfront] App vorgesehen ist. Die Befehle für [!DNL Workfront] funktionieren nur, wenn Sie die [!DNL Workfront] App bereits mit Ihrer [!DNL Slack]-Instanz konfiguriert haben.
 
-Eine Liste aller Befehle, die Sie [!DNL Workfront] von Slack ausführen können, finden Sie unter [Zugriff [!DNL Workfront] von einem Schrägstrich in [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
+Eine Liste aller Befehle, die Sie von Slack für [!DNL Workfront] ausführen können, finden Sie unter [Zugriff [!DNL Workfront]  von einem Schrägstrich in [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
 
 ## Anmelden bei [!DNL Workfront] von [!DNL Slack] {#log-in-to-workfront-from-slack}
 
-Wenn Sie einen Befehl in das Nachrichtenfeld auf Slack eingeben, werden Sie aufgefordert, sich zuerst bei [!DNL Workfront] anzumelden.\
-Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [&#x200B; Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
+Wenn Sie einen Befehl in das Nachrichtenfeld in Slack eingeben, werden Sie aufgefordert, sich zuerst bei [!DNL Workfront] anzumelden.\
+Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [ Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
 
-So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
+So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
 1. Melden Sie sich bei Ihrer [!DNL Slack] an.
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle ein:\
@@ -65,11 +88,11 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
 1. (Optional) Deaktivieren Sie alle [!DNL Workfront], die Sie in [!DNL Slack] nicht erhalten möchten.
 
-   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [&#x200B; Abschnitt „Konfigurieren &#x200B;](#configure-settings-configure-settings)&quot; in diesem Artikel
+   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [ Abschnitt „Konfigurieren ](#configure-settings-configure-settings)&quot; in diesem Artikel
 
 1. Navigieren Sie zurück zu Ihrem [!DNL Slack].
 
-   Sie sind von Ihrer [!DNL Slack]-Instanz aus bei [!DNL Workfront] angemeldet.
+   Sie sind von Ihrer [!DNL Workfront]-Instanz aus bei [!DNL Slack] angemeldet.
 
 ## Zugriff auf [!DNL Workfront] von [!DNL Slack]
 
@@ -78,7 +101,7 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
 ## Zugriff auf [!DNL Workfront] über einen Schrägstrich in [!DNL Slack] {#access-workfront-from-a-slash-command-in-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie unter [Anmelden bei [!DNL Workfront] von [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)
 
 1. Geben Sie in einem beliebigen Kanal den folgenden Befehl in das Feld Nachricht ein:
@@ -103,7 +126,7 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
      Fügt [!DNL Workfront] eine Aufgabe hinzu.
 
-     Weitere Informationen zum Hinzufügen von Aufgaben zu [!DNL Workfront] von Slack finden Sie im Abschnitt „Erstellen von Aufgaben aus [!DNL Slack]&quot; in [Erstellen von Aufgaben und Problemen aus [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     Weitere Informationen zum Hinzufügen von Aufgaben zu [!DNL Workfront] aus Slack finden Sie im Abschnitt „Erstellen von Aufgaben aus [!DNL Slack]&quot; in [Erstellen von Aufgaben und Problemen aus [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
 
    * `/wf add issue <Issue Name>`
 
@@ -160,10 +183,10 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
       * Firma
       * Hinweis \
 
-        Weitere Informationen zum Suchen in [!DNL Slack] finden Sie unter [Suchen nach [!DNL Adobe Workfront] Elementen auf Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+        Weitere Informationen zum Suchen in [!DNL Slack] finden Sie unter [Suchen nach [!DNL Adobe Workfront] Elementen in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
-     Meldet Sie von [!DNL Slack] aus bei [!DNL Workfront] an.
+     Meldet Sie von [!DNL Workfront] aus bei [!DNL Slack] an.
 
    * `/wf log out `
 
@@ -181,7 +204,7 @@ Zeigt eine vollständige Liste der Befehle für [!DNL Workfront] an.
    * `Visit Workfront Help`: Öffnet den Abschnitt [!UICONTROL Slack] auf der [!DNL Workfront]-Hilfeseite in einer neuen Browser-Registerkarte.
 
 
-1. (Optional) Um die Nachricht eines beliebigen Befehls zu löschen, bewegen Sie die Maus über die obere rechte Ecke der Slack-Nachricht mit dem Befehl und klicken Sie auf &#x200B;**[!UICONTROL Nachrichtenaktionen anzeigen]** und klicken Sie dann auf **[!UICONTROL Nachricht löschen]**.
+1. (Optional) Um die Nachricht eines beliebigen Befehls zu löschen, bewegen Sie den Mauszeiger über die rechte obere Ecke der Slack-Nachricht, die den Befehl enthält, und klicken Sie auf &#x200B;**[!UICONTROL Nachrichtenaktionen anzeigen]** und klicken Sie dann auf **[!UICONTROL Nachricht löschen]**.
 
 1. (Optional und bedingt) Klicken Sie auf **[!UICONTROL Löschen]** um zu bestätigen, dass Sie diese Nachricht löschen möchten.
 
@@ -205,7 +228,7 @@ Weitere Informationen zum Zugriff auf [!DNL Workfront] über einen freigegebenen
 
 1. Deaktivieren Sie die Auswahl aus den folgenden Optionen, um Ihre Einstellungen für Workfront zu deaktivieren:
 
-   * Deaktivieren Sie im Bereich **[!UICONTROL Allgemeine Einstellungen]** die Einstellung **[!UICONTROL Beim Einfügen einer [!DNL Workfront]-URL in einen [!DNL Slack]-Kanal zusätzliche Beschreibung, Fälligkeitsdatum oder Anforderernamen anzeigen]**&#x200B;, wenn Sie nicht möchten, dass [!DNL Slack] zusätzliche Informationen zu Ihren [!DNL Workfront]-Objekten hinzufügen, wenn Sie eine URL für das Objekt in [!UICONTROL Slack&rbrace; &#x200B;].
+   * Deaktivieren Sie im Bereich **[!UICONTROL Allgemeine Einstellungen]** die Einstellung **[!UICONTROL Beim Einfügen einer [!DNL Workfront]-URL in einen [!DNL Slack]-Kanal zusätzliche Beschreibung, Fälligkeitsdatum oder Anforderernamen anzeigen]**&#x200B; wenn Sie nicht möchten, dass [!DNL Slack] zusätzliche Informationen zu Ihren [!DNL Workfront]-Objekten hinzufügen, wenn Sie eine URL für das Objekt in [!UICONTROL Slack freigeben].
 
    * Deaktivieren Sie **[!UICONTROL Bereich &quot;]**&quot; die Benachrichtigungen, die Sie nicht mehr von Workfront erhalten möchten.\
 

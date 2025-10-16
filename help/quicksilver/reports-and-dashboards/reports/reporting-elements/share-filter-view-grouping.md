@@ -6,10 +6,10 @@ description: Sie können Filter, Ansichten und Gruppierungen freigeben, auf die 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1170'
+ht-degree: 2%
 
 ---
 
@@ -30,49 +30,43 @@ Wenn ein Filter, eine Ansicht oder eine Gruppierung für Sie freigegeben ist, k�
 
 Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung finden Sie in den folgenden Artikeln:
 
-* [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Übersicht über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Beliebig </p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Anfrage oder höher</p></li>
-         </ul>
+    <p>Mitwirkender oder höher</p>
+    <p>Anfrage oder höher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf Filter, Ansichten, Gruppierungen</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf Filter, Ansichten, Gruppierungen</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td><p>Anzeigen von oder höheren Berechtigungen mit Zugriff zum Freigeben für eine Ansicht, einen Filter oder eine Gruppierung</p></td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+    <td> <p>Anzeigen von oder höheren Berechtigungen mit Zugriff zum Freigeben für eine Ansicht, einen Filter oder eine Gruppierung</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -120,7 +114,7 @@ Freigeben von Filtern über die Standard-Builder-Oberfläche:
    </tbody>
    </table>
 
-1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
+1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
 
    ![Weitere Menüoptionen](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -136,7 +130,7 @@ Freigeben von Filtern über die Standard-Builder-Oberfläche:
 
 1. (Optional) Aktivieren oder deaktivieren Sie die zusätzlichen Berechtigungen für eine Entität, indem Sie einen der folgenden Schritte ausführen:
 
-   1. Klicken Sie **Anzeigen** und deaktivieren Sie die Option **Freigeben**. Sie ist standardmäßig aktiviert.
+   1. Klicken Sie **Anzeigen** und deaktivieren Sie die Option **Freigeben**. Diese ist standardmäßig aktiviert.
    1. Klicken Sie **Verwalten** und deaktivieren Sie entweder die Option **Freigeben** oder **Löschen**. Sie sind standardmäßig aktiviert.
 
       >[!NOTE]
@@ -181,7 +175,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der veralteten Benutzer
    >Bei der Freigabe für Gruppen erhalten die Mitglieder der Gruppe und aller Untergruppen Berechtigungen für den Filter, die Ansicht oder die Gruppierung.
 
    **Für alle Benutzer im System freigeben:** Klicken Sie auf das Symbol **Einstellungen** und klicken Sie dann auf **Systemweit sichtbar machen**.\
-   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[&#x200B; von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[ von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Bedingt) Wenn Sie Berechtigungen für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freigeben, klicken Sie auf das Dropdown-Menü, um die Zugriffsebene zu definieren, die Sie gewähren möchten.
 

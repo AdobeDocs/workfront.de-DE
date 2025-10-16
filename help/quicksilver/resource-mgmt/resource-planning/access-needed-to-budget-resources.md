@@ -7,9 +7,9 @@ description: Sie können Informationen zur Ressourcenplanung für die Projekte, 
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ Wenn Ihr Unternehmen eine Adobe Workfront-Lizenz mit Ressourcenplanung erworben 
 
 Weitere Informationen zu den Voraussetzungen für die Verwendung der Budgetierungs-Tools in Workfront finden Sie [Erste Schritte mit der Ressourcenplanung](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-Um Ressourcen zu budgetieren, Ressourcenpools zu verwalten und Kosteninformationen in den Ressourcenplanungs-Tools anzuzeigen, benötigen Ihr Unternehmen und Sie die folgenden Zugriffsrechte: 
+Um Ressourcen zu budgetieren, Ressourcenpools zu verwalten und Kosteninformationen in den Ressourcenplanungs-Tools anzuzeigen, benötigen Ihr Unternehmen und Sie die folgenden Zugriffsrechte:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>oder</p>
-       <p>Aktuell: Plan</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -66,11 +63,9 @@ Um Ressourcen zu budgetieren, Ressourcenpools zu verwalten und Kosteninformation
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Verwalten Sie Berechtigungen für das Projekt, einschließlich der Berechtigungen zum Verwalten von Finanzen.</p> <p>Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zu Finanzberechtigungen für ein Projekt finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Freigeben von Finanzberechtigungen für ein Objekt</a></a>.</p>
 
-<p><b>NOTIZ</b>
-
-Wenn Sie in der Rollenansicht beim Budgetieren von Ressourcen weniger als Verwaltungsberechtigungen für mindestens ein Projekt haben, das unter der Rolle aufgeführt ist, können Sie für die Rolle keine Stunden, FTE oder Kosten budgetieren. Sie können nur die Projekte budgetieren, für die Sie über Verwaltungsberechtigungen verfügen.</p> </td>
-</tr> 
+<p><b>HINWEIS:</b> Wenn Sie bei der Budgetierung von Ressourcen in der Rollenansicht für mindestens ein unter der Rolle aufgeführtes Projekt weniger als Verwaltungsberechtigungen haben, können Sie für die Rolle keine Stunden, FTE oder Kosten budgetieren. Sie können nur die Projekte budgetieren, für die Sie über Verwaltungsberechtigungen verfügen.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

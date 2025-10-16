@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Business Case eines Projekts exportieren
 description: Sie können den Business Case in eine PDF-Datei exportieren, für den Fall, dass Sie ihn drucken müssen, oder ihn in einem kürzeren Format an eine E-Mail anhängen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Sie können den Business Case in eine PDF-Datei exportieren, falls Sie ihn druck
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Aktuell: Prime oder höher </p> <p>Legacy: Pro oder höher </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
+   <td> <p>Prime oder höher </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
-   <p>Strom: Licht oder höher</p>
-   <p>Legacy: Überprüfung oder höher</p> </td> 
+   <p>Licht oder höher</p>
+   <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +46,7 @@ Sie können den Business Case in eine PDF-Datei exportieren, falls Sie ihn druck
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

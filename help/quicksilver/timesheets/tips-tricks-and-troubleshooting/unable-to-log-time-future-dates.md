@@ -4,13 +4,13 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Zeit kann nicht für zukünftige Daten protokolliert werden
 description: Sie können keine Stunden für zukünftige Termine in Projekten, Aufgaben oder Problemen protokollieren, da die Felder deaktiviert sind.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -30,11 +30,11 @@ Systemadministratoren können eine Einstellung aktualisieren, damit Sie Zeit fü
 
 Gehen Sie als Systemadministrator wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Erweitern Sie **Arbeitszeittabellen und Stunden** und klicken Sie dann auf **Voreinstellungen**.
 
-1. Wählen Sie **Abschnitt** Allgemeine Voreinstellungen“ die Option **Stunden für zukünftige Datumsangaben**.
+1. Wählen **Abschnitt „Allgemeine**&quot; die Option **Stunden für zukünftige Datumsangaben**.
 
 1. Klicken Sie auf **Speichern**.
 

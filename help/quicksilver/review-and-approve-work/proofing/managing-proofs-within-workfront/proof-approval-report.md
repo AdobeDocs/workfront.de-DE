@@ -6,10 +6,10 @@ description: Sie können den Bericht zu Korrekturabzugsgenehmigungen verwenden, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
@@ -21,32 +21,33 @@ Sie können den Bericht zu Korrekturabzugsgenehmigungen verwenden, um Informatio
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront-Plan*</p> </td> 
+   <td role="rowheader"> <p>Workfront-Paket</p> </td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Übersicht über Adobe Workfront-Lizenzen*</p> </td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Lizenz</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
+   <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong> </td> 
    <td> <p>Zugriff bearbeiten auf:</p> 
     <ul> 
      <li> <p>Berichte, Dashboards und Kalender erstellen</p> </li> 
      <li> <p>Filter, Ansichten und Gruppierungen erstellen</p> </li> 
-    </ul> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

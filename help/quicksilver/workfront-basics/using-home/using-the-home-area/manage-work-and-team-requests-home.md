@@ -6,15 +6,15 @@ description: Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden d
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
 
-# Arbeitselemente und Teamanfragen im Bereich &quot;[!UICONTROL &quot; &#x200B;]
+# Arbeitselemente und Teamanfragen im Bereich &quot;[!UICONTROL &quot; ]
 
 Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden diese im Widget „Meine Arbeit“, im Widget „Meine Aufgaben“ und im Widget „Meine Probleme“ aufgelistet.  Sie können Arbeitselemente und Anfragen anzeigen, bearbeiten oder entfernen.
 
@@ -22,7 +22,7 @@ Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden diese im Widge
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,31 +31,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL Arbeit] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td>
+   <p>Standard</p>
+    <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Aufgaben und Probleme</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Aufgaben und Probleme</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Anzeigen eines Arbeitselements im Widget „Meine Arbeit“
 
-Arbeitselemente, die Ihnen zugewiesen sind, werden im Widget „Meine Arbeit“ in &quot;[!UICONTROL &quot; &#x200B;]. Über den Filter oben im Widget „Arbeitsliste“ können Sie konfigurieren, welche Arbeitselemente im Widget „Meine Arbeit[!UICONTROL &#x200B; angezeigt &#x200B;].
+Arbeitselemente, die Ihnen zugewiesen sind, werden im Widget „Meine Arbeit“ in &quot;[!UICONTROL &quot; ]. Über den Filter oben im Widget „Arbeitsliste“ können Sie konfigurieren, welche Arbeitselemente im Widget „Meine Arbeit[!UICONTROL  angezeigt ].
 
 Sie können Filter auswählen, die Elemente anzeigen, die Sie bearbeiten möchten, oder Elemente, an denen Sie derzeit bereits arbeiten.
 
@@ -85,7 +87,7 @@ So zeigen Sie ein Arbeitselement im Widget Meine Arbeit an:
 
 ## Zugriff auf eine Teamanfrage im Widget „Teamanfrage“
 
-Sie können direkt über das Widget „Teamanfragen“ im Bereich &quot;[!UICONTROL &quot; auf eine Ihrem Team zugewiesene &#x200B;] zugreifen. Weitere Informationen zu Teamanfragen finden Sie unter [Teamanfragen - Übersicht](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Sie können direkt über das Widget „Teamanfragen“ im Bereich &quot;[!UICONTROL &quot; auf eine Ihrem Team zugewiesene ] zugreifen. Weitere Informationen zu Teamanfragen finden Sie unter [Teamanfragen - Übersicht](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 So greifen Sie auf eine Teamanfrage zu:
 

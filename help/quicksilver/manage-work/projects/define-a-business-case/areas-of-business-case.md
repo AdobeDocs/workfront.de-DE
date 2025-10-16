@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Überblick über die Bereiche des Business Case
 description: In diesem Artikel werden die Bereiche des Business Case eines Projekts beschrieben.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Erwägen Sie, die folgenden Felder zu bearbeiten:
 
 * **Portfolio**: Wählen Sie eine Portfolio für das Projekt aus. Sie müssen den Portfolio erstellen und im Status Aktiv platzieren, bevor er in diesem Dropdown-Menü zur Auswahl verfügbar ist.
 
-  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Weitere Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -213,7 +213,7 @@ Weitere Informationen zu diesen Feldern finden Sie unter [Übersicht über Busin
 
 Sie können den Business Case in eine PDF-Datei exportieren, wenn Sie ihn drucken müssen, oder ihn an eine E-Mail in einem kürzeren Format anhängen.
 
-Weitere Informationen finden [&#x200B; unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Weitere Informationen finden [ unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

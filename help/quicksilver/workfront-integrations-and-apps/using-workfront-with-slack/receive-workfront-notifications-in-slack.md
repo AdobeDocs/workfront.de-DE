@@ -6,9 +6,9 @@ description: Empfangen  [!DNL Adobe Workfront]  Benachrichtigungen in [!DNL Slac
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -29,22 +29,26 @@ Sie können jedoch [!DNL Workfront] Benachrichtigungen deaktivieren, die Sie mö
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Beliebig</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.\
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -55,7 +59,7 @@ Bevor Sie [!DNL Workfront]-Benachrichtigungen in [!DNL Slack] erhalten können, 
 
 ## Konfigurieren von [!DNL Workfront]-Benachrichtigungen für [!DNL Slack] {#configure-workfront-notifications-for-slack}
 
-1. (Bedingt) Nachdem [!DNL Workfront] zu Ihrer [!DNL Slack]-Instanz hinzugefügt wurde, melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
+1. (Bedingt) Nachdem [!DNL Workfront] zu Ihrer [!DNL Slack]-Instanz hinzugefügt wurde, melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie unter [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle in das Feld Nachricht ein:
@@ -94,7 +98,7 @@ Benachrichtigungen in der [!DNL Workfront] können nicht deaktiviert werden.
 So verwalten Sie [!DNL Workfront]-Benachrichtigungen für [!DNL Slack]:
 
 1. Anmelden bei [!UICONTROL Slack].
-1. Melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
+1. Melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Stellen Sie sicher, dass Ihre [!DNL Workfront] Benachrichtigungen für [!DNL Slack] aktiviert sind.\
@@ -109,7 +113,7 @@ So verwalten Sie [!DNL Workfront]-Benachrichtigungen für [!DNL Slack]:
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** um eine Aufgabe, ein Problem oder ein Projekt, für die bzw. das Ihre Genehmigung noch aussteht, zu genehmigen oder abzulehnen.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **&#x200B;**&#x200B;oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
      Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
       Nur die genehmigten Slack [Dateitypen](https://api.slack.com/types/file) können in der Vorschau angezeigt werden.

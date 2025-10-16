@@ -6,9 +6,9 @@ description: Sie haben verschiedene Möglichkeiten, um einer Iteration Stories h
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,20 @@ Sie können einer Iteration auf eine der folgenden Arten Stories hinzufügen:
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p> 
-   oder
-   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeit oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Manage] Zugriff auf das Projekt, an dem sich die Story befindet </td> 
+   <td>Zugriff auf das Projekt verwalten, an dem sich die Story befindet </td> 
   </tr>
  </tbody> 
 </table>
@@ -64,7 +61,7 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
    * Für das Projekt ist kein [!UICONTROL Geplantes Startdatum] festgelegt.
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *vor* oder *am* Startdatum der Iteration.
 
-* Die Aufgabe verwendet das geplante [!UICONTROL &#x200B; des Projekts] wenn:
+* Die Aufgabe verwendet das geplante [!UICONTROL  des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration.
 
@@ -72,10 +69,10 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
 
 * Die Aufgabe verwendet das Enddatum der Iteration, wenn:
 
-   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ &#x200B;].
+   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ ].
    * Das Projekt [!UICONTROL Geplantes Startdatum] liegt *vor oder am* dem Startdatum der Iteration oder das [!UICONTROL Geplantes Abschlussdatum] des Projekts liegt *vor oder* dem Enddatum der Iteration.
 
-* Die Aufgabe verwendet das &quot;[!UICONTROL &#x200B; Abschlussdatum“ des Projekts] wenn:
+* Die Aufgabe verwendet das &quot;[!UICONTROL  Abschlussdatum“ des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration und das [!UICONTROL Geplantes Abschlussdatum] des Projekts ist *nach* Enddatum der Iteration.
 
@@ -107,4 +104,4 @@ Nicht-agilen Teams können keine Aufgaben oder Probleme zugewiesen werden.
    >
    >Sie können eine Story von einer vorhandenen Iteration in eine neue Iteration verschieben.
 
-1. Klicken Sie **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.

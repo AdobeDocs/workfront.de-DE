@@ -7,9 +7,9 @@ description: Ein Dashboard bietet schnellen Zugriff auf Informationen. Sie könn
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,43 +24,34 @@ Ein Dashboard bietet schnellen Zugriff auf Informationen aus mehreren Berichten.
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-Plan</strong></p> </td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront-Lizenz</strong></p> </td> 
-      <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Mitwirkender oder höher</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Überprüfen oder höher</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Mitwirkender oder höher</p>
+      <p>Überprüfen oder höher</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>Zugriffsebene</strong> </td> 
-   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards und Kalender</p> </td> 
-  </tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Anzeigen von Berechtigungen für das Dashboard</p>  </td> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Anzeigen von Berechtigungen für das Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +75,7 @@ Weitere Informationen zum Erstellen eines Dashboards finden Sie unter [Dashboard
 Sie können ein Dashboard wie folgt für Benutzer freigeben:
 
 * Freigabe auf individueller Basis.\
-  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Ein Dashboard zu einem Bereich oder Objekt in Workfront im linken Bereich hinzufügen.\
   Weitere Informationen zum Hinzufügen von Dashboards im linken Bereich finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).

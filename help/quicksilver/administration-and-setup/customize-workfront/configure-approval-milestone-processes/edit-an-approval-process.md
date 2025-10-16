@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 1%
+source-wordcount: '1994'
+ht-degree: 3%
 
 ---
 
 # Genehmigungsprozess bearbeiten
+
+<!--Audited: 08/2025-->
 
 Wenn Sie ein Adobe Workfront-Administrator sind oder administrativen Zugriff auf Genehmigungsprozesse haben, können Sie alle Genehmigungsprozesse im System anzeigen und bearbeiten.
 
@@ -37,30 +39,60 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket*</td> 
+   <td><p>Für den Genehmigungsprozess auf Systemebene oder für den einmaligen Gebrauch:</p><ul><li><p>Beliebiges Paket</p></li></ul>
+   <p>Für den Genehmigungsprozess auf Gruppenebene:</p>
+   <ul><li><p>Workflow-Prime oder Ultimate</p></li>
+   <li><p>Workfront Prime oder Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+ <p>Plan</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Wenn Sie Systemadministrator sind oder administrativen Zugriff auf Genehmigungsprozesse haben, können Sie für eine bestimmte Gruppe einen Genehmigungsprozess auf Systemebene oder auf Gruppenebene erstellen.</p> 
+   <p>Wenn Sie Gruppenadministrator sind und administrativen Zugriff auf Genehmigungsprozesse haben, können Sie Genehmigungsprozesse auf Gruppenebene für von Ihnen verwaltete Gruppen erstellen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+I made the above match what we had for Create approval process - seemed more complete; 
+For this article, the old access was: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Beliebig</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf Genehmigungsprozesse, wenn Sie kein Systemadministrator sind</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
-
-+++
+</table>-->
 
 ## Bearbeiten eines vorhandenen Genehmigungsprozesses
 
@@ -90,7 +122,9 @@ Sie müssen über Folgendes verfügen:
     <tbody> 
      <tr> 
       <td role="rowheader">Name des Genehmigungsprozesses</td> 
-      <td>Geben Sie einen beschreibenden Namen für den Genehmigungsprozess ein. Benutzer sehen diesen Namen, wenn sie den Genehmigungsprozess auf ein Objekt anwenden, wie beschrieben unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit</a>.</td> 
+      <td><p>Geben Sie einen beschreibenden Namen für den Genehmigungsprozess ein. Benutzer sehen diesen Namen, wenn sie den Genehmigungsprozess auf ein Objekt anwenden, wie beschrieben unter <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit</a>.</p>
+      <p>Dies ist ein Pflichtfeld.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
@@ -98,7 +132,7 @@ Sie müssen über Folgendes verfügen:
      </tr> 
      <tr> 
       <td role="rowheader">Ist aktiv</td> 
-      <td> <p>Lassen Sie diese Option aktiviert, wenn Sie möchten, dass andere Benutzer den Genehmigungsprozess an von ihnen erstellte Projekte, Aufgaben und Probleme anhängen können. </p> <p>Diese Option ist standardmäßig aktiviert.</p> <p>Tipp: Das Kennzeichnen eines Genehmigungsprozesses als inaktiv ist nützlich, wenn Ihr Unternehmen ihn nicht mehr verwenden muss, Sie aber historische Informationen zu seiner Verwendung beibehalten möchten.</p> </td> 
+      <td> <p>Lassen Sie diese Option aktiviert, wenn Sie möchten, dass andere Benutzer den Genehmigungsprozess an von ihnen erstellte Projekte, Aufgaben und Probleme anhängen können. </p> <p>Standardmäßig ist diese Option aktiviert.</p> <p>Tipp: Das Kennzeichnen eines Genehmigungsprozesses als inaktiv ist nützlich, wenn Ihr Unternehmen ihn nicht mehr verwenden muss, Sie aber historische Informationen zu seiner Verwendung beibehalten möchten.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Dieser Genehmigungsprozess kann genutzt werden von </td> 
@@ -106,7 +140,9 @@ Sie müssen über Folgendes verfügen:
        <ul> 
         <li>Wenn Sie Systemadministrator sind oder administrativen Zugriff auf Genehmigungsprozesse haben, können Sie bei der Eingabe des Namens eine beliebige Gruppe im System sehen. <b>Alle Gruppen</b> ist standardmäßig ausgewählt. </li> 
         <li>Wenn Sie ein Gruppenadministrator ohne administrativen Zugriff auf Genehmigungsprozesse sind, können Sie den Genehmigungsprozess jeder Gruppe zuweisen, die Sie verwalten, wenn Sie ihren Namen eingeben. Die <b>Alle Gruppen</b>-Option ist nicht verfügbar.</li> 
-       </ul> <p>Diese Option ist nicht für Genehmigungsprozesse zur einmaligen Verwendung verfügbar.</p> <p><b>WARNUNG</b>: Wenn Sie Änderungen an dem gruppenspezifischen Genehmigungsprozess vornehmen, können sich die vorhandenen Genehmigungsprozesse ändern, die bereits Arbeitselementen zugeordnet wurden. Weitere Informationen zu diesen Änderungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Wie sich Änderungen an Gruppen- und Genehmigungsprozessen auf zugewiesene Genehmigungsprozesse auswirken</a>.</p> <p>Informationen zum Auflisten und Verwalten der Genehmigungsprozesse Ihrer Gruppe auf der Seite Ihrer Gruppe finden Sie unter <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Genehmigungsprozesse auf Gruppenebene</a>. </p> <p>Informationen zum administrativen Zugriff auf Genehmigungsprozesse finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> </td> 
+       </ul> 
+       <p>Dies ist ein Pflichtfeld.</p>
+       <p>Diese Option ist nicht für Genehmigungsprozesse zur einmaligen Verwendung verfügbar.</p> <p><b>WARNUNG</b>: Wenn Sie Änderungen an dem gruppenspezifischen Genehmigungsprozess vornehmen, können sich die vorhandenen Genehmigungsprozesse ändern, die bereits Arbeitselementen zugeordnet wurden. Weitere Informationen zu diesen Änderungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Wie sich Änderungen an Gruppen- und Genehmigungsprozessen auf zugewiesene Genehmigungsprozesse auswirken</a>.</p> <p>Informationen zum Auflisten und Verwalten der Genehmigungsprozesse Ihrer Gruppe auf der Seite Ihrer Gruppe finden Sie unter <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Genehmigungsprozesse auf Gruppenebene</a>. </p> <p>Informationen zum administrativen Zugriff auf Genehmigungsprozesse finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,7 +157,9 @@ Sie müssen über Folgendes verfügen:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Genehmigungsprozess starten, wenn der Status festgelegt ist auf</p> </td> 
-      <td> <p>Wählen Sie den Status aus, der den Genehmigungsprozess für Arbeitselemente zum Trigger bringen soll. Wenn jemand ein Arbeitselement auf diesen Status aktualisiert, beginnt der Genehmigungsprozess. </p> <p>Derselbe Status kann nicht für mehrere Genehmigungsprozesspfade ausgewählt werden.</p> <p>Die verfügbaren Status basieren auf dem, was unter der Option <b>Diese Genehmigung kann verwendet werden von</b> (in der obigen Tabelle erläutert) ausgewählt wurde:</p> 
+      <td> <p>Wählen Sie den Status aus, der den Genehmigungsprozess für Arbeitselemente zum Trigger bringen soll. Wenn jemand ein Arbeitselement auf diesen Status aktualisiert, beginnt der Genehmigungsprozess. </p> 
+      <p>Dies ist ein Pflichtfeld.</p>
+      <p>Derselbe Status kann nicht für mehrere Genehmigungsprozesspfade ausgewählt werden.</p> <p>Die verfügbaren Status basieren auf dem, was unter der Option <b>Diese Genehmigung kann verwendet werden von</b> (in der obigen Tabelle erläutert) ausgewählt wurde:</p> 
       <ul> 
       <li> Wenn <b>Alle Gruppen</b> ausgewählt ist, sind nur systemweit gesperrte Status verfügbar. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
@@ -136,16 +174,18 @@ Sie müssen über Folgendes verfügen:
       <td role="rowheader">Genehmigende Personen</td> 
       <td> <p>Geben Sie den Namen des Benutzers, Teams oder Aufgabengebiets ein, den Sie als Genehmiger für dieses Stadium angeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Sie können nur aktive Benutzer, Aufgabengebiete und Teams hinzufügen. </p>
 
-   <p><b>TIPP</b>:</p>
+   <p>Dies ist ein Pflichtfeld.</p>
+
+   <p><b>TIPP</b></p>
 
    <p>Beachten Sie beim Hinzufügen eines Benutzers als Genehmiger den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.</p>
       <p>Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Benutzern Zugriff gewähren</a></p>.
 
-   <p><b>HINWEIS</b>:
+   <p><b>NOTIZ</b>
 
    Durch das Hinzufügen eines Benutzers, Teams oder einer Rolle als genehmigende Person werden diesem Benutzer bzw. dieser Person nicht automatisch Berechtigungen für das Objekt erteilt, das mit dieser Genehmigung verknüpft ist. Sie erhalten Berechtigungen für das Objekt, wenn der Genehmigungsschritt ausgelöst wird. Andernfalls müssen die Objekte für sie freigegeben werden, bevor sie eine Genehmigungsentscheidung treffen können. </p>
-   <p>Sie können eine Person auch als genehmigende Person festlegen, indem Sie die Rolle der Person angeben. Beispielsweise können Sie einen Projektbesitzer, Projektsponsor, Portfolio-Inhaber, Programm-Inhaber oder Manager als genehmigende Person zuweisen. Diese Optionen werden automatisch angezeigt, wenn Sie mit der Eingabe beginnen.</p> 
-      <p><b>WICHTIG</b>:  
+   <p>Sie können eine Person auch als genehmigende Person festlegen, indem Sie die Rolle der Person angeben. Beispielsweise können Sie einen Projektbesitzer, Projektsponsor, Portfolio-Eigentümer, Programmbesitzer oder Manager als genehmigende Person zuweisen. Diese Optionen werden automatisch angezeigt, wenn Sie mit der Eingabe beginnen.</p> 
+      <p><b>WICHTIG</b>
       <ul> 
       <li> Wenn Sie dem Projektsponsor eine Genehmigung zuweisen und niemand als Sponsor eines Projekts angegeben ist, wird die Genehmigung dem Projektbesitzer erneut zugewiesen. Wenn niemand als Eigentümer des Projekts festgelegt ist, wird die Genehmigung dem Workfront-Administrator zugewiesen. </li> 
       <li> Wenn Sie eine Genehmigung einer Funktion zuweisen und die Option <b>Genehmigende Person muss nicht im Projektteam sein</b> deaktiviert ist, aber keine Funktionen im Projektteam mit der Funktion in der Genehmigung übereinstimmen, wird die Genehmigung dem Projektbesitzer neu zugewiesen. Weitere Informationen zu den Genehmigungseinstellungen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurieren globaler Genehmigungseinstellungen</a>.

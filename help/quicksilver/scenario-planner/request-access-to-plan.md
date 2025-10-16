@@ -2,15 +2,15 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: Plan,Berechtigungen,Freigabe,Initiativen,Szenarien,Szenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Anfordern von Zugriff auf einen Plan im Szenario-Planer
+title: Anfordern des Zugriffs auf einen Plan im Szenario-Planer
 description: Sie können Zugriff auf einen Plan im Adobe Workfront-Szenarioplaner anfordern, wenn der Link zum Plan für Sie freigegeben wird.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '495'
+ht-degree: 0%
 
 ---
 
@@ -20,43 +20,70 @@ Sie können Zugriff auf einen Plan in der [!DNL Adobe Workfront Scenario Planner
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
-   <td> <ul></li>
-   <li><p>Neu: Ultimate </p></li>
-   <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
-   <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
+   <td> <p>[!DNL Adobe Workfront] Packstück</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
-   <td> <p>Neu: Licht oder höher</p> 
-   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
+   <td> <p>[!UICONTROL light] oder höher</p> 
+   <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
   </tr> 
-  <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
-   <li><p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenarioplaner</p></li></ul>
-
-<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich, um die [!DNL Scenario Planner]</a> verwenden zu können. </p> </td> 
+    <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf [!UICONTROL View] oder höher [!DNL Scenario Planner]</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Zugriffsebene </td> 
-   <td>  <p>Zugriff auf [!UICONTROL View] oder höher [!DNL Scenario Planner]</p>  </td> 
-  </tr>
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zum Zugriff auf den Szenario-Planer finden Sie unter [Zugriff für die Verwendung des erforderlich [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen für Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td>  <p>[!UICONTROL View] or higher access to the [!DNL Scenario Planner]</p>  </td> 
+  </tr>
+ </tbody> 
+</table>-->
 
 ## Voraussetzungen
 

@@ -7,9 +7,9 @@ description: Sie können einen Bericht erst nach der Erstellung eines zusätzlic
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -41,28 +41,21 @@ Wenn es jedoch nicht möglich ist, separate Felder für jede Option eines Felds 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-    <p>Neu:</p>
-   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
-   <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
-
-<p>Aktuell:</p>
-   <ul><li><p>Filter ändern </p></li>
-   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
+   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -75,13 +68,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
+Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [ Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
 
 ## Erstellen eines Diagramms für einen Bericht mit mehreren benutzerdefinierten Feldern
 
@@ -131,7 +124,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
    Dadurch wird sichergestellt, dass das neue berechnete Feld automatisch mit dem Wert aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgefüllt wird, da er zu den Formularen hinzugefügt wird, die bereits an die Objekte angehängt sind.
 
-1. Klicken Sie **Apply**.
+1. Klicken Sie auf **Übernehmen**.
 1. Klicken Sie **Speichern und schließen**.
 
    Das berechnete benutzerdefinierte Feld wird zum benutzerdefinierten Formular hinzugefügt. Wenn das Formular derzeit mit Objekten verbunden ist, wird das Feld mit Informationen aus dem benutzerdefinierten Mehrfachauswahl-Feld gefüllt.
@@ -140,7 +133,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, wählen Sie auf der Registerkarte Details des Berichts alle Objekte aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachauswahlfeld und dem berechneten benutzerdefinierten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
 1. (Optional und bedingt) Wählen Sie das Feld **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie dann auf **Änderungen speichern**.\
-   ![Benutzerdefinierte Ausdrücke neu &#x200B;](assets/recalculate-custom-expressions-350x259.png)
+   ![Benutzerdefinierte Ausdrücke neu ](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >

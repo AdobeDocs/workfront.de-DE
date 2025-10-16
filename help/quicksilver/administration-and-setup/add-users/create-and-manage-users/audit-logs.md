@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Übersicht über Auditprotokolle
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 Als Adobe Workfront-Admin können Sie anhand der unten beschriebenen Auditprotokolle benutzerseitig ausgelöste Änderungen verfolgen, die in den letzten 90 Tagen im System ausgelöst wurden.
 

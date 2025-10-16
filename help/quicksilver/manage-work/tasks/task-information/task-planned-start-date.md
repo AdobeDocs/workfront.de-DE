@@ -7,7 +7,7 @@ description: Das geplante Startdatum einer Aufgabe ist das Datum, an dem Sie als
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Wenn es automatisch vom System berechnet wird, kann Folgendes das geplante Start
 
   Der Workfront- oder Gruppen-Administrator kann bestimmen, ob eine neue Aufgabe am gleichen Datum wie das geplante Startdatum des Projekts oder an dem Tag beginnt, an dem Sie die Aufgabe erstellen.
 
-  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden [&#x200B; unter „Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden [ unter „Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Aufgabenbeschränkung
 

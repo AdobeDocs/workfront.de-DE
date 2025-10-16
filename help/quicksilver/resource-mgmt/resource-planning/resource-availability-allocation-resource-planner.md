@@ -6,10 +6,10 @@ description: Sie können die Verfügbarkeit Ihrer Ressourcen und den Umfang der 
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 4%
+source-wordcount: '1199'
+ht-degree: 5%
 
 ---
 
@@ -21,26 +21,21 @@ Sie können die Verfügbarkeit Ihrer Ressourcen und den Umfang der geplanten ode
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
-   <td><p>Neu: Beliebig</p>
-       <p>oder</p>
-       <p>Aktuell: Pro oder höher</p> </td> 
+  <tr>
+   <td>Adobe Workfront-Paket</td> 
+   <td><p>Beliebig</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Licht oder höher</p>
-       <p>oder</p>
-       <p>Aktuell: Überprüfung oder höher</p></td>
+   <td>Adobe Workfront-Lizenz</td> 
+   <td><p>Licht oder höher</p>
+       <p>Überprüfen oder höher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Folgendes anzeigen oder höher:</p> 
     <ul> 
      <li> <p>Ressourcenverwaltung</p> </li> 
@@ -50,13 +45,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objektberechtigungen</td> 
+   <td>Objektberechtigungen</td> 
    <td> <p>Zeigen Sie Berechtigungen oder höhere Berechtigungen für die Projekte an, die Sie im Ressourcenplaner anzeigen möchten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -153,8 +148,8 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
 1. Wählen **in der Spalte** Ansichtstyp“ links eine der folgenden Ansichten aus:
 
    * Projekt
-   * Funktion
-   * Benutzerin oder Benutzer
+   * Rolle
+   * Benutzerin bzw. Benutzer
 
 1. Wählen **Abschnitt „Ausgewählte Elemente anzeigen** den Typ der Informationen aus, die in den Spalten der ausgewählten Ansicht angezeigt werden sollen. Die folgende Tabelle zeigt, welche Optionen in den einzelnen Ansichten verfügbar sind:
 
@@ -164,7 +159,7 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
    | Geplant | ✔ | ✔ | ✔ |
    | Budgetiert |   | ✔ | ✔ |
    | Variance |   | ✔ | ✔ |
-   | Net |   | ✔ | ✔ |
+   | Netto |   | ✔ | ✔ |
    | Tatsächlich | ✔ |   |   |
    | Differenz | ✔ |   |   |
    | Prozent | ✔ |   |   |
@@ -199,7 +194,7 @@ So zeigen Sie die Benutzerzuordnung in einem Diagramm an:
 
 1. Wechseln Sie zum Ressourcenplaner.
 
-   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des ](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 1. Wählen Sie **Nach Benutzer anzeigen** aus.
 

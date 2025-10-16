@@ -6,14 +6,14 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 1%
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
-# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]
+# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]
 
 <!--Audited: 07/2024-->
 
@@ -25,51 +25,83 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
-   <td> <ul></li>
-   <li><p>Neu: Ultimate </p></li>
-   <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
-   <li><p>Aktuell: [!UICONTROL Business] oder höher</p></ul>
+   <td> <p>[!DNL Adobe Workfront] Packstück</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
-   <td> <p>Neu: Licht oder höher</p> 
-   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
+   <td> <p>[!UICONTROL light] oder höher</p> 
+   <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen oder höher.</p></td> 
   </tr> 
   <tr> 
-   <td>Produkt* </td> 
-   <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
-   <li><p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenarioplaner</p></li></ul>
-
-<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich, um die [!DNL Scenario Planner]</a> verwenden zu können. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Zugriffsebene </td> 
-   <td> <p>Zugriff auf Projekte anzeigen oder höher.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p> Berechtigung zum Anzeigen oder Erhöhen eines Projekts.</p> </td> 
+   <td> <p> Berechtigung zum Anzeigen oder Erhöhen eines Projekts.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zum Zugriff auf den Szenario-Planer finden Sie unter [Zugriff für die Verwendung des erforderlich [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen für Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]
+<!--Old:
 
-Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt auf Projektebene (Workload [!UICONTROL ) &#x200B;].
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
+## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]
+
+Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt auf Projektebene (Workload [!UICONTROL ) ].
 
 1. (Bedingt) Verbinden eines Projekts mit einer Initiative mithilfe einer der in den folgenden Artikeln beschriebenen Methoden:
 
@@ -81,7 +113,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
    >Wenn Sie Änderungen an den Ressourcen der Initiative vornehmen, müssen Sie das Szenario, zu dem die Initiative gehört, erneut veröffentlichen, damit die neuesten Ressourceninformationen der Initiative im Projekt aktualisiert werden.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Zuordnung der Aufgabengebiete für das Projekt sowie für die zugehörige Initiative überprüfen möchten.
-1. Klicken Sie [!UICONTROL &#x200B; linken Bedienfeld &#x200B;]Workload Balancer“.
+1. Klicken Sie [!UICONTROL  linken Bedienfeld ]Workload Balancer“.
 
    Möglicherweise müssen Sie auf **[!UICONTROL Planung]** und dann auf **[!UICONTROL Zum Workload-Balancer wechseln]** klicken.
 
@@ -126,8 +158,8 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
       <td>Die Anzahl der geplanten Stunden, die mit jedem Aufgabengebiet in den Aufgaben oder Problemen des Projekts für die Gesamtdauer des Projekts verknüpft sind. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Varianz]</td> 
-      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL -Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
+      <td role="rowheader">[!UICONTROL-Varianz]</td> 
+      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL-Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -162,13 +194,13 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. (Optional) Klicken Sie auf das Dropdown-Symbol, um einen der Monate im Bedienfeld [!UICONTROL Rollenzuweisung] oder in der Zeitleiste des [!UICONTROL Workload-Balancer] zu erweitern.
 
-   ![Monat im Bedienfeld „Rollenzuweisung“ &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Monat im Bedienfeld „Rollenzuweisung“ ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
-   Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt &#x200B;], werden auch für jeden Monat angezeigt.
+   Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt ], werden auch für jeden Monat angezeigt.
 
    >[!TIP]
    >
-   >Die im Bedienfeld [!UICONTROL Rollenzuweisung] aufgelisteten Monate sind die Monate in der Zeitleiste, die auf dem Bildschirm im [!UICONTROL Workload Balancer“ &#x200B;]. Scrollen Sie in der Timeline vor und zurück, um zusätzliche Monate anzuzeigen.
+   >Die im Bedienfeld [!UICONTROL Rollenzuweisung] aufgelisteten Monate sind die Monate in der Zeitleiste, die auf dem Bildschirm im [!UICONTROL Workload Balancer“ ]. Scrollen Sie in der Timeline vor und zurück, um zusätzliche Monate anzuzeigen.
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p> </p> </li>

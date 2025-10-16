@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: Berechnete benutzerdefinierte Daten in Berichten
 description: Erfahren Sie mehr über benutzerdefinierte Daten in Berichten.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können Berichte mithilfe berechneter benutzerdefinierter Daten erstellen. I
 * [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Berechnete benutzerdefinierte Felder im Vergleich zu berechneten Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
 * [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-* [&#x200B; „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+* [ „IF“-Anweisungen - Übersicht](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
 * [Beispiel für ein berechnetes benutzerdefiniertes Feld: Zeigt im benutzerdefinierten Formular für ein Problem den Manager des Erstellers eines Problems an](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
 * [Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen des Bearbeitungsverlaufs eines Felds](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)

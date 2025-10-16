@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -41,70 +41,42 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produkte</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront-Planung<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td> 
+<ul><li><p>Beliebiges Workfront-Paket</p></li>
+Und
+<li><p>Beliebiges Planungspaket</p></li></ul>
+Oder
+<ul><li><p>Beliebiges Workflow-Paket</p></li>
+Und
+<li><p>Beliebiges Planungspaket</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Externe, Mitwirkende, Light- oder Standardlizenz</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td>   <p>Anzeigen oder Erweitern der Berechtigungen für einen Arbeitsbereich und einen Datensatztyp, wenn Sie Workfront-Benutzer sind</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td>
-   <td>
-<p>Einer der folgenden Workfront-Pläne:</p>
-<ul><li>Auswählen</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td>
-   <td>
-<p>Beliebig </p>  
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
-   <td>
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
-   <td>
-   <p>Externe, Mitwirkende, Light- oder Standardlizenz</p>
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Objektberechtigungen</p></td>
-   <td>
-   <p>Anzeigen oder Erweitern der Berechtigungen für einen Arbeitsbereich und einen Datensatztyp, wenn Sie Workfront-Benutzer sind</p> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Voraussetzungen
 

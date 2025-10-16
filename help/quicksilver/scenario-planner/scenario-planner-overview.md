@@ -2,15 +2,15 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Die Übersicht über den Szenario-Planer
+title: Überblick über den Szenario-Planer
 description: Für den Szenario-Planer ist zusätzlich zur Adobe Workfront-Lizenz eine separate Lizenz erforderlich.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,7 @@ ht-degree: 5%
 
 Der Zweck des [!DNL Workfront Scenario Planner] ist es, die Ausführung Ihrer Pläne auf Unternehmensebene zu beschleunigen und Ihnen dabei zu helfen, wichtige Entscheidungen zu treffen, die das Erreichen vorhersehbarer, gewünschter Ergebnisse für Ihr Unternehmen vorantreiben.
 
-Sie müssen über den folgenden [!DNL Workfront] verfügen, um auf die [!DNL Workfront Scenario Planner] zugreifen zu können:
-
-* Für den neuen Workfront-Plan: Ein [!UICONTROL Ultimate]-Plan.
-* Für den aktuellen [!DNL Workfront]-Plan: Sie müssen zusätzlich zum Kauf einer [!DNL Scenario Planner]-Lizenz einen Business-Plan oder einen höheren Plan besitzen.
-
-Weitere Informationen zum Zugriff, der für die Verwendung des [!DNL Workfront Scenario Planner] erforderlich ist, finden Sie unter [Zugriff erforderlich für die Verwendung des  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
-
-## [!DNL Scenario Planner]
+## Übersicht über [!DNL Scenario Planner]
 
 Mithilfe der [!DNL Workfront Scenario Planner] können Sie Pläne auf Unternehmensebene erstellen, die die allgemeinen strategischen Ergebnisse Ihres Unternehmens beschreiben. Sie können mehrere Initiativen für einen Plan definieren und in verschiedenen Szenarien platzieren, um die optimale Lösung für die Ausführung des Plans zu finden.
 
@@ -75,7 +68,7 @@ Die folgende Funktion ist derzeit im [!DNL Workfront Scenario Planner] enthalten
 
   Informationen zum Importieren von Projekten in einen Plan finden Sie unter [Projekte in Pläne importieren in der [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publish : Ein Szenario zum Erstellen oder Aktualisieren von Projekten, die mit den Initiativen im Szenario verknüpft sind
+* Szenario veröffentlichen, um Projekte zu erstellen oder zu aktualisieren, die mit den Initiativen im Szenario verknüpft sind
 
   Informationen zu Veröffentlichungsszenarien finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 

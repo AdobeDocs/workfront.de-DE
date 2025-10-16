@@ -6,16 +6,16 @@ description: Sie können den Status einer Story direkt über das Kanban-Board ä
 author: Lisa
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-# Status der Storys auf dem Kanban[!UICONTROL Board &#x200B;] aktualisieren
+# Status der Storys auf dem Kanban[!UICONTROL Board ] aktualisieren
 
-Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board &#x200B;], um den Fortschritt der Stories widerzuspiegeln.
+Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board ], um den Fortschritt der Stories widerzuspiegeln.
 
 >[!NOTE]
 >
@@ -25,8 +25,6 @@ Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board &#x2
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,14 +32,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p> 
-   oder
-   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p> 
+   <p>Arbeit oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -58,5 +55,5 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wechseln Sie zum [!UICONTROL Kanban]-Board, in dem Sie den Status einer Story aktualisieren möchten.
 1. Ziehen Sie eine Story aus einer Statusspalte auf das [!UICONTROL Kanban]Board und in eine andere Spalte.
-Eine Story verbleibt zwei Wochen lang in [!UICONTROL &#x200B; Spalte &#x200B;]Abgeschlossen“, nachdem sie hinzugefügt wurde.
+Eine Story verbleibt zwei Wochen lang in [!UICONTROL  Spalte ]Abgeschlossen“, nachdem sie hinzugefügt wurde.
    ![Story in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)

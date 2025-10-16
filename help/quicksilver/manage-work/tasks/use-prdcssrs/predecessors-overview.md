@@ -7,9 +7,9 @@ description: Ein Vorgänger ist die Aufgabe, von der eine andere Aufgabe (eine s
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Um Vorgängerbeziehungen zu verstehen, müssen Sie Folgendes verstehen:
 
 Informationen zum Erstellen von Vorgängern finden Sie in den folgenden Artikeln:
 
-* Informationen zum Erstellen von Vorgängern mithilfe der Registerkarte „Vorgänger“ der Aufgabe finden [&#x200B; unter „Erstellen einer Vorgängerbeziehung mithilfe des Bereichs „Vorgänger“](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+* Informationen zum Erstellen von Vorgängern mithilfe der Registerkarte „Vorgänger“ der Aufgabe finden [ unter „Erstellen einer Vorgängerbeziehung mithilfe des Bereichs „Vorgänger“](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 * Informationen zum Einrichten von Vorgängern in einer Aufgabenliste finden Sie unter [Erstellen einer Vorgängerbeziehung in der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 * Informationen zum Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben finden Sie unter [Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 * Informationen zum Einrichten von projektübergreifenden Vorgängern finden Sie unter [Erstellen von projektübergreifenden Vorgängern](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
@@ -112,7 +112,7 @@ Wenn Sie Vorgänger in einer Liste von Aufgaben anzeigen, sehen Sie möglicherwe
   >
   >Sie müssen den erzwungenen Wert (**e**) zur Verzögerung und nicht zum Vorgänger hinzufügen.
 
-* **4515:**: Die Vorgängeraufgabennummer ist 2. - Dies ist eine nicht erzwungene „Finish to Start“-Abhängigkeit mit dem Vorgänger im Projekt mit der Referenznummer **4515**.
+* **4515:2** Die Vorgänger-Aufgabennummer ist 2. - Dies ist eine nicht erzwungene „Finish to Start“-Abhängigkeit mit dem Vorgänger im Projekt mit der Referenznummer **4515**.
 
 ## Anzeigen von Vorgängerinformationen
 

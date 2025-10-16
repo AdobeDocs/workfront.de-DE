@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Problemstatus von „Auf Feedback warten“ automatisch auf „In Bearbeitung“ aktualisieren
+title: Anfragestatus von „Warten auf Feedback“ automatisch auf „In Bearbeitung“ aktualisieren
 description: Wenn der Primäre Kontaktperson eines Problems das Problem aktualisiert, indem entweder ein Feld aktualisiert (einschließlich eines benutzerdefinierten Felds) oder ein Kommentar hinzugefügt wird, wird der Problemstatus automatisch auf „In Bearbeitung“ aktualisiert.
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Damit diese automatische Statusänderung erfolgt, sind folgende Schritte erforde
 
 * Das Problem muss mithilfe einer Anfrage-Warteschlange hinzugefügt werden.
 
-  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [&#x200B; Abschnitt „Erstellen und Verwalten &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
+  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [ Abschnitt „Erstellen und Verwalten ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
 
   Informationen zum Senden von Anfragen an eine Anfrage-Warteschlange finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 

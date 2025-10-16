@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular'
 description: Das folgende berechnete Feld zeigt das Datum an, an dem der Objektstatus als In Bearbeitung (INP) markiert ist. Sie können dieselben Informationen für berechnete benutzerdefinierte Felder für Probleme, Aufgaben oder Projekte verwenden.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -24,35 +24,36 @@ Das folgende berechnete Feld zeigt das Datum an, an dem der Objektstatus als In 
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Beliebig</td> 
+   <td> <p>Adobe Workfront-Paket</p> </td> 
+   <td><p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-Lizenz*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-Lizenz</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Konfigurationen der Zugriffsebene*</strong> </td> 
-   <td> <p>Zugriff zum Erstellen von Berichten, Dashboards und Kalendern bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td><p>Konfigurationen der Zugriffsebene</p></td> 
+   <td> <p>Zugriff zum Erstellen von Berichten, Dashboards und Kalendern bearbeiten</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Objektberechtigungen</strong> </p> </td> 
-   <td> <p>Verwalten Sie die Berechtigungen für das Objekt, an das das Formular angehängt ist</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.<br>Weitere Informationen zu Berechtigungen für Dashboards finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Freigeben von Berichten, Dashboards und Kalendern </a>.</p> </td> 
+   <td> <p>Objektberechtigungen</p> </td> 
+   <td> <p>Verwalten Sie die Berechtigungen für das Objekt, an das das Formular angehängt ist</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzung
 

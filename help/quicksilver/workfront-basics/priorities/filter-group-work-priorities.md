@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -32,14 +32,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Paket</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
    <td> 
-   <p>Aktuell: Anforderung oder höher</p>
-   <p>Neu: Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
+   <p>Mitwirkender oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
 
 1. Klicken **oben links** der Arbeitsliste auf „Filter“.
 1. Wählen Sie im **Standardfilter** einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
-   ![filter](assets/filter-new.png)
+   ![Filter](assets/filter-new.png)
 
 +++Erweitern um detaillierte Informationen zu den verfügbaren Filtern
 <table>

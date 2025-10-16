@@ -6,10 +6,10 @@ description: Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch d
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -25,22 +25,19 @@ Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Neu: [!UICONTROL Contributor] oder höher</p> 
-   <p>oder</p>
-   <p>Aktuell: [!UICONTROL -Anfrage] oder höher</p>
+   <p>Mitwirkender oder höher</p> 
+   <p>Anfrage oder höher</p>
    </td> 
   </tr> 
  </tbody> 
@@ -59,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL &#x200B; Tags] die Option „Tag hinzufügen“ aus.
+1. Wählen [!UICONTROL  Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL  Tags] die Option „Tag hinzufügen“ aus.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
@@ -83,7 +80,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 
    Klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld [!UICONTROL Arbeitsablauf konfigurieren] zu öffnen. Klicken Sie dann auf **[!UICONTROL Tag-Manager]**.
 
-1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt **-Tags die Option** Tag hinzufügen“.
+1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt [!UICONTROL **-Tags die Option**] Tag hinzufügen“.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
@@ -113,7 +110,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 
 1. (Bedingt) Klicken Sie auf den Tag-Namen, um den Text zu bearbeiten.
 1. (Bedingt) Klicken Sie auf das [!UICONTROL color] Dropdown-Menü, um die Tag-Farbe zu ändern.
-1. Klicken Sie **[!UICONTROL Fertig]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 ## Entfernen eines Tags aus einer Karte
 
@@ -127,7 +124,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 1. Suchen Sie das Tag, das Sie aus der Karte entfernen möchten, und klicken Sie dann auf das **[!UICONTROL Entfernen]**-Symbol ![Tag entfernen](assets/copy-of-boards-remove-30x23.png).
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
-## Tag löschen
+## Löschen von Tags
 
 1. Zugriff auf eine Pinnwand.
 1. Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) neben dem Board-Namen und wählen Sie dann **[!UICONTROL Tag Manager]**.
@@ -135,4 +132,4 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
 1. Suchen Sie das Tag, das Sie löschen möchten, und klicken Sie dann auf das **[!UICONTROL Löschen]**-Symbol ![Tag löschen](assets/copy-of-boards-delete-30x27.png).
-1. Klicken Sie **[!UICONTROL Fertig]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
