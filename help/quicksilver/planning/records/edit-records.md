@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -36,7 +39,7 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,58 +49,87 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
+   <td> 
+<ul> 
+<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+Oder
+<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td>   <p>Beitragen von oder höhere Berechtigungen für einen Arbeitsbereich und einen Datensatztyp  </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Produkte</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Einer der folgenden Workfront-Pläne:</p> 
-<ul><li>Auswählen</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Beliebig </p> 
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>Standard</p> 
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>  <p>Beitragen oder höhere Berechtigungen für einen Arbeitsbereich und Datensatztyp </a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
-  </tr>
-
-</tbody> 
-</table>
-
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> -->
 
 ## Überlegungen zum Bearbeiten von Datensätzen
 
@@ -107,7 +139,7 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
    * Vorschau des Datensatzes in einer Datensatzansicht
    * Die Detailseite des Datensatzes
    * Inline, in einer Tabellenansicht.
-   * <span class="preview"> Die Kalender- und Timeline-Ansicht bei der Größenänderung <!--or dragging and dropping--> Datensätze. Dadurch werden die Daten der Datensätze aktualisiert.</span>
+   * Die Kalender- und Zeitleisten-Ansicht beim Ändern der Größe oder Ziehen und Ablegen der Datensätze. Dadurch werden die Daten der Datensätze aktualisiert.
 
 * Wenn ein(e) Benutzende(r) einen Datensatz in einer Ansicht bearbeitet, sind die Änderungen sofort in allen Ansichten und auf den Datensatzseiten für alle anderen Benutzenden sichtbar.
 
@@ -233,30 +265,30 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Zeitleisten -Ansicht. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-1. <span class="preview">Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes und klicken Sie, ziehen Sie den Rand per Drag-and-Drop an ein anderes Datum. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
+1. Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes, klicken Sie, ziehen Sie den Rand per Drag-and-Drop zu einem anderen Datum. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.
 
-   <span class="preview">![Leiste am linken Ende der Zeitleisten-Ansicht, um die Größe zu ändern](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   ![Leiste am linken Ende der Zeitleisten-Ansicht, um die Größe zu ändern](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">Klicken Sie auf eine Datensatzleiste, halten Sie sie gedrückt und ziehen Sie sie dann an eine andere Position, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.</span>
+1. Klicken Sie auf eine Datensatzleiste, halten Sie sie gedrückt und legen Sie sie dann an einer anderen Position ab, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps
 
 <!--add another step about drag and drop here when that is available-->
 
 1. Öffnen Sie die Seite „Datensatztyp“ in einer Kalenderansicht. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Bedingt) Bewegen Sie den Mauszeiger in der Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf, ziehen Sie die Ränder und legen Sie sie an einem anderen Datum ab. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.</span>
+1. (Bedingt) Bewegen Sie den Mauszeiger in der Kalenderansicht über die Enden der Leiste eines Datensatzes und klicken Sie dann auf das gewünschte Datum. Ziehen Sie die Ränder des Datensatzes per Drag-and-Drop an ein anderes Datum. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.
 
-   <span class="preview">![Leiste am linken Ende der Kalenderansicht, deren Größe geändert werden soll](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![Leiste am linken Ende der Kalenderansicht, deren Größe geändert werden soll](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">Klicken Sie auf eine Datensatzleiste, halten Sie sie gedrückt und ziehen Sie sie dann an eine andere Position, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.</span>
+1. Klicken Sie auf eine Datensatzleiste, halten Sie sie gedrückt und legen Sie sie dann an einer anderen Position ab, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes aus der Datensatzvorschau in einer Ansicht
 
@@ -305,9 +337,9 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Erweitertes Feld für die Datensatzvorschau der Echtzeit-Anzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[&#x200B; wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes &#x200B;](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
+1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[ wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes ](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
 
 ### Bearbeiten eines Datensatzes auf der Datensatzseite
 
@@ -351,7 +383,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    Oder
 
-   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
+   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -369,7 +401,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Das erweiterte Feld für die Datensatzvorschau der Echtzeitanzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Bearbeiten eines Datensatzes aus einem Workfront-Objekt im Planungsabschnitt
@@ -377,8 +409,6 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 Nachdem Sie Datensätze mit Workfront-Objekten verbunden haben, können Sie Workfront-Planungsdatensätze in Workfront im Planungsabschnitt des Objekts bearbeiten.
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
-<div class="preview">
 
 ## Bearbeiten von Einfach- oder Mehrfachauswahl-Feldeinstellungen beim Aktualisieren ihrer Werte
 
@@ -410,4 +440,3 @@ So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld ei
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>

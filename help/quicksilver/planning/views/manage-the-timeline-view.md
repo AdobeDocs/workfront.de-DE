@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3876'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 2%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produkte</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Einer der folgenden Workfront-Pläne:</p> 
-<ul><li>Auswählen</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
+<ul> 
+<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+Oder
+<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
-   <td> 
-<p>Beliebig </p> 
-<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
-   <td> 
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p> Standard zum Erstellen und Löschen von Ansichten</p>
    <p>Mitwirkender oder höher zum Aktualisieren von Ansichtselementen</p>
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
    <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren</p> </td> 
@@ -89,13 +68,76 @@ Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Date
    <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
    <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## Verwalten einer Zeitleisten-Ansicht {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ Beachten Sie Folgendes:
 So verwalten Sie eine Zeitleisten -Ansicht:
 
 1. Navigieren Sie zur Seite für den Datensatztyp, für den Sie die Zeitleiste anzeigen möchten.
-1. <span class="preview">Erstellen Sie eine Zeitleisten -Ansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben</span>
+1. Erstellen Sie eine Zeitleisten -Ansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-   <span class="preview">![Beispiel für Zeitleisten-Ansicht](assets/timeline-view-example.png)</span>
+   ![Beispiel für Zeitleisten-Ansicht](assets/timeline-view-example.png)
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden standardmäßig als Balken in einer Zeitleiste angezeigt und in chronologischer Reihenfolge ihres Startdatums sortiert.
 
@@ -175,9 +217,9 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. <span class="preview">Klicken Sie auf **Suchen**-Symbol ![Suchen-Symbol](assets/search-icon.png) und geben Sie ein Keyword ein, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben. </span>
+   1. Klicken Sie auf **Suche**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein, der mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
 
-      <span class="preview">![Suchfeld und Timeline-Ansicht der Ergebnisse](assets/search-box-and-results-timeline-view.png)</span>
+      ![Suchfeld und Timeline-Ansicht der Ergebnisse](assets/search-box-and-results-timeline-view.png)
 
       Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
 
@@ -187,30 +229,30 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    1. (Optional) Wenn mehr als eine Übereinstimmung vorliegt, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
    1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
 
-   1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Vollbild** (![Vollbildsymbol öffnen](assets/open-full-screen-icon.png), um die Ansicht im Vollbildmodus zu öffnen, dann auf das Symbol **Vollbildmodus beenden** (![-Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur mit Esc, um den Vollbildmodus zu verlassen.  </span>
+   1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol öffnen](assets/open-full-screen-icon.png) um die Ansicht im Vollbildmodus zu öffnen. Klicken Sie dann auf das **Vollbildsymbol beenden**-Symbol ![Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur auf Esc , um den Vollbildmodus zu verlassen.
 
 1. (Optional) Klicken Sie auf **Aufschlüsselung**, um verbundene Datensätze in der Zeitleiste anzuzeigen.
 
    Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion zum Anzeigen verbundener Datensätze in der Zeitleisten](#break-down-connected-records-in-the-timeline-view) in diesem Artikel.
-1. <span class="preview">Führen Sie einen der folgenden Schritte aus, um Datensätze in der Zeitleisten-Ansicht zu erstellen oder ihre Daten zu bearbeiten:</span>
+1. Führen Sie einen der folgenden Schritte aus, um Datensätze in der Zeitleisten-Ansicht zu erstellen oder ihre Daten zu bearbeiten:
 
-   * <span class="preview">Doppelklicken Sie auf eine beliebige Stelle in der Zeitleiste, um einen Datensatz zu erstellen. </span>
+   * Doppelklicken Sie auf eine beliebige Stelle in der Zeitleiste, um einen Datensatz zu erstellen.
 
-     <span class="preview">Weitere Informationen finden Sie unter [Erstellen von &#x200B;](/help/quicksilver/planning/records/create-records.md)</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">Klicken Sie auf den linken oder rechten Rand einer Datensatzleiste und ziehen Sie ihn dann per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- oder Enddatum sofort aktualisiert. </span>
-
-   * <span class="preview">Ziehen Sie Datensätze per Drag-and-Drop, um ihre Position und ihr Datum in der Zeitleiste zu aktualisieren. Durch Verschieben der Datensatzbalken wird das Start- und Enddatum sofort aktualisiert.</span>
-     <span class="preview">Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).</span>
+     Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   ><span class="preview"> Ändern der Größe und Ziehen und Ablegen von Datensätzen ist in der Zeitleiste für die in der Aufschlüsselung angezeigten Workfront- und AEM Assets-Objekttypen nicht möglich.</span>
+   >Doppelklicken zum Erstellen von Datensätzen in der Zeitleiste ist innerhalb einer Gruppierung nicht möglich.
 
+   * Klicken Sie auf den linken oder rechten Rand einer Datensatzleiste und ziehen Sie sie dann per Drag-and-Drop an eine neue Position. Wenn Sie die Größe der Balken der Datensätze ändern, werden das Start- oder Enddatum sofort aktualisiert.
+
+   * Ziehen Sie Datensätze per Drag-and-Drop, um ihre Position und ihr Datum in der Zeitleiste zu aktualisieren. Durch Verschieben der Datensatzbalken wird das Start- und Enddatum sofort aktualisiert.
+
+     Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+
+   >[!TIP]
+   >
+   >Das Ändern der Größe und das Ziehen und Ablegen von Datensätzen ist in der Zeitleiste für die in der Aufschlüsselung angezeigten Workfront- und AEM Assets-Objekttypen nicht möglich.
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
@@ -362,9 +404,9 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgend
 So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. <span class="preview">Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.</span>
+1. Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.
 
-   <span class="preview">![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** suchen Sie nach einem anderen Feld und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
@@ -372,9 +414,9 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
-   <span class="preview">Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.</span>
+   Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
-   <span class="preview">![Gruppierung in der Zeitleisten-Ansicht angewendet](assets/grouping-applied-in-timeline-view.png)</span>
+   ![Gruppierung in der Zeitleisten-Ansicht angewendet](assets/grouping-applied-in-timeline-view.png)
 
 1. Ziehen Sie **Feld Datensätze gruppieren nach** Gruppierungen in die richtige Reihenfolge.
 
@@ -385,7 +427,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -534,14 +576,10 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

@@ -4,9 +4,9 @@ description: Datensatztypen sind die Objekttypen von Adobe Workfront Planning. I
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Ein Workspace-Manager muss zunächst einen Datensatztyp als globalen Datensatzty
 
 Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-In diesem Artikel wird beschrieben, wie Sie einen Datensatztyp aus einem vorhandenen hinzufügen und löschen können, wenn er nicht mehr benötigt wird.
+Dieser Artikel beschreibt, wie Sie einen Datensatztyp aus einem vorhandenen hinzufügen können.
 
 Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzufügen, lesen Sie auch den Artikel [Übersicht über arbeitsbereich-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -49,32 +49,24 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul><li><p>Beliebiges Workfront-Paket</p></li>
-<p>Und</p>
-<li><p>Beliebiges Planungspaket zum Erstellen verbindbarer Datensatztypen</p></li>
-<li><p>Ein Planning Plus-Paket zum Erstellen globaler Datensatztypen</p></li>
-</ul>
-Oder:
-<ul><li><p>Ein Prime- oder Ultimate-Workflow-Paket</p> </li>
-Und
-<li><p>Ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront Account Manager. </p> 
-   </td>
-
-<tr> 
+<ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<p>Oder</p>
+<li><p>Workflow- und Planungspakete für Prime und Ultimate</p></p></li></ul>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten der Berechtigungen für einen Arbeitsbereich und den Datensatztyp</a> </p>  
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr>  
 </tbody> 
@@ -83,6 +75,45 @@ Und
 Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Prime or Ultimate Workflow package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>-->
 
 ## Erstellen eines Datensatztyps durch Hinzufügen eines vorhandenen Datensatztyps aus einem anderen Arbeitsbereich
 
@@ -117,6 +148,9 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
      >Das Erscheinungsbild, zusätzliche Einstellungen oder ursprüngliche Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
+1. (Optional) Klicken Sie auf der Karte des neuen Datensatztyps **das Menü** Mehr oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+
+   Weitere Informationen finden Sie im Abschnitt „Löschen globaler Datensatztypen“ im Artikel [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -125,34 +159,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 &lt;!—Mit Lilit prüfen, ob wir Automatisierungen hinzufügen oder Formulare an sekundäre globale RTs anfordern können??—Schritt mit Links zu diesen Artikeln hinzufügen, wenn/ wenn ja—>
 
-## Löschen eines globalen Datensatztyps aus einem sekundären Arbeitsbereich
 
-Sie können einen Datensatztyp löschen, den Sie aus einem anderen Arbeitsbereich hinzugefügt haben, falls er nicht mehr benötigt wird. Wenn Sie sie löschen, wird sie nur aus dem sekundären Arbeitsbereich entfernt.
-
-Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, werden auch die folgenden gelöscht:
-
-* Die vom sekundären Arbeitsbereich hinzugefügten Datensätze.
-* Die vom sekundären Arbeitsbereich hinzugefügten Felder.
-
-Globale Datensatztypen, die aus ihren sekundären Arbeitsbereichen gelöscht wurden, können nicht wiederhergestellt werden.
-
-Der ursprüngliche Datensatztyp verbleibt sowohl im ursprünglichen Arbeitsbereich als auch in anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
-
-So löschen Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich:
-
-1. Wechseln Sie zum globalen Datensatztyp im sekundären Arbeitsbereich.
-
-1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
-1. (Bedingt) Geben Sie **Löschen** in das bereitgestellte Feld ein und klicken Sie dann auf **Dauerhaft löschen**.
-
-   ![Bestätigungsfeld Sekundärer globaler Datensatztyp löschen](assets/delete-secondary-global-record-type.png)
-
-   Folgendes geschieht:
-
-   * Der aus einem globalen Datensatztyp erstellte Datensatztyp wird aus dem ausgewählten Arbeitsbereich entfernt.
-   * Der ursprüngliche Datensatztyp und seine Felder verbleiben im ursprünglichen Arbeitsbereich.
-   * Der Datensatztyp verbleibt in allen anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
-   * Die Datensätze und Felder, die dem Datensatztyp aus dem aktuellen Arbeitsbereich hinzugefügt wurden, werden gelöscht. Alle anderen Datensätze, die aus zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der globale Datensatztyp hinzugefügt wurde, bleiben erhalten. Felder bleiben in den Arbeitsbereichen erhalten, in denen sie hinzugefügt wurden.
 
 
 

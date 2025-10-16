@@ -4,9 +4,9 @@ description: Globale Datensatztypen können in Adobe Workfront Planning über ei
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -79,18 +79,23 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Bearbeiten
 
      Das Bearbeiten eines globalen Datensatztyps umfasst das Bearbeiten seines Erscheinungsbilds, seiner arbeitsbereichsübergreifenden Funktionen und aller im ursprünglichen Arbeitsbereich erstellten Felder.
-   * Anfrageformulare erstellen
-   * Anfrageformulare verwalten
+   * Anfrageformulare erstellen und verwalten
+   * Automatisierungen erstellen und verwalten
 
 * Ein globaler Datensatztyp kann nur gelöscht werden, wenn er nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde. Sie müssen sie zunächst (durch Löschen) aus den sekundären Arbeitsbereichen entfernen, bevor Sie sie aus dem ursprünglichen Arbeitsbereich löschen können.
+
+  Weitere Informationen finden Sie unter [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md).
 * Die Datensätze, die Sie einem globalen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den Arbeitsbereich verfügen, in dem sie hinzugefügt wurden.
 * Die Datensätze, die Sie aus einem sekundären Arbeitsbereich hinzufügen, werden aggregiert und im ursprünglichen Arbeitsbereich angezeigt. Alle Mitglieder des ursprünglichen Arbeitsbereichs erhalten Ansichtsberechtigungen für sie.
-* Wenn der ursprüngliche globale Datensatztyp mehreren sekundären Arbeitsbereichen hinzugefügt wurde, können Sie die zu anderen Arbeitsbereichen hinzugefügten Datensätze nur aus dem ursprünglichen Arbeitsbereich oder aus Arbeitsbereichen anzeigen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen.
+* Wenn der ursprüngliche globale Datensatztyp mehreren sekundären Arbeitsbereichen hinzugefügt wird, existieren die folgenden Szenarien:
+
+   * Mitglieder des ursprünglichen Arbeitsbereichs erhalten automatisch Ansichtsberechtigungen für alle Datensätze, die aus einem Arbeitsbereich hinzugefügt wurden, selbst wenn sie nicht Mitglieder dieser Arbeitsbereiche sind.
+   * Sekundäre Arbeitsbereichsmitglieder können nur Datensätze aus Arbeitsbereichen anzeigen, in denen sie Mitglied sind.
 * Die verbundenen Datensatztypen eines globalen Datensatztyps werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
 
   Wenn Sie beispielsweise über einen globalen Campaign-Datensatztyp verfügen, der eine Verbindung mit dem Datensatztyp Regionen aufweist, und Sie den Campaign-Datensatztyp einem sekundären Arbeitsbereich hinzufügen, werden Regionen vom sekundären Arbeitsbereich aus arbeitsbereichsübergreifend verbindbar. Die Mitglieder des sekundären Arbeitsbereichs können jetzt Kampagnen erstellen und sie mit Regionen verknüpfen.
 
-* Felder, die für einen globalen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird. Die Feldeinstellungen eines ursprünglichen Arbeitsbereichs sind in den sekundären Arbeitsbereichen schreibgeschützt.
+* Felder, die für einen globalen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird. Sie können Feldeinstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten. Die Einstellungen der im ursprünglichen Arbeitsbereich erstellten Felder sind in den sekundären Arbeitsbereichen für alle Mitglieder schreibgeschützt, unabhängig von ihren Berechtigungen für den sekundären Arbeitsbereich. Sekundär Workspace-Manager können die Feldeinstellungen für Felder, die im ursprünglichen Workspace konfiguriert wurden, nicht ändern. Nur die Arbeitsbereich-Manager des ursprünglichen Arbeitsbereichs können die Feldeinstellungen im ursprünglichen Arbeitsbereich ändern.
 
 ### Überlegungen zu globalen Datensatztypen in einem sekundären Arbeitsbereich
 
@@ -103,6 +108,8 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Löschen.
 
      Wenn Sie den Datensatztyp aus einem sekundären Arbeitsbereich löschen, wird er nur aus dem sekundären Arbeitsbereich entfernt. Die Datensätze und Felder, die ihm aus dem sekundären Arbeitsbereich hinzugefügt wurden, werden ebenfalls gelöscht. Dadurch wird der Datensatztyp nicht aus seinem ursprünglichen Arbeitsbereich oder aus anderen sekundären Arbeitsbereichen, in denen er hinzugefügt wurde, gelöscht.
+
+     Weitere Informationen finden Sie unter [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
@@ -128,7 +135,7 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
 * Die folgenden Szenarien existieren für Datensätze, die in sekundären Arbeitsbereichen erstellt wurden:
 
    * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Arbeitsbereich und keine Berechtigungen für sekundäre Arbeitsbereiche verfügen, können Sie Datensätze anzeigen, die von den sekundären Arbeitsbereichen im ursprünglichen Arbeitsbereich hinzugefügt wurden. Sie können diese jedoch nicht über den ursprünglichen Arbeitsbereich verwalten.
-   * Wenn Sie über Verwaltungsberechtigungen für den sekundären Arbeitsbereich verfügen, können Sie die Datensätze im ursprünglichen Arbeitsbereich des globalen Datensatztyps oder in dem Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
+   * Wenn Sie über Verwaltungsberechtigungen für den sekundären Arbeitsbereich verfügen, können Sie die Datensätze sowohl aus dem ursprünglichen Arbeitsbereich des globalen Datensatztyps als auch aus dem sekundären Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
    * Sie können die Datensätze in zusätzlichen sekundären Arbeitsbereichen anzeigen, bei denen der globale Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen.
 
 ### Zugriff auf die Verbindungen eines globalen Datensatztyps

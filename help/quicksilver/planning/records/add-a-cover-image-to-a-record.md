@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '648'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,45 @@ Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/pl
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
+   <td> 
+<ul> 
+<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+Oder
+<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td>   <p>Beitragen von oder höhere Berechtigungen für einen Arbeitsbereich und einen Datensatztyp  </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,56 +81,52 @@ Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/pl
     <tr> 
 <tr> 
 <td> 
-   <p> Produkte</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront-Planung<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Einer der folgenden Workfront-Pläne:</p> 
-<ul><li>Auswählen</li> 
-<li>Erstklassig</li> 
-<li>Ultimativ</li></ul> 
-<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Beliebig </p> 
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront Account Manager. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td><p> Standard</p>
-   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Beitragen von oder höhere Berechtigungen für einen Arbeitsbereich und einen Datensatztyp  </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Überlegungen zu Aufzeichnungs-Seitenabdeckungsbildern
 
@@ -129,14 +163,14 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) &#x200B;](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) ](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![Vorschaufeld Details](assets/details-box.png)
 
 
-1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![&#x200B; Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![ Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
@@ -146,14 +180,14 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Oder
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
+   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
 Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet.
 
    ![Plattenhülle zum Hochladen](assets/record-cover-box-for-upload.png)
 
 1. Klicken Sie **Bilder durchsuchen** und suchen Sie ein Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
 
-1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![&#x200B; (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
+1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![ (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
 
 1. (Optional) Klicken Sie auf **Galerie** und klicken Sie dann auf ein Bild in der Galerie. Die Bildergalerie kann nicht geändert werden.
 

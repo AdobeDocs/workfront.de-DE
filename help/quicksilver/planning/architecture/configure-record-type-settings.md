@@ -1,11 +1,11 @@
 ---
-title: Konfigurieren der Einstellungen für Datensatztypen
+title: Konfigurieren des Einstellungsbereichs eines Datensatztyps
 description: Datensatztypen können bearbeitet werden, nachdem sie auf der Seite Einstellungen gespeichert wurden.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Konfigurieren der Einstellungen für Datensatztypen
+# Konfigurieren des Bereichs Einstellungen eines Datensatztyps
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -66,10 +66,8 @@ Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, k
 <li><p>Beliebiges Planungspaket zum Erstellen verbindbarer Datensatztypen</p></li>
 <li><p>Planning Plus-Paket zum Erstellen zentralisierter Datensatztypen</p></li>
 </ul>
-Oder:
-<ul><li><p>Beliebiges Workflow-Paket</p> </li>
-Und
-<li><p>Planen eines Prime- oder Ultimate-Pakets</p></li></ul>
+<p>Oder:</p>
+<ul><li><p>Ein Workflow- und Planungs-Prime- oder Ultimate-Paket</p> </li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td>
 
