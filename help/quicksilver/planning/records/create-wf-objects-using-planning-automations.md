@@ -160,7 +160,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
   `[ Name of the record ] Name of the field choice`
 
-  Weitere Informationen finden Sie [ Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
 
 * Neue Objekte oder Datensätze überschreiben nicht vorhandene im selben Feld. Durch das mehrfache Auslösen derselben Automatisierung für denselben Datensatz werden die neuen Objekte oder Datensätze im selben verbundenen Feld des ursprünglichen Datensatzes zusätzlich zu den zuvor erstellten hinzugefügt.
 

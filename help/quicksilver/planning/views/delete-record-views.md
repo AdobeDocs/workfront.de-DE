@@ -143,7 +143,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    * Führen Sie je nach Umgebung, von der aus Sie auf die Ansicht zugreifen, die folgenden Schritte aus:
 
-      * Bewegen Sie in der Produktionsumgebung den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Löschen**.
+      * Bewegen Sie in der Produktionsumgebung den Mauszeiger über den Namen der Registerkarte der Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Namen der Ansicht und klicken Sie dann auf **Löschen**.
 
      >[!TIP]
      >

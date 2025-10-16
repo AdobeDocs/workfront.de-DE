@@ -155,11 +155,11 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Das Vorschaufeld des Datensatzes wird geöffnet.
 
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 
 1. Wählen Sie die **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet sein.
 
-1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf ](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
+1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
 
    * **Microsoft Word**
    * **Adobe PDF**
