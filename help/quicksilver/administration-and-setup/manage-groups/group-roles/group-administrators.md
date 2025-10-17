@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Adobe Workfront-Administratoren in einem großen Unternehmen mit vielen Abteilungen möchten möglicherweise nicht alle Abteilungen und Gruppen innerhalb dieser Abteilungen verwalten. Stattdessen können sie für jede Abteilung und jede Untergruppe innerhalb dieser Gruppe eine Gruppe erstellen, die jeweils von einem Gruppenadministrator verwaltet werden.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Wenn Sie Workfront-Administrator sind, empfehlen wir, Folgendes zu tun, bevor Si
 * Notieren Sie sich die Anzahl der Gruppen, die Sie in Ihrem System haben.
 * Ermitteln Sie, ob Sie die Zugriffsebene einiger Workfront-Administratoren ändern und sie stattdessen als Gruppenadministratoren festlegen können.
 
-  Weitere Informationen zu den Funktionen von Gruppenadministratoren finden Sie unter [Aufgaben von &#x200B;](#tasks-done-by-group-administrators) in diesem Artikel.
+  Weitere Informationen zu den Funktionen von Gruppenadministratoren finden Sie unter [Aufgaben von ](#tasks-done-by-group-administrators) in diesem Artikel.
 
 * Legen Sie fest, ob Gruppenadministratoren in der Lage sein sollen, sich als andere Benutzer anzumelden, oder die Passwörter für Benutzer in den von Ihnen verwalteten Gruppen zurücksetzen können. Für diese Aufgaben ist zusätzlicher Zugriff erforderlich, wie unten unter [Zugriff für Gruppenadministratoren erforderlich](#access-needed-for-group-administrators) beschrieben.
 * Für eine bessere Benutzerverwaltung sollten Sie ggf. Gruppen oder Untergruppen anstelle von Benutzern den folgenden Objekten zuweisen:
@@ -66,7 +66,7 @@ Es wird empfohlen, dass Gruppenadministratoren Bearbeitungszugriff auf Benutzer 
 >[!IMPORTANT]
 >
 >Gruppenadministratoren müssen höhere Zugriffsrechte als die von ihnen verwalteten haben. Andernfalls können sie niedrigere Zugriffsebenen nicht anzeigen oder ändern.
->Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>>Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Für einen Gruppenadministrator, der Benutzern in ihren Gruppen und Untergruppen Arbeitszeittabellen-Profile zuweisen muss, empfehlen wir außerdem den administrativen Zugriff auf Arbeitszeittabellen und Stunden. Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -116,7 +116,7 @@ Als Gruppenadministrator können Sie die unten beschriebenen Aufgaben ausführen
 
 ### Gruppenvoreinstellungen und Tools verwalten {#manage-group-preferences-and-tools}
 
-* Wenn die Voreinstellung für ein Projekt, eine Aufgabe oder ein Problem oder die Voreinstellung für Arbeitszeittabellen und Stunden für Gruppen im gesamten System entsperrt ist, bearbeiten Sie diese Voreinstellung für von Ihnen verwaltete Gruppen. Diese Voreinstellungen wirken sich auf das Verhalten von Projekten, Aufgaben und Problemen aus. Weitere Informationen finden Sie unter:
+* Wenn die Voreinstellung für ein Projekt, eine Aufgabe oder ein Problem oder die Voreinstellung für Arbeitszeittabellen und Stunden für Gruppen im gesamten System entsperrt ist, bearbeiten Sie diese Voreinstellung für von Ihnen verwaltete Gruppen. Diese Voreinstellungen wirken sich auf das Verhalten von Projekten, Aufgaben und Problemen aus. Weitere Informationen finden Sie hier:
 
    * [Projektvoreinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Konfigurieren der Voreinstellungen für Aufgaben und Probleme für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

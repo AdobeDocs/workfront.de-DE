@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Benachrichtigungen: Von mir eingereichte Anfragen'
 description: Die folgenden Benachrichtigungen informieren Sie über Anfragen, die Sie in Adobe Workfront gestellt haben.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ein Dokument zu einem Problem, für das ich der primäre Ansprechpartner bin, wurde geändert oder hochgeladen</strong> </p> <p>Der primäre Kontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zu dem Problem hochgeladen oder geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist auch der primäre Kontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn das Projekt als [!UICONTROL Help Request Queue] eingerichtet ist (wie in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue] beschrieben</a>.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Dokument hinzugefügt zu &lt;Name des Problems&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em>Zusammenfassung Ihrer Anfragen &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> Objektname, in den das Dokument hochgeladen wurde<br>Übergeordneter Objektname<br>Dokumentreferenznummer<br>Name des Benutzers, der das Dokument hochgeladen hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiaturansicht<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong>-Schaltflächen<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der hochgeladenen Dokumente<br>*Name des Dokuments<br>*Name des übergeordneten Objekts<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Objektname, in den das Dokument hochgeladen wurde<br>Übergeordneter Objektname<br>Dokumentreferenznummer<br>Name des Benutzers, der das Dokument hochgeladen hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiaturansicht<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong>-Schaltflächen<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der hochgeladenen Dokumente<br>*Name des Dokuments<br>*Name des übergeordneten Objekts<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
@@ -56,12 +56,12 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ich füge einem Projekt eine Anfrage hinzu</strong> </p> <p>Der primäre Kontakt für ein Problem erhält eine Benachrichtigung, wenn er ein Problem in einem Projekt hinzufügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] oder [!UICONTROL Planning] ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Problem gesendet]: &lt;Problemname&gt; am &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em> Zusammenfassung Ihrer Anfragen &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Problem-Referenznummer<br>Ihr Name<br>Problem-Name<br>Eingegebenes Datum<br>Problem-Priorität<br>Problem-Status<br>Dem Namen zugewiesen<br>Primärer Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Probleme<br>*Problem-Name<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Projektname<br>Portfolio Primär-Name<br>Problem-Referenznummer<br>Ihr Name<br>Problem-Name<br>Datum eingegeben<br>Problem-Priorität<br>Problem-Status<br>Zugeordneter Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Probleme<br>*Problem-Name<br>*Datum der täglichen Zusammenfassung<br> </td> 
    <td> <p><strong>Instant</strong> </p> <p><strong>und täglich</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Ich sende eine Anfrage (Bestätigung)</strong> </p> <p>Der Primäre Kontakt für das Problem erhält eine E-Mail-Benachrichtigung, wenn er ein Problem sendet.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] ist und wenn das Projekt als [!UICONTROL Help Request Queue] eingerichtet ist (wie in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue] beschrieben</a>).</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Anfrage gesendet]: &lt;Anfragename&gt; unter &lt;Name der Projektanfragewarteschlange&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em> Zusammenfassung Ihrer Anfragen &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> <p>Projektname (Name der Anfrage-Warteschlange)<br>Portfolio-Name<br>Anfrage-Referenznummer<br>Anfrage-Name<br>Datum eingegeben<br>Anfrage-Priorität<br>Problemstatus<br>Dem Namen zugewiesen<br>Primärer Kontakt<br>*Projekt-Referenznummer<br>*Projektname<br>*Gesamtzahl der gesendeten Anfragen<br>*Anfragename<br>*Anfragepriorität<br>*Datum der täglichen Zusammenfassung</p> </td> 
+   <td> <p>Projektname (Name der Anfrage-Warteschlange)<br>Portfolio-Name<br>Anfrage-Referenznummer<br>Anfragename<br>Datum eingegeben<br>Anfragepriorität<br>Anfragestatus<br>Dem Namen zugewiesen<br>Primärer Kontakt<br>*Projekt-Referenznummer<br>*Projektname<br>*Gesamtzahl der gesendeten Anfragen<br>*Anfragename<br>*Anfragepriorität<br>*Datum der täglichen Zusammenfassung</p> </td> 
    <td> <p><strong>Instant</strong> </p> <p><strong>und täglich</strong> </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Der Status eines von mir erstellten Projekts ändert sich</strong> </p> <p>Der Benutzer, der das Projekt erstellt hat, erhält eine E-Mail-Benachrichtigung, wenn sich der Projektstatus ändert.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektstatusänderung]: &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of your Requests] &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der den Status geändert hat<br>Neuer Status<br>Datum und Uhrzeit, zu der der Projektstatus geändert wurde<br>Vorheriger Projektstatus<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projektname<br>*Projekt-Referenznummer<br>*Projekt-Neustatus<br>*Name des Benutzers, der den Projektstatus geändert hat<br>*Datum der täglichen Zusammenfassung</p> </td> 
+   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der den Status geändert hat<br>Neuer Status<br>Datum und Uhrzeit, zu der der Projektstatus geändert wurde<br>Vorheriger Projektstatus<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projektname<br>*Projekt-Referenznummer<br>*Projekt-Neuer Status<br>*Name des Benutzers, der den Projektstatus geändert hat<br>*Datum der täglichen Zusammenfassung</p> </td> 
    <td> <p><strong>Instant</strong> </p> </td> 
   </tr> 
   <tr> 

@@ -3,19 +3,19 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Story vom Kanban-Board löschen
 description: Sie können eine Story oder ein Problem aus dem Kanban-Board löschen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 1%
 
 ---
 
-# Storys oder Probleme aus dem Kanban[!UICONTROL Board &#x200B;]
+# Storys oder Probleme aus dem Kanban[!UICONTROL Board ]
 
-Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board &#x200B;]. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
+Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board ]. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
 
 ## Zugriffsanforderungen
 

@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Erstellen und Verwalten von Teams
 description: In diesen Artikeln erfahren Sie, wie Sie Teams in Adobe Workfront erstellen und verwalten.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Team deaktivieren](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Ersetzen Sie [!UICONTROL &#x200B; Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Ersetzen Sie [!UICONTROL  Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

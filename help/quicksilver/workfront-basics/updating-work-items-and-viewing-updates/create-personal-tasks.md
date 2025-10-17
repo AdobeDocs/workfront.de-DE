@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Persönliche Aufgaben erstellen
 description: Persönliche Aufgaben sind Ad-hoc-Arbeitsanfragen, die Sie an einen Benutzer bzw. an sich selbst senden, oder Aufgaben, die Sie für sich selbst in Ihrem Home-Bereich erstellen. Workfront speichert Ad-hoc-Arbeitsanfragen und erledigt Elemente als persönliche Aufgaben.
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%

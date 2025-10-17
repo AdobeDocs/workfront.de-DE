@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich Startseite
 description: Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Startseite] in Adobe Workfront anzeigen und hinzufügen. Sie können auch andere mit dem Arbeitselement verknüpfte Daten bearbeiten, wenn Sie Zugriff zur Bearbeitung haben.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 7%
@@ -98,7 +98,7 @@ Sie können Arbeitselemente in den folgenden Widgets im Bereich Startseite bearb
 
 ## Hinzufügen eines Kommentars zu einem Arbeitselement im Widget Meine Arbeit
 
-Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL &#x200B; Arbeit“ &#x200B;]:
+Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL  Arbeit“ ]:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget [!UICONTROL **Meine Arbeit**] hinzuzufügen.

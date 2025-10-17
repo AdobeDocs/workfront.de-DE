@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Massenbearbeitung von Benutzerprofilen
 description: Als Adobe Workfront-Administrator können Sie Benutzerkonten stapelweise bearbeiten.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 72d0b8e0e190f774c7e3f14a78904fb1dd3f2b14
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2587'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -171,7 +171,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
 * **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um festzulegen, dass diese Benutzer an einem bestimmten Datum und zu einer bestimmten Uhrzeit deaktiviert werden sollen.
-* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung der Benutzer. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung der Benutzer. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das die Benutzerinnen und Benutzer in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der/dem die Benutzenden zugewiesen sind, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.
@@ -195,7 +195,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter [Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
 * **Zeitplan**: Ordnen Sie den Benutzern einen Zeitplan zu. Der Zeitplan der Benutzer berechnet die Zeitleiste der Aufgaben, denen die Benutzer zugewiesen sind.
 
@@ -203,7 +203,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   >[!IMPORTANT]
   >
-  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 * **Arbeitszeittabellen-**: Verknüpfen Sie die Benutzer mit einem Arbeitszeittabellen-Profil, um sicherzustellen, dass Arbeitszeittabellen automatisch generiert werden.
 

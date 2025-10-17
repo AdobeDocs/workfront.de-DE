@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Löschen eines Kalenderberichts
 description: Sie können einen Kalender löschen, dessen Besitzer Sie sind oder den andere für Sie freigegeben haben. Nach dem Löschen ist der Kalender für Benutzende, für die Sie ihn freigegeben haben, nicht mehr zugänglich.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%

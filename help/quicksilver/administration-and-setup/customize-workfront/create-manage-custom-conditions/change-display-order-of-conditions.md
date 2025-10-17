@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Sie können die Reihenfolge ändern, in der Bedingungen angezeigt werden, wenn ein Benutzer ein Projekt bearbeitet, oder die Bedingung für eine Aufgabe oder ein Problem ändern.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: e50afb39f151ae8663ca2903454b475b21aa6f83
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
-1. Wählen Sie die **Projekte**, **&#x200B;**&#x200B;oder **Probleme** aus.
+1. Wählen Sie die **Projekte**, **** oder **Probleme** aus.
 
 1. Ziehen Sie ![move icon](assets/move-icon---dots.png) die Bedingungen, um ihre Reihenfolge zu ändern.
 

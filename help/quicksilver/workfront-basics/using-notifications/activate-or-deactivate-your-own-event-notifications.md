@@ -4,10 +4,10 @@ navigation-topic: notifications
 keywords: ändern,E-Mail,Benachrichtigung,Einstellungen
 title: Eigene E-Mail-Benachrichtigungen ändern
 description: In diesem Artikel wird beschrieben, wie Sie Ihre E-Mail-Benachrichtigungen in Ihrem Benutzerprofil verwalten können.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von &#x200B;] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
+Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von ] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
 
-Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert &#x200B;]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
+Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert ]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
 
 Sie können dies weiter anpassen, indem Sie konfigurieren, welche Benachrichtigungen Sie erhalten. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen oder in einer täglichen Digest-E-Mail erhalten möchten.
 

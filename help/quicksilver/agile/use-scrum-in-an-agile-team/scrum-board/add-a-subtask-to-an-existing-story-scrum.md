@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Hinzufügen einer Unteraufgabe zu einer vorhandenen Story auf dem Scrum-Board
 description: Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys die Einstellung Fertigstellungsmodus für das Projekt, da dies beeinflusst, wie Storys aktualisiert werden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Teilaufgabe hinzufügen](assets/agile-story-addsubtask2-NWE.png)
 
-   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ &#x200B;] und die Unteraufgabe wird in die Anzeigespur verschoben.
+   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ ] und die Unteraufgabe wird in die Anzeigespur verschoben.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -106,7 +106,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> (Nur in Projekten verfügbar) Geben Sie die Anzahl der geplanten Stunden für die Aufgabe an.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Zuweisung]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL-Zuweisung]</strong></td>
       <td>Geben Sie den Namen des Teams ein, dem Sie die Unteraufgabe zuweisen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</td>
      </tr>
     </tbody>

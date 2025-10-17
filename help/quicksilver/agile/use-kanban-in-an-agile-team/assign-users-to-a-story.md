@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Zuweisen von Benutzern zu einer Story auf dem Kanban-Board
 description: Sie können Benutzern direkt auf dem Kanban-Board Storys zuweisen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# Benutzer einer Story auf dem Kanban[!UICONTROL Board &#x200B;]
+# Benutzer einer Story auf dem Kanban[!UICONTROL Board ]
 
 Sie können Benutzern direkt auf dem Kanban-Board Storys zuweisen.
 
@@ -43,7 +43,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Benutzer einer Story auf dem Kanban[!UICONTROL Board &#x200B;]
+## Benutzer einer Story auf dem Kanban[!UICONTROL Board ]
 
 {{step1-to-team}}
 

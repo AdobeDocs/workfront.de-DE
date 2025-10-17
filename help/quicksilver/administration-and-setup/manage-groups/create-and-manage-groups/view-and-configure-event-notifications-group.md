@@ -5,11 +5,11 @@ keywords: Anzeigen,Gruppe,Ereignis,Benachrichtigungen,Konfigurieren,Aktivieren,D
 navigation-topic: create-and-manage-groups
 title: Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe
 description: Als Gruppenadministrator können Sie die Ereignisbenachrichtigungen anzeigen, die für eine von Ihnen verwaltete Gruppe aktiviert sind. Wenn ein Adobe Workfront-Administrator eine Ereignisbenachrichtigung entsperrt, können Sie sie auch für eine von Ihnen verwaltete Gruppe auf oberster Ebene konfigurieren. Bei der Konfiguration einer Ereignisbenachrichtigung wird diese aktiviert oder deaktiviert.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

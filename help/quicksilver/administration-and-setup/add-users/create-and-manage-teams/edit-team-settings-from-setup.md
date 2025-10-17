@@ -1,14 +1,14 @@
 ---
 title: Bearbeiten der Einstellungen eines Teams im Bereich „Setup“
 description: Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich „Setup“ bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layout-Vorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

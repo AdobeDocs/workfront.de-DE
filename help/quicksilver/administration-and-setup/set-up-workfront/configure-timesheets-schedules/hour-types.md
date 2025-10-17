@@ -5,11 +5,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Stundentypen verwalten
 description: Stundentypen können mit Stundeneinträgen verknüpft werden. Stundentypen sind Beschriftungen, mit denen Sie Ihre Stundeneinträge definieren. Stundentypen können für allgemeine Zeit oder für projektspezifische Zeit sein.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Informationen zur Protokollierung von Stunden und deren Verknüpfung mit Stunden
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -126,7 +126,7 @@ Stundentypen erstellen:
       <td>Fügen Sie eine Beschreibung für Ihren Stundentyp hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Umfang]</td> 
+      <td role="rowheader">[!UICONTROL-Umfang]</td> 
       <td> <p>Wählen Sie im Dropdown-Menü <strong>Umfang“ aus, ob es sich bei dem Stundentyp um einen allgemeinen oder </strong> projektspezifischen Stundentyp handelt.</p> <p>Allgemeine Stundentypen sind nur in Arbeitszeittabellen sichtbar und können nicht mit Projekten, Aufgaben oder Problemen verknüpft werden.</p> <p><b>WICHTIG</b></p><p> Wenn Sie einen benutzerdefinierten Stundentyp haben, der [!UICONTROL Project-spezifisch] ist, und Sie ihn in [!UICONTROL Allgemein] ändern, werden alle vorhandenen Aufgaben, Probleme und Projektstunden auf ihre Systemstandardtypen gesetzt.</p> </td> 
      </tr> 
      <tr> 
@@ -157,7 +157,7 @@ Als [!DNL Workfront] können Sie Stundentypen für Ihr Unternehmen auf System- u
 
 1. Klicken Sie im linken Bereich auf **Arbeitszeittabelle und Stunden** und dann auf **Stundentypen**.
 
-1. Klicken Sie auf einen Namen für den Stundentyp oder wählen Sie den Stundentyp aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
+1. Klicken Sie auf einen Namen für den Stundentyp oder wählen Sie den Stundentyp aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 1. Geben **im Dialogfeld** Stundentypen bearbeiten“ die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
@@ -173,7 +173,7 @@ Als [!DNL Workfront] können Sie Stundentypen für Ihr Unternehmen auf System- u
       <td>Fügen Sie eine Beschreibung für Ihren Stundentyp hinzu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Umfang]</td> 
+      <td role="rowheader">[!UICONTROL-Umfang]</td> 
       <td> <p>Wählen Sie im Dropdown-Menü <strong>Umfang“ aus, ob es sich bei dem Stundentyp um einen allgemeinen oder </strong> projektspezifischen Stundentyp handelt.</p> <p>Allgemeine Stundentypen sind nur in Arbeitszeittabellen sichtbar und können nicht mit Projekten, Aufgaben oder Problemen verknüpft werden.</p> <p><b>WICHTIG</b></p> <p>Wenn Sie einen benutzerdefinierten Stundentyp haben, der [!UICONTROL Project-spezifisch] ist, und Sie ihn in [!UICONTROL Allgemein] ändern, werden alle vorhandenen Aufgaben, Probleme und Projektstunden auf ihre Systemstandardtypen gesetzt.</p> </td> 
      </tr> 
      <tr> 

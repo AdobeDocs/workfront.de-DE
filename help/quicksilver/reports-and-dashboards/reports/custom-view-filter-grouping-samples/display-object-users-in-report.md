@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Berichte oder Listen: Zeigt Benutzer an, die mit einem Objekt verknüpft sind'
 description: Sie können Benutzer, Aufgabengebiete und Teams, die mit Objekten in Berichten oder Listen verknüpft sind, anzeigen und in Filtern auf diese verweisen. Sie können nicht nach Benutzern, Aufgabengebieten oder Teams gruppieren, die mit Objekten verknüpft sind.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%

@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Benachrichtigungen: Informationen zu Projekten, an denen ich mitwirke'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in Projekten, an denen Sie arbeiten.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <tbody> 
   <tr> 
    <td> <p><strong>Einem Projekt, an dem ich mitarbeite, wurde ein Dokument hinzugefügt</strong> </p> <p>Mitglieder eines Projekt-Teams erhalten eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird, mit Ausnahme des Benutzers, der das Dokument hinzugefügt hat.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Aktuell] und das Dokument nicht Privat ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist <em>[!UICONTROL Dokument hinzugefügt zu] &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist <em>[!UICONTROL Digest of Projects You're On] &lt;Date of daily Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokument-Name<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokument-Miniaturansicht<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong>-Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokument-Name<br>*Name des Benutzers, der das Dokument hochgeladen hat<br>*Date of Daily Digest </td> 
+   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiatur<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hochgeladen hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ein Projekt, an dem ich mitarbeite, ist jetzt aktiv</strong> </p> <p>Mitglieder eines Projektteams erhalten eine E-Mail-Benachrichtigung, wenn der Projektstatus auf [!UICONTROL Aktuell] gesetzt ist.</p> <p>Hinweis: Benutzer müssen auf der Registerkarte „Personal“ eines Projekts aufgeführt werden, um Benachrichtigungen zu erhalten, wenn ein Projektstatus auf [!UICONTROL Aktuell] festgelegt ist. Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie unter <a href="../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Verwalten des Projektteams</a>.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist <em>&lt;Projektname&gt; [!UICONTROL ist aktuell - Gehen Sie zu Ihrem Projekt und sehen Sie sich Ihre Aufgaben an!]</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily Digest&gt; </em></p> </td> 
-   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Projektstatus<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekteigentümer<br>Eine Liste der Aufgaben, die Ihnen, einem Ihrer Aufgabengebiete oder einem Ihrer Teams zugewiesen wurden<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projektname<br>*Projekt-Referenznummer<br>*Projektstatus<br>*Datum der täglichen Zusammenfassung</p> </td> 
+   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Projektstatus<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projektinhaber<br>Eine Liste der Aufgaben, die Ihnen, einem Ihrer Aufgabengebiete oder einem Ihrer Teams zugewiesen wurden<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projektname<br>*Projekt-Referenznummer<br>*Projektstatus<br>*Datum der täglichen Zusammenfassung</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -65,7 +65,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Einem Projekt, an dem ich mitarbeite, wurde eine Anfrage hinzugefügt</strong> </p> <p>Mitglieder eines Projektteams erhalten eine E-Mail-Benachrichtigung, wenn ein Problem zum Projekt hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist <em>[!UICONTROL Problem hinzugefügt zu] &lt;Projektname&gt;</em></p> <p> </p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily Digest&gt; </em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Problem-Referenznummer<br>Name des Benutzers, der das Problem hinzugefügt hat<br>Problem-Typ<br>Problem-Name<br>Datum eingegeben<br>Problem-Priorität<br>Dem Namen zugewiesen<br>Problemstatus<br>Primärer Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der dem Projekt hinzugefügten Probleme<br>*Problem-Name<br>*Name des Benutzers, der dem Problem zugewiesen wurde<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Projektname<br>Portfolio-Name<br>Problem-Referenznummer<br>Name des Benutzers, der das Problem hinzugefügt hat<br>Problemtyp<br>Problemname<br>Datum eingegeben<br>Problempriorität<br>Dem Namen zugewiesen<br>Problemstatus<br>Primärer Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der dem Projekt hinzugefügten Probleme<br>*Problemname<br>*Name des Benutzers, der dem Problem zugewiesen wurde<br>*Datum der täglichen Zusammenfassung </td> 
    <td> <p><strong>Instant</strong> </p> <p><strong>und täglich</strong> </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ich werde zu einem Projekt hinzugefügt</strong> </p> <p>Der Benutzer, der zum Projekt hinzugefügt wurde, erhält eine E-Mail-Benachrichtigung, wenn er hinzugefügt wird, es sei denn, der Benutzer hat sich selbst zum Projekt hinzugefügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist <em>[!UICONTROL Sie wurden zum Projekt hinzugefügt] &lt;Projektname&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist <em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily Digest&gt; </em></p> </td> 
-   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der Sie zum Projekt hinzugefügt hat<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekt in Prozent abgeschlossen<br>Namen anderer auf Projekt <br>Projektinhaber<br><strong>Weitere Details anzeigen</strong> Schaltfläche<br>*Projektname<br>*Projekt-Referenznummer<br>*Datum der täglichen Zusammenfassung</p> </td> 
+   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der Sie zum Projekt hinzugefügt hat<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekt in Prozent abgeschlossen<br>Namen anderer auf Projekt <br>Projektinhaber<br><strong>Weitere Details anzeigen</strong>-Schaltfläche<br>*Projektname<br>*Projekt-Referenznummer<br>*Datum der täglichen Zusammenfassung</p> </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

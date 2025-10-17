@@ -4,10 +4,10 @@ navigation-topic: get-started-with-workfront
 title: 'Navigieren [!DNL Adobe Workfront]: Artikelindex'
 description: Lesen Sie diese Artikel, um zu verstehen, wie Sie in Adobe Workfront navigieren und die Terminologie von Workfront erlernen.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Lesen Sie diese Artikel, um zu verstehen, wie Sie in Adobe Workfront navigieren 
 Dieser Abschnitt enthält die folgenden Unterabschnitte und Artikel:
 
 * [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-* [Glossar der  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Glossar der  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] Häufig gestellte Fragen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [Suche [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search.md)

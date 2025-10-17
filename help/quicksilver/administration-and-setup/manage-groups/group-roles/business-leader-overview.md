@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Übersicht über Business Leader
 description: In einer Gruppe ist der Business Leader die Person, die Entscheidungen für die Gruppe in Bezug auf Ziele, Strategien, Budget, Einstellung usw. trifft. In einer Organisation mit einem Chief Marketing Officer wäre diese Person beispielsweise wahrscheinlich der Business Leader für Marketing.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Grundlegendes zur Navigation bei Benutzern mit Überprüfungslizenzen
 description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ihrem/ [!DNL Adobe Workfront]  zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 ## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Prüfers]
 
-Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
+Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL &#x200B; enthalten]:
+Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL  enthalten]:
 
 * **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]** der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit dem Lizenztyp **[!UICONTROL Meine Updates]** standardmäßig durch den Bereich „Meine Updates“ ersetzt. Als [!UICONTROL Prüfer] schließen Sie Ihre Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten anzeigen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Review-Benutzer.
 

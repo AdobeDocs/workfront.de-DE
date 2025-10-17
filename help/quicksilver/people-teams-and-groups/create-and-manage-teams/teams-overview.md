@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Übersicht über Teams
 description: Die Aufgabe eines Teams in Adobe Workfront ist es, die Dynamik funktionaler Arbeitsgruppen am Arbeitsplatz in der Praxis zu erfassen.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%

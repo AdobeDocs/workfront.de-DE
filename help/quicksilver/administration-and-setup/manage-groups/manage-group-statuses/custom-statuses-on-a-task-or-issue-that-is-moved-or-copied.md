@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Benutzerdefinierte Status für eine Aufgabe oder ein Problem, die bzw. das verschoben oder kopiert wird
 description: Wenn Sie eine Aufgabe oder ein Problem in ein anderes Projekt verschieben oder kopieren, werden einige Status der Aufgabe oder des Problems möglicherweise aktualisiert, damit sie mit den Status übereinstimmen, die von der Gruppe des Zielprojekts verwendet werden.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

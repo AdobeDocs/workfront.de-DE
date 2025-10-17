@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Tags hinzufügen
 description: Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. Anschließend können Sie nach diesen Tags filtern, um verwandte Karten anzuzeigen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**]&#x200B;[!UICONTROL &#x200B; Tags] die Option „Tag hinzufügen“ aus.
+1. Wählen [!UICONTROL  Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL  Tags] die Option „Tag hinzufügen“ aus.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.

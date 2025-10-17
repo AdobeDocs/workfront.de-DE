@@ -3,9 +3,9 @@ navigation-topic: search
 title: Suche [!DNL Adobe Workfront]
 description: Sie können Elemente in leicht finden [!DNL Adobe Workfront]  indem Sie nach ihnen suchen, wenn Sie sich nicht an ihre genaue Position erinnern können.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 1%
@@ -96,7 +96,7 @@ Die für die Suche verfügbaren Felder basieren auf dem Typ der Suche: Einfache 
 
 >[!NOTE]
 >
->Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ &#x200B;].
+>Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ ].
 
 ## Verstehen der Einschränkungen [!DNL Workfront] Suchvorgänge
 
@@ -172,7 +172,7 @@ Eine Liste der spezifischen Felder, nach denen in der Standardsuche gesucht wird
 
 >[!NOTE]
 >
->Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ &#x200B;].
+>Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ ].
 
 * [Durchführen einer einfachen Suche](#perform-a-basic-search)
 * [Einfache Suche verfeinern](#refine-a-basic-search)
@@ -192,7 +192,7 @@ So führen Sie eine einfache Suche durch:
 
    ![Suche nach Objekttyp](assets/search-objecttype.png)
 
-1. Beginnen Sie **[!UICONTROL Feld]**&#x200B;Suchen“ mit der Eingabe der gesuchten Informationen.
+1. Beginnen Sie **[!UICONTROL Feld]**Suchen“ mit der Eingabe der gesuchten Informationen.
 Informationen dazu, welche Felder in [!DNL Workfront] durchsucht werden, finden Sie im folgenden Abschnitt in diesem Artikel: [Suche verstehen](#understand-search).
    ![Dropdown-Liste „Suche“](assets/qs-search-drop-down-highlighted-350x234.png)
 
@@ -202,7 +202,7 @@ Informationen dazu, welche Felder in [!DNL Workfront] durchsucht werden, finden 
 
    Oder
 
-   Drücken Sie die Eingabetaste (Mac[!UICONTROL &#x200B; oder &#x200B;]Eingabetaste) auf der Tastatur, um eine umfassende Suche durchzuführen. Diese Suche fragt die gesamte Datenbank anstelle der zuletzt angezeigten Elemente ab und öffnet die Seite **Suche**.
+   Drücken Sie die Eingabetaste (Mac[!UICONTROL  oder ]Eingabetaste) auf der Tastatur, um eine umfassende Suche durchzuführen. Diese Suche fragt die gesamte Datenbank anstelle der zuletzt angezeigten Elemente ab und öffnet die Seite **Suche**.
 
    Wenn Sie eine allgemeine Suche durchgeführt haben, gibt [!DNL Workfront] Ergebnisse für alle Objekte zurück, die dem Suchbegriff in einem der Suchfelder entsprechen, wie in [Suchen verstehen](#understand-search) beschrieben. Die Objekte, die Ihrer Suche entsprechen, werden in einer Liste angezeigt.
 
@@ -236,7 +236,7 @@ Nachdem Sie jeden neuen Wert ausgewählt haben, werden die Ergebnisse auf der re
 
 >[!NOTE]
 >
->Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ &#x200B;].
+>Um eine [!UICONTROL erweiterte Suche] durchzuführen, müssen Sie die Option [!UICONTROL Erweiterte Suche] auswählen, wenn Sie Ihre Suche starten. Sie können eine einfache Suche nicht in eine [!UICONTROL erweiterte Suche“ ].
 
 * [Verwenden [!UICONTROL erweiterten Suche]](#use-advanced-search)
 
@@ -247,7 +247,7 @@ Diese Art der Suche ist hilfreich, wenn Sie sich ein Keyword, das mit einem Obje
 
 So führen Sie eine erweiterte Suche durch:
 
-1. Klicken Sie oben rechts auf einer beliebigen Seite in [!DNL Workfront] auf das Symbol **[!UICONTROL Suchen]** (![) &#x200B;](assets/search-icon.png). Das Menü **Suche** wird angezeigt.
+1. Klicken Sie oben rechts auf einer beliebigen Seite in [!DNL Workfront] auf das Symbol **[!UICONTROL Suchen]** (![) ](assets/search-icon.png). Das Menü **Suche** wird angezeigt.
 
 1. Klicken Sie unten im Menü **Suche** auf **[!UICONTROL Erweiterte Suche]**. Die **Suche** wird geöffnet, wobei die Registerkarte **Erweiterte Suche** standardmäßig ausgewählt ist.
    ![Erweiterte Suche](assets/qs-advanced-search-350x224.png)

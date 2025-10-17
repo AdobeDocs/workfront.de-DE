@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Verwenden von Gruppen auf einem Board
 description: Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppieren. Wenn Sie eine Option auswählen, nach der gruppiert werden soll, werden die Karten im SWMLANE-Format angezeigt.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%

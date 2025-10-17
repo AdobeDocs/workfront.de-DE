@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Kopieren eines Kalenderberichts
 description: Wenn Sie einen Kalender erstellt haben, können Sie den Kalender kopieren und als Ausgangspunkt für einen neuen Kalender verwenden.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -69,6 +69,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Alle Projekte und Kalendergruppierungen im ursprünglichen Kalender werden in der Kopie des Kalenders angezeigt. Nur Objekte, die durch Kalenderfilter platziert wurden, werden in den neu kopierten Kalender exportiert. Alle Ereignisse, die dem ursprünglichen Kalender manuell hinzugefügt wurden, müssen dem kopierten Kalender manuell hinzugefügt werden.
    >
-   >Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   >Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf **Umbenennen** neben dem Dropdown-Menü Kalender.

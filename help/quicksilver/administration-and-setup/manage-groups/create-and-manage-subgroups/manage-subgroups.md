@@ -5,11 +5,11 @@ keywords: verwalten,Untergruppe,bearbeiten
 navigation-topic: create-and-manage-subgroups
 title: Verwalten einer Untergruppe
 description: Als Gruppenadministrator einer Untergruppe können Sie die Untergruppe erstellen, verschieben, anzeigen, bearbeiten, kopieren, umbenennen, exportieren und löschen. Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen, indem Sie sie aus der übergeordneten Gruppe entfernen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -180,7 +180,7 @@ Sie können eine Untergruppe zu einer Gruppe der obersten Ebene machen, indem Si
 >[!TIP]
 >
 >Wenn Sie eine Gruppe deaktivieren, die Untergruppen enthält, werden diese Untergruppen ebenfalls inaktiv. Wenn Sie möchten, dass eine der Gruppen aktiv ist, können Sie sie mithilfe dieser Anweisungen aus der übergeordneten Gruppe entfernen und dann reaktivieren.
->&#x200B;>Anweisungen zum Deaktivieren und Reaktivieren von Gruppen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>>Anweisungen zum Deaktivieren und Reaktivieren von Gruppen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

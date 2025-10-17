@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Übersicht über den Abschlussstatus der Iteration
 description: Die in diesem Artikel beschriebenen Informationen zum Abschluss werden über dem Burndown-Diagramm angezeigt.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -32,8 +32,8 @@ Folgende Informationen sind verfügbar:
 
   Die Farbe der Statusleiste [!UICONTROL Prozent abgeschlossen] wird als Rot oder Grün angezeigt, um sie an die Farbe der tatsächlichen Burndown-Rate anzupassen. Er wird rot angezeigt, wenn die Burndown-Rate kleiner als das Ideal ist (mehr Punkte oder Stunden pro Tag als die ideale Burndown-Berechnung), und er wird grün angezeigt, wenn die Burndown-Rate gleich oder besser als das Ideal ist (gleich oder weniger Punkte pro Tag als die ideale Burndown-Berechnung).
 
-* **[!UICONTROL Abgeschlossene Storys]:** (nur in Iterationen verfügbar) Die Anzahl der Storys, die als &quot;[!UICONTROL &quot; &#x200B;] sind. Dies wird im Verhältnis zur Gesamtzahl der Storys in der Iteration angezeigt. Beispiel: „3 von 6“ zeigt an, dass 3 der 6 Geschichten in der Iteration als „Abgeschlossen[!UICONTROL &#x200B; gekennzeichnet &#x200B;].
-* **[!UICONTROL Abgeschlossene Punkte/Stunden]:** (nur in Iterationen verfügbar) Die Anzahl der Punkte oder Stunden, die als &quot;[!UICONTROL &quot; &#x200B;] sind. Wird im Verhältnis zur Gesamtzahl der Punkte oder Stunden in der Iteration angezeigt. Beispiel: „5 von 11“ zeigt an, dass 5 der 11 Geschichten in der Iteration als „Abgeschlossen[!UICONTROL &#x200B; gekennzeichnet &#x200B;]. Diese Zahl bezieht sich direkt auf die Berechnung [!UICONTROL Prozent abgeschlossen] und wird gleichzeitig mit der Aktualisierung [!UICONTROL Prozent abgeschlossen] aktualisiert.
+* **[!UICONTROL Abgeschlossene Storys]:** (nur in Iterationen verfügbar) Die Anzahl der Storys, die als &quot;[!UICONTROL &quot; ] sind. Dies wird im Verhältnis zur Gesamtzahl der Storys in der Iteration angezeigt. Beispiel: „3 von 6“ zeigt an, dass 3 der 6 Geschichten in der Iteration als „Abgeschlossen[!UICONTROL  gekennzeichnet ].
+* **[!UICONTROL Abgeschlossene Punkte/Stunden]:** (nur in Iterationen verfügbar) Die Anzahl der Punkte oder Stunden, die als &quot;[!UICONTROL &quot; ] sind. Wird im Verhältnis zur Gesamtzahl der Punkte oder Stunden in der Iteration angezeigt. Beispiel: „5 von 11“ zeigt an, dass 5 der 11 Geschichten in der Iteration als „Abgeschlossen[!UICONTROL  gekennzeichnet ]. Diese Zahl bezieht sich direkt auf die Berechnung [!UICONTROL Prozent abgeschlossen] und wird gleichzeitig mit der Aktualisierung [!UICONTROL Prozent abgeschlossen] aktualisiert.
 
   Punkte und Stunden sind mit Storys verknüpft. Wenn ein Artikel oder eine Story [!UICONTROL Abgeschlossen] gekennzeichnet ist, werden die mit diesem Artikel oder dieser Story verknüpften Punkte oder Stunden als Abgeschlossen markiert.
 

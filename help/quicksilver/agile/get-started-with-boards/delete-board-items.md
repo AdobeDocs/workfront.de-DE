@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Löschen oder Archivieren einer Karte von einer Pinnwand
 description: Wenn Sie eine Karte von einer Pinnwand löschen, wird sie dauerhaft gelöscht und kann nicht wiederhergestellt werden. Wenn Sie eine Karte archivieren, wird sie an das Archiv gesendet und Sie können sie später auf der Pinnwand wiederherstellen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%

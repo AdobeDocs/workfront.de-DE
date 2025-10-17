@@ -3,19 +3,19 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Genehmigungen in der Mobile [!DNL Adobe Workfront] App
 description: Sie können über den Bereich Genehmigungen in der Mobile App [!UICONTROL Genehmigungen] Genehmigungen  [!DNL Adobe Workfront]  oder delegieren.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Validierungen in der [!DNL Adobe Workfront] Mobile App
 
-Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie &#x200B;] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
+Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von ] können Sie [!DNL Adobe Workfront] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ ht-degree: 2%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Arbeitszeit- tabellen</li> 
+     <li>Arbeitszeittabellen</li> 
      <li>Alle Anforderungen</li> 
     </ul> </td> 
   </tr> 
@@ -43,7 +43,7 @@ Korrekturabzüge folgen einem separaten Genehmigungsprozess. Sie können einen K
 
 1. Wählen **[!UICONTROL Alle Genehmigungen anzeigen]** im Bereich [!UICONTROL Genehmigungen] von [!UICONTROL Meine Arbeit] aus.
 
-   Informationen zu &quot;[!UICONTROL &#x200B; Arbeit] in der Mobile App finden Sie [[!UICONTROL &#x200B; Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Informationen zu &quot;[!UICONTROL  Arbeit] in der Mobile App finden Sie [[!UICONTROL  Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Wählen Sie eine Genehmigung in der Liste aus.
 
@@ -71,4 +71,4 @@ Korrekturabzüge folgen einem separaten Genehmigungsprozess. Sie können einen K
 1. (Optional) Wählen **[!UICONTROL Kommentar hinzufügen]** in der Bestätigungsmeldung am unteren Bildschirmrand aus, um der Entscheidung Kommentare hinzuzufügen. Diese Anmerkungen werden in den Aktualisierungen zur Genehmigung angezeigt.\
    ![Kommentar hinzufügen](assets/mobile-addcommenttoapproval-350x123.png)\
    Oder\
-   Wählen Sie den Pfeil oben links im Bereich Genehmigungen aus, um zur Seite [!UICONTROL Genehmigungen“ &#x200B;] wechseln.
+   Wählen Sie den Pfeil oben links im Bereich Genehmigungen aus, um zur Seite [!UICONTROL Genehmigungen“ ] wechseln.

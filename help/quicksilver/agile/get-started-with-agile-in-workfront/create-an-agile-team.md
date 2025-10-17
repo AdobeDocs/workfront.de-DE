@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Erstellen eines Agile-Teams
 description: Adobe Workfront ermöglicht es agilen Teams, ihre Arbeit inkrementell und organisiert abzuschließen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -72,7 +72,7 @@ Die folgende Funktion unterstützt diese Methode:
 Weitere Informationen finden Sie unter [Hinzufügen des Rückstands zum [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Konfigurieren Sie Elemente im Rückstand, die automatisch zum agilen Story Board [!UICONTROL Kanban“ hinzugefügt werden] wenn andere Elemente in einen Status verschoben werden, der mit „Abgeschlossen“ übereinstimmt.
-Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 * Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem agilen Story Board [!UICONTROL Kanban] angezeigt werden soll.
 Weitere Informationen finden Sie unter [Verwalten des Work In Progress (WIP)-Limits auf dem Kanban-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
@@ -159,7 +159,7 @@ Sie können ein vorhandenes Team in ein agiles Team umwandeln:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** die Option **[!UICONTROL Dies ist ein Agile-Team]** aus.
 
-1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **&#x200B;**&#x200B;Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
+1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **** Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
 
 1. Klicken Sie auf **Änderungen speichern**.
 

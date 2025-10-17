@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Senden von Direktnachrichten an andere Benutzer
 description: Mit Adobe Workfront können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere Workfront-Benutzende senden.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Senden von Direktnachrichten an andere Benutzer
 
-[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL &#x200B; werden auf der Profilseite des Benutzers auf der Registerkarte &#x200B;]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL  werden auf der Profilseite des Benutzers auf der Registerkarte ]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 Der Benutzer, an den Sie die Nachricht senden, erhält die folgenden Arten von Benachrichtigungen, wenn Sie eine Nachricht wie in diesem Abschnitt beschrieben senden:
 

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Verwalten des Agile-Rückstands
 description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der agilen Methodik, die das Team verwendet.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Storys im Rückstand erstellen und verwalten
 
 * [Storys neu anordnen](#reorder-stories)
-* [[!UICONTROL Geschichten &#x200B;].](#break-down-stories)
+* [[!UICONTROL Geschichten ].](#break-down-stories)
 * [Storys bearbeiten](#edit-stories)
 
 ### Storys neu anordnen {#reorder-stories}
@@ -195,7 +195,7 @@ Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 1. Rufen Sie den Rückstand des agilen Teams auf.
 1. Wählen Sie die Storys aus, die Sie in eine Iteration oder ein Kanban-Board verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
 Wenn Sie die Story auf ein Kanban[!UICONTROL Board verschieben] wird das [!UICONTROL Story in das Kanban]Board verschieben angezeigt.
-Wenn Sie die Story in eine Iteration verschieben[!UICONTROL &#x200B; wird das Dialogfeld „Story in eine Iteration &#x200B;]&quot; angezeigt.
+Wenn Sie die Story in eine Iteration verschieben[!UICONTROL  wird das Dialogfeld „Story in eine Iteration ]&quot; angezeigt.
    ![Dialogfeld „Story verschieben“](assets/agile-backlog-addtoiteration.png)
 
 1. Führen Sie einen der folgenden Schritte aus:

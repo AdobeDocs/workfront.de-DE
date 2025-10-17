@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Synchronisieren von Daten im Burndown-Diagramm
 description: Das Burndown-Diagramm wird automatisch mit den Daten in Ihrem Projekt oder Ihrer Iteration synchronisiert. Wenn das Burndown-Diagramm jemals nicht mehr mit den Daten im Projekt oder in der Iteration synchron ist, können Sie es manuell synchronisieren.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

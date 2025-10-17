@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: business rules
 title: Erstellen und Bearbeiten von Geschäftsregeln
 description: Mit einer Geschäftsregel können Sie Validierungen auf Workfront-Objekte anwenden und Benutzer daran hindern, ein Objekt zu erstellen, zu bearbeiten oder zu löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln tragen dazu bei, die Datenqualität und die betriebliche Effizienz zu verbessern, indem sie Maßnahmen verhindern, die die Datenintegrität beeinträchtigen könnten.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 2%
@@ -67,7 +67,7 @@ Das Format einer Geschäftsregel lautet: „Wenn die definierte Bedingung erfül
 
 Die Syntax für die Eigenschaften und andere Funktionen in einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Hinzufügen berechneter Felder mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Weitere Informationen zu IF-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Weitere Informationen zu IF-Anweisungen finden Sie unter [ „IF“-Anweisungen - ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Informationen zu benutzerbasierten Platzhaltern finden Sie unter [Verwenden von benutzerbasierten Platzhaltern zum Verallgemeinern von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -180,7 +180,7 @@ IF(
 
    Dieses Beispiel ist eine Geschäftsregel für Projekte. Wenn der aktuelle Monat November ist, dürfen Benutzer keine neuen Projekte erstellen. Die Meldung erklärt dies.
 
-   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für &#x200B;](#scenarios-for-business-rules) in diesem Artikel.
+   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für ](#scenarios-for-business-rules) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Formel **Ausdrücke** und **Felder** im rechten Bedienfeld, um beim Erstellen der Regel zu helfen.
 

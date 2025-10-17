@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Übersicht über die Systemprojektstatus
 description: Workfront verfügt über neun integrierte Systemprojektstatus. Die ersten 3 in der folgenden Tabelle sind erforderlich, was bedeutet, dass Sie sie entsperren, umbenennen und neu anordnen können, sie jedoch nicht ausblenden oder löschen können. Das Ändern eines Projektstatus ist in der Regel ein manueller Prozess. Manchmal wird jedoch ein Projektstatus automatisch geändert, abhängig von anderen Aktivitäten, die im System stattfinden.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%

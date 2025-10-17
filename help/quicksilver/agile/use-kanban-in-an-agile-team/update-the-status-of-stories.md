@@ -3,19 +3,19 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Status der Storys im Kanban-Board aktualisieren
 description: Sie können den Status einer Story direkt über das Kanban-Board ändern, um den Fortschritt der Storys widerzuspiegeln.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-# Status der Storys auf dem Kanban[!UICONTROL Board &#x200B;] aktualisieren
+# Status der Storys auf dem Kanban[!UICONTROL Board ] aktualisieren
 
-Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board &#x200B;], um den Fortschritt der Stories widerzuspiegeln.
+Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board ], um den Fortschritt der Stories widerzuspiegeln.
 
 >[!NOTE]
 >
@@ -55,5 +55,5 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wechseln Sie zum [!UICONTROL Kanban]-Board, in dem Sie den Status einer Story aktualisieren möchten.
 1. Ziehen Sie eine Story aus einer Statusspalte auf das [!UICONTROL Kanban]Board und in eine andere Spalte.
-Eine Story verbleibt zwei Wochen lang in [!UICONTROL &#x200B; Spalte &#x200B;]Abgeschlossen“, nachdem sie hinzugefügt wurde.
+Eine Story verbleibt zwei Wochen lang in [!UICONTROL  Spalte ]Abgeschlossen“, nachdem sie hinzugefügt wurde.
    ![Story in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)

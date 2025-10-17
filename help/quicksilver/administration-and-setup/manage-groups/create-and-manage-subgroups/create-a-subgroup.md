@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: Erstellen einer Untergruppe
 description: Sie können eine Untergruppe unter einer Gruppe erstellen, die Sie verwalten, um Benutzende und Projekte zu organisieren und Zugriffsrechte innerhalb von Adobe Workfront zuzuweisen. In der Regel verwalten Gruppenadministratoren Gruppen und Untergruppen. Sie können die Seite Gruppen verwenden, um ihre Gruppen und Untergruppen an einem Ort zu verwalten.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 0%

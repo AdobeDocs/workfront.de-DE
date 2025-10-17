@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Dashboard-Pinnwände verwenden
 description: Das Dashboard [!UICONTROL Pinnwände] zeigt die Liste der Pinnwände an, auf die Sie Zugriff haben, einschließlich der von Ihnen erstellten Pinnwände und der Pinnwände, denen Sie hinzugefügt wurden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%

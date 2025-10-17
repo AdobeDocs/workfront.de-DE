@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Verwalten des Work In Progress (WIP)-Limits auf dem Kanban-Board
 description: Sie können ein Work In Progress (WIP)-Limit für jede Spalte auf der Kanban-Pinnwand konfigurieren. Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, in jeder Statusspalte mehr Elemente als die von Ihnen festgelegte Beschränkung zu haben.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Verwalten Sie das [!UICONTROL Work In Progress] (WIP) auf dem Kanban-Board
 
-Sie können ein Limit [!UICONTROL Arbeit in Bearbeitung] (WIP) für jede Spalte auf der [!UICONTROL Kanban) &#x200B;], wie im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) beschrieben.
+Sie können ein Limit [!UICONTROL Arbeit in Bearbeitung] (WIP) für jede Spalte auf der [!UICONTROL Kanban) ], wie im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) beschrieben.
 
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, in jeder Statusspalte mehr Elemente als die von Ihnen festgelegte Beschränkung zu haben.
 
@@ -54,7 +54,7 @@ Jedes Mal, wenn das Limit für eine Spalte auf der [!UICONTROL Kanban]-Pinnwand 
 
 ## Aktualisieren Sie das [!UICONTROL Work In Progress] (WIP) auf der [!UICONTROL Kanban]Pinnwand
 
-Teammitglieder mit [!UICONTROL Bearbeiten]-Berechtigungen können die WIP-Beschränkung für jede Statusspalte direkt über die [!UICONTROL Kanban]Pinnwand aktualisieren. Alternativ können Sie die WIP-Beschränkung aktualisieren, wie im Artikel &quot;[&#x200B; konfigurieren“ &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Teammitglieder mit [!UICONTROL Bearbeiten]-Berechtigungen können die WIP-Beschränkung für jede Statusspalte direkt über die [!UICONTROL Kanban]Pinnwand aktualisieren. Alternativ können Sie die WIP-Beschränkung aktualisieren, wie im Artikel &quot;[ konfigurieren“ ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 {{step1-to-team}}
 

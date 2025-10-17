@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Prognostiziertes Datum in einem Kalenderbericht verwenden
 description: Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstellt. Sie können die Felder für das voraussichtliche Datum in einem Kalenderbericht für Aufgaben, Probleme und Projekte verwenden.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%

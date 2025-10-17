@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Checklisten-Elemente auf Karten verwalten
 description: Wenn Sie eine Checkliste auf einer Karte verwenden, können Sie Ihre Arbeit in kleinere Schritte unterteilen oder Notizen zur Karte hinzufügen. Checklisten-Elemente sind sowohl auf Ad-hoc- als auch auf verbundenen Karten verfügbar.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie eine Checkliste auf einer Karte verwenden, können Sie Ihre Arbeit in kleinere Schritte unterteilen oder Notizen zur Karte hinzufügen. Checklisten-Elemente sind sowohl auf Ad-hoc- als auch auf verbundenen Karten verfügbar.
 
-Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Verwenden von verbundenen Karten auf &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Karten](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
+Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Verwenden von verbundenen Karten auf ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Karten](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
 ## Zugriffsanforderungen
 

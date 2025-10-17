@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Dokumente zu Karten hinzufügen
 description: Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinzufügen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Öffnen Sie die verbundene Karte, der Sie ein Dokument hinzufügen möchten.
 1. Ziehen Sie die Datei per Drag-and-Drop in den Bereich [!UICONTROL Dokumente] oder klicken Sie auf [!UICONTROL **Dokument hinzufügen**], um eine Datei auszuwählen.
 
-   Die Datei wird im Bereich &quot;[!UICONTROL &quot; &#x200B;].
+   Die Datei wird im Bereich &quot;[!UICONTROL &quot; ].
 
    ![Dokumente zur Karte hinzugefügt](assets/add-document-to-card.png)
 

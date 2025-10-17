@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Sie können Benutzer als direkt unterstellte Mitarbeiter eines anderen Benutzers festlegen. Auf diese Weise können Sie ein Organigramm erstellen, das die Verwaltungsstruktur Ihrer Organisation anzeigt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Erstellen von Direktberichten
 
-1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [&#x200B; in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [ in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 1. Stellen Sie **Abschnitt** Organisation) sicher, dass im Feld **Firma** eine Firma ausgewählt ist.
 
    Dieses Feld darf nicht leer sein.

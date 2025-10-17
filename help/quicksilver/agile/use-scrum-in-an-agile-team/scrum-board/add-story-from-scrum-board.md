@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Stories und Probleme aus dem Scrum-Board hinzufügen
 description: Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Board erstellen oder eine vorhandene Story oder ein vorhandenes Problem über das Board hinzufügen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Boar
 
 >[!NOTE]
 >
->Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 

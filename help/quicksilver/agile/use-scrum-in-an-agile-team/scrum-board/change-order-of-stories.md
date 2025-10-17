@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Ändern der Reihenfolge von Storys auf dem Scrum-Board
 description: Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden. Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Spalte [!UICONTROL Status] auf dem Storyboard angezeigt.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%

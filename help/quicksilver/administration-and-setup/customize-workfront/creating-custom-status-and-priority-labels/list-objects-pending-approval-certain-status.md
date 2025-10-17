@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Listen Sie Objekte mit ausstehenden Genehmigungsprozessen mit einem bestimmten Status auf
 description: Wenn Sie versuchen, einen Status zu löschen, wird in einer Fehlermeldung möglicherweise darauf hingewiesen, dass er nicht gelöscht werden kann, da er in ausstehenden Genehmigungsprozessen für Objekte in Ihrem System verwendet wird. Wenn Sie diese Objekte suchen und überprüfen möchten, um zu entscheiden, was Sie tun müssen, können Sie einen Bericht ausführen, in dem sie aufgelistet werden.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

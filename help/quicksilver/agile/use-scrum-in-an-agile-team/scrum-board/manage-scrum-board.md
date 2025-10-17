@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Storys und Probleme auf dem Scrum-Board verwalten
 description: Sie können eine Story oder ein Problem vom Scrum-Board in eine andere Iteration oder in den Rückstand verschieben oder aus dem Scrum-Board löschen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Story oder Problem vom Scrum[!UICONTROL Board &#x200B;]
+## Story oder Problem vom Scrum[!UICONTROL Board ]
 
 {{step1-to-team}}
 
@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!NOTE]
    >
-   >Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicken Sie **[!UICONTROL Verschieben]**.
 

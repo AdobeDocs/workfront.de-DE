@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Konfigurieren von Scrum
 description: Sie können die folgenden Optionen für Scrum-Agile-Teams konfigurieren, während oder nach der Erstellung des Teams.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 0%
@@ -28,7 +28,7 @@ In diesem Artikel wird beschrieben, wie Sie die Einstellungen für ein Scrum-Tea
 * Verwendung von Farbindikatoren für Storys im Agile-Story-Board
 * Anwenden von Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration
 
-Informationen zum Konfigurieren eines Kanban-Teams finden Sie unter [Konfigurieren von &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)).
+Informationen zum Konfigurieren eines Kanban-Teams finden Sie unter [Konfigurieren von ](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)).
 
 ## Zugriffsanforderungen
 
@@ -108,7 +108,7 @@ So definieren Sie die Status, die für das mit dem Agile-Team verknüpfte Story 
 1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
-   Diese Option wird nur Team-Mitgliedern mit [!UICONTROL &#x200B; Lizenz &#x200B;]Plan[!UICONTROL &#x200B; oder &#x200B;]Work“ angezeigt.
+   Diese Option wird nur Team-Mitgliedern mit [!UICONTROL  Lizenz ]Plan[!UICONTROL  oder ]Work“ angezeigt.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -129,7 +129,7 @@ So definieren Sie die Status, die für das mit dem Agile-Team verknüpfte Story 
 
    >[!NOTE]
    >
-   >Bei der Auswahl von Problemstatus wird in der dritten Spalte standardmäßig immer &quot;[!UICONTROL &quot; &#x200B;]. Wenn Sie mehr als drei Spalten haben, stellen Sie sicher, dass Sie die Spalten manuell aktualisieren, damit sie die richtigen Status widerspiegeln.
+   >Bei der Auswahl von Problemstatus wird in der dritten Spalte standardmäßig immer &quot;[!UICONTROL &quot; ]. Wenn Sie mehr als drei Spalten haben, stellen Sie sicher, dass Sie die Spalten manuell aktualisieren, damit sie die richtigen Status widerspiegeln.
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 
@@ -165,7 +165,7 @@ So konfigurieren Sie Story-Karten, die dem agilen Team zugewiesen sind, um zusä
 
 1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-Diese Option wird nur Team-Mitgliedern mit [!UICONTROL &#x200B; Lizenz &#x200B;]Plan[!UICONTROL &#x200B; oder &#x200B;]Work“ angezeigt.
+Diese Option wird nur Team-Mitgliedern mit [!UICONTROL  Lizenz ]Plan[!UICONTROL  oder ]Work“ angezeigt.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -190,13 +190,13 @@ So ändern Sie das Verhalten bei der Zuweisung von Farben zu Storys für ein agi
 1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
-   Diese Option wird nur Team-Mitgliedern mit [!UICONTROL &#x200B; Lizenz &#x200B;]Plan[!UICONTROL &#x200B; oder &#x200B;]Work“ angezeigt.
+   Diese Option wird nur Team-Mitgliedern mit [!UICONTROL  Lizenz ]Plan[!UICONTROL  oder ]Work“ angezeigt.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
-1. Wählen [!UICONTROL &#x200B; im Abschnitt &#x200B;] im Bereich [!UICONTROL Kartenfarbe &#x200B;] verknüpfen“ eine der folgenden Optionen aus:
+1. Wählen [!UICONTROL  im Abschnitt ] im Bereich [!UICONTROL Kartenfarbe ] verknüpfen“ eine der folgenden Optionen aus:
 
-   * **[!UICONTROL Projekt]**: Farben sind mit dem Projekt verknüpft, an das die Story gebunden ist. (Wenn eine Story erstellt wird, muss sie einem Projekt zugeordnet werden, wie unter „Erstellen [&#x200B; Agile-Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md) beschrieben. Alle Aufgaben aus demselben Projekt werden in derselben Farbe angezeigt.
+   * **[!UICONTROL Projekt]**: Farben sind mit dem Projekt verknüpft, an das die Story gebunden ist. (Wenn eine Story erstellt wird, muss sie einem Projekt zugeordnet werden, wie unter „Erstellen [ Agile-Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md) beschrieben. Alle Aufgaben aus demselben Projekt werden in derselben Farbe angezeigt.
    * **[!UICONTROL Freiform]**: Alle Karten werden standardmäßig blau angezeigt, bis ein Benutzer die Farbe manuell ändert, wie [[!UICONTROL Storys nach Farbe kategorisieren] auf dem Scrum-Board beschrieben](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Priorität]**: Der Story-Priorität sind Farben wie folgt zugeordnet:
 
@@ -218,12 +218,12 @@ Wenn Sie ein Arbeitselement zu einer Scrum-Iteration hinzufügen, werden standar
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-Diese Option wird nur Team-Mitgliedern mit [!UICONTROL &#x200B; Lizenz &#x200B;]Plan[!UICONTROL &#x200B; oder &#x200B;]Work“ angezeigt.
+Diese Option wird nur Team-Mitgliedern mit [!UICONTROL  Lizenz ]Plan[!UICONTROL  oder ]Work“ angezeigt.
 1. Wählen Sie im Abschnitt [!UICONTROL Agile] im Bereich [!UICONTROL Wenn ein Arbeitselement zu einer Iteration hinzugefügt wird] eine der folgenden Optionen aus:
 
    * **[!UICONTROL Ändern Sie das geplante Startdatum und das geplante Abschlussdatum entsprechend dem Start- und Enddatum der Iteration]**: Wenn Arbeitselemente zu einer Iteration hinzugefügt werden, werden die Datumsangaben der Arbeitselemente in die Daten der Iteration geändert.
 
-     Weitere Informationen dazu, wie die Datumsangaben geändert werden, finden Sie im Abschnitt [Informationen dazu, wie sich das Hinzufügen von Storys auf &#x200B;](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) Aufgabendaten auswirkt im Artikel [Hinzufügen von Storys zu einer vorhandenen Iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+     Weitere Informationen dazu, wie die Datumsangaben geändert werden, finden Sie im Abschnitt [Informationen dazu, wie sich das Hinzufügen von Storys auf ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) Aufgabendaten auswirkt im Artikel [Hinzufügen von Storys zu einer vorhandenen Iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
    * **[!UICONTROL Ändern Sie das geplante Startdatum und das geplante Abschlussdatum nicht entsprechend dem Start- und Enddatum der Iteration]**: Wenn Arbeitselemente zu einer Iteration hinzugefügt werden, behalten die Arbeitselemente ihr ursprüngliches Datum bei.
 
    Wenn Sie die Datumsoption ändern, werden die Daten für Arbeitselemente, die sich bereits in der Iteration befinden, nicht angepasst.

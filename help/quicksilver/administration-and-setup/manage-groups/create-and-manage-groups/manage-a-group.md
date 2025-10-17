@@ -5,11 +5,11 @@ keywords: verwalten,gruppieren,bearbeiten,
 navigation-topic: create-and-manage-groups
 title: Verwalten einer Gruppe
 description: Als Gruppenadministrator können Sie eine Gruppe, die Sie verwalten, über den Bereich Gruppen im Setup verwalten. Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Sie können die Gruppe schnell bearbeiten, kopieren oder löschen, ohne die Haup
 
    * **Bearbeiten**: [Anzeigen und Verwalten der Details einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **Kopieren**: [Erstellen einer Gruppe auf oberster Ebene durch Kopieren einer vorhandenen Gruppe oder &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **Kopieren**: [Erstellen einer Gruppe auf oberster Ebene durch Kopieren einer vorhandenen Gruppe oder ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
    * **Löschen**: [Löschen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

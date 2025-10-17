@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Konfigurieren des Rückstands auf einer Workstream-Pinnwand
 description: Sie können eine Rückstandsspalte auf einer Pinnwand in einem Arbeitsablauf anzeigen und eine Abfrage für die Karten definieren, die aus der Arbeitsablauf-Kartenliste in den Pinnwand-Rückstand gezogen werden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%

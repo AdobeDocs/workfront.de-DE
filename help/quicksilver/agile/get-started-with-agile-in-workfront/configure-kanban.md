@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Kanban konfigurieren
 description: Sie können die folgenden Optionen für agile Kanban-Teams während oder nach der Erstellung des Teams konfigurieren.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 1%
@@ -170,14 +170,14 @@ So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Stellen Sie **[!UICONTROL Abschnitt]** Agile“ im Abschnitt **[!UICONTROL Methodik]** sicher, dass Kanban ausgewählt ist.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des agilen Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
-Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL &#x200B; Storyboard eine Warnmeldung &#x200B;] dem agilen Storyboard (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; &#x200B;].
+Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL  Storyboard eine Warnmeldung ] dem agilen Storyboard (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; ].
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, mehr Elemente in einer Spalte als die von Ihnen festgelegte Beschränkung zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
@@ -195,7 +195,7 @@ Sie können Storys aus dem Rückstand so konfigurieren, dass sie automatisch der
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -208,9 +208,9 @@ Wenn die Story mit der höchsten Priorität aus dem Rückstand hinzugefügt wird
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand &#x200B;] bleiben
+## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand ] bleiben
 
-Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board &#x200B;], können weiterhin im ursprünglichen Projekt aufgerufen werden.
+Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board ], können weiterhin im ursprünglichen Projekt aufgerufen werden.
 
 {{step1-to-team}}
 

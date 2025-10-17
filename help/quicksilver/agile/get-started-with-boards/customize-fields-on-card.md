@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: Anpassen, welche Felder auf einer Karte angezeigt werden
 description: Sie können anpassen, welche Felder auf einer Karte angezeigt werden, indem Sie ein Feld deaktivieren, sodass es nicht in der vollständigen oder verkürzten Ansicht angezeigt wird, oder ein Feld in der verkürzten Kartenansicht ausblenden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es bzw. ihn in beiden Kartenansichten zu deaktivieren.
-1. Klicken Sie auf das Symbol „Ausblenden![&#x200B; (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
+1. Klicken Sie auf das Symbol „Ausblenden![ (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
 1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder auf Standard zurücksetzen**].
 1. Klicken Sie [!UICONTROL **Konfigurieren ausblenden**], um das Bedienfeld „Konfigurieren“ zu schließen.
 
@@ -79,7 +79,7 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 
 1. Rufen Sie eine Pinnwand auf und klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld „Konfigurieren“ zu öffnen.
 1. Erweitern Sie [!UICONTROL **Karten**].
-1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
 1. Wählen Sie [!UICONTROL **Aufgabe**] oder [!UICONTROL **Problem**] aus.
 
    Die Kategorien der verfügbaren Felder für Aufgaben oder Probleme werden angezeigt. Erweitern Sie eine Kategorie, um alle Felder anzuzeigen. Sie können auch nach einem Feld suchen.

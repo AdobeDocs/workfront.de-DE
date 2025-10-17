@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit Ihrer Abteilungsstruktur übereinstimmen. Gruppen ähneln Teams und Unternehmen, unterscheiden sich aber von ihnen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Wenn Sie eines der folgenden Workfront-Objekte erstellen oder bearbeiten, könne
 
   Anweisungen zum Verknüpfen eines Projekts mit einer Gruppe finden Sie unter [Verwalten von Informationen im Bereich Projektübersicht](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-* **Portfolio, Programm oder Unternehmen**: Wenn Sie ein Portfolio, ein Programm oder eine Firma erstellen oder bearbeiten, können Sie ihr eine einzige Gruppe zuweisen, um anzugeben, dass die Gruppe Eigentümer oder verantwortlich für sie ist. Durch diese Verknüpfung können Administratoren und Benutzer leicht erkennen, an welchen Portfolios, Programmen und Unternehmen ihre Gruppen arbeiten.
+* **Portfolio, Programm oder Unternehmen**: Wenn Sie ein Portfolio, ein Programm oder ein Unternehmen erstellen oder bearbeiten, können Sie ihm eine einzelne Gruppe zuweisen, um anzugeben, dass die Gruppe Eigentümer oder verantwortlich für sie ist. Durch diese Verknüpfung können Administratoren und Benutzer leicht erkennen, an welchen Portfolios, Programmen und Unternehmen ihre Gruppen arbeiten.
 
   Beispielsweise kann ein Gruppenadministrator alle Portfolios in der Organisation mithilfe einer Liste oder eines Berichts auflisten und in der Spalte Gruppe notieren, welche Portfolios seiner Gruppe zugewiesen sind.
 

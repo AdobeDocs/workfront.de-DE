@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: 'Frühzeitiges Opt-in für  [!DNL Workfront] '
 description: Lesen Sie diesen Artikel, um mehr über das  [!DNL Workfront Boards] -Early-Opt-in zu erfahren.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -218,7 +218,7 @@ Der [!DNL Workfront]-Administrator kann jedoch die Option Pinnwände im [!UICONT
 
 >[!NOTE]
 >
->Dies hindert Benutzende nicht daran, über eine URL auf Pinnwände zuzugreifen. Dadurch wird nur verhindert, dass die Option [!DNL Boards] im [!UICONTROL Hauptmenü“ angezeigt &#x200B;].
+>Dies hindert Benutzende nicht daran, über eine URL auf Pinnwände zuzugreifen. Dadurch wird nur verhindert, dass die Option [!DNL Boards] im [!UICONTROL Hauptmenü“ angezeigt ].
 
 ### Kann ich die frühen Funktionen deaktivieren, sobald ich Mitglied geworden bin?
 
@@ -226,5 +226,5 @@ Nur [!DNL Workfront] Administratoren können den Erhalt frühzeitiger Funktionen
 
 {{step1-to-boards}}
 
-1. Klicken Sie ![Early Feature Opt](assets/early-feature-opt-in-enabled.png)in aktiviert[!UICONTROL &#x200B; (Early Feature Opt-in &#x200B;]) oben im Dashboard-Bildschirm.
+1. Klicken Sie ![Early Feature Opt](assets/early-feature-opt-in-enabled.png)in aktiviert[!UICONTROL  (Early Feature Opt-in ]) oben im Dashboard-Bildschirm.
 1. Klicken Sie **[!UICONTROL Deaktivieren]**.

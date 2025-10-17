@@ -4,10 +4,10 @@ content-type: overview
 product-area: agile-and-teams;projects
 navigation-topic: agile-in-projects
 description: Sie können die Agile-Funktionen für Ihr Projekt nutzen, ohne die administrativen Herausforderungen zu bewältigen, die mit Agile-Praktiken verbunden sind (z. B. die Verwaltung des Rückstands eines Teams, die Erstellung von Iterationen usw.).
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5961a2d8-87c9-48f0-9075-828d19cbd5ad
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%

@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Benachrichtigungen: Informationen zu Projekten, die ich als Sponsor unterstütze'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in einem Projekt, das Sie als Sponsor unterstützen.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <tbody> 
   <tr> 
    <td> <p><strong>Einem Projekt, das ich als Sponsor unterstütze, wird ein Dokument hinzugefügt</strong> </p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] ist und das Dokument nicht [!UICONTROL Private] ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Dokument hinzugefügt zu] &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of Daily Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokument-Name<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokument-Miniaturansicht<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong>-Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokument-Name<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiatur<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong>-Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Einem Projekt, das ich als Sponsor unterstütze, wird eine Anfrage hinzugefügt</strong> </p> <p>Der Projektsponsor erhält eine E-Mail-Benachrichtigung, wenn ein Problem zum Projekt hinzugefügt wird.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] oder [!UICONTROL Planning] ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Problem hinzugefügt zu] &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em>[!UICONTROL Digest of Projects You Sponsor] &lt;Date of Daily Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Problem-Referenznummer<br>Name des Benutzers, der das Problem hinzugefügt hat<br>Problem-Name<br>Problem-Typ<br>Eingegebenes Datum<br>Problem-Priorität<br>Dem Namen zugewiesen<br>Problemstatus<br>Primärer Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der dem Projekt hinzugefügten Probleme<br>*Problem-Name<br>*Name des Benutzers, der dem Problem zugewiesen wurde<br>*Datum der täglichen Zusammenfassung<br><br></td> 
+   <td> Projektname<br>Portfolio-Name<br>Problem-Referenznummer<br>Name des Benutzers, der das Problem hinzugefügt hat<br>Anfragename<br>Anfragetyp<br>Eingegebenes Datum<br>Anfragepriorität<br>Dem Namen zugewiesen<br>Anfragestatus<br>Primärer Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der dem Projekt hinzugefügten Probleme<br>*Anfragename<br>*Name des Benutzers, der dem Problem zugewiesen wurde<br>*Datum der täglichen Zusammenfassung<br><br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

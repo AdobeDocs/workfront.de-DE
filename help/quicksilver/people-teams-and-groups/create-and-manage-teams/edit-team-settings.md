@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Teameinstellungen bearbeiten
 description: Workfront-Admins und Benutzende mit einer Plan- oder Arbeitslizenz können Teameinstellungen bearbeiten.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -50,7 +50,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 

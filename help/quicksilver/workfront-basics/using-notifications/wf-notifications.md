@@ -3,10 +3,10 @@ content-type: overview;reference
 navigation-topic: notifications
 title: Benachrichtigungen - Übersicht
 description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Informationen zum Ändern der Voreinstellungen für Ihre E-Mail-Benachrichtigung
 
 Sie können die folgenden E-Mail-Benachrichtigungen von [!DNL Workfront] erhalten:
 
-* [Ereignisbenachrichtigungen](#event-notifications)
+* [Ereignis-Benachrichtigungen](#event-notifications)
 * [Tägliche Digest-Benachrichtigungen](#daily-digest-notifications)
 * [Benachrichtigung über gepostete Kommentare](#notification-of-posted-comments)
 * [Automatische Erinnerungen](#automatic-reminders)
@@ -39,7 +39,7 @@ Sie können die folgenden E-Mail-Benachrichtigungen von [!DNL Workfront] erhalte
 * [Pinnwand-Benachrichtigungen](#boards-notifications)
 * [Other [!DNL Workfront] Emails](#other-workfront-emails)
 
-### Ereignisbenachrichtigungen
+### Ereignis-Benachrichtigungen
 
 Ereignisbenachrichtigungen werden in der Regel durch bestimmte vordefinierte Ereignisse ausgelöst, z. B. wenn Ihnen eine Aufgabe zugewiesen ist oder Sie eine Antwort auf einen von Ihnen abgegebenen Kommentar erhalten.
 
@@ -89,7 +89,7 @@ Es gibt mehrere Dinge, die Sie beachten sollten, wenn Sie tägliche Digest-Benac
 
 Die Benachrichtigungen in der Kategorie [!UICONTROL Kommunikation] warnen Sie vor Kommentaren, die im [!UICONTROL Update]-Stream eines bestimmten Elements veröffentlicht wurden.
 
-Für alle verfügbaren Benachrichtigungen werden tägliche Digest[!UICONTROL E-Mails für die &#x200B;] „Kommunikation“ ausgewählt.
+Für alle verfügbaren Benachrichtigungen werden tägliche Digest[!UICONTROL E-Mails für die ] „Kommunikation“ ausgewählt.
 
 Die Informationen werden für das Objekt zusammengefasst, in dem die Kommunikation stattgefunden hat, und für jedes Objekt wird eine Gesamtzahl von Kommunikationsnachrichten angezeigt.
 
@@ -130,7 +130,7 @@ Informationen zum Aktivieren automatischer Erinnerungen finden Sie unter [Einric
 
 ### Erinnerungsbenachrichtigungen
 
-Ein [!DNL Workfront] (oder ein Benutzer mit [!UICONTROL &#x200B; Zugriffsebene „Planer] und administrativem Zugriff auf Erinnerungsbenachrichtigungen) kann Erinnerungsbenachrichtigungen über bald ablaufende Fristen entwerfen und manuell mit Projekten, Aufgaben, Problemen und Arbeitszeittabellen verknüpfen.
+Ein [!DNL Workfront] (oder ein Benutzer mit [!UICONTROL  Zugriffsebene „Planer] und administrativem Zugriff auf Erinnerungsbenachrichtigungen) kann Erinnerungsbenachrichtigungen über bald ablaufende Fristen entwerfen und manuell mit Projekten, Aufgaben, Problemen und Arbeitszeittabellen verknüpfen.
 
 >[!IMPORTANT]
 >

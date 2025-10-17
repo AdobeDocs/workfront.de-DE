@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Gruppenstatus verwalten
 description: Als Gruppenadministrator können Sie benutzerdefinierte Status für eine von Ihnen verwaltete Gruppe erstellen. Dies hilft, die Notwendigkeit für Dutzende von unternehmensweiten benutzerdefinierten Status zu vermeiden, und ermöglicht mehr Autonomie in Ihren Gruppenhierarchien. Sie können auch einen Status auf Systemebene für eine von Ihnen verwaltete Gruppe bearbeiten, wenn ein Workfront-Administrator den Status entsperrt hat.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

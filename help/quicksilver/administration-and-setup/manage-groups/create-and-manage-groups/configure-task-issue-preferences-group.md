@@ -5,11 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: Gruppe,Voreinstellungen,Aufgabe,Problem,Entsperren
 navigation-topic: create-and-manage-groups
 description: Wenn Gruppen in Ihrem Unternehmen eine Aufgaben- oder Problem-Voreinstellung unabhängig von der Konfiguration auf Systemebene konfigurieren müssen, kann ein Adobe Workfront-Administrator die Voreinstellung entsperren. Als Gruppenadministrator können Sie dann die Voreinstellung für Ihre Gruppe konfigurieren. Dies wirkt sich auf alle Aufgaben oder Probleme Ihrer Gruppe aus.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 2%
@@ -252,7 +252,7 @@ Wenn die Einstellung **[!UICONTROL Erlauben Sie Benutzern, ihre Aufgaben und Pro
 
 Wenn diese Einstellung aktiviert ist, können Gruppenbenutzer Folgendes sehen:
 
-* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine &#x200B;]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
+* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine ]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
 
   >[!NOTE]
   >

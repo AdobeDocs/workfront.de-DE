@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Status von Storys und Teilaufgaben auf dem Scrum-Board aktualisieren
 description: Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys durch die Iteration oder das Projekt widerzuspiegeln.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

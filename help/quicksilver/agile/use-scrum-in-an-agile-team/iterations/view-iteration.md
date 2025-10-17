@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Anzeigen einer Iteration
 description: Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Geschichten, Problemen und Dokumenten an, die in der Iteration enthalten sind.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

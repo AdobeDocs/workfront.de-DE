@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Benutzerdefinierte Status als Standardstatus verwenden
 description: Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Arten verwendet. Die Verwendungsmöglichkeiten hängen davon ab, ob es sich um einen Standardstatus auf Systemebene oder einen Standardstatus auf Gruppenebene handelt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%

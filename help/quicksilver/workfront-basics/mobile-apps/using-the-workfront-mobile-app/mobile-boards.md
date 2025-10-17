@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront Boards für Mobilgeräte
 description: In  [!DNL Workfront]  Mobile App können Sie alle Boards sehen, die Sie erstellt haben oder die in der Desktop-Version von hinzugefügt wurden [!DNL Workfront].
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Um Feedback zu mobilen Boards zu geben, klicken Sie auf das Symbol **[!UICONTROL
 
 >[!NOTE]
 >
->Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront]&#x200B;[!UICONTROL &#x200B; Pinnwände] archivieren oder löschen, nicht aus der Mobile App.
+>Derzeit können Sie eine Pinnwand nur aus der Desktop-Version von [!DNL Workfront][!UICONTROL  Pinnwände] archivieren oder löschen, nicht aus der Mobile App.
 
 ## Board-Inhalte anzeigen
 

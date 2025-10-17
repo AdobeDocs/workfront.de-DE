@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Hinzufügen einer Aufnahmespalte zu einer Pinnwand
 description: Optional können Sie Ihrer Pinnwand eine Aufnahmespalte hinzufügen, mit der Aufgaben und Probleme automatisch als verbundene Karten abgerufen werden, wenn sie in Workfront hinzugefügt werden, basierend auf den von Ihnen definierten Filtern.
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Probleme:
 >
 >Um eine Synchronisierung mit Workfront durchzuführen und neue Aufgaben und Probleme auf der Pinnwand oder der Aufnahmespalte zu beheben, klicken Sie auf das Menü Mehr ![[!UICONTROL Mehr Menü]](assets/more-menu.png) neben dem Namen der Pinnwand und wählen Sie Verbundene Elemente synchronisieren.
 
-Weitere Informationen zu Spalten finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen zu Spalten finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
 

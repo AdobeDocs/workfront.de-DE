@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Gesperrte und entsperrte Gruppenstatus
 description: Durch das Sperren der benutzerdefinierten Status einer Gruppe können Sie sicherstellen, dass die Personen in der Gruppe und ihren Untergruppen in ihrem Arbeitsablauf dieselben Prozesse verwenden. Wenn ein Gruppenstatus gesperrt ist, steht er allen Benutzenden in der Gruppe und in niedrigeren Gruppen zur Verfügung.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

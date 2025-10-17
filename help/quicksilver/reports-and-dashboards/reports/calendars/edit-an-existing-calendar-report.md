@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Bearbeiten eines vorhandenen Kalenderberichts
 description: Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Projekt hinzufügen oder löschen. Sie können auch die mit einem Kalenderbericht verknüpften Kalendergruppierungen ändern.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, 
 
    1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
 
-      * [Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 

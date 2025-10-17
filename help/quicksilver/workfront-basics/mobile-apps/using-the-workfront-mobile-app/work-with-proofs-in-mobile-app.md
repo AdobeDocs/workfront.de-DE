@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Testsendungen in der Mobile App überprüfen  [!DNL Adobe Workfront]  Entscheidungen treffen
 description: Wenn Ihnen ein Korrekturabzug zur Genehmigung zugewiesen wird, wird er in der Liste der Genehmigungen in der Mobile App angezeigt. Sie können den Korrekturabzug direkt in der App überprüfen und eine Entscheidung darüber treffen.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Ihr Zugriff auf die Überprüfung und Genehmigung von Korrekturabzügen entspric
 
    * Wählen **[!UICONTROL Alle Genehmigungen anzeigen]** im Bereich [!UICONTROL Genehmigungen] von [!UICONTROL Meine Arbeit] aus. Wählen Sie dann die Aufgabe Testversand-Genehmigung in der Liste aller Genehmigungen aus.
 
-     Informationen zu &quot;[!UICONTROL &#x200B; Arbeit] in der Mobile App finden Sie [[!UICONTROL &#x200B; Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+     Informationen zu &quot;[!UICONTROL  Arbeit] in der Mobile App finden Sie [[!UICONTROL  Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Wählen Sie auf der Seite Details **[!UICONTROL Zum Korrekturabzug wechseln]** aus.
 
@@ -64,7 +64,7 @@ Jeder Benutzer, der als Korrekturabzugsbesitzer, -autor oder -moderator zugewies
 
 1. Öffnen Sie den Dokument-Korrekturabzug und wählen Sie **[!UICONTROL Mehr]** Menü ![Mehr](assets/mobile-verticalmoremenu-20x33.png) oben rechts im Dokument aus. Wählen Sie dann **[!UICONTROL Mehr]** aus.
 1. Wählen Sie **[!UICONTROL Dokument sperren]** aus.\
-   Oben [!UICONTROL &#x200B; Dokument wird die &#x200B;] „Gesperrt“ angezeigt.
+   Oben [!UICONTROL  Dokument wird die ] „Gesperrt“ angezeigt.
 
 ### Korrekturabzug entsperren
 
@@ -79,7 +79,7 @@ Nachdem Sie das Korrekturabzugsdokument geprüft haben, können Sie im Korrektur
 ### Im Testversand eine Entscheidung treffen
 
 1. Öffnen Sie den Korrekturabzug für das Dokument.
-1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
+1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
 1. Wählen Sie im Feld [!UICONTROL Entscheidung treffen] eine Entscheidung aus.
 
    Im Folgenden finden Sie einige allgemeine Entscheidungsoptionen. Der [!DNL Adobe Workfront] oder der [!UICONTROL Workfront Proof]Administrator kann die Liste der Entscheidungsoptionen konfigurieren. Weitere Informationen zum Konfigurieren von Entscheidungen durch Admins finden Sie unter [Konfigurieren von Genehmigungsentscheidungsoptionen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
@@ -114,7 +114,7 @@ Nachdem Sie das Korrekturabzugsdokument geprüft haben, können Sie im Korrektur
 ### Entscheidung im Korrekturabzug ändern
 
 1. Öffnen Sie den Korrekturabzug für das Dokument.
-1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
+1. Wählen Sie das Entscheidungssymbol ![[!UICONTROL Entscheidung] oben ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) im Dokument aus.
 
    Das [!UICONTROL Entscheidung treffen] zeigt Ihre aktuelle Entscheidung an.
 

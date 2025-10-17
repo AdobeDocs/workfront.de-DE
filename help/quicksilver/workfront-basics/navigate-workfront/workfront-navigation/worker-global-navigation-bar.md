@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: Grundlegendes zur Navigation für einen Benutzer mit Arbeitslizenz
 description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ihrem/ [!DNL Adobe Workfront]  zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 Als [!UICONTROL Worker] liegt Ihre Hauptverantwortung darin, die Arbeit abzuschließen. Die Bereiche im [!UICONTROL Hauptmenü] die für Sie sichtbar sind, ermöglichen Ihnen dies.
 
-Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; enthalten]:
+Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL  enthalten]:
 
-* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, &#x200B;] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, ] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projekte]**: Hier werden Projekte angezeigt, die für Sie freigegeben wurden. Weitere Informationen finden Sie [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
 

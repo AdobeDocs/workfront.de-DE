@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Durchsuchen des Blueprint-Katalogs und Anfordern der Installation von Blueprints
 description: Blueprints bieten grundlegende Bausteine, mit denen Sie ein mit Ihnen wachsendes Arbeitsverwaltungssystem erstellen können. Alle  [!DNL Adobe Workfront]  können den Blueprint-Katalog durchsuchen. Sie können außerdem die Installation einer bestimmten Blueprint durch Ihren  [!DNL Workfront] -Administrator anfordern, wenn Ihr Administrator Blueprint-Anfragen aktiviert hat.
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Im Katalog werden alle Blueprints angezeigt, die für Ihr Unternehmen verfügbar
 1. Durchsuchen Sie den Blueprint-Katalog.
 1. Verwenden Sie das Bedienfeld „Filter“ auf der rechten Seite, um den Katalog nach folgenden Optionen zu filtern:
 
-   * Anwendungsfall (z. B[!UICONTROL &#x200B; „Personalwesen] oder [!UICONTROL Marketing])
+   * Anwendungsfall (z. B[!UICONTROL  „Personalwesen] oder [!UICONTROL Marketing])
    * Reifegrad ([!UICONTROL verwaltet] oder [!UICONTROL integriert])
    * Installationsstatus ([!UICONTROL installiert] oder nicht [!UICONTROL installiert])
    * Blueprint-Typ (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organisationsstruktur], [!UICONTROL Projektvorlage]<!--, Request Queue, Setup Feature-->)

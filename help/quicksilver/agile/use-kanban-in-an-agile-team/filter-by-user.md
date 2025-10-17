@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Nach Benutzer im Kanban-Board filtern
 description: Sie können den Filter auf einem Kanban-Board verwenden, um zu sehen, welche Arbeitselemente mit anderen Benutzern verknüpft sind und welche nicht zugewiesen sind.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -49,8 +49,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zu einem Kanban[!UICONTROL Board &#x200B;].
-1. Klicken Sie auf [!UICONTROL &#x200B; Dropdown]Menü „Filter“ auf der rechten Seite der [!UICONTROL Kanban]Pinnwand.
+1. Zu einem Kanban[!UICONTROL Board ].
+1. Klicken Sie auf [!UICONTROL  Dropdown]Menü „Filter“ auf der rechten Seite der [!UICONTROL Kanban]Pinnwand.
 1. Wählen Sie einen oder mehrere Benutzer oder &quot;**[!UICONTROL &quot;]**.
 
    >[!NOTE]

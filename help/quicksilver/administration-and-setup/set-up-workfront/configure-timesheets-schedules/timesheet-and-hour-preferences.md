@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Arbeitszeittabelle und Stundeneinstellungen konfigurieren
 description: Als  [!DNL Adobe Workfront]  können Sie Voreinstellungen für Arbeitszeittabellen und Stunden in festlegen [!DNL Workfront]  um festzulegen, mit welchen Elementen die Arbeitszeittabellen vorab ausgefüllt werden können und welchen Elementen Benutzer Zeit protokollieren können.
-author: Alina and Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Alle Änderungen an Arbeitszeittabellen wirken sich auf alle Arbeitszeittabellen
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -147,7 +147,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <p>Das bedeutet, dass die Arbeitszeittabelle vorab mit Aufgaben und Problemen ausgefüllt wird, deren Termine zwischen vier Wochen vor dem Datumsbereich der Arbeitszeittabelle und bis zu vier Wochen nach dem Datumsbereich der Arbeitszeittabelle liegen, wenn Sie für Ihren Bereich 4 Wochen auswählen. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Abgeschlossene-Aufgaben und -Probleme]</td> 
+      <td role="rowheader">[!Abgeschlossene UICONTROL-Aufgaben und -Probleme]</td> 
       <td>Wenn einer einzelnen Aufgabe normalerweise mehrere Ressourcen zugewiesen sind, empfehlen wir diese Einstellung. Wenn also eine Ressource die Zeit für einen Vorgang aufzeichnet und ihn als abgeschlossen markiert, können die anderen Ressourcen, die dem Vorgang zugewiesen sind, den Vorgang oder das Problem weiterhin in ihrer Arbeitszeittabelle finden, um ihre Stunden aufzuzeichnen.</td> 
      </tr> 
      <tr> 

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Board-Spalten verwalten
 description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie können weitere Spalten hinzufügen, die Reihenfolge der Spalten ändern, Spalten umbenennen und alle nicht benötigten Spalten löschen. Sie können auch Spaltenrichtlinien definieren.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%

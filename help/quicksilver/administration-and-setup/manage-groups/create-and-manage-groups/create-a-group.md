@@ -5,11 +5,11 @@ keywords: erstellen,Gruppe,Untergruppe,neu
 navigation-topic: create-and-manage-groups
 title: Erstellen einer Gruppe
 description: Als Adobe Workfront-Administrator können Sie Gruppen erstellen, um Benutzende und Projekte zu organisieren und Zugriffsrechte in Workfront zuzuweisen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 3%
@@ -140,7 +140,7 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![&#x200B; „Kopieren](assets/copy-icon.png).
+1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![ „Kopieren](assets/copy-icon.png).
 1. Geben Sie **Feld „Gruppe kopieren** einen **Gruppennamen** für die kopierte Gruppe ein.
 
 1. Geben Sie die folgenden Informationen an:

@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Arbeitszeittabelle und Stundeneinstellungen einer Gruppe sperren oder entsperren
 description: Wenn Sie Gruppenadministrator sind, können Sie eine Arbeitszeittabelle und Stundeneinstellungen für Ihre Gruppe konfigurieren und dann sperren, nachdem ein Workfront-Administrator diese auf Systemebene entsperrt hat.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%

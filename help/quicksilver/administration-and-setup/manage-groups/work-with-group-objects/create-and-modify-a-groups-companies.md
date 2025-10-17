@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Erstellen und Ändern der Unternehmen einer Gruppe
 description: Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie mit Unternehmen arbeiten, die mit der Gruppe und ihren Untergruppen verknüpft sind.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -93,4 +93,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Informationen zum Bearbeiten eines Unternehmens finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Unternehmens in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) im Artikel [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![&#x200B; und wählen &#x200B;](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.
+1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![ und wählen ](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.

@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Benachrichtigungen: Ziele'
 description: 'Benachrichtigungen: Ziele'
-author: Lisa
+author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 2%
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ &#x200B;].
+* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
 
 
 ## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich

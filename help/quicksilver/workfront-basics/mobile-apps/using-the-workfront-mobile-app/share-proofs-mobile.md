@@ -3,13 +3,13 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Testsendungen in der Mobile App freigeben  [!DNL Adobe Workfront]  herunterladen
 description: Sie können ein Korrekturabzugsdokument direkt über die Mobile App für interne und externe Empfänger freigeben. Sie können auch ein Korrekturabzugsdokument auf Ihr Mobilgerät herunterladen.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

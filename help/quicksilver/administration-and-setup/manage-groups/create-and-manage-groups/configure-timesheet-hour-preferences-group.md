@@ -5,11 +5,11 @@ keywords: Gruppe,Voreinstellungen,Aufgabe,Gruppen,Problem,Entsperren
 navigation-topic: create-and-manage-groups
 title: Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe
 description: Auf Systemebene kann ein Adobe Workfront-Administrator die Abschnitte „Arbeitszeittabelle“ und „Stundeneinstellungen“, „Allgemeine Voreinstellungen“ und „Arbeitszeittabellen vorab ausfüllen“ entsperren. Dadurch können Gruppenadministratoren die Optionen in diesen Abschnitten unabhängig für ihre eigenen Gruppen konfigurieren.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 1%

@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Voreinstellungen zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder eines Problems für Untergruppen
 description: Als Gruppenadministrator können Sie eine Projekt-, Aufgaben- oder Problemeinstellung konfigurieren und dann sperren, wenn ein Workfront-Administrator sie auf Systemebene entsperrt hat.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%

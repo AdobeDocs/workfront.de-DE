@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Benachrichtigungen: Genehmigungsinformationen'
 description: Die folgenden Benachrichtigungen informieren Sie über Genehmigungsaktivitäten, die für ein Arbeitselement durchgeführt werden, an dem Sie beteiligt sind. Informationen zum Konfigurieren der empfangenen Benachrichtigungen finden Sie unter Ändern Ihrer eigenen E-Mail-Benachrichtigungen .
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Eine delegierte Projektgenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Projektgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektgenehmigung/ -ablehnung in Ihrem Auftrag von] &lt;Benutzername&gt;</em></p> <p><em>Der Betreff der täglichen Digest-Benachrichtigung ist: [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em> </p> </td> 
-   <td> Portfolio Projektname<br>[!UICONTROL Projektname]<br>[!UICONTROL Projektreferenz-Nummer]<br>Name der Benutzerin oder des Benutzers, die oder der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL Genehmigungsentscheidung]<br>[!UICONTROL Projektstatus]<br>Name der Benutzerin oder des Benutzers, die bzw. der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projektreferenz-Nummer<br>*Projektname<br>*Name der genehmigenden Person<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
+   <td> Projektname<br>[!UICONTROL Portfolio-Name]<br>[!UICONTROL-Projekt-Referenznummer]<br>Name des Benutzers, der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL-Genehmigungsentscheidung]<br>[!UICONTROL-Projektstatus]<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projekt-Referenznummer<br>*Projektname<br>*Name des genehmigenden Benutzers<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

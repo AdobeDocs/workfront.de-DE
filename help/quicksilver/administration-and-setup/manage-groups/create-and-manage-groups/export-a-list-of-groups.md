@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Exportieren einer Gruppenliste
 description: Wenn Sie von Ihnen verwaltete Gruppen anzeigen, können Sie eine Liste dieser Gruppen exportieren.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 2%
@@ -57,10 +57,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wenn Sie die gesamte von Ihnen verwaltete Gruppe exportieren möchten, klicken Sie auf das Symbol „Exportieren![&#x200B; (Symbol „Exportieren](assets/export.png).
+1. Wenn Sie die gesamte von Ihnen verwaltete Gruppe exportieren möchten, klicken Sie auf das Symbol „Exportieren![ (Symbol „Exportieren](assets/export.png).
 
    Oder
 
-   Um einige der von Ihnen verwalteten Gruppen zu exportieren, wählen Sie diese Gruppen aus und klicken Sie dann auf das Symbol „Exportieren![&#x200B; (Symbol „Exportieren](assets/export.png).
+   Um einige der von Ihnen verwalteten Gruppen zu exportieren, wählen Sie diese Gruppen aus und klicken Sie dann auf das Symbol „Exportieren![ (Symbol „Exportieren](assets/export.png).
 
 1. Wählen Sie das Dateiformat aus, das Sie für die exportierte Liste verwenden möchten.

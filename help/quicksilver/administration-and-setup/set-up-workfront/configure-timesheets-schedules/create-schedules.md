@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Zeitplan erstellen
 description: Sie können die Arbeitswochen Ihrer Benutzer mit Zeitplänen definieren. Sie können einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Dies ermöglicht  [!DNL Workfront]  Berechnung von Zeitplänen und Benutzerverfügbarkeit.
-author: Lisa, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Als [!DNL Adobe Workfront] können Sie Ihre Arbeitswoche mit Zeitplänen definie
 
 Wenn Sie Benutzer haben, die in verschiedenen Zeitzonen arbeiten, wird durch die Erstellung eines Zeitplans in jeder Zeitzone und die Verknüpfung mit diesen Benutzern sichergestellt, dass ihre Arbeit in [!DNL Workfront] in Echtzeit aufgezeichnet wird und dass ihre Verfügbarkeit immer korrekt ist, je nachdem, wann sie arbeiten.
 
-Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten [&#x200B; Sie unter &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers bearbeiten und [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten [ Sie unter ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers bearbeiten und [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Gruppenadministratoren können auch Zeitpläne erstellen, die mit den von ihnen verwalteten Gruppen verknüpft sind. Weitere Informationen finden Sie unter [Erstellen und Ändern der Zeitpläne einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
@@ -50,7 +50,7 @@ Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -92,7 +92,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    <table style="table-layout:auto">
     <tr>
-     <td>[!UICONTROL -Gruppe mit Administratorzugriff]</td>
+     <td>[!UICONTROL-Gruppe mit Administratorzugriff]</td>
      <td><p>Wählen Sie die Gruppe aus, deren Administratoren berechtigt sind, diesen Zeitplan zu bearbeiten.</p>
      <p><b>WICHTIG</b>:</p>
       <ul>

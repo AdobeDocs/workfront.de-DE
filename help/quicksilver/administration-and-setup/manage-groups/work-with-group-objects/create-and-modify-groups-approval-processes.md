@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Genehmigungsprozesse auf Gruppenebene
 description: Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die Genehmigungsprozesse anzeigen und damit arbeiten, für die die Administratoren der Gruppe oder einer ihrer Untergruppen administrativen Zugriff haben.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d43e7488-28e5-47d2-9401-e3d20e0d0256
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

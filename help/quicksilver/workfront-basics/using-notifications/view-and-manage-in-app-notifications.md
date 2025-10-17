@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: In-App-Benachrichtigungen anzeigen und verwalten
 description: 'In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 1%
@@ -104,7 +104,7 @@ Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
 Nachdem Sie Benachrichtigungen angezeigt haben, können Sie sie bestätigen, um sie aus der Liste [!UICONTROL Benachrichtigungen] zu löschen oder sie später beantworten zu lassen.
 
-Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ &#x200B;].
+Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ ].
 
 * [Benachrichtigungen bestätigen](#acknowledge-notifications)
 * [Bestätigte Benachrichtigungen anzeigen](#view-acknowledged-notifications)

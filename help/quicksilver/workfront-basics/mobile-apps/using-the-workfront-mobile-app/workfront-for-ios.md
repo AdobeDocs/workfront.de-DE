@@ -4,17 +4,17 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für iOS
 description: Die  [!DNL Adobe Workfront] -App ermöglicht den Zugriff auf Ihre Arbeit auf jedem iOS-Gerät. Sie können die Mobile App  [!DNL Workfront]  Smartphones und Tablets mit iOS 10 oder höher installieren und verwenden. Eine dedizierte  [!DNL Workfront] -App ist sowohl für den iPhone als auch für den iPad verfügbar.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront] für [!DNL iOS]
+# [!DNL Adobe Workfront] for [!DNL iOS]
 
 Mit der [!DNL Adobe Workfront] App können Sie auf jedem [!DNL iOS] Gerät auf Ihre Arbeit zugreifen. Sie können die Mobile App [!DNL Workfront] auf Smartphones und Tablets installieren und verwenden, auf denen iOS 10 oder höher ausgeführt wird. Eine dedizierte [!DNL Workfront]-App ist sowohl für die [!DNL iPhone] als auch für die [!DNL iPad] verfügbar.
 
@@ -32,7 +32,7 @@ Im Bereich [!UICONTROL Startseite] können Sie direkt an Aufgaben, Problemen und
    <td> 
     <ul> 
      <li>Beginn der Arbeit an Aufgaben und Problemen</li> 
-     <li>Aufgaben und Probleme als erledigt markieren </li> 
+     <li>Aufgaben und Probleme als erledigt markieren [!UICONTROL]</li> 
      <li>Aufgaben und Probleme neu zuweisen</li> 
      <li>Ändern des [!UICONTROL Commit-Datums]</li> 
     </ul> </td> 
@@ -106,7 +106,7 @@ Im Bereich [!UICONTROL Genehmigungen] können Sie [!UICONTROL Genehmigungen“ a
     </ul> </td>
    <td>
     <ul>
-     <li>Arbeitszeit- tabellen</li>
+     <li>Arbeitszeittabellen</li>
      <li>Alle Anforderungen</li>
     </ul> </td>
   </tr>
@@ -156,7 +156,7 @@ Im Bereich [!UICONTROL Anfragen] können Sie Details zu Anfragen anzeigen. Im Be
 
 ![Bereich Anfragen](assets/mobile-requests-area.png)
 
-## Arbeitszeit- tabellen
+## Arbeitszeittabellen
 
 Im [!UICONTROL Arbeitszeittabellen] können Sie Details zu Ihren Arbeitszeittabellen anzeigen. Im Bereich [!UICONTROL Arbeitszeittabellen] der App haben Sie folgende Möglichkeiten:
 

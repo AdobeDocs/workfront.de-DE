@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Agile Burndown-Diagramm - Übersicht
 description: Das Burndown-Diagramm bietet eine visuelle Darstellung des Fortschritts von Storys durch die Iteration oder das Projekt . Die tatsächliche Burndown-Rate wird mit der idealen Burndown-Rate für die Iterations- oder Projektzeitleiste gemessen.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%

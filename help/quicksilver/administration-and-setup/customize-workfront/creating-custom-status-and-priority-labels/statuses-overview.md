@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Statusübersicht
 description: Um herauszufinden, wie der aktuelle Entwicklungsstand für ein Projekt, eine Aufgabe oder ein Problem aussieht, kann ein Benutzer den jeweiligen Status anzeigen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sie müssen über die folgenden Zugriffsrechte und Berechtigungen für ein Proje
 Sie müssen über die folgenden Berechtigungen und Zugriffsrechte für ein Projekt, eine Aufgabe oder ein Problem verfügen, um seinen Status manuell ändern zu können:
 
 * Bearbeiten des Zugriffs auf Projekte, Aufgaben und Probleme auf Ihrer Zugriffsebene
-* Contribute oder höhere Berechtigungen für die Aufgabe oder das Problem
+* Mitwirken an oder höhere Berechtigungen für die Aufgabe oder das Problem
 * Verwalten Sie die Berechtigungen für das Projekt.
 
 Das Ändern des Status eines Projekts, einer Aufgabe oder eines Problems ist in der Regel ein manueller Prozess. Es gibt jedoch Fälle, in denen der Status eines Problems automatisch geändert wird, abhängig von anderen Faktoren, die im System auftreten.

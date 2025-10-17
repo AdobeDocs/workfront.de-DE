@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Konfigurieren von Anfragetypen
 description: Bei der Arbeit an einem Projekt kann es vorkommen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine bestimmte Aufgabe protokollieren. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anfrage-Warteschlange festgelegt ist. Probleme und Anfragen werden in Adobe Workfront als austauschbar betrachtet.
-author: Lisa
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 

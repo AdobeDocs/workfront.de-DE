@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: IOS-Betatester sein
 description: Lesen Sie diesen Artikel, um ein iOS-Betatester für die Mobile  [!DNL Adobe Workfront]  zu werden.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Sie können die [!DNL Apple App Store] verwenden, um die App zu finden und herun
 >
 >Nachdem Sie die [!DNL TestFlight]-App installiert und ein Betatester auf Ihrem [!DNL iOS]-Gerät geworden sind, müssen Sie aktualisierte Versionen von [!DNL Workfront] mit der [!DNL TestFlight]-App herunterladen, anstatt die [!DNL Apple Store] zu verwenden. Wenn Sie kein Betatester für [!DNL iOS] sind, können Sie Ihre Mobile App weiterhin über die [!DNL Apple Store] aktualisieren.
 
-#### 1. Installieren der [!DNL TestFlight] App
+#### &#x200B;1. Installieren der [!DNL TestFlight] App
 
 Um die Beta-Version der [!DNL Workfront]-App zu installieren, muss die [!DNL TestFlight]-App auf Ihrem Gerät installiert sein. Nach der Installation von [!DNL TestFlight] müssen Sie die [!DNL Workfront] App installieren.
 
@@ -41,7 +41,7 @@ Um die Beta-Version der [!DNL Workfront]-App zu installieren, muss die [!DNL Tes
 1. Tippen Sie auf **[!UICONTROL Akzeptieren]**, um die Nutzungsbedingungen der [!DNL TestFlight] App zu akzeptieren.\
    Die [!DNL TestFlight] App ist auf Ihrem Gerät installiert. Fahren Sie mit dem nächsten Abschnitt fort.
 
-#### 2. Installieren der [!DNL Workfront] Beta-App in [!DNL TestFlight]
+#### &#x200B;2. Installieren der [!DNL Workfront] Beta-App in [!DNL TestFlight]
 
 Sie müssen die [!DNL Workfront] App und die [!DNL TestFlight] App auf Ihrem iOS-Gerät installiert haben, bevor Sie ein Betatester auf einem iOS-Gerät sein können.
 

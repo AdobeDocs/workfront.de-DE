@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 'Benachrichtigungen: Verschiedene Informationen'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in einem Projekt, das Sie als Sponsor unterstützen.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 0%
@@ -64,12 +64,12 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Einer meiner Mitarbeiter wird einem Projekt hinzugefügt</strong> </p> <p>Ein Manager erhält eine E-Mail-Benachrichtigung, wenn einer seiner Benutzer zu einem Projekt hinzugefügt wird. Diese Benachrichtigung wird unabhängig vom Status des Projekts gesendet. </p> <p>Benutzende mit einer [!UICONTROL Review]-Lizenz erhalten keine Benachrichtigung.</p> <p>Der Betreff der E-Mail lautet: <em>Projektzuweisung: &lt;Benutzername&gt;[&lt;Projekt-GUID&gt;_ &lt;Benutzer-GUID&gt;]</em></p> </td> 
-   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der die Person zum Projekt hinzugefügt hat<br>Name des Benutzers, der zum Projekt hinzugefügt wurde<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekt-Prozentsatz abgeschlossen<br>Namen anderer auf Projekt<br>Projektstatus<br>Projektinhaber<br><strong>[!UICONTROL Weitere Details anzeigen]</strong> Schaltfläche<br><br><br></p> </td> 
+   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der die Person zum Projekt hinzugefügt hat<br>Name des Benutzers, der zum Projekt hinzugefügt wurde<br>Projekt [!UICONTROL Geplantes Startdatum]<br>Projekt [!UICONTROL Geplantes Abschlussdatum]<br>Projekt Prozent abgeschlossen<br>Namen anderer auf Projekt<br>Projektstatus<br>Projektinhaber<br><strong>[!UICONTROL Weitere Details anzeigen]</strong> Schaltfläche<br><br><br></p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Jemand fügt ein Projekt einem Portfolio oder Programm hinzu, dessen Besitzer ich bin</strong> </p> <p>Das Portfolio und/oder der Programmbesitzer erhalten eine Benachrichtigung, wenn ein neues Projekt zu einem Portfolio oder Programm hinzugefügt wird.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>[!UICONTROL Projekt hinzugefügt zu] &lt;Portfolio-Name&gt;[Projekt-GUID]</em></p> </td> 
-   <td> Portfolioname<br>Projekt-Referenznummer<br>Name des Benutzers, der das Projekt zum Portfolio/Programm hinzugefügt hat<br><br></td> 
+   <td> Portfolio Name<br>Project Reference Number<br>Name des Benutzers, der das Projekt zum Portfolio/Programm hinzugefügt hat<br><br></td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 

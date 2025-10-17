@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Story-Informationen bearbeiten
 description: Beim Anzeigen einer Story-Kachel auf dem Kanban-Board stehen bestimmte Informationen zur Inline-Bearbeitung direkt über die Story-Kachel zur Verfügung.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 3%
@@ -101,7 +101,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zum Kanban[!UICONTROL Board &#x200B;].
+1. Zum Kanban[!UICONTROL Board ].
 1. Erweitern Sie die Kachel Story , um alle mit der Story verbundenen Felder anzuzeigen.
 
    ![Story-Karte](assets/story-expanded-on-kanban-board-2021-350x405.png)

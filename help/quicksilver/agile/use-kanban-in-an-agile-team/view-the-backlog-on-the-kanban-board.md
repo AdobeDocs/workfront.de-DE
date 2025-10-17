@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Rückstand zum Kanban-Board hinzufügen
 description: Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die Spalte [!UICONTROL Backlog] auf der  [!DNL Kanban]  enthält die ersten 20 Elemente aus Ihrem Rückstand auf der  [!DNL Kanban] . Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status in der Rückstandsanzeige mit „Aktuell“ übereinstimmt.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Rückstand zur Pinnwand [!UICONTROL Kanban] hinzufügen
 
-Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; &#x200B;], damit sie im Rückstand angezeigt werden.
+Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; ], damit sie im Rückstand angezeigt werden.
 
 ## Zugriffsanforderungen
 
