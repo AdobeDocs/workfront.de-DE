@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '680'
+ht-degree: 3%
 
 ---
 
@@ -45,13 +45,10 @@ Sie können auch die Entitäten ändern, für die Sie ein Anfrageformular freige
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<ul><li><p>Beliebiges Workfront-Paket</p></li>
-Und
-<li><p>Beliebiges Planungspaket</p></li></ul>
+<p>Jedes Workfront-Paket und jedes Planungspaket</p>
 Oder
-<ul><li><p>Beliebiges Workflow-Paket</p></li>
-Und
-<li><p>Beliebiges Planungspaket</p></li></ul>
+<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
    </td> </tr>
 
 </tr> 

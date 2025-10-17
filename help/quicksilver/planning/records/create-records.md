@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 0%
 
 ---
@@ -270,7 +270,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
    Oder
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -330,7 +330,12 @@ Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [V
    Das Feld **Neuer Datensatz** wird geöffnet. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Neues Datensatzfeld in der Timeline mit unbenannter Datensatzleiste](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >Sie können keine Datensätze in der Zeitleisten -Ansicht erstellen, wenn die Datensatzleisten in einer benannten Gruppierung angezeigt werden.
 1. Aktualisieren Sie die folgenden Informationen:
+
 
    * **Name**: Geben Sie den Namen des Datensatzes ein. Wenn Sie es leer lassen, benennt Workfront es **mit &quot;**&quot;.
 
@@ -486,7 +491,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 

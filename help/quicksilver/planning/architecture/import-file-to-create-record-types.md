@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -39,10 +39,9 @@ Datensatztypen sind die Objekttypen von Adobe Workfront Planning. In Workfront P
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+<p>Beliebiges Workfront und beliebiges Planungspaket</p>
 <p>Oder</p>
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<p>Beliebiger Workflow und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 

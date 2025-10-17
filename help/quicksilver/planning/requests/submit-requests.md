@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,10 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<ul><li><p>Beliebiges Workfront-Paket</p></li>
-Und
-<li><p>Beliebiges Planungspaket</p></li></ul>
+<p>Jedes Workfront-Paket und jedes Planungspaket</p>
 Oder
-<ul><li><p>Beliebiges Workflow-Paket</p></li>
-Und
-<li><p>Beliebiges Planungspaket</p></li></ul>
+<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
    </td> </tr>
 
 </tr> 
