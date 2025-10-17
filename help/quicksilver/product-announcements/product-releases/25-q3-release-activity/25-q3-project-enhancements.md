@@ -54,12 +54,12 @@ Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- un
 >[!IMPORTANT]
 >
 >Je nachdem, wann die Stunden protokolliert wurden, kann es eine Diskrepanz zwischen den tatsächlichen Stunden und den veralteten tatsächlichen Stunden für ein Projekt, eine Aufgabe oder ein Problem geben.<br>
->>Die folgenden Szenarien sind vorhanden:
+>&#x200B;>Die folgenden Szenarien sind vorhanden:
 >
 >* Tatsächliche Stunden stellen die Stunden dar, die seit Mai 2021 für Projekte, Aufgaben und Probleme protokolliert wurden.
 >* Ältere Ist-Stunden stellen Stunden dar, die für Projekte, Aufgaben und Probleme während der Laufzeit des Projekts, der Aufgabe oder des Problems protokolliert werden. Dies umfasst Stunden, die vor Mai 2021 bis zur aktuellen Zeit protokolliert wurden.
->  ><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
->  ><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
+>  &#x200B;><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
+>  &#x200B;><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -114,6 +114,6 @@ Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Proj
 
 Zuvor waren diese Informationen in der Antwort des KI-Assistenten nicht verfügbar.
 
-Informationen zur Verwendung des KI-Assistenten, um Informationen zu Workfront-Elementen zu erhalten, finden [ unter „Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+Informationen zur Verwendung des KI-Assistenten, um Informationen zu Workfront-Elementen zu erhalten, finden [&#x200B; unter „Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 
