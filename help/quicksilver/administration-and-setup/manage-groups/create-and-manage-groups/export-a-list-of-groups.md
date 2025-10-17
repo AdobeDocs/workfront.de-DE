@@ -57,10 +57,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wenn Sie die gesamte von Ihnen verwaltete Gruppe exportieren möchten, klicken Sie auf das Symbol „Exportieren![ (Symbol „Exportieren](assets/export.png).
+1. Wenn Sie die gesamte von Ihnen verwaltete Gruppe exportieren möchten, klicken Sie auf das Symbol „Exportieren![&#x200B; (Symbol „Exportieren](assets/export.png).
 
    Oder
 
-   Um einige der von Ihnen verwalteten Gruppen zu exportieren, wählen Sie diese Gruppen aus und klicken Sie dann auf das Symbol „Exportieren![ (Symbol „Exportieren](assets/export.png).
+   Um einige der von Ihnen verwalteten Gruppen zu exportieren, wählen Sie diese Gruppen aus und klicken Sie dann auf das Symbol „Exportieren![&#x200B; (Symbol „Exportieren](assets/export.png).
 
 1. Wählen Sie das Dateiformat aus, das Sie für die exportierte Liste verwenden möchten.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie eine Checkliste auf einer Karte verwenden, können Sie Ihre Arbeit in kleinere Schritte unterteilen oder Notizen zur Karte hinzufügen. Checklisten-Elemente sind sowohl auf Ad-hoc- als auch auf verbundenen Karten verfügbar.
 
-Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Verwenden von verbundenen Karten auf ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Karten](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
+Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Verwenden von verbundenen Karten auf &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Karten](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
 ## Zugriffsanforderungen
 

@@ -27,4 +27,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Team deaktivieren](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Ersetzen Sie [!UICONTROL  Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Ersetzen Sie [!UICONTROL &#x200B; Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

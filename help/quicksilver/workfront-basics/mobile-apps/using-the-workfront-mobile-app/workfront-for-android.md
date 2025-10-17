@@ -32,7 +32,7 @@ Im Bereich [!UICONTROL Startseite] können Sie direkt an Aufgaben, Problemen und
    <td> 
     <ul> 
      <li>Beginn der Arbeit an Aufgaben und Problemen</li> 
-     <li>Aufgaben und Probleme als erledigt markieren [!UICONTROL]</li> 
+     <li>Aufgaben und Probleme als erledigt markieren </li> 
      <li>Aufgaben und Probleme neu zuweisen</li> 
      <li>Ändern des [!UICONTROL Commit-Datums]</li> 
     </ul> </td> 

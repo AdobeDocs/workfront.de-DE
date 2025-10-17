@@ -58,7 +58,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Öffnen Sie die verbundene Karte, der Sie ein Dokument hinzufügen möchten.
 1. Ziehen Sie die Datei per Drag-and-Drop in den Bereich [!UICONTROL Dokumente] oder klicken Sie auf [!UICONTROL **Dokument hinzufügen**], um eine Datei auszuwählen.
 
-   Die Datei wird im Bereich &quot;[!UICONTROL &quot; ].
+   Die Datei wird im Bereich &quot;[!UICONTROL &quot; &#x200B;].
 
    ![Dokumente zur Karte hinzugefügt](assets/add-document-to-card.png)
 

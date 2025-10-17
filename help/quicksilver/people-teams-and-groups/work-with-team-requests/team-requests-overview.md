@@ -42,7 +42,7 @@ Die [!UICONTROL Bereit zum Start]-Option zeigt nur Aufgaben und Probleme an, die
   Wenn der Typ der Vorgängerbeziehung beispielsweise [!UICONTROL Ende-Anfang] lautet (Vorgängeraufgabe muss abgeschlossen sein, bevor die abhängige Aufgabe beginnen kann), muss der Vorgänger als [!UICONTROL Abgeschlossen] markiert sein. (Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
 
 * Der angemeldete Benutzer ist die Person, die diesen Aufgaben und Problemen (bei Arbeitsanfragen) zugewiesen ist, oder das ausgewählte Team wird diesen Aufgaben und Problemen (bei Teamanfragen) zugewiesen.
-* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; ].
+* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; &#x200B;].
 * Das [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] wurde überschritten oder soll innerhalb von zwei Wochen ab dem heutigen Datum beginnen (oder es wurde kein [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] definiert).
 * Das [!UICONTROL Übergabedatum] ist bereits abgelaufen oder wird innerhalb von zwei Wochen ab dem aktuellen Datum liegen.
 

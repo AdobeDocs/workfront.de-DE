@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Sie können eine Karte in eine beliebige Spalte auf der Pinnwand verschieben oder eine Karte kopieren.
 
-Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, können der Status, die Verantwortlichen und Tags automatisch aktualisiert werden, wenn Sie eine Karte von einer Spalte in eine andere verschieben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.
+Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, können der Status, die Verantwortlichen und Tags automatisch aktualisiert werden, wenn Sie eine Karte von einer Spalte in eine andere verschieben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.
 
 >[!NOTE]
 >

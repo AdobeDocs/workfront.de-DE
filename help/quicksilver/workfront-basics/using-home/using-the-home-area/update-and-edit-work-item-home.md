@@ -98,7 +98,7 @@ Sie können Arbeitselemente in den folgenden Widgets im Bereich Startseite bearb
 
 ## Hinzufügen eines Kommentars zu einem Arbeitselement im Widget Meine Arbeit
 
-Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL  Arbeit“ ]:
+Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL &#x200B; Arbeit“ &#x200B;]:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget [!UICONTROL **Meine Arbeit**] hinzuzufügen.

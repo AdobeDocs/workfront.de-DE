@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ---
 
-# Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht
+# Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 

@@ -236,7 +236,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
 * **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um die Deaktivierung dieses Benutzers zu einem bestimmten Datum und zu einer bestimmten Uhrzeit zu planen.
-* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das Benutzende in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der bzw. dem der Benutzer zugewiesen ist, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.
@@ -262,7 +262,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter [Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
   <span class="preview">(Optional) Datumsbasierte Zuweisungen für Aufgabengebiete werden in Finanzberechnungen verwendet, wenn sich das Aufgabengebiet des/r Benutzenden während eines Projekts ändert.</span>
 
@@ -278,7 +278,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   >[!IMPORTANT]
   >
-  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 * **Arbeitszeittabellen-**: Verknüpfen Sie ein Arbeitszeittabellen-Profil mit dem Benutzer, um sicherzustellen, dass Arbeitszeittabellen automatisch für den Benutzer generiert werden.
 

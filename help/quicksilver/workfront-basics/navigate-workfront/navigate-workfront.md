@@ -23,7 +23,7 @@ Lesen Sie diese Artikel, um zu verstehen, wie Sie in Adobe Workfront navigieren 
 Dieser Abschnitt enthält die folgenden Unterabschnitte und Artikel:
 
 * [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-* [Glossar der  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Glossar der  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] Häufig gestellte Fragen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [Suche [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search.md)

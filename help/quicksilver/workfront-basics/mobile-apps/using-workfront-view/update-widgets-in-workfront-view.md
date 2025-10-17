@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: Aktualisieren von Widgets in der Projektdetailansicht
-description: Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL  können Sie zusätzliche Informationen über das ]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
+description: Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL &#x200B; können Sie zusätzliche Informationen über das &#x200B;]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails]
 
-Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL  können Sie zusätzliche Informationen über das ]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
+Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL &#x200B; können Sie zusätzliche Informationen über das &#x200B;]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 
 ## Zugriffsanforderungen
 
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       * zunächst bis zum [!UICONTROL Geschätzten Fälligkeitsdatum]
       * zweitens nach [!UICONTROL Struktur der Arbeitsaufteilung]
 
-     Es werden die letzten beiden abgeschlossenen Aufgaben (falls zutreffend) und die nächsten vier Aufgaben angezeigt. Um zu verstehen, welche Aufgaben in der Mobile App [!DNL Workfront] angezeigt werden, können Sie einen Aufgabenbericht für das angezeigte Projekt erstellen und ihn nach dem voraussichtlichen Fälligkeitsdatum und dann nach der [!DNL Workfront] sortieren. Die ersten 6 Aufgaben sind die Aufgaben, die in der Mobile App von Workfront View im Widget [!UICONTROL Kommende ]&quot; aufgeführt sind.
+     Es werden die letzten beiden abgeschlossenen Aufgaben (falls zutreffend) und die nächsten vier Aufgaben angezeigt. Um zu verstehen, welche Aufgaben in der Mobile App [!DNL Workfront] angezeigt werden, können Sie einen Aufgabenbericht für das angezeigte Projekt erstellen und ihn nach dem voraussichtlichen Fälligkeitsdatum und dann nach der [!DNL Workfront] sortieren. Die ersten 6 Aufgaben sind die Aufgaben, die in der Mobile App von Workfront View im Widget [!UICONTROL Kommende &#x200B;]&quot; aufgeführt sind.
 
    * **[!UICONTROL Verbleibende Aufgaben]**: Zeigt die unvollständigen Aufgaben in einem Liniendiagramm an.
    * **[!UICONTROL Dokumente]**: Zeigt eine Liste der an das Projekt angehängten Dokumente an.\

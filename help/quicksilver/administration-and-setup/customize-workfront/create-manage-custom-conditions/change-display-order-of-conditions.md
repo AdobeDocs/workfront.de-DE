@@ -65,7 +65,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
-1. Wählen Sie die **Projekte**, **** oder **Probleme** aus.
+1. Wählen Sie die **Projekte**, **&#x200B;**&#x200B;oder **Probleme** aus.
 
 1. Ziehen Sie ![move icon](assets/move-icon---dots.png) die Bedingungen, um ihre Reihenfolge zu ändern.
 

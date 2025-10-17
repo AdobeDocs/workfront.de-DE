@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Verwalten, woran Ihr Team arbeitet
 
-Eine Liste der Elemente, an denen Ihr Team arbeitet, finden Sie [!UICONTROL  Abschnitt &quot;]&quot; Ihres Teams.
+Eine Liste der Elemente, an denen Ihr Team arbeitet, finden Sie [!UICONTROL &#x200B; Abschnitt &quot;]&quot; Ihres Teams.
 
-Im Abschnitt „Workload-Balancer“ Ihres Teams können Sie nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen [!UICONTROL . ].
+Im Abschnitt „Workload-Balancer“ Ihres Teams können Sie nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen [!UICONTROL . &#x200B;].
 
 Ausführliche Informationen zum Verwalten der Ihrem Team zugewiesenen Arbeit finden Sie unter [[!UICONTROL Workload-Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

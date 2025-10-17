@@ -140,7 +140,7 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![ „Kopieren](assets/copy-icon.png).
+1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![&#x200B; „Kopieren](assets/copy-icon.png).
 1. Geben Sie **Feld „Gruppe kopieren** einen **Gruppennamen** für die kopierte Gruppe ein.
 
 1. Geben Sie die folgenden Informationen an:

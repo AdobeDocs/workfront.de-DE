@@ -42,7 +42,7 @@ Wenn Sie Workfront-Administrator sind, empfehlen wir, Folgendes zu tun, bevor Si
 * Notieren Sie sich die Anzahl der Gruppen, die Sie in Ihrem System haben.
 * Ermitteln Sie, ob Sie die Zugriffsebene einiger Workfront-Administratoren ändern und sie stattdessen als Gruppenadministratoren festlegen können.
 
-  Weitere Informationen zu den Funktionen von Gruppenadministratoren finden Sie unter [Aufgaben von ](#tasks-done-by-group-administrators) in diesem Artikel.
+  Weitere Informationen zu den Funktionen von Gruppenadministratoren finden Sie unter [Aufgaben von &#x200B;](#tasks-done-by-group-administrators) in diesem Artikel.
 
 * Legen Sie fest, ob Gruppenadministratoren in der Lage sein sollen, sich als andere Benutzer anzumelden, oder die Passwörter für Benutzer in den von Ihnen verwalteten Gruppen zurücksetzen können. Für diese Aufgaben ist zusätzlicher Zugriff erforderlich, wie unten unter [Zugriff für Gruppenadministratoren erforderlich](#access-needed-for-group-administrators) beschrieben.
 * Für eine bessere Benutzerverwaltung sollten Sie ggf. Gruppen oder Untergruppen anstelle von Benutzern den folgenden Objekten zuweisen:
@@ -66,7 +66,7 @@ Es wird empfohlen, dass Gruppenadministratoren Bearbeitungszugriff auf Benutzer 
 >[!IMPORTANT]
 >
 >Gruppenadministratoren müssen höhere Zugriffsrechte als die von ihnen verwalteten haben. Andernfalls können sie niedrigere Zugriffsebenen nicht anzeigen oder ändern.
->>Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>&#x200B;>Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Für einen Gruppenadministrator, der Benutzern in ihren Gruppen und Untergruppen Arbeitszeittabellen-Profile zuweisen muss, empfehlen wir außerdem den administrativen Zugriff auf Arbeitszeittabellen und Stunden. Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

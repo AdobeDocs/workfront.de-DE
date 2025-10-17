@@ -50,7 +50,7 @@ Sie können Kommentare zu einem Korrekturabzugsdokument überprüfen. Kommentare
 >
 >Die Optionen im Menü **[!UICONTROL Mehr]** der Auswahlansicht können je nach Einrichtung durch den [!DNL Workfront] oder [!DNL Workfront Proof] Admin unterschiedlich sein.
 
-1. Um weitere Kommentaroptionen anzuzeigen, wählen Sie ![[!UICONTROL Liste der Kommentare] oben ](assets/mobile-listofcommentsicon-30x27.png) in der Kommentarliste aus.
+1. Um weitere Kommentaroptionen anzuzeigen, wählen Sie ![[!UICONTROL Liste der Kommentare] oben &#x200B;](assets/mobile-listofcommentsicon-30x27.png) in der Kommentarliste aus.
 
    Neben jedem Kommentar wird ein Kontrollkästchen angezeigt.
 
@@ -62,7 +62,7 @@ Sie können Kommentare zu einem Korrekturabzugsdokument überprüfen. Kommentare
 
    Um alle Kommentare auszuwählen, wählen Sie das Menü **[!UICONTROL Mehr]** oben rechts ![Mehr](assets/mobile-verticalmoremenu-20x33.png) und wählen Sie **[!UICONTROL Alle auswählen]**.
 
-1. Um den ausgewählten Kommentar aufzulösen, wählen Sie ![[!UICONTROL Kommentar auflösen] oben ](assets/mobile-resolvecomment-icon-30x30.png) aus.
+1. Um den ausgewählten Kommentar aufzulösen, wählen Sie ![[!UICONTROL Kommentar auflösen] oben &#x200B;](assets/mobile-resolvecomment-icon-30x30.png) aus.
 
    Sie können jeweils nur einen Kommentar auflösen. Der Kommentar ist mit einem grünen Symbol gekennzeichnet, um anzuzeigen, dass er aufgelöst wurde.
 
@@ -70,7 +70,7 @@ Sie können Kommentare zu einem Korrekturabzugsdokument überprüfen. Kommentare
 
    Sie können die Auflösung rückgängig machen, indem Sie den aufgelösten Kommentar auswählen und oben rechts **[!UICONTROL Rückgängig]**-Symbol auswählen.
 
-1. Um die ausgewählten Kommentare als gelesen zu markieren, wählen Sie das Symbol **[!UICONTROL Als gelesen markieren]** (![ als gelesen markieren](assets/mobile-markread-icon-30x31.png).
+1. Um die ausgewählten Kommentare als gelesen zu markieren, wählen Sie das Symbol **[!UICONTROL Als gelesen markieren]** (![&#x200B; als gelesen markieren](assets/mobile-markread-icon-30x31.png).
 
    Diese Option ist nur verfügbar, wenn Sie ungelesene Kommentare ausgewählt haben.
 
