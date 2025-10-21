@@ -1,5 +1,5 @@
 ---
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 1%
@@ -71,9 +71,9 @@ ht-degree: 1%
 
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 
 ## Von Formular-Designer zu Allgemein {#form-designer-default}
 
@@ -170,6 +170,7 @@ So richten Sie verknüpfte Ordner ein:
 ## Voraussetzungen {#cc-install-prereq}
 
 Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwendung installieren:
+
 * Informationen zu Photoshop finden Sie unter [Installieren von Adobe Workfront für Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Informationen zu XD finden Sie unter [Installieren von Adobe Workfront für XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Informationen zu InDesign, Illustrator, Premiere Pro und After Effects finden Sie unter [Installieren von Adobe Workfront für Design und Video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -270,7 +271,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Planung]**.
 
@@ -369,6 +370,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 ## Neueste DPV-Version {#latest-version}
 
 **Neueste Version**:
+
 * Mac: 2.1.52, Stand 7/31/2025
 * Windows: 2.1.52 vom 7/31/2025
 

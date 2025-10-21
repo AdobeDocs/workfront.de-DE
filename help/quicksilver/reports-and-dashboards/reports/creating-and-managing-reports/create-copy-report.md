@@ -7,7 +7,7 @@ description: Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Wenn Sie eine Kopie eines benutzerdefinierten Berichts erstellen möchten, gehen
 
    ![Bericht kopieren](assets/unshimmed-report-actions-copy.png)
 
-   Eine Kopie des ursprünglichen Berichts wird mit dem Standardnamen (Name _[ursprünglichen Berichts) ]Kopie)_. Beispielsweise würde eine Kopie des Berichts „Abgeschlossene Aufgaben im 4. Quartal“ als „Abgeschlossene Aufgaben im 4. Quartal (Kopie)“ bezeichnet.
+   Eine Kopie des ursprünglichen Berichts wird mit dem Standardnamen (Name _[ursprünglichen Berichts) erstellt]_ _(Kopie)_. Beispielsweise würde eine Kopie des Berichts „Abgeschlossene Aufgaben im 4. Quartal“ als „Abgeschlossene Aufgaben im 4. Quartal (Kopie)“ bezeichnet.
 
 1. (Optional) Um den Bericht umzubenennen, klicken Sie auf **Berichtsaktionen** und dann **Bearbeiten**. Geben Sie oben links im Textfeld einen neuen Namen ein und klicken Sie anschließend auf **Speichern + Schließen**.
 
