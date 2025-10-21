@@ -67,7 +67,7 @@ Wenn Sie über Satellitenkonten verfügen, müssen Sie Ihre Kreditkartendetails 
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung] in Ihrem Hub-Konto.\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die  [!DNL Workfront] -Seite Abrechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Öffnen Sie [!UICONTROL  Dropdown-Menü ]Kontoliste“. 1)
+1. Öffnen Sie [!UICONTROL &#x200B; Dropdown-Menü &#x200B;]Kontoliste“. 1)
 1. Wählen Sie das Satellitenkonto (2) aus, das mit der Kreditkarte verknüpft ist, die Sie aktualisieren möchten.
 1. Fahren Sie fort mit [Ändern Ihrer Zahlungsmethode und Kreditkartendetails](#changing-your-payment-method-and-credit-card-details).\
    ![satellite_account_billing_page.png](assets/satellite-account-billing-page-350x167.png)

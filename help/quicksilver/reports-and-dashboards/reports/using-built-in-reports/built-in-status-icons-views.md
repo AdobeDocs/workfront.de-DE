@@ -36,7 +36,7 @@ Beachten Sie Folgendes:
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und ](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und &#x200B;](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
 
 * In einigen Ansichten **das Feld** Statussymbole“ **Flags** oder **Ansichtssymbole**.\
   Sie können das Erscheinungsbild der Symbole, die im Feld Statussymbole enthalten sind, nicht anpassen.

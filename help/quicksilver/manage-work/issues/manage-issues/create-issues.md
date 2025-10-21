@@ -135,7 +135,7 @@ Die Felder für neue Anfragen oder Anfragen werden im Abschnitt „Warteschlange
 
 Informationen zum Konfigurieren des Abschnitts „Warteschlangendetails“ des Projekts finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [ Abschnitt „Erstellen von Problemen durch Eingabe einer ](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
+Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [&#x200B; Abschnitt „Erstellen von Problemen durch Eingabe einer &#x200B;](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
 
 ## Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche „Neues Problem“
 
