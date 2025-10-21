@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '13463'
+source-wordcount: '13471'
 ht-degree: 2%
 
 ---
@@ -873,6 +873,7 @@ ht-degree: 2%
          * [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Elemente in der Arbeitsliste im Startseiten-Bereich anzeigen](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Übersicht über Startseiten-Widget-Filter](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Verwalten Sie Ihre Genehmigungen mit dem Widget Meine Genehmigungen .](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
          * [Verwalten der Arbeit mit dem Widget „Meine Arbeit“](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Arbeits- und Teamanfragen im Bereich Startseite verwalten](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich Startseite](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
@@ -2182,7 +2183,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

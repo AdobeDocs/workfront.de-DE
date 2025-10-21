@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Lesen Sie diese Artikel, um zu erfahren, wie Sie den -Startseiten-Bereich in Ado
 * [Verwenden Sie den Bereich [!UICONTROL Meine Aktualisierungen].](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Elemente in der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] anzeigen](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Übersicht über Startseiten-Widget-Filter](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [Verwalten Sie Ihre Genehmigungen mit dem Widget Meine Genehmigungen .](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [Arbeits- und Teamanfragen im Bereich [!UICONTROL Startseite] verwalten](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Erstellen von Arbeitselementen und Projekten im Bereich [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
