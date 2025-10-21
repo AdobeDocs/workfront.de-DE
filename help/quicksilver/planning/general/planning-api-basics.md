@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -196,10 +196,10 @@ Nachfolgend finden Sie eine Liste der unterstützten Feldtypen und darüber, wel
 |---|---|
 | Text | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
 | Langtext | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
-| Zahl | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| number | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | Prozentsatz | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | Währung | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| Datum | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
+| date | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
 | Einzelauswahl | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
 | Mehrfachauswahl | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | Boolescher Wert | $is |
@@ -318,7 +318,7 @@ Sie können Ihre Ergebnisse nach einem beliebigen Feld sortieren, wenn Sie Folge
 
 `/v1/records/search`
 
-Anfragetext:
+Hauptteil der Anfrage:
 
 ```
 {
@@ -349,11 +349,11 @@ Es wird empfohlen, die Verwendung von paginierten Antworten für große Datensä
 
 Wenn Sie beispielsweise die Ergebnisse 2001-4000 zurückgeben möchten, können Sie die folgende Anfrage verwenden. In diesem Beispiel werden 2.000 Datensätze im Status Aktiv zurückgegeben, beginnend mit dem Ergebnis 2001:
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 
-Anfragetext:
+Hauptteil der Anfrage:
 
 ```
 { 

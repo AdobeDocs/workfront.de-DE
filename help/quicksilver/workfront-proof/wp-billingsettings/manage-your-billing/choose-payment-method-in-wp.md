@@ -7,7 +7,7 @@ description: Weitere Informationen über Zahlungen in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Die folgenden Zahlungsoptionen sind verfügbar:
 | **Monatliche Abonnements** | **Jahresabonnements** |
 |---|---|
 | Kreditkarte | Kreditkarte |
-| Banküberweisung |
+| Banküberweisung |  |
 
 {style="table-layout:auto"}
 
@@ -67,7 +67,7 @@ Wenn Sie über Satellitenkonten verfügen, müssen Sie Ihre Kreditkartendetails 
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung] in Ihrem Hub-Konto.\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die  [!DNL Workfront] -Seite Abrechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Öffnen Sie [!UICONTROL &#x200B; Dropdown-Menü &#x200B;]Kontoliste“. 1)
+1. Öffnen Sie [!UICONTROL  Dropdown-Menü ]Kontoliste“. 1)
 1. Wählen Sie das Satellitenkonto (2) aus, das mit der Kreditkarte verknüpft ist, die Sie aktualisieren möchten.
 1. Fahren Sie fort mit [Ändern Ihrer Zahlungsmethode und Kreditkartendetails](#changing-your-payment-method-and-credit-card-details).\
    ![satellite_account_billing_page.png](assets/satellite-account-billing-page-350x167.png)

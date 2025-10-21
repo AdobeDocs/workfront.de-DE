@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,11 +31,11 @@ Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie in der Übe
 
 >[!NOTE]
 >
->Für EMEA-Kunden freigegeben, mit integriertem Proofing, das nur vor dem 6. Juli 2021 erstellt wurde. Diese Funktion wird in einem schrittweisen Rollout, der am 13. Januar beginnt und am 17. Januar endet, zur Vorschau für folgende Kunden bereitgestellt: >
+>Für EMEA-Kunden freigegeben, mit integriertem Proofing, das nur vor dem 6. Juli 2021 erstellt wurde. Diese Funktion wird in einem schrittweisen Rollout, der am 13. Januar beginnt und am 17. Januar endet, zur Vorschau für folgende Kunden bereitgestellt:
+>
 >* EMEA-Kunden mit integriertem und eigenständigem Proofing
 >* EMEA-Kunden mit integriertem Proofing, das nach dem 6. Juli 2021 erstellt wurde
 >* Alle US-Kunden
->
 
 Um eine bessere Integration zwischen Workfront und Proof zu ermöglichen, haben wir verschiedene Verbesserungen in Bezug auf die Proofing-Funktionen für Prüfer und Anfragende vorgenommen:
 
@@ -45,7 +45,7 @@ Sie können Korrekturabzüge, für die eine Anmeldung erforderlich ist oder die 
 
 Alle Benutzer profitieren außerdem von der verbesserten Konnektivität zwischen Workfront und Proof. Wenn Sie jetzt eine Benutzerin oder einen Benutzer deaktivieren oder seine E-Mail-Adresse aktualisieren, werden Ihre Aktualisierungen beim Ändern in Workfront korrekt im Proofing angezeigt.
 
-Weitere Informationen finden Sie unter
+Weitere Informationen finden Sie unter 
 
 * [Rollen für Korrekturabzüge - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 

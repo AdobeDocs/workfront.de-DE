@@ -7,7 +7,7 @@ description: Sie können Korrekturabzüge um zusätzliche Sicherheitsmaßnahmen 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ Wenn „Anmeldung erforderlich“ aktiviert ist, müssen sich Prüfer mit ihrer 
 
 >[!TIP]
 >
->Um den Anmeldevorgang zu optimieren, empfehlen wir die Einrichtung von SSO in Workfront und Workfront Proof. Weitere Informationen zur Aktivierung von SSO finden Sie unter >
+>Um den Anmeldevorgang zu optimieren, empfehlen wir die Einrichtung von SSO in Workfront und Workfront Proof. Weitere Informationen zur Aktivierung von SSO finden Sie unter
+>
 >* [Single Sign-on in Workfront: Artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Konfigurieren von Single Sign-On für Workfront Proof-Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Elektronische Signatur
 
@@ -47,6 +47,6 @@ Wenn die Einstellung für die elektronische Signatur bei einem Korrekturabzug ak
 
 >[!IMPORTANT]
 >
->Um einen Korrekturabzug mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zur Aktivierung von SSO finden Sie unter >
->* [Konfigurieren von Single Sign-On für Workfront Proof-Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Um einen Korrekturabzug mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zur Aktivierung von SSO finden Sie unter
 >
+>* [Konfigurieren von Single Sign-On für Workfront Proof-Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

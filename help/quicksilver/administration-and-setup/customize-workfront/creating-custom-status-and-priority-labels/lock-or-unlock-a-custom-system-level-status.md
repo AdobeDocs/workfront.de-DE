@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -34,9 +34,7 @@ Sie können in einem Systemgenehmigungsprozess sowohl den Status „Gesperrt“ 
 Warnmeldungen werden in den folgenden Szenarien angezeigt, um Ihnen und Ihren Benutzern zu helfen, die Ergebnisse der folgenden Szenarien zu verstehen:
 
 * Ein Administrator entsperrt einen Status auf Systemebene, der in einem Genehmigungsprozess verwendet wird. Eine Meldung warnt davor, dass der entsperrte Status für die Gruppen gelöscht werden könnte, was verhindern würde, dass Gruppenmitglieder diesen Genehmigungsprozess ordnungsgemäß für Objekte verwenden, die ihrer Gruppe zugewiesen sind.
-
 * Ein Benutzer beginnt mit der Bearbeitung eines Genehmigungsprozesses, der einen entsperrten Status verwendet. Eine Meldung informiert den Benutzer über den entsperrten Status, damit er beurteilen kann, ob es sinnvoll wäre, ihn erneut zu sperren oder zu ersetzen.
-
 * Ein Genehmigungsprozess auf Systemebene mit einem entsperrten Status wird an ein Objekt angehängt und der Status wurde für die dem Objekt zugewiesene Gruppe gelöscht. Wenn ein Gruppenmitglied zum Abschnitt Genehmigungen für das Objekt wechselt, wird in einer Meldung erklärt, dass der Genehmigungsprozess für das Objekt nicht gestartet werden kann.
 
 Sie können in einem Gruppengenehmigungsprozess sowohl den Status „Gesperrt“ als auch den Status „Entsperrt“ verwenden. Wenn Sie einen Gruppengenehmigungsprozess mit einem nicht gesperrten Gruppenstatus erstellen, können Benutzer den Genehmigungsprozess an jedes Projekt, jede Aufgabe oder jedes Problem anhängen, das mit der Gruppe verknüpft ist.

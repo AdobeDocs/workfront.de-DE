@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -75,14 +75,19 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Klicken Sie **Abschnitt „Schnellaktionen** auf **Hochladen** und wählen Sie dann **Dokument**.
 1. (Optional) Wählen Sie im Feld **Dateien**&quot; einen Ordner aus.
-1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
-oder
-Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
+1. Verwenden Sie Drag-and-Drop oder Cmd/Strg + V, um die Datei aus der Zwischenablage einzufügen
+
+   oder
+
+   Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
+
    ![Dateien hinzufügen](assets/add-files.png)
+
 1. (Optional) Hinzufügen eines Kommentars.
 1. (Optional) Weitere Dateien hinzufügen.
 
    >[!NOTE]
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
+
 1. Klicken Sie **Hochladen**.

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -36,9 +36,9 @@ Der Standardwert des Feldes ist 1. Dies bedeutet, dass ein Benutzer sein gesamte
 Als Ergebnis dieser Aktualisierung berechnet Workfront die Verfügbarkeit der Benutzenden anhand der unten stehenden Formeln und hängt von der Auswahl im Bereich „Voreinstellungen für die Ressourcenverwaltung“ ab:
 
 * Standardzeitplan:
-* Benutzerkapazität = [(Geplante Stunden - Zeitplanausnahmen) * VZÄ - Auszeiten] * Arbeitszeit
+* Benutzerkapazität = [(Geplante Stunden - Zeitplanausnahmen) `*` VZÄ - Auszeiten] `*` Arbeitszeit
 * Zeitplan des Benutzers:
-* Benutzerkapazität = (Geplante Stunden - Zeitplanausnahmen - Auszeiten) * Arbeitszeit.
+* Benutzerkapazität = (Geplante Stunden - Zeitplanausnahmen - Ausfallzeit) `*` Arbeitszeit.
 
 Weitere Informationen finden Sie unter [Konfigurieren von [!UICONTROL Ressourcenverwaltung] Einstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

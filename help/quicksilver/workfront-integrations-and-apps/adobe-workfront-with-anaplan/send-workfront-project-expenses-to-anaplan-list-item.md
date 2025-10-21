@@ -6,9 +6,9 @@ description: Dieses Integrationsszenario gibt kostenbezogene Details aus einem P
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Dieses Integrationsszenario gibt kostenbezogene Details aus einem [!DNL Adobe Wo
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Auslösendes Ereignis
 
@@ -65,7 +65,7 @@ Dieses Szenario ist so geplant, dass es alle 15 Minuten ausgeführt wird.
 
 Sie müssen über Folgendes verfügen, [!DNL Workfront] dieses Szenario verwenden zu können:
 
-* Ein Benutzerprofil in [!DNL Workfront] mit dem Namen *[!UICONTROL *[!DNL Anaplan] Integration]**, das über Systemadministratorrechte verfügt.
+* Ein Benutzerprofil in [!DNL Workfront] mit dem Namen *Anaplan-Integration*, das über Systemadministratorrechte verfügt.
 
   Informationen zum Erstellen eines Benutzers in [!DNL Workfront] finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -138,7 +138,7 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 
    8. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
 
-  So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante &#x200B;] vor:
+  So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante ] vor:
 
    1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
    1. Speichern Sie die Datei im CSV-Format
@@ -234,7 +234,7 @@ Diese Szenariovorlage wird durch die folgenden Vorlagen für Ausgabenoptimierung
 Zusätzliche Szenarien für die Verknüpfung von Budgetanfragen:
 
 * [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Zusätzliche Szenarien für die Verknüpfung von Kampagnenanfragen:
 

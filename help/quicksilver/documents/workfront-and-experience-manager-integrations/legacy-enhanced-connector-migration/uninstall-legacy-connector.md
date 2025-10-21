@@ -6,7 +6,7 @@ description: Text
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,9 +20,11 @@ Sie müssen den Legacy-Connector von Workfront mit Adobe Experience Manager dein
 ## Abo von Workfront stornieren
 
 1. Öffnen Sie Adobe Experience Manager.
-1. Wechseln Sie im Experience Manager zu **Tools** > **Cloud Service** > **Workfront-Integrationskonfiguration**.
+1. Navigieren Sie in Experience Manager zu **Tools** > **Cloud Services** > **Workfront-Integrationskonfiguration**.
 1. Wählen Sie Ihre Konfiguration aus (standardmäßig global-workfront) und klicken Sie auf **Eigenschaften**.
+
    ![Abo von Workfront beenden](assets/unsubscribe-from-workfront.png)
+
 1. Deaktivieren Sie die Synchronisierung von Dokumenten, Kommentaren und Metadaten. Der Tag der Kennzeichnung sollte deaktiviert sein.
 Dadurch werden die Abonnements in Workfront entfernt und die Benutzenden können mit derselben URL, die im Day CQ Link Externalizer definiert ist, ein neues Abonnement erstellen.
 
@@ -31,13 +33,14 @@ Dadurch werden die Abonnements in Workfront entfernt und die Benutzenden können
 Nachdem Sie das Abonnement entfernt haben, können Sie die Workfront-Integrationskonfiguration jetzt löschen.
 
 1. Öffnen Sie die Konfiguration und wählen Sie **Löschen** aus.
+
    ![Konfiguration löschen](assets/delete-wf-configuration.png)
 
 ## Zuordnung entfernen
 
 Als Nächstes müssen Sie die Workfront-Eigenschaftszuordnung löschen.
 
-1. Wechseln Sie im Experience Manager zu **Tools** > **Assets** > **Workfront-Eigenschaftenzuordnung**.
+1. Navigieren Sie in Experience Manager zu **Tools** > **Assets** > **Workfront-Eigenschaftenzuordnung**.
 
 1. Wählen Sie alle Zuordnungen aus und klicken Sie auf **Löschen**.
 

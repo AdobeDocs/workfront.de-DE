@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -30,10 +30,10 @@ Berücksichtigen Sie beim Einrichten von Hauptgruppen, wie Ihr Unternehmen Ihre 
 
 >[!NOTE]
 >
->Wenn Sie Ihre Hauptgruppen in Organisationseinheiten neu organisieren müssen, müssen Sie Folgendes tun:>
+>Wenn Sie Ihre Hauptgruppen in Organisationseinheiten neu organisieren müssen, müssen Sie Folgendes tun
+>
 >1. Erstellen Sie die neue Gruppe, wie unter [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) beschrieben.
 >1. Weisen Sie die neue Gruppe als Hauptgruppe des Benutzers zu, wie in [Bearbeiten des Profils eines Benutzers](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) beschrieben.
->
 
 ## Layout-Vorlagenverwaltung
 

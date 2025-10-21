@@ -6,7 +6,7 @@ description: Benutzende mit administrativem Zugriff auf Arbeitszeittabellen kön
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 1%
@@ -112,8 +112,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      <tr> 
       <td role="rowheader"><strong>Enddatum</strong> </td> 
       <td> Dies ist das Enddatum der Arbeitszeittabelle.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> Dies ist der Status der Arbeitszeittabelle.
       Im Folgenden finden Sie mögliche Statusoptionen für Arbeitszeittabellen: 
@@ -121,7 +121,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <li><b>Übermittelt</b>: Die Arbeitszeittabelle wird zur Genehmigung an die benannten genehmigenden Personen weitergeleitet.</li>
       <li><b>Abgelehnt</b>: Die Arbeitszeittabelle wurde von den genehmigenden Personen nicht genehmigt und steht nun wieder zur Bearbeitung der Zeiteinträge zur Verfügung.</li>
       <li><b>Geschlossen</b>: Die Arbeitszeittabelle wird entweder vom Benutzer geschlossen oder von der genehmigenden Person genehmigt und ist daher jetzt geschlossen. Sie können keine Zeit zu einer geschlossenen Arbeitszeittabelle hinzufügen.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Genehmigende Personen</strong> </td> 

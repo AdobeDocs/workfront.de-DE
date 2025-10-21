@@ -6,7 +6,7 @@ description: Wenn nach dem Übermitteln eines Problems weitere Arbeit zum Abschl
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 1%
@@ -132,7 +132,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * [!UICONTROL **Das geplante Abschlussdatum der Anfrage beibehalten**]
 
-     Wenn diese Option deaktiviert ist[!UICONTROL &#x200B; wird das geplante Abschlussdatum &#x200B;] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
+     Wenn diese Option deaktiviert ist[!UICONTROL  wird das geplante Abschlussdatum ] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
 
      >[!NOTE]
      >
@@ -158,7 +158,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Das Problem ist nun mit der neuen Aufgabe für das ausgewählte Projekt verknüpft und wird abgeschlossen, sobald die Aufgabe abgeschlossen ist, falls Sie die ursprüngliche Anfrage beibehalten möchten.
 
-   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
+   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [ Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
 
 1. (Optional) Fahren Sie mit der Bearbeitung der Aufgabe nach Bedarf fort.
 
@@ -171,10 +171,10 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 | Problemfelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich „Projektdetails“ | Aufgabenliste oder Bericht | Aufgabendetailbereich |
 |---|---|---|---|---|---|
 | [!UICONTROL Anfragename] | [!UICONTROL Name des konvertierten Problems] | ✔ | ✔ | ✔ | ✔ |
-| [!UICONTROL Primärer Kontakt] | [!UICONTROL Name des Urhebers des konvertierten Problems] | ✔ | ✔ | ✔ |
-| [!UICONTROL Eingabedatum] | [!UICONTROL Problem-Eingabedatum konvertiert] | ✔ |  | ✔ |
+| [!UICONTROL Primärer Kontakt] | [!UICONTROL Name des Urhebers des konvertierten Problems] | ✔ | ✔ | ✔ |  |
+| [!UICONTROL Eingabedatum] | [!UICONTROL Problem-Eingabedatum konvertiert] | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]
 >
->Wenn sich der [!UICONTROL Primäre &#x200B;] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre &#x200B;] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.
+>Wenn sich der [!UICONTROL Primäre ] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre ] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.

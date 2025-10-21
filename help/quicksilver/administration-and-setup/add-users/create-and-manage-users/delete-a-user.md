@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Wenn ein(e) Benutzende(r) Ihre Organisation verlässt, können Sie diesen/diese 
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -107,19 +107,19 @@ Beim Löschen eines Benutzers passiert Folgendes:
    * Aufgaben, Probleme, Projekte, Portfolio
    * Dashboards
 
-<!--
+     <!--
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
--->
+     -->
 
-* Updates
-* Stunden
+   * Updates
+   * Stunden
 
-  >[!NOTE]
-  >
-  >Diese Objekte verbleiben in Workfront, aber der Eigentümer des Objekts ist jetzt leer.
+     >[!NOTE]
+     >
+     >Diese Objekte verbleiben in Workfront, aber der Eigentümer des Objekts ist jetzt leer.
 
 * Wenn der Benutzer Dokumente unter dem Bereich Dokumente in der globalen Navigationsleiste hochgeladen hat, werden die Dokumente ebenfalls gelöscht.
 * Wenn der/die Benutzende Dokumente ausgecheckt hat, deren Inhaber er/sie ist, und die Dokumente im Hauptdokumentenbereich hochgeladen wurden (der Zugriff erfolgt über das Hauptmenü), werden die Dokumente mit dem/der Benutzenden gelöscht. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).

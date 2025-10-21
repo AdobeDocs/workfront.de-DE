@@ -6,7 +6,7 @@ description: Wenn Sie eine nicht wiederkehrende Arbeitszeittabelle benötigen, k
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 1%
@@ -26,13 +26,9 @@ Informationen zum manuellen Generieren von Arbeitszeittabellen für alle Benutze
 >[!NOTE]
 >
 >* Einmalige Arbeitszeittabellen können nicht für Gruppen erstellt werden.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* Beim Erstellen einer Einmalzeittabelle können Sie keine bestimmten allgemeinen Stundentypen auswählen, die in Ihre Arbeitszeittabelle aufgenommen werden sollen. Alle allgemeinen Stundentypen, die in Ihrem System aktiviert sind, werden in manuell erstellten Arbeitszeittabellen angezeigt.
 >
->  Wenn Sie nur bestimmte allgemeine Stundentypen für die Anzeige in Ihren Arbeitszeittabellen auswählen möchten, verwenden Sie ein Arbeitszeittabellen-Profil. Weitere Informationen zu Arbeitszeittabellen-Profilen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>Wenn Sie nur bestimmte allgemeine Stundentypen für die Anzeige in Ihren Arbeitszeittabellen auswählen möchten, verwenden Sie ein Arbeitszeittabellen-Profil. Weitere Informationen zu Arbeitszeittabellen-Profilen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Zugriffsanforderungen
 

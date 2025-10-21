@@ -6,7 +6,7 @@ description: Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Busine
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Business Associate 
 | **Sicherheitseinstellung** | **Was ist das?** | **Anforderung** |
 |----------------------|------------------|------------------|
 | Mindestkennwortstärke für Vereinbarungen | Wie hoch ist die Mindeststärke für Vereinbarungspasswörter? | Mindestens 8 Zeichen |
-| Minimale Kennwortstärke für Benutzerkennwörter | Wie hoch ist die Mindeststärke für Benutzerkennwörter? | Zeichen aus drei der folgenden Kategorien:<br>* Großbuchstaben (lateinisches Alphabet)<br>* Kleinbuchstaben (lateinisches Alphabet)<br>* Basis 10 Ziffern<br>* Nicht alphanumerische Zeichen |
+| Minimale Kennwortstärke für Benutzerkennwörter | Wie hoch ist die Mindeststärke für Benutzerkennwörter? | Zeichen aus drei der folgenden Kategorien:<br> Großbuchstaben (lateinisches Alphabet)<br> Kleinbuchstaben (lateinisches Alphabet)<br> Basis 10 Ziffern<br> Nicht alphanumerische Zeichen |
 | Kennwortdauer | Wie lange sollten Kennwörter unverändert bleiben dürfen? | Kennwörter sollten mindestens alle 90 Tage geändert werden |
 | Kennwortverlauf | Wie viele alte Passwörter sollten gespeichert und nicht zugelassen werden? | Mindestens 5 |
 

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -118,11 +118,8 @@ Beachten Sie die Parameter, die übergeben werden:
   Anweisungen finden Sie unter Erstellen einer einseitigen OAuth2-Web-Anwendung mit PKCE in Erstellen von OAuth2-Anwendungen für Workfront-Integrationen.
 
 * `response_type` ist `code`, da die Anwendung den Gewährungstyp Autorisierungs-Code verwendet.
-
 * `redirect_uri` ist der Callback-Speicherort, an den der Benutzeragent zusammen mit dem `code` weitergeleitet wird. Diese muss mit einer der Umleitungs-URLs übereinstimmen, die Sie beim Erstellen Ihrer OAuth2-Anwendung angegeben haben.
-
 * `code_challenge_method` ist die Hash-Methode, die zum Generieren der Challenge verwendet wird, was für Workfront Oauth2-Anwendungen, die PKCE verwenden, immer `S256` ist.
-
 * `code_challenge` ist die Code Challenge, die für PKCE verwendet wird.
 
 
@@ -154,7 +151,7 @@ Beachten Sie die Parameter, die übergeben werden:
 
 * `code` ist der Autorisierungs-Code, den Sie vom Endpunkt /authorize erhalten haben.
 
-* `code_verifier` ist der PKCE-Code Verifier, den Ihre App in &quot;[&#x200B; des Korrekturabzugsschlüssels für den Code-Austausch“ &#x200B;](#Create).
+* `code_verifier` ist der PKCE-Code Verifier, den Ihre App in &quot;[ des Korrekturabzugsschlüssels für den Code-Austausch“ ](#Create).
 
 * `client_id` identifiziert Ihren Client und muss mit dem in OAuth2 vorregistrierten Wert übereinstimmen.
 

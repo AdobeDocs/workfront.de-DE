@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 {{step1-to-planning}}
 
 Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
+
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
 
    Die Seite mit dem Datensatztyp wird geöffnet.
+
 1. (Bedingt) Wählen Sie **Dropdownmenü** Ansicht“ oben rechts in der Tabelle eine Tabellenansicht aus. Dies sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp in der Zeitleisten -Ansicht zum Zeitpunkt des letzten Zugriffs angezeigt.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
+
 1. Rechtsklick auf eine Datensatzzeile
 
    Oder

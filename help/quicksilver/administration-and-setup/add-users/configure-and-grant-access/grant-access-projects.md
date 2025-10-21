@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -20,6 +20,7 @@ ht-degree: 0%
 <!-- Audited: 12/2023 -->
 
 Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Projekte zu definieren, wie in den folgenden Artikeln erläutert:
+
 * [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
@@ -56,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Konfigurieren des Benutzerzugriffs auf Projekte mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts von „Projekte“ und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren**.
 
    ![Optimieren von Einstellungen zum Kopieren von Projekten](assets/planner-fine-tune-your-settings-with-copy-projects.png)

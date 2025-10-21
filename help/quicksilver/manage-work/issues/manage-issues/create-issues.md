@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Die Felder für neue Anfragen oder Anfragen werden im Abschnitt „Warteschlange
 
 Informationen zum Konfigurieren des Abschnitts „Warteschlangendetails“ des Projekts finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [&#x200B; Abschnitt „Erstellen von Problemen durch Eingabe einer &#x200B;](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
+Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [ Abschnitt „Erstellen von Problemen durch Eingabe einer ](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
 
 ## Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche „Neues Problem“
 
@@ -173,8 +173,9 @@ Das Feld „Neues Problem“ wird angezeigt.
    >[!TIP]
    >
    >Die Anfragetypen müssen in den Warteschlangendetails und beim Erstellen des Warteschlangenthemas aktiviert werden, damit sie als Auswahl im Formular „Neues Problem“ angezeigt werden. Weitere Informationen finden Sie in den folgenden Artikeln:
+   >
    >* [Anfrage-Warteschlange erstellen](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Warteschlangenthemen erstellen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Warteschlangenthemen erstellen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Bitte die im Formular &quot;**Problem“ verfügbaren Felder**. Weitere Informationen zu den Feldern, die verfügbar sind, wenn Sie ein neues Problem eingeben, finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 

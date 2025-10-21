@@ -6,9 +6,9 @@ description: Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht a
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '7259'
+source-wordcount: '7099'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ Mit dem Nutzungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz 
 
 Sie können den Auslastungsbericht im Bereich Ressourcen anzeigen, um die Auslastung für mehrere Projekte anzuzeigen, oder Sie können ihn auf Projektebene anzeigen, um die Auslastung für die einzelnen Ressourcen (Aufgabengebiete und Benutzer) anzuzeigen, die mit diesem Projekt verknüpft sind.
 
-Informationen zum Zugriff auf und zur Verwendung des Auslastungsberichts finden Sie [&#x200B; Abschnitt „Verfolgen von Fortschritt, Kosten und Umsatz mit dem &#x200B;](#track-progress-cost-and-revenue-with-the-utilization-report)&quot; in diesem Artikel.
+Informationen zum Zugriff auf und zur Verwendung des Auslastungsberichts finden Sie [ Abschnitt „Verfolgen von Fortschritt, Kosten und Umsatz mit dem ](#track-progress-cost-and-revenue-with-the-utilization-report)&quot; in diesem Artikel.
 
 ### Stunden verfolgen (Fortschritt) {#track-hours-progress}
 
@@ -250,7 +250,7 @@ Sie können Kosteninformationen im Auslastungsbericht wie folgt anzeigen:
 * Für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt, Programm oder Portfolio
 * Nach Rolle oder Person, für Projekte
 
-Die Währung im Auslastungsbericht wird durch die im Projekt festgelegte Währung bestimmt. Informationen zum Anpassen der Währung für ein Projekt finden Sie unter [Ändern der &#x200B;](../../manage-work/projects/project-finances/change-project-currency.md).
+Die Währung im Auslastungsbericht wird durch die im Projekt festgelegte Währung bestimmt. Informationen zum Anpassen der Währung für ein Projekt finden Sie unter [Ändern der ](../../manage-work/projects/project-finances/change-project-currency.md).
 
 Die folgenden Informationen sind im Auslastungsbericht beim Verfolgen der Kosten verfügbar:
 
@@ -295,7 +295,7 @@ Beim Verfolgen des Umsatzes eines Projekts, Programms oder Portfolios wird der U
 
 Die Informationen in der folgenden Tabelle sind im Auslastungsbericht beim Verfolgen des Umsatzes verfügbar.
 
-Informationen zu den spezifischen Feldern und wie Workfront sie berechnet, finden Sie auch unter [Kosten &#x200B;](../../manage-work/projects/project-finances/track-costs.md) und [Übersicht über Abrechnung und Umsatz](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Informationen zu den spezifischen Feldern und wie Workfront sie berechnet, finden Sie auch unter [Kosten ](../../manage-work/projects/project-finances/track-costs.md) und [Übersicht über Abrechnung und Umsatz](../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,29 +339,22 @@ Im Gegensatz zu anderen Bereichen von Workfront gilt der Betrag über dem Höchs
   <tr> 
    <td><strong>Tatsächliche Einnahmen</strong> </td>
    <td> <p>Die tatsächlichen Einnahmen sind die Einnahmen, die mit den tatsächlichen Stunden der Aufgaben und des Projekts verknüpft sind. Weitere Informationen zu den tatsächlichen Einnahmen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Verfolgen der </a>" in <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Übersicht über Abrechnung und Umsatz</a>.</p>
-
-<p>Die Methode, mit der der Auslastungsbericht die tatsächlichen Einnahmen für die eingeschlossenen Projekte berechnet, hängt vom für die Aufgabe festgelegten Umsatztyp ab und sieht wie folgt aus:</p> <p><strong>Fester Umsatz</strong> Unabhängig von den Aufgabenzuordnungen wird der Umsatz für die Aufgabe immer anhand des für die Aufgabe angegebenen Festbetrags berechnet.</p> <p><b>WICHTIG</b>
-
-Im Gegensatz zu anderen Bereichen von Workfront berechnet der Auslastungsbericht den tatsächlichen Umsatz, indem er die festen Einnahmen gleichmäßig durch die Anzahl der für die Aufgabe protokollierten Stunden teilt. </p> <p> </p> <p>Beispielsweise hat eine Aufgabe einen tatsächlichen Umsatz von 200 USD. Wenn die Aufgabe 4 Stunden umfasst, würde jede Stunde 50 $ betragen. Dieser wird auf Benutzer- und Rollenebene verteilt. Diese Verteilung ist im Auslastungsbericht eindeutig.</p> <p><b>HINWEIS</b>
-
-Wenn Sie eine Aufgabe mit festem Umsatz haben und keine tatsächlichen Stunden für die Aufgabe vorhanden sind, wird der tatsächliche Umsatz nicht im Auslastungsbericht angezeigt, da keine Möglichkeit besteht, Stunden zu verteilen. </p> <p><strong>Stundensatz nach Funktion: </strong> Der Umsatz aus der Aufgabe wird anhand des Abrechnungssatzes berechnet, der für eine bestimmte Funktion festgelegt wurde, multipliziert mit der Anzahl der tatsächlichen Stunden.</p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Stundensatz nach Funktion - Tatsächlicher Umsatz = SUMME (Tatsächliche Stunden aus Funktion für alle Aufgaben) * Abrechnungssatz der Funktion</code> </p> <p><b>HINWEIS</b> Der Stundensatz für die Abrechnung in der Formel berücksichtigt alle Datumsänderungen, die mit Wirkung vom Tag des Inkrafttretens des Satzes vorgenommen werden.</p> <p><strong>Benutzer pro Stunde:</strong> Der Umsatz aus der Aufgabe wird anhand des Abrechnungssatzes berechnet, der für einen bestimmten Benutzer festgelegt wurde, multipliziert mit der Anzahl der Stunden, die für die Aufgabe von diesem Benutzer protokolliert wurden. Workfront verwendet die folgende Formel:</p> <p><code>Benutzer pro Stunde - Tatsächlicher Umsatz = SUM(Tatsächliche Stunden des Benutzers für alle Aufgaben) * Benutzer-Abrechnungssatz</code></p> <p><b>HINWEIS</b> Der Stundensatz für die Abrechnung in der Formel berücksichtigt alle Datumsänderungen, die mit Wirkung vom Tag des Inkrafttretens des Satzes vorgenommen werden.</p> <p><b>Stundensatz nach Funktion oder Benutzer plus fest</b> </p> <p><b>WICHTIG</b>
-
-Im Gegensatz zu anderen Bereichen von Workfront berechnet der Auslastungsbericht den tatsächlichen Umsatz, indem er die festen Einnahmen gleichmäßig durch die Anzahl der für die Aufgabe protokollierten Stunden teilt. </p> <p>Die folgenden Fälle liegen vor: </p>
-<ul>
-<li> <p><strong>Funktion „Stündlich plus fest“</strong> Der für eine bestimmte Funktion festgelegte Abrechnungssatz, multipliziert mit der Anzahl der Stunden, die für die Aufgabe von einem Benutzer mit dieser Funktion protokolliert wurden. Darüber hinaus wird ein fester Betrag, der für die Aufgabe angegeben ist, zum Rollensatz hinzugefügt. </p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Funktion Stündlich plus Fester tatsächlicher Umsatz = [SUM(Tatsächliche Stunden aus Funktion für alle Aufgaben) * Funktion Abrechnungssatz] + SUM(Obergrenze oder Fester Betrag der Aufgabe / Tatsächliche Stunden der Aufgabe)</code> </p> </li>
-<li> <p><strong>Benutzer pro Stunde plus fest</strong> Der Abrechnungssatz, der für einen bestimmten Benutzer festgelegt wurde, multipliziert mit der Anzahl der Stunden, die dieser Benutzer für die Aufgabe protokolliert hat. Darüber hinaus wird ein fester Betrag, der für die Aufgabe angegeben ist, zur Benutzerrate hinzugefügt. </p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Benutzer pro Stunde plus fester tatsächlicher Umsatz = [SUM(Tatsächliche Stunden aus Funktion für alle Aufgaben) * Benutzer-Abrechnungssatz] + SUM(Obergrenze oder fester Betrag der Aufgabe / Benutzerstunden der Aufgabe)</code> </p> </li>
-</ul> <p><b>Funktion oder Benutzer pro Stunde mit Obergrenze</b> </p> <p><b>WICHTIG</b>
-
-Im Gegensatz zu anderen Bereichen von Workfront gilt der Betrag über dem Höchstbetrag als Festeinnahme, wenn die geplanten Einnahmen den Höchstbetrag überschreiten. Der geplante Umsatz wird berechnet, indem der feste Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe geteilt und dann der Begrenzungsbetrag und der Funktion oder der Benutzer-Stundenumsatz hinzugefügt werden. <br></p> <p>Die folgenden Fälle liegen vor:</p>
-<ul>
-<li> <p><strong>Stundensatz nach Funktion mit Obergrenze: </strong> Aufgaben werden stündlich wie in der Stundensatz-Funktion in Rechnung gestellt, sie haben jedoch einen maximalen Höchstbetrag, den Sie angeben können. Workfront verwendet die folgende Formel:</p> <p><code>Funktion Stündlich mit Obergrenze des tatsächlichen Umsatzes = [SUM(Tatsächliche Stunden aus der Funktion für alle Aufgaben und Probleme) * Funktion Abrechnungssatz] + Obergrenze des Vorgangs + SUM(Betrag über der Obergrenze des Betrags / Tatsächliche Stunden der Aufgabe)</code></p> </li>
-<li> <p><strong>Benutzer stündlich mit Obergrenze: </strong> Aufgaben werden stündlich wie im Benutzer stündlich in Rechnung gestellt, sie haben jedoch einen maximalen Begrenzungsbetrag, den Sie angeben können.</p> <p> Workfront verwendet die folgende Formel:</p> <p><code>Benutzer pro Stunde mit Begrenzung des tatsächlichen Umsatzes = [SUM(Tatsächliche Stunden aus der Funktion für alle Aufgaben und Probleme) * Benutzer-Abrechnungssatz] + Obergrenze der Aufgabe + SUM(Betrag über dem Begrenzungsbetrag / Tatsächliche Stunden der Aufgabe)</code> </p> </li>
-</ul>
-<p><strong>Projektumsatz</strong>: Der Umsatz in Verbindung mit den für das Projekt protokollierten Stunden wird unter Berücksichtigung des Betrags für „Abrechnung pro Stunde“ für das primäre Aufgabengebiet des Benutzers berechnet, der die Zeit protokolliert. Es wird nicht empfohlen, die Zeit im Projekt zu erfassen. </p>
-<p><b>HINWEIS</b>
-
-Wenn der Benutzer keinem Aufgabengebiet zugeordnet ist oder die Fakturierung pro Stunde für die Primäre Funktion null ist, berechnet Workfront den tatsächlichen Umsatz anhand des Betrags für die Fakturierung pro Stunde für den Benutzer. Wenn der/die Benutzende keinen Betrag „Abrechnung pro Stunde“ in seinem/ihrem Profil hat, ist der tatsächliche Umsatz gleich null. </p>
-</td> 
+   <p>Die Methode, mit der der Auslastungsbericht die tatsächlichen Einnahmen für die eingeschlossenen Projekte berechnet, hängt vom für die Aufgabe festgelegten Umsatztyp ab und sieht wie folgt aus:</p> <p><strong>Fester Umsatz</strong> Unabhängig von den Aufgabenzuordnungen wird der Umsatz für die Aufgabe immer anhand des für die Aufgabe angegebenen Festbetrags berechnet.</p> <p><b>WICHTIG</b></p>
+   <p>Im Gegensatz zu anderen Bereichen von Workfront berechnet der Auslastungsbericht den tatsächlichen Umsatz, indem er die festen Einnahmen gleichmäßig durch die Anzahl der für die Aufgabe protokollierten Stunden teilt. </p> <p> </p> <p>Beispielsweise hat eine Aufgabe einen tatsächlichen Umsatz von 200 USD. Wenn die Aufgabe 4 Stunden umfasst, würde jede Stunde 50 $ betragen. Dieser wird auf Benutzer- und Rollenebene verteilt. Diese Verteilung ist im Auslastungsbericht eindeutig.</p> <p><b>NOTIZ</b></p></p>
+   <p>Wenn Sie eine Aufgabe mit festem Umsatz haben und keine tatsächlichen Stunden für die Aufgabe vorhanden sind, wird der tatsächliche Umsatz nicht im Auslastungsbericht angezeigt, da keine Möglichkeit besteht, Stunden zu verteilen. </p> <p><strong>Stundensatz nach Funktion: </strong> Der Umsatz aus der Aufgabe wird anhand des Abrechnungssatzes berechnet, der für eine bestimmte Funktion festgelegt wurde, multipliziert mit der Anzahl der tatsächlichen Stunden.</p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>HINWEIS</b> Der Stundensatz für die Abrechnung in der Formel berücksichtigt alle Datumsänderungen, die mit Wirkung vom Tag des Inkrafttretens des Satzes vorgenommen werden.</p> <p><strong>Benutzer pro Stunde:</strong> Der Umsatz aus der Aufgabe wird anhand des Abrechnungssatzes berechnet, der für einen bestimmten Benutzer festgelegt wurde, multipliziert mit der Anzahl der Stunden, die für die Aufgabe von diesem Benutzer protokolliert wurden. Workfront verwendet die folgende Formel:</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>HINWEIS</b> Der Stundensatz für die Abrechnung in der Formel berücksichtigt alle Datumsänderungen, die mit Wirkung vom Tag des Inkrafttretens des Satzes vorgenommen werden.</p> <p><b>Stundensatz nach Funktion oder Benutzer plus fest</b> </p> <p><b>WICHTIG</b>
+   <p>Im Gegensatz zu anderen Bereichen von Workfront berechnet der Auslastungsbericht den tatsächlichen Umsatz, indem er die festen Einnahmen gleichmäßig durch die Anzahl der für die Aufgabe protokollierten Stunden teilt. </p> <p>Die folgenden Fälle liegen vor: </p> </p>
+   <ul> 
+     <li> <p><strong>Funktion „Stündlich plus fest“</strong> Der für eine bestimmte Funktion festgelegte Abrechnungssatz, multipliziert mit der Anzahl der Stunden, die für die Aufgabe von einem Benutzer mit dieser Funktion protokolliert wurden. Darüber hinaus wird ein fester Betrag, der für die Aufgabe angegeben ist, zum Rollensatz hinzugefügt. </p> <p>Workfront verwendet die folgende Formel:</p> <p><code>Role Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li>
+     <li> <p><strong>Benutzer pro Stunde plus fest</strong> Der Abrechnungssatz, der für einen bestimmten Benutzer festgelegt wurde, multipliziert mit der Anzahl der Stunden, die dieser Benutzer für die Aufgabe protokolliert hat. Darüber hinaus wird ein fester Betrag, der für die Aufgabe angegeben ist, zur Benutzerrate hinzugefügt. </p> <p>Workfront verwendet die folgende Formel:</p> <p><code>User Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li> 
+   </ul> <p><b>Funktion oder Benutzer pro Stunde mit Obergrenze</b> </p> <p><b>WICHTIG</b>
+   <p>Im Gegensatz zu anderen Bereichen von Workfront gilt der Betrag über dem Höchstbetrag als Festeinnahme, wenn die geplanten Einnahmen den Höchstbetrag überschreiten. Der geplante Umsatz wird berechnet, indem der feste Umsatz gleichmäßig durch die Anzahl der geplanten Stunden für die Aufgabe geteilt und dann der Begrenzungsbetrag und der Funktion oder der Benutzer-Stundenumsatz hinzugefügt werden. <br></p> <p>Die folgenden Fälle liegen vor:</p></p>
+    <ul> 
+     <li> <p><strong>Stundensatz nach Funktion mit Obergrenze: </strong> Aufgaben werden stündlich wie in der Stundensatz-Funktion in Rechnung gestellt, sie haben jedoch einen maximalen Höchstbetrag, den Sie angeben können. Workfront verwendet die folgende Formel:</p> <p><code>Role Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code></p> </li>
+     <li> <p><strong>Benutzer stündlich mit Obergrenze: </strong> Aufgaben werden stündlich wie im Benutzer stündlich in Rechnung gestellt, sie haben jedoch einen maximalen Begrenzungsbetrag, den Sie angeben können.</p> <p> Workfront verwendet die folgende Formel:</p> <p><code>User Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * User Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code> </p> </li> 
+    </ul>
+     <p><strong>Projektumsatz</strong>: Der Umsatz in Verbindung mit den für das Projekt protokollierten Stunden wird unter Berücksichtigung des Betrags für „Abrechnung pro Stunde“ für das primäre Aufgabengebiet des Benutzers berechnet, der die Zeit protokolliert. Es wird nicht empfohlen, die Zeit im Projekt zu erfassen. </p> 
+     <p><b>HINWEIS</b>Wenn der Benutzer keinem Aufgabengebiet zugeordnet ist oder die Fakturierung pro Stunde für die Primäre Funktion null ist, berechnet Workfront den tatsächlichen Umsatz anhand des Fakturierungsbetrags pro Stunde für den Benutzer. Wenn der/die Benutzende keinen Betrag „Abrechnung pro Stunde“ in seinem/ihrem Profil hat, ist der tatsächliche Umsatz gleich null. </p> 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Budgetierte Abweichung (für Einnahmen)</strong> </td> 
@@ -452,7 +445,7 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
       1. Gehen Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann im linken Bereich **Nutzung**.
       1. Nutzungsinformationen werden beim Anzeigen eines einzelnen Projekts automatisch angezeigt und das Anwenden eines Filters ist nicht erforderlich.\
          Wenn Sie den Auslastungsbericht filtern möchten, können Sie einen Filter anwenden und dann auf &quot;**&quot;**.\
-         Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+         Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Nutzungsinformationen werden für einzelne Benutzer und Rollen angezeigt (Benutzer werden innerhalb ihrer zugehörigen Rolle gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für mehrere Projekte an:
@@ -460,25 +453,25 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
      {{step1-to-utilization-report}}
 
       1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.
-Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Nutzungsinformationen werden für einzelne Rollen und Projekte angezeigt (Rollen sind in ihrem zugehörigen Projekt gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Programm an:
 
      {{step1-to-utilization-report}}
 
-      1. Klicken Sie **Anzeigen**>**Programme**.
+      1. Klicken Sie **Anzeigen** > **Programme**.
       1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Auslastungsinformationen werden für einzelne Projekte und Programme angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Portfolio an:
 
      {{step1-to-utilization-report}}
 
-      1. Klicken Sie **Anzeigen**>**Portfolios**.
+      1. Klicken Sie **Anzeigen** > **Portfolios**.
       1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Portfolios im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+         Sie müssen ein oder mehrere Portfolios im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von ](#filter-utilization-information)) in diesem Artikel.\
          Nutzungsinformationen werden für einzelne Projekte, Programme und Portfolios angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert, Programme innerhalb ihres zugehörigen Portfolios).
 
 1. Klicken Sie oben rechts im Auslastungsbericht auf **Anzeigen** und wählen Sie dann im Menü Folgendes aus:
@@ -492,7 +485,8 @@ Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastun
    Die von Ihnen ausgewählte Option bestimmt, welche Spalten und Informationen im Bericht verfügbar sind.
    ![Optionen anzeigen](assets/utilization-view-dropdown.png)
 
-1. (Optional) Wählen Sie den Datumsbereich aus, für den Nutzungsinformationen angezeigt werden sollen. Sie können Informationen für eine bestimmte Woche oder einen bestimmten Monat links neben der Spalte &quot;**&quot;**. Informationen zum gesamten Projekt, Programm oder Portfolio werden immer in der Spalte **Allgemein** angezeigt.\
+1. (Optional) Wählen Sie den Datumsbereich aus, für den Nutzungsinformationen angezeigt werden sollen. Sie können Informationen für eine bestimmte Woche oder einen bestimmten Monat links neben der Spalte &quot;**&quot;**. Informationen zum gesamten Projekt, Programm oder Portfolio werden immer in der Spalte **Allgemein** angezeigt.
+
    Weitere Informationen finden Sie unter [Anpassen des Datumsbereichs, für den Informationen angezeigt werden](#adjust-the-date-range-for-which-information-is-displayed) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen Spaltentitel, um den Auslastungsbericht nach den Informationen in dieser Spalte zu sortieren. Die Sortierung funktioniert nur, wenn Sie mehrere Elemente in Ihren Bericht einbeziehen. Sie können beispielsweise die Ergebnisse Ihres Berichts sortieren, wenn Sie mehr als ein Projekt (oder Portfolio oder Programm) betrachten. Sie können die Ergebnisse nicht sortieren, wenn Sie nur ein Projekt (oder ein Portfolio oder ein Programm) auf einmal betrachten.
@@ -511,7 +505,8 @@ Wenn Sie einen Filter erstellen, haben alle Workfront-Benutzenden, die Zugriff a
 So erstellen oder ändern Sie einen Filter:
 
 1. Öffnen Sie den Auslastungsbericht.
-Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Auslastungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report), um dies zu tun.
+
+   Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Auslastungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report), um dies zu tun.
 
 1. Klicken Sie auf **Filter**-Symbol, um die Filteroptionen anzuzeigen.
 1. (Bedingt) Um einen vorhandenen Filter zu ändern, klicken Sie auf **Dropdown** Menü Filter und wählen Sie dann den Filter aus, den Sie ändern möchten.

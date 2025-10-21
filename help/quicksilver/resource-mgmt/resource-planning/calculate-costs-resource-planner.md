@@ -6,7 +6,7 @@ description: Sie können Ihre Ressourcen im Adobe Workfront-Ressourcenplaner bud
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Um verfügbare Kostenwerte im Ressourcenplaner anzuzeigen, benötigen Sie Folgen
 * Informationen zur Benutzerverfügbarkeit.
 
   Das Erhalten von Informationen zur Benutzerverfügbarkeit hängt davon ab, wie der Workfront-Administrator die Voreinstellungen für die Ressourcenverwaltung konfiguriert.\
-  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 Die folgende Tabelle zeigt, wie die verfügbaren Kosten im Ressourcenplaner berechnet werden:
 
@@ -150,7 +150,7 @@ Obwohl Sie keine Aufgabeninformationen im Ressourcenplaner anzeigen können, wer
 
 Bei der Berechnung der geplanten Kosten für Benutzer, Funktionen und das Projekt gibt es die folgenden Szenarien:
 
-* Wenn der **Kostentyp** „Benutzer pro Stunde **&#x200B; lautet &#x200B;** und es **„keine Zuweisung** für die Aufgabe gibt:
+* Wenn der **Kostentyp** &quot;**pro Stunde“** und **keine Zuweisung** auf der Aufgabe vorhanden ist:
 
    * **Geplante Kosten für Funktion und Benutzer**:
 

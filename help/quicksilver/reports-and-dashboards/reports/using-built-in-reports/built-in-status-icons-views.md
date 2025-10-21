@@ -6,7 +6,7 @@ description: Sie können das integrierte Feld Statussymbole als Spalte in Ihren 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Beachten Sie Folgendes:
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und &#x200B;](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und ](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
 
 * In einigen Ansichten **das Feld** Statussymbole“ **Flags** oder **Ansichtssymbole**.\
   Sie können das Erscheinungsbild der Symbole, die im Feld Statussymbole enthalten sind, nicht anpassen.
@@ -105,7 +105,7 @@ So fügen Sie das Feld Statussymbole zu einer benutzerdefinierten Ansicht hinzu,
 
    * *Status-Symbole*
    * *Flags*
-   * *Symbole anzeigen *(nur in Dokumentansichten).
+   * *Symbole anzeigen* (nur in Dokumentansichten).
 
    Die integrierten Symbole werden unter einem dieser Namen aufgeführt.\
    Eine Vorlagenansicht enthält sowohl die Felder **Statussymbole** als auch **Flags**. In diesem Fall enthalten die beiden Spalten identische Symbole.\

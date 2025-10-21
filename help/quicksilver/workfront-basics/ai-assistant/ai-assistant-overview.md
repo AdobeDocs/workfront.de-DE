@@ -5,10 +5,10 @@ description: Erfahren Sie mehr über den KI-Assistenten in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -133,7 +133,7 @@ Wenn ein(e) Benutzende(r) versucht, den KI-Assistenten zu verwenden, obwohl die 
 
 So fordern Sie die Adobe Gen AI-Vereinbarung an:
 
-1. Klicken Sie als Workfront-Administrator auf das Symbol „KI![Assistent“ &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Klicken Sie als Workfront-Administrator auf das Symbol „KI![Assistent“ ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Beginnen Sie mit der Eingabe im Bedienfeld KI-Assistent .
 1. Wenn die Adobe Gen AI-Vereinbarungsmeldung angezeigt wird, klicken Sie auf **Vereinbarung überprüfen**.
 1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnen wird.
@@ -149,7 +149,7 @@ Geben Sie bei der Eingabe Ihrer Eingabeaufforderung den Satz `using (keyword)` e
 | Schlüsselwort | Ergebnis |
 |---|---|
 | `workfront` | Interagiert mit Workfront. |
-| `planning ` | Interagiert mit Workfront Planning. |
+| `planning` | Interagiert mit Workfront Planning. |
 | `help` | Gibt Informationen aus der Experience League-Dokumentation zurück. |
 | `formula` | Prüft Formeln zur Verwendung in Planning, Setup oder benutzerdefinierten Formularen und gibt sie zurück. |
 | `health` | Überprüft den Projektzustand mit dem Projektgesundheitsberater. |

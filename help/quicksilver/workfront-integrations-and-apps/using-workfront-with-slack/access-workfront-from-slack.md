@@ -6,7 +6,7 @@ description: Durch die  [!DNL Adobe Workfront]  von  [!DNL Slack]  können Sie a
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Eine Liste aller Befehle, die Sie von Slack für [!DNL Workfront] ausführen kö
 ## Anmelden bei [!DNL Workfront] von [!DNL Slack] {#log-in-to-workfront-from-slack}
 
 Wenn Sie einen Befehl in das Nachrichtenfeld in Slack eingeben, werden Sie aufgefordert, sich zuerst bei [!DNL Workfront] anzumelden.\
-Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [&#x200B; Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
+Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [ Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
 
 So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
@@ -88,7 +88,7 @@ So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
 1. (Optional) Deaktivieren Sie alle [!DNL Workfront], die Sie in [!DNL Slack] nicht erhalten möchten.
 
-   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [&#x200B; Abschnitt „Konfigurieren &#x200B;](#configure-settings-configure-settings)&quot; in diesem Artikel
+   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [ Abschnitt „Konfigurieren ](#configure-settings-configure-settings)&quot; in diesem Artikel
 
 1. Navigieren Sie zurück zu Ihrem [!DNL Slack].
 
@@ -188,7 +188,7 @@ So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
      Meldet Sie von [!DNL Workfront] aus bei [!DNL Slack] an.
 
-   * `/wf log out `
+   * `/wf log out`
 
      Sie werden von [!DNL Workfront] von [!DNL Slack] abgemeldet. Sie bleiben bei [!DNL Workfront] angemeldet, wenn in einer anderen Browser-Registerkarte in einer anderen Anwendung eine separate [!DNL Workfront]-Instanz geöffnet ist.
    * `/wf settings`

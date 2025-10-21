@@ -6,7 +6,7 @@ description: Sie können  [!DNL Adobe Workfront for design and video]  über den
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Ma
 
 >[!NOTE]
 >
->Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Zugriffsanforderungen
@@ -122,10 +122,11 @@ Sie können [!DNL Adobe Workfront for design and video] selbst über die [!DNL A
 
    >[!TIP]
    >
-   >* Öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL, um Ihre Domain zu finden:\
+   >* Öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL, um Ihre Domain zu finden:
+   >
    >![Domain suchen](assets/domain-350x50.png)
    >
-   > * Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domain bereitzustellen, die Sie unter Produkt > Workfront in der Admin Console finden.
+   >* Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domain bereitzustellen, die Sie unter Produkt > Workfront in der Admin Console finden.
 
 1. Geben Sie im Browser Ihre [!DNL Workfront] ein und klicken Sie dann auf **[!UICONTROL Anmelden]**. Wenn Ihr Unternehmen Single Sign-on (SSO) verwendet, werden Sie zur Anmeldeseite Ihres SSO-Anbieters weitergeleitet.
 
@@ -164,4 +165,4 @@ Um dieses Problem zu beheben,
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.

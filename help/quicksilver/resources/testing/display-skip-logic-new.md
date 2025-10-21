@@ -2,7 +2,7 @@
 title: Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem benutzerdefinierten Formular
 description: Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem benutzerdefinierten Formular
 draft: Probably
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Um mehr darüber zu erfahren, arbeiten Sie weiter an dem benutzerdefinierten Bei
 
    *Mitgliedschaft*
 
-1. Öffnen Sie die Registerkarte **Feld hinzufügen** und erstellen Sie ein **Textfeld mit Formatierung** Feld namens *Was ist das Ziel der Website?* und klicken Sie dann auf **Übernehmen**.
+1. Öffnen Sie die Registerkarte **Feld hinzufügen** und erstellen Sie ein Feld **Textfeld mit Formatierung** mit dem Namen *Was ist das Ziel der Website?* und klicken Sie dann auf **Übernehmen**.
 
    In dieser Organisation wird eine Dokumentations-Site für Hilfe vom technischen Redaktionsteam und nicht von der Marketing-Abteilung erstellt. Von einem Benutzer, der im zweiten Feld Hilfedokumentation auswählt, sind also keine weiteren Informationen erforderlich. Wir erstellen eine Textzeile (ein beschreibendes Textfeld), in der der Benutzer aufgefordert wird, stattdessen das Team für technische Texte zu sehen. Und wir verwenden eine Regel vom Typ Logik überspringen , die diesen Benutzer zu dieser Textzeile überspringt.
 

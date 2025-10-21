@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -92,41 +92,56 @@ Wenn AppBuilder ordnungsgemäß konfiguriert ist, sollte beim Erstellen eines ne
 Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme verwendet werden kann. Die Dokumentation finden Sie hier: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) sowie Adobe App Builder-Anweisungen [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
-   1. Um das Tool zu installieren (stellen Sie sicher, dass Sie sich zuerst auf dem Knoten 18 befinden), führen Sie `npm install -g @adobe/aio-cli ` aus.
+
+   1. Um das Tool zu installieren (stellen Sie sicher, dass Sie sich zuerst auf dem Knoten 18 befinden), führen Sie `npm install -g @adobe/aio-cli` aus.
 
 1. Im Terminal authentifizieren
+
    1. Starten Sie Ihr Terminal und melden Sie sich mit dem Befehl `aio login` bei der Organisation an.
 
 1. Initialisieren der Anwendung
+
    1. Beginnen Sie mit der Einrichtung Ihrer App, indem Sie Folgendes ausführen: `aio app init example-app`.
 
 1. Konfigurationsauswahl
-   1. Wählen Sie anschließend Organisation und Projekt aus den bereitgestellten Optionen aus.\
+
+   1. Wählen Sie anschließend Organisation und Projekt aus den bereitgestellten Optionen aus.
+
       ![Organisation auswählen](assets/select-org.png)
+
       ![Projekt auswählen](assets/select-project.png)
 
 1. Vorlagenauswahl und Einrichtung
+
    1. Durchsuchen Sie alle verfügbaren Vorlagen und wählen Sie die Vorlage **@adobe/aem-cf-editor-ui-ext-tpl** für Ihr Projekt aus.
+
       ![Suchvorlage](assets/search-template.png)
+
       ![Vorlage auswählen](assets/select-template.png)
 
 1. Definieren der Erweiterung
+
    1. Benennen Sie Ihre Erweiterung.
    1. Geben Sie eine beschreibende Zusammenfassung der Funktionalität Ihrer Erweiterung an.
    1. Wählen Sie eine anfängliche Versionsnummer aus, mit der Sie beginnen möchten.
    1. Bestätigen Sie den Abschluss, indem **Ich bin fertig** auswählen.
-      ![Erweiterung definieren](assets/define-extension.png)
+
+   ![Erweiterung definieren](assets/define-extension.png)
 
 1. Navigieren Sie zu Ihrem Projektordner
+
    1. Zugriff auf den src-Ordner
+
    1. Benennen Sie den Ordner `aem-cf-editor-1` in `workfront-doc-details-1` um.
 
 1. Konfigurationsdateien ändern
+
    1. Öffnen Sie app.config.yaml
    1. Aktualisieren Sie die Zeile von `aem/cf-editor/1` in `workfront/doc-details/1`.
    1. Passen Sie den Einschlusspfad von `src/aem-cf-editor-1/ext.config.yaml` nach `src/workfront-doc-details-1/ext.config.yaml` an.
 
 1. Bearbeiten der Erweiterungsregistrierungs-Komponente
+
    1. Öffnen Sie `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
    1. Fügen Sie im Methodenabschnitt eine `secondaryNav` hinzu, die eine asynchrone `getButtons` enthält.
    1. `getButtons` sollte ein -Objekt mit der folgenden Struktur erhalten:
@@ -317,20 +332,22 @@ Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme v
 Damit ein Gastantrag in Workfront geladen werden kann, muss der Antrag an den Produktionsarbeitsbereich gesendet und zur Genehmigung eingereicht werden.
 
 1. Anwendung im Produktionsarbeitsbereich bereitstellen
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. Navigieren Sie zu [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) oder [https://developer.adobe.com/](https://developer.adobe.com/).
+
    1. Klicken **oben** auf „Konsole“.
 
 1. Suchen Sie das Projekt, das Sie zum Erstellen des AppBuilder-Programms verwendet haben.
-
 1. Wählen Sie die Produktions-Workspace aus.
+
    ![Produktions-Arbeitsbereich auswählen](assets/find-application.png)
 
 1. Senden Sie den Antrag zur privaten Überprüfung (Sie erhalten Warnungen, dass wir nicht auf dem App Exchange-Marktplatz veröffentlichen, was in Ordnung ist).
-
 1. Füllen Sie das Formular aus (Titel, Beschreibung, Symbol und Hinweis für den Prüfer).
+
    ![Formular zur privaten Überprüfung ausfüllen](assets/submission-details.png)
 
 >[!IMPORTANT]

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ Das Webinar zur Version 23.1 wurde am Dienstag, 10. Januar 2023 abgehalten. Sie 
 ## Adobe Workfront-Verbesserungen
 
 * [Verbesserungen beim Projekt- und Ressourcenmanagement](#project-and-resource-management-enhancements)
-
 * [Agile-Verbesserungen](#agile-enhancements)
-
 * [Verbesserungen für Mobilgeräte](#mobile-enhancements)
-
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Verbesserungen beim Projekt- und Ressourcenmanagement
@@ -524,7 +521,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
+Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
@@ -556,6 +553,7 @@ Einige Listensteuerungsfunktionen werden in die Bereiche Einrichtung > Schnittst
 Wir ersetzen die Erweiterung [Workfront für Illustrator und InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) durch aktualisierte Creative Cloud-Plug-ins. Ab Ende 2022 wird diese Erweiterung nicht mehr zur Installation in der Adobe Exchange verfügbar sein.
 
 Die Funktionalität in dieser Erweiterung ist zusammen mit mehreren Verbesserungen in den aktualisierten Plug-ins für Adobe Workfront for Creative Cloud verfügbar:
+
 * [Adobe Workfront für Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront für XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront für Design und Video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

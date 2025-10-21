@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -48,10 +48,8 @@ Sie können auch das Hintergrundbild und die Hintergrundfarbe des Anmeldebildsch
 >[!NOTE]
 >
 >* Das Ändern des Anmeldehintergrundbilds und der Hintergrundfarbe ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens ein benutzerdefiniertes SSO-Portal verwendet. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Ein Workfront-Administrator oder Gruppenadministrator kann Workfront mithilfe einer Layout-Vorlage auch für bestimmte Gruppen und Benutzende markieren. Das Branding in einer Layout-Vorlage überschreibt das in diesem Artikel beschriebene Branding auf Systemebene. Anweisungen zum Branding in einer Layout-Vorlage finden Sie unter [Adobe Workfront mithilfe einer Layout-Vorlage markieren](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,10 +132,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >[!NOTE]
    >
    >Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens ein benutzerdefiniertes SSO-Portal verwendet.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 

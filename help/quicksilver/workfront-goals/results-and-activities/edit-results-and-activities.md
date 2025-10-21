@@ -7,7 +7,7 @@ description: Nachdem Ihnen der Adobe Workfront-Administrator den richtigen Zugri
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -241,9 +241,10 @@ Editing activities differs depending on which environment you use.
    ![Aktivitätsfeld bearbeiten](assets/edit-activity-box-unshimmed.png)
 
 1. Bearbeiten Sie die folgenden Informationen:
+
    * **Aktivitätsname**: Der Name der Aktivität. Verwenden Sie einen beschreibenden Namen, der veranschaulicht, welche Aktivität Sie durchführen sollten, um anzugeben, dass das Ziel abgeschlossen ist.
-   * **Aktivitätsbesitzer:** Der Eigentümer der Aktivität. Der Besitzer muss ein aktiver Workfront-Benutzer sein.\
-     Weitere Informationen zu Aktivitätsfeldern finden Sie unter [Hinzufügen von Aktivitäten zu Zielen](../results-and-activities/add-activities-to-goals.md).
+   * **Aktivitätsbesitzer:** Der Eigentümer der Aktivität. Der Besitzer muss ein aktiver Workfront-Benutzer sein.
+
+   Weitere Informationen zu Aktivitätsfeldern finden Sie unter [Hinzufügen von Aktivitäten zu Zielen](../results-and-activities/add-activities-to-goals.md).
+
 1. Klicken Sie auf **Speichern**.
-
-

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 1%
@@ -199,11 +199,11 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 | Anzeigen von Datensätzen in einer Zeitleiste |            | ✓ |             |
 | Datensätze filtern | ✓ | ✓ | ✓ |
 | Anzeigen von Datensätzen in einem Kalender |           |              | ✓ |
-| Datensätze gruppieren | ✓ | ✓ |
-| Datensätze sortieren | ✓ |              |
+| Datensätze gruppieren | ✓ | ✓ |  |
+| Datensätze sortieren | ✓ |              |  |
 | Farbcode-Datensätze | ✓ | ✓ | ✓ |
-| Farbgruppierungen |           | ✓ |
-| Nach bestimmten Datensätzen suchen | ✓ | ✓ |
+| Farbgruppierungen |           | ✓ |  |
+| Nach bestimmten Datensätzen suchen | ✓ | ✓ |  |
 | Ansicht für andere freigeben | ✓ | ✓ | ✓ |
 | Öffnet die Datensatzseite aus der Ansicht | ✓ | ✓ |    |
 | Anzeigen von Datensätzen nach Jahr und Quartal |           | ✓ |    |
@@ -277,7 +277,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in der chronologischen Reihenfolge ab dem Zeitpunkt angezeigt, zu dem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol &#x200B;](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol ](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
    Zusätzliche Ansichten werden unter dem Menü **Mehr** nach der letzten Registerkarte Ansicht angezeigt. Die Zahl neben dem Menü **Mehr** zeigt die Anzahl der zusätzlichen Ansichten an.
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Umbenennen**, um den Ansichtsnamen zu aktualisieren
