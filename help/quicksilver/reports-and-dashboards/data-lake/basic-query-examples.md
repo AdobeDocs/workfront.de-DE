@@ -182,10 +182,10 @@ Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data
 >[!NOTE]
 >
 >Es wird empfohlen, diese Abfrage als eigene „Ansicht“ in Power BI oder Tableau zu verwenden.  Wenn Sie andere Felder aus dem `<object>_event view` einbringen möchten, verbinden Sie die Ausgabe aus dieser Abfrage wieder mit dem `<object>_event view`.  Die Verknüpfungsfelder lauten wie folgt: <br>
->>Für projects_event: 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>Für projects_event: 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
