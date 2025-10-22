@@ -6,7 +6,7 @@ description: Einige Funktionen unterscheiden sich zwischen  [!DNL Workfront]  un
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In dieser Tabelle werden einige Funktionen beschrieben, die sich in den beiden E
 | Die Navigation enthält zusätzlich zur [!DNL Adobe] Navigationsleiste einen Navigationsbereich auf oberster Ebene für [!DNL Adobe] Produkte, [!DNL Workfront], Hilfe und Ihr Benutzerprofil | Die Navigation umfasst nur die [!DNL Workfront] Navigationsleiste |
 | Die Hilfe ist über das [!UICONTROL Hauptmenü] und den oberen Navigationsbereich zugänglich | Die Hilfe ist über das [!UICONTROL Hauptmenü] und [!DNL Workfront] Navigationsleiste verfügbar |
 | Die Proofing Viewer wird in einer neuen Registerkarte geöffnet | Die Proofing-Anzeige wird in Workfront geöffnet |
-| Die für den Zugriff auf Workfront verwendete URL ist `experience.adobe.com` | Die für den Zugriff auf Workfront verwendete URL ist `(CompanyName).my.workfront.com` |
+| Die für den Zugriff auf Workfront verwendete URL ist `experience.adobe.com` | Die für den Zugriff auf Workfront verwendete URL ist `(CompanyName).my.workfront.adobe.com` |
 | Das Datumsformat (z. B. MM/TT/JJJJ) basiert auf den Spracheinstellungen von Unified Experience Platform. Wenn der/die Benutzende seine/ihre Spracheinstellungen nicht aktualisiert hat, werden `en-US` verwendet. | Das Datumsformat (z. B. MM/TT/JJJJ) basiert auf den Browser-Voreinstellungen |
 
 {style="table-layout:auto"}
@@ -61,9 +61,9 @@ Informationen zum [!DNL Admin Console] finden Sie in den folgenden Artikeln:
 
 Bestehende Kunden werden kontaktiert, um Migrationen zu planen. Das Migrations-Team unterstützt seine Kollegen dabei, den Kunden durch den Prozess zu führen, bei [!DNL Admin Console] Einrichtung zu beraten und Links zur Dokumentation bereitzustellen, die erforderlich ist, um den Umzug so einfach und unkompliziert wie möglich zu gestalten.
 
-* [[!DNL Adobe Workfront] Support-Übersicht](https://experienceleague.adobe.com/de/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] Information](https://experienceleague.adobe.com/de/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] und [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/de/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Support-Übersicht](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] Information](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] und [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Wie handhabt ihr [!DNL Adobe Admin Console] für Unternehmen, die dies bereits für Federated IDs aktiviert haben, anders als [!DNL Workfront] SSO eingerichtet ist?
 
@@ -111,7 +111,7 @@ Ja, es gibt einen Prozess dafür. Weitere Details werden bereitgestellt, wenn es
 
 ### Was passiert mit den [!DNL Workfront] Benutzern, die kein [!DNL Adobe] Konto haben?
 
-Benutzer, denen in [!DNL Adobe Admin Console] kein Zugriff auf [!DNL Workfront] gewährt wurde, müssen ein &quot;[!UICONTROL persönliches Konto“ &#x200B;] ein [!DNL Adobe] ID-Konto erstellen, um sich anmelden zu können. Dadurch wird eine E-Mail an den Administrator gesendet, um die Anfrage zu genehmigen oder abzulehnen, und der Administrator kann damit zusätzlich konfigurieren, welche Art von Zugriff dieser Benutzer hat. Wenn sie sich anmelden, gehen sie zu experience.adobe.com, geben ihre E-Mail-Adresse ein und wählen [!UICONTROL Persönliches Konto]. Dort können sie auf [!DNL Workfront] zugreifen.
+Benutzer, denen in [!DNL Adobe Admin Console] kein Zugriff auf [!DNL Workfront] gewährt wurde, müssen ein &quot;[!UICONTROL persönliches Konto“ ] ein [!DNL Adobe] ID-Konto erstellen, um sich anmelden zu können. Dadurch wird eine E-Mail an den Administrator gesendet, um die Anfrage zu genehmigen oder abzulehnen, und der Administrator kann damit zusätzlich konfigurieren, welche Art von Zugriff dieser Benutzer hat. Wenn sie sich anmelden, gehen sie zu experience.adobe.com, geben ihre E-Mail-Adresse ein und wählen [!UICONTROL Persönliches Konto]. Dort können sie auf [!DNL Workfront] zugreifen.
 
 ### Was ist, wenn wir außer [!DNL Adobe] keine [!DNL Workfront?] Produkte haben?
 
