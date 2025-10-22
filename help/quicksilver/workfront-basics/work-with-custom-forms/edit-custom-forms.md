@@ -7,9 +7,9 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 
 ## Alle berechneten benutzerdefinierten Felder für ein Objekt neu berechnen  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>Sie müssen über ein benutzerdefiniertes Formular mit berechneten Feldern verfügen, die an das -Objekt angehängt sind, bevor Sie die Schritte in diesem Abschnitt ausführen können.
+
+
 1. Navigieren Sie zur Hauptseite des Objekts, dessen benutzerdefinierte Felder Sie neu berechnen möchten.
 1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Namen des Objekts und dann auf **Ausdrücke neu berechnen**.
 
@@ -154,7 +159,12 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-Sie können die benutzerdefinierten Felder mehrerer Objekte manuell neu berechnen, indem Sie sie stapelweise aus einer Liste oder einem Bericht bearbeiten.
+Je nachdem, für welche Objekte Sie die benutzerdefinierten Ausdrücke neu berechnen möchten, können Sie dies in den folgenden Bereichen tun:
+
+* In einer Liste von Objekten über das Menü Mehr oben in der Liste.
+* Wenn Sie im Bearbeitungsfeld mehrere Objekte gleichzeitig auswählen und bearbeiten.
+
+So berechnen Sie die benutzerdefinierten Felder mehrerer Objekte manuell neu, indem Sie sie stapelweise aus einer Liste oder einem Bericht bearbeiten:
 
 1. Navigieren Sie zu einer Liste von Objekten, die benutzerdefinierte Formulare mit berechneten Feldern enthalten.
 1. Wählen Sie die Objekte aus, deren berechnete benutzerdefinierte Felder Sie aktualisieren möchten.
@@ -164,17 +174,17 @@ Sie können die benutzerdefinierten Felder mehrerer Objekte manuell neu berechne
 
    Workfront berechnet alle benutzerdefinierten Felder für alle ausgewählten Objekte.
 
->[!TIP]
->
->Sie können benutzerdefinierte Ausdrücke auch aus einer Liste von Objekten neu berechnen. So berechnen Sie beispielsweise benutzerdefinierte Ausdrücke massenhaft aus einer Projektliste neu:
->
->1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
->1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront berechnet alle benutzerdefinierten Felder für alle ausgewählten Projekte.
->&#x200B;>Nicht alle Listen aller Objekte verfügen über diese Funktion.
+So berechnen Sie benutzerdefinierte Ausdrücke aus einer Objektliste neu:
+
+1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront berechnet sofort alle benutzerdefinierten Felder für alle ausgewählten Projekte.
+Nicht alle Listen aller Objekte verfügen über diese Funktion.
+
+>[!NOTE]
 >
 >Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenberechnung berechneter benutzerdefinierter Felder keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung sicherzustellen. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
 

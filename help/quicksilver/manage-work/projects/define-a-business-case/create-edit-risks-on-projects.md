@@ -6,9 +6,9 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1062'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ So erstellen oder bearbeiten Sie ein Risiko im Business Case:
 
 1. Gehen Sie zu dem Projekt, für das Sie Risiken erstellen möchten.
 1. Klicken Sie **linken Bedienfeld** Business Case“.
-1. Klicken **Abschnitt &quot;**&quot; auf **Risiken bearbeiten**.
+1. Klicken **Abschnitt &quot;**&quot; auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png)
 1. Geben Sie die folgenden Informationen ein oder bearbeiten Sie sie:
 
    * **Beschreibung:** Beschreiben Sie das Risiko.
@@ -104,8 +104,6 @@ So erstellen oder bearbeiten Sie ein Risiko im Business Case:
 Neben dem Erstellen und Bearbeiten von Risiken im Business Case können Sie dazu auch den Abschnitt **Risiken** eines Projekts verwenden.
 
 Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt und bearbeitet werden. Das Erstellen von Risiken für Vorlagen entspricht dem Erstellen von Risiken für Projekte.
-
-### Risiken im Bereich „Risiken“ erstellen {#create-risks-in-the-risks-area}
 
 1. Gehen Sie zu dem Projekt, für das Sie Risiken erstellen möchten.
 1. Klicken Sie **linken** auf „Risiken“.
@@ -146,19 +144,19 @@ Sie können jeweils nur ein Risiko oder mehrere Risiken gleichzeitig bearbeiten.
 
 Risiken bearbeiten:
 
-1. Navigieren Sie zu einem Projekt, für das Sie vorhandene Risiken bearbeiten möchten.
+1. Zu einem Projekt gehen, für das Sie vorhandene Risiken bearbeiten möchten.
 1. Klicken Sie **linken** auf „Risiken“.
 1. Beginnen Sie mit der Inline-Bearbeitung der Felder für die Risiken, die Sie in der Liste sehen, um jeweils ein Risiko zu bearbeiten.
 
    Oder
 
-   Wählen Sie ein oder mehrere Risiken aus und klicken Sie dann **Bearbeiten**, um mehrere Risiken gleichzeitig zu bearbeiten.
+   Wählen Sie ein oder mehrere Risiken aus und klicken Sie dann auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon-on-white.png), um mehrere Risiken gleichzeitig zu bearbeiten.
 
    >[!NOTE]
    >
    >Wenn Sie mehrere Risiken gleichzeitig bearbeiten, wenden Sie dieselben Informationen auf alle ausgewählten Risiken an. Die mit den einzelnen Risiken verbundenen Informationen vor Ihren Änderungen werden in einer Massenbearbeitung überschrieben.
 
-1. Wenn Sie auf **Bearbeiten** geklickt haben, wird das **Risiko bearbeiten** oder **Risiken bearbeiten** geöffnet.
+1. Wenn Sie auf das Symbol **Bearbeiten** geklickt haben, wird das **Risiko bearbeiten** oder **Risiken bearbeiten** geöffnet.
 
    Aktualisieren Sie die folgenden Felder:
 

@@ -6,7 +6,7 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 3%
@@ -16,6 +16,16 @@ ht-degree: 3%
 # Aufgaben in einer Liste bearbeiten {#edit-tasks-in-a-list}
 
 <!-- Audited: 5/2025 -->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Liste angezeigten Felder bearbeiten. Weitere Informationen zu anderen Bearbeitungsmöglichkeiten für Aufgaben finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -292,7 +302,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -400,7 +410,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -517,7 +527,17 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
 
    Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Aufgaben angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. (Optional) Wählen Sie im Abschnitt Benutzerdefinierte Forms die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in den benutzerdefinierten Formularen, die an die ausgewählten Aufgaben angehängt sind, auf dem neuesten Stand sind.
+
+   <!--
+   <div class="preview">
+
+   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+
+   -->
 1. Klicken Sie **Änderungen speichern**. Alle von Ihnen vorgenommenen Änderungen sind nun für alle ausgewählten Aufgaben sichtbar.
 
 Informationen zur Massenbearbeitung benutzerdefinierter Formulare finden Sie unter [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

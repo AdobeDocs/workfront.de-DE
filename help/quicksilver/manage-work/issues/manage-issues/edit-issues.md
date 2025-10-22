@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 3%
 # Probleme bearbeiten
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme mit Ihnen geteilt haben.
 
@@ -238,8 +248,6 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Geben Sie einen Weblink ein, der sich auf die Informationen zum Problem bezieht.</p> </td> 
@@ -262,7 +270,6 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 
    <p>Beachten Sie beim Hinzufügen eines Benutzers des Typs "Primärer Kontakt“ den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.</p>
       <p> Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Gewähren des Benutzerzugriffs</a>.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 
    ![Abschnitt „Problemzuweisungen“](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Klicken Sie auf **Personen, Rollen und Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn er/sie in der Liste angezeigt wird.
+1. Klicken Sie auf **Personen, Rollen und Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den bzw. das Sie dem Problem zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn das Problem in der Liste angezeigt wird.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    >
    >Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einschließen.
 
+   Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+
    >[!TIP]
-   >
-   >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
    >
    >
    >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
@@ -343,7 +350,10 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
    >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-1. (Optional) Geben Sie an, ob ein Bevollmächtigter der primäre Bevollmächtigte für das Problem ist, indem Sie den Mauszeiger über den Namen des Bevollmächtigten bewegen und auf **Primär machen** klicken. Ein Team kann nicht der primäre Zugewiesene eines Problems sein.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Aktualisieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
     <tbody> 
      <tr> 
       <td role="rowheader">Geplante Stunden</td> 
-      <td> <p>Dies ist die tatsächliche Zeit, die die Verantwortlichen der Anfrage benötigen würden, um diese abzuschließen. Geben Sie die Anzahl der geplanten Stunden für das Problem ein.<br></p> <p>Hinweis: Durch eine Änderung der geplanten Stunden für die Anfrage wird das geplante Abschlussdatum der Anfrage nicht geändert. </p> </td> 
+      <td> <p>Dies ist die tatsächliche Zeit, die die Verantwortlichen der Anfrage benötigen würden, um diese abzuschließen. Geben Sie die Anzahl der geplanten Stunden für das Problem ein.<br></p> <p><b>NOTIZ</b></p>  <p>Das geplante Abschlussdatum der Anfrage ändert sich nicht, wenn die geplanten Stunden der Anfrage geändert werden. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rolle des Zugewiesenen</td> 
@@ -364,6 +374,15 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. Informationen zum Entfernen von Zuweisungen aus allen Problemen finden Sie unter [Probleme zuweisen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Klicken Sie **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
 

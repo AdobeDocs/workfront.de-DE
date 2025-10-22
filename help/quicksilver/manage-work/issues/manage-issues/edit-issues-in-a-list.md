@@ -6,7 +6,7 @@ description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 1%
@@ -16,6 +16,18 @@ ht-degree: 1%
 # Anfragen in einer Liste bearbeiten
 
 <!--Audited: 08/2025-->
+
+<!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Probleme in Listen bearbeitet werden.
 
@@ -180,7 +192,16 @@ So bearbeiten Sie Probleme stapelweise:
 
    Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Probleme angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. (Optional) Wählen Sie im Bereich **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in der benutzerdefinierten Forms, die an die ausgewählten Probleme angehängt sind, auf dem neuesten Stand sind.
+
+   <!--  
+   <div class="preview">
+
+   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
+   -->
 
    >[!IMPORTANT]
    >

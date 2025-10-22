@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL-Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -105,7 +105,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
 1. Aktualisieren Sie die folgenden Informationen im Abschnitt **Basisinfo**:
 
-   * **Firmenname**<!--<span class="preview">or **Name**</span>-->: Geben Sie einen Namen für das Unternehmen ein.
+   * **Firmenname**<!--<span class="preview"> or **Name**</span>-->: Geben Sie einen Namen für das Unternehmen ein.
    * **Ist Aktiv**: Wenn diese Option aktiviert ist, können Benutzer das Unternehmen finden und es an Projekte anhängen, die sie erstellen und bearbeiten. Eine inaktive Firma kann nicht mit Projekten verknüpft werden. Standardmäßig ist diese Option aktiviert.
    * **Dies ist die Primäre Firma**<!--<span class="preview">or **Is Primary**</span>-->: Weist die Firma als die primäre Firma Ihrer Organisation zu. Die Primärfirma stellt in der Regel Ihr Workfront-Konto dar, in dem die meisten Ihrer Benutzenden arbeiten.
 

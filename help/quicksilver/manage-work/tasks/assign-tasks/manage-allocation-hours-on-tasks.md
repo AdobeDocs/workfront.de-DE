@@ -6,7 +6,7 @@ description: Wenn Sie einer Aufgabe Benutzer oder Rollen zuweisen, wird ihnen ei
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,6 +14,16 @@ ht-degree: 0%
 ---
 
 # Verwalten der Stunden für die Zuordnung von Benutzern und Rollen bei Aufgaben
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource an einem Vorgang arbeiten soll. Die Stunden stellen die Zeit dar, die einem Benutzer an einem bestimmten Tag oder Wochentag, einer bestimmten Woche oder einem bestimmten Monat während der Dauer der Aufgabe zugewiesen wird.
 
@@ -54,6 +64,13 @@ Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource 
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>
+-->
 
 ## Überlegungen zum Ändern der Zuordnungsstunden für eine Aufgabe
 
