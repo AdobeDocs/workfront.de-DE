@@ -5,7 +5,7 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 2%
@@ -277,7 +277,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 
