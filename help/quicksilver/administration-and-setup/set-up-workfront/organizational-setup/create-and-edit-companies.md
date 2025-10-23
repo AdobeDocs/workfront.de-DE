@@ -39,7 +39,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL-Plan]</p>
+   <td><p>[!UICONTROL -Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -141,11 +141,11 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Bedingt) Wenn Sie eine Firma erstellen, klicken Sie auf **[!UICONTROL Firma erstellen]**<span class="preview"> oder** Speichern **.</span>
+1. (Bedingt) Wenn Sie eine Firma erstellen, klicken Sie auf **[!UICONTROL Firma erstellen]**<span class="preview"> oder **&#x200B; Speichern &#x200B;**.</span>
 
    Oder
 
-   Wenn Sie eine vorhandene Firma bearbeiten, klicken Sie auf **[!UICONTROL Änderungen speichern]**<span class="preview"> oder** Speichern **.</span>
+   Wenn Sie eine vorhandene Firma bearbeiten, klicken Sie auf **[!UICONTROL Änderungen speichern]**<span class="preview"> oder **&#x200B; Speichern &#x200B;**.</span>
 
 ## Verwalten von Unternehmensmitgliedschaften
 
