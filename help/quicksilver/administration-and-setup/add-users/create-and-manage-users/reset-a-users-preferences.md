@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
 
 Als Adobe Workfront-Administrator können Sie die Benutzereinstellungen für beliebige Benutzende im Workfront-System zurücksetzen oder entfernen.
 
@@ -57,61 +57,67 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen auf den Systemstandard zurückgesetzt und andere gelöscht oder entfernt:
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Voreinstellung</strong> </th> 
-   <th><strong>Status nach dem Zurücksetzen</strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Ansichten </td> 
-   <td> <p> Auf Systemstandard zurückgesetzt</p> <p>Vorhandene Ansichten werden nicht gelöscht. Sie können sie erneut auswählen.</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Filter</td> 
-   <td> <p>Auf Systemstandard zurückgesetzt</p> <p>Vorhandene Filter werden nicht gelöscht. Sie können sie erneut auswählen.</p> </td> 
+   <td>Filters</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Gruppierungen</td> 
-   <td> <p>Auf Systemstandard zurückgesetzt</p> <p>Vorhandene Gruppierungen werden nicht gelöscht. Sie können sie erneut auswählen.</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Liste der letzten Elemente</td> 
-   <td>Gelöscht</td> 
+   <td>Recent Items list</td> 
+   <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>Favoritenliste</td> 
-   <td>unberührt</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>Benutzervoreinstellungen</td> 
-   <td> <p>Auf Systemstandard zurückgesetzt</p> <p>E-Mail-Benachrichtigungen werden auf die Systemstandardwerte zurückgesetzt. Die Standardbenachrichtigungen werden unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Ereignisbenachrichtigungen in Adobe Workfront verfügbar</a> aufgeführt.</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerdefinierte Registerkarten</td> 
-   <td>Entfernt</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>Benutzerdefinierte globale Navigationsoptionen</td> 
-   <td>Setzen Sie zurück auf Layout-Vorlagendefinition oder auf Systemstandard , wenn keine Layout-Vorlage zugewiesen ist.</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| Voreinstellung | Status nach dem Zurücksetzen |
+| --- | --- |
+| Ansichten  | Auf Systemstandard zurückgesetzt <p>Vorhandene Ansichten werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
+| Filter | Auf Systemstandard zurückgesetzt <p>Vorhandene Filter werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
+| Gruppierungen | Auf Systemstandard zurückgesetzt <p>Vorhandene Gruppierungen werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
+| Liste der letzten Elemente | Gelöscht |
+| Favoritenliste | unberührt |
+| Benutzervoreinstellungen | Auf Systemstandard zurückgesetzt <p>E-Mail-Benachrichtigungen werden auf die Systemstandardwerte zurückgesetzt. Die Standardbenachrichtigungen werden unter [Ereignisbenachrichtigungen in Adobe Workfront verfügbar](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) aufgeführt.</p> |
+
+</div>
 
 ## Benutzereinstellungen zurücksetzen
 
@@ -141,9 +147,13 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Drücken Sie **ENTER**.
-1. Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf **Zurücksetzen**.
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-Oder
+<div class="preview">
 
-   Um nur benutzerdefinierte Registerkarten zurückzusetzen, wählen Sie **Registerkarten zurücksetzen**.
+1. Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf &quot;**&quot;**.
+
+   Oder
+
+   Um nur benutzerdefinierte Registerkarten zurückzusetzen, klicken Sie auf **Linke Navigation zurücksetzen**.
+
+</div>
