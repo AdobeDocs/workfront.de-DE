@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
+source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
 workflow-type: tm+mt
-source-wordcount: '8497'
+source-wordcount: '8788'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,44 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Admin und Setup
+
+### Aktualisierungen der Benutzeroberfläche für die Dialogfelder „Firmen hinzufügen“ und „Firmen bearbeiten“
+
+**Vorschau-Version: 23. Oktober 2025; Produktions-Version: ab 30. Oktober 2025**
+
+Wir haben die Dialogfelder zum Hinzufügen und Bearbeiten von Unternehmen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Weitere Informationen finden Sie unter [Firmen erstellen und bearbeiten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+## Projekte
+
+### Aktualisierungen der Benutzeroberfläche für die Felder „Neues Risiko“ und „Risiko bearbeiten“ in einem benutzerdefinierten Dashboard eines Projekts
+
+**Vorschau-Version: 16. Oktober 2025; Produktionsversion für alle Kunden: Ab der Woche vom 23. Oktober 2025**
+
+Das Erscheinungsbild der Felder Neue Risiken und Risiken bearbeiten wurde aktualisiert, wenn Sie ein vorhandenes Risiko erstellen oder aktualisieren . Das neue Design passt nun zu anderen Bereichen von Workfront.  Um auf den neuen Entwurf zuzugreifen, erstellen Sie einen Risikobericht und platzieren Sie ihn in einem Dashboard. Fügen Sie dann das Dashboard einem Projekt hinzu und verwalten Sie die Risiken aus dem Dashboard.
+
+Weitere Informationen finden Sie [Erstellen und Bearbeiten von Risiken in Projekten](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+
+## Benutzende
+
+### Aktualisierungen der Benutzeroberfläche für persönliche Auszeiten
+
+**Vorschau-Version: 23. Oktober 2025; Produktionsversion für alle Kunden: Ab der Woche vom 30. Oktober 2025**
+
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+
+Wir haben das Erscheinungsbild des persönlichen Urlaubskalenders aktualisiert, einschließlich der Möglichkeit, Genehmigungen zu delegieren, sodass er mit anderen Bereichen der Anwendung übereinstimmt.
+
+Um diese Änderungen anzuzeigen, gehen Sie zu Ihrem Benutzerprofil und klicken Sie **linken Bereich auf** Auszeit“.
+
+Weitere Informationen finden Sie unter [Konfigurieren persönlicher Ausfallzeiten](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) und [Genehmigungsanfrage delegieren](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+## Aktualisierung der Benutzeroberfläche im 4. Quartal
+
+## Admin und Setup
+
++++Erweitern Sie , um die im 4. Quartal vorgenommenen Aktualisierungen der Admin- und Setup-Benutzeroberfläche anzuzeigen.
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld Benutzer importieren bei Firmen
 
@@ -64,7 +102,7 @@ Diese Aktualisierung wirkt sich aus auf:
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Schweregrade“ im Setup
 
-**Vorschau-Version: 25. September 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 25. September 2025; Produktionsversion: Beginn der Woche vom 23. Oktober 2025**
 
 Wir haben die Seite „Schweregrade“ mit einem moderneren Design aktualisiert, das zu anderen Bereichen von Workfront konsistent ist.
 
@@ -76,7 +114,7 @@ Weitere Informationen finden Sie unter [Erstellen oder Anpassen von Problemschwe
 
 ### Aktualisierungen der Benutzeroberfläche für den Bereich „Prioritäten“ im Setup
 
-**Vorschau-Version: 25. September 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 25. September 2025; Produktionsversion: Beginn der Woche vom 23. Oktober 2025**
 
 Wir haben die Prioritätsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -150,7 +188,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -209,7 +247,11 @@ Wir haben die Seite Benutzer für SSO aktualisieren mit einem moderneren Design 
 
 Um diese Änderung anzuzeigen, gehen Sie zu Setup > System > Benutzer für SSO aktualisieren
 
++++
+
 ## Portfolios
+
++++Erweitern Sie , um die im 4. Quartal vorgenommenen Aktualisierungen der Portfolio-Benutzeroberfläche anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche zum Bearbeiten von Portfolios
 
@@ -224,7 +266,11 @@ Für die Bearbeitung von Portfolios im Feld Portfolio bearbeiten wurden Benutzer
 
 Weitere Informationen finden Sie unter [Portfolios bearbeiten](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
++++
+
 ## Programme
+
++++Erweitern Sie , um die im 4. Quartal vorgenommenen Aktualisierungen der Programmoberfläche anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche im Feld Programm bearbeiten
 
@@ -234,7 +280,11 @@ Das Erscheinungsbild des Felds Programm bearbeiten wurde entsprechend dem Design
 
 Weitere Informationen finden Sie unter [Programme bearbeiten](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
 
++++
+
 ## Projekte
+
++++Erweitern Sie , um die im 4. Quartal vorgenommenen Aktualisierungen der Projektoberfläche anzuzeigen.
 
 ### Aktualisierungen der Benutzeroberfläche für Abrechnungssätze
 
@@ -436,7 +486,11 @@ Das Dialogfeld zum Hinzufügen einer neuen Ausgabe zu einem Projekt wurde aktual
 
 Weitere Informationen finden Sie unter [Projektausgaben verwalten](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
++++
+
 ## Vorlagen
+
++++Erweitern Sie , um die im 4. Quartal vorgenommenen Aktualisierungen der Vorlagenschnittstelle anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche für die Personenliste in einer Vorlage
 
@@ -482,8 +536,12 @@ Weitere Informationen finden Sie unter
 * [Themengruppen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Routing-Regeln erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
++++
+
 
 ## Benutzende
+
++++Erweitern Sie , um die im 4. Quartal vorgenommenen Aktualisierungen der Benutzeroberfläche anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche auf der Seite „Benutzerdetails“
 
@@ -516,7 +574,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -528,6 +586,8 @@ Das Dialogfeld zum Importieren neuer Benutzer über eine Tabellenkalkulationsdat
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Benutzer importieren.
 
 Weitere Informationen finden Sie unter [Benutzer importieren](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
++++
 
 ## Aktualisierung der Benutzeroberfläche im 3. Quartal
 
@@ -593,7 +653,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
