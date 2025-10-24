@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f6f3df61286a360324963c872718be224a7ab413
+source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 5%
@@ -816,7 +816,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
@@ -961,6 +961,7 @@ Alle Filter innerhalb einer Gruppe unterstützen Folgendes:
 Das obige Beispiel enthält die folgenden Komponenten:
 
 1. Der Filter der obersten Ebene (außerhalb der Gruppe):
+
    * { „fieldName“: „percentComplete“, „fieldValue“: „100“, „compare“: „lt“ }
    * Dieser Filter prüft, ob das Feld percentComplete der aktualisierten Aufgabe kleiner als 100 ist.
 
