@@ -6,10 +6,10 @@ description: Das Adobe Workfront-Überprüfungs-Tool ist eine Browser-Erweiterun
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '607'
+ht-degree: 2%
 
 ---
 
@@ -42,6 +42,9 @@ Reviewer und genehmigende Personen müssen das Adobe Workfront-Überprüfungs-To
 * [Chrome-Erweiterung](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [Safari-Erweiterung](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 Damit interaktive Korrekturabzüge automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet werden können, muss ein Workfront-Administrator die Korrekturabzugseinstellungen in Workfront aktualisieren, wie in den folgenden Abschnitten beschrieben.
