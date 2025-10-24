@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
-ht-degree: 3%
+source-wordcount: '3054'
+ht-degree: 5%
 
 ---
 
@@ -92,7 +92,7 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt I
 
 ## Überlastung von Ereignisabonnements vermeiden
 
-Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Um dies sicherzustellen, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion von einem einzelnen Benutzer zu verhindern, die potenzielle Probleme mit der Service-Qualität für alle Benutzer verursachen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandbox- und Verzögerungen bei der Ereignisbereitstellung kommen.
+Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Damit dies sichergestellt wird, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion durch eine einzelne Person zu verhindern, die potenziell die Service-Qualität für alle Benutzenden beeinträchtigen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandboxing und zu Verzögerungen bei der Ereignisbereitstellung kommen.
 
 ## Abonnement-Ressource erstellen
 
@@ -816,7 +816,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
@@ -904,6 +904,86 @@ Im Feld `filterConnector` in der Abonnement-Payload können Sie auswählen, wie 
     "filterConnector": "AND"
 }
 ```
+
+### Verwenden von Filtergruppen
+
+Mit Filtergruppen können Sie verschachtelte logische (AND/OR) Bedingungen in Ihren Ereignisabonnementfiltern erstellen.
+
+Jede Filtergruppe kann Folgendes enthalten:
+
+* Ein eigener Anschluss (AND oder OR).
+* Mehrere Filter, die jeweils dieselbe Syntax und dasselbe Verhalten aufweisen wie eigenständige Filter.
+
+>[!IMPORTANT]
+>
+>Eine Gruppe muss mindestens zwei Filter haben.
+
+
+Alle Filter innerhalb einer Gruppe unterstützen Folgendes:
+
+* Vergleichsoperatoren: eq, ne, gt, get, lt, lte, contains, notContains, containsOnly, changed.
+* Statusoptionen: newState, oldState.
+* Feld-Targeting : Beliebiger gültiger Objektfeldname.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+Das obige Beispiel enthält die folgenden Komponenten:
+
+1. Der Filter der obersten Ebene (außerhalb der Gruppe):
+   * { „fieldName“: „percentComplete“, „fieldValue“: „100“, „compare“: „lt“ }
+   * Dieser Filter prüft, ob das Feld percentComplete der aktualisierten Aufgabe kleiner als 100 ist.
+
+1. Filtergruppe (verschachtelte Filter mit OR):
+   * { „type“: „group“, „connector“: „OR“, „filters“: [{ „fieldName“: „status“, „fieldValue“: „CUR“, „compare“: „eq“ }, { „fieldName“: „priority“, „fieldValue“: „1“, „comparisation“: „eq“ }] }
+   * Diese Gruppe bewertet zwei interne Filter:
+      * Im ersten Schritt wird geprüft, ob der Aufgabenstatus „CUR“ (aktuell) entspricht.
+      * Die zweite prüft, ob die Priorität gleich „1“ (hohe Priorität) ist.
+   * Da der Connector „OR“ ist, wird diese Gruppe übergeben, wenn eine der Bedingungen erfüllt ist.
+
+1. Top-Level-Connector (filterConnector: AND):
+   * Der äußerste Connector zwischen den Filtern der obersten Ebene ist „AND“. Das bedeutet, dass sowohl der Filter der obersten Ebene als auch die Gruppe übergeben müssen, damit das Ereignis übereinstimmt.
+
+1. Die Abonnement-Trigger, wenn die folgenden Bedingungen erfüllt sind:
+   * percentComplete ist kleiner als 100.
+   * Entweder ist der Status „CUR“ oder die Priorität ist „1“.
+
+>[!NOTE]
+>
+>Es gibt Beschränkungen, um bei der Verwendung von Filtergruppen eine konsistente Systemleistung sicherzustellen, darunter die folgenden:<br>
+>* Jedes Abonnement unterstützt bis zu 10 Filtergruppen (wobei jede Gruppe mehrere Filter enthält).
+>* Jede Filtergruppe kann bis zu 5 Filter enthalten, um eine potenzielle Leistungsbeeinträchtigung während der Ereignisverarbeitung zu verhindern.
+>* Es werden zwar bis zu 10 Filtergruppen (mit jeweils 5 Filtern) unterstützt, eine große Anzahl aktiver Abonnements mit komplexer Filterlogik kann jedoch zu einer Verzögerung bei der Ereignisauswertung führen.
 
 ## Löschen von Ereignisabonnements
 
