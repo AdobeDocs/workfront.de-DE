@@ -49,7 +49,7 @@ Objekte in Workfront (und daher im Data Connect-Data Lake) werden nicht nur durc
 >[!IMPORTANT]
 >
 >Das bereitgestellte Entitätsbeziehungsdiagramm (Entity Relationship Diagram, ERD) ist absichtlich unvollständig, da ein vollständiges ERD aufgrund der hohen Anzahl von Beziehungen innerhalb der Anwendung unlesbar würde.<br>
->>Dieses Diagramm zeigt anhand eines Beispiels, wie die in der Projekttabelle dokumentierten Beziehungen im Abschnitt [Terminologietabelle](#terminology-table) unten verwendet werden können, um Daten aus der Projektdatenansicht mit benachbarten Objekten zu verbinden. Es wird erwartet, dass kein vollständiges ERD erforderlich ist, sobald dieses Muster für die Projektobjektbeziehungen verstanden wird
+>&#x200B;>Dieses Diagramm zeigt anhand eines Beispiels, wie die in der Projekttabelle dokumentierten Beziehungen im Abschnitt [Terminologietabelle](#terminology-table) unten verwendet werden können, um Daten aus der Projektdatenansicht mit benachbarten Objekten zu verbinden. Es wird erwartet, dass kein vollständiges ERD erforderlich ist, sobald dieses Muster für die Projektobjektbeziehungen verstanden wird
 
 ## Datentypen
 
@@ -67,7 +67,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
 >[!NOTE]
 >
 >Neue Felder können den Objektansichten ohne vorherige Ankündigung hinzugefügt werden, um die sich verändernden Datenanforderungen des Workfront-Programms zu unterstützen. Wir raten zur Verwendung von „SELECT“-Abfragen, bei denen der nachgelagerte Datenempfänger nicht darauf vorbereitet ist, zusätzliche Spalten zu verarbeiten, wenn sie hinzugefügt werden.<br>
->>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
+>&#x200B;>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
 
 ### Zugriffsebene
 
