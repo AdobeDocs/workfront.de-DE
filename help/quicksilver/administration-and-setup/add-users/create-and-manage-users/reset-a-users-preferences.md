@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
@@ -148,12 +148,8 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 
 1. Drücken Sie **ENTER**.
 
-<div class="preview">
+1. <span class="preview">Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf **Zurücksetzen**.</span>
 
-1. Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf &quot;**&quot;**.
+   <span class="preview">ODER</span>
 
-   Oder
-
-   Um nur benutzerdefinierte Registerkarten zurückzusetzen, klicken Sie auf **Linke Navigation zurücksetzen**.
-
-</div>
+   <span class="preview">Um die linke Navigation des Benutzers auf die ursprüngliche Layout-Vorlagenkonfiguration zurückzusetzen, klicken Sie auf **Linke Navigation zurücksetzen**.</span>
