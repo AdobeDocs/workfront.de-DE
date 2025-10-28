@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3031'
 ht-degree: 5%
 
 ---
@@ -816,7 +816,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
@@ -962,12 +962,14 @@ Das obige Beispiel enthält die folgenden Komponenten:
 
 1. Der Filter der obersten Ebene (außerhalb der Gruppe):
 
-   * { „fieldName“: „percentComplete“, „fieldValue“: „100“, „compare“: „lt“ }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * Dieser Filter prüft, ob das Feld percentComplete der aktualisierten Aufgabe kleiner als 100 ist.
 
 1. Filtergruppe (verschachtelte Filter mit OR):
-   * { „type“: „group“, „connector“: „OR“, „filters“: [{ „fieldName“: „status“, „fieldValue“: „CUR“, „compare“: „eq“ }, { „fieldName“: „priority“, „fieldValue“: „1“, „comparisation“: „eq“ }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Diese Gruppe bewertet zwei interne Filter:
+
       * Im ersten Schritt wird geprüft, ob der Aufgabenstatus „CUR“ (aktuell) entspricht.
       * Die zweite prüft, ob die Priorität gleich „1“ (hohe Priorität) ist.
    * Da der Connector „OR“ ist, wird diese Gruppe übergeben, wenn eine der Bedingungen erfüllt ist.
@@ -981,7 +983,8 @@ Das obige Beispiel enthält die folgenden Komponenten:
 
 >[!NOTE]
 >
->Es gibt Beschränkungen, um bei der Verwendung von Filtergruppen eine konsistente Systemleistung sicherzustellen, darunter die folgenden:<br>
+>Es gibt Beschränkungen, um bei der Verwendung von Filtergruppen eine konsistente Systemleistung sicherzustellen, darunter die folgenden:
+>
 >* Jedes Abonnement unterstützt bis zu 10 Filtergruppen (wobei jede Gruppe mehrere Filter enthält).
 >* Jede Filtergruppe kann bis zu 5 Filter enthalten, um eine potenzielle Leistungsbeeinträchtigung während der Ereignisverarbeitung zu verhindern.
 >* Es werden zwar bis zu 10 Filtergruppen (mit jeweils 5 Filtern) unterstützt, eine große Anzahl aktiver Abonnements mit komplexer Filterlogik kann jedoch zu einer Verzögerung bei der Ereignisauswertung führen.
