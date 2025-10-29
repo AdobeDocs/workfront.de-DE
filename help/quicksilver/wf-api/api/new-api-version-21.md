@@ -6,10 +6,10 @@ description: Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentli
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-
 
 ## Ressourcen hinzugefügt
 
-### StaffingPlanTemplate (SPTMPL)
+### OriginalRequest (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-
       <td role="rowheader">Direkte Felder</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>name</li>
+          <li>requestID</li>
+          <li>requestName</li>
         </ul>
       </td>
     </tr>
@@ -39,20 +41,48 @@ Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-
       <td>
         <ul>
           <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
           <li>name</li>
           <li>objCode</li>
         </ul>
       </td>
    <tr>
-      <td role="rowheader">Vorgänge</td>
+      <td role="rowheader">Operations</td>
       <td>
         <ul>
-          <li>HINZUFÜGEN</li>
-          <li>ANZAHL</li>
-          <li>LÖSCHEN</li>
-          <li>BEARBEITEN</li>
+          <li>ADD</li>
+          <li>COUNT</li>
+          <li>DELETE</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>BERICHT</li>
+          <li>REPORT</li>
           <li>SEARCH</li>
         </ul>
       </td>
@@ -60,6 +90,8 @@ Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Entfernte Ressourcen
 
@@ -710,30 +742,32 @@ Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzu
  </tbody>
 </table>
 
-### Stellenplan
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Direkte Felder</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Hinzugefügt</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Hinzugefügt</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Hinzugefügt</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -742,30 +776,34 @@ Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzu
   </tbody>
 </table>
 
-### PersonalplanRessource
+-->
+
+<!--
+
+### StaffingPlanResource
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Direkte Felder</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Hinzugefügt</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Hinzugefügt</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Hinzugefügt</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzu
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Aufgabe (AUFGABE)
 
