@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -171,8 +171,13 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Obwohl einige Ansichtselemente auf mehrere Ansichten für denselben Datensatz angewendet werden können, sind sie für jede Datensatzansicht eindeutig:
 
    * Filter
+   * Sortieren (für die Tabellenansicht)
+   * Zeilenfarben (für die Tabellenansicht)
+   * Felder (für die Tabellenansicht)
+   * Aufschlüsselung (für die Zeitleisten-Ansicht)
    * Gruppierung (für die Tabellen- und Zeitleisten-Ansichten)
    * Darstellung der Leiste (für die Zeitleisten- und Kalenderansichten)
+   * Zeilenhöhe (für die Tabelle und die monatliche Kalenderansicht)
 
   Wenn Sie beispielsweise einen Filter in einer Tabellenansicht erstellen, sind die Filterergebnisse nur in der ausgewählten Ansicht (der Tabellenansicht) sichtbar und nicht in allen Ansichten, die mit dem Datensatztyp verknüpft sind.
 
@@ -212,6 +217,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 | Exportieren von Informationen aus einer Ansicht | ✓ |               |    |
 | Im Vollbildmodus anzeigen | ✓ | ✓ | ✓ |
 | Erstellen von Datensätzen in der Ansicht | ✓ | ✓ | ✓ |
+| Datensätze nach ihren Verbindungen aufschlüsseln |          | ✓ |    |
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}
 
@@ -277,7 +283,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in der chronologischen Reihenfolge ab dem Zeitpunkt angezeigt, zu dem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol &#x200B;](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol ](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
    Zusätzliche Ansichten werden unter dem Menü **Mehr** nach der letzten Registerkarte Ansicht angezeigt. Die Zahl neben dem Menü **Mehr** zeigt die Anzahl der zusätzlichen Ansichten an.
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Umbenennen**, um den Ansichtsnamen zu aktualisieren

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
+source-wordcount: '3401'
 ht-degree: 2%
 
 ---
@@ -192,6 +192,8 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden als neue Felder auf der Datensatzseite hinzugefügt.
 
+1. (Optional) Klicken Sie auf das **Felder**-Symbol ![Felder](assets/fields-icon.png) in der Symbolleiste, suchen Sie das Feld in der <!--or <span class="preview"> search for a field</span>,--> und heben Sie die Auswahl des Umschalters rechts neben dem Feldnamen auf, um das Feld auszublenden.
+
 1. Führen Sie einen der folgenden Schritte aus, um die Spalten in der Tabelle neu anzuordnen:
 
    * Nehmen Sie die Spaltenüberschrift und ziehen Sie sie per Drag-and-Drop an die gewünschte Position. Die verschobene Spalte wird kurz mit einem blauen Hintergrund angezeigt, bis Sie andere Anpassungen an der Tabelle vornehmen.
@@ -311,6 +313,8 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
 1. Klicken Sie **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
    * **Feld auswählen** nach dem Sie <!-- the tip below might change--> filtern möchten
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Wählen Sie eine Option** oder einen Filtermodifikator), um festzulegen, welche Art von Bedingung das Feld erfüllen muss
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. (Optional) Klicken Sie auf **Zeilenfarben**, um Bedingungen zu definieren und verschiedene Farben für Tabellenzeilen zu konfigurieren.
 
 1. Klicken Sie auf **Farbe hinzufügen** und dann auf **Feld auswählen** dessen Wert Sie die Farbe einer Zeile bestimmen möchten.
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    Um beispielsweise Kampagnen mit dem Status Aktiv in Grün anzuzeigen, wählen Sie **Status** und wählen Sie dann einen Modifikator und einen Wert für das Feld aus.
 

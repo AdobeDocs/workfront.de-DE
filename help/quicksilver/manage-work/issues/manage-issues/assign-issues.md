@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # Probleme zuweisen
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweise
 </div>
 -->
 
-## Einzelne Anfrage zuweisen
+## Weisen Sie in der Anfragekopfzeile ein einzelnes Problem zu
 
 1. Navigieren Sie zu einer Anfrage, die Sie zuweisen möchten.
 1. Klicken Sie **Zuweisen zu** in der oberen rechten Ecke der Problem-Kopfzeile im Bereich **Zuweisungen**
@@ -155,7 +155,7 @@ Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweise
 1. Klicken Sie auf **Speichern**, um die Zuweisung des Problems abzuschließen.
 1. (Optional) Klicken Sie auf das **X**-Symbol neben dem Namen der Zuweisungen im Bereich „Zuweisungen“ in der Kopfzeile des Problems, um eine Zuweisung zu entfernen.
 
-## Problem in einer Liste zuweisen
+## Problem zuweisen, indem es inline in einer Liste bearbeitet wird
 
 Sie können Probleme in einer Liste oder einem Bericht zuweisen, wenn eines der Zuweisungsfelder in der Listenansicht sichtbar ist. Dies ist eine schnellere Möglichkeit, Probleme zuzuweisen.
 
@@ -196,6 +196,12 @@ So weisen Sie Probleme in einer Liste zu:
 
 1. Nachdem Sie Ihre Bevollmächtigten zum Problem hinzugefügt haben, drücken Sie die Eingabetaste oder klicken Sie auf eine beliebige Stelle auf der Seite, um Ihre Änderungen zu speichern.
 
+## Problem im Feld „Problem bearbeiten“ zuweisen
+
+Ein Problem kann bei seiner Bearbeitung im Feld „Problem bearbeiten“ zugewiesen werden.
+
+Weitere Informationen finden Sie im Abschnitt „Arbeitsaufträge“ im Artikel [Probleme bearbeiten](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+
 ## Probleme stapelweise zuweisen
 
 <!--
@@ -216,7 +222,7 @@ Assigning issues in bulk is different depending on what environment you choose t
    >Wenn eines der Probleme bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Problemen hinzugefügt, anstatt die vorhandenen Ressourcen in den Problemen zu ersetzen.
 
 1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Problembesitzer** aus, um anzugeben, welche Ressource der primäre Zugewiesene oder der Inhaber des Problems ist, wenn Sie dem Problem mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
-1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&#x200B;**&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
+1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des ****&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
 1. (Optional) Wenn Sie vorhandene Zugewiesene aus allen Problemen entfernen möchten, führen Sie einen der folgenden Schritte aus:
 
