@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 
@@ -122,3 +122,9 @@ Projektkoordinatoren können den Fortschritt bei allen während des Fluges durch
 * **Benutzerdefiniertes Dashboard**: Erstellen Sie ein Berichts-Dashboard im Bereich der Arbeitsflächen-Dashboards, um sowohl allgemeine als auch detaillierte Informationen zu Überprüfungen und Genehmigungen mit der Funktion „Einheitliche Genehmigungen“ anzuzeigen. Informationen zu den ersten Schritten finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 * **Start-Widget für Metriken der Dokumentvalidierung**: Zeigt zwei Diagramme mit Informationen über die durchschnittliche Validierungszeit und Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen an.
   ![Alle Genehmigungen](assets/all-approvals.png)
+
+## Senden fertiger Assets an Adobe Experience Manager
+
+Sie können die [!DNL Experience Manager Assets]&#x200B;&#x200B; verwenden, um Ihre digitalen Assets zu verwalten und zu speichern, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Kollaborationsprozesse zu optimieren.
+
+Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
