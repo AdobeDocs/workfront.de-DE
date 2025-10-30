@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Aufgaben bearbeiten
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -530,7 +530,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
    </tbody>
    </table>
 
-   <!--
+   <!-- Indent this according to what you did above: 
       <div class="preview">
 
       1. In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list
@@ -699,7 +699,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -742,7 +742,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -808,7 +808,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)

@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
 
 # Aufgaben zuweisen
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Klicken Sie auf **Speichern**.
 1. (Optional und bedingt) Klicken Sie auf das Symbol **X** neben dem Namen der Zuweisung im rechten Bedienfeld der Aufgabe, um eine Zuweisung zu entfernen, wenn Sie auf **Erweitert** geklickt haben.
 
-## Aufgabe in einer Liste zuweisen
+## Aufgabe in einer Liste zuweisen, wenn sie inline bearbeitet wird
 
 Sie können Aufgaben in einer Liste oder einem Bericht zuweisen, wenn eines der Zuweisungsfelder in der Listenansicht sichtbar ist. Dies ist eine schnellere Möglichkeit, Aufgaben zuzuweisen. In diesem Artikel wird beschrieben, wie Sie Zuweisungen für eine Aufgabe in einer Liste ändern. Informationen zum Ändern mehrerer Zuweisungen für mehrere Aufgaben in einer Liste finden Sie unter [Ändern mehrerer Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -224,7 +224,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. Nachdem Sie Ihre Beauftragten zur Aufgabe hinzugefügt haben, drücken Sie die Eingabetaste oder klicken Sie auf eine beliebige Stelle auf der Seite, um Ihre Änderungen zu speichern, wenn Sie „Automatisch speichern“ ausgewählt haben. Klicken Sie andernfalls auf **Speichern**.
 
-## Mehrere Aufgaben einem Benutzer zuweisen
+## Weisen Sie einem Benutzer mehrere Aufgaben in großen Mengen aus einer Liste zu
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
@@ -259,7 +259,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    >
    >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben oder wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&quot; eine Rolle aus, die der Benutzer bei der Aufgabe erfüllen soll** wenn Sie Benutzer Aufgaben zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 

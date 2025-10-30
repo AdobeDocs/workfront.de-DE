@@ -6,7 +6,7 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 3%
@@ -15,12 +15,12 @@ ht-degree: 3%
 
 # Aufgaben in einer Liste bearbeiten {#edit-tasks-in-a-list}
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <div class="preview"> 
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
@@ -302,7 +302,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -410,7 +410,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -533,9 +533,7 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
 1. (Optional) Wählen Sie im Abschnitt Benutzerdefinierte Forms die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in den benutzerdefinierten Formularen, die an die ausgewählten Aufgaben angehängt sind, auf dem neuesten Stand sind.
 
    <!--
-   <div class="preview">
-
-   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
 
    -->
 1. Klicken Sie **Änderungen speichern**. Alle von Ihnen vorgenommenen Änderungen sind nun für alle ausgewählten Aufgaben sichtbar.
