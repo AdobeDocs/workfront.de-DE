@@ -183,7 +183,7 @@ So berechnen Sie die benutzerdefinierten Felder mehrerer Objekte manuell neu, in
 So berechnen Sie benutzerdefinierte Ausdrücke aus einer Objektliste neu:
 
 1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
-1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
