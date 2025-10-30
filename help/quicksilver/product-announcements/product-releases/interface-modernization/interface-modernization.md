@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8978'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,54 @@ Wir haben die Dialogfelder zum Hinzufügen und Bearbeiten von Unternehmen mit ei
 Weitere Informationen finden Sie unter [Firmen erstellen und bearbeiten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Projekte
+
+### Aktualisierung der Benutzeroberfläche beim Konvertieren einer Aufgabe in ein Projekt mithilfe einer Vorlage
+
+**Vorschau-Version: 30. Oktober 2025; Produktionsversion: ab 6. November 2025**
+
+Das Feld In Projekt konvertieren wurde aktualisiert, wenn eine Aufgabe mithilfe einer Vorlage in ein Projekt konvertiert wird. Das Design des Feldes entspricht nun dem Feld Projekt bearbeiten .
+
+Weitere Informationen finden Sie unter [Konvertieren einer Aufgabe in ein Projekt](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
+
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
+
+You can still find the removed fields when making advanced assignments on tasks.
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
+### Neues Erlebnis bei der Massenbearbeitung und bei Problemen mit der einfachen oder Massenzuweisung
+
+**Vorschau-Version: 30. Oktober 2025; Produktionsversion: ab 6. November 2025**
+
+Das Feld „Probleme bearbeiten“ wurde aktualisiert, wenn einzelne Probleme bearbeitet oder stapelweise bearbeitet werden.
+
+Die folgenden Änderungen sind in diesem Update enthalten:
+
+* Die Option Benutzerdefinierte Ausdrücke neu berechnen wurde entfernt, wenn Probleme stapelweise aktualisiert werden. Die Option wurde zum Menü Mehr in einer Problemliste hinzugefügt, nachdem mehrere Probleme ausgewählt wurden.
+
+* Es gibt ein neues Erlebnis zum Zuweisen von Ressourcen zu Problemen. Dies ist jetzt sowohl beim Bearbeiten eines Problems als auch beim Massenbearbeiten mehrerer Probleme verfügbar. Die folgenden Felder wurden aus dem Feld „Probleme bearbeiten“ entfernt:
+
+* Zuteilungen
+* Inhaber oder Problembesitzer
+* Rolle des Zugewiesenen
+
+Sie können die entfernten Felder aktualisieren, wenn Sie erweiterte Zuweisungen zu Problemen vornehmen.
+
+Weitere Informationen finden Sie unter [Probleme bearbeiten](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Felder „Neues Risiko“ und „Risiko bearbeiten“ in einem benutzerdefinierten Dashboard eines Projekts
 
@@ -188,7 +236,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -574,7 +622,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -653,7 +701,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
