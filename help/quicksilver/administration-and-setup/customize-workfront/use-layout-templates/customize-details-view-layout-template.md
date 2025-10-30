@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{preview-fast-release-general}}
 
-Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![&#x200B; das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
+Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![ das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
 
 <!--
 or billing record
@@ -29,7 +29,7 @@ Sie können auch die Reihenfolge der Informationen ändern, in der diese Informa
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -63,7 +63,7 @@ Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimm
 
   ![Problem in Aufgabenfeld konvertieren](assets/convert-issue-to-task-box.png)
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
@@ -98,11 +98,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 ## Anpassen, was Benutzenden in der Detailansicht angezeigt wird
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow-12x12.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Projekt**, **Aufgabe**, **Problem**, **Programm** oder **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow-12x12.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Projekt**, **Aufgabe**, **Problem**, **Programm** oder **Portfolio.**<!--, or billing record-->
 1. Führen Sie im **Details** einen der folgenden Schritte aus, um anzupassen, was Benutzende in der Detailansicht sehen:
 
    * Ziehen Sie beliebige Abschnittsüberschriften ![Symbol „Verschieben](assets/move-icon---dots.png), um ihre Reihenfolge zu ändern.
@@ -112,6 +108,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
      Alle Felder sind standardmäßig aktiviert. Sie können das Kontrollkästchen **Alle auswählen** in einem Bereich aktivieren oder deaktivieren, um alle Felder in diesem Bereich ein- oder auszublenden.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view-updated-save-buttons.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view.png)
 
 1. <span class="preview">In der Vorschau-Umgebung: Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.</span>
