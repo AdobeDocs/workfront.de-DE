@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '629'
 ht-degree: 4%
 
 ---
 
 # Problemschweregrade erstellen oder anpassen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Als Workfront-Admin können Sie Problemschweregrade erstellen und bearbeiten, um
 
 1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** > **Schweregrade**.
 
-1. Wenn Sie einen neuen Schweregrad erstellen, klicken Sie auf <span class="preview">**Neue** unten in der Tabelle</span> oder **Neuen Schweregrad hinzufügen**.
+1. Wenn Sie einen neuen Schweregrad erstellen, klicken Sie **Neue Zeile** unten in der Tabelle.
 1. Konfigurieren Sie die folgenden Optionen für den neuen Schweregrad oder bearbeiten Sie sie für einen vorhandenen:
 
    * **Name des Schweregrads**: Geben Sie einen Namen für den Schweregrad ein.
@@ -117,8 +115,6 @@ Als Workfront-Admin können Sie Problemschweregrade erstellen und bearbeiten, um
 
      Sie können keinen ausgeblendeten Schweregrad zum Standard machen.
 
-     <div class="preview">
-
      Der Standardschweregrad wird mit einem Symbol ![Standardschweregrad-Symbol](assets/default-icon.png) angegeben. Um einen neuen Standard auszuwählen, führen Sie einen der folgenden Schritte aus:
 
       * Aktivieren Sie das Kontrollkästchen neben dem Namen des Schweregrads und wählen Sie **Als Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
@@ -126,10 +122,8 @@ Als Workfront-Admin können Sie Problemschweregrade erstellen und bearbeiten, um
 
         Der neue Standardschweregrad ist mit dem Symbol gekennzeichnet.
 
-     </div>
-
    * **Beschreibung**: Geben Sie eine Beschreibung für den Schweregrad ein, um die Funktion zu erklären.
-   * <span class="preview">**Auswahl ausblenden**</span> oder **Ausblenden**: <span class="preview">Wählen Sie **Ja**</span> oder aktivieren Sie das Kontrollkästchen, um einen nicht mehr benötigten Schweregrad auszublenden.
+   * **Auswahl ausblenden**: Wählen Sie **Ja**, um einen nicht mehr benötigten Schweregrad auszublenden.
 
      Ein ausgeblendeter Schweregrad wird nirgends in Workfront angezeigt, sodass Benutzende ihn nicht für ihre Probleme auswählen können.
 

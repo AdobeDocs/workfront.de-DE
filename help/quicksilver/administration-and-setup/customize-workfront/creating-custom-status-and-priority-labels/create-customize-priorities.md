@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
 
 # Prioritäten erstellen und anpassen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ Zusätzlich zu den in Workfront bereitgestellten Standardprioritäten können Si
 1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** > **Prioritäten**.
 
 1. Klicken Sie auf die Registerkarte für den Objekttyp, für den Sie eine Priorität erstellen möchten (**Projekt**, **Aufgabe** oder **Problem**).
-1. Klicken Sie <span class="preview">**Neue** unten in der Tabelle</span> oder **Neue Priorität hinzufügen**.
+1. Klicken **unten** der Tabelle auf „Neue Zeile“.
 1. Konfigurieren Sie die folgenden Optionen für die Priorität:
 
    * **Prioritätsname**: Geben Sie einen Namen für die Priorität ein.
@@ -119,8 +117,6 @@ Zusätzlich zu den in Workfront bereitgestellten Standardprioritäten können Si
 
      Sie können eine ausgeblendete Priorität nicht als Standard festlegen.
 
-     <div class="preview">
-
      Die Standardpriorität wird durch ein Symbol ![Standardprioritätssymbol](assets/default-icon.png) gekennzeichnet. Um einen neuen Standard auszuwählen, führen Sie einen der folgenden Schritte aus:
 
       * Aktivieren Sie das Kontrollkästchen neben dem Namen der Priorität und wählen **Als Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
@@ -128,10 +124,8 @@ Zusätzlich zu den in Workfront bereitgestellten Standardprioritäten können Si
 
         Die neue Standardpriorität ist mit dem Symbol gekennzeichnet.
 
-     </div>
-
    * **Beschreibung**: Geben Sie eine Beschreibung für die Priorität ein, um ihre Funktion zu erklären.
-   * <span class="preview">**Auswahl ausblenden**</span> oder **Ausblenden**: <span class="preview">Wählen Sie **Ja**</span> oder aktivieren Sie das Kontrollkästchen, um eine nicht mehr benötigte Priorität auszublenden.
+   * **Auswahl ausblenden**: Wählen Sie **Ja**, um eine nicht mehr benötigte Priorität auszublenden.
 
      Eine ausgeblendete Priorität wird nirgendwo in Workfront angezeigt, sodass Benutzende sie nicht für ihre Projekte, Aufgaben oder Probleme auswählen können.
 
