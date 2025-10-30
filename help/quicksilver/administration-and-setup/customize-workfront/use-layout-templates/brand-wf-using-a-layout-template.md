@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 1%
+source-wordcount: '564'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfront mit einer Layout-Vorlage markieren
 
 <!--Audited: 09/2024-->
+
+{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 Sie können eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Aufgabengebiete und Benutzer anzupassen. Dies ist besonders für Gruppen in einem großen Unternehmen nützlich, die über ein eigenes Branding verfügen.
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
@@ -86,7 +88,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </tbody> 
    </table>
 
-1. Passen Sie die Layout-Vorlage weiter an.
+1. <span class="preview">In der Vorschau-Umgebung: Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.</span>
+
+   <span class="preview">ODER</span>
+
+   <span class="preview">Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.</span>
+
+1. In der Produktionsumgebung: Passen Sie die Layout-Vorlage weiter an.
 
    Oder
 
@@ -94,8 +102,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    >[!TIP]
    >
-   >Sie können jederzeit auf Speichern klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
-
-1. Klicken Sie auf **Speichern**.
+   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
