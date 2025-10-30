@@ -110,7 +110,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 
