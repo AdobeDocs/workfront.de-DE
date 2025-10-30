@@ -23,8 +23,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->>Produktions-Schnellveröffentlichung: 13. November 2025
->>Produktion für alle: 15. Januar 2026
+>&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
+>&#x200B;>Produktion für alle: 15. Januar 2026
 
 Um für mehr Konsistenz mit anderen Bereichen von Setup zu sorgen, z. B. mit dem benutzerdefinierten Formular-Designer, wurden die Schaltflächen, die Sie beim Bearbeiten einer Layout-Vorlage sehen, in **Übernehmen**, **Speichern und schließen** und **Abbrechen** geändert. Mit der neuen Option **Übernehmen** können Sie Ihre Änderungen an der Layout-Vorlage speichern und mit der Bearbeitung fortfahren. Zuvor waren die verfügbaren Optionen **Speichern** und **Abbrechen**.
 
@@ -36,8 +36,8 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorla
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->>Produktions-Schnellveröffentlichung: 13. November 2025
->>Produktion für alle: 15. Januar 2026
+>&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
+>&#x200B;>Produktion für alle: 15. Januar 2026
 
 Wenn das System eine große Anzahl benutzerdefinierter Felder enthält, kann die Verwaltung dieser Felder in benutzerdefinierten Formularen und Berichten schwierig sein. Sie können jetzt benutzerdefinierte Felder mit der neuen Markierung „Aktiv **als inaktiv**. Diese Markierung ist verfügbar, wenn Sie mit einem Feld in einem benutzerdefinierten Formular arbeiten oder ein Feld aus der Liste Felder hinzufügen oder bearbeiten.
 

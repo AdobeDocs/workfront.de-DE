@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Vorschau: 16. Oktober 2025
->>Produktions-Schnellveröffentlichung: 13. November 2025
->>Produktion für alle: 15. Januar 2026
+>&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
+>&#x200B;>Produktion für alle: 15. Januar 2026
 
 Bei der Implementierung von Workfront Planning für ein Unternehmen mit mehreren Teams mit gemeinsamen Workflows müssen Sie möglicherweise eine zusammenhängende Struktur und Metadaten für wichtige Datensatztypen (wie Kampagnen oder Ergebnisse) definieren, die den Arbeitsbereichen jedes Teams hinzugefügt werden können, um ihre Arbeit zu erfassen und zu verwalten.
 
@@ -66,8 +66,8 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 >[!NOTE]
 >
 >Vorschau: 16. Oktober 2025
->>Produktions-Schnellveröffentlichung: 13. November 2025
->>Produktion für alle: 15. Januar 2026
+>&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
+>&#x200B;>Produktion für alle: 15. Januar 2026
 
 Wir haben für jeden Datensatztyp ein Limit von 30 Verbindungsfeldern eingeführt.
 
@@ -80,8 +80,8 @@ Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztyp
 >[!NOTE]
 >
 >Vorschau: 16. Oktober 2025
->>Produktions-Schnellveröffentlichung: 13. November 2025
->>Produktion für alle: 15. Januar 2026
+>&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
+>&#x200B;>Produktion für alle: 15. Januar 2026
 
 Beim Hinzufügen von Feldoptionen zu einem Ein- oder Mehrfachauswahlfeld weist Workfront jeder Auswahl jetzt benutzerfreundliche Werte zu. Vor dieser Verbesserung generierte Workfront eine alphanumerische ID, die in API-Aufrufen und anderen Integrationen schwer zu verstehen und zu verwenden war.
 

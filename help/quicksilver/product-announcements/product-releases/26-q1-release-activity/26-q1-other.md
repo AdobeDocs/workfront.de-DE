@@ -23,8 +23,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025 de
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->>Produktions-Schnellveröffentlichung: 13. November 2025
->>Produktion für alle: 15. Januar 2026
+>&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
+>&#x200B;>Produktion für alle: 15. Januar 2026
 
 Felder, die mehrere Auswahlmöglichkeiten zulassen, z. B. Kontrollkästchen und Mehrfachauswahl-Dropdown-Listen, sind jetzt auf 5.000 Auswahlmöglichkeiten beschränkt, wenn ein Benutzer das Formular ausfüllt.
 

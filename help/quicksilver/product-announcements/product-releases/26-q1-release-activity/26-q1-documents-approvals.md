@@ -23,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
+>&#x200B;>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
 >Produktion für alle: 30. Oktober 2025
 
 Jetzt können Sie Experience Manager Assets verwenden, &#x200B; Ihre digitalen Assets zu verwalten und zu speichern, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Kollaborationsprozesse zu optimieren.

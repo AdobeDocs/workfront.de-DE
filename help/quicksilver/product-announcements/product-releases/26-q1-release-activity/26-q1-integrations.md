@@ -23,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
+>&#x200B;>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
 >Produktion für alle: 30. Oktober 2025
 
 Um auf dem neuesten Stand der letzten Änderungen an der Workfront-API zu bleiben, haben wir eine neue Salesforce-Integration erstellt. Die neue Integration bietet dieselben Funktionen wie die vorherige Version und wurde aktualisiert, um zu vermeiden, dass Funktionen verloren gehen, die in der API nicht mehr unterstützt werden.
