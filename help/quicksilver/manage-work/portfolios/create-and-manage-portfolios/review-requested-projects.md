@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-Wenn mehrere Projektanträge zur Prüfung eingereicht werden, kann das Projektmanagementbüro oder der Portfoliokomitee zusammentreten, um eingereichte Anträge zu prüfen und die Genehmigungen für Projektanträge zu bestimmen. Projektanfragen werden in [!UICONTROL  als Projekte mit dem Status ]Angefordert[!DNL Adobe Workfront] angezeigt.
+Wenn mehrere Projektanträge zur Prüfung eingereicht werden, kann das Projektmanagementbüro oder der Portfoliokomitee zusammentreten, um eingereichte Anträge zu prüfen und die Genehmigungen für Projektanträge zu bestimmen. Projektanfragen werden in [!UICONTROL &#x200B; als Projekte mit dem Status &#x200B;]Angefordert[!DNL Adobe Workfront] angezeigt.
 
 Sie können eine Projektanfrage zur Überprüfung senden, indem Sie einen der folgenden Schritte ausführen:
 
@@ -45,7 +45,7 @@ Sie können angeforderte Projekte in den folgenden [!DNL Adobe Workfront] überp
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard] </p> 
-   <p>[!UICONTROL-Plan]</p> </td> 
+   <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -89,9 +89,9 @@ Sie können angeforderte Projekte in den folgenden [!DNL Adobe Workfront] überp
 
 ## Überprüfen angeforderter Projekte in einem Projektbericht
 
-Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; ].
+Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; &#x200B;].
 
-Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL  Abschnitt „Genehmigen des Business Case durch Erstellen ]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL &#x200B; Abschnitt „Genehmigen des Business Case durch Erstellen &#x200B;]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Angeforderte Projekte innerhalb eines Portfolios überprüfen
 
