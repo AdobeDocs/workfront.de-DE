@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+>[!IMPORTANT]
+>
+>Mit Version 25.11 wird die Überschreibungswährung für Aufgabengebiete in der Produktion eingestellt. (Die Einstellung erfolgt am 30. Oktober in der Vorschau-Umgebung.) Anstatt eine Basiswährung zu haben und Währungen zu überschreiben, steht für Aufgabengebiete eine Währung zur Verfügung, und die Kosten und Abrechnungssätze werden mit dieser Währung definiert.
 
 Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete erstellen, die Benutzern zugewiesen werden können, und Standardaufgabengebiete löschen, die für Ihr Unternehmen nicht relevant sind. Informationen zum administrativen Zugriff in [!DNL Workfront] finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -38,7 +42,7 @@ Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabe
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -59,72 +63,143 @@ So erstellen Sie ein Aufgabengebiet:
 
 1. Klicken Sie im linken Bedienfeld auf &#x200B;**[!UICONTROL Aufgabengebiete].**
 1. Klicken Sie **[!UICONTROL Neues Aufgabengebiet].**
-1. Konfigurieren Sie Folgendes:
+1. Konfigurieren Sie die folgenden Felder:
 
+   * **Name**: Geben Sie einen Namen für das Aufgabengebiet an. Dies ist der Name, der überall in Workfront angezeigt wird, wo das Feld Aufgabengebiet angezeigt wird.
+
+     >[!TIP]
+     >
+     >Der Name eines Aufgabengebiets kann bis zu 255 Zeichen lang sein. Längere Namen können jedoch in bestimmten Bereichen von Workfront abgeschnitten werden.
+
+   * **Beschreibung**: Geben Sie eine Beschreibung für die Rolle ein, die angibt, was eindeutig ist.
+   * **Ist Aktiv**: Wählen Sie **Ja**, wenn die Rolle überall in Workfront aktiv und verfügbar sein soll, um sie mit Benutzenden, Arbeitselementen usw. zu verknüpfen. Wählen Sie **Nein** aus, wenn die Rolle deaktiviert und nicht für die Zuweisung zu Benutzern, Arbeitselementen usw. verfügbar sein soll.
+
+     Informationen zur Deaktivierung von Aufgabengebieten finden Sie unter [Deaktivieren von Aufgabengebieten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
+   * **Basiswährung**: Dies ist die Basiswährung, die von Ihrem Workfront-Administrator im Bereich „Setup“ festgelegt wurde. Weitere Informationen finden Sie [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     >[!TIP]
+     >
+     >Die Basiswährung kann nicht auf Aufgabengebiet-Ebene bearbeitet werden. Dieses Feld ist abgeblendet und dient als Erinnerung daran, was die Basiswährung für Ihr System ist.
+
+   * **Kostensatz**: Der Kostensatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit der Funktion sowie letztendlich die geplanten Kosten und Istkosten der Projekte. Geben Sie den Kurs unter Verwendung der Basiswährung ein.
+
+     Klicken Sie für gültige Datumssätze auf &quot;**hinzufügen**. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.
+
+     Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit dem Startdatum 1. Mai 2025 hinzufügen, wird dem ersten Kostensatz das Enddatum 30. April 2025 hinzugefügt, damit keine Lücken entstehen.
+
+     >[!TIP]
+     >
+     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie **Sortieren nach Startdatum** auswählen, um das neueste Startdatum oben in der Tarifliste anzuzeigen.
+
+   * **Abrechnungssatz**: Der Abrechnungssatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztendlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Kurs unter Verwendung der Basiswährung ein.
+
+     Klicken Sie für Abrechnungssätze mit Gültigkeitsdatum auf **Abrechnungssatz hinzufügen**. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Abrechnungssatz hat kein Startdatum und der letzte Abrechnungssatz hat kein Enddatum.
+
+     Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungssatz kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2025 hinzufügen, wird dem ersten Abrechnungssatz das Enddatum 30. April 2025 hinzugefügt, sodass keine Lücken bestehen.
+
+     >[!TIP]
+     >
+     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie **Sortieren nach Startdatum** auswählen, um das neueste Startdatum oben in der Tarifliste anzuzeigen.
+
+   * **Währung überschreiben**: Wählen Sie eine Währung aus, die mit diesem Aufgabengebiet verknüpft ist. Dies ist die Währung, die Workfront zur Berechnung der Kosten und Einnahmen im Zusammenhang mit diesem Aufgabengebiet verwendet.
+
+     Diese Währung unterscheidet sich von der Basiswährung, die von Ihrem Workfront-Administrator im Bereich „Setup“ festgelegt wurde, und kann sich von der einem Projekt zugeordneten Währung unterscheiden.
+
+     >[!TIP]
+     >
+     >In diesem Feld sind nur Währungen verfügbar, die im Bereich Wechselkurse Ihres Systems verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, wird dieses Feld nicht angezeigt.
+
+     Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+   * **Währungskostensatz überschreiben**: Dies ist der Kostensatz pro Stunde für das Aufgabengebiet unter Verwendung der ausgewählten Überschreibungswährung. Workfront verwendet diesen Wert, um die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit dem Aufgabengebiet zu berechnen.
+
+     Geben Sie den Kurs in die oben angegebene Währung zum Überschreiben ein. Dadurch wird auch der Kostensatz für dieses Aufgabengebiet bei Verwendung der Basiswährung aktualisiert.
+
+     Weitere Informationen zur Kostenberechnung in Workfront finden Sie unter [Kosten nachverfolgen](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >Beim Aktualisieren eines bestehenden Aufgabengebiets, dem bereits ein Kostensatz zugeordnet ist, berechnet Workfront den Wechselkurs zum Überschreiben der Währung anhand des Konversionssatzes in Ihrem System. Wenn Sie den Kostensatz Währung überschreiben aktualisieren, wird auch der Kostensatz des Aufgabengebiets automatisch aktualisiert.
+
+   * **Währung überschreiben Abrechnungssatz**: Dies ist der Abrechnungssatz pro Stunde für das Aufgabengebiet unter Verwendung der ausgewählten Überschreibungswährung. Workfront verwendet diesen Wert, um den geplanten und tatsächlichen Umsatz von Aufgaben und Problemen im Zusammenhang mit dem Aufgabengebiet zu berechnen.
+
+     Geben Sie den Kurs in die oben angegebene Währung zum Überschreiben ein. Dadurch wird auch der Abrechnungssatz für dieses Aufgabengebiet aktualisiert, wenn die Basiswährung verwendet wird.
+
+     Informationen zur Umsatzberechnung in Workfront finden Sie unter [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >Beim Aktualisieren eines bestehenden Aufgabengebiets, dem bereits ein Abrechnungssatz zugeordnet ist, berechnet Workfront den Überschreibungswährungssatz auf der Grundlage des Konversionssatzes in Ihrem System. Wenn Sie den Abrechnungssatz Währung überschreiben aktualisieren, wird auch der Abrechnungssatz des Aufgabengebiets automatisch aktualisiert.
+
+<!--
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Geben Sie einen Namen für das Aufgabengebiet an. Dieser Name wird überall in [!DNL Workfront] angezeigt, wo das Feld [!UICONTROL Aufgabengebiet] angezeigt wird. </p> <p>Tipp: Der Name eines Aufgabengebiets kann bis zu 255 Zeichen lang sein. Längere Namen können jedoch in bestimmten Bereichen von [!DNL Workfront] abgeschnitten werden. </p> </td> 
+      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in [!DNL Workfront] where the [!UICONTROL Job Role] field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of [!DNL Workfront]. </p> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL Beschreibung]</td> 
-      <td>Geben Sie eine Beschreibung für die Rolle ein, die angibt, was eindeutig ist. </td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Enter a description for the role that indicates what is unique about it. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL ist aktiv]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Wählen Sie <b>[!UICONTROL Yes]</b>, wenn die Rolle überall aktiv und verfügbar sein soll, [!DNL Workfront] sie mit Benutzern, Arbeitselementen usw. verknüpft werden soll. </p> </li> 
-        <li> <p>Wählen Sie <b>[!UICONTROL No]</b> aus, wenn Sie möchten, dass die Rolle deaktiviert wird und nicht für die Zuweisung an Benutzer, Arbeitselemente usw. verfügbar ist. </p> </li> 
-       </ul> <p><span>Informationen zur Deaktivierung von Aufgabengebieten finden Sie unter</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deaktivieren von Aufgabengebieten</a>. </p> </td> 
+        <li> <p>Select <b>[!UICONTROL Yes]</b> if you want the role to be active and available everywhere in [!DNL Workfront] to be associated with users, work items, etc. </p> </li> 
+        <li> <p>Select <b>[!UICONTROL No]</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
+       </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Basiswährung]</span> </td> 
-      <td> <p><span>Dies ist die [!UICONTROL Basiswährung], wie von Ihrem Workfront-Administrator im Bereich [!UICONTROL Setup] festgelegt. Weitere Informationen finden </span> unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a> .</p> <p>Tipp: <span>Sie können die [!UICONTROL Basiswährung] nicht auf Aufgabengebiet-Ebene bearbeiten. Dieses Feld ist abgeblendet und dient als Erinnerung daran, was die Basiswährung für Ihr System ist.</span> </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
+      <td> <p><span>This is the [!UICONTROL Base Currency], as set in the [!UICONTROL Setup] area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the [!UICONTROL Base Currency] at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Kostensatz]</td> 
-      <td><p>Dies ist der Stundensatz (Cost per Hour Rate) des Aufgabengebiets. Dieser Wert berechnet die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit der Funktion sowie letztendlich die geplanten Kosten und Istkosten der Projekte. Geben Sie den Kurs mithilfe der [!UICONTROL Basiswährung] ein.</p> 
-      <p>Klicken Sie auf <strong>[!UICONTROL Tarif hinzufügen]</strong>, um die gültigen Kostensätze anzuzeigen. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem ersten Kostensatz das Enddatum 30. April 2023 hinzugefügt, damit keine Lücken entstehen.</p> <p>Tipp: Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie <strong>Sortieren nach Startdatum</strong> auswählen, um das neueste Startdatum oben in der Tarifliste anzuzeigen.</p></td> 
+      <td role="rowheader">[!UICONTROL Cost Rate]</td> 
+      <td><p>This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> 
+      <p>For date effective cost rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the cost/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first cost rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Abrechnungssatz] </td> 
-      <td><p>Dies ist der Abrechnungssatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztendlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Kurs mithilfe der [!UICONTROL Basiswährung] ein.</p> <p>Klicken Sie auf <strong>[!UICONTROL Abrechnungssatz hinzufügen]</strong>, um das Datum der Abrechnungssätze anzuzeigen. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie nach Bedarf ein [!UICONTROL Startdatum] und ein [!UICONTROL Enddatum] zu. Der erste Abrechnungssatz hat kein Startdatum und der letzte Abrechnungssatz hat kein Enddatum.</p> <p>Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungssatz kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem ersten Abrechnungssatz das Enddatum 30. April 2023 hinzugefügt, sodass keine Lücken bestehen.</p> <p>Tipp: Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie <strong>Sortieren nach Startdatum</strong> auswählen, um das neueste Startdatum oben in der Tarifliste anzuzeigen.</p> </td> 
+      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
+      <td><p>This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> <p>For date effective billing rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the billing/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first billing rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Währung überschreiben]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
-        <p>Wählen Sie eine Währung aus, die mit diesem Aufgabengebiet verknüpft ist. Dies ist die Währung, die [!DNL Workfront] für die Berechnung der Kosten und Einnahmen im Zusammenhang mit diesem Aufgabengebiet verwendet. </p> 
-        <p><span>Diese Währung unterscheidet sich von der [!UICONTROL Basiswährung], die von Ihrem [!DNL Workfront] im Bereich [!UICONTROL Setup] eingerichtet wurde, und kann sich von der Währung unterscheiden, die einem Projekt zugeordnet ist.</span> </p> 
-        <p>Tipp: In diesem Feld sind nur Währungen verfügbar, die im Bereich [!UICONTROL Wechselkurse] in Ihrem System verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, wird dieses Feld nicht angezeigt.</p> 
-       <p><span>Informationen zum Einrichten der [!UICONTROL Basiswährung] in [!DNL Workfront] finden Sie </span><a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.</p> <p><span>Informationen zum Ändern der Währung eines Projekts finden Sie unter </span>Ändern <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref"> Projektwährung</a>.</p> </td> 
+        <p>Select a currency associated with this job role. This is the currency that [!DNL Workfront] uses for calculating costs and revenue associated with this job role. </p> 
+        <p><span>This is different than the [!UICONTROL Base Currency] set up by your [!DNL Workfront] administrator in the [!UICONTROL Setup] area, and can be different than the currency associated with a project.</span> </p> 
+        <p>Tip: Only currencies available in the [!UICONTROL Exchange Rates] area in your system are available in this field. If you only have one currency set up, this field is does not appear.</p> 
+       <p><span>For information about setting up the [!UICONTROL Base Currency] in [!DNL Workfront], see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><span>For information about changing the currency of a project, see</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Change the project currency</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Währungskostensatz überschreiben]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
       <td>
-        <p>Dies ist der Stundensatz des Aufgabengebiets unter Verwendung der ausgewählten [!UICONTROL Überschreibungswährung]. [!DNL Workfront] verwendet diesen Wert, um die geplanten und tatsächlichen Kosten von Aufgaben und Problemen im Zusammenhang mit dem Aufgabengebiet zu berechnen. </p> 
-        <p><span>Geben Sie den Kurs in die oben angegebene [!UICONTROL Überschreibungswährung] ein. Dadurch wird auch der Kostensatz für dieses Aufgabengebiet aktualisiert, wenn die [!UICONTROL Basiswährung] verwendet wird.</span> </p> 
-        <p>Weitere Informationen zur Kostenberechnung durch [!DNL Workfront] finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a>.</p> 
-       <p>Tipp: Beim Aktualisieren eines vorhandenen Aufgabengebiets, dem bereits ein Kostensatz zugeordnet ist, berechnet [!DNL Workfront] den Kurs [!UICONTROL Währung überschreiben] auf der Grundlage des Konversionssatzes in Ihrem System. Wenn Sie den Kostensatz für die Währung [!UICONTROL Überschreiben] aktualisieren, wird auch der Kostensatz des Aufgabengebiets automatisch aktualisiert.</p> </td> 
+        <p>This is the cost per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role. </p> 
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Cost Rate for this job role when using the [!UICONTROL Base Currency].</span> </p> 
+        <p>For information about how [!DNL Workfront] calculates cost, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
+       <p>Tip: When updating an existing job role that already has a Cost Rate associated with it, [!DNL Workfront] calculates the [!UICONTROL Override Currency] rate based on the conversion rate in your system. If you update the [!UICONTROL Override Currency Cost Rate], the Cost Rate of the job role also updates automatically.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Überschreiben Währung Abrechnungssatz]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
       <td>
-        <p>Dies ist der Abrechnungssatz pro Stunde für das Aufgabengebiet unter Verwendung der ausgewählten [!UICONTROL Überschreibungswährung]. [!DNL Workfront] verwendet diesen Wert, um den geplanten und tatsächlichen Umsatz von Aufgaben und Problemen im Zusammenhang mit dem Aufgabengebiet zu berechnen. </p>
-        <p><span>Geben Sie den Kurs in die oben angegebene [!UICONTROL Überschreibungswährung] ein. Dadurch wird auch der Abrechnungssatz für dieses Aufgabengebiet aktualisiert, wenn die [!UICONTROL Basiswährung] verwendet wird.</span> </p>
-        <p>Weitere Informationen zur Berechnung des Umsatzes durch [!DNL Workfront] finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a>.</p>
-        <p>Tipp: Beim Aktualisieren eines vorhandenen Aufgabengebiets, dem bereits ein Abrechnungssatz zugeordnet ist, berechnet [!DNL Workfront] den Wechselkurs zum Überschreiben der Währung anhand des Konversionssatzes in Ihrem System. Wenn Sie den Abrechnungssatz Währung überschreiben aktualisieren, wird auch der Abrechnungssatz des Aufgabengebiets automatisch aktualisiert. </p>
+        <p>This is the billing per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role. </p>
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Billing Rateate for this job role when using the [!UICONTROL Base Currency].</span> </p>
+        <p>For information about how [!DNL Workfront] calculates revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p>
+        <p>Tip: When updating an existing job role that already has a Billing Rate associated with it, [!DNL Workfront] calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the Billing Rate of the job role also updates automatically. </p>
        </td>
      </tr> 
     </tbody> 
    </table>
+-->
 
-   >[!TIP]
-   >
-   >Aufgabengebiete sind ein integraler Bestandteil der Verwaltung von Ressourcen. Um die Ressourcenplanungs-Tools verwenden zu können, müssen den Aufgabengebieten Kosten und Abrechnungssätze zugeordnet sein. Weitere Informationen finden Sie [Erste Schritte mit der Ressourcenverwaltung](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+>[!TIP]
+>
+>Aufgabengebiete sind ein integraler Bestandteil der Verwaltung von Ressourcen. Um die Ressourcenplanungs-Tools verwenden zu können, müssen den Aufgabengebieten Kosten und Abrechnungssätze zugeordnet sein. Weitere Informationen finden Sie [Erste Schritte mit der Ressourcenverwaltung](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 1. Klicken Sie **[!UICONTROL Aufgabengebiet erstellen]**. Das Aufgabengebiet kann jetzt Aufgaben, Problemen, Genehmigungen zugewiesen werden oder Sie können Layout-Vorlagen oder andere Objekte für das Aufgabengebiet freigeben. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Informationen zum Löschen eines Aufgabengebiets finden Sie unter [Aufgabengebiet löschen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
