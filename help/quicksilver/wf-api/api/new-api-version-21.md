@@ -6,14 +6,16 @@ description: Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentli
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 3%
 
 ---
 
 # Neue Funktionen in der API-Version 21
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-Version 21 enthält die folgenden Änderungen gegenüber Version 20.
 
@@ -673,6 +675,42 @@ Ein Tarifobjekt stellt einen Abrechnungssatz in Workfront dar.
     </tr>
   </tbody>
 </table>
+
+### Rolle (ROLE)
+
+Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Qualifikation dar, die ein Benutzer ausfüllen kann, z. B. Designer oder Product Manager.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direkte Felder</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>Währung überschreiben</b>
+            </p>
+            <p>Entfernt</p>
+              </li>
+          <li>
+            <p><b>Kostensatz überschreiben</b>
+            </p>
+            <p>Entfernt</p>
+              </li>
+          <li>
+            <p><b>Abrechnungssatz überschreiben</b>
+            </p>
+            <p>Entfernt</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### Geplanter Bericht (SCHREP)
 
