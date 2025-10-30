@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{preview-fast-release-general}}
 
-Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![ das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
+Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![&#x200B; das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
 
 <!--
 or billing record
@@ -29,7 +29,7 @@ Sie können auch die Reihenfolge der Informationen ändern, in der diese Informa
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -63,7 +63,7 @@ Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimm
 
   ![Problem in Aufgabenfeld konvertieren](assets/convert-issue-to-task-box.png)
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
