@@ -6,7 +6,7 @@ description: Sie können eine Vorlage entweder während der ersten Erstellungsph
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Vorlage an ein Projekt anhängen
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 Sie können eine Vorlage entweder während der ersten Erstellungsphase des Projekts oder nach seiner Erstellung an ein Projekt anhängen.
 
@@ -115,16 +115,15 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
 1. Wählen Sie auf **Seite** das Projekt aus, dem Sie eine Vorlage anhängen möchten.
 
-1. Klicken Sie auf **Mehr**-Symbol ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+1. Klicken Sie auf **Mehr**-Symbol ![Mehr Dropdown](assets/more-dropdown.png) rechts neben dem Projektnamen.
 
-   ![Dropdown „Mehr“](assets/more-dropdown.png)
+   ![Symbol „Mehr“](assets/qs-more-icon-on-an-object.png)
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das **Mehr** Symbol ![Mehr](assets/qs-more-icon-on-an-object.png)Symbol Mehr).
+   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das **Mehr** Symbol ![Mehr](assets/more-dropdown.png)Dropdown-Liste.
 
    ![Mehr Menü erweitert](assets/more-menu-expanded.png)
-
 
 1. Klicken Sie **Vorlage anhängen**. Das Feld **Vorlage anhängen** wird angezeigt.
 
@@ -207,7 +206,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
    >[!TIP]
    >
-   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen &#x200B;](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
+   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [ Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
 
 1. (Optional) Entfernen Sie Vorlageninformationen aus dem Projekt, an das Sie die Vorlage angehängt haben. Weitere Informationen finden Sie unter [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 

@@ -6,7 +6,7 @@ description: Sie können einem Portfolio vorhandene Programme hinzufügen. Da Pr
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Hinzufügen eines vorhandenen Programms zu einem Portfolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -37,7 +37,7 @@ Sie können einem Portfolio vorhandene Programme hinzufügen. Da Programme nicht
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL -Plan]</p> </td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -93,12 +93,12 @@ Sie können einem Portfolio vorhandene Programme hinzufügen. Da Programme nicht
    >
    >Durch Hinzufügen eines vorhandenen Programms werden alle mit diesem Programm verknüpften Projekte in das Portfolio übernommen. Achten Sie darauf, Projekte nicht unbeabsichtigt auf diese Weise zu verschieben.
 
-1. Geben Sie **[!UICONTROL Feld „Programme zu dieser Portfolio hinzufügen]** den Namen eines Programms ein und wählen Sie es aus, wenn es in der Liste angezeigt wird. <!--see the name of this field, I suggested changes here-->
+1. Geben **[!UICONTROL in das Feld]** Programme zu diesem Portfolio hinzufügen“ den Namen eines Programms ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. <!--see the name of this field, I suggested changes here-->
 
    Sie können mehr als ein Programm hinzufügen.
 
 1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png) neben dem Namen eines Programms, wenn Sie es nicht zum Portfolio hinzufügen möchten.
 
-1. Klicken Sie **[!UICONTROL Programme hinzufügen]**. <!--check this button in the UI after they implemented the changes??-->
+1. Klicken Sie **[!UICONTROL Programme hinzufügen]**.
 
    Das Programm wird auf der Registerkarte **[!UICONTROL Programme]** des ausgewählten Portfolios angezeigt.

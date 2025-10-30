@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2741'
 ht-degree: 3%
 
 ---
@@ -19,15 +19,13 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme mit Ihnen geteilt haben.
 
@@ -350,41 +348,45 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
    >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+1. (Bedingt) Führen Sie je nach Umgebung, in der Sie Probleme bearbeiten, einen der folgenden Schritte aus:
 
-1. Aktualisieren Sie die folgenden Felder:
+   1. In der Produktionsumgebung:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    </col> 
-    <col> 
-    </col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Geplante Stunden</td> 
-      <td> <p>Dies ist die tatsächliche Zeit, die die Verantwortlichen der Anfrage benötigen würden, um diese abzuschließen. Geben Sie die Anzahl der geplanten Stunden für das Problem ein.<br></p> <p><b>NOTIZ</b></p>  <p>Das geplante Abschlussdatum der Anfrage ändert sich nicht, wenn die geplanten Stunden der Anfrage geändert werden. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Rolle des Zugewiesenen</td> 
-      <td> <p>Wählen Sie eine Rolle aus dem Dropdown<strong>Menü „Rolle des Verantwortlichen</strong> aus, wenn Sie eine Person als Verantwortlicher ausgewählt haben. Dies ist die Rolle, die der Beauftragte in dieser Anfrage erfüllen kann. </p> <p><b>TIPP</b>
+      1. Geben Sie an, ob ein Verantwortlicher der primäre Verantwortliche für das Problem ist, indem Sie den Mauszeiger über den Namen des Verantwortlichen bewegen und auf **Primär machen** klicken. Ein Team kann nicht der primäre Zugewiesene eines Problems sein.
 
-   Im Dropdown-Menü werden nur die Aufgabengebiete angezeigt, die jedem Bearbeiter in seinem Profil zugeordnet sind.</p> </td>
-   </tr> 
-    </tbody> 
-   </table>
+      1. Aktualisieren Sie die folgenden Felder:
 
-   <!--
-   <div class="preview">
-   1. (Conditional) In the Preview environment, do one of the following:
-         * Click **Assign to me** to assign the issue to yourself
-      * Update the **Planned Hours** field.
-         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
-         >[!NOTE]
-         >
-         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
-   </div> -->
+         <table style="table-layout:auto"> 
+         <col> 
+         </col> 
+         <col> 
+         </col> 
+         <tbody> 
+         <tr> 
+            <td role="rowheader">Geplante Stunden</td> 
+            <td> <p>Dies ist die tatsächliche Zeit, die die Verantwortlichen der Anfrage benötigen würden, um diese abzuschließen. Geben Sie die Anzahl der geplanten Stunden für das Problem ein.<br></p> <p><b>NOTIZ</b></p>  <p>Das geplante Abschlussdatum der Anfrage ändert sich nicht, wenn die geplanten Stunden der Anfrage geändert werden. </p> </td> 
+         </tr> 
+         <tr data-mc-conditions=""> 
+            <td role="rowheader">Rolle des Zugewiesenen</td> 
+            <td> <p>Wählen Sie eine Rolle aus dem Dropdown<strong>Menü „Rolle des Verantwortlichen</strong> aus, wenn Sie eine Person als Verantwortlicher ausgewählt haben. Dies ist die Rolle, die der Beauftragte in dieser Anfrage erfüllen kann. </p> <p><b>TIPP</b>
 
+         Im Dropdown-Menü werden nur die Aufgabengebiete angezeigt, die jedem Bearbeiter in seinem Profil zugeordnet sind.</p> </td>
+         </tr> 
+         </tbody> 
+         </table>
+
+
+
+   1. <span class="preview">(Bedingt) Führen Sie in der Vorschau -Umgebung einen der folgenden Schritte aus:</span>
+
+      * <span class="preview">Klicken Sie auf **Mir zuweisen**, um das Problem sich selbst zuzuweisen</span>
+      * <span class="preview">Aktualisieren Sie das Feld **Geplante**</span>
+
+        Die **Geplante Stunden** ist die Anzahl der Stunden, die die Verantwortlichen der Anfrage benötigen würden, um diese abzuschließen.
+
+        >[!NOTE]
+        >
+        >Das geplante Abschlussdatum der Anfrage ändert sich nicht, wenn die geplanten Stunden der Anfrage geändert werden.
 
 1. Informationen zum Entfernen von Zuweisungen aus allen Problemen finden Sie unter [Probleme zuweisen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 

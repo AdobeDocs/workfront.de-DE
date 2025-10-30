@@ -6,7 +6,7 @@ description: Projektanfragen werden in Adobe Workfront als Projekte mit dem Stat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 # Angeforderte Projekte überprüfen
 
-Wenn mehrere Projektanträge zur Prüfung eingereicht werden, kann das Projektmanagementbüro oder der Portfoliokomitee zusammentreten, um eingereichte Anträge zu prüfen und die Genehmigungen für Projektanträge zu bestimmen. Projektanfragen werden in [!UICONTROL &#x200B; als Projekte mit dem Status &#x200B;]Angefordert[!DNL Adobe Workfront] angezeigt.
+<!--Audited: 10/2025-->
+
+Wenn mehrere Projektanträge zur Prüfung eingereicht werden, kann das Projektmanagementbüro oder der Portfoliokomitee zusammentreten, um eingereichte Anträge zu prüfen und die Genehmigungen für Projektanträge zu bestimmen. Projektanfragen werden in [!UICONTROL  als Projekte mit dem Status ]Angefordert[!DNL Adobe Workfront] angezeigt.
 
 Sie können eine Projektanfrage zur Überprüfung senden, indem Sie einen der folgenden Schritte ausführen:
 
@@ -43,7 +45,7 @@ Sie können angeforderte Projekte in den folgenden [!DNL Adobe Workfront] überp
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard] </p> 
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -87,21 +89,21 @@ Sie können angeforderte Projekte in den folgenden [!DNL Adobe Workfront] überp
 
 ## Überprüfen angeforderter Projekte in einem Projektbericht
 
-Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; &#x200B;].
+Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; ].
 
-Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL &#x200B; Abschnitt „Genehmigen des Business Case durch Erstellen &#x200B;]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md). 
+Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL  Abschnitt „Genehmigen des Business Case durch Erstellen ]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Angeforderte Projekte innerhalb eines Portfolios überprüfen
 
 1. Gehen Sie zum Portfolio, dessen angeforderte Projekte Sie überprüfen möchten.
-1. Klicken&#x200B;**[!UICONTROL Projekte]** im linken Bedienfeld
+1. Klicken Sie **[!UICONTROL linken]** auf „Projekte“
 1. Wählen Sie **[!UICONTROL Dropdown]** Menü „Filter“ die Option **[!UICONTROL Angefordert]** aus.
 
    Nur Projekte mit dem Status **[!UICONTROL Angefordert]** werden in der Liste angezeigt.
 
    >[!TIP]
    >
-   > Projekte haben nicht nur den Status **[!UICONTROL Angefordert]**, sondern müssen auch mit dem ausgewählten Portfolio verknüpft sein, damit sie in dieser Liste angezeigt werden.
+   > Projekte haben nicht nur den Status **[!UICONTROL Angefordert]**, sondern müssen auch mit dem ausgewählten Portfolio verknüpft sein, damit sie in dieser Liste angezeigt werden.
 
 1. Klicken Sie auf den Namen eines Projekts in der Liste, um es zu öffnen.
 1. Klicken Sie **[!UICONTROL linken]** auf „Projektdetails“.
@@ -117,13 +119,13 @@ Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines 
 
      >[!NOTE]
      >
-     >Es gibt keine Benachrichtigungen, die den Benutzer, der die Genehmigung des Business-Case eingereicht hat, darüber informieren, ob seine Projektanforderung genehmigt oder abgelehnt wurde. 
+     >Es gibt keine Benachrichtigungen, die den Benutzer, der die Genehmigung des Business-Case eingereicht hat, darüber informieren, ob seine Projektanforderung genehmigt oder abgelehnt wurde.
 
      Oder
 
    * Ändern Sie den Status des Projekts in einen beliebigen anderen Status **[!UICONTROL Dropdown]** Menü „Status“.
 
      ![Ändern des Projektstatus aus der Dropdown-Liste](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+

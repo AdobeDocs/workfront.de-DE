@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -204,10 +202,9 @@ Weitere Informationen finden Sie im Abschnitt „Arbeitsaufträge“ im Artikel 
 
 ## Probleme stapelweise zuweisen
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+Die Zuweisung von Problemen in großen Mengen unterscheidet sich je nach der ausgewählten Umgebung.
 
-### Assign issues in bulk in the Production environment -->
+### Massenzuweisung von Problemen in der Produktionsumgebung
 
 1. Navigieren Sie zu einer Liste von Problemen, die Sie stapelweise zuweisen möchten.
 1. Wählen Sie mehrere Probleme in der Liste aus.
@@ -222,7 +219,7 @@ Assigning issues in bulk is different depending on what environment you choose t
    >Wenn eines der Probleme bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Problemen hinzugefügt, anstatt die vorhandenen Ressourcen in den Problemen zu ersetzen.
 
 1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Problembesitzer** aus, um anzugeben, welche Ressource der primäre Zugewiesene oder der Inhaber des Problems ist, wenn Sie dem Problem mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
-1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&#x200B;**&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
+1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des ****&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
 1. (Optional) Wenn Sie vorhandene Zugewiesene aus allen Problemen entfernen möchten, führen Sie einen der folgenden Schritte aus:
 
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. Klicken Sie auf **Änderungen speichern**.
 1. (Optional und bedingt) Wenn die Felder Zugewiesen an oder Zuweisungen in Ihrer Problemliste angezeigt werden, klicken Sie in eine dieser Spalten für ein Problem, und klicken Sie dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um es aus dem Problem zu entfernen.
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### Massenzuweisung von Problemen in der Vorschau-Umgebung
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. Navigieren Sie zu einer Liste von Problemen, die Sie stapelweise zuweisen möchten.
+1. Wählen Sie mehrere Probleme in der Liste aus.
+1. Klicken Sie auf **Bearbeitungssymbol** ![Bearbeitungssymbol](assets/qs-edit-icon.png).
 
-   The **Edit Issues** dialog box opens.
+   Das **„Anfragen bearbeiten** wird geöffnet.
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. Klicken Sie **linken** auf „Arbeitsaufträge“ und geben Sie im Bereich **Arbeitsaufträge** zunächst den Namen eines Benutzers, einer Rolle oder eines Teams in das Feld **Personen, Rollen oder Teams suchen** ein. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird
 
-   Or
+   Oder
 
-   Click **Assign to me** to assign the issues to yourself.
+   Klicken Sie **Mir zuweisen**, um sich die Probleme zuzuweisen.
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >Wenn eines der Probleme bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Problemen hinzugefügt, anstatt die vorhandenen Ressourcen in den Problemen zu ersetzen.
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. (Optional) Wenn Sie vorhandene Zugewiesene aus allen Problemen entfernen möchten, klicken Sie auf das **x** neben ihrem Namen.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. (Optional) Aktualisieren Sie das Feld Geplante Stunden . Weitere Informationen finden Sie unter [Probleme bearbeiten](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+
+1. Klicken Sie auf **Speichern**.
+1. (Optional und bedingt) Wenn die Felder Zugewiesen an oder Zuweisungen in Ihrer Problemliste angezeigt werden, klicken Sie in eine dieser Spalten für ein Problem, und klicken Sie dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um es aus dem Problem zu entfernen.
 
 </div>
--->
+

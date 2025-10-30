@@ -6,28 +6,25 @@ description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
 
 # Anfragen in einer Liste bearbeiten
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Probleme in Listen bearbeitet werden.
 
@@ -175,24 +172,15 @@ So bearbeiten Sie Probleme stapelweise:
 
    Die Bearbeitung der Informationen zu allen Problemen ist identisch mit der Bearbeitung von Informationen zu einem Problem bei der Bearbeitung der folgenden Bereiche:
 
-   * Übersicht
-   * Einstellungen
-   * Benutzerdefinierte Formulare
-   * Arbeitsaufträge
-   * Kommentar
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * Übersicht
+   * Arbeitsaufträge
+   * Benutzerdefinierte Formulare
+   * Einstellungen
+   * Kommentar
 
    </div>
-   -->
 
    Weitere Informationen zum Bearbeiten eines Problems finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -206,16 +194,11 @@ So bearbeiten Sie Probleme stapelweise:
 
    Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Probleme angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. (Optional und bedingt) Führen Sie je nachdem, welche Umgebung Sie zum Bearbeiten der Probleme verwenden, einen der folgenden Schritte aus, um benutzerdefinierte Ausdrücke für alle Probleme neu zu berechnen:
 
-1. (Optional) Wählen Sie im Bereich **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in der benutzerdefinierten Forms, die an die ausgewählten Probleme angehängt sind, auf dem neuesten Stand sind.
+   1. Wählen Sie in der Produktionsumgebung im Bereich **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder, die sich auf der benutzerdefinierten Forms befinden und an die ausgewählten Probleme angehängt sind, auf dem neuesten Stand sind.
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview">Klicken Sie in der Vorschau-Umgebung mit allen in der Liste ausgewählten Problemen oben in der Problemliste auf das Menü **Mehr** ![Mehr](assets/more-icon.png) und anschließend auf **Ausdrücke neu berechnen**. </span>
 
    >[!IMPORTANT]
    >
