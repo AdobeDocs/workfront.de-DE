@@ -7,14 +7,16 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: 53269f4932a752a833df8e41891706934214e062
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten von Informationen in benutzerdefinierten Formularfeldern
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -125,6 +127,10 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
    * Sie können Textfelder (fett, kursiv oder unterstrichen) nur formatieren, wenn der Benutzer, der das Formular erstellt hat, sie als Textfeld mit dem Feldtyp Formatierung eingerichtet hat. Einzelzeilige Textfelder und Absatztextfelder können nicht formatiert werden.
    * Sie können die Tageszeit in einem Datumsfeldtyp nur aktualisieren, wenn der Benutzer, der das Formular erstellt hat, es bei der Erstellung des Felds eingeschlossen hat.
 
+   >[!NOTE]
+   >
+   ><span class="preview">Felder, die mehrere Auswahlmöglichkeiten zulassen, können die Anzahl der verfügbaren Optionen einschränken. Kontrollkästchen und Mehrfachauswahl-Dropdown-Listen sind auf 5.000 Auswahlmöglichkeiten beschränkt.</span>
+
    Informationen zu allen Feldtypen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Änderungen speichern**.
@@ -177,7 +183,7 @@ So berechnen Sie die benutzerdefinierten Felder mehrerer Objekte manuell neu, in
 So berechnen Sie benutzerdefinierte Ausdrücke aus einer Objektliste neu:
 
 1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
