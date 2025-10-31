@@ -6,9 +6,9 @@ description: Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentli
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
+source-git-commit: 155323314712e020a638619d9bf10d678078645e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -343,9 +343,6 @@ Ein Kategorieobjekt ist ein benutzerdefiniertes Formular.
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
             </ul>
@@ -355,9 +352,6 @@ Ein Kategorieobjekt ist ein benutzerdefiniertes Formular.
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
