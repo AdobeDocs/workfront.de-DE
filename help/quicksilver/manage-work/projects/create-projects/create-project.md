@@ -6,9 +6,9 @@ description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,7 +169,7 @@ Beachten Sie Folgendes:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke. Klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
+   * Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke oder auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, falls verfügbar, klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
    * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
    * Wenn Sie Gruppenadministrator sind, können Sie im Abschnitt Projekte einer Gruppe, die Sie verwalten, auch ein Projekt erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -191,13 +191,21 @@ Beachten Sie Folgendes:
 
    Weitere Informationen zum Hinzufügen von Aufgaben zu einem Projekt finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Bearbeiten Sie die Projektdetails, indem Sie auf das **Mehr**-Menü und dann **Bearbeiten** ![Bearbeiten-](assets/qs-edit-icon.png) neben dem Namen des Projekts klicken.
+1. Bearbeiten Sie die Projektdetails, indem Sie auf das Menü **Mehr** rechts neben dem Projektnamen in der Kopfzeile und dann auf **Bearbeiten** ![Bearbeiten](assets/qs-edit-icon.png) neben dem Projektnamen klicken.
 
    Das **Projekt bearbeiten** wird geöffnet.
 
+1. Fügen Sie Informationen über das Projekt hinzu.
+
    Weitere Informationen zum Bearbeiten eines Projekts finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) Nachdem Sie die Projekteinstellungen konfiguriert und die Aufgaben hinzugefügt haben, können Sie den Status des Projekts in &quot;**&quot;**.
+   >[!TIP]
+   >
+   >Der Status des Projekts sollte „Planung“ oder ein anderer Status sein, der nicht „Aktuell“ ist. Auf diese Weise können Sie Änderungen am Projekt vornehmen, ohne Benachrichtigungen an die Projektteilnehmer zu generieren.
+
+1. Klicken Sie **Speichern**, um Ihre Änderungen zu speichern.
+
+1. (Optional) Nachdem Sie die Projekteinstellungen konfiguriert und die Aufgaben hinzugefügt haben, können Sie den Status des Projekts in der Projekt **Kopfzeile** Aktuell“ ändern.
 
    Dies bedeutet, dass das Projekt nun startbereit ist und Benutzende, die den Aufgaben zugewiesen sind, nun mit der Arbeit daran beginnen können.
 

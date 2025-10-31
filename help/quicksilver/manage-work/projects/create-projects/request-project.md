@@ -6,16 +6,16 @@ description: Sie können die Genehmigung eines Projekts beantragen, bevor Sie mi
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # Projekt anfordern
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 Sie können die Genehmigung eines Projekts beantragen, bevor Sie mit der Bearbeitung beginnen.
 
@@ -114,10 +114,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Führen Sie beim Definieren eines Business Case die gleichen Schritte wie beim Erstellen eines Projekts aus. (empfohlen)
 
-     Informationen zum Definieren eines Business-Case und zum Anfordern eines Projekts finden Sie unter [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Weitere Informationen finden Sie [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Erstellen Sie ein Projekt von Grund auf oder mithilfe einer Vorlage und ändern Sie den Status in **angefordert**.
 
-     Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines &#x200B;](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Weitere Informationen finden Sie unter [Erstellen eines ](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben. Ein Portfolio-Manager kann sie jetzt überprüfen und entweder genehmigen oder ablehnen. In diesem Fall ändert sich der Status des Projekts in **Genehmigt** oder **Abgelehnt**.
+   Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben.
+
+   Ein Portfolio-Manager kann sie jetzt überprüfen und entweder genehmigen oder ablehnen. In diesem Fall ändert sich der Status des Projekts in **Genehmigt** oder **Abgelehnt**.

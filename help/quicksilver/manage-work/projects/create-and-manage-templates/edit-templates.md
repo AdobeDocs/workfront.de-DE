@@ -6,7 +6,7 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 2%
@@ -126,7 +126,7 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
    >
    >Informationen zu allen Feldern, die im Detailbereich angezeigt werden, finden Sie im Feld Vorlage bearbeiten weiter unten.
 
-1. (Bedingt) Um alle Informationen über die Vorlage zu bearbeiten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlage und dann auf **Bearbeiten**.
+1. (Bedingt) Um alle Informationen über die Vorlage zu bearbeiten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) neben dem Namen der Vorlage und dann auf **Bearbeiten**.
 
    Das **„Vorlage bearbeiten** wird geöffnet. Die Abschnitte in diesem Feld enthalten die Felder, die im Abschnitt Vorlagendetails verfügbar sind, sowie zusätzliche Felder.
 
@@ -577,7 +577,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -698,7 +698,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 
@@ -820,12 +820,12 @@ Deaktivierte Vorlagen wirken sich nicht auf bestehende Projekte aus, die mit ihn
 
 So deaktivieren Sie eine Vorlage:
 
-1. Wechseln Sie zu einer aktiven Vorlage und klicken Sie auf das Menü **Mehr** ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Vorlagennamen und dann auf **Deaktivieren**.
+1. Wechseln Sie zu einer aktiven Vorlage und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) neben dem Vorlagennamen und dann auf **Deaktivieren**.
 
    ![Vorlage deaktivieren](assets/deactivate-template-link-in-more-menu.png)
 
    Die Vorlage ist nicht mehr aktiv und Benutzer können sie nicht mehr finden, um Projekte daraus zu erstellen.
-1. (Optional) Um die Vorlage zu aktivieren, klicken Sie auf das Symbol **Mehr** ![Mehr](assets/qs-more-icon-on-an-object.png) Menü neben dem Vorlagennamen und dann auf **Aktivieren**.
+1. (Optional) Um die Vorlage zu aktivieren, klicken Sie auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) Menü neben dem Vorlagennamen und dann auf **Aktivieren**.
 
    Die Vorlage ist jetzt aktiv und kann an Projekte angehängt oder zum Erstellen von Projekten verwendet werden.
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
 # Vorlage aus Projekt erstellen
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Vorlage aus Projekt erstellen
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Als Vorlage speichern**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) und dann **Als Vorlage speichern**.
 1. Geben Sie die folgenden Informationen für die Vorlage an:
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Name</td> 
+      <td role="rowheader">Vorlagenname</td> 
       <td>Geben Sie einen Namen für die Vorlage an.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
         <li><strong>Nein</strong>: Andere Benutzer können die Vorlage nicht finden und sie nicht an Projekte anhängen.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Benutzerdefinierte Formulare</td> 
-      <td>Verwenden Sie die Dropdown-Liste, um benutzerdefinierte Formulare auszuwählen, die an die Vorlage angehängt werden sollen. Wenn bereits benutzerdefinierte Formulare mit dem Projekt verknüpft wurden, werden alle Datenfelder aus diesen benutzerdefinierten Formularen angezeigt.<br>Sie können bis zu 10 benutzerdefinierte Formulare in eine Vorlage aufnehmen.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Forms verwalten**, um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen benutzerdefinierter Formulare aus der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
+1. Klicken Sie auf **Feld „Benutzerdefiniertes Formular**&quot; und geben Sie entweder den Namen eines benutzerdefinierten Projekts für ein oder wählen Sie einen in der Liste aus.
 
-   ![Als Vorlage speichern erster Schritt](assets/save-as-template-first-step-350x159.png)
+   Wenn bereits benutzerdefinierte Formulare mit dem Projekt verknüpft sind, werden alle Informationen in den vorhandenen Feldern aus diesen benutzerdefinierten Formularen auf den Formularen angezeigt.
 
-1. Klicken Sie auf **Nächster Schritt.**
-1. Aktivieren **im Abschnitt Optionen** Kontrollkästchen neben den Informationen, die Sie aus der Vorlage entfernen möchten.
+   Sie können bis zu 10 benutzerdefinierte Formulare in eine Vorlage aufnehmen.
 
-   ![Als Vorlagenoptionen speichern](assets/save-as-template-options-step-350x109.png)
+1. Bewegen Sie den Mauszeiger über den Namen eines Formulars und klicken Sie dann, um es per Drag-and-Drop an eine neue Position zu ziehen.
 
-1. Klicken Sie auf **Nächster Schritt.**
-1. Wählen Sie im **Ausschließen** alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
+   ![Projekt vorab als Vorlage speichern](assets/save-project-as-template-top-of-the-form.png)
 
-   ![Als Vorlage speichern ausschließen](assets/save-as-template-exclude-350x205.png)
+1. Klicken Sie **linken** auf „Optionen“ und wählen Sie dann die Felder oder Elemente aus, die Sie an die Vorlage übertragen möchten.
+
+   Standardmäßig sind alle Elemente aktiviert. Nicht ausgewählte Elemente werden nicht in die Vorlage übertragen.
+
+   ![Als Vorlagenoptionen speichern](assets/save-project-as-template-options-area.png)
+
+1. Klicken Sie **linken** auf „Ausschließen“ und wählen Sie dann alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
+
+   ![Als Vorlage speichern ausschließen](assets/save-project-as-template-exclude-area.png)
 
 1. Klicken Sie auf **Beenden und Vorlage speichern.**
 
-   Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt und kann entweder an ein vorhandenes Projekt angehängt oder zum Erstellen eines neuen verwendet werden.
+   Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt. Benutzer können die neue Vorlage entweder an ein vorhandenes Projekt anhängen oder sie zum Erstellen eines Projekts verwenden.
 
- 
+

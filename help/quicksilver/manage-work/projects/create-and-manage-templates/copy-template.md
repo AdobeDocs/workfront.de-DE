@@ -6,7 +6,7 @@ description: Sie können eine Projektvorlage nicht nur von Grund auf neu erstell
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 3%
@@ -102,7 +102,7 @@ Die folgenden Elemente werden niemals aus einer vorhandenen Vorlage in eine neue
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Wechseln Sie zu der Vorlage, die Sie kopieren möchten.
-1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Vorlagennamen in der Kopfzeile und klicken Sie dann auf **Kopieren**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Vorlagennamen in der Kopfzeile und klicken Sie dann auf **Kopieren**.
 
    Das Feld **Vorlage kopieren** wird geöffnet.
 
