@@ -6,9 +6,9 @@ description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Be
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
 
 * Durch Kopieren aus einer anderen Vorlage.
 
-  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
 
 * Durch den Import von Blueprints. Sie müssen Workfront-Administrator sein, um Blueprints importieren zu können. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
@@ -112,7 +112,25 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Feld „Neue Vorlagenaufgabe“](assets/new-template-task-box.png)
 
-1. Aktualisieren Sie Informationen in den folgenden Bereichen:
+   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+
+   <!--
+   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+   <div class="preview">
+   * Template Task Name
+   * Overview
+   * Assignments
+   * Finance
+   * Custom Forms
+   * Documents
+   * Settings 
+   </div>
+   1. Click **Save**
+   Or (*******remove the 1. from the step below and continue with those steps here*********)
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
+   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Aktualisieren Sie die Informationen in den folgenden Bereichen im Feld **Neue Vorlagenaufgabe**:
 
    * Übersicht
    * Finanzielle Details
@@ -121,7 +139,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * Benutzerdefinierte Formulare
    * Dokument anfügen
 
-     Das Aktualisieren von Informationen für eine Vorlagenaufgabe ähnelt dem Bearbeiten von Aufgaben in einem Projekt. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+     Das Aktualisieren von Informationen für eine Vorlagenaufgabe ähnelt dem Bearbeiten von Aufgaben in einem Projekt. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -165,7 +183,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * Ausgaben
    * Genehmigungen
 
-   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[&#x200B; bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[ bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

@@ -6,9 +6,9 @@ description: Sie können eine Vorlage für Benutzer freigeben oder mithilfe der 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ Sie können Ihre Vorlagen mithilfe der Vorlagenfreigabe für andere Benutzer fre
 
 Freigeben einer Vorlage:
 
-1. Klicken Sie auf dem **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) auf **Vorlagen**.
+{{step1-to-templates}}
 
 1. Führen Sie einen der folgenden Schritte aus:\
    Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das Menü **Mehr** ![Mehr-Symbol](assets/more-icon.png) und dann auf **Vorlagenfreigabe**.

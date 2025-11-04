@@ -6,9 +6,9 @@ description: Speichern eines Projekts als Vorlage „Als Vorlage speichern“ au
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Als Vorlage speichern**.
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen in der Kopfzeile und dann **Als Vorlage speichern**.
 1. Geben **im Abschnitt „Als Vorlage**&quot; die folgenden Informationen für die Vorlage an:
 
    <table style="table-layout:auto"> 
