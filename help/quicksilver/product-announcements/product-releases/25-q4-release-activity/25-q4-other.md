@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,34 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Aktualisierungen der Registerkarte „Berichtszusammenfassung“
+
+>[!NOTE]
+>
+>* Vorschau: 13. Oktober 2025
+>* Produktions-Schnellveröffentlichung: 13. Oktober 2025
+>* Produktion für alle Kunden: 13. Oktober 2025
+>[!BADGE Aus dem Zeitplan]{type=Neutral}
+
+Die Registerkarte Zusammenfassung eines Berichts wurde mit den folgenden Verbesserungen ergänzt:
+
+* Die Gruppierungsfeldnamen, die jeder Zeile vorangestellt werden, wurden in die erste Spaltenüberschrift verschoben.
+
+* Die Namensspalte ist jetzt (durch einen Schrägstrich getrennt) durch einen Schrägstrich getrennt, wenn mehrere Gruppierungsebenen auf einen Bericht angewendet werden.
+
+* Das Präfix des Aggregationstyps („Summe: &quot;, „Max: &quot;, „Min: &quot;, „Durchschnitt: „) wurde aus jeder Aggregation entfernt.
+
+* Der Aggregationstyp für jede Spalte wird jetzt als Anhang zum Spaltenkopfzeilenwert angezeigt.
+
+* Untergruppierungen (2 oder 3 Gruppierungen) werden in der ersten Spalte als eingerückte Ebenen angezeigt. Gruppierungen der obersten Ebene werden weiterhin fett angezeigt.
+
+* Sie können jetzt die Spaltenbreiten anpassen. Die Spalten werden auf die Standardbreitenverteilung zurückgesetzt, wenn die Seite aktualisiert wird.
+
+>[!NOTE]
+>
+>Die ersten vier Änderungen gelten gegebenenfalls auch für Exporte auf der Registerkarte Zusammenfassung . Einzüge und Fettformatierung werden nicht in eine exportierte, durch Tabulatoren getrennte Textdatei übertragen.
+
+
 ## Einheitliches Adobe-Erlebnis jetzt für mehr Workfront-Organisationen verfügbar
 
 >[!NOTE]
@@ -26,7 +54,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 >
 >| Vorschau der Version | Produktionsfreigabe |
 >|---|---|
->| &#x200B;9. September 2025 | &#x200B;16. Oktober 2025 (mit Version 25.10) |
+>| 30. September 2025 | &#x200B;16. Oktober 2025 (mit Version 25.10) |
 >| Freitag, 11. Dezember 2025 | &#x200B;15. Januar 2026 (mit Version 26.1) |
 
 Um Unternehmen den Zugriff auf die Vorteile von Adobe Unified Experience zu ermöglichen, stellen wir es bestehenden Workfront-Kunden weiterhin zur Verfügung.
