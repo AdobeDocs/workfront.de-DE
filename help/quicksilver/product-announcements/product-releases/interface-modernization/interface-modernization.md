@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
+source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
 workflow-type: tm+mt
-source-wordcount: '8980'
+source-wordcount: '8992'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,11 @@ Weitere Informationen finden Sie [Erstellen und Bearbeiten von Risiken in Projek
 
 **Vorschau-Version: 23. Oktober 2025; Produktionsversion für alle Kunden: Ab der Woche vom 30. Oktober 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
+
+>[!NOTE]
+>
+>Diese Funktion wurde am 4. November 2025 vorübergehend aus der Produktionsumgebung entfernt.
 
 Wir haben das Erscheinungsbild des persönlichen Urlaubskalenders aktualisiert, einschließlich der Möglichkeit, Genehmigungen zu delegieren, sodass er mit anderen Bereichen der Anwendung übereinstimmt.
 
@@ -236,7 +240,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -622,7 +626,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -701,7 +705,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
@@ -1414,7 +1418,7 @@ Dieses Update enthält visuelle Änderungen an den Listen und Symbolleisten der 
 * Sonstige Ressourcenkategorie (nur für bestimmte Kunden verfügbar)
 * Warteschlangenthema
 * Risikotyp
-* Arbeitszeittabellen-Profil
+* Arbeitszeittabellenprofil
 * Benutzerdelegierung
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
