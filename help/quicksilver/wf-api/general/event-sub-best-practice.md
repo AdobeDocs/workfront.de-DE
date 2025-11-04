@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Fügen Sie in die Anfrage keine zusätzlichen Textfelder ein, da dies dazu führ
 
 ## Überlastung von Ereignisabonnements vermeiden
 
-Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Um dies sicherzustellen, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion von einem einzelnen Benutzer zu verhindern, die potenzielle Probleme mit der Service-Qualität für alle Benutzer verursachen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandbox- und Verzögerungen bei der Ereignisbereitstellung kommen.
+Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Damit dies sichergestellt wird, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion durch eine einzelne Person zu verhindern, die potenziell die Service-Qualität für alle Benutzenden beeinträchtigen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandboxing und zu Verzögerungen bei der Ereignisbereitstellung kommen.
 
 ## Vollständige Tests innerhalb der Übergangsphase
 
@@ -53,6 +53,4 @@ Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt I
 * Zugriffsebene von **Systemadministrator**
 Weitere Informationen finden Sie unter [Gewähren des vollständigen administrativen Zugriffs für einen Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Gewähren des administrativen Zugriffs für bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Für die Verwendung der Ereignisabonnement-API ist eine `sessionID` Kopfzeile erforderlich
-
-  Weitere Informationen finden Sie unter [Authentifizierung](api-basics.md#authentication) in [API-Grundlagen](api-basics.md).
+* Wenn Ihr Unternehmen Adobe IMS (Identity Management-System) verwendet, schließen Sie ein IMS-Benutzer-Token ein, das in der `X-User-Token`-Kopfzeile übergeben wird.

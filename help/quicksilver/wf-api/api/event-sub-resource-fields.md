@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 9%
+source-wordcount: '1043'
+ht-degree: 11%
 
 ---
 
@@ -80,7 +80,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -143,7 +143,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -231,7 +231,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td>Zuweisung</td> 
@@ -362,7 +362,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -382,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -487,7 +487,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Hinweis: LastUpdateDate führt nur bei der ersten Aktualisierung eines Ereignisses an jedem Tag zum Trigger. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>HINWEIS: LastUpdateDate führt nur bei der ersten Aktualisierung eines Ereignisses an jedem Tag zum Trigger. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -527,12 +527,32 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>checkedOutByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>currentVersionID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>customer:ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>customer:isAdvancedDocManagementEnabled</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer:name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customer:objCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -633,6 +653,16 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Projekt: portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -762,6 +792,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
+   <td><span>parameterValues</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
    <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -817,6 +852,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td>Ausgabe</td> 
    <td>AUSGABEN</td> 
+   <td>accessorIDs </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> Tatsächlicher Betrag </td> 
   </tr> 
   <tr> 
@@ -1077,7 +1117,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> Typ </td> 
+   <td> type </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1095,7 +1135,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> userOptions </td> 
   </tr> 
   <tr> 
-   <td>Stunde</td> 
+   <td>Hour</td> 
    <td>HOUR</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -1117,7 +1157,22 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>assignedApproverID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>classifierID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1212,6 +1267,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>failedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
@@ -1222,7 +1282,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>submitByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1432,7 +1497,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1450,7 +1515,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
-   <td>Notiz</td> 
+   <td>Hinweis</td> 
    <td>NOTIZ</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -1573,6 +1638,16 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Projekt: portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1797,6 +1872,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>aemNativeFolderTreesRefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>alignScoreCardID</td> 
   </tr> 
   <tr> 
@@ -1808,6 +1888,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> </td> 
    <td> </td> 
    <td>attachetrateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachetrateCard:sourceID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1952,12 +2037,22 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>Abrechnung beibehalten</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td>Priorität</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2002,7 +2097,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2107,7 +2202,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>ID</td> 
+   <td>id</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2130,9 +2225,14 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Datensatztyp<p><p>(Ereignis-Subs v2)</p> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedBy</td> 
+  </tr> 
+  <tr> 
+   <td>Art des Eintrags<p><p>(Ereignis-Subs v2)</p> </td> 
    <td>RECORD_TYPE </td> 
-   <td>Farbe</td> 
+   <td>color</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2182,7 +2282,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>ID</td> 
+   <td>id</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2340,6 +2440,413 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>viewID</td> 
   </tr> 
   <tr> 
+   <td>Personalplan<p>(Ereignis-Subs v2)</p></td> 
+   <td>PERSONAL</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachetrateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> companyID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> Währung </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Beschreibung</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>endDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entryDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ownerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceNumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>startDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>URL</td> 
+  </tr> 
+  <tr> 
+   <td>Parameterwert für den Personalplan <p>(Ereignis-Subs v2)</p></td> 
+   <td>SPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>richTextID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
+   <td>Personalplanressource <p>(Ereignis-Subs v2)</p></td> 
+   <td>PERSONAL</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedToID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> categoryID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> entryDate </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>alt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>roleID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>staffPlanID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td>Ressourcenattributwert für den Personalplan<p>(Ereignis-Subs v2)</p></td> 
+   <td>SPAVAL</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attributeValueSetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> rateAttributeID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refClassifierID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refCompanyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refGroupID</td> 
+  </tr> 
+  <tr> 
+   <td>Ressourcenattribut-Wert für den Personalplan festgelegt <p>(Ereignis-Subs v2)</p></td> 
+   <td>SAVSET</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> systemGenerated </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td>Ressourcenparameterwert für den Personalplan <p>(Ereignis-Subs v2)</p></td> 
+   <td>SRPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>richTextID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
    <td>Aufgabe</td> 
    <td>AUFGABE</td> 
    <td>accessorIDs</td> 
@@ -2492,6 +2999,16 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>project:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Projekt: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>recurrenceRuleID</td> 
   </tr> 
   <tr> 
@@ -2522,7 +3039,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2792,7 +3309,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Status</td> 
+   <td>status</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2810,7 +3327,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>userID</td> 
   </tr> 
   <tr> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td>BENUTZER</td> 
    <td>accessLevelID</td> 
   </tr> 
@@ -2982,12 +3499,17 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>userRoles <p>HINWEIS: Der geänderte Vergleichsoperator kann nur für dieses Feld verwendet werden.</p></td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
    <td>Arbeitsbereich<p><p>(Ereignis-Subs v2)</p></td> 
    <td>WORKSPACE</td> 
-   <td>Farbe</td> 
+   <td>color</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3012,7 +3534,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>ID</td> 
+   <td>id</td> 
   </tr> 
   <tr> 
    <td> </td> 

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 5%
 
 ---
@@ -60,6 +60,7 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Firma
 * Dashboard
 * Dokument
+* Dokumentversion
 * Ausgabe
 * Feld
 * Hour
@@ -68,9 +69,16 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Portfolio
 * Programm
 * Projekt
+* Korrekturabzug-Genehmigung
 * Eintrag
 * Art des Eintrags
 * Bericht
+* Personalplan
+* Parameterwert für den Personalplan
+* Personalplanressource
+* Ressourcenattributwert für den Personalplan
+* Ressourcenattribut-Wert für den Personalplan festgelegt
+* Ressourcenparameterwert für den Personalplan
 * Aufgabe
 * Vorlage
 * Arbeitszeittabelle
@@ -816,7 +824,7 @@ Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Ob
 >[!NOTE]
 >
 >Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->&#x200B;>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
 
 ```
 {
