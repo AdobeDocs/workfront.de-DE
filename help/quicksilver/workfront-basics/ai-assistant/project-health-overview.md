@@ -5,10 +5,10 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
+source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 2%
+source-wordcount: '1969'
+ht-degree: 1%
 
 ---
 
@@ -81,6 +81,107 @@ Um den KI-Assistenten und die Projektdiagnose für Ihre Organisation zu aktivier
 
 Weitere Informationen finden Sie unter [Übersicht über den KI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)Assistenten und [Systemeinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## Berechnen der Projektintegrität
+
+Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines Projekts, indem Sie ihm einen der verfügbaren Projektzustandsstatus zuweisen:
+
+* Im Zielbereich
+* Gefährdet
+* In Schwierigkeiten
+
+Dieser Status wird mithilfe der Projekt- und Programmkomponenten berechnet, z. B. Projektfortschritt, unterschätzte Arbeit und mehr. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
+
+Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
+
+* Am Ziel (75 oder höher): Die Projektleistung liegt innerhalb der erwarteten Schwellenwerte.
+* Gefährdet (50-74): Es werden neue Probleme erkannt, die sich auf die Projektleistung auswirken können.
+* In Schwierigkeiten (49 oder weniger): Die Projektleistung liegt unter den akzeptablen Schwellenwerten und erfordert sofortiges Eingreifen.
+
+>[!NOTE]
+>
+>* Der KI-Assistent bewertet derzeit nur die Daten des ausgewählten Projekts.
+>* Die projektübergreifende oder historische Analyse ist noch nicht in der Berechnung der Projektkonsistenz enthalten.
+
+### Beispiele für die Berechnung des Projektzustands für ein Projekt
+
+Im ersten Beispiel werden vier Projektkomponenten ausgewertet und ihre individuellen Risikobewertungen wie folgt berechnet:
+
+* 2 On Target (90-Risiko-Score)
+* 1 Risiko (45 Risikobewertung)
+* 1 in Schwierigkeiten (20 Risikobewertung)
+
+Wenn Sie diese Werte im Durchschnitt berechnen, ist das Ergebnis 61. Mithilfe der oben aufgeführten Kriterien für den Projektzustand versetzt dies dieses Projekt in den Zustand „Gefährdet“.
+
+Im nächsten Beispiel ist zu einem frühen Zeitpunkt in der Timeline des Projekts eine Zeitplanänderung von einem Tag erfolgt. In diesem Szenario bewertet der KI-Assistent sowohl den Zeitpunkt als auch die Auswirkungen der Änderung im Verhältnis zur Gesamtdauer des Projekts:
+
+* Eine Verschiebung um einen Tag zu Beginn eines 60-tägigen Projektzeitplans ist geringfügig und wird in der Regel als „Am Ziel“ bewertet.
+* Eine Verschiebung um einen Tag in der Nähe des Abschlussdatums eines Projekts wirkt sich stärker auf die Unterbrechungen aus und kann als Gefährdet oder In Schwierigkeiten bewertet werden.
+
+Da es sich um eine geringfügige Änderung handelt, die zu einem frühen Zeitpunkt in der Projektzeitleiste stattfand, versetzt dies das Projekt in den Status „On Target“.
+
+Wenn in der Zeitleiste eines Projekts mehrere Zeitplanänderungen auftreten, werden diese Änderungen bewertet und dann gemittelt, bevor sie auf die Projektkonsistenzberechnung angewendet werden.
+
+## Unterschiede zwischen Projektbedingungen und Projektstatus
+
+Projektbedingungen und Projektzustand sind in Workfront ähnliche Konzepte und haben dieselben Standardnamen zur Beschreibung der Projektbedingung oder des Projektzustands (On Target, At Risk und In Trouble), dienen jedoch unterschiedlichen Zwecken.
+
+Die Projektbedingungen bieten eine grundlegende Momentaufnahme der aktuellen Leistung eines Projekts, die nur auf den geplanten, projizierten und geschätzten Terminen basiert. Sie kann manuell vom Projektbesitzer oder automatisch von Workfront auf Grundlage der Projektaufgaben festgelegt werden. Alternativ dazu ist Project Health umfassender und bewertet zusätzliche Faktoren, sodass Sie ein besseres Verständnis davon erhalten, wie es funktioniert.
+
+Weitere Informationen zu Projektbedingungen finden Sie unter [Benutzerdefinierte Bedingungen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Liste der Projekt- und Programmstatus
+
+Die nachstehende Tabelle enthält eine Aufschlüsselung der verfügbaren Status, die der KI-Assistent Ihrem Projekt oder Programm beim Generieren einer Projektzustandsbewertung zuweist.
+
+<table>
+    <tr>
+        <td><b>Projektstatus</b></td>
+        <td><b>Definition</b></td>
+        <td><b>Faktoren</b></td>
+    </tr>
+    <tr>
+        <td>Im Zielbereich</td>
+        <td>Dies wird zugewiesen, wenn das durchschnittliche Risikoniveau für die folgenden Faktoren unter den gesunden Schwellenwert fällt.
+        </td>
+        <td> 
+        <ul><li>Umfangsausweitung</li>
+        <li>Fehlende Felder</li>
+        <li>Planänderungen</li>
+        <li>Unterschätzte Arbeit</li>
+        <li>Projektfortschritt</li>
+        <li>Überfällige Aufgaben</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Gefährdet</td>
+        <td>Dies wird zugewiesen, wenn das durchschnittliche Risikoniveau für die folgenden Faktoren knapp unter den gesunden Schwellenwert fällt.</td>
+        <td>
+        <ul><li>Umfangsausweitung</li>
+        <li>Fehlende Felder</li>
+        <li>Planänderungen</li>
+        <li>Unterschätzte Arbeit</li>
+        <li>Projektfortschritt</li>
+        <li>Überfällige Aufgaben</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>In Schwierigkeiten</td>
+        <td>Dies wird zugewiesen, wenn das durchschnittliche Risikoniveau für die folgenden Faktoren unter den gesunden Schwellenwert fällt.</td>
+        <td>
+        <ul><li>Umfangsausweitung</li>
+        <li>Fehlende Felder</li>
+        <li>Planänderungen</li>
+        <li>Unterschätzte Arbeit</li>
+        <li>Projektfortschritt</li>
+        <li>Überfällige Aufgaben</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## Liste mit Eingabeaufforderungen des KI-Assistenten
 
 Nachstehend finden Sie eine Liste von Eingabeaufforderungen, mit denen Sie die KI-Bewertung anfordern können, um eine Bewertung des Projektzustands für ein Projekt, ein Programm oder alle Projekte in Ihrem Konto zu generieren.
@@ -109,60 +210,6 @@ Nachstehend finden Sie eine Liste von Eingabeaufforderungen, mit denen Sie die K
        <tr>
         <td>Beliebige Seite in Workfront </td>
         <td><em>Wie sieht der Zustand des Programms [PROGRAMMNAME] aus?</em></td>
-    </tr>
-   </table>
-
-
-## Liste der Projekt- und Programmbedingungen
-
-Im Folgenden finden Sie die verfügbaren Bedingungen, die der KI-Assistent Ihrem Projekt oder Programm beim Generieren einer Projektzustandsbewertung zuweist.
-
-<table>
-    <tr>
-        <td><b>Projektbedingung</b></td>
-        <td><b>Status des Projektverlaufs</b></td>
-        <td><b>Projektzustandsfaktoren</b></td>
-    </tr>
-    <tr>
-        <td>Im Zielbereich</td>
-        <td>Diese Analyse wird zugewiesen, wenn das durchschnittliche Risikoniveau für die folgenden Faktoren unter den gesunden Schwellenwert fällt.
-        </td>
-        <td> 
-        <ul><li>Umfangsausweitung</li>
-        <li>Fehlende Felder</li>
-        <li>Planänderungen</li>
-        <li>Unterschätzte Arbeit</li>
-        <li>Projektfortschritt</li>
-        <li>Überfällige Aufgaben</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Gefährdet</td>
-        <td>Diese Analyse wird zugewiesen, wenn das durchschnittliche Risikoniveau für die folgenden Faktoren knapp unter den gesunden Schwellenwert fällt.</td>
-        <td>
-        <ul><li>Umfangsausweitung</li>
-        <li>Fehlende Felder</li>
-        <li>Planänderungen</li>
-        <li>Unterschätzte Arbeit</li>
-        <li>Projektfortschritt</li>
-        <li>Überfällige Aufgaben</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>In Schwierigkeiten</td>
-        <td>Diese Analyse wird zugewiesen, wenn das durchschnittliche Risikoniveau für die folgenden Faktoren unter den gesunden Schwellenwert fällt.</td>
-        <td>
-        <ul><li>Umfangsausweitung</li>
-        <li>Fehlende Felder</li>
-        <li>Planänderungen</li>
-        <li>Unterschätzte Arbeit</li>
-        <li>Projektfortschritt</li>
-        <li>Überfällige Aufgaben</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -261,7 +308,7 @@ Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verw
 
    ![Bewertung des Projektzustands](assets/health-assessment.png)
 
-   Wenn Sie eine Bewertung für ein Portfolio generieren, werden mehrere Abzeichen aufgelistet, die die Bedingung jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im folgenden Abschnitt in diesem Artikel: [Liste der Projekt- und Programmbedingungen](#project-and-program-conditions-list).
+   Wenn Sie eine Bewertung für ein Portfolio generieren, werden mehrere Abzeichen aufgelistet, die die Bedingung jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im folgenden Abschnitt in diesem Artikel: [Projekt- und Programmstatusliste](#project-and-program-states-list).
 
 1. (Optional) Klicken Sie auf einen der Bewertungspunkte, um dessen Details zu erweitern.
 
@@ -277,7 +324,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 
