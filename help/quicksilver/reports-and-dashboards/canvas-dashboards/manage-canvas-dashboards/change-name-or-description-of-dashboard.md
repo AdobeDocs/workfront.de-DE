@@ -6,9 +6,9 @@ description: Sie können den Namen oder die Beschreibung eines Arbeitsflächen-D
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -91,9 +91,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie auf **Details** ![Details-Symbol](assets/details-icon.png) rechts neben dem Dashboard-Namen oben im Bildschirm.
 
-1. Einen neuen **Namen** eingeben.
-
-1. Geben Sie eine neue **Beschreibung** ein.
+1. Geben Sie einen neuen **Namen** und **Beschreibung** ein.
 
 1. Klicken Sie auf **Speichern**.
 

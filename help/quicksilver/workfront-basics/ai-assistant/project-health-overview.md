@@ -5,9 +5,9 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines 
 * Gefährdet
 * In Schwierigkeiten
 
-Dieser Status wird mithilfe der Projekt- und Programmkomponenten berechnet, z. B. Projektfortschritt, unterschätzte Arbeit und mehr. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)).
+Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
 
 Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
 
@@ -110,7 +110,7 @@ Im ersten Beispiel werden vier Projektkomponenten ausgewertet und ihre individue
 * 1 Risiko (45 Risikobewertung)
 * 1 in Schwierigkeiten (20 Risikobewertung)
 
-Wenn Sie diese Werte im Durchschnitt berechnen, ist das Ergebnis 61. Mithilfe der oben aufgeführten Kriterien für den Projektzustand versetzt dies dieses Projekt in den Zustand „Gefährdet“.
+Wenn Sie diese Werte im Durchschnitt berechnen, ist das Ergebnis 61. Mithilfe der oben aufgeführten Kriterien für die Projektkonsistenz versetzt dies dieses Projekt in den Zustand „Gefährdet“.
 
 Im nächsten Beispiel ist zu einem frühen Zeitpunkt in der Timeline des Projekts eine Zeitplanänderung von einem Tag erfolgt. In diesem Szenario bewertet der KI-Assistent sowohl den Zeitpunkt als auch die Auswirkungen der Änderung im Verhältnis zur Gesamtdauer des Projekts:
 
@@ -324,7 +324,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 
