@@ -4,7 +4,7 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
+source-git-commit: 7900629ccffae809ed97dbeae5d27ddff69536d5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 4%
@@ -31,7 +31,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>25.11 (13. November 2025)</li><li>25.12 (11. Dezember 2025)</li><li>26.1 (14. Januar 2026)</li></ul> | <ul><li>26.1 (15. Januar 2026)</li></ul> |
 >
->Beachten Sie, dass die Benutzer des Zeitplans für die schnelle Veröffentlichung jedes Quartals (25.10 in diesem Quartal) die Version einen Tag früher erhalten werden (15. Oktober 2025).
+>Beachten Sie, dass Benutzer, die den Zeitplan für die schnelle Veröffentlichung im letzten Quartal (26.1 in diesem Quartal) einhalten, die Veröffentlichung einen Tag früher erhalten (14. Januar 2026).
 >
 >Weitere Informationen zum Schnellfreigabeprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellfreigabeprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -236,7 +236,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
