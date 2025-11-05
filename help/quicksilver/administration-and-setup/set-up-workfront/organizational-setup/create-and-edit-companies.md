@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
+source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL-Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -141,11 +141,11 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Bedingt) Wenn Sie eine Firma erstellen, klicken Sie auf **[!UICONTROL Firma erstellen]**<span class="preview"> oder **&#x200B; Speichern &#x200B;**.</span>
+1. (Bedingt) Wenn Sie eine Firma erstellen, klicken Sie auf **[!UICONTROL Firma erstellen]** <span class="preview">oder **Speichern**.</span>
 
    Oder
 
-   Wenn Sie eine vorhandene Firma bearbeiten, klicken Sie auf **[!UICONTROL Änderungen speichern]**<span class="preview"> oder **&#x200B; Speichern &#x200B;**.</span>
+   Wenn Sie eine vorhandene Firma bearbeiten, klicken Sie auf **[!UICONTROL Änderungen speichern]** <span class="preview">oder **Speichern**.</span>
 
 ## Verwalten von Unternehmensmitgliedschaften
 
@@ -167,9 +167,13 @@ Weitere Informationen zum Freigeben von Objekten finden Sie unter [Übersicht ü
 
 Wenn ein [!DNL Workfront] eine Gruppe einem Unternehmen zuweist, erhalten die Gruppenadministratoren für die Gruppe [!UICONTROL Verwalten] Zugriff auf das Unternehmen in [!UICONTROL Setup]. Dazu gehört der Zugriff auf die [!UICONTROL Firmen] in [!UICONTROL Setup], wo sie das mit ihrer Gruppe verknüpfte Unternehmen sehen und verwalten können.
 
-Mit diesem Zugriff auf die Seite [!UICONTROL Firmen] kann ein Gruppenadministrator eine Gruppe einem Unternehmen zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit administrativem Zugriff auf Unternehmen konfiguriert ist, ist das Feld [!UICONTROL Gruppe] erforderlich, wenn der Gruppenadministrator die Firma erstellt - der fettgedruckte Titel zeigt dies an:
+Mit diesem Zugriff auf die Seite [!UICONTROL Firmen] kann ein Gruppenadministrator eine Gruppe einem Unternehmen zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit administrativem Zugriff auf Unternehmen konfiguriert ist, ist das Feld [!UICONTROL Gruppe] erforderlich, wenn der Gruppenadministrator die Firma erstellt. Der <span class="preview">Sternchen</span> oder fett gedruckte Titel zeigt dies an:
 
-![Firma bearbeiten](assets/group-admin-add-company.png)
+<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+![Dialogfeld „Neues Unternehmen“ mit Gruppe erforderlich](assets/group-admin-add-company-group-required.png)
+
+Beispielbild in der Produktionsumgebung:
+![Gruppe ist für das Unternehmen erforderlich](assets/group-admin-add-company.png)
 
 Informationen dazu, wie Benutzer administrativen Zugriff auf Unternehmen in ihrer Zugriffsebene erhalten, finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
