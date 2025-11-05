@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3097'
 ht-degree: 5%
 
 ---
@@ -153,6 +153,10 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col">DOKU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Dokumentversion</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Ausgabe</p></td> 
         <td scope="col">AUSGABEN</td> 
        </tr> 
@@ -185,6 +189,10 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Korrekturabzug-Genehmigung</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Eintrag</p></td> 
         <td scope="col"><p>AUFZEICHNUNG</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ Die Abonnement-Ressource enthält die folgenden Felder.
        <tr> 
         <td scope="col"><p>Bericht</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Personalplan</p></td> 
+        <td scope="col"><p>PERSONAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Parameterwert für den Personalplan</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Personalplanressource</p></td> 
+        <td scope="col"><p>PERSONAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Ressourcenattributwert für den Personalplan</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Ressourcenattribut-Wert für den Personalplan festgelegt</p></td> 
+        <td scope="col"><p>SAVSET</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Ressourcenparameterwert für den Personalplan</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Aufgabe</p></td> 
