@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 1%
+source-wordcount: '2421'
+ht-degree: 2%
 
 ---
 
@@ -113,7 +113,7 @@ Die folgenden Ressourcen wurden für die Workfront-API-Version 12 geändert.
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
      <li> <p><a href="#parameter" class="MCXref xref">Parameter</a> </p> </li> 
-     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio </a> </p> </li> 
+     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
      <li> <p><a href="#program" class="MCXref xref">Programm</a> </p> </li> 
     </ul> </td> 
    <td> 
@@ -138,7 +138,7 @@ Die folgenden Ressourcen wurden für die Workfront-API-Version 12 geändert.
 
 Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -244,7 +244,7 @@ Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt in Workfront hat, das er
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">Handlung</p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
+     <li> <p style="font-weight: bold;">Aktion</p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können geplante Stunden im Workload-Balancer aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Stunden bei der Verwaltung von Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierten Formularen Felder hinzufügen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
@@ -418,7 +418,7 @@ Weitere Informationen zu Unternehmen finden Sie unter [Erstellen und Bearbeiten 
  </tbody> 
 </table>
 
-### Kunde {#customer}
+### Kundin bzw. Kunde {#customer}
 
 Ein Customer-Objekt stellt eine Organisation dar, die eine Instanz von Workfront verwendet.
 
@@ -660,7 +660,7 @@ Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen
 
 Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um dieselben Ressourcen konkurrieren, normalerweise Geld oder Personen, um sie abzuschließen.
 
-Weitere Informationen zu Portfolios finden Sie unter Übersicht über das [Portfolio in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -762,7 +762,7 @@ Ein ScheduledReport-Objekt stellt einen Bericht dar, der für die Bereitstellung
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt, und die Antworten geben dem Manager die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -851,7 +851,7 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
 
 Ein TemplateTask-Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vorlagenaufgaben werden zu Aufgaben im Projekt, in dem die Vorlage verwendet wird.
 
-Weitere Informationen zu Vorlagenaufgaben finden Sie unter [Bearbeiten einer Vorlagenaufgabe](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
+Weitere Informationen zu Vorlagenaufgaben finden Sie unter [Vorlagenaufgaben bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -892,7 +892,7 @@ Weitere Informationen zu Arbeitszeittabellen finden Sie unter [Arbeitszeittabell
  </tbody> 
 </table>
 
-### Aktualisieren
+### Update
 
 <table style="table-layout:auto"> 
  <col> 
@@ -912,7 +912,7 @@ Weitere Informationen zu Arbeitszeittabellen finden Sie unter [Arbeitszeittabell
  </tbody> 
 </table>
 
-### Benutzerin oder Benutzer {#user}
+### Benutzerin bzw. Benutzer {#user}
 
 Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
@@ -928,7 +928,7 @@ Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich
      <li> <p><strong>alignAccessType</strong> </p> <p>In diesem Feld wird der Zugriff der Benutzenden auf Workfront-Ziele angezeigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>Kein Zugriff</p> </li> 
-       <li> <p>Anzeigen</p> </li> 
+       <li> <p>Ansicht</p> </li> 
        <li> <p>Bearbeiten</p> </li> 
       </ul> </li> 
     </ul> </td> 

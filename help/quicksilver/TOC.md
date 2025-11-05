@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13515'
 ht-degree: 2%
 
 ---
@@ -1247,7 +1247,7 @@ ht-degree: 2%
          * [Vorlage an ein Projekt anhängen](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
          * [Vorlagenaufgaben kopieren und verschieben](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Projektvorlagen bearbeiten](manage-work/projects/create-and-manage-templates/edit-templates.md)
-         * [Vorlagenaufgabe bearbeiten](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [Vorlagenaufgaben bearbeiten](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Vorlagenaufgabe löschen](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [Vorlage aus Projekt erstellen](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [Projektvorlagen freigeben](manage-work/projects/create-and-manage-templates/share-project-template.md)
@@ -2190,7 +2190,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

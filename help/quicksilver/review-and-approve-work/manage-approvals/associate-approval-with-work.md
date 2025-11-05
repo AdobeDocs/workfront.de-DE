@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Zusätzlich zu den unten beschriebenen Überlegungen empfehlen wir, die allgemei
 
   >[!TIP]
   >
-  >Der erste Status für eine Aufgabe oder ein Problem ist Neu. Der erste Status für ein Projekt ist der Status, den Ihr Workfront-Administrator in den Projektvoreinstellungen in Ihrem System ausgewählt hat. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >Der erste Status für eine Aufgabe oder ein Problem ist Neu. Der erste Status für ein Projekt ist der Status, den Ihr Workfront-Administrator in den Projektvoreinstellungen in Ihrem System ausgewählt hat. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Die Zuordnung von Genehmigungsprozessen zu einem Objekt wird im Bereich Aktualisierungen für das Objekt nicht aufgezeichnet.
 * Ein Genehmigungsprozess kann nicht mit einer übergeordneten Aufgabe verknüpft werden.
@@ -169,7 +169,7 @@ So ändern Sie einen Genehmigungsprozess, der bereits an ein Element angehängt 
    >Stellen Sie sicher, dass Sie beim Hinzufügen **Genehmigung auf** Speichern“ klicken.
 
 1. Nachdem der globale Genehmigungsprozess hinzugefügt wurde, klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) in der rechten oberen Ecke der Seite „Genehmigung“. Diese Aktion wandelt den globalen Genehmigungsprozess oder den Genehmigungsprozess auf Gruppenebene in einen einmaligen Genehmigungsprozess um.
-1. Nehmen Sie Änderungen am vorhandenen Genehmigungsprozess vor. Weitere Informationen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer &#x200B;](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)) in diesem Artikel.
+1. Nehmen Sie Änderungen am vorhandenen Genehmigungsprozess vor. Weitere Informationen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer ](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)) in diesem Artikel.
 1. Klicken Sie **Speichern** und anschließend erneut auf **Speichern**, um zu bestätigen, dass Sie den globalen Genehmigungsprozess in einen einmaligen Genehmigungsprozess konvertieren möchten, der nur für dieses Objekt verfügbar ist.
 
 ## Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer Vorlagenaufgabe {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
@@ -197,7 +197,7 @@ So erstellen Sie einen Genehmigungsprozess für den einmaligen Gebrauch:
 
    ![Menü „Genehmigungen“](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
-1. Führen Sie die Schritte ab Schritt 6 im Abschnitt „Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente“ im Artikel „Erstellen [&#x200B; Genehmigungsprozesses für Arbeitselemente“ &#x200B;](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Führen Sie die Schritte ab Schritt 6 im Abschnitt „Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente“ im Artikel „Erstellen [ Genehmigungsprozesses für Arbeitselemente“ ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: overtime, ensure step 6 is still accurate here)&nbsp;</p>
@@ -208,7 +208,7 @@ So erstellen Sie einen Genehmigungsprozess für den einmaligen Gebrauch:
    >Nachdem Sie den einmaligen Genehmigungsprozess angehängt haben, wird er im Feld Genehmigungsprozess innerhalb des Felds Bearbeiten von Vorlagen und Vorlagenaufgaben als &quot;`<Custom>`&quot; angezeigt. Informationen zum Bearbeiten von Vorlagen oder Vorlagenaufgaben finden Sie in den folgenden Artikeln:
    >
    >* [Projektvorlagen bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-   >* [Bearbeiten einer Vorlagenaufgabe](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   >* [Vorlagenaufgaben bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >

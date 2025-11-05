@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können Projektvorlagen verwenden, um die meisten wiederholbaren Prozesse, I
 * [Übersicht über das Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-* [Bearbeiten einer Vorlagenaufgabe](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+* [Vorlagenaufgaben bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 * [Vorlage aus Projekt erstellen](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [Projektvorlagen freigeben](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
