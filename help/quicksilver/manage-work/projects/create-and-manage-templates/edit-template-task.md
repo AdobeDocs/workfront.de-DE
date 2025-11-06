@@ -157,7 +157,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses](#edit-a-template-task-using-the-old-experience) in diesem Artikel beschrieben.
 
-1. <span class="preview">(Bedingt) In der Vorschau -Umgebung wird das Feld Vorlagenaufgabe bearbeiten in der neuen -Version geöffnet. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie [ Abschnitt „Bearbeiten einer Vorlagenaufgabe mit dem neuen Erlebnis](#edit-a-template-task-using-the-new-experience) in diesem Artikel beschrieben</span>
+1. <span class="preview">(Bedingt) In der Vorschau -Umgebung wird das Feld Vorlagenaufgabe bearbeiten in der neuen -Version geöffnet. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie [&#x200B; Abschnitt „Bearbeiten einer Vorlagenaufgabe mit dem neuen Erlebnis](#edit-a-template-task-using-the-new-experience) in diesem Artikel beschrieben</span>
 1. <span class="preview">(Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Vorlagenaufgabe bearbeiten**, um das Feld **Vorlagenaufgabe bearbeiten** im alten Erlebnis zu öffnen. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses](#edit-a-template-task-using-the-old-experience) in diesem Artikel beschrieben.</span>
 
 ### Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses
