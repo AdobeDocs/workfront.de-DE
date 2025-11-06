@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # Zurücksetzen der Benutzereinstellungen
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
 
 Als Adobe Workfront-Administrator können Sie die Benutzereinstellungen für beliebige Benutzende im Workfront-System zurücksetzen oder entfernen.
 
@@ -106,8 +104,6 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Voreinstellung | Status nach dem Zurücksetzen |
 | --- | --- |
 | Ansichten  | Auf Systemstandard zurückgesetzt <p>Vorhandene Ansichten werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
@@ -116,8 +112,6 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 | Liste der letzten Elemente | Gelöscht |
 | Favoritenliste | unberührt |
 | Benutzervoreinstellungen | Auf Systemstandard zurückgesetzt <p>E-Mail-Benachrichtigungen werden auf die Systemstandardwerte zurückgesetzt. Die Standardbenachrichtigungen werden unter [Ereignisbenachrichtigungen in Adobe Workfront verfügbar](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) aufgeführt.</p> |
-
-</div>
 
 ## Benutzereinstellungen zurücksetzen
 
@@ -148,8 +142,8 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 
 1. Drücken Sie **ENTER**.
 
-1. <span class="preview">Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf **Zurücksetzen**.</span>
+1. Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf &quot;**&quot;**.
 
-   <span class="preview">ODER</span>
+   Oder
 
-   <span class="preview">Um die linke Navigation des Benutzers auf die ursprüngliche Layout-Vorlagenkonfiguration zurückzusetzen, klicken Sie auf **Linke Navigation zurücksetzen**.</span>
+   Um die linke Navigation des Benutzers auf die ursprüngliche Layout-Vorlagenkonfiguration zurückzusetzen, klicken Sie auf **Linke Navigation zurücksetzen**.
