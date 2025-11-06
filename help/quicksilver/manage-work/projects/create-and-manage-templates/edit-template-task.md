@@ -7,7 +7,7 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 4%
@@ -157,7 +157,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses](#edit-a-template-task-using-the-old-experience) in diesem Artikel beschrieben.
 
-1. <span class="preview">(Bedingt) In der Vorschau -Umgebung wird das Feld Vorlagenaufgabe bearbeiten in der neuen -Version geöffnet. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie [&#x200B; Abschnitt „Bearbeiten einer Vorlagenaufgabe mit dem neuen Erlebnis](#edit-a-template-task-using-the-new-experience) in diesem Artikel beschrieben</span>
+1. <span class="preview">(Bedingt) In der Vorschau -Umgebung wird das Feld Vorlagenaufgabe bearbeiten in der neuen -Version geöffnet. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie [ Abschnitt „Bearbeiten einer Vorlagenaufgabe mit dem neuen Erlebnis](#edit-a-template-task-using-the-new-experience) in diesem Artikel beschrieben</span>
 1. <span class="preview">(Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Vorlagenaufgabe bearbeiten**, um das Feld **Vorlagenaufgabe bearbeiten** im alten Erlebnis zu öffnen. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses](#edit-a-template-task-using-the-old-experience) in diesem Artikel beschrieben.</span>
 
 ### Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses
@@ -576,35 +576,35 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
    Klicken Sie **Mir zuweisen**, um sich die Vorlagenaufgabe selbst zuzuweisen.
 1. Es wird erwogen, die folgenden Informationen zu aktualisieren:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>Dauertyp</strong> </td> 
-      <td> <p>Die zukünftige Aufgabe, die aus dieser Vorlage erstellt wird, hat diesen Dauertyp. <br>Der Dauertyp identifiziert die Beziehung zwischen folgenden Elementen:</p> 
-      <ul>
-      <li><p>Anzahl der einer Aufgabe zugewiesenen Ressourcen</p> </li>
-      <li><p>Der Gesamtaufwand, der zum Abschließen der Aufgabe erforderlich ist</p></li> 
-      <li><p>Die Gesamtdauer der Aufgabe </p></li></ul> <p>Mit Dauertypen können Sie konsistente Ressourcenzuweisungen basierend auf den Anforderungen der Aufgabe festlegen. Weitere Informationen zum Dauertyp einer Aufgabe finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die Aufgabendauer und den Dauertyp</a>.</p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Berechnete Zuweisung</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Berechnete Arbeit</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Leistungsgesteuert</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Einfach</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Dauer</strong> </td> 
-      <td> <p>Geben Sie die Dauer künftiger Aufgaben in Minuten, Stunden, Tagen, Wochen oder Monaten an. Die zukünftige Aufgabe, die aus dieser Vorlage erstellt wird, hat die hier angegebene Dauer.</p> <p>Standardmäßig misst Workfront die Dauer in Tagen. Dies ist die Zeit, die Sie einplanen, damit die Aufgabe unvollständig bleibt, bevor sie abgeschlossen werden muss. Sie können die Dauer einer Aufgabe nicht angeben, wenn der <strong>Dauertyp</strong> der Aufgabe "<strong>Einfach</strong> lautet oder wenn die <strong>Aufgabenbeschränkung</strong> <strong>Feste Termine</strong> ist.</p> <p><b>WICHTIG</b></p> <p>Die Dauer ist in der Regel der Zeitraum zwischen dem geplanten Start und dem geplanten Abschlussdatum einer Vorlagenaufgabe und wirkt sich daher auf die Zeitleiste der Vorlage aus. Dadurch wird der Zeitrahmen des zukünftigen Projekts festgelegt, das aus der Vorlage erstellt wird. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Geplante Stunden</strong> </td> 
-      <td> <p>Geben Sie die Anzahl der geplanten Stunden für die zukünftige Aufgabe für das mit dieser Vorlage erstellte Projekt an. Dies ist die tatsächliche Zeit, die die Verantwortlichen für die Aufgabe benötigen würden, um diese abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn <strong>Dauertyp</strong> auf "<strong> Zuordnung“ </strong>. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Dauertyp</strong> </td> 
+         <td> <p>Die zukünftige Aufgabe, die aus dieser Vorlage erstellt wird, hat diesen Dauertyp. <br>Der Dauertyp identifiziert die Beziehung zwischen folgenden Elementen:</p> 
+         <ul>
+         <li><p>Anzahl der einer Aufgabe zugewiesenen Ressourcen</p> </li>
+         <li><p>Der Gesamtaufwand, der zum Abschließen der Aufgabe erforderlich ist</p></li> 
+         <li><p>Die Gesamtdauer der Aufgabe </p></li></ul> <p>Mit Dauertypen können Sie konsistente Ressourcenzuweisungen basierend auf den Anforderungen der Aufgabe festlegen. Weitere Informationen zum Dauertyp einer Aufgabe finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die Aufgabendauer und den Dauertyp</a>.</p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Berechnete Zuweisung</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Berechnete Arbeit</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Leistungsgesteuert</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Einfach</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Dauer</strong> </td> 
+         <td> <p>Geben Sie die Dauer künftiger Aufgaben in Minuten, Stunden, Tagen, Wochen oder Monaten an. Die zukünftige Aufgabe, die aus dieser Vorlage erstellt wird, hat die hier angegebene Dauer.</p> <p>Standardmäßig misst Workfront die Dauer in Tagen. Dies ist die Zeit, die Sie einplanen, damit die Aufgabe unvollständig bleibt, bevor sie abgeschlossen werden muss. Sie können die Dauer einer Aufgabe nicht angeben, wenn der <strong>Dauertyp</strong> der Aufgabe "<strong>Einfach</strong> lautet oder wenn die <strong>Aufgabenbeschränkung</strong> <strong>Feste Termine</strong> ist.</p> <p><b>WICHTIG</b></p> <p>Die Dauer ist in der Regel der Zeitraum zwischen dem geplanten Start und dem geplanten Abschlussdatum einer Vorlagenaufgabe und wirkt sich daher auf die Zeitleiste der Vorlage aus. Dadurch wird der Zeitrahmen des zukünftigen Projekts festgelegt, das aus der Vorlage erstellt wird. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Geplante Stunden</strong> </td> 
+         <td> <p>Geben Sie die Anzahl der geplanten Stunden für die zukünftige Aufgabe für das mit dieser Vorlage erstellte Projekt an. Dies ist die tatsächliche Zeit, die die Verantwortlichen für die Aufgabe benötigen würden, um diese abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn <strong>Dauertyp</strong> auf "<strong> Zuordnung“ </strong>. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 

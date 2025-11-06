@@ -6,9 +6,9 @@ description: Wenn Sie einer Aufgabe Benutzer oder Rollen zuweisen, wird ihnen ei
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,20 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource an einem Vorgang arbeiten soll. Die Stunden stellen die Zeit dar, die einem Benutzer an einem bestimmten Tag oder Wochentag, einer bestimmten Woche oder einem bestimmten Monat während der Dauer der Aufgabe zugewiesen wird.
+
+Sie können die Zuordnungsstunden ändern, wenn Sie erweiterte Zuweisungen für eine Aufgabe vornehmen.
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource 
   <tr> 
    <td>Objektberechtigungen</td>
    <td><p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p>
-   <p>Bearbeiten von Berechtigungen zum Aktualisieren von Zuordnungsstunden im Feld Aufgabe bearbeiten</p></td>
+   <p>Bearbeiten Sie die Berechtigungen, um beim Bearbeiten von Aufgaben im Feld Aufgabe bearbeiten (mithilfe <span class="preview"> alten Erlebnisses) die Zuordnungsstunden zu aktualisieren. Sie können die Zuordnungsstunden im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</span></p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## Überlegungen zum Ändern der Zuordnungsstunden für eine Aufgabe
 
@@ -95,14 +96,9 @@ To this:
 ## Ändern der Benutzer- oder Rollenzuordnungsstunden für eine Aufgabe
 
 1. Gehe zu einer Aufgabe, deren Zuweisungen die Zuordnungsstunden ändern sollen.
-1. Klicken Sie auf das **Mehr**-![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe, klicken Sie dann auf **Bearbeiten** und dann auf **Arbeitsaufträge**.
-
-   Oder
-
-   Klicken Sie in **Aufgabenkopfzeile auf den** „Arbeitsaufträge“ und dann auf **Erweitert**.
-
+1. Klicken Sie in **Aufgabenkopfzeile auf den** „Arbeitsaufträge“ und dann auf **Erweitert**.
 1. Stellen Sie sicher **dass der „Dauertyp** der Aufgabe &quot;**&quot;**.
-1. Ändern Sie **Zuweisungen** für jeden Aufgabenempfänger. Dies sind die Gesamtzuweisungen für jede Zuweisung zu dieser Aufgabe für die gesamte Dauer der Aufgabe. Dadurch werden möglicherweise auch die insgesamt geplanten Stunden der Aufgabe aktualisiert.
+1. Ändern Sie das **Zuweisungen** für jeden Aufgabenempfänger. Dies sind die Gesamtzuweisungen für jede Zuweisung zu dieser Aufgabe für die gesamte Dauer der Aufgabe. Dadurch kann auch die **Geplante Stunden** der Aufgabe aktualisiert werden.
 
    ![Zuweisungen ändern](assets/advanced-assignments-duration-type-allocations.png)
 

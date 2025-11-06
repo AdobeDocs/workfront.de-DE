@@ -6,26 +6,29 @@ description: Der Zuordnungsprozentsatz gibt an, wie lange eine zugewiesene Resso
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '509'
+ht-degree: 1%
 
 ---
 
 # Verwalten des Prozentsatzes der Benutzer- oder Rollenzuweisung bei Aufgaben
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
 
-</div> 
--->
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 
 Der Zuordnungsprozentsatz gibt an, wie lange eine zugewiesene Ressource an einem Tag an einem Vorgang arbeiten soll. Er ist der Prozentsatz eines Arbeitstages (gemäß dem Benutzer- oder Projektzeitplan), an dem eine Ressource während der gesamten Dauer des Vorgangs zugewiesen wird.
+
+Sie können den Zuordnungsprozentsatz ändern, wenn Sie erweiterte Zuweisungen zu einer Aufgabe vornehmen.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ Der Zuordnungsprozentsatz gibt an, wie lange eine zugewiesene Ressource an einem
   <tr> 
    <td>Objektberechtigungen</td>
    <td><p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p>
-   <p>Bearbeiten Sie die Berechtigungen, um den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten zu aktualisieren</p></td>
+   <p>Bearbeiten Sie die Berechtigungen, um den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten zu aktualisieren, wenn Sie Aufgaben mit dem alten Erlebnis bearbeiten <span class="preview">. Der Zuordnungsprozentsatz kann nicht mehr im Feld Aufgabe bearbeiten verwaltet werden, wenn Aufgaben in der neuen -Version bearbeitet werden.</span></p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## Ändern der prozentualen Zuordnung des Benutzers oder der Funktion für eine Aufgabe
 
 1. Wechseln Sie zu einem Vorgang, für dessen Ressourcen Sie die prozentuale Zuordnung ändern.
-1. Klicken Sie auf das **Mehr**-![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
-
-   Oder
-
-   Klicken Sie in **Aufgabenkopfzeile auf den** „Arbeitsaufträge“ und dann auf **Erweitert**.
+1. Klicken Sie in **Aufgabenkopfzeile auf den** „Arbeitsaufträge“ und dann auf **Erweitert**.
 
 1. Stellen Sie sicher **dass der** Dauertyp“ der Aufgabe einer der folgenden ist:
 
@@ -101,7 +99,7 @@ To this:
    >* Für den Typ „Berechnete Zuweisungsdauer“ verwendet Workfront die folgende Formel, um den Zuordnungsprozentsatz jedes Empfängers zu berechnen: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Für den Typ Einfache Dauer können Sie die jeder Ressource zugewiesenen Stunden schätzen, nicht den Zuordnungsprozentsatz.
 
-1. Klicken Sie **Arbeitsaufträge** und ändern Sie dann **Zuweisungen** für jeden Aufgabenzugewiesenen.
+1. Ändern Sie das **Zuweisungen** für jeden Aufgabenempfänger.
 
    Sie können nur den Zuordnungsprozentsatz für Benutzer- und Aufgabenrollenzuweisungen ändern.
 
