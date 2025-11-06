@@ -49,8 +49,8 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
 
 >[!TAB Bekannte Probleme]
 
-* [Bekannte Probleme](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
-* [Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+* [Bekannte Probleme](https://experienceleague.adobe.com/de/docs/workfront-known-issues/issues/overview)
+* [Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -69,7 +69,7 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Erste Schritte mit der Workfront-Administration</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Erste Schritte mit Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Erste Schritte mit Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Abrufen und Installieren von Apps aus Adobe Exchange</a></li>
     </ul>
  </td>
@@ -109,9 +109,9 @@ Die Dokumentationssuche kann mit einigen strategischen Ansätzen effizienter sei
 
 ### Abschnitte zu Lernen und Schulung durchsuchen
 
-* **Schulungsmaterialien**: Navigieren Sie zur Seite [Workfront-](https://experienceleague.adobe.com/en/browse/workfront)Schulungsvideos und -artikel, die Ihnen dabei helfen, Workfront-Funktionen und -Einstellungen besser zu verstehen. Sie können auch auf bezahlte Schulungsmaterialien unter [learning.adobe.com](https://learning.adobe.com/) zugreifen.
-* **Kurse**: Suchen Sie [strukturierte Lernkurse](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die Sie durch die Verwendung verschiedener Workfront-Funktionen in einer logischen Reihenfolge führen.
+* **Schulungsmaterialien**: Navigieren Sie zur Seite [Workfront-](https://experienceleague.adobe.com/de/browse/workfront)Schulungsvideos und -artikel, die Ihnen dabei helfen, Workfront-Funktionen und -Einstellungen besser zu verstehen. Sie können auch auf bezahlte Schulungsmaterialien unter [learning.adobe.com](https://learning.adobe.com/) zugreifen.
+* **Kurse**: Suchen Sie [strukturierte Lernkurse](https://experienceleague.adobe.com/home?lang=de&Solution=Workfront#courses) die Sie durch die Verwendung verschiedener Workfront-Funktionen in einer logischen Reihenfolge führen.
 
 ### Antworten finden in Community-Foren
 
-* **Fragen stellen**: Wenn die Dokumentation Ihre Frage nicht beantwortet, versuchen Sie, in den [Workfront Community-Foren zu posten](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) in denen andere Benutzende und Experten Unterstützung bieten können.
+* **Fragen stellen**: Wenn die Dokumentation Ihre Frage nicht beantwortet, versuchen Sie, in den [Workfront Community-Foren zu posten](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de) in denen andere Benutzende und Experten Unterstützung bieten können.
