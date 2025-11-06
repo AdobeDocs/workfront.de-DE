@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+## Neues Suchfeld für Felder in den Symbolen für Filter, Felder und Zeilenfarben in Planning-Ansichten
 
 >[!NOTE]
 >
->Preview: October 30, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
+>Vorschau: 6. November 2025
+>Produktions-Schnellveröffentlichung: 11. Dezember 2025
+>Produktion für alle: 15. Januar 2026
 
+Sie können jetzt beim Erstellen eines Ansichtselements in einer Datensatztypansicht nach einem bestimmten Feld suchen. Wir haben Suchfelder hinzugefügt, wenn Sie einen Filter, eine Sortierung, eine Gruppierung oder Ihre Felder- oder Zeilenfarben konfigurieren. Vor dieser Verbesserung konnten Sie einfach durch die Liste der verfügbaren Felder scrollen.
 
-You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
-This improvement is available in all views.
+Diese Verbesserung ist in allen Ansichten vom Typ Datensatz verfügbar.
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Globale Datensatztypen und die Möglichkeit, sie als vorhandene Datensatztypen zu anderen Arbeitsbereichen hinzuzufügen
@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Vorschau: 16. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
->&#x200B;>Produktion für alle: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Bei der Implementierung von Workfront Planning für ein Unternehmen mit mehreren Teams mit gemeinsamen Workflows müssen Sie möglicherweise eine zusammenhängende Struktur und Metadaten für wichtige Datensatztypen (wie Kampagnen oder Ergebnisse) definieren, die den Arbeitsbereichen jedes Teams hinzugefügt werden können, um ihre Arbeit zu erfassen und zu verwalten.
 
@@ -66,8 +66,8 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 >[!NOTE]
 >
 >Vorschau: 16. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
->&#x200B;>Produktion für alle: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Wir haben für jeden Datensatztyp ein Limit von 30 Verbindungsfeldern eingeführt.
 
@@ -80,8 +80,8 @@ Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztyp
 >[!NOTE]
 >
 >Vorschau: 16. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
->&#x200B;>Produktion für alle: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Beim Hinzufügen von Feldoptionen zu einem Ein- oder Mehrfachauswahlfeld weist Workfront jeder Auswahl jetzt benutzerfreundliche Werte zu. Vor dieser Verbesserung generierte Workfront eine alphanumerische ID, die in API-Aufrufen und anderen Integrationen schwer zu verstehen und zu verwenden war.
 

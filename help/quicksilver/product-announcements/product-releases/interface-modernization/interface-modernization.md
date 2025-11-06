@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,33 +34,68 @@ Weitere Informationen finden Sie unter [Firmen erstellen und bearbeiten](/help/q
 
 ## Projekte
 
+### Neues Erlebnis beim Arbeiten mit Vorlagenaufgaben
+
+**Vorschau-Version: 6. November 2025; Produktions-Version: Ab der Woche vom 13. November 2025**
+
+Das Erlebnis beim Arbeiten mit Vorlagenaufgaben wurde aktualisiert.
+
+>[!NOTE]
+>
+>Sie haben die Möglichkeit, für eine begrenzte Zeit zwischen dem alten und dem neuen Erlebnis beim Hinzufügen oder Bearbeiten von Vorlagenaufgaben zu wechseln.
+
+Die folgenden Änderungen sind in diesem Update enthalten:
+
+* Die Vorlagenaufgabenliste im Abschnitt Teilaufgaben einer Vorlagenaufgabe stimmt jetzt mit den meisten Listen in Workfront überein
+
+* Die Felder Neue Vorlage und Vorlagenaufgabe bearbeiten haben ein neues Erscheinungsbild
+
+* Sie können jetzt beim Bearbeiten von Vorlagenaufgaben externe benutzerdefinierte Suchfelder aktualisieren
+
+* Es gibt ein neues Erlebnis zum Zuweisen von Ressourcen zu Vorlagenaufgaben. Das neue Erlebnis ist jetzt sowohl beim Bearbeiten einer Aufgabe als auch beim Massenbearbeiten mehrerer Aufgaben verfügbar. Die folgenden Felder wurden aus dem Feld Aufgaben bearbeiten entfernt:
+
+* Zuteilungen
+   * Verantwortlicher oder Aufgabenbesitzer
+   * Rolle des Zugewiesenen
+
+Sie können die entfernten Felder weiterhin finden, wenn Sie erweiterte Zuweisungen zu Vorlagenaufgaben vornehmen.
+
+Weitere Informationen finden Sie unter [Vorlagenaufgaben bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### Neues Erlebnis bei der Massenbearbeitung und der Zuweisung einzelner oder mehrerer Aufgaben
+
+**Vorschau-Version: 6. November 2025; Produktions-Version: Ab der Woche vom 13. November 2025**
+
+Das Feld Aufgaben bearbeiten wurde aktualisiert, wenn einzelne Aufgaben bearbeitet oder stapelweise bearbeitet werden.
+
+>[!NOTE]
+>
+>Sie haben für eine begrenzte Zeit die Möglichkeit, bei der Bearbeitung von Aufgaben zwischen dem alten und dem neuen Erlebnis zu wechseln.
+
+Die folgenden Änderungen sind in diesem Update enthalten:
+
+* Die Option Benutzerdefinierte Ausdrücke neu berechnen wurde entfernt, wenn Aufgaben in großen Mengen aktualisiert werden, und wurde zum Menü Mehr in einer Aufgabenliste hinzugefügt, nachdem mehrere Aufgaben ausgewählt wurden.
+
+* Sie können jetzt benutzerdefinierte Felder für die externe Suche aktualisieren
+
+* Es gibt ein neues Erlebnis zum Zuweisen von Ressourcen zu Aufgaben. Dies ist jetzt sowohl beim Bearbeiten einer Aufgabe als auch beim Massenbearbeiten mehrerer Aufgaben verfügbar. Die folgenden Felder wurden aus dem Feld Aufgaben bearbeiten entfernt:
+
+   * Zuteilungen
+   * Verantwortlicher oder Aufgabenbesitzer
+   * Rolle des Zugewiesenen
+
+Sie können die entfernten Felder weiterhin finden, wenn Sie erweiterte Zuweisungen zu Aufgaben vornehmen.
+
+Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Aktualisierung der Benutzeroberfläche beim Konvertieren einer Aufgabe in ein Projekt mithilfe einer Vorlage
 
-**Vorschau-Version: 30. Oktober 2025; Produktionsversion: ab 6. November 2025**
+**Vorschau-Version: 30. Oktober 2025; Produktions-Version: Ab der Woche vom 6. November 2025**
 
 Das Feld In Projekt konvertieren wurde aktualisiert, wenn eine Aufgabe mithilfe einer Vorlage in ein Projekt konvertiert wird. Das Design des Feldes entspricht nun dem Feld Projekt bearbeiten .
 
 Weitere Informationen finden Sie unter [Konvertieren einer Aufgabe in ein Projekt](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Neues Erlebnis bei der Massenbearbeitung und bei Problemen mit der einfachen oder Massenzuweisung
 
@@ -72,11 +107,13 @@ Die folgenden Änderungen sind in diesem Update enthalten:
 
 * Die Option Benutzerdefinierte Ausdrücke neu berechnen wurde entfernt, wenn Probleme stapelweise aktualisiert werden. Die Option wurde zum Menü Mehr in einer Problemliste hinzugefügt, nachdem mehrere Probleme ausgewählt wurden.
 
+* Sie können jetzt beim Bearbeiten von Problemen externe benutzerdefinierte Suchfelder aktualisieren.
+
 * Es gibt ein neues Erlebnis zum Zuweisen von Ressourcen zu Problemen. Dies ist jetzt sowohl beim Bearbeiten eines Problems als auch beim Massenbearbeiten mehrerer Probleme verfügbar. Die folgenden Felder wurden aus dem Feld „Probleme bearbeiten“ entfernt:
 
-* Zuteilungen
-* Inhaber oder Problembesitzer
-* Rolle des Zugewiesenen
+   * Zuteilungen
+   * Inhaber oder Problembesitzer
+   * Rolle des Zugewiesenen
 
 Sie können die entfernten Felder aktualisieren, wenn Sie erweiterte Zuweisungen zu Problemen vornehmen.
 
@@ -240,7 +277,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -626,7 +663,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -705,7 +742,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
