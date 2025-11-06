@@ -6,9 +6,9 @@ description: Ändern von Benutzerzuweisungen für mehrere Probleme in einer List
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Sie können gleichzeitig Benutzerzuweisungen für mehrere Probleme ändern. Informationen zum Bearbeiten oder Zuweisen von Problemen einzeln finden Sie in den folgenden Artikeln:
 
@@ -107,76 +107,59 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Die **Probleme bearbeiten** wird angezeigt. Die Anzahl der ausgewählten Elemente wird in der oberen linken Ecke der Seite angezeigt.
 
-1. (Bedingt) Gehen Sie in der Produktionsumgebung wie folgt vor:
+1. Klicken Sie **linken** auf „Arbeitsaufträge“ und dann auf das Symbol **x** neben dem Empfänger, den Sie entfernen möchten.
 
-   1. Gehen Sie zum Abschnitt **Arbeitsaufträge** und wählen Sie dann **Verantwortlicher** aus.
+   >[!TIP]
+   >
+   >Nur Zugewiesene, die allen ausgewählten Problemen zugewiesen sind, werden im Bereich **Zuweisungen** angezeigt.
 
-      ![Bereich „Zuweisungen](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Bereich „Arbeitsaufträge“ in Massenbearbeitungsproblemen](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. Führen Sie einen der folgenden Schritte aus:
+1. Beginnen Sie, den Namen eines Benutzers, einer Rolle oder eines Teams einzugeben, um Verantwortliche zu allen ausgewählten Problemen hinzuzufügen.
 
-      1. So fügen Sie einen neuen Bevollmächtigten hinzu:
+   >[!TIP]
+   >
+   >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+   >
+   >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+   >
+   >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+   >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-         1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen in den ausgewählten Problemen.
+   Die hinzugefügten Bevollmächtigten werden zu den vorhandenen hinzugefügt. Sie ersetzen nicht die vorhandenen für jedes ausgewählte Problem.
 
+1. (Optional) Klicken Sie auf **Mir zuweisen**, um alle Probleme sich selbst zuzuweisen.
+1. Klicken Sie auf **Speichern**.
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
-         >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
-         >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >
-         >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
-         >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
-
-         Es werden Informationen angezeigt, die für alle ausgewählten Probleme gelten. Wenn beispielsweise allen Problemen derselbe Benutzer zugewiesen ist, wird dieser Benutzer in der Spalte &quot;**&quot;**. Wenn die Informationen zu den ausgewählten Problemen nicht gleich sind, werden keine Informationen angezeigt.
-
-      1. So entfernen Sie einzelne Zugewiesene:
-
-         1. Klicken Sie auf das **X**-Symbol neben dem Namen des Verantwortlichen, den Sie entfernen möchten, wenn der Verantwortliche in der Zuweisungsliste angezeigt wird.
-
-            Oder
-
-            Wenn der Verantwortliche, den Sie entfernen möchten, nicht im Abschnitt Zuweisungen angezeigt wird, da der Verantwortliche nur einigen der von Ihnen ausgewählten Probleme zugewiesen ist, klicken Sie auf **Verantwortlichen entfernen** und geben Sie den Namen des Verantwortlichen ein, den Sie entfernen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-
-         1. Klicken Sie **erneut auf &quot;** entfernen“, um einen weiteren zu entfernenden Bevollmächtigten hinzuzufügen.
-
-      1. So entfernen Sie alle vorhandenen Zugewiesenen:
-
-         1. Klicken Sie **Alle vorhandenen Bevollmächtigten entfernen** und klicken Sie dann auf **Ja, Alle Bevollmächtigten löschen**.
-
-            Dadurch werden nicht nur die allgemeinen Bevollmächtigten (Bevollmächtigte, die im Dialogfeld „Bearbeiten“ angezeigt werden) entfernt, sondern auch alle Bevollmächtigten für alle ausgewählten Probleme.
-
-         1. (Optional) Ändern Sie eine der folgenden Optionen für die Bevollmächtigten, die Sie für die Probleme ausgewählt haben:
-
-            * **Anfragebesitzer:** Wählen Sie das Optionsfeld aus, um anzugeben, welcher Bevollmächtigte als Anfragebesitzer bestimmt wird. Wenn diese Option deaktiviert ist, bestimmt Adobe Workfront den ersten Bearbeiter als Anfragebesitzer. Dies ist nicht für Team-Arbeitsaufträge verfügbar.
-            * **Rolle des Verantwortlichen**: Wählen Sie eine Rolle aus der Dropdown-Liste aus. Wenn die Option deaktiviert bleibt, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
-
-      1. Klicken Sie auf **Änderungen speichern**.
-
-1. <span class="preview">Gehen Sie in der Vorschau-Umgebung wie folgt vor:</span>
-
-   1. <span class="preview">Klicken Sie im linken **auf** Arbeitsaufträge) und klicken Sie dann auf das Symbol **x** neben dem Empfänger, den Sie entfernen möchten. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">Nur Beauftragte, die allen ausgewählten Problemen zugewiesen sind, werden im Bereich **Zuweisungen** angezeigt. </span>
-
-      ![Bereich „Arbeitsaufträge“ in Massenbearbeitungsproblemen](assets/assignments-area-on-bulk-edit-issues.png)
-
-   1. <span class="preview">Beginnen Sie, den Namen eines Benutzers, einer Rolle oder eines Teams einzugeben, um Verantwortliche zu allen ausgewählten Problemen hinzuzufügen. </span>
-
-      >[!TIP]
-      >
-      >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
-      >
-      >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
-      >
-      >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
-      >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
-
-      <span class="preview">Die hinzugefügten Empfänger werden zu den vorhandenen hinzugefügt. Sie ersetzen nicht die vorhandenen für jedes ausgewählte Problem. </span>
-   1. <span class="preview">(Optional) Klicken Sie auf **Mir zuweisen**, um sich alle Probleme selbst zuzuweisen.</span>
-   1. <span class="preview">Klicken Sie auf **Speichern**. </span>
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 
