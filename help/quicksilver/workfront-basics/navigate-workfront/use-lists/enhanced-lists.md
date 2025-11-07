@@ -5,9 +5,9 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 |--- |--- |
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
-| Liste der Wechselkurse | <ul><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
+| Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
 
 ## Hinzufügen und Bearbeiten von Elementen in einer erweiterten Liste
 
@@ -99,13 +99,13 @@ Klicken Sie in der Aktionsleiste auf eine Schaltfläche, um diese Aktion auszuf�
 
 Wenn für das ausgewählte Element keine Aktionen verfügbar sind, wird in der Aktionsleiste „Keine verfügbaren Aktionen“ angezeigt.
 
-![Beispiel für Aktionsleiste](assets/glist-action-bar-exchange-rates.png)
+![Beispiel für Aktionsleiste](assets/glist-action-bar-statuses.png)
 
 Das **Mehr**-Menü ist das Dreipunkt-Menü, das neben einem Primärfeld in einem Listenelement angezeigt wird, wenn Sie den Mauszeiger darüber bewegen. (Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet.)
 
 Klicken Sie auf das Menü, um zusätzliche Aktionen für das Element anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
 
-![Weitere Menübeispiele](assets/glist-more-menu-exchange-rates.png)
+![Weitere Menübeispiele](assets/glist-more-menu-priorities.png)
 
 ## Anpassen von Spalten in einer erweiterten Liste
 
@@ -127,6 +127,23 @@ Einige erweiterte Listen ermöglichen es Ihnen, Spalten auszublenden und anzuzei
    Ein Indikator wird auf der Schaltfläche **Spalten** angezeigt, wenn Spalten ausgeblendet sind. Der Indikator wird bei der Neuanordnung der Spalten nicht angezeigt.
 
    ![Indikator für ausgeblendete Spalten](assets/glist-columns-hidden-indicator.png)
+
+## Anwenden einer Ansicht auf eine erweiterte Liste
+
+Eine Ansicht ist ein personalisierter Satz von Spaltenanordnungen und Filtern, die Sie auf eine Liste anwenden können. Sie können neue Ansichten erstellen und vorhandene Ansichten bearbeiten.
+
+Um eine Ansicht anzuwenden, klicken Sie auf **Dropdown** und wählen Sie die Ansicht aus, die Sie auf die Liste anwenden möchten.
+
+Erstellen einer neuen Ansicht:
+
+1. Klicken Sie auf **Ansichten** und wählen Sie **Neue Ansicht** aus.
+1. Geben Sie einen Namen für die Ansicht ein und klicken Sie auf **Erstellen**.
+1. (Optional) Ausblenden, Anzeigen oder Neuanordnen der Spalten. Weitere Informationen finden Sie unter [Anpassen von Spalten in einer erweiterten Liste](#customize-columns-in-an-enhanced-list).
+1. (Optional) Filtern und Gruppieren der Listenelemente. Weitere Informationen finden Sie unter [Elemente in einer erweiterten Liste filtern und gruppieren](#filter-and-group-items-in-an-enhanced-list).
+
+   Änderungen an Ansichten werden automatisch gespeichert und die Änderungen sind für alle sichtbar, die die Ansicht verwenden.
+
+   Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
 
 ## Elemente in einer erweiterten Liste filtern und gruppieren
 
