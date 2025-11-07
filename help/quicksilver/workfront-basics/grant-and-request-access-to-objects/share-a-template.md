@@ -2,20 +2,20 @@
 title: Freigeben einer Vorlage
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: Als Adobe Workfront-Admin können Sie Benutzenden Zugriff gewähren, um Vorlagen anzuzeigen oder zu bearbeiten, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Plan-Lizenz verfügen, um Zugriff auf die Bearbeitung von Vorlagen zu erhalten.
-author: Alina
+description: Als Adobe Workfront-Admin können Sie Benutzenden Zugriff auf das Anzeigen oder Bearbeiten von Vorlagen gewähren, wenn Sie ihnen eine Zugriffsebene zuweisen. Benutzende müssen über eine Planungslizenz verfügen, um Zugriff auf das Bearbeiten von Vorlagen zu haben.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 2%
+ht-degree: 15%
 
 ---
 
 # Freigeben einer Vorlage
 
-Als Adobe Workfront-Admin können Sie Benutzenden Zugriff gewähren, um Vorlagen anzuzeigen oder zu bearbeiten, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Plan-Lizenz verfügen, um Zugriff auf die Bearbeitung von Vorlagen zu erhalten.
+Als Adobe Workfront-Admin können Sie Benutzenden Zugriff auf das Anzeigen oder Bearbeiten von Vorlagen gewähren, wenn Sie ihnen eine Zugriffsebene zuweisen. Benutzende müssen über eine Planungslizenz verfügen, um Zugriff auf das Bearbeiten von Vorlagen zu haben.
 
 Weitere Informationen zum Gewähren des Zugriffs auf Vorlagen finden Sie unter [Zugriff auf Vorlagen gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -35,11 +35,11 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
    * Die Vorlage
 
-     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von &#x200B;](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
+     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von ](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
 
      Sie können einer Vorlage die folgenden Berechtigungen erteilen:
 
-      * Anzeigen
+      * Ansicht
       * Verwalten
 
    * Die zukünftigen Projekte, die mithilfe der Vorlage erstellt werden. Für Projekte, die aus einer Vorlage erstellt werden, können Sie dieselbe Berechtigungsstufe gewähren wie für ein einzelnes Projekt. 
@@ -113,7 +113,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
   <tr> 
    <th>Aktionen</th> 
    <th>Verwalten</th> 
-   <th>Anzeigen</th> 
+   <th>Ansicht</th> 
   </tr> 
  </thead> 
  <tbody> 

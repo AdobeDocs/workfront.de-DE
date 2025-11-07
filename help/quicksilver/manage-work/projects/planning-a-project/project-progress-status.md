@@ -7,7 +7,7 @@ description: Adobe Workfront ermittelt den Fortschrittsstatus eines Projekts anh
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -28,15 +28,16 @@ Im Folgenden finden Sie den Fortschrittsstatus von Projekten in Workfront:
  <tbody> 
   <tr> 
    <td>Im Zeitplan</td> 
-   <td> Der Fortschrittsstatus eines Projekts ist "<strong>", </strong>:<ul><li>Wenn sowohl das geplante als auch das geschätzte Abschlussdatum vor dem geplanten Abschlussdatum des Projekts liegen oder damit übereinstimmen</li></ul> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> Der Fortschrittsstatus eines Projekts ist "<strong>", </strong>:<ul><li>Wenn sowohl das voraussichtliche als auch das voraussichtliche Fälligkeitsdatum vor dem geplanten Abschlussdatum des Projekts liegen oder diesem entsprechen <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Gefährdet</td> 
-   <td> Der Fortschrittsstatus eines Projekts ist <strong>Gefährdet</strong> wenn <strong>alle</strong> der folgenden Bedingungen zutreffen:<ul><li>Sowohl die geschätzten als auch die erwarteten Abschlussdaten liegen in der Zukunft</li><li> Das geschätzte Abschlussdatum liegt sowohl nach dem geplanten Abschlussdatum als auch nach dem voraussichtlichen Abschlussdatum </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Der Fortschrittsstatus eines Projekts ist <strong>Gefährdet</strong> wenn <strong>alle</strong> der folgenden Bedingungen zutreffen:<ul><li>Sowohl die geschätzten als auch die erwarteten Abschlussdaten liegen in der Zukunft</li><li> Das geschätzte Fälligkeitsdatum liegt nach dem geplanten Abschlussdatum und dem voraussichtlichen Abschlussdatum <p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul> </td> 
   </tr> 
   <tr> 
    <td>In Verzug</td> 
-   <td> Der Fortschrittsstatus eines Projekts ist "<strong>"</strong> wenn <strong>alle</strong> der folgenden Bedingungen zutreffen:<ul><li>Sowohl die geschätzten als auch die erwarteten Abschlussdaten liegen in der Zukunft</li><li> Sowohl das geschätzte als auch das voraussichtliche Abschlussdatum liegen hinter dem geplanten Abschlussdatum des Projekts</li><li> Das voraussichtliche Abschlussdatum liegt nicht nach dem voraussichtlichen Abschlussdatum</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Der Fortschrittsstatus eines Projekts ist "<strong>"</strong> wenn <strong>alle</strong> der folgenden Bedingungen zutreffen:<ul><li>Sowohl die geschätzten als auch die erwarteten Abschlussdaten liegen in der Zukunft</li><li> Sowohl das geschätzte als auch das voraussichtliche Abschlussdatum liegen hinter dem geplanten Abschlussdatum des Projekts</li><li> Das voraussichtliche Fälligkeitsdatum liegt nicht nach dem voraussichtlichen Abschlussdatum
+   <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Verspätet</td> 
@@ -51,7 +52,7 @@ Im Folgenden finden Sie den Fortschrittsstatus von Projekten in Workfront:
 Beachten Sie Folgendes:
 
 * Das voraussichtliche Abschlussdatum des Projekts wird von der Aufgabe auf dem kritischen Pfad mit dem neuesten voraussichtlichen Abschlussdatum bestimmt.
-* Das geschätzte Abschlussdatum des Projekts wird von der Aufgabe auf dem kritischen Pfad mit dem neuesten geschätzten Abschlussdatum gesteuert.
+* Das geschätzte Fälligkeitsdatum des Projekts wird von der Aufgabe auf dem kritischen Pfad mit dem neuesten geschätzten Fälligkeitsdatum gesteuert.
 
 Informationen zum projektkritischen Pfad finden Sie unter [Übersicht über den projektkritischen Pfad](../../../manage-work/tasks/manage-tasks/critical-path.md).
 

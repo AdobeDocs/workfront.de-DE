@@ -3,10 +3,10 @@ title: Freigeben von Finanzberechtigungen für ein Objekt
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Finanzdaten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Finanzdaten.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 4%

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Übersicht über Freigabeberechtigungen für Objekte
 description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt oder ein für Sie freigegebenes Objekt freigeben oder entfernen.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Projekte**: Weitere Informationen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[&#x200B; von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[ von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * **Portfolios**: Weitere Informationen finden Sie unter [Freigeben eines Portfolios](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
@@ -72,7 +72,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * Sie können nur die gleiche oder eine niedrigere Berechtigungsstufe für das Objekt freigeben.
 
-  Wenn Sie beispielsweise über Contribute-Berechtigungen für das Objekt verfügen, können Sie anderen Benutzern keine Verwaltungsberechtigungen für dieses Objekt erteilen.
+  Wenn Sie beispielsweise über Beitragsberechtigungen für das Objekt verfügen, können Sie keinem anderen Benutzer Berechtigungen zum Verwalten für dieses Objekt erteilen.
 
 * Sie können kein Objekt mit einer Berechtigungsstufe freigeben, die höher ist als die Zugriffsebene eines Benutzers.
 
@@ -103,21 +103,21 @@ Sie können ein Objekt für bis zu 100 Entitäten (Benutzer, Teams, Gruppen, Auf
 
 ## Freigeben von Berechtigungen für Objekte
 
-Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eines Objekts auswählen können. Nicht für alle Objekte sind diese Einstellungen verfügbar. Sie können einer anderen Entität Berechtigungen zum Anzeigen oder Verwalten eines Objekts erteilen. Wenn Sie ein Projekt, eine Aufgabe oder ein Problem freigeben, können Sie Contribute auch Berechtigungen dafür erteilen.
+Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eines Objekts auswählen können. Nicht für alle Objekte sind diese Einstellungen verfügbar. Sie können einer anderen Entität Berechtigungen zum Anzeigen oder Verwalten eines Objekts erteilen. Wenn Sie ein Projekt, eine Aufgabe oder ein Problem freigeben, können Sie auch Berechtigungen zum Mitwirken erteilen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Anzeigen</strong></td> 
+   <td role="rowheader"><strong>Ansicht</strong></td> 
    <td> <p>Sie können die folgenden Aktionen für das Objekt ausführen:</p> 
     <ul> 
      <li><p>Objekt anzeigen</p></li> 
      <li><p>Hinzufügen von Dokumenten zum Objekt</p></li> 
      <li><p>Probleme zum Objekt hinzufügen (wenn es sich um eine Aufgabe oder ein Projekt handelt)</p></li> 
      <li><p>Finanzinformationen zum Objekt anzeigen</p></li> 
-     <li> <p>Freigeben des Objekts<br></p> <p>Wenn Sie das -Objekt freigeben, können Sie anderen Benutzern dieselbe Berechtigungsstufe gewähren, die Sie nur für das -Objekt haben, keine höhere Ebene.</p> </li> 
+     <li> <p>Objekt freigeben<br></p> <p>Wenn Sie das -Objekt freigeben, können Sie anderen Benutzern dieselbe Berechtigungsstufe gewähren, die Sie nur für das -Objekt haben, keine höhere Ebene.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eine
    <td role="rowheader"><strong>Verwalten</strong></td> 
    <td> <p>Sie können die folgenden Aktionen für das Objekt ausführen:</p> 
     <ul> 
-     <li>Alle Aktionen, die mit den Berechtigungen Anzeigen und Contribute enthalten sind</li> 
+     <li>Alle Aktionen, die mit den Berechtigungen „Anzeigen“ und „Beitragen“ enthalten sind</li> 
      <li>Löschen</li> 
      <li>Finanzinformationen in IT verwalten</li> 
     </ul> </td> 
@@ -158,9 +158,9 @@ Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eine
 
 Berechtigungen werden in Workfront hierarchisch vererbt. Wenn Sie also einem Benutzer Berechtigungen für ein übergeordnetes Objekt erteilen, erhält er standardmäßig dieselben Berechtigungen für die untergeordneten Objekte, die ihm zugeordnet sind.
 
-Wenn Sie einem Benutzer beispielsweise Contribute-Berechtigungen für ein Projekt erteilen, verfügt der Benutzer über Contribute-Berechtigungen für alle Aufgaben und Probleme (untergeordnete Objekte), die mit diesem Projekt verknüpft sind.
+Wenn Sie beispielsweise einem Benutzer die Berechtigung Beitragen für ein Projekt erteilen, verfügt der Benutzer über die Berechtigung Beitragen für alle Aufgaben und Probleme (untergeordnete Objekte), die mit diesem Projekt verknüpft sind.
 
-Um mit dem obigen Beispiel fortzufahren, können Sie Berechtigungen nicht auf untergeordnete Objekte beschränken. Wenn Sie nicht möchten, dass der Benutzer über Contribute-Berechtigungen für untergeordnete Objekte verfügt, die mit dem Projekt verknüpft sind, müssen Sie die geerbten Berechtigungen manuell aus den Objekten entfernen und dann die Berechtigungen für die einzelnen Benutzer anpassen, einschließlich aller erweiterten Einstellungen. 
+Um mit dem obigen Beispiel fortzufahren, können Sie Berechtigungen nicht auf untergeordnete Objekte beschränken. Wenn Sie nicht möchten, dass der Benutzer über Beitragsberechtigungen für untergeordnete Objekte verfügt, die mit dem Projekt verknüpft sind, müssen Sie die geerbten Berechtigungen manuell aus den Objekten entfernen und dann die Berechtigungen für einzelne Benutzer anpassen, einschließlich aller erweiterten Einstellungen. 
 
 Weitere Informationen zur Hierarchie und Interdependenz von Objekten in Workfront finden Sie im Abschnitt [Interdependenz und Hierarchie der Objekte](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) im Artikel [Übersicht über Adobe Workfront-Objekte](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

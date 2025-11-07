@@ -6,7 +6,7 @@ description: Der Zuordnungsprozentsatz gibt an, wie lange eine zugewiesene Resso
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Sie können den Zuordnungsprozentsatz ändern, wenn Sie erweiterte Zuweisungen z
   <tr> 
    <td>Objektberechtigungen</td>
    <td><p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p>
-   <p>Bearbeiten Sie die Berechtigungen, um den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten zu aktualisieren, wenn Sie Aufgaben mit dem alten Erlebnis bearbeiten <span class="preview">. Der Zuordnungsprozentsatz kann nicht mehr im Feld Aufgabe bearbeiten verwaltet werden, wenn Aufgaben in der neuen -Version bearbeitet werden.</span></p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a></p>.</td>
+   <p>Bearbeiten Sie die Berechtigungen, um den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten zu aktualisieren, wenn Sie Aufgaben mit dem alten Erlebnis bearbeiten <span class="preview">. Der Zuordnungsprozentsatz kann nicht mehr im Feld Aufgabe bearbeiten verwaltet werden, wenn Aufgaben in der neuen -Version bearbeitet werden.</span></p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
   </tr>
  </tbody>
 </table>

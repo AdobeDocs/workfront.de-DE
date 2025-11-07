@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Filterschaltflächen werden nicht in Seitenüberschriften angezeigt
 description: Lesen Sie diesen Artikel zur Fehlerbehebung bei Filterschaltflächen, die nicht in Seitenkopfzeilen angezeigt werden.
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -44,6 +44,8 @@ ht-degree: 3%
 
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Problem
 
 Die folgenden Filterschaltflächen werden nicht in den entsprechenden Bereichen angezeigt:
@@ -57,7 +59,7 @@ Die folgenden Filterschaltflächen werden nicht in den entsprechenden Bereichen 
    <td><strong>Filter-Schaltflächen</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL -Projekte] </p> </td> 
+   <td> <p>[!UICONTROL-Projekte] </p> </td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte, an denen ich mitwirke]</p> </li> 
@@ -85,7 +87,7 @@ Die Filterschaltflächen im Bereich [!UICONTROL Projekte und Arbeitszeittabellen
 
 1. Stellen Sie sicher, dass die Layout-Vorlage die folgenden Filter anzeigt:
 
-   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, &#x200B;] ich besitze) [!UICONTROL Projekte] Bereich
+   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, ] ich besitze) [!UICONTROL Projekte] Bereich
    * [!UICONTROL Meine Arbeitszeittabellen] und [!UICONTROL Meine Arbeitszeittabellen] im Bereich [!UICONTROL Arbeitszeittabelle]
 
    Gehen Sie dazu folgendermaßen vor:

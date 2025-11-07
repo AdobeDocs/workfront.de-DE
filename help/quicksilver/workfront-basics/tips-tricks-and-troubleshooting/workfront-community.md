@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Die [!DNL Adobe Workfront] Community
 description: Die Adobe [!DNL Workfront] Community ist eine Online-Gruppe von über 10.000  [!DNL Workfront] . Über die Community können Sie auf dem Laufenden bleiben, um über Produktversionen auf dem Laufenden zu bleiben, sich über Kundenveranstaltungen zu informieren und mit anderen Benutzern über  [!DNL Workfront]  und Services zu sprechen. Sie finden Antworten auf Fragen und stellen Verbindungen zu anderen  [!DNL Workfront]  her.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -46,14 +47,14 @@ Wenn Ihr Unternehmen SSO verwendet, müssen Sie sich telefonisch an den [!DNL Wo
 
 Wenn Sie sich nicht mehr an Ihr Kennwort für die Community-Website erinnern, wenden Sie sich an [!DNL Workfront Customer Support] und diese können Ihnen helfen.
 
-## FAQs
+## Häufig gestellte Fragen
 
 * [Was ist meine Subdomain?](#what-s-my-subdomain)
 * [Ich habe meinen Benutzernamen oder mein Passwort vergessen. Wie setze ich meinen Benutzernamen oder mein Passwort zurück?](#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password)
 
 ### Wie lautet die URL der [!DNL Workfront] Community?
 
-Die [!DNL Workfront] Community ist auf der [!DNL Adobe Experience League]-Website unter folgender URL verfügbar: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de).
+Die [!DNL Workfront] Community ist auf der [!DNL Adobe Experience League]-Website unter folgender URL verfügbar: [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Was ist meine Subdomain? {#what-s-my-subdomain}
 

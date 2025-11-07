@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '5463'
+source-wordcount: '5487'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -179,7 +179,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -410,7 +410,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
       * **Long**: 16. Mai 2023
       * **Europäisch**: 16/05/2023
       * **ISO**: 16.05.2023
-      * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit angegeben werden.
+   * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
@@ -430,7 +430,7 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 >Zahlenfelder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Zahlen angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
@@ -460,7 +460,7 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
 >Prozentuale Felder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten und die Werte dieser Felder werden nach dem Senden der Anfrage als Prozentwerte für den Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
@@ -500,7 +500,7 @@ Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangeste
 >Währungsfelder werden in einem Formular-Builder für Anfragen als einzeilige Textfelder angezeigt.
 >
 >Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Währung angezeigt.
->&#x200B;>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
@@ -575,7 +575,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
@@ -677,7 +677,7 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
       * **Long**: 16. Mai 2023
       * **Europäisch**: 16/05/2023
       * **ISO**: 16.05.2023
-   * **Zeitfeld einbeziehen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
+   * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
@@ -726,8 +726,7 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
       * **Long**: 16. Mai 2023
       * **Europäisch**: 16/05/2023
       * **ISO**: 16.05.2023
-
-   * **Zeitfeld einbeziehen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
+   * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
@@ -764,7 +763,7 @@ Mit dem Feldtyp Genehmigt am können Sie das Datum hinzufügen, an dem eine Anfr
       * **Europäisch**: 16/05/2023
       * **ISO**: 16.05.2023
 
-   * **Zeitfeld einbeziehen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert.
+   * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 

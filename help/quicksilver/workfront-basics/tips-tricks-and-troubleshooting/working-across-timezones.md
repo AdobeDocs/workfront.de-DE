@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Arbeiten über Zeitzonen hinweg
 description: Es kann hilfreich sein zu verstehen, wie  [!DNL Adobe Workfront]  Zeitzonen verwendet, um Zeitfelder für Objekte und Zeiten in anderen Bereichen wie E-Mails zu berechnen.
 feature: Get Started with Workfront
+author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%

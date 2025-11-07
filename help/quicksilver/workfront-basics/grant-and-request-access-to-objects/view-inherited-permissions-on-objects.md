@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Anzeigen geerbter Berechtigungen für Objekte
 description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Projekte.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Anzeigen geerbter Berechtigungen für Objekte
 
-Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben, um sie freizugeben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -93,7 +93,7 @@ Die Anzeige geerbter Berechtigungen ist für alle Objekte identisch.
 So zeigen Sie geerbte Berechtigungen für ein Projekt an:
 
 1. Wechseln Sie zu einem Projekt, dessen Freigabeberechtigungen Sie anzeigen möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
 
 1. Erweitern Sie die Liste **Geerbte Berechtigungen** .
 

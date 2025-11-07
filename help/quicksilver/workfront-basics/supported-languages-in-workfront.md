@@ -4,9 +4,9 @@ navigation-topic: get-started-with-workfront
 title: Unterstützte Sprachen in Adobe Workfront
 description: Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, ändern, indem Sie die Spracheinstellungen in Ihrem Browser und Ihr standardmäßiges E-Mail-Gebietsschema in Workfront anpassen.
 feature: Get Started with Workfront
-author: Nolan
+author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%

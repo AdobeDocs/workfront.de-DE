@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Das Innovationslabor
 description: Das [!UICONTROL Innovation Lab] ermöglicht es authentifizierten Benutzern, Ideen einzureichen, abzustimmen und mit anderen Kunden zu diskutieren.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Als authentifizierter Benutzer haben Sie folgende Möglichkeiten:
 
 Über eine Idee abstimmen:
 
-1. Melden Sie sich bei der [!DNL Adobe Workfront] Community auf der [!DNL Adobe Experience League] unter folgender URL an: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de).
+1. Melden Sie sich bei der [!DNL Adobe Workfront] Community auf der [!DNL Adobe Experience League] unter folgender URL an: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 1. Klicken Sie auf die **[!UICONTROL Ideen]**.
 
@@ -47,4 +48,4 @@ Nachdem der kritische Schwellenwert von 450 Punkten erreicht wurde, hat die Idee
 * **[!UICONTROL Zugestellt]:** Es wurde eine Lösung erstellt und bereitgestellt. Es werden keine weiteren Aktualisierungen bereitgestellt und Kommentare werden deaktiviert.
 * **[!UICONTROL Archiviert]**: Ideen, die die 18-Monats-Marke erreichen (ab Einreichungsdatum) und weniger als 300 Punkte haben, werden archiviert.
 
-Um zu beginnen oder mehr zu erfahren, melden Sie sich beim [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de) an.
+Um zu beginnen oder mehr zu erfahren, melden Sie sich beim [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) an.
