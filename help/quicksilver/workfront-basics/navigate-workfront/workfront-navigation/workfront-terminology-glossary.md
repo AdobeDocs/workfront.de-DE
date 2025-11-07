@@ -2106,7 +2106,7 @@ Stundeneinträge können einen der folgenden Status in Workfront aufweisen:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ein Szenario besteht aus einer Reihe von Schritten (Modulen), die angeben, wie Daten zwischen Apps/Services übertragen und transformiert werden sollen.</p> <p>Informationen zu Szenarien in [!DNL Workfront Fusion] finden Sie unter Übersicht über <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] Szenario</a>.</p> </td> 
+   <td> <p>Ein Szenario besteht aus einer Reihe von Schritten (Modulen), die angeben, wie Daten zwischen Apps/Services übertragen und transformiert werden sollen.</p> <p>Informationen zu Szenarien in [!DNL Workfront Fusion] finden Sie unter Übersicht über <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] Szenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (im [!DNL Workfront Scenario Planner]) </td> 

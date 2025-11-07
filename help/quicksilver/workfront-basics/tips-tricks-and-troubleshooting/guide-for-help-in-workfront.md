@@ -41,12 +41,12 @@ Weitere Informationen zu [!DNL Workfront] finden Sie unter:
  <tbody> 
   <tr> 
    <td><strong>[!DNL Workfront] auf [!DNL Adobe Experience League]</strong> ansehen </td> 
-   <td> <p>Sie können die Suchleiste oben in <a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> verwenden, um einen bestimmten Artikel, eine Diskussion oder eine Schulung zu finden. Betrachten Sie es als Ihre Suchmaschine für alle Dinge [!DNL Workfront].</p> <p>Hier finden Sie auch Ressourcen wie</p> 
+   <td> <p>Sie können die Suchleiste oben in <a href="https://experienceleague.adobe.com/de/docs/workfront">https://experienceleague.adobe.com/de/docs/workfront</a> verwenden, um einen bestimmten Artikel, eine Diskussion oder eine Schulung zu finden. Betrachten Sie es als Ihre Suchmaschine für alle Dinge [!DNL Workfront].</p> <p>Hier finden Sie auch Ressourcen wie</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/de/docs/workfront/using/home">Dokumentation</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home">Tutorials</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/de/docs/workfront/using/product-announcements/product-releases/product-releases">Versionen</a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API-Dokumentation</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API-Dokumentation</a> </p> </li> 
      <li> <p>Und vieles mehr!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -82,15 +82,15 @@ Die folgenden Ressourcen können Ihnen dabei helfen, zu bestimmen, wie Sie [!DNL
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] Ressourcen mit hervorgehobenen Kunden</a> </td> 
+   <td><a href="https://business.adobe.com/de/resources/main.html?Products=Workfront">[!DNL Workfront] Ressourcen mit hervorgehobenen Kunden</a> </td> 
    <td>Dies ist Ihre Ausgangsquelle für Webinare, E-Books, Whitepapers, Videos und Berichte.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudien </a></td> 
+   <td><a href="https://business.adobe.com/de/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Fallstudien </a></td> 
    <td>Lesen Sie sich eine wachsende Sammlung von mehr als 60 Fallstudien durch, in denen die Herausforderungen und [!DNL Workfront] Lösungen und Vorteile für die Kunden hervorgehoben werden.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Community</a> </td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de">[!DNL Workfront] Community</a> </td> 
    <td>Die [!DNL Workfront] Community ermöglicht Gespräche mit [!DNL Workfront] Benutzern und Experten auf der ganzen Welt. Sie sind immer da, um Ihre Fragen zu beantworten oder Sie in die richtige Richtung zu lenken.</td> 
   </tr> 
  </tbody> 
@@ -143,8 +143,8 @@ Die folgenden Ressourcen können Ihnen dabei helfen, mehr über die [!DNL Workfr
 
 | [[!DNL Adobe Workfront] Integrationen](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Sie können [!DNL Workfront] mit Anwendungen von Drittanbietern integrieren. Integrationen können den Nutzen von [!DNL Workfront] erweitern und an die Anforderungen Ihres Unternehmens anpassen. Dieser Knowledgebase-Artikel behandelt Ihre Integrationsoptionen und weist Sie in die nächste Richtung. |
 |---|---|
-| [[!DNL Workfront] Integrierte Integrationen](https://business.adobe.com/products/workfront/integrations.html) | Dank der kostenlosen integrierten Integrationen von Workfront können Sie und Ihr Team nahtlos in die Workfront-Plattform wechseln, während dieselben Workflows und Prozesse beibehalten werden. |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Verbindet [!DNL Workfront] mit über 100 Anwendungen und erleichtert so die Automatisierung geschäftskritischer Prozesse ohne Code. |
+| [[!DNL Workfront] Integrierte Integrationen](https://business.adobe.com/de/products/workfront/integrations.html) | Dank der kostenlosen integrierten Integrationen von Workfront können Sie und Ihr Team nahtlos in die Workfront-Plattform wechseln, während dieselben Workflows und Prozesse beibehalten werden. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home) | Verbindet [!DNL Workfront] mit über 100 Anwendungen und erleichtert so die Automatisierung geschäftskritischer Prozesse ohne Code. |
 
 {style="table-layout:auto"}
 
@@ -154,7 +154,7 @@ Abonnieren Sie [status.adobe.com](https://status.adobe.com/), um über Wartungsp
 
 Weitere Informationen zur [!DNL Workfront] Status-Site finden Sie unter [Die  [!DNL Adobe Workfront]  Status-Site](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-Informationen zu den Behebungen in einem wöchentlichen Wartungs-Update finden Sie unter [Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Informationen zu den Behebungen in einem wöchentlichen Wartungs-Update finden Sie unter [Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
@@ -164,6 +164,6 @@ The following dashboards can help you as a [!DNL Workfront] administrator mainta
 
 | [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299?profile.language=de) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
 
 -->
