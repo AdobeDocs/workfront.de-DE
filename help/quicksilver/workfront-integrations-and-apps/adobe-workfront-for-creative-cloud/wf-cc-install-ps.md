@@ -138,4 +138,4 @@ Um dieses Problem zu beheben,
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
