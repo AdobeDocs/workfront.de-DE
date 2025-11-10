@@ -6,9 +6,9 @@ description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder ein
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden. In der Ansicht Meilenstein können Sie alle Meilensteine anzeigen, die mit Aufgaben innerhalb der angezeigten Projekte verknüpft sind.
 
@@ -85,13 +85,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Meilenstein-Ansicht - Übersicht {#milestone-view-overview}
 
-<div class="preview">
-
 Die Meilenstein -Ansicht ist in Projektlisten und Projektberichten verfügbar. Sie können schnell alle Meilensteine anzeigen, die mit Aufgaben innerhalb der angezeigten Projekte verknüpft sind.
 
 ![Projekt mit Meilenstein-Ansicht](assets/project-with-milestone-view-with-complete.png)
-
-</div>
 
 >[!NOTE]
 >
@@ -137,34 +133,23 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 
   Sie können den Prozentsatz der Fertigstellung direkt in der Ansicht Meilenstein anpassen, wie im Abschnitt [Anpassen des Prozentsatzes der Fertigstellung für Aufgaben in der Ansicht Meilenstein](#adjust-percent-complete-for-tasks-in-the-milestone-view) in diesem Artikel beschrieben.
 
-* **Symbole für den Aufgabenstatus:** Je nach Umgebung, in der Sie die Meilenstein -Ansicht anzeigen, zeigen die folgenden Symbole den Fortschrittsstatus der Aufgabe an:
+* **Symbole für den Aufgabenstatus:** Im Folgenden finden Sie Symbole, die den Aufgabenstatus anzeigen:
 
-   * In der Produktionsumgebung werden die folgenden Statussymbole neben jedem Projekt und jeder Aufgabe in der Meilenstein -Ansicht angezeigt:
+   * Einschaltzeit - grün
+   * Hinten - gelb
+   * Gefährdet - blau
+   * Spät - rot
 
-      * Im Zeitplan\
-        ![Symbol „Einschaltzeit“](assets/gantt-ontime.png)
-
-      * In Verzug\
-        ![Hinter-Symbol](assets/gantt-behind.png)
-
-      * Gefährdet\
-        ![Risiko-Symbol](assets/gantt-atrisk.png)
-
-      * Verspätet\
-        ![Spätsymbol](assets/gantt-late.png)
-
-     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
-
-  <div class="preview">
-
-   * In der Vorschau -Umgebung werden die folgenden farbigen Kreise neben jedem Projekt und jeder Aufgabe in der Meilenstein -Ansicht angezeigt:
-
-      * Einschaltzeit - grün
-      * Hinten - gelb
-      * Gefährdet - blau
-      * Spät - rot
-
-  </div>
+  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   Sie können die Anzeige dieser Statussymbole deaktivieren, wie im Abschnitt [Konfigurieren, welche Informationen in der Meilenstein-Ansicht angezeigt werden](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.
 
@@ -205,23 +190,16 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
   ![Meilensteinansicht mit Schattierung](assets/milestone-view-with-shading.png)
 
 * **Projektname**: Der Projektname wird mit einem Link zum Projekt angezeigt.
-* **Projektbedingungssymbol**: Je nach Umgebung greifen Sie über die folgenden Indikatoren auf die Meilenstein -Ansicht zu und zeigen die Projektbedingung an:
+* **Projektbedingungssymbol**: Die folgenden Indikatoren zeigen die Projektbedingung an:
 
-   * In der Produktionsumgebung wird neben dem Projektnamen ein Symbol angezeigt, das den Zustand des Projekts angibt. Die Bedingung des Projekts kann eine der folgenden sein:
+   * On Target - grün
+   * Gefährdet - gelb
+   * In Schwierigkeiten - rot
 
-      * Im Zielbereich
-      * Gefährdet
-      * In Schwierigkeiten
-
-  <div class="preview">
-
-   * In der Vorschau -Umgebung wird neben jedem Projekt ein Bedingungssymbol in Form eines farbigen Kreises angezeigt. Mögliche Projektbedingungen und Kreisfarben sind:
-
-      * On Target - grün
-      * Gefährdet - gelb
-      * In Schwierigkeiten - rot
-
-     </div>
+  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+      * On Target
+      * At Risk
+      * In Trouble -->
 
 
 ## Konfigurieren, welche Informationen in der Meilenstein -Ansicht angezeigt werden {#configure-what-information-displays-in-the-milestone-view}
@@ -241,15 +219,6 @@ So konfigurieren Sie, ob Projektstatussymbole und der Prozentsatz der Projektabs
 
 1. Klicken Sie auf **Dropdown** Menü „Ansicht“ und dann auf **Meilenstein**.
 
-1. Klicken Sie in der Produktionsumgebung in **rechten oberen Ecke** Ansicht Meilenstein auf Optionen und wählen Sie dann im nächsten Schritt eine der Optionen aus.
-
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
-
-   <div class="preview">Wählen Sie in der Vorschau -Umgebung aus den Optionen im nächsten Schritt rechts oben in der Meilenstein -Ansicht.</div>
-
-   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
-
-
 1. Wählen Sie aus den folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
@@ -267,6 +236,8 @@ So konfigurieren Sie, ob Projektstatussymbole und der Prozentsatz der Projektabs
     </tbody> 
    </table>
 
+   ![Optionen für Meilenstein-Ansicht](assets/milestone-view-options-350x141.png)
+
 ## Anpassen des Prozentsatzes für abgeschlossene Aufgaben in der Ansicht Meilenstein {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 Sie können den abgeschlossenen Prozentsatz für Aufgaben in der Ansicht Meilenstein anpassen. Sie können den abgeschlossenen Prozentsatz nicht für eine übergeordnete Aufgabe (eine Aufgabe, die Teilaufgaben enthält) oder für ein Projekt anpassen.
@@ -279,6 +250,6 @@ So passen Sie den abgeschlossenen Prozentsatz für eine Aufgabe in der Ansicht M
 
 1. (Bedingt) Wenn die Abschlussprozentsätze in der Meilenstein -Ansicht nicht aktuell sind, aktivieren Sie die Anzeige des Prozentsatzes der abgeschlossenen Aufgaben und Projekte, wie im Abschnitt [Konfigurieren der Informationen, die in der Meilenstein -Ansicht angezeigt werden](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.
 
-1. Klicken Sie in der Produktionsumgebung unter einer Aufgabe auf den Fertigstellungsprozentsatz, geben Sie einen neuen Prozentsatz an und drücken Sie dann die Eingabetaste.
+1. Verschieben Sie die Folie **Prozent abgeschlossen** zur neuen Folie Prozent abgeschlossen , um sie zu aktualisieren.
 
-   <div class="preview">Verschieben Sie in der Vorschau-Umgebung die Folie Prozent abgeschlossen auf den neuen Prozentsatz abgeschlossen, um sie zu aktualisieren. </div>
+   <!--In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.-->
