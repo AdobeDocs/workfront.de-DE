@@ -42,7 +42,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] Lizenzen</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p> </td> 
+   <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -114,7 +114,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
 
       >[!TIP]
       >
-      >Sie können auf das Symbol **Alle** erweitern![ (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
+      >Sie können auf das Symbol **Alle** erweitern![&#x200B; (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
 
       Informationen zu den Feldern, die im Abschnitt [!UICONTROL **Portfolio-Details**] angezeigt werden, finden Sie, wenn Sie mit der Bearbeitung des Portfolios im Feld [!UICONTROL **Portfolio bearbeiten**] fortfahren, wie unten beschrieben.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Portfolio angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** in der oberen rechten Ecke der Seite **Details** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
