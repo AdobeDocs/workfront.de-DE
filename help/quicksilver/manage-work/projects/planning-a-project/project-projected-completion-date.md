@@ -7,16 +7,16 @@ description: Das voraussichtliche Abschlussdatum ist ein Echtzeitindikator für 
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 Das voraussichtliche Abschlussdatum ist ein Echtzeitindikator für den Zeitpunkt, zu dem das Projekt, die Aufgabe oder das Problem abgeschlossen wird. Wenn das Projekt, die Aufgabe oder das Problem als „Abgeschlossen“ gekennzeichnet ist, ändert sich das voraussichtliche Abschlussdatum in das tatsächliche Abschlussdatum.
 
@@ -122,6 +122,9 @@ So erstellen Sie einen Anfragebericht mit dem voraussichtlichen Abschlussdatum:
 1. Wählen Sie es aus, wenn es in der Liste unter dem Objekt **Problem** angezeigt wird.
 1. Klicken Sie auf **Speichern + schließen**.
 
+   ![Voraussichtliches Abschlussdatum der Anfrage in der Berichtsspalte](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    Die **„Voraussichtliches Abschlussdatum** im Bericht wird ausgefüllt.
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

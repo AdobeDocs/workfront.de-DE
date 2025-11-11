@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Erstellen eines Diagramms für einen Bericht mit einem benutzerdefinierten Mehrfachauswahlfeld
 description: Sie können einen Bericht erst nach der Erstellung eines zusätzlichen berechneten Felds, das die im benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Optionen erfasst, durch ein benutzerdefiniertes Mehrfachauswahl-Feld grafisch darstellen.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
+Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [ Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
 
 ## Erstellen eines Diagramms für einen Bericht mit mehreren benutzerdefinierten Feldern
 
@@ -133,7 +133,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, wählen Sie auf der Registerkarte Details des Berichts alle Objekte aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachauswahlfeld und dem berechneten benutzerdefinierten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
 1. (Optional und bedingt) Wählen Sie das Feld **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie dann auf **Änderungen speichern**.\
-   ![Benutzerdefinierte Ausdrücke neu &#x200B;](assets/recalculate-custom-expressions-350x259.png)
+   ![Benutzerdefinierte Ausdrücke neu ](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >

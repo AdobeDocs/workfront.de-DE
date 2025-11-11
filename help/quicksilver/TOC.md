@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 2%
@@ -2025,7 +2025,7 @@ ht-degree: 2%
    * [Aktualisieren der Initiativen-Prioritäten im Szenario-Planer](scenario-planner/prioritize-initiatives.md)
    * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im Szenario-Planer](scenario-planner/publish-scenarios-update-projects.md)
    * [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [Anfordern von Zugriff auf einen Plan im Szenario-Planer](scenario-planner/request-access-to-plan.md)
+   * [Anfordern von Berechtigungen für einen Plan im Szenario-Planer](scenario-planner/request-access-to-plan.md)
    * [Lösen von Initiativkonflikten im Szenario-Planer](scenario-planner/resolve-conflicts-in-sp.md)
    * [Freigeben eines Plans im Szenario-Planer](scenario-planner/share-a-plan.md)
    * [Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen](scenario-planner/show-role-allocation-task-list-nwe.md)
@@ -2191,7 +2191,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

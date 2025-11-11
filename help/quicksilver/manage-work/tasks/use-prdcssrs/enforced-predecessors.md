@@ -6,16 +6,16 @@ description: Vorgänger sind Aufgaben, von deren Abschluss andere Aufgaben abhä
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
 # Erzwungene Vorgänger
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Vorgänger sind Aufgaben, von deren Abschluss andere Aufgaben abhängen. Vorgängerbeziehungen wirken sich auf die Start- und Abschlussdaten der Aufgaben aus und wirken sich letztendlich auf die Timeline des Projekts aus.
 
@@ -119,4 +119,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Geben Sie in **Spalte** die Nummer der Vorgängeraufgabe ein, gefolgt von „e“. Geben Sie beispielsweise „1e“ ein, um die Aufgabennummer 1 als Vorgänger der ausgewählten Aufgabe hinzuzufügen.
 1. Klicken Sie auf die Eingabetaste , um Ihre Vorgängerinformationen für die Aufgabe zu speichern.
 
-   ![PREDECESSOR_ENFORCED_IN_LIST.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Erzwungene Vorgängerliste](assets/predecessor-enforced-in-list-350x308.png)
+
+   Die Informationen zum erzwungenen Vorgänger werden sofort gespeichert.

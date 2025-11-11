@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: Plan,Berechtigungen,Freigabe,Initiativen,Szenarien,Szenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Anfordern des Zugriffs auf einen Plan im Szenario-Planer
+title: Anfordern von Berechtigungen für einen Plan im Szenario-Planer
 description: Sie können Zugriff auf einen Plan im Adobe Workfront-Szenarioplaner anfordern, wenn der Link zum Plan für Sie freigegeben wird.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# Anfordern von Zugriff auf einen Plan im [!DNL Scenario Planner]
+# Berechtigungen für einen Plan im [!DNL Scenario Planner] anfordern
 
-Sie können Zugriff auf einen Plan in der [!DNL Adobe Workfront Scenario Planner] anfordern, wenn der Link zum Plan für Sie freigegeben wurde.
+<!--Audited: 11/2025-->
+
+Sie können Berechtigungen für einen Plan in der [!DNL Adobe Workfront Scenario Planner] anfordern, wenn der Link zum Plan für Sie freigegeben wurde.
 
 ## Zugriffsanforderungen
 
@@ -95,7 +97,7 @@ Bevor Sie Zugriff auf einen Plan in der [!DNL Scenario Planner] anfordern könne
 >
 >Wenn Sie keine Zugriffsebenen-Rechte für den [!DNL Scenario Planner] haben und versuchen, über einen Link auf einen Plan zuzugreifen, können Sie keinen Zugriff auf den Plan anfordern. Stattdessen wird ein Bildschirm angezeigt, in dem Sie aufgefordert werden, sich an den [!DNL Workfront]-Administrator zu wenden.
 
-## Anfordern von Zugriff auf Pläne im [!DNL Workfront Scenario Planner]
+## Berechtigungen für Pläne in der [!DNL Workfront Scenario Planner] anfordern
 
 Wenn Sie noch nicht über die erforderlichen Berechtigungen für einen Plan verfügen und über einen für Sie freigegebenen Link dorthin navigieren, wird ein Bildschirm angezeigt, in dem Sie darüber informiert werden, dass Sie nicht über die erforderlichen Berechtigungen zum Anzeigen des Plans verfügen. Sie werden aufgefordert, die Berechtigungen vom Planersteller anzufordern.
 
@@ -107,7 +109,7 @@ So fordern Sie Berechtigungen an:
 
 1. Klicken Sie auf einen Link zu einem Plan.
 
-   ![Zugriff auf Plan anfordern](assets/request-access-to-plan-350x277.png)
+   ![Berechtigungen für Plan anfordern](assets/request-access-to-plan-350x277.png)
 
 1. Geben Sie **[!UICONTROL Dropdown-Menü „Zugriff anfordern]**&quot; an, welche Berechtigungsstufe Sie gewähren möchten. Wählen Sie aus den folgenden Optionen aus:
 

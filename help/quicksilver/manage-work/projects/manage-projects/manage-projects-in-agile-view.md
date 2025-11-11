@@ -6,20 +6,22 @@ description: Sie können die Agile-Funktionen für Ihr Projekt nutzen, ohne die 
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # Verwalten eines Projekts in der Agile-Ansicht
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Sie können die Agile-Funktionen für Ihr Projekt nutzen, ohne die administrativen Herausforderungen zu bewältigen, die mit Agile-Praktiken verbunden sind (z. B. die Verwaltung eines Team-Rückstands oder die Erstellung von Iterationen).
 
-Wenn Sie in einer agilen Umgebung arbeiten möchten, die einen Rückstand im Team aufweist und es Ihnen ermöglicht, Iterationen aus Aufgaben im Rückstand zu erstellen, befolgen Sie die Anweisungen unter [Arbeiten in einer agilen Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Sie können in einer agilen Umgebung arbeiten, die einen Team-Rückstand verwendet und es Ihnen ermöglicht, Iterationen aus Aufgaben im Rückstand zu erstellen.
+
+Weitere Informationen finden Sie unter [Arbeiten in einer agilen Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Zugriffsanforderungen
 
@@ -95,8 +97,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Anzeigen eines Projekts in der Agile-Ansicht
 
-1. Wechseln Sie zu dem Projekt, das Sie in einer Agile-Ansicht anzeigen möchten, entweder in der Aufgabenliste oder in der Problemliste.
-1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![&#x200B; (](assets/board-icon-for-agile-view.png).
+Sie können sowohl die Aufgaben als auch die Probleme eines Projekts in einer agilen Ansicht anstelle einer Liste anzeigen, um die Agile-Funktionen für Ihre Projektentwicklung zu nutzen.
+
+1. Gehen Sie zu dem Projekt, das Sie in einer Agile-Ansicht anzeigen möchten, und klicken Sie dann im linken Bereich **Aufgaben** oder **** Probleme.
+1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![ (](assets/board-icon-for-agile-view.png).
 
    Die Pinnwand-Ansicht des Projekts wird standardmäßig angezeigt.
 
@@ -105,6 +109,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Klicken Sie auf **Konfigurieren**, um Optionen für die Spalten und Karten festzulegen.
 
-   Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
+   Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
 
-1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf das Symbol **Liste**.
+1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf das Symbol **Liste** ![Symbol Liste](assets/list-icon.png).
+
+   Die Liste der Aufgaben oder Probleme wird angezeigt.

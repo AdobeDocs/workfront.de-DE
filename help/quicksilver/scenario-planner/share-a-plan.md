@@ -7,7 +7,7 @@ description: Sie können einen Plan, den Sie im Adobe Workfront-Szenarioplaner e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 2%
@@ -118,7 +118,7 @@ Weitere Informationen zum Zugriff auf die [!DNL Scenario Planner] für verschied
 * Sie können keine Pläne anzeigen, die Sie nicht erstellt haben oder die nicht für Sie freigegeben wurden.
 * Sie können einen Plan nur für andere Benutzer freigeben. Pläne können nicht für Gruppen, Teams oder Unternehmen freigegeben werden.
 * Sie müssen zuerst einen Plan speichern, bevor Sie ihn freigeben können.
-* Sie können eine URL zu einem Plan für einen anderen Benutzer freigeben. Wenn der/die Benutzende nicht die Berechtigung hat, zumindest den Plan anzuzeigen, kann er/sie von einem/r anderen Benutzenden Zugriff auf den Plan anfordern, wenn er/sie die URL erhält. Informationen zum Anfordern des Zugriffs auf einen Plan finden Sie unter [Anfordern des Zugriffs auf einen Plan in der [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* Sie können eine URL zu einem Plan für einen anderen Benutzer freigeben. Wenn der/die Benutzende nicht die Berechtigung hat, zumindest den Plan anzuzeigen, kann er/sie von einem/r anderen Benutzenden Zugriff auf den Plan anfordern, wenn er/sie die URL erhält. Informationen zum Anfordern des Zugriffs auf einen Plan finden Sie unter [Berechtigungen für einen Plan anfordern in der [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Bei der Freigabe mehrerer Pläne, die bereits für andere freigegeben wurden, ersetzen die Benutzer, für die Sie sie freigeben, nicht, sondern werden den vorhandenen Benutzern in jedem ausgewählten Plan hinzugefügt.
 
 ## Planberechtigungsoptionen
@@ -237,7 +237,7 @@ Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekt
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Ansicht]</td> 
+      <td role="rowheader">[!UICONTROL-Ansicht]</td> 
       <td>Benutzer, für die Sie den Plan freigeben, sind berechtigt, den Plan anzuzeigen. Sie können keine Informationen zum Plan bearbeiten, keine Initiativen hinzufügen, keine Szenarien erstellen und keine Szenarien veröffentlichen. </td> 
      </tr> 
      <tr> 

@@ -7,10 +7,10 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 53269f4932a752a833df8e41891706934214e062
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 0%
+source-wordcount: '1207'
+ht-degree: 1%
 
 ---
 
@@ -97,27 +97,20 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Bearbeiten von Informationen in einem benutzerdefinierten Formular
 
-Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, ist für alle Objekte identisch. Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, erfolgt für die meisten Objekte ähnlich.
 
-1. Navigieren Sie zu einem Objekt, für das Sie Informationen im benutzerdefinierten Formular bearbeiten möchten.
-1. Klicken Sie im **`<Object type>`Bedienfeld auf** Details.
+Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-   Wenn Sie beispielsweise Informationen in einem benutzerdefinierten Formular eines Projekts bearbeiten, klicken Sie auf **Projektdetails**.
+1. Wechseln Sie zu einer beliebigen Liste von Objekten, für die Sie Informationen im benutzerdefinierten Formular bearbeiten möchten, mit Ausnahme einer Liste von Iterationen.
+1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
+1. Klicken Sie **linken Bereich** Custom Forms&quot; im Feld **Objekt bearbeiten**.
 
-1. Scrollen Sie zum benutzerdefinierten Formular. Wenn ein benutzerdefiniertes Formular an das -Objekt angehängt ist, wird der Name des Formulars als Bereich im Abschnitt Details angezeigt.
-1. Klicken Sie ggf. auf den Pfeil ![](assets/expand-arrow-right.png) links neben dem Namen des benutzerdefinierten Formulars, um es zu erweitern.
-1. Klicken Sie oben rechts auf der Seite auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+   Wenn ein benutzerdefiniertes Formular an das -Objekt angehängt ist, wird der Name des Formulars als Bereich im Abschnitt **Benutzerdefinierte Forms** angezeigt.
 1. Beginnen Sie mit der Eingabe von Informationen in einem beliebigen Feld, auf das Sie Zugriff haben.
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![Bearbeitungsfeld mit benutzerdefinierten Formularen im Rechnungsnachweis](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   Oder
-
-   Wenn noch keine Informationen in das Formular eingegeben wurden, klicken Sie auf **Hinzufügen+** für jedes Feld, auf das Sie Zugriff haben, und geben Sie die Informationen ein.
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   Wenn mehrere benutzerdefinierte Formulare an das Objekt angehängt sind, können Sie dies für jedes Formular tun.
+   Wenn mehrere benutzerdefinierte Formulare an das Objekt angehängt sind, tun Sie dies für jedes Formular.
 
    Beachten Sie je nach Typ des Felds, in dem Sie arbeiten, Folgendes:
 
@@ -133,7 +126,7 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 
    Informationen zu allen Feldtypen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie auf **Speichern**.
 
    >[!IMPORTANT]
    >
@@ -147,19 +140,50 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 
    Sie können auch alle berechneten benutzerdefinierten Felder für ein Objekt manuell aktualisieren, wenn Sie das Objekt zusammen mit anderen Objekten in einer Liste stapelweise bearbeiten. Anweisungen finden Sie unter [Alle berechneten benutzerdefinierten Felder für mehrere Objekte in einer Liste beim Bearbeiten der Objekte neu berechnen](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in diesem Artikel.
 
-## Alle berechneten benutzerdefinierten Felder für ein Objekt neu berechnen  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. (Bedingt) Gehen Sie wie folgt vor, um die benutzerdefinierten Felder für ein benutzerdefiniertes Iterationsformular zu aktualisieren:
+
+   1. Zu einer Iteration wechseln.
+   1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
+   1. Um benutzerdefinierte Formulare hinzuzufügen, geben Sie den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** in der rechten oberen Ecke der Seite ein
+
+      Oder
+
+      Klicken Sie auf **Bearbeiten**-Symbol im selben Bereich, um mit der Bearbeitung der Felder auf den angehängten Formularen zu beginnen.
+
+      ![Benutzerdefiniertes Formular für die Iteration bearbeiten](assets/edit-iteration-custom-form.png)
+
+   1. Klicken Sie auf **Änderungen speichern**.
+
+## Benutzerdefinierte Felder für Objekte neu berechnen
+
+Abhängig von Änderungen, die an benutzerdefinierten Formularen auftreten können, oder von Änderungen, die an Feldern auftreten, auf die in benutzerdefinierten Feldern verwiesen wird, können die Werte berechneter benutzerdefinierter Felder regelmäßig veraltet sein. In diesem Fall müssen Sie möglicherweise die benutzerdefinierten Felder neu berechnen oder die benutzerdefinierten Ausdrücke für Objekte neu berechnen.
+
+In den folgenden Abschnitten wird beschrieben, wie Sie benutzerdefinierte Ausdrücke für Objekte mit benutzerdefinierten Formularen neu berechnen können.
+
+>[!NOTE]
+>
+>Benutzerdefinierte Ausdrücke für Gruppen können nicht neu berechnet werden.
+
+### Alle berechneten benutzerdefinierten Felder auf der Seite eines Objekts neu berechnen
 
 >[!IMPORTANT]
 >
 >Sie müssen über ein benutzerdefiniertes Formular mit berechneten Feldern verfügen, die an das -Objekt angehängt sind, bevor Sie die Schritte in diesem Abschnitt ausführen können.
 
+1. Navigieren Sie zur Hauptseite eines der folgenden Objekte, deren benutzerdefinierte Felder Sie neu berechnen möchten:
 
-1. Navigieren Sie zur Hauptseite des Objekts, dessen benutzerdefinierte Felder Sie neu berechnen möchten.
+   * Projekt
+   * Aufgabe
+   * Problem
+   * Portfolio
+   * Programm
+   * Dokument
+
 1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Namen des Objekts und dann auf **Ausdrücke neu berechnen**.
 
    Dadurch werden alle benutzerdefinierten Felder im Formular des -Objekts neu berechnet.
 
-## Alle berechneten benutzerdefinierten Felder für mehrere Objekte in einer Liste beim Bearbeiten der Objekte neu berechnen {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### Alle berechneten benutzerdefinierten Felder für mehrere Objekte in einer Liste beim Bearbeiten der Objekte neu berechnen {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -172,18 +196,30 @@ Je nachdem, für welche Objekte Sie die benutzerdefinierten Ausdrücke neu berec
 
 So berechnen Sie die benutzerdefinierten Felder mehrerer Objekte manuell neu, indem Sie sie stapelweise aus einer Liste oder einem Bericht bearbeiten:
 
-1. Navigieren Sie zu einer Liste von Objekten, die benutzerdefinierte Formulare mit berechneten Feldern enthalten.
+1. Navigieren Sie zu einer Liste der folgenden Objekttypen, deren Objekte benutzerdefinierte Formulare mit berechneten Feldern enthalten:
+
+   * Benutzende
+   * Firmen
+   * Abrechnungseinträge
+
 1. Wählen Sie die Objekte aus, deren berechnete benutzerdefinierte Felder Sie aktualisieren möchten.
 1. Klicken Sie auf **Bearbeiten**.
 1. Klicken Sie **linken Menü auf** Benutzerdefinierte Forms&quot; und wählen Sie dann **Benutzerdefinierte Ausdrücke neu berechnen**.
-1. Klicken Sie **Speichern** **Änderungen**.
+1. Klicken **auf** oder **Änderungen speichern**.
 
    Workfront berechnet alle benutzerdefinierten Felder für alle ausgewählten Objekte.
 
 So berechnen Sie benutzerdefinierte Ausdrücke aus einer Objektliste neu:
 
-1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein oder mehrere Projekte aus.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+1. Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie einen oder mehrere der folgenden Objekttypen aus:
+
+   * Projekte
+   * Aufgaben
+   * Probleme
+   * Portfolios
+   * Programme
+   * Ausgaben
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -192,5 +228,7 @@ Nicht alle Listen aller Objekte verfügen über diese Funktion.
 
 >[!NOTE]
 >
->Je nach Komplexität Ihrer Projekte empfehlen wir, bei der Massenberechnung berechneter benutzerdefinierter Felder keine große Anzahl von Projekten auszuwählen, um eine optimale Leistung sicherzustellen. Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
+>Bei der Neuberechnung von Ausdrücken für mehrere Projekte empfehlen wir, je nach Komplexität nicht zu viele Projekte auszuwählen, um eine optimale Leistung zu gewährleisten.
+>
+>Ein Projekt zu komplex kann beispielsweise durch mehrere Abhängigkeiten oder Zuweisungen oder eine große Anzahl benutzerdefinierter Felder werden.
 
