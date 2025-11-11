@@ -88,6 +88,6 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
    >[!NOTE]
    >
-   >Diese Registerkarten variieren je nachdem, ob Sie einen KPI-, Tabellen- oder Diagrammbericht dupliziert haben.  Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)-Dashboard[, Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) und [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+   >Diese Registerkarten variieren je nachdem, ob Sie einen KPI-, Tabellen- oder Diagrammbericht dupliziert haben.  Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)-Dashboard[, Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) und [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Klicken Sie auf **Speichern**. Der duplizierte Bericht wird im Dashboard angezeigt.
