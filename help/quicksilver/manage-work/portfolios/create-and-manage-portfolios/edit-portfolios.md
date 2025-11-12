@@ -42,7 +42,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] Lizenzen</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p> </td> 
+   <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -114,7 +114,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
 
       >[!TIP]
       >
-      >Sie können auf das Symbol **Alle** erweitern![ (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
+      >Sie können auf das Symbol **Alle** erweitern![&#x200B; (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
 
       Informationen zu den Feldern, die im Abschnitt [!UICONTROL **Portfolio-Details**] angezeigt werden, finden Sie, wenn Sie mit der Bearbeitung des Portfolios im Feld [!UICONTROL **Portfolio bearbeiten**] fortfahren, wie unten beschrieben.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Portfolio angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** in der oberen rechten Ecke der Seite **Details** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
@@ -190,7 +190,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
       <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Portfolio-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Portfolio-Besitzer]. Dies ist die Person, die die in den Projekten des Portfolios definierten Arbeiten überwachen und den Business Case genehmigen kann.</p> <p>Wichtig: Wenn Sie eine Person als Portfolio-Manager festlegen, erhält diese automatisch [!UICONTROL Manage]-Berechtigungen für das Portfolio, die Programme und die Projekte im Portfolio. </p> <p>Tipp: Sie können den Portfolio-Manager in der Portfolio-Kopfzeile schnell aktualisieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Gruppe]</td> 
+      <td role="rowheader">[!UICONTROL -Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Portfolio verknüpft ist oder für dessen Abschluss verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Portfolio Details] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Diese Option ist im Feld [!UICONTROL Portfolio bearbeiten] nicht verfügbar. </p> </p> </td> 
      </tr> 
      <tr> 
