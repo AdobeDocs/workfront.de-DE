@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e92910e553f08aea12e9e1b17a17413731c37d2f
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 3%
+source-wordcount: '1374'
+ht-degree: 4%
 
 ---
 
@@ -84,6 +84,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Organisationsübergreifende Unterstützung für Adobe Express mit Workfront Proofing<p>[!BADGE OFF SCHEDULE]{type=neutral}</p> </a>
+            <p>Mit Workfront Proofing führen wir organisationsübergreifenden Support für Adobe Express ein. Diese Verbesserung ermöglicht es Kunden, die in mehreren IMS-Organisationen tätig sind, Proofing-Workflows nahtlos zu verwenden und zu verwalten.</p>
+        </td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager ist jetzt mit der Frame.io-Integration verfügbar <p>[!BADGE OFF SCHEDULE]{type=neutral}</p> </a>
@@ -242,7 +251,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

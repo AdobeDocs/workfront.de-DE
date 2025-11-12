@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Integrationsanforderungen
 
-* Workfront und Adobe Express müssen in derselben IMS-Organisation bereitgestellt werden.
-
-* Die Integration muss für Ihre Konten vom Adobe-Produkt-Team aktiviert werden.
-
-  >[!IMPORTANT]
-  >
-  >Die Integration von Adobe Express und Workfront Proof steht Benutzenden im Laufe mehrerer Versionen zur Verfügung, angefangen bei Konten, denen Workfront und Adobe Express mit derselben Organisations-ID in Adobe Admin Console verknüpft sind, gefolgt von Kunden mit Benutzenden, die in allen IMS-Organisationen arbeiten. Wenn Sie die Integration aktivieren möchten, wenden Sie sich an Ihren Customer Success oder Strategic Account Manager.
+* Sie müssen über Berechtigungen für den Zugriff auf Adobe Express und mindestens eine Workfront-Umgebung mit einer Workfront-Standardlizenz verfügen.
 
 * Benutzer müssen den [Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungs-Tool“ installieren](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) bevor sie Entwürfe in Adobe Express überprüfen können.
 
@@ -89,7 +83,7 @@ Wenn eine Express-Vorlage neu gemischt wird, ist vor der Veröffentlichung eine 
 
 Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine Genehmigung von Adobe Express anfordern zu können.
 
-Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/de/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
