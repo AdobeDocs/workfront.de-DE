@@ -7,9 +7,9 @@ description: Sie können einen Bericht erst nach der Erstellung eines zusätzlic
 author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
+Bevor Sie beginnen, müssen Sie ein berechnetes benutzerdefiniertes Feld erstellen, das die aus dem benutzerdefinierten Mehrfachauswahl-Feld ausgewählten Werte anzeigt. Weitere Informationen finden Sie [ Abschnitt „Erstellen eines berechneten benutzerdefinierten Felds, das auf ein benutzerdefiniertes Mehrfachauswahl-Feld verweist](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in diesem Artikel.
 
 ## Erstellen eines Diagramms für einen Bericht mit mehreren benutzerdefinierten Feldern
 
@@ -131,13 +131,15 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 ### Erstellen eines Diagramms, das auf ein berechnetes benutzerdefiniertes Feld verweist {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, wählen Sie auf der Registerkarte Details des Berichts alle Objekte aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachauswahlfeld und dem berechneten benutzerdefinierten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
-1. (Optional und bedingt) Wählen Sie das Feld **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie dann auf **Änderungen speichern**.\
-   ![Benutzerdefinierte Ausdrücke neu &#x200B;](assets/recalculate-custom-expressions-350x259.png)
+1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, müssen Sie die benutzerdefinierten Ausdrücke für alle Objekte in Ihrem Bericht neu berechnen.
+Informationen zur Neuberechnung von Ausdrücken finden Sie unter [Informationen in benutzerdefinierten Feldern bearbeiten](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >Diese Option wurde aus der Massenbearbeitung von Projekten entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie oben in einer Projektliste auf das **Mehr**-Symbol ![Mehr](assets/more-icon-45x33.png) und dann auf **Ausdrücke neu berechnen** klicken.
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. Wechseln Sie zum Bericht, in dem Sie das Diagramm für das berechnete Feld hinzufügen möchten, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist.
 1. Klicken Sie **Berichtsaktionen** und dann **Bearbeiten**.

@@ -6,7 +6,7 @@ description: Sie können Informationen zu Portfolios bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] Lizenzen</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL-Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -114,7 +114,7 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
 
       >[!TIP]
       >
-      >Sie können auf das Symbol **Alle** erweitern![&#x200B; (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
+      >Sie können auf das Symbol **Alle** erweitern![ (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
 
       Informationen zu den Feldern, die im Abschnitt [!UICONTROL **Portfolio-Details**] angezeigt werden, finden Sie, wenn Sie mit der Bearbeitung des Portfolios im Feld [!UICONTROL **Portfolio bearbeiten**] fortfahren, wie unten beschrieben.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Portfolio angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** in der oberen rechten Ecke der Seite **Details** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
@@ -177,28 +177,28 @@ Sie können ein Portfolio auf der Seite „Portfolio“ bearbeiten oder Portfoli
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Name**]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Aktualisieren Sie den Namen des Portfolios. </p> <p><b>TIPP</b></p> 
-      <p>Das Feld **Name** ist nicht verfügbar, wenn Sie mehr als ein Portfolio auswählen. </p> </td> 
+      <p>Das Feld Name ist nicht verfügbar, wenn Sie mehr als ein Portfolio auswählen. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Beschreibung**]</td> 
+      <td role="rowheader">[!UICONTROL Beschreibung]</td> 
       <td> <p>Geben Sie eine Beschreibung für die Portfolio ein, um anzugeben, was eindeutig ist. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Portfolio-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Portfolio-Besitzer]. Dies ist die Person, die die in den Projekten des Portfolios definierten Arbeiten überwachen und den Business Case genehmigen kann.</p> <p>Wichtig: Wenn Sie eine Person als Portfolio-Manager festlegen, erhält diese automatisch [!UICONTROL Manage]-Berechtigungen für das Portfolio, die Programme und die Projekte im Portfolio. </p> <p>Tipp: Sie können den Portfolio-Manager in der Portfolio-Kopfzeile schnell aktualisieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Gruppe**]</td> 
+      <td role="rowheader">[!UICONTROL-Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Portfolio verknüpft ist oder für dessen Abschluss verantwortlich ist. </p> <p>Tipp:  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Portfolio Details] wie folgt vor: </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Diese Option ist im Feld [!UICONTROL Portfolio bearbeiten] nicht verfügbar. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Ausrichtungs-Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
       <td> <p>Wählen Sie in der Dropdown-Liste die Ausrichtungs-Scorecard aus, die Sie verwenden möchten. Mit einer Scorecard wird gemessen, wie gut sich ein Projekt an den festgelegten Kriterien einer Portfolio ausrichtet, die häufig die Mission, die Werte und die strategischen Ziele eines Unternehmens widerspiegeln. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungswerts</a> und <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Erstellen einer Scorecard</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Ist aktiv**]</td> 
+      <td role="rowheader">[!UICONTROL ist aktiv]</td> 
       <td> <p> Aktivieren Sie dieses Kontrollkästchen, wenn das Portfolio aktiv sein soll. Andere Benutzer können beim Erstellen oder Bearbeiten von Projekten aktive Portfolios finden und an Projekte anhängen. Inaktive Portfolios können nicht mit Projekten verknüpft werden. Dies ist standardmäßig aktiviert.</p> </td> 
      </tr> 
     </tbody> 
