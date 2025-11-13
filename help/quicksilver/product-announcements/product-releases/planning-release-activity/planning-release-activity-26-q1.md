@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
+source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,18 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Verbinden von GenStudio for Performance Marketing Brands mit Workfront Planning-Datensatztypen
+
+>[!NOTE]
+>
+>Vorschau: 13. November 2025
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 13. November 2026
+
+Sie können jetzt Datensatztypen für Workfront Planning mit Marken aus Adobe GenStudio for Performance Marketing verbinden. Ihr Unternehmen muss sowohl über Workfront Planning als auch über Adobe GenStudio for Performance Marketing verfügen.
+
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Neues Suchfeld für Felder in den Symbolen für Filter, Felder und Zeilenfarben in Planning-Ansichten

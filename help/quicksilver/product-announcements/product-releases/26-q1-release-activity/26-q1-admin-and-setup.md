@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im ersten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ff9f69c3b71b7b9d161684d8f4af13e577106c7
+source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,29 @@ Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vo
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Eingabedatum und „Eingegeben von ID“ in benutzerdefinierten Objekten
+
+>[!NOTE]
+>
+>Vorschau: 13. November 2025
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 13. November 2025
+
+Das Eingabedatum und die von der ID eingegebenen Daten werden jetzt in benutzerdefinierten Formularen, Feldern und Abschnitten gespeichert. Sie können diese Datenoptionen in Berichten als Filter, Ansichten oder Gruppierungen verwenden. Um sie in der Liste der benutzerdefinierten Formulare, Felder oder Abschnitte im Setup anzuzeigen, fügen Sie „Eingabedatum“ hinzu und geben Sie „Nach Name“ als Spalten in einer neuen oder vorhandenen Ansicht ein.
+
 
 ## Aktualisierungen der Schaltflächennamen beim Bearbeiten einer Layout-Vorlage
 
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
->&#x200B;>Produktion für alle: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Um für mehr Konsistenz mit anderen Bereichen von Setup zu sorgen, z. B. mit dem benutzerdefinierten Formular-Designer, wurden die Schaltflächen, die Sie beim Bearbeiten einer Layout-Vorlage sehen, in **Übernehmen**, **Speichern und schließen** und **Abbrechen** geändert. Mit der neuen Option **Übernehmen** können Sie Ihre Änderungen an der Layout-Vorlage speichern und mit der Bearbeitung fortfahren. Zuvor waren die verfügbaren Optionen **Speichern** und **Abbrechen**.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 
 ## Verbesserte Feldverwaltung mit Markierung „Aktiv“ für benutzerdefinierte Felder
@@ -36,8 +47,8 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorla
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 13. November 2025
->&#x200B;>Produktion für alle: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Wenn das System eine große Anzahl benutzerdefinierter Felder enthält, kann die Verwaltung dieser Felder in benutzerdefinierten Formularen und Berichten schwierig sein. Sie können jetzt benutzerdefinierte Felder mit der neuen Markierung „Aktiv **als inaktiv**. Diese Markierung ist verfügbar, wenn Sie mit einem Feld in einem benutzerdefinierten Formular arbeiten oder ein Feld aus der Liste Felder hinzufügen oder bearbeiten.
 

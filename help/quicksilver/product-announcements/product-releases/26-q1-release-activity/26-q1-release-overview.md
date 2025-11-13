@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: c13c8e2b9b6d50f9abf1d61fad904aa68abb44c5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1450'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Eingabedatum und „Eingegeben von ID“ in benutzerdefinierten Objekten</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Das Eingabedatum und die von der ID eingegebenen Daten werden jetzt in benutzerdefinierten Formularen, Feldern und Abschnitten gespeichert. Sie können diese Datenoptionen in Berichten als Filter, Ansichten oder Gruppierungen verwenden. Um sie in der Liste der benutzerdefinierten Formulare, Felder oder Abschnitte im Setup anzuzeigen, fügen Sie „Eingabedatum“ hinzu und geben Sie „Nach Name“ als Spalten in einer neuen oder vorhandenen Ansicht ein.</p>
+        </td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+    </tr>  
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen der Schaltflächennamen beim Bearbeiten einer Layout-Vorlage</a>
@@ -251,7 +260,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
