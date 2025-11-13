@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '784'
 ht-degree: 1%
 
 ---
@@ -91,6 +91,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. (Optional) Um Unternehmen zu bearbeiten oder zu löschen, wählen Sie mindestens ein Unternehmen aus und verwenden Sie dann die Schaltflächen in der Symbolleiste, um es zu bearbeiten ![Symbol „Bearbeiten](assets/edit-icon.png) oder zu löschen ![Symbol „Löschen](assets/delete.png).
 
+   >[!NOTE]
+   >
+   >Wenn Sie eine Firma löschen und die Firma als Primäres Unternehmen festgelegt ist oder in einem anderen Objekt verwendet wird, werden Sie aufgefordert, eine andere Firma auszuwählen, die die zu löschende Firma ersetzt. Das ausgewählte Unternehmen wird zum Primären Unternehmen oder ersetzt das gelöschte Unternehmen durch die Objekte, denen das Unternehmen zugewiesen ist.
+
    Informationen zum Bearbeiten eines Unternehmens finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Unternehmens in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) im Artikel [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![&#x200B; und wählen &#x200B;](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.
+1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![ und wählen ](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.

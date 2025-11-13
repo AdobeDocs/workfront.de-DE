@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL-Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -146,6 +146,18 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
    Oder
 
    Wenn Sie eine vorhandene Firma bearbeiten, klicken Sie auf **[!UICONTROL Änderungen speichern]** <span class="preview">oder **Speichern**.</span>
+
+## Firmen löschen
+
+{{step-1-to-setup}}
+
+1. Klicken Sie auf **[!UICONTROL Firmen]**.
+
+   Eine Liste der Unternehmen wird angezeigt.
+
+1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![ Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
+1. Wenn Sie ein Unternehmen löschen, das als Primäres Unternehmen festgelegt ist oder in einem anderen Objekt verwendet wird, wählen Sie ein Unternehmen aus, das das zu löschende Unternehmen ersetzen soll. Das ausgewählte Unternehmen wird zum Primären Unternehmen oder ersetzt das gelöschte Unternehmen durch die Objekte, denen das Unternehmen zugewiesen ist.
+1. Klicken Sie auf **Löschen**.
 
 ## Verwalten von Unternehmensmitgliedschaften
 
