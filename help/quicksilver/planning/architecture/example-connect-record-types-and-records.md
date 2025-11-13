@@ -88,7 +88,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
+   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Kampagne) eine Kampagne, indem Sie eine neue Zeile zur Tabelle des Kampagnendatensatztyps hinzufügen.
 
@@ -180,7 +180,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
+   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Datensatztyps (Campaign) eine Kampagne, indem Sie eine neue Zeile in der Tabelle hinzufügen.
 
