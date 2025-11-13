@@ -6,9 +6,9 @@ description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Be
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 6%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 6%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+<!--<div class="preview"> 
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann in alle Projekte übertragen, die Sie aus der Vorlage erstellen.
 
@@ -41,7 +43,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
 
 * Durch Kopieren aus einer anderen Vorlage.
 
-  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
 
 * Durch den Import von Blueprints. Sie müssen Workfront-Administrator sein, um Blueprints importieren zu können. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
@@ -118,13 +120,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Klicken Sie auf **Neue Vorlagenaufgabe**, um Ihrer Vorlage im Feld **Neue Vorlagenaufgabe** Aufgaben hinzuzufügen.
 
-   ![Feld „Neue Vorlagenaufgabe“](assets/new-template-task-box.png)
+   Das **Vorlagenaufgabe erstellen** wird in der neuen -Version geöffnet.
 
-   <span class="preview">Das Feld **Vorlagenaufgabe erstellen** wird in der neuen -Version geöffnet.</span>
+   ![Neues Erlebnis für neue Vorlagenaufgabe](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Bedingt) Aktualisieren Sie unter Verwendung der neuen -Version die Informationen in den folgenden Bereichen im Feld **Vorlagenaufgabe erstellen**:</span>
-
-   <div class="preview">
+1. (Bedingt) Aktualisieren Sie unter Verwendung der neuen -Version die Informationen in den folgenden Bereichen im Feld **Vorlagenaufgabe erstellen**:
 
    * Name der Vorlagenaufgabe
    * Übersicht
@@ -134,14 +134,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * Dokumente
    * Einstellungen
 
-   </div>
-
 1. Klicken Sie **Vorlagenaufgabe erstellen**
 
    Oder
 
-   <span class="preview">Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Vorlagenaufgabe erstellen**.</span>
-   <span class="preview">Die **Neue Vorlagenaufgabe** wird in der alten Version geöffnet.</span>
+   Klicken Sie **unten im Feld** Vorlagenaufgabe erstellen **auf „Zurück zur alten** wechseln“.
+
+   Die **Neue Vorlagenaufgabe** wird in der alten Version geöffnet.
+
+   ![Feld „Neue Vorlagenaufgabe“](assets/new-template-task-box.png)
 
    >[!TIP]
    >
@@ -200,7 +201,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * Ausgaben
    * Genehmigungen
 
-   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[&#x200B; bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[ bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

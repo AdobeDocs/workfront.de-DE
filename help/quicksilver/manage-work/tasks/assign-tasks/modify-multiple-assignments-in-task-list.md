@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Beim Verwalten von Aufgabenzuweisungen können Sie diese gleichzeitig für mehrere Aufgaben ändern, indem Sie die Massenbearbeitungsfunktion in einer Liste von Aufgaben verwenden.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Wählen Sie die Aufgaben aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png).
 
-   Das **Aufgaben bearbeiten** wird in <span class="preview"> neuen -Version geöffnet. Führen Sie einen der folgenden Schritte aus:</span>
-
-   <div class="preview">
+   Das **Aufgaben bearbeiten** wird in der neuen -Version geöffnet. Führen Sie einen der folgenden Schritte aus:
 
    * Um Verantwortliche hinzuzufügen, fangen Sie an, den Namen eines Verantwortlichen in das Feld **Personen, Rollen oder Teams suchen** einzugeben und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
    * Um Bevollmächtigte zu entfernen, klicken Sie auf das **x**-Symbol rechts neben ihrem Namen. In der Liste werden nur Personen angezeigt, die allen Aufgaben gemeinsam sind.
    * Klicken Sie auf Mir zuweisen , um sich die ausgewählten Aufgaben selbst zuzuweisen.
 
-   </div>
+1. (Bedingt) Klicken Sie bei Verwendung der neuen -Version auf **Speichern**.
 
-1. <span class="preview">(Bedingt) Klicken Sie bei Verwendung der neuen -Version auf **Speichern**.</span>
+1. (Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten** auf.
 
-1. <span class="preview">(Optional) Klicken Sie **Wechseln zu alter**) unten im Feld **Aufgaben bearbeiten**.</span>
+   Das **Aufgaben bearbeiten** wird in der alten Version geöffnet.
 
-   <span class="preview">Das Feld **Aufgaben bearbeiten** wird in der alten Version geöffnet.</span>
-
+   <!--
    >[!TIP]
    >
-   >Das alte Erlebnis ist standardmäßig in der Produktionsumgebung verfügbar.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Bedingt) Gehen Sie in der alten Version wie folgt vor, um die Empfänger zu ändern:
 
@@ -192,7 +191,7 @@ When assigning users to work, their availability according to their schedules af
 
         Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+        Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
    1. (Optional) Ändern Sie eine der folgenden Optionen für Verantwortliche:
 

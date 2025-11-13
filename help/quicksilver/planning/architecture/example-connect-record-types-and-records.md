@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 0%
+source-wordcount: '2050'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ In diesem Artikel wird ein Beispiel für Folgendes beschrieben:
 Weitere Informationen finden Sie auch in den folgenden Artikeln:
 
 * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
+* [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 
 ## Verbinden von zwei Workfront Planning-Datensatztypen und -Datensätzen (Beispiel)
 
@@ -53,7 +53,7 @@ Gehen Sie dazu folgendermaßen vor:
 
      >[!NOTE]
      >
-     >Die Option **Verbindungstyp** ist beim Verbinden von Datensätzen aus verschiedenen Arbeitsbereichen oder beim Verbinden von Experience Manager-Assets nicht verfügbar. Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     >Die Option **Verbindungstyp** ist beim Verbinden von Datensätzen aus verschiedenen Arbeitsbereichen oder beim Verbinden von Experience Manager-Assets oder GenStudio-Marken nicht verfügbar. Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Erscheinungsbild aufzeichnen**: Wählen Sie aus den folgenden Optionen:
       * **Name und Bild**: Zeigt den Namen und die Miniaturansicht oder das Symbol der verbundenen Datensätze an. Dies ist standardmäßig ausgewählt.
@@ -88,7 +88,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Kampagne) eine Kampagne, indem Sie eine neue Zeile zur Tabelle des Kampagnendatensatztyps hinzufügen.
 
@@ -180,7 +180,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Datensatztyps (Campaign) eine Kampagne, indem Sie eine neue Zeile in der Tabelle hinzufügen.
 

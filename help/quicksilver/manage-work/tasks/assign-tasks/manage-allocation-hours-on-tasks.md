@@ -6,9 +6,9 @@ description: Wenn Sie einer Aufgabe Benutzer oder Rollen zuweisen, wird ihnen ei
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource an einem Vorgang arbeiten soll. Die Stunden stellen die Zeit dar, die einem Benutzer an einem bestimmten Tag oder Wochentag, einer bestimmten Woche oder einem bestimmten Monat während der Dauer der Aufgabe zugewiesen wird.
 
@@ -61,7 +61,7 @@ Sie können die Zuordnungsstunden ändern, wenn Sie erweiterte Zuweisungen für 
   <tr> 
    <td>Objektberechtigungen</td>
    <td><p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p>
-   <p>Bearbeiten Sie die Berechtigungen, um beim Bearbeiten von Aufgaben im Feld Aufgabe bearbeiten (mithilfe <span class="preview"> alten Erlebnisses) die Zuordnungsstunden zu aktualisieren. Sie können die Zuordnungsstunden im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</span></p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
+   <p>Bearbeiten Sie die Berechtigungen, um beim Bearbeiten von Aufgaben mit dem alten Erlebnis die Zuordnungsstunden im Feld Aufgabe bearbeiten zu aktualisieren. Sie können die Zuordnungsstunden im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
   </tr>
  </tbody>
 </table>

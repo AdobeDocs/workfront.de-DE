@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2156'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Sie können Benutzern, Aufgabengebieten oder Teams Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
@@ -236,13 +236,13 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. Mehrere Aufgaben in der Aufgabenliste auswählen.
 1. Klicken Sie auf **Bearbeiten**.
 
-   Das **Aufgaben bearbeiten** Dialogfeld wird <span class="preview">in der neuen -Version) geöffnet</span>
+   Das **Aufgaben bearbeiten** wird in der neuen -Version geöffnet.
 
-1. Weisen Sie weitere Aufgaben zu <span class="preview">mithilfe der neuen -Version.</span>
+1. Weisen Sie weitere Aufgaben mithilfe der neuen -Version zu.
 
-   <span class="preview">Weitere Informationen finden Sie im Abschnitt [Massenzuweisung mehrerer Aufgaben aus einer Liste in der neuen &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in diesem Artikel.</span>
+   Weitere Informationen finden Sie im Abschnitt [Massenzuweisung mehrerer Aufgaben aus einer Liste in der neuen -](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in diesem Artikel.
 
-1. <span class="preview">(Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten**, um das alte Erlebnis zu öffnen.</span>
+1. (Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten**, um das alte Erlebnis zu öffnen.
 
    >[!TIP]
    >
@@ -266,7 +266,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    >
    >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben oder wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&quot; eine Rolle aus, die der Benutzer bei der Aufgabe erfüllen soll** wenn Sie Benutzer Aufgaben zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
@@ -279,11 +279,9 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. (Optional und bedingt) Wenn die Felder Zugewiesen an oder Zuweisungen in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das Symbol **X** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
 
 
-<div class="preview">
-
 ### Massenzuweisung mehrerer Aufgaben aus einer Liste in der neuen -Version
 
-1. Navigieren Sie zu einer Liste von Aufgaben, die Sie in der Vorschau-Umgebung stapelweise zuweisen möchten.
+1. Navigieren Sie zu einer Liste von Aufgaben, die Sie stapelweise zuweisen möchten.
 1. (Bedingt) Stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist, wenn Sie sich in einer Liste von Aufgaben unter einem Projekt befinden.
 
    >[!IMPORTANT]
@@ -307,7 +305,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. Klicken Sie in das **Dauertyp** und wählen Sie einen Dauertyp aus.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Bedingt) Aktualisieren Sie je nach **von** ausgewählten „Dauertyp“ die folgenden Felder:
 
@@ -319,10 +317,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. (Optional) Wenn Sie vorhandene Verantwortliche aus allen Aufgaben entfernen möchten, klicken Sie auf das **x** neben ihrem Namen im Feld **Personen, Rollen oder Teams suchen**.
 
 1. Klicken Sie auf **Speichern**.
-1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
-
-
-</div>
+1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen
 
 
 <!--

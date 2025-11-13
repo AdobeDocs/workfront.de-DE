@@ -6,9 +6,9 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2851'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+<div class="preview"> 
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Liste angezeigten Felder bearbeiten. Weitere Informationen zu anderen Bearbeitungsmöglichkeiten für Aufgaben finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -300,7 +302,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -408,7 +410,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -507,18 +509,16 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
    >Beim manuellen Speichern von Aufgaben können Sie Aufgaben nicht stapelweise bearbeiten.
 
 1. Wählen Sie mehrere Aufgaben in der Aufgabenliste aus.
-1. <span class="preview">(Optional) Klicken Sie oben in der Aufgabenliste auf **Mehr** Menü ![Mehr](assets/more-icon.png) und anschließend auf **Ausdrücke neu berechnen**, um alle Informationen in berechneten benutzerdefinierten Feldern zu aktualisieren.</span>
-1. Klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png). Das **Aufgaben bearbeiten** Dialogfeld wird <span class="preview">in der neuen -Version</span> geöffnet.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) oben in der Aufgabenliste und dann auf **Ausdrücke neu berechnen**, um alle Informationen in berechneten benutzerdefinierten Feldern zu aktualisieren.
+1. Klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png). Das **Aufgaben bearbeiten** wird in der neuen -Version geöffnet.
 
    Die Bearbeitung der Informationen für alle Aufgaben ist identisch mit der Bearbeitung der Informationen für eine Aufgabe.
 
    Weitere Informationen zum Bearbeiten einer Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Bedingt) Gehen Sie in der neuen -Version wie folgt vor:</span>
+1. (Bedingt) Gehen Sie in der neuen -Version wie folgt vor:
 
    1. Geben Sie die Informationen an, die Sie für alle ausgewählten Aufgaben in einem der folgenden Bereiche ändern möchten:
-
-      <div class="preview">
 
       * Übersicht
       * Arbeitsaufträge
@@ -528,9 +528,6 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
       * Einstellungen
       * Kommentar
 
-      </div>
-
-
       >[!NOTE]
       >
       >* Die Informationen, die Sie zu allen ausgewählten Aufgaben ändern, überschreiben die vorhandenen Informationen zu einzelnen Aufgaben, mit Ausnahme des Felds **Arbeitsaufträge**. Wenn Sie einen neuen Verantwortlichen in der Massenbearbeitung hinzufügen, wird dieser Verantwortliche allen ausgewählten Aufgaben hinzugefügt. Wenn den ausgewählten Aufgaben andere Verantwortliche zugewiesen werden, bleiben diese zusätzlich zu der durch Massenbearbeitung hinzugefügten zugewiesen.
@@ -539,10 +536,10 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
       >* In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Wenn die ausgewählten Aufgaben keine benutzerdefinierten Formulare gemeinsam haben, werden in diesem Abschnitt keine Formulare aufgelistet.
       >* Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Aufgaben angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.  Informationen zur Massenbearbeitung benutzerdefinierter Formulare finden Sie unter [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   1. <span class="preview">Klicken Sie auf **Speichern**.</span>
-   1. <span class="preview">(Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld Aufgaben bearbeiten.</span>
+   1. Klicken Sie auf **Speichern**.
+   1. (Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten**.
 
-1. <span class="preview">(Bedingt) Gehen Sie in der alten -Version wie folgt vor:</span>
+1. (Bedingt) Gehen Sie in der alten -Version wie folgt vor:
 
    1. Geben Sie die Informationen an, die Sie für alle ausgewählten Aufgaben in einem der folgenden Bereiche ändern möchten:
 

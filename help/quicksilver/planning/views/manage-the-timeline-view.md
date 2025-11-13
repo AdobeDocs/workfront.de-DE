@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 2%
 
 ---
@@ -422,7 +422,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -563,6 +563,8 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
   Beispielsweise sind Aufgaben mit Projekten in Workfront verbunden. Mit der Aufschlüsselungsfunktion können Sie Projekte anzeigen, die mit Kampagnen in Planning verbunden sind, aber keine Aufgaben, die mit Projekten in Workfront verbunden sind.
 
   Wenn Sie sowohl Portfolios als auch Projekte in der Zeitleistenansicht eines Workfront Planning-Datensatztyps anzeigen möchten, müssen sowohl die Portfolios als auch die Projekte mit dem Planning-Datensatz oder mit einem Datensatz verbunden sein, der mit dem Planning-Datensatz verknüpft ist, dessen Zeitleistenansicht Sie verwalten.
+* Sie können keine Adobe GenStudio Brands anzeigen, die mit Planning-Datensatztypen verbunden sind.
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Sie können nur Datensatztypen anzeigen, die mit mindestens zwei Datumsfeldern verknüpft sind.
 * Die Datumsfelder für die Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Nachschlagefelder sichtbar sein.
 * Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge sortiert sein. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.
@@ -571,7 +573,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

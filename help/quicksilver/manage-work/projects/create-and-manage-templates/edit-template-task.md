@@ -7,9 +7,9 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 4%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Nachdem Sie eine Vorlage erstellt haben, können Sie die Informationen zu den Vorlagenaufgaben bearbeiten. Die Informationen, die Sie bei einer Vorlagenaufgabe aktualisieren, werden mit Projektaufgaben verknüpft, nachdem Sie die Vorlage zum Erstellen eines Projekts oder zum Anhängen der Vorlage an ein Projekt verwendet haben.
 
@@ -138,15 +138,21 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 1. (Optional) Um mehrere Vorlagenaufgaben in großen Mengen zu bearbeiten, wählen Sie mehrere Vorlagenaufgaben aus und klicken Sie dann **Bearbeiten** oben in der Vorlagenliste.
 1. (Bedingt) Um alle Informationen zu einer Vorlagenaufgabe oder zu mehreren Aufgaben gleichzeitig zu bearbeiten, wählen Sie diese aus einer Liste aus und klicken Sie dann oben in der Liste auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png).
 
-   Das **Vorlagenaufgabe bearbeiten** wird angezeigt.
+   Das **Vorlagenaufgabe bearbeiten** wird in der neuen -Version angezeigt.
+
+   ![Neues Erlebnis für Vorlagenaufgabe bearbeiten](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >Sie können auch eine Vorlagenaufgabe in einer Liste auswählen und dann rechts neben dem Namen der Vorlagenaufgabe in der Kopfzeile auf **Bearbeiten** klicken, um das Feld **Vorlagenaufgabe bearbeiten** zu öffnen.
 
+   Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des neuen Erlebnisses](#edit-a-template-task-using-the-new-experience) in diesem Artikel beschrieben.
+
+1. (Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Vorlagenaufgabe bearbeiten**, um das Feld **Vorlagenaufgabe bearbeiten** im alten Erlebnis zu öffnen.
+
    ![Vorlagenaufgabe bearbeiten](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Bedingt) Geben Sie in der Produktionsumgebung Informationen in einem der folgenden Abschnitte an:
+1. Erwägen Sie, Informationen in einem der folgenden Abschnitte anzugeben:
 
    * [Übersicht](#overview)
    * [Finanzielle Details](#finance)
@@ -156,9 +162,6 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
    * [Kommentar](#comment)
 
 1. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses](#edit-a-template-task-using-the-old-experience) in diesem Artikel beschrieben.
-
-1. <span class="preview">(Bedingt) In der Vorschau -Umgebung wird das Feld Vorlagenaufgabe bearbeiten in der neuen -Version geöffnet. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie [&#x200B; Abschnitt „Bearbeiten einer Vorlagenaufgabe mit dem neuen Erlebnis](#edit-a-template-task-using-the-new-experience) in diesem Artikel beschrieben</span>
-1. <span class="preview">(Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Vorlagenaufgabe bearbeiten**, um das Feld **Vorlagenaufgabe bearbeiten** im alten Erlebnis zu öffnen. Fahren Sie mit der Bearbeitung der Vorlagenaufgabe fort, wie im Abschnitt [Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses](#edit-a-template-task-using-the-old-experience) in diesem Artikel beschrieben.</span>
 
 ### Bearbeiten einer Vorlagenaufgabe mithilfe des alten Erlebnisses
 
@@ -438,8 +441,6 @@ Die Formulare werden automatisch zu den Aufgaben hinzugefügt, die aus der Vorla
 1. Klicken Sie auf **Änderungen speichern**.
 
    Wenn Sie oder ein anderer Benutzer ein Projekt aus dieser Vorlage erstellt, werden alle Einstellungen, die Sie auf Vorlagenaufgaben angewendet haben, zu den Einstellungen für die Projektaufgaben.
-
-<div class="preview">
 
 ### Bearbeiten einer Vorlagenaufgabe mithilfe der neuen Benutzeroberfläche
 
@@ -767,4 +768,3 @@ Die Formulare werden automatisch zu den Aufgaben hinzugefügt, die aus der Vorla
 
    Wenn Sie oder ein anderer Benutzer ein Projekt aus dieser Vorlage erstellt, werden alle Einstellungen, die Sie auf Vorlagenaufgaben angewendet haben, zu den Einstellungen für die Projektaufgaben.
 
-</div>

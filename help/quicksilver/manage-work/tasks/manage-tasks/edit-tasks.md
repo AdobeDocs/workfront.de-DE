@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 4%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über die Berechtigung Beitragen oder Verwalten verfügen.
 
@@ -377,19 +377,17 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
 1. Klicken Sie **linken** auf „Arbeitsaufträge“.
 
-   <span class="preview">Der Bereich Arbeitsaufträge wird in der neuen -Version geöffnet.</span>
+   Der Bereich Arbeitsaufträge wird in der neuen -Version geöffnet.
 
 1. (Bedingt) Gehen Sie mithilfe der neuen -Version wie folgt vor:
 
-   1. <span class="preview">Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Aufgabengebiets oder Teams in das Feld **Personen, Rollen oder Teams suchen** und wählen Sie sie aus, wenn sie in der Liste angezeigt werden</span>
+   1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, Aufgabengebiets oder Teams in das Feld **Personen, Rollen oder Teams suchen** und wählen Sie sie aus, wenn sie in der Liste angezeigt werden
 
       Oder
 
-      <span class="preview">Klicken Sie auf **Mir zuweisen**, um sich die Aufgabe selbst zuzuweisen. </span>
+      Klicken Sie **Mir zuweisen**, um sich die Aufgabe selbst zuzuweisen.
 
-   1. <span class="preview">Aktualisieren Sie die folgenden Informationen:</span>
-
-      <div class="preview">
+   1. Aktualisieren Sie die folgenden Informationen:
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgabe bearbeiten**. </span>
-      <span class="preview">Der Bereich Arbeitsaufträge wird im alten Erlebnis geöffnet. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgabe bearbeiten** auf.
+Der Bereich Arbeitsaufträge wird im alten Erlebnis geöffnet.
+      ![Arbeitsauftrag im Feld Aufgabe bearbeiten](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klicken Sie auf **Personen, Rollen oder Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn er/sie in der Liste angezeigt wird.
 
@@ -670,7 +667,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
    </tbody>
    </table>
 
-1. Klicken Sie **Änderungen speichern** <span class="preview"> oder **Speichern** </span> oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Benutzerdefinierte Formulare
 
@@ -695,7 +692,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -738,7 +735,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -804,7 +801,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)

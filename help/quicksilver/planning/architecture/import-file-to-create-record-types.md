@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -134,8 +134,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * Verbindungsfelder zu Workfront- und AEM Assets-Objekttypen.
-   * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
+   * Verbindungsfelder zu Workfront, AEM Assets-Objekttypen oder GenStudio Brands.
+   * Suchfelder aus verbundenen Planungsdatensätzen, Workfront, AEM Assets-Objekten oder GenStudio-Marken.
    * Formelfelder
    * Erstellungsdatum, Erstellt von
    * Datum der letzten Änderung, letzte Änderung von
@@ -190,7 +190,7 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
    >[!TIP]
    >
-   >Sie können nur Felder aus Workfront Planning-verbundenen Datensätzen zuordnen. Sie können keine Felder von Workfront- oder AEM Assets-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.
+   >Sie können nur Felder aus Workfront Planning-verbundenen Datensätzen zuordnen. Sie können keine Felder von Workfront-, AEM Assets- oder GenStudio Brands-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.
 
 1. (Bedingt) Klicken Sie nach dem Aktualisieren der Feldinformationen auf **Speichern**.
 

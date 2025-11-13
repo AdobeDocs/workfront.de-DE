@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1271'
 ht-degree: 1%
 
 ---
@@ -87,15 +87,8 @@ Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten fin
    <td> 
 <p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
-<tr> 
-<td> 
-   <p> Zusätzliche Produkte</p> </td> 
-   <td> 
-    <p>Zusätzlich zu Adobe Workfront müssen Sie über eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront verfügen, um AEM Assets mit Planungsdatensätzen zu verbinden.</p>
-    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p>
-   </td> 
-  </tr>   
+   </td>
+
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
@@ -192,7 +185,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Projekte oder Portfolios h
 
 * Datensatztypen, die mit Workfront-Projekten, -Portfolios oder -Programmen verbunden sind. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Datensätze für die mit Workfront-Objekten verbundenen Datensatztypen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 ## Erstellen Sie Projekte, während Sie sie mit Datensätzen aus Workfront Planning verbinden
 
