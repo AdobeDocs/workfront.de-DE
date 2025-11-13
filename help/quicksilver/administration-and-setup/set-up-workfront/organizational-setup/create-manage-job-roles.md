@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Mit Version 25.11 wird die Überschreibungswährung für Aufgabengebiete in der Produktion eingestellt. (Die Einstellung erfolgt am 30. Oktober in der Vorschau-Umgebung.) Anstatt eine Basiswährung zu haben und Währungen zu überschreiben, steht für Aufgabengebiete eine Währung zur Verfügung, und die Kosten und Abrechnungssätze werden mit dieser Währung definiert.
+>Mit Version 25.11 wurde die Überschreibungswährung für Aufgabengebiete in der Produktionsumgebung eingestellt. (Die Einstellung erfolgte am 30. Oktober in der Vorschau-Umgebung.) Anstatt eine Basiswährung zu haben und Währungen zu überschreiben, ist jetzt eine Währung für Aufgabengebiete verfügbar und die Kosten- und Abrechnungssätze werden mit dieser Währung definiert.
 
 Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete erstellen, die Benutzern zugewiesen werden können, und Standardaufgabengebiete löschen, die für Ihr Unternehmen nicht relevant sind. Informationen zum administrativen Zugriff in [!DNL Workfront] finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+>[!TIP]
+>
+>Aufgabengebiete sind ein integraler Bestandteil der Verwaltung von Ressourcen. Um die Ressourcenplanungs-Tools verwenden zu können, müssen den Aufgabengebieten Kosten und Abrechnungssätze zugeordnet sein. Weitere Informationen finden Sie [Erste Schritte mit der Ressourcenverwaltung](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 ## Zugriffsanforderungen
 
@@ -42,7 +46,7 @@ Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabe
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -76,65 +80,64 @@ So erstellen Sie ein Aufgabengebiet:
 
      Informationen zur Deaktivierung von Aufgabengebieten finden Sie unter [Deaktivieren von Aufgabengebieten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Basiswährung**: Dies ist die Basiswährung, die von Ihrem Workfront-Administrator im Bereich „Setup“ festgelegt wurde. Weitere Informationen finden Sie [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   * **Währung**: Die Basiswährung wird standardmäßig angezeigt. Der Workfront-Administrator fügt die Basiswährung im Bereich „Setup“ hinzu. Sie können die Auswahl in eine andere verfügbare Währung ändern und die Währung in gültigen Datumsbereichen ändern.
 
      >[!TIP]
      >
-     >Die Basiswährung kann nicht auf Aufgabengebiet-Ebene bearbeitet werden. Dieses Feld ist abgeblendet und dient als Erinnerung daran, was die Basiswährung für Ihr System ist.
+     >In diesem Feld sind nur Währungen verfügbar, die im Bereich Wechselkurse Ihres Systems verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, ist nur diese Währung verfügbar.
 
-   * **Kostensatz**: Der Kostensatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit der Funktion sowie letztendlich die geplanten Kosten und Istkosten der Projekte. Geben Sie den Kurs unter Verwendung der Basiswährung ein.
+     Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+   * **Kostensatz**: Der Kostensatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit der Funktion sowie letztendlich die geplanten Kosten und Istkosten der Projekte. Geben Sie den Kurs in der gewählten Währung ein.
 
      Klicken Sie für gültige Datumssätze auf &quot;**hinzufügen**. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.
 
      Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit dem Startdatum 1. Mai 2025 hinzufügen, wird dem ersten Kostensatz das Enddatum 30. April 2025 hinzugefügt, damit keine Lücken entstehen.
 
+     Weitere Informationen zur Kostenberechnung in Workfront finden Sie unter [Kosten nachverfolgen](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
      >[!TIP]
      >
-     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie **Sortieren nach Startdatum** auswählen, um das neueste Startdatum oben in der Tarifliste anzuzeigen.
+     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie die Liste sortieren, damit das neueste Startdatum oben in der Tarifliste angezeigt wird.
 
-   * **Abrechnungssatz**: Der Abrechnungssatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztendlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Kurs unter Verwendung der Basiswährung ein.
+   * **Abrechnungssatz**: Der Abrechnungssatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztendlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Kurs in der gewählten Währung ein.
 
      Klicken Sie für Abrechnungssätze mit Gültigkeitsdatum auf **Abrechnungssatz hinzufügen**. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Abrechnungssatz hat kein Startdatum und der letzte Abrechnungssatz hat kein Enddatum.
 
      Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungssatz kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2025 hinzufügen, wird dem ersten Abrechnungssatz das Enddatum 30. April 2025 hinzugefügt, sodass keine Lücken bestehen.
 
-     >[!TIP]
-     >
-     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie **Sortieren nach Startdatum** auswählen, um das neueste Startdatum oben in der Tarifliste anzuzeigen.
-
-   * **Währung überschreiben**: Wählen Sie eine Währung aus, die mit diesem Aufgabengebiet verknüpft ist. Dies ist die Währung, die Workfront zur Berechnung der Kosten und Einnahmen im Zusammenhang mit diesem Aufgabengebiet verwendet.
-
-     Diese Währung unterscheidet sich von der Basiswährung, die von Ihrem Workfront-Administrator im Bereich „Setup“ festgelegt wurde, und kann sich von der einem Projekt zugeordneten Währung unterscheiden.
-
-     >[!TIP]
-     >
-     >In diesem Feld sind nur Währungen verfügbar, die im Bereich Wechselkurse Ihres Systems verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, wird dieses Feld nicht angezeigt.
-
-     Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-
-   * **Währungskostensatz überschreiben**: Dies ist der Kostensatz pro Stunde für das Aufgabengebiet unter Verwendung der ausgewählten Überschreibungswährung. Workfront verwendet diesen Wert, um die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit dem Aufgabengebiet zu berechnen.
-
-     Geben Sie den Kurs in die oben angegebene Währung zum Überschreiben ein. Dadurch wird auch der Kostensatz für dieses Aufgabengebiet bei Verwendung der Basiswährung aktualisiert.
-
-     Weitere Informationen zur Kostenberechnung in Workfront finden Sie unter [Kosten nachverfolgen](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >Beim Aktualisieren eines bestehenden Aufgabengebiets, dem bereits ein Kostensatz zugeordnet ist, berechnet Workfront den Wechselkurs zum Überschreiben der Währung anhand des Konversionssatzes in Ihrem System. Wenn Sie den Kostensatz Währung überschreiben aktualisieren, wird auch der Kostensatz des Aufgabengebiets automatisch aktualisiert.
-
-   * **Währung überschreiben Abrechnungssatz**: Dies ist der Abrechnungssatz pro Stunde für das Aufgabengebiet unter Verwendung der ausgewählten Überschreibungswährung. Workfront verwendet diesen Wert, um den geplanten und tatsächlichen Umsatz von Aufgaben und Problemen im Zusammenhang mit dem Aufgabengebiet zu berechnen.
-
-     Geben Sie den Kurs in die oben angegebene Währung zum Überschreiben ein. Dadurch wird auch der Abrechnungssatz für dieses Aufgabengebiet aktualisiert, wenn die Basiswährung verwendet wird.
-
      Informationen zur Umsatzberechnung in Workfront finden Sie unter [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
      >[!TIP]
      >
-     >Beim Aktualisieren eines bestehenden Aufgabengebiets, dem bereits ein Abrechnungssatz zugeordnet ist, berechnet Workfront den Überschreibungswährungssatz auf der Grundlage des Konversionssatzes in Ihrem System. Wenn Sie den Abrechnungssatz Währung überschreiben aktualisieren, wird auch der Abrechnungssatz des Aufgabengebiets automatisch aktualisiert.
+     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie die Liste sortieren, damit das neueste Startdatum oben in der Tarifliste angezeigt wird.
+
+1. Klicken Sie **[!UICONTROL Aufgabengebiet erstellen]**. Das Aufgabengebiet kann jetzt Aufgaben, Problemen, Genehmigungen zugewiesen werden oder Sie können Layout-Vorlagen oder andere Objekte für das Aufgabengebiet freigeben. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Informationen zum Löschen eines Aufgabengebiets finden Sie unter [Aufgabengebiet löschen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -197,27 +200,5 @@ So erstellen Sie ein Aufgabengebiet:
    </table>
 -->
 
->[!TIP]
->
->Aufgabengebiete sind ein integraler Bestandteil der Verwaltung von Ressourcen. Um die Ressourcenplanungs-Tools verwenden zu können, müssen den Aufgabengebieten Kosten und Abrechnungssätze zugeordnet sein. Weitere Informationen finden Sie [Erste Schritte mit der Ressourcenverwaltung](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Klicken Sie **[!UICONTROL Aufgabengebiet erstellen]**. Das Aufgabengebiet kann jetzt Aufgaben, Problemen, Genehmigungen zugewiesen werden oder Sie können Layout-Vorlagen oder andere Objekte für das Aufgabengebiet freigeben. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Informationen zum Löschen eines Aufgabengebiets finden Sie unter [Aufgabengebiet löschen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Delete a job role</h2>
-<ol data-mc-continue="false">
-<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
-<li value="2">Click<strong>Job Roles.</strong></li>
-<li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
-<ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
-Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-</note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
-</ul></li>
-<li value="5">Click  <strong>Yes, Delete It</strong>. </li>
-</ol>
-</div>
--->
