@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 469242118429fa37835766737b88d35d2baefb69
+source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: '1010'
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 0%
 Artikel mit Anleitungen zur Workfront-Dokumentation enthalten eine Tabelle, in der die für dieses Verfahren erforderlichen Zugriffs- und Berechtigungsanforderungen erläutert werden. In dieser Tabelle mit den Zugriffsanforderungen erfahren Sie, ob Sie eine bestimmte Aktion in Workfront durchführen können oder warum dies nicht möglich ist. In diesem Artikel werden die einzelnen Elemente der Tabelle mit den Zugriffsanforderungen erläutert und Tipps zur Fehlerbehebung sowie Links zu detaillierteren Informationen bereitgestellt.
 
 Wenn in der Tabelle mit den Zugriffsanforderungen in einem bestimmten Artikel eine Zeile fehlt, gibt es für diese Aktion keine Anforderungen dieses Typs.
-
-Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktuell“. Dies liegt daran, dass Workfront derzeit auf ein neues Preis- und Verpackungsmodell umstellt, wobei einige Unternehmen das neue Modell verwenden und andere das aktuelle Modell noch verwenden. Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welches Modell Ihr Unternehmen verwendet. Details und Links zu Informationen finden Sie im Abschnitt [Tabelle mit den Zugriffsanforderungen](#the-access-requirements-table) dieses Artikels.
 
 >[!NOTE]
 >
@@ -37,16 +35,16 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> Adobe Workfront-Pakete beziehen sich auf die von Ihrem Unternehmen erworbenen Funktionen. Die meisten Workfront-Funktionen sind in allen Packages verfügbar, mit wenigen Ausnahmen, die sich hauptsächlich auf die strategische Planung und Unternehmenssteuerung beziehen. <p>Pakete, die vor 2022 existierten, werden nicht aufgelistet.</p>
-   <p>Workfront-Pakete sind in drei Bereiche unterteilt. Jeder Bereich bietet verschiedene Pakete wie Select, Prime und Ultimate.<p>
+   <p>Workfront-Pakete sind in drei Bereiche unterteilt. Einige Bereiche bieten verschiedene Pakete an, z. B. Select, Prime und Ultimate.<p>
    <ul>
-   <li><b>Workfront-Workflow</b>: Enthält Funktionen im Zusammenhang mit Vorgängen wie Aufgabenverwaltung, Genehmigungen und Arbeitszeittabellen.</li>
-   <li><b>Workfront Planning</b>: Enthält Funktionen für die strategische Planung.</li>
+   <li><b>Workfront-Workflow</b>: Enthält Funktionen im Zusammenhang mit Vorgängen wie Aufgabenverwaltung, Genehmigungen und Arbeitszeittabellen. Dieses Paket ist weiter unterteilt in die Workflow-Select-, Workflow-Prime- und Workflow-Ultimate-Pakete.</li>
+   <li><b>Workfront Planning</b>: Enthält Funktionen für die strategische Planung. Dieses Paket ist in die Pakete Planning Select, Planning Prime und Planning Ultimate unterteilt.</li>
    <li><b>Automatisierung und Integration von Workfront</b>: Umfasst Funktionen zur Automatisierung von Prozessen und zur Integration mit anderen Anwendungen.</li>
    </ul>
   <p>Ihr Unternehmen hat möglicherweise ein Workfront-Paket in einem oder mehreren dieser Bereiche erworben.</p>
   <p>Zuvor bot Workfront Workfront Select-, Workfront Prime- und Workfront Ultimate-Pakete an, ohne zwischen Workflow, Planung sowie Automatisierung und Integration zu unterscheiden. Ihr Unternehmen verwendet möglicherweise eines dieser Legacy-Pakete. 
    <ul><li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welches Adobe Workfront-Paket Ihr Unternehmen verwendet, einschließlich der Frage, ob Ihr Unternehmen das aktuelle oder das veraltete Paketmodell verwendet.</li>
-   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/de/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
+   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -97,7 +95,7 @@ Einige Zeilen enthalten Informationen mit der Beschriftung „Neu“ und „Aktu
    <ul><li>Das aktuelle Lizenzmodell basiert auf der Anzahl der durchgeführten Vorgänge und hat keine Einschränkungen bezüglich der möglichen Aktionen einer Organisation. </li>
    <li>Legacy-Lizenzen basieren darauf, ob Szenarien mit Anwendungen von Drittanbietern verbunden werden können oder ob die Szenarien nur für die Automatisierung von Workfront verwendet werden. </li>
    </ul>
-   Informationen zur Fusion-Lizenzierung finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-Lizenzen</a>.
+   Informationen zur Fusion-Lizenzierung finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion-Lizenzen</a>.
    </td> 
   </tr> 
  </tbody> 
