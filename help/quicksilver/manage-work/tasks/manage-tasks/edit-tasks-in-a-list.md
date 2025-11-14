@@ -6,10 +6,10 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '2851'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie d
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie d
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard<p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -124,9 +124,9 @@ Beachten Sie beim Bearbeiten von Aufgaben in einer Liste Folgendes:
 
   Sie können sich entscheiden, ob Workfront die von Ihnen vorgenommenen Änderungen wie folgt speichert:
 
-      * Automatisch, nach jeder Änderung
-     * Manuell, erst nachdem Sie auf Speichern geklickt haben.
-  
+   * Automatisch, nach jeder Änderung
+   * Manuell, erst nachdem Sie auf Speichern geklickt haben.
+
   Informationen zum Konfigurieren, wann Workfront Änderungen an Aufgaben in einer Liste speichert, finden Sie im Abschnitt [Ändern des Planungsmodus vor dem Bearbeiten von Aufgaben in einer Liste](#modify-plan-mode-before-editing-tasks-in-a-list) in diesem Artikel.
 
 * Andere Benutzer müssen ihre Seiten aktualisieren, bevor sie die Aktualisierungen sehen können, die Sie an einer Aufgabe vornehmen.
@@ -302,7 +302,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -410,7 +410,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    Oder
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 

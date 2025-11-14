@@ -6,10 +6,10 @@ description: Navigieren innerhalb eines Portfolios
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 2%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 In [!DNL Adobe Workfront] stellt ein Portfolio eine Sammlung von Projekten dar, die um dieselben Ressourcen, Budgets, Zeitpläne und Prioritäten konkurrieren. Der Hauptzweck des Portfolios besteht darin, Führungskräfte und Projektmanager bei der Auswahl der Projekte zu unterstützen, die für eine Organisation den größten Nutzen bringen.
 
-Weitere Informationen zu Portfolios finden Sie unter [Portfoliomethodik &#x200B;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Weitere Informationen zu Portfolios finden Sie unter [Portfoliomethodik ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Zugriffsanforderungen
 
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Weitere Informationen zu Portfolios finden Sie unter [Portfoliomethodik &#x200B;
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard] </p>
-   <p>[!UICONTROL -Plan] </p> </td> 
+   <p>[!UICONTROL-Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -105,7 +105,7 @@ Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freige
 Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
 
    * Gibt an, ob das Portfolio [!UICONTROL rechtzeitig]
-   * Gibt an, ob das Portfolio &quot;[!UICONTROL &#x200B; Budget“ &#x200B;]
+   * Gibt an, ob das Portfolio &quot;[!UICONTROL  Budget“ ]
    * Die [!UICONTROL Rentabilität] (ROI)
    * Das Portfolio [!UICONTROL Ausrichtung]
    * Das Portfolio [!UICONTROL Nettowert]
@@ -130,8 +130,8 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
      Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klicken Sie **[!UICONTROL linken Bedienfeld]**&#x200B;Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
-Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
+1. Klicken Sie **[!UICONTROL linken Bedienfeld]**Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
+Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
 
 1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfolio]** Details im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefinierte Forms]**, um Informationen zum Portfolio zu bearbeiten.
 
@@ -141,16 +141,14 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x
 
    >[!IMPORTANT]
    >
-   >Ihr Unternehmen muss über die folgenden Pakete verfügen, um Zugriff auf [!UICONTROL Portfolio Optimizer zu erhalten]:
+   >Ihr Unternehmen muss über ein [!UICONTROL Prime] oder ein höheres [!DNL Workfront] verfügen, um Zugriff auf [!UICONTROL Portfolio Optimizer] zu erhalten.
    >
-   >[!UICONTROL Prime] oder höher [!DNL Workfront]\
-   >[!UICONTROL Unternehmen] oder höher [!DNL Workfront]
 
    Informationen zur Verwendung von Portfolio Optimizer finden Sie im [Verwalten von Projekten im Portfolio Optimizer: Artikelindex](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Optional) Klicken Sie **linken Bereich** Dokumente“, um Dokumente an das Portfolio anzuhängen.
 1. (Optional) Klicken Sie **[!UICONTROL linken]** auf „Updates“, um dem Aktualisierungsverlauf des Portfolios Kommentare hinzuzufügen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr ](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
 
    * Deaktivieren Sie das Portfolio. Wenn ein Portfolio deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen.
    * Löschen Sie das Portfolio.

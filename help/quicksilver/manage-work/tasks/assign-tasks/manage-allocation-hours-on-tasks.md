@@ -6,10 +6,10 @@ description: Wenn Sie einer Aufgabe Benutzer oder Rollen zuweisen, wird ihnen ei
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ Sie können die Zuordnungsstunden ändern, wenn Sie erweiterte Zuweisungen für 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können die Zuordnungsstunden ändern, wenn Sie erweiterte Zuweisungen für 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,10 @@ Sie können die Zuordnungsstunden ändern, wenn Sie erweiterte Zuweisungen für 
   <tr> 
    <td>Objektberechtigungen</td>
    <td><p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p>
-   <p>Bearbeiten Sie die Berechtigungen, um beim Bearbeiten von Aufgaben mit dem alten Erlebnis die Zuordnungsstunden im Feld Aufgabe bearbeiten zu aktualisieren. Sie können die Zuordnungsstunden im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
+   <p>Bearbeiten Sie die Berechtigungen, um beim Bearbeiten von Aufgaben mit dem alten Erlebnis die Zuordnungsstunden im Feld Aufgabe bearbeiten zu aktualisieren.</p> 
+   <p><b>NOTIZ</b></p>
+   <p>
+   Sie können die Zuordnungsstunden im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
   </tr>
  </tbody>
 </table>

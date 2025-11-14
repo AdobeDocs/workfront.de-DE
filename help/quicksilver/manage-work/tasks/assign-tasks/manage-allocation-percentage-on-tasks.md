@@ -6,10 +6,10 @@ description: Der Zuordnungsprozentsatz gibt an, wie lange eine zugewiesene Resso
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 6%
 
 ---
 
@@ -36,7 +36,7 @@ Sie können den Zuordnungsprozentsatz ändern, wenn Sie erweiterte Zuweisungen z
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können den Zuordnungsprozentsatz ändern, wenn Sie erweiterte Zuweisungen z
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,9 @@ Sie können den Zuordnungsprozentsatz ändern, wenn Sie erweiterte Zuweisungen z
   <tr> 
    <td>Objektberechtigungen</td>
    <td><p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p>
-   <p>Bearbeiten Sie die Berechtigungen, um den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten zu aktualisieren, wenn Sie Aufgaben mit dem alten Erlebnis bearbeiten. Sie können den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
+   <p>Bearbeiten Sie die Berechtigungen, um den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten zu aktualisieren, wenn Sie Aufgaben mit dem alten Erlebnis bearbeiten.</p>
+   <p><b>NOTIZ</b></p>
+   <p> Sie können den Zuordnungsprozentsatz im Feld Aufgabe bearbeiten nicht mehr verwalten, wenn Sie Aufgaben in der neuen -Version bearbeiten.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Aufgaben bearbeiten</a>.</p></td>
   </tr>
  </tbody>
 </table>

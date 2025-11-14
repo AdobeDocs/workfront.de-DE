@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über Folgendes verfügen, um Benutzenden Zugriff auf Workfront Goals zu gewähren:
 
@@ -30,33 +30,53 @@ Sie müssen über Folgendes verfügen, um Benutzenden Zugriff auf Workfront Goal
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-Plan</td> 
-   <td> <p>Pro oder höher</p> </td> 
+   <td role="rowheader">Workfront-Paket</td> 
+   <td> <p>Workfront oder Workflow-Ultimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Workfront-Ziele <p>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren. </p> <p>Workfront Goals ist nur in der neuen Adobe Workfront-Version verfügbar.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfiguration der Zugriffsebene*</td> 
-   <td> <p>Sie müssen über die Zugriffsebene „Systemadministrator“ verfügen.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Sie müssen über die Zugriffsebene „Systemadministrator“ verfügen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan, Lizenztyp oder welche Zugriffsebene Sie haben.
-
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Goals <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration*</td> 
+   <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Gewähren des Benutzerzugriffs auf Workfront-Ziele mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf die Option rechts neben **Ziele**, die Sie für diese Zugriffsebene verwenden möchten.
 
 
@@ -69,4 +89,9 @@ Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Vorausse
 
 ## Zugriff auf Workfront-Ziele nach Lizenztyp
 
-Ein Workfront-Administrator kann eine Zugriffsebene verwenden, um Benutzenden mit einer Plan-, Arbeits-, Anforderungs- oder Überprüfungslizenz Zugriff auf Workfront-Ziele zu gewähren.
+Ein Workfront-Administrator kann über eine Zugriffsebene Benutzenden mit den folgenden Lizenzen Zugriff auf Workfront-Ziele gewähren:
+
+* Standard, Licht, Mitwirkende
+* Lizenz planen, bearbeiten, anfordern oder überprüfen.
+
+Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).

@@ -7,7 +7,7 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '4633'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Sie können jeweils nur eine Vorlagenaufgabe bearbeiten oder Vorlagenaufgaben st
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -382,14 +382,14 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. Klicken Sie **Verantwortlichen hinzufügen**, um der Vorlagenaufgabe einen neuen Verantwortlichen hinzuzufügen. Sie können einer Aufgabe Benutzer, Rollen oder Teams zuweisen. Sie können mehrere Verantwortliche für eine Aufgabe haben. Den zukünftigen Aufgaben werden dieselben Ressourcen zugewiesen, wenn sie aus dieser Vorlagenaufgabe erstellt werden.
 1. (Optional) Wenn mehrere Verantwortliche vorhanden sind, wählen Sie das **Verantwortlicher**, um anzugeben, welcher Benutzer oder welche Rolle als Aufgabenbesitzer oder Primärer Verantwortlicher gilt. Workfront markiert den ersten Benutzer oder das erste Aufgabengebiet, das Sie einer Vorlagenaufgabe zuweisen, als Eigentümer oder Primärer Bevollmächtigter.
-1. (Bedingt und optional) Wenn Ihre Aufgabenbeschränkung „Berechnete Arbeit“ oder „Arbeitsaufwand“ ist, geben Sie **Zuordnung %** (Zuordnungsprozentsatz) für jeden Zugewiesenen an. Dies ist die Zeit aus dem Zeitplan des Verantwortlichen, die er für diese Aufgabe aufwenden kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, werden auch die geplanten Stunden einer Aufgabe geändert.
-1. (Bedingt und optional) Wenn Ihre Aufgabenbeschränkung „Einfach“ ist, geben Sie die **Stunden** jedes Verantwortlichen an
+1. (Bedingt und optional) Wenn Ihr **Dauertyp** &quot;**Arbeit“** &quot;**Leistungsgesteuert“**, geben Sie die **Zuordnung %** (Zuordnungsprozentsatz) für jeden Zugewiesenen an. Dies ist die Zeit aus dem Zeitplan des Verantwortlichen, die er für diese Aufgabe aufwenden kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, werden auch die geplanten Stunden einer Aufgabe geändert.
+1. (Bedingt und optional) Wenn Ihr **Dauertyp** &quot;**&quot; lautet** geben Sie die **Stunden** jedes Verantwortlichen an
 
    Oder
 
    Geben Sie die Gesamtzahl (**Stunden** für die Vorlagenaufgabe an. Dadurch wird die Gesamtstundenzahl gleichmäßig auf alle Bevollmächtigten verteilt.
 
-1. (Bedingt und optional) Wenn die Aufgabenbeschränkung „Einfach“ ist, geben Sie die **Dauer** der Vorlagenaufgabe in Tagen an. Dies wird die Dauer der Aufgabe, die aus dieser Vorlage erstellt wurde.
+1. (Bedingt und optional) Wenn Ihr **Dauertyp** „Einfach“ ist, geben Sie die **Dauer** der Vorlagenaufgabe in Tagen an. Dies wird die Dauer der Aufgabe, die aus dieser Vorlage erstellt wurde.
 1. (Optional) Wählen Sie eine Rolle aus **Dropdown-Menü „Rolle des Verantwortlichen** aus. Dies ist die Rolle, die der Beauftragte bei dieser zukünftigen Aufgabe erfüllen kann. Im Dropdown-Menü werden nur die Aufgabengebiete angezeigt, die jedem Bearbeiter in seinem Profil zugeordnet sind.
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -570,7 +570,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
 
    ![Vorlagenaufgabe - Zuweisungen bearbeiten](assets/template-task-edit-assignments.png)
 
-1. Geben Sie im Feld Personen, Funktionen oder Teams suchen den Namen eines Verantwortlichen ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird
+1. Beginnen Sie im Feld **Personen, Aufgabengebiete oder Teams suchen** den Namen eines Verantwortlichen einzugeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird
 
    Oder
 

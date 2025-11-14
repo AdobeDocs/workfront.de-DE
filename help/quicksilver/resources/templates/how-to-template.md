@@ -2,10 +2,10 @@
 title: [Aufgabentitel]
 description: [Aufgabentitel]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 1%
+source-wordcount: 144
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>[Beliebig, Pro, Unternehmen, Unternehmen] oder höher</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 

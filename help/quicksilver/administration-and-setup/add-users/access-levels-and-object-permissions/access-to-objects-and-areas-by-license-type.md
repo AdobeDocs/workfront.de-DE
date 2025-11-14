@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 24%
 
 ---
@@ -31,23 +31,23 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
 
   >[!NOTE]
   >
-  >Dieser Artikel enthält Informationen zum Objektzugriff für ältere Lizenztypen. Informationen zu den neuen Lizenztypen finden Sie unter [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+  >Dieser Artikel enthält Informationen zum Objektzugriff für ältere Lizenztypen. Informationen zu den neuen Lizenztypen finden Sie unter [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Plan | Arbeit | Überprüfung | Anfrage | Extern |
 |---|---|---|---|---|---|
-| Projekte | Bearbeiten | Bearbeiten (ohne Erstellungsberechtigungen) | Anzeigen | Anzeigen (nur die Detailseite) | Kein Zugriff |
-| Aufgaben | Bearbeiten | Bearbeiten | Anzeigen | Anzeigen | Anzeigen |
+| Projekte | Bearbeiten | Bearbeiten (ohne Erstellungsberechtigungen) | Ansicht | Anzeigen (nur die Detailseite) | Kein Zugriff |
+| Aufgaben | Bearbeiten | Bearbeiten | Ansicht | Ansicht | Kein Zugriff |
 | Probleme | Bearbeiten | Bearbeiten | Bearbeiten | Bearbeiten | Kein Zugriff |
-| Portfolios | Bearbeiten | Anzeigen | Anzeigen | Kein Zugriff | Kein Zugriff |
-| Programme | Bearbeiten | Anzeigen | Anzeigen | Kein Zugriff | Kein Zugriff |
-| Berichte, Dashboards und Kalender | Bearbeiten | Anzeigen | Anzeigen | Anzeigen&#42; | Anzeigen (nur für Kalender, keine Freigabeberechtigungen) |
+| Portfolios | Bearbeiten | Ansicht | Ansicht | Kein Zugriff | Kein Zugriff |
+| Programme | Bearbeiten | Ansicht | Ansicht | Kein Zugriff | Kein Zugriff |
+| Berichte, Dashboards und Kalender | Bearbeiten | Ansicht | Ansicht | Anzeigen&#42; | Anzeigen (nur für Kalender, keine Freigabeberechtigungen) |
 | Filter, Ansichten und Gruppierungen | Bearbeiten | Bearbeiten | Bearbeiten | Bearbeiten | Kein Zugriff |
 | Dokumente | Bearbeiten | Bearbeiten | Bearbeiten | Bearbeiten | Ansicht (keine Freigabeberechtigungen) |
-| Benutzende | Bearbeiten | Anzeigen | Anzeigen | Anzeigen | Anzeigen |
-| Teams | Bearbeiten | Bearbeiten | Anzeigen | Anzeigen | Kein Zugriff |
+| Benutzende | Bearbeiten | Ansicht | Ansicht | Ansicht | Ansicht |
+| Teams | Bearbeiten | Bearbeiten | Ansicht | Ansicht | Kein Zugriff |
 | Vorlagen | Bearbeiten | Kein Zugriff | Kein Zugriff | Kein Zugriff | Kein Zugriff |
-| Finanzdaten | Bearbeiten | Anzeigen (nur den Bereich „Finanzen“ in den Projektdetails) | Anzeigen | Kein Zugriff | Kein Zugriff |
-| Ressourcenverwaltung | Bearbeiten | Anzeigen | Anzeigen | Kein Zugriff | Kein Zugriff |
+| Finanzdaten | Bearbeiten | Anzeigen (nur den Bereich „Finanzen“ in den Projektdetails) | Ansicht | Kein Zugriff | Kein Zugriff |
+| Ressourcenverwaltung | Bearbeiten | Ansicht | Ansicht | Kein Zugriff | Kein Zugriff |
 | Szenarienplaner | Bearbeiten | Bearbeiten | Bearbeiten | Kein Zugriff | Kein Zugriff |
 | Workfront-Ziele | Bearbeiten | Bearbeiten | Bearbeiten | Bearbeiten | Kein Zugriff |
 

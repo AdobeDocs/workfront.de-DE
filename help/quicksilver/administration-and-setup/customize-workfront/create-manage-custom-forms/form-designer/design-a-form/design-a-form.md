@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '6933'
 ht-degree: 5%
@@ -25,7 +25,7 @@ Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,7 +127,7 @@ Jeder benutzerdefinierte Feldname muss in der Workfront-Instanz Ihres Unternehme
 >[!NOTE]
 >
 >Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, in dem jetzt in anderen Bereichen von Workfront darauf verwiesen werden kann.
->&#x200B;>Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
+>Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
 >
 >Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
 >
@@ -651,12 +651,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -985,7 +985,7 @@ Hinzufügen einer Adobe XD-Datei:
 >
 >Für den Zugriff auf Workfront Planning sind folgende Voraussetzungen erforderlich:
 >
->* Ein neuer Workfront-Plan und eine neue Lizenz. Workfront Planning ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
+>* Ein neues Workfront-Paket und eine neue Lizenz. Workfront Planning ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
 >* Ein Zusatzpaket für Workfront Planning.
 >* Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.
 >
@@ -1003,7 +1003,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 

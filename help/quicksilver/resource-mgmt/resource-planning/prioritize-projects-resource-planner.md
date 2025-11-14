@@ -6,10 +6,10 @@ description: Projekte werden im Ressourcenplaner nach Priorität geordnet aufgel
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 1%
+source-wordcount: '1282'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Projekte werden im Ressourcenplaner nach Priorität geordnet aufgelistet, wobei 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,9 +105,9 @@ So bearbeiten Sie die Projektplanungspriorität:
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über einen Business- oder höheren Workfront-Plan verfügen, um Projekte in Portfolio Optimizer zu priorisieren.
+>Ihr Unternehmen muss über ein Prime- oder ein höheres Workfront-Paket verfügen, um Projekte im Portfolio Optimizer zu priorisieren.
 >
->Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
+>Weitere Informationen zu den Workfront-Paketen finden Sie unter [Adobe Workfront-Pakete und Preise](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Informationen zum Priorisieren von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
