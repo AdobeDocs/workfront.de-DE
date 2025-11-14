@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -56,7 +56,7 @@ Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >[!TIP]
    >
    >Erweiterte Zuweisungen können direkt in der Aufgaben- oder Problemliste vorgenommen werden. Klicken Sie in das **Arbeitsaufträge**-Feld in derselben Zeile wie die Aufgabe oder das Problem und klicken Sie dann unten in der Liste auf **Erweitert** oder auf das **Personen**-Symbol in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Fenster „Erweiterte Arbeitsaufträge“ zu öffnen. Fahren Sie mit Schritt 5 fort, um mit dem Erstellen erweiterter Zuweisungen fortzufahren.
-   >![Klicken Sie auf Erweitert oder auf das Symbol Personen &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicken Sie auf Erweitert oder auf das Symbol Personen ](assets/access-aa-from-lists.png)
 
 1. Klicken Sie **Zuweisen zu** im Feld **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems
 
@@ -130,23 +130,19 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >   * Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
    >   * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
-    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-    -->
-
 1. Geben Sie für jeden Benutzer in der Spalte **Verantwortlicher** die folgenden Informationen an:
 
    * **Verantwortlicher**: Bewegen Sie den Mauszeiger über den Namen des Verantwortlichen und klicken Sie **Primär machen** im Feld „Verantwortlicher“, wenn Sie den Verantwortlichen als Aufgaben- oder Problembesitzer markieren möchten. Ein grünes Kontrollkästchen gibt an, dass der angegebene Benutzer der Primäre Ansprechpartner für die Aufgabe oder das Problem ist. Adobe Workfront markiert den ersten Benutzer oder das erste Aufgabengebiet, das Sie einer Aufgabe oder einem Problem zuweisen, als Inhaber oder Primäre Zuweisung. Ein Team kann nicht zum Primären Eigentümer einer Aufgabe oder eines Problems bestimmt werden.
 
      >[!IMPORTANT]
      >
-     >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt „Mehrere Benutzer einer Aufgabe zuweisen“ im Artikel &quot;[&#x200B; zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt „Mehrere Benutzer einer Aufgabe zuweisen“ im Artikel &quot;[ zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Zuteilungen**: Wenn der Dauertyp einer Aufgabe „Einfach“ ist, geben Sie die Anzahl der Stunden an, die jeder Benutzer oder jedes Aufgabengebiet der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer ist gleich der Zahl im Feld **Geplante Stunden** am unteren Rand der Spalte „Zuordnungen“. Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Beauftragte für die Lösung der Aufgabe oder des Problems aufwenden soll.
 
      >[!TIP]
      >   
-     >   * Nachdem Sie die Zuweisungen für Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt „Geplante Stunden für die Aktualisierung von Aufgaben bei der Verwaltung von Benutzerzuweisungen“ im Artikel &quot;[&#x200B; Stunden - Übersicht](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Nachdem Sie die Zuweisungen für Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Weitere Informationen finden Sie im Abschnitt „Geplante Stunden für die Aktualisierung von Aufgaben bei der Verwaltung von Benutzerzuweisungen“ im Artikel &quot;[ Stunden - Übersicht](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Zuweisungen für Probleme können nicht manuell geändert werden.
      >   * Zuteilungen für Teams, die Aufgaben zugewiesen sind, können nicht manuell geändert werden.
 

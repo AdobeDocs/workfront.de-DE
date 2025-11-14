@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Verfügbare Lizenzen in Ihrem System verwalten
 description: Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfront-Konto zugreifen, einschließlich der Anzahl der für Ihr Unternehmen erworbenen Lizenzen sowie der Anzahl der aktuell verwendeten Lizenzen.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1180'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfro
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,15 +49,15 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 >[!NOTE]
 >
->Die folgenden Aussagen gelten nur für die neuen Pläne.
+>Die folgenden Anweisungen gelten für die Pakete Select, Prime und Ultimate .
 >
->Für den ausgewählten Plan:
+>Für das Paket Auswählen :
 >
 >1. Systemadministratoren können keine Beschränkungen für Hauptgruppen festlegen.
 >2. Systemadministratoren können nur die Gesamtanzahl der Lizenzen sehen, die für alle Hauptgruppen verwendet werden.
 >3. Gruppenadministratoren können überhaupt nicht auf die Seite Lizenzen zugreifen.
 >
->Pläne für Prime und Ultimate:
+>Für die Prime- und Ultimate-Pakete:
 >
 >1. Systemadministratoren können der Seite „Lizenzen“ Hauptgruppen hinzufügen, um die Lizenznutzung in diesen Gruppen anzuzeigen, und sie können auch Lizenzbeschränkungen festlegen.
 >2. Gruppenadministratoren können auf die Seite Lizenzen zugreifen und die Nutzung von Lizenzen in den von ihnen verwalteten Gruppen anzeigen, die von Systemadministratoren zur Seite Lizenzen hinzugefügt wurden.
@@ -133,8 +133,6 @@ Weitere Informationen zu Korrekturabzugs- und Dokumentenentscheidungsbeschränku
 ![Monatliche Entscheidungszuteilung](assets/monthly-decision-allotment.png)
 
 ## Hinzufügen oder Entfernen einer Hauptgruppe zur Lizenzseite {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Jeder Benutzer kann nur einer Hauptgruppe zugewiesen werden. Workfront bietet eine gruppenorientierte Lizenzanzahl, indem berechnet wird, wie viele Lizenzen in den einzelnen Hauptgruppen zugewiesen und aktuell verwendet werden.
 

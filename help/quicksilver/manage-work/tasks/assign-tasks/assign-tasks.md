@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,7 +71,7 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -162,13 +162,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
-
    * (Bedingt) Klicken Sie auf einen der Namen in den Listen **Benutzer und Teams** oder **Aufgabengebiete**, wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Sie können den Namen eines Benutzers, Teams oder Aufgabengebiets eingeben, das der Aufgabe zugewiesen werden soll, und ihn dann auswählen, wenn er in der Liste angezeigt wird.
 
-   * Klicken Sie auf **Erweitert**
+   * Klicken Sie auf **Erweitert**.
 
      Informationen zum Erstellen erweiterter Zuweisungen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
@@ -266,7 +264,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    >
    >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben oder wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&quot; eine Rolle aus, die der Benutzer bei der Aufgabe erfüllen soll** wenn Sie Benutzer Aufgaben zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
@@ -305,7 +303,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. Klicken Sie in das **Dauertyp** und wählen Sie einen Dauertyp aus.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Bedingt) Aktualisieren Sie je nach **von** ausgewählten „Dauertyp“ die folgenden Felder:
 

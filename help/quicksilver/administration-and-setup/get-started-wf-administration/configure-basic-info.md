@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie im Abschni
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +60,7 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
 
 1. Klicken Sie im linken Bedienfeld auf **System** > **Kundeninformationen**.
 
-   Je nach erworbenem Workfront-Plan fehlen möglicherweise einige Abschnitte auf der Seite „Kundeninformationen“. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie wissen möchten, welchen Workfront-Plan Ihr Unternehmen verwendet.
+   Je nach dem von Ihnen erworbenen Workfront-Paket fehlen möglicherweise einige Abschnitte auf der Seite „Kundeninformationen“. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie herausfinden möchten, welches Workfront-Paket Ihr Unternehmen verwendet.
 
    Die folgenden Abschnitte sind im Bereich „Kundeninformationen“ verfügbar:
 
