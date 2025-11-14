@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1680'
 ht-degree: 4%
 
 ---
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen bei Dokumenten und Genehmigungen](#documents-and-approvals-enhancements)
+* [Integrationsverbesserungen](#integration-enhancements)
+* [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administrator-Verbesserungen
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>Freitag, 30. Oktober 2025</td>
         <td>Freitag, 30. Oktober 2025</td>
         <td>Freitag, 30. Oktober 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Verbesserungen beim Reporting
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplizieren eines Berichts in einem Arbeitsflächen-Dashboard</a><p>![Abzeichen aus Zeitplan]{type=neutral}</p>
+            <p>Sie können jetzt einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-Dashboard duplizieren, nachdem er erstellt wurde. Nach dem Duplizieren können Sie den Bericht nach Bedarf bearbeiten, bevor Sie ihn speichern.</p>
+        </td>
+        <td>Freitag, 23. Oktober 2025</td>
+        <td>Freitag, 23. Oktober 2025</td>
+        <td>Freitag, 23. Oktober 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Entfernen von Feldoptionen aus Berichtsfiltern</a>
+            <p>Wir haben die folgenden Feldoptionen entfernt, die zuvor beim Anwenden eines Filters auf einen Bericht verfügbar waren:
+            <ul>
+            <li>Andere Gruppen-IDs</li>
+            <li>Andere Rollen-IDs</li>
+            <li>Andere Team-IDs</li>
+            </ul>
+            </p>
+        </td>
+        <td>Freitag, 6. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 15. Januar 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Verbesserte Anzeige der Gruppierungsanzahl in Arbeitsflächen-Dashboards</a>
+            <p>Wenn ein Tabellenbericht mehrere Ergebnisseiten enthält und die Tabelle mit Gruppierungen konfiguriert ist, zeigt die Tabelle jetzt sowohl den Datensatzbetrag für die aktuelle Seite als auch die Gesamtanzahl der Datensätze für alle Seiten an. Wenn Ihr Tabellenbericht beispielsweise 7 Gruppierungen aufweist und die erste Seite 3 anzeigt, zeigt die Tabelle 3 von 7 an.</p>
+        </td>
+       <td>Freitag, 6. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 15. Januar 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Neue Leitplanken zur Verbesserung der Ladezeiten in Arbeitsflächen-Dashboards</a>
+            <p>Um Ladezeitverzögerungen zu vermeiden und die Gesamtleistung in Arbeitsflächen-Dashboards zu verbessern, haben wir Grenzwerte für die Anzahl der Dashboard-Komponenten angewendet, die einem Dashboard hinzugefügt werden können:
+            <ul>
+            <li>Berichte pro Dashboard: maximal 25</li>
+            <li>Gruppierungen in Tabellenansichten: maximal 5</li>
+            <li>Entfernung vom Basisobjekt des Berichts: 10 Grenze</li>
+            <li>Spalten in einer Tabellenansicht: maximal 25</li>
+            <li>Filter auf Dashboard-Ebene - Eingabeaufforderungen: 10 Grenze</li>
+            </ul></p>
+        </td>
+       <td>Freitag, 6. November 2025</td>
+        <td>Freitag, 13. November 2025</td>
+        <td>Freitag, 15. Januar 2026</td>
     </tr>   
   </tbody>
 </table>
@@ -260,7 +325,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
