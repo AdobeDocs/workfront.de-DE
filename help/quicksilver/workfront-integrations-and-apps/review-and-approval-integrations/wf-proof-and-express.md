@@ -83,7 +83,7 @@ Wenn eine Express-Vorlage neu gemischt wird, ist vor der Veröffentlichung eine 
 
 Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine Genehmigung von Adobe Express anfordern zu können.
 
-Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/de/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
