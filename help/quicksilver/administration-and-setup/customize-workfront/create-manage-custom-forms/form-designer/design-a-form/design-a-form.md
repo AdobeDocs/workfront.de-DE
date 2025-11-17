@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
 workflow-type: tm+mt
 source-wordcount: '6933'
 ht-degree: 5%
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
 1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Weiter**.
 
-   ![Objekttyp auswählen](assets/choose-object-type.jpg)
+   ![Auswählen von Objekttypen](assets/new-custom-form-select-objects.png)
 
 1. Geben **im Bereich &quot;** hinzufügen“ den benutzerdefinierten Formulartitel ein.
 1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf das **Hinzufügen**-Symbol ![Objekte hinzufügen](assets/add-objects-icon.png) neben **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
@@ -651,12 +651,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1003,7 +1003,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
