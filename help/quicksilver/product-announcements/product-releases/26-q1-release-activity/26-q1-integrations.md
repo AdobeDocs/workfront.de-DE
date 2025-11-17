@@ -4,9 +4,9 @@ description: Verbesserungen bei Integrationen im ersten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,14 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 
 ## Neue Version der Salesforce-Integration jetzt verfügbar
 
+>[!IMPORTANT]
+>
+>Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront für Salesforce, einschließlich der neuen Version, nach dem 28. **2026 nicht mehr**.
+
 >[!NOTE]
 >
 >Vorschau: 30. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
+>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
 >Produktion für alle: 30. Oktober 2025
 
 Um auf dem neuesten Stand der letzten Änderungen an der Workfront-API zu bleiben, haben wir eine neue Salesforce-Integration erstellt. Die neue Integration bietet dieselben Funktionen wie die vorherige Version und wurde aktualisiert, um zu vermeiden, dass Funktionen verloren gehen, die in der API nicht mehr unterstützt werden.
