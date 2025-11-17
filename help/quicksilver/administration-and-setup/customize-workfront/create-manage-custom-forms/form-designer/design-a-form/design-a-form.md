@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
+source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
 workflow-type: tm+mt
-source-wordcount: '6933'
+source-wordcount: '6897'
 ht-degree: 5%
 
 ---
@@ -651,12 +651,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -983,13 +983,9 @@ Hinzufügen einer Adobe XD-Datei:
 >
 >Die Informationen in diesem Abschnitt beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
 >
->Für den Zugriff auf Workfront Planning sind folgende Voraussetzungen erforderlich:
+>Sie benötigen zusätzliche Pakete, um auf Workfront Planning zugreifen zu können.
 >
->* Ein neues Workfront-Paket und eine neue Lizenz. Workfront Planning ist nicht für ältere Workfront-Pläne oder -Lizenzen verfügbar.
->* Ein Zusatzpaket für Workfront Planning.
->* Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.
->
-> Eine vollständige Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Eine vollständige Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -1003,7 +999,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 

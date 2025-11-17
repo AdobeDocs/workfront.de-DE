@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '172'
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,11 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Konfigurieren von Adobe Workfront Planning-Automatisierungen](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
-* [Löschen von Datensätzen](/help/quicksilver/planning/records/delete-records.md)
+* [Löschen von Einträgen](/help/quicksilver/planning/records/delete-records.md)
 * [Gelöschte Einträge wiederherstellen](/help/quicksilver/planning/records/restore-deleted-records.md)
 * [Freigeben von Datensätzen](/help/quicksilver/planning/records/share-records.md)
 * [Übersicht über verbundene Datensätze](/help/quicksilver/planning/records/connected-records-overview.md)
-* [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
+* [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 * [Doppelte Einträge](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
 * [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md)
 * [Übersicht über den Verlaufsabschnitt](/help/quicksilver/planning/records/history-section-overview.md)
@@ -45,3 +45,4 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Seiten-Layout des Datensatzes verwalten](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md)
 * [Datensätze aus der Tabellenansicht exportieren](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)

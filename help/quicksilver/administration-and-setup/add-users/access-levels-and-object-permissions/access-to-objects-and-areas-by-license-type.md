@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 24%
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 # Zugriff auf Objekte und Bereiche nach Lizenztyp
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 11/2025 -->
 
 In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeigen) angegeben, die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 
@@ -31,7 +31,7 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
 
   >[!NOTE]
   >
-  >Dieser Artikel enthält Informationen zum Objektzugriff für ältere Lizenztypen. Informationen zu den neuen Lizenztypen finden Sie unter [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+  >Dieser Artikel enthält Informationen zum Objektzugriff für ältere Lizenztypen. Informationen zu den neuen Lizenztypen finden Sie unter [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Plan | Arbeit | Überprüfung | Anfrage | Extern |
 |---|---|---|---|---|---|

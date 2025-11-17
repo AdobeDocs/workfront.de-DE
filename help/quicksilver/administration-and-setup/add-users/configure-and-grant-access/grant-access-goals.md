@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Workfront-Ziele zu definieren.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Sie müssen über Folgendes verfügen, um Benutzenden Zugriff auf Workfront Goal
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Paket</td> 
-   <td> <p>Workfront oder Workflow-Ultimate</p> </td> 
+   <td> <p>Workfront Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Gewähren des Benutzerzugriffs auf Workfront-Ziele mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf die Option rechts neben **Ziele**, die Sie für diese Zugriffsebene verwenden möchten.
 
 
