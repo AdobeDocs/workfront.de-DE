@@ -160,7 +160,7 @@ So fügen Sie Workfront Planning-Bereiche zu Benutzern Ihrer Workfront-Instanz h
 
 Lizenzen können Benutzern zugewiesen werden, wenn die jeweilige Zugriffsebene beim Bearbeiten oder Erstellen konfiguriert wird.
 
-Weitere Informationen finden [ unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Weitere Informationen finden [&#x200B; unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 ## Zugriffsebene konfigurieren
 
