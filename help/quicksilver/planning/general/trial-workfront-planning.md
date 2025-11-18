@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planning
 
 Adobe Workfront bietet derzeit eine 60-Tage-Testversion von Adobe Workfront Planning an.
+
+Die Testversion ist zwischen den folgenden Daten verfügbar: 1. Februar bis 1. April 2025.
 
 Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt.
 
@@ -46,14 +48,33 @@ Einer Ihrer Workfront-Administratoren muss eine rechtliche Vereinbarung prüfen 
 Gehen Sie wie folgt vor, um die rechtliche Vereinbarung zu überprüfen und zu akzeptieren:
 
 1. Melden Sie sich bei Adobe Workfront als Systemadministrator an.
-1. Navigieren Sie **Setup** > **System** > **Voreinstellungen**.
-1. Klicken Sie **Abschnitt &quot;** Voreinstellungen“ auf **Testvereinbarung**.
+1. (Bedingt) Wenn die Testversion geöffnet ist, erhalten Systemadministratoren eine Einladung zur Testversion mit einem Link, über den sie die rechtliche Vereinbarung akzeptieren.
 
-<!-- finish these steps-->
+   Oder
+
+   Navigieren Sie **Setup** > **System** > **Voreinstellungen**.
+1. Klicken Sie **Abschnitt &quot;** Voreinstellungen“ auf **Testvereinbarung**.
+1. Klicken Sie **Akzeptieren**, nachdem Sie die Vereinbarung geprüft haben.
+
+   Ihr Unternehmen ist jetzt für die Testversion von Workfront Planning bis zum 1. April 2025 registriert.
+
+   Die folgenden Berechtigungen werden für die Daten gewährt, die auf der Registerkarte **Best Practice-**&quot; im Bereich **Planning-Testversion** verfügbar sind:
+
+   * Alle Systemadministratoren verfügen über Verwaltungsberechtigungen.
+   * Alle anderen Benutzer haben Anzeigeberechtigungen.
+1. (Optional) Beginnen Sie, die Registerkarte **Best Practice** Arbeitsbereiche zu erkunden und geben Sie Arbeitsbereiche oder deren Objekt für andere frei.
+
+   Weitere Informationen zur Verwendung von Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## Übersicht über wichtige Termine
 
 Im Folgenden finden Sie einige wichtige Daten im Zusammenhang mit dem kostenlosen Testangebot von Adobe Workfront Planning:
+
+* &#x200B;1. Februar 2025 - Workfront Planning - Teststart
+* &#x200B;1. April 2025 - Abschluss des Workfront Planning-Prozesses. Workfront sichert Ihre Daten für 6 Monate nach Ablauf der Testversion.
+* &#x200B;30. November 2025 - Workfront stellt Ihre Daten nach diesem Datum nicht mehr zur Verfügung.
 
 <!--## Overview of the access to Workfront Planning -->
 

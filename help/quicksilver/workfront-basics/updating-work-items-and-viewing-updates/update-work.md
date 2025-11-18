@@ -6,10 +6,10 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 0%
+source-wordcount: '3203'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Weitere Informationen zum Kommentieren von Karten, Zielen und Datensätzen in Wo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -421,7 +421,7 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
    >
    >* Ziele
    >* Ad-hoc-Karten auf Pinnwänden
-   >* Datensätze in Workfront Planning. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
+   >* Datensätze in Workfront Planning. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihr Update anzuhängen:

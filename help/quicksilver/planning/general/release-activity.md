@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 Die folgende Tabelle zeigt den Zeitrahmen für die Veröffentlichung von Workfront Planning:
 
-| Uhrzeit | -Version |
+| Zeit | Version |
 |--------------------|-----------------------------------------|
 | August - Dezember 2023 | Workfront Planning - Beta-Version* |
 | Januar bis August 2024 | Frühzeitige Veröffentlichung von Workfront Planning* |
@@ -294,8 +294,8 @@ Wenn Sie jetzt eine Verbindung zwischen zwei Datensatztypen konfigurieren, könn
 Sie können jetzt aus den folgenden Verbindungstypen auswählen, wenn Sie zwei Datensatztypen verknüpfen:
 
 * Viele zu viele. Wenn Sie diesen Verbindungstyp auswählen, kann er nach dem Speichern nicht mehr geändert werden.
-* Eins-zu-viele
-* Eins-zu-eins
+* Eins zu viele
+* Eins zu eins
 * Viele zu eins.
 
 Auf diese Weise können Sie festlegen, wie viele Datensätze der verbundenen Datensatztypen Benutzer verbinden können, wenn eine Verbindung hergestellt wird.
@@ -615,7 +615,7 @@ Zu den Informationen auf der Landingpage gehören unter anderem:
 
 * Tutorial „Erste Schritte“ für Workfront Planning
 
-Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Neues Onboarding-Erlebnis für Workfront Planning
 
@@ -663,7 +663,7 @@ Produktion: 30. Mai 2024
 
 Vorschau: noch festzulegen
 
-Das Erscheinungsbild des Symbols für den Bereich Planung im Hauptmenü wurde aktualisiert. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Das Erscheinungsbild des Symbols für den Bereich Planung im Hauptmenü wurde aktualisiert. Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Umbenennen des Workfront Planning-Programms
 
@@ -918,7 +918,7 @@ Vorschau: noch festzulegen
 
 Wir haben den Bereich Maestro im Hauptmenü in Planung umbenannt.
 
-Einen Überblick über Adobe Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
+Einen Überblick über Adobe Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Neue Erfahrung beim Löschen eines Datensatztyps
 
@@ -1057,7 +1057,7 @@ Jetzt haben Sie die Möglichkeit, die Höhe einer Zeile zu ändern, wenn Datens�
 
 Sie können die Zeilenhöhe auf eine der folgenden Größen aktualisieren:
 
-* Klein
+* Kurz
 * Mittel
 * Groß.
 

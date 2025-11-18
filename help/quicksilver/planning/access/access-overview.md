@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 1%
+source-wordcount: '811'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 >
 >Weitere Informationen erhalten Sie von Ihrem Account Manager
 >
->Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
+>Weitere Informationen zur Workfront-Planung finden Sie unter [Erste Schritte mit Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
 Die Verwendung von Adobe Workfront Planning unterliegt Lizenz- und Freigabeberechtigungsbeschränkungen.
 
@@ -160,7 +160,7 @@ So fügen Sie Workfront Planning-Bereiche zu Benutzern Ihrer Workfront-Instanz h
 
 Lizenzen können Benutzern zugewiesen werden, wenn die jeweilige Zugriffsebene beim Bearbeiten oder Erstellen konfiguriert wird.
 
-Weitere Informationen finden [&#x200B; unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Weitere Informationen finden [ unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 ## Zugriffsebene konfigurieren
 

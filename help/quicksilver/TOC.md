@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '13544'
+source-wordcount: '13547'
 ht-degree: 2%
 
 ---
@@ -2078,10 +2078,10 @@ ht-degree: 2%
       * [Ziel in Workfront Goals teilen](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront-Zielbenachrichtigungen aktivieren](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront-Planung {#adobe-workfront-planning}
-   * [Adobe Workfront Planning: Artikelindex](planning/planning-information.md)
+   * [Allgemeine Informationen zu Adobe Workfront Planning](planning/planning-information.md)
    * Allgemeine Informationen zu Adobe Workfront Planning {#adobe-workfront-planning-general-information}
       * [Allgemeine Informationen zu Adobe Workfront Planning: Artikelindex](planning/general/planning-general-article-index.md)
-      * [Übersicht über die Adobe Workfront-Planung](planning/general/planning-overview.md)
+      * [Erste Schritte mit Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Best Practices für die Adobe Workfront-Planung](planning/general/planning-best-practices.md)
       * [Grundlagen zur Adobe Workfront Planning-API](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant - Überblick](planning/general/planning-ai-assistant-overview.md)
@@ -2194,7 +2194,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

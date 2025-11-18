@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 23%
 
 ---
@@ -40,16 +40,16 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
     <tr>
         <td>Projekte</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
         <td>Kein Zugriff</td>
     </tr>
     <tr>
         <td>Aufgaben</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
+        <td>Kein Zugriff</td>
     </tr>
     <tr>
         <td>Probleme</td>
@@ -61,21 +61,21 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
     <tr>
         <td>Portfolios</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
         <td>Kein Zugriff</td>
     </tr>
     <tr>
         <td>Programme</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
         <td>Kein Zugriff</td>
     </tr>
     <tr>
         <td>Berichte, Dashboards und Kalender</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
         <td>Anzeigen*</td>
         <td>Anzeigen (nur für Kalender, keine Freigabeberechtigungen)</td>
     </tr>
@@ -96,15 +96,15 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
     <tr>
         <td>Benutzende</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
     </tr>
     <tr>
         <td>Teams</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
         <td>Kein Zugriff</td>
     </tr>
     <tr>
@@ -124,14 +124,14 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
     <tr>
         <td>Ressourcenverwaltung</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
         <td>Kein Zugriff</td>
         <td>Kein Zugriff</td>
     </tr>
     <tr>
         <td>Szenarienplaner</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
         <td>Kein Zugriff</td>
         <td>Kein Zugriff</td>
     </tr>
