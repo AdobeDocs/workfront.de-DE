@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
 workflow-type: tm+mt
-source-wordcount: '13547'
+source-wordcount: '13556'
 ht-degree: 2%
 
 ---
@@ -921,6 +921,7 @@ ht-degree: 2%
       * [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Verwenden von Benachrichtigungen {#use-notifications}
       * [Benachrichtigungen verwenden: Artikelindex](workfront-basics/using-notifications/use-notifications.md)
+      * [Übersicht über Experience Cloud-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Benachrichtigungen - Übersicht](workfront-basics/using-notifications/wf-notifications.md)
       * [Eigene E-Mail-Benachrichtigungen ändern](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Abonnieren von Elementen in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2126,6 +2127,7 @@ ht-degree: 2%
       * [Freigeben von Arbeitsbereichen](planning/access/share-workspaces.md)
       * [Datensatztypen freigeben](planning/access/share-record-types.md)
       * [Ansichten freigeben](planning/access/share-views.md)
+      * [Freigeben von Datensätzen](planning/access/share-records.md)
       * [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](planning/access/request-permissions.md)
    * Adobe Workfront-Planungsdatensätze {#adobe-workfront-planning-records}
       * [Einträge: Artikelindex](planning/records/records-information.md)
@@ -2136,7 +2138,7 @@ ht-degree: 2%
       * [Datensätze bearbeiten](planning/records/edit-records.md)
       * [Löschen von Einträgen](planning/records/delete-records.md)
       * [Gelöschte Einträge wiederherstellen](planning/records/restore-deleted-records.md)
-      * [Freigeben von Datensätzen](planning/records/share-records.md)
+      * [Freigeben von Datensätzen über einen Link](planning/records/share-records.md)
       * [Doppelte Einträge](planning/records/copy-or-duplicate-records.md)
       * [Verwalten von Datensatzkommentaren](planning/records/manage-record-comments.md)
       * [Übersicht über den Verlaufsabschnitt](planning/records/history-section-overview.md)
@@ -2194,7 +2196,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
