@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,13 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Bewegen Sie [!UICONTROL &#x200B; Mauszeiger im Abschnitt &#x200B;]Kopfzeilenfelder“ über die angezeigten Felder und führen Sie einen der folgenden Schritte aus:
+1. Bewegen Sie [!UICONTROL  Abschnitt ]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf das **x**-Symbol, um ein Feld zu entfernen
 
      Oder
@@ -83,19 +83,15 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Die Kopfzeile eines Objekts kann bis zu fünf Felder enthalten.
 Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen, bevor Sie ein neues hinzufügen können.
-1. Beginnen Sie **Feld &quot;** hinzufügen“, den Namen eines nicht bearbeitbaren Workfront-Felds einzugeben, das Sie hinzufügen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird. Das Feld wird direkt rechts neben dem Feld Feld Feld hinzufügen hinzugefügt und als erstes Feld in der oberen linken Ecke der Kopfzeile des -Objekts angezeigt.
+1. Beginnen Sie **Feld &quot;** hinzufügen“ mit der Eingabe des Namens eines benutzerdefinierten Felds oder nativen Workfront-Felds, das Sie hinzufügen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird. Das Feld wird direkt rechts neben dem Feld Feld Feld hinzufügen hinzugefügt und als erstes Feld in der oberen rechten Ecke der Kopfzeile des -Objekts angezeigt.
 
    >[!TIP]
    >
-   >* Sie können nur Felder hinzufügen, die im Bereich Übersicht des Abschnitts Details des Objekts angezeigt werden und nicht bearbeitbar sind. Nicht bearbeitbare Felder sind Felder, die Benutzende nicht manuell bearbeiten können. Sie werden automatisch von Workfront berechnet.
-   >
-   >* Sie können bearbeitbare Felder hinzufügen, die bereits Teil der Standardkopfzeilen sind (z. B. Projektbesitzer, Status, Prozent abgeschlossen, Zuweisungen).
+   >* Sie können jedes benutzerdefinierte Feld oder jedes native Feld hinzufügen, das im Bereich Übersicht des Abschnitts Details eines Objekts verfügbar ist. Beispielsweise verfügen nur Probleme über das Feld Schweregrad , und dieses Feld kann nicht zu Projekten oder Aufgaben hinzugefügt werden.
    >
    >* Wenn Sie das Feld „Gelöst von“ zur Kopfzeile eines Problems hinzufügen, ändert sich das Feld in „Problem, Aufgabe oder Projekt lösen“, wenn mit dem Problem ein Lösungsobjekt verknüpft ist.
 
-
    ![Feld zur Kopfzeile hinzufügen](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (Optional) Ziehen Sie die Felder in eine andere Reihenfolge.
 
