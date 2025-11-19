@@ -7,10 +7,10 @@ description: Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreib
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen. Die Kosten können je nach Leistungsindexmethode (PIM) in Stunden oder Dollar angegeben werden. Weitere Informationen zum Festlegen der Leistungsindexmethode finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen. Die Kosten können je nach Leistungsindexmethode (PIM) in Stunden oder in Währungen angegeben werden. Weitere Informationen zum Festlegen der Leistungsindexmethode finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Nur Organisationen, die eine Zeiteingabe benötigen, können CPI verwenden. Darüber hinaus sind kostenbasierte PIM-Werte nur in Organisationen korrekt, die Kostensätze für Aufgabenzugewiesene (Aufgabengebiete oder Benutzer) definiert haben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
