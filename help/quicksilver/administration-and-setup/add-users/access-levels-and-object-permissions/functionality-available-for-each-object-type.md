@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: Zugriff,Modell,Trichter,Diagramm,Ebenen,Berechtigungen
+keywords: Zugriff,Modell,funnel,Diagramm,Ebenen,Berechtigungen
 navigation-topic: access-levels
 title: Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen
 description: In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
 workflow-type: tm+mt
 source-wordcount: '1563'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -27,27 +27,27 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 
 >[!NOTE]
 >
->In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im aktuellen Workfront-Planmodell verfügbar sind. Informationen zur verfügbaren Funktion im neuen Plandoell finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+>In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im aktuellen Workfront-Paketmodell verfügbar sind. Informationen zu den im neuen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projekte
 
 Nur Benutzende mit einer Planlizenz können vollständigen Zugriff auf Projekte erhalten.
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |  |  |  |  |
 | Kopieren | ✓&#42; |  |  |  |  |
 | Löschen | ✓&#42; |  |  |  |  |
 | Freigeben | ✓&#42; | ✓&#42; |  |  |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | Benutzerdefiniertes Formular hinzufügen | ✓ |  |  |  |  |
 | Benutzerdefinierte Felder aktualisieren | ✓ | ✓ |  |  |  |
 | Genehmigungsprozess hinzufügen | ✓ |  |  |  |  |
 | Genehmigen eines Projekts | ✓ | ✓ | ✓ |  |  |
 | Dokument hinzufügen | ✓ | ✓ | ✓ |  |  |
 | Problem hinzufügen | ✓ | ✓ |  |  |  |
-|  Aufgaben hinzufügen | ✓ | ✓ |  |  |  |
+| Aufgaben hinzufügen | ✓ | ✓ |  |  |  |
 | Aktualisierungen/Kommentare abgeben | ✓ | ✓ | ✓ |  |  |
 | Status ändern | ✓ |  |  |  |  |
 | Stunden protokollieren | ✓ | ✓ |  |  |  |
@@ -71,13 +71,13 @@ Nur Benutzende mit einer Planlizenz können vollständigen Zugriff auf Projekte 
 
 ## Aufgaben
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; |  |  |  |
 | Löschen | ✓&#42; | ✓&#42; |  |  |  |
 | Freigeben | ✓&#42; | ✓&#42; |  |  |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Hinzufügen von Vorgängern | ✓ | ✓ |  |  |  |
 |  Probleme hinzufügen | ✓ | ✓ |  |  |  |
 | Aufgabe bearbeiten (Status ausschließen) | ✓ | ✓ |  |  |  |
@@ -103,14 +103,14 @@ Nur Benutzende mit einer Planlizenz können vollständigen Zugriff auf Projekte 
 
 ## Probleme
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Bearbeiten | ✓ | ✓ | ✓ | ✓ |  |
 | Löschen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Freigeben | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ | ✓ |  |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ | ✓ |  |
 | Probleme genehmigen | ✓ | ✓ | ✓ | ✓ |  |
@@ -133,13 +133,13 @@ Nur Benutzende mit einer Planlizenz können vollständigen Zugriff auf Projekte 
 
 Nur Benutzer mit einer Planlizenz können vollen Zugriff auf Portfolios haben.
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |  |  |  |  |
 | Löschen | ✓&#42; |  |  |  |  |
 | Freigeben | ✓&#42; |  |  |  |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | Details bearbeiten | ✓ |  |  |  |  |
 | Benutzerdefinierte Formulare anhängen | ✓ |  |  |  |  |
 | Benutzerdefinierte Felder bearbeiten | ✓ |  |  |  |  |
@@ -157,13 +157,13 @@ Nur Benutzer mit einer Planlizenz können vollen Zugriff auf Portfolios haben.
 
 Nur Benutzer mit einer Planlizenz können vollen Zugriff auf Programme haben.
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |  |  |  |  |
 | Löschen | ✓&#42; |  |  |  |  |
 | Freigeben | ✓&#42; |  |  |  |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | Details bearbeiten | ✓ |  |  |  |  |
 | Benutzerdefinierte Formulare anhängen | ✓ |  |  |  |  |
 | Benutzerdefinierte Felder bearbeiten | ✓ |  |  |  |  |
@@ -189,7 +189,7 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
 | Freigeben | ✓&#42; | ✓ | ✓ |  |  |
 | Kalender und Berichte öffentlich freigeben | ✓&#42; |  |  |  |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Bearbeiten | ✓ |  |  |  |  |
 | Kopieren | ✓ |  |  |  |  |
 
@@ -222,7 +222,7 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
    <th> <p>Planerin oder Planer</p> </th> 
    <th> <p>Arbeitskraft</p> </th> 
    <th> <p>Prüfende Person</p> </th> 
-   <th> <p>Anfragender</p> </th> 
+   <th> <p>Anfragenden</p> </th> 
    <th>Externer Benutzer<br></th> 
   </tr> 
  </thead> 
@@ -260,7 +260,7 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Anzeigen</td> 
+   <td>Ansicht</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -282,16 +282,16 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
 
 ## Dokumente
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Löschen (Dokumente und Ordner) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Freigeben | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Öffentlich freigeben (extern) | ✓&#42; |  |  |  |  |
 | Systemweit freigeben | ✓&#42; | ✓&#42; |  |  |  |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Ansicht | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Details bearbeiten | ✓ | ✓ | ✓ | ✓ |  |
-| Download | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Herunterladen | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Checkout | ✓ | ✓ | ✓ | ✓ |  |
 | Genehmigende Personen hinzufügen | ✓ | ✓ | ✓ | ✓ |  |
 | Dokumente genehmigen | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -338,7 +338,7 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
    <th> <p>Planerin oder Planer</p> </th> 
    <th>Arbeitskraft</th> 
    <th> <p>Prüfende Person</p> </th> 
-   <th> <p>Anfragender</p> </th> 
+   <th> <p>Anfragenden</p> </th> 
    <th> <p>Externer Benutzer**</p> </th> 
   </tr> 
  </thead> 
@@ -413,7 +413,7 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
    <th> <p>Planerin oder Planer</p> </th> 
    <th>Arbeitskraft</th> 
    <th> <p>Prüfende Person</p> </th> 
-   <th> <p>Anfragender</p> </th> 
+   <th> <p>Anfragenden</p> </th> 
    <th> <p>Externer Benutzer*</p> </th> 
   </tr> 
  </thead> 
@@ -473,13 +473,13 @@ Benutzende mit einer Planlizenz können vollen Zugriff auf Berichte haben. Alle 
 
 ## Vorlagen
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen | ✓&#42; |  |  |  |  |
 | Löschen | ✓&#42; |  |  |  |  |
 | Freigeben | ✓&#42; |  |  |  |  |
 | Systemweit freigeben | ✓&#42; |  |  |  |  |
-| Anzeigen | ✓&#42; |  |  |  |  |
+| Ansicht | ✓&#42; |  |  |  |  |
 | Kopieren | ✓ |  |  |  |  |
 | Vorlagendetails bearbeiten | ✓ |  |  |  |  |
 
@@ -519,7 +519,7 @@ Die Lizenztypen „Anfrage“ und „Externer Benutzer“ sind hier nicht enthal
 
 Nur Benutzer mit einer Planlizenz können vollen Zugriff auf ([ Objekt oder Bereich auswählen]. Andere Lizenztypen können nur eingeschränkten oder gar keinen Zugriff auf die Ressourcenverwaltung in Workfront haben.
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |  |  |  |  |
 | Ressourcenpools erstellen, bearbeiten und löschen&#42;&#42; | ✓&#42; |  |  |  |  |
@@ -540,7 +540,7 @@ Nur Benutzer mit einer Planlizenz können vollen Zugriff auf ([ Objekt oder Bere
 
 ## Bereich für Szenarienplaner
 
-| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragender | Externer Benutzer |
+| Aktion | Planerin oder Planer | Arbeitskraft | Prüfende Person | Anfragenden | Externer Benutzer |
 |---|---|---|---|---|---|
 | Erstellen/Bearbeiten vorhandener Pläne und Initiativen | ✓ | ✓ | ✓ |  |  |
 | Informationen zu Aufgabengebieten in Plänen und Initiativen hinzufügen oder bearbeiten&#42; | ✓ | ✓ | ✓ |  |  |
@@ -559,7 +559,7 @@ Nur Benutzer mit einer Planlizenz können vollen Zugriff auf ([ Objekt oder Bere
 
 ## Workfront-Zielbereich
 
-| Aktionen | Anzeigen | Bearbeiten |
+| Aktionen | Ansicht | Bearbeiten |
 |---|---|---|
 | Erstellen |  | ✓ |
 | Alle Ziele bearbeiten/löschen |  | ✓ |
