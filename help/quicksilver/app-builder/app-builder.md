@@ -4,9 +4,9 @@ description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,13 @@ So lassen Sie benutzerdefinierte Anwendungen im Hauptmenü von Workfront zu:
 In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,13 +176,13 @@ In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden.
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Fügen Sie das folgende Codefragment hinzu:
@@ -438,6 +438,19 @@ Navigieren Sie dann in Ihrem Browser zu der Seite, für die Sie eine Entwicklung
 Wenn die Konfiguration korrekt abgeschlossen wurde, werden beim Neuladen der Layoutvorlagenseite in Workfront die Schaltflächen in Ihrem App Builder-Programm angezeigt. Fügen Sie die App-Schaltflächen zum Hauptmenü und zum linken Bedienfeld für ein Objekt hinzu und überprüfen Sie, ob sie in diesen Bereichen korrekt angezeigt werden.
 
 Weitere Anweisungen finden Sie auf der Adobe Developer-Site. Verwenden Sie dazu ein Beispiel aus AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### Markierung deaktivieren, um lokale Tests mit Chrome ab Version 142 zuzulassen
+
+Chrome Version 142 führt Zugriffsbeschränkungen für das lokale Netzwerk ein. Diese Einschränkungen können sich auf lokale Testumgebungen auswirken.
+
+Um das Problem zu beheben, müssen Sie die Prüfung des lokalen Netzwerkzugriffs deaktivieren, indem Sie das entsprechende Flag in den Chrome-Einstellungen deaktivieren: `chrome://flags/#local-network-access-check`.
+
+So deaktivieren Sie das Flag
+
+1. Öffnen Sie Chrome und geben Sie `chrome://flags` in die Adressleiste ein. Drücken Sie dann die **Eingabetaste**.
+1. Geben Sie in der Suchleiste oben &quot;**Netzwerkzugriffsüberprüfungen“**.
+1. Klicken Sie auf das Dropdown-Menü neben dem Flag **Prüfung des lokalen Netzwerkzugriffs** und wählen Sie Deaktiviert aus.
+1. Klicken Sie auf **Schaltfläche** Neu starten“, die unten auf dem Bildschirm angezeigt wird, um die Änderungen anzuwenden.
 
 ## Anträge veröffentlichen und Einreichung genehmigen
 
