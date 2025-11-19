@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im ersten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 
 Das Eingabedatum und die von der ID eingegebenen Daten werden jetzt in benutzerdefinierten Formularen, Feldern und Abschnitten gespeichert. Sie können diese Datenoptionen in Berichten als Filter, Ansichten oder Gruppierungen verwenden. Um sie in der Liste der benutzerdefinierten Formulare, Felder oder Abschnitte im Setup anzuzeigen, fügen Sie „Eingabedatum“ hinzu und geben Sie „Nach Name“ als Spalten in einer neuen oder vorhandenen Ansicht ein.
 
+>[!NOTE]
+>
+>Das Eingabedatum und die eingegebenen Werte nach ID sind nur für benutzerdefinierte Formulare, Felder und Abschnitte verfügbar, die am oder nach dem 13. November 2025 erstellt wurden.
 
 ## Aktualisierungen der Schaltflächennamen beim Bearbeiten einer Layout-Vorlage
 
