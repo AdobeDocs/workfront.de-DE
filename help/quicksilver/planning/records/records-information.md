@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '175'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Inform
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
 * [Löschen von Einträgen](/help/quicksilver/planning/records/delete-records.md)
 * [Gelöschte Einträge wiederherstellen](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Freigeben von Datensätzen](/help/quicksilver/planning/records/share-records.md)
+* [Freigeben von Datensätzen über einen Link](/help/quicksilver/planning/records/share-records.md)
 * [Übersicht über verbundene Datensätze](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 * [Doppelte Einträge](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
