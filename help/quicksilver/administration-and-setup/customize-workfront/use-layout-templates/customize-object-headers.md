@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '571'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Bewegen Sie [!UICONTROL &#x200B; Abschnitt &#x200B;]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
+1. Bewegen Sie [!UICONTROL  Abschnitt ]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf das **x**-Symbol, um ein Feld zu entfernen
 
      Oder
@@ -88,6 +88,8 @@ Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen,
    >[!TIP]
    >
    >* Sie können jedes benutzerdefinierte Feld oder jedes native Feld hinzufügen, das im Bereich Übersicht des Abschnitts Details eines Objekts verfügbar ist. Beispielsweise verfügen nur Probleme über das Feld Schweregrad , und dieses Feld kann nicht zu Projekten oder Aufgaben hinzugefügt werden.
+   >
+   >* Wenn ein(e) Benutzende(r) ein benutzerdefiniertes Feld in der Kopfzeile bearbeitet und es in einem benutzerdefinierten Formular enthalten ist, das nicht an das Objekt angehängt ist, wird das benutzerdefinierte Formular automatisch zum Objekt hinzugefügt.
    >
    >* Wenn Sie das Feld „Gelöst von“ zur Kopfzeile eines Problems hinzufügen, ändert sich das Feld in „Problem, Aufgabe oder Projekt lösen“, wenn mit dem Problem ein Lösungsobjekt verknüpft ist.
 
