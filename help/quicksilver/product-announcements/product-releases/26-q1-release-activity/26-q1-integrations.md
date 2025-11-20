@@ -4,9 +4,9 @@ description: Verbesserungen bei Integrationen im ersten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ Auf dieser Seite werden Integrationsverbesserungen beschrieben, die mit der Vers
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Aktualisierter Asset-Wähler für die native Integration von Adobe Workfront für Experience Manager Assets
+
+
+>[!NOTE]
+>
+>Vorschau: 20. November 2025
+>Produktions-Schnellveröffentlichung: 11. Dezember 2025\
+>Produktion für alle: 16. Januar 2026
+
+Wir haben den Asset-Wähler in der Integration von Adobe Workfront für Experience Manager Assets aktualisiert. Mit diesem Upgrade können Sie jetzt AEM-Sammlungen direkt in Workfront auswählen und abrufen.
 
 ## Neue Version der Salesforce-Integration jetzt verfügbar
 
