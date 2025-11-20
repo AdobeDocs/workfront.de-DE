@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,8 +51,25 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Finden Sie heraus, welche benutzerdefinierten Formulare ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 
+So zeigen Sie die Verwendung eines Felds in der Liste aller benutzerdefinierten Felder an:
+
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf **Benutzerdefinierte Forms**.
 1. Klicken Sie auf **Felder**, suchen Sie in der Spalte **Name** nach dem Feld oder Widget und zeigen Sie dann die Spalte **Forms** an, um zu sehen, welche benutzerdefinierten Formulare das Feld oder Widget verwenden.
 1. (Optional) Klicken Sie auf den Namen eines dieser benutzerdefinierten Formulare, um zum Formular zu wechseln und zu überlegen, welche Änderungen Sie dort vornehmen müssen, wenn Sie das Feld oder Widget ändern.
+
+So zeigen Sie die Verwendung eines Felds in einem benutzerdefinierten Formular an:
+
+{{step-1-to-setup}}
+
+1. Klicken Sie im linken Bedienfeld auf **Benutzerdefinierte Forms**.
+1. Öffnen Sie ein benutzerdefiniertes Formular und fügen Sie ein Feld aus der Bibliothek hinzu oder wählen Sie ein vorhandenes Feld im Formular aus.
+
+   Der Verwendungsindikator auf der rechten Seite des Formular-Designers zeigt an, wie viele andere benutzerdefinierte Formulare dieses Feld verwenden.
+
+1. Klicken Sie **Zugehörige Forms anzeigen**.
+
+   In der Liste der Formulare können Sie auf einen beliebigen Formularnamen klicken, um das Formular zu öffnen und zu sehen, wie das Feld verwendet wird. Ein Indikator gibt an, ob jedes Formular aktiv oder inaktiv ist.
+
+
