@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 0%
+source-wordcount: '1465'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr Unternehmen, eine Abteilung innerhalb des Unternehmens oder einen Kunden, mit dem Sie zusammenarbeiten, repräsentieren kann. Sie können Unternehmen zu [!DNL Workfront] hinzufügen und sie für Finanzplanung und Berichtszwecke verwenden, um Berechtigungen für Objekte zu definieren und Informationen vertraulich zu behandeln.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL-Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -105,9 +105,9 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
 1. Aktualisieren Sie die folgenden Informationen im Abschnitt **Basisinfo**:
 
-   * **Firmenname** <span class="preview"> oder **Name**</span>: Geben Sie einen Namen für das Unternehmen ein.
+   * **Name**: Geben Sie einen Namen für das Unternehmen ein.
    * **Ist Aktiv**: Wenn diese Option aktiviert ist, können Benutzer das Unternehmen finden und es an Projekte anhängen, die sie erstellen und bearbeiten. Eine inaktive Firma kann nicht mit Projekten verknüpft werden. Standardmäßig ist diese Option aktiviert.
-   * **Dies ist das Primäre Unternehmen** <span class="preview">oder **Ist Primär**</span>: Weist das Unternehmen als das primäre Unternehmen Ihres Unternehmens zu. Die Primärfirma stellt in der Regel Ihr Workfront-Konto dar, in dem die meisten Ihrer Benutzenden arbeiten.
+   * **Ist Primär**: Weist die Firma als die primäre Firma Ihrer Organisation zu. Die Primärfirma stellt in der Regel Ihr Workfront-Konto dar, in dem die meisten Ihrer Benutzenden arbeiten.
 
      Sie können eine Firma oder kein Unternehmen als Primärunternehmen festlegen, aber Sie können nicht mehrere Unternehmen als Primärunternehmen festlegen. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Bedingt) Wenn Sie eine Firma erstellen, klicken Sie auf **[!UICONTROL Firma erstellen]** <span class="preview">oder **Speichern**.</span>
-
-   Oder
-
-   Wenn Sie eine vorhandene Firma bearbeiten, klicken Sie auf **[!UICONTROL Änderungen speichern]** <span class="preview">oder **Speichern**.</span>
+1. Klicken Sie auf **Speichern**.
 
 ## Firmen löschen
 
@@ -155,7 +151,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Eine Liste der Unternehmen wird angezeigt.
 
-1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![&#x200B; Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
+1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![ Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
 1. Wenn Sie ein Unternehmen löschen, das als Primäres Unternehmen festgelegt ist oder in einem anderen Objekt verwendet wird, wählen Sie ein Unternehmen aus, das das zu löschende Unternehmen ersetzen soll. Das ausgewählte Unternehmen wird zum Primären Unternehmen oder ersetzt das gelöschte Unternehmen durch die Objekte, denen das Unternehmen zugewiesen ist.
 1. Klicken Sie auf **Löschen**.
 
@@ -179,13 +175,9 @@ Weitere Informationen zum Freigeben von Objekten finden Sie unter [Übersicht ü
 
 Wenn ein [!DNL Workfront] eine Gruppe einem Unternehmen zuweist, erhalten die Gruppenadministratoren für die Gruppe [!UICONTROL Verwalten] Zugriff auf das Unternehmen in [!UICONTROL Setup]. Dazu gehört der Zugriff auf die [!UICONTROL Firmen] in [!UICONTROL Setup], wo sie das mit ihrer Gruppe verknüpfte Unternehmen sehen und verwalten können.
 
-Mit diesem Zugriff auf die Seite [!UICONTROL Firmen] kann ein Gruppenadministrator eine Gruppe einem Unternehmen zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit administrativem Zugriff auf Unternehmen konfiguriert ist, ist das Feld [!UICONTROL Gruppe] erforderlich, wenn der Gruppenadministrator die Firma erstellt. Der <span class="preview">Sternchen</span> oder fett gedruckte Titel zeigt dies an:
+Mit diesem Zugriff auf die Seite [!UICONTROL Firmen] kann ein Gruppenadministrator eine Gruppe einem Unternehmen zuweisen, es muss jedoch ein Unternehmen sein, das der Gruppenadministrator erstellt hat. Wenn die Zugriffsebene des Gruppenadministrators nicht mit administrativem Zugriff auf Unternehmen konfiguriert ist, ist das Feld [!UICONTROL Gruppe] erforderlich, wenn der Gruppenadministrator das Unternehmen erstellt. Das Sternchen zeigt dies an:
 
-<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
 ![Dialogfeld „Neues Unternehmen“ mit Gruppe erforderlich](assets/group-admin-add-company-group-required.png)
-
-Beispielbild in der Produktionsumgebung:
-![Gruppe ist für das Unternehmen erforderlich](assets/group-admin-add-company.png)
 
 Informationen dazu, wie Benutzer administrativen Zugriff auf Unternehmen in ihrer Zugriffsebene erhalten, finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
