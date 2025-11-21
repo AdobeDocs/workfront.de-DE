@@ -6,14 +6,16 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 1%
+source-wordcount: '2607'
+ht-degree: 2%
 
 ---
 
 # Anfragen erstellen und senden
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 <!--Audited: 12/2023-->
 
@@ -47,7 +49,7 @@ Sie können eine Workfront-Planungsanfrage von Grund auf neu erstellen, um Daten
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,7 +109,7 @@ Ein Workfront-Administrator muss die folgenden Komponenten einer Anfrage-Wartesc
 
 Wenn Sie eine Anfrage in der Workfront-Web-App erstellen, speichert Workfront die Anfrage als Entwurf, bevor Sie sie senden. Workfront erstellt einen Entwurf, sobald Sie Ihre Anfrage-Warteschlange auswählen und Informationen eingeben.
 
-Sie können mit dem Senden der Anfrage fortfahren oder so viele Informationen ausfüllen, wie verfügbar sind, und die Anfrage verlassen, um sie später abzuschließen. Workfront speichert die von Ihnen erstellte Anfrage im Ordner „Drafts“.
+Sie können mit dem Senden der Anfrage fortfahren oder so viele Informationen ausfüllen, wie verfügbar sind, und die Anfrage verlassen, um sie später abzuschließen. Workfront speichert die entworfene Anfrage, die Sie gestartet haben, im Entwurfsordner <span class="preview">oder in der Anfragenliste.</span>
 
 >[!IMPORTANT]
 >
@@ -150,7 +152,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    >Beachten Sie Folgendes bezüglich des neuen anfragenden Erlebnisses:
    >* Die Liste enthält die Workfront-Anfragewarteschlangen und Workfront Planning-Anfrageformulare.
    >* Sie können die Liste nach Objekttyp filtern.
-   >* In der neuen anfordernden -Version befinden sich Entwürfe in derselben Liste wie die gesendeten Anfragen.
+   >* <span class="preview">In der neuen anfordernden -Version finden sich Entwürfe in derselben Liste wie gesendete Anfragen</span>.
 
 1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt sind, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
 

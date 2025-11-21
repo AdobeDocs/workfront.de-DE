@@ -6,20 +6,22 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
 # Anforderungen aus Entwürfen erstellen
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
+
 Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei der Eingabe einer neuen Anfrage vorschlägt, können Sie auch über den Abschnitt „Entwürfe“ auf eine Entwurfsanfrage zugreifen und die Übermittlung dort abschließen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,13 +54,55 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen für das Erstellen von Anfragen aus Entwürfen
 
-Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen können: 
+Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen können:
 
 * Erstellen Sie eine Anfrage. Dadurch wird die Anfrage automatisch im Abschnitt Entwürfe als Entwurf gespeichert.
 
   Informationen zum Erstellen von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Anforderungen aus Entwürfen erstellen
+
+Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwischen dem neuen anfragenden Erlebnis und dem alten Erlebnis.
+
+* <span class="preview">[Erstellen von Anfragen aus Entwürfen in der neuen anfordernden -Version](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Erstellen von Anfragen aus Entwürfen im alten anfordernden Erlebnis](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### Erstellen von Anfragen aus Entwürfen im neuen anfordernden Erlebnis
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. Öffnen Sie den Entwurf.
+
+   Entwürfe finden Sie im Dialogfeld Neue Anfrage (enthält nur Entwürfe von Anfragen, die mit dem ausgewählten Formular erstellt wurden).
+1. Aktualisieren Sie die Informationen für die Anfrage, wie in [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md) beschrieben.
+1. (Optional und bedingt) Klicken Sie während der Eingabe der Anfrage jederzeit auf **Verwerfen** Entwurf, wenn Sie den Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht.
+
+   Wenn Sie Ihren Entwurf versehentlich verworfen haben, können Sie in der Nachricht **unteren Bildschirmrand sofort auf** Rückgängig“ klicken. Diese Option ist nur für einige Sekunden verfügbar.
+
+   Weitere Informationen zum Löschen von Entwürfen finden Sie unter [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](../../../manage-work/requests/create-requests/delete-request-draft.md).
+
+1. (Optional) Wenn Sie Änderungen am Entwurf speichern möchten, ohne ihn zu übermitteln, verlassen Sie die Seite Neue Anfrage . Änderungen werden automatisch gespeichert.
+
+1. Nachdem Sie die Informationen für die Anfrage ausgefüllt haben, klicken Sie auf **Senden**.
+
+   Wenn Sie die Anfrage senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
+
+</div>
+
+### Erstellen von Anfragen aus Entwürfen im alten anfordernden Erlebnis
 
 {{step1-to-requests}}
 
