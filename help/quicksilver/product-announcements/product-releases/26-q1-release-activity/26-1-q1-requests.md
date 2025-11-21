@@ -6,9 +6,9 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 >Produktions-Schnellveröffentlichung: 11. Dezember 2025\
 >Produktion für alle: 16. Januar 2026
 
-Um das Erstellen und Senden von Anfragen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Entwürfe zu speichern. Wenn Sie jetzt mit dem Ausfüllen und Schließen einer Anfrage beginnen, wird die Anfrage im Status Entwurf gespeichert und ist in Ihrer Anfrageliste zu finden. Sie können den Entwurf dann jederzeit erneut öffnen, aktualisieren und senden.
+Um das Erstellen und Senden von Anfragen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Entwürfe zu speichern. Wenn Sie jetzt mit dem Ausfüllen und Schließen einer Anfrage beginnen, wird die Anfrage im Status Entwurf gespeichert und ist im Anfrageformular zu finden, das zum Erstellen des Entwurfs verwendet wird. Sie können den Entwurf dann jederzeit erneut öffnen, aktualisieren und senden.
 
 Zuvor war diese Funktion in der neuen anfordernden -Version nicht verfügbar.
 
-Entwürfe, die in der veralteten anfordernden -Version erstellt wurden, sind in der neuen anfordernden -Version verfügbar. Sie können sie in Ihrer Anfrageliste finden.
+Entwürfe, die in der veralteten anfordernden -Version erstellt wurden, sind in der neuen anfordernden -Version verfügbar.
 
 Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen von Anfragen aus Entwürfen](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -49,19 +49,23 @@ Zuvor war das Löschen von Anfragen nicht verfügbar.
 
 Weitere Informationen und Anweisungen finden Sie [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
-## Freigeben von Ansichten im Bereich „Anfragen“ und im Widget „Meine Anfragen“
+<!--
+
+## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
->Vorschau: 20. November 2025
->Produktions-Schnellveröffentlichung: 11. Dezember 2025\
->Produktion für alle: 16. Januar 2026
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
 
-Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zum neuen Reporting-Erlebnis auszutauschen. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen.
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
 
-Sie können Anfragelistenansichten sowohl über den Bereich Anfragen in Workfront als auch über das Widget Meine Anfragen auf der Startseite freigeben. Die Freigabefunktion ist an beiden Stellen identisch, und die Anzeigeeinstellungen, einschließlich der Freigabe, bleiben beim Wechseln zwischen dem Widget „Meine Anfragen“ und dem Bereich „Anfragen“ erhalten.
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
 
 ## Erstellen neuer Anfragen durch Kopieren zuvor gesendeter Anfragen in das neue anfragende Erlebnis
 
