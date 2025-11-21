@@ -8,9 +8,9 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: d4f261c41f99ef53b258987994b389045c692bd3
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Weitere Informationen zum Erstellen, Senden oder Senden von E-Mail-Anfragen in W
 * [Benutzern die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangen-Projekt zu senden](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
 * [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Freigeben eines Links zu einer Anfrage-Warteschlange](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
-* [Löschen eines Anfrageentwurfs](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Anfrage aus vorherigen Daten automatisch ausfüllen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [Automatisches Ausfüllen einer Anfrage über Eingabeaufforderungen oder Dokumente](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 * [Ansichten im Bereich Anfragen erstellen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
