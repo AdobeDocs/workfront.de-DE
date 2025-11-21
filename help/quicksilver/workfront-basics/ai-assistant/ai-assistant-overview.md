@@ -133,7 +133,7 @@ Wenn ein(e) Benutzende(r) versucht, den KI-Assistenten zu verwenden, obwohl die 
 
 So fordern Sie die Adobe Gen AI-Vereinbarung an:
 
-1. Klicken Sie als Workfront-Administrator auf das Symbol „KI![Assistent“ ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Klicken Sie als Workfront-Administrator auf das Symbol „KI![Assistent“ &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Beginnen Sie mit der Eingabe im Bedienfeld KI-Assistent .
 1. Wenn die Adobe Gen AI-Vereinbarungsmeldung angezeigt wird, klicken Sie auf **Vereinbarung überprüfen**.
 1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnen wird.
