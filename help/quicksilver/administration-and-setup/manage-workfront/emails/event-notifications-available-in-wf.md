@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5237'
 ht-degree: 7%
 
 ---
@@ -55,9 +55,9 @@ Siehe auch [Benachrichtigungen: Aktion erforderlich](../../../workfront-basics/u
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Zugriffsanforderung</p> </td> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Jemand fordert Zugriff von mir an.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -192,14 +192,14 @@ Siehe auch [Benachrichtigungen: Von mir eingereichte Anfragen](../../../workfron
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Statusänderung der Dokumentengenehmigung</p> </td> 
-   <td> <p>Anfragender</p> </td> 
+   <td> <p>Anfragenden</p> </td> 
    <td> <p>Eine Dokumentengenehmigungsanfrage ist abgeschlossen.</p> <p>Der Antragsteller erhält eine E-Mail-Benachrichtigung, wenn die Anforderung zur Dokumentgenehmigung abgeschlossen ist.</p> </td> 
    <td> <p>Aktiv (nur Sofort)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokumentanforderung abgeschlossen</p> </td> 
-   <td> <p>Anfragender</p> </td> 
+   <td> <p>Anfragenden</p> </td> 
    <td> <p>Anforderung zum Hochladen eines Dokuments wurde ausgeführt.</p> <p>Der Antragsteller erhält eine E-Mail-Benachrichtigung, wenn eine Anforderung zum Hochladen eines Dokuments erfüllt ist.</p> </td> 
    <td> <p>Aktiv (nur Sofort)</p> </td> 
   </tr> 
@@ -256,7 +256,7 @@ Siehe auch [Benachrichtigungen: Von mir eingereichte Anfragen](../../../workfron
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokumentanforderung hinzugefügt</p> </td> 
    <td> <p>Anfrage Primärer Kontakt</p> </td> 
-   <td> <p>Ein Dokument zu einem Problem, für das ich der primäre Ansprechpartner bin, wurde geändert oder hochgeladen.</p> <p>Der primäre Kontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zu dem Problem hochgeladen oder geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist auch der primäre Kontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist und wenn für das Projekt "Publish als Warteschlange für Hilfeanfragen“ auf der Registerkarte „Warteschlangeneinrichtung“ aktiviert ist.</p> </td> 
+   <td> <p>Ein Dokument zu einem Problem, für das ich der primäre Ansprechpartner bin, wurde geändert oder hochgeladen.</p> <p>Der primäre Kontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zu dem Problem hochgeladen oder geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist auch der primäre Kontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist und wenn für das Projekt „Als Warteschlange für Hilfeanfragen veröffentlichen“ auf der Registerkarte Warteschlangen-Setup aktiviert ist.</p> </td> 
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
@@ -301,16 +301,16 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Notiz</p> </td> 
+   <td> <p>Hinweis</p> </td> 
    <td> <p>Hinzufügung von Notizen anfordern</p> </td> 
    <td> <p>Anfrage Primärer Kontakt</p> </td> 
    <td> <p>Wenn ein Kommentar zu einer Anfrage gepostet wird, senden Sie eine E-Mail an den primären Kontakt für das Problem.</p> <p>Der primäre Kontakt für ein Problem erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar zu einer Anfrage gepostet wird, es sei denn, der Benutzer, der den Kommentar gepostet hat, ist auch der primäre Kontakt für das Problem.</p> <p>Alle Benutzer, die direkt in dem Kommentar enthalten sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td>Gezielte Aktualisierung</td> 
-   <td>Benutzerin oder Benutzer</td> 
+   <td>Benutzerin bzw. Benutzer</td> 
    <td> <p>Jemand schließt mich in eine direkte Aktualisierung ein.</p> <p>Eine direkte Aktualisierung liegt vor, wenn ein Benutzer einen anderen Benutzer explizit in eine Aktualisierung einbezieht, wie unter <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere bei Aktualisierungen </a>.</p> <p>In diesem Fall erhält der Benutzer, der an der weitergeleiteten Aktualisierung beteiligt ist, eine E-Mail-Benachrichtigung über die Aktualisierung.</p> <p>Die E-Mail-Benachrichtigung wird nur gesendet, wenn der/die Benutzende Zugriffsrechte auf das Objekt hat und es im Profil aktiviert lässt.  </p> <p>Diese Ereignisbenachrichtigung ist standardmäßig aktiviert und kann nicht deaktiviert werden.</p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
@@ -322,7 +322,7 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Notiz</p> </td> 
+   <td> <p>Hinweis</p> </td> 
    <td> <p>Kommentar zum Arbeitselement</p> </td> 
    <td> <p>Thread-Teilnehmer</p> </td> 
    <td> <p>Jemand kommentiert einen Thread, an dem ich teilnehme.</p> <p>Teilnehmer am Thread und Benutzer, die in einer Direktnachricht enthalten sind, erhalten eine E-Mail-Benachrichtigung, wenn ein Benutzer einen Kommentar im Thread abgibt.</p> <p>Benutzer müssen Lesezugriff haben, um eine Benachrichtigung zu erhalten.</p> <p>Die folgenden Benutzer erhalten keine Benachrichtigung:</p> 
@@ -334,14 +334,14 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Notiz</p> </td> 
+   <td> <p>Hinweis</p> </td> 
    <td> <p>Kommentar zum Arbeitselement</p> </td> 
    <td> <p>Zugewiesenes Arbeitselement</p> </td> 
    <td> <p>Jemand kommentiert eines meiner Arbeitselemente.</p> <p>Der Bevollmächtigte des Arbeitselements erhält jedes Mal eine E-Mail-Benachrichtigung, wenn ein Benutzer ein Update zu einem Arbeitselement hinzufügt, es sei denn, der Benutzer, der das Update hinzufügt, ist auch der Bevollmächtigte.</p> </td> 
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Notiz</p> </td> 
+   <td> <p>Hinweis</p> </td> 
    <td> <p>Antwort auf Arbeitsauftrag</p> </td> 
    <td> <p> Arbeitsauftrag</p> </td> 
    <td> <p>Jemand antwortet auf meine Anfrage.</p> <p>Nachdem ein(e) Benutzende(r) eine Anfrage gesendet hat und ein(e) andere(r) Benutzende(r) auf diese Anfrage antwortet, erhält der/die Benutzende, der/die die Anfrage gesendet hat, eine E-Mail-Benachrichtigung.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn:</p> 
@@ -378,9 +378,9 @@ Siehe auch [Benachrichtigungen: Genehmigungsinformationen](../../../workfront-ba
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Genehmigungsdelegierung</p> </td> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Ich wurde als genehmigende Person beauftragt.</p> </td> 
    <td> <p>Aktiv (nur Sofort)</p> </td> 
   </tr> 
@@ -494,7 +494,7 @@ Siehe auch [Benachrichtigungen: Informationen zu meiner Arbeit](../../../workfro
    <td> <p>Dokument</p> </td> 
    <td> <p>Dokumentanforderung hinzugefügt</p> </td> 
    <td> <p>Benutzer, dem das Problem zugewiesen ist</p> </td> 
-   <td> <p>Dokumente zu Anfragen, denen ich zugewiesen bin, werden hochgeladen oder geändert.</p> <p>Der Anfragebevollmächtigte erhält eine E-Mail-Benachrichtigung, wenn Dokumente zu einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der das Problem eingegeben hat, der Problembearbeiter ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist und wenn für das Projekt "Publish als Warteschlange für Hilfeanfragen“ auf der Registerkarte „Warteschlangeneinrichtung“ aktiviert ist.</p> </td> 
+   <td> <p>Dokumente zu Anfragen, denen ich zugewiesen bin, werden hochgeladen oder geändert.</p> <p>Der Anfragebevollmächtigte erhält eine E-Mail-Benachrichtigung, wenn Dokumente zu einem von ihm hinzugefügten Problem hochgeladen oder geändert werden.</p> <p>Eine E-Mail-Benachrichtigung wird nicht gesendet, wenn der Benutzer, der das Problem eingegeben hat, der Problembearbeiter ist.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist und wenn für das Projekt „Als Warteschlange für Hilfeanfragen veröffentlichen“ auf der Registerkarte Warteschlangen-Setup aktiviert ist.</p> </td> 
    <td> <p>Aktiv (nur täglich)</p> </td> 
   </tr> 
   <tr> 
@@ -599,6 +599,13 @@ Siehe auch [Benachrichtigungen: Informationen zu Projekten, an denen ich mitwirk
    <td> <p>Projektstatusänderung</p> </td> 
    <td> <p>Mitglieder des Projektteams</p> </td> 
    <td> <p>Der Status eines Projekts, an dem ich mitarbeite, ändert sich.</p> <p>Benutzer im Projektteam erhalten eine E-Mail-Benachrichtigung, wenn sich der Status des Projekts ändert. </p> </td> 
+   <td> <p>Inaktiv</p> </td> 
+  </tr> 
+     <tr> 
+   <td> <p>Projekt</p> </td> 
+   <td> <p>Aktueller Projektstatus</p> </td> 
+   <td> <p>Mitglieder des zugewiesenen Teams</p> </td> 
+   <td> <p>Ein Projekt, an dem mein Team mitarbeitet, wird aktiv.</p> <p>Mitglieder eines zugewiesenen Workfront-Teams erhalten eine E-Mail-Benachrichtigung, wenn das Projekt aktiviert wird, dem sie zugewiesen wurden.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -858,9 +865,9 @@ Siehe auch [Benachrichtigungen: Sonstige Informationen](../../../workfront-basic
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Neuer Benutzer</p> </td> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Wenn ein neuer Benutzer in Workfront erstellt wird, den Benutzer per E-Mail benachrichtigen.</p> <p>Nachdem der neue Benutzer erstellt wurde, erhält er eine E-Mail-Einladung, die ihn darüber informiert, dass ein Workfront-Konto erstellt wurde, und ihn auffordert, sein Kennwort festzulegen.</p> <p>Beim Erstellen eines neuen Benutzers können Benutzer die Option „Einladungs-E-Mail an diese Person senden“ auswählen (wie in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Benutzer hinzufügen</a><span style="font-weight: 400;"> beschrieben). Wenn die Option „Neuer Benutzer an Benutzer“ jedoch global aktiviert ist, erhalten alle neuen Benutzer die E-Mail-Einladung, unabhängig davon, ob die Option „Einladungs-E-Mail an diese Person senden“ ausgewählt ist.</span></p> </td> 
    <td> Inaktiv </td> 
   </tr> 
@@ -872,7 +879,7 @@ Siehe auch [Benachrichtigungen: Sonstige Informationen](../../../workfront-basic
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzerin oder Benutzer</p> </td> 
+   <td> <p>Benutzerin bzw. Benutzer</p> </td> 
    <td> <p>Objektfreigabe</p> </td> 
    <td> <p>Benutzer, für den das Objekt freigegeben wurde</p> </td> 
    <td> <p>Jemand hat ein Objekt für mich freigegeben.</p> </td> 
@@ -888,7 +895,7 @@ Siehe auch [Benachrichtigungen: Sonstige Informationen](../../../workfront-basic
   <tr> 
    <td> <p>Projekt</p> </td> 
    <td> <p>Projekt einem Portfolio oder Programm hinzugefügt</p> </td> 
-   <td> <p>Portfolio- oder Programmbesitzer</p> </td> 
+   <td> <p>Portfolio oder Programm-Inhaber</p> </td> 
    <td> <p>Jemand fügt ein Projekt einem Portfolio oder Programm hinzu, dessen Besitzer ich bin.</p> </td> 
    <td> <p>Aktiv (nur Sofort)</p> </td> 
   </tr> 
