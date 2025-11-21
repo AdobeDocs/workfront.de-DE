@@ -6,20 +6,23 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 2%
+source-wordcount: '1588'
+ht-degree: 3%
 
 ---
 
 # Anforderungen kopieren und senden
 
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
+
 Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anfrage kopieren, minimal ändern und als neue Anfrage erneut senden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
   >
   >Die kopierte Anfrage ist nicht mit einem anfragelösenden Objekt verknüpft.
 
-## Anforderungen kopieren und senden
+## Kopieren und Senden von Anfragen im alten anfordernden Erlebnis
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
 1. Klicken Sie auf **Senden**.
 
    Die kopierte Anfrage wird als neue Anfrage in der von Ihnen angegebenen Anfrage-Warteschlange gesendet.
+
+<div class="preview">
+
+## Kopieren und Senden von Anfragen in der neuen anfordernden Version
+
+Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Meine Anfragen auf der Startseite kopieren und senden.
+
+1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
+
+1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
+
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+   1. Suchen Sie das Widget Meine Anfragen .
+
+      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Bewegen Sie in der Liste Anfragen oder im Widget Meine Anfragen den Mauszeiger über die Anfrage, die Sie kopieren möchten.
+
+   Ein Drei-Punkte-Menü Mehr wird angezeigt.
+   ![](assets/more-menu.png)
+
+1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Anfragenamen und dann auf **Kopieren**.
+
+   Oder
+
+   Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und dann auf **Kopieren**.
+
+   >[!TIP]
+   >
+   >Wenn Sie keinen Zugriff haben, um Probleme zu erstellen, erhalten Sie eine Warnung, dass Ihr Administrator Sie daran gehindert hat, Anfragen zu erstellen.
+
+1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anfrage. Die verfügbaren Felder hängen von der Anfrage-Warteschlange oder dem für die Anfrage verwendeten Anfrage-Formular ab.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. Klicken Sie auf **Senden**.
+
+   Die kopierte Anfrage wird als neue Anfrage gesendet.
+
+</div>
+

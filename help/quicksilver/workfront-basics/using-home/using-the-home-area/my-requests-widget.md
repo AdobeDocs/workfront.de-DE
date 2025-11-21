@@ -6,20 +6,21 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 3%
+source-wordcount: '798'
+ht-degree: 5%
 
 ---
 
 # Verwenden des Widgets Meine Anfragen
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
 >In diesem Artikel wird das neue Widget „Meine Anfragen“ beschrieben. Das neue anfragende Erlebnis muss aktiviert sein, damit das neue Widget angezeigt wird.
->&#x200B;>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
+>Sie können das neue Anfrageerlebnis in Ihrem Anfragebereich aktivieren.
 
 Das Widget Meine Anfragen zeigt Anfragen an, die an Ihre Organisation gesendet wurden. Sie können die Anfragen filtern, nach bestimmten Anfragen suchen oder die Spaltenreihenfolge und Sichtbarkeit anpassen. Sie können auch über das Widget Meine Anfragen eine neue Anfrage erstellen.
 
@@ -29,7 +30,7 @@ Das Widget Meine Anfragen zeigt Anfragen an, die an Ihre Organisation gesendet w
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,11 +64,21 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Erstellen einer Anfrage
+## Erstellen einer neuen Anfrage
 
 Sie können eine Anfrage direkt über das Widget Meine Anfragen erstellen.
 
 Anweisungen finden Sie [Erstellen einer Anfrage](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) im Artikel Erstellen von Arbeitselementen und Projekten im Bereich „Startseite“.
+
+<div class="preview">
+
+## Anfrage kopieren
+
+Sie können eine Anfrage im Widget Meine Anfragen kopieren, bearbeiten und als neue Anfrage senden.
+
+Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
+
+</div>
 
 ## Anfragen filtern
 
