@@ -1,14 +1,15 @@
 ---
 title: Allgemeine Informationen zu Adobe Workfront Planning
 description: Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie die Planungsfunktionen konfigurieren und diese im Rahmen der Kampagnenverwaltung verwenden können.
+short-description: Verwenden Sie die Dokumente und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront Planning in Ihrem Unternehmen implementieren und effektiv verwenden können.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: ddb72bcf8e1a330e39f1e52a1d89d9478a7afb98
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -87,7 +88,7 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront 
 
 * [Grundlagen der Adobe Workfront Planning-](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird.
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
 
 * [Übersicht über den Adobe Workfront Planning AI-Assistenten](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI-Assistenten für Planning können Sie nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen, indem Sie Befehle verwenden und den Assistenten die Arbeit für Sie erledigen lassen.
 
