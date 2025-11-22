@@ -68,9 +68,9 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 >
 >Wenn Sie nicht auf Ihre persönlichen Benachrichtigungseinstellungen zugreifen können, wenden Sie sich bitte an Ihren Administrator.
 
-1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) ](assets/bell-icon.png).
+1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) &#x200B;](assets/bell-icon.png).
 
-1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol ](assets/settings-icon.png).
+1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol &#x200B;](assets/settings-icon.png).
 
 1. Klicken **Abschnitt „Benachrichtigungen** auf das Pfeilsymbol ![Workfront-Kachelpfeil](assets/arrow-icon.png) auf der Kachel **Workfront**.
 
