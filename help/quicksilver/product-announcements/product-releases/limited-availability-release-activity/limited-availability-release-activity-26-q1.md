@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Eine Liste aller Funktionen mit eingeschränkter Verfügbarkeit, die für Adobe 
 
 >[!NOTE]
 >
->Produktionsveröffentlichungsdatum: XX. November 2025
+>Produktionsveröffentlichungsdatum: 20. November 2025
 
 Sie können jetzt prozentuale Änderungen auf einen oder mehrere Abrechnungssätze für Aufgabengebiete innerhalb einer Tarifkarte anwenden. Anstatt jeden Tarif einzeln manuell zu aktualisieren, können Sie Änderungen in einem einzigen Vorgang auf alle ausgewählten Tarife anwenden.
 
