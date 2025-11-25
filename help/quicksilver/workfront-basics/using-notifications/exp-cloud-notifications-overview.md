@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 0c83d47e21148d2c6234e0c157da3381146a7128
+source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,7 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 
 ## Was bleibt gleich?
 
-* In-App-Benachrichtigungen werden Sie in der ersten Phase der Umstellung und später sowohl In-App- als auch E-Mail-Benachrichtigungen erhalten.
-
-* Bestehende Benachrichtigungseinstellungen werden automatisch übernommen.
+* In-App-Benachrichtigungen werden Sie während der ersten Phase der Umstellung und später E-Mail-Benachrichtigungen erhalten.
 
 * Workfront erstellt weiterhin Trigger-Benachrichtigungen basierend auf Ihren Arbeitselementen.
 
@@ -68,9 +66,9 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 >
 >Wenn Sie nicht auf Ihre persönlichen Benachrichtigungseinstellungen zugreifen können, wenden Sie sich bitte an Ihren Administrator.
 
-1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) &#x200B;](assets/bell-icon.png).
+1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) ](assets/bell-icon.png).
 
-1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol &#x200B;](assets/settings-icon.png).
+1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol ](assets/settings-icon.png).
 
 1. Klicken **Abschnitt „Benachrichtigungen** auf das Pfeilsymbol ![Workfront-Kachelpfeil](assets/arrow-icon.png) auf der Kachel **Workfront**.
 
