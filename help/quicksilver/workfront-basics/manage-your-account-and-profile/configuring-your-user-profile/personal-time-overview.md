@@ -7,18 +7,18 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann genehmigte Ausfa
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 4%
 
 ---
 
 # Konfigurieren der persönlichen Ausfallzeit
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau -Umgebung verfügbar und wird in einem schrittweisen Rollout in die Produktion veröffentlicht.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] ist nicht dafür konzipiert, bestehende Systeme zur Verwaltung, Ansammlung und Verfolgung persönlicher Ausfallzeiten zu replizieren oder zu ersetzen.
 
@@ -38,7 +38,7 @@ Ressourcen-Management-Tools verwenden auch Ihre persönliche Auszeit, um anzugeb
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,18 +72,17 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 >[!NOTE]
 >
->Wenn Sie Adobe Unified Experience verwenden, können Sie auf Ihr Workfront-Profil zugreifen, indem Sie im oberen Navigationsbereich auf das Adobe-Kontomenü (Ihr Profilbild) klicken und dann auf Workfront-Profil klicken.
+>Wenn Ihr Unternehmen über das einheitliche Adobe-Erlebnis verfügt, klicken Sie oben rechts im oberen Navigationsbereich auf das Kontomenü **Adobe** (Ihr Profilbild) und dann auf **Workfront-Profil**.
 >
 >![Workfront-Profil](assets/aue-profile.png)
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Auszeit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Auszeit aus.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Persönlicher Urlaubskalender](assets/personal-time-off-calendar-0925.png)
 
-   Beispielbild in der Produktionsumgebung:
-   ![Persönlicher Urlaubskalender](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Wählen Sie **[!UICONTROL Den ganzen]** aus, wenn Sie sich einen ganzen Tag freinehmen möchten.
 
