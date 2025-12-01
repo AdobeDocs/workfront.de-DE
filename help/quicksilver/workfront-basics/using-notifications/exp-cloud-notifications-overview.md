@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
+source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Übersicht über Experience Cloud-Benachrichtigungen
 
-Adobe Workfront vereint alle DX-Produkte (Digital Experiences) in einem einzigen, konsistenten Benachrichtigungssystem namens Experience Cloud-Benachrichtigungen. Ab oder um Februar 2026 werden Ihre alten Workfront-Benachrichtigungsdienste automatisch in das zentrale Benachrichtigungssystem von Adobe migriert.
+Adobe Workfront vereint alle DX-Produkte (Digital Experiences) in einem einzigen, konsistenten Benachrichtigungssystem namens Experience Cloud-Benachrichtigungen. Ab oder um Februar 2026 werden Ihre alten Workfront-Benachrichtigungsdienste in das zentrale Benachrichtigungssystem von Adobe migriert, über das Sie unser Team vor der Implementierung informieren wird.
 
 Nach dieser Umstellung können Sie auf alle Benachrichtigungen in Adobe Workfront und anderen Adobe DX-Anwendungen an einem Ort zugreifen, was die Verwaltung Ihrer Voreinstellungen und die Information vereinfacht.
 
@@ -66,9 +66,9 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 >
 >Wenn Sie nicht auf Ihre persönlichen Benachrichtigungseinstellungen zugreifen können, wenden Sie sich bitte an Ihren Administrator.
 
-1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) &#x200B;](assets/bell-icon.png).
+1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) ](assets/bell-icon.png).
 
-1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol &#x200B;](assets/settings-icon.png).
+1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol ](assets/settings-icon.png).
 
 1. Klicken **Abschnitt „Benachrichtigungen** auf das Pfeilsymbol ![Workfront-Kachelpfeil](assets/arrow-icon.png) auf der Kachel **Workfront**.
 
