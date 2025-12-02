@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
-<p>Oder</p>
+Oder
 <li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass in mindestens einem anderen Arbeitsbereich mindestens ein Datensatztyp als „global“ festgelegt ist.
+>Stellen Sie sicher, dass in mindestens einem anderen primären Arbeitsbereich mindestens ein Datensatztyp als „global“ gekennzeichnet ist.
 >
 >Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+1. Wechseln Sie zu einem Workspace, in dem Sie einen Datensatztyp erstellen möchten (sekundärer Workspace).
 1. Beginnen Sie mit der Erstellung eines Datensatztyps, wie im Artikel [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md) beschrieben, und klicken Sie dann auf **Vorhandene hinzufügen**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modal zum Hinzufügen eines Datensatztyps mit der Option zum Hinzufügen aus einem anderen Arbeitsbereich](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -126,10 +127,10 @@ And
    >
    >Wenn keine Datensatztypen zum Hinzufügen zu anderen Arbeitsbereichen in Ihrem System konfiguriert sind, wird die Option **Vorhandene hinzufügen** nicht angezeigt.
 
-1. Klicken Sie auf **Fortfahren**.
+1. Klicken Sie auf **Continue**.
 1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   Der Datensatztyp wird dem ausgewählten Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** wird ![](assets/global-icon.png) auf der Karte des Datensatztyps angezeigt.
+   Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** wird ![](assets/global-icon.png) auf der Karte des Datensatztyps angezeigt.
 
    Folgendes geschieht:
 

@@ -4,10 +4,10 @@ description: Sie können mehrere Workspace-Hierarchien zwischen den Datensatztyp
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem W
    <td> 
 <ul> 
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-<p>Oder</p>
+Oder
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 

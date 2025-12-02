@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 3%
 
 ---
@@ -29,14 +29,14 @@ In Adobe Workfront Planning gibt es Beschränkungen für die Anzahl der Objekte,
 
 In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte aufgeführt, die Sie in Workfront Planning erstellen können. Die Einschränkungen können sich ändern.
 
-| Adobe Workfront Planning-Objekt | Limit |
+| Adobe Workfront Planning-Objekt | Beschränkungen |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | Unbegrenzt* |
 | Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
 | Anzahl der Datensatztypen für einen Arbeitsbereich | 100 (dies umfasst Datensatztypen aus allen Bereichen sowie aus denjenigen, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
 | Anzahl von Datensätzen für einen Datensatztyp | 25.000 |
-| Anzahl von Datensätzen für einen Arbeitsbereich | 25.000 für Kunden mit Planning <br> 500.000 für Kunden mit Planning Plus |
-| Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | 500.000 für Kunden mit Planning <br>2 Millionen für Kunden mit Planning Plus |
+| Anzahl von Datensätzen für einen Arbeitsbereich | Planung auswählen: 25.000 <br> Prime: 500.000 <br> Ultimate: 1.000.000 |
+| Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | Planung auswählen: 500.000 <br> Planen Prime: 2.000.000 <br> Planen Ultimate: Unbegrenzt |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
 | Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |
@@ -51,6 +51,7 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Formelfelder für einen Datensatztyp | 20 |
 | <span class="preview">Anzahl der Verbindungsfelder für einen Datensatztyp</span> | <span class="preview">30 </span> |
 | Anzahl der Zeichen in einem Formelfeldausdruck | 50.000 |
+| Anzahl der Entitäten (Benutzer, Rollen, Teams, Unternehmen, Gruppen), für die Sie ein Planning-Objekt freigeben können | 100 |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 

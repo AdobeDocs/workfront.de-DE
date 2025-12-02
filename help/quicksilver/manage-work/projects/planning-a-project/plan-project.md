@@ -2,25 +2,26 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Planen eines Projekts - Übersicht
-description: Finden Sie heraus, was ein Projekt ist, wie sein Umfang und seine Struktur festgelegt werden, sowie wichtige Konzepte wie Zeitpläne, Zeitpläne und Start- und Abschlussdaten.
+description: Ein Projekt ist ein großes Arbeitselement in Adobe Workfront. Sie können ein Projekt in Aufgaben aufteilen, die kleinere Arbeitselemente sind. Aufgaben können Benutzern oder Teams zugewiesen werden, die für den Abschluss verantwortlich sind. Wenn alle Benutzer ihre Aufgaben abgeschlossen haben, ist auch das Projekt abgeschlossen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
 
 # Projektübersicht planen
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 Ein Projekt ist ein großes Arbeitselement in Adobe Workfront. Sie können ein Projekt in Aufgaben aufteilen, die kleinere Arbeitselemente sind. Aufgaben können Benutzern oder Teams zugewiesen werden, die für den Abschluss verantwortlich sind. Wenn alle Benutzer ihre Aufgaben abgeschlossen haben, ist auch das Projekt abgeschlossen.
 
@@ -30,9 +31,13 @@ Neben der Planung Ihrer Aufgaben in einem Projekt gehen viele weitere Details in
 
 Projektplanung bedeutet, dass Sie genau festlegen, welche Hauptziele Sie für den Abschluss des Projekts erreichen müssen.
 
-In den Anfangsphasen eines Projekts haben Sie möglicherweise noch nicht festgelegt, ob Sie das Projekt tatsächlich durchführen sollten. Es ist vielleicht nicht kostengünstig, oder Sie haben nicht die Ressourcen. In dieser Planungsphase können Sie ein Projekt in Workfront erstellen, ohne Aufgaben hinzuzufügen, und den Status auf „Planung“ setzen.
+In den Anfangsphasen eines Projekts haben Sie möglicherweise noch nicht festgelegt, ob Sie das Projekt tatsächlich durchführen sollten. Es ist vielleicht nicht kostengünstig, oder Sie haben nicht die Ressourcen. In dieser Planungsphase können Sie ein Projekt in Workfront erstellen, ohne Aufgaben hinzuzufügen, und seinen Status auf „Planung“ setzen.
+
+Sie können auch eine Projektanfrage einreichen, um Ihren Portfolio-Manager zu fragen, ob es möglich ist, das Projekt überhaupt zu erstellen. Auf diese Weise können Sie einen Business Case für das Projekt einreichen, in dem Sie schätzen können, was zum Abschließen des Projekts erforderlich ist. Dadurch wird ein Projekt mit dem Status Angefordert erstellt.
 
 Weitere Informationen zum Erstellen eines Projekts finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
+
+Informationen zum Erstellen einer Projektanfrage finden Sie unter [Projekt anfordern](/help/quicksilver/manage-work/projects/create-projects/request-project.md).
 
 Beachten Sie die folgenden Fragen, bevor Sie ein Projekt planen:
 
@@ -54,13 +59,19 @@ Nachdem Sie den Gesamtumfang des Projekts definiert haben, können Sie dann fest
 
 ### Definieren des Start- und Abschlussdatums des Projekts {#define-the-start-and-completion-date-of-the-project}
 
-Wenn Sie ein Projekt planen, müssen Sie als Erstes die Zeitleiste festlegen: Wann kann das Projekt beginnen und zu welcher Zeit es abgeschlossen sein muss. Legen Sie fest, ob eine Frist festgelegt werden muss, bis zu der das Projekt abgeschlossen sein muss, oder ob Sie einen Ausgangspunkt festlegen und von dort aus arbeiten sollten.
+Wenn Sie ein Projekt planen, müssen Sie als Erstes die Zeitleiste festlegen: Sie bestimmt, wann das Projekt beginnen kann und zu welcher Zeit es abgeschlossen sein muss.
+
+Legen Sie fest, ob eine Frist festgelegt werden muss, bis zu der das Projekt abgeschlossen sein muss, oder ob Sie einen Ausgangspunkt festlegen und von dort aus arbeiten sollten.
 
 Sie können ein Projekt nach einem Startdatum oder nach einem Abschlussdatum planen. Sie können dieses Attribut beim erstmaligen Erstellen des Projekts festlegen und es jederzeit ändern, indem Sie das Projekt bearbeiten.
+
+Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ### Definieren des Projektzeitplans {#define-the-project-schedule}
 
 Sie müssen einen Zeitplan festlegen und ihn mit dem Projekt sowie mit den Benutzern verknüpfen, die für die Durchführung der Aufgaben im Projekt verantwortlich sind.
+
+Ein Zeitplan definiert, wie viel Zeit den Benutzenden für die Arbeit am Projekt zur Verfügung steht.
 
 Erwägen Sie, Folgendes in einem Zeitplan zu definieren:
 
@@ -70,7 +81,7 @@ Erwägen Sie, Folgendes in einem Zeitplan zu definieren:
 
 Um den Fortschritt Ihrer Aufgaben im Projekt zu verstehen, ist es wichtig zu wissen, wann Benutzer für die Arbeit zur Verfügung stehen.
 
-Sie können mehrere Projektzeitpläne erstellen und einen Standardzeitplan auf das Projekt anwenden. Zusätzliche benutzerdefinierte Zeitpläne können auf verschiedene Personen angewendet werden.
+Sie können mehrere Zeitpläne in Ihrer Workfront-Instanz erstellen und einen Standardzeitplan anwenden, der für alle Projekte verwendet wird. Sie können auch zusätzliche benutzerdefinierte Zeitpläne erstellen, um sie mit verschiedenen Personen zu verknüpfen.
 
 Weitere Informationen zu Zeitplänen finden Sie im Artikel [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -80,14 +91,19 @@ Bei der Planung eines Projekts müssen zusätzliche Informationen eingerichtet w
 
 Stellen Sie sich die folgenden Fragen:
 
-* Gibt es eine Vorschrift, die vorschreibt, dass Ereignisse und Prozesse aufzuzeichnen sind? Wenn ja, welche Elemente müssen nachverfolgt werden?\
+* Gibt es eine Vorschrift, die vorschreibt, dass Ereignisse und Prozesse aufzuzeichnen sind? Wenn ja, welche Elemente müssen nachverfolgt werden?
+
   Mit Workfront können Sie Bearbeitungen, Umfangsänderungen, Statusänderungen und Aktionen aufzeichnen, damit Sie die branchenspezifischen Vorschriften einhalten können.\
   Weitere Informationen zum Definieren der zu verfolgenden Aktualisierungen in Workfront finden Sie im Artikel [System-getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Gibt es Informationen, die Sie nachverfolgen müssen und die kein Feld in Workfront haben, um sie zu speichern? Wenn ja, erstellen Sie eine benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.\
+* Gibt es Informationen, die Sie nachverfolgen müssen und die kein Feld in Workfront haben, um sie zu speichern?
+
+  Wenn ja, erstellen Sie eine benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.
+
   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Gibt es Genehmigungsprüfpunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.\
+* Gibt es Genehmigungsprüfpunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.
+
   Weitere Informationen zu Genehmigungsprozessen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Projekt-Zeitleiste erstellen
@@ -95,11 +111,12 @@ Stellen Sie sich die folgenden Fragen:
 Nachdem Sie die Hauptziele eines Projekts festgelegt und entschieden haben, dass es sich lohnt, das Projekt fortzusetzen, sollten Sie den Zeitplan für jedes Ziel berechnen. Jedes Ziel kann zu einer Ihrer Aufgaben im Projekt werden.
 
 Auf diese Weise können Sie Ihre Ziele priorisieren und Ihre Aufschlüsselungsstruktur entsprechend planen. Die Arbeitsaufschlüsselungsstruktur definiert die Zeitleiste des Projekts.\
-Weitere Informationen zum Erstellen von Aufgaben in einem Projekt finden Sie im Abschnitt [Aufgaben definieren](#define-tasks).
+Weitere Informationen zum Erstellen von Aufgaben in einem Projekt finden Sie im Abschnitt [Definieren von Aufgaben](#define-tasks) in diesem Artikel.
 
 Beachten Sie beim Erstellen der Zeitleiste des Projekts Folgendes:
 
 * Schlüsseln Sie größere Ziele in untergeordnete Aufgaben auf und definieren Sie deren Start- und Abschlussdatum.
+* Weisen Sie Einzelpersonen oder Teams Aufgaben zu, damit Sie wissen, wer für deren Abschluss verantwortlich ist. Sie können Aufgabengebiete zuweisen, jedoch nur für die Anfangsplanungsphase des Projekts, wenn Sie nicht sicher sind, wem die Aufgaben zugewiesen werden können. Nach dem Starten des Projekts ist es besser, die Aufgabengebiete durch Benutzer- oder Teamzuweisungen zu ersetzen.
 * Stellen Sie fest, ob Ihre Ziele von anderen Zielen abhängig sind.
 
   Sie können diese Abhängigkeiten als Vorgänger einrichten.
@@ -124,7 +141,7 @@ Während Sie die Ziele Ihres Projekts und die damit verbundenen Aufgaben definie
 
 Sie können Aufgaben auf folgende Weise für ein Projekt erstellen:
 
-* Hinzufügen von Aufgaben zu einem Projekt im Inline-Bearbeitungsmodus.
+* Aufgaben manuell zu einem Projekt hinzufügen, während Sie die Aufgabenliste im Projekt inline bearbeiten.
 * Verwenden Sie eine Vorlage mit definierten Vorlagenaufgaben und fügen Sie sie zu Ihrem Projekt hinzu.
 
   Die Vorlagenaufgaben werden zu Aufgaben des Projekts.
@@ -135,7 +152,7 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
 
 * Definieren Sie die Zeitleiste für jede Aufgabe. Dies wird im Feld Dauer jeder Aufgabe erfasst.
 
-  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 * Definieren Sie die hierarchische Beziehung zwischen den Aufgaben.
 * Definieren Sie die Vorgängerbeziehung zwischen den Aufgaben.
