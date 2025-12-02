@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 0%
+source-wordcount: '1741'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Die benutzerdefinierte Aktualisierungs-Sandbox ist eine Umgebung, in der Sie mit
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -223,3 +223,8 @@ In der benutzerdefinierten Sandbox-Aktualisierungsumgebung ist die nächtliche N
 * [!DNL Workfront] benutzerdefinierte Sandbox-Aktualisierungsumgebungen sind so konzipiert, dass sie immer verfügbar sind. Jeder Ausfall einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen, falls vorhanden, erste Priorität. Alle Ausfälle einer benutzerdefinierten Workfront-Aktualisierungs-Sandbox-Umgebung an Wochenenden (samstags und sonntags) werden behoben, sodass die Umgebung montags für Geschäftszeiten ausgeführt wird.
 
 * Das Proofing ist in den benutzerdefinierten Sandbox-Aktualisierungsumgebungen nicht verfügbar.
+
+* Die folgenden Benachrichtigungen sind nicht für die Verwendung in benutzerdefinierten Sandbox-Aktualisierungsumgebungen verfügbar:
+
+   * Erinnerungsbenachrichtigungen
+   * Automatische, verspätete oder frühzeitige Erinnerungsbenachrichtigungen
