@@ -7,9 +7,9 @@ description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Struktur und zum Inhalt der Daten in Work
 
 >[!NOTE]
 >
->Die Daten in Data Connect werden alle vier Stunden aktualisiert, sodass die letzten Änderungen möglicherweise nicht sofort angezeigt werden.
+>Die Daten in Data Connect werden alle 4 Stunden aktualisiert, sodass die letzten Änderungen möglicherweise nicht sofort angezeigt werden.
 
 ## Typen anzeigen
 
@@ -49,7 +49,7 @@ Objekte in Workfront (und daher im Data Connect-Data Lake) werden nicht nur durc
 >[!IMPORTANT]
 >
 >Das bereitgestellte Entitätsbeziehungsdiagramm (Entity Relationship Diagram, ERD) ist absichtlich unvollständig, da ein vollständiges ERD aufgrund der hohen Anzahl von Beziehungen innerhalb der Anwendung unlesbar würde.<br>
->&#x200B;>Dieses Diagramm zeigt anhand eines Beispiels, wie die in der Projekttabelle dokumentierten Beziehungen im Abschnitt [Terminologietabelle](#terminology-table) unten verwendet werden können, um Daten aus der Projektdatenansicht mit benachbarten Objekten zu verbinden. Es wird erwartet, dass kein vollständiges ERD erforderlich ist, sobald dieses Muster für die Projektobjektbeziehungen verstanden wird
+>Dieses Diagramm zeigt anhand eines Beispiels, wie die in der Projekttabelle dokumentierten Beziehungen im Abschnitt [Terminologietabelle](#terminology-table) unten verwendet werden können, um Daten aus der Projektdatenansicht mit benachbarten Objekten zu verbinden. Es wird erwartet, dass kein vollständiges ERD erforderlich ist, sobald dieses Muster für die Projektobjektbeziehungen verstanden wird
 
 ## Datentypen
 
@@ -67,7 +67,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
 >[!NOTE]
 >
 >Neue Felder können den Objektansichten ohne vorherige Ankündigung hinzugefügt werden, um die sich verändernden Datenanforderungen des Workfront-Programms zu unterstützen. Wir raten zur Verwendung von „SELECT“-Abfragen, bei denen der nachgelagerte Datenempfänger nicht darauf vorbereitet ist, zusätzliche Spalten zu verarbeiten, wenn sie hinzugefügt werden.<br>
->&#x200B;>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
+>Wenn das Umbenennen oder Entfernen einer Spalte erforderlich ist, werden wir diese Änderungen im Voraus bekannt geben.
 
 ### Zugriffsebene
 
@@ -1597,7 +1597,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
     </tbody>
 </table>
 
-### Benutzerdefinierte Enumeration
+### Benutzerdefinierte Aufzählung
 
 <table>
     <thead>
@@ -1614,7 +1614,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
             <td>Benutzerdefinierte Enumeration</td>
             <td>Bedingung, Priorität, Schweregrad, Status</td>
             <td>SYSTEM</td>
-            <td>Benutzerdefinierte Enumeration</td>
+            <td>Benutzerdefinierte Aufzählung</td>
             <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY_<br>_EVENT</td>
         </tr>
       </tbody>
@@ -1660,17 +1660,21 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         </tr>
     </tbody>
 </table>
-<div>* Der Typ des Datensatzes wird durch die Eigenschaft „enumClass“ identifiziert. Es werden folgende Typen erwartet:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>Der Typ des Datensatzes wird durch die `enumClass`-Eigenschaft identifiziert. Es werden folgende Typen erwartet:<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### Dokument
 
@@ -6602,6 +6606,11 @@ Eingeschränkte Kundenverfügbarkeit
     </tbody>
 </table>
 
+>[!NOTE]
+>
+>Es gibt 3 Team-Typen, die in den Team-Objekttabellen gespeichert sind: PROJEKT, VORLAGE und ADHOC. <br>
+>Jeder dieser Team-Typen wird zusammen in den Data Connect Data Lake-Ansichten dargestellt. Um den spezifischen Team-Typ zu isolieren, den Sie zurückgeben möchten, müssen Sie nach der Spalte `teamtype` filtern. Wenn Sie beispielsweise nur die herkömmlichen Teams wünschen, die Teil Ihrer Organisationsstrukturen sind, die im Bereich Teams der Anwendung konfiguriert sind, können Sie eine Abfrage haben, die in etwa wie folgt aussieht: <code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
+
 ### Teammitglied
 
 <table>
@@ -7786,7 +7795,7 @@ Eingeschränkte Kundenverfügbarkeit
     </tbody>
 </table>
 
-### Arbeitszeittabellen-Profil
+### Arbeitszeittabellenprofil
 
 <table>
     <thead>
@@ -7800,10 +7809,10 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Arbeitszeittabellen-Profil</td>
-            <td>Arbeitszeittabellen-Profil</td>
+            <td>Arbeitszeittabellenprofil</td>
+            <td>Arbeitszeittabellenprofil</td>
             <td>TSPRO</td>
-            <td>Arbeitszeittabellen-Profil</td>
+            <td>Arbeitszeittabellenprofil</td>
             <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
         </tr>
       </tbody>
