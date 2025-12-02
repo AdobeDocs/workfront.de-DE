@@ -166,7 +166,7 @@ Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatzt
 Formulardetails sind in Registerkarten unterteilt.
 
 * Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
-* Auf **Registerkarte**Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
+* Auf **Registerkarte**&#x200B;Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Einrichten von Formulardetails
@@ -300,7 +300,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
