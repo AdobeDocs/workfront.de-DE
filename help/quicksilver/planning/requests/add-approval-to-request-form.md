@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,11 +90,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    Der **Konfiguration** wird angezeigt.
 
    ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
-1. Klicken **im Feld** auf das Dropdown-Symbol und wählen Sie einen oder mehrere Benutzer oder Teams in der Liste aus
-
-   Oder
-
-   Geben Sie den Namen eines Benutzers oder Teams ein, den Sie als genehmigende Person festlegen möchten, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
+1. Beginnen Sie **Feld** Genehmigende Person“, den Namen einer Person oder eines Teams einzugeben, die bzw. das Sie als genehmigende Person festlegen möchten, und wählen Sie ihn aus, wenn er bzw. es in der Liste angezeigt wird.
+1. (Optional und bedingt) Wenn Sie mehr als eine genehmigende Person eingerichtet haben und nur eine genehmigende Person benötigen, um eine Entscheidung zu treffen, aktivieren Sie die Option **Nur eine Entscheidung ist erforderlich**.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    >
    >* Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen.
    >
-   >* Wenn Sie mehr als eine genehmigende Person hinzufügen, müssen alle genehmigenden Personen die Anfrage genehmigen, bevor Workfront Planning einen Datensatz erstellt.
+   >* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen die Anfrage genehmigen, bevor Workfront Planning einen Datensatz erstellt.
    >
    >* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Anfragen in Workfront.
    >
-   >* Alle genehmigenden Personen müssen eine Entscheidung treffen, bevor eine Anfrage genehmigt oder abgelehnt wird.
+   >* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
    >
    >* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
 

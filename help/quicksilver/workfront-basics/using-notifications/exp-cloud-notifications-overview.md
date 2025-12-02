@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
+source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # Übersicht über Experience Cloud-Benachrichtigungen
 
-Adobe Workfront vereint alle DX-Produkte (Digital Experiences) in einem einzigen, konsistenten Benachrichtigungssystem namens Experience Cloud-Benachrichtigungen. Ab oder um Februar 2026 werden Ihre alten Workfront-Benachrichtigungsdienste in das zentrale Benachrichtigungssystem von Adobe migriert, über das Sie unser Team vor der Implementierung informieren wird.
+Adobe Workfront-Benachrichtigungen werden jetzt in das zentrale Benachrichtigungssystem von Adobe namens Experience Cloud-Benachrichtigungen übertragen. Dieses Benachrichtigungssystem wird von allen Produkten für digitale Erlebnisse verwendet.
 
-Nach dieser Umstellung können Sie auf alle Benachrichtigungen in Adobe Workfront und anderen Adobe DX-Anwendungen an einem Ort zugreifen, was die Verwaltung Ihrer Voreinstellungen und die Information vereinfacht.
+Ab oder um Februar 2026 werden aktuelle Workfront-E-Mails und In-App-Benachrichtigungen zu Experience Cloud-Benachrichtigungen migriert. Diese Arbeiten werden in mehreren Phasen abgeschlossen. Das Workfront-Team informiert Ihr Unternehmen, bevor die Migration beginnen soll.
+
+Nach dieser Umstellung können Benutzende an einem Ort auf alle Benachrichtigungen in Adobe Workfront und anderen Adobe DX-Anwendungen zugreifen, wodurch sie einfacher informiert bleiben und ihre Voreinstellungen verwalten können.
 
 ![Ankündigungen](assets/announcements-center.png)
 
@@ -66,9 +68,9 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 >
 >Wenn Sie nicht auf Ihre persönlichen Benachrichtigungseinstellungen zugreifen können, wenden Sie sich bitte an Ihren Administrator.
 
-1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) &#x200B;](assets/bell-icon.png).
+1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) ](assets/bell-icon.png).
 
-1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol &#x200B;](assets/settings-icon.png).
+1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol ](assets/settings-icon.png).
 
 1. Klicken **Abschnitt „Benachrichtigungen** auf das Pfeilsymbol ![Workfront-Kachelpfeil](assets/arrow-icon.png) auf der Kachel **Workfront**.
 
