@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 5%
+source-wordcount: '1691'
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ Je nach Zugriffsebene sind für die meisten Workfront-Objekttypen bis zu drei Be
         <td>Benutzende können das Workfront-Objekt erstellen, bearbeiten, löschen und freigeben</td>
     </tr>
     <tr>
-        <td>Anzeigen</td>
+        <td>Ansicht</td>
         <td>Benutzende können das Workfront-Objekt überprüfen und freigeben</td>
     </tr>
     <tr>
@@ -263,6 +263,11 @@ Benutzende mit dieser integrierten Zugriffsebene:
 * Kann Anfragen stellen und diese aktualisieren
 * Kann Dokumente hochladen und genehmigen
 * Kann Projekte, Aufgaben und Probleme genehmigen
+
+  >[!NOTE]
+  >
+  >Mitwirkende können an Genehmigungen teilnehmen, aber nicht auf die Registerkarte Genehmigungen zugreifen, um Genehmigungsprozesse anzuzeigen oder zu verwalten.
+
 * Kann den Status der von ihnen gesendeten Probleme überprüfen
 * Kann Arbeitselementen zugewiesen, aber nicht abgeschlossen werden
 * Zugriff auf Anfragen nur über das Hauptmenü möglich. Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -282,10 +287,10 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Problem |   |   | ✓ |
 | Portfolios |   | ✓ |   |
 | Programme |   | ✓ |   |
-| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (nur die Registerkarte Details ) |   |
+| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur die Registerkarte Details ) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
-| Benutzerin oder Benutzer |   | ✓ |   |
+| Benutzerin bzw. Benutzer |   | ✓ |   |
 | Teams |   | ✓ |   |
 | Vorlage | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
@@ -336,7 +341,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur für Kalenderberichte, keine Möglichkeit zur Freigabe von Berichten) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
 | Dokument |   | ✓ (keine Möglichkeit zur Freigabe von Dokumenten) |   |
-| Benutzerin oder Benutzer |   | ✓ |   |
+| Benutzerin bzw. Benutzer |   | ✓ |   |
 | Teams | ✓ |   |   |
 | Vorlage | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
