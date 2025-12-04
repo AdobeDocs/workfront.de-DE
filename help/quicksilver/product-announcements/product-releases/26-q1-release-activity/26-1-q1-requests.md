@@ -4,7 +4,7 @@ description: Verbesserungen bei Anfragen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 93f01b5eed702565f31086a8e66777200f8204a2
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -16,6 +16,21 @@ ht-degree: 0%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2026 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+<!--## Share views in the Requests area and the My Requests widget
+
+>[!NOTE]
+>
+>Preview: December 4, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
+
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
+
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
+
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
+
 
 ## Anforderungsentwürfe in der neuen anfordernden Version speichern
 
@@ -47,23 +62,6 @@ Zuvor war das Löschen von Anfragen nicht verfügbar.
 
 Weitere Informationen und Anweisungen finden Sie [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
-<!--
-
-## Share views in the Requests area and the My Requests widget
-
->[!NOTE]
->
->Preview: November 20, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
-
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-
--->
 
 ## Erstellen neuer Anfragen durch Kopieren zuvor gesendeter Anfragen in das neue anfragende Erlebnis
 

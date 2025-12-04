@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,21 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Öffentliche Freigabe von Ansichten für einen globalen Datensatztyp in einem sekundären Arbeitsbereich entfernt
+
+
+>[!NOTE]
+>
+>Vorschau: 3. Dezember 2025
+>Produktions-Schnellveröffentlichung: 4. Dezember 2025
+>Produktion für alle: 15. Januar 2026
+
+
+Wir haben die Registerkarte Öffentliche Freigabe bei der Freigabe einer Ansicht für einen globalen Datensatz in einem sekundären Arbeitsbereich entfernt. Sie können eine Ansicht nicht öffentlich über einen globalen Datensatztyp freigeben, der über einen vorhandenen globalen Datensatztyp zu einem anderen Arbeitsbereich hinzugefügt wurde. Sie können eine Ansicht des globalen Datensatztyps öffentlich über den ursprünglichen Arbeitsbereich freigeben.
+
+Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Verbinden von GenStudio for Performance Marketing Brands mit Workfront Planning-Datensatztypen
 
