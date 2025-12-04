@@ -6,10 +6,10 @@ description: Sie können die Finanzinformationen eines Projekts anzeigen oder be
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 2%
+source-wordcount: '1275'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können die Finanzinformationen eines Projekts anzeigen oder bearbeiten, ind
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -153,7 +153,7 @@ So bearbeiten Sie Informationen zur Unterregisterkarte „Projektfinanzierung“
    >Sie müssen Berechtigungen verwalten für das Projekt, um die folgenden Schritte ausführen zu können. Es wird außerdem empfohlen, dass nur der/die Projektbesitzer(in) Änderungen an der Unterregisterkarte Finanzen des Projekts vornehmen sollte.
 
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen** . Dadurch wird der Bereich Finanzen zur Bearbeitung geöffnet.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**. Dadurch wird der Bereich Finanzen zur Bearbeitung geöffnet.
 1. Bearbeiten Sie alle Felder, die bearbeitet werden können, indem Sie einfach auf das Feld klicken oder auf **+Hinzufügen** klicken, um einem leeren Feld Informationen hinzuzufügen.
 
    >[!TIP]

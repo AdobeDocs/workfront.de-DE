@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 0%
+source-wordcount: '1462'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzer
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,7 +104,7 @@ Dieses Beispiel zeigt, wie die Workfront-API aufgerufen und eine Liste von Proje
 
 ### Verwenden benutzerdefinierter Feldwerte in der externen Suche
 
-Dieses Beispiel zeigt, wie Sie die Workfront-API aufrufen und Daten aus einem benutzerdefinierten Feld in Ihr externes Suchfeld einfügen. Das benutzerdefinierte Beispielfeld heißt „Benutzerdefinierte Farben“.
+In diesem Beispiel erfahren Sie, wie Sie die Workfront-API aufrufen und Daten aus einem benutzerdefinierten Feld in Ihr externes Suchfeld importieren. Das benutzerdefinierte Beispielfeld heißt „Benutzerdefinierte Farben“.
 
 1. Öffnen Sie das benutzerdefinierte Formular.
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
