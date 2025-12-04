@@ -1,18 +1,18 @@
 ---
-title: Ausfüllen eines KI-Formulars verwenden, um eine Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten auszufüllen
+title: Verwenden von Form Fill powered by AI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten
 content-type: reference
 description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verwenden, indem Sie eine Eingabeaufforderung eingeben oder ein Dokument angeben.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
 
-# Ausfüllen eines KI-Formulars verwenden, um eine Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten auszufüllen
+# Verwenden von Form Fill powered by AI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,7 +169,7 @@ Wir planen eine Kampagne, die der Holiday Social Ads ähnelt, die wir letztes Ja
 
 ## Abrufen von Vorschlägen basierend auf einem hochgeladenen Dokument
 
-Das automatische Ausfüllen kann Feldwerte basierend auf einem hochgeladenen Dokument vorschlagen.
+Das Ausfüllen eines Formulars mit KI kann eine Anfrage mithilfe von Eingabeaufforderungen ausfüllen, oder Dokumente können Feldwerte basierend auf einem hochgeladenen Dokument vorschlagen.
 
 Diese Art von Vorschlag überprüft auch frühere Anfragen nach ähnlichen Kontexten. Wenn in der Eingabeaufforderung beispielsweise erwähnt wird, dass die Anfrage für einen bestimmten Client gilt, kann Workfront die Rechnungsadresse für diesen Client basierend auf vorherigen Anfragen automatisch suchen und eingeben.
 
@@ -234,8 +234,8 @@ Workfront-Feldtypen beeinflussen, ob ein bestimmtes Feld automatisch ausgefüllt
 
 <table>
 <tr>
-<td><b>Unterstützt </b><br> Automatisches Ausfüllen kann ausfüllen</td>
-<td><b>Nicht unterstützt</b> <br>Automatisches Ausfüllen wird nicht ausgefüllt</td>
+<td><b>Unterstützte </b><br> Formularausfüllung mit KI kann ausfüllen</td>
+<td><b>Nicht unterstützt</b> <br>Formularausfüllen mit KI wird nicht ausgefüllt</td>
 </tr>
 <tr>
 <td>
