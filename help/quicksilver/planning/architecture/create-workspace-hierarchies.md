@@ -1,13 +1,13 @@
 ---
 title: Erstellen von Workspace-Hierarchien
-description: Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem Workspace erstellen.
+description: Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen den Datensatztypen erstellen. Nachdem Sie Datensatztypen in einem Arbeitsbereich verbunden und eine Hierarchie erstellt haben, werden Datensatztypen miteinander verbunden, wobei ein Datensatztyp als übergeordneter Datensatz und bis zu 6 andere Datensatztypen als untergeordnete Datensätze konfiguriert sind.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Workspace-Hierarchien erstellen
 
-Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem Workspace erstellen.
+Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen den Datensatztypen erstellen.
+
+Nachdem Sie Datensatztypen in einem Arbeitsbereich verbunden und eine Hierarchie erstellt haben, werden Datensatztypen miteinander verbunden, wobei ein Datensatztyp als übergeordneter Datensatz und bis zu 6 andere Datensatztypen als untergeordnete Datensätze konfiguriert sind. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Hierarchien generieren Breadcrumbs für die Datensatztypen und Datensätze, <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> in ihren Kopfzeilen angezeigt werden. Auf diese Weise wissen die Benutzer in jeder Phase ihres Workflows, wo sie sich in der Hierarchie befinden.
+
+Allgemeine Informationen zu Hierarchien und Breadcrumbs finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Zugriffsanforderungen
 
@@ -72,3 +79,5 @@ Oder
 Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Workspace-Hierarchie erstellen

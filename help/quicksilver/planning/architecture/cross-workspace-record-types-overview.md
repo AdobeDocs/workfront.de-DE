@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
      Weitere Informationen finden Sie unter [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md).
    * Geben Sie die Ansichten der Datensatztypen frei.
 
-     Sie können eine Ansicht nicht öffentlich über einen globalen Datensatztyp in einem sekundären Arbeitsbereich freigeben. Sie können Ansichten nur intern über einen sekundären Arbeitsbereich freigeben.
+     Sie können eine Ansicht nicht öffentlich über einen globalen Datensatztyp in einem sekundären Arbeitsbereich freigeben. Sie können Ansichten nur intern über einen sekundären Arbeitsbereich freigeben. Sie können eine Ansicht intern und öffentlich für einen globalen Datensatztyp in seinem ursprünglichen Arbeitsbereich freigeben.
 
      Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
