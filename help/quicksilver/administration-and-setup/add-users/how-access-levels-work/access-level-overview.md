@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 7%
+source-wordcount: '1698'
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,6 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Finanzdaten |   |   | ✓ |
 | Ressourcenverwaltung |   |   | ✓ |
 | Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist Kein Zugriff.) |
-| Pinnwände |   |   | ✓ |
-| Startseite |   |   | ✓ |
 | Ziele |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
   <tr> 
    <td>Aufgaben</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓ (eingeschränkt)</td> 
   </tr> 
   <tr> 
    <td>Probleme</td> 
@@ -215,7 +213,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
   <tr> 
    <td>Finanzdaten</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓(Standardeinstellung ist Kein Zugriff)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
    <td> </td> 
    <td> </td> 
    <td>✓ (Die Standardeinstellung ist Kein Zugriff.)</td> 
-  </tr> 
-  <tr> 
-   <td>Pinnwände </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Startseite </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>Ziele </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (Standardeinstellung ist Kein Zugriff)</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 
 | Workfront-Objekttyp | Kein Zugriff | Ansichtszugriff | Zugriff bearbeiten |
 |---|---|---|---|
-| Projekt |   | ✓ |   |
-| Aufgabe |   | ✓ |   |
+| Projekt |   | ✓ (eingeschränkt) |   |
+| Aufgabe |   | ✓(eingeschränkt) |   |
 | Problem |   |   | ✓ |
 | Portfolios |   | ✓ |   |
 | Programme |   | ✓ |   |
@@ -292,13 +280,11 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Dokument |   |   | ✓ |
 | Benutzerin bzw. Benutzer |   | ✓ |   |
 | Teams |   | ✓ |   |
-| Vorlage | ✓ |   |   |
+| Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
 | Ressourcenverwaltung | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
-| Pinnwände |   |   | ✓ (einfache Karten) |
-| Startseite |   | ✓ (Meine Updates) |   |
-| Ziele |   |   | ✓ |
+| Ziele |   |   | ✓ (Standardeinstellung ist Kein Zugriff) |
 
 {style="table-layout:auto"}
 
@@ -343,12 +329,10 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Dokument |   | ✓ (keine Möglichkeit zur Freigabe von Dokumenten) |   |
 | Benutzerin bzw. Benutzer |   | ✓ |   |
 | Teams | ✓ |   |   |
-| Vorlage | ✓ |   |   |
+| Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
 | Ressourcenverwaltung | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
-| Pinnwände | ✓ |   |   |
-| Startseite | ✓ |   |   |
 | Ziele | ✓ |   |   |
 
 

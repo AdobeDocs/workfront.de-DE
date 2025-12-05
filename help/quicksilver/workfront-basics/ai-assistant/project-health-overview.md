@@ -5,10 +5,10 @@ description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit de
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 1%
+source-wordcount: '2060'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Der KI-Assistent kann eine Bewertung des Projektzustands für die folgenden Obje
 
 Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,14 @@ Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übers
    <td><p>Sie müssen Systemadministrator sein, um Projektzustandskonfigurationen verwalten zu können </p>
    <p>Zugriff auf Projekte bearbeiten, um Projektzustandskonfigurationen anzuwenden </p>
      <p>Anzeigen des Zugriffs auf Projekte zum Anzeigen von Projektzustandskonfigurationen </p>
+     <p>Zugriff auf Programme anzeigen, um den Projektzustand für alle Projekte in einem Programm anzuzeigen</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Objektberechtigungen</p></td> 
+   <td><p>Verwalten von Berechtigungen für Projekte zum Anwenden von Projektzustandskonfigurationen </p>
+     <p>Anzeigen von Berechtigungen für Projekte zum Anzeigen von Projektzustandskonfigurationen </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
@@ -66,16 +73,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Für die Betaversion zur Projektdiagnose registrieren
 
-Um die Projektdiagnose nutzen zu können, muss in Ihrer Organisation der KI-Assistent aktiviert sein.
+Für Ihre Organisation muss der KI-Assistent aktiviert sein, damit sie die Projektdiagnose verwenden kann.
 
 Um den KI-Assistenten und die Projektdiagnose für Ihre Organisation zu aktivieren, müssen alle folgenden Bedingungen erfüllt sein:
 
-* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
-* Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
+* Ihr Unternehmen muss zum Adobe Identity Management System (IMS) migriert sein.
+* Ihr Unternehmen muss über ein Workfront- oder Workflow-, Prime- oder Ultimate-Paket verfügen.
 * Das einheitliche Adobe-Erlebnis muss aktiviert sein.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 * Der Workfront-Administrator muss den KI-Assistenten für Benutzende in Ihrer Organisation aktivieren. Der KI-Assistent wird über Zugriffsebenen aktiviert.
-* Sowohl die Option KI aktivieren als auch die Option Projektdiagnose müssen im Abschnitt KI-Voreinstellungen unter Setup > System > Voreinstellungen ausgewählt werden.
+* Die Optionen KI aktivieren und Projektstatus aktivieren müssen im Abschnitt KI-Voreinstellungen des Bereichs Systemeinstellungen unter Setup ausgewählt werden.
 
   ![Abschnitt KI-Voreinstellungen](assets/ai-preferences.png)
 
@@ -89,7 +96,7 @@ Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines 
 * Gefährdet
 * In Schwierigkeiten
 
-Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)).
+Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
 
 Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
 
@@ -127,9 +134,12 @@ Projektbedingungen und Projektzustand sind in Workfront ähnliche Konzepte und h
 
 Die Projektbedingungen bieten eine grundlegende Momentaufnahme der aktuellen Leistung eines Projekts, die nur auf den geplanten, projizierten und geschätzten Terminen basiert. Sie kann manuell vom Projektbesitzer oder automatisch von Workfront auf Grundlage der Projektaufgaben festgelegt werden. Alternativ dazu ist Project Health umfassender und bewertet zusätzliche Faktoren, sodass Sie ein besseres Verständnis davon erhalten, wie es funktioniert.
 
-Weitere Informationen zu Projektbedingungen finden Sie unter [Benutzerdefinierte Bedingungen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Weitere Informationen zu Projektbedingungen finden Sie in den folgenden Artikeln:
 
-## Liste der Projekt- und Programmstatus
+* [Aktualisierungsbedingung für ein Projekt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Benutzerdefinierte Bedingungen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Liste der Projekt- und Programmzustand
 
 Die nachstehende Tabelle enthält eine Aufschlüsselung der verfügbaren Status, die der KI-Assistent Ihrem Projekt oder Programm beim Generieren einer Projektzustandsbewertung zuweist.
 
@@ -184,7 +194,7 @@ Die nachstehende Tabelle enthält eine Aufschlüsselung der verfügbaren Status,
 
 ## Liste mit Eingabeaufforderungen des KI-Assistenten
 
-Nachstehend finden Sie eine Liste von Eingabeaufforderungen, mit denen Sie die KI-Bewertung anfordern können, um eine Bewertung des Projektzustands für ein Projekt, ein Programm oder alle Projekte in Ihrem Konto zu generieren.
+Nachstehend finden Sie eine Liste von Eingabeaufforderungen, mit denen Sie den KI-Assistenten bitten können, eine Bewertung des Projektzustands für ein Projekt, ein Programm oder alle Projekte zu generieren, auf die Sie Zugriff haben.
 
 <table>
     <tr>
@@ -215,19 +225,21 @@ Nachstehend finden Sie eine Liste von Eingabeaufforderungen, mit denen Sie die K
 
 ## Projektzustandskonfigurationen verwalten
 
-Eine Konfiguration für den Projektzustand enthält spezifische Kriterien, die bestimmen, wie der Projektzustand berechnet wird. Nachdem eine Konfiguration erstellt wurde, können Sie sie auf ein Projekt anwenden.
+Sie müssen Systemadministrator sein, um Projektzustandskonfigurationen verwalten zu können.
 
->[!NOTE]
->
->Sie müssen Systemadministrator sein, um Projektzustandskonfigurationen verwalten zu können.
+Eine Konfiguration für den Projektzustand enthält spezifische Kriterien, die bestimmen, wie der Projektzustand berechnet wird. Nachdem der Workfront-Administrator eine Konfiguration erstellt hat, können Sie sie auf ein Projekt anwenden.
+
+Sie können mehrere Projektzustandskonfigurationen in Ihrem System haben.
 
 {{step-1-to-setup}}
 
-1. Klicken Sie **linken Bereich auf** Projektvoreinstellungen“ und wählen Sie dann in **angezeigten Dropdown-Liste** Projektstatus“ aus.
+1. Klicken Sie **linken Bedienfeld auf** Projektvoreinstellungen“ und wählen Sie dann **Projektzustand**.
 
 1. Klicken Sie oben rechts auf der Seite auf **Neue Konfiguration**.
 
-1. (Optional) Ersetzen Sie auf der Seite mit den Konfigurationsdetails *Nicht benannte Konfiguration* durch eine neue Konfiguration **Name**.
+   Die Seite **KI-Einstellungen** wird geöffnet.
+
+1. (Optional) Klicken Sie in den Titel **Nicht benannte Konfiguration**, um die Konfiguration umzubenennen.
 
 1. Deaktivieren Sie im **Welche Faktoren möchten Sie in den Projektzustand aufnehmen** die Auswahl aller Faktoren, die Sie bei der Bestimmung der Projektzustandskriterien nicht berücksichtigen möchten:
    * **Scope creep**: Wie sehr sich der Projektumfang seit dem Start erweitert hat.
@@ -249,45 +261,48 @@ Eine Konfiguration für den Projektzustand enthält spezifische Kriterien, die b
 
 1. In der **Wie schätzen Sie den Arbeitsaufwand für ein Projekt ein?Wählen Sie** Abschnitt aus, welcher Projektfaktor mit zunehmendem Projektumfang größer wird.
 
-1. In den **Welche Felder möchten Sie auf Vollständigkeit überprüfen?Wählen Sie** Abschnitt ein oder mehrere Felder aus, die auf ihre Vollständigkeit überprüft werden sollen.
+1. In der **Welche Felder möchten Sie auf erforderliche Felder überprüfen?Wählen Sie** Abschnitt ein oder mehrere Felder aus, die einen Wert für das Projekt enthalten müssen.
 
-   ![Felder zur Projektvollständigkeit](assets/project-completeness-fields.png)
+   ![Für die Projektintegrität erforderliche Felder](assets/project-completeness-fields.png)
 
+1. Klicken Sie **Hinzufügen**, um mehr native oder benutzerdefinierte Projekt- oder Aufgabenfelder zu erstellen.
 
 1. Klicken **oben** auf „Speichern“.
 
 ## Anwenden von Projektzustandskonfigurationen
 
-Nachdem ein Admin eine Projektzustandskonfiguration erstellt hat, können Benutzende mit Bearbeitungszugriff diese auf ein Projekt anwenden.
-
+Nachdem der Workfront-Administrator eine Projektzustandskonfiguration erstellt hat, können Sie sie auf ein Projekt anwenden, wenn Sie über Verwaltungsberechtigungen für ein Projekt verfügen.
 
 {{step1-to-projects}}
 
 1. Wählen Sie auf **Seite** ein Projekt aus.
 
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) rechts neben dem Projektnamen und wählen Sie dann **Bearbeiten**. Das **Seitenbedienfeld** Projekt bearbeiten“ wird geöffnet.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) rechts neben dem Projektnamen und wählen Sie dann **Bearbeiten**. Das **Projekt bearbeiten** wird geöffnet.
 
-1. Wählen Sie im linken Bedienfeld die Option **Projekteinstellungen**.
+1. Klicken Sie im linken Bedienfeld auf **Projekteinstellungen**.
 
 1. Wählen Sie **Feld** Projektzustandskonfiguration“ die Konfiguration aus, die Sie auf dieses Projekt anwenden möchten.
 
    ![Feld für die Konfiguration des Projektzustands](assets/project-health-configurations.png)
 
-1. Klicken **unten links** Bedienfeld auf „Speichern“.
+1. Klicken **unten** der Seite auf „Speichern“.
 
 ## Erstellen einer Projektzustandsbewertung für ein Projekt oder Programm
 
-Wenn Sie Ansichtszugriff für ein Projekt oder Programm haben, können Sie mit dem KI-Assistenten die zugehörige Projektzustandsbewertung erstellen.
+Sie können vom KI-Assistenten aus in den folgenden Bereichen eine Bewertung des Projektzustands erstellen:
 
-Wenn Sie eine Bewertung für ein Projekt generieren, kann dies entweder auf der Projektseite oder durch Verweis auf den Projektnamen erfolgen, wenn Sie den Assistenten nach der Leistung des Projekts fragen.
+* Für ein Projekt können Sie die Bewertung entweder auf der Projektseite oder durch Verweis auf den Projektnamen erstellen, wenn Sie den Assistenten nach der Leistung eines bestimmten Projekts fragen.
 
-Wenn Sie eine Bewertung für ein Programm generieren, können Sie dies über die Seite mit den Programmdetails tun.
+* Für ein Programm können Sie die Bewertung auf der Seite Details des Programms erstellen.
 
 >[!NOTE]
 >
->Eine Bewertung des Projektzustands kann erst für ein Projekt generiert werden, nachdem das Projekt gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen.
+>* Sie benötigen für das Projekt oder Programm Ansichtsberechtigungen, um eine Bewertung zu generieren.
+>* Eine Bewertung des Projektzustands kann erst für ein Projekt generiert werden, nachdem das Projekt gestartet wurde. In den Projektvoreinstellungen können Sie konfigurieren, welche Ereignis-Trigger ein Projekt starten sollen
 
-Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
+Weitere Informationen finden Sie im [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations) in diesem Artikel.
+
+So generieren Sie eine Bewertung des Projektzustands für ein Projekt oder Programm:
 
 1. Navigieren Sie zu dem Projekt oder Programm, für das Sie eine Bewertung des Projektzustands generieren möchten.
 
@@ -302,17 +317,17 @@ Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verw
    >[!NOTE]
    >
    >Wenn Sie über eine andere Seite in Workfront auf den KI-Assistenten zugreifen, können Sie Folgendes eingeben *Was ist der Zustand des Projekts [PROJEKTNAME]?* oder *Was ist der Zustand des Programms [PROGRAMMNAME]?* <br>
-   >Eine vollständige Liste der aktuellen Eingabeaufforderungen finden Sie im folgenden Abschnitt in diesem Artikel: [Liste der Eingabeaufforderungen des KI-Assistenten](#ai-assistant-prompts-list).
+   >Eine vollständige Liste der aktuellen Eingabeaufforderungen finden Sie im Abschnitt [Liste der Eingabeaufforderungen des KI-Assistenten](#ai-assistant-prompts-list) in diesem Artikel.
 
-1. Klicken Sie auf das **Senden**-Symbol ![Senden-Symbol](assets/send-icon.png). Die Bewertung des Projektstatus wird generiert und im Bedienfeld angezeigt. Oben bei jeder Bewertung des Projektzustands wird ein Badge angezeigt, das den aktuellen Zustand des Projekts wiedergibt.
+1. Klicken Sie auf das **Senden**-Symbol ![Senden-Symbol](assets/send-icon.png). Die Projektdiagnose generiert und wird im Bedienfeld angezeigt. Oben bei jeder Bewertung des Projektzustands wird ein Badge angezeigt, das den aktuellen Zustand des Projekts wiedergibt.
 
    ![Bewertung des Projektzustands](assets/health-assessment.png)
 
-   Wenn Sie eine Bewertung für ein Portfolio generieren, werden mehrere Abzeichen aufgelistet, die die Bedingung jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im folgenden Abschnitt in diesem Artikel: [Projekt- und Programmstatusliste](#project-and-program-states-list).
+   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen der Bewertungspunkte, um dessen Details zu erweitern.
 
-1. (Optional) Klicken Sie im Modus Erweiterte Details auf den Link Aufgabe , um die Aufgabendetails zu öffnen.
+1. (Optional) Klicken Sie im erweiterten Detailmodus auf den Projekt-Link, um die Projektdetails zu öffnen.
 
    ![Erweiterte Details](assets/expanded-details.png)
 
@@ -320,11 +335,11 @@ Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verw
 
 ## Erstellen einer Projektdiagnose für mehrere Projekte
 
-Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte generieren, für die Sie derzeit Ansichtszugriff (oder höher) haben.
+Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte generieren, für die Sie derzeit über Anzeigeberechtigungen oder höher verfügen.
 
-Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im folgenden Abschnitt in diesem Artikel: [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations).
+Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im Abschnitt [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations) in diesem Artikel.
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 

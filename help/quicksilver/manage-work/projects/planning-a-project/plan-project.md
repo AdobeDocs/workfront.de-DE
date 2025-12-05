@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -85,27 +85,6 @@ Sie können mehrere Zeitpläne in Ihrer Workfront-Instanz erstellen und einen St
 
 Weitere Informationen zu Zeitplänen finden Sie im Artikel [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Zusätzliche Informationen verwalten, die für die Projektplanung benötigt werden {#manage-additional-information-needed-for-planning-the-project}
-
-Bei der Planung eines Projekts müssen zusätzliche Informationen eingerichtet werden, bevor Sie mit der Arbeit am Projekt beginnen können.
-
-Stellen Sie sich die folgenden Fragen:
-
-* Gibt es eine Vorschrift, die vorschreibt, dass Ereignisse und Prozesse aufzuzeichnen sind? Wenn ja, welche Elemente müssen nachverfolgt werden?
-
-  Mit Workfront können Sie Bearbeitungen, Umfangsänderungen, Statusänderungen und Aktionen aufzeichnen, damit Sie die branchenspezifischen Vorschriften einhalten können.\
-  Weitere Informationen zum Definieren der zu verfolgenden Aktualisierungen in Workfront finden Sie im Artikel [System-getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-* Gibt es Informationen, die Sie nachverfolgen müssen und die kein Feld in Workfront haben, um sie zu speichern?
-
-  Wenn ja, erstellen Sie eine benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.
-
-  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-* Gibt es Genehmigungsprüfpunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können.
-
-  Weitere Informationen zu Genehmigungsprozessen finden Sie im Artikel [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-
 ## Projekt-Zeitleiste erstellen
 
 Nachdem Sie die Hauptziele eines Projekts festgelegt und entschieden haben, dass es sich lohnt, das Projekt fortzusetzen, sollten Sie den Zeitplan für jedes Ziel berechnen. Jedes Ziel kann zu einer Ihrer Aufgaben im Projekt werden.
@@ -152,7 +131,7 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
 
 * Definieren Sie die Zeitleiste für jede Aufgabe. Dies wird im Feld Dauer jeder Aufgabe erfasst.
 
-  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 * Definieren Sie die hierarchische Beziehung zwischen den Aufgaben.
 * Definieren Sie die Vorgängerbeziehung zwischen den Aufgaben.
@@ -172,3 +151,32 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
    * Weisen Sie die Aufgaben Benutzern zu, die ohne andere Einschränkungen verfügbar sind.\
      Weitere Informationen zur Planung Ihrer Projektressourcen finden Sie im Artikel [Ressourcenplanung: Artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Weitere Informationen zum Planen Ihrer Ressourcen für die Ausführung eines Projekts finden Sie unter [Übersicht über den Workload-Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
+## Zusätzliche Informationen verwalten, die für die Projektplanung benötigt werden {#manage-additional-information-needed-for-planning-the-project}
+
+Bei der Planung eines Projekts müssen zusätzliche Informationen eingerichtet werden, bevor Sie mit der Arbeit am Projekt beginnen können.
+
+Stellen Sie sich die folgenden Fragen:
+
+* Gibt es eine Vorschrift, die vorschreibt, dass Ereignisse und Prozesse aufzuzeichnen sind? Wenn ja, welche Elemente müssen nachverfolgt werden?
+
+  Mit Workfront können Sie Bearbeitungen, Umfangsänderungen, Statusänderungen und Aktionen aufzeichnen, damit Sie die branchenspezifischen Vorschriften einhalten können.\
+  Weitere Informationen zum Definieren der zu verfolgenden Aktualisierungen in Workfront finden Sie im Artikel [System-getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+* Gibt es Informationen, die Sie nachverfolgen müssen und die kein Feld in Workfront haben, um sie zu speichern?
+
+  Wenn ja, erstellen Sie eine benutzerdefinierte Forms für Projekte oder Aufgaben, in denen Sie diese Informationen speichern können.
+
+  Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+* Müssen Sie Prozesse dokumentieren und arbeiten Sie mit Assets, die entweder Teil der täglichen Arbeit sind oder die Lösung des Projekts bestimmen? Wenn ja, erstellen Sie ein System zum Speichern von Dokumenten.
+
+  Weitere Informationen finden Sie [Dokumente: Artikelindex](/help/quicksilver/documents/documents-overview.md).
+
+* Gibt es Genehmigungsprüfpunkte, die erteilt werden müssen, bevor die Arbeit an einem Projekt fortgesetzt werden kann? Wenn ja, erstellen Sie Genehmigungsprozesse für Projekte oder Aufgaben, die Sie beim Erstellen Ihres Projekts verwenden können, und erstellen Sie eine Bestandsaufnahme der Dokumente oder Korrekturabzüge, die genehmigt werden müssen, bevor die Arbeit fortgesetzt werden kann.
+
+  Weitere Informationen zu Validierungen finden Sie in den folgenden Artikeln:
+
+   * [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [Arbeit überprüfen und genehmigen](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [Verfügbare Funktionen für Genehmigungen einheitlicher Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
