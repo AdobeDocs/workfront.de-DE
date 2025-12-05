@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: bda5c6057b51f6ead5424b6a7563b6d83f2a5bca
+source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 11%
 
 ---
@@ -382,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1893,6 +1893,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> </td> 
    <td> </td> 
    <td>attachetrateCard:sourceID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Budget</td> 
   </tr> 
   <tr> 
    <td> </td> 
