@@ -6,9 +6,9 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -73,20 +73,15 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 
 
 
-<!--
-   
-1. Open the draft.
 
-   Drafts can be found in the following locations:
-
-   * In the requests list in the Requests area
-   * In the requests list in the My Requests widget in Home
-   * In the New request dialog (includes only drafts of requests created with the selected form)
-   
--->
 1. Öffnen Sie den Entwurf.
 
-   Entwürfe finden Sie im Dialogfeld Neue Anfrage (enthält nur Entwürfe von Anfragen, die mit dem ausgewählten Formular erstellt wurden).
+   Entwürfe finden Sie an den folgenden Speicherorten:
+
+   * In der Anfragenliste im Bereich Anfragen
+   * In der Anfragenliste im Widget Meine Anfragen auf der Startseite
+   * Im Dialogfeld Neue Anfrage (enthält nur Entwürfe von Anfragen, die mit dem ausgewählten Formular erstellt wurden)
+
 1. Aktualisieren Sie die Informationen für die Anfrage, wie in [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md) beschrieben.
 1. (Optional und bedingt) Klicken Sie während der Eingabe der Anfrage jederzeit auf **Verwerfen** Entwurf, wenn Sie den Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht.
 

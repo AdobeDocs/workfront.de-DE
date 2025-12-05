@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Mei
 
 1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anfrage. Die verfügbaren Felder hängen von der Anfrage-Warteschlange oder dem für die Anfrage verwendeten Anfrage-Formular ab.
 
-   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+   Wenn Sie in der kopierten Anfrage Feldwerte eingeben oder ändern, werden diese als Entwurf gespeichert.
 
 1. Klicken Sie auf **Senden**.
 
