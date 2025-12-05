@@ -96,7 +96,7 @@ Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines 
 * Gefährdet
 * In Schwierigkeiten
 
-Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
+Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)).
 
 Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
 
@@ -323,7 +323,7 @@ So generieren Sie eine Bewertung des Projektzustands für ein Projekt oder Progr
 
    ![Bewertung des Projektzustands](assets/health-assessment.png)
 
-   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)) in diesem Artikel.
+   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen der Bewertungspunkte, um dessen Details zu erweitern.
 
@@ -339,7 +339,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im Abschnitt [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations) in diesem Artikel.
 
-1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 

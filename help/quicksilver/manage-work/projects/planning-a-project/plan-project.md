@@ -131,7 +131,7 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
 
 * Definieren Sie die Zeitleiste für jede Aufgabe. Dies wird im Feld Dauer jeder Aufgabe erfasst.
 
-  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 * Definieren Sie die hierarchische Beziehung zwischen den Aufgaben.
 * Definieren Sie die Vorgängerbeziehung zwischen den Aufgaben.
