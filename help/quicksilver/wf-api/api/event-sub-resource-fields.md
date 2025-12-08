@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
+source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 11%
 
 ---
@@ -382,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1135,7 +1135,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> userOptions </td> 
   </tr> 
   <tr> 
-   <td>Hour</td> 
+   <td>Stunde</td> 
    <td>HOUR</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -1515,7 +1515,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
-   <td>Hinweis</td> 
+   <td>Notiz</td> 
    <td>NOTIZ</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -3024,6 +3024,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>project:status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>recurrenceRuleID</td> 
   </tr> 
   <tr> 
@@ -3342,7 +3347,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>userID</td> 
   </tr> 
   <tr> 
-   <td>Benutzerin bzw. Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td>BENUTZER</td> 
    <td>accessLevelID</td> 
   </tr> 
