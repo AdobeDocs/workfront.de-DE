@@ -10,14 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1720'
 ht-degree: 6%
 
 ---
 
 # Übersicht über neue Zugriffsebenen
+
+>[!NOTE]
+>
+>Die Informationen in diesem Artikel beziehen sich auf die neuen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Als Adobe Workfront-Administrator weisen Sie einem Benutzer eine Zugriffsebene zu zwei Zwecken zu:
 
@@ -278,7 +282,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur die Registerkarte Details ) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
-| Benutzerin bzw. Benutzer |   | ✓ |   |
+| Benutzerin oder Benutzer |   | ✓ |   |
 | Teams |   | ✓ |   |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
@@ -327,7 +331,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur für Kalenderberichte, keine Möglichkeit zur Freigabe von Berichten) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
 | Dokument |   | ✓ (keine Möglichkeit zur Freigabe von Dokumenten) |   |
-| Benutzerin bzw. Benutzer |   | ✓ |   |
+| Benutzerin oder Benutzer |   | ✓ |   |
 | Teams | ✓ |   |   |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |

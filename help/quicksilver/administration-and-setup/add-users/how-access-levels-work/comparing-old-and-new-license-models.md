@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 37%
 
 ---
 
 # Vergleichen der Funktionalität zwischen Lizenzmodellen
 
-In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten und neuen Lizenzierungsmodell verfügbar sind.
+In Adobe Workfront gibt es zwei Arten von Zugriffsebenen:
+
+* Neue Zugriffsebenen. Weitere Informationen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Legacy-Zugriffsebenen. Weitere Informationen finden Sie [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
+In der folgenden Tabelle sind die Funktionen aufgeführt, die für Lizenzen im alten und neuen Lizenzierungsmodell verfügbar sind.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +50,7 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <th>[!UICONTROL Planer]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL -Anforderer]</th> 
+  <th>[!UICONTROL-Anforderer]</th> 
    <th>[!UICONTROL extern]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL light]</th> 

@@ -9,16 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 23%
+source-wordcount: '433'
+ht-degree: 22%
 
 ---
 
 # Zugriff auf Objekte und Bereiche durch neue Lizenzen
 
 <!-- Audited: 2/2024 -->
+
+>[!NOTE]
+>
+>Die Informationen in diesem Artikel beziehen sich auf die neuen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeigen) angegeben, die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 

@@ -5,14 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3508'
 ht-degree: 10%
 
 ---
 
 # Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp
+
+>[!NOTE]
+>
+>Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den neuen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Beim Konfigurieren einer Zugriffsebene für Ihre Organisation können Sie festlegen, welche spezifischen Aktionen der Zugriffsebene zur Verfügung stehen.
 
@@ -47,7 +51,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Projekte konfigur
        <li> <p>Erstellen</p> </li> 
        <li> <p>Kopieren</p> </li> 
        <li> <p>Löschen</p> </li> 
-       <li> <p>Anzeigen</p> </li> 
+       <li> <p>Ansicht</p> </li> 
        <li> <p>Freigeben</p> </li> 
        <li> <p>Systemweit freigeben</p> </li> 
       </ul> </li> 
@@ -71,7 +75,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Projekte konfigur
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -100,7 +104,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Aufgaben konfigur
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -137,7 +141,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Aufgaben konfigur
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -166,11 +170,11 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Probleme konfigur
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
-     <li> <p><b>Anzeigen</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Probleme freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
+     <li> <p><b>Ansicht</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Probleme freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
      <li> <p><b>Bearbeiten</b> (Standardauswahl): Ermöglicht den vollständigen Bearbeitungszugriff auf Probleme.</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen. Alle sind standardmäßig aktiviert.</p> 
       <ul> 
        <li> <p>Erstellen</p> </li> 
@@ -209,7 +213,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Probleme konfigur
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -244,7 +248,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Portfolios konfig
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -275,7 +279,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Portfolios konfig
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> <p>Zugriff auf Portfolios ist nicht verfügbar.</p> </td> 
   </tr> 
   <tr> 
@@ -300,7 +304,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Programme konfigu
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -331,7 +335,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Programme konfigu
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> <p>Zugriff auf Programme ist nicht verfügbar.</p> </td> 
   </tr> 
   <tr> 
@@ -356,11 +360,11 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Berichte, Dashboa
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
-     <li> <p><b>Anzeigen</b></p><p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Aktionen. Beide sind standardmäßig aktiviert:</p> 
+     <li> <p><b>Ansicht</b></p><p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Aktionen. Beide sind standardmäßig aktiviert:</p> 
       <ul> 
        <li> <p>Integrierte Berichte anzeigen</p> </li> 
        <li> <p>Freigeben</p> </li> 
@@ -401,7 +405,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Berichte, Dashboa
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -430,10 +434,10 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Filter, Ansichten
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
-     <li> <p><b>Anzeigen</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Filter, Ansichten und Gruppierungen freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
+     <li> <p><b>Ansicht</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Filter, Ansichten und Gruppierungen freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
      <li> <p><b>Bearbeiten</b> (Standardauswahl): Ermöglicht den vollständigen Bearbeitungszugriff auf Filter, Ansichten und Gruppierungen.</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen. Alle sind standardmäßig aktiviert.</p> 
       <ul> 
        <li> <p>Erstellen</p> </li> 
@@ -447,7 +451,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Filter, Ansichten
    <td>Arbeitskraft </td> 
    <td> 
     <ul> 
-     <li> <p><b>Anzeigen</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Filter, Ansichten und Gruppierungen freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
+     <li> <p><b>Ansicht</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Filter, Ansichten und Gruppierungen freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
      <li> <p><b>Bearbeiten</b> (Standardauswahl): Ermöglicht den vollständigen Bearbeitungszugriff auf Filter, Ansichten und Gruppierungen.</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen. Alle sind standardmäßig aktiviert.</p> 
       <ul> 
        <li> <p>Erstellen</p> </li> 
@@ -472,7 +476,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Filter, Ansichten
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <p><b>Ansicht</b>:</p> <p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Filter, Ansichten und Gruppierungen freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
@@ -507,7 +511,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Dokumente konfigu
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -527,7 +531,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Dokumente konfigu
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
-     <li> <p><b>Anzeigen</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Dokumente freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
+     <li> <p><b>Ansicht</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Dokumente freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
      <li> <p><b>Bearbeiten</b> (Standardauswahl): Ermöglicht den vollständigen Bearbeitungszugriff auf Dokumente.</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen. Alle sind standardmäßig aktiviert, mit Ausnahme von <b>Dokumente öffentlich freigeben</b> und <b>systemweit freigeben</b>.</p> 
       <ul> 
        <li> <p>Erstellen</p> </li> 
@@ -555,11 +559,11 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Dokumente konfigu
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
-     <li> <p><b>Anzeigen</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Dokumente freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
+     <li> <p><b>Ansicht</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, Dokumente freizugeben. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche Ansicht und deaktivieren oder aktivieren Sie dann die Option <b>Freigeben</b> (standardmäßig aktiviert).</p> </li> 
      <li> <p><b>Bearbeiten</b> (Standardauswahl): Ermöglicht den vollständigen Bearbeitungszugriff auf Dokumente.</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen. Alle sind standardmäßig aktiviert.</p> 
       <ul> 
        <li> <p>Erstellen</p> </li> 
@@ -590,10 +594,10 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Benutzerinnen und
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
-     <li> <p><b>Anzeigen</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, die Kontaktinformationen von Benutzern anzuzeigen. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> der Schaltfläche <b>Anzeigen</b> und deaktivieren oder aktivieren Sie dann die Option <b>Kontaktinformationen anzeigen</b> (standardmäßig aktiviert).</p> </li> 
+     <li> <p><b>Ansicht</b></p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, die Kontaktinformationen von Benutzern anzuzeigen. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> der Schaltfläche <b>Anzeigen</b> und deaktivieren oder aktivieren Sie dann die Option <b>Kontaktinformationen anzeigen</b> (standardmäßig aktiviert).</p> </li> 
      <li> <p><b>Bearbeiten</b> (Standardauswahl): Ermöglicht Benutzern die vollständige Bearbeitung.</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Bearbeiten</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Aktionen. Nur die ersten beiden Optionen <b>Erstellen</b> und <b>Löschen</b> sind standardmäßig aktiviert.</p> 
       <ul> 
        <li> <p>Erstellen</p> </li> 
@@ -618,7 +622,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Benutzerinnen und
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <p><b>Anzeigen</b> (nur Option verfügbar)</p><p>Um dies zu verfeinern, können Sie die Möglichkeit konfigurieren, die Kontaktinformationen von Benutzern anzuzeigen. Klicken Sie auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> der Schaltfläche <b>Anzeigen</b> und aktivieren oder deaktivieren Sie dann die Option <b>Kontaktinformationen anzeigen</b> (standardmäßig deaktiviert).</p> </li> 
@@ -646,7 +650,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Teams konfigurier
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li><b>Anzeigen</b> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Ansicht</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen*. Beide sind standardmäßig deaktiviert.</p> 
@@ -695,7 +699,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Teams konfigurier
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <p><b>Anzeigen</b> (nur Option verfügbar)</p> <p>Klicken Sie zur Feinabstimmung auf das Zahnradsymbol <img src="assets/gear-icon-in-access-levels.png"> auf der Schaltfläche <b>Ansicht</b> und deaktivieren oder aktivieren Sie dann eine der folgenden Optionen*. Beide sind standardmäßig aktiviert.</p> 
@@ -728,7 +732,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Vorlagen konfigur
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -757,7 +761,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Vorlagen konfigur
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <p><b>Kein Zugriff</b> (nur Option verfügbar)</p> </li> 
@@ -785,7 +789,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Finanzdaten konfi
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -820,7 +824,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für Finanzdaten konfi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <p><b>Kein Zugriff</b> (nur Option verfügbar)</p> </li> 
@@ -850,7 +854,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für die Ressourcenver
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planer </td> 
+   <td>Planerin oder Planer </td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> </li> 
@@ -880,7 +884,7 @@ In jeder Zugriffsebene können Sie die folgenden Optionen für die Ressourcenver
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Anfragender</td> 
+   <td>Anfragenden</td> 
    <td> 
     <ul> 
      <li> <b>Kein Zugriff</b> (nur Option verfügbar) </li> 

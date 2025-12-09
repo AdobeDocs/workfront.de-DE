@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '370'
+ht-degree: 2%
 
 ---
 
 # Lizenzen - Überblick
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den neuen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von fünf Arten von Workfront-Lizenzen, wenn Sie dem Benutzer eine Zugriffsebene zuweisen.
 
@@ -36,7 +40,7 @@ In der folgenden Tabelle und Abbildung sind die wichtigsten Zugriffsebenen auf W
 | Plan | Systemadministrator, Planer |
 | Arbeit | Arbeitskraft |
 | Überprüfung | Prüfende Person |
-| Anfrage | Anfragender |
+| Anfrage | Anfragenden |
 | Extern | Externer Benutzer |
 
 >[!NOTE]

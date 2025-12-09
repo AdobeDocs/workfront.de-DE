@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 # Übersicht über Zugriffsebenen
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den neuen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 Als Adobe Workfront-Administrator weisen Sie einem Benutzer eine Zugriffsebene zu zwei Zwecken zu:
 
@@ -57,8 +62,18 @@ Informationen zu Themen im Zusammenhang mit Zugriffsebenen finden Sie in den fol
    <td> <p>Anweisungen zum Zuweisen einer Zugriffsebene zu einem Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Zugriffsebenen Standard, Licht, Mitwirkende</td> 
-   <td> <p>Wenn diese Zugriffsebenen in Ihrer Umgebung anstelle von „Planen“, „Arbeiten“, „Überprüfen“ oder „Anfordern“ angezeigt werden, verwendet Ihr Unternehmen das neue Zugriffsebenen-Modell. Informationen zum neuen Modell finden Sie unter <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über neue Zugriffsebenen</a>.</p> </td> 
+   <td><b>Typen von Zugriffsebenen</b></td> 
+   <td><p>In Workfront gibt es zwei Arten von Zugriffsebenen:</p>
+   <ul><li>Legacy-Zugriffsebenen</li>
+   <ul><li>Plan</li>
+   <li>Arbeit</li>
+   <li>Überprüfung</li>
+   <li>Anfrage</li></ul>
+   <li>Neue Zugriffsebenen:</li>
+   <ul><li>Standard</li>
+   <li>Leicht</li>
+   <li>Mitwirkender oder Mitwirkende</li></ul></ul> 
+   <p>Informationen zu den neuen Zugriffsebenen finden Sie unter <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Übersicht über neue Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 
