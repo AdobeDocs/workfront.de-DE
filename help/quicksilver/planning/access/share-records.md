@@ -172,7 +172,7 @@ Sie können Berechtigungen für einzelne Datensätze anpassen, wenn Sie über Ve
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
    Das Feld **Freigeben** wird geöffnet.
@@ -230,7 +230,7 @@ Sie können Berechtigungen für einzelne Datensätze anpassen, wenn Sie über Ve
 
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite für den Datensatztyp zugreifen und sie in der ausgewählten Ansicht anzeigen zu können. Sie müssen über Berechtigungen für den Datensatztyp verfügen, um ihn anzeigen zu können. Weitere Informationen finden Sie auch unter [Freigeben von Datensätzen über einen Link](/help/quicksilver/planning/records/share-records.md).
 
-## Entfernen von Berechtigungen für einen Datensatz (************** DIES WURDE AUS DATENSATZTYPEN KOPIERT, MUSS FÜR DATENSÄTZE BEARBEITET WERDEN, ABER WARTEN AUF LILITS SLACK-ANTWORT **********)
+## Entfernen von Berechtigungen für einen Datensatz (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; DIES WURDE AUS DATENSATZTYPEN KOPIERT, MUSS FÜR DATENSÄTZE BEARBEITET WERDEN, ABER WARTEN AUF LILITS SLACK-ANTWORT &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 Sie können Benutzerberechtigungen aus einem Datensatz entfernen. Sie behalten jedoch mindestens Anzeigeberechtigungen für den Arbeitsbereich „Datensatz“ bei, wodurch sie auch mindestens Anzeigeberechtigungen für den Datensatztyp erhalten. Sie müssen ihren Zugriff aus dem Arbeitsbereich entfernen, wenn sie keine Berechtigungen für die Datensatztypen im Arbeitsbereich haben sollen.
 

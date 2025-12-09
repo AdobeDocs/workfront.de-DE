@@ -50,7 +50,7 @@ In der folgenden Tabelle sind die Funktionen aufgeführt, die für Lizenzen im a
    <th>[!UICONTROL Planer]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL-Anforderer]</th> 
+  <th>[!UICONTROL -Anforderer]</th> 
    <th>[!UICONTROL extern]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL light]</th> 
