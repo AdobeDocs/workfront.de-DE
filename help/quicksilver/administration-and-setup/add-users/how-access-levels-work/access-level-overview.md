@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die neuen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Als Adobe Workfront-Administrator weisen Sie einem Benutzer eine Zugriffsebene zu zwei Zwecken zu:
 

@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 14%
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die neuen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
 
@@ -32,7 +32,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Planmodell verfügbar sind. Informationen zur verfügbaren Funktion im aktuellen Planungsmodell finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Plänen im neuen Planmodell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Plänen im neuen Planmodell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 

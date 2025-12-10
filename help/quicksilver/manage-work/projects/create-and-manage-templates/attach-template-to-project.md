@@ -6,10 +6,10 @@ description: Sie können eine Vorlage entweder während der ersten Erstellungsph
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 0%
+source-wordcount: '1126'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Weitere Informationen zum Erstellen eines Projekts mithilfe einer Vorlage finden
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -119,7 +119,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
    ![Symbol „Mehr“](assets/qs-more-icon-on-an-object.png)
 
-   Oder
+   ODER
 
    Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das **Mehr** Symbol ![Mehr](assets/more-dropdown.png)Dropdown-Liste.
 
@@ -129,7 +129,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
 1. Geben Sie zunächst den Namen der Vorlage, die Sie anhängen möchten, in das Feld **Suchvorlagen** ein und klicken Sie dann auf die Vorlage, wenn sie in der Liste angezeigt wird.
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen einer Vorlage im Bereich **Sonstige Vorlagen**.
 
@@ -159,15 +159,23 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
      </tr> 
      <tr> 
       <td role="rowheader">Die unten ausgewählten Vorlagenaufgaben werden in das Projekt importiert. Deaktivieren Sie die Auswahl der Einträge, die Sie ausschließen möchten. </td> 
-      <td>Heben Sie die Markierung aller Aufgaben auf, die Sie aus der Vorlage ausschließen möchten, bevor Sie sie an das Projekt anhängen.</td> 
+      <td><p>Heben Sie die Markierung aller Aufgaben auf, die Sie aus der Vorlage ausschließen möchten, bevor Sie sie an das Projekt anhängen.</p>
+      <p><b>TIPP</b></p>
+      <p>Sie können nur eine Aufgabe auswählen.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wählen Sie die Projektaufgabe aus, die Sie als Vorgänger für die Aufgaben in dieser Vorlage haben möchten.</td> 
-      <td> <p>Klicken Sie auf das Feld, um eine Liste der Projektaufgaben anzuzeigen, und wählen Sie dann aus, welche Aufgabe abgeschlossen sein muss, bevor die Vorlagenaufgaben beginnen können. Alternativ können Sie diesen Schritt überspringen und Beziehungen innerhalb des Projekts einrichten, nachdem die Vorlage angehängt wurde. </p> <p> Wählen Sie die Informationen <strong>Abhängigkeitstyp</strong>, <strong>Verzögerungszeit</strong> und , wenn Sie möchten, dass der Vorgänger erzwungen wird, indem Sie das Kontrollkästchen <strong>Vorgänger erzwingen</strong> aktivieren. </p> </td> 
+      <td> <p>Klicken Sie in das Feld Feld, um eine Liste der Projektaufgaben anzuzeigen, und wählen Sie dann aus, welche Aufgabe abgeschlossen sein muss, bevor die Vorlagenaufgaben beginnen können. Alternativ können Sie diesen Schritt überspringen und Beziehungen innerhalb des Projekts einrichten, nachdem die Vorlage angehängt wurde. </p> <p> Wählen Sie die Informationen <strong>Abhängigkeitstyp</strong>, <strong>Verzögerungszeit</strong> und , wenn Sie möchten, dass der Vorgänger erzwungen wird, indem Sie das Kontrollkästchen <strong>Vorgänger erzwingen</strong> aktivieren. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wählen Sie die Projektaufgabe aus, die Sie als übergeordnetes Element der Aufgaben in dieser Vorlage haben möchten.</td> 
-      <td> Wählen Sie die Projektaufgabe aus, die Sie als übergeordnete Aufgabe für alle Vorlagenaufgaben festlegen möchten. Wenn Sie keine Auswahl treffen, werden alle Vorlagenaufgaben am Ende der aktuellen Projektaufgaben angezeigt. Sie können diesen Schritt überspringen und Aufgaben im Projekt verschieben, nachdem die Vorlage angehängt wurde.</td> 
+      <td> <p>Wählen Sie die Projektaufgabe aus, die Sie als übergeordnete Aufgabe für alle Vorlagenaufgaben festlegen möchten. Wenn Sie keine Auswahl treffen, werden alle Vorlagenaufgaben am Ende der aktuellen Projektaufgaben angezeigt. Sie können diesen Schritt überspringen und Aufgaben im Projekt verschieben, nachdem die Vorlage angehängt wurde.</p>
+      <p><b>NOTIZ</b></p>
+      <p>Wenn Sie eine übergeordnete Vorlagenaufgabe mit zusätzlichen untergeordneten Elementen ausgewählt haben, zeigt nur das übergeordnete Element die Projektaufgabe als Vorgänger an, nachdem sie dem Projekt hinzugefügt wurde. Für die untergeordneten Vorlagenaufgaben wird kein Vorgänger angezeigt.</p>
+      <p>Wenn Sie nur eine untergeordnete Vorlagenaufgabe ausgewählt haben, wird die Projektaufgabe nach dem Hinzufügen zum Projekt als Vorgänger angezeigt. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Abschnitt Optionen</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
@@ -196,7 +204,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 1. Klicken Sie **Vorlage anhängen.**
 1. Klicken Sie auf **Anlage abbrechen**, um das Anhängen der Vorlage abzubrechen.
 
-   Oder
+   ODER
 
    Zulassen, dass der Anhang fertig gestellt wird, um die Vorlage zum Projekt hinzuzufügen.
 
@@ -206,7 +214,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
    >[!TIP]
    >
-   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen &#x200B;](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
+   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [ Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
 
 1. (Optional) Entfernen Sie Vorlageninformationen aus dem Projekt, an das Sie die Vorlage angehängt haben. Weitere Informationen finden Sie unter [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 

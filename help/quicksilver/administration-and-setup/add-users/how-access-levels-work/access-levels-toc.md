@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die neuen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Als Adobe Workfront-Admin können Sie Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. In den folgenden Artikeln wird erläutert, wie neue Zugriffsebenen funktionieren.
 

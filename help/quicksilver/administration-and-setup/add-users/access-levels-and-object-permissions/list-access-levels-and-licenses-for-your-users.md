@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den neuen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den aktuellen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Sie können sehen, welche Zugriffsebene und Lizenz jedem Benutzer in einer Benutzerliste oder einem Bericht zugewiesen ist.
 
