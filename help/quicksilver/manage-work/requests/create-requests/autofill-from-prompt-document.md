@@ -5,10 +5,10 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 2%
+source-wordcount: '1351'
+ht-degree: 3%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->* Diese Funktion wird als offene Beta-Version nach dem folgenden Zeitplan verfügbar sein:
->
->   * Monatliche Version: 11. September 2025
->   * Vierteljährliche Veröffentlichung: 16. Oktober 2025
->
->* Um diese Funktion nutzen zu können, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+>Um diese Funktion nutzen zu können, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
 
@@ -94,7 +89,7 @@ So verwenden Sie Vorschläge basierend auf einer eingefügten Textaufforderung:
 
 1. Um die Textaufforderung auf das gesamte Formular anzuwenden, klicken Sie auf das KI-Symbol ![AI-Symbol](assets/request-prompt-icon.png) unter dem Formularnamen.
 
-   Oder
+   ODER
 
    Um die Textaufforderung auf einen einzelnen Abschnitt anzuwenden, klicken Sie auf das KI![Symbol „KI](assets/request-prompt-icon.png)Symbol neben dem Abschnittsnamen.
 
@@ -106,7 +101,7 @@ So verwenden Sie Vorschläge basierend auf einer eingefügten Textaufforderung:
 
    ![Vorschlag annehmen oder ablehnen](assets/accept-reject-suggestion.png)
 
-   Oder
+   ODER
 
    Wählen **oben auf der Seite** Alle akzeptieren **oder (Alle**) aus, um alle Vorschläge zu akzeptieren oder abzulehnen.
 
@@ -277,13 +272,13 @@ Sie können ein Dokument hochladen, das auf das gesamte Formular oder auf einen 
 
 1. Um das Dokument auf das gesamte Formular anzuwenden, klicken Sie auf das KI![Symbol „KI](assets/request-prompt-icon.png) unter dem Formularnamen.
 
-   Oder
+   ODER
 
    Um das Dokument auf einen einzelnen Abschnitt anzuwenden, klicken Sie auf das KI![Symbol „KI](assets/request-prompt-icon.png)Symbol neben dem Abschnittsnamen.
 
 1. Klicken Sie **Dateien hochladen** und wählen Sie dann die Datei aus Ihrem Datei-Manager aus.
 
-   Oder
+   ODER
 
    Ziehen Sie das Dokument aus Ihrem Datei-Manager in das Feld **Dateien hochladen, um das Anfrageformular automatisch**.
 1. Klicken Sie **Formular ausfüllen** oder **Abschnitt ausfüllen**.
@@ -293,7 +288,7 @@ Sie können ein Dokument hochladen, das auf das gesamte Formular oder auf einen 
 
    ![Vorschlag annehmen oder ablehnen](assets/accept-reject-suggestion.png)
 
-   Oder
+   ODER
 
    Wählen **oben auf der Seite** Alle akzeptieren **oder (Alle**) aus, um alle Vorschläge zu akzeptieren oder abzulehnen.
 

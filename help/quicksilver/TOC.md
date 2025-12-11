@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ddccff42ac694772d6d26ab963d1b08ea5acf886
+source-git-commit: bedfd278f59f8cd8ba287cca1d68a7ec3371c7fd
 workflow-type: tm+mt
-source-wordcount: '13616'
+source-wordcount: '13621'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 2%
          * [Verbesserungen für Administratoren im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten und Genehmigungen für das erste Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
          * [Verbesserungen bei Integrationen im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
+         * [Projektverbesserungen im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md)
          * [Berichtsverbesserungen für das erste Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md)
          * [Verbesserungen bei Anfragen für das erste Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md)
          * [Erstes Quartal 2026 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
@@ -1204,7 +1205,7 @@ ht-degree: 2%
          * [Übersicht über das voraussichtliche Startdatum des Projekts](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Erstellen von Projekten {#create-projects}
          * [Erstellen von Projekten: Artikelindex](manage-work/projects/create-projects/create-projects-overview.md)
-         * [Erstellen eines Projekts](manage-work/projects/create-projects/create-project.md)
+         * [Projekt erstellen](manage-work/projects/create-projects/create-project.md)
          * [Projekt anfordern](manage-work/projects/create-projects/request-project.md)
          * [Erstellen eines Projekts mithilfe einer Vorlage](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importieren eines Projekts aus dem Microsoft-Projekt](manage-work/projects/create-projects/import-project-from-ms-project.md)
@@ -2203,7 +2204,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

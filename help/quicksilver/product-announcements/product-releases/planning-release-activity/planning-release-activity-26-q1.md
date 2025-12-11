@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Hinzufügen des Felds Markenverbindung zu Produkten und Rollen im GenStudio Workspace
+
+>[!NOTE]
+>
+>Vorschau: 11. Dezember 2025
+>Produktions-Schnellveröffentlichung: 11. Dezember 2025
+>Produktion für alle: 11. Dezember 2025
+
+Das Feld Verbindung zur Marke GenStudio for Performance Marketing wird jetzt standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ im Arbeitsbereich &quot;GenStudio&quot; von Workfront Planning hinzugefügt.
+
+Ihr Unternehmen muss sowohl über Workfront Planning als auch über Adobe GenStudio for Performance Marketing verfügen.
+
+Vor dieser Verbesserung konnten Sie das Feld Markenverbindung nur manuell zu einem beliebigen Datensatztyp hinzufügen, einschließlich Produkten und Rollen. Sie können den Datensatztyp Brand GenStudio weiterhin manuell mit anderen Datensatztypen in Workfront Planning verbinden.
+
+Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Planning and Adobe GenStudio for Performance Marketing-Integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+## Entfernen von GenStudio for Performance Marketing-Benutzerberechtigungen aus Planning einschränken
+
+>[!NOTE]
+>
+>Vorschau: 11. Dezember 2025
+>Produktions-Schnellveröffentlichung: 11. Dezember 2025
+>Produktion für alle: 11. Dezember 2025
+
+Wir haben einen Schutzmechanismus hinzugefügt, der verhindert, dass Berechtigungen von GenStudio for Performance Marketing-Benutzenden aus Workfront Planning-Objekten entfernt werden. Mit dieser Verbesserung können Sie GenStudio-Benutzende nicht mehr aus dem GenStudio-Arbeitsbereich in Planning entfernen. Ebenso können Sie keine geerbten Berechtigungen für Datensatztypen im GenStudio-Arbeitsbereich deaktivieren, wenn diese Berechtigungen GenStudio-Benutzende enthalten. Wenn Sie diese Benutzenden vor dieser Verbesserung aus GenStudio Workspace in Planning entfernt haben, verlieren sie auch die Berechtigungen für Datensatztypen in GenStudio.
+
+Ihr Unternehmen muss sowohl über Workfront Planning als auch über Adobe GenStudio for Performance Marketing verfügen.
+
+Weitere Informationen finden Sie [Erste Schritte mit Adobe Workfront Planning und Adobe GenStudio for Performance Marketing Integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
 
 ## Öffentliche Freigabe von Ansichten für einen globalen Datensatztyp in einem sekundären Arbeitsbereich entfernt
 
