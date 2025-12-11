@@ -6,10 +6,10 @@ description: Sie können Aufgaben löschen, die möglicherweise dupliziert sind 
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Für Aufgaben mit historischen Informationen (Aktualisierungen, Änderungen des 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Für Aufgaben mit historischen Informationen (Aktualisierungen, Änderungen des 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -98,37 +98,40 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Wenn Sie eine Aufgabe löschen, wirkt sich dies auf andere mit der Aufgabe verknüpfte Objekte aus.
 
-Die folgenden mit einer Aufgabe verbundenen Objekte werden ebenfalls gelöscht, wenn Sie eine Aufgabe löschen:
+Beachten Sie Folgendes:
 
-* Dokumente
+* Die folgenden mit einer Aufgabe verbundenen Objekte werden ebenfalls gelöscht, wenn Sie eine Aufgabe löschen:
+
+   * Dokumente
 
   Sie können eine Aufgabe, an die ein ausgechecktes Dokument angehängt ist, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
 
-* Probleme
-* Teilaufgaben
-* Anmerkungen
-* Genehmigungen
+   * Probleme
+   * Teilaufgaben
+   * Anmerkungen
+   * Genehmigungen
 
-Je nachdem, wie Ihr Workfront-Administrator die Einstellungen für die Projekt-, Aufgaben- oder Problemlöschung in den Arbeitszeittabellen- und Stundeneinstellungen Ihrer Workfront-Instanz konfiguriert, werden die für die Aufgaben protokollierten Stunden beim Löschen einer Aufgabe auf eine der folgenden Arten gehandhabt:
+* Je nachdem, wie Ihr Workfront-Administrator die Einstellungen für die Projekt-, Aufgaben- oder Problemlöschung in den Arbeitszeittabellen- und Stundeneinstellungen Ihrer Workfront-Instanz konfiguriert, werden die für die Aufgaben protokollierten Stunden beim Löschen einer Aufgabe auf eine der folgenden Arten gehandhabt:
 
-* Verschieben Sie in das Projekt und wird bei der Aufgabe nicht wiederhergestellt, wenn die Aufgabe später wiederhergestellt wird.
-* werden gelöscht und für die Aufgabe wiederhergestellt, wenn die Aufgabe später wiederhergestellt wird.
+   * Verschieben Sie in das Projekt und wird bei der Aufgabe nicht wiederhergestellt, wenn die Aufgabe später wiederhergestellt wird.
+   * werden gelöscht und für die Aufgabe wiederhergestellt, wenn die Aufgabe später wiederhergestellt wird.
 
   Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, in denen Aufgaben mit Stunden protokolliert sind.
 
-  <!--
+  Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert sind, finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Kosten für die Aufgabe werden in das Projekt verschoben.
+
+   * Die Benutzer, die der Aufgabe oder der Aufgabengenehmigung zugewiesen sind, bleiben im Projektteam.
+
+  Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* Wenn Sie eine untergeordnete Aufgabe löschen und ihre übergeordnete Aufgabe in ein anderes Projekt verschieben und dann die gelöschte untergeordnete Aufgabe wiederherstellen, wird die Aufgabe im ursprünglichen Projekt als Hauptaufgabe wieder hinzugefügt.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert sind, finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Kosten für die Aufgabe werden in das Projekt verschoben.
-
-* Die Benutzer, die der Aufgabe oder der Aufgabengenehmigung zugewiesen sind, bleiben im Projektteam.
-
-  Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Aufgaben löschen
 

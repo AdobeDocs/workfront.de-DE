@@ -5,16 +5,16 @@ description: Sie können Listen von -Objekten in anzeigen [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2301'
 ht-degree: 2%
 
 ---
 
 # Erste Schritte mit Listen in [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen, um Informationen zu ihnen zu erhalten, z. B. ihr Start- und Fälligkeitsdatum, ihnen zugewiesene Benutzer und andere Objekte, die mit ihnen verknüpft sind.
 
@@ -148,7 +148,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Aufgabenliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL -Aufgaben]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL-Aufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Unteraufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL Vorgänger*]</p> </li> 
     </ul> </td> 
@@ -197,8 +197,8 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
      <li> <p>[!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL auf ein Portfolio klicken] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL Programme] &gt;[!UICONTROL auf ein Programm klicken] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL-Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL klicken] Ein Projekt &gt; [!UICONTROL Probleme] &gt;[!UICONTROL klicken Sie auf ein Problem] &gt; [!UICONTROL Dokumente]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -206,7 +206,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Arbeitszeittabellen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Arbeitszeittabelle] s &gt; [!UICONTROL Alle Arbeitszeittabellen]*</p> </li> 
+     <li> <p>[!UICONTROL Arbeitszeittabellen] &gt; [!UICONTROL Alle Arbeitszeittabellen]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Risiken</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Risiken]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Risiken]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt; Klicken Sie auf ein Projekt</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Klicken Sie auf ein Projekt</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Stunden]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL klicken] Ein Projekt &gt;[!UICONTROL Probleme] &gt;[!UICONTROL klicken] Ein Problem &gt;[!UICONTROL Stunden]</p> </li>
     </ul> </td> 
@@ -293,7 +293,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
  </tbody> 
 </table>
 
-Die Liste kann nicht im angegebenen Bereich angepasst werden. Ein [!DNL Workfront] kann eine benutzerdefinierte Liste auf Systemebene erstellen oder einen Bericht für dieses Objekt erstellen, wenn Sie auf Zugriffsebene Zugriff zum Bearbeiten von Berichten haben.
+* Die Liste kann im angegebenen Bereich nicht angepasst werden. Ein [!DNL Workfront] kann eine benutzerdefinierte Liste auf Systemebene erstellen oder einen Bericht für dieses Objekt erstellen, wenn Sie auf Zugriffsebene Zugriff zum Bearbeiten von Berichten haben.
 
 ## Listenelemente
 
@@ -320,11 +320,11 @@ Eine Liste umfasst die folgenden Elemente:
    <td> <p>Filter verhindern basierend auf den von Ihnen angegebenen Kriterien unnötige Informationen aus einer Liste. </p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filter - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL -Ansicht]</strong></td> 
+   <td><strong>[!UICONTROL-Ansicht]</strong></td> 
    <td> <p>In Ansichten wird festgelegt, welche Felder (Spalten) auf dem Bildschirm angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL -Gruppierung]</strong></td> 
+   <td><strong>[!UICONTROL-Gruppierung]</strong></td> 
    <td> <p>Gruppierungen trennen die Objekte auf der Liste in Bereiche basierend auf den von Ihnen angegebenen Kriterien.</p> <p>Beispielsweise können die Probleme in einer Liste in Abschnitten nach Status oder Priorität angezeigt werden.</p> <p>In einer Standardgruppierung können bis zu drei Ebenen von Gruppierungen vorhanden sein. Wenn Sie im Textmodus eine Gruppierung konfigurieren, können Sie eine vierte Ebene hinzufügen.</p> <p>Weitere Informationen zu Gruppierungen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungen - Übersicht in [!DNL Adobe Workfront]</a>.</p> <p>Weitere Informationen zum Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -455,7 +455,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL -Export]</td> 
+   <td>[!UICONTROL-Export]</td> 
    <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
@@ -500,7 +500,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
+   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 
@@ -649,25 +649,19 @@ Die folgende Tabelle zeigt einige der Unterschiede zwischen den standardmäßige
   </tr> 
   <tr>
   <td> <p>Standardmäßig <strong> (alle</strong> oder bis <strong>2000</strong> Elemente angezeigt</p> </td> 
-   <td> Standardmäßig bis zu 100 Elemente und bis zu 2.000 Elemente nach dem Scrollen anzeigen </td> 
+   <td> Anzeigen aller Elemente in der Liste nach manuellem Scrollen </td> 
   </tr>
 
 <tr> 
-   <td>Die Symbole oben in der Liste sind in allen Listen etwas konsistent, unabhängig davon, wo Sie darauf zugreifen. Einige Listen, Aufgaben, Probleme oder Dokumente verfügen über eindeutige Symbole, die für die Funktionalität dieser Objekttypen relevant sind. </td> 
-   <td>Die Symbole oben in der Liste unterscheiden sich je nachdem, von wo aus Sie auf die Liste zugreifen. Darüber hinaus wird unten in der Liste ein blauer Balken angezeigt, wenn Sie Elemente in der Liste auswählen.</td> 
+   <td>Die Interaktion mit den Elementen in der Liste ist bei allen Objekttypen gleich und erfolgt über die Symbole oben in der Liste.  </td> 
+   <td>Die Interaktion mit den Elementen in der Liste kann je nach Objekttyp unterschiedlich sein. Verwenden Sie dazu die Symbole oben in der Liste sowie die blaue Symbolleiste, die nach der Auswahl von Listenelementen aktiviert wird. </td> 
   </tr>
 
-<tr> 
-   <td> <p>Symbole in der Symbolleiste oben in der Liste verwenden, um mit Elementen in der Liste zu interagieren</p> </td> 
-   <td> <p>Führen Sie einen der folgenden Schritte aus, um mit Elementen in der Liste zu interagieren, je nachdem, was Sie aktualisieren möchten:</p>
-   <ul><li>Verwenden Sie die Symbole in der Symbolleiste oben für einige Aktionen wie Suchen, Hinzufügen neuer Elemente, Sortieren oder Filtern</li>
-   <li>Wählen Sie ein Element in der Liste aus und verwenden Sie die Symbole in der blauen Symbolleiste am unteren Rand der Liste für einige Aktionen, z. B. zum Löschen oder Anzeigen von Elementen</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>Sie können Änderungen der Zellfarbe auf Elemente in einer Liste anwenden</p></td>
-   <td><p>Änderungen der Zellfarbe können nur in Workfront Planning auf Elemente in einer Liste angewendet werden. </p></td>
+   <td><p>Änderungen der Zellfarbe können nicht auf Elemente in einer Liste angewendet werden. </p></td>
    </td> 
    <td></td> 
   </tr> 
