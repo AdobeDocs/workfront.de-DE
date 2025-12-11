@@ -17,7 +17,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 Einheitliche Genehmigungen, früher als „Neue Dokumentgenehmigungen“ bezeichnet, sind eine ganzheitliche Neugestaltung des bestehenden Genehmigungsprozesses, der derzeit für Adobe Workfront entwickelt wird. Diese Lösung ist derzeit nur in begrenztem Umfang verfügbar und wurde als praktische und effektive Lösung für Unternehmen konzipiert, die eine umfassende Interaktion mit Stakeholdern und versionsspezifische Dokumentengenehmigungen benötigen. Das durchdachte Design und die zielgerichteten neuen Funktionen erleichtern die Zusammenarbeit, Rollenklarheit und Versionskontrolle im Genehmigungsprozess und verbessern die Effizienz und Verantwortlichkeit.
 
