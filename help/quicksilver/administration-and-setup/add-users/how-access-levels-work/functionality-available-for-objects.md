@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1334'
 ht-degree: 14%
 
 ---
@@ -31,8 +31,8 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 
 >[!NOTE]
 >
->* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Planmodell verfügbar sind. Informationen zur verfügbaren Funktion im aktuellen Planungsmodell finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Plänen im neuen Planmodell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
@@ -53,7 +53,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 | Aufgaben hinzufügen | ✓ |   |   |   |
 | Aktualisierungen/Kommentare abgeben | ✓ | ✓ | ✓ |   |
 | Status ändern | ✓ |   |   |   |
-| Stunden protokollieren | ✓ |   |   |   |
+| Stunden protokollieren | ✓ | <span class="preview">✓</span> |   |   |
 | Zuweisungen bearbeiten | ✓ |   |   |   |
 | Verwalten einer Grundlinie | ✓ |   |   |   |
 | Risiken managen | ✓ |   |   |   |

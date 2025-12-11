@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 22%
+source-wordcount: '468'
+ht-degree: 20%
 
 ---
 
 # Zugriff auf Objekte und Bereiche durch neue Lizenzen
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -44,7 +46,7 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
     <tr>
         <td>Projekte</td>
         <td>Bearbeiten</td>
-        <td>Ansicht</td>
+        <td><span class="preview">Bearbeiten**</span></td>
         <td>Ansicht</td>
         <td>Kein Zugriff</td>
     </tr>
@@ -149,6 +151,8 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
 </table>
 
 &#42; Benutzer mit der Lizenz Mitwirkende können nur Berichte, Dashboards und Kalender anzeigen, die für sie freigegeben sind.
+
+<span class="preview">&#42;&#42; Benutzer mit einer Light-Lizenz können die Zeit nur auf Projektebene protokollieren, wenn der Bearbeitungszugriff aktiviert ist. Sie können keine Projekte erstellen, bearbeiten, löschen oder freigeben. Die Standardebene für Light-Benutzer ist Ansicht.</span>
 
 >[!NOTE]
 >
