@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Sie können die folgenden Arten von Anfragen finden, die von Ihnen oder einer an
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +73,44 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Gesendete Anfragen suchen
 
-So suchen Sie nach von Ihnen oder anderen Benutzern gesendeten Anfragen:
+Die Suche nach gesendeten Anfragen unterscheidet sich je nachdem, ob Sie das neue oder das veraltete Anfrageerlebnis verwenden.
+
+### Gesendete Anfragen in der neuen abfragenden Version suchen
+
+So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
+
+{{step1-to-requests}}
+
+1. Stellen Sie sicher **dass der Umschalter** Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms aktiviert ist.
+
+   Die Liste Anfragen wird angezeigt.
+
+1. (Optional) Um nach einer Anfrage zu suchen, beginnen Sie, etwas in die Suchleiste oben rechts in der Liste einzugeben. Suchergebnisse werden während der Eingabe angezeigt.
+1. (Optional) Klicken Sie **Filter** und fügen Sie Bedingungen für die Anfragen hinzu, die Sie suchen möchten.
+
+   Sie können nach den folgenden Feldern filtern:
+
+   * **Workspace**: Der Arbeitsbereich, mit dem das Anfrageformular verknüpft ist.
+   * **Datensatztyp**: Der Datensatztyp, mit dem das Anfrageformular verknüpft ist.
+   * **Eingabedatum** Das Datum, an dem die Anfrage gesendet wurde.
+   * **Anfrageformular**: Der Name des Anfrageformulars, das zum Senden der Anfrage verwendet wird.
+   * **Status**: Der Status der Anfrage.
+   * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage von einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
+
+   Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
+Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
+1. (Optional) Verwenden Sie Ansichten, um sich auf die Anfragen zu konzentrieren, die Sie finden möchten.
+
+   Anweisungen finden Sie unter [Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte Objekttyp `Issue` Wert an.
+>* Die Anfragenliste wird mit 50 angezeigten Anfragen angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
+
+### Gesendete Anfragen in der Legacy-Anfrage finden
+
+So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der Legacy-Anfrage gesendet haben:
 
 {{step1-to-requests}}
 
