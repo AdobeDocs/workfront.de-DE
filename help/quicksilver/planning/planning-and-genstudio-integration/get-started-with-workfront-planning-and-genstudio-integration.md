@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ recommendations: noDisplay, noCatalog
 
 
 # Erste Schritte mit der Integration von Adobe Workfront Planning und Adobe GenStudio for Performance Marketing
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -109,7 +107,7 @@ In der folgenden Tabelle werden die Zugriffs- und Berechtigungsanforderungen fü
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
+   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
    </p>
   </td> 
   </tr>   
@@ -164,7 +162,7 @@ Weitere Informationen zu Adobe GenStudio for Performance Marketing finden Sie im
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -243,19 +241,18 @@ In den folgenden Abschnitten werden die folgenden Themen beschrieben:
 
   Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 * Der GenStudio-Arbeitsbereich wird automatisch für alle GenStudio-Benutzenden freigegeben, die auch Zugriff auf Workfront haben, wenn er in Workfront Planning erstellt wird.
-* Wenn Sie über Verwaltungsberechtigungen für den GenStudio-Arbeitsbereich in Planning verfügen, können Sie:
+* Als Arbeitsbereichsmanager für den GenStudio-Arbeitsbereich in Planning haben Sie folgende Möglichkeiten:
 
    * Aktualisieren des GenStudio-Arbeitsbereichs in Planning (Name, Beschreibung, Symbol)
    * Erstellen von Abschnitten
    * Datensatztypen hinzufügen
    * Für andere freigeben
 
-     Sie können den GenStudio-Arbeitsbereich für andere freigeben, die kein GenStudio-Konto haben. Sie können sie nur für Benutzende freigeben, die im Identity Management-System (IMS) Ihres Unternehmens verfügbar sind.
+     >[!NOTE]
+     >
+     >* Sie können den GenStudio-Arbeitsbereich für andere freigeben, die kein GenStudio-Konto haben. Sie können sie nur für Benutzende freigeben, die im Identity Management-System (IMS) Ihres Unternehmens verfügbar sind.
+     >* Sie können keine GenStudio-Benutzenden aus dem GenStudio-Arbeitsbereich oder der Freigabe seiner Datensatztypen entfernen.
 
-     <!--
-        >[!NOTE]
-        >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. -->
   <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Wenn Sie über die Berechtigung Beitragen für den GenStudio-Arbeitsbereich in Planning verfügen, können Sie den Arbeitsbereich nicht in Workfront Planning ändern.
@@ -268,7 +265,7 @@ In den folgenden Abschnitten werden die folgenden Themen beschrieben:
 * Datensatztypen im GenStudio-Arbeitsbereich werden automatisch für alle GenStudio-Benutzenden freigegeben, die auch Zugriff auf Workfront haben, wenn der Arbeitsbereich in Planning erstellt wird.
 * Wenn Sie über Verwaltungsberechtigungen für den GenStudio-Arbeitsbereich in Planning verfügen, können Sie in Workfront Planning Folgendes ausführen:
    * Bearbeiten von Informationen zu GenStudio-Datensatztypen (ihr Erscheinungsbild, erweiterte Einstellungen).
-   * GenStudio-Datensatztypen für andere freigeben.
+   * GenStudio-Datensatztypen für andere freigeben. Sie können GenStudio-Benutzende nicht aus der Freigabe von GenStudio-Datensatztypen entfernen.
    * Datensatztypen erstellen. Diese Datensatztypen verbleiben nur in Workfront Planning. Sie werden in GenStudio nicht angezeigt.
    * Aktivieren Sie Datensatztypen aus GenStudio Workspace, um eine Verbindung von anderen Arbeitsbereichen herzustellen.
    * Aktivieren Sie das Hinzufügen von Datensatztypen aus dem GenStudio-Arbeitsbereich zu anderen Arbeitsbereichen.
@@ -372,6 +369,7 @@ Sie können in Workfront Planning die folgenden Verbindungen zwischen GenStudio-
 * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus einem anderen Arbeitsbereich, wenn die Datensatztypen für die Verbindung aus einem anderen Arbeitsbereich konfiguriert sind.
 * Ein GenStudio-Datensatztyp und ein Workfront-Objekttyp (Projekte, Portfolios, Programme, Unternehmen, Gruppen)
 * Einen GenStudio-Datensatztyp und einen AEM Assets-Objekttyp.
+* GenStudio-Datensatztypen und GenStudio-Marken. Die Markenverbindung wird standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ hinzugefügt.
 
 ### Anforderungsformulare und Automatisierungen im Datensatztyp GenStudio
 
@@ -386,18 +384,12 @@ Sie können in Workfront Planning die folgenden Verbindungen zwischen GenStudio-
 
 Wenn Ihr Unternehmen über eine Integration zwischen Workfront Planning und Adobe GenStudio verfügt, können Sie in Workfront Planning von jedem Datensatztyp in jedem Arbeitsbereich aus Planning-Datensatztypen mit GenStudio Brands verbinden.
 
-Marken sind im GenStudio-Arbeitsbereich nicht als Karten vom Typ „Datensatz“ sichtbar. Es stehen Marken zur Verfügung, um neue Verbindungen aus jedem Workfront Planning-Datensatztyp zu erstellen, einschließlich der Verbindungen im GenStudio Workspace.
+Marken sind standardmäßig mit den folgenden GenStudio Workspace-Datensatztypen verbunden:
 
-<!-- when this releases, replace the paragraph above with these:
+* Produkte
+* Personas
 
-Brands are connected by default to the following GenStudio workspace record types:
-
-    * Products
-    * Personas
-
-Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
-
--->
+Marken können manuell eine Verbindung zu allen anderen GenStudio Workspace-Datensatztypen herstellen oder Datensatztypen aus allen anderen Workspaces auswählen, für die Sie Berechtigungen haben.
 
 ## Die Vorschau-Umgebung
 
