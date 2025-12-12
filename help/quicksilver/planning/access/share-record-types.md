@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 0%
+source-wordcount: '1514'
+ht-degree: 1%
 
 ---
 
@@ -31,14 +31,14 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensatztypen im Arbeitsbereich.
->&#x200B;>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
+>Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe &#x200B;](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
+>* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -55,7 +55,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <p>Beliebiges Workfront- und Planungspaket</p> 
-Oder
+ODER
 <p>Beliebiges Workflow- und Planungspaket</p> 
  </tr>
 
@@ -275,7 +275,7 @@ Sie können Benutzerberechtigungen von einem Datensatztyp entfernen. Sie behalte
 
    Die Personen verfügen nicht mehr über die angegebenen Berechtigungen für den Datensatztyp. Sie haben jedoch weiterhin Berechtigungen für den Arbeitsbereich, es sei denn, Sie entfernen sie auch aus den Arbeitsbereich-Berechtigungen.
 
-   Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf entfernt wurden, dass sie diesen Zugriff nicht mehr haben.
+   Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf den Datensatztyp entfernt wurden, dass sie nicht mehr über diese Berechtigungen verfügen.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 

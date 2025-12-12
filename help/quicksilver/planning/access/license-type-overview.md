@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um den folgenden Zugriff zu gewähren:
 
 * Anzeigen, Bereitstellen oder Verwalten von Arbeitsbereichen oder Datensatztypen
-* Ansichten anzeigen oder verwalten.
+* Ansichten anzeigen oder verwalten. <!--<span class="preview">and records</span>-->
 
 Informationen zu Berechtigungen für Objekte in Workfront Planning finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -48,7 +48,7 @@ Beachten Sie beim Arbeiten mit Berechtigungen für Datensatztypen Folgendes:
 
 | Adobe Workfront-Lizenztyp | Höchste in Adobe Workfront Planning zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Benutzer können Arbeitsbereiche, Datensatztypen und Ansichten verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
+| Standard | <p>Benutzer können Arbeitsbereiche, Datensatztypen, <!--<span class="preview">records</span>--> und Ansichten verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p><br><p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
 | Licht oder Mitwirkender | <p>Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen.</p> <br> <p>Benutzer können die Ansichten anzeigen, die für sie freigegeben wurden, sie können jedoch keine eigenen erstellen. </p><br> <p>Benutzende können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen.</p> |
 
 <!--Old: 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 2%
@@ -160,7 +160,7 @@ So fügen Sie Workfront Planning-Bereiche zu Benutzern Ihrer Workfront-Instanz h
 
 Lizenzen können Benutzern zugewiesen werden, wenn die jeweilige Zugriffsebene beim Bearbeiten oder Erstellen konfiguriert wird.
 
-Weitere Informationen finden [&#x200B; unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Weitere Informationen finden [ unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 ## Zugriffsebene konfigurieren
 
@@ -177,6 +177,7 @@ In Workfront Planning können Sie Berechtigungen für die folgenden Entitäten e
 * Arbeitsbereiche
 * Eintragstypen
 * Ansichten 
+  <!--move this above Views: * <span class="preview">Records</span>-->
 
 Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 

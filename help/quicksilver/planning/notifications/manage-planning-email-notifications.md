@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
@@ -27,8 +27,8 @@ Sie können E-Mail-Benachrichtigungen von Workfront Planning erhalten, wenn die 
 * Jemand versieht Sie oder Ihre Teams in einem Datensatzkommentar mit Tags
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--Isk confirmed that there is nno email for denying access but did not test--> gewährt wurde
+* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht, einen Arbeitsbereich oder einen Datensatztyp <!--or <span class="preview">or a record</span>-->
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht, einen Arbeitsbereich oder einen Datensatztyp gewährt wurde<!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
 * Sie senden eine Workfront Planning-Anfrage. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab. Weitere Informationen finden Sie unter [Genehmigen einer Anfrage in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.
@@ -160,17 +160,17 @@ Die **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benach
 
 ## Verwalten von E-Mail-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
 
-1. (Bedingt und optional) Nachdem Sie von einer Person aufgefordert oder Ihnen Berechtigungen für den Zugriff auf eine Ansicht oder einen Arbeitsbereich erteilt wurden, wechseln Sie zu der E-Mail, in der Sie über die Berechtigungsanfrage informiert werden. Der Absender der E-Mail ist Adobe Experience Cloud.
+1. (Bedingt und optional) Nachdem Sie von einer Person um Zugriff auf einen Planungs-Objekttyp gebeten oder ihm Berechtigungen erteilt wurden, wechseln Sie zu der E-Mail, in der Sie über die Berechtigungsanfrage informiert werden. Der Absender der E-Mail ist Adobe Experience Cloud.
 
 1. (Optional) Klicken Sie auf die Nachricht im Feld **Workfront** in der E-Mail.
 
-   Die Seite mit den Datensatzdetails wird in Workfront geöffnet. Sie können Aktualisierungen am Datensatz vornehmen oder auf den Kommentar antworten.
+   Das Objekt, für das Sie Berechtigungen angefordert haben, wird in Workfront geöffnet.
 
 1. (Bedingt) Klicken Sie, falls verfügbar, auf **Alle Benachrichtigungen anzeigen**.
 Die **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benachrichtigungen von allen Adobe Experience Cloud-Programmen werden angezeigt.
 
 
-Informationen zum Anfordern, Gewähren oder Verweigern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie [Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern](/help/quicksilver/planning/access/request-permissions.md).
+Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen finden Sie [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
 
 Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 

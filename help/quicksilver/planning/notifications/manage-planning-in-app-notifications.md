@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -23,8 +23,8 @@ In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn 
 * Jemand versieht Sie oder Ihre Teams in einem Datensatzkommentar mit Tags
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--Isk confirmed there is no notification for denying permissions - did not test--> gewährt wurde
+* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen <!--<span class="preview">or record</span>-->
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--<span class="preview">or record</span>--> gewährt wurde <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Zugriffsanforderungen
 
@@ -155,8 +155,8 @@ OLD:
 
 ## Verwalten von In-App-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
 
-Sie erhalten In-App-Benachrichtigungen, wenn jemand Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder Ihnen Berechtigungen erteilt.
+Sie erhalten In-App-Benachrichtigungen, wenn jemand Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder Ihnen Berechtigungen erteilt. <!--<span class="preview">or record</span>-->
 
-Informationen zum Anfordern, Gewähren oder Verweigern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie [Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern](/help/quicksilver/planning/access/request-permissions.md).
+Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen finden Sie [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
 
 Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

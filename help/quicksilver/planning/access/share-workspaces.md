@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -47,7 +47,7 @@ This article describes how you can share a view with others. For information abo
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <p>Beliebiges Workfront- und Planungspaket</p> 
-Oder
+ODER
 <p>Beliebiges Workflow- und Planungspaket</p> 
  </tr>
 <tr> 
@@ -210,3 +210,5 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 1. Klicken Sie auf **Speichern**.
 
    Die entfernten Benutzer haben keinen Zugriff mehr auf den Arbeitsbereich oder dessen Objekte.
+
+   Die Benutzer, die vom Zugriff auf den Arbeitsbereich entfernt wurden, werden nicht darüber informiert, dass sie nicht mehr über diese Berechtigungen verfügen.

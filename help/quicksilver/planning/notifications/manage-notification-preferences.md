@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 1%
 Sie erhalten möglicherweise In-App- oder E-Mail-Benachrichtigungen, wenn in Workfront Planning die folgenden Aktionen ausgeführt werden:
 
 * Jemand fügt Sie oder Ihre Teams einem Kommentar auf der Datensatzseite hinzu.
-* Jemand fragt nach der Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
-* Jemand gewährt Ihnen die Berechtigung, auf eine Ansicht oder einen <!--I could not test this but Isk confirmed--> zuzugreifen
+* Jemand fragt nach der Berechtigung für den Zugriff auf eine Ansicht oder einen <!--or <span class="preview">or a record</span>-->
+* Jemand gewährt Ihnen die Berechtigung, auf eine Ansicht oder einen <!--or <span class="preview">or a record</span>--> zuzugreifen <!--I could not test this but Isk confirmed-->
 * Sie senden eine Workfront Planning-Anfrage.
 * Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab.
 * Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.
@@ -177,7 +177,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 
