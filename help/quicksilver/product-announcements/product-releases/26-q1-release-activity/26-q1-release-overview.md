@@ -150,7 +150,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Neue Version der Salesforce-Integration jetzt verfügbar </a>
-            <p>Um auf dem neuesten Stand der letzten Änderungen an der Workfront-API zu bleiben, haben wir eine neue Salesforce-Integration erstellt. Die neue Integration bietet dieselben Funktionen wie die vorherige Version und wurde aktualisiert, um zu vermeiden, dass Funktionen verloren gehen, die in der API nicht mehr unterstützt werden.</p><p>HINWEIS: Die Integration von Workfront für Salesforce, einschließlich der neuen Version, wird nach dem 28. ** 2026 nicht mehr **. </p>
+            <p>Um auf dem neuesten Stand der letzten Änderungen an der Workfront-API zu bleiben, haben wir eine neue Salesforce-Integration erstellt. Die neue Integration bietet dieselben Funktionen wie die vorherige Version und wurde aktualisiert, um zu vermeiden, dass Funktionen verloren gehen, die in der API nicht mehr unterstützt werden.</p><p>HINWEIS: Die Integration von Workfront für Salesforce, einschließlich der neuen Version, wird nach dem 28. **&#x200B; 2026 nicht mehr &#x200B;**. </p>
         </td>
         <td>Freitag, 30. Oktober 2025</td>
         <td>Freitag, 30. Oktober 2025</td>
