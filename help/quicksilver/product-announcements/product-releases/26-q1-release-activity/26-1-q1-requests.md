@@ -4,7 +4,7 @@ description: Verbesserungen bei Anfragen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
+source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Vorschau: 20. November 2025
->Produktions-Schnellveröffentlichung: 14. Januar 2026\
+>Produktionsschnellveröffentlichung: 11. Dezember 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um das Erstellen und Senden von Anfragen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Entwürfe zu speichern. Wenn Sie jetzt mit dem Ausfüllen und Schließen einer Anfrage beginnen, wird die Anfrage im Status Entwurf gespeichert und ist im Anfrageformular zu finden, das zum Erstellen des Entwurfs verwendet wird. Sie können den Entwurf dann jederzeit erneut öffnen, aktualisieren und senden.
