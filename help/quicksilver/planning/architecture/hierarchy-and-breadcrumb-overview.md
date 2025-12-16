@@ -3,9 +3,9 @@ title: Übersicht über Hierarchie und Breadcrumb
 description: Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem Workspace erstellen.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,17 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
 * Es können bis zu 4 Datensatz- und Objekttypen in einer Hierarchie verbunden sein.
 * Sie können in einer Workspace-Hierarchie nur die folgenden Objekttypen verbinden:
    * Datensatztypen, die zu dem Arbeitsbereich gehören, in dem Sie die Hierarchien erstellen.
-   * Workfront-Projekte.
+   * Workfront-Projekte. Workfront-Projekte können nicht als übergeordnete Elemente anderer Datensatztypen hinzugefügt werden. Sie sind immer das letzte Kind in einer Hierarchie.
 * Die folgenden Objekttypen können nicht in einer Hierarchie hinzugefügt werden:
-   * Datensatztypen aus anderen Arbeitsbereichen, auch wenn sie als verbindbare oder globale Datensatztypen festgelegt sind.
+   * Datensatztypen aus anderen Arbeitsbereichen, auch wenn sie als verbindbare oder globale Datensatztypen festgelegt sind. Sie können globale Datensatztypen nur dann zu Hierarchien hinzufügen, wenn sie zu dem Arbeitsbereich hinzugefügt wurden, aus dem Sie die Hierarchie erstellen.
    * Alle anderen Workfront-Objekte.
    * AEM Assets
-* Hierarchien können sowohl Planning-Datensatztypen als auch Workfront-Objekttypen gleichzeitig enthalten.
+* Hierarchien können sowohl Planning-Datensatztypen als auch Workfront-Projekte gleichzeitig enthalten.
 
       Sie können beispielsweise einen Campaign-Datensatztyp mit Planungstaktiken und Workfront-Projekten als untergeordnete Elemente in derselben Workspace-Hierarchie verwenden.
   * Wenn bereits eine Verbindung zwischen den ausgewählten Datensatztypen besteht, verwendet das System die vorhandene Verbindung erneut.
 * Wenn keine Verbindung vorhanden ist, erstellt Workfront im Rahmen der Hierarchieeinrichtung eine.
-* Die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** muss für das verbundene Feld aktiviert sein.
-
-  Die Datensatztypen mit Verbindungen, die kein entsprechendes Feld für die verknüpften Datensatztypen erstellen, können ebenfalls Teil von Hierarchien sein. Wenn Sie jedoch während der Einrichtung der Hierarchie eine neue Verbindung erstellen, müssen Sie immer ein entsprechendes Feld für den verknüpften Datensatztyp erstellen.
+* Die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** muss für das verbundene Feld für Datensätze und Objekte aktiviert sein, die Sie in eine Hierarchie einbeziehen möchten.
 * Im Folgenden finden Sie Regeln für die Einrichtung von Hierarchien:
    * Ein Datensatztyp kann in einem Arbeitsbereich nur einen übergeordneten Datensatztyp haben.
 
@@ -79,7 +77,7 @@ Beispielsweise kann Taktik A sowohl zu Campaign X als auch zu Campaign Y gehöre
 
 Wenn Sie Hierarchien zwischen Datensatztypen erstellen, generieren diese Breadcrumbs für Datensätze, die zu diesen Datensatztypen gehören.
 
-Wenn Sie beispielsweise eine Hierarchie erstellen und Kampagnen mit Taktiken, dann mit Programmen und schließlich mit Projekten verbinden und zu einem Datensatz eines der in der Hierarchie verbundenen Typen navigieren, können Sie anzeigen, wo in der Hierarchie der Datensatz platziert wird.
+Wenn Sie beispielsweise eine Hierarchie erstellen und Kampagnen mit Taktiken, dann mit Aktivitäten und schließlich mit Projekten verbinden und zu einem Datensatz eines der in der Hierarchie verbundenen Typen navigieren, können Sie sehen, wo in der Hierarchie der Datensatz platziert wird.
 
 Beachten Sie Folgendes:
 

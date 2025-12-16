@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1465'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
+   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Weitere Informationen zu Adobe GenStudio for Performance Marketing finden Sie im
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,10 +249,13 @@ CAN YOU DO THIS??
 
    Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 
-   <!--
    >[!NOTE]
    >
-   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+   >Die folgenden Freigabebeschränkungen bestehen:
+   >
+   >* Sie können GenStudio-Benutzende nicht aus dem GenStudio-Arbeitsbereich entfernen, nachdem Sie diesen Arbeitsbereich für sie freigegeben haben.
+   >* Wenn ein(e) Benutzende(r) über Berechtigungen in GenStudio verfügt, kann sein/ihr Zugriff nicht in In Workfront Planning anzeigen geändert werden. Ihnen müssen mindestens die Beitragsberechtigungen für den GenStudio-Arbeitsbereich in Planning erteilt werden.
+   >* Sie können geerbte Berechtigungen für GenStudio-Datensatztypen im GenStudio Workspace nicht deaktivieren.
 
 1. Klicken Sie auf eine der Karten des Datensatztyps, um Datensätze für diesen Typ anzuzeigen.
 
@@ -353,11 +356,11 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
 
 1. Klicken Sie auf das Symbol &quot;+&quot; in der oberen rechten Ecke der Tabellenansicht, um Folgendes zu erstellen:
 
-   * Datensatzfelder
+   * Felder
 
      Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md)
 
-   * Verbindungen aufzeichnen
+   * Verbindungen
 
      Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 
@@ -369,6 +372,7 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
 
      >[!NOTE]
      >
+     >* Sie können weitere Felder nur hinzufügen, wenn Sie über Verwaltungsberechtigungen in GenStudio verfügen.
      >* In Workfront Planning erstellte Felder sind in der Listenansicht in GenStudio nicht sichtbar.
      >
      >* Sie können einen beliebigen GenStudio-Datensatztyp mit dem GenStudio-Datensatztyp von Brands verbinden.
@@ -386,5 +390,6 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
 
    >[!NOTE]
    >
-   >Nur wenn Sie über Verwaltungsberechtigungen in GenStudio verfügen, können Sie die Konfiguration eines Felds bearbeiten und weitere Felder hinzufügen.
+   >* Sie können die Konfiguration eines GenStudio-Felds nur bearbeiten, wenn Sie über Verwaltungsberechtigungen in GenStudio verfügen.
+   >* Ein GenStudio-Feld kann nicht gelöscht werden.
 

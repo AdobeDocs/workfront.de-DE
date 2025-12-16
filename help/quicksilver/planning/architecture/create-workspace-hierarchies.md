@@ -4,9 +4,9 @@ description: Als Workspace-Manager können Sie in Adobe Workfront Planning mehre
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen den Datensatztypen erstellen.
 
-Nachdem Sie Datensatztypen in einem Arbeitsbereich verbunden und eine Hierarchie erstellt haben, werden Datensatztypen miteinander verbunden, wobei ein Datensatztyp als übergeordneter Datensatz und bis zu 6 andere Datensatztypen als untergeordnete Datensätze konfiguriert sind. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie eine Hierarchie erstellen, die diese Verbindungen organisiert. Hierarchien organisieren Datensatztypen in hierarchischen Beziehungen und können bis zu vier Ebenen von Objekttypen enthalten.
+
+Wenn noch keine Verbindung zwischen zwei Datensatztypen besteht, kann sie beim Einrichten der Hierarchie erstellt werden. Nach der Definition richtet die Hierarchie einen strukturierten Pfad über verwandte Datensatztypen hinweg im Arbeitsbereich ein.
 
 Hierarchien generieren Breadcrumbs für die Datensatztypen und Datensätze, <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> in ihren Kopfzeilen angezeigt werden. Auf diese Weise wissen die Benutzer in jeder Phase ihres Workflows, wo sie sich in der Hierarchie befinden.
 
@@ -87,8 +90,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Workspace-Namen und klicken Sie dann auf **Einstellungen**.
 Der **Hierarchien** Abschnitt wird standardmäßig geöffnet.
 1. Klicken Sie **Neue**) in der oberen rechten Ecke der Seite **Hierarchien**.
-1. Klicken Sie **Objekt hinzufügen** und wählen Sie ein Objekt aus dem Dropdown-Menü aus. Dies wird das übergeordnete Objekt in Ihrer Hierarchie sein.
-Sie können einen Datensatztyp aus dem aktuellen Arbeitsbereich oder ein Projekt aus Workfront auswählen.
+1. Klicken Sie **Objekt hinzufügen** und wählen Sie ein Objekt aus dem Dropdown-Menü aus. Dies wird das erste übergeordnete Objekt in Ihrer Hierarchie sein.
+Das erste übergeordnete Element kann nur vom Typ Planungsdatensatz sein. Workfront-Projekte können nicht als übergeordnete Elemente anderer Objekttypen in einer Hierarchie ausgewählt werden.
 1. Klicken Sie **Objekt hinzufügen**, um ein zweites Objekt hinzuzufügen, das das erste untergeordnete Objekt in Ihrer Hierarchie ist, und wählen Sie dann im Dropdown-Menü ein anderes Objekt aus.
    ![Neues Hierarchiefeld ohne Feld ausgewählt](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Klicken Sie **Verbundenes Feld auswählen**, um anzugeben, welches Feld die beiden Objekte verbindet.
