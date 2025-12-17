@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 0%
+source-wordcount: '1945'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -53,7 +53,7 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Jedes Workfront-Paket und jedes Planungspaket</p>
-Oder
+ODER
 <p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
    </td> </tr>
@@ -61,7 +61,7 @@ Oder
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Externe, Mitwirkende, Light- oder Standardlizenz</p> 
+   <td><p>Beliebig</p> 
   </td> 
   </tr> 
   <tr> 
