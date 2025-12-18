@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Arbeitsbereiche bearbeiten
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -48,7 +48,7 @@ Alle Änderungen, die Sie an einem Arbeitsbereich vornehmen, sind für alle sich
    <td> 
 <ul> 
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -125,22 +125,24 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 </tbody> 
 </table> -->
 
-
 ## Bearbeiten eines Arbeitsbereichs
 
 {{step1-to-planning}}
 
-1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Arbeitsbereiche, an denen ich**, um auf von Ihnen erstellte Arbeitsbereiche zuzugreifen, oder auf **Andere Arbeitsbereiche**, um auf Arbeitsbereiche zuzugreifen, die von anderen für Sie freigegeben wurden.
+1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Optionen:
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
+   * **Workspaces I&#39;m on**, um auf von Ihnen erstellte Workspaces zuzugreifen
+   * **Andere Arbeitsbereiche**, um auf Arbeitsbereiche zuzugreifen, die von anderen für Sie freigegeben wurden
+oder
+     <span class="preview">**Alle Arbeitsbereiche**, um auf für Sie freigegebene Arbeitsbereiche oder von Ihnen erstellte Arbeitsbereiche zuzugreifen</span>
 
 1. (Optional) Klicken Sie auf **Alle anzeigen**, um zusätzliche Arbeitsbereiche anzuzeigen. Der **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Arbeitsbereichskarten haben.
 1. (Optional) Klicken Sie auf **Weniger anzeigen**, um die Anzahl der Arbeitsbereiche zu begrenzen, die auf dem Bildschirm angezeigt werden.
 1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:
 
    * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte
-oder <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
-   * Klicken Sie auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
+oder
+   * <span class="preview"> Klicken Sie auf das Symbol **Suche** ![Suchsymbol](assets/search-icon.png) oben rechts auf der Seite „Arbeitsbereiche“, um nach einem Arbeitsbereich anhand des Namens zu suchen, </span> auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen. Klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
 1. Klicken Sie auf **Bearbeiten**.
 
    Das **Arbeitsbereich bearbeiten** wird angezeigt.

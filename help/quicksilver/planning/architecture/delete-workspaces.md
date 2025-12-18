@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # Arbeitsbereiche löschen
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -46,7 +46,7 @@ Es wird empfohlen, einige oder alle Datensatztypen, Datensätze, Felder und Ansi
    <td> 
 <ul> 
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -141,8 +141,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu löschen:
 
    * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte
-oder <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * Klicken Sie auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
+oder
+   * <span class="preview"> Klicken Sie auf das Symbol **Suche** ![Suchsymbol](assets/search-icon.png) oben rechts auf der Seite „Arbeitsbereiche“, um nach einem Arbeitsbereich anhand des Namens zu suchen, </span> auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen. Klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
 1. Klicken Sie auf **Löschen**.
 
    ![Arbeitsbereich-Bestätigung dauerhaft löschen](assets/permanently-delete-workspace-confirmation.png)
@@ -150,3 +150,5 @@ oder <!--Add this to the bullet below: <span class="preview">Search for a worksp
 1. Geben Sie &quot;**delete**&quot; in das bereitgestellte Feld ein und klicken Sie dann auf **Permanent delete**. Hierbei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der Arbeitsbereich wurde gelöscht und kann nicht wiederhergestellt werden. Alle Datensatztypen, Datensätze, Felder und Ansichten, die mit ihnen verknüpft sind, werden ebenfalls gelöscht. <!--ensure this is right at or before GA-->
+
+

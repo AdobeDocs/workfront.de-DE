@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 1%
+source-wordcount: '1267'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ Beachten Sie beim Verbinden und Erstellen von Workfront-Objekten mit Workfront-P
 
    * Die Tabellenansicht eines Datensatztyps
    * Der Detailbereich eines Datensatzes im Verbindungsfeld
-   * Die Seite „Verbundener Datensatz“ eines Datensatzes im Bereich Details
+   * Die verbundene Datensatzseite eines Datensatzes
 
 * Sie können Portfolios und Programme aus den folgenden Bereichen von Workfront Planning erstellen:
 
@@ -185,7 +185,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Projekte oder Portfolios h
 
 * Datensatztypen, die mit Workfront-Projekten, -Portfolios oder -Programmen verbunden sind. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Datensätze für die mit Workfront-Objekten verbundenen Datensatztypen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 ## Erstellen Sie Projekte, während Sie sie mit Datensätzen aus Workfront Planning verbinden
 
@@ -248,7 +248,7 @@ So erstellen Sie Portfolios, während Sie sie mit Planungsdatensätzen verbinden
 
 1. (Bedingt) Klicken Sie auf **Portfolio hinzufügen**
 
-   Oder
+   ODER
 
    Geben Sie den Namen eines Portfolios ein und klicken Sie auf **Portfolio hinzufügen** wenn Sie es nicht finden können. Auf die Schaltfläche Hinzufügen folgt der von Ihnen eingegebene Portfolioname.
 
@@ -268,7 +268,7 @@ So erstellen Sie Programme, während Sie sie aus Planungsdatensätzen verbinden:
 
 1. Klicken Sie **Programm hinzufügen**
 
-   Oder
+   ODER
 
    Geben Sie den Namen eines Programms ein und klicken Sie auf **Programm hinzufügen**, wenn Sie es nicht finden können. Auf die Schaltfläche Hinzufügen folgt der von Ihnen eingegebene Programmname.
 
