@@ -6,10 +6,10 @@ description: Sie können gesendete Anfragen oder Anfrageentwürfe löschen.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 3%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -74,7 +74,7 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder im Widget Meine Anfr
 * Workfront Planning Workspace-Administratoren können <!--and drafts--> im Planning Workspace löschen, den sie verwalten.
 * Benutzer können von ihnen gesendete Anfragen <!--and drafts--> löschen.
 
-So löschen Sie eine Anfrage oder einen Entwurf in der neuen anfragenden -Version:
+### Löschen einer Anforderung aus dem Dreipunkt-Menü
 
 1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
 
@@ -92,7 +92,7 @@ So löschen Sie eine Anfrage oder einen Entwurf in der neuen anfragenden -Versio
 
 1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Namen der Anfrage <!--or draft--> anschließend auf **Löschen**.
 
-   Oder
+   ODER
 
    Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und dann auf **Löschen**.
 
@@ -103,6 +103,24 @@ So löschen Sie eine Anfrage oder einen Entwurf in der neuen anfragenden -Versio
 1. Klicken Sie im daraufhin angezeigten Dialogfeld auf **Löschen**.
 
    Die Anfrage <!--or draft--> wird gelöscht.
+
+### Massenlöschanfragen
+
+1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
+
+1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
+
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+   1. Suchen Sie das Widget Meine Anfragen .
+
+      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Klicken Sie in der Anfragenliste oder im Widget Meine Anfragen auf das Feld links neben jeder Anfrage, die Sie löschen möchten.
+1. Klicken Sie in der blauen Leiste unten auf der Seite auf **Löschen**.
+
+   >[!NOTE]
+   >
+   >Wenn die Option Löschen in der blauen Leiste nicht sichtbar ist, haben Sie nicht die Berechtigung, eine oder mehrere der ausgewählten Anfragen zu löschen.
 
 </div>
 
