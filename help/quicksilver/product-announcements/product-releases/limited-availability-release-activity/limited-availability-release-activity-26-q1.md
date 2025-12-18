@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ Dieser Abschnitt enthält die Versionshinweise für neue Funktionen.
 
 Sie können jetzt prozentuale Änderungen auf einen oder mehrere Abrechnungssätze für Aufgabengebiete innerhalb einer Tarifkarte anwenden. Anstatt jeden Tarif einzeln manuell zu aktualisieren, können Sie Änderungen in einem einzigen Vorgang auf alle ausgewählten Tarife anwenden.
 
+### KPI-Einschränkungen bei der erweiterten Suche
+
+>[!NOTE]
+>
+>Produktionsveröffentlichungsdatum: 18. Dezember 2025
+
+Um die Benutzerfreundlichkeit der erweiterten Suche in erweiterten Zuweisungen und Personalplänen zu verbessern, ist die Liste der KPIs, die Sie in den Tabellenspalten anzeigen können, jetzt begrenzt. Wenn Sie nur die Schlüsselmetriken anzeigen, können Sie Informationen schneller finden.
+
+* Bei der erweiterten Suche nach Zuweisungen ist der KPI **Verfügbare Kapazität** verfügbar. Diese Metrik stellt die Basis-Gesamtkapazität der Benutzer dar.
+* Bei der erweiterten Suche für den Personalplan steht der KPI **Verbleibende**-Kapazität“ zur Verfügung. Diese Metrik gibt an, wie viel Kapazität nach der Zuordnung noch verfügbar ist.
+
 ## Wartungs-Updates für Funktionen mit begrenzter Verfügbarkeit
 
 In diesem Abschnitt werden die Probleme beschrieben, die in den wöchentlichen Workfront-Updates für Funktionen mit eingeschränkter Verfügbarkeit behoben wurden.
@@ -56,13 +67,13 @@ Der KPI Geplante Stunden im Bildschirm Erweiterte Zuweisungen kann nicht mehr be
 
 Das Feld **Wechselkursdatum** im Bereich Projektdetails > Finanzen ist jetzt ausgeblendet, wenn das Kontrollkästchen **Datumswirksame Wechselkurse im System verwenden** nicht aktiviert ist. Zuvor wurde beim Bearbeiten eines Projekts das Datumsfeld in den Projektdetails angezeigt, auch wenn keine datumswirksamen Wechselkurse aktiviert waren.
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
