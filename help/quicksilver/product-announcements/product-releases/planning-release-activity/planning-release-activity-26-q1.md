@@ -31,7 +31,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten auf der Seite „Verbundene Projektdatensätze“ freizugeben. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [ unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Platzhalter für aktuelle Benutzer jetzt in den Filtern für die Projektansicht verfügbar
 
