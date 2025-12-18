@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -97,17 +97,22 @@ Genehmigende Personen erhalten die folgenden Benachrichtigungen über eine Anfra
 >
 >Damit Benutzerinnen und Benutzer E-Mail- und In-App-Benachrichtigungen empfangen können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.
 
-So validieren Sie eine Anfrage:
+Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder <span class="preview"> Widget Meine Genehmigungen auf der Startseite zu erstellen.</span>
+
+* [Genehmigen einer Anforderung aus der Anforderung in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Genehmigen einer Anfrage über das Widget Meine Genehmigungen auf der Startseite](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Genehmigen einer Anforderung aus der Anforderung in Workfront Planning
 
 1. (Bedingt) Wenn Sie das veraltete anfordernde Erlebnis in Workfront verwenden, öffnen Sie die Anfrage, indem Sie einen der folgenden Schritte ausführen:
 
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **&#x200B;**&#x200B;Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
+   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **** Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
 
      >[!TIP]
      >
      >Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
 
-   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) &#x200B;](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
+   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) ](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
    * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
 
    Die Anfrageseite wird im schreibgeschützten Modus geöffnet.
@@ -128,3 +133,31 @@ So validieren Sie eine Anfrage:
    * **Abgelehnt**: Die Anfrage wird abgelehnt.
 
    Die Anfrage verbleibt auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Anfragen in Workfront.
+
+<div class="preview">
+
+### Genehmigen einer Anfrage über das Widget Meine Genehmigungen auf der Startseite
+
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+
+   ODER
+
+   Klicken Sie auf [!UICONTROL Startseite]-Symbol ![Startseite](/help/_includes/assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+
+1. Suchen Sie das Objekt, das Sie genehmigen oder ablehnen möchten.
+
+1. (Optional) Fügen Sie einen Kommentar hinzu, indem Sie auf den Dropdown-Pfeil neben Genehmigen oder Ablehnen klicken, die Anmerkung eingeben und auf Hinzufügen klicken.
+
+1. Wählen Sie eine der folgenden Optionen:
+
+   * **Genehmigen**: Dadurch wird die Anfrage genehmigt. Ein Datensatz wird sofort für den mit dem Antragsformular verknüpften Datensatztyp erstellt, nachdem alle Genehmiger den Antrag genehmigt haben.
+   * **Ablehnen**: Hiermit wird die Anforderung abgelehnt, selbst wenn Sie die einzige genehmigende Person sind, die sie ablehnt. Für den mit dem Anfrageformular verknüpften Datensatztyp wird kein Datensatz erstellt.
+
+   Der Benutzer, der die Anfrage gesendet hat, erhält eine E-Mail und In-App-Benachrichtigungen, wenn seine Anfrage genehmigt oder abgelehnt wird.
+
+   Der Status der Anfrage ändert sich je nach Genehmigungsentscheidung in Folgendes:
+
+   * **Abgeschlossen**: Die Anfrage wurde genehmigt.
+   * **Abgelehnt**: Die Anfrage wird abgelehnt.
+
+</div>

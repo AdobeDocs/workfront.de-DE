@@ -6,14 +6,16 @@ description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmig
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 2%
 
 ---
 
 # Genehmigungen anzeigen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Genehmigungsprozesse, um im gesamten System für Konsistenz zu sorgen.
 
@@ -23,7 +25,7 @@ Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,13 +59,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Suchen von Validierungen in Adobe Workfront
 
-Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 
 * Im Bereich Home
 
-   * Alle Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Dokumente und Zugriffsberechtigungen, die auf Ihre Genehmigung warten, werden im Widget Meine Genehmigungen im Bereich Startseite angezeigt.
+   * Alle Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Dokumente, Zugriffsanfragen und <span class="preview">Workfront-</span>, die auf Ihre Genehmigung warten, werden im Widget Meine Genehmigungen im Bereich Startseite angezeigt.
    * Genehmigungen, die Sie selbst gesendet haben, werden auch im Widget Meine Genehmigungen im Bereich Startseite angezeigt, wenn Sie die Filteroption Von mir gesendete Genehmigungen auswählen. Weitere Informationen finden Sie im Abschnitt [Prüfungsarbeit, die Sie im Bereich Startseite zur Genehmigung einreichen](#review-work-you-submit-for-approval-in-the-home-area) dieses Artikels.
    * Genehmigungen werden aus dem Widget Meine Genehmigungen im Bereich Startseite entfernt, wenn das zugehörige Projekt, die zugehörige Aufgabe oder das zugehörige Problem als „Gelöst“, „Gesperrt“, „Geschlossen“ oder „Abgebrochen“ gekennzeichnet ist.
 
