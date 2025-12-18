@@ -59,7 +59,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Suchen von Validierungen in Adobe Workfront
 
-Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von ](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 
