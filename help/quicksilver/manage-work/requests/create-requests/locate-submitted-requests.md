@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
 
 # Gesendete Anfragen suchen
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können die folgenden Arten von Anfragen finden, die von Ihnen oder einer anderen Person gesendet oder von Ihnen gestartet, aber nie fertig gesendet wurden. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
@@ -71,11 +72,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Gesendete Anfragen suchen
+## Gesendete Anfragen im Bereich Anfragen suchen
 
 Die Suche nach gesendeten Anfragen unterscheidet sich je nachdem, ob Sie das neue oder das veraltete Anfrageerlebnis verwenden.
 
-### Gesendete Anfragen in der neuen abfragenden Version suchen
+* [Gesendete Anfragen in der neuen anfordernden -Version suchen](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Gesendete Anfragen in der Legacy-Anfrage finden](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### Gesendete Anfragen in der neuen anfordernden -Version suchen
+
+Gesendete Anfragen finden Sie im Bereich Anfragen (der <span class="preview"> Links zu Objekten enthält, die von diesen Anfragen erstellt wurden)</span>
 
 So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 

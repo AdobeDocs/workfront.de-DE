@@ -6,10 +6,10 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 5%
+source-wordcount: '957'
+ht-degree: 4%
 
 ---
 
@@ -76,7 +76,7 @@ Anweisungen finden Sie [Erstellen einer Anfrage](/help/quicksilver/workfront-bas
 
 Sie können eine Anfrage im Widget Meine Anfragen kopieren, bearbeiten und als neue Anfrage senden.
 
-Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
+Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
 
 </div>
 
@@ -152,3 +152,18 @@ So suchen Sie im Widget „Meine Anfragen“ nach bestimmten Anfragen:
    Anfragen, die den Begriff enthalten, sind orange hervorgehoben.
 
 1. (Optional) Um zu den hervorgehobenen Anfragen zu springen, klicken Sie in der Suchleiste auf die Pfeile nach oben oder unten.
+
+<div class="preview">
+
+## Navigieren Sie zu einem durch eine Anfrage erstellten Objekt
+
+Objekte, die durch eine Anfrage erstellt wurden, finden Sie im Widget Meine Anfragen .
+
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
+1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Anfragen**.
+1. Suchen Sie die Anfrage, die das -Objekt erstellt hat.
+1. Klicken Sie auf den Objektnamen in der Spalte **Erstelltes Objekt** für diese Anfrage.
+
+   Die Seite des -Objekts wird geöffnet.
+
+</div>
