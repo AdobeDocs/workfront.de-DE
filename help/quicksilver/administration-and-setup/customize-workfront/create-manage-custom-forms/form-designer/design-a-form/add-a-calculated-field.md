@@ -288,7 +288,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
            >
            ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Zeitangaben in berechneten benutzerdefinierten Feldern durch die koordinierte Weltzeit (UTC) berechnet und gespeichert, nicht durch die Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular, die auf der Grundlage der individuellen Zeitzonen der einzelnen Benutzenden erstellt werden.</div>
 
-        +++
+      +++
 
    1. Klicken Sie in das große Textfeld und dann auf **Ausdrücke** und **Felder**, die Sie Ihrer Berechnung hinzufügen können.
 
