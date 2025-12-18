@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Ansichten im Bereich Anfragen erstellen
+title: Ansichten im Bereich Anfragen erstellen und verwalten
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
-# Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen
+# Ansichten im Bereich Anfragen erstellen und verwalten
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
+
+Ansichten können im Bereich Anfragen von Workfront und im Widget Meine Anfragen auf der Startseite erstellt und verwaltet werden. Ansichtseinstellungen bleiben zwischen dem Anfragebereich und dem Widget erhalten.
+
+>[!IMPORTANT]
+>
+>Diese Funktion ist nur in der neuen anfragenden -Version verfügbar.
 
 ## Zugriffsanforderungen
 
@@ -55,18 +61,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Erstellen Sie eine Ansicht im Bereich Anfragen .
 
-{{step1-to-requests}}
+Sie können eine Ansicht entweder im Bereich Anfragen von Workfront oder im Widget Meine Anfragen auf der Startseite erstellen.
 
-1. (Optional und bedingt) Wählen Sie die Einstellung **Zu neuem Erlebnis wechseln** oben rechts im Bildschirm aus, wenn die folgenden Dinge auf Ihr Unternehmen und Ihre Workfront-Instanz zutreffen:
+1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
 
-   * Ihr Unternehmen hat ein Workfront-Paket erworben
-   * Ihr Unternehmen wurde in das einheitliche Adobe-Erlebnis integriert.
-   * Ihr Administrator hat Ihnen Zugriff auf Workfront Planning gewährt
-   * Sie haben zumindest Anzeigeberechtigungen für einen Workfront Planning-Arbeitsbereich
+1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
 
-   Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+   1. Suchen Sie das Widget Meine Anfragen .
 
-1. Klicken Sie auf das **Ansichten** Dropdown-![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Klicken Sie in der Liste „Anfragen“ oder im Widget „Meine Anfragen **auf das Dropdown**![Anzeigen-](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellten Ansichten.
 
-{{step1-to-requests}}
+1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
 
-1. (Optional und bedingt) Wählen Sie die Einstellung **Zu neuem Erlebnis wechseln** oben rechts im Bildschirm aus, wenn die folgenden Dinge auf Ihr Unternehmen und Ihre Workfront-Instanz zutreffen:
+1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
 
-   * Ihr Unternehmen hat ein Workfront-Paket erworben
-   * Ihr Unternehmen wurde in das einheitliche Adobe-Erlebnis integriert.
-   * Ihr Administrator hat Ihnen Zugriff auf Workfront Planning gewährt
-   * Sie haben zumindest Anzeigeberechtigungen für einen Workfront Planning-Arbeitsbereich
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+   1. Suchen Sie das Widget Meine Anfragen .
 
-   Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)1.
+      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Suchen Sie in der Liste „Anfragen“ oder im Widget „Meine Anfragen“ die Ansicht, die Sie bearbeiten möchten.
 
 1. (Optional) Um eine Ansicht umzubenennen, klicken Sie auf das **Ansichten** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und klicken Sie auf das Dreipunkt-Menü neben der Ansicht, wählen Sie **Umbenennen** aus und geben Sie dann den neuen Namen für die Ansicht ein.
 1. Klicken Sie auf **Ansichten** Dropdown-![Ansichten](assets/view-icon-requests.png) und wählen Sie die Ansicht aus, die Sie bearbeiten möchten.
@@ -132,6 +138,26 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 
 ## Hinzufügen der Ansicht zu einer Layout-Vorlage.
 
-Ein Workfront-Administrator kann die neue Ansicht Layoutvorlagen hinzufügen.
+Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
 Anweisungen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Ansicht freigeben
+
+Sie können Ansichten, die Sie erstellen, für andere Benutzer, Teams oder Gruppen freigeben.
+
+1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
+
+1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
+
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+   1. Suchen Sie das Widget Meine Anfragen .
+
+      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Suchen Sie in der Anfragenliste oder im Widget Meine Anfragen die Ansicht, die Sie freigeben möchten.
+1. Bewegen Sie den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie dann auf das Dreipunkt-Menü, wenn es angezeigt wird.
+1. Wählen Sie **Freigeben** aus.
+1. Geben Sie in dem daraufhin angezeigten Dialogfeld die Namen der Benutzer, Teams oder Gruppen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus.
+1. Klicken Sie auf **Speichern**.
+

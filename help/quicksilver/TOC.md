@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 95ddfe6139d225527ba5539903ba8ef100589a75
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '13623'
+source-wordcount: '13625'
 ht-degree: 2%
 
 ---
@@ -1497,8 +1497,8 @@ ht-degree: 2%
          * [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](manage-work/requests/create-requests/delete-request-draft.md)
          * [Anforderungen kopieren und senden](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Anfrage aus vorherigen Daten automatisch ausfüllen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+         * [Ansichten im Bereich Anfragen erstellen und verwalten](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
          * [Verwenden von Form Fill powered by AI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-         * [Ansichten im Bereich Anfragen erstellen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Arbeit delegieren {#delegate-work}
       * [Arbeit delegieren](manage-work/delegate-work/delegate-work.md)
       * [Delegieren von Aufgaben und Problemen - Übersicht](manage-work/delegate-work/delegate-work-overview.md)
@@ -2204,7 +2204,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

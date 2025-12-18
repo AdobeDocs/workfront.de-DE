@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '2607'
+source-wordcount: '2546'
 ht-degree: 2%
 
 ---
@@ -125,14 +125,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
 {{step1-to-requests}}
 
-1. (Optional und bedingt) Wählen Sie die Einstellung **Zu neuem Erlebnis wechseln** oben rechts im Bildschirm aus, wenn die folgenden Dinge auf Ihr Unternehmen und Ihre Workfront-Instanz zutreffen:
-
-   * Ihr Unternehmen hat ein Workfront-Paket erworben
-   * Ihr Unternehmen wurde in das einheitliche Adobe-Erlebnis integriert.
-   * Ihr Administrator hat Ihnen Zugriff auf Workfront Planning gewährt
-   * Sie haben zumindest Anzeigeberechtigungen für einen Workfront Planning-Arbeitsbereich
-
-   Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+1. (Optional und bedingt) Wählen Sie oben rechts **Bildschirm die Einstellung** Zu neuem Erlebnis wechseln) aus.
 
 1. Klicken **oben** auf der Seite auf „Neue Anfrage“.
 
@@ -329,7 +322,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
    * Klicken Sie **Senden**, wenn Sie bereit sind, die Anfrage zu senden. Die Anfrage wird im Abschnitt Gesendet gespeichert. Abhängig von der Routing-Regel der Anfrage-Warteschlange kann diese Anfrage an ein anderes Projekt als das als Anfrage-Warteschlange bezeichnete weitergeleitet werden. Weitere Informationen zu Routingregeln finden Sie unter [Routingregeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-     Oder
+     ODER
 
      Klicken Sie auf **Schließen**, wenn Sie noch nicht bereit sind, ihn zu übermitteln, und Sie möglicherweise später zurückkehren und ihn abschließen. Ihre Anfrage wird im Abschnitt „Entwürfe“ gespeichert und steht Ihnen beim nächsten Senden einer Anfrage für diese Anfrage-Warteschlange zur Verfügung.
 
