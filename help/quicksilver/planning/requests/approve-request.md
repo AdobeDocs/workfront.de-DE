@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -106,13 +106,13 @@ Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder <spa
 
 1. (Bedingt) Wenn Sie das veraltete anfordernde Erlebnis in Workfront verwenden, öffnen Sie die Anfrage, indem Sie einen der folgenden Schritte ausführen:
 
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **&#x200B;**&#x200B;Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
+   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **** Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
 
      >[!TIP]
      >
      >Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
 
-   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) &#x200B;](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
+   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) ](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
    * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
 
    Die Anfrageseite wird im schreibgeschützten Modus geöffnet.
@@ -142,7 +142,7 @@ Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder <spa
 
    ODER
 
-   Klicken Sie auf [!UICONTROL Startseite]-Symbol ![Startseite](/help/_includes/assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+   Klicken Sie auf [!UICONTROL Startseite]-Symbol ![Startseite](/help/_includes/assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront und suchen Sie das Widget Meine Genehmigungen .
 
 1. Suchen Sie das Objekt, das Sie genehmigen oder ablehnen möchten.
 

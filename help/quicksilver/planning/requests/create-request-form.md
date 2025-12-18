@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Jedes Workfront-Paket und jedes Planungspaket</p>
-Oder
+ODER
 <p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
    </td> </tr>
@@ -166,12 +166,16 @@ Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatzt
 Formulardetails sind in Registerkarten unterteilt.
 
 * Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
-* Auf **Registerkarte**&#x200B;Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
+* Auf **Registerkarte**Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Einrichten von Formulardetails
 
 1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
+
+   ODER
+
+   Suchen Sie das Anfrageformular in der Liste Anfrageformulare , klicken Sie auf das Feld neben dem Formularnamen und klicken Sie **Formular bearbeiten** in der blauen Leiste am unteren Bildschirmrand.
 
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 
@@ -195,8 +199,6 @@ Formulardetails sind in Registerkarten unterteilt.
      Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
 
 1. (Optional) Bewegen Sie den Mauszeiger über die Felder im Formular, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **x**, um sie zu entfernen. Sie werden der Registerkarte **Felder** links neben dem Formular hinzugefügt.
-
-   Entfernen Sie beispielsweise das Feld **Betreff**, da dies in Workfront Planning nicht angezeigt wird. <!--remove this example if this becomes visible in Planning?-->
 
 1. (Optional) Gehen Sie wie **vor, um den Abschnitt** Standard“ aus dem Formular zu entfernen:
 
@@ -235,14 +237,13 @@ Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlege
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. (Optional) Klicken Sie auf die **Konfiguration** und fügen Sie dann mindestens einen Benutzer oder ein Team zum Feld **Genehmiger** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
+1. (Optional) Wenn Sie genehmigende Personen hinzufügen möchten, klicken Sie auf die Registerkarte **Konfiguration** und fügen Sie dann mindestens einen Benutzer oder ein Team zum Feld **genehmigende Personen** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
 
    ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen.
-   * Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen die Anfrage genehmigen, bevor Workfront Planning einen Datensatz erstellt.
    * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Anfragen in Workfront.
    * Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
    * Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
@@ -300,7 +301,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
