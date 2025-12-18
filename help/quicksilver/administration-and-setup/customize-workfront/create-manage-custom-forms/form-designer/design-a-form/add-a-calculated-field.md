@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 0%
+source-wordcount: '2506'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,6 +107,10 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
    ![Feldbibliothek](assets/field-library.png)
 
 1. Verwenden Sie das Suchfeld oder erweitern Sie den Abschnitt **Berechnet**, um das gewünschte berechnete Feld zu finden, und ziehen Sie das Feld dann an die Stelle, an der es im benutzerdefinierten Formular angezeigt werden soll.
+
+1. <span class="preview">(Bedingt) Klicken Sie auf **Auf Konflikte prüfen**, um alle Objekte zu überprüfen, die von einer Änderung der Formel in diesem berechneten Feld betroffen sein könnten.</span>
+
+   <span class="preview">Wenn zwei oder mehr Formulare, die dasselbe berechnete Feld enthalten, an ein Objekt angehängt werden, müssen die Formeln in allen Formularen identisch sein. Das Bearbeiten der Formel ist nicht zulässig, wenn die Änderung einen Konflikt verursachen könnte.</span>
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder hinzuzufügen.
 
@@ -284,7 +288,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
            >
            ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Zeitangaben in berechneten benutzerdefinierten Feldern durch die koordinierte Weltzeit (UTC) berechnet und gespeichert, nicht durch die Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular, die auf der Grundlage der individuellen Zeitzonen der einzelnen Benutzenden erstellt werden.</div>
 
-      +++
+        +++
 
    1. Klicken Sie in das große Textfeld und dann auf **Ausdrücke** und **Felder**, die Sie Ihrer Berechnung hinzufügen können.
 
