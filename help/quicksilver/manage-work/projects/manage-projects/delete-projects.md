@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 2%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können ein Projekt in einer Projektliste oder auf Projektebene löschen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,7 +167,7 @@ Sie können Projekte aus einer Projektliste löschen.
 ## Löschen eines Projekts auf Projektebene
 
 1. Wechseln Sie zu dem Projekt, das Sie löschen möchten.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
 
    ![Mehr Menü erweitert](assets/more-icon-expanded-delete-project-highlighted.png)
 
@@ -175,6 +175,34 @@ Sie können Projekte aus einer Projektliste löschen.
 
    Das Projekt wird gelöscht und für 30 Tage im Papierkorb gespeichert. Ihr Workfront-Administrator kann sie während dieses Zeitraums aus dem Papierkorb wiederherstellen.
 
+## Löschen eines Projekts von der Seite „Verbundene Datensätze“ eines Workfront Planning-Datensatzes
+
+>[!NOTE]
+>
+>Die Informationen in diesem Abschnitt beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>
+>Eine Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Sie müssen über Folgendes verfügen, bevor Sie auf Projekte in einer Workfront Planning-Seite mit verbundenen Datensätzen zugreifen und sie löschen können:
+
+* Planen von Datensatztypen im Zusammenhang mit Workfront-Projekten. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Planungsunterlagen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+* Eine Seite mit verbundenen Datensätzen, auf der mit einem Planungsdatensatz verbundene Projekte angezeigt werden. Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+So löschen Sie einen Datensatz aus einer verbundenen Datensatzseite:
+
+1. Bewegen Sie auf der Seite „Verbundene Datensätze“, auf der die mit einem Datensatz verbundenen Projekte angezeigt werden, den Mauszeiger über den Namen eines Projekts und klicken Sie auf das Symbol **Mehr** ![Mehr](assets/more-icon.png)
+
+   ODER
+
+   Ein oder mehrere Projekte in der Liste auswählen. Beachten Sie den blauen Balken am unteren Rand der Projektliste.
+
+1. Klicken Sie **Löschen** und dann **Löschen** zur Bestätigung.
+
+   Die Projekte werden gelöscht und in den Workfront-Papierkorb verschoben.
+
 ## Gelöschte Projekte wiederherstellen
 
-Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[&#x200B; gelöschter Elemente wiederherstellen“ &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[ gelöschter Elemente wiederherstellen“ ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

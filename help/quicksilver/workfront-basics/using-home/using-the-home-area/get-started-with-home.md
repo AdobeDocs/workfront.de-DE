@@ -6,10 +6,10 @@ description: Die Startseite hilft Ihnen bei der Verwaltung Ihrer Arbeit. Sie kö
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 4%
+source-wordcount: '1135'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -70,13 +70,13 @@ Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, s
         Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Dokumentzeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. Dieses Widget kann nur verwendet werden, wenn [Einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiviert ist.
 
 * **Erwähnungen**\
-    <!--In the Production environment, it--> Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite Meine Aktualisierungen . Sie können die Schaltfläche Antworten verwenden, um eine Antwort innerhalb des Widgets zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen an, denen Sie zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, deren Inhaber Sie sind, für die Sie der primäre Kontakt sind oder die Sie erstellt haben - solange die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
+    In der Produktionsumgebung werden aktuelle Kommentar-Threads aus Workfront angezeigt, ähnlich wie auf der Seite Meine Aktualisierungen . Sie können die Schaltfläche Antworten verwenden, um eine Antwort innerhalb des Widgets zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen an, denen Sie zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, deren Inhaber Sie sind, für die Sie der primäre Kontakt sind oder die Sie erstellt haben - solange die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
 
-  <!--<div class="preview">
+  <div class="preview">
 
-    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+  In der Vorschau-Umgebung werden die letzten von Ihnen abgegebenen Kommentare oder Kommentare angezeigt, die von anderen Benutzern in den letzten zwei Wochen hinzugefügt wurden und mit denen Sie getaggt wurden. Sie können die Schaltfläche Antworten verwenden, um eine Antwort innerhalb des Widgets zu erstellen.
 
-    </div>-->
+  </div>
 
 * **Aufgaben**\
     Dieses einzigartige Widget ermöglicht es Ihnen, Elemente zu einer persönlichen Checkliste hinzuzufügen, die Sie frei bearbeiten können. Aufgaben werden als Aufgaben in Ihrem persönlichen Projekt erfasst und verbleiben bis zu zwei Wochen nach Abschluss.

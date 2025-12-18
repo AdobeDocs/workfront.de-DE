@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,12 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 {{step1-to-planning}}
 
-1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Arbeitsbereiche, an denen ich**, um auf von Ihnen erstellte Arbeitsbereiche zuzugreifen, oder auf **Andere Arbeitsbereiche**, um auf Arbeitsbereiche zuzugreifen, die von anderen für Sie freigegeben wurden.
+1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Optionen:
+
+   * **Workspaces I&#39;m on**, um auf von Ihnen erstellte Workspaces zuzugreifen
+   * **Andere Arbeitsbereiche**, um auf Arbeitsbereiche zuzugreifen, die von anderen für Sie freigegeben wurden
+oder
+     <span class="preview">**Alle Arbeitsbereiche**, um auf für Sie freigegebene Arbeitsbereiche oder von Ihnen erstellte Arbeitsbereiche zuzugreifen</span>
 
 1. (Optional) Klicken Sie auf **Alle anzeigen**, um zusätzliche Arbeitsbereiche anzuzeigen. Der **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Arbeitsbereichskarten haben.
 1. (Optional) Klicken Sie auf **Weniger anzeigen**, um die Anzahl der Arbeitsbereiche zu begrenzen, die auf dem Bildschirm angezeigt werden.

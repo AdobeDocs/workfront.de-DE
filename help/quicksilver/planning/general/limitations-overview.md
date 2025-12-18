@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,8 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
 | Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |
 | Anzahl der Absatzfelder für einen Datensatztyp | 20 Absatzfelder |
-| Größe der Datei, die Sie in eine Datensatztyptabelle einfügen können | 1MB |
-| Größe der Datei, die Sie über die API für eine Datensatztyptabelle importieren können | 1,5MB |
+| Größe der Datei, die Sie zum Importieren von Informationen in eine Datensatztyptabelle verwenden können | 1MB |
+| Dateigröße, mit der Sie Informationen in eine Datensatztyptabelle über die API importieren können | 1,5MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
 | CSV-Größe der Excel-Datei, die Sie importieren können, um Datensatztypen zu erstellen | 5MB |
