@@ -4,9 +4,9 @@ description: Berichtsverbesserungen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,39 +17,35 @@ Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebu
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Währungsaktualisierungen in Dashboards der Arbeitsfläche
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+Für Währungsfelder haben wir die folgenden Aktualisierungen vorgenommen:
 
--->
+* Wenn mehrere Währungen in Workfront definiert sind, können Sie jetzt während der Erstellung eine Standardwährung für das Dashboard auswählen.
+
+* Beim Erstellen eines Berichts können Sie ein Währungsfeld sperren. Dadurch wird sichergestellt, dass die Währungsvoreinstellung auf Dashboard-Ebene keine Auswirkungen auf die Anzeige dieser Werte hat.
+
+* Beim Anzeigen eines Dashboards können Benutzer in Workfront zwischen beliebigen definierten Währungen wechseln. Diese Änderungen gelten für das gesamte Dashboard mit Ausnahme gesperrter Währungsfelder.
+
+
+## Schnellsuche nach Tabellenergebnissen in Arbeitsflächen-Dashboards
+
+>[!NOTE]
+>
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
+
+Wir haben eine Schnellsuche zu Tabellenberichten hinzugefügt. Diese Suche funktioniert über alle Seiten hinweg, sodass Sie Daten finden können, auch wenn sie derzeit nicht sichtbar sind.
+
 
 ## Neue Option „Gesamtsumme anzeigen“ für Tortendiagramme
 

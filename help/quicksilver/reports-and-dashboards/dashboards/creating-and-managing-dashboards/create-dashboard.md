@@ -6,10 +6,10 @@ description: Sie können Dashboards erstellen, um schnell auf Informationen in A
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: '549'
+ht-degree: 4%
 
 ---
 
@@ -17,13 +17,16 @@ ht-degree: 2%
 
 <!--Audited: 01/2025-->
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
+
+
 Sie können Dashboards erstellen, um schnell auf Informationen in Adobe Workfront zuzugreifen. Bis zu 25 Berichte, Kalender und externe Seiten können zu Dashboards hinzugefügt werden, die Sie für eine optimale Zusammenarbeit mit anderen freigeben können.
 
 Weitere Informationen zu Dashboards finden Sie unter [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,6 +88,11 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
      <tr>
       <td role="rowheader"><strong>Beschreibung (optional)</strong></td>
       <td>Dies ist eine Beschreibung Ihres Dashboards.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Währung</strong></td>
+      <td><span class="preview">Dies ist der standardmäßige Währungstyp für das Dashboard. <br>
+      <br>Benutzer können beim Filtern des Dashboards zwischen verschiedenen Währungstypen wechseln. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Dashboard nach Währungstyp filtern</a>.</span></td>
      </tr>
     </tbody>
    </table>

@@ -6,20 +6,22 @@ description: Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 2%
 
 ---
 
 # Filtern eines Arbeitsflächen-Dashboards
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
+
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -30,7 +32,7 @@ Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -177,3 +179,22 @@ Alle Benutzer mit Zugriff auf ein Dashboard können eine Dashboard-Eingabeauffor
    ![Bedingung auswählen](assets/prompts-list.png)
 
 1. Klicken Sie auf **Schließen**-Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke, um das Bedienfeld auszublenden.
+
+<span class="preview">
+
+## Dashboard nach Währungstyp filtern
+
+Sie können auf Dashboard-Ebene zwischen verschiedenen Währungstypen wechseln. Berichte, die Währungsfelder enthalten, werden entsprechend dem ausgewählten Währungstyp aktualisiert.
+
+>[!NOTE]
+>
+>Währungsfelder können auf Berichtsebene gesperrt werden. Wenn ein Währungsfeld gesperrt ist, ändert sich der Währungstyp für diesen Bericht nicht, wenn Sie den Währungstyp für das Dashboard ändern.
+
+So ändern Sie den Währungstyp für das Dashboard:
+
+1. Klicken Sie auf das Dropdown-Menü Währung in der oberen rechten Ecke der Detailseite des Dashboards.
+1. Wählen Sie den gewünschten Währungstyp aus der Liste aus.
+
+   ![Währungs-Dropdown ändern](assets/filter-by-currency.png)
+
+</span>
