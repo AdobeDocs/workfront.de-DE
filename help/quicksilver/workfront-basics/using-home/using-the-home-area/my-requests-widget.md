@@ -6,9 +6,9 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '882'
 ht-degree: 5%
 
 ---
@@ -76,7 +76,7 @@ Anweisungen finden Sie [Erstellen einer Anfrage](/help/quicksilver/workfront-bas
 
 Sie können eine Anfrage im Widget Meine Anfragen kopieren, bearbeiten und als neue Anfrage senden.
 
-Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
+Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
 
 </div>
 
@@ -98,6 +98,8 @@ So konfigurieren Sie den Filter im Widget Meine Anfragen :
    * Status
    * Eingegeben von
 
+   <span class="preview">In der Vorschau -Umgebung können Sie auch nach beliebigen benutzerdefinierten Feldern filtern, die als Spalte hinzugefügt wurden      Zur Ansicht.</span>
+
 1. Wählen Sie im nächsten Feld den Operator aus, den Sie für diese Filterbedingung verwenden möchten. Die verfügbaren Operatoren hängen vom gewählten Feld ab.
 1. (Bedingt) Wenn rechts neben dem Operator ein Feld angezeigt wird, wählen Sie den Wert aus, nach dem Sie filtern möchten.
 1. (Optional) Um eine weitere Filterbedingung hinzuzufügen, klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die Schritte 4 bis 6.
@@ -112,7 +114,7 @@ Der Filter wird automatisch gespeichert.
 >* Um nur nach Workfront-Anfragen zu filtern, setzen Sie den Filter auf **Objekttyp** > **Hat beliebige von** > **Probleme**.
 >* Um nur nach Workfront Planning-Anfragen zu filtern, setzen Sie den Filter auf **Objekttyp** > **Hat keine von** > **Probleme**.
 
-## Spalten anpassen
+## Spalten anpassen oder hinzufügen
 
 Sie können auswählen, welche der verfügbaren Spalten im Widget Meine Anfragen angezeigt werden, und ihre Reihenfolge festlegen.
 
@@ -133,6 +135,9 @@ So passen Sie die Spalten im Widget Meine Anfragen an:
 1. Klicken Sie im Widget Meine Anfragen auf **Spalten**.
 1. (Optional) Um die Spalten neu anzuordnen, klicken Sie auf den Ziehgriff ![Ziehgriff](assets/drag-handle.png) der Spalte, die Sie verschieben möchten, und ziehen Sie sie an die gewünschten Positionen. Die Spalte oben in der Liste wird im Widget Meine Anfragen als Spalte ganz links angezeigt.
 1. (Optional) Verwenden Sie den Umschalter, um zu steuern, ob eine Spalte im Widget „Meine Anfragen“ angezeigt wird.
+1. <span class="preview">Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie dem Widget als Spalte hinzufügen möchten.</span>
+
+   <span class="preview">Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.</span>
 
 Spalteneinstellungen werden automatisch gespeichert.
 

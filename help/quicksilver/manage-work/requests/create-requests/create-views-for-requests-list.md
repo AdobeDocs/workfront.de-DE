@@ -5,21 +5,22 @@ title: Ansichten im Bereich Anfragen erstellen
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
 # Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -89,6 +90,21 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
 
 1. (Optional) Um eine Ansicht umzubenennen, klicken Sie auf das **Ansichten** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und klicken Sie auf das Dreipunkt-Menü neben der Ansicht, wählen Sie **Umbenennen** aus und geben Sie dann den neuen Namen für die Ansicht ein.
 1. Klicken Sie auf **Ansichten** Dropdown-![Ansichten](assets/view-icon-requests.png) und wählen Sie die Ansicht aus, die Sie bearbeiten möchten.
+1. <span class="preview">Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie der Ansicht als Spalte hinzufügen möchten.</span>
+
+   <span class="preview">Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.</span>
+
+   >[!TIP]
+   >
+   >Es ist derzeit nicht möglich, Spalten in der Produktionsumgebung hinzuzufügen.
+1. (Optional) Klicken Sie auf **Spalten** und blenden Sie die Spalten in der Anfrageliste aus, anzeigen oder neu anordnen.
+
+   ![Spalten-Feld](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >Es können derzeit keine weiteren Spalten in der Produktionsumgebung hinzugefügt werden.
+
 1. (Optional) Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie auf der Registerkarte „Planung“ anzeigen möchten.
 
    ![Filter in der Registerkarte „Planungsanfragen“ bearbeiten](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
    * **Status**: Der Status der Anfrage.
    * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage von einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
 
+   <span class="preview">In der Vorschau -Umgebung können Sie auch nach beliebigen benutzerdefinierten Feldern filtern, die der Ansicht hinzugefügt wurden.</span>
+
    Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
 Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
 
-1. (Optional) Klicken Sie auf **Spalten** und blenden Sie die Spalten in der Anfrageliste aus, anzeigen oder neu anordnen.
 
-   ![Spalten-Feld](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Es können keine weiteren Spalten hinzugefügt werden.
 
 >[!IMPORTANT]
 >
