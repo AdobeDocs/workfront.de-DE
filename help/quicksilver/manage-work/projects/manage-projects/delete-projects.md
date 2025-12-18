@@ -167,7 +167,7 @@ Sie können Projekte aus einer Projektliste löschen.
 ## Löschen eines Projekts auf Projektebene
 
 1. Wechseln Sie zu dem Projekt, das Sie löschen möchten.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
 
    ![Mehr Menü erweitert](assets/more-icon-expanded-delete-project-highlighted.png)
 
@@ -205,4 +205,4 @@ So löschen Sie einen Datensatz aus einer verbundenen Datensatzseite:
 
 ## Gelöschte Projekte wiederherstellen
 
-Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[ gelöschter Elemente wiederherstellen“ ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[&#x200B; gelöschter Elemente wiederherstellen“ &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

@@ -148,7 +148,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Projektlistenansich
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
