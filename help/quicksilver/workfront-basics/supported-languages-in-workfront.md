@@ -6,9 +6,9 @@ description: Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -106,10 +106,10 @@ Um alle verfügbaren Übersetzungen für die von Ihnen gewählte Sprache anzuzei
 
 Um festzustellen, ob Ihre Organisation in die Adobe Admin Console migriert wurde, überprüfen Sie die URL, die Sie zum Anzeigen von Workfront verwenden.
 
-| URL | Adobe Experience |
-|---|---|
-| (CompanyName).my.workfront.com | Nicht nach Adobe Admin Console migriert |
-| experience.adobe.com | Nach Adobe Admin Console migriert |
+| URL | Adobe Experience | Sprachsteuerung |
+|---|---|---|
+| (CompanyName).my.workfront.com | Nicht nach Adobe Admin Console migriert | [Ändern Sie die Browser-Sprache](#change-the-browser-language) |
+| experience.adobe.com | Nach Adobe Admin Console migriert | [Ändern Sie die Adobe Experience Cloud-Sprache](#change-the-adobe-experience-cloud-language) |
 
 * [Ändern der Browser-Sprache](#change-the-browser-language)
 * [Ändern der Adobe Experience Cloud-Sprache](#change-the-adobe-experience-cloud-language)

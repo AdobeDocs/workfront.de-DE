@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront empfiehlt nicht mehr die Verwendung des `/login`-Endpunkts oder der API-Schlüssel. Verwenden Sie stattdessen eine der folgenden Authentifizierungsmethoden:
+>
+>* Server-Authentifizierung mit JWT
+>* Benutzerauthentifizierung mit OAuth2
+>
+>Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [Erstellen von OAuth2-Programmen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>Anweisungen zur Verwendung der Serverauthentifizierung in Workfront finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>Anweisungen zur Verwendung der Benutzerauthentifizierung in Workfront finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungs-Code-Flusses](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Um Sicherheitslücken in der API zu minimieren, können Adobe Workfront-Admins die API-Schlüssel verwalten, mit denen Anwendungen für einen Benutzerzugriff auf Workfront ermöglicht werden.
 
@@ -35,7 +50,7 @@ Beispiele für Programme, die die Workfront-API nutzen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -74,10 +89,6 @@ Workfront-Administratoren verfügen außerdem über einen eindeutigen API-Schlü
 
 Sie können den API-Schlüssel für Ihr Administrator-Benutzerkonto generieren, zurücksetzen oder entfernen.
 
->[!NOTE]
->
->Sie können auch einen API-Schlüssel über die API generieren. Weitere Informationen finden Sie im Abschnitt [Ereignisabonnement-API](../../../wf-api/general/event-subs-api.md) in [Ereignisabonnement-API](../../../wf-api/general/event-subs-api.md).
-
 {{step-1-to-setup}}
 
 1. Klicken Sie auf **System >** **Kundeninformationen.**
@@ -85,10 +96,10 @@ Sie können den API-Schlüssel für Ihr Administrator-Benutzerkonto generieren, 
 
    So generieren Sie einen API-Schlüssel: Klicken Sie **Abschnitt** API-Schlüsseleinstellungen **auf API-Schlüssel generieren**.
 
-   Oder\
+   ODER\
    Zurücksetzen eines API-Schlüssels: Klicken Sie im Abschnitt **API** Schlüsseleinstellungen“ auf **Zurücksetzen** und dann auf **Zurücksetzen.**
 
-   Oder
+   ODER
 
    So entfernen Sie den API-Schlüssel: Klicken Sie im Abschnitt **API** Schlüsseleinstellungen **auf „Entfernen** und dann auf **Entfernen**.
 

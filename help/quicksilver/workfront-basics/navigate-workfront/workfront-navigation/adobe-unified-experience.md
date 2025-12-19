@@ -6,10 +6,10 @@ description: Der  [!DNL Workfront]  über Adobe Experience Cloud bietet Ihnen ei
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 1%
+source-wordcount: '718'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn sich Ihr Unternehmen im einheitlichen Adobe-Erlebnis befindet, beginnt die 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ Informationen zur Benutzerverwaltung in der Adobe Admin Console finden Sie im Ar
 
 ## Zugriff auf [!DNL Workfront]
 
-Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/aec-view-all-orgs.png)
 
@@ -85,7 +85,7 @@ Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [
 >
 >Bei der ersten Anmeldung bei [!DNL Adobe Experience Cloud] wird für die Organisation standardmäßig die erste Instanz in der alphabetischen Liste verwendet. Bei der nächsten Anmeldung wird für die Organisation standardmäßig das zuletzt besuchte verwendet.
 
-[!DNL Workfront] wird in der Liste der [!DNL Adobe Experience Cloud] Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der [!DNL Experience Cloud]-Startseite auswählen oder den Produktumschalter (![) &#x200B;](assets/main-menu-icon.png), um die Anwendungen jederzeit zu wechseln.
+[!DNL Workfront] wird in der Liste der [!DNL Adobe Experience Cloud] Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der [!DNL Experience Cloud]-Startseite auswählen oder den Produktumschalter (![) ](assets/main-menu-icon.png), um die Anwendungen jederzeit zu wechseln.
 
 ![Wählen Sie [!DNL Workfront] aus, um auf die Anwendung zuzugreifen](assets/aec-product-switcher.png)
 
@@ -108,6 +108,9 @@ Dieses Menü bietet folgende Möglichkeiten:
 
 * Wählen Sie **[!UICONTROL Dunkles Design]** Formatierung für [!DNL Adobe Experience Cloud].
 * Legen Sie **[!UICONTROL Voreinstellungen]** für [!DNL Adobe Experience Cloud] fest, einschließlich der Voreinstellungen für primäre und sekundäre Sprachen.
+  >[!NOTE]
+  >
+  >Ihre Datumseinstellungen basieren auf Ihren primären Spracheinstellungen. Wenn Sie beispielsweise **Englisch (Vereinigte Staaten)**, werden Datumsangaben im Format MM/TT/JJJJ angezeigt, wenn Sie **Englisch (Vereinigtes Königreich)** auswählen, werden Datumsangaben im Format TT/MM/JJJJ angezeigt.
 * Greifen Sie auf Ihr **[!UICONTROL [!DNL Workfront]zu]**. Wenn Sie sich im Profil befinden, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) und wählen Sie **[!UICONTROL Bearbeiten]**. Weitere Informationen zum Profil finden Sie unter [Konfigurieren meiner Einstellungen](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Abmelden]** von Adobe Experience Cloud.
 

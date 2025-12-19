@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL-Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -87,7 +87,7 @@ So passen Sie die Namen der Anfragetypen an:
 1. Klicken Sie **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Status]**.
 
 1. Klicken Sie auf die **[!UICONTROL Probleme]**.
-1. Bewegen Sie oben auf der Registerkarte **[!UICONTROL Probleme]** den Mauszeiger über den Namen eines Anfragetyps und klicken Sie dann auf das **[!UICONTROL Bearbeiten]**-Symbol.
+1. Klicken Sie oben auf der Registerkarte **[!UICONTROL Probleme]** auf das Dropdown-Menü, wählen Sie einen Anfragetyp aus und klicken Sie dann auf das **[!UICONTROL Bearbeiten]**-Symbol.
 
    ![Name des Anforderungstyps bearbeiten](assets/edit-request-type-name-nwe.png)
 
