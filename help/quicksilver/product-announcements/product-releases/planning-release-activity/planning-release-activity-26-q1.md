@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Verbesserungen bei verbundenen Datensätzen und Seiten
+
+>[!NOTE]
+>
+>Vorschau: 19. Dezember 2025
+>Produktionsgeschwindigkeit: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
+
+Um Ihnen bei der Arbeit mit verbundenen Datensatzseiten mehr Flexibilität zu bieten, haben wir die Funktionalität der Ansichten in diesem Bereich von Workfront Planning erweitert. Im Folgenden finden Sie Verbesserungen bei den verbundenen Datensatzseiten eines Datensatzes:
+
+* Sie können der Seite „Verbundene Datensätze“ eines Datensatzes jetzt eine Timeline und eine Kalenderansicht hinzufügen.
+* Sie können jetzt alle Ansichten einer verbundenen Datensatzseite freigeben. Die auf diesen Seiten freigegebenen Ansichten sind systemweit für alle Benutzenden sichtbar, für die Sie sie in einem anderen Bereich von Workfront Planning freigeben. Alle in anderen Bereichen von Planning freigegebenen Ansichten sind auch auf der Seite „Verbundene Datensätze“ für dieselben Benutzer sichtbar, für die sie freigegeben wurden.
+* Wir haben eine Einschränkung hinzugefügt, die besagt, dass pro Datensatz oder Objekttyp nur eine verbundene Datensatzseite zulässig ist. Vor dieser Verbesserung konnten Sie mehrere Seiten für denselben Datensatz oder Objekttyp hinzufügen. Jetzt können Sie mehrere Ansichten für denselben Datensatztyp auf einer verbundenen Datensatzseite verwenden.
+* Wir haben einen **Neue Zeile**-Link am unteren Rand einer Tabellenansicht und eine Schaltfläche **Datensätze verbinden** im oberen rechten Bereich der Seite „Verbundene Datensätze“ hinzugefügt. Vor dieser Verbesserung waren der Link **Neue Zeile** und die Schaltfläche **Datensätze verbinden** nur auf einer projektverbundenen Seite vorhanden.
+
+Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Freigeben von Ansichten auf der Seite „Verbundene Projekte“
 
@@ -116,26 +133,7 @@ An der Hauptseite für Arbeitsbereiche in Workfront Planning wurden folgende Ver
 
 Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## Hinzufügen des Felds Markenverbindung zu Produkten und Rollen im GenStudio Workspace
 
