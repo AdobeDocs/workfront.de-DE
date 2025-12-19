@@ -164,7 +164,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
@@ -406,7 +406,7 @@ So verwalten Sie mehrere Ansichten auf der Seite „Verbundene Datensätze“:
    * **Zeitleiste**. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Kalender**. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Ansicht auf der Seite „Verbundene Datensätze“ und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen: *************&#x200B;Überprüfen Sie, ob alle möglichen Optionen verfügbar sind *********
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Ansicht auf der Seite „Verbundene Datensätze“ und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;Überprüfen Sie, ob alle möglichen Optionen verfügbar sind **&#x200B;**&#x200B;**&#x200B;***
 
    * **Umbenennen**
    * **Freigeben**. Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
