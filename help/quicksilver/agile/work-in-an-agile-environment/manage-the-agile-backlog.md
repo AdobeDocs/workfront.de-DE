@@ -2,23 +2,23 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Verwalten des Agile-Rückstands
-description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der agilen Methodik, die das Team verwendet.
+description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der agilen Methode, die das Team verwendet.
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Verwalten des agilen Rückstands
+# Verwalten des Agile-Rückstands
 
-Die folgenden Arbeitselemente können einem agilen Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der agilen Methodik, die das Team verwendet:
+Die folgenden Arbeitselemente können einem Agile-Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der Agile-Methode, die das Team verwendet:
 
-* **[!UICONTROL Scrum-Agile-]:** Aufgaben und Probleme können dem Agile-Team zugewiesen und dem Rückstand hinzugefügt werden.
-* **[!UICONTROL Kanban-Agile]Teams:** Aufgaben können dem Agile-Team zugewiesen und dem Rückstand hinzugefügt werden. Benutzer können den Rückstand direkt vom Agile-Story-Board anzeigen, wie beschrieben in [[!UICONTROL Hinzufügen des Rückstands] zum Kanban-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Das Team verwendet diesen Rückstand, um seine Arbeitswarteschlange zu priorisieren und zu verwalten.
+* **[!UICONTROL Agile-Teams von Scrum]:** Aufgaben und Probleme können dem Agile-Team zugewiesen und dem Rückstand hinzugefügt werden.
+* **[!UICONTROL Kanban Agile-]:** Aufgaben können dem Agile-Team zugewiesen und zum Rückstand hinzugefügt werden. Benutzer können den Rückstand direkt aus dem Agile-Story-Board anzeigen, wie beschrieben in [[!UICONTROL Hinzufügen des Rückstands] zum Kanban-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Das Team verwendet diesen Rückstand, um seine Arbeitswarteschlange zu priorisieren und zu verwalten.
 
 Aufgaben oder Probleme können dem Team von überall in [!DNL Adobe Workfront] zugewiesen (und dann zum Team-Rückstand hinzugefügt) werden. Beispielsweise kann einem einzelnen Team Arbeitsaufträge aus mehreren Projekten zugewiesen werden.
 
@@ -28,7 +28,7 @@ Aufgaben oder Probleme können dem Team von überall in [!DNL Adobe Workfront] z
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Aufgaben oder Probleme können dem Team von überall in [!DNL Adobe Workfront] z
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -59,19 +59,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Storys im Rückstand erstellen und verwalten
 
 * [Storys neu anordnen](#reorder-stories)
-* [[!UICONTROL Geschichten &#x200B;].](#break-down-stories)
+* [[!UICONTROL Geschichten ].](#break-down-stories)
 * [Storys bearbeiten](#edit-stories)
 
 ### Storys neu anordnen {#reorder-stories}
 
 Mithilfe der Drag-and-Drop-Methode können Sie Storys in der Rückstandsliste neu anordnen.
 
-1. Navigieren Sie zum agilen Auftragsbestand, in dem Sie Storys neu anordnen möchten.
+1. Navigieren Sie zum Agile-Rückstand, in dem Sie Storys neu anordnen möchten.
 1. Wählen Sie **[!UICONTROL Dropdown]** Menü „Ansicht“ die Ansicht **[!UICONTROL Rückstand]** oder eine benutzerdefinierte Ansicht aus, die die Spalte **[!UICONTROL Reihenfolge]** enthält.
 
    >[!NOTE]
    >
-   >Wenn einer Aufgabe oder einem Problem ein agiles Team zugewiesen ist und das Projekt nicht den Status „Aktuell“ aufweist, werden sie bzw. es nicht im Rückstand angezeigt. Sie wirken sich jedoch weiterhin auf die Anzahl der Rückstände in der Spalte Bestellung aus.
+   >Wenn einer Aufgabe oder einem Problem ein Agile-Team zugewiesen ist und das Projekt nicht den Status „Aktuell“ aufweist, werden sie bzw. es nicht im Rückstand angezeigt. Sie wirken sich jedoch weiterhin auf die Anzahl der Rückstände in der Spalte Bestellung aus.
 
 1. Wählen Sie eine oder mehrere Storys aus und ziehen Sie die Storys in die Reihenfolge, in der sie im Auftragsbestand angezeigt werden sollen.
    ![Elemente im Auftragsbestand per Drag-and-Drop verschieben](assets/agile-backlog-drag-and-drop.png)
@@ -105,10 +105,10 @@ Sie können Storys direkt über die Registerkarten [!UICONTROL Storys] oder [!UI
 
 ## Neue Storys im Auftragsbestand erstellen {#create-new-stories-on-the-backlog}
 
-Sie können neue Storys im Rückstand erstellen, indem Sie die Story direkt aus dem Rückstand erstellen oder indem Sie eine vorhandene Aufgabe oder ein vorhandenes Problem einem agilen Team zuweisen.
+Sie können neue Storys im Rückstand erstellen, indem Sie die Story direkt aus dem Rückstand erstellen oder indem Sie eine vorhandene Aufgabe oder ein vorhandenes Problem einem Agile-Team zuweisen.
 
 * [Story aus dem Auftragsbestand erstellen](#create-a-story-from-the-backlog)
-* [Aufgabe oder Problem einem agilen Team zuweisen](#assign-a-task-or-issue-to-an-agile-team)
+* [Zuweisen einer Aufgabe oder eines Problems zu einem Agile-Team](#assign-a-task-or-issue-to-an-agile-team)
 
 ### Story aus dem Auftragsbestand erstellen {#create-a-story-from-the-backlog}
 
@@ -168,11 +168,11 @@ So erstellen Sie eine Story aus dem Auftragsbestand:
 
 1. Klicken Sie **[!UICONTROL Story speichern]**.
 
-### Aufgabe oder Problem einem agilen Team zuweisen {#assign-a-task-or-issue-to-an-agile-team}
+### Zuweisen einer Aufgabe oder eines Problems zu einem Agile-Team {#assign-a-task-or-issue-to-an-agile-team}
 
-Sie können einem agilen Team eine Aufgabe oder ein Problem zuweisen. Nachdem sie zugewiesen wurde, wird die Aufgabe oder das Problem als neue Story im Team-Rückstand angezeigt.
+Sie können einem Agile-Team eine Aufgabe oder ein Problem zuweisen. Nachdem sie zugewiesen wurde, wird die Aufgabe oder das Problem als neue Story im Team-Rückstand angezeigt.
 
-So weisen Sie einem agilen Team eine Aufgabe oder ein Problem zu:
+So weisen Sie einem Agile-Team eine Aufgabe oder ein Problem zu:
 
 1. Wechseln Sie zu dem Projekt, das die Aufgabe enthält, die Sie zuweisen möchten.
 1. Aufgabe oder Problem in der Liste auswählen.
@@ -180,7 +180,7 @@ So weisen Sie einem agilen Team eine Aufgabe oder ein Problem zu:
 1. Klicken Sie **[!UICONTROL Arbeitsaufträge]**.
 1. (Optional) Löschen Sie alle vorhandenen Zugewiesenen.
 1. Klicken Sie **[!UICONTROL Verantwortlichen hinzufügen]**.
-1. Geben Sie den Namen des agilen Teams ein, das der Aufgabe oder dem Problem zugewiesen werden soll, und klicken Sie dann auf den Team-Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie den Namen des Agile-Teams ein, das der Aufgabe oder dem Problem zugewiesen werden soll, und klicken Sie dann auf den Team-Namen, wenn er in der Dropdown-Liste angezeigt wird.
 1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
@@ -192,10 +192,10 @@ Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
 ### Storys aus dem Rückstand in eine Iteration oder Pinnwand verschieben
 
-1. Rufen Sie den Rückstand des agilen Teams auf.
+1. Rufen Sie den Rückstand des Agile-Teams auf.
 1. Wählen Sie die Storys aus, die Sie in eine Iteration oder ein Kanban-Board verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
 Wenn Sie die Story auf ein Kanban[!UICONTROL Board verschieben] wird das [!UICONTROL Story in das Kanban]Board verschieben angezeigt.
-Wenn Sie die Story in eine Iteration verschieben[!UICONTROL &#x200B; wird das Dialogfeld „Story in eine Iteration &#x200B;]&quot; angezeigt.
+Wenn Sie die Story in eine Iteration verschieben[!UICONTROL  wird das Dialogfeld „Story in eine Iteration ]&quot; angezeigt.
    ![Dialogfeld „Story verschieben“](assets/agile-backlog-addtoiteration.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
@@ -210,7 +210,7 @@ Wenn Sie die Story in eine Iteration verschieben[!UICONTROL &#x200B; wird das Di
 
 Wenn Sie entscheiden, dass Ihr Team noch nicht bereit ist, an einer Story zu arbeiten, können Sie die Story in den Rückstand verschieben.
 
-Weitere Informationen finden Sie unter [Verschieben einer agilen Story](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Weitere Informationen finden Sie unter [Eine Agile-Story verschieben](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Stories aus dem Auftragsbestand exportieren {#export-stories-from-the-backlog}
 

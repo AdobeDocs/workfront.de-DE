@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '13631'
 ht-degree: 2%
@@ -1111,9 +1111,9 @@ ht-degree: 2%
          * [Storyinformationen auf dem Scrum-Board anzeigen und bearbeiten](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
    * Arbeiten in einer agilen Umgebung {#work-in-agile-environment}
       * [Arbeiten in einer agilen Umgebung](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-      * [Erstellen einer agilen Story](agile/work-in-an-agile-environment/create-an-agile-story.md)
-      * [Verwalten des agilen Rückstands](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-      * [Eine agile Story verschieben](agile/work-in-an-agile-environment/move-an-agile-story.md)
+      * [Erstellen einer Agile-Story](agile/work-in-an-agile-environment/create-an-agile-story.md)
+      * [Verwalten des Agile-Rückstands](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+      * [Eine Agile-Story verschieben](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Tipps, Tricks und Fehlerbehebung für Agile {#tips-tricks-agile}
       * [Tipps, Tricks und Fehlerbehebung für Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Benutzerdefinierte Status werden nicht auf dem Agile-Story-Board angezeigt](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
@@ -2205,7 +2205,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

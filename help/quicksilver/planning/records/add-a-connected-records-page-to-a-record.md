@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,6 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
       * <span class="preview">Zeitleiste</span>
       * <span class="preview">Kalender</span>
    * Sie können verbundene Workfront-Projekte in der Listenansicht anzeigen.
-
-
-<!--replace the above bullet with this: 
-
-* You can display the objects in a connected records page in the following types of views:
-
-   * Table
-   * <span class="preview">Timeline</span>
-   * <span class="preview">Calendar</span>
-
-* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
-
--->
 
 * Sie können Seiten mit verbundenen Datensätzen für die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
 
@@ -89,7 +76,7 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -132,7 +119,7 @@ Sie müssen zunächst Datensatztypen mit anderen Datensatztypen oder Workfront-P
    >[!TIP]
    >
    ><span class="preview">Sie können für jeden Datensatztyp eine verbundene Datensatzseite erstellen. Wenn ein verbundener Datensatztyp bereits über eine Seite verfügt, wird sie nicht mehr als Option angezeigt.</span>
-
+   >
 
 1. (Optional und bedingt) Wenn mehr als ein verbundenes Feld des Datensatz- oder Objekttyps angezeigt wird, für den Sie die Seite erstellen, klicken Sie in der Liste „Referenzfeld **&quot; auf das Feld, dessen Datensätze oder Objekte Sie auf der Seite „Verbundene Datensätze“ anzeigen**.
 
@@ -149,7 +136,7 @@ Sie müssen zunächst Datensatztypen mit anderen Datensatztypen oder Workfront-P
    >
    >Sie müssen verbundene Datensätze im Tabellen- oder Detailbereich eines Datensatzes hinzufügen, bevor Sie sie auf einer Seite mit verbundenen Datensätzen anzeigen können. Andernfalls ist die Tabelle oder Liste leer.
 
-   Die ersten fünf Felder der verbundenen Datensätze werden standardmäßig angezeigt. <!--No lookup fields display by default.-->
+   Die ersten fünf Felder der verbundenen Datensätze werden standardmäßig angezeigt. Standardmäßig werden keine Suchfelder angezeigt.
 
    ![Tabellenansicht mit Audience-Verbindung unter Kampagnendetails](assets/audience-connected-table-view-under-campaign-details-page.png)
 
@@ -164,10 +151,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
-
-
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensatzerseite“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
@@ -185,6 +169,7 @@ Die mit dem ausgewählten Datensatz verbundenen Datensätze werden in der Tabell
 1. Klicken Sie **unten in** Tabellenansicht auf „Verbinden“, um vorhandene Datensätze zu verbinden. Wählen Sie diese aus dem Verbindungsfeld aus und klicken Sie dann zum Schließen auf eine beliebige Stelle außerhalb des Felds. Die Datensätze werden automatisch der Tabelle hinzugefügt und mit dem ausgewählten Datensatz verbunden. Die Datensätze müssen vorhanden sein, bevor Sie sie hinzufügen können.
 
    Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+
 1. Bearbeiten Sie alle Informationen aus den verbundenen Datensätzen inline in der Tabellenansicht.
 1. Bewegen Sie den Mauszeiger über den Namen eines verbundenen Datensatzes und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png)
 
@@ -204,6 +189,7 @@ Die mit dem ausgewählten Datensatz verbundenen Datensätze werden in der Tabell
      >[!TIP]
      >
      >Sie können mehrere Datensätze oder Objekte auswählen, um sie zu löschen.
+     >
 
 1. Inline-Bearbeitung eines beliebigen Datensatzes in der Tabelle auf der Seite „Verbundene Datensätze“.
 1. Verwenden Sie eines der folgenden Ansichtselemente in der Symbolleiste einer verbundenen Datensatzseite, um die Tabellenansicht zu verwalten:
@@ -220,6 +206,7 @@ Die mit dem ausgewählten Datensatz verbundenen Datensätze werden in der Tabell
    >[!NOTE]
    >
    >Sie können keine Felder in der Tabellenansicht der Registerkarte eines verbundenen Datensatzes erstellen, bearbeiten oder löschen.
+   >
 
 <div class="preview">
 
@@ -233,6 +220,7 @@ Die mit dem ausgewählten Datensatz verbundenen Datensätze werden in der Tabell
 1. Klicken Sie **Datensätze verbinden** oben rechts auf der Seite „Verbundene Datensätze“, um vorhandene Datensätze zu verbinden, wählen Sie sie aus dem Feld „Verbindung“ aus und klicken Sie dann außerhalb des Felds, um sie zu schließen. Die Datensätze werden automatisch der Tabelle hinzugefügt und mit dem ausgewählten Datensatz verbunden. Die Datensätze müssen vorhanden sein, bevor Sie sie hinzufügen können.
 
    Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+
 1. Klicken Sie **Neue Zeile** unten in der Tabelle, um neue Datensätze hinzuzufügen. Die neuen Datensätze werden automatisch mit den ausgewählten Datensätzen verbunden.
 1. Bearbeiten Sie alle Informationen aus den verbundenen Datensätzen inline in der Tabellenansicht.
 1. Bewegen Sie den Mauszeiger über den Namen eines verbundenen Datensatzes und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png)
@@ -269,7 +257,10 @@ Die mit dem ausgewählten Datensatz verbundenen Datensätze werden in der Tabell
    >[!NOTE]
    >
    >Sie können keine Felder in der Tabellenansicht der Registerkarte eines verbundenen Datensatzes erstellen, bearbeiten oder löschen.
+   >
+
 1. Klicken Sie auf das Dropdown-Menü „Ansichten **und klicken Sie auf &quot;** Ansicht“, um eine neue Ansicht für die Seite hinzuzufügen. Gehen Sie dann wie folgt vor:
+
    1. Fügen Sie einen **Ansichtsnamen“**.
    1. Wählen Sie im Bereich **Ansichtstyp** einen der folgenden Ansichtstypen aus:
 
@@ -284,10 +275,11 @@ Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/qui
 
    1. Klicken Sie **Erstellen**.
 Dem Dropdown-Menü „Ansichten“ wird eine neue Ansicht hinzugefügt.
+
    1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer von Ihnen erstellten Ansicht und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
+
       * **Umbenennen**, um einen neuen Namen für die Ansicht hinzuzufügen.
       * **Freigeben**
-
 
         Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
@@ -302,24 +294,6 @@ Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksi
 
 </div>
 
-
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
-         * Portfolios
-         * Programs
-         * Groups
-         * Companies
-      Do any of the following in the table view of the connected records page: 
-      * Click the name of a object. This opens the object's page in a new tab. 
-      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Disconnect** to disconnect the object from the record you are viewing. 
-      TIP      
-      You can select more than one record or object to disconnect them.
-      -->
-
 ### Verwalten der verbundenen Datensatzseite für Workfront-Projekte
 
 Gehen Sie wie folgt vor, wenn Sie eine Seite „Verbundene Datensätze“ für verbundene Workfront-Projekte erstellen:
@@ -333,7 +307,8 @@ Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenans
 1. Inline-Bearbeitung der Projektinformationen in der Tabelle.
 1. Klicken Sie auf **Neue Zeile**, um ein Projekt ohne Vorlage zu erstellen. Das neue Projekt wird automatisch mit dem aktuellen Datensatz verbunden.
 
-   Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
 1. Bewegen Sie den Mauszeiger über einen Projektnamen in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png)
 
    ODER
@@ -346,7 +321,10 @@ Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenans
      >[!TIP]
      >
      >Sie können mehrere Projekte auswählen, um sie zu trennen oder zu löschen.
+     >
+
 1. Klicken Sie auf das Dropdown-Menü „Ansichten **und klicken Sie auf &quot;** Ansicht“, um eine neue Ansicht für die Seite hinzuzufügen. Gehen Sie dann wie folgt vor:
+
    1. Fügen Sie einen **Ansichtsnamen“**.
    1. Wählen Sie **Liste** im Bereich **Ansichtstyp** aus.
    1. Klicken Sie **Erstellen**.
@@ -406,7 +384,7 @@ So verwalten Sie mehrere Ansichten auf der Seite „Verbundene Datensätze“:
    * **Zeitleiste**. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Kalender**. Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Ansicht auf der Seite „Verbundene Datensätze“ und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***&#x200B;Überprüfen Sie, ob alle möglichen Optionen verfügbar sind **&#x200B;**&#x200B;**&#x200B;***
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Ansicht auf der Seite „Verbundene Datensätze“, klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie dann auf eine der folgenden Aktionen:
 
    * **Umbenennen**
    * **Freigeben**. Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
@@ -424,3 +402,20 @@ So verwalten Sie mehrere Ansichten auf der Seite „Verbundene Datensätze“:
      >Das Duplizieren einer Ansicht von Seiten mit verbundenen Datensätzen macht sie in allen anderen Bereichen der Workfront-Planung verfügbar, wenn dieselben Datensatztypen angezeigt werden.
 
 </div>
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      TIP      
+      You can select more than one record or object to disconnect them.
+      -->

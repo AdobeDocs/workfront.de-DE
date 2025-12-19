@@ -7,7 +7,7 @@ description: Sie können die Art der Informationen, die Sie in einer Liste oder 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Überlegungen zu Ansichten
 
@@ -38,7 +38,7 @@ Im Folgenden finden Sie Ansichtstypen, die Sie in Listen oder Berichten in Workf
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Standardansichten</strong></td>
+        <td><strong>Standardansicht</strong></td>
         <td>Sie können sie auf eine beliebige Liste oder einen beliebigen Bericht von Objekten anwenden. Standardansichten sind in hohem Maße anpassbar. Sie können eine Standardansicht anpassen und für andere freigeben. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Erstellen oder Bearbeiten von Ansichten in Adobe Workfront</a>.</td>
     </tr>
     <tr>

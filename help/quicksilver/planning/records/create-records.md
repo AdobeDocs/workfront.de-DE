@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3143'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
    * Klicken Sie **Neuer Datensatz**, wenn Sie für den Arbeitsbereich und den Datensatztyp die Berechtigung Beitragen oder eine höhere Berechtigung haben
 
-     Oder
+     ODER
 
    * Klicken Sie **Datensatz anfordern**, wenn Sie über Anzeigeberechtigungen für den Arbeitsbereich und den Datensatztyp verfügen.
 
@@ -208,7 +208,7 @@ Das Anfrageformular des Datensatztyps wird geöffnet.
 
    * Ein neuer Datensatz wird dem Datensatztyp hinzugefügt, es sei denn, Sie haben sich dafür entschieden, ihn über ein Anfrageformular mit einem Genehmigungsprozess hinzuzufügen. Die Genehmigung muss von allen genehmigenden Personen erteilt werden, bevor der Datensatz erstellt wird.
    * Mehrere Datensätze werden dem Datensatztyp hinzugefügt, wenn Sie Datensätze mithilfe einer CSV- oder Excel-Tabelle hinzugefügt haben.
-   * Eine neue Anfrage wird auf der Registerkarte Planung im Bereich Workfront-Anfragen hinzugefügt, wenn Sie die Anfrage durch Senden eines Anfrageformulars hinzugefügt haben.
+   * Im Bereich Anfragen von Workfront wird eine neue Anfrage hinzugefügt, wenn Sie die Anfrage durch Senden eines Anfrageformulars hinzugefügt haben.
 
 <!-- this is not possible anymore: 
 
@@ -268,9 +268,9 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. Klicken Sie auf das primäre Feld des neuen Datensatzes
 
-   Oder
+   ODER
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -284,7 +284,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. (Bedingt) Fügen Sie beim Hinzufügen von Datensätzen in der Tabelle vor dem Öffnen des Vorschaufelds des Datensatzes weitere Informationen in jeder Zeile hinzu und klicken Sie dann auf der Tastatur auf **Eingabetaste** um die Änderungen zu speichern.
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen des neuen Datensatzes oder auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld &quot;](assets/open-details-icon-in-table-name-field.png)&quot; links neben dem Datensatznamen, um das Vorschaufeld zu öffnen und die Datensatzinformationen im Detailbereich zu bearbeiten.
 
@@ -491,7 +491,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 

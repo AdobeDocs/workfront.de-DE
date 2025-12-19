@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Die Beta-Version 3 2018.1 enthält Verbesserungen für Workfront-Administratoren
 
 **Für alle Benutzer**
 
-* [HTML5 Proofing Viewer-Verbesserungen](#html5-proofing-viewer-improvements)
+* [Verbesserungen am HTML5 Proofing Viewer](#html5-proofing-viewer-improvements)
 * [Proofing-Verbesserungen in Workfront](#proofing-improvements-within-workfront)
 * [Verbesserungen im Home-Bereich](#home-area-improvements) 
 * [Agile-Verbesserungen](#agile-improvements)
@@ -80,7 +80,7 @@ Weitere Informationen zum Wiederherstellen gelöschter Elemente in Workfront fin
 
 Weitere Informationen zu den Funktionen eines Gruppenadministrators finden Sie im Abschnitt „Funktionen von Gruppenadministratoren“ in [Gruppe erstellen](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
-## Verbesserungen am HTML5 Proofing Viewer  {#html5-proofing-viewer-improvements}
+## HTML5 Proofing Viewer-Verbesserungen  {#html5-proofing-viewer-improvements}
 
 * [Vergleichsmodus](#compare-mode)
 * [Filtern Sie die Kommentarliste](#filter-the-comment-list)
@@ -90,7 +90,7 @@ Weitere Informationen zu den Funktionen eines Gruppenadministrators finden Sie i
 
 Sie können jetzt den Vergleichsmodus im HTML5-Proofing-Viewer verwenden, wenn Sie statische und Video-Korrekturabzüge anzeigen. 
 
-Der Vergleichsmodus im HTML5-Proofing Viewer unterscheidet sich vom alten Proofing Viewer folgendermaßen:
+Der Vergleichsmodus im HTML5 Proofing Viewer unterscheidet sich vom alten Proofing Viewer folgendermaßen:
 
 * Beim Starten des Vergleichsmodus wird die neuere Version auf die rechte Seite verschoben, wobei die Version, die Sie vergleichen, auf der linken Seite geöffnet wird.
 
@@ -184,19 +184,19 @@ Weitere Informationen finden Sie unter [Erstellen einer Iteration](../../../../a
 
 ### Probleme im Scrum-Rückstand und im Story Board für ein Agile-Team einschließen {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-Probleme werden jetzt standardmäßig in den Rückstand Ihres agilen Teams aufgenommen, wenn Sie die agile Methode Scrum verwenden (Probleme werden nicht im Rückstand eines agilen Teams angezeigt, wenn Sie die Kanban-Methode verwenden).
+Probleme werden jetzt standardmäßig in den Rückstand Ihres Agile-Teams aufgenommen, wenn Sie die agile Scrum-Methode verwenden (Probleme werden nicht im Rückstand eines Agile-Teams angezeigt, wenn Sie die Kanban-Methode verwenden).
 
 Vor dieser Änderung konnten nur Aufgaben zum Rückstand hinzugefügt werden. Wenn Sie ein Problem hinzufügen möchten, müssen Sie das Problem zunächst in eine Aufgabe konvertieren, bevor es hinzugefügt werden kann.
 
-Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des agilen Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Anwenden von Gruppierungen und Filtern auf den Rückstand eines agilen Teams {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-Die Optionen Gruppierung und Filter sind jetzt im agilen Rückstand verfügbar, sodass Sie Ihren Rückstand nach Gruppierungen organisieren und nach bestimmten Aufgaben und Problemen filtern können.
+Die Gruppierungs- und Filteroptionen sind jetzt im agilen Rückstand verfügbar, sodass Sie Ihren Rückstand nach Gruppierungen organisieren und nach bestimmten Aufgaben und Problemen filtern können.
 
-Vor dieser Änderung konnten Sie Ansichten auf den agilen Rückstand anwenden.
+Vor dieser Änderung konnten Sie Ansichten auf den Agile-Rückstand anwenden.
 
-Weitere Informationen finden Sie unter  [Verwalten des agilen Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Verwalten des agilen Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen finden Sie unter  [Verwalten des Agile-](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Leere Iteration erstellen und später aktualisieren {#create-a-blank-iteration-and-update-it-later}
 

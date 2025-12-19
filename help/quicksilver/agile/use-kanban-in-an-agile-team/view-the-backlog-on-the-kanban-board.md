@@ -6,20 +6,20 @@ description: Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Ka
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 # Rückstand zur Pinnwand [!UICONTROL Kanban] hinzufügen
 
-Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; &#x200B;], damit sie im Rückstand angezeigt werden.
+Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; ], damit sie im Rückstand angezeigt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board an
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -58,4 +58,4 @@ Standardmäßig ist die Spalte [!UICONTROL Auftragsbestand] ausgeblendet. So zei
 >
 >Wenn Sie einem Rückstandselement mehrere Teams hinzufügen, wird die Aufgabe oder das Problem nur im Rückstand des primären Teams angezeigt. Das primäre Team ist das Team, das zuerst zugewiesen wurde.
 
-Weitere Informationen zum Rückstand finden Sie unter [Verwalten des agilen Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen zum Auftragsbestand finden Sie unter [Verwalten des agilen Auftragsbestands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

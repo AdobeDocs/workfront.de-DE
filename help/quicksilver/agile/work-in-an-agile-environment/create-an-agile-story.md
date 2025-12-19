@@ -6,16 +6,16 @@ description: Sie können eine agile Story bei einer Iteration auf verschiedene A
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Erstellen einer agilen Story
+# Erstellen einer Agile-Story
 
-Sie können eine agile Story bei einer Iteration auf verschiedene Arten erstellen. Nachdem Sie eine Agile-Story erstellt haben, können Sie der Story Unteraufgaben hinzufügen.
+Sie können eine Agile-Story bei einer Iteration auf verschiedene Arten erstellen. Nachdem Sie eine Agile-Story erstellt haben, können Sie der Story Unteraufgaben hinzufügen.
 
 Wenn Sie eine Story oder eine Unteraufgabe in einer Iteration hinzufügen, wird der Dauertyp auf [!UICONTROL Einfach] und die Aufgabenbeschränkung auf Feste Datumswerte festgelegt, wobei die Datumswerte innerhalb der Iteration gesperrt sind. Sie können den Dauertyp oder die Aufgabenbeschränkung in einer Iteration nicht ändern. Außerdem muss die Aufgabendauer größer als 0 Minuten sein.
 
@@ -23,7 +23,7 @@ Informationen zum Verwalten der Story, nachdem sie der Iteration hinzugefügt wu
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Informationen zum Verwalten der Story, nachdem sie der Iteration hinzugefügt wu
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -85,7 +85,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Schätzung] (Punkte)</strong></td>
-      <td>Geben Sie den Schätzwert für die Story an. Wenn Ihr agiles Team so konfiguriert ist, dass Geschichten in Punkten geschätzt werden, entspricht standardmäßig 1 Punkt 8 Stunden. Die Schätzungen werden als [!UICONTROL Geplante Stunden] zur Story hinzugefügt.<br>Wenn Sie beispielsweise eine Story als 3 Punkte schätzen, fügt das Standardverhalten der Story 24 [!UICONTROL Geplante Stunden] hinzu.<br>Wenn eine Story Unteraufgaben enthält, denken Sie daran, dass die kombinierten Schätzungen für alle Unteraufgaben die Schätzung der übergeordneten Story bestimmen. Weitere Informationen finden Sie unter <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Hinzufügen von Storys zu einer vorhandenen Iteration</a>.</td>
+      <td>Geben Sie den Schätzwert für die Story an. Wenn Ihr Agile-Team so konfiguriert ist, dass Geschichten in Punkten geschätzt werden, entspricht standardmäßig 1 Punkt 8 Stunden. Die Schätzungen werden als [!UICONTROL Geplante Stunden] zur Story hinzugefügt.<br>Wenn Sie beispielsweise eine Story als 3 Punkte schätzen, fügt das Standardverhalten der Story 24 [!UICONTROL Geplante Stunden] hinzu.<br>Wenn eine Story Unteraufgaben enthält, denken Sie daran, dass die kombinierten Schätzungen für alle Unteraufgaben die Schätzung der übergeordneten Story bestimmen. Weitere Informationen finden Sie unter <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Hinzufügen von Storys zu einer vorhandenen Iteration</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Übergeordnetes Projekt]</strong></td>
@@ -106,13 +106,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Erstellen einer Agile-Story im Auftragsbestand
 
-Aus dem agilen Rückstand können Sie eine agile Story erstellen, wie im Abschnitt [Erstellen neuer Stories im Rückstand](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) im Artikel [[!UICONTROL Verwalten] des agilen Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) beschrieben.
+Sie können eine Agile-Story aus dem Agile-Rückstand erstellen, wie im Abschnitt [Erstellen neuer Stories im Rückstand](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) im Artikel [[!UICONTROL Verwalten] des Agile-Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) beschrieben.
 
-## Aufgabe oder Problem als agile Story hinzufügen
+## Aufgabe oder Problem als Agile-Story hinzufügen
 
 Sie können einer Iteration eine vorhandene Aufgabe oder ein vorhandenes Problem als Story hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Storys zu einer vorhandenen Iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) oder [Hinzufügen von Storys und Problemen vom [!UICONTROL Scrum]-Board](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Erstellen von Teilaufgaben in einer agilen Story
+## Erstellen von Teilaufgaben in einer Agile-Story
 
 Sie können eine Unteraufgabe zu einer Agile-Story erstellen, indem Sie eine der folgenden Methoden verwenden:
 

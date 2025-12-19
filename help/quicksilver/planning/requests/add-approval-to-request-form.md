@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Jedes Workfront-Paket und jedes Planungspaket</p>
-Oder
+ODER
 <p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
 
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
@@ -102,7 +102,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    >
    >* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen die Anfrage genehmigen, bevor Workfront Planning einen Datensatz erstellt.
    >
-   >* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Anfragen in Workfront.
+   >* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
    >
    >* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
    >
@@ -111,7 +111,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. (Optional) Klicken Sie auf **Veröffentlichen** wenn Sie das Anfrageformular noch nie zuvor freigegeben haben
 
-   Oder
+   ODER
 
    Klicken Sie auf **Freigeben**, um das Formular freizugeben, und **Link kopieren**.
 1. (Optional) Nachdem ein(e) Benutzende(r) den von Ihnen freigegebenen Link verwendet und eine Anfrage gesendet hat, sendet Workfront Planning eine In-App-Benachrichtigung über die Genehmigung und eine E-Mail an die genehmigenden Personen.

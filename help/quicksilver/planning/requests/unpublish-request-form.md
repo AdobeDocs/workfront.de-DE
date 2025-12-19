@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Sie können auch die Entitäten ändern, für die Sie ein Anfrageformular freige
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,7 +46,7 @@ Sie können auch die Entitäten ändern, für die Sie ein Anfrageformular freige
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Jedes Workfront-Paket und jedes Planungspaket</p>
-Oder
+ODER
 <p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
    </td> </tr>
@@ -117,7 +117,7 @@ Wenn ein Anfrageformular irrelevant wird und Sie nicht mehr möchten, dass jeman
    Alle mit dem Datensatztyp verknüpften Anforderungsformulare werden in einer Tabellenansicht angezeigt.
 1. Bewegen Sie den Mauszeiger über den Namen eines Anfrageformulars und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben seinem Namen. Klicken Sie dann auf **Veröffentlichung rückgängig machen**
 
-Oder
+ODER
 
 Klicken Sie auf den Namen des Anfrageformulars, um es zu öffnen **und klicken Sie dann oben rechts** Anfrageformular auf „Veröffentlichung rückgängig machen“.
 
@@ -133,4 +133,4 @@ Der **Veröffentlichung aufheben**-Link oder die Schaltfläche ändert sich in *
 
    Alle zuvor über das Anfrageformular hinzugefügten Datensätze verbleiben auf der Seite „Datensatztyp“.
 
-   Alle zuvor hinzugefügten Anfragen verbleiben im Bereich Anfragen von Workfront auf der Registerkarte Planung .
+   Alle zuvor hinzugefügten Anfragen verbleiben im Bereich Anfragen von Workfront.

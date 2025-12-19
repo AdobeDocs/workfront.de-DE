@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -94,29 +94,29 @@ Weitere Informationen finden Sie unter „Anpassen der Startseite“ in „Erste
 
 ## Kanban für Agile  {#kanban-for-agile}
 
-Agile-Teams können jetzt zusätzlich zur bereits unterstützten agilen Scrum-Methodik eine Kanban-Methodik in Workfront verwenden.
+Agile-Teams können jetzt zusätzlich zur bereits unterstützten agilen Scrum-Methode eine Kanban-Methodik in Workfront verwenden.
 
 Die agilen Methoden Scrum und Kanban in Workfront unterscheiden sich wie folgt:
 
 **Vorteile der Verwendung von Kanban in Workfront**
 
-* Zeigt den Rückstand auf dem agilen Kanban-Story-Board an.
+* Zeigt den Rückstand auf dem Kanban-Agile-Story-Board an.
 
   Weitere Informationen finden Sie unter in .
 
-* Konfigurieren Sie Elemente im Rückstand, die automatisch dem agilen Kanban-Story-Board hinzugefügt werden sollen, wenn andere Elemente in einen Status verschoben werden, der mit „Abgeschlossen“ übereinstimmt.
+* Konfigurieren Sie Elemente im Rückstand, die automatisch dem Agile-Story-Board von Kanban hinzugefügt werden sollen, wenn andere Elemente in einen Status verschoben werden, der mit „Abgeschlossen“ übereinstimmt.
 
   Weitere Informationen finden Sie unter [Automatische Hinzufügung von Storys aus dem Rückstand konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in [Kanban konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem agilen Kanban-Story-Board angezeigt werden soll.
+* Konfigurieren Sie ein Work In Progress (WIP)-Limit, das im Agile-Story-Board von Kanban angezeigt werden soll.
 
   Weitere Informationen finden Sie unter [Konfigurieren des Work In Progress (WIP)-Limits](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in [Konfigurieren von Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Vorteile der Verwendung von Scrum in Workfront**
 
-* Fügen Sie einer agilen Iteration einen Satz von Storys hinzu und erstellen Sie ein Story Board für diese Iteration.
+* Fügen Sie einer Agile-Iteration einen Satz von Storys hinzu und erstellen Sie ein Story Board für diese Iteration.
 * Schließen Sie Probleme im Scrum-Story-Board ein.
-* Schließen Sie Probleme im Rückstand eines agilen Teams ein.
+* Schließen Sie Probleme im Rückstand eines Agile-Teams ein.
 
   Weitere Informationen finden Sie unter [Konfigurieren der Anwendung von Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Konfigurieren von Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -125,7 +125,7 @@ Die agilen Methoden Scrum und Kanban in Workfront unterscheiden sich wie folgt:
 
   Weitere Informationen finden Sie unter [Agile-Burndown-Diagramm - Übersicht](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Weitere Informationen zur Aktivierung und Konfiguration von Kanban für ein agiles Team finden Sie unter [Entscheidung über eine agile Methodik](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [Erstellen eines agilen Teams](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Weitere Informationen zur Aktivierung und Konfiguration von Kanban für ein Agile-Team finden Sie unter [Entscheidung über eine Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [Erstellen eines Agile-Teams](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Probleme im Scrum-Rückstand für ein Agile-Team einschließen {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -133,15 +133,15 @@ Weitere Informationen zur Aktivierung und Konfiguration von Kanban für ein agil
 >
 >Diese Funktion wurde am 14. November 2017 aus der Produktionsumgebung entfernt. Es ist geplant, Anfang 2018 mit einem verbesserten Design und erhöhter Stabilität wieder in die Vorschau-Umgebung einzuführen. Sie wird mit Version 2018.1 in der Produktionsumgebung verfügbar sein.
 
-Sie können jetzt bei Verwendung der agilen Scrum-Methode Probleme in den Rückstand Ihres agilen Teams einbeziehen (Probleme werden bei Verwendung der Kanban-Methode nicht im Rückstand eines agilen Teams angezeigt). Vorhandene Agile-Scrum-Teams müssen diese Funktion aktivieren, damit Probleme einbezogen werden können. Probleme werden automatisch in den Rückstand für Scrum-Agile-Teams aufgenommen, die nach der Version 2017.3 erstellt werden.
+Sie können jetzt bei Verwendung der agilen Scrum-Methode Probleme in den Rückstand Ihres Agile-Teams einbeziehen (Probleme werden bei Verwendung der Kanban-Methode nicht im Rückstand eines Agile-Teams angezeigt). Vorhandene Agile-Scrum-Teams müssen diese Funktion aktivieren, damit Probleme einbezogen werden können. Probleme werden automatisch in den Rückstand für Scrum-Agile-Teams aufgenommen, die nach der Version 2017.3 erstellt werden.
 
 Vor dieser Änderung konnten nur Aufgaben zum Rückstand hinzugefügt werden. Wenn Sie ein Problem hinzufügen möchten, müssen Sie das Problem zunächst in eine Aufgabe konvertieren, bevor es hinzugefügt werden kann.
 
 Da Sie jetzt Zugriff auf mehr als nur Aufgaben im Rückstand haben, werden alle benutzerdefinierten Aufgabenansichten, die zuvor im Rückstand verfügbar waren, kopiert und dem Rückstand als benutzerdefinierte Rückstand-Arbeitsaufgabenansichten hinzugefügt.
 
-Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des agilen Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Informationen dazu, wie Probleme im Rückstand eines agilen Scrum-Teams verfügbar sein können, finden Sie unter  [Konfigurieren Sie in „Scrum konfigurieren“, wie Datumsangaben beim Hinzufügen &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) Arbeitselementen [&#x200B; Iteration &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) werden.
+Informationen dazu, wie Probleme im Rückstand eines Agile-Scrum-Teams verfügbar sein können, finden Sie unter  [Konfigurieren Sie in „Scrum konfigurieren“, wie Datumsangaben beim Hinzufügen ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) Arbeitselementen [ Iteration ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) werden.
 
 ## Probleme im Scrum Agile-Story-Board einschließen {#include-issues-on-the-scrum-agile-story-board}
 
@@ -159,11 +159,11 @@ Weitere Informationen finden Sie unter [Konfigurieren von Statusspalten im Agile
 >
 >Diese Funktion wurde am 14. November 2017 aus der Produktionsumgebung entfernt. Es ist geplant, Anfang 2018 mit einem verbesserten Design und erhöhter Stabilität wieder in die Vorschau-Umgebung einzuführen. Sie wird mit Version 2018.1 in der Produktionsumgebung verfügbar sein.
 
-Die Optionen Gruppierung und Filter sind jetzt im agilen Rückstand verfügbar, sodass Sie Ihren Rückstand nach Gruppierungen organisieren und nach bestimmten Aufgaben und Problemen filtern können.
+Die Gruppierungs- und Filteroptionen sind jetzt im agilen Rückstand verfügbar, sodass Sie Ihren Rückstand nach Gruppierungen organisieren und nach bestimmten Aufgaben und Problemen filtern können.
 
-Vor dieser Änderung konnten Sie Ansichten auf den agilen Rückstand anwenden.
+Vor dieser Änderung konnten Sie Ansichten auf den Agile-Rückstand anwenden.
 
-Weitere Informationen finden Sie unter  [Verwalten des agilen Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Verwalten des agilen Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen finden Sie unter  [Verwalten des Agile-](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Rich-Text-Formatierung für Aktualisierungen und E-Mails {#rich-text-formatting-for-updates-and-emails}
 
@@ -203,7 +203,7 @@ Weitere Informationen finden Sie [Übersicht über den Ressourcenauslastungsberi
 
 Beim Ausführen eines Auslastungsberichts werden Sie nun aufgefordert, einen Filter anzuwenden, bevor der Bericht ausgeführt wird. Durch diese Änderung wird sichergestellt, dass die relevantesten Informationen so schnell wie möglich im Auslastungsbericht generiert werden.
 
-Weitere Informationen zum Ausführen eines Auslastungsberichts finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Ausführen eines Auslastungsberichts finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Dokumentverbesserungen: Optimierte Benutzeroberfläche {#document-enhancements-streamlined-interface}
 

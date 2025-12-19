@@ -7,7 +7,7 @@ description: Das agile Story Board von Scrum wird zusammen mit dem Abschlussstat
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -73,4 +73,4 @@ Angenommen, Story A enthält Unteraufgabe 1 und Unteraufgabe 2 (und beide Untera
 
 Dieselbe Logik gilt für Teilaufgaben der zweiten Ebene (Teilaufgaben von Teilaufgaben). Wenn eine Unteraufgabe eine oder mehrere Unteraufgaben der zweiten Ebene demselben agilen Team zugewiesen hat und zur Iteration gehören, wird nur die Unteraufgabe der zweiten Ebene im Rückstand angezeigt.
 
-Weitere Informationen zum Rückstand finden Sie unter [Verwalten des agilen Rückstands](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen zum Auftragsbestand finden Sie unter [Verwalten des agilen Auftragsbestands](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

@@ -6,10 +6,10 @@ description: Sie haben verschiedene Möglichkeiten, um einer Iteration Stories h
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können einer Iteration auf eine der folgenden Arten Stories hinzufügen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -37,7 +37,7 @@ Sie können einer Iteration auf eine der folgenden Arten Stories hinzufügen:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -61,7 +61,7 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
    * Für das Projekt ist kein [!UICONTROL Geplantes Startdatum] festgelegt.
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *vor* oder *am* Startdatum der Iteration.
 
-* Die Aufgabe verwendet das geplante [!UICONTROL &#x200B; des Projekts] wenn:
+* Die Aufgabe verwendet das geplante [!UICONTROL  des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration.
 
@@ -69,10 +69,10 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
 
 * Die Aufgabe verwendet das Enddatum der Iteration, wenn:
 
-   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ &#x200B;].
+   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ ].
    * Das Projekt [!UICONTROL Geplantes Startdatum] liegt *vor oder am* dem Startdatum der Iteration oder das [!UICONTROL Geplantes Abschlussdatum] des Projekts liegt *vor oder* dem Enddatum der Iteration.
 
-* Die Aufgabe verwendet das &quot;[!UICONTROL &#x200B; Abschlussdatum“ des Projekts] wenn:
+* Die Aufgabe verwendet das &quot;[!UICONTROL  Abschlussdatum“ des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration und das [!UICONTROL Geplantes Abschlussdatum] des Projekts ist *nach* Enddatum der Iteration.
 
