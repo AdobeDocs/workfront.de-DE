@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 * In Workfront Planning muss Folgendes vorhanden sein:
 
    * Ein Arbeitsbereich
-   * Ein Datensatztyp.
+   * Ein Datensatztyp
    * Ein mit einem Datensatztyp verknüpftes Anforderungsformular.
 
      Weitere Informationen finden Sie unter [Erstellen eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -162,7 +162,7 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 1. (Optional) Klicken Sie in **Bestätigungsmeldung auf** Anforderung anzeigen“, um die Anforderung zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie auf der Registerkarte Planung anzeigen möchten.
+   * Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie in der Anfragenliste anzeigen möchten.
 
      ![Filter in der Registerkarte „Planungsanfragen“ bearbeiten](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -251,16 +251,14 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (Optional) Klicken Sie auf **Hauptmenü** > **Anfragen** > die **Planung**, um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
+1. (Optional) Klicken Sie auf **Hauptmenü** > **Anfragen**, um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
 
    Die Seite mit den Anfragedetails wird geöffnet.
 
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
-
-
 1. (Optional) Geben Sie im Bereich „Kommentare“ einen Kommentar ein.
-1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anforderung genehmigt wurde, klicken Sie auf den Namen der Anforderung und anschließend auf den Namen des Datensatzes **Feld &quot;**&quot;.
+1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.
 
    Die Seite des Datensatzes wird in Workfront Planning geöffnet.
 
@@ -270,7 +268,7 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
    >
    >* Wenn das Anfrageformular mit einer Genehmigung verknüpft ist, muss die Genehmigung erteilt werden, bevor Sie auf den Datensatz auf der Anfrageseite zugreifen können.
 
-1. (Optional) Klicken Sie auf den Namen des **Datensatztyps**.
+1. (Optional) Klicken Sie auf den Namen **Objekttyp**.
 
    Die Seite „Datensatztyp“ wird in Workfront Planning geöffnet.
 

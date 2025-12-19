@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Benutzer aus Projekten entfernen](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [Planen von Ressourcen für ein Projekt](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [Kommunikation mit Projektteammitgliedern](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [Verwalten eines Projekts in der Agile-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [Verwalten eines Agile-Projekts in der Board-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Projektbeschränkungen - Übersicht](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Verstehen von Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

@@ -6,9 +6,9 @@ description: Sie können die Art der Informationen, die Sie auf dem Bildschirm a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '893'
 ht-degree: 4%
 
 ---
@@ -60,10 +60,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Erstellen oder Anpassen einer Ansicht
 
-Der Prozess zum Erstellen oder Anpassen einer Ansicht unterscheidet sich, je nachdem, ob Sie eine Standardansicht oder eine Agile- oder eine Board-Ansicht erstellen oder anpassen.
-
-* [Erstellen oder Anpassen einer Standardansicht](#create-or-customize-a-standard-view)
-* [Erstellen oder Anpassen einer Agile-Ansicht](#create-or-customize-an-agile-view)
+Der Prozess zum Erstellen oder Anpassen einer Ansicht unterscheidet sich, je nachdem, ob Sie eine Standardansicht oder eine Pinnwand-Ansicht erstellen oder anpassen.
 
 ### Erstellen oder Anpassen einer Standardansicht {#create-or-customize-a-standard-view}
 
@@ -161,13 +158,15 @@ Das **Ansicht anpassen** wird angezeigt.
 
    Ihr Zugriff bestimmt, wie die Ansicht gespeichert wird. Wenn Sie die Ansicht ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version zu speichern. Beachten Sie, dass sich Änderungen an der Ansicht auf Benutzende auswirken, für die die Ansicht freigegeben wurde.
 
-### Erstellen oder Anpassen einer Agile-Ansicht {#create-or-customize-an-agile-view}
+### Erstellen oder Anpassen einer Board-Ansicht {#create-or-customize-an-agile-view}
 
-Agile-Ansichten, auch als Board-Ansichten bezeichnet, werden nur für Listen von Aufgaben und Problemen in einem Projekt angezeigt.
+Sie können Projekte mit einer Agile-Methode mithilfe einer Board-Ansicht verwalten.
+
+Pinnwand-Ansichten sind nur für Listen von Aufgaben und Problemen in einem Projekt verfügbar.
 
 Sie sind vorkonfiguriert, Sie können jedoch bestimmte Einstellungen für sie ändern.
 
-Weitere Informationen zu Agile- oder Board-Ansichten finden Sie im Artikel [Verwalten eines Projekts in der Agile-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Weitere Informationen zu Agile- oder Board-Ansichten finden Sie im Artikel [Verwalten eines Agile-Projekts in der Board-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

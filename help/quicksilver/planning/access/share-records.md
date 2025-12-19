@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,9 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 <!--checking on the below with Lilit-->
 
 * Sie können Datensätze für die folgenden Entitäten freigeben: Personen, Gruppen, Teams, Unternehmen oder Aufgabengebiete.
+* Wenn Sie einen Datensatz freigeben, haben Benutzer überall dort, wo dieser Datensatz im System erscheint, denselben Zugriff.
+* Wenn Sie die Berechtigungen auf einen Datensatz beschränken, können Benutzer diesen Datensatz und die Werte für die Suchfelder an keiner Stelle des Systems mehr anzeigen, an der dieser Datensatz hinzugefügt wird.
+* Workfront überprüft Datensatzberechtigungen in Verbindungen mit bis zu fünf Datensätzen, um sicherzustellen, dass Benutzende nur die für sie freigegebenen Datensätze sehen.
 * Sie können einem Datensatz die folgenden Berechtigungsebenen gewähren:
 
    * Ansicht
@@ -181,7 +184,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen Datensatz aus und klicken Sie dann unten **der Liste auf** Freigeben“ in der blauen Symbolleiste.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
@@ -252,7 +255,7 @@ Sie können Benutzerberechtigungen aus einem Datensatz entfernen. Sie behalten j
 1. Öffnen Sie den Arbeitsbereich, dessen Datensätze Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite „Datensatztyp“ geöffnet.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen Datensatz aus und klicken Sie dann unten **der Liste auf** Freigeben“ in der blauen Symbolleiste.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 

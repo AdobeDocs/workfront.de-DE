@@ -4,9 +4,9 @@ description: Verbesserungen bei Anfragen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Mög
 
 Sie können Anfragelistenansichten sowohl über den Bereich Anfragen in Workfront als auch über das Widget Meine Anfragen auf der Startseite freigeben. Die Freigabefunktion ist an beiden Stellen identisch, und die Anzeigeeinstellungen, einschließlich der Freigabe, bleiben beim Wechseln zwischen dem Widget „Meine Anfragen“ und dem Bereich „Anfragen“ erhalten.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [ unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Hinzufügen benutzerdefinierter Felder zur Anfragenliste und zum Widget Meine Anfragen
 
@@ -140,7 +140,7 @@ Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen von Anfra
 
 Um die Organisation Ihrer Anfragen zu vereinfachen und die Übersichtlichkeit zu verbessern, haben wir die Möglichkeit hinzugefügt, Anfragen zu löschen. Jetzt können Sie von Ihnen gesendete Anfragen löschen. Workfront-Administratoren und Workfront Planning Workspace-Administratoren können Anfragen auch löschen.
 
-Zuvor war das Löschen von Anfragen nicht verfügbar.
+Zuvor war diese Funktion in der neuen anfordernden -Version nicht verfügbar.
 
 Weitere Informationen und Anweisungen finden Sie [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 

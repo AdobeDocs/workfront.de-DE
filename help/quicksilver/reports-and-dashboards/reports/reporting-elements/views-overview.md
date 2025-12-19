@@ -7,9 +7,9 @@ description: Sie können die Art der Informationen, die Sie in einer Liste oder 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Überlegungen zu Ansichten
 
@@ -42,8 +42,8 @@ Im Folgenden finden Sie Ansichtstypen, die Sie in Listen oder Berichten in Workf
         <td>Sie können sie auf eine beliebige Liste oder einen beliebigen Bericht von Objekten anwenden. Standardansichten sind in hohem Maße anpassbar. Sie können eine Standardansicht anpassen und für andere freigeben. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Erstellen oder Bearbeiten von Ansichten in Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Agile-Ansicht</strong></td>
-        <td>Sie können die Board- oder Agile-Ansicht auf eine Liste von Aufgaben im Abschnitt Aufgaben eines Projekts oder auf eine Liste von Problemen im Abschnitt Probleme des Projekts anwenden. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Verwalten eines Projekts in der Agile-Ansicht</a>.</td>
+        <td><strong>Pinnwandansicht</strong></td>
+        <td>Sie können die Board-Ansicht auf eine Liste von Aufgaben im Abschnitt Aufgaben eines Projekts oder eine Liste von Problemen im Abschnitt Probleme des Projekts anwenden, um Ihre Projekte mit einer agilen Methode zu verwalten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Verwalten eines Agile-Projekts in der Board-Ansicht</a>.</td>
     </tr>
     <tr>
         <td><strong>Gantt-Ansicht</strong></td>
@@ -66,7 +66,7 @@ Sie können die Elemente einer Standardansicht freigeben.
 
 Informationen zum Freigeben einer Standardansicht finden Sie unter [Freigeben von Filtern, Ansichten oder Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Sie können keine Gantt- und Agile-Ansichten freigeben. Jeder, der Zugriff auf die Bereiche hat, in denen diese Ansichten angezeigt werden, kann dieselben Informationen anzeigen.
+Sie können keine Gantt- und Pinnwand-Ansichten freigeben. Jeder, der Zugriff auf die Bereiche hat, in denen diese Ansichten angezeigt werden, kann dieselben Informationen anzeigen.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ Sie können keine Gantt- und Agile-Ansichten freigeben. Jeder, der Zugriff auf d
 
 Die Möglichkeit, eine Ansicht zu entfernen, funktioniert unterschiedlich, je nachdem, ob Sie die Ansicht ursprünglich erstellt haben oder ob die Ansicht für Sie freigegeben wurde. Sie können eine Standardansicht nicht entfernen.
 
-Sie können keine Gantt- oder Agile-Ansichten entfernen.
+Sie können keine Gantt- oder Pinnwand-Ansichten entfernen.
 
 Weitere Informationen zum Entfernen einer Standardansicht finden Sie unter [Filter, Ansichten und Gruppierungen entfernen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
