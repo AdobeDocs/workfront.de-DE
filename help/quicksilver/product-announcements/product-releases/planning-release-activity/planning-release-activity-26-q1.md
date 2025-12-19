@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -142,6 +142,7 @@ Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicks
 >Vorschau: 11. Dezember 2025
 >Produktions-Schnellveröffentlichung: 11. Dezember 2025
 >Produktion für alle: 11. Dezember 2025
+>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Das Feld Verbindung zur Marke GenStudio for Performance Marketing wird jetzt standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ im Arbeitsbereich &quot;GenStudio&quot; von Workfront Planning hinzugefügt.
 
@@ -158,6 +159,7 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 >Vorschau: 11. Dezember 2025
 >Produktions-Schnellveröffentlichung: 11. Dezember 2025
 >Produktion für alle: 11. Dezember 2025
+>[!BADGE Aus dem Zeitplan]{type=Neutral}
 
 Wir haben einen Schutzmechanismus hinzugefügt, der verhindert, dass Berechtigungen von GenStudio for Performance Marketing-Benutzenden aus Workfront Planning-Objekten entfernt werden. Mit dieser Verbesserung können Sie GenStudio-Benutzende nicht mehr aus dem GenStudio-Arbeitsbereich in Planning entfernen. Ebenso können Sie keine geerbten Berechtigungen für Datensatztypen im GenStudio-Arbeitsbereich deaktivieren, wenn diese Berechtigungen GenStudio-Benutzende enthalten. Wenn Sie diese Benutzenden vor dieser Verbesserung aus GenStudio Workspace in Planning entfernt haben, verlieren sie auch die Berechtigungen für Datensatztypen in GenStudio.
 
