@@ -7,9 +7,9 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,10 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte zu neu hinzugefügten Workfr
 * Ihr Workfront-Administrator muss Ihnen Bearbeitungszugriff auf Dashboards in Ihrer Zugriffsebene gewähren, um ein Arbeitsflächen-Dashboard zu erstellen oder zu bearbeiten. Informationen zum Gewähren von Bearbeitungszugriff finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Artikel zum Arbeitsflächen-Dashboard
+
+* Verwenden von Canvas-Dashboards
+
+   * [Verwenden von Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Beta-Version von Canvas-Dashboards
 

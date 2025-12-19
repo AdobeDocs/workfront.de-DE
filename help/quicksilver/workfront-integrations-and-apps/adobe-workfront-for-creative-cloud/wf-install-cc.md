@@ -6,9 +6,9 @@ description: Sie können  [!DNL Adobe Workfront for design and video]  über den
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 58ee0356a68dae35a1c77847f92e9e6a3d706ce6
+source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Ma
 
 >[!NOTE]
 >
->Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Zugriffsanforderungen
@@ -159,9 +159,9 @@ Um dieses Problem zu beheben,
 
    >[!TIP]
    >
-   >Wechseln Sie in einem Mac zum Finder und drücken Sie **Befehlstaste+Umschalt+.** ausgeblendete Ordner anzuzeigen, navigieren Sie zu **/users/username/library/application support** und löschen Sie dann den Ordner **Workfront**. Sie müssen `username` durch Ihren Mac-Benutzernamen ersetzen.
+   >Wechseln Sie in einer Mac zur Suche, drücken Sie **Befehlstaste+Umschalt+G**, navigieren Sie zu .  Löschen Sie `~/Library/Application Support/Workfront` den Ordner **Workfront**.
 
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
