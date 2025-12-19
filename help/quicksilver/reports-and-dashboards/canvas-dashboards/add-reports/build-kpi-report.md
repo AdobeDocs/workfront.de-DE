@@ -6,10 +6,10 @@ description: Ein KPI-Bericht, der einen einzelnen aggregierten KPI hervorgehoben
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 0%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -31,7 +31,7 @@ Sie können einen KPI-Bericht erstellen und zu einem Arbeitsflächen-Dashboard h
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,7 +78,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -145,7 +145,7 @@ Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eine
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -186,6 +186,16 @@ Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eine
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 ## Überlegungen beim Erstellen eines KPI-Berichts
+
+### Berichte mit Finanzdaten
+
+Benutzer mit der Zugriffsebene Anzeigen oder Bearbeiten von Finanzdaten sehen weiterhin Finanzdaten in den Visualisierungen des Arbeitsflächen-Dashboards, auch wenn die Berechtigung zum Anzeigen von Finanzdaten auf der Aufgaben- oder Projektebene entfernt wurde.
+
+* Benutzende ohne finanzielle Datenrechte auf der Zugriffsebene sehen keine finanziellen Daten in Berichten.
+* Benutzer, die Finanzdaten sehen, sind auf Datensätze beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Datensätze, auf die sie nicht zugreifen können.
+* Ersteller von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
+
+Dies ist eine bekannte Grenze, und wir planen, sie so schnell wie möglich zu beheben.
 
 ### Verwenden der Feldauswahl
 

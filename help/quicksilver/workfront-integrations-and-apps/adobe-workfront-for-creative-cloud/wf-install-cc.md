@@ -6,10 +6,10 @@ description: Sie können  [!DNL Adobe Workfront for design and video]  über den
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+source-git-commit: 58ee0356a68dae35a1c77847f92e9e6a3d706ce6
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 2%
+source-wordcount: '601'
+ht-degree: 4%
 
 ---
 
@@ -34,12 +34,12 @@ Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Ma
 
 >[!NOTE]
 >
->Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,9 +159,9 @@ Um dieses Problem zu beheben,
 
    >[!TIP]
    >
-   >Wechseln Sie in einem Mac zum Finder und drücken Sie **Befehlstaste+Umschalt+.** ausgeblendete Ordner anzuzeigen, navigieren Sie zu **/users/library/application support** und löschen Sie dann den Ordner **Workfront**.
+   >Wechseln Sie in einem Mac zum Finder und drücken Sie **Befehlstaste+Umschalt+.** ausgeblendete Ordner anzuzeigen, navigieren Sie zu **/users/username/library/application support** und löschen Sie dann den Ordner **Workfront**. Sie müssen `username` durch Ihren Mac-Benutzernamen ersetzen.
 
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
