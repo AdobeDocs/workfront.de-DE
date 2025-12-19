@@ -141,7 +141,7 @@ Da Sie jetzt Zugriff auf mehr als nur Aufgaben im Rückstand haben, werden alle 
 
 Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Informationen dazu, wie Probleme im Rückstand eines Agile-Scrum-Teams verfügbar sein können, finden Sie unter  [Konfigurieren Sie in „Scrum konfigurieren“, wie Datumsangaben beim Hinzufügen ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) Arbeitselementen [ Iteration ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) werden.
+Informationen dazu, wie Probleme im Rückstand eines Agile-Scrum-Teams verfügbar sein können, finden Sie unter  [Konfigurieren Sie in „Scrum konfigurieren“, wie Datumsangaben beim Hinzufügen &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) Arbeitselementen [&#x200B; Iteration &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) werden.
 
 ## Probleme im Scrum Agile-Story-Board einschließen {#include-issues-on-the-scrum-agile-story-board}
 
@@ -203,7 +203,7 @@ Weitere Informationen finden Sie [Übersicht über den Ressourcenauslastungsberi
 
 Beim Ausführen eines Auslastungsberichts werden Sie nun aufgefordert, einen Filter anzuwenden, bevor der Bericht ausgeführt wird. Durch diese Änderung wird sichergestellt, dass die relevantesten Informationen so schnell wie möglich im Auslastungsbericht generiert werden.
 
-Weitere Informationen zum Ausführen eines Auslastungsberichts finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Ausführen eines Auslastungsberichts finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Dokumentverbesserungen: Optimierte Benutzeroberfläche {#document-enhancements-streamlined-interface}
 
