@@ -34,7 +34,7 @@ Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Ma
 
 >[!NOTE]
 >
->Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Zugriffsanforderungen
@@ -164,4 +164,4 @@ Um dieses Problem zu beheben,
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
