@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Su
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">In Adobe Workfront-Motherboards verfügbare Iterationsfunktionen</a></p>
-                        <p>Mehrere neue Funktionen, die in Workfront Boards verfügbar sind, ermöglichen die Verwendung der agilen Scrum-Funktionalität. Zu diesen Funktionen gehören:
+                        <p>Mehrere neue Funktionen, die in Workfront-Boards verfügbar sind, ermöglichen die Verwendung der Agile-Scrum-Funktion. Zu diesen Funktionen gehören:
                         <ul>
                         <li>Arbeitsabläufe zum Gruppieren von Pinnwänden, die demselben Team zugeordnet sind und an der Arbeit zusammenarbeiten</li>
                         <li>Eine Liste von Karten oder Arbeitsrückstand mit der Option, Quellen zu verwenden, um Karten mit Workfront-Aufgaben und -Problemen zu verbinden</li>
@@ -653,7 +653,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die während der Version 23.2 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
+Informationen zu den Wartungs-Updates, die während der Version 23.2 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 

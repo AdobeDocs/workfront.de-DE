@@ -8,10 +8,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ Als Adobe Workfront-Administrator können Sie im Bereich „Setup“ ein Team er
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
-       <p>Oder</p>
+       <p>ODER</p>
        <p>Aktuell: Plan</p></td>
   </tr> 
   </tr> 
@@ -91,7 +91,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">Dies ist ein Agile-Team</td> 
-      <td>Wählen Sie dieses Element aus, wenn Sie dieses neue Team als agiles Team konfigurieren möchten. Weitere Informationen zu agilen Teams finden Sie unter <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines agilen Teams</a>.</td> 
+      <td>Wählen Sie dieses Element aus, wenn Sie dieses neue Team als agiles Team konfigurieren möchten. Weitere Informationen zu Agile-Teams finden Sie unter <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines Agile-Teams</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bearbeiten</td> 

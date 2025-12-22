@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -282,7 +282,7 @@ Das Webinar zur Version 23.3 von fand am 29. Juni 2023 statt. Sie können [sich 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrieren von Agile-Team-Kanban-Karten zu Pinnwänden</a></p>
-                        <p>Eine neue Schaltfläche <b>Zu Pinnwänden hinzufügen</b> auf agilen Team-Kanban-Pinnwänden ermöglicht das Hinzufügen aller Karten aus dem Kanban-Board zu einem Workfront-Board. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer bestehenden Pinnwand hinzufügen.</p>
+                        <p>Eine neue Schaltfläche <b>Zu Pinnwänden hinzufügen</b> auf Agile-Team-Kanban-Pinnwänden ermöglicht das Hinzufügen aller Karten aus dem Kanban-Board zu einem Workfront-Board. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer bestehenden Pinnwand hinzufügen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
@@ -768,7 +768,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
+Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 

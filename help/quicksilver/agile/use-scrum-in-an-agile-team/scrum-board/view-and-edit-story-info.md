@@ -6,10 +6,10 @@ description: Beim Anzeigen einer Story-Kachel auf dem Kanban-Board stehen bestim
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Wenn Sie eine Story-Kachel auf dem Story Board anzeigen, sind die Informationen 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Der Projektname mit einem Link direkt zum Projekt <br>Dieser Link wird bei Verwendung der agilen Ansicht bei einer Iteration nur für Storys (übergeordnete Aufgaben, nicht Teilaufgaben) angezeigt; er wird nicht angezeigt, wenn eine agile Ansicht für ein Projekt verwendet wird.</p> </td> 
+   <td> <p>Der Projektname mit einem Link direkt zum Projekt <br>Dieser Link wird bei Verwendung der Agile-Ansicht bei einer Iteration nur für Storys (übergeordnete Aufgaben, nicht Teilaufgaben) angezeigt; er wird nicht angezeigt, wenn eine Agile-Ansicht für ein Projekt verwendet wird.</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
@@ -62,7 +62,7 @@ Wenn Sie eine Story-Kachel auf dem Story Board anzeigen, sind die Informationen 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die der agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie in „Erstellen und Anpassen einer [!UICONTROL Agile]-Ansicht“ in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Überblick über Ansichten in [!UICONTROL Adobe Workfront]</a> beschrieben.</p> </td> 
+   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die der Agile-Ansicht hinzugefügt wurden, indem die Agile-Ansicht geändert wurde, wie in „Erstellen und Anpassen einer [!UICONTROL Agile]-Ansicht“ in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views-Übersicht in [!UICONTROL Adobe Workfront]</a> beschrieben.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -71,7 +71,7 @@ Wenn Sie eine Story-Kachel auf dem Story Board anzeigen, sind die Informationen 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 

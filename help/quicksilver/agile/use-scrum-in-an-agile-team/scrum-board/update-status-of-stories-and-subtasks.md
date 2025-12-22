@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Status von Storys und Teilaufgaben auf dem Scrum-Board aktualisieren
-description: Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys durch die Iteration oder das Projekt widerzuspiegeln.
+description: Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys während der Iteration oder des Projekts widerzuspiegeln.
 author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 # Status von Storys und Teilaufgaben auf dem [!UICONTROL Scrum]-Board aktualisieren
 
-Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys durch die Iteration oder das Projekt widerzuspiegeln.
+Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys während der Iteration oder des Projekts widerzuspiegeln.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den F
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 

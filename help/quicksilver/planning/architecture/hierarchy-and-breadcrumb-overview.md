@@ -3,9 +3,9 @@ title: Übersicht über Hierarchie und Breadcrumb
 description: Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem Workspace erstellen.
 hide: true
 hidefromtoc: true
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ hidefromtoc: yes
 
 # Übersicht über Hierarchie und Breadcrumb
 
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Als Workspace-Manager können Sie in Adobe Workfront Planning flexible, aber strukturierte Hierarchien zwischen Datensatztypen und anderen Objekttypen definieren.
 
 Hierarchien sind Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und einem Workfront-Projekt.
@@ -45,17 +49,17 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
 * Es können bis zu 4 Datensatz- und Objekttypen in einer Hierarchie verbunden sein.
 * Sie können in einer Workspace-Hierarchie nur die folgenden Objekttypen verbinden:
    * Datensatztypen, die zu dem Arbeitsbereich gehören, in dem Sie die Hierarchien erstellen.
-   * Workfront-Projekte. Workfront-Projekte können nicht als übergeordnete Elemente anderer Datensatztypen hinzugefügt werden. Sie sind immer das letzte Kind in einer Hierarchie.
+   * Workfront-Projekte. Workfront-Projekte können nicht als übergeordnete Elemente anderer Datensatztypen hinzugefügt werden. Sie sind immer der letzte Objekttyp in einer Hierarchie.
 * Die folgenden Objekttypen können nicht in einer Hierarchie hinzugefügt werden:
    * Datensatztypen aus anderen Arbeitsbereichen, auch wenn sie als verbindbare oder globale Datensatztypen festgelegt sind. Sie können globale Datensatztypen nur dann zu Hierarchien hinzufügen, wenn sie zu dem Arbeitsbereich hinzugefügt wurden, aus dem Sie die Hierarchie erstellen.
    * Alle anderen Workfront-Objekte.
-   * AEM Assets
+   * AEM Assets.
 * Hierarchien können sowohl Planning-Datensatztypen als auch Workfront-Projekte gleichzeitig enthalten.
 
       Sie können beispielsweise einen Campaign-Datensatztyp mit Planungstaktiken und Workfront-Projekten als untergeordnete Elemente in derselben Workspace-Hierarchie verwenden.
   * Wenn bereits eine Verbindung zwischen den ausgewählten Datensatztypen besteht, verwendet das System die vorhandene Verbindung erneut.
 * Wenn keine Verbindung vorhanden ist, erstellt Workfront im Rahmen der Hierarchieeinrichtung eine.
-* Die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** muss für das verbundene Feld für Datensätze und Objekte aktiviert sein, die Sie in eine Hierarchie einbeziehen möchten.
+* Die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** muss für das verbundene Feld für Datensätze und Objekttypen aktiviert sein, die Sie in eine Hierarchie einbeziehen möchten.
 * Im Folgenden finden Sie Regeln für die Einrichtung von Hierarchien:
    * Ein Datensatztyp kann in einem Arbeitsbereich nur einen übergeordneten Datensatztyp haben.
 
@@ -64,16 +68,19 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
 
      Sie können beispielsweise drei verschiedene Hierarchien in einem Arbeitsbereich haben, und jede davon kann Kampagnen als übergeordneten Datensatztyp haben.
    * Ein Datensatz kann mit mehreren übergeordneten Datensätzen desselben Typs verbunden werden, wenn Sie einen mit vielen oder viele mit vielen Datensatztypen verbinden.
-Beispielsweise kann Taktik A sowohl zu Campaign X als auch zu Campaign Y gehören.
-   * Ein Datensatztyp kann eine Verbindung zu mehreren untergeordneten Datensatztypen herstellen.
 
-     Ein Campaign-Datensatztyp kann beispielsweise mehreren anderen Datensatztypen übergeordnet sein, z. B. Taktiken, Tests und anderen Datensatztypen.
+     Beispielsweise kann Taktik A sowohl zu Campaign X als auch zu Campaign Y gehören.
+   * Ein Datensatztyp kann jeweils nur mit einem untergeordneten Datensatztyp verbunden werden. Ein untergeordneter Datensatztyp kann auch ein übergeordneter Datensatz für einen anderen Datensatztyp sein.
+
+     Ein Campaign-Datensatztyp kann beispielsweise nur einem anderen Datensatztyp in derselben Hierarchie (Taktik) übergeordnet sein. Taktiken können wiederum den Programmen übergeordnet sein, die den Projekten übergeordnet sein können.
+   * Ein Datensatztyp kann nicht das übergeordnete Element in einer Hierarchie und das untergeordnete Element in einer anderen Hierarchie im selben Arbeitsbereich sein.
    * Globale Datensatztypen können in mehreren Arbeitsbereichen innerhalb mehrerer Hierarchien angezeigt werden, nachdem sie diesen Arbeitsbereichen hinzugefügt wurden.
 
      Wenn eine Kampagne beispielsweise ein globaler Datensatztyp und Teil einer Hierarchie in Workspace 1 ist, kann sie als bestehender Datensatztyp zu Workspace 2 hinzugefügt und dort Teil einer Hierarchie sein. Sie kann jedoch nur dann Teil einer Hierarchie in Workspace 2 sein, wenn sie in Workspace 1 als globaler Datensatztyp angegeben, aber nicht zu Workspace 2 hinzugefügt wird.
 
-
 ## Überlegungen beim Anzeigen von Breadcrumbs
+
+<!-- this might be incomplete, because I have no UI for this yet-->
 
 Wenn Sie Hierarchien zwischen Datensatztypen erstellen, generieren diese Breadcrumbs für Datensätze, die zu diesen Datensatztypen gehören.
 
@@ -87,5 +94,6 @@ Beachten Sie Folgendes:
   Wenn Sie sich beispielsweise ein Projekt ansehen, das mit Planungskampagnen und -taktiken sowie mit Workfront-Portfolios und -Programmen verbunden ist, können Sie aus dem Breadcrumb zwischen den Objekttypen Planning und Workfront wechseln.
 
   Weitere Informationen finden Sie unter [Erstellen von Workspace-Hierarchien](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* Wenn Sie einen Datensatz bearbeiten, sind die Änderungen in allen Arbeitsbereichen und Hierarchien sichtbar, zu denen der Datensatz gehört.
 
 

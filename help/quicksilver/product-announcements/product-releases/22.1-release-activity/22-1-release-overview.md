@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 0%
@@ -401,7 +401,7 @@ Informationen zu den Wartungs-Updates, die während der Version 22.1 vorgenommen
 
 ## Webinar zur Version 22.1
 
-Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie können die Webinar-Aufzeichnung auf der Seite &quot;[&quot; in Workfront One &#x200B;](https://one.workfront.com/s/event).
+Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie können die Webinar-Aufzeichnung auf der Seite &quot;[&quot; in Workfront One ](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -421,7 +421,7 @@ Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpf
 
 ## Funktion wird nicht mehr unterstützt
 
-### Internet Explorer 11
+### Internet Explorer 11
 
 Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge.
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront für InDesign
 
-Dieses Plug-in ist jetzt auf InDesign zu installieren. Dadurch können Sie auf Arbeitselementdetails zugreifen, mit Kollegen im Bereich Aktualisierungen zusammenarbeiten und Testsendungen zur Überprüfung senden, ohne die XD verlassen zu müssen. Gehen Sie zum Adobe Creative Cloud-Marktplatz, um das Plug-in noch heute herunterzuladen.
+Dieses Plug-in kann jetzt in InDesign installiert werden. Dadurch können Sie auf Arbeitselementdetails zugreifen, mit Kollegen im Bereich „Updates“ zusammenarbeiten und Testsendungen zur Überprüfung senden, ohne XD verlassen zu müssen. Gehen Sie zum Adobe Creative Cloud-Marktplatz, um das Plug-in noch heute herunterzuladen.
 
 Weitere Informationen über das Plug-in finden Sie unter [[!DNL Adobe Workfront] Plug-in für  [!DNL Creative Cloud] -](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [Laden Sie Adobe Workfront für InDesign noch heute auf den Markt](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Admins können [&#x200B; aus der -Admin Console auch ein -Paket mit &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) Plug-ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [ Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Synchronisieren von Objektmetadaten mit der nativen Experience Manager Assets-Integration
 
@@ -41,7 +41,7 @@ Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Ass
 
 ## Metadaten-Push für übergeordnete Programm- und Portfolioobjekte
 
-Wenn ein Asset zum ersten Mal an Experience Manager Assets oder Assets Essentials gesendet wird, werden auch alle Metadaten gesendet, die für die Zuordnung von übergeordneten Programmobjekten und Portfolioobjekten konfiguriert sind.
+Wenn ein Asset zum ersten Mal an Experience Manager Assets oder Assets Essentials gesendet wird, werden auch alle Metadaten gesendet, die für die Zuordnung von übergeordneten Programmobjekten und Portfolioobjekten konfiguriert wurden.
 
 Zuvor wurden nur Daten des übergeordneten Projekts gesendet.
 

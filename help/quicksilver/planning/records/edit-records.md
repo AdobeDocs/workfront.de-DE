@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -142,11 +142,14 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * Verknüpfte Felder aus anderen Datensätzen
    * Felder vom Typ Formel
    * Systemfelder (Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am)
-* Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln die neuen Informationen der Datensätze, die Sie bearbeiten, die verknüpften Datensätze wider.
+* Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln die neuen Informationen der Datensätze, die Sie bearbeiten, die verknüpften Datensätze in allen Arbeitsbereichen wider, in denen dieser Datensatz verknüpft ist.
 * Einträge können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 * URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit dem Folgenden beginnen: http://, https://, ftp:// oder www. .
 * Sie können jedem Datensatz ein Cover-Bild hinzufügen. Das Bild ist für jeden Datensatz eindeutig und gilt nicht für alle Datensätze gleichzeitig.
 * Sie können die Reihenfolge der Felder auf einer Datensatzseite bearbeiten und ein Titelbild für einen Datensatz hinzufügen. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Sie können das Start- und Enddatum eines Datensatzes bearbeiten, indem Sie die Größe der Datensätze in der Zeitleiste und in den Kalenderansichten ändern oder sie neu positionieren.
+
+  Sie können die Größe von Datensätzen nicht ändern oder sie neu positionieren, wenn das von Ihnen für den Datensatz gewählte Start- und Enddatum schreibgeschützt sind. Wenn Sie beispielsweise Such- oder Formelfelder für das Start- und Enddatum eines Datensatzes verwenden, können Sie die Größe des Datensatzes in einer Timeline- und Kalenderansicht nicht ändern oder ihn neu positionieren. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## Datensätze bearbeiten
 
@@ -266,9 +269,13 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie auf eine Datensatzleiste, halten Sie sie gedrückt und legen Sie sie dann an einer anderen Position ab, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.
 
+   >[!IMPORTANT]
+   >
+   >Wenn das von Ihnen für den Datensatz ausgewählte Start- und Enddatum schreibgeschützt sind, können Sie die Enden einer Datensatzleiste nicht per Drag-and-Drop auf ein anderes Datum ziehen. Die Verwendung von Such- oder Formelfeldern für das Start- und Enddatum eines Datensatzes ermöglicht es Ihnen beispielsweise nicht, die Größe des Datensatzes in einer Zeitleisten-Ansicht zu ändern oder ihn neu zu positionieren. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps
 
@@ -281,9 +288,13 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie auf eine Datensatzleiste, halten Sie sie gedrückt und legen Sie sie dann an einer anderen Position ab, um ihre Zeitleiste und Daten zu aktualisieren. Das Start- und Enddatum des Datensatzes werden automatisch aktualisiert.
 
+   >[!IMPORTANT]
+   >
+   >Wenn das von Ihnen für den Datensatz ausgewählte Start- und Enddatum schreibgeschützt sind, können Sie die Enden einer Datensatzleiste nicht per Drag-and-Drop auf ein anderes Datum ziehen. Die Verwendung von Such- oder Formelfeldern für das Start- und Enddatum eines Datensatzes ermöglicht es Ihnen beispielsweise nicht, die Größe des Datensatzes in einer Kalenderansicht zu ändern oder ihn neu zu positionieren. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes aus der Datensatzvorschau in einer Ansicht
 
@@ -299,7 +310,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie in einer beliebigen Ansicht auf den Datensatz
 
-   Oder
+   ODER
 
    Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld „Tabellenname](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
@@ -332,9 +343,9 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Erweitertes Feld für die Datensatzvorschau der Echtzeit-Anzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[&#x200B; wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes &#x200B;](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
+1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[ wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes ](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
 
 ### Bearbeiten eines Datensatzes auf der Datensatzseite
 
@@ -376,9 +387,9 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 1. (Optional) Klicken Sie auf das Informationssymbol rechts neben einem Feld, in dem es angezeigt wird, um die Beschreibung eines Felds anzuzeigen.
 1. (Optional) Klicken Sie auf **Cover hinzufügen**, um dem Datensatz ein Cover-Bild hinzuzufügen
 
-   Oder
+   ODER
 
-   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
+   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -396,7 +407,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Das erweiterte Feld für die Datensatzvorschau der Echtzeitanzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Bearbeiten eines Datensatzes aus einem Workfront-Objekt im Planungsabschnitt

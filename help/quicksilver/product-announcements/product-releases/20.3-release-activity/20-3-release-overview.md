@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >
 >Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/products/workfront/pricing.html).
 >* Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
 >  Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
@@ -151,32 +151,32 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >Sie müssen über Folgendes verfügen:
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
->&gt;   <td>Unternehmen oder höher</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Lizenztyp*</p> </td> 
->&gt;   <td> <p>Überprüfen Sie oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Produkt</td> 
->&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Szenarioplaner - Übersicht</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
->&gt;   <td> <p>Anzeigen des Zugriffs auf den Szenario-Planer oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Objektberechtigungen</strong> </p> </td> 
->&gt;   <td> <p>Anzeigen von Berechtigungen oder höher für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
+&gt;   <td>Unternehmen oder höher</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Lizenztyp*</p> </td> 
+&gt;   <td> <p>Überprüfen Sie oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Produkt</td> 
+&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Szenarioplaner - Übersicht</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
+&gt;   <td> <p>Anzeigen des Zugriffs auf den Szenario-Planer oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Objektberechtigungen</strong> </p> </td> 
+&gt;   <td> <p>Anzeigen von Berechtigungen oder höher für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
  
 
@@ -227,7 +227,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
    <td> <p>Beta-Vorschau-Version: 17. Juni 2020</p> <p>Produktionsversion: 2. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile-Boards laden 50 Arbeitselemente gleichzeitig</a> </p> <p>Um die Geschwindigkeit und Leistung der agilen Tools zu erhöhen, werden jetzt bis zu 50 Karten an verschiedenen Stellen geladen. Wenn sich auf einem Agile-Board mehr als 50 Arbeitselemente befinden, wird unten auf dem Board oder Rückstand eine Schaltfläche angezeigt, mit der Sie zusätzliche Arbeitselemente laden können.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile-Boards laden 50 Arbeitselemente gleichzeitig</a> </p> <p>Um die Geschwindigkeit und Leistung der Agile-Tools zu steigern, können jetzt bis zu 50 Karten an verschiedenen Stellen geladen werden. Wenn sich auf einem Agile-Board mehr als 50 Arbeitselemente befinden, wird unten auf dem Board oder Rückstand eine Schaltfläche angezeigt, mit der Sie zusätzliche Arbeitselemente laden können.</p> </td> 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +451,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar zur Version 20.3 {#20-3-release-webinar}
 

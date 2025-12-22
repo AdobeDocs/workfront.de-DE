@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Weitere Informationen finden Sie unter  Im Artikel .
 
 ## Verbesserte Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-Die Benutzeroberfläche zum Konfigurieren von Status für ein agiles Team wurde mit den folgenden Verbesserungen aktualisiert:
+Die Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team wurde mit den folgenden Verbesserungen aktualisiert:
 
 * Neues Erscheinungsbild
 * Statusspalten per Drag &amp; Drop neu anordnen 
@@ -111,7 +111,7 @@ Die Arbeitsliste im Bereich Startseite enthält die folgenden Verbesserungen:
 * Bei Anfragen wird jetzt der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat, mit dem Text &quot;[Genehmiger_name] für den Ihre Genehmigung erforderlich ist.“
 * Beim Erstellen einer neuen persönlichen Aufgabe wird die Schaltfläche „Aufgaben“ jetzt als „Persönlich“ gekennzeichnet.
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 * Verspätete Elemente werden erst nach einer Stunde nach dem geplanten Abschlussdatum als verspätet angezeigt.
 
@@ -145,7 +145,7 @@ Der Export der Daten aus dem Ressourcenplaner wurde vorübergehend deaktiviert, 
 
 Weitere Informationen zum Exportieren der Ressourcenplaner-Daten nach Excel finden Sie im Abschnitt „Exportoption“ in [Übersicht über die Ressourcenplaner-](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de)
+Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Systemeinstellung: Sitzungsinformationen auf externen Seiten {#system-setting-session-information-in-external-pages}
 

@@ -2,24 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Erstellen einer Agile-Story in einer Iteration
-description: In diesem Artikel wird beschrieben, wie Sie eine neue agile Story erstellen, wenn Sie sich bereits in der Iteration befinden.
+description: In diesem Artikel wird beschrieben, wie Sie eine neue Agile-Story erstellen, wenn Sie sich bereits in der Iteration befinden.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Erstellen einer Agile-Story in einer Iteration
 
-In diesem Artikel wird beschrieben, wie Sie eine neue agile Story erstellen, wenn Sie sich bereits in der Iteration befinden. Informationen zum Erstellen einer agilen Story aus einer Aufgabe, einem Problem oder einem anderen [!DNL Adobe Workfront] finden Sie unter [Hinzufügen von Stories zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+In diesem Artikel wird beschrieben, wie Sie eine neue Agile-Story erstellen, wenn Sie sich bereits in der Iteration befinden. Informationen zum Erstellen einer Agile-Story aus einer Aufgabe, einem Problem oder einem anderen [!DNL Adobe Workfront] finden Sie unter [Hinzufügen von Stories zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -30,7 +30,7 @@ In diesem Artikel wird beschrieben, wie Sie eine neue agile Story erstellen, wen
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -30,4 +30,4 @@ Weitere Informationen finden Sie unter [Konfigurieren von Kanban](../../../agile
 
 ## Agile-Boards laden 50 Arbeitselemente gleichzeitig
 
-Um die Geschwindigkeit und Leistung der agilen Tools zu erhöhen, werden jetzt bis zu 50 Karten an verschiedenen Stellen geladen. Wenn sich auf einem Agile-Board mehr als 50 Arbeitselemente befinden, wird unten auf dem Board oder Rückstand eine Schaltfläche angezeigt, mit der Sie zusätzliche Arbeitselemente laden können.
+Um die Geschwindigkeit und Leistung der Agile-Tools zu steigern, können jetzt bis zu 50 Karten an verschiedenen Stellen geladen werden. Wenn sich auf einem Agile-Board mehr als 50 Arbeitselemente befinden, wird unten auf dem Board oder Rückstand eine Schaltfläche angezeigt, mit der Sie zusätzliche Arbeitselemente laden können.

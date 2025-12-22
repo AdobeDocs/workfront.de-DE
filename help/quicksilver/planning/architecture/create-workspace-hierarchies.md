@@ -4,9 +4,9 @@ description: Als Workspace-Manager können Sie in Adobe Workfront Planning mehre
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -28,22 +28,23 @@ hidefromtoc: yes
 
 # Workspace-Hierarchien erstellen
 
-Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen den Datensatztypen erstellen.
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie eine Hierarchie erstellen, die diese Verbindungen organisiert. Hierarchien organisieren Datensatztypen in hierarchischen Beziehungen und können bis zu vier Ebenen von Objekttypen enthalten.
+Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen Datensatztypen erstellen.
+
+Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie eine Hierarchie erstellen, die diese Verbindungen organisiert. Hierarchien organisieren Datensatz- und Objekttypen in hierarchischen Beziehungen und können bis zu vier Ebenen von Objekttypen enthalten.
 
 Wenn noch keine Verbindung zwischen zwei Datensatztypen besteht, kann sie beim Einrichten der Hierarchie erstellt werden. Nach der Definition richtet die Hierarchie einen strukturierten Pfad über verwandte Datensatztypen hinweg im Arbeitsbereich ein.
 
-Hierarchien generieren Breadcrumbs für die Datensatztypen und Datensätze, <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> in ihren Kopfzeilen angezeigt werden. Auf diese Weise wissen die Benutzer in jeder Phase ihres Workflows, wo sie sich in der Hierarchie befinden.
+Hierarchien generieren Breadcrumbs für die Datensatztypen und die entsprechenden Datensatztypen, <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> in ihren Kopfzeilen angezeigt werden. Auf diese Weise wissen die Benutzer in jeder Phase ihres Workflows, wo sie sich in der Hierarchie befinden.
 
 Allgemeine Informationen zu Hierarchien und Breadcrumbs finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Zugriffsanforderungen
 
 <!--check the access to see if you oversimplified???-->
-
-<!--Update the TOC for this to publish-->
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen, um die Schritte in diesem Artikel auszuführen:  
 
@@ -90,16 +91,29 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Workspace-Namen und klicken Sie dann auf **Einstellungen**.
 Der **Hierarchien** Abschnitt wird standardmäßig geöffnet.
 1. Klicken Sie **Neue**) in der oberen rechten Ecke der Seite **Hierarchien**.
-1. Klicken Sie **Objekt hinzufügen** und wählen Sie ein Objekt aus dem Dropdown-Menü aus. Dies wird das erste übergeordnete Objekt in Ihrer Hierarchie sein.
-Das erste übergeordnete Element kann nur vom Typ Planungsdatensatz sein. Workfront-Projekte können nicht als übergeordnete Elemente anderer Objekttypen in einer Hierarchie ausgewählt werden.
-1. Klicken Sie **Objekt hinzufügen**, um ein zweites Objekt hinzuzufügen, das das erste untergeordnete Objekt in Ihrer Hierarchie ist, und wählen Sie dann im Dropdown-Menü ein anderes Objekt aus.
-   ![Neues Hierarchiefeld ohne Feld ausgewählt](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
-1. Klicken Sie **Verbundenes Feld auswählen**, um anzugeben, welches Feld die beiden Objekte verbindet.
-1. (Bedingt) Wenn ein verbundenes Feld zwischen den beiden Objekttypen vorhanden ist, wählen Sie es aus der Liste aus. Klicken Sie andernfalls auf **Neue Verbindung hinzufügen**.
+1. Klicken Sie **Objekt hinzufügen** und wählen Sie im Dropdown-Menü einen Objekttyp aus. Dies wird der erste Objekttyp in Ihrer Hierarchie sein. <!--logged bug to correct to "Add object type"-->
 
-   >[!WARNING]
-   >
-   >Wenn das **entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, müssen Sie das Feld zuerst bearbeiten, bevor Sie fortfahren können.
+   Der erste Objekttyp kann nur ein Planungs-Datensatztyp sein.
+
+   Workfront-Projekte können nicht als übergeordnete Elemente anderer Objekttypen in einer Hierarchie ausgewählt werden.
+
+1. Klicken Sie **Objekt hinzufügen**, um einen zweiten Objekttyp hinzuzufügen, der das erste untergeordnete Element in Ihrer Hierarchie ist, und wählen Sie dann im Dropdown-Menü einen anderen Objekttyp aus.
+Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen Objekttypen.
+
+   ![Neues Hierarchiefeld ohne Feld ausgewählt](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+
+1. Klicken Sie **Verbundenes Feld auswählen**, um anzugeben, welches Feld die beiden Objekte verbindet.
+1. (Bedingt) Wenn mehrere Verbindungsfelder vorhanden sind, wählen Sie eines aus der Liste aus.
+
+   ODER
+
+   Klicken Sie **Neue Verbindung hinzufügen**, um ein neues Verbindungsfeld hinzuzufügen.
+
+   Dadurch wird ein Verbindungsfeld aus dem Datensatztyp erstellt, den Sie als übergeordnetes Element verwenden, und ein entsprechendes Verbindungsfeld zu ihm aus dem Datensatztyp, den Sie als untergeordnetes Element verwenden.
+
+   Wenn Sie eine Verbindung zu Workfront-Projekten herstellen, wird kein Feld im Projekt erstellt.
+
+1. (Bedingt) Wenn keine verbundenen Felder verfügbar sind, klicken Sie auf **Verbindung erstellen** und fügen Sie eine neue Verbindung hinzu. Klicken Sie dann auf **Speichern**.
 
 1. (Bedingt) Wenn Sie eine neue Verbindung hinzufügen, gehen Sie wie folgt vor:
 
@@ -110,13 +124,25 @@ Das erste übergeordnete Element kann nur vom Typ Planungsdatensatz sein. Workfr
       * **Eins zu viele**
       * **Viele zu eins**
       * **Eins zu eins**
+
    1. Bitte eine der folgenden Arten von Darstellungen von Datensätzen auswählen:
 
       * **Name und Bild**
       * **Name**
-      * **image**
-Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+      * **Bild**
+
+      Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
    1. Klicken Sie auf **Speichern**.
+
+1. (Bedingt) Wenn die Option **Entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, wird ein Fehler angezeigt und Sie müssen zunächst Folgendes tun: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+
+   1. Klicken Sie **** Feld **Neue Hierarchie** auf „Abbrechen“.
+   1. Klicken Sie links neben dem Arbeitsbereichsnamen auf den Rückwärtspfeil und dann auf die Karte des Datensatztyps, den Sie als übergeordneten Datensatz auswählen möchten.
+   1. Öffnen Sie die Tabellenansicht des Datensatztyps, den Sie im obigen Schritt ausgewählt haben, wechseln Sie dann zum Verbindungsfeld mit dem Objekttyp, den Sie als untergeordnetes Element verwenden möchten, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf **Bearbeiten** Feld.
+   1. Aktivieren Sie die Einstellung **entsprechendes Feld für verknüpften Datensatztyp erstellen** und klicken Sie dann auf **Speichern**.
+   1. Kehren Sie zum Bereich **Einstellungen“ des Arbeitsbereichs zurück** klicken Sie erneut auf **Neue**) und führen Sie dann die Schritte zum Erstellen einer Hierarchie aus.
+
 1. (Optional) Fügen Sie Ihren Hierarchien wie oben beschrieben bis zu 4 Objekttypen hinzu. Sie können zuerst alle Objekttypen hinzufügen und dann die Verbindungsfelder zwischen ihnen hinzufügen.
 1. (Optional) Klicken Sie auf das **Entfernen**-Symbol ![Entfernen](assets/minus-icon.png), um eine Verbindung zu entfernen.
 1. Klicken Sie auf **Speichern**, um Ihre Hierarchie zu speichern.
@@ -129,7 +155,11 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
    * Die Hierarchie wird zum Abschnitt **Hierarchien** des Arbeitsbereichs hinzugefügt.
    * Die Datensätze, die die Verbindungsfelder ausfüllen, zeigen alle Verbindungen in ihren Breadcrumbs an, wenn Sie zur Seite eines Datensatzes gehen.
-1. (Optional) Bewegen Sie den Mauszeiger über eine Hierarchie und klicken Sie dann auf das **Mehr**-Menü und dann auf eine der folgenden Aktionen:
+1. (Optional) Bewegen Sie den Mauszeiger über eine Hierarchie und klicken Sie dann auf das Menü **Mehr**.
+
+   ![Hierarchie Mehr Menü erweitert](assets/hierarchy-more-menu-expanded.png)
+
+1. Klicken Sie auf eine der folgenden Optionen:
 
    * **Bearbeiten**: Dadurch wird das Feld &quot;**bearbeiten** geöffnet, in dem Sie Änderungen vornehmen können.
    * **Löschen**: Dadurch wird die Hierarchie dauerhaft gelöscht. Gelöschte Hierarchien können nicht wiederhergestellt werden. Verbindungsfelder werden nicht gelöscht.

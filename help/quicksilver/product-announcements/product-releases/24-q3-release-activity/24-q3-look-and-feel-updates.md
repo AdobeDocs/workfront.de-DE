@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Weitere Informationen finden Sie unter [Dokumentdetails - Übersicht](/help/quic
 
 Wir haben die Seite „Iterationsdetails“ > „Benutzerdefiniertes Forms&quot; aktualisiert, um ein moderneres Design zu erhalten, das mit anderen Bereichen von Workfront konsistent ist. Die Seite unterstützt jetzt erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder.
 
-Weitere Informationen finden Sie unter [Erstellen einer agilen Story in einer Iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Weitere Informationen finden Sie unter [Erstellen einer Agile-Story in einer Iteration](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Lookand-Feel-Aktualisierungen für den Bereich Gruppen
 

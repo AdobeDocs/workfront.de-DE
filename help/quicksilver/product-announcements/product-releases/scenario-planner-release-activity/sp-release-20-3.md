@@ -8,7 +8,7 @@ description: Workfront Scenario Planner ist ab Version 20.3 nur noch mit dem neu
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Mit dem Szenario-Planer können Sie:
 
   Erstellen und vergleichen Sie Szenarien, erleichtern Sie Zusammenarbeit und Konsens, führen Sie sie aus und planen Sie sie bei Bedarf neu.
 
-Der Szenario-Planer hilft Ihnen, Ihre Planung agiler zu gestalten. Egal, ob Sie den strategischen Plan für Ihr Unternehmen besitzen oder die vierteljährliche Planung für eine einzelne Geschäftseinheit, Abteilung oder ein einzelnes Team durchführen, der Szenarioplaner kann Ihnen helfen. Schnelles und einfaches Erstellen und Vergleichen mehrerer Szenarien auf der Grundlage von Einschränkungen wie Budgets oder Team-Ressourcen.
+Der Szenario-Planer hilft Ihnen, bei Ihrer Planung agiler zu sein. Egal, ob Sie den strategischen Plan für Ihr Unternehmen besitzen oder die vierteljährliche Planung für eine einzelne Geschäftseinheit, Abteilung oder ein einzelnes Team durchführen, der Szenarioplaner kann Ihnen helfen. Schnelles und einfaches Erstellen und Vergleichen mehrerer Szenarien auf der Grundlage von Einschränkungen wie Budgets oder Team-Ressourcen.
 
 Mit dem Szenario-Planer können Sie Szenarien nach Ziel oder Initiative im Szenario-Planer modellieren, um Fragen wie die folgenden zu beantworten:
 

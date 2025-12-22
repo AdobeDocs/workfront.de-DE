@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Felder löschen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,23 +28,6 @@ In Adobe Workfront Planning können Sie benutzerdefinierte Felder erstellen, um 
 Informationen zum Erstellen benutzerdefinierter Felder in Workfront Planning finden Sie unter [Erstellen von Feldern](/help/quicksilver/planning/fields/create-fields.md).
 
 Sie können Workfront Planning-Felder löschen, die nicht mehr relevant sind.
-
-## Überlegungen zum Löschen von Workfront Planning-Feldern:
-
-* Ein Feld kann nur in der Tabellenansicht vom Typ Datensatz gelöscht werden.
-* Das primäre Feld eines Datensatzes kann nicht gelöscht werden.
-* Alle im Feld gespeicherten Informationen werden gelöscht und können nicht wiederhergestellt werden.
-* Wenn Sie ein verbundenes Datensatzfeld löschen, werden auch alle verbundenen Lookup-Felder aus dem Datensatztyp gelöscht, von dem aus Sie eine Verbindung herstellen. Die verbundenen Datensatzfelder der Datensatztypen, mit denen Sie eine Verbindung herstellen, werden auch aus dem Datensatz gelöscht, mit dem Sie eine Verbindung herstellen.
-
-  Wenn Sie beispielsweise Kampagnen mit einem anderen Datensatztyp namens „Produkt“ verbinden und das Feld „Produktverbindung“ und das Suchfeld „Produktstatus“ aus der Kampagne löschen, werden die folgenden Elemente gelöscht:
-
-   * Das Feld Mit Produkt verbunden der Kampagne
-   * Das Suchfeld „Produktstatus“ in der Kampagne
-   * Das Feld der mit dem Produkt verbundenen Kampagne.
-
-  Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Zugriffsanforderungen
 
@@ -64,15 +47,13 @@ Sie können Workfront Planning-Felder löschen, die nicht mehr relevant sind.
    <td> 
 <ul> 
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
 
-<!--
-<p><span class="preview">To delete global record types:</span</p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-Or
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
--->
+<p><span class="preview">So löschen Sie Felder aus globalen Datensatztypen:</span></p>
+<ul><li><p><span class="preview">Beliebiges Workfront-Paket und Planning Plus-Paket</span></p></li>
+ODER
+<li><p><span class="preview">Beliebige Workflow- und Planungspakete für Prime und Ultimate</span></p></li></ul>
 
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -151,6 +132,25 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 </tbody> 
 </table> -->
 
+## Überlegungen zum Löschen von Workfront Planning-Feldern:
+
+* Ein Feld kann nur in der Tabellenansicht vom Typ Datensatz gelöscht werden.
+* Das primäre Feld eines Datensatzes kann nicht gelöscht werden.
+* Alle im Feld gespeicherten Informationen werden gelöscht und können nicht wiederhergestellt werden.
+* Wenn Sie ein verbundenes Datensatzfeld löschen, werden auch alle verbundenen Lookup-Felder aus dem Datensatztyp gelöscht, von dem aus Sie eine Verbindung herstellen. Die verbundenen Datensatzfelder der Datensatztypen, mit denen Sie eine Verbindung herstellen, werden auch aus dem Datensatz gelöscht, mit dem Sie eine Verbindung herstellen.
+
+  Wenn Sie beispielsweise Kampagnen mit einem anderen Datensatztyp namens „Produkt“ verbinden und das Feld „Produktverbindung“ und das Suchfeld „Produktstatus“ aus der Kampagne löschen, werden die folgenden Elemente gelöscht:
+
+   * Das Feld Mit Produkt verbunden der Kampagne
+   * Das Suchfeld „Produktstatus“ in der Kampagne
+   * Das Feld für die mit dem Produkt verbundene Kampagne
+
+  Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+
+* <span class="preview">Sie können keine Felder aus globalen Datensätzen löschen, die einem sekundären Arbeitsbereich aus den sekundären Arbeitsbereichen hinzugefügt wurden.</span>
+
 ## Felder löschen
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
@@ -177,4 +177,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. Klicken Sie **Löschen** zur Bestätigung.
 
-   Das Feld wird gelöscht, kann nicht wiederhergestellt werden und kann mit keinen Datensätzen mehr verknüpft werden.
+   Gelöschte Felder können nicht wiederhergestellt werden.
+
+   Je nachdem, welchen Typ von Feld Sie gelöscht haben, geschieht Folgendes:
+
+   * Wenn Sie ein Feld löschen, das zu dem von Ihnen ausgewählten Datensatz gehört, wird das Feld gelöscht und kann mit keinem Datensatz mehr verknüpft werden. Wenn dieses Feld als Suchfeld in anderen Datensätzen hinzugefügt wird, werden diese Felder ebenfalls gelöscht.
+   * Wenn Sie ein Verbindungsfeld löschen, wird das Feld aus dem ausgewählten Datensatz gelöscht. Außerdem wird das entsprechende Verbindungsfeld aus seinem ursprünglichen Datensatz ebenfalls gelöscht.
+   * Wenn Sie ein Suchfeld löschen, das aus einem verbundenen Datensatz hinzugefügt wurde, wird das Feld aus dem ausgewählten Datensatztyp gelöscht, bleibt jedoch vom ursprünglichen Datensatztyp.
+   * <span class="preview">Wenn Sie ein Feld aus einem globalen Datensatztyp in seinem primären Arbeitsbereich löschen, wird es aus allen Arbeitsbereichen gelöscht, in denen dieser Datensatztyp hinzugefügt wurde. Sie können keine Felder aus globalen Datensatztypen aus ihren sekundären Arbeitsbereichen löschen.</span>

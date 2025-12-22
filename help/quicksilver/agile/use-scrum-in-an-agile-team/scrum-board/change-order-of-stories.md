@@ -6,10 +6,10 @@ description: Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt wer
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie Spalten auf dem Story Board neu anordnen, werden alle von Ihnen vorgeno
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -57,6 +57,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Ändern der Story-Reihenfolge in einem Projekt
 
-Im Gegensatz zu agilen Iterationen können Sie die Story-Reihenfolge nicht ändern, wenn Sie ein Projekt in einer agilen Ansicht anzeigen. Um die Storyreihenfolge für ein Projekt zu ändern, müssen Sie das Projekt in einer Standardansicht anzeigen.
+Im Gegensatz zu agilen Iterationen können Sie die Story-Reihenfolge nicht ändern, wenn Sie ein Projekt in einer Agile-Ansicht anzeigen. Um die Storyreihenfolge für ein Projekt zu ändern, müssen Sie das Projekt in einer Standardansicht anzeigen.
 
 Informationen zum Ändern der Projektansicht finden Sie unter [[!UICONTROL Verwalten eines Projekts] in der [!UICONTROL Agile]Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Wählen Sie keine Agile-Ansicht, sondern eine Standardansicht aus.

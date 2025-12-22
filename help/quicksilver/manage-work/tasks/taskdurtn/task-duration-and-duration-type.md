@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Benutzers, der der Aufgabe zugewiesen wurde.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der/die Benutzende oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
@@ -55,7 +55,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des primären Verantwortlichen.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der primäre Zugewiesene oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
@@ -153,7 +153,7 @@ Der Dauertyp hilft bei der Beantwortung der folgenden Fragen:
   <tr> 
    <th scope="col"> <p><strong>Einfach</strong> </p> </th> 
    <td scope="col"> <p>Bestimmt die geplanten Stunden und die Dauer (die für diesen Dauertyp gleich sind) basierend auf der Anzahl der Stunden, für die jeder Zugewiesene zugewiesen wird. </p> <p>Workfront berechnet die geplanten Stunden durch Addition der geplanten zugewiesenen Stunden für jeden Verantwortlichen. </p> <p>Sie haben die Möglichkeit, die Anzahl der Stunden, für die jeder Verantwortliche zugewiesen wird, manuell zu ändern. Die Anzahl der geplanten Stunden und der Betrag der Dauer ändern sich entsprechend. Wenn Sie die Gesamtanzahl der zugewiesenen Stunden für alle Verantwortlichen auswählen, wird diese Zahl zu gleichen Teilen auf die einzelnen Verantwortlichen aufgeteilt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Duration Type Overview: Simple</a>.</p> </td> 
-   <td scope="col"> <p>Stunden werden gleichmäßig auf die Verantwortlichen verteilt, wenn Sie eine Gesamtzahl zugewiesener Stunden auswählen. Als Projekt-Manager können Sie jedoch die Stunden für jeden einzelnen Zugewiesenen manuell anpassen. </p> <p>Sie können „Geplante Stunden“ und „Dauer“ einer Aufgabe mit einem einfachen Dauertyp inline oder auf Aufgabenebene bearbeiten. </p> <p>Wenn ein agiles Team einer Aufgabe zugewiesen wird, wird der Dauertyp automatisch auf „Einfach“ gesetzt und kann nicht geändert werden. Die Aufgabendauer für ein agiles Team muss länger als 0 Minuten sein.</p> </td> 
+   <td scope="col"> <p>Stunden werden gleichmäßig auf die Verantwortlichen verteilt, wenn Sie eine Gesamtzahl zugewiesener Stunden auswählen. Als Projekt-Manager können Sie jedoch die Stunden für jeden einzelnen Zugewiesenen manuell anpassen. </p> <p>Sie können „Geplante Stunden“ und „Dauer“ einer Aufgabe mit einem einfachen Dauertyp inline oder auf Aufgabenebene bearbeiten. </p> <p>Wenn ein Agile-Team einer Aufgabe zugewiesen wird, wird der Dauertyp automatisch auf „Einfach“ gesetzt und kann nicht geändert werden. Die Aufgabendauer für ein Agile-Team muss länger als 0 Minuten sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>

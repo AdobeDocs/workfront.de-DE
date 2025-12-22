@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.3 Agile-Verbesserungen
 
-Auf dieser Seite werden alle Boards und agilen Verbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Boards und Agile-Verbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter Übersicht über Version [23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -118,13 +118,13 @@ Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand
 
 [Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## Migrieren von Agile-Team-Kanban-Karten zu Pinnwänden
+## Agile-Team-Kanban-Karten zu Pinnwänden migrieren
 
-Eine neue Schaltfläche **Zu Pinnwänden hinzufügen** auf agilen Team-Kanban-Pinnwänden ermöglicht das Hinzufügen aller Karten aus dem Kanban-Board zu einem Workfront-Board. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer bestehenden Pinnwand hinzufügen.
+Eine neue Schaltfläche **Zu Pinnwänden hinzufügen** auf Agile-Team-Kanban-Pinnwänden ermöglicht das Hinzufügen aller Karten aus dem Kanban-Board zu einem Workfront-Board. Sie können eine neue Workfront-Pinnwand erstellen oder die Karten einer bestehenden Pinnwand hinzufügen.
 
 Die Platzierung von Karten auf der Workfront-Pinnwand basiert auf Spaltenrichtlinien. (Eine Richtlinie kann beispielsweise alle Karten mit dem Status „In Bearbeitung“ in eine bestimmte Spalte verschieben.) Wenn keine Richtlinien vorhanden sind oder die Karten nicht mit den Richtlinien übereinstimmen, werden die Karten in der Spalte ganz links platziert. Derzeit werden die Karten in der Spalte „Rückstand“ auf der alten Pinnwand nicht zur Workfront-Pinnwand hinzugefügt.
 
-Die Karten werden nicht aus dem Kanban-Board des Agile-Teams entfernt, und Änderungen des Kartenstatus werden mit beiden Boards synchronisiert. Sie können beide Pinnwände aktiviert lassen, bis Sie bereit sind, zu Workfront-Pinnwänden zu wechseln.
+Die Karten werden nicht aus dem Agile-Team-Kanban-Board entfernt und Kartenstatusänderungen werden mit beiden Boards synchronisiert. Sie können beide Pinnwände aktiviert lassen, bis Sie bereit sind, zu Workfront-Pinnwänden zu wechseln.
 
 Weitere Informationen finden Sie unter [Migrieren von Agile-Team-Kanban-Karten zu Workfront-Boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 

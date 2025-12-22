@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 23.2 Agile-Verbesserungen
 
-Auf dieser Seite werden alle agilen Verbesserungen beschrieben, die mit Version 23.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 23.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter Übersicht über Version [23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter [Hinzufügen vorhandener Aufgaben oder Pr
 
 ## In Adobe Workfront-Motherboards verfügbare Iterationsfunktionen
 
-Mehrere neue Funktionen, die in Workfront Boards verfügbar sind, ermöglichen die Verwendung der agilen Scrum-Funktionalität. Zu diesen Funktionen gehören:
+Mehrere neue Funktionen, die in Workfront-Boards verfügbar sind, ermöglichen die Verwendung der Agile-Scrum-Funktion. Zu diesen Funktionen gehören:
 
 * Arbeitsabläufe zum Gruppieren von Pinnwänden, die demselben Team zugeordnet sind und an der Arbeit zusammenarbeiten
 * Eine Liste von Karten oder Arbeitsrückstand mit der Option, Quellen zu verwenden, um Karten mit Workfront-Aufgaben und -Problemen zu verbinden

@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Scrum Board - Übersicht
-description: Das agile Story Board von Scrum wird zusammen mit dem Abschlussstatus und dem Burndown-Diagramm angezeigt.
+description: Das Agile-Story-Board von Scrum wird zusammen mit dem Abschlussstatus und dem Burndown-Diagramm angezeigt.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Das [!UICONTROL Scrum] Agile-Story-Board wird zusammen mit dem Abschlussstatus und dem Burndown-Diagramm angezeigt. Diese agilen Komponenten sind in den folgenden Situationen in [!UICONTROL Adobe Workfront verfügbar]:
+Das [!UICONTROL Scrum] Agile-Story-Board wird zusammen mit dem Abschlussstatus und dem Burndown-Diagramm angezeigt. Diese Agile-Komponenten sind in den folgenden Situationen in [!UICONTROL Adobe Workfront verfügbar]:
 
-* Bei agilen Iterationen. Weitere Informationen zur Verwendung des Agile-Story-Boards, des Burndown-Diagramms und des Abschlussstatus in einer reinen agilen Umgebung (mit Rückständen und einer Iteration) finden Sie unter [Arbeiten in einer agilen Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Bei agilen Iterationen. Weitere Informationen zur Verwendung des Agile-Story-Boards, des Burndown-Diagramms und des Abschlussstatus in einer rein agilen Umgebung (mit Rückständen und einer Iteration) finden Sie unter [Arbeiten in einer agilen Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 * Beim Anzeigen eines Projekts in einer Agile-Ansicht. Informationen dazu, wie Sie das Agile-Story-Board, das Burndown-Diagramm und den Abschlussstatus in einem vorhandenen Projekt nutzen können, finden Sie unter [Verwalten eines Projekts in der Agile-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Agile Iteration](assets/agile-iteration-with-callouts.png)
@@ -35,7 +35,7 @@ Das Story Board besteht aus folgenden Elementen:
 
   In einer Iteration wird diese Spalte nur dann im Story Board angezeigt, wenn mindestens eine Story Board mindestens eine Teilaufgabe enthält, die die folgenden Anforderungen erfüllt:
 
-   * Diesem agilen Team wie die übergeordnete Aufgabe zugewiesen.
+   * Diesem Agile-Team wie die übergeordnete Aufgabe zugewiesen.
    * Gehört zur Iteration.
 
      In einem Projekt wird diese Spalte immer dann angezeigt, wenn eine Aufgabe mindestens eine Teilaufgabe hat.
@@ -50,7 +50,7 @@ Das Story Board besteht aus folgenden Elementen:
 
   In einer Iteration werden Schwimmspuren nur dann auf dem Story Board angezeigt, wenn eine Story auf dem Story Board mindestens eine Teilaufgabe enthält, die die folgenden Anforderungen erfüllt:
 
-   * Diesem agilen Team wie die übergeordnete Aufgabe zugewiesen.
+   * Diesem Agile-Team wie die übergeordnete Aufgabe zugewiesen.
    * Gehört zur Iteration.
 
   In einem Projekt werden Schwimmspuren immer dann angezeigt, wenn eine Aufgabe mindestens eine Unteraufgabe oder eine übergeordnete Aufgabe hat.
@@ -67,10 +67,10 @@ Dieselbe Logik gilt für Teilaufgaben der zweiten Ebene (Teilaufgaben von Teilau
 
 ## Beziehung zwischen dem Story Board und dem Auftragsbestand
 
-Der Iterationsrückstand zeigt nur Storys oder Unteraufgaben an, für die Sie einen Kostenvoranschlag festlegen können. Wenn eine übergeordnete Story Unteraufgaben aufweist, die auf dem Story Board angezeigt werden (da sie demselben agilen Team zugewiesen sind und zur Iteration gehören), wird die übergeordnete Aufgabe nicht im Rückstand angezeigt. In diesem Fall werden nur die Unteraufgaben im Rückstand angezeigt, während die Unteraufgaben und die übergeordnete Story auf dem Story Board angezeigt werden.
+Der Iterationsrückstand zeigt nur Storys oder Unteraufgaben an, für die Sie einen Kostenvoranschlag festlegen können. Wenn eine übergeordnete Story Unteraufgaben aufweist, die auf dem Story Board angezeigt werden (da sie demselben Agile-Team zugewiesen sind und zur Iteration gehören), wird die übergeordnete Aufgabe nicht im Rückstand angezeigt. In diesem Fall werden nur die Unteraufgaben im Rückstand angezeigt, während die Unteraufgaben und die übergeordnete Story auf dem Story Board angezeigt werden.
 
-Angenommen, Story A enthält Unteraufgabe 1 und Unteraufgabe 2 (und beide Unteraufgaben werden demselben agilen Team zugewiesen). In diesem Fall wird Story A auf dem Storyboard in einer Schwimmspur mit Unteraufgabe 1 und Unteraufgabe 2 angezeigt. Im Rückstand werden jedoch nur Teilaufgabe 1 und Teilaufgabe 2 angezeigt.
+Angenommen, Story A enthält Unteraufgabe 1 und Unteraufgabe 2 (und beide Unteraufgaben werden demselben Agile-Team zugewiesen). In diesem Fall wird Story A auf dem Storyboard in einer Schwimmspur mit Unteraufgabe 1 und Unteraufgabe 2 angezeigt. Im Rückstand werden jedoch nur Teilaufgabe 1 und Teilaufgabe 2 angezeigt.
 
-Dieselbe Logik gilt für Teilaufgaben der zweiten Ebene (Teilaufgaben von Teilaufgaben). Wenn eine Unteraufgabe eine oder mehrere Unteraufgaben der zweiten Ebene demselben agilen Team zugewiesen hat und zur Iteration gehören, wird nur die Unteraufgabe der zweiten Ebene im Rückstand angezeigt.
+Dieselbe Logik gilt für Teilaufgaben der zweiten Ebene (Teilaufgaben von Teilaufgaben). Wenn eine Unteraufgabe eine oder mehrere Unteraufgaben der zweiten Ebene demselben Agile-Team zugewiesen hat und zur Iteration gehören, wird nur die Unteraufgabe der zweiten Ebene im Rückstand angezeigt.
 
 Weitere Informationen zum Auftragsbestand finden Sie unter [Verwalten des agilen Auftragsbestands](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

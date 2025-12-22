@@ -6,10 +6,10 @@ description: Workfront-Admins und Benutzende mit einer Plan- oder Arbeitslizenz 
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können Benutzer zu einem Team hinzufügen, die Team-Layout-Vorlage festlege
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Sie können Benutzer zu einem Team hinzufügen, die Team-Layout-Vorlage festlege
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Arbeit oder höher</p></td>
+   <p>Work oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 
@@ -77,9 +77,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
      Weitere Informationen zum Anwenden einer benutzerdefinierten Layout-Vorlage auf ein Team finden Sie im Abschnitt „Anwenden einer benutzerdefinierten Vorlage auf ein Team“ in den Bereichen [!UICONTROL Meine Arbeit] und [!UICONTROL Arbeitsanfragen] mit Layout-Vorlagen.
 
-   * Entscheiden Sie, ob dieses Team ein agiles Team ist, indem Sie die Option **[!UICONTROL Dies ist ein agiles Team]** auswählen.
+   * Entscheiden Sie, ob dieses Team ein Agile-Team ist, indem Sie die Option **[!UICONTROL Dies ist ein Agile-Team]** auswählen.
 
-     Weitere Informationen zu agilen Teams und zur Verwaltung der Arbeit in einem agilen Team finden Sie unter [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Weitere Informationen zu Agile-Teams und zur Verwaltung der Arbeit in einem Agile-Team finden Sie unter [Erstellen eines Agile-Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Ändern Sie die Schaltfläche [!UICONTROL Bearbeiten] in eine Schaltfläche [!UICONTROL Starten]. Weitere Informationen zum Konfigurieren der Schaltfläche [!UICONTROL Starten] finden Sie unter [Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche [!UICONTROL Starten]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Passen Sie die Schaltfläche **[!UICONTROL Fertig]** an. Weitere Informationen zum Anpassen der Schaltfläche [!UICONTROL Fertig] finden Sie unter:

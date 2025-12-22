@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -25,13 +25,13 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
 
 >[!NOTE]
 >
->Benutzerdefinierte Gruppenstatus können nicht in einem Projekt angezeigt werden, wenn das Projekt in einer Agile-Ansicht angezeigt wird. Beim Anzeigen eines Projekts in einer Agile-Ansicht sind nur standardmäßige und benutzerdefinierte gesperrte Status sichtbar. Informationen zum Anpassen einer Agile-Ansicht für ein Projekt finden Sie im Abschnitt [Erstellen oder Anpassen einer Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Benutzerdefinierte Gruppenstatus können nicht für ein Projekt angezeigt werden, wenn das Projekt in einer Agile-Ansicht angezeigt wird. Beim Anzeigen eines Projekts in einer Agile-Ansicht sind nur standardmäßige und benutzerdefinierte gesperrte Status sichtbar. Informationen zum Anpassen einer Agile-Ansicht für ein Projekt finden Sie im Abschnitt [Erstellen oder Anpassen einer Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) im Artikel [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Allgemeine Informationen zu Status finden Sie unter [Status - Übersicht](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. (Bedingt) Um einen neuen Status zu erstellen, klicken Sie auf **Neuen Status hinzufügen**.
 
-   Oder
+   ODER
 
    Um einen vorhandenen Status zu bearbeiten, bewegen Sie den Mauszeiger über den Status, den Sie bearbeiten möchten, und klicken Sie dann auf die **Bearbeiten** Option, die ganz rechts angezeigt wird.
 

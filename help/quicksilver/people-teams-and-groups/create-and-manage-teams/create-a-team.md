@@ -6,10 +6,10 @@ description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambes
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
 
-Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des &#x200B;]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des ]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
 
 Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Bereich [!UICONTROL Setup] erstellen kann, finden Sie [Erstellen eines Teams im Bereich [!UICONTROL Setup]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,9 +65,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      >
      >Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können alle Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied sein zu müssen. Gruppenadministratoren können im Hauptmenü zum Bereich Teams gehen und auf den Pfeil Teams wechseln ![Symbol Team wechseln](assets/switch-team-icon.png) klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.
 
-   * **[!UICONTROL Dies ist ein agiles Team]:** Wählen Sie diese Option, wenn Sie dieses neue Team als ein agiles Team konfigurieren möchten.
+   * **[!UICONTROL Dies ist ein agiles Team]:** Wählen Sie diese Option aus, wenn Sie dieses neue Team als ein agiles Team konfigurieren möchten.
 
-     Weitere Informationen zu agilen Teams finden Sie unter [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Weitere Informationen zu Agile-Teams finden Sie unter [Erstellen eines Agile-Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **[!UICONTROL Team-Mitglieder]:** Beginnen Sie mit der Eingabe des Namens eines Benutzers, der dem Team hinzugefügt werden soll, und wählen Sie dann den Namen aus, wenn er in der Dropdown-Liste angezeigt wird.
 

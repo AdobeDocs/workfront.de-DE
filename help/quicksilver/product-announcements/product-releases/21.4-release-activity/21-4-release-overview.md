@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Vorschau-Version: 9. September 2021<br></p> <p>Produktionsversion: Mit der Version 21.4</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Änderungen an der Agile-Ansicht von Projekten</a> </p> <p>Im Rahmen der Version 21.3 haben wir Verbesserungen an den Agile-Karten-Headern und Story-Boards vorgenommen (siehe <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Agile-Karten-Header- und Story-Board-Aktualisierungen</a>). Diese Aktualisierungen werden sowohl auf Iterationen als auch auf die agile Ansicht von Projekten angewendet.</p> <p>Mit Version 21.4 machen wir diese Verbesserungen für die agile Ansicht von Projekten rückgängig. An agilen Iterationen werden keine Änderungen vorgenommen.</p> <p>Im Folgenden finden Sie die Änderungen, die bezüglich der agilen Ansicht von Projekten rückgängig gemacht werden:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Änderungen an der Agile-Ansicht in Projekten</a> </p> <p>Im Rahmen der Version 21.3 haben wir Verbesserungen an den Agile-Karten-Headern und Story-Boards vorgenommen (siehe <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Agile-Karten-Header- und Story-Board-Aktualisierungen</a>). Diese Aktualisierungen werden sowohl auf Iterationen als auch auf die Agile-Ansicht von Projekten angewendet.</p> <p>Mit Version 21.4 machen wir diese Verbesserungen für die Agile-Ansicht von Projekten rückgängig. An agilen Iterationen werden keine Änderungen vorgenommen.</p> <p>Im Folgenden finden Sie die Änderungen, die in Bezug auf die Agile-Ansicht bei Projekten rückgängig gemacht werden:</p> 
     <ul> 
      <li> <p>Die Story-Karten und Board-Spalten haben einstellbare Breiten.</p> </li> 
      <li> <p>Spalten haben keine Hintergrundschattierung.</p> </li> 
@@ -449,7 +449,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ## Webinar zur Version 21.4
 
-Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. Sie können die Webinar-Aufzeichnung über die Seite [Ereignisse auf Workfront One“ &#x200B;](https://one.workfront.com/s/event).
+Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. Sie können die Webinar-Aufzeichnung über die Seite [Ereignisse auf Workfront One“ ](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -469,7 +469,7 @@ Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpf
 
 ## Funktion wird nicht mehr unterstützt
 
-### Internet Explorer 11
+### Internet Explorer 11
 
 Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge.
 

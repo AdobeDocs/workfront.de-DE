@@ -6,10 +6,10 @@ description: Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie n
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie eine Iteration löschen, werden alle Storys der Iteration in den Rücks
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -36,11 +36,11 @@ Wenn Sie eine Iteration löschen, werden alle Storys der Iteration in den Rücks
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Sie müssen Mitglied des agilen Teams sein, dem die Iteration zugewiesen ist</td> 
+   <td>Sie müssen Mitglied des Agile-Teams sein, dem die Iteration zugewiesen ist</td> 
   </tr>
  </tbody> 
 </table>

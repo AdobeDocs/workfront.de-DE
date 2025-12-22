@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Übersicht über Agile-Planungs-Tools: Artikelindex'
-description: Wenn Sie ein Board mit Ad-hoc- und verbundenen Karten erstellen, können Sie auf Boards zusätzliche agile Planungswerkzeuge nutzen.
+description: Wenn Sie ein Board mit Ad-hoc- und verbundenen Karten erstellen, können Sie auf Boards zusätzliche Agile-Planungs-Tools nutzen.
 author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, können Sie zusätzliche agile Planungswerkzeuge nutzen.
+Wenn Sie ein Board mit Ad-hoc- und verbundenen Karten erstellen, können Sie zusätzliche Agile-Planungstools nutzen.
 
 Zu den nützlichen Tools für Kanban gehören:
 
@@ -36,7 +36,7 @@ Zu den für Scrum nützlichen Tools gehören:
 >
 >Arbeitsabläufe und zugehörige Tools stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
-Sie können eines oder alle dieser Tools auf eine Weise verwenden, die für Sie und Ihr Team funktioniert, ohne sich auf eine bestimmte agile Methodik festzulegen.
+Sie können eines oder alle dieser Tools auf eine Weise verwenden, die für Sie und Ihr Team funktioniert, ohne sich auf eine bestimmte Agile-Methode festzulegen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

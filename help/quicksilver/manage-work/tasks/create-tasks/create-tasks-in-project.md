@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können Aufgaben auch wie folgt erstellen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ Sie können Aufgaben auch wie folgt erstellen:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -136,7 +136,7 @@ So erstellen Sie Aufgaben in einem Projekt:
 
    1. Geben Sie eines der Felder in der begrenzten Liste der Felder im Feld **Neue Aufgabe** an und klicken Sie dann auf **Aufgabe erstellen**, wenn Sie schnell eine Aufgabe erstellen möchten.
 
-      Oder
+      ODER
 
       Um alle Felder für die Aufgabe zu aktualisieren, klicken Sie auf **Weitere Optionen**, um das Feld **Aufgabe erstellen** zu öffnen.
 
@@ -218,6 +218,6 @@ So erstellen Sie Aufgaben in einem Projekt:
 
    Workfront speichert persönliche Aufgaben in einem nicht aufgelisteten persönlichen Projekt, das immer nach diesem Muster benannt wird: &quot;&lt; vollständiger Name des Benutzers > Aufgaben des Benutzers. Ein persönliches Projekt könnte z. B. „Ricks Aufgaben“ heißen.
 
-1. Klicken Sie auf der Aufgabenseite auf das **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Klicken Sie auf der Aufgabenseite auf das **** Mehr![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Nachdem Sie die Aufgabe verschoben haben, wird die Aufgabe für das ausgewählte Projekt angezeigt. Die Zeitleiste des Projekts ist möglicherweise von der Zeitleiste der neuen Aufgabe betroffen.

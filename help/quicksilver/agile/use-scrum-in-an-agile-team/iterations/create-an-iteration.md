@@ -2,24 +2,24 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Erstellen einer Iteration
-description: Iterationen sind eine Schlüsselkomponente für agile Scrum-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] Scrum ermöglicht es agilen Teams, ihre Arbeit zu verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
+description: Iterationen sind eine Schlüsselkomponente für Scrum Agile-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] ermöglicht es Agile-Teams, ihre Arbeit zu verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Erstellen einer Iteration
 
-Iterationen sind eine Schlüsselkomponente für agile Scrum-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] ermöglicht es agilen Scrum-Teams, ihre Arbeit zu verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
+Iterationen sind eine Schlüsselkomponente für Scrum Agile-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] können Agile-Teams ihre Arbeit verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +75,7 @@ Sie können der Liste eine Iteration hinzufügen, um schnell eine Iteration zu e
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Enddatum]</strong></td> 
-      <td><p>Geben Sie das Datum ein, an dem die Iteration enden soll. [!DNL Workfront] empfiehlt, ein Enddatum festzulegen, das nicht länger als 4 Wochen ab dem Startdatum liegt.</p><p>Tipp: Achten Sie darauf, einen Arbeitstag als Enddatum auszuwählen. Das Burndown-Diagramm verwendet bei seinen Berechnungen nur Arbeitstage.<br>Standardmäßig verwendet das Burndown-Diagramm den Standardzeitplan zum Definieren von Arbeitstagen (wie in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen) </a>. Oder um teamspezifische arbeitsfreie Tage einzubinden, können Agile-Teams einen alternativen Zeitplan verwenden (wie unter „Definieren eines alternativen Team-Zeitplans für Burndown-Diagramme“ in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines agilen Teams</a> beschrieben).</p></td> 
+      <td><p>Geben Sie das Datum ein, an dem die Iteration enden soll. [!DNL Workfront] empfiehlt, ein Enddatum festzulegen, das nicht länger als 4 Wochen ab dem Startdatum liegt.</p><p>Tipp: Achten Sie darauf, einen Arbeitstag als Enddatum auszuwählen. Das Burndown-Diagramm verwendet bei seinen Berechnungen nur Arbeitstage.<br>Standardmäßig verwendet das Burndown-Diagramm den Standardzeitplan zum Definieren von Arbeitstagen (wie in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen) </a>. Um Team-spezifische arbeitsfreie Tage einzubinden, können Agile-Teams auch einen alternativen Zeitplan verwenden (wie unter „Definieren eines alternativen Team-Zeitplans für Burndown-Diagramme“ in „Erstellen <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref"> agilen Teams“ beschrieben</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Kapazität]</strong></td> 
@@ -100,7 +100,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
 1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus.
 
-1. Wählen Sie auf der Registerkarte **&#x200B;**&#x200B;oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
+1. Wählen Sie auf der Registerkarte **** oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Enddatum]</strong> </td> 
-      <td><p>Geben Sie das Datum an, an dem die Iteration enden soll. [!DNL Workfront] empfiehlt, ein Enddatum festzulegen, das nicht länger als 4 Wochen ab dem Startdatum liegt.</p><p>Tipp: Achten Sie darauf, einen Arbeitstag als Enddatum auszuwählen. Das Burndown-Diagramm verwendet bei seinen Berechnungen nur Arbeitstage.<br>Standardmäßig verwendet das Burndown-Diagramm den Standardzeitplan zum Definieren von Arbeitstagen (wie in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen) </a>. Um teamspezifische arbeitsfreie Tage einzubinden, können agile Teams auch einen alternativen Zeitplan verwenden (siehe <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Verwenden eines alternativen Teamplans für Burndown-Diagramme</a>).</p></td> 
+      <td><p>Geben Sie das Datum an, an dem die Iteration enden soll. [!DNL Workfront] empfiehlt, ein Enddatum festzulegen, das nicht länger als 4 Wochen ab dem Startdatum liegt.</p><p>Tipp: Achten Sie darauf, einen Arbeitstag als Enddatum auszuwählen. Das Burndown-Diagramm verwendet bei seinen Berechnungen nur Arbeitstage.<br>Standardmäßig verwendet das Burndown-Diagramm den Standardzeitplan zum Definieren von Arbeitstagen (wie in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Zeitplan erstellen) </a>. Um teamspezifische arbeitsfreie Tage einzubinden, können Agile-Teams auch einen alternativen Zeitplan verwenden (siehe <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Verwenden eines alternativen Teamplans für Burndown-Diagramme</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL focus]</strong></td> 
@@ -152,7 +152,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
    >[!NOTE]
    >
-   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie &#x200B;] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
+   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie ] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
 
 
 ## Verstehen, wie Aufgabenstarttermine berechnet werden, wenn sie zu einer Iteration hinzugefügt werden {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

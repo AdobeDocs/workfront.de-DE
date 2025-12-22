@@ -6,10 +6,10 @@ description: Die Standardfarbzuordnung von Scrum-Board-Storys unterscheidet sich
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Die Standardfarbzuordnung von Storys unterscheidet sich, je nachdem, ob sich das Storyboard in einer Iteration oder in einem Projekt befindet:
 
-* **[!UICONTROL Iteration]**: Bei einer Iteration werden Story-Board-Kacheln entsprechend dem Projekt, mit dem die Story verknüpft ist, farbcodiert. (Jedem Projekt wird willkürlich eine Farbe auf dem Storyboard zugewiesen.) Sie können dieses Standardverhalten für jedes agile Team ändern. Die Farben für agile Storys einer Iteration können an das Projekt (Standard), die Story-Priorität, den Eigentümer oder die Freiform gebunden werden. Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von Farbindikatoren für Storys im Agile-Story](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteration]**: Bei einer Iteration werden Story-Board-Kacheln entsprechend dem Projekt, mit dem die Story verknüpft ist, farbcodiert. (Jedem Projekt wird willkürlich eine Farbe auf dem Storyboard zugewiesen.) Sie können dieses Standardverhalten für jedes Agile-Team ändern. Die Farben für Agile-Storys bei einer Iteration können an das Projekt (Standard), die Story-Priorität, den Eigentümer oder die Freiform gebunden werden. Weitere Informationen finden Sie unter [Konfigurieren der Verwendung von Farbindikatoren für Storys im Agile-Story](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Projekt]**: In einem Projekt stimmen alle Teilaufgaben mit der Farbe der übergeordneten Aufgabe überein, sodass die Farben aller Storys in einem bestimmten Swimlane gleich sind. Farben werden Aufgaben nach dem Zufallsprinzip zugewiesen, wenn sie erstellt werden, wenn die Aufgabe keine Unteraufgaben hat oder keine übergeordnete Aufgabe hat. Sie können dieses Standardverhalten ändern, indem Sie die Agile-Ansicht ändern. Die Farben für agile Storys eines Projekts können an die übergeordnete Story (Standard), die Story-Priorität, den Eigentümer oder die Freiform gebunden werden. Weitere Informationen finden Sie unter [Erstellen oder Anpassen einer [!UICONTROL Agile]Ansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Ansichten - Übersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Projekt]**: In einem Projekt stimmen alle Teilaufgaben mit der Farbe der übergeordneten Aufgabe überein, sodass die Farben aller Storys in einem bestimmten Swimlane gleich sind. Farben werden Aufgaben nach dem Zufallsprinzip zugewiesen, wenn sie erstellt werden, wenn die Aufgabe keine Unteraufgaben hat oder keine übergeordnete Aufgabe hat. Sie können dieses Standardverhalten ändern, indem Sie die Agile-Ansicht ändern. Die Farben für Agile-Storys eines Projekts können mit der übergeordneten Story (Standard), der Story-Priorität, dem Eigentümer oder der Freiform verknüpft werden. Weitere Informationen finden Sie unter [Erstellen oder Anpassen einer [!UICONTROL Agile]Ansicht](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Ansichten - Übersicht in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 

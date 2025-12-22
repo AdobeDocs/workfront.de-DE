@@ -3,7 +3,7 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -1047,7 +1047,7 @@ ht-degree: 2%
       * [Tags hinzufügen](agile/get-started-with-boards/add-tags.md)
       * [Verwalten der Pinnwand-Administratoransicht](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [Pinnwände - E-Mail-Benachrichtigungen und Voreinstellungen](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Verwenden von Agile-Planungs-Tools in Pinnwänden {#agile-planning-boards}
+   * Verwenden von Agile-Planungstools in Pinnwänden {#agile-planning-boards}
       * [Übersicht über Agile-Planungs-Tools: Artikelindex](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Verwalten des Work In Progress (WIP)-Limits auf einer Pinnwand](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
@@ -1062,11 +1062,11 @@ ht-degree: 2%
    * [Agile-Übersicht](agile/agile-overview.md)
    * Erste Schritte mit Agile in Adobe Workfront {#agile-in-workfront}
       * [Erste Schritte mit Agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Erstellen eines agilen Teams](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Erstellen eines Agile-Teams](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Kanban konfigurieren](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Konfigurieren von Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban in einem agilen Team {#kanban}
-      * [Kanban in einem agilen Team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * Kanban in einem Agile-Team {#kanban}
+      * [Kanban in einem Agile-Team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban-Übersicht](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Eine Unteraufgabe zu einer vorhandenen Story auf dem Kanban-Board hinzufügen](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [Hinzufügen vorhandener Aufgaben oder Probleme zum Kanban-Board](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1080,8 +1080,8 @@ ht-degree: 2%
       * [Flags für Storys auf dem Kanban-Board verwenden](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Rückstand zum Kanban-Board hinzufügen](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Story aus Kanban-Board löschen](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum in einem agilen Team {#scrum}
-      * [Scrum in einem agilen Team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * Scrum in einem Agile-Team {#scrum}
+      * [Scrum in einem Agile-Team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * Burndown {#burndown}
          * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Agile Burndown-Diagramm - Übersicht](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1116,7 +1116,7 @@ ht-degree: 2%
       * [Eine Agile-Story verschieben](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Tipps, Tricks und Fehlerbehebung für Agile {#tips-tricks-agile}
       * [Tipps, Tricks und Fehlerbehebung für Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-      * [Benutzerdefinierte Status werden nicht auf dem Agile-Story-Board angezeigt](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+      * [Benutzerdefinierte Status werden nicht im Agile-Story-Board angezeigt](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Dokumente {#documents}
    * [Dokumente: Artikelindex](documents/documents-overview.md)
    * Hinzufügen neuer Dokumente zu Adobe Workfront {#add-new-documents-to-workfront}
@@ -2206,7 +2206,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

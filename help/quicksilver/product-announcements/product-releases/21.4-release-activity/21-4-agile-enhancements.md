@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie in der Übe
 
 Wir haben die Story-Karten auf Kanban- und Scrum-Boards aktualisiert, um die Zuweisung von Benutzenden zur Story zu vereinfachen. Jetzt können Sie auf einen Team- oder Benutzeravatar klicken, um eine Zuweisung hinzuzufügen, wenn die Story-Karte erweitert wird. Zuvor mussten Sie ein separates Pluszeichen suchen und darauf klicken.
 
-Weitere Informationen finden Sie unter
+Weitere Informationen finden Sie unter 
 
 * [Benutzer einer Story auf dem Kanban-Board zuweisen](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [Zuweisen von Benutzern zu einer Story auf dem Scrum-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
@@ -41,11 +41,11 @@ Weitere Informationen finden Sie unter [Konfigurieren von Scrum](../../../agile/
 >
 >Diese Funktion wurde am 16. September 2021 in der Vorschau-Umgebung veröffentlicht.
 
-Im Rahmen der Version 21.3 haben wir Verbesserungen an den Agile-Karten-Headern und Story-Boards vorgenommen (siehe [Agile-Karten-Header- und Story-Board-Aktualisierungen](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Diese Aktualisierungen werden sowohl auf Iterationen als auch auf die agile Ansicht von Projekten angewendet.
+Im Rahmen der Version 21.3 haben wir Verbesserungen an den Agile-Karten-Headern und Story-Boards vorgenommen (siehe [Agile-Karten-Header- und Story-Board-Aktualisierungen](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Diese Aktualisierungen werden sowohl auf Iterationen als auch auf die Agile-Ansicht von Projekten angewendet.
 
-Mit Version 21.4 machen wir diese Verbesserungen für die agile Ansicht von Projekten rückgängig. An agilen Iterationen werden keine Änderungen vorgenommen.
+Mit Version 21.4 machen wir diese Verbesserungen für die Agile-Ansicht von Projekten rückgängig. An agilen Iterationen werden keine Änderungen vorgenommen.
 
-Im Folgenden finden Sie die Änderungen, die bezüglich der agilen Ansicht von Projekten rückgängig gemacht werden:
+Im Folgenden finden Sie die Änderungen, die in Bezug auf die Agile-Ansicht bei Projekten rückgängig gemacht werden:
 
 * Die Story-Karten und Board-Spalten haben einstellbare Breiten.
 * Spalten haben keine Hintergrundschattierung.

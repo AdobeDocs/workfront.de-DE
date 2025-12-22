@@ -6,10 +6,10 @@ description: Sie können die folgenden Optionen für agile Kanban-Teams während
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-Sie können ein agiles Team in [!DNL Adobe Workfront] erstellen, wie beschrieben in [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Beim Erstellen eines agilen Teams können Sie die Methode auswählen, die das Team verwendet, um seine Arbeit abzuschließen. Sie können aus den folgenden Optionen wählen:
+Sie können ein Agile-Team in [!DNL Adobe Workfront] erstellen, wie in [Erstellen eines Agile-Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) beschrieben. Beim Erstellen eines agilen Teams können Sie die Methodik auswählen, die das Team verwendet, um seine Arbeit abzuschließen. Sie können aus den folgenden Optionen wählen:
 
 * Scrum
 * Kanban
 
-In diesem Artikel wird beschrieben, wie Sie die Einstellungen für ein Kanban-Team konfigurieren. Nachdem Sie ein agiles Team erstellt und die Kanban-Methode ausgewählt haben, können Sie diesen Artikel lesen, um die folgenden Einstellungen zu aktualisieren:
+In diesem Artikel wird beschrieben, wie Sie die Einstellungen für ein Kanban-Team konfigurieren. Nachdem Sie ein Agile-Team erstellt und die Kanban-Methode ausgewählt haben, können Sie diesen Artikel lesen, um die folgenden Einstellungen zu aktualisieren:
 
 * Ob Geschichten in Punkten oder Stunden geschätzt werden
 * Die Statusspalten im Agile-Story-Board
@@ -35,7 +35,7 @@ Informationen zum Konfigurieren eines Scrum-Teams finden Sie unter [Konfiguriere
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Informationen zum Konfigurieren eines Scrum-Teams finden Sie unter [Konfiguriere
 <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
 
 <tr> 
@@ -70,7 +70,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können Storys so konfigurieren, dass sie entweder anhand von Punkten oder Stunden geschätzt werden.
 
-So konfigurieren Sie, wie Storys für Ihr agiles Team geschätzt werden:
+So konfigurieren Sie, wie Storys für Ihr Agile-Team geschätzt werden:
 
 {{step1-to-team}}
 
@@ -138,7 +138,7 @@ Sie können zusätzliche Daten (einschließlich benutzerdefinierter Daten) auf S
 >
 >Wenn Sie ein benutzerdefiniertes Feld auf einer Story-Karte verwenden, darf es keinen Punkt (oder Punkt) im Namen enthalten.
 
-So konfigurieren Sie Story-Karten, die dem agilen Team zugewiesen sind, um zusätzliche Felder anzuzeigen:
+So konfigurieren Sie Story-Karten, die dem Agile-Team zugewiesen sind, um zusätzliche Felder anzuzeigen:
 
 {{step1-to-team}}
 
@@ -161,7 +161,7 @@ So konfigurieren Sie Story-Karten, die dem agilen Team zugewiesen sind, um zusä
 
 Wenn Sie die Fertigungsgrenze eines Kanban-Teams definieren, können Sie die Anzahl der Elemente steuern, an denen das Team derzeit arbeitet, indem Sie die Anzahl der Aufgaben begrenzen, die in der Spalte [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung] auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden können.
 
-Nachdem Sie die WIP-Beschränkung für ein Kanban-Team konfiguriert haben, können Sie die WIP-Beschränkung anzeigen und im Agile-Story-Board von [!UICONTROL Kanban] aktualisieren, wie in [Verwalten der Work In Progress (WIP)-Beschränkung auf der [!UICONTROL Kanban]-Pinnwand](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) beschrieben.
+Nachdem Sie die WIP-Beschränkung für ein Kanban-Team konfiguriert haben, können Sie die WIP-Beschränkung anzeigen und im Agile-Story-Board von [!UICONTROL Kanban] aktualisieren, wie in [Verwalten der Work In Progress (WIP)-Beschränkung auf dem [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) beschrieben.
 
 So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 
@@ -170,14 +170,14 @@ So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Stellen Sie **[!UICONTROL Abschnitt]** Agile“ im Abschnitt **[!UICONTROL Methodik]** sicher, dass Kanban ausgewählt ist.
 
-1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des agilen Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
-Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL &#x200B; Storyboard eine Warnmeldung &#x200B;] dem agilen Storyboard (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; &#x200B;].
+1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des Agile-Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
+Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL  Story Board eine Warnmeldung auf dem ]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; ].
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, mehr Elemente in einer Spalte als die von Ihnen festgelegte Beschränkung zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
@@ -195,7 +195,7 @@ Sie können Storys aus dem Rückstand so konfigurieren, dass sie automatisch der
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -208,9 +208,9 @@ Wenn die Story mit der höchsten Priorität aus dem Rückstand hinzugefügt wird
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand &#x200B;] bleiben
+## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand ] bleiben
 
-Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board &#x200B;], können weiterhin im ursprünglichen Projekt aufgerufen werden.
+Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board ], können weiterhin im ursprünglichen Projekt aufgerufen werden.
 
 {{step1-to-team}}
 

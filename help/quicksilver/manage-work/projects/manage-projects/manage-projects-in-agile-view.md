@@ -6,7 +6,7 @@ description: Sie können die Agile-Funktionen für Ihr Projekt nutzen, ohne die 
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Sie können die Agile-Funktionen für Ihr Projekt nutzen, ohne die administrativ
 
 Sie können in einer Agile-Umgebung arbeiten, die einen Rückstand im Team verwendet und es Ihnen ermöglicht, Iterationen aus Aufgaben im Rückstand zu erstellen.
 
-Weitere Informationen finden Sie unter [Arbeiten in einer agilen Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Weitere Informationen finden Sie unter [Arbeiten in einer Agile-Umgebung](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Zugriffsanforderungen
 
@@ -100,7 +100,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 Sie können sowohl die Aufgaben als auch die Probleme eines Projekts in einer Board-Ansicht anstelle einer Liste anzeigen, um die Agile-Funktionen für Ihre Projektentwicklung zu nutzen.
 
 1. Gehen Sie zu dem Projekt, das Sie gemäß der Agile-Methode verwalten möchten, und klicken Sie dann im linken Bereich **Aufgaben** oder **Probleme**.
-1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![&#x200B; (](assets/board-icon-for-agile-view.png).
+1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![ (](assets/board-icon-for-agile-view.png).
 
    Die Pinnwand-Ansicht des Projekts wird standardmäßig angezeigt.
 
@@ -109,7 +109,7 @@ Sie können sowohl die Aufgaben als auch die Probleme eines Projekts in einer Bo
 
 1. (Optional) Klicken Sie auf **Konfigurieren**, um Optionen für die Spalten und Karten festzulegen.
 
-   Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
+   Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
 
 1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf das Symbol **Liste** ![Symbol Liste](assets/list-icon.png).
 

@@ -6,10 +6,10 @@ description: Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Story
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys Folgendes:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -68,7 +68,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Teilaufgabe hinzufügen](assets/agile-story-addsubtask-NWE.png)
 
-   Oder
+   ODER
 
    Klicken Sie **[!UICONTROL Unteraufgabe hinzufügen]** auf einer Unteraufgabenkachel, um eine Unteraufgabe zur Unteraufgabe zu erstellen.
 
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Teilaufgabe hinzufügen](assets/agile-story-addsubtask2-NWE.png)
 
-   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ &#x200B;] und die Unteraufgabe wird in die Anzeigespur verschoben.
+   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ ] und die Unteraufgabe wird in die Anzeigespur verschoben.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -106,7 +106,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> (Nur in Projekten verfügbar) Geben Sie die Anzahl der geplanten Stunden für die Aufgabe an.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Zuweisung]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL-Zuweisung]</strong></td>
       <td>Geben Sie den Namen des Teams ein, dem Sie die Unteraufgabe zuweisen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</td>
      </tr>
     </tbody>
