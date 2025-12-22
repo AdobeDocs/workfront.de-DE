@@ -318,7 +318,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererl
 
 >[!IMPORTANT]
 >
->Die Dokumentation zu Workfront Fusion wurde an einen neuen Speicherort verschoben. Informationen, Anweisungen und Versionen für Fusion finden Sie in der [Dokumentation zu Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>Die Dokumentation zu Workfront Fusion wurde an einen neuen Speicherort verschoben. Informationen, Anweisungen und Versionen für Fusion finden Sie in der [Dokumentation zu Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home).
 >
 >Jeder aktuelle Artikel in der Fusion-Dokumentation enthält einen Link zum entsprechenden Artikel am neuen Speicherort. Bitte aktualisieren Sie Ihre Lesezeichen.
 >
@@ -352,7 +352,7 @@ Informationen dazu, welche API-Versionen derzeit unterstützt werden, finden Sie
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
 
 ### Schulungsaktualisierungen
 
