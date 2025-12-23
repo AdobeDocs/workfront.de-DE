@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '3367'
+source-wordcount: '3481'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,10 @@ ht-degree: 1%
 
 # Einträge verbinden
 
-<!--
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -88,7 +85,7 @@ Sie können Folgendes verbinden:
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungstypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -392,7 +389,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Verbinden von Datensätzen mit Experience Manager-Assets:
 
@@ -478,8 +475,8 @@ Verbinden von Datensätzen mit Experience Manager-Assets:
 1. Klicken Sie auf den Namen eines Datensatzes.
 
    Die Vorschauseite wird geöffnet.
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes in einer neuen Browser-Registerkarte zu öffnen.
-   <!--1. (Optional and conditional) <span class="preview">Click the name of a record type in the breadcrumb of the record page header to access another record type in the same hierarchy. Hierarchies must exist for the record type of the record you are connecting before you can view them in the breadcrumb. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md). </span>-->
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes in einer neuen Browser-Registerkarte zu öffnen.
+1. (Optional und bedingt) <span class="preview">Klicken Sie auf den Namen eines Datensatztyps im Breadcrumb der Kopfzeile der Datensatzseite, um auf einen anderen Datensatztyp in derselben Hierarchie zuzugreifen. Für den Datensatztyp des Datensatzes, den Sie verbinden, müssen Hierarchien vorhanden sein, damit Sie sie im Breadcrumb anzeigen können. Weitere Informationen finden Sie unter [Erstellen von Workspace-](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)</span>
 1. Klicken Sie auf **Registerkarte** Verbindungen“ in der Vorschau oder Seite des Datensatzes.
 
    ![Registerkarte „Verbindungen“ im Datensatz in Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -517,7 +514,7 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 1. Klicken Sie auf den Namen eines Datensatzes.
 
    Die Vorschauseite wird geöffnet.
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 1. Klicken Sie auf **vorhandene Registerkarte „Verbundene**&quot; auf der Seite des Datensatzes. Sie müssen zunächst eine Seite **Verbundene Datensätze“**.
 
    In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.

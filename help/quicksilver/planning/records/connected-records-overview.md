@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Übersicht über verbundene Datensätze
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -43,7 +43,7 @@ Weitere Informationen zum Verbinden von Datensätzen miteinander oder mit einem 
 
 * Jeder, der Zugriff auf Workfront Planning and View oder höhere Berechtigungen für den Arbeitsbereich und einen Datensatztyp hat, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Programmen anzeigen, mit denen Sie eine Verbindung herstellen.
 * Sie können die Verbindungen aller anderen anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich und den Datensatztyp verfügen, in dem sich die verbundenen Datensätze befinden.
-* Je nach Verbindungstyp, den Sie beim Verbinden der Datensatztypen ausgewählt haben, können Sie einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden. Weitere Informationen finden Sie im Abschnitt „Verbindungstypen“ im Artikel &quot;[&#x200B; Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+* Je nach Verbindungstyp, den Sie beim Verbinden der Datensatztypen ausgewählt haben, können Sie einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden. Weitere Informationen finden Sie im Abschnitt „Verbindungstypen“ im Artikel &quot;[ Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 * <span class="preview">Wenn verbundene Datensatztypen Teil von Hierarchien sind, können Sie von den Datensatzseiten aus auf jeden Objekttyp innerhalb der Hierarchie zugreifen. Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
 * <span class="preview">* Wenn verbundene Datensatztypen Teil von Hierarchien sind, können Sie einen Datensatz aus einem untergeordneten Datensatztyp mit bis zu 10 Datensätzen aus einem übergeordneten Datensatztyp verbinden. Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
 

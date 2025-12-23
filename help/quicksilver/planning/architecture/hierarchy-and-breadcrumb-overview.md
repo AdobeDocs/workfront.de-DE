@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
    * AEM Assets.
 * Hierarchien können sowohl Planning-Datensatztypen als auch Workfront-Projekte gleichzeitig enthalten.
 
-      Sie können beispielsweise einen Campaign-Datensatztyp mit Planungstaktiken und Workfront-Projekten als untergeordnete Elemente in derselben Workspace-Hierarchie verwenden.
-  * Wenn bereits eine Verbindung zwischen den ausgewählten Datensatztypen besteht, verwendet das System die vorhandene Verbindung erneut.
+  Sie können beispielsweise einen Kampagnen-Datensatztyp mit Planungstaktiken und Workfront-Projekten als untergeordnete Elemente in derselben Workspace-Hierarchie verwenden.
+
+* Wenn bereits eine Verbindung zwischen den ausgewählten Datensatztypen besteht, verwendet das System die vorhandene Verbindung erneut.
 * Wenn keine Verbindung vorhanden ist, erstellt Workfront im Rahmen der Hierarchieeinrichtung eine.
 * Die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** muss für das verbundene Feld für Datensätze und Objekttypen aktiviert sein, die Sie in eine Hierarchie einbeziehen möchten.
 * Sie können einen Datensatztyp nicht löschen, wenn er Teil einer Hierarchie ist.
