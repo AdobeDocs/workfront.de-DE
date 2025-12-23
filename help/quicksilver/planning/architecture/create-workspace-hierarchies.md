@@ -1,30 +1,18 @@
 ---
 title: Erstellen von Workspace-Hierarchien
-description: Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen den Datensatztypen erstellen. Nachdem Sie Datensatztypen in einem Arbeitsbereich verbunden und eine Hierarchie erstellt haben, werden Datensatztypen miteinander verbunden, wobei ein Datensatztyp als übergeordneter Datensatz und bis zu 6 andere Datensatztypen als untergeordnete Datensätze konfiguriert sind.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen den Datensatztypen erstellen. Nachdem Sie Datensatztypen in einem Arbeitsbereich verbunden und eine Hierarchie erstellt haben, werden Datensatztypen miteinander verbunden, wobei ein Datensatztyp als übergeordneter Datensatz und bis zu drei andere Datensatztypen als untergeordnete Datensätze konfiguriert sind.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 1%
+
 ---
 
--->
 
 # Workspace-Hierarchien erstellen
 
@@ -38,13 +26,11 @@ Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie eine 
 
 Wenn noch keine Verbindung zwischen zwei Datensatztypen besteht, kann sie beim Einrichten der Hierarchie erstellt werden. Nach der Definition richtet die Hierarchie einen strukturierten Pfad über verwandte Datensatztypen hinweg im Arbeitsbereich ein.
 
-Hierarchien generieren Breadcrumbs für die Datensatztypen und die entsprechenden Datensatztypen, <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> in ihren Kopfzeilen angezeigt werden. Auf diese Weise wissen die Benutzer in jeder Phase ihres Workflows, wo sie sich in der Hierarchie befinden.
+Hierarchien generieren Breadcrumbs für die jeweiligen Datensätze, die in ihren Kopfzeilen angezeigt werden. Auf diese Weise wissen die Benutzer in jeder Phase ihres Workflows, wo sie sich in der Hierarchie befinden.
 
 Allgemeine Informationen zu Hierarchien und Breadcrumbs finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Zugriffsanforderungen
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen, um die Schritte in diesem Artikel auszuführen:  
 
@@ -84,6 +70,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++
 
 ## Workspace-Hierarchie erstellen
+
+Sie können bis zu 5 Hierarchien in einem Arbeitsbereich erstellen.
 
 {#step1-to-planning}
 
@@ -135,9 +123,9 @@ Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen
 
    1. Klicken Sie auf **Speichern**.
 
-1. (Bedingt) Wenn die Option **Entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, wird ein Fehler angezeigt und Sie müssen zunächst Folgendes tun: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. (Bedingt) Wenn das Feld **Entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, wird ein Fehler angezeigt und Sie müssen zunächst Folgendes tun: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
-   1. Klicken Sie **&#x200B;**&#x200B;Feld **Neue Hierarchie** auf „Abbrechen“.
+   1. Klicken Sie **** Feld **Neue Hierarchie** auf „Abbrechen“.
    1. Klicken Sie links neben dem Arbeitsbereichsnamen auf den Rückwärtspfeil und dann auf die Karte des Datensatztyps, den Sie als übergeordneten Datensatz auswählen möchten.
    1. Öffnen Sie die Tabellenansicht des Datensatztyps, den Sie im obigen Schritt ausgewählt haben, wechseln Sie dann zum Verbindungsfeld mit dem Objekttyp, den Sie als untergeordnetes Element verwenden möchten, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf **Bearbeiten** Feld.
    1. Aktivieren Sie die Einstellung **entsprechendes Feld für verknüpften Datensatztyp erstellen** und klicken Sie dann auf **Speichern**.
@@ -155,6 +143,13 @@ Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen
 
    * Die Hierarchie wird zum Abschnitt **Hierarchien** des Arbeitsbereichs hinzugefügt.
    * Die Datensätze, die die Verbindungsfelder ausfüllen, zeigen alle Verbindungen in ihren Breadcrumbs an, wenn Sie zur Seite eines Datensatzes gehen.
+
+   >[!NOTE]
+   >
+   >Sie können einen Datensatz eines untergeordneten Datensatztyps mit bis zu 10 Datensätzen eines übergeordneten Datensatztyps verbinden.
+   >
+   >Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 1. (Optional) Bewegen Sie den Mauszeiger über eine Hierarchie und klicken Sie dann auf das Menü **Mehr**.
 
    ![Hierarchie Mehr Menü erweitert](assets/hierarchy-more-menu-expanded.png)

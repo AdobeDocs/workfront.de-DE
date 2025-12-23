@@ -1,28 +1,18 @@
 ---
 title: Übersicht über Hierarchie und Breadcrumb
-description: Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem Workspace erstellen.
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Sie können mehrere Workspace-Hierarchien zwischen den Datensatztypen in einem Workspace erstellen, nachdem Sie die Datensatztypen verbunden haben.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # Übersicht über Hierarchie und Breadcrumb
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Als Workspace-Manager können Sie in Adobe Workfront Planning flexible, aber strukturierte Hierarchien zwischen Datensatztypen und anderen Objekttypen definieren.
+Als Workspace-Manager können Sie in Adobe Workfront Planning flexible, aber strukturierte Hierarchien zwischen verbundenen Datensatztypen und anderen Objekttypen definieren.
 
 Hierarchien sind Verbindungen zwischen Datensatztypen oder zwischen Datensatztypen und einem Workfront-Projekt.
 
@@ -45,7 +35,7 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
 
 ## Überlegungen beim Arbeiten mit Hierarchien
 
-* Sie können mehrere Hierarchien für einen Arbeitsbereich erstellen.
+* Sie können bis zu 5 Hierarchien für einen Arbeitsbereich erstellen.
 * Es können bis zu 4 Datensatz- und Objekttypen in einer Hierarchie verbunden sein.
 * Sie können in einer Workspace-Hierarchie nur die folgenden Objekttypen verbinden:
    * Datensatztypen, die zu dem Arbeitsbereich gehören, in dem Sie die Hierarchien erstellen.
@@ -60,6 +50,9 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
   * Wenn bereits eine Verbindung zwischen den ausgewählten Datensatztypen besteht, verwendet das System die vorhandene Verbindung erneut.
 * Wenn keine Verbindung vorhanden ist, erstellt Workfront im Rahmen der Hierarchieeinrichtung eine.
 * Die Einstellung **Entsprechendes Feld für verknüpften Datensatztyp erstellen** muss für das verbundene Feld für Datensätze und Objekttypen aktiviert sein, die Sie in eine Hierarchie einbeziehen möchten.
+* Sie können einen Datensatztyp nicht löschen, wenn er Teil einer Hierarchie ist.
+* Sie können ein Verbindungsfeld nicht löschen, wenn der in dem Feld referenzierte Datensatztyp Teil einer Hierarchie ist. Sie müssen zunächst den Datensatztyp aus der Hierarchie entfernen oder die Hierarchie löschen, bevor Sie den Datensatztyp löschen können.
+* Sie können ein Suchfeld aus einem verbundenen Datensatztyp löschen. Die Informationen im Feld können nicht wiederhergestellt werden.
 * Im Folgenden finden Sie Regeln für die Einrichtung von Hierarchien:
    * Ein Datensatztyp kann in einem Arbeitsbereich nur einen übergeordneten Datensatztyp haben.
 
@@ -77,18 +70,22 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
    * Globale Datensatztypen können in mehreren Arbeitsbereichen innerhalb mehrerer Hierarchien angezeigt werden, nachdem sie diesen Arbeitsbereichen hinzugefügt wurden.
 
      Wenn eine Kampagne beispielsweise ein globaler Datensatztyp und Teil einer Hierarchie in Workspace 1 ist, kann sie als bestehender Datensatztyp zu Workspace 2 hinzugefügt und dort Teil einer Hierarchie sein. Sie kann jedoch nur dann Teil einer Hierarchie in Workspace 2 sein, wenn sie in Workspace 1 als globaler Datensatztyp angegeben, aber nicht zu Workspace 2 hinzugefügt wird.
+   * Wenn verbundene Datensatztypen Teil von Hierarchien sind, können Sie einen Datensatz aus einem untergeordneten Datensatztyp mit bis zu 10 Datensätzen aus einem übergeordneten Datensatztyp verbinden.
+
+     Wenn Sie beispielsweise eine Hierarchie zwischen Kampagnen als übergeordnetem Element und Persona als untergeordnetem Datensatz erstellen, können Sie dieselbe Persona mit bis zu 10 Kampagnen verbinden.
 
 ## Überlegungen beim Anzeigen von Breadcrumbs
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 Wenn Sie Hierarchien zwischen Datensatztypen erstellen, generieren diese Breadcrumbs für Datensätze, die zu diesen Datensatztypen gehören.
 
 Wenn Sie beispielsweise eine Hierarchie erstellen und Kampagnen mit Taktiken, dann mit Aktivitäten und schließlich mit Projekten verbinden und zu einem Datensatz eines der in der Hierarchie verbundenen Typen navigieren, können Sie sehen, wo in der Hierarchie der Datensatz platziert wird.
 
+![Breadcrumb](assets/breadcrumbs-on-project.png)
+
 Beachten Sie Folgendes:
 
 * Wenn ein Datensatztyp Teil mehrerer Hierarchien ist, können Sie über den Breadcrumb des Datensatzes auf der Datensatzseite zwischen Hierarchien wechseln.
+* Wenn der Datensatztyp in einer Hierarchie über mehrere Datensätze verfügt, können Sie Datensätze aus dem Breadcrumb auswählen.
 * Breadcrumbs funktionieren in Workfront und Planning.
 
   Wenn Sie sich beispielsweise ein Projekt ansehen, das mit Planungskampagnen und -taktiken sowie mit Workfront-Portfolios und -Programmen verbunden ist, können Sie aus dem Breadcrumb zwischen den Objekttypen Planning und Workfront wechseln.

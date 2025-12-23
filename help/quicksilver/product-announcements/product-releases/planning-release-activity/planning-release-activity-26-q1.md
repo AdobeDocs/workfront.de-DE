@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,47 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Erstellen von Hierarchien von Datensatztypen in Arbeitsbereichen
+
+>[!NOTE]
+>
+>Vorschau: 23. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
+
+Sie können jetzt flexible, aber strukturierte Hierarchien zwischen Datensatz- oder Objekttypen definieren.
+
+Hierarchien sind Verbindungen zwischen Datensatztypen. Es können bis zu 4 Datensatz- und Objekttypen in einer Hierarchie verbunden sein, und es können bis zu 5 Hierarchien in einem Arbeitsbereich vorhanden sein. Der erste Datensatztyp in der Hierarchie ist das erste übergeordnete Element.
+
+Sie können Hierarchien verwenden, um die Arbeit zu organisieren und zu visualisieren, wie die Strategie in die Ausführung fließt.
+
+Beachten Sie beim Erstellen von Hierarchien Folgendes:
+
+* Sie können nur Planning-Datensatztypen aus einem Arbeitsbereich und Workfront-Projekten in einer Hierarchie verbinden.
+* Ein Datensatztyp oder Projekt kann nur ein übergeordnetes Element im selben Arbeitsbereich haben.
+* Ein Datensatztyp kann in mehreren Hierarchien das übergeordnete Element sein.
+* Verbindbare Datensatztypen können nicht in Hierarchien in anderen Arbeitsbereichen als ihren eigenen verwendet werden.
+* Globale Datensatztypen können in Hierarchien nur in den Arbeitsbereichen verwendet werden, in denen sie erstellt wurden oder denen sie hinzugefügt wurden.
+
+Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+## Neue einheitliche Breadcrumbs zu den Datensatzseiten hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau: 23. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
+
+Wenn Sie Hierarchien zwischen Datensatztypen erstellen, generieren diese Breadcrumbs für Datensätze, die zu diesen Datensatztypen gehören.
+
+Breadcrumbs für Datensätze spiegeln ihre Position in der Hierarchie wider. Nachdem Sie Hierarchien erstellt haben, können Sie den Breadcrumb eines Datensatzes oben auf der Seite sehen. Er gibt an, welche anderen übergeordneten oder untergeordneten Objekte mit ihm verbunden sind. Hierarchien sind in Workfront und Planning konsistent.
+
+Sie können beispielsweise die Planungshierarchie eines Projekts anzeigen, wenn es mit den Planungs-Datensatztypen im Planungs-Breadcrumb verbunden ist, und die Workfront-Hierarchie, wenn es mit Workfront-Objekttypen wie Portfolios oder Programmen in Workfront verbunden ist.
+
+Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Verbesserungen bei verbundenen Datensätzen und Seiten
 
@@ -66,54 +107,6 @@ Der Platzhalter ist in Feldern verfügbar, in denen der Wert ein Benutzer ist.
 
 Weitere Informationen zum Konfigurieren von Projektverbindungsansichten, einschließlich Filtern, finden Sie unter [Hinzufügen einer Seite mit verbundenen Datensätzen zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Verbesserungen an der Workspace-Hauptseite
 
@@ -132,7 +125,6 @@ An der Hauptseite für Arbeitsbereiche in Workfront Planning wurden folgende Ver
 * Die Registerkarte **Andere Arbeitsbereiche** wurde in &quot;**Arbeitsbereiche“** und enthält alle Arbeitsbereiche, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen, einschließlich der von Ihnen erstellten.
 
 Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
 
 
 ## Hinzufügen des Felds Markenverbindung zu Produkten und Rollen im GenStudio Workspace

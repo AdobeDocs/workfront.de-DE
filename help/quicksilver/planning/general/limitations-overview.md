@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 3%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -52,6 +52,10 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | <span class="preview">Anzahl der Verbindungsfelder für einen Datensatztyp</span> | <span class="preview">30 </span> |
 | Anzahl der Zeichen in einem Formelfeldausdruck | 50.000 |
 | Anzahl der Entitäten (Benutzer, Rollen, Teams, Unternehmen, Gruppen), für die Sie ein Planning-Objekt freigeben können | 100 |
+| <span class="preview">Anzahl der Datensatztypen in einer Hierarchie</span> | 4 |
+| <span class="preview">Anzahl der Hierarchien in einem Arbeitsbereich</span> | 5 |
+| <span class="preview">Anzahl der übergeordneten Datensätze, die mit einem untergeordneten Element in einer Hierarchie verbunden sind</span> | 10 |
+| Anzahl an Datensätzen, die mit einem Datensatz in einem Mehrfachauswahl-Verbindungstyp verbunden sind <span class="preview">ohne eine zwischen den Datensätzen konfigurierte Hierarchie</span> | 500 |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 
