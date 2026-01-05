@@ -146,7 +146,7 @@ So verknüpfen Sie eine [!DNL Workfront] Aufgabe automatisch mit einem [!DNL Jir
 
    >[!NOTE]
    >
-   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol ](assets/more-icon.png) des Elements aus.
+   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol &#x200B;](assets/more-icon.png) des Elements aus.
 
 1. Geben Sie die für die Aufgabe verfügbaren Felder an oder aktualisieren Sie sie.
 1. Suchen Sie im **[!UICONTROL Arbeitsaufträge]** nach dem Benutzer, der Rolle oder dem Team, der bzw. das als Trigger(in) in der [!DNL Jira]-Integration angegeben ist, und wählen Sie diese aus.
@@ -234,7 +234,7 @@ So heben Sie die Verknüpfung eines [!DNL Jira] Problems mit einem [!DNL Workfro
 
 1. Anmelden bei Jira.
 1. Navigieren Sie zu dem Problem, das mit einer [!DNL Workfront] Aufgabe oder einem Problem verknüpft ist.
-1. Wechseln Sie zum rechten Bedienfeld von **0}Workfront.**
+1. Wechseln Sie zum rechten Bedienfeld von **0&rbrace;Workfront.**
 1. Klicken Sie auf das Symbol **[!UICONTROL Verknüpfung aufheben]** und dann auf **[!UICONTROL Verknüpfung aufheben]**. Die zuvor verknüpften [!DNL Jira] und [!DNL Workfront] Elemente werden aufgehoben.
 
    Felder, Kommentare oder Dokumente, die in Zukunft aktualisiert werden, werden nicht im vorherigen Gegenstück in der anderen Anwendung aktualisiert.
