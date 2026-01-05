@@ -6,10 +6,10 @@ description: Sie können verwenden [!DNL Adobe Workfront for Jira]  um Ihre  [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
+source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
 workflow-type: tm+mt
 source-wordcount: '2454'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
 
 <!--
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -56,7 +56,7 @@ Eine Liste der [!DNL Jira] Versionen, die [!DNL Workfront for Jira] derzeit unte
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -170,7 +170,7 @@ So konfigurieren Sie Trigger für die automatische Erstellung von Elementen in [
 1. Klicken Sie **[!UICONTROL Konfigurieren]**.
 1. Melden Sie sich bei [!DNL Workfront] als Systemadministrator an.
 
-   Die Registerkarte **&#x200B;**&#x200B;Trigger&quot; ist in Jira standardmäßig ausgewählt.
+   Die Registerkarte **** Trigger&quot; ist in Jira standardmäßig ausgewählt.
 
 1. Klicken Sie **[!UICONTROL Trigger hinzufügen]**, um einen neuen Trigger hinzuzufügen.
 1. Geben Sie im Feld **[!UICONTROL Workfront-Team/Benutzer/Rolle]** den Namen eines [!DNL Workfront]-Teams, eines Benutzers oder eines Aufgabengebiets an und klicken Sie dann auf das gewünschte Team, um es auszuwählen, wenn es in der Liste angezeigt wird.
@@ -250,7 +250,7 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td>
-         <td><p>Das [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems in [!DNL Workfront] wird zum [!UICONTROL Fälligkeitsdatum] des Problems, mit dem es in [!DNL Jira] verknüpft ist.</p><p>Hinweis: Stellen Sie sicher, dass bei <strong> Problemen </strong>[!UICONTROL Due Date]&#x200B;[!DNL Jira] angezeigt wird, damit dieser Wert synchronisiert werden kann.</p></td>
+         <td><p>Das [!UICONTROL Geplantes Abschlussdatum] einer Aufgabe oder eines Problems in [!DNL Workfront] wird zum [!UICONTROL Fälligkeitsdatum] des Problems, mit dem es in [!DNL Jira] verknüpft ist.</p><p>Hinweis: Stellen Sie sicher, dass bei <strong> Problemen </strong>[!UICONTROL Due Date][!DNL Jira] angezeigt wird, damit dieser Wert synchronisiert werden kann.</p></td>
         </tr>
        </tbody>
       </table>
@@ -346,11 +346,11 @@ So definieren Sie, welche Felder automatisch für Elemente synchronisiert werden
 
 ## Fehlerbehebung
 
-### Elemente können in [!DNL Jira] nicht erstellt werden, da Trigger-Felder mit der Kennzeichnung &quot;[!UICONTROL &#x200B; nicht gefunden &#x200B;]&quot;
+### Elemente können in [!DNL Jira] nicht erstellt werden, da Trigger-Felder mit der Kennzeichnung &quot;[!UICONTROL  nicht gefunden ]&quot;
 
 #### Problem
 
-Wenn bei der [!DNL Workfront for Jira] Anwendung ein Fehler auftritt, deaktiviert [!DNL Workfront] die Trigger, um weitere Komplikationen zu vermeiden. Wenn diese Trigger deaktiviert sind, werden sie als &quot;[!UICONTROL &#x200B; nicht gefunden“ &#x200B;].
+Wenn bei der [!DNL Workfront for Jira] Anwendung ein Fehler auftritt, deaktiviert [!DNL Workfront] die Trigger, um weitere Komplikationen zu vermeiden. Wenn diese Trigger deaktiviert sind, werden sie als &quot;[!UICONTROL  nicht gefunden“ ].
 
 #### Lösung
 
@@ -358,9 +358,9 @@ Suchen Sie den Fehler, der die Trigger deaktiviert hat. Den Fehler finden Sie im
 
 Die häufigste Ursache für dieses Verhalten ist der Fehler &quot;[!UICONTROL Feld &#39;duedate&#39; kann nicht festgelegt werden. Es ist nicht auf dem entsprechenden Bildschirm oder unbekannt.]&quot;
 
-Dieser Fehler bedeutet, dass Sie versuchen, das &quot;[!UICONTROL &#x200B; Abschlussdatum“ &#x200B;] von [!DNL Workfront] nach [!DNL Jira] zu synchronisieren. Dazu müssen Sie sicherstellen, dass Ihre [!DNL Jira] ein Feld namens „Fälligkeitsdatum[!UICONTROL &#x200B; aufweisen]. Wenn dieses Feld nicht vorhanden ist, kann [!DNL Workfront] das geplante Abschlussdatum nicht mit [!DNL Workfront] synchronisieren und deaktiviert Ihre Trigger.
+Dieser Fehler bedeutet, dass Sie versuchen, das &quot;[!UICONTROL  Abschlussdatum“ ] von [!DNL Workfront] nach [!DNL Jira] zu synchronisieren. Dazu müssen Sie sicherstellen, dass Ihre [!DNL Jira] ein Feld namens „Fälligkeitsdatum[!UICONTROL  aufweisen]. Wenn dieses Feld nicht vorhanden ist, kann [!DNL Workfront] das geplante Abschlussdatum nicht mit [!DNL Workfront] synchronisieren und deaktiviert Ihre Trigger.
 
 Um diesen Fehler zu beheben, führen Sie einen der folgenden Schritte aus:
 
 * Bitten Sie Ihren [!DNL Jira], die betroffenen [!DNL Jira] zu aktualisieren, um sicherzustellen, dass sie ein Feld für das Fälligkeitsdatum haben.
-* Deaktivieren Sie die Synchronisierung des geplanten Abschlussdatums von [!DNL Workfront] auf der Seite „Setup[!UICONTROL &#x200B; von Workfront].
+* Deaktivieren Sie die Synchronisierung des geplanten Abschlussdatums von [!DNL Workfront] auf der Seite „Setup[!UICONTROL  von Workfront].

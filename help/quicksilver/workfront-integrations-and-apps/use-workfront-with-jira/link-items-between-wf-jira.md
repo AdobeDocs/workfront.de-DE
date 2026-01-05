@@ -6,10 +6,10 @@ description: Sie können Probleme  [!DNL Jira]  Aufgaben oder  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
+source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
 workflow-type: tm+mt
 source-wordcount: '1378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
 
 <!--
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -49,7 +49,7 @@ Nur ein Element in [!DNL Workfront] kann mit einem Element in [!DNL Jira] verkn�
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -146,7 +146,7 @@ So verknüpfen Sie eine [!DNL Workfront] Aufgabe automatisch mit einem [!DNL Jir
 
    >[!NOTE]
    >
-   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol &#x200B;](assets/more-icon.png) des Elements aus.
+   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol ](assets/more-icon.png) des Elements aus.
 
 1. Geben Sie die für die Aufgabe verfügbaren Felder an oder aktualisieren Sie sie.
 1. Suchen Sie im **[!UICONTROL Arbeitsaufträge]** nach dem Benutzer, der Rolle oder dem Team, der bzw. das als Trigger(in) in der [!DNL Jira]-Integration angegeben ist, und wählen Sie diese aus.
@@ -186,7 +186,7 @@ So verknüpfen Sie [!DNL Jira] Probleme manuell mit [!DNL Workfront]:
 1. (Bedingt) Melden Sie sich bei [!DNL Workfront] an und finden Sie ein Problem oder eine Aufgabe, die Sie mit einem [!DNL Jira] Problem verknüpfen möchten.
 1. (Bedingt) Kopieren Sie im Abschnitt **Grundlegende Informationen** auf der Registerkarte **Aufgabendetails** oder **Problemdetails** die **[!UICONTROL Referenznummer]** des Elements in Workfront.
 
-   Oder
+   ODER
 
    Kopieren Sie in der Adressleiste des Elements die **URL** des Elements in Workfront.
 
@@ -234,7 +234,7 @@ So heben Sie die Verknüpfung eines [!DNL Jira] Problems mit einem [!DNL Workfro
 
 1. Anmelden bei Jira.
 1. Navigieren Sie zu dem Problem, das mit einer [!DNL Workfront] Aufgabe oder einem Problem verknüpft ist.
-1. Wechseln Sie zum rechten Bedienfeld von **0&rbrace;Workfront.**
+1. Wechseln Sie zum rechten Bedienfeld von **0}Workfront.**
 1. Klicken Sie auf das Symbol **[!UICONTROL Verknüpfung aufheben]** und dann auf **[!UICONTROL Verknüpfung aufheben]**. Die zuvor verknüpften [!DNL Jira] und [!DNL Workfront] Elemente werden aufgehoben.
 
    Felder, Kommentare oder Dokumente, die in Zukunft aktualisiert werden, werden nicht im vorherigen Gegenstück in der anderen Anwendung aktualisiert.
