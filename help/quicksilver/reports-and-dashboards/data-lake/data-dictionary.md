@@ -7,9 +7,9 @@ description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -40,16 +40,59 @@ Es gibt eine Reihe von Ansichtstypen, die Sie in Data Connect verwenden können,
 
 <!-- Custom view -->
 
-## Entitätsbeziehungsdiagramm
+## Entitätsbeziehungsdiagramme
 
-Objekte in Workfront (und daher im Data Connect-Data Lake) werden nicht nur durch ihre individuellen Werte definiert, sondern auch durch ihre Beziehungen zu anderen Objekten. Das folgende Entitätsbeziehungsdiagramm bietet eine allgemeine Zuordnung von Objektbeziehungen in Data Connect. Das Diagramm kann über den folgenden Link angezeigt und heruntergeladen werden:
+Objekte in Workfront (und daher im Data Connect-Data Lake) werden nicht nur durch ihre individuellen Werte definiert, sondern auch durch ihre Beziehungen zu anderen Objekten.
 
-[Data Connect-Entitätsbeziehungsdiagramm](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+Die folgenden Entitätsbeziehungsdiagramme (Entity Relationship Diagrams, ERDs) bieten eine allgemeine Zuordnung von Objektbeziehungen in Data Connect für zentrale Workfront-Objekte.
 
 >[!IMPORTANT]
 >
->Das bereitgestellte Entitätsbeziehungsdiagramm (Entity Relationship Diagram, ERD) ist absichtlich unvollständig, da ein vollständiges ERD aufgrund der hohen Anzahl von Beziehungen innerhalb der Anwendung unlesbar würde.<br>
->Dieses Diagramm zeigt anhand eines Beispiels, wie die in der Projekttabelle dokumentierten Beziehungen im Abschnitt [Terminologietabelle](#terminology-table) unten verwendet werden können, um Daten aus der Projektdatenansicht mit benachbarten Objekten zu verbinden. Es wird erwartet, dass kein vollständiges ERD erforderlich ist, sobald dieses Muster für die Projektobjektbeziehungen verstanden wird
+>Die Diagramme sind um einzelne Objekte zentriert und stellen kein vollständiges Entitätsbeziehungsdiagramm für die gesamte Workfront-Anwendung dar. <br>
+>Diese Diagramme sollen Beispiele dafür liefern, wie die Beziehungen verwendet werden können, um Daten mit benachbarten Objekten zu verbinden.
+
+### Beispiel für Entitätsbeziehungsdiagramme
+
++++ Erweitern Sie , um die Beispieldiagramme anzuzeigen
+
+>[!TIP]
+>
+>Um ein Diagramm detaillierter anzuzeigen, klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie **Bild in neuer Registerkarte öffnen**.
+
+
+### Arbeitsaufträge
+
+![Zuweisungen - Entitätsbeziehungsdiagramm](assets/Assignment-centered-ERD.png)
+
+
+### Dokumente und Dokumentengenehmigungen
+
+![Entitätsbeziehungsdiagramm für Dokumente und Dokumentgenehmigungen](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Stunden und Arbeitszeittabellen
+
+![Entitätsbeziehungsdiagramm für Stunden und Arbeitszeittabellen](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Probleme
+
+![Entitätsbeziehungsdiagramm für Probleme](assets/Issue-centered-ERD.png)
+
+### Projekte
+
+![Entitätsbeziehungsdiagramm für Projekte](assets/Project-centered-ERD.png)
+
+
+### Aufgaben
+
+![Entitätsbeziehungsdiagramm für Aufgaben](assets/Task-centered-ERD.png)
+
+
+### Benutzende
+
+![Entitätsbeziehungsdiagramm für Benutzer](assets/User-centered-ERD.png)
+
++++
 
 ## Datentypen
 
@@ -1665,15 +1708,15 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
 >
 >Der Typ des Datensatzes wird durch die `enumClass`-Eigenschaft identifiziert. Es werden folgende Typen erwartet:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Dokument
@@ -2824,7 +2867,7 @@ Eingeschränkte Kundenverfügbarkeit
     </tbody>
 </table>
 
-### Hour
+### Stunde
 
 <table>
     <thead>
@@ -2838,10 +2881,10 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Hour</td>
-            <td>Hour</td>
+            <td>Stunde</td>
+            <td>Stunde</td>
             <td>HOUR</td>
-            <td>Hour</td>
+            <td>Stunde</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3684,7 +3727,7 @@ Selbst</td>
     </tbody>
 </table>
 
-### Hinweis
+### Notiz
 
 <table>
     <thead>
@@ -3698,10 +3741,10 @@ Selbst</td>
       </thead>
       <tbody>
         <tr>
-            <td>Hinweis</td>
-            <td>Hinweis</td>
+            <td>Notiz</td>
+            <td>Notiz</td>
             <td>NOTIZ</td>
-            <td>Hinweis</td>
+            <td>Notiz</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
       </tbody>
@@ -5133,7 +5176,7 @@ Selbst</td>
             <td>Projektteambenutzer</td>
             <td>Projektteambenutzer</td>
             <td>PRTU</td>
-            <td>Projektbenutzer</td>
+            <td>Projektbenutzerin bzw. -benutzer</td>
             <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
         </tr>
       </tbody>
@@ -8148,7 +8191,7 @@ Eingeschränkte Kundenverfügbarkeit
     </tbody>
 </table>
 
-### Benutzerin bzw. Benutzer
+### Benutzerin oder Benutzer
 
 <table>
     <thead>
@@ -8162,10 +8205,10 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Benutzerin bzw. Benutzer</td>
-            <td>Benutzerin bzw. Benutzer</td>
+            <td>Benutzerin oder Benutzer</td>
+            <td>Benutzerin oder Benutzer</td>
             <td>BENUTZER</td>
-            <td>Benutzerin bzw. Benutzer</td>
+            <td>Benutzerin oder Benutzer</td>
             <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
         </tr>
       </tbody>
