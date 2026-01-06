@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten und Genehmigungen für das erste Quar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Auf dieser Seite werden die Dokument- und Genehmigungsverbesserungen beschrieben
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Wählen Sie ein Workfront-Projekt aus, wenn Sie eine Überprüfung in Creative Cloud Express senden
+## Workfront-Projekt auswählen, wenn eine Überprüfung in Adobe Express gesendet wird
 
 >[!NOTE]
 >

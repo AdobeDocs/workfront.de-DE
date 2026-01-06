@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '3014'
+source-wordcount: '3013'
 ht-degree: 5%
 
 ---
@@ -118,7 +118,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Wählen Sie ein Workfront-Projekt, wenn Sie eine Überprüfung in Creative Cloud Express senden<p>[!BADGE OFF SCHEDULE]{type=neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Wählen Sie ein Workfront-Projekt, wenn Sie eine Überprüfung in Adobe Express senden<p>[!BADGE OFF SCHEDULE]{type=neutral}</p> </a>
             <p>Sie können ein Workfront-Projekt auswählen, an das ein Testversand gesendet werden soll. Auf diese Weise bleiben alle zugehörigen Assets und Testsendungen innerhalb desselben Projekts organisiert.</p>
         </td>
         <td>Dienstag, 15. Dezember 2025</td>
@@ -204,7 +204,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Neue Version der Salesforce-Integration jetzt verfügbar </a>
-            <p>Um auf dem neuesten Stand der letzten Änderungen an der Workfront-API zu bleiben, haben wir eine neue Salesforce-Integration erstellt. Die neue Integration bietet dieselben Funktionen wie die vorherige Version und wurde aktualisiert, um zu vermeiden, dass Funktionen verloren gehen, die in der API nicht mehr unterstützt werden.</p><p>HINWEIS: Die Integration von Workfront für Salesforce, einschließlich der neuen Version, wird nach dem 28. **&#x200B; 2026 nicht mehr &#x200B;**. </p>
+            <p>Um auf dem neuesten Stand der letzten Änderungen an der Workfront-API zu bleiben, haben wir eine neue Salesforce-Integration erstellt. Die neue Integration bietet dieselben Funktionen wie die vorherige Version und wurde aktualisiert, um zu vermeiden, dass Funktionen verloren gehen, die in der API nicht mehr unterstützt werden.</p><p>HINWEIS: Die Integration von Workfront für Salesforce, einschließlich der neuen Version, wird nach dem 28. ** 2026 nicht mehr **. </p>
         </td>
         <td>Freitag, 30. Oktober 2025</td>
         <td>Freitag, 30. Oktober 2025</td>
@@ -599,7 +599,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
