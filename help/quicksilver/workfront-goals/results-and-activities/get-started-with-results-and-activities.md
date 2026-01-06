@@ -201,7 +201,7 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>Sie bieten eine Reihe von Werten zwischen den Start- und Endwerten, die veranschaulichen, wie nahe Sie am Erreichen sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
    <td>✔</td> 
    <td>✔</td> 

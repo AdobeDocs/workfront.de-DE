@@ -64,7 +64,7 @@ Wenn es automatisch vom System berechnet wird, kann Folgendes das geplante Start
 
   Der Workfront- oder Gruppen-Administrator kann bestimmen, ob eine neue Aufgabe am gleichen Datum wie das geplante Startdatum des Projekts oder an dem Tag beginnt, an dem Sie die Aufgabe erstellen.
 
-  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden [ unter „Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden [&#x200B; unter „Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Aufgabenbeschränkung
 

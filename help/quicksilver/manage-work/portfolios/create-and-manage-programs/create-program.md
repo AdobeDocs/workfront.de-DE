@@ -44,7 +44,7 @@ Sie können beispielsweise Portfolio für das Marketing-Geschäftsjahr 2024 verw
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan]</p> </td> 
+   <p>[!UICONTROL -Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -162,7 +162,7 @@ Sie können die folgenden Informationen angeben:
       <td> <p>Geben Sie den Namen des Benutzers ein, der als Programm-Manager fungieren soll, und klicken Sie auf den Namen des Benutzers, wenn er in der Dropdown-Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Program Owner]. </p> <p>Tipp: Sie können den Programm-Manager auch in der Kopfzeile des Programms aktualisieren. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL-Gruppe] </td> 
+      <td role="rowheader">[!UICONTROL -Gruppe] </td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Programms ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
@@ -242,7 +242,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Bedingung für [!UICONTROL Active Projects]</td> 
-   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL-Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
+   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL -Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
   </tr> 
  </tbody> 
 </table>

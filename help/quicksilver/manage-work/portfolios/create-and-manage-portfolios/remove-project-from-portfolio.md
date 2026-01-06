@@ -36,7 +36,7 @@ Sie können auch Projekte aus einem Portfolio löschen, wodurch sie auch aus [!D
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL-Plan] </p> </td> 
+   <p>[!UICONTROL -Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -91,6 +91,6 @@ Sie können auch Projekte aus einem Portfolio löschen, wodurch sie auch aus [!D
    ![Schaltfläche „Projekte entfernen“](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Klicken Sie **[!UICONTROL Projekte entfernen]**.
-1. Klicken Sie entweder **[!UICONTROL Löschen]**, um das Projekt aus [!DNL Workfront] zu löschen, oder **[!UICONTROL Entfernen]****[!UICONTROL aus Portfolio]**, um es aus der ausgewählten Portfolio zu entfernen.
+1. Klicken Sie entweder **[!UICONTROL Löschen]**, um das Projekt aus [!DNL Workfront] zu löschen, oder **[!UICONTROL Entfernen]**&#x200B;**[!UICONTROL aus Portfolio]**, um es aus der ausgewählten Portfolio zu entfernen.
 
 1. (Optional und bedingt) Suchen Sie das Projekt, das Sie aus dem Portfolio entfernt haben, und verknüpfen Sie es mit einem anderen Portfolio. Informationen zum Verknüpfen von Projekten mit Portfolios finden Sie [Hinzufügen von Projekten zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).

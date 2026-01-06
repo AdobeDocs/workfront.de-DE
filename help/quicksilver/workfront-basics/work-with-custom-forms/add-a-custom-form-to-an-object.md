@@ -114,7 +114,7 @@ Sie haben zwei Möglichkeiten, um ein benutzerdefiniertes Formular zu einem Obje
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt durch Bearbeiten des -Objekts {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
 1. Klicken Sie **Benutzerdefinierte Forms** > **Forms hinzufügen** und wählen Sie dann aus dem Dropdown-Menü bis zu 10 Formulare aus.
 
 1. (Optional) Aktualisieren Sie die Informationen in den bearbeitbaren Feldern im benutzerdefinierten Formular.
@@ -158,7 +158,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Mehrere Objekte in der Liste auswählen.
 
-1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
    ODER
 

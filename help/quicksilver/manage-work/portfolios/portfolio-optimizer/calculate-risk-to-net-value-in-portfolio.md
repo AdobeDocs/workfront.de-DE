@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Berechnung des [!UICONTROL Risiko/Nettowert] in einem Portfolio
 
-In [!UICONTROL Portfolio Optimizer] misst der Indikator [!UICONTROL Risiko für Nettowert] das potenzielle Risiko unter Berücksichtigung des [!UICONTROL Nettowerts], der von allen in [!UICONTROL Portfolio Optimizer angezeigten Projekten bereitgestellt ].
+In [!UICONTROL Portfolio Optimizer] misst der Indikator [!UICONTROL Risiko für Nettowert] das potenzielle Risiko unter Berücksichtigung des [!UICONTROL Nettowerts], der von allen in [!UICONTROL Portfolio Optimizer angezeigten Projekten bereitgestellt &#x200B;].
 
 Um die größte Effizienz innerhalb des Portfolios zu erzielen, sollten Sie sehen, dass der [!UICONTROL Risiko]-Indikator niedrig und der [!UICONTROL Nettowert]-Indikator hoch ist.
 

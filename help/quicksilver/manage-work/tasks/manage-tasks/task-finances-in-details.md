@@ -166,4 +166,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn Sie die Felder im Abschnitt Finanzen bearbeiten, klicken Sie auf **Speichern****Änderungen**.
+1. (Bedingt) Wenn Sie die Felder im Abschnitt Finanzen bearbeiten, klicken Sie auf **Speichern**&#x200B;**Änderungen**.

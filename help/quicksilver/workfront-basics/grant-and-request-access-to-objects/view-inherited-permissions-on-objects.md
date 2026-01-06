@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Anzeigen geerbter Berechtigungen für Objekte
 
-Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben, um sie freizugeben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -93,7 +93,7 @@ Die Anzeige geerbter Berechtigungen ist für alle Objekte identisch.
 So zeigen Sie geerbte Berechtigungen für ein Projekt an:
 
 1. Wechseln Sie zu einem Projekt, dessen Freigabeberechtigungen Sie anzeigen möchten.
-1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
+1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
 
 1. Erweitern Sie die Liste **Geerbte Berechtigungen** .
 

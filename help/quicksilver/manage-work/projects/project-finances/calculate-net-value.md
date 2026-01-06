@@ -46,7 +46,7 @@ Die folgenden Felder können sich auf den Nettowert eines Projekts auswirken:
 Den Nettowert für ein Projekt finden Sie in den folgenden Bereichen in Workfront:
 
 * Im Business Case-Zusammenfassungsbereich des Business Case\
-  Weitere Informationen zum Bereich „Zusammenfassung eines Business-Case“ finden Sie im Abschnitt „Grundlagen zur Zusammenfassung eines Business-Case“ im Artikel [Erstellen eines Business-Case für ](../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Weitere Informationen zum Bereich „Zusammenfassung eines Business-Case“ finden Sie im Abschnitt „Grundlagen zur Zusammenfassung eines Business-Case“ im Artikel [Erstellen eines Business-Case für &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Nettowert im Business Case](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 

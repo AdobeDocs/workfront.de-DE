@@ -52,7 +52,7 @@ Erwägen Sie, die folgenden Felder zu bearbeiten:
 
 * **Portfolio**: Wählen Sie eine Portfolio für das Projekt aus. Sie müssen den Portfolio erstellen und im Status Aktiv platzieren, bevor er in diesem Dropdown-Menü zur Auswahl verfügbar ist.
 
-  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Weitere Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -213,7 +213,7 @@ Weitere Informationen zu diesen Feldern finden Sie unter [Übersicht über Busin
 
 Sie können den Business Case in eine PDF-Datei exportieren, wenn Sie ihn drucken müssen, oder ihn an eine E-Mail in einem kürzeren Format anhängen.
 
-Weitere Informationen finden [ unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Weitere Informationen finden [&#x200B; unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
