@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Gesendete Anfragen suchen
-description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen Sie Anfragen finden können, die Sie oder eine andere Person gesendet oder Anfragen, die Sie nie gesendet und als Entwürfe gespeichert haben.
+title: Gesendete Anfragen anzeigen
+description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen Sie von Ihnen oder einer anderen Person gesendete Anfragen oder Anfragen anzeigen können, die Sie nie gesendet und als Entwürfe gespeichert haben.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# Gesendete Anfragen suchen
+# Eingereichte Anfragen anzeigen
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
-Sie können die folgenden Arten von Anfragen finden, die von Ihnen oder einer anderen Person gesendet oder von Ihnen gestartet, aber nie fertig gesendet wurden. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
+Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
-* Die Registerkarte **Workfront** im Bereich Anfragen in Workfront: Suchen Sie in den folgenden Abschnitten nach Anfragen, die an Workfront-Anfrage-Warteschlangen gesendet wurden:
+* Die Registerkarte **Workfront** im Bereich Anfragen in Workfront: Zeigen Sie an Workfront gesendete Anfragen in den folgenden Abschnitten an:
    * **Abschnitt „Gesendet**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie zumindest Zugriff haben.
    * **Entwurfsabschnitt** : Alle Anfragen, die Sie gestartet, aber nie abgeschlossen und nie gesendet haben. Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
+  >* Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
+  >* <span class="preview">In der neuen anfordernden -Version befinden sich gesendete Anfragen und Entwürfe in derselben Liste. </span>
+  >* <span class="preview">Entwürfe, die im alten Erlebnis erstellt wurden, werden im neuen anfordernden Erlebnis nicht angezeigt.</span>
 
-* Die Registerkarte **Planung** im Bereich Anfragen in Workfront: Suchen Sie Anfragen, die an Workfront Planning-Anfrageformulare gesendet wurden. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie in den folgenden Artikeln:
+* Registerkarte **Planung** im Bereich Anfragen in Workfront: An Workfront Planning-Anfrageformulare gesendete Anfragen anzeigen. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Gesendete Anfragen im Bereich Anfragen suchen
+## Anzeigen gesendeter Anfragen im Bereich Anfragen
 
-Die Suche nach gesendeten Anfragen unterscheidet sich je nachdem, ob Sie das neue oder das veraltete Anfrageerlebnis verwenden.
+Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue oder das veraltete anfragende Erlebnis verwenden.
 
-* [Gesendete Anfragen in der neuen anfordernden -Version suchen](#locate-submitted-requests-in-the-new-requesting-experience)
-* [Gesendete Anfragen in der Legacy-Anfrage finden](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [Anzeigen gesendeter Anfragen in der neuen anfordernden Version](#view-submitted-requests-in-the-new-requesting-experience)
+* [Anzeigen gesendeter Anfragen in der Legacy-Anfrage](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### Gesendete Anfragen in der neuen anfordernden -Version suchen
+### Anzeigen gesendeter Anfragen in der neuen anfordernden Version
 
-Gesendete Anfragen finden Sie im Bereich Anfragen (der <span class="preview"> Links zu Objekten enthält, die von diesen Anfragen erstellt wurden)</span>
+Gesendete Anfragen können im Bereich Anfragen angezeigt werden (der <span class="preview"> Links zu Objekten enthält, die durch diese Anfragen erstellt wurden)</span>
 
-So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
+So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der neuen anforde
    Die Liste Anfragen wird angezeigt.
 
 1. (Optional) Um nach einer Anfrage zu suchen, beginnen Sie, etwas in die Suchleiste oben rechts in der Liste einzugeben. Suchergebnisse werden während der Eingabe angezeigt.
-1. (Optional) Klicken Sie **Filter** und fügen Sie Bedingungen für die Anfragen hinzu, die Sie suchen möchten.
+1. (Optional) Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie anzeigen möchten.
 
    Sie können nach den folgenden Feldern filtern:
 
@@ -105,18 +107,26 @@ So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der neuen anforde
 
    Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
 Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
-1. (Optional) Verwenden Sie Ansichten, um sich auf die Anfragen zu konzentrieren, die Sie finden möchten.
+1. (Optional) Verwenden Sie Ansichten, um sich auf die Anfragen zu konzentrieren, die Sie anzeigen möchten.
 
    Anweisungen finden Sie unter [Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte Status überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
+
+   * Entwurf: Diese Anfrage wurde noch nicht eingereicht.
+   * Überprüfung ausstehend
+   * Wird geprüft
+   * Abgelehnt
+   * In Arbeit
+   * Abgeschlossen
 
 >[!NOTE]
 >
 >* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte Objekttyp `Issue` Wert an.
 >* Die Anfragenliste wird mit 50 angezeigten Anfragen angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
-### Gesendete Anfragen in der Legacy-Anfrage finden
+### Anzeigen gesendeter Anfragen in der Legacy-Anfrage
 
-So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der Legacy-Anfrage gesendet haben:
+So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage gesendet haben:
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ So suchen Sie nach Anfragen, die Sie oder andere Benutzende in der Legacy-Anfrag
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+
+1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte Status überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
+
+   * Entwurf: Diese Anfrage wurde noch nicht eingereicht.
+   * In Arbeit
+   * Abgeschlossen
 
 
