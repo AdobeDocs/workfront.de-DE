@@ -6,9 +6,9 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '836'
 ht-degree: 3%
 
 ---
@@ -82,6 +82,10 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
    * In der Anfragenliste im Widget Meine Anfragen auf der Startseite
    * Im Dialogfeld Neue Anfrage (enthält nur Entwürfe von Anfragen, die mit dem ausgewählten Formular erstellt wurden)
 
+   >[!NOTE]
+   >
+   >In der alten anfordernden Version erstellte Entwürfe sind in der neuen anfordernden Version nicht verfügbar.
+
 1. Aktualisieren Sie die Informationen für die Anfrage, wie in [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md) beschrieben.
 1. (Optional und bedingt) Klicken Sie während der Eingabe der Anfrage jederzeit auf **Verwerfen** Entwurf, wenn Sie den Entwurf löschen möchten. Dadurch wird der Entwurf gelöscht.
 
@@ -112,7 +116,7 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 1. Überprüfen Sie die Informationen zu den einzelnen Entwürfen in den folgenden Spalten der Liste „Entwürfe“:
 
    | Betreff | Dies ist der Name, den Sie Ihrer Anfrage gegeben haben, als Sie mit der Erstellung begonnen haben. |
-   |---|---|
+   | --- | --- |
    | Path | Der Name der Anfrage-Warteschlange, der Themengruppen und der Warteschlangenthemen, an die Sie die Anfrage ursprünglich senden wollten. |
    | Eingabedatum | Das Datum, an dem Sie mit der Erstellung der Anfrage begonnen haben. |
    | Datum der letzten Aktualisierung | Das letzte Ihrer letzten Aktualisierung. Wenn Sie sie seit dem ersten Start der Anfrage nicht aktualisiert haben, sollten das Eingabedatum und das Datum der letzten Aktualisierung gleich sein. |
@@ -134,16 +138,11 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 
    * Klicken Sie **Senden**, wenn Sie bereit sind, die Anfrage zu senden. Die Anfrage wird im Abschnitt Gesendet gespeichert. Abhängig von der Routing-Regel der Anfrage-Warteschlange kann diese Anfrage an ein anderes Projekt als das als Anfrage-Warteschlange bezeichnete weitergeleitet werden. Weitere Informationen zu Routingregeln finden Sie unter [Routingregeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-     Oder
+     ODER
 
      Klicken Sie auf **Schließen**, wenn Sie noch nicht bereit sind, ihn zu übermitteln, und Sie möglicherweise später zurückkehren und ihn abschließen. Ihre Anfrage wird im Abschnitt „Entwürfe“ gespeichert und steht Ihnen beim nächsten Senden einer Anfrage für diese Anfrage-Warteschlange zur Verfügung.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Wenn Sie die Anfrage senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
-
-   >[!NOTE]
-   >
-   >In der neuen anfordernden -Version befinden sich Entwürfe in derselben Liste wie gesendete Anfragen.
-   >Weitere Informationen zum Erstellen von Anfragen in der neuen -Version finden Sie unter [Erstellen von Anfragen und Generieren von Entwürfen in der Workfront-Web](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app)App im Artikel Erstellen und Senden von Anfragen .
 

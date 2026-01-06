@@ -4,9 +4,9 @@ description: Verbesserungen bei Anfragen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Mög
 
 Sie können Anfragelistenansichten sowohl über den Bereich Anfragen in Workfront als auch über das Widget Meine Anfragen auf der Startseite freigeben. Die Freigabefunktion ist an beiden Stellen identisch, und die Anzeigeeinstellungen, einschließlich der Freigabe, bleiben beim Wechseln zwischen dem Widget „Meine Anfragen“ und dem Bereich „Anfragen“ erhalten.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [ unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Hinzufügen benutzerdefinierter Felder zur Anfragenliste und zum Widget Meine Anfragen
 
@@ -125,8 +125,6 @@ Weitere Informationen zum Ausfüllen von Formularen mit KI, einschließlich der 
 Um das Erstellen und Senden von Anfragen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Entwürfe zu speichern. Wenn Sie jetzt mit dem Ausfüllen und Schließen einer Anfrage beginnen, wird die Anfrage im Status Entwurf gespeichert und ist im Anfrageformular zu finden, das zum Erstellen des Entwurfs verwendet wird. Sie können den Entwurf dann jederzeit erneut öffnen, aktualisieren und senden.
 
 Zuvor war diese Funktion in der neuen anfordernden -Version nicht verfügbar.
-
-Entwürfe, die in der veralteten anfordernden -Version erstellt wurden, sind in der neuen anfordernden -Version verfügbar.
 
 Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen von Anfragen aus Entwürfen](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 

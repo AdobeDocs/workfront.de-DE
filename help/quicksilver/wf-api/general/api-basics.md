@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
 source-wordcount: '4396'
 ht-degree: 0%
@@ -99,7 +99,7 @@ Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID, die mithilfe ei
 
 #### Authentifizierung beim Anforderungsheader
 
-Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen &#x200B;](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
+Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
 
 Im Folgenden finden Sie ein Beispiel für einen Anfrage-Header:
 
@@ -266,7 +266,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 In der folgenden Tabelle sind einige der Modifikatoren aufgeführt, die Sie mit der Workfront-API verwenden können.
 
 | **Modifier** | **Beschreibung** | **Beispiel** |
-|---|---|---|
+| --- | --- | --- |
 | Äq | Gibt Ergebnisse mit dem Status „Geschlossen“ zurück | <pre>…status=cls&amp;status_mod=eq…</pre> |
 | NE | Gibt Ergebnisse zurück, die nicht den Status „Geschlossen“ haben | <pre>…status=cls&amp;status_mode=ne…</pre> |
 | Gate | Gibt Ergebnisse zurück, deren Prozentwert der Fertigstellung größer oder gleich 50 ist | <pre>…percentComplete=50&amp;percentComplete_Mod=get…</pre> |
