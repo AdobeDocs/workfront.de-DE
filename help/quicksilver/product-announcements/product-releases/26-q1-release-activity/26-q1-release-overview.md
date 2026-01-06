@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '2880'
 ht-degree: 5%
 
 ---
@@ -333,16 +333,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>Freitag, 6. November 2025</td>
         <td>Freitag, 13. November 2025</td>
         <td>Freitag, 15. Januar 2026</td>
-    </tr>   
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Verbesserte Anzeige der Gruppierungsanzahl in Arbeitsflächen-Dashboards</a>
-            <p>Wenn ein Tabellenbericht mehrere Ergebnisseiten enthält und die Tabelle mit Gruppierungen konfiguriert ist, zeigt die Tabelle jetzt sowohl den Datensatzbetrag für die aktuelle Seite als auch die Gesamtanzahl der Datensätze für alle Seiten an. Wenn Ihr Tabellenbericht beispielsweise 7 Gruppierungen aufweist und die erste Seite 3 anzeigt, zeigt die Tabelle 3 von 7 an.</p>
-        </td>
-       <td>Freitag, 6. November 2025</td>
-        <td>Freitag, 13. November 2025</td>
-        <td>Freitag, 15. Januar 2026</td>
-    </tr>   
+    </tr>    
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Neue Leitplanken zur Verbesserung der Ladezeiten in Arbeitsflächen-Dashboards</a>
@@ -599,7 +590,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
