@@ -4,9 +4,9 @@ description: Berichtsverbesserungen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -151,16 +151,6 @@ Die folgenden Feldoptionen sind als Alternativen verfügbar:
 * Andere Gruppen: ID
 * Andere Rollen: ID
 * Andere Teams: ID
-
-## Verbesserte Anzeige der Gruppierungsanzahl in Arbeitsflächen-Dashboards
-
->[!NOTE]
->
->Vorschau: 6. November 2025
->Produktions-Schnellveröffentlichung: 13. November 2025
->Produktion für alle: 15. Januar 2026
-
-Wenn ein Tabellenbericht mehrere Ergebnisseiten enthält und die Tabelle mit Gruppierungen konfiguriert ist, zeigt die Tabelle jetzt sowohl den Datensatzbetrag für die aktuelle Seite als auch die Gesamtanzahl der Datensätze für alle Seiten an. Wenn Ihr Tabellenbericht beispielsweise 7 Gruppierungen aufweist und die erste Seite 3 anzeigt, zeigt die Tabelle 3 von 7 an.
 
 
 ## Neue Leitplanken zur Verbesserung der Ladezeiten in Arbeitsflächen-Dashboards
