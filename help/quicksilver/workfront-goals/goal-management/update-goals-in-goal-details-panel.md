@@ -6,10 +6,10 @@ description: Sie können Informationen zu einzelnen Zielen aktualisieren, indem 
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das B
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -201,7 +201,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
-1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
+1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab. They are selected by default: 
 
    | Option |Description  |
    |---|---|
@@ -225,7 +225,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Klicken Sie oben rechts auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) und dann auf **Alle bearbeiten** oder **Überblick**
 
-   Oder
+   ODER
 
    Beginnen Sie, Informationen in eines der bearbeitbaren Felder im Abschnitt „Zieldetails“ einzugeben. Der Abschnitt kann nun bearbeitet werden.
 
@@ -254,7 +254,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >Sie müssen diese Informationen zum übergeordneten Ziel selbst aktualisieren.
 
    * **Zeitraum**: Klicken Sie darauf, um den Zeitraum für das Ziel zu aktualisieren\
-     Oder\
+     ODER\
      Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** **aus, um ein Datum für die Start-** Enddaten **Ziels**.
    * **Abschließende Anmerkungen**: Dieses Feld ist nur für Ziele mit dem Status Geschlossen sichtbar. Geschlossene Ziele können nicht bearbeitet werden. Wenn Sie ein geschlossenes Ziel erneut öffnen, werden die Abschlussnotizen dauerhaft gelöscht.
 

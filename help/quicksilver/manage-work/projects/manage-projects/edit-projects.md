@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,7 +171,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
    Um Informationen zu den im Abschnitt Projektdetails angezeigten Feldern zu erhalten, fahren Sie mit dem Bearbeiten des Projekts im Feld Projekt bearbeiten wie unten beschrieben fort.
 1. Um alle Projektinformationen zu bearbeiten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/qs-more-menu.png) neben dem Projektnamen und dann auf **Bearbeiten**.
 
-   Oder
+   ODER
 
    Wählen Sie aus einer Projektliste ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png).
 
@@ -339,7 +339,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -381,7 +381,7 @@ So bearbeiten Sie beim Bearbeiten eines Projekts Informationen zu benutzerdefini
 1. (Optional) Klicken Sie auf das **X**-Symbol rechts neben dem Namen eines benutzerdefinierten Formulars, um es zu entfernen, und klicken Sie dann auf **Entfernen**.
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -452,7 +452,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -540,7 +540,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
        <td role="rowheader"><strong>Stundentypen filtern</strong> und</span> <strong>Stundentypen</strong></td> 
        <td> <p> <p>Wählen Sie aus den folgenden Optionen aus:</p> 
        <ul> 
-       <li> <p>Wählen <strong>Nein</strong>, um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>Oder</p> </li> 
+       <li> <p>Wählen <strong>Nein</strong>, um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen. (Dies ist die Standardauswahl)</p> <p>ODER</p> </li> 
        <li>Wählen Sie <strong>Ja</strong>, um nur eine Teilmenge der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, und wählen Sie dann die Stundentypen, die Sie verfügbar machen möchten, aus dem Feld <b>Stundentypen</b> aus.</li> 
        <p><b>TIPP</b></p>
        <p>Das Feld <b>Stundentypen</b> kann nicht bearbeitet werden, wenn Sie auf <b>Nein</b> klicken.</p> 
@@ -572,7 +572,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -615,7 +615,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -647,7 +647,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -690,7 +690,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Wenn jemand Zugriff auf dieses Projekt erhält: Geben Sie den Standardzugriff für an…</strong></td> 
-      <td><p>Wählen Sie die Zugriffsoptionen aus, die Benutzer im Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für ihren Zugriff aus, wenn sie bei <strong> Projektfreigabe als Betrachter</strong>, <strong>Mitwirkende</strong> oder <strong>Manager</strong> gekennzeichnet sind. </p><p>Der <strong>Löschen</strong>-Zugriff in der <strong>Verwalten</strong>-Berechtigungsstufe bestimmt, ob Benutzer das Projekt selbst löschen können. Benutzer mit <strong>Verwalten</strong>-Zugriff auf das Projekt können Aufgaben und Probleme innerhalb des Projekts löschen, unabhängig davon, ob diese Option aktiviert ist oder ob sie über <strong>Verwalten</strong>-Berechtigungen für die Aufgaben und Probleme verfügen. </p></td> 
+      <td><p>Wählen Sie die Zugriffsoptionen aus, die Benutzer im Projekt haben sollen, wenn das Projekt für sie freigegeben ist. Wählen Sie die spezifischen Optionen für ihren Zugriff aus, wenn sie bei <strong> Projektfreigabe als Betrachter</strong>, <strong>Mitwirkende</strong> oder <strong>Manager</strong> gekennzeichnet sind. </p><p>Der <strong>Löschen</strong>-Zugriff in der <strong>Verwalten</strong>-Berechtigungsstufe bestimmt, ob Benutzer das Projekt selbst löschen können. Benutzer mit <strong>Verwalten</strong>-Zugriff auf das Projekt können Aufgaben und Probleme innerhalb des Projekts löschen, unabhängig davon, ob diese Option aktiviert ist oder ob sie über <strong>Verwalten</strong>-Berechtigungen für die Aufgaben und Probleme verfügen. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

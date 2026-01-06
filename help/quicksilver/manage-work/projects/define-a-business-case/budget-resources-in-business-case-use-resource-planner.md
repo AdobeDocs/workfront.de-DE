@@ -5,10 +5,10 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplane
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,7 +132,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
    Der Ressourcenplaner wird für das ausgewählte Projekt angezeigt.
 
-   Standardmäßig werden die ersten 20 Aufgabengebiete, die mit diesem Projekt verknüpft sind, im Abschnitt Ressourcenbudgetierung in alphabetischer Reihenfolge aufgeführt. 
+   Standardmäßig werden die ersten 20 Aufgabengebiete, die mit diesem Projekt verknüpft sind, im Abschnitt Ressourcenbudgetierung in alphabetischer Reihenfolge aufgeführt.
 
    Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -152,7 +152,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
    >   
    >
 
-    
+
 
 1. Klicken Sie **Heute**, um zum heutigen Zeitrahmen zurückzukehren.
 1. (Optional) Klicken Sie auf **Woche**, **Monat** oder **Quartal**, um Informationen zum Projekt in verschiedenen Zeitrahmen anzuzeigen.

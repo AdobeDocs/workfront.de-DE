@@ -7,7 +7,7 @@ description: Als Projekt-Manager können Sie Abrechnungssätze verwenden, um den
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Sie können die folgenden Umsatztypen auf Ihre Aufgaben oder Projekte anwenden:
  <tbody> 
   <tr> 
    <td> <p>Festeinnahmen</p> </td> 
-   <td> <p>Dieser Typ kann mit Projekten und Aufgaben verwendet werden. </p> <p>Wenn Sie eine Vorlage an ein Projekt anhängen, wird der feste Umsatz der Vorlage zum festen Umsatz des Projekts hinzugefügt. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Übersicht über das Anhängen einer Vorlage an ein Projekt</a>. </p> <p>Bei Vorgängen wird unabhängig von den Aufgabenzuordnungen der Umsatz für die Aufgabe immer unter Verwendung des Festbetrags berechnet, der für die Aufgabe angegeben wurde. </p> <p>Der feste Umsatz aus untergeordneten Aufgaben summiert sich zum Umsatz der übergeordneten Aufgabe und dann zum Umsatz des Projekts. Wenn für die übergeordnete Aufgabe und/oder das Projekt ein fester Betrag definiert ist, wird der Betrag zu den geplanten Einnahmen addiert, die aus allen untergeordneten Aufgaben aggregiert werden.</p> <p>Der Betrag der Festeinnahmen aus Vorgängen kann in einem Rechnungsnachweis für das Projekt enthalten sein.</p> </td> 
+   <td> <p>Dieser Typ kann mit Projekten und Aufgaben verwendet werden. </p> <p>Wenn Sie eine Vorlage an ein Projekt anhängen, wird der feste Umsatz der Vorlage zum festen Umsatz des Projekts hinzugefügt. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Übersicht über das Anhängen einer Vorlage an ein Projekt</a>. </p> <p>Bei Vorgängen wird unabhängig von den Aufgabenzuordnungen der Umsatz für die Aufgabe immer unter Verwendung des Festbetrags berechnet, der für die Aufgabe angegeben wurde. </p> <p>Der feste Umsatz aus untergeordneten Aufgaben summiert sich zum Umsatz der übergeordneten Aufgabe und dann zum Umsatz des Projekts. Wenn für die übergeordnete Aufgabe und/oder das Projekt ein fester Betrag definiert ist, wird der Betrag zu den geplanten Einnahmen addiert, die aus allen untergeordneten Aufgaben aggregiert werden.</p> <p>Der Betrag der Festeinnahmen aus Vorgängen kann in einem Rechnungsnachweis für das Projekt enthalten sein.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Benutzer pro Stunde</p> </td> 
@@ -379,12 +379,12 @@ Sie können die folgenden Umsatztypen für Projekte verfolgen:
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 * Die tatsächlichen Einnahmen für ein Projekt werden anhand der folgenden Formel berechnet:
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 Für den tatsächlichen Umsatz in Verbindung mit den Stunden, die direkt im Projekt erfasst werden, oder mit den Problemen verwendet Workfront den Abrechnungssatz der Person, die die Zeit im Projekt erfasst. Wenn dem/der Benutzenden kein Abrechnungssatz zugeordnet ist, verwendet Workfront den Abrechnungssatz des Primären Aufgabengebiets. Wenn beide Sätze null sind, ist der tatsächliche Umsatz, der mit den für das Projekt oder die Probleme protokollierten Stunden verbunden ist, null.

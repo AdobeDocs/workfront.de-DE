@@ -6,10 +6,10 @@ description: Ziele mit dem Status In Schwierigkeiten laufen Gefahr, nicht erreic
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Ziele mit dem Status In Schwierigkeiten laufen Gefahr, nicht erreicht zu werden,
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -130,7 +130,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Empfehlungen zur Vermeidung von Zielen, um einen Fortschritt von In Schwierigkeiten zu erreichen
 
-Bevor Ziele einen Fortschritt von „In Schwierigkeiten“ erreichen, können Sie sie häufig überwachen und ihren Fortschritt anpassen, wenn sie einen Fortschritt von „Gefährdet“ erreichen. Gefährdete Ziele laufen Gefahr, in Schwierigkeiten zu geraten. Weitere Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Bevor Ziele einen Fortschritt von „In Schwierigkeiten“ erreichen, können Sie sie häufig überwachen und ihren Fortschritt anpassen, wenn sie einen Fortschritt von „Gefährdet“ erreichen. Gefährdete Ziele laufen Gefahr, in Schwierigkeiten zu geraten. Weitere Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Bevor Ihre Ziele einen Fortschritt von In Schwierigkeiten erreichen, empfehlen wir Folgendes:
 
@@ -139,16 +139,13 @@ Bevor Ihre Ziele einen Fortschritt von In Schwierigkeiten erreichen, empfehlen w
 
 ## Überprüfen von in Schwierigkeiten geratenen Zielen in der Zielliste
 
-Sie können Ziele in jedem Abschnitt der Workfront-Ziele überprüfen. Informationen zu den Workfront-Zielen finden Sie in [Übersicht über die Adobe Workfront-Ziele](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Sie können Ziele in jedem Abschnitt der Workfront-Ziele überprüfen. Informationen zu den Workfront-Zielen finden Sie in [Übersicht über die Adobe Workfront-Ziele](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Dadurch wird der Bereich Workfront-Ziele geöffnet. Der Abschnitt „Target-Liste“ wird standardmäßig angezeigt.
+Dadurch wird der Bereich Workfront-Ziele geöffnet. Der Abschnitt „Target-Liste“ wird standardmäßig angezeigt.
 
 1. (Empfohlen) Passen Sie die folgenden Filter für den Bereich „Zielliste“ an, um gefährdete Ziele zu überprüfen:
 

@@ -8,10 +8,10 @@ description: Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -55,167 +55,167 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
   <tr> 
    <td>Beschreibung</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Status</p> </td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
    <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Priorität</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Bedingungstyp</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Zeitplanmodus</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Geplante Daten</td> 
    <td>Kann sich je nach den hinzugefügten Aufgaben ändern</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Tatsächliche Daten</td> 
+   <td>Tatsächliche Termine</td> 
    <td>Kann sich je nach den hinzugefügten Aufgaben ändern</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Programm</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gruppe</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Firma</td> 
    <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Geplante Stunden</td> 
    <td>Kann sich je nach den hinzugefügten Aufgaben ändern</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Projektbesitzer</td> 
    <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Projektsponsor</td> 
    <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ressourcenmanager</td> 
    <td>Der Liste der im Projekt vorhandenen Ressourcenmanager hinzugefügt</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerdefinierte Forms</td> 
+   <td>Benutzerdefinierte Formulare</td> 
    <td>Dem Projekt hinzugefügt, zusätzlich zu Formularen, die sich bereits im Projekt befinden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Budget</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Währung</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>PIM</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>EAC</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Geplanter Gewinn</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tatsächlicher Gewinn</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Meilensteinpfad</td> 
    <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Fertigstellungsmodus</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Zusammenfassung - Fertigstellungsmodus</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Update-Typ</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Zeitplan</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Ausfallzeit des Benutzers</td> 
+   <td>Benutzer-Ausfallzeiten</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Abgleichsmodus für Ressourcen</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Risiko (Projektfeld)</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ressourcenpools</td> 
    <td>Wurde zur Liste der vorhandenen Ressourcenpools im Projekt hinzugefügt</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Stundentypen</td> 
    <td> <p>Wenn diese Option während des Anfügevorgangs deaktiviert ist, bleibt die Einstellung „Stundentypen“ für das Projekt unverändert. </p> <p>Wenn diese Option ausgewählt ist, wird die Vorlageneinstellung auf das Projekt übertragen. Wenn die Stundentypfilterung sowohl für das Projekt als auch für die Vorlage auf Ja festgelegt ist, werden die Stundentypen aus der Vorlage zu den im Projekt enthaltenen Stundentypen hinzugefügt.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Erinnerungsnachrichten</td> 
@@ -228,29 +228,29 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Standardmäßige benutzerdefinierte Forms für Aufgaben</td> 
+   <td>Aufgabe – Benutzerdefiniertes Standardformular</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Work Effort</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Benutzenden erlauben, Probleme inline hinzuzufügen</span> </td> 
    <td><span>Projektinformationen werden beibehalten</span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Alle Einstellungen</td> 
    <td>Vorlageneinstellungen überschreiben die des Projekts</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Aufgaben</td> 
    <td>Am Ende der Aufgabenliste hinzugefügt, zusätzlich zu den vorhandenen Projektaufgaben</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Dokumente</td> 
@@ -270,12 +270,12 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
   <tr> 
    <td>Abrechnungssätze</td> 
    <td> <p>Von der Vorlage zusätzlich zu den vorhandenen Abrechnungssätzen für das Projekt übertragen. </p> <p>Wenn sowohl für das Projekt als auch für die Vorlage ein unterschiedlicher Satz für dasselbe Aufgabengebiet vorhanden ist, bleibt der Satz für das Projekt unverändert. </p> </td> 
-   <td> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Abrechnungseinträge</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ausgaben</td> 
@@ -284,7 +284,7 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
   </tr> 
   <tr> 
    <td>Finanzinformationen</td> 
-   <td> <p>Wenn dies im Anlagenprozess ausgewählt wird, werden die folgenden Felder entweder übertragen oder zum Projekt hinzugefügt: </p> 
+   <td> <p>Wenn dies im Anlagenprozess ausgewählt wird, werden die folgenden Felder entweder übertragen oder zum Projekt hinzugefügt: </p> 
     <ul> 
      <li> <p>Fixkosten</p> <p>Wenn die Option ausgewählt ist, werden die aktualisierten Fixkosten des Projekts anhand der folgenden Formel berechnet:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>Festeinnahmen</p> <p>Wenn die Option ausgewählt ist, wird der aktualisierte feste Umsatz des Projekts anhand der folgenden Formel berechnet:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
@@ -295,22 +295,22 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
      <li> <p>Die Festkosten und Festeinnahmen für das Projekt werden beibehalten.</p> </li> 
      <li> <p>Die Kosten- und Umsatztypen für die über die Vorlage hinzugefügten Aufgaben sind auf „Keine Kosten“ und „Nicht fakturierbar“ festgelegt</p> </li> 
     </ul> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Stunden</td> 
    <td>Projektinformationen werden beibehalten</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Warteschlangendetails, Themengruppen, Warteschlangenthemen, Routing-Regeln</td> 
    <td> <p>Aus Vorlage übertragen</p> <p>Wenn Sie die Option <strong>Warteschlangeneigenschaften und Problem-Setup</strong> während des Anfügevorgangs auswählen, überschreiben die Warteschlangendetails der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problemeinstellungen</strong> aktiviert lassen. <br>Wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> deaktivieren, bleiben alle Warteschlangeneinstellungen des Projekts erhalten und es werden keine Warteschlangeneinstellungen aus der Vorlage angehängt.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Aufgabenbeschränkungen</td> 
    <td> <p>Aus Vorlage übertragen </p> <p>Wenn diese Option während des Anfügevorgangs deaktiviert ist, werden die Aufgabenbeschränkungen auf „So bald wie möglich“ oder „So spät wie möglich“ festgelegt, je nach der Einstellung von „Projektzeitplan ab“. </p> </td> 
-   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
+   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>Aufgabenvorgänger</td> 
@@ -325,7 +325,7 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
  </tbody> 
 </table>
 
- 
+
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -368,17 +368,17 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p><b>Access settings</b> </p> </li>
 </ul>
 <ul>
-<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+<li> <p><b>Custom Forms</b>: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
 </ul>
 <ul>
-<li> <p><b>Start&nbsp;From</b> </p> </li>
+<li> <p><b>Start From</b> </p> </li>
 </ul>
 <p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>
 <li> <p style="font-weight: bold;">Project Owner</p> </li>
-<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Project Sponsor</p> </li>
 <li> <p style="font-weight: bold;">Group</p> </li>
 <li> <p style="font-weight: bold;">Company</p> </li>
 <li> <p style="font-weight: bold;">Currency</p> </li>
@@ -389,8 +389,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 -->
 
- 
+

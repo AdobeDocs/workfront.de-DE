@@ -7,7 +7,7 @@ description: Die potenziellen Risikokosten eines Projekts berücksichtigen die p
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -41,9 +41,9 @@ Die Risiken für ein Projekt und deren potenzielle Kosten finden Sie in den folg
 * In einem Projektbericht, wenn Sie das Feld Geplante Risikokosten zu den Spalten des Berichts hinzufügen.\
   Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Wenn das Projekt in Portfolio Optimizer mit einem Portfolio verknüpft ist, wird es in der Spalte Risiko angezeigt.\
-  Die Summe aller potenziellen Risikokosten aller Projekte im Portfolio summiert sich zum Risiko des Portfolios.\
-  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über den Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+* Wenn das Projekt in Portfolio Optimizer mit einer Portfolio verknüpft ist, wird es in der Spalte Risiko angezeigt.\
+  Die Summe aller potenziellen Risikokosten aller Projekte im Portfolio summiert sich zum Risiko der Portfolio.\
+  Weitere Informationen zu Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 Weitere Informationen zum Erstellen von Risiken in einem Projekt finden Sie im Artikel [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 

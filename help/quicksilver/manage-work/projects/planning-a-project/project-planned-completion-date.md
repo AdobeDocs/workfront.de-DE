@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Das geplante Abschlussdatum eines Projekts kann manuell oder automatisch festgel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,11 +118,11 @@ So planen Sie ein Projekt ab dem Abschlussdatum:
 1. Geben Sie **„Geplantes Abschlussdatum** des Projekts an.
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **„Geplantes Startdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet. 
+   Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **„Geplantes Startdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet.
 
 ## Automatisches Festlegen des geplanten Abschlussdatums eines Projekts
 
-Das geplante Abschlussdatum eines Projekts wird automatisch von Workfront berechnet, wenn Sie das Projekt ab dem Startdatum planen. 
+Das geplante Abschlussdatum eines Projekts wird automatisch von Workfront berechnet, wenn Sie das Projekt ab dem Startdatum planen.
 
 So planen Sie ein Projekt ab dem Startdatum:
 
@@ -141,9 +141,9 @@ So planen Sie ein Projekt ab dem Startdatum:
 1. Geben Sie **„Geplantes Startdatum** des Projekts an.
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **Geplantes Abschlussdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet. 
+   Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **Geplantes Abschlussdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet.
 
-   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
    Das geplante Abschlussdatum des Projekts fällt in diesem Fall mit dem geplanten Abschlussdatum der letzten Aufgabe im Projekt zusammen.
 
@@ -151,15 +151,15 @@ So planen Sie ein Projekt ab dem Startdatum:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>The Planned Completion Date of a task</h2>
 <p>(NOTE: drafted because I created a new article, here: /Content/Manage work/Tasks/Task information/task-planned-completion-date.htm)</p>
-<p>You can either specify the Planned Completion Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>
+<p>You can either specify the Planned Completion Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria. </p>
 <ul>
 <li><a href="#manually-set-the-planned-completion-date-of-a-task" class="MCXref xref">Manually set the Planned Completion Date of a task</a> </li>
 <li><a href="#how-the-planned-completion-date-is-calculated-for-a-task" class="MCXref xref">How the Planned Completion Date is calculated for a task</a> </li>
 </ul>
 <p><strong>Manually set the Planned Completion Date of a task</strong></p>
-<p>Setting the Planned Completion Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;</p>
-<p>You can manually set the Planned Completion Date&nbsp;when creating a task, as described in&nbsp;the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
-<p>You can manually specify the Planned Completion Date when you select any of the following Task Constraints:&nbsp;</p>
+<p>Setting the Planned Completion Date of a task depends on the type of Task Constraint you assign to the task. </p>
+<p>You can manually set the Planned Completion Date when creating a task, as described in the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
+<p>You can manually specify the Planned Completion Date when you select any of the following Task Constraints: </p>
 <table border="1" cellspacing="15" cellpadding="1">
 <col>
 <col>
@@ -186,12 +186,12 @@ So planen Sie ein Projekt ab dem Startdatum:
 <li> <p>Task Constraint</p> <p>For more information about Task Constraints, see the article <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </li>
 <li> <p>Task predecessor relationship</p> <p>For more information about task predecessors, see the article <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p> </li>
 <li>Project Completion Date, when the project is scheduled from Completion Date.</li>
-<li> <p>The time off schedule of the Primary&nbsp;Assignee of the task. </p> <p>When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the <strong>Consider user time off in task durations</strong> setting is selected for the <strong>User Time Off</strong> field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task Planned Completion Date becomes June 4. </p> <p>For information about the <strong>User Time Off</strong> preference, see the articles <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> or <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>
+<li> <p>The time off schedule of the Primary Assignee of the task. </p> <p>When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the <strong>Consider user time off in task durations</strong> setting is selected for the <strong>User Time Off</strong> field. New projects inherit this setting from the Project Preferences area, but you can edit the setting at the project level. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task Planned Completion Date becomes June 4. </p> <p>For information about the <strong>User Time Off</strong> preference, see the articles <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> or <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>
 </ul>
-<p>When set automatically, the Planned Completion Date&nbsp;is determined based on the following calculation:&nbsp;</p>
+<p>When set automatically, the Planned Completion Date is determined based on the following calculation: </p>
 <p><code>Planned Completion Date = Planned Start Date + Duration</code> </p>
 <p>For example, if your task has a start date of September 16 and a duration of 10 days, the Planned Completion Date is September 26.</p> <note type="note">
-&nbsp;The Update Type for the project must also be&nbsp;set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.
+ The Update Type for the project must also be set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically adjusted.
 <br>For more information about the Update Type, see the article
 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.
 </note>

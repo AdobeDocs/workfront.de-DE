@@ -6,7 +6,7 @@ description: In diesem Artikel werden die Bereiche des Business Case eines Proje
 author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Erwägen Sie, die folgenden Felder zu bearbeiten:
 
 * **Portfolio**: Wählen Sie eine Portfolio für das Projekt aus. Sie müssen den Portfolio erstellen und im Status Aktiv platzieren, bevor er in diesem Dropdown-Menü zur Auswahl verfügbar ist.
 
-  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [&#128279;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Weitere Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -133,7 +133,7 @@ Beachten Sie beim Anzeigen des Abschnitts „Ressourcenbudgetierung“ des Busin
 * Die hier angezeigten Informationen werden auch im Ressourcenplaner auf Systemebene oder im Szenario-Planer angezeigt.
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in NWE only)<br></p>
   -->
 
 * Nachdem Sie Ihre Ressourcen budgetiert haben, werden die budgetierten Lohnkosten des Projekts im Bereich Ressourcenbudgetierung angezeigt, wenn die Funktionen mit den Sätzen Kosten pro Stunde verknüpft sind. Die budgetierten Lohnkosten werden in der Projektwährung angezeigt.
@@ -213,7 +213,7 @@ Weitere Informationen zu diesen Feldern finden Sie unter [Übersicht über Busin
 
 Sie können den Business Case in eine PDF-Datei exportieren, wenn Sie ihn drucken müssen, oder ihn an eine E-Mail in einem kürzeren Format anhängen.
 
-Weitere Informationen finden [&#x200B; unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Weitere Informationen finden [ unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -221,14 +221,14 @@ Weitere Informationen finden [&#x200B; unter „Business Case eines Projekts exp
 <ol>
 <li value="1">Go to the <strong>Business Case</strong> area of a project. </li>
 <li value="2"> <p>In the<strong>Business Case Summary</strong> area, click <strong>Export</strong>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li>
-<li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li>
+<li value="3">(Optional) You can attach the PDF file to an email, or print it. </li>
 </ol>
 </div>
 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
+<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.  The file contains all areas of the Business Case in an easy to read format.</p>
 <p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project </a></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and will replace the info above, when the standalone arrticle is live >> Becky!)</p>
 -->

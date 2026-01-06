@@ -6,27 +6,27 @@ description: Sie können Adobe Workfront-Projekte in Microsoft Project exportier
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 # Exportieren eines Projekts in ein Microsoft-Projekt
 
-Sie können Adobe Workfront-Projekte in Microsoft Project exportieren. 
+Sie können Adobe Workfront-Projekte in Microsoft Project exportieren.
 
 >[!IMPORTANT]
 >
 >* Nicht alle Workfront-Felder werden in die Microsoft-Projektdatei übertragen.\
 >  Weitere Informationen zur Kompatibilität von Feldern zwischen Workfront und Microsoft Project finden Sie im Artikel [Zuordnen von Microsoft-Projektfeldern zu Adobe Workfront-Projekten](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
->* Es wird empfohlen, die Anzahl der Übertragungen von Projekten von einer Anwendung auf eine andere zu begrenzen. 
+>* Es wird empfohlen, die Anzahl der Übertragungen von Projekten von einer Anwendung auf eine andere zu begrenzen.
 >
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,16 +89,16 @@ Sie können Adobe Workfront-Projekte in Microsoft Project exportieren. 
 
 Sie können ein Projekt aus Workfront über die Projektseite oder aus einer Projektliste oder einem Bericht exportieren.
 
-1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen
+1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen
 
    ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
-   Oder
+   ODER
 
-   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![&#x200B; das Symbol Mehr &#x200B;](assets/qs-more-menu.png)Mehr Menü).
+   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![ das Symbol Mehr ](assets/qs-more-menu.png)Mehr Menü).
 
    ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klicken Sie **MS Project exportieren**.
 
-   Das Projekt wird als XML-Datei auf Ihren Computer heruntergeladen und kann in Microsoft Project importiert werden. 
+   Das Projekt wird als XML-Datei auf Ihren Computer heruntergeladen und kann in Microsoft Project importiert werden.

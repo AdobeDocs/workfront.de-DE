@@ -8,10 +8,10 @@ description: Projektmetriken bieten Ihnen eine Visualisierung der Vorgänge in e
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 0%
+source-wordcount: '1206'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Projektmetriken bieten eine allgemeine Ansicht der Leistung eines Projekts im Di
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +89,7 @@ Um über das linke Bedienfeld eines Projekts auf den Bereich Metriken zuzugreife
 
 Projektmetriken bieten Ihnen eine Visualisierung der Vorgänge in einem Projekt, sodass Sie die Anforderungen und den Status eines Projekts schnell bewerten können.
 
-![](assets/project-metrics-full-screen-350x238.png)
+![Projektmetriken](assets/project-metrics-full-screen-350x238.png)
 
 Im Bereich Metriken können Sie den Gesamtzustand eines Projekts sowie Folgendes anzeigen:
 
@@ -111,7 +111,7 @@ Weitere Informationen zum Untersuchen dieser Aufgaben oder Probleme finden Sie u
 
 Die wichtigsten Leistungsindikatoren (KPIs) werden oben im Bereich „Metriken“ angezeigt.
 
-![](assets/project-metrics-kpis-350x52.png)
+![Projektmetriken](assets/project-metrics-kpis-350x52.png)
 
 Diese KPIs sind in die folgenden Kategorien unterteilt:
 
@@ -124,7 +124,7 @@ Diese KPIs sind in die folgenden Kategorien unterteilt:
 >[!TIP]
 >
 >Um eine Liste der Arbeitselemente für einen bestimmten KPI anzuzeigen, klicken Sie auf diesen KPI. In dieser Liste können Sie auf ein bestimmtes Arbeitselement klicken, um weitere Details auf einer neuen Registerkarte anzuzeigen.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Abgeschlossene Aufgaben](assets/completed-tasks-dialog-350x75.png)\
 >Weitere Informationen finden Sie unter [Metrikdetails anzeigen](#view-metrics-details).
 
 ## Balkendiagramm für Aufgaben oder Probleme
@@ -133,23 +133,23 @@ In dem Balkendiagramm, das unter den Projekt-KPIs angezeigt wird, können Sie de
 
 Wenn der Status in diesem Diagramm ausgewählt ist, können Sie alle Status von Aufgaben oder Problemen in einem Projekt anzeigen. Jeder Status wird in einem Balken im Diagramm gruppiert. Alle Standardsystemstatus und benutzerdefinierten Status werden in diesem Diagramm angezeigt.
 
-![](assets/project-metrics-task-issue-by-status-350x120.png)
+![Aufgabenproblem nach Status](assets/project-metrics-task-issue-by-status-350x120.png)
 
 Wenn in diesem Diagramm Priorität ausgewählt ist, können Sie alle Prioritäten von Aufgaben oder Problemen in einem Projekt anzeigen.
 
-![](assets/project-metrics-task-issue-by-priority-350x121.png)
+![Aufgaben und Probleme nach Priorität](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >Um eine Liste von Arbeitselementen mit einem bestimmten Status oder einer bestimmten Priorität anzuzeigen, klicken Sie auf einen Balken im Diagramm. In dieser Liste können Sie auf ein bestimmtes Arbeitselement klicken, um weitere Details auf einer neuen Registerkarte anzuzeigen.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Feld „Abgeschlossene Aufgaben“](assets/completed-tasks-dialog-350x75.png)\
 >Weitere Informationen finden Sie unter [Metrikdetails anzeigen](#view-metrics-details).
 
 ## Ringdiagramm
 
 Das Ringdiagramm, das sich unter den Projekt-KPIs befindet, ermöglicht es Ihnen, das Verhältnis zwischen abgeschlossenen Arbeitselementen und unvollständigen Arbeitselementen in einem Projekt anzuzeigen.
 
-![](assets/tasks-issues-by-complete-status-350x250.png)
+![Aufgaben oder Probleme nach abgeschlossenem Status](assets/tasks-issues-by-complete-status-350x250.png)
 
 Im Dropdown-Menü über dem Diagramm können Sie Folgendes auswählen:
 
@@ -160,14 +160,14 @@ Im Dropdown-Menü über dem Diagramm können Sie Folgendes auswählen:
 >[!TIP]
 >
 >Um eine Liste der abgeschlossenen oder unvollständigen Arbeitselemente anzuzeigen, klicken Sie auf diesen Abschnitt im Ringdiagramm. In dieser Liste können Sie auf ein bestimmtes Arbeitselement klicken, um weitere Details auf einer neuen Registerkarte anzuzeigen.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Feld „Abgeschlossene Aufgaben“](assets/completed-tasks-dialog-350x75.png)\
 >Weitere Informationen finden Sie unter [Metrikdetails anzeigen](#view-metrics-details).
 
 ## Balkendiagramm für Zugewiesene
 
 Das Balkendiagramm Zugewiesene Person zeigt die Anzahl der Aufgaben an, die den einzelnen Personen im Projekt zugewiesen wurden. Diese Zahl variiert je nach der Kategorie, die Sie aus dem Dropdown-Menü auswählen.
 
-![](assets/tasks-issues-by-assignee-350x104.png)
+![Aufgabe und Probleme nach zugewiesener Person](assets/tasks-issues-by-assignee-350x104.png)
 
 Sie können Aufgabenzuweisungen für ein Projekt in den folgenden Kategorien anzeigen:
 
@@ -180,7 +180,7 @@ Sie können Aufgabenzuweisungen für ein Projekt in den folgenden Kategorien anz
 >[!TIP]
 >
 >Um eine Liste der Arbeitselemente in der ausgewählten Kategorie anzuzeigen, die einem bestimmten Benutzer zugewiesen sind, klicken Sie auf den Balken neben dem Namen des Benutzers im Diagramm. In dieser Liste können Sie auf ein bestimmtes Arbeitselement klicken, um weitere Details auf einer neuen Registerkarte anzuzeigen.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Feld „Abgeschlossene Aufgaben“](assets/completed-tasks-dialog-350x75.png)\
 >Weitere Informationen finden Sie unter [Metrikdetails anzeigen](#view-metrics-details).
 
 ## Anzeigen von Metrikdetails {#view-metrics-details}
@@ -190,9 +190,9 @@ Sie können mit den Diagrammen im Bereich Metriken interagieren, um verschiedene
 1. Navigieren Sie zu dem Projekt, für das Sie Metriken anzeigen möchten.
 1. Klicken Sie im linken Bedienfeld auf **Metriken**.\
    Die Diagramme im Bereich Metriken zeigen standardmäßig Informationen zu Aufgaben an.\
-   ![](assets/metrics-section-350x298.png)
+   ![Abschnitt Metriken](assets/metrics-section-350x298.png)
 
-1. (Bedingt) Wenn in einem Diagramm ein Dropdown-Pfeil angezeigt wird, klicken Sie auf das Symbol **Dropdown-Pfeil**, das im Diagramm ![](assets/dropdown-arrow.png) wird, und wählen Sie die gewünschte Option aus dem Menü aus.\
+1. (Bedingt) Wenn in einem Diagramm ein Dropdown-Pfeil angezeigt wird, klicken Sie auf das Symbol **Dropdown-Pfeil** ![Dropdown-Pfeil](assets/dropdown-arrow.png) im Diagramm und wählen Sie die gewünschte Option aus dem Menü aus.\
    Informationen zu den Optionen, die in den Menüs der einzelnen Diagramme angezeigt werden, finden Sie im entsprechenden Abschnitt oben.
 
 1. (Optional) Gehen Sie wie folgt vor, um Aufgaben oder Probleme für eine Metrik auf der Seite genauer zu untersuchen:
@@ -201,21 +201,21 @@ Sie können mit den Diagrammen im Bereich Metriken interagieren, um verschiedene
 
       Eine Liste mit Aufgaben oder Problemen wird angezeigt.
 
-      ![](assets/completed-tasks-dialog-350x75.png)
+      ![Feld „Abgeschlossene Aufgaben“](assets/completed-tasks-dialog-350x75.png)
 
    1. Verwenden Sie die Pfeile unten in der Liste, um die Aufgabe oder das Problem zu finden, die bzw. das Sie überprüfen möchten.
 
-      Oder
+      ODER
 
       Wählen Sie eine bestimmte Zahl aus, um Aufgaben oder Probleme auf einer bestimmten Seite anzuzeigen.
 
-      ![](assets/pagination-300x152.png)
+      ![Paginierung](assets/pagination-300x152.png)
 
    1. Wählen Sie eine Aufgabe oder ein Problem aus, um weitere Details anzuzeigen.
 
       Die Aufgabe oder das Problem wird in einer neuen Registerkarte geöffnet.
 
-1. (Optional) Um das Dashboard für Projektmetriken in eine .png-Datei zu exportieren, klicken Sie auf das **Export**-Symbol ![](assets/export.png) und wählen Sie **Als PNG exportieren** aus dem Dropdown-Menü aus.
+1. (Optional) Um das Dashboard für Projektmetriken in eine .png-Datei zu exportieren, klicken Sie auf das **Export**-Symbol ![Export-Symbol](assets/export.png) und wählen Sie dann **Als PNG exportieren** aus dem Dropdown-Menü aus.
 
    >[!TIP]
    >

@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können die Informationen eines Projekts anzeigen oder bearbeiten, indem Sie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +90,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie **linken** auf „Projektdetails“.
 1. Der **Überblick** sollte zuerst als Teil der Projektdetails angezeigt und standardmäßig erweitert werden
 
-   Oder
+   ODER
 
    Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Übersicht**. Dadurch wird der Bereich Überblick zur Bearbeitung geöffnet.
 
@@ -135,11 +135,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      </tr> 
      <tr> 
       <td role="rowheader">Bedingungstyp</td> 
-      <td>Bestimmt, ob der Manager die Bedingung des Projekts festlegt oder ob Workfront dies tut. Informationen zur Projektbedingung finden Sie im Artikel <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a>.</td> 
+      <td>Bestimmt, ob der Manager die Bedingung des Projekts festlegt oder ob Workfront dies tut. Informationen zur Projektbedingung finden Sie im Artikel <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Übersicht über Projektbedingung und Bedingungstyp</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zeitplanmodus</td> 
-      <td>Legt fest, wie das Projekt geplant ist. Beispiel: ob das Projekt ab dem Startdatum oder ab dem Abschlussdatum geplant ist. </td> 
+      <td>Legt fest, wie das Projekt geplant ist. Beispiel: ob das Projekt ab dem Startdatum oder ab dem Abschlussdatum geplant ist. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Geplantes Startdatum und Uhrzeit</td> 
@@ -209,7 +209,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    | Eingegeben von | Der Name des Benutzers, der das Projekt erstellt hat. |
    | Datum der letzten Aktualisierung | Datum und Uhrzeit der letzten Aktualisierung des Projekts. |
    | Zuletzt aktualisiert von | Der Name des Benutzers, der das Projekt zuletzt aktualisiert hat. |
-   | Vorlage |   |
+   | Vorlage |  |
 
 
 1. Wenn Ihr Unternehmen eine zusätzliche Lizenz für den Adobe Workfront-Szenarioplaner erworben hat und das Projekt Informationen aus einer verknüpften Initiative veröffentlicht, lesen Sie die folgenden Informationen zur Initiative im Bereich Szenarioplaner :
@@ -236,15 +236,15 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      </tr> 
      <tr> 
       <td role="rowheader"><span>Enddatum der Initiative</span> </td> 
-      <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
+      <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Aufgabengebiete der Initiative in FTEs und Stunden</span> </td> 
-      <td> <p>Informationen zu den zugehörigen Aufgabengebieten und deren Zeitplänen für die Initiative. Dazu gehören:</p> 
+      <td> <p>Informationen zu den zugehörigen Aufgabengebieten und deren Zeitplänen für die Initiative. Dazu gehören:</p> 
        <ul> 
         <li>Name des Aufgabengebiets</li> 
         <li>Anzahl VZÄ</li> 
-        <li> <p>Anzahl der Stunden für alle VZÄ</p> <p>Sie können die Anzahl der für Ihren Plan oder Ihre Initiative erforderlichen Aufgabengebiete mithilfe von Stunden oder VZÄ schätzen. </p> <p>Weitere Informationen finden Sie unter <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Pläne im Szenario-Planer erstellen und bearbeiten</a>. </p> </li> 
+        <li> <p>Anzahl der Stunden für alle VZÄ</p> <p>Sie können die Anzahl der für Ihren Plan oder Ihre Initiative erforderlichen Aufgabengebiete mithilfe von Stunden oder VZÄ schätzen. </p> <p>Weitere Informationen finden Sie unter <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Pläne im Szenario-Planer erstellen und bearbeiten</a>. </p> </li> 
        </ul> <p>Tipp: <span>Wenn die Anzahl der Aufgabengebiete für jeden Monat in der Initiative unterschiedlich ist, wird in diesem Feld die maximale Anzahl der für die Initiative erforderlichen Aufgabengebiete angezeigt. Wenn Sie beispielsweise 1 Berater für Januar und 2 für Februar benötigen, zeigt die Spalte 2FTE und die entsprechende Anzahl von Stunden für 2 FTE für alle Monate an.</span> </p> </td> 
      </tr> 
     </tbody> 

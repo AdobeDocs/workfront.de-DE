@@ -6,10 +6,10 @@ description: Sie können Projektvorlagen verwenden, um die meisten wiederholbare
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Im Folgenden finden Sie einige Vorteile der Verwendung von Vorlagen zum Erstelle
    * Warteschlangenthemen
    * Themengruppen
    * Routing-Regeln
-   * Benutzerdefinierte Forms
+   * Benutzerdefinierte Formulare
    * Unternehmens- und Gruppeninformationen
 
 ## Best Practices für die Erstellung von Vorlagen
@@ -50,7 +50,7 @@ Im Folgenden finden Sie einige Vorteile der Verwendung von Vorlagen zum Erstelle
 
 Beachten Sie beim Erstellen von Vorlagen Folgendes:
 
-* Keine Benutzer Vorlagenaufgaben zuweisen. Obwohl Sie die Zuweisung von Aufgaben aufheben können, empfehlen wir Ihnen, Aufgabengebiete zuzuweisen. Auf diese Weise können Sie sich ein Bild davon machen, welche Benutzer den Aufgaben zugewiesen werden können, wenn Sie das Projekt mithilfe der Vorlage erstellen.
+* Keine Benutzer Vorlagenaufgaben zuweisen. Obwohl Sie die Zuweisung von Aufgaben aufheben können, empfehlen wir Ihnen, Aufgabengebiete zuzuweisen. Auf diese Weise können Sie sich ein Bild davon machen, welche Benutzer den Aufgaben zugewiesen werden können, wenn Sie das Projekt mithilfe der Vorlage erstellen.
 * Geben Sie für Vorlagenaufgaben immer die Werte Dauer und Geplante Stunden an. Jede Aufgabe im Projekt sollte einer Dauer zugeordnet werden, wie lange die Aufgabe offen bleiben kann, sowie einem Wert für „Geplante Stunde“, wie lange die Aufgabe tatsächlich dauert. Aufgaben ohne diese Informationen können bei der Verwendung von Ressourcenverwaltungstools in Workfront nicht ordnungsgemäß für Ressourcen budgetiert werden.
 
   Informationen zur Dauer finden Sie in den folgenden Artikeln:
@@ -82,7 +82,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
   Weitere Informationen zum Erstellen von Vorlagen aus vorhandenen Projekten finden Sie unter [Vorlage aus Projekt erstellen](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
 
 * Durch Kopieren aus einer anderen Vorlage.\
-  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
 
 * Mithilfe unserer Beispielvorlagen.\
   Weitere Informationen zum Erstellen Ihrer Vorlagen mithilfe unserer Beispielvorlagen finden Sie unter [Erstellen von Projektvorlagen aus Beispielen](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).

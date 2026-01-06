@@ -7,10 +7,10 @@ description: Der Überblick über die Projektfinanzen ist für die Verwaltung Ih
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ Die folgende Tabelle zeigt einige der Finanzen, die Sie in Workfront nachverfolg
  </thead> 
  <tbody> 
   <tr> 
-   <td>Uhrzeit</td> 
+   <td>Zeit</td> 
    <td> Informationen zur Aufzeichnungszeit für ein Projekt finden Sie unter <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Zeit erfassen</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -68,102 +68,102 @@ Die folgende Tabelle zeigt einige der Finanzen, die Sie in Workfront nachverfolg
   <tr> 
    <td>Budget</td> 
    <td> <p>Informationen zur Budgetierung eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Verwalten von Informationen im Bereich Projektfinanzierung</a>.</p> <p>Informationen zur Budgetierung von Ressourcen für ein Projekt finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budgetressourcen im Business Case</a>.</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Abrechnungseinträge</td> 
    <td>Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie unter <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Rechnungsnachweise erstellen</a>.</td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Einnahmen</td> 
    <td> Informationen zu Abrechnung und Umsatz finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ausgaben</td> 
    <td>Informationen zum Verwalten von Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Verwalten von Projektausgaben </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Abrechnungssätze</td> 
    <td> <p>Sie können Abrechnungssätze für Benutzer oder Aufgabengebiete festlegen.</p> <p>Informationen zum Verknüpfen von Benutzern mit Abrechnungssätzen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.</p> <p>Informationen zum Verknüpfen von Aufgabengebieten mit Abrechnungssätzen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Aufgabengebieten</a>.</p> <p>Abrechnungssätze berechnen den Umsatz Ihrer Projekte und Aufgaben. Sie können die Funktion „Abrechnungssätze für ein Projekt oder für eine Firma überschreiben“. </p> <p>Informationen zum Überschreiben von Verrechnungssätzen für Projekte finden Sie unter <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Übersicht über das Überschreiben von Verrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt</a>.</p> <p>Informationen zum Überschreiben von Abrechnungssätzen für Unternehmen finden Sie unter <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Überschreiben von Abrechnungssätzen auf Projektebene mit Abrechnungssätzen auf Firmenebene</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Return on Investment (ROI)</td> 
    <td> Informationen zur Berechnung des ROI finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Berechnung des ROI</a>. </td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Risiko/Nettowert-Verhältnis</td> 
    <td>Informationen zur Berechnung des Risikos für den Nettowert finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">Berechnung des Risikos für den Nettowert in einem Portfolio</a>.</td> 
-   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Leistungsmetriken</td> 
    <td> <p>Leistungsmetriken zeigen, wie Ihre Projekte oder Aufgaben zu einem bestimmten Zeitpunkt funktionieren. Leistungsmetriken sind automatische Berechnungen, die von Workfront für Aufgaben und Projekte durchgeführt werden. Die Leistungsmetriken, die Sie in Workfront berechnen können, werden in den folgenden Zeilen aufgeführt. Die Berechnungen der Leistungsmetriken variieren je nachdem, welchen Typ von Leistungsindexmethode Sie verwenden. </p> <p>Weitere Informationen zur Auswahl des für Ihr System zu verwendenden PIM finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Festlegen der Leistungsindexmethode (PIM)</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Schätzung bei Abschluss (EAC)</td> 
    <td> Weitere Informationen zur EAC-Berechnung finden Sie <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Berechnete Schätzung bei Abschluss berechnen (EAC)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Zeitplan-Leistungsindex (SPI)</td> 
    <td>Weitere Informationen zur Berechnung des SPI finden Sie <a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Planleistungsindex (SPI) berechnen </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Kostenentwicklungsindex (CPI)</td> 
    <td>Informationen zur Berechnung des CPI finden Sie <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Kostenplan-Leistungsindex (CSI)</td> 
    <td>Informationen zur Berechnung des CSI finden Sie <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Budgetierte Kosten für geplante Arbeiten (BCWS)</td> 
    <td>Eine Leistungsmetrik. Weitere Informationen zur Berechnung des SKBA finden <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref"> unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Budgetierte Kosten der geleisteten Arbeit (SKAA)</td> 
    <td>Eine Leistungsmetrik. Weitere Informationen zur Berechnung des SKAA finden Sie <a href="../../../manage-work/projects/project-finances/calculate-bcwp.md" class="MCXref xref">Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA) </a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
- 
+

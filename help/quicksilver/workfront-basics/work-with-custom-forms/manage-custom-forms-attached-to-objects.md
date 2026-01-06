@@ -6,10 +6,10 @@ description: Sie können die Reihenfolge aktualisieren, in der die benutzerdefin
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können die Reihenfolge aktualisieren, in der die benutzerdefinierten Formul
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Wechseln Sie zum -Objekt, in dem Sie die Reihenfolge der hinzugefügten benutzerdefinierten Formulare ändern möchten, und beginnen Sie dann mit der Bearbeitung des -Objekts.
 
-   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
+   **Beispiel:** Um beispielsweise die benutzerdefinierten Formulare eines Projekts zu verwalten, gehen Sie zum Projekt, klicken Sie auf die **** Mehr![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten** .
 
 1. Klicken **Abschnitt „Benutzerdefinierte Forms** für Projekte, Aufgaben und Probleme auf das ![](assets/move-icon---dots.png) neben dem Namen eines benutzerdefinierten Formulars. Klicken Sie für alle anderen Objekte auf **Forms verwalten**. Diese Option wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular an das Objekt angehängt ist.
 1. Ziehen Sie einen ![](assets/move-icon---dots.png) an eine neue Position in der Liste.
@@ -158,7 +158,7 @@ So bearbeiten Sie mehrere benutzerdefinierte Formulare, wenn Sie Objekte stapelw
 
 1. (Optional) Wenn Sie allen Objekten benutzerdefinierte Formulare hinzugefügt, die Objekte jedoch noch nicht gespeichert haben, können Sie die Reihenfolge ändern, in der die benutzerdefinierten Formulare auf den Objekten angezeigt werden.
 
-   Weitere Informationen zum Ändern der Reihenfolge der Formulare finden Sie unter [Mehrere benutzerdefinierte Formulare, die an ein Objekt angehängt sind, neu &#x200B;](#reorder-multiple-custom-forms-attached-to-an-object) diesem Artikel.
+   Weitere Informationen zum Ändern der Reihenfolge der Formulare finden Sie unter [Mehrere benutzerdefinierte Formulare, die an ein Objekt angehängt sind, neu ](#reorder-multiple-custom-forms-attached-to-an-object) diesem Artikel.
 
 1. Klicken Sie **Formular entfernen**, um ein benutzerdefiniertes Formular aus den Objekten zu entfernen.
 
@@ -172,14 +172,14 @@ So bearbeiten Sie mehrere benutzerdefinierte Formulare, wenn Sie Objekte stapelw
 1. Klicken Sie **Formular wiederherstellen**, um das Formular in dem Zustand wiederherzustellen, in dem es sich vor der Bearbeitung der Objekte befand.
 1. (Optional) Klicken Sie auf den Pfeil zum Reduzieren neben dem Namen des Formulars, um jeweils ein Formular auszublenden.
 
-   Oder
+   ODER
 
    Klicken Sie **Forms reduzieren**, um alle Formulare gleichzeitig zu reduzieren.
 
 1. (Optional) Klicken Sie auf den Erweiterungspfeil neben dem Namen des Formulars, um jeweils ein Formular zu erweitern.
 
-   Oder
+   ODER
 
-   Klicken Sie **Forms erweitern**, um alle Formulare gleichzeitig zu erweitern. 
+   Klicken Sie **Forms erweitern**, um alle Formulare gleichzeitig zu erweitern.
 
 1. Klicken Sie auf **Änderungen speichern**.

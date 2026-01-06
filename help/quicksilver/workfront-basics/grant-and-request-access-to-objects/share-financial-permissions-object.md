@@ -6,10 +6,10 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -53,7 +53,7 @@ Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten
 </table>
 -->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
 ## Finanzielle Berechtigung für alle Freigabeebenen
 
-Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Mitwirken oder Verwalten für Objekte erteilen: 
+Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Mitwirken oder Verwalten für Objekte erteilen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalt
   <tr> 
    <td>Rechnungsnachweise verwalten</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Funktionsbezogene Fakturierung und Kostensätze verwalten/anzeigen</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Benutzerfakturierung und Kostensätze verwalten/anzeigen</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Finanzen anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen</td> 
@@ -166,8 +166,8 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalt
   <tr> 
    <td>Budgetressourcen in den Tools für die Ressourcenplanung*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Ressourcen in den Ressourcenplanungs-Tools anzeigen*</td> 

@@ -7,7 +7,7 @@ description: Der Zielstatus gibt an, ob ein Ziel aktiv ist und derzeit den Forts
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 4%
@@ -58,7 +58,7 @@ ht-degree: 4%
   | Geschlossen | Nein | Ja | Nein | – |
 
 * Das Öffnen eines geschlossenen Ziels aktualisiert auch den Fortschritt des Ziels.
-* Bestimmte Aktionen, die Sie für ein Ziel ausführen, aktualisieren auch dessen Status. Informationen dazu, wie Sie den Zielstatus aktualisieren können, finden Sie in den folgenden Artikeln:
+* Bestimmte Aktionen, die Sie für ein Ziel ausführen, aktualisieren auch dessen Status. Informationen dazu, wie Sie den Zielstatus aktualisieren können, finden Sie in den folgenden Artikeln:
 
    * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
    * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)

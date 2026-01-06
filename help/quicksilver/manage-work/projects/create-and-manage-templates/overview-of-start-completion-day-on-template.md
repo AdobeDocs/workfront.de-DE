@@ -6,7 +6,7 @@ description: Sie können Projektvorlagen verwenden, um die meisten wiederholbare
 author: Alina
 feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Im Folgenden finden Sie einige Aktionen, die den Starttag der Vorlagenaufgaben �
 
 * Vorlagenaufgabe-Vorgänger aktualisieren
 
-## Tag der Fertigstellung
+## Fertigstellungstag
 
 Der Abschlusstag der Vorlage ist der Tag, an dem die letzte Vorlagenaufgabe abgeschlossen ist. Standardmäßig weisen alle Vorlagenaufgaben und die Vorlage den Abschlusstag 1 auf, da Workfront davon ausgeht, dass jede Vorlagenaufgabe eine Dauer von 1 Tag hat. Das Abschlussdatum der Vorlagenaufgaben kann sich ändern, was sich auch auf das Abschlussdatum der Vorlage auswirkt. Der Tag der Fertigstellung der Vorlage wird zum geplanten Abschlussdatum des zukünftigen Projekts und die Tage der Fertigstellung der Vorlagenaufgaben werden zu den geplanten Abschlussdaten der zukünftigen Projektaufgaben.
 

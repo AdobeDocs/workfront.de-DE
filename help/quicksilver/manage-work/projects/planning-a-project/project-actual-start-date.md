@@ -7,10 +7,10 @@ description: Projekte, Aufgaben und Probleme haben in Adobe Workfront ein tatsä
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Projekte, Aufgaben und Probleme haben in Adobe Workfront ein tatsächliches Star
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Überlegungen zu tatsächlichen Startdaten in Workfront
 
-* Das tatsächliche Startdatum befindet sich im Abschnitt Details von Projekten, Aufgaben und Problemen. 
+* Das tatsächliche Startdatum befindet sich im Abschnitt Details von Projekten, Aufgaben und Problemen.
 * Das tatsächliche Startdatum eines Projekts, einer Aufgabe oder eines Problems wird beim Erstellen dieser Elemente nicht angegeben.
 * Das tatsächliche Startdatum wird zu Beginn der eigentlichen Arbeit an dem Projekt, der Aufgabe oder dem Problem angegeben.
 * Das tatsächliche Startdatum wird nicht auf der Registerkarte Projektdetails angezeigt, wenn die Arbeit am Projekt noch nicht begonnen hat.
@@ -96,7 +96,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
      >[!IMPORTANT]
      >
-     >Das tatsächliche Startdatum des Projekts wird nicht angezeigt, wenn das Projekt als aktuell markiert ist. Die tatsächliche Arbeit an den Aufgaben des Projekts muss beginnen, bevor das tatsächliche Startdatum des Projekts angegeben wird.
+     >Das tatsächliche Startdatum des Projekts wird nicht angezeigt, wenn das Projekt als aktuell markiert ist. Die tatsächliche Arbeit an den Aufgaben des Projekts muss beginnen, bevor das tatsächliche Startdatum des Projekts angegeben wird.
 
      In diesen Fällen wird das tatsächliche Startdatum des Projekts auf das Datum und die Uhrzeit festgelegt, zu der diese Aktionen für die früheste Aufgabe im Projekt stattgefunden haben. Dies zeigt an, dass das Projekt tatsächlich an diesem Datum und zu dieser Uhrzeit gestartet wurde.
 
@@ -111,7 +111,8 @@ Sie können das tatsächliche Startdatum eines Projekts in den folgenden Bereich
 
 So suchen Sie das tatsächliche Startdatum im Abschnitt Details des Projekts:
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Projekte**.
+{{step1-to-projects}}
+
 1. Klicken Sie auf das Projekt, für das Sie das tatsächliche Startdatum anzeigen möchten.
 1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Abschnitt **Übersicht**.
 

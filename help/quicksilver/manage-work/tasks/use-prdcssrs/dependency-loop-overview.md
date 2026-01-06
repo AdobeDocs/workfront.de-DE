@@ -7,7 +7,7 @@ description: Beim Hinzufügen von Vorgängerbeziehungen zu Aufgaben können Abh�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Beim Hinzufügen von Vorgängerbeziehungen zu Aufgaben können Abhängigkeitssch
 
 ## Übersicht über Abhängigkeitsschleifen
 
-Abhängigkeitsschleifen entstehen, wenn zwei oder mehr Aufgaben voneinander abhängig sind. Adobe Workfront erlaubt es Ihnen nicht, eine Vorgängerbeziehung zwischen Aufgaben zu erstellen, wenn dadurch eine Abhängigkeitsschleife erzeugt wird.
+Abhängigkeitsschleifen entstehen, wenn zwei oder mehr Aufgaben voneinander abhängig sind. Adobe Workfront erlaubt es Ihnen nicht, eine Vorgängerbeziehung zwischen Aufgaben zu erstellen, wenn dadurch eine Abhängigkeitsschleife erzeugt wird.
 
 **Beispiel:** Aufgabe 2 ist ein Vorgänger von Aufgabe 1, was bedeutet, dass Sie Aufgabe 2 abschließen müssen, bevor Sie mit der Arbeit an Aufgabe 1 beginnen können.
 
@@ -36,4 +36,4 @@ Wenn Sie versuchen, Aufgabe 1 zu einem Vorgänger von Aufgabe 2 zu machen, erhal
 * Eine Abhängigkeitsschleife kann auch auftreten, wenn Sie versuchen, ein übergeordnetes Element zum Vorgänger eines untergeordneten Elements zu machen.
 * Im Falle einer Abhängigkeitsschleife können Sie die Aufgaben oder das Projekt nicht speichern. Um die Abhängigkeitsschleife zu beheben, müssen Sie die Vorgängerbeziehung zwischen den in der Fehlermeldung aufgelisteten Aufgaben neu bewerten und die Konflikte entfernen, bevor Sie die Aufgaben oder das Projekt speichern können.
 
- 
+

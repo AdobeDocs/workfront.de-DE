@@ -6,9 +6,9 @@ description: Sie können Aufgaben löschen, die möglicherweise dupliziert sind 
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Sie können Aufgaben löschen, die möglicherweise dupliziert sind oder fehlerhaft erstellt wurden.
 
-Für Aufgaben mit historischen Informationen (Aktualisierungen, Änderungen des Zeitplans, Status oder andere Felder) empfehlen wir, sie zu schließen oder als Eingestellt zu markieren, anstatt sie zu löschen. Auf diese Weise können Sie die historischen Informationen für Ihre Projekte aufbewahren.
+Für Aufgaben mit historischen Informationen (Aktualisierungen, Änderungen des Zeitplans, Status oder andere Felder) empfehlen wir, sie zu schließen oder als Eingestellt zu markieren, anstatt sie zu löschen. Auf diese Weise können Sie die historischen Informationen für Ihre Projekte aufbewahren.
 
 ## Zugriffsanforderungen
 
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 * Wenn für die Aufgabe Stunden protokolliert wurden, muss der Workfront- oder Gruppenadministrator das Löschen dieser Aufgaben zulassen, indem er die Voreinstellungen für Aufgaben und Probleme in der Workfront-Instanz konfiguriert. Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, in denen Aufgaben mit Stunden protokolliert sind.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   Weitere Informationen zum Aktivieren des Löschens von Aufgaben, bei denen Stunden protokolliert werden, finden Sie im Abschnitt „Löschen“ in [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -140,9 +140,8 @@ Beachten Sie Folgendes:
 
 ### Gleichzeitiges Löschen mehrerer Aufgaben in einem Projekt  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-to-projects}}
 
-1. Klicken Sie auf **Projekte**.
 1. Klicken Sie auf den Projektnamen, der die Aufgaben enthält, die Sie löschen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. Führen Sie einen der folgenden Schritte aus:
@@ -170,9 +169,8 @@ Beachten Sie Folgendes:
 
 ### Eine einzelne Aufgabe löschen {#delete-a-single-task}
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-to-projects}}
 
-1. Klicken Sie auf **Projekte**.
 1. Klicken Sie auf den Projektnamen, der die Aufgabe enthält, die Sie löschen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. Klicken Sie auf den Namen der Aufgabe, die Sie löschen möchten.

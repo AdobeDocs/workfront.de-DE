@@ -5,10 +5,10 @@ description: Sie können steuern, welche Zugriffsebenen in Ihrer Organisation Zu
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 8%
+source-wordcount: '212'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 So aktivieren Sie den KI-Assistenten für eine bestimmte Zugriffsebene:
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
+
 1. Wählen **Zugriffsebenen** in der linken Navigationsleiste aus.
 1. Wählen Sie die gewünschte Zugriffsebene aus und klicken Sie dann auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) oberhalb der Liste.
 1. Deaktivieren Sie im Bereich **Zusätzliche Einschränkungen festlegen…** des Kontrollkästchens **Zugriffsebene bearbeiten** das Kontrollkästchen **Workfront-KI-Assistenten deaktivieren**.

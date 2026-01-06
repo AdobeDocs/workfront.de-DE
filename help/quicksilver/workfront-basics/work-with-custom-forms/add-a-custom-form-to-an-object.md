@@ -7,10 +7,10 @@ description: Sie können ein vorhandenes benutzerdefiniertes Formular zu jedem d
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen,
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to  Custom  Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>-->
@@ -114,7 +114,7 @@ Sie haben zwei Möglichkeiten, um ein benutzerdefiniertes Formular zu einem Obje
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt durch Bearbeiten des -Objekts {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
 1. Klicken Sie **Benutzerdefinierte Forms** > **Forms hinzufügen** und wählen Sie dann aus dem Dropdown-Menü bis zu 10 Formulare aus.
 
 1. (Optional) Aktualisieren Sie die Informationen in den bearbeitbaren Feldern im benutzerdefinierten Formular.
@@ -158,9 +158,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Mehrere Objekte in der Liste auswählen.
 
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
-   Oder
+   ODER
 
    Klicken Sie oben **der Liste** das Symbol „Bearbeiten“ ![](assets/edit-icon.png).
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.

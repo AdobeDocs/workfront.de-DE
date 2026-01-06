@@ -6,10 +6,10 @@ description: Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht er
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 7%
+source-wordcount: '724'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht erstellt hat, V
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -166,12 +166,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Teilen eines Ziels
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Die Liste „Ziel“ wird angezeigt.
+Die Liste „Ziel“ wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Ziels in der Liste. Die Zielseite wird geöffnet.
 
@@ -248,32 +245,32 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie bei der Fr
   <tr> 
    <td>Ergebnisse oder Aktivitäten bearbeiten</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Fügen Sie Ergebnisse oder Aktivitäten für das Ziel hinzu</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Verknüpfen Sie ein Projekt als Aktivität mit dem Ziel**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Ziel löschen</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ergebnisse oder Aktivitäten löschen</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Projekte vom Ziel trennen</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ Informationen zur Zugriffsebene von Projekten finden Sie unter [Zugriff auf Proj
 
 Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
- 
+

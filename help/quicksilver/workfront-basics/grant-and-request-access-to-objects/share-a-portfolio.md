@@ -4,10 +4,10 @@ description: Sie können ein Portfolio für andere Benutzer freigeben, wenn Sie 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> 
+   <p>Work oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 
 | **Aktionen** | **Verwalten** | **Anzeigen** |
 |---|---|---|
-| Portfolio-Details bearbeiten | ✓ |   |
+| Portfolio-Details bearbeiten | ✓ |   |
 | Anzeigen einer Portfolio | ✓ | ✓ |
-| Löschen einer Portfolio | ✓ |   |
-| Benutzerdefiniertes Formular anhängen | ✓ |   |
-| Benutzerdefiniertes Feld bearbeiten | ✓ |   |
-| Ein Programm hinzufügen oder entfernen&#42; | ✓ |   |
-| Ein Projekt hinzufügen oder entfernen&#42; | ✓ |   |
-| Genehmigen eines Projekts | ✓ |   |
-| Portfolio-Optimierung&#42; | ✓ |   |
+| Löschen einer Portfolio | ✓ |   |
+| Benutzerdefiniertes Formular anhängen | ✓ |   |
+| Benutzerdefiniertes Feld bearbeiten | ✓ |   |
+| Ein Programm hinzufügen oder entfernen&#42; | ✓ |   |
+| Ein Projekt hinzufügen oder entfernen&#42; | ✓ |   |
+| Genehmigen eines Projekts | ✓ |   |
+| Portfolio-Optimierung&#42; | ✓ |   |
 | Dokumentenordner hinzufügen&#42; | ✓ | ✓ |
 | Dokument hinzufügen | ✓ | ✓ |
 | Aktualisierungen/Kommentare | ✓ | ✓ |
 | Freigeben | ✓ | ✓ |
-| Systemweit freigeben |   | ✓ |
+| Systemweit freigeben |   | ✓ |
 
 *Diese Berechtigungen werden durch die Zugriffsebene und Berechtigungen für andere Objekte wie Projekte, Programme und Dokumente gesteuert.

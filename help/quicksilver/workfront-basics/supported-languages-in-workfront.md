@@ -6,9 +6,9 @@ description: Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,8 @@ Beim Ändern des standardmäßigen Workfront-E-Mail-Gebietsschemas ändern Sie d
 So ändern Sie das standardmäßige E-Mail-Gebietsschema von Workfront:
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator an.
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Kundeninformationen.**
 
@@ -164,7 +165,9 @@ Wenn Sie das Gebietsschema Ihrer Benutzer-E-Mail ändern, ändern Sie die Sprach
 
 So ändern Sie Ihr Benutzer-E-Mail-Gebietsschema:
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf Ihr Benutzerprofilbild.
+{{step1-click-main-menu}}
+
+1. Klicken Sie auf Ihr Benutzerprofilbild.
 
 1. Klicken Sie auf die ![](assets/more-icon.png) Mehr und dann auf **Bearbeiten**.
 

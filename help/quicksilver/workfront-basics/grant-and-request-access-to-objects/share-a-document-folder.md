@@ -6,10 +6,10 @@ description: Sie können einen Ordner und seinen Inhalt über den Bereich Dokume
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ Sie können einen Ordner und seinen Inhalt über den Bereich Dokumente freigeben
  </tbody> 
 </table>
 -->
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,11 +94,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Freigeben von Ordnern
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Dokumente**.
+{{step1-to-documents}}
 
-   Oder
+ODER
 
-   Klicken Sie bei geöffnetem Workfront **Objekt** linken Bereich auf Dokumente .
+Klicken Sie bei geöffnetem Workfront **Objekt** linken Bereich auf Dokumente .
 
 1. Wählen Sie den Ordner aus und klicken Sie dann in der Symbolleiste auf das Symbol Freigeben ![](assets/share-icon.png).
 
@@ -139,7 +139,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Zugriff von Benutzern auf den Inhalt eines Ordners, der für sie freigegeben wurde
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Wenn Sie einen Ordner freigeben, sehen Ihre Empfänger den Ordner derzeit nicht in ihrem Dokumentbereich. Sie können jedoch auf die zugehörigen Dokumente zugreifen, indem sie einen Dokumentbericht ausführen.

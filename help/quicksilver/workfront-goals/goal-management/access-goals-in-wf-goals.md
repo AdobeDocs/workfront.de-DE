@@ -6,10 +6,10 @@ description: In diesem Artikel wird beschrieben, wie Sie Ziele in Adobe Workfron
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Dieser Artikel beschreibt, wie Sie strategische Ziele in Adobe Workfront finden 
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,25 +128,22 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriff auf Workfront-Ziele
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Die Liste „Ziel“ wird angezeigt.
+Die Liste „Ziel“ wird angezeigt.
 
 
-   >[!IMPORTANT]
-   >
-   >   Wenn Sie den richtigen Zugriff auf Workfront-Ziele haben, können Sie Ziele, die Sie oder eine andere Person erstellt haben, standardmäßig in der Liste „Ziele“ anzeigen.
+>[!IMPORTANT]
+>
+>   Wenn Sie den richtigen Zugriff auf Workfront-Ziele haben, können Sie Ziele, die Sie oder eine andere Person erstellt haben, standardmäßig in der Liste „Ziele“ anzeigen.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
 1. (Optional) Klicken Sie auf den Namen eines Ziels, um es zu öffnen oder zu bearbeiten.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Neues Ziel**, um ein neues Ziel hinzuzufügen.
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 So greifen Sie auf ein einzelnes Ziel zu:
 
-1. Klicken Sie auf **Hauptmenü** in der rechten oberen Ecke von Workfront und dann auf **Ziele** .
+{{step1-to-goals}}
+
 Die Liste Ziel wird standardmäßig angezeigt.
-   ![Liste der Ziele](assets/goal-list-unshimmed.png)
+
+![Liste der Ziele](assets/goal-list-unshimmed.png)
+
 1. Klicken Sie auf den Namen eines Ziels in der Liste.
 Die Seite des Ziels wird angezeigt.
    ![Zielseite](assets/goal-page-unshimmed.png)

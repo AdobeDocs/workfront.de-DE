@@ -6,10 +6,10 @@ description: Die geplanten Kosten und Istkosten der Aufgaben sowie deren Lohnkos
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ Informationen zur Kostennachverfolgung in Adobe Workfront finden Sie unter [Kost
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects, Tasks, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects, Tasks, and Financial Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -93,6 +93,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Benutzer pro Stunde
    * Stundensatz nach Funktion
 
-   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
+   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten ](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klicken Sie auf **Speichern** **Änderungen** **.**

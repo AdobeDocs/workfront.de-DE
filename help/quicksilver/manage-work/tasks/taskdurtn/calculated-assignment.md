@@ -7,7 +7,7 @@ description: Berechnete Zuweisung ist ein Dauertyp, den Sie für eine Aufgabe in
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Berechnete Zuweisung ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfr
 -->
 
 * Wenn Sie den Dauertyp Berechnete Zuweisung verwenden, müssen Sie sowohl eine Dauer als auch eine Anzahl geplanter Stunden für die Aufgabe angeben. Workfront teilt dann die Anzahl der geplanten Stunden durch die Anzahl der Stunden in der Duration und dann durch die Anzahl der Ressourcen, die der Aufgabe zugewiesen wurden, um den Zuordnungsprozentsatz für jede Ressource zu berechnen (berechnet die Zuordnung). Jede Ressource hat für ihren Zuordnungsprozentsatz denselben Wert. In diesem Fall können Sie die Zuordnungswerte für die einzelnen Ressourcen nicht ändern.
-* Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als Berechnete Zuweisung festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als Berechnete Zuweisung festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   In diesem Fall hat die Aufgabe den Standardwert einer eintägigen Dauer und 0 Stunden geplanter Stunden. Wenn der Projekt-Manager keine genauere Dauer festlegt und das Feld Geplante Stunden mit einer realistischen Schätzung ausfüllt, werden die Ressourcen nicht ausreichend zugewiesen.
 

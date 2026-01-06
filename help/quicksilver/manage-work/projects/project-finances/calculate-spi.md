@@ -7,10 +7,10 @@ description: Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplante
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ### Was der SPI-Wert anzeigt {#what-the-spi-value-shows}
 
-Projektmanager wissen, dass ein SPI-Wert von 1 bedeutet, dass das Projekt im Zeitplan oder im Plan ist.  Werte größer als 1 zeigen an, dass ein Projekt dem Zeitplan voraus ist, und Werte kleiner als 1 bedeuten, dass ein Projekt in Verzug ist.  Je weiter von 1, desto größer die Abweichung vom Plan.
+Projektmanager wissen, dass ein SPI-Wert von 1 bedeutet, dass das Projekt im Zeitplan oder im Plan ist.  Werte größer als 1 zeigen an, dass ein Projekt dem Zeitplan voraus ist, und Werte kleiner als 1 bedeuten, dass ein Projekt in Verzug ist.  Je weiter von 1, desto größer die Abweichung vom Plan.
 
 | **SPI-Wert** | **Anzeige von „On Schedule“** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;Wenn geplante Stunden bis Datum geplant sind = 0, SPI = 1*.
 
-Die bis dato geplanten Stunden werden zu dem Zeitpunkt berechnet, zu dem Sie die Berechnungen durchführen. Zeigt die Anzahl der geplanten Stunden, die bis zum aktuellen Datum geplant sind. Sie kann automatisch neu berechnet werden, wenn Sie Ihre Finanzdaten ändern, um sie korrekt zu halten. In Workfront gibt es kein Feld, das diesen Wert angibt.
+Die bis dato geplanten Stunden werden zu dem Zeitpunkt berechnet, zu dem Sie die Berechnungen durchführen. Zeigt die Anzahl der geplanten Stunden, die bis zum aktuellen Datum geplant sind. Sie kann automatisch neu berechnet werden, wenn Sie Ihre Finanzdaten ändern, um sie korrekt zu halten. In Workfront gibt es kein Feld, das diesen Wert angibt.
 
-Wenn Sie beispielsweise ein Projekt mit einer Aufgabe haben und die Aufgabe 10 geplante Stunden und eine Dauer von 10 Tagen hat, lautet der Zeitplan für geplante Stunden bis zum 5. Tag 5. 
+Wenn Sie beispielsweise ein Projekt mit einer Aufgabe haben und die Aufgabe 10 geplante Stunden und eine Dauer von 10 Tagen hat, lautet der Zeitplan für geplante Stunden bis zum 5. Tag 5.
 
 ## Suchen einer SPI in einem Projekt oder einer Aufgabe
 

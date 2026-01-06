@@ -7,7 +7,7 @@ description: Die Projektbedingung ist eine visuelle Darstellung des Projektforts
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -78,25 +78,25 @@ In diesem Fall können die Werte für die Projektbedingung wie folgt lauten:
    <td><strong>Projektbedingung</strong></td> 
    <td><strong>Status des Projektverlaufs</strong></td> 
    <td><strong>Workfront-Bedingungsindikator</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Im Zielbereich</td> 
    <td>Wenn der Fortschrittsstatus des Projekts „Pünktlich“ lautet, lautet der Status des Projekts "<strong>"</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gefährdet</td> 
    <td>Wenn der Fortschrittsstatus des Projekts "<strong>" </strong> "<strong> Risiko</strong> ist, dann ist der Status des Projekts <strong>Gefährdet</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>In Schwierigkeiten</td> 
    <td>Wenn der Fortschrittsstatus des Projekts "<strong>" lautet</strong> lautet der Projektstatus „In <strong>" </strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

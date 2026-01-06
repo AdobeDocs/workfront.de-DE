@@ -6,10 +6,10 @@ description: Die Informationen, die Sie in der - [!DNL Workfront] -Anwendung seh
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -28,23 +28,23 @@ In der folgenden Tabelle sind alle [!DNL Workfront] Bereiche und Objekte aufgef�
 | **[!DNL Workfront]Bereich oder Objekt** | **Standardsystemabschnitte** | **Dashboards** |
 |---|---|---|
 | [!UICONTROL Projekte] Bereich | ✓ | ✓ |
-| [!UICONTROL Team] | ✓ |   |
-| [!UICONTROL Anfragen]-Bereich | ✓ |   |
-| [!UICONTROL Arbeitszeittabellen]-Bereich | ✓ |   |
+| [!UICONTROL Team] | ✓ |    |
+| [!UICONTROL Anfragen]-Bereich | ✓ |    |
+| [!UICONTROL Arbeitszeittabellen]-Bereich | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL Programm] | ✓ | ✓ |
 | [!UICONTROL Projekt] | ✓ | ✓ |
-| [!UICONTROL Aufgabe] | ✓ |  ✓ |
-| [!UICONTROL Probleme] |  ✓ |  ✓ |
-| [!UICONTROL Benutzer] |  ✓ |  ✓ |
-| [!UICONTROL Dokument] |  ✓ |  ✓ |
+| [!UICONTROL Aufgabe] | ✓ | ✓ |
+| [!UICONTROL Probleme] | ✓ | ✓ |
+| [!UICONTROL Benutzer] | ✓ | ✓ |
+| [!UICONTROL Dokument] | ✓ | ✓ |
 | Bereich [!UICONTROL Ressourcen] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -107,7 +107,7 @@ Die folgenden Objekte werden nach dem Objekt gefiltert, unter dem sie angezeigt 
 * Aufgabe
 * Problem
 * Genehmigungsprozess
-* Hinweis
+* Notiz
 * Dokument
 
 Weitere Informationen zur Hierarchie und Interdependenz von Objekten finden Sie im Abschnitt [Interdependenz und Hierarchie der Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) im Artikel [Grundlegendes zu Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

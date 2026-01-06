@@ -6,10 +6,10 @@ description: Sie können keine Vorlage aus einem Projekt entfernen. Sie können 
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können keine Vorlage aus einem Projekt entfernen. Sie können nur manuell I
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Sie können keine Vorlage aus einem Projekt entfernen. Sie können nur manuell I
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -85,7 +85,7 @@ Um Vorlageninformationen zu entfernen, die dem Projekt hinzugefügt wurden, habe
 
 * Löscht die Aufgaben im Projekt, die mit der Vorlage hinzugefügt wurden.
 
-  Weitere Informationen finden Sie [&#x200B; Abschnitt „Löschen von Aufgaben, die aus einer Vorlage &#x200B;](#delete-tasks-created-from-a-template) wurden“ in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Löschen von Aufgaben, die aus einer Vorlage ](#delete-tasks-created-from-a-template) wurden“ in diesem Artikel.
 
 * Löschen Sie die Vorlage aus Workfront. Beim Löschen der Vorlage aus Workfront werden die aus der Vorlage hinzugefügten Aufgaben nicht aus den Projekten gelöscht.
 

@@ -6,10 +6,10 @@ description: Verwenden Sie den Abschnitt Zielausrichtung , um eine ganzheitliche
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Informationen zur Zielausrichtung und deren Erreichung finden Sie in den folgend
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,9 +125,8 @@ Or
 
 ## Navigieren im Abschnitt Zielausrichtung .
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](../goal-alignment/assets/dots-main-menu-icon.png) in der oberen rechten Ecke Ihres Bildschirms und dann auf **Ziele**.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Klicken Sie **linken** auf „Zielausrichtung“.
 1. Verwenden Sie die Filter oben rechts im Ausrichtungsdiagramm, um nur Ziele auszuwählen, die für Sie wichtig sind. Informationen zur Verwendung von Filtern in Workfront Goals finden Sie unter [Filtern von Informationen in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">Fortschrittsleiste für Ziele <span>und Fortschritt</span></td> 
       <td> <p>Der Zielfortschritt gibt an, wie viel von dem Ziel derzeit erreicht wurde. Hierbei handelt es sich um eine automatische Berechnung des Durchschnitts des Fortschritts aller abgestimmten Ziele, Ergebnisse und Aktivitäten für das Ziel, basierend auf der seit dem Beginn des Zielzeitraums verstrichenen Zeit. Informationen zur Berechnung des Zielfortschritts finden Sie unter <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront-</a>. </p> 
        <div> 
-        <p>Der tatsächliche Fortschritt des Ziels bis zum aktuellen Datum. Die folgenden Fortschrittswerte und -farben geben an, mit welcher Wahrscheinlichkeit das Ziel termingerecht erreicht wird: </p> 
+        <p>Der tatsächliche Fortschritt des Ziels bis zum aktuellen Datum. Die folgenden Fortschrittswerte und -farben geben an, mit welcher Wahrscheinlichkeit das Ziel termingerecht erreicht wird: </p> 
         <ul> 
          <li><span>On Target</span> (grüner Indikator): Das Ziel ist pünktlich und wird pünktlich erreicht.</li> 
          <li> <span>Gefährdet</span> (gelber Indikator): Das Ziel liegt zurück und wird möglicherweise nicht rechtzeitig erreicht.</li> 
@@ -236,7 +235,7 @@ Or
 
 1. Klicken Sie auf den nach oben zeigenden Pfeil des Ziels der aktuellen Ebene, um zur vorherigen Ebene in der Hierarchie des Diagramms zurückzukehren.
 
-   Oder
+   ODER
 
    (Optional) Klicken Sie auf **Zielhierarchie beenden**, um die Karten aller Ziele anzuzeigen, die mit dem aktuellen Filter übereinstimmen, ohne ihre Verbindung zueinander anzuzeigen.
 

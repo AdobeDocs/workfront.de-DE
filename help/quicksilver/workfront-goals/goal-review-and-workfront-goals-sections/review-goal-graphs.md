@@ -6,10 +6,10 @@ description: Im Abschnitt Diagramme der Adobe Workfront-Ziele können Sie den Ge
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Im Abschnitt Diagramme der Adobe Workfront-Ziele können Sie den Gesamtzustand I
 
 >[!IMPORTANT]
 >
->Im Bereich Diagramme wird für einen ausgewählten Zeitraum eine Gesamtanzahl von Zielen angezeigt. Workfront-Ziele berücksichtigen jedoch nur Ziele mit dem Status Aktiv und Geschlossen bei der Berechnung des Gesamtstatus für den Zielfortschritt und des Prozentsatzes abgeschlossen.
+>Im Bereich Diagramme wird für einen ausgewählten Zeitraum eine Gesamtanzahl von Zielen angezeigt. Workfront-Ziele berücksichtigen jedoch nur Ziele mit dem Status Aktiv und Geschlossen bei der Berechnung des Gesamtstatus für den Zielfortschritt und des Prozentsatzes abgeschlossen.
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,7 @@ Im Abschnitt Diagramme der Adobe Workfront-Ziele können Sie den Gesamtzustand I
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -157,12 +157,9 @@ Die folgenden Diagramme sind im Abschnitt Diagramme für Workfront-Ziele verfüg
 
 ## Überprüfen des Zielfortschritts in Diagrammen
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Dadurch wird der Bereich Workfront-Ziele geöffnet.
+Dadurch wird der Bereich Workfront-Ziele geöffnet.
 
 1. Klicken Sie **linken** auf „Diagramme“.
 
@@ -220,8 +217,8 @@ Die folgenden Diagramme sind im Abschnitt Diagramme für Workfront-Ziele verfüg
 
 1. (Optional) Klicken Sie **Fortschritt** unten im Fortschrittsdiagramm, um die tatsächliche Gesamtfortschrittslinie zu entfernen
 
-   Oder
+   ODER
 
    Klicken Sie **Baseline** am unteren Rand des Fortschrittsdiagramms, um den erwarteten Fortschritt aus dem Diagramm zu entfernen.
 
- 
+

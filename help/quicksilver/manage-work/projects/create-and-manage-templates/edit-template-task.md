@@ -7,10 +7,10 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -198,7 +198,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
         <li> <p><strong>Niedrig</strong> </p> </li> 
         <li> <p> <b>normal</b></p> </li> 
         <li> <p><b>Hoch</b> </p> </li> 
-        <li> <p><b>Dringend</b> </p> </li> 
+        <li> <p><b>Dringlich</b> </p> </li> 
        </ul> <p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Prioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -242,7 +242,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
       <td> <p> Sie können den Starttag einer Vorlagenaufgabe nur angeben, wenn die Aufgabenbeschränkung eine der folgenden ist:</p> 
        <ul> 
         <li>Muss beginnen am</li> 
-        <li>Nicht früher starten als</li> 
+        <li>Nicht früher anfangen als</li> 
         <li>Nicht später anfangen als</li> 
         <li>Feste Daten</li> 
        </ul> <p>Dies entspricht dem Datum innerhalb der Zeitleiste des zukünftigen Projekts, an dem die Aufgabe gestartet wird. Für alle anderen Einschränkungen berechnet Workfront den Starttag basierend auf der Abhängigkeit der Vorgänger zwischen den Aufgaben. </p> </td> 
@@ -262,7 +262,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Änderungen speichern**.
 
@@ -309,7 +309,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Änderungen speichern**.
 
@@ -369,7 +369,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Änderungen speichern**.
 
@@ -385,7 +385,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 1. (Bedingt und optional) Wenn Ihr **Dauertyp** &quot;**Arbeit“** &quot;**Leistungsgesteuert“**, geben Sie die **Zuordnung %** (Zuordnungsprozentsatz) für jeden Zugewiesenen an. Dies ist die Zeit aus dem Zeitplan des Verantwortlichen, die er für diese Aufgabe aufwenden kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, werden auch die geplanten Stunden einer Aufgabe geändert.
 1. (Bedingt und optional) Wenn Ihr **Dauertyp** &quot;**&quot; lautet** geben Sie die **Stunden** jedes Verantwortlichen an
 
-   Oder
+   ODER
 
    Geben Sie die Gesamtzahl (**Stunden** für die Vorlagenaufgabe an. Dadurch wird die Gesamtstundenzahl gleichmäßig auf alle Bevollmächtigten verteilt.
 
@@ -393,7 +393,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 1. (Optional) Wählen Sie eine Rolle aus **Dropdown-Menü „Rolle des Verantwortlichen** aus. Dies ist die Rolle, die der Beauftragte bei dieser zukünftigen Aufgabe erfüllen kann. Im Dropdown-Menü werden nur die Aufgabengebiete angezeigt, die jedem Bearbeiter in seinem Profil zugeordnet sind.
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Änderungen speichern**.
 
@@ -426,7 +426,7 @@ Die Formulare werden automatisch zu den Aufgaben hinzugefügt, die aus der Vorla
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung des folgenden Abschnitts fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Änderungen speichern**.
 
@@ -468,7 +468,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -497,7 +497,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
         <li> <p><strong>Niedrig</strong> </p> </li> 
         <li> <p> <b>normal</b></p> </li> 
         <li> <p><b>Hoch</b> </p> </li> 
-        <li> <p><b>Dringend</b> </p> </li> 
+        <li> <p><b>Dringlich</b> </p> </li> 
        </ul> <p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Prioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -522,7 +522,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
       <td> <p> Sie können den Starttag einer Vorlagenaufgabe nur angeben, wenn die Aufgabenbeschränkung eine der folgenden ist:</p> 
        <ul> 
         <li>Muss beginnen am</li> 
-        <li>Nicht früher starten als</li> 
+        <li>Nicht früher anfangen als</li> 
         <li>Nicht später anfangen als</li> 
         <li>Feste Daten</li> 
        </ul> <p>Dies entspricht dem Datum innerhalb der Zeitleiste des zukünftigen Projekts, an dem die Aufgabe gestartet wird. Für alle anderen Einschränkungen berechnet Workfront den Starttag basierend auf der Abhängigkeit der Vorgänger zwischen den Aufgaben. </p> </td> 
@@ -559,7 +559,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -572,7 +572,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
 
 1. Beginnen Sie im Feld **Personen, Aufgabengebiete oder Teams suchen** den Namen eines Verantwortlichen einzugeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird
 
-   Oder
+   ODER
 
    Klicken Sie **Mir zuweisen**, um sich die Vorlagenaufgabe selbst zuzuweisen.
 1. Es wird erwogen, die folgenden Informationen zu aktualisieren:
@@ -609,7 +609,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -656,7 +656,7 @@ Nachdem Sie das Feld **Vorlagenaufgabe bearbeiten** in der neuen -Version geöff
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -691,7 +691,7 @@ Die Formulare werden automatisch zu den Aufgaben hinzugefügt, die aus der Vorla
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung des folgenden Abschnitts fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 
@@ -752,7 +752,7 @@ Die Formulare werden automatisch zu den Aufgaben hinzugefügt, die aus der Vorla
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Speichern**.
 

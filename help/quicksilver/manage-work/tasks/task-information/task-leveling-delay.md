@@ -6,10 +6,10 @@ description: Manchmal kann es zu Konflikten zwischen Aufgabenplänen für ein Pr
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Durch Hinzufügen einer Abgleichsverzögerung zu einer Aufgabe wird das voraussi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Durch Hinzufügen einer Abgleichsverzögerung zu einer Aufgabe wird das voraussi
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -93,7 +93,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    Wählen Sie für Zeiteinheiten aus den folgenden Optionen aus:
 
    * Minutes
-   * Stunden. Dies ist der Standardwert.
+   * Stunden. Dies ist der Standardwert.
    * Days
    * Weeks
    * Months
@@ -107,6 +107,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >
    >Verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und Ausfallzeiten umfasst. Mit anderen Worten: Verstrichene Zeit ist der Ablauf von Kalendertagen.
 
-1. Klicken Sie **Speichern**. 
+1. Klicken Sie auf **Speichern**.
 
- 
+

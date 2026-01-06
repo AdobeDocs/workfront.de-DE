@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1539'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
 
    * Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Anfragenamen und dann auf **Kopieren und als neu übermitteln**
 
-     Oder
+     ODER
 
      Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und klicken Sie dann auf **Kopieren und als neu übermitteln**.
 
@@ -141,7 +141,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Betreff</strong> </td> 
-      <td>Zeigt den Namen der ursprünglichen Anfrage an. Aktualisieren Sie sie, falls erforderlich. Andernfalls benennt Workfront die kopierte Anfrage <b>Kopie von &lt;Name der ursprünglichen Anfrage&gt;</b>. Dies ist ein Pflichtfeld.</td> 
+      <td>Zeigt den Namen der ursprünglichen Anfrage an. Aktualisieren Sie sie, falls erforderlich. Andernfalls benennt Workfront die kopierte Anfrage <b>Kopie von &lt;Name der ursprünglichen Anfrage&gt;</b>. Dies ist ein Pflichtfeld.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beschreibung</strong> </td> 
@@ -230,11 +230,12 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
 
 Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Meine Anfragen auf der Startseite kopieren und senden.
 
-1. Um auf die Anfragenliste zuzugreifen, klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Anfragen]**.
+{{step1-to-requests}}
 
 1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
 
-   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Suchen Sie das Widget Meine Anfragen .
 
       Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -246,7 +247,7 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Mei
 
 1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Anfragenamen und dann auf **Kopieren**.
 
-   Oder
+   ODER
 
    Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und dann auf **Kopieren**.
 

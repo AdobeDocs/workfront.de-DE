@@ -6,7 +6,7 @@ description: Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie d
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 0%
@@ -26,7 +26,7 @@ In diesem Artikel werden Überlegungen, Einschränkungen und Standardeinstellung
 Sie können Aufgaben auf folgende Weise für ein Projekt erstellen:
 
 * von Grund auf neu erstellen, wie [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) beschrieben.
-* Kopieren Sie Aufgaben in dasselbe Projekt oder in ein neues Projekt oder duplizieren Sie Aufgaben für dasselbe Projekt, wie unter [&#x200B; und doppelte Aufgaben beschrieben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Kopieren Sie Aufgaben in dasselbe Projekt oder in ein neues Projekt oder duplizieren Sie Aufgaben für dasselbe Projekt, wie unter [ und doppelte Aufgaben beschrieben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * Verschieben von Aufgaben von einem Projekt in ein anderes, wie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md) beschrieben.
 
 ## Einschränkungen beim Erstellen von Aufgaben

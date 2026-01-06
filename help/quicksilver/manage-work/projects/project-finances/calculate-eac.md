@@ -7,10 +7,10 @@ description: Als Leistungskennzahl gibt die Kalkulation bei Abschluss (BK) die e
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Als Leistungskennzahl gibt die Kalkulation bei Abschluss (BK) die erwarteten Gesamtkosten Ihres Projekts oder Ihrer Aufgabe zum Zeitpunkt der Fertigstellung an.
 
-Als Einstellung können Sie festlegen, wie der EAC-Wert berechnet werden soll. 
+Als Einstellung können Sie festlegen, wie der EAC-Wert berechnet werden soll.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +101,7 @@ Die EAC eines Projekts wird anhand der folgenden Formel berechnet:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>EAC-Arbeitszeit =  <em>IF</em> CPI Arbeit &lt;&gt; 0 DANN EAC Arbeit = Geplante Lohnkosten / CPI Arbeit</pre><pre><em>ELSE</em> EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten</pre><pre>CPI Arbeit = WENN Ist-Lohnkosten &lt;&gt; 0 DANN CPI Arbeit = TotalBudgetedCostWorkPerformed / Ist-Lohnkosten</pre><pre>SONST CPI Arbeit = 1 </pre>Die folgenden Felder werden bei der Berechnung der EAC berücksichtigt:
+<pre>EAC-Arbeit = <em>IF</em> CPI-Arbeit &lt;&gt; 0 DANN EAC-Arbeit = Geplante Arbeitskosten/CPI-Arbeit</pre><pre><em>SONST</em> EAC-Arbeitskosten = Geplante Arbeitskosten + Ist-Arbeitskosten</pre><pre>CPI Arbeit = WENN Ist-Lohnkosten &lt;&gt; 0 DANN CPI Arbeit = TotalBudgetedCostWorkPerformed / Ist-Lohnkosten</pre><pre>SONST CPI Arbeit = 1 </pre>Die folgenden Felder werden bei der Berechnung der EAC berücksichtigt:
 
 * Gesamte budgetierte Kosten Abgeschlossene Arbeit (SKAA) = Ergebnis der Multiplikation der budgetierten Kosten der geplanten Arbeit (budgetierte Kosten) mit dem Prozentsatz der Aufgabe, der bisher abgeschlossen wurde.
 
@@ -117,7 +117,7 @@ EAC = EAC Labor + EAC Expense
 Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle direkt untergeordneten Aufgaben.
 
    * **Für ein Projekt:**
-Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle Aufgaben der obersten Ebene (übergeordnete und eigenständige Aufgaben). 
+Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle Aufgaben der obersten Ebene (übergeordnete und eigenständige Aufgaben).
 
 * EAC-Kosten = das Ergebnis der Hinzufügung der angefallenen Ist-Kosten zu den nicht angefallenen geplanten Kosten. Sie wird nach folgender Formel berechnet:
 
@@ -126,14 +126,14 @@ Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierte
   ```
 
    * Angefallene Istkosten = Summe des Felds „Geplanter Betrag“ für alle Ausgaben, bei denen das Feld „Tatsächlicher Betrag“ > 0 ist. Beispiel: Wenn Sie eine Ausgabe für Aufgabe 1 erstellen und im Feld Geplanter Betrag 500,00 $ und im Feld Tatsächlicher Betrag einen Betrag > 0 (d. h. 600,00 $) eingeben, betragen die Kosten für geplante Ausgaben für diese Aufgabe 500,00 $.
-   * Nicht angefallene geplante Ausgaben = Summe des Felds Geplanter Betrag für alle Ausgaben, bei denen das Feld Tatsächlicher Betrag = 0 ist. Beispiel: Wenn Sie zwei Ausgaben für Aufgabe 1 erstellen, bei denen für die erste Ausgabe der Wert im Feld Geplanter Betrag $500.00 und der Wert im Istbetrag $600.00 ist und für die zweite Ausgabe der Wert im Feld Geplanter Betrag $300.00 ist und der Wert im Feld Tatsächlicher Betrag $0.00 ist, lautet der Wert der nicht angefallenen geplanten Ausgabe für diese Aufgabe $300.00. 
+   * Nicht angefallene geplante Ausgaben = Summe des Felds Geplanter Betrag für alle Ausgaben, bei denen das Feld Tatsächlicher Betrag = 0 ist. Beispiel: Wenn Sie zwei Ausgaben für Aufgabe 1 erstellen, bei denen für die erste Ausgabe der Wert im Feld Geplanter Betrag $500.00 und der Wert im Istbetrag $600.00 ist und für die zweite Ausgabe der Wert im Feld Geplanter Betrag $300.00 ist und der Wert im Feld Tatsächlicher Betrag $0.00 ist, lautet der Wert der nicht angefallenen geplanten Ausgabe für diese Aufgabe $300.00.
 
 ## Suchen der EAC in einem Projekt oder einer Aufgabe
 
 1. Wechseln Sie zu dem Projekt oder der Aufgabe, in dem bzw. der Sie die EAC anzeigen möchten.
 1. Erweitern Sie **Projektdetails** oder **Aufgabendetails** im linken Bereich des Projekts oder der Aufgabe, je nachdem, wo Sie die EAC anzeigen.
 
-1. Klicken Sie auf **Finanzen**. 
+1. Klicken Sie auf **Finanzen**.
 
    Der EAC-Wert wird im Feld **Schätzung bei Abschluss** angezeigt.
 

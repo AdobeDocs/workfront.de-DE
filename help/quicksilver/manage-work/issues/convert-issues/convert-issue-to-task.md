@@ -6,10 +6,10 @@ description: Wenn nach dem Übermitteln eines Problems weitere Arbeit zum Abschl
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Allgemeine Informationen zum Konvertieren von Problemen finden Sie unter [Übers
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table> -->
@@ -132,7 +132,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * [!UICONTROL **Das geplante Abschlussdatum der Anfrage beibehalten**]
 
-     Wenn diese Option deaktiviert ist[!UICONTROL &#x200B; wird das geplante Abschlussdatum &#x200B;] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
+     Wenn diese Option deaktiviert ist[!UICONTROL  wird das geplante Abschlussdatum ] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
 
      >[!NOTE]
      >
@@ -154,11 +154,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Das Problem ist jetzt eine Aufgabe im angegebenen Projekt, wenn Sie entschieden haben, das ursprüngliche Problem zu löschen.
 
-   Oder
+   ODER
 
    Das Problem ist nun mit der neuen Aufgabe für das ausgewählte Projekt verknüpft und wird abgeschlossen, sobald die Aufgabe abgeschlossen ist, falls Sie die ursprüngliche Anfrage beibehalten möchten.
 
-   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
+   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [ Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
 
 1. (Optional) Fahren Sie mit der Bearbeitung der Aufgabe nach Bedarf fort.
 
@@ -177,4 +177,4 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 
 >[!CAUTION]
 >
->Wenn sich der [!UICONTROL Primäre &#x200B;] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre &#x200B;] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.
+>Wenn sich der [!UICONTROL Primäre ] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre ] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.

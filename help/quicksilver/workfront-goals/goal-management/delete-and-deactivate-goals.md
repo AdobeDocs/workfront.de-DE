@@ -6,10 +6,10 @@ description: Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Orga
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Organisation irre
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+{{step1-to-goals}}
 
-   Die Liste „Ziel“ wird angezeigt.
+Die Liste „Ziel“ wird angezeigt.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Optional) Ändern Sie Ihre Filter, um nur aktive Ziele anzuzeigen.
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Klicken Sie oben rechts auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+{{step1-to-goals}}
 
-   Die Liste „Ziel“ wird angezeigt.
+Die Liste „Ziel“ wird angezeigt.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. Klicken Sie auf den Namen eines Ziels. Dadurch wird die Zielseite geöffnet.
 1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) rechts neben dem Zielnamen, klicken Sie dann auf **Ziel löschen** und dann auf **Löschen**.
 

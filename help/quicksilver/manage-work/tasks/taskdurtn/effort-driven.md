@@ -7,7 +7,7 @@ description: Aufwandsgesteuert ist ein Dauertyp, den Sie für eine Aufgabe in Ad
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Aufwandsgesteuert ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront
 
 ## Übersicht über den Typ der leistungsgesteuerten Dauer
 
-Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als leistungsgesteuert festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als leistungsgesteuert festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 In diesem Szenario besteht die Gefahr einer willkürlichen Verkürzung des Projektplans, es sei denn, Sie als Projektmanager nehmen sich die Zeit zu überlegen, ob die Aufgabe tatsächlich eine leistungsgesteuerte Aufgabe ist.
 

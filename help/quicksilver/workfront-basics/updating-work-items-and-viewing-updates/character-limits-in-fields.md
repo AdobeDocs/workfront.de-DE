@@ -7,7 +7,7 @@ description: Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zei
 author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 5%
@@ -57,11 +57,11 @@ Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Fel
    <td>4.000</td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzerdefinierter Datenabsatz oder einzeiliger Text </p> </td> 
+   <td> <p>Benutzerdefinierter Datenabsatz oder einzeiliger Text  </p> </td> 
    <td> <p>2.000</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Beschreibungsfeld im Report Builder</p> </td> 
+   <td> <p>Beschreibungsfeld in der Report Builder</p> </td> 
    <td> <p>512</p> </td> 
   </tr> 
   <tr> 

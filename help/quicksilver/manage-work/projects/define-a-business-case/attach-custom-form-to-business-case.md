@@ -5,16 +5,16 @@ description: Benutzerdefinierte Forms werden verwendet, um Informationen zu erfa
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # Anhängen eines benutzerdefinierten Formulars an einen Business Case
 
-Benutzerdefinierte Forms werden verwendet, um Informationen zu erfassen, die in bestehenden Adobe Workfront-Feldern nicht angezeigt werden. 
+Benutzerdefinierte Forms werden verwendet, um Informationen zu erfassen, die in bestehenden Adobe Workfront-Feldern nicht angezeigt werden.
 
 Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -22,7 +22,7 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
 
 <!--Audit: 06/2025-->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +81,7 @@ So fügen Sie ein benutzerdefiniertes Formular hinzu:
 
    ![Benutzerdefinierte Formulardetails erweitern](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+<!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->

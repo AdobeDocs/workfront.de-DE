@@ -7,7 +7,7 @@ description: Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpfte
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpften geplanten S
 * Wenn Sie die Ressourcenverwaltungstools in Workfront verwenden möchten, müssen Sie den Wert der geplanten Stunden für Aufgaben und Probleme definieren.
 * Sie können den Wert der geplanten Stunden für Aufgaben nur für einige Dauertypen ändern.
 
-  Weitere Informationen zur Änderung der geplanten Stunden für Aufgaben in Bezug auf den Dauertyp der Aufgaben finden Sie im Abschnitt [Aktualisieren der geplanten Stunden für Aufgaben basierend auf dem &#x200B;](#update-task-planned-hours-based-on-duration-type)) in diesem Artikel.
+  Weitere Informationen zur Änderung der geplanten Stunden für Aufgaben in Bezug auf den Dauertyp der Aufgaben finden Sie im Abschnitt [Aktualisieren der geplanten Stunden für Aufgaben basierend auf dem ](#update-task-planned-hours-based-on-duration-type)) in diesem Artikel.
 
 * Sie können den Wert der geplanten Stunden für Probleme jederzeit ändern.
 * Der Wert der geplanten Stunden von Projekten oder übergeordneten Aufgaben kann nicht geändert werden, da es sich um die berechnete Summe aller geplanten Stunden aller zugehörigen Aufgaben und Teilaufgaben handelt.
@@ -97,7 +97,7 @@ Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 
 Die geplanten Stunden im Abschnitt „Details“ einer Aufgabe, eines Problems oder Projekts sind die geplanten Gesamtstunden, die mit dem Element verknüpft sind.
 
-Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x200B; Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
+Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
 ### Das Feld „Aufgabe bearbeiten“ oder „Problem bearbeiten“ {#the-edit-task-or-edit-issue-box}
 
@@ -105,9 +105,9 @@ Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x2
 
 Die geplanten Stunden im Feld „Bearbeiten“ einer Aufgabe oder eines Problems entsprechen den geplanten Gesamtstunden des jeweiligen Elements.
 
-Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x200B; Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
+Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
-Bei Aufgaben können Sie die Anzahl der geplanten Stunden nur für bestimmte Dauertypen bearbeiten. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden auf der Grundlage &#x200B;](#update-task-planned-hours-based-on-duration-type) Dauertyps“ in diesem Artikel.
+Bei Aufgaben können Sie die Anzahl der geplanten Stunden nur für bestimmte Dauertypen bearbeiten. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden auf der Grundlage ](#update-task-planned-hours-based-on-duration-type) Dauertyps“ in diesem Artikel.
 
 Sie können die individuelle Zuordnung der geplanten Stunden für jeden Benutzer oder jedes Aufgabengebiet anzeigen, der bzw. das der Aufgabe oder dem Problem im Bereich „Zuweisungen“ zugewiesen wurde.
 
@@ -159,7 +159,7 @@ Die folgenden geplanten Stunden für Aufgaben, Probleme und Projekte werden im W
 
 Sie können die tägliche Zuordnung der geplanten Stunden für jeden Benutzer bzw. jede Benutzerin, die einer Aufgabe oder einem Problem zugewiesen ist, im Workload Balancer anzeigen.
 
-Der tägliche Stundenbetrag der geplanten Stunden stellt einen der folgenden Werte dar: 
+Der tägliche Stundenbetrag der geplanten Stunden stellt einen der folgenden Werte dar:
 
 * den Standardbetrag, der von Workfront für jeden Tag der Aufgaben-, Problem- oder Projektdauer gleichmäßig verteilt wird
 * Die von Ressourcenmanagern verwaltete angepasste tägliche Zuordnung
@@ -195,7 +195,7 @@ Die geplanten Stunden des Projekts sind die Stunden, die mit den Zuweisungen fü
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass die geplanten Stunden im Auslastungsbericht mit den Zuweisungen und nicht mit den Aufgaben und Problemen selbst verknüpft sind. Die geplanten Stunden im Auslastungsbericht stimmen nicht immer mit den geplanten Stunden für die Aufgaben und Probleme des Projekts überein. Die geplanten Stunden stimmen jedoch mit den Stunden überein, die mit den Zuweisungen zu Aufgaben und Problemen verknüpft sind.
+>Beachten Sie, dass die geplanten Stunden im Auslastungsbericht mit den Zuweisungen und nicht mit den Aufgaben und Problemen selbst verknüpft sind. Die geplanten Stunden im Auslastungsbericht stimmen nicht immer mit den geplanten Stunden für die Aufgaben und Probleme des Projekts überein. Die geplanten Stunden stimmen jedoch mit den Stunden überein, die mit den Zuweisungen zu Aufgaben und Problemen verknüpft sind.
 
 Im Auslastungsbericht können Sie die folgenden Arten von geplanten Stunden anzeigen:
 
@@ -214,7 +214,7 @@ Die „Geplante Stunden“ im Bedienfeld „Rollenzuweisung“ stellen die Anzah
 >
 >Beachten Sie, dass die mit Benutzenden verknüpften geplanten Stunden nicht im Bedienfeld „Rollenzuweisung“ angezeigt werden.
 
-Weitere Informationen finden Sie unter &quot;[&#x200B; für Projekte und Initiativen anzeigen“ im Workload-Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
+Weitere Informationen finden Sie unter &quot;[ für Projekte und Initiativen anzeigen“ im Workload-Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
 
 ## Geplante Stunden für Aufgabe basierend auf Dauertyp aktualisieren {#update-task-planned-hours-based-on-duration-type}
 
@@ -280,7 +280,7 @@ Informationen zur Verwendung von Work Effort zur Schätzung des Aufgabenaufwands
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

@@ -6,10 +6,10 @@ description: Sie können eine Vorlage für Benutzer freigeben oder mithilfe der 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 3%
+source-wordcount: '724'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Informationen zu den Berechtigungen, die Sie Benutzern bei der Freigabe einer Vo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,9 +95,9 @@ Freigeben einer Vorlage:
 1. Führen Sie einen der folgenden Schritte aus:\
    Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das Menü **Mehr** ![Mehr-Symbol](assets/more-icon.png) und dann auf **Vorlagenfreigabe**.
 
-   Oder
+   ODER
 
-   Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf das Freigabesymbol ![](assets/share-icon.png) dann auf **Vorlage.**
+   Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf das Freigabesymbol ![Vorlage freigeben](assets/share-icon.png) und dann auf **Vorlage.**
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Freigeben einer Vorlage:
 
    * **Verwalten**: Benutzer mit diesen Berechtigungen können die Vorlage bearbeiten oder löschen.
 
-     Informationen zu den hier verfügbaren erweiterten Einstellungen ![](assets/gear-icon-in-access-levels.png) Sie im Abschnitt [Erweiterte Einstellungen für die Vorlagenfreigabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) im Artikel [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Weitere Informationen zu den erweiterten Einstellungen ![Zahnradsymbol](assets/gear-icon-in-access-levels.png) finden Sie im Abschnitt [Erweiterte Einstellungen für die Vorlagenfreigabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) im Artikel [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Klicken Sie auf **Speichern**.
 
@@ -132,7 +132,7 @@ So geben Sie zukünftige Projekte, die aus einer Vorlage erstellt wurden, für B
 
    ![Projekt aus Vorlage freigeben](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
-   Oder
+   ODER
 
    Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf **Freigeben** und dann auf **Projekt.**
 
@@ -145,9 +145,9 @@ So geben Sie zukünftige Projekte, die aus einer Vorlage erstellt wurden, für B
 1. Wählen Sie aus dem Dropdown-Menü für jede Entität eine der folgenden Optionen aus:
 
    * **Kein Zugriff**: Sie können angeben, welche Benutzer keinen Zugriff auf die Vorlage haben.\
-     Diese Option ist nur bei der Massenfreigabe von Projekten aus Vorlagen verfügbar. 
+     Diese Option ist nur bei der Massenfreigabe von Projekten aus Vorlagen verfügbar.
    * **Anzeigen**: Benutzer mit diesen Berechtigungen können Projekte anzeigen, die aus der Vorlage erstellt wurden.
-   * **Beitragen**: Benutzer mit diesen Berechtigungen können zu Projekten beitragen, die aus der Vorlage erstellt wurden 
+   * **Beitragen**: Benutzer mit diesen Berechtigungen können zu Projekten beitragen, die aus der Vorlage erstellt wurden
    * **Verwalten**: Benutzer mit diesen Berechtigungen können Projekte verwalten oder löschen, die aus dieser Vorlage erstellt wurden.
 
 1. (Optional) Klicken Sie auf **Optionen**, um die Projekte systemweit verfügbar zu machen.
@@ -185,7 +185,7 @@ Sie können mehrere Vorlagen sowie Projekte aus mehreren Vorlagen gleichzeitig f
 
 1. Klicken Sie **Vorlage**, um die ausgewählten Vorlagen freizugeben.
 
-   Oder
+   ODER
 
    Klicken Sie **Projekt**, um die Projekte freizugeben, die aus den ausgewählten Vorlagen erstellt werden.
 

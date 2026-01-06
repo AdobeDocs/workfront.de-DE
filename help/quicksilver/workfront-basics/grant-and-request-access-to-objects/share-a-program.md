@@ -7,10 +7,10 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Berechtigungen sind für jedes Element in Workfront spezifisch und definieren, w
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Berechtigungen sind für jedes Element in Workfront spezifisch und definieren, w
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> 
+   <p>Work oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
   Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Sie können geerbte Berechtigungen aus dem Programm entfernen. Weitere Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter  [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Sie können geerbte Berechtigungen aus dem Programm entfernen. Weitere Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter   [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Freigeben eines Programms
 
@@ -155,18 +155,18 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 
 | **Aktionen** | **Verwalten** | **Anzeigen** |
 |---|---|---|
-| Programmdetails bearbeiten | ✓ |   |
+| Programmdetails bearbeiten | ✓ |   |
 | Anzeigen eines Programms | ✓ | ✓ |
-| Löschen eines Programms | ✓ |   |
-| Benutzerdefiniertes Formular anhängen | ✓ |   |
-| Benutzerdefiniertes Feld bearbeiten | ✓ |   |
-| Ein Projekt hinzufügen oder entfernen&#42; | ✓ |   |
-| Genehmigen eines Projekts | ✓ |   |
+| Löschen eines Programms | ✓ |   |
+| Benutzerdefiniertes Formular anhängen | ✓ |   |
+| Benutzerdefiniertes Feld bearbeiten | ✓ |   |
+| Ein Projekt hinzufügen oder entfernen&#42; | ✓ |   |
+| Genehmigen eines Projekts | ✓ |   |
 | Dokumentenordner hinzufügen&#42; | ✓ | ✓ |
 | Dokument hinzufügen | ✓ | ✓ |
 | Aktualisierungen/Kommentare hinzufügen | ✓ | ✓ |
 | Freigeben | ✓ | ✓ |
-| Systemweit freigeben |   | ✓ |
+| Systemweit freigeben |   | ✓ |
 
 *Diese Berechtigungen werden von der Zugriffsebene und den Berechtigungen für andere Objekte, z. B. Projekte, gesteuert.
 

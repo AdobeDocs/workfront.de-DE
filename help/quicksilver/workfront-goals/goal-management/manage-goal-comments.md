@@ -6,10 +6,10 @@ description: Sie können zu allen Zielen, die Sie in Adobe Workfront Goals anzei
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 1%
+source-wordcount: '209'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +40,7 @@ Sie können zu allen Zielen, die Sie in Adobe Workfront Goals anzeigen können, 
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
 <col>
@@ -138,8 +138,10 @@ Sie können zu allen Zielen, die Sie in Adobe Workfront Goals anzeigen können, 
 
 Sie können im Abschnitt „Aktualisierungen“ der Zielseite Kommentare zu Zielen hinzufügen.
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Ziele**.
+{{step1-to-goals}}
+
 Dadurch wird die Liste der Ziele geöffnet.
+
 1. Suchen Sie das Ziel, dem Sie Kommentare hinzufügen möchten, und klicken Sie dann auf seinen Namen, um die Zielseite zu öffnen.
 1. Klicken Sie **linken** auf „Updates“.
 

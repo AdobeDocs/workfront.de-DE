@@ -5,10 +5,10 @@ description: Sie können den Business Case verwenden, um ein Projekt anzufordern
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zwec
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,13 +79,13 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
 1. Geben Sie im Feld Projekttitel einen Namen ein.
 1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Vorlage anhängen**, um die Arbeitsaufschlüsselungsstruktur Ihres Projekts zu erstellen.
 
-   Oder
+   ODER
 
    Beginnen Sie damit, dem Projekt manuell Aufgaben hinzuzufügen.
 
 1. (Bedingt) Wenn Sie ausgewählt haben, dass eine Vorlage angehängt werden soll, fügen Sie die Vorlage weiterhin dem Projekt hinzu.
 1. Klicken Sie im linken Bedienfeld auf **Business Case**.
-1. (Optional) Um den Abschnitt **Projektinformationen** zu bearbeiten, klicken Sie auf **Projektinformationen bearbeiten**. 
+1. (Optional) Um den Abschnitt **Projektinformationen** zu bearbeiten, klicken Sie auf **Projektinformationen bearbeiten**.
 
    Weitere Informationen zum Bearbeiten der Felder **Projektinfo** finden Sie im Abschnitt [Projektinfo](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) im Artikel [Überblick über die Bereiche des Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -103,26 +103,26 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
    >
    >Die hier angezeigten Informationen entsprechen den Informationen, die in den Tools für die Ressourcenbudgetierung auf Systemebene angezeigt werden.
 
-1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [&#x200B; Abschnitt &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
+1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [ Abschnitt ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+1. (Optional) Wählen Sie im Dropdown **** Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
 
    Scorecards müssen erstellt werden, bevor sie mit Projekten verbunden werden können.
 
    Weitere Informationen zu Scorecards finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scorecards](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
+1. (Optional) Wählen Sie im Dropdown **** Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
 
    Benutzerdefinierte Forms muss erstellt werden, bevor sie an Projekte angehängt werden können.
 
    Weitere Informationen zu benutzerdefinierten Forms finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicken Sie **Senden**. Der Projektstatus wird in **Angefordert** geändert und es wird eingereicht, um den Business Case zu genehmigen.
+1. Klicken Sie auf **Absenden**. Der Projektstatus wird in **Angefordert** geändert und es wird eingereicht, um den Business Case zu genehmigen.
 
    Weitere Informationen zur Genehmigung eines Business-Case finden Sie im Artikel [Genehmigen eines Business-Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 
 >[!TIP]
 >
-> Nach Abschluss des Business Case können Sie eine Kopie davon in eine PDF-Datei exportieren. Weitere Informationen zum Exportieren des Business Case in eine PDF-Datei finden Sie [Export des Business Case eines Projekts](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> Nach Abschluss des Business Case können Sie eine Kopie davon in eine PDF-Datei exportieren. Weitere Informationen zum Exportieren des Business Case in eine PDF-Datei finden Sie [Export des Business Case eines Projekts](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

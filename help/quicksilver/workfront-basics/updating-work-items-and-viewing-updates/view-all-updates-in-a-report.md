@@ -6,10 +6,10 @@ description: Um alle Aktualisierungen anzuzeigen, die von einem Benutzer für ei
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Im Bereich Aktualisierungen eines Objekts wird standardmäßig eine maximale Anz
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,9 +108,9 @@ So erstellen Sie beispielsweise einen Notizbericht für alle Notizen zu einem Pr
 
 1. Klicken Sie oben links auf der Seite auf **Neuer Bericht** und wählen Sie dann **Hinweis**.
 
-1. (Optional) Klicken Sie auf **(Spalten) Ansicht** und dann auf **Spalte hinzufügen**, um den **Namen** des **Projekts** in der Berichtsansicht hinzuzufügen. 
+1. (Optional) Klicken Sie auf **(Spalten) Ansicht** und dann auf **Spalte hinzufügen**, um den **Namen** des **Projekts** in der Berichtsansicht hinzuzufügen.
 
-1. (Optional) Wenn Sie Berichte zu mehreren Projekten gleichzeitig erstellen, klicken Sie auf **Gruppierungen** und dann auf **Gruppierung hinzufügen**, um nach dem **Namen** des **Projekts**. Dadurch wird sichergestellt, dass die Notizen nach ihren jeweiligen Projekten gruppiert werden, wodurch der Bericht leichter zu lesen ist. 
+1. (Optional) Wenn Sie Berichte zu mehreren Projekten gleichzeitig erstellen, klicken Sie auf **Gruppierungen** und dann auf **Gruppierung hinzufügen**, um nach dem **Namen** des **Projekts**. Dadurch wird sichergestellt, dass die Notizen nach ihren jeweiligen Projekten gruppiert werden, wodurch der Bericht leichter zu lesen ist.
 
 1. (Optional) Klicken Sie auf **Filter** und dann **Filterregel hinzufügen**.
 1. Fügen Sie einen Filter für **Hinweis** > **Notizentext** > **Ist nicht leer** hinzu.

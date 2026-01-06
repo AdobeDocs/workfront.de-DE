@@ -6,10 +6,10 @@ description: Sie können anderen Benutzern die Berechtigungen für Objekte entzi
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können anderen Benutzern die Berechtigungen für Objekte entziehen, auf die
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -115,7 +115,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -150,11 +150,11 @@ So entfernen Sie geerbte Berechtigungen:
    >
    >Sie können keine einzelnen Entitäten aus der Liste „Geerbte Berechtigungen“ entfernen. Sie können nur die geerbten Berechtigungen für alle aufgelisteten Entitäten deaktivieren.
 
-1. Klicken Sie **Speichern**. 
+1. Klicken Sie auf **Speichern**.
 
 ## Ein Objekt als privat festlegen
 
-Wenn Sie ein Objekt systemweit freigegeben haben oder Sie es für externe Benutzer freigegeben haben, indem Sie es öffentlich gemacht haben, können Sie es wieder privat machen, indem Sie die systemweiten oder öffentlichen Berechtigungen entfernen. 
+Wenn Sie ein Objekt systemweit freigegeben haben oder Sie es für externe Benutzer freigegeben haben, indem Sie es öffentlich gemacht haben, können Sie es wieder privat machen, indem Sie die systemweiten oder öffentlichen Berechtigungen entfernen.
 
 Weitere Informationen dazu, wie Sie ein Objekt systemweit oder öffentlich verfügbar machen, finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 

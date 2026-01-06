@@ -7,10 +7,10 @@ description: Der Return on Investment (ROI) ist eine Adobe Workfront-Metrik, mit
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 Die folgenden Felder wirken sich auf den ROI eines Projekts aus:
 
 * **Geplanter Projektnutzen**: Dies ist ein manueller Eintrag, der vom Projektinhaber beim Ausfüllen des Bereichs „Projektinformationen“ des Business Case angegeben wird. Hierbei handelt es sich um eine Schätzung dessen, was Sie als Projektbesitzer glauben, dass das Projekt Vorteile bringen könnte, wenn Sie das Projekt abschließen. Dies ist ein bestimmter Währungsbetrag und muss ein positiver Wert sein.\
-  Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie im Abschnitt „Projektinformationen“ im Artikel „Erstellen [&#x200B; Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie im Abschnitt „Projektinformationen“ im Artikel „Erstellen [ Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * **Budgetierte Projektkosten**: Dies sind die Gesamtkosten, die mit dem Projekt verbunden sind und zum Zeitpunkt des ersten Starts des Projekts geschätzt werden.
 
@@ -40,19 +40,19 @@ Die folgenden Felder wirken sich auf den ROI eines Projekts aus:
 
 Sie können den ROI-Wert für ein Projekt in den folgenden Bereichen in Workfront anzeigen:
 
-* Im Portfolio-Optimizer, wenn das Projekt mit einem Portfolio verknüpft ist
+* In Portfolio Optimizer, wenn das Projekt mit einem Portfolio verknüpft ist
 
   >[!NOTE]
   >
   >Die Summe aller ROI-Werte des Projekts entspricht der ROI des Portfolios.
 
-  Informationen zum Portfolio-Optimizer finden Sie im Artikel [Übersicht über den Portfolio-Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* Im Feld Projekt-ROI in den folgenden Listen und Berichten: 
+* Im Feld Projekt-ROI in den folgenden Listen und Berichten:
 
    * Projekt
    * Aufgabe
    * Problem
-   * Projekt (finanzielle Daten)
+   * Projekt (Finanzdaten)
 
   Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

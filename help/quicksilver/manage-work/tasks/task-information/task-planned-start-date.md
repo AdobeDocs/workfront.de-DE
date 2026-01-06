@@ -7,7 +7,7 @@ description: Das geplante Startdatum einer Aufgabe ist das Datum, an dem Sie als
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -22,18 +22,18 @@ Das geplante Startdatum einer Aufgabe ist das Datum, an dem Sie als Ersteller de
 
 ## Das geplante Startdatum einer Aufgabe
 
-Sie können entweder das geplante Startdatum der Aufgabe angeben oder es Adobe Workfront überlassen, diese anhand bestimmter Kriterien zu berechnen. 
+Sie können entweder das geplante Startdatum der Aufgabe angeben oder es Adobe Workfront überlassen, diese anhand bestimmter Kriterien zu berechnen.
 
 * [Legen Sie das geplante Startdatum einer Aufgabe manuell fest](#manually-set-the-planned-start-date-of-a-task)
 * [Berechnen des geplanten Startdatums einer Aufgabe](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Manuelles Festlegen des geplanten Startdatums einer Aufgabe {#manually-set-the-planned-start-date-of-a-task}
 
-Das Festlegen des geplanten Startdatums einer Aufgabe hängt von der Art der Aufgabenbeschränkung ab, die Sie der Aufgabe zuweisen. 
+Das Festlegen des geplanten Startdatums einer Aufgabe hängt von der Art der Aufgabenbeschränkung ab, die Sie der Aufgabe zuweisen.
 
 Sie können das geplante Startdatum beim Erstellen einer Aufgabe manuell festlegen. Weitere Informationen finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-Sie können das geplante Startdatum manuell angeben, wenn Sie eine der folgenden Aufgabeneinschränkungen auswählen: 
+Sie können das geplante Startdatum manuell angeben, wenn Sie eine der folgenden Aufgabeneinschränkungen auswählen:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -64,7 +64,7 @@ Wenn es automatisch vom System berechnet wird, kann Folgendes das geplante Start
 
   Der Workfront- oder Gruppen-Administrator kann bestimmen, ob eine neue Aufgabe am gleichen Datum wie das geplante Startdatum des Projekts oder an dem Tag beginnt, an dem Sie die Aufgabe erstellen.
 
-  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden [&#x200B; unter „Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden [ unter „Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Aufgabenbeschränkung
 
@@ -83,7 +83,7 @@ Wenn es automatisch vom System berechnet wird, kann Folgendes das geplante Start
 
   Weitere Informationen zu den Urlaubseinstellungen für Benutzer finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Wenn es automatisch festgelegt wird, wird das geplante Startdatum anhand der folgenden Berechnung bestimmt: 
+Wenn es automatisch festgelegt wird, wird das geplante Startdatum anhand der folgenden Berechnung bestimmt:
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
@@ -93,5 +93,5 @@ Wenn Ihre Aufgabe beispielsweise ein Abschlussdatum vom 16. September und eine D
 
 >[!NOTE]
 >
-> Der Aktualisierungstyp für das Projekt muss ebenfalls auf „Automatisch“ und „Bei Änderung“ oder „Automatisch“ gesetzt werden, damit die geplanten Stunden und die Dauer automatisch angepasst werden.\
+> Der Aktualisierungstyp für das Projekt muss ebenfalls auf „Automatisch“ und „Bei Änderung“ oder „Automatisch“ gesetzt werden, damit die geplanten Stunden und die Dauer automatisch angepasst werden.\
 >Weitere Informationen zum Aktualisierungstyp finden Sie unter [Auswahl des Projektaktualisierungstyps](../../../manage-work/projects/manage-projects/select-project-update-type.md).

@@ -6,10 +6,10 @@ description: Sie können die Informationen einer Aufgabe anzeigen oder bearbeite
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ In diesem Artikel wird beschrieben, wie Sie Informationen im Bereich Übersicht 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ In diesem Artikel wird beschrieben, wie Sie Informationen im Bereich Übersicht 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz </p> </td> 
    <td><p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -122,7 +122,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Bearbeiten Sie alle Felder, die bearbeitet werden können, indem Sie einfach auf das Feld klicken oder auf **+Hinzufügen** klicken, um einem leeren Feld Informationen hinzuzufügen.
 1. Zeigt eines der folgenden aufgelisteten Felder an oder bearbeitet es.
 
-   Nicht alle Felder können bearbeitet werden.  
+   Nicht alle Felder können bearbeitet werden.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Tage. Dies ist der Standardwert. </td> 
+            <td>Tage. Dies ist der Standardwert. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -350,7 +350,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <td> <p>Person, die die Aufgabe zuletzt aktualisiert hat.</p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Wiederholungsfrequenz</td> 
+      <td role="rowheader">Intervallfrequenz</td> 
       <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Dies ist die Häufigkeit, mit der die Aufgaben in der Wiederholung auftreten. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -365,7 +365,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

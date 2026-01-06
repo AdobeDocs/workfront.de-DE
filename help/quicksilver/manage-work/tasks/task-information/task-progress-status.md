@@ -7,7 +7,7 @@ description: Adobe Workfront ermittelt den Fortschrittsstatus einer Aufgabe, ind
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Die folgenden Kriterien bestimmen den Fortschrittsstatus einer Aufgabe:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>Einschaltzeit</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>Einschaltzeit</strong> </p> </td> 
    <td scope="col"> <p>Eine Aufgabe gilt als <strong>Einschaltzeit</strong> wenn alle geplanten Termine mit den geplanten Terminen übereinstimmen. Dieser Fortschrittsstatus kann auch bedeuten, dass das Projekt dem Zeitplan voraus ist und die voraussichtlichen Termine vor den geplanten Terminen liegen.</p> <p>Weitere Informationen zu voraussichtlichen Terminen finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme</a>.</p> <p>Weitere Informationen zum geplanten Abschlussdatum der Aufgabe finden Sie in den folgenden Artikeln:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über das geplante Startdatum der Aufgabe</a> </p> </li> 

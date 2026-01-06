@@ -7,7 +7,7 @@ description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder abgestimmte Zi
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td><b><p>Funktion</p></b></td> 
    <td><b><p>Ergebnisse</p></b></td> 
    <td><b><p>Aktivitäten</p></b></td> 
-   <td> <p><strong>Projekte</strong> </p> <p> </p> </td> 
+   <td> <p><strong>Projekte</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">Sie können den Objektnamen in der Benutzeroberfläche von Workfront anpassen</span> </td> 
@@ -167,8 +167,8 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
   </tr> 
   <tr> 
    <td>Sie können eines von ihnen mit mehreren Zielen verknüpfen.</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td>Sie müssen in den Workfront-Zielen manuell aktualisiert werden</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Sie sollen am Enddatum des Ziels abgeschlossen sein</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Sie können nur einem Benutzer und nicht einem Team, einer Gruppe oder dem Unternehmen zugewiesen werden. </td> 
@@ -201,7 +201,7 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Sie bieten eine Reihe von Werten zwischen den Start- und Endwerten, die veranschaulichen, wie nahe Sie am Erreichen sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
    <td>✔</td> 
    <td>✔</td> 

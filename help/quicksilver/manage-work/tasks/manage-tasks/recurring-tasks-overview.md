@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 3%
@@ -100,4 +100,4 @@ Die folgende Tabelle zeigt, ob Änderungen am übergeordneten Trigger bei den un
 
 &#42;&#42; Zuweisungen für die übergeordnete Aufgabe werden auf alle Teilaufgaben in der Wiederholung angewendet. Alle Änderungen, die an der Zuordnung für die übergeordnete Aufgabe vorgenommen werden, überschreiben einzelne Zuweisungen für die Teilaufgabe. Wenn die Aufgabe den Fortschritt anzeigt, ändert sich die Zuweisung nicht.
 
- 
+

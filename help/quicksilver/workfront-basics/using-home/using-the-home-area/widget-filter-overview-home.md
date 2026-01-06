@@ -6,7 +6,7 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 11%
@@ -276,7 +276,7 @@ In der Produktionsumgebung:
       <td> <p>Zeigt Anforderungen an 
       <ul>
       <li>Die Sie eingereicht haben und noch offen sind. </li> 
-      <li>Ohne tatsächliches Abschlussdatum oder ohne Lösungsobjekt, das kein tatsächliches Abschlussdatum hat, sind auf der Unterregisterkarte Meine offenen Anfragen aufgeführt. </li> 
+      <li>Ohne tatsächliches Abschlussdatum oder ohne Lösungsobjekt, das kein tatsächliches Abschlussdatum hat, sind auf der Unterregisterkarte Meine offenen Anfragen aufgeführt.  </li> 
       </ul>
       <p><b>HINWEIS</b> 
       Anfragen, deren Status nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> </td> 

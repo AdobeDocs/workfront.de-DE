@@ -6,10 +6,10 @@ description: Sie können ein Projekt so konfigurieren, dass Benutzende dem Proje
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme per E-Mail hinzufügen können. Sie können nur dann zulassen, dass Probleme per E-Mail an ein Projekt gesendet werden, wenn das Projekt als Anfrage-Warteschlange festgelegt ist. Weitere Informationen zum Erstellen eines Anfrage-Warteschlangenprojekts finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +76,7 @@ Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren,
 >* Workfront ermöglicht eine eindeutige E-Mail pro Anfrage-Warteschlange für alle Cluster. Wenn Sie Ihre Anfrage-Warteschlange deaktivieren, behalten Sie die von Ihnen erstellte E-Mail-Adresse so lange bei, wie sie sich noch im Feld Eingangs-E-Mail-Adresse befindet. Wenn Sie die Verwendung der Eingangs-E-Mail einstellen möchten, müssen Sie sie aus dem Feld Eingangs-E-Mail löschen, damit sie für die zukünftige Verwendung verfügbar ist.
 >
 >* Wenn die Anfrage-Warteschlange mehrere Warteschlangenthemen oder Themengruppen enthält, wählt Workfront nach dem Zufallsprinzip das Warteschlangenthema aus, an das die per E-Mail gesendeten Anfragen gesendet werden, wodurch E-Mail gesendete Anfragen schwer zu verwalten sind.
->  &#x200B;>Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
+>Es wird empfohlen, dass das Projekt, das Sie für den Empfang von Anfragen per E-Mail eingerichtet haben, nicht mehr als ein Warteschlangen-Thema haben sollte. Wenn die gesendeten Anfragen für verschiedene Ressourcen oder Projekte vorgesehen sind, sollten Sie sie nach dem Senden manuell weiterleiten oder verschieben.
 
 1. Navigieren Sie zu dem Projekt, das Sie aktivieren möchten, um Probleme per E-Mail zu empfangen.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
@@ -94,7 +94,7 @@ Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren,
    >
    >* Da diese E-Mail-Adresse eindeutig sein muss, ist sie in Zukunft möglicherweise nicht mehr verfügbar, wenn sie gelöscht wird.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (Optional) Wählen Sie die **Alle Probleme weiterleiten, die nicht per E-Mail gesendet werden können** und geben Sie dann eine Weiterleitungs-E-Mail-Adresse in das Feld unten ein.

@@ -6,10 +6,10 @@ description: Unabhängig davon, ob Sie CEO, Manager oder ein einzelner Mitwirken
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 5%
+source-wordcount: '635'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ Unabhängig davon, ob Sie CEO, Manager oder ein einzelner Mitwirkender sind, kö
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Die Liste „Ziel“ wird angezeigt.
 
-   Die Liste „Ziel“ wird angezeigt.
 1. Klicken Sie auf **Neues Ziel**.
 
    Das Feld Neues Ziel wird angezeigt.
@@ -235,7 +233,7 @@ Creating goals differs depending on what environment you use.
    * **Zielname**: Geben Sie einen Namen für das Ziel ein. Dies ist ein Pflichtfeld.
    * **Zeitraum**: Wählen Sie ein vordefiniertes Quartal oder Jahr aus der Dropdown **Liste &quot;**&quot;
 
-     Oder
+     ODER
 
      Wählen Sie die Option **Benutzerdefinierte Datumswerte aktivieren** und wählen Sie dann ein **Start** und **Enddatum** für das Ziel aus.
 

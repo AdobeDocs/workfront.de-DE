@@ -6,7 +6,7 @@ description: Projekte in Adobe Workfront und Microsoft Project sind größtentei
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 Projekte in Adobe Workfront und Microsoft Project sind größtenteils kompatibel. Mithilfe der beiden Anwendungen können Sie Folgendes tun:
 
 * Exportieren von Projekten aus dem Microsoft-Projekt und Importieren in Workfront
-* Exportieren Sie Projekte aus Workfront und importieren Sie sie in Microsoft Project. 
+* Exportieren Sie Projekte aus Workfront und importieren Sie sie in Microsoft Project.
 
 Weitere Informationen zum Importieren von Projekten aus Microsoft Project in Workfront finden Sie unter [Importieren eines Projekts aus Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 Weitere Informationen zum Exportieren eines Projekts aus Workfront zum Importieren in Microsoft Project finden Sie unter [Exportieren eines Projekts in Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Bei solchen Datenimporten müssen Sie wissen, wie die Informationen von einer Anwendung in die andere übertragen werden. In den meisten Fällen müssen Sie nach Abschluss des Imports einige manuelle Änderungen am Projekt vornehmen. 
+Bei solchen Datenimporten müssen Sie wissen, wie die Informationen von einer Anwendung in die andere übertragen werden. In den meisten Fällen müssen Sie nach Abschluss des Imports einige manuelle Änderungen am Projekt vornehmen.
 
 ## Übersicht über die Feldzuordnung
 
@@ -64,4 +64,4 @@ Zu diesen Feldern gehören unter anderem:
 
   >[!NOTE]
   >
-  >Da Einschränkungen nicht zwischen Microsoft Project und Workfront zugeordnet sind, stellen Sie sicher, dass Vorgängerbeziehungen zwischen den Aufgaben vorhanden sind. Andernfalls sind das geplante Start- und Abschlussdatum der Aufgaben im importierten Projekt möglicherweise nicht korrekt. 
+  >Da Einschränkungen nicht zwischen Microsoft Project und Workfront zugeordnet sind, stellen Sie sicher, dass Vorgängerbeziehungen zwischen den Aufgaben vorhanden sind. Andernfalls sind das geplante Start- und Abschlussdatum der Aufgaben im importierten Projekt möglicherweise nicht korrekt.

@@ -6,10 +6,10 @@ description: Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Proje
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen u
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen u
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -91,14 +91,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    | So bald wie möglich (SBWM) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: So bald wie möglich](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | So spät wie möglich (SSWM) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: So spät wie möglich](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
    | Frühestmögliche Zeit | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Früheste verfügbare Zeit](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
-   | Letzte verfügbare Zeit | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
+   | Spätestmögliche Zeit | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
    | Nicht später anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestens beginnen am](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Nicht früher anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher starten als](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Nicht später beenden als (NSBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestes Beenden bis](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Nicht früher beenden als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 
 1. Klicken Sie **Speichern** **Änderungen**.
 
- 
+
