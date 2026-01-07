@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im ersten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Um für mehr Konsistenz mit anderen Bereichen von Setup zu sorgen, z. B. mit dem
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-
-
 ## Verbesserte Feldverwaltung mit Markierung „Aktiv“ für benutzerdefinierte Felder
 
 >[!NOTE]
@@ -89,6 +87,10 @@ Wenn Sie ein Feld als inaktiv markieren:
 
 * Sie ist von Berichten, Filtern, Ansichten oder anderen Stellen in Workfront ausgeschlossen, an denen Sie ein benutzerdefiniertes Feld hinzufügen können
 * Sie ist nicht in der Feldbibliothek verfügbar, um sie zu anderen benutzerdefinierten Formularen hinzuzufügen
+
+>[!NOTE]
+>
+>Der Ausschluss aus Berichten, Filtern, Ansichten und Gruppierungen erfolgt, nachdem das Feld inaktiv geworden ist. Vorhandene Berichtselemente, die das Feld verwenden, werden nicht geändert oder entfernt, wenn das Feld als inaktiv markiert ist.
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
