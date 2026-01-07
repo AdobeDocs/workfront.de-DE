@@ -6,10 +6,10 @@ description: Dieses Integrationsszenario teilt die tatsächlichen Stundendetails
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Diese Szenario-Vorlage liefert eine Liste der Stunden, die nach Projekt, Tag und
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -33,31 +33,33 @@ Diese Szenario-Vorlage liefert eine Liste der Stunden, die nach Projekt, Tag und
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Jedes Adobe Workfront-Workflow-Paket und jedes Adobe Workfront-Automatisierungs- und Integrationspaket</p><p>Workfront Ultimate</p><p>Workfront Prime und Select-Pakete, mit einem zusätzlichen Kauf von Workfront Fusion.</p> </td> 
+   <td> <p>Ein beliebiges Adobe Workfront Workflow- und Adobe Workfront Automation and Integration-Paket</p><p>Workfront Ultimate</p><p>Workfront Prime- und Select-Pakete bei zusätzlichem Kauf von Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
-   <td> <p>Standard</p><p>Arbeit oder höher</p> </td> 
+   <td> <p>Standard</p><p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-Lizenz</td> 
    <td>
-   <p>Betriebsbasiert: Keine Workfront Fusion-Lizenzanforderung</p>
+   <p>Betriebsbasiert: keine Workfront Fusion-Lizenz erforderlich</p>
    <p>Connector-basiert (veraltet): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Wenn Ihr Unternehmen über ein Select- oder Prime Workfront-Paket verfügt, das keine Workfront-Automatisierung und -Integration enthält, muss Ihr Unternehmen Adobe Workfront Fusion erwerben.</li></ul>
+   <p>Wenn Ihre Organisation über ein Workfront Select- oder Prime-Paket ohne Workfront Automation and Integration verfügt, muss Ihre Organisation Adobe Workfront Fusion erwerben.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
++++
 
 ## Auslösendes Ereignis
 
@@ -176,7 +178,7 @@ Diese Szenariovorlage wird durch die folgenden Vorlagen für Ausgabenoptimierung
 Zusätzliche Szenarien für die Verknüpfung von Budgetanfragen:
 
 * [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Zusätzliche Szenarien für die Verknüpfung von Kampagnenanfragen:
 

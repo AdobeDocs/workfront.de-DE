@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -79,7 +79,7 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 | Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
 | Gruppe (GROUP) | Gruppe <br>Untergruppen (bis zu 5 Ebenen) *<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter Option<br>Kategorie Anzeigelogik |
-| Rolle (ROLE) | Funktion |
+| Rolle (ROLE) | Rolle |
 | Team (Team) | <br> |
 | Firma (COMPY) | Firma<br>Überschreibungsrate<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter <br>Kategorieanzeigelogik<br>Gruppe |
 | Portfolio (PORT) | Portfolio<br>program<br>group<br>category<br>category Parameter<br>parameter<br>parameter group<br>parameter-Option<br>category Anzeigelogik |
@@ -100,7 +100,7 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 | Zugriffsebene (ACSLV) | Zugriffsebene |
 | Tarifkarte (RTCR) | Tarifkarte |
 | Speicherort/Klassifikator (CLSF) | Speicherort/Klassifikator |
-| Geschäftsregeln (BSNRUL) | Verfahrensregeln |
+| Geschäftsregeln (BSNRUL) | Geschäftsregeln |
 
 \* Derzeit nicht verfügbar
 
@@ -153,7 +153,7 @@ Zu diesen Status gehören:
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
+   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
   </tr> 
   </tbody> 
 </table>

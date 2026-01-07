@@ -6,23 +6,21 @@ description: Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden d
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
 
-# Arbeitselemente und Teamanfragen im Bereich &quot;[!UICONTROL &quot; &#x200B;]
+# Arbeitselemente und Teamanfragen im Bereich &quot;[!UICONTROL &quot; ]
 
 Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden diese im Widget „Meine Arbeit“, im Widget „Meine Aufgaben“ und im Widget „Meine Probleme“ aufgelistet.  Sie können Arbeitselemente und Anfragen anzeigen, bearbeiten oder entfernen.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden diese im Widge
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td>
    <p>Standard</p>
-    <p>Arbeit oder höher</p> </td> 
+    <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -57,7 +55,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Anzeigen eines Arbeitselements im Widget „Meine Arbeit“
 
-Arbeitselemente, die Ihnen zugewiesen sind, werden im Widget „Meine Arbeit“ in &quot;[!UICONTROL &quot; &#x200B;]. Über den Filter oben im Widget „Arbeitsliste“ können Sie konfigurieren, welche Arbeitselemente im Widget „Meine Arbeit[!UICONTROL &#x200B; angezeigt &#x200B;].
+Arbeitselemente, die Ihnen zugewiesen sind, werden im Widget „Meine Arbeit“ in &quot;[!UICONTROL &quot; ]. Über den Filter oben im Widget „Arbeitsliste“ können Sie konfigurieren, welche Arbeitselemente im Widget „Meine Arbeit[!UICONTROL  angezeigt ].
 
 Sie können Filter auswählen, die Elemente anzeigen, die Sie bearbeiten möchten, oder Elemente, an denen Sie derzeit bereits arbeiten.
 
@@ -87,7 +85,7 @@ So zeigen Sie ein Arbeitselement im Widget Meine Arbeit an:
 
 ## Zugriff auf eine Teamanfrage im Widget „Teamanfrage“
 
-Sie können direkt über das Widget „Teamanfragen“ im Bereich &quot;[!UICONTROL &quot; auf eine Ihrem Team zugewiesene &#x200B;] zugreifen. Weitere Informationen zu Teamanfragen finden Sie unter [Teamanfragen - Übersicht](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Sie können direkt über das Widget „Teamanfragen“ im Bereich &quot;[!UICONTROL &quot; auf eine Ihrem Team zugewiesene ] zugreifen. Weitere Informationen zu Teamanfragen finden Sie unter [Teamanfragen - Übersicht](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 So greifen Sie auf eine Teamanfrage zu:
 

@@ -8,7 +8,7 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2843'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Informationen zum Konfigurieren eines Anfrageformulars in Workfront Planning fin
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -294,8 +294,8 @@ To create a Request Queue:
 
    * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the new request form. The following options control the access to the fields on the form.
     
-      |Which users can see all fields on the request form | Description|  
-      |---|---| 
+      |Which users can see all fields on the request form | Description|
+      |---|---|
       | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
       | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
@@ -337,7 +337,7 @@ Wenn Sie ein Projekt als Anfrage-Warteschlange einrichten, muss der Projektstatu
 So erstellen Sie eine Anfrage-Warteschlange:
 
 1. Wechseln Sie zu dem Projekt, das Sie als Anfrage-Warteschlange einrichten möchten.
-1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;**Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
+1. (Optional) Klicken Sie **linken Bereich auf****Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 
    Dadurch wird der Abschnitt Warteschlangendetails geöffnet.
@@ -512,7 +512,7 @@ Weitere Informationen zum Einrichten des Systems „Typische Stunden pro Arbeits
    * **Alle ausgewählten und nicht ausgewählten Felder anzeigen für** Wählen Sie aus, welchen Benutzern alle Felder im neuen Anfrageformular angezeigt werden sollen. Die folgenden Optionen steuern den Zugriff auf die Felder im Formular.
 
      | Benutzer, die alle Felder im Anfrageformular sehen können | Beschreibung |
-     |---|---| 
+     |---|---|
      | Alle Benutzer (Planlizenzen) | Alle Benutzer, die über eine Planlizenz verfügen, können die ausgewählten sowie die nicht ausgewählten Felder sehen. |
      | Personen mit Ansichtszugriff auf dieses Projekt (Planlizenz) | Benutzer mit einer Planlizenz, die auch über Ansichtsrechte für dieses Projekt verfügen, können die ausgewählten sowie die nicht ausgewählten Felder sehen. Der Rest der Benutzer, die Anfragen an dieses Projekt senden können, kann nur die ausgewählten Felder sehen. |
      | Keine Benutzer | Die nicht ausgewählten Felder können nicht von Benutzenden angezeigt werden. Alle Benutzer, die Anfragen an dieses Projekt senden können, können nur die ausgewählten Felder sehen. Dies ist die Standardauswahl. |

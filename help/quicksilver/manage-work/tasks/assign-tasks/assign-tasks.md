@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 2%
@@ -146,7 +146,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Wechseln Sie zu einer Aufgabe, die Sie zuweisen möchten.
 1. Klicken Sie **Zuweisen zu** im Feld **Zuweisungen** in der Kopfzeile der Aufgabe
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen der Zuweisungen, wenn die Aufgabe bereits zugewiesen ist.
 
@@ -191,7 +191,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. (Optional) Klicken Sie auf **Dropdown-Menü** Automatisches Speichern“ und wählen Sie aus den folgenden Optionen:
 
    | Option | Beschreibung der Optionen |
-   |---|---| 
+   |---|---|
    | Automatisch speichern | Änderungen an den Aufgaben werden automatisch gespeichert und können nicht rückgängig gemacht werden |
    | Manuell speichern | Sie müssen Ihre Änderungen manuell speichern. Sie können Ihre Änderungen vor dem Speichern rückgängig machen. |
    | Timeline-Planung | Sie müssen Ihre Änderungen manuell speichern. Sie können Ihre Änderungen vor dem Speichern rückgängig machen. Das Speichern Ihrer Änderungen und aller Projektabhängigkeiten ist schneller als bei der Auswahl von „Manuelles Speichern“. |
@@ -256,7 +256,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Aufgabenbesitzer** aus, um anzugeben, welche Ressource der primäre Zugewiesene oder der Eigentümer der Aufgabe ist, wenn Sie der Aufgabe mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
 1. (Bedingt) Geben Sie **Zuordnung %** für jede Ressource an, die dem Vorgang zugewiesen ist, wenn alle ausgewählten Vorgänge den Dauertyp „Leistungsgesteuert“ oder „Berechnete Zuordnung“ aufweisen. Dies gibt an, wie viel Zeit diese Ressourcen für die Durchführung der Aufgabe aufwenden sollten. Dies ist nur für Benutzer und Aufgabengebiete verfügbar.
 
-   Oder
+   ODER
 
    Geben Sie den **(Stunden** für jede Ressource an, die dem Vorgang zugewiesen ist, wenn alle ausgewählten Vorgänge den Dauertyp „Einfach“ aufweisen. Die Summe aller Stunden für alle Ressourcen sollte der Anzahl der geplanten Stunden für die Aufgabe entsprechen.
 
@@ -264,7 +264,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    >
    >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben oder wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&quot; eine Rolle aus, die der Benutzer bei der Aufgabe erfüllen soll** wenn Sie Benutzer Aufgaben zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
@@ -293,7 +293,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. Beginnen Sie im Bereich **Arbeitsaufträge** mit der Eingabe des Namens der Benutzer, Teams oder Rollen in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
 
-   Oder
+   ODER
 
    Klicken Sie auf **Mir zuweisen**, um es sich selbst zuzuweisen.
 
@@ -303,7 +303,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. Klicken Sie in das **Dauertyp** und wählen Sie einen Dauertyp aus.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Bedingt) Aktualisieren Sie je nach **von** ausgewählten „Dauertyp“ die folgenden Felder:
 

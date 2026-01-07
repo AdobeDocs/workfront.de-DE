@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 2%
 
 ---
@@ -1437,7 +1437,6 @@ ht-degree: 2%
          * [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Problemstatus von „Auf Feedback warten“ automatisch auf „In Bearbeitung“ aktualisieren](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * Das Gantt-Diagramm {#the-gantt-chart}
-      * Das Gantt-Diagramm {#the-gantt-chart}
       * [Das Gantt-Diagramm](manage-work/gantt-chart/the-gantt-chart.md)
       * Gantt-Diagramm - Übersicht {#gantt-chart-overview}
          * [Gantt-Diagramm - Übersicht](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -2192,7 +2191,6 @@ ht-degree: 2%
    * [Adobe Workfront-Integrationen](workfront-integrations-and-apps/workfront-integrations.md)
    * [Übersicht über integrierte Adobe Workfront-Integrationen](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront-Integrationsmethoden](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Integrationen überprüfen und genehmigen {#review-approval-integrations}
    * Adobe Workfront für Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront für Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installieren des Adobe Workfront-Plug-ins für Creative Cloud-Programme {#install-wf-cc}
@@ -2207,7 +2205,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

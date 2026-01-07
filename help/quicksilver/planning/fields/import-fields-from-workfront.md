@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -136,10 +136,10 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * Dokument
    * Firma
    * Gruppe
-   * Benutzerin bzw. Benutzer
+   * Benutzerin oder Benutzer
    * Aufgabengebiet
    * Zuweisung
-   * Hour
+   * Stunde
    * Abrechnungseintrag
      <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * Ausgabe
@@ -189,7 +189,7 @@ Alle anderen Workfront-Feldtypen werden in Workfront Planning nicht unterstützt
 
 1. Klicken Sie oben rechts in der Tabellenansicht auf das Symbol **+** .
 
-   Oder
+   ODER
 
    Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** um das neue Feld hinzuzufügen.
 1. Klicken Sie **Vorhandenes** hinzufügen“ in der rechten unteren Ecke der Registerkarte **Neues Feld**. <!--check UI - did they change this??-->

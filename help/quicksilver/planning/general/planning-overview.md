@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 2%
@@ -129,7 +129,7 @@ The following features are currently available in Workfront Planning:
 |   Search for records in the timeline view    | ✓    |   |
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
-|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 |
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
 |     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
@@ -145,9 +145,9 @@ The following features are currently available in Workfront Planning:
 |     Receive email notifications                                 | ✓                              |                                  |                 |
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
-|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 |
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 |
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
@@ -368,7 +368,7 @@ So suchen Sie Workfront Planning:
 
    1. Beginnen Sie in der Tabellenansicht mit dem Hinzufügen von Datensätzen, indem Sie Zeilen hinzufügen
 
-      Oder
+      ODER
 
       Datensatzfelder durch Hinzufügen von Spalten hinzufügen.
 
@@ -395,7 +395,7 @@ Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Wor
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
 
 * [Grundlagen der Adobe Workfront Planning-](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird.
 

@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie die Verbindung zwischen [!DNL Workfront] und einem Dokumentanbieter dea
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -49,6 +49,8 @@ Wenn Sie die Verbindung zwischen [!DNL Workfront] und einem Dokumentanbieter dea
 </table>
 
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Cloud-Provider-Integrationen deaktivieren
 

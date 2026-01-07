@@ -4,9 +4,9 @@ description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.
 >Stellen Sie sicher, dass Sie für alle folgenden Schritte die richtige IMS-Organisation ausgewählt haben. Wenn Sie mehreren Organisationen angehören, können Sie die falsche auswählen. Stellen Sie sicher, dass Sie unter der rechten Organisation handeln, die normalerweise oben rechts aufgeführt ist.
 
 1. Navigieren Sie zur Produktion: https://adminconsole.adobe.com/
-
 1. Klicken **Abschnitt „Benutzer** auf **Entwickler** > **Entwickler hinzufügen**.
 
    ![Benutzer in der Admin Console hinzufügen](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.
    >Wenn keine Option zum Verwalten von Entwicklern angezeigt wird, verfügen Sie über kein Produkt, das Entwicklerzugriff ermöglicht.
 
 1. Fügen Sie die E-Mail des Benutzers hinzu. Sie sollte nach vorhandenen Benutzenden suchen, die bereits aus der Admin Console hinzugefügt wurden.
+1. Fügen Sie die erforderlichen Produkte zum Entwicklerprofil hinzu und klicken Sie auf **Speichern**.
 
-1. Fügen Sie die erforderlichen Produkte zum Entwicklerprofil hinzu und klicken Sie auf **Speichern**.\
    ![Entwickler hinzufügen](assets/add-developer.png)
 
 ### Zugriff auf App Builder erhalten
@@ -80,9 +79,7 @@ Sie müssen die Adobe Developer Console verwenden, um Ihre Benutzeroberflächene
 Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Melden Sie sich mit Ihrer Adobe ID bei der Adobe Developer Console an.
-
 1. Wählen Sie Ihr -Konto und Ihr Profil oder Ihre Organisation aus.
-
 1. Klicken Sie **Schnellstartbereich auf** Projekt aus Vorlage erstellen“ oder klicken Sie auf **Neues Projekt erstellen > Projekt aus Vorlage**.
 
    >[!IMPORTANT]
@@ -92,11 +89,8 @@ Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.
    ![Aus Vorlage erstellen](assets/create-from-template.png)
 
 1. **App Builder**.
-
 1. Geben Sie einen **Projekttitel** und **App-Namen** ein. Beide haben Standardwerte, aber es ist einfacher, das gewünschte Projekt später zu identifizieren, wenn Sie den Wert anpassen.
-
 1. Lassen Sie **Laufzeit**.
-
 1. Klicken Sie auf **Speichern**.
 
 ## Verwenden der Adobe Developer (aio)-CLI
@@ -157,33 +151,33 @@ So lassen Sie benutzerdefinierte Anwendungen im Hauptmenü von Workfront zu:
 
 1. Gehen Sie zu ExtensionRegistration.js.
 
-In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
+   In der Funktion ExtensionRegistration sollte der folgende Code angezeigt werden. Dieser Code wurde von der Vorlage für Sie erstellt. Dieser Code kann hinzugefügt werden, um zusätzliche Menüelemente zu erstellen. Ersetzen Sie unbedingt die IDs und URLs.
 
-    &quot;
-    mainMenu: &lbrace;
-    
-    getItems() &lbrace;
-    
-    return &lbrack;
-    
-    &lbrace;
-    
-    id: &#39;main-menu-label&#39;,
-    
-    url: &#39;/index.html#/main-menu-label&#39;,
-    
-    label: &#39;main menu label&#39;,
-    
-    icon: icon1,
-    
-    &rbrace;,
-    
-    &rbrack;;
-    
-    &rbrace;,
-    
-    &rbrace;
-    &quot;
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
 
 1. Fügen Sie das folgende Codefragment hinzu:
 
@@ -413,7 +407,7 @@ Weitere Informationen zum Entwickeln und Ausführen der Anwendung finden Sie auf
 Freigegebener Kontext wird verwendet, um Daten aus Workfront für eine Benutzeroberflächenerweiterung freizugeben. Zu den über Shared Context verfügbaren Daten gehören Benutzerdaten und der Anwendungskontext.
 
 
-### Benutzerin bzw. Benutzer
+### Benutzerin oder Benutzer
 
 Benutzeroberflächenerweiterungen von Workfront nutzen Benutzerdaten gemeinsam. Das über den freigegebenen Kontext verfügbare Benutzerobjekt enthält eine Workfront-Benutzer-ID und die E-Mail-Adresse des Benutzers.
 
