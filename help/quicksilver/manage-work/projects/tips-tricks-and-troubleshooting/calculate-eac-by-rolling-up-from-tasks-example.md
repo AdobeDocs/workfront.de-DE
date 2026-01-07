@@ -432,64 +432,64 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    </table>
 
 1. Führen Sie in Projektaktionen die Option Finanzen neu berechnen aus.
-1. **CPI****für Aufgabe 1** = .14 wie folgt berechnet:\
-   **CPI****für Aufgabe 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+1. **CPI**&#x200B;**für Aufgabe 1** = .14 wie folgt berechnet:\
+   **CPI**&#x200B;**für Aufgabe 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labour\
-     **CPI****für Aufgabe 1** = (100+300) / (2500+400)\
-     **CPI****für Aufgabe 1** = 400 / 2900\
-     **CPI****für Aufgabe 1** = .14
+     **CPI**&#x200B;**für Aufgabe 1** = (100+300) / (2500+400)\
+     **CPI**&#x200B;**für Aufgabe 1** = 400 / 2900\
+     **CPI**&#x200B;**für Aufgabe 1** = .14
 
-1. **EAC****für Aufgabe 1** = 13.400,00 $\
-   **CPI Labor****for Task 1** = IF Actual Labour Cost &lt;> 0 THEN
+1. **EAC**&#x200B;**für Aufgabe 1** = 13.400,00 $\
+   **CPI Labor**&#x200B;**for Task 1** = IF Actual Labour Cost &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labour = 1\
-   **CPI Labor****für Aufgabe 1** = 100/2500\
-   **CPI Labor****für Aufgabe 1** = .04
+   **CPI Labor**&#x200B;**für Aufgabe 1** = 100/2500\
+   **CPI Labor**&#x200B;**für Aufgabe 1** = .04
 
-   **EAC Labor****für Aufgabe 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**für Aufgabe 1** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * SONSTIGE* EAC-Arbeitskosten = Geplante Arbeitskosten + Ist-Arbeitskosten\
-     **EAC Arbeit****für Aufgabe 1** = 500.00/.04\
-     **EAC Labor****für Aufgabe 1** = 12.500,00 $
+     **EAC Arbeit**&#x200B;**für Aufgabe 1** = 500.00/.04\
+     **EAC Labor**&#x200B;**für Aufgabe 1** = 12.500,00 $
 
-   **EAC-Ausgabe****für Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-**** für Aufgabe 1** = 400,00 $ + 500,00 $\
-   **EAC-Ausgabe****für Aufgabe 1** = 900,00 $
+   **EAC-Ausgabe**&#x200B;**für Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC-**&#x200B;**&#x200B; für Aufgabe 1** = 400,00 $ + 500,00 $\
+   **EAC-Ausgabe**&#x200B;**für Aufgabe 1** = 900,00 $
 
-   **EAC****für Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC****für Aufgabe 1** = 12.500,00 $ + 900,00 $\
-   **EAC****für Aufgabe 1** = 13.400,00 $
+   **EAC**&#x200B;**für Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC**&#x200B;**für Aufgabe 1** = 12.500,00 $ + 900,00 $\
+   **EAC**&#x200B;**für Aufgabe 1** = 13.400,00 $
 
 1. Im Folgenden finden Sie die CPI-/EAC-Werte für Aufgabe 2 und Aufgabe 3:\
    Task 2 = .19 / $ 8.433,33\
-   Task 3 = .44 / $6.950.00****
+   Task 3 = .44 / $6.950.00&#x200B;**&#x200B;**
 
 1. Der CPI für das Projekt = .32\
-   **CPI****für Projekt** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**für Projekt** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labour\
-     **CPI****für Projekt** = (1000 + 2300) / (7500 + 2700)\
-     **CPI****für Projekt** = 3300 / 10200\
-     **CPI****for Project** = .32
+     **CPI**&#x200B;**für Projekt** = (1000 + 2300) / (7500 + 2700)\
+     **CPI**&#x200B;**für Projekt** = 3300 / 10200\
+     **CPI**&#x200B;**for Project** = .32
 
 1. EAC für das Projekt beträgt $28.783,33\
-   **EAC****für Projekt** = EAC Aufgabe 1 + EAC Aufgabe 2 + EAC Aufgabe 3\
-   **EAC****für Projekt** = 13.400,00 $ + 8.433,33 $ + 6.950,00 $\
-   **EAC****für Projekt** = 28.783,33 $
+   **EAC**&#x200B;**für Projekt** = EAC Aufgabe 1 + EAC Aufgabe 2 + EAC Aufgabe 3\
+   **EAC**&#x200B;**für Projekt** = 13.400,00 $ + 8.433,33 $ + 6.950,00 $\
+   **EAC**&#x200B;**für Projekt** = 28.783,33 $

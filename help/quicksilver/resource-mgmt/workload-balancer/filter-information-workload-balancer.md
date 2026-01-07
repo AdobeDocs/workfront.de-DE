@@ -161,9 +161,9 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Der Standardfilter zeigt Benutzer an, die zu einem Ihrer Teams gehören, sowie deren Arbeitselemente. Eine Kopie dieses Filters kann bearbeitet werden.
 
-   Wenn Sie über ein Projekt auf [!UICONTROL Workload ]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
+   Wenn Sie über ein Projekt auf [!UICONTROL Workload &#x200B;]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
 
-   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts ] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
+   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts &#x200B;] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
 
 
 1. Klicken Sie **Neuer Filter**.
@@ -308,7 +308,7 @@ Beachten Sie Folgendes, bevor Sie einen Filter löschen:
 
 1. Klicken Sie in der rechten oberen Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit** auf das **Filtersymbol** ![Filtersymbol](assets/filter-icon.png). Das **Filter** wird auf der rechten Seite angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie auf das **Mehr** Menü ![Mehr ](assets/more-menu-edit-filter.png) dann auf **Löschen**.
+1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu-edit-filter.png) dann auf **Löschen**.
 
    >[!TIP]
    >

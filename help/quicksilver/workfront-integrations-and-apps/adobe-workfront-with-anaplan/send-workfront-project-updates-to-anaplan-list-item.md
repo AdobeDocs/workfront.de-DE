@@ -151,7 +151,7 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 
 12. [!UICONTROL Status]
 
-So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante ] vor:
+So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante &#x200B;] vor:
 
 1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
 1. Speichern Sie die Datei im CSV-Format
@@ -251,7 +251,7 @@ Diese Szenariovorlage wird durch die folgenden Vorlagen für Ausgabenoptimierung
 Zusätzliche Szenarien für die Verknüpfung von Budgetanfragen:
 
 * [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Zusätzliche Szenarien für die Verknüpfung von Kampagnenanfragen:
 
