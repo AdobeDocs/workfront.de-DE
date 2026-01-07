@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ Der KPI Geplante Stunden im Bildschirm Erweiterte Zuweisungen kann nicht mehr be
 
 Das Feld **Wechselkursdatum** im Bereich Projektdetails > Finanzen ist jetzt ausgeblendet, wenn das Kontrollkästchen **Datumswirksame Wechselkurse im System verwenden** nicht aktiviert ist. Zuvor wurde beim Bearbeiten eines Projekts das Datumsfeld in den Projektdetails angezeigt, auch wenn keine datumswirksamen Wechselkurse aktiviert waren.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Woche der Wartungs-Updates vom 4. bis 10. Januar 2026
 
-**Title**
+**Die Quote für Aufgabengebiete lässt jetzt Lücken bei den effektiven Datumsangaben zu**
 
-text
+Die effektiven Termine für Aufgabengebiete lassen jetzt Lücken zu, wobei sich überschneidende Termine nicht zulässig sind. Während einer Lücke werden andere Bereiche der Verrechnungssatz-Hierarchie verwendet, um den Verrechnungssatz basierend auf dem Umsatztyp einer Aufgabe zu bestimmen.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
