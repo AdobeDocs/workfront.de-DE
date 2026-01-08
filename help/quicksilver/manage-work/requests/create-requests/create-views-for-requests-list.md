@@ -68,7 +68,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
    {{step1-to-requests}}
 
-1. Klicken Sie in der Liste Anfragen auf das Dropdown **** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+1. Klicken Sie in der Liste Anfragen auf das Dropdown **&#x200B;**&#x200B;Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
