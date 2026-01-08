@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -78,6 +78,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      >
      >Standardmäßig wird das Startseiten -Symbol im Hauptmenü den Bereich Meine Aktualisierungen für Benutzer mit Überprüfungslizenz (im aktuellen Lizenzplan) anzeigen, es sei denn, ihnen ist eine Layoutvorlage mit ihrem Profil zugeordnet, die im Hauptmenü neben dem Bereich Startseite auch den Bereich Meine Aktualisierungen enthält.
 
+
+   * <span class="preview">Prioritäten</span>
    * Portfolios
    * Programme
    * Projekte
@@ -141,7 +143,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. In der Produktionsumgebung: Passen Sie die Layout-Vorlage weiter an.
 
-   Oder
+   ODER
 
    Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
 

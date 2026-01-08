@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 2%
+source-wordcount: '1017'
+ht-degree: 3%
 
 ---
 
 # Erste Schritte mit [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 Priorities ist ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist. Die Prioritäten werden schrittweise eingeführt, beginnend mit der Arbeitsliste.
 
@@ -24,6 +26,8 @@ Mit Prioritäten können Sie Folgendes genießen
 * Personalisierte Funktionen: Profitieren Sie von Funktionen, die speziell für Aufgabenbesitzer entwickelt wurden
 
 Die Prioritätenarbeitsliste und der Kalender zeigen Arbeitselemente an, die Ihnen zugewiesen sind. Sie können keine Arbeitselemente sehen, die Ihrem Team zugewiesen sind.
+
+<span class="preview">Ein Workfront-Administrator kann in der Layout-Vorlage Prioritäten für die Benutzerin bzw. den Benutzer aktivieren. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Suchen und Organisieren Ihrer Arbeit
 
@@ -148,7 +152,7 @@ Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren
 
 Sie können die Zeit für Arbeitselemente protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 
-Weitere Informationen finden Sie unter [Zeit in Prioritäten &#x200B;](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
+Weitere Informationen finden Sie unter [Zeit in Prioritäten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![Update, Protokollierungszeit und Upload](assets/update-log-upload.png)
 
@@ -202,7 +206,8 @@ Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/hel
 
 Echtzeitaktualisierungen können auf der Detailseite einer Aufgabe oder eines Problems angezeigt werden. Mit Echtzeit-Präsenzindikatoren können Sie auch sehen, ob andere Benutzer die Seite gleichzeitig mit Ihnen ansehen.
 
-## Aspekte
 
-* Workfront-Administratoren können derzeit keine Prioritäten über die Layout-Vorlage anpassen.
-* Der Zugriff auf Aufgaben in Prioritäten erfolgt über mehrere Registerkarten. Wir planen, in Zukunft zusätzliche Registerkarten wie Dokumente, Teilaufgaben, Genehmigungen usw. hinzuzufügen. Teilen Sie uns mit, dass Sie diese Elemente benötigen, indem Sie Feedback über die Schaltfläche **Feedback geben** einreichen.
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
