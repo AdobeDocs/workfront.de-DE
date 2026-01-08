@@ -4,9 +4,9 @@ description: Verbesserungen bei Anfragen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 >Produktion für alle: 15. Januar 2026
 
 Um Ihnen den Zugriff auf das von einer bestimmten Anfrage erstellte Objekt zu erleichtern, haben wir Links zur Spalte Erstelltes Objekt hinzugefügt. Jetzt können Sie auf den Link in dieser Spalte klicken, um direkt zur Seite des erstellten Objekts zu gelangen.
+
+Dieser Link ist nur verfügbar, wenn die Anfrage selbst ein -Objekt erstellt hat. Wenn eine Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste in der neuen anfragenden -Version kein Link zu diesem konvertierten Objekt verfügbar.
 
 Zuvor enthielt diese Spalte nur den Namen des Objekts, nicht aber seinen Link.
 
@@ -60,7 +62,7 @@ For more information on creating views for the Request list and My Requests widg
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zu dem neuen anfordernden Erlebnis auszutauschen. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [ unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Hinzufügen benutzerdefinierter Felder zur Anfragenliste und zum Widget Meine Anfragen
 
