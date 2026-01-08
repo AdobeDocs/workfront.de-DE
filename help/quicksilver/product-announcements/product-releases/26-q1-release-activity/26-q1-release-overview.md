@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2886'
 ht-degree: 5%
 
 ---
@@ -117,16 +117,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
         </tr>
-       <tr>
+       <!--<tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Einrichten von Marken für den KI-Reviewer in Workfront<p>[!BADGE OFF SCHEDULE]{type=neutral}</p> </a>
-            <p>Sie können jetzt im Bereich "Workfront-Setup“ Marken für den KI-Reviewer einrichten. Auf diese Weise können Sie den KI-Überprüfungsprozess auf der Grundlage der Branding-Richtlinien Ihres Unternehmens anpassen.</p>
-            <p>Der KI-Reviewer befindet sich derzeit in der Beta-Phase.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+            <p>The AI reviewer is currently in beta.</p>
         </td>
-        <td>Freitag, 8. Januar 2026</td>
-        <td>Freitag, 8. Januar 2026</td>
-        <td>Freitag, 8. Januar 2026</td>
-    </tr> 
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+    </tr> -->
     </tr>
        <tr>
         <td>
@@ -602,7 +602,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

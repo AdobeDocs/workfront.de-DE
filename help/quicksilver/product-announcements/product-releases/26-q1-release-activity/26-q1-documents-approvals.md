@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten und Genehmigungen für das erste Quar
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ Auf dieser Seite werden die Dokument- und Genehmigungsverbesserungen beschrieben
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Einrichten von Marken für den KI-Prüfer in Workfront
+<!--## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
->Vorschau: 8. Januar 2026
->Produktions-Schnellveröffentlichung: 8. Januar 2026\
->Produktion für alle: 8. Januar 2026
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
-Sie können jetzt im Bereich &quot;Workfront-Setup“ Marken für den KI-Reviewer einrichten. Auf diese Weise können Sie den KI-Überprüfungsprozess auf der Grundlage der Branding-Richtlinien Ihres Unternehmens anpassen.
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-Der KI-Reviewer befindet sich derzeit in der Beta-Phase.
+The AI reviewer is currently in beta.-->
 
 ## Workfront-Projekt auswählen, wenn eine Überprüfung in Adobe Express gesendet wird
 
