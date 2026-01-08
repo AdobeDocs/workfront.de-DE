@@ -5,10 +5,10 @@ title: Ansichten im Bereich Anfragen erstellen und verwalten
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 2%
 
 Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
 
-Ansichten können im Bereich Anfragen von Workfront und im Widget Meine Anfragen auf der Startseite erstellt und verwaltet werden. Ansichtseinstellungen bleiben zwischen dem Anfragebereich und dem Widget erhalten.
+Ansichten können im Bereich Anfragen von Workfront erstellt und verwaltet werden.
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur in der neuen anfragenden -Version verfügbar.
+>* Diese Funktion ist nur in der neuen anfragenden -Version verfügbar.
+>* Anzeigeeinstellungen sind im Widget Meine Anfragen auf der Startseite nicht verfügbar.
 
 ## Zugriffsanforderungen
 
@@ -61,21 +62,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Erstellen Sie eine Ansicht im Bereich Anfragen .
 
-Sie können eine Ansicht entweder im Bereich Anfragen von Workfront oder im Widget Meine Anfragen auf der Startseite erstellen.
+Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
 1. So greifen Sie auf die Anfragenliste zu:
 
    {{step1-to-requests}}
 
-1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
-
-   {{step1-to-home}}
-
-   1. Suchen Sie das Widget Meine Anfragen .
-
-      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Klicken Sie in der Liste „Anfragen“ oder im Widget „Meine Anfragen **auf das Dropdown**![Anzeigen-](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+1. Klicken Sie in der Liste Anfragen auf das Dropdown **** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
 1. So greifen Sie auf die Anfragenliste zu:
 
    {{step1-to-requests}}
-
-1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
-
-   {{step1-to-home}}
-
-   1. Suchen Sie das Widget Meine Anfragen .
-
-      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Suchen Sie in der Liste „Anfragen“ oder im Widget „Meine Anfragen“ die Ansicht, die Sie bearbeiten möchten.
+1. Suchen Sie in der Anfragenliste die Ansicht, die Sie bearbeiten möchten.
 
 1. (Optional) Um eine Ansicht umzubenennen, klicken Sie auf das **Ansichten** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und klicken Sie auf das Dreipunkt-Menü neben der Ansicht, wählen Sie **Umbenennen** aus und geben Sie dann den neuen Namen für die Ansicht ein.
 1. Klicken Sie auf **Ansichten** Dropdown-![Ansichten](assets/view-icon-requests.png) und wählen Sie die Ansicht aus, die Sie bearbeiten möchten.
@@ -156,15 +140,7 @@ Sie können Ansichten, die Sie erstellen, für andere Benutzer, Teams oder Grupp
 
    {{step1-to-requests}}
 
-1. So greifen Sie auf die Startseite auf das Widget Meine Anfragen zu:
-
-   {{step1-to-home}}
-
-   1. Suchen Sie das Widget Meine Anfragen .
-
-      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Suchen Sie in der Anfragenliste oder im Widget Meine Anfragen die Ansicht, die Sie freigeben möchten.
+1. Suchen Sie in der Anfragenliste die Ansicht, die Sie freigeben möchten.
 1. Bewegen Sie den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie dann auf das Dreipunkt-Menü, wenn es angezeigt wird.
 1. Wählen Sie **Freigeben** aus.
 1. Geben Sie in dem daraufhin angezeigten Dialogfeld die Namen der Benutzer, Teams oder Gruppen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus.
