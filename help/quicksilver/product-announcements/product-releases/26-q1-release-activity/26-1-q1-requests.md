@@ -62,7 +62,7 @@ For more information on creating views for the Request list and My Requests widg
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zu dem neuen anfordernden Erlebnis auszutauschen. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [ unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Hinzufügen benutzerdefinierter Felder zur Anfragenliste und zum Widget Meine Anfragen
 
