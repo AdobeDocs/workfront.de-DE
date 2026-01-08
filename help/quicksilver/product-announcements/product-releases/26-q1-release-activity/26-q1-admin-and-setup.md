@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im ersten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 
 >[!NOTE]
 >
+>Diese Funktion ist in der Vorschau-Umgebung vorübergehend nicht verfügbar
 >Vorschau: 2. Dezember 2025
 >Produktions-Schnellveröffentlichung: 14. Januar 2026
 >Produktion für alle: 15. Januar 2026
+
 
 Sie können jetzt in der Layout-Vorlage Prioritäten für bestimmte Benutzer aktivieren oder deaktivieren. Wenn Sie zuvor Prioritäten für Ihre Organisation deaktiviert hatten, bleibt sie mit dieser Änderung in der Layout-Vorlage deaktiviert.
 

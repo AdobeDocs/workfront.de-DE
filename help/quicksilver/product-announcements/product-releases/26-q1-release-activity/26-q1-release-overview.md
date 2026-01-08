@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
+source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
 workflow-type: tm+mt
-source-wordcount: '2880'
+source-wordcount: '2940'
 ht-degree: 5%
 
 ---
@@ -60,6 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Verwalten von Prioritäten in der Layout-Vorlage</a>
+            <p><span class="preview">Vorübergehend nicht in der Vorschau-Umgebung verfügbar</span></p>
             <p>Sie können jetzt in der Layout-Vorlage Prioritäten für bestimmte Benutzer aktivieren oder deaktivieren. Wenn Sie zuvor Prioritäten für Ihre Organisation deaktiviert hatten, bleibt sie mit dieser Änderung in der Layout-Vorlage deaktiviert.</p>
         </td>
         <td>Freitag, 18. Dezember 2025</td>
@@ -115,6 +116,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vorschau</strong></td>
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
+        </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Einrichten von Marken für den KI-Reviewer in Workfront<p>[!BADGE OFF SCHEDULE]{type=neutral}</p> </a>
+            <p>Sie können jetzt im Bereich "Workfront-Setup“ Marken für den KI-Reviewer einrichten. Auf diese Weise können Sie den KI-Überprüfungsprozess auf der Grundlage der Branding-Richtlinien Ihres Unternehmens anpassen.</p>
+            <p>Der KI-Reviewer befindet sich derzeit in der Beta-Phase.</p>
+        </td>
+        <td>Freitag, 8. Januar 2026</td>
+        <td>Freitag, 8. Januar 2026</td>
+        <td>Freitag, 8. Januar 2026</td>
+    </tr> 
     </tr>
        <tr>
         <td>
@@ -590,7 +602,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
