@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '483'
 ht-degree: 3%
 
 ---
@@ -53,13 +53,23 @@ Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, k
    <td> 
 <p>Beliebiges Workfront- und Planungspaket</p>
 <p>Beliebiges Workflow- und Planungspaket</p>
-<div class="preview">
+
 <p><b>NOTIZ</b></p>
+
+<p>So konfigurieren Sie verbindbare Datensatztypen:</p>
+
+<ul> 
+<li><p>Beliebiges Workfront- und Planungspaket</p></li>
+ODER
+<li><p>Ein beliebiges Workflow-Paket und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+
+<div class="preview">
+
 <p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
 <li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
-Oder
+ODER
 <li><p>Ein beliebiges Workflow-Paket und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
 </div>
@@ -160,7 +170,7 @@ Sie können Workspace-übergreifende Funktionen für einen Datensatztyp definier
 
      ![Weitere Menüoptionen auf der Karte „Datensatztyp“](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-     Oder
+     ODER
 
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie dann auf **Einstellungen**.
 

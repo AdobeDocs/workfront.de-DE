@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ In Adobe Workfront Planning können Sie Workspace-übergreifende Funktionen für
 
 >[!IMPORTANT]
 >
->Es gibt erweiterte Workfront-Paketanforderungen, um arbeitsbereichsübergreifende Funktionen für Datensatztypen in Ihrem System aktivieren zu können. Weitere Informationen finden Sie unter [Adobe Workfront Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+>Ihr Unternehmen muss die folgenden Pakete erwerben, um arbeitsbereichsübergreifende Funktionen für Datensatztypen aktivieren zu können:
+>
+>* So konfigurieren Sie verbindbare Datensatztypen:
+>
+>   * Jedes Workfront-Paket und jedes Planungspaket
+>
+>     ODER
+>
+>   * Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket
+>* <span class="preview">So konfigurieren Sie globale Datensatztypen:</span>
+>  * <span class="preview">Beliebiges Workfront-Paket und Planning Plus-Paket</span>
+>     
+>    ODER
+>
+>  * <span class="preview">Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</span>
+>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.
+>Weitere Informationen finden Sie unter [Adobe Workfront Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 
 Im Folgenden finden Sie arbeitsbereichsübergreifende Funktionen von Datensatztypen:
@@ -45,7 +61,7 @@ Globale Datensatztypen können in Workfront Planning über einen zentralen oder 
 
 Bei der Implementierung von Workfront Planning für ein Unternehmen mit mehreren Teams mit gemeinsamen Workflows müssen Sie möglicherweise eine zusammenhängende Struktur und Metadaten für wichtige Datensatztypen (wie Kampagnen oder Ergebnisse) definieren, die den Arbeitsbereichen jedes Teams hinzugefügt werden können, um ihre Arbeit zu erfassen und zu verwalten.
 
-Außerdem benötigen Sie möglicherweise die Arbeit jedes Teams, um eine zentrale Ebene zu erreichen.
+Möglicherweise benötigen Sie auch die Arbeit jedes Teams, um eine zentrale Ebene zu erreichen.
 
 In einem solchen Workflow können Sie sicherstellen, dass Teams ihre Arbeit konsistent erfassen, während Sie die Team-übergreifende Sichtbarkeit erschließen, ohne dass alles zu einem Arbeitsbereich oder alle Personen in der Organisation zu jedem Arbeitsbereich hinzugefügt werden müssen. Sie können dazu globale Datensatztypen verwenden.
 

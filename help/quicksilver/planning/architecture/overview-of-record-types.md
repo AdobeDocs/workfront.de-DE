@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
 # Übersicht über Datensatztypen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Weitere Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstell
 * Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, denen Sie Zugriff auf den Arbeitsbereich gewähren, den Datensatztyp anzeigen.
 * Sie müssen einen Arbeitsbereich erstellen, bevor Sie Datensatztypen für den Arbeitsbereich erstellen können.
 * Einschränkungen dazu, wie viele Datensatztypen Sie in einer Workspace- oder Workfront-Instanz haben können, finden Sie unter [Übersicht über Adobe Workfront Planning-Objektbeschränkungen](/help/quicksilver/planning/general/limitations-overview.md).
+* <span class="preview">Sie können Datensatztypen als „global“ festlegen. Globale Datensatztypen können anderen Arbeitsbereichen als vorhandene Datensatztypen hinzugefügt werden. Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypsignatur](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
 
 
 <!--
