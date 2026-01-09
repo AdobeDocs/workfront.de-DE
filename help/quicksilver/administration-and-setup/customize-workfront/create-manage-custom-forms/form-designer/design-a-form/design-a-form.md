@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
 workflow-type: tm+mt
-source-wordcount: '6899'
+source-wordcount: '6941'
 ht-degree: 5%
 
 ---
@@ -106,9 +106,13 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten 
    >
    >Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechneten benutzerdefinierten Datenfeldern und mehreren Wertoptionen in einem einzigen Feld.
 
+   >[!NOTE]
+   >
+   >Wenn Sie ein vorhandenes Feld als inaktiv markieren, wird es von diesem Zeitpunkt an nicht mehr für die Verwendung in Berichtselementen und benutzerdefinierten Formularen verfügbar. Wenn das inaktive Feld derzeit in einem Bericht oder Formular verwendet wird, bleiben das Feld und seine historischen Daten erhalten.
+
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -280,7 +284,7 @@ Hinzufügen eines Textfelds:
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
-   Oder
+   ODER
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
@@ -288,7 +292,7 @@ Hinzufügen eines Textfelds:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -441,7 +445,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
-   Oder
+   ODER
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
@@ -449,7 +453,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -460,7 +464,7 @@ Sie können einem benutzerdefinierten Formular Felder für automatische Textverv
 +++ Erweitern Sie , um Beschreibungen der verfügbaren Felder anzuzeigen.
 
 * **typeahead**: Ermöglicht Benutzern, den Namen eines Objekts einzugeben, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn Benutzende mit der Eingabe beginnen. Dieser Feldtyp unterstützt die folgenden Objekte:
-   * Benutzerin bzw. Benutzer
+   * Benutzerin oder Benutzer
    * Gruppe
    * Aufgabengebiet
    * Portfolio
@@ -577,7 +581,7 @@ So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
-   Oder
+   ODER
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
@@ -585,7 +589,7 @@ So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -651,18 +655,18 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Kopfzeilen</td>
+      <td role="rowheader">Header</td>
       <td><p>Klicken Sie <strong>Kopfzeile hinzufügen</strong> und geben Sie dann das für die Authentifizierung mit der API erforderliche Schlüssel-Wert-Paar ein oder fügen Sie es ein.</p><p><strong>Hinweis:</strong> Die Header-Felder sind kein sicherer Ort zum Speichern von Anmeldeinformationen, und Sie sollten darauf achten, was Sie eingeben und speichern.</p></td>
      </tr>
      <tr> 
@@ -682,7 +686,7 @@ So fügen Sie eine externe Suche hinzu:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -775,7 +779,7 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
-   Oder
+   ODER
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
@@ -783,7 +787,7 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -799,7 +803,7 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
 1. Fügen Sie im benutzerdefinierten Formular, in dem Sie das Video-Widget hinzufügen, die kopierte Adresse in das Feld **URL** ein.
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -912,7 +916,7 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -965,7 +969,7 @@ Hinzufügen einer Adobe XD-Datei:
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Felder oder Widgets hinzuzufügen.
 
-   Oder
+   ODER
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
@@ -973,7 +977,7 @@ Hinzufügen einer Adobe XD-Datei:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
@@ -999,7 +1003,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
@@ -1061,7 +1065,7 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
 1. (Optional) Wiederholen Sie die vorherigen Schritte, um weitere Felder hinzuzufügen.
 
-   Oder
+   ODER
 
    Um ein Feld zu kopieren, bewegen Sie den Mauszeiger über ein Feld und klicken Sie auf das Kopiersymbol.
 
@@ -1069,7 +1073,7 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
 1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und schließen**.
 
