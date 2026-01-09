@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsum
 
 >[!NOTE]
 >
->Der Ausschluss aus Berichten, Filtern, Ansichten und Gruppierungen erfolgt, nachdem das Feld inaktiv geworden ist. Vorhandene Berichtselemente, die das Feld verwenden, werden nicht geändert oder entfernt, wenn das Feld als inaktiv markiert ist.
+>Wenn Sie ein vorhandenes Feld als inaktiv markieren, wird es von diesem Zeitpunkt an nicht mehr für die Verwendung in Berichtselementen und benutzerdefinierten Formularen verfügbar. Wenn das inaktive Feld derzeit in einem Bericht oder Formular verwendet wird, bleiben das Feld und seine historischen Daten erhalten.
 
 Wenn Sie ein benutzerdefiniertes Feld aus einem benutzerdefinierten Formular entfernen, ist es weiterhin in allen anderen Formularen vorhanden, denen es hinzugefügt wurde, und Sie können es in einem Formular oder im Bereich Felder bearbeiten. Informationen zum Löschen eines Felds finden Sie unter [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
