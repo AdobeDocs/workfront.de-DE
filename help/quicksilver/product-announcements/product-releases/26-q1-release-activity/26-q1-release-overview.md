@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2885'
 ht-degree: 5%
 
 ---
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Erstellte Objektverknüpfungen sind jetzt im Bereich Anfragen und im Widget Meine Anfragen verfügbar</a>
-            <p>Um Ihnen den Zugriff auf das von einer bestimmten Anfrage erstellte Objekt zu erleichtern, haben wir Links zur Spalte Erstelltes Objekt hinzugefügt. Jetzt können Sie auf den Link in dieser Spalte klicken, um direkt zur Seite des erstellten Objekts zu gelangen./p&gt;
+            <p>Um Ihnen den Zugriff auf das von einer bestimmten Anfrage erstellte Objekt zu erleichtern, haben wir Links zur Spalte Erstelltes Objekt hinzugefügt. Jetzt können Sie auf den Link in dieser Spalte klicken, um direkt zur Seite des erstellten Objekts zu gelangen.</p>
         </td>
         <td>Freitag, 18. Dezember 2025</td>
         <td>Donnerstag, 14. Januar 2026</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Freigeben von Ansichten im Bereich „Anfragen“ und im Widget „Meine Anfragen“</a>
-            <p>Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zum neuen Reporting-Erlebnis auszutauschen. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen. </p>
+            <p>Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zu dem neuen anfordernden Erlebnis auszutauschen. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen. </p>
         </td>
         <td>Freitag, 4. Dezember 2025</td>
         <td>Donnerstag, 14. Januar 2026</td>
@@ -602,7 +602,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
