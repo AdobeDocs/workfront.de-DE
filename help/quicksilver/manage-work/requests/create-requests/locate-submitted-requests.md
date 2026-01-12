@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 3%
+source-wordcount: '1512'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 ### Anzeigen gesendeter Anfragen in der neuen anfordernden Version
 
-Gesendete Anfragen können im Bereich Anfragen angezeigt werden (der <span class="preview"> Links zu Objekten enthält, die durch diese Anfragen erstellt wurden)</span>
+Gesendete Anfragen können im Bereich Anfragen angezeigt werden (der <span class="preview"> Links zu Objekten enthält, die von Planning-Anfragen erstellt wurden)</span>
 
 So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 
@@ -113,11 +113,15 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte Status überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
    * Entwurf: Diese Anfrage wurde noch nicht eingereicht.
-   * Überprüfung ausstehend
-   * Wird geprüft
-   * Abgelehnt
-   * In Arbeit
-   * Abgeschlossen
+   * Prüfung ausstehend: (Nur Planung) Diese Anforderung enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anforderung geöffnet.
+   * In Prüfung: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen.
+   * Abgelehnt: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt.
+   * In Bearbeitung:
+      * Workfront-Workflow: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
+      * Workfront Planning: Der Abschluss der Anfrage ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
+
+        Weitere Informationen finden Sie unter [Einrichten von Konfigurationsdetails](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) im Artikel Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning.
+   * Abgeschlossen: Die Anfrage wurde abgeschlossen.
 
 >[!NOTE]
 >
