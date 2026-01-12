@@ -1,5 +1,5 @@
 ---
-title: Übersicht über das Testprogramm für Adobe Workfront Planning
+title: Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planning
 description: Adobe Workfront bietet derzeit eine 60-Tage-Testversion von Adobe Workfront Planning an. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. In dieser Testversion erfahren Sie aus erster Hand, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Die Testversion ist zwischen den folgenden Daten verfügbar: 1. März bis 1. Mai
 
 >[!NOTE]
 >
->Die Workfront Planning-Testversion ist für aktuelle Workfront Planning-Kunden nicht verfügbar. Die Testversion ist eine Möglichkeit für Workfront-Kunden, die keine Workfront-Planung planen, Planning kennenzulernen, und zu sehen, wie die Gesamtstrategie mit der täglichen Arbeit verknüpft werden kann, die sie ermöglicht.
+>Die Workfront Planning-Testversion ist für aktuelle Workfront Planning-Kunden nicht verfügbar. Die Testversion bietet Kunden von Workfront <!-- is it Workfront or Adobe, or anyone-->, die keine Workfront-Planung durchführen, die Möglichkeit, Planning kennenzulernen und zu sehen, wie die Gesamtstrategie mit der täglichen Arbeit verknüpft werden kann, die sie ermöglicht.
 
 
 Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren.
@@ -62,7 +62,7 @@ Sie können die Vereinbarung vor dem Beginn der Testversion am 1. März 2026 üb
       1. Melden Sie sich bei Adobe Workfront als Systemadministrator an.
       1. Folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält**
 
-         Oder
+         ODER
 
          Gehen Sie zum Bereich **Workfront** Benachrichtigungen in der oberen rechten Ecke des Bildschirms und klicken Sie dann auf **Alle Ankündigungen** und suchen Sie die Ankündigungscenter-Nachricht zur Workfront Planning-Testversion.
       1. Klicken Sie **Testvereinbarung überprüfen**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
@@ -73,11 +73,11 @@ Sie können die Vereinbarung vor dem Beginn der Testversion am 1. März 2026 üb
       1. Melden Sie sich bei Adobe Workfront als Systemadministrator an.
       1. Folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält**
 
-         Oder
+         ODER
 
          Gehen Sie zum Bereich **Workfront** Benachrichtigungen in der oberen rechten Ecke des Bildschirms und klicken Sie dann auf **Alle Ankündigungen** und suchen Sie die Ankündigungscenter-Nachricht zur Workfront Planning-Testversion
 
-         Oder
+         ODER
 
          Navigieren Sie **Setup** > **System** > **Voreinstellungen**.
       1. (Bedingt) Wenn Sie sich im Bereich **Setup** befinden, gehen Sie zum Abschnitt **Andere Voreinstellungen** und klicken Sie dann auf **Testvereinbarung überprüfen**.

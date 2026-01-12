@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3165'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,26 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 </tbody> 
 </table> -->
 
+## Überlegungen beim Erstellen von Datensätzen
+
+<!--
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+
+* Je nach ihren Berechtigungen für den Arbeitsbereich und die Datensatztypen können Benutzer Datensätze wie folgt erstellen:
+
+   * Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich und den Datensatztyp können Datensätze nur mithilfe der Schaltfläche Datensatz anfordern auf der Seite Datensatztyp erstellen.
+   * Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich und den Datensatztyp können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
+
+  >[!IMPORTANT]
+  >
+  >Ein Workspace-Manager muss ein Anfrageformular für den Datensatztyp erstellen, damit Benutzer mit der Berechtigung Anzeigen Datensätze mithilfe eines Anfrageformulars hinzufügen können. Andernfalls können Benutzer mit Anzeigeberechtigung keine Datensätze erstellen.
+
+
 ## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
-
-Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich und den Datensatztyp können Datensätze nur mithilfe der Schaltfläche Datensatz anfordern auf der Seite Datensatztyp erstellen.
-
-Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich und den Datensatztyp können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
-
-
->[!IMPORTANT]
->
->Ein Workspace-Manager muss ein Anfrageformular für den Datensatztyp erstellen, damit Benutzer mit der Berechtigung Anzeigen Datensätze mithilfe eines Anfrageformulars hinzufügen können. Andernfalls können Benutzer mit Anzeigeberechtigung keine Datensätze erstellen.
 
 {{step1-to-planning}}
 
@@ -270,7 +280,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
    ODER
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -491,7 +501,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 

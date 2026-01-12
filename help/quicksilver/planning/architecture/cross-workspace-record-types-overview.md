@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,23 @@ In Adobe Workfront Planning können Sie Workspace-übergreifende Funktionen für
 >
 >Ihr Unternehmen muss die folgenden Pakete erwerben, um arbeitsbereichsübergreifende Funktionen für Datensatztypen aktivieren zu können:
 >
->* So konfigurieren Sie verbindbare Datensatztypen:
+>So konfigurieren Sie verbindbare Datensatztypen:
 >
->   * Jedes Workfront-Paket und jedes Planungspaket
 >
->     ODER
+>* Jedes Workfront-Paket und jedes Planungspaket
 >
->   * Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket
->* <span class="preview">So konfigurieren Sie globale Datensatztypen:</span>
->  * <span class="preview">Beliebiges Workfront-Paket und Planning Plus-Paket</span>
+>   ODER
+>
+>* Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket
+>
+><span class="preview">So konfigurieren Sie globale Datensatztypen:</span>
+>
+>* <span class="preview">Beliebiges Workfront-Paket und Planning Plus-Paket</span>
 >     
->    ODER
+>   ODER
 >
->  * <span class="preview">Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</span>
+>* <span class="preview">Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</span>
+>
 >Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.
 >Weitere Informationen finden Sie unter [Adobe Workfront Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
@@ -96,23 +100,36 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Bearbeiten
 
      Das Bearbeiten eines globalen Datensatztyps umfasst das Bearbeiten seines Erscheinungsbilds, seiner arbeitsbereichsübergreifenden Funktionen und aller im ursprünglichen Arbeitsbereich erstellten Felder.
+   * Freigeben
+
+     Durch die Freigabe eines Datensatztyps werden Benutzer zum Arbeitsbereich hinzugefügt und die Datensätze für diese Benutzer freigegeben.
+   * Löschen
+
+     Sie können einen globalen Datensatztyp erst aus seinem ursprünglichen Arbeitsbereich löschen, nachdem Sie alle Instanzen des Datensatztyps aus allen sekundären Arbeitsbereichen gelöscht haben, in denen er hinzugefügt wurde.
+
+     Weitere Informationen finden Sie unter [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md).
+   * Herstellen einer Verbindung von anderen Arbeitsbereichen
    * Anfrageformulare erstellen und verwalten
    * Automatisierungen erstellen und verwalten
 
-* Ein globaler Datensatztyp kann nur gelöscht werden, wenn er nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde. Sie müssen sie zunächst (durch Löschen) aus den sekundären Arbeitsbereichen entfernen, bevor Sie sie aus dem ursprünglichen Arbeitsbereich löschen können.
-
-  Weitere Informationen finden Sie unter [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md).
-* Die Datensätze, die Sie einem globalen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den Arbeitsbereich verfügen, in dem sie hinzugefügt wurden.
+* Die Datensätze, die Sie einem globalen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den Arbeitsbereich verfügen, in dem sie hinzugefügt wurden. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
 * Die Datensätze, die Sie aus einem sekundären Arbeitsbereich hinzufügen, werden aggregiert und im ursprünglichen Arbeitsbereich angezeigt. Alle Mitglieder des ursprünglichen Arbeitsbereichs erhalten Ansichtsberechtigungen für sie.
 * Wenn der ursprüngliche globale Datensatztyp mehreren sekundären Arbeitsbereichen hinzugefügt wird, existieren die folgenden Szenarien:
 
    * Mitglieder des ursprünglichen Arbeitsbereichs erhalten automatisch Ansichtsberechtigungen für alle Datensätze, die aus einem Arbeitsbereich hinzugefügt wurden, selbst wenn sie nicht Mitglieder dieser Arbeitsbereiche sind.
-   * Sekundäre Arbeitsbereichsmitglieder können nur Datensätze aus Arbeitsbereichen anzeigen, in denen sie Mitglied sind.
-* Die verbundenen Datensatztypen eines globalen Datensatztyps werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
+   * Sekundäre Arbeitsbereichsmitglieder können nur Datensätze aus Arbeitsbereichen anzeigen, in denen sie Mitglied sind. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+
+* Die mit einem globalen Datensatztyp verbundenen Datensatztypen werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
 
   Wenn Sie beispielsweise über einen globalen Campaign-Datensatztyp verfügen, der eine Verbindung mit dem Datensatztyp Regionen aufweist, und Sie den Campaign-Datensatztyp einem sekundären Arbeitsbereich hinzufügen, werden Regionen vom sekundären Arbeitsbereich aus arbeitsbereichsübergreifend verbindbar. Die Mitglieder des sekundären Arbeitsbereichs können jetzt Kampagnen erstellen und sie mit Regionen verknüpfen.
 
-* Felder, die für einen globalen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird. Sie können Feldeinstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten. Die Einstellungen der im ursprünglichen Arbeitsbereich erstellten Felder sind in den sekundären Arbeitsbereichen für alle Mitglieder schreibgeschützt, unabhängig von ihren Berechtigungen für den sekundären Arbeitsbereich. Sekundär Workspace-Manager können die Feldeinstellungen für Felder, die im ursprünglichen Workspace konfiguriert wurden, nicht ändern. Nur die Arbeitsbereich-Manager des ursprünglichen Arbeitsbereichs können die Feldeinstellungen im ursprünglichen Arbeitsbereich ändern.
+* Felder, die für einen globalen Datensatztyp aus dem ursprünglichen Arbeitsbereich erstellt wurden, sind in allen Arbeitsbereichen sichtbar, in denen der Datensatztyp hinzugefügt wird.
+
+  Sie können Feldeinstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
+
+  Die Einstellungen der im ursprünglichen Arbeitsbereich erstellten Felder sind in den sekundären Arbeitsbereichen für alle Mitglieder schreibgeschützt, unabhängig von ihren Berechtigungen für den sekundären Arbeitsbereich.
+
+  Sekundär Workspace-Manager können die Feldeinstellungen für Felder, die im ursprünglichen Workspace konfiguriert wurden, nicht ändern. Nur die Arbeitsbereich-Manager des ursprünglichen Arbeitsbereichs können die Feldeinstellungen im ursprünglichen Arbeitsbereich ändern.
 
 ### Überlegungen zu globalen Datensatztypen in einem sekundären Arbeitsbereich
 
@@ -133,23 +150,28 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
 
      Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
+<!--Uncomment this at prod on Jan 15: * Share it-->
 
-     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
+<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
 
-  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
-    * Add new fields
-        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it
-    * Add request forms to it
-    * Add automations to it-->
+    * Users are added to the workspace with View permissions.
+    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
+
+<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+
+<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+* Add new fields
+    Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+* Add request forms to it
+* Add automations to it-->
 
 * Kein Benutzer kann die folgenden Aktionen für einen globalen Datensatztyp in einem sekundären Arbeitsbereich ausführen:
 
    * Bearbeiten
 
      Sie können weder sein Erscheinungsbild noch seine Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace hinzugefügt wurden.
-   * Freigeben
+   * <!-- remove this at Prod on Jan 15--> freigeben
    * Anfrageformulare erstellen und verwalten
    * Automatisierungen erstellen und verwalten
 
@@ -159,11 +181,17 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Der ursprüngliche Arbeitsbereich des globalen Datensatztyps.
    * Alle anderen Arbeitsbereiche, bei denen der globale Arbeitsbereich hinzugefügt wird.
 
+  <!--replace he above bullet with this: 
+        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
+        * The secondary place where they were added
+        * The global record type's original workspace
+    -->
+
 * Die folgenden Szenarien existieren für Datensätze, die in sekundären Arbeitsbereichen erstellt wurden:
 
    * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Arbeitsbereich und keine Berechtigungen für sekundäre Arbeitsbereiche verfügen, können Sie Datensätze anzeigen, die von den sekundären Arbeitsbereichen im ursprünglichen Arbeitsbereich hinzugefügt wurden. Sie können diese jedoch nicht über den ursprünglichen Arbeitsbereich verwalten.
    * Wenn Sie über Verwaltungsberechtigungen für den sekundären Arbeitsbereich verfügen, können Sie die Datensätze sowohl aus dem ursprünglichen Arbeitsbereich des globalen Datensatztyps als auch aus dem sekundären Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
-   * Sie können die Datensätze in zusätzlichen sekundären Arbeitsbereichen anzeigen, bei denen der globale Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen.
+   * Sie können die Datensätze in zusätzlichen sekundären Arbeitsbereichen anzeigen, bei denen der globale Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen. <!-- take this bullet out when we change this functionality on Jan 15-->
 
 ### Zugriff auf die Verbindungen eines globalen Datensatztyps
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -50,7 +50,7 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -127,7 +127,7 @@ And
    >
    >Wenn keine Datensatztypen zum Hinzufügen zu anderen Arbeitsbereichen in Ihrem System konfiguriert sind, wird die Option **Vorhandene hinzufügen** nicht angezeigt.
 
-1. Klicken Sie auf **Continue**.
+1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
    Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** wird ![](assets/global-icon.png) auf der Karte des Datensatztyps angezeigt.
@@ -138,7 +138,7 @@ And
 
       * Alle Originalfelder
       * Alle Datensatzverbindungen
-   * Sie können Datensätze, die von anderen Arbeitsbereichen mit demselben globalen Datensatztyp hinzugefügt wurden, nur anzeigen, wenn Sie mindestens über die Berechtigung zum Anzeigen dieser Arbeitsbereiche verfügen.
+   * Sie können Datensätze, die von anderen Arbeitsbereichen mit demselben globalen Datensatztyp hinzugefügt wurden, nur anzeigen, wenn Sie mindestens über die Berechtigung zum Anzeigen dieser Arbeitsbereiche verfügen. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * Das schreibgeschützte Feld **Workspace** wird der neuen Tabellenansicht vom Typ Datensatz hinzugefügt. Das Feld zeigt den Arbeitsbereich an, in dem die einzelnen Datensätze erstellt wurden.
 
      >[!NOTE]
