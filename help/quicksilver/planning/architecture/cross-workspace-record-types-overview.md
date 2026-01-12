@@ -171,7 +171,7 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Bearbeiten
 
      Sie können weder sein Erscheinungsbild noch seine Workspace-übergreifenden Funktionen oder die Felder bearbeiten, die aus dem ursprünglichen Workspace hinzugefügt wurden.
-   * <!-- remove this at Prod on Jan 15--> freigeben
+   * &#x200B;<!-- remove this at Prod on Jan 15--> freigeben
    * Anfrageformulare erstellen und verwalten
    * Automatisierungen erstellen und verwalten
 
