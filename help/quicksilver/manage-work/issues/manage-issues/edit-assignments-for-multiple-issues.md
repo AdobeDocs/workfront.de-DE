@@ -6,10 +6,10 @@ description: Ändern von Benutzerzuweisungen für mehrere Probleme in einer List
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td> <p>Standard</p>
+   <td> <p>Mitwirkender oder höher</p>
    <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 

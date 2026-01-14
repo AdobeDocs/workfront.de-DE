@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Nachdem die Verbindungsfelder erstellt wurden, können Sie einzelne Datensätze 
 
 >[!NOTE]
 >
-><span class="preview">Sie können bis zu 30 Verbindungsfelder für einen Datensatztyp haben.</span>
+>Sie können bis zu 30 Verbindungsfelder für einen Datensatztyp haben.
 
 In diesem Artikel wird beschrieben, wie Sie zwei Workfront Planning-Datensatztypen oder einen Workfront Planning-Datensatztyp mit einem Objekt aus einer anderen Anwendung verbinden können.
 
@@ -89,7 +89,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
      >[!TIP]
      >
-     >Die Einstellung **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** muss für einen Datensatztyp im Feld **Erweiterte Einstellungen** <span class="preview">oder auf der Registerkarte **Arbeitsbereichsübergreifende Einstellungen**</span> des Felds **Datensatztyp bearbeiten** aktiviert sein, damit ein Datensatztyp von anderen Arbeitsbereichen aus zugänglich ist. Wenn es keine Datensatztypen gibt, die für die Verbindung von anderen Arbeitsbereichen konfiguriert sind, wird der Abschnitt Arbeitsbereich nicht angezeigt.
+     >Die Einstellung **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** muss für einen Datensatztyp auf der Registerkarte **Erweiterte Einstellungen** oder **Arbeitsbereichsübergreifende Einstellungen** des Felds **Datensatztyp bearbeiten** aktiviert sein, damit ein Datensatztyp von anderen Arbeitsbereichen aus zugänglich ist. Wenn es keine Datensatztypen gibt, die für die Verbindung von anderen Arbeitsbereichen konfiguriert sind, wird der Abschnitt Arbeitsbereich nicht angezeigt.
      >
      >Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    >[!TIP]
    >
-   >* Zusätzlich zu <span class="preview">Beschränkung von 30 Verbindungsfeldern für einen Datensatztyp</span> gibt es eine Beschränkung von 500 Feldern für einen Datensatztyp. Es wird empfohlen, diese Einstellung deaktiviert zu lassen, insbesondere für taxonomische Datensatztypen, um ein Erreichen dieser Grenze zu vermeiden.
+   >* Zusätzlich zu der Beschränkung von 30 Verbindungsfeldern für einen Datensatztyp gibt es eine Beschränkung von 500 Feldern für einen Datensatztyp. Es wird empfohlen, diese Einstellung deaktiviert zu lassen, insbesondere für taxonomische Datensatztypen, um ein Erreichen dieser Grenze zu vermeiden.
    >
-   >* <span class="preview">Die Auswahl des Felds **Entsprechendes Feld für verknüpften Datensatztyp erstellen** ist eine Voraussetzung für die Erstellung von Hierarchien.</span>
+   >* Die Auswahl **Felds „Entsprechendes Feld für verknüpften Datensatztyp erstellen** ist eine Voraussetzung für die Erstellung von Hierarchien.
 
 1. (Bedingt) Wenn Sie **Entsprechendes Feld für verknüpften Datensatztyp erstellen** aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
@@ -279,7 +279,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:
@@ -309,6 +309,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
    >
    >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
+   >* In der Produktionsumgebung können Sie keine Personenfelder als Lookup-Felder hinzufügen. <span class="preview">Sie können Personenfelder als Suchfelder in der Vorschau-Umgebung hinzufügen.</span>
+   >
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -407,7 +409,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
      >[!TIP]
      >
      > Ein verknüpftes Datensatzfeld wird für Objekte aus einem anderen Programm in den jeweiligen Programmen nicht erstellt.
-     >Es wird empfohlen, keine Links zu taxonomischen Datensatztypen zu erstellen, da es für jeden Datensatztyp eine Beschränkung von 500 Feldern <span class="preview"> zusätzlich zu der Beschränkung von 30 verbundenen </span> gibt.
+     >Es wird empfohlen, keine Links zu taxonomischen Datensatztypen zu erstellen, da es zusätzlich zu der Beschränkung von 30 verbundenen Feldern für jeden Datensatztyp eine Beschränkung von 500 Feldern gibt.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

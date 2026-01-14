@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Workspace-Hierarchien erstellen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen Datensatztypen erstellen.
 
@@ -125,7 +125,7 @@ Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen
 
 1. (Bedingt) Wenn das Feld **Entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, wird ein Fehler angezeigt und Sie müssen zunächst Folgendes tun: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
-   1. Klicken Sie **&#x200B;**&#x200B;Feld **Neue Hierarchie** auf „Abbrechen“.
+   1. Klicken Sie **** Feld **Neue Hierarchie** auf „Abbrechen“.
    1. Klicken Sie links neben dem Arbeitsbereichsnamen auf den Rückwärtspfeil und dann auf die Karte des Datensatztyps, den Sie als übergeordneten Datensatz auswählen möchten.
    1. Öffnen Sie die Tabellenansicht des Datensatztyps, den Sie im obigen Schritt ausgewählt haben, wechseln Sie dann zum Verbindungsfeld mit dem Objekttyp, den Sie als untergeordnetes Element verwenden möchten, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf **Bearbeiten** Feld.
    1. Aktivieren Sie die Einstellung **entsprechendes Feld für verknüpften Datensatztyp erstellen** und klicken Sie dann auf **Speichern**.

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -39,14 +39,9 @@ In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie die Adobe
 * [Arbeitsbereiche löschen](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [Übersicht über arbeitsbereichsübergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Konfigurieren des Bereichs Einstellungen eines Datensatztyps](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
-* [Übersicht über Hierarchien und Breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Übersicht über Hierarchie und Breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Workspace-Hierarchien erstellen](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
-
-</div>

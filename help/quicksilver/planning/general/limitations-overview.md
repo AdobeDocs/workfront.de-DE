@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '464'
 ht-degree: 4%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 # Übersicht über Adobe Workfront Planning-Objektbeschränkungen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 25.000 |
 | Anzahl der Spalten, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 500 |
 | Anzahl der Formelfelder für einen Datensatztyp | 20 |
-| <span class="preview">Anzahl der Verbindungsfelder für einen Datensatztyp</span> | <span class="preview">30 </span> |
+| Anzahl der Verbindungsfelder für einen Datensatztyp | 30 |
 | Anzahl der Zeichen in einem Formelfeldausdruck | 50.000 |
 | Anzahl der Entitäten (Benutzer, Rollen, Teams, Unternehmen, Gruppen), für die Sie ein Planning-Objekt freigeben können | 100 |
-| <span class="preview">Anzahl der Datensatztypen in einer Hierarchie</span> | 4 |
-| <span class="preview">Anzahl der Hierarchien in einem Arbeitsbereich</span> | 5 |
-| <span class="preview">Anzahl der Datensätze eines übergeordneten Datensatztyps, die mit einem Datensatz eines untergeordneten Datensatztyps verbunden sind, innerhalb einer Hierarchie</span> | 10 |
-| Anzahl an Datensätzen, die mit einem Datensatz in einem Mehrfachauswahl-Verbindungstyp verbunden sind <span class="preview">ohne eine zwischen den Datensätzen konfigurierte Hierarchie</span> | 500 |
+| Anzahl der Datensatztypen in einer Hierarchie | 4 |
+| Anzahl der Hierarchien in einem Arbeitsbereich | 5 |
+| Anzahl der Datensätze eines übergeordneten Datensatztyps, die mit einem Datensatz eines untergeordneten Datensatztyps verbunden sind, innerhalb einer Hierarchie | 10 |
+| Anzahl der mit einem Datensatz verbundenen Datensätze bei einem Mehrfachauswahl-Verbindungstyp, ohne dass eine Hierarchie zwischen den Datensätzen konfiguriert ist | 500 |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 
