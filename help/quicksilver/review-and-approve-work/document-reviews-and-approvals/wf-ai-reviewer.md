@@ -7,18 +7,19 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
 # Erste Schritte mit dem Workfront AI Reviewer
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Diese Funktion befindet sich derzeit in der Betaphase.
+
 
 Mit dem Workfront AI Reviewer können Sie die Inhaltsgeschwindigkeit erhöhen und die Markenkonformität im Prüfungs- und Genehmigungs-Workflow optimieren. Sie können in Workfront KI-Reviewer zu Genehmigungsvorlagen oder individuellen Prüfungs- und Genehmigungsanfragen hinzufügen.
 
@@ -28,12 +29,11 @@ Um KI-Reviewer in Workfront einzurichten, müssen Sie Systemadministrator sein.
 
 Jeder Benutzer kann den KI-Reviewer zu einer Überprüfungs- und Genehmigungsanfrage hinzufügen.
 
-
 ## Voraussetzungen
 
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
 * Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
-* Ihr Unternehmen muss über GenStudio Foundation verfügen.
+  <!--* Your organization must have GenStudio Foundation.-->
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,12 +60,14 @@ Wenn Sie einen nicht unterstützten Dateityp hochladen, wird die Option „KI-Re
 
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien von Genstudio Foundation. Derzeit können Sie nur Markenrichtlinien für Bilder einrichten. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien. Workfront-Administratoren können im Bereich &quot;Workfront-Setup“ Markenrichtlinien einrichten. &lt;!- In GenStudio Foundation erstellte Marken sind auch in Workfront verfügbar.
+
+Weitere Informationen finden Sie unter [Einrichten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## KI-Reviewer erstellen
 
-Sobald mindestens eine Marke in GenStudio Foundation eingerichtet ist, können Workfront-Administratoren im Bereich „Setup“ mit der Erstellung von KI-Reviewern beginnen. Diese KI-Reviewer können dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zugewiesen werden. Zurzeit können KI-Prüfer nur anhand von Richtlinien für Bild- und Markenbezeichnungen überprüfen.
+Sobald mindestens eine Marke eingerichtet ist, können Workfront-Administratoren im Bereich „Setup“ mit der Erstellung von KI-Reviewern beginnen. Diese KI-Reviewer können dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zugewiesen werden. Zurzeit können KI-Prüfer nur anhand von Richtlinien für Bild- und Markenbezeichnungen überprüfen.
 
 Weitere Informationen finden Sie unter [KI-Reviewer erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -73,7 +75,7 @@ Weitere Informationen finden Sie unter [KI-Reviewer erstellen](/help/quicksilver
 
 Benutzer können KI-Reviewer zu vorhandenen Genehmigungsvorlagen oder zu individuellen Prüfungs- und Genehmigungsanfragen hinzufügen.
 
-### Validierungsvorlagen
+### Genehmigungsvorlagen
 
 Wenn in Ihrem Unternehmen häufig dieselben Personen an Prüfungs- und Genehmigungsanfragen beteiligt sind, können Benutzer von Standardlizenzen im Bereich &quot;Workfront-Setup“ Genehmigungsvorlagen erstellen.
 
@@ -110,6 +112,6 @@ Weitere Informationen zum Anzeigen von Bewertungen und Feedback finden Sie unter
 ![KI-Reviewer-Feedback](assets/ai-reviewer-feedback.png)
 
 
-## Videoanleitung
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->

@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: KI-Reviewer erstellen
-description: Nachdem Sie mindestens eine Marke in GenStudio Foundation eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
+description: Nachdem Sie mindestens eine Marke in Workfront eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 3%
+source-wordcount: '246'
+ht-degree: 10%
 
 ---
 
@@ -20,15 +20,12 @@ ht-degree: 3%
 >
 >Diese Funktion befindet sich derzeit in der Betaphase.
 
-Nachdem Sie mindestens eine Marke in GenStudio Foundation eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
+Nachdem Sie mindestens eine Marke in Workfront eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
 
->[!NOTE]
->
->Der KI-Reviewer ist nicht als Entscheidungsträger im Überprüfungs- und Genehmigungs-Workflow vorgesehen. Es werden nur eine Bewertung und Empfehlungen bereitgestellt, um das Asset an den festgelegten Markenanforderungen auszurichten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,11 +52,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie in GenStudio Foundation Richtlinien für die Bild-Markendarstellung einrichten.
-
-Weitere Informationen zu den Richtlinien für Bildmarken finden Sie unter [Erste Schritte mit Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Bevor Sie beginnen, müssen Sie in Workfront Richtlinien für die Bild-Markendarstellung einrichten. Weitere Informationen finden Sie unter [Einrichten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Hinzufügen eines KI-Reviewers
+
+>[!NOTE]
+>
+>Der KI-Reviewer ist nicht als Entscheidungsträger im Überprüfungs- und Genehmigungs-Workflow vorgesehen. Es werden nur eine Bewertung und Empfehlungen bereitgestellt, um das Asset an den festgelegten Markenanforderungen auszurichten.
+
+So fügen Sie einen KI-Reviewer hinzu:
 
 {{step-1-to-setup}}
 
