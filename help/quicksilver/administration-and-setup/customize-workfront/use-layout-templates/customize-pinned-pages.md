@@ -8,18 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
 
 # Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage
 
-{{preview-fast-release-general}}
-
-In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen &#x200B;](assets/main-menu-icon-left-nav.png), falls verfügbar, oder um Dashboards.
+In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen ](assets/main-menu-icon-left-nav.png), falls verfügbar, oder um Dashboards.
 
 Alle Pins, die von Ihren Benutzerinnen und Benutzern eigenständig hinzugefügt wurden, werden rechts neben den Pins angezeigt, die Sie der Layout-Vorlage hinzufügen.
 
@@ -27,7 +25,7 @@ Weitere Informationen zum Anheften von Seiten finden Sie unter [Seiten anheften,
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -102,7 +100,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Klicken Sie **Dashboard hinzufügen**
       * Geben Sie einen beschreibenden Namen in das Feld <!--**Quick link name**-->**Benutzerdefinierter Name** ein
-      * Wählen Sie ein Dashboard im **&#x200B;**&#x200B;Dashboard hinzufügen<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> aus
+      * Wählen Sie ein Dashboard im **** Dashboard hinzufügen<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> aus
       * Klicken Sie auf **Hinzufügen**.
 
 1. Wiederholen Sie diesen Schritt, um alle weiteren Seiten anzuheften.
@@ -113,18 +111,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. (Optional) Um eine Nadel zu löschen, bewegen Sie den Mauszeiger über die Nadel und klicken Sie auf das Menüsymbol ![Mehr](assets/more-icon.png) neben dem Namen der Nadel. Klicken Sie dann auf **Nadel entfernen**.
 
-1. <span class="preview">In der Vorschau-Umgebung: Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.</span>
+1. Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.
 
-   <span class="preview">ODER</span>
+   ODER
 
-   <span class="preview">Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.</span>
-
-1. In der Produktionsumgebung: Passen Sie die Layout-Vorlage weiter an.
-
-   Oder
-
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
-
-   >[!TIP]
-   >
-   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.

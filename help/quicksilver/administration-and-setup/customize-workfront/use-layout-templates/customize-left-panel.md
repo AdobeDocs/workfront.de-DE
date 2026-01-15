@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 2%
 
 ---
 
 # Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -33,7 +31,7 @@ Sie können beispielsweise festlegen, welches der folgenden Elemente Benutzern i
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -88,39 +86,39 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL -Projekt]</td> 
+      <td>[!UICONTROL-Projekt]</td> 
       <td>Der Name eines Projekts</td> 
       <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Abrechnungssätze], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL Auslastung], [!UICONTROL Auslastung], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Aufgabe]</td> 
+      <td>[!UICONTROL Aufgabe]</td> 
       <td>Der Name einer Aufgabe</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Task Details], [!UICONTROL -Teilaufgabe], [!UICONTROL -Probleme], [!UICONTROL Hours], [!UICONTROL -Zulassungen], [!UICONTROL -Ausgaben], [!UICONTROL -Vorgänger], [!UICONTROL Custom Applikation]**</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Aufgabendetails], [!UICONTROL-Unteraufgabe], [!UICONTROL-Probleme], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-Ausgaben], [!UICONTROL-Vorgänger], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problem]</td> 
       <td>Der Name eines Problems</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL -Problem Details], [!UICONTROL Hours], [!UICONTROL -Zulassungen], [!UICONTROL Custom Applikation]**</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Problemdetails], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
-      <td>Der Name einer Portfolio</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programme], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL -Optimierung], [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Planung]*, [!UICONTROL Custom Applikation]**</td> 
+      <td>Der Name eines Portfolios</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programme], [!UICONTROL Portfolio-Details], [!UICONTROL Portfolio] [!UICONTROL-Optimierung], [!UICONTROL-Dokumente], [!UICONTROL-Updates], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Programm]</td> 
-      <td>Der Name eines Programm</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programmdetails], [!UICONTROL -Updates], [!UICONTROL -Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL Programm]</td> 
+      <td>Der Name eines Programms</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programmdetails], [!UICONTROL-Updates], [!UICONTROL-Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Vorlage]</td> 
+      <td>[!UICONTROL-Vorlage]</td> 
       <td>Der Name einer Projektvorlage</td> 
       <td>[!UICONTROL Vorlagenaufgaben], [!UICONTROL Vorlagendetails], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Risiken], [!UICONTROL Ausgaben], [!UICONTROL Personen], [!UICONTROL Genehmigungen], [!UICONTROL Abrechnungssätze], [!UICONTROL Warteschlangendetails], [!UICONTROL Routing-Regeln], [!UICONTROL Warteschlangenthema], [!UICONTROL Themengruppe]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlagenaufgabe]</td> 
       <td>Der Name einer Vorlagenaufgabe</td> 
-      <td>[!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Vorlage Task Details], [!UICONTROL -Teilaufgaben], [!UICONTROL -Ausgaben], [!UICONTROL -Zulassungen], [!UICONTROL -Vorgänger]</td>
+      <td>[!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Vorlagenaufgabendetails], [!UICONTROL-Teilaufgaben], [!UICONTROL-Ausgaben], [!UICONTROL-Genehmigungen], [!UICONTROL-Vorgänger]</td>
      </tr>
      <!--
       <tr> 
@@ -130,19 +128,19 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL -Abrechnungsdatensatz]</td> 
-      <td>Der Name eines Abrechnung Datensatzes für ein Projekt</td> 
-      <td>[!UICONTROL Billing Record Details], [!UICONTROL Fakturierbare Stunden], [!UICONTROL Fakturierbare Ausgaben], [!UICONTROL Fest Einnahmen]</td> 
+      <td> [!UICONTROL Rechnungsnachweis]</td> 
+      <td>Der Name eines Rechnungsnachweises für ein Projekt</td> 
+      <td>[!UICONTROL Rechnungsnachweis-Details], [!UICONTROL Fakturierbare Stunden], [!UICONTROL Fakturierbare Ausgaben], [!UICONTROL Feste Einnahmen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Projekte]</td> 
-      <td>Projekte <img src="assets/projects-in-main-menu.png"> im [!UICONTROL Hauptmenü] <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL -Projekte]</td> 
+      <td>[!UICONTROL Projekte]</td> 
+      <td>Im [!UICONTROL-Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL Projekte]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Anfragen]</td> 
+      <td>[!UICONTROL-Anforderungen]</td> 
       <td>Der Name einer Anfrage</td> 
-      <td>[!UICONTROL Neu Anfrage], [!UICONTROL Übermittelte Anfragen], [!UICONTROL Alle Anforderungen], [!UICONTROL -Entwürfe]</td> 
+      <td>[!UICONTROL Neue Anfrage], [!UICONTROL Gesendete Anfragen], [!UICONTROL Alle Anfragen], [!UICONTROL Entwürfe]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
@@ -152,7 +150,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      <tr> 
       <td>[!UICONTROL Scrum-Team]</td> 
       <td>Der Name eines Scrum-Teams</td> 
-      <td><p>[!UICONTROL -Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL -Aktualisierungen], [!UICONTROL -Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
+      <td><p>[!UICONTROL-Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL-Aktualisierungen], [!UICONTROL-Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban-Team]</td> 
@@ -229,28 +227,18 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. (Optional) Wenn Sie ein Element im linken Bedienfeld hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Dashboard hinzufügen]**, geben Sie den **[!UICONTROL Schnellverknüpfungsnamen]** für das Element ein und wählen Sie dann das Dashboard aus.
 
-   Sie müssen die Dashboard Build, bevor sie im Liste angezeigt wird.
+   Sie müssen das Dashboard erstellen, bevor es in der Liste angezeigt wird.
 
-   Dashboard-Elemente werden am unteren Rand des linken Fensters angezeigt.
+   Dashboard-Elemente werden am unteren Rand des linken Bedienfelds angezeigt.
 
    >[!NOTE]
    >
-   >Benutzer können benutzerdefinierte Dashboard Elemente zu ihrem eigenen linken Bereich hinzufügen. Wenn Sie benutzerdefinierte Dashboard Elemente in einem Layout-Vorlage hinzufügen, werden Ihre Elemente zusätzlich zu den hinzugefügten Elementen angezeigt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzende einer neuen Layout-Vorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen zum Anpassen des linken Bereichs durch Benutzende finden Sie unter [Hinzufügen eines Dashboards im linken Bereich eines Workfront-Objekts oder -Bereichs](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Benutzer können benutzerdefinierte Dashboard-Elemente zu ihrem eigenen linken Bedienfeld hinzufügen. Wenn Sie einer Layout-Vorlage benutzerdefinierte Dashboard-Elemente hinzufügen, werden Ihre Elemente zusätzlich zu den hinzugefügten Elementen angezeigt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzende einer neuen Layout-Vorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen zum Anpassen des linken Bereichs durch Benutzende finden Sie unter [Hinzufügen eines Dashboards im linken Bereich eines Workfront-Objekts oder -Bereichs](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >Weitere Informationen zu Dashboards finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. <span class="preview">Im Vorschau Umgebung: Fortsetzen Anpassen des Layouts Vorlage. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.</span>
+1. Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.
 
-   <span class="preview">ODER</span>
+   ODER
 
-   <span class="preview">Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.</span>
-
-1. In der Produktionsumgebung: Passen Sie die Layout-Vorlage weiter an.
-
-   Oder
-
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
-
-   >[!TIP]
-   >
-   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '532'
 ht-degree: 3%
 
 ---
 
 # Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage
-
-{{preview-fast-release-general}}
 
 Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Felder zu konfigurieren, die Benutzende in der Kopfzeile des Objekts sehen, wenn sie die Seite eines Objekts öffnen.
 
@@ -29,7 +27,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -70,10 +68,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Bewegen Sie [!UICONTROL &#x200B; Abschnitt &#x200B;]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
+1. Bewegen Sie [!UICONTROL  Abschnitt ]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf das **x**-Symbol, um ein Feld zu entfernen
 
-     Oder
+     ODER
 
    * Klicken Sie auf das **grab**-Symbol und halten Sie es gedrückt, um das Feld per Drag-and-Drop an eine neue Position zu ziehen.
 
@@ -97,18 +95,9 @@ Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen,
 
 1. (Optional) Ziehen Sie die Felder in eine andere Reihenfolge.
 
-1. <span class="preview">In der Vorschau-Umgebung: Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.</span>
+1. Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.
 
-   <span class="preview">ODER</span>
+   ODER
 
-   <span class="preview">Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.</span>
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.
 
-1. In der Produktionsumgebung: Passen Sie die Layout-Vorlage weiter an.
-
-   Oder
-
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
-
-   >[!TIP]
-   >
-   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.

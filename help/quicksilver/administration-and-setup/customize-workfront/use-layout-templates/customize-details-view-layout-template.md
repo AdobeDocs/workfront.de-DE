@@ -8,28 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
 # Anpassen der Detailansicht mithilfe einer Layout-Vorlage
 
-{{preview-fast-release-general}}
-
-Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![&#x200B; das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
-
-<!--
-or billing record
--->
+Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![ das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
 
 Sie können auch die Reihenfolge der Informationen ändern, in der diese Informationen angezeigt werden. Sie können beispielsweise für alle Aufgaben, die Ihren Benutzerinnen und Benutzern angezeigt werden, benutzerdefinierte Forms-Informationen für alle Aufgaben, die Ihren Benutzerinnen und Benutzern angezeigt werden, an den Anfang der Detailansicht verschieben.
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -63,11 +57,11 @@ Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimm
 
   ![Problem in Aufgabenfeld konvertieren](assets/convert-issue-to-task-box.png)
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,24 +102,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
      Alle Felder sind standardmäßig aktiviert. Sie können das Kontrollkästchen **Alle auswählen** in einem Bereich aktivieren oder deaktivieren, um alle Felder in diesem Bereich ein- oder auszublenden.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-   ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view-updated-save-buttons.png)
+     ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view-updated-save-buttons.png)
 
-   Beispielbild in der Produktionsumgebung:
-   ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view.png)
+1. Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.
 
-1. <span class="preview">In der Vorschau-Umgebung: Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.</span>
+   ODER
 
-   <span class="preview">ODER</span>
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.
 
-   <span class="preview">Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.</span>
-
-1. In der Produktionsumgebung: Passen Sie die Layout-Vorlage weiter an.
-
-   Oder
-
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
-
-   >[!TIP]
-   >
-   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
