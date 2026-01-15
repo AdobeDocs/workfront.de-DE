@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -66,7 +66,7 @@ So suchen Sie den Cluster Ihrer Organisation:
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres &#x200B;](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Der Zulassungsliste hinzuzufügende IP-Adressen
 
@@ -124,13 +124,16 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 1, 2, 3, 5, 7, 8 oder 9 befindet,
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>Informationen zu den folgenden IP-Adressen finden Sie unter <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1</a></p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 4 befindet, fügen Sie die folgen
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-Informationen zu den folgenden IP-Adressen finden Sie unter [Neue IP-Adressen für Adobe Workfront-E-Mails mit Version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### IP-Adressen, die Cluster 6 zulassen {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 6 befindet, fügen Sie die folgen
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 6 befindet, fügen Sie die folgen
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### IP-Adressen, die Cluster 11 zulassen
+
+Um E-Mails von der Workfront-Anwendung auf Cluster 11 zu erhalten, fügen Sie die folgenden IP-Adressen hinzu:
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### IP-Adressen, um eine Testfahrt zu ermöglichen
 
