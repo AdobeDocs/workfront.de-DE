@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '5487'
+source-wordcount: '5427'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -64,7 +64,7 @@ Weitere Informationen zu Workfront Planning-Feldern finden Sie unter [Feldübers
    <td> 
 <ul> 
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -179,7 +179,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -210,7 +210,7 @@ Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/qui
 
 1. Klicken Sie oben rechts in der Tabellenansicht auf das Symbol **+** .
 
-   Oder
+   ODER
 
    Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** um das neue Feld hinzuzufügen.
 1. Suchen Sie auf **Registerkarte** Neues Feld“ im Feld **Feldtyp** nach einem Feldtyp, oder wählen Sie einen der folgenden Feldtypen aus:
@@ -319,7 +319,7 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
 1. Klicken Sie auf **Farbfelder**, um eine vordefinierte Farbe auszuwählen
 
-   Oder
+   ODER
 
    Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe einer Farbauswahl oder eines Hexadezimalcodes auszuwählen.
 1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
@@ -327,20 +327,20 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
    Das neue Mehrfachauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
-1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über den Feldnamen in der Tabellenansicht, klicken Sie auf das Dropdown-Menü rechts neben dem Feldnamen und dann auf **Feld bearbeiten**.</span>
-1. <span class="preview">Aktivieren Sie die Einstellung **Werte anzeigen**, um die Werte für jede Auswahl anzuzeigen. Die Werte sind die Namen der einzelnen Auswahlmöglichkeiten, wie sie in der Workfront-Datenbank angezeigt werden. </span>
+1. (Optional) Bewegen Sie den Mauszeiger über den Feldnamen in der Tabellenansicht, klicken Sie auf das Dropdown-Menü rechts neben dem Feldnamen und dann auf **Feld bearbeiten**.
+1. Aktivieren Sie die Einstellung **Werte anzeigen**, um die Werte für jede Auswahl anzuzeigen. Die Werte sind die Namen der einzelnen Auswahlmöglichkeiten, wie sie in der Workfront-Datenbank angezeigt werden.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront weist jeder Auswahl eindeutige Werte zu. </span>
+   >* Workfront weist jeder Auswahl eindeutige Werte zu.
    >
-   >* <span class="preview">Werte entsprechen dem Auswahlnamen im Kleinbuchstabenformat. Mehrere Wörter werden durch einen Unterstrich getrennt. </span>
+   >* Die Werte entsprechen dem Auswahlnamen im Kleinbuchstabenformat. Mehrere Wörter werden durch einen Unterstrich getrennt.
    >
-   >* <span class="preview">Werte können zwischen mehreren Feldern wiederholt werden, müssen aber für ein Feld eindeutig sein.</span>
+   >* Werte können zwischen mehreren Feldern wiederholt werden, müssen aber für ein Feld eindeutig sein.
    >
-   ><span class="preview"> ![Wertumschalter anzeigen](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Wertumschalter anzeigen](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Optional) Verwenden Sie die Auswahlwerte in Ihren API-Aufrufen und anderen Integrationen. </span>
+1. (Optional) Verwenden Sie die Auswahlwerte in Ihren API-Aufrufen und anderen Integrationen.
 
 ### Einzelauswahl {#single-select}
 
@@ -366,7 +366,7 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 1. Klicken Sie links neben einer Auswahl auf das Farbfeld, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
 1. Klicken Sie auf **Farbfelder**, um eine vordefinierte Farbe auszuwählen
 
-   Oder
+   ODER
 
    Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe einer Farbauswahl oder eines Hexadezimalcodes auszuwählen.
 
@@ -375,20 +375,20 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 
    Das neue Einzelauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
-1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über den Feldnamen in der Tabellenansicht, klicken Sie auf das Dropdown-Menü rechts neben dem Feldnamen und dann auf **Feld bearbeiten**.</span>
-1. <span class="preview">Aktivieren Sie die Einstellung **Werte anzeigen**, um die Werte für jede Auswahl anzuzeigen. Die Werte sind die Namen der einzelnen Auswahlmöglichkeiten, wie sie in der Workfront-Datenbank angezeigt werden. </span>
+1. (Optional) Bewegen Sie den Mauszeiger über den Feldnamen in der Tabellenansicht, klicken Sie auf das Dropdown-Menü rechts neben dem Feldnamen und dann auf **Feld bearbeiten**.
+1. Aktivieren Sie die Einstellung **Werte anzeigen**, um die Werte für jede Auswahl anzuzeigen. Die Werte sind die Namen der einzelnen Auswahlmöglichkeiten, wie sie in der Workfront-Datenbank angezeigt werden.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront weist jeder Auswahl eindeutige Werte zu. </span>
+   >* Workfront weist jeder Auswahl eindeutige Werte zu.
    >
-   >* <span class="preview">Werte entsprechen dem Auswahlnamen im Kleinbuchstabenformat. Mehrere Wörter werden durch einen Unterstrich getrennt. </span>
+   >* Die Werte entsprechen dem Auswahlnamen im Kleinbuchstabenformat. Mehrere Wörter werden durch einen Unterstrich getrennt.
    >
-   >* <span class="preview">Werte können zwischen mehreren Feldern wiederholt werden, müssen aber für ein Feld eindeutig sein.</span>
+   >* Werte können zwischen mehreren Feldern wiederholt werden, müssen aber für ein Feld eindeutig sein.
    >
-   ><span class="preview"> ![Wertumschalter anzeigen](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Wertumschalter anzeigen](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Optional) Verwenden Sie die Auswahlwerte in Ihren API-Aufrufen und anderen Integrationen. </span>
+1. (Optional) Verwenden Sie die Auswahlwerte in Ihren API-Aufrufen und anderen Integrationen.
 
 ### Datum {#date}
 
@@ -575,7 +575,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.

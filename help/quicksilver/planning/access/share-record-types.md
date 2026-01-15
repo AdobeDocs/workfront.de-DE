@@ -6,23 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 1%
+source-wordcount: '1465'
+ht-degree: 2%
 
 ---
 
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-<!--keep global record types in yellow till Jan 2026-->
-
 # Datensatztypen freigeben
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -34,7 +32,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe &#x200B;](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
+>* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
 
@@ -183,16 +181,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Datensatztypen können nicht extern für Benutzende außerhalb von Workfront freigegeben werden.
 * Wenn Sie einem Benutzer, der keine Workspace-Berechtigungen hat, höhere als die Anzeigeberechtigungen für einen Datensatztyp gewähren möchten, müssen Sie zunächst den Workspace für ihn mit einer höheren Berechtigung als „Anzeigen“ freigeben. Die höheren Berechtigungen für den Arbeitsbereich gelten dann für die Datensatztypen.
 
-<div class="preview">
-
-* Bei der Freigabe globaler Datensatztypen gibt es die folgenden Szenarien:
-
-   * Sie können globale Datensatztypen über ihren ursprünglichen Arbeitsbereich freigeben.
-   * Globale Datensatztypen können nicht freigegeben werden, nachdem sie einem sekundären Arbeitsbereich hinzugefügt wurden.
+* Sie können einen globalen Datensatztyp sowohl aus seinem ursprünglichen als auch aus anderen sekundären Arbeitsbereichen, in denen er hinzugefügt wurde, freigeben.
 
   Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-</div>
+
 
 ## Freigeben von Berechtigungen für einen Datensatztyp
 

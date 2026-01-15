@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # Arbeitsbereiche löschen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -137,9 +137,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Optionen:
 
    * **Workspaces I&#39;m on**, um auf von Ihnen erstellte Workspaces zuzugreifen
-   * **Andere Arbeitsbereiche**, um auf Arbeitsbereiche zuzugreifen, die von anderen für Sie freigegeben wurden
-oder
-     <span class="preview">**Alle Arbeitsbereiche**, um auf für Sie freigegebene Arbeitsbereiche oder von Ihnen erstellte Arbeitsbereiche zuzugreifen</span>
+   * **Alle Arbeitsbereiche**, um auf für Sie freigegebene Arbeitsbereiche oder von Ihnen erstellte Arbeitsbereiche zuzugreifen
 
 1. (Optional) Klicken Sie auf **Alle anzeigen**, um zusätzliche Arbeitsbereiche anzuzeigen. Der **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Arbeitsbereichskarten haben.
 1. (Optional) Klicken Sie auf **Weniger anzeigen**, um die Anzahl der Arbeitsbereiche zu begrenzen, die auf dem Bildschirm angezeigt werden.
@@ -147,7 +145,7 @@ oder
 
    * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte
 oder
-   * <span class="preview"> Klicken Sie auf das Symbol **Suche** ![Suchsymbol](assets/search-icon.png) oben rechts auf der Seite „Arbeitsbereiche“, um nach einem Arbeitsbereich anhand des Namens zu suchen, </span> auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen. Klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
+   * Klicken Sie auf **search**-Symbol ![search-Symbol](assets/search-icon.png) in der rechten oberen Ecke der Seite „Workspace“, um nach einem Workspace anhand des Namens zu suchen, und klicken Sie auf eine Workspace-Karte, um den Workspace zu öffnen. Klicken Sie dann auf das **More**-Menü ![More-Menü](assets/more-menu.png) rechts neben dem Workspace-Namen.
 1. Klicken Sie auf **Löschen**.
 
    ![Arbeitsbereich-Bestätigung dauerhaft löschen](assets/permanently-delete-workspace-confirmation.png)

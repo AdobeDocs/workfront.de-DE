@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Datensatztypen löschen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,14 +50,14 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
    <td> 
 <ul> 
 <li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
-<div class="preview">
+
 <p>So löschen Sie globale Datensatztypen:</p>
 <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-</div>
+
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
@@ -150,13 +150,9 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Gelöschte Datensatztypen oder deren Informationen können nicht wiederhergestellt werden.
 * Es wird empfohlen, die Felder und die mit dem Datensatztyp verknüpften Datensätze, die Sie löschen möchten, in einem anderen Datensatztyp neu zu erstellen, bevor Sie sie löschen.
 
-<div class="preview">
-
 * Ein globaler Datensatztyp, der anderen Arbeitsbereichen hinzugefügt wurde, kann nicht gelöscht werden.
 
-  Weitere Informationen finden Sie im Abschnitt [Löschen globaler &#x200B;](#delete-global-record-types)) in diesem Artikel.
-
-</div>
+  Weitere Informationen finden Sie im Abschnitt [Löschen globaler ](#delete-global-record-types)) in diesem Artikel.
 
 ## Datensatztypen löschen
 
@@ -164,7 +160,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. Klicken Sie auf den Arbeitsbereich, dessen Datensatztypen Sie löschen möchten.
 
-   Oder
+   ODER
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
@@ -174,14 +170,16 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * Zeigen Sie mit der Maus auf die Karte für den Datensatztyp und klicken Sie auf das Menü **Mehr** und dann auf **Löschen**.
    * Klicken Sie auf die Karte für den Datensatztyp, den Sie löschen möchten, und klicken Sie auf der Seite Datensatztyp auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Löschen**.
 
-   ![Datensatztyp-Bestätigung dauerhaft löschen](assets/permanently-delete-record-type-confirmation.png)
+     >[!TIP]
+     >
+     >Sie können einen globalen Datensatztyp nicht aus dem sekundären Arbeitsbereich löschen, in dem er von der Seite „Datensatztyp“ hinzugefügt wurde. Sie können sie nur aus der Karte „Datensatztyp“ im Arbeitsbereich löschen.
+
+     ![Datensatztyp-Bestätigung dauerhaft löschen](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Geben Sie **Bestätigungsfeld** Löschen“ ein und klicken Sie dann auf **Dauerhaft löschen**. Hierbei wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
    Der ausgewählte Datensatztyp wird zusammen mit den zugehörigen Feldern, zugehörigen Datensätzen und Ansichten gelöscht und kann nicht wiederhergestellt werden.
-
-<div class="preview">
 
 ## Globale Datensatztypen löschen
 
@@ -189,11 +187,13 @@ Beim Löschen globaler Datensatztypen gibt es die folgenden Szenarien:
 
 * Wenn ein als „global“ konfigurierter Datensatztyp noch nicht zu einem anderen Arbeitsbereich hinzugefügt wurde, können Sie ihn aus dem ursprünglichen Arbeitsbereich löschen.
 
-* Wenn ein als globaler Datensatztyp konfigurierter Datensatztyp zu mindestens einem anderen Arbeitsbereich hinzugefügt wurde, können Sie ihn nicht aus dem ursprünglichen Arbeitsbereich löschen. Zunächst müssen Sie globale Datensatztypen aus den sekundären Arbeitsbereichen, in denen sie hinzugefügt wurden, entfernen (indem Sie sie löschen). Anschließend können Sie den globalen Datensatztyp dauerhaft aus dem ursprünglichen Arbeitsbereich löschen.
+* Wenn ein als globaler Datensatztyp konfigurierter Datensatztyp zu mindestens einem anderen Arbeitsbereich hinzugefügt wurde, können Sie ihn nicht aus dem ursprünglichen Arbeitsbereich löschen. Sie müssen zunächst den Typ des globalen Datensatzes aus den sekundären Arbeitsbereichen, in denen er hinzugefügt wurde, entfernen (indem Sie ihn löschen), und dann können Sie den Typ des globalen Datensatzes dauerhaft aus dem ursprünglichen Arbeitsbereich löschen.
 
 ### Löschen eines globalen Datensatztyps aus dem ursprünglichen Arbeitsbereich
 
 Sie können einen Datensatztyp aus seinem ursprünglichen Arbeitsbereich löschen, wenn er nicht mehr relevant ist.
+
+Alle Datensätze und Felder werden ebenfalls gelöscht und können nicht wiederhergestellt werden.
 
 1. Zum globalen Datensatztyp in seinem ursprünglichen Arbeitsbereich gehen.
 
@@ -202,14 +202,14 @@ Sie können einen Datensatztyp aus seinem ursprünglichen Arbeitsbereich lösche
    * Wenn der Datensatztyp nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
    * Wenn der Datensatztyp mindestens einem anderen sekundären Arbeitsbereich hinzugefügt wurde, wechseln Sie zunächst zum sekundären Arbeitsbereich und löschen Sie den globalen Datensatz aus diesem Bereich.
 
-     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
+     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären ](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
 
 1. (Bedingt) Löschen Sie den Datensatztyp weiter, wie im Abschnitt [Löschen von Datensatztypen](#delete-record-types-1) in diesem Artikel beschrieben.
 
    Folgendes geschieht:
 
    * Der globale Datensatztyp wird aus dem ursprünglichen Arbeitsbereich entfernt, und der Datensatztyp, seine Datensätze und Felder können nicht wiederhergestellt werden.
-   * Alle globalen Datensatztypen aus den sekundären Arbeitsbereichen und deren Datensätze werden ebenfalls entfernt.
+   * Alle globalen Datensätze aus den sekundären Arbeitsbereichen und ihre Datensätze werden ebenfalls aus diesem Arbeitsbereich entfernt.
 
 ### Löschen eines globalen Datensatztyps aus einem sekundären Arbeitsbereich
 
@@ -217,11 +217,13 @@ Sie können einen Datensatztyp löschen, den Sie aus einem anderen Arbeitsbereic
 
 Beachten Sie Folgendes:
 
-* Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, wird er nur aus dem sekundären Arbeitsbereich entfernt. Der Datensatztyp verbleibt im ursprünglichen Arbeitsbereich.
+* Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, bleibt der Datensatztyp im ursprünglichen Arbeitsbereich erhalten.
 
 * Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, werden auch die folgenden gelöscht:
 
-   * Die vom sekundären Arbeitsbereich hinzugefügten Datensätze.
+   * Die vom sekundären Arbeitsbereich hinzugefügten Datensätze werden aus dem sekundären Arbeitsbereich gelöscht und können nicht wiederhergestellt werden.
+
+     Im sekundären Arbeitsbereich hinzugefügte Datensätze verbleiben im primären Arbeitsbereich des globalen Datensatztyps. Das Feld **Workspace** ist für diese Datensätze im primären Arbeitsbereich des globalen Datensatztyps leer. <!--checking on this with Lilit-->
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -233,16 +235,16 @@ So löschen Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich
 
 1. Wechseln Sie zum Typ Globaler Datensatz im sekundären Arbeitsbereich.
 
-1. (Optional) Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps und dann auf **Löschen**.
 1. (Bedingt) Geben Sie **Löschen** in das bereitgestellte Feld ein und klicken Sie dann auf **Dauerhaft löschen**.
 
    ![Bestätigungsfeld Sekundärer globaler Datensatztyp löschen](assets/delete-secondary-global-record-type.png)
 
    Folgendes geschieht:
 
-   * Der aus einem globalen Datensatztyp erstellte Datensatztyp wird aus dem ausgewählten Arbeitsbereich entfernt.
+   * Der von einem globalen Datensatztyp erstellte Datensatztyp wird aus dem ausgewählten sekundären Arbeitsbereich entfernt.
    * Der ursprüngliche Datensatztyp mit den Feldern verbleibt im ursprünglichen Arbeitsbereich.
    * Der Datensatztyp verbleibt in allen anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
-   * Die Datensätze, die dem Datensatztyp aus dem aktuellen Arbeitsbereich hinzugefügt <!--and fields-->, werden gelöscht. Alle anderen Datensätze, die von zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der globale Datensatztyp hinzugefügt wurde, bleiben in ihren jeweiligen Arbeitsbereichen und im ursprünglichen Arbeitsbereich erhalten. &lt;!- Felder bleiben in den Arbeitsbereichen erhalten, in denen sie hinzugefügt wurden.
+   * Die Datensätze, die dem Datensatztyp aus dem sekundären Arbeitsbereich hinzugefügt <!--and fields-->, werden gelöscht. Alle anderen Datensätze, die von zusätzlichen Arbeitsbereichen hinzugefügt wurden, in denen der globale Datensatztyp hinzugefügt wurde, bleiben in ihren jeweiligen Arbeitsbereichen und im ursprünglichen Arbeitsbereich erhalten. &lt;!- Felder bleiben in den Arbeitsbereichen erhalten, in denen sie hinzugefügt wurden.
 
-</div>
+

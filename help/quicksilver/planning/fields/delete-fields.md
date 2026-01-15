@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Felder löschen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ Sie können Workfront Planning-Felder löschen, die nicht mehr relevant sind.
 ODER
 <li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
 
-<p><span class="preview">So löschen Sie Felder aus globalen Datensatztypen:</span></p>
-<ul><li><p><span class="preview">Beliebiges Workfront-Paket und Planning Plus-Paket</span></p></li>
+<p>So löschen Sie Felder aus globalen Datensatztypen:</p>
+<ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
 ODER
-<li><p><span class="preview">Beliebige Workflow- und Planungspakete für Prime und Ultimate</span></p></li></ul>
+<li><p>Beliebige Workflow- und Planungspakete für Prime und Ultimate</p></li></ul>
 
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
@@ -149,7 +149,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">Sie können keine Felder aus globalen Datensätzen löschen, die einem sekundären Arbeitsbereich aus den sekundären Arbeitsbereichen hinzugefügt wurden.</span>
+* Sie können keine Felder aus globalen Datensätzen löschen, die einem sekundären Arbeitsbereich hinzugefügt wurden, aus den sekundären Arbeitsbereichen.
 
 ## Felder löschen
 
@@ -184,4 +184,4 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * Wenn Sie ein Feld löschen, das zu dem von Ihnen ausgewählten Datensatz gehört, wird das Feld gelöscht und kann mit keinem Datensatz mehr verknüpft werden. Wenn dieses Feld als Suchfeld in anderen Datensätzen hinzugefügt wird, werden diese Felder ebenfalls gelöscht.
    * Wenn Sie ein Verbindungsfeld löschen, wird das Feld aus dem ausgewählten Datensatz gelöscht. Außerdem wird das entsprechende Verbindungsfeld aus seinem ursprünglichen Datensatz ebenfalls gelöscht.
    * Wenn Sie ein Suchfeld löschen, das aus einem verbundenen Datensatz hinzugefügt wurde, wird das Feld aus dem ausgewählten Datensatztyp gelöscht, bleibt jedoch vom ursprünglichen Datensatztyp.
-   * <span class="preview">Wenn Sie ein Feld aus einem globalen Datensatztyp in seinem primären Arbeitsbereich löschen, wird es aus allen Arbeitsbereichen gelöscht, in denen dieser Datensatztyp hinzugefügt wurde. Sie können keine Felder aus globalen Datensatztypen aus ihren sekundären Arbeitsbereichen löschen.</span>
+   * Wenn Sie ein Feld aus einem globalen Datensatztyp in seinem primären Arbeitsbereich löschen, wird es aus allen Arbeitsbereichen gelöscht, in denen dieser Datensatztyp hinzugefügt wurde. Sie können keine Felder aus globalen Datensatztypen aus ihren sekundären Arbeitsbereichen löschen.

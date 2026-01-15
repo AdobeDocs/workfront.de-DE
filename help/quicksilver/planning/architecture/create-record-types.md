@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # Datensatztypen erstellen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -52,20 +52,18 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
 <p>So konfigurieren Sie verbindbare Datensatztypen: </p>
 <ul> 
 <li><p>Jedes Workfront-Paket und jedes Planungspaket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
 
-<div class="preview">
 <p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
 <li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
-Oder
+ODER
 <li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
@@ -163,8 +161,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
         In diesem Artikel wird beschrieben, wie Sie Datensatztypen von Grund auf neu erstellen.
 
-      * <span class="preview">Durch Hinzufügen aus einem anderen Arbeitsbereich</span>
-        <span class="preview">Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
+      * Durch Hinzufügen aus einem anderen Arbeitsbereich
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * Sie können Datensatztypen innerhalb eines Abschnitts und von einem Abschnitt eines Arbeitsbereichs in einen anderen verschieben. Datensatztypen können nicht von einem Workspace in einen anderen Workspace verschoben werden.
@@ -190,7 +188,7 @@ Sie können Datensatztypen manuell sowohl in den Abschnitten Operative Datensatz
 
 1. Klicken Sie auf den Arbeitsbereich, in dem Sie einen Datensatztyp erstellen möchten,
 
-   Oder
+   ODER
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen**, um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
@@ -208,9 +206,9 @@ Sie können Datensatztypen manuell sowohl in den Abschnitten Operative Datensatz
       * Farbe zur Identifizierung des neuen Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp. Grau ist standardmäßig ausgewählt.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols in das Suchfeld ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf die Registerkarte **Erweiterte Einstellungen** <span class="preview">oder **Arbeitsbereichsübergreifende Einstellungen**</span> und <span class="preview">Informationen zu den arbeitsbereichsübergreifenden Funktionen des Datensatztyps aktualisieren.
+1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf die Registerkarte **Arbeitsbereichsübergreifende Einstellungen** und aktualisieren Sie die Informationen zu den arbeitsbereichsübergreifenden Funktionen des Datensatztyps.
 
-   ![Feld „Datensatztyp bearbeiten“ mit der Registerkarte „Erweiterte Einstellungen“](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![Feld „Datensatztyp bearbeiten“ mit der Registerkarte „Arbeitsbereich-übergreifende Einstellungen“](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -221,11 +219,11 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ![Karte vom Typ „Datensatz“ mit Beschreibung](assets/record-type-card-with-description.png)
 
-   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![&#x200B; Verbindung von anderen &#x200B;](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
-   <span class="preview">Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird das Symbol **Globaler** Globaler![Datensatz](assets/global-icon.png) auf der Datensatzkarte angezeigt. </span>
+   Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird **Symbol „Globaler**&quot; ![Symbol „Globaler Datensatztyp](assets/global-icon.png) auf der Datensatzkarte angezeigt.
 
-1. (Optional) Zeigen Sie mit der Maus auf die Karte für den Datensatztyp und klicken Sie oben rechts auf **Mehr**-Symbol ![Mehr](assets/more-menu.png) und dann auf **Bearbeiten** oder <span class="preview">**Einstellungen**</span>, um Informationen zum Datensatztyp zu ändern.
+1. (Optional) Zeigen Sie mit der Maus auf die Karte für den Datensatztyp und klicken Sie oben rechts auf **Mehr**-Symbol ![Mehr](assets/more-menu.png) und dann auf **Bearbeiten** oder **Einstellungen**, um Informationen zum Datensatztyp zu ändern.
 
    Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
@@ -245,9 +243,9 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
 1. (Optional) Aktualisieren Sie den Namen des Datensatztyps in der Kopfzeile der Seite
 
-   Oder
+   ODER
 
-   Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Optional) Klicken Sie auf **+ Neuer**, um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Einträge erstellen](/help/quicksilver/planning/records/create-records.md).
 1. (Optional) Klicken Sie auf das Symbol **+** in der oberen rechten Ecke der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.
@@ -277,12 +275,8 @@ Beim Importieren von Informationen aus einer CSV- oder Excel-Datei können Sie F
 
 Weitere Informationen finden Sie unter [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<div class="preview">
-
 ## Erstellen von Datensatztypen durch Hinzufügen vorhandener Typen aus einem anderen Arbeitsbereich
 
 Sie können Datensatztypen zu einem Arbeitsbereich hinzufügen, indem Sie vorhandene Typen aus einem anderen Arbeitsbereich hinzufügen. Sie können nur Datensatztypen hinzufügen, die als globale Datensatztypen konfiguriert wurden.
 
 Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
-
-</div>

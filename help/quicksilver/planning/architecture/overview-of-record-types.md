@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Übersicht über Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,13 +45,19 @@ Weitere Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstell
    * **Operative Datensatztypen**: Datensatztypen, die strategische Pläne, Initiativen oder geplante Arbeiten darstellen. Beispielsweise sind Kampagne, Aktivität, Taktik und Opportunity operative Datensatztypen.
    * **Taxonomien**: Datensatztypen, die Attribute über einen betrieblichen Datensatztyp erfassen. Beispielsweise sind Region, Adresse und Zielgruppe Taxonomien.
 
-  Sie können diese Abschnitte umbenennen oder löschen oder weitere erstellen.
+  Sie können die Abschnitte und die Datensatztypen umbenennen oder löschen oder weitere erstellen.
 
 * Wenn Sie einen Datensatztyp in einem Arbeitsbereich erstellen, den Sie von Grund auf neu erstellt haben, können Sie den Datensatztyp in jedem Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
-* Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, denen Sie Zugriff auf den Arbeitsbereich gewähren, den Datensatztyp anzeigen.
+* Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, denen Sie Zugriff auf den Arbeitsbereich gewähren, und der Datensatztyp darauf zugreifen.
 * Sie müssen einen Arbeitsbereich erstellen, bevor Sie Datensatztypen für den Arbeitsbereich erstellen können.
-* Einschränkungen dazu, wie viele Datensatztypen Sie in einer Workspace- oder Workfront-Instanz haben können, finden Sie unter [Übersicht über Adobe Workfront Planning-Objektbeschränkungen](/help/quicksilver/planning/general/limitations-overview.md).
-* <span class="preview">Sie können Datensatztypen als „global“ festlegen. Globale Datensatztypen können anderen Arbeitsbereichen als vorhandene Datensatztypen hinzugefügt werden. Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypsignatur](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+
+  Einschränkungen dazu, wie viele Datensatztypen Sie in einer Workspace- oder Workfront-Instanz haben können, finden Sie unter [Übersicht über Adobe Workfront Planning-Objektbeschränkungen](/help/quicksilver/planning/general/limitations-overview.md).
+* Um Datensatztypen in mehr als einem Arbeitsbereich zu verwenden, können Sie Datensatztypen als „global“ oder „verbindbar“ festlegen.
+
+   * Globale Datensatztypen können anderen Arbeitsbereichen als vorhandene Datensatztypen hinzugefügt werden.
+   * Verbindbare Datensatztypen können über andere Arbeitsbereiche mit verbunden werden.
+
+  Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 
 <!--

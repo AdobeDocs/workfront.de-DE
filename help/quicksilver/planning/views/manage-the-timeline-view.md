@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3912'
 ht-degree: 2%
 
 ---
 
 # Zeitleisten-Ansicht verwalten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -282,9 +282,9 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
 1. Wählen Sie eine Zeitleisten -Ansicht aus **klicken Sie dann** oben rechts in der Tabelle auf „Filter“.
 1. Klicken Sie **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
-   * **Feld auswählen**, um <span class="preview">Nach einem Feld zu suchen oder </span> auf das Dropdown-Menü zu klicken, um eine Liste mit Feldern anzuzeigen und dieses aus der Liste auszuwählen
+   * **Feld auswählen**, um nach einem Feld zu suchen, oder und wählen Sie es aus der Liste aus.
 
-   * **Wählen Sie eine Option** oder einen Filtermodifikator), um festzulegen, welche Art von Bedingung das Feld erfüllen muss
+   * **Wählen Sie eine Option** oder einen Filtermodifikator), um festzulegen, welche Art von Bedingung das Feld erfüllen muss.
 
      In der folgenden Tabelle werden die verfügbaren Modifikatoren für jeden Feldtyp angezeigt.
 
@@ -417,12 +417,12 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
-   Oder
+   ODER
 
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -549,6 +549,8 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 
 #### Überlegungen zur Verwendung der Aufschlüsselungsfunktion
 
+Beachten Sie Folgendes, wenn Sie die Timeline der Datensätze nach ihren verbundenen Datensatztypen aufschlüsseln:
+
 * Sie können verbundene Datensätze oder Objekte unter den Datensätzen des ausgewählten Datensatztyps in der Zeitleisten -Ansicht anzeigen.
 * Verbundene Datensätze können nur in der Zeitleisten -Ansicht angezeigt werden, wenn die Datensätze im Standardmodus angezeigt werden. Die Aufschlüsselungsoption kann im Komprimierungsmodus der Zeitleisten -Ansicht nicht verwendet werden.
 * Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Zeitleisten -Ansicht anzeigen:
@@ -573,7 +575,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3418'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 # Verwalten der Tabellenansicht
 
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -191,7 +191,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden als neue Felder auf der Datensatzseite hinzugefügt.
 
-1. (Optional) Klicken Sie auf das **Felder**-Symbol ![Felder](assets/fields-icon.png) in der Symbolleiste, suchen Sie das Feld in der Liste oder <span class="preview"> Sie nach einem Feld</span> und heben Sie die Auswahl des Umschalters rechts neben dem Feldnamen auf, um das Feld auszublenden.
+1. (Optional) Klicken Sie auf das **Felder**-Symbol ![Felder-Symbol](assets/fields-icon.png) in der Symbolleiste, suchen Sie nach einem Feld und heben Sie dann die Auswahl des Umschalters rechts neben dem Feldnamen auf, um das Feld auszublenden.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Spalten in der Tabelle neu anzuordnen:
 
@@ -229,7 +229,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift, klicken Sie dann auf den nach unten zeigenden Pfeil und dann auf **Feld ausblenden**
 
-   Oder
+   ODER
 
    Klicken Sie **der** auf „Felder“ und deaktivieren Sie den Umschalter, der den Feldern (oder Spalten) zugeordnet ist, die Sie ausblenden möchten. Das Feld **Sichtbarkeit und Reihenfolge** wird angezeigt.
 
@@ -311,7 +311,7 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
 1. Wählen Sie eine Tabellenansicht aus und klicken **oben** auf „Filter“.
 1. Klicken Sie **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
-   * <span class="preview">Suchen Sie nach einem Feld oder klicken Sie </span> auf das Dropdown-Menü, um eine Liste mit Feldern anzuzeigen und sie aus der Liste auszuwählen.
+   * Suchen Sie nach einem Feld und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
    * **Wählen Sie eine Option** oder einen Filtermodifikator), um festzulegen, welche Art von Bedingung das Feld erfüllen muss
 
@@ -435,7 +435,7 @@ Gehen Sie wie folgt vor, um <!--ungrouped (add this when sorting for groupings w
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 1. Klicken Sie auf **Sortieren**-Symbol ![Sortieren](assets/sort-icon.png) in der oberen rechten Ecke der Tabelle
 
-   Oder
+   ODER
 
    Bewegen Sie den Mauszeiger über den Namen einer Spalte in der Tabellenansicht, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Namen der Spaltenüberschrift und dann auf **Sortieren nach diesem Feld**. Das Feld wird als Sortierauswahl im Symbol Sortieren in der oberen rechten Ecke der Tabellenansicht hinzugefügt.
 
@@ -451,7 +451,7 @@ Gehen Sie wie folgt vor, um <!--ungrouped (add this when sorting for groupings w
 
 1. (Optional) Klicken Sie im Feld **Datensätze sortieren nach** auf das Symbol **x** rechts neben einem Sortierfeld, um die Sortierung aufzuheben
 
-   Oder
+   ODER
 
    Klicken Sie **Alle löschen**, um alle Felder aus der Sortierung zu entfernen.
 
@@ -506,7 +506,7 @@ Um eine Gruppierung hinzuzufügen:
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
-   Oder
+   ODER
 
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. (Optional) Klicken Sie auf **Zeilenfarben**, um Bedingungen zu definieren und verschiedene Farben für Tabellenzeilen zu konfigurieren.
 
-1. Klicken Sie **Farbe hinzufügen** und anschließend <span class="preview">nach einem Feld suchen oder </span> auf das Dropdown-Menü klicken, um eine Liste mit Feldern anzuzeigen und dieses aus der Liste auszuwählen. Dies ist das Feld, dessen Wert Sie für die Farbe einer Zeile festlegen möchten.
+1. Klicken Sie **Farbe hinzufügen** suchen Sie nach einem Feld und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dies ist das Feld, dessen Wert Sie für die Farbe einer Zeile festlegen möchten.
 
    Um beispielsweise Kampagnen mit dem Status Aktiv in Grün anzuzeigen, wählen Sie **Status** und wählen Sie dann einen Modifikator und einen Wert für das Feld aus.
 
@@ -554,7 +554,7 @@ To sort grouped records:
 
 1. (Optional) Klicken Sie **Bedingung hinzufügen**, um dem ersten Satz von Bedingungen weitere Felder und Werte hinzuzufügen
 
-   Oder
+   ODER
 
    Klicken Sie **Farbe hinzufügen**, um einen neuen Satz von Bedingungen hinzuzufügen und eine neue Farbe zu identifizieren.
 
