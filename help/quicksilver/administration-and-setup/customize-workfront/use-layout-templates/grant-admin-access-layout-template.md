@@ -23,7 +23,7 @@ Informationen zum Zuweisen von Benutzern zu einer Layout-Vorlage finden Sie unte
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
@@ -61,7 +61,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken **im oberen Bereich** Seite auf „Zugriff gewähren auf“.
 1. Klicken Sie im angezeigten Feld auf **Gruppe hinzufügen**, geben Sie den Namen der Gruppe ein, klicken Sie auf den Namen, wenn er angezeigt wird, und klicken Sie dann auf **Fertig**.
 
-   Alle Benutzer, die als Gruppenadministratoren für die von Ihnen angegebene Gruppe festgelegt wurden, können die Layout-Vorlage verwalten. Die Vorlage wird jedoch nicht den Mitgliedern der Gruppe für ihre Verwendung zugewiesen. Informationen zum Zuweisen einer Layout-Vorlage zu einer Gruppe finden Sie unter [Zuweisen einer Layout-Vorlage zu ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in diesem Artikel.
+   Alle Benutzer, die als Gruppenadministratoren für die von Ihnen angegebene Gruppe festgelegt wurden, können die Layout-Vorlage verwalten. Die Vorlage wird jedoch nicht den Mitgliedern der Gruppe für ihre Verwendung zugewiesen. Informationen zum Zuweisen einer Layout-Vorlage zu einer Gruppe finden Sie unter [Zuweisen einer Layout-Vorlage zu &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in diesem Artikel.
 
    >[!NOTE]
    >
