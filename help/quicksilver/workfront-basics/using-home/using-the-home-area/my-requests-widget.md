@@ -72,7 +72,7 @@ Anweisungen finden Sie [Erstellen einer Anfrage](/help/quicksilver/workfront-bas
 
 Sie können eine Anfrage im Widget Meine Anfragen kopieren, bearbeiten und als neue Anfrage senden.
 
-Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
+Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
 
 ## Anfragen filtern
 
