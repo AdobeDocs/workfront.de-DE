@@ -7,16 +7,14 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Bearbeiten von Informationen in benutzerdefinierten Formularfeldern
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -24,7 +22,7 @@ Sie können Informationen in einem benutzerdefinierten Formular bearbeiten, nach
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +100,7 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Wechseln Sie zu einer beliebigen Liste von Objekten, für die Sie Informationen im benutzerdefinierten Formular bearbeiten möchten, mit Ausnahme einer Liste von Iterationen.
-1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 1. Klicken Sie **linken Bereich** Custom Forms&quot; im Feld **Objekt bearbeiten**.
 
    Wenn ein benutzerdefiniertes Formular an das -Objekt angehängt ist, wird der Name des Formulars als Bereich im Abschnitt **Benutzerdefinierte Forms** angezeigt.
@@ -122,7 +120,7 @@ Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben könne
 
    >[!NOTE]
    >
-   ><span class="preview">Felder, die mehrere Auswahlmöglichkeiten zulassen, können die Anzahl der verfügbaren Optionen einschränken. Kontrollkästchen und Mehrfachauswahl-Dropdown-Listen sind auf 5.000 Auswahlmöglichkeiten beschränkt.</span>
+   >Felder, die mehrere Auswahlmöglichkeiten zulassen, können die Anzahl der verfügbaren Optionen einschränken. Kontrollkästchen und Mehrfachauswahl-Dropdown-Listen sind auf 5.000 Auswahlmöglichkeiten beschränkt.
 
    Informationen zu allen Feldtypen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -146,7 +144,7 @@ Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben könne
    1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
    1. Um benutzerdefinierte Formulare hinzuzufügen, geben Sie den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** in der rechten oberen Ecke der Seite ein
 
-      Oder
+      ODER
 
       Klicken Sie auf **Bearbeiten**-Symbol im selben Bereich, um mit der Bearbeitung der Felder auf den angehängten Formularen zu beginnen.
 
@@ -219,7 +217,7 @@ So berechnen Sie benutzerdefinierte Ausdrücke aus einer Objektliste neu:
    * Portfolios
    * Programme
    * Ausgaben
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 

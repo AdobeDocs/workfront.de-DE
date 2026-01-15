@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -17,13 +17,11 @@ ht-degree: 5%
 
 # Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets
 
-{{preview-fast-release-general}}
-
 Sie können ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zu öffnen, um das Feld zu erstellen.
 
 Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in benutzerdefinierten Formularen verwendet wird. Dazu gehören die Beschriftung, der Name, die Anweisungen usw. des Elements.
 
-<span class="preview">Wenn Sie ein benutzerdefiniertes Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen, und das Feld ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar. Alle neuen Felder sind standardmäßig auf Aktiv gesetzt. </span>
+Wenn Sie ein benutzerdefiniertes Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen, und das Feld ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar. Alle neuen Felder sind standardmäßig auf Aktiv gesetzt.
 
 >[!NOTE]
 >

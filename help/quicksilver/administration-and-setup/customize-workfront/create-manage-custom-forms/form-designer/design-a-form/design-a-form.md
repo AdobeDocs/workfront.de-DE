@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Erstellen eines benutzerdefinierten Formulars
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -263,13 +261,13 @@ Hinzufügen eines Textfelds:
     <td><ul><li>Beschreibender Text</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Aktiv</span></td>
-     <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Aktiv</td>
+     <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+     <td><ul>
      <li>Einzeiliger Text</li>
      <li>Absatz</li>
      <li>Text mit Formatierung</li>
-     <li>Beschreibender Text</li></span></ul></td>
+     <li>Beschreibender Text</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Zu einem Pflichtfeld machen</td>
@@ -421,13 +419,13 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Aktiv</span></td>
-     <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Aktiv</td>
+     <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+     <td><ul>
      <li>Optionsfelder</li>
      <li>Kontrollkästchen-Gruppe</li>
      <li>Einfachauswahl-Dropdown</li>
-     <li>Mehrfachauswahl-Dropdown</li></span></ul></td>
+     <li>Mehrfachauswahl-Dropdown</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Zu einem Pflichtfeld machen</td> 
@@ -562,11 +560,11 @@ So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+      <td><ul>
       <li>Typeahead</li>
-      <li>Datum</li></span></ul></td>
+      <li>Datum</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Zu einem Pflichtfeld machen</td> 
@@ -655,12 +653,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -674,8 +672,8 @@ So fügen Sie eine externe Suche hinzu:
       <td><p>Wählen Sie diese Option aus, damit der/die Benutzende mehr als einen Wert in der Dropdown-Liste auswählen kann.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Zu einem Pflichtfeld machen</td>
@@ -767,8 +765,8 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
       <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -904,8 +902,8 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Zu einem Pflichtfeld machen</td>
@@ -961,8 +959,8 @@ Hinzufügen einer Adobe XD-Datei:
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1003,7 +1001,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
@@ -1057,8 +1055,8 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Aktiv</span></td>
-      <td><span class="preview"><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></span></td>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
      </tr>
       </tbody> 
    </table>
