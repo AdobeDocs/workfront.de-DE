@@ -4,7 +4,7 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im ersten 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 ## Auswahlbeschränkungen für Felder mit Mehrfachauswahl
@@ -38,8 +38,8 @@ Weitere Informationen finden Sie unter [Bearbeiten von Informationen in benutzer
 >[!NOTE]
 >
 >Vorschau: 11. Dezember 2025
->Produktions-Schnellveröffentlichung: 15. Januar 2026\
->Produktion für alle: 15. Januar 2026
+>Produktionsschnellveröffentlichung: 11. Februar 2026\
+>Produktion für alle: 11. Februar 2026
 
 Um Unternehmen den Zugriff auf die Vorteile von Adobe Unified Experience zu ermöglichen, stellen wir es bestehenden Workfront-Kunden weiterhin zur Verfügung.
 

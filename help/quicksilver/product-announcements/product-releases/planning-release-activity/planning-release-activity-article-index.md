@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
+source-git-commit: 1c9a13aa927b6c21d27d860d228be98d44a80987
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,18 @@ Dieser Artikel enthält eine Liste von Artikeln zu Versionsaktivitäten des Adob
 
 Informationen zur aktuellen Workfront Planning-Release-Aktivität finden Sie im folgenden Artikel:
 
-* [Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+* [Versionsaktivität für das zweite Quartal 2026 für Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+
 
 
 >[!ENDSHADEBOX]
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-Informationen zu Funktionen, die vor der Produktionsversion vom 10. April 2025 veröffentlicht wurden, finden Sie in den folgenden Artikeln:
+Informationen zu Funktionen, die vor der Produktionsversion vom 16. Januar 2026 veröffentlicht wurden, finden Sie in den folgenden Artikeln:
+
+* 2026
+   * [Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 
 * 2025
    * [Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
+source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,40 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom erst
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Globale Datensatztypen können über den sekundären Arbeitsbereich freigegeben werden
+
+>[!NOTE]
+>
+>Vorschau: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 15. Januar 2026
+>Produktion für alle: 15. Januar 2026
+>[!BADGE Aus dem Zeitplan]{type=Neutral}
+
+Sie können jetzt globale Datensatztypen freigeben, die Sie einem sekundären Arbeitsbereich aus diesem Arbeitsbereich hinzugefügt haben. Benutzer erhalten dieselben Berechtigungen für alle Datensätze im sekundären Arbeitsbereich, den Sie freigeben.
+
+>[!NOTE]
+>
+>Benutzer können im primären Arbeitsbereich oder in jedem anderen sekundären Arbeitsbereich, in dem der Datensatztyp hinzugefügt wurde, unterschiedliche Berechtigungen für denselben globalen Datensatztyp haben. Berechtigungen für Workspace und Datensatztypen werden auf die Datensätze übertragen.
+
+Vor dieser Änderung konnten Sie den globalen Datensatztyp nur über den ursprünglichen, primären Arbeitsbereich freigeben.
+
+Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+
+## Datensätze, die einem globalen Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurden, sind von anderen sekundären Arbeitsbereichen nicht sichtbar
+
+>[!NOTE]
+>
+>Vorschau: 15. Januar 2026
+>Produktions-Schnellveröffentlichung: 15. Januar 2026
+>Produktion für alle: 15. Januar 2026
+>[!BADGE Aus dem Zeitplan]{type=Neutral}
+
+Datensätze, die einem globalen Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurden, sind nur in diesem Arbeitsbereich oder im ursprünglichen primären Arbeitsbereich des Datensatztyps sichtbar. Vor diesem Update waren Datensätze, die zu einem sekundären Arbeitsbereich hinzugefügt wurden, auch von anderen sekundären Arbeitsbereichen sichtbar, für die Sie möglicherweise über die Berechtigung zum Anzeigen verfügten.
+
+Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Erstellen von Hierarchien von Datensatztypen in Arbeitsbereichen
 
