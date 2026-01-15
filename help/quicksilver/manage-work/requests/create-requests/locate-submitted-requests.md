@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 2%
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
-* Die Registerkarte **Workfront** im Bereich Anfragen in Workfront: Zeigen Sie an Workfront gesendete Anfragen in den folgenden Abschnitten an:
-   * **Abschnitt „Gesendet**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie zumindest Zugriff haben.
-   * **Entwurfsabschnitt** : Alle Anfragen, die Sie gestartet, aber nie abgeschlossen und nie gesendet haben. Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* Der Bereich Anfragen von Workfront
+* das Widget „Meine Anfragen“ auf der Startseite
 
   >[!NOTE]
   >
   >* Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
   >* In der neuen anfordernden -Version befinden sich gesendete Anfragen und Entwürfe in derselben Liste.
   >* In der veralteten -Version erstellte Entwürfe werden in der neuen -Version, in der die Anfrage gestellt wird, nicht angezeigt.
-
-* Registerkarte **Planung** im Bereich Anfragen in Workfront: An Workfront Planning-Anfrageformulare gesendete Anfragen anzeigen. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie in den folgenden Artikeln:
-
-   * [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## Zugriffsanforderungen
 

@@ -5,9 +5,9 @@ title: Ansichten im Bereich Anfragen erstellen und verwalten
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
    {{step1-to-requests}}
 
-1. Klicken Sie in der Liste Anfragen auf das Dropdown **&#x200B;**&#x200B;Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+1. Klicken Sie in der Liste Anfragen auf das Dropdown **** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
@@ -93,15 +93,7 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
    >Es ist derzeit nicht möglich, Spalten in der Produktionsumgebung hinzuzufügen.
 1. (Optional) Klicken Sie auf **Spalten** und blenden Sie die Spalten in der Anfrageliste aus, anzeigen oder neu anordnen.
 
-   ![Spalten-Feld](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Es können derzeit keine weiteren Spalten in der Produktionsumgebung hinzugefügt werden.
-
-1. (Optional) Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie auf der Registerkarte „Planung“ anzeigen möchten.
-
-   ![Filter in der Registerkarte „Planungsanfragen“ bearbeiten](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Optional) Klicken Sie **Filter** und fügen Sie Bedingungen für die Anforderungen hinzu, die Sie anzeigen möchten.
 
    Sie können nach den folgenden Feldern filtern:
 
