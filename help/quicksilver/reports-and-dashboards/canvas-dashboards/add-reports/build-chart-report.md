@@ -6,16 +6,14 @@ description: Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1814'
 ht-degree: 1%
 
 ---
 
 # Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -80,7 +78,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -122,9 +120,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Wählen Sie im Abschnitt **Untere Achse (X** das Feld **Aktualisieren** aus, suchen Sie dann das Feld, das die Daten enthält, die in dem Diagramm zusammengefasst werden sollen, und wählen Sie es aus.
 1. Wählen Sie in **Dropdown-Liste** Aggregationstyp“ aus, wie die Daten aggregiert werden, um die Diagrammausgabe zu erzeugen.
-1. <span class="preview">(Optional) Fügen Sie eine Achsenbeschriftung in den vorgesehenen Bereich ein.</span>
-1. <span class="preview"> (Optional) Ein Umschalter **Achse ausblenden**. </span>
-1. <span class="preview">(Optional) Geben Sie einen **Referenzzeilenwert** ein, um ein Ziel oder einen Schwellenwert im Diagramm festzulegen.</span>
+1. (Optional) Fügen Sie eine Achsenbeschriftung in den vorgesehenen Bereich ein.
+1. (Optional) Schalten Sie **Achse ausblenden** ein.
+1. (Optional) Geben Sie einen **Referenzzeilenwert** ein, um ein Ziel oder einen Schwellenwert im Diagramm festzulegen.
 1. Wählen Sie **Dropdown** Menü einen „Zeilentyp“ aus.
 1. Klicken Sie auf **Feld aktualisieren** unter dem zweiten Abschnitt, suchen und wählen Sie dann das zweite Feld aus, das Sie in der Grafik anzeigen möchten.
 
@@ -142,8 +140,8 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 1. Wählen Sie im Abschnitt **Metrik** das Feld **Aktualisieren** aus, suchen Sie dann das Feld, das die Daten enthält, die in dem Diagramm zusammengefasst werden sollen, und wählen Sie es aus.
 1. Wählen Sie in **Dropdown-Liste** Aggregationstyp“ aus, wie die Daten aggregiert werden, um die Diagrammausgabe zu erzeugen.
 1. Wählen Sie im Abschnitt **Segment** das Feld **Aktualisieren** aus, suchen Sie dann das Feld, das die Segmente enthält, die Sie im Tortendiagramm anzeigen möchten, und wählen Sie es aus.
-1. <span class="preview"> (Optional) Aktivieren Sie im **Kreis** den **Segmentbeschriftungen anzeigen**, um Segmentbeschriftungen anzuzeigen.</span>
-1. <span class="preview"> (Optional) Schalten Sie **Summe anzeigen** ein, um den Gesamtbetrag in der Mitte des Diagramms anzuzeigen. Wenn diese Option aktiviert ist, gibt es zusätzliche Optionen, um eine mittlere Beschriftung anzuzeigen und das Werteformat auszuwählen.</span>
+1. (Optional) Aktivieren Sie im **Kreis** den **Segmentbeschriftungen anzeigen**, um Segmentbeschriftungen anzuzeigen.
+1. (Optional) Schalten Sie **Summe anzeigen** ein, um den Gesamtbetrag in der Mitte des Diagramms anzuzeigen. Wenn diese Option aktiviert ist, gibt es zusätzliche Optionen, um eine mittlere Beschriftung anzuzeigen und das Werteformat auszuwählen.
 
 >[!NOTE]
 >
@@ -153,9 +151,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 >* Summenaggregationstypen: Der angezeigte Mittelwert ist die aggregierte Summe des numerischen oder Währungswerts.
 >* Aggregationstypen „Durchschnitt“, „Maximum“ und „Minimum“: Der mittlere Wert zeigt den Durchschnitt, den Höchstwert oder den Mindestwert entsprechend an.
 
-1. <span class="preview">(Optional) Aktivieren Sie im Abschnitt Legende den **Legende anzeigen**, um die Diagrammlegende anzuzeigen.</span>
+1. (Optional) Aktivieren Sie im Abschnitt Legende den **Legende anzeigen**, um die Diagrammlegende anzuzeigen.
 
-1. <span class="preview"> (Optional) Wählen Sie **Dropdown-** eine Legendenposition aus.</span>
+1. (Optional) Wählen Sie **Dropdown-Menü eine** Legendenposition“ aus.
 
 ## Konfigurieren zusätzlicher Diagrammberichtseinstellungen
 
@@ -163,7 +161,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
 
-1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![&#x200B; Filter](assets/filter-icon.png).
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![ Filter](assets/filter-icon.png).
 1. Wählen Sie **Filter bearbeiten** aus.
 1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
 1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
@@ -198,7 +196,7 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 

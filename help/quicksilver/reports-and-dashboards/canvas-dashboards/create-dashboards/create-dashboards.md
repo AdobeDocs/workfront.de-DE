@@ -6,10 +6,10 @@ description: Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und z
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '480'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -29,7 +29,7 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpas
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -76,7 +76,29 @@ Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen
 
 1. Klicken Sie **oben** auf „Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Im Feld **Dashboard erstellen**
+
+1. Geben Sie Folgendes an:
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>Name</strong></td>
+      <td><p>Geben Sie einen Namen für Ihr Dashboard ein. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Beschreibung (optional)</strong></td>
+      <td>Eine Beschreibung Ihres Dashboards eingeben.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Währung</strong></td>
+      <td>Wählen Sie den Standardwährungstyp für das Dashboard aus. <br>
+      <br>Benutzer können beim Filtern des Dashboards zwischen verschiedenen Währungstypen wechseln. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Dashboard nach Währungstyp filtern</a>.</td>
+     </tr>
+    </tbody>
+   </table>
 
 1. Klicken Sie auf **Erstellen**. Das **Berichtfeld hinzufügen** wird geöffnet. Von hier aus können Sie einen neuen Bericht erstellen oder einen vorhandenen Bericht zum Dashboard hinzufügen.
 

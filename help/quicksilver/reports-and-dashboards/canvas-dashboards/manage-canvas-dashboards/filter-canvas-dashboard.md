@@ -6,16 +6,14 @@ description: Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
 
 # Filtern eines Arbeitsflächen-Dashboards
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -180,7 +178,6 @@ Alle Benutzer mit Zugriff auf ein Dashboard können eine Dashboard-Eingabeauffor
 
 1. Klicken Sie auf **Schließen**-Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke, um das Bedienfeld auszublenden.
 
-<span class="preview">
 
 ## Dashboard nach Währungstyp filtern
 
@@ -196,5 +193,3 @@ So ändern Sie den Währungstyp für das Dashboard:
 1. Wählen Sie den gewünschten Währungstyp aus der Liste aus.
 
    ![Währungs-Dropdown ändern](assets/filter-by-currency.png)
-
-</span>
