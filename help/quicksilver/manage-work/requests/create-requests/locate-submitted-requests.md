@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
 
 # Eingereichte Anfragen anzeigen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
@@ -28,8 +26,8 @@ Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet habe
   >[!NOTE]
   >
   >* Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
-  >* <span class="preview">In der neuen anfordernden -Version befinden sich gesendete Anfragen und Entwürfe in derselben Liste. </span>
-  >* <span class="preview">Entwürfe, die im alten Erlebnis erstellt wurden, werden im neuen anfordernden Erlebnis nicht angezeigt.</span>
+  >* In der neuen anfordernden -Version befinden sich gesendete Anfragen und Entwürfe in derselben Liste.
+  >* In der veralteten -Version erstellte Entwürfe werden in der neuen -Version, in der die Anfrage gestellt wird, nicht angezeigt.
 
 * Registerkarte **Planung** im Bereich Anfragen in Workfront: An Workfront Planning-Anfrageformulare gesendete Anfragen anzeigen. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -83,7 +81,11 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 ### Anzeigen gesendeter Anfragen in der neuen anfordernden Version
 
-Gesendete Anfragen können im Bereich Anfragen angezeigt werden (der <span class="preview"> Links zu Objekten enthält, die von Planning-Anfragen erstellt wurden)</span>
+Gesendete Anfragen können im Bereich Anfragen angezeigt werden. Dieser enthält Links zu Objekten, die von Planning-Anfragen erstellt wurden.
+
+>[!NOTE]
+>
+>Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst ein Objekt erstellt hat. Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste in der neuen anfragenden -Version kein Link zu diesem konvertierten Objekt verfügbar.
 
 So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 

@@ -6,16 +6,14 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 2%
 
 ---
 
 # Anfragen erstellen und senden
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Ein Workfront-Administrator muss die folgenden Komponenten einer Anfrage-Wartesc
 
 Wenn Sie eine Anfrage in der Workfront-Web-App erstellen, speichert Workfront die Anfrage als Entwurf, bevor Sie sie senden. Workfront erstellt einen Entwurf, sobald Sie Ihre Anfrage-Warteschlange auswählen und Informationen eingeben.
 
-Sie können mit dem Senden der Anfrage fortfahren oder so viele Informationen ausfüllen, wie verfügbar sind, und die Anfrage verlassen, um sie später abzuschließen. Workfront speichert die entworfene Anfrage, die Sie gestartet haben, im Entwurfsordner <span class="preview">oder in der Anfragenliste.</span>
+Sie können mit dem Senden der Anfrage fortfahren oder so viele Informationen ausfüllen, wie verfügbar sind, und die Anfrage verlassen, um sie später abzuschließen. Workfront speichert die von Ihnen gestartete Anfrage. Sie finden sie unter:
+
+* Neues anforderndes Erlebnis: Die Anfragenliste
+* Veraltete Anfrage von Erlebnis: Der Ordner „Drafts“
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    >Beachten Sie Folgendes bezüglich des neuen anfragenden Erlebnisses:
    >* Die Liste enthält die Workfront-Anfragewarteschlangen und Workfront Planning-Anfrageformulare.
    >* Sie können die Liste nach Objekttyp filtern.
-   >* <span class="preview">In der neuen anfordernden -Version finden sich Entwürfe in derselben Liste wie gesendete Anfragen</span>.
+   >* In der neuen anfordernden -Version befinden sich Entwürfe in derselben Liste wie die gesendeten Anfragen.
 
 1. (Bedingt) Wenn Sie zu der neuen -Version gewechselt sind, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter.
 

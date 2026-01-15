@@ -4,9 +4,9 @@ description: Verbesserungen bei Anfragen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Dieser Link ist nur für Planungsanfragen verfügbar, wenn die Anfrage selbst ei
 
 Zuvor enthielt diese Spalte nur den Namen des Objekts, nicht aber seinen Link.
 
-Informationen zum Auffinden dieser Links finden Sie unter Anweisungen zum Hinzufügen von Spalten:
+Informationen zum Auffinden dieser Links finden Sie unter:
 
 * [Gesendete Anfragen suchen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Verwenden des Widgets Meine Anfragen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
@@ -62,7 +62,7 @@ For more information on creating views for the Request list and My Requests widg
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zu dem neuen anfordernden Erlebnis auszutauschen. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen.
 
-Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [&#x200B; unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Informationen zu Anfrageansichten, einschließlich der Freigabe, finden [ unter „Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Hinzufügen benutzerdefinierter Felder zur Anfragenliste und zum Widget Meine Anfragen
 

@@ -6,16 +6,14 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
 
 # Verwenden des Widgets Meine Anfragen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -70,15 +68,11 @@ Sie können eine Anfrage direkt über das Widget Meine Anfragen erstellen.
 
 Anweisungen finden Sie [Erstellen einer Anfrage](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) im Artikel Erstellen von Arbeitselementen und Projekten im Bereich „Startseite“.
 
-<div class="preview">
-
 ## Anfrage kopieren
 
 Sie können eine Anfrage im Widget Meine Anfragen kopieren, bearbeiten und als neue Anfrage senden.
 
-Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
-
-</div>
+Anweisungen finden Sie unter [Kopieren und Senden von Anfragen in der neuen anfragenden ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience)) im Artikel Kopieren und Senden von Anfragen .
 
 ## Anfragen filtern
 
@@ -98,7 +92,7 @@ So konfigurieren Sie den Filter im Widget Meine Anfragen :
    * Status
    * Eingegeben von
 
-   <span class="preview">In der Vorschau -Umgebung können Sie auch nach beliebigen benutzerdefinierten Feldern filtern, die als Spalte hinzugefügt wurden      Zur Ansicht.</span>
+   Sie können auch nach allen benutzerdefinierten Feldern filtern, die der Ansicht als Spalte hinzugefügt wurden.
 
 1. Wählen Sie im nächsten Feld den Operator aus, den Sie für diese Filterbedingung verwenden möchten. Die verfügbaren Operatoren hängen vom gewählten Feld ab.
 1. (Bedingt) Wenn rechts neben dem Operator ein Feld angezeigt wird, wählen Sie den Wert aus, nach dem Sie filtern möchten.
@@ -135,9 +129,9 @@ So passen Sie die Spalten im Widget Meine Anfragen an:
 1. Klicken Sie im Widget Meine Anfragen auf **Spalten**.
 1. (Optional) Um die Spalten neu anzuordnen, klicken Sie auf den Ziehgriff ![Ziehgriff](assets/drag-handle.png) der Spalte, die Sie verschieben möchten, und ziehen Sie sie an die gewünschten Positionen. Die Spalte oben in der Liste wird im Widget Meine Anfragen als Spalte ganz links angezeigt.
 1. (Optional) Verwenden Sie den Umschalter, um zu steuern, ob eine Spalte im Widget „Meine Anfragen“ angezeigt wird.
-1. <span class="preview">Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie dem Widget als Spalte hinzufügen möchten.</span>
+1. Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie dem Widget als Spalte hinzufügen möchten.
 
-   <span class="preview">Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.</span>
+   Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.
 
 Spalteneinstellungen werden automatisch gespeichert.
 
@@ -153,11 +147,13 @@ So suchen Sie im Widget „Meine Anfragen“ nach bestimmten Anfragen:
 
 1. (Optional) Um zu den hervorgehobenen Anfragen zu springen, klicken Sie in der Suchleiste auf die Pfeile nach oben oder unten.
 
-<div class="preview">
-
 ## Navigieren Sie zu einem durch eine Anfrage erstellten Objekt
 
 Objekte, die durch eine Anfrage erstellt wurden, finden Sie im Widget Meine Anfragen .
+
+>[!NOTE]
+>
+>Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst ein Objekt erstellt hat. Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste in der neuen anfragenden -Version kein Link zu diesem konvertierten Objekt verfügbar.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Anfragen**.
@@ -166,4 +162,3 @@ Objekte, die durch eine Anfrage erstellt wurden, finden Sie im Widget Meine Anfr
 
    Die Seite des -Objekts wird geöffnet.
 
-</div>

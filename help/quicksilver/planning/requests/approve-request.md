@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -97,7 +97,7 @@ Genehmigende Personen erhalten die folgenden Benachrichtigungen über eine Anfra
 >
 >Damit Benutzerinnen und Benutzer E-Mail- und In-App-Benachrichtigungen empfangen können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.
 
-Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder <span class="preview"> Widget Meine Genehmigungen auf der Startseite zu erstellen.</span>
+Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder aus dem Widget Meine Genehmigungen auf der Startseite zu erstellen.
 
 * [Genehmigen einer Anforderung aus der Anforderung in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
 * [Genehmigen einer Anfrage über das Widget Meine Genehmigungen auf der Startseite](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -106,13 +106,13 @@ Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder <spa
 
 1. (Bedingt) Wenn Sie das veraltete anfordernde Erlebnis in Workfront verwenden, öffnen Sie die Anfrage, indem Sie einen der folgenden Schritte ausführen:
 
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **&#x200B;**&#x200B;Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
+   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **** Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
 
      >[!TIP]
      >
      >Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
 
-   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) &#x200B;](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
+   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) ](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
    * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
 
    Die Anfrageseite wird im schreibgeschützten Modus geöffnet.
@@ -133,8 +133,6 @@ Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder <spa
    * **Abgelehnt**: Die Anfrage wird abgelehnt.
 
    Die Anfrage verbleibt im Bereich Anfragen von Workfront.
-
-<div class="preview">
 
 ### Genehmigen einer Anfrage über das Widget Meine Genehmigungen auf der Startseite
 
@@ -160,4 +158,3 @@ Klicken Sie auf [!UICONTROL Startseite]-Symbol ![Startseite](/help/_includes/ass
    * **Abgeschlossen**: Die Anfrage wurde genehmigt.
    * **Abgelehnt**: Die Anfrage wird abgelehnt.
 
-</div>

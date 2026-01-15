@@ -5,16 +5,14 @@ title: Ansichten im Bereich Anfragen erstellen und verwalten
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
 
 # Ansichten im Bereich Anfragen erstellen und verwalten
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
 
@@ -68,7 +66,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
    {{step1-to-requests}}
 
-1. Klicken Sie in der Liste Anfragen auf das Dropdown **&#x200B;**&#x200B;Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+1. Klicken Sie in der Liste Anfragen auf das Dropdown **** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
@@ -86,9 +84,9 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
 
 1. (Optional) Um eine Ansicht umzubenennen, klicken Sie auf das **Ansichten** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und klicken Sie auf das Dreipunkt-Menü neben der Ansicht, wählen Sie **Umbenennen** aus und geben Sie dann den neuen Namen für die Ansicht ein.
 1. Klicken Sie auf **Ansichten** Dropdown-![Ansichten](assets/view-icon-requests.png) und wählen Sie die Ansicht aus, die Sie bearbeiten möchten.
-1. <span class="preview">Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie der Ansicht als Spalte hinzufügen möchten.</span>
+1. Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie der Ansicht als Spalte hinzufügen möchten.
 
-   <span class="preview">Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.</span>
+   >Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.
 
    >[!TIP]
    >
@@ -114,7 +112,7 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
    * **Status**: Der Status der Anfrage.
    * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage von einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
 
-   <span class="preview">In der Vorschau -Umgebung können Sie auch nach beliebigen benutzerdefinierten Feldern filtern, die der Ansicht hinzugefügt wurden.</span>
+   Sie können auch nach beliebigen benutzerdefinierten Feldern filtern, die der Ansicht hinzugefügt wurden.
 
    Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
 Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
@@ -125,6 +123,7 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 >
 > * Änderungen an Ansichten werden automatisch gespeichert.
 > * Änderungen an Ansichten sind für alle sichtbar, die die Ansicht verwenden.
+> * Um sicherzustellen, dass die Ansicht für die Person gilt, die die Ansicht verwendet, können Sie unabhängig davon, wer sie erstellt hat, den Platzhalter „Ich (angemeldeter Benutzer)“ in jedem Feld verwenden, das Benutzer als Wert hat.
 
 ## Hinzufügen der Ansicht zu einer Layout-Vorlage.
 

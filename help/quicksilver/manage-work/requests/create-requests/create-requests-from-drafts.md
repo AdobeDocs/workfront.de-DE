@@ -6,16 +6,14 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # Anforderungen aus Entwürfen erstellen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei der Eingabe einer neuen Anfrage vorschlägt, können Sie auch über den Abschnitt „Entwürfe“ auf eine Entwurfsanfrage zugreifen und die Übermittlung dort abschließen.
 
@@ -64,15 +62,10 @@ Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen k�
 
 Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwischen dem neuen anfragenden Erlebnis und dem alten Erlebnis.
 
-* <span class="preview">[Erstellen von Anfragen aus Entwürfen in der neuen anfordernden -Version](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Erstellen von Anfragen aus Entwürfen im neuen anfordernden Erlebnis](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Erstellen von Anfragen aus Entwürfen im alten anfordernden Erlebnis](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### Erstellen von Anfragen aus Entwürfen im neuen anfordernden Erlebnis
-
-
-
 
 1. Öffnen Sie den Entwurf.
 
@@ -98,8 +91,6 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 1. Nachdem Sie die Informationen für die Anfrage ausgefüllt haben, klicken Sie auf **Senden**.
 
    Wenn Sie die Anfrage senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
-
-</div>
 
 ### Erstellen von Anfragen aus Entwürfen im alten anfordernden Erlebnis
 

@@ -6,16 +6,14 @@ description: Sie können gesendete Anfragen oder Anfrageentwürfe löschen.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
 
 # Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar oder in der Produktionsumgebung für Kunden, die schnelle Versionen aktiviert haben.</span>
 
 Sie können gesendete Anfragen oder Anfrageentwürfe löschen, die Sie in der neuen Anfrageerfahrung erstellt haben. Workfront-Administratoren und Planning Workspace-Administratoren können Anfragen auch löschen.
 
@@ -63,16 +61,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-
-<div class="preview">
-
-## Löschanfragen (<!--or request drafts --> der neuen anfordernden Version)
+## Löschen von Anfragen oder Anfrageentwürfen in der neuen anfragenden -Version
 
 Sie können Anfragen im Bereich Anfragen von Workfront oder im Widget Meine Anfragen auf der Startseite löschen.
 
-* Workfront-Administratoren können Anfragen <!-- and drafts--> ihrer Organisation löschen.
-* Workfront Planning Workspace-Administratoren können <!--and drafts--> im Planning Workspace löschen, den sie verwalten.
-* Benutzer können von ihnen gesendete Anfragen <!--and drafts--> löschen.
+* Workfront-Administratoren können Anfragen und Entwürfe in ihrer Organisation löschen.
+* Workfront Planning Workspace-Administratoren können Anfragen und Entwürfe im Planning Workspace löschen, den sie verwalten.
+* Benutzer können von ihnen gesendete Anfragen und Entwürfe löschen.
 
 ### Löschen einer Anforderung aus dem Dreipunkt-Menü
 
@@ -86,12 +81,12 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder im Widget Meine Anfr
 
       Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Bewegen Sie in der Liste Anfragen oder im Widget Meine Anfragen den Mauszeiger über die Anfrage<!--or draft --> die Sie löschen möchten.
+1. Bewegen Sie in der Anfragenliste oder im Widget Meine Anfragen den Mauszeiger über die Anfrage oder den Entwurf, die bzw. den Sie löschen möchten.
 
    Ein Drei-Punkte-Menü Mehr wird angezeigt.
    ![](assets/more-menu.png)
 
-1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Namen der Anfrage <!--or draft--> anschließend auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Namen der Anfrage oder des Entwurfs und anschließend auf **Löschen**.
 
    ODER
 
@@ -103,7 +98,7 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder im Widget Meine Anfr
 
 1. Klicken Sie im daraufhin angezeigten Dialogfeld auf **Löschen**.
 
-   Die Anfrage <!--or draft--> wird gelöscht.
+   Anfrage oder Entwurf wird gelöscht.
 
 ### Massenlöschanfragen
 

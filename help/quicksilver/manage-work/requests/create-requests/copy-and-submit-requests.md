@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
 
 # Anforderungen kopieren und senden
 
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anfrage kopieren, minimal ändern und als neue Anfrage erneut senden.
 
@@ -224,8 +222,6 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
 
    Die kopierte Anfrage wird als neue Anfrage in der von Ihnen angegebenen Anfrage-Warteschlange gesendet.
 
-<div class="preview">
-
 ## Kopieren und Senden von Anfragen in der neuen anfordernden Version
 
 Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Meine Anfragen auf der Startseite kopieren und senden.
@@ -263,5 +259,4 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Mei
 
    Die kopierte Anfrage wird als neue Anfrage gesendet.
 
-</div>
 
