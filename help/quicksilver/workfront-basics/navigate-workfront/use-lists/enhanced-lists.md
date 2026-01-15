@@ -5,10 +5,10 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
+source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 1%
+source-wordcount: '1620'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Informationen zu den Standardlisten finden Sie unter [Erste Schritte mit Listen 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -89,23 +89,27 @@ Um ein Element in der Liste zu bearbeiten, doppelklicken Sie in die Zelle, die S
 
 ## Verwenden der Aktionsleiste und des Menüs Mehr in einer erweiterten Liste
 
-Wenn Sie das Kontrollkästchen neben einem Element in der erweiterten Liste aktivieren, wird die Aktionsleiste am unteren Bildschirmrand angezeigt und zeigt Aktionen an, die Sie für das Element ausführen können. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
+Die Aktionsleiste zeigt Aktionen an, die Sie für ein Listenelement ausführen können. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
 
->[!NOTE]
->
->Verschiedene erweiterte Listen ermöglichen möglicherweise die Auswahl eines einzelnen Elements, die Massenbearbeitung (die Auswahl mehrerer Elemente) oder die Auswahl keiner Elemente.
+1. Aktivieren Sie das Kontrollkästchen neben einem Element in der erweiterten Liste.
 
-Klicken Sie in der Aktionsleiste auf eine Schaltfläche, um diese Aktion auszuführen, z. B. das Anzeigen des Listenelements, das Löschen des Elements oder das Bearbeiten des Elements.
+   Die Aktionsleiste wird am unteren Bildschirmrand angezeigt.
 
-Wenn für das ausgewählte Element keine Aktionen verfügbar sind, wird in der Aktionsleiste „Keine verfügbaren Aktionen“ angezeigt.
+   >[!NOTE]
+   >
+   >Verschiedene erweiterte Listen ermöglichen möglicherweise die Auswahl eines einzelnen Elements, die Massenbearbeitung (die Auswahl mehrerer Elemente) oder die Auswahl keiner Elemente.
 
-![Beispiel für Aktionsleiste](assets/glist-action-bar-statuses.png)
+1. Klicken Sie in der Aktionsleiste auf eine Schaltfläche, um diese Aktion auszuführen, z. B. das Anzeigen des Listenelements, das Löschen des Elements oder das Bearbeiten des Elements.
 
-Das **Mehr**-Menü ist das Dreipunkt-Menü, das neben einem Primärfeld in einem Listenelement angezeigt wird, wenn Sie den Mauszeiger darüber bewegen. (Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet.)
+   Wenn für das ausgewählte Element keine Aktionen verfügbar sind, wird in der Aktionsleiste „Keine verfügbaren Aktionen“ angezeigt.
 
-Klicken Sie auf das Menü, um zusätzliche Aktionen für das Element anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
+   ![Beispiel für Aktionsleiste](assets/glist-action-bar-statuses.png)
 
-![Weitere Menübeispiele](assets/glist-more-menu-priorities.png)
+1. Bewegen Sie den Mauszeiger über ein Primärfeld auf einem Listenelement, um das Menü **Mehr** anzuzeigen. (Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet.)
+
+1. Klicken Sie auf das Menü, um zusätzliche Aktionen für das Element anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
+
+   ![Weitere Menübeispiele](assets/glist-more-menu-priorities.png)
 
 ## Anpassen von Spalten in einer erweiterten Liste
 
@@ -128,9 +132,31 @@ Einige erweiterte Listen ermöglichen es Ihnen, Spalten auszublenden und anzuzei
 
    ![Indikator für ausgeblendete Spalten](assets/glist-columns-hidden-indicator.png)
 
-## Anwenden einer Ansicht auf eine erweiterte Liste
+## Hinzufügen und Entfernen von Spalten in einer Liste mit dem Spalten-Manager
+
+Einige erweiterte Listen bieten den **Spalten-Manager**, mit dem Sie einfach Spalten zur Liste hinzufügen und Spalten entfernen können. Sowohl native als auch benutzerdefinierte Felder sind verfügbar und können als Spalten ausgewählt werden. Benutzerdefinierte Felder müssen im System vorhanden sein, bevor Sie sie als Listenspalten hinzufügen können.
+
+So fügen Sie Spalten hinzu und entfernen sie:
+
+1. Klicken Sie oben rechts in der Tabelle auf das Symbol &quot;+&quot;, um das Feld **Spalten-Manager“** öffnen.
+1. Suchen Sie in der Spalte **Verfügbar** nach einem vorhandenen Objektfeld und klicken Sie dann rechts neben dem Feldnamen auf + , um es der Spalte **Ausgewählt** hinzuzufügen.
+1. Klicken Sie rechts neben einem Feld in der Spalte **Ausgewählt**, um es aus der Liste zu entfernen.
+
+   >[!NOTE]
+   >
+   >Einige Felder sind möglicherweise unveränderlich und können nicht entfernt werden.
+
+1. Klicken Sie auf **Speichern**.
+
+   ![Spalten-Manager](assets/glist-column-manager.png)
+
+<!-- Add info about Properties and KPIs when something gets released with those options -->
+
+## Anzeigen von Daten mit Ansichten in einer erweiterten Liste
 
 Eine Ansicht ist ein personalisierter Satz von Spaltenanordnungen und Filtern, die Sie auf eine Liste anwenden können. Sie können neue Ansichten erstellen und vorhandene Ansichten bearbeiten.
+
+### Anwenden und Erstellen von Ansichten
 
 Um eine Ansicht anzuwenden, klicken Sie auf **Dropdown** und wählen Sie die Ansicht aus, die Sie auf die Liste anwenden möchten.
 
@@ -144,6 +170,27 @@ Erstellen einer neuen Ansicht:
    Änderungen an Ansichten werden automatisch gespeichert und die Änderungen sind für alle sichtbar, die die Ansicht verwenden.
 
    Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
+
+### Ansicht freigeben
+
+In der **Ansichten** Dropdown-Liste werden möglicherweise drei Kategorien von Ansichten angezeigt:
+
+* **Systemansichten**: Ansichten, die Ihnen vom Systemadministrator zugewiesen wurden.
+* **Freigegebene**: Ansichten, die von anderen Benutzern für Sie freigegeben wurden.
+* **Meine Ansichten**: Ansichten, die Sie erstellt haben und für andere freigeben können. Sie können Ansichten für andere Benutzer, Teams oder Gruppen freigeben.
+
+So geben Sie eine Ansicht frei:
+
+1. Bewegen Sie in **Dropdown** Ansicht“ den Mauszeiger über die Ansicht in **Meine Ansichten**, die Sie freigeben möchten, und klicken Sie dann auf das Dreipunkt-Menü, wenn es angezeigt wird.
+1. Wählen Sie **Freigeben** aus.
+1. Geben Sie im Dialogfeld Freigeben die Namen der Benutzer, Teams oder Gruppen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus, wenn sie angezeigt werden.
+
+   Sie können den Empfängerinnen und Empfängern die folgenden Berechtigungen erteilen:
+
+   * **Ansicht**: Benutzer können die Ansicht auf die Liste anwenden, sie jedoch nicht freigeben.
+   * **Verwalten**: Benutzer können die Ansicht umbenennen, sie für andere freigeben und löschen.
+
+1. Klicken Sie auf **Speichern**.
 
 ## Elemente in einer erweiterten Liste filtern und gruppieren
 
@@ -160,6 +207,10 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
    ![Filter in erweiterten Listen](assets/glist-filter-with-options.png)
 
    Der Filter wird automatisch auf die Liste angewendet.
+
+   >[!TIP]
+   >
+   >Um einen Platzhalter für einen aktuellen Benutzer anzuwenden, wählen Sie **Ich (angemeldeter Benutzer)** als Feldwert aus. Der Filter gilt dann für den Benutzer, der die Liste anzeigt. Dieser Platzhalter ist in Feldern verfügbar, in denen der Wert ein Benutzer ist.
 
 1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung als OR-Anweisung hinzuzufügen.
 1. Wenn der Filter angewendet wird, können Sie die Optionen **Filter** erneut öffnen, um die Filteroptionen zu ändern oder alle Filter zu löschen.
@@ -185,18 +236,26 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 
 ## Sortieren und Suchen in einer erweiterten Liste
 
-Um einzelne Spalten zu sortieren, gehen Sie zur Spalte und klicken Sie auf den Abwärtspfeil. Ein Symbol neben einem Spaltennamen gibt an, dass die Liste nach den Werten in dieser Spalte und der Sortierrichtung sortiert wird.
+So sortieren Sie einzelne Spalten:
 
->[!NOTE]
->
->Einige Spalten sind möglicherweise nicht sortierbar.
+1. Wechseln Sie zur Spalte und klicken Sie auf den Abwärtspfeil.
 
-![Nach Spalte sortieren](assets/glist-sort-by-column.png)
+   Ein Symbol neben einem Spaltennamen gibt an, dass die Liste nach den Werten in dieser Spalte und der Sortierrichtung sortiert wird.
 
-Um Ihre Arbeit innerhalb einer Gruppierung zu sortieren, öffnen Sie **Gruppe** und wählen Sie aus, ob Sie in auf- oder absteigender Reihenfolge sortieren möchten.
+   >[!NOTE]
+   >
+   >Einige Spalten sind je nach Liste möglicherweise nicht sortierbar.
 
-![Sortieren in einer Gruppierung](assets/sort-in-groups.png)
+   ![Nach Spalte sortieren](assets/glist-sort-by-column.png)
 
-Geben Sie zum Suchen Ihren Suchbegriff in das Suchfeld über der Liste ein. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
+So sortieren Sie Ihre Arbeit innerhalb einer Gruppierung:
 
-![Suchbegriff hervorgehoben](assets/glist-search-highlighted.png)
+1. Klicken Sie **Gruppe** und wählen Sie aus, ob Sie in auf- oder absteigender Reihenfolge sortieren möchten.
+
+   ![Sortieren in einer Gruppierung](assets/sort-in-groups.png)
+
+Zum Suchen:
+
+1. Geben Sie den Suchbegriff in das Suchfeld oberhalb der Liste ein. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
+
+   ![Suchbegriff hervorgehoben](assets/glist-search-highlighted.png)
