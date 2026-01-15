@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '708'
 ht-degree: 4%
 
 ---
@@ -37,10 +37,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront-Verbesserungen
 
-
+* [Administrator-Verbesserungen](#administrator-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
+### Administrator-Verbesserungen
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Neue IP-Adressen für Workfront-E-Mail-Benachrichtigungen</a><p></p>
+            <p>Die zum Senden von E-Mail-Benachrichtigungen von Workfront verwendeten IP-Adressen werden aktualisiert. Wenn Ihr Unternehmen eine E-Mail- oder Firewall-Zulassungsliste unterhält<b> müssen </b> die folgenden neuen IP-Adressen hinzufügen, um den fortlaufenden Versand von Workfront-Benachrichtigungen sicherzustellen.</p><p>Diese Aktualisierungen gelten für alle von der Workfront-Anwendung generierten ausgehenden E-Mails, einschließlich Genehmigungen, Erinnerungen, Korrekturabzugs-Benachrichtigungen und anderer Systemnachrichten.</p>
+            <ul>
+            <li>USA:
+            <ul>
+            <li>206.55.149.212</li>
+            <li>206.55.149.214</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
+            </ul>
+            </li>
+            <li>EU: 
+            <ul>
+            <li>24.110.76.224</li>
+            <li>24.110.76.223</li>
+            </ul>
+            </li>
+            </ul> </p>
+        </td>
+        <td><p>Freitag, 15. Januar 2026</p></td>
+        <td><p>Freitag, 15. Januar 2026</p></td>
+        <td><p>Freitag, 15. Januar 2026</p></td>
+    <tr>
+            </tbody>
+        </table>
 
 ### Weitere Verbesserungen
 
@@ -135,7 +174,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
