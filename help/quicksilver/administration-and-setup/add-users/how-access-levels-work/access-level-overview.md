@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,7 @@ Diese Zugriffsebene ist an die Light-Lizenz angehängt und richtet sich an Benut
 * Alle Elemente und Aktualisierungen im Zusammenhang mit der Arbeit anzeigen
 * Projekte, Aufgaben und Probleme genehmigen
 * Anzeigen von Dashboards und Berichten
-* Zeit bei Aufgaben und Problemen verfolgen und Arbeitszeittabellen genehmigen
+* Zeit für Projekte, Aufgaben und Probleme verfolgen und Arbeitszeittabellen genehmigen
 * Probleme erstellen und verwalten
 
 Benutzende mit der Zugriffsebene Light:
@@ -125,6 +125,7 @@ Benutzende mit der Zugriffsebene Light:
 * Kann Arbeitselementen zugewiesen werden, sie können jedoch nicht abgeschlossen werden.
 * Kann im Hauptmenü auf Anfragen und Dokumente zugreifen.
 * Die Möglichkeit, Objekte zu erstellen, ist eingeschränkt. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
+* Die Zeit kann nur auf Projektebene protokolliert werden, wenn Bearbeitungszugriff aktiviert ist. Sie können keine Projekte erstellen, bearbeiten, löschen oder freigeben.
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
   <tr> 
    <td>Projekte</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓ (für die Protokollierung der Zeit auf Projektebene)</td> 
   </tr> 
   <tr> 
    <td>Aufgaben</td> 

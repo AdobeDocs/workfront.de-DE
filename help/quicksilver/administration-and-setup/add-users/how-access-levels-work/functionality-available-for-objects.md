@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 14%
@@ -32,7 +32,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
@@ -53,7 +53,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 | Aufgaben hinzufügen | ✓ |   |   |   |
 | Aktualisierungen/Kommentare abgeben | ✓ | ✓ | ✓ |   |
 | Status ändern | ✓ |   |   |   |
-| Stunden protokollieren | ✓ | <span class="preview">✓</span> |   |   |
+| Stunden protokollieren | ✓ | ✓ |   |   |
 | Zuweisungen bearbeiten | ✓ |   |   |   |
 | Verwalten einer Grundlinie | ✓ |   |   |   |
 | Risiken managen | ✓ |   |   |   |
