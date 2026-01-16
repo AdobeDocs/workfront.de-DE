@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Die folgenden [!DNL Adobe Workfront] Blueprints können von Systemadministratoren installiert werden. Weitere Informationen zu Blueprints finden Sie unter [Blueprints - Übersicht](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-[!BADGE Neu!]{type=Informative} **[!UICONTROL Aktive Benutzeranalyseberichte]**
+**[!UICONTROL Aktive Benutzeranalyseberichte]**
 Dieser Blueprint enthält ein Dashboard, das Admins bei der Überprüfung der Benutzereinrichtung, der Erkennung von Ausrichtungsfehlern und der Sicherstellung der Unterstützung von Konfigurationen für die beabsichtigte Verwendung von Anwendungen unterstützt&#x200B;
 
 **[!UICONTROL Neue Mitarbeiter-IT-Checkliste hinzufügen]**
@@ -30,7 +30,7 @@ Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Se
 **[!UICONTROL Jährliche Haushaltsplanung]**
 Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation seit Jahren bei Implementierungsprojekten mit Finanz-Teams verwendet, um die Aktivitäten im Zusammenhang mit der jährlichen Budgetplanung zu organisieren. Die Vorlage hilft dabei, Erwartungen an Geschäftsbereichsleiter zu stellen und führt sie durch den Prozess zur Anforderung und Reservierung von Budgets während des jährlichen Planungsprozesses.
 
-[!BADGE Neu!]{type=Informative} **[!UICONTROL Baseline-Dashboard]**
+**[!UICONTROL Baseline-Dashboard]**
 Diese Blueprint enthält ein Dashboard, über das Sie intelligentere, schnellere Projektentscheidungen treffen können. Baselines ermöglichen es Ihnen, das Geplante mit dem Geschehenen zu vergleichen, sodass Sie Problemaufgaben, Berechnung und Projekttrends auf einen Blick erkennen können. Das Baseline-Dashboard enthält diese Berichte: Baseline | In Bearbeitung befindliche Projekte, Baseline | Abgeschlossene Projekte, Baseline | In Bearbeitung befindliche Aufgaben und Baseline | Abgeschlossene Aufgaben.
 
 **[!UICONTROL Lieferplan für vertraglich vereinbarte Services]**

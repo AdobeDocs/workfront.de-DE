@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 * [Schweregrad](#severity)
 * [Status](#status)
 * [Voreinstellungen für Aufgaben und Probleme](#tasks-issues-preferences)
-* [Benutzerin bzw. Benutzer](#user)
+* [Benutzerin oder Benutzer](#user)
 <!--* [Login Attempt](#login-attempt) -->
 
 ### Zugriffsebene {#access-level}
@@ -236,7 +236,7 @@ Das System generiert einen Eintrag im Administratorprotokoll für eine Gruppe, w
    * Fügt Benutzer hinzu oder entfernt sie
    * Fügt Untergruppen hinzu oder entfernt sie
 
-### s {#job-role}
+### Aufgabengebiete {#job-role}
 
 Das System generiert einen Eintrag im Administratorprotokoll für Aufgabengebiete, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
@@ -343,7 +343,7 @@ Das System generiert einen Auditprotokolleintrag mit Einstellungen für Aufgaben
 
 Weitere Informationen zu den Voreinstellungen für Aufgaben und Probleme finden Sie unter [Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-### Benutzerin bzw. Benutzer {#user}
+### Benutzerin oder Benutzer {#user}
 
 Das System generiert einen Benutzerüberwachungsprotokolleintrag, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
