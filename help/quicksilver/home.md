@@ -24,7 +24,7 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
 * [Adobe Workfront Planning-Versionsaktivität](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
 * [Adobe Workfront Fusion-Veröffentlichungen](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
->Versionen [!TAB 2026]
+>[!TAB Versionen  2026]
 
 * [Übersicht über die Version 2026 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
@@ -32,7 +32,7 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
 
 
 
->Versionen [!TAB 2025]
+>[!TAB Versionen  2025]
 
 * [Versionsübersicht für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [Versionsübersicht für das dritte Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
