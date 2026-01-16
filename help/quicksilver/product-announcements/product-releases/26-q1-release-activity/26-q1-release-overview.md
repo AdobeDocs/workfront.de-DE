@@ -4,7 +4,7 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
+source-git-commit: d66ff030bbc06436c9212352e53fbd9f8241d8c0
 workflow-type: tm+mt
 source-wordcount: '2885'
 ht-degree: 5%
@@ -499,8 +499,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Um Unternehmen den Zugriff auf die Vorteile von Adobe Unified Experience zu ermöglichen, stellen wir es bestehenden Workfront-Kunden weiterhin zur Verfügung.</p>
         </td>
         <td><p>Freitag, 11. Dezember 2025</p></td>
-        <td><p>Freitag, 15. Januar 2026</p></td>
-        <td><p>Freitag, 15. Januar 2026</p></td>
+        <td><p>Donnerstag, 11. Februar 2026</p></td>
+        <td><p>Donnerstag, 11. Februar 2026</p></td>
     <tr>
             </tbody>
         </table>
@@ -602,7 +602,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
