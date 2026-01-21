@@ -1,5 +1,5 @@
 ---
-title: 'Der Blueprint des Erfolgs: Modellieren der Kampagnenhierarchie'
+title: 'Das Framework des Erfolgs: Modellieren Ihrer Kampagnenhierarchie'
 description: Erfahren Sie, wie Sie Ihre komplexen Geschäftsprozesse mithilfe von „Schwerpunkten“ und einer Architektur mit mehreren Arbeitsbereichen in eine skalierbare, gesteuerte Kampagnenhierarchie übersetzen können.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# Der Blueprint des Erfolgs: Modellieren der Kampagnenhierarchie
+# Das Framework für den Erfolg: Modellieren Ihrer Kampagnenhierarchie
 
 
 
@@ -31,7 +31,7 @@ Mit der Skalierung Ihrer Marketing-Vorgänge steigt auch die Komplexität Ihrer 
 
 
 
-Der „Blueprint of Success“ ist ein Framework zur Modellierung Ihrer Kampagnenhierarchie in Workfront Planning (WFP). Sie versetzt Sie vom „Tabellenchaos“ in ein geregeltes, objektorientiertes Modell, das sicherstellt, dass jedes Team dieselbe Sprache spricht und gleichzeitig die Agilität beibehält, die es ausführen muss.
+Der „Blueprint of Success“ ist ein Framework zur Modellierung Ihrer Kampagnenhierarchie in Workfront Planning. Sie versetzt Sie vom „Tabellenchaos“ in ein geregeltes, objektorientiertes Modell, das sicherstellt, dass jedes Team dieselbe Sprache spricht und gleichzeitig die Agilität beibehält, die es ausführen muss.
 
 
 
@@ -77,7 +77,7 @@ Sobald der Kernpfad festgelegt ist, können Unternehmen nach sorgfältiger Abwä
 
 * **Kanalpläne:** eine Ebene zwischen *Kampagnen* und *Taktiken*, um funktionsübergreifende Strategien zu gruppieren (z. B. „Digitale Strategie„).
 
-* **WFP-Aktivitäten:** In Umgebungen mit niedrigerem Volumen (in der Regel &lt; 5.000 Ergebnisse/Jahr) verfolgen einige Teams individuelle „Erlebnisse“ lieber als WFP-Datensätze, bevor sie zu Projekten werden.
+* **Workfront-Planungsaktivitäten:** In Umgebungen mit niedrigerem Volumen (in der Regel &lt; 5.000 Leistungen/Jahr) verfolgen einige Teams lieber einzelne „Erlebnisse“ als Workfront-Planungsdatensätze, bevor sie zu Projekten werden.
 
 
 >[!TIP]
@@ -156,9 +156,9 @@ Workfront Planning ist zwar die Zukunft der strategischen Absicht, doch die nati
 
 * **Die Empfehlung** Löschen Sie Ihre Portfolios und Programme noch nicht. Verwenden Sie stattdessen **Fusion-Automatisierungen**, um eine Brücke zu erstellen.
 
-* **Funktionsweise:** Wenn eine Taktik oder Kampagne in WFP erstellt wird, kann Fusion diesen Datensatz automatisch in eine entsprechende Portfolio oder ein entsprechendes Programm im Workflow-Modul spiegeln. Auf diese Weise können Sie:
+* **Funktionsweise:** Wenn in Workfront Planning eine Taktik oder Kampagne erstellt wird, kann Fusion diesen Datensatz automatisch in eine entsprechende Portfolio oder ein entsprechendes Programm im Workflow-Modul spiegeln. Auf diese Weise können Sie:
 
-   1. Genießen Sie die überlegene **strategische Visualisierung** (Timelines/Kalender) des WFP.
+   1. Nutzen Sie die überlegene **strategische Visualisierung“ (**/Kalender) von Workfront Planning.
 
    2. Pflegen Sie Ihre **veralteten Berichte** im Workflow-Modul für Stakeholder, die noch nicht bereit sind, zur Arbeitsfläche zu wechseln.
 
@@ -170,7 +170,7 @@ Workfront Planning ist zwar die Zukunft der strategischen Absicht, doch die nati
 
 * **Bestimmen Primärer Arbeitsbereiche.** Stellen Sie sicher, dass jeder Datensatztyp über einen „Home“-Arbeitsbereich (den Schwerpunkt) verfügt, der als Aggregator für das Reporting dient.
 
-* **Priorisieren von Forms für die Aufnahme.** Verwenden Sie Datensatzformulare für Gruppen mit weniger Komplexität in WFP, um die Integrität der Metadaten sicherzustellen. Während Power-User von der direkten Dateneingabe in Tabellenansichten profitieren können, sollte dies mit Vorsicht angegangen werden. Massenänderungen in einer Tabelle können leicht zu Datenproblemen für andere Stakeholder führen.
+* **Priorisieren von Forms für die Aufnahme.** Verwenden Sie Datensatzformulare für Gruppen mit weniger Komplexität in der Workfront-Planung, um die Integrität der Metadaten sicherzustellen. Während Power-User von der direkten Dateneingabe in Tabellenansichten profitieren können, sollte dies mit Vorsicht angegangen werden. Massenänderungen in einer Tabelle können leicht zu Datenproblemen für andere Stakeholder führen.
 
 
 ### Nicht:

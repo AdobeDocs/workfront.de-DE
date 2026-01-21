@@ -1,15 +1,15 @@
 ---
 title: 'Das 30-tägige LaunchPad: Rollout Ihrer strategischen Startseite'
-description: Erfahren Sie, wie Sie Workfront Planning (WFP) mit einer Strategie einführen, die psychische Sicherheit priorisiert, Störungen minimiert und schnelle Erfolge liefert.
+description: Erfahren Sie, wie Sie Workfront Planning mithilfe einer Strategie einführen, die psychologischer Sicherheit Priorität einräumt, Störungen minimiert und schnelle Erfolge liefert.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Ziel
 
-Erfahren Sie, wie Sie Workfront Planning (WFP) mit einer Strategie einführen, die psychische Sicherheit priorisiert, Störungen minimiert und schnelle Erfolge liefert.
+Erfahren Sie, wie Sie Workfront Planning mithilfe einer Strategie einführen, die psychologischer Sicherheit Priorität einräumt, Störungen minimiert und schnelle Erfolge liefert.
 
 
 
@@ -48,9 +48,9 @@ Um diesen evolutionären Wandel zu aktivieren, wählt man ein Pilotteam, das ber
 
 
 
-* **Der Parallelpfad (Dual-Tracking):** Team behält seinen aktuellen Workflow bei und modelliert gleichzeitig den nächsten Planungszyklus im WFP. Dies schafft „Muskelgedächtnis“ und Vertrauen, ohne das Risiko eines Single Point of Failure.
+* **Der Parallelpfad (Dual-Tracking):** Das Team behält den aktuellen Workflow bei und modelliert gleichzeitig den nächsten Planungszyklus in Workfront Planning. Dies schafft „Muskelgedächtnis“ und Vertrauen, ohne das Risiko eines Single Point of Failure.
 
-* **Der klare Schnitt:** Nach einer ersten Design-Übung mit Beispieldaten zur Validierung des Modells verschiebt das Team seinen „Live“-Planungs-Startpunkt direkt in das WFP für den nächsten Zyklus.
+* **Der klare Schnitt:** Nach einer ersten Design-Übung mit Beispieldaten zur Validierung des Modells verschiebt das Team seinen „Live“-Planungs-Startpunkt direkt in Workfront Planning für den nächsten Zyklus.
 
 
 
@@ -82,7 +82,7 @@ Diese **Team-First**-Architektur ermöglicht Folgendes:
 
 * **Mit der Strategie verbinden, um zu funktionieren** Aktivieren Sie die Verknüpfung zwischen Ihren Planungsdatensätzen und dem Workflow-Modul.
 
-* **Aktuelle Daten spiegeln** Verwenden Sie die vorhandenen Tools des Teams (Excel/Core), um das WFP zu füllen, damit die Daten vertraut und relevant sind.
+* **Aktuelle Daten spiegeln** Verwenden Sie die bestehenden Tools des Teams (Excel/Core), um Workfront Planning zu füllen, um sicherzustellen, dass die Daten vertraut und relevant sind.
 
 * **Für Flexibilität entwickelt:** Denken Sie daran, dass die Workfront-Planung so konzipiert ist, dass sie sich weiterentwickelt. Sie können mit Prozessen auf Team-Ebene beginnen und diese einfach in die Governance auf Unternehmensebene hochstufen oder migrieren, wenn das Unternehmen bereit ist.
 
@@ -102,7 +102,7 @@ Ziel für den 15. Tag: **automatisierte Projekterstellung**.
 
 ### Tage 16-30: Schrittweiser Übergang zum Unternehmensmaßstab
 
-Mit dem erreichten „Blitzmoment“ verschieben Sie den Startpunkt des Teams in das WFP. Wenn dieses **Team-First**-Modell erfolgreich ist, beginnen Sie den Weg in Richtung **Enterprise-Scale** indem Sie Muster identifizieren, die funktionieren.
+Wenn der „Blitzmoment“ erreicht ist, verschieben Sie den Startpunkt des Teams in Workfront Planning. Wenn dieses **Team-First**-Modell erfolgreich ist, beginnen Sie den Weg in Richtung **Enterprise-Scale** indem Sie Muster identifizieren, die funktionieren.
 
 
 
@@ -110,7 +110,7 @@ Mit dem erreichten „Blitzmoment“ verschieben Sie den Startpunkt des Teams in
 
 * **Beobachten und standardisieren** Verwenden Sie die Primäre Workspace, um zu beobachten, wie das Pilotteam das Tool verwendet. Diese realen Beispiele prägen Ihr mögliches Unternehmensdesign.
 
-* **Legacy-Tabellen stilllegen:** Mit zunehmender Reife des Prozesses vollständig in das WEP eingliedern.
+* **Legacy-Tabellen stilllegen:** Sie im Laufe der Reife vollständig in die Workfront-Planung ein.
 
 * **Shift Power-Benutzer:** Verwenden Sie die **Tabellenansicht** für die direkte und schnelle Planverwaltung.
 
@@ -126,7 +126,7 @@ Achten Sie auf diese frühen Indikatoren für Gesundheit:
 
 * **Effizienz:** Automatisierung verkürzt den Zeitaufwand von der strategischen Validierung bis zum Projektstart.
 
-* **Vertrauen:** Stakeholder verwenden für Überprüfungen WFP-Zeitpläne anstelle manueller Statusberichte.
+* **Vertrauen:** Stakeholder verwenden für Überprüfungen Zeitpläne für die Workfront-Planung anstelle manueller Statusberichte.
 
 
 
