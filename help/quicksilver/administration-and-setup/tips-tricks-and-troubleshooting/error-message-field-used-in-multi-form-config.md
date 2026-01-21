@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,15 @@ Um diesen Konflikt zu lösen, müssen Sie das -Objekt finden, an das mehrere For
 * Fügen Sie in allen benutzerdefinierten Formularen, die an das -Objekt angehängt sind, ein neues berechnetes benutzerdefiniertes Feld hinzu, das die benötigte Berechnung enthält, und markieren Sie das alte berechnete benutzerdefinierte Feld als veraltet.
 
 In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Problem auf eine dieser drei Arten beheben können.
+
+>[!NOTE]
+>
+>Wenn der Fehler angezeigt wird, Sie jedoch nicht mehr als ein Objekt finden können, das das benutzerdefinierte Feld enthält, überprüfen Sie den Papierkorb. Es ist möglich, dass ein Objekt im Papierkorb das Feld enthält. Da Objekte im Papierkorb jederzeit wiederhergestellt werden können, tritt der Multiform-Konfliktfehler weiterhin auf, bis der Konflikt behoben ist.
+>
+>Um ein Feld mit einem anderen Ausdruck hinzuzufügen, müssen Sie diesen Konflikt lösen, indem Sie einen der folgenden Schritte ausführen:
+>
+>* Entfernen des Felds aus dem widersprüchlichen benutzerdefinierten Formular
+>* Stellen Sie das gelöschte Objekt wieder her, trennen Sie eines der widersprüchlichen benutzerdefinierten Formulare, und löschen Sie das Objekt dann bei Bedarf erneut.
 
 ## Suchen des Objekts, an das die benutzerdefinierten Formulare angehängt sind {#find-the-object-where-the-custom-forms-are-attached}
 
