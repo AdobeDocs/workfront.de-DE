@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -109,12 +109,12 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Anfrageformulare erstellen und verwalten
    * Automatisierungen erstellen und verwalten
 
-* Die Datensätze, die Sie einem globalen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den Arbeitsbereich verfügen, in dem sie hinzugefügt wurden. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
+* Die Datensätze, die Sie einem globalen Datensatztyp hinzufügen, sind nur für Benutzer sichtbar, die über Anzeigeberechtigungen für den Arbeitsbereich verfügen, in dem sie hinzugefügt wurden.
 * Die Datensätze, die Sie aus einem sekundären Arbeitsbereich hinzufügen, werden aggregiert und im ursprünglichen Arbeitsbereich angezeigt. Alle Mitglieder des ursprünglichen Arbeitsbereichs erhalten Ansichtsberechtigungen für sie.
 * Wenn der ursprüngliche globale Datensatztyp mehreren sekundären Arbeitsbereichen hinzugefügt wird, existieren die folgenden Szenarien:
 
    * Mitglieder des ursprünglichen Arbeitsbereichs erhalten automatisch Ansichtsberechtigungen für alle Datensätze, die aus einem Arbeitsbereich hinzugefügt wurden, selbst wenn sie nicht Mitglieder dieser Arbeitsbereiche sind.
-   * Sekundäre Arbeitsbereichsmitglieder können nur Datensätze aus Arbeitsbereichen anzeigen, in denen sie Mitglied sind. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+   * Sekundäre Arbeitsbereichsmitglieder können nur Datensätze aus Arbeitsbereichen anzeigen, in denen sie Mitglied sind.
 
 * Die mit einem globalen Datensatztyp verbundenen Datensatztypen werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
 
@@ -172,23 +172,16 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Anfrageformulare erstellen und verwalten
    * Automatisierungen erstellen und verwalten
 
-* In einem sekundären Arbeitsbereich hinzugefügte Datensätze sind nur dann in den folgenden Arbeitsbereichen sichtbar, wenn Sie über die Berechtigung zum Anzeigen oder eine höhere Berechtigung für diese Arbeitsbereiche verfügen:
+* In einem sekundären Arbeitsbereich hinzugefügte Datensätze sind in den folgenden Arbeitsbereichen sichtbar, wenn Sie über Anzeigen- oder höhere Berechtigungen für diese Arbeitsbereiche verfügen:
 
-   * Der sekundäre Arbeitsbereich, in dem sie hinzugefügt werden.
-   * Der ursprüngliche Arbeitsbereich des globalen Datensatztyps.
-   * Alle anderen Arbeitsbereiche, bei denen der globale Arbeitsbereich hinzugefügt wird.
-
-  <!--replace he above bullet with this: 
-        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
-        * The secondary place where they were added
-        * The global record type's original workspace
-    -->
+   * Der sekundäre Ort, an dem sie hinzugefügt wurden
+   * Der ursprüngliche Arbeitsbereich des globalen Datensatztyps
 
 * Die folgenden Szenarien existieren für Datensätze, die in sekundären Arbeitsbereichen erstellt wurden:
 
    * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Arbeitsbereich und keine Berechtigungen für sekundäre Arbeitsbereiche verfügen, können Sie Datensätze anzeigen, die von den sekundären Arbeitsbereichen im ursprünglichen Arbeitsbereich hinzugefügt wurden. Sie können diese jedoch nicht über den ursprünglichen Arbeitsbereich verwalten.
    * Wenn Sie über Verwaltungsberechtigungen für den sekundären Arbeitsbereich verfügen, können Sie die Datensätze sowohl aus dem ursprünglichen Arbeitsbereich des globalen Datensatztyps als auch aus dem sekundären Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
-   * Sie können die Datensätze in zusätzlichen sekundären Arbeitsbereichen anzeigen, bei denen der globale Datensatztyp nur hinzugefügt wird, wenn Sie über Anzeigeberechtigungen für diese Arbeitsbereiche verfügen. <!-- take this bullet out when we change this functionality on Jan 15-->
+     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * Es ist nicht möglich, Ansichten eines globalen Datensatztyps in einem sekundären Arbeitsbereich öffentlich freizugeben.
 
 ### Zugriff auf die Verbindungen eines globalen Datensatztyps

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 2%
+source-wordcount: '1547'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 # Datensatztypen freigeben
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe &#x200B;](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
+>* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
 
@@ -186,7 +186,6 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
-
 ## Freigeben von Berechtigungen für einen Datensatztyp
 
 Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpassen, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
@@ -205,11 +204,6 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
    ![Berechtigungen für Datensatztypen mit geerbten Berechtigungen für](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Optional) Im Bereich **Wer Zugriff hat** ist die Option **Jeder Benutzer im Arbeitsbereich kann** anzeigen) standardmäßig ausgewählt.  Alle Benutzenden mit Ansichts- oder höheren Berechtigungen für den Arbeitsbereich können den Datensatztyp anzeigen.
-
-   >[!WARNING]
-   >
-   >Datensatztypen können nicht für einzelne Benutzer freigegeben werden. Wenn Sie dem Datensatztyp einzelne Benutzer hinzufügen, werden diese auch dem Arbeitsbereich hinzugefügt.
-
 
 1. (Optional) Klicken Sie unter der Option **Vererbte Berechtigungen** auf die Anzahl der Benutzer, um Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete anzuzeigen, die Berechtigungen vom Arbeitsbereich erben.
 
@@ -235,6 +229,7 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
    >* Sie können Benutzenden keine geringere Berechtigung als „Verwalten“ für einen Datensatztyp erteilen, wenn sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
    >* Sie können Benutzenden eine geringere Berechtigung für den Datensatztyp erteilen, wenn sie über die Berechtigung Beitragen für den Arbeitsbereich verfügen.
    > Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Wenn Sie einen Datensatztyp für einen Benutzer freigeben, werden sein primäres Aufgabengebiet <span class="preview">und seine E-Mail</span> ebenfalls im Feld angezeigt. Damit Sie die E-Mail-Adresse des Benutzers anzeigen können, muss für das Benutzerobjekt in Ihrer Zugriffsebene die Einstellung „Kontaktinformationen anzeigen“ aktiviert sein.
 
 1. Wenn Sie Benutzenden, die keine Berechtigung zum Anzeigen eines Datensatztyps haben, Zugriff auf den Arbeitsbereich gewähren möchten, geben Sie im Feld **Zugriff auf diese Ansicht gewähren** zunächst den Namen eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets ein. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * Alle Originalfelder
       * Alle Datensatzverbindungen
-   * Sie können Datensätze, die von anderen Arbeitsbereichen mit demselben globalen Datensatztyp hinzugefügt wurden, nur anzeigen, wenn Sie mindestens über die Berechtigung zum Anzeigen dieser Arbeitsbereiche verfügen. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * Sie können keine Datensätze anzeigen, die aus dem ursprünglichen Arbeitsbereich des Datensatztyps aus dem sekundären Arbeitsbereich hinzugefügt wurden.
+   * Sie können Datensätze, die aus dem ursprünglichen Arbeitsbereich des Datensatztyps in diesem Arbeitsbereich hinzugefügt wurden, nur im ursprünglichen Arbeitsbereich anzeigen, wenn Sie mindestens über die Berechtigung Anzeigen für diesen Arbeitsbereich verfügen.
    * Das schreibgeschützte Feld **Workspace** wird der neuen Tabellenansicht vom Typ Datensatz hinzugefügt. Das Feld zeigt den Arbeitsbereich an, in dem die einzelnen Datensätze erstellt wurden.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
-1. (Optional) Klicken Sie auf der Karte des neuen Datensatztyps **das Menü** Mehr oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
+1. (Optional) Klicken Sie auf **Karte des neuen Datensatztyps oder** rechts neben dem Namen des Datensatztyps auf der Seite auf das Menü „Mehr“ und dann auf eine der folgenden Aktionen:
+
+   * **Freigeben**, um den Datensatztyp aus dem sekundären Arbeitsbereich freizugeben.
+   * **Löschen**, um den Datensatztyp aus dem sekundären Arbeitsbereich zu löschen. Durch Löschen von Datensatztypen aus dem sekundären Arbeitsbereich werden auch aus dem sekundären Arbeitsbereich hinzugefügte Datensätze gelöscht.
+
+     Aus dem sekundären Arbeitsbereich hinzugefügte Ansichten werden nicht gelöscht. <!--checking with Lilit - not sure if this is by design??-->
 
    Weitere Informationen finden Sie im Abschnitt „Löschen globaler Datensatztypen“ im Artikel [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 

@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen Datensatz aus und klicken Sie dann unten **der Liste auf** Freigeben“ in der blauen Symbolleiste.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
@@ -198,7 +198,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
    >[!TIP]
    >
-   >Sie können keine einzelnen Entitäten aus der Liste „Geerbte Berechtigungen“ entfernen.
+   >Sie können keine einzelnen Entitäten aus der Liste „Geerbte Berechtigungen“ entfernen. <!--test this!-->
 
 1. (Optional und bedingt) Wenn Sie den Datensatz für bestimmte Entitäten freigeben und ihnen einen anderen Zugriff auf den Datensatztyp gewähren möchten, als sie bereits für den Arbeitsbereich haben, gehen Sie wie folgt vor:
 
@@ -224,6 +224,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
    >* Wenn Benutzende über die Berechtigungen Beitragen oder Verwalten für den Arbeitsbereich und den Datensatztyp verfügen, behalten sie die Berechtigung Verwalten für den Datensatz bei. Die Berechtigung zum Anzeigen ist abgeblendet. <!--this is not dimmed at this time, Lilit to check-->
    >* Benutzenden, die den Datensatztyp Contribute oder höher haben, können keine geringere Berechtigung für den Datensatz erteilt werden.
    > Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Wenn Sie einen Datensatz für einen Benutzer freigeben, werden sein primäres Aufgabengebiet <span class="preview">und seine E-Mail</span> ebenfalls im Feld angezeigt. Damit Sie die E-Mail-Adresse des Benutzers anzeigen können, muss für das Benutzerobjekt in Ihrer Zugriffsebene die Einstellung „Kontaktinformationen anzeigen“ aktiviert sein.
 
 1. Um Benutzern, die keine Berechtigungen zum Anzeigen eines Datensatzes haben, Zugriff auf den Arbeitsbereich zu gewähren, geben Sie im Feld **Zugriff auf diese Ansicht gewähren** zunächst den Namen eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets ein. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
@@ -255,7 +256,7 @@ Sie können Benutzerberechtigungen aus einem Datensatz entfernen. Sie behalten j
 1. Öffnen Sie den Arbeitsbereich, dessen Datensätze Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite „Datensatztyp“ geöffnet.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen Datensatz aus und klicken Sie dann unten **der Liste auf** Freigeben“ in der blauen Symbolleiste.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 

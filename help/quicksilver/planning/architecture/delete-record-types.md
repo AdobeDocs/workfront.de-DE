@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -152,7 +152,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Ein globaler Datensatztyp, der anderen Arbeitsbereichen hinzugefügt wurde, kann nicht gelöscht werden.
 
-  Weitere Informationen finden Sie im Abschnitt [Löschen globaler &#x200B;](#delete-global-record-types)) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Löschen globaler ](#delete-global-record-types)) in diesem Artikel.
 
 ## Datensatztypen löschen
 
@@ -202,7 +202,7 @@ Alle Datensätze und Felder werden ebenfalls gelöscht und können nicht wiederh
    * Wenn der Datensatztyp nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
    * Wenn der Datensatztyp mindestens einem anderen sekundären Arbeitsbereich hinzugefügt wurde, wechseln Sie zunächst zum sekundären Arbeitsbereich und löschen Sie den globalen Datensatz aus diesem Bereich.
 
-     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
+     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären ](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
 
 1. (Bedingt) Löschen Sie den Datensatztyp weiter, wie im Abschnitt [Löschen von Datensatztypen](#delete-record-types-1) in diesem Artikel beschrieben.
 
@@ -221,15 +221,15 @@ Beachten Sie Folgendes:
 
 * Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, werden auch die folgenden gelöscht:
 
-   * Die vom sekundären Arbeitsbereich hinzugefügten Datensätze werden aus dem sekundären Arbeitsbereich gelöscht und können nicht wiederhergestellt werden.
-
-     Im sekundären Arbeitsbereich hinzugefügte Datensätze verbleiben im primären Arbeitsbereich des globalen Datensatztyps. Das Feld **Workspace** ist für diese Datensätze im primären Arbeitsbereich des globalen Datensatztyps leer. <!--checking on this with Lilit-->
+   * Die aus dem sekundären Arbeitsbereich hinzugefügten Datensätze werden aus dem sekundären Arbeitsbereich und aus dem ursprünglichen Arbeitsbereich gelöscht und können nicht wiederhergestellt werden.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * Globale Datensatztypen, die aus ihren sekundären Arbeitsbereichen gelöscht wurden, können nicht wiederhergestellt werden.
 
 * Der ursprüngliche Datensatztyp verbleibt sowohl im ursprünglichen Arbeitsbereich als auch in anderen Arbeitsbereichen, in denen er hinzugefügt wurde.
+
+* Ansichten, die dem Datensatztyp im sekundären Arbeitsbereich hinzugefügt wurden, bleiben erhalten und sind in anderen Arbeitsbereichen sichtbar, wenn sie für Sie freigegeben sind.
 
 So löschen Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich:
 
