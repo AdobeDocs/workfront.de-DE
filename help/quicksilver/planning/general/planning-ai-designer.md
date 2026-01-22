@@ -156,7 +156,7 @@ Als Workfront-Administrator müssen Sie zunächst die Planning Designer für Ihr
 
 Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designer oder des KI-Assistenten erstellen oder aktualisieren, sofern nicht anders angegeben.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **** Hauptmenü![Symbol &quot;](assets/lines-main-menu.png)&quot;.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**&#x200B;Hauptmenü![Symbol &quot;](assets/lines-main-menu.png)&quot;.
 
 1. Klicken Sie **Planung**. Der Bereich Planung wird geöffnet.
 
@@ -198,7 +198,7 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
 
    Im Vorschaubereich rechts neben der Eingabeaufforderung können Sie Arbeitsbereiche, Datensatztypen, Felder, Ansichten und Datensätze überprüfen.
 1. (Optional) Geben Sie zusätzliche Eingabeaufforderungen ein, um Ihre Objekte weiter zu bearbeiten.
-1. (Optional) Klicken Sie auf das Symbol **Umschalten des KI-Arbeitsbereich**-Vorschaubildschirms![ Symbol „Vorschau anzeigen“ ](assets/hide-show-preview-screen-in-planning-designer.png), um den Vorschaubildschirm auf der rechten Seite zu öffnen oder zu schließen.
+1. (Optional) Klicken Sie auf das Symbol **Umschalten des KI-Arbeitsbereich**-Vorschaubildschirms![&#x200B; Symbol „Vorschau anzeigen“ &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png), um den Vorschaubildschirm auf der rechten Seite zu öffnen oder zu schließen.
 1. Klicken Sie auf **Symbol „Arbeitsbereich in neuer Registerkarte öffnen** Symbol ![Arbeitsbereich in neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png), um den Arbeitsbereich, den Sie aktualisieren, in einer neuen Registerkarte zu öffnen.
 1. Klicken Sie auf das **Schließen**-Symbol **X**, um Planning Designer zu schließen und den Arbeitsbereich zu öffnen.
 1. Öffnen Sie den bearbeiteten Arbeitsbereich mit der Planning-Designer und nehmen Sie weitere Änderungen an den Objekten vor.
