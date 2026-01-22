@@ -25,7 +25,7 @@ Mit der Adobe Planning-Designer können Sie einen neuen Arbeitsbereich erstellen
 >
 >Planning Designer ist derzeit nur für Benutzende verfügbar, die an der Closed Beta-Phase teilnehmen.
 
-## <!--edit theses--> der Zugriffsanforderungen
+## &#x200B;<!--edit theses--> der Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
