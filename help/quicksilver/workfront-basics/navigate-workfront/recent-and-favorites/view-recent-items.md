@@ -6,10 +6,10 @@ description: Das [!UICONTROL Zuletzt verwendet]-Menü befindet sich in der obere
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5a92066372efe8bd5391632556550e6063301114
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ Das [!UICONTROL Zuletzt verwendet]-Menü befindet sich in der oberen Navigations
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,16 +44,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-
 ## Zuletzt verwendete Elemente anzeigen
 
 1. Klicken Sie auf **[!UICONTROL Zuletzt verwendet]** Symbol ![[!UICONTROL Zuletzt verwendet]](assets/recents-icon-40x43.png) in der oberen rechten Ecke einer beliebigen Seite.
 
-   ![Liste Zuletzt ausgewertet](assets/recents-list-2022-350x319.png)
+   ![Liste Zuletzt ausgewertet](assets/recents-list.png)
 
    Unter jedem Objekttyp können Sie bis zu 5 der zuletzt angezeigten Elemente sehen.
 
 1. (Optional) Um die Liste der letzten Elemente zu erweitern, klicken Sie auf **[!UICONTROL Mehr anzeigen]** direkt unter dem letzten Element unter einem Objekttyp, um die 10 zuvor angezeigten Elemente anzuzeigen. Sie können die Liste erweitern, um bis zu 20 Elemente pro Objekttyp anzuzeigen.
-1. Klicken Sie oben rechts auf X , um die Liste zu schließen.
 
 Informationen zum Markieren aktueller Elemente als Favoriten finden Sie unter [Anzeigen und Verwalten von Favoriten](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
