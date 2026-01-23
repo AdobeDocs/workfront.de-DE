@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Jeder Benutzer kann den KI-Reviewer zu einer Überprüfungs- und Genehmigungsanf
 
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
 * Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Ihr Unternehmen muss über GenStudio Foundation verfügen.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,7 +60,7 @@ Wenn Sie einen nicht unterstützten Dateityp hochladen, wird die Option „KI-Re
 
 ## Einrichten von Markenrichtlinien
 
-Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien. Workfront-Administratoren können im Bereich &quot;Workfront-Setup“ Markenrichtlinien einrichten. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
+Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Markenrichtlinien. Workfront-Administratoren können im Bereich &quot;Workfront-Setup“ Markenrichtlinien einrichten. In GenStudio Foundation erstellte Marken sind auch in Workfront verfügbar.
 
 Weitere Informationen finden Sie unter [Einrichten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 

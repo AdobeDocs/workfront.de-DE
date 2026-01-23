@@ -6,9 +6,9 @@ description: Einrichten von Marken für den KI-Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
 * Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Ihr Unternehmen muss über GenStudio Foundation verfügen.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
