@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie im Hauptmenü das Hilfesymbol so konfigurieren, dass es auf diese Seite verweist.
 
-![Benutzerdefinierte Hilfe-Schaltfläche](assets/custom-help-button.png)
+![Benutzerdefinierte Hilfe-Schaltfläche](assets/custom-help-with-left-menu.png)
 
 Dies hat keine Auswirkungen auf die kontextabhängigen Hilfelinks in Workfront, über die Benutzende zur Workfront-Hilfeseite gelangen.
 
@@ -27,7 +27,7 @@ Informationen dazu, wie Benutzerinnen und Benutzer auf eine benutzerdefinierte H
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Konfigurieren einer benutzerdefinierten Hilfe-URL
+## Benutzerdefinierte Hilfe-URL konfigurieren
 
 {{step-1-to-setup}}
 
@@ -64,4 +64,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie auf **Speichern**.
 
-   Nachdem Sie eine benutzerdefinierte Hilfe-URL gespeichert haben, können Sie zur standardmäßigen Workfront-Hilfeseite zurückkehren, indem Sie die benutzerdefinierte URL löschen und auf **Speichern** klicken.
+   Nachdem Sie eine benutzerdefinierte Hilfe-URL gespeichert haben, können Sie zur Verwendung der standardmäßigen Workfront-Hilfeseite zurückkehren, indem Sie die benutzerdefinierte URL löschen und auf **Speichern** klicken.
