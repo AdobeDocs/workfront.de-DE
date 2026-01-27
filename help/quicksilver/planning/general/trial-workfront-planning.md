@@ -1,11 +1,11 @@
 ---
 title: Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planning
-description: Adobe Workfront bietet derzeit eine 60-Tage-Testversion von Adobe Workfront Planning an. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. In dieser Testversion erfahren Sie aus erster Hand, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
+description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. Mit dieser Testversion können Sie aus erster Hand erfahren, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 hidefromtoc: true
 hide: true
-source-git-commit: 01627468b106d2bea721f867512cf3b7f9b65a89
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -25,15 +25,19 @@ recommendations: noDisplay, noCatalog-->
 <!--remove the best practice link below and replace it with the folder for best practice instead-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-Adobe Workfront bietet derzeit eine 60-Tage-Testversion von Adobe Workfront Planning an.
+Adobe Workfront Planning bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren.
 
-Die Testversion ist zwischen den folgenden Daten verfügbar: 2. März bis 1. Mai 2026.
-
-Die Workfront Planning-Testversion ist für aktuelle Workfront Planning-Kunden nicht verfügbar. Die Testversion ist eine Möglichkeit für Adobe Workfront-Kunden, die keine Workfront-Planung planen, Planning kennenzulernen, und zu sehen, wie die Gesamtstrategie mit der täglichen Arbeit verknüpft werden kann, die sie ermöglicht.
-
-Workfront Planning bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren.
+>[!IMPORTANT]
+>
+>* Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning.
+>
+>* Die Testversion ist zwischen den folgenden Daten verfügbar: 2. März bis 1. Mai 2026.
+>
+>* Beachten Sie, dass die Testversion für 60 Tage ab dem Start verfügbar ist und nicht für 60 Tage ab dem Zeitpunkt, an dem Sie daran teilnehmen.
 
 In dieser Testversion erfahren Sie aus erster Hand, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
+
+Nachdem Ihr Workfront-Administrator die Vereinbarung akzeptiert und sich für die kostenlose Testversion angemeldet hat, steht Workfront Planning ab dem 2. März 2026 für alle Personen in Ihrem Unternehmen zur Verfügung.
 
 Die kostenlose Testversion von Workfront Planning bietet Folgendes:
 
@@ -44,21 +48,38 @@ Die kostenlose Testversion von Workfront Planning bietet Folgendes:
 
 ## Voraussetzungen für die Teilnahme an der Studie
 
-Um an der kostenlosen Testversion von Workfront Planning teilnehmen zu können, muss Ihr Unternehmen über Folgendes verfügen:
+Um an der kostenlosen Testversion von Workfront Planning teilnehmen zu können, muss Ihr Unternehmen die folgenden Anforderungen erfüllen:
 
-* Jedes neue Adobe Workfront- oder Workflow-Paket
-Die Workfront Planning-Testversion ist nicht für die veralteten Workfront-Pakete verfügbar.
+* Verwenden Sie eines der folgenden neuen Adobe Workfront- oder Workflow-Pakete:
+
+   * Auswählen
+   * Prime
+   * Ultimate
+
+  Die Workfront Planning-Testversion ist nicht für die veralteten Workfront-Pakete verfügbar.
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Zugriff auf die Adobe Admin Console
-* Teil des Identity Management-Systems (IMS) sein
-* Die unterzeichnete Vereinbarung über eine juristische Testversion ist in der Workfront-Instanz Ihres Unternehmens verfügbar
+* Ist Teil des Identity Management-Systems (IMS)
+* Akzeptieren Sie die Vereinbarung zur rechtlichen Testversion, die in der Workfront-Instanz Ihres Unternehmens ab dem 26. Januar 2026 verfügbar ist. Sie müssen ein Workfront-Administrator sein, um die Testvereinbarung akzeptieren zu können.
 
 ## Übersicht über wichtige Termine
 
 Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testangebot von Adobe Workfront Planning:
 
+* **26. Januar 2026**: Die kostenlosen Testbanner von Workfront Planning werden für Workfront-Kunden veröffentlicht. Die Banner umfassen Folgendes:
+   * Ein Link zu diesem Dokument.
+   * Das Fenster für die Testvereinbarung. Nur ein Workfront-Administrator kann die Vereinbarung akzeptieren. Sie können die Testvereinbarung jederzeit ab diesem Datum akzeptieren.
 * **2. März 2026**: Die Workfront Planning-Testversion wird gestartet.
-* **1. Mai 2026**: Die Workfront Planning-Testversion wird geschlossen und Ihr Zugriff auf Planning wird entfernt. Workfront sichert Ihre Daten nach Ablauf der Testversion.
+
+  Die folgenden Szenarien sind vorhanden:
+
+   * Wenn der Workfront-Administrator dem Vertrag vor diesem Datum zugestimmt hat, finden Sie im Hauptmenü den Bereich Planung und verwenden Sie Workfront Planning.
+   * Wenn Ihr Workfront-Administrator die Vereinbarung vor diesem Datum nicht akzeptiert hat, muss er sie zunächst akzeptieren, bevor Sie Zugriff auf Workfront Planning erhalten.
+* **1. Mai 2026**: Die Workfront Planning-Testversion wird geschlossen und Ihr Zugriff auf Planning wird entfernt.
+
+  Workfront sichert Ihre Daten nach Ablauf der Testversion, hat jedoch keinen Zugriff mehr darauf.
+
+  Unabhängig davon, wann Sie die Vereinbarung akzeptieren, endet Ihr Zugriff auf Planning an diesem Datum.
 * **30. November 2026**: Workfront sichert Ihre Daten nach diesem Datum nicht mehr. Wenn Sie Workfront Planning vor diesem Datum erwerben, erhalten Sie wieder Zugriff auf Planning und Ihre Daten.
 
 <!--Lauren wanted this out: 
@@ -105,13 +126,13 @@ Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu 
 
       Nachdem Sie die Testvereinbarung akzeptiert haben, treten folgende Dinge auf:
 
-      * Der Bereich Planung wird dem Hauptmenü für Sie und alle Benutzer in Ihrem System mit einem &quot;**&quot;** hinzugefügt.
-      * Sie erhalten Verwaltungszugriff auf die Registerkarte **Best Practice** im Bereich Planung.
-      * Alle Benutzer in Ihrem System erhalten Ansichtszugriff auf die Registerkarte **Best-Practice** Arbeitsbereiche im Bereich Planung.
+      * Der Bereich Planung wird dem Hauptmenü für Sie und alle Benutzer in Ihrem System hinzugefügt und zeigt ein &quot;**&quot;**.
+      * Als Systemadministrator erhalten Sie Verwaltungszugriff auf die Registerkarte **Best Practice-**&quot; im Bereich Planung.
+      * Alle Benutzer in Ihrem System, die keine Systemadministratoren sind, erhalten Ansichtszugriff auf die Registerkarte **Best Practice-Arbeitsbereiche** im Bereich Planung.
    1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung noch nicht akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning Trial** enthält, und klicken Sie dann auf **Weitere Informationen**.
 
       Weitere Informationen zur Workfront Planning-Testversion und zu Workfront Planning finden Sie.
-   1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning-Testversion enthält,** Sie auf **Open Planning**.
+   1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning Trial** enthält, und klicken Sie auf **Open Planning**.
 
       Beginnen Sie, die Registerkarte **Best Practice-**&quot; zu erkunden und geben Sie Workspaces oder deren Objekte für andere frei.
 
@@ -121,16 +142,16 @@ Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu 
 
 ## Berechtigungen für Workfront Planning-Daten während der kostenlosen Testversion
 
-* Zwischen 2. März und 1. Mai 2026:
+* **Zwischen 2. März und 1. Mai 2026**:
 
   Sie erhalten die folgenden Berechtigungen für die Daten, die auf der Registerkarte **Best Practice-**&quot; im Bereich **Planungs-Testversion** verfügbar sind:
 
-   * Alle Systemadministratoren verfügen über Verwaltungsberechtigungen.
-   * Alle anderen Benutzer haben Anzeigeberechtigungen.
+   * Alle Systemadministratoren haben Verwaltungsberechtigungen für die Registerkarte Best Practice-Arbeitsbereiche im Bereich Planung.
+   * Alle anderen Benutzer haben Ansichtsberechtigungen für die Registerkarte Best Practice-Arbeitsbereiche im Bereich Planung.
 
-* Nach dem 1. Mai 2026:
+* **Nach dem 1. Mai 2026:**
 
-  Ihr Zugriff auf Workfront Planning wird entfernt und Workfront sichert Ihre Daten.
+  Alle Benutzer in Ihrem System haben keinen Zugriff mehr auf Workfront Planning und Workfront sichert Ihre Daten.
 
 
 

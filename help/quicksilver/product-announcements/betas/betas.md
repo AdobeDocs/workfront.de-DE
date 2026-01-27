@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '143'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,9 @@ Die folgenden Funktionen sind derzeit in der Beta-Version verfügbar:
 * In: The Workfront AI Reviewer
 Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
+* Die Adobe Workfront Planning Designer ist in Closed Beta verfügbar. Sie können uns eine E-Mail senden, um Zugriff auf dieses Programm zu beantragen.
+
+  Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 
 <!--
