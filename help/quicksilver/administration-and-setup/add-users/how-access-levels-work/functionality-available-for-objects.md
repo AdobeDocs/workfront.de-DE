@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: Zugriff,Modell,funnel,Diagramm,Ebenen,Berechtigungen
 navigation-topic: access-levels
-title: Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen
+title: Für jeden Objekttyp verfügbare Funktionen
 description: In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1326'
 ht-degree: 14%
 
 ---
 
-# Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen
+# Für jeden Objekttyp verfügbare Funktionen
 
 {{highlighted-preview}}
 
@@ -32,7 +32,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 

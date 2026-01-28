@@ -1,18 +1,18 @@
 ---
-title: Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp
+title: Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp (veraltet)
 description: In diesem Artikel wird erläutert, was Sie als Adobe Workfront-Administrator für jeden Objekttyp in jeder Zugriffsebene zulassen können. Außerdem wird erläutert, was die Standardkonfiguration für jeden Zugriffsebenen-Typ ist.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3510'
 ht-degree: 10%
 
 ---
 
-# Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp
+# Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp (veraltet)
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-title: Funktionsweise neuer Zugriffsebenen
+title: Funktionsweise von Zugriffsebenen
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
 
-# Funktionsweise neuer Zugriffsebenen
+# Funktionsweise von Zugriffsebenen
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ ht-degree: 1%
 
 Als Adobe Workfront-Admin können Sie Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. In den folgenden Artikeln wird erläutert, wie neue Zugriffsebenen funktionieren.
 
-* [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [Zugriff auf Objekte und Bereiche durch für neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Lizenzen - Überblick](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [Zugriff auf Objekte und Bereiche durch Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [Die Funktionalität ist für jeden Objekttyp verfügbar](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-* [Deaktivieren Sie im neuen Lizenzierungsplan die Option für das automatische Upgrade für nicht bezahlte Benutzer.](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+* [Deaktivieren der automatischen Upgrade-Option für nicht zahlungspflichtige Benutzer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 * [Vergleichen der Funktionalität zwischen Lizenzmodellen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
 
 ## Siehe auch

@@ -1,5 +1,5 @@
 ---
-title: Funktionsweise von Zugriffsebenen
+title: Funktionsweise älterer Zugriffsebenen
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
 
-# Funktionsweise von Zugriffsebenen
+# Funktionsweise älterer Zugriffsebenen
 
 >[!NOTE]
 >
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 Als Adobe Workfront-Admin können Sie Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Objekten gewähren, indem Sie ihnen eine Zugriffsebene zuweisen. In den folgenden Artikeln wird erläutert, wie Zugriffsebenen funktionieren.
 
-* [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [Lizenzen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Integrierte Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-* [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [Auflisten der Zugriffsebenen und Lizenzen Ihrer Benutzer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [Zugriff auf Objekte und Bereiche nach Lizenztyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [Die Funktionalität ist für jeden Objekttyp verfügbar](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [Übersicht über die alten Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Übersicht über ältere Lizenzen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Integrierte Legacy-Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [Wie alte Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+* [Auflisten der Zugriffsebenen und Lizenzen Ihrer Benutzer (Legacy)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [Zugriff auf Objekte und Bereiche nach Lizenztyp (veraltet)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [Für jeden Objekttyp verfügbare Funktionalität (veraltete Zugriffsebenen)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## Siehe auch
 

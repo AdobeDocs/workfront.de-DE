@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: Zugriff,Modell,funnel,Diagramm,Ebenen,Berechtigungen
 navigation-topic: access-levels
-title: Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen
+title: Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen (veraltet)
 description: In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1588'
 ht-degree: 14%
 
 ---
 
-# Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen
+# Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen (veraltet)
 
 {{highlighted-preview}}
 

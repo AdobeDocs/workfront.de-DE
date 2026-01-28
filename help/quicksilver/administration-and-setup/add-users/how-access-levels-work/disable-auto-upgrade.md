@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren Sie im neuen Lizenzierungsplan die Option für das automatische Upgrade für nicht zahlungspflichtige Benutzer.
+title: Deaktivieren Sie die Option Automatisches Upgrade für nicht bezahlte Benutzer
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 11%
 
 ---
 
-# Deaktivieren Sie im neuen Lizenzierungsplan die Option für das automatische Upgrade für nicht bezahlte Benutzer.
+# Deaktivieren der automatischen Upgrade-Option für nicht zahlungspflichtige Benutzer
 
 Korrekturabzugs- und Dokumentenentscheidungen sind für alle nicht bezahlten Workfront-Lizenzen in den neuen Plänen beschränkt. Wenn Benutzer die ihnen zugewiesene Anzahl an Entscheidungen erreichen, werden sie standardmäßig auf eine Light-Lizenz aktualisiert.
 
@@ -29,7 +29,7 @@ Sie können die Option für das automatische Upgrade im Bereich Setup deaktivier
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 

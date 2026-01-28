@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 2%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 2%
          * [Auditprotokolle anzeigen und exportieren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Benutzeranmeldeinformationen anzeigen](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Verwalten von Benutzenden in der Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Funktionsweise neuer Zugriffsebenen {#access-levels}
-         * [Funktionsweise neuer Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Übersicht über neue Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Übersicht über neue Lizenzen](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Zugriff auf Objekte und Bereiche durch neue Lizenzen](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Deaktivieren Sie im neuen Lizenzierungsplan die Option für das automatische Upgrade für nicht bezahlte Benutzer.](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Funktionsweise von Zugriffsebenen {#access-levels}
+         * [Funktionsweise von Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Übersicht über Zugriffsebenen](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Lizenzen - Überblick](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Zugriff auf Objekte und Bereiche durch Lizenzen](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Für jeden Objekttyp verfügbare Funktionen](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Deaktivieren der automatischen Upgrade-Option für nicht zahlungspflichtige Benutzer](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Vergleichen der Funktionalität zwischen Lizenzmodellen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Funktionsweise von Zugriffsebenen {#legacy-access-levels}
-         * [Funktionsweise von Zugriffsebenen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Zugriffsübersicht](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Lizenzen - Überblick](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Zugriffsebenen und Berechtigungen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Zugriff auf Objekte und Bereiche nach Lizenztyp](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Funktionalität für jeden Objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Konfigurierbarer Zugriff für jeden Objekttyp](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Integrierte Zugriffsebenen](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Auflisten der Zugriffsebenen und Lizenzen von Benutzern](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Funktionsweise älterer Zugriffsebenen {#legacy-access-levels}
+         * [Funktionsweise älterer Zugriffsebenen](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Übersicht über die veraltete Zugriffsebene](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Übersicht über veraltete Lizenzen](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Alte Zugriffsebenen und Berechtigungen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Zugriff auf Objekte und Bereiche nach Lizenztyp (veraltet)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Funktionalität für jeden Objekttyp (veraltet)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Konfigurierbarer Zugriff für jeden Objekttyp (veraltet)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Integrierte Zugriffsebenen (veraltet)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Auflisten der Zugriffsebenen und Lizenzen von Benutzern (veraltete Version)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Zugriff auf Workfront konfigurieren {#configure-access}
          * [Zugriff konfigurieren](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1483,7 +1483,7 @@ ht-degree: 2%
          * [Priorisieren von Projekten im Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Optimieren von Projekten in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Berechnung des Risikos zum Nettowert in einem Portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * Anforderungen {#requests}
+   * Anfragen {#requests}
       * [Anfragen: Artikelindex](manage-work/requests/requests-overview.md)
       * Anfrage-Warteschlangen erstellen und verwalten {#create-and-manage-request-queues}
          * [Anfrage-Warteschlangen erstellen und verwalten](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
@@ -2219,7 +2219,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
