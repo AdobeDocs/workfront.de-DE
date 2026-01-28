@@ -35,7 +35,7 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
 
   >[!NOTE]
   >
-  >Dieser Artikel enthält Informationen zum Objektzugriff für ältere Lizenztypen. Informationen zu den neuen Lizenztypen finden Sie unter [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+  >Dieser Artikel enthält Informationen zum Objektzugriff für ältere Lizenztypen. Informationen zu den neuen Lizenztypen finden Sie unter [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Plan | Arbeit | Überprüfung | Anfrage | Extern |
 |---|---|---|---|---|---|
