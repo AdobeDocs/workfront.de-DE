@@ -666,12 +666,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      {
-       Daten: {
+      &lbrace;
+       Daten: &lbrace;
          { name: „USA“},
          { name: „Canada“}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1014,7 +1014,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
