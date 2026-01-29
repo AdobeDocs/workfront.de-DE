@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im zweiten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+
+
+## Rich-Text-Feldtyp ist jetzt in benutzerdefinierten Formularen verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 29. Januar 2026
+>Produktions-Schnellveröffentlichung: 12. Februar 2026\
+>Produktion für alle: 16. April 2026
+
+Der neue **Rich-Text**-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.
+
+Der Rich-Text-Feldtyp ersetzt den Text durch den Feldtyp Formatierung . Sie können vorhandenen Text mit Formatierungsfeldern schnell in Rich-Text konvertieren, indem Sie auf die Schaltfläche in den Feldoptionen rechts klicken.
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Neue IP-Adressen für Workfront-E-Mail-Benachrichtigungen
 

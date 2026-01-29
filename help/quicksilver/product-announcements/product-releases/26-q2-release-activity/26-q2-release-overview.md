@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '813'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront-Verbesserungen
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
+* [Projektverbesserungen](#project-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administrator-Verbesserungen
@@ -52,6 +53,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vorschau</strong></td>
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich-Text-Feldtyp ist jetzt in benutzerdefinierten Formularen verfügbar</a><p>Der neue <b>Rich-Text</b>-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.</p>
+        </td>
+        <td><p>Freitag, 29. Januar 2026</p></td>
+        <td><p>Freitag, 12. Februar 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Neue IP-Adressen für Workfront-E-Mail-Benachrichtigungen</a><p></p>
@@ -81,6 +90,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Projektverbesserungen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Funktion</strong>
+        </td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Aktualisiertes Erlebnis bei der </a> von einzelnen oder Massenzuweisungen von Aufgaben<p>[!BADGE OFF SCHEDULE]{type=neutral}</p><p> Der Abschnitt „Zuweisungen“ im Feld „Aufgaben bearbeiten“ wurde aktualisiert, wenn einzelne Aufgaben bearbeitet oder stapelweise bearbeitet wurden. </p>
+        </td>
+        <td><p>Dienstag, 26. Januar 2026</p></td>
+        <td><p>Ab dem 5. Februar 2026</p></td>
+        <td><p>Ab dem 5. Februar 2026</p></td>
+    </tr>
+            </tbody>
+        </table>
+
 ### Weitere Verbesserungen
 
 <table>
@@ -101,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>Freitag, 11. Dezember 2025</p></td>
         <td><p>Donnerstag, 11. Februar 2026</p></td>
         <td><p>Donnerstag, 11. Februar 2026</p></td>
-    <tr>
+    </tr>
             </tbody>
         </table>
 
@@ -172,9 +204,9 @@ Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrati
 Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
-### Wartungs-Updates für Workfront 
+### Wartungs-Updates für Workfront
 
-Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 

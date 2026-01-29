@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
 workflow-type: tm+mt
-source-wordcount: '13721'
+source-wordcount: '13726'
 ht-degree: 2%
 
 ---
@@ -21,8 +21,9 @@ ht-degree: 2%
       * [Vorbereiten einer vierteljährlichen Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 2026 Q2 {#release-26-q2}
          * [Übersicht über die Version 2026 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
-         * [Verbesserungen für Administratoren im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
-         * [Erstes Quartal 2026 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
+         * [Verbesserungen für Administratoren im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
+         * [Projektverbesserungen im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
+         * [Zweites Quartal 2026 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
       * Version 1. Quartal 2026 {#release-26-q1}
          * [Übersicht über die Version im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
          * [Verbesserungen für Administratoren im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
@@ -2219,7 +2220,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
