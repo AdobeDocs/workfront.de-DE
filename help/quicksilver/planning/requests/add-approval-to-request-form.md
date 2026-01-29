@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1192'
 ht-degree: 1%
 
 ---
@@ -138,9 +138,7 @@ Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
 * Sie können einer Genehmigungsregel eine oder mehrere genehmigende Personen hinzufügen.
 * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
 * Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
-* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
-
-Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+* Wenn ein Team als genehmigende Person festgelegt ist, ist von einem Teammitglied nur eine Entscheidung erforderlich.
 
 So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
 
@@ -149,25 +147,24 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
 
    Die Registerkarte Einstellungen wird angezeigt.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie **Genehmigungen** ![Genehmigungssymbol](assets/approvals-icon-on-form.png) im linken Bereich.
 
-1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
+1. (Optional) Wenn Sie einen standardmäßigen Genehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Personen** im Bereich **Standardgenehmigungsregel** hinzu und klicken Sie dann auf das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn Sie möchten, dass der Datensatz erstellt wird, nachdem eine der standardmäßigen genehmigenden Personen ihn genehmigt hat.
 
    ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-1. (Optional) Gehen Sie für jede zusätzliche Genehmigungsregel wie folgt vor:
+1. (Optional) Beginnen Sie mit dem Hinzufügen von Genehmigungsregeln. Gehen Sie für jede Genehmigungsregel wie folgt vor:
 
    1. Klicken Sie **Genehmigungsregel hinzufügen**
-   1. Klicken Sie auf den Platzhaltertitel „Nicht benannte Genehmigungsregel“ und geben Sie einen Namen für die Genehmigungsregel ein.
+   1. Klicken Sie auf den Platzhaltertitel **Nicht benannte Genehmigungsregel** und geben Sie einen Namen für die Genehmigungsregel ein.
    1. Klicken Sie **Feld auswählen** und wählen Sie das Feld aus, das die Regel aktiviert.
    1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
    1. Wenn der ausgewählte Operator einen Wert benötigt, klicken Sie auf das Pluszeichen und fügen Sie einen oder mehrere Werte hinzu.
-   1. (Optional) Fügen Sie weitere Bedingungen mit UND oder hinzu, indem Sie auf Bedingung hinzufügen klicken und die zusätzliche Bedingung wie in den Schritten C-E konfiguriert wird.
-   1. Fügen Sie im Bereich Aktionen der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person eingestellt werden soll, wenn die Bedingung erfüllt ist.
-   1. &#x200B;
-      1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
+   1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um weitere Bedingungen hinzuzufügen und sie durch **Und**- oder **Oder**-Anweisungen zu verbinden, indem Sie die zusätzlichen Bedingungen wie in den Schritten C-E konfigurieren.
+   1. Fügen Sie im Bereich **Aktionen** der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person eingestellt werden soll, wenn die Bedingung erfüllt ist.
+   1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
 
 1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
 1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.

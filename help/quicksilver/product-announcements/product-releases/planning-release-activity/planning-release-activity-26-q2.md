@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zwei
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Konfigurieren der auf der Detailseite eines Datensatzes angezeigten Felder
+## Konfigurieren der im Vorschaufeld Details eines Datensatzes angezeigten Felder
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >Produktions-Schnellveröffentlichung: 12. Februar 2026
 >Produktion für alle: 16. April 2026
 
-Wir haben eine Einstellung eingeführt, mit der Sie Datensatzfelder in den Bereichen Detailvorschau und Seitenbereich basierend auf den in der Tabellenansicht angezeigten Feldern ein- oder ausblenden können.
+Wir haben eine Einstellung eingeführt, mit der Sie Datensatzfelder im Vorschaufeld Details eines Datensatzes basierend auf den in der Tabellenansicht angezeigten Feldern ein- oder ausblenden können. 
 
-Sie können auswählen, ob ausgeblendete Felder in der Tabellenansicht im Detailbereich eines Datensatzes ein- oder ausgeschlossen werden sollen. Wenn diese Einstellung deaktiviert ist, werden ausgeblendete Felder nicht im Bereich Details angezeigt.
+Mit dieser neuen Einstellung können Sie festlegen, ob in der Tabellenansicht ausgeblendete Felder in den Vorschaubereich Details des Datensatzes ein- oder ausgeschlossen werden sollen.
 
 Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 

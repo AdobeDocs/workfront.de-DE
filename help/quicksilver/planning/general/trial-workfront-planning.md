@@ -3,9 +3,9 @@ title: Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planni
 description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. Mit dieser Testversion können Sie aus erster Hand erfahren, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -144,10 +144,11 @@ Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu 
 
 * **Zwischen 2. März und 1. Mai 2026**:
 
-  Sie erhalten die folgenden Berechtigungen für die Daten, die auf der Registerkarte **Best Practice-**&quot; im Bereich **Planungs-Testversion** verfügbar sind:
+  Für die Arbeitsbereiche im Bereich Planung erhalten Sie während der kostenlosen Testversion die folgenden Berechtigungen:
 
-   * Alle Systemadministratoren haben Verwaltungsberechtigungen für die Registerkarte Best Practice-Arbeitsbereiche im Bereich Planung.
-   * Alle anderen Benutzer haben Ansichtsberechtigungen für die Registerkarte Best Practice-Arbeitsbereiche im Bereich Planung.
+   * Alle Systemadministratoren haben Verwaltungsberechtigungen für die Registerkarte Arbeitsbereiche .
+   * Alle anderen Benutzer haben Anzeigeberechtigungen für die Registerkarte Arbeitsbereiche , der Systemadministrator kann ihnen jedoch Verwaltungsberechtigungen für Arbeitsbereiche erteilen.
+   * Alle Benutzer, einschließlich des Systemadministrators, haben Anzeigeberechtigungen für die Registerkarte Best Practice-Arbeitsbereiche im Bereich Planung.
 
 * **Nach dem 1. Mai 2026:**
 
