@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 # Erstellen eines benutzerdefinierten Formulars
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe Workfront entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
 
@@ -157,6 +159,10 @@ Sie können einem benutzerdefinierten Formular mehrere verschiedene Textfelder h
 
 * **Einzeiliges Textfeld**: Ermöglicht Benutzern, eine einzelne Textzeile in das Feld einzugeben.
 * **Absatzfeld**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben.
+* <span class="preview">**Rich-Text**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben und den Text mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Tiefgestellt und hochgestellt, Hyperlinks, Blockanführungszeichen, Überschriften und Tabellen zu formatieren. Eine Zeichenbeschränkung von 15.000 bietet viel Platz für Text und Formatierung.</span>
+
+  <span class="preview">Der Rich-Text-Feldtyp ersetzt den Text durch den Feldtyp Formatierung . Sie können vorhandenen Text mit Formatierungsfeldern schnell in Rich-Text konvertieren, indem Sie auf die Schaltfläche **In Rich-Text konvertieren** in den Feldoptionen auf der rechten Seite klicken.</span>
+
 * **Textfeld mit Formatierung**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben und den Text mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierungen, Hyperlinks und Blockanführungszeichen zu formatieren. Eine Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
 
   Dieser benutzerdefinierte Feldtyp wird in Filtern in Listen und Berichten nicht unterstützt.
@@ -177,6 +183,7 @@ Hinzufügen eines Textfelds:
 
    * Einzeiliger Text
    * Absatz
+   * <span class="preview">Rich-Text</span>
    * Text mit Formatierung
    * Beschreibender Text
 
@@ -197,6 +204,7 @@ Hinzufügen eines Textfelds:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
+    <li><span class="preview">Rich Text</span></li>
     <li>Text mit Formatierung</li>
     <li>Beschreibender Text</li>
     </ul></td>
@@ -208,6 +216,7 @@ Hinzufügen eines Textfelds:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
+    <li><span class="preview">Rich Text</span></li>
     <li>Text mit Formatierung</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ Hinzufügen eines Textfelds:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
+    <li><span class="preview">Rich Text</span></li>
     <li>Text mit Formatierung</li>
     <li>Beschreibender Text</li>
     </ul></td>
@@ -231,6 +241,7 @@ Hinzufügen eines Textfelds:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
+    <li><span class="preview">Rich Text</span></li>
     <li>Text mit Formatierung</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ Hinzufügen eines Textfelds:
      <td><ul>
      <li>Einzeiliger Text</li>
      <li>Absatz</li>
+     <li><span class="preview">Rich Text</span></li>
      <li>Text mit Formatierung</li>
      <li>Beschreibender Text</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Zu einem Pflichtfeld machen</td>
+      <td>Zu einem Pflichtfeld machen</td>
       <td><p>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit der Benutzer das benutzerdefinierte Formular ausfüllen kann.</p></td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
+    <li><span class="preview">Rich Text</span></li>
     <li>Text mit Formatierung</li>
     </ul></td> 
     </tr> 
@@ -653,12 +666,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und zum Schreiben des richtigen JSON-Pfads finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1001,7 +1014,7 @@ Sie können das Feld Planning-Verbindung zu den benutzerdefinierten Formularen a
 
 So fügen Sie ein Feld für eine Planungsverbindung hinzu:
 
-1. Suchen Sie in der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Suchen Sie in der **** Neues Feld auf der linken Bildschirmseite nach **Planning-Verbindung** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
 
    <table style="table-layout:auto"> 
