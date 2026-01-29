@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatzt
 1. Klicken Sie auf **Erstellen**.
 
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
-1. Fahren Sie fort [Formular konfigurieren](#configure-the-form).
+1. Fahren Sie fort [Einrichten von Details für das Anfrageformular](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -166,7 +166,11 @@ Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatzt
 Formulardetails sind in Registerkarten unterteilt.
 
 * Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
-* Auf **Registerkarte**&#x200B;Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen&lt;.
+* Auf **Registerkarte** Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen festlegen.
+
+  >[!NOTE]
+  >
+  ><span class="preview">In der Vorschau-Umgebung ersetzt die Registerkarte Einstellungen die Registerkarte Konfiguration.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Einrichten von Formulardetails
@@ -226,9 +230,17 @@ Formulardetails sind in Registerkarten unterteilt.
    Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
-1. Fahren Sie mit [Konfigurationsdetails einrichten](#set-up-configuration-details) fort, wenn Sie weitere Details für das Formular konfigurieren möchten, oder gehen Sie zu [Formularerstellung abschließen](#complete-request-form-creation).
+1. Fahren Sie mit einer der folgenden Aktionen fort:
+
+   * [Einrichten von Konfigurationsdetails](#set-up-configuration-details), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
+   * <span class="preview">[Einstellungen konfigurieren](#configure-settings) wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten</span>
+   * [Erstellen von Anforderungsformularen abschließen](#complete-request-form-creation) wenn Sie keine weiteren Einstellungen konfigurieren möchten.
 
 #### Einrichten von Konfigurationsdetails
+
+>[!NOTE]
+>
+>Diese Registerkarte ist nur in der Produktionsumgebung verfügbar.
 
 Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlegen und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird.
 
@@ -255,6 +267,82 @@ Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlege
 1. Wählen Sie aus, ob eine aus diesem Formular erstellte Anfrage beim Erstellen des angeforderten Objekts als abgeschlossen markiert oder ob das angeforderte Objekt fertig gestellt werden soll.
 1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
 1. Fahren Sie <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
+
+<div class="preview">
+
+### Einstellungen konfigurieren
+
+>[!NOTE]
+>
+>Diese Registerkarte ist nur in der Vorschau -Umgebung verfügbar.
+
+Auf der Registerkarte Einstellungen können Sie Validierungsregeln festlegen und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird.
+
+#### Konfigurieren von Genehmigungsregeln
+
+Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
+
+Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
+
+Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
+
+* Regeln werden nach Reihenfolge priorisiert. Wenn die ersten Regelbedingungen erfüllt sind, wird diese Regel angewendet, auch wenn die Bedingungen für Regeln weiter unten in der Liste ebenfalls erfüllt sind.
+* Wenn keine Bedingungen erfüllt sind, wird die Standardregel angewendet.
+* Sie können einer Genehmigungsregel eine oder mehrere genehmigende Personen hinzufügen.
+* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
+* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
+* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
+
+Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
+
+1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
+
+   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
+1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
+
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![ der linken Navigationsleiste auf Genehmigungen ](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+
+1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
+
+   ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Optional) Gehen Sie für jede zusätzliche Genehmigungsregel wie folgt vor:
+
+   1. Klicken Sie **Genehmigungsregel hinzufügen**
+   1. Klicken Sie auf den Platzhaltertitel „Nicht benannte Genehmigungsregel“ und geben Sie einen Namen für die Genehmigungsregel ein.
+   1. Klicken Sie **Feld auswählen** und wählen Sie das Feld aus, das die Regel aktiviert.
+   1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
+   1. Wenn der ausgewählte Operator einen Wert benötigt, klicken Sie auf das Pluszeichen und fügen Sie einen oder mehrere Werte hinzu.
+   1. (Optional) Fügen Sie weitere Bedingungen mit UND oder hinzu, indem Sie auf „Bedingung hinzufügen“ klicken und die zusätzliche Bedingung konfigurieren.
+   1. Fügen Sie im Bereich Aktionen der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person eingestellt werden soll, wenn die Bedingung erfüllt ist.
+   1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
+
+1. (Optional) Um Routing-Regeln neu anzuordnen, klicken Sie auf den Ziehgriff auf der linken Seite der Regel und ziehen Sie die Regel an die gewünschte Position.
+
+   Die Standardregel kann nicht neu angeordnet werden.
+
+1. (Optional) Um eine Routingregel zu löschen, klicken Sie auf das **X** rechts neben der Regel.
+1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
+1. Fahren Sie fort [Festlegen von Optionen für die Anfragebearbeitung](#set-request-completion-options)
+
+#### Festlegen der Optionen für die Anfragebearbeitung
+
+Mit Abschlussoptionen können Sie festlegen, ob eine Anfrage beim Erstellen des angeforderten Objekts als „abgeschlossen“ markiert wird oder wann das erstellte Objekt abgeschlossen ist. Sie definieren, wann das Objekt basierend auf einer angegebenen Bedingung abgeschlossen sein soll.
+
+1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
+
+   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
+1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
+
+1. Wählen Sie aus, ob eine aus diesem Formular erstellte Anfrage beim Erstellen des angeforderten Objekts als abgeschlossen markiert oder ob das angeforderte Objekt fertig gestellt werden soll.
+1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
+1. Fahren Sie <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
+
+</div>
 
 <!--
  
@@ -301,7 +389,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
