@@ -6,9 +6,9 @@ description: Einige Funktionen unterscheiden sich zwischen  [!DNL Workfront]  un
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 4ce69180b8f419ff5634d0dba802f9fb57cd758b
+source-git-commit: ff8866b2b48ead3b7b2e035a394fa038036fbfc0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,7 @@ Informationen zum [!DNL Admin Console] finden Sie in den folgenden Artikeln:
 
 ### Was muss ich als Kunde tun, um die Migration zu erleichtern?
 
-Bestehende Kunden werden kontaktiert, um Migrationen zu planen. Das Migrations-Team unterstützt seine Kollegen dabei, den Kunden durch den Prozess zu führen, bei [!DNL Admin Console] Einrichtung zu beraten und Links zur Dokumentation bereitzustellen, die erforderlich ist, um den Umzug so einfach und unkompliziert wie möglich zu gestalten.
-
-* [[!DNL Adobe Workfront] Support-Übersicht](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/workfront/overview)
-* [[!DNL Adobe Business Platform] und [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/workfront/faq)
+Bestehende Kunden werden kontaktiert, um Migrationen zu planen. Das Migrations-Team unterstützt seine Kollegen dabei, den Kunden durch den Prozess zu führen, bei [!DNL Admin Console] Einrichtung zu beraten und Links zur Dokumentation bereitzustellen, die erforderlich ist, um den Umzug so einfach und unkompliziert wie möglich zu gestalten. Weitere Informationen finden Sie in [[!DNL Adobe Business Platform] und [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq).
 
 ### Wie handhabt ihr [!DNL Adobe Admin Console] für Unternehmen, die dies bereits für Federated IDs aktiviert haben, anders als [!DNL Workfront] SSO eingerichtet ist?
 
@@ -110,7 +107,7 @@ Ja, es gibt einen Prozess dafür. Weitere Details werden bereitgestellt, wenn es
 
 ### Was passiert mit den [!DNL Workfront] Benutzern, die kein [!DNL Adobe] Konto haben?
 
-Benutzer, denen in [!DNL Adobe Admin Console] kein Zugriff auf [!DNL Workfront] gewährt wurde, müssen ein &quot;[!UICONTROL persönliches Konto“ &#x200B;] ein [!DNL Adobe] ID-Konto erstellen, um sich anmelden zu können. Dadurch wird eine E-Mail an den Administrator gesendet, um die Anfrage zu genehmigen oder abzulehnen, und der Administrator kann damit zusätzlich konfigurieren, welche Art von Zugriff dieser Benutzer hat. Wenn sie sich anmelden, gehen sie zu experience.adobe.com, geben ihre E-Mail-Adresse ein und wählen [!UICONTROL Persönliches Konto]. Dort können sie auf [!DNL Workfront] zugreifen.
+Benutzer, denen in [!DNL Adobe Admin Console] kein Zugriff auf [!DNL Workfront] gewährt wurde, müssen ein &quot;[!UICONTROL persönliches Konto“ ] ein [!DNL Adobe] ID-Konto erstellen, um sich anmelden zu können. Dadurch wird eine E-Mail an den Administrator gesendet, um die Anfrage zu genehmigen oder abzulehnen, und der Administrator kann damit zusätzlich konfigurieren, welche Art von Zugriff dieser Benutzer hat. Wenn sie sich anmelden, gehen sie zu experience.adobe.com, geben ihre E-Mail-Adresse ein und wählen [!UICONTROL Persönliches Konto]. Dort können sie auf [!DNL Workfront] zugreifen.
 
 ### Was ist, wenn wir außer [!DNL Adobe] keine [!DNL Workfront?] Produkte haben?
 
