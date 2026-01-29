@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: '2952'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -224,6 +224,25 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
      ![Auswahl der Workfront-Projektverbindung](assets/multi-select-connection-picker-project.png)
 
+   <div class="preview">
+
+   * Eine **ursprüngliche Anfrage** Objekttyp aus dem Abschnitt **Workfront** Objekttypen.
+
+     Das Feld Ursprüngliche Anfrageverbindung erstellt zeigt den Namen der gesendeten Planning-Anfrage an, die das Objekt erstellt hat.
+
+     >[!NOTE]
+     >
+     >Sie müssen Anforderungsformulare erstellen und veröffentlichen, um Planungsanfragen zum Erstellen von Datensätzen in Workfront Planning senden zu können.
+     >
+     >Weitere Informationen finden Sie in den folgenden Artikeln:
+     >* [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+     >* [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+     ![Auswahl der ursprünglichen Anfrageverbindung](assets/original-request-connection-selection.png)
+
+   </div>
+
+
    * **Experience Manager Assets** im Abschnitt **Adobe-**.
 
      ![AEM Assets-Verbindungsauswahl](assets/aem-assets-connection-selection.png)
@@ -281,7 +300,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:

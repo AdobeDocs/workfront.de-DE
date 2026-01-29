@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -158,7 +157,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Änderungen an der Datensatzvorschau werden sofort auf der Seite mit den Datensatzdetails angezeigt. Auf der Datensatzseite vorgenommene Änderungen sind auch im Feld für die Datensatzvorschau sichtbar.
 
-* Das Hinzufügen eines Cover- oder Miniaturbilds zu einem Datensatz gehört nicht zum Gesamtlayout der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder oder Miniaturansichten hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) und [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* Das Hinzufügen eines Cover- oder Miniaturbilds zu einem Datensatz gehört nicht zum Gesamtlayout der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder oder Miniaturansichten hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) und [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 * Sie können der Seite eines Datensatzes zusätzliche Seiten der folgenden Typen hinzufügen:
 
@@ -172,7 +171,7 @@ Beachten Sie beim Hinzufügen von Abschnitten zu einer Datensatzseite Folgendes:
 
 * Es gibt keine Begrenzung dafür, wie viele Abschnitte Sie auf einer Seite haben können.
 * Es ist nicht möglich, einen leeren Abschnitt zu verwenden. Mindestens ein Feld in einem Abschnitt ist erforderlich.
-* Sie können Felder per Drag-and-Drop von einem Abschnitt in einen anderen ziehen. Weitere Informationen finden Sie im Abschnitt [Neuanordnen von Feldern auf der Datensatzvorschau oder der Detailseite](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel.
+* Sie können Felder per Drag-and-Drop von einem Abschnitt in einen anderen ziehen. Weitere Informationen finden Sie im Abschnitt [Verwalten von Feldern auf der Datensatzvorschau oder Detailseite](#manage-fields-in-the-records-details-tab) in diesem Artikel.
 * Wenn Sie alle Felder aus einem Abschnitt entfernen, wird der Abschnitt automatisch gelöscht und kann nicht wiederhergestellt werden.
 
 So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
@@ -197,7 +196,7 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
    ![Detailfeld](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![&#x200B; (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet. Die Registerkarte Details wird standardmäßig geöffnet.
 
@@ -205,7 +204,7 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
 1. Bewegen **auf der Registerkarte** Details“ der Datensatzvorschau oder -seite den Mauszeiger über den Leerraum links neben den Feldern und klicken Sie dann auf das Symbol **Abschnitt hinzufügen** ![Abschnittssymbol hinzufügen](assets/add-section-icon.png), um einen Abschnitt hinzuzufügen.
 1. Klicken Sie in den Namen des Abschnitts und ersetzen Sie **Nicht benannter Abschnitt** durch einen Namen. Klicken Sie dann auf die Eingabetaste. Die unter dem Abschnitt angezeigten Felder sind automatisch Teil des neuen Abschnitts.
-1. Ziehen Sie die Felder per Drag-and-Drop in den neuen Abschnitt, wie im Abschnitt [Felder in der Datensatzvorschau oder auf der Detailseite neu anordnen](#rearrange-fields-in-the-record-preview-or-details-page) in diesem Artikel beschrieben.
+1. Ziehen Sie die Felder per Drag-and-Drop in den neuen Abschnitt, wie im Abschnitt [Verwalten von Feldern in der Datensatzvorschau oder auf der Detailseite](#manage-fields-in-the-records-details-tab) in diesem Artikel beschrieben.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png).
 
@@ -236,7 +235,7 @@ Alle Abschnitte sind standardmäßig erweitert.
 
    Alle Änderungen an Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Registerkarte Details in eine Word- oder PDF-Datei zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Registerkarte Details in eine Word- oder PDF-Datei zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Optional) Klicken Sie auf die Registerkarte **Verbindungen** neben der Registerkarte **Details**. Möglicherweise müssen Sie auf **Mehr** klicken, bevor Sie auf die Registerkarte **Verbindungen** klicken.
 
@@ -254,7 +253,7 @@ Folgendes geschieht:
    * Das Workfront-Objekt wird auch aus dem verknüpften Feld des Datensatzes aus Workfront Planning entfernt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
 
-## Neuanordnen von Feldern auf der Registerkarte Details des Datensatzes
+## Felder in der Registerkarte „Details“ des Datensatzes verwalten
 
 {{step1-to-planning}}
 
@@ -276,11 +275,25 @@ Folgendes geschieht:
 
    ![Detailfeld](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![&#x200B; (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die **Details** des Datensatzes wird standardmäßig geöffnet.
 
    ![Detailseite](assets/details-page.png)
+
+1. <span class="preview">(Optional und bedingt) Führen Sie je nachdem, welche Felder auf der Detailseite angezeigt werden sollen, einen der folgenden Schritte aus:</span>
+
+   <div class="preview">
+
+   * Wählen Sie die Einstellung **Tabellenfelder anzeigen**, um nur Felder anzuzeigen, die nicht in der Tabellenansicht des Datensatzes ausgeblendet sind. Dies ist die Standardeinstellung
+   * Deaktivieren Sie die Einstellung **Tabellenfelder anzeigen**, um alle Felder in der Tabellenansicht des Datensatzes anzuzeigen, einschließlich der ausgeblendeten.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. Klicken Sie auf der **„Details** auf das **grab**-Symbol ![grab icon](assets/grab-icon.png) links neben einem Feldnamen und ziehen Sie es dann an die gewünschte Stelle.
 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2424'
 ht-degree: 2%
 
 ---
@@ -224,6 +224,10 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 ## Massenweise Zuweisung mehrerer Aufgaben aus einer Liste
 
+Die Massenzuweisung mehrerer Aufgaben aus einer Liste unterscheidet sich je nach ausgewählter Umgebung.
+
+### Massenweise Zuweisung mehrerer Aufgaben aus einer Liste in der Produktionsumgebung
+
 1. Navigieren Sie zu einer Liste von Aufgaben, die Sie stapelweise zuweisen möchten.
 1. (Bedingt) Stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist, wenn Sie sich in einer Liste von Aufgaben unter einem Projekt befinden.
 
@@ -242,11 +246,6 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. (Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten**, um das alte Erlebnis zu öffnen.
 
-   >[!TIP]
-   >
-   >Die Zuweisung von Aufgaben in der Produktionsumgebung ist nur für das alte Erlebnis verfügbar.
-
-
 1. (Bedingt) Wählen Sie unter Verwendung des alten Erlebnisses im Bereich **Arbeitsaufträge** das Feld **Verantwortlicher** aus und geben Sie dann den Namen eines Benutzers, eines Aufgabengebiets oder Teams ein, den/das Sie allen Aufgaben zuweisen möchten.
 
    >[!IMPORTANT]
@@ -264,7 +263,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    >
    >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben oder wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&quot; eine Rolle aus, die der Benutzer bei der Aufgabe erfüllen soll** wenn Sie Benutzer Aufgaben zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
@@ -303,7 +302,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 1. Klicken Sie in das **Dauertyp** und wählen Sie einen Dauertyp aus.
 
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
 1. (Bedingt) Aktualisieren Sie je nach **von** ausgewählten „Dauertyp“ die folgenden Felder:
 
@@ -315,8 +314,48 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. (Optional) Wenn Sie vorhandene Verantwortliche aus allen Aufgaben entfernen möchten, klicken Sie auf das **x** neben ihrem Namen im Feld **Personen, Rollen oder Teams suchen**.
 
 1. Klicken Sie auf **Speichern**.
-1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen
+1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
 
+<div class="preview">
+
+### Massenweise Zuweisung mehrerer Aufgaben aus einer Liste in der Vorschau-Umgebung
+
+1. Navigieren Sie zu einer Liste von Aufgaben, die Sie stapelweise zuweisen möchten.
+1. (Bedingt) Stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist, wenn Sie sich in einer Liste von Aufgaben unter einem Projekt befinden.
+
+   >[!IMPORTANT]
+   >
+   >Beim manuellen Speichern von Aufgaben für ein Projekt können Sie keine Aufgaben stapelweise bearbeiten.
+
+1. Mehrere Aufgaben in der Aufgabenliste auswählen.
+1. Klicken Sie auf **Bearbeiten**.
+
+   Das **Aufgaben bearbeiten** wird geöffnet.
+
+1. Beginnen Sie im Bereich **Arbeitsaufträge** mit der Eingabe des Namens der Benutzer, Teams oder Rollen in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
+
+   >[!IMPORTANT]
+   >
+   >Wenn eine der Aufgaben bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Vorgängen hinzugefügt, anstatt die vorhandenen Ressourcen in den Vorgängen zu ersetzen.
+
+1. Geben Sie die folgenden Felder für die ausgewählten Aufgaben an:
+
+   * Bewegen Sie den Mauszeiger über den Zuweisungsnamen und klicken Sie dann auf **Primär machen**, um anzugeben, welcher Verantwortliche der Eigentümer der Aufgabe ist.
+   * **Dauertyp**
+
+     Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+
+   * **Dauer**
+   * **Geplante Stunden**
+
+     Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Optional) Wenn Sie vorhandene Verantwortliche aus allen Aufgaben entfernen möchten, klicken Sie auf das **x** neben ihrem Namen im Feld **Personen, Rollen oder Teams suchen**.
+
+1. Klicken Sie auf **Speichern**.
+1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
+
+</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

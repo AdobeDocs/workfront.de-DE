@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3440'
 ht-degree: 2%
 
 ---
@@ -236,6 +236,8 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >[!TIP]
    >
    >Die Anzahl der ausgeblendeten Felder wird links neben dem Symbol Felder in der Symbolleiste angezeigt.
+   >
+   ><span class="preview">Standardmäßig werden ausgeblendete Felder nicht auf der Seite **Details** eines Datensatzes angezeigt. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Klicken Sie auf **Felder** und aktivieren Sie den Umschalter, der mit den Feldern verknüpft ist, die Sie in den Spalten der Tabelle anzeigen möchten. Standardmäßig werden alle Felder angezeigt.

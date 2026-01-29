@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '4416'
+source-wordcount: '5366'
 ht-degree: 4%
 
 ---
@@ -28,19 +28,19 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über die Berechtigung Beitragen oder Verwalten verfügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -206,7 +206,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
 1. (Bedingt) Um alle Informationen zu der Aufgabe zu bearbeiten, klicken Benutzende mit der Berechtigung Verwalten für die Aufgabe auf das Menü **Mehr** ![](assets/more-icon.png) neben dem Namen der Aufgabe und anschließend auf **Bearbeiten**.
 
-   Oder
+   ODER
 
    Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in **Liste auf** Bearbeiten![](assets/edit-icon.png).
 
@@ -374,6 +374,10 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
 ### Arbeitsaufträge {#assignments}
 
+Die Bearbeitung von Zuweisungen im Feld Aufgabe bearbeiten unterscheidet sich je nach ausgewählter Umgebung.
+
+#### Bearbeiten des Bereichs „Zuweisungen“ in der Produktionsumgebung
+
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
 1. Klicken Sie **linken** auf „Arbeitsaufträge“.
 
@@ -383,7 +387,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
    1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, Aufgabengebiets oder Teams in das Feld **Personen, Rollen oder Teams suchen** und wählen Sie sie aus, wenn sie in der Liste angezeigt werden
 
-      Oder
+      ODER
 
       Klicken Sie **Mir zuweisen**, um sich die Aufgabe selbst zuzuweisen.
 
@@ -519,24 +523,185 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
    1. (Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgabe bearbeiten** auf.
 Der Bereich Arbeitsaufträge wird im alten Erlebnis geöffnet.
+
       ![Arbeitsauftrag im Feld Aufgabe bearbeiten](assets/nwe-assignments-section-edit-task-box-350x217.png)
+
+1. (Bedingt) Gehen Sie wie folgt vor, um das alte Erlebnis zu verwenden:
+
+   1. Klicken Sie auf **Personen, Rollen oder Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn er/sie in der Liste angezeigt wird.
+
+      >[!TIP]
+      >
+      >* Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einschließen.
+      >* Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+      >
+      >* Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+      >
+      >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+      >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
+
+   1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Verantwortlichen und klicken Sie dann auf **Primär machen** um anzugeben, ob ein Verantwortlicher der primäre Verantwortliche oder der Eigentümer der Aufgabe ist. Ein Team kann nicht der primäre Zugewiesene einer Aufgabe sein.
+   1. (Optional) Aktualisieren Sie die folgenden Felder:
+
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Dauertyp</td> 
+         <td> <p>Dadurch wird die Beziehung zwischen folgenden Elementen identifiziert: </p> 
+         <ul> 
+         <li> <p>Die Anzahl der Ressourcen, die einer Aufgabe zugewiesen sind </p> </li> 
+         <li> <p>Der Gesamtaufwand, der zum Abschließen der Aufgabe erforderlich ist </p> </li> 
+         <li> <p> Die Gesamtdauer der Aufgabe. </p> </li> 
+         </ul> <p>Ihr Workfront-Administrator oder ein Gruppenadministrator wählt die Standardeinstellung für den Dauertyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen</a>. </p> <p>Mit Dauertypen können Sie konsistente Ressourcenzuweisungen auf der Grundlage der Anforderungen der Aufgabe festlegen. Weitere Informationen zum Dauertyp einer Aufgabe finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die Aufgabendauer und den Dauertyp</a>. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+         <ul> 
+         <li> <p>Berechnete Zuweisung </p> </li> 
+         <li> <p> Berechnete Arbeit </p> </li> 
+         <li> <p>Leistungsgesteuert </p> </li> 
+         <li> <p>Einfach</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+         <td role="rowheader">Dauer pro Termin</td> 
+         <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Sie zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>HINWEIS</b>
+
+      In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td>
+      </tr> 
+      <tr> 
+         <td role="rowheader">Dauer</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>Dies ist der Zeitraum, den Sie einer Aufgabe erlauben, offen zu bleiben, bevor sie abgeschlossen ist. </p> 
+         <p><b>WICHTIG</b>
+
+      Da die Aufgabendauer in der Regel die Zeit zwischen dem geplanten Start- und dem geplanten Abschlussdatum ist, wirkt sich dies auf die Zeitleiste des Projekts aus.</p>
+
+      <p>Gehen Sie wie folgt vor, um die Dauer der Aufgabe und die Zeiteinheit anzugeben:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Geben Sie die Zeitdauer ein und wählen Sie aus den verfügbaren Zeiteinheiten im Dropdown-Menü aus.</p> <p><b>TIPP</b></p>
+         Wenn Sie die Dauer von Aufgaben in einer Aufgabenliste aktualisieren, können Sie die Abkürzung für die Zeiteinheit verwenden. </p> </li> 
+         </ul> 
+         <p> In der folgenden Tabelle können Sie zwischen den Optionen „Reguläre Zeit“ und „Verstrichene Zeit“ wählen: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Zeiteinheit</td> 
+         <td>Abkürzung</td> 
+         </tr> 
+         <tr> 
+         <td>Minutes</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Stunden</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Tage. Dies ist der Standardwert. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Weeks</td> 
+         <td>W</td> 
+         </tr> 
+         <tr> 
+         <td>Months</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Verstrichene Minuten</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Verstrichene Stunden</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Verstrichene Tage</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Verstrichene Wochen</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>Verstrichene Monate</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+      </table>
+
+      <p><b>NOTIZ</b>
+
+      <p>Verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und Ausfallzeiten umfasst. Mit anderen Worten: Verstrichene Zeit ist der Ablauf von Kalendertagen.
+
+      Die reguläre Zeit berücksichtigt Feiertage, Wochenenden und Auszeiten und schließt sie von der Dauer der Aufgabe aus. Weitere Informationen zur Aufgabendauer finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die Aufgabendauer und den </a>). </p>
+      </div> 
+         </div> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Geplante Stunden</td> 
+         <td> <p>Anzahl der geplanten Stunden für die Aufgabe angeben (in Stunden) Dies ist die tatsächliche Zeit, die die Verantwortlichen für die Aufgabe benötigen würden, um diese abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn als Dauertyp Berechnete Zuweisung festgelegt ist. Weitere Informationen zu Dauertypen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und Dauertyp</a>.</p> 
+         <b>HINWEIS</b>
+         <p>
+         Beim Erstellen wiederkehrender Aufgaben sind die geplanten Stunden die Stunden für jedes Vorkommen. Die geplanten Stunden der übergeordneten Aufgaben sind die Summe aller geplanten Stunden aus allen Vorfällen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>.
+         </p>
+
+      </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Zuteilung</td> 
+         <td> <p>Wenn Ihre Aufgabenbeschränkung auf „Berechnete Arbeit“ oder „Arbeitsaufwand“ basiert, geben Sie <strong>Zuordnung %</strong> (Zuordnungsprozentsatz) für jeden Zugewiesenen an. Dies ist die Zeit aus dem Zeitplan des Verantwortlichen, die er für diese Aufgabe aufwenden kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, werden auch die geplanten Stunden einer Aufgabe geändert. </p> <p>Wenn die Aufgabenbeschränkung einfach ist, können Sie Folgendes angeben:</p> 
+            <ul> 
+            <li> <p>Zuweisungsstunden jedes Zugewiesenen.</p> </li> 
+            <li> <p>Geplante Stunden der Aufgabe</p> </li> 
+            <li> <p>Dauer der Aufgabe</p> </li> 
+            </ul> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Rolle des Zugewiesenen</td> 
+         <td> <p>Wählen Sie eine Rolle aus dem Dropdown<strong>Menü „Rolle des Verantwortlichen</strong> aus, wenn Sie eine Person als Verantwortlicher ausgewählt haben. Dies ist die Rolle, die der Verantwortliche bei dieser Aufgabe erfüllen kann. </p> <p><b>TIPP</b>
+
+      Im Dropdown-Menü werden nur die Aufgabengebiete angezeigt, die jedem Bearbeiter in seinem Profil zugeordnet sind.</p> </td>
+      </tr>
+      </tbody>
+      </table>
+
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
+
+<div class="preview">
+
+#### Bearbeiten des Bereichs „Zuweisungen“ in der Vorschau-Umgebung
+
+>[!TIP]
+>
+>Bei der Massenbearbeitung von Aufgabenzuweisungen wird ein Indikator für mehrere Werte für die Felder angezeigt, deren Werte sich zwischen den ausgewählten Aufgaben unterscheiden.
+>
+>Es können nicht die einzelnen Zuweisungen für jede ausgewählte Aufgabe angezeigt werden.
+
+
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
+1. Klicken Sie **linken** auf „Arbeitsaufträge“.
+
+   ![Arbeitsauftrag im Feld Aufgabe bearbeiten](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klicken Sie auf **Personen, Rollen oder Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn er/sie in der Liste angezeigt wird.
 
-   >[!NOTE]
-   >
-   >Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einschließen.
-
    >[!TIP]
    >
-   >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+   >* Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einschließen.
+   >* Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
    >
-   >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+   >* Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
    >
    >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
    >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-1. (Optional) Geben Sie an, ob ein Verantwortlicher der primäre Verantwortliche für die Aufgabe ist, indem Sie die **Verantwortlicher** neben seinem Namen auswählen. Ein Team kann nicht der primäre Zugewiesene einer Aufgabe sein.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Verantwortlichen und klicken Sie dann auf **Primär machen** um anzugeben, ob ein Verantwortlicher der primäre Verantwortliche oder der Eigentümer der Aufgabe ist. Ein Team kann nicht der primäre Zugewiesene einer Aufgabe sein.
 1. (Optional) Aktualisieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
@@ -669,6 +834,8 @@ Der Bereich Arbeitsaufträge wird im alten Erlebnis geöffnet.
 
 1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
 
+</div>
+
 ### Benutzerdefinierte Formulare
 
 Sie können benutzerdefinierte Standardformulare definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben zu einem Projekt hinzugefügt werden. Informationen dazu, wie Sie das Projekt so einrichten, dass für alle neuen Aufgaben benutzerdefinierte Standardformulare für Aufgaben einbezogen werden, finden Sie im Abschnitt „Aufgaben“ im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
@@ -692,7 +859,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -735,7 +902,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -801,7 +968,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)

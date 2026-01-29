@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 0%
+source-wordcount: '1496'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Informationen zum Zuweisen einer Aufgabe zu einer Ressource in einer Liste finde
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Informationen zum Zuweisen einer Aufgabe zu einer Ressource in einer Liste finde
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >Verwenden Sie nicht das Feld **Zugewiesen an**. Dadurch wird nur der Primäre Verantwortliche für die Aufgabe gefunden, nicht aber für die ihnen zuweisbaren Rollen.
 
-   Oder
+   ODER
 
    Um nach einem Benutzer zu filtern, wählen Sie **Arbeitsauftrag - Benutzer** und klicken Sie dann auf **ID.**
 
@@ -127,85 +127,144 @@ When assigning users to work, their availability according to their schedules af
 
 1. Wählen Sie die Aufgaben aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png).
 
-   Das **Aufgaben bearbeiten** wird in der neuen -Version geöffnet. Führen Sie einen der folgenden Schritte aus:
+   Die Bearbeitung von Zuweisungen für Aufgaben unterscheidet sich je nach ausgewählter Umgebung.
 
-   * Um Verantwortliche hinzuzufügen, fangen Sie an, den Namen eines Verantwortlichen in das Feld **Personen, Rollen oder Teams suchen** einzugeben und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-   * Um Bevollmächtigte zu entfernen, klicken Sie auf das **x**-Symbol rechts neben ihrem Namen. In der Liste werden nur Personen angezeigt, die allen Aufgaben gemeinsam sind.
-   * Klicken Sie auf Mir zuweisen , um sich die ausgewählten Aufgaben selbst zuzuweisen.
+1. (Bedingt) Wenn Sie die Produktionsumgebung zum Zuweisen von Aufgaben verwenden, wird das **Aufgaben bearbeiten** in der neuen -Version geöffnet. Führen Sie in der Produktionsumgebung folgende Schritte aus:
 
-1. (Bedingt) Klicken Sie bei Verwendung der neuen -Version auf **Speichern**.
+   1. Um Verantwortliche hinzuzufügen oder zu entfernen, führen Sie einen der folgenden Schritte aus:
 
-1. (Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten** auf.
+      * Um Verantwortliche hinzuzufügen, fangen Sie an, den Namen eines Verantwortlichen in das Feld **Personen, Rollen oder Teams suchen** einzugeben und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+      * Um Bevollmächtigte zu entfernen, klicken Sie auf das **x**-Symbol rechts neben ihrem Namen. In der Liste werden nur Personen angezeigt, die allen Aufgaben gemeinsam sind.
+      * Klicken Sie auf Mir zuweisen , um sich die ausgewählten Aufgaben selbst zuzuweisen.
 
-   Das **Aufgaben bearbeiten** wird in der alten Version geöffnet.
+   1. (Bedingt) Klicken Sie bei Verwendung der neuen -Version auf **Speichern**.
 
-   <!--
-   >[!TIP]
-   >
-   >The old experience is available by default in the Production environment.-->
+   1. (Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten** auf.
 
-1. (Bedingt) Gehen Sie in der alten Version wie folgt vor, um die Empfänger zu ändern:
+      Das **Aufgaben bearbeiten** wird in der alten Version geöffnet.
 
-   1. Navigieren Sie zum Abschnitt **Arbeitsaufträge** .
+   1. (Bedingt) Gehen Sie in der alten Version wie folgt vor, um die Empfänger zu ändern:
 
-      >[!IMPORTANT]
-      >
-      >Das Entfernen von Zugewiesenen kann sich auf die Aufgabenstunden und die Zuordnungsprozentsätze auswirken. Weitere Informationen finden Sie im Abschnitt [Wie sich das Entfernen von Verantwortlichen auf die Aufgabenstunden und Zuordnungsprozentsätze auswirkt](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in diesem Artikel.
+      1. Navigieren Sie zum Abschnitt **Arbeitsaufträge** .
 
-   1. Führen Sie einen der folgenden Schritte aus, um Verantwortliche hinzuzufügen oder zu entfernen:
+         >[!IMPORTANT]
+         >
+         >Das Entfernen von Zugewiesenen kann sich auf die Aufgabenstunden und die Zuordnungsprozentsätze auswirken. Weitere Informationen finden Sie im Abschnitt [Wie sich das Entfernen von Verantwortlichen auf die Aufgabenstunden und Zuordnungsprozentsätze auswirkt](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in diesem Artikel.
 
-      * So fügen Sie einen neuen Bevollmächtigten hinzu:
+      1. Führen Sie einen der folgenden Schritte aus, um Verantwortliche hinzuzufügen oder zu entfernen:
 
-         1. Wählen Sie **Abschnitt** Arbeitsaufträge“ **Verantwortlicher** aus.
+         * So fügen Sie einen neuen Bevollmächtigten hinzu:
 
-            Es werden Informationen angezeigt, die für alle ausgewählten Aufgaben gelten. Wenn beispielsweise allen Aufgaben derselbe Benutzer zugewiesen ist, wird dieser Benutzer in der Spalte &quot;**&quot;**. Wenn die Informationen für die ausgewählten Aufgaben nicht gleich sind, werden keine Informationen angezeigt.
+            1. Wählen Sie **Abschnitt** Arbeitsaufträge“ **Verantwortlicher** aus.
 
-         1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen für die ausgewählten Aufgaben.
+               Es werden Informationen angezeigt, die für alle ausgewählten Aufgaben gelten. Wenn beispielsweise allen Aufgaben derselbe Benutzer zugewiesen ist, wird dieser Benutzer in der Spalte &quot;**&quot;**. Wenn die Informationen für die ausgewählten Aufgaben nicht gleich sind, werden keine Informationen angezeigt.
 
+            1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen für die ausgewählten Aufgaben.
 
-        >[!TIP]
-        >
-        > * Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
-        >   
-        > * Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können. Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-        > 
-        >   Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
-        >   
-        >     * Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
-        >     * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
+           >[!TIP]
+           >
+           > * Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+           >   
+           > * Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können. Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+           >   
+           >     * Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+           >     * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
 
-      * So entfernen Sie einzelne Zugewiesene:
+         * So entfernen Sie einzelne Zugewiesene:
 
-         1. Klicken Sie auf das **X**-Symbol neben dem Namen des Verantwortlichen, den Sie entfernen möchten, wenn der Verantwortliche in der Zuweisungsliste angezeigt wird.
+            1. Klicken Sie auf das **X**-Symbol neben dem Namen des Verantwortlichen, den Sie entfernen möchten, wenn der Verantwortliche in der Zuweisungsliste angezeigt wird.
 
-            Oder
+               ODER
 
-            (Bedingt) Wenn der Verantwortliche, den Sie entfernen möchten, nicht im Abschnitt Zuweisungen angezeigt wird, da der Verantwortliche nur einigen der ausgewählten Aufgaben zugewiesen ist, klicken Sie auf **Verantwortlichen entfernen** und geben Sie den Namen des Verantwortlichen ein, den Sie entfernen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+               (Bedingt) Wenn der Verantwortliche, den Sie entfernen möchten, nicht im Abschnitt Zuweisungen angezeigt wird, da der Verantwortliche nur einigen der ausgewählten Aufgaben zugewiesen ist, klicken Sie auf **Verantwortlichen entfernen** und geben Sie den Namen des Verantwortlichen ein, den Sie entfernen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-      * So entfernen Sie alle vorhandenen Zugewiesenen:
+         * So entfernen Sie alle vorhandenen Zugewiesenen:
 
-         1. Klicken Sie **Alle vorhandenen Bevollmächtigten entfernen** und klicken Sie dann auf **Ja, Alle Bevollmächtigten löschen**.
+            1. Klicken Sie **Alle vorhandenen Bevollmächtigten entfernen** und klicken Sie dann auf **Ja, Alle Bevollmächtigten löschen**.
 
-            Dadurch werden nicht nur die allgemeinen Bevollmächtigten (Bevollmächtigte, die im Dialogfeld „Bearbeiten“ angezeigt werden) entfernt, sondern auch alle Bevollmächtigten für alle ausgewählten Aufgaben.
+               Dadurch werden nicht nur die allgemeinen Bevollmächtigten (Bevollmächtigte, die im Dialogfeld „Bearbeiten“ angezeigt werden) entfernt, sondern auch alle Bevollmächtigten für alle ausgewählten Aufgaben.
 
-        Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
+           Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+           Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
-   1. (Optional) Ändern Sie eine der folgenden Optionen für Verantwortliche:
+      1. (Optional) Ändern Sie eine der folgenden Optionen für Verantwortliche:
 
-      * (Bedingt) **Zuordnung % oder Stunden**: Geben Sie einen neuen Zuordnungsprozentsatz oder neue Stunden an.
+         * (Bedingt) **Zuordnung % oder Stunden**: Geben Sie einen neuen Zuordnungsprozentsatz oder neue Stunden an.
 
-      >[!NOTE]
-      >
-      >Diese Option kann nur geändert werden, wenn der Dauertyp für alle Aufgaben, die bearbeitet werden, gleich ist. Wenn als Dauertyp „Berechnete Arbeit“ oder „Leistungsgesteuert“ festgelegt ist, können Sie die Zuordnung % aktualisieren. Wenn der Dauertyp „Einfach“ ist, können Sie die Stunden aktualisieren. Informationen zum Dauertyp finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-      >
-      >
-      >Wenn das Feld leer ist, bedeutet dies, dass der Wert in allen Aufgaben unterschiedlich ist. Sie können ihn jedoch weiterhin ändern.
+         >[!NOTE]
+         >
+         >Diese Option kann nur geändert werden, wenn der Dauertyp für alle Aufgaben, die bearbeitet werden, gleich ist. Wenn als Dauertyp „Berechnete Arbeit“ oder „Leistungsgesteuert“ festgelegt ist, können Sie die Zuordnung % aktualisieren. Wenn der Dauertyp „Einfach“ ist, können Sie die Stunden aktualisieren. Informationen zum Dauertyp finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Wenn das Feld leer ist, bedeutet dies, dass der Wert in allen Aufgaben unterschiedlich ist. Sie können ihn jedoch weiterhin ändern.
 
-      * **Aufgabenbesitzer**: Wählen Sie diese Option aus, um den Verantwortlichen zum Besitzer der Aufgabe für alle bearbeiteten Aufgaben zu machen.
-      * **Rolle des Verantwortlichen**: Wählen Sie eine Rolle aus der Dropdown-Liste aus. Wenn die Option deaktiviert bleibt, wählt Adobe Workfront automatisch die Primäre Rolle des Benutzers aus.
+         * **Aufgabenbesitzer**: Wählen Sie diese Option aus, um den Verantwortlichen zum Besitzer der Aufgabe für alle bearbeiteten Aufgaben zu machen.
+         * **Rolle des Verantwortlichen**: Wählen Sie eine Rolle aus der Dropdown-Liste aus. Wenn die Option deaktiviert bleibt, wählt Adobe Workfront automatisch die Primäre Rolle des Benutzers aus.
 
-   1. Klicken Sie **Änderungen speichern.**
+      1. Klicken Sie **Änderungen speichern.**
+
+
+
+   1. <span class="preview">(Bedingt) Wenn Sie die Vorschau -Umgebung zum Zuweisen von Aufgaben verwenden, wird das Feld **Aufgaben bearbeiten** geöffnet. Führen Sie in der Vorschau-Umgebung folgende Schritte aus: </span>
+
+      <div class="preview">
+
+      1. Um Verantwortliche hinzuzufügen oder zu entfernen, führen Sie einen der folgenden Schritte aus:
+
+         * Um Verantwortliche hinzuzufügen, fangen Sie an, den Namen eines Verantwortlichen in das Feld **Personen, Rollen oder Teams suchen** einzugeben und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+
+           Der neue Verantwortliche wird den vorhandenen Aufgaben in den ausgewählten Aufgaben hinzugefügt.
+         * Um Verantwortliche zu entfernen, klicken Sie im Feld **Verantwortlichen entfernen** auf den Namen eines Verantwortlichen
+
+           ODER
+
+           Klicken Sie **Alle vorhandenen Zugewiesenen entfernen**.
+
+           Bevollmächtigte werden aus allen ausgewählten Aufgaben entfernt.
+
+           Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
+
+           Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+
+
+           >[!TIP]
+           >
+           >* Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
+           >   
+           >* Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können. Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+           >   
+           >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+           >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
+
+
+      1. (Optional) Ändern Sie eine der folgenden Optionen für Verantwortliche:
+
+         * (Bedingt) **Zuordnung % oder Stunden**: Geben Sie einen neuen Zuordnungsprozentsatz oder neue Stunden an.
+
+         >[!NOTE]
+         >
+         >Diese Option kann nur geändert werden, wenn der Dauertyp für alle Aufgaben, die bearbeitet werden, gleich ist. Wenn als Dauertyp „Berechnete Arbeit“ oder „Leistungsgesteuert“ festgelegt ist, können Sie die Zuordnung % aktualisieren. Wenn der Dauertyp „Einfach“ ist, können Sie die Stunden aktualisieren. Informationen zum Dauertyp finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Wenn das Feld leer ist, bedeutet dies, dass der Wert in allen Aufgaben unterschiedlich ist. Sie können ihn jedoch weiterhin ändern.
+
+         * **Primär machen**: Bewegen Sie den Mauszeiger über die ausgewählten Aufgaben und wählen Sie diese Option aus, um den Verantwortlichen zum Besitzer der Aufgabe für alle Aufgaben zu machen, die bearbeitet werden.
+         * **Rolle des Verantwortlichen**: Wählen Sie eine Rolle aus der Dropdown-Liste aus. Wenn die Option deaktiviert bleibt, wählt Adobe Workfront automatisch die Primäre Rolle des Benutzers aus.
+         * **Dauertyp**
+         * **Dauer**
+         * **Geplante Stunden**
+
+      1. Klicken Sie auf **Speichern**.
+
+         </div>
+
+
+
+
 

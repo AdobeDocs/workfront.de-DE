@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 29579097cd3aa75ab0478743b84dcb9bc3217489
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2129'
 ht-degree: 1%
 
 ---
@@ -30,57 +30,77 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
 
 ## Überlegungen zum Verbinden von Datensatztypen
 
-Bei der Planung von Workfront gibt es zwei Schritte für Verbindungen:
+* Damit einzelne Datensätze oder Objekte miteinander verbunden werden können, müssen die Datensatztypen zunächst mit Objekttypen verbunden werden.
 
-1. Herstellen einer Verbindung zwischen zwei Datensatztypen oder einem Datensatztyp und einem Objekttyp aus einer anderen Anwendung.
+  Sie können Datensatztypen und Objekttypen auf folgende Weise miteinander verbinden:
 
-   Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Manuell
+   * Automatisch
 
-1. Verbinden Sie einen einzelnen Datensatz eines Typs mit Datensätzen eines anderen Typs, nachdem die beiden Datensatztypen verbunden wurden. Informationen zum Verbinden von Datensätzen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+  >[!NOTE]
+  >
+  >In Workfront Planning können bis zu 30 verbundene Felder für einen Datensatztyp verwendet werden.
 
-Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
-* In Workfront Planning können bis zu 30 verbundene Felder für einen Datensatztyp verwendet werden.
+* Beachten Sie Folgendes zum Verbinden von Datensatz- und Objekttypen:
 
-* In Adobe Workfront Planning können Sie die folgenden Entitäten verbinden:
+   * Sie können manuell ein Feld „Neue Verbindung“ aus einem Datensatztyp hinzufügen, um die folgenden Entitäten in Workfront Planning zu verbinden:
 
-   * Zwei Datensatztypen.
+      * Zwei Datensatztypen
 
-     Standardmäßig können Sie zwei Datensatztypen aus demselben Arbeitsbereich verbinden. Sie können auch Datensatztypen einrichten, um eine Verbindung zu Datensatztypen aus anderen Arbeitsbereichen herzustellen, wenn Ihr Unternehmen ein höheres Workfront- oder Planning-Paket erworben hat. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * Einen Datensatztyp und einen Objekttyp aus einer anderen Anwendung.
+        Standardmäßig können Sie zwei Datensatztypen aus demselben Arbeitsbereich verbinden. Sie können auch Datensatztypen einrichten, um eine Verbindung zu Datensatztypen aus anderen Arbeitsbereichen herzustellen, wenn Ihr Unternehmen ein höheres Workfront- oder Planning-Paket erworben hat. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+      * Einen Datensatztyp und einen Objekttyp aus einer anderen Anwendung.
 
-* Sie können Workfront Planning-Datensatztypen mit den folgenden Objekttypen aus den folgenden Programmen verbinden:
+     Informationen zum Verbinden von Datensatz- und Objekttypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * Adobe Workfront:
+     Nachdem Sie Datensatztypen manuell mit anderen Datensatz- oder Objekttypen verbunden haben, können Sie einzelne Datensätze und Objekte verbinden.
 
-      * Projekte
-      * Portfolios
-      * Programme
-      * Firmen
-      * Gruppen
+     Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
-   * Adobe Experience Manager Assets:
+   * In den folgenden Szenarien wird automatisch eine Verbindung zwischen Entitäten hergestellt:
 
-      * Bilder
-      * Ordner
+      * Wenn Sie eine Automatisierung verwenden, um Datensätze von der Seite eines Datensatztyps zu erstellen.
 
-   * Adobe GenStudio for Performance Marketing
+        Die Verbindung zwischen den Datensatztypen bzw. dem Datensatztyp und dem Objekttyp aus einer anderen Anwendung wird automatisch erstellt, wenn die Automatisierung den verbundenen Datensatz bzw. das verbundene Objekt erstellt.
 
-      * Marken
+        Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-     >[!IMPORTANT]
-     >
-     >Für die Verbindung mit Adobe Experience Manager Assets- und GenStudio-Marken sind folgende Voraussetzungen erforderlich:
-     >* Eine Adobe Experience Manager Assets-Lizenz
-     >* Eine Adobe GenStudio for Performance Marketing-Lizenz
-     >* Die Workfront-Instanz Ihres Unternehmens muss in die Adobe Business Platform oder die Adobe Admin Console integriert werden, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets zu verbinden.
-     >Informationen zu Adobe Admin Console finden Sie in den häufig gestellten Fragen zu [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+      * Beim Konfigurieren von Anfrageformularen für einen Datensatztyp, um einen Datensatz oder ein Objekt zu erstellen.
 
-* Nachdem Sie Datensätze für Datensatztypen erstellt haben, können Sie sie über das verbundene Datensatzfeld miteinander verknüpfen.
+        Die Verbindung zwischen dem Datensatztyp und dem Anforderungsobjekttyp wird automatisch erstellt, wenn Sie eine Planungsanfrage, die einen Datensatz erstellt, senden und genehmigen.
 
-  Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+        Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
-* Nachdem Sie einen Datensatztyp mit einem anderen Datensatztyp oder mit einem Objekttyp aus einer anderen Anwendung verbunden haben, sind die folgenden Szenarien vorhanden:
+        Sie können die ursprüngliche Anfrage im Bereich Anfragen von Workfront<!--, <span class="preview">or in the Original Request connection field in Workfront Planning.</span>--> anzeigen.
+
+   * Sie können Workfront Planning-Datensatztypen mit den folgenden Objekttypen aus den folgenden Programmen verbinden:
+
+      * Adobe Workfront:
+
+         * Projekte
+         * Portfolios
+         * Programme
+         * Firmen
+         * Gruppe
+
+      * Adobe Experience Manager Assets:
+
+         * Bilder
+         * Ordner
+
+      * Adobe GenStudio for Performance Marketing
+
+         * Marken
+
+        >[!IMPORTANT]
+        >
+        >Für die Verbindung mit Adobe Experience Manager Assets- und GenStudio-Marken sind folgende Voraussetzungen erforderlich:
+        >* Eine Adobe Experience Manager Assets-Lizenz
+        >* Eine Adobe GenStudio for Performance Marketing-Lizenz
+        >* Die Workfront-Instanz Ihres Unternehmens muss in die Adobe Business Platform oder die Adobe Admin Console integriert werden, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets zu verbinden.
+        >Informationen zu Adobe Admin Console finden Sie in den häufig gestellten Fragen zu [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+* Wenn zwei Datensatztypen oder ein Datensatztyp und ein Objekttyp aus einer anderen Anwendung verbunden sind, gibt es die folgenden Szenarien:
 
    * **Wenn Sie zwei Planning-Datensatztypen verbinden**: Für den Datensatztyp, von dem aus Sie eine Verbindung herstellen, wird ein verknüpftes Datensatzfeld erstellt. Ein ähnliches verknüpftes Datensatzfeld wird nur dann für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, wenn Sie die Einstellung Entsprechendes Feld für verknüpften Datensatztyp erstellen auf der Registerkarte Neue Verbindung aktivieren.
 
@@ -99,7 +119,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
       * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
       * Planungsdatensätze sind im Abschnitt Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * Auf die Felder der Planungsdatensätze kann von den Marken in GenStudio for Performance Marketing nicht zugegriffen werden.
 
    * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.
@@ -116,7 +136,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
      >
      >Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den Suchfeldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen oder ihren Berechtigungen in anderen Arbeitsbereichen.
 
-     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
      Verknüpfte Felder werden durch ein Symbol vorangestellt, das den Feldtyp angibt. Beispielsweise werden verknüpften Feldern (oder Suchfeldern) Symbole vorangestellt, die angeben, dass ein Feld eine Zahl, ein Absatz oder ein Datum ist.
 

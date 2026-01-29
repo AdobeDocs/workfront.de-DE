@@ -6,10 +6,10 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 4%
+source-wordcount: '3233'
+ht-degree: 3%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 4%
 
 <!-- Audited: 10/2025 -->
 
-<!--
+<div class="preview">
 
-<div class="preview"> 
+Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+Weitere Informationen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> -->
+</div>
 
 Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Liste angezeigten Felder bearbeiten. Weitere Informationen zu anderen Bearbeitungsmöglichkeiten für Aufgaben finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -302,7 +300,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    ODER
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -410,7 +408,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    ODER
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf die **** Mehr![](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -493,7 +491,11 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
 ## Aufgaben stapelweise bearbeiten
 
-Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass Sie über Verwaltungsberechtigungen für die Aufgaben verfügen, um sie bearbeiten zu können.
+Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass Sie Verwaltungsberechtigungen für die von Ihnen ausgewählten Aufgaben haben, um sie stapelweise bearbeiten zu können.
+
+Die gleichzeitige Bearbeitung mehrerer Aufgaben unterscheidet sich je nach ausgewählter Umgebung.
+
+### Massenbearbeitung von Aufgaben in der Produktionsumgebung
 
 {{step1-to-projects}}
 
@@ -551,4 +553,51 @@ Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass S
 
    1. (Optional) Wählen Sie im Abschnitt **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in den benutzerdefinierten Formularen, die an die ausgewählten Aufgaben angehängt sind, auf dem neuesten Stand sind.
    1. Klicken Sie **Änderungen speichern**. Alle von Ihnen vorgenommenen Änderungen sind nun für alle ausgewählten Aufgaben sichtbar.
+
+<div class="preview">
+
+### Massenbearbeitung von Aufgaben in der Vorschau-Umgebung
+
+{{step1-to-projects}}
+
+1. Wählen Sie auf **Seite** ein Projekt aus.
+1. Klicken Sie im linken Bedienfeld auf den Abschnitt **Aufgaben**.
+
+1. Klicken Sie auf **Planmodus**-Symbol ![Planmodus-Symbol](assets/plan-mode-icon.png) oben in der Liste und stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist.
+
+   ![Aktivieren Sie die Einstellung für automatisches Speichern](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+
+   >[!IMPORTANT]
+   >
+   >Beim manuellen Speichern von Aufgaben können Sie Aufgaben nicht stapelweise bearbeiten.
+
+1. Wählen Sie mehrere Aufgaben in der Aufgabenliste aus.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) oben in der Aufgabenliste und dann auf **Ausdrücke neu berechnen**, um alle Informationen in berechneten benutzerdefinierten Feldern zu aktualisieren.
+1. Klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png). Das **Aufgaben bearbeiten** wird geöffnet.
+
+   Die Bearbeitung der Informationen für alle Aufgaben ist identisch mit der Bearbeitung der Informationen für eine Aufgabe.
+
+   Weitere Informationen zum Bearbeiten einer Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. Geben Sie die Informationen an, die Sie für alle ausgewählten Aufgaben in einem der folgenden Bereiche ändern möchten:
+
+   * Übersicht
+   * Arbeitsaufträge
+   * Benutzerdefinierte Formulare
+   * Finanzielle Details
+   * Einstellungen
+   * Einstellungen
+   * Kommentar
+
+   >[!NOTE]
+   >
+   >* Die Informationen, die Sie zu allen ausgewählten Aufgaben ändern, überschreiben die vorhandenen Informationen zu einzelnen Aufgaben, mit Ausnahme des Felds **Arbeitsaufträge**. Wenn Sie einen neuen Verantwortlichen in der Massenbearbeitung hinzufügen, wird dieser Verantwortliche allen ausgewählten Aufgaben hinzugefügt. Wenn den ausgewählten Aufgaben andere Verantwortliche zugewiesen werden, bleiben diese zusätzlich zu der durch Massenbearbeitung hinzugefügten zugewiesen.
+   >* Wenn Sie die Aufgabendauer bearbeiten möchten, müssen die ausgewählten Aufgaben dieselbe Aufgabenbeschränkung aufweisen. Andernfalls wird **Feld** Dauer“ nicht ausgefüllt.
+   >
+   >* In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Wenn die ausgewählten Aufgaben keine benutzerdefinierten Formulare gemeinsam haben, werden in diesem Abschnitt keine Formulare aufgelistet.
+   >* Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Aufgaben angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.  Informationen zur Massenbearbeitung benutzerdefinierter Formulare finden Sie unter [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+1. Klicken Sie auf **Speichern**.
+
+</div>
 
