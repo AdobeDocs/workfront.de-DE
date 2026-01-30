@@ -7,9 +7,9 @@ description: Das Projektteam besteht aus Benutzern, die in gewisser Eigenschaft 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Wenn ein(e) Benutzende(r) im Bereich Personen eines Projekts aufgeführt ist, wi
 
 Sie können sehen, ob der Filter „Projekte, an denen ich mitarbeite“ im Bereich „Projekte“ ausgewählt ist. Sie können sie entweder über das Bedienfeld „Filter“ oder über die Kopfzeile anwenden.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![Projektfilter-Schaltflächen](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

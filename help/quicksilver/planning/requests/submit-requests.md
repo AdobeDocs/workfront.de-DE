@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
   Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Durch das Übermitteln von Anfrageformularen erstellte Datensätze sind mit der ursprünglichen Anfrage verbunden. Diese Verbindung kann nicht entfernt werden.
-* Sie können sowohl die erstellten Einträge als auch die Anfrage in den folgenden Bereichen anzeigen:
+* Sie können sowohl die erstellten Einträge als auch die zu ihrer Erstellung verwendeten Anfragen in den folgenden Bereichen anzeigen:
    * Anfragebereich in Workfront
 
   <div class="preview">
 
-   * Datensätze in einer beliebigen Datensatztypseite im Feld „Verbindung der ursprünglichen Anfrage“
-   * Vorschaufeld Details des Datensatzes im Feld Verbindung der ursprünglichen Anfrage
+   * Datensatztypseiten in Workfront Planning
+   * Detailbereich eines Datensatzes in Workfront Planning
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">Sie können den Namen der Anfrage im Feld „Betreff“ im Bereich „Anfragen“ von Workfront oder im Feld „Ausgangsanfrageverbindung“ in Workfront Planning einsehen. </span>
+
+
+
 * Gesendete Anfragen werden im Bereich Anfragen von Workfront angezeigt.
 * Gesendete Planungsanfragen sind nur in der neuen anfordernden -Version sichtbar. In der Legacy-Anfrageerfahrung werden keine Planungsanfragen angezeigt.
 Weitere Informationen finden Sie unter [Erstellen und Senden von Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
@@ -167,7 +174,7 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 
      Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">In Planning können Sie das Feld „Ursprüngliche Anfrageverbindung“ zu einem Datensatztyp hinzufügen, der den Namen der ursprünglichen Anfrage anzeigt. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">In Planning können Sie das Feld „Ursprüngliche Anfrageverbindung“ zu einem Datensatztyp hinzufügen, um den Namen der ursprünglichen Anfrage anzuzeigen, die einen Datensatz erstellt hat. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * Die Anfrage ist nur für den Eigentümer, die genehmigende Person und die Personen sichtbar, die zumindest über Anzeigeberechtigungen für den Arbeitsbereich verfügen. Workfront-Admins können alle Anfragen anzeigen, die an einen beliebigen Arbeitsbereich im System gesendet wurden.
 
    * Sie erhalten eine In-App- und eine E-Mail-Benachrichtigung, dass die Anfrage entweder erfolgreich übermittelt wurde oder zur Überprüfung gesendet wurde.

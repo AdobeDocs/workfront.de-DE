@@ -6,10 +6,10 @@ description: Sie können das Projekt so konfigurieren, dass die für das Projekt
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Weitere Informationen zu Rechnungsnachweisen finden Sie im Artikel [Rechnungsnac
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -152,12 +152,12 @@ So genehmigen Sie Stunden für ein Projekt oder lehnen sie ab:
 1. Die für Probleme, Aufgaben und das Projekt protokollierten Stunden werden angezeigt und sollten den Status &quot;**&quot;**.\
    Klicken Sie links neben den Stundeneinträgen auf das Kästchen, um die Stunden auszuwählen, die genehmigt werden sollen.
 
-1. Klicken Sie oben **der** auf das Symbol „Genehmigen![](assets/approve-hours-icon.png).\
+1. Klicken Sie auf **Genehmigen**-Symbol ![Genehmigen](assets/approve-hours-icon.png) oben in der Stundenliste.\
    Der Status der Stunden ändert sich in **Genehmigt**.\
    Wenn Sie die genehmigten Stunden später ablehnen, ändert sich der Status der Stunden in **Nicht genehmigt**.\
    Wenn Sie die genehmigten Stunden in einen Abrechnungs-Datensatz einbeziehen, ändert sich der Status der Stunden in &quot;**und genehmigt**. Einem Rechnungsnachweis hinzugefügte Stunden können nicht gelöscht werden. Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie im Artikel [Erstellen von Rechnungsnachweisen](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Optional) Klicken Sie auf **Ablehnen** Symbol ![](assets/reject-hours-icon.png), um die Zeiteinträge im Projekt abzulehnen.\
+1. (Optional) Klicken Sie auf **Ablehnen** Symbol ![Stunden ablehnen](assets/reject-hours-icon.png) um die Zeiteinträge im Projekt abzulehnen.\
    Der Status der Stunden ändert sich in **Abgelehnt**.
 
    >[!NOTE]

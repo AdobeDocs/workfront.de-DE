@@ -6,9 +6,9 @@ description: Durch Auswahl eines Aktualisierungstyps für ein Projekt können Si
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übe
 
 1. Klicken Sie auf **Projekt** **Einstellungen**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Feld „Aktualisierungstyp“ im Projekt-Bearbeitungsfeld](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. Wählen Sie im Feld **Aktualisierungstyp** aus, ob Workfront die Zeitleiste des Projekts automatisch täglich berechnen soll, bei einer Änderung oder ob der Projektmanager sie manuell berechnen soll.
 
@@ -81,7 +81,7 @@ Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übe
 
      Trigger Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Neuberechnung der Zeitleiste durchführen, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, für die längere Berechnungen erforderlich sind, abgeblendet.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Datumsangaben bei Inline-Bearbeitung abgeblendet](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.
 

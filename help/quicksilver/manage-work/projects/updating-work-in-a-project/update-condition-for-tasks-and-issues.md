@@ -6,10 +6,10 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Kennzeichn
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäß
 
 ## Zugriffsanforderungen {#access-requirements}
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Die Bedingungswerte, auf die wir in diesem Artikel verweisen, sind standardmäß
    <td> 
    <ul><li><p>Standard für Aufgaben</p></li>
    <li><p>Mitwirkender oder höher für Probleme</p></li></ul>
-  <p>Oder</p>
+  <p>ODER</p>
    <ul><li><p>Arbeit oder höher für Aufgaben</p></li>
    <li><p>Anfrage oder höher für Probleme</p></li></ul>
     </td> 
@@ -149,7 +149,7 @@ Sie können die Bedingung einer Aufgabe oder eines Problems in einem Aufgaben- o
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -167,7 +167,7 @@ Sie können den Zustand von Aufgaben und Problemen in verschiedenen Bereichen vo
    * Kleinere Probleme
    * Größere Probleme
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![Bedingung in der Aufgabenkopfzeile](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Sie können den Zustand von Aufgaben und Problemen in verschiedenen Bereichen vo
 
 1. Aktualisieren Sie **Bedingung** des Problems oder der Aufgabe inline, indem Sie auf die vorhandene Bedingung doppelklicken und einen neuen Wert aus dem Dropdown-Menü auswählen.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![Bedingungswerte in der Aufgabenliste](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

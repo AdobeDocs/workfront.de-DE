@@ -6,10 +6,10 @@ description: Sie können das Commit-Datum einer Aufgabe oder eines Problems, der
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Sie können das Commit-Datum einer Aufgabe oder eines Problems, der bzw. dem Sie
 
 <!--Audited: 01/2024-->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Sie können das Commit-Datum einer Aufgabe oder eines Problems, der bzw. dem Sie
    <li><p>Standard für Aufgaben</p> </li>
    <li><p>Mitwirkender oder höher für Probleme</p></li>
    </ul>
-   <p>Oder</p>
+   <p>ODER</p>
 <ul>
    <li><p>Arbeit oder höher für Aufgaben</p></li> 
    <li><p>Anfrage oder höher für Probleme</p></li>
@@ -134,7 +134,7 @@ Die Aktualisierung des Commit-Datums ist für Aufgaben und Probleme identisch.
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Navigieren Sie zu einer Aufgabe oder einem Problem, der bzw. dem Sie als &quot;**&quot; zugewiesen**.
@@ -143,13 +143,13 @@ Die Aktualisierung des Commit-Datums ist für Aufgaben und Probleme identisch.
 
 1. (Bedingt und optional) Wenn der Workfront- oder Gruppen-Administrator bzw. die Gruppenadministratorin das Commit-Datum zu Ihrer Aufgaben- oder Problem-Kopfzeile hinzugefügt hat, klicken Sie auf das Feld **Commit-Datum** in der Kopfzeile und wählen Sie dann ein Datum aus dem Kalender aus. Wenn das Commit-Datum nicht in der Kopfzeile enthalten ist, fahren Sie mit den folgenden Schritten fort.
 
-   ![](assets/commit-date-task-header.png)
+   ![Commit-Datum in der Aufgabenkopfzeile](assets/commit-date-task-header.png)
 
 1. Klicken Sie **linken Bedienfeld auf** Aufgabendetails **oder** Problemdetails“.
 1. Klicken Sie auf **Übersicht**, um sie zu erweitern.
 1. Aktualisieren Sie das Feld **Commit-**).
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Bearbeitung des Commit-Datums für Aufgabe auf der Detailseite hervorgehoben](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Klicken Sie auf **Änderungen speichern**.
 
@@ -159,15 +159,15 @@ Die Aktualisierung des Commit-Datums ist für Aufgaben und Probleme identisch.
 
      Stattdessen werden das Commit-Datum und das voraussichtliche Abschlussdatum der Aufgabe oder des Problems identisch.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![Geplantes Abschlussdatum der Aufgabe in den hervorgehobenen Details](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Der Projektbesitzer wird in einer Workfront-In-App-Benachrichtigung darüber benachrichtigt, dass Sie ein neues Commit-Datum für die Aufgabe oder das Problem vorgeschlagen haben.
    * Der Projektbesitzer wird im Abschnitt Aktualisierungen darüber informiert, dass Sie ein neues Commit-Datum vorgeschlagen haben. Er kann zu diesem Zeitpunkt das geplante Abschlussdatum der Aufgabe oder Anfrage aktualisieren, sodass es dem von Ihnen vorgeschlagenen Commit-Datum entspricht.
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![Benachrichtigung des Projektbesitzers in Update-Stream, dass sich das Commit-Datum auf die Projektzeitleiste auswirkt](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      Informationen zu den Benachrichtigungen und Aktualisierungen, die durch diese Änderung ausgelöst werden, finden Sie im Abschnitt „Benachrichtigungen und Aktualisierungen, die durch die Änderung des Commit-Datums ausgelöst werden“ im Artikel [Übersicht über das Commit-Datum](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

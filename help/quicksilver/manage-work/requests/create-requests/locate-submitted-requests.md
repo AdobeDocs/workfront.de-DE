@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
 
 # Eingereichte Anfragen anzeigen
 
-Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
+Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
+
+Gesendete Anfragen können in den folgenden Bereichen von Adobe Workfront gefunden werden:
 
 * Der Bereich Anfragen von Workfront
-* das Widget „Meine Anfragen“ auf der Startseite
+* Das Widget „Meine Anfragen“ auf der Startseite
+
+Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
+
+* Workfront fordert bei Verwendung des Legacy-Erlebnisses an
+* Workfront sowie Planungsanfragen bei Verwendung des neuen Erlebnisses.
 
   >[!NOTE]
   >
@@ -107,16 +114,16 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
    Anweisungen finden Sie unter [Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte Status überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
-   * Entwurf: Diese Anfrage wurde noch nicht eingereicht.
-   * Prüfung ausstehend: (Nur Planung) Diese Anforderung enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anforderung geöffnet.
-   * In Prüfung: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen.
-   * Abgelehnt: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt.
-   * In Bearbeitung:
-      * Workfront-Workflow: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
-      * Workfront Planning: Der Abschluss der Anfrage ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
+   * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt.
+   * **Ausstehende Prüfung**: (Nur Planung) Diese Anfrage enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anfrage geöffnet.
+   * **In Prüfung**: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen.
+   * **Abgelehnt**: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt.
+   * **In Bearbeitung**:
+      * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
+      * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
 
         Weitere Informationen finden Sie unter [Einrichten von Konfigurationsdetails](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) im Artikel Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning.
-   * Abgeschlossen: Die Anfrage wurde abgeschlossen.
+   * **Abschließen**: Die Anfrage wurde abgeschlossen.
 
 >[!NOTE]
 >

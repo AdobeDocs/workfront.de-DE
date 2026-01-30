@@ -7,9 +7,9 @@ description: Das Commit-Datum ist das Datum, zu dem sich ein Benutzer einer Aufg
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Manuelles Festlegen des Commit-Datums für eine Aufgabe oder einen Problem-Trigg
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
@@ -107,7 +107,7 @@ Manuelles Festlegen des Commit-Datums für eine Aufgabe oder einen Problem-Trigg
 
   Weitere Informationen finden Sie unter [Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![Voraussichtliches Abschlussdatum der Aufgabe in den hervorgehobenen Details](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * Der Projektbesitzer wird im Bereich Benachrichtigungen darüber benachrichtigt, dass sich das Commit-Datum einer Aufgabe oder eines Problems geändert hat.
 

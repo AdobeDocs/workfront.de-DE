@@ -7,9 +7,9 @@ description: Projekte, Aufgaben und Probleme haben in Adobe Workfront ein tatsä
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 Sie können das tatsächliche Startdatum eines Projekts in den folgenden Bereichen ermitteln:
 
 * Im Abschnitt Details eines Projekts.
-* Fügen Sie in einem Projektbericht oder einer Projektansicht das tatsächliche Startdatum für das Projektobjekt in den Bericht ein.
+* Wenn Sie in einem Projektbericht oder einer Projektansicht das **Tatsächliche Startdatum** für das Projektobjekt im Bericht hinzufügen.
 
   Informationen zum Erstellen von Berichten finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -116,8 +116,8 @@ So suchen Sie das tatsächliche Startdatum im Abschnitt Details des Projekts:
 1. Klicken Sie auf das Projekt, für das Sie das tatsächliche Startdatum anzeigen möchten.
 1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Abschnitt **Übersicht**.
 
-   Das tatsächliche Startdatum wird zusammen mit anderen Projektdaten angezeigt.
+   ![Tatsächliches Startdatum des Projekts hervorgehoben](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   Das **Tatsächliches Startdatum** wird zusammen mit anderen Projektdaten angezeigt.
 
 

@@ -6,10 +6,10 @@ description: Sie können den Status einer Aufgabe aktualisieren, um andere darü
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können den Aufgabenstatus manuell aktualisieren oder zulassen, dass Workfro
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Sie können den Aufgabenstatus manuell aktualisieren oder zulassen, dass Workfro
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -109,11 +109,11 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
 1. Klicken Sie in der Aufgabenkopfzeile auf das Feld **Status** und wählen Sie einen neuen Status aus.
 1. Um einen visuellen Hinweis auf den Abschluss der Aufgabe zu geben, ziehen Sie den Kreis unter **Prozent abgeschlossen** in die Kopfzeile der Aufgabe.
 
-   Oder
+   ODER
 
    Doppelklicken Sie in die Blase **Prozent abgeschlossen**, um manuell einen neuen Prozentsatz einzugeben.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![Aufgabenkopfzeile der Status-Widgets „Prozent abgeschlossen“](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um zusätzliche Informationen zur Aktualisierung bereitzustellen:
 
@@ -142,7 +142,7 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Aufgabenstatus automatisch aktualisieren
 

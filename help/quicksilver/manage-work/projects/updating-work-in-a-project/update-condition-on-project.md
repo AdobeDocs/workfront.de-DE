@@ -6,9 +6,9 @@ description: Die Bedingung eines Projekts ist eine Markierung, die darauf platzi
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -110,7 +110,7 @@ Wenn Sie den Bedingungstyp Ihres Projekts auf Manuell anstelle des Fortschrittss
 
 1. Stellen Sie sicher **dass das Feld** Bedingungstyp“ auf &quot;**&quot;**.
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Projektdetailübersicht - Bedingung auswählen](assets/project-details-overview-select-condition.png)
 
 1. Wählen Sie im Feld **Bedingung** die aus den folgenden Optionen diejenige aus, die Ihrem Verständnis dafür entspricht, ob die damit verbundene Arbeit reibungslos verläuft oder ob es Verzögerungen gibt:
 

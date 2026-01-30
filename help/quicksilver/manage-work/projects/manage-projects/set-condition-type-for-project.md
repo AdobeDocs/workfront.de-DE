@@ -6,10 +6,10 @@ description: Als Projekt-Manager können Sie festlegen, wie die Bedingung eines 
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ Als Projekt-Manager können Sie festlegen, wie die Bedingung eines Projekts bere
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 
 <table style="table-layout:auto"> 
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Klicken Sie auf **Mehr** Menü ![Mehr](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Bearbeiten**.
    * Klicken Sie **linken** auf „Projektdetails“.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Bedingungstyp aktualisieren](assets/update-condition-type-nwe-350x108.png)
 
 1. Wählen Sie **Feld** Bedingungstyp“ eine der folgenden Optionen:
 

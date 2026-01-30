@@ -6,9 +6,9 @@ description: Durch die Neuberechnung der Timelines können Manager sehen, wie si
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ Standardmäßig werden die Projektzeitleisten täglich neu berechnet, wenn sich 
 > Ein Beispiel für ein komplexes Projekt kann ein Projekt mit mehreren Abhängigkeiten, einer großen Anzahl von Aufgaben, mehreren projektübergreifenden Vorgängern oder mehreren Aufgabeneinzügen sein.
 > Workfront platziert rechts neben dem Projektnamen auf der Projektseite einen Warnhinweis, der darauf hinweist, dass die Projektzeitleiste manuell neu berechnet werden muss. Nur Benutzer mit der Berechtigung Verwalten für das Projekt können die Timeline manuell neu berechnen.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Projektwarnung zur Neuberechnung der Zeitleiste](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Automatische Neuberechnung der Projektzeitleisten](#automatic-recalculation-of-project-timelines)
@@ -177,13 +177,13 @@ Als Projektbesitzer können Sie die Timelines für einzelne Projekte manuell neu
 
 Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) links neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen.
 
    ODER
 
    Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-menu.png)Mehr Menü).
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Zeitleiste für Ausdrücke mit der Dropdown-Liste „Finanzen“ neu berechnen](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

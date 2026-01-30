@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3240'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -279,7 +279,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
    ODER
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -500,7 +500,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 
@@ -538,11 +538,13 @@ Klicken Sie auf den Namen, um die Detailseite zu öffnen und dort Informationen 
 
 ## Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp
 
-Nachdem jemand ein Anfrageformular für einen Datensatztyp erstellt und einen Link dazu für Sie freigegeben hat, können Sie eine Anfrage senden, die einen Datensatz für diesen Datensatztyp erstellt.
+Nachdem jemand ein Anfrageformular für einen Datensatztyp erstellt und es entweder im Bereich Anfragen veröffentlicht oder einen Link zum Anfrageformular für Sie freigegeben hat, können Sie eine Anfrage senden, die einen Datensatz für diesen Datensatztyp erstellt.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Sowohl Workfront-Benutzer als auch externe Benutzer Ihres Unternehmens können Anfragen an Planning-Datensatztypen senden und Datensätze erstellen, wenn sie einen Link zum Anfrageformular haben.
+
+Nur Workfront-Benutzende können Anfragen hinzufügen, die Datensätze aus dem Bereich Anfragen von Workfront erstellen.
 
 Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
