@@ -177,7 +177,7 @@ Als Projektbesitzer können Sie die Timelines für einzelne Projekte manuell neu
 
 Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) links neben dem Projektnamen.
 
    ODER
 
