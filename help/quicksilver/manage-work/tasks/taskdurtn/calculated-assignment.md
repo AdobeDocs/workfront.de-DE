@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 Im unten beschriebenen Szenario hat beispielsweise jede Aufgabe eine Dauer von 3 Tagen. Der Projekt-Manager gibt manuell die Dauer (3 Tage oder 24 Stunden) und die geplanten Stunden ein. Infolgedessen wird der Prozentsatz der Zuordnung (oder der Zuweisungsprozentsatz) berechnet:
 
-![Typ der berechneten ](assets/calcassign-350x80.png)
+![Typ der berechneten &#x200B;](assets/calcassign-350x80.png)
 
 ## Ändern des Dauertyps einer Aufgabe in „Berechnete Zuweisung“
 

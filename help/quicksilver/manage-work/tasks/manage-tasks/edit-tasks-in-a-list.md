@@ -179,7 +179,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der ](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der &#x200B;](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 

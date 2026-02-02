@@ -45,7 +45,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Benutzers, der der Aufgabe zugewiesen wurde.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der/die Benutzende oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
@@ -55,7 +55,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des primären Verantwortlichen.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der primäre Zugewiesene oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 

@@ -117,7 +117,7 @@ So erstellen Sie Aufgaben in einem Projekt:
 1. Wechseln Sie zu dem Projekt, in dem Sie eine Aufgabe erstellen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. (Bedingt) Wenn Sie die Aufgabenliste derzeit in einer Agile-Ansicht anzeigen, klicken Sie auf das **Listenansicht**-Symbol ![Listenansicht in der Agile-Ansicht für Aufgaben](assets/list-view-in-agile-view-for-tasks.png) in der oberen rechten Ecke, um die Aufgabenliste anzuzeigen.
-1. (Optional) Klicken Sie auf das **Planmodus**-Symbol ![Planmodus-Symbol für ](assets/nwe-plan-mode-icon-task-list.png) Aufgabenliste) und wählen Sie **Manuelles Speichern** aus und wählen Sie dann entweder **Standard** oder **Timeline Planning**. Hiermit wird die Option **Automatisches Speichern** deaktiviert, die standardmäßig aktiviert ist.
+1. (Optional) Klicken Sie auf das **Planmodus**-Symbol ![Planmodus-Symbol für &#x200B;](assets/nwe-plan-mode-icon-task-list.png) Aufgabenliste) und wählen Sie **Manuelles Speichern** aus und wählen Sie dann entweder **Standard** oder **Timeline Planning**. Hiermit wird die Option **Automatisches Speichern** deaktiviert, die standardmäßig aktiviert ist.
 
    ![Wählen Sie Manuelles Speichern](assets/manual-save-option.png)
 

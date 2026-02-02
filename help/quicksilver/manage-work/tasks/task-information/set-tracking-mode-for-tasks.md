@@ -87,7 +87,7 @@ Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht übe
 ## Festlegen des Überwachungsmodus für Aufgaben
 
 1. Gehen Sie zu der Aufgabe, für die Sie den Tracking-Modus festlegen möchten.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol auf einem ](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol auf einem &#x200B;](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
 
    Das Dialogfeld Aufgabe bearbeiten wird geöffnet.
 

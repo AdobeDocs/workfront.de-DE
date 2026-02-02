@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    | Nicht später anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestens beginnen am](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Nicht früher anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher starten als](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Nicht später beenden als (NSBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestes Beenden bis](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 

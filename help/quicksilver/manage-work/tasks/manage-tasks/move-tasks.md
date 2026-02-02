@@ -133,7 +133,7 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 
    * Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/main-more-icon.png) oben in der Aufgabenliste und klicken Sie dann auf **Verschieben nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und dann auf **Verschieben nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr“ in der Aufgabenliste ](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr“ in der Aufgabenliste &#x200B;](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
 
    Das **Aufgabe verschieben** wird angezeigt.
 
