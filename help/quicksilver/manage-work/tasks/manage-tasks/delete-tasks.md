@@ -6,9 +6,9 @@ description: Sie können Aufgaben löschen, die möglicherweise dupliziert sind 
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -174,9 +174,9 @@ Beachten Sie Folgendes:
 1. Klicken Sie auf den Projektnamen, der die Aufgabe enthält, die Sie löschen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. Klicken Sie auf den Namen der Aufgabe, die Sie löschen möchten.
-1. Klicken Sie auf **Mehr**-Symbol ![](assets/qs-more-menu.png)in der oberen rechten Ecke.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr Menü](assets/qs-more-menu.png) in der oberen rechten Ecke.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Aufgaben auf Aufgabenebene löschen](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Klicken Sie **Aufgabe löschen**.
 1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Löschen**.

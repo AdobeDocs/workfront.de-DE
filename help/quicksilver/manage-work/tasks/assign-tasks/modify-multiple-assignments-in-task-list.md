@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >Verwenden Sie nicht das Feld **Zugewiesen an**. Dadurch wird nur der Primäre Verantwortliche für die Aufgabe gefunden, nicht aber einer der Benutzenden, die ihnen zugewiesen werden könnten.
 
-1. Wählen Sie die Aufgaben aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png).
+1. Wählen Sie die Aufgaben aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
    Die Bearbeitung von Zuweisungen für Aufgaben unterscheidet sich je nach ausgewählter Umgebung.
 
@@ -189,7 +189,7 @@ When assigning users to work, their availability according to their schedules af
 
            Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-           Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+           Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
       1. (Optional) Ändern Sie eine der folgenden Optionen für Verantwortliche:
 
@@ -227,7 +227,7 @@ When assigning users to work, their availability according to their schedules af
 
         Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+        Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
 
         >[!TIP]

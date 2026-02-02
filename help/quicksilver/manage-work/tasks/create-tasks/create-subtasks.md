@@ -6,10 +6,10 @@ description: In Adobe Workfront können Aufgaben über hierarchische Beziehungen
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ In Adobe Workfront können Aufgaben über hierarchische Beziehungen verfügen. U
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ In Adobe Workfront können Aufgaben über hierarchische Beziehungen verfügen. U
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -96,12 +96,12 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 1. (Bedingt) Wenn sich die Aufgabe, die Sie als untergeordnete Aufgabe festlegen möchten, nicht bereits direkt unter der Aufgabe befindet, die Sie als übergeordnete Aufgabe festlegen möchten, ziehen Sie sie per Drag-and-Drop an die entsprechende Position in der Aufgabenliste.
 1. Wählen Sie die Aufgabe aus, die Sie zu einer Teilaufgabe machen möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **Einzug**-Symbol ![](assets/indent-icon-nwe-33x29.png), um die ausgewählte Aufgabe zu einer Unteraufgabe der direkt darüber liegenden Aufgabe zu machen.
+   * Klicken Sie auf **Einrückungssymbol** ![Einrückungssymbol](assets/indent-icon-nwe-33x29.png), um die ausgewählte Aufgabe zu einer Unteraufgabe für die Aufgabe direkt darüber zu machen.
    * Wenn Sie eine standardmäßige englische QWERTY-Tastatur verwenden, drücken Sie Wahltaste + > (Mac) oder Alt + > (Windows) auf der Tastatur. In anderen Sprachen können Sie die Befehle + , (Mac) oder Alt + , (Windows) zum Einrücken verwenden.
 
      >[!TIP]
      >
-     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben im Inline-Bearbeitungsmodus bearbeiten. Verwenden Sie in diesem Fall das Einrückungssymbol ![](assets/indent-icon-nwe-33x29.png), um Teilaufgaben zu erstellen.
+     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben im Inline-Bearbeitungsmodus bearbeiten. Verwenden Sie in diesem Fall das Einrückungssymbol ![Einrückungssymbol](assets/indent-icon-nwe-33x29.png) um Teilaufgaben zu erstellen.
 
    * Ziehen Sie die Aufgabe per Drag-and-Drop auf die Aufgabe, die Sie als übergeordnete Aufgabe festlegen möchten.
 
@@ -132,9 +132,9 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 1. Wechseln Sie zu dem Projekt, in dem eine Teilaufgabe zu einer Hauptaufgabe gemacht werden soll.
 1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
 1. Wählen Sie die Teilaufgabe aus, die Sie zu einer Hauptaufgabe machen möchten.
-1. Klicken Sie auf das **Ausrücken**-Symbol ![](assets/outdent-icon-nwe-31x29.png) , um die Unteraufgabe zu einer Hauptaufgabe zu machen.
+1. Klicken Sie auf **Ausrücken**-Symbol ![Ausrücken](assets/outdent-icon-nwe-31x29.png), um die Unteraufgabe zu einer Hauptaufgabe zu machen.
 
-   Oder
+   ODER
 
    Drücken Sie auf einer standardmäßigen englischen QWERTY-Tastatur die Wahltaste + &lt; (Mac) oder Alt + &lt; (Windows). Andere Sprachen können die Befehle Option + verwenden. (Mac) oder Alt + . (Windows) zum Ausrücken.
 

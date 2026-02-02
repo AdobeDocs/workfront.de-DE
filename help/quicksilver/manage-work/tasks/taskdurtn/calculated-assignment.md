@@ -7,9 +7,9 @@ description: Berechnete Zuweisung ist ein Dauertyp, den Sie für eine Aufgabe in
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 Im unten beschriebenen Szenario hat beispielsweise jede Aufgabe eine Dauer von 3 Tagen. Der Projekt-Manager gibt manuell die Dauer (3 Tage oder 24 Stunden) und die geplanten Stunden ein. Infolgedessen wird der Prozentsatz der Zuordnung (oder der Zuweisungsprozentsatz) berechnet:
 
-![](assets/calcassign-350x80.png)
+![Typ der berechneten ](assets/calcassign-350x80.png)
 
 ## Ändern des Dauertyps einer Aufgabe in „Berechnete Zuweisung“
 

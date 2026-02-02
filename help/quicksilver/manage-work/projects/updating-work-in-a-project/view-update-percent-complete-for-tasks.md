@@ -6,10 +6,10 @@ description: Sie können den abgeschlossenen Prozentsatz einer Aufgabe aktualisi
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Die Aktualisierung des Prozentsatzes für abgeschlossene Probleme ähnelt der Ak
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Die Aktualisierung des Prozentsatzes für abgeschlossene Probleme ähnelt der Ak
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Sie können den abgeschlossenen Prozentsatz für eine Aufgabe in einem der folge
 
 * **In der Aufgabenkopfzeile**: Sie können den abgeschlossenen Prozentsatz einer Aufgabe in der Aufgabenkopfzeile aktualisieren.
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Prozentwert in der Kopfzeile aktualisieren](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **Im Zusammenfassungsbereich einer Aufgabe**: Sie können den Prozentwert der Fertigstellung einer Aufgabe oben im Zusammenfassungsbereich aktualisieren, wenn Sie die Aufgabe in den folgenden Bereichen anzeigen:
 
@@ -108,7 +108,7 @@ Sie können den abgeschlossenen Prozentsatz für eine Aufgabe in einem der folge
    * Arbeitszeittabelle
    * Workload Balancer
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Prozentuale Aktualisierung in der Aufgabenzusammenfassung hervorgehoben](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   Weitere Informationen finden Sie unter [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
@@ -140,7 +140,7 @@ Sie können den abgeschlossenen Prozentsatz für eine Aufgabe in einem der folge
 
 1. Klicken Sie in das Feld **Prozent abgeschlossen** und geben Sie eine Zahl zwischen 0 und 100 ein.
 
-   Oder
+   ODER
 
    Klicken Sie auf die blaue Blase **Prozent abgeschlossen** und ziehen Sie sie auf die erforderliche Zahl, um anzugeben, wie viel von der Aufgabe Sie abgeschlossen haben, falls verfügbar.
 

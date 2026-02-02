@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
      >
      >Workfront speichert einen Pfad nur, wenn Sie tatsächlich eine Anforderung gesendet haben. Es werden keine Pfade für entworfene Anfragen erstellt.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![Liste der letzten Pfade und Anfrage-Warteschlangen bei der Eingabe einer neuen Anfrage](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * Wählen Sie im **Anfrage** Warteschlangen) eine Anfrage-Warteschlange aus.
    * Geben Sie ein Keyword ein, der zu einem zuvor aufgerufenen Pfad gehört, um nach einer Anfrage-Warteschlange zu suchen.
@@ -169,7 +169,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
      >
      >Wenn Sie einen Namen eingeben, der ein Sonderzeichen enthält, werden die Anfrage-Warteschlange, das Warteschlangenthema oder die Themengruppe angezeigt, auch wenn Sie das Zeichen nicht eingeben.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Suchergebnisse der Anfrage-Warteschlange mit hervorgehobenen Ergebnissen](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      Die Liste der verfügbaren Anfragewarteschlangen und der letzten Pfade wird dynamisch aktualisiert und enthält jetzt nur Pfade, die das in den Ergebnissen hervorgehobene Keyword enthalten.
 
@@ -206,7 +206,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
      Standardmäßig werden die drei letzten Entwürfe aus drei verschiedenen Warteschlangenthemen angezeigt.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![Neue Entwürfe, nachdem der neue Anfragebereich entfernt wurde](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Beginnen Sie mit der Eingabe einer neuen Anfrage in die ausgewählte Warteschlange.
 
@@ -219,7 +219,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    >Wenn Sie den Mauszeiger über eine Themengruppe oder ein Warteschlangenthema bewegen, wird das Feld Beschreibung rechts angezeigt. Enthält zusätzliche Informationen zur Themengruppe oder zum Warteschlangenthema.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![Beschreibung zum Warteschlangen-Thema beim Senden einer Anfrage anzeigen](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Ihre Anfrage-Warteschlange kann bis zu 10 Ebenen von Themengruppen enthalten.\
@@ -327,7 +327,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
      Klicken Sie auf **Schließen**, wenn Sie noch nicht bereit sind, ihn zu übermitteln, und Sie möglicherweise später zurückkehren und ihn abschließen. Ihre Anfrage wird im Abschnitt „Entwürfe“ gespeichert und steht Ihnen beim nächsten Senden einer Anfrage für diese Anfrage-Warteschlange zur Verfügung.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Senden, Schließen, Entwurf verwerfen-Schaltfläche bei neuer Anfrage](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Wenn Sie die Anfrage senden, wird der Entwurf automatisch gelöscht und kann nicht wiederhergestellt werden.
 

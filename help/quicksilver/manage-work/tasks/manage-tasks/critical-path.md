@@ -7,10 +7,10 @@ description: Das Bestimmen des kritischen Pfads eines Projekts ist eine automati
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ Die folgenden Funktionen können sich auf den kritischen Pfad eines Projekts aus
      >Wenn sich das Nachfolgedatum einer Aufgabe nicht direkt auf das Datum der von ihr abhängigen Aufgaben oder das Projektdatum auswirkt, befindet sich die Nachfolgeaufgabe nicht auf dem kritischen Pfad.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Nachfolger befindet sich nicht auf kritischem Pfad](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * Wenn eine Teilaufgabe als Aufgabe vom Typ „Kritischer Pfad“ identifiziert wird, wird die übergeordnete Aufgabe auch als Aufgabe vom Typ „Kritischer Pfad“ identifiziert, wenn das voraussichtliche Startdatum und die Uhrzeit der übergeordneten Aufgabe mit der Zeit der Teilaufgabe übereinstimmen.
@@ -49,7 +49,7 @@ Jede Verzögerung bei der Aktivität einer Aufgabe auf dem kritischen Pfad wirkt
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +63,7 @@ Jede Verzögerung bei der Aktivität einer Aufgabe auf dem kritischen Pfad wirkt
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard<p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ So zeigen Sie in einer Aufgabenliste an, welche Aufgaben sich auf dem kritischen
 
 1. Klicken Sie auf das **Ansicht**-Symbol ![Anzeigen](assets/view-icon.png) und wählen Sie dann **Status** aus. **Die Aufgaben, die sich auf dem kritischen Pfad befinden, zeigen in der Spalte** Flags **der Liste die** „Kritischer Pfad“ an.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Filter**-Symbol ![Filter-Symbol](assets/filters-icon.png) und wählen Sie dann **+ Neuer Filter**.
 1. Geben Sie im ersten Feld &quot;*ist wichtig* ein und wählen Sie es aus, wenn es unter dem Abschnitt **Aufgaben** in der Liste angezeigt wird.

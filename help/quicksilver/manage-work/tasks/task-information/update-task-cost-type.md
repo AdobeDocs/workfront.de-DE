@@ -6,9 +6,9 @@ description: Die geplanten Kosten und Istkosten der Aufgaben sowie deren Lohnkos
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '223'
 ht-degree: 12%
 
 ---
@@ -84,7 +84,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie **linken** auf „Aufgabendetails“ und erweitern Sie dann den Bereich **Finanzen**.
 1. Doppelklicken Sie auf **Kostentyp** und wählen Sie den Kostentyp aus, den Sie auf die Aufgabe anwenden möchten.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Optionen für den Kostentyp „Aufgabe“ in „Aufgabendetails“](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -93,6 +93,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Benutzer pro Stunde
    * Stundensatz nach Funktion
 
-   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
+   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten ](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klicken Sie auf **Speichern** **Änderungen** **.**

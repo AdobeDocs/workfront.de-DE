@@ -7,9 +7,9 @@ description: Beim Hinzufügen von Vorgängerbeziehungen zu Aufgaben können Abh�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Abhängigkeitsschleifen entstehen, wenn zwei oder mehr Aufgaben voneinander abh�
 
 Wenn Sie versuchen, Aufgabe 1 zu einem Vorgänger von Aufgabe 2 zu machen, erhalten Sie einen Abhängigkeitsschleifenfehler, da Sie Aufgabe 1 erst starten können, nachdem Aufgabe 2 abgeschlossen wurde. Aufgabe 2 kann jedoch erst gestartet werden, wenn Aufgabe 1 abgeschlossen ist.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Fehlermeldung für Abhängigkeitsschleife](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Abhängigkeitsschleife in Aufgabenliste](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Überlegungen zu Abhängigkeitsschleifen
 

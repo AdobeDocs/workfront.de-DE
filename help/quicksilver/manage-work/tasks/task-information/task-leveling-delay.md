@@ -6,10 +6,10 @@ description: Manchmal kann es zu Konflikten zwischen Aufgabenplänen für ein Pr
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 10%
+source-wordcount: '391'
+ht-degree: 9%
 
 ---
 
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie auf **Einstellungen**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Abgleichsverzögerung beim Bearbeiten einer Aufgabe](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Geben Sie die **Abgleichsverzögerung** in Stunden an und wählen Sie dann eine Zeiteinheit aus.\
    Dies ist der Zeitpunkt, zu dem der Start der Aufgabe aufgrund von Ressourcenkonflikten verzögert wird.

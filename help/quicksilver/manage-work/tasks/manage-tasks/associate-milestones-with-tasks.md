@@ -6,10 +6,10 @@ description: Sie können Meilensteine mit Aufgaben verknüpfen, um anzugeben, wa
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können Meilensteine mit Aufgaben verknüpfen, um anzugeben, wann Sie wichti
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können Meilensteine mit Aufgaben verknüpfen, um anzugeben, wann Sie wichti
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> 
+   <p>Work oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Bevor Sie einen Meilenstein mit einer Aufgabe verknüpfen können, muss Folgende
 
 Nachdem einem Projekt ein Meilensteinpfad zugeordnet wurde, können Aufgaben einem Meilenstein zugewiesen werden.
 
-1. Wechseln Sie zu einer Aufgabe und klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) rechts neben dem Aufgabennamen und dann auf **Bearbeiten**.
+1. Wechseln Sie zu einer Aufgabe und klicken Sie dann auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) rechts neben dem Aufgabennamen und dann **Bearbeiten**.
 
    Aufgaben und Meilensteine haben eine 1:1-Beziehung. Sie können denselben Meilenstein nicht mehreren Aufgaben zuordnen. Jede Aufgabe kann mit einem einzelnen Meilenstein verknüpft werden oder jeder Meilenstein kann einer Aufgabe zugeordnet werden.
 
@@ -111,8 +111,8 @@ Nachdem einem Projekt ein Meilensteinpfad zugeordnet wurde, können Aufgaben ein
 
    Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-   ![](assets/amwt3.png)
+   ![Statussymbole](assets/amwt3.png)
 
 1. (Optional) Um zu einer Liste von Projekten zu wechseln, wählen Sie die Ansicht **Meilenstein**, um den Fortschritt Ihrer Meilensteinaufgaben zu ermitteln.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Meilenstein-Ansicht - Projektliste](assets/milestone-view-project-list.png)

@@ -7,10 +7,10 @@ description: Work Effort - Übersicht
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ In diesem Artikel wird beschrieben, was Work Effort ist und wie Sie ihn zur Sch�
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,15 +130,15 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Work Effort anstelle von „Geplante Stunden“ aktivieren
 
-1. Gehen Sie zu einem Projekt und klicken Sie auf das **Mehr**-![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten**.
+1. Gehen Sie zu einem Projekt und klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten**.
 1. Klicken Sie auf **Aufgabeneinstellungen** und wählen Sie dann die Option **Work Effort verwenden , um die geplanten Stunden für die Aufgabe automatisch zu berechnen**. Diese Option ist standardmäßig deaktiviert.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Work Effort on Projects](assets/nwe-work-effort-on-projects-350x182.png)
 
    Weiterführende Informationen dazu, wie Sie Work Effort für ein Projekt aktivieren, finden Sie im Abschnitt „Aufgabeneinstellungen“ im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Klicken Sie **linken** auf „Aufgaben“ und dann auf den Namen einer Aufgabe, um darauf zuzugreifen.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Bearbeiten**. Stellen Sie sicher, dass die Aufgabe einen einfachen Dauertyp aufweist.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) und dann auf **Bearbeiten**. Stellen Sie sicher, dass die Aufgabe einen einfachen Dauertyp aufweist.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie im Bereich **Übersicht** auf das Dropdown-Menü Work Effort , um den für die Ausführung der Aufgabe erforderlichen Arbeitsaufwand zu korrigieren.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Work Effort auf der Seite „Aufgabe bearbeiten“](assets/work-effort-on-edit-task-page-350x239.png)
 
    Weitere Informationen zum Aktualisieren des Work Effort-Felds in einer Aufgabe finden Sie in den folgenden Artikeln:
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1658'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Benutzers, der der Aufgabe zugewiesen wurde.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der/die Benutzende oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
@@ -55,7 +55,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des primären Verantwortlichen.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der primäre Zugewiesene oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
@@ -99,7 +99,7 @@ Wenn Sie angeben möchten, dass die Dauer einer Aufgabe 3 verstrichene Tage betr
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
 -->
 
-![](assets/duration-elapsed-days-tasks-nwe-350x282.png)
+![Dauer verstrichener Tage bei Aufgaben](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 Beachten Sie beim Angeben der Dauer einer Aufgabe Folgendes:
 

@@ -6,10 +6,10 @@ description: Sie können die Finanzinformationen einer Aufgabe anzeigen oder bea
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 8%
+source-wordcount: '838'
+ht-degree: 7%
 
 ---
 
@@ -92,7 +92,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie **Aufgabendetails**.
 1. (Optional) Klicken Sie auf **Symbol „Alle** reduzieren“ oben rechts auf der Seite „Aufgabendetails“.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Symbol „Alle reduzieren“ auf der Detailseite](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie **Finanzen**, um die Finanzinformationen für die Aufgabe zu erweitern und anzuzeigen.
 
-   Klicken Sie auf **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**.
+   Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**.
 
 1. Bearbeiten Sie alle Felder, die bearbeitet werden können, indem Sie einfach auf das Feld klicken oder auf **+Hinzufügen** klicken, um einem leeren Feld Informationen hinzuzufügen.
 1. Überprüfen oder bearbeiten Sie die folgenden Informationen im Bereich **Finanzen** :
@@ -166,4 +166,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn Sie die Felder im Abschnitt Finanzen bearbeiten, klicken Sie auf **Speichern**&#x200B;**Änderungen**.
+1. (Bedingt) Wenn Sie die Felder im Abschnitt Finanzen bearbeiten, klicken Sie auf **Speichern****Änderungen**.

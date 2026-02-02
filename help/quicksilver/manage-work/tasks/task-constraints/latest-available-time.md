@@ -7,9 +7,9 @@ description: Latest Available Time (LAT) ist eine Art von Aufgabenbeschränkung 
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -58,13 +58,13 @@ In dieser Situation:
 
   **Beispiel:** Zum Beispiel ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die neueste verfügbare Zeitbeschränkung und Aufgabe B hat die so bald wie möglich-Beschränkung. In diesem Fall wird Aufgabe A so nahe wie möglich am Beginn des Projekts geplant.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![Letzte verfügbare Zeitaufgabenbeschränkung in der Aufgabenliste](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **So spät wie möglich:** In diesem Szenario wird bei Verwendung der Einschränkung So spät wie möglich für die Vorgängeraufgabe die Priorität der Vorgängeraufgabe zugewiesen.
 
   **Beispiel:** Zum Beispiel ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die Einschränkung So spät wie möglich und Aufgabe B hat die Einschränkung So bald wie möglich. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![So spät wie möglich Aufgabenbeschränkung in Aufgabenliste](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

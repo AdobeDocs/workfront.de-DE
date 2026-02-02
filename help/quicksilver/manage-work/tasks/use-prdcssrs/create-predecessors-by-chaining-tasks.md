@@ -6,10 +6,10 @@ description: Sie können Vorgängerbeziehungen in Adobe Workfront auf verschiede
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Durch Verketten von Aufgaben können Sie dem System erlauben, die Vorgängerbezi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. (Bedingt) Wählen **oben rechts in** Aufgabenliste die Option „Automatisches Speichern“ und wählen Sie dann die Aufgaben aus, die Sie verketten möchten.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Symbol für automatisches Speichern auf hervorgehoben](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

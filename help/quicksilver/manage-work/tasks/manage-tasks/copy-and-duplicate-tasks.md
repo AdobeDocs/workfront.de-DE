@@ -6,10 +6,10 @@ description: Sie können eine Aufgabe aus einem Projekt in ein anderes Projekt k
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 1%
+source-wordcount: '1744'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können eine oder mehrere Aufgaben oder übergeordnete Aufgaben gleichzeitig
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können eine oder mehrere Aufgaben oder übergeordnete Aufgaben gleichzeitig
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -91,7 +91,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 * Sie haben während des Kopiervorgangs die Möglichkeit, einige mit der Aufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Standardmäßig werden die folgenden Objekte jedoch nicht an die kopierte Aufgabe übertragen:
    * Probleme
    * Protokollierte Stunden
-   * &#x200B;<!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
+   * <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
 * Die folgenden Elemente werden standardmäßig zur kopierten Aufgabe verschoben:
 
    * Meilensteine werden auf die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
@@ -103,14 +103,14 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
 1. Wechseln Sie zu dem Projekt, das die Aufgabe(n) enthält, die Sie kopieren möchten.
 
-   Oder
+   ODER
 
    Zu einem Aufgabenbericht wechseln.
 
 1. (Bedingt) Klicken Sie **linken** auf „Aufgaben“, wenn Sie das Projekt geöffnet haben, das die Aufgaben enthält.
-1. Klicken Sie auf das **Planmodus**-Symbol ![](assets/qs-list-mode-or-save-mode-icon-small.png) und stellen Sie sicher, dass die Option **Automatisches Speichern** aktiviert ist.
+1. Klicken Sie auf das **Planmodus**-Symbol ![Listenmodus oder Speichermodus-Symbol](assets/qs-list-mode-or-save-mode-icon-small.png) und stellen Sie sicher, dass die Option **Automatisches Speichern** aktiviert ist.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![Symbol für automatisches Speichern auf und hervorgehoben](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
    * Klicken Sie oben **der Aufgabenliste** das Menü „Mehr“ und dann auf **Kopieren nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und dann auf **Kopieren nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr**-Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und dann auf **Kopieren nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr Symbol in ](assets/more-icon-task-list.png) Aufgabenliste neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![Aufgabe in Liste kopieren](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Fahren Sie mit dem Kopieren der Aufgabe fort, wie im Abschnitt [Kopieren einer Aufgabe auf Aufgabenebene](#copy-a-task-at-the-task-level) beschrieben, beginnend mit Schritt 4.
 
@@ -136,9 +136,9 @@ Sie können Aufgaben nicht nur in eine Aufgabenliste kopieren, sondern auch nach
 
 1. Suchen Sie nach einer Aufgabe in Ihrem Workfront-System.
 1. Klicken Sie auf den Namen der Aufgabe, um sie zu öffnen.
-1. Klicken Sie auf **Mehr** Dropdown-Menü ![](assets/qs-more-menu.png) neben dem Namen der Aufgabe und dann auf **Kopieren nach**.
+1. Klicken Sie auf **Mehr** Dropdown-Menü ![Mehr](assets/qs-more-menu.png) neben dem Namen der Aufgabe und dann auf **Kopieren nach**.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![Option „Aufgabe kopieren nach“ auf Aufgabenebene](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    Das Feld Aufgabe kopieren wird angezeigt.
 
@@ -148,7 +148,7 @@ Sie können Aufgaben nicht nur in eine Aufgabenliste kopieren, sondern auch nach
    >
    >Dieses Feld ist abgeblendet und kann nicht bearbeitet werden, wenn mehrere Aufgaben in einer Liste kopiert werden sollen. Sie können den Mauszeiger über das Feld Aufgabenname bewegen, und eine Liste aller ausgewählten Aufgaben wird angezeigt.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![Aufgabe in ein Feld mit mehreren Aufgaben kopieren](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Geben Sie den Namen des **Zielprojekts** in das Feld **Zielprojekt auswählen** ein, in das Sie die Aufgabe kopieren möchten.
 
@@ -163,7 +163,7 @@ Sie können Aufgaben nicht nur in eine Aufgabenliste kopieren, sondern auch nach
 1. (Bedingt) Klicken Sie auf **Zugriff anfordern**, um Zugriff auf das Projekt anzufordern, wenn Sie keinen Zugriff auf das ausgewählte Projekt haben.
 1. (Bedingt) Kopieren Sie die Aufgabe weiterhin in das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff zum Hinzufügen von Aufgaben zu einer der Aufgaben im Zielprojekt haben.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![Anforderungszugriff aus Projekt kopieren](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ Sie können Aufgaben nicht nur in eine Aufgabenliste kopieren, sondern auch nach
 
 1. Klicken Sie auf **Aufgabe kopieren**
 
-   Oder
+   ODER
 
    Klicken Sie **Aufgaben kopieren** wenn Sie mehrere Aufgaben in einer Liste auswählen.
 Die kopierten Aufgaben befinden sich nun im angegebenen Projekt und sind entweder Teilaufgaben der ausgewählten übergeordneten Aufgabe oder die letzten Aufgaben im Projekt.
@@ -290,11 +290,11 @@ Sie können eine Aufgabe schnell in einer Aufgabenliste duplizieren, wenn Sie ei
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Bedingt) Klicken Sie auf das Symbol **Planmodus** ![](assets/qs-list-mode-or-save-mode-icon-small.png) und stellen Sie sicher, dass die Option **Automatisches Speichern** aktiviert ist, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf das Menü **Mehr** ![](assets/qs-more-menu-29x11.png) > **Duplizieren**.
+   * (Bedingt) Klicken Sie auf das Symbol **Planungsmodus** (![- oder Speichermodus-kleines Symbol](assets/qs-list-mode-or-save-mode-icon-small.png) und stellen Sie sicher, dass die Option **Automatisches Speichern** aktiviert ist, wählen Sie die Aufgaben aus, die Sie duplizieren möchten, und klicken Sie dann auf das Menü **Mehr**![Mehr](assets/qs-more-menu-29x11.png) > **Duplizieren**.
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![Aufgaben in Listenmenüelement duplizieren](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Bedingt) Klicken Sie auf das **Planungsmodus**-Symbol ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline Planning** führen Sie dann folgende Schritte aus:
+   * (Bedingt) Klicken Sie auf das Symbol **Planungsmodus** (![- oder Speichermodus-kleines Symbol](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manuelles Speichern** > **Standard** oder **Timeline Planning** und führen Sie dann einen der folgenden Schritte aus:
 
       1. Wählen Sie die Aufgabe(n) aus, die Sie duplizieren möchten, und klicken Sie auf **Duplizieren**.
       1. (Optional) Klicken Sie auf **Rückgängig**, um Ihre Änderungen rückgängig zu machen und die Aufgaben nicht zu duplizieren.

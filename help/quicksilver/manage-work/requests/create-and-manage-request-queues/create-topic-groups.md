@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Je nach Art der Anfrag
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +80,7 @@ Erstellen einer Themengruppe:
 1. Klicken Sie **linken Bereich** Themengruppen“.
 1. Klicken Sie **Neue Themengruppe**.
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Geben Sie die folgenden Informationen an:
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 2%
 
 ---
@@ -116,8 +116,8 @@ So erstellen Sie Aufgaben in einem Projekt:
 
 1. Wechseln Sie zu dem Projekt, in dem Sie eine Aufgabe erstellen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
-1. (Bedingt) Wenn Sie die Aufgabenliste derzeit in einer Agile-Ansicht anzeigen, klicken Sie auf das **Listenansicht**-Symbol oben rechts, ![](assets/list-view-in-agile-view-for-tasks.png) die Aufgabenliste anzuzeigen.
-1. (Optional) Klicken Sie auf das Symbol **Planungsmodus** ![](assets/nwe-plan-mode-icon-task-list.png) und wählen Sie **Manuelles Speichern** und dann entweder **Standard** oder **Timeline Planning**. Hiermit wird die Option **Automatisches Speichern** deaktiviert, die standardmäßig aktiviert ist.
+1. (Bedingt) Wenn Sie die Aufgabenliste derzeit in einer Agile-Ansicht anzeigen, klicken Sie auf das **Listenansicht**-Symbol ![Listenansicht in der Agile-Ansicht für Aufgaben](assets/list-view-in-agile-view-for-tasks.png) in der oberen rechten Ecke, um die Aufgabenliste anzuzeigen.
+1. (Optional) Klicken Sie auf das **Planmodus**-Symbol ![Planmodus-Symbol für ](assets/nwe-plan-mode-icon-task-list.png) Aufgabenliste) und wählen Sie **Manuelles Speichern** aus und wählen Sie dann entweder **Standard** oder **Timeline Planning**. Hiermit wird die Option **Automatisches Speichern** deaktiviert, die standardmäßig aktiviert ist.
 
    ![Wählen Sie Manuelles Speichern](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ So erstellen Sie Aufgaben in einem Projekt:
    * Klicken Sie **oben** der Aufgabenliste auf „Neue Aufgabe“.
    * Klicken Sie **Weitere Aufgaben hinzufügen** unten in der Aufgabenliste.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![Schaltfläche „Neue Aufgabe“ oder „Aufgabe hinzufügen“ in einer Liste hervorgehoben](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Bedingt) Wenn Sie auf **Neue Aufgabe** klicken, führen Sie folgende Schritte aus:
 
@@ -140,11 +140,11 @@ So erstellen Sie Aufgaben in einem Projekt:
 
       Um alle Felder für die Aufgabe zu aktualisieren, klicken Sie auf **Weitere Optionen**, um das Feld **Aufgabe erstellen** zu öffnen.
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![Erstellen eines kleinen Vorgangs](assets/nwe-create-task-small-screen-350x272.png)
 
       Das **Aufgabe erstellen** wird geöffnet.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![Große Box für Aufgabe erstellen](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ So erstellen Sie Aufgaben in einem Projekt:
 
    Es wird empfohlen, diese Option insbesondere beim Hinzufügen mehrerer Aufgaben zur Liste zu verwenden.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![Weitere Aufgaben inline hinzufügen](assets/add-more-tasks-inline.png)
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
@@ -213,11 +213,11 @@ So erstellen Sie Aufgaben in einem Projekt:
 
    Weitere Informationen finden Sie [Filter: Persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 
-   ![](assets/personal-tasks-report.png)
+   ![Bericht zu persönlichen Aufgaben](assets/personal-tasks-report.png)
 1. Klicken Sie im Bericht zur persönlichen Aufgabe auf einen Aufgabennamen, um ihn zu öffnen.
 
    Workfront speichert persönliche Aufgaben in einem nicht aufgelisteten persönlichen Projekt, das immer nach diesem Muster benannt wird: &quot;&lt; vollständiger Name des Benutzers > Aufgaben des Benutzers. Ein persönliches Projekt könnte z. B. „Ricks Aufgaben“ heißen.
 
-1. Klicken Sie auf der Aufgabenseite auf das **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Klicken Sie auf der Aufgabenseite auf das Menü **Mehr** ![Mehr-Symbol](assets/more-icon.png) und dann auf **Verschieben**. Weitere Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Nachdem Sie die Aufgabe verschoben haben, wird die Aufgabe für das ausgewählte Projekt angezeigt. Die Zeitleiste des Projekts ist möglicherweise von der Zeitleiste der neuen Aufgabe betroffen.

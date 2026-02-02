@@ -6,9 +6,9 @@ description: Wenn für eine Aufgabe in einem Projekt ein größerer Aufwand erfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -199,13 +199,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 ## Konvertieren einer Aufgabe in ein Projekt
 
 1. Wechseln Sie zu der Aufgabe, die Sie in ein Projekt konvertieren möchten.
-1. Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) dann auf **In Projekt konvertieren**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) und dann **In Projekt konvertieren**.
 1. Wählen Sie eine der folgenden Optionen aus:
 
    * **Neues Projekt**, um ein Projekt ohne Vorlage zu erstellen
    * Eine Vorlage im Abschnitt **Aus Vorlagen auswählen**
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Dropdown-Menü mit der Option „Aufgabe in Projektvorlage konvertieren“](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Klicken **in** eingeblendeten Benachrichtigung auf „Weiter“.
 1. Geben **im Feld „In Projekt**&quot; Folgendes an:

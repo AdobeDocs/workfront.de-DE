@@ -6,10 +6,10 @@ description: Der Überwachungsmodus einer Aufgabe bestimmt, wie der Aufgabenstat
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht übe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht übe
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
 
-<p>Arbeit oder höher</p> 
+<p>Work oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht übe
 ## Festlegen des Überwachungsmodus für Aufgaben
 
 1. Gehen Sie zu der Aufgabe, für die Sie den Tracking-Modus festlegen möchten.
-1. Klicken Sie auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol auf einem ](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
 
    Das Dialogfeld Aufgabe bearbeiten wird geöffnet.
 
 1. Wählen Sie **Abschnitt** im Dropdown-Menü **Überwachungsmodus** den Überwachungsmodus für die Aufgabe aus.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Feld „Überwachungsmodus“ im Abschnitt „Aufgabeneinstellungen bearbeiten“](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 

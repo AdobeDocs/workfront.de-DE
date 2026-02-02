@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 1. Klicken Sie auf die Aufgabe, die Sie bearbeiten möchten.
 1. (Bedingt) Um eingeschränkte Informationen zu einer Aufgabe zu bearbeiten, klicken Sie **linken Bereich auf** Aufgabendetails“.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Aufgabendetails erweitert](assets/nwe-task-details-expanded-350x273.png)
 
    Erwägen Sie, Informationen in den folgenden Bereichen im Abschnitt „Aufgabendetails“ zu bearbeiten:
 
@@ -184,15 +184,15 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
-   1. (Optional) Klicken Sie auf das **Alle reduzieren**-Symbol ![](assets/collapse-all-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-all-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![ rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte „Aufgabendetails“ finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Aufgabeninformationen im Bereich Aufgabendetails - Übersicht](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Verwalten der Aufgabenfinanzen im Abschnitt Aufgabendetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Optional) Wenn keine benutzerdefinierten Formulare an die Aufgabe angehängt sind, geben Sie den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
-   1. (Optional) Klicken Sie auf das **Exportieren**-Symbol ![](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
+   1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
 
       * Alle auswählen (wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular angehängt ist)
       * Übersicht
@@ -200,15 +200,15 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
       Die PDF-Datei wird auf Ihren Computer heruntergeladen.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Auswahlfeld „Problemdetails exportieren“ mit der Schaltfläche „Exportieren“](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Bedingt) Um alle Informationen zu der Aufgabe zu bearbeiten, klicken Benutzende mit der Berechtigung Verwalten für die Aufgabe auf das Menü **Mehr** ![](assets/more-icon.png) neben dem Namen der Aufgabe und anschließend auf **Bearbeiten**.
+1. (Bedingt) Um alle Informationen zu der Aufgabe zu bearbeiten, klicken Benutzende mit der Berechtigung zum Verwalten der Aufgabe auf das Menü **Mehr** ![Mehr](assets/more-icon.png) neben dem Namen der Aufgabe und anschließend auf **Bearbeiten**.
 
    ODER
 
-   Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in **Liste auf** Bearbeiten![](assets/edit-icon.png).
+   Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in der Liste auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png).
 
    Das Feld Aufgabe bearbeiten wird geöffnet.
 
@@ -241,7 +241,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
 1. Klicken Sie **linken** auf „Aufgabenname“.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Abschnitt „Aufgabenname“ im Feld „Aufgabe bearbeiten“](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Aktualisieren Sie den Namen der Aufgabe.
 
@@ -252,7 +252,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
 1. Klicken Sie **linken** auf „Übersicht“.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Bearbeitungsaufgabe für Übersichtsabschnitt](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Aktualisieren Sie die folgenden Informationen zur Aufgabe:
 
@@ -843,7 +843,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 1. Beginnen Sie mit der Bearbeitung der Aufgabe, wie oben beschrieben.
 1. Klicken Sie **linken** auf „Benutzerdefinierte Forms&quot; oder klicken Sie auf den Namen eines benutzerdefinierten Formulars, wenn es bereits angehängt ist.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Bearbeitungsaufgabe für Abschnitt für benutzerdefinierte Formulare](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Klicken Sie **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das oder die benutzerdefinierten Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
 
@@ -859,10 +859,10 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Feld für die Aufgabenbearbeitung im Finanzbereich](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Aktualisieren Sie die folgenden Felder:
 
@@ -902,10 +902,10 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Einstellungen im Feld Aufgabe bearbeiten](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Aktualisieren Sie die folgenden Felder:
 
@@ -968,7 +968,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)
@@ -992,7 +992,7 @@ Sie können in der Aufgabenkopfzeile eine begrenzte Menge an Informationen bearb
 Ihr System- oder Gruppenadministrator kann die Felder anpassen, die Sie in der Aufgabenkopfzeile sehen. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![Aufgabenkopfzeile ohne Genehmigungen und mit Abhängigkeiten](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 Die folgenden Felder sind standardmäßig in der Aufgabenkopfzeile enthalten:
 

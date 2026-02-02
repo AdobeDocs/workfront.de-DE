@@ -6,9 +6,9 @@ description: Sie können gesendete Anfragen oder Anfrageentwürfe löschen.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -81,12 +81,9 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder im Widget Meine Anfr
 
       Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Bewegen Sie in der Anfragenliste oder im Widget Meine Anfragen den Mauszeiger über die Anfrage oder den Entwurf, die bzw. den Sie löschen möchten.
+1. Bewegen Sie in der **Anfragen** Liste oder dem **Meine Anfragen** Widget auf der Startseite den Mauszeiger über die Anfrage oder den Entwurf, die bzw. den Sie löschen möchten, und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png)
 
-   Ein Drei-Punkte-Menü Mehr wird angezeigt.
-   ![](assets/more-menu.png)
-
-1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Namen der Anfrage oder des Entwurfs und anschließend auf **Löschen**.
+1. Klicken Sie auf **Löschen**
 
    ODER
 

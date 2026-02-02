@@ -6,9 +6,9 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 
    In dieser Liste wird ein Entwurf für jedes Warteschlangenthema jeder Anfragewarteschlange angezeigt.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Abschnitt „Entwürfe“ mit Liste von Entwürfen](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Optional) Klicken Sie auf eine Spaltenüberschrift, um die Liste nach dieser Spalte zu sortieren.
 
@@ -133,7 +133,7 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 
      Klicken Sie auf **Schließen**, wenn Sie noch nicht bereit sind, ihn zu übermitteln, und Sie möglicherweise später zurückkehren und ihn abschließen. Ihre Anfrage wird im Abschnitt „Entwürfe“ gespeichert und steht Ihnen beim nächsten Senden einer Anfrage für diese Anfrage-Warteschlange zur Verfügung.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Senden, Schließen, Verwerfen-Schaltflächen bei neuer Anfrage](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Wenn Sie die Anfrage senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
 

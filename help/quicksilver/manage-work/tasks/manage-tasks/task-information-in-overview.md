@@ -6,9 +6,9 @@ description: Sie können die Informationen einer Aufgabe anzeigen oder bearbeite
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2104'
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >
    >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage einrichtet, werden die Felder im Abschnitt Aufgabendetails möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Übersicht**.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Übersicht**.
 
    >[!TIP]
    >

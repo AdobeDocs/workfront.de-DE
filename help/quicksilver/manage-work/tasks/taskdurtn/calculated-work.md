@@ -7,10 +7,10 @@ description: Berechnete Arbeit ist ein Dauertyp, den Sie für eine Aufgabe in Ad
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
@@ -80,7 +80,7 @@ Im folgenden Beispiel wird in den Projektvoreinstellungen unter „Setup“ für
 
 In diesem Fall wird jeder Verantwortliche zu 100 % der Aufgabe „Berechnete Arbeit“ zugewiesen.
 
-![](assets/calcwork-350x71.png)
+![Typ der berechneten Arbeitsdauer](assets/calcwork-350x71.png)
 
 ## Ändern des Dauertyps einer Aufgabe in „Berechnete Arbeit“
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Allgemeine Informationen zu wiederkehrenden Aufgaben, einschließlich der Auswir
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Allgemeine Informationen zu wiederkehrenden Aufgaben, einschließlich der Auswir
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -97,7 +97,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Das Dialogfeld Neue Aufgabe wird angezeigt.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Aufgabe erstellen - kleiner Bildschirm](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klicken Sie auf **Weitere Optionen** und geben Sie dann einen Namen für die Aufgabe in das Feld **Aufgabenname** ein.
 1. Aktualisieren Sie die Aufgabe wie beim Hinzufügen einer neuen Aufgabe. Weitere Informationen zum Hinzufügen einer neuen Aufgabe finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie **linken** auf „Übersicht“.
 1. Scrollen Sie nach unten zum Abschnitt **Wiederholungszeitplan** und wählen Sie dann die Option **Dies zu einer wiederkehrenden Aufgabe machen** aus.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Abschnitt „Wiederholungszeitplan“ für neue wiederkehrende Aufgaben](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. Wählen **in der Dropdown** Liste „Häufigkeit“ die Anzahl der Zeiteinheiten, zu denen die Aufgabe ausgeführt werden soll, und den Typ der Zeiteinheiten aus. Wählen Sie aus den folgenden Optionen aus:
 
@@ -118,13 +118,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     <col> 
     <thead> 
      <tr> 
-      <th>Wiederholungstyp</th> 
+      <th>Intervalltyp</th> 
       <th>Beschreibung</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Tag</strong> </td> 
+      <td role="rowheader"><strong>Day</strong> </td> 
       <td> <p>Die Aufgabe wird täglich, alle 2 Tage, alle 3 Tage usw. wiederholt, je nach ausgewählter Kadenz. Sie können Aufgaben so konfigurieren, dass sie bis zu jedem 6. Tag wiederholt werden. Die Standardeinstellung ist 1 Tag. </p> </td> 
      </tr> 
      <tr> 
@@ -136,7 +136,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <td> <p> Die Aufgabe wird jede Woche, alle 2 Wochen, alle 3 Wochen usw. wiederholt, je nach ausgewählter Kadenz.</p> <p>Wählen <strong> im Feld </strong> den Wochentag aus, an dem jede Aufgabe ausgeführt werden soll. Sie können mehrere Tage auswählen. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Monat</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>Die Aufgabe wird monatlich, alle 2 Monate, alle 3 Monate usw. wiederholt, je nach ausgewählter Kadenz. Sie können zwischen 1 und 12 Monaten wählen. </p> <p>Wählen <strong> im Feld „Wiederholungen</strong> eine der folgenden Optionen aus, wenn die Aufgabe ausgeführt werden soll:</p> 
        <ul> 
         <li> <p><strong>Jeden Monat an Tag &lt;Monatsdatum&gt;</strong> </p> <p>Sie können Tage von 1 bis 30 auswählen oder "<strong>" </strong>. Sie können beispielsweise „Jeden Monat am 30.“ auswählen. </p> </li> 
@@ -153,7 +153,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Wählen **im Feld** das Datum und die Uhrzeit aus, zu der die wiederkehrenden Aufgaben beginnen sollen.
 1. Wählen Sie **Feld** das Datum und die Uhrzeit aus, zu der die wiederkehrenden Aufgaben abgeschlossen werden sollen
 
-   Oder
+   ODER
 
    Wählen Sie **Nach `<number>` Vorkommen**, um anzugeben, wie oft die wiederkehrende Aufgabe ausgeführt werden soll. Workfront erstellt für die Aufgaben dieselbe Anzahl von Wiederholungen wie für die Zahl, die Sie in diesem Feld angeben.
 
@@ -163,7 +163,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Weitere Informationen dazu, welche Felder von der übergeordneten wiederkehrenden Aufgabe automatisch ausgefüllt werden, finden Sie unter [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![Wiederkehrende Aufgaben in Aufgabenliste](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Optional) Ändern Sie jede wiederkehrende Aufgabe wie jede andere Aufgabe im Projekt.
 

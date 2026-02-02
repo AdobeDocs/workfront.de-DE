@@ -6,10 +6,10 @@ description: Der Dauertyp einer Aufgabe gibt die Beziehung zwischen der Anzahl d
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 6%
+source-wordcount: '292'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ Der Dauertyp einer Aufgabe gibt die Beziehung zwischen der Anzahl der einer Aufg
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Der Dauertyp einer Aufgabe gibt die Beziehung zwischen der Anzahl der einer Aufg
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard oder höher</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -87,7 +87,7 @@ So aktualisieren Sie den Dauertyp einer Aufgabe:
 1. Klicken Sie auf **Abschnitt** im linken Bedienfeld .
 1. Klicken Sie **linken Bereich auf** Aufgabendetails“ und dann im Bereich Übersicht auf **Dauertyp**.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Duration type Alle Optionen in der Übersicht](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Wählen Sie aus den folgenden Optionen aus
 

@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
    >
    >Die Spalten in der Liste „Gesendete Anfrage“ können nicht angepasst werden.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Gesendete Anfragen - neue Liste](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Die folgenden Spalten werden standardmäßig angezeigt:
@@ -189,17 +189,17 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
    >
    >Wenn Sie die Liste Gesendete Anfragen verlassen, wird die ausgewählte Sortieroption beibehalten.
 
-1. (Optional) Wählen Sie eine Anfrage in der Liste aus und klicken Sie dann auf das Symbol **Zusammenfassung öffnen**, ![](assets/open-summary-with-text-nwe.png) das Bedienfeld Zusammenfassung zu öffnen und zusätzliche Informationen über die Anfrage anzuzeigen, Kommentare hinzuzufügen, Dokumente hinzuzufügen oder sie zuzuweisen. Weitere Informationen über das Bedienfeld Zusammenfassung finden Sie unter [Übersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Optional) Wählen Sie eine Anfrage in der Liste aus und klicken Sie dann auf das Symbol **Zusammenfassung öffnen** ![Zusammenfassung mit Text öffnen](assets/open-summary-with-text-nwe.png) um das Bedienfeld Zusammenfassung zu öffnen und zusätzliche Informationen über die Anfrage anzuzeigen, Kommentare hinzuzufügen, Dokumente hinzuzufügen oder zuzuweisen. Weitere Informationen über das Bedienfeld Zusammenfassung finden Sie unter [Übersicht](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Wenn das Bedienfeld Zusammenfassung bereits geöffnet ist, ändert sich das Symbol Zusammenfassung öffnen in Zusammenfassung schließen .
 
-1. (Optional und bedingt) Klicken Sie auf das Symbol **X** oben rechts oder auf das Symbol **Zusammenfassung schließen** ![](assets/close-summary-with-text-nwe.png), um das Bedienfeld Zusammenfassung zu schließen.
+1. (Optional und bedingt) Klicken Sie auf das Symbol **X** oben rechts oder auf das Symbol **Zusammenfassung schließen** ![Zusammenfassung mit Text schließen](assets/close-summary-with-text-nwe.png), um das Bedienfeld Zusammenfassung zu schließen.
 
    Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wurde und das Problem im Konvertierungsprozess gelöscht wurde, ist das Bedienfeld Zusammenfassung leer. Informationen zu Konvertierungsproblemen finden Sie unter [Übersicht über die Konvertierung von Problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Wählen Sie über **Symbol** oben rechts ![](assets/filter-nwepng.png) der Liste einen der in der folgenden Tabelle aufgelisteten Filter aus.
+1. Wählen Sie über **Filtersymbol** ![Filtersymbol](assets/filter-nwepng.png) oben rechts in der Liste einen der in der folgenden Tabelle aufgelisteten Filter aus.
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
     </tbody> 
    </table>
 
-1. (Optional) Klicken Sie auf das **Seite filtern**-Symbol oben ![](assets/search-icon.png) in der Liste, um nach einer Anfrage anhand des Namens zu suchen. Die Liste wird mit Ergebnissen aktualisiert, die Ihren Suchkriterien entsprechen.
+1. (Optional) Klicken Sie auf **Seite filtern** Symbol ![Suchen](assets/search-icon.png) oben in der Liste, um nach einer Anfrage anhand des Namens zu suchen. Die Liste wird mit Ergebnissen aktualisiert, die Ihren Suchkriterien entsprechen.
 
 1. (Bedingt) Um nur Workfront-Anfragewarteschlangen anzuzeigen, suchen oder filtern Sie nach `Issue` Objekttypen.</span>
 
@@ -266,7 +266,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
 
    Verwenden Sie **Filter** und **Spalten**, um die Informationen in der Planning-Anfrageliste zu aktualisieren.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![Registerkarte „Planung“ im Bereich „Anfragen“ übermittelt](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 

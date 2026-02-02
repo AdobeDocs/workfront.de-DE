@@ -6,9 +6,9 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3254'
 ht-degree: 3%
 
 ---
@@ -179,7 +179,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der ](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -299,7 +299,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
    ODER
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf das **Mehr** Menü ![Modus-Symbol in der Aufgabenliste](assets/more-icon-task-list.png).
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -407,7 +407,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    ODER
 
-   Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon-task-list.png).
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der Aufgabenliste](assets/more-icon-task-list.png).
 
 1. Wählen Sie aus den folgenden Optionen aus:
 

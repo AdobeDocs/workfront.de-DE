@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 3%
 
 ---
@@ -104,19 +104,19 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
 
 1. Suchen Sie die Anfrage, die Sie als neu kopieren und senden möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie diese aus **klicken Sie dann** Kopieren![](assets/copy-and-submit-as-new-requests-area-nwe.png) oben links in der Liste „Gesendete Anfragen“.
+   * Wählen Sie diese aus **klicken Sie dann** Kopieren![Symbol „Kopieren und Senden](assets/copy-and-submit-as-new-requests-area-nwe.png) in der linken oberen Ecke der Liste „Gesendete Anfragen“.
 
    >[!TIP]
    >
    > Wenn Sie nicht zuerst eine Anfrage ausgewählt haben, wird das Kopiersymbol abgeblendet.
 
-   * Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Anfragenamen und dann auf **Kopieren und als neu übermitteln**
+   * Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Kopieren und als neu übermitteln**
 
      ODER
 
      Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und klicken Sie dann auf **Kopieren und als neu übermitteln**.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![Auswahl weiterer Menüoptionen anfordern](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Mei
 
       Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Bewegen Sie in der Liste Anfragen oder im Widget Meine Anfragen den Mauszeiger über die Anfrage, die Sie kopieren möchten.
+1. Bewegen Sie in der **Anfragen** Liste oder im Widget **Meine Anfragen** auf der Startseite den Mauszeiger über die Anfrage, die Sie kopieren möchten, und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png).
 
-   Ein Drei-Punkte-Menü Mehr wird angezeigt.
-   ![](assets/more-menu.png)
-
-1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Anfragenamen und dann auf **Kopieren**.
+1. Klicken Sie auf **Kopieren**
 
    ODER
 

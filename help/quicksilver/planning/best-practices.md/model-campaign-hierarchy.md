@@ -1,5 +1,5 @@
 ---
-title: 'Das Framework des Erfolgs: Modellieren Ihrer Kampagnenhierarchie'
+title: 'Die Architektur des Erfolgs: Modellieren der Kampagnenhierarchie'
 description: Erfahren Sie, wie Sie Ihre komplexen Geschäftsprozesse mithilfe von „Schwerpunkten“ und einer Architektur mit mehreren Arbeitsbereichen in eine skalierbare, gesteuerte Kampagnenhierarchie übersetzen können.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Das Framework für den Erfolg: Modellieren Ihrer Kampagnenhierarchie
+# Die Architektur des Erfolgs: Modellieren der Kampagnenhierarchie
 
 <!--see the file again for additional comments from Seth and others-->
 

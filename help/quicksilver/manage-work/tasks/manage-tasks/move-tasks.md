@@ -6,10 +6,10 @@ description: In Adobe Workfront können Sie Aufgaben in verschiedene Projekte od
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 2%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Sie können eine einzelne Aufgabe verschieben oder mehrere Aufgaben gleichzeitig
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können eine einzelne Aufgabe verschieben oder mehrere Aufgaben gleichzeitig
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard </p> 
- <p>Arbeit oder höher</p> </td> 
+ <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -133,7 +133,7 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 
    * Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/main-more-icon.png) oben in der Aufgabenliste und klicken Sie dann auf **Verschieben nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und dann auf **Verschieben nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr**-Menü ![](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und dann auf **Verschieben nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr“ in der Aufgabenliste ](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
 
    Das **Aufgabe verschieben** wird angezeigt.
 

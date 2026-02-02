@@ -6,9 +6,9 @@ description: Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Proje
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
 1. Klicken Sie **linken Bereich auf** Aufgabendetails“ und dann im Bereich Übersicht auf **Aufgabenbeschränkung**.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![Aufgabenbeschränkung - alle Optionen in der Übersicht](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Wählen Sie aus den folgenden Optionen aus
 
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    | Nicht später anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestens beginnen am](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Nicht früher anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher starten als](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Nicht später beenden als (NSBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestes Beenden bis](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 

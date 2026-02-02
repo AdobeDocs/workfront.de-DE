@@ -7,10 +7,10 @@ description: Sie können eine Priorität für eine Aufgabe definieren, um anzuge
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können eine Priorität für eine Aufgabe definieren, um anzugeben, wie wich
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Sie können eine Priorität für eine Aufgabe definieren, um anzugeben, wie wich
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -102,5 +102,5 @@ Beachten Sie bei der Verwendung von Aufgabenprioritäten Folgendes:
 
 1. Gehe zu der Aufgabe, deren Priorität du ändern möchtest.
 1. Klicken Sie **linken** auf „Aufgabendetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png) und wählen Sie dann im Bereich **Übersicht** einen Wert für das Feld **Priorität** aus.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png) und wählen Sie dann im Bereich **Übersicht** einen Wert für das Feld **Priorität** aus.
 1. Klicken Sie **Speichern** **Änderungen**.

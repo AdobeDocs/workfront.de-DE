@@ -6,10 +6,10 @@ description: Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe m
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ In diesem Artikel wird beschrieben, wie Sie die geplanten Stunden und die Dauer 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ In diesem Artikel wird beschrieben, wie Sie die geplanten Stunden und die Dauer 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard oder höher</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -91,13 +91,13 @@ So bearbeiten Sie die geplanten Stunden und die Dauer einer Aufgabe mit einem ei
 1. Klicken Sie in einer Aufgabenliste auf den Namen der Aufgabe, für die Sie den Dauertyp ändern möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe, klicken Sie auf **Bearbeiten** und dann auf **Arbeitsaufträge**.
+   * Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol auf einem Objekt](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe, klicken Sie auf **Bearbeiten** dann auf **Zuweisungen**.
    * Klicken Sie auf **Zugewiesen an** oder den Namen der Zuweisungen im Bereich „Zuweisungen“ der Aufgabenkopfzeile und dann auf **Erweitert**.
 
 1. Geben Sie einen Gesamtwert für die **geplanten Stunden** für alle Zuweisungen ein, z. B. 10 Stunden. Die Gesamtzahl der geplanten Stunden wird gleichmäßig auf alle Ressourcen aufgeteilt, die der Aufgabe zugewiesen sind.
 1. (Optional) Passen Sie die geplanten Stunden für jede Ressource, die der Aufgabe zugewiesen wurde, manuell an. Die Gesamtzahl der geplanten Stunden für die Aufgabe wird aktualisiert, um die neuen Stunden widerzuspiegeln, die Ihren Ressourcen einzeln zugewiesen wurden.
 1. Geben Sie einen Wert für die Aufgabe **Dauer** ein, z. B. 2 Tage.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Erweiterte Zuweisungen Einfache Dauer Mehrere Ressourcen](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Klicken Sie auf **Speichern**.
