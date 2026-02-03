@@ -1,14 +1,13 @@
 ---
-title: Exportieren benutzerdefinierter Formulare und Objektdetails
-description: Exportieren benutzerdefinierter Formulare und Objektdetails
+title: Benutzerdefinierte Forms- und Objektdetails exportieren
+description: Sie können die Übersicht und die benutzerdefinierten Formularinformationen aus dem Abschnitt Details eines Objekts in eine PDF-Datei exportieren. Anschließend können Sie die PDF drucken oder für andere Benutzer freigeben.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +35,7 @@ Diese Funktion wird für die folgenden Objekte unterstützt:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +101,7 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 1. Erstellen Sie ein benutzerdefiniertes Formular für ein bestimmtes Objekt, aus dem Sie es exportieren möchten.
 1. Benutzerdefiniertes Formular an das Objekt anhängen lassen
 
-   Oder
+   ODER
 
    Sie verfügen über die richtigen Zugriffsrechte, um ein benutzerdefiniertes Formular anzuhängen und die Informationen auf dem Formular zu bearbeiten.
 
@@ -125,7 +124,7 @@ Der Export von Informationen aus dem Abschnitt Details eines Objekts ist für al
 
    Sie können auch **Alle auswählen** auswählen, wenn Sie den Übersichtsbereich und alle benutzerdefinierten Formulare exportieren möchten.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![Schaltfläche für benutzerdefiniertes Formular exportieren](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

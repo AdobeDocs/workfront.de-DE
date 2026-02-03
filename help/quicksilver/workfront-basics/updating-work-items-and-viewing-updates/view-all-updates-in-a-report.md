@@ -6,9 +6,9 @@ description: Um alle Aktualisierungen anzuzeigen, die von einem Benutzer für ei
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 5%
 
 ---
@@ -115,7 +115,7 @@ So erstellen Sie beispielsweise einen Notizbericht für alle Notizen zu einem Pr
 1. (Optional) Klicken Sie auf **Filter** und dann **Filterregel hinzufügen**.
 1. Fügen Sie einen Filter für **Hinweis** > **Notizentext** > **Ist nicht leer** hinzu.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![Notizentext-Feld ist kein leerer Filter](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

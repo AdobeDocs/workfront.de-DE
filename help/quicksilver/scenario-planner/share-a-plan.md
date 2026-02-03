@@ -7,10 +7,10 @@ description: Sie können einen Plan, den Sie im Adobe Workfront-Szenarioplaner e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können einen Plan in der [!DNL Adobe Workfront Scenario Planner] für ander
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -173,7 +173,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie bei der Fr
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Erstellen von Szenarien</p> </td> 
+   <td> <p>Erstellen von Szenarios</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -209,7 +209,7 @@ Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekt
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen
 
-   Oder
+   ODER
 
    Wählen Sie mehrere Pläne aus, um sie stapelweise freizugeben.
 
@@ -219,9 +219,9 @@ Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekt
 
 1. (Bedingt) Wenn Sie einen Plan geöffnet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) rechts neben dem Namen [!UICONTROL Plan] und klicken Sie dann auf **[!UICONTROL Freigeben]**
 
-   Oder
+   ODER
 
-   Wenn Sie mehrere Pläne ausgewählt haben, um sie zusammen freizugeben, klicken Sie auf das **[!UICONTROL Freigeben]**-Symbol oben ![](assets/share-icon-26x26.png) in der Liste der Pläne, um das [!UICONTROL Plan]-Zugriffsfeld zu öffnen.
+   Wenn Sie mehrere Pläne ausgewählt haben, um sie stapelweise freizugeben, klicken Sie oben in der Liste der Pläne auf **[!UICONTROL Freigeben]**-Symbol ![Freigeben](assets/share-icon-26x26.png), um das [!UICONTROL Plan]-Zugriffsfeld zu öffnen.
 
    >[!TIP]
    >
@@ -237,7 +237,7 @@ Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekt
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Ansicht]</td> 
+      <td role="rowheader">[!UICONTROL-Ansicht]</td> 
       <td>Benutzer, für die Sie den Plan freigeben, sind berechtigt, den Plan anzuzeigen. Sie können keine Informationen zum Plan bearbeiten, keine Initiativen hinzufügen, keine Szenarien erstellen und keine Szenarien veröffentlichen. </td> 
      </tr> 
      <tr> 

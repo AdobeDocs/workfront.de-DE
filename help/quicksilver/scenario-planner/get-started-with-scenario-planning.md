@@ -2,10 +2,9 @@
 title: Erste Schritte mit dem Szenario-Planer
 description: Mit dem Adobe Workfront-Szenarioplaner können Sie Pläne auf Unternehmensebene erstellen, die die strategischen Gesamtergebnisse Ihres Unternehmens skizzieren. Sie können mehrere Initiativen für einen Plan definieren und in verschiedenen Szenarien platzieren, um die optimale Lösung für die Ausführung des Plans zu finden.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -54,11 +53,11 @@ Die [!DNL Workfront Scenario Planner] wird angezeigt.
 
 1. (Optional) Klicken Sie auf den Namen eines Plans, um ihn zu öffnen und die Details anzuzeigen.
 
-   Oder
+   ODER
 
    Klicken Sie **[!UICONTROL Neuer Plan]**, um einen neuen Plan hinzuzufügen.
 
-   Weitere Informationen zum Erstellen von Plänen finden [&#x200B; unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
+   Weitere Informationen zum Erstellen von Plänen finden [ unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
 
 ## [!DNL Workfront Scenario Planner]-Objekte
 

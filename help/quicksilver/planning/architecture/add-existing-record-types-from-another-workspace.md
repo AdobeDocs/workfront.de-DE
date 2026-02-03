@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ And
 1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** wird ![](assets/global-icon.png) auf der Karte des Datensatztyps angezeigt.
+   Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (![ Symbol „Globales Datensatzsymbol“ primärer Arbeitsbereich](assets/global-icon.png) wird auf der Karte des Datensatztyps angezeigt.
 
    Folgendes geschieht:
 

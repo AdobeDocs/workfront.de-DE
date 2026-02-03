@@ -7,9 +7,9 @@ description: Sie können Informationen in einem benutzerdefinierten Formular bea
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Wechseln Sie zu einer beliebigen Liste von Objekten, für die Sie Informationen im benutzerdefinierten Formular bearbeiten möchten, mit Ausnahme einer Liste von Iterationen.
-1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 1. Klicken Sie **linken Bereich** Custom Forms&quot; im Feld **Objekt bearbeiten**.
 
    Wenn ein benutzerdefiniertes Formular an das -Objekt angehängt ist, wird der Name des Formulars als Bereich im Abschnitt **Benutzerdefinierte Forms** angezeigt.
@@ -130,7 +130,7 @@ Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben könne
    >
    >Sie müssen alle erforderlichen Felder im Formular ausfüllen, bevor Sie das Formular speichern können. Auf den Namen eines erforderlichen Felds folgt ein Sternchen.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Erforderliches benutzerdefiniertes Feld](assets/nwe-required-custom-field.png)
 
    Wenn jemand Daten in einem anderen Objekt ändert, auf das von berechneten benutzerdefinierten Feldern in Ihrem Objekt verwiesen wird, werden die Änderungen nicht automatisch in Ihrem Objekt übernommen. Informationen zum manuellen Aktualisieren aller berechneten benutzerdefinierten Felder in Ihrem Objekt finden Sie unter [Alle berechneten benutzerdefinierten Felder für ein Objekt neu berechnen](#recalculate-all-calculated-custom-fields-for-an-object) in diesem Artikel.
 
@@ -177,7 +177,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie benutzerdefinierte Ausdr�
    * Programm
    * Dokument
 
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Namen des Objekts und dann auf **Ausdrücke neu berechnen**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Namen des Objekts und dann auf **Ausdrücke neu berechnen**.
 
    Dadurch werden alle benutzerdefinierten Felder im Formular des -Objekts neu berechnet.
 
@@ -217,9 +217,9 @@ So berechnen Sie benutzerdefinierte Ausdrücke aus einer Objektliste neu:
    * Portfolios
    * Programme
    * Ausgaben
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-icon.png) und dann auf **Benutzerdefinierte Ausdrücke neu berechnen**.
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Ausdrücke für die Neuberechnung in Projektlisten in der Dropdown-Liste „Timeline-Finanzen“](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront berechnet sofort alle benutzerdefinierten Felder für alle ausgewählten Projekte.
 Nicht alle Listen aller Objekte verfügen über diese Funktion.

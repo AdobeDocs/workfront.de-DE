@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: dca61a5d1f89d1524b64280e6e0542984f3686a1
+source-git-commit: 3074b279d61ed247ad1ec0585d9c04cf3d7e9091
 workflow-type: tm+mt
-source-wordcount: '13755'
+source-wordcount: '13759'
 ht-degree: 2%
 
 ---
@@ -657,7 +657,7 @@ ht-degree: 2%
       * [Workfront verwalten](administration-and-setup/manage-workfront/manage-workfront.md)
       * Konfigurieren der Proofing-Funktion {#configure-proofing}
          * [Konfigurieren von Proofing](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-         * [Einstellungen für Korrekturabzüge](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+         * [Testversandeinstellungen](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Benutzersynchronisierung zwischen Workfront und Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
          * [Zugriff auf Proofing](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
          * [Desktop Proofing Viewer](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
@@ -2190,6 +2190,7 @@ ht-degree: 2%
       * [Verwalten der Tabellenansicht](planning/views/manage-the-table-view.md)
       * [Zeitleisten-Ansicht verwalten](planning/views/manage-the-timeline-view.md)
       * [Kalenderansicht verwalten](planning/views/manage-the-calendar-view.md)
+      * [Verwalten der Listenansicht](planning/views/manage-the-list-view.md)
       * [Datensatzansichten löschen](planning/views/delete-record-views.md)
       * [Doppelte Datensatzansichten](planning/views/duplicate-record-views.md)
    * Adobe Workfront-Planungsbenachrichtigungen {#adobe-workfront-planning-notifications}
@@ -2223,7 +2224,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

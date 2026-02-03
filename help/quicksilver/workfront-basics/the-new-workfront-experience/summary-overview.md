@@ -5,9 +5,9 @@ description: Sie können das Bedienfeld Zusammenfassung verwenden, um Arbeitsele
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '908'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Ihr Workfront- oder Gruppen-Administrator kann die Bereiche und Felder ändern, 
 
 
 
-In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienfeld [!UICONTROL Zusammenfassung“ finden &#x200B;] verwenden können:
+In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienfeld [!UICONTROL Zusammenfassung“ finden ] verwenden können:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -74,7 +74,7 @@ In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienf
    <td>Probleme im Bereich [!UICONTROL Zugewiesene Arbeit] des [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Probleme im Abschnitt [!UICONTROL Submitted] im Bereich [!UICONTROL -Anforderungen]</td> 
+   <td>Probleme im Abschnitt [!UICONTROL Submitted] im Bereich [!UICONTROL-Anforderungen]</td> 
   </tr> 
 </tr> 
    <tr> 
@@ -85,10 +85,10 @@ In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienf
    <td><b>Dokumente</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Bereich [!UICONTROL -Dokumente]</td> 
+   <td>Bereich [!UICONTROL-Dokumente]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL -Dokumente]-Abschnitt eines beliebigen Objekts (Projekt, Aufgabe, Problem, Programm, Portfolio, Vorlage, Vorlagenaufgabe, Benutzer)</td> 
+   <td>[!UICONTROL-Dokumente]-Abschnitt eines beliebigen Objekts (Projekt, Aufgabe, Problem, Programm, Portfolio, Vorlage, Vorlagenaufgabe, Benutzer)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,11 +107,11 @@ Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] für Dokumente fi
 ## Das Bedienfeld [!UICONTROL Zusammenfassung] in einer Liste von Aufgaben oder Problemen anzeigen
 
 1. Navigieren Sie zu einer Aufgabe oder einem Problem und wählen Sie ein Element in der Liste aus.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Zusammenfassung![](assets/qs-summary-in-new-toolbar-small.png)
+1. Klicken Sie auf das **[!UICONTROL Zusammenfassung]**-Symbol ![Zusammenfassung in neuer Symbolleiste](assets/qs-summary-in-new-toolbar-small.png)
 
    oder
 
-   Klicken Sie auf **[!UICONTROL Symbol]** Zusammenfassung öffnen![](assets/open-summary-with-text-nwe.png) im Abschnitt [!UICONTROL Gesendet] des Bereichs [!UICONTROL Anfragen].
+   Klicken Sie auf das **[!UICONTROL Zusammenfassung öffnen]**-Symbol ![Zusammenfassung mit Text öffnen](assets/open-summary-with-text-nwe.png) im Abschnitt [!UICONTROL Gesendet] des Bereichs [!UICONTROL Anfragen].
 
    Nachdem Sie die Zusammenfassung geöffnet haben, bleibt sie beim Klicken oder Auswählen anderer Aufgaben oder Probleme geöffnet und bleibt geöffnet, bis Sie sie manuell schließen.
 
@@ -121,17 +121,17 @@ Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] für Dokumente fi
 
    ![Bedienfeld Zusammenfassung](assets/summary-panel-for-task-new-comments.png)
 
-1. (Optional) Führen Sie einen [!UICONTROL &#x200B; folgenden Schritte aus] um das Bedienfeld „Zusammenfassung“ zu schließen:
+1. (Optional) Führen Sie einen [!UICONTROL  folgenden Schritte aus] um das Bedienfeld „Zusammenfassung“ zu schließen:
 
-   * Klicken Sie in einer Aufgaben- oder Problemliste auf das Symbol **[!UICONTROL Zusammenfassung öffnen]** ![](assets/summary-panel-icon.png)
+   * Klicken Sie in einer Aufgaben- oder Problemliste auf das Symbol **[!UICONTROL Zusammenfassung öffnen]** ![Symbol im Zusammenfassungsbereich](assets/summary-panel-icon.png)
 
-     Oder
+     ODER
 
      Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds [!UICONTROL Zusammenfassung].
 
-   * Klicken Sie [!UICONTROL &#x200B; Abschnitt &#x200B;]Gesendet“ im Bereich [!UICONTROL Anfragen] auf das Symbol **[!UICONTROL Zusammenfassung schließen]** ![](assets/close-summary-with-text-nwe.png)
+   * Klicken Sie [!UICONTROL  Abschnitt ]Gesendet“ im Bereich [!UICONTROL Anfragen] auf das Symbol **[!UICONTROL Zusammenfassung schließen]** ![Zusammenfassung mit Text schließen](assets/close-summary-with-text-nwe.png)
 
-     Oder
+     ODER
 
      Klicken Sie auf **X**-Symbol in der rechten oberen Ecke des Bedienfelds Zusammenfassung.
 
@@ -175,9 +175,9 @@ Wenn Sie der Aufgabe keine Teilaufgaben hinzugefügt haben, klicken Sie auf **[!
 
 Verwenden Sie den [!UICONTROL Stunden] des Abschnitts [!UICONTROL Zusammenfassung], um Stunden für die ausgewählte Aufgabe oder das ausgewählte Problem zu protokollieren. Klicken Sie **[!UICONTROL Zeit erfassen]** und geben Sie Ihre Stunden ein. Um direkt zur Registerkarte „Stunden“ für die Aufgabe oder das Problem zu wechseln, klicken Sie auf den **[!UICONTROL Stunden]** Titel.
 
-Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die protokollierten Stunden an. Andere Benutzende haben in der [!UICONTROL Zusammenfassung) je &#x200B;] Zeit, in der sie sich bei der Aufgabe anmelden, unterschiedliche Stundensummen.
+Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die protokollierten Stunden an. Andere Benutzende haben in der [!UICONTROL Zusammenfassung) je ] Zeit, in der sie sich bei der Aufgabe anmelden, unterschiedliche Stundensummen.
 
-Wenn für die Aufgabe oder [!UICONTROL &#x200B; keine geplanten &#x200B;]Stunden“ vorhanden sind und Sie die Zeit protokolliert haben, wird die Stundenleiste rot angezeigt.
+Wenn für die Aufgabe oder [!UICONTROL  keine geplanten ]Stunden“ vorhanden sind und Sie die Zeit protokolliert haben, wird die Stundenleiste rot angezeigt.
 
 ![Abschnitt „Stunden“ im Bedienfeld „Zusammenfassung“](assets/summary-hours-section.png)
 

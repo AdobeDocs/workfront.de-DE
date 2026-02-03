@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -151,7 +151,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensatzerseite“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
@@ -287,7 +287,7 @@ Dem Dropdown-Menü „Ansichten“ wird eine neue Ansicht hinzugefügt.
       * **Löschen**
 Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Menü „Mehr anzeigen“ auf der Seite „Projekte mit verbundenen Datensätzen“](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -340,7 +340,7 @@ Eine neue Listenansicht wird dem Dropdown-Menü „Ansichten“ im Bereich &quot
       * **Löschen**
 Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Menü „Mehr anzeigen“ auf der Seite „Projekte mit verbundenen Datensätzen“](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >

@@ -7,9 +7,9 @@ description: Sie können ein vorhandenes benutzerdefiniertes Formular zu jedem d
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 4%
 
 ---
@@ -114,7 +114,7 @@ Sie haben zwei Möglichkeiten, um ein benutzerdefiniertes Formular zu einem Obje
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt durch Bearbeiten des -Objekts {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) und dann auf **Bearbeiten** ![Bearbeiten](assets/edit-icon.png).
 1. Klicken Sie **Benutzerdefinierte Forms** > **Forms hinzufügen** und wählen Sie dann aus dem Dropdown-Menü bis zu 10 Formulare aus.
 
 1. (Optional) Aktualisieren Sie die Informationen in den bearbeitbaren Feldern im benutzerdefinierten Formular.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Mehrere Objekte in der Liste auswählen.
 
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) und dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
    ODER
 
-   Klicken Sie oben **der Liste** das Symbol „Bearbeiten“ ![](assets/edit-icon.png).
+   Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) oben in der Liste.
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
 1. Wählen Sie **Dropdown-Menü** Auswahl treffen“ das Formular aus, das Sie mit allen ausgewählten Objekten verknüpfen möchten.
 

@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '3203'
+source-wordcount: '3154'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 <!-- Audited: 4/2025 -->
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. 
 >
 >The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
@@ -45,7 +45,7 @@ ht-degree: 1%
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+>The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. 
 -->
 
 Sie können einem Adobe Workfront-Objekt eine Aktualisierung hinzufügen, indem Sie ihm einen Kommentar hinzufügen, um andere über den Status oder den Fortschritt des Objekts zu informieren oder um weitere Informationen oder zusätzliche Ressourcen anzufordern.
@@ -275,9 +275,9 @@ Dieser Artikel beschreibt, wie Sie Projekte, Aufgaben oder Probleme aktualisiere
 1. Klicken Sie **linken** auf „Updates“.
 Die **Kommentare** ist standardmäßig ausgewählt.
 
-1. <span class="preview">Beginnen Sie mit der Eingabe eines Kommentars in das Feld **Neuer Kommentar**.</span>
+1. Beginnen Sie mit der Eingabe eines Kommentars in das Feld **Neuer Kommentar**.
 
-   <span class="preview">![Neues Kommentarfeld](assets/comment-box-all-tabs.png)</span>
+   ![Neues Kommentarfeld](assets/comment-box-all-tabs.png)
 
    >[!TIP]
    >
@@ -287,7 +287,7 @@ Die **Kommentare** ist standardmäßig ausgewählt.
    * Strg+Z (⌘+Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Y (⌘+Y für Mac), um eine Änderung wiederherzustellen
 
-1. <span class="preview">(Optional) Geben Sie im Bereich **Personen oder Teams taggen** den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams ein, das Sie in diesen Kommentar einbeziehen möchten, oder wählen Sie das Team aus, wenn es in der Liste angezeigt wird. </span>
+1. (Optional) Geben Sie im Bereich **Personen oder Teams** den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams ein, das Sie in diesen Kommentar einbeziehen möchten, oder wählen Sie es aus, wenn es in der Liste angezeigt wird.
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrer Aktualisierung Emojis, Links oder Bilder hinzuzufügen, um Ihren Inhalt zu verbessern. Weitere Informationen finden Sie im Abschnitt [Verwenden von Rich-Text in einer Workfront](#use-rich-text-in-a-workfront-update)Aktualisierung in diesem Artikel.
 
    >[!TIP]
@@ -370,7 +370,7 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
    | Aufzählung | ![Symbol für Aufzählungslisten](assets/mceclip6.png) | ⌘+Umsch+8 | Strg+Umschalt+8 |
    | Nummerierte Liste | ![Symbol für nummerierte Listen](assets/mceclip5.png) | ⌘+Umsch+7 | Strg+Umschalt+7 |
 
-   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
+   <!--| Block Quote | ![Block quote icon](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -386,11 +386,11 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
    >* Wenn Ihr Unternehmen Workfront mit Internet Explorer verwendet, verliert jeder formatierte Text, der in eine Aktualisierung eingefügt wird, seine Rich-Text-Formatierung und wird als reiner Text angezeigt. Sie können den Text mithilfe der Attribute in der Rich-Text-Symbolleiste neu formatieren.
    >* Rich-Text-Formatierung ist nicht für Aktualisierungen verfügbar, die im Arbeitszeittabellenbereich vorgenommen wurden, oder für Notiz- und letzte Bedingungsobjekte, die in einem Bericht angezeigt werden.
 
-   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![Block quote icon](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
    <!--remove this picture below and the bullet above when we remove legacy-->
 
-   <!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![Block quote](assets/block-quote-marked-350x144.png)-->
 
 1. (Optional) Klicken Sie auf das **Emoji**-Symbol ![Emoji-Symbol](assets/emoji-icon.png), um Ihrer Aktualisierung Emojis hinzuzufügen.
 
@@ -434,7 +434,7 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
    >[!IMPORTANT]
    >
    >
-   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
+   >* Bilder können nicht zu Zielen oder Ad-hoc-Karten auf Pinnwänden hinzugefügt werden.
    >
    >* Ihr Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt „Voreinstellungen für Aktualisierungs-Feeds“ der Workfront-Benutzeroberfläche aktivieren, bevor Sie das Bild oder die Symbole zum Hinzufügen von Anhängen sehen können. Weitere Informationen finden Sie [Konfigurieren von Voreinstellungen für Benutzeraktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Die maximale Größe der Bilddatei beträgt 7 MB. Unterstützte Bilddateitypen sind .jpg, .gif und .png.
@@ -560,7 +560,7 @@ This option copies the text from a specific update to the clipboard.
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Update stream comment menu](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### Copy the thread link {#copy-the-thread-link}
 
@@ -570,7 +570,7 @@ This option copies the full thread link to the clipboard so you can share the th
 
 1. Click the **More** menu, then click **Copy thread link**.
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+   ![Stream comment menu marked](assets/update-stream-comment-menu-marked-350x152.png) 
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
@@ -581,7 +581,7 @@ This option copies a specific update link to the clipboard. When you share the u
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
-   ![](assets/copy-update-link-old-ui.png)
+   ![Copy update link](assets/copy-update-link-old-ui.png)
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 

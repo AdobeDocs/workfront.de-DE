@@ -6,10 +6,10 @@ description: Beim Bereitstellen von Aktualisierungskommentaren für ein Adobe Wo
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ Anstatt diese Benutzer in das Objekt aufzunehmen, indem Sie sie ihm zuweisen ode
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
  <col> 
@@ -88,7 +88,7 @@ Anstatt diese Benutzer in das Objekt aufzunehmen, indem Sie sie ihm zuweisen ode
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,7 +134,7 @@ Sie können auch Benutzer entfernen, die versehentlich getaggt wurden, wenn Sie 
 
 1. Beginnen Sie im Feld **Personen oder Teams taggen** mit der Eingabe des Namens des Benutzers oder Teams, den Sie einbeziehen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   Oder
+   ODER
 
    Geben Sie das @-Symbol im Bereich **Kommentar schreiben** ein, beginnen Sie mit der Eingabe des Namens des Benutzers oder Teams, den Sie in die Aktualisierung aufnehmen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
@@ -167,13 +167,13 @@ Sie können auch Benutzer entfernen, die versehentlich getaggt wurden, wenn Sie 
 
    Die Namen der getaggten Entitäten werden neben ihren Avataren angezeigt, bis zu zwei Entitäten. Wenn mehr als zwei Entitäten mit Tags versehen sind, wird der Name des ersten Elements sowie die Anzahl der zusätzlichen mit Tags versehenen Entitäten angezeigt.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Mitglieder-Symbole erweitert](assets/members-icons-expanded-unshimmed.png)
 
    Wenn Sie im Kommentartext getaggt sind, wird Ihr Name in diesen Kommentaren hervorgehoben.
 
    Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Klicken Sie auf das **Mehr**-![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**. Entfernen Sie alle getaggten Benutzer und klicken Sie dann auf **Senden**.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**. Entfernen Sie alle getaggten Benutzer und klicken Sie dann auf **Senden**.
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,7 +225,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
 Informationen zu den zusätzlichen Funktionen, die beim Aktualisieren eines Arbeitselements verfügbar sind, finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

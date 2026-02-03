@@ -6,9 +6,9 @@ description: Sie können einen Ordner und seinen Inhalt über den Bereich Dokume
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ ODER
 
 Klicken Sie bei geöffnetem Workfront **Objekt** linken Bereich auf Dokumente .
 
-1. Wählen Sie den Ordner aus und klicken Sie dann in der Symbolleiste auf das Symbol Freigeben ![](assets/share-icon.png).
+1. Wählen Sie den Ordner aus und klicken Sie dann auf das Symbol Freigeben ![Freigabesymbol](assets/share-icon.png) in der Symbolleiste.
 
    Der Ordner muss sich in den obersten fünf Ebenen einer Ordnerhierarchie für ein Objekt befinden und kann kein intelligenter Ordner sein.
 
@@ -132,7 +132,7 @@ Klicken Sie bei geöffnetem Workfront **Objekt** linken Bereich auf Dokumente .
    </table>
 
 1. (Optional) Wiederholen Sie die Schritte 3 bis 4, um der Liste weitere Namen hinzuzufügen und ihre Optionen zu konfigurieren.
-1. (Optional) Wenn alle Systembenutzenden den Ordner und seinen Inhalt anzeigen können sollen, klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings-with-dn-arrow.jpg) in der oberen rechten Ecke des Freigabefelds und dann auf **Dies systemweit sichtbar machen.**
+1. (Optional) Wenn alle Systembenutzenden den Ordner und seinen Inhalt anzeigen können sollen, klicken Sie auf das Zahnradsymbol ![Zahnradsymbol mit Pfeil nach unten](assets/gear-icon-settings-with-dn-arrow.jpg) in der oberen rechten Ecke des Freigabefelds und dann auf **Dies systemweit sichtbar machen.**
 
    Wenn Sie Ihre Meinung ändern, können Sie auf **Systemweiten Zugriff entfernen** (die Standardoption) klicken.
 
