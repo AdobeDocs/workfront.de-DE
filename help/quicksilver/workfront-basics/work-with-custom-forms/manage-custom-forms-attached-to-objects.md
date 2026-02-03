@@ -158,7 +158,7 @@ So bearbeiten Sie mehrere benutzerdefinierte Formulare, wenn Sie Objekte stapelw
 
 1. (Optional) Wenn Sie allen Objekten benutzerdefinierte Formulare hinzugefügt, die Objekte jedoch noch nicht gespeichert haben, können Sie die Reihenfolge ändern, in der die benutzerdefinierten Formulare auf den Objekten angezeigt werden.
 
-   Weitere Informationen zum Ändern der Reihenfolge der Formulare finden Sie unter [Mehrere benutzerdefinierte Formulare, die an ein Objekt angehängt sind, neu ](#reorder-multiple-custom-forms-attached-to-an-object) diesem Artikel.
+   Weitere Informationen zum Ändern der Reihenfolge der Formulare finden Sie unter [Mehrere benutzerdefinierte Formulare, die an ein Objekt angehängt sind, neu &#x200B;](#reorder-multiple-custom-forms-attached-to-an-object) diesem Artikel.
 
 1. Klicken Sie **Formular entfernen**, um ein benutzerdefiniertes Formular aus den Objekten zu entfernen.
 

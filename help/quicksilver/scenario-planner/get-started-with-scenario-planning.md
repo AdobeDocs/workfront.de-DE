@@ -57,7 +57,7 @@ Die [!DNL Workfront Scenario Planner] wird angezeigt.
 
    Klicken Sie **[!UICONTROL Neuer Plan]**, um einen neuen Plan hinzuzufügen.
 
-   Weitere Informationen zum Erstellen von Plänen finden [ unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
+   Weitere Informationen zum Erstellen von Plänen finden [&#x200B; unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
 
 ## [!DNL Workfront Scenario Planner]-Objekte
 

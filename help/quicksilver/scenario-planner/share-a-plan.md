@@ -237,7 +237,7 @@ Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekt
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Ansicht]</td> 
+      <td role="rowheader">[!UICONTROL -Ansicht]</td> 
       <td>Benutzer, für die Sie den Plan freigeben, sind berechtigt, den Plan anzuzeigen. Sie können keine Informationen zum Plan bearbeiten, keine Initiativen hinzufügen, keine Szenarien erstellen und keine Szenarien veröffentlichen. </td> 
      </tr> 
      <tr> 

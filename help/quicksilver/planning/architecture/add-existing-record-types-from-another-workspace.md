@@ -130,7 +130,7 @@ And
 1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (![ Symbol „Globales Datensatzsymbol“ primärer Arbeitsbereich](assets/global-icon.png) wird auf der Karte des Datensatztyps angezeigt.
+   Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (![&#x200B; Symbol „Globales Datensatzsymbol“ primärer Arbeitsbereich](assets/global-icon.png) wird auf der Karte des Datensatztyps angezeigt.
 
    Folgendes geschieht:
 
