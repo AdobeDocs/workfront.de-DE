@@ -6,16 +6,14 @@ description: Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentli
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
+source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
 
 # Neue Funktionen in der API-Version 21
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 >[!IMPORTANT]
 >
@@ -680,8 +678,6 @@ Ein Tarifobjekt stellt einen Abrechnungssatz in Workfront dar.
 
 Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Qualifikation dar, die ein Benutzer ausfüllen kann, z. B. Designer oder Product Manager.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -709,8 +705,6 @@ Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Q
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### Geplanter Bericht (SCHREP)
 
