@@ -5,9 +5,9 @@ title: Verwenden von Währungsfeldern in Dashboards der Arbeitsfläche
 description: Sie können die Währungsfelder in einem Arbeitsflächen-Dashboard verwenden.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '622'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!IMPORTANT]
    >
-   >Die in diesem Artikel beschriebene Funktion gilt nur für Felder in nativer Währung. Wenn Sie Währungsumrechnungskurse eingerichtet haben, wird die Unterstützung für benutzerdefinierte Währungsfelder bald verfügbar sein.
+   >Die in diesem Artikel beschriebene Funktion gilt nur für Felder in nativer Währung. Die Unterstützung für benutzerdefinierte Währungsfelder wird bald verfügbar sein.
 
 
 ## Festlegen einer Standardwährung für ein Arbeitsflächen-Dashboard
