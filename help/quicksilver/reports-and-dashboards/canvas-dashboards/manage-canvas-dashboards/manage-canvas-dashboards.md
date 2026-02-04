@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
+>Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [&#x200B; finden Sie unter &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
