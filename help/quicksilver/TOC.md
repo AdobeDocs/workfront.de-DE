@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 3074b279d61ed247ad1ec0585d9c04cf3d7e9091
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '13759'
+source-wordcount: '13765'
 ht-degree: 2%
 
 ---
@@ -1555,6 +1555,7 @@ ht-degree: 2%
          * [Arbeitsflächen-Dashboards verwalten: Artikelindex](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Freigeben eines Arbeitsflächen-Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
          * [Anordnen von Berichten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [Verwenden von Währungsfeldern in Dashboards der Arbeitsfläche](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
          * [Filtern eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Löschen eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
@@ -2224,7 +2225,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

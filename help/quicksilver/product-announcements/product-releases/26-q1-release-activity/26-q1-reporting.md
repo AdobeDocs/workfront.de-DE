@@ -4,9 +4,9 @@ description: Berichtsverbesserungen für das erste Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,14 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 >Produktions-Schnellveröffentlichung: 14. Januar 2026
 >Produktion für alle: 15. Januar 2026
 
-Für Währungsfelder haben wir die folgenden Aktualisierungen vorgenommen:
+Für Felder in nativen Währungen wurden folgende Aktualisierungen vorgenommen:
 
 * Wenn mehrere Währungen in Workfront definiert sind, können Sie jetzt während der Erstellung eine Standardwährung für das Dashboard auswählen.
 
 * Beim Erstellen eines Berichts können Sie ein Währungsfeld sperren. Dadurch wird sichergestellt, dass die Währungsvoreinstellung auf Dashboard-Ebene keine Auswirkungen auf die Anzeige dieser Werte hat.
 
 * Beim Anzeigen eines Dashboards können Benutzer in Workfront zwischen beliebigen definierten Währungen wechseln. Diese Änderungen gelten für das gesamte Dashboard mit Ausnahme gesperrter Währungsfelder.
+
 
 
 ## Schnellsuche nach Tabellenergebnissen in Arbeitsflächen-Dashboards

@@ -6,9 +6,9 @@ description: Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -179,17 +179,3 @@ Alle Benutzer mit Zugriff auf ein Dashboard können eine Dashboard-Eingabeauffor
 1. Klicken Sie auf **Schließen**-Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke, um das Bedienfeld auszublenden.
 
 
-## Dashboard nach Währungstyp filtern
-
-Sie können auf Dashboard-Ebene zwischen verschiedenen Währungstypen wechseln. Berichte, die Währungsfelder enthalten, werden entsprechend dem ausgewählten Währungstyp aktualisiert.
-
->[!NOTE]
->
->Währungsfelder können auf Berichtsebene gesperrt werden. Wenn ein Währungsfeld gesperrt ist, ändert sich der Währungstyp für diesen Bericht nicht, wenn Sie den Währungstyp für das Dashboard ändern.
-
-So ändern Sie den Währungstyp für das Dashboard:
-
-1. Klicken Sie auf das Dropdown-Menü Währung in der oberen rechten Ecke der Detailseite des Dashboards.
-1. Wählen Sie den gewünschten Währungstyp aus der Liste aus.
-
-   ![Währungs-Dropdown ändern](assets/filter-by-currency.png)
