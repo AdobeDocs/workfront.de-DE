@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zwei
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Verbesserungen an globalen Datensatztypen in sekundären Arbeitsbereichen
+
+>[!NOTE]
+>
+>Vorschau: 5. Februar 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
+
+Die Sichtbarkeit der globalen Datensatztypen, die von einem primären Arbeitsbereich zu einem sekundären Arbeitsbereich hinzugefügt wurden, wurde verbessert. Zu den Verbesserungen zählen:
+
+* Ein leicht geändertes globales Symbol, das anzeigt, dass der Datensatztyp aus einem anderen Arbeitsbereich hinzugefügt wurde.
+
+* Ein verbesserter Tooltip für das neue Symbol, der den Arbeitsbereich, in dem der Datensatztyp erstellt wurde, klar identifiziert.
+
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Konfigurieren der im Vorschaufeld Details eines Datensatzes angezeigten Felder
 
