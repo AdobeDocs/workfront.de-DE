@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5475'
 ht-degree: 4%
 
 ---
@@ -185,7 +185,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
    1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-all-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![&#x200B; rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![ rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte „Aufgabendetails“ finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Aufgabeninformationen im Bereich Aufgabendetails - Übersicht](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
@@ -377,6 +377,12 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 Die Bearbeitung von Zuweisungen im Feld Aufgabe bearbeiten unterscheidet sich je nach ausgewählter Umgebung.
 
 #### Bearbeiten des Bereichs „Zuweisungen“ in der Produktionsumgebung
+
+>[!NOTE]
+>
+><span class="preview">Einige Kunden können Zuweisungen im Feld Aufgabe bearbeiten in ihrer Produktionsumgebung auf die gleiche Weise bearbeiten, wie sie sie in ihrer Vorschau-Umgebung bearbeiten.</span>
+>
+><span class="preview">Informationen zum Bearbeiten von Aufgaben in der Vorschau-Umgebung finden Sie im Abschnitt [Bearbeiten des Bereichs „Zuweisungen“ in der Vorschau-](#edit-the-assignments-area-in-the-preview-environment) in diesem Artikel. </span>
 
 1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
 1. Klicken Sie **linken** auf „Arbeitsaufträge“.
@@ -859,7 +865,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![Feld für die Aufgabenbearbeitung im Finanzbereich](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -902,7 +908,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![Einstellungen im Feld Aufgabe bearbeiten](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -968,7 +974,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)
