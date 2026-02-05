@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '854'
 ht-degree: 4%
 
 ---
@@ -102,6 +102,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vorschau</strong></td>
         <td><strong>Schnelle Veröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Aktualisiertes Erlebnis bei der </a> und der Einzel- oder Massenzuweisung von Vorlagenaufgaben<p>[!BADGE OFF SCHEDULE]{type=neutral}</p><p> Der Abschnitt „Zuweisungen“ im Feld „Vorlagenaufgaben bearbeiten“ wurde aktualisiert, wenn einzelne Vorlagenaufgaben bearbeitet oder stapelweise bearbeitet wurden.  </p>
+        </td>
+        <td><p>Freitag, 5. Februar 2026</p></td>
+        <td><p>Ab dem 5. Februar 2026</p></td>
+        <td><p>Ab dem 5. Februar 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Aktualisiertes Erlebnis bei der </a> von einzelnen oder Massenzuweisungen von Aufgaben<p>[!BADGE OFF SCHEDULE]{type=neutral}</p><p> Der Abschnitt „Zuweisungen“ im Feld „Aufgaben bearbeiten“ wurde aktualisiert, wenn einzelne Aufgaben bearbeitet oder stapelweise bearbeitet wurden. </p>
@@ -206,7 +214,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront
 
-Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
