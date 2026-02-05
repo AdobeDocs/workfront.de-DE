@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '784'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Als Workspace-Manager können Sie einen Datensatztyp, der in einem anderen Workspace vorhanden ist, zu einem Workspace hinzufügen, den Sie in Adobe Workfront Planning verwalten.
 
@@ -130,7 +130,8 @@ And
 1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (![&#x200B; Symbol „Globales Datensatzsymbol“ primärer Arbeitsbereich](assets/global-icon.png) wird auf der Karte des Datensatztyps angezeigt.
+   <span class="preview">Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (Symbol ![ globalen Eintrag im sekundären Arbeitsbereich](assets/global-icon-secondary-workspace.png) wird auf der Karte des Datensatztyps angezeigt. </span>
+   <span class="preview">Das Symbol für den globalen Datensatztyp enthält einen Pfeil, wenn er auf einem Datensatztyp im sekundären Arbeitsbereich angezeigt wird, um anzugeben, dass der Datensatztyp aus einem vorhandenen Datensatztyp hinzugefügt wurde.</span>
 
    Folgendes geschieht:
 
@@ -146,7 +147,7 @@ And
      >
      >Das Erscheinungsbild, zusätzliche Einstellungen oder ursprüngliche Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
      >
-
+1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen Datensatztyp ![Symbol für den globalen Datensatz im sekundären ](assets/global-icon-secondary-workspace.png), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde. </span>
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
 1. (Optional) Klicken Sie auf **Karte des neuen Datensatztyps oder** rechts neben dem Namen des Datensatztyps auf der Seite auf das Menü „Mehr“ und dann auf eine der folgenden Aktionen:
 

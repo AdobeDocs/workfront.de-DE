@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '7642'
+source-wordcount: '7726'
 ht-degree: 1%
 
 ---
@@ -605,7 +605,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 
    | Größe | Prozentsatz |
    |---|---|
-   | Klein | 25 % |
+   | Klein | 25 % |
    | Mittel | 50 % |
    | Groß | 75 % |
 
@@ -652,6 +652,15 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
    Klicken Sie auf **Speichern**.
 
 ### Zugriff {#access}
+
+Sie können festlegen, welche Berechtigungen Benutzerinnen und Benutzer für das Projekt erhalten, sowie die Aufgaben und Probleme im Projekt, wenn sie mit einem dieser Objekttypen interagieren.
+
+>[!IMPORTANT]
+>
+>Wenn Sie die Berechtigungen für das Projekt, die Aufgaben und die Probleme beim Bearbeiten des Projekts ändern, wird festgelegt, wie die Berechtigungen gewährt werden, wenn Benutzende mit diesen Objekttypen interagieren, nachdem der Zugriff geändert wurde.
+>
+>Wenn Sie diese Konfiguration ändern, werden die Benutzerberechtigungen für diese Objekttypen nicht rückwirkend auf Elemente geändert, denen die Benutzer bereits zugewiesen oder darin enthalten waren.
+
 
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Zugriff“.

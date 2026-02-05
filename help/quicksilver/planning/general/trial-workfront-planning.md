@@ -3,9 +3,9 @@ title: Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planni
 description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. Mit dieser Testversion können Sie aus erster Hand erfahren, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,29 @@ Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testa
    * Das Fenster für die Testvereinbarung. Nur ein Workfront-Administrator kann die Vereinbarung akzeptieren. Sie können die Testvereinbarung jederzeit ab diesem Datum akzeptieren.
 * **2. März 2026**: Die Workfront Planning-Testversion wird gestartet.
 
+  Die folgenden Elemente werden Ihrer Workfront-Instanz hinzugefügt:
+
+   * Die Workfront Planning-Banner werden weiterhin für alle Benutzenden angezeigt.
+   * Die **Testvereinbarung überprüfen**-Einstellung wird zum Bereich **Setup** hinzugefügt.
+
   Die folgenden Szenarien sind vorhanden:
 
    * Wenn der Workfront-Administrator dem Vertrag vor diesem Datum zugestimmt hat, finden Sie im Hauptmenü den Bereich Planung und verwenden Sie Workfront Planning.
    * Wenn Ihr Workfront-Administrator die Vereinbarung vor diesem Datum nicht akzeptiert hat, muss er sie zunächst akzeptieren, bevor Sie Zugriff auf Workfront Planning erhalten.
+* **1. April 2026**: Sie können sich nicht mehr für die Studie registrieren.
+
+  Die folgenden Elemente werden aus Ihrer Workfront-Instanz entfernt:
+
+   * In: The Workfront Planning Trial Banner.
+   * Die **Testvereinbarung überprüfen**-Einstellung wird aus dem Bereich **Setup** entfernt.
+
 * **1. Mai 2026**: Die Workfront Planning-Testversion wird geschlossen und Ihr Zugriff auf Planning wird entfernt.
 
-  Workfront sichert Ihre Daten nach Ablauf der Testversion, hat jedoch keinen Zugriff mehr darauf.
+  Wenn Sie an der Studie teilgenommen haben, sichert Workfront Ihre Daten nach Abschluss der Studie. Sie haben jedoch nach diesem Datum keinen Zugriff mehr darauf.
 
   Unabhängig davon, wann Sie die Vereinbarung akzeptieren, endet Ihr Zugriff auf Planning an diesem Datum.
+
+  Alle Workfront Planning-Testversion
 * **30. November 2026**: Workfront sichert Ihre Daten nach diesem Datum nicht mehr. Wenn Sie Workfront Planning vor diesem Datum erwerben, erhalten Sie wieder Zugriff auf Planning und Ihre Daten.
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu 
 
 * **Zwischen 2. März und 1. Mai 2026**:
 
-  Für die Arbeitsbereiche im Bereich Planung erhalten Sie während der kostenlosen Testversion die folgenden Berechtigungen:
+  Unabhängig von Ihrer Workfront- oder Workflow-Lizenzzugriffsebene erhalten Sie eine Workfront Planning Prime-Lizenz, wenn Sie die Teilnahme am Testprogramm für Workfront Planning akzeptieren.
+
+  Die Anwender in Ihrem System erhalten während der kostenlosen Testversion die folgenden Berechtigungen für die Arbeitsbereiche im Bereich Planung :
 
    * Alle Systemadministratoren haben Verwaltungsberechtigungen für die Registerkarte Arbeitsbereiche .
    * Alle anderen Benutzer haben Anzeigeberechtigungen für die Registerkarte Arbeitsbereiche , der Systemadministrator kann ihnen jedoch Verwaltungsberechtigungen für Arbeitsbereiche erteilen.
