@@ -1,18 +1,18 @@
 ---
-title: KI-Assistent meldet Best Practices
+title: Eingabeaufforderungen und Best Practices des KI-Assistenten
 content-type: reference
 description: Erfahren Sie mehr über die Best Practices für die Verwendung des KI-Assistenten und sehen Sie sich eine Liste von Beispielen für Eingabeaufforderungen an.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# KI-Assistent meldet Best Practices
+# Eingabeaufforderungen und Best Practices des KI-Assistenten
 
 Der KI-Assistent von Workfront ist ein leistungsstarkes Tool, mit dem Sie Ihre Arbeit effektiver erledigen können, indem Sie nützliche Informationen zu Ihren Kontodaten und bestimmten Objekttypen bereitstellen.
 
@@ -64,7 +64,7 @@ In dieser Phase der Entwicklung des KI-Assistenten wird empfohlen, die bereitges
 Weitere Informationen zu Eingabeaufforderungen für Workfront-Prozesse finden Sie unter [Eingabeaufforderungen zu Workfront-Aktionen](#prompts-to-learn-about-workfront-actions) in diesem Artikel.
 
 
-## Beispiele für Eingabeaufforderungen
+## Beispiele für Prompts
 
 Die folgenden Tabellen enthalten Beispiele für Eingabeaufforderungen, mit denen Sie Informationen über Ihre Arbeit generieren und mehr über bestimmte Workfront-Prozesse oder -Aktionen erfahren können, die Sie ausführen möchten.
 
