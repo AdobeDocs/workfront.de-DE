@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1343'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Nachdem Sie im Bereich Adobe Workfront-Planung einen Datensatztyp ausgewählt haben, können Sie alle Datensätze dieses Typs in den folgenden Ansichten anzeigen:
+Nachdem Sie im Adobe Workfront-Planungsbereich einen Datensatztyp ausgewählt haben, können Sie alle Datensätze dieses Typs auf verschiedene Arten anzeigen.
+
+Sie können Datensätze in Ansichten verschiedener Formate anzeigen, sodass Sie Informationen so untersuchen und verstehen können, wie es für Sie am besten geeignet ist. Egal, ob Sie einen strukturierten Überblick, eine chronologische Geschichte, ein datumsbasiertes Layout oder eine einfache scrollbare Liste wünschen, jede Ansicht bietet eine einzigartige Perspektive.
+
+Datensätze können in den folgenden Ansichten angezeigt werden:
 
 * Tabelle
 
@@ -39,6 +43,19 @@ Nachdem Sie im Bereich Adobe Workfront-Planung einen Datensatztyp ausgewählt ha
 * Kalender
 
   Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* Liste
+
+  Sie können Datensätze auf einer verbundenen Datensatzseite in einer Listenansicht anzeigen.
+
+  >[!IMPORTANT]
+  >
+  >Sie können keine Listenansicht auf eine Liste von Datensätzen auf einer Datensatztypseite anwenden. Sie können eine Listenansicht nur auf einer Seite „Verbundener Datensatz“ eines Datensatzes auf eine Liste verbundener Projekte anwenden. <!--this will change-->
+
+  Weitere Informationen finden Sie in den folgenden Artikeln:
+
+   * [Hinzufügen einer Seite „Verbundene Datensätze“ zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
 
@@ -192,34 +209,42 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funktion | Tabellenansicht | Timeline-Ansicht | Kalenderansicht |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Anzeigen von Datensätzen in einer Liste oder Tabelle | ✓ |              | |
-| Standardmäßig werden alle Felder als Spalten in der Tabelle angezeigt | ✓ |              |    |
-| Felder (oder Spalten) ein- oder ausblenden | ✓ |               |    |
-| Feldwerte für jeden Datensatz bearbeiten | ✓ |               |             |
-| Datensätze als neue Zeilen in der Ansicht hinzufügen | ✓ |               |        |
-| Felder als neue Spalten in der Ansicht hinzufügen | ✓ |               |         |
-| Zeilen aus einer externen Liste kopieren und in eine Tabelle einfügen | ✓ |               |          |
-| Anzeigen von Datensätzen in einer Zeitleiste |            | ✓ |             |
-| Datensätze filtern | ✓ | ✓ | ✓ |
-| Anzeigen von Datensätzen in einem Kalender |           |              | ✓ |
-| Datensätze gruppieren | ✓ | ✓ |  |
-| Datensätze sortieren | ✓ |              |  |
-| Farbcode-Datensätze | ✓ | ✓ | ✓ |
-| Farbgruppierungen |           | ✓ |  |
-| Nach bestimmten Datensätzen suchen | ✓ | ✓ |  |
-| Ansicht für andere freigeben | ✓ | ✓ | ✓ |
-| Öffnet die Datensatzseite aus der Ansicht | ✓ | ✓ |    |
-| Anzeigen von Datensätzen nach Jahr und Quartal |           | ✓ |    |
-| Datensätze nach Monat anzeigen |           | ✓ | ✓ |
-| Datensätze nach Woche anzeigen |           |               | ✓ |
-| Exportieren von Informationen aus einer Ansicht | ✓ |               |    |
-| Im Vollbildmodus anzeigen | ✓ | ✓ | ✓ |
-| Erstellen von Datensätzen in der Ansicht | ✓ | ✓ | ✓ |
-| Datensätze nach ihren Verbindungen aufschlüsseln |          | ✓ |    |
+| Funktion | Tabellenansicht | Timeline-Ansicht | Kalenderansicht | Listenansicht |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Anzeigen von Datensätzen in einem Tabellenformat | ✓ |              | | ✓ |
+| Alle Felder als Spalten in einer Tabelle oder Liste anzeigen | ✓ |              |    | ✓ |
+| Felder (oder Spalten) ein- oder ausblenden | ✓ |               |    | ✓ |
+| Feldwerte für jeden Datensatz bearbeiten | ✓ |               |             | ✓ |
+| Datensätze als neue Zeilen in der Ansicht hinzufügen | ✓ |               |        | ✓ |
+| Felder als neue Spalten in der Ansicht hinzufügen | ✓ |               |         | ✓ |
+| Zeilen aus einer externen Liste kopieren und in eine Tabelle einfügen | ✓ |               |          | ✓ |
+| Anzeigen von Datensätzen in einer Zeitleiste |            | ✓ |             |  |
+| Datensätze filtern | ✓ | ✓ | ✓ | ✓ |
+| Anzeigen von Datensätzen in einem Kalender |           |              | ✓ |  |
+| Datensätze gruppieren | ✓ | ✓ |  |  |
+| Datensätze sortieren | ✓ |              |  | ✓ |
+| Farbcode-Datensätze | ✓ | ✓ | ✓ |  |
+| Farbgruppierungen |           | ✓ |  |  |
+| Nach bestimmten Datensätzen suchen | ✓ | ✓ |  | ✓ |
+| Ansicht für andere freigeben | ✓ | ✓ | ✓ | ✓ |
+| Öffnet die Datensatzseite aus der Ansicht | ✓ | ✓ |    | ✓ |
+| Anzeigen von Datensätzen nach Jahr und Quartal |           | ✓ |    |  |
+| Datensätze nach Monat anzeigen |           | ✓ | ✓ |  |
+| Datensätze nach Woche anzeigen |           |               | ✓ |  |
+| Exportieren von Informationen aus einer Ansicht | ✓ |               |    |  |
+| Im Vollbildmodus anzeigen | ✓ | ✓ | ✓ |  |
+| Erstellen von Datensätzen in der Ansicht | ✓ | ✓ | ✓ | ✓ |
+| Datensätze nach ihren Verbindungen aufschlüsseln |          | ✓ |    |  |
 
 ## Ansichten erstellen oder bearbeiten {#create-or-edit-views}
+
+Die Informationen in diesem Abschnitt gelten für die folgenden Ansichtstypen:
+
+* Tabelle
+* Timeline
+* Kalender
+
+Weitere Informationen zu Listenansichten finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 {{step1-to-planning}}
 
@@ -283,7 +308,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in der chronologischen Reihenfolge ab dem Zeitpunkt angezeigt, zu dem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol &#x200B;](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol ](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
    Zusätzliche Ansichten werden unter dem Menü **Mehr** nach der letzten Registerkarte Ansicht angezeigt. Die Zahl neben dem Menü **Mehr** zeigt die Anzahl der zusätzlichen Ansichten an.
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Umbenennen**, um den Ansichtsnamen zu aktualisieren
@@ -303,6 +328,10 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 ## Aktivieren der Echtzeit-Anwesenheitsindikator in einer Ansicht
 
 Sie können sehen, ob andere Benutzer gleichzeitig Datensätze bearbeiten, indem Sie den Echtzeit-Präsenzindikatoren in der Ansicht folgen.
+
+>[!NOTE]
+>
+>Sie können keine Echtzeit-Präsenzindikatoren in einer Listenansicht anzeigen.
 
 Die Avatare anderer Benutzer, die Datensatzinformationen gleichzeitig bearbeiten, wie Sie standardmäßig in der oberen rechten Ecke aller Datensatzansichten anzeigen.
 

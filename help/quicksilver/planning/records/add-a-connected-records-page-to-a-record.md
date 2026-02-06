@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
-
 
 # Hinzufügen einer Seite „Verbundene Datensätze“ zu einem Datensatz
 
@@ -76,7 +76,7 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -151,7 +151,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensatzerseite“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
@@ -295,76 +295,42 @@ Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksi
 
 ### Verwalten der verbundenen Datensatzseite für Workfront-Projekte
 
-Gehen Sie wie folgt vor, wenn Sie eine Seite „Verbundene Datensätze“ für verbundene Workfront-Projekte erstellen:
+Wenn Sie eine Seite mit verbundenen Datensätzen für verbundene Workfront-Projekte erstellen, gehen Sie folgendermaßen vor, um die Seite zu verwalten:
 
 1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf den Namen eines Datensatzes. Dadurch wird die Vorschauseite des Datensatzes geöffnet.
-1. Klicken Sie auf die Registerkarte für eine Seite mit verbundenen Datensätzen, die Workfront-Projekte anzeigt.
+1. Klicken Sie auf die Registerkarte für eine Seite mit verbundenen Datensätzen, auf der Workfront-Projekte angezeigt werden.
 Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenansicht angezeigt.
 1. Klicken Sie **Datensätze verbinden** in der oberen rechten Ecke der Seite „Verbundene Datensätze“, um vorhandene Projekte zu verbinden.
 
    Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
-1. Inline-Bearbeitung der Projektinformationen in der Tabelle.
-1. Klicken Sie auf **Neue Zeile**, um ein Projekt ohne Vorlage zu erstellen. Das neue Projekt wird automatisch mit dem aktuellen Datensatz verbunden.
+1. Doppelklicken Sie in der Listenansicht in eine Zelle, um die Felder eines Projekts zu bearbeiten. Einige Felder sind schreibgeschützt.
+1. Führen Sie einen der folgenden Schritte aus, um die Listenansicht zu bearbeiten:
 
-   Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Klicken Sie auf **Neue Zeile**, um ein Projekt ohne Vorlage zu erstellen. Das neue Projekt wird automatisch mit dem aktuellen Datensatz verbunden.
 
-1. Bewegen Sie den Mauszeiger über einen Projektnamen in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png)
+     Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Klicken Sie ** oben rechts in ** Ansicht auf Datensätze erstellen , um vorhandene Projekte hinzuzufügen. Projekte werden sofort mit dem ausgewählten Datensatz verbunden.
 
-   ODER
+   * Bewegen Sie den Mauszeiger über einen Projektnamen in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Projekt in einer anderen Registerkarte zu öffnen
 
-   Wählen Sie ein oder mehrere Projekte aus, beachten Sie den blauen Balken unten in der Liste und klicken Sie dann auf eines der folgenden Elemente:
+     ODER
 
-   * **Löschen**, um das Projekt zu löschen. Durch das Löschen eines Projekts wird es vom Datensatz getrennt und in den Papierkorb von Workfront verschoben. Workfront-Administratoren können gelöschte Projekte bis zu 30 Tage nach dem Löschen wiederherstellen.
-   * **Trennen**, um das Projekt vom Datensatz zu trennen. Wenn Sie ein Projekt trennen, werden es und alle Werte seiner Suchfelder aus dem aktuellen Datensatz entfernt.
+     Wählen Sie ein oder mehrere Projekte aus, und klicken Sie in der Aktionsleiste unten in der Liste auf **Löschen** oder **Trennen**, um das Element aus der Liste zu entfernen.
 
-     >[!TIP]
-     >
-     >Sie können mehrere Projekte auswählen, um sie zu trennen oder zu löschen.
-     >
 
-1. Klicken Sie auf das Dropdown-Menü „Ansichten **und klicken Sie auf &quot;** Ansicht“, um eine neue Ansicht für die Seite hinzuzufügen. Gehen Sie dann wie folgt vor:
+   * Klicken Sie auf das Dropdown-Menü „Ansichten“ und dann auf **Neue Ansicht**, um eine neue Ansicht für die Seite hinzuzufügen. Gehen Sie dann wie folgt vor oder klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-menu.png) rechts neben einem neuen Namen und dann **Umbenennen**, **Freigeben** oder **Löschen** Ansicht.
 
-   1. Fügen Sie einen **Ansichtsnamen“**.
-   1. Wählen Sie **Liste** im Bereich **Ansichtstyp** aus.
-   1. Klicken Sie **Erstellen**.
-Eine neue Listenansicht wird dem Dropdown-Menü „Ansichten“ im Bereich &quot;**Ansichten“**.
+     Sie können Systemansichten oder Ansichten, für die Sie keine Verwaltungsberechtigungen haben, nicht umbenennen, freigeben oder löschen.
 
-      Weitere Informationen finden Sie im Abschnitt [Verwalten mehrerer Ansichten auf der Seite „Verbundene Datensätze](#manage-multiple-views-from-the-connected-records-page) in diesem Artikel.
+     ![Menü „Mehr anzeigen“ auf der Seite „Projekte mit verbundenen Datensätzen“](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer von Ihnen erstellten Ansicht und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
-      * **Umbenennen**, um einen neuen Namen für die Ansicht hinzuzufügen.
-      * **Freigeben**
+   * Klicken Sie auf eine der folgenden Optionen, um die Elemente der Ansicht zu aktualisieren:
 
-        Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
+      * **Filter**, um die Informationsmenge in der Liste zu begrenzen
+      * **Spalten**, um Spalten auszublenden oder ihre Reihenfolge zu ändern
+      * Klicken Sie auf das Symbol **+** in der rechten oberen Ecke der Tabellenansicht, um der Liste vorhandene Felder hinzuzufügen. Felder müssen vorhanden sein, bevor Sie sie hinzufügen können.
 
-      * **Löschen**
-Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksilver/planning/views/delete-record-views.md).
-
-        ![Menü „Mehr anzeigen“ auf der Seite „Projekte mit verbundenen Datensätzen“](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >Sie können eine von Workfront erstellte Systemansicht nicht umbenennen, freigeben oder löschen.
-
-   1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png) und verwenden Sie den Filter, um bestimmte Projekte anzuzeigen.
-
-      >[!TIP]
-      >
-      >Bei Feldern vom Typ „Personen“, z **B. „Inhaber** oder **Sponsor**, können Sie einen Platzhalter verwenden, um Projekte anzuzeigen, bei denen der angemeldete Benutzer diesen Rollen zugewiesen ist.
-      >
-      >![Mit Benutzer-Platzhalter nach der Seite mit projektbezogenen Datensätzen filtern](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. Klicken Sie auf das **Spalten**-Symbol ![Spalten-Symbol](assets/columns-icon.png), um Spalten in der Liste auszublenden oder anzuzeigen.
-   1. Klicken Sie auf das Symbol **+** in der oberen rechten Ecke der Tabellenansicht, um der Tabelle vorhandene Felder hinzuzufügen. Felder müssen vorhanden sein, bevor Sie sie hinzufügen können.
-
-      Das Feld **Spalten-Manager** wird geöffnet. Gehen Sie folgendermaßen vor:
-
-      1. Suchen Sie in der Spalte **Verfügbar** nach einem vorhandenen Objektfeld und klicken Sie dann auf **+** rechts neben dem Feldnamen, um es der Spalte **Ausgewählt** hinzuzufügen.
-
-         Die ausgewählten Felder werden der Tabellenansicht auf der Seite Verbundene Datensätze hinzugefügt.
-      1. Klicken Sie auf **-** rechts neben einem Feld in der Spalte **Ausgewählt**, um es aus der Tabellenansicht zu entfernen.
-      1. Klicken Sie **Speichern**, um die verbundene Datensatz-Seitentabellenansicht zu speichern.
+   Weitere Informationen zum Verwalten von Objekten in einer Listenansicht finden Sie unter [Verwalten der ](/help/quicksilver/planning/views/manage-the-list-view.md)&quot;.
 
 <!-- this is repetitive from an earlier section above: 
 
