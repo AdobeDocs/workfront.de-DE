@@ -151,7 +151,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensatzerseite“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
@@ -309,7 +309,7 @@ Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenans
    * Klicken Sie auf **Neue Zeile**, um ein Projekt ohne Vorlage zu erstellen. Das neue Projekt wird automatisch mit dem aktuellen Datensatz verbunden.
 
      Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Klicken Sie ** oben rechts in ** Ansicht auf Datensätze erstellen , um vorhandene Projekte hinzuzufügen. Projekte werden sofort mit dem ausgewählten Datensatz verbunden.
+   * Klicken Sie **&#x200B; oben rechts in &#x200B;** Ansicht auf Datensätze erstellen , um vorhandene Projekte hinzuzufügen. Projekte werden sofort mit dem ausgewählten Datensatz verbunden.
 
    * Bewegen Sie den Mauszeiger über einen Projektnamen in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Projekt in einer anderen Registerkarte zu öffnen
 
@@ -330,7 +330,7 @@ Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenans
       * **Spalten**, um Spalten auszublenden oder ihre Reihenfolge zu ändern
       * Klicken Sie auf das Symbol **+** in der rechten oberen Ecke der Tabellenansicht, um der Liste vorhandene Felder hinzuzufügen. Felder müssen vorhanden sein, bevor Sie sie hinzufügen können.
 
-   Weitere Informationen zum Verwalten von Objekten in einer Listenansicht finden Sie unter [Verwalten der ](/help/quicksilver/planning/views/manage-the-list-view.md)&quot;.
+   Weitere Informationen zum Verwalten von Objekten in einer Listenansicht finden Sie unter [Verwalten der &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md)&quot;.
 
 <!-- this is repetitive from an earlier section above: 
 
