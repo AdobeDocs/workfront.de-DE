@@ -5,9 +5,9 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -19,10 +19,6 @@ ht-degree: 3%
 >Um diese Funktion nutzen zu können, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
-
-KI-Formularausfüllung überschreibt keine Felder, die Sie bereits ausgefüllt haben.
-
-Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff hätten.
 
 ## Zugriffsanforderungen
 
@@ -59,7 +55,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-Um das Ausfüllen von KI-Formularen für Anfragen mithilfe einer Eingabeaufforderung oder eines Dokuments zu verwenden **müssen** alle) der folgenden Bedingungen zutreffen:
+Um das Ausfüllen eines Formulars mit KI mithilfe einer Eingabeaufforderung oder eines Dokuments zu ermöglichen, müssen **alle** der folgenden Bedingungen erfüllt sein:
 
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
 * Adobe Unified Experience muss aktiviert sein
@@ -70,6 +66,15 @@ Um das Ausfüllen von KI-Formularen für Anfragen mithilfe einer Eingabeaufforde
 * Der KI-Assistent muss in den Systemeinstellungen Ihrer Organisation aktiviert sein. Dieser wird von Ihrem Workfront-Administrator verwaltet.
 
   Weitere Informationen zum Aktivieren des KI-Assistenten in den Systemeinstellungen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Überlegungen zur Verwendung von Formularausfüllen mit KI
+
+Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgendes
+
+* KI-Formularausfüllung überschreibt keine Felder, die Sie bereits ausgefüllt haben.
+* Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff hätten.
+* Dateien, die Sie in Form Fill powered by AI verwenden, werden 24 Stunden lang in den Azure-Speicher hochgeladen. Dies ist für die Dokumentverarbeitung erforderlich.
+* Alle in Azure hochgeladenen Dateien werden derzeit in US Azure-Clustern für das 24-Stunden-Speicherfenster gespeichert.
 
 ## Abrufen von Vorschlägen aus einer Textaufforderung
 
