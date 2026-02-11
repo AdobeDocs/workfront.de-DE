@@ -6,10 +6,10 @@ description: Sie können Benachrichtigungen von  [!DNL Adobe Workfront]  erhalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 4%
+source-wordcount: '1466'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Diese Benachrichtigungen enthalten [!DNL Workfront] Aktionen, die Sie in [!DNL M
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Diese Benachrichtigungen enthalten [!DNL Workfront] Aktionen, die Sie in [!DNL M
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,7 +144,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL ändern]</p> </th> 
    <th> <p>[!UICONTROL Zum Korrekturabzug wechseln] </p> </th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -221,7 +221,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Eine von Ihnen angeforderte Dokumentgenehmigungsanfrage wird genehmigt</td> 
+   <td role="rowheader">Eine von Ihnen angeforderte Dokumentgenehmigungsanfrage wird genehmigt*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Eine von Ihnen angeforderte Dokumentgenehmigungsanfrage wird mit Änderungen genehmigt</td> 
+   <td role="rowheader">Eine von Ihnen angeforderte Dokumentgenehmigungsanfrage wird mit Änderungen genehmigt*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Eine von Ihnen angeforderte Dokumentgenehmigungsanfrage wird abgelehnt</td> 
+   <td role="rowheader">Eine von Ihnen angeforderte Dokumentgenehmigungsanfrage wird abgelehnt*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
   </tr> 
  </tbody> 
 </table>
+
+*Diese Benachrichtigungen beziehen sich auf Genehmigungen älterer Dokumente. Einheitliche Dokumentengenehmigungsbenachrichtigungen werden derzeit in [!DNL Microsoft Teams] nicht unterstützt. Weitere Informationen zu den verschiedenen Genehmigungssystemen in Workfront finden Sie unter [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Zuweisungsbenachrichtigungen {#assignment-notifications}
 
@@ -276,7 +278,7 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, dem Sie angeh
   <tr> 
    <th>Benachrichtigung</th> 
    <th>[!UICONTROL Start]</th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -427,7 +429,7 @@ Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Dat
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>[!UICONTROL -Kommentar]</p> </th> 
+   <th> <p>[!UICONTROL-Kommentar]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 

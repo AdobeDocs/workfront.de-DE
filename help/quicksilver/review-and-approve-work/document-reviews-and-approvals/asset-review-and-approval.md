@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Verfügbare Funktionen für einheitliche Dokumentgenehmigungen
+title: Verfügbare Funktionen für Dokumentgenehmigungen
 description: Übersicht über die in Workfront zur Überprüfung und Genehmigung verfügbaren Systeme.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# Verfügbare Funktionen für einheitliche Dokumentgenehmigungen
+# Verfügbare Funktionen für Dokumentgenehmigungen
 
-Derzeit stehen in Workfront drei verschiedene Systeme für einheitliche Dokumentgenehmigungen zur Verfügung:
+Derzeit stehen in Workfront drei verschiedene Systeme für Dokumentgenehmigungen zur Verfügung:
 
 * [Legacy-Dokumentgenehmigungen](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Derzeit stehen in Workfront drei verschiedene Systeme für einheitliche Dokument
 
 ## Legacy-Dokumentgenehmigungen
 
-Ältere Dokumentgenehmigungen werden 2025 aus Workfront entfernt. Das einheitliche Genehmigungssystem wurde entwickelt, um ältere Dokumentgenehmigungen zu ersetzen.
+Ältere Dokumentgenehmigungen werden zu einem späteren Zeitpunkt aus Workfront entfernt. Das einheitliche Genehmigungssystem wurde entwickelt, um ältere Dokumentgenehmigungen zu ersetzen.
 
 Wichtige Funktionen für Genehmigungen veralteter Dokumente:
 
