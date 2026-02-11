@@ -1,25 +1,27 @@
 ---
-title: 'Das 30-tägige LaunchPad: Rollout Ihrer strategischen Startseite'
+title: 'Rollout zur strategischen Startseite: ein 30-tägiges Launchpad'
 description: Erfahren Sie, wie Sie Workfront Planning mithilfe einer Strategie einführen, die psychologischer Sicherheit Priorität einräumt, Störungen minimiert und schnelle Erfolge liefert.
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
 
-# Das 30-tägige Launchpad: Führen Sie Ihr strategisches Zuhause ein
+# Stellen Sie Ihr strategisches Zuhause bereit: ein 30-tägiges Launchpad
 
 {{planning-important-intro}}
 
 Verwenden Sie diese Anleitung, um zu erfahren, wie Sie Adobe Workfront Planning bei der Entwicklung einer Strategie einführen, die psychologische Sicherheit priorisiert, Störungen minimiert und schnelle Erfolge liefert.
+
+Dieses Handbuch richtet sich an Workfront-Administratoren, die Workfront Planning implementieren.
 
 ## Überblick über den schnellen Start und die intelligente Skalierung
 
@@ -27,13 +29,15 @@ Das häufigste Hindernis für einen erfolgreichen Rollout ist nicht die Technolo
 
 Das 30-tägige Launchpad basiert auf dem Adoptionsmodell „Team-First“. Anstatt einen unternehmensweiten Rollout durchzuführen, für den normalerweise eine monatelange Koordinierung erforderlich ist, konzentrieren wir uns auf einen dezentralisierten, teamgeführten Ansatz, der innerhalb einer bestimmten funktionalen Einheit einen sofortigen ROI liefert.
 
-## Der stufenweise Übergang der gelenkten Autonomie
+## Geführte Autonomie für einen stufenweisen Übergang verwenden
 
-Der erfolgreiche Rollout eines Produkts nutzt geführte Autonomie. Dies bedeutet, dass der Administrator definiert, wie Teams in einem strukturierten System mit geregelten Standardwerten und Vorlagen arbeiten sollten. Sie definieren die „Fahrspuren auf der Straße“ (geregelte Standardeinstellungen und Vorlagen), während Teams die Flexibilität haben, ihr eigenes Abenteuer in ihnen selbst zu wählen.
+Um ein Produkt erfolgreich einzuführen, ist es intelligent, geführte Autonomie zu verwenden. Das bedeutet, dass Sie als Administrator festlegen, wie Teams in einem strukturierten System mit regulierten Standardwerten und Vorlagen arbeiten sollen.
 
-Am wichtigsten ist, dass gelenkte Autonomie evolutionär ist. Anstatt am ersten Tag eine vollständige Unternehmenstaxonomie durchzusetzen, beginnt der Administrator mit minimalen globalen Definitionen, die auf den Anforderungen des ersten Pilotteams basieren.
+Sie definieren die Fahrspuren auf der Straße (oder die geregelten Standardeinstellungen und Vorlagen), während Sie Teams die Flexibilität geben, ihren eigenen Arbeitspfad innerhalb dieser Spuren auszuwählen.
 
-Beim Onboarding von mehr Teams beobachtet der Administrator gemeinsame Muster und iteriert bei den globalen Standards.
+Vor allem sollte gelenkte Autonomie evolutionär sein. Anstatt am ersten Tag eine vollständige Unternehmenstaxonomie durchzusetzen, können Sie mit minimalen globalen Definitionen beginnen, die auf den Anforderungen des ersten Pilotteams basieren.
+
+Wenn mehr Teams integriert sind, können Sie gemeinsame Muster beobachten und die globalen Standards iterieren.
 
 Als Administrator geben Sie die Kontrolle nicht ab, sondern skalieren sie intelligent, basierend auf dem, was tatsächlich funktioniert.
 
@@ -50,71 +54,79 @@ Gehen Sie wie folgt vor, um diese evolutionäre Verschiebung zu aktivieren:
 
    In beiden Bereichen geht es darum, so schnell wie möglich über die Theorie hinauszugehen und praktische Anwendungen zu entwickeln, um sicherzustellen, dass das Tool für die tatsächliche strategische Arbeit verwendet wird, anstatt nur eine Sandbox-Übung zu bleiben.
 
-<!--left here-->
 
-## Die 30-Tage-Timeline: Ihr „Blitzmoment“
+## Überblick über einen 30-tägigen Weg zu Ihrem Durchbruch-Moment
 
 Ein erfolgreicher Rollout wird von Momentum angetrieben. Dieser 30-Tage-Plan versetzt Sie von der Konfiguration in Ihren ersten automatisierten Gewinn.
 
-
-
 ### Tage 1-10: Die Team Foundation
 
-Bauen Sie eine strategische Grundlage auf, indem Sie eine **leichte Hub-and-Spoke-Architektur** ab Tag 1 einrichten. Obwohl eine komplexe unternehmensweite Taxonomie noch nicht erforderlich ist, sollten Sie sofort zwei Umgebungen erstellen: eine **Global Classification Workspace** (der Hub) und Ihre erste **Team Workspace** (der Spoke).
+Eine strategische Grundlage schaffen, indem von Anfang an eine zentralisierte Struktur aufgebaut wird.
 
+Obwohl eine komplexe unternehmensweite Taxonomie noch nicht erforderlich ist, sollten Sie sofort zwei Umgebungen erstellen. Wenn Sie beispielsweise einen Hub-and-Spoke-Architekturansatz verwenden, können Sie Folgendes erstellen:
 
+* Ein **globaler Klassifizierungs-Arbeitsbereich** (der Hub): Dies sollte die allgemeine Struktur und Nomenklatur Ihres Systems sein.
+* Ein erster **Team-Arbeitsbereich** (der Spoke): Dieser sollte dem Arbeitsansatz eines einzelnen Teams entsprechen.
 
-Diese **Team-First**-Architektur ermöglicht Folgendes:
+Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
+Mit dieser Team-First-Architektur können Sie:
 
-
-* **Den Hub zur Unterstützung der Spoke-Funktion entwerfen:** Konzentrieren Sie den globalen Klassifizierungs-Arbeitsbereich speziell auf die Objekte, die für Ihr Pilot-Team am wichtigsten sind (z. B. deren spezifische Marken oder Produkte). Dies festigt den **kollaborativen Handshake zwischen Unternehmensführung und Team-**, während der Design-Aufwand überschaubar bleibt.
+* **Den Hub zur Unterstützung der Spoke-** entwerfen: Sie können den globalen Klassifizierungs-Arbeitsbereich speziell auf die Objekte konzentrieren, die für Ihr Pilotteam am wichtigsten sind (ihre spezifischen Marken oder Produkte). Dies festigt den kooperativen Handshake zwischen Unternehmens-Governance und Team-Autonomie und sorgt gleichzeitig dafür, dass der Design-Aufwand überschaubar bleibt.
 
 * **Befähigung, nicht Hüterin:** Verlagerung der Rolle von der Regelsetzung zur Fähigkeitenentwicklung. Arbeiten Sie mit dem Team zusammen, um ihre Planungsumgebung zu strukturieren.
 
 * **Zusammenarbeit beim Design:** Arbeiten Sie direkt mit Ihrem Pilotteam zusammen, um die Datensatztypen und -felder zu definieren, die ihre realen Anforderungen widerspiegeln, kein abstraktes Unternehmensideal.
 
-* **Mit der Strategie verbinden, um zu funktionieren** Aktivieren Sie die Verknüpfung zwischen Ihren Planungsdatensätzen und dem Workflow-Modul.
+* **Mit der Strategie verbinden, um zu funktionieren** Aktivieren Sie die Verknüpfung zwischen Ihren Planungsdatensätzen und den Workfront-Objekten.
 
-* **Aktuelle Daten spiegeln** Verwenden Sie die bestehenden Tools des Teams (Excel/Core), um Workfront Planning zu füllen, um sicherzustellen, dass die Daten vertraut und relevant sind.
+  Weitere Informationen finden Sie [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+* **Aktuelle Daten spiegeln** Verwenden Sie die bestehenden Tools des Teams (z. B. Excel oder andere Kernanwendungen), um Workfront Planning zu füllen, um sicherzustellen, dass die Daten vertraut und relevant sind.
 
 * **Für Flexibilität entwickelt:** Denken Sie daran, dass die Workfront-Planung so konzipiert ist, dass sie sich weiterentwickelt. Sie können mit Prozessen auf Team-Ebene beginnen und diese einfach in die Governance auf Unternehmensebene hochstufen oder migrieren, wenn das Unternehmen bereit ist.
 
+### Tag 15: Der erste Durchbruch
 
+Wir empfehlen Ihnen, bis zum 15. Tag Ihren ersten großen Sieg anzustreben. Dies sollte die automatisierte Projekterstellung sein.
 
-### Tag 15: Der erste „Blitzmoment“
+Dazu müssen Sie Folgendes implementieren:
 
-Ziel für den 15. Tag: **automatisierte Projekterstellung**.
+1. Konfigurieren Sie eine native Automatisierung, die einen „Bereit zur Ausführung“-Status identifiziert.
 
-* Konfigurieren Sie eine native Automatisierung, die einen „Bereit zur Ausführung“-Status erkennt.
+2. Trigger bei der Erstellung eines verknüpften Projekts in Workfront.
 
-* Trigger bei der Erstellung eines verknüpften Projekts im Workflow-Modul.
+Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-* **Der Wert:** Ihr Team sieht automatisch den strategischen Trigger seiner Ausführungsarbeit. Dieser „Blitzmoment“ beweist den Wert der Brücke und baut Buy-In.
-
-
+Dadurch wird sichergestellt, dass Ihr Team seine strategische Absicht automatisch bei der Ausführung der Trigger sieht. Dieser Durchbruch beweist den Wert der Brücke zwischen Strategie und Arbeit und sorgt für Akzeptanz.
 
 ### Tage 16-30: Schrittweiser Übergang zum Unternehmensmaßstab
 
-Wenn der „Blitzmoment“ erreicht ist, verschieben Sie den Startpunkt des Teams in Workfront Planning. Wenn dieses **Team-First**-Modell erfolgreich ist, beginnen Sie den Weg in Richtung **Enterprise-Scale** indem Sie Muster identifizieren, die funktionieren.
+Sobald Sie den Blitzmoment erreicht haben, können Sie den Ausgangspunkt des Teams in Workfront Planning verschieben.
 
+Wenn dieses Team-First-Modell erfolgreich ist, beginnen Sie den Weg zur Unternehmensskalierung, indem Sie Muster identifizieren, die funktionieren.
 
+Beachten Sie Folgendes, um vom Team-First- zum Unternehmensbereich zu wechseln:
 
-* **Einführung in das Eingabeformular:** Verwenden Sie das Formular als neuen Gateway für strategische Anfragen, um die Datenintegrität sicherzustellen.
+* **Einführung in das Eingabeformular:** Verwenden Sie ein Anfrageformular als neues Gateway für strategische Anfragen, um die Datenintegrität sicherzustellen.
 
-* **Beobachten und standardisieren** Verwenden Sie die Primäre Workspace, um zu beobachten, wie das Pilotteam das Tool verwendet. Diese realen Beispiele prägen Ihr mögliches Unternehmensdesign.
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+* **Beobachten und standardisieren:** Verwenden Sie den globalen Klassifizierungs-Arbeitsbereich, um zu beobachten, wie das Pilot-Team das Tool verwendet. Diese realen Beispiele prägen Ihr mögliches Unternehmensdesign.
 
 * **Legacy-Tabellen stilllegen:** Sie im Laufe der Reife vollständig in die Workfront-Planung ein.
 
-* **Shift Power-Benutzer:** Verwenden Sie die **Tabellenansicht** für die direkte und schnelle Planverwaltung.
+* **Shift-Power-Benutzer:** Verwenden Sie die Datensatz-Tabellenansicht für die direkte und schnelle Planverwaltung.
 
+  Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+## Übersicht über Erfolgsmetriken für das Launchpad
 
-## Erfolgsmetriken für das Launchpad
+Es wird empfohlen, ständig nach Erfolgsmarkern zu suchen und diese aus Ihren Ergebnissen anzupassen.
 
 Achten Sie auf diese frühen Indikatoren für Gesundheit:
 
-* **Einführung:** Die ersten 5-10 strategischen Datensätze wurden erfolgreich mit Ausführungsprojekten verknüpft.
+* **Einführung:** Die ersten 5-10 strategischen Datensätze wurden erfolgreich mit Ausführungsprojekten verknüpft. Der Prozess der Erstellung von Datensätzen und der Automatisierung der Erstellung verknüpfter Projekte ist nahtlos und einfach wiederholbar.
 
 * **Fürsprache:** Das Pilotteam beginnt damit, das Werkzeug an benachbarte Teams zu evangelisieren.
 
@@ -122,33 +134,31 @@ Achten Sie auf diese frühen Indikatoren für Gesundheit:
 
 * **Vertrauen:** Stakeholder verwenden für Überprüfungen Zeitpläne für die Workfront-Planung anstelle manueller Statusberichte.
 
-
-
 ## Best Practices und Tipps
 
+Der Erfolg Ihrer Implementierung hängt von Ihrem Ansatz und den Erwartungen ab, die Sie von Anfang an gesetzt haben.
 
+Im Folgenden finden Sie einige Empfehlungen, wie Sie eine erfolgreiche Implementierung leiten können.
 
-### Führen Sie Folgendes aus:
+### DOS:
 
-* **Beginnen Sie mit einem begeisterten Pilotteam.** Anerkennen, dass ein globaler Rollout eine erhebliche Steigerung darstellt. Konzentrieren Sie sich auf einen POC mit einem Team, das innovationsfreudig ist und einen Entwurf für andere bereitstellen kann.
+* **Beginnen Sie mit einem begeisterten Pilotteam:** Sie ein, dass ein globaler Rollout eine erhebliche Steigerung darstellt. Konzentrieren Sie sich auf einen Machbarkeitsnachweis mit einem Team, das innovationsfreudig ist und eine Blaupause für andere bereitstellen kann.
 
-* **Definieren Sie Fahrspuren, keine Wände.** Verwenden Sie geführte Autonomie, um Struktur bereitzustellen, ohne die Exploration zu beenden.
+* **Spuren definieren, nicht Mauern:** Verwenden Sie geführte Autonomie, um Struktur zu schaffen, ohne die Exploration zu unterbrechen.
 
-* **Priorisieren Sie die psychische Sicherheit.** Teilen Sie Teams mit, dass ältere Tools so lange bleiben, bis sie mit dem neuen Fluss vertraut sind.
+* **Priorisieren Sie die psychologische Sicherheit:** Teilen Sie Teams mit, dass ältere Tools vorhanden bleiben, bis sie mit dem neuen Workflow vertraut sind.
 
-* **Feiert die schnellen Erfolge.** Markieren Sie die erste automatisierte Projekterstellung für das gesamte Team.
+* **Schnelle Erfolge feiern:** Markieren Sie die erste automatisierte Projekterstellung für das gesamte Team.
 
-* **Etabliere einen Champion.** Identifizieren Sie in jedem Team einen Power User, der die Transition leitet.
+* **Einen Champion etablieren** Bestimmen Sie in jedem Team einen Power User, der den Übergang leitet.
 
+### Versäumnis:
 
+* **Keine groß angelegten Veränderungen vorschreiben:** alle am ersten Tag zum Umstieg zu zwingen, ist Technologieschuld.
 
-### Nicht:
+* **Ignorieren Sie nicht das Warum:** Stellen Sie sicher, dass jedes Teammitglied versteht, wie der strategische Thread seine Arbeit sichtbarer macht.
 
-* **Verordnen Sie keine „Big Bang“-Änderungen an.** alle dazu zu zwingen, Tag 1 einzuschalten, ist Technologieschuld.
-
-* **Ignoriere nicht das „Warum“.** Stellen Sie sicher, dass jedes Teammitglied versteht, wie der strategische Thread seine Arbeit sichtbarer macht.
-
-* **Warte nicht auf Perfektion.** Ihre Taxonomie wird sich weiterentwickeln. Beginnen Sie mit Ihrem besten Tipp und verfeinern Sie es nach und nach.
+* **Warten Sie nicht auf Perfektion:** Ihre Taxonomie wird sich weiterentwickeln. Beginnen Sie mit Ihrem besten Tipp und verfeinern Sie es nach und nach.
 
 <!--
 

@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 1%
+source-wordcount: '762'
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>
+</div>-->
 
 Beim Verwalten von Aufgabenzuweisungen können Sie diese gleichzeitig für mehrere Aufgaben ändern, indem Sie die Massenbearbeitungsfunktion in einer Liste von Aufgaben verwenden.
 
@@ -127,91 +127,6 @@ When assigning users to work, their availability according to their schedules af
 
 1. Wählen Sie die Aufgaben aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
-   Die Bearbeitung von Zuweisungen für Aufgaben unterscheidet sich je nach ausgewählter Umgebung.
-
-1. (Bedingt) Wenn Sie die Produktionsumgebung zum Zuweisen von Aufgaben verwenden, wird das **Aufgaben bearbeiten** in der neuen -Version geöffnet. Führen Sie in der Produktionsumgebung folgende Schritte aus:
-
-   1. Um Verantwortliche hinzuzufügen oder zu entfernen, führen Sie einen der folgenden Schritte aus:
-
-      * Um Verantwortliche hinzuzufügen, fangen Sie an, den Namen eines Verantwortlichen in das Feld **Personen, Rollen oder Teams suchen** einzugeben und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-      * Um Bevollmächtigte zu entfernen, klicken Sie auf das **x**-Symbol rechts neben ihrem Namen. In der Liste werden nur Personen angezeigt, die allen Aufgaben gemeinsam sind.
-      * Klicken Sie auf Mir zuweisen , um sich die ausgewählten Aufgaben selbst zuzuweisen.
-
-   1. (Bedingt) Klicken Sie bei Verwendung der neuen -Version auf **Speichern**.
-
-   1. (Optional) Klicken Sie **Zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten** auf.
-
-      Das **Aufgaben bearbeiten** wird in der alten Version geöffnet.
-
-   1. (Bedingt) Gehen Sie in der alten Version wie folgt vor, um die Empfänger zu ändern:
-
-      1. Navigieren Sie zum Abschnitt **Arbeitsaufträge** .
-
-         >[!IMPORTANT]
-         >
-         >Das Entfernen von Zugewiesenen kann sich auf die Aufgabenstunden und die Zuordnungsprozentsätze auswirken. Weitere Informationen finden Sie im Abschnitt [Wie sich das Entfernen von Verantwortlichen auf die Aufgabenstunden und Zuordnungsprozentsätze auswirkt](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in diesem Artikel.
-
-      1. Führen Sie einen der folgenden Schritte aus, um Verantwortliche hinzuzufügen oder zu entfernen:
-
-         * So fügen Sie einen neuen Bevollmächtigten hinzu:
-
-            1. Wählen Sie **Abschnitt** Arbeitsaufträge“ **Verantwortlicher** aus.
-
-               Es werden Informationen angezeigt, die für alle ausgewählten Aufgaben gelten. Wenn beispielsweise allen Aufgaben derselbe Benutzer zugewiesen ist, wird dieser Benutzer in der Spalte &quot;**&quot;**. Wenn die Informationen für die ausgewählten Aufgaben nicht gleich sind, werden keine Informationen angezeigt.
-
-            1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen für die ausgewählten Aufgaben.
-
-           >[!TIP]
-           >
-           > * Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
-           >   
-           > * Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können. Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-           > 
-           >   Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
-           >   
-           >     * Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
-           >     * Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
-
-
-         * So entfernen Sie einzelne Zugewiesene:
-
-            1. Klicken Sie auf das **X**-Symbol neben dem Namen des Verantwortlichen, den Sie entfernen möchten, wenn der Verantwortliche in der Zuweisungsliste angezeigt wird.
-
-               ODER
-
-               (Bedingt) Wenn der Verantwortliche, den Sie entfernen möchten, nicht im Abschnitt Zuweisungen angezeigt wird, da der Verantwortliche nur einigen der ausgewählten Aufgaben zugewiesen ist, klicken Sie auf **Verantwortlichen entfernen** und geben Sie den Namen des Verantwortlichen ein, den Sie entfernen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-
-         * So entfernen Sie alle vorhandenen Zugewiesenen:
-
-            1. Klicken Sie **Alle vorhandenen Bevollmächtigten entfernen** und klicken Sie dann auf **Ja, Alle Bevollmächtigten löschen**.
-
-               Dadurch werden nicht nur die allgemeinen Bevollmächtigten (Bevollmächtigte, die im Dialogfeld „Bearbeiten“ angezeigt werden) entfernt, sondern auch alle Bevollmächtigten für alle ausgewählten Aufgaben.
-
-           Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
-
-           Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
-
-      1. (Optional) Ändern Sie eine der folgenden Optionen für Verantwortliche:
-
-         * (Bedingt) **Zuordnung % oder Stunden**: Geben Sie einen neuen Zuordnungsprozentsatz oder neue Stunden an.
-
-         >[!NOTE]
-         >
-         >Diese Option kann nur geändert werden, wenn der Dauertyp für alle Aufgaben, die bearbeitet werden, gleich ist. Wenn als Dauertyp „Berechnete Arbeit“ oder „Leistungsgesteuert“ festgelegt ist, können Sie die Zuordnung % aktualisieren. Wenn der Dauertyp „Einfach“ ist, können Sie die Stunden aktualisieren. Informationen zum Dauertyp finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-         >
-         >
-         >Wenn das Feld leer ist, bedeutet dies, dass der Wert in allen Aufgaben unterschiedlich ist. Sie können ihn jedoch weiterhin ändern.
-
-         * **Aufgabenbesitzer**: Wählen Sie diese Option aus, um den Verantwortlichen zum Besitzer der Aufgabe für alle bearbeiteten Aufgaben zu machen.
-         * **Rolle des Verantwortlichen**: Wählen Sie eine Rolle aus der Dropdown-Liste aus. Wenn die Option deaktiviert bleibt, wählt Adobe Workfront automatisch die Primäre Rolle des Benutzers aus.
-
-      1. Klicken Sie **Änderungen speichern.**
-
-
-1. <span class="preview">(Bedingt) Wenn Sie die Vorschau -Umgebung zum Zuweisen von Aufgaben verwenden, wird das Feld **Aufgaben bearbeiten** geöffnet. Führen Sie in der Vorschau-Umgebung folgende Schritte aus: </span>
-
-   <div class="preview">
-
    1. Um Verantwortliche hinzuzufügen oder zu entfernen, führen Sie einen der folgenden Schritte aus:
 
       * Um Verantwortliche hinzuzufügen, fangen Sie an, den Namen eines Verantwortlichen in das Feld **Personen, Rollen oder Teams suchen** einzugeben und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
@@ -227,7 +142,7 @@ When assigning users to work, their availability according to their schedules af
 
         Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+        Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
 
         >[!TIP]
@@ -261,7 +176,92 @@ When assigning users to work, their availability according to their schedules af
 
    1. Klicken Sie auf **Speichern**.
 
-      </div>
+<!-- temporary content - for Assignments redesign:
+
+Editing assignments on tasks differs depending on which environment you choose. 
+
+1. (Conditional) If you are using the Production environment to assign tasks, the **Edit Tasks** box opens in the new experience. Do the following in the Production environment: 
+
+   1. To add or remove assignees, do one of the following:
+
+      * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+      * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+      * Click Assign to me to assign the selected tasks to yourself.
+
+   1. (Conditional) When using the new experience, click **Save**.
+
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
+      
+      The **Edit Tasks** box opens in the old experience.
+
+   1. (Conditional) In the old experience, do the following to modify the assignees:
+
+      1. Go to the **Assignments** section.
+
+         >[!IMPORTANT]
+         >
+         >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
+
+      1. Do one of the following to add or remove assignees:
+
+         * To add a new assignee:
+
+            1. In the **Assignments** section, select **Assignee**.
+
+               Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
+            
+            1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
+
+            >[!TIP]
+            >
+            > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+            >   
+            > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+            > 
+            >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+            >   
+            >     * Reassign the work item to active resources.
+            >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+
+         * To remove individual assignees:
+
+            1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+
+               Or
+
+               (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+
+         * To remove all existing assignees:
+
+            1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+
+               This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
+
+            Removing users from tasks can affect task hours and allocation percentages.
+            
+            For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+      1. (Optional) Modify any of the following options for assignees:
+
+         * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
+
+         >[!NOTE]
+         >
+         >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
+
+         * **Task Owner**: Select this option to make the assignee the owner of the task for all tasks being edited.
+         * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+
+      1. Click **Save Changes.**
+        
+
+1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
+
+   <div class="preview">-->
 
 
 

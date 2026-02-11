@@ -1,5 +1,5 @@
 ---
-title: 'Die Bridge: Strategischen Intent mit Projekten verbinden'
+title: 'Bridge erstellen: Strategische Absichten mit Projekten verbinden'
 description: Erfahren Sie, wie Sie einen „strategischen Thread“ zwischen Ihren allgemeinen Plänen in Adobe Workfront Planning und Ihrer täglichen Ausführung von Workflows in Adobe Workfront erstellen.
 feature: Workfront Planning
 role: User, Admin
@@ -7,133 +7,261 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+exl-id: 567ab223-b282-4b98-9655-7b9766fba869
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
 
 
-# Die Brücke: Strategische Intention mit Projekten verbinden
+# Brücke bauen: Strategischen Intent mit Projekten verbinden
 
+{{planning-important-intro}}
 
-## Ziel
+Erfahren Sie, wie Sie einen strategischen Thread zwischen Ihren allgemeinen Plänen in Adobe Workfront Planning und Ihrer täglichen Ausführung in Workfront erstellen. Mithilfe von Verbindungen können Sie eine Brücke zwischen Strategie und Ausführung schlagen.
 
-Erfahren Sie, wie Sie im Workflow-Modul einen „strategischen Thread“ zwischen Ihren allgemeinen Plänen in Workfront Planning und Ihrer täglichen Ausführung erstellen.
+Dieses Handbuch richtet sich an Workfront-Administratoren und Arbeitsbereich-Manager, die Workfront Planning implementieren.
 
+## Überblick über die Ausrichtung der Strategie an der Ausführung
 
+Die Verbindung Ihrer Strategie mit Ihrer täglichen Arbeit macht Vision zur Realität. Wenn Pläne auf hoher Ebene mit der Ausführung synchronisiert sind, erstellen Sie einen strategischen Thread, der sicherstellt, dass jedes Projekt und jede Aufgabe das Unternehmen voranbringt.
 
-## Übersicht
+Um diese Ausrichtung zu erreichen, sind eine Reihe technischer Links und Prozessleitplanken erforderlich, die die Bemühungen in Workfront mit strategischen Datensätzen in Workfront Planning verbinden.
 
-Die Verbindung Ihrer Strategie mit Ihrer täglichen Arbeit macht Vision zur Realität. Wenn Pläne auf hoher Ebene mit der Ausführung synchronisiert sind, erstellen Sie einen **strategischen Thread**, der sicherstellt, dass jedes Projekt und jede Aufgabe das Unternehmen voranbringt.
+Durch die Überbrückung der Kluft zwischen Planung und Handeln stellen Sie sicher, dass sich die Energie Ihres Teams immer auf Ihre obersten Ziele konzentriert.
 
+## Erstellen der Grundlage durch Erstellen einer Verbindung
 
+Bevor Sie eine Verbindung zwischen Planung und Ausführung herstellen können, müssen Sie als Workspace-Manager festlegen, welche Datensatztypen für eine Verbindung infrage kommen.
 
-Um diese Ausrichtung zu erreichen, sind eine Reihe technischer Links und Prozessleitplanken erforderlich, die die Bemühungen im **Workflow-Modul** mit strategischen Datensätzen in **Workfront Planning (WFP) verbinden**. Durch die Überbrückung der Kluft zwischen Planung und Handeln stellen Sie sicher, dass sich die Energie Ihres Teams immer auf Ihre obersten Ziele konzentriert.
+### Übersicht über das Verbindungsfeld
 
+Die Brücke beginnt mit der Erstellung eines Verbindungsfelds.
 
+Ein Verbindungsfeld dient als technischer Handshake zwischen Datensatztypen.
 
-## Die Grundlage: Herstellen der Verbindung
+Dieser Feldtyp ist die Engine hinter allen Beziehungen in Workfront Planning. Dies ist ein Ausdruck der Absicht, da festgelegt wird, dass ein bestimmter Datensatztyp (wie eine Kanaltaktik) mit anderen Objekttypen verknüpft werden darf, unabhängig davon, ob sie in Planning oder Workfront leben.
 
-Bevor Sie eine Verbindung zwischen Planung und Ausführung herstellen können, muss ein Workspace-Manager festlegen, welche Datensatztypen für eine Verbindung infrage kommen.
+Weitere Informationen finden Sie [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
+### Definieren, wann eine Verbindung hergestellt werden soll
 
+Idealerweise müssen Sie entscheiden, ob Sie Verbindungen erstellen müssen, bevor irgendwelche Arbeiten erstellt werden.
 
-### Das Verbindungsfeld: Der technische Handshake
+Durch Hinzufügen eines Verbindungsfelds architektonisch gestalten Sie Ihre Umgebung so, dass ein strategischer Thread unterstützt wird, unabhängig davon, wie die einzelnen Datensätze letztendlich erstellt werden.
 
-Die Brücke beginnt mit einem **Verbindungsfeld**. Dieser Feldtyp ist die Engine hinter allen Beziehungen in WFP. Sie ist ein Ausdruck der Absicht, da sie festlegt, dass ein bestimmter Datensatztyp (wie *Kanaltaktik*) mit anderen Objekten verknüpft werden darf, unabhängig davon, ob sie im Workflow-Modul oder in der Planung selbst leben.
+## Festlegen von Strategie und Ausführung synchron
 
+Um Ihre strategische Ebene fokussiert zu halten, empfehlen wir, Ihre Planungsdatensätze auf allgemeine Absichten zu konzentrieren und Workfront für die taktische Ausführung zu verwenden.
 
+Dieser Ansatz nutzt die einzigartigen Stärken beider Module auf folgende Weise:
 
-### Entscheidung zur Verbindung
+* **Workfront-Planung (die strategische Ebene):** Bleibt auf hoher Ebene. Es verfolgt die Kampagne, die Kanaltaktik und das Budget. Es ist lärmfrei und für Führungskräfte geeignet.
 
-Die Festlegung dieser Zulage ist eine Entscheidung auf Konfigurationsebene, die normalerweise vor der Erstellung einer Arbeit erfolgt. Durch Hinzufügen eines Verbindungsfelds architektonisch gestalten Sie Ihre Umgebung so, dass ein „strategischer Thread“ unterstützt wird, unabhängig davon, wie die einzelnen Datensätze letztendlich erstellt werden.
+* **Workfront (die Ausführungsebene):** Verwaltet die taktischen Details. Sie können einzelne Erlebnisse oder Aktivitäten wie Projekte, Aufgaben und Probleme verwalten. Sie können ihnen Eigentümerrechte zuweisen und Genehmigungen für die Ausführung einbauen.
 
-
-
-## Strategie und Ausführung synchron
-
-Um Ihre strategische Ebene fokussiert zu halten, empfehlen wir, Ihre Planungsdatensätze auf eine allgemeine Absicht zu konzentrieren, während Sie das Workflow-Modul für die taktische Ausführung verwenden. Dieser Ansatz nutzt die einzigartigen Stärken beider Module:
-
-
-
-* **Workfront-Planung (Die strategische Ebene):** Bleibt auf hoher Ebene. Es verfolgt die *Kampagne* die *Channel-*) und das *Budget*. Es ist lärmfrei und für Führungskräfte geeignet.
-
-* **Workflow-Modul (die Ausführungsebene):** Verwaltet die taktischen Details. Einzelne „Erlebnisse“ oder „Aktivitäten“ werden hier als **Projekte, Aufgaben und Probleme“**.
-
-
-
-## Aktivieren der Brücke: Von Absicht zu Aktion
+## Aktivieren Sie die Brücke, um zwischen Absicht und Aktion zu wechseln
 
 Nachdem die Verbindung konfiguriert wurde, müssen Sie entscheiden, wie Sie die Verknüpfung zwischen einem bestimmten strategischen Datensatz und einem Ausführungsprojekt aktivieren.
 
+### Verwenden eines tabellengeführten Pfads
+
+Strategen und Power-User nutzen oft die Tabellenansicht als Workbench, um ihre Pläne im Laufe der Zeit zu verfeinern.
+
+Beim Erstellen eines Datensatzes in einer Tabelle wird standardmäßig keine Verknüpfung zu Workfront hergestellt.
+
+Die Verbindung zu einem Ausführungsprojekt wird hergestellt, wenn ein Benutzer den Link aktivieren möchte.
+
+Dies kann auf folgende Weise erfolgen:
+
+* Manuelles Erstellen eines nachgelagerten verbundenen Projekts direkt über das Verbindungsfeld in Workfront Planning oder über eine optionale Verbindungsseite in der Detailansicht des Datensatzes.
+
+  Die manuelle Erstellung führt zu einem leeren Projekt ohne spezifische benutzerdefinierte Formulare.
+
+  Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+
+* Automatisiert durch die Verwendung von Workfront Planning-Automatisierungen für komplexere Anforderungen.
+
+  Diese Automatisierungen sind als Schaltflächen in der Aktionsleiste verfügbar, wenn Sie eine Zeile in einer Tabelle auswählen.
+
+  Dies ermöglicht eine menschliche Aufsicht oder die Erstellung von Platzhaltern und stellt sicher, dass Projekte nur dann in Ihrer Workflow-Umgebung generiert werden, wenn sie wirklich benötigt werden.
+
+  Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 
 
-### Professionelle Triage: Der tabellengeführte Pfad
+### Erstellen automatisierter Aktivierungen
 
-Strategen und Power-User nutzen oft die **Tabellenansicht** als ihre „Workbench“, um Pläne im Laufe der Zeit zu verfeinern.
+Für Organisationen mit Anfragen mit hohem Volumen oder erweiterten Automatisierungsanforderungen kann die Brücke automatisch basierend auf bestimmten Ereignissen oder basierend auf in einem Anfrageformular konfigurierten Feldwerten aktiviert werden.
 
-* **Absichtliche Übergabe** Standardmäßig wird beim Erstellen eines Datensatzes in einer Tabelle keine Verknüpfung zum Workflow-Modul hergestellt. Die Verbindung zu einem Ausführungsprojekt wird hergestellt, wenn ein Benutzer den Link aktivieren möchte. Dies kann durch manuelles Erstellen eines nachgelagerten verbundenen Projekts direkt über das Verbindungsfeld in WFP oder durch eine optionale **Verbindungsansichtsseite** in der Detailansicht des Datensatzes erfolgen. Beachten Sie, dass die manuelle Erstellung zu einem leeren Projekt ohne spezifische benutzerdefinierte Formulare führt. Für komplexere Anforderungen können Sie eine **native WFP-Automatisierung“**. Diese Automatisierungen sind verfügbar, wenn Sie eine Zeile in einer Tabelle auswählen und als Schaltflächen in der blauen Aktionsleiste am unteren Bildschirmrand angezeigt werden. Dies ermöglicht eine menschliche Aufsicht oder die Erstellung von Platzhaltern und stellt sicher, dass Projekte nur dann in Ihrer Workflow-Umgebung generiert werden, wenn sie wirklich benötigt werden.
+Für diesen Ansatz benötigen Sie eine Lizenz für Adobe Workfront Fusion.
 
+Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
+* Trigger **Übermittlungsereignisse verwenden** Da Formulare ein einziges, bereinigtes Übermittlungsereignis bieten, können sie als Trigger für Fusion-Automatisierungen verwendet werden. Ein Fusionsszenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt in Workfront generieren.
 
-### Automatisierte Aktivierung
+* **Feldwert-Trigger verwenden:** Für eine tiefere Automatisierung können Sie Fusion so konfigurieren, dass bestimmte Felder überwacht werden. Beispielsweise kann ein einfaches Kontrollkästchen mit der Bezeichnung „Bereit zur Ausführung“ als Katalysator dienen, der die Brücke automatisch in dem Moment herstellt, in dem sie aktiviert wird.
 
-Für Organisationen mit Anfragen mit hohem Volumen oder erweiterten Automatisierungsanforderungen kann die Brücke automatisch basierend auf bestimmten Ereignissen oder Feldwerten aktiviert werden.
+## Hinzufügen von Suchfeldern zur Oberflächensichtbarkeit
 
-* Trigger **Übermittlungsereignisse:** Da Formulare ein einziges, sauberes „Übermittlungsereignis“ bereitstellen, können sie als Trigger für **Fusion-Automatisierungen“** werden. Ein Szenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt im Workflow-Modul generieren.
+Sobald ein Projekt verknüpft ist, können Sie Echtzeitdaten aus Workfront direkt im Planungsdatensatz einblenden, indem Sie Suchfelder aus dem Projekt hinzufügen.
 
-* **Feldwert-Trigger:** Für eine tiefere Automatisierung können Sie **Fusion)** Überwachung bestimmter Felder konfigurieren. Beispielsweise kann ein einfaches Kontrollkästchen mit der Bezeichnung „Bereit zur Ausführung“ als Katalysator dienen, der die Brücke automatisch in dem Moment herstellt, in dem sie aktiviert wird.
+Als Arbeitsbereich-Manager können Sie Suchfelder einrichten, um jedes beliebige System- oder benutzerdefinierte Feld aus dem verknüpften Projekt (z. B. tatsächliches Abschlussdatum oder Creative Lead) in den Datensatztyp Planung abzurufen. Nach der Erfassung können diese Daten über mehrere Ebenen Ihrer strategischen Hierarchie hinweg bis hin zur Kampagnenebene aggregiert werden. Dies bietet ein leistungsstarkes aggregiertes Reporting für Stakeholder über den gesamten Marketing-Lebenszyklus hinweg, sodass sie auf dem Laufenden bleiben, ohne die Planungsumgebung verlassen zu müssen.
 
+## Sichtbarkeit erreichen, indem Strategie mit Aktion verknüpft wird
 
+Der höchste Wert der Brücke ist die Sichtbarkeit in Echtzeit.
 
-## Sichtbarkeit: Suchfelder
+Indem Sie Absicht mit Handeln verbinden, können Sie wichtige geschäftliche Fragen auf einen Blick beantworten. Im Folgenden finden Sie Beispiele für diese Fragen:
 
-Sobald ein Projekt verknüpft ist, können Sie Echtzeitdaten aus dem Workflow-Modul direkt im WFP-Datensatz einblenden.
+* Liefert unsere „FY26 Brand Awareness“-Kampagne gerade jetzt aktiv Ergebnisse?
 
+* Wo braucht unsere strategische Taktik mehr kreative Unterstützung, um im Zeitplan zu bleiben?
 
-
-Ein Workspace-Manager kann **Suchfelder“ einrichten** um jedes native oder benutzerdefinierte Feld aus dem verknüpften Projekt (z. B. *tatsächliches Abschlussdatum* oder *kreativer Lead*) in den WFP-Datensatztyp abzurufen. Nach der Erfassung können diese Daten über mehrere Ebenen Ihrer strategischen Hierarchie hinweg aggregiert werden - sogar bis hin zur Kampagnenebene. Dies bietet ein leistungsstarkes aggregiertes Reporting für Stakeholder über den gesamten Marketing-Lebenszyklus hinweg, sodass sie auf dem Laufenden bleiben, ohne die Planungsumgebung verlassen zu müssen.
-
-
-
-## Sichtbarkeit von Strategie zu Aktion
-
-Der ultimative Wert der Brücke ist **Echtzeit-Sichtbarkeit**. Durch die Verknüpfung von Absicht und Aktion können Sie wichtige geschäftliche Fragen auf einen Blick beantworten:
-
-
-
-* „Liefert unsere Kampagne &#39;FY26 Brand Awareness&#39; gerade aktiv Ergebnisse?“
-
-* „Wo brauchen wir mehr kreative Unterstützung, um planmäßig zu bleiben? &quot;
-
-* „Wie bringen wir unsere Ressourcen mit unseren vorrangigen strategischen Säulen in Einklang?“
-
-
+* Wie bringen wir unsere Ressourcen mit unseren vorrangigen strategischen Säulen in Einklang?
 
 ## Best Practices und Tipps
 
+### DOS:
 
+* **Verwenden Sie die Metapher des „strategischen Threads“:** Erinnern Sie Teams daran, dass jedes Projekt ein „Perle“ auf einer strategischen Zeichenfolge sein sollte.
 
-### Führen Sie Folgendes aus:
+* **Übergabe automatisieren:** Verwenden Sie Automatisierungen, um die Projekterstellung in Triggern zu gestalten, sodass Sie Zeit und Mühe sparen und gleichzeitig die Datenkonnektivität und die Governance verbessern können.
 
-* **Verwenden Sie die Metapher des „strategischen Threads“.** Erinnere Teams daran, dass jedes Projekt eine „Perle“ auf einer strategischen Zeichenfolge sein sollte.
+* **Link, nicht duplizieren:** Verwenden Sie Suchfelder, um Echtzeitausführungsdaten (wie Status- oder Abschlussdaten) in Ihren strategischen Datensätzen anzuzeigen. Dadurch wird sichergestellt, dass Ihre strategischen Ansichten immer korrekt sind, ohne dass manuelle Aktualisierungen durch Ihr Team erforderlich sind.
 
-* **Automatisieren Sie die Übergabe.** Verwenden Sie Automatisierungen, um die Projekterstellung in Triggern zu halten und so Zeit und Aufwand zu sparen und gleichzeitig die Datenkonnektivität und Governance zu verbessern.
+### Versäumnis:
 
-* **Link, nicht duplizieren.** Verwenden Sie Suchfelder, um Echtzeitausführungsdaten (wie Status- oder Abschlussdaten) in Ihren strategischen Datensätzen anzuzeigen. Dadurch wird sichergestellt, dass Ihre strategischen Ansichten immer korrekt sind, ohne dass manuelle Aktualisierungen durch Ihr Team erforderlich sind.
+* **Planungs-Datensätze nicht als Aufgabenlisten behandeln:** Die Brücke ist so konzipiert, dass sie strategische Absichten mit Ausführungsprojekten verbindet. Halten Sie Ihre Planungsunterlagen auf das „Was“ und „Warum“ fokussiert und überlassen Sie dem Workflow-Modul das granulare „Wie“ durch Aufgaben und Probleme.
 
+* **Übersynchronisieren Sie nicht:** Sie müssen nicht alle Details auf Projektebene wieder mit der Planung synchronisieren. Halten Sie die strategische Schicht auf hohem Niveau und lärmfrei.
 
+* **Überbrücken Sie diese Brücke nicht:** Wenn die Arbeit im Workflow-Modul beginnt, ohne dass eine Verknüpfung mit der Planung vorhanden ist, haben Sie einen „Schattenplan“ erstellt, der für Führungskräfte unsichtbar ist.
 
-### Nicht:
+<!--original content:
 
-* **Planungs-Datensätze nicht als Aufgabenlisten behandeln.** Die Brücke ist so konzipiert, dass sie strategische Absichten mit Ausführungsprojekten verbindet. Halten Sie Ihre Planungsunterlagen auf das „Was“ und „Warum“ fokussiert und überlassen Sie dem Workflow-Modul das granulare „Wie“ durch Aufgaben und Probleme.
+# The Bridge: Connecting Strategic Intent to Projects 
 
-* **Übersynchronisieren Sie nicht.** Sie müssen nicht alle Details auf Projektebene wieder mit der Planung synchronisieren. Halten Sie die strategische Schicht auf hohem Niveau und lärmfrei.
+ 
 
-* **Fahr nicht an der Brücke vorbei!** Wenn die Arbeit im Workflow-Modul beginnt, ohne dass ein Link zur Planung vorhanden ist, haben Sie einen „Schattenplan“ erstellt, der für Führungskräfte unsichtbar ist.
+## Goal 
 
+Learn how to create a "strategic thread" between your high-level plans in Workfront Planning and your daily execution in the Workflow module. 
+
+ 
+
+## Overview 
+
+Connecting your strategy to your daily work turns vision into reality. When high-level plans are in sync with execution, you create a **strategic thread** that ensures every project and task moves the business forward. 
+
+ 
+
+Achieving this alignment requires a set of technical links and process guardrails that connect efforts in the **Workflow module** with strategic records in **Workfront Planning (WFP)**. By bridging the gap between planning and action, you ensure that your team's energy is always focused on your highest-priority goals. 
+
+ 
+
+## The foundation: Establishing the connection 
+
+Before you can bridge planning and execution, a workspace manager must define which record types are eligible for a connection. 
+
+ 
+
+### The connection field: The technical handshake 
+
+The bridge begins with a **connection field**. This field type is the engine behind all relationships in WFP. It is an expression of intent, in that it establishes that a specific record type (like a *channel tactic*) is allowed to be linked to other objects, whether they live in the workflow module or within planning itself. 
+
+ 
+
+### Deciding to connect 
+
+Establishing this allowance is a configuration-level decision that typically happens before any work is created. By adding a connection field, you are architecting your environment to support a "strategic thread," regardless of how the individual records are eventually created. 
+
+ 
+
+## Strategy and execution in sync 
+
+To keep your strategic layer focused, we recommend focusing your planning records on high-level intent while using the Workflow module for tactical execution. This approach uses the unique strengths of both modules: 
+
+ 
+
+*   **Workfront Planning (The strategic layer):** Stays high-level. It tracks the *Campaign*, the *Channel Tactic*, and the *Budget*. It is noise-free and executive-ready. 
+
+*   **Workflow module (The execution layer):** Manages the tactical details. Individual "Experiences" or "Activities" are managed here as **projects, tasks, and issues**. 
+
+ 
+
+## Activating the bridge: From intent to action 
+
+Once the connection is configured, you must decide how to activate the link between a specific strategic record and an execution project. 
+
+ 
+
+### Professional triage: The table-led path 
+
+Strategists and power users often use the **table view** as their "workbench" to refine plans over time.  
+
+*   **Deliberate handoff:** By default, creating a record in a table does not establish a link to the Workflow module. The connection to an execution project is established when a user decides to activate the link. This can be done by manually creating a downstream connected project directly from the connection field in WFP or an optional **connection view page** in the record's detail view. Note that manual creation results in a blank project without specific custom forms; for more complex needs, you can use a **native WFP automation**. These automations are available when you select a row in a table, appearing as buttons in the blue action bar at the bottom of your screen. This allows for human oversight or placeholder creation, ensuring that projects are only generated in your workflow environment when they are truly needed. 
+
+ 
+
+### Automated activation 
+
+For organizations with high-volume requests or advanced automation needs, the bridge can be activated automatically based on specific events or field values. 
+
+*   **Submission triggers:** Because forms provide a single, clean "submission event," they can be used as triggers for **Fusion automations**. A scenario can detect a form submission and immediately generate a linked project in the workflow module. 
+
+*   **Field-value triggers:** For deeper automation, you can configure **Fusion** to monitor specific fields. For example, a simple checkbox labeled "ready for execution" can serve as the catalyst, establishing the bridge automatically the moment it is checked. 
+
+ 
+
+## Surfacing visibility: Lookup fields 
+
+Once a project is linked, you can surface real-time data from the Workflow module directly within the WFP record. 
+
+ 
+
+A workspace manager can set up **lookup fields** to pull any native or custom field from the linked project (such as *actual completion date* or *creative lead*) into the WFP record type. Once captured, this data can be rolled up through multiple levels of your strategic hierarchy—even all the way to the campaign level. This provides powerful aggregate reporting for stakeholders across the entire marketing lifecycle, keeping them informed without needing to leave the planning environment. 
+
+ 
+
+## Strategy-to-action visibility 
+
+The ultimate value of the bridge is **real-time visibility**. By connecting intent to action, you can answer critical business questions at a glance: 
+
+ 
+
+*   "Is our 'FY26 Brand Awareness' campaign actively delivering results right now?" 
+
+*   "Where do our strategic tactics need more creative support to stay on schedule?" 
+
+*   "How are we aligning our resources with our highest-priority strategic pillars?" 
+
+ 
+
+## Best practices & tips 
+
+ 
+
+### Do: 
+
+*   **Use the "strategic thread" metaphor.** Remind teams that every project should be a "bead" on a strategic string. 
+
+*   **Automate the handoff.** Use automations to trigger project creation to save time and effort while also improving data connectivity and governance. 
+
+*   **Link, don't duplicate.** Use lookup fields to surface real-time execution data (like status or completion dates) in your strategic records. This ensures your strategic views are always accurate without requiring manual updates from your team. 
+
+ 
+
+### Don't: 
+
+*   **Don't treat planning records as task lists.** The bridge is designed to connect strategic intent to execution projects. Keep your planning records focused on the "what" and "why," and let the workflow module handle the granular "how" through tasks and issues. 
+
+*   **Don't over-sync.** You don't need to sync every project-level detail back to Planning. Keep the strategic layer high-level and noise-free. 
+
+*   **Don't bypass the bridge.** If work starts in the Workflow module without a link to Planning, you've created a "Shadow Plan" that is invisible to leadership. 
+
+-->
 
 
 

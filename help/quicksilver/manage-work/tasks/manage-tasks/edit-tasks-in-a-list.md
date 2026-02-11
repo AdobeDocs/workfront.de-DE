@@ -6,10 +6,10 @@ description: Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '3254'
-ht-degree: 3%
+source-wordcount: '2764'
+ht-degree: 4%
 
 ---
 
@@ -17,12 +17,13 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
-</div>
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+
+</div>-->
 
 Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Liste angezeigten Felder bearbeiten. Weitere Informationen zu anderen Bearbeitungsmöglichkeiten für Aufgaben finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -179,7 +180,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der &#x200B;](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der ](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -492,71 +493,6 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
 Sie können mehrere Aufgaben gleichzeitig bearbeiten. Stellen Sie sicher, dass Sie Verwaltungsberechtigungen für die von Ihnen ausgewählten Aufgaben haben, um sie stapelweise bearbeiten zu können.
 
-Die gleichzeitige Bearbeitung mehrerer Aufgaben unterscheidet sich je nach ausgewählter Umgebung.
-
-### Massenbearbeitung von Aufgaben in der Produktionsumgebung
-
-{{step1-to-projects}}
-
-1. Wählen Sie auf **Seite** ein Projekt aus.
-1. Klicken Sie im linken Bedienfeld auf den Abschnitt **Aufgaben**.
-
-1. Klicken Sie auf **Planmodus**-Symbol ![Planmodus-Symbol](assets/plan-mode-icon.png) oben in der Liste und stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist.
-
-   ![Aktivieren Sie die Einstellung für automatisches Speichern](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
-
-   >[!IMPORTANT]
-   >
-   >Beim manuellen Speichern von Aufgaben können Sie Aufgaben nicht stapelweise bearbeiten.
-
-1. Wählen Sie mehrere Aufgaben in der Aufgabenliste aus.
-1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) oben in der Aufgabenliste und dann auf **Ausdrücke neu berechnen**, um alle Informationen in berechneten benutzerdefinierten Feldern zu aktualisieren.
-1. Klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png). Das **Aufgaben bearbeiten** wird in der neuen -Version geöffnet.
-
-   Die Bearbeitung der Informationen für alle Aufgaben ist identisch mit der Bearbeitung der Informationen für eine Aufgabe.
-
-   Weitere Informationen zum Bearbeiten einer Aufgabe finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-
-1. (Bedingt) Gehen Sie in der neuen -Version wie folgt vor:
-
-   1. Geben Sie die Informationen an, die Sie für alle ausgewählten Aufgaben in einem der folgenden Bereiche ändern möchten:
-
-      * Übersicht
-      * Arbeitsaufträge
-      * Benutzerdefinierte Formulare
-      * Finanzielle Details
-      * Einstellungen
-      * Einstellungen
-      * Kommentar
-
-      >[!NOTE]
-      >
-      >* Die Informationen, die Sie zu allen ausgewählten Aufgaben ändern, überschreiben die vorhandenen Informationen zu einzelnen Aufgaben, mit Ausnahme des Felds **Arbeitsaufträge**. Wenn Sie einen neuen Verantwortlichen in der Massenbearbeitung hinzufügen, wird dieser Verantwortliche allen ausgewählten Aufgaben hinzugefügt. Wenn den ausgewählten Aufgaben andere Verantwortliche zugewiesen werden, bleiben diese zusätzlich zu der durch Massenbearbeitung hinzugefügten zugewiesen.
-      >* Wenn Sie die Aufgabendauer bearbeiten möchten, müssen die ausgewählten Aufgaben dieselbe Aufgabenbeschränkung aufweisen. Andernfalls wird **Feld** Dauer“ nicht ausgefüllt.
-      >
-      >* In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Wenn die ausgewählten Aufgaben keine benutzerdefinierten Formulare gemeinsam haben, werden in diesem Abschnitt keine Formulare aufgelistet.
-      >* Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Aufgaben angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.  Informationen zur Massenbearbeitung benutzerdefinierter Formulare finden Sie unter [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
-
-   1. Klicken Sie auf **Speichern**.
-   1. (Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten**.
-
-1. (Bedingt) Gehen Sie in der alten -Version wie folgt vor:
-
-   1. Geben Sie die Informationen an, die Sie für alle ausgewählten Aufgaben in einem der folgenden Bereiche ändern möchten:
-
-      * Übersicht
-      * Einstellungen
-      * Arbeitsaufträge
-      * Benutzerdefinierte Formulare
-      * Kommentar
-
-   1. (Optional) Wählen Sie im Abschnitt **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in den benutzerdefinierten Formularen, die an die ausgewählten Aufgaben angehängt sind, auf dem neuesten Stand sind.
-   1. Klicken Sie **Änderungen speichern**. Alle von Ihnen vorgenommenen Änderungen sind nun für alle ausgewählten Aufgaben sichtbar.
-
-<div class="preview">
-
-### Massenbearbeitung von Aufgaben in der Vorschau-Umgebung
-
 {{step1-to-projects}}
 
 1. Wählen Sie auf **Seite** ein Projekt aus.
@@ -598,5 +534,70 @@ Die gleichzeitige Bearbeitung mehrerer Aufgaben unterscheidet sich je nach ausge
 
 1. Klicken Sie auf **Speichern**.
 
-</div>
 
+<!--Temporary content while changing the Assignments area:
+
+Editing multiple tasks at the same time differs depending on what environment you choose. 
+
+### Edit tasks in bulk in the Production environment
+
+{{step1-to-projects}}
+
+1. On the **Projects** page, select a project.
+1. In the left panel, click the **Tasks** section.
+
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+
+   ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+
+   >[!IMPORTANT]
+   >
+   >You can't edit tasks in bulk when saving tasks manually.
+
+1. Select more than one task in the tasks list. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** box opens in the new experience.
+
+   Editing the information on all tasks is identical to editing information on one task.
+
+   For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   
+1. (Conditional) In the new experience, do the following:
+      
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+
+      >[!NOTE]
+      >
+      >* The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+      >* If you want to edit task Duration, the tasks selected must have the same Task Constraint. Otherwise, the **Duration** field does not populate.
+      >
+      >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
+      >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+   1. Click **Save**.
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box.
+
+1. (Conditional) In the old experience, do the following:
+
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas:
+
+         * Overview
+         * Settings
+         * Assignments
+         * Custom Forms
+         * Comment
+ 
+   1. (Optional) In the **Custom Forms** section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
+   1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
+
+<div class="preview">
+
+### Edit tasks in bulk in the Preview environment-->

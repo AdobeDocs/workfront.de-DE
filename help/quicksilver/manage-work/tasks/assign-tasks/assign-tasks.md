@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 2%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Dieselben Funktionen sind ab einer Woche ab der Vorschau-Version auch in der Produktionsumgebung für alle Kunden verfügbar.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Weitere Informationen finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 Sie können Benutzern, Aufgabengebieten oder Teams Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
@@ -224,102 +224,6 @@ So weisen Sie Aufgaben in einer Liste zu:
 
 ## Massenweise Zuweisung mehrerer Aufgaben aus einer Liste
 
-Die Massenzuweisung mehrerer Aufgaben aus einer Liste unterscheidet sich je nach ausgewählter Umgebung.
-
-### Massenweise Zuweisung mehrerer Aufgaben aus einer Liste in der Produktionsumgebung
-
-1. Navigieren Sie zu einer Liste von Aufgaben, die Sie stapelweise zuweisen möchten.
-1. (Bedingt) Stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist, wenn Sie sich in einer Liste von Aufgaben unter einem Projekt befinden.
-
-   >[!IMPORTANT]
-   >
-   >Beim manuellen Speichern von Aufgaben für ein Projekt können Sie keine Aufgaben stapelweise bearbeiten.
-
-1. Mehrere Aufgaben in der Aufgabenliste auswählen.
-1. Klicken Sie auf **Bearbeiten**.
-
-   Das **Aufgaben bearbeiten** wird in der neuen -Version geöffnet.
-
-1. Weisen Sie weitere Aufgaben mithilfe der neuen -Version zu.
-
-   Weitere Informationen finden Sie im Abschnitt [Massenzuweisung mehrerer Aufgaben aus einer Liste in der neuen -](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in diesem Artikel.
-
-1. (Optional) Klicken Sie **Zurück zum alten Erlebnis wechseln** unten im Feld **Aufgaben bearbeiten**, um das alte Erlebnis zu öffnen.
-
-1. (Bedingt) Wählen Sie unter Verwendung des alten Erlebnisses im Bereich **Arbeitsaufträge** das Feld **Verantwortlicher** aus und geben Sie dann den Namen eines Benutzers, eines Aufgabengebiets oder Teams ein, den/das Sie allen Aufgaben zuweisen möchten.
-
-   >[!IMPORTANT]
-   >
-   >Wenn eine der Aufgaben bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Vorgängen hinzugefügt, anstatt die vorhandenen Ressourcen in den Vorgängen zu ersetzen.
-
-1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Aufgabenbesitzer** aus, um anzugeben, welche Ressource der primäre Zugewiesene oder der Eigentümer der Aufgabe ist, wenn Sie der Aufgabe mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
-1. (Bedingt) Geben Sie **Zuordnung %** für jede Ressource an, die dem Vorgang zugewiesen ist, wenn alle ausgewählten Vorgänge den Dauertyp „Leistungsgesteuert“ oder „Berechnete Zuordnung“ aufweisen. Dies gibt an, wie viel Zeit diese Ressourcen für die Durchführung der Aufgabe aufwenden sollten. Dies ist nur für Benutzer und Aufgabengebiete verfügbar.
-
-   ODER
-
-   Geben Sie den **(Stunden** für jede Ressource an, die dem Vorgang zugewiesen ist, wenn alle ausgewählten Vorgänge den Dauertyp „Einfach“ aufweisen. Die Summe aller Stunden für alle Ressourcen sollte der Anzahl der geplanten Stunden für die Aufgabe entsprechen.
-
-   >[!IMPORTANT]
-   >
-   >Sie können den Zuordnungsprozentsatz oder die Anzahl der Stunden pro Ressource nicht angeben, wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben oder wenn die ausgewählten Vorgänge unterschiedliche Dauertypen haben.
-
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
-
-1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des **&quot; eine Rolle aus, die der Benutzer bei der Aufgabe erfüllen soll** wenn Sie Benutzer Aufgaben zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
-
-1. (Optional) Wenn Sie vorhandene Zugewiesene aus allen Aufgaben entfernen möchten, führen Sie einen der folgenden Schritte aus:
-
-   1. Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie aus der Aufgabe entfernen möchten, wählen Sie ihn/sie aus, wenn er/sie in der Liste angezeigt wird, und klicken Sie auf **Verantwortlichen entfernen** um weitere Verantwortliche zu entfernen.
-   1. Klicken Sie **Alle vorhandenen Zugewiesenen entfernen**, um alle Zugewiesenen aus allen ausgewählten Aufgaben zu entfernen.
-
-1. Klicken Sie auf **Änderungen speichern**.
-1. (Optional und bedingt) Wenn die Felder Zugewiesen an oder Zuweisungen in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das Symbol **X** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
-
-
-#### Massenzuweisung mehrerer Aufgaben aus einer Liste in der neuen -Version
-
-1. Navigieren Sie zu einer Liste von Aufgaben, die Sie stapelweise zuweisen möchten.
-1. (Bedingt) Stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist, wenn Sie sich in einer Liste von Aufgaben unter einem Projekt befinden.
-
-   >[!IMPORTANT]
-   >
-   >Beim manuellen Speichern von Aufgaben für ein Projekt können Sie keine Aufgaben stapelweise bearbeiten.
-
-1. Mehrere Aufgaben in der Aufgabenliste auswählen.
-1. Klicken Sie auf **Bearbeiten**.
-
-   Das **Aufgaben bearbeiten** wird geöffnet.
-
-1. Beginnen Sie im Bereich **Arbeitsaufträge** mit der Eingabe des Namens der Benutzer, Teams oder Rollen in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
-
-   ODER
-
-   Klicken Sie auf **Mir zuweisen**, um es sich selbst zuzuweisen.
-
-   >[!IMPORTANT]
-   >
-   >Wenn eine der Aufgaben bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Vorgängen hinzugefügt, anstatt die vorhandenen Ressourcen in den Vorgängen zu ersetzen.
-
-1. Klicken Sie in das **Dauertyp** und wählen Sie einen Dauertyp aus.
-
-   Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
-
-1. (Bedingt) Aktualisieren Sie je nach **von** ausgewählten „Dauertyp“ die folgenden Felder:
-
-   * Dauer
-   * Geplante Stunden
-
-     Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-1. (Optional) Wenn Sie vorhandene Verantwortliche aus allen Aufgaben entfernen möchten, klicken Sie auf das **x** neben ihrem Namen im Feld **Personen, Rollen oder Teams suchen**.
-
-1. Klicken Sie auf **Speichern**.
-1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
-
-<div class="preview">
-
-### Massenweise Zuweisung mehrerer Aufgaben aus einer Liste in der Vorschau-Umgebung
-
 1. Navigieren Sie zu einer Liste von Aufgaben, die Sie stapelweise zuweisen möchten.
 1. (Bedingt) Stellen Sie sicher, dass die Option **Automatisches Speichern** ausgewählt ist, wenn Sie sich in einer Liste von Aufgaben unter einem Projekt befinden.
 
@@ -343,7 +247,7 @@ Die Massenzuweisung mehrerer Aufgaben aus einer Liste unterscheidet sich je nach
    * Bewegen Sie den Mauszeiger über den Zuweisungsnamen und klicken Sie dann auf **Primär machen**, um anzugeben, welcher Verantwortliche der Eigentümer der Aufgabe ist.
    * **Dauertyp**
 
-     Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+     Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
    * **Dauer**
    * **Geplante Stunden**
@@ -355,7 +259,6 @@ Die Massenzuweisung mehrerer Aufgaben aus einer Liste unterscheidet sich je nach
 1. Klicken Sie auf **Speichern**.
 1. (Optional und bedingt) Wenn die Felder **Zugewiesen an** oder **Zuweisungen** in Ihrer Aufgabenliste angezeigt werden, klicken Sie in eine dieser Spalten für eine Aufgabe und dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um sie aus der Aufgabe zu entfernen.
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ Die Massenzuweisung mehrerer Aufgaben aus einer Liste unterscheidet sich je nach
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->
