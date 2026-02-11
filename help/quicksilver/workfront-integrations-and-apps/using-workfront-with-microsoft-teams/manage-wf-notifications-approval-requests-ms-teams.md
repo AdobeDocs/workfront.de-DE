@@ -144,7 +144,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL ändern]</p> </th> 
    <th> <p>[!UICONTROL Zum Korrekturabzug wechseln] </p> </th> 
-   <th>[!UICONTROL-Kommentar]</th> 
+   <th>[!UICONTROL -Kommentar]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -278,7 +278,7 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, dem Sie angeh
   <tr> 
    <th>Benachrichtigung</th> 
    <th>[!UICONTROL Start]</th> 
-   <th>[!UICONTROL-Kommentar]</th> 
+   <th>[!UICONTROL -Kommentar]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -429,7 +429,7 @@ Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Dat
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>[!UICONTROL-Kommentar]</p> </th> 
+   <th> <p>[!UICONTROL -Kommentar]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
