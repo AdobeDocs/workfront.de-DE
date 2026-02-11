@@ -142,7 +142,7 @@ When assigning users to work, their availability according to their schedules af
 
         Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
 
         >[!TIP]
