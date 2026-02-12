@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
+source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1050'
 ht-degree: 11%
 
 ---
@@ -382,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -777,7 +777,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ID</span> </td> 
+   <td><span>Kennung</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1107,7 +1107,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> Optionen </td> 
+   <td> options </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2162,7 +2162,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ID</span> </td> 
+   <td><span>Kennung</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2202,7 +2202,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Daten<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
+   <td>data<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2257,7 +2257,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Daten<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
+   <td>data<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2546,6 +2546,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> </td> 
    <td> </td> 
    <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>Abrechnung beibehalten</td> 
   </tr> 
   <tr> 
    <td> </td> 
