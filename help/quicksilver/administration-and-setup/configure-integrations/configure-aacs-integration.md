@@ -6,10 +6,10 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 0%
+source-wordcount: '1713'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets] v
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -98,7 +98,7 @@ Bevor Sie beginnen,
 
 1. Wählen **[!UICONTROL Integration [!DNL Experience Manager] hinzufügen]**.
 1. Geben Sie im Feld **[!UICONTROL Name]** den Namen ein, den Benutzer sehen sollen, wenn sie mit dieser Integration in Workfront und Experience Manager Assets interagieren.
-1. Im Feld **[!UICONTROL Navigations-URL]** füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um über das Hauptmenü eine Verknüpfung mit der [!DNL Experience Manager]-Instanz Ihrer Organisation [!UICONTROL &#x200B; erstellen] um Schnellzugriff zu erhalten.
+1. Im Feld **[!UICONTROL Navigations-URL]** füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um über das Hauptmenü eine Verknüpfung mit der [!DNL Experience Manager]-Instanz Ihrer Organisation [!UICONTROL  erstellen] um Schnellzugriff zu erhalten.
 1. Wählen Sie ein Repository aus dem Dropdown-Menü **[!UICONTROL [!DNL Experience Manager]Assets]** Repository aus. Das System füllt automatisch alle [!DNL Experience Manager]-Repositorys, die mit der Organisations-ID verknüpft sind, der Ihr Benutzerprofil zugewiesen ist.
    ![Wählen Sie das Experience Manager-Repository](assets/setup-information.png)
 
@@ -122,7 +122,7 @@ Bevor Sie mit der Zuordnung von Metadatenfeldern beginnen, müssen Sie Metadaten
 
 So konfigurieren Sie Metadatenfelder:
 
-1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe  [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe  [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurieren von benutzerdefinierten Formularfeldern in Workfront. [!DNL Workfront] verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen, wie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
@@ -152,7 +152,7 @@ Sie können jedes von Workfront unterstützte Feld einem Tag in Experience Manag
 
 Nachdem Sie die Tags in Experience Manager Assets erstellt haben, werden sie unter der Dropdown-Liste „Tags“ im Abschnitt „Metadaten“ angezeigt. Um ein Feld mit einem Tag zu verknüpfen, wählen Sie `xcm:keywords` in der Dropdown-Liste Experience Manager Assets-Feld im Bereich für die Metadatenzuordnung aus.
 
-Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/de/docs/experience-manager-64/administering/contentmanagement/tags).
+Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Benutzerdefinierte Experience Manager Assets-Metadatenschemafelder**
 
@@ -195,7 +195,7 @@ Zuordnen von Metadaten für Assets:
 
    >[!NOTE]
    >
-   >Sie können ein einzelnes [!DNL Workfront] mehreren [!UICONTROL Experience Manager Assets-Feldern &#x200B;]. Sie können nicht mehrere [!DNL Workfront] einem einzelnen [!DNL Experience Manager Assets] zuordnen.
+   >Sie können ein einzelnes [!DNL Workfront] mehreren [!UICONTROL Experience Manager Assets-Feldern ]. Sie können nicht mehrere [!DNL Workfront] einem einzelnen [!DNL Experience Manager Assets] zuordnen.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. Suchen Sie im Feld [!DNL Experience Manager Assets] nach den vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf zusätzliche Kategorien zuzugreifen.
@@ -264,7 +264,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration sein sollen.
 1. (Bedingt) Gehen Sie wie folgt vor, um dieser Integration eine Ordnerstruktur (verschachtelte Ordner) hinzuzufügen:
 
-   1. Klicken Sie auf **Symbol** Ordner hinzufügen![&#x200B; (Ordner hinzufügen](assets/add-folder-aem.png).
+   1. Klicken Sie auf **Symbol** Ordner hinzufügen![ (Ordner hinzufügen](assets/add-folder-aem.png).
    1. Wählen Sie im Feld **Name** aus, wie Sie den Ordner benennen möchten:
 
       * **Name**: Geben Sie einen Namen für den Ordner ein.
@@ -285,11 +285,15 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder gehen Sie zum Abschnitt [Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in diesem Artikel.
 
+
 >[!NOTE]
 >
->* Bei dieser Integration werden unabhängig von der Anzahl der erstellten Ordnerbäume nicht mehr als 100 Ordner erstellt. Bei einer Integration mit vier Ordnerbäumen können beispielsweise bis zu 100 Ordner und nicht 400 Ordner erstellt werden.
->* Der erste Ordner in der Ordnerstruktur wird automatisch als mit Workfront verknüpft markiert. Wenn dieser Ordner nicht verknüpft werden soll, können Sie den Link aufheben.
+>* Die native Workfront AEM-Integration kann **maximal 100 Ordner pro Projekt pro Integration** erstellen, unabhängig davon, wie viele Ordnerbäume enthalten sind.
+>   * Beispiel: Eine Integration mit vier Ordnerbäumen in einem Projekt kann bis zu 100 Ordner insgesamt erstellen - nicht 400.
+>* Der erste Ordner in jeder Ordnerstruktur wird automatisch als mit Workfront verknüpft markiert. Wenn dieser Ordner nicht verknüpft werden soll, können Sie den Link aufheben.
 >* Wenn keine Ordnerstruktur bereitgestellt wird, wird der Stammordner zum verknüpften Ordner.
+
+
 
 
 ### Veröffentlichen von Assets, die an Adobe Experience Manager Assets gesendet werden
