@@ -7,10 +7,10 @@ description: Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Sn
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '630'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ So erstellen Sie ein Leserkonto:
 
 1. Klicken Sie im linken Bedienfeld auf **System** > **Datenverbindung**.
 
-1. Klicken Sie auf **Reader-Konto erstellen**, um mit der Erstellung des Leserkontos Ihrer Organisation zu beginnen. Der Vorgang wird automatisch durchgeführt, er kann jedoch einige Minuten dauern.
+1. Klicken Sie auf **Reader-Konto erstellen**, um mit der Erstellung des Leserkontos Ihrer Organisation zu beginnen. Der Vorgang wird automatisch durchgeführt, er kann jedoch bis zu 24 Stunden dauern.
 
 1. Nach Abschluss des Vorgangs wird ein Dialogfeld angezeigt, in dem erklärt wird, dass Ihr Leserkonto jetzt aktiv ist. Aktualisieren Sie die Browser-Seite, um auf die Schaltfläche **Neue Verbindung erstellen** zuzugreifen.
 
