@@ -36,7 +36,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Projekte**: Weitere Informationen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[ von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[&#x200B; von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * **Portfolios**: Weitere Informationen finden Sie unter [Freigeben eines Portfolios](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
