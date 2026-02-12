@@ -188,7 +188,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
 
-1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
@@ -198,7 +198,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem ](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
+   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem &#x200B;](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
    * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
@@ -258,7 +258,7 @@ So konfigurieren Sie einen Datensatztyp als global:
 
    * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen.
    * **Spezifische Arbeitsbereiche**: Fügen Sie aus dem Dropdown-Menü die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
-1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
