@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 1%
+source-wordcount: '823'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Fo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,12 +58,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Beachten Sie Folgendes, wenn Sie Benutzern Zugriff auf Finanzdaten in Workfront gewähren:
 
+* Ein Benutzer, dessen Zugriffsebene keinen Zugriff auf Finanzdaten zulässt, kann keinen Zugriff gewähren, der es anderen ermöglicht, Finanzdaten anzuzeigen. Dazu gehört der Zugriff auf Projekte, die Finanzdaten anzeigen, oder die Änderung einer Zugriffsebene, um die Anzeige von Finanzdaten zu ermöglichen.
 * Ein Benutzer, dessen Zugriffsebene keinen Zugriff auf Finanzdaten zulässt, kann kein Risiko für ein Projekt verursachen. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Sie können auch eine Zugriffsebene verwenden, um zu bestimmen, welche Ressourcenverwaltungsaktivitäten ein Benutzer verwenden kann, um Ressourcenzuordnungen zu budgetieren oder anzuzeigen. Weitere Informationen finden Sie unter [Zugriff auf Ressourcenverwaltung gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Konfigurieren des Benutzerzugriffs auf Finanzdaten mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben Finanzdaten und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
    ![](assets/financial-data-fine-tune-nwe.png)

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Informationen zur Verwendung benutzerdefinierter Zugriffsebenen zur Verwaltung d
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Konfigurieren des Benutzerzugriffs auf Projekte mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts von „Projekte“ und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren**.
 
    ![Optimieren von Einstellungen zum Kopieren von Projekten](assets/planner-fine-tune-your-settings-with-copy-projects.png)
@@ -68,6 +68,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >* Benutzer mit einer Revisionslizenz haben Ansichtsrechte für Projekte aus konvertierten Problemen, ihre Ansichtsrechte sind jedoch eingeschränkt.
    >* Informationen zu den Berechtigungen, die Benutzende beim Freigeben von Projekten für andere erteilen können, finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Wenn Sie eine Zugriffsebenen-Einstellung für einen bestimmten Objekttyp konfigurieren, hat diese Konfiguration keine Auswirkungen auf den Zugriff der Benutzer auf Objekte mit einem niedrigeren Rang. Sie können beispielsweise Benutzerinnen und Benutzer daran hindern, Projekte in ihrer Zugriffsebene zu löschen, was sie jedoch nicht daran hindert, Aufgaben zu löschen, die schlechter rangieren als Projekte. Weitere Informationen zur Hierarchie von Objekten finden Sie im Abschnitt [Interdependenz und Hierarchie von Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) im Artikel [Grundlegendes zu Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   * Ein Benutzer, dessen Zugriffsebene keinen Zugriff auf Finanzdaten zulässt, kann keinen Zugriff gewähren, der es anderen ermöglicht, Finanzdaten anzuzeigen. Dazu gehört der Zugriff auf Projekte, die Finanzdaten anzeigen, oder die Änderung einer Zugriffsebene, um die Anzeige von Finanzdaten zu ermöglichen.
+
 
 1. (Optional) Klicken Sie **rechts neben der Option Erstellen auf** Freigabestandardwerte festlegen **und dann auf „Regel hinzufügen**, um eine Freigabereregel für neue Projekte hinzuzufügen.
 

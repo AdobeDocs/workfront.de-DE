@@ -6,9 +6,9 @@ description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt ode
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Projekte**: Weitere Informationen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[&#x200B; von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[ von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * **Portfolios**: Weitere Informationen finden Sie unter [Freigeben eines Portfolios](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
@@ -99,7 +99,9 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 ## Freigabebeschränkungen
 
-Sie können ein Objekt für bis zu 100 Entitäten (Benutzer, Teams, Gruppen, Aufgabengebiete, Unternehmen) freigeben. Es wird empfohlen, Objekte für Gruppen, Teams oder Unternehmen freizugeben, anstatt sie für einzelne Benutzer freizugeben, um diese Einschränkung zu vermeiden.
+* Sie können ein Objekt für bis zu 100 Entitäten (Benutzer, Teams, Gruppen, Aufgabengebiete, Unternehmen) freigeben. Es wird empfohlen, Objekte für Gruppen, Teams oder Unternehmen freizugeben, anstatt sie für einzelne Benutzer freizugeben, um diese Einschränkung zu vermeiden.
+* Ein Benutzer, dessen Zugriffsebene keinen Zugriff auf Finanzdaten zulässt, kann keinen Zugriff gewähren, der es anderen ermöglicht, Finanzdaten anzuzeigen. Dazu gehört der Zugriff auf Projekte, die Finanzdaten anzeigen, oder die Änderung einer Zugriffsebene, um die Anzeige von Finanzdaten zu ermöglichen.
+
 
 ## Freigeben von Berechtigungen für Objekte
 
