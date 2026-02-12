@@ -382,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
