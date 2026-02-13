@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 >[!NOTE]
 >
 >Vorschau: 29. Januar 2026
->Produktions-Schnellveröffentlichung: 12. Februar 2026\
+>Produktions-Schnellveröffentlichung: 12. Februar 2026
 >Produktion für alle: 16. April 2026
+>
+>Diese Funktion wurde am 13. Februar 2026 vorübergehend aus der Produktionsumgebung entfernt.
 
 Der neue **Rich-Text**-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.
 

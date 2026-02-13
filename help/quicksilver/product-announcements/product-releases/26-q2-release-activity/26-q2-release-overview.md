@@ -4,9 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '866'
 ht-degree: 4%
 
 ---
@@ -58,7 +59,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich-Text-Feldtyp ist jetzt in benutzerdefinierten Formularen verfügbar</a><p>Der neue <b>Rich-Text</b>-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.</p>
         </td>
         <td><p>Freitag, 29. Januar 2026</p></td>
-        <td><p>Freitag, 12. Februar 2026</p></td>
+        <td><p>Freitag, 12. Februar 2026</p>
+            <p>Diese Funktion wurde am 13. Februar 2026 vorübergehend aus der Produktionsumgebung entfernt.</p></td>
         <td><p>Freitag, 16. April 2026</p></td>
     </tr>
     <tr>
@@ -214,7 +216,7 @@ Einen Überblick über die Automatisierung und Integration von Workfront finden 
 
 ### Wartungs-Updates für Workfront
 
-Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+Informationen zu den Wartungs-Updates, die im zweiten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
