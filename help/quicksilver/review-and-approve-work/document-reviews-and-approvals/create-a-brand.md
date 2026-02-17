@@ -6,9 +6,10 @@ description: Einrichten von Marken für den KI-Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
@@ -42,11 +43,17 @@ Der KI-Reviewer verwendet Markenrichtlinien, um Inhalte während des Überprüfu
    <td> <p>Sie müssen Systemadministrator sein.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console-Berechtigungen</td> 
-   <td> <p>Sie müssen GenStudio Brand Manager verwenden.</p></td> 
+   <td role="rowheader">Berechtigungen für Admin Console*</td> 
+   <td> <p>Sie müssen GenStudio Brand Manager verwenden.</p>
+    <p>HINWEIS: Um GenStudio Brand Manager auszuwählen, müssen Sie die unter "<a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> zuweisen“ beschriebenen Schritte </a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -60,6 +67,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 * Ihr Unternehmen muss über GenStudio Foundation verfügen.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Erstellen einer Marke mit einer PDF
 
