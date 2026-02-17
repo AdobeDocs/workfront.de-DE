@@ -3,13 +3,13 @@ title: Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planni
 description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning. Dieser Versuch bietet Ihnen die Möglichkeit zu sehen, wie Planung eine Gesamtstrategie mit der tagtäglichen Arbeit verbindet, die sie Wirklichkeit werden lässt. Die Planung bietet einen zentralen Einblick in Ihren Marketing-Lebenszyklus, ermöglicht eine bessere Zusammenarbeit zwischen Teams, die Echtzeit-Verfolgung von Kampagnen und automatisierte Workflows. Sie können benutzerdefinierte Arbeitsbereiche erstellen und die Arbeit mit interaktiven Zeitleisten und Kalendern visualisieren. Mit dieser Testversion können Sie aus erster Hand erfahren, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 hidefromtoc: true
 hide: true
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
-
 
 <!--add at release to the metadata:
 author: Alina
@@ -154,6 +154,12 @@ Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu 
 
       Best Practices für die Verwendung der Workfront-Planung finden Sie unter [Best Practices für die Adobe Workfront-](/help/quicksilver/planning/general/planning-best-practices.md).
 
+## Weitere Informationen zu Workfront Planning
+
+Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best Practices für Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
 ## Berechtigungen für Workfront Planning-Daten während der kostenlosen Testversion
 
 * **Zwischen 2. März und 1. Mai 2026**:
@@ -169,7 +175,3 @@ Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu 
 * **Nach dem 1. Mai 2026:**
 
   Alle Benutzer in Ihrem System haben keinen Zugriff mehr auf Workfront Planning und Workfront sichert Ihre Daten.
-
-
-
-

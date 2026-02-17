@@ -1,241 +1,251 @@
 ---
-title: 'Playbook: Managed Scaling, nach dem ersten Sieg'
+title: 'Verwandeln Sie Ihren ersten Gewinn in nachhaltigen Schwung: ein Playbook für gemanagtes Skalieren'
 description: Erfahren Sie, wie Sie Adobe Workfront Planning nach Ihrer ersten erfolgreichen Implementierung einführen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
 
-# Playbook: gemanagte Skalierung, nach dem ersten Sieg
+# Verwandeln Sie Ihren ersten Sieg in nachhaltigen Schwung: ein Playbook für gemanagte Skalierung
 
 {{planning-important-intro}}
 
-**Version**: 1.0
 
-**Kontext**: „Wir haben unseren ersten Anwendungsfall landen lassen, und jetzt wollen alle mit.“
+Der erste erfolgreiche Anwendungsfall für Adobe Workfront Planning stellt einen Durchbruch dar: Nachfrageschübe, neue Teams wollen Zugriff, und Führungskräfte sehen das Potenzial für unternehmensweite Sichtbarkeit.
 
+Aber dies ist auch die zerbrechlichste Phase der Einführung: Man bewegt sich zu schnell in Richtung rigider Governance und riskiert, Teams wieder in die Tabellenkalkulation zu treiben; man bewegt sich zu locker und stellt genau jene Wucherung wieder her, die gelöst werden soll.
 
+In diesem Playbook wird ein ausgewogener Ansatz für die Verwendung von Workfront Planning als Abstimmungs-Engine skizziert, bei der die Sichtbarkeit an erster Stelle steht, lokale Innovationen ermöglicht werden und es ermöglicht wird, dass Unternehmensstandards aus echtem betrieblichen Erfolg hervorgehen, anstatt vorzeitig auferlegt zu werden.
 
-## &#x200B;1. Die „Erfolgsfalle“
+Im Folgenden finden Sie Informationen aus unseren Erfahrungen und einige Tipps, worauf Sie achten sollten.
 
-Manchmal fühlt es sich an, als wäre die gefährlichste Phase der WFP-Einführung unmittelbar nach dem ersten erfolgreichen Anwendungsfall oder POC. Die Begeisterung ist groß, aber die Angst vor „technischer Verschuldung“ und einer „administrativen Zersiedelung“ kann zu zwei gleichermaßen schädlichen Reaktionen führen:
+## &#x200B;1. Die Erfolgsfalle
 
-1. **Over-Governance**: Das System so eng einfrieren, dass neue Teams auf Tabellen zurückgreifen.
+Manchmal hat es den Eindruck, dass die gefährlichste Phase der Workfront-Planungsannahme unmittelbar nach dem ersten erfolgreichen Anwendungsfall oder dem Konzeptnachweis erfolgt. Der Enthusiasmus ist groß, aber die Angst vor der technischen Verschuldung und der ausufernden Verwaltung kann zu zwei gleichermaßen schädlichen Reaktionen führen:
 
-2. **Zero-Governance**: Jedes Team kann seine eigenen Felder und Datensatztypen erstellen und so die fragmentierte Zunahme an Metadaten in Legacy-Umgebungen reproduzieren.
+* **Über Governance**: Das System so eng sperren, dass neue Teams zu Tabellen zurückkehren.
 
+* **Zero Governance**: Jedes Team kann seine eigenen Felder und Datensatztypen erstellen und so die fragmentierte Zunahme der Metadaten in alten Umgebungen umsetzen.
 
+## &#x200B;2. Die Kernphilosophie: Workfront Planning als Abstimmungsmaschine
 
-## &#x200B;2. Die Kernphilosophie: WFP als „Abstimmungsmaschine“
+Anstatt zu versuchen, Teams daran zu hindern, anders zu sein, positionieren wir Workfront Planning als den Ort, an dem diese Unterschiede sichtbar gemacht werden, damit sie abgestimmt werden können.
 
-Anstatt zu versuchen, Teams daran zu hindern, anders zu sein, positionieren wir das WFP als den Ort, an dem diese Unterschiede sichtbar **gemacht, damit sie in Einklang gebracht werden können**.
+Um diese Bemühungen zu unterstützen, beachten Sie Folgendes:
 
+* **Umsetzungsgeschwindigkeit verwalten**: Es ist nur natürlich, vorsichtig mit der Erweiterung auf ein neues Tool zu sein, bevor bestehende Umgebungen optimiert werden. Die Entscheidung für Vereinfachung bietet eine hochgradig kontrollierte Grundlage, kann aber die Wertschöpfungszeit für Teams, die bereit sind, sich anzupassen, verzögern. Wir glauben, dass der effektivste Weg, um durch diese Veränderung zu führen, darin besteht, zu erkennen, dass die Sichtbarkeit Schritt 1 ist. Die Dynamik hin zu einem gemeinsamen, unternehmensfähigen Tool (weg von der Flut von Präsentationen und Tabellen) ist das, was letztendlich langfristige Ziele freisetzt.
 
+  Wir empfehlen, dass Sie anstelle eines Mandats, zuerst zu bereinigen, einen kleineren Teil der Ressourcen für die laufende Wartung und einen wesentlich größeren Teil für die Lösung dringender Geschäftsanforderungen verwenden.
 
-* **Verwaltung der Umsetzungsgeschwindigkeit**: Es ist nur natürlich, vorsichtig mit der Erweiterung auf ein neues Tool zu sein, bevor bestehende Umgebungen „bereinigt“ werden. Die Entscheidung für **Vereinfachung zuerst** bietet eine hochgradig verwaltete Grundlage, kann aber die Wertschöpfungszeit für Teams, die bereit sind, sich anzupassen, verzögern. Wir glauben, dass der effektivste Weg, um durch diese Veränderung zu führen, darin besteht anzuerkennen, dass **Sichtbarkeit Schritt 1 ist**. Die Dynamik hin zu einem gemeinsamen, einsatzbereiten Tool (weg von der Vielzahl von PPTs und Tabellenkalkulationen) ist es, was langfristige Ziele letztendlich freischaltet.
+  So ergibt beispielsweise ein Jahr ausschließlich für die „Bereinigung“ von Taxonomien wenig inkrementellen Wert. Die Bereitstellung einer Team-übergreifenden Sichtbarkeit bietet jedoch den transformativen Wert, den Ihre Stakeholder benötigen, und bietet gleichzeitig die einheitliche Datenstruktur, die Sie für die Verwaltung der Umgebung im Laufe der Zeit benötigen.
 
+  Sie können eine Team-übergreifende Sichtbarkeit durch einen einheitlichen Unternehmenskalender oder eine konsolidierte Roadmap für die Markteinführung erzielen.
 
+* **Erkenne die Realität**: Unabhängige Teams entwickeln natürlich ihre eigenen Prozesse, die oft in isolierten Tabellenkalkulationen verborgen bleiben. Indem Sie diese Prozesse in einer gemeinsamen Umgebung sichtbar machen, stellen Sie sie an einen Ort, an dem sie endlich angesprochen und verbessert werden können.
 
-  **Empfehlung**: Anstelle eines „Clean Up First“-Mandats empfehlen wir, einen kleineren Teil der Ressourcen für die laufende Wartung und einen wesentlich größeren Teil für die Lösung dringender Geschäftsanforderungen bereitzustellen. So ergibt beispielsweise ein Jahr ausschließlich für die „Bereinigung“ von Taxonomien wenig inkrementellen Wert. Die Bereitstellung **teamübergreifenden Sichtbarkeit** (z. B. über einen einheitlichen Unternehmenskalender oder eine konsolidierte GTM-Roadmap) bietet jedoch den transformativen Wert, den Ihre Stakeholder benötigen, und bietet gleichzeitig die einheitliche Datenstruktur, die Sie für die Verwaltung der Umgebung im Laufe der Zeit benötigen.
-
-* **Erkenne die Realität**: Unabhängige Teams entwickeln ganz natürlich ihre eigenen Prozesse, die oft in isolierten Tabellen verborgen bleiben. Die Umstellung auf das WEP schafft kein Chaos; sie beleuchtet das bereits bestehende. Indem Sie diese Prozesse in einer gemeinsamen Umgebung sichtbar machen, stellen Sie sie an einen Ort, an dem sie endlich angesprochen und verbessert werden können.
-
-* **Das Fortschrittssignal**: Wenn ein Team nach seinen eigenen Feldern fragt, ist es kein „ausuferndes“ - es ist **Adoption**. Das bedeutet, dass sie das WFP als ihren Arbeitsbereich sehen.
-
-* **Schulden verwalten, nicht verstecken**: Es ist nur natürlich, sich später um den Aufwand zu kümmern, um divergierende Taxonomien zu bereinigen. Die Alternative jedoch - die zu frühe Erzwingung strenger Standards - bringt Teams oft zurück in die Tabellenkalkulation, wo ihre Prozesse (und ihre Schulden) verborgen bleiben. Indem Sie es Teams ermöglichen, im WEP mit ihren aktuellen Klassifizierungen zu beginnen, verschieben Sie diese Schulden in eine sichtbare, verwaltete Umgebung. Dies macht die letztendliche Abstimmung zu einer iterativen Aufgabe statt zu einem einzigen, überwältigenden Migrationsprojekt.
-
-
-
-## &#x200B;3. Das Governance-Modell „Fahrspuren auf einer Straße“
-
-Skalieren Sie ohne Schulden, indem Sie „globale Spuren“ und „lokale Spielplätze“ definieren.
+  >[!IMPORTANT]
+  >
+  >Der Übergang zu Workfront Planning verursacht kein Chaos; es beleuchtet das bereits vorhandene.
 
 
+* **Erkenne das Zeichen des Fortschritts**: Wenn ein Team nach seinen eigenen Feldern fragt, ist es kein „ausuferndes Feld“. Betrachte es als Zeichen einer Adoption. Das bedeutet, dass das Team Workfront Planning als seinen Arbeitsbereich sieht.
 
-### A. Die globalen Fahrspuren
+* **Verwalten Sie die Schulden, verbergen Sie sie nicht**: Es ist nur natürlich, sich später um den Aufwand zu kümmern, der erforderlich ist, um divergierende Taxonomien zu bereinigen. Die Alternative jedoch - die zu frühe Durchsetzung strenger Standards - bringt die Teams oft zurück in eine Tabelle, in der ihre Prozesse (und ihre Schulden) verborgen bleiben. Indem Sie es Teams ermöglichen, mit ihrer aktuellen Klassifizierung in Workfront Planning zu beginnen, verschieben Sie diese Schulden in eine sichtbare, verwaltete Umgebung. Dies macht die letztendliche Abstimmung zu einer iterativen Aufgabe statt zu einem einzigen, überwältigenden Migrationsprojekt.
+
+## &#x200B;3. Das geführte Modell der Autonomie-Governance
+
+Sie definieren die Fahrspuren auf der Straße und die lokalen Spielplätze (oder die regulierten Standardeinstellungen und Vorlagen), während Sie den Teams die Flexibilität geben, ihren eigenen Pfad innerhalb der Fahrspuren auszuwählen.
+
+Betrachten Sie die folgenden Komponenten des geführten Autonomy-Governance-Modells:
+
+* [Die globalen Spuren](#the-global-lanes)
+* [Die lokalen Spielplätze](#the-local-playgrounds-or-the-spokes)
+
+Weitere Informationen finden Sie unter:
+
+* [Stellen Sie Ihr strategisches Zuhause bereit: ein 30-tägiges Launchpad](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
+* [Gestalten Sie Ihren Erfolg: Modellieren Ihrer Kampagnenhierarchie](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
+
+### Die globalen Spuren
+
+Die globalen Fahrspuren weisen folgende Merkmale auf:
 
 * **Kontrollierte Objekte**: Objekte, die jedes Team für das Reporting in Unternehmen verwenden muss (z. B. `Strategic Pillar`, `Region`, `Fiscal Quarter`).
 
-* **Verwaltet von**: Der zentrale COE-/Marketing-Ops-Administrator.
+* **Verwaltet von**: Das Kompetenzzentrum oder der Administrator für Marketing-Vorgänge.
 
-* **Regel**: Diese Felder sind „Freigegeben“ und obligatorisch.
+* **Regel**: Diese Felder werden freigegeben und sind obligatorisch.
 
+### Die lokalen Spielplätze (oder die „Speichen„)
 
-
-### B. Die lokalen Spielplätze (Speichen)
+Im Folgenden sind Merkmale der lokalen Spielplätze aufgeführt
 
 * **Experimentelle Objekte**: Felder oder Datensatztypen, die für die taktischen Anforderungen eines Teams spezifisch sind (z. B. die `Influencer Handle` eines Social-Media-Teams oder die `URL Slug` eines Web-Teams).
 
 * **Verwaltet von**: Der Teamleiter (mit leichter Anleitung).
 
-* **Regel**: Teams können hier innovativ sein. Wenn ein Feld „Lokal“ von > 3 Teams übernommen wird, wird es zu einer globalen Spur „befördert“.
+* **Regel**: Teams können hier innovativ sein. Wenn ein lokales Feld von mehr als drei Teams angenommen wird, kann es zu einer globalen Spur hochgestuft werden.
 
+## &#x200B;4. Betrachten wir das Governance-Paradoxon: Teams zuerst und Standards werden folgen
 
-
-## &#x200B;4. Das Governance-Paradoxon: Teams zuerst, Standards folgen
-
-Eine häufige Herausforderung bei der Skalierung des WEP ist die Entscheidung, welche an erster Stelle steht: **Enterprise Governance** oder **Team Operational Alignment**.
-
-
+Eine häufige Herausforderung bei der Skalierung der Workfront-Planung besteht darin, zu entscheiden, was an erster Stelle steht: Enterprise Governance oder die operative Ausrichtung des Teams.
 
 Wir glauben, dass der effektivste Weg, dies zu bewältigen, darin besteht, anzuerkennen, dass der Unternehmenswert auf einer Zwei-Wege-Straße aufbaut:
 
-1. **Teams benötigen Relevanz**: Das Unternehmen erzielt erst dann einen Wert, wenn seine Teams aktiv an der Ausführung arbeiten. Aus diesem Grund muss die Governance **Teams dienen** indem eine Struktur bereitgestellt wird, die ihren bekannten operativen Anforderungen entspricht.
+* **Teams benötigen Relevanz**: Das Unternehmen erzielt erst dann einen Wert, wenn seine Teams aktiv an der Ausführung arbeiten. Aus diesem Grund muss die Governance den Teams helfen, indem sie eine Struktur bereitstellt, die ihren bekannten betrieblichen Anforderungen entspricht.
 
-2. **Das Unternehmen benötigt Sichtbarkeit**: Nur wenn die Daten sauber genug sind, um aggregiert zu werden, kann die Führung fundierte Entscheidungen treffen. Aus diesem Grund müssen die Teams **dem Unternehmen dienen** indem sie die für die Portfoliosichtbarkeit erforderlichen Mindestmetadaten bereitstellen.
+* **Das Unternehmen benötigt Sichtbarkeit**: Nur wenn die Daten sauber genug sind, um aggregiert zu werden, kann die Führung fundierte Entscheidungen treffen. Daher müssen die Teams dem Unternehmen dienen, indem sie das Minimum an praktikablen Metadaten bereitstellen, das für die Sichtbarkeit des Portfolios erforderlich ist.
+
+Das Ziel der verwalteten Skalierung besteht darin, den Schnittpunkt dieser beiden Anforderungen zu ermitteln, indem ausreichend standardisiert wird, um Sichtbarkeit zu bieten, aber nicht so sehr, dass die Team-Ausführung blockiert wird.
+
+Betrachten Sie die folgenden Schritte beim Aufbau Ihres Governance-Modells:
+
+* [Ausrichten der Prioritäten: Daten vs. Visualisierung](#align-priorities-data-vs-visualization)
+* [Die servicegeführte Beobachtungsphase](#the-service-led-observation-phase)
+* [Rückwirkende Harmonisierung](#retroactive-harmonization)
+
+### Ausrichten der Prioritäten: Daten vs. Visualisierung
+
+Beachten Sie bei der Skalierung, dass die Wertdefinition zwischen den Rollen unterschiedlich ist:
+
+* **Der Administrator oder Produkteigentümer** schätzt einheitliche Taxonomien und Klassifizierungen. Ihr Ziel ist eine saubere Datenarchitektur, die eine langfristige Skalierbarkeit unterstützt.
+
+* **Der Stakeholder oder Leader** schätzt die Visualisierung und insight, die in einem globalen Kalender oder einer Portfolio-Zeitleiste erfasst werden können. Ihr Ziel ist es, den Moment des Blitzes zu identifizieren, der die Daten verwertbar macht.
+
+>[!NOTE]
+>
+>Die Strategie besteht darin, den Visualisierungsbedarf der Stakeholder als Anreiz dafür zu nutzen, dass das Team den Bedarf der Admins an Datenstandards erfüllt. Sie erhalten die einheitliche Taxonomie, indem Sie den Kalender bereitstellen, den die Führung verlangt.
 
 
-
-Das Ziel von „Managed Scaling“ besteht darin, den Schnittpunkt dieser beiden Anforderungen zu finden - ausreichend standardisiert, um Sichtbarkeit zu bieten, aber nicht so sehr, dass Sie die Teamausführung blockieren.
-
-
-
-### A. Abstimmen der Prioritäten: Daten vs. Visualisierung
-
-Beachten Sie bei der Skalierung, dass die Definition von „Wert“ je nach Personas unterschiedlich ist:
-
-* **Der Administrator/Produktinhaber**: Werte **einheitliche Taxonomien und Klassifizierungen**. Ihr Ziel ist eine saubere Datenarchitektur, die eine langfristige Skalierbarkeit unterstützt.
-
-* **Der Stakeholder/Leader**: Werte **Visualisierung und insight** (z. B. ein globaler Kalender oder eine Portfolio-Zeitleiste). Ihr Ziel ist der „Lightning Moment“, der die Daten verwertbar macht.
-
-
-
-**Die Strategie**: Verwenden Sie den Visualisierungsbedarf der Stakeholder als *Anreiz*, damit das Team den Datenstandard-Bedarf des Administrators einhält. Sie erhalten die einheitliche Taxonomie, indem Sie den „Superkalender“ bereitstellen, den die Führung verlangt.
-
-
-
-### B. Die „dienstlich geführte“ Beobachtungsphase
+### Die servicegeführte Beobachtungsphase
 
 Während des frühen Scale-ups besteht die Rolle des Administrators darin, diesen Austausch zwischen Teams und Unternehmen zu erleichtern.
 
-* **Priorisieren des Betriebs vor**: Es ist besser, Teams aktiv in isolierten Arbeitsbereichen zu planen, als sie durch einen Mangel an globalen Definitionen zum Stillstand zu bringen. Diese Aktivität sind die „Rohdaten“, die zum Aufbau gesunder, realer Standards erforderlich sind.
+Als Administrator können Sie diesen Austausch wie folgt erleichtern:
 
-* **Identifizieren Sie die „Sichtbarkeitsminima“**: Arbeiten Sie mit Führungskräften zusammen, um die 3-5 Felder zu identifizieren, *für das Reporting in Unternehmen sauber* müssen (z. B. `Strategic Alignment`, `Start Date`, `Budget`). Konzentrieren Sie Ihre Durchsetzungsenergie NUR hier.
+* **Priorisieren des Vorgangs vor**: Es ist besser, Teams aktiv in isolierten Arbeitsbereichen zu planen, als sie durch einen Mangel an globalen Definitionen zum Stillstand zu bringen. Diese Aktivität stellt die Rohdaten dar, die für den Aufbau gesunder, realer Standards erforderlich sind.
 
+* **Identifizieren der Sichtbarkeitsmindestwerte**: Arbeiten Sie mit Führungskräften zusammen, um die 3-5 Felder zu identifizieren, die für das Reporting in Unternehmen sauber sein müssen (z. B. `Strategic Alignment`, `Start Date`, `Budget`). Konzentrieren Sie Ihre Durchsetzungsenergie nur auf die Sichtbarkeitsmindestfelder.
 
+### Governance als Service
 
-### B. Rückwirkende Harmonisierung (Governance as a Service)
+Sobald sich über Teams hinweg ein Muster bekannter Anforderungen herausbildet, kann das Unternehmen diese Muster zu einem globalen Service konsolidieren. Dies ist Governance als Service.
 
-Sobald sich in allen Teams ein Muster „bekannter Bedürfnisse“ herausbildet, kann das Unternehmen diese Muster zu einem globalen Service konsolidieren.
+Gehen Sie folgendermaßen vor, um oder Governance als Service zu erreichen:
 
-1. **Erfolgreiche Muster beobachten**: Identifizieren Sie die „erfolgreichsten“ Taxonomien, die Teams bereits erstellt und übernommen haben.
+* **Erfolgreiche Muster beobachten**: Identifizieren Sie die erfolgreichsten Taxonomien, die von Teams bereits erstellt und übernommen wurden.
 
-2. **The Collaborative Handshake**: Teammitglieder zusammenbringen, um ihre lokalen Erfolge in einen gemeinsamen Unternehmensstandard zu integrieren.
+* **Den gemeinschaftlichen Handshake erreichen** Teamchampions zusammenbringen, um ihre lokalen Erfolge in einen gemeinsamen Unternehmensstandard zu verfeinern.
 
-3. **Bereitstellung als Service**: Einführung der neuen globalen Spuren nicht als „Einschränkung“, sondern als Möglichkeit, das Reporting und die teamübergreifende Ausrichtung für die Mitarbeitenden zu vereinfachen.
+* **Bereitstellung als Service**: Einführung der neuen globalen Spuren nicht als Einschränkung, sondern als Möglichkeit, die Berichterstellung und die teamübergreifende Ausrichtung für die Mitarbeitenden zu vereinfachen.
 
+>[!IMPORTANT]
+>
+>Denken Sie daran, dass Governance eine Antwort auf den operativen Erfolg sein sollte und keine Voraussetzung dafür.
 
+## &#x200B;5. Skalierungsmechanik für die Verwaltung von Feldern
 
-**Wichtige Neuerung**: Governance sollte eine Antwort auf den operativen Erfolg sein und keine Voraussetzung dafür.
+### Das musterbasierte Feldwachstumsmodell
 
+Die Anwendung dieser Philosophie erfordert einen durchdachten Ansatz in Bezug auf die Datenstruktur. Um eine ausufernde Regierungsführung zu vermeiden, widerstehen Sie dem Drang, für jede einzelne Anfrage globale Felder zu errichten.
 
+Verwenden Sie stattdessen den folgenden Feldreifepfad, damit Ihre Unternehmensstandards von der realen Nutzung geleitet werden:
 
-## &#x200B;5. Skalierungsmechanik: Das auf dem Muster basierende Wachstumsmodell
+* **Ebene 1: Lokales Experiment**: Team A erstellt ein benutzerdefiniertes Feld in seinem Arbeitsbereich.
 
-Die Anwendung dieser Philosophie erfordert einen durchdachten Ansatz in Bezug auf die Datenstruktur. Um eine ausufernde Regierungsführung zu vermeiden, widerstehen Sie dem Drang, für jede einzelne Anfrage globale Felder zu errichten. Verwenden Sie stattdessen den **Feldreifepfad**, damit Ihre Unternehmensstandards von der Verwendung in der Praxis geleitet werden:
+* **Ebene 2: Mustererkennung**: Der Administrator bemerkt, dass Teams B und C ein ähnliches Feld verwenden oder anfordern.
 
+* **Ebene 3: Unternehmensstandardisierung**: Der Administrator erstellt eine einzelne, standardisierte Version dieses Felds als Datensatztyp in der Workspace der globalen Taxonomie und stellt sie den Teams zur Verfügung.
 
+### So werden Felder eingestellt
 
-1. **Ebene 1: Lokales Experiment**: Team A erstellt ein benutzerdefiniertes Feld in seinem Arbeitsbereich.
+Sie werden einen Punkt erreichen, an dem Felder nicht mehr relevant sind und Sie sie zurückziehen müssen.
 
-2. **Ebene 2: Mustererkennung**: Der Administrator bemerkt, dass Teams B und C ein ähnliches Feld verwenden oder anfordern.
+Da Workfront Planning derzeit keine native Archivierungsfunktion für Felder aufweist, erfordert das Außerkraftsetzen eines lokalen Felds einen absichtlichen weichen Außerkraftsetzungsprozess, um historische Daten beizubehalten, ohne die Benutzeroberfläche zu überladen.
 
-3. **Ebene 3: Unternehmensstandardisierung**: Der Administrator erstellt eine einzelne, standardisierte Version dieses Felds als Datensatztyp in der **Globalen Taxonomie-Workspace** und stellt sie Teams zur Verfügung.
+So löschen Sie Felder:
 
+1. Führen Sie eine Datenmigration durch. Verwenden Sie eine Tabellenansicht (oder Fusion), um Werte aus dem lokalen Schattenfeld in das neue Feld Globale Spur zu kopieren. Stellen Sie sicher, dass die Daten während dieses Verschiebevorgangs validiert und bereinigt werden.
 
+2. Feld für veraltete Elemente umbenennen : Umbenennen des lokalen Felds mit einem Präfix wie `[DEPRECATED]` oder `z_` (z. B. `z_Language (Old)`). Dadurch wird das Feld in der Feldauswahl an den unteren Rand gedrängt und den Benutzern signalisiert, dass es nicht mehr die Quelle der Wahrheit sein sollte.
 
-### Die Mechanik des „Soft Retirement“
+3. Entfernen Sie das verworfene Feld aus allen Datensatzformularen. Dies ist der wichtigste Schritt. Dadurch wird verhindert, dass neue Daten eingegeben werden, während die alten Daten in vorhandenen Tabellenansichten oder Berichten bei Bedarf sichtbar bleiben.
 
-Da das WFP derzeit keine native „Archiv“-Funktion für Felder aufweist, ist zum Außerkraftsetzen eines lokalen Felds ein absichtlicher „Soft Retirement“-Prozess erforderlich, um historische Daten beizubehalten, ohne die Benutzeroberfläche zu überladen:
+4. Beginnen Sie den Sunset-Zeitraum, indem Sie das verworfene Feld (mit dem Präfix und entfernt aus den Formularen) 30 bis 60 Tage lang beibehalten, um sicherzustellen, dass während der Migration keine Daten ausgelassen wurden. Nach diesem Zeitraum kann das lokale Feld aus dem Arbeitsbereich gelöscht werden, wenn die Daten auf der globalen Spur vollständig abgestimmt sind.
 
+## &#x200B;6. Vermeiden der Workfront-Drift
 
+Gehen Sie wie folgt vor, um die Planung nicht zu überladen:
 
-1. **Datenmigration**: Verwenden Sie eine Tabellenansicht (oder Fusion), um Werte aus dem lokalen Feld „Shadow“ in das neue Feld „Global Lane“ zu kopieren. Stellen Sie sicher, dass die Daten während dieses Verschiebevorgangs validiert und bereinigt werden.
+* **Abstraktionsebene verstehen** Jedes Feld in Planning sollte eine strategische Frage beantworten. Wenn ein Feld nur für taktisches Tracking verwendet wird (z. B. wenn das Feld eine Frage wie „Wurde dieser Korrekturabzug genehmigt?“ beantwortet), behalten Sie es in Workfront bei.
 
-2. **Für veraltete** umbenennen: Benennen Sie das lokale Feld mit einem Präfix wie `[DEPRECATED]` oder `z_` um (z. B. `z_Language (Old)`). Dadurch wird das Feld in den Feldauswahl ganz nach unten verschoben und den Benutzern signalisiert, dass es nicht mehr das &quot;Source der Wahrheit“ ist.
+* **Konsolidierung zuerst erreichen**: Wenn ein Team ein neues Metadatenfeld benötigt, laden Sie es ein, zunächst die globale Taxonomie zu überprüfen. Dies erfordert, dass Team-Leads schreibgeschützten Zugriff auf den Arbeitsbereich der globalen Taxonomie erhalten (siehe Abschnitt 7). Indem Sie ihre taktischen Anforderungen einem vorhandenen strategischen Feld zuordnen, können Sie unnötige Duplizierungen vermeiden und die Reporting-Integrität aufrechterhalten.
 
-3. **Formularentfernung**: **Dies ist der kritischste Schritt.** Entfernen Sie das verworfene Feld aus allen **Datensatz-Forms**. Dadurch wird verhindert, dass neue Daten eingegeben werden, während die alten Daten in vorhandenen Tabellenansichten oder Berichten bei Bedarf sichtbar bleiben.
+## &#x200B;7. Sichtbarkeitsmodell für schreibgeschützten Zugriff
 
-4. **Der „Sunset“-Zeitraum**: Behalten Sie das verworfene Feld (mit Präfix und außerhalb der Form) 30 bis 60 Tage lang bei, um sicherzustellen, dass während der Migration keine Daten verpasst wurden. Nach diesem Zeitraum kann das lokale Feld aus dem Arbeitsbereich gelöscht werden, wenn die Daten auf der globalen Spur vollständig abgestimmt sind.
+Sie können dieses isolierte Gefühl ohne das Geräusch isolierter Arbeit lösen, indem Sie Teams schreibgeschützten Zugriff auf den Arbeitsbereich Globale Taxonomie gewähren, um zu sehen, welche Konzepte für ihre eigenen Workflows gelten könnten.
 
+Beachten Sie Folgendes:
 
+* **Das Problem**: Teams (in den Speichen) fühlen sich isoliert, weil sie nur ihre eigenen Aufzeichnungen sehen.
 
-## &#x200B;6. Vermeiden der „Kerndrift“ (die Abstraktionsregel)
+* **Die Lösung**: Gewähren Sie Teams schreibgeschützten Zugriff auf die Arbeitsbereiche, die für diese freigegebenen Datensatztypen als Primär festgelegt wurden.
 
-So verhindern Sie, dass die Planung so unübersichtlich wird wie Core:
+  Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).
 
-* **Die Abstraktionsebene**: Jedes Feld im WFP sollte eine &quot;**Frage“**. Wenn ein Feld nur für das taktische Tracking verwendet wird (z. B. „Wurde dieser Korrekturabzug genehmigt?„), behalten Sie es im Kern bei.
-
-* **Konsolidierung zuerst**: Wenn ein Team ein neues Metadatenfeld möchte, laden Sie es ein, zunächst die globale Taxonomie zu überprüfen. Dazu müssen Sie Team-Leads **Nur-Lese-Zugriff** auf den Arbeitsbereich Globale Taxonomie gewähren (siehe Abschnitt 7). Indem Sie ihre taktischen Anforderungen einem vorhandenen strategischen Feld zuordnen, vermeiden Sie unnötige Duplizierungen und behalten die Integrität des Reportings bei.
-
-
-
-## &#x200B;7. Das Sichtbarkeitsmodell „Nur-Lese-Zugriff“
-
-Lösen Sie das „isolierte“ Gefühl ohne das Geräusch der „isolierten“ Arbeit.
-
-* **Das Problem**: Teams in Sprechern fühlen sich isoliert, weil sie nur ihre eigenen Aufzeichnungen sehen.
-
-* **Die Lösung**: Gewähren Sie Teams **schreibgeschützten Zugriff auf die Arbeitsbereiche, die für diese freigegebenen Datensatztypen als &quot;Primär&quot;** sind.
-
-* **Das Ergebnis**: Sie können den umfassenderen Unternehmenskontext für Inspiration und Ausrichtung sehen, aber ihr lokaler Arbeitsbereich bleibt sauber und auf ihre spezifischen Aufgaben konzentriert.
-
-
+* **Ergebnis**: Die Teams können den größeren Unternehmenskontext als Inspiration und Ausrichtung sehen, aber ihr lokaler Arbeitsbereich bleibt sauber und auf ihre spezifischen Aufgaben konzentriert.
 
 ## &#x200B;8. Wachstumsmanagement durch Workshops
 
-Die Skalierung des WEP ist ebenso eine kulturelle wie eine technische Herausforderung. Nutzen Sie gezielte Workshops, um die „Governance-Lücke“ zu schließen.
+Die Skalierung der Workfront-Planung ist sowohl kulturell als auch technisch eine Herausforderung. Nutzung gezielter Workshops zur Überbrückung der Governance-Lücke.
 
+Im Folgenden finden Sie Ideen für Workshops, die Sie haben können:
 
+* [Der Discovery-Workshop „Die nötige Unordnung“](#the-necessary-mess-discovery-workshop)
+* [Die Ausrichtungssitzung „Strategische Sichtbarkeit“](#the-strategic-visibility-alignment-session)
+* [Das Schaufenster „Spoke-to-Global“](#the-spoke-to-global-showcase)
+* [Die Office Hours des „laufenden Supports“](#the-ongoing-support-office-hours)
 
-### A. Der Discovery-Workshop zur „notwendigen Unordnung“
+### Der Discovery-Workshop „Die nötige Unordnung“
 
 * **Zielgruppe**: Regionale Marketing-Leads und Ops-Champions.
 
-* **Goal**: Dokumentieren Sie die aktuelle „Siloed Reality“ (die fragmentierten operativen Daten).
+* **Ziel** Dokumentieren Sie die aktuelle isolierte Realität oder die tatsächlichen fragmentierten Betriebsdaten.
 
 * **Die Nachricht**: „Wir sind nicht hier, um Ihre Felder zu löschen. Wir sind hier, um zu verstehen, wie sie mit der globalen Strategie zusammenhängen.“
 
 * **Ergebnis**: Entwurf einer Zuordnung lokaler taktischer Felder zu globalen strategischen Fahrspuren.
 
+### Die Ausrichtungssitzung „Strategische Sichtbarkeit“
 
+* **Zielgruppe**: Hochrangige Marketing-Stakeholder (z. B. Personen in Führungsrollen).
 
-### B. Die Ausrichtungssitzung „Strategische Sichtbarkeit“
+* **Ziel**: Die Angst vor der Vereinfachung neu formulieren.
 
-* **Zielgruppe**: Hochrangige Marketing-Stakeholder (Führung).
+* **Die**: „Wir brauchen keine perfekte Taxonomie, um zu beginnen. Wir verwenden Workfront Planning als Umgebung, um die perfekte Taxonomie zu erstellen.“
 
-* **Ziel**: Ändern Sie die Angst vor der „Vereinfachung zuerst“.
+* **Ergebnis**: Genehmigung für die Weiterentwicklung von Workfront Planning als Abstimmungs-Engine, während Workfront in seinem aktuellen Status bleibt.
 
-* **Die Nachricht**: „Wir brauchen keine perfekte Taxonomie, um zu beginnen. Wir verwenden das WFP als Umgebung, um *die perfekte* aufzubauen“.
+### Das Schaufenster „Spoke-to-Global“
 
-* **Ergebnis**: Genehmigung für die Weiterentwicklung von WFP als Abstimmungsmaschine, während Core in seinem aktuellen Zustand bleibt.
+* **Zielgruppe**: Neue Teams zur Workfront-Planung.
 
+* **Ziel**: Reduzieren Sie das isolierte Gefühl.
 
+* **Die Meldung**: „Sehen Sie sich an, wie die lokale Arbeit von Team A automatisch den vorgesehenen Primären Workspace befüllt? Dieselbe Sichtbarkeit können Sie auch für Ihre Arbeit erreichen.“
 
-### C. Der „Spoke-to-Global“-Showcase
+* **Ergebnis**: Opt-in aus neuen Abteilungen, die den Vorteil sehen, verbunden zu werden, ohne ihre lokale Unabhängigkeit zu verlieren.
 
-* **Audience**: Neue Teams erkunden das WFP.
+### Die Office Hours des „laufenden Supports“
 
-* **Ziel**: Reduzieren Sie das „isolierte“ Gefühl.
-
-* **Die Nachricht**: „Sehen Sie sich an, wie die lokale Arbeit von Team A automatisch die vorgesehene Primäre Workspace befüllt? Dieselbe Sichtbarkeit können Sie auch für Ihre Arbeit erreichen.“
-
-* **Ergebnis**: Opt-in aus neuen Abteilungen, die den Vorteil einer „Vernetzung“ sehen, ohne ihre lokale Unabhängigkeit zu verlieren.
-
-
-
-### D. Die „Laufende Support“-Bürozeiten
-
-* **Zielgruppe**: Alle WFP-Benutzer (aktuelle und potenzielle).
+* **Zielgruppe**: Alle Workfront Planning-Benutzer (aktuelle und potenzielle).
 
 * **Ziel** Bereitstellung einer wiederkehrenden Umgebung mit geringem Aufwand für die Fehlerbehebung und für taktische Hinweise.
 
@@ -243,31 +253,27 @@ Die Skalierung des WEP ist ebenso eine kulturelle wie eine technische Herausford
 
 * **Ergebnis**: Erhöhtes Anwendervertrauen, schnellere Behebung technischer Probleme und die Identifizierung neuer Muster, die eine globale Standardisierung rechtfertigen könnten.
 
-
-
 ## &#x200B;9. Personalausstattung in größerem Maßstab: Funktionen und Zuständigkeiten
 
-Um in einem Modell mit verwalteter Skalierung erfolgreich zu sein, ist mehr als nur die Konfiguration von Tools erforderlich. Dafür ist eine klare Verteilung der Rollen auf die Global- und Spoke-Teams erforderlich.
+Um in einem verwalteten Skalierungsmodell erfolgreich zu sein, ist mehr als nur die Konfiguration des Tools erforderlich. Dies erfordert eine klare Verteilung der Rollen auf die Global- und Spoke-Teams.
 
+In den folgenden Unterabschnitten finden Sie Ideen für die Hauptakteure bei der Verwaltung des Skalierungsmodells.
 
+### Der Unternehmensarchitekt (Central Center of Excellence oder Marketing Operations)
 
-### A. Der Unternehmensarchitekt (zentrale COE/Marketing-Opportunities)
-
-* **Fokus**: Unternehmensintegrität, Systemleistung und **einheitliche Datentaxonomie**.
+* **Fokus**: Unternehmensintegrität, Systemleistung und einheitliche Datentaxonomie.
 
 * **Zuständigkeiten**:
 
-   * Verwaltet die **Globale Taxonomie Workspace**.
+   * Verwaltet die globale Workspace-Taxonomie.
 
-   * Erleichtert den **Field Maturity Path** (Förderung lokaler Erfolge nach globalen Standards).
+   * Erleichtert den Weg der Feldreife, indem lokale Erfolge nach globalen Standards gefördert werden.
 
-   * Behält die **Primären Workspace**-Ansichten für das Executive-Reporting bei.
+   * Behält die Primären Workspace-Ansichten für das Reporting von Führungskräften bei.
 
-   * Führt den monatlichen **semantischen Audit** über Arbeitsbereiche hinweg.
+   * Führt die monatliche semantische Prüfung über Arbeitsbereiche hinweg.
 
-
-
-### B. Der Sprecher (Teamprozessinhaber)
+### Der Spoke-Champion (Team Process Owner)
 
 * **Focus**: Teamrelevanz und Umsetzungsgeschwindigkeit.
 
@@ -277,51 +283,49 @@ Um in einem Modell mit verwalteter Skalierung erfolgreich zu sein, ist mehr als 
 
    * Sie steuert die Struktur des lokalen Arbeitsbereichs und benutzerdefinierte Feldexperimente.
 
-   * Stellt sicher, dass das Team das **Governed Gateway** (Forms) für die Dateneingabe verwendet.
+   * Stellt sicher, dass das -Team das gesteuerte Gateway-Forms für die Dateneingabe verwendet.
 
-   * Teilnimmt am **Partizipativen Handshake** während der Harmonisierung teil.
+   * Teilnimmt am kollaborativen Handshake während der Harmonisierung teil.
 
+### Der Executive Sponsor (Marketing-Führung)
 
-
-### C. Der Executive Sponsor (Marketing-Führung)
-
-* **Fokus**: Strategische Ausrichtung, OKR-Sichtbarkeit **Portfoliovisualisierung (z. B. globaler Kalender)**.
+* **Fokus**: Strategische Ausrichtung, OKR-Sichtbarkeit und Portfoliovisualisierung (z. B. globaler Kalender).
 
 * **Zuständigkeiten**:
 
-   * Definiert das Unternehmen **Marketing-OKRs** im Arbeitsbereich „Globale Taxonomie“.
+   * Definiert die Marketing-OKRs für Unternehmen im Arbeitsbereich „Globale Taxonomie“.
 
-   * Setzt sich bei anderen Führungskräften für den Wert von „Schritt 1 für die Sichtbarkeit“ ein.
+   * Verfechter der Sichtbarkeit von Schritt 1 für andere Führungskräfte.
 
    * Verstärkt die Ressourcenzuweisung von 80/20 (Wert über Bereinigung).
 
-
-
-### D. Der Aktivierungs-Lead (Änderungsverwaltung)
+### Der Aktivierungsleiter (Änderungsverwaltung)
 
 * **Focus**: Kulturwandel und Kompetenzentwicklung.
 
 * **Zuständigkeiten**:
 
-   * hostet wiederkehrende **Office Hours** und **Discovery Workshops**.
+   * Hosts wiederkehrende Office Hours und Discovery Workshops Touchpoints.
 
-   * Verwaltet das interne „Success Story“-Showcase.
+   * verwaltet das interne Success Story-Showcase.
 
    * Identifiziert technische Reibungspunkte, die der Unternehmensarchitekt lösen muss.
 
-
-
 ## &#x200B;10. Checkliste für die Skalierung des nächsten Teams
 
-* [ ] **Identify the Champion**: Wer ist der „Process Owner“ oder „Champion“ dieses neuen Teams?
+Alle Erkenntnisse aus einer erfolgreichen Implementierung sollten eine Checkliste generieren, die Sie für weitere Implementierungen verwenden können.
 
-* [ ] **Definieren des „Lokalen Deltas“**: Welche 2-3 Felder benötigt dieses Team, die der globale Standard derzeit nicht bereitstellt?
+Im Folgenden finden Sie Beispiele dafür, was eine Checkliste enthalten sollte:
 
-* [ ] **Map to Global Lanes**: Welche bereits vorhandenen globalen Felder können 80% ihres Bedarfs decken?
+* [ ] **Identifizieren des**: Wer ist der Prozessverantwortliche oder der Champion dieses neuen Teams?
+
+* [ ] **Definieren des lokalen Deltas**: Welche 2-3 Felder benötigt dieses Team, die der globale Standard derzeit nicht bereitstellt?
+
+* [ ] **Globale Spuren zuordnen**: Welche vorhandenen globalen Felder können 80 % der Bedürfnisse des zukünftigen Teams erfüllen?
 
 * [ ] **Globale Sichtbarkeit gewähren**: Gewähren Sie ihnen schreibgeschützten Zugriff auf die relevanten Primären Arbeitsbereiche und den Arbeitsbereich für die globale Taxonomie an Tag 1.
 
-* [ ] **Etablierung des Handoffs**: Wie „speist“ deren Arbeit die relevanten Primären Arbeitsbereiche? (z. B. über einen globalen Datensatztyp oder eine bestimmte Suche).
+* [ ] **Übergabe festlegen**: Wie wird die Arbeit in die entsprechenden Primären Arbeitsbereiche einfließen? Ihre Arbeit kann beispielsweise über einen globalen Datensatztyp oder ein bestimmtes Suchfeld in die entsprechenden Primären Arbeitsbereiche einfließen.
 
 <!--original content: 
 

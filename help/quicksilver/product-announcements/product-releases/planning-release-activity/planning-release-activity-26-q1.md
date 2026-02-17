@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -146,7 +147,7 @@ Weitere Informationen zum Konfigurieren von Projektverbindungsansichten, einschl
 
 >[!IMPORTANT]
 >
->Diese wurde vorübergehend aus der Vorschau- und Produktionsumgebung entfernt.
+>Diese wurde zwischen dem 20. Januar und dem 17. Februar 2026 vorübergehend aus der Vorschau- und Produktionsumgebung entfernt.
 
 >[!NOTE]
 >
@@ -300,9 +301,3 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 * Bei Auswahl mit mehreren Wörtern werden die Auswahlwerte in Kleinbuchstaben angezeigt und bei Auswahl mit mehreren Wörtern durch Unterstriche getrennt. Wenn Sie eine bereits als anderer Auswahlname für dasselbe Feld verwendete Beschriftung verwenden, fügt Workfront eine sequenzielle Zahl zum Wert hinzu.
 
 Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
-
-
-
-
-
-

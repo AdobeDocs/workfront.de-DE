@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '13769'
+source-wordcount: '13772'
 ht-degree: 2%
 
 ---
@@ -2111,11 +2111,11 @@ ht-degree: 2%
       * [Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
    * Best Practices für die Adobe Workfront-Planung {#adobe-workfront-planning-best-practices}
       * [Best Practices für Adobe Workfront: Artikelindex](planning/best-practices.md/best-practices-article-index.md)
-      * [Das 30-tägige Launchpad: Führen Sie Ihr strategisches Zuhause ein](planning/best-practices.md/30-day-launchpad.md)
-      * [Die Architektur des Erfolgs: Modellieren Sie Ihre Kampagnenhierarchie](planning/best-practices.md/model-campaign-hierarchy.md)
-      * [Der Marketing-Kalender, den Sie verpasst haben: keine Decks, nur Klarheit](planning/best-practices.md/marketing-calendar.md)
-      * [Playbook: gemanagte Skalierung, nach dem ersten Sieg](planning/best-practices.md/playbook-how-to-scale.md)
-      * [Die Brücke: Strategische Intention mit Projekten verbinden](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+      * [Stellen Sie Ihr strategisches Zuhause bereit: ein 30-tägiges Launchpad](planning/best-practices.md/30-day-launchpad.md)
+      * [Gestalten Sie Ihren Erfolg: Modellieren Ihrer Kampagnenhierarchie](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Marketing-Kalender erstellen: keine Decks, nur Klarheit](planning/best-practices.md/marketing-calendar.md)
+      * [Verwandeln Sie Ihren ersten Sieg in nachhaltigen Schwung: ein Playbook für gemanagte Skalierung](planning/best-practices.md/playbook-how-to-scale.md)
+      * [Brücke bauen: Strategischen Intent mit Projekten verbinden](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Adobe Workfront-Planungsarchitektur {#adobe-workfront-planning-architecture}
       * [Architektur: Artikelindex](planning/architecture/architecture-information.md)
       * [Arbeitsbereiche - Übersicht](planning/architecture/workspaces-overview.md)
@@ -2226,7 +2226,7 @@ ht-degree: 2%
          * [Aktualisieren Sie Ihre Arbeit mit dem Adobe Workfront-Plug-in](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Zeit mit dem Adobe Workfront-Plug-in erfassen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  von Adobe Creative Cloud verwalten](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme {#upload-docs-proofs-wf-cc}
          * [Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Hochladen von Dokumenten und Testsendungen mit dem Adobe Workfront-Plug-in für Creative Cloud-Programme](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
