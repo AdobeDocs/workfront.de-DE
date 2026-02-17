@@ -5,9 +5,9 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
+source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1617'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 
 >[!NOTE]
 >
->Diese Liste ist nicht vollständig. Jede dieser Objektlisten kann auch in einem Bericht oder Dashboard angezeigt werden. Beispielsweise zeigt ein Projektbericht oder ein Dashboard, der bzw. das einen Projektbericht enthält, auch eine Liste der Projekte an.
+>Diese Liste ist nicht vollständig. Jede dieser Objektlisten kann auch in einem Bericht oder Dashboard angezeigt werden. Beispielsweise zeigt ein Anfragebericht oder ein Dashboard, das einen Anfragebericht enthält, auch eine Liste von Anfragen an.
 
 | Workfront-Liste | Speicherort der Objektliste |
 |--- |--- |
@@ -61,14 +61,17 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
 | Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
 
-## Hinzufügen und Bearbeiten von Elementen in einer erweiterten Liste
+## Hinzufügen von Elementen zu einer erweiterten Liste
 
-Je nach Konfiguration der erweiterten Liste gibt es möglicherweise zwei Möglichkeiten, ein Element zur Liste hinzuzufügen:
+Führen Sie je nach angezeigter erweiterter Liste eine der folgenden Aktionen aus:
 
-* Klicken Sie auf eine Schaltfläche oberhalb der Liste. Diese Option öffnet ein Dialogfeld, in dem Sie Informationen eingeben und speichern können.
-* Klicken Sie **Neue**) unten in der Liste auf. Mit dieser Option fügen Sie der Tabelle eine neue Zeile hinzu und geben Informationen in jede Zelle ein.
+1. Klicken Sie oben rechts in der Liste auf die blaue Schaltfläche. Diese Option öffnet ein Dialogfeld, in dem Sie Informationen eingeben können. Die Daten werden als neue Zeile in der Tabelle gespeichert.
 
-  Erweiterte Listen unterstützen diese Feldtypen:
+   ODER
+
+1. Klicken Sie **Neue**) unten in der Liste auf. Mit dieser Option wird der Tabelle eine neue Zeile hinzugefügt. Doppelklicken Sie in eine Zelle, um darin Informationen einzugeben. Jede Zelle stellt ein Feld für das Listenelement dar. Felder müssen vorhanden sein, bevor sie in der Liste angezeigt werden.
+
+   Erweiterte Listen unterstützen diese Feldtypen:
 
    * Text
    * Zahl
@@ -81,50 +84,56 @@ Je nach Konfiguration der erweiterten Liste gibt es möglicherweise zwei Möglic
    * Zugewiesener (ein oder mehrere)
    * Farbwähler
 
-  Wenn Sie eine Zelle bearbeiten, hat jeder Feldtyp seine eigenen Bearbeitungsoptionen.
-
-Um ein Element in der Liste zu bearbeiten, doppelklicken Sie in die Zelle, die Sie bearbeiten möchten, und geben Sie die Informationen ein. Einige Zellen sind möglicherweise schreibgeschützt.
+   >[!NOTE]
+   >
+   >Jeder Feldtyp verfügt über seine eigenen Bearbeitungsoptionen. Einige Felder sind möglicherweise schreibgeschützt.
 
 ![Beispiel für eine erweiterte Liste](assets/glist-exchange-rates.png)
 
-## Verwenden der Aktionsleiste und des Menüs Mehr in einer erweiterten Liste
+## Elemente über die Aktionsleiste bearbeiten
 
-Die Aktionsleiste zeigt Aktionen an, die Sie für ein Listenelement ausführen können. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
+Sie können die Aktionsleiste in einer erweiterten Liste verwenden, um Elemente in der Liste zu bearbeiten. Nicht alle Aktionsleisten enthalten dieselben Optionen. Außerdem können Sie in einigen Listen möglicherweise keine Elemente auswählen, und die Aktionsleiste ist nicht verfügbar.
 
-1. Aktivieren Sie das Kontrollkästchen neben einem Element in der erweiterten Liste.
+1. Aktivieren Sie das Kontrollkästchen neben einem Element in einer erweiterten Liste.
 
    Die Aktionsleiste wird am unteren Bildschirmrand angezeigt.
 
    >[!NOTE]
    >
-   >Verschiedene erweiterte Listen ermöglichen möglicherweise die Auswahl eines einzelnen Elements, die Massenbearbeitung (die Auswahl mehrerer Elemente) oder die Auswahl keiner Elemente.
+   >Je nachdem, welche Liste Sie bearbeiten, können Sie ein oder mehrere Elemente auswählen, um die Aktionsleiste zu verwenden.
 
-1. Klicken Sie in der Aktionsleiste auf eine Schaltfläche, um diese Aktion auszuführen, z. B. das Anzeigen des Listenelements, das Löschen des Elements oder das Bearbeiten des Elements.
+1. Klicken Sie auf eine Aktion in der Leiste, um Elemente zu bearbeiten. Beispiele für Aktionen, die Sie auswählen können:
+
+   * Ansicht
+   * Bearbeiten
+   * Löschen
 
    Wenn für das ausgewählte Element keine Aktionen verfügbar sind, wird in der Aktionsleiste „Keine verfügbaren Aktionen“ angezeigt.
 
    ![Beispiel für Aktionsleiste](assets/glist-action-bar-statuses.png)
 
-1. Bewegen Sie den Mauszeiger über ein Primärfeld auf einem Listenelement, um das Menü **Mehr** anzuzeigen. (Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet.)
+1. Bewegen Sie den Mauszeiger über das Primärfeld eines Listenelements und klicken Sie dann auf das **Mehr** Menü ![Mehr Menüsymbol](assets/more-icon.png), um zusätzliche Aktionen anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste.
 
-1. Klicken Sie auf das Menü, um zusätzliche Aktionen für das Element anzuzeigen. Einige Aktionen sind möglicherweise spezifisch für diese Liste und werden in keiner anderen Liste angezeigt.
+   >[!TIP]
+   >
+   >Das primäre Feld wird in der ersten Spalte der Liste angezeigt.
 
    ![Weitere Menübeispiele](assets/glist-more-menu-priorities.png)
 
-## Anpassen von Spalten in einer erweiterten Liste
+## Spalten anpassen
 
-Einige erweiterte Listen ermöglichen es Ihnen, Spalten auszublenden und anzuzeigen sowie die Spalten neu anzuordnen.
+Je nachdem, welche Objekte Sie in einer erweiterten Liste anzeigen, können Sie Spalten in der Liste ausblenden, anzeigen oder neu anordnen.
 
 1. Klicken Sie **Spalten** über der Liste auf.
 
    ![Beispiel für Spalten anzeigen](assets/glist-display-move-columns.png)
 
 1. Verwenden Sie die Umschalter zum Anzeigen oder Ausblenden von Spalten in der Liste.
-1. Um die Spalten neu anzuordnen, klicken Sie auf das **Ziehen**-Symbol und verschieben Sie eine Spalte an die gewünschte Position. Durch das Verschieben von Spalten wird die Liste automatisch geändert.
+1. Um die Spalten neu anzuordnen, klicken Sie auf das Symbol **Ziehen** (![-Symbol](assets/drag-icon.png) und verschieben Sie eine Spalte an die gewünschte Position. Durch das Verschieben von Spalten wird die Liste automatisch geändert.
 
    >[!NOTE]
    >
-   >Das primäre Feld ist die Spalte in der Tabelle, die sich ganz links befindet. Sie ist an der ersten Position fixiert und kann nicht geändert werden. Wenn die Anzahl der Spalten groß ist, wird das primäre Feld nach links eingefroren, und wenn Sie horizontal scrollen, wird es immer angezeigt.
+   >Das primäre Feld ist die erste Spalte in der Liste. Sie ist an der ersten Position fixiert und kann nicht geändert werden. Wenn die Anzahl der Spalten groß ist, wird das primäre Feld nach links eingefroren, und wenn Sie horizontal scrollen, wird es immer angezeigt.
    >
    >Das Symbol neben einem Feldnamen zeigt den Feldtyp an, z. B. Text oder Datumsfeld.
 
@@ -132,9 +141,9 @@ Einige erweiterte Listen ermöglichen es Ihnen, Spalten auszublenden und anzuzei
 
    ![Indikator für ausgeblendete Spalten](assets/glist-columns-hidden-indicator.png)
 
-## Hinzufügen und Entfernen von Spalten in einer Liste mit dem Spalten-Manager
+## Hinzufügen und Entfernen von Spalten mit dem Spalten-Manager
 
-Einige erweiterte Listen bieten den **Spalten-Manager**, mit dem Sie einfach Spalten zur Liste hinzufügen und Spalten entfernen können. Sowohl native als auch benutzerdefinierte Felder sind verfügbar und können als Spalten ausgewählt werden. Benutzerdefinierte Felder müssen im System vorhanden sein, bevor Sie sie als Listenspalten hinzufügen können.
+Sie können den **Spalten-Manager** in einigen erweiterten Listen verwenden, um Spalten einfach zur Liste hinzuzufügen und daraus zu entfernen. Sie können sowohl System- als auch benutzerdefinierte Felder, die bereits in Workfront als Spalten vorhanden sind, zu einer erweiterten Liste hinzufügen oder entfernen.
 
 So fügen Sie Spalten hinzu und entfernen sie:
 
@@ -146,11 +155,13 @@ So fügen Sie Spalten hinzu und entfernen sie:
    >
    >Einige Felder sind möglicherweise unveränderlich und können nicht entfernt werden.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Klicken Sie auf **Speichern**.
 
    ![Spalten-Manager](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   Die Liste aktualisiert die Spalten entsprechend den von Ihnen getroffenen Entscheidungen.
 
 ## Anzeigen von Daten mit Ansichten in einer erweiterten Liste
 
@@ -192,7 +203,7 @@ So geben Sie eine Ansicht frei:
 
 1. Klicken Sie auf **Speichern**.
 
-## Elemente in einer erweiterten Liste filtern und gruppieren
+## Elemente filtern und gruppieren
 
 Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Liste anzeigen. Durch Gruppierungen werden Objekte auf der Liste in Bereichen nach bestimmten Kriterien getrennt.
 
