@@ -95,7 +95,7 @@ Für Organisationen mit Anfragen mit hohem Volumen oder erweiterten Automatisier
 
 Für diesen Ansatz benötigen Sie eine Lizenz für Adobe Workfront Fusion.
 
-Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * Trigger **Übermittlungsereignisse verwenden** Da Formulare ein einziges, bereinigtes Übermittlungsereignis bieten, können sie als Trigger für Fusion-Automatisierungen verwendet werden. Ein Fusionsszenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt in Workfront generieren.
 
