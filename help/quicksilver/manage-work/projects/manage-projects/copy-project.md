@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '751'
 ht-degree: 7%
 
 ---
@@ -112,6 +112,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
  </tbody> 
 </table>-->
 
+## Zu beachten
+
+* Beim Kopieren eines Projekts gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Projekt eine große Anzahl von Dokumenten angehängt ist und es nicht kopiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
+
 ## Einzelnes Projekt kopieren
 
 Beim Kopieren eines Projekts werden auch einige Informationen aus dem ursprünglichen Projekt in das neue Projekt kopiert. Sie können auch angeben, welche Elemente während des Kopiervorgangs nicht in das neue Projekt kopiert werden sollen.
@@ -120,7 +124,7 @@ Kopieren eines Projekts:
 
 {{step1-to-projects}}
 
-1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-icon.png) rechts neben dem Projektnamen.
+1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr ](assets/more-icon.png) rechts neben dem Projektnamen.
 
    ODER
 
