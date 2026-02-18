@@ -124,7 +124,7 @@ Kopieren eines Projekts:
 
 {{step1-to-projects}}
 
-1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr ](assets/more-icon.png) rechts neben dem Projektnamen.
+1. Wählen Sie das Projekt aus, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-icon.png) rechts neben dem Projektnamen.
 
    ODER
 
