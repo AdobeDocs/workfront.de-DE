@@ -5,9 +5,9 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1374'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,11 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 
 * KI-Formularausfüllung überschreibt keine Felder, die Sie bereits ausgefüllt haben.
 * Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff hätten.
-* Dateien, die Sie in Form Fill powered by AI verwenden, werden 24 Stunden lang in den Azure-Speicher hochgeladen. Dies ist für die Dokumentverarbeitung erforderlich.
-* Alle in Azure hochgeladenen Dateien werden derzeit in US Azure-Clustern für das 24-Stunden-Speicherfenster gespeichert.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Abrufen von Vorschlägen aus einer Textaufforderung
 
