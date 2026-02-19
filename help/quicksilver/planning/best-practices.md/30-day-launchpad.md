@@ -6,16 +6,24 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # Stellen Sie Ihr strategisches Zuhause bereit: ein 30-tägiges Launchpad
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>
+>Ihr Unternehmen muss über ein Workfront Planning Prime-Paket oder ein höheres Paket verfügen, um die in diesem Artikel empfohlenen Funktionen unterstützen zu können.
+>
+>Eine Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Verwenden Sie diese Anleitung, um zu erfahren, wie Sie Adobe Workfront Planning bei der Entwicklung einer Strategie einführen, die psychologische Sicherheit priorisiert, Störungen minimiert und schnelle Erfolge liefert.
 

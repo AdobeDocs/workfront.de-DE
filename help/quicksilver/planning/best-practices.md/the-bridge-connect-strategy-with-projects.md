@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 # Brücke bauen: Strategischen Intent mit Projekten verbinden
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>
+>Ihr Unternehmen muss über ein Workfront Planning Prime-Paket oder ein höheres Paket verfügen, um die in diesem Artikel empfohlenen Funktionen unterstützen zu können.
+>
+>Eine Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Erfahren Sie, wie Sie einen strategischen Thread zwischen Ihren allgemeinen Plänen in Adobe Workfront Planning und Ihrer täglichen Ausführung in Workfront erstellen. Mithilfe von Verbindungen können Sie eine Brücke zwischen Strategie und Ausführung schlagen.
 
@@ -95,7 +103,7 @@ Für Organisationen mit Anfragen mit hohem Volumen oder erweiterten Automatisier
 
 Für diesen Ansatz benötigen Sie eine Lizenz für Adobe Workfront Fusion.
 
-Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * Trigger **Übermittlungsereignisse verwenden** Da Formulare ein einziges, bereinigtes Übermittlungsereignis bieten, können sie als Trigger für Fusion-Automatisierungen verwendet werden. Ein Fusionsszenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt in Workfront generieren.
 

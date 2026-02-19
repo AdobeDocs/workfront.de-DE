@@ -4,10 +4,10 @@ description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von A
 hidefromtoc: true
 hide: true
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 6863bc640eb401042797cfd47872fb658a2fbbae
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 1%
+source-wordcount: '1490'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,14 @@ Nachdem Ihr Workfront-Administrator die Vereinbarung akzeptiert und sich für di
 Die kostenlose Testversion von Workfront Planning bietet Folgendes:
 
 * Eine kuratierte Umgebung für die Planung mehrerer Arbeitsbereiche
+* Ein Workfront Planning Prime-Paket, das die folgenden Funktionen enthält:
+
+   * Unbegrenzte Arbeitsbereiche
+   * 500.000 Datensätze pro Arbeitsbereich
+   * 2 Millionen Arbeitsbereiche insgesamt
+   * Globale Datensatztypen
 * Beispieldaten, um Ihnen einen Eindruck zu vermitteln, wo Sie anfangen sollten
+* KI-geführtes Onboarding, bei dem Sie eine einfache Sprache verwenden oder ein vorhandenes Artefakt hochladen können, und Planning generiert eine benutzerdefinierte Struktur mithilfe von KI. Dadurch werden automatisch Arbeitsbereiche, Datensatztypen, Felder und Ansichten erstellt.
 * Produktinterne Schulungen und Anleitungen
 * Klare Angabe der Meilensteine, die auf bestimmte Rollen zugeschnitten sind.
 
@@ -79,8 +86,14 @@ Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testa
   Die folgenden Szenarien sind vorhanden:
 
    * Wenn der Workfront-Administrator dem Vertrag vor diesem Datum zugestimmt hat, finden Sie im Hauptmenü den Bereich Planung und verwenden Sie Workfront Planning.
+
+  >[!NOTE]
+  >
+  >Der Bereich Planung wird im Hauptmenü für alle Benutzer im System angezeigt, unabhängig von ihrem Workfront-Lizenztyp.
+
    * Wenn Ihr Workfront-Administrator die Vereinbarung vor diesem Datum nicht akzeptiert hat, muss er sie zunächst akzeptieren, bevor Sie Zugriff auf Workfront Planning erhalten.
 * **1. April 2026**: Sie können sich nicht mehr für die Studie registrieren.
+
 
   Die folgenden Elemente werden aus Ihrer Workfront-Instanz entfernt:
 
@@ -99,68 +112,9 @@ Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testa
 <!--Lauren wanted this out: 
 * **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
-## So melden Sie sich für die kostenlose Testversion an
+## Berechtigungen für Workfront Planning-Daten während und nach der kostenlosen Testversion
 
-Einer Ihrer Workfront-Administratoren muss die Vereinbarung über die juristische Testversion überprüfen und unterzeichnen, bevor jeder in Ihrem Unternehmen Zugang zur kostenlosen Testversion von Workfront Planning erhält.
-
-Sie können die Vereinbarung vor Beginn der Testversion am 2. März 2026 überprüfen und unterzeichnen.
-
-<!--check the steps here at release-->
-
-Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu überprüfen und zu akzeptieren:
-
-* Gehen Sie vor dem 2. März 2026 wie folgt vor:
-
-   1. (Bedingt) Melden Sie sich bei Adobe Workfront als Systemadministrator an.
-   1. Führen Sie einen der folgenden Schritte aus:
-
-      * Folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält**
-
-      * Gehen Sie zum Bereich **Workfront** Benachrichtigungen in der oberen rechten Ecke des Bildschirms und klicken Sie dann auf **Alle Ankündigungen** und suchen Sie die Ankündigungscenter-Nachricht zur Workfront Planning-Testversion.
-   1. Klicken Sie **Testvereinbarung überprüfen**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
-   1. Klicken Sie **Akzeptieren**, nachdem Sie die Vereinbarung geprüft haben.
-   1. (Bedingt) Wenn Sie kein Systemadministrator sind, folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält** und klicken Sie dann auf **Weitere Informationen**.
-
-      Weitere Informationen zur Workfront Planning-Testversion und zu Workfront Planning finden Sie.
-
-* Gehen Sie nach dem 2. März 2026, dem Start der Testversion, wie folgt vor:
-
-   1. (Bedingt) Melden Sie sich bei Adobe Workfront als Systemadministrator an.
-   1. Führen Sie einen der folgenden Schritte aus:
-
-      * Folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält**
-
-      * Gehen Sie zum Bereich **Workfront** Benachrichtigungen in der oberen rechten Ecke des Bildschirms und klicken Sie dann auf **Alle Ankündigungen** und suchen Sie die Ankündigungscenter-Nachricht zur Workfront Planning-Testversion
-
-      * Navigieren Sie **Setup** > **System** > **Voreinstellungen**.
-   1. (Bedingt) Wenn Sie sich im Bereich **Setup** befinden, gehen Sie zum Abschnitt **Andere Voreinstellungen** und klicken Sie dann auf **Testvereinbarung überprüfen**.
-   1. Klicken Sie **Akzeptieren**, nachdem Sie die Vereinbarung geprüft haben.
-
-      Ihr Unternehmen ist jetzt für die Testversion von Workfront Planning bis zum 1. Mai 2026 registriert.
-
-      Nachdem Sie die Testvereinbarung akzeptiert haben, treten folgende Dinge auf:
-
-      * Der Bereich Planung wird dem Hauptmenü für Sie und alle Benutzer in Ihrem System hinzugefügt und zeigt ein &quot;**&quot;**.
-      * Als Systemadministrator erhalten Sie Verwaltungszugriff auf die Registerkarte **Best Practice-**&quot; im Bereich Planung.
-      * Alle Benutzer in Ihrem System, die keine Systemadministratoren sind, erhalten Ansichtszugriff auf die Registerkarte **Best Practice-Arbeitsbereiche** im Bereich Planung.
-   1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung noch nicht akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning Trial** enthält, und klicken Sie dann auf **Weitere Informationen**.
-
-      Weitere Informationen zur Workfront Planning-Testversion und zu Workfront Planning finden Sie.
-   1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning Trial** enthält, und klicken Sie auf **Open Planning**.
-
-      Beginnen Sie, die Registerkarte **Best Practice-**&quot; zu erkunden und geben Sie Workspaces oder deren Objekte für andere frei.
-
-      Weitere Informationen zur Verwendung von Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
-      Best Practices für die Verwendung der Workfront-Planung finden Sie unter [Best Practices für die Adobe Workfront-](/help/quicksilver/planning/general/planning-best-practices.md).
-
-## Weitere Informationen zu Workfront Planning
-
-Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
-Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best Practices für Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
-
-## Berechtigungen für Workfront Planning-Daten während der kostenlosen Testversion
+Alle Benutzenden in Ihrem Unternehmen erhalten während der Testphase das folgende Workfront Planning-Paket und die Berechtigungsstufe für Workfront Planning:
 
 * **Zwischen 2. März und 1. Mai 2026**:
 
@@ -168,10 +122,175 @@ Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best
 
   Die Anwender in Ihrem System erhalten während der kostenlosen Testversion die folgenden Berechtigungen für die Arbeitsbereiche im Bereich Planung :
 
-   * Alle Systemadministratoren haben Verwaltungsberechtigungen für die Registerkarte Arbeitsbereiche .
-   * Alle anderen Benutzer haben Anzeigeberechtigungen für die Registerkarte Arbeitsbereiche , der Systemadministrator kann ihnen jedoch Verwaltungsberechtigungen für Arbeitsbereiche erteilen.
-   * Alle Benutzer, einschließlich des Systemadministrators, haben Anzeigeberechtigungen für die Registerkarte Best Practice-Arbeitsbereiche im Bereich Planung.
+   * Alle Systemadministratoren haben Verwaltungsberechtigungen für die Arbeitsbereiche, an denen ich mitarbeite, und für die Registerkarte Alle Arbeitsbereiche .
+   * Alle anderen Benutzer haben Anzeigeberechtigungen für den Arbeitsbereich, der Systemadministrator kann ihnen jedoch Verwaltungsberechtigungen für die dort angezeigten Arbeitsbereiche erteilen.
+   * Alle Benutzer, einschließlich des Systemadministrators, haben Anzeigeberechtigungen für die Registerkarte Beispiel-Arbeitsbereiche im Bereich Planung.
 
 * **Nach dem 1. Mai 2026:**
 
   Alle Benutzer in Ihrem System haben keinen Zugriff mehr auf Workfront Planning und Workfront sichert Ihre Daten.
+
+## Weitere Informationen zu Workfront Planning
+
+Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best Practices für Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+<!--
+
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: 
+
+## Get started with the Adobe Workfront Planning free trial-->
+
+## Für die kostenlose Testversion von Workfront Planning registrieren
+
+Einer Ihrer Workfront-Administratoren muss die Vereinbarung über die juristische Testversion überprüfen und unterzeichnen, bevor jeder in Ihrem Unternehmen Zugang zur kostenlosen Testversion von Workfront Planning erhält.
+
+Sie können die Vereinbarung ab dem 26. Januar 2026 überprüfen und unterzeichnen, bevor die Testversion am 2. März 2026 beginnt. Ihr Unternehmen erhält jedoch am 2. März 2026 Zugriff auf Workfront Planning.
+
+>[!NOTE]
+>
+>Nur ein Systemadministrator muss die Vereinbarung akzeptieren. Es ist nicht erforderlich, dass alle Systemadministratoren sie akzeptieren.
+
+<!--check the steps here at release and take out the "before March 2" info-->
+
+Führen Sie einen der folgenden Schritte aus, um die rechtliche Vereinbarung zu überprüfen und zu akzeptieren und zu vereinbaren, den Prozess am 2. März zu beginnen:
+
+### Melden Sie sich zwischen dem 26. Januar und dem 2. März 2026 für den Planning-Test an
+
+1. (Bedingt) Melden Sie sich bei Adobe Workfront als Systemadministrator an.
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält**
+
+   * Gehen Sie zum Bereich **Workfront** Benachrichtigungen in der oberen rechten Ecke des Bildschirms und klicken Sie dann auf **Alle Ankündigungen** und suchen Sie die Ankündigungscenter-Nachricht zur Workfront Planning-Testversion.
+1. Klicken Sie **Testvereinbarung überprüfen**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
+1. Klicken Sie **Akzeptieren**, nachdem Sie die Vereinbarung geprüft haben.
+1. (Bedingt) Wenn Sie kein Systemadministrator sind, folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält** und klicken Sie dann auf **Weitere Informationen**.
+
+   Weitere Informationen zur Workfront Planning-Testversion und zur Workfront Planning-Version finden Sie in diesem Artikel.
+
+### Melden Sie sich zwischen dem 2. März und dem 1. April 2026 für die Planning-Testversion an
+
+>[!WARNING]
+>
+>Der Opt-in-Zeitraum endet am 1. April 2026.
+
+1. (Bedingt) Melden Sie sich bei Adobe Workfront als Systemadministrator an.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Folgen Sie dem In-App-Banner, das Informationen zur Testversion von **Workfront Planning enthält**
+
+   * Gehen Sie zum Bereich **Workfront** Benachrichtigungen in der oberen rechten Ecke des Bildschirms und klicken Sie dann auf **Alle Ankündigungen** und suchen Sie die Ankündigungscenter-Nachricht zur Workfront Planning-Testversion
+
+   * Navigieren Sie **Setup** > **System** > **Voreinstellungen**.
+1. (Bedingt) Wenn Sie sich im Bereich **Setup** befinden, gehen Sie zum Abschnitt **Andere Voreinstellungen** und klicken Sie dann auf **Testvereinbarung überprüfen**.
+1. Klicken Sie **Akzeptieren**, nachdem Sie die Vereinbarung geprüft haben.
+
+   Ihr Unternehmen ist jetzt für die Testversion von Workfront Planning bis zum 1. Mai 2026 registriert.
+
+   Nachdem Sie die Testvereinbarung akzeptiert haben, treten folgende Dinge auf:
+
+   * Der Bereich Planung wird dem Hauptmenü für Sie und alle Benutzer in Ihrem System hinzugefügt und zeigt einen **Trial**-Indikator an.
+   * Als Systemadministrator erhalten Sie Verwaltungszugriff auf die Registerkarte **Beispiel-**&quot; im Bereich Planung.
+   * Standardbenutzer erhalten in Planning Ansichtszugriff auf die Registerkarte **Beispiel-**&quot; und können ihre eigenen Arbeitsbereiche, Datensatztypen, Datensätze, Felder und Ansichten erstellen und diese für andere freigeben.
+   * Alle anderen Benutzer erhalten Ansichtszugriff auf den Tab **Beispiel-Arbeitsbereiche** im Bereich Planung und können Zugriff auf andere Arbeitsbereiche erhalten, wenn andere sie für sie freigeben.
+1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung noch nicht akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning Trial** enthält, und klicken Sie dann auf **Weitere Informationen**.
+
+   Weitere Informationen zur Workfront Planning-Testversion und zur Workfront Planning-Version finden Sie in diesem Artikel.
+1. (Bedingt) Wenn Sie kein Systemadministrator sind und Ihr Systemadministrator die Testvereinbarung akzeptiert hat, folgen Sie dem In-App-Banner, das Informationen zur **Workfront Planning Trial** enthält, und klicken Sie auf **Open Planning**.
+
+   Beginnen Sie damit, die Registerkarte **Beispiel-**&quot; zu erkunden und die für Sie freigegebenen Arbeitsbereiche zu überprüfen, zu verwenden oder freizugeben.
+
+   Weitere Informationen zur Verwendung von Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+   Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best Practices für Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+<!--uncomment this on March 2: 
+
+### Experience Workfront Planning through the free trial
+
+You can review sample Planning workspaces and their objects as well as create your own when you enroll in the Workfront Planning trial. 
+
+1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
+
+    For information, see the section [Enroll in the Workfront Planning free trial](#enroll-in-the-workfront-planning-free-trial)
+1. Click the **Main Menu** icon ![](assets/main-menu-shell.png), then click **Planning**. The icon displays a **Trial** label next to it. 
+    
+    The **Planning** area opens in the **Sample workspaces** tab. 
+1. Review the following workspaces available in the **Sample workspaces** tab: 
+
+    * **Global Classifications & Taxonomies**: Contains sample Planning object types that are the foundation of a Marketing System of Record. 
+    
+        All record types in this workspace can constitute de building blocks of your Workfront Planning structure. All record types are global and can be added or connected from all other workspaces. For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+        
+        For our recommendation on how to use the Global Taxonomies workspace, see [Turn your first win into sustainable momentum: a playbook for managed scaling](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md). 
+    * Additional sample workspaces: The following workspaces serve as examples of what a sample company (Fréscopa) might need as specific workspaces, record types, fields, and views to architecture their organization and work structure: 
+
+        * **Fréscopa Global Marketing**
+        * **Fréscopa Social Marketing**
+        * **Fréscopa Media & PR**
+        * **Fréscopa Executive Company Leadership**
+
+    >[!NOTE]
+    >
+    >As a System Administrator, you might be able to edit the sample workspaces. However, we recommend you keep them as they are to use them for guidance and instead build your own workspaces mirroring those we offer as samples. 
+
+1. Click **Create workspace** to create your own workspace.
+    
+    For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+
+    As a System Administrator, your new workspaces display on the **All workspaces** and the **Workspaces I'm on** tabs.
+
+    >[!TIP]
+    >
+    >Standard license users can create workspaces that will display in the **Workspaces** area.
+
+1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications.
+
+    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+    >[!NOTE]
+    >
+    >We do not require that you sign the Adobe Gen AI agreement to be able to use the Planning Designer in Workfront Planning during the trial.
+
+1. In the workspaces you created, create any of the following: 
+
+    * Record types
+
+        For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+    * Records
+
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+    * Views
+
+        For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+    * Fields
+
+        You can create custom fields for each record type, import them from Workfront, or create connections to other record types, Workfront object types, or object types from other applications. 
+
+        For information, see the following articles: 
+
+        * [Create fields](/help/quicksilver/planning/fields/create-fields.md)
+        * [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+
+1. From the workspaces you created, share any of the following entities:
+
+    * Workspaces
+
+        For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
+    * Record types
+
+        For information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
+    * Views
+
+        For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
+
+    For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
+
+1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
+
+    For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+-->

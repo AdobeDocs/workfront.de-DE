@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
 
 # Verwandeln Sie Ihren ersten Sieg in nachhaltigen Schwung: ein Playbook für gemanagte Skalierung
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>
+>Ihr Unternehmen muss über ein Workfront Planning Prime-Paket oder ein höheres Paket verfügen, um die in diesem Artikel empfohlenen Funktionen unterstützen zu können.
+>
+>Eine Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Der erste erfolgreiche Anwendungsfall für Adobe Workfront Planning stellt einen Durchbruch dar: Nachfrageschübe, neue Teams wollen Zugriff, und Führungskräfte sehen das Potenzial für unternehmensweite Sichtbarkeit.
