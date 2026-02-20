@@ -267,7 +267,7 @@ Sie können für jeden Datensatztyp ein Anfrageformular erstellen, wenn Benutzer
 
 #### Wie sollte ich ein Anfrageformular für einen Datensatztyp erstellen oder bearbeiten?
 
-* ✅ Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ können die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning“ beschrieben ](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ können die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning“ beschrieben &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wer kann neue Datensätze mithilfe des Anfrageformulars einreichen?

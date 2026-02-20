@@ -49,7 +49,7 @@ Beachten Sie beim Delegieren von Aufgaben und Problemen Folgendes:
 
   Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-* Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; ].
+* Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
 * Beim Delegieren von Arbeit gibt es Ausnahmen für die folgenden Lizenztypen:
 
    * Sie können Arbeit an Prüfer oder Auftraggeber delegieren, obwohl [!DNL Workfront] dies nicht empfiehlt.
