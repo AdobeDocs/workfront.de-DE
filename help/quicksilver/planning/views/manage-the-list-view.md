@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,6 +93,8 @@ Weitere Informationen zum Verwalten von Listenansichten in Workfront finden Sie 
 
    Auf der Seite „Verbundene Datensätze“ werden Projekte angezeigt, die mit dem Datensatz in der Listenansicht verbunden sind.
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    ![Projekte auf der Seite mit verbundenen Datensätzen in der Listenansicht](assets/projects-on-connected-records-page-list-view.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Listenansicht zu ändern:
@@ -108,10 +110,12 @@ Weitere Informationen zum Verwalten von Listenansichten in Workfront finden Sie 
 
       >[!NOTE]
       >
-      >Sie müssen über Verwaltungsberechtigungen für eine Ansicht verfügen, um sie bearbeiten, freigeben oder löschen zu können.
+      >* Sie müssen über Verwaltungsberechtigungen für eine Ansicht verfügen, um sie bearbeiten, freigeben oder löschen zu können.
       >
-      >Sie können keine Systemansichten ändern.
+      >* Sie können keine Systemansichten ändern.
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png), um der Ansicht einen Filter hinzuzufügen. Die Ergebnisse werden sofort in der Liste gefiltert. Filter können nicht gespeichert und benannt werden. Filter werden gespeichert, wenn Sie in Zukunft auf die Seite zugreifen, und sie sind Teil freigegebener Ansichten.
    1. Klicken Sie auf das **Spalten**-Symbol ![Spalten-Symbol](assets/columns-icon.png), um auszuwählen, welche Spalten in der Ansicht angezeigt oder ausgeblendet werden sollen.
    1. Bewegen Sie den Mauszeiger über den Namen einer Spalte, klicken Sie dann links neben dem Spaltennamen auf den Abwärtspfeil und dann auf eine der folgenden Aktionen:
@@ -123,7 +127,30 @@ Weitere Informationen zum Verwalten von Listenansichten in Workfront finden Sie 
 
       Sie können der Listenansicht nur vorhandene Felder hinzufügen.
 Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (Optional) Fügen Sie ein Keyword in das Suchfeld in der oberen rechten Ecke der Liste ein, um nach einem Element zu suchen.
+
 
    Elemente, die mit Ihrem Suchbegriff übereinstimmen, werden in der Liste hervorgehoben.
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um der Liste weitere Elemente hinzuzufügen und sie automatisch mit dem ausgewählten Datensatz zu verbinden:

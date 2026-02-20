@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ Die globalen Fahrspuren weisen folgende Merkmale auf:
 
 * **Regel**: Diese Felder werden freigegeben und sind obligatorisch.
 
+Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 ### Die lokalen Spielplätze (oder die „Speichen„)
 
 Im Folgenden sind Merkmale der lokalen Spielplätze aufgeführt
@@ -171,6 +173,8 @@ Verwenden Sie stattdessen den folgenden Feldreifepfad, damit Ihre Unternehmensst
 * **Ebene 2: Mustererkennung**: Der Administrator bemerkt, dass Teams B und C ein ähnliches Feld verwenden oder anfordern.
 
 * **Ebene 3: Unternehmensstandardisierung**: Der Administrator erstellt eine einzelne, standardisierte Version dieses Felds als Datensatztyp in der Workspace der globalen Taxonomie und stellt sie den Teams zur Verfügung.
+
+  Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### So werden Felder eingestellt
 
@@ -334,6 +338,8 @@ Im Folgenden finden Sie Beispiele dafür, was eine Checkliste enthalten sollte:
 * [ ] **Globale Sichtbarkeit gewähren**: Gewähren Sie ihnen schreibgeschützten Zugriff auf die relevanten Primären Arbeitsbereiche und den Arbeitsbereich für die globale Taxonomie an Tag 1.
 
 * [ ] **Übergabe festlegen**: Wie wird die Arbeit in die entsprechenden Primären Arbeitsbereiche einfließen? Ihre Arbeit kann beispielsweise über einen globalen Datensatztyp oder ein bestimmtes Suchfeld in die entsprechenden Primären Arbeitsbereiche einfließen.
+
+  Informationen zu globalen Datensatztypen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 

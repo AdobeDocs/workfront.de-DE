@@ -7,9 +7,9 @@ description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Beachten Sie beim Delegieren von Aufgaben und Problemen Folgendes:
 
   Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-* Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
+* Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; ].
 * Beim Delegieren von Arbeit gibt es Ausnahmen für die folgenden Lizenztypen:
 
    * Sie können Arbeit an Prüfer oder Auftraggeber delegieren, obwohl [!DNL Workfront] dies nicht empfiehlt.
@@ -85,7 +85,7 @@ Beachten Sie beim Delegieren von Aufgaben und Problemen Folgendes:
 | Ein zugewiesener oder delegierter Benutzer wird in der Kopfzeile des Arbeitselements angezeigt | Ja | Ja |
 | Die zugewiesenen oder delegierten Aufgaben oder Probleme werden im Bereich Startseite des Verantwortlichen oder des Beauftragten angezeigt | Ja, bis das Element abgeschlossen ist | Ja, nur für den Zeitrahmen der Delegierung |
 | Sie können Benutzern im Bereich Startseite Arbeit zuweisen oder delegieren | Ja | Ja |
-| Sie können Benutzern Arbeit über die zuweisen oder delegieren. | Ja | Nein |
+| Mit dem Workload-Balancer können Sie Benutzern Arbeit zuweisen oder delegieren | Ja | Nein |
 | Sie können Benutzern in einer Liste oder in der Kopfzeile eines Arbeitselements Arbeit zuweisen oder delegieren | Ja | Nein |
 | Jeder Benutzer kann anderen Benutzern Arbeitselemente zuweisen oder delegieren, mit denen er nicht verknüpft ist | Basierend auf Berechtigungen und Zugriffsebene | Nein. Nur der Beauftragte kann seine eigenen Elemente delegieren. |
 | Geplante, tatsächliche oder budgetierte Stunden für Arbeit, die einem/r Benutzenden zugewiesen oder delegiert wurde, werden für diesen/n Benutzenden in Ressourcen-Management-Tools angezeigt | Ja | Nein |

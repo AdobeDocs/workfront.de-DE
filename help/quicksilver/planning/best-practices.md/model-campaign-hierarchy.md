@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Um Ihre Architektur mit dem Hub-and-Spoke-Ansatz zu erstellen, müssen Sie Folge
 
 Zunächst müssen Sie einen zentralen Arbeitsbereich für Ihre globalen Klassifizierungen einrichten, um die wichtigsten Konzepte zu definieren, die jeder in Ihrem Unternehmen verstehen muss. Erstellen Sie beispielsweise die folgenden Datensatztypen in einem zentralen Arbeitsbereich: Marken, Regionen, Produkte, Rollen.
 
-Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie unter:
+
+* [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Legen Sie beim Erstellen Ihrer Klassifizierungen Folgendes fest:
 

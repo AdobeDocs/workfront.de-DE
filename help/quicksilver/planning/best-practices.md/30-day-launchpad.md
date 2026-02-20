@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/qu
 Mit dieser Team-First-Architektur können Sie:
 
 * **Den Hub zur Unterstützung der Spoke-** entwerfen: Sie können den globalen Klassifizierungs-Arbeitsbereich speziell auf die Objekte konzentrieren, die für Ihr Pilotteam am wichtigsten sind (ihre spezifischen Marken oder Produkte). Dies festigt den kooperativen Handshake zwischen Unternehmens-Governance und Team-Autonomie und sorgt gleichzeitig dafür, dass der Design-Aufwand überschaubar bleibt.
+
+  Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * **Befähigung, nicht Hüterin:** Verlagerung der Rolle von der Regelsetzung zur Fähigkeitenentwicklung. Arbeiten Sie mit dem Team zusammen, um ihre Planungsumgebung zu strukturieren.
 
