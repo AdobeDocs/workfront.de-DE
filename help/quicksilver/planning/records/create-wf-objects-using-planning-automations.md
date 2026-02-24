@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 0%
+source-wordcount: '724'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,6 @@ In Workfront Planning können Sie folgende Elemente mithilfe von Automatisierung
 * Eine Gruppe
 * Ein Programm
 * Ein Portfolio
-* Ein Projekt
 
 ## Zugriffsanforderungen
 
@@ -157,14 +156,25 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
   `[ Name of the record ] Name of the field choice`
 
-  Weitere Informationen finden Sie [&#x200B; Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
 
 * Neue Objekte oder Datensätze überschreiben nicht vorhandene im selben Feld. Durch das mehrfache Auslösen derselben Automatisierung für denselben Datensatz werden die neuen Objekte oder Datensätze im selben verbundenen Feld des ursprünglichen Datensatzes zusätzlich zu den zuvor erstellten hinzugefügt.
+
+
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 
 ## Verwenden einer Workfront Planning-Automatisierung, um ein Objekt oder einen Datensatz zu erstellen
+
+<!--For Feb 26 and add Preview disclosure at the top:
+
+<span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
+
+For information, see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md).</span>
+-->
+
+In diesem Abschnitt wird beschrieben, wie Sie Objekte mithilfe einer Schaltflächen-Klick-Automatisierung erstellen.
 
 1. Öffnen Sie in Workfront Planning die Seite „Datensatztyp“, die die Automatisierung enthält, mit der Sie automatisch Datensätze oder Objekte erstellen und verbinden möchten.
 1. Öffnen Sie die Tabellenansicht.

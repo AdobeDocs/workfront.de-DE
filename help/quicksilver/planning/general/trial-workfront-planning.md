@@ -4,10 +4,10 @@ description: Adobe Workfront bietet eine 60-tägige kostenlose Testversion von A
 hidefromtoc: true
 hide: true
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 6863bc640eb401042797cfd47872fb658a2fbbae
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1490'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
 
-# Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planning
+# Erste Schritte mit der kostenlosen Testversion von Adobe Workfront-Planung
 
 <!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
 
@@ -64,7 +64,7 @@ Um an der kostenlosen Testversion von Workfront Planning teilnehmen zu können, 
    * Ultimate
 
   Die Workfront Planning-Testversion ist nicht für die veralteten Workfront-Pakete verfügbar.
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 * Zugriff auf die Adobe Admin Console
 * Ist Teil des Identity Management-Systems (IMS)
 * Akzeptieren Sie die Vereinbarung zur rechtlichen Testversion, die in der Workfront-Instanz Ihres Unternehmens ab dem 26. Januar 2026 verfügbar ist. Sie müssen ein Workfront-Administrator sein, um die Testvereinbarung akzeptieren zu können.
@@ -247,7 +247,7 @@ You can review sample Planning workspaces and their objects as well as create yo
     >
     >Standard license users can create workspaces that will display in the **Workspaces** area.
 
-1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications.
+1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications. (**********have they changed the button to Generate or is it Create???*********)
 
     For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
@@ -288,7 +288,14 @@ You can review sample Planning workspaces and their objects as well as create yo
         For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
     For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
+1. (Optional) To edit the workspace you created, do one of the following: 
 
+    * Open the workspace and manually make changes to it. 
+    
+        For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI** next to the workspace name to open the **Planning Designer** and use AI to make further changes to the workspace. 
+
+        For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
 
     For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
