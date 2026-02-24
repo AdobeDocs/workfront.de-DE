@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 3%
+source-wordcount: '1133'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -49,11 +49,13 @@ Sie können einen Benutzer jederzeit reaktivieren.
 >* Wenn Sie einen Benutzer in Workfront deaktivieren, werden die Lizenzen des Benutzers sowohl für Workfront als auch für das digitale Proofing entfernt. Darüber hinaus kann dem Benutzer keine Arbeit mehr zugewiesen werden. Wenn eine Benutzerin bzw. ein Benutzer deaktiviert wird, steht die Workfront-Lizenz und Proofing-Lizenz dieser Person zur Verwendung durch eine andere Person zur Verfügung. Alle anderen Informationen im Profil des deaktivierten Benutzers bleiben unverändert.
 >
 >* Wenn Sie einen Benutzer in Workfront deaktivieren, wird er nicht aus dem Workfront-Produktprofil in Adobe Admin Console entfernt. Weitere Informationen finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Wenn sich ein(e) Benutzende(r) in einer oder mehreren Admin Console-Benutzergruppen befindet und das Produktprofil zu einer oder mehreren dieser Benutzergruppen hinzugefügt wurde, werden diese Benutzenden nicht tatsächlich aus dem Produkt entfernt, wenn Sie sie aus Workfront deaktivieren. Der/die Benutzende muss/müssen aus den Benutzergruppen in Admin Console entfernt werden.
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +67,7 @@ Sie können einen Benutzer jederzeit reaktivieren.
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -119,7 +121,7 @@ So planen Sie die Deaktivierung eines Benutzers:
 
 1. Wählen Sie den Benutzer in der Benutzerliste aus.
 
-   Oder
+   ODER
 
    (Optional) Wählen Sie mehrere Benutzer aus, um sie für die Massendeaktivierung zu planen.
 
@@ -158,7 +160,7 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 Deaktivierte Benutzende verlieren ihre zugewiesene Standard-Proofing-Rolle und ihre Proofing-Lizenz (wenn Sie einen veralteten Workfront Premium-Plan verwenden). Wenn Sie den Benutzer erneut aktivieren möchten, müssen Sie:
 
 * Weisen Sie die Lizenz neu zu (wenn Sie einen alten Workfront Premium-Plan verwenden). Weitere Informationen zu Workfront-Proofing-Plänen finden Sie unter [Zugriff auf die Proofing-Funktionalität in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [&#x200B; Sie unter „Konfigurieren &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
+* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [ Sie unter „Konfigurieren ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
 
 ## Informationen zur Deaktivierung von Workfront-Administratoren und Benutzern von Standard- oder Planlizenzen
 
@@ -183,5 +185,5 @@ Wenn Sie einen Benutzer für die Deaktivierung planen, werden diese im Ressource
 
 Der Ressourcenplaner berücksichtigt alle Aufgabengebiete der Benutzer und die geplanten Abschlussdaten der Aufgaben und berechnet die Ressourcen entsprechend.
 
-Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Weitere Informationen zum Ressourcenplaner finden Sie unter [Überblick über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
