@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 6%
+source-wordcount: '1468'
+ht-degree: 9%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 6%
 
 Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und sie auf Benutzende anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie diese mit den Objektberechtigungen zusammenarbeiten, die Benutzende erteilen, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter:
 
-* [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Überblick über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Überblick über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -54,7 +54,7 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,21 +63,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step-1-to-setup}}
 
 1. Klicken **im linken** auf „Zugriffsebenen“.
-1. &#x200B;
-   * In der Produktionsumgebung:
-Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf **Kopieren**.
+1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png).
 
-     Oder
+   Oder
 
-     Wenn Sie eine vorhandene Zugriffsebene bearbeiten (die Sie zuvor kopiert haben), klicken Sie auf ihren Namen.
-
-   * <span class="preview">In der Vorschau-Umgebung:</span>
-
-     <span class="preview">Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png). </span>
-
-     <span class="preview">oder </span>
-
-     <span class="preview">Wenn Sie eine vorhandene Zugriffsebene bearbeiten, wählen Sie die Zugriffsebene aus, indem Sie auf das Feld links neben dieser Zugriffsebene und dann auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) klicken. </span>
+   Wenn Sie eine vorhandene Zugriffsebene bearbeiten, wählen Sie die Zugriffsebene aus, indem Sie auf das Kästchen links neben dieser Zugriffsebene und dann auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) klicken.
 
 1. Führen Sie im angezeigten Feld einen der folgenden Schritte aus, um mit der Konfiguration der benutzerdefinierten Zugriffsebene zu beginnen:
 
