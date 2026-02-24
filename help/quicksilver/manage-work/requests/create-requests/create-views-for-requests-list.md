@@ -1,20 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Ansichten im Bereich Anfragen erstellen und verwalten
+title: Erstellen und Verwalten von Ansichten im Bereich „Anfragen“
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 3%
+source-wordcount: '689'
+ht-degree: 9%
 
 ---
 
-# Ansichten im Bereich Anfragen erstellen und verwalten
 
-Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
+# Erstellen und Verwalten von Ansichten im Bereich „Anfragen“
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen. <!--<span class="preview"> and groupings.</span> -->
 
 Ansichten können im Bereich Anfragen von Workfront erstellt und verwaltet werden.
 
@@ -39,8 +47,8 @@ Ansichten können im Bereich Anfragen von Workfront erstellt und verwaltet werde
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -54,11 +62,11 @@ Ansichten können im Bereich Anfragen von Workfront erstellt und verwaltet werde
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen Sie eine Ansicht im Bereich Anfragen .
+## Ansicht für Anfragen erstellen
 
 Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
@@ -66,14 +74,14 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
    {{step1-to-requests}}
 
-1. Klicken Sie in der Liste Anfragen auf das Dropdown **&#x200B;**&#x200B;Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+1. Klicken Sie in der Liste Anfragen auf das Dropdown **** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
 1. Geben Sie einen Namen für die neue Ansicht ein und klicken Sie auf **Erstellen**.
 1. Fahren Sie [Bearbeiten einer Ansicht im Bereich Anfragen](#edit-a-view-in-the-requests-area) fort.
 
-## Bearbeiten einer Ansicht im Bereich „Anfragen“
+## Ansicht für Anfragen bearbeiten
 
 Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellten Ansichten.
 
@@ -110,6 +118,10 @@ Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellt
 Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Sie können Ansichten, die Sie erstellen, für andere Benutzer, Teams oder Grupp
 1. Wählen Sie **Freigeben** aus.
 1. Geben Sie in dem daraufhin angezeigten Dialogfeld die Namen der Benutzer, Teams oder Gruppen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus.
 1. Klicken Sie auf **Speichern**.
-
