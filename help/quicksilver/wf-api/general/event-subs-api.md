@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 93%
+source-wordcount: '3190'
+ht-degree: 97%
 
 ---
 
@@ -919,92 +919,6 @@ Doppelt verschachtelte Filter können ebenfalls adressiert werden.
 "filterConnector": 'AND'
 ```
 
-### Verwenden von Filtergruppen (Kombinationsfilter)
-
-Ereignisabonnements unterstützen Filtergruppen zusammen mit Standardfiltern, um verschachtelte logische Bedingungen zu unterstützen.
-
-Mit Filtergruppen können Sie verschachtelte logische Bedingungen (AND/OR) in Ihren Ereignisabonnementfiltern erstellen.
-
-Jede Filtergruppe kann über Folgendes verfügen:
-
-* Ein eigener Connector: `AND` oder `OR`
-* Mehrere Filter, die jeweils dieselbe Syntax und dasselbe Verhalten aufweisen wie eigenständige Filter
-
-Alle Filter innerhalb einer Gruppe unterstützen:
-
-* Vergleichsoperatoren: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
-* Statusoptionen: `newState`, `oldState`
-* Feld-Targeting: Beliebiger gültiger Objektfeldname
-
-Eine Gruppe muss mindestens zwei Filter enthalten
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-Dieses Beispiel zeigt:
-
-
-* Filter der obersten Ebene (außerhalb der Gruppe):
-
-  { &quot;`fieldName`&quot;: &quot;`percentComplete`&quot;, &quot;`fieldValue`&quot;: &quot;`100`&quot;, &quot;`comparison`&quot;: &quot;`lt`&quot; }
-
-  Dieser Filter prüft, ob das Feld „percentComplete“ der aktualisierten Aufgabe kleiner als 100 ist.
-
-* Filtergruppe (verschachtelte Filter mit `OR`):
-
-  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }] }
-
-  Bei dieser Gruppe werden zwei interne Filter ausgewertet:
-
-   * Der erste prüft, ob der Aufgabenstatus „CUR“ (aktuell) entspricht.
-
-   * Der zweite prüft, ob die Priorität gleich „1“ (hohe Priorität) ist.
-
-  Da der Connector „ODER“ ist, wird diese Gruppe übergeben, wenn eine der Bedingungen erfüllt ist.
-
-* oberster Connector (filterConnector: `AND`):
-
-  Der äußerste Connector zwischen den Filtern der obersten Ebene ist `AND`.
-
-  Das bedeutet, dass sowohl der Filter der obersten Ebene als auch die Gruppe übergeben müssen, damit das Ereignis übereinstimmt.
-
-* Die Abonnement-Trigger, wenn:
-
-  percentComplete ist kleiner als 100
-
-  UND
-
-  Entweder ist der Status „CUR“ ODER die Priorität ist „1“.
 
 #### Leistung und Limits
 
