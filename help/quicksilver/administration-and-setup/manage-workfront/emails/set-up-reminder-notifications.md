@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ An example of how this can be used would be helpful here and/or in the section <
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard </p>
-<p>Plan</p> 
+<p>Abo</p> 
 </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -100,7 +100,8 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
         <ul> 
          <li> <p>Erinnerungsbenachrichtigungen beginnen 24 Stunden nach dem angegebenen Datum und sobald alle Kriterien erfüllt sind.</p> </li> 
          <li> <p>Erinnerungsbenachrichtigungen für Projekte, Aufgaben und Probleme Trigger jeden Abend um Mitternacht, US Mountain Time. Alle Objekte, die ab diesem Tag für eine Erinnerungsbenachrichtigung qualifiziert sind, erhalten kurz nach diesem Trigger eine Benachrichtigung an die angegebenen Benutzenden.</p> </li> 
-         <li> <p>Erinnerungsbenachrichtigungen für Arbeitszeittabellen werden zum angegebenen Zeitpunkt gesendet, basierend auf Ihrer Zeitzone und dem Enddatum, Startdatum oder letzten Aktualisierungsdatum der Arbeitszeittabelle.</p> </li> 
+         <li> <p>Erinnerungen an Arbeitszeittabellen basieren auf der Zeitzone Ihres Unternehmens und dem Enddatum, Startdatum oder letzten Aktualisierungsdatum der Arbeitszeittabelle. Die Zeitzonen einzelner Benutzer wirken sich nicht auf den Zeitpunkt der Erinnerungsbenachrichtigungen aus.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -154,7 +155,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
 
 Wenn die Bedingung für das Element erfüllt ist, an das die Erinnerungsbenachrichtigung angehängt ist, wird eine E-Mail-Benachrichtigung an den in der Erinnerungsbenachrichtigung definierten Benutzer ausgelöst.
 
-Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [&#x200B; Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [ Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Versand der Testerinnerungsnachricht
 
