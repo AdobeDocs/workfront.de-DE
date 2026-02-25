@@ -5,16 +5,18 @@ description: Sie können steuern, welche Zugriffsebenen in Ihrer Organisation Zu
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 9%
+source-wordcount: '308'
+ht-degree: 14%
 
 ---
 
 # Aktivieren oder Deaktivieren des KI-Assistenten
 
 Als Workfront-Administrator können Sie steuern, für welche Benutzenden in Ihrem Unternehmen der KI-Assistent aktiviert ist. Dies wird über Zugriffsebenen verwaltet.
+
+Sie müssen den KI-Assistenten für Ihre Organisation aktivieren, bevor Sie ihn für eine Zugriffsebene aktivieren können.
 
 ## Zugriffsanforderungen
 
@@ -31,7 +33,7 @@ Als Workfront-Administrator können Sie steuern, für welche Benutzenden in Ihre
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -40,11 +42,26 @@ Als Workfront-Administrator können Sie steuern, für welche Benutzenden in Ihre
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Aktivieren oder Deaktivieren des KI-Assistenten in Workfront
+## Aktivieren oder Deaktivieren des KI-Assistenten für Ihre Organisation
+
+So aktivieren Sie den KI-Assistenten für Ihr Unternehmen:
+
+{{step-1-to-setup}}
+
+1. Wählen Sie **linken Navigationsbereich** System“ und dann **Voreinstellungen** aus.
+1. Scrollen Sie nach unten zum Abschnitt **KI-Voreinstellungen** .
+1. Schalten Sie den Umschalter **KI aktivieren** ein.
+
+>[!IMPORTANT]
+>
+>Sie müssen über eine unterzeichnete Gen-KI-Vereinbarung mit Adobe verfügen, bevor Sie den KI-Assistenten verwenden können.
+>Weitere Informationen zum Gen-AI-Abkommen finden Sie unter [Unterzeichnung des Adobe-Gen-AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens im Artikel KI-Assistent in Workfront.
+
+## Aktivieren oder Deaktivieren des KI-Assistenten für eine Zugriffsebene
 
 So aktivieren Sie den KI-Assistenten für eine bestimmte Zugriffsebene:
 
