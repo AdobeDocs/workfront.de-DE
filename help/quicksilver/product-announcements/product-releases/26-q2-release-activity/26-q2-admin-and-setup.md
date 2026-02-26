@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 3%
+source-wordcount: '358'
+ht-degree: 6%
 
 ---
 
@@ -20,6 +20,12 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 ## Benutzerdefinierter Formularabschnitt standardmäßig reduzieren
 
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
 Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Mit einer neuen Option im Designer für benutzerdefinierte Formulare können Sie einen Abschnitt markieren, der standardmäßig reduziert werden soll, wenn ein Benutzer das Formular öffnet. Diese Option wird auf Abschnittsebene angewendet, nicht auf Felder.
 
 Weitere Informationen finden Sie unter [Organisieren und Vorschau eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
@@ -29,7 +35,7 @@ Weitere Informationen finden Sie unter [Organisieren und Vorschau eines Formular
 >[!NOTE]
 >
 >Vorschau: 29. Januar 2026
->Produktions-Schnellveröffentlichung: wird noch bekannt gegeben
+>Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
 >Produktion für alle: noch festzulegen
 >
 >Diese Funktion wurde am 13. Februar 2026 vorübergehend aus der Produktionsumgebung entfernt.

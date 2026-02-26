@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Übersicht über die Versionsaktivität 2019.2
+title: Überblick über Version 2019.2
 description: Diese Seite enthält Informationen zu den Funktionen, die in der Version 2019.2 enthalten sind. Um diesen Inhalt im PDF-Format herunterzuladen, gehen Sie hier.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
-# Übersicht über die Versionsaktivität 2019.2
+# Überblick über Version 2019.2
 
-Diese Seite enthält Informationen zu den Funktionen, die in der Version 2019.2 enthalten sind. Um diesen Inhalt im PDF-Format herunterzuladen, gehen Sie [hier](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Diese Seite enthält Informationen über die Funktionen, die in der Version 2019.2 enthalten sind.<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Die Version 2019.2 enthält Verbesserungen für Systemadministratoren und andere
   Für die Ressourcenverwaltung ist jetzt eine neue Zugriffsebene verfügbar, sodass Benutzende mit einer Planlizenz Zugriff bearbeiten können.
 
 
-* [Ordnen von Projekten nach Portfolio-Prioritäten im Ressourcenplaner](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
+* [Bestellen von Projekten nach Portfolio-Prioritäten im Ressourcenplaner](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
 
   Sie können jetzt Projekte nach ihrer Portfoliopriorität im Ressourcenplaner sortieren.
 
@@ -136,7 +136,7 @@ Die Version 2019.2 enthält Verbesserungen für Systemadministratoren und andere
 * [Workfront-Bibliothek jetzt verfügbar](#workfront-library-now-available)
 * [API Version 3 wird nicht mehr unterstützt](#api-version-3-no-longer-supported)
 * [Die TLS-Unterstützung wird beendet](#tls-support-is-ending)
-* [Flash-Anwendung entfernen](#flash-application-removal)
+* [Entfernen der Flash-Anwendung](#flash-application-removal)
 * [Verschiedene Single Sign-On-Optionen, die entfernt werden sollen](#various-single-sign-on-options-to-be-removed)
 
 ### Workfront Library jetzt verfügbar {#workfront-library-now-available}
@@ -153,9 +153,9 @@ Um optimale Sicherheit zu bieten, verlangt Workfront, dass alle Integrationen un
 
 Weitere Informationen finden Sie unter [TLS 1.2 muss in Adobe Workfront vorhanden sein](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Entfernen einer Flash-Anwendung {#flash-application-removal}
+### Flash-Anwendungs-Entfernung {#flash-application-removal}
 
-Alle Funktionen, die auf Flash-Technologie angewiesen sind, wurden seit der Version 2018.3 von Workfront entfernt und durch eine neue Lösung ersetzt.
+Sämtliche Funktionen, die auf der Flash-Technologie basieren, wurden seit der Version 2018.3 von Workfront entfernt und durch eine neue Lösung ersetzt.
 
 Detaillierte Informationen zu den alten Flash-Tools und deren Ersetzungen finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 

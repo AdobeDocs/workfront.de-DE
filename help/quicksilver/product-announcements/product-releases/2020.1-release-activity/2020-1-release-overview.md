@@ -1,20 +1,20 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases
-title: Übersicht über die Version 2020.1
+title: Überblick über Version 2020.1
 description: Die Version 2020.1 wurde in der Woche vom in der Produktionsumgebung bereitgestellt. Diese Seite enthält Informationen über die Funktionen, die in der Version 2020.1 enthalten sind.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 0%
+source-wordcount: '2556'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Version 2020.1
+# Überblick über Version 2020.1
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The 2020.1 release was made available in the Production environment the week of . This page provides information about the functionality included in the 2020.1 release.</p>
@@ -28,7 +28,7 @@ Diese Seite enthält Informationen über die Funktionen, die in der Version 2020
 
 Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden in der Woche vom 30. März 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Um diese Seite im PDF-Format herunterzuladen, gehen Sie [hier](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Einige Funktionen wurden vor der Version 2020.1 veröffentlicht. Informationen zu den vor der Version 2020.1 veröffentlichten Funktionen finden Sie unter [Weitere Workfront Classic-Funktionen, die vor der Version 2020.1 in der Produktionsumgebung veröffentlicht wurden](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -164,7 +164,7 @@ Einige Funktionen wurden vor der Version 2020.1 veröffentlicht. Informationen z
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -331,13 +331,13 @@ Die Tools für die Ressourcenplanung verfügen über dieselben Funktionen wie de
 >Die Ressourcenplanung wird nicht mehr unterstützt und aus Workfront entfernt.
 
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Ankündigungen
 
-* auf die Zulassungsliste setzen [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* auf die Zulassungsliste setzen [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen ](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar zur Version [.2020.1](#2020-1-release-webinar)
 * [Produkt-Roadmap-Webinar im 1. Quartal](#q1-product-roadmap-webinar)
@@ -358,7 +358,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar zur Version 2020.1 {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Sehen Sie sich die Aufzeichnung des Webinars zur Version 2020.1 hier an.
 
 ### Webinar zur Produkt-Roadmap im 1. Quartal {#q1-product-roadmap-webinar}
 
-Erfahren Sie mehr über die nächsten Schritte während des [Q1-Roadmap-Webinars](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Dieses Webinar wird am 26. März 2020 um 9:00 Uhr abgehalten. MT. Zum Registrieren auf den Link klicken
+Erfahren Sie mehr über die nächsten Schritte während des [Q1-Roadmap-Webinars](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Dieses Webinar wird am 26. März 2020 um 18 :00a stattfinden. MT. Zum Registrieren auf den Link klicken
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
