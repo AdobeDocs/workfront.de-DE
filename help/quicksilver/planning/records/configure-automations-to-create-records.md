@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1777'
 ht-degree: 4%
 
 ---
 
 # Konfigurieren von Automatisierungen für Adobe Workfront-Planung
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -159,42 +159,37 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
    * **Trigger**: Wählen Sie eine Aktion aus, durch die die Automatisierung in Trigger gesetzt werden soll:
 
       * Klick auf Schaltfläche
-        <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+      * <span class="preview">Änderung des Feldwerts</span>
 
-   <!-- For Feb 26:
-   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+   1. (Bedingt) Wenn Sie **Schaltflächen-Klick** ausgewählt haben, gehen Sie zu dem Schritt unten, der den Bereich **Aktionen** beschreibt.
 
-   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+   1. <span class="preview">(Bedingt) Wenn Sie **Feldwertänderung** ausgewählt haben, führen Sie folgende Schritte im Abschnitt **Einstellungen** aus: </span>
 
-      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
-      1. <span class="preview">Continue defining conditions for the selected field.</span>
-      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+      1. <span class="preview">Wählen Sie ein Feld aus dem Dropdown-Menü aus. Dies sind Felder, die mit dem ausgewählten Datensatztyp verknüpft sind.</span>
+      1. <span class="preview">Definieren Sie weitere Bedingungen für das ausgewählte Feld.</span>
+      1. <span class="preview">Klicken Sie auf **Bedingung hinzufügen**, um bis zu 5 Felder hinzuzufügen und ihre Bedingung zu definieren.</span>
 
-         <span class="preview">You can add any of the following types of fields:</span> 
+         <span class="preview">Sie können einen der folgenden Feldtypen hinzufügen:</span>
 
          <div class="preview">
 
-         * Single-select
-         * Multi-select
-         * Single-line text
-         * Paragraph
-         * Number
-         * Checkbox
-         * Date
-         
+         * Einzelauswahl
+         * Mehrfachauswahl
+         * Einzeiliger Text
+         * Absatz
+         * Zahl
+         * Kontrollkästchen
+         * Datum
+
          </div>
 
-         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+         <span class="preview">Workfront Planning erstellt automatisch Objekte, wenn die Bedingungen erfüllt sind. </span>
 
-         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
+         ![Trigger zum Ändern des Feldwerts ausgewählt](assets/field-value-change-trigger-selected.png)
 
          >[!TIP]
          >
-         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
-         >
-         
-   
-   -->
+         ><span class="preview">Der Modifikator in jeder Bedingung ändert sich mit dem ausgewählten Feldtyp.</span>
 
 1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
@@ -263,7 +258,7 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
         >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 
