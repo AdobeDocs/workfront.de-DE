@@ -5,14 +5,16 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
+source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '2342'
 ht-degree: 2%
 
 ---
 
-# Erweiterte Listen verwenden
+# Verwenden von erweiterten Listen
+
+{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -37,8 +39,8 @@ Informationen zu den Standardlisten finden Sie unter [Erste Schritte mit Listen 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p></td>
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p></td>
   </tr>
  </tbody> 
 </table>
@@ -56,10 +58,11 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 >Diese Liste ist nicht vollständig. Jede dieser Objektlisten kann auch in einem Bericht oder Dashboard angezeigt werden. Beispielsweise zeigt ein Anfragebericht oder ein Dashboard, das einen Anfragebericht enthält, auch eine Liste von Anfragen an.
 
 | Workfront-Liste | Speicherort der Objektliste |
-|--- |--- |
+| --- | --- |
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
 | Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
+| <span class="preview">Liste der Berichte</span> | <span class="preview">Hauptmenü > Berichte</span> <p><span class="preview">Das erweiterte Listenformat wird nur angewendet, wenn **Freigebbare Ordner verwenden** aktiviert ist. Weitere Informationen finden Sie unter [Verwenden von freigebbaren Berichtsordnern](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
 
@@ -141,6 +144,18 @@ Je nachdem, welche Objekte Sie in einer erweiterten Liste anzeigen, können Sie 
 
    ![Indikator für ausgeblendete Spalten](assets/glist-columns-hidden-indicator.png)
 
+### Spalten umbenennen
+
+Einige Spalten ermöglichen es Ihnen, einen benutzerdefinierten Namen für den Spaltentitel zu speichern.
+
+1. Bewegen Sie den Mauszeiger über die Spalte, klicken Sie dann auf den Abwärtspfeil und wählen Sie **Umbenennen** aus.
+
+   ![Wählen Sie Umbenennen in Spalte aus](assets/glist-rename-or-sort-column.png)
+
+1. Geben Sie im Dialogfeld **Umbenennen** den Namen für die Spalte in das Feld **Benutzerdefinierte**) ein und klicken Sie auf **Speichern**.
+
+   Der neue Spaltenname wird in der Liste angezeigt.
+
 ## Hinzufügen und Entfernen von Spalten mit dem Spalten-Manager
 
 Sie können den **Spalten-Manager** in einigen erweiterten Listen verwenden, um Spalten einfach zur Liste hinzuzufügen und daraus zu entfernen. Sie können sowohl System- als auch benutzerdefinierte Felder, die bereits in Workfront als Spalten vorhanden sind, zu einer erweiterten Liste hinzufügen oder entfernen.
@@ -163,51 +178,44 @@ So fügen Sie Spalten hinzu und entfernen sie:
 
    Die Liste aktualisiert die Spalten entsprechend den von Ihnen getroffenen Entscheidungen.
 
-## Anzeigen von Daten mit Ansichten in einer erweiterten Liste
+## Aktualisieren von erweiterten Listenelementen
 
-Eine Ansicht ist ein personalisierter Satz von Spaltenanordnungen und Filtern, die Sie auf eine Liste anwenden können. Sie können neue Ansichten erstellen und vorhandene Ansichten bearbeiten.
+Die folgenden Elemente sind Komponenten einer erweiterten Liste:
+
+* Ansicht : Definiert die Spalten, Filter und Gruppierungen in der Liste mit den Voreinstellungen.
+* Filter: Begrenzt die Anzahl der in der Liste angezeigten Informationen
+* Gruppierungen: Organisieren der Listenelemente nach gemeinsamen Feldern
+* Sortieren: Ordnet die Elemente in einer Liste entsprechend der Reihenfolge an, die Sie für ein bestimmtes Feld angeben
+* Suche: Schnelles Auffinden eines Elements mithilfe eines Suchbegriffs
 
 ### Anwenden und Erstellen von Ansichten
 
-Um eine Ansicht anzuwenden, klicken Sie auf **Dropdown** und wählen Sie die Ansicht aus, die Sie auf die Liste anwenden möchten.
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-Erstellen einer neuen Ansicht:
+So wenden Sie eine Ansicht an bzw. erstellen eine Ansicht:
 
-1. Klicken Sie auf **Ansichten** und wählen Sie **Neue Ansicht** aus.
-1. Geben Sie einen Namen für die Ansicht ein und klicken Sie auf **Erstellen**.
+1. Klicken Sie auf **Ansichten** und wählen Sie eine vorhandene Ansicht aus, um sie auf die Liste anzuwenden
+
+   ODER
+
+   Klicken Sie auf **Neue Ansicht**, um eine Ansicht zu erstellen.
+
+1. (Bedingt) Geben Sie zum Hinzufügen einer neuen Ansicht einen Namen für die Ansicht ein und klicken Sie dann auf **Erstellen**.
 1. (Optional) Ausblenden, Anzeigen oder Neuanordnen der Spalten. Weitere Informationen finden Sie unter [Anpassen von Spalten in einer erweiterten Liste](#customize-columns-in-an-enhanced-list).
-1. (Optional) Filtern und Gruppieren der Listenelemente. Weitere Informationen finden Sie unter [Elemente in einer erweiterten Liste filtern und gruppieren](#filter-and-group-items-in-an-enhanced-list).
+1. (Optional) Filtern Sie die Liste. Weitere Informationen finden Sie unter [Elemente in einer erweiterten Liste filtern](#filter-items-in-an-enhanced-list).
+1. (Optional) Gruppieren Sie die Elemente in der Liste. Weitere Informationen finden Sie unter [Gruppieren von Elementen in einer erweiterten Liste](#group-items-in-an-enhanced-list).
 
-   Änderungen an Ansichten werden automatisch gespeichert und die Änderungen sind für alle sichtbar, die die Ansicht verwenden.
+   Änderungen an Ansichten werden automatisch gespeichert. Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
 
-   Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
+### Elemente in einer erweiterten Liste filtern
 
-### Ansicht freigeben
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-In der **Ansichten** Dropdown-Liste werden möglicherweise drei Kategorien von Ansichten angezeigt:
-
-* **Systemansichten**: Ansichten, die Ihnen vom Systemadministrator zugewiesen wurden.
-* **Freigegebene**: Ansichten, die von anderen Benutzern für Sie freigegeben wurden.
-* **Meine Ansichten**: Ansichten, die Sie erstellt haben und für andere freigeben können. Sie können Ansichten für andere Benutzer, Teams oder Gruppen freigeben.
-
-So geben Sie eine Ansicht frei:
-
-1. Bewegen Sie in **Dropdown** Ansicht“ den Mauszeiger über die Ansicht in **Meine Ansichten**, die Sie freigeben möchten, und klicken Sie dann auf das Dreipunkt-Menü, wenn es angezeigt wird.
-1. Wählen Sie **Freigeben** aus.
-1. Geben Sie im Dialogfeld Freigeben die Namen der Benutzer, Teams oder Gruppen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus, wenn sie angezeigt werden.
-
-   Sie können den Empfängerinnen und Empfängern die folgenden Berechtigungen erteilen:
-
-   * **Ansicht**: Benutzer können die Ansicht auf die Liste anwenden, sie jedoch nicht freigeben.
-   * **Verwalten**: Benutzer können die Ansicht umbenennen, sie für andere freigeben und löschen.
-
-1. Klicken Sie auf **Speichern**.
-
-## Elemente filtern und gruppieren
-
-Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Liste anzeigen. Durch Gruppierungen werden Objekte auf der Liste in Bereichen nach bestimmten Kriterien getrennt.
-
-### Verwenden von Filtern
+Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Liste anzeigen.
 
 1. Klicken Sie **Filter** über der Liste auf.
 1. Klicken Sie im Feld Filter auf **Bedingung hinzufügen**.
@@ -223,20 +231,32 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
    >
    >Um einen Platzhalter für einen aktuellen Benutzer anzuwenden, wählen Sie **Ich (angemeldeter Benutzer)** als Feldwert aus. Der Filter gilt dann für den Benutzer, der die Liste anzeigt. Dieser Platzhalter ist in Feldern verfügbar, in denen der Wert ein Benutzer ist.
 
-1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung als OR-Anweisung hinzuzufügen.
+1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung hinzuzufügen.
+
+   Sie können mehrere Filter über einen AND- oder EINEN OR-Connector verbinden.
+
 1. Wenn der Filter angewendet wird, können Sie die Optionen **Filter** erneut öffnen, um die Filteroptionen zu ändern oder alle Filter zu löschen.
 
    Wenn ein Filter auf die Liste angewendet wird **wird auf der** „Filter“ ein Indikator angezeigt.
 
    ![Angewendeter Filter-Indikator](assets/glist-filter-applied-indicator.png)
 
-### Gruppierungen verwenden
+### Elemente in einer erweiterten Liste gruppieren
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Durch Gruppierungen werden die Objekte auf der Liste anhand bestimmter Kriterien in Bereiche unterteilt.
+
+Workfront bietet eine begrenzte Anzahl vordefinierter Gruppierungen, die Sie nicht ändern können.
 
 1. Klicken Sie **Gruppe** über der Liste auf.
 1. Gruppierung auswählen, um die Liste zu organisieren.
 
    ![Gruppierung auswählen](assets/glist-grouping-choose-a-group-by.png)
 
+1. Klicken Sie **Alle reduzieren**, um die Liste mit allen reduzierten Gruppierungen anzuzeigen. Die Standardoption besteht darin, die Liste mit allen Gruppierungen anzuzeigen.
 1. Wenn die Gruppierung angewendet wird, können Sie die Gruppenoptionen erneut öffnen, um alle Gruppierungen gleichzeitig ein- oder auszublenden, die Gruppierung in ein anderes Feld zu ändern oder alle Gruppierungen zu löschen.
 
    ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)
@@ -245,11 +265,15 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 
    ![Gruppierung angewendet Indikator](assets/glist-grouping-applied-indicator.png)
 
-## Sortieren und Suchen in einer erweiterten Liste
+### Sortieren in eine erweiterte Liste
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
 So sortieren Sie einzelne Spalten:
 
-1. Wechseln Sie zur Spalte und klicken Sie auf den Abwärtspfeil.
+1. Bewegen Sie den Mauszeiger über die Spalte, klicken Sie dann auf den Abwärtspfeil und wählen Sie **Sortieren** aus.
 
    Ein Symbol neben einem Spaltennamen gibt an, dass die Liste nach den Werten in dieser Spalte und der Sortierrichtung sortiert wird.
 
@@ -261,12 +285,97 @@ So sortieren Sie einzelne Spalten:
 
 So sortieren Sie Ihre Arbeit innerhalb einer Gruppierung:
 
-1. Klicken Sie **Gruppe** und wählen Sie aus, ob Sie in auf- oder absteigender Reihenfolge sortieren möchten.
+1. Klicken Sie **Gruppieren**, gehen Sie zur Zeile der angewendeten Gruppierung, klicken Sie auf das Sortier-Dropdown-Menü und wählen Sie eine aufsteigende oder absteigende Reihenfolge aus.
 
    ![Sortieren in einer Gruppierung](assets/sort-in-groups.png)
 
-Zum Suchen:
+### Suche in einer erweiterten Liste
 
-1. Geben Sie den Suchbegriff in das Suchfeld oberhalb der Liste ein. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+1. Geben Sie einen Suchbegriff ein, nach dem Sie suchen möchten, in das Feld Suchen in der rechten oberen Ecke der Liste. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
 
    ![Suchbegriff hervorgehoben](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >Die Suche untersucht alle Spalten in allen Listenelementen. Wenn die Liste lang ist, enthält die Suche Elemente, die Sie möglicherweise scrollen müssen, um sie zu sehen. Wenn die Liste gefiltert wird, bezieht sich die Suche nur auf das, was gerade angezeigt wird.
+
+### Ansicht freigeben
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+In der **Ansichten** Dropdown-Liste werden möglicherweise drei Kategorien von Ansichten angezeigt:
+
+* **Systemansichten**: Ansichten, die Ihnen vom Systemadministrator zugewiesen wurden. Systemansichten können nicht freigegeben werden.
+* **Freigegebene**: Ansichten, die von anderen Benutzern für Sie freigegeben wurden.
+* **Meine Ansichten**: Ansichten, die Sie erstellt haben und für andere freigeben können. Sie können Ansichten für andere Benutzer, Teams oder Gruppen freigeben.
+
+Wenn Sie eine Ansicht freigeben, sind alle Ansichtselemente (Spalten, Filter und Gruppierungen) enthalten.
+
+So geben Sie eine Ansicht frei:
+
+1. Bewegen Sie **Dropdown** Ansichten) den Mauszeiger über die Ansicht in **Meine Ansichten**, die Sie freigeben möchten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und klicken Sie auf **Freigeben**.
+1. Geben Sie im Dialogfeld Freigeben die Namen der Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus, wenn sie angezeigt werden.
+
+   Sie können den Empfängerinnen und Empfängern die folgenden Berechtigungen erteilen:
+
+   * **Ansicht**: Benutzer können die Ansicht auf die Liste anwenden, sie jedoch nicht freigeben.
+
+     <span class="preview">Wenn Benutzer mit Ansichtszugriff die Ansicht aktualisieren, werden diese Änderungen in den persönlichen Voreinstellungen des Benutzers gespeichert. Ein blauer Punkt auf dem Ansichtsnamen (in der **Freigegebenen Ansichten**) zeigt an, dass persönliche Aktualisierungen auf die Ansicht angewendet werden.</span>
+
+   * **Verwalten**: Benutzer können die Ansicht umbenennen, freigeben oder löschen und die Elemente der Ansicht bearbeiten.
+
+     <span class="preview">Wenn Benutzer „Zugriff verwalten“ Änderungen an der Ansicht vornehmen, werden diese Aktualisierungen allen Benutzern angezeigt, für die die Ansicht freigegeben ist, wenn die Ansicht auf die Liste angewendet wird.</span>
+
+1. Klicken Sie auf **Speichern**.
+
+   <span class="preview">Wenn Sie eine Ansicht für einen Benutzer freigeben und diesen Zugriff dann entfernen, wird die Ansicht aus den „Freigegebenen **&quot; des Benutzers**. Wenn die freigegebene Ansicht des Benutzers auf die Liste angewendet wurde, als sein Zugriff entfernt wurde, wird die Systemstandardansicht angewendet.</span>
+
+<div class="preview">
+
+### Kopieren einer Ansicht
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Wenn eine Ansicht für Sie freigegeben wurde und Sie nicht über die erforderlichen Bearbeitungsberechtigungen verfügen, können Sie die Ansicht kopieren und unter einem neuen Namen speichern. Sie müssen zunächst Änderungen an der Ansicht vornehmen, bevor Sie sie kopieren können.
+
+1. Bewegen Sie in der Dropdown-Liste Ansichten den Mauszeiger über die Ansicht **Freigegebene Ansichten** die Sie kopieren möchten, klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-icon.png) und klicken Sie auf **Mit Voreinstellungen kopieren**.
+
+   Eine neue Ansicht wird automatisch erstellt. Er verwendet den ursprünglichen Ansichtsnamen mit (Kopie) am Ende und wird im Abschnitt **Meine Ansichten** der Ansichten angezeigt.
+
+   Sie sind der Eigentümer dieser Ansicht und können sie umbenennen, bearbeiten, freigeben oder löschen. Wenn der Eigentümer der Originalansicht Ihren freigegebenen Zugriff auf diese Ansicht entfernt, haben Sie immer noch Zugriff auf diese Ansicht, die Sie erstellt haben.
+
+   >[!NOTE]
+   >
+   >Die **Mit Voreinstellungen kopieren** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
+
+</div>
+
+<div class="preview">
+
+### Ansicht zurücksetzen
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsberechtigung haben, und Sie diese Ansicht aktualisieren, können Sie sie auf die ursprüngliche Ansicht zurücksetzen.
+
+1. Bewegen Sie in **Dropdown** Ansicht“ den Mauszeiger über die Ansicht in **Freigegebene Ansichten**, die Sie zurücksetzen möchten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und klicken Sie auf **Auf Standard zurücksetzen**.
+
+   Die Ansichtselemente (Spalten, Filter und Gruppierungen) werden auf die ursprünglichen Einstellungen zurückgesetzt, die für Sie freigegeben wurden.
+
+   >[!NOTE]
+   >
+   >Die **Auf Standard zurücksetzen** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
+
+   ![Ansichtsoptionen kopieren und zurücksetzen](assets/glist-copy-view-shared-with-you.png)
+
+</div>
