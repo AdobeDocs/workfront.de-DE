@@ -6,14 +6,14 @@ description: Empfangen  [!DNL Adobe Workfront]  Benachrichtigungen in [!DNL Slac
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
-# [!DNL Adobe Workfront]-Benachrichtigungen in [!DNL Slack] empfangen
+# Erhalten von [!DNL Adobe Workfront]-Benachrichtigungen in [!DNL Slack]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
@@ -29,7 +29,7 @@ Sie können jedoch [!DNL Workfront] Benachrichtigungen deaktivieren, die Sie mö
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +66,7 @@ Bevor Sie [!DNL Workfront]-Benachrichtigungen in [!DNL Slack] erhalten können, 
 
    `/workfront settings`
 
-   Oder
+   ODER
 
    `/wf settings`
 
@@ -76,6 +76,12 @@ Bevor Sie [!DNL Workfront]-Benachrichtigungen in [!DNL Slack] erhalten können, 
    * [!UICONTROL Ich wurde einer neuen Aufgabe oder einem neuen Problem zugewiesen]
    * [!UICONTROL Mein Team wurde einer neuen Aufgabe oder einem neuen Problem zugewiesen]
    * [!UICONTROL Ich erhalte eine neue Genehmigungs- oder Zugriffsanfrage]
+
+     >[!NOTE]
+     >
+     >Genehmigungen beziehen sich auf Genehmigungen von veralteten Dokumenten. Einheitliche Dokumentgenehmigungen werden in [!DNL Slack] derzeit nicht unterstützt. Weitere Informationen zu den verschiedenen Genehmigungssystemen in Workfront finden Sie unter [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
+
    * [!UICONTROL Jemand bezieht mich in eine gezielte Aktualisierung ein]
    * [!UICONTROL Jemand kommentiert einen Thread, an dem ich teilnehme]
    * [!UICONTROL An einer Aufgabe, einem Problem oder Projekt, die bzw. das ich abonniert habe, wird eine Aktualisierung vorgenommen]
@@ -113,7 +119,7 @@ So verwalten Sie [!DNL Workfront]-Benachrichtigungen für [!DNL Slack]:
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** um eine Aufgabe, ein Problem oder ein Projekt, für die bzw. das Ihre Genehmigung noch aussteht, zu genehmigen oder abzulehnen.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **&#x200B;**&#x200B;oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
      Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
       Nur die genehmigten Slack [Dateitypen](https://api.slack.com/types/file) können in der Vorschau angezeigt werden.

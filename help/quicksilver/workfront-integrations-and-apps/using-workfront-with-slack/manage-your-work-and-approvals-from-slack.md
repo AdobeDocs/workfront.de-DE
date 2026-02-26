@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Arbeiten und Genehmigungen von Slack aus verwalten
+title: Verwalten Ihrer Arbeit und der Genehmigungen über Slack
 description: Sie können direkt von Slack aus auf Ihre Startseiten-Arbeitsliste zugreifen, Aufgaben und Probleme überprüfen und der Arbeit an diesen zustimmen und Genehmigungen überprüfen oder Entscheidungen treffen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit [!DNL Slack] fi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +89,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
    `/workfront home` und klicken Sie dann auf **[!UICONTROL Aufgaben]**
 
-   Oder
+   ODER
 
    `/workfront tasks`
 
@@ -132,7 +132,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
    `/workfront home` und klicken Sie dann auf **[!UICONTROL Probleme]**
 
-   Oder
+   ODER
 
    `/workfront issues`
 
@@ -158,6 +158,8 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
 ## Verwalten Sie Ihre Genehmigungen von [!DNL Slack] {#manage-your-approvals-from-slack}
 
+Genehmigungen beziehen sich auf Genehmigungen von veralteten Dokumenten. Einheitliche Dokumentgenehmigungen werden in [!DNL Microsoft Teams] derzeit nicht unterstützt. Weitere Informationen zu den verschiedenen Genehmigungssystemen in Workfront finden Sie unter [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -165,7 +167,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
    `/workfront home` und klicken Sie dann auf **[!UICONTROL Genehmigungen]**
 
-   Oder
+   ODER
 
    `/workfront approvals`
 
