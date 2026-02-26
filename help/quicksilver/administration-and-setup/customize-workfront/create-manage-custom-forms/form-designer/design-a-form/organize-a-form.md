@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1353'
+ht-degree: 4%
 
 ---
 
-# Organisieren und Vorschau eines Formulars
+# Organisieren eines Formulars und Anzeige in der Vorschau
+
+{{preview-fast-release-general}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer organisieren und eine Vorschau davon anzeigen, um zu überprüfen, ob es korrekt eingerichtet ist.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer organisie
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -75,12 +77,16 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem Abschnitt angezeigt werden soll. Sie können den Titel jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie einen beschreibenden Titel ein, der über dem Abschnitt angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>WICHTIG</b>: Verwenden Sie in dieser Kennzeichnung keine Sonderzeichen. Sie werden in Berichten nicht korrekt angezeigt.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
       <td>Geben Sie einen Text ein, wenn Sie den Benutzern erklären möchten, wozu der Abschnitt dient. Dies wird unter der Beschriftung des Abschnitts im benutzerdefinierten Formular angezeigt.</td> 
      </tr> 
+      <td><span class="preview">Standardmäßig reduziert</span></td>
+      <td><span class="preview">Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Wählen Sie diese Option aus, damit der Abschnitt standardmäßig reduziert wird, wenn ein Benutzer das Formular öffnet.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>Zugriff erteilen</p> </td> 
       <td> <p> Wählen Sie die Berechtigungen aus, die Benutzer für ein Objekt benötigen, an das das benutzerdefinierte Formular angehängt ist, um diesen Abschnitt anzuzeigen und seine Feldwerte zu bearbeiten. 
@@ -162,7 +168,7 @@ In einem benutzerdefinierten Formular mit einem Abschnittsumbruch, der mit der B
 
    oder
 
-   Klicken Sie **Speichern und schließen**.
+   Klicken Sie auf **Speichern und schließen**.
 
 ## Vorschau eines benutzerdefinierten Formulars
 
