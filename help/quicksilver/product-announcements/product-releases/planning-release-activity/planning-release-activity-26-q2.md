@@ -1,19 +1,20 @@
 ---
 content-type: release-notes
-title: Versionsaktivität für das zweite Quartal 2026 für Adobe Workfront Planning
+title: Veröffentlichungen für Adobe Workfront-Planung im zweiten Quartal 2026
 description: Dies ist die Veröffentlichungsaktivität für das Adobe Workfront Planning-Produkt im zweiten Quartal 2026.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
+exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
+source-git-commit: f0ded5d6b71ea99b7fad5b7c199838ef175b18cc
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 13%
 
 ---
 
-# Versionsaktivität für das zweite Quartal 2026 für Adobe Workfront Planning
+# Veröffentlichungen für Adobe Workfront-Planung im zweiten Quartal 2026
 
 In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zweiten Quartal 2026 für Workfront Planning veröffentlicht werden.
 
@@ -21,13 +22,112 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zwei
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Trigger-basierte Automatisierung
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt mithilfe von Planning-Automatisierungen automatisch Planungsdatensätze oder Workfront-Objekte auf der Grundlage einer Datensatzfeldänderung erstellen.
+
+Vor dieser Verbesserung konnten Sie nur dann automatisch Planungsdatensätze oder Workfront-Objekte erstellen, wenn Sie auf eine vorkonfigurierte Schaltfläche geklickt haben.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+## Nur Systemadministratoren können Arbeitsbereiche systemweit freigeben
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wir erlauben es jetzt nur noch Systemadministratoren, bei der Freigabe eines Arbeitsbereichs zwischen den folgenden Optionen zu wählen:
+
+* Für alle im System sichtbar
+* Nur eingeladene Personen haben Zugriff
+
+Arbeitsbereiche sind standardmäßig auf die Berechtigung „Nur eingeladene Personen können darauf zugreifen“ eingestellt.
+
+Vor dieser Änderung war es nicht möglich, diese Freigabeberechtigungen für den Arbeitsbereich auszuwählen.
+
+Weitere Informationen finden Sie unter Freigeben von Arbeitsbereichen (help/quicksilver/planning/access/share-workspaces.md).
+
+## Sortieren von Gruppierungen in der Zeitleisten-Ansicht
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt Gruppierungen in der Zeitleisten -Ansicht sortieren. Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Unterstützen von Benutzerverweisen für verbundene Felder
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt Workfront-Benutzerfelder mit Workfront Planning-Datensatztypen verbinden, indem Sie eine neue Verbindung zwischen einem Workfront-Objekt und einem Workfront Planning-Datensatztyp hinzufügen.
+
+Sie können in Workfront Planning jetzt beispielsweise Projektsponsor oder Portfolio-Besitzer als Suchfeld hinzufügen, wenn Sie eine Verbindung zu Projekten oder Portfolios hinzufügen.
+
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+## Die Echtzeit-Präsenzindikatoren zeigen jetzt Benutzende in der Tabellenansicht an
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt die Benutzer anzeigen, die Datensatzfelder gleichzeitig aktualisieren, indem Sie auf die Echtzeitpräsenz-Anzeige in der oberen rechten Ecke einer Zelle in der Tabellenansicht klicken. In der oberen rechten Ecke der Datensatztabellen-Ansicht werden Benutzer aufgeführt, die dieselbe Ansicht geöffnet haben.
+
+Sie müssen die Einstellung „Mitarbeiter anzeigen“ in der Kopfzeile der Tabellenansicht aktivieren. Andere Benutzende können Felder entweder in der Tabellenansicht oder im Detailbereich eines Datensatzes aktualisieren.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+
+## Aktualisiertes Freigabeerlebnis für Listenansichten
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wenn Sie die Listenansicht auf der Seite „Mit Projekten verbundene Datensätze“ eines Datensatzes mit Ansichtsberechtigungen freigeben, kann der Benutzer, für den Sie die Ansicht freigeben, die Ansichtselemente ändern, und diese Änderungen werden gemäß den persönlichen Voreinstellungen des Benutzers gespeichert. Sie haben jetzt die Möglichkeit, eine Kopie der Ansicht zu speichern, die ihre Änderungen enthält, oder die freigegebene Ansicht auf ihre ursprünglichen Einstellungen zurückzusetzen. Sie können die kopierte Ansicht mit anderen teilen.
+
+Diese Aktualisierung ist nur in der Listenansicht für die Seite „Verbundene Datensätze“ eines Datensatzes verfügbar, wenn Projekte angezeigt werden.
+
+Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Anwenden einer bedingten Formatierung auf die Listenansicht
+
+>[!NOTE]
+>
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt bedingte Formatierung auf Projekte in einer Listenansicht auf der Seite „Verbundene Datensätze“ eines Datensatzes anwenden. Diese Funktion war in der Listenansicht vor dieser Verbesserung nicht vorhanden.
+
+Weitere Informationen finden Sie unter [Listenansicht verwalten](/help/quicksilver/planning/views/manage-the-list-view.md).
+
 ## Verbesserungen an globalen Datensatztypen in sekundären Arbeitsbereichen
 
 >[!NOTE]
 >
 >Vorschau: 5. Februar 2026
->Produktions-Schnellveröffentlichung: 12. März 2026
->Produktion für alle: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 Die Sichtbarkeit der globalen Datensatztypen, die von einem primären Arbeitsbereich zu einem sekundären Arbeitsbereich hinzugefügt wurden, wurde verbessert. Zu den Verbesserungen zählen:
 
@@ -42,8 +142,8 @@ Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen a
 >[!NOTE]
 >
 >Vorschau: 29. Januar 2026
->Produktions-Schnellveröffentlichung: 12. Februar 2026
->Produktion für alle: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 Wir haben eine Einstellung eingeführt, mit der Sie Datensatzfelder im Vorschaufeld Details eines Datensatzes basierend auf den in der Tabellenansicht angezeigten Feldern ein- oder ausblenden können. 
 
@@ -56,8 +156,8 @@ Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/
 >[!NOTE]
 >
 >Vorschau: 29. Januar 2026
->Produktions-Schnellveröffentlichung: 12. Februar 2026
->Produktion für alle: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 Sie können jetzt das Verbindungsfeld „Ursprüngliche Anfrage“ zu einem Datensatztyp hinzufügen. Wenn ein Datensatz durch Senden eines Planungsanfrageformulars erstellt wird, wird das Feld „Ursprüngliche Anforderung verbunden“ mit dem Namen der ursprünglichen Anforderung ausgefüllt.
 
@@ -70,8 +170,8 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 >[!NOTE]
 >
 >Vorschau: 29. Januar 2026
->Produktions-Schnellveröffentlichung: 12. Februar 2026
->Produktion für alle: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 Um Genehmigungen von Anfragen dynamischer und flexibler zu gestalten, haben wir die Möglichkeit hinzugefügt, Genehmigungsregeln zu erstellen. Diese Regeln ermöglichen die Weiterleitung von Anfragen an verschiedene genehmigende Personen auf der Grundlage der Feldwerte in der Anfrage.
 
@@ -86,8 +186,8 @@ Weitere Informationen und Anweisungen finden Sie [Hinzufügen von Genehmigungsre
 >[!NOTE]
 >
 >Vorschau: 22. Januar 2026
->Produktions-Schnellveröffentlichung: 12. Februar 2026
->Produktion für alle: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 Die E-Mail-Adresse eines/r Benutzenden wird jetzt angezeigt, wenn Sie den/die Benutzende(n) den folgenden Bereichen hinzufügen:
 
@@ -105,11 +205,9 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 >[!NOTE]
 >
 >Vorschau: 14. Januar 2026
->Produktions-Schnellveröffentlichung: 12. Februar 2026
->Produktion für alle: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 Sie können jetzt beim Verbinden von zwei Planungs-Datensatztypen Felder für Personen zu Suchfeldern hinzufügen.
 
 Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-
