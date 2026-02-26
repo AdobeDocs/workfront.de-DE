@@ -6,14 +6,14 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
-ht-degree: 0%
+source-wordcount: '2252'
+ht-degree: 1%
 
 ---
 
-# Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen
+# Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
@@ -154,6 +154,9 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 
    Ein Fenster mit dem Namen des Anforderungsformulars wird oben geöffnet.
 1. Aktualisieren Sie die im Anfrageformular verfügbaren Felder. Felder mit einem roten Sternchen sind Pflichtfelder.
+1. (Bedingt) Wenn Ihr Unternehmen das Ausfüllen von Formularen auf Basis von KI zulässt, können Sie Dokumente bei Aufforderung hochladen. KI verwendet diese Dokumente, um das Formular auszufüllen, und Sie können die KI-Vorschläge akzeptieren oder ablehnen.
+
+   Anweisungen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Klicken Sie auf **Senden**.
 
    Das Anfrageformular wird geschlossen und Sie kehren zum Bereich **Anfragen** zurück.

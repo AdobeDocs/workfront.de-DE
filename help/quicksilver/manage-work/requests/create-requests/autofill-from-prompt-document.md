@@ -1,24 +1,26 @@
 ---
-title: Verwenden von Form Fill powered by AI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten
+title: Verwenden der KI-gestützten Formularausfüllung zum Ausfüllen einer Anfrage mithilfe von Prompts oder Dokumenten
 content-type: reference
 description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verwenden, indem Sie eine Eingabeaufforderung eingeben oder ein Dokument angeben.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 3%
+source-wordcount: '1391'
+ht-degree: 10%
 
 ---
 
-# Verwenden von Form Fill powered by AI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten
+# Verwenden der KI-gestützten Formularausfüllung zum Ausfüllen einer Anfrage mithilfe von Prompts oder Dokumenten
 
 >[!NOTE]
 >
 >Um diese Funktion nutzen zu können, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
+
+Diese Funktion ist beim Erstellen einer Anfrage im Bereich Workfront-Anfragen und in Workfront Planning verfügbar.
 
 ## Zugriffsanforderungen
 
@@ -29,13 +31,13 @@ Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihne
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -57,10 +59,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Um das Ausfüllen eines Formulars mit KI mithilfe einer Eingabeaufforderung oder eines Dokuments zu ermöglichen, müssen **alle** der folgenden Bedingungen erfüllt sein:
 
-* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
+* Ihre Organisation muss zu Adobe IMS (Identity Management System) migriert worden sein
 * Adobe Unified Experience muss aktiviert sein
-* Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
-* Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen
+* Ihre Organisation muss über ein Workfront-Abo des Typs Select, Prime oder Ultimate verfügen.
+* Bei Adobe muss eine unterzeichnete Adobe GenAI-Vereinbarung hinterlegt sein
 
   Weitere Informationen zum Unterzeichnen des Vertrags finden Sie unter [Unterschreiben des Adobe Gen AI-](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)) im Artikel KI-Assistent - Übersicht.
 * Der KI-Assistent muss in den Systemeinstellungen Ihrer Organisation aktiviert sein. Dieser wird von Ihrem Workfront-Administrator verwaltet.
