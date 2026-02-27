@@ -4,10 +4,11 @@ description: Verbesserungen beim Reporting für das zweite Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 11%
+source-wordcount: '428'
+ht-degree: 9%
 
 ---
 
@@ -31,29 +32,25 @@ Die benutzerdefinierte Feldbezeichnung ist für die Systemschnittstelle vorgeseh
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-<!--
-
-## Shareable Report Folders
+## Freigebbare Berichtsordner
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+Sie können jetzt Berichte mithilfe von freigebbaren Berichtsordnern organisieren und freigeben. Diese neue Funktion hilft Teams, die große Mengen an Berichten verwalten, skalierbare und konsistente Zugriffskontrolle zu gewährleisten:
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **Organisierte Ordnerstrukturen erstellen**: Systemadministratoren können Ordner der obersten Ebene erstellen, und Benutzer mit dem Zugriff „Verwalten“ können Unterordner mit bis zu vier Ebenen erstellen.
+* **Granulare Berechtigungssteuerungen**: Freigeben von Ordnern mit zwei Berechtigungsebenen:
+   * Anzeigen: Benutzer können Berichte öffnen und Ordner freigeben
+   * Verwalten : Benutzer können Ordnerdetails bearbeiten, Elemente hinzufügen/entfernen und automatisch Verwaltungszugriff auf alle Berichte im Ordner erhalten
+* **Geerbte Berechtigungen**: Berechtigungen werden von übergeordneten Ordnern an alle Unterordner und Berichte innerhalb der Ordnerstruktur weitergegeben
+* **Erweitertes Listenerlebnis**: Wenn Sie freigebbare Ordner aktivieren, haben Sie Zugriff auf das erweiterte Listenerlebnis. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+Weitere Informationen finden Sie unter [Verwenden von freigebbaren Berichtsordnern](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
 ## Verbesserte Datumsbeschriftungen für Diagrammgruppierungen in Arbeitsflächen-Dashboards
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
 >Produktion für alle: Freitag, 16. April 2026
 
+>[!NOTE]
+>
+>Canvas Dashboards befindet sich derzeit in der Beta-Phase.
+
 Diagramme, die Daten nach Datum gruppieren, zeigen jetzt klarere, besser lesbare Datumsbeschriftungen an. Mit diesem Update werden Datumsbeschriftungen basierend auf der ausgewählten Option Gruppieren nach dynamisch angepasst, z. B. nach Tag, Woche, Monat oder Jahr, wodurch Diagramme leichter zu lesen und zu interpretieren sind:
 
 <table> <tbody> <tr> <td>Day</td> <td>Zeigt das vollständige Datum an. Beispiel: 3/12/2026</td> </tr> <tr> <td>Woche</td> <td>Zeigt ein formatiertes Startdatum der Woche an. Beispiel, 8. März 2026</td> </tr> <tr> <td>Month</td> <td>Zeigt Monat und Jahr an. Beispiel März 2026</td> </tr> <tr> <td>Year</td> <td>Anzeige nur des Jahres. Beispiel: 2026</td> </tr> </tbody> </table>
 
 Zuvor zeigten die Diagrammgruppierungen immer das Startdatum des ausgewählten Zeitraums in einem numerischen Format an.
-
-
