@@ -10,20 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 14%
+source-wordcount: '1585'
+ht-degree: 16%
 
 ---
 
 # Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen (veraltet)
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den aktuellen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den aktuellen Zugriffsebenen finden Sie unter [Überblick über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
 
@@ -123,7 +121,7 @@ Nur Benutzende mit einer Planlizenz können vollständigen Zugriff auf Projekte 
 | Probleme kopieren | ✓ | ✓ | ✓ | ✓ |  |
 | Probleme verschieben | ✓ | ✓ | ✓ | ✓ |  |
 | Stunden protokollieren | ✓ | ✓ |  |  |  |
-| Anfrage in ein Projekt konvertieren | ✓ | ✓ |  |  |  |
+| Konvertieren eines Problems in ein Projekt | ✓ | ✓ |  |  |  |
 | Anfrage in Aufgabe konvertieren | ✓ |  |  |  |  |
 | Zuweisungen akzeptieren | ✓ | ✓ |  |  |  |
 | Zuweisungen vornehmen | ✓ | ✓ |  |  |  |
@@ -506,7 +504,6 @@ Die Lizenztypen „Anfrage“ und „Externer Benutzer“ sind hier nicht enthal
 | Abrechnungseinträge verwalten | ✓ |  |  |
 | Ausgaben verwalten | ✓ | ✓ |  |
 | Finanzdaten anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Tarifkarten verwalten</span> | ✓ |  |  |
 | Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen | ✓ |  |  |
 | Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |  |  |
 | Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen&#42; | ✓ | ✓ | ✓ |
