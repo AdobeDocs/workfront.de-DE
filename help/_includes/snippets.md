@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2644'
-ht-degree: 1%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 # Snippets
@@ -69,6 +69,8 @@ ht-degree: 1%
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie auf Ihr Profilbild im oberen Navigationsbereich und dann auf **[!UICONTROL Workfront-Profil]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Hinweis für Workflow-Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -81,11 +83,17 @@ ht-degree: 1%
 >
 >Sie müssen über die Workflow-Prime oder das Workflow-Ultimate-Paket verfügen, um diese Funktion verwenden zu können.
 
+## Hinweis zum Workflow-Paket für die Aufteilung Kosten/Abrechnung {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>Sie müssen über das Workflow-, Prime- oder Ultimate-Paket verfügen, um separate Abrechnungs- und Kostenberechtigungen sehen zu können.
+
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 
 ## Von Formular-Designer zu Allgemein {#form-designer-default}
 
@@ -283,7 +291,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Planung]**.
 
@@ -300,9 +308,9 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
 >
->Eine Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Eine Liste der Anforderungen für den Zugriff auf Workfront-Planung finden Sie unter [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
