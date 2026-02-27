@@ -7,10 +7,10 @@ description: Sie können reguläre Nicht-Workfront-E-Mails in  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>Um stabilere und skalierbarere Integrationen bereitzustellen, haben wir uns auf einen modernen, flexiblen Integrationsansatz mithilfe von Workfront Automation and Integration (Fusion) umgestellt. Im Rahmen dieser Umstellung ist die folgende Funktion von Workfront für Google Workspace **nicht mehr verfügbar**:
 >
 >* Zugriff auf Google Workspace-Funktionen in Workfront
 >
@@ -26,11 +26,15 @@ ht-degree: 0%
 >
 >Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
 >
->Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Einen Überblick über Workfront Automation and Integration finden Sie unter [Überblick über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Sie können reguläre, nicht [!DNL Workfront] E-Mails in [!DNL Adobe Workfront] Objekte und Aktualisierungen umwandeln, ohne [!DNL G Mail] verlassen zu müssen. Weitere Informationen finden Sie in den folgenden Artikeln:
+<!--
 
-* [Erstellen eines  [!DNL Adobe Workfront] -Problems  [!DNL Google Workspace] Verwenden von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-* [Aktualisieren eines  [!DNL Adobe Workfront] -Elements aus [!DNL Google Workspace] Verwenden von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+You can turn regular non-[!DNL Workfront] emails into [!DNL Adobe Workfront] objects and updates without leaving [!DNL G Mail]. For more information, see the following articles:
+
+* [Create an [!DNL Adobe Workfront] issue in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+* [Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+
+-->

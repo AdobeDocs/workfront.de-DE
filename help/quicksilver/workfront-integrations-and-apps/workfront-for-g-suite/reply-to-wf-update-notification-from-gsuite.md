@@ -7,10 +7,10 @@ description: Wenn Sie eine Benachrichtigung über ein Update in [!DNL Adobe] [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieser Umstellung werden die folgenden Funktionen von Workfront für Google Workspace nach dem 28. **2026 nicht mehr verfügbar**:
+>Um stabilere und skalierbarere Integrationen bereitzustellen, haben wir uns auf einen modernen, flexiblen Integrationsansatz mithilfe von Workfront Automation and Integration (Fusion) umgestellt. Im Rahmen dieser Umstellung ist die folgende Funktion von Workfront für Google Workspace **nicht mehr verfügbar**:
 >
 >* Zugriff auf Google Workspace-Funktionen in Workfront
 >
@@ -26,49 +26,53 @@ ht-degree: 1%
 >
 >Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Google Workspace zu verwenden.
 >
->Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Einen Überblick über Workfront Automation and Integration finden Sie unter [Überblick über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Google Workspace finden Sie unter [Gmail-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) und [Google-](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Wenn Sie eine Benachrichtigung über eine Aktualisierung in [!DNL Adobe Workfront] erhalten, können Sie schnell eine Antwort von [!DNL Workfront for Google Workspace] posten.
+<!--
 
-## Zugriffsanforderungen
+When you receive a notification about an update in [!DNL Adobe Workfront], you can quickly post a reply from [!DNL Workfront for Google Workspace].
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Standard</p><p>Arbeit oder höher</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Voraussetzungen
+## Prerequisites
 
-Bevor Sie eine [!DNL Workfront] Aufgabe in [!DNL Google Workspace] erstellen können, müssen Sie
+Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you must
 
-* Installieren von [!DNL Workfront for Google Workspace]\
-   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Auf eine Update-Benachrichtigung von [!DNL Google Workspace] antworten
+## Reply to an update notification from [!DNL Google Workspace]
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
-1. Öffnen Sie die [!DNL Workfront] E-Mail-Benachrichtigung, die die Aktualisierung enthält.
-1. Klicken Sie am unteren Rand des Bedienfelds [!UICONTROL Workfront für Google Workspace] auf **[!UICONTROL Kommentar abgeben]** und geben Sie dann Ihre Antwort ein.
-1. (Optional) Um bestimmte Benutzer über Ihre Antwort zu benachrichtigen, klicken Sie auf **[!DNL Notify people and teams]**, geben Sie einen Namen ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Open the [!DNL Workfront] email notification that contains the update. 
+1. Near the bottom of the [!UICONTROL Workfront for Google Workspace] panel, click **[!UICONTROL Post a comment]**, then type your reply.
+1. (Optional) To notify particular users about your reply, click **[!DNL Notify people and teams]**, begin typing a name, then click the name when it appears in the drop-down list.
 
-   Sie können diesen Schritt für alle anderen Namen wiederholen, die Sie hinzufügen möchten.
+   You can repeat this step for any other names you want to add.
 
-1. Klicken Sie auf **[!DNL Post]**.
+1. Click **[!DNL Post]**.
+
+-->

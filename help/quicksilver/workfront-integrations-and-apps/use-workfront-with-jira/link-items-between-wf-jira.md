@@ -6,10 +6,10 @@ description: Sie können Probleme  [!DNL Jira]  Aufgaben oder  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 13%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Um stabilere und skalierbarere Integrationen bereitzustellen, wechseln wir mithilfe von Workfront Automation and Integration (Fusion) zu einem modernen, flexiblen Integrationsansatz. Im Rahmen dieses Übergangsprozesses wird die Integration von Workfront für Jira nach dem 28. **2026 nicht mehr**.
+>Um stabilere und skalierbarere Integrationen bereitzustellen, haben wir uns auf einen modernen, flexiblen Integrationsansatz mithilfe von Workfront Automation and Integration (Fusion) umgestellt. Im Rahmen dieses Übergangsprozesses ist die Integration von Workfront für Jira **nicht mehr verfügbar**.
 >
 >Es wird empfohlen, Workfront-Automatisierung und -Integration für die Integrationsanforderungen Ihres Unternehmens mit Jira zu verwenden.
 >
->Einen Überblick über die Automatisierung und Integration von Workfront finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Einen Überblick über Workfront Automation and Integration finden Sie unter [Überblick über Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
+>Informationen zu den spezifischen Funktionen der Workfront-Automatisierungs- und Integrationsmodule für Jira finden Sie unter [Jira-Softwaremodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
 
 <!--
 
@@ -37,204 +37,208 @@ ht-degree: 1%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-Sie können [!DNL Jira] Probleme entweder automatisch oder manuell mit [!DNL Adobe Workfront] Aufgaben oder Problemen verknüpfen.
+<!--
 
-Nur ein Element in [!DNL Workfront] kann mit einem Element in [!DNL Jira] verknüpft werden. Sie können niemals ein [!DNL Workfront] mit mehreren [!DNL Jira] oder ein [!DNL Jira] mit mehreren [!DNL Workfront] verknüpfen.
+You can link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues either automatically or manually.
 
-## Zugriffsanforderungen
+Only one item in [!DNL Workfront] can be linked to one item in [!DNL Jira]. You can never link one [!DNL Workfront] item to multiple [!DNL Jira] issues, nor one [!DNL Jira] issue to multiple [!DNL Workfront] items.
 
-+++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td><p>Beliebig</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard </p>
        <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Jira-Zugriff</td> 
-   <td> <p>Systemadministratorzugriff</p> <p>Wichtig: Es wird empfohlen, separate Systemadministratorkonten in Jira und Workfront zu erstellen, um diese Integration zu ermöglichen, anstatt vorhandene Konten zu verwenden, die an Benutzende angehängt sein könnten.</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Installieren von [!DNL Workfront] für [!DNL Jira]
+## Install [!DNL Workfront] for [!DNL Jira]
 
-Die Installation von [!DNL Workfront] für [!DNL Jira] OnDemand entspricht der Installation auf einer [!DNL Jira] Server-Instanz.
+Installing [!DNL Workfront] for [!DNL Jira] OnDemand is identical to installing it on a [!DNL Jira] Server instance.
 
-Sie müssen [!DNL Jira] sein, um das [!DNL Workfront]-Add-on zu installieren.
+You must be a [!DNL Jira] administrator to install the [!DNL Workfront] add-on.
 
-Wenn Sie kein [!DNL Jira] sind, können Sie nach dem [!DNL Workfront]-Add-on suchen und dessen Installation anfordern. Ihre Anforderung wird zur Genehmigung und Installation an den [!DNL Jira]-Administrator gesendet.
+If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfront] add-on and request it to be installed. Your request is sent to the [!DNL Jira] administrator for approval and installation. 
 
-Weitere Informationen zum Anfordern eines Add-ons zur Installation in Ihrem [!DNL Jira]-Programm finden Sie unter [Verwalten von Benutzeranfragen für Add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+For more information about requesting an add-on to be installed on your [!DNL Jira] application, see [Managing user requests for add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
-So installieren Sie [!DNL Workfront for Jira]:
+To install [!DNL Workfront for Jira]:
 
-1. Melden Sie sich bei [!DNL Jira] als [!DNL Jira] an.
-1. Suchen Sie das **[!DNL Workfront for Jira]**-Add-on in der [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
+1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
+1. Find the **[!DNL Workfront for Jira]** add-on in the [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
-1. Klicken Sie **[!UICONTROL Jetzt abrufen]**, um es zu installieren.
+1. Click **[!UICONTROL Get it now]** to install it.
 
-   Nach Abschluss der Installation können Sie sich von [!DNL Workfront] aus bei [!DNL Jira] anmelden und Ihre Integration konfigurieren.
+   After the installation completes, you can log in to [!DNL Workfront] from [!DNL Jira] and configure your integration.
 
-   Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront für Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Voraussetzungen
+## Prerequisites
 
-Bevor Sie Elemente zwischen [!DNL Workfront] und [!DNL Jira] verknüpfen können, müssen Sie Folgendes tun:
+Before you can link items between [!DNL Workfront] and [!DNL Jira], you must do the following:
 
-* Installieren Sie [!DNL Workfront] für [!DNL Jira].
+* Install [!DNL Workfront] for [!DNL Jira].
 
-  Anweisungen finden Sie unter [Installieren von Adobe Workfront für Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+   For instructions, see [Install Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-* Konfigurieren Sie [!DNL Workfront] für Jira.
+* Configure [!DNL Workfront] for Jira.
 
-  Anweisungen finden Sie unter [Konfigurieren von Adobe Workfront für Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   For instructions, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## [!DNL Workfront] Elemente automatisch mit [!DNL Jira] Problemen verknüpfen
+## Automatically link [!DNL Workfront] items to [!DNL Jira] issues 
 
-Als [!DNL Workfront] können Sie Trigger definieren, die automatisch ein Problem in [!DNL Jira] erstellen, wenn bestimmte Bedingungen für eine Aufgabe oder ein Problem in [!DNL Workfront] erfüllt sind. Die Workfront- und [!DNL Jira]-Elemente werden verknüpft.
+As a [!DNL Workfront] administrator, you can define triggers that will automatically create an issue in [!DNL Jira] every time certain conditions are met on a task or an issue in [!DNL Workfront]. The Workfront and [!DNL Jira] items become linked.
 
-Nachdem Sie die Konfiguration von [!DNL Workfront] für Jira abgeschlossen haben und ein Element entweder erstellt oder aktualisiert wird, [!DNL Workfront] es Ihren Triggern entspricht, wird automatisch ein neues Element in [!DNL Jira] erstellt.
+After you have completed the configuration of [!DNL Workfront] for Jira, when an item is either created or updated in [!DNL Workfront] to match your triggers, a new item is automatically created in [!DNL Jira].
 
-Workfront-Benutzende, die Workfront-Elemente erstellen und aktualisieren, benötigen keine [!DNL Jira], um die Erstellung von Elementen in [!DNL Jira] mit Triggern zu versehen.
+Workfront users that create and update Workfront items do not need a [!DNL Jira] license to trigger the creation of items in [!DNL Jira].
 
-Weitere Informationen finden Sie unter [Konfigurieren [!DNL Adobe Workfront]  für Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+For more information, see  [Configure [!DNL Adobe Workfront] for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 >[!NOTE]
 >
->Sie können [!DNL Jira] Elemente automatisch erstellen, indem Sie eine Vorlage an ein Projekt anhängen. Wenn die Vorlage Aufgaben mit Arbeitsaufträgen enthält, die den [!DNL Jira] Trigger entsprechen, führen die neuen Aufgaben zu neuen [!DNL Jira].
+>You can create [!DNL Jira] items automatically by attaching a template to a project. If the template contains tasks with assignments that meet the [!DNL Jira] triggers, the new tasks generate new [!DNL Jira] issues.
 
-Die automatische Verknüpfung eines [!DNL Workfront] Problems mit einem [!DNL Jira] Problem entspricht der automatischen Verknüpfung einer [!DNL Workfront] Aufgabe mit einem [!DNL Jira] Problem.
+Automatically linking a [!DNL Workfront] issue to a [!DNL Jira] issue is identical to automatically linking a [!DNL Workfront] task to a [!DNL Jira] issue.
 
-So verknüpfen Sie eine [!DNL Workfront] Aufgabe automatisch mit einem [!DNL Jira] Problem:
+To automatically link a [!DNL Workfront] task to a [!DNL Jira] issue:
 
-1. Vergewissern Sie sich, dass Ihr [!DNL Jira]-Systemadministrator Trigger konfiguriert hat, mit denen automatisch [!DNL Jira] Probleme erstellt werden, wenn [!DNL Workfront] Elemente zugewiesen werden. Melden Sie sich dann bei [!DNL Workfront] mit einer Zugriffsebene an, mit der Sie eine Aufgabe erstellen können.
+1. Ensure that your [!DNL Jira] system administrator has configured triggers for automatically creating [!DNL Jira] issues when [!DNL Workfront] items are assigned, then log in to [!DNL Workfront] with an access level that allows you to create a task.
 
-   Weitere Informationen zum Zugriff auf Aufgaben finden Sie unter [Zugriff auf Aufgaben gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+   For more information about access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
 {{step1-to-projects}}
 
-1. Wählen Sie auf **Seite** ein Projekt aus.
+1. On the **Projects** page, select a project.
 
-1. Wählen Sie im linken Projektbedienfeld die Option **[!UICONTROL Aufgaben]** aus.
+1. In the project left panel, select **[!UICONTROL Tasks]**.
 
-1. Klicken Sie auf **+ Neue Aufgabe**.
-
-   >[!NOTE]
-   >
-   >Um ein vorhandenes Workfront-Element mit einem Jira-Problem zu verknüpfen, wählen Sie **Bearbeiten** aus dem Menü **Mehr** Mehr![Symbol &#x200B;](assets/more-icon.png) des Elements aus.
-
-1. Geben Sie die für die Aufgabe verfügbaren Felder an oder aktualisieren Sie sie.
-1. Suchen Sie im **[!UICONTROL Arbeitsaufträge]** nach dem Benutzer, der Rolle oder dem Team, der bzw. das als Trigger(in) in der [!DNL Jira]-Integration angegeben ist, und wählen Sie diese aus.
-
-1. Klicken Sie **Aufgabe erstellen**. Die Aufgabe wird in Workfront erstellt, und auf der Registerkarte **Updates“ der Aufgabe wird ein neuer** angezeigt, um anzugeben, dass auch in [!DNL Jira] ein neues Problem erstellt wurde.
-
-1. (Optional) Klicken Sie im Bereich **[!UICONTROL Integrationen]** des Abschnitts **[!UICONTROL Details]** der Aufgaben- oder Problem-Kopfzeile auf den Link **[!UICONTROL Zu Jira wechseln]**, um das Problem in Jira zu öffnen.
-
-   Ihr System- oder Gruppenadministrator muss das Feld [!UICONTROL Integrationen] zu Ihrer Layout-Vorlage hinzufügen, um es in der Aufgaben- oder Problem-Kopfzeile anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
-
-   Jeder [!DNL Jira] Benutzer kann sofort mit der Arbeit an Elementen beginnen, die automatisch aus [!DNL Workfront] erstellt wurden, und ihre Aktualisierungen werden auf [!DNL Workfront] übertragen, ohne dass eine Lizenz für [!DNL Workfront] erforderlich ist.
-
-   Es werden nur die Felder aktualisiert, die Sie als [!DNL Workfront] während der Einrichtung des [!DNL Workfront]-Add-ons konfiguriert haben.
-
-   Weitere Informationen zum Synchronisieren von Feldern zwischen Workfront und Jira finden Sie im Abschnitt Konfigurieren von Workfront für Jira unter [Konfigurieren von Adobe Workfront für Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+1. Click **+ New Task**.
 
    >[!NOTE]
    >
-   >Das [!DNL Jira] Problem wird in [!DNL Jira] niemandem zugewiesen, wenn es automatisch in Workfront erstellt wird.
+   >To link an existing Workfront item to a Jira issue, select **Edit** from the item's **More** ![More icon](assets/more-icon.png) menu.
 
-## [!DNL Jira] Probleme manuell mit [!DNL Workfront] Elementen verknüpfen
+1. Specify or update any of the fields available for the task.
+1. In the **[!UICONTROL Assignments]** field, search for and select the user, role, or team that is specified as a trigger in the [!DNL Jira] integration.
 
-Nachdem Elemente in [!DNL Jira] und unabhängig voneinander erstellt [!DNL Workfront], können Sie ein [!DNL Jira] Problem manuell mit einer vorhandenen [!DNL Workfront] Aufgabe oder einem vorhandenen Problem verknüpfen.
+1. Click **Create Task**. The task is created in Workfront, and a new comment appears in the task's **Updates** tab to indicate that a new issue has also been created in [!DNL Jira].
 
-Sie können ein [!DNL Workfront] Element nicht manuell von [!DNL Workfront] mit einem vorhandenen [!DNL Jira] verknüpfen.
+1. (Optional) In the **[!UICONTROL Integrations]** area of the **[!UICONTROL Details]** section of the task or issue header, click the **[!UICONTROL Go to Jira]** link to open the issue in Jira.
+
+   Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task or issue header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+
+   Any [!DNL Jira] user can immediately start working on items automatically created from [!DNL Workfront] and their updates will transfer to [!DNL Workfront] without needing a license for [!DNL Workfront] to do so.
+
+   Only the fields that you as a [!DNL Workfront] administrator configured during the setup of the [!DNL Workfront] add-on are updated.
+
+   For more information about synchronizing fields between Workfront and Jira, see the Configure Workfront for Jira section in  [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+
+   >[!NOTE]
+   >
+   >The [!DNL Jira] issue isn't assigned to anyone in [!DNL Jira] when it's automatically created from Workfront.
+
+## Manually link [!DNL Jira] issues to [!DNL Workfront] items
+
+After items have been created in [!DNL Jira] and [!DNL Workfront] independent of each other, you can manually link a [!DNL Jira] issue to an existing [!DNL Workfront] task or issue.
+
+You cannot manually link a [!DNL Workfront] item from [!DNL Workfront] to an existing [!DNL Jira] item.
 
 >[!NOTE]
 >
->Wenn sich das [!DNL Jira] Problem nicht auf einem Projekt befindet, das nicht als Trigger in der [!DNL Workfront]-Integration identifiziert wird, können Sie es bei Verwendung der Integration mit [!DNL Jira] On-Premise nicht manuell mit einem Workfront-Element verknüpfen.\
->Weitere Informationen zum Einrichten von Triggern für den Workflow &quot;Workfront zu Jira“ finden Sie unter [Workfront-Elemente automatisch mit Jira-Problemen verknüpfen](#automatically-link-workfront-items-to-jira-issues).
+>If the [!DNL Jira] issue is not on a project which is not identified as a trigger in the [!DNL Workfront] Integration you cannot manually link it to a Workfront item when using the integration with [!DNL Jira] On-Premise.\
+>For more information about setting up triggers for the Workfront to Jira workflow, see [Automatically link Workfront items to Jira issues](#automatically-link-workfront-items-to-jira-issues).
 
-Wenn [!DNL Workfront] und [!DNL Jira] Elemente verknüpft sind, können bestimmte Felder eines Elements beim anderen automatisch aktualisiert werden.\
-Weitere Informationen zum Aktualisieren verknüpfter Elemente finden Sie unter [Aktualisieren verknüpfter Elemente zwischen Jira und Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md).
+When [!DNL Workfront] and [!DNL Jira] items are linked, certain fields from one item can be automatically updated on the other.\
+For more information about updating linked items, see [Update linked items between Jira and Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md).
 
-So verknüpfen Sie [!DNL Jira] Probleme manuell mit [!DNL Workfront]:
+To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
-1. (Bedingt) Melden Sie sich bei [!DNL Workfront] an und finden Sie ein Problem oder eine Aufgabe, die Sie mit einem [!DNL Jira] Problem verknüpfen möchten.
-1. (Bedingt) Kopieren Sie im Abschnitt **Grundlegende Informationen** auf der Registerkarte **Aufgabendetails** oder **Problemdetails** die **[!UICONTROL Referenznummer]** des Elements in Workfront.
+1. (Conditional) Log in to [!DNL Workfront] and find an issue or a task that you want to link to a [!DNL Jira] issue.
+1. (Conditional) In the **Basic information** section in the **Task Details** or **Issue Details** tab, copy the **[!UICONTROL Reference Number]** of the item in Workfront.
+   
+   Or
 
-   ODER
-
-   Kopieren Sie in der Adressleiste des Elements die **URL** des Elements in Workfront.
+   From the address bar of the item, copy the **URL** of the item in Workfront.
 
    >[!IMPORTANT]
    >
-   >Wenn Ihr Unternehmen in das einheitliche Adobe-Erlebnis integriert wurde, müssen Sie die **Referenznummer** zum Verknüpfen von Workfront-Elementen mit Jira verwenden. (Die URL-Option ist verfügbar, gibt aber einen Fehler zurück, wenn Sie sie verwenden.) Informationen zum einheitlichen Erlebnis finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >If your organization has been onboarded to the Adobe Unified Experience, you must use the **Reference Number** for linking Workfront items to Jira. (The URL option is available, but it will return an error if you use it.) For information about the Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
-   >Für Unternehmen, die nicht am einheitlichen Adobe-Erlebnis teilnehmen, wird die Verwendung der URL-Option nicht empfohlen, da sich die URLs ändern können.
+   >For organizations not on the Adobe Unified Experience, it's not recommended to use the URL option because URLs can change.
 
    >[!NOTE]
    >
-   >Sie müssen über eine [!DNL Workfront]-Lizenz verfügen, um sich bei [!DNL Workfront] anzumelden. Andernfalls muss Ihnen ein [!DNL Workfront] Benutzer diese Informationen bereitstellen.
+   >You must have a [!DNL Workfront] license to log in to [!DNL Workfront]. Otherwise, a [!DNL Workfront] user must supply this information to you.
 
-1. Navigieren Sie in [!DNL Jira] zu einem Problem, das Sie manuell mit dem [!DNL Workfront] verknüpfen möchten.
-1. Fügen Sie im rechten Bedienfeld [!DNL Workfront] die **[!UICONTROL Referenznummer]** oder die **URL** des [!DNL Workfront] ein, mit dem Sie es verknüpfen möchten.
+1. In [!DNL Jira], navigate to an issue that you want to manually link to the [!DNL Workfront] item.
+1. In the [!DNL Workfront] right panel, paste the **[!UICONTROL Reference Number]** or the **URL** of the [!DNL Workfront] item that you want to link it to.
 
-1. Klicken Sie auf **[!UICONTROL Link]**. Die beiden Elemente werden verknüpft und der [!DNL Workfront] rechte Bereich wird mit Informationen aus dem [!DNL Workfront] Element gefüllt.
+1. Click **[!UICONTROL Link]**. The two items become linked and the [!DNL Workfront] right panel is populated with information from the [!DNL Workfront] item.
 
-   Standardmäßig sind die folgenden [!DNL Workfront] in [!DNL Jira] im rechten [!DNL Workfront] sichtbar:
+   By default, the following [!DNL Workfront] fields are visible in [!DNL Jira] in the [!DNL Workfront] right panel:
 
-   * Der **[!UICONTROL Name]** des Elements. Sie können auf das [!DNL Workfront] Element zugreifen, indem Sie auf den Namen im Bedienfeld klicken.
-   * Der **[!UICONTROL Projektname]**.
-   * Der **[!UICONTROL Status]** des Elements.
-   * Die **[!UICONTROL Priorität]** des Elements.
-   * Das Datum, an dem es in [!DNL Workfront] erstellt wurde.
-   * Die **[!UICONTROL Geplanten Stunden]** des Elements.
-   * Die **[!UICONTROL Referenznummer]**. Sie können auf das [!DNL Workfront] Element zugreifen, indem Sie auf **Referenznummer** im Bedienfeld klicken.
+   * The **[!UICONTROL Name]** of the item. You can access the [!DNL Workfront] item by clicking the name in the panel. 
+   * The **[!UICONTROL Project Name]**.
+   * The **[!UICONTROL Status]** of the item.
+   * The **[!UICONTROL Priority]** of the item.
+   * The date that it was created in [!DNL Workfront].
+   * The **[!UICONTROL Planned Hours]** of the item.
+   * The **[!UICONTROL Reference Number]**. You can access the [!DNL Workfront] item by clicking the **Reference Number** in the panel.
 
-   Weitere Informationen zum Aktivieren zusätzlicher Felder, die im rechten Bereich angezeigt werden, finden Sie im Abschnitt Konfigurieren der Feldsynchronisierung zwischen [!DNL Jira] und [!DNL Workfront] Elementen in [Konfigurieren [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). Auf der Registerkarte [!DNL Workfront] des **[!DNL Workfront]** Problems wird ein Kommentar des [!DNL Jira]-Administrators, der mit der Integration verknüpft ist, veröffentlicht, um zu bestätigen, dass ein neues [!DNL Jira] erstellt wurde. Der Kommentar enthält einen Link zum [!DNL Jira].
+   For more information about enabling additional fields to display in the right panel, see the Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items section in [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). A comment from the [!DNL Workfront] administrator associated with the integration is posted in the **[!DNL Workfront]** tab of the [!DNL Jira] issue to confirm that a new [!DNL Jira] item has been created. The comment contains a link to the [!DNL Jira] issue.
 
-## Verknüpfung von Elementen zwischen [!DNL Jira] und [!DNL Workfront] aufheben
+## Unlink items between [!DNL Jira] and [!DNL Workfront]
 
-Verknüpfte Elemente zwischen [!DNL Jira] und [!DNL Workfront] können in [!DNL Jira] manuell aufgehoben werden. Sie können die Verknüpfung eines [!DNL Workfront] Elements mit seinem [!DNL Jira] Gegenstück in [!DNL Workfront] nicht aufheben.
+Linked items between [!DNL Jira] and [!DNL Workfront] can be manually unlinked in [!DNL Jira]. You cannot unlink a [!DNL Workfront] item from their [!DNL Jira] counterpart in [!DNL Workfront]. 
 
-Sie benötigen den folgenden Zugriff, um die Verknüpfung mit manuell verknüpften Elementen aufzuheben:
+You need the following access to unlink manually linked item:
 
-* Sie sind der Benutzer, der die Elemente manuell verknüpft hat.
-* Sie sind der [!DNL Jira] Systemadministrator.
+* You are the user who manually linked the items.
+* You are the [!DNL Jira] system administrator.
 
 >[!NOTE]
 >
->Nur ein [!DNL Workfront] Administrator kann die Verknüpfung von automatisch verknüpften Elementen aufheben.
+>Only a [!DNL Workfront] administrator can unlink items that were automatically linked. 
 
-So heben Sie die Verknüpfung eines [!DNL Jira] Problems mit einem [!DNL Workfront] auf:
+To unlink a [!DNL Jira] issue from a [!DNL Workfront] item:
 
-1. Anmelden bei Jira.
-1. Navigieren Sie zu dem Problem, das mit einer [!DNL Workfront] Aufgabe oder einem Problem verknüpft ist.
-1. Wechseln Sie zum rechten Bedienfeld von **0&rbrace;Workfront.**
-1. Klicken Sie auf das Symbol **[!UICONTROL Verknüpfung aufheben]** und dann auf **[!UICONTROL Verknüpfung aufheben]**. Die zuvor verknüpften [!DNL Jira] und [!DNL Workfront] Elemente werden aufgehoben.
+1. Log in to Jira.
+1. Navigate to the issue that is linked to a [!DNL Workfront] task or issue.
+1. Go to the **Workfront** right panel.
+1. Click the **[!UICONTROL Unlink]** icon, then click **[!UICONTROL Unlink]**. The previously linked [!DNL Jira] and [!DNL Workfront] items unlink. 
 
-   Felder, Kommentare oder Dokumente, die in Zukunft aktualisiert werden, werden nicht im vorherigen Gegenstück in der anderen Anwendung aktualisiert.
+   Any of their fields, comments, or documents that are updated in the future are not updated on their previous counterpart in the other application. 
+
+-->
