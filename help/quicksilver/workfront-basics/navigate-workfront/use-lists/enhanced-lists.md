@@ -5,9 +5,9 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
+source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2326'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,7 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
 | Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
-
-<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
+| <span class="preview">Liste der Berichte</span> | <span class="preview">Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein)</span> |
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
 
