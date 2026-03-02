@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 47%
+source-wordcount: '1323'
+ht-degree: 41%
 
 ---
 
@@ -301,6 +301,30 @@ Die Version 2.1.53 enthielt auch interne Änderungen an Tools.
 Dieses Update ist sowohl für macOS als auch für Windows.
 
 ## Ankündigungen
+
+### Workfront Planning Trial ist jetzt verfügbar
+
+[!BADGE Aus Zeitplan]{type=Neutral}
+
+>[!NOTE]
+>
+>* Vorschau und Produktion für alle: 2. März 2026
+>* Sie müssen die in Ihrer Umgebung verfügbare Testvereinbarung akzeptieren, bevor Sie auf die Umgebung für die Planning-Testversion zugreifen können.
+>* Sie müssen die Adobe AI Agent-Vereinbarung nicht unterzeichnen, um Planning Designer während des Testzeitraums verwenden zu können.
+
+Die Testversion von Workfront Planning ist jetzt für alle Kundinnen und Kunden von Workfront verfügbar.
+
+Die kostenlose Testversion bietet Workfront-Kunden ab dem 2. März 2026 eine 60-tägige Prime-Lizenz für den Zugriff auf Workfront Planning. Die Testphase endet am 1. Mai 2026.
+
+Die kostenlose Testversion von Workfront Planning bietet Folgendes:
+
+* Eine kuratierte Umgebung für die Planung mehrerer Arbeitsbereiche
+* Beispieldaten, um Ihnen einen Eindruck zu vermitteln, wo Sie anfangen sollten
+* Produktinterne Schulungen und Anleitungen
+* Klare Angabe der Meilensteine, die auf bestimmte Rollen zugeschnitten sind.
+* Planning Designer - ein KI-gestützter Assistent, der Ihnen beim Erstellen der gewünschten Umgebung helfen kann
+
+Weitere Informationen finden Sie unter [Erste Schritte mit der kostenlosen Testversion von Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 ### API-Version 21
 
