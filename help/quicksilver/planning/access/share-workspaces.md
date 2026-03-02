@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -151,31 +151,23 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
    ![Freigabe-Schaltfläche oben rechts in Workspace](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">(Bedingt) Führen Sie je nach Zugriffsebene eine der folgenden Aktionen aus:
 
-1. <span class="preview">(Bedingt) Wenn Sie Systemadministrator sind, wählen Sie eine der folgenden Optionen aus:</span>
+   * Wenn Sie Systemadministrator sind, wählen Sie eine der folgenden Optionen aus:</span>
 
-   <div class="preview">
+      * <span class="preview">**Nur eingeladene Personen können zugreifen**: Sie müssen Entitäten im Freigabefeld auswählen und ihren Zugriff auf den Arbeitsbereich auswählen. Dies ist die Standardauswahl. </span>
+      * <span class="preview">**Jeder im System kann Folgendes anzeigen**: Jeder im System mit Zugriff auf Planning kann den Workspace in seinem Bereich **Arbeitsbereiche** in Planning anzeigen.</span>
 
-   * **Nur eingeladene Personen können zugreifen**: Sie müssen Entitäten im Freigabefeld auswählen und ihren Zugriff auf den Arbeitsbereich auswählen. Dies ist die Standardauswahl.
-   * **Jeder im System kann Folgendes anzeigen**: Jeder im System mit Zugriff auf Planning kann den Workspace in seinem Bereich **Arbeitsbereiche** in Planning anzeigen.
+   * <span class="preview">(Bedingt) Wenn Sie Workspace Manager mit einer Standardlizenz sind, können Sie eine der folgenden Auswahlen sehen, sie jedoch nicht ändern:</span>
 
-   </div>
+      * <span class="preview">**Nur eingeladene Personen können darauf zugreifen**. Dies ist die Standardeinstellung.</span>
+      * <span class="preview">**Jeder im System kann Folgendes anzeigen**</span>
 
-   <!--only  for March 4:
+     <span class="preview">Sie müssen einen Systemadministrator bitten, eine globale Berechtigung für einen Arbeitsbereich zu ändern.</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. Beginnen Sie im Feld **Zugriff auf diesen Arbeitsbereich gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets und klicken Sie darauf, wenn es in der Liste angezeigt wird.
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. Beginnen Sie im Feld **Zugriff auf diesen Arbeitsbereich gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets und klicken Sie darauf, wenn es in der Liste angezeigt wird. <!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![Freigabe der Benutzeroberfläche für Gruppen](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Freigabe der Benutzeroberfläche für Gruppen](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >

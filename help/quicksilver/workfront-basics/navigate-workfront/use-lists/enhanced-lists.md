@@ -5,9 +5,9 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2337'
 ht-degree: 2%
 
 ---
@@ -344,13 +344,13 @@ So geben Sie eine Ansicht frei:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-Wenn eine Ansicht für Sie freigegeben wurde und Sie nicht über die erforderlichen Bearbeitungsberechtigungen verfügen, können Sie die Ansicht kopieren und unter einem neuen Namen speichern. Sie müssen zunächst Änderungen an der Ansicht vornehmen, bevor Sie sie kopieren können.
+Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsberechtigung haben, können Sie die Ansicht kopieren und unter einem neuen Namen speichern. Sie müssen zunächst Änderungen an der Ansicht vornehmen, bevor Sie sie kopieren können.
 
-1. Bewegen Sie in der Dropdown-Liste Ansichten den Mauszeiger über die Ansicht **Freigegebene Ansichten** die Sie kopieren möchten, klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-icon.png) und klicken Sie auf **Mit Voreinstellungen kopieren**.
+1. Bewegen Sie im Dropdown-Menü „Ansichten“ den Mauszeiger über die Ansicht **Freigegebene**&quot;, deren Einstellungen Sie geändert haben und die Sie kopieren möchten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) und klicken Sie auf **Mit Voreinstellungen kopieren**.
 
-   Eine neue Ansicht wird automatisch erstellt. Er verwendet den ursprünglichen Ansichtsnamen mit (Kopie) am Ende und wird im Abschnitt **Meine Ansichten** der Ansichten angezeigt.
+   Eine neue Ansicht wird automatisch erstellt. Der Name der kopierten Ansicht folgt dem folgenden Muster: `Original view name (copy)`und wird im Abschnitt **Meine Ansichten** der Ansichten angezeigt.
 
-   Sie sind der Eigentümer dieser Ansicht und können sie umbenennen, bearbeiten, freigeben oder löschen. Wenn der Eigentümer der Originalansicht Ihren freigegebenen Zugriff auf diese Ansicht entfernt, haben Sie immer noch Zugriff auf diese Ansicht, die Sie erstellt haben.
+   Sie sind der Eigentümer dieser Ansicht und können sie umbenennen, bearbeiten, freigeben oder löschen. Wenn der Eigentümer der Originalansicht Ihren freigegebenen Zugriff auf diese Ansicht entfernt, haben Sie immer noch Zugriff auf die Ansicht, die Sie durch Kopieren des freigegebenen Originals erstellt haben.
 
    >[!NOTE]
    >

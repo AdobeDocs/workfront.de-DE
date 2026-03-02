@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-In Adobe Workfront Planning können Sie Objekte und deren Felder in einer Listenansicht anzeigen, wenn Sie auf der Seite „Verbundene Datensätze“ eines Datensatzes darauf zugreifen.
+In Adobe Workfront Planning können Sie Projekte und deren Felder in einer Listenansicht anzeigen, wenn Sie auf die Seite „Verbundene Datensätze“ eines Datensatzes zugreifen. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-In diesem Artikel wird beschrieben, wie Sie eine Listenansicht auf der Seite „Verbundene Datensätze“ eines Datensatzes erstellen oder bearbeiten und die Objekte in der Ansicht bearbeiten können.
+In diesem Artikel wird beschrieben, wie Sie eine Listenansicht erstellen oder bearbeiten können, die Projekte auf der Seite „Verbundene Datensätze“ eines Datensatzes anzeigt, und wie Sie die Projekte in der Ansicht bearbeiten können. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Zugriffsanforderungen
 
@@ -72,18 +72,19 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Überlegungen zu Listenansichten
 
-* Datensätze können nicht in den Datensatztypseiten in einer Listenansicht angezeigt werden. Sie können die folgenden Objekte nur in einer Listenansicht anzeigen, wenn Sie sie auf der Seite „Verbundene Datensätze“ eines Datensatzes anzeigen:
+* Sie können nicht alle Objekttypen auf den Datensatztypseiten in einer Listenansicht anzeigen.
+
+  Sie können die folgenden Objekte nur in einer Listenansicht anzeigen, wenn Sie sie auf der Seite „Verbundene Datensätze“ eines Datensatzes anzeigen:
 
    * Workfront-Projekte
 
   Informationen zum Erstellen einer verbundenen Datensatzseite finden Sie unter [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 * Bevor Sie eine Listenansicht auf einer verbundenen Datensatzseite eines Datensatzes anzeigen können, müssen Sie Workfront-Projekte mit Planungs-Datensatztypen verbinden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Listenansichten ähneln erweiterten Listen. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Verwalten einer Listenansicht {#manage-a-list-view}
 
-Weitere Informationen zum Verwalten von Listenansichten in Workfront finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Listenansichten ähneln erweiterten Listen. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ Weitere Informationen zum Verwalten von Listenansichten in Workfront finden Sie 
       >
       >* Sie können keine Systemansichten ändern.
       >
-      >* <span class="preview">Sie können eine Ansicht, die für Sie freigegeben wurde, zurücksetzen, nachdem Sie sie geändert haben, um ihre ursprünglichen Voreinstellungen wiederherzustellen, oder Sie können sie mit Ihren Änderungen kopieren und die Kopie freigeben. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview">Sie können eine Ansicht, die für Sie freigegeben wurde und für die Sie nur über die Berechtigung zum Anzeigen verfügen, zurücksetzen, nachdem Sie sie geändert haben, um ihre ursprünglichen Voreinstellungen wiederherzustellen, oder Sie können sie mit Ihren Änderungen kopieren und die Kopie freigeben. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
    1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png), um der Ansicht einen Filter hinzuzufügen. Die Ergebnisse werden sofort in der Liste gefiltert. Filter können nicht gespeichert und benannt werden. Filter werden gespeichert, wenn Sie in Zukunft auf die Seite zugreifen, und sie sind Teil freigegebener Ansichten.
    1. Klicken Sie auf das **Spalten**-Symbol ![Spalten-Symbol](assets/columns-icon.png), um auszuwählen, welche Spalten in der Ansicht angezeigt oder ausgeblendet werden sollen.
@@ -128,23 +129,23 @@ Weitere Informationen zum Verwalten von Listenansichten in Workfront finden Sie 
       Sie können der Listenansicht nur vorhandene Felder hinzufügen.
 Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
 
-
    1. <span class="preview">Klicken Sie auf das Symbol **Zellen formatieren** (Symbol ![Zellen formatieren](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet.</span> <!--change the name of the box when they update it-->
       <span class="preview">Gehen Sie wie folgt vor: </span>
 
+      1. Klicken Sie **Bedingung hinzufügen**.
+      1. <span class="preview">Wählen Sie in der **Wenn**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und klicken Sie dann auf **Bedingung hinzufügen**. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar.</span>
+
+      1. <span class="preview">(Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.</span>
+
       <div class="preview">
-
-      1. Klicken Sie in der **Wenn**-Zeile auf **Bedingung hinzufügen** und wählen Sie dann ein Feld aus, nach dem Sie formatieren möchten, und wählen Sie einen Feldwert aus.
-
-         >[!TIP]
-         >
-         >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar.
-
-      1. (Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.
-
-         >[!TIP]
-         >
-         >Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.
 
       1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
       1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll. <!--edit this area, if it changes names??-->

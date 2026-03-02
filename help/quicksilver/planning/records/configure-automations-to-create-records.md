@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 4%
@@ -161,7 +161,7 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
       * Klick auf Schaltfläche
       * <span class="preview">Änderung des Feldwerts</span>
 
-   1. (Bedingt) Wenn Sie **Schaltflächen-Klick** ausgewählt haben, gehen Sie zu dem Schritt unten, der den Bereich **Aktionen** beschreibt.
+   1. (Bedingt) Wenn Sie **Schaltflächen-Klick** ausgewählt haben, gehen Sie zu Schritt 9 unten, der den Bereich **Aktionen** beschreibt. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Bedingt) Wenn Sie **Feldwertänderung** ausgewählt haben, führen Sie folgende Schritte im Abschnitt **Einstellungen** aus: </span>
 
@@ -258,7 +258,7 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
         >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 

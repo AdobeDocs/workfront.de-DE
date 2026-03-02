@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2168'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront Planning bietet einen zentralen Einblick in Ihren Marketing-Lebe
 
 >[!IMPORTANT]
 >
->* Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning.
+>* Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning für alle Adobe Workfront-Kunden an, die nicht ebenfalls Workfront Planning-Kunden sind.
 >
 >* Die Testversion ist zwischen den folgenden Daten verfügbar: 2. März bis 1. Mai 2026.
 >
@@ -69,14 +69,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testangebot von Adobe Workfront Planning:
 
-* **26. Januar 2026**: Die kostenlosen Testbanner von Workfront Planning wurden für Workfront-Kunden veröffentlicht. Die Banner umfassen Folgendes:
+* **26. Januar 2026**: Die kostenlosen Testbanner von Workfront Planning wurden für Workfront-Kunden veröffentlicht. Die Banner enthielten Folgendes:
    * Ein Link zu diesem Dokument.
    * Das Fenster für die Testvereinbarung. Nur ein Workfront-Administrator kann die Vereinbarung akzeptieren. Sie können die Testvereinbarung jederzeit ab diesem Datum akzeptieren.
 * **2. März 2026**: Die Workfront Planning-Testversion wurde gestartet.
 
   Mit dem Start der Testversion werden die folgenden Elemente zu Ihrer Workfront-Instanz hinzugefügt:
 
-   * Die Workfront Planning-Banner werden weiterhin für alle Benutzenden angezeigt.
+   * Die Workfront Planning-Banner werden weiterhin für alle Benutzenden angezeigt. Ein Link zu diesem Dokument ist in den Bannern enthalten.
    * Die **Testvereinbarung überprüfen**-Einstellung wird zum Bereich **Setup** hinzugefügt.
 
   Die folgenden Szenarien sind vorhanden:
@@ -87,7 +87,8 @@ Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testa
   >
   >Der Bereich Planung wird im Hauptmenü für alle Benutzer im System angezeigt, unabhängig von ihrem Workfront-Lizenztyp.
 
-   * Wenn Ihr Workfront-Administrator die Vereinbarung vor diesem Datum nicht akzeptiert hat, muss er sie zunächst akzeptieren, bevor Sie Zugriff auf Workfront Planning erhalten.
+   * Wenn Ihr Workfront-Administrator den Vertrag vor diesem Datum nicht akzeptiert hat, werden die Banner, die die Planungs-Testprogramme ankündigen, für alle Benutzer angezeigt. Planning ist jedoch noch nicht im Hauptmenü verfügbar. Ihr Systemadministrator muss zunächst die Vereinbarung akzeptieren, damit Sie Zugriff auf Workfront Planning erhalten.
+
 * **1. April 2026**: Sie können sich nicht mehr für die Studie registrieren.
 
   Die folgenden Elemente werden aus Ihrer Workfront-Instanz entfernt:
@@ -208,7 +209,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
 1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-shell.png) und dann auf **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
 
    Der Bereich **Planung** wird auf der Registerkarte **Beispielarbeitsbereiche** geöffnet.
