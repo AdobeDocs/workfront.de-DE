@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 3%
 
 ---
@@ -401,12 +401,23 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 1. Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.
 
-   ![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** und suchen Sie nach einem anderen Feld. Klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Zeitleiste angewendet und die Datensätze werden im Gruppierungsfeld angezeigt.
-1. <span class="preview">(Optional) Klicken Sie auf das **A -> Z** oder **Z -> A** Dropdown-Menü neben dem Namen des ausgewählten Felds, um eine aufsteigende oder absteigende Sortierreihenfolge für die Gruppierung auszuwählen. Die Gruppierungen werden in der alphabetischen Reihenfolge angezeigt, die Sie in der Zeitleisten -Ansicht ausgewählt haben. </span>
+1. <span class="preview">(Optional und bedingt) Wählen Sie je nach Feldtyp, nach dem Sie gruppieren möchten, eine der folgenden Sortieroptionen, um die Gruppierungen entweder in auf- oder absteigender Reihenfolge zu sortieren: </span>
+
+   <div class="preview">
+
+   * **A -> Z** oder **Z -> A** für Felder, Textfelder, Absatzfelder, verbundene Datensätze oder Objekte, Personenfelder auswählen
+   * **0 -> 9** oder **9 -> 0** für Felder vom Typ Zahl, Währung oder Prozentsatz.
+   * **früheste -> neueste** oder **neueste -> früheste** für Datumsfelder
+
+   </div>
+
+   <span class="preview"> Die Gruppierungen in der Zeitleisten -Ansicht werden entsprechend sortiert. Die Datensätze innerhalb der Gruppierungen werden in der Reihenfolge ihres **Startdatums) sortiert** was die Standardsortierung ist. </span>
+
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
@@ -422,7 +433,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -575,7 +586,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
