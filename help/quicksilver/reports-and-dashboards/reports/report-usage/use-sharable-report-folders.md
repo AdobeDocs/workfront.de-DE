@@ -6,9 +6,9 @@ description: Organisieren Sie die von Ihnen erstellten Berichte mithilfe von fre
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -93,7 +93,7 @@ Sie können in einem freigebbaren Berichtsordner bis zu drei Ebenen von Unterord
 
 ## Freigeben eines Berichtsordners für andere Benutzer
 
-Wenn Sie einen Ordner für Benutzer freigeben, erben diese den Zugriff auf alle Unterordner in dieser Ordnerstruktur. Benutzende müssen außerdem Zugriff auf jeden Bericht haben, entweder über Ordnerberechtigungen oder über die direkte Berichtfreigabe.
+Wenn Sie einen Ordner für Benutzer freigeben, erben diese den Zugriff auf alle Unterordner in dieser Ordnerstruktur.
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ Berichtsberechtigungen, die über die Ordnerberechtigungen gewährt werden, werd
 ## Neues Listenerlebnis für freigebbare Ordner
 
 Wenn Sie im Bereich Berichte auf freigebbare Ordner zugreifen, wird Ihnen ein neues Listenerlebnis angezeigt, mit dem Sie Ihre Ordner und Berichte einfach anzeigen und verwalten können. Weitere Informationen zum neuen Listenerlebnis finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>Erweiterte Felder werden in der erweiterten Listenerfahrung nicht unterstützt. Um mit diesen Feldern zu arbeiten, können Sie einen Bericht erstellen.
