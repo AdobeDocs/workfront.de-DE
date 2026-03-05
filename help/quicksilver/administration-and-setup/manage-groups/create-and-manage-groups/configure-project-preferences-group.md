@@ -8,19 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
-ht-degree: 2%
+source-wordcount: '2839'
+ht-degree: 3%
 
 ---
 
 # Projektvoreinstellungen für eine Gruppe konfigurieren
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Wenn Sie Gruppenadministrator sind und ein Adobe Workfront-Administrator eine Projektvoreinstellung für alle Gruppen im System freischaltet, können Sie diese Voreinstellung für Ihre Gruppe so konfigurieren, dass sie sich auf alle nachfolgenden Projekte auswirkt, die Ihre Gruppe erstellt.
 
@@ -41,7 +41,7 @@ Informationen dazu, wie Workfront-Admins eine Projektvoreinstellung entsperren, 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +54,7 @@ Informationen dazu, wie Workfront-Admins eine Projektvoreinstellung entsperren, 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -63,7 +63,7 @@ Informationen dazu, wie Workfront-Admins eine Projektvoreinstellung entsperren, 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -166,7 +166,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Planen ab</td> 
+   <td role="rowheader"><b>Planen ab</b></td> 
    <td> <p>Legen Sie fest, ob neue Projekte ab dem Startdatum oder ab dem Abschlussdatum geplant werden, wenn sie erstellt werden.</p> 
     <ul> 
      <li><strong>Startdatum</strong>: Für neue Aufgaben wird die Option „Sobald wie möglich“ ausgewählt, und die Projektverantwortlichen werden aufgefordert, ein geplantes Startdatum für das Projekt anzugeben.</li> 
@@ -174,7 +174,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Benutzer-Ausfallzeiten</td> 
+   <td role="rowheader"><b>Benutzer-Ausfallzeiten</b></td> 
    <td> <p>Legen Sie fest, ob die Ausfallzeit des Primären Verantwortlichen für eine Aufgabe die geplanten Termine für diese Aufgabe in einem Projekt anpasst.</p> 
     <ul> 
      <li> <p><strong>Auszeiten von Benutzern in Aufgabendauer berücksichtigen</strong>: Jede für den Primären Beauftragten einer Aufgabe geplante Auszeit passt die geplanten Termine der Aufgabe an, wenn die Auszeit während der Aufgabendauer eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit der Einschränkung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen werden soll und der Primäre Verantwortliche für den 2. Juni eine Ausfallzeit markiert hat, werden die Termine für die Aufgabe auf den 1. Juni bis zum 4. Juni festgelegt.</p> <p><b>WICHTIG</b>: Die Dauer der Aufgabe ändert sich nicht, wenn Sie diese Einstellung auswählen. Je nach Aufgabenbeschränkung ändern sich nur die geplanten Termine.</p> </li> 
@@ -222,7 +222,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
     </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Timeline-Berechnungen </p> </td> 
+   <td role="rowheader"> <p><b>Timeline-Berechnungen</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Typische Stunden pro Arbeitstag</strong>: Legen Sie die Anzahl der Stunden in einem typischen Arbeitstag für die Benutzer fest, die an Projekten arbeiten werden. Der Standardwert ist 8 Stunden.</li> 
@@ -233,7 +233,12 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Benutzerdefinierte Quartale</strong> </p> </td> 
-   <td> <p>Konfigurieren Sie benutzerdefinierte jährliche Quartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht der herkömmlichen Aufschlüsselung von Quartalen während eines Kalenderjahres entsprechen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale </a>.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für benutzerdefinierte Quartale nicht entsperren.</p> </td> 
+   <td> 
+   <span class="preview">Der Bereich Benutzerdefinierte Quartale wurde aus dem Abschnitt „Projektvoreinstellungen“ der Gruppe in der Vorschau-Umgebung entfernt.</span>
+   <p>Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht der herkömmlichen Aufschlüsselung von Quartalen während eines Kalenderjahres entsprechen. Ein Workfront-Administrator kann mehrere benutzerdefinierte Quartale im Bereich <b>Setup</b> hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale </a>.</p>  
+   <p><b>WICHTIG<b></p>
+   <p>Sie können die Konfiguration für benutzerdefiniertes Quartal nicht als Gruppenadministrator ändern. <p>Workfront-Administratoren können Voreinstellungen für benutzerdefinierte Quartale nicht entsperren, damit Gruppenadministratoren sie verwalten können.</p> <p>Der Bereich Benutzerdefinierte Quartale ist für Gruppenadministratoren schreibgeschützt.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
      >[!TIP]
      >
-     >Diese Nachricht sollte nur unmittelbar nach dem Kauf angezeigt werden, wenn die Planung und die benutzerdefinierten Quartale Ihrer Organisation bereits vor dem Kauf aktiviert waren. Überschneidungen und Lücken zwischen den Quartalen sind nach der Aktivierung von Workfront Planning für Ihr Unternehmen nicht zulässig.
+     >Diese Nachricht sollte sofort angezeigt werden, nachdem die Planung und die benutzerdefinierten Quartale Ihrer Organisation bereits vor dem Kauf aktiviert wurden. Überschneidungen und Lücken zwischen den Quartalen sind nach der Aktivierung von Workfront Planning für Ihr Unternehmen nicht zulässig.
 
    * Wenn Quartale nur teilweise eingerichtet wurden und im selben Jahr einige Monate fehlen, erhalten Sie möglicherweise eine Benachrichtigung, wenn Sie scrollen, um die fehlenden Quartale anzuzeigen, die für den Rest des Jahres mit den fehlenden Quartalen eingerichtet werden müssen.
 
@@ -433,7 +433,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -586,7 +586,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Berichte nach Zeitrahmen filtern
+title: Filtern von Berichten nach Zeitraum
 description: Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
-# Berichte nach Zeitrahmen filtern
+# Filtern von Berichten nach Zeitraum
 
 <!-- Audited: 4/2025 -->
 
@@ -21,7 +21,7 @@ Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem O
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem O
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem O
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,11 +148,11 @@ Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möc
   </tr> 
   <tr> 
    <td role="rowheader">Nächste Woche</td> 
-   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in der Woche ist, die auf die aktuelle Woche folgt, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in der Woche ist, die auf die aktuelle Woche folgt, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Letzte Woche</td> 
-   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in der Woche vor der aktuellen Woche ist, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in der Woche vor der aktuellen Woche ist, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Diesen Monat</td> 
@@ -182,7 +182,7 @@ Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möc
   </tr> 
   <tr> 
    <td role="rowheader">Letztes Quartal</td> 
-   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in dem Quartal ist, das dem aktuellen Quartal vorausgeht, in dem oben Quartale definiert sind.</p> <p>Hinweis: Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale für Ihr System aktiviert und definiert hat, werden die integrierten Filter für Quartale durch Ihre benutzerdefinierten Quartalsinformationen ersetzt. Weitere Informationen zur Aktivierung benutzerdefinierter Quartale finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Benutzerdefinierte Quartale aktivieren</a>.</p> </td> 
+   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in dem Quartal ist, das dem aktuellen Quartal vorausgeht, in dem oben Quartale definiert sind.</p> <p><b>HINWEIS</b></p>  Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale für Ihr System aktiviert und definiert hat, werden die integrierten Filter für Quartale durch Ihre benutzerdefinierten Quartalsinformationen ersetzt. Weitere Informationen zur Aktivierung benutzerdefinierter Quartale finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Benutzerdefinierte Quartale aktivieren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dieses Jahr</td> 
@@ -194,7 +194,7 @@ Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möc
   </tr> 
   <tr> 
    <td role="rowheader">Letztes Jahr</td> 
-   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im letzten Jahr ist, wobei das letzte Jahr am 1. Januar beginnt und am 31. Dezember des Jahres endet, das dem aktuellen Jahr vorausgeht.</p> <p>Hinweis: Es gibt keinen integrierten Zeitraum für das Geschäftsjahr. Sie können einen Bericht erstellen und die Informationen mithilfe eines benutzerdefinierten Modifikators für den Datumsbereich des Geschäftsjahres filtern, wie er in Ihrer Organisation definiert ist. Wenn Sie einen Zeitrahmen für ein Geschäftsjahr vor Ort auswählen möchten, sollten Sie eine Eingabeaufforderung anstelle eines Filters verwenden. </p> </td> 
+   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im letzten Jahr ist, wobei das letzte Jahr am 1. Januar beginnt und am 31. Dezember des Jahres endet, das dem aktuellen Jahr vorausgeht.</p> <p>Hinweis: Es gibt keinen integrierten Zeitraum für das Geschäftsjahr. Sie können einen Bericht erstellen und die Informationen mithilfe eines benutzerdefinierten Modifikators für den Datumsbereich des Geschäftsjahres filtern, wie er in Ihrer Organisation definiert ist. Wenn Sie einen Zeitrahmen für ein Geschäftsjahr vor Ort auswählen möchten, sollten Sie eine Eingabeaufforderung anstelle eines Filters verwenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

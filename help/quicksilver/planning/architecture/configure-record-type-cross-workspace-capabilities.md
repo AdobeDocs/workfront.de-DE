@@ -6,17 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 1%
+source-wordcount: '1434'
+ht-degree: 2%
 
 ---
 
 
 <!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
-# Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen
+# Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen
 
 <!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
 
@@ -39,8 +39,8 @@ Sie definieren die arbeitsbereichsübergreifenden Funktionen eines Datensatztyps
 
 Weitere Informationen finden Sie in einem der folgenden Artikel:
 
-* [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md)
-* [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Bearbeiten von Eintragstypen](/help/quicksilver/planning/architecture/edit-record-types.md)
 
 ## Zugriffsanforderungen
 
@@ -76,8 +76,26 @@ ODER
 </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td>
+   <p>So erstellen Sie einen globalen Datensatz:</p>
+   <ul><li>Standard oder höher</li></ul>
+   <p>So machen Sie einen Datensatz verbindbar:</p>
+   <ul><li>Systemadmin</li></ul>
+
+<!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -188,7 +206,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
@@ -198,7 +216,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem &#x200B;](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
+   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem ](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
    * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
@@ -252,13 +270,14 @@ So konfigurieren Sie einen Datensatztyp als global:
 
    Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus mit verbunden werden.
 
-1. Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen.
+   * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **Spezifische Arbeitsbereiche**: Fügen Sie aus dem Dropdown-Menü die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
