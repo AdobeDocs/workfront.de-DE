@@ -9,14 +9,14 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
-# Versionsaktivität für Adobe Workfront im zweiten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit
+# Veröffentlichungen für Adobe Workfront im zweiten Quartal 2026 – Funktionen mit begrenzter Verfügbarkeit
 
 In diesem Artikel wird die begrenzte Verfügbarkeit von Workfront-Funktionen beschrieben, die im zweiten Quartal 2026 veröffentlicht werden.
 
@@ -44,6 +44,26 @@ Es gibt ein neues Erlebnis zum Zuweisen von Ressourcen zu Aufgaben. Dies ist jet
 
 Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
+### Abrechnungssätze für Personalpläne beibehalten
+
+>[!NOTE]
+>
+>Produktionsveröffentlichungsdatum: 5. März 2026
+
+Wir haben das Feld **Abrechnung beibehalten** zum Abschnitt Finanzen auf der Seite „Personalplandetails“ hinzugefügt.
+
+Wenn diese Einstellung auf „false“ (falsch) gesetzt ist, werden die Abrechnungssätze nicht beibehalten und die Tarifhierarchie wird für die Berechnung des Abrechnungssatzes verwendet.
+
+Wenn dieses Flag auf „True“ (ein) gesetzt ist:
+
+* Die aktuellen Abrechnungssätze für die im Stellenplan zugewiesenen Ressourcen werden beibehalten, und Änderungen an den Sätzen in der Hierarchie werden nicht im Bereich Ressourcen des Stellenplans berücksichtigt.
+* Wenn Sie der Ressourcentabelle eine neue Zeile hinzufügen, wird der ursprüngliche Abrechnungssatz, der aus der Abrechnungssatzhierarchie stammt, beibehalten.
+* Wenn ein(e) Benutzende(r) den Abrechnungssatzwert manuell überschrieben hat, bevor das Flag aktiviert wurde, bleibt der Überschreibungssatz erhalten. Sobald die Markierung aktiviert ist, sind Überschreibungen des manuellen Abrechnungssatzes nicht mehr zulässig.
+
+Sobald die Aufbewahrung aktiviert wurde, kann sie nicht mehr deaktiviert werden.
+
+Wenn Sie einen Personalplan kopieren, bei dem die Markierung aktiviert ist, wird die Markierung in der Kopie automatisch deaktiviert. Der Ressourcenmanager muss das Flag aktivieren, wenn es im neuen Personalplan benötigt wird.
+
 <!--### Title
 
 >[!NOTE]
@@ -53,23 +73,27 @@ Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/m
 text
 -->
 
-## Wartungs-Updates für Funktionen mit begrenzter Verfügbarkeit
+<!--
 
-In diesem Abschnitt werden die Probleme beschrieben, die in den wöchentlichen Workfront-Updates für Funktionen mit eingeschränkter Verfügbarkeit behoben wurden.
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
