@@ -1,20 +1,20 @@
 ---
-title: Allgemeine Informationen zu Adobe Workfront Planning
-description: Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie die Planungsfunktionen konfigurieren und diese im Rahmen der Kampagnenverwaltung verwenden können.
-short-description: Verwenden Sie die Dokumente und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront Planning in Ihrem Unternehmen implementieren und effektiv verwenden können.
+title: Allgemeine Informationen zu Adobe Workfront-Planung
+description: Als Führungskraft der Marketing-Abteilung können Sie mit Adobe Workfront-Planung die Arbeit Ihrer sämtlichen Teams über den gesamten Marketing-Zyklus hinweg organisieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie die Planungsfunktionen konfigurieren und diese im Rahmen der Kampagnenverwaltung verwenden können.
+short-description: Nutzen Sie die Dokumente und die zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront-Planung in Ihrer Organisation implementieren und effektiv nutzen können.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: ddb72bcf8e1a330e39f1e52a1d89d9478a7afb98
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 98%
 
 ---
 
-# Allgemeine Informationen zu Adobe Workfront Planning
+# Allgemeine Informationen zu Adobe Workfront-Planung
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
@@ -26,31 +26,31 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Sie können diese Seite als Ausgangspunkt für die gesamte Dokumentation im Zusammenhang mit Adobe Workfront Planning verwenden.
+Diese Seite können Sie als Ausgangspunkt für die gesamte Dokumentation im Zusammenhang mit Adobe Workfront-Planung verwenden.
 
-In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie Workfront Planning konfigurieren und verwenden können.
+In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie Workfront-Planung konfigurieren und verwenden können.
 
-Allgemeine Informationen und Verständnis der Terminologie von Adobe Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+Allgemeine Informationen und Informationen zur Terminologie von Adobe Workfront-Planung finden Sie unter [Erste Schritte mit Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
 
-## Architektur und Funktionalität der Workfront-Planung
+## Architektur und Funktionalität von Workfront-Planung
 
-Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront Planning verfügbaren Funktionen detailliert beschrieben werden:
+Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront-Planung verfügbaren Funktionen detailliert beschrieben werden:
 
-* [Zugriffs- und Berechtigungsinformationen: Artikelindex](/help/quicksilver/planning/access/access-information.md) enthält die folgenden Informationen:
+* [Informationen zum Zugriff und zu Berechtigungen: Artikelindex](/help/quicksilver/planning/access/access-information.md) enthält die folgenden Informationen:
 
-   * Lizenzen und Planungsberechtigungen für Workfront
-   * Freigabeberechtigungen für Planning
-   * Ansichten freigeben
-   * Freigeben von Arbeitsbereichen (Datensätze und Felder)
-   * Datensatztypen (Datensätze und Felder) freigeben
+   * Workfront-Lizenzen und Berechtigungen in Workfront-Planung
+   * Freigabeberechtigungen für Workfront-Planung
+   * Freigeben von Ansichten
+   * Freigeben von Arbeitsbereichen (Einträge und Felder)
+   * Freigeben von Eintragstypen (Einträge und Felder)
 
 * [Architektur: Artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) enthält die folgenden Informationen:
 
    * Erstellen, Bearbeiten, Löschen von Arbeitsbereichen
-   * Datensatztypen erstellen, bearbeiten und löschen
-   * Erstellen globaler Datensatztypen
-   * Verbinden von Datensatztypen und Beispielen für das Verbinden von Datensatztypen
-   * Workspace-Vorlagen
+   * Erstellen, Bearbeiten, Löschen von Eintragstypen
+   * Erstellen globaler Eintragstypen
+   * Verbinden von Eintragstypen und Beispiele für das Verbinden von Eintragstypen
+   * Arbeitsbereichsvorlagen
 
 * [Felder: Artikelindex](/help/quicksilver/planning/fields/fields-information.md) enthält die folgenden Informationen:
 
@@ -58,43 +58,50 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront 
    * Formelfelder
    * Primäre Felder
 
-* [Datensätze: Artikelindex](/help/quicksilver/planning/records/records-information.md) enthält die folgenden Informationen:
+* [Einträge: Artikelindex](/help/quicksilver/planning/records/records-information.md) enthält die folgenden Informationen:
 
-   * Erstellen, Bearbeiten und Löschen von Datensätzen
-   * Einträge verbinden
-   * Hinzufügen eines Cover-Bildes oder einer Miniaturansicht zu einem Datensatz
-   * Verwalten des Layouts einer Datensatzseite
-   * Abschnitt „Kommentare und Verlauf aufzeichnen“
-   * Freigeben von Datensätzen
-   * Verwalten von Workfront-Planungsdatensätzen aus Workfront
+   * Erstellen, Bearbeiten und Löschen von Einträgen
+   * Verbinden von Einträgen
+   * Hinzufügen eines Titelbilds oder einer Miniaturansicht zu einem Eintrag
+   * Verwalten des Layouts einer Eintragsseite
+   * Kommentare zu Einträgen und Abschnitt „Verlauf“
+   * Freigeben von Einträgen
+   * Verwalten von Einträgen in Workfront-Planung über Workfront
 
 * [Adobe Workfront-Planungsanfragen: Artikelindex](/help/quicksilver/planning/requests/requests-article-index.md) enthält die folgenden Informationen:
 
-   * Erstellen eines Anfrageformulars für einen Datensatztyp.
-   * Wie Benutzer eine Anfrage an ein Anforderungsformular für einen Datensatztyp senden und Datensätze erstellen können.
+   * Wie ein Anfrageformular für einen Eintragstyp erstellt wird.
+   * Wie Benutzende eine Anfrage über ein Anfrageformular für Eintragstypen einreichen und Einträge erstellen können.
 
 * [Ansichten: Artikelindex](/help/quicksilver/planning/views/views-information.md) enthält die folgenden Informationen:
 
-   * Erstellen von Datensatzansichten
-   * Tabellen-, Timeline- und Kalenderansichten verwalten
+   * Erstellen von Eintragsansichten
+   * Verwalten der Tabellen-, Timeline- und Kalenderansicht
 
 * [Benachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md) enthält die folgenden Informationen:
 
    * Verwalten von Benachrichtigungseinstellungen
-   * In-App-Benachrichtigungen planen
-   * E-Mail-Benachrichtigungen planen
+   * In-App-Benachrichtigungen in Planung
+   * E-Mail-Benachrichtigungen in Planung
 
 ## Zusätzliche Funktionen für Workfront Planning verfügbar
 
-* [Grundlagen der Adobe Workfront Planning-](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird.
+* [Grundlagen der Adobe Workfront-Planung-API](/help/quicksilver/planning/general/planning-api-basics.md): Das Ziel der Adobe Workfront-Planung-API ist die Vereinfachung der Erstellung von Integrationen mithilfe von Workfront-Planung durch Einführung einer REST-ful-Architektur, die über HTTP ausgeführt wird.
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie ein Szenario auslösen, wenn Ereignisse in Workfront-Planung auftreten. Sie können auch Einträge erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront-Planung-Konto durchführen.
 
-* [Übersicht über den Adobe Workfront Planning AI-Assistenten](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI-Assistenten für Planning können Sie nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen, indem Sie Befehle verwenden und den Assistenten die Arbeit für Sie erledigen lassen.
+* [Überblick über den KI-Assistenten von Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem KI-Assistenten für Workfront-Planung können Sie mithilfe von Befehlen nach Einträgen suchen oder Einträge erstellen, aktualisieren oder löschen und den Assistenten die Arbeit für Sie erledigen lassen.
 
-* [Konfigurieren von Adobe Workfront Planning-](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Sie können Automatisierungen in Adobe Workfront Planning konfigurieren, die bei Aktivierung Objekte in Workfront oder Datensätze in Workfront Planning erstellen, wenn sie durch einen Planning-Datensatz ausgelöst werden.
+* [Konfigurieren von Automatisierungen in Adobe Workfront-Planung](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Sie können Automatisierungen in Adobe Workfront-Planung konfigurieren, die bei Aktivierung Objekte in Workfront oder Einträge in Workfront-Planung erstellen, wenn sie durch einen Eintrag in Workfront-Planung ausgelöst werden.
 
-* [Erste Schritte mit der Integration von Adobe Workfront Planning und Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): Sie können in Workfront Planning Datensätze aus GenStudio for Performance Marketing im GenStudio Workspace verwalten.
+* [Erste Schritte mit der Integration von Adobe Workfront-Planung und Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): Sie können Einträge aus GenStudio for Performance Marketing im GenStudio-Arbeitsbereich in Workfront-Planung verwalten.
 
-* **Berichterstellungsfunktionen für Workfront Planning**: Sie können jetzt mithilfe des Workfront Canvas-Dashboards Workfront-Planungsinformationen in einem Bericht anzeigen. Weitere Informationen finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Reporting-Funktionen für Workfront-Planung**: Sie können jetzt Workfront-Planungsinformationen mithilfe des Arbeitsflächen-Dashboards in Workfront in einem Bericht anzeigen. Weitere Informationen finden Sie unter [Überblick über Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
+## Workfront-Planung-Veröffentlichungen
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
+
+Wir veröffentlichen regelmäßig neue Funktionen für Workfront-Planung.
+
+Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planung-Veröffentlichungen: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).

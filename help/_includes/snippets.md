@@ -1,7 +1,7 @@
 ---
-source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2688'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 2%
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
+## &#x200B;1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
+
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
+
 ## Schritt 1: Klicken Sie auf Hauptmenü und dann auf - {#step1-click-mm-then-click}
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf
@@ -91,9 +95,9 @@ ht-degree: 2%
 
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 
 ## Von Formular-Designer zu Allgemein {#form-designer-default}
 
@@ -291,7 +295,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Planung]**.
 
