@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '466'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,23 @@ ht-degree: 6%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Benutzerdefinierte Quartale sind jetzt als separate Seite im Setup verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 5. März 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Der Bereich Benutzerdefiniertes Quartal wurde aus dem Abschnitt Projektvoreinstellungen verschoben. Es handelt sich jetzt um einen eigenständigen Abschnitt in Setup. 
+Dieses Update umfasst Folgendes:
+
+* Der Bereich Benutzerdefinierte Quartale wird im Setup aus dem Abschnitt Projektvoreinstellungen entfernt
+* Der Abschnitt „Benutzerdefinierte Quartale“ wird zum linken Bedienfeld „Setup“ hinzugefügt. Die Funktionalität bleibt gleich. 
+* Der Abschnitt Benutzerdefinierte Quartale wurde aus dem Abschnitt Projektvoreinstellungen einer Gruppe entfernt. Gruppenadministratoren haben keinen Einblick mehr in die Einrichtung für benutzerdefinierte Quartale. 
+
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Benutzerdefinierter Formularabschnitt standardmäßig reduzieren
 

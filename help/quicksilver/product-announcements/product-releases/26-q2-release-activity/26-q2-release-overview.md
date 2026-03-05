@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
+source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1352'
 ht-degree: 41%
 
 ---
@@ -51,12 +51,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
-               <tr>
+              <tr>
         <td><strong>Funktion</strong>
         </td>
         <td><strong>Vorschau</strong></td>
         <td><strong>Schnellveröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Quartale aus Projektvoreinstellungen entfernt</a><p>Der Bereich Benutzerdefiniertes Quartal wurde aus dem Abschnitt Projektvoreinstellungen verschoben. Es handelt sich jetzt um einen eigenständigen Abschnitt in Setup.</p>
+        </td>
+        <td><p>Donnerstag, 5. März 2025</p></td>
+        <td><p>Donnerstag, 15. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Formularabschnitte standardmäßig reduzieren</a><p>Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Mit einer neuen Option im Designer für benutzerdefinierte Formulare können Sie einen Abschnitt markieren, der standardmäßig reduziert werden soll, wenn ein Benutzer das Formular öffnet. Diese Option wird auf Abschnittsebene angewendet, nicht auf Felder.</p>
@@ -65,7 +74,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>Freitag, 12. März 2026</p></td>
         <td><p>Freitag, 16. April 2026</p></td>
     </tr>
-    <tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Rich-Text-Feldtyp ist jetzt in benutzerdefinierten Formularen verfügbar</a><p>Der neue <b>Rich-Text</b>-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.</p>
         </td>
