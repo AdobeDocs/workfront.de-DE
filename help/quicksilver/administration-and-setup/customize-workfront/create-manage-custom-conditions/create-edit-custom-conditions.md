@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Als Adobe Workfront-Administrator können Sie eine benutzerdefinierte Bedingung 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,11 +34,11 @@ Als Adobe Workfront-Administrator können Sie eine benutzerdefinierte Bedingung 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Um eine neue Bedingung zu erstellen, klicken Sie auf **Neue Bedingung hinzufügen**.
 
-   Oder
+   ODER
 
    Um eine vorhandene Bedingung zu bearbeiten, klicken Sie **Bearbeiten** neben dem Namen der Bedingung.
 
@@ -128,7 +128,8 @@ Sie können Ihre benutzerdefinierte Bedingung als Standardbedingung für Projekt
 Weitere Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 
-<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+<!-- 
+   THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)

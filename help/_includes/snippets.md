@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 2%
@@ -7,7 +7,8 @@ ht-degree: 2%
 ---
 # Snippets
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -61,7 +62,7 @@ ht-degree: 2%
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
-## ​1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
+## &#x200B;1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
@@ -95,9 +96,9 @@ ht-degree: 2%
 
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 
 ## Von Formular-Designer zu Allgemein {#form-designer-default}
 
@@ -220,82 +221,70 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 1. (Optional) Anpassen der Workflow-Einstellungen für automatisierte Korrekturabzüge
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>Korrekturabzugsschritte</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Stadien deaktivieren
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>Korrekturabzugsschritte</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Stadien deaktivieren
+      </td>
+      <td>
       <ol>
-
-   <li>Schalten Sie Alle auswählen um, um alle Phasen zu deaktivieren. 
+      <li>Schalten Sie Alle auswählen um, um alle Phasen zu deaktivieren. 
       <p>ODER</p></li>
       <li>Schaltet einzelne Stadien ein oder aus.</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Hinzufügen von Empfängern
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Hinzufügen von Empfängern
+      </td>
+      <td>
       <ol>
-
-   <li>Geben Sie in das Feld Neuen Empfänger hinzufügen den Namen des Benutzers ein.
-
-   <li>Geben Sie die Rolle des Korrekturabzugs an.
-
-   <li>Wählen Sie den Typ der E-Mail-Warnhinweise für den Empfänger aus. 
+      <li>Geben Sie in das Feld Neuen Empfänger hinzufügen den Namen des Benutzers ein.</li>
+      <li>Geben Sie die Rolle des Korrekturabzugs an.</li>
+      <li>Wählen Sie den Typ der E-Mail-Warnhinweise für den Empfänger aus.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Frist festlegen
+      </td>
+      <td>
+      <ol>
+      <li>Wählen Sie eine Frist aus.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>E-Mail-Benachrichtigungen</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Empfänger über den Testversand benachrichtigen
+      </td>
+      <td>
+      <ol>
+      <li>Aktivieren Sie das Kontrollkästchen, um Benutzer zu benachrichtigen, wenn der Korrekturabzug erstellt wird.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Hinzufügen einer benutzerdefinierten Nachricht
+      </td>
+      <td>
+      <ol>
+      <li>Geben Sie einen Betreff ein.
+      <li>Geben Sie die benutzerdefinierte Nachricht ein.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>Frist festlegen
-         </td>
-         <td>
-      <ol>
-
-   <li>Wählen Sie eine Frist aus.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>E-Mail-Benachrichtigungen</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Empfänger über den Testversand benachrichtigen
-         </td>
-         <td>
-      <ol>
-
-   <li>Aktivieren Sie das Kontrollkästchen, um Benutzer zu benachrichtigen, wenn der Korrekturabzug erstellt wird.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Hinzufügen einer benutzerdefinierten Nachricht
-         </td>
-         <td>
-      <ol>
-
-   <li>Geben Sie einen Betreff ein.
-
-   <li>Geben Sie die benutzerdefinierte Nachricht ein.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Planung]**.
 
@@ -318,7 +307,8 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 > 
 >Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ Mit der Schaltfläche Fertig können Sie festlegen, welcher Status dem Arbeitsel
    >* Anfragetypen können angepasst werden und haben in Ihrer Umgebung möglicherweise andere Namen als die unten aufgeführten.\
    >  Im Folgenden finden Sie die standardmäßigen Aufgaben und Problemtypen:
    >     
-   >   * Aufgaben
-   >   * Problem
-   >   * Anfrage
-   >   * Änderungsanforderung
-   >   * Fehlerbericht
+   >  * Aufgaben
+   >  * Problem
+   >  * Anfrage
+   >  * Änderungsanforderung
+   >  * Fehlerbericht
 
    Wenn die Aufgabe oder das Problem mehreren Benutzern zugewiesen ist, wird im Dropdown-Menü neben den mehreren für Ihr Team ausgewählten Status die Option „Fertig mit meinem Teil“ angezeigt.
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
