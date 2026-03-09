@@ -8,7 +8,10 @@ description: Geschäftsprofile sind ein erweitertes Berechtigungsmodell, das es 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
+hide: true
+hidefromtoc: true
+exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -116,4 +119,3 @@ Informationen zur Zusammenarbeit von Zugriffsebenen und Berechtigungen finden Si
 * Wenn eine Gruppe aus Workfront gelöscht wird, werden alle zugewiesenen Geschäftsprofile für diese Gruppe aus den zugehörigen Benutzenden entfernt.
 * Wenn eine Zugriffsebene Teil eines Geschäftsprofils ist und Sie die Zugriffsebene löschen, werden Sie aufgefordert, stattdessen eine neue Zugriffsebene auszuwählen.
 * Aktualisierungen von Geschäftsprofilen werden in den Workfront-Auditprotokollen verfolgt. Weitere Informationen finden Sie unter Übersicht über Audit-Protokolle.
- 
