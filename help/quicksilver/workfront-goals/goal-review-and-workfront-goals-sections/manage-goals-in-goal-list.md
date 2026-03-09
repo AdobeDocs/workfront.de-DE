@@ -6,14 +6,14 @@ description: Nachdem Sie oder andere Benutzende Ziele erstellt haben, können Si
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 12%
 
 ---
 
-# Verwalten von Zielen in der Zielliste von Adobe Workfront
+# Verwalten von Zielen in der Zielliste von Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -25,11 +25,11 @@ Nachdem Sie oder andere Benutzende Ziele erstellt haben, können Sie deren Forts
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -40,14 +40,15 @@ Nachdem Sie oder andere Benutzende Ziele erstellt haben, können Sie deren Forts
  <tr>
   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz</td>
  <td>
- <p>Mitwirkender oder höher</p>
-<p>Anfrage oder höher</p></td>
+ <p>Mitwirkende oder höher</p>
+<p>Anfragende oder höher</p></td>
  </tr>
   <tr>
  <td role="rowheader">Konfiguration der Zugriffsebene</td>
@@ -278,7 +279,7 @@ So verwalten Sie Ziele in der Liste „Ziele“:
 
      Weitere Informationen finden Sie unter [Berechnen des Zielfortschritts in Adobe Workfront-](../goal-management/calculate-goal-progress.md).
 
-1. Klicken Sie oben rechts in der ![&#x200B; auf das Filtersymbol &#x200B;](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
+1. Klicken Sie oben rechts in der ![ auf das Filtersymbol ](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
 
    Informationen zur Verwendung von Filtern in Workfront Goals finden Sie unter [Filtern von Informationen in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 

@@ -1,15 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Ziel in Workfront Goals teilen
+title: Freigeben eines Ziels in Workfront Goals
 description: Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht erstellt hat, Verwaltungsberechtigungen für ein Ziel.
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 9%
+source-wordcount: '737'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht erstellt hat, V
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
@@ -36,14 +36,15 @@ Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht erstellt hat, V
  <tr>
   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz</td>
  <td>
- <p>Mitwirkender oder höher</p>
-<p>Anfrage oder höher</p></td>
+ <p>Mitwirkende oder höher</p>
+<p>Anfragende oder höher</p></td>
  </tr>
   <tr>
  <td role="rowheader">Konfiguration der Zugriffsebene</td>

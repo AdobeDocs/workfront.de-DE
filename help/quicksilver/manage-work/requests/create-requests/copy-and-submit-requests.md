@@ -1,19 +1,19 @@
 ---
 title: Anforderungen kopieren und senden
 description: Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anfrage kopieren, minimal ändern und als neue Anfrage erneut senden.
-author: Becky
+author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1520'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Anforderungen kopieren und senden
+# Kopieren und Senden von Anfragen
 
 
 Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anfrage kopieren, minimal ändern und als neue Anfrage erneut senden.
@@ -32,8 +32,8 @@ Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendet
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Anfrage-Warteschlange erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-   * [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md)
+   * [Bearbeiten von Projekten](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * Sie können die Kopie der ursprünglichen Anfrage aktualisieren, bevor Sie sie als neue Anfrage erneut senden.
 * Wenn die folgenden Änderungen nach dem Senden der ursprünglichen Anfrage auftreten, können Sie diese nicht mehr kopieren und erneut senden:

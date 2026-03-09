@@ -6,10 +6,10 @@ description: Sie können Informationen zu einzelnen Zielen aktualisieren, indem 
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 4%
+source-wordcount: '589'
+ht-degree: 14%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das B
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
@@ -42,14 +42,15 @@ Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das B
  <tr>
   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz</td>
  <td>
- <p>Mitwirkender oder höher</p>
-<p>Anfrage oder höher</p></td>
+ <p>Mitwirkende oder höher</p>
+<p>Anfragende oder höher</p></td>
  </tr>
   <tr>
  <td role="rowheader">Konfiguration der Zugriffsebene</td>

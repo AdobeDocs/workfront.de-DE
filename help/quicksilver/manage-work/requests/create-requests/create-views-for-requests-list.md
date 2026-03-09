@@ -3,33 +3,37 @@ product-area: requests
 navigation-topic: create-requests
 title: Erstellen und Verwalten von Ansichten im Bereich „Anfragen“
 description: Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 9%
+source-wordcount: '963'
+ht-degree: 7%
 
 ---
 
 
 # Erstellen und Verwalten von Ansichten im Bereich „Anfragen“
 
-<!--
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
-Wenn Sie das neue anfordernde Erlebnis verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen. <!--<span class="preview"> and groupings.</span> -->
 
-Ansichten können im Bereich Anfragen von Workfront erstellt und verwaltet werden.
+
+
+Wenn Sie das neue anfragende Erlebnis in Adobe Workfront verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter und Spaltenanordnungen.
+
+<!--<span class="preview"> and groupings.</span>-->
+
 
 >[!IMPORTANT]
 >
->* Diese Funktion ist nur in der neuen anfragenden -Version verfügbar.
->* Anzeigeeinstellungen sind im Widget Meine Anfragen auf der Startseite nicht verfügbar.
+>* Diese Funktion ist nur in der neuen anfragenden -Version im Bereich Anfragen verfügbar.
+>* Anzeigeeinstellungen sind auch im Widget Meine Anfragen auf der Startseite verfügbar. Die Ansichten aus dem Bereich Anfragen sind jedoch von denen aus dem Widget Meine Anfragen getrennt.
+>* Die Anfragenliste im Bereich Anfragen verwendet die erweiterte Liste in Workfront. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Zugriffsanforderungen
 
@@ -68,13 +72,15 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Ansicht für Anfragen erstellen
 
-Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
+Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen, wenn Sie das neue Anfrageerlebnis verwenden.
 
 1. So greifen Sie auf die Anfragenliste zu:
 
    {{step1-to-requests}}
 
-1. Klicken Sie in der Liste Anfragen auf das Dropdown **&#x200B;**&#x200B;Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und wählen Sie **Neue Ansicht**.
+1. Stellen Sie sicher **dass die Einstellung** Neues Erlebnis verwenden“ aktiviert ist.
+
+1. Klicken Sie in der **Anfragen**-Liste auf das **Ansichten** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und klicken Sie auf **Neue Ansicht**.
 
    ![Neue Ansicht](assets/create-new-view.png)
 
@@ -83,36 +89,53 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen.
 
 ## Ansicht für Anfragen bearbeiten
 
-Sie können vorhandene Ansichten bearbeiten, einschließlich der soeben erstellten Ansichten.
+Sie können bestehende Ansichten bearbeiten, einschließlich der Ansichten, die Sie gerade im Bereich Anfragen von Workfront erstellt haben.
 
-1. So greifen Sie auf die Anfragenliste zu:
+Durch Bearbeiten einer Ansicht im Bereich Anfragen können Sie die folgenden Elemente der Ansicht ändern:
+
+* Name
+* Filter
+* Spalten
+
+Die Änderungen, die Sie an einer Ansicht vornehmen, sind für alle sichtbar, für die Sie die Ansicht freigeben.
+
+1. Um auf eine Liste von Anfragen in zuzugreifen, gehen Sie folgendermaßen vor:
 
    {{step1-to-requests}}
-1. Suchen Sie in der Anfragenliste die Ansicht, die Sie bearbeiten möchten.
 
-1. (Optional) Um eine Ansicht umzubenennen, klicken Sie auf das **Ansichten** Dropdown-Menü ![Ansichten](assets/view-icon-requests.png) und klicken Sie auf das Dreipunkt-Menü neben der Ansicht, wählen Sie **Umbenennen** aus und geben Sie dann den neuen Namen für die Ansicht ein.
+1. Stellen Sie sicher **dass die Einstellung** Neues Erlebnis verwenden“ aktiviert ist.
+1. Suchen Sie in der **Anfragen**-Liste die Ansicht, die Sie bearbeiten möchten, aus dem Dropdown-Menü **Ansichten** (![-Dropdown](assets/view-icon-requests.png).
+
+1. Klicken Sie auf **Ansichten** Dropdown![Ansichten](assets/view-icon-requests.png) und klicken Sie auf das Dreipunkt-Menü neben der Ansicht, wählen Sie **Umbenennen** aus und geben Sie dann den neuen Namen für die Ansicht ein.
+1. Drücken Sie die Eingabetaste, um den neuen Namen zu speichern.
 1. Klicken Sie auf **Ansichten** Dropdown-![Ansichten](assets/view-icon-requests.png) und wählen Sie die Ansicht aus, die Sie bearbeiten möchten.
-1. Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) rechts im Bildschirm und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Formularfeld, das Sie der Ansicht als Spalte hinzufügen möchten.
+1. Um ein Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) in der oberen rechten Ecke der Liste.
 
-   >Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.
+   Der **Spalten-Manager** wird geöffnet.
+1. Klicken Sie auf das Pluszeichen neben dem Feld, das Sie als Spalte zur Ansicht hinzufügen möchten, und klicken Sie dann auf **Speichern**.
+
+   Felder, die mit den Objekten in der Liste verknüpft sind, können als Spalten hinzugefügt werden. <!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
 
    >[!TIP]
    >
-   >Es ist derzeit nicht möglich, Spalten in der Produktionsumgebung hinzuzufügen.
-1. (Optional) Klicken Sie auf **Spalten** und blenden Sie die Spalten in der Anfrageliste aus, anzeigen oder neu anordnen.
+   >Felder, die Sie den Spalten hinzufügen, müssen vorhanden sein, bevor sie im **Spalten-Manager“ verfügbar**.
+
+
+1. (Optional) Klicken Sie auf **Spalten**, um das Feld **Sichtbarkeit und Reihenfolge** zu öffnen.
+1. Aktivieren Sie die Einstellung für jedes Feld, das in der Liste angezeigt werden soll, deaktivieren Sie sie, um sie auszublenden, oder ziehen Sie die Felder in eine andere Reihenfolge.
 
 1. (Optional) Klicken Sie **Filter** und fügen Sie Bedingungen für die Anforderungen hinzu, die Sie anzeigen möchten.
 
-   Sie können nach den folgenden Feldern filtern:
+   Sie können nach den folgenden Anfragefeldern filtern:
 
    * **Workspace**: Der Arbeitsbereich, mit dem das Anfrageformular verknüpft ist.
-   * **Datensatztyp**: Der Datensatztyp, mit dem das Anfrageformular verknüpft ist.
+   * **Objekttyp**: Der Datensatztyp, mit dem das Anfrageformular verknüpft ist.
    * **Eingabedatum** Das Datum, an dem die Anfrage gesendet wurde.
    * **Anfrageformular**: Der Name des Anfrageformulars, das zum Senden der Anfrage verwendet wird.
    * **Status**: Der Status der Anfrage.
    * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage von einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
 
-   Sie können auch nach beliebigen benutzerdefinierten Feldern filtern, die der Ansicht hinzugefügt wurden.
+   Sie können auch nach allen Feldern filtern, die der Ansicht für ein in der Ansicht sichtbares Objekt hinzugefügt wurden.
 
    Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
 Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
@@ -127,9 +150,9 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 >
 > * Änderungen an Ansichten werden automatisch gespeichert.
 > * Änderungen an Ansichten sind für alle sichtbar, die die Ansicht verwenden.
-> * Um sicherzustellen, dass die Ansicht für die Person gilt, die die Ansicht verwendet, können Sie unabhängig davon, wer sie erstellt hat, den Platzhalter „Ich (angemeldeter Benutzer)“ in jedem Feld verwenden, das Benutzer als Wert hat.
+> * Verwenden Sie den **Me (angemeldeter Benutzer),** den Platzhalter in jedem Feld zu filtern, das Benutzer als Wert enthält.
 
-## Hinzufügen der Ansicht zu einer Layout-Vorlage.
+## Fügen Sie die Anfrageansicht zu einer Layout-Vorlage hinzu.
 
 Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
@@ -139,12 +162,14 @@ Anweisungen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen 
 
 Sie können Ansichten, die Sie erstellen, für andere Benutzer, Teams oder Gruppen freigeben.
 
-1. So greifen Sie auf die Anfragenliste zu:
+1. Um auf eine Liste von Anfragen in zuzugreifen, gehen Sie folgendermaßen vor:
 
    {{step1-to-requests}}
 
-1. Suchen Sie in der Anfragenliste die Ansicht, die Sie freigeben möchten.
-1. Bewegen Sie den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie dann auf das Dreipunkt-Menü, wenn es angezeigt wird.
-1. Wählen Sie **Freigeben** aus.
-1. Geben Sie in dem daraufhin angezeigten Dialogfeld die Namen der Benutzer, Teams oder Gruppen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus.
+1. Stellen Sie sicher **dass die Einstellung** Neues Erlebnis verwenden“ aktiviert ist.
+1. Suchen Sie in **Liste** Anfragen“ die Ansicht, die Sie freigeben möchten.
+1. Bewegen Sie den Mauszeiger über die Ansicht, die Sie freigeben möchten, klicken Sie dann auf das Dreipunkt-Menü rechts neben dem Ansichtsnamen und dann auf **Freigeben**.
+1. Geben **im Feld** die Personen, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus, wenn sie angezeigt werden.
 1. Klicken Sie auf **Speichern**.
+
+   Die Ansicht wird für die angegebenen Entitäten freigegeben. Sie können die aktualisierten Ansichtselemente anzeigen, die Sie für die Ansicht bearbeitet haben, bevor sie sie freigeben. <span class="preview">Wenn sie die Ansicht aktualisieren, sind ihre Änderungen für andere nicht sichtbar, es sei denn, sie erstellen eine Kopie derselben Ansicht und behalten ihre Änderungen bei, bevor sie die Kopie freigeben. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>

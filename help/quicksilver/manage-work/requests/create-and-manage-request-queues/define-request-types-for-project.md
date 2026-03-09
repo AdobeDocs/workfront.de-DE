@@ -3,17 +3,17 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Anforderungstypen für ein Projekt definieren
 description: Sie können die Art der Probleme oder Anfragen, die in Adobe Workfront protokolliert werden, nach Anfragetypen organisieren.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
-# Anforderungstypen für ein Projekt definieren
+# Definieren von Anfragetypen für ein Projekt
 
 <!-- Audited: 6/2025 -->
 
@@ -21,7 +21,7 @@ Sie können die Art der Probleme oder Anfragen, die in Adobe Workfront protokoll
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Sie können die Art der Probleme oder Anfragen, die in Adobe Workfront protokoll
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
     <p>Standard</p>
-    <p>Plan</p></td>  
+    <p>Abo</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -64,7 +64,7 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
 * Sie können die Art der Probleme oder Anfragen, die für ein Projekt protokolliert werden können, angeben, wenn Sie den Bereich Warteschlangendetails für das Projekt konfigurieren.
 * Sie müssen das Projekt nicht aktivieren, um eine Anfrage-Warteschlange zu sein, um Anfragetypen für ein Projekt definieren zu können. Alle für ein Projekt protokollierten Probleme können mit einem anderen Anfragetyp gekennzeichnet werden.
-* Wenn Sie Ihrem Projekt Warteschlangenthemen hinzufügen, müssen Sie für jedes Warteschlangenthema Anfragetypen definieren, um diese beim Hinzufügen eines neuen Problems oder einer neuen Anfrage anzuzeigen. Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Wenn Sie Ihrem Projekt Warteschlangenthemen hinzufügen, müssen Sie für jedes Warteschlangenthema Anfragetypen definieren, um diese beim Hinzufügen eines neuen Problems oder einer neuen Anfrage anzuzeigen. Weitere Informationen finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Anfrage- oder Anfragetypen für ein Projekt definieren
 

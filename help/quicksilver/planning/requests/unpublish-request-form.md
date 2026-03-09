@@ -3,17 +3,17 @@ title: Veröffentlichung eines Anfrageformulars in Adobe Workfront Planning aufh
 description: Sie können die Veröffentlichung eines Anfrageformulars aufheben, wenn es nicht mehr benötigt wird oder nicht mehr relevant ist. Durch das Rückgängigmachen der Veröffentlichung entfernen Sie die Berechtigungen aller Benutzer für den Zugriff auf das Formular.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Veröffentlichung eines Anfrageformulars in Adobe Workfront Planning aufheben
+# Aufheben der Veröffentlichung eines Anfrageformulars in Adobe Workfront-Planung
 
 
 <!--take Preview and Production references at Production time-->

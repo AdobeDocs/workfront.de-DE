@@ -3,17 +3,17 @@ title: Hinzufügen einer Genehmigung zu einem Anforderungsformular in Adobe Work
 description: Sie können einem Adobe Workfront Planning-Anforderungsformular einen Genehmigungsprozess hinzufügen, um für jede gesendete Anforderung eine Genehmigung zu starten, bevor ein Datensatz erstellt wird.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 1%
+source-wordcount: '1210'
+ht-degree: 2%
 
 ---
 
-# Hinzufügen einer Genehmigung zu einem Anforderungsformular in Adobe Workfront Planning
+# Hinzufügen einer Genehmigung zu einem Anfrageformular in Adobe Workfront-Planung
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -123,17 +123,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 <div class="preview">
 
-## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular
-
->[!NOTE]
->
->Diese Funktion ist nur in der Vorschau-Umgebung verfügbar.
+## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular in der Vorschau-Umgebung
 
 Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
 
 Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
 
 Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * Sie können einer Genehmigungsregel eine oder mehrere genehmigende Personen hinzufügen.
 * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
@@ -142,18 +140,16 @@ Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
 
 So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
 
-1. Erstellen Sie zunächst ein Anfrageformular für einen Datensatztyp, wie in [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben.
-1. Klicken Sie auf **Einstellungen**.
+1. Erstellen Sie zunächst ein Anfrageformular für einen Datensatztyp, wie im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben.
+1. Wenn das Anfrageformular geöffnet wird, klicken Sie auf **Einstellungen**.
 
-   Die Registerkarte Einstellungen wird angezeigt.
+   Die **Einstellungen** wird geöffnet.
 
 1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie **Genehmigungen** ![Genehmigungssymbol](assets/approvals-icon-on-form.png) im linken Bereich.
 
 1. (Optional) Wenn Sie einen standardmäßigen Genehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Personen** im Bereich **Standardgenehmigungsregel** hinzu und klicken Sie dann auf das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn Sie möchten, dass der Datensatz erstellt wird, nachdem eine der standardmäßigen genehmigenden Personen ihn genehmigt hat.
 
    ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Optional) Beginnen Sie mit dem Hinzufügen von Genehmigungsregeln. Gehen Sie für jede Genehmigungsregel wie folgt vor:
 
@@ -163,8 +159,8 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
    1. Wenn der ausgewählte Operator einen Wert benötigt, klicken Sie auf das Pluszeichen und fügen Sie einen oder mehrere Werte hinzu.
    1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um weitere Bedingungen hinzuzufügen und sie durch **Und**- oder **Oder**-Anweisungen zu verbinden, indem Sie die zusätzlichen Bedingungen wie in den Schritten C-E konfigurieren.
-   1. Fügen Sie im Bereich **Aktionen** der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person eingestellt werden soll, wenn die Bedingung erfüllt ist.
-   1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
+   1. Fügen Sie im Bereich **Aktionen** der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person festgelegt werden soll, wenn die Bedingung erfüllt ist.
+   1. (Bedingt und optional) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anforderung akzeptiert oder abgelehnt wird.
 
 1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
 1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.

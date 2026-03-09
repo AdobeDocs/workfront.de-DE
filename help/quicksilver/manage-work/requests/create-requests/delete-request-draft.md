@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Löschen einer gesendeten Anfrage als Entwurf einer Anfrage
 description: Sie können gesendete Anfragen oder Anfrageentwürfe löschen.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Im alten anfordernden Erlebnis können Sie Anfrageentwürfe löschen. Gesendete 
 Weitere Informationen finden Sie unter:
 
 * [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md)
-* [Anforderungen aus Entwürfen erstellen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
+* [Erstellen von Anfragen aus Entwürfen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 
 ## Zugriffsanforderungen
 
@@ -38,8 +38,8 @@ Weitere Informationen finden Sie unter:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Weitere Informationen finden Sie unter:
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

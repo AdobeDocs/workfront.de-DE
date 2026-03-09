@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Erstellen und Senden von Anfragen
 description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben dargestellt. Sie können jedoch in einer Umgebung arbeiten, in der ungeplante Arbeit - in Form von zufälligen Anfragen - jederzeit eintreffen kann. Workfront bietet einen Workflow, der diesen Umgebungstyp durch die Verwendung von Anfrage-Warteschlangen unterstützt.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '2575'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Anfragen erstellen und senden
+# Erstellen und Senden von Anfragen
 
 <!--Audited: 12/2023-->
 
@@ -60,8 +60,8 @@ Sie können eine Workfront-Planungsanfrage von Grund auf neu erstellen, um Daten
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Sie können eine Workfront-Planungsanfrage von Grund auf neu erstellen, um Daten
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -380,6 +380,6 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
-## Gesendete Anfragen suchen
+## Auffinden gesendeter Anfragen
 
 Informationen zum Auffinden gesendeter oder entworfener Anfragen finden Sie unter [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Entfernen von Fortschrittsanzeigen aus Zielen in Adobe Workfront-Zielen
+title: Entfernen von Fortschrittsanzeigen aus Zielen in Adobe Workfront Goals
 description: Sie können Ergebnisse, Aktivitäten und Projekte aus Zielen in Adobe Workfront-Zielen entfernen, wenn sie nicht mehr relevant sind.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 2%
+source-wordcount: '659'
+ht-degree: 14%
 
 ---
 
-# Entfernen von Fortschrittsanzeigen aus Zielen in Adobe Workfront-Zielen
+# Entfernen von Fortschrittsanzeigen aus Zielen in Adobe Workfront Goals
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
@@ -26,7 +26,7 @@ Informationen zum Erstellen von Zielen und Hinzufügen von Ergebnissen und Aktiv
 * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
 * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Ergebnisse und Aktivitäten in Adobe Workfront Goals bearbeiten](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Bearbeiten von Ergebnissen und Aktivitäten in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Ziele können auch an übergeordneten Zielen ausgerichtet werden, sodass sie zu untergeordneten Zielen werden. Untergeordnete Ziele sind ebenfalls Fortschrittsindikatoren für die übergeordneten Ziele.
 
@@ -36,7 +36,7 @@ Sie können die Zielausrichtung entfernen, indem Sie die Verbindung zwischen den
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
@@ -51,14 +51,15 @@ Sie können die Zielausrichtung entfernen, indem Sie die Verbindung zwischen den
  <tr>
   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz</td>
  <td>
- <p>Mitwirkender oder höher</p>
-<p>Anfrage oder höher</p></td>
+ <p>Mitwirkende oder höher</p>
+<p>Anfragende oder höher</p></td>
  </tr>
   <tr>
  <td role="rowheader">Konfiguration der Zugriffsebene</td>

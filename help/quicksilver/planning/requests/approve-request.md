@@ -3,17 +3,17 @@ title: Genehmigen einer Anforderung in Adobe Workfront Planning
 description: Wenn ein(e) Benutzende(r) eine Anfrage an ein Anforderungsformular sendet, das mit einer Genehmigung in Adobe Workfront Planning verknüpft ist, erhalten genehmigende Personen eine Benachrichtigung und eine E-Mail über die ausstehende Genehmigung. Sie müssen die Anfrage genehmigen, bevor Workfront Planning ein Objekt erstellt.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Genehmigen einer Anforderung in Adobe Workfront Planning
+# Genehmigen einer Anfrage in Adobe Workfront-Planung
 
 <!--take Preview and Production references at Production time-->
 
@@ -31,8 +31,8 @@ In diesem Artikel wird beschrieben, wie ein Workspace-Manager eine Anforderung g
 
 Es wird empfohlen, auch die folgenden Artikel anzuzeigen:
 
-* [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-* [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+* [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md)
+* [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](/help/quicksilver/planning/requests/submit-requests.md)
 * [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
 ## Überlegungen zur Genehmigung von Anfragen
@@ -106,13 +106,13 @@ Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder aus 
 
 1. (Bedingt) Wenn Sie das veraltete anfordernde Erlebnis in Workfront verwenden, öffnen Sie die Anfrage, indem Sie einen der folgenden Schritte ausführen:
 
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **&#x200B;**&#x200B;Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
+   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **** Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
 
      >[!TIP]
      >
      >Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
 
-   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) &#x200B;](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
+   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) ](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
    * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
 
    Die Anfrageseite wird im schreibgeschützten Modus geöffnet.

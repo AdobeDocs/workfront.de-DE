@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Themengruppen erstellen
+title: Erstellen von Themengruppen
 description: Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Sie ermöglichen es Ihnen, Ihre Anfrage-Warteschlangen je nach Art der Anfrage in mehrere Kategorien zu unterteilen.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
-# Themengruppen erstellen
+# Erstellen von Themengruppen
 
 <!-- Audited: 2/2024 -->
 
@@ -37,7 +37,7 @@ Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Je nach Art der Anfrag
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-Lizenz</p> </td> 
    <td>   
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
  </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Je nach Art der Anfrag
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -68,7 +68,7 @@ Beachten Sie beim Arbeiten mit Themengruppen Folgendes:
 * Themengruppen sind meldepflichtige Objekte.
 * Themengruppen können nicht von einem Projekt in ein anderes verschoben werden.
 
-## Themengruppen erstellen
+## Erstellen von Themengruppen
 
 Es wird empfohlen, Themengruppen zu erstellen, bevor Sie ein Warteschlangenthema erstellen. Eine Themengruppe kann jedoch im Warteschlangenthema-Builder erstellt werden. Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 

@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: Gesendete Anfragen anzeigen
 description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen Sie von Ihnen oder einer anderen Person gesendete Anfragen oder Anfragen anzeigen können, die Sie nie gesendet und als Entwürfe gespeichert haben.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1363'
+ht-degree: 6%
 
 ---
 
@@ -49,8 +49,8 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -85,39 +85,32 @@ Gesendete Anfragen können im Bereich Anfragen angezeigt werden. Dieser enthält
 
 >[!NOTE]
 >
->Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst ein Objekt erstellt hat. Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste in der neuen anfragenden -Version kein Link zu diesem konvertierten Objekt verfügbar.
+>Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst einen Datensatz erstellt hat.
+>
+>Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste im neuen Anfrageerlebnis kein Link zu diesem konvertierten Objekt verfügbar.
 
 So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 
 {{step1-to-requests}}
 
-1. Stellen Sie sicher **dass der Umschalter** Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms aktiviert ist.
+1. Stellen Sie sicher **dass die Einstellung** Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms aktiviert ist.
 
-   Die Liste Anfragen wird angezeigt.
+   Die Anfragenliste wird angezeigt.
 
-1. (Optional) Um nach einer Anfrage zu suchen, beginnen Sie, etwas in die Suchleiste oben rechts in der Liste einzugeben. Suchergebnisse werden während der Eingabe angezeigt.
+1. (Optional) Um nach einer Anfrage zu suchen, beginnen Sie, etwas in der Suchleiste in der rechten oberen Ecke der Liste einzugeben. Suchergebnisse werden während der Eingabe angezeigt.
 1. (Optional) Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie anzeigen möchten.
 
-   Sie können nach den folgenden Feldern filtern:
+   Weitere Informationen zu Filtern finden Sie unter [Erstellen und Verwalten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-   * **Workspace**: Der Arbeitsbereich, mit dem das Anfrageformular verknüpft ist.
-   * **Datensatztyp**: Der Datensatztyp, mit dem das Anfrageformular verknüpft ist.
-   * **Eingabedatum** Das Datum, an dem die Anfrage gesendet wurde.
-   * **Anfrageformular**: Der Name des Anfrageformulars, das zum Senden der Anfrage verwendet wird.
-   * **Status**: Der Status der Anfrage.
-   * **Eingegeben von**: Der Name des Benutzers, der die Anfrage hinzugefügt hat. Wenn die Anfrage von einer Person außerhalb von Workfront hinzugefügt wurde, wird im Feld **Eingegeben von** `N/A` angezeigt.
+1. (Optional) Klicken Sie auf das **Ansichten** Dropdown-Menü, um Ihre Ansicht zu aktualisieren oder sie für andere freizugeben.
 
-   Es können mehrere Filter entweder durch „Und **oder** Oder **verbunden**.
-Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinzufügen.
-1. (Optional) Verwenden Sie Ansichten, um sich auf die Anfragen zu konzentrieren, die Sie anzeigen möchten.
-
-   Anweisungen finden Sie unter [Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte Status überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
+   Weitere Informationen finden Sie [Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte **Status** überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
    * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt.
    * **Ausstehende Prüfung**: (Nur Planung) Diese Anfrage enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anfrage geöffnet.
    * **In Prüfung**: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen.
-   * **Abgelehnt**: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt.
+   * **Abgelehnt**: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt. Mit dieser Anfrage wird kein Datensatz erstellt.
    * **In Bearbeitung**:
       * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
       * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
@@ -127,8 +120,8 @@ Die Anfrageliste wird automatisch gefiltert, wenn Sie die Filterbedingungen hinz
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte Objekttyp `Issue` Wert an.
->* Die Anfragenliste wird mit 50 angezeigten Anfragen angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **** Wert an.
+>* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 ### Anzeigen gesendeter Anfragen in der Legacy-Anfrage
 
@@ -234,15 +227,17 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
 
 1. (Optional) Klicken Sie auf **Seite filtern** Symbol ![Suchen](assets/search-icon.png) oben in der Liste, um nach einer Anfrage anhand des Namens zu suchen. Die Liste wird mit Ergebnissen aktualisiert, die Ihren Suchkriterien entsprechen.
 
-1. (Bedingt) Um nur Workfront-Anfragewarteschlangen anzuzeigen, suchen oder filtern Sie nach `Issue` Objekttypen.</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
 
 1. Klicken Sie **Entwürfe**, um alle Entwürfe der Anfragen anzuzeigen. Workfront speichert für jede Anfrage-Warteschlange in diesem Ordner eine unbegrenzte Anzahl von Entwürfen. Wenn Sie eine neue Anfrage für ein Warteschlangen-Thema eingeben, für das bereits ein Entwurf vorhanden ist, werden Sie aufgefordert, einen vorhandenen Entwurf zu verwenden. Weitere Informationen finden Sie unter [Erstellen von Anfragen aus Entwürfen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-1. (Optional und bedingt) Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, klicken Sie auf die Registerkarte **Planning** und dann **Gesendet** im linken Bereich, um Workfront Planning-Anfragen anzuzeigen.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   Verwenden Sie **Filter** und **Spalten**, um die Informationen in der Planning-Anfrageliste zu aktualisieren.
 
-   ![Registerkarte „Planung“ im Bereich „Anfragen“ übermittelt](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte **Status** überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
-   Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
-
-
-1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte Status überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
-
-   * Entwurf: Diese Anfrage wurde noch nicht eingereicht.
-   * In Arbeit
-   * Abgeschlossen
+   * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt.
+   * **In Bearbeitung**
+   * **Abschließen**
 
 

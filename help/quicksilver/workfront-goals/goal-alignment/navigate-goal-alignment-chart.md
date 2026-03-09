@@ -6,14 +6,14 @@ description: Verwenden Sie den Abschnitt Zielausrichtung , um eine ganzheitliche
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 3%
+source-wordcount: '896'
+ht-degree: 10%
 
 ---
 
-# Navigieren Sie zum Abschnitt Zielausrichtung in Adobe Workfront-Ziele
+# Navigieren zum Abschnitt „Zielausrichtung“ in Adobe Workfront Goals
 
 <!--Audited P&P only: 4/2025-->
 
@@ -22,13 +22,13 @@ Verwenden Sie den Abschnitt Zielausrichtung , um eine ganzheitliche Ansicht der 
 Informationen zur Zielausrichtung und deren Erreichung finden Sie in den folgenden Artikeln:
 
 * [Übersicht über die Zielausrichtung in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Ausrichten von Zielen durch Verbinden in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
 ## Zugriffsanforderungen
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
@@ -42,11 +42,14 @@ Informationen zur Zielausrichtung und deren Erreichung finden Sie in den folgend
   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
+
+<p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
-   <td> <p>Mitwirkender oder höher</p> 
+   <td> <p>Mitwirkende oder höher</p> 
      <p>Antragsteller oder höher</p> </td> 
   </tr>
 

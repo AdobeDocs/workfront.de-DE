@@ -3,17 +3,17 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Zugriff auf Anfrage-Warteschlangen gewähren
 description: Wenn Sie Zugriff auf eine Anfrage-Warteschlange gewähren, legen Sie fest, wer in Ihrem Unternehmen die Anfrage-Warteschlange im Bereich Anfragen von Adobe Workfront anzeigen kann.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Zugriff auf Anfrage-Warteschlangen gewähren
+# Gewähren von Zugriff auf Anfrage-Warteschlangen
 
 <!-- Audited: 6/2025 -->
 
@@ -25,7 +25,7 @@ Dies ist besonders hilfreich für Unternehmen, die externe Stakeholder in Workfr
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Dies ist besonders hilfreich für Unternehmen, die externe Stakeholder in Workfr
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard </p>
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

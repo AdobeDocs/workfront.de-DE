@@ -1,13 +1,13 @@
 ---
 title: Freigeben eines Links zu einer Anfrage-Warteschlange
 description: Sie können einen Link zu einer Anfrage-Warteschlange, einer Themengruppe oder einem Warteschlangenthema freigeben, während Sie die Anfrage senden.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -33,8 +33,8 @@ Sie können einen Link zu einer Anfrage-Warteschlange, einer Themengruppe oder e
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Sie können einen Link zu einer Anfrage-Warteschlange, einer Themengruppe oder e
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

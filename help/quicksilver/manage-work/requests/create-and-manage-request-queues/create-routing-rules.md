@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Routingregeln erstellen
+title: Erstellen von Routing-Regeln
 description: Routing-Regeln steuern, was Adobe Workfront bei Problemen tut, wenn sie an eine Anfrage-Warteschlange gesendet werden.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Routingregeln erstellen
+# Erstellen von Routing-Regeln
 
 <!-- Audited: 12/2023 -->
 
@@ -27,7 +27,7 @@ Nach der Erstellung können Sie Routing-Regeln nicht mehr von einem Projekt in e
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Nach der Erstellung können Sie Routing-Regeln nicht mehr von einem Projekt in e
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +53,7 @@ Nach der Erstellung können Sie Routing-Regeln nicht mehr von einem Projekt in e
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

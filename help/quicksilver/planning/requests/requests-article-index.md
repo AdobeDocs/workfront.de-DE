@@ -3,17 +3,17 @@ title: 'Adobe Workfront-Planungsanfragen: Artikelindex'
 description: Sie können für jeden Datensatztyp ein Anfrageformular erstellen, es für Benutzende freigeben und diese können durch Ausfüllen und Senden des Formulars neue Datensätze hinzufügen.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 0%
+ht-degree: 37%
 
 ---
 
-# Adobe Workfront-Planungsanfragen: Artikelindex
+# Anfragen in Adobe Workfront-Planung: Artikelindex
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -23,8 +23,8 @@ Sie können für jeden Datensatztyp ein Anfrageformular erstellen, es für Benut
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md)
 * [Adobe Workfront-Planungsanfragen senden](/help/quicksilver/planning/requests/submit-requests.md)
-* [Veröffentlichung eines Anfrageformulars in Adobe Workfront Planning aufheben](/help/quicksilver/planning/requests/unpublish-request-form.md)
-* [Hinzufügen einer Genehmigung zu einem Anforderungsformular in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
+* [Aufheben der Veröffentlichung eines Anfrageformulars in Adobe Workfront-Planung](/help/quicksilver/planning/requests/unpublish-request-form.md)
+* [Hinzufügen einer Genehmigung zu einem Anfrageformular in Adobe Workfront-Planung](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 * [Anforderung in Adobe Workfront Planning genehmigen](/help/quicksilver/planning/requests/approve-request.md)

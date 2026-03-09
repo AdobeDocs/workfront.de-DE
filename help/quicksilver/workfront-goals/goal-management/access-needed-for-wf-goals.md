@@ -7,10 +7,10 @@ description: Ihr Adobe Workfront-Administrator muss sicherstellen, dass bestimmt
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,13 @@ ht-degree: 0%
 
 Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor Sie auf Adobe Workfront Goals zugreifen können:
 
-* Ihr Unternehmen hat bereits ein Adobe Workfront Goals-Paket erworben. Adobe Workfront Goals ist nicht mehr erhältlich.
+* Ihr Unternehmen muss über ein Workfront Ultimate-Paket verfügen.
+
+  Workfront Goals ist nicht für Workfront Workflow-Pakete verfügbar.
+
+  Wenden Sie sich an Ihren Workfront-Kundenbetreuer, wenn Sie derzeit Workfront erneuern und Workfront-Ziele beibehalten möchten.
+
+  Wenn Sie Neukunde sind, können Sie Workfront Goals nicht mehr erwerben.
 
   Weitere Informationen finden Sie im Abschnitt [Abrufen des Organisationszugriffs für Workfront](#obtain-workfront-goals-organization-access) in diesem Artikel.
 
@@ -37,7 +43,7 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
   >Standardmäßig erhalten Benutzerinnen und Benutzer keinen Zugriff auf Ziele in ihrer Zugriffsebene.
 
 
-* Weisen Sie die Layoutvorlage zu, die den Bereich Ziele im Hauptmenü enthält.
+* Weisen Sie eine Layout-Vorlage zu, die den Bereich Ziele im Hauptmenü enthält.
 
   >[!NOTE]
   >
@@ -52,7 +58,9 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
 ## Erhalten von Zugriff auf die Workfront Goals-Organisation {#obtain-workfront-goals-organization-access}
 
 Das letzte Adobe Workfront-Paket, das Workfront-Ziele enthielt, war Adobe Workfront Ultimate.
+
 Workfront-Produktziele sind für neuere Pakete nicht mehr erhältlich.
+
 Wenden Sie sich an Ihren Kundenbetreuer, um sich über Workfront Goals zu informieren.
 
 <!--Old: >
@@ -72,8 +80,8 @@ Wenn Ihr Unternehmen durch einen vorherigen Kauf Zugriff auf Workfront-Ziele hat
 
 1. Eine der folgenden Lizenzen:
 
-   * Mitwirkender oder höher
-   * Anfrage oder höher
+   * Mitwirkende oder höher
+   * Anfragende oder höher
 
 <!--Old: 
 * **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 

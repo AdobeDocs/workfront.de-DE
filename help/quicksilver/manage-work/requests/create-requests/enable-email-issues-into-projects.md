@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Benutzern die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt zu senden
 description: Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme per E-Mail hinzufügen können.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Benutzern die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangen-Projekt zu senden
+# Benutzenden die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangen-Projekt zu senden
 
 <!-- Audited: 4/2025 -->
 
@@ -37,8 +37,8 @@ Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme p
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 

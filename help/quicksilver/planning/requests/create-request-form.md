@@ -3,17 +3,17 @@ title: Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Plannin
 description: Nachdem Sie im Bereich Adobe Workfront-Planung einen Datensatztyp ausgewählt haben, können Sie ein Anforderungsformular erstellen und es mit diesem Datensatztyp verknüpfen. Sie können dann einen Link dazu für andere interne oder externe Benutzer freigeben. Benutzer mit einem Link zum Formular können die Feldwerte darin ausfüllen und durch Senden einen neuen Datensatz für den damit verknüpften Datensatztyp hinzufügen.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '3550'
 ht-degree: 1%
 
 ---
 
-# Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning
+# Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -303,7 +303,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![ der linken Navigationsleiste auf Genehmigungen ](assets/approvals-icon-on-form.png)Genehmigungssymbol).
 
 1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
 
@@ -390,7 +390,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.

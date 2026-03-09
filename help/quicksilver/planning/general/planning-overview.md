@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2354'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 77%
 
 Dieser Artikel enthält allgemeine Informationen zu Workfront-Planung.
 
-Eine vollständige Liste der Artikel mit Dokumentationen zu Workfront-Planung finden Sie unter [Allgemeine Informationen zu Adobe Workfront-Planung](/help/quicksilver/planning/planning-information.md).
+Eine vollständige Liste der Artikel mit Dokumentationen zu Workfront Planning finden Sie unter [Allgemeine Informationen und Artikelindex für Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
 
 ## Einführung in Adobe Workfront-Planung
 
@@ -187,7 +187,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte von Workfront-Planu
 * [Verbundene Datensatztypen, Datensätze und Felder](#connected-record-types-records-and-fields)
 * [Felder nachschlagen](#lookup-fields)
 * [Hierarchien](#hierarchies)
-* [Ansichten &#x200B;](#views)
+* [Ansichten ](#views)
 * [Automatisierungen](#automations)
 * [Antragsformulare](#request-forms)
 
@@ -319,10 +319,13 @@ Wenn Sie beispielsweise einen Kampagneneintragstyp mit einem Workfront-Projektob
 >[!TIP]
 >
 >* Die folgenden Feldtypen können nicht als Suchfelder aus den verbundenen Eintrags- oder Objekttypen hinzugefügt werden:
+>
 >   * Erstellt von
 >   * Zuletzt geändert von
 >   * Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie „Projektbesitzer“ oder „Projektsponsor“)
+>
 >* Sie können die folgenden Feldtypen nicht als Suchfelder aus dem verbundenen Datensatz oder Objekttyp in der Produktion hinzufügen<span class="preview"> Sie können sie jedoch in der Vorschau-Umgebung hinzufügen:</span>
+>
 >   * Personen
 
 Informationen zum Verbinden von Eintragstypen, Einträgen und zum Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
@@ -436,7 +439,7 @@ So suchen Sie nach Workfront-Planung:
 
 ## Zusätzliche Ressourcen für Workfront-Planung
 
-* [Allgemeine Informationen zu Adobe Workfront-Planung](/help/quicksilver/planning/planning-information.md): Ein Index aller Artikel, die Dokumentationen zu Workfront-Planung enthalten, gruppiert nach Interessensgebieten.
+* [Allgemeine Informationen und Artikelindex für Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): Ein Index aller Artikel, die Dokumentationen zu Workfront Planning enthalten, gruppiert nach Interessenbereich.
 * [Überblick über den KI-Assistenten von Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront-KI-Assistenten für Planung können Sie mithilfe von Befehlen nach Einträgen suchen oder Einträge erstellen, aktualisieren und löschen und den Assistenten die Arbeit für Sie erledigen lassen.
 
   <!--

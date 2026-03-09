@@ -2,13 +2,13 @@
 title: Automatische Vervollständigung einer Anfrage mit Daten aus vorherigen Anfragen
 content-type: reference
 description: Sie können KI verwenden, um Anfragefelder mithilfe von Daten aus früheren Anfragen automatisch auszufüllen.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Benutzer erhalten keine Vorschläge für Daten, auf die sie sonst keinen Zugriff
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -73,7 +73,7 @@ So verwenden Sie Vorschläge basierend auf früheren Anfragen:
 
    ![Vorschlag annehmen oder ablehnen](assets/accept-reject-suggestion.png)
 
-   Oder
+   ODER
 
    Wählen **oben auf der Seite** Alle akzeptieren **oder (Alle**) aus, um alle Vorschläge zu akzeptieren oder abzulehnen.
 

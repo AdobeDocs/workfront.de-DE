@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Anforderungen aus Entwürfen erstellen
 description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei der Eingabe einer neuen Anfrage vorschlägt, können Sie auch über den Abschnitt „Entwürfe“ auf eine Entwurfsanfrage zugreifen und die Übermittlung dort abschließen.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Anforderungen aus Entwürfen erstellen
+# Erstellen von Anfragen aus Entwürfen
 
 Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei der Eingabe einer neuen Anfrage vorschlägt, können Sie auch über den Abschnitt „Entwürfe“ auf eine Entwurfsanfrage zugreifen und die Übermittlung dort abschließen.
 
@@ -31,8 +31,8 @@ Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei d
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
     </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei d
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -58,7 +58,7 @@ Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen k�
 
   Informationen zum Erstellen von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-## Anforderungen aus Entwürfen erstellen
+## Erstellen von Anfragen aus Entwürfen
 
 Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwischen dem neuen anfragenden Erlebnis und dem alten Erlebnis.
 

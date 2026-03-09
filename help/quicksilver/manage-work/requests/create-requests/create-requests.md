@@ -4,18 +4,18 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Anfragen erstellen
 description: Anfragen und Probleme sind in Adobe Workfront austauschbar. Sie können Anfragen erstellen, indem Sie eine Anfrage in Workfront senden, eine Anfrage in einem anderen Programm senden oder eine Anfrage per E-Mail an ein Projekt senden, das als Anfrage-Warteschlange eingerichtet ist.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 3c5f7d54e29398b61ffd15b71dbfd462aabd7a0c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Anfragen erstellen
+# Erstellen von Anfragen
 
 Anfragen und Probleme sind in Adobe Workfront austauschbar. Sie können Anfragen erstellen, indem Sie einen der folgenden Schritte ausführen:
 
@@ -34,6 +34,6 @@ Weitere Informationen zum Erstellen, Senden oder Senden von E-Mail-Anfragen in W
 * [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Freigeben eines Links zu einer Anfrage-Warteschlange](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](../../../manage-work/requests/create-requests/delete-request-draft.md)
-* [Anfrage aus vorherigen Daten automatisch ausfüllen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Ansichten im Bereich Anfragen erstellen und verwalten](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
-* [Verwenden von Form Fill powered by AI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Automatisches Ausfüllen einer Anfrage aus früheren Daten](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Erstellen und Verwalten von Ansichten im Bereich „Anfragen“](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [Verwenden der KI-gestützten Formularausfüllung zum Ausfüllen einer Anfrage mithilfe von Prompts oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)

@@ -6,14 +6,14 @@ description: Wenn Sie als Mitarbeiter ein persönliches Ziel haben, sollten Sie 
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: '739'
+ht-degree: 11%
 
 ---
 
-# Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen
+# Ausrichten von Zielen durch Verbinden in Adobe Workfront Goals
 
 <!--Audited P&P only: 10/2025-->
 
@@ -31,31 +31,33 @@ Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront:
 >
 >Ein Ziel kann insgesamt 1000 Fortschrittsindikatoren aufweisen.
 
-In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[&#x200B; durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[ durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Zugriffsanforderungen
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody>
 
-<td> <p>Adobe Workfront-Paket</p> </td> 
+<td> <p>Adobe Workfront-Paket</p> 
+  </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p> <p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
-   <td> <p>Mitwirkender oder höher</p> 
+   <td> <p>Mitwirkende oder höher</p> 
      <p>Antragsteller oder höher</p> </td> 
   </tr>
 
@@ -183,7 +185,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. Klicken Sie im Bereich **Informationen zum übergeordneten Ziel** im Feld **Übergeordnetes Ziel** auf **Hinzufügen**, wenn kein übergeordnetes Ziel vorhanden ist,
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen des übergeordneten Ziels, um ein anderes Ziel auszuwählen.
 

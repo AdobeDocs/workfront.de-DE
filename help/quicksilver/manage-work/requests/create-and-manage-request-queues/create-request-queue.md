@@ -1,22 +1,22 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Anfrage-Warteschlange erstellen
+title: Erstellen einer Anfrage-Warteschlange
 description: Sie können eine Anfrage-Warteschlange einrichten, in der Benutzer gelegentliche Anfragen eingeben können, die nicht für die Arbeit an einem Projekt geplant sind. Beispielsweise kann eine Helpdesk-Anfragewarteschlange eingerichtet werden, um alle Benutzeranfragen zu erfassen, die an eine IT-Abteilung gesendet werden.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '2843'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Anfrage-Warteschlange erstellen
+# Erstellen einer Anfrage-Warteschlange
 
 <!--Audited: 12/2023-->
 
@@ -26,9 +26,13 @@ ht-degree: 2%
 
 <!--hide/ comment out the entire "create requests in Production" section and just edit and leave  only the preview section when it releases to Production; also remove the template blurb when the queue details is unshimmed for templates-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 
 Sie können eine Anfrage-Warteschlange einrichten, in der Benutzer gelegentliche Anfragen eingeben können, die nicht für die Arbeit an einem Projekt geplant sind. Beispielsweise kann eine Helpdesk-Anfragewarteschlange eingerichtet werden, um alle Benutzeranfragen zu erfassen, die an eine IT-Abteilung gesendet werden.
@@ -66,7 +70,7 @@ Informationen zum Konfigurieren eines Anfrageformulars in Workfront Planning fin
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard </p>
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -79,7 +83,7 @@ Informationen zum Konfigurieren eines Anfrageformulars in Workfront Planning fin
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -103,7 +107,7 @@ In diesem Artikel wird beschrieben, wie Sie eine Anfrage-Warteschlange aus einem
   </tr> 
   <tr> 
    <td role="rowheader">Warteschlangenthemen</td> 
-   <td> <p>Hierbei handelt es sich um zusätzliche Menüs, in denen Anfragen, die derselben Themengruppe angehören, basierend auf gemeinsamen Funktionen klassifiziert werden. Eine Themengruppe kann mehrere Warteschlangenthemen enthalten. </p> <p>Beispielsweise kann die Themengruppe „Vor-Ort“ für die IT-Anforderungswarteschlange die Warteschlangenthemen „Hardware“, „Software“ und „Netzwerk“ enthalten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Warteschlangenthemen erstellen</a>. </p> <p>Dies ist optional.</p> </td> 
+   <td> <p>Hierbei handelt es sich um zusätzliche Menüs, in denen Anfragen, die derselben Themengruppe angehören, basierend auf gemeinsamen Funktionen klassifiziert werden. Eine Themengruppe kann mehrere Warteschlangenthemen enthalten. </p> <p>Beispielsweise kann die Themengruppe „Vor-Ort“ für die IT-Anforderungswarteschlange die Warteschlangenthemen „Hardware“, „Software“ und „Netzwerk“ enthalten. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Erstellen von Warteschlangenthemen</a>. </p> <p>Dies ist optional.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Routing-Regeln</td> 
@@ -112,7 +116,7 @@ In diesem Artikel wird beschrieben, wie Sie eine Anfrage-Warteschlange aus einem
  </tbody> 
 </table>
 
-## Anfrage-Warteschlange erstellen
+## Erstellen einer Anfrage-Warteschlange
 
 <!--at production release on April 10, do the following: take the first sentence here out; hide/ comment out the first section (Create a Request Queue in the Production environment); remove the title of the "Create a Request Queue in the Preview environment and leave that section as the only way to create request queues; search for any visible references of production/ preview and remove them from the entire article-->
 
@@ -267,7 +271,9 @@ To create a Request Queue:
      >
      >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project <!--this is confusing: or to the tasks in the Issues section-->.
 
-<!--     When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
+<!--
+
+When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
       >[!NOTE]
       >
@@ -323,10 +329,10 @@ To create a Request Queue:
    * For information about creating sub-sections for the Request Queue, see the articles [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) and [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
    * For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-   -->
+-->
 
 
-### Anfrage-Warteschlange erstellen
+### Erstellen einer Anfrage-Warteschlange
 
 Wenn Sie ein Projekt als Anfrage-Warteschlange einrichten, muss der Projektstatus Aktuell sein, damit er im Bereich Anfragen von Workfront angezeigt wird.
 
@@ -337,7 +343,7 @@ Wenn Sie ein Projekt als Anfrage-Warteschlange einrichten, muss der Projektstatu
 So erstellen Sie eine Anfrage-Warteschlange:
 
 1. Wechseln Sie zu dem Projekt, das Sie als Anfrage-Warteschlange einrichten möchten.
-1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;**Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
+1. (Optional) Klicken Sie **linken Bereich auf****Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 
    Dadurch wird der Abschnitt Warteschlangendetails geöffnet.
@@ -521,7 +527,7 @@ Weitere Informationen zum Einrichten des Systems „Typische Stunden pro Arbeits
 In diesem Dropdown-Menü stehen nur benutzerdefinierte Problemformulare zur Auswahl. Allen Problemen, die an diese Anfrage-Warteschlange gesendet und dem Projekt oder seinen Aufgaben hinzugefügt werden, werden die ausgewählten Formulare zugeordnet.
 Sie müssen benutzerdefinierte Anfrageformulare erstellen, bevor Sie sie im Abschnitt Warteschlangendetails anzeigen können.
 Wenn mehrere Warteschlangenthemen mit einer Anfrage-Warteschlange verknüpft sind, empfehlen wir, stattdessen benutzerdefinierte Formulare mit den Warteschlangenthemen zu verknüpfen.
-Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Weitere Informationen finden Sie unter [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![Benutzerdefiniertes Formular-Feld in Warteschlangendetails](assets/custom-forms-box-on-queue-details.png)
 

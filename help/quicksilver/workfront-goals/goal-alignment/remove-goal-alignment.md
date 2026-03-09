@@ -6,14 +6,14 @@ description: Sie können die Ausrichtung zwischen zwei Zielen entfernen, wenn es
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 19%
 
 ---
 
-# Zielausrichtung in Adobe Workfront Goals entfernen
+# Entfernen der Zielausrichtung in Adobe Workfront Goals
 
 <!--Audited P&P only: 4/2025-->
 
@@ -28,11 +28,11 @@ Informationen zum Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto">
 <col>
@@ -43,14 +43,15 @@ Informationen zum Ausrichten von Zielen finden Sie in den folgenden Artikeln:
  <tr>
   <td> <p>Adobe Workfront-Paket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTIZ</b></p>
+<p>Wenden Sie sich an Ihren Workfront-Support-Mitarbeiter, wenn Sie ein anderes Workfront-Paket haben.</p>
    </td> 
   </tr> 
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz</td>
  <td>
- <p>Mitwirkender oder höher</p>
- <p>Anfrage oder höher</p> </td>
+ <p>Mitwirkende oder höher</p>
+ <p>Anfragende oder höher</p> </td>
  </tr>
   <tr>
  <td role="rowheader">Zugriffsebene</td>
