@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Ohne korrekte Zugriffsrechte oder Berechtigungen können Sie möglicherweise den Bereich [!UICONTROL Szenarien] von nicht anzeigen [!DNL  Adobe Workfront] Pläne oder Initiativen für Ihr Unternehmen verwalten. Die Verwaltung von Plänen und Initiativen umfasst das Erstellen, Bearbeiten und Löschen.
+Ohne korrekte Zugriffsrechte oder Berechtigungen können Sie möglicherweise den Bereich [!UICONTROL Szenarien] von nicht anzeigen [!DNL &#x200B; Adobe Workfront] Pläne oder Initiativen für Ihr Unternehmen verwalten. Die Verwaltung von Plänen und Initiativen umfasst das Erstellen, Bearbeiten und Löschen.
 
 ## Zugriff zum Anzeigen und Verwenden der [!DNL Adobe Workfront Scenario Planner] erforderlich
 
