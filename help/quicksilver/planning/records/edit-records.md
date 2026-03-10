@@ -1,20 +1,20 @@
 ---
-title: Datensätze bearbeiten
+title: Bearbeiten von Einträgen
 description: Datensatzinformationen können in Adobe Workfront Planning bearbeitet werden. Sie müssen Datensatztypen erstellen, bevor Sie Datensätze erstellen und bearbeiten können.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '2899'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Datensätze bearbeiten
+# Bearbeiten von Einträgen
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -27,9 +27,9 @@ Datensatzinformationen können in Adobe Workfront Planning bearbeitet werden, in
 
 Sie müssen Datensatztypen erstellen, bevor Sie Datensätze erstellen und bearbeiten können.
 
-Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+Weitere Informationen zum Erstellen von Einträgen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 
 &lt;!— Erwähnen Sie hier, dass die Felder in der Detailansicht mit denen in der Tabellenansicht übereinstimmen — dieser Artikel ist mit der Liste Datensatzansichten verwalten verlinkt, um auf diese Informationen zu verweisen—>
 
@@ -139,7 +139,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Die folgenden Feldtypen werden automatisch aktualisiert und Sie können ihre Werte nicht manuell bearbeiten:
    * Verknüpfte Felder aus anderen Datensätzen
    * Felder vom Typ Formel
-   * Systemfelder (Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Genehmigt von)
+   * Systemfelder (Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Genehmigt von <!--, <span class="preview">Record ID</span>-->)
 * Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln die neuen Informationen der Datensätze, die Sie bearbeiten, die verknüpften Datensätze in allen Arbeitsbereichen wider, in denen dieser Datensatz verknüpft ist.
 * Einträge können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 * URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit dem Folgenden beginnen: http://, https://, ftp:// oder www. .
@@ -155,7 +155,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * [Bearbeiten eines Datensatzes in der Zeitleisten-Ansicht eines Datensatztyps](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
-## Datensätze bearbeiten
+## Bearbeiten von Einträgen
 
 Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
@@ -170,7 +170,7 @@ Sie können einen Datensatz aus den folgenden Bereichen bearbeiten:
 
 Wenn Sie Datensätze in der Tabellenansicht bearbeiten, gibt es einen Hinweis darauf, welches Feld von anderen Benutzern zum Zeitpunkt der Anzeige des Datensatzes bearbeitet wird.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 Wenn Sie in einer Gruppierung oder Untergruppierung nach dem letzten Datensatz einen neuen Datensatz hinzufügen, aktualisiert Workfront automatisch die in den Gruppierungen enthaltenen Felder für die neuen Datensätze. Sie können diese Felder bei Bedarf manuell bearbeiten, und die Datensätze können aus der Gruppierung entfernt werden.
 
@@ -261,7 +261,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 <!--add another step about drag and drop here when that is available-->
 
-1. Öffnen Sie die Seite „Datensatztyp“ in einer Zeitleisten -Ansicht. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. Öffnen Sie die Seite „Datensatztyp“ in einer Zeitleisten -Ansicht. Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 1. Bewegen Sie den Mauszeiger über die Enden der Leiste eines Datensatzes, klicken Sie, ziehen Sie den Rand per Drag-and-Drop zu einem anderen Datum. Dadurch wird automatisch das Start- oder Enddatum des Datensatzes aktualisiert.
 
@@ -275,7 +275,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps
 
@@ -292,7 +292,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. Klicken Sie auf die Leiste eines Datensatzes, um seinen Detailbereich zu öffnen und alle Felder zu bearbeiten.
 
-   Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
+   Weitere Informationen finden Sie [ Abschnitt „Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel.
 
 ### Bearbeiten eines Datensatzes aus der Datensatzvorschau in einer Ansicht
 
@@ -341,9 +341,9 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Erweitertes Feld für die Datensatzvorschau der Echtzeit-Anzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[&#x200B; wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes &#x200B;](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
+1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[ wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes ](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
 
 ### Bearbeiten eines Datensatzes auf der Datensatzseite
 
@@ -387,7 +387,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ODER
 
-   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
+   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -405,7 +405,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    ![Das erweiterte Feld für die Datensatzvorschau der Echtzeitanzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Bearbeiten eines Datensatzes aus einem Workfront-Objekt im Planungsabschnitt

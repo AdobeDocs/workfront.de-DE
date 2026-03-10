@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
+# Erstellen von Einträgen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
 <!--
 
@@ -147,6 +147,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * Datum der letzten Änderung, letzte Änderung von
    * Genehmigt am, Genehmigt von
    * Personen
+     <!--* <span class="preview">Record ID</span>-->
    * Wenn ein Feld mit mehreren oder nur einer Auswahl importiert wird und es mehr Auswahlmöglichkeiten als ein ähnliches Feld in Planning hat, werden die zusätzlichen Optionen während des Imports erstellt. Nur Benutzer mit der Berechtigung Verwalten für den Arbeitsbereich können neue Auswahlmöglichkeiten importieren.
 
 ## Erstellen von Datensätzen durch Importieren einer CSV- oder Excel-Datei
@@ -155,7 +156,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze erstellen möchten,
 
-   Oder
+   ODER
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. Klicken Sie auf die Karte des Datensatztyps, in den Sie die Datensätze importieren möchten.

@@ -6,19 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '5510'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??-->
+<!--
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
+-->
 
-<!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
+<!--
+will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? 
+-->
 
-<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
+<!--
+Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??
+-->
 
 # Erstellen von Feldern
 
@@ -33,7 +39,7 @@ ht-degree: 1%
 
 In Adobe Workfront Planning können Sie benutzerdefinierte Felder für Datensatztypen erstellen. Anschließend können Sie die Felder mit Workfront Planning-Datensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
 
-Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 Sie können Felder in Workfront Planning auf folgende Weise erstellen:
 
@@ -85,8 +91,9 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++   
 
-<!--Old:
+<!--
 
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -141,7 +148,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Erstellen von Feldern durch Verbinden von Datensatztypen
 
@@ -149,9 +157,11 @@ Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung
 
 Informationen zum Verbinden von Workfront Planning-Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--## Create fields by importing record types using an Excel or CSV file
+<!--
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+## Create fields by importing record types using an Excel or CSV file
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+-->
 
 ## Erstellen von Feldern durch Erstellen eines Datensatztyps
 
@@ -169,7 +179,7 @@ Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/qu
 
 Sie können Felder importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder Excel-Datei importieren.
 
-Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Erstellen von Feldern durch Importieren aus Workfront
 
@@ -179,7 +189,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -240,14 +250,17 @@ Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/qui
    * [Zuletzt geändert am](#last-modified-date)
    * [Genehmigungsdatum](#approved-date)
    * [Genehmigt von](#approved-by)
+     <!--* <span class="preview">[Record ID](#record-id)</span>-->
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
    >Sie können den Feldtyp nach dem Speichern des Felds nicht mehr ändern.
 
-   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
-    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
+   <!--
+    Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.
+    -->
 
 1. Fahren Sie mit dem Hinzufügen jedes Felds fort, wie in den folgenden Abschnitten beschrieben.
 
@@ -575,7 +588,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
@@ -797,6 +810,33 @@ Mit dem Feldtyp Genehmigt nach können Sie den Benutzer hinzufügen, der die Anf
 
    Das neue Feld Genehmigt nach Typ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
 
+<!--
+<span class="preview">
+
+## Record ID
+
+You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+
+When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+
+You cannot manually modify the value of a Record ID field. 
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
+ 
+   ![Record ID field type](assets/record-id-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+
+</span>
+
+-->
 <!--
 
 ## Object field type

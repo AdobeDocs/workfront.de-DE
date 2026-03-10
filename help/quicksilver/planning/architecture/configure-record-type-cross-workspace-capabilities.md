@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 2%
@@ -14,11 +14,15 @@ ht-degree: 2%
 ---
 
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--
+*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
+-->
 
 # Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen
 
-<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
+<!--
+this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL
+-->
 
 {{planning-important-intro}}
 
@@ -82,18 +86,21 @@ ODER
    <p>So machen Sie einen Datensatz verbindbar:</p>
    <ul><li>Systemadmin</li></ul>
 
-<!--replace the above with this at release:
+<!--
+   replace the above with this at release:
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
    <ul><li>In the Production environment:</li>
    <ul><li>System Administrator</li></ul></ul>
-
+   -->
+<!--
    <div class="preview">
    <ul><li>In the Preview environment:</li>
    <ul><li>Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
-   </div>-->
+   </div>
+   -->
 
 </td> 
   </tr> 
@@ -109,8 +116,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++   
 
-<!--Old:
-
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -119,7 +126,6 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 <tbody> 
     <tr> 
 <tr> 
-
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
@@ -146,12 +152,15 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Konfigurieren globaler Datensatztypen
 
-<!--this is a UI term; don't change the title of this section-->
+<!--
+this is a UI term; don't change the title of this section
+-->
 
 Als Workspace-Manager können Sie einen Datensatztyp als globalen Datensatztyp konfigurieren. Ein globaler Datensatztyp kann anderen Arbeitsbereichen hinzugefügt werden.
 
@@ -206,7 +215,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
@@ -216,7 +225,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem &#x200B;](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
+   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem ](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
    * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
@@ -262,7 +271,7 @@ So konfigurieren Sie einen Datensatztyp als global:
 
    Wenn Sie auf **Einstellungen** geklickt haben, klicken Sie alternativ auf den **Arbeitsbereichsübergreifende Einstellungen** im linken Bedienfeld.
 
-1. Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+1. Aktivieren Sie die **Verbindung zu diesem Datensatztyp in anderen Arbeitsbereichen zulassen** Einstellung.
 
    <!-- add new screen shot with new tab name-->
 
@@ -270,14 +279,14 @@ So konfigurieren Sie einen Datensatztyp als global:
 
    Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus mit verbunden werden.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
    * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **Spezifische Arbeitsbereiche**: Fügen Sie aus dem Dropdown-Menü die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 

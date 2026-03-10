@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 0%
@@ -120,13 +120,13 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
    * Sie haben für die im Primären Arbeitsbereich erstellten Datensätze dieselben Berechtigungen wie für den Arbeitsbereich und den ursprünglichen globalen Datensatztyp.
    * Sie haben dieselben Berechtigungen für die in einem sekundären Arbeitsbereich erstellten Datensätze wie für den sekundären Arbeitsbereich und den globalen Datensatztyp in diesem Bereich.
 
-<!--Removed this as this was too confusing: 
-
-* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
-
-    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
-        * The primary workspace
-        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
+  <!--
+    Removed this as this was too confusing: 
+    * When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+        * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+            * The primary workspace
+            * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.
+    -->
 
 * Die mit einem globalen Datensatztyp verbundenen Datensatztypen werden für die Verbindung in den Arbeitsbereichen verfügbar, in denen dieser Datensatztyp hinzugefügt wird.
 
@@ -167,14 +167,18 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
      Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
 
-<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+<!--
+when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.
+-->
 
-<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+<!--
+These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
 * Add new fields
     Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
 * Add request forms to it
-* Add automations to it-->
+* Add automations to it
+-->
 
 * Kein Benutzer kann die folgenden Aktionen für einen globalen Datensatztyp in einem sekundären Arbeitsbereich ausführen:
 
@@ -193,7 +197,9 @@ Der als „global“ konfigurierte Datensatztyp hat die folgenden Eigenschaften:
 
    * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen Arbeitsbereich und keine Berechtigungen für sekundäre Arbeitsbereiche verfügen, können Sie Datensätze anzeigen, die von den sekundären Arbeitsbereichen im ursprünglichen Arbeitsbereich hinzugefügt wurden. Sie können diese jedoch nicht über den ursprünglichen Arbeitsbereich verwalten.
    * Wenn Sie über Verwaltungsberechtigungen für den ursprünglichen und den sekundären Arbeitsbereich verfügen, können Sie die Datensätze sowohl aus dem ursprünglichen Arbeitsbereich des globalen Datensatztyps als auch aus dem sekundären Arbeitsbereich verwalten, in dem sie hinzugefügt wurden.
-     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
+  <!--
+    not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
+    -->
 * Es ist nicht möglich, Ansichten eines globalen Datensatztyps in einem sekundären Arbeitsbereich öffentlich freizugeben.
 
 ### Zugriff auf die Verbindungen eines globalen Datensatztyps
@@ -223,6 +229,10 @@ Gehen Sie wie folgt vor, um verbindbare Datensatztypen zu verwenden:
    Ein Workspace-Manager kann auswählen, mit welchen Arbeitsbereichen ein bestimmter Datensatztyp verbunden werden kann.
 
    Der ursprüngliche Datensatztyp ist im ursprünglichen Arbeitsbereich vorhanden und kann von einem anderen Arbeitsbereich aus aufgerufen werden, um eine Verbindung zu herzustellen.
+
+   <!--
+    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
+    -->
 
    Weitere Informationen finden Sie unter [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Stellen Sie eine Verbindung zu einem Datensatztyp her, der als von einem anderen von Ihnen verwalteten Arbeitsbereich aus verbindbar gekennzeichnet ist.

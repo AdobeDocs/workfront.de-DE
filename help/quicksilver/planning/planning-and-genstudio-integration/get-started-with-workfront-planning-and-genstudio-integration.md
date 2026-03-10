@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2185'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ recommendations: noDisplay, noCatalog
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
 
-# Erste Schritte mit der Integration von Adobe Workfront Planning und Adobe GenStudio for Performance Marketing
+# Erste Schritte mit der Integration von Adobe Workfront-Planung und Adobe GenStudio for Performance Marketing
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -162,7 +162,7 @@ Weitere Informationen zu Adobe GenStudio for Performance Marketing finden Sie im
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -297,6 +297,8 @@ In den folgenden Abschnitten werden die folgenden Themen beschrieben:
 
 Datensatztypfelder werden standardmäßig aus GenStudio for Performance Marketing in Workfront Planning importiert.
 
+Sie können in GenStudio Workspace auch von Planning aus Planungsfelder für Datensatztypen erstellen.
+
 Beachten Sie Folgendes zu Datensatztypfeldern in GenStudio:
 
 * Wenn Sie über Verwaltungsberechtigungen für den GenStudio-Arbeitsbereich in Planning verfügen, können Sie in Workfront Planning Folgendes ausführen:
@@ -344,7 +346,7 @@ Beachten Sie Folgendes zu Datensatztypfeldern in GenStudio:
 
    * Erstellen Sie Ansichten für GenStudio-Datensatztypen.
 
-     Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+     Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
    * Umbenennen, Freigeben, Exportieren, Duplizieren oder Löschen benutzerdefinierter Ansichten aus den GenStudio-Datensatztypen.
 
@@ -352,7 +354,7 @@ Beachten Sie Folgendes zu Datensatztypfeldern in GenStudio:
 
    * Erstellen Sie Ansichten für GenStudio-Datensatztypen.
 
-     Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+     Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
    * Umbenennen, Exportieren, Duplizieren oder Löschen benutzerdefinierter Ansichten aus den GenStudio-Datensatztypen.
 

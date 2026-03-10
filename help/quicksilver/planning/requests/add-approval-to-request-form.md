@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1288'
 ht-degree: 2%
 
 ---
@@ -151,7 +151,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
 
    ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
 
-1. (Optional) Beginnen Sie mit dem Hinzufügen von Genehmigungsregeln. Gehen Sie für jede Genehmigungsregel wie folgt vor:
+1. (Optional) Beginnen Sie mit dem Hinzufügen von Genehmigungsregeln. Gehen Sie für jede benutzerdefinierte Genehmigungsregel wie folgt vor:
 
    1. Klicken Sie **Genehmigungsregel hinzufügen**
    1. Klicken Sie auf den Platzhaltertitel **Nicht benannte Genehmigungsregel** und geben Sie einen Namen für die Genehmigungsregel ein.
@@ -161,6 +161,14 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um weitere Bedingungen hinzuzufügen und sie durch **Und**- oder **Oder**-Anweisungen zu verbinden, indem Sie die zusätzlichen Bedingungen wie in den Schritten C-E konfigurieren.
    1. Fügen Sie im Bereich **Aktionen** der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person festgelegt werden soll, wenn die Bedingung erfüllt ist.
    1. (Bedingt und optional) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anforderung akzeptiert oder abgelehnt wird.
+
+   >[!NOTE]
+   >
+   >   Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
+   >
+   >   * Wenn nur eine Standardregel eingerichtet ist, gilt sie für jede gesendete Anfrage.
+   >   * Wenn eine benutzerdefinierte Regel erfüllt ist, wird die Standardeinstellung nicht auf den Workflow für die Anfragegenehmigung angewendet. Für Genehmigungen gelten nur die passenden benutzerdefinierten Regeln, und die Standardregel wird ignoriert.
+   >   * Wenn mehrere benutzerdefinierte Regeln erfüllt sind, gilt die erste in der Reihenfolge. In diesem Fall gilt die Standardgenehmigung nicht, falls eine solche vorhanden ist.
 
 1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
 1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.

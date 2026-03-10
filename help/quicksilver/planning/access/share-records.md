@@ -7,28 +7,34 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
 
-
 <!--update metadata with real information at release-->
 
-# Freigeben von Datensätzen
+# Freigeben von Einträgen
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Sie können die Berechtigungen von Personen für einzelne Datensätze in einem Datensatztyp anpassen.
+Sie können die Berechtigungen von Personen für einzelne Datensätze in einem Datensatztyp in Adobe Workfront Planning anpassen.
+
+>[!WARNING]
+>
+>Die in diesem Artikel beschriebenen Informationen sind in der Vorschau-Umgebung nicht verfügbar. Sie steht allen Workfront Planning-Kunden nur in der Produktionsumgebung zur Verfügung.
 
 Sie können einen Adobe Workfront Planning-Datensatz wie folgt freigeben:
 
@@ -44,23 +50,24 @@ Sie können einen Adobe Workfront Planning-Datensatz wie folgt freigeben:
 
    * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
 
-* Freigeben eines Datensatzes mithilfe der Option **Freigeben**.
+* Freigeben eines einzelnen Datensatzes oder Massenfreigabe mehrerer Datensätze mithilfe der Option **Freigeben**.
 
-  In diesem Artikel wird beschrieben, wie Sie einen Datensatz mit der Option **Freigeben** freigeben können.
+  In diesem Artikel wird beschrieben, wie Sie Datensätze mithilfe der Option &quot;**&quot; für andere freigeben**.
 
 >[!IMPORTANT]
 >
->Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensätze im Arbeitsbereich.
->Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensätze. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen und Datensätze gewähren.
+>* Benutzende mit Zugriff auf einen Arbeitsbereich erhalten automatisch mindestens die Berechtigung Anzeigen für alle Datensätze im Arbeitsbereich.
+>* Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensätze. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen und Datensätze gewähren.
 >
 >Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-
 
 ## Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -112,13 +119,14 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Überlegungen zur Freigabe von Datensätzen
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * Sie können Datensätze für die folgenden Entitäten freigeben: Personen, Gruppen, Teams, Unternehmen oder Aufgabengebiete.
-* Wenn Sie einen Datensatz freigeben, haben Benutzer überall dort, wo dieser Datensatz im System erscheint, denselben Zugriff.
-* Wenn Sie die Berechtigungen auf einen Datensatz beschränken, können Benutzer diesen Datensatz und die Werte für die Suchfelder an keiner Stelle des Systems mehr anzeigen, an der dieser Datensatz hinzugefügt wird.
+* Wenn Sie die Berechtigungen auf einen Datensatz beschränken, können Benutzer diesen Datensatz und die Werte für die Suchfelder an keiner Stelle des Systems mehr anzeigen, an der dieser Datensatz angezeigt wird.
 * Workfront überprüft Datensatzberechtigungen in Verbindungen mit bis zu fünf Datensätzen, um sicherzustellen, dass Benutzende nur die für sie freigegebenen Datensätze sehen.
 * Sie können einem Datensatz die folgenden Berechtigungsebenen gewähren:
 
@@ -140,7 +148,6 @@ Wenn Benutzende die Berechtigung Beitragen für einen Arbeitsbereich oder Datens
      >
      >Wenn Sie die Berechtigung **Alle im Arbeitsbereich können anzeigen** für einen Datensatztyp oder einen Datensatz gewähren, verfügen alle in der Freigabeliste der Arbeitsbereichsberechtigungen aufgeführten Personen über dieselben Berechtigungen für den Datensatztyp und den Datensatz, auch wenn die geerbten Berechtigungen deaktiviert sind.
 
-
 * Wenn Sie einen Datensatz für einen Benutzer freigeben, werden diese standardmäßig mit derselben Berechtigung hinzugefügt, die sie für den Datensatztyp haben.
 
   Beispiel:
@@ -148,13 +155,24 @@ Wenn Benutzende die Berechtigung Beitragen für einen Arbeitsbereich oder Datens
    * Wenn sie über Anzeigeberechtigungen für den Datensatztyp verfügen, erhalten sie Anzeigeberechtigungen für den Datensatz
    * Wenn sie die Berechtigungen Beitragen oder Verwalten für den Datensatztyp besitzen, erhalten sie die Berechtigung Verwalten für den Datensatz
 
-* Als Workspace-Manager können Sie einen Datensatz für Benutzende freigeben, die nicht über die Berechtigungen für den Datensatztyp oder den Arbeitsbereich verfügen. In diesem Fall gibt es eine Warnung neben der hinzugefügten Entität, die darauf hinweist, dass sie keinen Zugriff auf den Arbeitsbereich oder den Datensatztyp haben. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> Sie können den Benutzer weiterhin zum Datensatz hinzufügen, wodurch er auch zum Datensatztyp und Arbeitsbereich hinzugefügt wird, oder die Freigabe abbrechen.
+* Als Workspace-Manager können Sie einen Datensatz für Benutzende freigeben, die nicht über die Berechtigungen für den Datensatztyp oder den Arbeitsbereich verfügen. In diesem Fall wird neben der hinzugefügten Entität eine Warnung angezeigt, die Sie darüber informiert, dass sie keinen Zugriff auf den Arbeitsbereich oder den Datensatztyp haben.  Sie können den Benutzer weiterhin zum Datensatz hinzufügen, wodurch er auch zum Datensatztyp und Arbeitsbereich hinzugefügt wird, oder die Freigabe abbrechen.
 
-* Wenn ein(e) Benutzende(r) über die Berechtigungen Verwalten oder Beitragen für den Arbeitsbereich und den Datensatztyp verfügt und Sie sie zu den Datensatzberechtigungen hinzufügen, sind die Anzeigeberechtigungen abgeblendet. Sie behalten dieselben Berechtigungen für den Datensatz wie für den Datensatztyp, und Sie können ihnen keine niedrigeren Berechtigungen für den Datensatz erteilen. <!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  Wenn sie über Anzeigeberechtigungen für den Arbeitsbereich oder den Datensatztyp verfügen, behalten sie die Anzeigeberechtigungen für die Datensätze bei. Sie können ihnen Berechtigungen zum Verwalten des Datensatzes erteilen, indem Sie die geerbten Berechtigungen deaktivieren und die Einstellung Nur eingeladene Personen können Zugriff haben auswählen. <!-- I think this is right, but because of the above not working, I can't test-->
+* Wenn ein(e) Benutzende(r) über die Berechtigungen Verwalten oder Beitragen für den Arbeitsbereich und den Datensatztyp verfügt und Sie sie zu den Datensatzberechtigungen hinzufügen, sind die Anzeigeberechtigungen abgeblendet. Sie behalten dieselben Berechtigungen für den Datensatz wie für den Datensatztyp, und Sie können ihnen keine niedrigeren Berechtigungen für den Datensatz erteilen.
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * Sie können geerbte Berechtigungen für einen einzelnen Datensatz deaktivieren. In diesem Fall können Sie ihnen Berechtigungen für einzelne Datensätze erteilen. Alternativ können sie Berechtigungen erlangen, wenn sie zur Option **Alle im Arbeitsbereich können anzeigen** gehören.
 
@@ -162,16 +180,17 @@ Wenn Benutzende die Berechtigung Beitragen für einen Arbeitsbereich oder Datens
 
   Wenn beispielsweise ein Datensatz für einen Benutzer mit Ansichtsberechtigungen und dessen Gruppe mit Verwaltungszugriff freigegeben wird, erhält dieser Benutzer Verwaltungsberechtigungen für den Datensatz.
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * Wenn ein Formelfeld oder ein Nachschlagefeld aus einem verbundenen Datensatz auf einem Feld für einen Datensatz basiert, für den Sie keine Berechtigungen haben, wird die richtige Berechnung angezeigt, auf welche Faktoren im Datensatz Sie sonst nicht zugreifen können.
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## Datensatzberechtigungen freigeben
 
@@ -184,7 +203,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen Datensatz aus und klicken Sie dann unten **der Liste auf** Freigeben“ in der blauen Symbolleiste.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
@@ -208,7 +227,12 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
    >
    >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp und den Datensatz.
 
-   1. (Optional) Wählen Sie **Nur eingeladene Personen können zugreifen** im Bereich **Wer hat Zugriff** aus.
+   1. (Optional) Wählen Sie **Nur eingeladene Personen können zugreifen** im Bereich **Wer hat Zugriff** aus. Sie müssen einzelne Benutzer, Gruppen, Teams oder Unternehmen angeben, für die die Datensätze freigegeben werden sollen.
+
+      >[!TIP]
+      >
+      >Sie können geerbte Berechtigungen nicht deaktivieren oder aktivieren, wenn diese Einstellung ausgewählt ist.
+
 
    1. Fügen Sie im Feld **Zugriff auf diesen Datensatztyp gewähren** die Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete hinzu, denen Sie eine andere Berechtigungsstufe gewähren möchten als für den Arbeitsbereich oder den Datensatztyp.
    1. Wählen Sie eine der folgenden Berechtigungsebenen aus:
@@ -256,7 +280,7 @@ Sie können Benutzerberechtigungen aus einem Datensatz entfernen. Sie behalten j
 1. Öffnen Sie den Arbeitsbereich, dessen Datensätze Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite „Datensatztyp“ geöffnet.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen Datensatz aus und klicken Sie dann unten **der Liste auf** Freigeben“ in der blauen Symbolleiste.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
