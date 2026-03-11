@@ -5,10 +5,10 @@ description: Erfahren Sie mehr über den KI-Assistenten in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 99%
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,8 @@ So fordern Sie die Adobe GenAI-Vereinbarung an:
 
    >[!NOTE]
    >
-   >Warten Sie nach der Unterzeichnung und Rückgabe der Vereinbarung 1–3 Werktage, damit Adobe den KI-Assistenten überprüfen und aktivieren kann.
+   >* Warten Sie nach der Unterzeichnung und Rückgabe der Vereinbarung 1–3 Werktage, damit Adobe den KI-Assistenten überprüfen und aktivieren kann.
+   >* If you do not see AI Assistant options available in your organization&#39;s instance after it has been enabled, contact Workfront customer support.
 
 ## Tipps zum Erstellen von Prompts im KI-Assistenten
 
