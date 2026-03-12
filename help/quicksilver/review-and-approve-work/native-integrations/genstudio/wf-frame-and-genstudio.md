@@ -7,9 +7,10 @@ description: Erste Schritte mit der Integration von GenStudio for Performance Ma
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 439ad6f43e1714d0f2580a5097ba92834fb15d60
+exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
+source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '457'
 ht-degree: 7%
 
 ---
@@ -70,17 +71,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 * Die Workfront-Instanz muss für das einheitliche Adobe-Erlebnis aktiviert sein.
 
-<!--* The integration must be enabled in the Workfront Setup area.
+* Für die Workfront-Instanz muss Adobe Enterprise Storage aktiviert sein. Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-
-## Enable the integration in Workfront
-
-You must be a system administrator to enable this integration. 
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
-1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
-1. Enable **Use proof approvals**. 
--->
 
 ## Verwenden von einheitlichen Workfront-Genehmigungsvorlagen zum Definieren von Genehmigungs-Workflows
 
@@ -96,7 +88,7 @@ Weitere Informationen zum Erstellen von Validierungs-Workflow-Vorlagen in Workfr
 
 Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede einheitliche Validierungs-Workflow-Vorlage ändern und Validierungsverantwortliche und Phasen hinzufügen oder entfernen.
 
-Weitere Informationen finden Sie unter [Überprüfung und Genehmigung &#x200B;](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Frame.io-Viewer
 
@@ -115,4 +107,4 @@ Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Komm
 
 Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio for Performance Marketing veröffentlichen.
 
-Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
