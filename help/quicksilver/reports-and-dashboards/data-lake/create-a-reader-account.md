@@ -4,13 +4,13 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Erstellen eines Leserkontos für Snowflake
 description: Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Snowflake-Leserkonto erstellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
+source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 2%
+source-wordcount: '906'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ Informationen zur Verwendung einer neu erstellten Verbindung mit einem externen 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +49,7 @@ Informationen zur Verwendung einer neu erstellten Verbindung mit einem externen 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,17 +75,31 @@ Dialogfeld für das Erstellen des Reader-Kontos![](/help/quicksilver/reports-and
 
 ## Verbindung erstellen
 
+>[!IMPORTANT]
+>
+>Im Juni 2026 werden Anmeldeinformationen für Benutzernamen/Kennwort erforderlich sein, um die Multi-Faktor-Authentifizierung (MFA) zu verwenden. Wir empfehlen die Umstellung auf RSA- oder PAT-basierte Authentifizierung für Service-Benutzerkonten, die zum Laden von Daten von Data Connect in Visualisierungs-Tools von Drittanbietern, Datenprozessoren und Skripte verwendet werden, die nicht mit MFA im Authentifizierungsprozess funktionieren.
+
+
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Setup**.
 
 1. Klicken Sie im linken Bedienfeld auf **System** > **Datenverbindung**.
 
-1. Klicken Sie **Neue Verbindung erstellen**
+1. Klicken Sie **Neue Verbindung erstellen**.
 
 1. Geben Sie im sich öffnenden Fenster in „Verbindungsreferenzbeschreibung“ einen Namen für Ihre Verbindung **und** in &quot;**-Benutzer“** klicken Sie auf **Verbindung erstellen**.
 
    ![Neue Verbindung erstellen](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. Es **ein** Standardkennwort) sowie eine URL generiert, über die Ihre Daten über Snowflake angezeigt werden können. Sie müssen das Kennwort zusammen mit dem Benutzernamen verwenden, den Sie zum ersten Mal für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie sowohl den Benutzernamen als auch die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
+1. Wählen Sie eine Authentifizierungsmethode für Ihre Verbindung:
+   * [Passwortauthentifizierung](#password-authentication)
+   * [Authentifizierung mit programmgesteuerten Zugriffstoken](#programmatic-access-token-authentication)
+   * [RSA-Schlüsselauthentifizierung](#rsa-key-authentication)
+
+### Passwortauthentifizierung
+
+1. Klicken Sie **Kennwort** und dann **Verbindung erstellen**.
+
+1. Es **ein** Standardkennwort) sowie eine URL generiert, über die Ihre Daten über Snowflake angezeigt werden können. Sie müssen das Passwort mit dem Benutzernamen verwenden, den Sie zum ersten Mal für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie es sowie die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
 
    ![Standardkonto-Kennwort](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -96,6 +110,35 @@ Dialogfeld für das Erstellen des Reader-Kontos![](/help/quicksilver/reports-and
    ![Snowflake-Kennwort zurücksetzen](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. Sie können jetzt Ihren Benutzernamen und Ihr neues Passwort verwenden, um auf Ihren Data Connect Data Lake in Snowflake oder das Business-Visualisierungs-Tool Ihrer Wahl zuzugreifen.
+
+### Authentifizierung mit programmgesteuerten Zugriffstoken
+
+1. Klicken Sie **Programmgesteuertes Zugriffstoken**.
+
+1. Geben Sie im Feld „Ablaufdatum“ ein **für Ihr Token**. Sie können ein Ablaufdatum von bis zu 365 Tagen auswählen.
+
+1. Klicken Sie **Verbindung erstellen**.
+
+1. Es wird ein PAT-Token generiert, das zur Authentifizierung verwendet werden kann, und die URL Ihrer Snowflake-Umgebung wird bereitgestellt. Sie können den von Ihnen angegebenen Pfad und Benutzernamen verwenden, um eine Verbindung von Ihrem Visualisierungs-Tool eines Drittanbieters oder Ihrem Datenverarbeiter zu Snowflake herzustellen. Notieren Sie sich diese und die URL. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
+
+   ![Dialog für programmgesteuerte Zugriffstoken](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+
+
+### RSA-Schlüsselauthentifizierung
+
+1. Klicken Sie auf **RSA-Schlüssel**.
+
+1. Geben Sie einen öffentlichen RSA-Schlüssel in das Feld **Öffentlicher RSA-Schlüssel** ein.
+
+1. Klicken Sie **Verbindung erstellen**.
+
+1. Es wird eine Verbindung hergestellt und die URL Ihrer Snowflake-Umgebung angegeben. Sie können den RSA-Schlüssel und den von Ihnen angegebenen Benutzernamen verwenden, um eine Verbindung von Ihrem Visualisierungs-Tool eines Drittanbieters oder Ihrem Datenverarbeiter zu Snowflake herzustellen.
+
+
+
+Sie müssen den RSA-Schlüssel mit dem Benutzernamen verwenden, den Sie für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie diesen sowie die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
+
+    ![Dialogfeld RSA-Schlüssel](Assets/rsa-test.png)
 
 ## Widerrufen eines Leserkontos
 
