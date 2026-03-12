@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '548'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 9%
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom zweiten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Neue Authentifizierungsoptionen für die Datenverbindung
+
+>[!NOTE]
+>
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können sich jetzt mit RSA-Schlüsseln oder programmgesteuerten Zugriffstoken (PAT)-Verbindungen bei Data Connect authentifizieren und so sicherere und flexiblere Alternativen zu herkömmlichen Benutzernamen-/Passwort-Anmeldeinformationen hinzufügen.
+
+Diese neuen Optionen ermöglichen es Unternehmen, stabile Verbindungen von Power BI, Tableau und anderen BI-Tools von Drittanbietern aufrechtzuerhalten, ohne auf benutzerbasierte Anmeldemethoden angewiesen zu sein.
+
+>[!IMPORTANT]
+>
+>Im Juni 2026 werden Anmeldeinformationen für Benutzernamen/Kennwort erforderlich sein, um die Multi-Faktor-Authentifizierung (MFA) zu verwenden. Wir empfehlen die Umstellung auf RSA- oder PAT-basierte Authentifizierung für Service-Benutzerkonten, die zum Laden von Daten von Data Connect in Visualisierungs-Tools von Drittanbietern, Datenprozessoren und Skripte verwendet werden, die nicht mit MFA im Authentifizierungsprozess funktionieren.
 
 ## Benutzerdefinierte Feldbezeichnungen, die beim Erstellen von Berichten angezeigt werden
 
