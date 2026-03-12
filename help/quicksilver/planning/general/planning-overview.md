@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 76%
+source-wordcount: '2360'
+ht-degree: 75%
 
 ---
 
@@ -187,7 +187,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte von Workfront-Planu
 * [Verbundene Datensatztypen, Datensätze und Felder](#connected-record-types-records-and-fields)
 * [Felder nachschlagen](#lookup-fields)
 * [Hierarchien](#hierarchies)
-* [Ansichten &#x200B;](#views)
+* [Ansichten ](#views)
 * [Automatisierungen](#automations)
 * [Antragsformulare](#request-forms)
 
@@ -286,7 +286,7 @@ Sie können benutzerdefinierte Felder der folgenden Typen erstellen:
 * Zuletzt geändert am
 * Genehmigt von
 * Genehmigungsdatum
-  <!--*<span class="preview">Record ID</span>-->
+* <span class="preview">Datensatz-ID</span>
   <!--update the screen shot above-->
 
 ### Verbundene Datensatztypen, Datensätze und Felder

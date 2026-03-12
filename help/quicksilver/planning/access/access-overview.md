@@ -6,15 +6,15 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# Zugriffsübersicht für Adobe Workfront Planning
+# Überblick über den Zugriff auf Adobe Workfront-Planung
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
 >
 >Ihr Unternehmen muss ein zusätzliches Paket für Workfront Planning erwerben, um auf seine Funktionen zugreifen zu können.
 >
 >Weitere Informationen erhalten Sie von Ihrem Account Manager
 >
->Weitere Informationen zur Workfront-Planung finden Sie unter [Erste Schritte mit Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+>Weitere Informationen zu Workfront-Planung finden Sie unter [Erste Schritte mit Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
 
 Die Verwendung von Adobe Workfront Planning unterliegt Lizenz- und Freigabeberechtigungsbeschränkungen.
 
@@ -73,7 +73,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
    <p><b>WICHTIG</b></p>
    <p>Nur Benutzende, die zum Adobe Identity Management System (IMS) hinzugefügt wurden, können Berechtigungen erhalten und zu Planungsfeldern hinzugefügt werden.</p>
-   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p>
    </td>
   </tr>
   </tr>
@@ -157,7 +157,7 @@ So fügen Sie Workfront Planning-Bereiche zu Benutzern Ihrer Workfront-Instanz h
 
 Lizenzen können Benutzern zugewiesen werden, wenn die jeweilige Zugriffsebene beim Bearbeiten oder Erstellen konfiguriert wird.
 
-Weitere Informationen finden [&#x200B; unter „Bearbeiten der Profile von Benutzenden](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Zugriffsebene konfigurieren
 
