@@ -96,7 +96,7 @@ Weitere Informationen zum Erstellen von Validierungs-Workflow-Vorlagen in Workfr
 
 Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede einheitliche Validierungs-Workflow-Vorlage ändern und Validierungsverantwortliche und Phasen hinzufügen oder entfernen.
 
-Weitere Informationen finden Sie unter [Überprüfung und Genehmigung &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung &#x200B;](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Frame.io-Viewer
 
@@ -115,4 +115,4 @@ Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Komm
 
 Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio for Performance Marketing veröffentlichen.
 
-Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
