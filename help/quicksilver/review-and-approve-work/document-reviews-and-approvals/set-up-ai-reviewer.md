@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: KI-Reviewer erstellen
+title: Erstellen von KI-Prüfern
 description: Nachdem Sie mindestens eine Marke in Workfront eingerichtet haben, können Sie mehrere KI-Reviewer erstellen, die Sie dann Genehmigungsvorlagen und einzelnen Prüfungs- und Genehmigungsanfragen zuweisen können.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
+source-git-commit: c5f726ec70b2caa7366ba5af7dac446554d2fa6b
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 10%
+source-wordcount: '243'
+ht-degree: 21%
 
 ---
 
-# KI-Reviewer erstellen
+# Erstellen von KI-Prüfern
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Nachdem Sie mindestens eine Marke in Workfront eingerichtet haben, können Sie m
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,5 +75,5 @@ So fügen Sie einen KI-Reviewer hinzu:
 
    Weitere Informationen finden Sie unter 
 
-   * [Erstellen einer Validierungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-   * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+   * [Erstellen einer Validierungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+   * [Erstellen eines Workflows für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)

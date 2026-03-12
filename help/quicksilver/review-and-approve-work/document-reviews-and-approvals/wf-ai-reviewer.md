@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+source-git-commit: 7944822b0aa49498ef8a396768b90dc9ed85b607
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '653'
+ht-degree: 6%
 
 ---
 
@@ -65,7 +65,7 @@ Der Workfront AI Reviewer verwendet bei der Überprüfung Ihrer Inhalte die Mark
 Weitere Informationen finden Sie unter [Einrichten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
-## KI-Reviewer erstellen
+## Erstellen von KI-Prüfern
 
 Sobald mindestens eine Marke eingerichtet ist, können Workfront-Administratoren im Bereich „Setup“ mit der Erstellung von KI-Reviewern beginnen. Diese KI-Reviewer können dann Genehmigungsvorlagen und individuellen Prüfungs- und Genehmigungsanfragen zugewiesen werden. Zurzeit können KI-Prüfer nur anhand von Richtlinien für Bild- und Markenbezeichnungen überprüfen.
 
@@ -83,7 +83,7 @@ Benutzer können KI-Reviewer zu Genehmigungsvorlagen hinzufügen, um automatisch
 
 Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Projekts, einer Aufgabe oder eines Problems angewendet werden.
 
-Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Weitere Informationen finden Sie unter [Erstellen einer Workflow-Vorlage für Genehmigungen für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![Vorlagenliste mit KI-Reviewern](assets/ai-review-templates.png)
 
@@ -91,12 +91,12 @@ Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage für
 
 Wenn Benutzer einzelne Prüfungs- und Genehmigungsanfragen erstellen, können sie einen KI-Reviewer in mit anderen Teilnehmern hinzufügen oder sie können eine einzelne Anfrage mit nur dem KI-Reviewer erstellen, um die Markenkonformität zu überprüfen.
 
-Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![KI-Prüfer wurde der individuellen Genehmigungsanfrage hinzugefügt](assets/ad-ai-reviewer-to-request.png)
 
-## KI-Reviewer-Punktzahl und -Feedback anzeigen
+
+## Anzeigen von KI-Prüfer-Bewertung und -Feedback
 
 Sekunden nach der Übermittlung der Prüfungs- und Genehmigungsanfrage mit einem KI-Reviewer sind die Punktzahl und das Feedback vom KI-Reviewer im Bedienfeld Dokumentzusammenfassung verfügbar - auch wenn andere Teilnehmer noch immer Prüfungs- und Entscheidungsfindungsprozesse durchführen.
 

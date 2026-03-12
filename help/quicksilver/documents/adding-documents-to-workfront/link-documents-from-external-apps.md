@@ -6,10 +6,10 @@ description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Wor
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 0%
+source-wordcount: '2585'
+ht-degree: 2%
 
 ---
 
@@ -57,9 +57,14 @@ Bevor Sie Dokumente oder Ordner verknüpfen, muss Ihr Workfront-Administrator di
 
 Dokumente, die mit einem externen Cloud-Anbieter verknüpft sind, können auf die gleiche Weise geprüft und genehmigt werden wie Dokumente, die direkt in Workfront hochgeladen werden.
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,17 +76,17 @@ Dokumente, die mit einem externen Cloud-Anbieter verknüpft sind, können auf di
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td>
-   <td><p>Mitwirkender oder höher</p>
-    <p>Anfrage oder höher</p> </td>
+   <td><p>Mitwirkende oder höher</p>
+    <p>Anfragende oder höher</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -131,7 +136,7 @@ Sie können Dokumente von einer externen Anwendung wie Google und Microsoft OneD
 
 1. Geben Sie in das Suchfeld des Feldes **Verknüpfen externer Dateien und Ordner** den Namen des Elements ein, nach dem Sie suchen möchten, und drücken Sie dann die **Eingabetaste**, um alle Ergebnisse aus der externen Anwendung anzuzeigen, unabhängig davon, in welchem Ordner sie gespeichert sind.
 
-   Oder
+   ODER
 
    Navigieren Sie zu den Dokumenten, die Sie verknüpfen möchten, und wählen Sie sie aus.
 
@@ -175,7 +180,7 @@ Sie können eine neue Version eines Dokuments hinzufügen, das über eine extern
 
 1. Geben Sie in das Suchfeld des Feldes **Verknüpfen externer Dateien und Ordner** den Namen des Elements ein, nach dem Sie suchen möchten, und drücken Sie dann die **Eingabetaste**, um alle Ergebnisse aus der externen Anwendung anzuzeigen, unabhängig davon, in welchem Ordner sie gespeichert sind.
 
-   Oder
+   ODER
 
    Navigieren Sie zu den Dokumenten, die Sie verknüpfen möchten, und wählen Sie sie aus.
 
@@ -288,7 +293,7 @@ Beim Synchronisieren von Ordnerinhalten aus einer externen Dokumentanwendung ver
 
 1. Im **Verknüpfen externer Dateien und Ordner** werden die Ordner angezeigt, die Sie verknüpfen möchten.
 
-   Oder
+   ODER
 
    Geben Sie den Namen des Ordners ein, nach dem Sie suchen möchten, und drücken Sie dann die **Eingabetaste**.
 
@@ -312,9 +317,9 @@ Dadurch wird der Ordner in der externen Anwendung nicht umbenannt.
 
 Sie können einen neuen Ordner innerhalb eines vorhandenen verknüpften Ordners erstellen. Sie können auch einen anderen Ordner in einen vorhandenen verknüpften Ordner ziehen.
 
-1. Um einen neuen Ordner in einem vorhandenen verknüpften Ordner zu erstellen, gehen Sie zum vorhandenen Ordner und erstellen Sie dann den neuen Ordner wie in [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md)&quot; beschrieben.
+1. Um einen neuen Ordner in einem vorhandenen verknüpften Ordner zu erstellen, gehen Sie zum vorhandenen Ordner und erstellen Sie dann den neuen Ordner wie in [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md)&quot; beschrieben.
 
-   Oder
+   ODER
 
    Um einen vorhandenen Ordner in einen vorhandenen verknüpften Ordner zu ziehen, gehen Sie zum Bereich Dokumente , in dem Sie den Unterordner haben möchten, und ziehen Sie ihn dann in den verknüpften Ordner.
 
@@ -333,7 +338,7 @@ Wenn Sie ein Dokument über Workfront zu einem verknüpften Ordner hinzufügen, 
 
 1. Wählen Sie den verknüpften Ordner aus, in dem das Dokument gespeichert werden soll, klicken Sie auf **Neu hinzufügen > Dokument**, navigieren Sie dann zu dem Dokument und fügen Sie es dem Ordner hinzu.
 
-   Oder
+   ODER
 
    Ziehen Sie das **Dokument** Bereich „Dokumente“, in dem Sie es haben möchten, in einen verknüpften Ordner.
 

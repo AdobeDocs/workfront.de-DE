@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Übersicht über die Frame.io-Integration
-description: Übersicht über die Frame.io-Integration
+title: Überblick über die Frame.io-Integration
+description: Überblick über die Frame.io-Integration
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Frame.io-Integration
+# Überblick über die Frame.io-Integration
 
 Die Integration von Workfront und Frame.io ermöglicht es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können.
 
@@ -51,7 +51,7 @@ Die Integration von Workfront und Frame.io verwendet die einheitlichen Genehmigu
 * Zentralisieren von Feedback und Validierungen an einem Ort
 * Sicherstellen, dass alle Beteiligten Zugriff auf die neuesten Versionen von Assets haben
 * Verwendung von KI-Reviewern zur Automatisierung von Überprüfungen der Markenkonformität
-* und weitere
+* und mehr
 
 Weitere Informationen finden Sie unter [Einheitliche Dokumentengenehmigungen: Artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
@@ -134,9 +134,7 @@ Die folgende Tabelle zeigt, wie Workfront-Berechtigungen Frame.io-Berechtigungen
 
 ### Dokumentenverwaltung in Workfront
 
-Dokumente werden mit dieser Integration auf Projektebene verwaltet und können derzeit nicht in Aufgaben oder Probleme hochgeladen werden.
-
-Der Dokumentzugriff wird auch auf Projektebene verwaltet. Wenn ein(e) Benutzende(r) Zugriff auf ein Projekt hat, kann er/sie auf alle mit diesem Projekt verbundenen Dokumente zugreifen.
+In Workfront hochgeladene Dokumente werden im Adobe Enterprise-Speicher gespeichert und stehen sowohl in Workfront als auch in Frame.io zur Verfügung. Wenn Sie ein Dokument zu einer Aufgabe oder einem Problem in Workfront hochladen, wird im Adobe Enterprise-Speicher ein systemgenerierter Ordner erstellt, der die Berechtigungen von der Aufgabe oder dem Problem erbt. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Weitere Informationen zu Dokumenten in Workfront finden Sie unter [Der neue Dokumentbereich - Übersicht](/help/quicksilver/documents/managing-documents/documents-area.md) und [Objektberechtigungen und Zugriffsebene - Übersicht für das Unternehmensspeichermodell von Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Einschränkungen beim Dokumenterlebnis
 
@@ -151,13 +149,3 @@ Die folgenden Funktionen sind nicht in dieser Integration enthalten:
 * Dokument-Viewer in Workfront
 * Favoriten-Dokumente
 * Dokumente anfordern
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

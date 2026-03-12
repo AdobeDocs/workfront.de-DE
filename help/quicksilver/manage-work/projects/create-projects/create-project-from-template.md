@@ -6,10 +6,10 @@ description: Sie können Vorlagen als Framework verwenden, um Projekte in Adobe 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Sie haben die folgenden Optionen, um ein Projekt aus einer Vorlage zu erstellen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
    ![Favoritenvorlage auswählen](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   Oder
+   ODER
 
    Gehen Sie folgendermaßen vor:
 
@@ -165,9 +165,9 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
       * Die Anzahl aller Aufgaben in der Vorlage
       * Die Namen der benutzerdefinierten Vorlagenformulare
 
-   1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Vorlage im linken Bereich und klicken Sie auf das Symbol **Favoriten** **Symbol** ![Favoriten](assets/favorites-icon-small.png), um sie für die zukünftige Verwendung als Favorit zu markieren.
+   1. (Optional) Bewegen Sie den Mauszeiger im linken Bereich über den Namen einer Vorlage und klicken Sie auf das Symbol **Favoriten** **Symbol** ![Favoriten](assets/favorites-icon-small.png), um sie für die zukünftige Verwendung als Favorit zu markieren.
 
-      Oder
+      ODER
 
       Erweitern Sie die **Favoritenvorlagen** Liste und wählen Sie eine Vorlage aus der Dropdown-Liste aus.
 

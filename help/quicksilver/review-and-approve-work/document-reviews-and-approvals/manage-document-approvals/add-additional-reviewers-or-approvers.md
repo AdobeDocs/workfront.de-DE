@@ -1,29 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Asset oder Dokument
+title: Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Workflow für die Dokumentvalidierung
 description: Sie können einem Dokument, das bereits ausstehende Genehmigungen enthält, zusätzliche genehmigende Personen oder Prüfende hinzufügen.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: '837'
+ht-degree: 4%
 
 ---
 
-# Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Asset oder Dokument
+# Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Workflow für die Dokumentvalidierung
 
-Sie können einem Asset oder Dokument, das bereits ausstehende Genehmigungen aufweist, zusätzliche genehmigende Personen oder Prüfende hinzufügen.
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
+
+Sie können einem Workflow für Dokumentgenehmigungen, der bereits ausstehende Genehmigungen aufweist, zusätzliche genehmigende Personen oder Prüfende hinzufügen.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -34,7 +36,7 @@ Sie können einem Asset oder Dokument, das bereits ausstehende Genehmigungen auf
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> 
    <p>Wenn Sie die Frame.io-Integration verwenden, benötigen Sie eine Standardlizenz zum Erstellen von Genehmigungs-Workflows.</p>
    </td> 
@@ -50,35 +52,91 @@ Sie können einem Asset oder Dokument, das bereits ausstehende Genehmigungen auf
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Fügen Sie auf der Seite Dokumentdetails zusätzliche genehmigende Personen oder Prüfende hinzu
 
-1. Gehen Sie zur Dokumentseite, indem Sie auf den Namen des Dokuments klicken, und wählen Sie dann im Dropdown-Menü Version die Version des Dokuments aus, der Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
+## Fügen Sie zusätzliche genehmigende Personen oder Prüfende Personen von der Seite Dokumentdetails in Ihrer Produktionsumgebung hinzu
+
+1. Gehen Sie zur Dokumentseite, indem Sie auf den Namen des Dokuments klicken, und wählen Sie dann im Dropdown-Menü Version die Version des Dokuments aus, der Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig ist die neueste Version ausgewählt.
 
 1. Wählen **Genehmigungen** im linken Bereich aus. Alle vorhandenen genehmigenden Personen und Prüfer sind hier aufgeführt.
 
-1. Um eine genehmigende Person hinzuzufügen, stellen Sie sicher, dass das **Genehmigende Person** Kontrollkästchen aktiviert ist, und beginnen Sie dann mit der Eingabe in das Textfeld **Prüfende**. Sie können Workfront-Benutzer oder -Teams nach Namen hinzufügen. Wenn Sie stattdessen einen Validierungsverantwortlichen hinzufügen möchten, deaktivieren Sie vor der Eingabe einfach das **Genehmiger**-Kontrollkästchen.
+1. Um eine genehmigende Person hinzuzufügen, stellen Sie sicher, dass **Kontrollkästchen &quot;** genehmigende Person“ aktiviert ist, und beginnen Sie dann mit der Eingabe in das Textfeld **Prüfende**. Sie können Workfront-Benutzer oder -Teams nach Namen hinzufügen. Wenn Sie stattdessen einen Validierungsverantwortlichen hinzufügen möchten, deaktivieren Sie vor der Eingabe einfach das **Genehmiger**-Kontrollkästchen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
-## Hinzufügen zusätzlicher genehmigender Personen oder Prüfer aus der Dokumentzusammenfassung
+## Fügen Sie zusätzliche genehmigende Personen oder Prüfende aus der Dokumentzusammenfassung in Ihrer Produktionsumgebung hinzu
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
-1. Klicken Sie auf das gewünschte Dokument. Daraufhin wird der Bereich Dokumentzusammenfassung geöffnet.
+1. Klicken Sie auf das gewünschte Dokument. Daraufhin wird das Bedienfeld Dokumentzusammenfassung geöffnet.
 
-1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, dem Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
+1. Wählen Sie im Dropdown-Menü Version die Version des Dokuments aus, dem Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig ist die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich Dokumentzusammenfassung, in dem alle vorhandenen genehmigenden Personen und Prüfer aufgeführt sind. Um eine genehmigende Person hinzuzufügen, stellen Sie sicher, dass das **Genehmigende Person** Kontrollkästchen aktiviert ist, und beginnen Sie dann mit der Eingabe in das Textfeld **Prüfende**. Sie können Workfront-Benutzer oder -Teams nach Namen hinzufügen. Wenn Sie stattdessen einen Validierungsverantwortlichen hinzufügen möchten, deaktivieren Sie vor der Eingabe einfach das **Genehmiger**-Kontrollkästchen.
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bedienfeld Dokumentzusammenfassung, in dem alle vorhandenen genehmigenden Personen und Prüfer aufgeführt sind. Um eine genehmigende Person hinzuzufügen, stellen Sie sicher, dass **Kontrollkästchen &quot;** genehmigende Person“ aktiviert ist, und beginnen Sie dann mit der Eingabe in das Textfeld **Prüfende**. Sie können Workfront-Benutzer oder -Teams nach Namen hinzufügen. Wenn Sie stattdessen einen Validierungsverantwortlichen hinzufügen möchten, deaktivieren Sie vor der Eingabe einfach das **Genehmiger**-Kontrollkästchen.
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
-## Hinzufügen zusätzlicher Überprüfungen und genehmigender Personen aus einer früheren Version
+<div class="preview">
 
-Wenn Sie eine Genehmigung für eine neue Dokumentversion benötigen, können Sie einfach Folgendes hinzufügen
+## Fügen Sie zusätzliche genehmigende Personen oder Prüfende aus der Dokumentzusammenfassung in der Vorschau-Umgebung im Bereich für veraltete Dokumente hinzu
+
+Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Workfront-Speicher im Vergleich zu Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+So fügen Sie in der Dokumentzusammenfassung zusätzliche genehmigende Personen oder Prüfende hinzu:
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+
+1. Klicken Sie auf das gewünschte Dokument, und das Bedienfeld Dokumentzusammenfassung für dieses Dokument wird geöffnet.
+
+1. Wählen Sie im Dropdown-Menü Version die Version des Dokuments aus, dem Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig ist die neueste Version ausgewählt.
+
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow bearbeiten**.
+
+   ![Genehmigungs-Workflow bearbeiten](assets/edit-approval-in-legacy.png)
+
+1. Suchen Sie die Phase, der Sie Genehmigende Personen oder Prüfende hinzufügen möchten, und fügen Sie dann den Namen oder die E-Mail-Adresse des Benutzers in das Textfeld ein. Sie können bei Bedarf auch ein ganzes Team hinzufügen.
+
+1. Nachdem ihr Name hinzugefügt wurde, wählen Sie aus, ob sie eine genehmigende Person oder eine prüfende Person sind.
+
+   ![Dropdown „Genehmiger oder Prüfer“](assets/choose-approver-or-reviewer.png)
+
+1. Wiederholen Sie die Schritte 5 bis 6, um weitere genehmigende Personen oder Prüfende hinzuzufügen.
+Nach dem Speichern erhalten die hinzugefügten Teilnehmer eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
+
+</div>
+
+
+## Fügen Sie in der Dokumentzusammenfassung im Bereich Neue Dokumente zusätzliche genehmigende Personen oder Prüfende hinzu
+
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Massenspeicher für Unternehmen](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+
+1. Klicken Sie auf das Dokument und dann auf **Genehmigungen** rechts auf der Seite.
+
+   ![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/approvals-icon-new.png)
+
+
+1. Klicken Sie **Workflow bearbeiten**.
+
+1. Suchen Sie die Phase, der Sie Genehmigende Personen oder Prüfende hinzufügen möchten, und fügen Sie dann den Namen oder die E-Mail-Adresse des Benutzers in das Textfeld ein. Sie können bei Bedarf auch ein ganzes Team hinzufügen.
+
+1. Nachdem ihr Name hinzugefügt wurde, wählen Sie aus, ob sie eine genehmigende Person oder eine prüfende Person sind.
+
+   ![Dropdown „Genehmiger oder Prüfer“](assets/choose-approver-or-reviewer.png)
+
+1. Wiederholen Sie die Schritte 5 bis 6, um weitere genehmigende Personen oder Prüfende hinzuzufügen.
+Nach dem Speichern erhalten die hinzugefügten Teilnehmer eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
+
+
+
+
+
+
 
 <!--
 ## Add additional approvers or reviewers from Home

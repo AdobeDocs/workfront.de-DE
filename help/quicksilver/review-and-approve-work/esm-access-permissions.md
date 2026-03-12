@@ -2,19 +2,19 @@
 product-area: documents
 navigation-topic: approvals
 title: Objektberechtigungen und Übersicht auf Zugriffsebene für das Adobe Enterprise-Speichermodell
-description: Adobe Enterprise-Speicherberechtigungen und Zugriffsübersicht
+description: Überblick über Berechtigungen und Zugriffsrechte für Adobe-Unternehmensspeicher
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 89dcc972e2e29890763dba6b5f7a44489a2eee5a
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
+source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 1%
 
 ---
-
 
 # Objektberechtigungen und Übersicht auf Zugriffsebene für das Adobe Enterprise-Speichermodell
 
@@ -55,15 +55,60 @@ Sie können den Dokumentvererbungszugriff nicht einschränken.
 
 Keine Änderungen an Zugriffsebenen oder Verhalten von Dokumenten.
 
+## Objektberechtigungen
 
-## Projekte
+Objektberechtigungen bestimmen, was Sie in Workfront mit Projekten, Aufgaben, Problemen und Dokumenten anzeigen und tun können. Berechtigungen werden zugewiesen, wenn jemand ein Objekt für Sie freigibt.
 
-Benutzende mit Berechtigungen auf Projektebene können Dokumente für Projekte in anderen Adobe-Produkten wie Frame.io und Adobe Creative Cloud anzeigen und verwalten.
+>[!IMPORTANT]
+>
+>Im Adobe Enterprise-Speicher funktionieren Dokumentberechtigungen anders als im alten Workfront-Speicher. Dokumente übernehmen Berechtigungen aus dem Projekt, der Aufgabe oder dem Problem, mit dem bzw. dem sie verknüpft sind.
 
-Projektnamen sind auch außerhalb von Workfront für ESM-Projekte sichtbar.
 
-Finanzdaten für ESM-Projekte sind außerhalb von Workfront nicht sichtbar.
+### Funktionsweise von Dokumentberechtigungen
 
-## Aufgaben und Probleme
+Dokumentberechtigungen werden von dem Objekt gesteuert, mit dem das Dokument verknüpft ist. Sie können keine Berechtigungen für einzelne Dokumente festlegen.
 
-Dokumente werden auf Projektebene gespeichert, können jedoch bei Bedarf für einzelne Aufgaben und Probleme freigegeben werden. Benutzende mit Aufgaben- und Problemzugriff erben automatisch den Dokumentzugriff aus dem Projekt. Die Zugriffsebene kann nicht geändert werden. Sie haben verwalteten Zugriff oder keinen Zugriff.
+Wenn Sie ein Dokument in eine Aufgabe oder ein Problem hochladen, wird mithilfe des Aufgaben- oder Problemnamens ein systemgenerierter Ordner erstellt. Dieser Ordner ist mit der Aufgabe oder dem Problem verknüpft und übernimmt die Berechtigungen.
+
+Sie können im systemgenerierten Ordner Unterordner erstellen, um Dokumente weiter zu organisieren. Alle Unterordner erben Berechtigungen vom übergeordneten Ordner. Auf Projektebene können Sie Dokumente außerhalb eines Ordners hochladen, aber nur Benutzer mit Zugriff auf Projektebene können sie sehen.
+
+Auf Projektebene zeigen systemgenerierte Ordner ein verknüpftes Objekt an. Dies ist normalerweise der Name der Aufgabe oder des Problems und der Grund, warum das System weiß, für welche Aufgabe oder welches Problem der Ordner angezeigt werden soll.
+
+### Projektberechtigungen
+
+Wenn Sie über Berechtigungen auf Projektebene verfügen, können Sie Dokumente für dieses Projekt in Workfront und anderen Adobe-Produkten wie Frame.io und Adobe Creative Cloud anzeigen und verwalten. Der Projektname ist auch in diesen Tools sichtbar. Andere Projektdaten sind außerhalb von Workfront nicht sichtbar.
+
+### Aufgaben- und Problemberechtigungen
+
+Aufgaben und Probleme übernehmen Berechtigungen aus dem Projekt. Wenn Sie über Berechtigungen auf Aufgaben- oder Problemebene verfügen, können Sie Dokumente anzeigen und verwalten, die mit dieser Aufgabe oder diesem Problem in Workfront und anderen Adobe-Produkten wie Frame.io und Adobe Creative Cloud verknüpft sind.
+
+**Systemgenerierte Ordner**
+
+* Wenn Benutzer aus einer Aufgabe oder einem Problem entfernt werden, wird ihr Ordnerzugriff nicht automatisch entfernt. Sie haben möglicherweise weiterhin Zugriff über Berechtigungen auf Projektebene.
+* Unteraufgaben erben keine systemgenerierten Ordnerberechtigungen von übergeordneten Aufgaben. Sie müssen einer Unteraufgabe direkt hinzugefügt werden, um auf ihren systemgenerierten Ordner zuzugreifen.
+* Durch das Hinzufügen von Benutzern zu einer Aufgabe oder einem Problem wird der systemgenerierte Ordner dieses Objekts für sie freigegeben.
+
+**Verschieben und Umbenennen systemgenerierter Ordner:**
+
+* Systemgenerierte Ordner können umbenannt und verschoben werden.
+* Wenn ein systemgenerierter Ordner an einen anderen Speicherort verschoben wird, wird sein verknüpftes -Objekt zum neuen -Objekt aktualisiert. Berechtigungen werden dann vom neuen übergeordneten Objekt vererbt.
+
+Anfragen verhalten sich genauso wie Aufgaben und Probleme.
+
+### Genehmigungen
+
+Wenn Sie einem Workflow für die Dokumentgenehmigung hinzugefügt werden, sehen Sie Folgendes, unabhängig von den Projektberechtigungen:
+
+* Projektname
+* Dokumentname
+* Dokument-Miniaturansicht
+
+
+
+
+
+
+
+
+
+

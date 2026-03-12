@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Speicherbeschränkungen für Dokumente überprüfen
+title: Überprüfen der Speicherbeschränkungen für Dokumente
 description: Es gibt zwar keine Einschränkungen hinsichtlich der Typen und Größen einzelner Dateien, die Benutzerinnen und Benutzer in Ihre Workfront-Instanz hochladen können, aber es gibt eine Begrenzung für Ihren Workfront-Plan hinsichtlich der von Ihrer Workfront-Instanz insgesamt verwendeten Speichermenge. Als Adobe Workfront-Administrator überwachen Sie den Dokumentenspeicher Ihrer Instanz über den Bereich Setup .
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 14%
 
 ---
 
-# Speicherbeschränkungen für Dokumente überprüfen
+# Überprüfen der Speicherbeschränkungen für Dokumente
 
 Es gibt zwar keine Einschränkungen hinsichtlich der Typen und Größen einzelner Dateien, die Benutzerinnen und Benutzer in Ihre Workfront-Instanz hochladen können, aber es gibt eine Begrenzung für Ihren Workfront-Plan hinsichtlich der von Ihrer Workfront-Instanz insgesamt verwendeten Speichermenge. Als Adobe Workfront-Administrator überwachen Sie den Dokumentenspeicher Ihrer Instanz über den Bereich Setup .
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -37,7 +42,7 @@ Es gibt zwar keine Einschränkungen hinsichtlich der Typen und Größen einzelne
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

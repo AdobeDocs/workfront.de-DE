@@ -8,10 +8,10 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
+source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 1%
+source-wordcount: '1155'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn ein Workfront-Projekt mit Frame.io verbunden ist, können Sie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +101,7 @@ Fahren Sie mit dem nächsten Abschnitt fort.
 1. Klicken Sie im linken Bedienfeld auf **Vorlagenaufgaben**.
 1. Klicken Sie **Vorlagenaufgaben hinzufügen**, um Ihrer Vorlage schnell Aufgaben hinzuzufügen. Sie können zusätzliche Einstellungen später konfigurieren.
 
-   Oder
+   ODER
 
    Klicken Sie **Neue Vorlagenaufgabe**, um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
    ![Aufgaben zur Vorlage hinzufügen](assets/add-tasks-to-template.png)
@@ -143,7 +143,7 @@ Nachdem Sie eine Vorlage erstellt haben, können Sie sie zum Erstellen von Proje
 
 1. Ändern Sie in der Projekt-Kopfzeile das Projekt von **Planning** in **Current**.
 
-Nachdem das Projekt erstellt und Kreative fertige Assets hochgeladen haben, können Sie dem Asset in Workfront einen Prüfungs- und Genehmigungs-Workflow zuweisen. Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Nachdem das Projekt erstellt und Kreative fertige Assets hochgeladen haben, können Sie dem Asset in Workfront einen Prüfungs- und Genehmigungs-Workflow zuweisen. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Neues Projekt von Grund auf neu erstellen
 
@@ -172,7 +172,7 @@ Fahren Sie mit dem nächsten Abschnitt fort.
 1. Klicken Sie im linken Bedienfeld auf **Aufgaben**.
 1. Klicken Sie auf **Aufgaben hinzufügen**, um Ihrem Projekt schnell Aufgaben hinzuzufügen. Sie können zusätzliche Einstellungen später konfigurieren.
 
-   Oder
+   ODER
 
    Klicken Sie **Neue Aufgabe**, um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
    ![Neue Aufgabe](assets/add-project-tasks.png)
@@ -211,5 +211,3 @@ Workfront verfügt über leistungsstarke Projektmanagement-Funktionen. Es wird e
 Nachdem das Projekt erstellt und Kreative fertige Assets hochgeladen haben, können Sie dem Asset in Workfront einen Prüfungs- und Genehmigungs-Workflow zuweisen.
 
 Nachdem das Projekt erstellt und Kreative fertige Assets hochgeladen haben, können Sie dem Asset in Workfront einen Prüfungs- und Genehmigungs-Workflow zuweisen.
-
-Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->

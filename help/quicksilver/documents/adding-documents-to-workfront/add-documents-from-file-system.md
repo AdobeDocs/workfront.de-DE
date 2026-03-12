@@ -6,14 +6,58 @@ description: Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben ode
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '1237'
+ht-degree: 5%
 
 ---
 
 # Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
+
+Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen auf ältere Workfront-Speicher oder Unternehmensspeicher stützt. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welche Version des Dokumentbereichs Ihr Unternehmen verwendet.
+
+* [Hinzufügen von Dokumenten zu aus Ihrem Dateisystem im Bereich für veraltete Dokumente](#add-documents-from-your-file-system-in-the-legacy-documents-area)
+* [Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“](#add-documents-to-workfront-in-the-new-documents-area)
+
+
+
+## Zugriffsanforderungen
+
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td> <p> Beliebig</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
+   <td> 
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Legacy Workfront-Speicher: Zugriff auf Dokumente bearbeiten</p> 
+   <p>Unternehmensspeicher: Der Bearbeitungszugriff auf Dokumente ist standardmäßig aktiviert und kann nicht geändert werden</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+
++++
+
+## Hinzufügen von Dokumenten aus Ihrem Dateisystem im Bereich für veraltete Dokumente
+
+Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront Storage finden Sie unter [Unterschiede zwischen Adobe Enterprise Storage und Legacy Workfront Storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen in den folgenden Bereichen hinzufügen:
 
@@ -27,36 +71,8 @@ Es gibt keine Einschränkungen hinsichtlich der Dateitypen und -größen, die Si
 
 Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
-## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
-
-## Dokumente zu Workfront hinzufügen
+### Hinzufügen von Dokumenten zu Workfront im Bereich für veraltete Dokumente
 
 Sie können Workfront neue Dokumente aus dem Dateisystem auf Ihrer Workstation hinzufügen. Sie können auch Dokumente von Drittanbieterprogrammen wie Google Drive und SharePoint verknüpfen.
 
@@ -110,14 +126,72 @@ Hinzufügen eines Dokuments:
     </tbody> 
    </table>
 
-## Dokumentensicherheit
 
-Die Workfront-Site verhindert auf folgende Weise, dass Viren und andere schädliche Inhalte über Dokumente auf die Site gelangen:
+## Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“
 
-* [So erkennt Workfront beschädigte Dateien](#how-workfront-detects-corrupted-files)
-* [Einschränkungen bei Dateinamen](#file-name-restrictions)
+Sie können mit dem Enterprise-Speichermodell Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-### So erkennt Workfront beschädigte Dateien {#how-workfront-detects-corrupted-files}
+Die Funktion wird derzeit im Bereich „Neue Dokumente“ nicht unterstützt:
+
+* Hochladen von Dokumenten in den Bereich für globale Dokumente
+* Hinzufügen von Links zu Dokumenten von Cloud-Anbietern von Drittanbietern wie Google Drive, Dropbox und Microsoft OneDrive
+* Dokumente werden angefordert
+* Kopieren eines Links in einen Ordner
+* Dokumente auschecken
+* Einfügen von Bildern aus der Zwischenablage
+* Hinzufügen intelligenter Ordner
+
+
+### Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“
+
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+<!--
+>[!IMPORTANT]
+>
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
+-->
+
+Hinzufügen eines Dokuments:
+
+1. Navigieren Sie zum Projekt, zur Aufgabe oder zum Problem, dem bzw. dem Sie ein neues Dokument hinzufügen möchten.
+1. Klicken Sie auf **Dokumente** im linken Bereich.
+1. Klicken Sie **Neu** auf der rechten Seite der Seite oder ziehen Sie die Datei per Drag-and-Drop in den angezeigten Ablagebereich. Sie können mehrere Dokumente gleichzeitig hinzufügen.
+
+   ![Neues Dokument hinzufügen](assets/add-new-doc-new-doc.png)
+
+Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
+
+## Dokumentensicherheit für Unternehmensspeicher
+
+Workfront verhindert wie folgt, dass Viren und andere schädliche Inhalte über Dokumente auf die Website gelangen:
+
+**So erkennt Workfront beschädigte Dateien**
+
+Das Scannen von Dokumenten wird automatisch für Objekte aktiviert, die das Unternehmensspeichermodell verwenden.
+
+Alle Dateien mit weniger als 500 MB werden beim Hochladen gescannt. Dateien über 500 MB werden nicht gescannt. Wenn Workfront ein beschädigtes Dokument erkennt, wird es automatisch entfernt.
+
+**Dateinamenbeschränkungen**
+
+Da diese Integration mit Adobe Enterprise Storage erstellt wird, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
+
+* Objektnamen müssen eindeutig sein und können nicht dupliziert werden
+* Der Adobe Enterprise-Speicher erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur
+* Dokumente können nicht denselben Namen haben, wenn sie zum selben Projekt gehören
+* Dokumentnamen dürfen keines der folgenden Sonderzeichen enthalten: `\ / : * ? " | < >`
+* Dokumentnamen sind auf maximal 255 Zeichen beschränkt
+
+Unter Berücksichtigung dieser Einschränkungen benennt Workfront Objekte oder Dokumente automatisch nach Bedarf um, um Konflikte zu vermeiden.
+
+
+## Dokumentensicherheit für alten Workfront-Speicher
+
+Workfront Site verhindert auf folgende Weise, dass Viren und andere schädliche Inhalte über Dokumente auf die Site gelangen:
+
+**So erkennt Workfront beschädigte Dateien**
 
 Die Dokumentüberprüfung ist für Ihr Unternehmen nur auf Anfrage aktiviert.
 
@@ -127,6 +201,6 @@ Wenn Workfront ein beschädigtes Dokument entdeckt, wird eine Meldung angezeigt,
 
 Beschädigte Dateien werden innerhalb von 24 Stunden nach Erkennung entfernt, es sei denn, Sie entfernen sie manuell. Wenn Sie eine beschädigte Datei löschen, verfolgt Workfront diese Aktion als Aktualisierung. Wenn Sie Workfront erlauben, es zu entfernen, werden keine Aktualisierungen aufgezeichnet.
 
-### Einschränkungen bei Dateinamen {#file-name-restrictions}
+**Dateinamenbeschränkungen**
 
 Dateien, die in Workfront hochgeladen werden, dürfen bestimmte Zeichen in Dateinamen nicht enthalten. Wenn eine Datei eines der folgenden Zeichen im Dateinamen enthält, werden die Zeichen beim Hochladen der Datei aus dem Dateinamen entfernt: `! # % * \ | ' " / ? < > { } [ ]`.

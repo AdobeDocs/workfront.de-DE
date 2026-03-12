@@ -6,10 +6,10 @@ description: Übersicht über die in Workfront zur Überprüfung und Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -58,9 +58,11 @@ Weitere Informationen zur Verwendung der Proofing-Anzeige finden Sie unter [Einh
 * Verwenden Sie Canvas-Dashboards, die sich derzeit in der Beta-Phase befinden, um Berichtsdetails zu einheitlichen Genehmigungen anzuzeigen
 Weitere Informationen zum Reporting finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Mehrstufige Validierungen erstellen [!BADGE in Kürze verfügbar]{type=Informative}
+* Mehrstufige Genehmigungen erstellen
 
 * Greifen Sie auf Prüfungs- und Genehmigungsanfragen im Widget Meine Genehmigungen im Bereich Startseite zu
+
+* Verwenden Sie die Integration von Frame.io, um Dokumente zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [Erste Schritte mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 * Verwenden Sie den KI-Reviewer, um Prüfungen der Markenkonformität zu automatisieren. Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -88,7 +90,3 @@ Für das Proofing verfügbare Funktionen:
 * Verwenden von einfachen oder automatisierten Workflows
 
 * Greifen Sie im Widget Meine Genehmigungen im Bereich Startseite auf Genehmigungsanfragen zu
-
-<!--
-## Upcoming deprecations
--->

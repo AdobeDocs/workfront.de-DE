@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Dokumente auschecken
+title: Auschecken von Dokumenten
 description: Sie können ein Dokument auschecken, um zu verhindern, dass andere Benutzer es löschen oder eine neue Version hochladen. Ein Dokument kann jeweils nur von einem Benutzer ausgecheckt werden. Sie können alle in Adobe Workfront hochgeladenen Dokumente sowie Dokumente auschecken, die mit Drittanbietern von Dokumenten verknüpft sind (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint oder einem anderen benutzerdefinierten Anbieter).
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 8%
 
 ---
 
-# Dokumente auschecken
+# Auschecken von Dokumenten
 
 Sie können ein Dokument auschecken, um zu verhindern, dass andere Benutzer es löschen oder eine neue Version hochladen. Ein Dokument kann jeweils nur von einem Benutzer ausgecheckt werden. Sie können alle in Adobe Workfront hochgeladenen Dokumente sowie Dokumente auschecken, die mit Drittanbietern von Dokumenten verknüpft sind (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint oder einem anderen benutzerdefinierten Anbieter). 
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,21 +37,21 @@ Sie können ein Dokument auschecken, um zu verhindern, dass andere Benutzer es l
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Dokument verwalten</p> </td> 
+   <td> <p>Zugriffsrecht „Verwalten“ für das Dokument</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +84,7 @@ Wenn Sie über Verwaltungsberechtigungen für ein Dokument verfügen, können Si
 
 1. Klicken Sie auf das **Auschecken**-Symbol ![Auschecken-Symbol](assets/check-out-25x23.png).
 
-1. Rechts neben dem ![&#x200B; wird ein Sperrsymbol &#x200B;](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
+1. Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
 1. Nur der Benutzer, der das Dokument ausgecheckt hat, oder der Workfront-Administrator können das Dokument einchecken.
 
 ## Ausgecheckte Dokumente verwalten
@@ -103,6 +108,6 @@ Einchecken eines Dokuments:
 
 1. Wechseln Sie zum Bereich, in dem Ihr Dokument gespeichert ist, und wählen Sie das Dokument aus. 
 
-   Rechts neben dem ![&#x200B; wird ein Sperrsymbol &#x200B;](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
+   Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
 
-1. Klicken Sie auf **Symbol** Einchecken![&#x200B; (Einchecksymbol](assets/check-in-25x22.png).
+1. Klicken Sie auf **Symbol** Einchecken![ (Einchecksymbol](assets/check-in-25x22.png).

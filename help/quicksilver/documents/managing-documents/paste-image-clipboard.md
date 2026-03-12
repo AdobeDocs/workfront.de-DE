@@ -6,16 +6,21 @@ description: Sie können eine Bilddatei zu Adobe Workfront hinzufügen, indem Si
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
+source-wordcount: '362'
+ht-degree: 15%
 
 ---
 
 # Einfügen von Bildern aus der Zwischenablage
 
 Sie können eine Bilddatei zu Adobe Workfront hinzufügen, indem Sie sie kopieren und aus der Systemzwischenablage auf Ihrer Workstation einfügen. 
+
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Browser-Anforderungen für das Einfügen aus der Zwischenablage
 
@@ -28,7 +33,7 @@ Diese Funktion ist wie folgt browserspezifisch:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,12 +48,12 @@ Diese Funktion ist wie folgt browserspezifisch:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -57,7 +62,7 @@ Diese Funktion ist wie folgt browserspezifisch:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

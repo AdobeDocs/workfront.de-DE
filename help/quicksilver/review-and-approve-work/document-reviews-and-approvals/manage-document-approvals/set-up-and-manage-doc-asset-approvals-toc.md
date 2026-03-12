@@ -2,29 +2,29 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Einheitliche Genehmigungen einrichten und verwalten: Artikelindex'
+title: 'Einrichten und Verwalten von einheitlichen Genehmigungen: Artikelindex'
 description: Dieser Abschnitt enthält Artikel zum Verwalten von einheitlichen Genehmigungen in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 582c799fe43f0a7e7dbd4fec680d5873e0e193e7
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 50%
 
 ---
 
-# Einheitliche Genehmigungen einrichten und verwalten: Artikelindex
+# Einrichten und Verwalten von einheitlichen Genehmigungen: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [KI-Reviewer erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+* [Erstellen von KI-Prüfern](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
 * [Einrichten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-* [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-* [Hinzufügen zusätzlicher Prüfer oder genehmigender Personen zu einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-* [Entfernen von Genehmigern oder Validierungsverantwortlichen aus einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-* [Erstellen einer Validierungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-* [Einheitliche Genehmigungen und Proofing gemeinsam verwenden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+* [Erstellen eines Workflows für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+* [Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Workflow für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+* [Entfernen von genehmigenden Personen oder Prüfenden aus einem Dokumentgenehmigungs-Workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+* [Erstellen einer Validierungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+* [Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
 * [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

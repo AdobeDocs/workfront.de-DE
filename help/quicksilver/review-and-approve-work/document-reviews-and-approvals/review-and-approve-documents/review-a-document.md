@@ -6,10 +6,10 @@ description: Als Reviewer können Sie eine Vorschau eines Dokuments anzeigen, da
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -109,6 +109,6 @@ So überprüfen Sie ein Dokument:
 
 1. Um aufzuzeichnen, dass Sie Ihre Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
 
-<!--## Review a document from the Frame.io viewer
+## Überprüfen eines Dokuments im Frame.io-Viewer
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Um ein Dokument aus dem Frame.io-Viewer zu überprüfen, muss Ihre Workfront-Instanz in Frame.io integriert sein. Weitere Informationen finden Sie unter [Frame.io-Integration - Übersicht](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

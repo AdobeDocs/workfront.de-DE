@@ -1,27 +1,32 @@
 ---
 product-area: documents
 navigation-topic: organize-documents
-title: Erstellen und Verwalten von Smart Folders
+title: Erstellen und Verwalten von intelligenten Ordnern
 description: Intelligente Ordner werden zum Verwalten von Dokumenten außerhalb eines Projekts, einer Aufgabe oder eines Problems verwendet und befinden sich im Bereich Hauptdokumente des Hauptmenüs . Sie können einen Smart-Ordner einrichten, um Assets zu filtern und nur die für Sie wichtigen anzuzeigen, anstatt alle Ihre Assets zu durchsuchen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 0%
+source-wordcount: '552'
+ht-degree: 10%
 
 ---
 
-# Erstellen und Verwalten von Smart Folders
+# Erstellen und Verwalten von intelligenten Ordnern
 
 Intelligente Ordner werden zum Verwalten von Dokumenten außerhalb eines Projekts, einer Aufgabe oder eines Problems verwendet und befinden sich im Bereich Hauptdokumente des Hauptmenüs . Sie können einen Smart-Ordner einrichten, um Assets zu filtern und nur die für Sie wichtigen anzuzeigen, anstatt alle Ihre Assets zu durchsuchen.
 
 Beim ersten Zugriff auf den Bereich Dokumente stehen Ihnen standardmäßig zwei intelligente Ordner zur Verfügung: Alle Dokumente und Zuletzt verwendet. Sie können Smart-Standardordner bearbeiten, umbenennen oder kopieren, sie jedoch nicht löschen. Sie können zusätzliche intelligente Ordner erstellen, um andere Asset-Management-Anforderungen zu erfüllen.
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,17 +39,17 @@ Beim ersten Zugriff auf den Bereich Dokumente stehen Ihnen standardmäßig zwei 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +73,7 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 ## Bearbeiten von Smart-Ordnern 
 
 1. Wechseln Sie zum Bereich **Dokumente**, der den Smart-Ordner enthält, den Sie bearbeiten möchten.
-1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü &#x200B;](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
+1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü ](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
 1. Klicken Sie auf **Bearbeiten**.
 
 1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **Ordner speichern**.

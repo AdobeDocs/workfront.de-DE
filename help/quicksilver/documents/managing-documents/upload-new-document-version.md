@@ -6,10 +6,10 @@ description: Sie können eine neue Version eines Dokuments hinzufügen, das Sie 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Informationen zum Hinzufügen einer neuen Version eines Dokuments, das über ein
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,12 +40,12 @@ Informationen zum Hinzufügen einer neuen Version eines Dokuments, das über ein
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p>  </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -54,10 +54,14 @@ Informationen zum Hinzufügen einer neuen Version eines Dokuments, das über ein
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Verwenden von Drag-and-Drop, um eine neue Version hinzuzufügen
+## Hochladen einer neuen Dokumentversion im Bereich „Alte Dokumente“
+
+Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Verwenden von Drag-and-Drop, um eine neue Version hinzuzufügen
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Informationen zum Verwalten von Dokumentversionen finden Sie unter [Verwalten von Dokumentversionen](../../documents/managing-documents/manage-document-versions.md).
 
-## Verwenden Sie das Menü Mehr , um eine neue Version hinzuzufügen
+### Verwenden Sie das Menü Mehr , um eine neue Version hinzuzufügen
 
 1. Wählen Sie das Dokument aus, dem Sie eine neue Version hinzufügen möchten.
 1. Klicken Sie **Neu hinzufügen** > **Version**.
@@ -82,3 +86,42 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    ![Neue Version hinzufügen](assets/add-new-version-350x185.png)
 
 1. Wählen Sie den Typ des Dokuments aus, das Sie hochladen möchten, und befolgen Sie dann die Eingabeaufforderungen.
+
+## Hochladen einer neuen Dokumentversion in den Bereich „Neue Dokumente“
+
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Verwenden von Drag-and-Drop, um eine neue Version hinzuzufügen
+
+>[!NOTE]
+>
+>Drag-and-Drop funktioniert nicht mit Internet Explorer.
+
+1. Navigieren Sie zum Bereich Dokumente , in den das Dokument hochgeladen wird.
+1. Ziehen Sie die neue Version des Dokuments auf die in Workfront vorhandene Version.
+
+   ![Dokumentversion per Drag-and-Drop verschieben](assets/drag-drop-new-doc.png)
+
+1. Legen Sie die neue Version auf der Registerkarte „Dokumente **über der vorhandenen Datei**.
+
+   Informationen zum Verwalten von Dokumentversionen finden Sie unter [Verwalten von Dokumentversionen](../../documents/managing-documents/manage-document-versions.md).
+
+### Verwenden Sie das Menü Mehr , um eine neue Version hinzuzufügen
+
+1. Wählen Sie das Dokument aus, dem Sie eine neue Version hinzufügen möchten.
+1. Öffnen Sie das Symbol Versionen anzeigen ![Symbol Versionen anzeigen](assets/show-versions.png) auf der rechten Seite.
+1. Klicken Sie **Neue Version hinzufügen**.
+
+   ![Neue Version hinzufügen](assets/new-version-new-doc.png)
+
+1. Suchen Sie Ihr Dokument und klicken Sie dann auf **Öffnen**.
+
+
+
+
+
+
+
+
+
+

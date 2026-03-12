@@ -6,10 +6,10 @@ description: Sie können Aktualisierungen zu einem Dokument hinzufügen oder dar
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können Aktualisierungen zu einem Dokument hinzufügen oder darauf antworten
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -34,8 +34,8 @@ Sie können Aktualisierungen zu einem Dokument hinzufügen oder darauf antworten
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
-   <td> <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -50,11 +50,15 @@ Sie können Aktualisierungen zu einem Dokument hinzufügen oder darauf antworten
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Hinzufügen oder Antworten auf eine Aktualisierung für ein Dokument
+## Hinzufügen einer Aktualisierung zu einem Dokument im Bereich für veraltete Dokumente
+
+Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Hinzufügen oder Antworten auf eine Aktualisierung für ein Dokument
 
 1. Gehen Sie zu dem Objekt, das das Dokument enthält, und wählen Sie **Dokumente** im linken Bereich aus.
 1. Suchen Sie das benötigte Dokument und führen Sie einen der folgenden Schritte aus:
@@ -66,7 +70,7 @@ Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Si
    Die Aktualisierungen und Antworten werden dem Dokument und auch den höherrangigen Objekten hinzugefügt. Weitere Informationen finden Sie unter [Aktualisierungsabschnitt - Übersicht](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
-## Hinzufügen einer Antwort zu einem Proofing-Kommentar für ein Dokument
+### Hinzufügen einer Antwort zu einem Proofing-Kommentar für ein Dokument
 
 Wenn Sie im Bereich Aktualisierungen auf einen Kommentar antworten, den jemand beim Korrekturabzug eines Dokuments eingegeben hat, wird die Korrekturabzugsansicht gestartet, damit Sie dort Ihre Antwort in dem benötigten Kontext eingeben können. Ihre Antwort wird sowohl im Proofing Viewer als auch im Bereich Aktualisierungen für das Dokument angezeigt.
 
@@ -76,3 +80,12 @@ Wenn Sie im Bereich Aktualisierungen auf einen Kommentar antworten, den jemand b
 1. Klicken Sie **Im Korrekturabzug antworten**, geben Sie den Kommentar in der zu startenden Korrekturabzugsansicht ein und klicken Sie dann auf **Antworten**.
 
    Informationen zum Eingeben von Kommentaren und Antworten in der Korrekturabzugsansicht finden Sie unter [Kommentar zu einem Korrekturabzug](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+
+## Hinzufügen einer Aktualisierung zu einem Dokument im Bereich Neue Dokumente
+
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Gehen Sie zu dem Objekt, das das Dokument enthält, und wählen Sie **Dokumente** im linken Bereich aus.
+1. Suchen Sie das benötigte Dokument und klicken Sie dann auf das Kommentarsymbol ![Kommentarsymbol](assets/new-doc-comment-icon.png), um das Bedienfeld „Kommentare“ zu öffnen.
+1. Geben Sie den Kommentar in das Textfeld ein und klicken Sie dann auf **Senden**.
+   ![Bedienfeld „Neue Dokumentkommentare“](assets/comments-new-doc.png)

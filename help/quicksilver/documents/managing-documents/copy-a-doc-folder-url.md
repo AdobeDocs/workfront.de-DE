@@ -6,10 +6,10 @@ description: Sie können einen Link für einen beliebigen Dokumentenordner kopie
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 28%
 
 ---
 
@@ -17,9 +17,14 @@ ht-degree: 1%
 
 Sie können einen direkten Link für einen beliebigen Dokumentordner kopieren, der in einem der folgenden [!DNL Workfront]-Objekte enthalten ist: [!UICONTROL Programm], [!UICONTROL Portfolio], [!UICONTROL Projekt], [!UICONTROL Aufgabe] oder [!UICONTROL Problem]. Sie können keinen Link für Ordner, die im Bereich [!UICONTROL Dokumente] im Hauptmenü enthalten sind, kopieren, da diese Ordner direkt mit Ihrem Benutzerprofil verknüpft sind und nicht für andere freigegeben werden können.
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +38,7 @@ Sie können einen direkten Link für einen beliebigen Dokumentordner kopieren, d
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -43,7 +48,7 @@ Sie können einen direkten Link für einen beliebigen Dokumentordner kopieren, d
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

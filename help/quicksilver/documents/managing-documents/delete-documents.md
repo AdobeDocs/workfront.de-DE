@@ -6,10 +6,10 @@ description: Sie können hochgeladene Dokumente löschen. Wenn Sie Verwaltungszu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '334'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können hochgeladene Dokumente löschen. Wenn Sie Verwaltungszugriff auf bes
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Sie können hochgeladene Dokumente löschen. Wenn Sie Verwaltungszugriff auf bes
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -46,17 +46,40 @@ Sie können hochgeladene Dokumente löschen. Wenn Sie Verwaltungszugriff auf bes
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
+## Löschen eines Dokuments im Bereich für veraltete Dokumente
+
+Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 Löschen eines Dokuments:
 
-1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
 1. Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png) über dem Bereich Dokumente .
 
 1. Klicken Sie im angezeigten Feld zur Bestätigung auf **Ja, Löschen**.
 
-Ein System- oder Gruppenadministrator kann ein Dokument innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie unter [Wiederherstellen gelöschter Elemente](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.
+   Ein System- oder Gruppenadministrator kann ein Dokument innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie unter [Wiederherstellen gelöschter Elemente](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.
+
+   ![Dokumente löschen](assets/delete-documents-legacy.png)
+
+
+## Löschen eines Dokuments im Bereich Neue Dokumente
+
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Löschen eines Dokuments:
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+
+1. Suchen Sie das gewünschte Dokument und klicken Sie auf **Löschen**.
+
+1. Klicken Sie im angezeigten Feld zur Bestätigung auf **Löschen**.
+
+   Ein System- oder Gruppenadministrator kann ein Dokument innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie unter [Wiederherstellen gelöschter Elemente](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.
+
+   ![Dokumente löschen](assets/delete-documents-new.png)

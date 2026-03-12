@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: add-documents-to-workfront
-title: Entfernen von Links zwischen Adobe Workfront und externen Dokumentenspeicheranbietern
+title: Entfernen von Links zwischen Adobe Workfront und externen Anbietern von Dokumentenspeichern
 description: Beim erstmaligen Hochladen eines Dokuments über einen beliebigen Service fordert Adobe Workfront die Berechtigung des Benutzers für den Zugriff auf den Dokumenten-Service an. Wenn der/die Benutzende seine/ihre Anmeldedaten für den Document Service bereitstellt, verknüpft sich der Document Service mit Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 14%
 
 ---
 
-# Entfernen von Links zwischen Adobe Workfront und externen Dokumentenspeicheranbietern
+# Entfernen von Links zwischen Adobe Workfront und externen Anbietern von Dokumentenspeichern
 
 Beim erstmaligen Hochladen eines Dokuments über einen beliebigen Service fordert Adobe Workfront die Berechtigung des Benutzers für den Zugriff auf den Dokumenten-Service an. Wenn der/die Benutzende seine/ihre Anmeldedaten für den Document Service bereitstellt, verknüpft sich der Document Service mit Workfront.
 
@@ -21,9 +21,14 @@ Informationen zum Verknüpfen von externen Dokumentendiensten mit Workfront find
 
 Da der Document-Service derjenige ist, der die Berechtigung zum Verknüpfen mit Workfront zulässt, ist es Workfront nicht möglich, die vom Document-Service gewährte Berechtigung zu entfernen. Sie müssen die Berechtigung aus der Document Service-Anwendung entfernen, oder Sie müssen unser Support-Team anrufen, um diesen Link von unseren Servern zu entfernen.
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +41,17 @@ Da der Document-Service derjenige ist, der die Berechtigung zum Verknüpfen mit 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p>  </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
