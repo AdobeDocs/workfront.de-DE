@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: c0c2615c419001c3fe1a73b1b7c069276d270783
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 39%
+source-wordcount: '1505'
+ht-degree: 38%
 
 ---
 
@@ -134,26 +134,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>Donnerstag, 15. April 2026</p></td>
         <td><p>Freitag, 16. April 2026</p></td>
     </tr>
-    <!--
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
-            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Mehrstufige Genehmigungs-Workflows für einheitliche Genehmigungen verfügbar</a><p></p>
+            <p>Mehrstufige Genehmigungs-Workflows sind jetzt in einheitlichen Genehmigungen verfügbar, sodass Unternehmen strukturierte, wiederholbare Genehmigungsprozesse durchsetzen können, die widerspiegeln, wie Arbeit in der realen Welt überprüft wird. </p>
         </td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>Freitag, 12. März 2026</p></td>
+        <td><p>Donnerstag, 15. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
-            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Einrichten und Verwenden von Workflow-Vorlagen für mehrstufige Genehmigungen</a><p></p>
+            <p>Sie können jetzt mehrstufige Validierungs-Workflow-Vorlagen konfigurieren und wiederverwenden, was die Anwendung konsistenter Governance auf wiederholbare Validierungs-Workflows erleichtert. </p>
         </td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 15, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>Freitag, 12. März 2026</p></td>
+        <td><p>Donnerstag, 15. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
     </tr>
-    -->
              </tbody>
         </table>
 

@@ -1,21 +1,22 @@
 ---
-title: Verbesserungen bei Dokumenten für das zweite Quartal 2026
-description: Verbesserungen bei Dokumenten für das zweite Quartal 2026
+title: Verbesserungen an Dokumenten im zweiten Quartal 2026
+description: Verbesserungen an Dokumenten im zweiten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b77fad0c196738f4cb6b3272c8309de815a78bc9
+exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 8%
+source-wordcount: '581'
+ht-degree: 7%
 
 ---
 
-# Verbesserungen bei Dokumenten für das zweite Quartal 2026
+# Verbesserungen an Dokumenten im zweiten Quartal 2026
 
 <!--hide this article until multi stage goes out-->
 
-Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden die Dokumentverbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Preview-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
@@ -29,69 +30,62 @@ Diese neue Funktion steht neuen Kunden und Bestandskunden nach der Verlängerung
 
 #### Neues Dokumenterlebnis
 
-Genießen Sie ein völlig neu gestaltetes Dokumentenerlebnis mit einem modernen Look-and-Feel. Die aktualisierte Benutzeroberfläche vereinfacht die Navigation, verbessert die Klarheit und erleichtert es Teams, Überprüfungen und Genehmigungen in einer einheitlichen Umgebung zu verwalten. Weitere Informationen finden Sie unter [Übersicht über den Dokumentbereich](/help/quicksilver/documents/managing-documents/documents-area.md).
+Genießen Sie ein völlig neu gestaltetes Dokumentenerlebnis mit einem modernen Look-and-Feel. Die aktualisierte Oberfläche vereinfacht die Navigation, erhöht die Klarheit und erleichtert Teams das Management von Überprüfungen und Genehmigungen in einer einheitlichen Umgebung. Weitere Informationen finden Sie unter [Übersicht über den Dokumentbereich](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 #### Mehrstufige Genehmigungen
 
-Erstellen Sie strukturiertere und komplexere Genehmigungs-Workflows mit mehrstufigen Genehmigungen. Verlegen Sie die Arbeit durch sequenzielle Prüfphasen, weisen Sie Stakeholder bei jedem Schritt zu und stellen Sie sicher, dass die richtigen Personen zum richtigen Zeitpunkt ihre Zustimmung geben. So erhalten Sie eine bessere Governance und größere Sichtbarkeit für Ihren Prozess. Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Erstellt mithilfe von Genehmigungen in mehreren Phasen strukturiertere und anspruchsvollere Genehmigungsabläufe. Leitet Projekte durch aufeinander folgende Überprüfungsphasen weiter, weist Stakeholder bei jedem Schritt zu und stellt sicher, dass die richtigen Personen zum richtigen Zeitpunkt den Vertrag abschließen. Dadurch verbessert ihr die Governance und erhöht die Transparenz eures Prozesses. Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder -genehmigungsanforderung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+#### Überprüfen und Genehmigen von Inhalten in Frame.io
+
+Überprüfen und genehmigen Sie Inhalte direkt im Frame.io-Viewer und vermeiden Sie die Notwendigkeit, zwischen Plattformen zu wechseln. Diese Integration ermöglicht schnellere Feedback-Zyklen und sorgt dafür, dass alle Prüfungsaktivitäten an einem Ort zusammengefasst werden. Weitere Informationen finden Sie unter [Erste Schritte mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Verbindung mit Adobe Experience Manager
 
 Nahtloses Senden genehmigter Assets direkt an Adobe Experience Manager. Diese Integration beschleunigt die Aktivierung von Inhalten, indem Prüf- und Genehmigungs-Workflows mit dem nachgelagerten Content-Management verbunden werden. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Integration mit GenStudio for Performance Marketing
-
-Erstellen von Genehmigungs-Workflows und Überprüfen von Assets mit dem Frame.io-Viewer in GenStudio for Performance Marketing. Diese Integration ermöglicht eine hochwertige kreative Überprüfung und unterstützt gleichzeitig schnelle, leistungsorientierte Kampagnen. Weitere Informationen finden Sie unter [Erste Schritte mit der GenStudio for Performance Marketing- und Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md).
-
-Einheitliche Prüfung und Genehmigung auf der Grundlage von Workfront und Frame.io unterstützt Teams beim schnelleren Übergang von der Überprüfung zur Aktivierung. Dadurch werden Reibungsverluste reduziert, die Zusammenarbeit verbessert und die Arbeit in allen Adobe-Lösungen bleibt miteinander verbunden.
-
 #### Zugriff auf Adobe Enterprise Storage
 
-Adobe Enterprise Storage ist eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe Enterprise-Produkten dient. Die Integration von Workfront und Frame.io basiert auf Adobe Enterprise Storage und ermöglicht eine nahtlose Zusammenarbeit und Asset-Management zwischen diesen Plattformen.
+Adobe Enterprise Storage ist eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe Enterprise-Produkten dient. Die Integration von Workfront und Frame.io basiert auf dem Adobe-Enterprise-Speicher und ermöglicht eine nahtlose Zusammenarbeit und Asset-Verwaltung zwischen diesen Plattformen.
 
-Der Zugriff auf Adobe Enterprise-Speicher ebnet auch den Weg für zukünftige Asset-Management-Integrationen mit anderen Adobe-Produkten, wie Adobe Creative Cloud.
+Der Zugriff auf Adobe Enterprise-Speicher ebnet auch den Weg für zukünftige Asset-Management-Integrationen mit anderen Adobe-Produkten wie Adobe Creative Cloud.
 
-Weitere Informationen finden Sie unter [Übersicht über Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über den Unternehmensspeicher für Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Workfront und Frame.io erweitern den grundlegenden Überprüfungs- und Genehmigungsprozess von GenStudio for Performance Marketing um strukturiertere Überprüfungs- und Genehmigungsfunktionen. Die in dieser Integration überprüften Testsendungen sind auf die Formate beschränkt, die von GenStudio for Performance Marketing unterstützt werden.
 
-<!--
-
-## Multi‑stage approval workflows available for unified approvals
+## Mehrstufige Genehmigungs-Workflows für einheitliche Genehmigungen verfügbar
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
 
-Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. With multi‑stage approvals, you can:
+Mehrstufige Genehmigungs-Workflows sind jetzt in einheitlichen Genehmigungen verfügbar, sodass Unternehmen strukturierte, wiederholbare Genehmigungsprozesse durchsetzen können, die widerspiegeln, wie Arbeit in der realen Welt überprüft wird. Mit mehrstufigen Genehmigungen können Sie:
 
-* Route work through defined sequential stages 
-* Assign the people or teams to each stage and choose their decision role
-* Set stage‑specific deadlines 
-* Ensure approvals progress only when required decisions are complete
-* Maintain visibility into approval progress
+* Arbeitsplan durch definierte aufeinander folgende Phasen
+* Weisen Sie jeder Phase die Personen oder Teams zu und wählen Sie ihre Entscheidungsrolle.
+* Bühnenspezifische Termine festlegen
+* Sicherstellung, dass Genehmigungen nur dann fortgeführt werden, wenn die erforderlichen Entscheidungen getroffen wurden
+* Einblick in den Genehmigungsfortschritt erhalten
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-## Set up and use multi-stage approval workflow templates
+## Einrichten und Verwenden von Workflow-Vorlagen für mehrstufige Validierungen
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
 
-You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. 
+Sie können jetzt mehrstufige Validierungs-Workflow-Vorlagen konfigurieren und wiederverwenden, was die Anwendung konsistenter Governance auf wiederholbare Validierungs-Workflows erleichtert.
 
-With approval workflow templates, you can: 
+Mit Workflow-Vorlagen für die Genehmigung können Sie:
 
-* Create sequential approval stages with unique participants and deadlines
-* Reduce manual setup time during approval initiation
-* Ensure required stakeholders are engaged at the right stage
+* Erstellen sequenzieller Genehmigungsphasen mit eindeutigen Teilnehmern und Fristen
+* Reduzieren der manuellen Setup-Zeit während der Genehmigungsinitiierung
+* Sicherstellen, dass die erforderlichen Interessengruppen in der richtigen Phase einbezogen werden
 
-For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
--->
-
+Weitere Informationen finden Sie unter [Vorlage für einen Genehmigungsarbeitsablauf für Dokumente erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
