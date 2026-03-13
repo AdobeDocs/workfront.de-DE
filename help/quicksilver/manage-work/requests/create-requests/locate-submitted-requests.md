@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 6%
 
 ---
@@ -45,7 +45,9 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Beliebiges Adobe Workfront- oder Adobe-Workflow-Paket</p> 
+   <p>Beliebiges Adobe Workfront-Planungspaket</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -61,10 +63,12 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
    <td role="rowheader">Objektberechtigungen</td> 
    <td><p>Anzeigen von Berechtigungen oder höher für die Anfragen</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -81,7 +85,7 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 ### Anzeigen gesendeter Anfragen in der neuen anfordernden Version
 
-Gesendete Anfragen können im Bereich Anfragen angezeigt werden. Dieser enthält Links zu Objekten, die von Planning-Anfragen erstellt wurden.
+Sie können gesendete Anfragen im Bereich Anfragen anzeigen, der Links zu Objekten enthält, die von Adobe Workfront Planning-Anfragen erstellt wurden.
 
 >[!NOTE]
 >
@@ -120,7 +124,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **&#x200B;**&#x200B;Wert an.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **** Wert an.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 ### Anzeigen gesendeter Anfragen in der Legacy-Anfrage
