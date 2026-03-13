@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mi
 
 * **Kosten:** Weitere Informationen finden Sie unter [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Fordern Sie eine [!DNL Postgres]-Daten-Dump-Datei von unserem Datenbank-Team an
 
-Sie müssen eine Anfrage an unser Kundensupportteam senden, das dann eine Anfrage an unser Datenbankteam sendet, um eine Datenbank-Dump-Datei (.dmp-[!DNL Postgres]-Datei) mit Ihren Daten zu exportieren. Eine zusätzliche Anfrage wird an unser NOC-Team gesendet, um alle Ihre gespeicherten Dokumente abzurufen.
-
-* **Vorteile**: Sie erhalten Ihre gesamte Datenlast, einschließlich benutzerdefinierter Felder sowie Dokumente, die im System gespeichert sind.
-
-* **Nachteile**: Es gibt keine Möglichkeit, diese Datei zu lesen, es sei denn, Sie laden sie in eine [!DNL Postgres]-Datenbank hoch und stellen die Beziehungen zwischen den Tabellen wieder her. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen vom NOC-Team in einem separaten Prozess separat extrahiert werden. Dadurch gibt es keine Organisation für die Dokumente, und sie werden alle durch ihre GUID referenziert.
-
-* **Kosten**: Mit diesem Download sind Kosten verbunden, je nachdem, wie lange das Team braucht, um die Datei zu erstellen. Wenden Sie sich an Ihren AEM/CAE, um weitere Informationen zu erhalten oder diesen Prozess zu starten.
 
 ## Exportieren über [!UICONTROL Kickstarts]
 
