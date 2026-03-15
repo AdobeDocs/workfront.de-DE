@@ -1,14 +1,14 @@
 ---
 title: Bearbeiten der Einstellungen eines Teams im Bereich „Setup“
 description: Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich „Setup“ bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layout-Vorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 6%
+source-wordcount: '595'
+ht-degree: 13%
 
 ---
 
@@ -27,22 +27,21 @@ Informationen zu Teams finden Sie unter [Teams - Übersicht](../../../people-tea
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>ODER</p>
-       <p>Aktuell: Plan</p></td>
+   <td><p>Standard</p>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -52,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

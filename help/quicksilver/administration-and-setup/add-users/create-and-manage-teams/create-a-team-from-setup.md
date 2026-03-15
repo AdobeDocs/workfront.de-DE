@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: Als Adobe Workfront-Administrator können Sie im Bereich „Setup“ ein Team erstellen.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 8%
+source-wordcount: '539'
+ht-degree: 15%
 
 ---
 
@@ -28,22 +28,21 @@ Als Adobe Workfront-Administrator können Sie im Bereich „Setup“ ein Team er
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-       <p>ODER</p>
-       <p>Aktuell: Plan</p></td>
+   <td><p>Standard</p>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -53,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
