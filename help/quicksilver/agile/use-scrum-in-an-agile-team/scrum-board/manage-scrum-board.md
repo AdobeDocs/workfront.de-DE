@@ -62,7 +62,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL, andere Iteration]</strong></td>
+        <td><strong>[!UICONTROL , andere Iteration]</strong></td>
         <td>Wählen Sie diese Option aus, um das Element in eine andere Iteration zu verschieben, und wählen Sie dann aus, in welche Iteration die Story oder das Problem verschoben werden soll. Wenn keine zukünftigen Iterationen definiert sind, können Sie das Element nicht verschieben.</td>
     </tr>
     <tr>

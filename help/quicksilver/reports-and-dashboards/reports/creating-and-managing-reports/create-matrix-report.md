@@ -126,9 +126,8 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      >   * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Vorgänge: übergeordnete Elemente, untergeordnete Elemente, übergeordnete Elemente von übergeordneten Elementen und eigenständige Vorgänge. Wenn Sie den Matrixbericht erstellt haben, um geplante Stunden oder aktuelle Stunden in der Spalte **Wert** anzuzeigen, beachten Sie, dass Stunden- oder Kosteninformationen für übergeordnete Objekte (z. B. übergeordnete Aufgaben) nicht im Matrixbericht angezeigt werden. Um Stunden für übergeordnete Objekte anzuzeigen, müssen Sie die Registerkarte **Details** anzeigen.
      >   
      >   
-     >
+     >**Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
 
-   **Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
    Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textformate definieren, die festlegen, wie Felder angezeigt werden, die mit dieser Regel übereinstimmen. Klicken Sie auf **Regel hinzufügen**, nachdem Sie die Definition der Regel abgeschlossen haben, und **Fertig**, um die Regel zu speichern.
 
 1. Klicken Sie auf die Registerkarte **Filter**, um festzulegen, welche Informationen im Bericht angezeigt werden.

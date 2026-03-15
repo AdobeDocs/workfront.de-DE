@@ -77,7 +77,7 @@ Weitere Informationen zu Board-Vorlagentypen finden Sie unter [Board erstellen o
 
    1. (Optional) Wählen Sie im Abschnitt **Ist archiviert** aus, ob archivierte oder nicht archivierte Boards angezeigt werden sollen. Sie können mehrere Optionen auswählen.
 
-      ![Archivierter Abschnitt ](assets/is-archived-section.png)
+      ![Archivierter Abschnitt &#x200B;](assets/is-archived-section.png)
 
 1. Klicken Sie außerhalb des Bereichs &quot;**Filter**&quot;, um ihn zu schließen. Ihre Filterauswahl bleibt auf die Liste &quot;Boards&quot; angewendet, bis sie wieder in die Standardansicht geändert wird.
 

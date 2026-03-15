@@ -27,7 +27,7 @@ Diese Aufgabenansicht ähnelt der Ansicht „Alle Daten“, die mit Ihrem Adobe 
 
 Diese Ansicht zeigt ein Beispiel für berechnete Spalten, bei denen Sie die Werte aus zwei verschiedenen Spalten durch eine Berechnung verbinden können, um einen dritten Wert zu erhalten. In diesem Fall ziehen Sie das Datum 1 vom Datum 2 ab.
 
-Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie [ Abschnitt „Übersicht über häufig verwendete Anwendungen für ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)&quot; in  [Übersicht über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie [&#x200B; Abschnitt „Übersicht über häufig verwendete Anwendungen für &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)&quot; in  [Übersicht über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Aufgabe mit allen Datumsangaben anzeigen](assets/view-task-with-all-dates-variance.png)
 

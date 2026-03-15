@@ -73,7 +73,7 @@ Sie können nach Benutzern, Jobrollen oder Teams filtern, die Aufgaben zugewiese
 * Arbeitsauftrag – Aufgabengebiete
 * Team
 
-![Zuweisungsbenutzer und -rollen im Aufgabenfilter ](assets/assignment-users-roles-task-filter-350x334.png)
+![Zuweisungsbenutzer und -rollen im Aufgabenfilter &#x200B;](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Alle Benutzer, Jobrollen oder Teams anzeigen, die einem Problem zugewiesen sind
 

@@ -65,7 +65,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 So erstellen Sie einen Bericht mit dieser Ansicht:
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenü-Symbol ](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenü-Symbol &#x200B;](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
 
 1. Klicken Sie im Dropdown-Menü auf **Neuer Bericht** > **Mehr** > **Arbeitsaufgabe**.
 

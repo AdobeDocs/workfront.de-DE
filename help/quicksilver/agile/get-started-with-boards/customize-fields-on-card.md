@@ -67,7 +67,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es in beiden Kartenansichten zu deaktivieren.
-1. Klicken Sie auf das Symbol &quot;Ausblenden&quot; ![Symbol &quot;Ausblenden&quot; ](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es in der verdichteten Ansicht auszublenden.
+1. Klicken Sie auf das Symbol &quot;Ausblenden&quot; ![Symbol &quot;Ausblenden&quot; &#x200B;](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es in der verdichteten Ansicht auszublenden.
 1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder auf Standard zurücksetzen**].
 1. Klicken Sie auf [!UICONTROL **Konfiguration ausblenden**], um den Bereich &quot;Konfigurieren&quot; zu schließen.
 
@@ -95,7 +95,7 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 1. (Optional) Ändern Sie die **[!UICONTROL Feldbezeichnung]** in den Feldnamen, der auf Karten angezeigt werden soll.
 1. Wenn Sie die Änderungen abgeschlossen haben, klicken Sie auf [!UICONTROL **Feld speichern**].
 
-   ![Benutzerdefinierter Feldwert und Bezeichnung ](assets/save-custom-field-value-label.png)
+   ![Benutzerdefinierter Feldwert und Bezeichnung &#x200B;](assets/save-custom-field-value-label.png)
 
    Das benutzerdefinierte Feld wird der Liste der verfügbaren Felder hinzugefügt und ist standardmäßig aktiviert. Sie können das benutzerdefinierte Feld gemäß den Schritten im Abschnitt [Karten konfigurieren](customize-fields-on-card.md#configure-cards) oben deaktivieren, das Feld bearbeiten oder es von allen Karten löschen.
 

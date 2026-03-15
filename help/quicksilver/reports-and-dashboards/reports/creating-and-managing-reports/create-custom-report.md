@@ -114,7 +114,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Spalten (Ansicht) zu einem Bericht hinzufügen {#add-columns-view-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Spalten (Ansicht)**, um die Spalten zu identifizieren, die im Bericht angezeigt werden sollen.
 1. (Optional) Klicken Sie auf **Vorhandene Ansicht anwenden** und klicken Sie im Dropdown-Menü auf den Namen einer Ansicht, um eine vorhandene Ansicht zu verwenden.
 
@@ -251,7 +251,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Hinzufügen eines Diagramms zu einem Bericht {#add-a-chart-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Diagramm** und wählen Sie dann den Diagrammtyp aus, den Sie hinzufügen möchten.
 
    ![Diagramm hinzufügen](assets/nwe-add-a-chart-350x247.png)

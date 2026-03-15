@@ -84,11 +84,11 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
       <td>Wählen Sie diese Option, wenn die Story bereit zum Hinzufügen zu einer Iteration ist. Wenn diese Option ausgewählt ist, zeigt sie den Benutzenden an, welche Storys im Rückstand bereit zum Hinzufügen zu einer Iteration sind.<br>Ein Story kann einer Iteration hinzugefügt werden, unabhängig davon, ob er als <strong>[!UICONTROL Ready] markiert ist.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL-Schätzung] (Punkte)</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL -Schätzung] (Punkte)</strong></td>
       <td>Geben Sie die Schätzung für den Textabschnitt an. Wenn Ihr agiles Team so konfiguriert ist, dass Geschichten in Punkten geschätzt werden, entspricht standardmäßig 1 Punkt 8 Stunden. Die Schätzungen werden als [!UICONTROL Planned Hours] auf der Story hinzugefügt.<br>Wenn Sie beispielsweise einen Textabschnitt auf 3 Punkte schätzen, ist das Standardverhalten, der Textabschnitt um 24 [!UICONTROL Planned Hours] (Geplante Stunden) zu erweitern.<br>Wenn ein Textabschnitt Unteraufgaben enthält, denken Sie daran, dass die kombinierten Schätzungen für alle Unteraufgaben die Schätzung des übergeordneten Textabschnitts bestimmen. Weitere Informationen finden Sie unter <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Storys zu einer vorhandenen Iteration hinzufügen</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Übergeordnetes [!UICONTROL-Projekt]</strong></td>
+      <td role="rowheader"><strong>Übergeordnetes [!UICONTROL -Projekt]</strong></td>
       <td>Beginnen Sie mit der Eingabe des Namens des Projekts, dem diese Story zugeordnet werden soll.<br>Standardmäßig wird die Textabschnittsfarbe in derselben Farbe wie die anderen Textabschnitte aus diesem Projekt angezeigt.<br>Der Status des Projekts muss auf [!UICONTROL Current] festgelegt werden. Wenn der Status des Projekts etwas Anderes als [!UICONTROL Current] ist, wird er nicht im Dropdown-Menü angezeigt.</td>
      </tr>
      <tr>

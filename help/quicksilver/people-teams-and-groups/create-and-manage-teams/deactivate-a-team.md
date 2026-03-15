@@ -28,7 +28,7 @@ Sie können Teams deaktivieren, die Sie nicht mehr verwenden, und gleichzeitig d
     </ul> 
     <ul> 
      <li> <p>Dialogfeld "Freigeben" für Objekte</p> </li> 
-     <li> <p>[!UICONTROL-Benutzerprofil]*</p> </li> 
+     <li> <p>[!UICONTROL -Benutzerprofil]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 

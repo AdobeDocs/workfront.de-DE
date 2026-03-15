@@ -53,7 +53,7 @@ Informationen zum Ändern der in Ihrer Liste angezeigten Informationen finden Si
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>[!UICONTROL-Ansicht] Zugriff auf den Bereich, in dem sich die Liste befindet</p> <p>Wenn Sie beispielsweise die Ansicht eines Projekts ändern möchten, benötigen Sie [!UICONTROL View] Zugriff auf die Projekte.</p></td> 
+   <td> <p>[!UICONTROL -Ansicht] Zugriff auf den Bereich, in dem sich die Liste befindet</p> <p>Wenn Sie beispielsweise die Ansicht eines Projekts ändern möchten, benötigen Sie [!UICONTROL View] Zugriff auf die Projekte.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. (Optional und bedingt) Wenn Sie eine bestimmte Anzahl von Elementen auf dem Bildschirm anzeigen möchten, klicken Sie auf das Dropdown-Menü **[!UICONTROL Anzeigen]** in der unteren rechten Ecke des Bildschirms, und wählen Sie dann aus, um **100**, **250**, **500**, **[!UICONTROL Alle]** oder **2000** Elemente anzuzeigen.
 
-   ![Listennummer auf Seite ](assets/list-number-page-350x119.png)
+   ![Listennummer auf Seite &#x200B;](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

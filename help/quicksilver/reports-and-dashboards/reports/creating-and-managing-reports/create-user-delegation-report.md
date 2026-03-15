@@ -75,7 +75,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Erstellen eines Benutzerdelegierungsberichts
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenü-Symbol ](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenü-Symbol &#x200B;](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, und klicken Sie dann auf **Berichte**.
 
 1. Klicken Sie auf **Neuer Bericht**, und wählen Sie dann **Benutzerdelegation** aus.
 

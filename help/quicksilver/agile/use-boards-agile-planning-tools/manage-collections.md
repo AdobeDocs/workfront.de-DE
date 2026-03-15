@@ -56,7 +56,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-boards}}
 
-1. Klicken Sie **** Dashboard im Bereich [!UICONTROL Arbeitsabläufe] auf „Arbeitsablauf hinzufügen“.
+1. Klicken Sie **&#x200B;**&#x200B;Dashboard im Bereich [!UICONTROL Arbeitsabläufe] auf „Arbeitsablauf hinzufügen“.
 1. Geben Sie einen Namen ein, um **[!UICONTROL Unbenannter Workstream]** zu ersetzen, und drücken Sie die Eingabetaste.
 
    Sie können Boards zum Arbeitsablauf hinzufügen oder auf [!UICONTROL **Alle Boards**] klicken, um zum Dashboard zurückzukehren.

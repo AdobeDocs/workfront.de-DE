@@ -61,7 +61,7 @@ Wenn Sie einer Iteration eine vorhandene Aufgabe hinzufügen, werden das [!UICON
    * Für das Projekt ist kein [!UICONTROL Geplantes Startdatum] festgelegt.
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *vor* oder *am* Startdatum der Iteration.
 
-* Die Aufgabe verwendet das geplante [!UICONTROL  des Projekts] wenn:
+* Die Aufgabe verwendet das geplante [!UICONTROL &#x200B; des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration.
 

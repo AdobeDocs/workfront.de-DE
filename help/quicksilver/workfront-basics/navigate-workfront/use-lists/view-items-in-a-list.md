@@ -131,7 +131,7 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Programme</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Portfolio] &gt;[!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL-Programme]</p> </li> 
+     <li> <p>[!UICONTROL -Portfolio] &gt;[!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL -Programme]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programme]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -148,7 +148,7 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Aufgaben</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt; [!UICONTROL-Aufgaben]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt; [!UICONTROL -Aufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Unteraufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL Vorgänger*]</p> </li> 
     </ul> </td> 
@@ -197,16 +197,16 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
      <li> <p>[!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL auf ein Portfolio klicken] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL Programme] &gt;[!UICONTROL auf ein Programm klicken] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL-Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt; [!UICONTROL-Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL-Projekte] &gt; [!UICONTROL klicken] auf ein Projekt &gt; [!UICONTROL-Probleme] &gt;[!UICONTROL klicken auf ein Problem] &gt; [!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt; [!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt; [!UICONTROL klicken] auf ein Projekt &gt; [!UICONTROL -Probleme] &gt;[!UICONTROL klicken auf ein Problem] &gt; [!UICONTROL -Dokumente]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste der Arbeitszeittabellen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Arbeitszeittabellen] &gt; [!UICONTROL-Arbeitszeittabellen]*</p> </li> 
+     <li> <p>[!UICONTROL -Arbeitszeittabellen] &gt; [!UICONTROL -Arbeitszeittabellen]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Risiken</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL-Risiken]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Risiken]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,15 +235,15 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL klicken] Sie auf ein Projekt &gt;[!UICONTROL Ausgaben]</p> </li> 
-     <li> <p>[!UICONTROL-Projekte] &gt; [!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt;[!UICONTROL-Ausgaben]</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt; [!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt;[!UICONTROL -Ausgaben]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Klicken Sie auf ein Projekt</p> </li> 
-     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt;[!UICONTROL-Stunden]</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt; Klicken Sie auf ein Projekt</p> </li> 
+     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt;[!UICONTROL -Stunden]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] a project &gt;[!UICONTROL Issues] &gt;[!UICONTROL click] a issue &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
@@ -258,8 +258,8 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
     <td>Liste der Gruppen oder Untergruppen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Setup] &gt;[!UICONTROL-Gruppen]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL klicken Sie auf die übergeordnete Gruppe] &gt;[!UICONTROL-Untergruppen] </li> 
+     <li> <p>[!UICONTROL -Setup] &gt;[!UICONTROL -Gruppen]</p> </li>
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL klicken Sie auf die übergeordnete Gruppe] &gt;[!UICONTROL -Untergruppen] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -280,14 +280,14 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Zeitpläne</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Setup] &gt;[!UICONTROL-Zeitpläne]</p> </li> 
+     <li> <p>[!UICONTROL -Setup] &gt;[!UICONTROL -Zeitpläne]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>Liste der Layoutvorlagen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL-Setup] &gt;[!UICONTROL-Layoutvorlagen]</p> </li> 
+     <li> <p>[!UICONTROL -Setup] &gt;[!UICONTROL -Layoutvorlagen]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
@@ -455,7 +455,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL-Export]</td> 
+   <td>[!UICONTROL -Export]</td> 
    <td>Exportieren Sie die Liste in PDF-, Excel- oder tabulatorgetrennte Dateien.</td> 
   </tr> 
   <tr> 
@@ -476,7 +476,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>Dropdown-Menü [!UICONTROL View]</td> 
-   <td> <p>Zeigt eine Liste mit Ansichten und zusätzliche Optionen zum Verwalten von Ansichten an, einschließlich der Erstellung einer Ansicht. </p> <p>Auf einem kleinen Bildschirm wird der Anzeigename durch das Symbol [!UICONTROL-Ansicht] ersetzt. Ein blauer Punkt wird auf dem Symbol [!UICONTROL View] angezeigt, wenn Sie eine andere Ansicht als "[!UICONTROL Standard]" anwenden.</p> </td> 
+   <td> <p>Zeigt eine Liste mit Ansichten und zusätzliche Optionen zum Verwalten von Ansichten an, einschließlich der Erstellung einer Ansicht. </p> <p>Auf einem kleinen Bildschirm wird der Anzeigename durch das Symbol [!UICONTROL -Ansicht] ersetzt. Ein blauer Punkt wird auf dem Symbol [!UICONTROL View] angezeigt, wenn Sie eine andere Ansicht als "[!UICONTROL Standard]" anwenden.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
@@ -500,7 +500,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
+   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 

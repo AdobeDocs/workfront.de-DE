@@ -29,7 +29,7 @@ Aufgrund der sinkenden Nutzung und der eingeschränkten Funktionalität wird Enh
 
 **Was kann ich stattdessen verwenden?**
 
-* Workfront Data Connect kann Visualisierungen von Enhanced Analytics replizieren. Weitere Informationen finden [ unter „Replizieren von Visualisierungen von erweiterten Analysen in Workfront Data ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect)&quot;.
+* Workfront Data Connect kann Visualisierungen von Enhanced Analytics replizieren. Weitere Informationen finden [&#x200B; unter „Replizieren von Visualisierungen von erweiterten Analysen in Workfront Data &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect)&quot;.
 
 ## Vorbereiten der Einstellung
 

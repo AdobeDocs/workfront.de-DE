@@ -20,7 +20,7 @@ Agile ist eine Arbeitsmethode, mit der Teams kleine, überschaubare Arbeitsmenge
 
 [!DNL Workfront] Boards sind einfache, aber flexible Werkzeuge für die Teamzusammenarbeit. Weitere Informationen zu Pinnwänden finden Sie unter [Pinnwände - Übersicht](../agile/boards-overview.md).
 
-Weitere erweiterte Agile-Team-Tools verwenden entweder Kanban oder Scrum. Informationen zu den Kanban- und Scrum-Methoden finden Sie im Abschnitt [Entscheidung über eine agile ](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)) im Artikel [Erstellen eines agilen Teams](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Weitere erweiterte Agile-Team-Tools verwenden entweder Kanban oder Scrum. Informationen zu den Kanban- und Scrum-Methoden finden Sie im Abschnitt [Entscheidung über eine agile &#x200B;](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)) im Artikel [Erstellen eines agilen Teams](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 So verwenden Sie fortschrittliche Agile-Funktionen in Workfront:
 
@@ -38,7 +38,7 @@ So verwenden Sie fortschrittliche Agile-Funktionen in Workfront:
 
 1. Scrum-Teams: Verwalten Sie den Rückstand, erstellen Sie eine Iteration und erstellen Sie das [!UICONTROL Scrum]-Board.
 
-   Weitere Informationen finden Sie unter [Verwalten des Agile-](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&quot;, [Übersicht über ](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) und [Übersicht über das Scrum-Board](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   Weitere Informationen finden Sie unter [Verwalten des Agile-](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&quot;, [Übersicht über &#x200B;](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) und [Übersicht über das Scrum-Board](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
 1. Fügen Sie Aufgaben aus Projekten zum Rückstand oder zum Story Board für das Team hinzu.
 

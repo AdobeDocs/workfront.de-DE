@@ -87,7 +87,7 @@ Sie können das Paket in einer der folgenden Umgebungen installieren:
 1. (Optional) Klicken Sie auf **[!UICONTROL Details]**, um mehr über die Funktionsweise des Blueprints zu erfahren.
 1. Klicken Sie auf **[!UICONTROL Installieren]**.
 1. Wählen Sie die Installation in Ihrer Produktionsumgebung oder einer Sandbox-Umgebung aus.\
-   Weitere Informationen finden Sie unter [Wo sollte ich eine Blueprint installieren?Abschnitt ](#where-should-i-install-a-blueprint) in diesem Artikel.
+   Weitere Informationen finden Sie unter [Wo sollte ich eine Blueprint installieren?Abschnitt &#x200B;](#where-should-i-install-a-blueprint) in diesem Artikel.
 1. Auf der Seite **Konfigurieren** können Sie einen der folgenden Schritte ausführen:
 
    * Installieren Sie die Blaupause wie sie ist. Für Blueprint-Typen, für die keine Konfiguration erforderlich ist, ist dies die einzige Option. Für Blaupausentypen, die konfiguriert werden müssen, können Sie optional festlegen, dass die Blaupause jetzt installiert und später konfiguriert wird. Klicken Sie **[!UICONTROL Unverändert installieren]**.

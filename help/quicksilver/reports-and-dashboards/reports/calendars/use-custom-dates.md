@@ -89,7 +89,7 @@ Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und kli
       <td>Wählen Sie eine Farbe für die Gruppe von Elementen. Alle Elemente werden im Kalenderbericht in der ausgewählten Farbe angezeigt.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL-Datumsfeld]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL -Datumsfeld]</strong></td>
       <td>Wählen Sie <strong>[!UICONTROL Benutzerdefinierte Daten]</strong>.<br></td>
      </tr>
      <tr>

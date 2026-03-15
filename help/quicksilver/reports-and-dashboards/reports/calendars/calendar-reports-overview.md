@@ -50,7 +50,7 @@ Darüber hinaus können Sie Kalender erstellen und auf Kalender zugreifen, die v
 
 Innerhalb jedes Kalenderberichts können Sie Gruppen von Elementen erstellen, mit denen Sie den Fokus des Kalenders eingrenzen können. Sie können beispielsweise eine Kalendergruppierung einrichten, die die Daten für alle Aufgaben eines bestimmten Projekts, die derzeit am Projekt arbeitenden Mitglieder des Marketing-Teams und die dem Projekt-Team zugewiesenen überfälligen Probleme anzeigt. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
 * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
