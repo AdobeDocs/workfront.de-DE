@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: using-built-in-reports
-title: Verwenden von integrierten Adobe Workfront-Berichten
+title: Verwenden von integrierten Berichten in Adobe Workfront
 description: Adobe Workfront verfügt über eine umfangreiche Liste integrierter Berichte, die verwendet werden können. Workfront-Admins können integrierte Berichte ausblenden, sodass Benutzende keinen Zugriff darauf haben.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
-# Verwenden von integrierten Adobe Workfront-Berichten
+# Verwenden von integrierten Berichten in Adobe Workfront
 
 <!--Audited: 11/2024-->
 
@@ -23,7 +23,7 @@ Workfront-Admins können integrierte Berichte ausblenden, sodass Benutzende kein
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,8 +36,8 @@ Workfront-Admins können integrierte Berichte ausblenden, sodass Benutzende kein
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-      <p>Mitwirkender oder höher</p>
-      <p>Anfrage oder höher</p>
+      <p>Mitwirkende oder höher</p>
+      <p>Anfragende oder höher</p>
    </td>
   </tr>
   <tr> 
@@ -51,13 +51,13 @@ Workfront-Admins können integrierte Berichte ausblenden, sodass Benutzende kein
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Übersicht über integrierte Berichte {#overview-of-built-in-reports}
 
-Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die Berichte stehen allen Benutzern zur Verfügung, die zumindest Ansichtsrechte für integrierte Berichte in ihrer Zugriffsebene haben.
 

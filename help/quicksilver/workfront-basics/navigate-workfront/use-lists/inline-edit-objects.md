@@ -4,12 +4,12 @@ navigation-topic: use-lists
 title: Inline-Bearbeitung von Elementen in einer Liste in  [!DNL Adobe Workfront]
 description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder einem Bericht angezeigt werden. Wenn Sie die Informationen zu Objekten bearbeiten, die in einer Liste oder einem Bericht angezeigt werden, wird das Objekt sofort aktualisiert.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Während die meisten Objekte, die in Listen oder Berichten angezeigt werden, in 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,8 +50,8 @@ Während die meisten Objekte, die in Listen oder Berichten angezeigt werden, in 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher </p>
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher </p>
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Während die meisten Objekte, die in Listen oder Berichten angezeigt werden, in 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -82,7 +82,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Wenn Sie über mehrere Seiten verfügen, können Sie ein -Objekt mithilfe von Folgendem finden:
    >
    >   * **Paginierung**: Klicken Sie auf die Rückwärts- und Vorwärtspfeile, um zwischen Seiten zu navigieren.
-   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke &#x200B;] Liste und bleibt beim Bildlauf beibehalten.
+   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke ] Liste und bleibt beim Bildlauf beibehalten.
    >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen, und geben Sie dann Text ein, um nur Elemente anzuzeigen, die den eingegebenen Text enthalten.
    >     Der Schnellfilter befindet sich in der Listen-Symbolleiste. Weitere Informationen finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 

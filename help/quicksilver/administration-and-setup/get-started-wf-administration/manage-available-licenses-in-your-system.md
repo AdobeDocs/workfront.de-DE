@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Verfügbare Lizenzen in Ihrem System verwalten
 description: Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfront-Konto zugreifen, einschließlich der Anzahl der für Ihr Unternehmen erworbenen Lizenzen sowie der Anzahl der aktuell verwendeten Lizenzen.
-author: Lisa, Jenny
+author: Lisa, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfro
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -44,7 +44,7 @@ Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfro
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 
 >[!NOTE]
@@ -154,7 +154,7 @@ So fügen Sie der Seite „Lizenzen“ eine Hauptgruppe hinzu oder entfernen die
 1. Geben Sie den Namen der Gruppe der obersten Ebene in das Feld **Hauptgruppen** ein.
 1. Um die Gruppe hinzuzufügen, klicken Sie auf ihren Namen, wenn sie angezeigt wird.
 
-   Oder
+   ODER
 
    Um die Gruppe zu entfernen, klicken Sie auf das X-Symbol rechts neben ihrem Namen.
 

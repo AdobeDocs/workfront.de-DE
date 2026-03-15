@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: Anwenden des Schnellfilters auf eine Liste
 description: Sie können den Schnellfilter in einer Liste von Objekten verwenden, um nur Elemente zu finden, die für Sie wichtig sind, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -36,12 +36,12 @@ Temporäre Schnellfilter können in allen Listen mit Ausnahme der folgenden verw
 
   >[!NOTE]
   >
-  >Schnellfilter sind in den folgenden Einrichtungsbereichen verfügbar: [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Firmen], [!UICONTROL Zeitpläne], [!UICONTROL Layout-Vorlagen] und [!UICONTROL Custom Forms].
+  >In den folgenden Setup-Bereichen sind Schnellfilter verfügbar: [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Unternehmen], [!UICONTROL Zeitpläne], [!UICONTROL Layoutvorlagen] und [!UICONTROL Benutzerdefinierte Forms].
 
 
-Beachten Sie beim Anwenden von Schnellfiltern auf eine Liste Folgendes:
+Berücksichtigen Sie Folgendes, wenn Sie Schnellfilter auf eine Liste anwenden:
 
-* Sie können Keywords verwenden, um nach allen Feldern zu filtern, die in der Ansicht der Liste angezeigt werden. Dazu gehören benutzerdefinierte Felder oder komplexe Felder wie [!UICONTROL Vorgänger], [!UICONTROL Arbeitsaufträge], [!UICONTROL Arbeitsauftrag] und [!UICONTROL Status], [!UICONTROL Genehmiger] und [!UICONTROL Status] usw.
+* Sie können Schlüsselwörter verwenden, um nach jedem Feld zu filtern, das in der Ansicht der Liste angezeigt wird. Dazu gehören benutzerdefinierte Felder oder komplexe Felder wie [!UICONTROL Vorgänger], [!UICONTROL Arbeitsaufträge], [!UICONTROL Arbeitsauftrag] und [!UICONTROL Status], [!UICONTROL Genehmiger] und [!UICONTROL Status] usw.
 * Wenn Ihre Liste reduzierte Gruppierungen enthält, werden diese automatisch erweitert, wenn Sie Schnellfilter verwenden. Wenn Sie den Schnellfilter entfernen, werden die Gruppierungen erneut reduziert.
 * Gruppierungen behalten die aggregierten Informationen der ursprünglichen Liste bei, unabhängig von den angewendeten Schnellfiltern oder vorgenommenen Änderungen an den Objekten auf der Liste.
 * Schnellfilter sind temporär. Wenn Sie Gruppierung, Ansicht, Filter oder Sortierung der Liste ändern, werden die Schnellfilterkriterien entfernt.
@@ -51,27 +51,27 @@ Beachten Sie beim Anwenden von Schnellfiltern auf eine Liste Folgendes:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkender oder höher </p></li>
+   <ul><li><p>Mitwirkende oder höher </p></li>
    </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Anfrage oder höher</p></li>
+   <ul><li><p>Anfragende oder höher</p></li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -92,9 +92,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Anwenden eines Schnellfilters auf eine Liste
 
-1. Navigieren Sie zu einer Liste oder einem Bericht, die bzw. der Schnellfilter unterstützt, und klicken Sie **[!UICONTROL der Symbolleiste auf &#x200B;]Schnellfilter** Symbol ![Schnellfilter](assets/qs-quick-filter-icon.png)Symbol .
+1. Navigieren Sie zu einer Liste oder einem Bericht, die bzw. der Schnellfilter unterstützt, und klicken Sie **[!UICONTROL der Symbolleiste auf ]Schnellfilter** Symbol ![Schnellfilter](assets/qs-quick-filter-icon.png)Symbol .
 
-   Oder
+   ODER
 
    Drücken Sie je nach Betriebssystem oder Browser und bei Verwendung einer Standard-QWERTY-Tastatur die folgenden Befehle, um den Schnellfilter zu starten:
 
@@ -117,7 +117,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Zum Massenbearbeiten der vom Schnellfilter gefundenen Elemente:
 
-   1. Wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**, um die Elemente stapelweise zu bearbeiten.
+   1. Wählen Sie alle oder mehrere Elemente in der Liste aus, und klicken Sie dann auf **[!UICONTROL Bearbeiten]**, um die Elemente in großen Mengen zu bearbeiten.
    1. Klicken Sie nach Abschluss der Änderungen auf **[!UICONTROL Änderungen speichern]**.
 
 1. (Optional) Um die vom Schnellfilter gefundenen Elemente zu exportieren, wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf das Symbol **[!UICONTROL Exportieren]** ![Exportieren](assets/export.png).

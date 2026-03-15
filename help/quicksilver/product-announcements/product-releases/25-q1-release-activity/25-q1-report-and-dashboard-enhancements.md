@@ -1,14 +1,14 @@
 ---
 title: Verbesserungen am Bericht und Dashboard für das erste Quartal 2025
 description: Verbesserungen am Bericht und Dashboard für das erste Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Auf dieser Seite werden alle Berichts- und Dashboard-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Neue Entitäten in Data Connect verfügbar
 
@@ -37,7 +37,7 @@ Wir haben außerdem Unterstützung für die folgenden Agenturen-spezifischen Ein
 
 * Unternehmensprofil
 * Geschäftsregel
-* Speicherort
+* Standort
 * Kategorie „Sonstige Ressource“
 * Benutzerstandort
 
@@ -61,6 +61,6 @@ Weitere Informationen finden Sie unter [Dashboard erstellen](/help/quicksilver/r
 >
 >Produktionsversion für alle Kunden: 14. November 2024
 
-Admins, die zum ersten Mal auf Data Connect zugreifen, haben jetzt die Möglichkeit, durch Anklicken einer einzigen Schaltfläche ein neues Snowflake-Leserkonto zu erstellen. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.
+Admins, die zum ersten Mal auf Data Connect zugreifen, haben jetzt die Möglichkeit, durch Klicken auf eine einzige Schaltfläche ein neues Snowflake-Leserkonto zu erstellen. Der Vorgang dauert einige Minuten, erfordert jedoch keine weiteren Maßnahmen.
 
 Weitere Informationen zum Einrichten von Data Connect finden Sie unter [Erstellen eines Leserkontos für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).

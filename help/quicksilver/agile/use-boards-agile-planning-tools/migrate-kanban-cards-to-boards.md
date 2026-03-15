@@ -3,17 +3,17 @@ content-type: reference
 navigation-topic: boards
 title: Agile-Team-Kanban-Karten zu Workfront-Boards migrieren
 description: Sie können Ihre Arbeitselemente von einem Agile-Team-Kanban-Board auf ein neues oder vorhandenes Workfront-Board migrieren.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# Migrieren von Agile-Team-Kanban-Karten zu Workfront-Boards
+# Migrieren von Agile-Team-Kanban-Karten zu Pinnwänden in Workfront
 
 Sie können Ihre Arbeitselemente von einem Agile-Team-Kanban-Board auf ein neues oder vorhandenes Workfront-Board migrieren. Wenn Sie die Migration ausführen, werden alle Karten auf der Kanban-Pinnwand in die Workfront-Pinnwand kopiert. Es ist nicht erlaubt, bestimmte Karten auszuwählen.
 
@@ -36,14 +36,14 @@ Die Karten werden nicht aus dem Agile-Team-Kanban-Board entfernt und Kartenstatu
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,17 +4,17 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Prozentsatz der FTE-Verfügbarkeit für Benutzeraufgabengebiet'
 description: Sie können der Ansicht einer Benutzerliste eine Spalte hinzufügen, um eine Liste der Aufgabengebiete anzuzeigen, mit denen der Benutzer verknüpft ist, sowie den Prozentsatz der FTE-Verfügbarkeit für jedes Aufgabengebiet, wie im Benutzerprofil definiert.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# Anzeigen: Prozentsatz der FTE-Verfügbarkeit für das Aufgabengebiet des Benutzers
+# Ansicht: Prozentsatz der FTE-Verfügbarkeit für das Aufgabengebiet des Benutzers bzw. der Benutzerin
 
 <!--Audited: 11/2024-->
 
@@ -26,7 +26,7 @@ Informationen zum Definieren des Prozentsatzes der FTE-Verfügbarkeit für -Benu
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Informationen zum Definieren des Prozentsatzes der FTE-Verfügbarkeit für -Benu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

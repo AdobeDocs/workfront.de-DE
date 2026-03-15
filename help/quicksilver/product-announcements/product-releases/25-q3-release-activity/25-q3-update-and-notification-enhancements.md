@@ -1,13 +1,14 @@
 ---
 title: Verbesserungen bei Aktualisierung und Benachrichtigung für das dritte Quartal 2025
 description: Projektverbesserungen im dritten Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da73dc4e060e018e7a9254319bbaab6d333ce056
+exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -30,5 +31,3 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 ve
 Um eine verbesserte Leistung zu erzielen, haben wir ein geändertes Erlebnis eingeführt, wenn Personen zu Kommentaren hinzugefügt werden. Jetzt bleibt der Link „Personen oder Teams taggen“ im Kommentarfeld bestehen, nachdem Sie Benutzer oder Teams zum Kommentar hinzugefügt haben. Vor dieser Änderung wurde der Link „Personen oder Teams taggen“ entfernt, nachdem Sie begonnen hatten, Personen oder Teams zu einem Kommentar hinzuzufügen. Diese Änderung wurde für alle Workfront-Objekte eingeführt, bei denen Sie einen Kommentar hinzufügen können.
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-

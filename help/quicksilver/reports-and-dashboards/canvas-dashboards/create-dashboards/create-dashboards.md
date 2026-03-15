@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Erstellen eines Canvas-Dashboards
+title: Erstellen eines Arbeitsflächen-Dashboards
 description: Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpassbaren Dashboard hinzufügen, um Ihre Kontodaten schnell zu visualisieren.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
-# Erstellen eines Canvas-Dashboards
+# Erstellen eines Arbeitsflächen-Dashboards
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpas
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard </p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -59,14 +59,14 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte erstellen und zu einem anpas
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
 
 Canvas-Dashboards müssen in der Layout-Vorlagenkonfiguration der Seite Dashboards in den linken Navigationselementen aktiviert werden.
 
-## Dashboard erstellen
+## Erstellen eines Dashboards
 
 Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen, die Sie beim Erstellen eines Dashboards verwenden können. In diesem Abschnitt führen wir Sie durch den allgemeinen Prozess der Erstellung eines Dashboards.
 

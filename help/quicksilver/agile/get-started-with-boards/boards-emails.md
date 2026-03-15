@@ -4,17 +4,17 @@ content-type: reference
 navigation-topic: boards
 title: Pinnwände E-Mail-Benachrichtigungen und Voreinstellungen
 description: Adobe Workfront Boards sendet Ihnen eine E-Mail, wenn Sie einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen wird.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Pinnwände - E-Mail-Benachrichtigungen und Voreinstellungen
+# E-Mail-Benachrichtigungen und Voreinstellungen für Pinnwände
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sendet Ihnen eine E-Mail, wenn Sie zu einer Pinnwand hinzugefügt werden und wenn Ihnen eine Karte zugewiesen wird. Die Benachrichtigungen sind standardmäßig aktiviert und Sie können in Ihren Pinnwand-Voreinstellungen auswählen, welche E-Mails Sie erhalten möchten.
 
@@ -22,7 +22,7 @@ Sie erhalten auch eine E-Mail, wenn Sie in Abhängigkeit von Ihren E-Mail-Benach
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,14 +35,14 @@ Sie erhalten auch eine E-Mail, wenn Sie in Abhängigkeit von Ihren E-Mail-Benach
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

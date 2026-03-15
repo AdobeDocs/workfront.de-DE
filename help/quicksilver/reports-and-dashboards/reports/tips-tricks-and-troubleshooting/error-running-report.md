@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Fehlermeldung beim Ausführen eines Berichts: „Sie sind derzeit nicht angemeldet.“'
 description: Erfahren Sie mehr über die Fehlermeldung „Sie sind derzeit nicht angemeldet“.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 6%
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ ht-degree: 6%
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
      <p>Standard</p>
-     <p>Arbeit oder höher</p>
+     <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ So passen Sie den Bericht an und sehen die Ergebnisse:
 1. Klicken Sie **Berichtsaktionen** > **Bearbeiten** > **Berichteinstellungen**.
 
 1. Geben Sie den Namen eines aktiven Benutzers im Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** an.\
-   Oder\
+   ODER\
    Lassen Sie das Feld **Diesen Bericht mit den Zugriffsrechten von ausführen:** leer.
 
 1. Klicken Sie auf **Fertig**.

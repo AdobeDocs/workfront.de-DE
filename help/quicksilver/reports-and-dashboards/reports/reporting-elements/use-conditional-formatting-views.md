@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Verwenden der bedingten Formatierung in Ansichten
 description: Wenn Sie Ihre Berichte für andere Benutzende in Adobe Workfront freigeben, sollten Sie die Ansicht der Berichte anpassen, um bestimmte Informationen leichter lesbar zu machen oder einfach nur hervorzuheben.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ Die Änderungen, die Sie an der Berichtsansicht vornehmen, werden nur auf der Re
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +67,7 @@ Die Änderungen, die Sie an der Berichtsansicht vornehmen, werden nur auf der Re
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +83,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Ber
 
 1. Klicken Sie auf den Namen eines Berichts, für den Sie eine bedingt formatierte Ansicht erstellen möchten
 
-   Oder
+   ODER
 
    Klicken Sie **Neuer Bericht** und wählen Sie dann einen Objekttyp aus, um einen neuen Bericht zu erstellen.
 

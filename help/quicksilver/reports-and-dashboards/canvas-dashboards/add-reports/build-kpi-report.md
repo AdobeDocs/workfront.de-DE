@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard
 description: Ein KPI-Bericht, der einen einzelnen aggregierten KPI hervorgehoben darstellt, kann zu einem Arbeitsflächen-Dashboard hinzugefügt werden.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können einen KPI-Bericht erstellen und zu einem Arbeitsflächen-Dashboard h
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -61,7 +61,7 @@ Sie können einen KPI-Bericht erstellen und zu einem Arbeitsflächen-Dashboard h
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
@@ -78,7 +78,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -145,7 +145,7 @@ Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eine
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -191,9 +191,9 @@ Weitere Informationen zu KPI-Berichtsbeispielen finden Sie unter [Erstellen eine
 
 Benutzer mit der Zugriffsebene Anzeigen oder Bearbeiten von Finanzdaten sehen weiterhin Finanzdaten in den Visualisierungen des Arbeitsflächen-Dashboards, auch wenn die Berechtigung zum Anzeigen von Finanzdaten auf der Aufgaben- oder Projektebene entfernt wurde.
 
-* Benutzende ohne finanzielle Datenrechte auf der Zugriffsebene sehen keine finanziellen Daten in Berichten.
-* Benutzer, die Finanzdaten sehen, sind auf Datensätze beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Datensätze, auf die sie nicht zugreifen können.
-* Ersteller von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
+* Benutzende ohne Rechte für Finanzdaten auf der Zugriffsebene sehen keine Finanzdaten in Berichten.
+* Benutzende, die Finanzdaten sehen, sind auf Einträge beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Einträge, auf die sie nicht zugreifen können.
+* Erstellende von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
 
 Dies ist eine bekannte Grenze, und wir planen, sie so schnell wie möglich zu beheben.
 

@@ -3,20 +3,20 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Beispiele für Data Connect-Abfragen
-description: Beispielabfragen Sie können verwenden, um sich mit der Syntax und Struktur bestimmter Arten von Abfragen vertraut zu machen.
-author: Nolan
+description: Beispielabfragen, mit denen Sie sich mit der Syntax und Struktur bestimmter Arten von Abfragen vertraut machen können.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Beispiele für Workfront Data Connect-Abfragen
 
-Damit Sie Ihre Workfront Data Connect-Daten besser nutzen können, enthält diese Seite einfache Beispielabfragen, mit denen Sie sich mit der Syntax und Struktur bestimmter Arten von Abfragen vertraut machen können.
+Diese Seite enthält allgemeine Beispielabfragen, mit denen Sie sich mit der Syntax und der Struktur bestimmter Arten von Abfragen vertraut machen können, damit Sie Ihre Workfront Data Connect-Daten besser nutzen können.
 
 ## Benutzerdefinierte Datenabfrage
 
@@ -50,10 +50,10 @@ WHERE ExpandedProjectName is not null
 
 Die obige Abfrage gibt die folgenden Daten zurück:
 
-* `projectid`: Die native Workfront-Projekt-ID.
-* `parametervalues`: Eine Spalte, die ein JSON-Objekt speichert.
-* `name`: Der native Workfront-Projektname.
-* `Business Unit`: Ein benutzerdefinierter Datenwert, der im `parametervalues` enthalten ist.
+* `projectid`: Die ID des nativen Workfront-Projekts.
+* `parametervalues`: Eine Spalte, in der ein JSON-Objekt gespeichert wird.
+* `name`: Der systemeigene Workfront-Projektname.
+* `Business Unit`: Ein benutzerdefinierter Datenwert, der im `parametervalues`-Objekt enthalten ist.
 * `Project ID`: Ein benutzerdefinierter Datenwert, der im `parametervalues` enthalten ist.
 * `Expanded Project Name`: Ein benutzerdefinierter Datenwert, der im `parametervalues` enthalten ist.
 
@@ -64,7 +64,7 @@ Bei der Abfrage des `parametervalues` JSON-Objekts kann jedes benutzerdefinierte
 `<field_name>:"<parameter_name>"::<data_type> as <column_name>`
 
 * `<field_name>` ist der Name des JSON-Objekts in der Tabelle, die abgefragt wird. Bei benutzerdefinierten Daten ist dies immer `parametervalues`.
-* `<parameter_name>` ist die `parametername` Zeichenfolge, die im Formular-Konfigurations-Tool gefunden wird, auch wenn sie möglicherweise nicht immer mit diesem Wert übereinstimmt.
+* `<parameter_name>` ist die Zeichenfolge `parametername`, die im Formularkonfigurationstool gefunden wurde, obwohl sie möglicherweise nicht immer mit diesem Wert übereinstimmt.
 
 >[!NOTE]
 >
@@ -94,9 +94,9 @@ Dieses Beispiel zeigt, wie Sie die Zeit messen, die ein Projekt in zuvor zugewie
 
 ### Szenario
 
-Ihre Unternehmensführung ist der Ansicht, dass Sie in jeder Phase Ihres Arbeitszyklus zu viel Zeit investieren. Bevor Sie Empfehlungen zur Verbesserung des Prozesses abgeben, sollten Sie eine allgemeine Messung erstellen, um festzustellen, wie oft sich ein Projektstatus im Laufe der Zeit ändert und wie viele Tage ein Projekt in einem bestimmten Status verbleibt.
+Nach Ansicht der Unternehmensleitung verbringen Sie in jeder Phase Ihres Arbeitslebenszyklus zu viel Zeit. Bevor Sie Empfehlungen zur Verbesserung des Prozesses abgeben, sollten Sie eine Basismessung erstellen, um zu messen, wie oft sich ein Projektstatus im Laufe der Zeit ändert und wie viele Tage ein Projekt in einem bestimmten Status verbleibt.
 
-Sie verwenden die Datenansicht PROJECTS_EVENT, um eine Liste jeder Statusänderung für das Projektobjekt abzurufen. Sie vergleichen den neuen Status mit dem vorherigen Status, erfassen den effektiven Zeitraum für den zuvor zugewiesenen Status und berechnen dann die in diesem Status verbrachten Tage.
+Sie verwenden die Datenansicht PROJECTS_EVENT, um eine Liste aller Statusänderungen für das Projektobjekt abzurufen. Sie vergleichen den neuen Status mit dem vorherigen Status, ermitteln den effektiven Zeitraum für den zuvor zugewiesenen Status und berechnen dann die Tage, die in diesem Status verbracht wurden.
 
 Mithilfe dieser Rohausgabe der in jedem Status pro Projekt verbrachten Zeit können Sie mit dem Erstellen von Visualisierungen beginnen oder die Daten weiter aggregieren, um Statusdauermittelwerte nach Status, Projekttyp oder Jahreszeit zu erstellen. Anhand dieser Grundlinie können Sie dann einen Maßstab festlegen, an dem Sie messen können, um die Erwartungen Ihrer Führung zu erfüllen.
 
@@ -151,7 +151,7 @@ FROM
 
 Die obige Abfrage gibt die folgenden Daten zurück:
 
-* `PROJECTID`: Die mit dem Statusänderungsereignis verknüpfte Workfront-Projekt-ID.
+* `PROJECTID`: Die Workfront-Projekt-ID, die dem Statusänderungsereignis zugeordnet ist.
 * `PROJECT_NAME`: Der Workfront-Projektname.
 * `PREVIOUS_STATUS`: Der Projektstatus unmittelbar vor der Änderung.
 * `STATUS`: Der Projektstatus nach der Änderung.
@@ -161,31 +161,31 @@ Die obige Abfrage gibt die folgenden Daten zurück:
 
 ### Erklärung
 
-Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data Connect.  Sie bestimmt das Datum, an dem ein Ereignis ausgelöst wurde, das einen neuen Statuswert hatte, der sich vom vorherigen Ereignis unterschied. 
+Die Abfrage verwendet die Funktionen zum Verfolgen von Änderungsereignissen in Data Connect.  Es bestimmt das Datum, an dem ein Ereignis ausgelöst wurde, dessen neuer Statuswert sich vom vorherigen Ereignis unterscheidet. 
 
-Überprüfen der Abfrage von innen nach außen: 
+Die Abfrage wird von innen nach außen untersucht: 
 
-1. Datensätze berechnen, deren vorheriger Status unterschiedlich ist: 
+1. Datensätze berechnen, wenn sich der vorherige Status unterscheidet: 
    * Verwenden Sie für jedes Änderungsereignis die Funktion lag() , um den vorherigen Statuswert zu identifizieren. 
 
 2. Filtern Sie nur nach den geänderten Datensätzen: 
 
-   * Wählen Sie Datensätze aus der Berechnung in Schritt 1, bei denen der vorherige Status != Aktueller Status. 
+   * Wählen Sie Datensätze aus der Berechnung in Schritt 1, bei denen der vorherige Status != aktueller Status. 
 
-3. Berechnen Sie den effektiven Zeitstempel und die Dauer des Beginns/Endes in Tagen: 
+3. Berechnen Sie den effektiven Anfangs-/Endzeitstempel und die Dauer in Tagen: 
 
    * `<status_begin_effective_timestamp>`: In Schritt 2 berechnet. 
 
-   * `<status_end_effective_timestamp>`: Wird anhand des nächsten (Lead()) berechnet. `<status_begin_effective_timestamp>`: Zeigt den Status nur an, wenn `<status_begin_effective_timestamp>` NICHT NULL ist. 
+   * `<status_end_effective_timestamp>`: Berechnet basierend auf dem nächsten (lead()). `<status_begin_effective_timestamp>`: Zeigt den Status nur an, wenn `<status_begin_effective_timestamp>` NICHT NULL ist. 
    * `<status_duration_days>`: Datendifferenz zwischen `<status_begin_effective_timestamp>` und `<status_end_effective_timestamp>`. 
 
 >[!NOTE]
 >
 >Es wird empfohlen, diese Abfrage als eigene „Ansicht“ in Power BI oder Tableau zu verwenden.  Wenn Sie andere Felder aus dem `<object>_event view` einbringen möchten, verbinden Sie die Ausgabe aus dieser Abfrage wieder mit dem `<object>_event view`.  Die Verknüpfungsfelder lauten wie folgt: <br>
->&#x200B;>Für projects_event: 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>Für projects_event: 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

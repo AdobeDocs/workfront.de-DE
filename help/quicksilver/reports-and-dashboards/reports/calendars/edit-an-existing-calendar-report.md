@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Bearbeiten eines vorhandenen Kalenderberichts
 description: Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Projekt hinzufügen oder löschen. Sie können auch die mit einem Kalenderbericht verknüpften Kalendergruppierungen ändern.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Pr
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Pr
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -51,7 +51,7 @@ Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Pr
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, 
 
    1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
 
-      * [Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 

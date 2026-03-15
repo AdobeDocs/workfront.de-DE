@@ -4,17 +4,17 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Arbeits- und Teamanfragen verwalten
 description: Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen und Teamanfragen an Teams gesendet.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Arbeits- und Teamanfragen verwalten
+# Verwalten von Arbeits- und Team-Anfragen
 
 Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen und Teamanfragen an Teams gesendet.
 
@@ -24,7 +24,7 @@ Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeit
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,12 +42,12 @@ Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeit
   <p>Überprüfen oder höher</p>
    <p>So weisen Sie eine Anfrage neu zu:
    <p>Standard</p>
-   <p>Arbeit oder höher</p></td>
+   <p>Work oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

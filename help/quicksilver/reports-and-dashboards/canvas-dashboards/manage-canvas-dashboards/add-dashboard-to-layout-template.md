@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Hinzufügen eines Canvas-Dashboards zu einer Layout-Vorlage
+title: Hinzufügen eines Arbeitsflächen-Dashboards zu einer Layout-Vorlage
 description: Sie können einer Layout-Vorlage ein Arbeitsflächen-Dashboard hinzufügen, sodass es die Startseiten-Einstiegsseite ersetzt, im linken Bereich eines Objekts angezeigt oder an die obere Leiste angeheftet wird.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
-# Hinzufügen eines Canvas-Dashboards zu einer Layout-Vorlage
+# Hinzufügen eines Arbeitsflächen-Dashboards zu einer Layout-Vorlage
 
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -31,7 +31,7 @@ Sie können einer Layout-Vorlage ein Arbeitsflächen-Dashboard hinzufügen, soda
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -49,7 +49,7 @@ Sie können einer Layout-Vorlage ein Arbeitsflächen-Dashboard hinzufügen, soda
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -67,7 +67,7 @@ Sie können einer Layout-Vorlage ein Arbeitsflächen-Dashboard hinzufügen, soda
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Hinzufügen eines Canvas-Dashboards zum linken Panel

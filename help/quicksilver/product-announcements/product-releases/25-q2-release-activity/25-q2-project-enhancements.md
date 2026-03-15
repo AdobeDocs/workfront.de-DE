@@ -1,13 +1,14 @@
 ---
 title: Projektverbesserungen im zweiten Quartal 2025
 description: Projektverbesserungen im zweiten Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+exl-id: b20300d7-77d6-46f5-a458-23f7b84ef29b
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 

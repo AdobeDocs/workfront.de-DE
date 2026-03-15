@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Uhrzeit- und Datumsunterschiede berechnen'
+title: 'Ansicht: Zeit- und Datumsunterschiede berechnen'
 description: Erfahren Sie, wie Sie Zeit- und Datumsunterschiede berechnen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Sie können die Zeit- und Datumsdifferenz in Adobe Workfront zwischen zwei verschiedenen Objekten desselben Typs nicht berechnen. Sie können beispielsweise nicht die Uhrzeit- und Datumsdifferenz zwischen zwei Terminen für zwei verschiedene Projekte, Aufgaben oder Probleme berechnen.
+>Sie können die Zeit- und Datumsdifferenz in Adobe Workfront zwischen zwei verschiedenen Objekten desselben Typs nicht berechnen. Beispielsweise können Sie die Zeit- und Datumsdifferenz zwischen zwei Datumsangaben in zwei verschiedenen Projekten, Vorgängen oder Problemen nicht berechnen.
 
-Sie können die Differenz zwischen den folgenden Werten berechnen:
+Sie können den Unterschied zwischen den folgenden berechnen:
 
-* Die Zeit- und Datumsdifferenz zwischen zwei Datumsfeldern auf demselben Objekt
-* Die Zeit- und Datumsdifferenz zwischen einem Feld auf einem Objekt und einem anderen Feld auf dem übergeordneten Objekt
+* Die Zeit- und Datumsdifferenz zwischen zwei Datumsfeldern im selben Objekt
+* Die Zeit- und Datumsdifferenz zwischen einem Feld eines Objekts und einem anderen Feld des übergeordneten Objekts
 
 >[!TIP]
 >
->Diese Berechnungen zeigen die Anzahl der Tage zwischen den beiden Datumsangaben an. Das Ergebnis wird in Tagen angezeigt. Der Zeitstempel im Datumsfeld wird ebenfalls berücksichtigt und auf die Anzahl der Tage können Dezimalstellen folgen, wenn die Zeitstempel nicht übereinstimmen. Wenn die Aufgabe zu spät abgeschlossen wurde, wird die Anzahl der Tage als negativer Wert angezeigt.
+>Diese Berechnungen zeigen die Anzahl der Tage zwischen den beiden Datumsangaben an. Das Ergebnis wird in Tagen angezeigt. Der Zeitstempel im Datumsfeld wird ebenfalls berücksichtigt, und auf die Anzahl der Tage können Dezimalstellen folgen, wenn die Zeitstempel nicht übereinstimmen. Wenn die Aufgabe verspätet abgeschlossen wurde, wird die Anzahl der Tage als negativer Wert angezeigt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,41 +46,41 @@ Sie können die Differenz zwischen den folgenden Werten berechnen:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
-   <p>Standard oder Plan zum Ändern eines Berichts</p>
+   <p>Anbieter oder Anforderung zum Ändern eines Filters </p>
+   <p>Standard oder Abo zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern eines Filters</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Berechnung der Uhrzeit- und Datumsdifferenz zwischen zwei Datumsfeldern auf demselben Objekt
+## Berechnen der Zeit- und Datumsdifferenz zwischen zwei Datumsfeldern im selben Objekt
 
-Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum und dem tatsächlichen Abschlussdatum einer Aufgabe berechnen.
+Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum und dem aktuellen Abschlussdatum eines Vorgangs berechnen.
 
-![Datumsunterschied anzeigen](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![Datumsdifferenz anzeigen](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
-1. Zu einer Aufgabenliste gehen.
-1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.
+1. Wechseln Sie zu einer Liste von Aufgaben.
+1. Klicken Sie im Dropdown-Menü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicken Sie **Spalte hinzufügen** und geben Sie „Geplantes Abschlussdatum“ in das Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen**, und geben Sie im Feld **In dieser Spalte anzeigen** &quot;Geplantes Abschlussdatum&quot; ein. Wählen Sie diese Spalte aus, wenn sie in der Liste angezeigt wird.
 
-1. Klicken Sie auf **Spalte hinzufügen** und geben Sie „Tatsächliches Abschlussdatum“ in das Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen**, und geben Sie im Feld **In dieser Spalte anzeigen** &quot;Aktuelles Abschlussdatum&quot; ein. Wählen Sie diese Spalte aus, wenn sie in der Liste angezeigt wird.
 
-1. Klicken Sie **Spalte hinzufügen** und dann auf **In Textmodus wechseln**.
+1. Klicken Sie auf **Spalte hinzufügen**, und klicken Sie dann auf **In Textmodus wechseln**.
 
-1. Bewegen Sie den Mauszeiger über den Bereich für den Textmodus und klicken Sie auf **Klicken, um Text zu bearbeiten**.
-1. Entfernen Sie den Text aus dem Feld **Textmodus** und ersetzen Sie ihn durch den folgenden Code:
+1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Klicken Sie, um Text zu bearbeiten**.
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch folgenden Code:
 
    ```
     displayname=Planned-Actual Completion Date
@@ -91,26 +91,26 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum u
     valueformat=HTML
    ```
 
-1. Klicken Sie **Speichern** und dann **Ansicht speichern**.
+1. Klicken Sie auf **Speichern** und anschließend auf **Ansicht speichern**.
 
-## Berechnen Sie die Zeit- und Datumsdifferenz zwischen dem Feld eines Objekts und einem anderen Feld eines übergeordneten Objekts
+## Berechnen der Zeit- und Datumsdifferenz zwischen dem Feld eines Objekts und einem anderen Feld eines übergeordneten Objekts
 
-Eine Liste der Objekte und der ihnen übergeordneten Objekte finden Sie im Abschnitt „Grundlagen der Interdependenz und Hierarchie von Objekten“ in [Grundlegendes zu Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum einer Aufgabe und dem geplanten Abschlussdatum der übergeordneten Aufgabe oder des Projekts, in dem die Aufgabe ausgeführt wird, berechnen.
+Eine Liste der Objekte und ihrer übergeordneten Objekte finden Sie im Abschnitt &quot;Verstehen der Interdependenz und Hierarchie von Objekten&quot; in [Verstehen von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum eines Vorgangs und dem geplanten Abschlussdatum des übergeordneten Vorgangs oder des Projekts, an dem sich der Vorgang befindet, berechnen.
 
 ![Geplanten Abschlussdatumsunterschied anzeigen](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
-1. Zu einer Aufgabenliste gehen.
-1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.
+1. Wechseln Sie zu einer Liste von Aufgaben.
+1. Klicken Sie im Dropdown-Menü **Ansicht** auf **Neue Ansicht**.
 
-1. Klicken Sie auf **Spalte hinzufügen** und geben Sie im Feld „In dieser Spalte anzeigen“ entweder „Geplantes Abschlussdatum des Projekts“ oder **Übergeordnetes Abschlussdatum** ein. Wählen Sie das Feld aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen** und geben Sie im Feld **In dieser Spalte anzeigen** das Feld &quot; Projekt geplant Abschlussdatum&quot; oder &quot;Übergeordnetes Abschlussdatum&quot; ein. Wählen Sie es dann aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken Sie **Spalte hinzufügen** und geben Sie „Geplantes Abschlussdatum“ in das Feld **In dieser Spalte anzeigen** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf **Spalte hinzufügen**, und geben Sie im Feld **In dieser Spalte anzeigen** &quot;Geplantes Abschlussdatum&quot; ein. Wählen Sie diese Spalte aus, wenn sie in der Liste angezeigt wird.
 
-1. Klicken Sie **Spalte hinzufügen** und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch einen der folgenden Codes:
+1. Klicken Sie auf **Spalte hinzufügen**, und klicken Sie dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch einen der folgenden Codes:
 
-   * So zeigen Sie die Differenz zwischen dem geplanten Abschlussdatum des Projekts und dem der Aufgabe an:
+   * So zeigen Sie die Differenz zwischen dem geplanten Abschlussdatum des Projekts und dem des Vorgangs an:
 
      ```
       displayname=Project Planned Completion - Task Planned Completion (Days)
@@ -119,7 +119,7 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum e
       valueformat=HTML
      ```
 
-   * So zeigen Sie die Differenz zwischen dem geplanten Abschlussdatum der übergeordneten Aufgabe und dem der Aufgabe an:
+   * So zeigen Sie die Differenz zwischen dem geplanten Abschlussdatum des übergeordneten Vorgangs und dem des Vorgangs an:
 
      ```
       valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
@@ -127,4 +127,4 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum e
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klicken Sie **Fertig** und dann **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** und anschließend auf **Ansicht speichern**.

@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Anzeigen: Freizeit des Benutzers'
+title: 'Ansicht: Ausfallzeit des Benutzers bzw. der Benutzerin'
 description: 'Anzeigen: Arbeitsfreie Zeit des Benutzers'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 5%
+ht-degree: 26%
 
 ---
 
-# Anzeigen: Freizeit des Benutzers
+# Ansicht: Ausfallzeit des Benutzers bzw. der Benutzerin
 
 <!--Audited: 11/2024-->
 
@@ -26,7 +26,7 @@ Sie können einen Bericht zu Ausfallzeiten erstellen, um die Urlaubszeiten der B
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Sie können einen Bericht zu Ausfallzeiten erstellen, um die Urlaubszeiten der B
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Der Bericht zeigt standardmäßig die folgenden Felder in der Ansicht an:
 
-   | Benutzerin bzw. Benutzer | Der Name des Benutzers, der die Urlaubszeit in seinem Profil angegeben hat. |
+   | Benutzerin oder Benutzer | Der Name des Benutzers, der die Urlaubszeit in seinem Profil angegeben hat. |
    |---|---|
    | Startdatum | Das Startdatum des Zeitraums der Ausfallzeit, den der Benutzer angegeben hat. |
    | Enddatum | Das Enddatum des von der Benutzerin bzw. dem Benutzer angegebenen Urlaubzeitraums. |

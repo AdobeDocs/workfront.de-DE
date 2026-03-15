@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
 description: Sie können die Art der Informationen, die Sie auf dem Bildschirm anzeigen, mithilfe von Ansichten anpassen. Sie können in Adobe Workfront verschiedene Ansichtstypen verwenden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -38,13 +38,13 @@ Weitere Informationen finden Sie unter [Ansichten - Übersicht in Adobe Workfron
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-    <p>Mitwirkender oder höher</p>
-    <p>Anfrage oder höher</p>
+    <p>Mitwirkende oder höher</p>
+    <p>Anfragende oder höher</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p>
+   <td> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie unter [Ansichten - Übersicht in Adobe Workfron
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Erstellen oder Anpassen einer Ansicht
@@ -96,7 +96,7 @@ Das **Ansicht anpassen** wird angezeigt.
            <td><ul>
            <li>Count</li>
          <li>Sum</li>
-           <li>Durchschnitt</li>
+           <li>Durchschnittlicher</li>
          <li>Maximum</li>
            <li>Minimum</li>
          </ul></td> 
@@ -127,7 +127,7 @@ Das **Ansicht anpassen** wird angezeigt.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Benutzerdefiniertes Spalten-Label</strong></td> 
-           <td><p>Geben Sie eine benutzerdefinierte Beschriftung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p></td> 
+           <td><p>Geben Sie eine benutzerdefinierte Bezeichnung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Feldformat</strong></td> 
@@ -162,11 +162,11 @@ Das **Ansicht anpassen** wird angezeigt.
 
 Sie können Projekte mit einer Agile-Methode mithilfe einer Board-Ansicht verwalten.
 
-Pinnwand-Ansichten sind nur für Listen von Aufgaben und Problemen in einem Projekt verfügbar.
+Board-Ansichten sind nur für Listen von Aufgaben und Problemen in einem Projekt verfügbar.
 
-Sie sind vorkonfiguriert, Sie können jedoch bestimmte Einstellungen für sie ändern.
+Sie sind vorkonfiguriert, Sie können jedoch bestimmte Einstellungen ändern.
 
-Weitere Informationen zu Agile- oder Board-Ansichten finden Sie im Artikel [Verwalten eines Agile-Projekts in der Board-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Weitere Informationen zu Agile- oder Board-Ansichten finden Sie im Artikel [Agile-Projekte in der Board-Ansicht verwalten](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

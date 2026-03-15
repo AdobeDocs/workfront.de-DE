@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Einbetten einer externen Web-Seite in ein Dashboard
 description: Sie können eine externe Web-Seite in ein Dashboard einbetten, um Zugriff auf zugehörige Informationen von anderen Systemen in Adobe Workfront oder anderen Workfront-Seiten zu gewähren.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Wenn Ihr Unternehmen beispielsweise über ein Web-basiertes Dokument-Repository,
 >
 >
 >* Dashboard-Seiten werden nicht mehr als eingebettete externe Seiten in Dashboards unterstützt. Vorhandene Dashboards werden zwar nicht automatisch geändert, um diese externen Seiten zu entfernen, aber Änderungen an einem Dashboard, das einen solchen Verweis enthält, können erst gespeichert werden, wenn der Verweis entfernt oder geändert wird.
->  &#x200B;> Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
+> Insbesondere werden die folgenden Workfront.com-Subdomains nicht mehr unterstützt:
 >
 >     * /dashboards&#x200B;
 >     * /dashboard/:ID&#x200B;
@@ -51,7 +51,7 @@ Wenn Ihr Unternehmen beispielsweise über ein Web-basiertes Dokument-Repository,
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +65,7 @@ Wenn Ihr Unternehmen beispielsweise über ein Web-basiertes Dokument-Repository,
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Wenn Ihr Unternehmen beispielsweise über ein Web-basiertes Dokument-Repository,
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

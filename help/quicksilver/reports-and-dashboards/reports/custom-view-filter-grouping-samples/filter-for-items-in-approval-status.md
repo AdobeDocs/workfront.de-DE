@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Nur Elemente mit einem Genehmigungsstatus anzeigen'
 description: Sie können nur Elemente in einem bestimmten Status anzeigen, der sich derzeit in der ausstehenden Genehmigung befindet. Dies funktioniert bei allen anderen Objekten mit einem Genehmigungsstatus genauso.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können die folgenden Objekte in einen Genehmigungsstatus versetzen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Sie können die folgenden Objekte in einen Genehmigungsstatus versetzen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

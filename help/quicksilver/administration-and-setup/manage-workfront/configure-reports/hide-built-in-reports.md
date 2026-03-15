@@ -6,12 +6,12 @@ title: Integrierte Berichte ausblenden
 description: Adobe Workfront verfügt über eine umfangreiche Liste integrierter Standardberichte, auf die Benutzende zugreifen und die sie anzeigen können. Als Workfront-Administrator können Sie die Zugriffsebene von Benutzenden ändern, um integrierte Berichte auszublenden, sodass die Benutzenden keinen Zugriff darauf haben.
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront verfügt über eine umfangreiche Liste integrierter Standardberi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Adobe Workfront verfügt über eine umfangreiche Liste integrierter Standardberi
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Adobe Workfront verfügt über eine umfangreiche Liste integrierter Standardberi
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

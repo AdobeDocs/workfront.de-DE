@@ -4,21 +4,21 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: Projektaufschlüsselung in Prozent 2'
 description: 'In dieser benutzerdefinierten Projektgruppierung können Sie Projekte gruppiert nach einem Bereich der Werte für den abgeschlossenen Prozentsatz anzeigen. Die Aufschlüsselungen zeigen den prozentualen Abschlusswert von 10 Prozentpunktinkrementen: 0-10 %, 11-20 %, 21-30 % usw.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 1%
+ht-degree: 18%
 
 ---
 
-# Gruppierung: Projektaufschlüsselung in Prozent 2
+# Gruppierung: Prozentuale Aufschlüsselung des Projekts 2
 
 <!--Audited: 10/2024-->
 
-In dieser benutzerdefinierten Projektgruppierung können Sie Projekte gruppiert nach einem Bereich der Werte für den abgeschlossenen Prozentsatz anzeigen. Die Aufschlüsselungen zeigen den prozentualen Abschlusswert von 10 Prozentpunktinkrementen: 0-10 %, 11-20 %, 21-30 % usw.
+In dieser benutzerdefinierten Projektgruppierung können Sie Projekte gruppiert nach einem Bereich der Werte für den abgeschlossenen Prozentsatz anzeigen. Die Aufschlüsselungen zeigen einen prozentualen Gesamtwert von 10 Prozentpunkten: 0-10%, 11-20%, 21-30% usw.
 
 Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlossen“ in eine der folgenden Gruppierungen organisiert:
 
@@ -39,7 +39,7 @@ Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlo
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
-   <p>Standard oder Plan zum Ändern eines Berichts</p>
+   <p>Standard oder Abo zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -66,7 +66,7 @@ Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlo
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +77,7 @@ Um diese Gruppierung anzuwenden:
 1. Zu einer Projektliste gehen.
 1. Wählen Sie **Dropdown-Menü** Gruppierung“ **Neue Gruppierung** aus.
 
-1. Klicken Sie **In Textmodus wechseln**.
+1. Klicken Sie auf **In Textmodus wechseln**.
 1. Entfernen Sie den Text im Feld und fügen Sie den folgenden Code in den verfügbaren Bereich ein:
 
    ```

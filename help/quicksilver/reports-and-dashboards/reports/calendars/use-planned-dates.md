@@ -3,17 +3,17 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Verwenden von geplanten Terminen in Kalenderberichten
 description: Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstellt. Sie können die Felder für das geplante Datum in einem Kalenderbericht für Aufgaben, Probleme und Projekte verwenden.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
-# Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht
+# Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
@@ -27,7 +27,7 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -55,7 +55,7 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,10 +93,10 @@ Klicken Sie auf **[!UICONTROL + Neuer Kalender]** und geben Sie den Kalendername
       <td role="rowheader"><strong>[!UICONTROL Datumsfeld]</strong></td>
       <td><p>Wählen Sie <strong>[!UICONTROL Geplante Termine]</strong>. Weitere Informationen über geplante Termine finden Sie unter </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Übersicht über das geplante Startdatum des Projekts</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über das geplante Startdatum der Aufgabe</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Übersicht über das geplante Abschlussdatum der Aufgabe</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Geplantes Abschlussdatum für das Projekt festlegen</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Überblick über das geplante Startdatum des Projekts</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Überblick über das geplante Startdatum der Aufgabe</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Überblick über das geplante Abschlussdatum der Aufgabe</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Festlegen des geplanten Abschlussdatums für das Projekt</a><br></li>
        </ul></td>
      </tr>
      <tr>
@@ -112,8 +112,8 @@ Klicken Sie auf **[!UICONTROL + Neuer Kalender]** und geben Sie den Kalendername
       <td role="rowheader"><strong>[!UICONTROL Zu tatsächlichen Daten wechseln, falls verfügbar]</strong></td>
       <td><p>Der Kalender wechselt automatisch zu tatsächlichen Daten, wenn sie verfügbar sind. <br>Wählen Sie <strong>[!UICONTROL Yes]</strong> oder <strong>[!UICONTROL No]</strong>, um zu den tatsächlichen Daten zu wechseln, sofern verfügbar. Weitere Informationen über tatsächliche Termine finden Sie unter</p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das tatsächliche Startdatum des Projekts </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das tatsächliche Abschlussdatum des Projekts </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Überblick über das tatsächliche Startdatum des Projekts </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Überblick über das tatsächliche Abschlussdatum des Projekts </a></li>
        </ul></td>
      </tr>
     </tbody>

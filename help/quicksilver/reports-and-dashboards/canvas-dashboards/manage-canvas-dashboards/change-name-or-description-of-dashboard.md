@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern
+title: Ändern des Namens oder der Beschreibung eines Arbeitsflächen-Dashboards
 description: Sie können den Namen oder die Beschreibung eines Arbeitsflächen-Dashboards bearbeiten, nachdem es erstellt wurde.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern
+# Ändern des Namens oder der Beschreibung eines Arbeitsflächen-Dashboards
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Alle Änderungen, die Sie an einem Dashboard vornehmen, wirken sich auf alle Ben
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -50,7 +50,7 @@ Alle Änderungen, die Sie an einem Dashboard vornehmen, wirken sich auf alle Ben
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -67,7 +67,7 @@ Alle Änderungen, die Sie an einem Dashboard vornehmen, wirken sich auf alle Ben
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen

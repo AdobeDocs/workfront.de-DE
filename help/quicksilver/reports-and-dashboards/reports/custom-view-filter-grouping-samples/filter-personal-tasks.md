@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Persönliche Aufgaben'
 description: Dieser Aufgabenfilter gibt Ad-hoc-Arbeitsanfragen zurück, die an einen Benutzer gesendet wurden, oder Aufgabenelemente, die von Benutzern im Bereich Startseite hinzugefügt wurden. Persönliche Aufgaben sind nicht mit einem Projekt verbunden, können jedoch bei Bedarf in ein Projekt verschoben werden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Filter: persönliche Aufgaben
+# Filter: Persönliche Aufgaben
 
 <!--Audited: 10/2024-->
 
@@ -28,7 +28,7 @@ Persönliche Aufgaben sind nicht mit einem Projekt verbunden, können jedoch bei
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Persönliche Aufgaben sind nicht mit einem Projekt verbunden, können jedoch bei
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

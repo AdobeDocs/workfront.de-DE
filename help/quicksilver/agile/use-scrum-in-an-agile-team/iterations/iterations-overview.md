@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Übersicht über Iterationen
 description: 'Agile Iterationen bestehen aus drei Bereichen: Abschlussstatus, Burndown und Story Board.'
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Übersicht über Iterationen
+# Überblick über Iterationen
 
 Agile Iterationen bestehen aus drei Bereichen: Abschlussstatus, Burndown und Story Board.
 

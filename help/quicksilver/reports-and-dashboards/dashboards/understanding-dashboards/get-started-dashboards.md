@@ -4,13 +4,13 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Erste Schritte mit Dashboards
 description: Ein Dashboard bietet schnellen Zugriff auf Informationen. Sie können Informationen in Berichten sammeln und dann in Dashboards platzieren, um den Zugriff auf die Informationen zu vereinfachen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Ein Dashboard bietet schnellen Zugriff auf Informationen aus mehreren Berichten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Ein Dashboard bietet schnellen Zugriff auf Informationen aus mehreren Berichten.
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-      <p>Mitwirkender oder höher</p>
+      <p>Mitwirkende oder höher</p>
       <p>Überprüfen oder höher</p>
    </td> 
   </tr> 
@@ -51,7 +51,7 @@ Ein Dashboard bietet schnellen Zugriff auf Informationen aus mehreren Berichten.
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Weitere Informationen zum Erstellen eines Dashboards finden Sie unter [Dashboard
 Sie können ein Dashboard wie folgt für Benutzer freigeben:
 
 * Freigabe auf individueller Basis.\
-  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Ein Dashboard zu einem Bereich oder Objekt in Workfront im linken Bereich hinzufügen.\
   Weitere Informationen zum Hinzufügen von Dashboards im linken Bereich finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).

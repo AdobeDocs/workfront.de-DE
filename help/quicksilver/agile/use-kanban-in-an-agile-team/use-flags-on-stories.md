@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Flags für Storys im Kanban-Board verwenden
 description: Auf dem  [!DNL Kanban]  bieten Flags einen visuellen Hinweis darauf, wann eine Story bereit ist, zum nächsten Status zu wechseln. Dadurch können Kanban-Teams beim Verschieben von Storys über Status hinweg einen „Pull“-Ansatz anstelle eines „Push“-Ansatzes verwenden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Flags auf Storys auf dem Kanban[!UICONTROL Board &#x200B;]
+# Flags auf Storys auf dem Kanban[!UICONTROL Board ]
 
 Auf der [!DNL Kanban] bieten Flags einen visuellen Hinweis darauf, wann eine Story bereit ist, zum nächsten Status zu wechseln. Dadurch können [!UICONTROL Kanban]-Teams beim Verschieben von Storys über Status hinweg einen „Pull“-Ansatz anstelle eines „Push“-Ansatzes verwenden.
 
@@ -28,7 +28,7 @@ Beachten Sie Folgendes, wenn Sie -Flags für Storys verwenden:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,16 @@ Beachten Sie Folgendes, wenn Sie -Flags für Storys verwenden:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Flags auf Storys auf dem Kanban[!UICONTROL Board &#x200B;]
+## Flags auf Storys auf dem Kanban[!UICONTROL Board ]
 
 So ändern Sie eine Markierung für eine Story:
 
@@ -72,10 +72,10 @@ Die Markierung ist standardmäßig auf **[!UICONTROL Auf Kurs]** für jede Story
      Dies ist die Standardmarkierung für jede Story auf dem Kanban-Board.
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Ist blockiert]:** Die Story kann nicht mit dem nächsten Status fortfahren. Wenn diese Markierung für eine Story gesetzt wird, zählt die Story nicht zum WIP-Limit. (Weitere Informationen zu Fertigstellungsbeschränkungen finden Sie im Artikel [Konfigurieren von &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
+   * **[!UICONTROL Ist blockiert]:** Die Story kann nicht mit dem nächsten Status fortfahren. Wenn diese Markierung für eine Story gesetzt wird, zählt die Story nicht zum WIP-Limit. (Weitere Informationen zu Fertigstellungsbeschränkungen finden Sie im Artikel [Konfigurieren von ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
 
      ![kanban_flag_block.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Bereit zum &#x200B;]:** Die Story kann von einem anderen Teammitglied in den nächsten Status verschoben werden.
+   * **[!UICONTROL Bereit zum ]:** Die Story kann von einem anderen Teammitglied in den nächsten Status verschoben werden.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

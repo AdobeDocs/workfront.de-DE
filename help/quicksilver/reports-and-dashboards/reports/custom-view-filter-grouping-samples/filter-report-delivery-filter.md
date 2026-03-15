@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Anzeigen von für den Versand geplanten Berichten'
 description: Dieser Berichtsfilter zeigt alle Berichte an, die automatisch in Adobe Workfront bereitgestellt werden sollen. Dies empfiehlt sich am besten bei der Standardansicht.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 11%
+ht-degree: 27%
 
 ---
 
-# Filter: Anzeigen von für den Versand geplanten Berichten
+# Filter: Berichte anzeigen, deren Versand geplant ist
 
 <!--Audited: 10/2024-->
 
@@ -49,7 +49,7 @@ Dieser Berichtsfilter zeigt alle Berichte an, die automatisch in Adobe Workfront
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

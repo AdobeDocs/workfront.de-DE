@@ -2,19 +2,19 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: 'Übersicht über Agile-Planungs-Tools: Artikelindex'
+title: 'Überblick über Agile-Planungs-Tools: Artikelindex'
 description: Wenn Sie ein Board mit Ad-hoc- und verbundenen Karten erstellen, können Sie auf Boards zusätzliche Agile-Planungs-Tools nutzen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 0%
+ht-degree: 37%
 
 ---
 
-# Übersicht über Agile-Planungs-Tools: Artikelindex
+# Überblick über Agile-Planungs-Tools: Artikelindex
 
 <!-- Audited: 5/2025 -->
 
@@ -40,13 +40,13 @@ Sie können eines oder alle dieser Tools auf eine Weise verwenden, die für Sie 
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Verwalten des Work In Progress (WIP)-Limits auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
+* [Verwalten der Work In Progress (WIP)-Beschränkung auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Verwenden von Gruppen auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-* [Konfigurieren von Karten-Falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrieren von Agile-Team-Kanban-Karten zu Workfront-Boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
-* [Arbeitsabläufe verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Konfigurieren der Verringerung von Karten](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Migrieren von Agile-Team-Kanban-Karten zu Pinnwänden in Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Verwalten von Arbeitsabläufen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Erstellen einer Iteration in einem Arbeitsablauf](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
-* [Konfigurieren des Rückstands auf einer Workstream-Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
-* [Wiederholungsmetriken überprüfen](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+* [Konfigurieren des Rückstands auf einer Pinnwand für einen Arbeitsablauf](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
+* [Überprüfen von Iterations-Metriken](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

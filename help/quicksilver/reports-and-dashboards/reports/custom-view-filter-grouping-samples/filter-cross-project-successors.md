@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: Anzeige unvollständiger projektübergreifender Nachfolger'
+title: 'Filter: Unvollständige projektübergreifende Nachfolger anzeigen'
 description: Dieser Aufgabenfilter gibt unvollständige projektübergreifende Nachfolger zurück.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
-# Filter: Anzeige unvollständiger projektübergreifender Nachfolger
+# Filter: Unvollständige projektübergreifende Nachfolger anzeigen
 
 Dieser Aufgabenfilter gibt unvollständige projektübergreifende Nachfolger zurück.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Dieser Aufgabenfilter gibt unvollständige projektübergreifende Nachfolger zur�
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

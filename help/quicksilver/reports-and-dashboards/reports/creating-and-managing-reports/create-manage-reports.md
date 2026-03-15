@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports
 title: Erstellen und Verwalten von Berichten
 description: Erfahren Sie, wie Sie Berichte erstellen und verwalten
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -24,7 +24,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 * [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
 * [Bericht ausführen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
-* [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
+* [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [Kopie eines Berichts erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
 * [Berichte nach Zeitrahmen filtern](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -35,7 +35,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)
 * [Senden eines Berichts in der Sandbox-Vorschau-Umgebung](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md)
 * [Referenzieren eines benutzerdefinierten Formulars in einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md)
-* [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)
+* [Exportieren von Daten](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)
 * [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [Berichteinstellungen bearbeiten](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [Ändern des Inhabers eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)

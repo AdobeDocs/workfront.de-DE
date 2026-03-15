@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports
 title: 'Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen: Artikelindex'
 description: Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen, die Sie in Ihrem Adobe Workfront-Konto verwenden können.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -66,14 +66,14 @@ Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter un
 * [Anzeigen: Vorgängerdetails](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [Anzeigen: Projekt mit allen Benutzenden und Rollen des Projektteams](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [Anzeigen: Liste der Projektbenutzer mit Aufgabengebieten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
-* [Anzeigen : Entfernen eines Links zu einem Objekt in einer Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [Ansicht: Link zu einem Objekt in einer Spalte entfernen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
 * [Anzeigen: In Berichten verwendete Berichterstellungselemente](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-* [Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+* [Ansicht: Lösbare Objekte in einem Aufgaben- oder Projektbericht](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
@@ -85,7 +85,7 @@ Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter un
 * [Anzeigen: Aufgaben, die von Zeitplanausnahmen betroffen sind](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
 * [Anzeigen: externe URL mithilfe eines benutzerdefinierten Datenfelds](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
 * [Anzeigen: Prozentsatz der FTE-Verfügbarkeit für das Aufgabengebiet des Benutzers](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
-* [Anzeigen: Freizeit des Benutzers](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+* [Ansicht: Ausfallzeit des Benutzers bzw. der Benutzerin](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
@@ -95,7 +95,7 @@ Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter un
 
 * [Filter: Zeigt unvollständige projektübergreifende Vorgänger an](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [Filter: Anzeige unvollständiger projektübergreifender Nachfolger](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-* [Filter: persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
+* [Filter: Persönliche Aufgaben](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [Filter: Aktuelle Projekte mit ausstehender Genehmigung anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [Filter: Zeigt nur Elemente mit einem Genehmigungsstatus an](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [Filtern: Eliminieren Sie Elemente in einer Liste, indem Sie zwei Felder vergleichen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
@@ -103,13 +103,13 @@ Dieser Abschnitt enthält Beispiele für benutzerdefinierte Ansichten, Filter un
 * [Filter: Bericht zu Korrekturabzugsgenehmigungen, in dem frühere Korrekturabzugsversionen weggelassen werden](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
 * [Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen (AND-Anweisungen)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
 * [Filter: Anzeigen von für den Versand geplanten Berichten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-* [Filtern : Zeigt Elemente mit demselben Namen-Status an, wenn die Status mit verschiedenen Gruppen verknüpft sind](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [Filter: Elemente nach gleichnamigen Status anzeigen, wenn die Status mit verschiedenen Gruppen verknüpft sind](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## Beispiele für benutzerdefinierte Gruppierungen
 
 * [Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachauswahlfeld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
 * [Gruppierung: Hauptgruppe des Projektbesitzers in einer Stundenliste](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [Gruppierung: 4-stufige Aufgabengruppierung für Portfolio-Inhaber, Programm-Inhaber, Projekt-Inhaber und Projektstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [Gruppierung: 4-stufige Aufgabengruppierung für Portfolio-Verantwortlichen, Programm-Verantwortliche, Projekt-Verantwortliche und Projektstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
 * [Gruppierung: Eine vierte Gruppierung zu einer Liste hinzufügen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Gruppierung: Organisieren Sie die Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Gruppierung: Zeigt das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung an](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Namen der übergeordneten Aufgaben in Großbuchstaben anzeigen'
 description: Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in Großbuchstaben anzuzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Diese Spalte in einer Aufgabenansicht erstellen:
 
 1. Zu einer Aufgabenliste gehen.
 1. Wählen **aus dem Dropdown** Menü „Ansicht“ eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
-Oder\
+ODER\
    Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
 1. Klicken Sie im Bereich **Spaltenvorschau** auf die Kopfzeile der Spalte, die den Aufgabennamen in der Liste anzeigt.

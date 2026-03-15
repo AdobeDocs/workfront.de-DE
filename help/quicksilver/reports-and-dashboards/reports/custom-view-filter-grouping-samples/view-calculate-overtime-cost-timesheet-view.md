@@ -4,13 +4,13 @@ product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Überstundenkosten in einer Arbeitszeittabellen-Ansicht berechnen'
 description: In Adobe Workfront werden Überstunden nicht standardmäßig berechnet. Sie können jedoch einen Arbeitszeittabellen-Bericht erstellen, der die Überstunden berechnet.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Informationen zur Zuordnung von Kosten pro Stunde zu Benutzerinnen und Benutzern
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +58,7 @@ Informationen zur Zuordnung von Kosten pro Stunde zu Benutzerinnen und Benutzern
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Überstundenkosten in einer Arbeitszeittabellen-Ansicht berechnen

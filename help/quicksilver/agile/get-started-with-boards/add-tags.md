@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Tags hinzufügen
 description: Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. Anschließend können Sie nach diesen Tags filtern, um verwandte Karten anzuzeigen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
-# Tags hinzufügen
+# Hinzufügen von Tags
 
 Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. Anschließend können Sie nach diesen Tags filtern, um verwandte Karten anzuzeigen.
 
@@ -23,7 +23,7 @@ Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,14 +36,14 @@ Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**]&#x200B;[!UICONTROL &#x200B; Tags] die Option „Tag hinzufügen“ aus.
+1. Wählen [!UICONTROL  Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL  Tags] die Option „Tag hinzufügen“ aus.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
@@ -76,7 +76,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 1. Klicken Sie im Dashboard auf [!UICONTROL **Arbeitsablauf anzeigen**], um einen Arbeitsablauf zu öffnen.
 1. Öffnen Sie eine Pinnwand. Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon-spectrum.png) neben dem Board-Namen und wählen Sie dann **[!UICONTROL Tag Manager]**.
 
-   Oder
+   ODER
 
    Klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld [!UICONTROL Arbeitsablauf konfigurieren] zu öffnen. Klicken Sie dann auf **[!UICONTROL Tag-Manager]**.
 
@@ -92,12 +92,12 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 1. Zugriff auf eine Pinnwand.
 1. Um die Kartendetails zu bearbeiten, klicken Sie auf die Karte (nicht im Kartennamen).
 
-   Oder
+   ODER
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
 1. Geben **[!UICONTROL in das Feld]** Tags“ den Namen eines vorhandenen Tags ein und wählen Sie es aus den Suchergebnissen aus.\
-   Oder\
+   ODER\
    Klicken Sie auf **[!UICONTROL Bearbeiten]**&#x200B;Symbol ![Tag bearbeiten](assets/boards-edittag-30x29.png) und erstellen Sie ein neues Tag im Tag-Manager. Klicken Sie **Fertig**, um zur Karte zurückzukehren, und wählen Sie dann das Tag auf der Karte aus.
 1. Klicken Sie auf **Schließen**.
 
@@ -117,7 +117,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 1. Zugriff auf eine Pinnwand.
 1. Um die Kartendetails zu bearbeiten, klicken Sie auf die Karte (nicht im Kartennamen).
 
-   Oder
+   ODER
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 

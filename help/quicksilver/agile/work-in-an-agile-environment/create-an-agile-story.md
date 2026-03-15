@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Erstellen einer Agile-Story
 description: Sie können eine Agile-Story bei einer Iteration auf verschiedene Arten erstellen. Nachdem Sie eine Agile-Story erstellt haben, können Sie der Story Unteraufgaben hinzufügen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,7 @@ Informationen zum Verwalten der Story, nachdem sie der Iteration hinzugefügt wu
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    {{step1-to-team}}
 
-   1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+   1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
    1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
    1. Klicken Sie auf den Namen der spezifischen Iteration, für die Sie eine Story erstellen möchten.
@@ -80,23 +80,23 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Geben Sie eine Beschreibung für die Story ein.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL bereit]</strong></td>
-      <td>Wählen Sie diese Option, wenn die Story bereit zum Hinzufügen zu einer Iteration ist. Wenn diese Option ausgewählt ist, zeigt sie den Benutzenden an, welche Storys im Rückstand bereit zum Hinzufügen zu einer Iteration sind.<br>Eine Story kann zu einer Iteration hinzugefügt werden, unabhängig davon, ob sie <strong>[!UICONTROL Ready] markiert ist oder nicht.</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Bereit]</strong></td>
+      <td>Wählen Sie diese Option, wenn die Story bereit zum Hinzufügen zu einer Iteration ist. Wenn diese Option ausgewählt ist, zeigt sie den Benutzenden an, welche Storys im Rückstand bereit zum Hinzufügen zu einer Iteration sind.<br>Ein Story kann einer Iteration hinzugefügt werden, unabhängig davon, ob er als <strong>[!UICONTROL Ready] markiert ist.</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Schätzung] (Punkte)</strong></td>
-      <td>Geben Sie den Schätzwert für die Story an. Wenn Ihr Agile-Team so konfiguriert ist, dass Geschichten in Punkten geschätzt werden, entspricht standardmäßig 1 Punkt 8 Stunden. Die Schätzungen werden als [!UICONTROL Geplante Stunden] zur Story hinzugefügt.<br>Wenn Sie beispielsweise eine Story als 3 Punkte schätzen, fügt das Standardverhalten der Story 24 [!UICONTROL Geplante Stunden] hinzu.<br>Wenn eine Story Unteraufgaben enthält, denken Sie daran, dass die kombinierten Schätzungen für alle Unteraufgaben die Schätzung der übergeordneten Story bestimmen. Weitere Informationen finden Sie unter <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Hinzufügen von Storys zu einer vorhandenen Iteration</a>.</td>
+      <td role="rowheader"><strong>[!UICONTROL-Schätzung] (Punkte)</strong></td>
+      <td>Geben Sie die Schätzung für den Textabschnitt an. Wenn Ihr agiles Team so konfiguriert ist, dass Geschichten in Punkten geschätzt werden, entspricht standardmäßig 1 Punkt 8 Stunden. Die Schätzungen werden als [!UICONTROL Planned Hours] auf der Story hinzugefügt.<br>Wenn Sie beispielsweise einen Textabschnitt auf 3 Punkte schätzen, ist das Standardverhalten, der Textabschnitt um 24 [!UICONTROL Planned Hours] (Geplante Stunden) zu erweitern.<br>Wenn ein Textabschnitt Unteraufgaben enthält, denken Sie daran, dass die kombinierten Schätzungen für alle Unteraufgaben die Schätzung des übergeordneten Textabschnitts bestimmen. Weitere Informationen finden Sie unter <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Storys zu einer vorhandenen Iteration hinzufügen</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Übergeordnetes Projekt]</strong></td>
-      <td>Geben Sie den Namen des Projekts ein, mit dem diese Story verknüpft werden soll.<br>Standardmäßig wird die Farbe der Story mit derselben Farbe angezeigt wie bei anderen Stories aus diesem Projekt.<br>Der Status des Projekts muss auf [!UICONTROL Current] gesetzt werden. Wenn der Status des Projekts alles andere als [!UICONTROL Current] ist, wird er nicht im Dropdown-Menü angezeigt.</td>
+      <td role="rowheader"><strong>Übergeordnetes [!UICONTROL-Projekt]</strong></td>
+      <td>Beginnen Sie mit der Eingabe des Namens des Projekts, dem diese Story zugeordnet werden soll.<br>Standardmäßig wird die Textabschnittsfarbe in derselben Farbe wie die anderen Textabschnitte aus diesem Projekt angezeigt.<br>Der Status des Projekts muss auf [!UICONTROL Current] festgelegt werden. Wenn der Status des Projekts etwas Anderes als [!UICONTROL Current] ist, wird er nicht im Dropdown-Menü angezeigt.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Übergeordnete Aufgabe]</strong></td>
-      <td>Nachdem Sie ein übergeordnetes Projekt ausgewählt haben, haben Sie die Möglichkeit, eine übergeordnete Aufgabe auszuwählen. Wenn Sie eine übergeordnete Aufgabe auswählen, wird die Story als Teilaufgabe der übergeordneten Aufgabe für das ausgewählte Projekt erstellt.<br>Beginnen Sie mit der Eingabe des Namens der übergeordneten Aufgabe für die Story und klicken Sie dann darauf, wenn sie in der Dropdown-Liste angezeigt wird.</td>
+      <td>Nachdem Sie ein übergeordnetes Projekt ausgewählt haben, haben Sie die Möglichkeit, eine übergeordnete Aufgabe auszuwählen. Wenn Sie eine übergeordnete Aufgabe auswählen, wird die Story als Unteraufgabe der übergeordneten Aufgabe für das ausgewählte Projekt erstellt.<br>Beginnen Sie mit der Eingabe des Namens der übergeordneten Aufgabe für die Story und klicken Sie dann darauf, wenn sie in der Dropdown-Liste angezeigt wird.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Benutzerdefinierte Formulare]</strong></td>
       <td>Wählen Sie benutzerdefinierte Formulare aus, die der Story hinzugefügt werden sollen.</td>
      </tr>
     </tbody>
@@ -108,14 +108,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können eine Agile-Story aus dem Agile-Rückstand erstellen, wie im Abschnitt [Erstellen neuer Stories im Rückstand](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) im Artikel [[!UICONTROL Verwalten] des Agile-Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) beschrieben.
 
-## Aufgabe oder Problem als Agile-Story hinzufügen
+## Aufgabe oder Problem als agile Story hinzufügen
 
-Sie können einer Iteration eine vorhandene Aufgabe oder ein vorhandenes Problem als Story hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Storys zu einer vorhandenen Iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) oder [Hinzufügen von Storys und Problemen vom [!UICONTROL Scrum]-Board](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+Sie können einer Iteration eine vorhandene Aufgabe oder ein Problem als Story hinzufügen. Weitere Informationen finden Sie unter [Storys zu einer vorhandenen Iteration hinzufügen](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) oder [Storys und Probleme aus dem [!UICONTROL Scrum]-Board hinzufügen](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Erstellen von Teilaufgaben in einer Agile-Story
+## Agile Textabschnitte mit Unteraufgaben versehen
 
-Sie können eine Unteraufgabe zu einer Agile-Story erstellen, indem Sie eine der folgenden Methoden verwenden:
+Sie können eine Unteraufgabe für eine agile Story mit einer der folgenden Methoden erstellen:
 
-* Verwenden Sie dazu die Registerkarte **[!UICONTROL Teilaufgaben]**, wie unter [Erstellen von Teilaufgaben](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Erstellen von Teilaufgaben](../../manage-work/tasks/create-tasks/create-subtasks.md) beschrieben.
+* Durch Verwendung der Registerkarte **[!UICONTROL Teilaufgaben]**, wie in [Teilaufgaben erstellen](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Teilaufgaben erstellen](../../manage-work/tasks/create-tasks/create-subtasks.md) beschrieben.
 
-* Direkt über das Story Board, wie in [Erstellen einer Iteration](../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) beschrieben.
+* Direkt aus dem Storyboard, wie in [Erstellen einer Iteration](../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) beschrieben.

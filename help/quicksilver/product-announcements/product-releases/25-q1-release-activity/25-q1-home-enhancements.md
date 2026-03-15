@@ -1,14 +1,14 @@
 ---
-title: Home-Verbesserungen für das erste Quartal 2025
+title: Verbesserungen bei der Startseite im ersten Quartal 2025
 description: Verbesserungen bei den Prioritäten für das erste Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen der Prioritäten beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Verbesserungen bei Prioritäten - Überblick
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Siehe [Demo-Video zu &#x200B;](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
+Siehe [Demo-Video zu ](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
 
 ## Verwenden Sie intelligente Filter, um Ihre Arbeit in den Prioritäten zu finden
 
@@ -40,19 +40,19 @@ Nur für IMS-aktivierte Instanzen verfügbar.
 
 Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
-## Aufholprozess bei den Prioritäten
+## Aktuelle Informationen zur Arbeit in „Prioritäten“
 
 >[!NOTE]
 >
 >Vorschau-Version: 20. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 >
->_Diese Funktion ist nur für Kundinnen und Kunden des Unified Adobe-Erlebnisses mit dem KI-Assistenten verfügbar._
+>_Diese Funktion steht nur Kunden von Unified Adobe unter Verwendung des KI-Assistenten zur Verfügung._
 
 Mithilfe von Catch me up können Sie den Zeitaufwand für die Suche nach Informationen zu aktiven Projekten reduzieren.
 
 Unterstützt durch den KI-Assistenten von Workfront fasst Catch me Updates, hochgeladene Dokumente und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage oder 7 Tage.
 
-Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Weitere Informationen finden Sie unter [Aktuelle Informationen zur Arbeit in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## Änderungen live auf der Detailseite in „Prioritäten“ anzeigen
 
@@ -120,7 +120,7 @@ Sie können jetzt
 
 Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
-### entfernt
+### Entfernt
 
 * Sie können keine Aufgaben und Probleme mehr direkt in der Arbeitsliste erstellen. Sie müssen die Schaltfläche Neu erstellen in der oberen rechten Ecke von Prioritäten verwenden.
 

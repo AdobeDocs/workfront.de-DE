@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Berechnete benutzerdefinierte Felder im Vergleich zu berechneten Spalten
 description: Um mehrere Felder in Adobe Workfront zu aggregieren und diesen Aggregatwert in einem neuen Feld anzuzeigen, können Sie ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular oder eine berechnete Spalte in einer Ansicht erstellen.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -34,15 +34,15 @@ Obwohl die von Ihnen verwendeten Funktionen identisch sind, kann sich die Syntax
 
 Beispiel:
 
-* In einem benutzerdefinierten Feld in einem benutzerdefinierten Formular für Aufgaben würden Sie Folgendes verwenden, um den Namen des übergeordneten Projekts der Aufgabe zu generieren, an das das benutzerdefinierte Formular angehängt ist:
+* In einem benutzerdefinierten Feld in einem benutzerdefinierten Formular für Aufgaben verwenden Sie Folgendes, um den Namen des übergeordneten Projekts der Aufgabe zu generieren, an das das benutzerdefinierte Formular angehängt ist:
 
   `{project}.{name}`
 
-* In einer benutzerdefinierten Spalte in einem Bericht würden Sie Folgendes verwenden, um eine benutzerdefinierte Spalte „Projektname“ zu einem Aufgabenbericht hinzuzufügen:
+* In einer benutzerdefinierten Spalte in einem Bericht verwenden Sie Folgendes, um einem Aufgabenbericht eine benutzerdefinierte Spalte „Projektname“ hinzuzufügen:
 
   `valuefield=project:name`
 
-  Oder
+  ODER
 
   `valueexpression={project}.{name}`
 
@@ -50,7 +50,7 @@ Beispiel:
   >
   >Dieselbe Syntax gilt für alle Berichtselemente im Textmodus, in denen berechnete Ausdrücke verwendet werden: Ansichten, Filter, Gruppierungen und Eingabeaufforderungen.
 
-Die Unterschiede zwischen den beiden Syntaxen sind:
+Zwischen den beiden Syntax-Varianten gibt es folgende Unterschiede:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +58,7 @@ Die Unterschiede zwischen den beiden Syntaxen sind:
  <tbody> 
   <tr> 
    <td><strong>Berechnetes benutzerdefiniertes Feld</strong></td>
-   <td><strong>Berechnetes benutzerdefiniertes Berichterstellungselement</strong></td> 
+   <td><strong>Berechnetes benutzerdefiniertes Reporting-Element</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Verwenden Sie die Namen der Felder, wie sie in der Benutzeroberfläche von Workfront angezeigt werden.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Beispiel für einen Feldnamen in einem berechneten benutzerdefinierten Feld: <code>Planned Completion Date</code>.</p> </td> 
@@ -69,13 +69,13 @@ Die Unterschiede zwischen den beiden Syntaxen sind:
    <td> <p>Schließen Sie Feldnamen nicht in Klammern oder Klammern ein, wenn Sie sie in einer <code>valuefield </code> verwenden.</p> <p>Schließen Sie Feldnamen in geschweifte Klammern ein, wenn Sie sie in einer <code>valueexpression</code> verwenden.</p> </td> 
   </tr> 
   <tr> 
-   <td>Felder durch Punkte trennen</td> 
+   <td>Trennen Sie Felder durch Punkte</td> 
    <td> <p>Trennen Sie die Felder durch Doppelpunkte, wenn Sie sie in einer <code>valuefield</code> verwenden.</p> <p>Trennen Sie die Felder durch Punkte, wenn Sie sie in einer <code>valueexpression</code> verwenden.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zur Syntax, die Sie in einer berechneten benutzerdefinierten Spalte verwenden müssen, finden Sie unter [Übersicht über den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Weitere Informationen zur Syntax, die Sie in einer berechneten benutzerdefinierten Spalte verwenden müssen, finden Sie unter [Überblick über den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Verwendung berechneter benutzerdefinierter Felder
 
@@ -91,7 +91,7 @@ Weitere Informationen zur Syntax, die Sie in einer berechneten benutzerdefiniert
 * Massenbearbeitung mehrerer Objekte beim Klicken auf **Ausdrücke neu berechnen** im Menü Mehr in einer Objektliste.
 * Das Bearbeiten eines benutzerdefinierten Formulars, wenn **Aktualisieren vorheriger Berechnungen** für das berechnete benutzerdefinierte Feld aktiviert ist.
 
-Weitere Informationen finden Sie unter [Bearbeiten von Informationen in benutzerdefinierten Formularfeldern](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Weitere Informationen finden Sie unter [Bearbeiten von Informationen in Feldern in benutzerdefinierten Formularen](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Verwendung berechneter Spalten in einer Ansicht
 

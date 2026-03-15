@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard
 description: Sie können Berichtsfilter bearbeiten, nachdem sie auf ein Arbeitsflächen-Dashboard angewendet wurden.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 9%
+ht-degree: 44%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -29,7 +29,7 @@ Sie können Berichtsfilter bearbeiten, nachdem Sie sie auf ein Arbeitsflächen-D
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -47,7 +47,7 @@ Sie können Berichtsfilter bearbeiten, nachdem Sie sie auf ein Arbeitsflächen-D
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -64,7 +64,7 @@ Sie können Berichtsfilter bearbeiten, nachdem Sie sie auf ein Arbeitsflächen-D
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
@@ -102,13 +102,13 @@ Sie müssen einen Filter zu einem Bericht hinzufügen, bevor er bearbeitet werde
 
 ### Datumsbasierte Platzhalterfilter-Variablen
 
-Datumsbasierte Platzhalteroptionen können in Kombination mit einem beliebigen Datumsfilterattribut verwendet werden. Informationen zum Hinzufügen eines datumsbasierten Platzhalters zu einem Bericht finden Sie im Artikel [Verwenden von datumsbasierten Platzhaltern zum Verallgemeinern von Berichten](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Datumsbasierte Platzhalteroptionen können in Kombination mit einem beliebigen Datumsfilterattribut verwendet werden. Informationen zum Hinzufügen eines datumsbasierten Platzhalters zu einem Bericht finden Sie im Artikel [Verwenden von datumsbasierten Platzhaltern zum Generalisieren von Berichten](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
->Wenn Sie eine Datums- und Uhrzeitberechnung erstellen, die keinen Zeitanteil enthält oder die Datums-Platzhalter $$TODAY oder $$NOW verwendet, verwendet das System das Datum in der UTC-Zone (Coordinated Universal Time) und nicht in der Zeitzone Ihrer lokalen Zeitzone. Dies kann zu einem unerwarteten Datumsergebnis führen.
+>Wenn Sie eine Datums- und Uhrzeitberechnung erstellen, die keinen Zeitanteil enthält oder bei der Datumsplatzhalter $$TODAY oder $$NOW verwendet werden, verwendet das System das Datum in der UTC-Zone (Coordinated Universal Time) und nicht in Ihrer lokalen Zeitzone. Dies kann zu einem unerwarteten Datumsergebnis führen.
 
-Sie können aus den folgenden datumsbasierten Platzhaltern auswählen:
+Sie können unter den folgenden datumsbasierten Platzhaltern wählen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,11 +116,11 @@ Sie können aus den folgenden datumsbasierten Platzhaltern auswählen:
  <tbody> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
-   <td> <p>Es wird empfohlen, datumsabhängige Filter mit diesem Platzhalter zu erstellen, damit der Filter nicht morgen, in der nächsten Woche oder im nächsten Monat erneut erstellt wird.</p> <p>Wenn Sie beispielsweise alle vor dem heutigen Tag fälligen Aufgaben anzeigen möchten, können Sie die folgende Regel in einem Aufgabenfilter verwenden: <em>Geplantes Startdatum weniger als $$TODAY</em>.</p> <p>$$TODAY ist immer gleich Mitternacht für den aktuellen Tag.</p> </td> 
+   <td> <p>Es wird empfohlen, datumsabhängige Filter mit diesem Platzhalter zu erstellen, damit der Filter nicht morgen, in der nächsten Woche oder im nächsten Monat erneut erstellt wird.</p> <p>Wenn Sie beispielsweise alle vor dem heutigen Tag fälligen Aufgaben anzeigen möchten, können Sie die folgende Regel in einem Aufgabenfilter verwenden: <em>Geplantes Startdatum kleiner als $$TODAY</em>.</p> <p>$$TODAY ist immer gleich Mitternacht für den aktuellen Tag.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>Dies ähnelt dem $$TODAY-Platzhalter, enthält jedoch das aktuelle Datum und die aktuelle Uhrzeit. $$NOW ist gleich dem aktuellen Datum und der aktuellen Uhrzeit.</p> <p>Wenn Sie beispielsweise alle Stundeneinträge anzeigen möchten, die bis zur aktuellen Zeit bereitgestellt wurden, können Sie dies tun, indem Sie die folgende Regel in einem Stundenfilter verwenden: <em>Geplantes Startdatum weniger als $$NOW</em>.</p> <p>Hinweis: Dieser Platzhalter wird im Ressourcenplaner nicht unterstützt.</p> </td> 
+   <td> <p>Dieser Platzhalter ähnelt $$TODAY, enthält jedoch das aktuelle Datum und die aktuelle Uhrzeit. $$NOW ist gleich dem aktuellen Datum und der aktuellen Uhrzeit.</p> <p>Wenn Sie beispielsweise alle Stundeneinträge anzeigen möchten, die bis zur aktuellen Uhrzeit bereitgestellt wurden, können Sie hierfür die folgende Regel in einem Stundenfilter verwenden: <em>Geplantes Startdatum kleiner als $$NOW</em>.</p> <p>Hinweis: Dieser Platzhalter wird im Ressourcenplaner nicht unterstützt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,29 +130,29 @@ Um verschiedene Zeiträume und verschiedene Zeitpunkte (zukünftig oder vergange
 | Attribute |   |
 |---|---|
 | **q** | Kalenderquartal |
-| **h** | hour |
-| **d** | day |
-| **W** | Woche |
-| **m** | month |
-| **J** | year |
+| **h** | Stunde |
+| **d** | Tag |
+| **w** | Woche |
+| **m** | Monat |
+| **y** | Jahr |
 
 {style="table-layout:auto"}
 
 | **Kennungen** | |
 |---|---|
 | **b** | Beginn des Zeitraums (ohne angegebenes Attribut, standardmäßig der Beginn der Woche: Sonntag) |
-| **E** | Ende des Zeitraums (ohne angegebenes Attribut, standardmäßig am Ende der Woche: Samstag) |
+| **e** | Ende des Zeitraums (ohne angegebenes Attribut, standardmäßig das Ende der Woche: Samstag) |
 
 {style="table-layout:auto"}
 
-| **Benutzer** | |
+| **Operatoren** | |
 |---|---|
 | **+** | Wert zum Platzhalterwert hinzufügen |
 | **-** | Wert vom Platzhalterwert subtrahieren |
 
 {style="table-layout:auto"}
 
-Beispiel: Der Platzhalter `$$TODAYb+2w` bezieht sich auf „2 Wochen ab Beginn dieser Woche“. Der Platzhalter *`$$NOW+2h` bezieht sich auf „in 2 Stunden“.
+Beispiel: Der Platzhalter `$$TODAYb+2w` bezieht sich auf „2 Wochen ab Beginn dieser Woche“. Der Platzhalter *`$$NOW+2h` bezieht sich auf „In 2 Stunden“.
 
 ### Angemeldete Benutzer-Platzhalterfiltervariablen
 

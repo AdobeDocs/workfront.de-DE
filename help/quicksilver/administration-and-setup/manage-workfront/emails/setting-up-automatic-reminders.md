@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Einrichten automatischer Erinnerungen
 description: Sie können automatische Erinnerungen einrichten, um Trigger-E-Mail-Benachrichtigungen zu senden, wenn alle Aufgaben oder Probleme fällig oder verspätet sind oder sich am geplanten Abschlussdatum befinden.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als Adobe Workfront-Administrator können Sie automatische Erinnerungen einrichten, um E-Mail-Benachrichtigungen an Trigger zu senden, wenn alle Aufgaben oder Probleme fällig sind, sich verspäten oder fast zum geplanten Abschlussdatum liegen. Nach der Konfiguration dieser Einstellungen können Benutzer die automatischen Erinnerungen nicht mehr deaktivieren.
+Als Adobe Workfront-Administrator können Sie automatische Erinnerungen einrichten, die E-Mail-Benachrichtigungen auslösen, wenn alle Aufgaben oder Probleme fällig sind, verspätet oder kurz vor dem geplanten Abschlussdatum liegen. Nachdem Sie diese Einstellungen konfiguriert haben, können Benutzer automatische Erinnerungen nicht mehr deaktivieren.
 
 Bei verspäteten Benachrichtigungen wird die E-Mail jede Nacht gesendet, bis die Aufgabe oder das Problem abgeschlossen ist.
 
@@ -35,7 +35,7 @@ Eine automatische Erinnerung kann an eine oder mehrere der folgenden Adressen ge
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Eine automatische Erinnerung kann an eine oder mehrere der folgenden Adressen ge
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -58,7 +58,7 @@ Eine automatische Erinnerung kann an eine oder mehrere der folgenden Adressen ge
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -73,7 +73,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <table>
     <tr>
         <td>Der „Zugewiesen an“-Benutzer</td>
-        <td>Wählen Sie diese Option aus, wenn der/die Benutzende, der/die einer Aufgabe oder einem Problem zugewiesen wurde, eine verspätete Benachrichtigung über den Verzug seines/ihres Arbeitselements erhalten soll.</td>
+        <td>Wählen Sie diese Option, wenn der Benutzer, der einer Aufgabe oder einem Problem zugewiesen ist, eine verspätete Benachrichtigung über seine Arbeitsaufgabe erhalten soll, die verspätet ist.</td>
         <td></td>
     </tr>
     <tr>
@@ -97,9 +97,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Die Zeit wird ab dem geplanten Abschlussdatum der Aufgabe oder des Problems berechnet.
 
-   Anzahl der Minuten, Stunden, Tage, Wochen oder Monate angeben, um Zeit zum geplanten Abschlussdatum der Aufgaben oder Probleme hinzuzufügen. Wählen Sie **Verstrichene Minuten**, **Verstrichene Stunden**, **Verstrichene Tage** oder **Verstrichene Wochen**, um die Zeit hinzuzufügen, die alle Wochenenden, Feiertage und arbeitsfreien Stunden umfasst, wie in Ihrem Zeitplan angegeben.
+   Anzahl der Minuten, Stunden, Tage, Wochen oder Monate angeben, um Zeit zum geplanten Abschlussdatum der Aufgaben oder Probleme hinzuzufügen. Wählen Sie **Verstrichene Minuten**, **Verstrichene Stunden**, **Verstrichene Tage** oder **Verstrichene Wochen** aus, um Zeit hinzuzufügen, die alle Wochenenden, Feiertage und arbeitsfreien Stunden enthält, wie in Ihrem Zeitplan angegeben.
 
-   Wenn beispielsweise eine Aufgabe am Freitag zugewiesen wurde und eine Dauer von 3 verstrichenen Tagen hat, wird das Abschlussdatum der Aufgabe auf Montag festgelegt (unter der Annahme, dass Samstag und Sonntag ein Wochenende ist). Wenn die Aufgabe eine Dauer von 3 Tagen hat (nicht abgelaufen), wird das Abschlussdatum der Aufgabe auf Mittwoch festgelegt.
+   Wenn ein Vorgang beispielsweise am Freitag zugewiesen ist und eine Dauer von 3 verstrichenen Tagen hat, wird das Abschlussdatum des Vorgangs auf Montag festgelegt (vorausgesetzt, Samstag und Sonntag sind ein Wochenende). Wenn der Vorgang eine Dauer von 3 Tagen hat (nicht verstrichen), wird das Abschlussdatum des Vorgangs auf Mittwoch festgelegt.
 
    ![Zeitinkremente](assets/time-increments-for-automatic-reminder.png)
 
@@ -111,10 +111,10 @@ Wenn Sie in einer automatischen Erinnerungsbenachrichtigung die angegebene Entit
 
 Aufgaben mit bestimmten Abhängigkeitstypen werden möglicherweise nach dem angegebenen Startdatum bereitgestellt, obwohl sie überfällig sind. Wenn eine Aufgabe beispielsweise einen Vorgänger mit einer FS-Abhängigkeit (Finish-Start) hat, wird sie nicht in die E-Mail aufgenommen, auch wenn sie das angegebene Startdatum überschritten hat, da Sie die Aufgabe erst starten können, wenn der Vorgänger abgeschlossen ist.
 
-Weitere Informationen zum Empfang automatischer Erinnerungs-E-Mails finden Sie [&#x200B; Abschnitt „Automatische &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)&quot; in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang automatischer Erinnerungs-E-Mails finden Sie [ Abschnitt „Automatische ](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)&quot; in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatische Erinnerungen senden
 
 Automatische Erinnerungen werden gesendet, sobald die vom Workfront-Administrator festgelegte Zeit erreicht ist.
 
-Wenn Sie Trigger beim manuellen Versand der automatischen Erinnerungs-E-Mails haben möchten, können Sie dies mithilfe von Diagnostics tun. Weitere Informationen zum Zugriff auf und zur Verwendung von Diagnoseprogrammen in Workfront finden Sie unter [Verwenden von Diagnoseprogrammen zum Trigger automatisierter Prozesse](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Wenn Sie das manuelle Senden der automatischen Erinnerungs-E-Mails auslösen möchten, können Sie dies mithilfe der Diagnose tun. Weitere Informationen zum Zugreifen auf und Verwenden von Diagnostics in Workfront finden Sie unter [Verwenden von Diagnostics zum Auslösen automatisierter Prozesse](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

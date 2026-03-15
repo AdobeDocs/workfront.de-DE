@@ -6,12 +6,12 @@ title: JumpSeat-Integration konfigurieren
 description: Sie können  [!DNL JumpSeat]  mit  [!DNL Workfront] , um benutzerdefinierte, produktinterne Anleitungen zu erstellen.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können [!DNL JumpSeat] mit [!DNL Workfront] integrieren, um benutzerdefinie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -53,7 +53,7 @@ Sie können [!DNL JumpSeat] mit [!DNL Workfront] integrieren, um benutzerdefinie
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Es wird empfohlen, sowohl in der Vorschau- als auch in der Produktionsumgebung e
 
 >[!TIP]
 >
->Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [&#x200B; finden Sie unter „Hinzufügen oder &#x200B;](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
+>Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [ finden Sie unter „Hinzufügen oder ](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
 
 So konfigurieren Sie die [!DNL JumpSeat]:
 
@@ -90,7 +90,7 @@ So konfigurieren Sie die [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpSeat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

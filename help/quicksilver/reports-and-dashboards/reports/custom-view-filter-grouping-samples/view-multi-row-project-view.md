@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Mehrzeilige Projektansicht'
 description: Erfahren Sie mehr über die mehrzeilige Projektansicht in Berichten.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# Ansicht: mehrzeilige Projektansicht
+# Ansicht: Mehrzeilige Projektansicht
 
 <!--Audited: 11/2024-->
 
@@ -31,7 +31,7 @@ In dieser Projektansicht haben Sie folgende Möglichkeiten:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +58,7 @@ In dieser Projektansicht haben Sie folgende Möglichkeiten:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

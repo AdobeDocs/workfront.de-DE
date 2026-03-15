@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Dashboard-Pinnwände verwenden
 description: Das Dashboard [!UICONTROL Pinnwände] zeigt die Liste der Pinnwände an, auf die Sie Zugriff haben, einschließlich der von Ihnen erstellten Pinnwände und der Pinnwände, denen Sie hinzugefügt wurden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Dashboard für Pinnwände verwenden
+# Verwenden des Dashboards für Pinnwände
 
 <!-- Audited: 1/2024 -->
 
@@ -35,7 +35,7 @@ Weitere Informationen zum Erstellen einer neuen Pinnwand oder zum Bearbeiten ein
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,14 +48,14 @@ Weitere Informationen zum Erstellen einer neuen Pinnwand oder zum Bearbeiten ein
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Arbeitsflächen-Dashboards - Beta-Version: Aktivität'
+title: 'Beta-Version von Arbeitsflächen-Dashboards: Veröffentlichungen'
 description: Wöchentliche Veröffentlichungsaktivität für die Beta-Version der Adobe Workfront Canvas-Dashboards
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Arbeitsflächen-Dashboards - Beta-Version: Aktivität
+# Beta-Version von Arbeitsflächen-Dashboards: Veröffentlichungen
 
 Auf dieser Seite werden wöchentlich Entwicklungs-Updates für die Beta-Version der Canvas-Dashboards aufgelistet.
 

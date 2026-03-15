@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht und Gruppierung: Zeigt die tatsächliche Projektdauer aggregiert nach dem Durchschnitt in einer Gruppierung an'
 description: Sie können einem Projektbericht die folgende Spalte hinzufügen, um die tatsächliche Dauer als Durchschnitt in einer Gruppierung aggregiert anzuzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
-# Ansicht und Gruppierung: Zeigt die tatsächliche Projektdauer an, aggregiert nach dem Durchschnitt in einer Gruppierung
+# Ansicht und Gruppierung: Tatsächliche Projektdauer, aggregiert nach dem Durchschnitt in einer Gruppierung anzeigen
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Sie können die folgende Spalte in einer Projektansicht hinzufügen, um die tats
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können die folgende Spalte in einer Projektansicht hinzufügen, um die tats
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Prognostiziertes Datum in einem Kalenderbericht verwenden
 description: Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstellt. Sie können die Felder für das voraussichtliche Datum in einem Kalenderbericht für Aufgaben, Probleme und Projekte verwenden.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -51,7 +51,7 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,8 +89,8 @@ Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und kli
       <td role="rowheader"><strong>[!UICONTROL Datumsfeld]</strong></td>
       <td><p>Wählen Sie <strong>[!UICONTROL Voraussichtliche Termine]</strong>. Weitere Informationen über geplante Termine finden Sie unter </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Übersicht über das voraussichtliche Startdatum des Projekts</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Überblick über das voraussichtliche Startdatum des Projekts</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme</a><br></li>
        </ul></td>
      </tr>
      <tr>
@@ -106,8 +106,8 @@ Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und kli
       <td role="rowheader"><strong>[!UICONTROL Zu tatsächlichen Daten wechseln, falls verfügbar]</strong></td>
       <td><p>Der Kalender wechselt automatisch zu tatsächlichen Daten, wenn sie verfügbar sind. <br>Wählen Sie <strong>[!UICONTROL Yes]</strong> oder <strong>[!UICONTROL No]</strong>, um zu den tatsächlichen Daten zu wechseln, sofern verfügbar. Weitere Informationen über tatsächliche Termine finden Sie unter</p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das tatsächliche Startdatum des Projekts </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das tatsächliche Abschlussdatum des Projekts </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Überblick über das tatsächliche Startdatum des Projekts </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Überblick über das tatsächliche Abschlussdatum des Projekts </a></li>
        </ul></td>
      </tr>
     </tbody>

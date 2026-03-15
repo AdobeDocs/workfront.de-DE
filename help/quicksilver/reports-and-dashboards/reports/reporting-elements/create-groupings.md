@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Erstellen von Gruppierungen in Adobe Workfront
 description: Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder eine vorhandene Gruppierung anpassen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

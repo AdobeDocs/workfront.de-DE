@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Zuweisen von Benutzern zu einer Story auf dem Kanban-Board
 description: Sie können Benutzern direkt auf dem Kanban-Board Storys zuweisen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
-# Benutzer einer Story auf dem Kanban[!UICONTROL Board &#x200B;]
+# Benutzer einer Story auf dem Kanban[!UICONTROL Board ]
 
 Sie können Benutzern direkt auf dem Kanban-Board Storys zuweisen.
 
@@ -39,11 +39,11 @@ Sie können Benutzern direkt auf dem Kanban-Board Storys zuweisen.
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Benutzer einer Story auf dem Kanban[!UICONTROL Board &#x200B;]
+## Benutzer einer Story auf dem Kanban[!UICONTROL Board ]
 
 {{step1-to-team}}
 

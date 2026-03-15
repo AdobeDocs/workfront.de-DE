@@ -3,15 +3,15 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Auf Aktualisierungen antworten
 description: Wenn jemand eine Aktualisierung eines Arbeitsobjekts hinzufügt oder darauf antwortet, wird seine Antwort im Kommunikations-Thread im Abschnitt Aktualisierungen für das Objekt angezeigt. Sie können einer Aktualisierung eine Antwort hinzufügen oder „Gefällt mir“ auswählen, wenn Sie Ansichtszugriff auf das Objekt haben.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -67,8 +67,8 @@ In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objek
    <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
    <td> <p>Für Probleme und Dokumente:</p>
 
-<ul><li><p>Mitwirkender oder höher</p></li>
-   <li><p>Anfrage oder höher</p></li></ul>
+<ul><li><p>Mitwirkende oder höher</p></li>
+   <li><p>Anfragende oder höher</p></li></ul>
 
 <p>Für alle anderen Objekte:</p>
    <ul><li><p>Licht oder höher</p></li>
@@ -87,7 +87,7 @@ In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objek
  </tbody> 
    </table>
 
-Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

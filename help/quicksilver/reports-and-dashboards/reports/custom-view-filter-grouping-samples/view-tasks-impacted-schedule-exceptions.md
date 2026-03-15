@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Aufgaben, die von Zeitplanausnahmen betroffen sind'
 description: Diese Aufgabenansicht identifiziert Aufgaben, die aufgrund von Wochenenden, Freizeiten oder anderen Zeitplanausnahmen zu spät abgeschlossen werden müssen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Ansicht zeigt Folgendes:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ Diese Ansicht zeigt Folgendes:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

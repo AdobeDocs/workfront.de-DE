@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Probleme mit Genehmigungsinformationen'
 description: Die folgende Ansicht eines Problems zeigt den Genehmigungsprozess, den Schritt, die Namen der genehmigenden Personen und den Status des Problems vor der Genehmigung. Auf einige dieser Felder kann nicht über den standardmäßigen Interface Builder zugegriffen werden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Anzeigen: Probleme mit Genehmigungsinformationen
+# Ansicht: Probleme mit Genehmigungsinformationen
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Die folgende Ansicht eines Problems zeigt den Genehmigungsprozess, den Schritt, 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Die folgende Ansicht eines Problems zeigt den Genehmigungsprozess, den Schritt, 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

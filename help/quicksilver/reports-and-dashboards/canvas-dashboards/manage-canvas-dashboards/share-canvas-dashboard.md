@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Freigeben eines Arbeitsflächen-Dashboards
 description: Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende freigeben, damit diese es anzeigen oder bearbeiten können.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -46,7 +46,7 @@ Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard </p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -65,7 +65,7 @@ Sie können ein Arbeitsflächen-Dashboard für andere Adobe Workfront-Benutzende
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Überlegungen zur Freigabe von Dashboards

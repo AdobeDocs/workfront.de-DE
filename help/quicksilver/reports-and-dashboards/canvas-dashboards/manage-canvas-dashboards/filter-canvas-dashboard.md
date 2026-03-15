@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Filtern eines Arbeitsflächen-Dashboards
 description: Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, nachdem es erstellt wurde.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabe
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -66,7 +66,7 @@ Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabe
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen

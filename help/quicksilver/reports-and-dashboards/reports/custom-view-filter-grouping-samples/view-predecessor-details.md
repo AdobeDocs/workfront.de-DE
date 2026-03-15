@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Anzeigen: Vorgängerdetails'
-description: Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben an, die eine Sammlungsansicht verwenden. In einer Sammlungsansicht können Sie Informationen zu Objekten anzeigen, die eine Eins-zu-viele-Beziehung aufweisen. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Aufgaben sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und der Status der Vorgänger angezeigt.
-author: Nolan
+title: 'Ansicht: Details zum Vorgänger'
+description: Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben mithilfe einer Auflistungsansicht. In einer Auflistungsansicht können Sie Informationen zu Objekten anzeigen, die sich in einer 1:n-Beziehung befinden. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Vorgänge sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und der Status der Vorgänger angezeigt.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Anzeigen: Vorgängerdetails
+# Ansicht: Details zu Vorgängern
 
 <!--Audited: 11/2024-->
 
-Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben an, die eine Sammlungsansicht verwenden. In einer Sammlungsansicht können Sie Informationen zu Objekten anzeigen, die eine Eins-zu-viele-Beziehung aufweisen. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Aufgaben sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und der Status der Vorgänger angezeigt.
+Diese Aufgabenansicht zeigt Details zu den Vorgängern der Aufgaben mithilfe einer Auflistungsansicht. In einer Auflistungsansicht können Sie Informationen zu Objekten anzeigen, die sich in einer 1:n-Beziehung befinden. In diesem Fall kann jede Aufgabe (eine) mehrere Vorgänger (viele) haben. In der Ansicht werden der Name der Vorgänge sowie die Namen der Vorgänger, die Projektnamen der Vorgänger, die geplanten Abschlussdaten der Vorgänger und der Status der Vorgänger angezeigt.
 
-Informationen zum Referenzieren von Sammlungen in Berichten finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Informationen zum Verweisen auf Auflistungen in Berichten finden Sie unter [Verweisen auf Auflistungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-![PREDECESSOR_DETAILS_TASK_VIEW.png](assets/predecessor-details-task-view-350x34.png)
+![predecessor_details_task_view.png](assets/predecessor-details-task-view-350x34.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,33 +39,33 @@ Informationen zum Referenzieren von Sammlungen in Berichten finden Sie unter [Re
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anfrage zum Ändern einer Ansicht </p>
-   <p>Standard oder Plan zum Ändern eines Berichts</p>
+   <p>Mitwirkender oder Anforderung zum Ändern einer Ansicht </p>
+   <p>Standard oder Abo zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern einer Ansicht</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
-## Anzeigen von Vorgängerdetails
+## Vorgängerdetails anzeigen
 
-1. Zu einer Aufgabenliste gehen.
-1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Wechseln Sie zu einer Liste von Aufgaben.
+1. Wählen Sie im Dropdown-Menü **Ansicht** die Option **Neue Ansicht**.
 
-1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **Wechseln in den Textmodus** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, und klicken Sie auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch folgenden Code:
 
    ```
    column.0.displayname=
@@ -104,4 +104,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.4.valueformat=HTML
    ```
 
-1. Klicken Sie **Fertig** > **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** > **Ansicht speichern**.

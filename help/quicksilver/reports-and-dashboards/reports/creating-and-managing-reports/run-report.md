@@ -1,20 +1,20 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Bericht ausführen
+title: Ausführen eines Berichts
 description: Sie können jeden Bericht ausführen, auf den Sie Zugriff haben.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Bericht ausführen
+# Ausführen eines Berichts
 
 Sie können jeden Bericht ausführen, auf den Sie Zugriff haben.
 
@@ -28,7 +28,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -56,11 +56,11 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Bericht ausführen
+## Ausführen eines Berichts
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Berichte]**.
 
@@ -71,7 +71,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * **Alle Berichte:** Alle Berichte im System, auf die Sie Zugriff haben.
 
 1. Klicken Sie auf den Namen des Berichts, den Sie ausführen möchten.\
-   Oder\
+   ODER\
    Wenn der Bericht anhand von Eingabeaufforderungen erstellt wurde, wählen Sie die entsprechenden Informationen aus den Dropdown-Menüs aus und klicken Sie dann auf **Bericht ausführen**.\
    Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
    Der Inhalt des Berichts wird mit einem Zeitstempel in der oberen rechten Ecke des Berichts angezeigt, der das Datum, die Uhrzeit und die Zeitzone enthält, zu der der Bericht im Kontext des Benutzers ausgeführt wurde, der den Bericht ausgeführt hat.

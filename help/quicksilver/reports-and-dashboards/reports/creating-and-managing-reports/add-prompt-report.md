@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Hinzufügen einer Eingabeaufforderung zu einem Bericht
+title: Hinzufügen eines Prompts zu einem Bericht
 description: Filter und Eingabeaufforderungen sind insofern ähnlich, als sie beide die Menge an Informationen einschränken, die Sie in einem Bericht anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Hinzufügen einer Eingabeaufforderung zu einem Bericht
+# Hinzufügen eines Prompts zu einem Bericht
 
 <!-- Audited: 11/2024 -->
 
@@ -39,7 +39,7 @@ Ein Filter kann Adobe Workfront anweisen, nur die zwischen Juni und August diese
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +67,7 @@ Ein Filter kann Adobe Workfront anweisen, nur die zwischen Juni und August diese
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

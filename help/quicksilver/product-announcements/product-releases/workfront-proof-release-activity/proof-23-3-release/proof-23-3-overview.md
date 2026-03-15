@@ -2,20 +2,20 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Adobe Workfront-Testversand mit Version 23.3
+title: Adobe Workfront Proof mit Version 23.3
 description: Auf dieser Seite finden Sie Informationen zur Funktionalität für den Adobe Workfront-Korrekturabzug im neuen Adobe Workfront-Erlebnis, das mit Version 23.3 in der Produktionsumgebung veröffentlicht wird.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Adobe Workfront-Testversand mit Version 23.3
+# Adobe Workfront Proof mit Version 23.3
 
 Diese Seite enthält Informationen zur Funktionalität für den Adobe Workfront-Korrekturabzug, der innerhalb des Zeitrahmens der Version 23.3 in die Produktionsumgebung veröffentlicht wird.
 
@@ -79,7 +79,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 fü
                         </p>
                         <ul>
                             <li>
-                                <p>Vorschau der Version: 10. Mai 2023<br /></p>
+                                <p>Geplante Veröffentlichung: Donnerstag, 10. Mai 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsversion: 10. Mai 2023</span></p>

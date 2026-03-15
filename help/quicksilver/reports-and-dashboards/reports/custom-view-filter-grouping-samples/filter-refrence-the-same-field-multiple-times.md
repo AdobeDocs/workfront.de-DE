@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen (AND-Anweisungen)'
 description: Wenn Sie in der Standardmodus-Benutzeroberfläche versuchen, mehrere Filter zu erstellen, die auf dasselbe Feld verweisen (mithilfe des UND-Qualifizierers), wird einer der Filter gelöscht, wenn Sie den Bericht speichern und Report Builder beenden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Filter: Erstellen Sie mehrere Filterregeln, die auf dasselbe Feld verweisen (AND-Anweisungen)
+# Filter: Mehrere Filterregeln erstellen, die auf dasselbe Feld verweisen (UND-Anweisungen)
 
 <!--Audited: 10/2024-->
 
@@ -29,7 +29,7 @@ Sie können diesen Filter jedoch im Textmodus erstellen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Sie können diesen Filter jedoch im Textmodus erstellen.
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Zu einer Aufgabenliste gehen.
 1. Wählen Sie **Dropdown** Menü „Filter“ die Option **Neuer Filter**.
 1. Klicken Sie **Textmodus**.
-1. Fügen Sie in dem angezeigten Feld den folgenden Code hinzu:
+1. Geben Sie im angezeigten Feld den folgenden Code ein:
 
    ```
    name=green

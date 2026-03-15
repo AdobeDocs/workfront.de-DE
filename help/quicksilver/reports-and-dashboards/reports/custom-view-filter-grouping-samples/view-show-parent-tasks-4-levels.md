@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Übergeordnete Aufgaben mit bis zu 4 Ebenen anzeigen'
 description: Diese Aufgabenansicht zeigt den Aufgabennamen in der ersten Spalte und (falls vorhanden) bis zu 4 übergeordnete Aufgaben in separaten Spalten in derselben Liste an.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Anzeigen: Übergeordnete Aufgaben mit einer Tiefe von bis zu 4 Ebenen anzeigen
+# Ansicht: Übergeordnete Aufgaben mit einer Tiefe von bis zu 4 Ebenen anzeigen
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Diese Aufgabenansicht zeigt den Aufgabennamen in der ersten Spalte und (falls vo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Diese Aufgabenansicht zeigt den Aufgabennamen in der ersten Spalte und (falls vo
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

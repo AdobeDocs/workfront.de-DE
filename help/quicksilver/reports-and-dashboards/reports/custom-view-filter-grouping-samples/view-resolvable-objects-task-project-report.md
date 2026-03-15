@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht'
 description: Sie können eine Liste aller lösbaren Objekte in einer Projekt- oder Aufgabenansicht oder einem Bericht anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Ansicht: Auflösbare Objekte in einem Aufgaben- oder Projektbericht
+# Ansicht: Lösbare Objekte in einem Aufgaben- oder Projektbericht
 
 <!--Audited: 11/2024-->
 
@@ -28,7 +28,7 @@ Die Anwendung dieser Ansicht ist für Aufgaben und Projekte identisch.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Die Anwendung dieser Ansicht ist für Aufgaben und Projekte identisch.
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

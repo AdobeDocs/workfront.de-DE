@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Aufgaben nach Portfolio, Programm und Projekt'
-description: Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
-author: Nolan
+title: 'Gruppierung: Vorgänge nach Portfolio, Programm und Projekt'
+description: Verwenden Sie diese Vorgangsgruppierung, um Vorgänge nach dem Portfolio, nach Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
+Verwenden Sie diese Vorgangsgruppierung, um Vorgänge nach dem Portfolio, nach Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
 
 ![Portfolio-Programmprojektgruppierung](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,35 +37,35 @@ Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm un
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
-   <p>Standard oder Plan zum Ändern eines Berichts</p>
+   <p>Anbieter oder Anforderung zum Ändern eines Filters </p>
+   <p>Standard oder Abo zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern eines Filters</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Aufgaben nach Portfolio, Programm und Projekt gruppieren
 
-Um diese Gruppierung anzuwenden:
+So wenden Sie diese Gruppierung an:
 
-1. Zu einer Aufgabenliste gehen.
-1. Wählen Sie **Dropdown-Menü** Gruppierung“ **Neue Gruppierung** aus.
-1. Klicken Sie **Gruppierung hinzufügen**.
+1. Wechseln Sie zu einer Liste von Aufgaben.
+1. Wählen Sie im Dropdown-Menü **Gruppierung** die Option **Neue Gruppierung** aus.
+1. Klicken Sie auf **Gruppierung hinzufügen**.
 
-1. Klicken **Wechseln Sie in den Textmodus**.
-1. Entfernen Sie den Text im Bereich **Gruppieren nach**.
-1. Ersetzen Sie den Text durch den folgenden Code:
+1. Klicken Sie auf **In Textmodus wechseln**.
+1. Entfernen Sie den Text im Bereich **Gruppe nach**.
+1. Ersetzen Sie den Text durch folgenden Code:
 
    ```
    group.0.linkedname=project
@@ -84,6 +84,6 @@ Um diese Gruppierung anzuwenden:
    textmode=true
    ```
 
-1. Klicken Sie **Fertig** > **Gruppierung speichern**.
-1. (Optional) Aktualisieren Sie den Gruppierungsnamen und klicken Sie dann auf **Gruppierung speichern**.
+1. Klicken Sie auf **Fertig** > **Gruppierung speichern**.
+1. (Optional) Aktualisieren Sie den Gruppierungsnamen, und klicken Sie dann auf **Gruppierung speichern**.
 

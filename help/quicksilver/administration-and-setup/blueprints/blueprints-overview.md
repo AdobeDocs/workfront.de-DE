@@ -5,18 +5,18 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprints - Übersicht
 description: Blueprints sind eine Reihe von Workfront-Objekten, die gängige Anwendungsfälle in Workfront abdecken. Sie können eine Blueprint herunterladen und installieren und dann die Objekte für Ihren spezifischen Anwendungsfall konfigurieren.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Blueprints - Übersicht
+# Überblick über Blueprints
 
 <!--Audited: 01/2024-->
 
@@ -84,7 +84,7 @@ Jeder Blueprint enthält eine Detailseite. Auf dieser Seite haben Sie folgende M
 
 ![[!UICONTROL Blueprint-Details] Seite](assets/blueprint-details-page-2022.png)
 
-## Blueprint installieren
+## Installieren von Blueprints
 
 Ein Workfront-Administrator kann Blueprints direkt in beliebigen Umgebungen (Produktions-, Vorschau- oder Sandbox-Umgebungen) installieren. Weitere Informationen finden Sie unter [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md) oder [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md).
 

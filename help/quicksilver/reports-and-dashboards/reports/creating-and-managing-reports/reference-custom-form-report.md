@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Referenzieren eines benutzerdefinierten Formulars in einem Bericht
 description: Sie können die benutzerdefinierten Formulare eines Objekts in den Ansichten, Filtern und Gruppierungen eines Berichts für dieses Objekt referenzieren.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können auf den Inhalt von benutzerdefinierten Formularen verweisen, die in 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Sie können auf den Inhalt von benutzerdefinierten Formularen verweisen, die in 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -51,7 +51,7 @@ Sie können auf den Inhalt von benutzerdefinierten Formularen verweisen, die in 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,15 +82,15 @@ Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Erstel
 
 Sie können auf Informationen über benutzerdefinierte Formulare verweisen, wie z. B. den Namen aller benutzerdefinierten Formulare, die mit einem Objekt verknüpft sind.
 
-&#x200B;Je nach Element (Ansicht, Filter oder Gruppierung) können Sie auf Folgendes verweisen:
+&#x200B; Je nach Element (Ansicht, Filter oder Gruppierung) können Sie einen der folgenden Verweise verwenden:
 
-* Das primäre benutzerdefinierte Formular, das auf ein Objekt angewendet wird:
+* Das primäre benutzerdefinierte Formular, das auf ein Objekt angewendet wurde:
 
-  Dies ist das Formular, das zuerst auf der Detailseite des -Objekts angezeigt wird.
+  Dies ist das Formular, das zuerst auf der Seite Details des Objekts angezeigt wird.
 
-* Alle benutzerdefinierten Formulare (wenn mehr als ein benutzerdefiniertes Formular auf ein Objekt angewendet wird)
+* Alle benutzerdefinierten Formulare (wenn mehrere benutzerdefinierte Formulare auf ein Objekt angewendet werden)
 
-Sie können benutzerdefinierte Formulare für Ansichten, Filter und Gruppierungen referenzieren:
+Sie können benutzerdefinierte Formulare in Ansichten, Filtern und Gruppierungen referenzieren:
 
 * [Referenzieren von benutzerdefinierten Formularen in einer Berichtsansicht (Spalte)](#reference-custom-forms-in-a-report-view-column)
 * [Verweisen auf benutzerdefinierte Formulare in einem Berichtsfilter](#reference-custom-forms-in-a-report-filter)
@@ -111,12 +111,12 @@ So zeigen Sie nur das primäre benutzerdefinierte Formular an, das mit dem -Obje
 1. Erweitern Sie auf **Registerkarte** die Feldquelle **Kategorie** und klicken Sie dann auf den Feldnamen **Name**.\
    ![Kategoriename](assets/qs-category-name-column-2-350x248.png)
 
-### Referenzieren benutzerdefinierter Formulare in einem Berichtsfilter {#reference-custom-forms-in-a-report-filter}
+### Verweisen auf benutzerdefinierte Formulare in einem Berichtsfilter {#reference-custom-forms-in-a-report-filter}
 
 So filtern Sie nach allen benutzerdefinierten Formularen, die mit dem Objekttyp verknüpft sind:
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
-1. Erweitern Sie auf **Registerkarte** Filter **die Option Kategorien** und klicken Sie dann auf **Name**.\
+1. Beginnen Sie mit dem Erstellen eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
+1. Erweitern Sie auf der Registerkarte **Filter** **Kategorien**, und klicken Sie dann auf **Name**.\
    ![Filter für Kategorienamen](assets/qs-categories-name-filter-350x311.png)
 
 1. Wählen Sie den Bedingungsqualifizierer aus, den Sie verwenden möchten:
@@ -141,10 +141,10 @@ So filtern Sie nach allen benutzerdefinierten Formularen, die mit dem Objekttyp 
 So filtern Sie nur nach dem primären benutzerdefinierten Formular, das mit dem Objekttyp verknüpft ist:
 
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
-1. Erweitern Sie auf **Registerkarte** die Feldquelle **Kategorie** und klicken Sie dann auf den Feldnamen **Name**.\
+1. Erweitern Sie auf der Registerkarte **Filter** die Feldquelle **Kategorie**, und klicken Sie dann auf den Feldnamen **Name**.\
    ![Filter für Kategorienamen](assets/qs-category-name-filter-350x437.png)
 
-1. Wählen Sie den Bedingungsqualifizierer aus, den Sie verwenden möchten:
+1. Wählen Sie den Bedingungsbezeichner aus, den Sie verwenden möchten:
 
    * Leer
    * Nicht leer

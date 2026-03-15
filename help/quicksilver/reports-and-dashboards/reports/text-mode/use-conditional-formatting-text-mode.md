@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Bedingte Formatierung im Textmodus verwenden
-description: Bedingte Formatierung im Textmodus verwenden
-author: Nolan
+title: Verwenden der bedingten Formatierung im Textmodus
+description: Verwenden der bedingten Formatierung im Textmodus
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Bedingte Formatierung im Textmodus verwenden
+# Verwenden der bedingten Formatierung im Textmodus
 
 <!--Audited: 01/2025-->
 
@@ -24,7 +24,7 @@ Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht f
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht f
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
      <p>Standard</p>
-     <p>Plan</p>
+     <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht f
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ So fügen Sie einer Ansicht in der Textmodus-Benutzeroberfläche bedingte Format
 1. Klicken Sie auf die Spalte in der Ansicht, auf die Sie eine bedingte Formatierung anwenden möchten.
 1. Klicken Sie **In Textmodus wechseln**.
 1. Klicken Sie im Bereich **In dieser Spalte anzeigen:** auf **Klicken, um Text zu bearbeiten**.
-1. Fügen Sie die Code-Beispiele [&#x200B; „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
+1. Fügen Sie die Code-Beispiele [ „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
 1. Klicken Sie **Speichern** und dann auf **Ansicht speichern**.
 
 ## Ansichten im Textmodus formatieren {#format-views-using-text-mode}

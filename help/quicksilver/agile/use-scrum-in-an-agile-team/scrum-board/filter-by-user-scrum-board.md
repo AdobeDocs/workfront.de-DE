@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Filtern nach Benutzer auf dem Scrum-Board
 description: Sie können den Filter auf dem Scrum-Board verwenden, um zu sehen, welche Arbeitselemente mit anderen Benutzern verknüpft sind und welche nicht zugewiesen sind.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
@@ -19,9 +19,9 @@ Sie können den Filter auf dem Scrum-Board verwenden, um zu sehen, welche Arbeit
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -38,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

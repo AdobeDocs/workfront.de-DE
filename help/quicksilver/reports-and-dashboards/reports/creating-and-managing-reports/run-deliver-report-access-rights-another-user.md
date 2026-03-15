@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen
+title: Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten einer anderen Person
 description: Standardmäßig können Benutzende nur die Objekte in einem Bericht sehen, für die sie über die Berechtigung zum Anzeigen verfügen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
-# Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen
+# Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten einer anderen Person
 
 <!-- Audited: 11/2024 -->
 
@@ -30,7 +30,7 @@ Wenn Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ausführe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ Wenn Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ausführe
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Wenn Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ausführe
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -124,23 +124,23 @@ So stellen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ber
    * TSV
 
 1. Klicken Sie **Jetzt senden**, um es sofort zu senden.\
-   Oder\
+   ODER\
    Klicken Sie **Sich wiederholenden Versand durchführen**, um einen wiederkehrenden Versand für den Bericht zu planen.\
    Weitere Informationen zu Berichtssendungen finden Sie im Artikel [Übersicht über die Berichtsbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Einschränkungen für Berichte mit einer Source-Spalte
 
-Die folgenden Berichte zeigen eine Source-Spalte an, in der Sie Informationen zum übergeordneten Objekt anzeigen können:
+Die folgenden Berichte enthalten die Spalte „Quelle“, in der Sie Informationen zum übergeordneten Objekt anzeigen können:
 
-* Problemberichte
-* Stundenberichte
-* Dokumentieren von Berichten
+* Berichte zu Problemen
+* Berichte zu Stunden
+* Berichte zu Dokumenten
 
-Wenn Benutzende keine Berechtigungen für das übergeordnete Objekt eines Problems, einer Stunde oder eines Dokuments haben, wird die Source-Spalte des Berichts leer angezeigt, selbst wenn der Bericht so konfiguriert ist, dass er angezeigt wird oder mit den Zugriffsrechten eines anderen Benutzers bereitgestellt werden soll.
+Wenn Benutzende keine Berechtigungen für das übergeordnete Objekt eines Problems, einer Stunde oder eines Dokuments haben, bleibt die Spalte „Quelle“ des Berichts leer, selbst wenn der Bericht so konfiguriert ist, dass er mit den Zugriffsrechten eines anderen Benutzers bzw. einer anderen Benutzerin angezeigt oder bereitgestellt wird.
 
-Um Informationen über das übergeordnete Objekt im Bericht anzuzeigen, empfehlen wir, eine Spalte für das übergeordnete Objekt hinzuzufügen, in der Sie den Namen des übergeordneten Objekts anzeigen können.
+Um Informationen über das übergeordnete Objekt im Bericht anzuzeigen, empfehlen wir, eine Spalte für das übergeordnete Objekt hinzuzufügen, in der der Name des übergeordneten Objekts angezeigt werden kann.
 
-Sie können beispielsweise einen der folgenden Punkte zu einem Bericht mit einer Source-Spalte hinzufügen:
+Sie können beispielsweise eines der folgenden Elemente zu einem Bericht hinzufügen, in dem es die Spalte „Quelle“ gibt:
 
 * Die Spalten „Projektname“, „Aufgabenname“ oder „Problemname“ für ein Dokument oder einen Stundenbericht.
 * Die Spalten „Projektname“ oder „Aufgabenname“ für einen Problembericht.

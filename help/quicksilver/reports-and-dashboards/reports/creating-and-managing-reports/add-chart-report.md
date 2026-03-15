@@ -1,25 +1,25 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Diagramm zu einem Bericht hinzufügen
+title: Hinzufügen eines Diagramms zu einem Bericht
 description: Sie können Ihre Berichte verbessern, indem Sie ein Diagramm hinzufügen. Sie können Diagramme zu vorhandenen Berichten oder zu Berichten hinzufügen, die Sie gerade erstellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2739'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Diagramm zu einem Bericht hinzufügen
+# Hinzufügen eines Diagramms zu einem Bericht
 
 <!--Audited: 11/2024-->
 
 Sie können Ihre Berichte verbessern, indem Sie ein Diagramm hinzufügen. Sie können Diagramme zu vorhandenen Berichten oder zu Berichten hinzufügen, die Sie gerade erstellen.
 
-Bevor Sie ein Diagramm zu einem Bericht hinzufügen, sollten Sie eine Ansicht und eine Gruppierung für den Bericht erstellen.
+Bevor Sie einem Bericht ein Diagramm hinzufügen, sollten Sie eine Ansicht und eine Gruppierung für den Bericht erstellen.
 
 Sie können den meisten Berichten nur dann Diagramme hinzufügen, wenn Sie die Informationen im Bericht zuerst gruppieren. Das einzige Diagramm, das ohne Gruppierung hinzugefügt werden kann, ist ein Messdiagramm.
 
@@ -33,7 +33,7 @@ Weitere Informationen zu Filtern finden Sie unter [Filter - Übersicht](../../..
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,13 +61,13 @@ Weitere Informationen zu Filtern finden Sie unter [Filter - Übersicht](../../..
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Diagramm zu einem Bericht hinzufügen
+## Hinzufügen eines Diagramms zu einem Bericht
 
-1. Zu einem vorhandenen Bericht gehen oder einen neuen Bericht erstellen. Weitere Informationen zum Erstellen eines neuen Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Wechseln Sie zu einem vorhandenen Bericht oder erstellen Sie einen neuen Bericht. Weitere Informationen zum Erstellen eines neuen Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. (Bedingt) Wenn Sie zu einem vorhandenen Bericht gewechselt sind, klicken Sie auf **Berichtsaktionen** > **Bearbeiten**.
 
@@ -80,21 +80,21 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >[!TIP]
    >
    >* Sie können ein Diagramm nur dann zu einem Bericht hinzufügen, wenn die Berichtsergebnisse gruppiert sind.
-   >* Textmodusgruppierungen werden in Diagrammen nicht unterstützt. Weitere Informationen zu Textmodusgruppierungen finden Sie unter [Gruppierung im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* Wenn Sie eine einzelne Gruppierung hinzufügen, die eine Metrik darstellt, zeigen alle Diagramme außer einem Tortendiagramm jedes Ergebnis in der Gruppierung in derselben Farbe an.
+   >* Gruppierungen im Textmodus werden in Diagrammen nicht unterstützt. Weitere Informationen zu Textmodusgruppierungen finden Sie unter [Bearbeiten einer Gruppierung mit Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Wenn Sie eine einzelne Gruppierung hinzufügen, die eine Metrik darstellt, zeigen alle Diagramme mit Ausnahme eines Kreisdiagramms jedes Ergebnis in der Gruppierung in derselben Farbe an.
 
-   Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Gruppierungen in Adobe Workfront erstellen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+   Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Wählen Sie die Registerkarte **Diagramm** aus.
 
 1. Klicken Sie auf einen Diagrammtyp, um ihn auszuwählen.\
-   ![Auswahl des Diagrammtyps](assets/unshimmed-report-builder-chart.png)
+   ![Diagrammtypauswahl](assets/unshimmed-report-builder-chart.png)
 
 1. Wählen Sie aus den folgenden Diagrammtypen:
 
-   * [Säulendiagramm](#column-chart)
+   * [Spaltendiagramm](#column-chart)
    * [Balkendiagramm](#bar-chart)
-   * [Tortendiagramm](#pie-chart)
+   * [Kreisdiagramm](#pie-chart)
    * [Liniendiagramm](#line-chart)
    * [Messdiagramm](#gauge-chart)
    * [Blasendiagramm](#bubble-chart)
@@ -130,7 +130,7 @@ So fügen Sie ein **Spalten**-Diagramm zu Ihrem Bericht hinzu:
      Weitere Informationen zum Anpassen von Diagrammfarben finden Sie unter [Anpassen von Diagrammfarben](#customize-chart-colors).
 
 1. (Optional) Klicken Sie **Kombinationsdiagramm**, um einen zusätzlichen Wert in das Diagramm aufzunehmen und anzugeben, wie die Informationen zusammengefasst werden sollen.\
-   Erwägen Sie die folgenden Optionen:
+   Berücksichtigen Sie die folgenden Optionen:
 
    * **Auf Sekundärer Achse**: Wählen Sie diese Option, um die Daten auf der rechten Seite des Diagramms darzustellen.
    * **Diagrammtyp**: Wählen Sie aus, ob dieser zusätzliche Wert als Linie oder dritte Spalte angezeigt werden soll.
@@ -165,7 +165,7 @@ So fügen Sie ein **Balkendiagramm** zu Ihrem Bericht hinzu:
    * (Optional) Klicken Sie auf **Benutzerdefinierte Farben**, um die Farben Ihrer Spalten anzupassen.\
      Weitere Informationen zum Anpassen von Diagrammfarben finden Sie unter [Anpassen von Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Klicken Sie **Kombinationsdiagramm**, um einen zusätzlichen Wert in das Diagramm aufzunehmen und anzugeben, wie die Informationen zusammengefasst werden sollen.
+1. (Optional) Klicken Sie auf **Kombinationsdiagramm**, um einen zusätzlichen Wert in das Diagramm einzuschließen, sowie darauf, wie die Informationen zusammengefasst werden sollen.
 
 1. Klicken Sie **Speichern + Schließen**, um das Diagramm und den Bericht zu speichern.
 
@@ -180,14 +180,14 @@ So fügen Sie **Bericht** Tortendiagramm hinzu:
 1. Fügen Sie Ihrem Bericht ein Diagramm hinzu, wie in [Hinzufügen eines Diagramms zu einem Bericht](#add-a-chart-to-a-report) beschrieben.
 
 1. Wählen Sie im Feld **Werte** die Werte aus, die im Bericht angezeigt werden sollen, und wählen Sie dann aus, wie die Informationen im Feld **Zusammenfassung nach** zusammengefasst werden sollen.\
-   Wählen **im Feld** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Keile des Diagramms dargestellt.
+   Wählen Sie im Feld **Keile** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Keile des Diagramms dargestellt.
 
 1. (Optional) Klicken Sie auf **Benutzerdefinierte Farben**, um die Farben der Keile im Diagramm anzupassen.\
-   Weitere Informationen zum Anpassen von Diagrammfarben finden Sie unter [Anpassen von Diagrammfarben](#customize-chart-colors).
+   Weitere Informationen zum Anpassen der Diagrammfarben finden Sie unter [Anpassen der Diagrammfarben](#customize-chart-colors).
 
-1. (Optional) Klicken Sie auf **In 3D anzeigen**, um das Diagramm in einer 3-dimensionalen Ansicht anzuzeigen.
+1. (Optional) Klicken Sie auf **In 3D anzeigen**, um das Diagramm in einer dreidimensionalen Ansicht anzuzeigen.
 
-1. Wählen Sie im Feld **Ergebnisse anzeigen als** aus, wie die Ergebnisse in der Grafik angezeigt werden sollen. Erwägen Sie die folgenden Optionen:
+1. Wählen Sie im Feld **Ergebnisse anzeigen als** aus, wie die Ergebnisse im Diagramm angezeigt werden sollen. Berücksichtigen Sie die folgenden Optionen:
 
    * **Prozentsatz**: Die Diagrammergebnisse werden als Prozentsatz angezeigt.
    * **Zahlen**: Die Diagrammergebnisse werden als Zahl angezeigt.
@@ -229,7 +229,7 @@ So fügen Sie ein **Tacho**-Diagramm zu Ihrem Bericht hinzu:
 1. Wählen **im Feld** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Indikatorlinie im Diagramm dargestellt.\
    Wenn Sie eine Gruppierung haben, die zwei Elemente enthält, werden im Diagramm zwei Indikatoren angezeigt.\
    Wenn Sie beispielsweise den Projektstatus gruppieren und es zwei Projektstatus (Aktuell und Halten) gibt, enthält Ihr Tacho-Diagramm zwei Tacho-Indikatoren. Sie verweisen auf die Anzahl der Projekte, die sich in diesem Status befinden.\
-   (Optional) Wählen Sie **Summe** im Feld **Indikatoren** aus, um die Summe der im Feld **Werte** ausgewählten Objekte anzuzeigen.
+   (Optional) Wählen Sie **Insgesamt** im Feld **Indikatoren** aus, um die Gesamtzahl der im Feld **Werte** ausgewählten Objekte anzuzeigen.
 
 1. (Optional) Klicken Sie auf **Weiteren Wertbereich hinzufügen**, um dem Diagramm einen Wertbereich hinzuzufügen.
 
@@ -263,7 +263,7 @@ So fügen Sie **Bericht ein** hinzu:
 
 1. Wählen **im Feld** die Gruppierung aus, die Sie in das Diagramm aufnehmen möchten. Die Gruppierung wird durch die Platzierung der Blasen im Diagramm dargestellt.
 
-1. Wählen **Feld &quot;**&quot; das Feld aus, das durch die Farben der Blasen dargestellt werden soll.
+1. Wählen Sie im Feld **Blasenfarbe** das Feld aus, das durch die Farben der Blasen dargestellt werden soll.
 
    Die **Sprechblasenfarbe** kann eine Gruppierung sein, die Sie im Bericht definieren, aber die Option ist nur verfügbar, wenn Sie eine Gruppierung im Feld **Sprechblasen** wählen, die den **Namen** eines übergeordneten Objekts relativ zum Objekt des Berichts enthält, z. B. **Projektname** für einen Aufgabenbericht oder **Programmname** für einen Projektbericht.
 

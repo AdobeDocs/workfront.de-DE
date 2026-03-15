@@ -1,14 +1,14 @@
 ---
 title: Verbesserungen beim Proofing im ersten Quartal 2025
 description: Verbesserungen beim Proofing im ersten Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2025 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Desktop Proofing Viewer-Upgrade
 
@@ -37,4 +37,4 @@ Wir führen eine neue Browser-Erweiterung ein, das Adobe Workfront Review Tool, 
 
 Das neue Adobe Workfront-Überprüfungs-Tool unterstützt die Überprüfung von ZIP-Inhalten in allen gängigen Browsern. Zusätzlich zum ZIP-Inhalt unterstützt die neue Erweiterung auch die Überprüfung von URL-Inhalten und befindet sich derzeit in der Beta-Phase.
 
-Informationen zum Installieren der neuen Erweiterung finden Sie [&#x200B; Abschnitt „Installieren der &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)&quot; in [Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungs-Tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+Informationen zum Installieren der neuen Erweiterung finden Sie [ Abschnitt „Installieren der ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)&quot; in [Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungs-Tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).

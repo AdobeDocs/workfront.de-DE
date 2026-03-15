@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Informationen aus mehreren Spalten in einer gemeinsamen Spalte zusammenführen'
 description: Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte
+# Ansicht: Informationen aus mehreren Spalten in einer gemeinsamen Spalte zusammenführen
 
 <!-- Audited: 11/2024 -->
 
@@ -22,7 +22,7 @@ Sie können die Informationen, die in mehreren separaten Spalten angezeigt werde
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können die Informationen, die in mehreren separaten Spalten angezeigt werde
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

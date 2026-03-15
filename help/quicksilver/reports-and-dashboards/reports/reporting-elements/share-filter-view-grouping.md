@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Filter, Ansichten oder Gruppierungen freigeben
+title: Freigeben von Filtern, Ansichten oder Gruppierungen
 description: Sie können Filter, Ansichten und Gruppierungen freigeben, auf die Sie Zugriff haben, um sie für andere Benutzer anzuzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Filter, Ansichten oder Gruppierungen freigeben
+# Freigeben von Filtern, Ansichten oder Gruppierungen
 
 <!-- Audited: 11/2024 -->
 
@@ -32,11 +32,11 @@ Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung 
 
 * [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Übersicht über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Überblick über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,8 +49,8 @@ Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-    <p>Mitwirkender oder höher</p>
-    <p>Anfrage oder höher</p>
+    <p>Mitwirkende oder höher</p>
+    <p>Anfragende oder höher</p>
    </td>
   </tr> 
   <tr> 
@@ -66,11 +66,11 @@ Informationen zum Erstellen eines Filters, einer Ansicht oder einer Gruppierung 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Filter, Ansichten oder Gruppierungen freigeben
+## Freigeben von Filtern, Ansichten oder Gruppierungen
 
 <!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
@@ -114,7 +114,7 @@ Freigeben von Filtern über die Standard-Builder-Oberfläche:
    </tbody>
    </table>
 
-1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
+1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
 
    ![Weitere Menüoptionen](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -175,7 +175,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der veralteten Benutzer
    >Bei der Freigabe für Gruppen erhalten die Mitglieder der Gruppe und aller Untergruppen Berechtigungen für den Filter, die Ansicht oder die Gruppierung.
 
    **Für alle Benutzer im System freigeben:** Klicken Sie auf das Symbol **Einstellungen** und klicken Sie dann auf **Systemweit sichtbar machen**.\
-   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[&#x200B; von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[ von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Bedingt) Wenn Sie Berechtigungen für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freigeben, klicken Sie auf das Dropdown-Menü, um die Zugriffsebene zu definieren, die Sie gewähren möchten.
 

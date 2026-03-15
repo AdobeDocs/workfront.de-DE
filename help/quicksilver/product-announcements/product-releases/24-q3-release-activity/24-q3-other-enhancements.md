@@ -1,14 +1,14 @@
 ---
 title: Weitere Verbesserungen während des Veröffentlichungszeitraums des dritten Quartals 2024
 description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten Quartal 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [&#x200B; zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Backend-Änderung an produktinternen Handbüchern
 
@@ -26,7 +26,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 ve
 
 Wir implementieren in den nächsten Wochen einen Technologiewechsel für unsere produktinternen Handbücher. Obwohl wir versucht haben, die Auswirkungen dieser Umstellung zu minimieren, können einige Benutzer auf Anleitungen stoßen, die sie zuvor gesehen haben.
 
-## Adobe Unified Experience ist jetzt für weitere Workfront-Organisationen verfügbar
+## Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar
 
 >[!NOTE]
 >
@@ -35,19 +35,19 @@ Wir implementieren in den nächsten Wochen einen Technologiewechsel für unsere 
 
 Um Unternehmen den Zugriff auf die Vorteile des einheitlichen Adobe-Erlebnisses zu ermöglichen, haben wir begonnen, dieses für bestehende Workfront-Kunden verfügbar zu machen.
 
-Das einheitliche Adobe-Erlebnis umfasst:
+Adobe Unified Experience umfasst Folgendes:
 
-* Eine einzige Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud
+* Eine einzige Anmeldung für alle Adobe-Programme über Adobe Experience Cloud
 * Ein „Organisationswechsel“, um zwischen Workfront-Organisationen und -Umgebungen zu wechseln
 * Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil
 
 Wenn Ihr Unternehmen zum einheitlichen Adobe-Erlebnis mit Version 24.7 wechselt, hat Ihr Workfront-Administrator eine Ankündigungscenter-Nachricht über die Änderung erhalten.
 
-Zuvor war Adobe Unified Experience nur für neue Workfront-Kunden verfügbar.
+Zuvor war das einheitliche Adobe-Erlebnis nur für neue Workfront-Kunden verfügbar.
 
 Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Aus der Hauptnavigationsleiste entfernte Schaltfläche „Hilfe“
 

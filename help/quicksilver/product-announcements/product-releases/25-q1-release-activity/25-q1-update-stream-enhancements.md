@@ -1,14 +1,14 @@
 ---
 title: Verbesserungen bei Aktualisierungen und Benachrichtigungen für das erste Quartal 2025
 description: Verbesserungen bei Aktualisierungen und Benachrichtigungen für das erste Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Aktualisierungen und Verbesserungen der Benachrichtigung beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2025 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Aktualisiertes Kommentierungserlebnis im Erwähnungen -Widget auf der Startseite und im Bereich Meine Aktualisierungen
 
@@ -40,4 +40,4 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Widgets in der Startseite hinzufügen, bearbeiten oder entfernen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
-* [Verwenden des Bereichs Meine Aktualisierungen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+* [Verwenden des Bereichs „Meine Aktualisierungen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)

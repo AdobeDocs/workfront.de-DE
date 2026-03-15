@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen : Zeigt ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten an'
 description: Sie können Informationen zum ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
@@ -26,7 +26,7 @@ Informationen zum Erstellen einer Ansicht mit dem standardmäßigen Report Build
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

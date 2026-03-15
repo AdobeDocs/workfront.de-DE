@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Eine Agile-Story verschieben
 description: Sie können eine Agile-Story entweder in eine andere Iteration (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams) verschieben.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
-# Eine Agile-Story verschieben
+# Verschieben einer Agile-Story
 
 Sie können eine Agile-Story entweder in eine andere Iteration (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams) verschieben.
 
@@ -43,7 +43,7 @@ Sie können eine Agile-Story entweder in eine andere Iteration (für Scrum-Teams
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,6 +81,6 @@ Sie können eine Story für Ihr Scrum-Team in eine andere Iteration verschieben,
 
    >[!NOTE]
    >
-   >Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicken Sie **[!UICONTROL Verschieben]**.

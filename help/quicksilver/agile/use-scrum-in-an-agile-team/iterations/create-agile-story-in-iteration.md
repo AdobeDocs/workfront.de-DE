@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Erstellen einer Agile-Story in einer Iteration
 description: In diesem Artikel wird beschrieben, wie Sie eine neue Agile-Story erstellen, wenn Sie sich bereits in der Iteration befinden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ In diesem Artikel wird beschrieben, wie Sie eine neue Agile-Story erstellen, wen
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Geben Sie eine Beschreibung für die Story ein.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL bereit]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Bereit]</strong></td>
       <td>Wählen Sie diese Option, wenn die Story bereit zum Hinzufügen zu einer Iteration ist. Wenn diese Option ausgewählt ist, zeigt sie den Benutzenden an, welche Storys im Rückstand bereit zum Hinzufügen zu einer Iteration sind.<br>Eine Story kann zu einer Iteration hinzugefügt werden, unabhängig davon, ob sie <strong>[!UICONTROL Ready] markiert ist oder nicht.</strong></td>
      </tr>
      <tr>
@@ -87,7 +87,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td>Nachdem Sie ein übergeordnetes Projekt ausgewählt haben, haben Sie die Möglichkeit, eine übergeordnete Aufgabe auszuwählen. Wenn Sie eine übergeordnete Aufgabe auswählen, wird die Story als Teilaufgabe der übergeordneten Aufgabe für das ausgewählte Projekt erstellt.<br>Beginnen Sie mit der Eingabe des Namens der übergeordneten Aufgabe für die Story und klicken Sie dann darauf, wenn sie in der Dropdown-Liste angezeigt wird.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Benutzerdefinierte Formulare]</strong></td>
       <td>Wählen Sie benutzerdefinierte Formulare aus, die der Story hinzugefügt werden sollen.</td>
      </tr>
     </tbody>

@@ -2,35 +2,35 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Bericht: Kombinierte Ansicht und Gruppierung von Aufgaben und Problemen'
-description: Dieser Arbeitsaufgabenbericht zeigt in einem Bericht sowohl Aufgaben als auch Probleme an, die von den Benutzenden bearbeitet wurden. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
-author: Nolan
+title: 'Bericht: Kombinierte Aufgaben- und Problemansicht und Gruppierung'
+description: Dieser Arbeitsaufgabenbericht zeigt sowohl Aufgaben als auch Probleme an, die Benutzer akzeptiert haben, in einem Bericht zu arbeiten. Dies ist am besten in Kombination mit einer benutzerdefinierten Gruppierung.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
-# Bericht: Ansicht und Gruppierung von kombinierten Aufgaben und Problemen
+# Bericht: Kombinierte Ansicht und Gruppierung für Aufgaben und Probleme
 
 <!--Audited: 10/2024-->
 
-Dieser Arbeitsaufgabenbericht zeigt in einem Bericht sowohl Aufgaben als auch Probleme an, die von den Benutzenden bearbeitet wurden. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
+Dieser Arbeitsaufgabenbericht zeigt sowohl Aufgaben als auch Probleme an, die Benutzer akzeptiert haben, in einem Bericht zu arbeiten. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 
-Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen zum `sharecol`-Tag finden Sie unter [Ansicht: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter demselben Spaltenkopf zusammenzufassen. Weitere Informationen zum `sharecol`-Tag finden Sie unter [Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer freigegebenen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
->  In der Arbeitsaufgabenansicht werden nur Aufgaben und Probleme angezeigt, die von den ihnen zugewiesenen Benutzern akzeptiert wurden. Dieser Bericht zeigt keine Arbeitselemente an, die nicht aus den Listen Arbeitsaufträge oder Teamanfragen in die Liste „Arbeiten an“ des Benutzers verschoben wurden.
+>  In der Arbeitsaufgabenansicht werden nur Aufgaben und Probleme angezeigt, die von den Benutzern akzeptiert wurden, die ihnen zugewiesen wurden. Dieser Bericht zeigt keine Arbeitsaufgaben an, die nicht aus den Listen &quot;Arbeitsanforderungen&quot; oder &quot;Teamanforderungen&quot; in die Liste &quot;Arbeiten am&quot; des Benutzers verschoben wurden.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,36 +43,36 @@ Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Anbieter oder Anforderung zum Ändern eines Filters </p>
    <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern eines Filters</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen eines Berichts mit kombinierter Aufgaben- und Problemansicht und Gruppierung
+## Erstellen eines Berichts mit kombinierten Aufgaben- und Problemansichten und -gruppierungen
 
 So erstellen Sie einen Bericht mit dieser Ansicht:
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenü-Symbol ](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
 
-1. Klicken Sie **Dropdown** Menü auf „Neuer Bericht **> Mehr** > **Arbeitselement**.
+1. Klicken Sie im Dropdown-Menü auf **Neuer Bericht** > **Mehr** > **Arbeitsaufgabe**.
 
 1. Klicken Sie **Bereich „Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte. Dies ist die Spalte **Ext Ref**.
-1. Klicken Sie **In Textmodus wechseln**.
+1. Klicken Sie auf **In Textmodus wechseln**.
 1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text aus dem Feld Textmodus und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie den im Textfeld &quot;Textmodus&quot; angezeigten Text und ersetzen Sie ihn durch folgenden Code:
 
    ```
    column.0.description=Task or Issue 
@@ -266,7 +266,7 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
 1. Klicken Sie auf **Fertig**.
 1. (Optional) Klicken Sie auf **Gruppierungen**, um dem Bericht eine Gruppierung hinzuzufügen.
 1. (Optional und bedingt) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In Textmodus wechseln**.
-1. (Optional) Ersetzen Sie den Text im Bereich des Textmodus für die Gruppierung durch folgenden Code:
+1. (Optional) Ersetzen Sie den Text im Bereich des Gruppierungstextmodus durch folgenden Code:
 
    ```
    group.0.name=
@@ -275,7 +275,7 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
    textmode=true
    ```
 
-   In dieser Gruppierung werden alle Aufgaben und alle Probleme gruppiert.
+   Diese Gruppierung gruppiert alle Aufgaben und alle Probleme zusammen.
 
 1. Klicken Sie auf **Speichern + schließen**.
 1. (Optional) Aktualisieren Sie den Namen des Berichts und klicken Sie dann auf **Übernehmen**.

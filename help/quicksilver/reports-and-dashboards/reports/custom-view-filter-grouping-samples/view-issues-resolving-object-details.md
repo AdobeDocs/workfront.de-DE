@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Probleme mit dem Auflösen von Objektdetails'
 description: In dieser Anfrageansicht werden der Name und der abgeschlossene Prozentsatz des Lösungsobjekts des Problems angezeigt, sodass der Problemurheber auch ohne Zugriff auf die Lösungsaufgabe oder das Projekt insight in den Fortschritt des Problems einbeziehen kann.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Anzeigen: Probleme mit dem Auflösen von Objektdetails
+# Ansicht: Probleme mit dem Auflösen von Objektdetails
 
 <!--Audited: 11/2024-->
 
@@ -26,7 +26,7 @@ In dieser Ansicht werden mit dem Tag `sharecol=true` mehrere Felder unter dersel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ In dieser Ansicht werden mit dem Tag `sharecol=true` mehrere Felder unter dersel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Ändern der Reihenfolge von Storys auf dem Scrum-Board
 description: Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden. Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Spalte [!UICONTROL Status] auf dem Storyboard angezeigt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie Spalten auf dem Story Board neu anordnen, werden alle von Ihnen vorgeno
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

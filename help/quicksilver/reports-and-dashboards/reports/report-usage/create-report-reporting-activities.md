@@ -4,13 +4,13 @@ keywords: Änderung,Inhaber,Freigegeben,Bericht,Freigeben,Ausführen,Benutzer,Zu
 navigation-topic: report-usage
 title: Erstellen eines Berichts zu Reporting-Aktivitäten
 description: Wenn Sie einen Bericht über Berichte erstellen, können Sie bestimmte Berichtsinformationen identifizieren, z. B. wenn Berichte deaktivierten Benutzern zugewiesen sind, wenn Berichte mit Zugriffsrechten eines deaktivierten Benutzers ausgeführt werden sollen, wenn Benutzer auf einen Bericht zugreifen, den Sie löschen möchten, usw.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Wenn Sie einen Bericht über Berichte erstellen, können Sie bestimmte Berichtsi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Wenn Sie einen Bericht über Berichte erstellen, können Sie bestimmte Berichtsi
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -47,7 +47,7 @@ Wenn Sie einen Bericht über Berichte erstellen, können Sie bestimmte Berichtsi
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +101,7 @@ Nachdem Sie Ihren Bericht erstellt haben, können Sie Ihre Berichte nach Bedarf 
    * Aktualisieren Sie das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** für einen aktiven Benutzer: Weitere Informationen finden Sie unter [Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
    * Kopie des Berichts erstellen: Weitere Informationen finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
-   * Löschen eines Berichts: Weitere Informationen finden Sie im Abschnitt [Erstellen einer exakten Kopie &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) Berichts“ des Artikels [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   * Löschen eines Berichts: Weitere Informationen finden Sie im Abschnitt [Erstellen einer exakten Kopie ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) Berichts“ des Artikels [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
    * Freigeben eines Berichts: Weitere Informationen finden Sie unter [Freigeben eines Berichts in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 

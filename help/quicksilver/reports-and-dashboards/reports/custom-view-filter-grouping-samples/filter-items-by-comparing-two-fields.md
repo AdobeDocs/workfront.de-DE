@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filtern: Eliminieren von Elementen in einer Liste durch Vergleich von zwei Feldern'
+title: 'Filtern: Elemente in einer Liste durch Vergleich von zwei Feldern entfernen'
 description: Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder vergleichen. Beispielsweise können Sie nur Aufgaben anzeigen, deren tatsächliches Abschlussdatum nach dem geplanten Abschlussdatum liegt.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
-# Filtern: Eliminieren von Elementen in einer Liste durch Vergleich von zwei Feldern
+# Filtern: Elemente in einer Liste durch Vergleich von zwei Feldern entfernen
 
 <!--Audited: 10/2024-->
 
@@ -22,7 +22,7 @@ Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder vergle
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können Elemente aus einer Liste filtern, indem Sie zwei ihrer Felder vergle
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

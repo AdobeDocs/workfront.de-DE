@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Die Breite einer Spalte dauerhaft bearbeiten'
 description: Sie können die Spaltenbreite vorübergehend ändern, indem Sie die Ränder der Spalten an die gewünschte Breite ziehen und ablegen. Weitere Informationen finden Sie unter Ändern der Spaltenbreite und -reihenfolge.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ Um die Breite einer Spalte einer Ansicht dauerhaft zu ändern, müssen Sie beim 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Um die Breite einer Spalte einer Ansicht dauerhaft zu ändern, müssen Sie beim 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie **Spalte hinzufügen**, um eine neue Spalte hinzuzufügen.
 
-   Oder
+   ODER
 
    Klicken Sie auf die Spaltenüberschrift einer vorhandenen Spalte.
 

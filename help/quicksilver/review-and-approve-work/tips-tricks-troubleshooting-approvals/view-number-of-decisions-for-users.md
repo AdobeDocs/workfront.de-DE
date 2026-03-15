@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzer anzeigen
+title: Anzeigen der Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzenden
 description: Sie können die Anzahl der Korrekturabzugs- und Dokumentenentscheidungen sehen, die von Benutzenden in Ihrer Workfront-Instanz getroffen wurden.
-author: Courtney and Jenny
+author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzer anzeigen
+# Anzeigen der Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzenden
 
 Sie können die Anzahl der Korrekturabzugs- und Dokumentenentscheidungen sehen, die von Benutzenden in Ihrer Workfront-Instanz getroffen wurden.
 

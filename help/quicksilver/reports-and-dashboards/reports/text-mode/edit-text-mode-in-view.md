@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten einer Ansicht im Textmodus
 description: Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Ansichten zu erstellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeit
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeit
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
      <p>Standard</p>
-     <p>Plan</p>
+     <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeit
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 
 1. Eine Spalte in der Ansicht auswählen.
 
-   Oder
+   ODER
 
    Wählen Sie die **Spalten (Ansicht)** des Report Builders aus und wählen Sie dann eine Spalte aus.
 
@@ -115,7 +115,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=&lt;/cod></p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
         
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
@@ -203,6 +203,6 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 1. Klicken Sie **Übernehmen**, wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Ansicht fortfahren möchten.
 1. Klicken Sie **Speichern + Schließen**, um Ihren Bericht zu speichern.
 
-   Oder
+   ODER
 
    Klicken Sie **Ansicht speichern**, um die Ansicht in einer Liste zu speichern.

@@ -1,11 +1,11 @@
 ---
 title: Erinnerungsnachrichten einrichten
 description: Erinnerungsbenachrichtigungen generieren E-Mails, die an Benutzer basierend auf angegebenen Kriterien gesendet werden. Erinnerungsbenachrichtigungen erinnern Benutzer an eine Aktion, die sie für eine Aufgabe, ein Problem, ein Projekt oder eine Arbeitszeittabelle ausführen müssen.
-author: Alina, Nolan
+author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 5%
@@ -155,7 +155,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
 
 Wenn die Bedingung für das Element erfüllt ist, an das die Erinnerungsbenachrichtigung angehängt ist, wird eine E-Mail-Benachrichtigung an den in der Erinnerungsbenachrichtigung definierten Benutzer ausgelöst.
 
-Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [&#x200B; Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [ Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Versand der Testerinnerungsnachricht
 

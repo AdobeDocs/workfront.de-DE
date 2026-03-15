@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Hinzufügen einer Unteraufgabe zu einer vorhandenen Story auf dem Scrum-Board
 description: Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys die Einstellung Fertigstellungsmodus für das Projekt, da dies beeinflusst, wie Storys aktualisiert werden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys Folgendes:
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![Teilaufgabe hinzufügen](assets/agile-story-addsubtask2-NWE.png)
 
-   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ &#x200B;] und die Unteraufgabe wird in die Anzeigespur verschoben.
+   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ ] und die Unteraufgabe wird in die Anzeigespur verschoben.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -106,7 +106,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> (Nur in Projekten verfügbar) Geben Sie die Anzahl der geplanten Stunden für die Aufgabe an.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Zuweisung]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Arbeitsauftrag]</strong></td>
       <td>Geben Sie den Namen des Teams ein, dem Sie die Unteraufgabe zuweisen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</td>
      </tr>
     </tbody>

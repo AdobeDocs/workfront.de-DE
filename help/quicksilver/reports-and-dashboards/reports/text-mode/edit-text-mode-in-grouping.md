@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten einer Gruppierung im Textmodus
-description: Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Gruppierungen zu erstellen.
-author: Nolan
+description: Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die nicht in der Standardschnittstelle verfügbar sind, und komplexere Gruppierungen zu erstellen.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 1%
 
 <!-- Audited: 1/2025 -->
 
-Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Gruppierungen zu erstellen.
+Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die nicht in der Standardschnittstelle verfügbar sind, und komplexere Gruppierungen zu erstellen.
 
 >[!TIP]
 >
->Es wird empfohlen, die Gruppierung so häufig wie möglich im Standardmodus zu erstellen und sie dann in den Textmodus zu konvertieren, um sie zu bearbeiten.
+>Es wird empfohlen, so viel wie möglich von der Gruppierung im Standardmodus zu erstellen und sie dann in den Textmodus zu konvertieren, um sie zu bearbeiten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bear
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
      <p>Standard</p>
-     <p>Plan</p>
+     <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -48,12 +48,12 @@ Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bear
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berichtsberechtigungen zum Bearbeiten von Gruppierungen in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Gruppierung, um sie zu bearbeiten</p></td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten, um Gruppierungen in einem Bericht zu bearbeiten</p> <p>Berechtigungen für eine Gruppe verwalten, um sie zu bearbeiten</p></td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,9 +106,9 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
    textmode=true
    ```
 
-   Codezeile zur Gruppierung. Dies bedeutet, dass die Gruppierung im Textmodus geändert wird.
+   Codezeile zur Gruppierung hinzu. Dies zeigt an, dass die Gruppierung im Textmodus geändert wurde.
 
-   **Beispiel** Um eine Liste von Aufgaben nach Projektname und dann nach dem Namen des Primären Verantwortlichen zu gruppieren, sollte die Gruppierung im Textmodus wie folgt aussehen:
+   **Beispiel:** Um eine Liste von Vorgängen nach dem Projektnamen und dann nach dem Namen des primären Bevollmächtigten zu gruppieren, sollte Ihre Gruppierung im Textmodus wie folgt aussehen.
 
    ```
    textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><strong>group.0.valuefield=project:name</strong><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><strong>group.0.valueformat=string</strong><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><strong>group.1.valuefield=assignedTo:name</strong><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><strong>group.1.valueformat=string</strong>
@@ -116,7 +116,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 
    >[!IMPORTANT]
    >
-   >Die fett gedruckten Zeilen sind obligatorisch.
+   >Die fett gedruckten Linien sind obligatorisch.
 
    <!--
    <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Example: </b></span></span>
@@ -139,9 +139,9 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
    </div>
    -->
 
-   Jedes Feld in der Gruppierung verfügt über mehrere Codezeilen, die sich auf dieses Feld beziehen.
+   Jedes Feld in der Gruppe enthält mehrere Codezeilen, die sich auf dieses Feld beziehen.
 
-   In der folgenden Tabelle sind die Schlüsselzeilen in einer Textmodusgruppierung aufgeführt.
+   Die folgende Tabelle beschreibt die Schlüsselzeilen in einer Textmodusgruppierung.
 
    <!--
    <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -177,21 +177,21 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
         <li>Die erste Gruppierung des Berichts weist die Gruppennummer 0 auf. Alle Zeilen, die sich auf die erste Gruppierung beziehen, beginnen mit <code>group.0</code>.</li> 
         <li>Die zweite Gruppierung des Berichts hat die Gruppennummer 1. Alle Zeilen, die sich auf die zweite Gruppierung beziehen, beginnen mit <em><code>group.1</code></em>.</li> 
         <li>Die dritte Gruppe des Berichts ist die Gruppe 2. Alle Zeilen, die sich auf die dritte Gruppierung beziehen, beginnen mit <em><code>group.2</code></em>.</li> 
-        <li>Nur im Textmodus können Sie eine Gruppennummer von 3 für eine vierte Gruppierung hinzufügen. Alle Zeilen, die sich auf die vierte Gruppierung beziehen, beginnen mit <em><code>group.3</code></em>.</li> 
-       </ul> <p>Hinweis: 4 Gruppierungen werden im Builder nicht unterstützt. Sie werden nur im Textmodus unterstützt. Workfront unterstützt nicht mehr als vier Gruppierungsebenen.</p> </td> 
+        <li>Nur im Textmodus können Sie eine Gruppennummer von 3 für eine vierte Gruppierung hinzufügen. Alle Zeilen, die auf die vierte Gruppierung verweisen, beginnen mit <em><code>group.3</code></em>.</li> 
+       </ul> <p>Hinweis: 4 Gruppierungen werden im Builder nicht unterstützt. Sie werden nur unterstützt, wenn Sie den Textmodus verwenden. Workfront unterstützt nicht mehr als 4 Gruppierungsebenen.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueField</strong>=</p> </td> 
-      <td> <p>Dies ist der Name des Objekts oder Felds, wie er in der Datenbank angezeigt wird. Weitere Informationen zur Darstellung von Objekten und Feldern in der Datenbank finden Sie unter <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> <p>Die folgenden Szenarien sind vorhanden:</p> 
+      <td> <p>Dies ist der Name des Objekts oder des Felds, wie er in der Datenbank angezeigt wird. Weitere Informationen zum Anzeigen von Objekten und Feldern in der Datenbank finden Sie unter <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer</a>.</p> <p>Die folgenden Szenarien sind vorhanden:</p> 
        <ol> 
         <li value="1"> <p> Wenn der Name des angezeigten Felds eine Phrase anstelle eines einzelnen Substantivs ist, müssen Sie für das <code>valuefield</code> die Binnenmajuskeln-Syntax verwenden. Für das geplante Startdatum einer Aufgabe lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Wenn Sie ein benutzerdefiniertes Feld anzeigen möchten, ist der <code>valuefield</code> Wert der tatsächliche Name des Felds, wie er in der Benutzeroberfläche angezeigt wird. Für ein benutzerdefiniertes Feld mit dem Namen „Weitere Informationen“ lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Wenn Sie nach Objekten gruppieren möchten, die sich auf andere Objekte beziehen, indem Sie die <code>valuefield</code> Codezeile verwenden, werden die Objektnamen und Attribute durch Doppelpunkte getrennt.</p> <p>Beispielsweise hat eine Gruppierung nach Portfolio-Name für eine Aufgabenliste den folgenden Wert für die Zeile valueField :</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dies bedeutet, dass Sie über das Objekt des Berichts (Aufgabe) auf das nächste zugehörige Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende zugehörige Objekt über Projekt (Portfolio) zugreifen. Anschließend können Sie auf den Portfolionamen (Namen) zugreifen.</p> </li> 
-       </ol> <p>Informationen dazu, wie Objekte miteinander verbunden werden, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependenz und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardschnittstelle nicht gültig ist, und zur Standardschnittstelle wechseln, wird die Gruppierung gelöscht.</p> </td> 
+        <li value="3"> <p>Wenn Sie nach Objekten gruppieren möchten, die sich auf andere Objekte beziehen, indem Sie die <code>valuefield</code> Codezeile verwenden, werden die Objektnamen und Attribute durch Doppelpunkte getrennt.</p> <p>Beispielsweise hat eine Gruppierung nach Portfolio-Name für eine Aufgabenliste den folgenden Wert für die Zeile valueField :</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dies weist darauf hin, dass Sie vom Objekt des Berichts (Vorgang) aus auf das nächste verwandte Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende verwandte Objekt vom Projekt (Portfolio) aus zugreifen, und anschließend auf den Namen des Portfolios (Name).</p> </li> 
+       </ol> <p>Informationen darüber, wie Objekte miteinander verbunden sind, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependenz und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Verstehen von Objekten in Adobe Workfront</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardschnittstelle nicht gültig ist, und zur Standardschnittstelle wechseln, wird die Gruppierung gelöscht.</p> </td> 
      </tr> 
      <tr> 
       <td><strong>valueFormat=</strong> </td> 
-      <td> <p>Diese Linie stellt das Format dar, das zum Anzeigen der <code>valuefield</code> verwendet wird. Die <code>valueformat</code> gibt an, ob ein Objekt oder Feld als Text, Zahl, Prozentsatz oder Datum angezeigt wird.</p> <p>Es wird empfohlen, <code>HTML</code> für Ihre <code>valueformat</code> zu verwenden, insbesondere bei der Verwendung von <code>valueexpression</code>, um eine möglichst genaue Anzeige Ihrer Informationen zu gewährleisten.</p> <p>Weitere Informationen zu zusätzlichen Werten für diese Zeile finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Verwenden der bedingten Formatierung im Textmodus</a>.</p> </td> 
+      <td> <p>Diese Zeile stellt das Format dar, das zum Anzeigen von <code>valuefield</code> verwendet wird. Die <code>valueformat</code> gibt an, ob ein Objekt oder Feld als Text, Zahl, Prozentsatz oder Datum angezeigt wird.</p> <p>Es wird empfohlen, <code>HTML</code> für Ihre <code>valueformat</code> zu verwenden, insbesondere bei der Verwendung von <code>valueexpression</code>, um eine möglichst genaue Anzeige Ihrer Informationen zu gewährleisten.</p> <p>Weitere Informationen zu zusätzlichen Werten für diese Zeile finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Verwenden der bedingten Formatierung im Textmodus</a>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>valueExpression=</strong> </p> </td> 
@@ -237,4 +237,4 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
    >* Die Ergebnisse einer Gruppierung werden immer erweitert angezeigt, nachdem über ein Diagrammelement darauf zugegriffen wurde.
 
 1. Klicken Sie **Fertig**, wenn Sie Ihre Änderungen speichern und die Gruppierung oder den Bericht weiter bearbeiten möchten.
-1. Klicken Sie **Gruppierung speichern** in einer Liste oder **Speichern + schließen** um Ihren Bericht zu speichern.
+1. Klicken Sie auf **Gruppierung speichern** in einer Liste oder auf **Speichern + Schließen**, um den Bericht zu speichern.

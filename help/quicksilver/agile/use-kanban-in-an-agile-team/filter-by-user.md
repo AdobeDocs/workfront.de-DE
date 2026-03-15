@@ -1,25 +1,25 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Nach Benutzer im Kanban-Board filtern
-description: Sie können den Filter auf einem Kanban-Board verwenden, um zu sehen, welche Arbeitselemente mit anderen Benutzern verknüpft sind und welche nicht zugewiesen sind.
-author: Jenny
+title: Nach Benutzer auf dem Kanban-Board filtern
+description: Sie können den Filter auf einem Kanban-Board verwenden, um zu sehen, welche Arbeitsaufgaben anderen Benutzern zugeordnet sind und welche nicht zugewiesen sind.
+author: Courtney
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# Nach Benutzer auf der [!UICONTROL Kanban]Pinnwand filtern
+# Nach Benutzer auf dem Board [!UICONTROL Kanban] filtern
 
-Sie können den Filter auf einer Kanban[!UICONTROL Pinnwand verwenden] um zu sehen, welche Arbeitselemente mit anderen Benutzenden verknüpft sind und welche nicht zugewiesen sind.
+Sie können den Filter auf einem [!UICONTROL Kanban]-Board verwenden, um zu sehen, welche Arbeitsaufgaben anderen Benutzern zugeordnet sind und welche Zuweisung aufgehoben wurde.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,28 +34,28 @@ Sie können den Filter auf einer Kanban[!UICONTROL Pinnwand verwenden] um zu seh
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Nach Benutzer auf dem Kanban-Board filtern
+## Filtern nach Benutzenden auf dem Kanban-Board
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png). Wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus, oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zu einem Kanban[!UICONTROL Board &#x200B;].
-1. Klicken Sie auf [!UICONTROL &#x200B; Dropdown]Menü „Filter“ auf der rechten Seite der [!UICONTROL Kanban]Pinnwand.
-1. Wählen Sie einen oder mehrere Benutzer oder &quot;**[!UICONTROL &quot;]**.
+1. Wechseln Sie zu einem [!UICONTROL Kanban]-Board.
+1. Klicken Sie auf das Dropdown-Menü [!UICONTROL Filter] auf der rechten Seite des [!UICONTROL Kanban]-Boards.
+1. Wählen Sie einen oder mehrere Benutzer oder **[!UICONTROL Nicht zugewiesen]**.
 
    >[!NOTE]
    >
-   >* Die Spaltensummen ändern sich nicht basierend auf den gefilterten Ergebnissen. Spaltensummen zeigen die Gesamtsummen für alle Arbeitselemente auf der Pinnwand an. Standardmäßig werden maximal fünfzig Karten angezeigt. Sie können jedoch auf **[!UICONTROL Weitere anzeigen]** klicken, um zusätzliche Karten anzuzeigen.
+   >* Die Spaltensummen ändern sich nicht basierend auf den gefilterten Ergebnissen. Spaltensummen zeigen die Summen für alle Arbeitsaufgaben auf dem Board an. Standardmäßig werden maximal fünfzig Karten angezeigt. Sie können jedoch auf **[!UICONTROL Mehr anzeigen]** klicken, um weitere Karten anzuzeigen.
    >* Filter werden nicht auf die Spalte [!UICONTROL Rückstand] angewendet.
 
 

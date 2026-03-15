@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Überprüfen eines Dokuments in Workfront
 description: Als Reviewer können Sie eine Vorschau eines Dokuments anzeigen, das Ihnen zur Überprüfung übermittelt wurde.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 6%
@@ -19,7 +19,7 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 

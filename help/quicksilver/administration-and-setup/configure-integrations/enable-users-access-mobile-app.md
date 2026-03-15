@@ -5,24 +5,24 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Sie können den Zugriff auf die Mobile App  [!DNL Adobe Workfront]  oder deaktivieren.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 5%
+ht-degree: 31%
 
 ---
 
-# Benutzern den Zugriff auf die Mobile App ermöglichen
+# Ermöglichen des Zugriffs auf die App für Benutzende
 
 Sie können den Zugriff auf die [!DNL Adobe Workfront] Mobile App aktivieren oder deaktivieren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können den Zugriff auf die [!DNL Adobe Workfront] Mobile App aktivieren ode
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -43,11 +43,11 @@ Sie können den Zugriff auf die [!DNL Adobe Workfront] Mobile App aktivieren ode
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Benutzern den Zugriff auf die Mobile App ermöglichen
+## Ermöglichen des Zugriffs auf die App für Benutzende
 
 {{step-1-to-setup}}
 

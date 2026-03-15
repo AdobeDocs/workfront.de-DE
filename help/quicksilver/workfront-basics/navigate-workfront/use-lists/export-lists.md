@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: Exportieren einer Liste
 description: Sie können eine Liste von Objekten aus Adobe Workfront exportieren. Wenn die Liste der Objekte in Workfront mehr als 2.000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Informationen zu Exportformaten und -beschränkungen finden Sie unter [Exportier
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +35,8 @@ Informationen zu Exportformaten und -beschränkungen finden Sie unter [Exportier
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher </p>
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher </p>
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Informationen zu Exportformaten und -beschränkungen finden Sie unter [Exportier
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

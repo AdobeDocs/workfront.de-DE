@@ -1,19 +1,19 @@
 ---
 navigation-topic: announcements
-title: Handbuch zur Einstellung von Enhanced Analytics
+title: Handbuch zur Einstellung der erweiterten Analyse
 description: Diese Seite enthält Informationen zur bevorstehenden Einstellung von Enhanced Analytics.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Handbuch zur Einstellung von Enhanced Analytics
+# Handbuch zur Einstellung der erweiterten Analyse
 
 Aufgrund der sinkenden Nutzung und der eingeschränkten Funktionalität wird Enhanced Analytics in Kürze von Adobe Workfront entfernt. Wir haben Workfront Data Connect als Alternative veröffentlicht, die die derzeit verwendeten erweiterten Analytics-Visualisierungen replizieren kann, und gleichzeitig leistungsstarke neue Visualisierungen erstellt, die mit Enhanced Analytics nicht möglich waren. Um einen erfolgreichen Übergang für Ihr Unternehmen sicherzustellen, enthält diese Seite Informationen darüber, was sich genau ändern wird, Ratschläge zur Vorbereitung auf den Übergang und Antworten auf häufig gestellte Fragen.
 
@@ -29,7 +29,7 @@ Aufgrund der sinkenden Nutzung und der eingeschränkten Funktionalität wird Enh
 
 **Was kann ich stattdessen verwenden?**
 
-* Workfront Data Connect kann Visualisierungen von Enhanced Analytics replizieren. Weitere Informationen finden [&#x200B; unter „Replizieren von Visualisierungen von erweiterten Analysen in Workfront Data &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect)&quot;.
+* Workfront Data Connect kann Visualisierungen von Enhanced Analytics replizieren. Weitere Informationen finden [ unter „Replizieren von Visualisierungen von erweiterten Analysen in Workfront Data ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect)&quot;.
 
 ## Vorbereiten der Einstellung
 
@@ -49,10 +49,10 @@ Verwenden Sie die Abfragen in den folgenden Artikeln, um Datenvisualisierungen z
 
 
 * [KPI-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-* [Flugplan-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
-* [Projektaktivitäten-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [Projekt-Treemap-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-* [Aktivität nach Team-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+* [Flugplanabfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Abfragen zu Projektaktivitäten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [Abfragen der Projekt-Treemap](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [Abfragen zur Aktivität nach Team](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Hilfe anfordern
 

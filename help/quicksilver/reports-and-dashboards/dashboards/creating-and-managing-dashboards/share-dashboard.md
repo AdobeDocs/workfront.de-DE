@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Dashboard freigeben
+title: Freigeben eines Dashboards
 description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Dashboards, wenn sie Zugriffsebenen zuweisen. Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Dashboards erteilen, auf die Sie Zugriff haben.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Dashboard freigeben
+# Freigeben eines Dashboards
 
 <!-- Audited: 1/2025 -->
 
@@ -29,7 +29,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +57,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,13 +82,13 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
   Weitere Informationen zum Anzeigen geerbter Berechtigungen finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-## Dashboard freigeben
+## Freigeben eines Dashboards
 
 Die Freigabe eines Dashboards oder mehrerer Dashboards aus einer Liste ist identisch.
 
 1. Gehen Sie zu einer Liste von Dashboards, wählen Sie ein oder mehrere Dashboards aus und klicken Sie dann auf **Freigeben** ![](assets/share-icon.png).
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen eines Dashboards und dann auf **Dashboard-Aktionen** > **Freigabe**.
 

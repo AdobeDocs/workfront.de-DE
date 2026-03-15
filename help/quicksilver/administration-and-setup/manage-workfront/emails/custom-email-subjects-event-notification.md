@@ -2,14 +2,14 @@
 navigation-topic: notifications
 title: E-Mail-Betreffe für Ereignisbenachrichtigungen anpassen
 description: Sie können die Betreffzeile der E-Mails anpassen, die von Ereignisbenachrichtigungen ausgelöst werden.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, d. h. diese Ereig
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, d. h. diese Ereig
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, d. h. diese Ereig
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -89,7 +89,7 @@ Wenn ein(e) Benutzende(r) in eine Konversation über die Aufgabe, das Problem, d
 
 Wird eine Konversation zu einem Projekt hinzugefügt, wird eine E-Mail mit dem zweiten Betreff generiert. Hier enthält die Betreffzeile „topReferenceObject:name&quot; und Workfront identifiziert erneut, auf welches Objekt verwiesen wurde, und gibt diesen Objektnamen anstelle von „topReferenceObject:name&quot; im Betreff zurück. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Projekt-ABC“.
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für &#x200B;](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
 
 ## E-Mail-Betreffzeilen für E-Mails mit mehreren Aktionen anpassen
 
@@ -101,4 +101,4 @@ Die Anforderung, ein Dokument zu einem Problem hinzuzufügen, ist beispielsweise
 
 ![Ereignis hat nicht mehrere Betreffzeilen](assets/Ev-not-mult-subj-lines.png)
 
-Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für &#x200B;](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
+Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.

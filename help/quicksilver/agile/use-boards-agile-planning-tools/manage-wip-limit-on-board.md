@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Verwalten des Work In Progress (WIP)-Limits auf einer Pinnwand
 description: Sie können ein Limit für laufende Arbeiten (Work In Progress, WIP) für jede Spalte auf einer Pinnwand konfigurieren.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Sie nicht 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,14 +35,14 @@ Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Sie nicht 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,10 +53,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
 1. Suchen Sie die Spalte, der Sie das WIP-Limit hinzufügen möchten.
 
-   Informationen zum Hinzufügen einer neuen Spalte finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zum Hinzufügen einer neuen Spalte finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]** aus, um den Bereich Einstellungen zu öffnen.
-1. Aktivieren [!UICONTROL &#x200B; unter „Spaltenrichtlinien] die **[!UICONTROL Laufende Arbeit] Limit**, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können.
+1. Aktivieren [!UICONTROL  unter „Spaltenrichtlinien] die **[!UICONTROL Laufende Arbeit] Limit**, um die Anzahl der Karten zu begrenzen, die der Spalte hinzugefügt werden können.
 1. Geben Sie die Limit-Nummer in das Feld **[!UICONTROL Limit festlegen]** ein.
 
    ![WIP-Beschränkung für Spalte](assets/boards-wip-limit-in-column.png)

@@ -2,30 +2,30 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Karten verwalten
-description: Sie können eine Karte in eine beliebige Spalte auf der Pinnwand verschieben oder eine Karte kopieren.
-author: Jenny
+description: Sie können eine Karte in eine beliebige Spalte auf dem Board verschieben oder kopieren.
+author: Courtney
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Karten verwalten
+# Verwalten von Karten
 
-Sie können eine Karte in eine beliebige Spalte auf der Pinnwand verschieben oder eine Karte kopieren.
+Sie können eine Karte in eine beliebige Spalte auf dem Board verschieben oder kopieren.
 
-Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, können der Status, die Verantwortlichen und Tags automatisch aktualisiert werden, wenn Sie eine Karte von einer Spalte in eine andere verschieben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.
+Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, können der Status, die Bevollmächtigten und die Tags automatisch aktualisiert werden, wenn Sie eine Karte von einer Spalte in eine andere verschieben. Weitere Informationen finden Sie unter &quot;Definieren von Spalteneinstellungen und Richtlinien&quot; im Artikel [Verwalten von Board-Spalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
->Es ist nicht möglich, eine Karte von einer Pinnwand auf eine andere zu verschieben.
+>Sie können eine Karte nicht von einem Board in ein anderes verschieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,14 +38,14 @@ Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, k�
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,41 +53,41 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-boards}}
 
-1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
-1. Ziehen Sie die Karte in eine andere Spalte an der Position, an der sie angezeigt werden soll.
+1. Auf ein Board zugreifen. Weitere Informationen finden Sie unter [Board erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
+1. Ziehen Sie die Karte in eine andere Spalte an der gewünschten Position.
 
-   Oder
+   ODER
 
-   Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Wählen Sie dann im Feld **[!UICONTROL Element verschieben]** eine andere Spalte aus und klicken Sie auf **[!UICONTROL Verschieben]**.
+   Klicken Sie auf der Karte auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Verschieben]** aus. Wählen Sie dann im Feld **[!UICONTROL Element]** verschieben eine andere Spalte aus, und wählen Sie **[!UICONTROL Verschieben]** aus.
 
    ![Karte verschieben](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >Wenn Sie das Feld **[!UICONTROL Element verschieben]** verwenden, wird die Karte immer an den Anfang der Spalte verschoben.
+   >Wenn Sie das Feld **[!UICONTROL Element]** verschieben verwenden, wird die Karte immer an den Anfang der Spalte verschoben.
 
-## Karten nach oben oder unten in einer Spalte verschieben
+## Karten an den Anfang oder das Ende einer Spalte verschieben
 
-1. Rufen Sie die Pinnwand auf.
-1. Ziehen Sie die Karte per Drag-and-Drop an die Position, an der sie in der Spalte erscheinen soll.
+1. Auf das Board zugreifen.
+1. Platziere die Karte per Drag-and-Drop an der gewünschten Stelle in der Spalte.
 
-   Oder
+   ODER
 
-   Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Spaltenanfang]** oder **[!UICONTROL Spaltenende]**.
+   Klicken Sie auf der Karte auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Oben in Spalte]** oder **[!UICONTROL Unten in Spalte]** aus.
 
-   ![Menü „Mehr“](assets/boards-moremenu-350x329.png)
+   ![Mehr Menü](assets/boards-moremenu-350x329.png)
 
 ## Kopieren einer Karte
 
-Beim Kopieren einer Ad-hoc-Karte werden alle Felder auf der Karte einschließlich der Checklisten-Elemente dupliziert.
+Beim Kopieren einer Ad-hoc-Karte werden alle Felder auf der Karte, einschließlich der Checklistenelemente, dupliziert.
 
 >[!NOTE]
 >
->Man kann keine verbundenen Karten kopieren.
+>Sie können verbundene Karten nicht kopieren.
 
-1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Kopieren]**.
+1. Auf das Board zugreifen.
+1. Klicken Sie auf der Karte auf das Menü **[!UICONTROL Mehr]** ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) und wählen Sie **[!UICONTROL Kopieren]** aus.
 
-   ![Menü „Mehr“](assets/boards-moremenu-350x329.png)
+   ![Mehr Menü](assets/boards-moremenu-350x329.png)
 
-   In derselben Spalte wird eine neue Karte mit dem Titel „Kopie von - [ursprünglicher Kartenname“ ].
+   In derselben Spalte wird eine neue Karte mit dem Titel &quot;Kopie von - [Originalkartenname]&quot; hinzugefügt.

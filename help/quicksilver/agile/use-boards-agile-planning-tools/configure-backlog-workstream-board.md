@@ -4,17 +4,17 @@ content-type: reference
 navigation-topic: boards
 title: Konfigurieren des Rückstands auf einer Workstream-Pinnwand
 description: Sie können eine Rückstandsspalte auf einer Pinnwand in einem Arbeitsablauf anzeigen und eine Abfrage für die Karten definieren, die aus der Arbeitsablauf-Kartenliste in den Pinnwand-Rückstand gezogen werden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Konfigurieren des Rückstands auf einer Workstream-Pinnwand
+# Konfigurieren des Rückstands auf einer Pinnwand für einen Arbeitsablauf
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Die Rückstandsspalte und die Abfrage sind auf eigenständigen Pinnwänden nicht
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,18 +43,18 @@ Die Rückstandsspalte und die Abfrage sind auf eigenständigen Pinnwänden nicht
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Konfigurieren des Rückstands auf einer Workstream-Pinnwand
+## Konfigurieren des Rückstands auf einer Pinnwand für einen Arbeitsablauf
 
 {{step1-to-boards}}
 

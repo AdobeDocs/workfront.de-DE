@@ -1,18 +1,18 @@
 ---
-title: Weitere Verbesserungen im Zeitrahmen der Version vom vierten Quartal 2024
+title: Weitere Verbesserungen im Zeitraum der Version im vierten Quartal 2024
 description: Weitere Verbesserungen im Veröffentlichungszeitraum des vierten Quartals 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Weitere Verbesserungen im Zeitrahmen der Version vom vierten Quartal 2024
+# Weitere Verbesserungen im Zeitraum der Version im vierten Quartal 2024
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
@@ -30,15 +30,15 @@ Zuvor konnten Benutzende den KI-Assistenten öffnen und eine Eingabeaufforderung
 
 Ihr Workfront-Administrator kann den KI-Assistenten für Ihr Unternehmen aktivieren oder deaktivieren. Der KI-Assistent ist für Instanzen mit Select-, Prime- und Ultimate-Plänen verfügbar.
 
-Weitere Informationen finden Sie unter [Zusammenfassen mithilfe des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+Weitere Informationen finden Sie unter [Erstellen von Zusammenfassungen mithilfe des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
-## Adobe-KI-Assistent in Workfront verfügbar
+## Adobe AI-Assistent in Workfront verfügbar
 
 >[!NOTE]
 >
 >Vorschau-Version: 28. August 2024; Produktionsversion: 28. August 2024
 
-Um Ihnen die Durchführung Ihrer Arbeit zu erleichtern, haben wir den KI-Assistenten für die Adobe zu Workfront hinzugefügt. Der KI-Assistent kann Ihnen helfen, indem er:
+Um Ihnen die Durchführung Ihrer Arbeit zu erleichtern, haben wir den KI-Assistenten von Adobe zu Workfront hinzugefügt. Der KI-Assistent kann Ihnen helfen, indem er:
 
 * Zusammenfassen von Arbeitselementen und Dokumenten, sodass Sie schnell ein allgemeines Verständnis über Aufgaben, Projekte und Assets erhalten.
 * Bereitstellen von Informationen aus der Experience League-Dokumentation, Einbringen von Anweisungen und Referenzmaterial in Workfront und Links zu ausführlicheren Dokumentationen.

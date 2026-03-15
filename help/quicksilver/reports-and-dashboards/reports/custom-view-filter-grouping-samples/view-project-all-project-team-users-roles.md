@@ -4,17 +4,17 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Projekt mit allen Benutzenden und Rollen des Projektteams'
 description: Diese Projektansicht zeigt eine Liste der dem Projekt-Team zugewiesenen Benutzer und Aufgabengebiete.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84a1e065-992e-4aa5-81ba-e699ac704837
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Anzeigen: Projekt mit allen Benutzenden und Rollen des Projektteams
+# Ansicht: Projekt mit allen Benutzenden und Rollen des Projekt-Teams
 
 <!--Audited: 11/2024-->
 
@@ -28,7 +28,7 @@ Diese Projektansicht zeigt eine Liste der dem Projekt-Team zugewiesenen Benutzer
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Diese Projektansicht zeigt eine Liste der dem Projekt-Team zugewiesenen Benutzer
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

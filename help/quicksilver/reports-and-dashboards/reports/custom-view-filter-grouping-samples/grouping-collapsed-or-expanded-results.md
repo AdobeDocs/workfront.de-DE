@@ -3,18 +3,18 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen'
-description: 'Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen'
-author: Nolan
+description: 'Gruppierung: Angeben, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen'
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen
+# Gruppierung: Angeben, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen
 
 <!--Audited: 10/2024-->
 
@@ -38,7 +38,7 @@ Sie können auch im Textmodus angeben, ob eine Gruppierung erweitert oder reduzi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +65,7 @@ Sie können auch im Textmodus angeben, ob eine Gruppierung erweitert oder reduzi
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Fügen Sie eine Gruppierung hinzu und klicken Sie dann auf **In Textmodus wechseln**.
 
-   Oder
+   ODER
 
    Wenn sich die Gruppierung bereits im Textmodus befindet, fügen Sie der Gruppierungsebene, die reduziert angezeigt werden soll, den folgenden Code hinzu:
 

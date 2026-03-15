@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Dashboard bearbeiten
+title: Bearbeiten eines Dashboards
 description: Das Dashboard bietet schnellen Zugriff auf Informationen. Sie können ein Dashboard mit Berichten, Kalendern und externen Seiten füllen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
-# Dashboard bearbeiten
+# Bearbeiten eines Dashboards
 
 <!-- Audited: 1/2025 -->
 
@@ -35,7 +35,7 @@ Wenn Sie ein Dashboard für Benutzende freigeben, werden alle Berichte und exter
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 
 <table style="table-layout:auto"> 
@@ -50,7 +50,7 @@ Wenn Sie ein Dashboard für Benutzende freigeben, werden alle Berichte und exter
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ Wenn Sie ein Dashboard für Benutzende freigeben, werden alle Berichte und exter
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Sie müssen ein Dashboard erstellen, bevor Sie es bearbeiten können.
 
 Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-## Dashboard bearbeiten
+## Bearbeiten eines Dashboards
 
 1. Wechseln Sie zum Dashboard, das Sie bearbeiten möchten.
 1. Klicken Sie **Dashboard-Aktionen** und dann auf **Bearbeiten**.
@@ -100,7 +100,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Das
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines vorhandenen Berichts und klicken Sie auf das Papierkorbsymbol, um ihn aus dem Dashboard zu entfernen.
 1. (Optional) Ändern Sie die Reihenfolge der Berichte im Dashboard, indem Sie auf den Namen eines Berichts klicken, ihn ziehen und an der gewünschten Stelle im Layout-Bereich ablegen.
 1. (Optional) Klicken Sie auf **Externe Seite hinzufügen**, um eine externe Seite zum Dashboard hinzuzufügen.\
-   Oder\
+   ODER\
    Suchen Sie nach einer vorhandenen externen Seite im Dashboard, bewegen Sie den Mauszeiger darüber und klicken Sie auf das **Bearbeiten**-Symbol, um die externe Seite zu bearbeiten.\
    Weitere Informationen zum Hinzufügen oder Bearbeiten externer Seiten in einem Dashboard finden Sie unter [Externe Webseite in ein Dashboard einbetten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 

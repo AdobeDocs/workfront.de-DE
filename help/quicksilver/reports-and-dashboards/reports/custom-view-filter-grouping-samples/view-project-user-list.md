@@ -2,35 +2,35 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Anzeigen: Liste der Projektbenutzer mit Aufgabengebieten'
-description: Sie können diese Ansicht in einer Projektliste oder einem Bericht anwenden, um eine Liste der mit dem Projekt verknüpften Benutzer sowie eine Liste der Aufgabengebiete anzuzeigen, die sie im Projekt ausführen.
-author: Nolan
+title: 'Ansicht: Liste von Projektbenutzern mit Auftragsrollen'
+description: Sie können diese Ansicht in einer Projektliste oder einem Bericht anwenden, um eine Liste der Benutzer anzuzeigen, die dem Projekt zugeordnet sind, sowie eine Liste der Auftragsrollen, die sie für das Projekt ausführen.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Anzeigen: Liste der Projektbenutzer mit Aufgabengebieten
+# Ansicht: Liste der Projektbenutzenden mit Aufgabengebieten
 
 <!--Audited: 11/2024-->
 
-Sie können diese Ansicht in einer Projektliste oder einem Bericht anwenden, um eine Liste der mit dem Projekt verknüpften Benutzer sowie eine Liste der Aufgabengebiete anzuzeigen, die sie im Projekt ausführen.
+Sie können diese Ansicht in einer Projektliste oder einem Bericht anwenden, um eine Liste der Benutzer anzuzeigen, die dem Projekt zugeordnet sind, sowie eine Liste der Auftragsrollen, die sie für das Projekt ausführen.
 
 Die Informationen in diesem Bericht finden Sie auch im Bereich Personen des Projekts.
 
 >[!TIP]
 >
->Wenn für die Benutzer keine Aufgabengebiete aufgelistet sind, Sie aber wissen, dass sie in ihren Benutzerprofilen Aufgabengebieten zugeordnet sind, bedeutet dies möglicherweise, dass sie Aufgaben und Problemen zugewiesen sind, aber möglicherweise nicht mit einem Aufgabengebiet für die Aufgabe oder das Problem verknüpft sind, oder dass die im Bericht aufgelisteten Benutzer nicht die Beauftragten für Aufgaben und Probleme sind, sondern andere Rollen für das Projekt erfüllen (z. B. Inhaber oder Sponsor).
+>Wenn keine Jobrollen für die Benutzer aufgelistet sind, aber Sie wissen, dass sie mit Jobrollen in ihren Benutzerprofilen verknüpft sind, kann dies bedeuten, dass sie Vorgängen und Problemen zugewiesen sind, aber möglicherweise nicht mit einer Jobrolle für den Vorgang oder das Problem verknüpft sind, oder dass die im Bericht aufgeführten Benutzer nicht die Bevollmächtigten für Vorgänge und Probleme sind, sondern andere Rollen im Projekt erfüllen (z. B. Eigentümer oder Sponsor).
 
 ![project_with_user_and_role_information_report.png](assets/project-with-user-and-role-information-report-350x100.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,33 +43,33 @@ Die Informationen in diesem Bericht finden Sie auch im Bereich Personen des Proj
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anfrage zum Ändern einer Ansicht </p>
-   <p>Standard oder Plan zum Ändern eines Berichts</p>
+   <p>Mitwirkender oder Anforderung zum Ändern einer Ansicht </p>
+   <p>Standard oder Abo zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern einer Ansicht</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
 
-## Anzeigen einer Liste von Projektbenutzenden mit Aufgabengebieten
+## Anzeigen einer Liste von Projektbenutzern mit Arbeitsrollen
 
-1. Zu einer Projektliste gehen.
-1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Gehen Sie zu einer Liste von Projekten.
+1. Wählen Sie im Dropdown-Menü **Ansicht** die Option **Neue Ansicht**.
 1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, und klicken Sie dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch folgenden Code:
 
    ```
    column.0.link.valueformat=val
@@ -99,4 +99,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.2.valueformat=HTML
    ```
 
-1. Klicken Sie **Fertig** > **Ansicht speichern**.
+1. Klicken Sie auf **Fertig** > **Ansicht speichern**.

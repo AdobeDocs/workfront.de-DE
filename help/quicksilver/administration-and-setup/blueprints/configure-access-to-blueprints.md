@@ -4,18 +4,18 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Zugriff auf Blueprints konfigurieren
 description: Als Systemadministrator können Sie den Zugriff für Benutzer aktivieren, um die Installation von Blueprints anzufordern, indem Sie eine Anfrage-Warteschlange zum Speichern der Anfragen einrichten. Dort haben Sie einen einzigen Ort, um Anfragen zu verfolgen und zu aktualisieren.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Zugriff auf Blueprints konfigurieren
+# Konfigurieren des Zugriffs auf Blueprints
 
 Alle [!DNL Adobe Workfront] können den Blueprint-Katalog durchsuchen.
 
@@ -26,7 +26,7 @@ Als Systemadministrator haben Sie folgende Möglichkeiten:
   >[!NOTE]
   >
   >* Benutzern, denen keine Layoutvorlage zugewiesen ist, wird das [!UICONTROL Blueprints] im [!UICONTROL Hauptmenü] angezeigt.
-  >* Wenn Sie eine neue Layout-Vorlage erstellen[!UICONTROL &#x200B; wird das Symbol &#x200B;]Blueprints“ standardmäßig in die Liste [!UICONTROL Aktive Elemente] für das [!UICONTROL Hauptmenü] aufgenommen.
+  >* Wenn Sie eine neue Layout-Vorlage erstellen[!UICONTROL  wird das Symbol ]Blueprints“ standardmäßig in die Liste [!UICONTROL Aktive Elemente] für das [!UICONTROL Hauptmenü] aufgenommen.
 
 
 * Aktivieren Sie den Zugriff für Benutzer, um die Installation von Blueprints anzufordern, indem Sie eine Anfrage-Warteschlange zum Speichern der Anfragen einrichten. Dort haben Sie einen einzigen Ort, um Anfragen zu verfolgen und zu aktualisieren. Weitere Informationen finden Sie im folgenden Verfahren.
@@ -34,7 +34,7 @@ Als Systemadministrator haben Sie folgende Möglichkeiten:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +48,7 @@ Als Systemadministrator haben Sie folgende Möglichkeiten:
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -57,7 +57,7 @@ Als Systemadministrator haben Sie folgende Möglichkeiten:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +86,7 @@ Bevor Benutzer die Installation von Blueprints für sie anfordern können, müss
 
    >[!IMPORTANT]
    >
-   >In dieser Liste werden nur öffentliche Anfrage-Warteschlangen angezeigt. Um Ihre Anfrage-Warteschlange öffentlich zu machen, lesen Sie [&#x200B; Abschnitt „Voraussetzungen](#prerequisites) weiter oben.
+   >In dieser Liste werden nur öffentliche Anfrage-Warteschlangen angezeigt. Um Ihre Anfrage-Warteschlange öffentlich zu machen, lesen Sie [ Abschnitt „Voraussetzungen](#prerequisites) weiter oben.
 
    Die Einstellung für die Anfrage-Warteschlange ist festgelegt, und Benutzer können jetzt die Blueprint-Installation anfordern.
 

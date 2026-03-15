@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Erstellen eines Agile-Teams
 description: Adobe Workfront ermöglicht es Agile-Teams, ihre Arbeit inkrementell und geordnet abzuschließen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Jeder Benutzer in der Organisation kann das Agile-Team sehen und alle Agile-Komp
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,9 +72,9 @@ Die folgende Funktion unterstützt diese Methode:
 Weitere Informationen finden Sie unter [Hinzufügen des Rückstands zum [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Konfigurieren Sie Elemente im Rückstand, die automatisch zum [!UICONTROL Kanban) Agile-Story]Board hinzugefügt werden sollen, wenn andere Elemente in einen Status verschoben werden, der mit „Abgeschlossen“ übereinstimmt.
-Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem Agile-Story[!UICONTROL Board von &#x200B;]Kanban“ angezeigt werden soll.
+* Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem Agile-Story[!UICONTROL Board von ]Kanban“ angezeigt werden soll.
 Weitere Informationen finden Sie unter [Verwalten des Work In Progress (WIP)-Limits auf dem Kanban-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Vorteile der Verwendung von Scrum in [!DNL Workfront]
@@ -159,7 +159,7 @@ Sie können ein vorhandenes Team in ein Agile-Team umwandeln:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** die Option **[!UICONTROL Dies ist ein Agile-Team]** aus.
 
-1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **&#x200B;**&#x200B;Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
+1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **** Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
 
 1. Klicken Sie auf **Änderungen speichern**.
 

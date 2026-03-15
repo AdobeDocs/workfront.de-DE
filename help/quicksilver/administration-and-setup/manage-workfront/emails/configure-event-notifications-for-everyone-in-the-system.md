@@ -1,14 +1,14 @@
 ---
 title: Konfigurieren von Ereignisbenachrichtigungen für alle Benutzer im System
 description: Ereignisbenachrichtigungen Trigger-E-Mails an Benutzende, wenn ein bestimmtes Ereignis eintritt. Als Adobe Workfront-Admin oder Benutzende mit Planerzugriffsebene können Sie eine Ereignisbenachrichtigung für alle Benutzenden im System konfigurieren. Bei der Konfiguration einer Ereignisbenachrichtigung wird diese aktiviert oder deaktiviert.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -34,7 +34,7 @@ Informationen zum Entsperren einer Ereignisbenachrichtigung, damit Gruppenadmini
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Informationen zum Entsperren einer Ereignisbenachrichtigung, damit Gruppenadmini
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-<p>Plan</p> 
+<p>Abo</p> 
 </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Informationen zum Entsperren einer Ereignisbenachrichtigung, damit Gruppenadmini
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 +++
 
 ## Konfigurieren von Ereignisbenachrichtigungen für alle Benutzer
@@ -82,7 +82,7 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
 1. (Optional) Klicken Sie auf den Namen einer Ereignisbenachrichtigung, um die Betreffzeile der E-Mail-Benachrichtigung anzupassen.
 
-   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für &#x200B;](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
 1. (Optional) Wenn Sie die Konfiguration einer E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, klicken Sie auf die Schaltfläche ![Sperren-Umschalter](assets/lock-toggle-button.png) rechts neben der Benachrichtigung, um sie in die entsperrte Position zu ![Entsperren-Umschalter](assets/unlock-toggle-button.png).
 

@@ -1,13 +1,13 @@
 ---
 title: Bearbeiten vorhandener Gruppierungen
 description: Bearbeiten vorhandener Gruppierungen
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können eine bestehende Gruppierung, die Sie ursprünglich erstellt haben od
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ Sie können eine bestehende Gruppierung, die Sie ursprünglich erstellt haben od
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-    <p>Mitwirkender oder höher</p>
-    <p>Anfrage oder höher</p>
+    <p>Mitwirkende oder höher</p>
+    <p>Anfragende oder höher</p>
    </td>
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Sie können eine bestehende Gruppierung, die Sie ursprünglich erstellt haben od
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen

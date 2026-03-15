@@ -4,13 +4,13 @@ keywords: Speichern,Neu,Bericht,Kopieren
 navigation-topic: create-and-manage-reports
 title: Erstellen einer Kopie eines Berichts
 description: Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugriff haben. Sie können entweder eine exakte Kopie eines benutzerdefinierten Berichts erstellen oder eine neue Version eines Standardberichts speichern. Nachdem Sie einen Bericht kopiert haben, werden Sie Eigentümer des kopierten Berichts und er wird im Abschnitt Meine Berichte angezeigt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugriff haben. Sie 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugriff haben. Sie 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

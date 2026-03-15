@@ -4,18 +4,18 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Ankündigungen senden
 description: Als Adobe Workfront-Administrator können Sie die Seite Ankündigungen verwenden, um Ankündigungen an Benutzende zu senden.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Ankündigungen senden
+# Senden von Ankündigungen
 
 Als Adobe Workfront-Administrator können Sie die Seite Ankündigungen verwenden, um Ankündigungen an Benutzende zu senden.
 
@@ -25,7 +25,7 @@ Weitere Informationen zum Anzeigen von Ankündigungen finden Sie unter [Anzeigen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Weitere Informationen zum Anzeigen von Ankündigungen finden Sie unter [Anzeigen
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +46,7 @@ Weitere Informationen zum Anzeigen von Ankündigungen finden Sie unter [Anzeigen
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -69,7 +69,7 @@ Sie können problemlos Nachrichten, die Sie von Workfront erhalten, an Benutzer 
 1. Klicken Sie **Weiter**.
 1. Beginnen Sie **Feld „Senden an** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams oder einer Firma, den/die Sie die Ankündigungsnachricht erhalten möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Wiederholen Sie diesen Vorgang, um mehrere Benutzer, Gruppen, Teams oder Unternehmen hinzuzufügen.
 
-   Oder
+   ODER
 
    Um die Ankündigung an alle Benutzer in Ihrem System weiterzuleiten, beginnen Sie mit der Eingabe **Alle** und klicken Sie dann auf die Ankündigung, wenn sie in der Dropdown-Liste angezeigt wird.
 

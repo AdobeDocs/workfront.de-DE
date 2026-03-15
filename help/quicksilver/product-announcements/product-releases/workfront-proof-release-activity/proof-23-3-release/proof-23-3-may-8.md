@@ -4,18 +4,18 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront-Korrekturabzug 23.3 Freigabeaktivität Woche vom 8. Mai 2023
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für Adobe Workfront vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 8. Mai 2023 in der Produktionsumgebung verfügbar gemacht.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Aktivität der Adobe Workfront-Version 23.3 vom 8. Mai 2023
+# Veröffentlichungen von Adobe Workfront Proof 23.3: Woche vom 8. Mai 2023
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für den Adobe Workfront-Testversand in der Vorschau-Umgebung am 8. Mai 2023 vorgenommen wurden.
 

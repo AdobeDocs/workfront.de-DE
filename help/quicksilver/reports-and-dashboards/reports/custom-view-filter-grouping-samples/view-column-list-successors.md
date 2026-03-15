@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen : Liste der Aufgabennachfolger in einer Spalte hinzufügen'
 description: Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nachfolger der Aufgaben anzuzeigen. Die Spalte „Aufgabennachfolger“ enthält die Nummer des Nachfolgers sowie den Namen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
-# Anzeigen : Liste der Aufgabennachfolger in einer Spalte hinzufügen
+# Ansicht: Liste der Aufgabennachfolger in einer Spalte hinzufügen
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nac
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können einer Aufgabenansicht eine Spalte hinzufügen, um eine Liste der Nac
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

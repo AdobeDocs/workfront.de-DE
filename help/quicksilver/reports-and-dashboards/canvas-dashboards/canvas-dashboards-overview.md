@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
-title: Arbeitsflächen-Dashboards - Übersicht
+title: Überblick über Arbeitsflächen-Dashboards
 description: Informationen zu Dashboards der Arbeitsfläche
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 2%
+ht-degree: 25%
 
 ---
 
-# Arbeitsflächen-Dashboards - Übersicht
+# Überblick über Arbeitsflächen-Dashboards
 
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.
 >
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
 >Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
@@ -41,17 +41,17 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte zu neu hinzugefügten Workfr
 
 ## Artikel zum Arbeitsflächen-Dashboard
 
-* Verwenden von Canvas-Dashboards
+* Verwenden von Arbeitsflächen-Dashboards
 
-   * [Verwenden von Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
+   * [Verwenden von Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
-* Beta-Version von Canvas-Dashboards
+* Beta-Version von Arbeitsflächen-Dashboards
 
-   * [Beta-Informationen für Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+   * [Informationen zur Beta-Version von Arbeitsflächen-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 * Erstellen von Dashboards
 
-   * [Erstellen eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+   * [Erstellen eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
 
 * Hinzufügen von Berichten
 
@@ -60,14 +60,14 @@ Mit Arbeitsflächen-Dashboards können Sie Berichte zu neu hinzugefügten Workfr
    * [Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
    * [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 
-* Arbeitsflächen-Dashboards verwalten
+* Verwalten von Arbeitsflächen-Dashboards
 
    * [Freigeben eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
    * [Anordnen von Berichten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
    * [Filtern eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
-   * [Name oder Beschreibung eines Arbeitsflächen-Dashboards ändern](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-   * [Löschen eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-   * [Hinzufügen eines Canvas-Dashboards zu einer Layout-Vorlage](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+   * [Ändern des Namens oder der Beschreibung eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+   * [Löschen eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+   * [Hinzufügen eines Arbeitsflächen-Dashboards zu einer Layout-Vorlage](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
 * Verwalten von Berichten
 

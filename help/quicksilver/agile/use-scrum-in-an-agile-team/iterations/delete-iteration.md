@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Iteration löschen
+title: Löschen einer Iteration
 description: Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie nicht mehr benötigt wird.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 12%
+ht-degree: 28%
 
 ---
 
-# Iteration löschen
+# Löschen einer Iteration
 
 Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie nicht mehr benötigt wird.
 
@@ -45,11 +45,11 @@ Wenn Sie eine Iteration löschen, werden alle Storys der Iteration in den Rücks
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Iteration löschen
+## Löschen einer Iteration
 
 {{step1-to-team}}
 

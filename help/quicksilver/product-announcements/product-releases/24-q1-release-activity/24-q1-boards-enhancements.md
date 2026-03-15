@@ -1,14 +1,14 @@
 ---
 title: Verbesserungen für Boards im ersten Quartal 2024
 description: Verbesserungen für Boards im ersten Quartal 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fc47f84-b419-4a0e-8945-cfcac1e87be8
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 24.1 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 Weitere Informationen zum Opt-in für neue Board-Funktionen vor der vierteljährlichen Veröffentlichung finden Sie unter [Early Feature Opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 

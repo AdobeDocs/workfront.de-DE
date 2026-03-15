@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: Anzeigenamen in einer Gruppierung bearbeiten'
 description: Sie können Gruppierungen in Listen und Berichten umbenennen, um sie Ihren Benutzern bekannter zu machen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Sie können Gruppierungen umbenennen, damit sie Ihren Benutzern vertrauter sind.
 
-Wenn Sie beispielsweise die standardmäßige Gruppierung Portfolio-Name auf eine Liste von Projekten anwenden, wird der Name der Gruppierung als *Portfolio: Name:`<name of portfolio>`* angezeigt.
+Wenn Sie beispielsweise die Standardgruppenname des Portfolios auf eine Projektliste anwenden, wird der Name der Gruppierung als *Portfolio: Name:`<name of portfolio>`* angezeigt.
 
 ![Gruppierung nach nicht bearbeitetem Namen](assets/grouping-unedited-name-350x167.png)
 
@@ -30,7 +30,7 @@ Sie können diese Gruppierung im Textmodus ändern, um einen leichter lesbaren N
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +57,7 @@ Sie können diese Gruppierung im Textmodus ändern, um einen leichter lesbaren N
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ So ändern Sie den Anzeigenamen in einer Projektgruppierung:
 
 1. Klicken Sie auf **Gruppierung hinzufügen** und geben Sie &quot;Portfolio-Name“ in das Feld **Gruppieren nach:** ein. Wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken Sie **In Textmodus wechseln**.
+1. Klicken Sie auf **In Textmodus wechseln**.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Fügen Sie den folgenden Code zum vorhandenen Text hinzu, der im Feld **Bericht gruppieren** verfügbar ist:

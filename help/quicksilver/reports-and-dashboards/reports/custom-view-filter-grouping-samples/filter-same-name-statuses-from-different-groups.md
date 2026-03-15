@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filtern : Zeigt Elemente mit demselben Namen als Status an, wenn die Status mit verschiedenen Gruppen verknüpft sind'
-description: Sie können der Gruppe A einen Aufgabenstatus mit dem Namen Neuer Status mit dem aus drei Buchstaben bestehenden Schlüssel NST zuweisen. Der Gruppe B kann ein weiterer Aufgabenstatus zugewiesen werden, der ebenfalls mit dem 3-Buchstaben-Schlüssel NES als Neuer Status bezeichnet wird. Obwohl die Namen für die beiden Status identisch sein können, ist der aus drei Buchstaben bestehende Code immer eindeutig. Weitere Informationen zum Gruppenstatus finden Sie unter Erstellen oder Bearbeiten eines Gruppenstatus.
-author: Nolan
+title: 'Filter: Elemente nach Status gleichen Namens anzeigen, wenn die Status verschiedenen Gruppen zugeordnet sind'
+description: Sie können der Gruppe A einen Aufgabenstatus mit dem Namen Neuer Status mit der aus drei Buchstaben bestehenden Taste NST zuweisen. Gruppe B kann ein anderer Aufgabenstatus zugewiesen werden, der auch "Neuer Status" mit dem dreistelligen Schlüssel NES genannt wird. Obwohl die Namen für die zwei Status identisch sein können, ist der aus drei Buchstaben bestehende Code immer eindeutig. Weitere Informationen zu Gruppenstatus finden Sie unter Erstellen oder Bearbeiten eines Gruppenstatus.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Filtern : Zeigt Elemente mit demselben Namen-Status an, wenn die Status mit verschiedenen Gruppen verknüpft sind
+# Filter: Elemente nach gleichnamigen Status anzeigen, wenn die Status mit verschiedenen Gruppen verknüpft sind
 
 <!--Audited: 10/2024-->
 
-Sie können der Gruppe A einen Aufgabenstatus mit dem Namen *Neuer Status* mit dem aus drei Buchstaben bestehenden Schlüssel *NST* zuweisen. Der Gruppe B kann ein weiterer Aufgabenstatus zugewiesen werden, der auch *Neuer Status* mit dem 3-Buchstaben-Schlüssel *NES heißt.* Obwohl die Namen für die beiden Status identisch sein können, ist der aus drei Buchstaben bestehende Code immer eindeutig.
+Der Gruppe A kann ein Aufgabenstatus mit dem Namen *Neuer Status* mit dem aus drei Buchstaben bestehenden Schlüssel *NST* zugewiesen werden. Möglicherweise ist der Gruppe B ein anderer Aufgabenstatus zugewiesen, der auch *Neuer Status* mit dem aus drei Buchstaben bestehenden Schlüssel *NES heißt.* Obwohl die Namen für die 2 Status identisch sein können, ist der 3-Buchstaben-Code immer eindeutig.
 
-Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Weitere Informationen zu Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-Mit dem Filter-Builder können Sie nicht zwischen den zwei Status mit demselben Namen identifizieren. Sie müssen den Textmodus in einem benutzerdefinierten Filter verwenden, um zwischen den beiden Status zu unterscheiden.
+Mit dem Filter-Generator können Sie nicht zwischen den zwei Status mit demselben Namen unterscheiden. Sie müssen den Textmodus in einem benutzerdefinierten Filter verwenden, um zwischen den beiden Status zu unterscheiden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,51 +39,51 @@ Mit dem Filter-Builder können Sie nicht zwischen den zwei Status mit demselben 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
-   <p>Standard oder Plan zum Ändern eines Berichts</p>
+   <p>Anbieter oder Anforderung zum Ändern eines Filters </p>
+   <p>Standard oder Abo zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern eines Filters</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
+   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Elemente mit demselben Namensstatus anzeigen, wenn die Status mit verschiedenen Gruppen verknüpft sind
+## Elemente mit Status gleichen Namens anzeigen, wenn die Status verschiedenen Gruppen zugeordnet sind
 
-1. Gehen Sie zur **Filter** Dropdown-Liste für den Filter, den Sie anpassen möchten, um beispielsweise eine Liste von Aufgaben anzuzeigen.\
-   Dies funktioniert auch für Projekte und Probleme.
-1. Klicken Sie **Neuer Filter**.
-1. Wählen Sie aus der ersten Dropdown-Liste oben links Aufgabe > Status aus.
-1. Wählen **für** Modifikator „Gleich“ und wählen Sie dann einen der Status aus, zu denen Sie einen Bericht erstellen möchten.
+1. Wechseln Sie zum Dropdown-Menü **Filter** für den Filter, den Sie für eine Liste von Aufgaben anpassen möchten.\
+   Dies funktioniert auch bei Projekten und Problemen gleich.
+1. Klicken Sie auf **Neuer Filter**.
+1. Wählen Sie aus dem ersten Dropdownmenü in der oberen linken Ecke Aufgabe > Status aus.
+1. Wählen Sie **Equals** für den Modifizierer aus, und wählen Sie dann einen der Status aus, für den Sie einen Bericht erstellen möchten.
 
-   Fügen Sie beispielsweise in einem Aufgabenbericht &quot;**ist gleich neuem Status** hinzu, wenn Sie nur Aufgaben anzeigen möchten, die den Status &quot;**Status“**.
+   Fügen Sie z. B. in einem Aufgabenbericht **Status ist gleich Neuer Status** hinzu, wenn Sie nur Aufgaben anzeigen möchten, die den Status **Neuer Status** aufweisen.
 
    >[!TIP]
    >
-   >Beachten Sie, dass Sie für einen Status mit dem Namen Neuer Status nur eine Option haben.
+   >Beachten Sie, dass für den Status &quot;Neuer Status&quot; nur eine Option zur Verfügung steht.
 
-1. Klicken Sie **Textmodus**.\
-   Der folgende Code sollte in dem dafür vorgesehenen Feld angezeigt werden:
+1. Klicken Sie auf **Textmodus**.\
+   Der folgende Code sollte im angegebenen Bereich angezeigt werden:
 
-   <pre>OR:1:status=NST<br>OR:1:status_mod=in </pre>
+   <pre>OR:1:status=NST<br>OR:1:status_Mod=in </pre>
 
    >[!NOTE]
    >
-   >Hier wird nur ein Status angezeigt. In der Statuszeile wird einer der drei Buchstaben für einen Status angezeigt.
+   >Hier wird nur ein Status angezeigt. In der Statuszeile wird eine der Tasten mit drei Buchstaben für einen der Status angezeigt.
 
 1. Fügen Sie die folgenden zwei Codezeilen hinzu, um den Status hinzuzufügen, der im Filter fehlt:
 
-   <pre>OR:2:status=NES<br>OR:2:status_mod=in</pre>
+   <pre>OR:2:status=NES<br>OR:2:status_Mod=in</pre>
 
-1. Klicken Sie **Übernehmen** und dann **Als neu speichern**.
+1. Klicken Sie auf **Anwenden** und anschließend auf **Als neu speichern**.
 
-   Die Liste zeigt beide Aufgaben mit dem Status „Neuer Status“ aus Gruppe A und mit dem Status „Neuer Status“ aus Gruppe B an.
+   In der Liste werden beide Aufgaben mit dem Status &quot;Neuer Status&quot; aus Gruppe A und mit dem Status &quot;Neuer Status&quot; aus Gruppe B angezeigt.

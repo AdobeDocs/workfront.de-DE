@@ -3,12 +3,13 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: Verwenden der Ansicht „Datenaktualisierungen überwachen“ in Data Connect
 description: Mit Data Connect können Workfront-Admins auf detaillierte Aufzeichnungen der letzten Aktualisierungen zugreifen, die am Data Lake-Datum während der letzten Aktualisierung vorgenommen wurden.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -87,4 +88,3 @@ Die Ansichtsspalten Aktualisierung der Überwachungsdaten enthalten die folgende
         <br><b>Hinweis</b>: Dies ist nicht dasselbe wie die Gesamtzahl der Datensätze, die von CREATE-, UPDATE- oder DELETE-Ereignissen betroffen sind, da derselbe Datensatz innerhalb des Intervalls zwischen Aktualisierungen mehrmals erstellt und aktualisiert werden konnte.  </td>
     </tr>
    </table>
-

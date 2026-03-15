@@ -3,23 +3,23 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Story vom Kanban-Board löschen
 description: Sie können eine Story oder ein Problem aus dem Kanban-Board löschen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
-# Storys oder Probleme aus dem Kanban[!UICONTROL Board &#x200B;]
+# Storys oder Probleme aus dem Kanban[!UICONTROL Board ]
 
-Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board &#x200B;]. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
+Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board ]. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board &#x200B;
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -43,7 +43,7 @@ Sie können eine Story oder ein Problem aus dem Kanban[!UICONTROL Board &#x200B;
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

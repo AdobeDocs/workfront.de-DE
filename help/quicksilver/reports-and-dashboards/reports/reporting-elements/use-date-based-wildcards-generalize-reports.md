@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Verwenden von datumsbasierten Platzhaltern zum Generalisieren von Berichten
 description: Sie können einen Bericht generalisieren, indem Sie beim Erstellen bestimmter Berichtelemente Platzhalter anstelle spezifischer Informationen verwenden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können beim Erstellen der folgenden Berichterstellungselemente datumsbasier
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ Sie können beim Erstellen der folgenden Berichterstellungselemente datumsbasier
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
     <p>Standard</p>
-    <p>Plan</p>
+    <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Sie können beim Erstellen der folgenden Berichterstellungselemente datumsbasier
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 
 1. Klicken Sie auf **Umschalter** Relatives Datum festlegen) und geben Sie in das daraufhin angezeigte Textfeld ein: `$$TODAY`, wenn Sie Informationen zu einem Vorgang anzeigen möchten, der am Tag der Berichtsausführung stattfindet.
 
-   Oder
+   ODER
 
    Geben Sie `$$NOW` ein, wenn Sie Informationen zu einem Vorgang anzeigen möchten, der zum gleichen Zeitpunkt wie der Bericht erfolgt.
 

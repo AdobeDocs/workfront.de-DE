@@ -1,20 +1,20 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Übersicht über die Textmodussyntax
+title: Überblick über die Textmodussyntax
 description: Sie können die Benutzeroberfläche des Textmodus verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Durch die Verwendung des Textmodus können Sie auf Felder und ihre Attribute zugreifen, die nicht in der Standardmodus-Benutzeroberfläche verfügbar sind.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Übersicht über die Textmodussyntax
+# Überblick über die Textmodussyntax
 
 <!--Audited: 1/2025-->
 
@@ -24,7 +24,7 @@ Informationen und Überlegungen zum Textmodus vor dem Start finden Sie unter [Ü
 
 Eine vollständige Liste aller unserer berichtspflichtigen Felder und ihrer Attribute finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
 
-Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Site.
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Website.
 
 ## Überlegungen zur Textmodussyntax
 
@@ -42,11 +42,11 @@ Im Folgenden finden Sie allgemeine Richtlinien zum Erstellen von Reporting- oder
    * Sie können ein -Objekt anzeigen, das drei Objekte vom Bericht entfernt ist, oder ein Listenobjekt in einer Ansicht.
    * Sie können in einer Gruppierungs-, Filter- oder benutzerdefinierten Eingabeaufforderung nicht auf Objekte verweisen, die mehr als zwei Objekte vom Hauptobjekt entfernt sind.
 
-  **Beispiel** Sie können den Namen oder die GUID des Portfolio-Inhabers in einer Aufgabenansicht anzeigen:
+  **Beispiel** Sie können den Namen oder die GUID des Portfolio-Verantwortlichen in einer Aufgabenansicht anzeigen:
 
   `valuefield=project:portfolio:ownerID`
 
-  Sie können den Verantwortlichen für das Portfolio nicht in einer Aufgabenansicht gruppieren, filtern oder dazu auffordern:
+  Sie können den Portfolio-Verantwortlichen nicht in einer Aufgabenansicht gruppieren, filtern oder zur Eingabe auffordern:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
@@ -95,7 +95,7 @@ Die Syntax der unten aufgeführten Sätze von Reporting-Elementen weist beim Ers
   Weitere Informationen finden Sie unter:
 
    * [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+   * [Hinzufügen eines Prompts zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntax für Ansichten und Gruppierungen
 
@@ -104,7 +104,7 @@ Die Codezeilen beim Erstellen von Ansichten und Gruppierungen sind ähnlich.
 Informationen zum Erstellen von Ansichten und Gruppierungen finden Sie in den folgenden Artikeln:
 
 * [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Übersicht über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Überblick über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 Die wichtigste Codezeile für eine Ansicht oder eine Gruppierung ist die Zeile, die das Objekt identifiziert, auf das in der Spalte der Ansicht oder in der Gruppierung verwiesen wird. Diese Codezeile kann mit `valuefield` oder `valueexpression` beginnen, je nachdem, ob dieses Feld ein direkter Verweis auf ein Workfront-Datenbankfeld oder eine Berechnung zwischen mehreren Feldern ist.
 
@@ -157,7 +157,7 @@ Die folgenden Regeln gelten für den Verweis auf Workfront-Objekte mithilfe eine
 
   Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank aufeinander verweisen, finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
-* Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds den Namen des Felds genau so, wie er in der Benutzeroberfläche angezeigt wird.
+* Verwenden Sie beim Verweisen auf ein benutzerdefiniertes Feld den Namen des Felds genau so, wie er auf der Benutzeroberfläche angezeigt wird.
 
   **Beispiel** Verwenden Sie die folgende Zeile, um in einer Aufgabenansicht auf ein benutzerdefiniertes Feld des Projekts mit der Bezeichnung „Zusätzliche Details“ zu verweisen:
 
@@ -223,13 +223,13 @@ Die zweitwichtigste Codezeile in einer Ansicht oder Gruppierung ist die `valuefo
 Weitere `valueformat` finden Sie in den folgenden Artikeln:
 
 * [Formatieren von Datumsangaben in Berichten im Textmodus](../../reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Formatieren von Zahlen, Währungs- und Prozentwerten in Textmodusberichten](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Formatieren von Zahlen, Währungs- und Prozentwerten in Berichten im Textmodus](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
 #### `width` für Ansichten
 
 `width=` ist die Codezeile, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet eine empfohlene Breite für jedes Feld. Je nach Feldtyp und Format können Sie jedoch Anpassungen vornehmen.
 
-Sie müssen die zusätzliche `usewidths=true` Codezeile verwenden, um die für die Spalte angegebene Breite zu erzwingen.
+Sie müssen die zusätzliche Code-Zeile `usewidths=true` verwenden, um die für die Spalte angegebene Breite zu erzwingen.
 
 **Beispiel:** Um eine Spalte mit einer Breite von 80 Pixel anzuzeigen, verwenden Sie die folgenden Zeilen:
 
@@ -239,9 +239,9 @@ Sie müssen die zusätzliche `usewidths=true` Codezeile verwenden, um die für d
 
 #### `stretch` für Ansichten
 
-Mit dem `stretch` wird ermittelt, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs beträgt für einen typischen Benutzer etwa 850 Pixel. Das bedeutet, dass bei einer Ansicht mit vier Spalten (je 150 Pixel) die Ansicht 600 von 850 Pixel ausfüllt. Die Benutzeroberfläche von enthält 250 zusätzliche Pixel, die den Spalten hinzugefügt werden, für die ein Dehnungsprozentsatz angegeben ist.
+Mit `stretch` wird ermittelt, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs beträgt für typische Benutzende etwa 850 Pixel. Das bedeutet, dass bei einer Ansicht mit vier Spalten (je 150 Pixel) die Ansicht 600 von 850 Pixel ausfüllt. Es gibt 250 zusätzliche Pixel in der Benutzeroberfläche, die zu den Spalten hinzugefügt werden, für die ein Ausdehnungsprozentsatz angegeben ist.
 
-Die Ausdehnung einer Spalte wird erzwungen, wenn Sie die zusätzliche Codezeile verwenden: `usewidths=true` für mindestens eine der Spalten in der Ansicht.
+Die Ausdehnung einer Spalte wird erzwungen, wenn Sie die zusätzliche Code-Zeile `usewidths=true` für mindestens eine der Spalten in der Ansicht verwenden.
 
 **Beispiel:** Verwenden Sie die folgenden Zeilen, um anzugeben, dass eine Spalte 70 % des leeren Bereichs in einer Ansicht verwenden könnte:
 
@@ -259,8 +259,8 @@ Die Syntax zum Erstellen von Filtern ähnelt der Syntax zum Erstellen benutzerde
 
 Informationen zum Erstellen von Filtern und benutzerdefinierten Eingabeaufforderungen finden Sie unter:
 
-* [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Hinzufügen eines Prompts zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 Weitere Informationen zum Erstellen von Filtern im Textmodus finden Sie unter [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 

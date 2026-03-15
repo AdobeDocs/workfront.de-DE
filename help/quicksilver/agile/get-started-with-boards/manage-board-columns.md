@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Board-Spalten verwalten
 description: Eine neue Pinnwand enthält standardmäßig drei Spalten. Sie können weitere Spalten hinzufügen, die Reihenfolge der Spalten ändern, Spalten umbenennen und alle nicht benötigten Spalten löschen. Sie können auch Spaltenrichtlinien definieren.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Informationen zum Sortieren der Karten in Spalten finden Sie unter [Filtern und 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,14 +40,14 @@ Informationen zum Sortieren der Karten in Spalten finden Sie unter [Filtern und 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +77,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Rufen Sie die Pinnwand auf.
 1. Klicken Sie auf den Spaltennamen, geben Sie den neuen Namen ein und drücken Sie die Eingabetaste.
 
-   Oder
+   ODER
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) in der Spalte und wählen Sie **[!UICONTROL Bearbeiten]**. Geben Sie im Bereich Einstellungen den neuen Namen in das Feld **[!UICONTROL Spaltenname]** ein und klicken Sie auf **[!UICONTROL Schließen]**.
 

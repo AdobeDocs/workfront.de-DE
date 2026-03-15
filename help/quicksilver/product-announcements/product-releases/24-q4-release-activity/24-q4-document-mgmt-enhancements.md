@@ -1,11 +1,11 @@
 ---
 title: Verbesserungen beim Dokumentenmanagement im vierten Quartal 2024
 description: Verbesserungen beim Dokumentenmanagement im vierten Quartal 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2af72926-a46a-4265-aa01-064436b93622
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

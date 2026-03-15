@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Häufig gestellte Fragen zu Berichten
 description: Häufig gestellte Fragen zu Berichten
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Im Folgenden finden Sie häufig gestellte Fragen zu Berichten.
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -54,7 +54,7 @@ Im Folgenden finden Sie häufig gestellte Fragen zu Berichten.
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Je nachdem, welches Feld Tatsächliche Stunden für Ihre Berechnung verwendet we
 
   `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+Weitere Informationen finden Sie unter [Anzeigen der tatsächlichen Stunden](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Warum wird der Wert der einzelnen Diagrammelemente in einem Bericht nicht im Diagramm angezeigt?
 

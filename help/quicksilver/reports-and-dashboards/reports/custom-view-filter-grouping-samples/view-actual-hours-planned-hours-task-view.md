@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Tatsächliche Stunden über geplante Stunden in derselben Spalte einer Aufgabenansicht'
 description: In dieser Aufgabenansicht wird die tatsächliche Anzahl von Stunden, die für eine Aufgabe aufgezeichnet wurden, über die für jede Aufgabe geplanten Stunden angezeigt. Die Stundenabweichung zwischen den geplanten und den tatsächlichen Stunden wird ebenfalls in einer separaten Spalte angezeigt.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ In dieser Aufgabenansicht wird die tatsächliche Anzahl von Stunden, die für ei
 
 <!--Audited: 10/2024-->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ In dieser Aufgabenansicht wird die tatsächliche Anzahl von Stunden, die für ei
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

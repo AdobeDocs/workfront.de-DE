@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Story-Informationen bearbeiten
 description: Beim Anzeigen einer Story-Kachel auf dem Kanban-Board stehen bestimmte Informationen zur Inline-Bearbeitung direkt über die Story-Kachel zur Verfügung.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
-# Story-Informationen bearbeiten
+# Bearbeiten von Story-Informationen
 
 ## Informationen, welche Informationen angezeigt und bearbeitet werden können {#understand-what-information-can-be-viewed-and-edited}
 
@@ -91,7 +91,7 @@ Wenn Sie eine Story-Kachel auf dem [!UICONTROL Kanban]-Board anzeigen, sind die 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +101,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zum Kanban[!UICONTROL Board &#x200B;].
+1. Zum Kanban[!UICONTROL Board ].
 1. Erweitern Sie die Kachel Story , um alle mit der Story verbundenen Felder anzuzeigen.
 
    ![Story-Karte](assets/story-expanded-on-kanban-board-2021-350x405.png)

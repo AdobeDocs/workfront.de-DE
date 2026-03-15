@@ -4,17 +4,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Pinnwand löschen oder archivieren
 description: In Workfront können Sie eine Pinnwand löschen oder archivieren. Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus Workfront entfernt. Bei der Archivierung einer Pinnwand werden alle Karten beibehalten, sodass sie zu einem späteren Zeitpunkt wiederhergestellt werden kann.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Pinnwand löschen oder archivieren
+# Löschen oder Archivieren einer Pinnwand
 
 Sie können eine Pinnwand in [!DNL Workfront] löschen oder archivieren. Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus der [!DNL Workfront] entfernt, während beim Archivieren einer Pinnwand alle Karten beibehalten werden und diese zu einem späteren Zeitpunkt wiederhergestellt werden können.
 
@@ -22,7 +22,7 @@ Nur der Board-Besitzer kann die Pinnwand löschen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,14 +35,14 @@ Nur der Board-Besitzer kann die Pinnwand löschen.
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

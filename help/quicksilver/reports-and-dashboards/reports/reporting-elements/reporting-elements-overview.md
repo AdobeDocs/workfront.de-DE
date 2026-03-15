@@ -2,20 +2,20 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Übersicht über Reporting-Elemente
+title: Überblick über Reporting-Elemente
 description: Alle Adobe Workfront-Berichte und -Listen sind eine Kombination aus drei wesentlichen Elementen - Ansichten, Filtern und Gruppierungen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
-# Übersicht über Reporting-Elemente
+# Überblick über Reporting-Elemente
 
 <!-- Audited: 11/2024 -->
 
@@ -34,11 +34,11 @@ Informationen zum Erstellen eines Diagramms in einem Bericht finden Sie unter [H
 Dieser Abschnitt enthält die folgenden Artikel:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
-* [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Reporting-Elemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
-* [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Überblick über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [Verwenden der bedingten Formatierung in Ansichten](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
@@ -51,4 +51,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Entfernen von Filtern, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Verwenden der Meilenstein -Ansicht](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
-* [Spaltenbreite und -reihenfolge ändern](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+* [Ändern der Spaltenbreite und -reihenfolge](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

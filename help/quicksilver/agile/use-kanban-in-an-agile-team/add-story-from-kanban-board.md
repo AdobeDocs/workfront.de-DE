@@ -3,23 +3,23 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Stories und Probleme aus dem Kanban-Board hinzufügen
 description: Sie können eine neue Story oder ein Problem schnell direkt im Kanban-Board erstellen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Stories und Probleme aus dem Kanban[!UICONTROL Board &#x200B;]
+# Stories und Probleme aus dem Kanban[!UICONTROL Board ]
 
-Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UICONTROL Board &#x200B;].
+Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UICONTROL Board ].
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UI
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -43,7 +43,7 @@ Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UI
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Kombinierte Aufgaben- und Problemdetails in einer Stundenliste'
 description: In dieser Stundenansicht werden die Spalten „Aufgaben“ und „Anfragename“ sowie die geplanten Stunden für Aufgaben und Probleme mit dem Tag „sharecol“ kombiniert. Da ein Stundeneintrag nur zu einer Aufgabe oder einem Problem gehören kann, können nicht beide Objekte gleichzeitig in derselben Spalte angezeigt werden. Jede Zeile der Ansicht enthält die Informationen entweder einer Aufgabe oder eines Problems.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Anzeigen: kombinierte Aufgaben- und Problemdetails in einer Stundenliste
+# Ansicht: Kombinierte Aufgaben- und Problemdetails in einer Stundenliste
 
 <!--Audited:11/2024-->
 
@@ -26,7 +26,7 @@ Weitere Informationen zum `sharecol`-Tag finden Sie unter [Anzeigen: Zusammenfü
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Weitere Informationen zum `sharecol`-Tag finden Sie unter [Anzeigen: Zusammenfü
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

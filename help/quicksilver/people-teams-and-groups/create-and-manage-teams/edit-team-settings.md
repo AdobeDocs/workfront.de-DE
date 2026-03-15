@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Teameinstellungen bearbeiten
 description: Workfront-Admins und Benutzende mit einer Plan- oder Arbeitslizenz können Teameinstellungen bearbeiten.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
-# Teameinstellungen bearbeiten
+# Bearbeiten von Team-Einstellungen
 
 Als [!DNL Adobe Workfront] oder Benutzer mit einer [!UICONTROL Standard]-, [!UICONTROL Plan]- oder [!UICONTROL Work]-Lizenz können Sie [!UICONTROL Team-Einstellungen] bearbeiten.
 
@@ -40,17 +40,17 @@ Sie können Benutzer zu einem Team hinzufügen, die Team-Layout-Vorlage festlege
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Teameinstellungen bearbeiten
+## Bearbeiten von Team-Einstellungen
 
 {{step1-to-team}}
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 

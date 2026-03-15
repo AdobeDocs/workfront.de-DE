@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Löschen oder Archivieren einer Karte von einer Pinnwand
 description: Wenn Sie eine Karte von einer Pinnwand löschen, wird sie dauerhaft gelöscht und kann nicht wiederhergestellt werden. Wenn Sie eine Karte archivieren, wird sie an das Archiv gesendet und Sie können sie später auf der Pinnwand wiederherstellen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
-# Löschen oder Archivieren einer Karte von einer Pinnwand
+# Löschen oder Archivieren einer Karte auf einer Pinnwand
 
 Wenn Sie eine Ad-hoc-Karte von einer Pinnwand löschen, wird sie dauerhaft gelöscht und kann nicht wiederhergestellt werden. Verbundene Karten können nach dem Löschen manuell wieder zu einer Pinnwand hinzugefügt werden.
 
@@ -27,7 +27,7 @@ Archivierte Karten werden nicht mit Workfront-Aufgaben und -Problemen synchronis
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,14 +40,14 @@ Archivierte Karten werden nicht mit Workfront-Aufgaben und -Problemen synchronis
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

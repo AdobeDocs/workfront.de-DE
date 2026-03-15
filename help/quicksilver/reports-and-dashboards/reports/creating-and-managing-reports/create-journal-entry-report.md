@@ -1,18 +1,18 @@
 ---
 title: Bericht zum Bereich „Aktualisierungen“ mit einem Journaleintragsbericht
 description: Systemaktualisierungen für Journaleinträge werden im Bereich Aktualisierungen von Projekten, Aufgaben, Problemen und anderen Objekten angezeigt, die zuvor nur über die Adobe Workfront-API verfügbar waren. Dies ist zwar ein erweiterter Bericht, der für bestimmte Anwendungsfälle gedacht ist, aber das besser verdauliche Format erleichtert Ihnen die Berichterstellung über Projektaktivität und Systemaktualisierungen in Workfront.
-author: Nolan
+author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2763'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht
+# Bericht im Bereich „Aktualisierungen“ mit einem Bericht mit Journaleinträgen
 
 <!-- Audited: 11/2024 -->
 
@@ -33,7 +33,7 @@ Der Journaleintragsbericht kann Folgendes anzeigen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ Der Journaleintragsbericht kann Folgendes anzeigen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -248,7 +248,7 @@ Diese Informationen können beim Auditing hilfreich sein und veranschaulichen, w
 
 1. (Optional) Fügen Sie eine Eingabeaufforderung hinzu, um den Berichtfokus einzugrenzen und Ladezeiten zu reduzieren.
 
-   Oder
+   ODER
 
    Erstellen Sie zusätzliche Filterregeln, um bestimmte Projekte, Aufgaben oder Probleme einzubeziehen.
 
@@ -331,7 +331,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 
 1. (Optional) Fügen Sie eine Eingabeaufforderung hinzu, um den Berichtfokus einzugrenzen und Ladezeiten zu reduzieren.
 
-   Oder
+   ODER
 
    Erstellen Sie zusätzliche Filterregeln, um bestimmte Projekte, Aufgaben oder Probleme einzubeziehen.
 
@@ -439,7 +439,7 @@ So zeigen Sie, wie sich benutzerdefinierte Felder im Laufe des Lebenszyklus eine
 
 1. (Optional) Fügen Sie eine Eingabeaufforderung hinzu, um den Berichtfokus einzugrenzen und Ladezeiten zu reduzieren.
 
-   Oder
+   ODER
 
    Erstellen Sie zusätzliche Filterregeln, um bestimmte Projekte, Aufgaben oder Probleme einzubeziehen.
 
@@ -540,7 +540,7 @@ Sie können die Auswertung „Journaleintrag“ so einrichten, dass sie anzeigt,
 
 1. (Optional) Fügen Sie eine Eingabeaufforderung hinzu, um den Berichtfokus einzugrenzen und Ladezeiten zu reduzieren.
 
-   Oder
+   ODER
 
    Erstellen Sie zusätzliche Filterregeln, um bestimmte Projekte, Aufgaben oder Probleme einzubeziehen.
 
@@ -629,7 +629,7 @@ Sie können die Auswertung „Journaleintrag“ so einrichten, dass sie anzeigt,
 
 1. (Optional) Fügen Sie eine Eingabeaufforderung hinzu, um den Berichtfokus einzugrenzen und Ladezeiten zu reduzieren.
 
-   Oder
+   ODER
 
    Erstellen Sie zusätzliche Filterregeln, um bestimmte Projekte, Aufgaben oder Probleme einzubeziehen.
 

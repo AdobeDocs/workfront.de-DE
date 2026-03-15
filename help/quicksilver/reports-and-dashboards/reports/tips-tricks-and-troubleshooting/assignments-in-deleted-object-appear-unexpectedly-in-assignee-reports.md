@@ -1,23 +1,23 @@
 ---
-title: Zuweisungen in einem gelöschten Objekt werden unerwartet in Empfängerberichten angezeigt
-description: Zuweisungen in einem gelöschten Objekt werden unerwartet in Empfängerberichten angezeigt
-author: Nolan
+title: Zuweisungen in einem gelöschten Objekt werden in Zuweisungsberichten unerwartet angezeigt
+description: Zuweisungen in einem gelöschten Objekt werden in Zuweisungsberichten unerwartet angezeigt
+author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Zuweisungen in einem gelöschten Objekt werden unerwartet in Empfängerberichten angezeigt
+# Zuweisungen in einem gelöschten Objekt werden in Zuweisungsberichten unerwartet angezeigt
 
 ## Problem
 
-Nachdem Sie ein Objekt gelöscht haben, das über eine Zuweisung verfügt, werden sowohl das Objekt als auch die Zuweisung gelöscht. Aber die Zuweisung kann immer noch in einigen Berichten angezeigt werden.
+Nachdem Sie ein Objekt gelöscht haben, dem eine Aufgabe zugewiesen ist, werden sowohl das Objekt als auch die Aufgabe gelöscht. Die Aufgabe wird jedoch möglicherweise immer noch in einigen Berichten angezeigt.
 
-Wenn Sie beispielsweise eine Aufgabe löschen, die einem Benutzer zugewiesen wurde, wird auch die Zuweisung an den Benutzer gelöscht. Wenn Sie später jedoch einen Aufgabenbericht ausführen, der nach Verantwortlichem gefiltert wird, wobei dieser Benutzer angegeben ist, wird die gelöschte Aufgabe weiterhin im Bericht aufgeführt, wenn sich die Aufgabe noch im Papierkorb befindet.
+Wenn Sie beispielsweise eine Aufgabe löschen, die einem Benutzer zugewiesen wurde, wird die Zuweisung an den Benutzer ebenfalls gelöscht. Wenn Sie jedoch später einen Aufgabenbericht ausführen, der nach Bevollmächtigten gefiltert wird, wobei dieser Benutzer angegeben ist, wird der gelöschte Task weiterhin im Bericht aufgelistet, wenn sich der Task noch im Papierkorb befindet.
 
 ## Ursache
 
-Dies liegt an den architektonischen Einschränkungen des Papierkorbs. Es gibt derzeit keine Pläne, dieses Problem anzugehen, da eine Umgestaltung der Architektur notwendig wäre.
+Dies ist auf architektonische Einschränkungen des Papierkorbs zurückzuführen. Derzeit gibt es aufgrund des notwendigen Umfangs der Architekturumgestaltung keine Pläne für eine Lösung dieses Problems.

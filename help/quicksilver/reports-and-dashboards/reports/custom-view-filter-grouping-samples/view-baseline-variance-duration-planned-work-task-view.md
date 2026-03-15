@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Baseline-Abweichung für Dauer und geplante Arbeit in einer Aufgabenansicht'
 description: Baseline-Abweichung für Dauer und geplante Arbeiten anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Ansicht zeigt Folgendes in einer Aufgabenansicht an:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ Diese Ansicht zeigt Folgendes in einer Aufgabenansicht an:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

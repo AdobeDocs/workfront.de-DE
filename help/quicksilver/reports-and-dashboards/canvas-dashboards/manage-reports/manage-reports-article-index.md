@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-reports
-title: 'Berichte verwalten: Artikelindex'
+title: 'Verwalten von Berichten: Artikelindex'
 description: Sehen Sie sich die Artikel in diesem Abschnitt an.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 0%
+ht-degree: 60%
 
 ---
 
-# Berichte verwalten: Artikelindex
+# Verwalten von Berichten: Artikelindex
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [&#x200B; finden Sie unter &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
+>Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

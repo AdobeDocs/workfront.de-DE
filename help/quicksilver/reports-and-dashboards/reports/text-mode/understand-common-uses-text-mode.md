@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Übersicht über häufige Verwendungszwecke für den Textmodus
-description: Übersicht über häufige Verwendungszwecke für den Textmodus
-author: Nolan
+title: Überblick über häufige Verwendungszwecke für den Textmodus
+description: Überblick über häufige Verwendungszwecke für den Textmodus
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Übersicht über häufige Verwendungszwecke für den Textmodus
+# Überblick über häufige Verwendungszwecke für den Textmodus
 
 <!-- Audited: 1/2025 -->
 
@@ -26,7 +26,7 @@ In diesem Artikel werden nur einige Beispiele beschrieben, in denen Sie am ehest
 * [Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Berechnete benutzerdefinierte Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Site.
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Website.
 
 ## Instanzen, bei denen Sie den Textmodus in Listen und Berichten verwenden könnten
 
@@ -97,4 +97,4 @@ Beispiele für die häufigsten Gründe für die Verwendung des Textmodus in eine
 * [Gruppierung: Organisieren Sie die Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Gruppierung: Eine vierte Gruppierung zu einer Liste hinzufügen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Gruppierung: Anzeigenamen in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [Gruppierung: Gibt an, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [Gruppierung: Angeben, ob die Ergebnisse einer Gruppierung im Textmodus reduziert oder erweitert werden sollen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)

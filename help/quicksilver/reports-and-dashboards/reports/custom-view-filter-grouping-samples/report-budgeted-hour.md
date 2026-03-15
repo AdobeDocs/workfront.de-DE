@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Bericht: Budgetierte Stunde'
 description: 'Bericht: Budgetierte Stunde'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn Sie Informationen zu budgetierten Stunden für andere Benutzer freigeben m�
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ Wenn Sie Informationen zu budgetierten Stunden für andere Benutzer freigeben m�
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +109,7 @@ Im Bericht „Budgetierte Stunde“ sind standardmäßig die folgenden Informati
    <td>Dies ist der Name des Aufgabengebiets, das mit der budgetierten Stunde verknüpft ist. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Benutzerin bzw. Benutzer</td> 
+   <td role="rowheader">Benutzerin oder Benutzer</td> 
    <td>Dies ist der Name des Benutzers, der mit der budgetierten Stunde verknüpft ist.</td> 
   </tr> 
   <tr> 

@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Übermittlungspfad für Anfragen'
 description: Sie können den Pfad, über den ein Problem gesendet wurde, in der Ansicht eines Problemberichts anzeigen. Der Pfad gibt die Warteschlange, die Themengruppe und das Warteschlangenthema an, an die bzw. das das Problem ursprünglich gesendet wurde.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Anzeigen: Sendepfad für Probleme
+# Ansicht: Sendepfad für Probleme
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Sie können den Pfad, über den ein Problem gesendet wurde, in der Ansicht eines
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können den Pfad, über den ein Problem gesendet wurde, in der Ansicht eines
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

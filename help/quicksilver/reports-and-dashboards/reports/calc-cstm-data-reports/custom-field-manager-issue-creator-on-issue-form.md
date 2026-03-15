@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: Zeigt im benutzerdefinierten Formular für ein Problem den Manager des Erstellers eines Problems an'
+title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: den Manager bzw. die Managerin des Erstellers bzw. der Erstellerin eines Problems im benutzerdefinierten Formular für Probleme anzeigen'
 description: Mit einem berechneten benutzerdefinierten Feld können Sie den Namen des Managers des Erstellers eines Problems in einem benutzerdefinierten Formular anzeigen, das an das Problem angehängt ist. Mit derselben Anweisung können Sie ähnliche berechnete Felder für Projekte, Probleme und andere Objekte erstellen.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Beispiel für ein berechnetes benutzerdefiniertes Feld: Zeigt im benutzerdefinierten Formular für ein Problem den Manager des Erstellers eines Problems an
+# Beispiel für ein berechnetes benutzerdefiniertes Feld: den Manager bzw. die Managerin des Erstellers bzw. der Erstellerin eines Problems im benutzerdefinierten Formular für Probleme anzeigen
 
 Mit einem berechneten benutzerdefinierten Feld können Sie den Namen des Managers des Erstellers eines Problems in einem benutzerdefinierten Formular anzeigen, das an das Problem angehängt ist. Mit derselben Anweisung können Sie ähnliche berechnete Felder für Projekte, Probleme und andere Objekte erstellen.
 
@@ -26,7 +26,7 @@ Mit einem berechneten benutzerdefinierten Feld können Sie den Namen des Manager
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Mit einem berechneten benutzerdefinierten Feld können Sie den Namen des Manager
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
    <td>
       <p>Standard</p>
-      <p>Plan</p></td>
+      <p>Abo</p></td>
   </tr> 
   <tr> 
    <td><p>Konfigurationen der Zugriffsebene</p></td> 
@@ -53,7 +53,7 @@ Mit einem berechneten benutzerdefinierten Feld können Sie den Namen des Manager
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

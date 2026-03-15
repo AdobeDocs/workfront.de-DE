@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: Organisieren Sie die Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist'
 description: Sie können Ihre Aufgaben gruppiert nach Prozent abgeschlossen in den Bereichen 0-25, 26-50, 51-75, 75-99 und 100 anzeigen. Dazu können Sie im Textmodus eine Gruppierung erstellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Gruppierung: Organisieren Sie die Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist
+# Gruppierung: Listenergebnisse nach einem berechneten Wert organisieren, der für alle Objekte in der Gruppierung gleich ist
 
 <!--Audited: 10/2024-->
 
@@ -24,7 +24,7 @@ Sie können Ihre Aufgaben gruppiert nach Prozent abgeschlossen in den Bereichen 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können Ihre Aufgaben gruppiert nach Prozent abgeschlossen in den Bereichen 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,14 +4,14 @@ product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: Konfigurieren von E-Mail-Vorlagen
 description: Als Adobe Workfront-Administrator können Sie E-Mail-Vorlagen konfigurieren, um Erinnerungsbenachrichtigungen zu unterstützen.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ E-Mail-Vorlagen können mit Erinnerungsbenachrichtigungen für Probleme, Aufgabe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ E-Mail-Vorlagen können mit Erinnerungsbenachrichtigungen für Probleme, Aufgabe
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

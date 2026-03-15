@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Hinzufügen einer Aufnahmespalte zu einer Pinnwand
 description: Optional können Sie Ihrer Pinnwand eine Aufnahmespalte hinzufügen, mit der Aufgaben und Probleme automatisch als verbundene Karten abgerufen werden, wenn sie in Workfront hinzugefügt werden, basierend auf den von Ihnen definierten Filtern.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -46,11 +46,11 @@ Probleme:
 >
 >Um eine Synchronisierung mit Workfront durchzuführen und neue Aufgaben und Probleme auf der Pinnwand oder der Aufnahmespalte zu beheben, klicken Sie auf das Menü Mehr ![[!UICONTROL Mehr Menü]](assets/more-menu.png) neben dem Namen der Pinnwand und wählen Sie Verbundene Elemente synchronisieren.
 
-Weitere Informationen zu Spalten finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Weitere Informationen zu Spalten finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,14 +63,14 @@ Weitere Informationen zu Spalten finden Sie unter [Verwalten von &#x200B;](/help
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,13 +81,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wählen Sie im Dashboard ein Board aus.
 1. Klicken Sie **rechts auf** Pinnwand auf „Konfigurieren“, um das Bedienfeld &quot;**&quot;** öffnen.
 1. Wählen Sie den **Board** aus. Neue Felder werden angezeigt.
-1. Aktivieren Sie **Elemente dynamisch in die Pinnwand aufnehmen**. Die leere Aufnahmespalte wird auf der linken Seite der Pinnwand angezeigt.
+1. **Dynamisch aufgenommene Artikel an Bord aktivieren**. Auf der linken Seite der Platine wird die leere Einlaufspalte angezeigt.
 
-   ![Einfache Filteroptionen für Spalte aufnehmen](assets/board-section.png)
+   ![Einfache Filteroptionen für die Einzugsspalte](assets/board-section.png)
 
-1. (Optional) Suchen Sie nach und wählen Sie [!DNL Workfront]Projekte [!UICONTROL **aus**].
-1. (Optional) Suchen Sie nach einem Benutzer oder einem Team und wählen Sie [!UICONTROL **Arbeitsaufträge**] aus.
-1. Klicken Sie **Apply**. Die Objekte werden in der Aufnahmespalte der Pinnwand als verbundene Karten angezeigt.
+1. (Optional) Suchen Sie nach [!DNL Workfront] [!UICONTROL **Projekten**] und wählen Sie diese aus.
+1. (Optional) Suchen und wählen Sie Benutzer oder Team [!UICONTROL **Zuweisungen**].
+1. Klicken Sie auf **Übernehmen**. Die Objekte werden in der Aufnahmespalte der Pinnwand als verbundene Karten angezeigt.
 
    ![Aufnahmespalte](assets/intake-column-added3.png)
 
@@ -97,7 +97,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie im Dashboard ein Board aus.
 1. Klicken Sie **rechts auf** Pinnwand auf „Konfigurieren“, um das Bedienfeld &quot;**&quot;** öffnen.
-1. Wählen Sie den **Board** aus. Neue Felder werden angezeigt.
+1. Wählen Sie den Abschnitt **Board** aus. Neue Felder werden angezeigt.
 1. Aktivieren Sie **Elemente dynamisch in die Pinnwand aufnehmen**. Die leere Aufnahmespalte wird auf der linken Seite der Pinnwand angezeigt.
 
 1. Klicken Sie [!UICONTROL **Erweiterte Filter verwenden**].
@@ -110,15 +110,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie können die Aufnahmespalte so filtern, dass sowohl Aufgaben als auch Probleme einbezogen werden. Sie müssen die Filter jedoch für jeden Objekttyp separat einrichten.
    >
-   >Darüber hinaus stehen gespeicherte Filter und Systemstandardfilter zur Auswahl zur Verfügung.
+   >Darüber hinaus können Sie gespeicherte Filter und Standardfilter des Systems auswählen.
 
-1. Klicken Sie im Filterbedienfeld auf &quot;**[!UICONTROL Filter]**.
+1. Klicken Sie im Filterbereich auf **[!UICONTROL Neuer Filter]**.
 
-1. Erstellen Sie Ihren Filter und klicken Sie dann auf **[!UICONTROL Als neu speichern]**.
+1. Erstellen Sie den Filter und klicken Sie dann auf **[!UICONTROL Als neu speichern]**.
 
-   ![Filter-Builder](assets/intake-filter-dialog6.png)
+   ![Filter Builder](assets/intake-filter-dialog6.png)
 
-   Das obige Beispiel zeigt einen Filter für Aufgaben aus einem bestimmten Projekt mit dem Status [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung].
+   Das obige Beispiel zeigt einen Filter für Aufgaben aus einem bestimmten Projekt mit dem Status [!UICONTROL Neu] oder [!UICONTROL Wird ausgeführt].
 
    >[!NOTE]
    >
@@ -128,7 +128,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Benennen Sie den Filter und klicken Sie dann auf **[!UICONTROL Speichern]**. Der Filter wird in der Liste der gespeicherten Filter angezeigt und automatisch auf die Aufnahmespalte angewendet.
 
-   ![Einen neuen Filternamen eingeben](assets/save-as-modal.png)
+   ![Neuen Filternamen eingeben](assets/save-as-modal.png)
 
 1. Klicken Sie auf das X oben im Filterbedienfeld, um es zu schließen.
 
@@ -148,13 +148,13 @@ Karten in der Aufnahmespalte können erst bearbeitet werden, wenn sie in andere 
 
 Sie können die Elemente in der Aufnahmespalte manuell neu anordnen.
 
-Die Symbole oben rechts in der Aufnahmespalte geben an, wie viele Karten sich derzeit in der Spalte befinden und wie viele Filter angewendet werden.
+Die Symbole oben rechts in der Spalte zeigen an, wie viele Karten sich derzeit in der Spalte befinden und wie viele Filter angewendet wurden.
 
-1. (Optional) Um in der Aufnahmespalte nach einem Element zu suchen, klicken Sie auf ![Suchsymbol](assets/search-icon.png) in der Spalte.
-1. (Optional) Um eine Karte aus der Aufnahmespalte in eine andere Spalte zu verschieben, ziehen Sie die Karte per Drag-and-Drop an die Position, an der sie angezeigt werden soll.
+1. (Optional) Um in der Spalte &quot;Einzug&quot; nach einem Element zu suchen, klicken Sie in der Spalte auf das Symbol ![Suchen](assets/search-icon.png).
+1. (Optional) Um eine Karte aus der Einzugsspalte in eine andere Spalte zu verschieben, ziehen Sie die Karte und legen Sie sie an der gewünschten Position ab.
 
-   Oder
+   ODER
 
-   Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr Menüsymbol](assets/more-menu.png) auf der Karte und wählen Sie **[!UICONTROL Verschieben]**. Wählen Sie dann im Feld **Verschieben [ITEM]** eine andere Spalte aus und klicken Sie auf **[!UICONTROL Move]**.
+   Klicken Sie auf der Karte auf das Menüsymbol **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-menu.png) und wählen Sie **[!UICONTROL Verschieben]** aus. Wählen Sie dann im Feld **Verschieben [ELEMENT]** eine andere Spalte aus und wählen Sie **[!UICONTROL Verschieben]** aus.
 
 1. (Optional) Um die Aufnahmespalte zu löschen, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menüsymbol](assets/more-menu.png) und wählen Sie **[!UICONTROL Löschen]**.

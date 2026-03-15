@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 'Berichterstellungselemente: Filter, Ansichten und Gruppierungen'
+title: 'Reporting-Elemente: Filter, Ansichten und Gruppierungen'
 description: Die Hauptelemente, die jede Liste und jeder Bericht in Workfront haben muss, sind ein Filter, eine Ansicht und eine Gruppierung. Jedes Element liefert verschiedene Informationen innerhalb eines Berichts.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Berichterstellungselemente: Filter, Ansichten und Gruppierungen
+# Reporting-Elemente: Filter, Ansichten und Gruppierungen
 
 <!-- Audited: 11/2024 -->
 
@@ -39,7 +39,7 @@ Beachten Sie beim Arbeiten mit Filtern, Ansichten und Gruppierungen Folgendes:
 
   Informationen zum Gewähren des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung in einem Bericht oder einer Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch nach dem Abmelden oder Schließen des Browsers bei. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. für die Liste der Aufgaben für ein Projekt.
+* Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung für einen Bericht oder eine Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch nach dem Abmelden oder Schließen des Browsers bei. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. für die Liste der Aufgaben für ein Projekt.
 
 ## Filter
 
@@ -54,7 +54,7 @@ Einige Attribute von Filtern sind:
 
   Weitere Informationen zu Filtern finden Sie im Artikel [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-## Ansichten
+## Ansichten 
 
 Indem Sie die Ansicht eines Berichts definieren, definieren Sie, welche Informationen Sie in den Bericht aufnehmen. Wie alle Berichterstellungselemente basieren Ansichten auf einem Objekttyp.
 
@@ -72,7 +72,7 @@ Einige Attribute von Ansichten sind:
 
 Eine Gruppierung steuert, wie Sie Daten organisieren, sodass sie leichter zu lesen und zu verstehen sind. Gruppierungen erstellen horizontale Balken innerhalb eines Berichts, in denen die Ergebnisse nach gemeinsamen Attributen aufgelistet werden. Sie definieren die Kriterien dafür, wie die Ergebnisse Ihres Berichts bei der Gruppierung gruppiert werden sollen.
 
-Wenn Sie beispielsweise eine Liste von Aufgaben gruppieren, die mehrere Projekte umfassen, werden alle entsprechenden Aufgaben, die zu einem einzelnen Projekt gehören, unter diesem Namen organisiert.
+Wenn Sie beispielsweise eine Liste von Vorgängen gruppieren, die sich über mehrere Projekte erstrecken, und deren Projektnamen angeben, werden alle entsprechenden Vorgänge organisiert, die zu einem einzelnen Projekt unter diesem Namen gehören.
 
 Einige Attribute von Gruppierungen sind:
 

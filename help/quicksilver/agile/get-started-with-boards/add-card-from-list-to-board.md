@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Vorhandene Aufgaben oder Probleme einem Workfront-Board hinzufügen
 description: Sie können einer Pinnwand in Adobe Workfront beliebige Aufgaben oder Probleme aus einer Listen- oder Berichtsansicht hinzufügen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können einer Pinnwand oder einem Arbeitsablauf in [!DNL Adobe Workfront] ü
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col>
@@ -37,7 +37,7 @@ Sie können einer Pinnwand oder einem Arbeitsablauf in [!DNL Adobe Workfront] ü
    <td role="rowheader">Adobe Workfront-Lizenz</td>
    <td>
    <p>Standard</p> 
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@ Sie können einer Pinnwand oder einem Arbeitsablauf in [!DNL Adobe Workfront] ü
  </tbody>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Wenn Sie eine Teilaufgabe auswählen, wird sie auch als Karte auf der Pinnwand hinzugefügt.
 
 1. Klicken Sie auf [!UICONTROL **Mehr**] > [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -70,7 +70,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 
@@ -82,7 +82,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie [!UICONTROL **linken Bedienfeld**] Aufgaben [!UICONTROL **oder**] Probleme“.
 1. Klicken Sie auf die Aufgabe, Unteraufgabe oder das Problem, die bzw. das Sie einer Pinnwand oder einem Arbeitsablauf hinzufügen möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü neben dem Objektnamen und wählen Sie [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -90,7 +90,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 

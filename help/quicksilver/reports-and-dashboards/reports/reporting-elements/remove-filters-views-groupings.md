@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Entfernen von Filtern, Ansichten und Gruppierungen
 description: Sie können Filter, Ansichten oder Gruppierungen aus Listen und Berichten entfernen, wenn Sie diese erstellt haben oder wenn sie für Sie freigegeben wurden. Standardfilter, Ansichten oder Gruppierungen können nicht entfernt werden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können Filter, Ansichten oder Gruppierungen aus Listen und Berichten entfer
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ Sie können Filter, Ansichten oder Gruppierungen aus Listen und Berichten entfer
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-    <p>Mitwirkender oder höher</p>
-    <p>Anfrage oder höher</p>
+    <p>Mitwirkende oder höher</p>
+    <p>Anfragende oder höher</p>
    </td>
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Sie können Filter, Ansichten oder Gruppierungen aus Listen und Berichten entfer
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

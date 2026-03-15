@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: Anzeigen eines Status-Zeitstempels in einem benutzerdefinierten Formular'
+title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: einen Status-Zeitstempel in einem benutzerdefinierten Formular anzeigen'
 description: Das folgende berechnete Feld zeigt das Datum an, an dem der Objektstatus als In Bearbeitung (INP) markiert ist. Sie können dieselben Informationen für berechnete benutzerdefinierte Felder für Probleme, Aufgaben oder Projekte verwenden.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Das folgende berechnete Feld zeigt das Datum an, an dem der Objektstatus als In 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Das folgende berechnete Feld zeigt das Datum an, an dem der Objektstatus als In 
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
    <td>
       <p>Standard</p>
-      <p>Plan</p></td>
+      <p>Abo</p></td>
   </tr> 
   <tr> 
    <td><p>Konfigurationen der Zugriffsebene</p></td> 
@@ -51,7 +51,7 @@ Das folgende berechnete Feld zeigt das Datum an, an dem der Objektstatus als In 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

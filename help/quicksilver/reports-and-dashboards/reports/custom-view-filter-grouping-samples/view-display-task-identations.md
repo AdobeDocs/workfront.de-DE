@@ -4,17 +4,17 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Aufgabeneinzüge in einer Aufgabenliste anzeigen'
 description: In dieser Aufgabenansicht können Sie der Spalte Aufgabenname Code hinzufügen, um die Aufgaben anzuzeigen, die entsprechend der Arbeitsaufschlüsselstruktur des Projekts eingerückt sind.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Anzeigen: Aufgabeneinzüge in einer Aufgabenliste anzeigen
+# Ansicht: Einrückung von Aufgaben in einer Aufgabenliste anzeigen
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ In dieser Aufgabenansicht können Sie der Spalte Aufgabenname Code hinzufügen, 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ In dieser Aufgabenansicht können Sie der Spalte Aufgabenname Code hinzufügen, 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

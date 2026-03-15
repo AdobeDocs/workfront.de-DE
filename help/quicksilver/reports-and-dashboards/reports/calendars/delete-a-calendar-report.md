@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Löschen eines Kalenderberichts
 description: Sie können einen Kalender löschen, dessen Besitzer Sie sind oder den andere für Sie freigegeben haben. Nach dem Löschen ist der Kalender für Benutzende, für die Sie ihn freigegeben haben, nicht mehr zugänglich.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 2%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können Ihren Standardkalender nur löschen, wenn Sie über einen vorhandene
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Sie können Ihren Standardkalender nur löschen, wenn Sie über einen vorhandene
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +49,7 @@ Sie können Ihren Standardkalender nur löschen, wenn Sie über einen vorhandene
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

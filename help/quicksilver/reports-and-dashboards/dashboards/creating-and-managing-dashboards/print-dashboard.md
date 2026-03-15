@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Dashboard drucken
+title: Drucken eines Dashboards
 description: Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucken eines Dashboards benötigen Sie die Berechtigung zum Anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Dashboard drucken
+# Drucken eines Dashboards
 
 <!-- Audited: 1/2025 -->
 
@@ -25,7 +25,7 @@ Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucke
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucke
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Arbeit oder höher</p>
+      <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucke
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Die folgenden Informationen sind nicht in der gedruckten oder exportierten Dashb
 * Alle anderen Formatierungen, die für Workfront spezifisch sind
 * Je nach Größe der Berichte und der Anzahl und Breite der einzelnen Spalten kann der Export und das Drucken eines Dashboards dazu führen, dass einige Spalten abgeschnitten werden.
 
-## Dashboard drucken
+## Drucken eines Dashboards
 
 1. Wechseln Sie zum Dashboard, das Sie drucken möchten.
 1. Führen Sie einen der folgenden Schritte aus:

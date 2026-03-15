@@ -1,14 +1,14 @@
 ---
 title: Verbesserungen bei Aktualisierungen und Benachrichtigungen für das zweite Quartal 2024
 description: Verbesserungen bei Aktualisierungen und Benachrichtigungen für das zweite Quartal 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ In der neuen Kommentar-Funktion wurden folgende Verbesserungen vorgenommen:
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt um 2:47)
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt mit 2:47)
 
 ## Die Registerkarte Systemaktivität im neuen Kommentarerlebnis unterstützt schreibgeschützte Kommentare
 
@@ -70,7 +70,7 @@ Kommentare zu den Systemaktivitätsdatensätzen im alten Kommentar-Erlebnis werd
 
 Weitere Informationen finden Sie unter [Übersicht über Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt um 2:00 Uhr)
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt mit 2:00)
 
 ## Neue Registerkarte Aktualisierungsstrom , um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
@@ -84,7 +84,7 @@ Die Registerkarte Alle ist eine schreibgeschützte Registerkarte. Sie können in
 
 Weitere Informationen finden Sie unter [Übersicht über Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt um 0:31)
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 0:31)
 
 ## Neuer Kommentar-Stream jetzt im Bedienfeld Zusammenfassung verfügbar
 
@@ -96,4 +96,4 @@ Wir haben dem Bedienfeld Zusammenfassung für Aufgaben- und Problemlisten nun di
 
 Weitere Informationen finden Sie unter [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}

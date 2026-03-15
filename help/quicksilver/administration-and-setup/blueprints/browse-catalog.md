@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Durchsuchen des Blueprint-Katalogs und Anfordern der Installation von Blueprints
 description: Blueprints bieten grundlegende Bausteine, mit denen Sie ein mit Ihnen wachsendes Arbeitsverwaltungssystem erstellen können. Alle  [!DNL Adobe Workfront]  können den Blueprint-Katalog durchsuchen. Sie können außerdem die Installation einer bestimmten Blueprint durch Ihren  [!DNL Workfront] -Administrator anfordern, wenn Ihr Administrator Blueprint-Anfragen aktiviert hat.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Blueprints können nur vom Systemadministrator installiert werden. Weitere Infor
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,13 +34,13 @@ Blueprints können nur vom Systemadministrator installiert werden. Weitere Infor
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Mitwirkender oder höher</p><p>Antragsteller oder höher</p>
+   <td><p>Mitwirkende oder höher</p><p>Antragsteller oder höher</p>
   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -53,7 +53,7 @@ Im Katalog werden alle Blueprints angezeigt, die für Ihr Unternehmen verfügbar
 1. Durchsuchen Sie den Blueprint-Katalog.
 1. Verwenden Sie das Bedienfeld „Filter“ auf der rechten Seite, um den Katalog nach folgenden Optionen zu filtern:
 
-   * Anwendungsfall (z. B[!UICONTROL &#x200B; „Personalwesen] oder [!UICONTROL Marketing])
+   * Anwendungsfall (z. B[!UICONTROL  „Personalwesen] oder [!UICONTROL Marketing])
    * Reifegrad ([!UICONTROL verwaltet] oder [!UICONTROL integriert])
    * Installationsstatus ([!UICONTROL installiert] oder nicht [!UICONTROL installiert])
    * Blueprint-Typ (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organisationsstruktur], [!UICONTROL Projektvorlage]<!--, Request Queue, Setup Feature-->)

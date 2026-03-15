@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen
 description: Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, können Sie Finanzwerte in Berichten und Listen so einstellen, dass sie in einer anderen Währung als der Standardwährung angezeigt werden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -23,13 +23,13 @@ Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, können Sie Fi
 >
 >Wenn Sie in einer Ansicht eine andere Währung als die Standardwährung auswählen, werden die Links **Weitere Aufgaben hinzufügen** und **Weitere Probleme hinzufügen** unten in einer Projektliste nicht mehr angezeigt.
 
-Informationen zum Ändern der Standardwährung für ein bestimmtes Projekt finden Sie unter [Ändern der &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen zum Ändern der Standardwährung für ein bestimmtes Projekt finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 Wenn der Bericht Projekte mit einer einzigen Währung enthält, werden die Summen in Gruppierungen auch in der Standardwährung des Systems angezeigt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +57,7 @@ Wenn der Bericht Projekte mit einer einzigen Währung enthält, werden die Summe
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +103,7 @@ Wenn Sie die Währung auf Projektebene anpassen und Informationen aus allen Proj
 
 * Wenn Sie einen Bericht erstellen, der Finanzinformationen aus zwei oder mehr Projekten mit unterschiedlichen Währungen enthält, spiegelt die Gruppierungsübersicht standardmäßig die Standardwährung des Systems wider, die vom Workfront-Administrator ausgewählt wurde.
 * Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, die dieselbe Währung haben, sich aber von der Standardwährung des Systems unterscheiden, werden die Summen in den Gruppierungen in der Standardwährung des Systems angezeigt.
-* Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, denen Aufgabengebietszuweisungen mit einer Währungsüberschreibungen verknüpft sind, konvertiert Workfront die Finanzinformationen aus den überschriebenen Währungskursen des Aufgabengebiets entweder in die Projektwährung (wenn Sie die Originalwährung des Projekts in der Ansicht auswählen) oder in eine andere Währung, die Sie beim Anzeigen des Berichts auswählen. Informationen zum Außerkraftsetzen der Währung eines Aufgabengebiets finden Sie unter [Erstellen und Verwalten von &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)&quot;.
+* Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, denen Aufgabengebietszuweisungen mit einer Währungsüberschreibungen verknüpft sind, konvertiert Workfront die Finanzinformationen aus den überschriebenen Währungskursen des Aufgabengebiets entweder in die Projektwährung (wenn Sie die Originalwährung des Projekts in der Ansicht auswählen) oder in eine andere Währung, die Sie beim Anzeigen des Berichts auswählen. Informationen zum Außerkraftsetzen der Währung eines Aufgabengebiets finden Sie unter [Erstellen und Verwalten von ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)&quot;.
 
 So zeigen Sie zwei Projekte mit benutzerdefinierten Währungen in einem Bericht an:
 
@@ -123,7 +123,7 @@ So zeigen Sie zwei Projekte mit benutzerdefinierten Währungen in einem Bericht 
 
 1. Wenden Sie auf **Registerkarte** eine Gruppierung **Geplantes Abschlussdatum** an.
 
-   Informationen zum Erstellen einer Gruppierung finden Sie unter ([&#x200B; Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Informationen zum Erstellen einer Gruppierung finden Sie unter ([ Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Fügen Sie auf **Registerkarte** einen Filter für **Projektname** hinzu und wählen Sie die beiden Projekte mit den verschiedenen Währungen aus.
 

@@ -5,14 +5,14 @@ keywords: Ändern,E-Mail,Benachrichtigung,Einstellungen,Bulk,Bulk-Edit,Konfiguri
 navigation-topic: emails-administration
 title: Ändern der E-Mail-Benachrichtigungseinstellungen mehrerer Benutzer
 description: Dieser Artikel enthält Informationen für Workfront- oder Gruppenadministratoren darüber, wie sie die E-Mail-Benachrichtigungen anderer Benutzer aktualisieren können.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfiguri
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -48,7 +48,7 @@ Sie können auch E-Mail-Benachrichtigungen für jeweils einen Benutzer konfiguri
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -67,7 +67,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
 
 1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen anzuzeigen, die sich auf diese Kategorie beziehen.
 
-   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle &#x200B;](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
+   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle ](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
 
 
 1. Klicken Sie auf eine Benachrichtigung, die Benutzerinnen und Benutzer entweder täglich oder sofort erhalten sollen, oder löschen Sie alle Benachrichtigungen, die sie nicht mehr erhalten sollen.
@@ -77,7 +77,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
    >   Für die Kategorie **Kommunikation** können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Sie müssen alle Benachrichtigungen auswählen, die in einer täglichen Zusammenfassung zugestellt werden sollen.
 
 
-1. Wenn Sie Benachrichtigungen als tägliche Zusammenfassung gesendet haben, wählen Sie die Tageszeit, zu der die Zusammenfassung zugestellt werden soll, oben im Abschnitt **Benachrichtigungen** im Menü **Tägliche Zusammenfassung nach** aus.
+1. Wenn Sie Benachrichtigungen ausgewählt haben, die als täglicher Digest gesendet werden sollen, wählen Sie die Uhrzeit des Tages aus, an dem der Digest zugestellt werden soll, oben im Abschnitt **Benachrichtigungen** im Menü **Tägliche Digest per E-Mail nach**.
 
    ![Tägliche Digest-Zeit](assets/daily-digest-time.png)
 

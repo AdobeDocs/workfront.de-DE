@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Link zu einem Objekt in einer Spalte entfernen'
 description: Einige Objekte, die Sie in einer Ansicht anzeigen, verknüpfen standardmäßig mit der Detailseite des Objekts . Beispielsweise ist die Spalte, die den Namen eines Projekts anzeigt, ein Link zum Projekt; die Spalte, die den Namen eines Benutzers anzeigt, ist ein Link zur Profilseite des Benutzers.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Anzeigen : Entfernen eines Links zu einem Objekt in einer Spalte
+# Ansicht: Link zu einem Objekt in einer Spalte entfernen
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Sie können diesen Link mithilfe des Textmodus in Spalten entfernen, die in alle
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Sie können diesen Link mithilfe des Textmodus in Spalten entfernen, die in alle
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -62,13 +62,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Zu einer Aufgabenliste gehen.
 1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**, um eine neue Ansicht zu erstellen.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png), um eine vorhandene Ansicht zu bearbeiten, und wählen Sie dann die Ansicht aus.
 
 1. Klicken Sie **Spalte hinzufügen**, um eine neue Spalte hinzuzufügen.
 
-   Oder
+   ODER
 
    Klicken Sie auf eine vorhandene Spalte mit einem Link zu einem Objekt.
 

@@ -4,17 +4,17 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Firma und Hauptgruppe des zugewiesenen Benutzers'
 description: Diese Aufgabenansicht zeigt das Unternehmen und die Hauptgruppe des Primären Aufgabenbesitzers an. Hierbei handelt es sich um Werte, die nicht in der Standardschnittstelle verfügbar sind, auf die jedoch über den Textmodus zugegriffen werden kann.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Anzeigen: Firma und Hauptgruppe des zugewiesenen Benutzers
+# Ansicht: Firma und Hauptgruppe der zugewiesenen Person
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Diese Aufgabenansicht zeigt das Unternehmen und die Hauptgruppe des Primären Au
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Diese Aufgabenansicht zeigt das Unternehmen und die Hauptgruppe des Primären Au
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

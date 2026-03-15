@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Übersicht über den Textmodus
+title: Überblick über den Textmodus
 description: Sie können einen Bericht oder eine Liste in Adobe Workfront erstellen, indem Sie entweder die Standardschnittstelle oder die Textmodusschnittstelle verwenden, wenn Sie die Elemente erstellen, aus denen der Bericht oder die Liste besteht.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Übersicht über den Textmodus
+# Überblick über den Textmodus
 
 <!-- Audited: 1/2025 -->
 
@@ -29,7 +29,7 @@ In der Standardschnittstelle können Sie auf Felder und ihre Attribute verweisen
 
 Mit dem Textmodus können Sie auf Felder und Attribute verweisen, die möglicherweise nicht im Standardmodus, aber in der Workfront-Datenbank verfügbar sind.
 
-Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Site.
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Website.
 
 ## Überlegungen vor der Verwendung des Textmodus
 
@@ -58,7 +58,7 @@ In der Benutzeroberfläche Standardmodus werden Felder angezeigt, um die Anwendu
 Weitere Informationen zum Standardmodus und zum Erstellen eines Berichts oder einer Liste finden Sie unter:
 
 * [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Reporting-Elemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## Textmodus-Oberfläche
 

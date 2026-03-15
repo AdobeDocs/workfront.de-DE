@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Erstellen eines Teams
 description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
 
-Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des &#x200B;]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des ]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
 
 Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Bereich [!UICONTROL Setup] erstellen kann, finden Sie [Erstellen eines Teams im Bereich [!UICONTROL Setup]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
@@ -42,7 +42,7 @@ Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Ber
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: report-usage
-title: Berichtsnutzung anzeigen
-description: Berichtsnutzung anzeigen
-author: Nolan
+title: Anzeigen der Berichtsnutzung
+description: Anzeigen der Berichtsnutzung
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Berichtsnutzung anzeigen
+# Anzeigen der Berichtsnutzung
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : *** DO NOT CHANGE, REMOVE, CHANGE LINK, RENAME THIS ARTICLE- IT IS LINKED TO THE PENDO GUIDE FOR THE MAIN REPORTS AREA***)</p>
@@ -39,7 +39,7 @@ Weitere Informationen dazu, nach welchen Feldern Sie einen Bericht filtern könn
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Weitere Informationen dazu, nach welchen Feldern Sie einen Bericht filtern könn
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -66,7 +66,7 @@ Weitere Informationen dazu, nach welchen Feldern Sie einen Bericht filtern könn
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie in der Berichtsliste auf das **Anzeigen** Dropdown-Menü.
 1. (Optional) Wählen Sie die Ansicht **Berichtsnutzung**, um die häufigsten Berichtverwendungsinformationen anzuzeigen.\
-   Oder
+   ODER
 
 1. Klicken Sie **Neue Ansicht**, um eine benutzerdefinierte Ansicht zu erstellen.
 1. Klicken Sie auf **Spalte hinzufügen**.

@@ -4,14 +4,14 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Burndown
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie das Burndown-Diagramm verwenden.
-author: Jenny
+author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 0c3621e2-26e5-4b9f-84cc-967761a3f050
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 4%
+ht-degree: 34%
 
 ---
 

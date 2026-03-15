@@ -1,27 +1,27 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Größe ändern und Burndown-Diagramm reduzieren
-description: Sie können die Größe des Burndown-Diagramms ändern oder reduzieren, um anzupassen, wie viel Platz es auf dem Storyboard einnimmt.
-author: Jenny
+title: Ändern der Größe und Reduzieren des Burdown-Diagramms
+description: Sie können das Abblenddiagramm skalieren oder reduzieren, um anzupassen, wie viel Platz es auf dem Storyboard einnimmt.
+author: Courtney
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
 # Ändern der Größe und Reduzieren des Burndown-Diagramms
 
-Sie können die Größe des Burndown-Diagramms ändern oder reduzieren, um anzupassen, wie viel Platz es auf dem Storyboard einnimmt.
+Sie können das Abblenddiagramm skalieren oder reduzieren, um anzupassen, wie viel Platz es auf dem Storyboard einnimmt.
 
-Alle Änderungen an der Größe oder Sichtbarkeit des Burndown-Diagramms sind nur für Sie sichtbar und werden zurückgesetzt, wenn Sie den Browser-Cache löschen.
+Alle Änderungen, die Sie an der Größe oder Sichtbarkeit des Burndown-Diagramms vornehmen, sind nur für Sie sichtbar und werden zurückgesetzt, wenn Sie Ihren Browser-Cache leeren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,13 +35,13 @@ Alle Änderungen an der Größe oder Sichtbarkeit des Burndown-Diagramms sind nu
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Licht oder höher</p> 
-   <p>Überprüfen oder höher</p> </td> 
+   <td> <p>Hell oder höher</p> 
+   <p>Überprüfung oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,9 +49,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Scrum]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Team wechseln] aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wechseln Sie zur Iteration, die das Burndown-Diagramm enthält, dessen Größe Sie ändern möchten.
+1. Wechseln Sie zu der Iteration, die das Burndown-Diagramm enthält, dessen Größe Sie ändern möchten.
 1. Bewegen Sie den Mauszeiger über die untere Linie des Burndown-Diagramms und ziehen Sie das Diagramm auf die gewünschte Größe.
    ![Größe des Burndown-Diagramms ändern](assets/burndown-resize.png)
 
@@ -59,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Scrum]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Team wechseln] aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wechseln Sie zur Iteration, die das Burndown-Diagramm enthält, das Sie reduzieren möchten.
-1. Klicken Sie auf das Pfeilsymbol links neben der Statusleiste [!UICONTROL Prozent abgeschlossen].
+1. Wechseln Sie zu der Iteration, die das Burndown-Diagramm enthält, das Sie ausblenden möchten.
+1. Klicken Sie auf das Pfeilsymbol links in der Statusleiste [!UICONTROL Prozent abgeschlossen].

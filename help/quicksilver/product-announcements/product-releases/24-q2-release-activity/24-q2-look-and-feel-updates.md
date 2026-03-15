@@ -1,11 +1,11 @@
 ---
 title: Lookand-Feel-Aktualisierungen im Zeitraum der Veröffentlichung im zweiten Quartal 2024
 description: Lookand-Feel-Aktualisierungen im Zeitraum der Veröffentlichung im zweiten Quartal 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Eine Liste aller Änderungen, die mit der Version vom zweiten Quartal 2024 verf�
 >
 >Version für alle Kunden: Mit Version 24.2 (15. Februar 2024)
 
-Die E-Mail-Vorlagen zum Hinzufügen einer genehmigenden Person zu einem Asset und zum Hinzufügen eines Benutzers zu einem Board wurden aktualisiert, um sie besser an andere Adobe-E-Mail-Vorlagen anzupassen und die Übersichtlichkeit und Benutzerfreundlichkeit zu verbessern.
+Die E-Mail-Vorlagen zum Hinzufügen einer genehmigenden Person zu einem Asset und zum Hinzufügen eines Benutzers zu einer Pinnwand wurden aktualisiert, damit sie besser zu anderen E-Mail-Vorlagen von Adobe passen und die Übersichtlichkeit und Benutzerfreundlichkeit verbessern.
 
 ## Neue Lookand-Feel-Aktualisierungen für Registerkarten im benutzerdefinierten Forms-Bereich
 

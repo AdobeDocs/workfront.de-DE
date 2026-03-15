@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Berichteinstellungen bearbeiten
+title: Bearbeiten von Berichtseinstellungen
 description: Sie können die Einstellungen eines Berichts bearbeiten, um festzulegen, wie er für andere Benutzer angezeigt wird oder welche Art von Informationen die Benutzer vor Ausführung des Berichts anfordern können.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 7%
+ht-degree: 14%
 
 ---
 
-# Berichteinstellungen bearbeiten
+# Bearbeiten von Berichtseinstellungen
 
 <!-- Audited: 11/2024 -->
 
@@ -21,7 +21,7 @@ Sie können die Einstellungen eines Berichts bearbeiten, um festzulegen, wie er 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können die Einstellungen eines Berichts bearbeiten, um festzulegen, wie er 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Beginnen Sie mit der Erstellung eines Berichts, indem Sie **Hauptmenü** > **Berichte** wechseln und dann das Objekt Ihres Berichts auswählen.
 
-   Oder
+   ODER
 
    Öffnen Sie einen vorhandenen Bericht und klicken Sie auf **Berichtsaktionen** > **Bearbeiten**.
 

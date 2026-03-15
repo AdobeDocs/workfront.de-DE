@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Dashboard erstellen
+title: Erstellen eines Dashboards
 description: Sie können Dashboards erstellen, um schnell auf Informationen in Adobe Workfront zuzugreifen. Berichte, Kalender und externe Seiten können zu Dashboards hinzugefügt werden, die Sie für eine optimale Zusammenarbeit mit anderen freigeben können.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
-# Dashboard erstellen
+# Erstellen eines Dashboards
 
 <!--Audited: 01/2025-->
 
@@ -37,7 +37,7 @@ Weitere Informationen zu Dashboards finden Sie unter [Erste Schritte mit Dashboa
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Weitere Informationen zu Dashboards finden Sie unter [Erste Schritte mit Dashboa
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Sie müssen eines der folgenden Objekte erstellen, bevor Sie sie einem Dashboard
 
 Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine aus dem neuen Dashboard erstellen. Informationen zum Erstellen externer Seiten finden Sie unter [Externe Webseite in ein Dashboard einbetten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-## Dashboard erstellen
+## Erstellen eines Dashboards
 
 {{step1-to-dashboards}}
 

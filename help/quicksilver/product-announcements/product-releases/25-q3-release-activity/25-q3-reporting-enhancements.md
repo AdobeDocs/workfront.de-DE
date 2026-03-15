@@ -1,14 +1,14 @@
 ---
 title: Verbesserungen beim Reporting im dritten Quartal 2025
 description: Projektverbesserungen im dritten Quartal 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6e53dca8-285a-471b-a646-1773722554f3
-source-git-commit: a0a7ad2770b99ee1d45169372e64e460701ccc10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter [Planen einer automatischen Berichtsberei
 >[!NOTE]
 >
 >* Vorschau: 30. April 2025
->* Produktions-Schnellveröffentlichung: 15. Mai 2025
+>* Produktions-Schnellveröffentlichung: Freitag, 15. Mai 2025
 >* Produktion für alle Kunden: 17. Juli 2025
 
 Das Verhalten der Benutzer-Platzhalter wurde aktualisiert, um beim Filtern eines Berichts einen Nullwert auszuschließen. Diese Änderung hilft dem Filter, genauere Ergebnisse zu erzielen, anstatt Ergebnisse zurückzugeben, bei denen ein Benutzer nicht richtig konfiguriert ist (ein Nullergebnis).

@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard
 description: Ein Diagrammbericht, der Ihre Daten als Balken-, Spalten-, Linien- oder Tortendiagramm darstellt, kann zu einem Arbeitsflächen-Dashboard hinzugefügt werden.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1814'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können einen Diagrammbericht erstellen und zu einem Arbeitsflächen-Dashboa
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -61,7 +61,7 @@ Sie können einen Diagrammbericht erstellen und zu einem Arbeitsflächen-Dashboa
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
@@ -78,7 +78,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -161,7 +161,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
 
-1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![&#x200B; Filter](assets/filter-icon.png).
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![ Filter](assets/filter-icon.png).
 1. Wählen Sie **Filter bearbeiten** aus.
 1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
 1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
@@ -196,7 +196,7 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -286,9 +286,9 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 Benutzer mit der Zugriffsebene Anzeigen oder Bearbeiten von Finanzdaten sehen weiterhin Finanzdaten in den Visualisierungen des Arbeitsflächen-Dashboards, auch wenn die Berechtigung zum Anzeigen von Finanzdaten auf der Aufgaben- oder Projektebene entfernt wurde.
 
-* Benutzende ohne finanzielle Datenrechte auf der Zugriffsebene sehen keine finanziellen Daten in Berichten.
-* Benutzer, die Finanzdaten sehen, sind auf Datensätze beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Datensätze, auf die sie nicht zugreifen können.
-* Ersteller von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
+* Benutzende ohne Rechte für Finanzdaten auf der Zugriffsebene sehen keine Finanzdaten in Berichten.
+* Benutzende, die Finanzdaten sehen, sind auf Einträge beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Einträge, auf die sie nicht zugreifen können.
+* Erstellende von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
 
 Dies ist eine bekannte Grenze, und wir planen, sie so schnell wie möglich zu beheben.
 

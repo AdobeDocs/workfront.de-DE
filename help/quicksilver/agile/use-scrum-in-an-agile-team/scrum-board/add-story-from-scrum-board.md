@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Stories und Probleme aus dem Scrum-Board hinzufügen
 description: Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Board erstellen oder eine vorhandene Story oder ein vorhandenes Problem über das Board hinzufügen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -19,13 +19,13 @@ Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Boar
 
 >[!NOTE]
 >
->Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Die Arbeitsaufgabe [!UICONTROL Geplantes Startdatum] und [!UICONTROL Geplantes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,5 +87,5 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 1. Klicken Sie **[!UICONTROL Hinzufügen]** auf der rechten Seite des Scrum-Boards und wählen Sie **[!UICONTROL Vorhandene Story]** oder **[!UICONTROL Vorhandenes Problem]**.
-1. Beginnen Sie **[!UICONTROL Dialogfeld „Vorhandenes aus]** hinzufügen“ mit der Eingabe des Namens einer Story oder eines Problems und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
-1. Klicken Sie **[!UICONTROL Story hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.
+1. Beginnen Sie im Dialogfeld &quot;**[!UICONTROL Vorhandenen aus Rückstand hinzufügen]**&quot; mit der Eingabe des Namens eines Textabschnitts oder Problems, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+1. Klicken Sie auf **[!UICONTROL Story hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.

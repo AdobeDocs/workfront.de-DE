@@ -1,22 +1,22 @@
 ---
-title: Home-Verbesserungen für das erste Quartal 2024
-description: Home-Verbesserungen für das erste Quartal 2024
-author: Nolan
+title: Verbesserungen bei der Startseite im ersten Quartal 2024
+description: Verbesserungen bei der Startseite im ersten Quartal 2024
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Home-Verbesserungen für das erste Quartal 2024
+# Verbesserungen bei der Startseite im ersten Quartal 2024
 
 Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Neues Widget „Ausstehende Genehmigungen“ verfügbar
 

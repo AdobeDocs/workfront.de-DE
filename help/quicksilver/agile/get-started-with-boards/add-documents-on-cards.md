@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Dokumente zu Karten hinzufügen
 description: Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinzufügen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Dokumente auf Karten hinzufügen
+# Hinzufügen von Dokumenten auf Karten
 
 Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinzufügen. Alle Dokumente, die Sie der Karte hinzufügen, werden auf der Registerkarte Dokumente der damit verbundenen Aufgabe oder Anfrage verfügbar, und die zu der Aufgabe oder Anfrage hinzugefügten Dokumente sind auf der Karte sichtbar. Dieselben Dateitypen werden in beiden Bereichen unterstützt. Weitere Informationen zu Dokumenten in Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -23,7 +23,7 @@ Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinz
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,18 +36,18 @@ Sie können auf Adobe Workfront-Pinnwänden Dokumente zu verbundenen Karten hinz
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Konfigurationen der Zugriffsebene</td>
-   <td>Zugriff auf Dokumente bearbeiten</td>
+   <td>Zugriffrecht „Bearbeiten“ für Dokumente</td>
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Öffnen Sie die verbundene Karte, der Sie ein Dokument hinzufügen möchten.
 1. Ziehen Sie die Datei per Drag-and-Drop in den Bereich [!UICONTROL Dokumente] oder klicken Sie auf [!UICONTROL **Dokument hinzufügen**], um eine Datei auszuwählen.
 
-   Die Datei wird im Bereich &quot;[!UICONTROL &quot; &#x200B;].
+   Die Datei wird im Bereich &quot;[!UICONTROL &quot; ].
 
    ![Dokumente zur Karte hinzugefügt](assets/add-document-to-card.png)
 

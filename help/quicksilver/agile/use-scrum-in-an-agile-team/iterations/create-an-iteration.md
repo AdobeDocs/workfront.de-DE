@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Erstellen einer Iteration
 description: Iterationen sind eine Schlüsselkomponente für Scrum Agile-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] ermöglicht es Agile-Teams, ihre Arbeit zu verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Iterationen sind eine Schlüsselkomponente für Scrum Agile-Teams bei der Planun
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,7 +100,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
 1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus.
 
-1. Wählen Sie auf der Registerkarte **&#x200B;**&#x200B;oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
+1. Wählen Sie auf der Registerkarte **** oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
 
 >[!NOTE]
 >
@@ -152,7 +152,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
    >[!NOTE]
    >
-   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie &#x200B;] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
+   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie ] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
 
 
 ## Verstehen, wie Aufgabenstarttermine berechnet werden, wenn sie zu einer Iteration hinzugefügt werden {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

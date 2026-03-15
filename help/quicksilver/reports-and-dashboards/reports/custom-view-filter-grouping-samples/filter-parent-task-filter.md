@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: Übergeordnete Aufgaben anzeigen'
 description: Sie können die folgenden Aufgabenfilter anwenden, um Arbeitsaufgaben anzuzeigen. Arbeitsaufgaben sind Aufgaben, die unabhängig voneinander bearbeitet werden können und anderen Aufgaben nicht übergeordnet sind. In einem Beispiel identifiziert ein Filter untergeordnete Aufgaben, die selbst übergeordnet sein könnten. In diesem Fall handelt es sich nicht um funktionierende Aufgaben.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können die folgenden Aufgabenfilter anwenden, um Arbeitsaufgaben anzuzeigen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Sie können die folgenden Aufgabenfilter anwenden, um Arbeitsaufgaben anzuzeigen
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben
 1. Wählen Sie **Gleich (Groß- und Kleinschreibung** für Ihren Modifikator aus und geben Sie **0** für die Anzahl der untergeordneten Elemente ein.\
    ![Filter der übergeordneten Aufgabe](assets/parent-task-filter-from-the-ui-350x76.png)
 
-   Oder
+   ODER
 
    Klicken Sie **Wechseln Sie in den Textmodus**, kopieren Sie im Textbearbeitungsfenster den folgenden Text und fügen Sie ihn ein
 
@@ -103,7 +103,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben
 
    ![Übergeordnete ID ist nicht leer](assets/filter-parent-id-not-blank-350x100.png)
 
-   Oder
+   ODER
 
    Klicken Sie **Wechseln Sie in den Textmodus**, kopieren Sie im Textbearbeitungsfenster den folgenden Text und fügen Sie ihn ein: 
 
@@ -131,7 +131,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um eigenst�
 
    ![Übergeordnete ID ist leer und keine untergeordneten Elemente](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
-   Oder
+   ODER
 
    Anstelle der Schritte 6-10 <!--ensure steps above stay accurate--> klicken Sie auf **Wechseln zum Textmodus** und kopieren Sie im Textbearbeitungsfenster den folgenden Text:
 

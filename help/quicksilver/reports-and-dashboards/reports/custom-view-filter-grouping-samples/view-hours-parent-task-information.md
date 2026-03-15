@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Stunden mit Informationen zur übergeordneten Aufgabe'
 description: Diese Stundenansicht zeigt den Namen der Aufgabe, in der die Stunden protokolliert wurden, sowie den Namen der übergeordneten Aufgabe an.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Anzeigen: Stunden mit Informationen zur übergeordneten Aufgabe
+# Ansicht: Stunden mit Informationen zur übergeordneten Aufgabe
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Diese Stundenansicht zeigt den Namen der Aufgabe, in der die Stunden protokollie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Diese Stundenansicht zeigt den Namen der Aufgabe, in der die Stunden protokollie
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

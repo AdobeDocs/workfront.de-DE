@@ -3,18 +3,18 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Dokumentenbericht mit Link zu einem Korrekturabzug'
-description: 'Anzeigen: Dokumentbericht mit Link zu einem Korrekturabzug'
-author: Nolan
+description: 'Ansicht: Dokumentbericht mit Link zu einem Korrekturabzug'
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# Anzeigen: Dokumentbericht mit Link zu einem Korrekturabzug
+# Ansicht: Dokumentbericht mit Link zu einem Korrekturabzug
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ In dieser Dokumentansicht können Sie einen Link zu einem Korrekturabzug der akt
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ In dieser Dokumentansicht können Sie einen Link zu einem Korrekturabzug der akt
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

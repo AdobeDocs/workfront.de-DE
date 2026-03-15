@@ -3,12 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Duplizieren eines Berichts in einem Arbeitsflächen-Dashboard
 description: Sie können einen Bericht in einem Arbeitsflächen-Dashboard duplizieren.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -29,7 +30,7 @@ Sie können einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -47,7 +48,7 @@ Sie können einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard </p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -64,7 +65,7 @@ Sie können einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
@@ -88,6 +89,6 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
    >[!NOTE]
    >
-   >Diese Registerkarten variieren je nachdem, ob Sie einen KPI-, Tabellen- oder Diagrammbericht dupliziert haben.  Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)-Dashboard[, Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) und [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+   >Diese Registerkarten variieren je nachdem, ob Sie einen KPI-, Tabellen- oder Diagrammbericht dupliziert haben.  Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)-Dashboard[, Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) und [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Klicken Sie auf **Speichern**. Der duplizierte Bericht wird im Dashboard angezeigt.

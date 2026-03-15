@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachauswahlfeld
 description: Sie können in einem Adobe Workfront-Bericht nur im Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachauswahlfeld gruppieren.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -39,7 +39,7 @@ Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Ü
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +66,7 @@ Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Ü
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,7 +98,7 @@ So gruppieren Sie nach einem benutzerdefinierten Feld mit Mehrfachauswahl in ein
    </pre>
 
 1. Ersetzen Sie „Benutzerdefinierter Feldname mit Mehrfachauswahl“ durch den tatsächlichen Namen des benutzerdefinierten Felds mit Mehrfachauswahl, wie er in Ihrer Workfront-Instanz angezeigt wird.
-1. Klicken Sie **Speichern und schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 
    Die Objekte im Bericht werden nach den Werten des benutzerdefinierten Mehrfachauswahl-Felds gruppiert.
 

@@ -3,19 +3,19 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Rückstand zum Kanban-Board hinzufügen
 description: Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die Spalte [!UICONTROL Backlog] auf der  [!DNL Kanban]  enthält die ersten 20 Elemente aus Ihrem Rückstand auf der  [!DNL Kanban] . Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status in der Rückstandsanzeige mit „Aktuell“ übereinstimmt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
 # Rückstand zur Pinnwand [!UICONTROL Kanban] hinzufügen
 
-Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; &#x200B;], damit sie im Rückstand angezeigt werden.
+Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; ], damit sie im Rückstand angezeigt werden.
 
 ## Zugriffsanforderungen
 
@@ -39,7 +39,7 @@ Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board an
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

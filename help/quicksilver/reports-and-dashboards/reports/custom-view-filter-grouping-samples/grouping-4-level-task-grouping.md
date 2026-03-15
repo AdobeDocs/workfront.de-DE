@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: 4-stufige Aufgabengruppierung für Portfolio-Verantwortlichen, Programm-Verantwortliche, Projekt-Verantwortliche und Projektstatus'
 description: Diese Aufgabengruppierung bietet vier Gruppierungsebenen. In diesem Fall werden die Aufgaben nach Portfolio-Verantwortlicher, Programm-Verantwortlicher, Projekt-Verantwortlicher und Projektstatus gruppiert. Sie können über die Standardschnittstelle nur bis zu drei Gruppierungsebenen haben. Um eine vierte Ebene hinzuzufügen, müssen Sie den Textmodus verwenden. Es ist nicht möglich, Berichte nach mehr als vier Kriterien gleichzeitig zu gruppieren.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Gruppierung: 4-stufige Aufgabengruppierung für Portfolio-Verantwortlichen, Programm-Verantwortliche, Projekt-Verantwortliche und Projektstatus
+# Gruppierung: 4-stufige Aufgabengruppierung für Portfolio-Besitzer und -Besitzerinnen, Programm-Inhaber und -Inhaberinnen, Projektbesitzer und -besitzerinnen und Projektstatus
 
 <!--Audited: 10/2024-->
 
@@ -24,7 +24,7 @@ Diese Aufgabengruppierung bietet vier Gruppierungsebenen. In diesem Fall werden 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Diese Aufgabengruppierung bietet vier Gruppierungsebenen. In diesem Fall werden 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

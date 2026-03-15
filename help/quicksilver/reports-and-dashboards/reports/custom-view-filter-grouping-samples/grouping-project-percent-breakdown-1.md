@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: Projektaufschlüsselung in Prozent 1'
 description: In dieser benutzerdefinierten Projektgruppierung können Sie Projekte gruppiert nach einem Bereich der Werte für den abgeschlossenen Prozentsatz anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
-# Gruppierung: Projektaufschlüsselung in Prozent 1
+# Gruppierung: Prozentuale Aufschlüsselung des Projekts 1
 
 <!--Audited: 10/2024-->
 
@@ -33,7 +33,7 @@ Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +60,7 @@ Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlo
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

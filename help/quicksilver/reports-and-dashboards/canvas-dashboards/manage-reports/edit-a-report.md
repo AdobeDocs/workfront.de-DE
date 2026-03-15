@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Bearbeiten eines Berichts in einem Arbeitsflächen-Dashboard
 description: Sie können einen Canvas-Dashboard-Bericht bearbeiten, nachdem er erstellt wurde.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->&#x200B;>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -30,7 +30,7 @@ Nachdem Sie Berichte zu einem Arbeitsflächen-Dashboard hinzugefügt haben, kön
 Alle Änderungen an einem Bericht wirken sich auf alle Benutzenden aus, die Zugriff auf das Dashboard haben, das ihn enthält.
 
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,7 +48,7 @@ Alle Änderungen an einem Bericht wirken sich auf alle Benutzenden aus, die Zugr
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -65,7 +65,7 @@ Alle Änderungen an einem Bericht wirken sich auf alle Benutzenden aus, die Zugr
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
    ![Bearbeiten eines Berichts](assets/edit-report-box.png)
 
@@ -127,6 +127,6 @@ Weitere Informationen finden Sie unter [Hinzufügen eines vorhandenen Berichts z
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Klicken Sie im **Berichtsauswahl** auf **Hinzufügen** für den Bericht, mit dem Sie die Daten des vorhandenen Berichts-Widgets ersetzen möchten.

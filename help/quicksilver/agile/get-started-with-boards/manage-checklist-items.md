@@ -3,25 +3,25 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Checklisten-Elemente auf Karten verwalten
 description: Wenn Sie eine Checkliste auf einer Karte verwenden, können Sie Ihre Arbeit in kleinere Schritte unterteilen oder Notizen zur Karte hinzufügen. Checklisten-Elemente sind sowohl auf Ad-hoc- als auch auf verbundenen Karten verfügbar.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Checklistenelemente auf Karten verwalten
+# Verwalten von Checklistenelementen auf Karten
 
 Wenn Sie eine Checkliste auf einer Karte verwenden, können Sie Ihre Arbeit in kleinere Schritte unterteilen oder Notizen zur Karte hinzufügen. Checklisten-Elemente sind sowohl auf Ad-hoc- als auch auf verbundenen Karten verfügbar.
 
-Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Verwenden von verbundenen Karten auf &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Karten](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
+Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Verwenden von verbundenen Karten auf ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Karten](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,14 +34,14 @@ Informationen zu Karten finden Sie [Hinzufügen einer Ad-hoc-Karte zu einer Pinn
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +52,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicken Sie auf die Karte, um das Feld [!UICONTROL Kartendetails] zu öffnen.
 
-   Oder
+   ODER
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
@@ -80,7 +80,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Rufen Sie die Pinnwand auf und suchen Sie die Karte, auf der die Checkliste steht.
 1. Klicken Sie auf die Karte, um das Feld [!UICONTROL Kartendetails] zu öffnen.
 
-   Oder
+   ODER
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 

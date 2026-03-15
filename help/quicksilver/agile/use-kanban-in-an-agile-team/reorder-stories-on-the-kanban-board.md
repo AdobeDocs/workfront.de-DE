@@ -3,33 +3,33 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Storys auf dem Kanban-Board neu anordnen
 description: Sie können die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban-Board angezeigt werden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Storys auf dem Kanban[!UICONTROL Board neu &#x200B;]
+# Storys auf dem Kanban[!UICONTROL Board neu ]
 
-Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt &#x200B;].
+Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt ].
 
 >[!NOTE]
 >
->Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL &#x200B; kann nicht geändert &#x200B;].
+>Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL  kann nicht geändert ].
 
 Die Reihenfolge, in der die Storys auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden.
 
-Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board &#x200B;].
+Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board ].
 
 Wenn Sie Spalten auf der [!DNL Kanban]-Pinnwand neu anordnen, werden alle von Ihnen vorgenommenen Änderungen gespeichert, sodass die Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer die [!UICONTROL Kanban“-] das nächste Mal aufruft. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht rückgängig gemacht.)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,16 +44,16 @@ Wenn Sie Spalten auf der [!DNL Kanban]-Pinnwand neu anordnen, werden alle von Ih
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Storys auf dem Kanban[!UICONTROL Board neu &#x200B;]
+## Storys auf dem Kanban[!UICONTROL Board neu ]
 
 {{step1-to-team}}
 

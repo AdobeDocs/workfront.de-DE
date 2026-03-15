@@ -2,21 +2,21 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Anzeigen von Workfront Data Connect-Nutzungsmetriken
+title: Anzeigen von Nutzungsmetriken für Workfront Data Connect
 description: Auf der Registerkarte Workfront Data Connect-Metriken können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach den monatlichen Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 # Anzeigen [!DNL Workfront Data Connect] Nutzungsmetriken
 
-Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach verwendeten Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen. Unternehmen verfügen je nach Lizenztyp und Add-on-Käufen für Data Connect über eine begrenzte Anzahl monatlicher Rechenstunden. Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Metriken“ werden Informationen zu den verfügbaren monatlichen Berechnungsstunden im Verhältnis zu den verwendeten Werten angezeigt.
+Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach verwendeten Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen. Unternehmen verfügen je nach Lizenztyp und Add-on-Käufen für Data Connect über eine begrenzte Anzahl monatlicher Rechenstunden. Auf [!UICONTROL  Registerkarte ]Metriken“ werden Informationen zu den verfügbaren monatlichen Berechnungsstunden im Verhältnis zu den verwendeten Werten angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -36,7 +36,7 @@ Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] könne
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -45,7 +45,7 @@ Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] könne
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

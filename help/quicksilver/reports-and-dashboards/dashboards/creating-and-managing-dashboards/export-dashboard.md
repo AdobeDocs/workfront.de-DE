@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Dashboard exportieren
+title: Exportieren eines Dashboards
 description: Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügbaren Druckoptionen in eine PDF-Datei exportieren.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 6%
+ht-degree: 20%
 
 ---
 
-# Dashboard exportieren
+# Exportieren eines Dashboards
 
 <!-- Audited: 1/2025 -->
 
@@ -26,7 +26,7 @@ Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügbaren Druckopt
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügbaren Druckopt
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Arbeit oder höher</p>
+      <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügbaren Druckopt
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Verwenden von Gruppen auf einem Board
 description: Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppieren. Wenn Sie eine Option auswählen, nach der gruppiert werden soll, werden die Karten im SWMLANE-Format angezeigt.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,14 +37,14 @@ Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppi
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

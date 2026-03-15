@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten eines Filters im Textmodus
 description: Sie können einen Filter in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardschnittstelle nicht verfügbar sind, und komplexere Filter zu erstellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie auch im Absch
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie auch im Absch
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
      <p>Standard</p>
-     <p>Plan</p>
+     <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie auch im Absch
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

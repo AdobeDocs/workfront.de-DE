@@ -3,14 +3,14 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Entfernen von Berichten aus einem Dashboard
 description: Sie können Berichte aus einem Dashboard entfernen, nachdem sie hinzugefügt wurden.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Sobald ein Dashboard erstellt wurde und Sie ihm Berichte hinzugefügt haben, kö
 
 Das Entfernen eines Berichts aus einem Dashboard ist dauerhaft. Wenn Sie einen Bericht nach dem Löschen erneut hinzufügen müssen, müssen Sie den Bericht neu erstellen.
 
-+++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -33,7 +33,7 @@ Das Entfernen eines Berichts aus einem Dashboard ist dauerhaft. Wenn Sie einen B
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Abo</p></td> 
    <td> 
 <p>Beliebig </p> 
    </td> 
@@ -60,7 +60,7 @@ Das Entfernen eines Berichts aus einem Dashboard ist dauerhaft. Wenn Sie einen B
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen

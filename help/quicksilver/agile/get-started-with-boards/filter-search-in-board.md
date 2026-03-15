@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filtern und Suchen in einer Pinnwand
 description: Sie können eine Pinnwand so filtern, dass nur bestimmte Karten angezeigt werden.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Wenn Filter angewendet werden, wird eine Anzeige auf der Pinnwand angezeigt ![Fi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,14 +47,14 @@ Wenn Filter angewendet werden, wird eine Anzeige auf der Pinnwand angezeigt ![Fi
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +86,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Pinnwand nach Fälligkeitsdatum filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den &#x200B;] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
+1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den ] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
 
    Nur Karten in den ausgewählten Datumsbereichen werden angezeigt.
 
@@ -136,7 +136,7 @@ Wenn Sie eine Option zum Sortieren nach auswählen, werden alle Spalten sortiert
 
    Der Pfeil auf dem Sortierungssymbol gibt an, ob die Spalten in auf- oder absteigender Reihenfolge sortiert sind.
 
-   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) &#x200B;](assets/sort-applied-boards.png).
+   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) ](assets/sort-applied-boards.png).
 
    ![Sortieren nach Spalten auf einer Pinnwand](assets/sort-by-columns-in-board.png)
 

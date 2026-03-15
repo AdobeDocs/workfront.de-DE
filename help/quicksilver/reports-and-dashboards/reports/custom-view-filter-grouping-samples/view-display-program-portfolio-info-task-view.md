@@ -4,17 +4,17 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen : Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht'
 description: Diese Aufgabenansicht zeigt das Programm und Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Anzeigen : Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht
+# Ansicht: Informationen zu Programmen und Portfolios in einer Aufgabenansicht anzeigen
 
 Diese Aufgabenansicht zeigt das Programm und Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
 
@@ -24,7 +24,7 @@ Die Ansicht enthält auch Links zu Projekten, Programmen und Portfolio aus einer
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Die Ansicht enthält auch Links zu Projekten, Programmen und Portfolio aus einer
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht

@@ -3,19 +3,19 @@ content-type: reference
 product-area: reporting
 keywords: Audit, Protokoll, benutzerdefiniert, Feld
 navigation-topic: calculate-custom-data-reports
-title: 'Beispiel für berechnete benutzerdefinierte Felder: Anzeigen des Bearbeitungsverlaufs eines Felds'
+title: 'Beispiel für ein berechnetes benutzerdefiniertes Feld: den Bearbeitungsverlauf eines Feldes anzeigen'
 description: Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren und Sie ein Protokoll aller an einem Feld vorgenommenen Änderungen sowie ein Datum, an dem die Änderungen vorgenommen werden, erfassen möchten, können Sie diese Informationen in einem berechneten benutzerdefinierten Feld erfassen.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Beispiel für berechnete benutzerdefinierte Felder: Anzeigen des Bearbeitungsverlaufs eines Felds
+# Beispiel für ein berechnetes benutzerdefiniertes Feld: den Bearbeitungsverlauf eines Feldes anzeigen
 
 Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren und Sie ein Protokoll aller an einem Feld vorgenommenen Änderungen sowie ein Datum, an dem die Änderungen vorgenommen werden, erfassen möchten, können Sie diese Informationen in einem berechneten benutzerdefinierten Feld erfassen.
 
@@ -37,7 +37,7 @@ Dies geschieht folgendermaßen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Dies geschieht folgendermaßen:
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
    <td>
       <p>Standard</p>
-      <p>Plan</p></td>
+      <p>Abo</p></td>
   </tr> 
   <tr> 
    <td><p>Konfigurationen der Zugriffsebene</p></td> 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das den Bearbeitungsverlauf eines Felds anzeigt, müssen Sie zunächst Folgendes tun:
+Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, in dem der Bearbeitungsverlauf eines Felds angezeigt wird, müssen Sie zunächst Folgendes tun:
 
 * Erstellen eines benutzerdefinierten Formulars
 * Fügen Sie das Feld, dessen Verlauf Sie erfassen möchten, zum benutzerdefinierten Formular hinzu
@@ -85,12 +85,12 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das de
    1. Geben Sie einen **Titel** für das benutzerdefinierte Feld an. Sie können ihr beispielsweise den Namen „Anweisungen“ geben.
    1. Klicken Sie auf **Übernehmen**.
 
-1. Klicken Sie **Berechnet**, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
-1. Geben Sie einen **Titel** für das berechnete benutzerdefinierte Feld an. Sie können ihr beispielsweise den Namen „Anweisungen - Bearbeitungsverlauf“ geben.
+1. Klicken Sie auf **Berechnet**, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
+1. Geben Sie eine **Bezeichnung** für das berechnete benutzerdefinierte Feld an. Nennen Sie ihn beispielsweise &quot;Instructions Edit History&quot;.
 
    Dies ist das Feld, das alle Änderungen erfasst, die am ersten von Ihnen erstellten Feld vorgenommen wurden („Anweisungen„).
 
-1. Klicken Sie **Speichern und schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 1. Klicken Sie auf den Namen des Formulars, dem Sie jetzt zwei Felder hinzugefügt haben, um es erneut zu öffnen.
 1. Klicken Sie auf das berechnete benutzerdefinierte Feld **Anweisungen Bearbeitungsverlauf**, kopieren Sie Folgendes und fügen Sie es in das Feld **Berechnung** ein:
 
@@ -103,8 +103,8 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das de
 
    Dies ist der Standardwert.
 
-1. Klicken Sie **Speichern und schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 
-   Wenn Sie nun das benutzerdefinierte Formular an ein Objekt anhängen und dann jemand die Informationen im Feld **Anweisungen** ändert, zeigt das Feld **Anweisungen - Bearbeitungsverlauf** den neuesten Wert an, gefolgt vom aktuellen Datum in Klammern und einem vertikalen Balken. Wenn weitere Änderungen vorgenommen werden, werden sie auf die gleiche Weise zu diesen Informationen hinzugefügt.
+   Wenn Sie jetzt das benutzerdefinierte Formular an ein Objekt anhängen und dann jemand die Informationen im Feld **Anweisungen** ändert, zeigt das Feld **Anweisungen > Verlauf bearbeiten** den neuesten Wert, gefolgt vom aktuellen Datum in Klammern, und einen vertikalen Balken an. Wenn weitere Änderungen vorgenommen werden, werden diese Informationen auf die gleiche Weise hinzugefügt.
 
-   Bei der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds, dessen Verlauf Sie verfolgen möchten, und **Anweisungen - Verlauf bearbeiten** durch den genauen Namen Ihres berechneten Felds ersetzen.
+   In der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds ersetzen, dessen Verlauf Sie verfolgen möchten, und **Anweisungen > Verlauf bearbeiten** durch den genauen Namen Ihres berechneten Felds.

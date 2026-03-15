@@ -1,25 +1,25 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Erstellen von „OR“-Anweisungen in Textmodusfiltern
+title: Erstellen von ODER-Anweisungen in Textmodusfiltern
 description: Sie können mehrere -Anweisungen einfügen, wenn Sie einen Filter in Listen und Berichten erstellen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Erstellen von „OR“-Anweisungen in Textmodusfiltern
+# Erstellen von ODER-Anweisungen in Textmodusfiltern
 
 Sie können mehrere -Anweisungen einfügen, wenn Sie einen Filter in Listen und Berichten erstellen.
 
 Informationen zum Erstellen von Filtern finden Sie in den folgenden Artikeln:
 
-* [Filter - Übersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Übersicht über Filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Bearbeiten eines Filters im Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Textmodus-Filteroperatoren

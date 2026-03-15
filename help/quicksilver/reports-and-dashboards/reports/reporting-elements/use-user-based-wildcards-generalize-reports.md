@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Verwenden benutzerbasierter Platzhalter zur Generalisierung von Berichten
+title: Verwenden von benutzerbasierten Platzhalten zum Generalisieren von Berichten
 description: Sie können einen Bericht generalisieren, indem Sie beim Erstellen bestimmter Berichtelemente Platzhalter anstelle spezifischer Informationen verwenden.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
-# Verwenden benutzerbasierter Platzhalter zur Generalisierung von Berichten
+# Verwenden von benutzerbasierten Platzhalten zum Generalisieren von Berichten
 
 <!-- Audited: 11/2024 -->
 
@@ -27,7 +27,7 @@ Sie können beim Erstellen der folgenden Berichterstellungselemente benutzerbasi
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Sie können beim Erstellen der folgenden Berichterstellungselemente benutzerbasi
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
     <p>Standard</p>
-    <p>Plan</p>
+    <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Sie können beim Erstellen der folgenden Berichterstellungselemente benutzerbasi
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

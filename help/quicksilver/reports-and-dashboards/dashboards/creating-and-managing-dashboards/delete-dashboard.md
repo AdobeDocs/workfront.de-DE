@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Dashboard löschen
+title: Löschen eines Dashboards
 description: Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Adobe Workfront entfernen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
-# Dashboard löschen
+# Löschen eines Dashboards
 
 <!-- Audited: 1/2025 -->
 
@@ -21,7 +21,7 @@ Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Adobe Workfront 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Adobe Workfront 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Adobe Workfront 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
