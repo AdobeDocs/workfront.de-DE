@@ -7,9 +7,9 @@ description: Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Sn
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
+source-git-commit: 32f738e56a471407997031e13bb22abe81ac535c
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '904'
 ht-degree: 4%
 
 ---
@@ -138,7 +138,7 @@ Dialogfeld für das Erstellen des Reader-Kontos![](/help/quicksilver/reports-and
 
 Sie müssen den RSA-Schlüssel mit dem Benutzernamen verwenden, den Sie für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie diesen sowie die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
 
-    ![Dialogfeld RSA-Schlüssel](Assets/rsa-test.png)
+![Dialogfeld „RSA-Schlüssel“](assets/rsa-test.png)
 
 ## Widerrufen eines Leserkontos
 
