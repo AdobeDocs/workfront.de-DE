@@ -6,10 +6,11 @@ description: Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentli
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 3%
+source-wordcount: '929'
+ht-degree: 13%
 
 ---
 
@@ -17,9 +18,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Diese API-Versionsänderung beinhaltet eine grundlegende Änderung, die sich auf Ihre vorhandenen API-Aufrufe auswirken kann. Dies liegt daran, dass die API-Version 21 die Ereignisabonnements-Version 2 verwendet.
+>Diese API-Versionsänderung beinhaltet eine grundlegende Änderung, die sich auf Ihre vorhandenen API-Aufrufe auswirken kann. Dies liegt daran, dass die API-Version 21 die Version 2 der Ereignisabonnements verwendet.
 >
-> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements in Version 2 immer als Array gesendet. Version 1 hat ein Array gesendet, wenn mehr als ein Wert ausgewählt ist. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
+> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements, Version 2, immer als Array gesendet. Version 1 sendete ein Array, wenn mehrere Werte ausgewählt wurden. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
 
 Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-Version 21 enthält die folgenden Änderungen gegenüber Version 20.
 
@@ -274,7 +275,7 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
 
 ### Validierung (VALIDIERUNG)
 
-Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass eine verantwortliche Person oder ein anderer Benutzer bzw. eine andere Benutzerin das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -483,7 +484,7 @@ Ein Parameter-Objekt ist ein benutzerdefiniertes Feld.
             <p>Der folgende mögliche Wert wurde hinzugefügt:</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (lexikalischer Rich-Text)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -983,5 +984,3 @@ Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auc
     </tr>
   </tbody>
 </table>
-
-
