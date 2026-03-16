@@ -7,10 +7,11 @@ description: Sie können Adobe Enterprise Storage für Ihr Unternehmen aktiviere
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '320'
+ht-degree: 10%
 
 ---
 
@@ -65,5 +66,10 @@ So aktivieren Sie Adobe Enterprise Storage für Ihr Unternehmen:
    >Wenn diese Option aktiviert ist, können Benutzer den Speicheranbieter auswählen, wenn sie ein neues Projekt erstellen. Der Unternehmensspeicher wird als „Neues Projekt“ gekennzeichnet, da er der standardmäßige Speicheranbieter ist. Legacy-Workfront-Speicher wird als „Legacy-Projekt“ bezeichnet.
    >
    >![Optionen für neue Projekte und veraltete Projekte](assets/new-esm-project.png)
+
+1. Wählen Sie im Dropdown-Menü Gilt für eine der folgenden Optionen:
+
+   - **Gesamte Organisation**: Mit dieser Option wird der standardmäßige Speicheranbieter auf die gesamte Workfront-Umgebung angewendet. Jedes Mal, wenn ein Benutzer ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet.
+   - **Spezifische Gruppen**: Mit dieser Option wird der standardmäßige Speicheranbieter nur auf bestimmte Gruppen in Ihrer Organisation angewendet. Jedes Mal, wenn ein Benutzer in den angegebenen Gruppen ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet
 
 1. Klicken Sie auf **Speichern**.
