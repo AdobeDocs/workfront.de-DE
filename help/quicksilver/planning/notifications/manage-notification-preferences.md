@@ -1,26 +1,28 @@
 ---
-title: Adobe Workfront Planning-Benachrichtigungseinstellungen verwalten
+title: Verwalten der Benachrichtigungseinstellungen in Adobe Workfront-Planung
 description: Möglicherweise können Sie auch Ihre Benachrichtigungseinstellungen für Adobe Workfront Planning verwalten. In diesem Artikel wird beschrieben, wie Sie Ihre Benachrichtigungseinstellungen konfigurieren können.
 author: Alina
 feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
 
-# Adobe Workfront Planning-Benachrichtigungseinstellungen verwalten
+# Verwalten der Benachrichtigungseinstellungen in Adobe Workfront-Planung
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
+
+In diesem Artikel wird beschrieben, wie Sie Adobe Workfront Planning-Benachrichtigungen und nicht Adobe Workfront-Benachrichtigungen im Allgemeinen verwalten können.
 
 Sie erhalten möglicherweise In-App- oder E-Mail-Benachrichtigungen, wenn in Workfront Planning die folgenden Aktionen ausgeführt werden:
 
@@ -30,6 +32,11 @@ Sie erhalten möglicherweise In-App- oder E-Mail-Benachrichtigungen, wenn in Wor
 * Sie senden eine Workfront Planning-Anfrage.
 * Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab.
 * Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.
+
+Sie können die folgenden Arten von Benachrichtigungen von Workfront-Planungsaktivitäten empfangen und verwalten:
+
+* In-App
+* E-Mail
 
 ## Zugriffsanforderungen
 
@@ -143,11 +150,19 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 Weitere Informationen zu Workfront Planning-Benachrichtigungen finden Sie in den folgenden Artikeln:
 
 * Weitere Informationen zu Kommentaren zu Datensätzen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+* Informationen zu Genehmigungsbenachrichtigungen finden Sie in den folgenden Artikeln:
+
+   * [Genehmigen einer Anfrage in Adobe Workfront-Planung](/help/quicksilver/planning/requests/approve-request.md)
+   * [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](/help/quicksilver/planning/requests/submit-requests.md)
 * Informationen zu In-App-Benachrichtigungen von Workfront Planning finden Sie unter [Verwalten von In-App-Benachrichtigungen für Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * Weitere Informationen zu E-Mail-Benachrichtigungen von Workfront Planning finden Sie unter [Verwalten von E-Mail-Benachrichtigungen für Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 ## Verwalten von Benachrichtigungseinstellungen
+
+>[!NOTE]
+>
+>Sie verwalten Ihre Workfront-Planungsbenachrichtigungen im Bereich &quot;Adobe-Voreinstellungen“ und nicht im Bereich &quot;Workfront-Benachrichtigungen“ auf Ihrer Benutzerprofilseite.
 
 1. Melden Sie sich mit Ihren Adobe Experience Cloud-Anmeldeinformationen bei Workfront an.
 1. Klicken Sie auf **Kontomenü**-Symbol ![Kontomenüsymbol in Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) oben rechts im Bildschirm und dann auf **Voreinstellungen**.
@@ -159,6 +174,7 @@ Heben Sie die Markierung der Benachrichtigungen auf, die Sie nicht mehr erhalten
    ![Adobe Experience Cloud-Benachrichtigungsbereich für Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Die folgenden Benachrichtigungen sind für Workfront verfügbar:
 
+   * **Validierungen**: Sie erhalten eine Benachrichtigung, wenn jemand eine Planning-Anforderung zur Validierung einreicht oder den Zugriff auf ein Planning-Objekt von Ihnen anfordern möchte.
    * **Erwähnungen**: Sie erhalten eine Benachrichtigung, wenn Sie oder Ihr Team in Workfront Planning in einem Kommentar getaggt werden
    * **Anfragen**: Sie erhalten eine Benachrichtigung, wenn jemand einen der folgenden Schritte ausgeführt hat:
 
@@ -177,7 +193,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

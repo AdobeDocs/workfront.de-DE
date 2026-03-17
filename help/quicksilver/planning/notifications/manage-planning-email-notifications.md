@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 1%
+source-wordcount: '657'
+ht-degree: 2%
 
 ---
 
 
-# Verwalten von Adobe Workfront Planning-E-Mail-Benachrichtigungen
+# Verwalten von E-Mail-Benachrichtigungen in Adobe Workfront-Planung
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -180,6 +180,13 @@ Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden S
 nachdem Sie eine Anforderung gesendet haben oder nachdem eine von Ihnen gesendete Anforderung genehmigt oder abgelehnt wurde. Der Absender der E-Mail ist Adobe Workfront.
 
 1. (Optional) Klicken Sie auf **Anfrage öffnen**. Dadurch wird die Anfrage in Workfront Planning geöffnet.
+
+1. Klicken Sie oben rechts in der Anfrage auf die Schaltfläche **Überprüfen und genehmigen** und dann auf eine der folgenden Aktionen:
+
+   * **Genehmigen**, um die Anfrage zu genehmigen. Wenn Sie eine Planungsanfrage genehmigen, wird ein Datensatz erstellt.
+   * **Ablehnen**, um die Anfrage abzulehnen. Wenn Sie eine Anfrage in Workfront Planning ablehnen, wird kein Datensatz erstellt. Die Anfrage wird im Bereich Anfragen mit dem Status &quot;**&quot;**.
+
+   ![Schaltfläche „Überprüfen und genehmigen“ auf Planungsanfrage](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. Klicken Sie auf **Benachrichtigungen**-Symbol ![Benachrichtigungsbereichssymbol Unified Shell](assets/notifications-area-icon-unified-shell.png) in der rechten oberen Ecke des Bildschirms, um auf die Seite **Benachrichtigungen** zuzugreifen.
 

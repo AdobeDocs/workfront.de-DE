@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 4%
+source-wordcount: '987'
+ht-degree: 5%
 
 ---
 
@@ -84,7 +84,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++
 
-## Genehmigen einer Anfrage zum Erstellen eines Datensatzes
+## Planungsanfrage zum Erstellen eines Datensatzes genehmigen
 
 Nachdem Benutzer Anforderungen zu einem Datensatztyp-Anfrageformular hinzugefügt haben, das mit einer Genehmigung verknüpft ist, wird die Anforderung an die genehmigenden Personen gesendet.
 
@@ -93,65 +93,66 @@ Genehmigende Personen erhalten die folgenden Benachrichtigungen über eine Anfra
 * In-App-Benachrichtigung
 * Eine E-Mail-Benachrichtigung
 
+Informationen zum Genehmigen von Anfragen aus Benachrichtigungen finden Sie in den folgenden Artikeln:
+
+* [Verwalten von E-Mail-Benachrichtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Verwalten von In-App-Benachrichtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >Damit Benutzerinnen und Benutzer E-Mail- und In-App-Benachrichtigungen empfangen können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.
 
 Sie können Anfragen genehmigen, um Datensätze aus der Anfrage selbst oder aus dem Widget Meine Genehmigungen auf der Startseite zu erstellen.
 
-* [Genehmigen einer Anforderung aus der Anforderung in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
-* [Genehmigen einer Anfrage über das Widget Meine Genehmigungen auf der Startseite](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Planungsanfragen über eine Benachrichtigung oder den Bereich Anfragen genehmigen
 
-### Genehmigen einer Anforderung aus der Anforderung in Workfront Planning
+1. Öffnen Sie die Anfrage, indem Sie einen der folgenden Schritte ausführen:
 
-1. (Bedingt) Wenn Sie das veraltete anfordernde Erlebnis in Workfront verwenden, öffnen Sie die Anfrage, indem Sie einen der folgenden Schritte ausführen:
-
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **&#x200B;**&#x200B;Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
+   * Klicken Sie auf **Hauptmenü** ![Zeilen-](assets/lines-menu.png) in der oberen linken Ecke und klicken Sie dann auf **Anfragen** > **Neues Erlebnis verwenden** und klicken Sie auf die Anfrage mit dem Status **Überprüfung ausstehend**.
 
      >[!TIP]
      >
-     >Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
+     >* Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
+     >* Über das Erlebnis für ältere Anfragen können Sie nicht auf Planungsanfragen zugreifen.
 
-   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) &#x200B;](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
-   * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
+   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) ](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
+   * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen.
 
    Die Anfrageseite wird im schreibgeschützten Modus geöffnet.
 
    ![Schreibgeschützte Anfrageseite im Prüfungsstatus](assets/read-only-reqeust-page-in-review-status.png)
-1. Wenn Sie das neue Anforderungserlebnis in Workfront verwenden, klicken Sie auf **Hauptmenü** ![Hauptmenü](assets/dots-menu.png) in der oberen rechten Ecke des Bildschirms oder auf das Hauptmenü **Hauptmenü** ![Zeilen-Hauptmenü](assets/lines-menu.png) in der oberen linken Ecke, falls verfügbar. Klicken Sie dann auf **Anfragen** und klicken Sie auf die Anforderung, die Sie mit dem Status **Überprüfung ausstehend** genehmigen möchten.
 1. (Optional) Klicken Sie auf **Genehmigungen** Symbol ![Genehmigungen](assets/approvals-icon.png) in der rechten oberen Ecke der Anfrage, um die genehmigenden Personen anzuzeigen.
 1. Klicken Sie **Überprüfen und genehmigen** und wählen Sie dann eine der folgenden Optionen:
 
    * **Genehmigen**: Dadurch wird die Anfrage genehmigt. Ein Datensatz wird sofort für den mit dem Antragsformular verknüpften Datensatztyp erstellt, nachdem alle Genehmiger den Antrag genehmigt haben.
    * **Ablehnen**: Hiermit wird die Anforderung abgelehnt, selbst wenn Sie die einzige genehmigende Person sind, die sie ablehnt. Für den mit dem Anfrageformular verknüpften Datensatztyp wird kein Datensatz erstellt.
 
-   Der Benutzer, der die Anfrage gesendet hat, erhält eine E-Mail und In-App-Benachrichtigungen, wenn seine Anfrage genehmigt oder abgelehnt wird.
+   Der Benutzer, der die Anfrage gesendet hat, erhält eine E-Mail- und In-App-Benachrichtigung, wenn seine Anfrage genehmigt oder abgelehnt wird.
 
    Der Status der Anfrage ändert sich je nach Genehmigungsentscheidung in Folgendes:
 
    * **Abgeschlossen**: Die Anfrage wurde genehmigt.
    * **Abgelehnt**: Die Anfrage wird abgelehnt.
 
-   Die Anfrage verbleibt im Bereich Anfragen von Workfront.
+   Die Anfrage verbleibt im Bereich **Anfragen** von Workfront.
 
 ### Genehmigen einer Anfrage über das Widget Meine Genehmigungen auf der Startseite
 
 {{step1-to-home}}
 
-ODER
+1. Gehen Sie zum Widget **Meine Genehmigungen** in **Startseite**.
 
-Klicken Sie auf [!UICONTROL Startseite]-Symbol ![Startseite](/help/_includes/assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront und suchen Sie das Widget Meine Genehmigungen .
+   ![Widget „Meine Genehmigungen“ auf der Startseite](assets/my-approvals-widget-in-home.png)
+1. Suchen Sie die Planungsanfrage, die Sie genehmigen oder ablehnen möchten.
 
-1. Suchen Sie das Objekt, das Sie genehmigen oder ablehnen möchten.
+1. (Optional) Fügen Sie einen Kommentar hinzu, indem Sie auf den Dropdown-Pfeil neben **Genehmigen** oder **Ablehnen** klicken, die Anmerkung eingeben und auf **Hinzufügen** klicken.
 
-1. (Optional) Fügen Sie einen Kommentar hinzu, indem Sie auf den Dropdown-Pfeil neben Genehmigen oder Ablehnen klicken, die Anmerkung eingeben und auf Hinzufügen klicken.
-
-1. Wählen Sie eine der folgenden Optionen:
+1. Klicken Sie auf eine der folgenden Optionen:
 
    * **Genehmigen**: Dadurch wird die Anfrage genehmigt. Ein Datensatz wird sofort für den mit dem Antragsformular verknüpften Datensatztyp erstellt, nachdem alle Genehmiger den Antrag genehmigt haben.
    * **Ablehnen**: Hiermit wird die Anforderung abgelehnt, selbst wenn Sie die einzige genehmigende Person sind, die sie ablehnt. Für den mit dem Anfrageformular verknüpften Datensatztyp wird kein Datensatz erstellt.
 
-   Der Benutzer, der die Anfrage gesendet hat, erhält eine E-Mail und In-App-Benachrichtigungen, wenn seine Anfrage genehmigt oder abgelehnt wird.
+   Der Benutzer, der die Anfrage gesendet hat, erhält eine E-Mail- und In-App-Benachrichtigung, wenn seine Anfrage genehmigt oder abgelehnt wird.
 
    Der Status der Anfrage ändert sich je nach Genehmigungsentscheidung in Folgendes:
 

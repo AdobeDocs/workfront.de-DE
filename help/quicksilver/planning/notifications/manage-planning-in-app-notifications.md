@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 4%
 
 ---
 
 
-# Verwalten von In-App-Benachrichtigungen in Adobe Workfront Planning
+# Verwalten von In-App-Benachrichtigungen in Adobe Workfront-Planung
 
 {{planning-important-intro}}
 
@@ -155,8 +155,16 @@ OLD:
 
 ## Verwalten von In-App-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
 
-Sie erhalten In-App-Benachrichtigungen, wenn jemand Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder Ihnen Berechtigungen erteilt. <!--<span class="preview">or record</span>-->
+Sie erhalten In-App-Benachrichtigungen, wenn jemand Sie um Berechtigungen für eine Ansicht, einen Arbeitsbereich oder einen Datensatztyp bittet oder Ihnen Berechtigungen erteilt. <!--<span class="preview">or record</span>-->
 
 Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen finden Sie [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
 
 Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Verwalten von In-App-Benachrichtigungen beim Genehmigen oder Ablehnen von Planungsanfragen
+
+Sie erhalten eine In-App-Benachrichtigung, wenn jemand eine Genehmigungsanfrage sendet oder wenn jemand eine von Ihnen gesendete Anforderung genehmigt.
+
+Weitere Informationen zum Senden von Anfragen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+Informationen zum Genehmigen von Anfragen finden Sie unter [Genehmigen einer Anfrage in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

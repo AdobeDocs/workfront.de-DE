@@ -6,14 +6,14 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen an den Proze
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '5672'
-ht-degree: 2%
+source-wordcount: '4971'
+ht-degree: 3%
 
 ---
 
-# Projektvorlagen bearbeiten
+# Bearbeiten von Projektvorlagen
 
 <!-- Audited: 7/2025 -->
 
@@ -55,7 +55,7 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
    <td>
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -269,94 +269,36 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
 1. Aktualisieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Beschreibung</strong></td> 
-         <td>Fügen Sie zusätzliche Informationen über die Vorlage hinzu.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Priorität</strong></td> 
-         <td><p>Dies ist nur eine visuelle Markierung für Sie, mit der Sie Ihre zukünftigen Projekte priorisieren können. Wählen Sie aus den folgenden Optionen aus:</p> 
-         <ul> 
-         <li><p><strong>Keine</strong></p></li> 
-         <li><p><strong>Niedrig</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Hoch</strong></p></li> 
-         <li><p><strong>Dringend</strong></p></li> 
-         </ul><p><p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Prioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p></p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>URL</strong></td> 
-         <td>Geben Sie einen Weblink an, der sich auf Informationen zu dieser Vorlage bezieht.</td> 
-       </tr>
+    <col> 
+    <col> 
+    <tbody> 
       <tr> 
-      <td role="rowheader"><strong>Ist aktiv</strong></td> 
-      <td><p>Aktivieren Sie diese Option, wenn die Vorlage aktiv sein soll. Andere Benutzer können diese Vorlage suchen und sie beim Erstellen von Projekten an Projekte anhängen. Deaktivieren Sie die Option, wenn Sie nicht mehr verwendete Vorlagen deaktivieren möchten. Deaktivierte Vorlagen können nicht an Projekte angehängt werden. Dies ist standardmäßig aktiviert. </p><p><b>TIPP</b></p>
-
-   <p>Sie können eine Vorlage über die Vorlagenüberschrift deaktivieren, wie im Abschnitt „Aktivieren oder Deaktivieren einer Vorlage“ in diesem Artikel beschrieben.</p></td> 
+      <td role="rowheader"><strong>Währung</strong></td> 
+      <td><p>Geben Sie die Währung für das zukünftige Projekt an, wenn sie sich von der Standardwährung Ihres Systems unterscheidet. Dieses Feld ist nicht sichtbar, wenn Sie nur die Standardwährung im System haben.<br>Weitere Informationen zur Währung finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Budget</strong></td> 
+      <td><p>Geben Sie ein Budget für die Projekte an, die aus dieser Vorlage erstellt werden.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Performance-Index-Methode</strong></td> 
+      <td><p>Geben Sie an, ob die Earned Value-Metriken des zukünftigen Projekts anhand von Stunden oder Kosten berechnet werden. Weitere Informationen zur Leistungsindexmethode finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Festlegen der Leistungsindexmethode (PIM)</a>. </p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Geplanter Gewinn</strong></td> 
+      <td><p>Geben Sie den geplanten Nutzen der Projekte an, die aus dieser Vorlage erstellt werden. Der Planned Benefit wird im Business Case des Projekts und des Portfolio Optimizer verwendet. </p><p>Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p><p>Weitere Informationen zur Verwendung von Portfolio Optimizer finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten in Portfolio Optimizer</a>. </p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Fixkosten</strong></td> 
+      <td><p>Geben Sie die Fixkosten für die Projekte an, die aus dieser Vorlage erstellt werden. Dies unterscheidet sich von den Lohnkosten, die aus den Stunden für das Projekt und den Ausgaben, die aus dem Betrag der Ausgaben für das Projekt stammen. Die Fixkosten eines Projekts werden bei der Berechnung des Nettowerts eines Projekts berücksichtigt und sind Teil der budgetierten Kosten.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Festeinnahmen</strong></td> 
+      <td><p>Geben Sie den Festumsatz für die Projekte an, die aus dieser Vorlage erstellt werden.</p></td> 
      </tr>
 
-   <tr> 
-      <td role="rowheader"><strong>Bedingungstyp</strong></td> 
-      <td><p>Wählen Sie zwischen den folgenden Bedingungstypen aus:</p> 
-      <ul> 
-      <li><strong>Manuell</strong> Der Projektinhaber legt die Projektbedingung manuell fest. <strong></strong></li> 
-      <li><strong>Fortschrittsstatus: </strong> Workfront legt die Bedingung des zukünftigen Projekts automatisch auf der Grundlage des Fortschrittsstatus von Aufgaben auf dem kritischen Pfad fest. Weitere Informationen zum Verstehen des Fortschrittsstatus finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Aufgabenstatus</a>.</li> 
-      </ul>
-      </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Zeitplanmodus</strong></td> 
-      <td><p>Geben Sie an, ob das Projekt, das diese Vorlage verwendet, ab dem <strong>Startdatum</strong> oder ab dem <strong>Abschlussdatum</strong> geplant wird. Diese Auswahl bestimmt anhand dieser Vorlage die geplanten Termine der zukünftigen Aufgaben im Projekt. </p><p>Wählen Sie aus den folgenden Optionen aus: </p> 
-      <ul> 
-      <li><p><strong>Zeitplan vom Startdatum</strong>: Das Startdatum der Vorlage ist tatsächlich der Starttag. Wenn Sie eine Vorlage vom Startdatum ausgehend planen, berechnet Adobe Workfront den Abschlusstag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Der Starttag der Vorlage wird zum geplanten Startdatum des zukünftigen Projekts.</p></li> 
-      <li><p><strong>Zeitplan ab Abschlussdatum</strong>: Das Abschlussdatum der Vorlage ist in Wirklichkeit der Abschlussdatum. Wenn Sie für eine Vorlage ein Abschlussdatum festlegen, berechnet Workfront den Starttag der Vorlage anhand der Dauer aller Vorlagenaufgaben. Das Abschlussdatum der Vorlage wird zum geplanten Abschlussdatum des zukünftigen Projekts. </p></li> 
-      </ul><p>Weitere Informationen zu den Anfangs- und Abschlusstagen von Vorlagenaufgaben finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Übersicht über Anfangs- und Abschlusstage in einer Vorlage</a>. </p><p>Die Einstellung Zeitplan ab für Vorlagen ähnelt der von Projekten. Ihr Workfront-Administrator wählt die Standardeinstellung Zeitplan ab für die Projekte in Ihrem System aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p></td> 
-      </tr>
-
-   <tr> 
-      <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td><p>Geben Sie eine Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Programm</strong></td> 
-      <td><p>Wenn Sie eine Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
-      </tr>  
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>Gruppe</strong></td> 
-      <td><p>Wählen Sie in der Dropdown-Liste die Gruppe aus, die Sie mit Projekten verknüpfen möchten, die aus der Vorlage erstellt wurden. Es kann sich um eine Gruppe auf beliebiger Ebene handeln. </p><p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol <img src="assets/info-icon.png"> neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p><b>NOTIZEN</b>
-
-   <ul> 
-      <li><p>Wenn im Bereich Projekte auf der Seite einer Gruppe jemand ein Projekt mit einer Vorlage erstellt, für die keine Gruppe ausgewählt ist, verknüpft das System die aktuell geöffnete Gruppe mit dem Projekt.</p><p>Dies unterscheidet sich von anderen Bereichen, in denen das System die Hauptgruppe einer Benutzerin oder eines Benutzers mit dem Projekt verknüpft, wenn die Benutzerin oder der Benutzer das Projekt mithilfe einer Vorlage erstellt, für die keine Gruppe ausgewählt ist.</p></li> 
-      <li><p>Wenn ein(e) Benutzende(r) beim Erstellen eines Projekts oder beim Konvertieren einer Aufgabe oder eines Problems in ein Projekt eine Vorlage auswählt, aus der eine Gruppe ausgewählt wurde, kann der/die Benutzende eine andere Gruppe für das Projekt auswählen.</p></li> 
-      <li>Obwohl dieses Feld in Vorlagen nur in der neuen Adobe Workfront-Version verfügbar ist, können Sie es sowohl dort in Listen und Berichten als auch in Adobe Workfront Classic sehen. </li> 
-      </ul> </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Firma</strong></td> 
-      <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
-      <td><p>Der Benutzer, der als Vorlagenbesitzer festgelegt ist, muss ein aktiver Workfront-Benutzer sein. </p><p>Beachten Sie Folgendes über den Benutzer, der als Vorlagenbesitzer festgelegt ist: </p> 
-      <ul> 
-      <li>Sie erhalten automatisch Verwaltungsberechtigungen für die Vorlage. </li> 
-      <li>Sie werden dem Projektteam hinzugefügt und erhalten automatisch Verwaltungsberechtigungen für das aus der Vorlage erstellte Projekt. </li> 
-      <li>Sie werden zum Projektbesitzer, wenn das Projekt aus dieser Vorlage erstellt wird. </li> 
-      <li> Wenn der als Vorlagenbesitzer angegebene Benutzer von seiner Zugriffsebene aus nur eingeschränkten Zugriff auf Vorlagen oder Projekte hat, sind seine Verwaltungsberechtigungen für die Vorlage und die Projekte eingeschränkt. Wenn sie beispielsweise nur Ansichtszugriff für Vorlagen oder Projekte in ihrer Zugriffsebene haben, erhalten sie automatisch Ansichtsberechtigungen für die Vorlage und das Projekt, wenn sie als Vorlagenbesitzer angegeben sind.</li>
-      </ul></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Vorlagensponsor</strong></td> 
-      <td><p>Der in diesem Feld angegebene Benutzer wird zum Projektsponsor, wenn die Vorlage zum Projekt hinzugefügt wird. Dieser Benutzer wird dem Projekt-Team hinzugefügt und erhält automatisch Ansichtsberechtigungen für das Projekt. Der Benutzer, der als Vorlagensponsor angegeben ist, muss ein aktiver Workfront-Benutzer sein. </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Ressourcenmanager</strong></td> 
-      <td><p>Die angegebenen Benutzer erhalten automatisch Verwaltungsberechtigungen für die zukünftigen Projekte und können Ressourcen zu den Aufgaben und Problemen der Projekte zuweisen. Sie können mehr als einen Ressourcen-Manager angeben. </p></td> 
-      </tr> 
-      </table>
+   </tbody> 
+   </table>
 
 1. (Optional) Fahren Sie je nach den Informationen, die Sie ändern möchten, mit der Bearbeitung der folgenden Abschnitte fort.
 
@@ -482,7 +424,7 @@ Sie können jeweils nur eine Vorlage bearbeiten oder Vorlagen stapelweise bearbe
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Ressourcenpools</strong> </td> 
-       <td> <p>Geben Sie die mit der Vorlage verknüpften Ressourcenpools an. Ressourcenpools sind Sammlungen von Benutzern, die gleichzeitig für die Durchführung eines Projekts benötigt werden. Weitere Informationen zu Ressourcenpools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Ressourcenpools - Übersicht </a>.</p> <p> <p><b>NOTIZ</b>
+       <td> <p>Geben Sie die mit der Vorlage verknüpften Ressourcenpools an. Ressourcenpools sind Sammlungen von Benutzern, die gleichzeitig für die Durchführung eines Projekts benötigt werden. Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Überblick über Ressourcen-Pools</a>.</p> <p> <p><b>NOTIZ</b>
 
        Wenn Sie Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcenpools angezeigt, die allen ausgewählten Vorlagen gemeinsam sind. Wenn die ausgewählten Vorlagen keine freigegebenen Ressourcenpools haben, ist dieses Feld leer. Die hier angegebenen Ressourcenpools überschreiben die einzelnen Ressourcenpools der Vorlagen.&lt;/p> &lt;/p> &lt;/td>
        &lt;/tr>
@@ -546,7 +488,7 @@ Weitere Informationen darüber, wie sich diese Einstellungen auf das Erstellen n
 
    | Work Effort Level | Prozentwert |
    |---|---|
-   | Klein | 25 % |
+   | Klein | 25 % |
    | Mittel | 50 % |
    | Groß | 75 % |
 
@@ -577,7 +519,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -698,7 +640,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 
@@ -797,8 +739,8 @@ Das Hinzufügen der folgenden Elemente zu einer Vorlage entspricht dem Hinzufüg
 
   Informationen zum Hinzufügen von Themengruppen und Warteschlangenthemen zu einem Projekt oder einer Vorlage finden Sie in den folgenden Artikeln:
 
-   * [Themengruppen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Warteschlangenthemen erstellen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+   * [Erstellen von Themengruppen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Erstellen von Warteschlangenthemen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Sie können den Aufgaben in der Vorlage die folgenden Elemente hinzufügen:
 
