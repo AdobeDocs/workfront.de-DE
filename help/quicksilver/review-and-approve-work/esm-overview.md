@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
-source-git-commit: 7f17ffc179914747d29c4acb08b34341c5a4b7b4
+source-git-commit: c4c4eb8e04b8e43a6681a92c3ee1e3a177ad0983
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -101,8 +101,8 @@ Bestehende Kunden können bei Vertragsverlängerung Adobe Enterprise Storage in 
 
 
 
-## Aspekte
+## Zu beachten
 
-* Es ist möglich, dass Workfront nicht mehr mit Frame.io oder Creative Cloud synchronisiert ist, z. B. wenn ein Asset in Workfront gelöscht wird, aber weiterhin in Frame.io angezeigt wird. Wenden Sie sich an den Workfront-Support, um Ihre Umgebung neu zu synchronisieren.
+* Es ist möglich, dass Workfront nicht mehr mit Frame.io oder Creative Cloud synchronisiert ist, z. B. wenn ein Asset in Workfront gelöscht wird, aber weiterhin in Frame.io angezeigt wird, wenden Sie sich an den Workfront-Support, um Ihre Umgebung neu zu synchronisieren.
 
 

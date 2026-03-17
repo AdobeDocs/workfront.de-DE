@@ -2,25 +2,25 @@
 product-area: setup
 navigation-topic: notifications
 keywords: ändern,E-Mail,Benachrichtigung,Einstellungen
-title: Eigene E-Mail-Benachrichtigungen ändern
+title: Ändern Ihrer eigenen E-Mail-Benachrichtigungen
 description: In diesem Artikel wird beschrieben, wie Sie Ihre E-Mail-Benachrichtigungen in Ihrem Benutzerprofil verwalten können.
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 5%
 
 ---
 
-# Eigene E-Mail-Benachrichtigungen ändern
+# Ändern Ihrer eigenen E-Mail-Benachrichtigungen
 
 <!-- Audited: 1/2024 -->
 
-Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von &#x200B;] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
+Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von ] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
 
-Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert &#x200B;]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
+Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert ]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
 
 Sie können dies weiter anpassen, indem Sie konfigurieren, welche Benachrichtigungen Sie erhalten. Sie können auch auswählen, ob Sie Benachrichtigungen bei Ereignissen oder in einer täglichen Digest-E-Mail erhalten möchten.
 
@@ -30,11 +30,11 @@ Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [[!DNL Adobe
 >
 >* Wenn Sie einen Benachrichtigungstyp aktivieren und dann feststellen, dass Sie keine Benachrichtigungen dieses Typs erhalten, kann dies daran liegen, dass dieser Typ nicht für Ihre Rolle gilt.
 >* Der [!DNL Workfront] oder ein Gruppenadministrator kann keine Benachrichtigungen für [!DNL Workfront Goals] konfigurieren. Weitere Informationen dazu, welche Benachrichtigungen der [!DNL Workfront]-Administrator konfigurieren kann, finden Sie unter [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Weitere Informationen zum Konfigurieren von individuellen Benachrichtigungen für [!DNL Workfront Goals] finden Sie in diesem Artikel.
->
+>* Genehmigungsbenachrichtigungen gelten nur für ältere Dokumentgenehmigungen. Benachrichtigungssteuerelemente für Genehmigungen einheitlicher Dokumente sind derzeit nicht verfügbar.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [[!DNL Adobe
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
