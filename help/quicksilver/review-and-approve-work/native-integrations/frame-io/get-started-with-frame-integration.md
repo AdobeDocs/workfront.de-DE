@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 6%
 
 ---
@@ -67,16 +67,13 @@ Reviewer und genehmigende Personen können einem Genehmigungs-Workflow für den 
 
 * **Einmalgenehmigungen**: In dem Projekt oder der Aufgabe, in dem bzw. der sich das Asset befindet, kann der Projektkoordinator Validierungsverantwortliche und genehmigende Personen zuweisen und eine Abschlussfrist festlegen. Validierungsverantwortliche und genehmigende Personen werden 72 Stunden vor Fristablauf, 24 Stunden vor Fristablauf und anschließend innerhalb der Frist per E-Mail daran erinnert.
 
-  Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
 * **Validierungsvorlagen**: Im Bereich &quot;Workfront Setup“ können Projektkoordinatoren wiederverwendbare Validierungsvorlagen erstellen. Innerhalb einer Vorlage können Benutzer Validierungsverantwortliche und genehmigende Personen hinzufügen und einen Fertigstellungszeitraum festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird die Frist aus dem angegebenen Zeitrahmen berechnet.
 
   Nachdem eine Vorlage erstellt wurde, kann sie auf ein Asset angewendet werden, um den formellen Prüfungs- und Genehmigungsprozess in Workfront zu starten.
 
   Weitere Informationen finden Sie unter [Erstellen einer Workflow-Vorlage für Genehmigungen für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-  ![Vorlage zuweisen](assets/assign-template.png)
 
 ### Überprüfen und Genehmigen von Assets im Frame.io-Viewer
 
@@ -111,7 +108,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 
