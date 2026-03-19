@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: 0cd80741d5c92bf633b4d4becefa1b64d5f5d938
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 38%
+source-wordcount: '1496'
+ht-degree: 35%
 
 ---
 
@@ -316,13 +316,11 @@ Für folgende Elemente gibt es derzeit keine Updates in der Version:
 
 ## Desktop Proofing Viewer-Updates
 
-### Version 2.1.54
+### Version 2.1.55
 
-**Produktionsversion für alle Kundinnen und Kunden: 11. Dezember 2025**
+Produktionsversion für alle Kunden: 19. März 2025
 
-Desktop Proofing Viewer wurde von Version 2.1.52 auf 2.1.54 aktualisiert. Dieses Update umfasste interne Tool-Updates und hatte keine Auswirkungen auf die Endbenutzerfunktionalität.
-
-Die Version 2.1.53 enthielt auch interne Änderungen an Tools.
+Desktop Proofing Viewer wurde von 2.1.54 auf 2.1.55 aktualisiert. Diese Aktualisierung umfasste interne Tooling-Aktualisierungen und hatte keine Auswirkungen auf die Endbenutzerfunktionalität.
 
 Dieses Update ist sowohl für macOS als auch für Windows.
 
