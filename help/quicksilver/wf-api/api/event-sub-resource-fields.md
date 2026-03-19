@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 11%
+source-wordcount: '1051'
+ht-degree: 20%
 
 ---
 
@@ -41,7 +41,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
  <tbody> 
   <tr> 
    <td>Genehmigung<p>(Ereignis-Subs v2)</p></td> 
-   <td>Validierung</td> 
+   <td>Genehmigung</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Teilnehmerin oder Teilnehmer der Genehmigungsphase<p>(Ereignis-Subs v2)</p></td> 
-   <td>approval_stage_Participant</td> 
+   <td>approval_stage_participant</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Zuweisung</td> 
-   <td>ZUWEISEN</td> 
+   <td>ASSGN</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
@@ -382,7 +382,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -396,7 +396,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Firma</td> 
-   <td>COMPY</td> 
+   <td>CMPY</td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -516,7 +516,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Dokument</td> 
-   <td>DOKU</td> 
+   <td>DOCU</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -851,7 +851,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Ausgabe</td> 
-   <td>AUSGABEN</td> 
+   <td>EXPNS</td> 
    <td>accessorIDs </td> 
   </tr> 
   <tr> 
@@ -1046,7 +1046,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Feld<p>(Ereignis-Subs v2)</p></td> 
-   <td>FELD</td> 
+   <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -2186,7 +2186,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Eintrag<p><p>(Ereignis-Subs v2)</p></td> 
-   <td>AUFZEICHNUNG</td> 
+   <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -2446,7 +2446,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Personalplan<p>(Ereignis-Subs v2)</p></td> 
-   <td>PERSONAL</td> 
+   <td>STAFFP</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2647,7 +2647,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Personalplanressource <p>(Ereignis-Subs v2)</p></td> 
-   <td>PERSONAL</td> 
+   <td>STAFFR</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2782,7 +2782,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td>refGroupID</td> 
   </tr> 
   <tr> 
-   <td>Ressourcenattribut-Wert für den Personalplan festgelegt <p>(Ereignis-Subs v2)</p></td> 
+   <td>Ressourcenattributwert für den Personalplan festgelegt <p>(Ereignis-Subs v2)</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2868,7 +2868,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Aufgabe</td> 
-   <td>AUFGABE</td> 
+   <td>TASK</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2885,6 +2885,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
    <td> </td> 
    <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>canStart</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3109,12 +3114,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverableScoreCardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverableScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3353,7 +3358,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnemen
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer</td> 
-   <td>BENUTZER</td> 
+   <td>USER</td> 
    <td>accessLevelID</td> 
   </tr> 
   <tr> 
