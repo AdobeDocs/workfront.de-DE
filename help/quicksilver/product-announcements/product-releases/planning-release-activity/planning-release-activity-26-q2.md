@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,18 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zwei
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Breadcrumb-Neugestaltung
+
+>[!NOTE]
+>
+>Vorschau: 26. März 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Die Art und Weise, wie Breadcrumbs über Datensatztypen und Datensätze hinweg angezeigt werden, wurde neu gestaltet. Wenn Sie nun in der Breadcrumb-Zeile auf Mehr klicken, werden die Namen der Datensätze und Objekte in mehreren Zeilen angezeigt. Vor dieser Verbesserung wurden durch Klicken auf Mehr die Namen von Datensätzen und Objekten in Dropdown-Menüs angezeigt.
+
+Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 <!--
 
