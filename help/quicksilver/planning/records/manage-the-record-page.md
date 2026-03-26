@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 0%
+source-wordcount: '1648'
+ht-degree: 2%
 
 ---
 
 
-# Seiten-Layout des Datensatzes verwalten
+# Verwalten des Layouts der Eintragsseite
 
 <span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -34,9 +34,9 @@ Sie müssen Datensatztypen und Datensätze erstellen, bevor Sie die Datensatzsei
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md)
 
-* [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
+* [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md)
 
 ## Zugriffsanforderungen
 
@@ -157,7 +157,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Änderungen an der Datensatzvorschau werden sofort auf der Seite mit den Datensatzdetails angezeigt. Auf der Datensatzseite vorgenommene Änderungen sind auch im Feld für die Datensatzvorschau sichtbar.
 
-* Das Hinzufügen eines Cover- oder Miniaturbilds zu einem Datensatz gehört nicht zum Gesamtlayout der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder oder Miniaturansichten hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) und [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* Das Hinzufügen eines Cover- oder Miniaturbilds zu einem Datensatz gehört nicht zum Gesamtlayout der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder oder Miniaturansichten hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) und [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 * Sie können der Seite eines Datensatzes zusätzliche Seiten der folgenden Typen hinzufügen:
 
@@ -196,7 +196,7 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
    ![Detailfeld](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![&#x200B; (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet. Die Registerkarte Details wird standardmäßig geöffnet.
 
@@ -235,7 +235,7 @@ Alle Abschnitte sind standardmäßig erweitert.
 
    Alle Änderungen an Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Registerkarte Details in eine Word- oder PDF-Datei zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Registerkarte Details in eine Word- oder PDF-Datei zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Optional) Klicken Sie auf die Registerkarte **Verbindungen** neben der Registerkarte **Details**. Möglicherweise müssen Sie auf **Mehr** klicken, bevor Sie auf die Registerkarte **Verbindungen** klicken.
 
@@ -282,21 +282,25 @@ Folgendes geschieht:
    * Wählen Sie die Einstellung **Alle Felder anzeigen**, um alle Felder aus der Tabellenansicht des Datensatzes anzuzeigen, einschließlich der ausgeblendeten Felder.
    * Deaktivieren Sie die Einstellung **Alle Felder anzeigen**, um nur Felder anzuzeigen, die nicht in der Tabellenansicht des Datensatzes ausgeblendet sind. Dies ist die Standardeinstellung
 
+     <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
 
    >[!TIP]
    >
    ><span class="preview">Die Einstellung **Alle Felder anzeigen** ist nur im Vorschaufeld Details des Datensatzes verfügbar. Sie ist nicht auf der Detailseite des Datensatzes verfügbar.</span>
+1. (Optional) Wenn Sie zu einem verbundenen Datensatz navigieren möchten, klicken Sie auf den Namen dieses Datensatzes im Breadcrumb oben auf der Detailseite. <span class="preview">Wenn der Name eines Datensatzes im Breadcrumb nicht angezeigt wird, klicken Sie auf **Mehr**. Dadurch wird der Breadcrumb in mehreren Zeilen angezeigt. Klicken Sie **Weniger**, um den Breadcrumb zu kürzen und in einer Zeile anzuzeigen.</span>
+
+   >[!TIP]
+   >
+   >Sie müssen über verbundene Datensatztypen, Datensätze und Hierarchien in Ihrem Arbeitsbereich verfügen, damit Breadcrumbs auf der Detailseite des Datensatzes angezeigt werden können.
 
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div>
-
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![&#x200B; (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Seite **Details** wird auf einer neuen Registerkarte geöffnet.
 
@@ -314,7 +318,7 @@ Folgendes geschieht:
 
    Alle Änderungen am Layout der Datensatzvorschau oder -seite werden automatisch gespeichert.
 
-## Hinzufügen einer Seite „Verbundene Datensätze“ zu einem Datensatz
+## Hinzufügen einer Seite „Verbundene Einträge“ zu einem Eintrag
 
 Sie können Informationen aus verbundenen Datensätzen oder Objekten anzeigen, indem Sie eine Registerkarte für eine Seite „Verbundene Datensätze“ zum Detailbereich eines Datensatzes hinzufügen. Dadurch werden die verbundenen Datensätze in einer Tabellen- oder Listenansicht zur Registerkarte hinzugefügt.
 

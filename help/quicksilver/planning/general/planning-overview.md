@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: 6cc42c6f9e6a5088e94d26034f03a3fafce2d0c3
 workflow-type: tm+mt
-source-wordcount: '2360'
-ht-degree: 75%
+source-wordcount: '2357'
+ht-degree: 76%
 
 ---
 
 # Erste Schritte mit Adobe Workfront-Planung
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
+<!--
+this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
@@ -106,7 +108,8 @@ The following features are currently available in Workfront Planning:
 
 -->
 
-<!--OLD: 
+<!--
+OLD: 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -187,7 +190,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte von Workfront-Planu
 * [Verbundene Datensatztypen, Datensätze und Felder](#connected-record-types-records-and-fields)
 * [Felder nachschlagen](#lookup-fields)
 * [Hierarchien](#hierarchies)
-* [Ansichten &#x200B;](#views)
+* [Ansichten ](#views)
 * [Automatisierungen](#automations)
 * [Antragsformulare](#request-forms)
 
@@ -287,7 +290,8 @@ Sie können benutzerdefinierte Felder der folgenden Typen erstellen:
 * Genehmigt von
 * Genehmigungsdatum
 * <span class="preview">Datensatz-ID</span>
-  <!--update the screen shot above-->
+
+<!--update the screen shot above-->
 
 ### Verbundene Datensatztypen, Datensätze und Felder
 
@@ -336,11 +340,13 @@ Informationen zum Verbinden von Eintragstypen, Einträgen und zum Erstellen verk
 * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Verbinden von Einträgen](/help/quicksilver/planning/records/connect-records.md)
 
-<!--not yet:* Fields are reusable across Record Types.  -->
+<!--
+not yet:* Fields are reusable across Record Types.
+-->
 
 ### Hierarchien
 
-Nachdem Datensatztypen in einem Arbeitsbereich verbunden wurden, können Sie Hierarchien erstellen, die diese Verbindungen organisieren. Hierarchien organisieren Datensatz- und Objekttypen in hierarchischen Beziehungen und können bis zu vier Ebenen von Objekttypen enthalten.
+Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie Hierarchien erstellen, die diese Verbindungen organisieren. Hierarchien organisieren Datensatz- und Objekttypen in hierarchisch untergeordneten Beziehungen und können bis zu vier Objekttypen enthalten.
 
 ![Hierarchien im Bereich Workspace-Einstellungen](assets/hierarchies-in-workspace-settings-area.png)
 
@@ -371,7 +377,9 @@ Im Folgenden finden Sie Ansichtstypen, die Sie auf die Eintragstypseite anwenden
 * **Kalenderansicht**: Zeigt Einträge mit mindestens zwei Datumsfeldern in einem Kalenderformat an.
   ![Beispiel für eine Kalenderansicht](assets/calendar-view-example.png)
 
-<!-- add List view here when it's possible to display Planning RTs in it??-->
+<!--
+add List view here when it's possible to display Planning RTs in it??
+-->
 
 Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -448,7 +456,8 @@ So suchen Sie nach Workfront-Planung:
   <!--
     >[!NOTE]
     >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
 
 * [Adobe Workfront-Planung-Module für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planung-Modulen können Sie Trigger erstellen, wenn in Workfront-Planung Ereignisse auftreten. Sie können auch Einträge erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront-Planung-Konto durchführen.
 

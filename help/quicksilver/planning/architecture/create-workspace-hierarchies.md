@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
 
-# Workspace-Hierarchien erstellen
+# Erstellen von Arbeitsbereichshierarchien
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -22,7 +22,9 @@ ht-degree: 1%
 
 Als Workspace-Manager können Sie in Adobe Workfront Planning mehrere Workspace-Hierarchien zwischen Datensatztypen erstellen.
 
-Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie eine Hierarchie erstellen, die diese Verbindungen organisiert. Hierarchien organisieren Datensatz- und Objekttypen in hierarchischen Beziehungen und können bis zu vier Ebenen von Objekttypen enthalten.
+Nachdem Datensatztypen in einem Arbeitsbereich verbunden sind, können Sie eine Hierarchie erstellen, die diese Verbindungen organisiert.
+
+In Hierarchien werden Datensatz- und Objekttypen in hierarchisch untergeordneten Beziehungen organisiert. Sie können jeweils bis zu 4 Objekttypen enthalten. Sie können bis zu 5 Hierarchien in einem Arbeitsbereich erstellen.
 
 Wenn noch keine Verbindung zwischen zwei Datensatztypen besteht, kann sie beim Einrichten der Hierarchie erstellt werden. Nach der Definition richtet die Hierarchie einen strukturierten Pfad über verwandte Datensatztypen hinweg im Arbeitsbereich ein.
 
@@ -70,8 +72,6 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++
 
 ## Workspace-Hierarchie erstellen
-
-Sie können bis zu 5 Hierarchien in einem Arbeitsbereich erstellen.
 
 {#step1-to-planning}
 
@@ -125,7 +125,7 @@ Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen
 
 1. (Bedingt) Wenn das Feld **Entsprechendes Feld für verknüpften Datensatztyp erstellen** beim Erstellen des verbundenen Felds nicht ausgewählt wurde, wird ein Fehler angezeigt und Sie müssen zunächst Folgendes tun: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
-   1. Klicken Sie **&#x200B;**&#x200B;Feld **Neue Hierarchie** auf „Abbrechen“.
+   1. Klicken Sie **** Feld **Neue Hierarchie** auf „Abbrechen“.
    1. Klicken Sie links neben dem Arbeitsbereichsnamen auf den Rückwärtspfeil und dann auf die Karte des Datensatztyps, den Sie als übergeordneten Datensatz auswählen möchten.
    1. Öffnen Sie die Tabellenansicht des Datensatztyps, den Sie im obigen Schritt ausgewählt haben, wechseln Sie dann zum Verbindungsfeld mit dem Objekttyp, den Sie als untergeordnetes Element verwenden möchten, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf **Bearbeiten** Feld.
    1. Aktivieren Sie die Einstellung **entsprechendes Feld für verknüpften Datensatztyp erstellen** und klicken Sie dann auf **Speichern**.
@@ -158,6 +158,10 @@ Alle zusätzlichen Objekttypen werden zu untergeordneten Objekten der vorherigen
 
    * **Bearbeiten**: Dadurch wird das Feld &quot;**bearbeiten** geöffnet, in dem Sie Änderungen vornehmen können.
    * **Löschen**: Dadurch wird die Hierarchie dauerhaft gelöscht. Gelöschte Hierarchien können nicht wiederhergestellt werden. Verbindungsfelder werden nicht gelöscht.
+
+1. (Optional) Klicken Sie auf den Namen des letzten Datensatztyps in Ihrer Hierarchie und dann auf den Namen eines Datensatzes aus der Ansicht dieses Datensatztyps. Dadurch wird die Detailseite des Datensatzes geöffnet. Suchen Sie die von Ihnen erstellte Hierarchie im Breadcrumb eines Datensatzes oben auf der Datensatzseite.
+
+   Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 
