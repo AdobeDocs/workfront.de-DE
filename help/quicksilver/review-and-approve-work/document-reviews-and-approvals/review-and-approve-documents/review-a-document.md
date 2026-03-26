@@ -6,9 +6,9 @@ description: Als Reviewer können Sie eine Vorschau eines Dokuments anzeigen, da
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '562'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -111,4 +111,4 @@ So überprüfen Sie ein Dokument:
 
 ## Überprüfen eines Dokuments im Frame.io-Viewer
 
-Um ein Dokument aus dem Frame.io-Viewer zu überprüfen, muss Ihre Workfront-Instanz in Frame.io integriert sein. Weitere Informationen finden Sie unter [Frame.io-Integration - Übersicht](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Um ein Dokument aus dem Frame.io-Viewer zu überprüfen, muss Ihre Workfront-Instanz in Frame.io integriert sein. Weitere Informationen finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).

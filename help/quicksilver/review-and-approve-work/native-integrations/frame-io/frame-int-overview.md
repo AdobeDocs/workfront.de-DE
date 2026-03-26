@@ -1,22 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Überblick über die Frame.io-Integration
-description: Überblick über die Frame.io-Integration
+title: Einheitliche Prüfung und Genehmigung - Übersicht
+description: Erfahren Sie mehr über einheitliche Überprüfungen und Genehmigungen, die von Workfront und Frame.io unterstützt werden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
-# Überblick über die Frame.io-Integration
+# Einheitliche Prüfung und Genehmigung - Übersicht
 
-Die Integration von Workfront und Frame.io ermöglicht es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können.
+Einheitliche Prüfungen und Genehmigungen, die von Workfront und Frame.io unterstützt werden, ermöglichen es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können.
 
 ## Integrationsanforderungen
 
@@ -31,7 +33,7 @@ Die Integration von Workfront und Frame.io ermöglicht es Projektkoordinatoren, 
 
 ## Auf Adobe Enterprise Storage aufbauend
 
-Kernstück dieser Integration ist Adobe Enterprise Storage, eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient, einschließlich Workfront und Frame.io. <!--, and Creative Cloud.-->
+Unified Review and Approvals basiert auf Adobe Enterprise Storage, einer Cloud-basierten Speicherlösung, die als zentrales Repository für Assets in allen Adobe Enterprise-Produkten, einschließlich Workfront und Frame.io, dient. <!--, and Creative Cloud.-->
 
 Zu den wichtigsten Vorteilen von Adobe Enterprise Storage gehören:
 
@@ -44,7 +46,7 @@ Weitere Informationen finden Sie unter [Übersicht über Adobe Enterprise Storag
 
 ## Einheitliche Überprüfung und Genehmigung
 
-Die Integration von Workfront und Frame.io verwendet die einheitlichen Genehmigungsfunktionen von Workfront, um Überprüfungen und Genehmigungen zu verwalten. Mit einheitlichen Genehmigungen können Sie:
+Mit einheitlichen Überprüfungen und Genehmigungen können Sie:
 
 * Erstellen und Verwalten von Überprüfungen und Genehmigungen direkt aus Workfront
 * Verfolgen Sie den Status von Überprüfungen und Genehmigungen in Echtzeit
@@ -58,14 +60,14 @@ Weitere Informationen finden Sie unter [Einheitliche Dokumentengenehmigungen: Ar
 
 ### Frame.io-Viewer verwenden
 
-Die Integration stellt auch eine Verbindung mit dem Frame.io-Viewer her. Der Frame.io-Viewer bietet
+Verwenden Sie den Frame.io-Viewer, um Assets zu überprüfen und zu genehmigen. Der Frame.io-Viewer bietet
 
 * Markup- und Kommentierungswerkzeuge
 * Versionsverlauf und -vergleich
 * Kommentare mit Zeitstempel für Videobewertungen
 * Mobile-Zugriff für Überprüfungen und Genehmigungen von unterwegs
 
-Weitere Informationen finden Sie unter [Erste Schritte mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Grenzwerte für Videoprüfungen
 
@@ -89,13 +91,13 @@ Die Workfront-Proofing-Funktion ist in dieser Integration nicht verfügbar.
 
 ## Leistungsstarkes Projektmanagement in Workfront
 
-Mit der Integration von Workfront und Frame.io können Projektkoordinatoren die leistungsstarken Projektmanagement-Funktionen von Workfront nutzen, um ihre Arbeit zu planen, zu verfolgen und zu verwalten.
+Projektkoordinatoren können die leistungsstarken Projektmanagement-Funktionen von Workfront nutzen, um ihre Arbeit zu planen, zu verfolgen und zu verwalten.
 
 Weitere Informationen zum Verwalten von Projekten in Workfront finden Sie [Projekte: Artikelindex](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Erzwungene Struktur- und Namenskonventionen
 
-Da diese Integration mit Adobe Enterprise Storage erstellt wird, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
+Da einheitliche Überprüfungen und Genehmigungen mit dem Adobe Enterprise-Speicher erstellt werden, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
 
 * Objektnamen müssen eindeutig sein und können nicht dupliziert werden
 * Der Adobe Enterprise-Speicher erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur
@@ -138,11 +140,7 @@ In Workfront hochgeladene Dokumente werden im Adobe Enterprise-Speicher gespeich
 
 ### Einschränkungen beim Dokumenterlebnis
 
-Da diese Integration mit dem Adobe Enterprise-Speicher erstellt wird, gibt es einige Einschränkungen beim Original-Dokumenterlebnis in Workfront:
-
-#### Einschränkungen
-
-Die folgenden Funktionen sind nicht in dieser Integration enthalten:
+Die folgenden Dokumentfunktionen sind nicht enthalten:
 
 <!--* External document providers-->
 * Zugriff auf Proofing in Workfront

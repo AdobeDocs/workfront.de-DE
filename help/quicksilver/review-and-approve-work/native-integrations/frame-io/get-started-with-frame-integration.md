@@ -1,26 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Erste Schritte mit der Frame.io-Integration
-description: Erste Schritte mit der Frame.io-Integration.
+title: Erste Schritte mit der einheitlichen Überprüfung und Genehmigung
+description: Erfahren Sie mehr über die einheitliche Überprüfung und Genehmigung von Workfront und Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 4%
 
 ---
 
-# Erste Schritte mit der Frame.io-Integration
+# Erste Schritte mit der einheitlichen Überprüfung und Genehmigung
 
-Durch die Integration von Workfront und Frame.io bleiben Kreative, Marketing-Experten und Stakeholder mit einem nahtlosen Workflow verbunden. Zugreifen auf Echtzeit-Updates, Vermeiden doppelter Arbeit und stellen Sie sicher, dass Assets vor dem Start genehmigt werden.
+Die einheitliche Prüfung und Genehmigung durch Workfront und Frame.io sorgt für die Abstimmung von Kreativen, Marketern und Stakeholdern mit einem nahtlosen Workflow. Zugreifen auf Echtzeit-Updates, Vermeiden doppelter Arbeit und stellen Sie sicher, dass Assets vor dem Start genehmigt werden.
 
 Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-Die Integration von Workfront und Frame.io muss in Ihrer Workfront-Instanz eingerichtet sein. Weitere Informationen finden Sie unter [Übersicht über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+Die Integration von Workfront und Frame.io muss in Ihrer Workfront-Instanz eingerichtet sein. Weitere Informationen finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Integrationsanforderungen
 
@@ -52,7 +52,6 @@ Nachdem der Genehmigungs-Workflow erstellt wurde, können Validierungsverantwort
 Weitere Informationen zum Einrichten von Projekten finden Sie unter
 
 * [Projekt erstellen](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Überblick über die Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Starten von formellen Überprüfungen und Genehmigungen in Workfront
 
@@ -108,7 +107,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 
@@ -123,6 +122,6 @@ Projektkoordinatoren können den Fortschritt bei allen während des Fluges durch
 
 ## Senden fertiger Assets an Adobe Experience Manager
 
-Sie können die [!DNL Experience Manager Assets]&#x200B;&#x200B; verwenden, um Ihre digitalen Assets zu verwalten und zu speichern, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Zusammenarbeitsprozesse zu optimieren.
+Sie können die [!DNL Experience Manager Assets]&#x200B; verwenden, um Ihre digitalen Assets zu verwalten und zu speichern, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Zusammenarbeitsprozesse zu optimieren.
 
 Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).

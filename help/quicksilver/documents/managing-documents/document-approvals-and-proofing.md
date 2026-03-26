@@ -6,9 +6,9 @@ description: Sie können Benutzer bitten, ein Dokument zu genehmigen, das Sie in
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 6%
 
 ---
@@ -24,4 +24,4 @@ Sie können Benutzer auch auffordern, ein Dokument mithilfe der Proofing-Anzeige
 >Proofing ist nicht verfügbar, wenn sich Ihre Organisation im Unternehmensspeicher befindet. Stattdessen können Sie die Workfront-Prüfung und -Genehmigung mit der Frame.io-Integration verwenden. Weitere Informationen zu Unternehmensspeicher oder der Frame.io-Integration finden Sie unter
 >
 >* [Übersicht über Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Übersicht über die Integration mit Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
