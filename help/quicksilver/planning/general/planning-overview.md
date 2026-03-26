@@ -190,7 +190,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte von Workfront-Planu
 * [Verbundene Datensatztypen, Datensätze und Felder](#connected-record-types-records-and-fields)
 * [Felder nachschlagen](#lookup-fields)
 * [Hierarchien](#hierarchies)
-* [Ansichten ](#views)
+* [Ansichten &#x200B;](#views)
 * [Automatisierungen](#automations)
 * [Antragsformulare](#request-forms)
 
