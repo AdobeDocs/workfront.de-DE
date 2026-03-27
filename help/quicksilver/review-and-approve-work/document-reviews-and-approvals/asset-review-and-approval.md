@@ -6,9 +6,9 @@ description: Übersicht über die in Workfront zur Überprüfung und Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Weitere Informationen zum Reporting finden Sie unter [Erstellen eines Berichts-D
 
 * Greifen Sie auf Prüfungs- und Genehmigungsanfragen im Widget Meine Genehmigungen im Bereich Startseite zu
 
-* Verwenden Sie die Integration von Frame.io, um Dokumente zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [Erste Schritte mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+* Verwenden Sie den Frame.io-Viewer, um Dokumente zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 * Verwenden Sie den KI-Reviewer, um Prüfungen der Markenkonformität zu automatisieren. Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
