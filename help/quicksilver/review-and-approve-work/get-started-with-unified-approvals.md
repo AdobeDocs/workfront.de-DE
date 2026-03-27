@@ -5,21 +5,26 @@ title: Erste Schritte mit der einheitlichen Überprüfung und Genehmigung
 description: Erfahren Sie mehr über die einheitliche Überprüfung und Genehmigung von Workfront und Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
+source-git-commit: 9dc15e8f50b91dde3536902bb57229cfbe164317
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '994'
 ht-degree: 4%
 
 ---
 
-
 # Erste Schritte mit der einheitlichen Überprüfung und Genehmigung
 
-Die einheitliche Prüfung und Genehmigung durch Workfront und Frame.io sorgt für die Abstimmung von Kreativen, Marketern und Stakeholdern mit einem nahtlosen Workflow. Zugreifen auf Echtzeit-Updates, Vermeiden doppelter Arbeit und stellen Sie sicher, dass Assets vor dem Start genehmigt werden.
+
+Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einheitlichen, eng miteinander verbundenen Erlebnis zusammen und schließt die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten. Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
 
 Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
 Die Integration von Workfront und Frame.io muss in Ihrer Workfront-Instanz eingerichtet sein. Weitere Informationen finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
 ## Integrationsanforderungen
 
@@ -106,7 +111,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 
@@ -124,3 +129,4 @@ Projektkoordinatoren können den Fortschritt bei allen während des Fluges durch
 Sie können die [!DNL Experience Manager Assets]&#x200B; verwenden, um Ihre digitalen Assets zu verwalten und zu speichern, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Zusammenarbeitsprozesse zu optimieren.
 
 Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
