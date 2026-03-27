@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Einheitliche Prüfung und Genehmigung - Übersicht
-description: Erfahren Sie mehr über einheitliche Überprüfungen und Genehmigungen, die von Workfront und Frame.io unterstützt werden.
+description: Erfahren Sie mehr über die einheitliche Überprüfung und Genehmigung von Workfront und Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Einheitliche Prüfung und Genehmigung - Übersicht
 
-Einheitliche Prüfungen und Genehmigungen, die von Workfront und Frame.io unterstützt werden, ermöglichen es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können.
+Einheitliche Prüfung und Genehmigung durch Workfront und Frame.io ermöglicht es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können.
 
 ## Integrationsanforderungen
 
@@ -32,12 +32,12 @@ Einheitliche Prüfungen und Genehmigungen, die von Workfront und Frame.io unters
 
 ## Auf Adobe Enterprise Storage aufbauend
 
-Unified Review and Approvals basiert auf Adobe Enterprise Storage, einer Cloud-basierten Speicherlösung, die als zentrales Repository für Assets in allen Adobe Enterprise-Produkten, einschließlich Workfront und Frame.io, dient. <!--, and Creative Cloud.-->
+Einheitliche Prüfung und Genehmigung basiert auf Adobe Enterprise Storage, einer Cloud-basierten Speicherlösung, die als zentrales Repository für Assets in allen Adobe Enterprise-Produkten dient, einschließlich Workfront und Frame.io. <!--, and Creative Cloud.-->
 
 Zu den wichtigsten Vorteilen von Adobe Enterprise Storage gehören:
 
 * Unified Storage Layer für das Kreativ- und Arbeits-Management von Assets
-* Zentralisierte Berechtigungen über das Adobe Identity Management System (IMS) für eine sichere Zugriffskontrolle
+* Zentralisierte Berechtigungen mit dem Adobe Identity Management System (IMS) für eine sichere Zugriffskontrolle
 * End-to-End-Asset-Sichtbarkeit in Workfront- und Frame.io-<!--, and Creative Cloud apps -->
 * Skalierbares Speicher- und Kontingent-Management für Unternehmensanforderungen
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Übersicht über Adobe Enterprise Storag
 
 ## Einheitliche Überprüfung und Genehmigung
 
-Mit einheitlichen Überprüfungen und Genehmigungen können Sie:
+Mit der einheitlichen Überprüfung und Genehmigung haben Sie folgende Möglichkeiten:
 
 * Erstellen und Verwalten von Überprüfungen und Genehmigungen direkt aus Workfront
 * Verfolgen Sie den Status von Überprüfungen und Genehmigungen in Echtzeit
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Üb
 
 Für Anfragen zum Nachweis von Videos gilt eine jährliche Obergrenze von 10 % der gesamten gebührenpflichtigen Workfront-Benutzerlizenzen eines Unternehmens - Standard und Light. Diese Begrenzung wird auf Organisationsebene angewendet.
 
-Workfront-Administratoren erhalten Benachrichtigungen, wenn die Nutzung 80 % und 100 % der Obergrenze erreicht.
+Workfront-Administratoren erhalten Benachrichtigungen, wenn die Nutzung 80 % oder 100 % der Obergrenze erreicht.
 
 Diese Beschränkung gilt nicht für Frame.io Enterprise-Kunden.
 
