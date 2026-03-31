@@ -99,7 +99,7 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **** Wert an.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **&#x200B;**&#x200B;Wert an.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 Sie können gesendete Anfragen im Bereich Anfragen anzeigen, der Links zu Datensätzen enthält, die von Adobe Workfront Planning-Anfragen im <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment--> der Produktionsumgebung erstellt wurden.

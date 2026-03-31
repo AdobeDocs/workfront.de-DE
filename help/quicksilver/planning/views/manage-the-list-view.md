@@ -185,7 +185,7 @@ Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte ang
          >
          ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar.</span>
 
-      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld ](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise nach Projekten filtern, deren Projektbesitzer mit dem Projektsponsor übereinstimmt. </span>
+      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld &#x200B;](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise nach Projekten filtern, deren Projektbesitzer mit dem Projektsponsor übereinstimmt. </span>
 
          >[!TIP]
          >
