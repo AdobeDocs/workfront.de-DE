@@ -6,10 +6,10 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 8%
+source-wordcount: '659'
+ht-degree: 11%
 
 ---
 
@@ -78,31 +78,53 @@ Sie können eine Anfrage im Widget Meine Anfragen kopieren, bearbeiten und als n
 
 Anweisungen finden Sie unter [Kopieren und Senden von Anfragen](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Anfragen filtern
+## Informationen in der Anfragenliste im Widget „Meine Anfragen“ verwalten
 
-Das Widget Meine Anfragen verfügt über einen anpassbaren Filter, mit dem Sie steuern können, welche Anfragen im Widget angezeigt werden. Sie können diesen Filter für verschiedene Felder und Werte konfigurieren und Bedingungen mithilfe der Operatoren AND und OR stapeln.
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-So konfigurieren Sie den Filter im Widget Meine Anfragen :
+To configure the filter in the My Requests widget:
+-->
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
+1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **[!UICONTROL Home]**.
 1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie auf **Anpassen**, suchen Sie nach **Meine Anfragen** und klicken Sie dann darauf, um sie zu &quot;**&quot;**.
-1. Klicken Sie im **Meine Anfragen**-Widget auf **Filter**.
-1. Wählen Sie das Feld aus, nach dem Sie filtern möchten. Verfügbare Optionen sind:
+1. (Optional) Um zu verwalten, wie die Informationen in der Anfragenliste angezeigt werden, aktualisieren Sie die folgenden Ansichtselemente für die Liste:
 
-   * Arbeitsbereich
-   * Objekttyp
-   * Eingabedatum
-   * Anfrageformular
+   * Ansicht
+   * Filter
+   * Spalten
+
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
+
+   Weitere Informationen zum Verwalten von Informationen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
+
+   * Workspace
+   * Object type
+   * Entry date
+   * Request form
    * Status
-   * Eingegeben von
-   * Benutzerdefinierte Felder aus der Anfrage oder dem erstellten Objekt
+   * Entered by
+   * Custom fields from the request or from the created object   
 
-1. Wählen Sie im nächsten Feld den Operator aus, den Sie für diese Filterbedingung verwenden möchten. Die verfügbaren Operatoren hängen vom gewählten Feld ab.
-1. (Bedingt) Wenn rechts neben dem Operator ein Feld angezeigt wird, wählen Sie den Wert aus, nach dem Sie filtern möchten.
-1. (Optional) Um eine weitere Filterbedingung hinzuzufügen, klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die Schritte 4 bis 6.
-1. (Optional und bedingt) Wenn mehrere Bedingungen vorliegen, schalten Sie den Und- oder Oder-Wert um, indem Sie **Und** oder **Oder** links von der Bedingung klicken.
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
 
-Der Filter wird automatisch gespeichert.
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
@@ -111,45 +133,53 @@ Der Filter wird automatisch gespeichert.
 >* Um nur nach Workfront-Anfragen zu filtern, setzen Sie den Filter auf **Objekttyp** > **Hat beliebige von** > **Probleme**.
 >* Um nur nach Workfront Planning-Anfragen zu filtern, setzen Sie den Filter auf **Objekttyp** > **Hat keine von** > **Probleme**.
 
-## Spalten anpassen oder hinzufügen
+<!--
 
-Sie können auswählen, welche der verfügbaren Spalten im Widget Meine Anfragen angezeigt werden, und ihre Reihenfolge festlegen.
+## Adjust or add columns
 
-Zu den verfügbaren Spalten gehören:
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* Betreff
-* Objekt erstellt
-* Objekttyp
+Available columns include:
+
+* Subject
+* Created object
+* Object type
 * Status
-* Anfrageformular
-* Eingabedatum
-* Eingegeben von
+* Request form
+* Entry date
+* Entered by
 
-So passen Sie die Spalten im Widget Meine Anfragen an:
+To adjust the columns on the My Requests widget:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
-1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie auf **Anpassen**, suchen Sie nach **Meine Anfragen** und klicken Sie dann darauf, um sie zu &quot;**&quot;**.
-1. Klicken Sie im **Meine Anfragen** auf **Spalten**.
-1. (Optional) Um die Spalten neu anzuordnen, klicken Sie auf den Ziehgriff ![Ziehgriff](assets/drag-handle.png) der Spalte, die Sie verschieben möchten, und ziehen Sie sie an die gewünschten Positionen. Die Spalte oben in der Liste wird im Widget Meine Anfragen als erste Spalte angezeigt.
-1. (Optional) Verwenden Sie den Umschalter, um die Spalte in der Anfragenliste ein- oder auszublenden.
-1. Um ein benutzerdefiniertes Feld als Spalte hinzuzufügen, klicken Sie auf das Symbol **Spalte hinzufügen** ![Spalte hinzufügen](assets/add-column.png) in der oberen rechten Ecke der Liste und klicken Sie auf das Pluszeichen neben dem benutzerdefinierten Feld, das Sie dem Widget als Spalte hinzufügen möchten.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-   Benutzerdefinierte Felder in Formularen, die an das Objekt in der Liste angehängt sind, können als Spalten hinzugefügt werden.
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-Spalteneinstellungen werden automatisch gespeichert.
+Column preferences are saved automatically.
 
-## Erstellen einer Ansicht
+-->
 
-Sie können im Widget Meine Anfragen Ansichten erstellen, um die Art und Weise zu ändern, wie die Informationen in der Anfrageliste angezeigt werden.
+<!--
 
-Beachten Sie beim Arbeiten mit Ansichten im Widget Meine Anfragen Folgendes:
+## Create a view
 
-* Eine Ansicht im Widget Meine Anfragen enthält die Spalten und Filter, die auf die Ansicht angewendet werden.
-* Sie können Ansichten erstellen und sie für andere freigeben. Die Filter und Spalten, die Sie vor der Freigabe für die Ansicht auswählen, sind in den freigegebenen Ansichten enthalten.
-* Im Folgenden finden Sie eine Systemansicht, die Sie nicht bearbeiten, freigeben oder löschen können:
+You can create views in the My Requests widget to change the way the information displays in the request list. 
 
-   * Standard-Ansicht für einheitliche Widget-Anfragen
-* Das Erstellen und Bearbeiten einer Ansicht im Widget Meine Anfragen ähnelt erweiterten Listen. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## Suchanfragen
 

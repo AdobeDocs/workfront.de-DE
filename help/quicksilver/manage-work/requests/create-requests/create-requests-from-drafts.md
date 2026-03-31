@@ -6,7 +6,7 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 6%
@@ -27,7 +27,8 @@ Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei d
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Beliebiges Adobe Workfront- oder Workflow-Paket</p>
+   <p>Beliebiges Adobe Workfront-Planungspaket zum Erstellen von Anfragen für Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -38,12 +39,9 @@ Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfront Ihnen bei d
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Anfragen bearbeiten</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.

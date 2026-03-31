@@ -8,14 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1347'
 ht-degree: 6%
 
 ---
 
 # Eingereichte Anfragen anzeigen
+
+<!--
+Remove production and preview references at release
+-->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
 
@@ -85,13 +97,28 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 ### Anzeigen gesendeter Anfragen in der neuen anfordernden Version
 
-Sie können gesendete Anfragen im Bereich Anfragen anzeigen, der Links zu Objekten enthält, die von Adobe Workfront Planning-Anfragen erstellt wurden.
+>[!NOTE]
+>
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **** Wert an.
+>* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
+
+Sie können gesendete Anfragen im Bereich Anfragen anzeigen, der Links zu Datensätzen enthält, die von Adobe Workfront Planning-Anfragen im <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment--> der Produktionsumgebung erstellt wurden.
 
 >[!NOTE]
 >
 >Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst einen Datensatz erstellt hat.
 >
 >Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste im neuen Anfrageerlebnis kein Link zu diesem konvertierten Objekt verfügbar.
+
+<!--
+replace the note above with this at release: 
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>
+>If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
+><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+-->
 
 So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 
@@ -102,13 +129,22 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
    Die Anfragenliste wird angezeigt.
 
 1. (Optional) Um nach einer Anfrage zu suchen, beginnen Sie, etwas in der Suchleiste in der rechten oberen Ecke der Liste einzugeben. Suchergebnisse werden während der Eingabe angezeigt.
-1. (Optional) Klicken Sie **Filter** und beginnen Sie mit dem Hinzufügen von Bedingungen für die Anfragen, die Sie anzeigen möchten.
+1. (Optional) Um zu verwalten, wie die Informationen in der Anfragenliste angezeigt werden, aktualisieren Sie die folgenden Ansichtselemente für die Liste:
 
-   Weitere Informationen zu Filtern finden Sie unter [Erstellen und Verwalten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Ansicht
+   * Filter
+   * Spalten
 
-1. (Optional) Klicken Sie auf das **Ansichten** Dropdown-Menü, um Ihre Ansicht zu aktualisieren oder sie für andere freizugeben.
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-   Weitere Informationen finden Sie [Erstellen oder Bearbeiten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   Weitere Informationen zum Verwalten von Informationen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte **Status** überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
    * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt.
@@ -121,11 +157,6 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
 
         Weitere Informationen finden Sie unter [Einrichten von Konfigurationsdetails](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) im Artikel Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning.
    * **Abschließen**: Die Anfrage wurde abgeschlossen.
-
->[!NOTE]
->
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **&#x200B;**&#x200B;Wert an.
->* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 ### Anzeigen gesendeter Anfragen in der Legacy-Anfrage
 
@@ -271,7 +302,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
 
 1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte **Status** überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
-   * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt.
+   * **Entwurf**. Diese Anfrage wurde noch nicht übermittelt.
    * **In Bearbeitung**
    * **Abschließen**
 

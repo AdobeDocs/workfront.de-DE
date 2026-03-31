@@ -5,9 +5,9 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2350'
 ht-degree: 2%
 
 ---
@@ -156,7 +156,7 @@ Einige Spalten ermöglichen es Ihnen, einen benutzerdefinierten Namen für den S
 
    Der neue Spaltenname wird in der Liste angezeigt.
 
-## Hinzufügen und Entfernen von Spalten mit dem Spalten-Manager
+### Hinzufügen und Entfernen von Spalten mit dem Spalten-Manager
 
 Sie können den **Spalten-Manager** in einigen erweiterten Listen verwenden, um Spalten einfach zur Liste hinzuzufügen und daraus zu entfernen. Sie können sowohl System- als auch benutzerdefinierte Felder, die bereits in Workfront als Spalten vorhanden sind, zu einer erweiterten Liste hinzufügen oder entfernen.
 
@@ -283,11 +283,13 @@ So sortieren Sie einzelne Spalten:
 
    ![Nach Spalte sortieren](assets/glist-sort-by-column.png)
 
-So sortieren Sie Ihre Arbeit innerhalb einer Gruppierung:
-
-1. Klicken Sie **Gruppieren**, gehen Sie zur Zeile der angewendeten Gruppierung, klicken Sie auf das Sortier-Dropdown-Menü und wählen Sie eine aufsteigende oder absteigende Reihenfolge aus.
+1. (Optional) Um Ihre Arbeit innerhalb einer Gruppierung zu sortieren, klicken Sie auf **Gruppe**, gehen Sie zur Zeile der angewendeten Gruppierung, klicken Sie auf das Sortier-Dropdown-Menü und wählen Sie eine aufsteigende oder absteigende Reihenfolge.
 
    ![Sortieren in einer Gruppierung](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >Die Sortierreihenfolge unterscheidet sich je nach Feldtyp, nach dem Sie sortieren.
 
 ### Suche in einer erweiterten Liste
 
