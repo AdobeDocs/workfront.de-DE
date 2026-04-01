@@ -6,10 +6,10 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
+source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Dazu sind zwei einfache Schritte erforderlich:
 
 **Schritt 1**: Wenn Sie noch keine Sitzungs-ID haben, erhalten Sie eine mit der doLogin()- oder getSessionID()-Methode. Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Kennwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie die E-Mail-Adresse und das Authentifizierungs-Token des Benutzers haben.
 
-**Schritt 2:**&#x200B;Jetzt ist es an der Zeit, den Korrekturabzug zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf „web“ und den SourceName-Parameter als URL der Web-Seite festlegen, die Sie erfassen möchten.
+**Schritt 2:** Jetzt ist es an der Zeit, den Testversand zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf „web“ und den SourceName-Parameter als URL der Web-Seite festlegen, die Sie erfassen möchten.
 
 Wenn Sie sich jetzt bei Ihrem Konto anmelden, sehen Sie den Testversand.
 
