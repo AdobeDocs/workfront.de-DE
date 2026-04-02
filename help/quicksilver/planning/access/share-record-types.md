@@ -6,17 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 1%
+source-wordcount: '1586'
+ht-degree: 2%
 
 ---
 
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-# Datensatztypen freigeben
+# Freigeben von Eintragstypen
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -32,7 +34,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe &#x200B;](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
+>* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
 
@@ -89,7 +91,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Überlegungen zur Freigabe von Datensatztypen
 
@@ -215,11 +219,15 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 
    1. Wählen **Deaktivieren** aus dem Dropdown **Menü „Übernommene Berechtigungen** aus.
 
-   >[!TIP]
-   >
-   >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp.
+      >[!TIP]
+      >
+      >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp.
 
    1. Fügen Sie im Feld **Zugriff auf diesen Datensatztyp gewähren** die Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete hinzu, denen Sie eine andere Berechtigungsstufe gewähren möchten als für den Arbeitsbereich.
+   1. <span class="preview">(Optional) Wenn Sie eine Freigabe für eine Gruppe, ein Team, eine Rolle oder ein Unternehmen durchführen, bewegen Sie den Mauszeiger über den Namen der Entität und klicken Sie auf den Pfeil nach rechts, um eine Liste der Benutzer zu erweitern, die die Berechtigungen erhalten. </span>
+
+      ![Datensatztyp für Gruppe freigeben](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Berechtigungsstufe wählen.
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ Sie können Benutzerberechtigungen von einem Datensatztyp entfernen. Sie behalte
 
    Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf den Datensatztyp entfernt wurden, dass sie nicht mehr über diese Berechtigungen verfügen.
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 

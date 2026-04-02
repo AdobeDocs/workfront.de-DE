@@ -6,20 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 0%
+source-wordcount: '1188'
+ht-degree: 2%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Erstellen von Arbeitsbereichen
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -45,12 +47,15 @@ Allgemeine Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche -
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
+<p>Beliebiges Workfront- oder Workflow-Paket</p> 
+<p>Beliebiges Workfront-Planungspaket</p>
+<p>Ein Workfront Planning Prime- oder höheres <span class="preview"> (um mehrere Arbeitsbereiche gleichzeitig zu erstellen</span></p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
+   <p><span class="preview">Systemadmin. zur gleichzeitigen Erstellung mehrerer Arbeitsbereiche mithilfe des Best-Practice-Vorlagenpakets</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +70,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -120,11 +126,33 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    <td>   <p>You receive Manage permissions to the workspaces you create. </p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Arbeitsbereich erstellen
 
-Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ihre Objekte in Workfront Planning zu organisieren. Weitere Informationen zum Bearbeiten eines Arbeitsbereichs finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ihre Objekte in Workfront Planning zu organisieren.
+
+Weitere Informationen zum Bearbeiten eines Arbeitsbereichs finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+Sie können Arbeitsbereiche wie folgt erstellen:
+
+* Einen Arbeitsbereich von Grund auf neu oder aus einer Vorlage erstellen
+
+  Weitere Informationen finden Sie im Abschnitt [Erstellen eines neuen Arbeitsbereichs oder einer Vorlage](#create-a-workspace-from-scratch-or-from-a-template) in diesem Artikel.
+* Erstellen Sie mit der KI-gestützten Planungs-Designer einen Arbeitsbereich. Diese Funktion steht derzeit nur einer begrenzten Anzahl von Kunden in einem Beta-Programm zur Verfügung.
+
+  Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+<div class="preview">
+
+* Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche
+
+  Weitere Informationen finden Sie im Abschnitt [Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in diesem Artikel
+
+</div>
+
+### Arbeitsbereich von Grund auf neu oder aus einer Vorlage erstellen
 
 {{step1-to-planning}}
 
@@ -134,9 +162,9 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
 
 1. (Optional und bedingt) Klicken Sie **Vorschau** innerhalb einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
 
-   * Einfach: Marketing-Verwaltung
-   * Erweitert: Marketing-Verwaltung
-   * Unternehmen: Marketing-Management
+   * Basis: Marketing-Management
+   * Erweitert: Marketing-Management
+   * Enterprise: Marketing-Management
    * Vertriebsleitung
    * Produkt-Management
 
@@ -150,7 +178,7 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
 
 1. Klicken Sie im Vorlagenvorschaufeld auf **Vorlage verwenden**, um den Arbeitsbereich aus der ausgewählten Vorlage zu erstellen
 
-   Oder
+   ODER
 
    Klicken Sie auf **Zurück** und dann auf **Neuer Arbeitsbereich**, um einen neuen Arbeitsbereich zu erstellen.
 
@@ -167,7 +195,7 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
 
 1. (Optional und bedingt) Wenn Sie den Arbeitsbereich über eine Vorlage erstellt haben, klicken Sie in den Namen der Abschnitte **Operative Datensatztypen** oder **Taxonomien** .
 
-   Oder
+   ODER
 
    Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und anschließend auf **Umbenennen**, um den Abschnitt umzubenennen.
 
@@ -179,7 +207,7 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
 
 1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen**, um Datensatztypen zu dem Arbeitsbereich in einem beliebigen Abschnitt hinzuzufügen.
 
-   Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+   Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Weitere Informationen zum Bearbeiten und Löschen von Datensatztypen in einem Arbeitsbereich finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
@@ -192,5 +220,59 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
    >Für Benutzende, die derzeit eine Umstellung auf das Adobe Identity Management System (IMS) vornehmen, werden Arbeitsbereiche, die von Benutzenden erstellt wurden, die nur Workfront nutzen und keine IMS-Benutzenden sind, als vom **System** erstellt angezeigt.
    >
    >Informationen zu IMS finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+<div class="preview">
+
+### Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche
+
+>[!IMPORTANT]
+>
+>Das gleichzeitige Erstellen mehrerer Arbeitsbereiche mithilfe des Best-Practice-Vorlagenpakets ist nur verfügbar, wenn die folgenden Voraussetzungen erfüllt sind:
+>
+>* Ihr Unternehmen hat ein Workfront Planning Prime- oder Ultimate-Paket erworben.
+>* Sie sind Systemadministrator
+
+Sie können ein Vorlagenpaket mit mehreren Arbeitsbereichen verwenden, um 6 Arbeitsbereiche mit einem Klick zu erstellen.
+
+Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Datensätze, Ansichten und Felder, um Ihnen den Einstieg in Ihre Planungsimplementierung zu erleichtern.
+
+>[!IMPORTANT]
+>
+>Alle Namen von Arbeitsbereichen, Datensatztypen, Feldern und Datensätzen, die im Bundle enthalten sind, sind Beispiele und spiegeln nicht Ihre eigene Umgebung wider.
+>
+>Es wird empfohlen, dieses Vorlagenpaket als Beispiel für eine Planungsstruktur zu verwenden und mit der Erstellung von Objekten fortzufahren, die den Workflow Ihres Unternehmens widerspiegeln.
+
+{{step1-to-planning}}
+
+1. Klicken Sie auf **Arbeitsbereich erstellen**
+
+   Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder ihn mit einer der verfügbaren Vorlagen erstellen.
+
+1. Klicken Sie **Bereich** Hier beginnen (empfohlen **auf „Arbeitsbereich-Setup überprüfen**.
+1. (Optional) Klicken Sie **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen, um das Vorschaufeld für jede Vorlage zu öffnen:
+
+   * &#x200B;1. Globale Klassifizierungen und Taxonomien
+
+     Die Vorlage Globale Klassifizierungen und Taxonomien enthält alle Datensatztypen und -felder, die Sie in Ihrer Umgebung für eine erfolgreiche Implementierung von Workfront Planning erstellen sollten.
+
+     Sie können die Datensatztypen in dieser Vorlage später in andere von Ihnen erstellte Arbeitsbereiche verknüpfen oder importieren.
+   * 2.Fréscopa Global Marketing
+   * 3.Fréscopa Social Marketing
+   * 4.Fréscopa Medien und PR
+   * 5.Fréscopa Global Events
+   * 6.Fréscopa Führende Unternehmensführung
+
+1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf Zurück , um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf Vorlagen verwenden , um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
+
+   Die Arbeitsbereiche werden erstellt und auf den Registerkarten **Workspaces I&#39;m** und **All Workspaces** für Systemadministratoren angezeigt. Alle Benutzer von Standardlizenzen sehen die Arbeitsbereiche in ihrem Arbeitsbereich, nachdem ein Systemadministrator sie erstellt und die neuen Arbeitsbereiche für sie freigegeben hat.
+
+1. Beginnen Sie mit der Bearbeitung der von Ihnen erstellten Arbeitsbereiche und fügen Sie Datensatztypen, Datensätze, Ansichten und Felder hinzu, die für Ihre Organisation relevant sind.
+
+   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+   Informationen zum Bearbeiten von Arbeitsbereichen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+</div>
+
 
 

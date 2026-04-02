@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 2%
+source-wordcount: '1375'
+ht-degree: 5%
 
 ---
 
 
-# Datensatzansichten verwalten
+# Verwalten von Eintragsansichten
 
 <!--
 
@@ -54,7 +56,7 @@ Datensätze können in den folgenden Ansichten angezeigt werden:
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Hinzufügen einer Seite „Verbundene Datensätze“ zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Hinzufügen einer Seite „Verbundene Einträge“ zu einem Eintrag](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
    * [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
@@ -65,9 +67,9 @@ In diesem Artikel werden die folgenden Informationen zu Datensatzansichten besch
 
 Weitere Informationen zum Verwalten von Workfront Planning-Datensatzansichten finden Sie in den folgenden Artikeln:
 
-* [Datensatzansichten löschen](/help/quicksilver/planning/views/delete-record-views.md)
-* [Doppelte Datensatzansichten](/help/quicksilver/planning/views/duplicate-record-views.md)
-* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+* [Löschen von Eintragsansichten](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplizieren von Eintragsansichten](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Zugriffsanforderungen
@@ -115,7 +117,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Überlegungen beim Arbeiten mit Datensatzansichten
 
@@ -281,9 +285,19 @@ Weitere Informationen zu Listenansichten finden Sie unter [Verwalten der Listena
    ![Ansichtsfeld erstellen](assets/create-view-box.png)
 
 1. (Optional) Um eine vorhandene Ansicht zu bearbeiten, klicken Sie auf das Dropdown-Menü rechts neben dem Namen der aktuellen Ansicht, geben Sie dann den Namen einer Ansicht in das Feld **Suche** ein und drücken Sie die Eingabetaste auf der Tastatur.
+
+   >[!TIP]
+   >
+   ><span class="preview">Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von jeder Workfront-Planungsseite aus zu öffnen und nach Ansichten zu suchen:</span>
+   >
+   >* <span class="preview">STRG+K für Windows</span>
+   >* <span class="preview">⌘+K für Mac</span>
+   >
+   >![Globales Suchfeld](assets/global-search-box.png)
+
 1. (Optional) Ziehen Sie aus dem Dropdown-Menü Ansicht die Ansichten per Drag-and-Drop in die gewünschte Reihenfolge.
 
-   ![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)
+   ![Dropdown-Liste mit Ansichtstypen in der Eintragstypliste](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Bedingt) Klicken Sie **Weiter**, wenn Sie eine Timeline- oder Kalenderansicht erstellen.
 
@@ -308,7 +322,7 @@ Weitere Informationen zu Listenansichten finden Sie unter [Verwalten der Listena
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in der chronologischen Reihenfolge ab dem Zeitpunkt angezeigt, zu dem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol &#x200B;](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol ](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
    Zusätzliche Ansichten werden unter dem Menü **Mehr** nach der letzten Registerkarte Ansicht angezeigt. Die Zahl neben dem Menü **Mehr** zeigt die Anzahl der zusätzlichen Ansichten an.
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Umbenennen**, um den Ansichtsnamen zu aktualisieren
@@ -322,8 +336,8 @@ Weitere Informationen zu Listenansichten finden Sie unter [Verwalten der Listena
 1. (Optional) Informationen zum Verwalten eines bestimmten Ansichtstyps finden Sie in folgenden Artikeln:
 
    * [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
-   * [Zeitleisten-Ansicht verwalten](/help/quicksilver/planning/views/manage-the-timeline-view.md)
-   * [Kalenderansicht verwalten](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+   * [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md)
+   * [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
 ## Aktivieren der Echtzeit-Anwesenheitsindikator in einer Ansicht
 

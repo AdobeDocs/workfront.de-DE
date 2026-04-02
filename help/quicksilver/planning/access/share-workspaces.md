@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 3%
 
 ---
@@ -24,7 +26,8 @@ ht-degree: 3%
 Sie können einen Arbeitsbereich für andere freigeben, um die Zusammenarbeit bei der Arbeit in Adobe Workfront Planning sicherzustellen.
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -67,7 +70,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,7 +128,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Überlegungen zur Freigabe von Arbeitsbereichen
 
@@ -174,6 +179,10 @@ So geben Sie einen Arbeitsbereich für andere frei:
    >* Zusätzlich zu Teams, Gruppen, Unternehmen und Aufgabengebieten können Sie nur für Benutzende freigeben, die der Adobe Admin Console hinzugefügt wurden. Benutzende, die nur Workfront unterstützen, können nicht hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
    >* Wenn Sie einen Arbeitsbereich für einen Benutzer freigeben, werden dessen primäres Aufgabengebiet <span class="preview">und dessen E-Mail</span> ebenfalls im Feld angezeigt. Damit Sie die E-Mail-Adresse des Benutzers anzeigen können, muss für das Benutzerobjekt in Ihrer Zugriffsebene die Einstellung „Kontaktinformationen anzeigen“ aktiviert sein.
+
+1. <span class="preview">(Optional) Wenn Sie eine Freigabe für eine Gruppe, ein Team, eine Rolle oder ein Unternehmen durchführen, bewegen Sie den Mauszeiger über den Namen der Entität und klicken Sie auf den Pfeil nach rechts, um eine Liste der Benutzer zu erweitern, die die Berechtigungen erhalten. </span>
+
+   ![Freigeben von Arbeitsbereich für eine Gruppe](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Wählen Sie eine der folgenden Berechtigungsebenen aus dem Dropdown-Menü aus:
    * Ansicht

@@ -5,9 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2184'
 ht-degree: 3%
 
 ---
@@ -26,10 +28,12 @@ Adobe Workfront Planning bietet einen zentralen Einblick in Ihren Marketing-Lebe
 >
 >* Adobe Workfront bietet eine 60-tägige kostenlose Testversion von Adobe Workfront Planning für alle Adobe Workfront-Kunden an, die nicht ebenfalls Workfront Planning-Kunden sind.
 >
->* Die Testversion ist zwischen den folgenden Daten verfügbar: 2. März bis 1. Mai 2026.
+>* Die Anmeldefrist endete am 1. April 2026 und ist jetzt geschlossen.
 >
->* Beachten Sie, dass die Testversion für 60 Tage ab dem Start verfügbar ist und nicht für 60 Tage ab dem Zeitpunkt, an dem Sie daran teilnehmen.
->* Die Anmeldefrist endet am 1. April 2026.
+>* Wenn Sie die Testvereinbarung akzeptiert haben und für die Testversion registriert sind, ist sie zwischen dem 2. März und dem 1. Mai 2026 verfügbar.
+>
+>* Beachten Sie, dass die Testversion für 60 Tage ab dem Start verfügbar ist und nicht für 60 Tage ab dem Zeitpunkt, an dem Sie daran teilgenommen haben.
+>
 
 In dieser Testversion erfahren Sie aus erster Hand, wie Planung dabei hilft, die tägliche Arbeit an strategischen Zielen auszurichten, die Ausführung zu optimieren und messbare Ergebnisse für Ihr Unternehmen zu erzielen.
 
@@ -104,8 +108,10 @@ Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testa
 
 * **30. November 2026**: Workfront sichert Ihre Daten nach diesem Datum nicht mehr. Wenn Sie Workfront Planning vor diesem Datum erwerben, erhalten Sie wieder Zugriff auf Planning und Ihre Daten.
 
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+<!--
+Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date.
+-->
 
 ## Berechtigungen für Workfront Planning-Daten während und nach der kostenlosen Testversion
 
@@ -133,7 +139,8 @@ Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live:
+-->
 
 ## Für die kostenlose Testversion von Adobe Workfront Planning registrieren
 
@@ -209,7 +216,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
 1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-shell.png) und dann auf **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
 
    Der Bereich **Planung** wird auf der Registerkarte **Beispielarbeitsbereiche** geöffnet.
