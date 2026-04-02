@@ -1,18 +1,21 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Verwalten Sie Ihre Genehmigungen mit dem Widget Meine Genehmigungen .
+title: Verwalten Ihrer Genehmigungen mit dem Widget „Meine Genehmigungen“
 description: Das Widget Meine Genehmigungen zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an einer Stelle an. Hier können Sie Ihre Genehmigungen filtern und organisieren, Entscheidungen treffen und Genehmigungen nach Bedarf delegieren.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 16%
 
 ---
 
-# Verwalten Sie Ihre Genehmigungen mit dem Widget Meine Genehmigungen .
+# Verwalten Ihrer Genehmigungen mit dem Widget „Meine Genehmigungen“
+
+{{highlighted-preview}}
 
 Das Widget Meine Genehmigungen zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an einer Stelle an. Hier können Sie Ihre Genehmigungen filtern und organisieren, Entscheidungen treffen und Genehmigungen nach Bedarf delegieren.
 
@@ -28,7 +31,7 @@ Das Widget Meine Genehmigungen unterstützt Genehmigungen von den folgenden Work
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +44,7 @@ Das Widget Meine Genehmigungen unterstützt Genehmigungen von den folgenden Work
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +58,7 @@ Das Widget Meine Genehmigungen unterstützt Genehmigungen von den folgenden Work
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -70,9 +73,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Genehmigungen, die Aufgabengebieten oder Gruppen zugewiesen wurden, werden nicht auf der Startseite angezeigt. Genehmigungen, die Teams zugewiesen wurden, werden für jedes Teammitglied im Widget Meine Genehmigungen angezeigt.
 
 
+1. <span class="preview">(Bedingt) Klicken Sie auf das **Sortieren** Dropdown-Menü und wählen Sie dann **Neueste zuerst** aus, um die zuletzt hinzugefügten Genehmigungen anzuzeigen.</span>
+
+
+1. <span class="preview">(Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), ](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.</span>
+
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 
    ![Widget „Meine Genehmigungen“](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. Klicken Sie im rechten Bedienfeld auf eine der verfügbaren Optionen, wenn Sie eine Genehmigungsentscheidung treffen. Die folgenden Optionen werden je nach Art des zu genehmigenden Elements in der rechten oberen Ecke der Seite angezeigt:
 
