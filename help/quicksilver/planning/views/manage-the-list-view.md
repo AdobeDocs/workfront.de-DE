@@ -201,7 +201,7 @@ Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte ang
          >
          ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar.</span>
 
-      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld ](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen. </span>
+      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld &#x200B;](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen. </span>
 
          >[!TIP]
          >
@@ -216,7 +216,7 @@ Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte ang
       1. <span class="preview">Klicken Sie auf den **Oder**-Connector zwischen Bedingungen, um zu **Und** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Or** ist der Standard-Connector.</span>
       1. <span class="preview">Wählen Sie in der **Format**-Zeile ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.</span> <!--edit this area, if it changes names??-->
       1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbkreis-Symbol](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.</span>
-      1. <span class="preview">Klicken Sie auf das Symbol **Textformat** (Symbol ![ Textformat](assets/text-format-icon.png) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:</span>
+      1. <span class="preview">Klicken Sie auf das Symbol **Textformat** (Symbol ![&#x200B; Textformat](assets/text-format-icon.png) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:</span>
          * <span class="preview">Fett</span>
          * <span class="preview">Kursiv</span>
 
@@ -233,7 +233,7 @@ Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte ang
 
       <span class="preview">Das Feld muss eine Spalte in der Liste sein, bevor Sie es gruppieren können. Nicht alle Feldtypen können für Gruppierungen verwendet werden.</span>
 
-   1. <span class="preview">Klicken Sie auf das Symbol **Zeilenhöhe** (Symbol ![ Zeilenhöhe](assets/row-height-icon.png), um die vertikale Länge einer Zeile zu aktualisieren. Wählen Sie aus den folgenden Optionen: </span>
+   1. <span class="preview">Klicken Sie auf das Symbol **Zeilenhöhe** (Symbol ![&#x200B; Zeilenhöhe](assets/row-height-icon.png), um die vertikale Länge einer Zeile zu aktualisieren. Wählen Sie aus den folgenden Optionen: </span>
 
       <div class="preview">
 
