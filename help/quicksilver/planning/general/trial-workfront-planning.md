@@ -216,7 +216,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
 1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-shell.png) und dann auf **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
 
    Der Bereich **Planung** wird auf der Registerkarte **Beispielarbeitsbereiche** geöffnet.

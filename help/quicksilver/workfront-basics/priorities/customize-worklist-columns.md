@@ -80,7 +80,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Klicken Sie **der linken** auf „Spalten“.
 1. Klicken Sie auf **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten aktualisiert sich automatisch in der Arbeitsliste.
-   ![Spalten neu ](assets/reorder-columns-new.png)
+   ![Spalten neu &#x200B;](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
