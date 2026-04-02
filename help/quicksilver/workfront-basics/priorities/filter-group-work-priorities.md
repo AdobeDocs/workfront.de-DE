@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filtern und Gruppieren Ihrer Arbeit mit Prioritäten
+title: Filtern, Gruppieren und Sortieren der Arbeit mit Prioritäten
 description: Sie können Filter verwenden, um Arbeit zu finden und nach Arbeit zu suchen, und dann eine Gruppierung anwenden, um sie zu organisieren.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 11%
 
 ---
 
-# Filtern und Gruppieren Ihrer Arbeit mit Prioritäten
+# Filtern, Gruppieren und Sortieren Ihrer Arbeit mit Prioritäten
 
 Sie können Filter verwenden, um die gesuchte Arbeit zu finden, und dann eine Gruppierung anwenden, um sie zu organisieren.
 
@@ -21,9 +21,9 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,8 +38,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
    <td> 
-   <p>Anfrage oder höher</p>
-   <p>Mitwirkender oder höher</p> 
+   <p>Anfragende oder höher</p>
+   <p>Mitwirkende oder höher</p> 
    </td> 
   </tr> 
   <tr> 

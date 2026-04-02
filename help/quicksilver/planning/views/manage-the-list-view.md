@@ -6,15 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
 
 
 # Verwalten der Listenansicht in Adobe Workfront Planning
+
+<!--
+although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
+-->
 
 <span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -32,7 +38,7 @@ Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfron
 
   ![Anforderungsformulare in der Listenansicht](assets/request-forms-in-list-view.png)
 
-In diesem Artikel wird beschrieben, wie Sie in einer Listenansicht, in der Objekte in Workfront Planning angezeigt werden, navigieren, erstellen oder bearbeiten können. <!--change 'projects' to other objects when they become available and the location of the list view-->
+In diesem Artikel wird beschrieben, wie Sie in Workfront Planning eine Listenansicht navigieren, erstellen oder bearbeiten können.
 
 ## Zugriffsanforderungen
 
@@ -93,16 +99,16 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    * Sie können keine zusätzlichen Listenansichten für Planungsanfrageformulare erstellen oder bearbeiten. Workfront erstellt für Anfrageformulare eine Listenansicht. <!--this will change-->
 
      Weitere Informationen zu Anfrageformularen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-* Je nachdem, wo sie angezeigt wird, enthält nicht jede Listenansicht alle in diesem Artikel beschriebenen Elemente.
-
+* Je nachdem, wo er angezeigt wird, enthält nicht jede Listenansicht alle in diesem Artikel beschriebenen Elemente.
 
 ## Verwalten einer Listenansicht {#manage-a-list-view}
 
-Listenansichten ähneln erweiterten Listen. Die meisten Elemente aus erweiterten Ansichten sind auch in Listenansichten in Workfront Planning vorhanden.
+Workfront Planning-Listenansichten ähneln den erweiterten Listen von Workfront. Die meisten Elemente aus erweiterten Ansichten sind auch in Listenansichten in Workfront Planning vorhanden.
 
 Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
 1. (Conditional) To access a projects connected page, do the following: 
@@ -130,14 +136,16 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 
 1. Navigieren Sie zu einer Listenansicht in einem der folgenden Bereiche:
 
-   * Seite „Verbundene Datensätze“ im Detailbereich eines Datensatzes
-   * Die Seite mit den Anforderungsformularen eines Datensatzes
+   * Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes
+   * Die Seite mit den Anforderungsformularen eines Datensatztyps
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus, wenn verfügbar, um die Listenansicht zu ändern:
 
    1. Erweitern Sie das Dropdown-Menü Ansichten in der linken oberen Ecke der Liste, um eine andere Ansicht auszuwählen, oder klicken Sie auf **Neue Ansicht** und erstellen Sie eine andere.
 
-      Ansichten werden im gesamten System gemeinsam genutzt. Wenn Sie eine Projektansicht für einen Datensatztyp erstellen, können Sie sie für andere Datensatztypen anzeigen, die verbundene Projekte anzeigen.
+      >[!TIP]
+      >
+      >Ansichten werden im gesamten System gemeinsam genutzt. Wenn Sie eine Projektansicht für einen Datensatztyp erstellen, können Sie sie für andere Datensatztypen anzeigen, die verbundene Projekte anzeigen.
 
    1. Bewegen Sie den Mauszeiger über den Namen einer vorhandenen Ansicht und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Aktionen:
       * **Umbenennen**, um der Ansicht einen neuen Namen zu geben
@@ -152,18 +160,26 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
       >
       >* <span class="preview">Sie können eine Ansicht, die für Sie freigegeben wurde und für die Sie nur über die Berechtigung zum Anzeigen verfügen, zurücksetzen, nachdem Sie sie geändert haben, um ihre ursprünglichen Voreinstellungen wiederherzustellen, oder Sie können sie mit Ihren Änderungen kopieren und die Kopie freigeben. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
-      <!--
-        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
-        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
-            <div class="preview">
-            * Filter
-            * Columns
-            * Format cells
-            * Row height
-            </div>
-        -->
-
    1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png), um der Ansicht einen Filter hinzuzufügen. Die Ergebnisse werden sofort in der Liste gefiltert. Filter können nicht gespeichert und benannt werden. Filter werden gespeichert, wenn Sie in Zukunft auf die Seite zugreifen, und sie sind Teil freigegebener Ansichten.
+
+      >[!TIP]
+      >
+      ><span class="preview">Um einen personalisierten Filter anzuwenden, wählen Sie eine der folgenden Optionen für einen Feldwert aus:
+      >
+      ><div class="preview">
+      >
+      >* **Ich (angemeldeter Benutzer)** um in Feldern, die auf Benutzer verweisen, auf den angemeldeten Benutzer zu verweisen.
+      >
+      >* **Meine Teams** oder **Mein Home-Team**, um auf Ihre Teams in Feldern zu verweisen, die auf Teams verweisen.
+      >
+      >* **Meine Gruppen** oder **Meine Hauptgruppe**, um auf Ihre Gruppen in Feldern zu verweisen, die auf Gruppen verweisen.
+      >
+      >* **Meine Firma**, um auf Ihre Firma in Feldern zu verweisen, die auf Firmen verweisen.
+      > 
+      >* **Meine Rollen** oder **Meine primäre Rolle**, um auf Ihre Aufgabengebiete in Feldern zu verweisen, die auf Rollen verweisen.
+      >
+      ></div>
+
    1. Klicken Sie auf das **Spalten**-Symbol ![Spalten-Symbol](assets/columns-icon.png), um auszuwählen, welche Spalten in der Ansicht angezeigt oder ausgeblendet werden sollen.
    1. Bewegen Sie den Mauszeiger über den Namen einer Spalte, klicken Sie dann links neben dem Spaltennamen auf den Abwärtspfeil und dann auf eine der folgenden Aktionen:
       * **Umbenennen**, um eine **benutzerdefinierte Beschriftung** für die Spalte hinzuzufügen. Der Name des Originalfelds in Workfront ändert sich nicht.
@@ -178,18 +194,18 @@ Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte ang
    1. <span class="preview">Klicken Sie auf das Symbol **Zellen formatieren** (Symbol ![Zellen formatieren](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet.</span> <!--change the name of the box when they update it-->
       <span class="preview">Gehen Sie wie folgt vor: </span>
 
-      1. Klicken Sie **Bedingung hinzufügen**.
+      1. <span class="preview">Klicken Sie **Bedingung hinzufügen**.</span>
       1. <span class="preview">Wählen Sie in der **Wenn**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und fügen Sie einen Modifikator hinzu. Die Modifikatoren ändern sich je nach ausgewähltem Feldtyp. </span>
 
          >[!TIP]
          >
          ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar.</span>
 
-      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld &#x200B;](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise nach Projekten filtern, deren Projektbesitzer mit dem Projektsponsor übereinstimmt. </span>
+      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld ](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen. </span>
 
          >[!TIP]
          >
-         ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar.</span>
+         ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar. Die verglichenen Felder müssen vom gleichen Typ sein. </span>
 
       1. <span class="preview">(Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.</span>
 
@@ -197,29 +213,44 @@ Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte ang
          >
          ><span class="preview">Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.</span>
 
+      1. <span class="preview">Klicken Sie auf den **Oder**-Connector zwischen Bedingungen, um zu **Und** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Or** ist der Standard-Connector.</span>
+      1. <span class="preview">Wählen Sie in der **Format**-Zeile ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.</span> <!--edit this area, if it changes names??-->
+      1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbkreis-Symbol](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.</span>
+      1. <span class="preview">Klicken Sie auf das Symbol **Textformat** (Symbol ![ Textformat](assets/text-format-icon.png) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:</span>
+         * <span class="preview">Fett</span>
+         * <span class="preview">Kursiv</span>
+
+      1. <span class="preview">Aktivieren Sie die Einstellung **Auf Zeile anwenden**, um die Formatierung auf die gesamte Zeile des Felds anzuwenden, das die Bedingungen erfüllt.</span>
+      1. <span class="preview">(Optional) Klicken Sie **Bedingung hinzufügen** im Feld **Format**, um eine weitere Regel für ein anderes Feld hinzuzufügen, und wiederholen Sie dann die obigen Schritte.</span>
+      1. <span class="preview">(Optional) Klicken Sie auf **Alle löschen** um alle Formatierungen zu entfernen.</span>
+      1. <span class="preview">Klicken Sie außerhalb des Felds **Format**, um es zu schließen.</span>
+
+         <span class="preview">Dadurch kehren Sie zur Listenansicht zurück.</span>
+         <span class="preview">Die Formatierung wird sofort auf die Listenansicht angewendet.</span>
+         <span class="preview">Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.</span>
+
+   1. <span class="preview">(Optional) Klicken Sie auf das **Gruppierung**-Symbol ![Gruppierungssymbol](assets/grouping-icon.png) &lt;!-Sie haben dies in „Gruppierung“ ??-> geändert, um Elemente in der Liste nach einem gemeinsamen Feld zu gruppieren. Wählen Sie eine der Optionen aus oder verwenden Sie die Suchleiste, um ein Feld zu finden.</span>
+
+      <span class="preview">Das Feld muss eine Spalte in der Liste sein, bevor Sie es gruppieren können. Nicht alle Feldtypen können für Gruppierungen verwendet werden.</span>
+
+   1. <span class="preview">Klicken Sie auf das Symbol **Zeilenhöhe** (Symbol ![ Zeilenhöhe](assets/row-height-icon.png), um die vertikale Länge einer Zeile zu aktualisieren. Wählen Sie aus den folgenden Optionen: </span>
+
       <div class="preview">
 
-      1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
-      1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll. <!--edit this area, if it changes names??-->
-      1. (Optional) Klicken Sie auf das **Farbkreis**-Symbol ![Farbkreis-Symbol](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere <!--for a cell or the text of the cell that matches your criteria--> auszuwählen. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
-      1. Aktivieren Sie die Einstellung **Auf Zeile anwenden**, um die Formatierung auf die gesamte Zeile des Felds anzuwenden, das die Bedingungen erfüllt.
-      1. (Optional) Klicken Sie im Feld **Format** auf **Bedingung hinzufügen**, um eine weitere Regel für ein anderes Feld hinzuzufügen, und wiederholen Sie dann die obigen Schritte.
-      1. (Optional) Klicken Sie auf **Alle löschen**, um alle Formatierungen zu entfernen.
-      1. Klicken Sie außerhalb des Felds **Format**, um es zu schließen.
-
-         Dadurch gelangen Sie zurück zur Listenansicht.
-Die Formatierung wird sofort auf die Listenansicht angewendet.
-Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
+      * Kurz
+      * Standard. Dies ist die Standardauswahl.
+      * Mittel
+      * Groß
 
       </div>
 
-   <!--leave these here-->
+   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Fügen Sie ein Keyword in das Suchfeld in der oberen rechten Ecke der Liste ein, um nach einem Element zu suchen.
 
    Elemente, die mit Ihrem Suchbegriff übereinstimmen, werden in der Liste hervorgehoben.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um der Liste weitere Elemente hinzuzufügen und sie automatisch mit dem ausgewählten Datensatz zu verbinden:
+1. (Optional und bedingt) Führen Sie einen der folgenden Schritte aus, um auf der Seite &quot;<!--change projects to items here when more items will display in the Glist--> verbundene Projekte“ weitere Elemente zur Liste hinzuzufügen und sie automatisch mit dem ausgewählten Datensatz zu verbinden:
 
    * Klicken Sie **Datensätze verbinden** in der oberen rechten Ecke der Liste, um vorhandene Elemente hinzuzufügen.
    * Klicken Sie **Neue Zeile** unten in der Liste, um neue Elemente hinzuzufügen.
@@ -232,10 +263,21 @@ Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die A
 
    Oder
 
-   Wählen Sie ein oder mehrere Elemente aus, beachten Sie die Aktionsleiste am unteren Rand der Liste und klicken Sie auf eine der folgenden Aktionen, sofern verfügbar:
+   Wählen Sie ein oder mehrere Elemente aus, beachten Sie die Aktionsleiste unten in der Liste und klicken Sie dann auf eine der folgenden Aktionen, sofern verfügbar. Klicken Sie je nachdem, aus welchem Bereich Sie auf die Listenansicht zugreifen, auf eine der folgenden Optionen:
 
    * **Löschen**, um das Element zu löschen. Durch das Löschen eines Projekts wird es vom Datensatz getrennt und in den Papierkorb von Workfront verschoben. Workfront-Administratoren können gelöschte Projekte bis zu 30 Tage nach dem Löschen wiederherstellen. Beim Löschen eines Formulars werden die Anfragen oder Datensätze, die beim Senden des Formulars erstellt wurden, nicht gelöscht.
    * **Trennen**, um das Projekt vom Datensatz zu trennen. Wenn Sie ein Projekt trennen, werden es und alle Werte seiner Suchfelder aus dem aktuellen Datensatz entfernt.
 
-   ![Aktionsleiste in der Listenansicht der verbundenen Datensätze](assets/actions-bar-connected-records-page-list-view.png)
+     <!--update screen shot at preview release-->
+
+     ![Aktionsleiste in der Listenansicht der verbundenen Datensätze](assets/actions-bar-connected-records-page-list-view.png)
+
+   * **Formular bearbeiten**: Öffnet ein Planungsanfrageformular und ermöglicht die Bearbeitung.
+   * **Veröffentlichung aufheben**: Hebt die Veröffentlichung eines Anfrageformulars auf. Dadurch wird das Formular aus dem Bereich Anfragen entfernt, und Benutzende können diesem Datensatztyp keine Anfragen mehr hinzufügen.
+   * **Freigeben**: Öffnet das Feld Freigeben für ein Anfrageformular, in dem Sie Daten für andere freigeben können.
+   * **Link kopieren**: Kopiert einen Link in ein Planungsanfrageformular, damit Sie ihn für andere Benutzer freigeben können. Wenn das Formular öffentlich freigegeben ist, können Sie den Link für Personen außerhalb von Workfront Planning freigeben.
+
+     ![Aktionsleiste in der Liste „Planungsanfragen“](assets/actions-bar-in-inake-forms-list.png)
+
+
 

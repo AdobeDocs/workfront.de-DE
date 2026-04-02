@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie mit der Erstellung des Formular
 
 ### Erstellen eines Anfrageformulars
 
-Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatztyp erstellen<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
+Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Formular verknüpft ist, <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
 
 #### Erstellen eines Anfrageformulars aus einem Datensatztyp
 
@@ -160,8 +162,6 @@ Sie können ein Anfrageformular aus dem mit dem Formular verknüpften Datensatzt
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -309,7 +309,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![ der linken Navigationsleiste auf Genehmigungen ](assets/approvals-icon-on-form.png)Genehmigungssymbol).
 
 1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
 
@@ -396,7 +396,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
@@ -414,7 +414,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anfrageformulare verwalten**.
 
-   Alle mit dem Datensatztyp verknüpften Anforderungsformulare werden in einer Tabellenansicht angezeigt.
+   Die **Anforderungsformulare** wird geöffnet, und alle mit dem Datensatztyp verknüpften Anforderungsformulare werden in einer Tabellenansicht angezeigt.
+1. (Optional) Aktualisieren Sie die folgenden Ansichtselemente auf der Seite **Anfrageformulare**, um die Anzeige von Informationen in der Tabelle zu ändern:
+
+   * Spalten
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Anfrageformulars in der Tabellenansicht, klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Formularnamen und klicken Sie auf eine der folgenden Optionen:
 
@@ -423,6 +435,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Freigeben**: Klicken Sie hier, um zu ändern, wer Zugriff auf das Formular hat.
    * **Link kopieren**: Klicken Sie hier, um den Link des Anfrageformulars schnell zu kopieren, ohne das Formular zu öffnen.
    * **Löschen**: Klicken Sie hier, um das Formular zu löschen. Alle über das Formular hinzugefügten Anfragen und Datensätze werden nicht gelöscht. Das Formular kann nicht wiederhergestellt werden.
+
+   <!--update screen shot at preview:-->
 
    ![Menü „Mehr“ auf dem Anfrageformular aus der Liste der Anfrageformulare](assets/more-menu-on-request-form-from-request-forms-list.png)
 

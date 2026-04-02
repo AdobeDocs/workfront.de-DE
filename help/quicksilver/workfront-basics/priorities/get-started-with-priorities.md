@@ -6,10 +6,12 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 3%
+source-wordcount: '1018'
+ht-degree: 4%
 
 ---
 
@@ -103,7 +105,7 @@ Nachdem Sie Ihre Arbeit gefiltert haben, können Sie Elemente gruppieren nach
 * Status
 * Projekt
 
-Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit in Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Weitere Informationen finden Sie unter [Filtern, Gruppieren und Sortieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Wichtige Arbeitselemente mit „Mein Fokus“ priorisieren
 
@@ -152,7 +154,7 @@ Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren
 
 Sie können die Zeit für Arbeitselemente protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 
-Weitere Informationen finden Sie unter [Zeit in Prioritäten &#x200B;](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
+Weitere Informationen finden Sie unter [Zeit in Prioritäten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![Update, Protokollierungszeit und Upload](assets/update-log-upload.png)
 
@@ -196,7 +198,7 @@ Auf der Registerkarte Dokumente einer Aufgabe oder eines Problems haben Sie folg
 
 Verwenden Sie die [!DNL Catch me up]-Funktion, um zu sehen, was Sie verpasst haben. Catch me up fasst Aktualisierungen, hochgeladene Dokumente, Genehmigungen und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage, 7 Tage.
 
-Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Weitere Informationen finden Sie unter [Aktuelle Informationen zur Arbeit in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![Fangen Sie mich ein](assets/catch-me-up.png)
 
@@ -210,4 +212,5 @@ Echtzeitaktualisierungen können auf der Detailseite einer Aufgabe oder eines Pr
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->

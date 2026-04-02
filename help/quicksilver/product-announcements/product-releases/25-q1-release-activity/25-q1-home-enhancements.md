@@ -5,9 +5,11 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 7%
 
 ---
@@ -22,7 +24,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Siehe [Demo-Video zu &#x200B;](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
+Siehe [Demo-Video zu ](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
 
 ## Verwenden Sie intelligente Filter, um Ihre Arbeit in den Prioritäten zu finden
 
@@ -38,7 +40,7 @@ Verwenden Sie natürliche Sprache, um Arbeit in der Prioritätenarbeitsliste sch
 
 Nur für IMS-aktivierte Instanzen verfügbar.
 
-Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Weitere Informationen finden Sie unter [Filtern, Gruppieren und Sortieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Aktuelle Informationen zur Arbeit in „Prioritäten“
 
@@ -118,7 +120,7 @@ Sie können jetzt
 * Sortieren von Elementen innerhalb der Gruppierungen
 * Elemente beim Gruppieren nach „Meine Priorität“ oder „Status“ per Drag-and-Drop verschieben
 
-Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Weitere Informationen finden Sie unter [Filtern, Gruppieren und Sortieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Entfernt
 

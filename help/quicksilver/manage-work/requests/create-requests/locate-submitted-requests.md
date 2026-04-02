@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 6%
+source-wordcount: '1441'
+ht-degree: 4%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 6%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
 
@@ -45,7 +43,7 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
   >
   >* Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
   >* In der neuen anfordernden -Version befinden sich gesendete Anfragen und Entwürfe in derselben Liste.
-  >* In der veralteten -Version erstellte Entwürfe werden in der neuen -Version, in der die Anfrage gestellt wird, nicht angezeigt.
+  >* In der veralteten -Version erstellte Entwürfe werden in der neuen -Version mit der Anfrage nicht angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -90,6 +88,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Anzeigen gesendeter Anfragen im Bereich Anfragen
 
+Gesendete Anfragen können im Bereich Anfragen oder im Widget Meine Anfragen auf der Startseite angezeigt werden.
+
+Weitere Informationen zu „Meine Anfragen“ finden Sie [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
 Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue oder das veraltete anfragende Erlebnis verwenden.
 
 * [Anzeigen gesendeter Anfragen in der neuen anfordernden Version](#view-submitted-requests-in-the-new-requesting-experience)
@@ -99,26 +101,18 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **&#x200B;**&#x200B;Wert an.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **** Wert an.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
-Sie können gesendete Anfragen im Bereich Anfragen anzeigen, der Links zu Datensätzen enthält, die von Adobe Workfront Planning-Anfragen im <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment--> der Produktionsumgebung erstellt wurden.
+Gesendete Anfragen können im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite angezeigt werden.
 
 >[!NOTE]
 >
->Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst einen Datensatz erstellt hat.
+>Die folgenden Objekte verfügen über Links aus der Anfragenliste im Bereich Anfragen und im Widget Meine Anfragen , wenn Sie das neue Anfrageerlebnis aktivieren:
 >
->Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste im neuen Anfrageerlebnis kein Link zu diesem konvertierten Objekt verfügbar.
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* Planungs- und Workfront-Anfragen im Feld „Betreff“
+>* Planungsdatensätze, die aus Planungsanfragen im Feld Erstelltes Objekt erstellt wurden.
+>* <span class="preview">Workfront-Aufgaben und -Probleme, die aus Workfront-Anfragen im Feld Erstelltes Objekt in der Vorschau-Umgebung konvertiert wurden. </span>
 
 So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 
@@ -135,13 +129,13 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
    * Filter
    * Spalten
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * Gruppe
+   * Zellen formatieren
+   * Zeilenhöhe
+
+   </div>
 
    Weitere Informationen zum Verwalten von Informationen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -292,7 +286,8 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
 
 1. Klicken Sie **Entwürfe**, um alle Entwürfe der Anfragen anzuzeigen. Workfront speichert für jede Anfrage-Warteschlange in diesem Ordner eine unbegrenzte Anzahl von Entwürfen. Wenn Sie eine neue Anfrage für ein Warteschlangen-Thema eingeben, für das bereits ein Entwurf vorhanden ist, werden Sie aufgefordert, einen vorhandenen Entwurf zu verwenden. Weitere Informationen finden Sie unter [Erstellen von Anfragen aus Entwürfen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

@@ -6,9 +6,11 @@ description: Zusätzlich zur Verwendung der verfügbaren Entwürfe, die Workfron
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '855'
 ht-degree: 6%
 
 ---
@@ -58,7 +60,9 @@ Sie müssen Folgendes tun, bevor Sie eine Anfrage aus einem Entwurf erstellen k�
 
 ## Erstellen von Anfragen aus Entwürfen
 
-Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwischen dem neuen anfragenden Erlebnis und dem alten Erlebnis.
+Sie können Anfragen aus Entwürfen sowohl für Workfront- als auch für Planning-Anfragen erstellen.
+
+Das Erstellen von Anfragen aus Entwürfen unterscheidet sich zwischen dem neuen anfragenden Erlebnis und dem alten Erlebnis.
 
 * [Erstellen von Anfragen aus Entwürfen im neuen anfordernden Erlebnis](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Erstellen von Anfragen aus Entwürfen im alten anfordernden Erlebnis](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ Das Verfahren zum Erstellen von Anfragen aus Entwürfen unterscheidet sich zwisc
 
 1. Nachdem Sie die Informationen für die Anfrage ausgefüllt haben, klicken Sie auf **Senden**.
 
-   Wenn Sie die Anfrage senden, wird der Entwurf gelöscht und kann nicht wiederhergestellt werden.
+   Wenn Sie die Anfrage senden, wird der Entwurf durch die neue Anfrage ersetzt und kann nicht als Entwurf wiederhergestellt werden.
 
 ### Erstellen von Anfragen aus Entwürfen im alten anfordernden Erlebnis
+
+>[!NOTE]
+>
+>Es ist nicht möglich, Anfragen aus Planungsanfrageentwürfen mit dem alten Erlebnis zu erstellen.
+
 
 {{step1-to-requests}}
 

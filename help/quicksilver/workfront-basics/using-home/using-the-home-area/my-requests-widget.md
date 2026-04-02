@@ -6,14 +6,22 @@ description: Sie können Anfragen im Widget Meine Anfragen senden. Sie können d
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 11%
+source-wordcount: '777'
+ht-degree: 6%
 
 ---
 
 # Verwenden des Widgets „Meine Anfragen“
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -70,7 +78,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 Sie können eine Anfrage direkt über das Widget Meine Anfragen erstellen.
 
-Anweisungen finden Sie im Abschnitt [Erstellen einer Anfrage](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) im Artikel [Erstellen von Arbeitselementen und Projekten im Bereich „Startseite“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Anweisungen finden Sie im Abschnitt [Erstellen einer Anfrage](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) im Artikel [Erstellen von Arbeitselementen und Projekten im Bereich „Startseite“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Anfrage kopieren
 
@@ -81,6 +89,7 @@ Anweisungen finden Sie unter [Kopieren und Senden von Anfragen](/help/quicksilve
 ## Informationen in der Anfragenliste im Widget „Meine Anfragen“ verwalten
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -88,24 +97,25 @@ To configure the filter in the My Requests widget:
 
 1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **[!UICONTROL Home]**.
 1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie auf **Anpassen**, suchen Sie nach **Meine Anfragen** und klicken Sie dann darauf, um sie zu &quot;**&quot;**.
-1. (Optional) Um zu verwalten, wie die Informationen in der Anfragenliste angezeigt werden, aktualisieren Sie die folgenden Ansichtselemente für die Liste:
+1. (Optional) Um zu verwalten, wie die Informationen in der Anfragenliste angezeigt werden, erstellen oder aktualisieren Sie die folgenden Ansichtselemente für die Liste:
 
    * Ansicht
    * Filter
    * Spalten
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Weitere Informationen zum Verwalten von Informationen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   * Gruppe
+   * Zellen formatieren
+   * Zeilenhöhe
+
+   </div>
+
+   Weitere Informationen zum Aktualisieren von Ansichtselementen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* Um nur nach Workfront Planning-Anfragen zu filtern, setzen Sie den Filter auf **Objekttyp** > **Hat keine von** > **Probleme**.
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 So suchen Sie im Widget „Meine Anfragen“ nach bestimmten Anfragen:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
+1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **[!UICONTROL Home]**.
 1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie auf **Anpassen**, suchen Sie nach **Meine Anfragen** und klicken Sie dann darauf, um sie zu &quot;**&quot;**.
 1. Geben Sie in der Suchleiste rechts oben im Widget Meine Anfragen den Begriff ein, nach dem Sie suchen möchten.
 
@@ -199,12 +208,25 @@ Objekte, die durch eine Anfrage erstellt wurden, finden Sie im Widget Meine Anfr
 
 >[!NOTE]
 >
->Links zu erstellten Objekten sind in der neuen anfordernden Version nur für Planungsanfragen verfügbar, wenn die Anfrage selbst ein Objekt erstellt hat. Wenn eine Workfront-Anfrage in ein Projekt oder ein anderes Objekt konvertiert wird, ist in der Anfrageliste im neuen Anfrageerlebnis kein Link zu diesem konvertierten Objekt verfügbar.
+>Die folgenden Objekte verfügen über Links aus der Anfragenliste im Widget Meine Anfragen , wenn Sie das Erlebnis Neue Anfragen im Bereich Anfragen aktivieren:
+>
+>* Planungs- und Workfront-Anfragen im Feld „Betreff“
+>* Planungsdatensätze, die aus Planungsanfragen im Feld Erstelltes Objekt erstellt wurden.
+>* <span class="preview">Workfront-Aufgaben und -Probleme, die aus Workfront-Anfragen im Feld Erstelltes Objekt in der Vorschau-Umgebung konvertiert wurden.</span>
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
+1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **[!UICONTROL Home]**.
 1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie auf **Anpassen**, suchen Sie nach **Meine Anfragen** und klicken Sie dann darauf, um sie zu &quot;**&quot;**.
 1. Suchen Sie die Anfrage, die das -Objekt erstellt hat.
 1. Klicken Sie auf den Objektnamen in der Spalte **Erstelltes Objekt** für diese Anfrage.
 
    Die Seite des -Objekts wird geöffnet.
+
+   >[!TIP]
+   >
+   >In der Produktionsumgebung verfügen nur Planning-Datensätze über einen Link im Feld **Erstelltes**&quot;.
+   >   
+   ><span class="preview">In der Vorschau-Umgebung haben aus Problemen konvertierte Workfront-Aufgaben und -Projekte sowie aus Planungsanfragen erstellte Planungsdatensätze einen Link im Feld **Erstelltes**&quot;</span>
+   >
+
+
 

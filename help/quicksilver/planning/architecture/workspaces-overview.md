@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 4%
 
 ---
 
-# Arbeitsbereiche - Übersicht
+# Überblick über Arbeitsbereiche
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 
    * Neu
    * Verwenden einer Vorlage. Vorlagen enthalten eine vorkonfigurierte Anzahl von Datensatztypen und deren Feldern.
+   * Verwenden der KI-gestützten Planungs-Designer. Diese Funktion befindet sich derzeit in Beta.
+   * <span class="preview">Verwenden eines Vorlagenpakets für mehrere Arbeitsbereiche.</span>
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+
 * Arbeitsbereiche sind Frameworks, in denen Ihre Organisationseinheiten (ein Team, eine Gruppe, eine Abteilung oder ein Unternehmensbereich) arbeiten. Sie können nicht mit Feldern verknüpft werden. Nur die Datensatztypen innerhalb eines Arbeitsbereichs können Feldern zugeordnet werden.
 
   Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).

@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1541'
+ht-degree: 4%
 
 ---
 
-# Übersicht über die Konvertierung von Problemen in Adobe Workfront
+# Überblick über das Konvertieren von Problemen in Adobe Workfront
 
 <!--Audited: 08/2025-->
 
@@ -164,7 +166,8 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und es wird a
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 >[!CAUTION]
 >
 >Wenn sich der Primäre Kontakt eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der Name des konvertierten Problemverursachers nicht aktualisiert und der ursprüngliche Primäre Kontakt des Problems zum Zeitpunkt der Konvertierung des Problems wird angezeigt.
+
+## Anzeigen des ursprünglichen Problems und der konvertierten Objekte aus Anfragenlisten
+
+Sie können das ursprüngliche Problem und die konvertierten Objekte auf der Startseite im Bereich Anfragen und im Widget Meine Anfragen anzeigen.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Anzeigen eingereichter Anfragen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

@@ -5,9 +5,11 @@ description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2913'
 ht-degree: 2%
 
 ---
@@ -63,6 +65,12 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
 | Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
 | <span class="preview">Liste der Berichte</span> | <span class="preview">Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein)</span> |
+| <span class="preview">Liste der Aufgabengebiete und Tarife im Setup</span> | <span class="preview">Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife</span> |
+| <span class="preview">Liste der Übersetzungen</span> | <span class="preview">Einrichtung > Lokalisierung</span> |
+| <span class="preview">Liste der Momentaufnahmen</span> | <span class="preview">Projekt > Momentaufnahmen</span> |
+| <span class="preview">Liste der Ressourcen für die Abrechnung</span> | <span class="preview">Projekt > Ressource für Abrechnung</span> |
+| <span class="preview">Neue erweiterte Zuweisungen zu einer Aufgabe</span> | <span class="preview">Aufgabe > Arbeitsaufträge > Erweiterte </span> |
+
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
 
@@ -110,6 +118,9 @@ Sie können die Aktionsleiste in einer erweiterten Liste verwenden, um Elemente 
    * Ansicht
    * Bearbeiten
    * Löschen
+   * Kopieren
+   * In Ordner verschieben
+   * Freigeben
 
    Wenn für das ausgewählte Element keine Aktionen verfügbar sind, wird in der Aktionsleiste „Keine verfügbaren Aktionen“ angezeigt.
 
@@ -178,15 +189,33 @@ So fügen Sie Spalten hinzu und entfernen sie:
 
    Die Liste aktualisiert die Spalten entsprechend den von Ihnen getroffenen Entscheidungen.
 
+<div class="preview">
+
+### Ändern der Zeilenhöhe in einer Ansicht
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+
+   Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
+   * Kurz
+   * Standard. Dies ist die Standardauswahl.
+   * Mittel
+   * Groß
+
+</div>
+
 ## Aktualisieren von erweiterten Listenelementen
 
 Die folgenden Elemente sind Komponenten einer erweiterten Liste:
 
-* Ansicht : Definiert die Spalten, Filter und Gruppierungen in der Liste mit den Voreinstellungen.
-* Filter: Begrenzt die Anzahl der in der Liste angezeigten Informationen
-* Gruppierungen: Organisieren der Listenelemente nach gemeinsamen Feldern
-* Sortieren: Ordnet die Elemente in einer Liste entsprechend der Reihenfolge an, die Sie für ein bestimmtes Feld angeben
-* Suche: Schnelles Auffinden eines Elements mithilfe eines Suchbegriffs
+* **Ansicht**: Definiert die Spalten, Filter und Gruppierungen in der Liste mit den Voreinstellungen.
+* **Filter**: Begrenzt die Anzahl der in der Liste angezeigten Informationen
+* **Gruppierungen**: Organisieren der Listenelemente nach allgemeinen Feldern
+* **Sortieren**: Ordnet die Elemente in einer Liste entsprechend der Reihenfolge an, die Sie für ein bestimmtes Feld identifizieren
+* **Suche**: Sucht mithilfe eines Suchbegriffs schnell nach einem Element
 
 ### Anwenden und Erstellen von Ansichten
 
@@ -208,102 +237,6 @@ So wenden Sie eine Ansicht an bzw. erstellen eine Ansicht:
 1. (Optional) Gruppieren Sie die Elemente in der Liste. Weitere Informationen finden Sie unter [Gruppieren von Elementen in einer erweiterten Liste](#group-items-in-an-enhanced-list).
 
    Änderungen an Ansichten werden automatisch gespeichert. Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
-
-### Elemente in einer erweiterten Liste filtern
-
->[!NOTE]
->
->Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
-
-Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Liste anzeigen.
-
-1. Klicken Sie **Filter** über der Liste auf.
-1. Klicken Sie im Feld Filter auf **Bedingung hinzufügen**.
-1. Wählen Sie ein Feld aus, nach dem gefiltert werden soll.
-1. Wählen Sie einen Filtermodifikator aus, z. B. „Hat eines von“, „Hat keines von“, „ist vor“ oder „ist nach“. Die Modifikatoroptionen unterscheiden sich je nach dem Typ des Felds, nach dem Sie filtern.
-1. Wählen Sie die Feldwerte aus. Je nach Feldtyp, nach dem Sie filtern, werden Sie möglicherweise aufgefordert, das Element aus einer Liste auszuwählen, danach zu suchen oder einen Kalender zu verwenden, um einen Datumsbereich auszuwählen.
-
-   ![Filter in erweiterten Listen](assets/glist-filter-with-options.png)
-
-   Der Filter wird automatisch auf die Liste angewendet.
-
-   >[!TIP]
-   >
-   >Um einen Platzhalter für einen aktuellen Benutzer anzuwenden, wählen Sie **Ich (angemeldeter Benutzer)** als Feldwert aus. Der Filter gilt dann für den Benutzer, der die Liste anzeigt. Dieser Platzhalter ist in Feldern verfügbar, in denen der Wert ein Benutzer ist.
-
-1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung hinzuzufügen.
-
-   Sie können mehrere Filter über einen AND- oder EINEN OR-Connector verbinden.
-
-1. Wenn der Filter angewendet wird, können Sie die Optionen **Filter** erneut öffnen, um die Filteroptionen zu ändern oder alle Filter zu löschen.
-
-   Wenn ein Filter auf die Liste angewendet wird **wird auf der** „Filter“ ein Indikator angezeigt.
-
-   ![Angewendeter Filter-Indikator](assets/glist-filter-applied-indicator.png)
-
-### Elemente in einer erweiterten Liste gruppieren
-
->[!NOTE]
->
->Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
-
-Durch Gruppierungen werden die Objekte auf der Liste anhand bestimmter Kriterien in Bereiche unterteilt.
-
-Workfront bietet eine begrenzte Anzahl vordefinierter Gruppierungen, die Sie nicht ändern können.
-
-1. Klicken Sie **Gruppe** über der Liste auf.
-1. Gruppierung auswählen, um die Liste zu organisieren.
-
-   ![Gruppierung auswählen](assets/glist-grouping-choose-a-group-by.png)
-
-1. Klicken Sie **Alle reduzieren**, um die Liste mit allen reduzierten Gruppierungen anzuzeigen. Die Standardoption besteht darin, die Liste mit allen Gruppierungen anzuzeigen.
-1. Wenn die Gruppierung angewendet wird, können Sie die Gruppenoptionen erneut öffnen, um alle Gruppierungen gleichzeitig ein- oder auszublenden, die Gruppierung in ein anderes Feld zu ändern oder alle Gruppierungen zu löschen.
-
-   ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)
-
-   Auf der Schaltfläche **Gruppe** wird ein Indikator angezeigt, wenn eine Gruppierung auf die Liste angewendet wird.
-
-   ![Gruppierung angewendet Indikator](assets/glist-grouping-applied-indicator.png)
-
-### Sortieren in eine erweiterte Liste
-
->[!NOTE]
->
->Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
-
-So sortieren Sie einzelne Spalten:
-
-1. Bewegen Sie den Mauszeiger über die Spalte, klicken Sie dann auf den Abwärtspfeil und wählen Sie **Sortieren** aus.
-
-   Ein Symbol neben einem Spaltennamen gibt an, dass die Liste nach den Werten in dieser Spalte und der Sortierrichtung sortiert wird.
-
-   >[!NOTE]
-   >
-   >Einige Spalten sind je nach Liste möglicherweise nicht sortierbar.
-
-   ![Nach Spalte sortieren](assets/glist-sort-by-column.png)
-
-1. (Optional) Um Ihre Arbeit innerhalb einer Gruppierung zu sortieren, klicken Sie auf **Gruppe**, gehen Sie zur Zeile der angewendeten Gruppierung, klicken Sie auf das Sortier-Dropdown-Menü und wählen Sie eine aufsteigende oder absteigende Reihenfolge.
-
-   ![Sortieren in einer Gruppierung](assets/sort-in-groups.png)
-
-   >[!TIP]
-   >
-   >Die Sortierreihenfolge unterscheidet sich je nach Feldtyp, nach dem Sie sortieren.
-
-### Suche in einer erweiterten Liste
-
->[!NOTE]
->
->Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
-
-1. Geben Sie einen Suchbegriff ein, nach dem Sie suchen möchten, in das Feld Suchen in der rechten oberen Ecke der Liste. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
-
-   ![Suchbegriff hervorgehoben](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >Die Suche untersucht alle Spalten in allen Listenelementen. Wenn die Liste lang ist, enthält die Suche Elemente, die Sie möglicherweise scrollen müssen, um sie zu sehen. Wenn die Liste gefiltert wird, bezieht sich die Suche nur auf das, was gerade angezeigt wird.
 
 ### Ansicht freigeben
 
@@ -381,3 +314,165 @@ Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsber
    ![Ansichtsoptionen kopieren und zurücksetzen](assets/glist-copy-view-shared-with-you.png)
 
 </div>
+
+<div class="preview">
+
+### Anwenden einer bedingten Formatierung in einer Ansicht
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht auf der Grundlage gemeinsamer Kriterien hervorheben.
+
+1. Klicken Sie auf das **Zellen formatieren**-Symbol ![Zellen formatieren-Symbol](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet.
+
+1. Klicken Sie **Bedingung hinzufügen**.
+1. Wählen Sie in der **If**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und fügen Sie einen Modifikator hinzu. Die Modifikatoren ändern sich je nach ausgewähltem Feldtyp.
+
+   >[!TIP]
+   >
+   >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
+
+1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+
+   >[!TIP]
+   >
+   >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar. Die verglichenen Felder müssen vom gleichen Typ sein.
+
+1. (Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.
+
+   >[!TIP]
+   >
+   >Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.
+
+1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
+1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
+1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
+1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+   * Fett
+   * Kursiv
+
+1. Aktivieren Sie die Einstellung **Auf Zeile anwenden**, um die Formatierung auf die gesamte Zeile des Felds anzuwenden, das die Bedingungen erfüllt.
+
+1. (Optional) Klicken Sie im Feld **Format** auf **Bedingung hinzufügen**, um eine weitere Regel für ein anderes Feld hinzuzufügen, und wiederholen Sie dann die obigen Schritte.
+1. (Optional) Klicken Sie auf **Alle löschen**, um alle Formatierungen zu entfernen.
+1. Klicken Sie außerhalb des Felds **Format**, um es zu schließen.
+
+   Dadurch gelangen Sie zurück zur Listenansicht.
+Die Formatierung wird sofort auf die Listenansicht angewendet.
+Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
+
+</div>
+
+### Elemente in einer erweiterten Liste filtern
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Liste anzeigen.
+
+1. Klicken Sie **Filter** über der Liste auf.
+1. Klicken Sie im Feld Filter auf **Bedingung hinzufügen**.
+1. Wählen Sie ein Feld aus, nach dem gefiltert werden soll.
+1. Wählen Sie einen Filtermodifikator aus, z. B. „Hat eines von“, „Hat keines von“, „ist vor“ oder „ist nach“. Die Modifikatoroptionen unterscheiden sich je nach dem Typ des Felds, nach dem Sie filtern.
+1. Wählen Sie die Feldwerte aus. Je nach Feldtyp, nach dem Sie filtern, werden Sie möglicherweise aufgefordert, das Element aus einer Liste auszuwählen, danach zu suchen oder einen Kalender zu verwenden, um einen Datumsbereich auszuwählen.
+
+   ![Filter in erweiterten Listen](assets/glist-filter-with-options.png)
+
+   Der Filter wird automatisch auf die Liste angewendet.
+
+   >[!TIP]
+   >
+   ><span class="preview">Um einen personalisierten Filter anzuwenden, wählen Sie eine der folgenden Optionen für einen Feldwert aus:</span>
+   >
+   ><div class="preview">
+   >
+   >* **Ich (angemeldeter Benutzer)** um in Feldern, die auf Benutzer verweisen, auf den angemeldeten Benutzer zu verweisen.
+   >
+   >* **Meine Teams** oder **Mein Home-Team**, um auf Ihre Teams in Feldern zu verweisen, die auf Teams verweisen.
+   >
+   >* **Meine Gruppen** oder **Meine Hauptgruppe**, um auf Ihre Gruppen in Feldern zu verweisen, die auf Gruppen verweisen.
+   >
+   >* **Meine Firma**, um auf Ihre Firma in Feldern zu verweisen, die auf Firmen verweisen.
+   > 
+   >* **Meine Rollen** oder **Meine primäre Rolle**, um auf Ihre Aufgabengebiete in Feldern zu verweisen, die auf Rollen verweisen.
+   >
+   ></div>
+
+1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung hinzuzufügen.
+
+   Sie können mehrere Filter über einen AND- oder EINEN OR-Connector verbinden.
+
+1. Wenn der Filter angewendet wird, können Sie die Optionen **Filter** erneut öffnen, um die Filteroptionen zu ändern oder alle Filter zu löschen.
+
+   Wenn ein Filter auf die Liste angewendet wird **wird auf der** „Filter“ ein Indikator angezeigt.
+
+   ![Angewendeter Filter-Indikator](assets/glist-filter-applied-indicator.png)
+
+### Elemente in einer erweiterten Liste gruppieren
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+Durch Gruppierungen werden die Objekte auf der Liste anhand bestimmter Kriterien in Bereiche unterteilt.
+
+Workfront bietet eine begrenzte Anzahl vordefinierter Gruppierungen, die Sie nicht ändern können.
+
+1. Klicken Sie **Gruppe** über der Liste auf.
+1. Gruppierung auswählen, um die Liste zu organisieren.
+
+   ![Gruppierung auswählen](assets/glist-grouping-choose-a-group-by.png)
+
+1. Klicken Sie **Alle reduzieren**, um die Liste mit allen reduzierten Gruppierungen anzuzeigen. Die Standardoption besteht darin, die Liste mit allen Gruppierungen anzuzeigen.
+1. Wenn die Gruppierung angewendet wird, können Sie die Gruppenoptionen erneut öffnen, um alle Gruppierungen gleichzeitig ein- oder auszublenden, die Gruppierung in ein anderes Feld zu ändern oder alle Gruppierungen zu löschen.
+
+   ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)
+
+   Auf der Schaltfläche **Gruppe** wird ein Indikator angezeigt, wenn eine Gruppierung auf die Liste angewendet wird.
+
+   ![Gruppierung angewendet Indikator](assets/glist-grouping-applied-indicator.png)
+
+### Sortieren in eine erweiterte Liste
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+So sortieren Sie einzelne Spalten:
+
+1. Bewegen Sie den Mauszeiger über die Spalte, klicken Sie dann auf den Abwärtspfeil und wählen Sie **Sortieren** aus.
+
+   Ein Symbol neben einem Spaltennamen gibt an, dass die Liste nach den Werten in dieser Spalte und der Sortierrichtung sortiert wird.
+
+   >[!NOTE]
+   >
+   >Einige Spalten sind je nach Liste möglicherweise nicht sortierbar.
+
+   ![Nach Spalte sortieren](assets/glist-sort-by-column.png)
+
+1. (Optional) Um Ihre Arbeit innerhalb einer Gruppierung zu sortieren, klicken Sie auf **Gruppe**, gehen Sie zur Zeile der angewendeten Gruppierung, klicken Sie auf das Sortier-Dropdown-Menü und wählen Sie eine aufsteigende oder absteigende Reihenfolge.
+
+   ![Sortieren in einer Gruppierung](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >Die Sortierreihenfolge unterscheidet sich je nach Feldtyp, nach dem Sie sortieren.
+
+### Suche in einer erweiterten Liste
+
+>[!NOTE]
+>
+>Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+1. Geben Sie einen Suchbegriff ein, nach dem Sie suchen möchten, in das Suchfeld in der oberen rechten Ecke der Liste. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
+
+   ![Suchbegriff hervorgehoben](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >Die Suche untersucht alle Spalten in allen Listenelementen. Wenn die Liste lang ist, enthält die Suche Elemente, die Sie möglicherweise scrollen müssen, um sie zu sehen. Wenn die Liste gefiltert wird, bezieht sich die Suche nur auf das, was gerade angezeigt wird.
+
+

@@ -6,9 +6,11 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1524'
 ht-degree: 6%
 
 ---
@@ -38,7 +40,7 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
 * [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> der Zugriffsanforderungen
+## <!--edit theses??--> der Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
@@ -87,7 +89,7 @@ Nachdem wir die E-Mail erhalten haben, aktiviert unser Engineering-Team Planning
 
 Sie können während des Beta-Programms Feedback zur Planning Designer senden.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich **Planung** wird geöffnet.
 
@@ -165,7 +167,7 @@ Sie können entweder den Planning-Designer oder den KI-Assistenten verwenden, um
   >Wenn Sie derzeit eine erhebliche Anzahl von Datensätzen importieren müssen, empfehlen wir, hierzu die in Planning verfügbaren manuellen Funktionen zu verwenden.
   >
   >Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
-  >Informationen zu Dateitypbeschränkungen finden Sie im Abschnitt „Abrufen von Vorschlägen basierend auf einem Dokument, das Sie hochladen“ im Abschnitt &quot;[&#x200B; von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  >Informationen zu Dateitypbeschränkungen finden Sie im Abschnitt „Abrufen von Vorschlägen basierend auf einem Dokument, das Sie hochladen“ im Abschnitt &quot;[ von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
@@ -174,13 +176,13 @@ Sie können entweder den Planning-Designer oder den KI-Assistenten verwenden, um
 
 Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designer oder des KI-Assistenten erstellen oder aktualisieren, sofern nicht anders angegeben.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich **Planung** wird geöffnet. <!--update screen shot when they change the name of the button-->
 
    ![Design mit KI-Schaltfläche auf der Seite „Arbeitsbereiche“](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Klicken Sie **Erstellen mit KI**. <!--update this when they change it to Generate with AI-->
+1. Klicken Sie **Erstellen mit KI** oder klicken Sie auf **Arbeitsbereich erstellen** und verwenden Sie dann das Eingabeaufforderungsfenster oben, um anzugeben, welche Art von Arbeitsbereich Sie erstellen möchten. <!--update this when they change it to Generate with AI-->
 
    Das **Planning Designer** wird geöffnet. <!--remove the Beta tag here when this removes from Beta-->
 
@@ -223,7 +225,7 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
    >Einige Objekte werden sofort erstellt, ohne dass eine Bestätigung erforderlich ist.
 
 1. (Optional) Geben Sie zusätzliche Eingabeaufforderungen ein, um Ihre Objekte weiter zu bearbeiten.
-1. (Optional) Klicken Sie auf das Symbol **Vorschaufenster anzeigen oder ausblenden** Symbol ![Vorschaufenster ein- oder &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) anzeigen), um den Vorschaufenster auf der rechten Seite zu öffnen oder zu schließen.
+1. (Optional) Klicken Sie auf das Symbol **Vorschaufenster anzeigen oder ausblenden** Symbol ![Vorschaufenster ein- oder ](assets/hide-show-preview-screen-in-planning-designer.png) anzeigen), um den Vorschaufenster auf der rechten Seite zu öffnen oder zu schließen.
 1. Klicken Sie auf **Symbol „Arbeitsbereich in neuer Registerkarte öffnen** Symbol ![Arbeitsbereich in neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png), um den Arbeitsbereich, den Sie aktualisieren, in einer neuen Registerkarte zu öffnen.
 1. Klicken Sie auf das **Schließen**-Symbol **X**, um Planning Designer zu schließen und den Arbeitsbereich zu öffnen.
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:

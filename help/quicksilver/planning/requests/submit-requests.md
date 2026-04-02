@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 2%
+source-wordcount: '2460'
+ht-degree: 1%
 
 ---
 
@@ -51,13 +53,11 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<p>Jedes Workfront-Paket und jedes Planungspaket</p>
-ODER
-<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
+<p>Beliebiges Workfront- oder Workflow-Paket</p>
+<p>Beliebiges Workfront-Planungspaket</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
    </td> </tr>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Beliebig</p> 
@@ -127,14 +127,16 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
   Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
+<!--
+Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
+-->
 
 
 ## Senden einer Anfrage an Workfront Planning im Bereich „Anfragen“ von Workfront
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -178,12 +180,12 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
      In den folgenden Feldern werden Anfrage- und Datensatzinformationen im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite angezeigt:
 
-      * **Betreff**: Der Name der ursprünglichen Anfrage, wie im Bereich „Anfragen“ hinzugefügt. Sie können das Feld **Betreff** nicht aus der Anfrageliste ausblenden oder entfernen.
-      * **Erstelltes Objekt**: Der Name des Datensatzes, der aus der Anforderung erstellt wurde und in Planning angezeigt wird.
+      * **Betreff**: Der Name der ursprünglichen Anfrage, wie im Bereich „Anfragen“ hinzugefügt. Sie können das Feld **Betreff** nicht aus der Anfrageliste ausblenden oder entfernen. Der Name enthält einen Link, der die Anfrageseite in Planning öffnet.
+      * **Erstelltes Objekt**: Der Name des Datensatzes, der aus der Anforderung erstellt wurde und in Planning angezeigt wird. Der erstellte Objektname enthält einen Link, der den aus der Anfrage erstellten Datensatz öffnet.
       * **Objekttyp**: Der Name des Arbeitsbereichs und der Datensatztyp, in dem aufgrund der Anforderung in Planning Datensätze erstellt wurden.
       * **Status**: Der Status des Anfrageobjekts.
       * **Anfrageformular**: Der Name des Anfrageformulars, das mit dem Datensatztyp in Planning verknüpft ist.
-     <!--* <span class="preview"**Created object status**: The status of the created record.</span> -->
+      * <span class="preview">**Erstellter Objektstatus**: Der Status des erstellten Datensatzes.</span>
 
    * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, wird die Anfrage zur Anfragenliste im Bereich &quot;Workfront-Anfragen“ und zum Widget „Meine Anfragen“ mit dem Status &quot;**Überprüfung** hinzugefügt. Ein neuer Datensatz wird der Seite „Datensatztyp“ erst hinzugefügt, nachdem ihn die genehmigenden Personen genehmigt haben.
 
@@ -207,17 +209,19 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    * Filter
    * Spalten
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Weitere Informationen finden Sie unter [Erstellen und Verwalten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Gruppe
+   * Zellen formatieren
+   * Zeilenhöhe
 
-   <!--   
+   </div>
+
+
+   Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+   <!-- 
+   Removing this as this is covered at a higher level in the Use enhanced lists article: 
    1. (Optional) From the requests list, do any of the following:
       * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
          ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -281,56 +285,51 @@ Externe Personen können nicht auf interne Bereiche von Workfront zugreifen, z *
 
    Wenn das Formular mit einer Genehmigung verknüpft ist, muss es genehmigt werden, bevor ein Datensatz erstellt werden kann.
 
-1. (Optional) Klicken Sie auf **Weitere Anfrage senden**, um demselben freigegebenen Link eine weitere Anfrage hinzuzufügen.
+1. (Optional) Klicken Sie auf **Weitere Anfrage senden**, um über denselben freigegebenen Link eine weitere Anfrage hinzuzufügen.
 
-<!--
-   * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
-   
-   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   * Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft war, wird die Anfrage der Liste Anfragen im Bereich Workfront-Anfragen und im Widget Meine Anfragen auf der Startseite hinzugefügt und ein neuer Datensatz wird zu dem mit dem Formular verknüpften Datensatztyp hinzugefügt. Dies ist nur verfügbar, wenn Sie sich bei Workfront anmelden.
 
-      >[!IMPORTANT]
-      >
-      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack
-   
-   
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
-      >[!NOTE]
-      >
-      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
-   
-   <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
+   * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, wird die Anfrage zur Anfragenliste im Bereich &quot;Workfront-Anfragen“ hinzugefügt und verfügt über das Widget „Meine Anfragen“ mit dem Status „Prüfung ausstehend“. Ein neuer Datensatz wird der Seite „Datensatztyp“ erst hinzugefügt, nachdem alle genehmigenden Personen ihn genehmigt haben. Dies ist nur verfügbar, wenn Sie sich bei Workfront anmelden.
 
+     Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Optional) Click **View your request** to open the request in Workfront.
+     >[!IMPORTANT]
+     >
+     >Sie können nur die Anfragen anzeigen, die von Ihnen oder einer anderen Person an die Arbeitsbereiche gesendet wurden, für die Sie zumindest über die Berechtigung zum Anzeigen verfügen. Workfront-Admins können alle Anfragen anzeigen, die an einen beliebigen Arbeitsbereich im System gesendet wurden.
 
+   * Sie erhalten eine In-App- und eine E-Mail-Benachrichtigung, dass die Anfrage entweder erfolgreich übermittelt wurde oder zur Überprüfung gesendet wurde.
+   * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, erhalten die genehmigenden Personen eine In-App- und eine E-Mail-Benachrichtigung, um die Anfrage zu überprüfen und zu genehmigen.
 
-Or
+     >[!NOTE]
+     >
+     >Die E-Mail- und In-App-Benachrichtigung sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
 
-Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
+   <span class="preview"> Nachdem die Anfrage genehmigt und der Datensatz erstellt wurde, zeigen die Felder Genehmigt von und Genehmigt Datum Informationen zur Genehmigung des Datensatzes an.</span>
 
-   The request details page opens. 
+1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.
 
-   ![Request page with comment](assets/new-request-page-with-comment.png)
+Oder
 
-1. (Optional) Enter a comment in the **Comments** area.
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
+Klicken Sie [Weitere Anfrage senden](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request), um das Anfrageformular zu öffnen und eine neue Anfrage hinzuzufügen.
 
-   The record's page opens in Workfront Planning. 
+Die Seite mit den Anfragedetails wird geöffnet.
+
+![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
+
+1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
+1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.
+
+   Die Seite des Datensatzes wird in Workfront Planning geöffnet.
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* Wenn der Datensatzname nicht zum Anfrageformular hinzugefügt wurde, wird der Name des Datensatzes im Datensatzfeld der Anfrage als „Nicht **&quot;**.
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* Wenn das Anfrageformular mit einer Genehmigung verknüpft ist, muss die Genehmigung erteilt werden, bevor Sie auf den Datensatz auf der Anfrageseite zugreifen können.
 
-1. (Optional) Click the name of the **Object type**. 
+1. (Optional) Klicken Sie auf den Namen **Objekttyp**.
 
-   The record type page opens in Workfront Planning. 
-
--->
+   Die Seite „Datensatztyp“ wird in Workfront Planning geöffnet.
 
 ## Erstellen einer Anfrage durch Kopieren einer vorhandenen Anfrage
 

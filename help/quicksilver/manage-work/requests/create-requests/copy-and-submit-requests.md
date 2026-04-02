@@ -6,10 +6,12 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 6%
+source-wordcount: '1615'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +30,9 @@ Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendet
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig </p> </td> 
+   <td> <p>Beliebiges Workfront- oder Workflow-Paket</p>
+
+<p>Beliebiges Workfront-Planungspaket zum Kopieren und Senden von Planungsanfragen </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -44,10 +48,12 @@ Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendet
    <td role="rowheader">Objektberechtigungen</td> 
    <td><p>Zugriff zum Hinzufügen von Anfragen zu einer Anfragewarteschlange</p> <p>Anzeigen von oder höheren Berechtigungen für die vorhandene Anfrage</p> <p>Informationen zum Einrichten einer Anfrage-Warteschlange finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> Produkt</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Sie müssen über Adobe Workfront Planning verfügen, um Planungsanfragen oder Anfrageformulare anzuzeigen</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 ## Voraussetzungen
 
 Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihrem Unternehmen zuvor gesendet haben, um sie kopieren und erneut senden zu können. Wenn die Anfrage zu einer anderen Person gehört, müssen Sie mindestens über Zugriff auf die Option Anzeigen verfügen, um sie als neu kopieren und senden zu können.
+
+Sie können einen der folgenden Anfragetypen kopieren und erneut senden:
+
+* Eine Workfront-Anfrage, die an eine Anfrage-Warteschlange gesendet wird
+* Eine Workfront-Planungsanfrage, die an ein Planungsanfrageformular gesendet wird, wenn Ihr Unternehmen ein Planungspaket gekauft hat.
 
 ## Überlegungen zum Kopieren und Senden von Anfragen als neu
 
@@ -92,7 +103,51 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
   >
   >Die kopierte Anfrage ist nicht mit einem anfragelösenden Objekt verknüpft.
 
+## Kopieren und Senden von Anfragen in der neuen anfordernden Version
+
+Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Meine Anfragen auf der Startseite kopieren und senden.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   {{step1-to-requests}}
+
+   1. So greifen Sie auf das **Meine Anfragen**-Widget in **Startseite** zu:
+
+   {{step1-to-home}}
+
+   1. Suchen Sie das **Meine Anfragen**-Widget.
+
+      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Bewegen Sie **der**-Liste oder dem **Meine Anfragen** auf der Startseite den Mauszeiger über die Anfrage, die Sie kopieren möchten, und klicken Sie dann auf das Menü **Mehr** neben ihrem Namen.
+
+   ![Menü „Mehr“](assets/more-menu.png)
+
+1. Klicken Sie auf **Kopieren**
+
+   ODER
+
+   Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und dann auf **Kopieren**.
+
+   >[!TIP]
+   >
+   >Wenn Sie keinen Zugriff haben, um Probleme zu erstellen, erhalten Sie eine Warnung, dass Ihr Administrator Sie daran gehindert hat, Anfragen zu erstellen.
+
+1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anfrage. Die verfügbaren Felder hängen von der Anfrage-Warteschlange oder dem für die Anfrage verwendeten Anfrage-Formular ab.
+
+   Wenn Sie in der kopierten Anfrage Feldwerte eingeben oder ändern, werden diese als Entwurf gespeichert.
+
+1. Klicken Sie auf **Senden**.
+
+   Die kopierte Anfrage wird als neue Anfrage gesendet.
+
+   Auflösende Objekte aus der ursprünglichen Anfrage werden nicht kopiert.
+
+   Wenn Sie eine Planungsanfrage kopieren und erneut senden, wird ein weiterer Datensatz für den Datensatztyp erstellt, der mit dem Formular der ursprünglichen Anfrage verknüpft ist.
+
 ## Kopieren und Senden von Anfragen im alten anfordernden Erlebnis
+
+Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, können Sie keine Planungsanfragen in der Legacy-Anfrage kopieren und senden.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ Sie müssen über eine Anfrage verfügen, die Sie oder eine andere Person in Ihr
 
    Die kopierte Anfrage wird als neue Anfrage in der von Ihnen angegebenen Anfrage-Warteschlange gesendet.
 
-## Kopieren und Senden von Anfragen in der neuen anfordernden Version
 
-Sie können Anfragen im Bereich Anfragen von Workfront oder über das Widget Meine Anfragen auf der Startseite kopieren und senden.
-
-1. Führen Sie einen der folgenden Schritte aus:
-
-   {{step1-to-requests}}
-
-   1. So greifen Sie auf das **Meine Anfragen**-Widget in **Startseite** zu:
-
-   {{step1-to-home}}
-
-   1. Suchen Sie das **Meine Anfragen**-Widget.
-
-      Weitere Informationen zum Widget „Meine Anfragen“ finden Sie unter [Verwenden des Widgets „Meine Anfragen“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Bewegen Sie **der**-Liste oder dem **Meine Anfragen** auf der Startseite den Mauszeiger über die Anfrage, die Sie kopieren möchten, und klicken Sie dann auf das Menü **Mehr** neben ihrem Namen.
-
-   ![Menü „Mehr“](assets/more-menu.png)
-
-1. Klicken Sie auf **Kopieren**
-
-   ODER
-
-   Klicken Sie mit der rechten Maustaste auf die ausgewählte Anfrage und dann auf **Kopieren**.
-
-   >[!TIP]
-   >
-   >Wenn Sie keinen Zugriff haben, um Probleme zu erstellen, erhalten Sie eine Warnung, dass Ihr Administrator Sie daran gehindert hat, Anfragen zu erstellen.
-
-1. (Optional) Aktualisieren Sie alle Informationen aus der kopierten Anfrage. Die verfügbaren Felder hängen von der Anfrage-Warteschlange oder dem für die Anfrage verwendeten Anfrage-Formular ab.
-
-   Wenn Sie in der kopierten Anfrage Feldwerte eingeben oder ändern, werden diese als Entwurf gespeichert.
-
-1. Klicken Sie auf **Senden**.
-
-   Die kopierte Anfrage wird als neue Anfrage gesendet.
 
 
