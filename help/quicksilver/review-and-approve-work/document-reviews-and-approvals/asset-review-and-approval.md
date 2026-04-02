@@ -6,7 +6,9 @@ description: Übersicht über die in Workfront zur Überprüfung und Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -62,10 +64,9 @@ Weitere Informationen zum Reporting finden Sie unter [Erstellen eines Berichts-D
 
 * Greifen Sie auf Prüfungs- und Genehmigungsanfragen im Widget Meine Genehmigungen im Bereich Startseite zu
 
+* Verwenden Sie den Content Reviewer, um Prüfungen der Markenkonformität zu automatisieren. Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
 * Verwenden Sie den Frame.io-Viewer, um Dokumente zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
-
-* Verwenden Sie den KI-Reviewer, um Prüfungen der Markenkonformität zu automatisieren. Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
 
 ## Genehmigungen von Korrekturabzügen
 

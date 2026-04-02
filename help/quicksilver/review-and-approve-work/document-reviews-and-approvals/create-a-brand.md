@@ -1,26 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Einrichten von Marken für den KI-Reviewer
-description: Einrichten von Marken für den KI-Reviewer
+title: Erstellen und Verwalten von Marken für Inhaltsvalidierer
+description: Erstellen und Verwalten von Marken für Inhaltsvalidierer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
-source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 5%
+source-wordcount: '475'
+ht-degree: 9%
 
 ---
 
-# Einrichten von Marken für den KI-Reviewer
+# Erstellen und Verwalten von Marken für Inhaltsvalidierer
 
->[!IMPORTANT]
->
->Diese Funktion befindet sich derzeit in der Betaphase.
+{{highlighted-preview-article-level}}
 
-Der KI-Reviewer verwendet Markenrichtlinien, um Inhalte während des Überprüfungsprozesses zu bewerten. Sie können in Workfront Marken erstellen, indem Sie PDF-Dateien mit Ihren Markenrichtlinien hochladen oder manuell Markenelemente eingeben.
+Der Content Reviewer verwendet Markenrichtlinien, um Inhalte während des Überprüfungsprozesses zu bewerten. Sie können in Workfront Marken erstellen, indem Sie PDF-Dateien mit Ihren Markenrichtlinien hochladen oder manuell Markenelemente eingeben.
 
 ## Zugriffsanforderungen
 
@@ -44,29 +44,29 @@ Der KI-Reviewer verwendet Markenrichtlinien, um Inhalte während des Überprüfu
   </tr> 
   <tr> 
    <td role="rowheader">Berechtigungen für Admin Console*</td> 
-   <td> <p>Sie müssen GenStudio Brand Manager verwenden.</p>
-    <p>HINWEIS: Um GenStudio Brand Manager auszuwählen, müssen Sie die unter "<a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> zuweisen“ beschriebenen Schritte </a>.</p>
+   <td> <p>Sie müssen ein GenStudio Brand Manager sein.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Anforderungen
+
+* Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
+
+* Ihr Unternehmen muss über GenStudio Foundation verfügen.
+   * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
+* Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
+Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 
 ## Voraussetzungen
 
-* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
-* Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
-* Ihr Unternehmen muss über GenStudio Foundation verfügen.
-* Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
-Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+1. Sie müssen Zugriff auf Markenberechtigungen auf den Zugriffsebenen von Admin Console und Workfront gewähren, bevor Sie Marken erstellen können. Anweisungen finden Sie unter [Zugriff auf Markenberechtigungen gewähren](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md).
 
 
 ## Erstellen einer Marke mit einer PDF
@@ -76,7 +76,7 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
 1. Navigieren Sie im linken Bereich zu **Überprüfen und**) > **Marken**.
 1. Klicken **oben rechts** Bildschirm auf „Marke hinzufügen“.
 1. Benennen Sie die Marke.
-1. Klicken Sie auf PDF hochladen , um Markendateien hochzuladen.
+1. Klicken Sie auf **PDF hochladen**, um Markendateien hochzuladen.
    ![Marken-PDFs hochladen](assets/upload-PDF.png)
 1. Klicken Sie auf **Fortfahren**.
 1. Laden Sie eine oder mehrere PDF-Dateien hoch, die Ihre Markenrichtlinien enthalten, und klicken Sie dann auf **Marke hinzufügen**.
@@ -86,7 +86,7 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
    >
    >Richtlinien werden mithilfe Ihrer -Dateien und der Technologie der generativen KI generiert und können ungenau sein. Lesen Sie die extrahierten Richtlinien auf fehlende oder falsche Details und bearbeiten Sie sie, bevor Sie diese Marke veröffentlichen.
 
-1. Klicken Sie abschließend auf **Veröffentlichen**, um die Marke für den KI-Reviewer verfügbar zu machen.
+1. Klicken Sie abschließend auf **Veröffentlichen**, um die Marke für den Inhaltsvalidierer verfügbar zu machen.
 
 ## Manuelles Erstellen einer Marke
 
@@ -128,4 +128,4 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
    ![Manuelles Hinzufügen von Markenelementen](assets/brand-elements.png)
 
 
-1. Klicken Sie abschließend auf **Veröffentlichen**, um die Marke für den KI-Reviewer verfügbar zu machen.
+1. Klicken Sie abschließend auf **Veröffentlichen**, um die Marke für den Inhaltsvalidierer verfügbar zu machen.

@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: 78c2fd4afbe24062cbaea935e9b548ffe6e528ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -31,8 +31,12 @@ Die folgenden Funktionen sind derzeit in der Beta-Version verfügbar:
 
   Weitere Informationen finden Sie unter [Projektdiagnose - Übersicht](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
-* In: The Workfront AI Reviewer
-Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* Der Workfront Content Reviewer
+
+   * Bildrichtlinien befinden sich derzeit in der Beta-Phase. Der Content Reviewer verwendet die Markenrichtlinien, die Sie in Workfront eingerichtet haben, um Inhalte zu überprüfen und den Erstellern von Inhalten während des Prüfungs- und Genehmigungsprozesses Feedback zu geben.
+   * Richtlinien für Markenvoreinstellungen können zur allgemeinen Verfügbarkeit abgerufen werden.
+
+  Weitere Informationen finden Sie [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 * Die Adobe Workfront Planning Designer ist in Closed Beta verfügbar. Sie können uns eine E-Mail senden, um Zugriff auf dieses Programm zu beantragen.
 
